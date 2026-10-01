@@ -46,6 +46,11 @@ const zh: Catalog = {
   "home.sub": "这样想读书时，轻轻一点就能找到我。",
   "home.ios": "点按“分享”按钮，然后选择“添加到主屏幕”。",
   "ui.notNow": "以后再说",
+  "months.line": "这是你在{n}个月内可以达到的成果。",
+  "months.level": "你的水平",
+  "months.time": "阅读时间",
+  "months.pages": "已读页数",
+  "months.books": "读完的书",
   "hello.sub":"每天几分钟读真正的好书，一门语言就会慢慢变成你的。",
 
   /* ── focus ── */
@@ -294,6 +299,11 @@ const zh: Catalog = {
   "recall.sub": "你在阅读时遇到的词，会在快要忘记之前回到这里。",
   "recall.empty": "暂时没有需要复习的内容。读几页，点一点不认识的词，它们就会在这里等你。",
   "recall.soon": "即将推出",
+  "recall.ways": "练习方式",
+  "recall.flash.title": "闪卡",
+  "recall.flash.desc": "翻阅你遇到过的单词，说说你对每个词有多熟。它们会在你快要忘记之前回来。",
+  "recall.talk.title": "对话",
+  "recall.talk.desc": "用你正在学的语言，和一位友好的伙伴聊天，卡住时他会帮你。",
   "mine.title": "我的书",
   "mine.reading": "在读",
   "mine.finished": "已读完",

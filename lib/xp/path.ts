@@ -1,5 +1,5 @@
 import type { LanguageCode } from "@/lib/onboarding/languages";
-import { CEFR, LEVEL_FLOOR, levelFromXp, startingXp, xpPerDay, type Cefr } from "./levels";
+import { CEFR, LEVEL_FLOOR, PAGES_PER_MINUTE, levelFromXp, startingXp, xpPerDay, type Cefr, type LevelState } from "./levels";
 
 /**
  * How long each level up takes, for a reader at a level who commits some minutes a day.
@@ -33,4 +33,29 @@ export function formatDuration(days: number, locale: LanguageCode = "en"): strin
   } catch {
     return `${value} ${unit}${value === 1 ? "" : "s"}`;
   }
+}
+
+/** The first run shows what three months of reading adds up to. */
+export const PROJECTION_MONTHS = 3;
+const DAYS_PER_MONTH = 30;
+/** The versions are 50, 100 and 200 pages; a book is counted as the middle one. */
+export const BOOK_PAGES = 100;
+
+export interface Projection {
+  /** Where they start and where `PROJECTION_MONTHS` of reading `minutes` a day would leave them. */
+  from: LevelState;
+  to: LevelState;
+  /** Minutes spent reading, pages read, and books' worth of pages. */
+  minutes: number;
+  pages: number;
+  books: number;
+}
+
+/** What `PROJECTION_MONTHS` months of `minutes` a day would add up to for a reader at `level`: the same arithmetic as the dashboard. */
+export function projectMonths(level: Cefr | null | undefined, minutes: number): Projection {
+  const days = PROJECTION_MONTHS * DAYS_PER_MONTH;
+  const start = startingXp(level ?? "A1");
+  const total = minutes > 0 ? minutes * days : 0;
+  const pages = Math.round(total * PAGES_PER_MINUTE);
+  return { from: levelFromXp(start), to: levelFromXp(start + days * xpPerDay(minutes)), minutes: total, pages, books: Math.floor(pages / BOOK_PAGES) };
 }

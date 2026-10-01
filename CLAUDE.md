@@ -20,7 +20,7 @@ kept and what is replaced; follow it, do not re-audit it.
 
 The app makes no calls to any AI model at read time (carried over from Mental Stint,
 29 Sep 2026). A model is used only by offline scripts in `scripts/pipeline/`. Do not add
-a runtime LLM call without the owner asking for one by name.
+a runtime LLM call without the owner asking for one by name. The owner has asked for one by name: a Talk option in Recall (1 Oct 2026), a conversation in the language being learned. It is the only one allowed, and not built yet.
 
 Content is data, not code (1 Oct 2026). Versions are JSON served from storage; photos and
 audio sit in object storage behind a CDN. Never put a book, a photo or a clip in `public/`
@@ -63,7 +63,7 @@ One line per milestone when it is done: date, what shipped, anything the next pe
 - O3 Interface in 20 languages — done 1 Oct 2026, owner's request. The language they speak changes the whole app as it is chosen; `/languages` changes it later. Translations are first drafts, **not yet reviewed by native speakers**. Add any new interface text to `lib/i18n/en.ts` first, then to every `messages/<code>.ts`. Books stay English until translation.
 - O4 Dashboard, level and XP — done 1 Oct 2026, owner's request. Sign-up asks how much of the language they know (or an adaptive 5-minute test, English only for now); the home screen opens on a level card (A1–C2, XP bar to the next level), the reading graph in cyan, and the library. XP rules and thresholds are working defaults in `lib/xp/levels.ts`. Not built: the in-app tour, XP from word taps/flashcards (M5/M7), a placement bank for languages other than English, syncing XP (M8).
 - O5 Why, level explainer, time and path — done 1 Oct 2026, owner's requests. The first run is 18 steps: why they are learning, the A1–C2 (CEFR) explainer with Option 1 / Option 2, minutes a day, and how long each level takes at that pace. The XP ladder is now hours of reading (`lib/xp/levels.ts`), so the estimate is honest. **Translations are first drafts, unreviewed by native speakers.**
-- O6 Lex welcomes, then says how quick it is — done 1 Oct 2026, owner's request. Then `go`: Lex celebrates and the run moves on by itself (Back skips it). Lex beside every question reacts to taps. Then `home`: Lex asks to be added to the home screen (install prompt / iPhone how-to; a real widget waits for M11). After "Get started": Lex waves (`hello`), then Lex says "Just N quick questions" (`quick`, N from `QUESTION_STEPS` in `lib/onboarding/steps.ts`). Translations are first drafts.
+- O6 Lex welcomes, then says how quick it is — done 1 Oct 2026, owner's request. Then `go`: Lex celebrates and the run moves on by itself (Back skips it). Then `months`: what 3 months adds up to. Recall lists Flashcards and Talk (soon). Lex beside every question reacts to taps. Then `home`: Lex asks to be added to the home screen (install prompt / iPhone how-to; a real widget waits for M11). After "Get started": Lex waves (`hello`), then Lex says "Just N quick questions" (`quick`, N from `QUESTION_STEPS` in `lib/onboarding/steps.ts`). Translations are first drafts.
 - M1 Content contract — not started
 - M2 Prove the content pipeline — not started (go/no-go on scale recorded in DECISIONS.md)
 - M3 Library and the pick flow — not started

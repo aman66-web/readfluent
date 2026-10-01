@@ -56,6 +56,11 @@ export const EN = {
   "home.sub": "Then I'm one tap away whenever you want to read.",
   "home.ios": "Tap the Share button, then “Add to Home Screen”.",
   "ui.notNow": "Not now",
+  "months.line": "Here's what you can achieve in {n} months.",
+  "months.level": "Your level",
+  "months.time": "Time reading",
+  "months.pages": "Pages read",
+  "months.books": "Books finished",
   "hello.sub": "A few minutes a day with real books, and a language starts to feel like yours.",
 
   /* ── why they are learning ── */
@@ -304,6 +309,11 @@ export const EN = {
   "recall.sub": "The words you meet while reading come back here, just before you'd forget them.",
   "recall.empty": "Nothing to review yet. Read a few pages, tap the words you don't know, and they'll be waiting here.",
   "recall.soon": "Coming soon",
+  "recall.ways": "Ways to practise",
+  "recall.flash.title": "Flashcards",
+  "recall.flash.desc": "Flip through the words you've met and say how well you knew each one. They come back just before you'd forget.",
+  "recall.talk.title": "Talk",
+  "recall.talk.desc": "Have a conversation in the language you're learning, with a friendly partner who helps when you get stuck.",
   "mine.title": "My books",
   "mine.reading": "Reading",
   "mine.finished": "Finished",

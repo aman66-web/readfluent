@@ -46,6 +46,11 @@ const indonesian: Catalog = {
   "home.sub": "Jadi aku hanya sekali ketuk saat kamu mau membaca.",
   "home.ios": "Ketuk tombol Bagikan, lalu “Tambah ke Layar Utama”.",
   "ui.notNow": "Nanti saja",
+  "months.line": "Ini yang bisa kamu capai dalam {n} bulan.",
+  "months.level": "Levelmu",
+  "months.time": "Waktu membaca",
+  "months.pages": "Halaman dibaca",
+  "months.books": "Buku selesai",
   "hello.sub": "Beberapa menit sehari dengan buku asli, dan sebuah bahasa mulai terasa seperti milikmu.",
 
   /* ── focus ── */
@@ -294,6 +299,11 @@ const indonesian: Catalog = {
   "recall.sub": "Kata-kata yang kamu temui saat membaca akan muncul kembali di sini, tepat sebelum kamu melupakannya.",
   "recall.empty": "Belum ada yang perlu diulang. Baca beberapa halaman, ketuk kata yang belum kamu tahu, dan kata-kata itu akan menunggu di sini.",
   "recall.soon": "Segera hadir",
+  "recall.ways": "Cara berlatih",
+  "recall.flash.title": "Kartu kilat",
+  "recall.flash.desc": "Balik kata-kata yang pernah kamu temui dan katakan seberapa kamu mengenalnya. Kata-kata itu kembali tepat sebelum kamu lupa.",
+  "recall.talk.title": "Bicara",
+  "recall.talk.desc": "Ngobrol dalam bahasa yang kamu pelajari dengan teman bicara yang ramah dan membantu saat kamu buntu.",
   "mine.title": "Bukuku",
   "mine.reading": "Sedang dibaca",
   "mine.finished": "Selesai",

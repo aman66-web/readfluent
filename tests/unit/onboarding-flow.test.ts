@@ -17,9 +17,9 @@ vi.mock("@capacitor/core", () => ({ Capacitor: { isNativePlatform: () => false, 
 const read = (p: string) => readFileSync(new URL(`../../${p}`, import.meta.url), "utf8");
 
 describe("the steps", () => {
-  it("are the first run's twenty-two, in order, with the app's language first and the library last", () => {
-    expect(STEP_IDS).toHaveLength(22);
-    expect(new Set(STEP_IDS).size).toBe(22);
+  it("are the first run's twenty-three, in order, with the app's language first and the library last", () => {
+    expect(STEP_IDS).toHaveLength(23);
+    expect(new Set(STEP_IDS).size).toBe(23);
     expect(STEP_IDS[0]).toBe("app");
     expect(STEP_IDS[1]).toBe("intro");
     expect(STEP_IDS[STEP_IDS.length - 1]).toBe("ready");
@@ -365,9 +365,9 @@ describe("Lex celebrates, then the run moves on by itself", () => {
 });
 
 describe("Lex asks to be added to the home screen", () => {
-  it("comes after the promise and before signing in", () => {
+  it("comes after the promise and before the three-months screen", () => {
     expect(STEP_IDS[STEP_IDS.indexOf("pledge") + 1]).toBe("home");
-    expect(STEP_IDS[STEP_IDS.indexOf("home") + 1]).toBe("account");
+    expect(STEP_IDS[STEP_IDS.indexOf("home") + 1]).toBe("months");
   });
 
   it("shows the ask, the tile, Continue and Not now", async () => {
@@ -388,5 +388,52 @@ describe("installing", () => {
     expect(isIos("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)", 5)).toBe(true);
     expect(isIos("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)", 0)).toBe(false);
     expect(isIos("Mozilla/5.0 (Linux; Android 14; Pixel 8)", 5)).toBe(false);
+  });
+});
+
+describe("Lex shows what three months adds up to", () => {
+  it("comes right after the home-screen step", () => {
+    expect(STEP_IDS[STEP_IDS.indexOf("home") + 1]).toBe("months");
+    expect(STEP_IDS[STEP_IDS.indexOf("months") + 1]).toBe("account");
+  });
+
+  it("works the projection out from the level and the minutes, with the dashboard's arithmetic", async () => {
+    const { projectMonths, PROJECTION_MONTHS, BOOK_PAGES } = await import("@/lib/xp/path");
+    const { xpPerDay, startingXp, levelFromXp } = await import("@/lib/xp/levels");
+    expect(PROJECTION_MONTHS).toBe(3);
+    const p = projectMonths("A2", 20);
+    expect(p.from.level).toBe("A2");
+    expect(p.minutes).toBe(20 * 90);
+    expect(p.pages).toBe(20 * 90 * 3);
+    expect(p.books).toBe(Math.floor(p.pages / BOOK_PAGES));
+    expect(p.to.xp).toBe(startingXp("A2") + 90 * xpPerDay(20));
+    expect(p.to.code).toBe(levelFromXp(p.to.xp).code);
+    // More time never leaves them lower, and no time leaves them where they were.
+    expect(projectMonths("B1", 30).to.xp).toBeGreaterThan(projectMonths("B1", 10).to.xp);
+    expect(projectMonths("B1", 0).to.code).toBe(projectMonths("B1", 0).from.code);
+    expect(projectMonths(null, 10).from.level).toBe("A1");
+  });
+
+  it("shows Lex's line, the level, the three totals and the estimate note", async () => {
+    const { MonthsScreen } = await import("@/components/onboarding/Plan");
+    const html = renderToStaticMarkup(createElement(MonthsScreen, { at: 17, of: 23, level: "A1", minutes: 10, onBack: () => {}, onContinue: () => {} }));
+    const t = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+    expect(t).toContain("what you can achieve in 3 months.");
+    for (const s of ["Your level", "Time reading", "Pages read", "Books finished", "estimate, not a promise"]) expect(t, s).toContain(s);
+    // Ten minutes a day from A1 is still A1 after three months: the number is honest, not flattering.
+    expect(t).toContain("A1.1");
+  });
+});
+
+describe("Recall offers ways to practise", () => {
+  it("lists flashcards and talk, both marked as coming soon", async () => {
+    const { RecallView } = await import("@/components/recall/RecallView");
+    const html = renderToStaticMarkup(createElement(RecallView));
+    const t = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+    expect(html).toContain('data-way="flashcards"');
+    expect(html).toContain('data-way="talk"');
+    expect(t).toContain("Ways to practise");
+    expect(t).toContain("conversation in the language you");
+    expect((t.match(/Coming soon/g) ?? []).length).toBe(2);
   });
 });

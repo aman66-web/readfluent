@@ -48,6 +48,11 @@ const nl: Catalog = {
   "home.sub": "Dan ben ik maar één tik weg als je wilt lezen.",
   "home.ios": "Tik op de deelknop en kies “Zet op beginscherm”.",
   "ui.notNow": "Niet nu",
+  "months.line": "Dit kun je in {n} maanden bereiken.",
+  "months.level": "Jouw niveau",
+  "months.time": "Leestijd",
+  "months.pages": "Gelezen pagina's",
+  "months.books": "Uitgelezen boeken",
   "hello.sub":"Een paar minuten per dag met echte boeken, en een taal begint als de jouwe te voelen.",
 
   /* ── focus ── */
@@ -298,6 +303,11 @@ const nl: Catalog = {
   "recall.sub": "De woorden die je tijdens het lezen tegenkomt, komen hier terug, vlak voordat je ze zou vergeten.",
   "recall.empty": "Nog niets te herhalen. Lees een paar pagina's, tik op de woorden die je niet kent, en ze wachten hier op je.",
   "recall.soon": "Binnenkort",
+  "recall.ways": "Manieren om te oefenen",
+  "recall.flash.title": "Flashcards",
+  "recall.flash.desc": "Blader door de woorden die je tegenkwam en zeg hoe goed je ze kende. Ze komen terug vlak voordat je ze vergeet.",
+  "recall.talk.title": "Praten",
+  "recall.talk.desc": "Voer een gesprek in de taal die je leert, met een vriendelijke gesprekspartner die helpt als je vastloopt.",
   "mine.title": "Mijn boeken",
   "mine.reading": "Aan het lezen",
   "mine.finished": "Uitgelezen",

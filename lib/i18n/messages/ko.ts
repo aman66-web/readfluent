@@ -46,6 +46,11 @@ const ko: Catalog = {
   "home.sub": "읽고 싶을 때 한 번만 누르면 내가 있어요.",
   "home.ios": "공유 버튼을 누른 다음 “홈 화면에 추가”를 선택하세요.",
   "ui.notNow": "나중에",
+  "months.line": "{n}개월 동안 이룰 수 있는 것은 이렇습니다.",
+  "months.level": "나의 레벨",
+  "months.time": "독서 시간",
+  "months.pages": "읽은 페이지",
+  "months.books": "완독한 책",
   "hello.sub":"하루 몇 분, 진짜 책을 읽다 보면 언어가 어느새 내 것이 돼요.",
 
   /* ── focus ── */
@@ -296,6 +301,11 @@ const ko: Catalog = {
   "recall.sub": "읽다가 만난 단어가 잊어버리기 직전에 여기로 돌아와요.",
   "recall.empty": "아직 복습할 게 없어요. 몇 페이지 읽고 모르는 단어를 탭하면 여기서 기다리고 있을 거예요.",
   "recall.soon": "곧 공개",
+  "recall.ways": "연습 방법",
+  "recall.flash.title": "플래시카드",
+  "recall.flash.desc": "만났던 단어를 넘겨 보며 얼마나 알고 있었는지 알려 주세요. 잊기 직전에 다시 나타납니다.",
+  "recall.talk.title": "대화",
+  "recall.talk.desc": "배우는 언어로, 막힐 때 도와주는 친절한 상대와 대화해 보세요.",
   "mine.title": "내 책",
   "mine.reading": "읽는 중",
   "mine.finished": "완독",

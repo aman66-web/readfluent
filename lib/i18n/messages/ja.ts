@@ -46,6 +46,11 @@ const ja: Catalog = {
   "home.sub": "読みたいときに、ワンタップで会えるよ。",
   "home.ios": "共有ボタンをタップして、「ホーム画面に追加」を選んでね。",
   "ui.notNow": "今はしない",
+  "months.line": "{n}か月でここまで達成できます。",
+  "months.level": "あなたのレベル",
+  "months.time": "読書時間",
+  "months.pages": "読んだページ数",
+  "months.books": "読み終えた本",
   "hello.sub":"毎日数分、本物の本を読むだけで、言語が少しずつあなたのものになります。",
 
   /* ── focus ── */
@@ -294,6 +299,11 @@ const ja: Catalog = {
   "recall.sub": "読んでいて出会った単語が、忘れる直前にここへ戻ってきます。",
   "recall.empty": "復習できるものはまだありません。数ページ読んで、知らない単語をタップすると、ここで待っています。",
   "recall.soon": "近日公開",
+  "recall.ways": "練習の方法",
+  "recall.flash.title": "フラッシュカード",
+  "recall.flash.desc": "出会った単語をめくって、どれくらい知っていたか答えましょう。忘れる直前に戻ってきます。",
+  "recall.talk.title": "会話",
+  "recall.talk.desc": "学んでいる言語で、困ったときに助けてくれる親切な相手と会話しましょう。",
   "mine.title": "マイブック",
   "mine.reading": "読書中",
   "mine.finished": "読了",

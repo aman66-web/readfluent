@@ -42,6 +42,11 @@ const vi: Catalog = {
   "home.sub": "Như vậy chỉ cần chạm một cái là mình có mặt khi bạn muốn đọc.",
   "home.ios": "Chạm nút Chia sẻ, rồi chọn “Thêm vào Màn hình chính”.",
   "ui.notNow": "Để sau",
+  "months.line": "Đây là điều bạn có thể đạt được trong {n} tháng.",
+  "months.level": "Trình độ của bạn",
+  "months.time": "Thời gian đọc",
+  "months.pages": "Số trang đã đọc",
+  "months.books": "Số sách đã đọc xong",
   "hello.sub":"Mỗi ngày vài phút với sách thật, và một ngôn ngữ sẽ dần trở nên của riêng bạn.",
 
 
@@ -280,6 +285,11 @@ const vi: Catalog = {
   "recall.sub": "Những từ bạn gặp khi đọc sẽ quay lại đây, ngay trước khi bạn quên chúng.",
   "recall.empty": "Chưa có gì để ôn. Hãy đọc vài trang, chạm vào những từ bạn chưa biết, và chúng sẽ chờ bạn ở đây.",
   "recall.soon": "Sắp có",
+  "recall.ways": "Cách ôn luyện",
+  "recall.flash.title": "Thẻ ghi nhớ",
+  "recall.flash.desc": "Lật qua những từ bạn đã gặp và cho biết bạn nhớ mỗi từ đến đâu. Chúng quay lại ngay trước khi bạn quên.",
+  "recall.talk.title": "Trò chuyện",
+  "recall.talk.desc": "Trò chuyện bằng ngôn ngữ bạn đang học với một người bạn thân thiện, sẵn sàng giúp khi bạn bí.",
   "mine.title": "Sách của tôi",
   "mine.reading": "Đang đọc",
   "mine.finished": "Đã đọc xong",

@@ -46,6 +46,11 @@ const it: Catalog = {
   "home.sub": "Così sarò a un tocco di distanza quando vorrai leggere.",
   "home.ios": "Tocca il pulsante Condividi, poi “Aggiungi a Home”.",
   "ui.notNow": "Non ora",
+  "months.line": "Ecco cosa puoi ottenere in {n} mesi.",
+  "months.level": "Il tuo livello",
+  "months.time": "Tempo di lettura",
+  "months.pages": "Pagine lette",
+  "months.books": "Libri finiti",
   "hello.sub":"Pochi minuti al giorno con libri veri, e una lingua comincia a sembrarti tua.",
 
   /* ── focus ── */
@@ -295,6 +300,11 @@ const it: Catalog = {
   "recall.sub": "Le parole che incontri mentre leggi tornano qui, poco prima che tu le dimentichi.",
   "recall.empty": "Ancora niente da ripassare. Leggi qualche pagina, tocca le parole che non conosci e ti aspetteranno qui.",
   "recall.soon": "In arrivo",
+  "recall.ways": "Modi per esercitarti",
+  "recall.flash.title": "Flashcard",
+  "recall.flash.desc": "Sfoglia le parole che hai incontrato e dì quanto le conoscevi. Tornano poco prima che tu le dimentichi.",
+  "recall.talk.title": "Conversazione",
+  "recall.talk.desc": "Chiacchiera nella lingua che stai imparando con un compagno cordiale che ti aiuta quando ti blocchi.",
   "mine.title": "I miei libri",
   "mine.reading": "In lettura",
   "mine.finished": "Finiti",

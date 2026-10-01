@@ -8,7 +8,8 @@ import { formatReadingTime } from "@/lib/i18n/format";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { WhyId } from "@/lib/onboarding/answers";
 import type { LanguageCode } from "@/lib/onboarding/languages";
-import { formatDuration, pathFrom } from "@/lib/xp/path";
+import { PROJECTION_MONTHS, formatDuration, pathFrom, projectMonths } from "@/lib/xp/path";
+import type { MessageId } from "@/lib/i18n/en";
 import type { Cefr } from "@/lib/xp/levels";
 import { DAILY_MINUTES } from "@/lib/onboarding/firstrun";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
@@ -110,6 +111,52 @@ export function PathScreen({ at, of, level, minutes, onBack, onContinue }: Nav &
             <p className="ob-faint wel-in mt-4 text-[12px] leading-snug" style={{ animationDelay: `${1200 + steps.length * 280}ms` }}>{t("path.note")}</p>
           </>
         )}
+      </div>
+    </GuideFrame>
+  );
+}
+
+/**
+ * "Here's what you can achieve in 3 months" — Lex works it out from the level they said and the
+ * minutes they chose: the level they would reach (with what that level can do), the hours,
+ * pages and books of reading. The same arithmetic as the dashboard, and said to be an estimate.
+ */
+export function MonthsScreen({ at, of, level, minutes, onBack, onContinue }: Nav & { level: Cefr | null; minutes: number }) {
+  const t = useT();
+  const locale = useLocale();
+  const n = (v: number) => v.toLocaleString(locale);
+  const line = t("months.line", { n: PROJECTION_MONTHS });
+  const guide = useGuide(line);
+  const p = projectMonths(level, minutes);
+  const same = p.from.code === p.to.code;
+  const stats = [
+    { id: "months.time" as const, value: formatReadingTime(p.minutes, locale) },
+    { id: "months.pages" as const, value: n(p.pages) },
+    { id: "months.books" as const, value: n(p.books) },
+  ];
+  return (
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
+      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
+        <GuideHead key={line} guide={guide} line={line} mood="cheer" />
+
+        <div className="guide-card wel-in relative mt-6 rounded-[22px] px-5 py-4" style={{ animationDelay: "900ms" }}>
+          <p className="ob-muted text-[12px] font-bold uppercase tracking-[0.1em]">{t("months.level")}</p>
+          <p className="tabular mt-1 flex items-center gap-3 text-[34px] font-bold leading-none tracking-[-0.02em]" dir="ltr">
+            {!same && <><span className="ob-muted">{p.from.code}</span><span className="ob-muted text-[22px]" aria-hidden>→</span></>}
+            <span className="text-[var(--ob-deep)]">{p.to.code}</span>
+          </p>
+          <p className="ob-muted mt-3 text-[13.5px] leading-snug">{t(`cando.${p.to.code}` as MessageId)}</p>
+        </div>
+
+        <ul className="mt-3 grid grid-cols-3 gap-2.5">
+          {stats.map((s, i) => (
+            <li key={s.id} className="guide-card wel-in relative rounded-[18px] px-3 py-3" style={{ animationDelay: `${1200 + i * 220}ms` }}>
+              <span className="tabular block text-[19px] font-bold leading-tight tracking-[-0.01em]">{s.value}</span>
+              <span className="ob-muted mt-1 block text-[11.5px] font-semibold leading-tight">{t(s.id)}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="ob-faint wel-in mt-4 text-[12px] leading-snug" style={{ animationDelay: "2000ms" }}>{t("path.note")}</p>
       </div>
     </GuideFrame>
   );

@@ -48,6 +48,11 @@ const pl: Catalog = {
   "home.sub": "Wtedy będę o jedno dotknięcie od ciebie, gdy zechcesz czytać.",
   "home.ios": "Stuknij przycisk Udostępnij, a potem „Do ekranu początkowego”.",
   "ui.notNow": "Nie teraz",
+  "months.line": "Oto, co możesz osiągnąć po {n} miesiącach.",
+  "months.level": "Twój poziom",
+  "months.time": "Czas czytania",
+  "months.pages": "Przeczytane strony",
+  "months.books": "Skończone książki",
   "hello.sub": "Kilka minut dziennie z prawdziwymi książkami, a język zacznie być naprawdę Twój.",
 
   /* ── focus ── */
@@ -298,6 +303,11 @@ const pl: Catalog = {
   "recall.sub": "Słowa, które poznajesz podczas czytania, wracają tutaj tuż przed tym, zanim je zapomnisz.",
   "recall.empty": "Na razie nic do powtórki. Przeczytaj kilka stron, stuknij słowa, których nie znasz, a będą tu na ciebie czekać.",
   "recall.soon": "Wkrótce",
+  "recall.ways": "Sposoby ćwiczenia",
+  "recall.flash.title": "Fiszki",
+  "recall.flash.desc": "Przeglądaj poznane słowa i oceń, jak dobrze każde z nich znasz. Wracają tuż przed tym, zanim je zapomnisz.",
+  "recall.talk.title": "Rozmowa",
+  "recall.talk.desc": "Porozmawiaj w języku, którego się uczysz, z przyjaznym partnerem, który pomoże, gdy utkniesz.",
   "mine.title": "Moje książki",
   "mine.reading": "Czytam",
   "mine.finished": "Przeczytane",

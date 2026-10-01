@@ -6,7 +6,7 @@ import { Suspense, useMemo, useState, useSyncExternalStore } from "react";
 import { FirstScreen } from "@/components/welcome/FirstScreen";
 import { GoScreen, HeardScreen, HelloScreen, QuickScreen, WhyScreen } from "@/components/onboarding/Questions";
 import { ReadyScreen } from "@/components/onboarding/Ready";
-import { FutureScreen, PathScreen, PledgeScreen, TimeScreen } from "@/components/onboarding/Plan";
+import { FutureScreen, MonthsScreen, PathScreen, PledgeScreen, TimeScreen } from "@/components/onboarding/Plan";
 import { AppLanguageScreen } from "@/components/onboarding/AppLanguage";
 import { HomeScreen } from "@/components/onboarding/Home";
 import { LevelScreen } from "@/components/onboarding/Level";
@@ -132,6 +132,7 @@ function Welcome() {
     return <PledgeScreen {...nav} minutes={minutes} done={a.pledged} onDone={() => saveAnswers({ pledged: true })} />;
   }
   if (step === "home") return <HomeScreen {...nav} />;
+  if (step === "months") return <MonthsScreen {...nav} level={a.level} minutes={minutes} />;
   if (step === "account") return <AccountScreen at={i} of={STEP_IDS.length} onBack={back} error={authError} onNext={next} />;
   if (step === "interests") return <InterestsScreen {...nav} value={a.interests} onChange={(interests) => saveAnswers({ interests })} />;
   return <ReadyScreen {...nav} interests={a.interests} minutes={minutes} level={a.level} learn={a.learn} />;
