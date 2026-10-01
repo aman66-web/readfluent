@@ -69,6 +69,7 @@ One line per milestone when it is done: date, what shipped, anything the next pe
 - M3 Library and the pick flow — not started
 - M4 The reader — not started
 - M5 Word cards — started 1 Oct 2026 at the owner's request (reader follows the owner's template: tap a word, translation line on top, word card at the bottom, Listen/Slowly/Save). Demo data only (five Spanish pages, `lib/preview/spanish.ts`); the translation pipeline and real dictionaries are M2/M5.
+- Audit pass — 1 Oct 2026, overnight, owner's request. Four review agents (reader, onboarding, shell/security, languages/accessibility) and fixes: XP integrity (storage fallback, finish needs 80% of pages), reader keyboard/focus/RTL/voice, safe-area padding now adds to each screen's own, dialogs share `components/Modal.tsx`, proxy signs in only page loads and keeps the first-screen cookie alive, security headers, device-only delete never touches the account, contrast and tap targets. Still open: native review of translations, the real API pilot, Supabase setup.
 - M6 Line audio — not started
 - M7 Flashcards — not started
 - M8 Accounts and sync — not started
