@@ -10,7 +10,8 @@ import type { MessageId } from "@/lib/i18n/en";
 import { FOCUS_IDS, HEARD_IDS, HEARD_OTHER_MAX, type FocusId, type HeardId } from "@/lib/onboarding/answers";
 import { SCROLL_HOURS, SCROLL_IDS, SWAP_MINUTES, scrollDaysAYear, type ScrollId } from "@/lib/onboarding/firstrun";
 import { useCountUp } from "./count";
-import { GuideFrame, GuideHead, Orb, Said, useGuide } from "./Guide";
+import { GuideFrame, GuideHead, Said, useGuide } from "./Guide";
+import { GuideBook } from "./GuideBook";
 import { TickIcon } from "./ui";
 
 /** The props every screen gets from the run: where it is, and the two ways to move. */
@@ -19,7 +20,7 @@ interface Nav { at: number; of: number; onBack: () => void; onContinue: () => vo
 /* ── hello ───────────────────────────────────────────────────────────────── */
 
 /**
- * The screen after "Get started": the guide says hello — the sphere of lamps
+ * The screen after "Get started": the guide says hello — the living book
  * large in the middle of the white, and what it is saying set large under it.
  */
 export function HelloScreen({ at, of, onBack, onContinue }: Nav) {
@@ -31,7 +32,7 @@ export function HelloScreen({ at, of, onBack, onContinue }: Nav) {
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
       <div className="relative flex min-h-0 flex-1 flex-col items-center justify-center pb-6 text-center">
-        <Orb talking={guide.talking} className="w-[min(62vw,260px)]" />
+        <GuideBook talking={guide.talking} className="w-[min(70vw,290px)]" />
         <p className="ed-serif ob-muted mt-8 text-[15px] italic">{t("guide.name")}</p>
         <Said line={line} durationMs={lineMs} className="mt-2 max-w-[20rem] text-[34px] font-light leading-[1.15] tracking-[-0.025em]" />
         <p className="wel-in ob-muted mt-3 max-w-[19rem] text-[17px] leading-snug" style={{ animationDelay: `${lineMs}ms` }}>{sub}</p>

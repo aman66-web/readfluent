@@ -3,13 +3,14 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
+import { GuideBook } from "./GuideBook";
 import { PrimaryButton } from "./ui";
 
 /**
  * The guide: the first-run screens where the app talks the reader through it. The
  * frame is what they share — a back arrow, the run's progress, and Continue at the
- * foot — then the guide itself (a sphere of lamps), and the guide saying its line:
- * the lamps ripple out from the middle while the words arrive one after another,
+ * foot — then the guide itself (a living book, ./GuideBook), and the guide saying its line:
+ * the pages turn faster while the words arrive one after another,
  * and the line sits large on the white ground rather than in a bubble.
  *
  * Adapted from the first run of the app this one's engineering came from, with
@@ -108,7 +109,7 @@ export function GuideHead({ guide, line, sub }: { guide: Guide; line: string; su
   return (
     <div className="shrink-0">
       <div className="flex items-center gap-3">
-        <Orb talking={guide.talking} className="w-[52px] shrink-0" />
+        <GuideBook talking={guide.talking} className="w-[60px] shrink-0" />
         <p className="ed-serif ob-muted text-[14px] italic">{t("guide.name")}</p>
       </div>
       <Said line={line} durationMs={guide.totalMs} className="mt-3 text-[29px] font-light leading-[1.12] tracking-[-0.025em]" />
@@ -132,46 +133,5 @@ export function Said({ line, durationMs, className = "" }: { line: string; durat
         </span>
       ))}
     </p>
-  );
-}
-
-/*
- * The guide itself: a sphere of lamps, the dot-matrix idea made round. Lamps are
- * packed in offset rows inside a circle; each is smaller and dimmer toward the
- * edge, so the disc reads as a lit ball, coloured from bright cyan at the middle
- * through teal to a deep blue at the rim (deep enough to show on white).
- */
-const R = 100;
-function lamps(pitch: number, size: number) {
-  const out: { x: number; y: number; r: number; d: number; c: string }[] = [];
-  let row = 0;
-  for (let y = -R; y <= R; y += pitch * 0.87, row++) {
-    for (let x = -R + (row % 2 ? pitch / 2 : 0); x <= R; x += pitch) {
-      const d = Math.hypot(x, y) / R;
-      if (d > 1) continue;
-      const c = d < 0.35 ? "#06B6D4" : d < 0.6 ? "#0891B2" : d < 0.82 ? "#0E7490" : "#164E63";
-      out.push({ x: +x.toFixed(1), y: +y.toFixed(1), r: +((size - d * 1.9) * (pitch / 12.5)).toFixed(2), d: +d.toFixed(3), c });
-    }
-  }
-  return out;
-}
-const LAMPS = lamps(12.5, 4.3);
-
-export function Orb({ talking, className = "" }: { talking: boolean; className?: string }) {
-  return (
-    <svg viewBox="-120 -120 240 240" className={`lamp-orb ${talking ? "lamp-talking" : ""} ${className}`} aria-hidden>
-      <defs>
-        <radialGradient id="lamp-glow">
-          <stop offset="0" stopColor="#22D3EE" stopOpacity={0.4} />
-          <stop offset=".6" stopColor="#06B6D4" stopOpacity={0.12} />
-          <stop offset="1" stopColor="#0891B2" stopOpacity={0} />
-        </radialGradient>
-      </defs>
-      <circle className="lamp-halo" r={118} fill="url(#lamp-glow)" />
-      {LAMPS.map((l, i) => (
-        <circle key={i} className="lamp" cx={l.x} cy={l.y} r={l.r} fill={l.c}
-                style={{ ["--d" as string]: l.d, ["--o" as string]: +(1 - l.d * l.d * 0.32).toFixed(3) }} />
-      ))}
-    </svg>
   );
 }
