@@ -32,8 +32,13 @@ A page is 28–35 words, a version's page count is exactly its length, and a ver
 publishes only when every gate passes. These are enforced by `scripts/validate-content.ts`,
 not by hand. A health book without its "not medical advice" line fails validation.
 
+Pictures and phone storage (owner, 1 Oct 2026): each book has one pool of 200 generated
+photos, shared by all nine versions; 200-page uses all, 100-page every 2nd, 50-page every
+4th. The app installs as a thin shell (under 2 MB); nothing is stored on the phone until
+the reader downloads. Photos are kept once per book, audio is optional in a download.
+
 Offline (1 Oct 2026): nothing persists unless the reader explicitly downloads it. One
-cache bucket per downloaded version; the app shell is cached once. Reading online
+cache bucket per downloaded version (text, audio) plus one per book (its photos); the app shell is cached once. Reading online
 leaves nothing behind.
 
 Accounts and money (1 Oct 2026, working defaults, owner to confirm): reading needs no

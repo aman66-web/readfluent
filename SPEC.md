@@ -63,14 +63,28 @@ Everything is in English for now; translation comes later.
 | Pages per book (3 levels × (50 + 100 + 200)) | 1,050 |
 | Pages in the library | 283,500 |
 | Words of text at ~31 words/page | ~8.8M |
-| Photos, if shared across levels and reused across lengths (270 × 200) | ~54,000 |
+| Photos: one pool of 200 per book, shared by all 9 versions (270 × 200) | 54,000 |
 | Line-audio clips (one per page, normal speed; "slowly" is playback rate) | ~283,500 |
 
-Estimates, to be replaced by measurements in M2. Consequences, already settled:
+Estimates, to be replaced by measurements in M2. Consequences, already settled (owner, 1 Oct 2026 for the photo pool):
 
 - Content is **data served from storage**, never compiled into the app build. Mental Stint compiles its books into the bundle (`lib/books/parts`, 5.3 MB for ~150 short books); that does not survive 8.8M words.
 - Photos and audio live in **object storage behind a CDN**, never in the repo and never in `public/`.
 - A version is one small JSON file. 2,430 of them are cheap; the photos and audio are the weight.
+- **One photo pool per book: 200 scenes, nested.** Level never changes the pictures. The 200-page version uses all 200 scenes; the 100-page version uses every 2nd; the 50-page version uses every 4th. So the 50 are inside the 100, which are inside the 200, and a book is illustrated once, not nine times.
+- **Nothing is on the phone until the reader asks.** The installed app is a thin shell (under 2 MB, enforced). Books are read from the server; only an explicit download stores anything, and photos are stored once per book, not once per version.
+
+### Size per version (estimates, measured in M2)
+
+At ~800 px wide WebP (~30–50 KB a photo) and mono speech audio (~50 KB a clip):
+
+| Version | Photos | Audio | Text | Download with audio | Without audio |
+| --- | --- | --- | --- | --- | --- |
+| 50 pages | ~2 MB | ~2.5 MB | ~15 KB | ~4–5 MB | ~2 MB |
+| 100 pages | ~4 MB | ~5 MB | ~30 KB | ~8–10 MB | ~4 MB |
+| 200 pages | ~8 MB | ~10 MB | ~60 KB | ~16–20 MB | ~8 MB |
+
+Photos are shared across a book's versions, so reading A2 then B1 of the same book stores the 200 photos once. Server side, ~54,000 photos (~2 GB) and ~283,500 clips (~14 GB) is a few tens of dollars a month in object storage, not a problem; the phone is the constraint, hence the rules above.
 
 ## 8. What the template gives us
 
@@ -127,10 +141,11 @@ Supabase: users, sync_docs, events       RevenueCat → webhook → users.plan  
 ### Content model
 
 ```
-Book    { slug, title, author?, kind: "classic" | "inspired", inspiredBy?, category, blurb, cover, health?: true }
-Version { slug, level: "A1A2"|"B1B2"|"C1C2", length: 50|100|200, pages: Page[], words: Record<word, Entry>, checks }
-Page    { n, text, photo, audio? }            // text: 28–35 words
-Entry   { root, form, pron, meaning }         // level-agnostic, keyed by the word as it appears; one per language later
+Book    { slug, title, author?, kind: "classic" | "inspired", inspiredBy?, category, blurb, cover, health?: true, scenes: Scene[200] }
+Scene   { n: 1..200, photo, prompt }          // the book's one photo pool; written once, level-independent
+Version { slug, level: "A1A2"|"B1B2"|"C1C2", length: 50|100|200, pages: Page[], checks }
+Page    { n, text, scene, audio? }            // text: PAGE_WORDS (28–35); scene is one of the book's 200, nested: 200 = all, 100 = every 2nd, 50 = every 4th, strictly increasing
+Entry   { root, form, pron, meaning }         // ONE library-wide dictionary keyed by headword, shared by every book; a book downloads only its slice (dict/<slug>.json). Per-book sense override where a word means something else there. One per language later
 checks  { cefr, wordCountOk, pageCountOk, generatedAt, pipeline }
 ```
 
@@ -151,11 +166,11 @@ Copy the template from `span/revise` at `8a7f13c` to this repo's root, excluding
 *Done when:* `npm ci && npm run lint && npm run typecheck && npm test && npm run build` pass; `grep -ri -E "mental ?stint|mentalstint|mental_stint|lumen|revise\."` over tracked files returns nothing outside SPEC.md, DECISIONS.md and CLAUDE.md; tracked size is under 15 MB; `scripts/check-native-bundle.mjs` proves `webDir` plus `.capacitorignore` yields under 2 MB (and `cap sync` on a Mac is logged as run); no `.env*` or keystore is tracked.
 
 **M1 — Content contract**
-Zod schemas for Book, Version, Page, Entry (§9). A validator CLI (`scripts/validate-content.ts`) checking: 28–35 words per page, page count equals length, 3 levels × 3 lengths present, photo refs resolve, "not medical advice" present on every health book. A loader. One public-domain fixture book with all 9 versions (placeholder text of correct shape; real text comes from M2).
-*Done when:* the fixture validates; tests reject a 27-word page, a 36-word page, a 49-page "50" version, a missing version, and a health book without the line.
+Zod schemas for Book, Scene, Version, Page, Entry (§9) and one `PAGE_WORDS` constant. A validator CLI (`scripts/validate-content.ts`) checking: words per page within `PAGE_WORDS`, page count equals length, 3 levels × 3 lengths present, the book has exactly 200 scenes whose photos resolve, every page's scene is in its length's nested subset (200 all, 100 every 2nd, 50 every 4th) and increasing, "not medical advice" present on every health book. A loader. One public-domain fixture book with all 9 versions (placeholder text of correct shape; real text comes from M2).
+*Done when:* the fixture validates; tests reject a 27-word page, a 36-word page, a 49-page "50" version, a missing version, a page pointing at a scene outside its length's subset, a book with 199 scenes, and a health book without the line.
 
 **M2 — Prove the content pipeline**
-`scripts/pipeline/`: brief → write → split into pages → word-count gate → CEFR gate → word-entry extraction → photo prompts → audio scripts → publish JSON. Resumable per version, cost-capped, logs every rejection. Pilot: 3 books (one classic, one "inspired", one health) × 9 versions = 27 versions.
+`scripts/pipeline/`: brief → one 200-beat storyboard per book (level-independent) → 200 photo prompts and photos → per version, write page text anchored on its scenes → word-count gate → CEFR gate → dictionary entries for new headwords only → audio scripts → publish JSON. Resumable per version, cost-capped, logs every rejection. Pilot: 3 books (one classic, one "inspired", one health) × 9 versions = 27 versions.
 *Done when:* all 27 pass every gate with no hand edits to page text; a deliberately too-hard C2 text submitted as A1–A2 is rejected by the CEFR gate; the "inspired" pilot passes an originality check against its source brief; the run reports cost, time and rejection rate per version, and those extrapolate to 2,430 versions in `DECISIONS.md` with a go/no-go.
 
 **M3 — Library and the pick flow**
@@ -183,8 +198,8 @@ Wire the kept auth (email code, Google, Apple) to ReadFluent's own Supabase proj
 *Done when:* an anonymous reader who signs in keeps every bookmark and card; a second browser signed into the same account receives them; a store-reviewer address signs in with a password and is Pro; with no database configured the app still reads in local mode.
 
 **M9 — Offline downloads**
-Generalise `sw.js` from per-book to per-version buckets holding JSON, photos and audio. Download, progress, remove, and a storage-used readout. Delete every Mental Stint list from the worker.
-*Done when:* a downloaded version reads in airplane mode, photos and audio included; a version that was *not* downloaded leaves nothing in Cache Storage after being read online (the "nothing persists" audit); removing a download frees its bucket; the shell is cached once, not per version.
+Generalise `sw.js` from per-book to a per-book photo bucket (200 photos, kept once however many versions are downloaded) plus a per-version bucket (text and audio). Download with or without audio, progress, remove, and a storage-used readout. Removing the last version of a book removes its photos. Delete every Mental Stint list from the worker.
+*Done when:* a downloaded version reads in airplane mode, photos and audio included; a version that was *not* downloaded leaves nothing in Cache Storage after being read online (the "nothing persists" audit); downloading A2 then B1 of one book stores the photos once; downloading without audio stores none; removing a download frees its bucket; the shell is cached once, not per version; the installed app bundle is under 2 MB.
 
 **M10 — Plans and purchases**
 Rewrite `lib/plan.ts` to the chosen model (default: free 50-page samples, paid 100/200). RevenueCat entitlement and offering, webhook, paywall, restore. A version already started stays open.
@@ -239,7 +254,7 @@ Each has a working default in DECISIONS.md so the build isn't blocked.
 - **Offline reading** — explicit download only.
 - **First translation languages.**
 - **Launch phones** — iOS, Android, or both first.
-- **Photo source** — "self-produced" at ~54,000 images.
+- **Photo source** — decided: generated, 200 per book (DECISIONS.md); style and tool still to pick in M2.
 - **Where photos and audio are stored** — Supabase Storage by default.
 
 ## 14. Risks
@@ -248,7 +263,7 @@ Each has a working default in DECISIONS.md so the build isn't blocked.
 - **Inspired-by originality.** Must be new writing, never a close retelling.
 - **Health content.** Needs the "not medical advice" line, validated, not remembered.
 - **Production load.** 2,430 versions is only realistic with a script that automates writing and checks. Photos and audio are the larger bottleneck: ~283,500 pages, each needing both.
-- **Photo licensing.** "Self-produced" at tens of thousands of images needs a stated plan (shoot, generate, or mix).
+- **Photo licensing and consistency.** 54,000 generated images need a usage-rights check on the chosen tool and one consistent style per book so 200 scenes look like one story.
 - **Classics edition.** Only public-domain texts keep their real titles; each classic needs a copyright check in every market we launch in.
 - **Bundle bloat.** Mental Stint shipped 239 MB of audio into every native build for months. Guarded by `.capacitorignore`, a stub `webDir`, and acceptance test 13.
 - **Template drag.** 38 files carry the old storage prefix and several carry the old name; the M0 grep is the safety net.
