@@ -65,7 +65,15 @@ describe("the level step", () => {
     const t = text(html);
     expect(t).toContain("How much English do you already know?");
     for (const id of ["A1", "A2", "B1", "B2", "C1", "C2"]) expect(t).toContain(id);
-    expect(t).toContain("Not sure? Take a 5-minute test");
+    expect(t).toContain("What are A1 to C2?");
+    expect(t).toContain("Option 1");
+    expect(t).toContain("Choose your level");
+    expect(t).toContain("Option 2");
+    expect(t).toContain("Not sure which to pick?");
+    expect(t).toContain("Take a test to find my level");
+    // The explainer comes before the six levels, and the test comes after them.
+    expect(t.indexOf("What are A1 to C2?")).toBeLessThan(t.indexOf("Just starting"));
+    expect(t.indexOf("Just starting")).toBeLessThan(t.indexOf("Not sure which to pick?"));
     expect(t).toContain("From your test");
   });
 
@@ -74,6 +82,7 @@ describe("the level step", () => {
     const nav = { at: 3, of: 19, onBack() {}, onContinue() {}, onPick() {}, onTest() {} };
     const t = text(renderToStaticMarkup(createElement(LevelScreen, { ...nav, learn: "es", value: null, placed: false })));
     expect(t).toContain("The placement test for Spanish is coming");
-    expect(t).not.toContain("Take a 5-minute test");
+    expect(t).not.toContain("Take a test to find my level");
+    expect(t).toContain("Option 2");
   });
 });
