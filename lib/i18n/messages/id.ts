@@ -42,6 +42,10 @@ const indonesian: Catalog = {
   "quick.bubble": "Hanya {n} pertanyaan singkat, lalu kamu bisa mulai membaca!",
   "quick.sub": "Kami akan menyiapkan level dan bukumu agar aplikasi ini cocok untukmu, dan kami buat secepat mungkin.",
   "go.bubble": "Ayo mulai!",
+  "home.bubble": "Tambahkan aku ke layar utamamu!",
+  "home.sub": "Jadi aku hanya sekali ketuk saat kamu mau membaca.",
+  "home.ios": "Ketuk tombol Bagikan, lalu “Tambah ke Layar Utama”.",
+  "ui.notNow": "Nanti saja",
   "hello.sub": "Beberapa menit sehari dengan buku asli, dan sebuah bahasa mulai terasa seperti milikmu.",
 
   /* ── focus ── */

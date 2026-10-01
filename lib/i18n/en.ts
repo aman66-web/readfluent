@@ -52,6 +52,10 @@ export const EN = {
   "quick.bubble": "Just {n} quick questions, then you can start reading!",
   "quick.sub": "We'll set up your level and your books so the app fits you, and keep it as quick as we can.",
   "go.bubble": "Let's go!",
+  "home.bubble": "Add me to your home screen!",
+  "home.sub": "Then I'm one tap away whenever you want to read.",
+  "home.ios": "Tap the Share button, then “Add to Home Screen”.",
+  "ui.notNow": "Not now",
   "hello.sub": "A few minutes a day with real books, and a language starts to feel like yours.",
 
   /* ── why they are learning ── */

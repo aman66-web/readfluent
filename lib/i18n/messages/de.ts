@@ -42,6 +42,10 @@ const de: Catalog = {
   "quick.bubble": "Nur {n} kurze Fragen, dann kannst du mit dem Lesen loslegen!",
   "quick.sub": "Wir richten dein Niveau und deine Bücher ein, damit die App zu dir passt, und halten es so kurz wie möglich.",
   "go.bubble": "Los geht's!",
+  "home.bubble": "Füg mich zu deinem Home-Bildschirm hinzu!",
+  "home.sub": "Dann bin ich nur einen Tipp entfernt, wenn du lesen willst.",
+  "home.ios": "Tippe auf „Teilen“ und dann auf „Zum Home-Bildschirm“.",
+  "ui.notNow": "Jetzt nicht",
   "hello.sub":"Ein paar Minuten am Tag mit echten Büchern, und eine Sprache fühlt sich bald wie deine an.",
 
   /* ── focus ── */

@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useSyncExternalStore } from "react";
 import { BUILD } from "@/lib/build";
+import { captureInstallPrompt } from "@/lib/pwa/install";
 
 /**
  * What an installed app needs and a page does not: the service worker, and a
@@ -40,6 +41,8 @@ export function Pwa() {
   }, []);
 
   useUpdateReload();
+  // The browser offers to install the app once, early; keep it for the first run's home-screen step.
+  useEffect(() => captureInstallPrompt(), []);
 
   return <OfflinePill />;
 }

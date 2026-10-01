@@ -38,6 +38,10 @@ const vi: Catalog = {
   "quick.bubble": "Chỉ {n} câu hỏi nhanh thôi, rồi bạn có thể bắt đầu đọc nhé!",
   "quick.sub": "Mình sẽ thiết lập trình độ và sách của bạn để ứng dụng vừa với bạn, và làm thật nhanh trong khả năng của mình.",
   "go.bubble": "Bắt đầu nào!",
+  "home.bubble": "Hãy thêm mình vào màn hình chính nhé!",
+  "home.sub": "Như vậy chỉ cần chạm một cái là mình có mặt khi bạn muốn đọc.",
+  "home.ios": "Chạm nút Chia sẻ, rồi chọn “Thêm vào Màn hình chính”.",
+  "ui.notNow": "Để sau",
   "hello.sub":"Mỗi ngày vài phút với sách thật, và một ngôn ngữ sẽ dần trở nên của riêng bạn.",
 
 

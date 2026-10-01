@@ -42,6 +42,10 @@ const pt: Catalog = {
   "quick.bubble": "Só {n} perguntinhas rápidas e você já pode começar a ler!",
   "quick.sub": "Vamos ajustar o seu nível e os seus livros para que o app combine com você, e fazer isso o mais rápido possível.",
   "go.bubble": "Vamos lá!",
+  "home.bubble": "Adicione-me à tela inicial!",
+  "home.sub": "Assim estou a um toque de distância quando você quiser ler.",
+  "home.ios": "Toque no botão Compartilhar e depois em “Adicionar à Tela de Início”.",
+  "ui.notNow": "Agora não",
   "hello.sub":"Alguns minutos por dia com livros de verdade, e um idioma começa a parecer seu.",
 
   /* ── focus ── */

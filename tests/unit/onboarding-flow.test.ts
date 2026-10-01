@@ -17,9 +17,9 @@ vi.mock("@capacitor/core", () => ({ Capacitor: { isNativePlatform: () => false, 
 const read = (p: string) => readFileSync(new URL(`../../${p}`, import.meta.url), "utf8");
 
 describe("the steps", () => {
-  it("are the first run's twenty-one, in order, with the app's language first and the library last", () => {
-    expect(STEP_IDS).toHaveLength(21);
-    expect(new Set(STEP_IDS).size).toBe(21);
+  it("are the first run's twenty-two, in order, with the app's language first and the library last", () => {
+    expect(STEP_IDS).toHaveLength(22);
+    expect(new Set(STEP_IDS).size).toBe(22);
     expect(STEP_IDS[0]).toBe("app");
     expect(STEP_IDS[1]).toBe("intro");
     expect(STEP_IDS[STEP_IDS.length - 1]).toBe("ready");
@@ -361,5 +361,32 @@ describe("Lex celebrates, then the run moves on by itself", () => {
     for (const f of ["Questions", "Tongues", "Level", "Plan", "Tour", "Last", "Ready"]) {
       expect(read(`components/onboarding/${f}.tsx`), f).toContain("GuideHead");
     }
+  });
+});
+
+describe("Lex asks to be added to the home screen", () => {
+  it("comes after the promise and before signing in", () => {
+    expect(STEP_IDS[STEP_IDS.indexOf("pledge") + 1]).toBe("home");
+    expect(STEP_IDS[STEP_IDS.indexOf("home") + 1]).toBe("account");
+  });
+
+  it("shows the ask, the tile, Continue and Not now", async () => {
+    const { HomeScreen } = await import("@/components/onboarding/Home");
+    const html = renderToStaticMarkup(createElement(HomeScreen, { at: 16, of: 22, onBack: () => {}, onContinue: () => {} }));
+    const t = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+    expect(t).toContain("Add me to your home screen!");
+    expect(t).toContain("Not now");
+    expect(t).toContain("Continue");
+    expect(html).toContain("home-tile");
+  });
+});
+
+describe("installing", () => {
+  it("tells an iPhone, and an iPad that says it is a Mac, from the rest", async () => {
+    const { isIos } = await import("@/lib/pwa/install");
+    expect(isIos("Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X)", 5)).toBe(true);
+    expect(isIos("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)", 5)).toBe(true);
+    expect(isIos("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)", 0)).toBe(false);
+    expect(isIos("Mozilla/5.0 (Linux; Android 14; Pixel 8)", 5)).toBe(false);
   });
 });

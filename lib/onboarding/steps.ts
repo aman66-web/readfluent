@@ -7,7 +7,7 @@
  * five-minute test that finds out) → why they are learning → where they
  * heard of it → how much time a day they can give it → how
  * long that takes to reach each level → a five-screen tour → where that time
- * takes them → a promise → sign in → what you are
+ * takes them → a promise → Lex asks to be added to the home screen → sign in → what you are
  * curious about → the library being set up. Every step after the welcome can be
  * skipped, and every one counts on the progress bar.
  *
@@ -17,7 +17,7 @@
 export const STEP_IDS = [
   "app", "intro", "hello", "quick", "go", "tongues", "level", "why", "heard", "time", "path",
   "journey", "levels", "words", "remember", "connect",
-  "future", "pledge", "account", "interests", "ready",
+  "future", "pledge", "home", "account", "interests", "ready",
 ] as const;
 export type StepId = (typeof STEP_IDS)[number];
 

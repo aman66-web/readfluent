@@ -44,6 +44,10 @@ const nl: Catalog = {
   "quick.bubble": "Nog maar {n} korte vragen, dan kun je beginnen met lezen!",
   "quick.sub": "We stellen je niveau en je boeken in zodat de app bij je past, en houden het zo kort als we kunnen.",
   "go.bubble": "Daar gaan we!",
+  "home.bubble": "Zet me op je startscherm!",
+  "home.sub": "Dan ben ik maar één tik weg als je wilt lezen.",
+  "home.ios": "Tik op de deelknop en kies “Zet op beginscherm”.",
+  "ui.notNow": "Niet nu",
   "hello.sub":"Een paar minuten per dag met echte boeken, en een taal begint als de jouwe te voelen.",
 
   /* ── focus ── */

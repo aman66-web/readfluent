@@ -8,6 +8,7 @@ import { GoScreen, HeardScreen, HelloScreen, QuickScreen, WhyScreen } from "@/co
 import { ReadyScreen } from "@/components/onboarding/Ready";
 import { FutureScreen, PathScreen, PledgeScreen, TimeScreen } from "@/components/onboarding/Plan";
 import { AppLanguageScreen } from "@/components/onboarding/AppLanguage";
+import { HomeScreen } from "@/components/onboarding/Home";
 import { LevelScreen } from "@/components/onboarding/Level";
 import { TonguesScreen } from "@/components/onboarding/Tongues";
 import { AccountScreen, InterestsScreen } from "@/components/onboarding/Last";
@@ -130,6 +131,7 @@ function Welcome() {
   if (step === "pledge") {
     return <PledgeScreen {...nav} minutes={minutes} done={a.pledged} onDone={() => saveAnswers({ pledged: true })} />;
   }
+  if (step === "home") return <HomeScreen {...nav} />;
   if (step === "account") return <AccountScreen at={i} of={STEP_IDS.length} onBack={back} error={authError} onNext={next} />;
   if (step === "interests") return <InterestsScreen {...nav} value={a.interests} onChange={(interests) => saveAnswers({ interests })} />;
   return <ReadyScreen {...nav} interests={a.interests} minutes={minutes} level={a.level} learn={a.learn} />;

@@ -9,7 +9,7 @@ import { describe, expect, it } from "vitest";
  */
 const root = process.cwd();
 const css = readFileSync(join(root, "app/welcome/welcome.css"), "utf8") + readFileSync(join(root, "app/globals.css"), "utf8");
-const PREFIXES = ["show-", "fx-", "fs-", "wel-", "future-", "pledge-", "ready-", "guide-", "gb-", "heard-", "bp-", "first-", "year-", "ob-", "lamp-", "level-", "chart-", "xp-", "shelf-", "lx-", "go-"];
+const PREFIXES = ["show-", "fx-", "fs-", "wel-", "future-", "pledge-", "ready-", "guide-", "gb-", "heard-", "bp-", "first-", "year-", "ob-", "lamp-", "level-", "chart-", "xp-", "shelf-", "lx-", "go-", "home-"];
 
 function files(dir: string): string[] {
   return readdirSync(join(root, dir), { withFileTypes: true }).flatMap((e) =>
