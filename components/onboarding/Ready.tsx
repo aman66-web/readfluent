@@ -135,7 +135,7 @@ export function ReadyScreen({ at, of, interests, minutes, level, learn, onBack, 
         <div className="mt-3" dir="ltr"><Shelf hues={hues} pct={pct} /></div>
 
         {/* While it builds, how far along; once built, the plan it was built from. */}
-        <div className="mt-2 h-10 shrink-0">
+        <div className="mt-2 min-h-10 shrink-0">
           {done ? (
             <ul className="wel-in flex flex-wrap items-center justify-center gap-2">
               {[

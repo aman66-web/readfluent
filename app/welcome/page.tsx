@@ -2,7 +2,7 @@
 
 import "./welcome.css";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Suspense, useMemo, useState, useSyncExternalStore } from "react";
+import { Suspense, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { FirstScreen } from "@/components/welcome/FirstScreen";
 import { GoScreen, HeardScreen, HelloScreen, QuickScreen, WhyScreen } from "@/components/onboarding/Questions";
 import { ReadyScreen } from "@/components/onboarding/Ready";
@@ -70,14 +70,23 @@ function Welcome() {
 
   const step = STEP_IDS[i];
   const last = i === STEP_IDS.length - 1;
+  // A double tap on Continue must not skip a screen, and "I have an account" must come back to where it left from.
+  const changedAt = useRef(0);
+  const jumpedFrom = useRef<number | null>(null);
   const go = (n: number) => {
     const to = Math.max(0, Math.min(STEP_IDS.length - 1, n));
+    changedAt.current = Date.now();
     setI(to);
     // So the address always says which screen this is, and a reload stays on it.
     window.history.replaceState(null, "", `/welcome?step=${STEP_IDS[to]}`);
   };
-  const next = () => (last ? finish() : go(i + 1));
-  const back = () => go(isInterlude(STEP_IDS[i - 1]) ? i - 2 : i - 1);
+  const settling = () => Date.now() - changedAt.current < 350;
+  const next = () => { if (settling()) return; if (last) finish(); else go(i + 1); };
+  const back = () => {
+    if (settling()) return;
+    if (step === "account" && jumpedFrom.current !== null) { const to = jumpedFrom.current; jumpedFrom.current = null; go(to); return; }
+    go(isInterlude(STEP_IDS[i - 1]) ? i - 2 : i - 1);
+  };
 
   /* The end of the run is the library. What was picked is already saved; the
      answers are reported once (only the choices), and the first screen is marked
@@ -97,7 +106,7 @@ function Welcome() {
 
   if (step === "intro") {
     const account = STEP_IDS.indexOf("account");
-    return <FirstScreen onStart={next} onBack={back} onSignIn={accountAvailable() ? () => go(account) : undefined} />;
+    return <FirstScreen onStart={next} onBack={back} onSignIn={accountAvailable() ? () => { jumpedFrom.current = i; go(account); } : undefined} />;
   }
 
   const nav = { at: i, of: STEP_IDS.length, onBack: back, onContinue: next };

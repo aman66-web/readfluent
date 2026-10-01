@@ -1,7 +1,7 @@
 "use client";
 
 import { Modal } from "@/components/Modal";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { languageName, loadCatalog } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { LANGUAGES, type LanguageCode } from "@/lib/onboarding/languages";
@@ -90,6 +90,8 @@ export function LanguagePicker({ speak, learn, delay = 0 }: { speak: LanguageCod
   const t = useT();
   const locale = useLocale();
   const [open, setOpen] = useState<Which | null>(null);
+  // The last language tapped for the interface: a slower earlier load must not overwrite it.
+  const wantedSpeak = useRef<LanguageCode | null>(null);
   const note = tonguesNote(t, locale, speak, learn);
 
   const pick = (which: Which, code: LanguageCode) => {
@@ -98,7 +100,8 @@ export function LanguagePicker({ speak, learn, delay = 0 }: { speak: LanguageCod
     if (code === (which === "speak" ? learn : speak)) return;
     if (which === "learn") { saveAnswers({ learn: code }); return; }
     // The new language's words arrive before it is chosen, so the screen changes once.
-    void loadCatalog(code).then(() => saveAnswers({ language: code }));
+    wantedSpeak.current = code;
+    void loadCatalog(code).then(() => { if (wantedSpeak.current === code) saveAnswers({ language: code }); });
   };
 
   return (

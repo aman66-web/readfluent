@@ -43,6 +43,8 @@ export function AppLanguageScreen({ onContinue }: { onContinue: () => void }) {
   const t = useT();
   const locale = useLocale();
   const list = useRef<HTMLUListElement>(null);
+  // The language the reader last tapped, so a slower earlier request (or the browser's guess) can never overwrite it.
+  const wanted = useRef<LanguageCode | null>(null);
 
   // The chosen language is kept in view: a browser in Turkish or Vietnamese starts far down the list.
   useEffect(() => {
@@ -53,13 +55,14 @@ export function AppLanguageScreen({ onContinue }: { onContinue: () => void }) {
     if (hasChosen()) return;
     const found = detectLanguage(typeof navigator !== "undefined" ? (navigator.languages?.length ? navigator.languages : [navigator.language]) : []);
     const pick = found ?? "en";
-    void loadCatalog(pick).then(() => saveAnswers({ language: pick }));
+    void loadCatalog(pick).then(() => { if (wanted.current === null) saveAnswers({ language: pick }); });
   }, []);
 
   const choose = (code: LanguageCode) => {
-    if (code === locale) return;
+    if (code === (wanted.current ?? locale)) return;
+    wanted.current = code;
     // Its words arrive before it is chosen, so the screen goes from one language to the other in one step.
-    void loadCatalog(code).then(() => saveAnswers({ language: code }));
+    void loadCatalog(code).then(() => { if (wanted.current === code) saveAnswers({ language: code }); });
   };
 
   return (

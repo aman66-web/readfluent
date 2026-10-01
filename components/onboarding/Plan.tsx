@@ -269,7 +269,7 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
   const C = 2 * Math.PI * 62;
   const date = formatDate(today, locale);
   return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={done}>
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue continueLabel={done ? undefined : t("pledge.skip")}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
         <GuideHead guide={guide} line={line} mood="cheer" />
 
@@ -286,7 +286,7 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
                   style={{ animationDelay: "1200ms" }}>
             <svg viewBox="0 0 150 150" className="absolute inset-0 size-full -rotate-90" aria-hidden>
               <circle cx="75" cy="75" r="62" fill="none" stroke="#E2EBEF" strokeWidth="7" />
-              <circle cx="75" cy="75" r="62" fill="none" stroke="url(#pledge-g)" strokeWidth="7" strokeLinecap="round" strokeDasharray={C} strokeDashoffset={C * (1 - p)} />
+              <circle cx="75" cy="75" r="62" fill="none" stroke="url(#pledge-g)" strokeWidth="7" strokeLinecap="round" strokeDasharray={C} strokeDashoffset={done ? 0 : C * (1 - p)} />
               <defs>
                 <linearGradient id="pledge-g" x1="0" y1="0" x2="1" y2="1">
                   <stop offset="0" stopColor="#67E8F9" /><stop offset=".6" stopColor="#22D3EE" /><stop offset="1" stopColor="#0E7490" />
@@ -313,14 +313,7 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
           <p className="wel-in ob-muted mt-4 text-[14px] font-semibold" style={{ animationDelay: "1300ms" }} aria-live="polite">
             {done ? t("pledge.done") : t("pledge.hold")}
           </p>
-          {/* A promise nobody is made to keep. */}
-          {!done && (
-            <button type="button" onClick={onContinue}
-                    className="ob-faint wel-in mt-3 inline-flex h-11 items-center px-4 text-[13.5px] font-semibold transition-colors"
-                    style={{ animationDelay: "1400ms" }}>
-              {t("pledge.skip")}
-            </button>
-          )}
+          {/* A promise nobody is made to keep: until it is made, the button below skips it. */}
         </div>
       </div>
     </GuideFrame>

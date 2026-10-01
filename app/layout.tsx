@@ -7,6 +7,11 @@ import { Pwa } from "@/components/Pwa";
 import { TabBar } from "@/components/TabBar";
 import { LocaleSync } from "@/lib/i18n/react";
 import { APP_NAME, TAGLINE } from "@/lib/brand";
+import { ANSWERS_KEY } from "@/lib/onboarding/answers";
+import { RTL_LANGUAGES } from "@/lib/i18n";
+
+/** Sets the page's language and direction before it is painted, from what the device remembers, so an Arabic or Urdu reader never sees the page flip from left-to-right after loading. LocaleSync keeps them right afterwards. */
+const EARLY_LOCALE = `try{var a=JSON.parse(localStorage.getItem(${JSON.stringify(ANSWERS_KEY)})||"{}"),l=a&&a.language;if(typeof l==="string"&&/^[a-z]{2,3}$/.test(l)){var e=document.documentElement;e.lang=l;e.dir=${JSON.stringify(RTL_LANGUAGES)}.indexOf(l)>-1?"rtl":"ltr"}}catch(x){}`;
 
 export const metadata: Metadata = {
   title: APP_NAME,
@@ -29,7 +34,10 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" dir="ltr" className="h-full antialiased">
+    <html lang="en" dir="ltr" className="h-full antialiased" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: EARLY_LOCALE }} />
+      </head>
       <body className="min-h-full">
         {/* Catches a Google/Apple sign-in coming back from the system browser
             on the native build. Renders nothing on the web. */}
