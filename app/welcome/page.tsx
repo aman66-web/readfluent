@@ -4,7 +4,7 @@ import "./welcome.css";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo, useState, useSyncExternalStore } from "react";
 import { FirstScreen } from "@/components/welcome/FirstScreen";
-import { HeardScreen, HelloScreen, WhyScreen } from "@/components/onboarding/Questions";
+import { HeardScreen, HelloScreen, QuickScreen, WhyScreen } from "@/components/onboarding/Questions";
 import { ReadyScreen } from "@/components/onboarding/Ready";
 import { FutureScreen, PathScreen, PledgeScreen, TimeScreen } from "@/components/onboarding/Plan";
 import { AppLanguageScreen } from "@/components/onboarding/AppLanguage";
@@ -106,6 +106,7 @@ function Welcome() {
     );
   }
   if (step === "hello") return <HelloScreen {...nav} />;
+  if (step === "quick") return <QuickScreen {...nav} />;
   if (step === "level") {
     return (
       <LevelScreen {...nav} learn={a.learn} value={a.level} placed={a.placed}

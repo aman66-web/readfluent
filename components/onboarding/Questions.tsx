@@ -8,8 +8,9 @@ import { useLocale, useT } from "@/lib/i18n/react";
 import type { MessageId } from "@/lib/i18n/en";
 import { HEARD_IDS, HEARD_OTHER_MAX, WHY_IDS, type HeardId, type WhyId } from "@/lib/onboarding/answers";
 import type { LanguageCode } from "@/lib/onboarding/languages";
-import { GuideFrame, GuideHead, Said, useGuide } from "./Guide";
-import { Lex } from "@/components/mascot/Lex";
+import { GuideFrame, GuideHead, Said, splitWords, useGuide } from "./Guide";
+import { Lex, type Mood } from "@/components/mascot/Lex";
+import { QUESTION_STEPS } from "@/lib/onboarding/steps";
 import { TickIcon } from "./ui";
 
 /** The props every screen gets from the run: where it is, and the two ways to move. */
@@ -21,25 +22,38 @@ interface Nav { at: number; of: number; onBack: () => void; onContinue: () => vo
  * The screen after "Get started": the guide says hello — Lex, the mascot,
  * large in the middle of the white, and what it is saying set large under it.
  */
-export function HelloScreen({ at, of, onBack, onContinue }: Nav) {
-  const t = useT();
-  const line = t("hello.bubble", { app: APP_NAME });
-  const sub = t("hello.sub");
+/**
+ * Lex in the middle of a bare screen, a speech bubble over its head, and (under it) a quieter
+ * line. The words of the bubble arrive one by one and Lex's mouth moves while they do. Just a
+ * back arrow and Continue: nothing else on the screen to look at but Lex.
+ */
+function LexSays({ at, of, line, sub, mood, onBack, onContinue }: Nav & { line: string; sub: string; mood: Mood }) {
   const guide = useGuide(`${line} ${sub}`);
-  const lineMs = Math.round(guide.perWordMs * line.split(/\s+/).length);
+  const lineMs = Math.round(guide.perWordMs * splitWords(line, useLocale()).words.length);
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} progress={false}>
       <div className="relative flex min-h-0 flex-1 flex-col items-center justify-center pb-10 text-center">
-        {/* What Lex says, in a speech bubble over its head, the words arriving one by one. */}
         <div className="wel-in relative w-full max-w-[19.5rem] rounded-[24px] border-2 border-[var(--ob-line)] bg-white px-5 py-4 shadow-[0_8px_24px_-16px_rgba(8,47,62,.4)]" style={{ animationDelay: "250ms" }}>
           <Said line={line} durationMs={lineMs} className="text-[22px] font-medium leading-[1.25] tracking-[-0.015em]" />
           <span className="absolute -bottom-[10px] start-1/2 size-[18px] -translate-x-1/2 rotate-45 border-b-2 border-e-2 border-[var(--ob-line)] bg-white rtl:translate-x-1/2" aria-hidden />
         </div>
-        <Lex mood="hello" talking={guide.talking} className="mt-3 w-[min(62vw,250px)]" />
+        <Lex mood={mood} talking={guide.talking} className="mt-3 w-[min(62vw,250px)]" />
         <p className="wel-in ob-muted mt-3 max-w-[19rem] text-[16px] leading-snug" style={{ animationDelay: `${lineMs + 200}ms` }}>{sub}</p>
       </div>
     </GuideFrame>
   );
+}
+
+/** Right after "Get started": Lex waves and says hello. */
+export function HelloScreen(nav: Nav) {
+  const t = useT();
+  return <LexSays {...nav} mood="hello" line={t("hello.bubble", { app: APP_NAME })} sub={t("hello.sub")} />;
+}
+
+/** Then Lex says how quick the questions are: the number is the number of screens that ask something. */
+export function QuickScreen(nav: Nav) {
+  const t = useT();
+  return <LexSays {...nav} mood="ready" line={t("quick.bubble", { n: QUESTION_STEPS.length })} sub={t("quick.sub")} />;
 }
 
 /* ── why ────────────────────────────────────────────────────────────────── */

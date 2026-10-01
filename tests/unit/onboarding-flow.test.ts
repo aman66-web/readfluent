@@ -8,7 +8,7 @@ import {
 } from "@/lib/onboarding/answers";
 import { DAILY_MINUTES, DEFAULT_MINUTES, readingTime } from "@/lib/onboarding/firstrun";
 import { LANGUAGES, isLanguage } from "@/lib/onboarding/languages";
-import { AFTER_ONBOARDING, AFTER_SIGN_IN, SHOW_IDS, SIGN_IN_STEP, STEP_IDS, isShowStep, stepIndex } from "@/lib/onboarding/steps";
+import { QUESTION_STEPS, AFTER_ONBOARDING, AFTER_SIGN_IN, SHOW_IDS, SIGN_IN_STEP, STEP_IDS, isShowStep, stepIndex } from "@/lib/onboarding/steps";
 
 // The screens import the Supabase client and the native sign-in plugins; neither is wanted in a render test.
 vi.mock("@/lib/db/client", () => ({ createClient: () => ({}) }));
@@ -17,9 +17,9 @@ vi.mock("@capacitor/core", () => ({ Capacitor: { isNativePlatform: () => false, 
 const read = (p: string) => readFileSync(new URL(`../../${p}`, import.meta.url), "utf8");
 
 describe("the steps", () => {
-  it("are the first run's nineteen, in order, with the app's language first and the library last", () => {
-    expect(STEP_IDS).toHaveLength(19);
-    expect(new Set(STEP_IDS).size).toBe(19);
+  it("are the first run's twenty, in order, with the app's language first and the library last", () => {
+    expect(STEP_IDS).toHaveLength(20);
+    expect(new Set(STEP_IDS).size).toBe(20);
     expect(STEP_IDS[0]).toBe("app");
     expect(STEP_IDS[1]).toBe("intro");
     expect(STEP_IDS[STEP_IDS.length - 1]).toBe("ready");
@@ -28,7 +28,8 @@ describe("the steps", () => {
 
   it("have Lex say hello straight after the welcome, then ask which languages, then how much of it they know", () => {
     expect(STEP_IDS[STEP_IDS.indexOf("intro") + 1]).toBe("hello");
-    expect(STEP_IDS[STEP_IDS.indexOf("hello") + 1]).toBe("tongues");
+    expect(STEP_IDS[STEP_IDS.indexOf("hello") + 1]).toBe("quick");
+    expect(STEP_IDS[STEP_IDS.indexOf("quick") + 1]).toBe("tongues");
     expect(STEP_IDS[STEP_IDS.indexOf("tongues") + 1]).toBe("level");
   });
 
@@ -314,5 +315,26 @@ describe("the app's language, the very first screen", () => {
     expect(detectLanguage(["en-GB"])).toBe("en");
     expect(detectLanguage(["xx", "yy"])).toBeNull();
     expect(detectLanguage([])).toBeNull();
+  });
+});
+
+describe("Lex says how quick it will be", () => {
+  it("counts the questions from the screens that ask something, and they all come after it and before the end", () => {
+    expect(QUESTION_STEPS.length).toBeGreaterThan(3);
+    const at = STEP_IDS.indexOf("quick");
+    for (const q of QUESTION_STEPS) {
+      expect(STEP_IDS.indexOf(q), q).toBeGreaterThan(at);
+      expect(STEP_IDS.indexOf(q), q).toBeLessThan(STEP_IDS.indexOf("ready"));
+    }
+  });
+
+  it("says that number in the bubble, with Lex waiting to begin", async () => {
+    const { QuickScreen } = await import("@/components/onboarding/Questions");
+    const html = renderToStaticMarkup(createElement(QuickScreen, { at: 3, of: 20, onBack: () => {}, onContinue: () => {} }));
+    const t = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+    expect(t).toContain(`Just ${QUESTION_STEPS.length} quick questions, then you can start reading!`);
+    expect(t).toContain("keep it as quick as we can");
+    expect(html).toContain("lx-ready");
+    expect(html).not.toContain('role="progressbar"');
   });
 });

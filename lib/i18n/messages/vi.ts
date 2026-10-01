@@ -35,6 +35,8 @@ const vi: Catalog = {
   "languages.link": "Ngôn ngữ",
 
   "hello.bubble": "Chào bạn! Mình là Lex đây. Chào mừng bạn đến với {app}!",
+  "quick.bubble": "Chỉ {n} câu hỏi nhanh thôi, rồi bạn có thể bắt đầu đọc nhé!",
+  "quick.sub": "Mình sẽ thiết lập trình độ và sách của bạn để ứng dụng vừa với bạn, và làm thật nhanh trong khả năng của mình.",
   "hello.sub":"Mỗi ngày vài phút với sách thật, và một ngôn ngữ sẽ dần trở nên của riêng bạn.",
 
 

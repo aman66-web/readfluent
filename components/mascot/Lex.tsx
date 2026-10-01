@@ -8,12 +8,13 @@
  *
  *   hello    waves, open smile        reading   eyes down, a letter lifting off the page
  *   cheer    both arms up, happy eyes sleepy    eyes closed, a slow breath, floating z's
+ *   ready    wide, shining eyes and an open smile, hands on the book: eager to begin
  *
  * `talking` makes the mouth move and the bob quicken (the guide saying a line). `crop="head"`
  * shows just the head and shoulders, for the small avatar beside a line.
  */
 
-export type Mood = "hello" | "reading" | "cheer" | "sleepy";
+export type Mood = "hello" | "reading" | "cheer" | "sleepy" | "ready";
 
 const BODY = "url(#lx-body)";
 const INK = "#0B3B4A";
@@ -24,7 +25,7 @@ const spark = (x: number, y: number, r: number) =>
 /** The mouth for each mood. */
 function Mouth({ mood, talking }: { mood: Mood; talking: boolean }) {
   if (talking) return <ellipse className="lx-talk" cx="120" cy="121" rx="9" ry="7" fill={INK} />;
-  if (mood === "hello" || mood === "cheer") {
+  if (mood === "hello" || mood === "cheer" || mood === "ready") {
     return (
       <g>
         <path d="M104 114 Q120 140 136 114 Z" fill={INK} />
@@ -44,6 +45,16 @@ function Eyes({ mood }: { mood: Mood }) {
   }
   if (mood === "sleepy") {
     return <g fill="none" stroke={INK} strokeWidth="4" strokeLinecap="round"><path d="M92 94 Q101 101 110 94" /><path d="M130 94 Q139 101 148 94" /></g>;
+  }
+  if (mood === "ready") {
+    // Wide, shining eyes: a big pupil with two catches of light.
+    return (
+      <g className="lx-blink">
+        <circle cx="101" cy="95" r="9" fill={INK} /><circle cx="139" cy="95" r="9" fill={INK} />
+        <circle cx="104.5" cy="91" r="3.2" fill="#fff" /><circle cx="142.5" cy="91" r="3.2" fill="#fff" />
+        <circle cx="98" cy="99" r="1.8" fill="#fff" /><circle cx="136" cy="99" r="1.8" fill="#fff" />
+      </g>
+    );
   }
   const dy = mood === "reading" ? 5 : 0;
   return (

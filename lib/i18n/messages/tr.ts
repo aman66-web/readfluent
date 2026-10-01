@@ -32,6 +32,8 @@ const tr: Catalog = {
   "languages.sub": "Uygulama ilk dilde. Kitaplar ikincisinde.",
   "languages.link": "Diller",
   "hello.bubble": "Merhaba! Ben Lex. {app}'e hoş geldin!",
+  "quick.bubble": "Sadece {n} kısa soru, sonra okumaya başlayabilirsin!",
+  "quick.sub": "Uygulama sana uysun diye seviyeni ve kitaplarını ayarlayacağız, bunu da elimizden geldiğince hızlı yapacağız.",
   "hello.sub": "Her gün birkaç dakika gerçek kitaplarla, ve bir dil yavaş yavaş senin olmaya başlar.",
   "why.line": "Neden {language} öğreniyorsun?",
   "why.sub": "İstediğin kadar seç.",

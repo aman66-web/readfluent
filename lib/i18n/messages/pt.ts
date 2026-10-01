@@ -39,6 +39,8 @@ const pt: Catalog = {
 
   /* ── hello ── */
   "hello.bubble": "Oi! Eu sou o Lex. Boas-vindas ao {app}!",
+  "quick.bubble": "Só {n} perguntinhas rápidas e você já pode começar a ler!",
+  "quick.sub": "Vamos ajustar o seu nível e os seus livros para que o app combine com você, e fazer isso o mais rápido possível.",
   "hello.sub":"Alguns minutos por dia com livros de verdade, e um idioma começa a parecer seu.",
 
   /* ── focus ── */

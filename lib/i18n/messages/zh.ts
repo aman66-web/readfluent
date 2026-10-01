@@ -39,6 +39,8 @@ const zh: Catalog = {
 
   /* ── hello ── */
   "hello.bubble": "你好呀！我是 Lex。欢迎来到 {app}！",
+  "quick.bubble": "只需回答 {n} 个小问题，就能开始阅读啦！",
+  "quick.sub": "我们会设置好你的水平和书单，让应用更适合你，也会尽量快一点完成。",
   "hello.sub":"每天几分钟读真正的好书，一门语言就会慢慢变成你的。",
 
   /* ── focus ── */

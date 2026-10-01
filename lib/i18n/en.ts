@@ -49,6 +49,8 @@ export const EN = {
 
   /* ── hello ── */
   "hello.bubble": "Hi there! I'm Lex. Welcome to {app}!",
+  "quick.bubble": "Just {n} quick questions, then you can start reading!",
+  "quick.sub": "We'll set up your level and your books so the app fits you, and keep it as quick as we can.",
   "hello.sub": "A few minutes a day with real books, and a language starts to feel like yours.",
 
   /* ── why they are learning ── */

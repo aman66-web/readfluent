@@ -7,6 +7,7 @@ const POSES: readonly { mood: Mood; label: string; note: string }[] = [
   { mood: "reading", label: "Reading", note: "Eyes on the page, a letter floating off it." },
   { mood: "cheer", label: "Cheering", note: "A level up, a finished book, a streak kept." },
   { mood: "sleepy", label: "Sleepy", note: "Dozing off when you have been away a while." },
+  { mood: "ready", label: "Ready", note: "Wide-eyed and eager: \"just a few quick questions\"." },
 ];
 
 /** A page for looking at the mascot: every pose, and the small head that sits beside the guide's lines. */

@@ -41,6 +41,8 @@ const nl: Catalog = {
 
   /* ── hello ── */
   "hello.bubble": "Hoi! Ik ben Lex. Welkom bij {app}!",
+  "quick.bubble": "Nog maar {n} korte vragen, dan kun je beginnen met lezen!",
+  "quick.sub": "We stellen je niveau en je boeken in zodat de app bij je past, en houden het zo kort als we kunnen.",
   "hello.sub":"Een paar minuten per dag met echte boeken, en een taal begint als de jouwe te voelen.",
 
   /* ── focus ── */

@@ -3,7 +3,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
 import { Lex, type Mood } from "@/components/mascot/Lex";
 
-const MOODS: Mood[] = ["hello", "reading", "cheer", "sleepy"];
+const MOODS: Mood[] = ["hello", "reading", "cheer", "sleepy", "ready"];
 const draw = (props: Parameters<typeof Lex>[0]) => renderToStaticMarkup(createElement(Lex, props));
 
 describe("Lex, the mascot", () => {
@@ -23,7 +23,7 @@ describe("Lex, the mascot", () => {
     expect(draw({ mood: "cheer" })).not.toContain("lx-wave");
     expect(draw({ mood: "sleepy" })).toContain("lx-z");
     expect(draw({ mood: "reading" })).toContain("lx-rise");
-    expect(new Set(MOODS.map((m) => draw({ mood: m }))).size).toBe(4);
+    expect(new Set(MOODS.map((m) => draw({ mood: m }))).size).toBe(5);
   });
 
   it("moves its mouth while it talks, and crops to the head for the small avatar", () => {
