@@ -82,7 +82,7 @@ export async function GET() {
   ].filter((v): v is string => typeof v === "string");
 
   const wrongShape = [
-    !shape.urlValid && url && "NEXT_PUBLIC_SUPABASE_URL is not a URL. It must include the scheme: https://YOUR-PROJECT.supabase.co, not YOUR-PROJECT.supabase.co. Copy the whole Project URL from Supabase -> Settings -> API.",
+    !shape.urlValid && Boolean(url) && "NEXT_PUBLIC_SUPABASE_URL is not a URL. It must include the scheme: https://YOUR-PROJECT.supabase.co, not YOUR-PROJECT.supabase.co. Copy the whole Project URL from Supabase -> Settings -> API.",
     shape.urlHasWhitespace && "NEXT_PUBLIC_SUPABASE_URL has a space or newline around it. Re-paste it with nothing before or after.",
     !shape.anonLooksLikeKey && "NEXT_PUBLIC_SUPABASE_ANON_KEY does not look like a Supabase key. It is the long one marked anon / public in Supabase -> Settings -> API, and starts eyJ or sb_publishable_.",
     !shape.serviceLooksLikeKey && "SUPABASE_SERVICE_ROLE_KEY does not look like a Supabase key. It is the one marked service_role / secret, and starts eyJ or sb_secret_.",

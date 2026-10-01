@@ -8,7 +8,7 @@ describe("where a sign-in may go next", () => {
   });
 
   it("replaces anything that would leave it with the home screen: no open redirect", () => {
-    for (const bad of [null, undefined, "", "library", "https://evil.example", "//evil.example", "/\\evil.example", "javascript:alert(1)"]) {
+    for (const bad of [null, undefined, "", "library", "https://evil.example", "//evil.example", "/\\evil.example", "javascript:alert(1)", "/\t/evil.example", "/\n/evil.example", "/\r\n/evil.example", "/a\\b"]) {
       expect(safeNext(bad), String(bad)).toBe("/");
     }
   });

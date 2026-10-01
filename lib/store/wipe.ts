@@ -1,6 +1,6 @@
 import { CACHE_PREFIX, STORAGE_PREFIX } from "@/lib/brand";
 import { ONBOARDED_COOKIE, WELCOME_PATH } from "@/lib/onboarding";
-import { notify } from "./local";
+import { clearMemory, notify } from "./local";
 
 /**
  * Erase everything this app has kept on the device, and start again from the first screen.
@@ -31,6 +31,7 @@ export async function wipeEverything(): Promise<void> {
     }
   } catch { /* no cache storage */ }
   // Anything on screen that was reading a store now reads an empty one.
+  clearMemory();
   notify();
 }
 

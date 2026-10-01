@@ -57,11 +57,11 @@ describe("the dashboard's level card", () => {
 
 describe("the dashboard's graph", () => {
   it("draws a week of days with the minutes read, and the daily goal", async () => {
-    const { StudyChart } = await import("@/components/home/StudyChart");
+    const { StudyChartBody } = await import("@/components/home/StudyChart");
     const today = new Date();
     const day = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
     const ledger = addSeconds(EMPTY_LEDGER, "pride-and-prejudice", 600, day);
-    const html = renderToStaticMarkup(createElement(StudyChart, { ledger, goal: 15, bookName: () => "Pride and Prejudice" }));
+    const html = renderToStaticMarkup(createElement(StudyChartBody, { ledger, goal: 15, bookName: () => "Pride and Prejudice", today: day }));
     const t = text(html);
     expect(t).toContain("minutes this week");
     expect(t).toContain("Daily goal: 15 min");
@@ -70,9 +70,15 @@ describe("the dashboard's graph", () => {
   });
 
   it("draws an empty week without breaking", async () => {
+    const { StudyChartBody } = await import("@/components/home/StudyChart");
+    const html = renderToStaticMarkup(createElement(StudyChartBody, { ledger: EMPTY_LEDGER, goal: 10, bookName: (s: string) => s, today: "2026-10-01" }));
+    expect(text(html)).toContain("Nothing read in this range yet.");
+  });
+
+  it("waits for the reader's own day instead of guessing it on the server", async () => {
     const { StudyChart } = await import("@/components/home/StudyChart");
     const html = renderToStaticMarkup(createElement(StudyChart, { ledger: EMPTY_LEDGER, goal: 10, bookName: (s: string) => s }));
-    expect(text(html)).toContain("Nothing read in this range yet.");
+    expect(text(html)).not.toContain("Nothing read");
   });
 });
 

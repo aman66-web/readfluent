@@ -1,3 +1,4 @@
+import { createHash, timingSafeEqual } from "node:crypto";
 import { PRO_ENTITLEMENT } from "./entitlement";
 
 /**
@@ -69,5 +70,7 @@ export function planUpdateFromEvent(event: RevenueCatWebhookEvent): PlanUpdate |
 export function headerHoldsSecret(header: string | null, secret: string): boolean {
   if (!header) return false;
   const bearer = /^Bearer\s+(.+)$/i.exec(header);
-  return (bearer ? bearer[1] : header) === secret;
+  // Compared as digests, so the time taken says nothing about how much of the secret matched.
+  const digest = (v: string) => createHash("sha256").update(v).digest();
+  return timingSafeEqual(digest(bearer ? bearer[1] : header), digest(secret));
 }

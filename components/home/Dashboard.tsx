@@ -10,7 +10,8 @@ import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { findBook } from "@/lib/preview/catalog";
 import { readRaw, subscribeTo } from "@/lib/store/local";
-import { LEDGER_KEY, localDay, parseLedger, streak, totalXp } from "@/lib/xp/ledger";
+import { LEDGER_KEY, parseLedger, streak, totalXp } from "@/lib/xp/ledger";
+import { dayDate, useToday } from "@/lib/xp/today";
 import { LevelCard } from "./LevelCard";
 import { StudyChart } from "./StudyChart";
 
@@ -30,11 +31,12 @@ export function Dashboard() {
   const ledger = useMemo(() => parseLedger(raw), [raw]);
   const goal = a.daily ?? DEFAULT_MINUTES;
   const bookName = useCallback((slug: string) => findBook(slug)?.title ?? slug, []);
-  const run = useMemo(() => streak(ledger), [ledger]);
+  const today = useToday();
+  const run = useMemo(() => (today ? streak(ledger, dayDate(today)) : 0), [ledger, today]);
   const carry = ledger.lastSlug ? findBook(ledger.lastSlug) : null;
   const date = useMemo(() => {
-    try { return new Intl.DateTimeFormat(locale, { weekday: "long", day: "numeric", month: "long" }).format(new Date(`${localDay()}T12:00:00`)); } catch { return ""; }
-  }, [locale]);
+    try { return new Intl.DateTimeFormat(locale, { weekday: "long", day: "numeric", month: "long" }).format(dayDate(today)); } catch { return ""; }
+  }, [locale, today]);
 
   return (
     <main className="safe-top px-5 pb-32 [--pt:1.5rem]">

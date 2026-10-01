@@ -2,7 +2,7 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { dbConfigured } from "@/lib/db/env";
 import { hasAppSession, isSitePath, marketingHosts, sitePage } from "@/lib/site/hosts";
-import { needsOnboarding, ONBOARDED_COOKIE, WELCOME_PATH } from "@/lib/onboarding";
+import { needsOnboarding, ONBOARDED_COOKIE, ONBOARDED_MAX_AGE, WELCOME_PATH } from "@/lib/onboarding";
 
 /**
  * Refreshes the Supabase session on every page request, and signs brand-new
@@ -14,6 +14,16 @@ import { needsOnboarding, ONBOARDED_COOKIE, WELCOME_PATH } from "@/lib/onboardin
  * is not configurable.
  */
 export async function proxy(request: NextRequest) {
+  const response = await route(request);
+  // A cookie a script wrote is forgotten by WebKit after a week, and a reader who has been
+  // through the first screen must not be sent back to it. One the server sets lasts the year.
+  if (request.cookies.has(ONBOARDED_COOKIE) && !response.cookies.has(ONBOARDED_COOKIE)) {
+    response.cookies.set(ONBOARDED_COOKIE, "1", { path: "/", maxAge: ONBOARDED_MAX_AGE, sameSite: "lax" });
+  }
+  return response;
+}
+
+async function route(request: NextRequest): Promise<NextResponse> {
   // The marketing site (lib/site/hosts.ts, public/site): the root of
   // the marketing domain is the static page, not the app. Decided before anything
   // touches Supabase, so somebody reading about the app is not signed in to
@@ -93,7 +103,9 @@ async function refresh(request: NextRequest, initial: NextResponse): Promise<Nex
   // sign-ins" switched on in Supabase; when it is off this returns an error
   // rather than throwing, and the app carries on signed out — which is exactly
   // what it should do, since everything but sync works that way anyway.
-  if (!user) {
+  // Only for somebody opening a page: a crawler, a link preview or an uptime check has no
+  // cookies, and each would otherwise become a user (and use up the sign-in allowance).
+  if (!user && request.headers.get("sec-fetch-mode") === "navigate" && request.headers.get("sec-fetch-dest") === "document") {
     await supabase.auth.signInAnonymously();
   }
 
@@ -103,9 +115,9 @@ async function refresh(request: NextRequest, initial: NextResponse): Promise<Nex
 export const config = {
   matcher: [
     /*
-     * Every request except static assets and image files — so an anonymous
-     * session is created on the first page view, not on a favicon fetch.
+     * Pages only: not static assets, images, the API routes (they read the session
+     * themselves), the sign-in callback, the service worker, the manifest or robots.
      */
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
+    "/((?!_next/static|_next/image|api/|auth/callback|favicon.ico|sw\\.js|manifest\\.webmanifest|robots\\.txt|\\.well-known/|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
   ],
 };

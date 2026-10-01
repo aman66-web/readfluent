@@ -57,7 +57,10 @@ export function resumeIndex(saved: number | undefined, pageCount: number): numbe
 
 export function savePage(slug: string, level: string, length: number, index: number): void {
   const all = parseProgress(readRaw(PROGRESS_KEY));
-  all[versionKey(slug, level, length)] = index;
+  const key = versionKey(slug, level, length);
+  // Taken out first so it goes to the end: assigning an existing key keeps its old place, and "My books" lists the last one opened first.
+  delete all[key];
+  all[key] = index;
   writeRaw(PROGRESS_KEY, JSON.stringify(all));
 }
 

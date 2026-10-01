@@ -8,6 +8,9 @@
  */
 export const ONBOARDED_COOKIE = "rf_onboarded";
 
+/** A year, in seconds. */
+export const ONBOARDED_MAX_AGE = 31536000;
+
 /** The first screen. Always viewable, so it can be looked at (and edited) after the first time. */
 export const WELCOME_PATH = "/welcome";
 
@@ -23,5 +26,5 @@ export function needsOnboarding(pathname: string, hasCookie: boolean): boolean {
 /** Remember, for a year, that the first screen has been seen. Browser only. */
 export function markOnboarded(): void {
   if (typeof document === "undefined") return;
-  document.cookie = `${ONBOARDED_COOKIE}=1; path=/; max-age=31536000; SameSite=Lax`;
+  document.cookie = `${ONBOARDED_COOKIE}=1; path=/; max-age=${ONBOARDED_MAX_AGE}; SameSite=Lax`;
 }

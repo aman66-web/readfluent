@@ -45,10 +45,14 @@ export async function POST(request: Request): Promise<Response> {
   const admin = createServiceClient();
   // The plan's product and period are kept with it (0001_init.sql) for
   // reporting: which of monthly and yearly, and whether it is a free trial.
-  const { error } = await admin
+  let query = admin
     .from("users")
     .update({ plan: update.plan, plan_until: update.planUntil, plan_product: update.planProduct, plan_period: update.planPeriod })
     .eq("id", event.app_user_id);
+  // RevenueCat does not promise to deliver in order, so a late older event must not shorten a plan
+  // a renewal has already extended. Only an expiration may move the date back.
+  if (event.type !== "EXPIRATION" && update.planUntil) query = query.or(`plan_until.is.null,plan_until.lte.${update.planUntil}`);
+  const { error } = await query;
 
   if (error) return new Response("Could not update plan", { status: 500 });
 

@@ -4,6 +4,7 @@ import { useMemo, useRef, useState } from "react";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
 import { localDay, series, type Ledger } from "@/lib/xp/ledger";
+import { dayDate, useToday } from "@/lib/xp/today";
 
 /**
  * How the reading is going: minutes a day, as bars, as a line, and by book, over this
@@ -33,16 +34,25 @@ function bounds(range: Range, now: Date): { from: string; to: string } {
   return { from: localDay(monday), to: localDay(sunday) };
 }
 
-export function StudyChart({ ledger, goal, bookName }: { ledger: Ledger; goal: number; bookName: (slug: string) => string }) {
+interface ChartProps { ledger: Ledger; goal: number; bookName: (slug: string) => string }
+
+/** The chart waits for the reader's own day: the server cannot know it, and "today" is what it highlights. */
+export function StudyChart(props: ChartProps) {
+  const today = useToday();
+  if (!today) return <div aria-hidden className="h-[220px]" />;
+  return <StudyChartBody {...props} today={today} />;
+}
+
+/** The chart itself, for a day that is known. */
+export function StudyChartBody({ ledger, goal, bookName, today }: ChartProps & { today: string }) {
   const t = useT();
   const locale = useLocale();
   const [range, setRange] = useState<Range>("week");
   const [pane, setPane] = useState(0);
   const strip = useRef<HTMLDivElement>(null);
-  const b = useMemo(() => bounds(range, new Date()), [range]);
+  const b = useMemo(() => bounds(range, dayDate(today)), [range, today]);
   const days = useMemo(() => series(ledger, b.from, b.to), [ledger, b]);
   const total = days.reduce((n, d) => n + d.minutes, 0);
-  const today = localDay();
   const elapsed = days.filter((d) => d.date <= today).length;
   const avg = Math.round(total / Math.max(1, elapsed));
 

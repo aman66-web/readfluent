@@ -44,6 +44,11 @@ export function subscribeTo(key: string): (fn: () => void) => () => void {
  */
 const memory = new Map<string, string>();
 
+/** Forget what was kept in memory (used when everything on the device is erased). */
+export function clearMemory(): void {
+  memory.clear();
+}
+
 export function readRaw(key: string): string {
   if (typeof window === "undefined") return "";
   // A value storage refused is newer than whatever storage still holds.

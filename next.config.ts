@@ -48,6 +48,19 @@ const nextConfig: NextConfig = {
     // a stray package-lock.json in a parent folder makes it warn on every boot.
     root: path.resolve(process.cwd()),
   },
+  // Nobody else's page may frame this one (the account and sign-in screens would be click-jackable),
+  // a file is read as the type it says it is, and a link out carries only the origin.
+  async headers() {
+    return [{
+      source: "/:path*",
+      headers: [
+        { key: "X-Frame-Options", value: "DENY" },
+        { key: "Content-Security-Policy", value: "frame-ancestors 'none'" },
+        { key: "X-Content-Type-Options", value: "nosniff" },
+        { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+      ],
+    }];
+  },
   // The marketing page (public/site) at /site on every host, so it can be
   // looked at on the vercel.app address before the domain is connected. A
   // marketing domain's own root reaches the same page through proxy.ts

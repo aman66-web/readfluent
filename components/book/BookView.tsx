@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { BackLink } from "@/components/BackLink";
 import { BookCover } from "@/components/BookCover";
 import { ReadSheet } from "@/components/library/ReadSheet";
 import { LENGTHS, LEVELS, categoryById } from "@/lib/content/limits";
@@ -13,9 +13,9 @@ export function BookView({ book }: { book: PreviewBook }) {
   const category = categoryById(book.category);
   return (
     <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:7rem] [--pt:.5rem]">
-      <Link href="/" aria-label={t("book.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
+      <BackLink fallback="/library" label={t("book.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
-      </Link>
+      </BackLink>
 
       <div className="mt-2 flex gap-5">
         <BookCover title={book.title} author={book.author} hue={category?.hue ?? 30} className="w-[132px] shrink-0" />

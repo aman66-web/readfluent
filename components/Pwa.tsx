@@ -66,6 +66,8 @@ function useUpdateReload() {
         const res = await fetch("/api/health", { cache: "no-store" });
         const live = String(((await res.json()) as { build?: string }).build ?? "").split(" ")[0];
         if (live && live !== BUILD) {
+          // Not in the middle of a form: someone back from their mail app with a sign-in code would lose it. Asked again next time.
+          if (document.querySelector("input:not([type=hidden]), textarea")) { last = 0; return; }
           // Once per live build: if the reload somehow lands on the same old bundle, do not loop.
           const key = `readfluent.reloaded.${live}`;
           if (sessionStorage.getItem(key)) return;

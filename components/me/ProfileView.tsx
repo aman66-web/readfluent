@@ -99,15 +99,16 @@ export function ProfileView() {
   const initial = shown.trim().charAt(0).toLocaleUpperCase();
   const goal = a.daily ?? DEFAULT_MINUTES;
 
-  /* The copy on the server first (if there is one to delete): when it refuses, nothing has been lost yet and they are told. 401 and
-     503 are not failures; they mean there is no account to delete, only this device's data. Then this device, and the first screen. */
-  async function erase() {
+  /* "account": the copy on the server first. When it refuses, nothing has been lost yet and they are told (a 401 or 503 is a refusal here:
+     the account is still there). "device": only what this device holds, with no call to the server at all, so it works offline and can never
+     reach an account. Then this device, and the first screen. */
+  async function erase(mode: "account" | "device") {
     setBusy(true);
     setError(null);
-    if (accountAvailable()) {
+    if (mode === "account") {
       try {
         const res = await fetch("/api/account", { method: "DELETE" });
-        if (!res.ok && res.status !== 401 && res.status !== 503) { setError(t("me.deleteFailed")); setBusy(false); return; }
+        if (!res.ok) { setError(t("me.deleteFailed")); setBusy(false); return; }
       } catch {
         setError(t("me.deleteFailed"));
         setBusy(false);
@@ -196,8 +197,8 @@ export function ProfileView() {
         ))}
         {!accountAvailable() && <Row><p className="text-[13.5px] leading-snug text-muted">{t("account.off")}</p></Row>}
         <Row last>
-          <button type="button" onClick={() => { setError(null); setConfirm(email ? "account" : "device"); }}
-                  className="flex min-h-11 w-full items-center py-2 text-start text-[15px] font-semibold text-error">
+          <button type="button" disabled={!ready} onClick={() => { setError(null); setConfirm(email ? "account" : "device"); }}
+                  className="flex min-h-11 w-full items-center py-2 text-start text-[15px] font-semibold text-error disabled:opacity-50">
             {email ? t("me.deleteAccount") : t("me.deleteData")}
           </button>
         </Row>
@@ -210,7 +211,7 @@ export function ProfileView() {
 
       {confirm && (
         <Confirm title={confirm === "account" ? t("me.deleteTitle") : t("me.deleteDataTitle")} body={confirm === "account" ? t("me.deleteBody") : t("me.deleteDataBody")}
-                 yes={t("me.deleteYes")} cancel={t("me.cancel")} busy={busy} error={error} onYes={() => void erase()} onCancel={() => setConfirm(null)} />
+                 yes={t("me.deleteYes")} cancel={t("me.cancel")} busy={busy} error={error} onYes={() => void erase(confirm)} onCancel={() => setConfirm(null)} />
       )}
     </main>
   );
