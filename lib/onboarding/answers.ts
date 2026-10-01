@@ -24,7 +24,12 @@ export type HeardId = (typeof HEARD_IDS)[number];
 /** The longest "somewhere else" kept: a name, not an essay. */
 export const HEARD_OTHER_MAX = 80;
 
+/** The longest name kept. */
+export const NAME_MAX = 40;
+
 export interface Answers {
+  /** What they like to be called: optional, kept on the device, shown on their profile. */
+  name: string;
   why: WhyId[];
   heard: HeardId | null;
   heardOther: string;
@@ -42,7 +47,7 @@ export interface Answers {
 }
 
 export const NO_ANSWERS: Answers = {
-  why: [], heard: null, heardOther: "", daily: null, pledged: false, language: DEFAULT_LANGUAGE, learn: null, level: null, placed: false, interests: [],
+  name: "", why: [], heard: null, heardOther: "", daily: null, pledged: false, language: DEFAULT_LANGUAGE, learn: null, level: null, placed: false, interests: [],
 };
 
 export const ANSWERS_KEY = storageKey("onboarding");
@@ -68,6 +73,7 @@ export function parseAnswers(raw: string | null | undefined): Answers {
   // The language they learn cannot be the one they speak; an answer saved that way is no answer.
   const learn = isLanguage(o.learn) && o.learn !== language ? o.learn : null;
   return {
+    name: typeof o.name === "string" ? o.name.replace(/\s+/g, " ").trim().slice(0, NAME_MAX) : "",
     why: tidy(WHY_IDS, o.why),
     heard: oneOf(HEARD_IDS, o.heard),
     heardOther: typeof o.heardOther === "string" ? o.heardOther.slice(0, HEARD_OTHER_MAX) : "",

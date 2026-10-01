@@ -152,7 +152,7 @@ export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => vo
  * says so, with Continue — the flow never dead-ends, and the step keeps its place so
  * the count is the same on every deploy.
  */
-export function SignIn({ error, onNext }: { error: boolean; onNext: () => void }) {
+export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean; onNext: () => void; /** Where a provider sign-in comes back to. */ next?: string }) {
   const t = useT();
   const [busy, setBusy] = useState<OAuthProvider | null>(null);
   const [failed, setFailed] = useState<string | null>(null);
@@ -166,7 +166,7 @@ export function SignIn({ error, onNext }: { error: boolean; onNext: () => void }
     setBusy(provider);
     setFailed(null);
     try {
-      const message = await signInWith(provider, AFTER_SIGN_IN);
+      const message = await signInWith(provider, next);
       // Signed in by the phone's own sheet: on from here, like the emailed code, with
       // no reload. null: the page is leaving for the provider, so the button stays
       // busy until it does. "" (the sheet closed): quietly ready again.
