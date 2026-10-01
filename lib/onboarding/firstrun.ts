@@ -1,3 +1,5 @@
+import { formatReadingTime } from "@/lib/i18n/format";
+
 /**
  * The numbers the first run shows, worked out rather than claimed.
  *
@@ -40,12 +42,5 @@ export const SWAP_MINUTES = 10;
 /** What the later screens assume when nobody picked a daily time (they can skip it). */
 export const DEFAULT_MINUTES: DailyMinutes = 10;
 
-/**
- * Time spent reading, said the way a person says it: minutes under three hours
- * ("140 minutes"), whole hours after that ("121 hours"), rounded down so it never
- * claims more than the arithmetic.
- */
-export function readingTime(minutes: number): string {
-  const [value, unit] = minutes < 180 ? [Math.round(minutes), "minute"] : [Math.floor(minutes / 60), "hour"];
-  return new Intl.NumberFormat("en", { style: "unit", unit, unitDisplay: "long" }).format(value);
-}
+/** English for tests and server logs; the screens use `formatReadingTime` with the reader's language. */
+export const readingTime = (minutes: number): string => formatReadingTime(minutes, "en");

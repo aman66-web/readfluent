@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { LENGTHS, LEVELS, levelById, type LevelId, type Length } from "@/lib/content/limits";
 import { CHOICE_KEY, parseChoice, saveChoice } from "@/lib/progress";
 import { readRaw, subscribeTo } from "@/lib/store/local";
+import { useT } from "@/lib/i18n/react";
 
 const subscribeChoice = subscribeTo(CHOICE_KEY);
 const readChoiceRaw = () => readRaw(CHOICE_KEY);
@@ -16,6 +17,7 @@ const serverChoiceRaw = () => "";
  * for each book is remembered on the device and offered again.
  */
 export function ReadSheet({ slug, title }: { slug: string; title: string }) {
+  const t = useT();
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState<1 | 2>(1);
@@ -51,32 +53,32 @@ export function ReadSheet({ slug, title }: { slug: string; title: string }) {
         onClick={begin}
         className="h-14 w-full rounded-full bg-foreground text-[17px] font-semibold text-background active:opacity-85"
       >
-        Read
+        {t("sheet.read")}
       </button>
 
       {open && (
-        <div className="fixed inset-0 z-50 flex items-end justify-center" role="dialog" aria-modal="true" aria-label={`Read ${title}`}>
-          <button aria-label="Close" className="fade-in absolute inset-0 bg-black/45" onClick={() => setOpen(false)} />
+        <div className="fixed inset-0 z-50 flex items-end justify-center" role="dialog" aria-modal="true" aria-label={t("sheet.readLabel", { title })}>
+          <button aria-label={t("ui.close")} className="fade-in absolute inset-0 bg-black/45" onClick={() => setOpen(false)} />
           <div className="sheet-up safe-bottom relative w-full max-w-[440px] rounded-t-[22px] bg-background px-5 pb-6 pt-3 shadow-2xl">
             <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-border" aria-hidden />
             {step === 1 ? (
               <>
-                <h2 className="text-[20px] font-bold tracking-[-0.01em]">Choose your level</h2>
-                <p className="mt-0.5 text-[13px] text-muted">Pick the one that feels comfortable. You can change it later.</p>
+                <h2 className="text-[20px] font-bold tracking-[-0.01em]">{t("sheet.chooseLevel")}</h2>
+                <p className="mt-0.5 text-[13px] text-muted">{t("sheet.levelSub")}</p>
                 <ul className="mt-4 space-y-2.5">
                   {LEVELS.map((l) => (
                     <li key={l.id}>
                       <button
                         onClick={() => { setPicked(l.id); setStep(2); }}
-                        className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3.5 text-left active:opacity-80 ${
+                        className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3.5 text-start active:opacity-80 ${
                           lastLevel === l.id ? "border-foreground bg-surface" : "border-border bg-surface"
                         }`}
                       >
                         <span>
-                          <span className="block text-[16px] font-semibold">{l.label} <span className="font-normal text-muted">· {l.name}</span></span>
-                          <span className="mt-0.5 block text-[13px] text-muted">{l.blurb}</span>
+                          <span className="block text-[16px] font-semibold">{l.label} <span className="font-normal text-muted">· {t(`level.${l.id}.name`)}</span></span>
+                          <span className="mt-0.5 block text-[13px] text-muted">{t(`level.${l.id}.blurb`)}</span>
                         </span>
-                        {lastLevel === l.id && <span className="ml-3 text-[12px] font-semibold text-accent">Last time</span>}
+                        {lastLevel === l.id && <span className="ms-3 text-[12px] font-semibold text-accent">{t("sheet.lastTime")}</span>}
                       </button>
                     </li>
                   ))}
@@ -84,23 +86,23 @@ export function ReadSheet({ slug, title }: { slug: string; title: string }) {
               </>
             ) : (
               <>
-                <button onClick={() => setStep(1)} className="-ml-1 mb-1 h-9 text-[13px] font-semibold text-muted">← Level {level && levelById(level)?.label}</button>
-                <h2 className="text-[20px] font-bold tracking-[-0.01em]">Choose your length</h2>
-                <p className="mt-0.5 text-[13px] text-muted">Every page takes a few seconds to read.</p>
+                <button onClick={() => setStep(1)} className="-ms-1 mb-1 flex h-9 items-center gap-1 text-[13px] font-semibold text-muted"><span aria-hidden className="rtl:-scale-x-100">←</span>{t("sheet.levelBack", { level: level ? levelById(level)?.label ?? "" : "" })}</button>
+                <h2 className="text-[20px] font-bold tracking-[-0.01em]">{t("sheet.chooseLength")}</h2>
+                <p className="mt-0.5 text-[13px] text-muted">{t("sheet.lengthSub")}</p>
                 <ul className="mt-4 space-y-2.5">
                   {LENGTHS.map((l) => (
                     <li key={l.pages}>
                       <button
                         onClick={() => level && start(level, l.pages)}
-                        className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3.5 text-left active:opacity-80 ${
+                        className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3.5 text-start active:opacity-80 ${
                           lastLength === l.pages ? "border-foreground bg-surface" : "border-border bg-surface"
                         }`}
                       >
                         <span>
-                          <span className="block text-[16px] font-semibold">{l.pages} pages <span className="font-normal text-muted">· {l.name}</span></span>
-                          <span className="mt-0.5 block text-[13px] text-muted">{l.time}</span>
+                          <span className="block text-[16px] font-semibold">{t("sheet.pages", { pages: l.pages })} <span className="font-normal text-muted">· {t(`length.${l.pages}.name`)}</span></span>
+                          <span className="mt-0.5 block text-[13px] text-muted">{t(`length.${l.pages}.time`)}</span>
                         </span>
-                        {lastLength === l.pages && <span className="ml-3 text-[12px] font-semibold text-accent">Last time</span>}
+                        {lastLength === l.pages && <span className="ms-3 text-[12px] font-semibold text-accent">{t("sheet.lastTime")}</span>}
                       </button>
                     </li>
                   ))}

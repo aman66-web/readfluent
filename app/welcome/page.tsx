@@ -93,8 +93,7 @@ function Welcome() {
   const nav = { at: i, of: STEP_IDS.length, onBack: back, onContinue: next };
   if (step === "tongues") {
     return (
-      <TonguesScreen {...nav} speak={a.language} learn={a.learn}
-                     onSpeak={(language) => saveAnswers({ language })} onLearn={(learn) => saveAnswers({ learn })} />
+      <TonguesScreen {...nav} speak={a.language} learn={a.learn} />
     );
   }
   if (step === "hello") return <HelloScreen {...nav} />;

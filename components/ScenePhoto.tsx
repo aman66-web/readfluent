@@ -1,4 +1,7 @@
+"use client";
+
 import { useId } from "react";
+import { useT } from "@/lib/i18n/react";
 
 /**
  * A stand-in for a page's photograph, drawn from the scene number so every scene
@@ -9,6 +12,7 @@ import { useId } from "react";
 /** `pill` is the "Photo placeholder" caption; off where the picture is small (the first-run tour's phone). */
 export function ScenePhoto({ n, hue, caption, className = "", pill = true }: { n: number; hue: number; caption: string; className?: string; pill?: boolean }) {
   const id = useId();
+  const t = useT();
   // A small deterministic shuffle: no Math.random, so server and client agree.
   const r = (k: number) => ((Math.sin(n * 12.9898 + k * 78.233) * 43758.5453) % 1 + 1) % 1;
   const h1 = (hue + n * 17) % 360;
@@ -20,7 +24,7 @@ export function ScenePhoto({ n, hue, caption, className = "", pill = true }: { n
     return `M0,300 L0,${base - r(k) * amp} ${pts.map((p) => `L${p}`).join(" ")} L400,300 Z`;
   };
   return (
-    <div className={`relative overflow-hidden ${className}`} role="img" aria-label={`Photo placeholder: ${caption}`}>
+    <div className={`relative overflow-hidden ${className}`} role="img" aria-label={`${t("photo.placeholder")}: ${caption}`}>
       <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" className="absolute inset-0 h-full w-full" aria-hidden>
         <defs>
           <linearGradient id={`${id}-sky`} x1="0" y1="0" x2="0" y2="1">
@@ -36,7 +40,7 @@ export function ScenePhoto({ n, hue, caption, className = "", pill = true }: { n
       </svg>
       {pill && (
         <span className="absolute bottom-2 left-2 rounded-full bg-black/45 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-sm">
-          Photo placeholder · {caption}
+          {t("photo.placeholder")} · {caption}
         </span>
       )}
     </div>

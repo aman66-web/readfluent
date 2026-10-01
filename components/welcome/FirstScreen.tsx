@@ -4,7 +4,8 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 import { DotNumber } from "@/components/DotMatrix";
 import { ART, ArtDefs } from "@/components/welcome/art";
-import { APP_NAME, BRAND, TAGLINE } from "@/lib/brand";
+import { APP_NAME, BRAND } from "@/lib/brand";
+import { useRich, useT } from "@/lib/i18n/react";
 
 /**
  * The screen the app opens on: a wall of book covers drifting past in the dark,
@@ -26,7 +27,8 @@ export function FirstScreen({ onStart, onSignIn }: { onStart: () => void; onSign
   // characters across on a phone, so two words side by side do not fit.
   const [top, bottom] = APP_NAME.split(/(?=[A-Z])/);
   // "Real books. Your level." — the second sentence picked out in the brand colour.
-  const [first, ...rest] = TAGLINE.split(/(?<=\.)\s+/);
+  const t = useT();
+  const rich = useRich();
 
   return (
     <main className="ob first relative flex h-[100dvh] flex-col overflow-clip">
@@ -40,7 +42,7 @@ export function FirstScreen({ onStart, onSignIn }: { onStart: () => void; onSign
           {bottom && <DotNumber value={bottom} cell={8} color="#0891B2" glow={false} field fieldColor="rgba(14,116,144,.06)" stagger label="" />}
         </h1>
         <p className="first-tagline ed-serif wel-in mt-5 text-[23px] italic leading-snug" style={{ animationDelay: "700ms" }}>
-          {first}{rest.length > 0 && <> <span style={{ color: BRAND.deep }}>{rest.join(" ")}</span></>}
+          {t("first.tagline1")} <span style={{ color: BRAND.deep }}>{t("first.tagline2")}</span>
         </p>
         <button
           type="button"
@@ -48,9 +50,9 @@ export function FirstScreen({ onStart, onSignIn }: { onStart: () => void; onSign
           className="first-start wel-in mt-7 inline-flex h-[58px] w-full select-none items-center justify-center gap-2.5 rounded-full px-6 text-[17px] font-semibold tracking-[-0.01em] transition-[transform,filter] duration-[140ms] ease-[cubic-bezier(.22,1,.36,1)] active:scale-[0.98]"
           style={{ animationDelay: "900ms", background: BRAND.bright, color: BRAND.ink }}
         >
-          Get started
+          {t("first.start")}
           <span className="grid size-8 shrink-0 place-items-center rounded-full bg-black/10">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="size-3.5" aria-hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="size-3.5 rtl:-scale-x-100" aria-hidden>
               <path d="M5 12h13M12 5l7 7-7 7" />
             </svg>
           </span>
@@ -59,12 +61,11 @@ export function FirstScreen({ onStart, onSignIn }: { onStart: () => void; onSign
           <button type="button" onClick={onSignIn}
                   className="first-alt wel-in mt-1 flex h-12 w-full items-center justify-center text-[15px] font-semibold transition-opacity active:opacity-60"
                   style={{ animationDelay: "1000ms", color: BRAND.deep }}>
-            I already have an account
+            {t("first.signIn")}
           </button>
         )}
         <p className="wel-in ob-faint mx-auto mt-4 max-w-[19rem] text-[12px] leading-relaxed" style={{ animationDelay: "1100ms" }}>
-          By continuing, you agree to our{" "}
-          <Link href="/privacy" className="first-link">Privacy Policy</Link>.
+          {rich("first.agree", (text) => <Link href="/privacy" className="first-link">{text}</Link>)}
         </p>
       </div>
     </main>

@@ -2,9 +2,12 @@
 
 import { useRef, useState } from "react";
 import { DotNumber } from "@/components/DotMatrix";
-import { CATEGORIES, type CategoryId } from "@/lib/content/limits";
+import type { CategoryId } from "@/lib/content/limits";
+import { formatDate, formatList } from "@/lib/i18n";
+import { formatReadingTime } from "@/lib/i18n/format";
+import { useLocale, useT } from "@/lib/i18n/react";
 import type { FocusId } from "@/lib/onboarding/answers";
-import { DAILY_MINUTES, readingTime } from "@/lib/onboarding/firstrun";
+import { DAILY_MINUTES } from "@/lib/onboarding/firstrun";
 import { useStagedCount } from "./count";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
 import { useHold } from "./hold";
@@ -19,19 +22,21 @@ interface Nav { at: number; of: number; onBack: () => void; onContinue: () => vo
  * and the totals are arithmetic on the time they chose (lib/onboarding/firstrun.ts).
  */
 
-const DAILY_LABELS = ["Easy", "Steady", "Keen", "All in"] as const;
+const DAILY_LABELS = ["daily.easy", "daily.steady", "daily.keen", "daily.allin"] as const;
 
 /** "How much time will you give it each day?" — four goals, one picked. */
 export function DailyScreen({ at, of, value, onPick, onBack, onContinue }: Nav & {
   value: number | null;
   onPick: (minutes: number) => void;
 }) {
-  const line = "How much time will you give it each day?";
+  const t = useT();
+  const locale = useLocale();
+  const line = t("daily.line");
   const guide = useGuide(line);
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead guide={guide} line={line} sub="Start small. You can change it any time." />
+        <GuideHead guide={guide} line={line} sub={t("daily.sub")} />
         <div className="mt-7 grid grid-cols-2 gap-3" role="radiogroup" aria-label={line}>
           {DAILY_MINUTES.map((m, i) => {
             const on = value === m;
@@ -40,12 +45,12 @@ export function DailyScreen({ at, of, value, onPick, onBack, onContinue }: Nav &
                       className={`guide-card wel-in relative flex flex-col items-start gap-3 rounded-[22px] p-4 text-start ${on ? "guide-card-on" : ""}`}
                       style={{ animationDelay: `${850 + i * 90}ms` }}>
                 <span className="flex items-end gap-1.5">
-                  <DotNumber value={m} cell={7} color={on ? "#0891B2" : "#0B1B22"} glow={false} label={`${m} minutes`} />
-                  <span className="ob-muted pb-0.5 text-[12px] font-bold uppercase tracking-[0.06em]">min</span>
+                  <DotNumber value={m} cell={7} color={on ? "#0891B2" : "#0B1B22"} glow={false} label={t("daily.minutesLabel", { minutes: m })} />
+                  <span className="ob-muted pb-0.5 text-[12px] font-bold uppercase tracking-[0.06em]">{t("daily.min")}</span>
                 </span>
                 <span>
-                  <span className="block text-[15px] font-semibold">{DAILY_LABELS[i]}</span>
-                  <span className="ob-muted mt-0.5 block text-[12.5px] leading-snug">{readingTime(365 * m)} a year</span>
+                  <span className="block text-[15px] font-semibold">{t(DAILY_LABELS[i])}</span>
+                  <span className="ob-muted mt-0.5 block text-[12.5px] leading-snug">{t("daily.year", { time: formatReadingTime(365 * m, locale) })}</span>
                 </span>
               </button>
             );
@@ -56,13 +61,6 @@ export function DailyScreen({ at, of, value, onPick, onBack, onContinue }: Nav &
   );
 }
 
-const FOCUS_LINES: Record<FocusId, string> = {
-  language: "You'll read your way into a new language.",
-  classics: "You'll finish the classics you've always meant to.",
-  words: "You'll build a vocabulary from real stories.",
-  social: "You'll swap scrolling for something that stays with you.",
-};
-
 /**
  * "Here's where ten minutes a day takes you" — a week, a month and a year of it, as
  * time spent reading. The year is the one lit up, and the bars are measured against
@@ -72,13 +70,15 @@ export function FutureScreen({ at, of, minutes, focus, onBack, onContinue }: Nav
   minutes: number;
   focus: readonly FocusId[];
 }) {
-  const line = `Here's where ${minutes} minutes a day takes you.`;
+  const t = useT();
+  const locale = useLocale();
+  const line = t("future.line", { minutes });
   const guide = useGuide(line);
   const year = 365 * minutes;
   const rows = [
-    { when: "In a week", minutes: 7 * minutes },
-    { when: "In a month", minutes: 30 * minutes },
-    { when: "In a year", minutes: year },
+    { when: t("time.week"), minutes: 7 * minutes },
+    { when: t("time.month"), minutes: 30 * minutes },
+    { when: t("time.year"), minutes: year },
   ];
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
@@ -88,7 +88,7 @@ export function FutureScreen({ at, of, minutes, focus, onBack, onContinue }: Nav
         <ol className="mt-7 space-y-2.5">
           {rows.map((r, i) => (
             <FutureRow key={i} when={r.when} share={r.minutes / year} top={r.minutes === year}
-                       say={`${readingTime(r.minutes)} of reading`} delay={900 + i * 450} />
+                       say={t("future.of", { time: formatReadingTime(r.minutes, locale) })} delay={900 + i * 450} />
           ))}
         </ol>
 
@@ -97,7 +97,7 @@ export function FutureScreen({ at, of, minutes, focus, onBack, onContinue }: Nav
             {focus.map((f, i) => (
               <li key={f} className="wel-in flex items-center gap-2.5 text-[14px] font-medium" style={{ animationDelay: `${2400 + i * 160}ms` }}>
                 <span className="grid size-5 shrink-0 place-items-center rounded-full bg-[var(--ob-teal)] text-white" aria-hidden>{TickIcon}</span>
-                {FOCUS_LINES[f]}
+                {t(`future.${f}`)}
               </li>
             ))}
           </ul>
@@ -134,7 +134,9 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
   done: boolean;
   onDone: () => void;
 }) {
-  const line = "Make it a promise to yourself.";
+  const t = useT();
+  const locale = useLocale();
+  const line = t("pledge.line");
   const guide = useGuide(line);
   const [today] = useState(() => new Date());
   const [p, setP] = useState(done ? 1 : 0);
@@ -164,19 +166,19 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
   const hold = useHold<HTMLButtonElement>(press, release);
 
   const C = 2 * Math.PI * 62;
-  const date = new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric" }).format(today);
+  const date = formatDate(today, locale);
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={done}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
         <GuideHead guide={guide} line={line} />
 
         <figure className="wel-in guide-card relative mt-7 rounded-[24px] px-6 py-6" style={{ animationDelay: "900ms" }}>
-          <blockquote className="ed-serif text-[23px] italic leading-[1.3]">“Every day, I&apos;ll spend {minutes} minutes reading something that matters.”</blockquote>
+          <blockquote className="ed-serif text-[23px] italic leading-[1.3]">{t("pledge.quote", { minutes })}</blockquote>
           <figcaption className="ob-faint mt-3 text-[12px] font-semibold uppercase tracking-[0.08em]">{date}</figcaption>
         </figure>
 
         <div className="mt-8 flex flex-1 flex-col items-center justify-center">
-          <button ref={hold} type="button" aria-label="Hold to promise" aria-pressed={done}
+          <button ref={hold} type="button" aria-label={t("pledge.hold")} aria-pressed={done}
                   onKeyDown={(e) => { if ((e.key === " " || e.key === "Enter") && !e.repeat) { e.preventDefault(); press(); } }}
                   onKeyUp={(e) => { if (e.key === " " || e.key === "Enter") release(); }}
                   className={`pledge-ring wel-in relative grid size-[150px] place-items-center rounded-full select-none [-webkit-touch-callout:none] ${done ? "pledge-done" : ""}`}
@@ -208,14 +210,14 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
             ))}
           </button>
           <p className="wel-in ob-muted mt-4 text-[14px] font-semibold" style={{ animationDelay: "1300ms" }} aria-live="polite">
-            {done ? "Promise made." : "Hold to promise"}
+            {done ? t("pledge.done") : t("pledge.hold")}
           </p>
           {/* A promise nobody is made to keep. */}
           {!done && (
             <button type="button" onClick={onContinue}
                     className="ob-faint wel-in mt-3 inline-flex h-11 items-center px-4 text-[13.5px] font-semibold transition-colors"
                     style={{ animationDelay: "1400ms" }}>
-              Skip for now
+              {t("pledge.skip")}
             </button>
           )}
         </div>
@@ -243,19 +245,18 @@ export function ReadyScreen({ at, of, interests, minutes, onBack, onContinue }: 
   minutes: number;
 }) {
   const pct = useStagedCount(BUILDING, 500);
+  const t = useT();
+  const locale = useLocale();
   const done = pct >= 100;
-  const line = done ? "Your library is ready." : "Building your library…";
+  const line = done ? t("ready.done") : t("ready.building");
   const guide = useGuide(line);
-  const labels = interests.map((id) => CATEGORIES.find((c) => c.id === id)?.label ?? id);
-  const names = labels.slice(0, 2);
-  const more = labels.length - names.length;
-  const shelves = names.length
-    ? `${new Intl.ListFormat("en", { type: "conjunction" }).format(names)}${more > 0 ? ` +${more}` : ""} on your shelf`
-    : "Every shelf, open to you";
-  const items = [shelves, `A daily goal of ${minutes} minutes`, "Words to tap on every page", "Flashcards that come back before you forget"];
+  const names = formatList(interests.slice(0, 2).map((id) => t(`cat.${id}`)), locale);
+  const more = interests.length - 2;
+  const shelves = interests.length === 0 ? t("ready.every") : more > 0 ? t("ready.shelvesMore", { names, more }) : t("ready.shelves", { names });
+  const items = [shelves, t("ready.goal", { minutes }), t("ready.words"), t("ready.cards")];
   const C = 2 * Math.PI * 54;
   return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={done} continueLabel="Start reading">
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={done} continueLabel={t("ready.start")}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
         <GuideHead key={line} guide={guide} line={line} />
 

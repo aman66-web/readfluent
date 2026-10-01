@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { APP_NAME, TAGLINE } from "@/lib/brand";
+import { LibraryHeader } from "@/components/library/Header";
 import { Library } from "@/components/library/Library";
 import { SignInNotice } from "@/components/SignInNotice";
 import { PREVIEW_BOOKS } from "@/lib/preview/catalog";
@@ -11,10 +11,7 @@ import { PREVIEW_BOOKS } from "@/lib/preview/catalog";
 export default function Home() {
   return (
     <main className="safe-top safe-bottom px-5 pb-10 pt-6">
-      <header>
-        <h1 className="text-[30px] font-bold tracking-[-0.02em]">{APP_NAME}</h1>
-        <p className="font-reading mt-0.5 text-[17px] text-muted">{TAGLINE}</p>
-      </header>
+      <LibraryHeader />
       <Suspense fallback={null}>
         <SignInNotice />
       </Suspense>

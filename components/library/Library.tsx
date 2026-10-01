@@ -4,12 +4,14 @@ import Link from "next/link";
 import { useState } from "react";
 import { BookCover } from "@/components/BookCover";
 import { CATEGORIES, categoryById, type CategoryId } from "@/lib/content/limits";
+import { useT } from "@/lib/i18n/react";
 import type { PreviewBook } from "@/lib/preview/catalog";
 
 /** Categories shown as "coming soon" in the all-books view, so the shape of the full library is visible. */
 const SOON_IN_ALL: CategoryId[] = ["crime", "fantasy-scifi", "self-help", "history", "science"];
 
 export function Library({ books }: { books: PreviewBook[] }) {
+  const t = useT();
   const [category, setCategory] = useState<CategoryId | "all">("all");
   const shown = category === "all" ? books : books.filter((b) => b.category === category);
   const soon: CategoryId[] =
@@ -17,8 +19,8 @@ export function Library({ books }: { books: PreviewBook[] }) {
 
   return (
     <div>
-      <div role="tablist" aria-label="Categories" className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5 pb-1">
-        {[{ id: "all" as const, label: "All" }, ...CATEGORIES].map((c) => {
+      <div role="tablist" aria-label={t("library.categories")} className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5 pb-1">
+        {[{ id: "all" as const }, ...CATEGORIES].map((c) => {
           const on = category === c.id;
           return (
             <button
@@ -30,7 +32,7 @@ export function Library({ books }: { books: PreviewBook[] }) {
                 on ? "bg-foreground text-background" : "border border-border bg-surface text-muted"
               }`}
             >
-              {c.label}
+              {c.id === "all" ? t("library.all") : t(`cat.${c.id}`)}
             </button>
           );
         })}
@@ -42,17 +44,17 @@ export function Library({ books }: { books: PreviewBook[] }) {
             <Link href={`/book/${b.slug}`} className="block active:opacity-80">
               <BookCover title={b.title} author={b.author} hue={categoryById(b.category)?.hue ?? 30} />
               <p className="mt-2 text-[14px] font-semibold leading-tight">{b.title}</p>
-              <p className="text-[12px] text-faint">{categoryById(b.category)?.label} · 9 versions</p>
+              <p className="text-[12px] text-faint">{t("library.versions", { category: t(`cat.${b.category}`) })}</p>
             </Link>
           </li>
         ))}
         {soon.map((id) => {
-          const c = categoryById(id)!;
+          const label = t(`cat.${id}`);
           return (
-            <li key={id} aria-label={`${c.label}: coming soon`}>
+            <li key={id} aria-label={t("library.soonLabel", { category: label })}>
               <div className="flex aspect-[2/3] flex-col items-center justify-center rounded-[10px] border-2 border-dashed border-border px-3 text-center">
-                <span className="text-[13px] font-semibold text-muted">{c.label}</span>
-                <span className="mt-1 text-[12px] text-faint">Coming soon</span>
+                <span className="text-[13px] font-semibold text-muted">{label}</span>
+                <span className="mt-1 text-[12px] text-faint">{t("library.soon")}</span>
               </div>
             </li>
           );
@@ -60,7 +62,7 @@ export function Library({ books }: { books: PreviewBook[] }) {
       </ul>
 
       <p className="mt-8 text-center text-[12px] leading-snug text-faint">
-        Preview: one book so far. The full library will have 270.
+        {t("library.preview")}
       </p>
     </div>
   );

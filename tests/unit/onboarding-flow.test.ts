@@ -149,8 +149,8 @@ describe("every screen renders", () => {
       daily: mk(p.DailyScreen, { ...nav, value: 15, onPick: () => {} }),
       future: mk(p.FutureScreen, { ...nav, minutes: 15, focus: ["language", "words"] }),
       pledge: mk(p.PledgeScreen, { ...nav, minutes: 15, done: false, onDone: () => {} }),
-      tongues: mk(g.TonguesScreen, { ...nav, speak: "en", learn: "es", onSpeak: () => {}, onLearn: () => {} }),
-      tonguesBlank: mk(g.TonguesScreen, { ...nav, speak: "en", learn: null, onSpeak: () => {}, onLearn: () => {} }),
+      tongues: mk(g.TonguesScreen, { ...nav, speak: "en", learn: "es" }),
+      tonguesBlank: mk(g.TonguesScreen, { ...nav, speak: "en", learn: null }),
       account: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: false, onNext: () => {} }),
       accountFailed: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: true, onNext: () => {} }),
       interests: mk(l.InterestsScreen, { ...nav, value: ["romance"], onChange: () => {} }),
@@ -173,6 +173,7 @@ describe("every screen renders", () => {
     expect(text(h.tongues)).toContain("Which languages?");
     expect(text(h.tongues)).toContain("Reading Spanish, with help in English.");
     expect(text(h.tonguesBlank)).toContain("Choose the language you want to learn.");
+    expect(text(h.tongues)).toContain("You can change this any time, and your progress is always saved.");
     expect(text(h.account)).toContain("Sign in or sign up");
     expect(text(h.interests)).toContain("What are you curious about?");
     expect(text(h.ready)).toContain("Building your library");
@@ -238,10 +239,21 @@ describe("the run's last step", () => {
 describe("the language pair", () => {
   it("says what the pair means, and what is not available yet", async () => {
     const { tonguesSummary, tonguesNote } = await import("@/lib/onboarding/tongues");
-    expect(tonguesSummary("en", "es")).toBe("Reading Spanish, with help in English.");
-    expect(tonguesSummary("en", null)).toBe("Choose the language you want to learn.");
-    expect(tonguesNote("en", "es")).toContain("The books are in English today");
-    expect(tonguesNote("fr", "en")).toContain("French are coming");
-    expect(tonguesNote("en", "en")).toBeNull();
+    const { translate } = await import("@/lib/i18n");
+    const t = (id: Parameters<typeof translate>[1], vars?: Record<string, string | number>) => translate(null, id, vars);
+    expect(tonguesSummary(t, "en", "en", "es")).toBe("Reading Spanish, with help in English.");
+    expect(tonguesSummary(t, "en", "en", null)).toBe("Choose the language you want to learn.");
+    expect(tonguesNote(t, "en", "en", "es")).toContain("The books are in English today");
+    expect(tonguesNote(t, "en", "fr", "en")).toContain("French are coming");
+    expect(tonguesNote(t, "en", "en", "en")).toBeNull();
+  });
+
+  it("says it in the reader's language, with the language names in that language", async () => {
+    const { tonguesSummary } = await import("@/lib/onboarding/tongues");
+    const { translate, EN } = await import("@/lib/i18n");
+    // A stand-in catalog: the point is that names come from the browser in the reader's language.
+    const fr = { ...EN, "tongues.summary": "Lecture en {learn}, avec de l'aide en {speak}." };
+    const t = (id: Parameters<typeof translate>[1], vars?: Record<string, string | number>) => translate(fr, id, vars);
+    expect(tonguesSummary(t, "fr", "en", "es")).toBe("Lecture en espagnol, avec de l'aide en anglais.");
   });
 });

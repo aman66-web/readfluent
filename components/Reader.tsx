@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ScenePhoto } from "@/components/ScenePhoto";
+import { useT } from "@/lib/i18n/react";
 import { readPage, resumeIndex, savePage } from "@/lib/progress";
 import type { PreviewPage, Scene } from "@/lib/preview/catalog";
 
@@ -28,6 +29,7 @@ interface Props {
  * kept on the device and picked up again.
  */
 export function Reader({ slug, title, levelId, levelLabel, length, hue, pages, scenes }: Props) {
+  const t = useT();
   const scroller = useRef<HTMLDivElement>(null);
   const [index, setIndex] = useState(0);
   const total = pages.length;
@@ -84,22 +86,22 @@ export function Reader({ slug, title, levelId, levelLabel, length, hue, pages, s
     <div className="flex h-dvh flex-col">
       <header className="safe-top shrink-0 px-4 pb-2 pt-2">
         <div className="flex h-11 items-center gap-2">
-          <Link href={`/book/${slug}`} aria-label="Back to the book" className="-ml-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
+          <Link href={`/book/${slug}`} aria-label={t("reader.backBook")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
           </Link>
           <p className="min-w-0 flex-1 truncate text-[14px] font-semibold">{title}</p>
           <span className="shrink-0 rounded-full border border-border bg-surface px-2.5 py-1 text-[12px] font-semibold text-muted">
-            {levelLabel} · {length}{isPreview ? " · preview" : ""}
+            {levelLabel} · {length}{isPreview ? ` · ${t("reader.preview")}` : ""}
           </span>
         </div>
       </header>
 
-      <div ref={scroller} className="no-scrollbar flex min-h-0 flex-1 snap-x snap-mandatory overflow-x-auto overscroll-x-contain" aria-label="Pages">
+      <div ref={scroller} dir="ltr" className="no-scrollbar flex min-h-0 flex-1 snap-x snap-mandatory overflow-x-auto overscroll-x-contain" aria-label={t("reader.pages")}>
         {pages.map((p, i) => {
           const scene = scenes[p.scene - 1];
           const near = Math.abs(i - index) <= KEEP_PHOTOS;
           return (
-            <section key={p.n} className="flex h-full w-full shrink-0 snap-start flex-col overflow-hidden" aria-roledescription="page" aria-label={`Page ${p.n} of ${total}`}>
+            <section key={p.n} className="flex h-full w-full shrink-0 snap-start flex-col overflow-hidden" aria-roledescription="page" aria-label={t("reader.pageLabel", { n: p.n, total })}>
               {near ? (
                 <ScenePhoto n={p.scene} hue={hue} caption={scene?.caption ?? ""} className="aspect-[16/10] max-h-[34dvh] w-full shrink-0" />
               ) : (
@@ -112,30 +114,30 @@ export function Reader({ slug, title, levelId, levelLabel, length, hue, pages, s
           );
         })}
 
-        <section className="flex h-full w-full shrink-0 snap-start flex-col items-center justify-center px-8 text-center" aria-label="The end">
-          <p className="font-reading text-[26px] font-bold">That&apos;s the end of the preview</p>
+        <section className="flex h-full w-full shrink-0 snap-start flex-col items-center justify-center px-8 text-center" aria-label={t("reader.end")}>
+          <p className="font-reading text-[26px] font-bold">{t("reader.endTitle")}</p>
           <p className="mt-3 max-w-[30ch] text-[15px] leading-snug text-muted">
-            You read {total} pages{isPreview ? `. The real ${length}-page version arrives with the full content` : ""}. Try another level to see how the same story changes.
+            {isPreview ? t("reader.endBodyPreview", { total, length }) : t("reader.endBody", { total })}
           </p>
           <Link href={`/book/${slug}`} className="mt-7 inline-flex h-12 items-center rounded-full bg-foreground px-7 text-[15px] font-semibold text-background">
-            Choose another level
+            {t("reader.another")}
           </Link>
-          <Link href="/" className="mt-3 inline-flex h-11 items-center text-[14px] font-semibold text-muted">Back to the library</Link>
+          <Link href="/" className="mt-3 inline-flex h-11 items-center text-[14px] font-semibold text-muted">{t("reader.toLibrary")}</Link>
         </section>
       </div>
 
       <footer className="safe-bottom shrink-0 px-5 pb-3 pt-2">
-        <div className="h-1.5 overflow-hidden rounded-full bg-border" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress} aria-label="Reading progress">
+        <div className="h-1.5 overflow-hidden rounded-full bg-border" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress} aria-label={t("reader.progress")}>
           <div className="h-full rounded-full bg-accent transition-[width] duration-300" style={{ width: `${progress}%` }} />
         </div>
-        <div className="mt-2 flex items-center justify-between">
-          <button onClick={() => goTo(index - 1)} disabled={index === 0} aria-label="Previous page" className="flex size-11 items-center justify-center rounded-full border border-border bg-surface disabled:opacity-35 active:bg-border/60">
+        <div dir="ltr" className="mt-2 flex items-center justify-between">
+          <button onClick={() => goTo(index - 1)} disabled={index === 0} aria-label={t("reader.prev")} className="flex size-11 items-center justify-center rounded-full border border-border bg-surface disabled:opacity-35 active:bg-border/60">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
           </button>
           <p className="tabular text-[14px] font-semibold text-muted" aria-live="polite">
-            {onEnd ? "Done" : `Page ${index + 1} of ${total}`}
+            {onEnd ? t("reader.done") : t("reader.pageLabel", { n: index + 1, total })}
           </p>
-          <button onClick={() => goTo(index + 1)} disabled={onEnd} aria-label="Next page" className="flex size-11 items-center justify-center rounded-full border border-border bg-surface disabled:opacity-35 active:bg-border/60">
+          <button onClick={() => goTo(index + 1)} disabled={onEnd} aria-label={t("reader.next")} className="flex size-11 items-center justify-center rounded-full border border-border bg-surface disabled:opacity-35 active:bg-border/60">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M9 5l7 7-7 7" /></svg>
           </button>
         </div>

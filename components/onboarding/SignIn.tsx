@@ -6,6 +6,8 @@ import { oauthProviders, signInWith, type OAuthProvider } from "@/lib/auth/provi
 import { isReviewEmail } from "@/lib/auth/review";
 import { createClient } from "@/lib/db/client";
 import { dbConfigured } from "@/lib/db/env";
+import { EN } from "@/lib/i18n/en";
+import { useT } from "@/lib/i18n/react";
 import { AFTER_SIGN_IN } from "@/lib/onboarding/steps";
 import { PrimaryButton } from "./ui";
 
@@ -36,6 +38,9 @@ const FIELD = "h-14 w-full rounded-full bg-[var(--ob-card)] px-6 text-center fon
  * with a password instead, because a reviewer cannot read the inbox the code goes to.
  */
 export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => void }) {
+  const t = useT();
+  // A message is either one of ours (an id, translated here) or the server's own words, shown as sent.
+  const say = (m: string) => (m in EN ? t(m as keyof typeof EN) : m);
   const [email, setEmail] = useState("");
   const [code, setCode] = useState("");
   const [password, setPassword] = useState("");
@@ -52,10 +57,10 @@ export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => vo
       setStatus({ kind: "sending" });
       try {
         const { error } = await createClient().auth.signInWithPassword({ email: to, password });
-        if (error) setStatus({ kind: "error", message: "That password isn't right." });
+        if (error) setStatus({ kind: "error", message: "email.badPassword" });
         else onVerified?.(to);
       } catch {
-        setStatus({ kind: "error", message: "That password isn't right." });
+        setStatus({ kind: "error", message: "email.badPassword" });
       }
       return;
     }
@@ -65,7 +70,7 @@ export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => vo
       if (error) setStatus({ kind: "error", message: error.message });
       else setStatus({ kind: "sent", email: to });
     } catch {
-      setStatus({ kind: "error", message: "Couldn't send a code. Check your connection and try again." });
+      setStatus({ kind: "error", message: "email.sendFailed" });
     }
   }
 
@@ -77,18 +82,18 @@ export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => vo
     setStatus({ kind: "verifying", email: to });
     try {
       const { error } = await createClient().auth.verifyOtp({ email: to, token: code, type: "email" });
-      if (error) setStatus({ kind: "codeError", email: to, message: "That code isn't right. Check it and try again." });
+      if (error) setStatus({ kind: "codeError", email: to, message: "email.badCode" });
       else onVerified?.(to);
     } catch {
-      setStatus({ kind: "codeError", email: to, message: "That code isn't right. Check it and try again." });
+      setStatus({ kind: "codeError", email: to, message: "email.badCode" });
     }
   }
 
   if (status.kind === "sent" || status.kind === "verifying" || status.kind === "codeError") {
     return (
       <form onSubmit={verify} className="guide-card relative rounded-[24px] p-5">
-        <p className="text-[17px] font-semibold tracking-[-0.01em]">Enter your code</p>
-        <p className="ob-muted mt-1.5 text-[13px] leading-snug">We sent a 6-digit code to <span className="font-semibold text-[var(--ob-ink)]">{status.email}</span>.</p>
+        <p className="text-[17px] font-semibold tracking-[-0.01em]">{t("email.enterCode")}</p>
+        <p className="ob-muted mt-1.5 text-[13px] leading-snug">{t("email.sent", { email: "\u0001" }).split("\u0001").map((part, i) => (i === 0 ? <span key={i}>{part}</span> : <span key={i}><span className="font-semibold text-[var(--ob-ink)]" dir="ltr">{status.email}</span>{part}</span>))}</p>
         <input
           type="text"
           value={code}
@@ -97,19 +102,19 @@ export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => vo
           inputMode="numeric"
           autoComplete="one-time-code"
           enterKeyHint="done"
-          aria-label="Your code"
+          aria-label={t("email.codeLabel")}
           aria-invalid={status.kind === "codeError" || undefined}
           /* 16px+ so iOS does not zoom the field on focus. */
           className={`${FIELD} mt-4 bg-white text-[20px] tracking-[0.35em]`}
         />
-        {status.kind === "codeError" && <p role="alert" className="mt-2 px-4 text-center text-[12.5px] font-medium text-error">{status.message}</p>}
+        {status.kind === "codeError" && <p role="alert" className="mt-2 px-4 text-center text-[12.5px] font-medium text-error">{say(status.message)}</p>}
         <div className="mt-3">
           <PrimaryButton type="submit" withArrow={false} disabled={!looksLikeCode(code) || status.kind === "verifying"}>
-            {status.kind === "verifying" ? "Checking…" : "Confirm code"}
+            {status.kind === "verifying" ? t("email.checking") : t("email.confirm")}
           </PrimaryButton>
         </div>
         <button type="button" onClick={() => { setStatus({ kind: "idle" }); setCode(""); }} className="ob-muted mt-3 h-11 w-full text-[12.5px] font-semibold">
-          Use a different email
+          {t("email.different")}
         </button>
       </form>
     );
@@ -125,18 +130,18 @@ export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => vo
         autoComplete="email"
         inputMode="email"
         enterKeyHint="send"
-        aria-label="Your email"
+        aria-label={t("email.emailLabel")}
         aria-invalid={status.kind === "error" || undefined}
         className={`${FIELD} text-[16px]`}
       />
       {reviewer && (
-        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Review password"
-               autoComplete="current-password" enterKeyHint="go" aria-label="Review password" className={`${FIELD} text-[16px]`} />
+        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder={t("email.reviewPassword")}
+               autoComplete="current-password" enterKeyHint="go" aria-label={t("email.reviewPassword")} className={`${FIELD} text-[16px]`} />
       )}
       <PrimaryButton type="submit" withArrow={false} disabled={!validEmail || status.kind === "sending" || (reviewer && !password)}>
-        {status.kind === "sending" ? (reviewer ? "Checking…" : "Sending…") : reviewer ? "Sign in with password" : "Send me a code"}
+        {status.kind === "sending" ? (reviewer ? t("email.checking") : t("email.sending")) : reviewer ? t("email.signInPassword") : t("email.send")}
       </PrimaryButton>
-      {status.kind === "error" && <p role="alert" className="px-4 text-center text-[12.5px] font-medium text-error">{status.message}</p>}
+      {status.kind === "error" && <p role="alert" className="px-4 text-center text-[12.5px] font-medium text-error">{say(status.message)}</p>}
     </form>
   );
 }
@@ -148,6 +153,7 @@ export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => vo
  * the count is the same on every deploy.
  */
 export function SignIn({ error, onNext }: { error: boolean; onNext: () => void }) {
+  const t = useT();
   const [busy, setBusy] = useState<OAuthProvider | null>(null);
   const [failed, setFailed] = useState<string | null>(null);
   const providers = oauthProviders();
@@ -167,7 +173,7 @@ export function SignIn({ error, onNext }: { error: boolean; onNext: () => void }
       if (message === SIGNED_IN) { onNext(); return; }
       if (message !== null) { setFailed(message || null); setBusy(null); }
     } catch {
-      setFailed("Signing in didn't work. Try again, or carry on without an account.");
+      setFailed(t("account.failed"));
       setBusy(null);
     }
   }
@@ -175,8 +181,8 @@ export function SignIn({ error, onNext }: { error: boolean; onNext: () => void }
   if (!available) {
     return (
       <div className="guide-card wel-in relative rounded-[22px] p-5">
-        <p className="ob-muted text-[13.5px] leading-snug">Accounts aren&apos;t switched on yet. Your reading stays on this device, and you can sign in later.</p>
-        <div className="mt-4"><PrimaryButton withArrow={false} onClick={onNext}>Continue</PrimaryButton></div>
+        <p className="ob-muted text-[13.5px] leading-snug">{t("account.off")}</p>
+        <div className="mt-4"><PrimaryButton withArrow={false} onClick={onNext}>{t("ui.continue")}</PrimaryButton></div>
       </div>
     );
   }
@@ -185,7 +191,7 @@ export function SignIn({ error, onNext }: { error: boolean; onNext: () => void }
     <div className="space-y-2.5">
       {(error || failed) && (
         <p role="alert" className="wel-in rounded-2xl bg-red-50 px-4 py-3 text-[13px] font-medium leading-snug text-error">
-          {failed ?? "Signing in didn't work. Try again, or carry on without an account."}
+          {failed ?? t("account.failed")}
         </p>
       )}
       {providers.map((p, i) => (
@@ -194,12 +200,12 @@ export function SignIn({ error, onNext }: { error: boolean; onNext: () => void }
       {providers.length > 0 && (
         <div className="wel-in flex items-center gap-3 pt-1" style={{ animationDelay: "160ms" }}>
           <span className="h-px flex-1 bg-black/10" aria-hidden />
-          <span className="ob-faint text-[11.5px] font-medium">or with your email</span>
+          <span className="ob-faint text-[11.5px] font-medium">{t("account.or")}</span>
           <span className="h-px flex-1 bg-black/10" aria-hidden />
         </div>
       )}
       <div className="wel-in" style={{ animationDelay: "200ms" }}><EmailSignIn onVerified={onNext} /></div>
-      <button type="button" onClick={onNext} className="ob-muted h-11 w-full text-[13px] font-semibold">Not now</button>
+      <button type="button" onClick={onNext} className="ob-muted h-11 w-full text-[13px] font-semibold">{t("account.notNow")}</button>
     </div>
   );
 }
@@ -212,11 +218,12 @@ export function SignIn({ error, onNext }: { error: boolean; onNext: () => void }
 function ProviderButton({ provider, busy, disabled, onClick, delay }: {
   provider: OAuthProvider; busy: boolean; disabled: boolean; onClick: () => void; delay: number;
 }) {
+  const t = useT();
   return (
     <button type="button" onClick={onClick} disabled={disabled} aria-busy={busy || undefined} style={{ animationDelay: `${delay}ms` }}
             className="ob-quiet wel-in flex h-[52px] w-full items-center justify-center gap-3 rounded-full px-5 text-[15px] font-semibold transition-[transform,opacity] duration-[140ms] active:scale-[0.98] disabled:opacity-60">
       {provider === "google" ? <GoogleMark /> : <AppleMark />}
-      <span>{busy ? "Signing in…" : provider === "google" ? "Continue with Google" : "Continue with Apple"}</span>
+      <span>{busy ? t("account.signingIn") : provider === "google" ? t("account.google") : t("account.apple")}</span>
     </button>
   );
 }

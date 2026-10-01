@@ -1,26 +1,31 @@
-import { LANGUAGES, type LanguageCode } from "./languages";
+import { languageName, type MessageId } from "@/lib/i18n";
+import type { LanguageCode } from "./languages";
 
 /**
  * What the pair of languages means, in words: the reader speaks one (the app and its
  * word meanings are in it) and is learning another (the books are in it). Pure, so the
- * sentence is tested rather than looked at.
+ * sentences are tested rather than looked at.
  *
  * The books are English today (SPEC.md §4). A choice that cannot be served yet is
  * still saved — it tells the owner which languages to translate into first — and the
  * screen says so plainly instead of promising it.
  */
 
-const name = (code: LanguageCode) => LANGUAGES.find((l) => l.code === code)?.label ?? code;
+type T = (id: MessageId, vars?: Record<string, string | number>) => string;
+
+/** A sentence that starts with a language's name starts with a capital, whatever the language does mid-sentence. */
+const sentence = (text: string, locale: LanguageCode) => (text ? text.charAt(0).toLocaleUpperCase(locale) + text.slice(1) : text);
 
 /** "Reading Spanish, with help in English." */
-export function tonguesSummary(speak: LanguageCode, learn: LanguageCode | null): string {
-  if (!learn) return "Choose the language you want to learn.";
-  return `Reading ${name(learn)}, with help in ${name(speak)}.`;
+export function tonguesSummary(t: T, locale: LanguageCode, speak: LanguageCode, learn: LanguageCode | null): string {
+  if (!learn) return t("tongues.pick");
+  return sentence(t("tongues.summary", { learn: languageName(learn, locale), speak: languageName(speak, locale) }), locale);
 }
 
 /** What is not available yet about this pair, or null when all of it is. */
-export function tonguesNote(speak: LanguageCode, learn: LanguageCode | null): string | null {
-  if (learn && learn !== "en") return `The books are in English today. We've saved ${name(learn)} and will tell you when it arrives.`;
-  if (learn === "en" && speak !== "en") return `Word meanings in ${name(speak)} are coming. For now they appear in English.`;
+export function tonguesNote(t: T, locale: LanguageCode, speak: LanguageCode, learn: LanguageCode | null): string | null {
+  const en = languageName("en", locale);
+  if (learn && learn !== "en") return sentence(t("tongues.noteBooks", { en, learn: languageName(learn, locale) }), locale);
+  if (learn === "en" && speak !== "en") return sentence(t("tongues.noteWords", { en, speak: languageName(speak, locale) }), locale);
   return null;
 }

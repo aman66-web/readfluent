@@ -3,6 +3,8 @@
 import { useEffect, useState, type CSSProperties } from "react";
 import { ScenePhoto } from "@/components/ScenePhoto";
 import { LEVELS, categoryById, type LevelId } from "@/lib/content/limits";
+import { useT } from "@/lib/i18n/react";
+import type { MessageId } from "@/lib/i18n/en";
 import { PREVIEW_BOOKS, pagesOf } from "@/lib/preview/catalog";
 import type { ShowId } from "@/lib/onboarding/steps";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
@@ -20,7 +22,8 @@ import { GuideFrame, GuideHead, useGuide } from "./Guide";
 export function TourScreen({ id, at, of, onBack, onContinue }: {
   id: ShowId; at: number; of: number; onBack: () => void; onContinue: () => void;
 }) {
-  const line = LINES[id];
+  const t = useT();
+  const line = t(LINES[id]);
   const guide = useGuide(line);
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
@@ -38,12 +41,12 @@ export function TourScreen({ id, at, of, onBack, onContinue }: {
   );
 }
 
-const LINES: Record<ShowId, string> = {
-  journey: "We'll read real books, one short page at a time.",
-  levels: "Every book, at your level and your length.",
-  words: "Tap any word you don't know, and see what it means.",
-  remember: "And I'll bring your new words back, just before you forget.",
-  connect: "Soon, you'll have read the books everyone talks about.",
+const LINES: Record<ShowId, MessageId> = {
+  journey: "tour.journey",
+  levels: "tour.levels",
+  words: "tour.words",
+  remember: "tour.remember",
+  connect: "tour.connect",
 };
 
 /** When each thing arrives, after the guide has started its line. */
@@ -62,6 +65,7 @@ const REEL: readonly { page: number; level: LevelId }[] = [
 const PAGE_MS = 3400;
 
 function Journey() {
+  const t = useT();
   const [tick, setTick] = useState(0);
   const book = PREVIEW_BOOKS[0];
   const hue = categoryById(book.category)?.hue ?? 195;
@@ -77,7 +81,7 @@ function Journey() {
   return (
     /* Sized by the height it is given, so a short phone gets a shorter phone rather
        than one that runs up over the guide's line. */
-    <div className="show-phone wel-in relative aspect-[9/17.4] h-full max-h-[400px] rounded-[36px] p-2" style={later(700)}>
+    <div dir="ltr" className="show-phone wel-in relative aspect-[9/17.4] h-full max-h-[400px] rounded-[36px] p-2" style={later(700)}>
       <div className="relative size-full overflow-hidden rounded-[29px] bg-white">
         <span className="absolute left-1/2 top-2 z-[2] h-[13px] w-[58px] -translate-x-1/2 rounded-full bg-black" />
         {/* The reader's own header: the book, the level, and how far through it. */}
@@ -95,7 +99,7 @@ function Journey() {
           <ScenePhoto n={page.scene} hue={hue} caption={book.scenes[page.scene - 1]?.caption ?? ""} pill={false} className="aspect-[16/11] w-full" />
           <p className="show-line px-3 pt-3 font-reading text-[9.6px] leading-[1.45] text-[#0B1B22]">{page.text}</p>
         </div>
-        <p className="absolute inset-x-0 bottom-3 z-[1] text-center text-[7.5px] font-semibold text-[#0B1B22]/45">Page {frame.page} of {pages.length}</p>
+        <p className="absolute inset-x-0 bottom-3 z-[1] text-center text-[7.5px] font-semibold text-[#0B1B22]/45">{t("tour.page", { n: frame.page, total: pages.length })}</p>
       </div>
       {/* Where a tap turns the page. */}
       <span className="show-tap absolute right-[9%] top-[44%] size-8 rounded-full" />
@@ -105,10 +109,11 @@ function Journey() {
 
 /* ── levels: two cards, each a claim and a picture of it ─────────────────── */
 function Levels() {
+  const t = useT();
   return (
     <div className="w-full space-y-3">
       <div className="guide-card wel-in relative flex h-[124px] overflow-hidden rounded-[22px]" style={later(800)}>
-        <p className="flex flex-1 items-center px-5 text-[19px] font-semibold leading-[1.15] tracking-[-0.01em]">Three levels, from beginner to advanced</p>
+        <p className="flex flex-1 items-center px-5 text-[19px] font-semibold leading-[1.15] tracking-[-0.01em]">{t("tour.levelsCard")}</p>
         <span className="relative w-[48%] shrink-0 bg-[linear-gradient(160deg,#0E7490,#082F3E)]">
           {/* Three steps up, one for each band of level. */}
           <svg viewBox="0 0 160 124" className="size-full" fontFamily="var(--font-jakarta), sans-serif" fontWeight="800" fontSize="15" textAnchor="middle">
@@ -122,7 +127,7 @@ function Levels() {
         </span>
       </div>
       <div className="guide-card wel-in relative flex h-[124px] overflow-hidden rounded-[22px]" style={later(950)}>
-        <p className="flex flex-1 items-center px-5 text-[19px] font-semibold leading-[1.15] tracking-[-0.01em]">Fifty, a hundred or two hundred pages</p>
+        <p className="flex flex-1 items-center px-5 text-[19px] font-semibold leading-[1.15] tracking-[-0.01em]">{t("tour.lengthsCard")}</p>
         <span className="relative w-[48%] shrink-0 bg-[linear-gradient(160deg,#1B2250,#0D1030)]">
           {/* Three stacks of pages, short, medium and long. */}
           <svg viewBox="0 0 160 124" className="size-full" fontFamily="var(--font-jakarta), sans-serif" fontWeight="800" fontSize="13" textAnchor="middle">
@@ -168,20 +173,21 @@ function Words() {
 }
 
 /* ── remember: the same words, coming back further apart each time ───────── */
-const COMING: { when: string; word: string; color: string }[] = [
-  { when: "Tomorrow", word: "fortune", color: "#0E7490" },
-  { when: "In 3 days", word: "tolerable", color: "#6D5BD0" },
-  { when: "In a week", word: "prejudice", color: "#0891B2" },
-  { when: "In a month", word: "propriety", color: "#1D6FA5" },
+const COMING: { when: MessageId; word: string; color: string }[] = [
+  { when: "time.tomorrow", word: "fortune", color: "#0E7490" },
+  { when: "time.days3", word: "tolerable", color: "#6D5BD0" },
+  { when: "time.week", word: "prejudice", color: "#0891B2" },
+  { when: "time.month", word: "propriety", color: "#1D6FA5" },
 ];
 
 function Remember() {
+  const t = useT();
   return (
     <div className="w-full space-y-2.5">
       {COMING.map(({ when, word, color }, i) => (
         <div key={word} className="guide-card wel-in relative flex items-center gap-3 rounded-[20px] px-4 py-3.5" style={later(800 + i * 120)}>
           <div className="min-w-0 flex-1">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color }}>{when}</p>
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color }}>{t(when)}</p>
             <p className="ed-serif mt-1 truncate text-[22px] font-bold italic tracking-[-0.01em]">{word}</p>
           </div>
           {/* How well it is held: one more lamp each time it comes back. */}
@@ -218,7 +224,7 @@ const LINKS: { a: number; b: number; lit: boolean }[] = [
 
 function Connect() {
   return (
-    <div className="relative h-full max-h-[420px] w-full max-w-[340px]">
+    <div dir="ltr" className="relative h-full max-h-[420px] w-full max-w-[340px]">
       <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="absolute inset-0 size-full overflow-visible">
         {LINKS.map(({ a, b, lit }, i) => (
           <line key={i} x1={NODES[a].x} y1={NODES[a].y} x2={NODES[b].x} y2={NODES[b].y}

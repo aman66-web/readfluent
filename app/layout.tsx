@@ -4,6 +4,7 @@ import { NativeAuthBridge } from "@/components/auth/NativeAuthBridge";
 import { PurchasesBridge } from "@/components/purchases/PurchasesBridge";
 import { NativeChrome } from "@/components/NativeChrome";
 import { Pwa } from "@/components/Pwa";
+import { LocaleSync } from "@/lib/i18n/react";
 import { APP_NAME, TAGLINE } from "@/lib/brand";
 
 export const metadata: Metadata = {
@@ -37,6 +38,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <PurchasesBridge />
         {/* The status bar's text colour on the native build. Renders nothing. */}
         <NativeChrome />
+        {/* The page's lang and dir follow the reader's language. Renders nothing. */}
+        <LocaleSync />
         {/* The phone column: 375px is the design width, 440px the cap. */}
         <div className="mx-auto min-h-full max-w-[440px]">{children}</div>
         <Pwa />
