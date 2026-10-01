@@ -48,6 +48,18 @@ These unblock the build. None is final; the owner decides.
 - Marketing-host rewrite in `proxy.ts` stays as a mechanism, reads only `MARKETING_HOSTS` from the environment, and has no default domains. `public/site` is replaced.
 - Credentials: nothing is copied from Mental Stint. New Supabase project, Vercel project, RevenueCat app, iOS and Android keystores. Keystores are generated outside the repo and backed up; `*.keystore`, `*.jks`, `*.p8`, `*.p12` and `.env*` are in `.gitignore` from M0.
 
+## 2026-10-01 — Preview slice (before M1)
+
+- Order changed at the owner's request: a visible slice comes before M1 so the app can be looked at and edited on a real URL. Everything else in SPEC.md §10 is unchanged; the pipeline is still M2, before any real book text.
+- The preview content is deliberately not the real contract: one book, 12 scenes, three levels, compiled into the app from `lib/preview/catalog.ts`, which CLAUDE.md forbids for real content. It is temporary and is deleted when M1 loads content from storage. Every length (50, 100, 200) opens the same 12-page sample and the header chip says "preview".
+- The text is an original retelling written for the preview, not a quotation of the novel. All 36 pages (3 levels × 12) are 28–35 words, checked by `tests/unit/preview-content.test.ts` against the one `PAGE_WORDS` constant in `lib/content/limits.ts`.
+- Photos are generated placeholders (a drawn landscape per scene, captioned "Photo placeholder"), not images: real ones come from the pipeline (M2), and spending the owner's image-generation credits was not asked for.
+- Measured, not assumed: the first layout cut the text off mid-sentence on a 375×667 phone (a banner plus a 4:3 photo plus 20px type). Fixed by moving the preview note into the header chip and end screen, using a 16:10 photo capped at 34% of the screen height, and 19px/1.5 type. All 36 pages now fit with no scrolling at 375×667, 360×640 and 390×844.
+- The pager is native CSS scroll-snap, so swiping feels like the phone's own and costs no gesture code. Photos are mounted only for the current page and its two neighbours either side (5 at most), which is what lets a 200-page version stay light.
+- "Where you got to" and "last level and length" are two small device-stored documents (`lib/progress.ts`), read through `useSyncExternalStore` so the first render matches the server's. Both become `sync_docs` in M8.
+- Vercel with no environment variables runs in local mode (no database, no sign-in), which is all the preview needs. The Vercel project should track this branch as its production branch until the work is merged (see DEPLOY.md).
+- `package.json` pins `engines.node >= 22` so Vercel builds with the Node version the tests ran on.
+
 ## 2026-10-01 — M0 (seed and strip)
 
 - Deferred from M0 to the milestone that rewires them, rather than copied dead: `lib/sync/*` (M8, tied to Mental Stint's six stores), `lib/srs/*` (M7, imports its card formats), `lib/books/narration.ts` and `lib/voice.ts` (M6), `lib/books/offline*.ts` and `downloads.ts` (M9), the email-code form in `components/Account.tsx` (M8, built on its glass/aura styling and string tables). All stay readable at the pinned commit `8a7f13c`. `lib/auth/native.ts` needed `safeNext` and `OAuthProvider` from two of those files, so they moved to `lib/auth/next.ts` and `lib/auth/providers.ts`.

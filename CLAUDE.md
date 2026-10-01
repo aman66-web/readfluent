@@ -55,6 +55,7 @@ store keystores. `.env*`, keystores and `.p8`/`.p12` files are never committed.
 One line per milestone when it is done: date, what shipped, anything the next person must know.
 
 - M0 Seed and strip — done 1 Oct 2026. Template copied from `span/revise@8a7f13c` (keep-set only, 1.05 MB tracked), identity renamed everywhere, `lib/brand.ts` is the one source for name/scheme/bundle id/storage prefix, three new migrations proved on real PostgreSQL 16, shell-only service worker verified in a browser, `.capacitorignore` + stub `webDir` + `check:native`, guard test for the old identity. Next 16.3.8 (critical advisory fixed). **Not done, by design:** `cap sync` on a Mac (first step of M11); sync, SRS, narration, offline downloads and the sign-in form are adapted in M6–M9 from the pinned commit. Placeholders to replace before M11: `PRODUCTION_URL`, Google client ids, Apple team id, icons, `PRICE`.
+- P Preview slice — done 1 Oct 2026 (temporary, owner's request). Library, jacket, level and length picker, and the reader for one sample book (`lib/preview/`, deleted when M1 lands). Verified in a browser at 375×667, 360×640 and 390×844: every page fits, swipe/resume/end work, 5 photos mounted at most. Deploy steps and the setup prompt are in DEPLOY.md.
 - M1 Content contract — not started
 - M2 Prove the content pipeline — not started (go/no-go on scale recorded in DECISIONS.md)
 - M3 Library and the pick flow — not started
