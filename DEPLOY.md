@@ -1,5 +1,7 @@
 # Putting the preview on the internet (Vercel)
 
+**Live now: https://readfluent-eta.vercel.app** (deployed 1 Oct 2026, production branch `claude/readfluent-template-setup-ewq3lj`, project `readfluent` under the Hobby team `aman-moneysave`). The steps below are how it was set up and how to redo it.
+
 The app needs **no keys and no database** to run: with no environment variables it
 runs in local mode, which is all the preview needs. You only need a free Vercel
 account connected to GitHub.

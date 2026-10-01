@@ -59,6 +59,7 @@ These unblock the build. None is final; the owner decides.
 - "Where you got to" and "last level and length" are two small device-stored documents (`lib/progress.ts`), read through `useSyncExternalStore` so the first render matches the server's. Both become `sync_docs` in M8.
 - Vercel with no environment variables runs in local mode (no database, no sign-in), which is all the preview needs. The Vercel project should track this branch as its production branch until the work is merged (see DEPLOY.md).
 - `package.json` pins `engines.node >= 22` so Vercel builds with the Node version the tests ran on.
+- Deployed 1 Oct 2026 by Claude in Chrome following DEPLOY.md: https://readfluent-eta.vercel.app (the name `readfluent` was taken, so Vercel added `-eta`). Production Branch Tracking is set to the feature branch, so every push redeploys. `main` still has no app, so the project's first deploy of `main` failed, as expected; leave it. The Vercel project is under the personal Hobby team (slug `aman-moneysave`). `PRODUCTION_URL` in `capacitor.config.ts` and `WKAppBoundDomains` in `Info.plist` now use this host; both change again if a custom domain is added.
 
 ## 2026-10-01 — M0 (seed and strip)
 

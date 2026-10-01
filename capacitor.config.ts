@@ -20,7 +20,7 @@ import type { CapacitorConfig } from "@capacitor/cli";
  * loudly — the app opens to a blank screen or someone else's site, which is a
  * worse first five minutes than a build error.
  */
-const PRODUCTION_URL = "https://readfluent.vercel.app";
+const PRODUCTION_URL = "https://readfluent-eta.vercel.app";
 
 const config: CapacitorConfig = {
   // Must match the App ID registered in the Apple Developer portal, the

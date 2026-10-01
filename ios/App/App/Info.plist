@@ -108,7 +108,7 @@
 	     entries; a custom domain for the site has to be added here as well. -->
 	<key>WKAppBoundDomains</key>
 	<array>
-		<string>readfluent.vercel.app</string>
+		<string>readfluent-eta.vercel.app</string>
 		<string>localhost</string>
 	</array>
 	<!-- The app's only encryption is HTTPS through the operating system, which is
