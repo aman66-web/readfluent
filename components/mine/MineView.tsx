@@ -54,7 +54,7 @@ export function MineView() {
   const readingNow = useMemo(() => reading(parseProgress(progressRaw), done), [progressRaw, done]);
   const finishedList = useMemo(() => finished(done), [done]);
   return (
-    <main className="safe-top px-5 pb-32 pt-6">
+    <main className="safe-top px-5 pb-32 [--pt:1.5rem]">
       <h1 className="text-[30px] font-bold tracking-[-0.02em]">{t("tab.mine")}</h1>
       <Section title={t("mine.reading")} empty={t("mine.emptyReading")}>{readingNow.map((e) => <Row key={e.key} e={e} done={false} />)}</Section>
       <Section title={t("mine.finished")} empty={t("mine.emptyFinished")}>{finishedList.map((e) => <Row key={e.key} e={e} done />)}</Section>

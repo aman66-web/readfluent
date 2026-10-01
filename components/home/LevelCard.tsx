@@ -31,7 +31,7 @@ export function LevelCard({ xp, learn }: { xp: number; learn: LanguageCode | nul
     <section className="relative overflow-hidden rounded-[26px] p-5 text-white shadow-[0_18px_40px_-22px_rgba(8,47,62,.75)]"
              style={{ background: "linear-gradient(155deg, #0E7490 0%, #0A4B62 55%, #082F3E 100%)" }}>
       <div className="pointer-events-none absolute -end-10 -top-12 size-44 rounded-full opacity-60 blur-2xl" style={{ background: "radial-gradient(circle, #22D3EE 0%, transparent 70%)" }} aria-hidden />
-      <p className="relative text-[12px] font-semibold uppercase tracking-[0.1em] text-white/70">{t("xp.yourLevel", { language })}</p>
+      <p className="relative text-[12px] font-semibold uppercase tracking-[0.1em] text-white/90">{t("xp.yourLevel", { language })}</p>
 
       <div className="relative mt-3 flex items-end gap-3.5">
         <div dir="ltr" className="shrink-0"><DotNumber value={s.level} cell={8} color="#67E8F9" glow={false} field fieldColor="rgba(255,255,255,.07)" label={s.level} /></div>
@@ -39,7 +39,7 @@ export function LevelCard({ xp, learn }: { xp: number; learn: LanguageCode | nul
         <div className="min-w-0 pb-1">
           <p className="text-[16px] font-semibold leading-tight">{t(`levelname.${s.level}`)}</p>
           {s.stage && <p className="tabular mt-0.5 text-[13px] font-bold text-[#67E8F9]">{s.code} · {t(STAGE_NAME[s.stage])}</p>}
-          <p className="tabular mt-1 text-[12.5px] font-semibold text-white/75">{t("xp.total", { xp: n(s.xp) })}</p>
+          <p className="tabular mt-1 text-[12.5px] font-semibold text-white/90">{t("xp.total", { xp: n(s.xp) })}</p>
         </div>
       </div>
 
@@ -51,7 +51,7 @@ export function LevelCard({ xp, learn }: { xp: number; learn: LanguageCode | nul
         </div>
         {s.next ? (
           <div className="tabular mt-2 flex items-baseline justify-between gap-3 text-[13px] font-semibold">
-            <span className="text-white/75">{t("xp.progress", { into: n(s.into), span: n(s.span) })}</span>
+            <span className="text-white/90">{t("xp.progress", { into: n(s.into), span: n(s.span) })}</span>
             <span>{t("xp.toGo", { xp: n(s.toGo), next: s.next })}</span>
           </div>
         ) : (
@@ -65,8 +65,8 @@ export function LevelCard({ xp, learn }: { xp: number; learn: LanguageCode | nul
         <p className="mt-1.5 text-[14px] leading-snug">{t(CAN_DO(s.code))}</p>
         {after && (
           <div className="mt-3 border-t border-white/15 pt-3">
-            <p className="text-[11.5px] font-bold uppercase tracking-[0.1em] text-white/60">{t("cando.next", { code: stageCode(after.level, after.stage) })}</p>
-            <p className="mt-1 text-[13px] leading-snug text-white/75">{t(CAN_DO(stageCode(after.level, after.stage)))}</p>
+            <p className="text-[11.5px] font-bold uppercase tracking-[0.1em] text-white/85">{t("cando.next", { code: stageCode(after.level, after.stage) })}</p>
+            <p className="mt-1 text-[13px] leading-snug text-white/90">{t(CAN_DO(stageCode(after.level, after.stage)))}</p>
           </div>
         )}
       </div>

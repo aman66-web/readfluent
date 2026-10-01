@@ -70,7 +70,7 @@ export function TabBar() {
       <nav ref={navRef} aria-label={t("tab.menu")}
            className="pointer-events-auto relative flex h-[64px] items-center rounded-full bg-white/85 px-1.5 shadow-[0_14px_40px_-14px_rgba(8,47,62,.45)] ring-1 ring-black/[0.06] backdrop-blur-xl">
         {pill && activeIndex >= 0 && (
-          <span aria-hidden className="tab-ind absolute bottom-1.5 left-0 top-1.5 rounded-full bg-[#22D3EE]/20 ring-1 ring-inset ring-[#22D3EE]/35"
+          <span aria-hidden className="tab-ind absolute bottom-1.5 left-0 top-1.5 rounded-full bg-accent-bright/20 ring-1 ring-inset ring-accent-bright/35"
                 style={{ transform: `translateX(${pill.x}px)`, width: pill.w }} />
         )}
         {TABS.map(({ href, key, icon }) => {
@@ -82,7 +82,7 @@ export function TabBar() {
                    className={`size-[22px] shrink-0 transition-transform duration-300 ${active ? "-translate-y-px scale-110" : ""}`} aria-hidden>
                 {icon}
               </svg>
-              <span className="max-w-full truncate px-0.5">{t(key)}</span>
+              <span className="line-clamp-2 max-w-full break-words px-0.5 text-center text-[10.5px] leading-[1.1]">{t(key)}</span>
             </Link>
           );
         })}

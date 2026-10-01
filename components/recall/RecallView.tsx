@@ -29,7 +29,7 @@ const WAYS: readonly { id: string; title: MessageId; desc: MessageId; icon: Reac
 export function RecallView() {
   const t = useT();
   return (
-    <main className="safe-top px-5 pb-32 pt-6">
+    <main className="safe-top px-5 pb-32 [--pt:1.5rem]">
       <h1 className="text-[30px] font-bold tracking-[-0.02em]">{t("recall.title")}</h1>
       <p className="mt-1 text-[15px] leading-snug text-muted">{t("recall.sub")}</p>
 

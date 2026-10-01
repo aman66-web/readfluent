@@ -59,7 +59,7 @@ export function ReadSheet({ slug, title }: { slug: string; title: string }) {
       {open && (
         <div className="fixed inset-0 z-50 flex items-end justify-center" role="dialog" aria-modal="true" aria-label={t("sheet.readLabel", { title })}>
           <button aria-label={t("ui.close")} className="fade-in absolute inset-0 bg-black/45" onClick={() => setOpen(false)} />
-          <div className="sheet-up safe-bottom relative w-full max-w-[440px] rounded-t-[22px] bg-background px-5 pb-6 pt-3 shadow-2xl">
+          <div className="sheet-up safe-bottom relative w-full max-w-[440px] rounded-t-[22px] bg-background px-5 [--pb:1.5rem] pt-3 shadow-2xl">
             <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-border" aria-hidden />
             {step === 1 ? (
               <>

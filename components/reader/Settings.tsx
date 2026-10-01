@@ -24,7 +24,7 @@ export function Settings({ prefs, language }: { prefs: ReaderPrefs; language: st
       <div className="mb-3 flex gap-1.5">
         {sizes.map((s) => (
           <button key={s} type="button" aria-pressed={prefs.size === s} onClick={() => savePrefs({ size: s })}
-                  className={`h-10 flex-1 rounded-xl border-[1.5px] font-reading font-semibold ${prefs.size === s ? "border-accent-bright bg-accent-bright/25" : "border-border"}`}
+                  className={`h-11 flex-1 rounded-xl border-[1.5px] font-reading font-semibold ${prefs.size === s ? "border-accent-bright bg-accent-bright/25" : "border-border"}`}
                   style={{ fontSize: TEXT_SIZES[s] - 2 }}>
             Aa
           </button>

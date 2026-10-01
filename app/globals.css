@@ -19,7 +19,7 @@
   --surface: #f3f8fa;
   --border: #dce7eb;
   --muted: #4b5f68;
-  --faint: #6f838d;
+  --faint: #5d717a;
   --accent: #0e7490;
   --accent-bright: #22d3ee;
   --error: #b3261e;
@@ -68,8 +68,10 @@ body {
 /* Keeps content clear of the status bar and the home indicator, because the
    native shell runs the page edge to edge (capacitor.config.ts, contentInset
    "never"; viewport-fit=cover in app/layout.tsx). */
-.safe-top { padding-top: env(safe-area-inset-top); }
-.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+/* They add to the padding a screen asks for with --pt / --pb, rather than replacing it: a plain
+   .safe-top sits outside Tailwind's layers and would beat any pt-* on the same element. */
+.safe-top { padding-top: calc(env(safe-area-inset-top) + var(--pt, 0px)); }
+.safe-bottom { padding-bottom: calc(env(safe-area-inset-bottom) + var(--pb, 0px)); }
 
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }

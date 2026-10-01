@@ -54,7 +54,7 @@ export function InterestsScreen({ at, of, value, onChange, onBack, onContinue }:
                 <li key={id} className="wel-in" style={{ animationDelay: `${900 + n * 30}ms` }}>
                   <button type="button" onClick={() => toggle(id)} aria-pressed={on}
                           className={`guide-card relative flex h-14 w-full items-center justify-between gap-2 rounded-[16px] px-3.5 text-start ${on ? "guide-card-on" : ""}`}>
-                    <span className="min-w-0 text-[13px] font-semibold leading-[1.15]">{t(`cat.${id}`)}</span>
+                    <span className="min-w-0 break-words text-[13px] font-semibold leading-[1.15] [hyphens:auto]">{t(`cat.${id}`)}</span>
                     <span className={`guide-tick grid size-5 shrink-0 place-items-center rounded-full ${on ? "guide-tick-on" : ""}`} aria-hidden>
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="size-3"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
                     </span>

@@ -161,12 +161,12 @@ export function Said({ line, durationMs, className = "" }: { line: string; durat
   const { words, joiner } = splitWords(line, locale);
   const delayFor = (i: number) => (durationMs !== undefined ? Math.round(((i + 1) / words.length) * durationMs) : WORD_START + i * WORD_STEP);
   return (
-    <p className={`bp-words ${className}`} aria-live="polite">
+    <h1 className={`bp-words ${className}`} aria-live="polite">
       {words.map((w, i) => (
         <span key={i}>
           <span className="bp-w" style={{ animationDelay: `${delayFor(i)}ms` }}>{w}</span>{i < words.length - 1 ? joiner : ""}
         </span>
       ))}
-    </p>
+    </h1>
   );
 }

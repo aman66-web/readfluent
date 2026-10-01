@@ -97,7 +97,7 @@ function OfflinePill() {
   const path = usePathname();
   if (online || path === "/offline") return null;
   return (
-    <div role="status" className="safe-bottom pointer-events-none fixed inset-x-0 bottom-0 z-50 flex justify-center pb-4">
+    <div role="status" className="safe-bottom pointer-events-none fixed inset-x-0 bottom-0 z-50 flex justify-center [--pb:1rem]">
       <span className="rounded-full bg-foreground px-4 py-2 text-[13px] font-semibold text-background shadow-lg">
         You&apos;re offline
       </span>

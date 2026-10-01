@@ -124,7 +124,7 @@ export function ProfileView() {
   }
 
   return (
-    <main className="safe-top px-5 pb-32 pt-2">
+    <main className="safe-top px-5 pb-32 [--pt:.5rem]">
       <Link href="/" aria-label={t("ui.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
       </Link>
@@ -143,7 +143,7 @@ export function ProfileView() {
           <input id="me-name" type="text" value={shown} maxLength={NAME_MAX} placeholder={t("me.namePlaceholder")} autoComplete="given-name" enterKeyHint="done"
                  onChange={(e) => setName(e.target.value)} onBlur={() => { if (name !== null) { saveAnswers({ name: name.replace(/\s+/g, " ").trim().slice(0, NAME_MAX) }); setName(null); } }}
                  onKeyDown={(e) => { if (e.key === "Enter") e.currentTarget.blur(); }}
-                 className="mt-0.5 h-9 w-full bg-transparent text-[18px] font-semibold outline-none placeholder:font-normal placeholder:text-faint" />
+                 className="mt-0.5 h-11 w-full rounded-lg bg-transparent text-[18px] font-semibold outline-none placeholder:font-normal placeholder:text-faint focus-visible:ring-2 focus-visible:ring-accent-bright" />
           <p className="mt-0.5 truncate text-[12.5px] text-muted" dir="auto">{!ready ? " " : email ? t("me.signedInAs", { email }) : t("me.signedOut")}</p>
         </div>
       </div>
@@ -182,7 +182,7 @@ export function ProfileView() {
       <Group title={t("me.account")}>
         {accountAvailable() && ready && (email ? (
           <Row>
-            <button type="button" onClick={() => void signOut()} className="flex h-8 w-full items-center text-start text-[15px] font-semibold">{t("me.signOut")}</button>
+            <button type="button" onClick={() => void signOut()} className="flex min-h-11 w-full items-center text-start text-[15px] font-semibold">{t("me.signOut")}</button>
           </Row>
         ) : (
           <Row>
@@ -197,7 +197,7 @@ export function ProfileView() {
         {!accountAvailable() && <Row><p className="text-[13.5px] leading-snug text-muted">{t("account.off")}</p></Row>}
         <Row last>
           <button type="button" onClick={() => { setError(null); setConfirm(email ? "account" : "device"); }}
-                  className="flex h-8 w-full items-center text-start text-[15px] font-semibold text-error">
+                  className="flex min-h-11 w-full items-center py-2 text-start text-[15px] font-semibold text-error">
             {email ? t("me.deleteAccount") : t("me.deleteData")}
           </button>
         </Row>

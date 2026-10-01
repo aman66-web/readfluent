@@ -37,7 +37,7 @@ export function Dashboard() {
   }, [locale]);
 
   return (
-    <main className="safe-top px-5 pb-32 pt-6">
+    <main className="safe-top px-5 pb-32 [--pt:1.5rem]">
       <LibraryHeader />
       <div className="mt-5 flex items-center justify-between gap-3">
         <p className="text-[12px] font-semibold uppercase tracking-[0.1em] text-faint" suppressHydrationWarning>{date}</p>

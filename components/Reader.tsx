@@ -287,13 +287,13 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
 
   return (
     <div className="relative flex h-dvh flex-col">
-      <header className="safe-top shrink-0 px-4 pt-2" inert={wordsOpen}>
+      <header className="safe-top shrink-0 px-4 [--pt:.5rem]" inert={wordsOpen}>
         <div className="flex h-11 items-center gap-1">
           <Link href={`/book/${slug}`} aria-label={t("reader.backBook")} className="-ms-2 flex size-11 shrink-0 items-center justify-center rounded-full active:bg-border/60">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
           </Link>
           <div className="min-w-0 flex-1">
-            <p className="truncate text-[11.5px] font-semibold uppercase tracking-[0.09em] text-muted">{title}</p>
+            <h1 lang="en" className="truncate text-[11.5px] font-semibold uppercase tracking-[0.09em] text-muted">{title}</h1>
             <p className="truncate text-[12px] text-muted" aria-live="polite">{sub}</p>
           </div>
           {interactive && Object.keys(saved).length > 0 && (
@@ -304,15 +304,15 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
             </button>
           )}
           {interactive && (
-            <button type="button" data-settings-toggle aria-expanded={menu} aria-label={t("reader.settings")} onClick={() => setMenu(!menu)}
-                    className={`flex size-10 shrink-0 items-baseline justify-center rounded-full pt-[9px] text-[17px] font-bold tracking-[-0.02em] ${menu ? "bg-accent-bright/25" : "active:bg-border/60"}`}>
+            <button type="button" dir="ltr" data-settings-toggle aria-expanded={menu} aria-label={t("reader.settings")} onClick={() => setMenu(!menu)}
+                    className={`flex size-11 shrink-0 items-baseline justify-center rounded-full pt-[11px] text-[17px] font-bold tracking-[-0.02em] ${menu ? "bg-accent-bright/25" : "active:bg-border/60"}`}>
               A<span className="text-[12px]">A</span>
             </button>
           )}
           {interactive && (
             <button type="button" aria-pressed={slow} aria-label={t("reader.slowAudio")}
                     onClick={() => { setSlow(!slow); say(slow ? t("reader.slowOff") : t("reader.slowOn")); }}
-                    className={`grid size-10 shrink-0 place-items-center rounded-full ${slow ? "bg-accent-bright/25 text-foreground" : "text-muted active:bg-border/60"}`}>
+                    className={`grid size-11 shrink-0 place-items-center rounded-full ${slow ? "bg-accent-bright/25 text-foreground" : "text-muted active:bg-border/60"}`}>
               <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 <path d="M4.5 16C4.5 11.8 7.7 8.5 11.5 8.5S18.5 11.8 18.5 16z" /><path d="M11.5 8.8V16M7.8 11.3l1.5 4.7M15.2 11.3l-1.5 4.7" strokeWidth="1.25" />
                 <circle cx="20.9" cy="13.9" r="1.7" /><path d="M18.6 14.9l1 -.5M8 16v2.3M15 16v2.3M4.5 16L3 17.2" />
@@ -369,8 +369,9 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
           );
         })}
 
-        <section inert={!onEnd} className="flex h-full w-full shrink-0 snap-start flex-col items-center justify-center px-8 text-center" aria-label={t("reader.end")}>
-          <Mascot mood="cheer" className="w-[min(46vw,170px)]" />
+        <section inert={!onEnd} dir="auto" className="h-full w-full shrink-0 snap-start overflow-y-auto px-8 text-center" aria-label={t("reader.end")}>
+          <div className="mx-auto my-auto flex min-h-full max-w-[340px] flex-col items-center justify-center py-4">
+          <Mascot mood="cheer" className="w-[min(40vw,22dvh,150px)]" />
           <p className="mt-2 font-reading text-[26px] font-bold">{t("reader.endTitle")}</p>
           <p className="mt-3 max-w-[30ch] text-[15px] leading-snug text-muted">
             {isPreview ? t("reader.endBodyPreview", { total, length }) : t("reader.endBody", { total })}
@@ -387,14 +388,15 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
               </li>
             ))}
           </ul>
-          <Link href={`/book/${slug}`} className="mt-6 inline-flex h-12 items-center rounded-full bg-foreground px-7 text-[15px] font-semibold text-background">
+          <Link href={`/book/${slug}`} className="mt-6 inline-flex h-12 shrink-0 items-center rounded-full bg-foreground px-7 text-[15px] font-semibold text-background">
             {t("reader.another")}
           </Link>
-          <Link href="/" className="mt-3 inline-flex h-11 items-center text-[14px] font-semibold text-muted">{t("reader.toLibrary")}</Link>
+          <Link href="/" className="mt-3 inline-flex h-11 shrink-0 items-center text-[14px] font-semibold text-muted">{t("reader.toLibrary")}</Link>
+          </div>
         </section>
       </div>
 
-      <footer inert={wordsOpen} className={`safe-bottom relative shrink-0 px-5 ${open ? "rounded-t-[26px] border-t border-border bg-background pb-3 pt-3 shadow-[0_-8px_28px_rgba(0,0,0,.08)]" : "pb-3 pt-2"}`}>
+      <footer inert={wordsOpen} className={`safe-bottom relative shrink-0 px-5 ${open ? "rounded-t-[26px] border-t border-border bg-background [--pb:.75rem] pt-3 shadow-[0_-8px_28px_rgba(0,0,0,.08)]" : "[--pb:.75rem] pt-2"}`}>
         {gain && (
           <p key={gain.n} className="xp-pop tabular pointer-events-none absolute inset-x-0 -top-9 mx-auto w-fit rounded-full bg-accent px-3 py-1 text-[13px] font-bold text-white shadow-md" role="status">
             <bdi>{gain.finish ? t("reader.finishXp", { xp: gain.xp }) : t("reader.xp", { xp: gain.xp })}</bdi>
@@ -420,7 +422,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
                 <div className="flex min-w-0 flex-1 items-center justify-center gap-1.5">
                   {/* Dewey beside the hint, hopping when a word is saved. */}
                   <span key={hop} className={`block w-11 shrink-0 ${hop ? "reader-hop" : ""}`}><Mascot mood="hello" className="w-full" /></span>
-                  <p className="text-start text-[13px] font-semibold leading-snug text-muted">{t("reader.tapHint")}</p>
+                  <p dir="auto" className="text-start text-[13px] font-semibold leading-snug text-muted">{t("reader.tapHint")}</p>
                 </div>
               ) : (
                 <p className="tabular text-[14px] font-semibold text-muted">{onEnd ? t("reader.done") : t("reader.pageLabel", { n: index + 1, total })}</p>
@@ -447,7 +449,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
 
 /** A page's text. Where the version has word cards every word can be tapped, and the matched words are underlined in their colours. */
 function PageText({ page, interactive, selected, lang, size, colours, gloss, onPick }: { page: ReaderPage; interactive: boolean; selected: number; lang: string; size: number; colours: boolean; gloss: boolean; onPick: (word: string, start: number) => void }) {
-  if (!interactive) return <p className="font-reading text-[19px] leading-[1.55] text-foreground">{page.text}</p>;
+  if (!interactive) return <p lang="en" className="font-reading text-[19px] leading-[1.55] text-foreground">{page.text}</p>;
   const keys = page.target?.keys ?? [];
   return (
     <>

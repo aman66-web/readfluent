@@ -16,7 +16,7 @@ const render = async (at: string) => {
 describe("the menu", () => {
   it("has the four tabs of the app it came from, named for reading, in order", async () => {
     const html = await render("/");
-    const labels = [...html.matchAll(/<span class="max-w-full truncate px-0.5">([^<]+)<\/span>/g)].map((m) => m[1]);
+    const labels = [...html.matchAll(/<span class="line-clamp-2 max-w-full break-words px-0.5 text-center text-[10.5px] leading-[1.1]">([^<]+)<\/span>/g)].map((m) => m[1]);
     expect(labels).toEqual(["Home", "Library", "Recall", "My books"]);
     expect([...html.matchAll(/href="([^"]+)"/g)].map((m) => m[1])).toEqual(["/", "/library", "/recall", "/mine"]);
   });

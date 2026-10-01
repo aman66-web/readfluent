@@ -8,7 +8,7 @@
 /* The onboarding's own palette: a white ground, dark ink and the brand's cyans
    (owner, 1 Oct 2026: white, not black). Every onboarding screen sits in `.ob`. */
 .ob {
-  --ob-ink: #0B1B22; --ob-muted: rgba(11, 27, 34, .64); --ob-faint: rgba(11, 27, 34, .46);
+  --ob-ink: #0B1B22; --ob-muted: rgba(11, 27, 34, .64); --ob-faint: rgba(11, 27, 34, .62);
   --ob-card: #F3F8FA; --ob-line: rgba(11, 27, 34, .09); --ob-track: #E2EBEF;
   --ob-cyan: #22D3EE; --ob-cyan2: #06B6D4; --ob-deep: #0E7490; --ob-teal: #0891B2;
   background: #fff; color: var(--ob-ink);
