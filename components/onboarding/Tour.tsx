@@ -3,7 +3,9 @@
 import { useEffect, useState, type CSSProperties } from "react";
 import { ScenePhoto } from "@/components/ScenePhoto";
 import { LEVELS, categoryById, type LevelId } from "@/lib/content/limits";
-import { useT } from "@/lib/i18n/react";
+import { languageName } from "@/lib/i18n";
+import { useLocale, useT } from "@/lib/i18n/react";
+import type { LanguageCode } from "@/lib/onboarding/languages";
 import type { MessageId } from "@/lib/i18n/en";
 import { PREVIEW_BOOKS, pagesOf } from "@/lib/preview/catalog";
 import type { ShowId } from "@/lib/onboarding/steps";
@@ -13,23 +15,26 @@ import { GuideFrame, GuideHead, useGuide } from "./Guide";
  * The guide's tour: five screens, each one line from the guide and one picture of
  * what it means. They claim only what this app does:
  *
- *   journey    real books, one short page at a time (the phone is the reader)
+ *   journey    books of their choice, a few pages at a time, with a few questions
+ *              in the language after every few pages (the phone is the reader)
  *   levels     every book at your level and your length
  *   words      tap any word you don't know
  *   remember   the words you met come back just before you would forget
  *   connect    the books everyone talks about
  */
-export function TourScreen({ id, at, of, onBack, onContinue }: {
-  id: ShowId; at: number; of: number; onBack: () => void; onContinue: () => void;
+export function TourScreen({ id, at, of, learn, onBack, onContinue }: {
+  id: ShowId; at: number; of: number; learn: LanguageCode | null; onBack: () => void; onContinue: () => void;
 }) {
   const t = useT();
-  const line = t(LINES[id]);
+  const locale = useLocale();
+  const language = languageName(learn ?? "en", locale);
+  const line = t(LINES[id], { language });
   const guide = useGuide(line);
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead guide={guide} line={line} />
-        <div className="mt-7 flex min-h-0 flex-1 flex-col items-center justify-center" aria-hidden>
+        <GuideHead guide={guide} line={line} sub={id === "journey" ? t("tour.booksSub", { language }) : undefined} />
+        <div className="mt-6 flex min-h-0 flex-1 flex-col items-center justify-center" aria-hidden>
           {id === "journey" && <Journey />}
           {id === "levels" && <Levels />}
           {id === "words" && <Words />}
@@ -42,7 +47,7 @@ export function TourScreen({ id, at, of, onBack, onContinue }: {
 }
 
 const LINES: Record<ShowId, MessageId> = {
-  journey: "tour.journey",
+  journey: "tour.booksLine",
   levels: "tour.levels",
   words: "tour.words",
   remember: "tour.remember",
@@ -52,17 +57,22 @@ const LINES: Record<ShowId, MessageId> = {
 /** When each thing arrives, after the guide has started its line. */
 const later = (ms: number): CSSProperties => ({ animationDelay: `${ms}ms` });
 
-/* ── journey: a phone reading real pages ───────────────────────────────────
-   The phone is the reader itself, playing a few pages of the sample book at
-   different levels — the same photograph, the same short text, the progress bar
-   filling, and a touch on the right where a tap turns the page. */
-const REEL: readonly { page: number; level: LevelId }[] = [
-  { page: 1, level: "B1B2" },
-  { page: 4, level: "A1A2" },
-  { page: 9, level: "C1C2" },
-  { page: 11, level: "B1B2" },
+/* ── journey: a phone reading, and asking ──────────────────────────────────
+   The phone is the reader itself, playing a few pages of the sample book — the same
+   photograph, the same short text, the progress bar filling, and a touch on the right
+   where a tap turns the page — and, every few pages, a quick question about what was
+   just read, the way the app will ask them. (The questions are shown here as a picture
+   of what is coming; they arrive with the word cards and flashcards, M5 and M7.) */
+type Frame = { kind: "page"; page: number } | { kind: "quiz" };
+const REEL: readonly Frame[] = [
+  { kind: "page", page: 1 }, { kind: "page", page: 2 }, { kind: "page", page: 3 }, { kind: "quiz" },
+  { kind: "page", page: 4 }, { kind: "page", page: 5 }, { kind: "page", page: 6 }, { kind: "quiz" },
 ];
 const PAGE_MS = 3400;
+const QUIZ_LEVEL: LevelId = "B1B2";
+
+/** The sample question: a word from the page, three meanings, one right. Test content, so it stays in English like the book. */
+const QUIZ = { ask: "What does “tolerable” mean?", options: ["Good enough", "Very loud", "Brand new"], right: 0 } as const;
 
 function Journey() {
   const t = useT();
@@ -75,9 +85,11 @@ function Journey() {
     return () => window.clearInterval(id);
   }, []);
   const frame = REEL[tick % REEL.length];
-  const pages = pagesOf(book, frame.level);
-  const page = pages[frame.page - 1];
-  const levelLabel = LEVELS.find((l) => l.id === frame.level)?.label;
+  const pages = pagesOf(book, QUIZ_LEVEL);
+  const page = frame.kind === "page" ? pages[frame.page - 1] : null;
+  // How far through the book the bar is: the last page shown, also while a question is up.
+  const shown = REEL.slice(0, (tick % REEL.length) + 1).reverse().find((f): f is Extract<Frame, { kind: "page" }> => f.kind === "page")?.page ?? 1;
+  const levelLabel = LEVELS.find((l) => l.id === QUIZ_LEVEL)?.label;
   return (
     /* Sized by the height it is given, so a short phone gets a shorter phone rather
        than one that runs up over the guide's line. */
@@ -88,21 +100,34 @@ function Journey() {
         <div className="absolute inset-x-3 top-[26px] z-[1]">
           <div className="flex items-center justify-between gap-2">
             <p className="truncate text-[7.5px] font-bold uppercase tracking-[0.12em] text-[#0B1B22]/60">{book.title}</p>
-            <span key={levelLabel} className="show-title shrink-0 rounded-full bg-[#0891B2]/12 px-1.5 py-[1px] text-[7px] font-bold text-[#0E7490]">{levelLabel}</span>
+            <span className="shrink-0 rounded-full bg-[#0891B2]/12 px-1.5 py-[1px] text-[7px] font-bold text-[#0E7490]">{levelLabel}</span>
           </div>
           <span className="mt-1 block h-[2px] overflow-hidden rounded-full bg-[#0B1B22]/10">
-            <span className="block h-full rounded-full bg-[linear-gradient(90deg,#67E8F9,#22D3EE,#0E7490)] transition-[width] duration-700" style={{ width: `${(frame.page / pages.length) * 100}%` }} />
+            <span className="block h-full rounded-full bg-[linear-gradient(90deg,#67E8F9,#22D3EE,#0E7490)] transition-[width] duration-700" style={{ width: `${(shown / pages.length) * 100}%` }} />
           </span>
         </div>
-        {/* The photograph, and under it the page, set as the reader sets it. */}
-        <div key={`${frame.page}-${frame.level}`} className="show-swap absolute inset-x-0 top-[44px] bottom-0">
-          <ScenePhoto n={page.scene} hue={hue} caption={book.scenes[page.scene - 1]?.caption ?? ""} pill={false} className="aspect-[16/11] w-full" />
-          <p className="show-line px-3 pt-3 font-reading text-[9.6px] leading-[1.45] text-[#0B1B22]">{page.text}</p>
-        </div>
-        <p className="absolute inset-x-0 bottom-3 z-[1] text-center text-[7.5px] font-semibold text-[#0B1B22]/45">{t("tour.page", { n: frame.page, total: pages.length })}</p>
+        {page ? (
+          /* The photograph, and under it the page, set as the reader sets it. */
+          <div key={`page-${tick}`} className="show-swap absolute inset-x-0 top-[44px] bottom-0">
+            <ScenePhoto n={page.scene} hue={hue} caption={book.scenes[page.scene - 1]?.caption ?? ""} pill={false} className="aspect-[16/11] w-full" />
+            <p className="show-line px-3 pt-3 font-reading text-[9.6px] leading-[1.45] text-[#0B1B22]">{page.text}</p>
+          </div>
+        ) : (
+          /* A quick question about what was just read. */
+          <div key={`quiz-${tick}`} className="show-swap absolute inset-x-3 top-[52px] bottom-0 pt-3">
+            <span className="inline-block rounded-full bg-[#22D3EE]/25 px-2 py-[2px] text-[7px] font-bold uppercase tracking-[0.1em] text-[#0E7490]">{t("tour.quiz")}</span>
+            <p className="mt-2 font-reading text-[11px] font-bold leading-[1.25] text-[#0B1B22]">{QUIZ.ask}</p>
+            <div className="mt-2.5 space-y-1.5">
+              {QUIZ.options.map((o, i) => (
+                <p key={o} className={`rounded-[8px] bg-[#F3F8FA] px-2.5 py-[7px] text-[9px] font-semibold text-[#0B1B22] ${i === QUIZ.right ? "quiz-pick" : ""}`}>{o}</p>
+              ))}
+            </div>
+          </div>
+        )}
+        {page && <p className="absolute inset-x-0 bottom-3 z-[1] text-center text-[7.5px] font-semibold text-[#0B1B22]/45">{t("tour.page", { n: shown, total: pages.length })}</p>}
       </div>
       {/* Where a tap turns the page. */}
-      <span className="show-tap absolute right-[9%] top-[44%] size-8 rounded-full" />
+      {page && <span className="show-tap absolute right-[9%] top-[44%] size-8 rounded-full" />}
     </div>
   );
 }

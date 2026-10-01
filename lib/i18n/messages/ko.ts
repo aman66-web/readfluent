@@ -71,8 +71,10 @@ const ko: Catalog = {
   "path.note": "예상치일 뿐, 약속은 아니에요. 여기서 읽는 시간만, 1분에 약 3페이지로 계산했어요.",
 
   /* ── the tour ── */
-  "tour.journey": "진짜 책을 한 번에 짧은 한 페이지씩 읽어요.",
-  "tour.levels": "모든 책을 내 수준과 내 분량에 맞게.",
+  "tour.booksLine": "고르신 책을 함께 읽어 가요.",
+  "tour.booksSub": "몇 페이지마다 {language} 질문 몇 개에 답하면서, 읽은 내용을 확실히 기억해 두어요.",
+  "tour.quiz": "빠른 질문",
+  "tour.levels":"모든 책을 내 수준과 내 분량에 맞게.",
   "tour.words": "모르는 단어를 탭하면 뜻을 바로 볼 수 있어요.",
   "tour.remember": "그리고 잊어버리기 직전에, 새 단어를 다시 가져다 드려요.",
   "tour.connect": "머지않아 다들 얘기하는 그 책들을 읽은 사람이 될 거예요.",

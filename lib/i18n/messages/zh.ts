@@ -71,7 +71,9 @@ const zh: Catalog = {
   "path.note": "这只是估算，不是承诺。它只计算你在这里的阅读，按每分钟约三页来算。",
 
   /* ── the tour ── */
-  "tour.journey": "我们一次读一小页，读真正的好书。",
+  "tour.booksLine": "我们会一起读你选的书。",
+  "tour.booksSub": "每读几页，你会回答几道{language}问题，巩固刚读过的内容。",
+  "tour.quiz":"小问题",
   "tour.levels": "每本书，都适合你的水平和篇幅。",
   "tour.words": "点一下不认识的词，就能看到意思。",
   "tour.remember": "我会在你快忘记之前，把新单词带回来。",

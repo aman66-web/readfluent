@@ -70,8 +70,10 @@ const es: Catalog = {
   "path.note": "Es una estimación, no una promesa. Solo cuenta tu lectura aquí, a unas tres páginas por minuto.",
 
   /* ── the tour ── */
-  "tour.journey": "Leeremos libros de verdad, una página corta cada vez.",
-  "tour.levels": "Cada libro, a tu nivel y con tu duración.",
+  "tour.booksLine": "Leeremos los libros que tú elijas.",
+  "tour.booksSub": "Cada pocas páginas, responderás unas preguntas de {language} para fijar lo que has leído.",
+  "tour.quiz": "Pregunta rápida",
+  "tour.levels":"Cada libro, a tu nivel y con tu duración.",
   "tour.words": "Toca cualquier palabra que no conozcas y mira qué significa.",
   "tour.remember": "Y yo te traeré tus palabras nuevas justo antes de que las olvides.",
   "tour.connect": "Pronto habrás leído los libros de los que todo el mundo habla.",

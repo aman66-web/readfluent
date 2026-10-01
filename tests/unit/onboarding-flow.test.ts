@@ -130,6 +130,7 @@ describe("every screen renders", () => {
     const l = await import("@/components/onboarding/Last");
     const t = await import("@/components/onboarding/Tour");
     const g = await import("@/components/onboarding/Tongues");
+    const r = await import("@/components/onboarding/Ready");
     const mk = (c: unknown, props: object) => renderToStaticMarkup(createElement(c as never, props as never));
     return {
       hello: mk(q.HelloScreen, nav),
@@ -139,7 +140,7 @@ describe("every screen renders", () => {
       path: mk(p.PathScreen, { ...nav, level: "A1", minutes: 20 }),
       pathB2: mk(p.PathScreen, { ...nav, level: "B2", minutes: 30 }),
       pathTop: mk(p.PathScreen, { ...nav, level: "C2", minutes: 30 }),
-      ...Object.fromEntries(SHOW_IDS.map((id) => [id, mk(t.TourScreen, { ...nav, id })])),
+      ...Object.fromEntries(SHOW_IDS.map((id) => [id, mk(t.TourScreen, { ...nav, id, learn: "es" })])),
       future: mk(p.FutureScreen, { ...nav, minutes: 15, why: ["friends", "work"] }),
       pledge: mk(p.PledgeScreen, { ...nav, minutes: 15, done: false, onDone: () => {} }),
       tongues: mk(g.TonguesScreen, { ...nav, speak: "en", learn: "es" }),
@@ -147,7 +148,7 @@ describe("every screen renders", () => {
       account: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: false, onNext: () => {} }),
       accountFailed: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: true, onNext: () => {} }),
       interests: mk(l.InterestsScreen, { ...nav, value: ["romance"], onChange: () => {} }),
-      ready: mk(p.ReadyScreen, { ...nav, interests: ["romance", "history", "science"], minutes: 15 }),
+      ready: mk(r.ReadyScreen, { ...nav, interests: ["romance", "history", "science"], minutes: 15, level: "A2", learn: "es" }),
     } as Record<string, string>;
   };
 
@@ -178,8 +179,15 @@ describe("every screen renders", () => {
 
   it("with all the tour's screens, each saying its own line", async () => {
     const h = await html();
-    const lines = ["real books", "level and your length", "Tap any word", "bring your new words back", "books everyone talks about"];
+    const lines = ["books of your choice", "level and your length", "Tap any word", "bring your new words back", "books everyone talks about"];
     SHOW_IDS.forEach((id, i) => expect(h[id].replace(/<[^>]+>/g, ""), id).toContain(lines[i].split(" ")[0]));
+  });
+
+  it("with the first tour screen about books of their choice and questions in the language", async () => {
+    const h = await html();
+    const text = h.journey.replace(/<[^>]+>/g, "");
+    expect(text).toContain("go through books of your choice");
+    expect(text).toContain("Every few pages, you&#x27;ll answer a few Spanish questions");
   });
 
   it("with the sign-in step saying so when there is no database, and never dead-ending", async () => {

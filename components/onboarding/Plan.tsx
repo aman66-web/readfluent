@@ -2,8 +2,7 @@
 
 import { useRef, useState } from "react";
 import { DotNumber } from "@/components/DotMatrix";
-import type { CategoryId } from "@/lib/content/limits";
-import { formatDate, formatList, languageName } from "@/lib/i18n";
+import { formatDate, languageName } from "@/lib/i18n";
 import { APP_NAME } from "@/lib/brand";
 import { formatReadingTime } from "@/lib/i18n/format";
 import { useLocale, useT } from "@/lib/i18n/react";
@@ -12,7 +11,6 @@ import type { LanguageCode } from "@/lib/onboarding/languages";
 import { formatDuration, pathFrom } from "@/lib/xp/path";
 import type { Cefr } from "@/lib/xp/levels";
 import { DAILY_MINUTES } from "@/lib/onboarding/firstrun";
-import { useStagedCount } from "./count";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
 import { useHold } from "./hold";
 import { TickIcon } from "./ui";
@@ -277,79 +275,6 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
             </button>
           )}
         </div>
-      </div>
-    </GuideFrame>
-  );
-}
-
-/**
- * How "Building your library…" fills: about seven seconds, in uneven stretches that
- * slow and pause just before each line is ticked (at 22, 44, 66 and 88), so it
- * reads as work being done.
- */
-const BUILDING: readonly (readonly [number, number])[] = [
-  [12, 520], [20, 680], [22, 420],
-  [35, 560], [42, 640], [44, 460],
-  [57, 520], [64, 700], [66, 420],
-  [79, 560], [86, 620], [88, 480],
-  [96, 540], [100, 420],
-];
-
-/** "Building your library…" — what was chosen, set up, then the way in. */
-export function ReadyScreen({ at, of, interests, minutes, onBack, onContinue }: Nav & {
-  interests: readonly CategoryId[];
-  minutes: number;
-}) {
-  const pct = useStagedCount(BUILDING, 500);
-  const t = useT();
-  const locale = useLocale();
-  const done = pct >= 100;
-  const line = done ? t("ready.done") : t("ready.building");
-  const guide = useGuide(line);
-  const names = formatList(interests.slice(0, 2).map((id) => t(`cat.${id}`)), locale);
-  const more = interests.length - 2;
-  const shelves = interests.length === 0 ? t("ready.every") : more > 0 ? t("ready.shelvesMore", { names, more }) : t("ready.shelves", { names });
-  const items = [shelves, t("ready.goal", { minutes }), t("ready.words"), t("ready.cards")];
-  const C = 2 * Math.PI * 54;
-  return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={done} continueLabel={t("ready.start")}>
-      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead key={line} guide={guide} line={line} />
-
-        <div className="mt-8 flex justify-center">
-          <div className={`relative grid size-[132px] place-items-center ${done ? "ready-done" : ""}`}>
-            <svg viewBox="0 0 132 132" className="absolute inset-0 size-full -rotate-90" aria-hidden>
-              <circle cx="66" cy="66" r="54" fill="none" stroke="#E2EBEF" strokeWidth="6" />
-              <circle cx="66" cy="66" r="54" fill="none" stroke="url(#ready-g)" strokeWidth="6" strokeLinecap="round" strokeDasharray={C} strokeDashoffset={C * (1 - pct / 100)} />
-              <defs>
-                <linearGradient id="ready-g" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0" stopColor="#67E8F9" /><stop offset=".6" stopColor="#22D3EE" /><stop offset="1" stopColor="#0E7490" />
-                </linearGradient>
-              </defs>
-            </svg>
-            <span className="flex items-end gap-1">
-              <DotNumber value={pct} cell={5} color="#0E7490" glow={false} label={`${pct}%`} />
-              <span className="ob-muted pb-0.5 text-[13px] font-bold">%</span>
-            </span>
-          </div>
-        </div>
-
-        <ul className="mt-8 space-y-2.5">
-          {items.map((text, i) => {
-            const shown = pct >= 12 + i * 22;
-            const ticked = pct >= 22 + i * 22;
-            return (
-              <li key={i} className={`guide-card relative flex items-center gap-3 rounded-[18px] px-4 py-3.5 transition-opacity duration-500 ${shown ? "opacity-100" : "opacity-0"}`}>
-                <span className={`grid size-6 shrink-0 place-items-center rounded-full transition-colors duration-300 ${ticked ? "bg-[var(--ob-teal)] text-white" : "bg-black/[0.06] text-transparent"}`} aria-hidden>
-                  {ticked
-                    ? <span className="ready-tick grid place-items-center">{TickIcon}</span>
-                    : <span className="ready-spin block size-3.5 rounded-full border-2 border-black/15 border-t-black/45" />}
-                </span>
-                <span className="text-[14.5px] font-semibold leading-snug">{text}</span>
-              </li>
-            );
-          })}
-        </ul>
       </div>
     </GuideFrame>
   );

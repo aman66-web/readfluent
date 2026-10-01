@@ -71,7 +71,9 @@ const nl: Catalog = {
   "path.note": "Dit is een schatting, geen belofte. Alleen je lezen hier telt mee, met ongeveer drie pagina's per minuut.",
 
   /* ── the tour ── */
-  "tour.journey": "We lezen echte boeken, steeds één korte pagina.",
+  "tour.booksLine": "We lezen boeken naar jouw keuze.",
+  "tour.booksSub": "Om de paar pagina's beantwoord je een paar vragen in het {language}, zodat je onthoudt wat je gelezen hebt.",
+  "tour.quiz": "Snelle vraag",
   "tour.levels": "Elk boek, op jouw niveau en in jouw lengte.",
   "tour.words": "Tik op een woord dat je niet kent en zie wat het betekent.",
   "tour.remember": "En ik breng je nieuwe woorden terug, vlak voordat je ze vergeet.",

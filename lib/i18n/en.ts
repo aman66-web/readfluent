@@ -77,7 +77,9 @@ export const EN = {
   "path.note": "This is an estimate, not a promise. It counts only your reading here, at about three pages a minute.",
 
   /* ── the tour ── */
-  "tour.journey": "We'll read real books, one short page at a time.",
+  "tour.booksLine": "We'll go through books of your choice.",
+  "tour.booksSub": "Every few pages, you'll answer a few {language} questions to lock in what you've read.",
+  "tour.quiz": "Quick question",
   "tour.levels": "Every book, at your level and your length.",
   "tour.words": "Tap any word you don't know, and see what it means.",
   "tour.remember": "And I'll bring your new words back, just before you forget.",

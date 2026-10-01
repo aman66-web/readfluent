@@ -285,6 +285,16 @@
 
 /* The library being set up: a spinner, then a tick drawn in; the ring glows when full. */
 .ready-spin { animation: ready-spin .8s linear infinite; }
+/* The sample question in the tour's phone: the right answer lights up a moment after it arrives. */
+.quiz-pick { animation: quiz-pick .45s ease-out 1.5s both; }
+@keyframes quiz-pick { from { background: #F3F8FA; box-shadow: none } to { background: #CFF7FC; box-shadow: inset 0 0 0 1.5px #22D3EE } }
+
+/* The library being built: each book drops onto its shelf when its turn comes. */
+.shelf-book { opacity: 0; transform-box: fill-box; transform-origin: 50% 100%; transform: translateY(-34px) rotate(var(--r, 0deg)); transition: opacity .35s ease-out, transform .6s cubic-bezier(.3, 1.45, .5, 1); }
+.shelf-book-in { opacity: 1; transform: translateY(0) rotate(var(--r, 0deg)); }
+.ready-sheen { animation: ready-sheen 1.6s ease-out .1s both; }
+@keyframes ready-sheen { from { transform: translateX(-60px) skewX(-16deg); opacity: .5 } to { transform: translateX(380px) skewX(-16deg); opacity: 0 } }
+
 @keyframes ready-spin { to { transform: rotate(360deg) } }
 .ready-tick path { stroke-dasharray: 24; animation: tick-draw .35s ease-out both; }
 .ready-done { animation: ready-glow 1.2s ease-out both; border-radius: 9999px; }
@@ -294,7 +304,7 @@
   .guide-card-on > span:first-child, .heard-box, .bp-words .bp-w, .gb, .gb-book, .gb-shadow, .gb-glow, .gb-flip, .gb-word, .gb-g, .gb-spark,
   .fx-float, .fx-rock, .fx-breathe, .fx-nod, .fx-mote, .fx-ripple, .fx-glint, .fx-rise, .fx-sheen,
   .wel-pop, .wel-fade, .show-tap::after, .show-fan, .show-arrive, .show-bubble, .show-line, .show-title, .show-swap,
-  .scroll-fill, .future-fill, .year-lit, .pledge-core, .pledge-done .pledge-core, .pledge-tick path, .ready-tick path, .ready-done { animation: none; }
+  .scroll-fill, .future-fill, .quiz-pick, .shelf-book, .ready-sheen, .year-lit, .pledge-core, .pledge-done .pledge-core, .pledge-tick path, .ready-tick path, .ready-done { animation: none; }
   .wel-pop, .wel-fade { opacity: 1; transform: none; }
   /* Still, the letters rest where they would have risen to, and the page lies open. */
   .gb-g { opacity: .5; transform: translate(var(--x), var(--y)); }
@@ -304,3 +314,5 @@
   .ready-spin { animation-duration: 2.4s; }
   .pledge-spark { display: none; }
 }
+
+@media (prefers-reduced-motion: reduce) { .shelf-book { opacity: 1; transform: rotate(var(--r, 0deg)); transition: none; } }

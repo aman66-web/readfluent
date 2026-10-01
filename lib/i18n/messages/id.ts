@@ -71,7 +71,9 @@ const indonesian: Catalog = {
   /* ── scroll and mirror ── */
 
   /* ── the tour ── */
-  "tour.journey": "Kita akan membaca buku asli, satu halaman pendek sekali waktu.",
+  "tour.booksLine": "Kita akan membaca buku pilihanmu.",
+  "tour.booksSub": "Setiap beberapa halaman, kamu akan menjawab beberapa pertanyaan bahasa {language} untuk memantapkan apa yang sudah kamu baca.",
+  "tour.quiz":"Pertanyaan cepat",
   "tour.levels": "Setiap buku, sesuai levelmu dan panjang yang kamu mau.",
   "tour.words": "Ketuk kata apa pun yang belum kamu tahu, dan lihat artinya.",
   "tour.remember": "Dan aku akan membawa kembali kata-kata barumu, tepat sebelum kamu lupa.",

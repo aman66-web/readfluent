@@ -5,7 +5,8 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo, useState, useSyncExternalStore } from "react";
 import { FirstScreen } from "@/components/welcome/FirstScreen";
 import { HeardScreen, HelloScreen, WhyScreen } from "@/components/onboarding/Questions";
-import { FutureScreen, PathScreen, PledgeScreen, ReadyScreen, TimeScreen } from "@/components/onboarding/Plan";
+import { ReadyScreen } from "@/components/onboarding/Ready";
+import { FutureScreen, PathScreen, PledgeScreen, TimeScreen } from "@/components/onboarding/Plan";
 import { LevelScreen } from "@/components/onboarding/Level";
 import { TonguesScreen } from "@/components/onboarding/Tongues";
 import { AccountScreen, InterestsScreen } from "@/components/onboarding/Last";
@@ -118,12 +119,12 @@ function Welcome() {
   }
   if (step === "time") return <TimeScreen {...nav} learn={a.learn} value={a.daily} onPick={(daily) => saveAnswers({ daily })} />;
   if (step === "path") return <PathScreen {...nav} level={a.level} minutes={minutes} />;
-  if (isShowStep(step)) return <TourScreen key={step} id={step} {...nav} />;
+  if (isShowStep(step)) return <TourScreen key={step} id={step} learn={a.learn} {...nav} />;
   if (step === "future") return <FutureScreen {...nav} minutes={minutes} why={a.why} />;
   if (step === "pledge") {
     return <PledgeScreen {...nav} minutes={minutes} done={a.pledged} onDone={() => saveAnswers({ pledged: true })} />;
   }
   if (step === "account") return <AccountScreen at={i} of={STEP_IDS.length} onBack={back} error={authError} onNext={next} />;
   if (step === "interests") return <InterestsScreen {...nav} value={a.interests} onChange={(interests) => saveAnswers({ interests })} />;
-  return <ReadyScreen {...nav} interests={a.interests} minutes={minutes} />;
+  return <ReadyScreen {...nav} interests={a.interests} minutes={minutes} level={a.level} learn={a.learn} />;
 }

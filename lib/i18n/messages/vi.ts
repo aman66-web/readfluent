@@ -63,7 +63,9 @@ const vi: Catalog = {
   "path.note": "Đây là ước tính, không phải lời hứa. Chỉ tính phần đọc của bạn ở đây, khoảng ba trang mỗi phút.",
 
 
-  "tour.journey": "Mình sẽ cùng đọc sách thật, từng trang ngắn một.",
+  "tour.booksLine": "Chúng ta sẽ cùng đọc những cuốn sách bạn chọn.",
+  "tour.booksSub": "Cứ vài trang, bạn sẽ trả lời vài câu hỏi bằng {language} để ghi nhớ những gì vừa đọc.",
+  "tour.quiz":"Câu hỏi nhanh",
   "tour.levels": "Mọi cuốn sách, đúng trình độ và độ dài của bạn.",
   "tour.words": "Chạm vào từ bạn chưa biết để xem nghĩa của nó.",
   "tour.remember": "Và mình sẽ nhắc lại những từ mới ngay trước khi bạn quên.",
