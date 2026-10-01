@@ -14,7 +14,8 @@ export function ScenePhoto({ n, hue, caption, className = "", pill = true }: { n
   const id = useId();
   const t = useT();
   // A small deterministic shuffle: no Math.random, so server and client agree.
-  const r = (k: number) => ((Math.sin(n * 12.9898 + k * 78.233) * 43758.5453) % 1 + 1) % 1;
+  // Rounded: the server's and the browser's sine can differ in the last digits, which React reports as a hydration mismatch.
+  const r = (k: number) => Math.round((((Math.sin(n * 12.9898 + k * 78.233) * 43758.5453) % 1 + 1) % 1) * 1e4) / 1e4;
   const h1 = (hue + n * 17) % 360;
   const h2 = (h1 + 38) % 360;
   const sunX = 70 + r(1) * 260;

@@ -23,6 +23,10 @@
   --accent: #0e7490;
   --accent-bright: #22d3ee;
   --error: #b3261e;
+  /* The three colours a page's matched words share in the text and its translation. */
+  --key-1: #7a3fb0;
+  --key-2: #c0306e;
+  --key-3: #2958c7;
 }
 
 @theme inline {
@@ -129,3 +133,11 @@ body {
 @keyframes lx-z { 0% { opacity: 0; transform: translate(0, 8px) } 30% { opacity: 1 } 100% { opacity: 0; transform: translate(10px, -14px) } }
 .lx-spark { transform-box: fill-box; transform-origin: center; animation: lx-spark 1.6s ease-in-out infinite; }
 @keyframes lx-spark { 0%, 100% { opacity: .2; transform: scale(.6) } 50% { opacity: 1; transform: scale(1.15) } }
+
+/* The reader's matched words: underlined in a colour, and the same colour on the translation's word. */
+.key-word { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 6px; text-decoration-color: var(--kc); }
+.key-1 { --kc: var(--key-1); } .key-2 { --kc: var(--key-2); } .key-3 { --kc: var(--key-3); }
+@keyframes dock-up { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: none; } }
+@keyframes line-down { from { opacity: 0; transform: translateY(-14px); } to { opacity: 1; transform: none; } }
+.dock-up { animation: dock-up .3s cubic-bezier(.2, .8, .2, 1); }
+.line-down { animation: line-down .28s ease; }

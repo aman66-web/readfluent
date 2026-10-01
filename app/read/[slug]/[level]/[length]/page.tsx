@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
 import { Reader } from "@/components/Reader";
 import { categoryById, LENGTHS, LEVELS, levelBySlug } from "@/lib/content/limits";
+import type { ReaderVariant } from "@/components/reader/types";
 import { findBook, pagesOf, PREVIEW_BOOKS } from "@/lib/preview/catalog";
+import { SPANISH_DICT, SPANISH_LANG, SPANISH_PAGES } from "@/lib/preview/spanish";
 
 export function generateStaticParams() {
   return PREVIEW_BOOKS.flatMap((b) =>
@@ -17,6 +19,19 @@ export default async function ReadPage({ params }: { params: Promise<{ slug: str
   const len = LENGTHS.find((l) => String(l.pages) === length);
   if (!book || !lv || !len) notFound();
 
+  // The book as written for the preview, and (for this book only) the template's five Spanish pages with word cards.
+  const variants: ReaderVariant[] = [{ lang: "en", pages: pagesOf(book, lv.id) }];
+  if (book.slug === "pride-and-prejudice") {
+    variants.push({
+      lang: SPANISH_LANG,
+      dict: SPANISH_DICT,
+      pages: SPANISH_PAGES.map((p, i) => {
+        const x = p.text[lv.id];
+        return { n: i + 1, text: x.text, scene: i + 4, target: { translation: x.translation, keys: x.keys, art: p.art, bg: p.bg } };
+      }),
+    });
+  }
+
   return (
     <Reader
       slug={book.slug}
@@ -25,7 +40,7 @@ export default async function ReadPage({ params }: { params: Promise<{ slug: str
       levelLabel={lv.label}
       length={len.pages}
       hue={categoryById(book.category)?.hue ?? 30}
-      pages={pagesOf(book, lv.id)}
+      variants={variants}
       scenes={book.scenes}
     />
   );

@@ -279,7 +279,7 @@
 
 @media (prefers-reduced-motion: reduce) { .shelf-book { opacity: 1; transform: rotate(var(--r, 0deg)); transition: none; } }
 
-/* Lex's celebration after "just N quick questions", and Lex's small reactions beside each line. */
+/* The mascot's celebration after "just N quick questions", and its small reactions beside each line. */
 .go-lex { transform-origin: 50% 100%; animation: go-jump 1.3s cubic-bezier(.3,.7,.4,1) both, go-bounce .55s ease-in-out 1.3s infinite alternate; perspective: 600px; }
 @keyframes go-jump {
   0% { transform: translateY(0) scale(1, 1) rotateY(0) }
@@ -314,7 +314,7 @@
   .go-bit { display: none; }
 }
 
-/* The home-screen step: the top of a phone with Lex's tile among the icons. */
+/* The home-screen step: the top of a phone with the mascot's tile among the icons. */
 .home-phone { position: relative; border: 7px solid #8A9EA8; border-bottom: 0; border-radius: 36px 36px 0 0; background: linear-gradient(#E1F3FB, #E1F3FB 55%, rgba(225, 243, 251, 0)); padding: 38px 18px 0; -webkit-mask-image: linear-gradient(#000 60%, transparent); mask-image: linear-gradient(#000 60%, transparent); }
 .home-notch { position: absolute; top: 12px; left: 50%; width: 76px; height: 14px; margin-left: -38px; border-radius: 99px; background: #8A9EA8; }
 .home-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }

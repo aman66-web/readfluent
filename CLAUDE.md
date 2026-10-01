@@ -68,7 +68,7 @@ One line per milestone when it is done: date, what shipped, anything the next pe
 - M2 Prove the content pipeline — not started (go/no-go on scale recorded in DECISIONS.md)
 - M3 Library and the pick flow — not started
 - M4 The reader — not started
-- M5 Word cards — not started
+- M5 Word cards — started 1 Oct 2026 at the owner's request (reader follows the owner's template: tap a word, translation line on top, word card at the bottom, Listen/Slowly/Save). Demo data only (five Spanish pages, `lib/preview/spanish.ts`); the translation pipeline and real dictionaries are M2/M5.
 - M6 Line audio — not started
 - M7 Flashcards — not started
 - M8 Accounts and sync — not started
