@@ -76,6 +76,26 @@ export interface LevelState {
   toGo: number;
   /** 0–1 along this level; 1 at the top. */
   fraction: number;
+  /** Which third of the level they are in (1 early, 2 midway, 3 late); null at C2, which has no next level to measure against. */
+  stage: Stage | null;
+  /** The stage as a code a reader sees: "B1.2"; just "C2" at the top. */
+  code: string;
+}
+
+/** Every level but the top is split into three stages, by how far along it a reader is. */
+export const STAGES = [1, 2, 3] as const;
+export type Stage = (typeof STAGES)[number];
+export const stageOf = (fraction: number): Stage => (fraction < 1 / 3 ? 1 : fraction < 2 / 3 ? 2 : 3);
+
+/** The code of a stage: "B1.2". C2 is whole. */
+export const stageCode = (level: Cefr, stage: Stage | null): string => (stage ? `${level}.${stage}` : level);
+
+/** The stage after this one: the next in the level, or the first of the next level; null after the last. */
+export function stageAfter(level: Cefr, stage: Stage | null): { level: Cefr; stage: Stage | null } | null {
+  if (stage === null) return null;
+  if (stage < 3) return { level, stage: (stage + 1) as Stage };
+  const next = CEFR[CEFR.indexOf(level) + 1];
+  return next ? { level: next, stage: next === "C2" ? null : 1 } : null;
 }
 
 const safe = (n: number): number => (Number.isFinite(n) && n > 0 ? Math.floor(n) : 0);
@@ -86,11 +106,12 @@ export function levelFromXp(xpIn: number): LevelState {
   for (let i = 0; i < CEFR.length; i++) if (xp >= LEVEL_FLOOR[CEFR[i]]) at = i;
   const level = CEFR[at];
   const next = CEFR[at + 1] ?? null;
-  if (!next) return { xp, level, next: null, into: 0, span: 0, toGo: 0, fraction: 1 };
+  if (!next) return { xp, level, next: null, into: 0, span: 0, toGo: 0, fraction: 1, stage: null, code: level };
   const floor = LEVEL_FLOOR[level];
   const span = LEVEL_FLOOR[next] - floor;
   const into = xp - floor;
-  return { xp, level, next, into, span, toGo: span - into, fraction: into / span };
+  const stage = stageOf(into / span);
+  return { xp, level, next, into, span, toGo: span - into, fraction: into / span, stage, code: stageCode(level, stage) };
 }
 
 /** The XP a reader starts with when they begin at a level: the floor of it. */

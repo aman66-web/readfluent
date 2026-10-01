@@ -19,7 +19,23 @@ describe("the dashboard's level card", () => {
     expect(t).toContain("8,500 of 32,500 XP");
     expect(t).toContain("24,000 XP to B1");
     expect(html).toContain('aria-label="A2"');
+    // Three stages in each level, and what a reader can do at this one and at the next.
+    expect(t).toContain("A2.1 · Early");
+    expect(t).toContain("What you can do at A2.1");
+    expect(t).toContain("You can follow simple conversations about everyday things");
+    expect(t).toContain("Next, at A2.2");
+    expect(t).toContain("You can describe your routine, your home and your past");
     expect(html).toContain('aria-valuenow="26"');
+  });
+
+  it("says midway through a level, and moves on to the next level's first stage after the third", async () => {
+    const { LevelCard } = await import("@/components/home/LevelCard");
+    const mid = text(renderToStaticMarkup(createElement(LevelCard, { xp: 74_000, learn: "es" })));
+    expect(mid).toContain("B1.2 · Midway");
+    expect(mid).toContain("Next, at B1.3");
+    const late = text(renderToStaticMarkup(createElement(LevelCard, { xp: 90_000, learn: "es" })));
+    expect(late).toContain("B1.3 · Late");
+    expect(late).toContain("Next, at B2.1");
   });
 
   it("has a top: C2 says so and has no next level", async () => {
@@ -27,6 +43,9 @@ describe("the dashboard's level card", () => {
     const t = text(renderToStaticMarkup(createElement(LevelCard, { xp: 300_000, learn: null })));
     expect(t).toContain("reached the top level");
     expect(t).not.toContain("to C2");
+    expect(t).toContain("What you can do at C2");
+    expect(t).toContain("understand virtually everything");
+    expect(t).not.toContain("Next, at");
   });
 
   it("says how XP is earned from the numbers the reader pays", async () => {

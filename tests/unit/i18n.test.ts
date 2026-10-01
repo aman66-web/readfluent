@@ -67,3 +67,14 @@ describe("looking a message up", () => {
     expect(formatReadingTime(3650, "es")).toBe("60 horas");
   });
 });
+
+describe("what you can do", () => {
+  it("is written for every stage of every level the card can show", async () => {
+    const { CEFR, LEVEL_FLOOR, levelFromXp } = await import("@/lib/xp/levels");
+    const codes = new Set<string>();
+    for (let xp = 0; xp <= LEVEL_FLOOR.C2 + 1000; xp += 250) codes.add(levelFromXp(xp).code);
+    expect(codes.size).toBe(16);
+    for (const code of codes) expect((EN as Record<string, string>)[`cando.${code}`], code).toBeTruthy();
+    expect(CEFR).toHaveLength(6);
+  });
+});

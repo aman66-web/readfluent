@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { BAND_OF, CEFR, LEVEL_FLOOR, LEVEL_HOURS, PAGES_PER_MINUTE, XP, XP_PER_HOUR, levelFromXp, startingXp, xpForFinish, xpForPage, xpPerDay } from "@/lib/xp/levels";
+import { BAND_OF, CEFR, LEVEL_FLOOR, LEVEL_HOURS, PAGES_PER_MINUTE, XP, XP_PER_HOUR, levelFromXp, stageAfter, stageCode, stageOf, startingXp, xpForFinish, xpForPage, xpPerDay } from "@/lib/xp/levels";
 import { formatDuration, pathFrom } from "@/lib/xp/path";
 import { EMPTY_LEDGER, addSeconds, localDay, parseLedger, payFinish, payPage, series, streak, totalXp, type Ledger } from "@/lib/xp/ledger";
 
@@ -68,6 +68,44 @@ describe("levels from XP", () => {
     expect(xpPerDay(20)).toBe(XP.firstOfDay + 20 * PAGES_PER_MINUTE * (XP.page + XP.finishPerPage));
     expect(xpPerDay(20)).toBe(190);
     for (let i = 1; i < 6; i++) expect(xpPerDay([10, 15, 20, 30, 45, 60][i])).toBeGreaterThan(xpPerDay([10, 15, 20, 30, 45, 60][i - 1]));
+  });
+});
+
+describe("the three stages of a level", () => {
+  it("split each level into early, midway and late by how far along it a reader is", () => {
+    expect([0, 0.2, 0.33].map(stageOf)).toEqual([1, 1, 1]);
+    expect([1 / 3, 0.5, 0.66].map(stageOf)).toEqual([2, 2, 2]);
+    expect([2 / 3, 0.9, 0.999].map(stageOf)).toEqual([3, 3, 3]);
+  });
+
+  it("give a reader a code like B1.2, and the top level none", () => {
+    const b1 = LEVEL_FLOOR.B1;
+    const span = LEVEL_FLOOR.B2 - b1;
+    expect(levelFromXp(b1).code).toBe("B1.1");
+    expect(levelFromXp(b1 + Math.floor(span * 0.5)).code).toBe("B1.2");
+    expect(levelFromXp(b1 + Math.floor(span * 0.9)).code).toBe("B1.3");
+    expect(levelFromXp(LEVEL_FLOOR.C2).code).toBe("C2");
+    expect(levelFromXp(LEVEL_FLOOR.C2).stage).toBeNull();
+    expect(stageCode("A2", 3)).toBe("A2.3");
+  });
+
+  it("start a placed reader at the first stage of their level, and every stage change is on the way up", () => {
+    for (const level of CEFR.slice(0, 5)) expect(levelFromXp(startingXp(level)).stage).toBe(1);
+    let last = "";
+    const seen: string[] = [];
+    for (let xp = 0; xp < LEVEL_FLOOR.C2 + 10; xp += 500) {
+      const c = levelFromXp(xp).code;
+      if (c !== last) seen.push(c);
+      last = c;
+    }
+    expect(seen).toEqual(["A1.1", "A1.2", "A1.3", "A2.1", "A2.2", "A2.3", "B1.1", "B1.2", "B1.3", "B2.1", "B2.2", "B2.3", "C1.1", "C1.2", "C1.3", "C2"]);
+  });
+
+  it("know what stage comes after: the next in the level, then the first of the next level, then C2, then nothing", () => {
+    expect(stageAfter("B1", 1)).toEqual({ level: "B1", stage: 2 });
+    expect(stageAfter("B1", 3)).toEqual({ level: "B2", stage: 1 });
+    expect(stageAfter("C1", 3)).toEqual({ level: "C2", stage: null });
+    expect(stageAfter("C2", null)).toBeNull();
   });
 });
 
