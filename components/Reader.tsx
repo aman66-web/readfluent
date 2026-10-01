@@ -328,7 +328,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
                     saved={savedId(variant.lang, sel.word) in saved}
                     onListen={() => hear(slow ? 0.55 : 0.9)} onSlow={() => hear(0.5)}
                     onSave={() => {
-                      const now = toggleSaved({ word: sel.word, lang: variant.lang, meaning: entry?.mean ?? "", book: title });
+                      const now = toggleSaved({ word: sel.word, lang: variant.lang, meaning: entry?.en ?? "", book: title });
                       say(now ? t("reader.savedToast") : t("reader.removedToast"), now);
                       if (now) setHop((h) => h + 1);
                     }}
