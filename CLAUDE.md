@@ -8,8 +8,8 @@ This is not the Next.js you know: read `node_modules/next/dist/docs/` before wri
 ## Decided — do not re-derive these
 
 The product (1 Oct 2026): ReadFluent is real books, retold at a level (A1–A2, B1–B2,
-C1–C2) and a length (50, 100, 200 pages), read one page at a time: a photo and 28–35
-words. 9 categories, 30 books each, 270 books, 9 versions each, 2,430 versions. SPEC.md
+C1–C2) and a length (50, 100, 200 pages), read one page at a time: a photo and 1–3 sentences
+(A, B, C). 9 categories, 200 books (`scripts/pipeline/catalogue.json`), 9 versions each, 1,800 versions. SPEC.md
 has the rest. It is English-only until translation; colour-matched words wait for it.
 
 The template (1 Oct 2026): the engineering underneath came from Mental Stint's `revise/`
@@ -28,8 +28,8 @@ or compile one into the bundle. Mental Stint did, and shipped 239 MB of audio in
 native build for months. `.capacitorignore` and the stub `webDir` stay; if
 `scripts/check-native-bundle.mjs` fails, fix the cause, do not raise the limit.
 
-A page is 28–35 words, a version's page count is exactly its length, and a version
-publishes only when every gate passes. These are enforced by `scripts/validate-content.ts`,
+A page is 1, 2 or 3 sentences (A, B, C; owner, 1 Oct 2026, replacing 28–35 words), a version's page count is exactly its length, and a version
+publishes only when every gate passes. These are enforced by the pipeline's checks (`scripts/pipeline/validate.ts`) and by `scripts/validate-content.ts` when it exists,
 not by hand. A health book without its "not medical advice" line fails validation.
 
 Pictures and phone storage (owner, 1 Oct 2026): each book has one pool of 200 generated
@@ -65,7 +65,7 @@ One line per milestone when it is done: date, what shipped, anything the next pe
 - O5 Why, level explainer, time and path — done 1 Oct 2026, owner's requests. The first run is 18 steps: why they are learning, the A1–C2 (CEFR) explainer with Option 1 / Option 2, minutes a day, and how long each level takes at that pace. The XP ladder is now hours of reading (`lib/xp/levels.ts`), so the estimate is honest. **Translations are first drafts, unreviewed by native speakers.**
 - O6 Dewey welcomes, then says how quick it is — done 1 Oct 2026, owner's request. Then `go`: Dewey celebrates and the run moves on by itself (Back skips it). Then `months`: what 3 months adds up to. Recall lists Flashcards and Talk (soon). Dewey beside every question reacts to taps. Then `home`: Dewey asks to be added to the home screen (install prompt / iPhone how-to; a real widget waits for M11). After "Get started": Dewey waves (`hello`), then Dewey says "Just N quick questions" (`quick`, N from `QUESTION_STEPS` in `lib/onboarding/steps.ts`). Translations are first drafts.
 - M1 Content contract — not started
-- M2 Prove the content pipeline — not started (go/no-go on scale recorded in DECISIONS.md)
+- M2 Prove the content pipeline — in progress, 1 Oct 2026, owner's brief: `scripts/pipeline/` is built and tested with a pretend model (see its README); the prompts and checks were tried on real model output for the 3 pilot books (rehearsal, first 5 beats). **The real API pilot has not run: it needs `ANTHROPIC_API_KEY`.** The other 197 books wait for the owner to approve the cost. Generated books are not committed (`content/`, `dictionary/`, `reports/`, `review/` are gitignored); they go to object storage.
 - M3 Library and the pick flow — not started
 - M4 The reader — not started
 - M5 Word cards — started 1 Oct 2026 at the owner's request (reader follows the owner's template: tap a word, translation line on top, word card at the bottom, Listen/Slowly/Save). Demo data only (five Spanish pages, `lib/preview/spanish.ts`); the translation pipeline and real dictionaries are M2/M5.

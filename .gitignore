@@ -74,3 +74,10 @@ android/keystore.properties
 android/app/keystore.properties
 google-services.json
 GoogleService-Info.plist
+
+# The book pipeline's output: generated books are data for object storage, not for git (CLAUDE.md, "Content is data").
+/content/
+/dictionary/
+/reports/
+/review/
+/.pipeline-work/

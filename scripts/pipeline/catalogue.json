@@ -1,0 +1,2079 @@
+{
+ "count": 200,
+ "books": [
+  {
+   "number": 1,
+   "id": "pride-and-prejudice",
+   "niche": "Romance",
+   "title": "Pride and Prejudice",
+   "type": "classic",
+   "author": "Jane Austen",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 2,
+   "id": "persuasion",
+   "niche": "Romance",
+   "title": "Persuasion",
+   "type": "classic",
+   "author": "Jane Austen",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 3,
+   "id": "emma",
+   "niche": "Romance",
+   "title": "Emma",
+   "type": "classic",
+   "author": "Jane Austen",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 4,
+   "id": "sense-and-sensibility",
+   "niche": "Romance",
+   "title": "Sense and Sensibility",
+   "type": "classic",
+   "author": "Jane Austen",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 5,
+   "id": "jane-eyre",
+   "niche": "Romance",
+   "title": "Jane Eyre",
+   "type": "classic",
+   "author": "Charlotte Brontë",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 6,
+   "id": "north-and-south",
+   "niche": "Romance",
+   "title": "North and South",
+   "type": "classic",
+   "author": "Elizabeth Gaskell",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 7,
+   "id": "anne-of-green-gables",
+   "niche": "Romance",
+   "title": "Anne of Green Gables",
+   "type": "classic",
+   "author": "L. M. Montgomery",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 8,
+   "id": "far-from-the-madding-crowd",
+   "niche": "Romance",
+   "title": "Far from the Madding Crowd",
+   "type": "classic",
+   "author": "Thomas Hardy",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 9,
+   "id": "the-age-of-innocence",
+   "niche": "Romance",
+   "title": "The Age of Innocence",
+   "type": "classic",
+   "author": "Edith Wharton",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 10,
+   "id": "cyrano-de-bergerac",
+   "niche": "Romance",
+   "title": "Cyrano de Bergerac",
+   "type": "classic",
+   "author": "Edmond Rostand",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 11,
+   "id": "the-rival-at-desk-four",
+   "niche": "Romance",
+   "title": "The Rival at Desk Four",
+   "type": "original",
+   "inspired_by": [
+    "The Hating Game"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 12,
+   "id": "just-pretending",
+   "niche": "Romance",
+   "title": "Just Pretending",
+   "type": "original",
+   "inspired_by": [
+    "The Love Hypothesis"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 13,
+   "id": "two-keys-one-door",
+   "niche": "Romance",
+   "title": "Two Keys, One Door",
+   "type": "original",
+   "inspired_by": [
+    "The Flatshare"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 14,
+   "id": "summer-at-willow-bay",
+   "niche": "Romance",
+   "title": "Summer at Willow Bay",
+   "type": "original",
+   "inspired_by": [
+    "People We Meet on Vacation"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 15,
+   "id": "the-runaway-prince",
+   "niche": "Romance",
+   "title": "The Runaway Prince",
+   "type": "original",
+   "inspired_by": [
+    "Red, White & Royal Blue"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 16,
+   "id": "letters-i-never-sent",
+   "niche": "Romance",
+   "title": "Letters I Never Sent",
+   "type": "original",
+   "inspired_by": [
+    "The Notebook"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 17,
+   "id": "every-july",
+   "niche": "Romance",
+   "title": "Every July",
+   "type": "original",
+   "inspired_by": [
+    "One Day"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 18,
+   "id": "the-duke-s-convenient-bride",
+   "niche": "Romance",
+   "title": "The Duke's Convenient Bride",
+   "type": "original",
+   "inspired_by": [
+    "The Duke and I"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 19,
+   "id": "snowed-in-at-cedar-lodge",
+   "niche": "Romance",
+   "title": "Snowed In at Cedar Lodge",
+   "type": "original",
+   "inspired_by": [
+    "The Unhoneymooners"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 20,
+   "id": "the-grumpy-baker-of-maple-street",
+   "niche": "Romance",
+   "title": "The Grumpy Baker of Maple Street",
+   "type": "original",
+   "inspired_by": [
+    "Book Lovers"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 21,
+   "id": "a-wedding-to-survive",
+   "niche": "Romance",
+   "title": "A Wedding to Survive",
+   "type": "original",
+   "inspired_by": [
+    "The Wedding Date"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 22,
+   "id": "the-love-letter-cafe",
+   "niche": "Romance",
+   "title": "The Love Letter Café",
+   "type": "original",
+   "inspired_by": [
+    "P.S. I Love You"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 23,
+   "id": "a-study-in-scarlet",
+   "niche": "Crime, mystery and thriller",
+   "title": "A Study in Scarlet",
+   "type": "classic",
+   "author": "Arthur Conan Doyle",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 24,
+   "id": "the-sign-of-the-four",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Sign of the Four",
+   "type": "classic",
+   "author": "Arthur Conan Doyle",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 25,
+   "id": "the-adventures-of-sherlock-holmes",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Adventures of Sherlock Holmes",
+   "type": "classic",
+   "author": "Arthur Conan Doyle",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 26,
+   "id": "the-hound-of-the-baskervilles",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Hound of the Baskervilles",
+   "type": "classic",
+   "author": "Arthur Conan Doyle",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 27,
+   "id": "the-moonstone",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Moonstone",
+   "type": "classic",
+   "author": "Wilkie Collins",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 28,
+   "id": "the-woman-in-white",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Woman in White",
+   "type": "classic",
+   "author": "Wilkie Collins",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 29,
+   "id": "the-murders-in-the-rue-morgue",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Murders in the Rue Morgue",
+   "type": "classic",
+   "author": "Edgar Allan Poe",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 30,
+   "id": "the-innocence-of-father-brown",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Innocence of Father Brown",
+   "type": "classic",
+   "author": "G. K. Chesterton",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 31,
+   "id": "the-mystery-of-the-yellow-room",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Mystery of the Yellow Room",
+   "type": "classic",
+   "author": "Gaston Leroux",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 32,
+   "id": "arsene-lupin-gentleman-burglar",
+   "niche": "Crime, mystery and thriller",
+   "title": "Arsène Lupin, Gentleman-Burglar",
+   "type": "classic",
+   "author": "Maurice Leblanc",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 33,
+   "id": "the-thirty-nine-steps",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Thirty-Nine Steps",
+   "type": "classic",
+   "author": "John Buchan",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 34,
+   "id": "eight-guests-one-storm",
+   "niche": "Crime, mystery and thriller",
+   "title": "Eight Guests, One Storm",
+   "type": "original",
+   "inspired_by": [
+    "And Then There Were None"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 35,
+   "id": "the-counselor-s-last-session",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Counselor's Last Session",
+   "type": "original",
+   "inspired_by": [
+    "The Silent Patient"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 36,
+   "id": "the-wife-who-vanished",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Wife Who Vanished",
+   "type": "original",
+   "inspired_by": [
+    "Gone Girl"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 37,
+   "id": "murder-at-maple-court",
+   "niche": "Crime, mystery and thriller",
+   "title": "Murder at Maple Court",
+   "type": "original",
+   "inspired_by": [
+    "The Thursday Murder Club"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 38,
+   "id": "the-cipher-beneath-the-bridge",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Cipher Beneath the Bridge",
+   "type": "original",
+   "inspired_by": [
+    "The Da Vinci Code"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 39,
+   "id": "the-hacker-with-the-red-scarf",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Hacker With the Red Scarf",
+   "type": "original",
+   "inspired_by": [
+    "The Girl with the Dragon Tattoo"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 40,
+   "id": "neighbours-who-know-too-much",
+   "niche": "Crime, mystery and thriller",
+   "title": "Neighbours Who Know Too Much",
+   "type": "original",
+   "inspired_by": [
+    "Big Little Lies"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 41,
+   "id": "the-housekeeper-s-notebook",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Housekeeper's Notebook",
+   "type": "original",
+   "inspired_by": [
+    "The Maid"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 42,
+   "id": "window-seat-platform-nine",
+   "niche": "Crime, mystery and thriller",
+   "title": "Window Seat, Platform Nine",
+   "type": "original",
+   "inspired_by": [
+    "The Girl on the Train"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 43,
+   "id": "the-lawyer-in-the-back-seat",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Lawyer in the Back Seat",
+   "type": "original",
+   "inspired_by": [
+    "The Lincoln Lawyer"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 44,
+   "id": "the-sixth-form-detective",
+   "niche": "Crime, mystery and thriller",
+   "title": "The Sixth-Form Detective",
+   "type": "original",
+   "inspired_by": [
+    "A Good Girl's Guide to Murder"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 45,
+   "id": "alice-s-adventures-in-wonderland",
+   "niche": "Fantasy and sci-fi",
+   "title": "Alice's Adventures in Wonderland",
+   "type": "classic",
+   "author": "Lewis Carroll",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 46,
+   "id": "the-wonderful-wizard-of-oz",
+   "niche": "Fantasy and sci-fi",
+   "title": "The Wonderful Wizard of Oz",
+   "type": "classic",
+   "author": "L. Frank Baum",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 47,
+   "id": "the-time-machine",
+   "niche": "Fantasy and sci-fi",
+   "title": "The Time Machine",
+   "type": "classic",
+   "author": "H. G. Wells",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 48,
+   "id": "the-war-of-the-worlds",
+   "niche": "Fantasy and sci-fi",
+   "title": "The War of the Worlds",
+   "type": "classic",
+   "author": "H. G. Wells",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 49,
+   "id": "frankenstein",
+   "niche": "Fantasy and sci-fi",
+   "title": "Frankenstein",
+   "type": "classic",
+   "author": "Mary Shelley",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 50,
+   "id": "dracula",
+   "niche": "Fantasy and sci-fi",
+   "title": "Dracula",
+   "type": "classic",
+   "author": "Bram Stoker",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 51,
+   "id": "twenty-thousand-leagues-under-the-sea",
+   "niche": "Fantasy and sci-fi",
+   "title": "Twenty Thousand Leagues Under the Sea",
+   "type": "classic",
+   "author": "Jules Verne",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 52,
+   "id": "journey-to-the-center-of-the-earth",
+   "niche": "Fantasy and sci-fi",
+   "title": "Journey to the Center of the Earth",
+   "type": "classic",
+   "author": "Jules Verne",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 53,
+   "id": "the-wind-in-the-willows",
+   "niche": "Fantasy and sci-fi",
+   "title": "The Wind in the Willows",
+   "type": "classic",
+   "author": "Kenneth Grahame",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 54,
+   "id": "the-jungle-book",
+   "niche": "Fantasy and sci-fi",
+   "title": "The Jungle Book",
+   "type": "classic",
+   "author": "Rudyard Kipling",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 55,
+   "id": "strange-case-of-dr-jekyll-and-mr-hyde",
+   "niche": "Fantasy and sci-fi",
+   "title": "Strange Case of Dr Jekyll and Mr Hyde",
+   "type": "classic",
+   "author": "Robert Louis Stevenson",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 56,
+   "id": "the-academy-under-the-mountain",
+   "niche": "Fantasy and sci-fi",
+   "title": "The Academy Under the Mountain",
+   "type": "original",
+   "inspired_by": [
+    "Harry Potter"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 57,
+   "id": "the-last-lantern-of-aldermoor",
+   "niche": "Fantasy and sci-fi",
+   "title": "The Last Lantern of Aldermoor",
+   "type": "original",
+   "inspired_by": [
+    "The Lord of the Rings"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 58,
+   "id": "the-reluctant-burglar-s-map",
+   "niche": "Fantasy and sci-fi",
+   "title": "The Reluctant Burglar's Map",
+   "type": "original",
+   "inspired_by": [
+    "The Hobbit"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 59,
+   "id": "crowns-of-salt-and-ash",
+   "niche": "Fantasy and sci-fi",
+   "title": "Crowns of Salt and Ash",
+   "type": "original",
+   "inspired_by": [
+    "A Game of Thrones"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 60,
+   "id": "the-water-merchant-s-daughter",
+   "niche": "Fantasy and sci-fi",
+   "title": "The Water Merchant's Daughter",
+   "type": "original",
+   "inspired_by": [
+    "Dune"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 61,
+   "id": "arena-of-dust",
+   "niche": "Fantasy and sci-fi",
+   "title": "Arena of Dust",
+   "type": "original",
+   "inspired_by": [
+    "The Hunger Games"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 62,
+   "id": "the-boy-who-won-the-simulation",
+   "niche": "Fantasy and sci-fi",
+   "title": "The Boy Who Won the Simulation",
+   "type": "original",
+   "inspired_by": [
+    "Ender's Game"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 63,
+   "id": "survival-log-day-one",
+   "niche": "Fantasy and sci-fi",
+   "title": "Survival Log, Day One",
+   "type": "original",
+   "inspired_by": [
+    "The Martian"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 64,
+   "id": "the-signal-from-tau-lyra",
+   "niche": "Fantasy and sci-fi",
+   "title": "The Signal From Tau Lyra",
+   "type": "original",
+   "inspired_by": [
+    "Project Hail Mary"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 65,
+   "id": "neon-rain-city",
+   "niche": "Fantasy and sci-fi",
+   "title": "Neon Rain City",
+   "type": "original",
+   "inspired_by": [
+    "Neuromancer"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 66,
+   "id": "a-traveller-s-guide-to-nowhere",
+   "niche": "Fantasy and sci-fi",
+   "title": "A Traveller's Guide to Nowhere",
+   "type": "original",
+   "inspired_by": [
+    "The Hitchhiker's Guide to the Galaxy"
+   ],
+   "notes": "Write a completely new story: new characters, names, setting and plot. Keep only the genre and feel of the inspiration."
+  },
+  {
+   "number": 67,
+   "id": "one-small-step-a-day",
+   "niche": "Self-help and personal development",
+   "title": "One Small Step a Day",
+   "type": "original",
+   "inspired_by": [
+    "Atomic Habits"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 68,
+   "id": "focus-without-the-noise",
+   "niche": "Self-help and personal development",
+   "title": "Focus Without the Noise",
+   "type": "original",
+   "inspired_by": [
+    "Deep Work"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 69,
+   "id": "do-less-do-it-well",
+   "niche": "Self-help and personal development",
+   "title": "Do Less, Do It Well",
+   "type": "original",
+   "inspired_by": [
+    "Essentialism"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 70,
+   "id": "hard-task-first",
+   "niche": "Self-help and personal development",
+   "title": "Hard Task First",
+   "type": "original",
+   "inspired_by": [
+    "Eat That Frog"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 71,
+   "id": "a-clear-head-a-clear-day",
+   "niche": "Self-help and personal development",
+   "title": "A Clear Head, A Clear Day",
+   "type": "original",
+   "inspired_by": [
+    "Getting Things Done"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 72,
+   "id": "your-first-hour",
+   "niche": "Self-help and personal development",
+   "title": "Your First Hour",
+   "type": "original",
+   "inspired_by": [
+    "The Miracle Morning"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 73,
+   "id": "the-learning-mind",
+   "niche": "Self-help and personal development",
+   "title": "The Learning Mind",
+   "type": "original",
+   "inspired_by": [
+    "Mindset"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 74,
+   "id": "keep-going",
+   "niche": "Self-help and personal development",
+   "title": "Keep Going",
+   "type": "original",
+   "inspired_by": [
+    "Grit"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 75,
+   "id": "stronger-than-you-think",
+   "niche": "Self-help and personal development",
+   "title": "Stronger Than You Think",
+   "type": "original",
+   "inspired_by": [
+    "Can't Hurt Me"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 76,
+   "id": "decide-your-direction",
+   "niche": "Self-help and personal development",
+   "title": "Decide Your Direction",
+   "type": "original",
+   "inspired_by": [
+    "Awaken the Giant Within"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 77,
+   "id": "goals-that-stick",
+   "niche": "Self-help and personal development",
+   "title": "Goals That Stick",
+   "type": "original",
+   "inspired_by": [
+    "Think and Grow Rich"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 78,
+   "id": "here-and-now",
+   "niche": "Self-help and personal development",
+   "title": "Here and Now",
+   "type": "original",
+   "inspired_by": [
+    "The Power of Now"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 79,
+   "id": "choose-what-matters",
+   "niche": "Self-help and personal development",
+   "title": "Choose What Matters",
+   "type": "original",
+   "inspired_by": [
+    "The Subtle Art of Not Giving a F*ck"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 80,
+   "id": "purpose-in-hard-times",
+   "niche": "Self-help and personal development",
+   "title": "Purpose in Hard Times",
+   "type": "original",
+   "inspired_by": [
+    "Man's Search for Meaning"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 81,
+   "id": "a-reason-to-get-up",
+   "niche": "Self-help and personal development",
+   "title": "A Reason to Get Up",
+   "type": "original",
+   "inspired_by": [
+    "Ikigai"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 82,
+   "id": "four-simple-rules-for-life",
+   "niche": "Self-help and personal development",
+   "title": "Four Simple Rules for Life",
+   "type": "original",
+   "inspired_by": [
+    "The Four Agreements"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 83,
+   "id": "quiet-confidence",
+   "niche": "Self-help and personal development",
+   "title": "Quiet Confidence",
+   "type": "original",
+   "inspired_by": [
+    "Ego Is the Enemy"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 84,
+   "id": "free-from-other-people-s-opinions",
+   "niche": "Self-help and personal development",
+   "title": "Free From Other People's Opinions",
+   "type": "original",
+   "inspired_by": [
+    "The Courage to Be Disliked"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 85,
+   "id": "how-to-get-along-with-anyone",
+   "niche": "Self-help and personal development",
+   "title": "How to Get Along With Anyone",
+   "type": "original",
+   "inspired_by": [
+    "How to Win Friends and Influence People"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 86,
+   "id": "live-by-your-principles",
+   "niche": "Self-help and personal development",
+   "title": "Live by Your Principles",
+   "type": "original",
+   "inspired_by": [
+    "The 7 Habits of Highly Effective People"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 87,
+   "id": "worry-less-live-more",
+   "niche": "Self-help and personal development",
+   "title": "Worry Less, Live More",
+   "type": "original",
+   "inspired_by": [
+    "How to Stop Worrying and Start Living"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 88,
+   "id": "as-a-man-thinketh",
+   "niche": "Self-help and personal development",
+   "title": "As a Man Thinketh",
+   "type": "classic",
+   "author": "James Allen",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 89,
+   "id": "self-reliance",
+   "niche": "Self-help and personal development",
+   "title": "Self-Reliance",
+   "type": "classic",
+   "author": "Ralph Waldo Emerson",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 90,
+   "id": "how-to-live-on-24-hours-a-day",
+   "niche": "Self-help and personal development",
+   "title": "How to Live on 24 Hours a Day",
+   "type": "classic",
+   "author": "Arnold Bennett",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 91,
+   "id": "the-richest-man-in-babylon",
+   "niche": "Business and money",
+   "title": "The Richest Man in Babylon",
+   "type": "classic",
+   "author": "George S. Clason",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 92,
+   "id": "the-science-of-getting-rich",
+   "niche": "Business and money",
+   "title": "The Science of Getting Rich",
+   "type": "classic",
+   "author": "Wallace D. Wattles",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 93,
+   "id": "acres-of-diamonds",
+   "niche": "Business and money",
+   "title": "Acres of Diamonds",
+   "type": "classic",
+   "author": "Russell H. Conwell",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 94,
+   "id": "the-way-to-wealth",
+   "niche": "Business and money",
+   "title": "The Way to Wealth",
+   "type": "classic",
+   "author": "Benjamin Franklin",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 95,
+   "id": "the-art-of-war",
+   "niche": "Business and money",
+   "title": "The Art of War",
+   "type": "classic",
+   "author": "Sun Tzu",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 96,
+   "id": "the-prince",
+   "niche": "Business and money",
+   "title": "The Prince",
+   "type": "classic",
+   "author": "Niccolò Machiavelli",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 97,
+   "id": "your-money-your-rules",
+   "niche": "Business and money",
+   "title": "Your Money, Your Rules",
+   "type": "original",
+   "inspired_by": [
+    "Rich Dad Poor Dad",
+    "The Psychology of Money"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 98,
+   "id": "assets-and-liabilities-in-plain-words",
+   "niche": "Business and money",
+   "title": "Assets and Liabilities in Plain Words",
+   "type": "original",
+   "inspired_by": [
+    "Rich Dad Poor Dad"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 99,
+   "id": "how-money-really-works",
+   "niche": "Business and money",
+   "title": "How Money Really Works",
+   "type": "original",
+   "inspired_by": [
+    "The Psychology of Money",
+    "The Intelligent Investor"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 100,
+   "id": "start-investing-today",
+   "niche": "Business and money",
+   "title": "Start Investing Today",
+   "type": "original",
+   "inspired_by": [
+    "The Little Book of Common Sense Investing"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 101,
+   "id": "the-index-fund-way",
+   "niche": "Business and money",
+   "title": "The Index Fund Way",
+   "type": "original",
+   "inspired_by": [
+    "A Random Walk Down Wall Street"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 102,
+   "id": "small-savings-big-future",
+   "niche": "Business and money",
+   "title": "Small Savings, Big Future",
+   "type": "original",
+   "inspired_by": [
+    "The Millionaire Next Door"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 103,
+   "id": "one-simple-plan-for-wealth",
+   "niche": "Business and money",
+   "title": "One Simple Plan for Wealth",
+   "type": "original",
+   "inspired_by": [
+    "The Simple Path to Wealth"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 104,
+   "id": "build-it-lean",
+   "niche": "Business and money",
+   "title": "Build It Lean",
+   "type": "original",
+   "inspired_by": [
+    "The Lean Startup"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 105,
+   "id": "build-something-new",
+   "niche": "Business and money",
+   "title": "Build Something New",
+   "type": "original",
+   "inspired_by": [
+    "Zero to One"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 106,
+   "id": "how-strong-companies-last",
+   "niche": "Business and money",
+   "title": "How Strong Companies Last",
+   "type": "original",
+   "inspired_by": [
+    "Good to Great"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 107,
+   "id": "lead-through-the-hard-days",
+   "niche": "Business and money",
+   "title": "Lead Through the Hard Days",
+   "type": "original",
+   "inspired_by": [
+    "The Hard Thing About Hard Things"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 108,
+   "id": "work-less-earn-smart",
+   "niche": "Business and money",
+   "title": "Work Less, Earn Smart",
+   "type": "original",
+   "inspired_by": [
+    "The 4-Hour Workweek"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 109,
+   "id": "lead-with-purpose",
+   "niche": "Business and money",
+   "title": "Lead With Purpose",
+   "type": "original",
+   "inspired_by": [
+    "Start With Why"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 110,
+   "id": "negotiate-without-fighting",
+   "niche": "Business and money",
+   "title": "Negotiate Without Fighting",
+   "type": "original",
+   "inspired_by": [
+    "Never Split the Difference"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 111,
+   "id": "why-people-buy",
+   "niche": "Business and money",
+   "title": "Why People Buy",
+   "type": "original",
+   "inspired_by": [
+    "Influence"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 112,
+   "id": "teach-yourself-to-be-wealthy",
+   "niche": "Business and money",
+   "title": "Teach Yourself to Be Wealthy",
+   "type": "original",
+   "inspired_by": [
+    "I Will Teach You to Be Rich"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 113,
+   "id": "the-dhammapada",
+   "niche": "Religion and spirituality",
+   "title": "The Dhammapada",
+   "type": "classic",
+   "author": "Buddhist scripture (traditional)",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 114,
+   "id": "tao-te-ching",
+   "niche": "Religion and spirituality",
+   "title": "Tao Te Ching",
+   "type": "classic",
+   "author": "Laozi",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 115,
+   "id": "the-bhagavad-gita",
+   "niche": "Religion and spirituality",
+   "title": "The Bhagavad Gita",
+   "type": "classic",
+   "author": "Hindu scripture (traditional)",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 116,
+   "id": "the-sermon-on-the-mount",
+   "niche": "Religion and spirituality",
+   "title": "The Sermon on the Mount",
+   "type": "classic",
+   "author": "Gospel of Matthew",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 117,
+   "id": "the-book-of-proverbs",
+   "niche": "Religion and spirituality",
+   "title": "The Book of Proverbs",
+   "type": "classic",
+   "author": "Hebrew Bible",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 118,
+   "id": "meditations",
+   "niche": "Religion and spirituality",
+   "title": "Meditations",
+   "type": "classic",
+   "author": "Marcus Aurelius",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 119,
+   "id": "the-prophet",
+   "niche": "Religion and spirituality",
+   "title": "The Prophet",
+   "type": "classic",
+   "author": "Kahlil Gibran",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 120,
+   "id": "the-analects-of-confucius",
+   "niche": "Religion and spirituality",
+   "title": "The Analects of Confucius",
+   "type": "classic",
+   "author": "Confucius",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 121,
+   "id": "the-enchiridion",
+   "niche": "Religion and spirituality",
+   "title": "The Enchiridion",
+   "type": "classic",
+   "author": "Epictetus",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 122,
+   "id": "be-here-be-calm",
+   "niche": "Religion and spirituality",
+   "title": "Be Here, Be Calm",
+   "type": "original",
+   "inspired_by": [
+    "Wherever You Go, There You Are"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 123,
+   "id": "the-mind-that-watches",
+   "niche": "Religion and spirituality",
+   "title": "The Mind That Watches",
+   "type": "original",
+   "inspired_by": [
+    "The Untethered Soul"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 124,
+   "id": "walk-slowly-breathe-deeply",
+   "niche": "Religion and spirituality",
+   "title": "Walk Slowly, Breathe Deeply",
+   "type": "original",
+   "inspired_by": [
+    "The Miracle of Mindfulness"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 125,
+   "id": "staying-calm-when-life-breaks",
+   "niche": "Religion and spirituality",
+   "title": "Staying Calm When Life Breaks",
+   "type": "original",
+   "inspired_by": [
+    "When Things Fall Apart"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 126,
+   "id": "radical-kindness-to-yourself",
+   "niche": "Religion and spirituality",
+   "title": "Radical Kindness to Yourself",
+   "type": "original",
+   "inspired_by": [
+    "Radical Acceptance"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 127,
+   "id": "what-joy-really-is",
+   "niche": "Religion and spirituality",
+   "title": "What Joy Really Is",
+   "type": "original",
+   "inspired_by": [
+    "The Book of Joy"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 128,
+   "id": "a-purpose-bigger-than-you",
+   "niche": "Religion and spirituality",
+   "title": "A Purpose Bigger Than You",
+   "type": "original",
+   "inspired_by": [
+    "The Purpose Driven Life"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 129,
+   "id": "life-as-a-seeker",
+   "niche": "Religion and spirituality",
+   "title": "Life as a Seeker",
+   "type": "original",
+   "inspired_by": [
+    "Autobiography of a Yogi"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 130,
+   "id": "the-last-lessons-of-a-teacher",
+   "niche": "Religion and spirituality",
+   "title": "The Last Lessons of a Teacher",
+   "type": "original",
+   "inspired_by": [
+    "Tuesdays with Morrie"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 131,
+   "id": "letting-go-of-the-ego",
+   "niche": "Religion and spirituality",
+   "title": "Letting Go of the Ego",
+   "type": "original",
+   "inspired_by": [
+    "A New Earth"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 132,
+   "id": "stillness-for-beginners",
+   "niche": "Religion and spirituality",
+   "title": "Stillness for Beginners",
+   "type": "original",
+   "inspired_by": [
+    "Be Here Now"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 133,
+   "id": "forgiveness-step-by-step",
+   "niche": "Religion and spirituality",
+   "title": "Forgiveness, Step by Step",
+   "type": "original",
+   "inspired_by": [
+    "The Book of Forgiving"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 134,
+   "id": "a-calm-and-happy-life",
+   "niche": "Religion and spirituality",
+   "title": "A Calm and Happy Life",
+   "type": "original",
+   "inspired_by": [
+    "The Art of Happiness"
+   ],
+   "notes": "Explain the ideas in your own words. Respectful and neutral, no preaching, original examples. Do not retell the inspiration's life story or plot."
+  },
+  {
+   "number": 135,
+   "id": "walking",
+   "niche": "Health and wellness",
+   "title": "Walking",
+   "type": "classic",
+   "author": "Henry David Thoreau",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 136,
+   "id": "eat-more-plants",
+   "niche": "Health and wellness",
+   "title": "Eat More Plants",
+   "type": "original",
+   "inspired_by": [
+    "How Not to Die"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 137,
+   "id": "the-long-life-plan",
+   "niche": "Health and wellness",
+   "title": "The Long Life Plan",
+   "type": "original",
+   "inspired_by": [
+    "Outlive"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 138,
+   "id": "hormones-and-hunger-explained",
+   "niche": "Health and wellness",
+   "title": "Hormones and Hunger, Explained",
+   "type": "original",
+   "inspired_by": [
+    "The Obesity Code"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 139,
+   "id": "sleep-is-your-superpower",
+   "niche": "Health and wellness",
+   "title": "Sleep Is Your Superpower",
+   "type": "original",
+   "inspired_by": [
+    "Why We Sleep"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 140,
+   "id": "breathe-better-feel-better",
+   "niche": "Health and wellness",
+   "title": "Breathe Better, Feel Better",
+   "type": "original",
+   "inspired_by": [
+    "Breath"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 141,
+   "id": "run-like-a-kid-again",
+   "niche": "Health and wellness",
+   "title": "Run Like a Kid Again",
+   "type": "original",
+   "inspired_by": [
+    "Born to Run"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 142,
+   "id": "exercise-for-a-sharper-mind",
+   "niche": "Health and wellness",
+   "title": "Exercise for a Sharper Mind",
+   "type": "original",
+   "inspired_by": [
+    "Spark"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 143,
+   "id": "where-people-live-longest",
+   "niche": "Health and wellness",
+   "title": "Where People Live Longest",
+   "type": "original",
+   "inspired_by": [
+    "The Blue Zones"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 144,
+   "id": "foods-that-protect-you",
+   "niche": "Health and wellness",
+   "title": "Foods That Protect You",
+   "type": "original",
+   "inspired_by": [
+    "Eat to Beat Disease"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 145,
+   "id": "feed-your-gut",
+   "niche": "Health and wellness",
+   "title": "Feed Your Gut",
+   "type": "original",
+   "inspired_by": [
+    "Fiber Fueled"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 146,
+   "id": "steady-energy-all-day",
+   "niche": "Health and wellness",
+   "title": "Steady Energy All Day",
+   "type": "original",
+   "inspired_by": [
+    "Good Energy"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 147,
+   "id": "why-healthy-food-feels-so-hard",
+   "niche": "Health and wellness",
+   "title": "Why Healthy Food Feels So Hard",
+   "type": "original",
+   "inspired_by": [
+    "The Hungry Brain"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 148,
+   "id": "lift-heavy-start-simple",
+   "niche": "Health and wellness",
+   "title": "Lift Heavy, Start Simple",
+   "type": "original",
+   "inspired_by": [
+    "Starting Strength"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 149,
+   "id": "ten-moves-for-a-lifetime",
+   "niche": "Health and wellness",
+   "title": "Ten Moves for a Lifetime",
+   "type": "original",
+   "inspired_by": [
+    "Built to Move"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 150,
+   "id": "the-stress-reset",
+   "niche": "Health and wellness",
+   "title": "The Stress Reset",
+   "type": "original",
+   "inspired_by": [
+    "Why Zebras Don't Get Ulcers"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 151,
+   "id": "a-better-night-starting-tonight",
+   "niche": "Health and wellness",
+   "title": "A Better Night, Starting Tonight",
+   "type": "original",
+   "inspired_by": [
+    "The Sleep Revolution"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 152,
+   "id": "why-moving-makes-you-happy",
+   "niche": "Health and wellness",
+   "title": "Why Moving Makes You Happy",
+   "type": "original",
+   "inspired_by": [
+    "The Joy of Movement"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 153,
+   "id": "stay-strong-past-fifty",
+   "niche": "Health and wellness",
+   "title": "Stay Strong Past Fifty",
+   "type": "original",
+   "inspired_by": [
+    "Younger Next Year"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 154,
+   "id": "twelve-rules-for-a-sharper-brain",
+   "niche": "Health and wellness",
+   "title": "Twelve Rules for a Sharper Brain",
+   "type": "original",
+   "inspired_by": [
+    "Brain Rules"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 155,
+   "id": "real-food-simple-rules",
+   "niche": "Health and wellness",
+   "title": "Real Food, Simple Rules",
+   "type": "original",
+   "inspired_by": [
+    "In Defense of Food"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 156,
+   "id": "work-hard-rest-well",
+   "niche": "Health and wellness",
+   "title": "Work Hard, Rest Well",
+   "type": "original",
+   "inspired_by": [
+    "Peak Performance"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples. Cautious and factual. Add a 'not medical advice' page and metadata line."
+  },
+  {
+   "number": 157,
+   "id": "the-histories",
+   "niche": "History",
+   "title": "The Histories",
+   "type": "classic",
+   "author": "Herodotus",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 158,
+   "id": "the-gallic-war",
+   "niche": "History",
+   "title": "The Gallic War",
+   "type": "classic",
+   "author": "Julius Caesar",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 159,
+   "id": "plutarch-s-lives",
+   "niche": "History",
+   "title": "Plutarch's Lives",
+   "type": "classic",
+   "author": "Plutarch",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 160,
+   "id": "the-travels-of-marco-polo",
+   "niche": "History",
+   "title": "The Travels of Marco Polo",
+   "type": "classic",
+   "author": "Marco Polo",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 161,
+   "id": "narrative-of-the-life-of-frederick-douglass",
+   "niche": "History",
+   "title": "Narrative of the Life of Frederick Douglass",
+   "type": "classic",
+   "author": "Frederick Douglass",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 162,
+   "id": "up-from-slavery",
+   "niche": "History",
+   "title": "Up From Slavery",
+   "type": "classic",
+   "author": "Booker T. Washington",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 163,
+   "id": "the-autobiography-of-benjamin-franklin",
+   "niche": "History",
+   "title": "The Autobiography of Benjamin Franklin",
+   "type": "classic",
+   "author": "Benjamin Franklin",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 164,
+   "id": "twelve-years-a-slave",
+   "niche": "History",
+   "title": "Twelve Years a Slave",
+   "type": "classic",
+   "author": "Solomon Northup",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 165,
+   "id": "how-humans-took-over-the-world",
+   "niche": "History",
+   "title": "How Humans Took Over the World",
+   "type": "original",
+   "inspired_by": [
+    "Sapiens"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 166,
+   "id": "why-some-countries-got-rich-first",
+   "niche": "History",
+   "title": "Why Some Countries Got Rich First",
+   "type": "original",
+   "inspired_by": [
+    "Guns, Germs, and Steel"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 167,
+   "id": "the-roads-that-built-the-world",
+   "niche": "History",
+   "title": "The Roads That Built the World",
+   "type": "original",
+   "inspired_by": [
+    "The Silk Roads"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 168,
+   "id": "rome-in-ten-moments",
+   "niche": "History",
+   "title": "Rome in Ten Moments",
+   "type": "original",
+   "inspired_by": [
+    "SPQR"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 169,
+   "id": "the-horseback-empire",
+   "niche": "History",
+   "title": "The Horseback Empire",
+   "type": "original",
+   "inspired_by": [
+    "Genghis Khan and the Making of the Modern World"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 170,
+   "id": "the-americas-before-columbus",
+   "niche": "History",
+   "title": "The Americas Before Columbus",
+   "type": "original",
+   "inspired_by": [
+    "1491"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 171,
+   "id": "the-salt-trade-that-shaped-nations",
+   "niche": "History",
+   "title": "The Salt Trade That Shaped Nations",
+   "type": "original",
+   "inspired_by": [
+    "Salt: A World History"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 172,
+   "id": "thirty-days-to-world-war",
+   "niche": "History",
+   "title": "Thirty Days to World War",
+   "type": "original",
+   "inspired_by": [
+    "The Guns of August"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 173,
+   "id": "the-rules-history-keeps-repeating",
+   "niche": "History",
+   "title": "The Rules History Keeps Repeating",
+   "type": "original",
+   "inspired_by": [
+    "The Lessons of History"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 174,
+   "id": "how-maps-shape-power",
+   "niche": "History",
+   "title": "How Maps Shape Power",
+   "type": "original",
+   "inspired_by": [
+    "Prisoners of Geography"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 175,
+   "id": "london-under-the-bombs",
+   "niche": "History",
+   "title": "London Under the Bombs",
+   "type": "original",
+   "inspired_by": [
+    "The Splendid and the Vile"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 176,
+   "id": "the-rise-of-the-plains-warriors",
+   "niche": "History",
+   "title": "The Rise of the Plains Warriors",
+   "type": "original",
+   "inspired_by": [
+    "Empire of the Summer Moon"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 177,
+   "id": "europe-in-one-evening",
+   "niche": "History",
+   "title": "Europe in One Evening",
+   "type": "original",
+   "inspired_by": [
+    "The Shortest History of Europe"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 178,
+   "id": "lincoln-and-his-rivals",
+   "niche": "History",
+   "title": "Lincoln and His Rivals",
+   "type": "original",
+   "inspired_by": [
+    "Team of Rivals"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 179,
+   "id": "on-the-origin-of-species",
+   "niche": "Science",
+   "title": "On the Origin of Species",
+   "type": "classic",
+   "author": "Charles Darwin",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 180,
+   "id": "the-voyage-of-the-beagle",
+   "niche": "Science",
+   "title": "The Voyage of the Beagle",
+   "type": "classic",
+   "author": "Charles Darwin",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 181,
+   "id": "the-chemical-history-of-a-candle",
+   "niche": "Science",
+   "title": "The Chemical History of a Candle",
+   "type": "classic",
+   "author": "Michael Faraday",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 182,
+   "id": "relativity-the-special-and-general-theory",
+   "niche": "Science",
+   "title": "Relativity: The Special and General Theory",
+   "type": "classic",
+   "author": "Albert Einstein",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 183,
+   "id": "experiments-on-plant-hybridisation",
+   "niche": "Science",
+   "title": "Experiments on Plant Hybridisation",
+   "type": "classic",
+   "author": "Gregor Mendel",
+   "notes": "Public domain. Keep the real title. Retell in your own words from a public-domain source; flag it if you are unsure of its status."
+  },
+  {
+   "number": 184,
+   "id": "the-story-of-everything-short",
+   "niche": "Science",
+   "title": "The Story of Everything, Short",
+   "type": "original",
+   "inspired_by": [
+    "A Brief History of Time"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 185,
+   "id": "a-tour-of-the-universe",
+   "niche": "Science",
+   "title": "A Tour of the Universe",
+   "type": "original",
+   "inspired_by": [
+    "Cosmos"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 186,
+   "id": "why-genes-behave-like-they-do",
+   "niche": "Science",
+   "title": "Why Genes Behave Like They Do",
+   "type": "original",
+   "inspired_by": [
+    "The Selfish Gene"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 187,
+   "id": "the-universe-in-an-afternoon",
+   "niche": "Science",
+   "title": "The Universe in an Afternoon",
+   "type": "original",
+   "inspired_by": [
+    "Astrophysics for People in a Hurry"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 188,
+   "id": "everything-you-missed-in-school",
+   "niche": "Science",
+   "title": "Everything You Missed in School",
+   "type": "original",
+   "inspired_by": [
+    "A Short History of Nearly Everything"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 189,
+   "id": "strings-space-and-time",
+   "niche": "Science",
+   "title": "Strings, Space and Time",
+   "type": "original",
+   "inspired_by": [
+    "The Elegant Universe"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 190,
+   "id": "physics-in-six-ideas",
+   "niche": "Science",
+   "title": "Physics in Six Ideas",
+   "type": "original",
+   "inspired_by": [
+    "Six Easy Pieces"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 191,
+   "id": "how-genes-shape-who-we-are",
+   "niche": "Science",
+   "title": "How Genes Shape Who We Are",
+   "type": "original",
+   "inspired_by": [
+    "The Gene"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 192,
+   "id": "the-fish-inside-you",
+   "niche": "Science",
+   "title": "The Fish Inside You",
+   "type": "original",
+   "inspired_by": [
+    "Your Inner Fish"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 193,
+   "id": "think-like-a-scientist",
+   "niche": "Science",
+   "title": "Think Like a Scientist",
+   "type": "original",
+   "inspired_by": [
+    "The Demon-Haunted World"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 194,
+   "id": "physics-one-idea-at-a-time",
+   "niche": "Science",
+   "title": "Physics, One Idea at a Time",
+   "type": "original",
+   "inspired_by": [
+    "Seven Brief Lessons on Physics"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 195,
+   "id": "why-time-feels-like-it-flows",
+   "niche": "Science",
+   "title": "Why Time Feels Like It Flows",
+   "type": "original",
+   "inspired_by": [
+    "The Order of Time"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 196,
+   "id": "trees-talk-to-each-other",
+   "niche": "Science",
+   "title": "Trees Talk to Each Other",
+   "type": "original",
+   "inspired_by": [
+    "The Hidden Life of Trees"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 197,
+   "id": "a-tour-through-your-body",
+   "niche": "Science",
+   "title": "A Tour Through Your Body",
+   "type": "original",
+   "inspired_by": [
+    "The Body"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 198,
+   "id": "the-secret-world-of-fungi",
+   "niche": "Science",
+   "title": "The Secret World of Fungi",
+   "type": "original",
+   "inspired_by": [
+    "Entangled Life"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 199,
+   "id": "earth-seen-from-space",
+   "niche": "Science",
+   "title": "Earth Seen From Space",
+   "type": "original",
+   "inspired_by": [
+    "Pale Blue Dot"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  },
+  {
+   "number": 200,
+   "id": "ten-questions-about-the-universe",
+   "niche": "Science",
+   "title": "Ten Questions About the Universe",
+   "type": "original",
+   "inspired_by": [
+    "Brief Answers to the Big Questions"
+   ],
+   "notes": "Explain the ideas in your own words with your own examples and metaphors. No branded terms, signature stories or copied text from the inspiration."
+  }
+ ]
+}

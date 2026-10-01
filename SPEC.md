@@ -2,6 +2,8 @@
 
 *Last updated 2026-10-01. Source of truth for what the product is and the order it is built in. Ambiguous calls live in DECISIONS.md. How to work in this repo lives in CLAUDE.md.*
 
+> **Amendment, 1 Oct 2026 (owner's content brief, `scripts/pipeline/`).** This overrides the numbers below wherever they differ. The library is the **200 books** in `scripts/pipeline/catalogue.json`, not 270 (so 1,800 versions). A page is **1, 2 or 3 sentences** for A, B and C (guide: 8–14, 12–22 and 18–35 words a sentence); the old 28–35 words a page is gone. Every book has **50 beats**; the 50-page version has 1 page per beat, the 100 has 2, the 200 has 4 and **contains every page of the 100**. Every page has English, Spanish (neutral Latin American) and 3 key word pairs, and keeps its `beat` number so photos can be attached later. The photos are made later by the owner with Midjourney; the pipeline makes none. The page-count and photo-pool facts in §7, §9 and M1–M2 follow from this and are rewritten when M1 lands.
+
 **One line:** a mobile reading app where people learn a language by reading real books, retold at their level and at the length they choose.
 
 **Tagline:** Real books. Your level.
