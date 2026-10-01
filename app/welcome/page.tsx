@@ -6,7 +6,8 @@ import { Suspense, useMemo, useState, useSyncExternalStore } from "react";
 import { FirstScreen } from "@/components/welcome/FirstScreen";
 import { HeardScreen, HelloScreen, FocusScreen, MirrorScreen, ScrollScreen } from "@/components/onboarding/Questions";
 import { DailyScreen, FutureScreen, PledgeScreen, ReadyScreen } from "@/components/onboarding/Plan";
-import { AccountScreen, InterestsScreen, LanguageScreen } from "@/components/onboarding/Last";
+import { TonguesScreen } from "@/components/onboarding/Tongues";
+import { AccountScreen, InterestsScreen } from "@/components/onboarding/Last";
 import { accountAvailable } from "@/components/onboarding/SignIn";
 import { TourScreen } from "@/components/onboarding/Tour";
 import { display, jakarta } from "@/lib/fonts";
@@ -20,10 +21,11 @@ import { AFTER_ONBOARDING, STEP_IDS, isShowStep, stepIndex } from "@/lib/onboard
 import { readRaw, subscribeTo } from "@/lib/store/local";
 
 /**
- * First run: the welcome (a wall of book covers), the guide's hello and its two
+ * First run: the welcome (a wall of book covers), which languages (the one you speak
+ * and the one you want to learn), the guide's hello and its two
  * questions, how long somebody scrolls and what that adds up to, the guide's tour of
  * what the app does (five screens), a daily time and where it takes them, a promise,
- * the language, sign in or sign up, what you are curious about, and the library being
+ * sign in or sign up, what you are curious about, and the library being
  * set up — which saves the answers and opens the library.
  *
  * Every step can be skipped and Back always works. The progress bar counts exactly
@@ -89,6 +91,12 @@ function Welcome() {
   }
 
   const nav = { at: i, of: STEP_IDS.length, onBack: back, onContinue: next };
+  if (step === "tongues") {
+    return (
+      <TonguesScreen {...nav} speak={a.language} learn={a.learn}
+                     onSpeak={(language) => saveAnswers({ language })} onLearn={(learn) => saveAnswers({ learn })} />
+    );
+  }
   if (step === "hello") return <HelloScreen {...nav} />;
   if (step === "focus") {
     return <FocusScreen {...nav} value={a.focus} onToggle={(f) => saveAnswers({ focus: toggleIn(FOCUS_IDS, a.focus, f) })} />;
@@ -107,7 +115,6 @@ function Welcome() {
   if (step === "pledge") {
     return <PledgeScreen {...nav} minutes={minutes} done={a.pledged} onDone={() => saveAnswers({ pledged: true })} />;
   }
-  if (step === "language") return <LanguageScreen {...nav} value={a.language} onPick={(language) => saveAnswers({ language })} />;
   if (step === "account") return <AccountScreen at={i} of={STEP_IDS.length} onBack={back} error={authError} onNext={next} />;
   if (step === "interests") return <InterestsScreen {...nav} value={a.interests} onChange={(interests) => saveAnswers({ interests })} />;
   return <ReadyScreen {...nav} interests={a.interests} minutes={minutes} />;

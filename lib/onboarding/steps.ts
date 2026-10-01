@@ -1,10 +1,11 @@
 /**
  * The first run, as pure rules: which steps there are and in what order.
  *
- * The welcome (a wall of book covers) → the guide's hello → what you want from
+ * The welcome (a wall of book covers) → which languages (the one you speak and the
+ * one you want to learn) → the guide's hello → what you want from
  * the app → where you heard of it → a mirror (how long you scroll, and what a
  * little of that would be as reading) → a five-screen tour → a daily time and
- * where it takes you → a promise → your language → sign in → what you are
+ * where it takes you → a promise → sign in → what you are
  * curious about → the library being set up. Every step after the welcome can be
  * skipped, and every one counts on the progress bar.
  *
@@ -12,9 +13,9 @@
  * its screens and its copy rewritten for reading.
  */
 export const STEP_IDS = [
-  "intro", "hello", "focus", "heard", "scroll", "mirror",
+  "intro", "tongues", "hello", "focus", "heard", "scroll", "mirror",
   "journey", "levels", "words", "remember", "connect",
-  "daily", "future", "pledge", "language", "account", "interests", "ready",
+  "daily", "future", "pledge", "account", "interests", "ready",
 ] as const;
 export type StepId = (typeof STEP_IDS)[number];
 

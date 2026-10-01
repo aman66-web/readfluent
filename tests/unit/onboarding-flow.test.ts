@@ -25,6 +25,10 @@ describe("the steps", () => {
     expect(AFTER_ONBOARDING).toBe("/");
   });
 
+  it("ask which languages straight after the welcome", () => {
+    expect(STEP_IDS[1]).toBe("tongues");
+  });
+
   it("keep the five tour screens together", () => {
     const at = STEP_IDS.indexOf(SHOW_IDS[0]);
     expect(STEP_IDS.slice(at, at + 5)).toEqual([...SHOW_IDS]);
@@ -80,7 +84,7 @@ describe("the answers", () => {
 
   it("keep only values that exist, in the screen's order, each once", () => {
     const a = parseAnswers(JSON.stringify({
-      focus: ["words", "nope", "language", "words"], heard: "tiktok", scroll: "2to4", daily: 15, pledged: true, language: "es",
+      focus: ["words", "nope", "language", "words"], heard: "tiktok", scroll: "2to4", daily: 15, pledged: true, language: "es", learn: "fr",
       interests: ["history", "romance", "bogus"], heardOther: "x".repeat(500),
     }));
     expect(a.focus).toEqual(["language", "words"]);
@@ -89,12 +93,13 @@ describe("the answers", () => {
     expect(a.daily).toBe(15);
     expect(a.pledged).toBe(true);
     expect(a.language).toBe("es");
+    expect(a.learn).toBe("fr");
     expect(a.interests).toEqual(["romance", "history"]);
     expect(a.heardOther).toHaveLength(HEARD_OTHER_MAX);
   });
 
   it("refuse a daily time that was not offered, and a language that does not exist", () => {
-    const a = parseAnswers(JSON.stringify({ daily: 999, language: "xx", heard: "myspace", scroll: "forever", pledged: "yes" }));
+    const a = parseAnswers(JSON.stringify({ daily: 999, language: "xx", learn: "xx", heard: "myspace", scroll: "forever", pledged: "yes" }));
     expect(a).toEqual(NO_ANSWERS);
   });
 
@@ -131,6 +136,7 @@ describe("every screen renders", () => {
     const p = await import("@/components/onboarding/Plan");
     const l = await import("@/components/onboarding/Last");
     const t = await import("@/components/onboarding/Tour");
+    const g = await import("@/components/onboarding/Tongues");
     const mk = (c: unknown, props: object) => renderToStaticMarkup(createElement(c as never, props as never));
     return {
       hello: mk(q.HelloScreen, nav),
@@ -143,7 +149,8 @@ describe("every screen renders", () => {
       daily: mk(p.DailyScreen, { ...nav, value: 15, onPick: () => {} }),
       future: mk(p.FutureScreen, { ...nav, minutes: 15, focus: ["language", "words"] }),
       pledge: mk(p.PledgeScreen, { ...nav, minutes: 15, done: false, onDone: () => {} }),
-      language: mk(l.LanguageScreen, { ...nav, value: "en", onPick: () => {} }),
+      tongues: mk(g.TonguesScreen, { ...nav, speak: "en", learn: "es", onSpeak: () => {}, onLearn: () => {} }),
+      tonguesBlank: mk(g.TonguesScreen, { ...nav, speak: "en", learn: null, onSpeak: () => {}, onLearn: () => {} }),
       account: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: false, onNext: () => {} }),
       accountFailed: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: true, onNext: () => {} }),
       interests: mk(l.InterestsScreen, { ...nav, value: ["romance"], onChange: () => {} }),
@@ -163,7 +170,9 @@ describe("every screen renders", () => {
     expect(text(h.daily)).toContain("How much time will you give it each day?");
     expect(text(h.future)).toContain("15 minutes a day takes you");
     expect(text(h.pledge)).toContain("Make it a promise to yourself.");
-    expect(text(h.language)).toContain("Pick your language");
+    expect(text(h.tongues)).toContain("Which languages?");
+    expect(text(h.tongues)).toContain("Reading Spanish, with help in English.");
+    expect(text(h.tonguesBlank)).toContain("Choose the language you want to learn.");
     expect(text(h.account)).toContain("Sign in or sign up");
     expect(text(h.interests)).toContain("What are you curious about?");
     expect(text(h.ready)).toContain("Building your library");
@@ -223,5 +232,16 @@ describe("the run's last step", () => {
   it("does not send the reader off before the run is finished", () => {
     // markOnboarded is called only from finish: quitting half-way sends the reader back to the start.
     expect(page.match(/markOnboarded\(\)/g)).toHaveLength(1);
+  });
+});
+
+describe("the language pair", () => {
+  it("says what the pair means, and what is not available yet", async () => {
+    const { tonguesSummary, tonguesNote } = await import("@/lib/onboarding/tongues");
+    expect(tonguesSummary("en", "es")).toBe("Reading Spanish, with help in English.");
+    expect(tonguesSummary("en", null)).toBe("Choose the language you want to learn.");
+    expect(tonguesNote("en", "es")).toContain("The books are in English today");
+    expect(tonguesNote("fr", "en")).toContain("French are coming");
+    expect(tonguesNote("en", "en")).toBeNull();
   });
 });

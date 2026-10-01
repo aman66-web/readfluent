@@ -26,6 +26,7 @@ export function reportFirstRun(a: Answers, goalMinutes: number): void {
           scroll: a.scroll,
           goal: goalMinutes,
           language: a.language,
+          learn: a.learn,
           interests: a.interests,
         },
       });

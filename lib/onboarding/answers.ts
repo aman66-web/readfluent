@@ -29,12 +29,15 @@ export interface Answers {
   scroll: ScrollId | null;
   daily: number | null;
   pledged: boolean;
+  /** The language they speak: the app and word meanings. */
   language: LanguageCode;
+  /** The language they want to learn: the books. Null until chosen. */
+  learn: LanguageCode | null;
   interests: CategoryId[];
 }
 
 export const NO_ANSWERS: Answers = {
-  focus: [], heard: null, heardOther: "", scroll: null, daily: null, pledged: false, language: DEFAULT_LANGUAGE, interests: [],
+  focus: [], heard: null, heardOther: "", scroll: null, daily: null, pledged: false, language: DEFAULT_LANGUAGE, learn: null, interests: [],
 };
 
 export const ANSWERS_KEY = storageKey("onboarding");
@@ -64,6 +67,7 @@ export function parseAnswers(raw: string | null | undefined): Answers {
     daily: typeof o.daily === "number" && (DAILY_MINUTES as readonly number[]).includes(o.daily) ? o.daily : null,
     pledged: o.pledged === true,
     language: isLanguage(o.language) ? o.language : DEFAULT_LANGUAGE,
+    learn: isLanguage(o.learn) ? o.learn : null,
     interests: tidy(CATEGORIES.map((c) => c.id), o.interests),
   };
 }

@@ -1,50 +1,15 @@
 "use client";
 
 import { CATEGORIES, type CategoryId } from "@/lib/content/limits";
-import { LANGUAGES, type LanguageCode } from "@/lib/onboarding/languages";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
 import { SignIn } from "./SignIn";
 
 interface Nav { at: number; of: number; onBack: () => void; onContinue: () => void }
 
 /**
- * The last steps of the first run, asked by the guide like the rest: your language,
- * signing in, and what you are curious about.
+ * The last steps of the first run, asked by the guide like the rest: signing in
+ * and what you are curious about.
  */
-
-/** "Pick your language" — the languages with the most speakers; the pick is kept for translation. */
-export function LanguageScreen({ at, of, value, onPick, onBack, onContinue }: Nav & {
-  value: LanguageCode;
-  onPick: (l: LanguageCode) => void;
-}) {
-  const line = "Pick your language";
-  const guide = useGuide(line);
-  return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
-      <div className="relative flex min-h-0 flex-1 flex-col pt-5">
-        <GuideHead guide={guide} line={line} sub="ReadFluent is in English for now. Tell us yours, and we'll translate into it." />
-        <div className="mt-5 flex min-h-0 flex-1 flex-col">
-          {/* The list scrolls behind the footer: the last 28px fade so a cut row reads as "more below". */}
-          <ul className="-mx-1 grid min-h-0 flex-1 grid-cols-2 content-start gap-2 overflow-y-auto px-1 pb-7 pt-1 [mask-image:linear-gradient(to_bottom,#000_calc(100%-28px),transparent)]">
-            {LANGUAGES.map((l, n) => {
-              const on = value === l.code;
-              return (
-                <li key={l.code} className="wel-in" style={{ animationDelay: `${700 + n * 22}ms` }}>
-                  <button type="button" onClick={() => onPick(l.code)} aria-pressed={on}
-                          className={`guide-card relative flex h-14 w-full flex-col justify-center rounded-[16px] px-3.5 text-start ${on ? "guide-card-on" : ""}`}>
-                    <span lang={l.code} className="block truncate text-[13px] font-semibold">{l.native}</span>
-                    {/* English's English name is English: a caption that repeats the title reads as a mistake. */}
-                    {l.label !== l.native && <span className="ob-muted block truncate text-[11px]">{l.label}</span>}
-                  </button>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </div>
-    </GuideFrame>
-  );
-}
 
 /** "Sign in or sign up" — the sign-in's own buttons are the way on, so there is no Continue. */
 export function AccountScreen({ at, of, error, onBack, onNext }: Omit<Nav, "onContinue"> & { error: boolean; onNext: () => void }) {
