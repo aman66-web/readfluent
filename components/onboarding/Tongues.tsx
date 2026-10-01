@@ -5,7 +5,7 @@ import { languageName, loadCatalog } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { LANGUAGES, type LanguageCode } from "@/lib/onboarding/languages";
 import { saveAnswers } from "@/lib/onboarding/answers";
-import { tonguesNote, tonguesSummary } from "@/lib/onboarding/tongues";
+import { choicesFor, tonguesNote, tonguesSummary } from "@/lib/onboarding/tongues";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
 
 interface Nav { at: number; of: number; onBack: () => void; onContinue: () => void }
@@ -51,8 +51,8 @@ function Card({ kicker, code, onOpen, delay }: { kicker: string; code: LanguageC
 }
 
 /** The full list, over the screen. Choosing closes it. */
-function Sheet({ title, value, onPick, onClose }: {
-  title: string; value: LanguageCode | null; onPick: (l: LanguageCode) => void; onClose: () => void;
+function Sheet({ title, value, choices, onPick, onClose }: {
+  title: string; value: LanguageCode | null; choices: readonly (typeof LANGUAGES)[number][]; onPick: (l: LanguageCode) => void; onClose: () => void;
 }) {
   const t = useT();
   const locale = useLocale();
@@ -63,7 +63,7 @@ function Sheet({ title, value, onPick, onClose }: {
         <button type="button" onClick={onClose} className="-me-2 grid h-11 place-items-center rounded-full px-3 text-[15px] font-semibold active:bg-black/5">{t("ui.close")}</button>
       </div>
       <ul className="-mx-1 grid min-h-0 flex-1 grid-cols-2 content-start gap-2 overflow-y-auto px-1 pb-4 pt-1">
-        {LANGUAGES.map((l) => {
+        {choices.map((l) => {
           const on = value === l.code;
           const sub = caption(l.code, l.native, locale);
           return (
@@ -93,6 +93,8 @@ export function LanguagePicker({ speak, learn, delay = 0 }: { speak: LanguageCod
 
   const pick = (which: Which, code: LanguageCode) => {
     setOpen(null);
+    // The sheet does not offer the other card's language, so this cannot happen from it; the guard is for anything else.
+    if (code === (which === "speak" ? learn : speak)) return;
     if (which === "learn") { saveAnswers({ learn: code }); return; }
     // The new language's words arrive before it is chosen, so the screen changes once.
     void loadCatalog(code).then(() => saveAnswers({ language: code }));
@@ -111,6 +113,7 @@ export function LanguagePicker({ speak, learn, delay = 0 }: { speak: LanguageCod
       {note && <p className="ob-muted wel-in mt-1.5 text-center text-[13px] leading-snug" style={{ animationDelay: `${delay + 320}ms` }}>{note}</p>}
       {open && (
         <Sheet title={open === "speak" ? t("tongues.sheetSpeak") : t("tongues.sheetLearn")} value={open === "speak" ? speak : learn}
+               choices={choicesFor(open, speak, learn, LANGUAGES)}
                onPick={(l) => pick(open, l)} onClose={() => setOpen(null)} />
       )}
     </>
@@ -125,7 +128,7 @@ export function TonguesScreen({ at, of, speak, learn, onBack, onContinue }: Nav 
   const line = t("tongues.line");
   const guide = useGuide(line);
   return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={learn !== null && learn !== speak}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-3 pt-5">
         <GuideHead key={line} guide={guide} line={line} sub={t("tongues.sub")} />
         <div className="mt-6">

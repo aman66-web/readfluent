@@ -64,6 +64,9 @@ export function parseAnswers(raw: string | null | undefined): Answers {
   if (typeof v !== "object" || v === null || Array.isArray(v)) return NO_ANSWERS;
   const o = v as Record<string, unknown>;
   const oneOf = <T extends string>(list: readonly T[], x: unknown): T | null => ((list as readonly unknown[]).includes(x) ? (x as T) : null);
+  const language = isLanguage(o.language) ? o.language : DEFAULT_LANGUAGE;
+  // The language they learn cannot be the one they speak; an answer saved that way is no answer.
+  const learn = isLanguage(o.learn) && o.learn !== language ? o.learn : null;
   return {
     focus: tidy(FOCUS_IDS, o.focus),
     heard: oneOf(HEARD_IDS, o.heard),
@@ -71,8 +74,8 @@ export function parseAnswers(raw: string | null | undefined): Answers {
     scroll: oneOf(SCROLL_IDS, o.scroll),
     daily: typeof o.daily === "number" && (DAILY_MINUTES as readonly number[]).includes(o.daily) ? o.daily : null,
     pledged: o.pledged === true,
-    language: isLanguage(o.language) ? o.language : DEFAULT_LANGUAGE,
-    learn: isLanguage(o.learn) ? o.learn : null,
+    language,
+    learn,
     level: isCefr(o.level) ? o.level : null,
     placed: o.placed === true && isCefr(o.level),
     interests: tidy(CATEGORIES.map((c) => c.id), o.interests),

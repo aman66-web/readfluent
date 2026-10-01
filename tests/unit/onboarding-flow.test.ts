@@ -237,6 +237,34 @@ describe("the run's last step", () => {
   });
 });
 
+describe("the two languages cannot be the same", () => {
+  it("drops a saved learn language that equals the one they speak", () => {
+    expect(parseAnswers(JSON.stringify({ language: "en", learn: "en" })).learn).toBeNull();
+    expect(parseAnswers(JSON.stringify({ language: "es", learn: "en" })).learn).toBe("en");
+    expect(parseAnswers(JSON.stringify({ language: "es", learn: "es" })).learn).toBeNull();
+  });
+
+  it("offers each card every language except the one on the other", async () => {
+    const { choicesFor } = await import("@/lib/onboarding/tongues");
+    const codes = (w: "speak" | "learn", s: "en" | "es", l: "en" | "es" | null) => choicesFor(w, s, l, LANGUAGES).map((x) => x.code);
+    expect(codes("learn", "en", null)).not.toContain("en");
+    expect(codes("learn", "en", null)).toHaveLength(19);
+    expect(codes("speak", "en", "es")).not.toContain("es");
+    expect(codes("speak", "en", "es")).toContain("en");
+    expect(codes("speak", "en", null)).toHaveLength(20);
+  });
+
+  it("keeps Continue off on the languages screen until a different language is chosen", async () => {
+    const g = await import("@/components/onboarding/Tongues");
+    const { createElement } = await import("react");
+    const { renderToStaticMarkup } = await import("react-dom/server");
+    const nav = { at: 1, of: 19, onBack: () => {}, onContinue: () => {} };
+    const off = (learn: "es" | null) => /<button[^>]*disabled=""[^>]*ob-primary|<button[^>]*ob-primary[^>]*disabled=""/.test(renderToStaticMarkup(createElement(g.TonguesScreen, { ...nav, speak: "en", learn })));
+    expect(off(null)).toBe(true);
+    expect(off("es")).toBe(false);
+  });
+});
+
 describe("the language pair", () => {
   it("says what the pair means, and what is not available yet", async () => {
     const { tonguesSummary, tonguesNote } = await import("@/lib/onboarding/tongues");

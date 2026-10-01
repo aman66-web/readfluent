@@ -22,6 +22,15 @@ export function tonguesSummary(t: T, locale: LanguageCode, speak: LanguageCode, 
   return sentence(t("tongues.summary", { learn: languageName(learn, locale), speak: languageName(speak, locale) }), locale);
 }
 
+/**
+ * The languages a card can offer: every one except the language on the other card. The two
+ * cannot be the same (owner, 1 Oct 2026): you do not learn a language through itself.
+ */
+export function choicesFor<T extends { code: LanguageCode }>(which: "speak" | "learn", speak: LanguageCode, learn: LanguageCode | null, all: readonly T[]): T[] {
+  const other = which === "speak" ? learn : speak;
+  return all.filter((l) => l.code !== other);
+}
+
 /** What is not available yet about this pair, or null when all of it is. */
 export function tonguesNote(t: T, locale: LanguageCode, speak: LanguageCode, learn: LanguageCode | null): string | null {
   const en = languageName("en", locale);
