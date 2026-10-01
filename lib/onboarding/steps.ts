@@ -14,7 +14,7 @@
  * its screens and its copy rewritten for reading.
  */
 export const STEP_IDS = [
-  "intro", "tongues", "hello", "level", "focus", "heard", "scroll", "mirror",
+  "intro", "tongues", "hello", "level", "why", "heard", "scroll", "mirror",
   "journey", "levels", "words", "remember", "connect",
   "daily", "future", "pledge", "account", "interests", "ready",
 ] as const;

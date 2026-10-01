@@ -6,7 +6,7 @@ import type { CategoryId } from "@/lib/content/limits";
 import { formatDate, formatList } from "@/lib/i18n";
 import { formatReadingTime } from "@/lib/i18n/format";
 import { useLocale, useT } from "@/lib/i18n/react";
-import type { FocusId } from "@/lib/onboarding/answers";
+import type { WhyId } from "@/lib/onboarding/answers";
 import { DAILY_MINUTES } from "@/lib/onboarding/firstrun";
 import { useStagedCount } from "./count";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
@@ -66,9 +66,9 @@ export function DailyScreen({ at, of, value, onPick, onBack, onContinue }: Nav &
  * time spent reading. The year is the one lit up, and the bars are measured against
  * it, so the week and the month look like the start they are.
  */
-export function FutureScreen({ at, of, minutes, focus, onBack, onContinue }: Nav & {
+export function FutureScreen({ at, of, minutes, why, onBack, onContinue }: Nav & {
   minutes: number;
-  focus: readonly FocusId[];
+  why: readonly WhyId[];
 }) {
   const t = useT();
   const locale = useLocale();
@@ -92,9 +92,9 @@ export function FutureScreen({ at, of, minutes, focus, onBack, onContinue }: Nav
           ))}
         </ol>
 
-        {focus.length > 0 && (
+        {why.length > 0 && (
           <ul className="mt-6 space-y-2">
-            {focus.map((f, i) => (
+            {why.map((f, i) => (
               <li key={f} className="wel-in flex items-center gap-2.5 text-[14px] font-medium" style={{ animationDelay: `${2400 + i * 160}ms` }}>
                 <span className="grid size-5 shrink-0 place-items-center rounded-full bg-[var(--ob-teal)] text-white" aria-hidden>{TickIcon}</span>
                 {t(`future.${f}`)}

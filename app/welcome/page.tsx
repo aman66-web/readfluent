@@ -4,7 +4,7 @@ import "./welcome.css";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo, useState, useSyncExternalStore } from "react";
 import { FirstScreen } from "@/components/welcome/FirstScreen";
-import { HeardScreen, HelloScreen, FocusScreen, MirrorScreen, ScrollScreen } from "@/components/onboarding/Questions";
+import { HeardScreen, HelloScreen, WhyScreen, MirrorScreen, ScrollScreen } from "@/components/onboarding/Questions";
 import { DailyScreen, FutureScreen, PledgeScreen, ReadyScreen } from "@/components/onboarding/Plan";
 import { LevelScreen } from "@/components/onboarding/Level";
 import { TonguesScreen } from "@/components/onboarding/Tongues";
@@ -14,7 +14,7 @@ import { TourScreen } from "@/components/onboarding/Tour";
 import { display, jakarta } from "@/lib/fonts";
 import { markOnboarded } from "@/lib/onboarding";
 import {
-  ANSWERS_KEY, FOCUS_IDS, parseAnswers, saveAnswers, toggleIn,
+  ANSWERS_KEY, WHY_IDS, parseAnswers, saveAnswers, toggleIn,
 } from "@/lib/onboarding/answers";
 import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { reportFirstRun } from "@/lib/onboarding/report";
@@ -107,8 +107,8 @@ function Welcome() {
                    onPick={(level) => saveAnswers({ level, placed: false })} onTest={() => router.push(PLACEMENT_PATH)} />
     );
   }
-  if (step === "focus") {
-    return <FocusScreen {...nav} value={a.focus} onToggle={(f) => saveAnswers({ focus: toggleIn(FOCUS_IDS, a.focus, f) })} />;
+  if (step === "why") {
+    return <WhyScreen {...nav} learn={a.learn} value={a.why} onToggle={(w) => saveAnswers({ why: toggleIn(WHY_IDS, a.why, w) })} />;
   }
   if (step === "heard") {
     return (
@@ -120,7 +120,7 @@ function Welcome() {
   if (step === "mirror") return <MirrorScreen {...nav} scroll={a.scroll} />;
   if (isShowStep(step)) return <TourScreen key={step} id={step} {...nav} />;
   if (step === "daily") return <DailyScreen {...nav} value={a.daily} onPick={(daily) => saveAnswers({ daily })} />;
-  if (step === "future") return <FutureScreen {...nav} minutes={minutes} focus={a.focus} />;
+  if (step === "future") return <FutureScreen {...nav} minutes={minutes} why={a.why} />;
   if (step === "pledge") {
     return <PledgeScreen {...nav} minutes={minutes} done={a.pledged} onDone={() => saveAnswers({ pledged: true })} />;
   }

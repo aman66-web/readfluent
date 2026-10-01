@@ -4,7 +4,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it, vi } from "vitest";
 import { CATEGORIES } from "@/lib/content/limits";
 import {
-  FOCUS_IDS, HEARD_IDS, HEARD_OTHER_MAX, NO_ANSWERS, cleanHeardOther, parseAnswers, toggleIn,
+  WHY_IDS, HEARD_IDS, HEARD_OTHER_MAX, NO_ANSWERS, cleanHeardOther, parseAnswers, toggleIn,
 } from "@/lib/onboarding/answers";
 import { DAILY_MINUTES, DEFAULT_MINUTES, SCROLL_HOURS, SCROLL_IDS, SWAP_MINUTES, readingTime, scrollDaysAYear } from "@/lib/onboarding/firstrun";
 import { LANGUAGES, isLanguage } from "@/lib/onboarding/languages";
@@ -38,8 +38,8 @@ describe("the steps", () => {
   });
 
   it("open any step by name, and the first for anything else", () => {
-    expect(stepIndex("focus")).toBe(STEP_IDS.indexOf("focus"));
-    for (const bad of [null, undefined, "", "nope", "FOCUS", "__proto__"]) expect(stepIndex(bad as string), String(bad)).toBe(0);
+    expect(stepIndex("why")).toBe(STEP_IDS.indexOf("why"));
+    for (const bad of [null, undefined, "", "nope", "WHY", "focus", "__proto__"]) expect(stepIndex(bad as string), String(bad)).toBe(0);
   });
 
   it("send a provider sign-in back to steps that exist", () => {
@@ -85,10 +85,10 @@ describe("the answers", () => {
 
   it("keep only values that exist, in the screen's order, each once", () => {
     const a = parseAnswers(JSON.stringify({
-      focus: ["words", "nope", "language", "words"], heard: "tiktok", scroll: "2to4", daily: 15, pledged: true, language: "es", learn: "fr",
+      why: ["fun", "nope", "friends", "fun"], heard: "tiktok", scroll: "2to4", daily: 15, pledged: true, language: "es", learn: "fr",
       interests: ["history", "romance", "bogus"], heardOther: "x".repeat(500),
     }));
-    expect(a.focus).toEqual(["language", "words"]);
+    expect(a.why).toEqual(["friends", "fun"]);
     expect(a.heard).toBe("tiktok");
     expect(a.scroll).toBe("2to4");
     expect(a.daily).toBe(15);
@@ -105,9 +105,9 @@ describe("the answers", () => {
   });
 
   it("tick and untick, keeping the screen's order", () => {
-    expect(toggleIn(FOCUS_IDS, [], "words")).toEqual(["words"]);
-    expect(toggleIn(FOCUS_IDS, ["words"], "language")).toEqual(["language", "words"]);
-    expect(toggleIn(FOCUS_IDS, ["language", "words"], "language")).toEqual(["words"]);
+    expect(toggleIn(WHY_IDS, [], "fun")).toEqual(["fun"]);
+    expect(toggleIn(WHY_IDS, ["fun"], "friends")).toEqual(["friends", "fun"]);
+    expect(toggleIn(WHY_IDS, ["friends", "fun"], "friends")).toEqual(["fun"]);
   });
 
   it("clean the one typed answer to a single trimmed line of a sensible length", () => {
@@ -115,10 +115,11 @@ describe("the answers", () => {
     expect(cleanHeardOther("y".repeat(300))).toHaveLength(HEARD_OTHER_MAX);
   });
 
-  it("offer the channels, the focuses and the shelves the screens show", () => {
+  it("offer the channels, the reasons and the shelves the screens show", () => {
     expect(HEARD_IDS).toHaveLength(11);
     expect(HEARD_IDS[HEARD_IDS.length - 1]).toBe("other");
-    expect(FOCUS_IDS).toHaveLength(4);
+    expect(WHY_IDS).toHaveLength(8);
+    expect(WHY_IDS[WHY_IDS.length - 1]).toBe("other");
     expect(CATEGORIES).toHaveLength(9);
   });
 
@@ -141,14 +142,14 @@ describe("every screen renders", () => {
     const mk = (c: unknown, props: object) => renderToStaticMarkup(createElement(c as never, props as never));
     return {
       hello: mk(q.HelloScreen, nav),
-      focus: mk(q.FocusScreen, { ...nav, value: ["words"], onToggle: () => {} }),
+      why: mk(q.WhyScreen, { ...nav, learn: "es", value: ["work"], onToggle: () => {} }),
       heard: mk(q.HeardScreen, { ...nav, value: "other", other: "", onPick: () => {}, onOther: () => {} }),
       scroll: mk(q.ScrollScreen, { ...nav, value: "2to4", onPick: () => {} }),
       mirror: mk(q.MirrorScreen, { ...nav, scroll: "2to4" }),
       mirrorBlank: mk(q.MirrorScreen, { ...nav, scroll: null }),
       ...Object.fromEntries(SHOW_IDS.map((id) => [id, mk(t.TourScreen, { ...nav, id })])),
       daily: mk(p.DailyScreen, { ...nav, value: 15, onPick: () => {} }),
-      future: mk(p.FutureScreen, { ...nav, minutes: 15, focus: ["language", "words"] }),
+      future: mk(p.FutureScreen, { ...nav, minutes: 15, why: ["friends", "work"] }),
       pledge: mk(p.PledgeScreen, { ...nav, minutes: 15, done: false, onDone: () => {} }),
       tongues: mk(g.TonguesScreen, { ...nav, speak: "en", learn: "es" }),
       tonguesBlank: mk(g.TonguesScreen, { ...nav, speak: "en", learn: null }),
@@ -163,7 +164,8 @@ describe("every screen renders", () => {
     const h = await html();
     const text = (s: string) => s.replace(/<[^>]+>/g, "");
     expect(text(h.hello)).toContain("welcome to ReadFluent");
-    expect(text(h.focus)).toContain("What do you want to focus on?");
+    expect(text(h.why)).toContain("Why are you learning Spanish?");
+    for (const label of ["Talk with friends and family", "Travel", "My job or business", "School or exams", "Move or live abroad", "Books, films and music", "Just for fun", "Other"]) expect(text(h.why)).toContain(label);
     expect(text(h.heard)).toContain("How did you hear about ReadFluent?");
     expect(text(h.scroll)).toContain("How long do you spend scrolling each day?");
     expect(text(h.mirror)).toContain("46 whole days a year");

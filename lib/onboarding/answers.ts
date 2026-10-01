@@ -12,8 +12,9 @@ import { DEFAULT_LANGUAGE, isLanguage, type LanguageCode } from "./languages";
  * "not answered".
  */
 
-export const FOCUS_IDS = ["language", "classics", "words", "social"] as const;
-export type FocusId = (typeof FOCUS_IDS)[number];
+/** Why they are learning it: any number can be ticked. */
+export const WHY_IDS = ["friends", "travel", "work", "study", "abroad", "culture", "fun", "other"] as const;
+export type WhyId = (typeof WHY_IDS)[number];
 
 export const HEARD_IDS = [
   "tiktok", "instagram", "youtube", "friend", "appstore", "search", "x", "facebook", "reddit", "ad", "other",
@@ -24,7 +25,7 @@ export type HeardId = (typeof HEARD_IDS)[number];
 export const HEARD_OTHER_MAX = 80;
 
 export interface Answers {
-  focus: FocusId[];
+  why: WhyId[];
   heard: HeardId | null;
   heardOther: string;
   scroll: ScrollId | null;
@@ -42,7 +43,7 @@ export interface Answers {
 }
 
 export const NO_ANSWERS: Answers = {
-  focus: [], heard: null, heardOther: "", scroll: null, daily: null, pledged: false, language: DEFAULT_LANGUAGE, learn: null, level: null, placed: false, interests: [],
+  why: [], heard: null, heardOther: "", scroll: null, daily: null, pledged: false, language: DEFAULT_LANGUAGE, learn: null, level: null, placed: false, interests: [],
 };
 
 export const ANSWERS_KEY = storageKey("onboarding");
@@ -68,7 +69,7 @@ export function parseAnswers(raw: string | null | undefined): Answers {
   // The language they learn cannot be the one they speak; an answer saved that way is no answer.
   const learn = isLanguage(o.learn) && o.learn !== language ? o.learn : null;
   return {
-    focus: tidy(FOCUS_IDS, o.focus),
+    why: tidy(WHY_IDS, o.why),
     heard: oneOf(HEARD_IDS, o.heard),
     heardOther: typeof o.heardOther === "string" ? o.heardOther.slice(0, HEARD_OTHER_MAX) : "",
     scroll: oneOf(SCROLL_IDS, o.scroll),
