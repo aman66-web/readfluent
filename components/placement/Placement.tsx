@@ -105,9 +105,9 @@ export function Placement() {
             </div>
           )}
           <h1 className="mt-4 text-[23px] font-medium leading-[1.25] tracking-[-0.015em]">{item.prompt}</h1>
-          <div className="mt-5 flex flex-col gap-2.5" role="radiogroup" aria-label={item.prompt}>
+          <div className="mt-5 flex flex-col gap-2.5" role="group" aria-label={item.prompt}>
             {item.options.map((o, i) => (
-              <button key={o} type="button" role="radio" aria-checked={chosen === i} onClick={() => reply(i)} disabled={chosen !== null}
+              <button key={o} type="button" aria-pressed={chosen === i} onClick={() => reply(i)} disabled={chosen !== null}
                       className={`guide-card wel-in relative min-h-[54px] rounded-[16px] px-4 py-3 text-start text-[16px] font-semibold leading-snug ${chosen === i ? "guide-card-on" : ""}`}
                       style={{ animationDelay: `${i * 50}ms` }}>
                 {o}

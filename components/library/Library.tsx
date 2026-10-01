@@ -19,16 +19,15 @@ export function Library({ books }: { books: PreviewBook[] }) {
 
   return (
     <div>
-      <div role="tablist" aria-label={t("library.categories")} className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5 pb-1">
+      <div role="group" aria-label={t("library.categories")} className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5 pb-1">
         {[{ id: "all" as const }, ...CATEGORIES].map((c) => {
           const on = category === c.id;
           return (
             <button
               key={c.id}
-              role="tab"
-              aria-selected={on}
+              aria-pressed={on}
               onClick={() => setCategory(c.id)}
-              className={`h-10 shrink-0 rounded-full px-4 text-[14px] font-semibold transition-colors ${
+              className={`h-11 shrink-0 rounded-full px-4 text-[14px] font-semibold transition-colors ${
                 on ? "bg-foreground text-background" : "border border-border bg-surface text-muted"
               }`}
             >

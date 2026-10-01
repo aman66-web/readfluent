@@ -272,13 +272,13 @@ export function HeardScreen({ at, of, value, other, onPick, onOther, onBack, onC
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
         <GuideHead guide={guide} line={line} />
 
-        <div className="mt-8 flex flex-wrap gap-2.5" role="radiogroup" aria-label={line}>
+        <div className="mt-8 flex flex-wrap gap-2.5" role="group" aria-label={line}>
           {HEARD_IDS.map((id, i) => {
             const on = value === id;
             const { icon, label } = CHANNELS[id];
             const name = typeof label === "string" && label.includes(".") ? t(label as MessageId) : label;
             return (
-              <button key={id} type="button" role="radio" aria-checked={on}
+              <button key={id} type="button" aria-pressed={on}
                       onClick={() => { picked.current = id === "other" && !on; onPick(id); }}
                       className={`guide-card guide-chip wel-in relative flex h-12 items-center gap-2.5 rounded-full ps-3.5 pe-5 text-[15px] font-semibold ${on ? "guide-card-on" : ""}`}
                       style={{ animationDelay: `${800 + i * 45}ms` }}>

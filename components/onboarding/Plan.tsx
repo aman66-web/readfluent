@@ -43,11 +43,11 @@ export function TimeScreen({ at, of, learn, value, onPick, onBack, onContinue }:
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
         <GuideHead key={line} guide={guide} line={line} sub={t("time.sub", { app: APP_NAME })} mood="ready" />
-        <div className="mt-6 grid grid-cols-2 gap-3" role="radiogroup" aria-label={line}>
+        <div className="mt-6 grid grid-cols-2 gap-3" role="group" aria-label={line}>
           {DAILY_MINUTES.map((m, i) => {
             const on = value === m;
             return (
-              <button key={m} type="button" role="radio" aria-checked={on} onClick={() => onPick(m)}
+              <button key={m} type="button" aria-pressed={on} onClick={() => onPick(m)}
                       className={`guide-card wel-in relative flex flex-col items-start gap-3 rounded-[22px] p-4 text-start ${on ? "guide-card-on" : ""}`}
                       style={{ animationDelay: `${850 + i * 80}ms` }}>
                 <span className="flex items-end gap-1.5" dir="ltr">

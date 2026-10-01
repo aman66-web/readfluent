@@ -71,11 +71,11 @@ export function LevelScreen({ at, of, learn, value, placed, onPick, onTest, onBa
         <div className="mt-5">
           <Option n={1} kicker={t("level.opt1")} title={t("level.opt1Title")} sub={t("level.opt1Sub")} delay={800} />
         </div>
-        <div className="mt-3 flex flex-col gap-2" role="radiogroup" aria-label={t("level.opt1Title")}>
+        <div className="mt-3 flex flex-col gap-2" role="group" aria-label={t("level.opt1Title")}>
           {CEFR.map((id, i) => {
             const on = value === id;
             return (
-              <button key={id} type="button" role="radio" aria-checked={on} onClick={() => onPick(id)}
+              <button key={id} type="button" aria-pressed={on} onClick={() => onPick(id)}
                       className={`guide-card wel-in relative flex min-h-[58px] items-center gap-3.5 rounded-[18px] px-4 py-2.5 text-start ${on ? "guide-card-on" : ""}`}
                       style={{ animationDelay: `${860 + i * 55}ms` }}>
                 <span className="tabular w-8 shrink-0 text-[15px] font-extrabold text-[var(--ob-deep)]">{id}</span>
