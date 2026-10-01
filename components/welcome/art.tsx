@@ -221,6 +221,26 @@ export const ART: Record<string, () => ReactNode> = {
     <path d="M-72 40 q9 -9 18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0" fill="none" stroke="#7FE6F6" strokeWidth="4" strokeLinecap="round" opacity=".7" />
   ),
 
+  /** A phone, for the scrolling this app would replace. */
+  phone: () => (
+    <g>
+      <rect x="-30" y="-56" width="60" height="112" rx="12" fill="#10222B" stroke="#CFFAFE" strokeWidth="3" />
+      <rect x="-24" y="-48" width="48" height="90" rx="6" fill="url(#rf-cy)" opacity=".9" />
+      <g stroke="#fff" strokeWidth="4" strokeLinecap="round" opacity=".85"><path d="M-14 -30 h28" /><path d="M-14 -18 h20" /><path d="M-14 -6 h24" /></g>
+      <circle cy="49" r="3.4" fill="#CFFAFE" opacity=".8" />
+    </g>
+  ),
+
+  /** The dictionary card that opens when a word is tapped. */
+  wordcard: () => (
+    <g>
+      <rect x="-56" y="-34" width="112" height="70" rx="13" fill="var(--paper)" />
+      <text x="-42" y="-8" fontSize="24" fontWeight="700" fontFamily="var(--font-display), Georgia, serif" fill="#0E7490">fortune</text>
+      <text x="-42" y="8" fontSize="9" letterSpacing="1" fill={PAGE_INK} opacity=".55" fontFamily="var(--font-jakarta), sans-serif">NOUN · /ˈfɔː.tʃuːn/</text>
+      {lines(-42, 20, [68, 42], 9, 0.3)}
+    </g>
+  ),
+
   /** A framed photograph. */
   frame: () => (
     <g>

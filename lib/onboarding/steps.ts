@@ -1,0 +1,40 @@
+/**
+ * The first run, as pure rules: which steps there are and in what order.
+ *
+ * The welcome (a wall of book covers) → the guide's hello → what you want from
+ * the app → where you heard of it → a mirror (how long you scroll, and what a
+ * little of that would be as reading) → a five-screen tour → a daily time and
+ * where it takes you → a promise → your language → sign in → what you are
+ * curious about → the library being set up. Every step after the welcome can be
+ * skipped, and every one counts on the progress bar.
+ *
+ * Adapted from the first run of the app this one's engineering came from, with
+ * its screens and its copy rewritten for reading.
+ */
+export const STEP_IDS = [
+  "intro", "hello", "focus", "heard", "scroll", "mirror",
+  "journey", "levels", "words", "remember", "connect",
+  "daily", "future", "pledge", "language", "account", "interests", "ready",
+] as const;
+export type StepId = (typeof STEP_IDS)[number];
+
+/** The five tour screens, in order. */
+export const SHOW_IDS = ["journey", "levels", "words", "remember", "connect"] as const;
+export type ShowId = (typeof SHOW_IDS)[number];
+
+export const isShowStep = (step: string): step is ShowId => (SHOW_IDS as readonly string[]).includes(step);
+
+/** The step `?step=` names, as an index into the list; the first step for anything else. */
+export function stepIndex(param: string | null | undefined): number {
+  const i = (STEP_IDS as readonly string[]).indexOf(param ?? "");
+  return i >= 0 ? i : 0;
+}
+
+/** Where the run goes when it ends: the library, which is the front door. */
+export const AFTER_ONBOARDING = "/";
+
+/** Where a provider sign-in comes back to: the step after sign-in. Must name a step that exists. */
+export const AFTER_SIGN_IN = "/welcome?step=interests";
+
+/** Where a failed provider sign-in comes back to: the sign-in step itself. */
+export const SIGN_IN_STEP = "/welcome?step=account";

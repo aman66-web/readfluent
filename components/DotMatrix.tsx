@@ -117,7 +117,7 @@ export function DotNumber({
   const chars = String(value).toUpperCase().split("").filter((c) => c in GLYPHS);
   if (chars.length === 0) return null;
 
-  const r = cell * 0.37;
+  const r = cell * 0.4;
   const lit: { x: number; y: number }[] = [];
   const dim: { x: number; y: number }[] = [];
 

@@ -6,7 +6,8 @@ import { useId } from "react";
  * photos are generated, one pool of 200 per book (SPEC.md §7), and arrive with the
  * content pipeline (M2). The caption says so, so nobody mistakes it for the product.
  */
-export function ScenePhoto({ n, hue, caption, className = "" }: { n: number; hue: number; caption: string; className?: string }) {
+/** `pill` is the "Photo placeholder" caption; off where the picture is small (the first-run tour's phone). */
+export function ScenePhoto({ n, hue, caption, className = "", pill = true }: { n: number; hue: number; caption: string; className?: string; pill?: boolean }) {
   const id = useId();
   // A small deterministic shuffle: no Math.random, so server and client agree.
   const r = (k: number) => ((Math.sin(n * 12.9898 + k * 78.233) * 43758.5453) % 1 + 1) % 1;
@@ -33,9 +34,11 @@ export function ScenePhoto({ n, hue, caption, className = "" }: { n: number; hue
         <path d={ridge(235, 50, 20)} fill={`hsl(${h1} 34% 46%)`} opacity="0.85" />
         <path d={ridge(272, 36, 30)} fill={`hsl(${h1} 30% 28%)`} />
       </svg>
-      <span className="absolute bottom-2 left-2 rounded-full bg-black/45 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-sm">
-        Photo placeholder · {caption}
-      </span>
+      {pill && (
+        <span className="absolute bottom-2 left-2 rounded-full bg-black/45 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-sm">
+          Photo placeholder · {caption}
+        </span>
+      )}
     </div>
   );
 }

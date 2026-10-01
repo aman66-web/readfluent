@@ -1,0 +1,334 @@
+"use client";
+
+import { useEffect, useRef, type ReactNode } from "react";
+import { DotNumber } from "@/components/DotMatrix";
+import { ART, ArtDefs } from "@/components/welcome/art";
+import { APP_NAME } from "@/lib/brand";
+import { FOCUS_IDS, HEARD_IDS, HEARD_OTHER_MAX, type FocusId, type HeardId } from "@/lib/onboarding/answers";
+import { SCROLL_HOURS, SCROLL_IDS, SWAP_MINUTES, readingTime, scrollDaysAYear, type ScrollId } from "@/lib/onboarding/firstrun";
+import { useCountUp } from "./count";
+import { GuideFrame, GuideHead, Orb, Said, useGuide } from "./Guide";
+import { TickIcon } from "./ui";
+
+/** The props every screen gets from the run: where it is, and the two ways to move. */
+interface Nav { at: number; of: number; onBack: () => void; onContinue: () => void }
+
+/* ── hello ───────────────────────────────────────────────────────────────── */
+
+/**
+ * The screen after "Get started": the guide says hello — the sphere of lamps
+ * large in the middle of the white, and what it is saying set large under it.
+ */
+export function HelloScreen({ at, of, onBack, onContinue }: Nav) {
+  const line = `Hi, welcome to ${APP_NAME}.`;
+  const sub = "A few minutes a day with real books, and a language starts to feel like yours.";
+  const guide = useGuide(`${line} ${sub}`);
+  const lineMs = Math.round(guide.perWordMs * line.split(/\s+/).length);
+  return (
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
+      <div className="relative flex min-h-0 flex-1 flex-col items-center justify-center pb-6 text-center">
+        <Orb talking={guide.talking} className="w-[min(62vw,260px)]" />
+        <p className="ed-serif ob-muted mt-8 text-[15px] italic">Your guide</p>
+        <Said line={line} durationMs={lineMs} className="mt-2 max-w-[20rem] text-[34px] font-light leading-[1.15] tracking-[-0.025em]" />
+        <p className="wel-in ob-muted mt-3 max-w-[19rem] text-[17px] leading-snug" style={{ animationDelay: `${lineMs}ms` }}>{sub}</p>
+      </div>
+    </GuideFrame>
+  );
+}
+
+/* ── focus ───────────────────────────────────────────────────────────────── */
+
+const FOCUS_LABELS: Record<FocusId, string> = {
+  language: "Learn a language",
+  classics: "Read real classics",
+  words: "Build my vocabulary",
+  social: "Replace social media",
+};
+
+/**
+ * "What do you want to focus on?" — the guide asks, small beside the question, and
+ * four cards answer. Each card carries a small picture, so the answers look like the
+ * reading they lead to. Any number can be ticked, and a second tap unticks; Continue
+ * waits for at least one.
+ */
+export function FocusScreen({ at, of, value, onToggle, onBack, onContinue }: Nav & {
+  value: readonly FocusId[];
+  onToggle: (f: FocusId) => void;
+}) {
+  const line = "What do you want to focus on?";
+  const guide = useGuide(line);
+  return (
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value.length > 0}>
+      {/* The pieces' gradients, defined once for the four pictures. */}
+      <svg width={0} height={0} className="absolute" aria-hidden><defs><ArtDefs /></defs></svg>
+      <div className="focus-scroll relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
+        <GuideHead guide={guide} line={line} sub="Pick as many as you like." />
+
+        <div className="mt-6 grid grid-cols-2 gap-3" role="group" aria-label={line}>
+          {FOCUS_IDS.map((id, i) => {
+            const on = value.includes(id);
+            return (
+              <button key={id} type="button" role="checkbox" aria-checked={on} onClick={() => onToggle(id)}
+                      className={`guide-card wel-in relative flex flex-col overflow-hidden rounded-[22px] text-start ${on ? "guide-card-on" : ""}`}
+                      style={{ animationDelay: `${850 + i * 90}ms` }}>
+                <span className="block aspect-[16/11] w-full" style={{ background: PICTURES[id].bg, ["--ink" as string]: "#EAFBFF", ["--paper" as string]: "#F1FAFC" }}>
+                  <svg viewBox="0 0 200 138" className="block size-full">{PICTURES[id].pieces}</svg>
+                </span>
+                <span className="flex min-h-[58px] items-center gap-2 px-3.5 py-2.5 text-[14.5px] font-semibold leading-[1.2]">
+                  <span className="flex-1">{FOCUS_LABELS[id]}</span>
+                  <span className={`guide-tick grid size-5 shrink-0 place-items-center rounded-full ${on ? "guide-tick-on" : ""}`} aria-hidden>{TickIcon}</span>
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </GuideFrame>
+  );
+}
+
+/** One of the art pieces, placed — inside a group of its own motion, if it has one. */
+const piece = (id: string, x: number, y: number, s = 1, r = 0, fx = ""): ReactNode => {
+  const draw = ART[id];
+  if (!draw) return null;
+  const placed = <g transform={`translate(${x} ${y}) rotate(${r}) scale(${s})`}>{draw()}</g>;
+  return fx ? <g key={`${id}${x}${y}`} className={fx}>{placed}</g> : <g key={`${id}${x}${y}`}>{placed}</g>;
+};
+
+/** Specks of light drifting up through a card. */
+function Motes({ n = 7 }: { n?: number }) {
+  return (
+    <g aria-hidden>
+      {Array.from({ length: n }, (_, i) => (
+        <circle key={i} className="fx-mote" cx={24 + ((i * 53) % 152)} cy={130} r={1.1 + (i % 3) * 0.5} fill="#67E8F9"
+                style={{ animationDelay: `${(i * 0.73) % 4.4}s`, animationDuration: `${4.2 + (i % 4) * 0.7}s` }} />
+      ))}
+    </g>
+  );
+}
+
+/** Four-pointed glints that come and go. */
+function Glints({ at }: { at: readonly (readonly [number, number, number])[] }) {
+  return (
+    <g aria-hidden>
+      {at.map(([x, y, r], i) => (
+        <path key={i} className="fx-glint" d={`M ${x} ${y - r} Q ${x} ${y} ${x + r} ${y} Q ${x} ${y} ${x} ${y + r} Q ${x} ${y} ${x - r} ${y} Q ${x} ${y} ${x} ${y - r} Z`}
+              fill="#E6FBFF" style={{ animationDelay: `${i * 0.55}s` }} />
+      ))}
+    </g>
+  );
+}
+
+/** Words rising off the card, as ideas do. */
+function Rising({ glyphs }: { glyphs: readonly string[] }) {
+  return (
+    <g aria-hidden className="ed-serif">
+      {glyphs.map((g, i) => (
+        <text key={i} className="fx-rise" x={62 + i * 24} y={40} textAnchor="middle" fontSize={11 + (i % 2) * 3} fill="#A5F3FC" style={{ animationDelay: `${i * 0.8}s` }}>{g}</text>
+      ))}
+    </g>
+  );
+}
+
+/* The four pictures: a globe, an open book, a word card, a phone. */
+const PICTURES: Record<FocusId, { bg: string; pieces: ReactNode[] }> = {
+  language: { bg: "linear-gradient(160deg, #0E7490, #082F3E)", pieces: [
+    piece("glowCyan", 100, 69, 0.5), <Motes key="m" n={5} />, piece("orbit", 100, 70, 0.7, 0, "fx-breathe"),
+    piece("globe", 100, 70, 0.62, 0, "fx-float"), <Glints key="g" at={[[40, 30, 4], [162, 40, 3.2], [150, 110, 3.6]]} />,
+  ] },
+  classics: { bg: "linear-gradient(160deg, #1B2250, #0D1030)", pieces: [
+    piece("glowCyan", 100, 69, 0.5), <Motes key="m" n={6} />, piece("book", 100, 72, 0.66, 0, "fx-float"),
+    piece("sparkles", 100, 70, 0.7), <Glints key="g" at={[[36, 28, 3.6], [168, 34, 3], [30, 110, 2.8]]} />,
+  ] },
+  words: { bg: "linear-gradient(160deg, #0B3B4A, #061A22)", pieces: [
+    piece("glowPale", 100, 69, 0.45), <Motes key="m" n={5} />, piece("wordcard", 100, 80, 0.74, -4, "fx-rock"),
+    <Rising key="r" glyphs={["a", "é", "?"]} />,
+  ] },
+  social: { bg: "linear-gradient(160deg, #164E63, #0A1E28)", pieces: [
+    piece("glowCyan", 100, 69, 0.5), <Motes key="m" />, piece("phone", 100, 70, 0.6, -8, "fx-float"),
+    piece("sparkles", 100, 72, 0.66), <Glints key="g" at={[[40, 30, 4], [162, 40, 3.2], [150, 110, 3.6]]} />,
+  ] },
+};
+
+/* ── heard ───────────────────────────────────────────────────────────────── */
+
+/**
+ * "How did you hear about ReadFluent?" — the guide's second question. The answers
+ * are chips that wrap, so all eleven fit on one screen of a small phone and the
+ * question never scrolls away from its answers. One is picked; Continue waits for
+ * it. "Somewhere else" opens a box to say where, which can be left empty.
+ */
+export function HeardScreen({ at, of, value, other, onPick, onOther, onBack, onContinue }: Nav & {
+  value: HeardId | null;
+  /** What was typed for "somewhere else". */
+  other: string;
+  onPick: (h: HeardId) => void;
+  onOther: (text: string) => void;
+}) {
+  const line = `How did you hear about ${APP_NAME}?`;
+  const guide = useGuide(line);
+  const box = useRef<HTMLInputElement>(null);
+  const asking = value === "other";
+  // Straight to the box once "somewhere else" is picked. Not on arriving with it
+  // already picked (Back from the next screen): a keyboard nobody asked for.
+  const picked = useRef(false);
+  useEffect(() => {
+    if (asking && picked.current) box.current?.focus({ preventScroll: true });
+    picked.current = false;
+  }, [asking]);
+  return (
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
+      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
+        <GuideHead guide={guide} line={line} />
+
+        <div className="mt-8 flex flex-wrap gap-2.5" role="radiogroup" aria-label={line}>
+          {HEARD_IDS.map((id, i) => {
+            const on = value === id;
+            const { icon, label } = CHANNELS[id];
+            return (
+              <button key={id} type="button" role="radio" aria-checked={on}
+                      onClick={() => { picked.current = id === "other" && !on; onPick(id); }}
+                      className={`guide-card guide-chip wel-in relative flex h-12 items-center gap-2.5 rounded-full ps-3.5 pe-5 text-[15px] font-semibold ${on ? "guide-card-on" : ""}`}
+                      style={{ animationDelay: `${800 + i * 45}ms` }}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="guide-chip-icon size-[19px] shrink-0" aria-hidden>{icon}</svg>
+                {label}
+              </button>
+            );
+          })}
+        </div>
+
+        {asking && (
+          <input
+            ref={box}
+            type="text"
+            value={other}
+            onChange={(e) => onOther(e.target.value)}
+            onKeyDown={(e) => { if (e.key === "Enter") e.currentTarget.blur(); }}
+            maxLength={HEARD_OTHER_MAX}
+            placeholder="Where?"
+            aria-label="Where did you hear about it?"
+            enterKeyHint="done"
+            autoComplete="off"
+            /* 16px so iOS does not zoom the field on focus. */
+            className="heard-box mt-4 h-[52px] w-full shrink-0 rounded-full bg-[var(--ob-card)] px-5 text-[16px] font-semibold outline-none ring-1 ring-inset ring-[var(--ob-line)] placeholder:font-normal placeholder:text-[var(--ob-faint)] focus:ring-2 focus:ring-[var(--ob-teal)]"
+          />
+        )}
+      </div>
+    </GuideFrame>
+  );
+}
+
+/* Each channel: a small plain glyph (not the company's logo) and its name. */
+const CHANNELS: Record<HeardId, { icon: ReactNode; label: string }> = {
+  tiktok: { label: "TikTok", icon: <><path d="M9 18.5V6l10-2v12" /><circle cx="6.5" cy="18.5" r="2.5" /><circle cx="16.5" cy="16" r="2.5" /></> },
+  instagram: { label: "Instagram", icon: <><rect x="4" y="4" width="16" height="16" rx="4.5" /><circle cx="12" cy="12" r="3.6" /><circle cx="16.6" cy="7.4" r=".6" fill="currentColor" /></> },
+  youtube: { label: "YouTube", icon: <><rect x="3" y="5.5" width="18" height="13" rx="3.5" /><path d="M10.5 9.5v5l4.2-2.5z" fill="currentColor" /></> },
+  friend: { label: "Friend or family", icon: <><circle cx="9" cy="8.5" r="3" /><path d="M3.5 19a5.5 5.5 0 0 1 11 0" /><circle cx="16.5" cy="9.5" r="2.4" /><path d="M16 14.2a4.5 4.5 0 0 1 4.5 4.8" /></> },
+  appstore: { label: "App Store", icon: <><rect x="4" y="4" width="6.5" height="6.5" rx="1.8" /><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.8" /><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.8" /><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.8" /></> },
+  search: { label: "Google search", icon: <><circle cx="10.5" cy="10.5" r="6" /><path d="M15 15l5 5" /></> },
+  x: { label: "X", icon: <path d="M5 5l14 14M19 5L5 19" /> },
+  facebook: { label: "Facebook", icon: <><path d="M7.5 11H4.5v9h3z" /><path d="M7.5 11l3.8-6.8c1.6 0 2.6 1.2 2.1 2.9L12.6 10H18a2 2 0 0 1 2 2.3l-1.1 5.9A2.2 2.2 0 0 1 16.7 20H7.5" /></> },
+  reddit: { label: "Reddit", icon: <path d="M5 5.5h14a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2h-8l-4.5 3.5V17H5a2 2 0 0 1-2-2V7.5a2 2 0 0 1 2-2z" /> },
+  ad: { label: "An ad", icon: <><path d="M4 10v4h3l7 4V6l-7 4z" /><path d="M17.5 9.5a3.5 3.5 0 0 1 0 5" /></> },
+  other: { label: "Somewhere else", icon: <><circle cx="6" cy="12" r="1.3" fill="currentColor" /><circle cx="12" cy="12" r="1.3" fill="currentColor" /><circle cx="18" cy="12" r="1.3" fill="currentColor" /></> },
+};
+
+/* ── scroll and mirror ───────────────────────────────────────────────────── */
+
+const SCROLL_LABELS: Record<ScrollId, string> = {
+  under1: "Under an hour", "1to2": "1–2 hours", "2to4": "2–4 hours", "4plus": "4 hours or more",
+};
+
+/** "How long do you spend scrolling each day?" — four answers, one picked. */
+export function ScrollScreen({ at, of, value, onPick, onBack, onContinue }: Nav & {
+  value: ScrollId | null;
+  onPick: (s: ScrollId) => void;
+}) {
+  const line = "How long do you spend scrolling each day?";
+  const guide = useGuide(line);
+  return (
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
+      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
+        <GuideHead guide={guide} line={line} sub="Be honest. Nobody's checking." />
+        <div className="mt-7 flex flex-col gap-2.5" role="radiogroup" aria-label={line}>
+          {SCROLL_IDS.map((id, i) => {
+            const on = value === id;
+            return (
+              <button key={id} type="button" role="radio" aria-checked={on} onClick={() => onPick(id)}
+                      className={`guide-card wel-in relative flex h-[62px] items-center gap-4 rounded-[20px] px-5 text-start ${on ? "guide-card-on" : ""}`}
+                      style={{ animationDelay: `${850 + i * 80}ms` }}>
+                <span className="flex-1 text-[16px] font-semibold">{SCROLL_LABELS[id]}</span>
+                {/* How much of the day it is: a meter that grows with the answer. */}
+                <span className="guide-track relative h-1.5 w-20 shrink-0 overflow-hidden rounded-full" aria-hidden>
+                  <span className="scroll-fill absolute inset-y-0 start-0 rounded-full"
+                        style={{ width: `${(SCROLL_HOURS[id] / SCROLL_HOURS["4plus"]) * 100}%`, animationDelay: `${1000 + i * 80}ms` }} />
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </GuideFrame>
+  );
+}
+
+/**
+ * The mirror: what their scrolling adds up to over a year, as a field of lamps, and
+ * what a sliver of it would be as reading instead. Every number is arithmetic on
+ * what they said (lib/onboarding/firstrun.ts).
+ */
+export function MirrorScreen({ at, of, scroll, onBack, onContinue }: Nav & { scroll: ScrollId | null }) {
+  const days = scroll ? scrollDaysAYear(scroll) : 0;
+  const swap = `Swap just ${SWAP_MINUTES} minutes a day for ${APP_NAME}…`;
+  const line = days ? `That's ${days} whole days a year, scrolling.` : swap;
+  const guide = useGuide(line);
+  const shown = useCountUp(days, 1500, 900);
+  return (
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
+      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
+        <GuideHead guide={guide} line={line} />
+
+        {days > 0 && (
+          <div className="mt-7">
+            <div className="flex items-end gap-3">
+              <DotNumber value={shown} cell={11} color="#0E7490" glow={false} field fieldColor="rgba(14,116,144,.08)" label={String(days)} />
+              <p className="ob-muted pb-1 text-[14px] font-semibold leading-tight">days a year<br />spent scrolling</p>
+            </div>
+            <Year lit={days} />
+          </div>
+        )}
+
+        {/* The swap, a beat after the year has filled. */}
+        <div className="wel-in guide-card relative mt-6 rounded-[22px] p-5" style={{ animationDelay: days ? "2700ms" : "900ms" }}>
+          <p className="text-[17px] font-semibold leading-snug">{swap}</p>
+          <p className="ob-muted mt-2 text-[15px] leading-snug">…and that&apos;s {readingTime(365 * SWAP_MINUTES)} a year spent reading real books.</p>
+        </div>
+      </div>
+    </GuideFrame>
+  );
+}
+
+/**
+ * A year of days as a field of lamps, one for every day. The first `lit` light one
+ * after another, all of them inside about a second and a half.
+ */
+function Year({ lit }: { lit: number }) {
+  const cols = 25;
+  const rows = Math.ceil(365 / cols);
+  const pitch = 10;
+  const r = 3.3;
+  const pace = 1500 / Math.max(1, lit);
+  return (
+    <svg viewBox={`0 0 ${cols * pitch} ${rows * pitch}`} className="mt-5 block w-full" aria-hidden>
+      {Array.from({ length: 365 }, (_, i) => {
+        const x = (i % cols) * pitch + pitch / 2;
+        const y = Math.floor(i / cols) * pitch + pitch / 2;
+        const on = i < lit;
+        return (
+          <circle key={i} cx={x} cy={y} r={r} className={on ? "year-lit" : undefined}
+                  fill={on ? "#0891B2" : "rgba(11,27,34,.1)"} style={on ? { animationDelay: `${900 + i * pace}ms` } : undefined} />
+        );
+      })}
+    </svg>
+  );
+}

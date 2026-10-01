@@ -21,7 +21,7 @@ import { APP_NAME, BRAND, TAGLINE } from "@/lib/brand";
  * adapted from; the covers, colours and copy are ReadFluent's own. Every title is
  * a public-domain classic, so the real name goes on the real cover.
  */
-export function FirstScreen({ onStart }: { onStart: () => void }) {
+export function FirstScreen({ onStart, onSignIn }: { onStart: () => void; onSignIn?: () => void }) {
   // "ReadFluent" → READ over FLUENT, one word per line: a 5x7 grid is about six
   // characters across on a phone, so two words side by side do not fit.
   const [top, bottom] = APP_NAME.split(/(?=[A-Z])/);
@@ -29,16 +29,18 @@ export function FirstScreen({ onStart }: { onStart: () => void }) {
   const [first, ...rest] = TAGLINE.split(/(?<=\.)\s+/);
 
   return (
-    <main className="first relative flex h-[100dvh] flex-col overflow-clip text-white">
+    <main className="ob first relative flex h-[100dvh] flex-col overflow-clip">
       <div className="first-glow" aria-hidden />
       <Wall />
       <div className="relative z-[1] flex shrink-0 flex-col items-center px-7 pb-[calc(env(safe-area-inset-bottom)+1rem)] text-center">
         <h1 className="first-name flex flex-col items-center gap-[8px]" aria-label={APP_NAME}>
-          <DotNumber value={top} cell={8} color={BRAND.light} field fieldColor="rgba(255,255,255,.07)" stagger label="" />
-          {bottom && <DotNumber value={bottom} cell={8} color={BRAND.bright} field fieldColor="rgba(255,255,255,.07)" stagger label="" />}
+          {/* On white the lamps are the deeper cyans (the bright one is too faint on
+              a light ground) and the unlit field is a pale wash of the same blue. */}
+          <DotNumber value={top} cell={8} color="#0B5F78" glow={false} field fieldColor="rgba(14,116,144,.06)" stagger label="" />
+          {bottom && <DotNumber value={bottom} cell={8} color="#0891B2" glow={false} field fieldColor="rgba(14,116,144,.06)" stagger label="" />}
         </h1>
-        <p className="first-tagline ed-serif wel-in mt-5 text-[23px] italic leading-snug text-white/85" style={{ animationDelay: "700ms" }}>
-          {first}{rest.length > 0 && <> <span style={{ color: BRAND.light }}>{rest.join(" ")}</span></>}
+        <p className="first-tagline ed-serif wel-in mt-5 text-[23px] italic leading-snug" style={{ animationDelay: "700ms" }}>
+          {first}{rest.length > 0 && <> <span style={{ color: BRAND.deep }}>{rest.join(" ")}</span></>}
         </p>
         <button
           type="button"
@@ -53,7 +55,14 @@ export function FirstScreen({ onStart }: { onStart: () => void }) {
             </svg>
           </span>
         </button>
-        <p className="wel-in mx-auto mt-4 max-w-[19rem] text-[12px] leading-relaxed text-white/45" style={{ animationDelay: "1100ms" }}>
+        {onSignIn && (
+          <button type="button" onClick={onSignIn}
+                  className="first-alt wel-in mt-1 flex h-12 w-full items-center justify-center text-[15px] font-semibold transition-opacity active:opacity-60"
+                  style={{ animationDelay: "1000ms", color: BRAND.deep }}>
+            I already have an account
+          </button>
+        )}
+        <p className="wel-in ob-faint mx-auto mt-4 max-w-[19rem] text-[12px] leading-relaxed" style={{ animationDelay: "1100ms" }}>
           By continuing, you agree to our{" "}
           <Link href="/privacy" className="first-link">Privacy Policy</Link>.
         </p>
