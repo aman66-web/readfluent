@@ -130,7 +130,7 @@ export function TonguesScreen({ at, of, speak, learn, onBack, onContinue }: Nav 
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={learn !== null && learn !== speak}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-3 pt-5">
-        <GuideHead key={line} guide={guide} line={line} sub={t("tongues.sub")} />
+        <GuideHead key={line} guide={guide} line={line} sub={t("tongues.sub")} mood="ready" />
         <div className="mt-6">
           <LanguagePicker speak={speak} learn={learn} delay={700} />
         </div>

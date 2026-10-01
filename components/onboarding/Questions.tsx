@@ -56,6 +56,54 @@ export function QuickScreen(nav: Nav) {
   return <LexSays {...nav} mood="ready" line={t("quick.bubble", { n: QUESTION_STEPS.length })} sub={t("quick.sub")} />;
 }
 
+/* ── go ─────────────────────────────────────────────────────────────────── */
+
+/** How long Lex celebrates before the run moves on by itself. */
+const GO_MS = 2600;
+
+/** Confetti: where each piece flies to (px from Lex), how it turns, its colour and when it leaves. */
+const CONFETTI = [
+  { x: -120, y: -150, r: -200, c: "var(--ob-cyan)", d: 480 }, { x: -70, y: -190, r: 140, c: "var(--ob-deep)", d: 520 },
+  { x: -20, y: -210, r: -90, c: "var(--ob-cyan2)", d: 460 }, { x: 40, y: -200, r: 220, c: "var(--ob-teal)", d: 540 },
+  { x: 95, y: -170, r: -160, c: "var(--ob-cyan)", d: 500 }, { x: 135, y: -120, r: 120, c: "var(--ob-deep)", d: 560 },
+  { x: -150, y: -80, r: 180, c: "var(--ob-teal)", d: 600 }, { x: 150, y: -70, r: -240, c: "var(--ob-cyan2)", d: 620 },
+  { x: -95, y: -120, r: 260, c: "var(--ob-cyan2)", d: 580 }, { x: 70, y: -140, r: -120, c: "var(--ob-cyan)", d: 640 },
+  { x: -45, y: -150, r: 100, c: "var(--ob-teal)", d: 690 }, { x: 10, y: -170, r: -300, c: "var(--ob-deep)", d: 660 },
+  { x: 110, y: -40, r: 200, c: "var(--ob-cyan)", d: 720 }, { x: -125, y: -30, r: -180, c: "var(--ob-deep)", d: 700 },
+] as const;
+
+/**
+ * After "just N quick questions" Lex celebrates: a jump and a spin, confetti, "Let's go!" in a
+ * bubble. Then the run moves on by itself to the first question; there is nothing to press.
+ */
+export function GoScreen({ at, of, onBack, onContinue }: Nav) {
+  const t = useT();
+  const next = useRef(onContinue);
+  useEffect(() => { next.current = onContinue; });
+  useEffect(() => {
+    const id = window.setTimeout(() => next.current(), GO_MS);
+    return () => window.clearTimeout(id);
+  }, []);
+  return (
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} progress={false} showContinue={false}>
+      <div className="relative flex min-h-0 flex-1 flex-col items-center justify-center pb-10 text-center" aria-live="polite">
+        <p className="go-pop relative rounded-[24px] border-2 border-[var(--ob-line)] bg-white px-7 py-3 text-[28px] font-semibold tracking-[-0.02em] shadow-[0_8px_24px_-16px_rgba(8,47,62,.4)]">
+          {t("go.bubble")}
+          <span className="absolute -bottom-[10px] start-1/2 size-[18px] -translate-x-1/2 rotate-45 border-b-2 border-e-2 border-[var(--ob-line)] bg-white rtl:translate-x-1/2" aria-hidden />
+        </p>
+        <div className="relative mt-4 w-[min(62vw,250px)]">
+          <div className="pointer-events-none absolute start-1/2 top-[45%]" aria-hidden>
+            {CONFETTI.map((c, n) => (
+              <span key={n} className="go-bit" style={{ "--x": `${c.x}px`, "--y": `${c.y}px`, "--r": `${c.r}deg`, background: c.c, animationDelay: `${c.d}ms` } as React.CSSProperties} />
+            ))}
+          </div>
+          <div className="go-lex"><Lex mood="cheer" className="w-full" /></div>
+        </div>
+      </div>
+    </GuideFrame>
+  );
+}
+
 /* ── why ────────────────────────────────────────────────────────────────── */
 
 /**
@@ -80,7 +128,7 @@ export function WhyScreen({ at, of, learn, value, onToggle, onBack, onContinue }
       {/* The pieces' gradients, defined once for the pictures. */}
       <svg width={0} height={0} className="absolute" aria-hidden><defs><ArtDefs /></defs></svg>
       <div className="focus-scroll relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead key={line} guide={guide} line={line} sub={t("why.sub")} />
+        <GuideHead key={line} guide={guide} line={line} sub={t("why.sub")} mood="ready" />
 
         <div className="mt-5 grid grid-cols-2 gap-2.5" role="group" aria-label={line}>
           {WHY_IDS.map((id, i) => {

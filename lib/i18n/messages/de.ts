@@ -41,6 +41,7 @@ const de: Catalog = {
   "hello.bubble": "Hallo! Ich bin Lex. Willkommen bei {app}!",
   "quick.bubble": "Nur {n} kurze Fragen, dann kannst du mit dem Lesen loslegen!",
   "quick.sub": "Wir richten dein Niveau und deine Bücher ein, damit die App zu dir passt, und halten es so kurz wie möglich.",
+  "go.bubble": "Los geht's!",
   "hello.sub":"Ein paar Minuten am Tag mit echten Büchern, und eine Sprache fühlt sich bald wie deine an.",
 
   /* ── focus ── */

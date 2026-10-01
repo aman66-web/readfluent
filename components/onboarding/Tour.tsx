@@ -10,6 +10,7 @@ import type { MessageId } from "@/lib/i18n/en";
 import { PREVIEW_BOOKS, pagesOf } from "@/lib/preview/catalog";
 import type { ShowId } from "@/lib/onboarding/steps";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
+import type { Mood } from "@/components/mascot/Lex";
 
 /**
  * The guide's tour: five screens, each one line from the guide and one picture of
@@ -22,6 +23,9 @@ import { GuideFrame, GuideHead, useGuide } from "./Guide";
  *   remember   the words you met come back just before you would forget
  *   connect    the books everyone talks about
  */
+/** How Lex looks on each tour screen: reading for the books and words, eager for the rest, cheering at the last. */
+const TOUR_MOOD: Record<ShowId, Mood> = { journey: "reading", levels: "ready", words: "reading", remember: "ready", connect: "cheer" };
+
 export function TourScreen({ id, at, of, learn, onBack, onContinue }: {
   id: ShowId; at: number; of: number; learn: LanguageCode | null; onBack: () => void; onContinue: () => void;
 }) {
@@ -33,7 +37,7 @@ export function TourScreen({ id, at, of, learn, onBack, onContinue }: {
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead guide={guide} line={line} sub={id === "journey" ? t("tour.booksSub", { language }) : undefined} />
+        <GuideHead guide={guide} line={line} mood={TOUR_MOOD[id]} sub={id === "journey" ? t("tour.booksSub", { language }) : undefined} />
         <div className="mt-6 flex min-h-0 flex-1 flex-col items-center justify-center" aria-hidden>
           {id === "journey" && <Journey />}
           {id === "levels" && <Levels />}

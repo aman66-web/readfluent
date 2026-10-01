@@ -8,7 +8,7 @@ import {
 } from "@/lib/onboarding/answers";
 import { DAILY_MINUTES, DEFAULT_MINUTES, readingTime } from "@/lib/onboarding/firstrun";
 import { LANGUAGES, isLanguage } from "@/lib/onboarding/languages";
-import { QUESTION_STEPS, AFTER_ONBOARDING, AFTER_SIGN_IN, SHOW_IDS, SIGN_IN_STEP, STEP_IDS, isShowStep, stepIndex } from "@/lib/onboarding/steps";
+import { QUESTION_STEPS, AFTER_ONBOARDING, AFTER_SIGN_IN, SHOW_IDS, SIGN_IN_STEP, STEP_IDS, isInterlude, isShowStep, stepIndex } from "@/lib/onboarding/steps";
 
 // The screens import the Supabase client and the native sign-in plugins; neither is wanted in a render test.
 vi.mock("@/lib/db/client", () => ({ createClient: () => ({}) }));
@@ -17,9 +17,9 @@ vi.mock("@capacitor/core", () => ({ Capacitor: { isNativePlatform: () => false, 
 const read = (p: string) => readFileSync(new URL(`../../${p}`, import.meta.url), "utf8");
 
 describe("the steps", () => {
-  it("are the first run's twenty, in order, with the app's language first and the library last", () => {
-    expect(STEP_IDS).toHaveLength(20);
-    expect(new Set(STEP_IDS).size).toBe(20);
+  it("are the first run's twenty-one, in order, with the app's language first and the library last", () => {
+    expect(STEP_IDS).toHaveLength(21);
+    expect(new Set(STEP_IDS).size).toBe(21);
     expect(STEP_IDS[0]).toBe("app");
     expect(STEP_IDS[1]).toBe("intro");
     expect(STEP_IDS[STEP_IDS.length - 1]).toBe("ready");
@@ -29,7 +29,8 @@ describe("the steps", () => {
   it("have Lex say hello straight after the welcome, then ask which languages, then how much of it they know", () => {
     expect(STEP_IDS[STEP_IDS.indexOf("intro") + 1]).toBe("hello");
     expect(STEP_IDS[STEP_IDS.indexOf("hello") + 1]).toBe("quick");
-    expect(STEP_IDS[STEP_IDS.indexOf("quick") + 1]).toBe("tongues");
+    expect(STEP_IDS[STEP_IDS.indexOf("quick") + 1]).toBe("go");
+    expect(STEP_IDS[STEP_IDS.indexOf("go") + 1]).toBe("tongues");
     expect(STEP_IDS[STEP_IDS.indexOf("tongues") + 1]).toBe("level");
   });
 
@@ -336,5 +337,29 @@ describe("Lex says how quick it will be", () => {
     expect(t).toContain("keep it as quick as we can");
     expect(html).toContain("lx-ready");
     expect(html).not.toContain('role="progressbar"');
+  });
+});
+
+describe("Lex celebrates, then the run moves on by itself", () => {
+  it("makes the celebration an interlude that Back steps over", () => {
+    expect(isInterlude("go")).toBe(true);
+    expect(isInterlude("quick")).toBe(false);
+    expect(read("app/welcome/page.tsx")).toContain("isInterlude(STEP_IDS[i - 1]) ? i - 2 : i - 1");
+  });
+
+  it("shows Lex cheering and 'Let's go!', with no progress bar and nothing to press", async () => {
+    const { GoScreen } = await import("@/components/onboarding/Questions");
+    const html = renderToStaticMarkup(createElement(GoScreen, { at: 4, of: 21, onBack: () => {}, onContinue: () => {} }));
+    expect(html).toContain("lx-cheer");
+    expect(html).toContain("go-lex");
+    expect(html).toContain("Let&#x27;s go!");
+    expect(html).not.toContain('role="progressbar"');
+    expect(html).not.toContain("ob-primary");
+  });
+
+  it("puts Lex beside the line on every screen that asks or shows something", () => {
+    for (const f of ["Questions", "Tongues", "Level", "Plan", "Tour", "Last", "Ready"]) {
+      expect(read(`components/onboarding/${f}.tsx`), f).toContain("GuideHead");
+    }
   });
 });

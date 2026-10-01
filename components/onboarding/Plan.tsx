@@ -41,7 +41,7 @@ export function TimeScreen({ at, of, learn, value, onPick, onBack, onContinue }:
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead key={line} guide={guide} line={line} sub={t("time.sub", { app: APP_NAME })} />
+        <GuideHead key={line} guide={guide} line={line} sub={t("time.sub", { app: APP_NAME })} mood="ready" />
         <div className="mt-6 grid grid-cols-2 gap-3" role="radiogroup" aria-label={line}>
           {DAILY_MINUTES.map((m, i) => {
             const on = value === m;
@@ -86,7 +86,7 @@ export function PathScreen({ at, of, level, minutes, onBack, onContinue }: Nav &
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead key={line} guide={guide} line={line} />
+        <GuideHead key={line} guide={guide} line={line} mood="cheer" />
         {steps.length > 0 && (
           <>
             <p className="ob-muted mt-6 text-[12px] font-bold uppercase tracking-[0.1em]">{t("path.ladder")}</p>
@@ -137,7 +137,7 @@ export function FutureScreen({ at, of, minutes, why, onBack, onContinue }: Nav &
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead guide={guide} line={line} />
+        <GuideHead guide={guide} line={line} mood="cheer" />
 
         <ol className="mt-7 space-y-2.5">
           {rows.map((r, i) => (
@@ -224,7 +224,7 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={done}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead guide={guide} line={line} />
+        <GuideHead guide={guide} line={line} mood="cheer" />
 
         <figure className="wel-in guide-card relative mt-7 rounded-[24px] px-6 py-6" style={{ animationDelay: "900ms" }}>
           <blockquote className="ed-serif text-[23px] italic leading-[1.3]">{t("pledge.quote", { minutes })}</blockquote>

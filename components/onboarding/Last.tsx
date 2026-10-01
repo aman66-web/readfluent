@@ -45,7 +45,7 @@ export function InterestsScreen({ at, of, value, onChange, onBack, onContinue }:
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
       <div className="relative flex min-h-0 flex-1 flex-col pt-5">
-        <GuideHead guide={guide} line={line} sub={t("interests.sub")} />
+        <GuideHead guide={guide} line={line} sub={t("interests.sub")} mood="ready" />
         <div className="mt-5 flex min-h-0 flex-1 flex-col">
           <ul className="-mx-1 grid min-h-0 flex-1 grid-cols-2 content-start gap-2 overflow-y-auto px-1 pb-7 pt-1 [mask-image:linear-gradient(to_bottom,#000_calc(100%-28px),transparent)]">
             {CATEGORIES.map(({ id }, n) => {

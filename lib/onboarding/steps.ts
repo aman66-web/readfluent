@@ -2,7 +2,7 @@
  * The first run, as pure rules: which steps there are and in what order.
  *
  * Which language the app itself is in (so the rest can be read) → the welcome (a wall
- * of book covers) → Lex says hello → Lex says how quick it will be → which languages (the one you speak and the
+ * of book covers) → Lex says hello → Lex says how quick it will be → Lex celebrates and the run moves on by itself → which languages (the one you speak and the
  * one you want to learn) → how much of it you know (or a
  * five-minute test that finds out) → why they are learning → where they
  * heard of it → how much time a day they can give it → how
@@ -15,7 +15,7 @@
  * its screens and its copy rewritten for reading.
  */
 export const STEP_IDS = [
-  "app", "intro", "hello", "quick", "tongues", "level", "why", "heard", "time", "path",
+  "app", "intro", "hello", "quick", "go", "tongues", "level", "why", "heard", "time", "path",
   "journey", "levels", "words", "remember", "connect",
   "future", "pledge", "account", "interests", "ready",
 ] as const;
@@ -23,6 +23,10 @@ export type StepId = (typeof STEP_IDS)[number];
 
 /** The steps that ask the reader something before they are in the app. Lex says how many ("just 6 quick questions"), so the number is counted here, not written. */
 export const QUESTION_STEPS = ["tongues", "level", "why", "heard", "time", "interests"] as const satisfies readonly StepId[];
+
+/** Steps that play by themselves and move on: Back skips over them rather than landing on one that would run again. */
+export const INTERLUDE_STEPS = ["go"] as const satisfies readonly StepId[];
+export const isInterlude = (step: string): boolean => (INTERLUDE_STEPS as readonly string[]).includes(step);
 
 /** The five tour screens, in order. */
 export const SHOW_IDS = ["journey", "levels", "words", "remember", "connect"] as const;

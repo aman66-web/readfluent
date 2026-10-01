@@ -278,3 +278,38 @@
 }
 
 @media (prefers-reduced-motion: reduce) { .shelf-book { opacity: 1; transform: rotate(var(--r, 0deg)); transition: none; } }
+
+/* Lex's celebration after "just N quick questions", and Lex's small reactions beside each line. */
+.go-lex { transform-origin: 50% 100%; animation: go-jump 1.3s cubic-bezier(.3,.7,.4,1) both, go-bounce .55s ease-in-out 1.3s infinite alternate; perspective: 600px; }
+@keyframes go-jump {
+  0% { transform: translateY(0) scale(1, 1) rotateY(0) }
+  14% { transform: translateY(0) scale(1.1, .86) rotateY(0) }
+  45% { transform: translateY(-80px) scale(.96, 1.06) rotateY(180deg) }
+  70% { transform: translateY(-80px) scale(.96, 1.06) rotateY(360deg) }
+  88% { transform: translateY(0) scale(1.1, .88) rotateY(360deg) }
+  100% { transform: translateY(0) scale(1, 1) rotateY(360deg) }
+}
+@keyframes go-bounce { from { transform: translateY(0) } to { transform: translateY(-10px) } }
+.go-pop { animation: go-pop .5s cubic-bezier(.34, 1.56, .64, 1) .3s both; }
+@keyframes go-pop { from { opacity: 0; transform: scale(.4) } to { opacity: 1; transform: scale(1) } }
+.go-bit { position: absolute; left: 0; top: 0; width: 9px; height: 15px; margin: -7px 0 0 -4px; border-radius: 3px; opacity: 0; animation: go-burst 1.5s cubic-bezier(.2, .7, .3, 1) both; }
+@keyframes go-burst {
+  0% { opacity: 0; transform: translate(0, 0) rotate(0) scale(.4) }
+  15% { opacity: 1 }
+  75% { opacity: 1 }
+  100% { opacity: 0; transform: translate(var(--x), calc(var(--y) + 60px)) rotate(var(--r)) scale(1) }
+}
+.go-enter { animation: go-enter .5s cubic-bezier(.34, 1.56, .64, 1) both; transform-origin: 50% 100%; }
+@keyframes go-enter { from { opacity: 0; transform: translateY(14px) scale(.7) } to { opacity: 1; transform: none } }
+.go-hop { animation: go-hop .7s cubic-bezier(.3, .7, .4, 1) both; transform-origin: 50% 100%; }
+@keyframes go-hop {
+  0% { transform: translateY(0) scale(1, 1) }
+  18% { transform: translateY(0) scale(1.1, .9) }
+  50% { transform: translateY(-14px) scale(.96, 1.06) rotate(-6deg) }
+  75% { transform: translateY(0) scale(1.06, .94) rotate(3deg) }
+  100% { transform: translateY(0) scale(1, 1) }
+}
+@media (prefers-reduced-motion: reduce) {
+  .go-lex, .go-pop, .go-enter, .go-hop { animation: none; }
+  .go-bit { display: none; }
+}

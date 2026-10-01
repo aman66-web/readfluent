@@ -4,7 +4,7 @@ import "./welcome.css";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo, useState, useSyncExternalStore } from "react";
 import { FirstScreen } from "@/components/welcome/FirstScreen";
-import { HeardScreen, HelloScreen, QuickScreen, WhyScreen } from "@/components/onboarding/Questions";
+import { GoScreen, HeardScreen, HelloScreen, QuickScreen, WhyScreen } from "@/components/onboarding/Questions";
 import { ReadyScreen } from "@/components/onboarding/Ready";
 import { FutureScreen, PathScreen, PledgeScreen, TimeScreen } from "@/components/onboarding/Plan";
 import { AppLanguageScreen } from "@/components/onboarding/AppLanguage";
@@ -20,7 +20,7 @@ import {
 } from "@/lib/onboarding/answers";
 import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { reportFirstRun } from "@/lib/onboarding/report";
-import { AFTER_ONBOARDING, PLACEMENT_PATH, STEP_IDS, isShowStep, stepIndex } from "@/lib/onboarding/steps";
+import { AFTER_ONBOARDING, PLACEMENT_PATH, STEP_IDS, isInterlude, isShowStep, stepIndex } from "@/lib/onboarding/steps";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { startAt } from "@/lib/xp/ledger";
 
@@ -76,7 +76,7 @@ function Welcome() {
     window.history.replaceState(null, "", `/welcome?step=${STEP_IDS[to]}`);
   };
   const next = () => (last ? finish() : go(i + 1));
-  const back = () => go(i - 1);
+  const back = () => go(isInterlude(STEP_IDS[i - 1]) ? i - 2 : i - 1);
 
   /* The end of the run is the library. What was picked is already saved; the
      answers are reported once (only the choices), and the first screen is marked
@@ -107,6 +107,7 @@ function Welcome() {
   }
   if (step === "hello") return <HelloScreen {...nav} />;
   if (step === "quick") return <QuickScreen {...nav} />;
+  if (step === "go") return <GoScreen {...nav} />;
   if (step === "level") {
     return (
       <LevelScreen {...nav} learn={a.learn} value={a.level} placed={a.placed}

@@ -130,7 +130,7 @@ export function ReadyScreen({ at, of, interests, minutes, level, learn, onBack, 
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={done} continueLabel={t("ready.start")}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-4 pt-4">
-        <GuideHead key={line} guide={guide} line={line} />
+        <GuideHead key={line} guide={guide} line={line} mood="cheer" />
 
         <div className="mt-3" dir="ltr"><Shelf hues={hues} pct={pct} /></div>
 

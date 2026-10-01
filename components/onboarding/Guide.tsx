@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useState, type ReactNode } from "react";
+import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
-import { Lex } from "@/components/mascot/Lex";
+import { Lex, type Mood } from "@/components/mascot/Lex";
 import { PrimaryButton } from "./ui";
 
 /**
@@ -54,6 +54,12 @@ export function useGuide(line: string) {
 }
 export type Guide = ReturnType<typeof useGuide>;
 
+/** How many times the reader has tapped something on this screen: Lex hops and cheers at each. */
+const Taps = createContext(0);
+
+/** The things on a screen that are answers (not the way back or on): a tap on one of them makes Lex cheer. */
+const TAPPABLE = "button, [role=radio], [role=checkbox], label, a";
+
 /** The frame every guide screen sits in. */
 export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, showContinue = true, continueLabel, progress = true, children }: {
   /** Which step of the run this is, and how many there are, for the progress. */
@@ -72,9 +78,14 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
   children: ReactNode;
 }) {
   const t = useT();
+  const [taps, setTaps] = useState(0);
   return (
-    <main className="ob guide relative flex h-[100dvh] flex-col overflow-clip px-6 pb-[calc(env(safe-area-inset-bottom)+1rem)] pt-[calc(env(safe-area-inset-top)+0.5rem)]">
-      <div className="relative flex shrink-0 items-center gap-3">
+    <main className="ob guide relative flex h-[100dvh] flex-col overflow-clip px-6 pb-[calc(env(safe-area-inset-bottom)+1rem)] pt-[calc(env(safe-area-inset-top)+0.5rem)]"
+          onClickCapture={(e) => {
+            const hit = (e.target as Element).closest(TAPPABLE);
+            if (hit && !hit.closest("[data-guide-nav]")) setTaps((n) => n + 1);
+          }}>
+      <div data-guide-nav className="relative flex shrink-0 items-center gap-3">
         <button type="button" onClick={onBack} aria-label={t("ui.back")}
                 className="-ms-2.5 grid size-11 shrink-0 place-items-center rounded-full transition-colors active:bg-black/5">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
@@ -92,10 +103,10 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
         <span className="size-11 shrink-0" aria-hidden />
       </div>
 
-      {children}
+      <Taps.Provider value={taps}>{children}</Taps.Provider>
 
       {showContinue && (
-        <div className="relative shrink-0">
+        <div data-guide-nav className="relative shrink-0">
           <PrimaryButton disabled={!canContinue} onClick={onContinue}>{continueLabel ?? t("ui.continue")}</PrimaryButton>
         </div>
       )}
@@ -108,12 +119,14 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
  * the line it is saying, and, where there is one, a quieter line under it that
  * arrives once the words have.
  */
-export function GuideHead({ guide, line, sub }: { guide: Guide; line: string; sub?: string }) {
+export function GuideHead({ guide, line, sub, mood = "hello" }: { guide: Guide; line: string; sub?: string; mood?: Mood }) {
   const t = useT();
+  const taps = useContext(Taps);
   return (
     <div className="shrink-0">
       <div className="flex items-center gap-3">
-        <Lex mood="hello" talking={guide.talking} crop="head" className="w-[60px] shrink-0" />
+        {/* A new element at each tap, so the hop starts again. */}
+        <GuideLex key={taps} mood={mood} talking={guide.talking} cheered={taps > 0} />
         <p className="ed-serif ob-muted text-[14px] italic">{t("guide.name")}</p>
       </div>
       <Said line={line} durationMs={guide.totalMs} className="mt-3 text-[29px] font-light leading-[1.12] tracking-[-0.025em]" />
@@ -121,6 +134,24 @@ export function GuideHead({ guide, line, sub }: { guide: Guide; line: string; su
         <p className="wel-in ob-muted mt-2.5 text-[14px] leading-snug" style={{ animationDelay: `${guide.totalMs}ms` }}>{sub}</p>
       )}
     </div>
+  );
+}
+
+/**
+ * Lex beside the line: it pops in as the screen arrives, and at each tap on an answer it hops
+ * and cheers for a moment before settling back into the screen's own mood.
+ */
+function GuideLex({ mood, talking, cheered }: { mood: Mood; talking: boolean; cheered: boolean }) {
+  const [on, setOn] = useState(cheered);
+  useEffect(() => {
+    if (!cheered) return;
+    const id = window.setTimeout(() => setOn(false), 900);
+    return () => window.clearTimeout(id);
+  }, [cheered]);
+  return (
+    <span className={`block shrink-0 ${cheered ? "go-hop" : "go-enter"}`}>
+      <Lex mood={on ? "cheer" : mood} talking={talking && !on} crop="head" className="w-[66px]" />
+    </span>
   );
 }
 

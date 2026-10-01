@@ -57,7 +57,7 @@ export function LevelScreen({ at, of, learn, value, placed, onPick, onTest, onBa
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-4 pt-5">
-        <GuideHead key={line} guide={guide} line={line} />
+        <GuideHead key={line} guide={guide} line={line} mood="reading" />
 
         {/* What the six levels are, and how widely they are used. */}
         <div className="wel-in mt-4 rounded-[18px] bg-[var(--ob-cyan)]/15 p-4" style={{ animationDelay: "700ms" }}>
