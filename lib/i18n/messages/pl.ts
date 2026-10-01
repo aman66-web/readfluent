@@ -399,6 +399,18 @@ const pl: Catalog = {
   "reader.noMeaning": "Znaczenie pojawi się tutaj w prawdziwej aplikacji.",
   "reader.noAudio": "Audio odtworzy się tutaj w prawdziwej aplikacji",
   "reader.switchLang": "Podgląd w innym języku (demo)",
+  "reader.settings": "Ustawienia czytania",
+  "reader.textSize": "Rozmiar tekstu",
+  "reader.underline": "Podkreślaj kluczowe słowa",
+  "reader.glossUnder": "{language} pod każdą stroną",
+  "reader.yourWords": "Twoje słowa",
+  "reader.yourWordsSub": "Wrócą jako fiszki, tuż zanim je zapomnisz.",
+  "reader.noneSaved": "Nic jeszcze nie zapisano. Stuknij słowo, a potem Zapisz słowo.",
+  "reader.removeWord": "Usuń: {word}",
+  "reader.pagesRead": "Przeczytane strony",
+  "reader.xpEarned": "Zdobyte XP",
+  "reader.wordsSaved": "Zapisane słowa",
+  "reader.close": "Zamknij",
   "photo.placeholder": "Miejsce na zdjęcie",
 
   /* ── offline and privacy ── */

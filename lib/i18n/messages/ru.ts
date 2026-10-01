@@ -399,6 +399,18 @@ const ru: Catalog = {
   "reader.noMeaning": "Значение появится здесь в настоящем приложении.",
   "reader.noAudio": "Звук воспроизводится здесь в настоящем приложении",
   "reader.switchLang": "Посмотреть на другом языке (демо)",
+  "reader.settings": "Настройки чтения",
+  "reader.textSize": "Размер текста",
+  "reader.underline": "Подчёркивать ключевые слова",
+  "reader.glossUnder": "Под каждой страницей: {language}",
+  "reader.yourWords": "Твои слова",
+  "reader.yourWordsSub": "Они возвращаются в виде карточек как раз перед тем, как ты их забудешь.",
+  "reader.noneSaved": "Пока ничего не сохранено. Нажми на слово, затем «Сохранить слово».",
+  "reader.removeWord": "Удалить {word}",
+  "reader.pagesRead": "Прочитано страниц",
+  "reader.xpEarned": "Получено XP",
+  "reader.wordsSaved": "Сохранено слов",
+  "reader.close": "Закрыть",
   "photo.placeholder": "Место для фото",
 
   /* ── offline and privacy ── */

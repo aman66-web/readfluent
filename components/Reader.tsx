@@ -4,16 +4,20 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { ObjectPhoto } from "@/components/ObjectPhoto";
 import { ScenePhoto } from "@/components/ScenePhoto";
+import { Mascot } from "@/components/mascot/Mascot";
+import { Settings } from "@/components/reader/Settings";
 import { WordCard } from "@/components/reader/WordCard";
+import { WordsSheet } from "@/components/reader/WordsSheet";
 import type { ReaderPage, ReaderVariant } from "@/components/reader/types";
 import { languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
 import { readPage, resumeIndex, savePage, versionKey } from "@/lib/progress";
+import { READER_PREFS_KEY, TEXT_SIZES, parsePrefs } from "@/lib/reading/prefs";
 import { speak, stopSpeaking } from "@/lib/reading/speak";
 import { tokenize, translatedLine } from "@/lib/reading/sentences";
 import { readRaw, subscribeTo } from "@/lib/store/local";
-import { SAVED_KEY, parseSaved, savedId, toggleSaved } from "@/lib/words/saved";
+import { SAVED_KEY, parseSaved, removeSaved, savedId, toggleSaved } from "@/lib/words/saved";
 import { XP } from "@/lib/xp/levels";
 import { awardFinish, awardPage, trackSeconds } from "@/lib/xp/ledger";
 import type { Scene } from "@/lib/preview/catalog";
@@ -37,6 +41,8 @@ const subscribeAnswers = subscribeTo(ANSWERS_KEY);
 const readAnswers = () => readRaw(ANSWERS_KEY);
 const subscribeSaved = subscribeTo(SAVED_KEY);
 const readSaved = () => readRaw(SAVED_KEY);
+const subscribePrefs = subscribeTo(READER_PREFS_KEY);
+const readPrefsRaw = () => readRaw(READER_PREFS_KEY);
 const serverRaw = () => "";
 
 /**
@@ -87,11 +93,17 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
   // ── word taps ──
   const [sel, setSel] = useState<{ page: number; word: string; start: number } | null>(null);
   const [slow, setSlow] = useState(false);
-  const [toast, setToast] = useState<string | null>(null);
+  const [toast, setToast] = useState<{ text: string; happy: boolean } | null>(null);
+  const prefsRaw = useSyncExternalStore(subscribePrefs, readPrefsRaw, serverRaw);
+  const prefs = useMemo(() => parsePrefs(prefsRaw), [prefsRaw]);
+  const [menu, setMenu] = useState(false);
+  const [wordsOpen, setWordsOpen] = useState(false);
+  const [hop, setHop] = useState(0);
+  const [earned, setEarned] = useState(0);
   const savedRaw = useSyncExternalStore(subscribeSaved, readSaved, serverRaw);
   const saved = useMemo(() => parseSaved(savedRaw), [savedRaw]);
-  const say = useCallback((m: string) => {
-    setToast(m);
+  const say = useCallback((text: string, happy = false) => {
+    setToast({ text, happy });
   }, []);
   useEffect(() => {
     if (!toast) return;
@@ -148,7 +160,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "ArrowRight") goTo(index + 1);
       else if (e.key === "ArrowLeft") goTo(index - 1);
-      else if (e.key === "Escape") setSel(null);
+      else if (e.key === "Escape") { setSel(null); setMenu(false); setWordsOpen(false); }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -158,7 +170,10 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
   // time spent feeds the dashboard's graph. All of it is kept on the device (lib/xp).
   const version = versionKey(progressSlug, levelId, length);
   const [gain, setGain] = useState<{ xp: number; finish: boolean; n: number } | null>(null);
-  const flash = useCallback((xp: number, finish: boolean) => setGain((g) => ({ xp, finish, n: (g?.n ?? 0) + 1 })), []);
+  const flash = useCallback((xp: number, finish: boolean) => {
+    setGain((g) => ({ xp, finish, n: (g?.n ?? 0) + 1 }));
+    setEarned((e) => e + xp);
+  }, []);
   useEffect(() => {
     if (!gain) return;
     const id = window.setTimeout(() => setGain(null), 1600);
@@ -202,8 +217,21 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
           </Link>
           <div className="min-w-0 flex-1">
             <p className="truncate text-[11.5px] font-semibold uppercase tracking-[0.09em] text-muted">{title}</p>
-            <p className="truncate text-[12px] text-muted" aria-live="polite">{sub}{isPreview ? ` · ${t("reader.preview")}` : ""}</p>
+            <p className="truncate text-[12px] text-muted" aria-live="polite">{sub}</p>
           </div>
+          {interactive && Object.keys(saved).length > 0 && (
+            <button type="button" onClick={() => { setWordsOpen(true); setMenu(false); }} aria-label={t("reader.yourWords")}
+                    className="flex h-8 shrink-0 items-center gap-1 rounded-full bg-accent-bright/25 ps-2 pe-2.5 text-[13px] font-bold tabular">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M12 3l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.8 6.6 19.7l1.1-6.1L3.2 9.4l6.1-.8z" /></svg>
+              {Object.keys(saved).length}
+            </button>
+          )}
+          {interactive && (
+            <button type="button" aria-expanded={menu} aria-label={t("reader.settings")} onClick={() => setMenu(!menu)}
+                    className={`flex size-10 shrink-0 items-baseline justify-center rounded-full pt-[9px] text-[17px] font-bold tracking-[-0.02em] ${menu ? "bg-accent-bright/25" : "active:bg-border/60"}`}>
+              A<span className="text-[12px]">A</span>
+            </button>
+          )}
           {interactive && (
             <button type="button" aria-pressed={slow} aria-label={t("reader.slowAudio")}
                     onClick={() => { setSlow(!slow); say(slow ? t("reader.slowOff") : t("reader.slowOn")); }}
@@ -219,6 +247,8 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
           <div className="h-full rounded-full bg-accent-bright transition-[width] duration-300" style={{ width: `${progress}%` }} />
         </div>
       </header>
+
+      {menu && <Settings prefs={prefs} language={mine} />}
 
       {/* What the line you tapped says in the reader's own language. */}
       {sel && selPage?.target && (
@@ -255,6 +285,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
               </div>
               <div className="flex-1 overflow-y-auto px-[22px] pb-3 pt-1.5">
                 <PageText page={p} interactive={interactive} selected={sel && sel.page === i ? sel.start : -1} lang={variant.lang}
+                          size={TEXT_SIZES[prefs.size]} colours={prefs.colours} gloss={prefs.gloss && !open}
                           onPick={(word, start) => setSel({ page: i, word, start })} />
               </div>
             </section>
@@ -262,11 +293,24 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
         })}
 
         <section className="flex h-full w-full shrink-0 snap-start flex-col items-center justify-center px-8 text-center" aria-label={t("reader.end")}>
-          <p className="font-reading text-[26px] font-bold">{t("reader.endTitle")}</p>
+          <Mascot mood="cheer" className="w-[min(46vw,170px)]" />
+          <p className="mt-2 font-reading text-[26px] font-bold">{t("reader.endTitle")}</p>
           <p className="mt-3 max-w-[30ch] text-[15px] leading-snug text-muted">
             {isPreview ? t("reader.endBodyPreview", { total, length }) : t("reader.endBody", { total })}
           </p>
-          <Link href={`/book/${slug}`} className="mt-7 inline-flex h-12 items-center rounded-full bg-foreground px-7 text-[15px] font-semibold text-background">
+          <ul className="mt-5 grid w-full max-w-[320px] grid-cols-3 gap-2">
+            {[
+              { id: "reader.pagesRead" as const, value: total },
+              { id: "reader.xpEarned" as const, value: earned },
+              { id: "reader.wordsSaved" as const, value: Object.keys(saved).length },
+            ].map((x) => (
+              <li key={x.id} className="rounded-2xl border border-border bg-surface px-1.5 py-2.5">
+                <span className="tabular block text-[20px] font-bold">{x.value.toLocaleString(locale)}</span>
+                <span className="text-[11.5px] font-semibold leading-tight text-muted">{t(x.id)}</span>
+              </li>
+            ))}
+          </ul>
+          <Link href={`/book/${slug}`} className="mt-6 inline-flex h-12 items-center rounded-full bg-foreground px-7 text-[15px] font-semibold text-background">
             {t("reader.another")}
           </Link>
           <Link href="/" className="mt-3 inline-flex h-11 items-center text-[14px] font-semibold text-muted">{t("reader.toLibrary")}</Link>
@@ -284,16 +328,27 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
                     matched={keyIx >= 0 ? keys[keyIx].en : null}
                     saved={savedId(variant.lang, sel.word) in saved}
                     onListen={() => hear(slow ? 0.55 : 0.9)} onSlow={() => hear(0.5)}
-                    onSave={() => say(toggleSaved({ word: sel.word, lang: variant.lang, meaning: entry?.mean ?? "", book: title }) ? t("reader.savedToast") : t("reader.removedToast"))}
+                    onSave={() => {
+                      const now = toggleSaved({ word: sel.word, lang: variant.lang, meaning: entry?.mean ?? "", book: title });
+                      say(now ? t("reader.savedToast") : t("reader.removedToast"), now);
+                      if (now) setHop((h) => h + 1);
+                    }}
                     onClose={() => setSel(null)} />
         ) : (
           <>
-            {interactive && !onEnd && <p className="pb-1.5 text-center text-[13px] font-medium text-muted">{t("reader.tapHint")}</p>}
-            <div dir="ltr" className="flex items-center justify-between">
+            <div dir="ltr" className="flex items-center justify-between gap-2">
               <button onClick={() => goTo(index - 1)} disabled={index === 0} aria-label={t("reader.prev")} className="flex size-11 items-center justify-center rounded-full border border-border bg-surface disabled:opacity-35 active:bg-border/60">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
               </button>
-              <p className="tabular text-[14px] font-semibold text-muted">{onEnd ? t("reader.done") : t("reader.pageLabel", { n: index + 1, total })}</p>
+              {interactive && !onEnd ? (
+                <div className="flex min-w-0 flex-1 items-center justify-center gap-1.5">
+                  {/* Dewey beside the hint, hopping when a word is saved. */}
+                  <span key={hop} className={`block w-11 shrink-0 ${hop ? "reader-hop" : ""}`}><Mascot mood="hello" className="w-full" /></span>
+                  <p className="text-start text-[13px] font-semibold leading-snug text-muted">{t("reader.tapHint")}</p>
+                </div>
+              ) : (
+                <p className="tabular text-[14px] font-semibold text-muted">{onEnd ? t("reader.done") : t("reader.pageLabel", { n: index + 1, total })}</p>
+              )}
               <button onClick={() => goTo(index + 1)} disabled={onEnd} aria-label={t("reader.next")} className="flex size-11 items-center justify-center rounded-full border border-border bg-surface disabled:opacity-35 active:bg-border/60">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M9 5l7 7-7 7" /></svg>
               </button>
@@ -303,18 +358,24 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
       </footer>
 
       {toast && (
-        <p role="status" className="fade-in pointer-events-none absolute bottom-28 left-1/2 z-10 max-w-[88%] -translate-x-1/2 rounded-full bg-foreground/95 px-4 py-2.5 text-center text-[13px] font-semibold text-background">{toast}</p>
+        <p role="status" className={`fade-in pointer-events-none absolute left-1/2 z-10 flex max-w-[88%] -translate-x-1/2 items-center gap-2 rounded-full bg-foreground/95 py-2 text-[13px] font-semibold text-background ${open ? "top-[150px]" : "bottom-28"} ${toast.happy ? "pe-4 ps-2" : "px-4"}`}>
+          {toast.happy && <Mascot mood="cheer" className="w-[34px] shrink-0" />}
+          {toast.text}
+        </p>
       )}
+
+      {wordsOpen && <WordsSheet saved={saved} onRemove={removeSaved} onClose={() => setWordsOpen(false)} />}
     </div>
   );
 }
 
 /** A page's text. Where the version has word cards every word can be tapped, and the matched words are underlined in their colours. */
-function PageText({ page, interactive, selected, lang, onPick }: { page: ReaderPage; interactive: boolean; selected: number; lang: string; onPick: (word: string, start: number) => void }) {
+function PageText({ page, interactive, selected, lang, size, colours, gloss, onPick }: { page: ReaderPage; interactive: boolean; selected: number; lang: string; size: number; colours: boolean; gloss: boolean; onPick: (word: string, start: number) => void }) {
   if (!interactive) return <p className="font-reading text-[19px] leading-[1.55] text-foreground">{page.text}</p>;
   const keys = page.target?.keys ?? [];
   return (
-    <p lang={lang} className="font-reading text-[19px] font-medium leading-[1.55] text-foreground"
+    <>
+    <p lang={lang} className="font-reading font-medium leading-[1.55] text-foreground" style={{ fontSize: size }}
        onClick={(e) => { const el = (e.target as HTMLElement).closest<HTMLElement>("[data-w]"); if (el) onPick(el.dataset.w ?? "", Number(el.dataset.s)); }}
        onKeyDown={(e) => {
          if (e.key !== "Enter" && e.key !== " ") return;
@@ -326,12 +387,14 @@ function PageText({ page, interactive, selected, lang, onPick }: { page: ReaderP
         const k = keys.findIndex((x) => x.w === tok.word);
         return (
           <span key={tok.start} role="button" tabIndex={0} data-w={tok.word} data-s={tok.start}
-                className={`cursor-pointer rounded-[5px] px-px transition-colors ${k >= 0 ? `key-word key-${(k % 3) + 1}` : ""} ${selected === tok.start ? "bg-accent-bright/30" : "active:bg-accent-bright/20"}`}>
+                className={`cursor-pointer rounded-[5px] px-px transition-colors ${k >= 0 && colours ? `key-word key-${(k % 3) + 1}` : ""} ${selected === tok.start ? "bg-accent-bright/30" : "active:bg-accent-bright/20"}`}>
             {tok.text}
           </span>
         );
       })}
     </p>
+    {gloss && page.target && <p className="mt-2 text-[13.5px] italic leading-snug text-muted">{page.target.translation}</p>}
+    </>
   );
 }
 

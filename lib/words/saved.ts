@@ -44,3 +44,12 @@ export function toggleSaved(entry: Omit<SavedWord, "at">): boolean {
   notify();
   return !was;
 }
+
+/** Take a saved word out of the list. */
+export function removeSaved(id: string): void {
+  const all = parseSaved(readRaw(SAVED_KEY));
+  if (!(id in all)) return;
+  delete all[id];
+  writeRaw(SAVED_KEY, JSON.stringify(all));
+  notify();
+}

@@ -395,6 +395,18 @@ const indonesian: Catalog = {
   "reader.noMeaning": "Artinya muncul di sini di aplikasi yang sebenarnya.",
   "reader.noAudio": "Audio diputar di sini di aplikasi yang sebenarnya",
   "reader.switchLang": "Pratinjau bahasa lain (demo)",
+  "reader.settings": "Pengaturan membaca",
+  "reader.textSize": "Ukuran teks",
+  "reader.underline": "Garis bawahi kata kunci",
+  "reader.glossUnder": "Bahasa {language} di bawah tiap halaman",
+  "reader.yourWords": "Kata-katamu",
+  "reader.yourWordsSub": "Kata-kata ini muncul lagi sebagai kartu kilat, tepat sebelum kamu melupakannya.",
+  "reader.noneSaved": "Belum ada yang disimpan. Ketuk sebuah kata, lalu Simpan kata.",
+  "reader.removeWord": "Hapus {word}",
+  "reader.pagesRead": "Halaman dibaca",
+  "reader.xpEarned": "XP didapat",
+  "reader.wordsSaved": "Kata tersimpan",
+  "reader.close": "Tutup",
   "photo.placeholder": "Tempat foto",
 
   /* ── offline and privacy ── */

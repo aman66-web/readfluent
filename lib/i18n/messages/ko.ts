@@ -397,6 +397,18 @@ const ko: Catalog = {
   "reader.noMeaning": "뜻은 실제 앱에서 여기에 나타나요.",
   "reader.noAudio": "오디오는 실제 앱에서 여기서 재생돼요",
   "reader.switchLang": "다른 언어 미리보기 (데모)",
+  "reader.settings": "읽기 설정",
+  "reader.textSize": "글자 크기",
+  "reader.underline": "핵심 단어에 밑줄 긋기",
+  "reader.glossUnder": "각 페이지 아래에 {language} 표시",
+  "reader.yourWords": "내 단어",
+  "reader.yourWordsSub": "잊어버리기 직전에 플래시카드로 다시 나와요.",
+  "reader.noneSaved": "아직 저장한 단어가 없어요. 단어를 탭한 다음 단어 저장을 눌러 보세요.",
+  "reader.removeWord": "{word} 삭제",
+  "reader.pagesRead": "읽은 페이지",
+  "reader.xpEarned": "획득한 XP",
+  "reader.wordsSaved": "저장한 단어",
+  "reader.close": "닫기",
   "photo.placeholder": "사진 자리",
 
   /* ── offline and privacy ── */

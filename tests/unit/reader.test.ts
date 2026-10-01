@@ -5,6 +5,7 @@ import { ART_IDS } from "@/components/ObjectPhoto";
 import { LEVELS } from "@/lib/content/limits";
 import { SPANISH_DICT, SPANISH_PAGES } from "@/lib/preview/spanish";
 import { sentenceAt, sentenceRanges, tokenize, translatedLine } from "@/lib/reading/sentences";
+import { DEFAULT_PREFS, TEXT_SIZES, parsePrefs } from "@/lib/reading/prefs";
 import { parseSaved, savedId } from "@/lib/words/saved";
 
 describe("the words of a text", () => {
@@ -96,5 +97,29 @@ describe("the reader", () => {
     expect(html).toContain("Hello there.");
     expect(html).not.toContain("data-w=");
     expect(html).not.toContain("Tap any word");
+  });
+});
+
+describe("reading settings", () => {
+  it("reads back what was chosen and falls back to the defaults for anything else", () => {
+    expect(parsePrefs(JSON.stringify({ size: "l", colours: false, gloss: true }))).toEqual({ size: "l", colours: false, gloss: true });
+    expect(parsePrefs(JSON.stringify({ size: "huge", colours: "yes" }))).toEqual(DEFAULT_PREFS);
+    for (const bad of ["", "nope", "[]", "null", "7"]) expect(parsePrefs(bad), bad).toEqual(DEFAULT_PREFS);
+  });
+
+  it("has three text sizes that grow", () => {
+    expect(TEXT_SIZES.s).toBeLessThan(TEXT_SIZES.m);
+    expect(TEXT_SIZES.m).toBeLessThan(TEXT_SIZES.l);
+  });
+
+  it("puts the Aa button and the end-of-book totals in the reader", async () => {
+    const { Reader } = await import("@/components/Reader");
+    const x = SPANISH_PAGES[0].text.A1A2;
+    const html = renderToStaticMarkup(createElement(Reader, {
+      slug: "pride-and-prejudice", title: "Pride and Prejudice", levelId: "A1A2", levelLabel: "A1–A2", length: 50, hue: 345, scenes: [{ n: 1, caption: "A" }],
+      variants: [{ lang: "es", dict: SPANISH_DICT, pages: [{ n: 1, text: x.text, scene: 1, target: { translation: x.translation, keys: x.keys, art: SPANISH_PAGES[0].art, bg: SPANISH_PAGES[0].bg } }] }],
+    }));
+    expect(html).toContain('aria-label="Reading settings"');
+    for (const s of ["Pages read", "XP earned", "Words saved", "lx-cheer", "lx-hello"]) expect(html, s).toContain(s);
   });
 });

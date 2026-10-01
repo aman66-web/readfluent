@@ -396,6 +396,18 @@ const pt: Catalog = {
   "reader.noMeaning": "O significado aparece aqui no app de verdade.",
   "reader.noAudio": "O áudio toca aqui no app de verdade",
   "reader.switchLang": "Ver outro idioma (demonstração)",
+  "reader.settings": "Configurações de leitura",
+  "reader.textSize": "Tamanho do texto",
+  "reader.underline": "Sublinhar as palavras-chave",
+  "reader.glossUnder": "{language} embaixo de cada página",
+  "reader.yourWords": "Suas palavras",
+  "reader.yourWordsSub": "Elas voltam como flashcards, logo antes de você esquecer.",
+  "reader.noneSaved": "Nada salvo ainda. Toque em uma palavra e depois em Salvar palavra.",
+  "reader.removeWord": "Remover {word}",
+  "reader.pagesRead": "Páginas lidas",
+  "reader.xpEarned": "XP ganho",
+  "reader.wordsSaved": "Palavras salvas",
+  "reader.close": "Fechar",
   "photo.placeholder": "Foto provisória",
 
   /* ── offline and privacy ── */

@@ -405,6 +405,18 @@ export const EN = {
   "reader.noMeaning": "The meaning appears here in the real app.",
   "reader.noAudio": "Audio plays here in the real app",
   "reader.switchLang": "Preview another language (demo)",
+  "reader.settings": "Reading settings",
+  "reader.textSize": "Text size",
+  "reader.underline": "Underline the key words",
+  "reader.glossUnder": "{language} under each page",
+  "reader.yourWords": "Your words",
+  "reader.yourWordsSub": "They come back as flashcards, just before you'd forget them.",
+  "reader.noneSaved": "Nothing saved yet. Tap a word, then Save word.",
+  "reader.removeWord": "Remove {word}",
+  "reader.pagesRead": "Pages read",
+  "reader.xpEarned": "XP earned",
+  "reader.wordsSaved": "Words saved",
+  "reader.close": "Close",
   "photo.placeholder": "Photo placeholder",
 
   /* ── offline and privacy ── */

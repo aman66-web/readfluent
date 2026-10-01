@@ -399,6 +399,18 @@ const uk: Catalog = {
   "reader.noMeaning": "Значення з'явиться тут у справжньому застосунку.",
   "reader.noAudio": "Звук відтворюється тут у справжньому застосунку",
   "reader.switchLang": "Переглянути іншою мовою (демо)",
+  "reader.settings": "Налаштування читання",
+  "reader.textSize": "Розмір тексту",
+  "reader.underline": "Підкреслювати ключові слова",
+  "reader.glossUnder": "Під кожною сторінкою: {language}",
+  "reader.yourWords": "Твої слова",
+  "reader.yourWordsSub": "Вони повертаються у вигляді карток якраз перед тим, як ти їх забудеш.",
+  "reader.noneSaved": "Поки що нічого не збережено. Торкнися слова, а потім «Зберегти слово».",
+  "reader.removeWord": "Видалити {word}",
+  "reader.pagesRead": "Прочитано сторінок",
+  "reader.xpEarned": "Зароблено XP",
+  "reader.wordsSaved": "Збережено слів",
+  "reader.close": "Закрити",
   "photo.placeholder": "Місце для фото",
 
   /* ── offline and privacy ── */

@@ -395,6 +395,18 @@ const ja: Catalog = {
   "reader.noMeaning": "意味は本物のアプリでここに表示されます。",
   "reader.noAudio": "音声は本物のアプリでここで再生されます",
   "reader.switchLang": "ほかの言語をプレビュー（デモ）",
+  "reader.settings": "読書の設定",
+  "reader.textSize": "文字サイズ",
+  "reader.underline": "重要な単語に下線を引く",
+  "reader.glossUnder": "各ページの下に{language}を表示",
+  "reader.yourWords": "保存した単語",
+  "reader.yourWordsSub": "忘れる直前にフラッシュカードで復習できます。",
+  "reader.noneSaved": "まだ何も保存されていません。単語をタップして、「単語を保存」を押してください。",
+  "reader.removeWord": "{word}を削除",
+  "reader.pagesRead": "読んだページ",
+  "reader.xpEarned": "獲得XP",
+  "reader.wordsSaved": "保存した単語数",
+  "reader.close": "閉じる",
   "photo.placeholder": "写真の仮置き",
 
   /* ── offline and privacy ── */

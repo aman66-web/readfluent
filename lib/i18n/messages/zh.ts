@@ -395,6 +395,18 @@ const zh: Catalog = {
   "reader.noMeaning": "释义会在正式版应用中显示在这里。",
   "reader.noAudio": "音频会在正式版应用中在这里播放",
   "reader.switchLang": "预览其他语言（演示）",
+  "reader.settings": "阅读设置",
+  "reader.textSize": "文字大小",
+  "reader.underline": "给关键词加下划线",
+  "reader.glossUnder": "每页下方显示{language}",
+  "reader.yourWords": "你的单词",
+  "reader.yourWordsSub": "它们会做成闪卡，在你快要忘记之前回来找你。",
+  "reader.noneSaved": "还没有收藏。点一下单词，再点收藏单词。",
+  "reader.removeWord": "移除{word}",
+  "reader.pagesRead": "已读页数",
+  "reader.xpEarned": "获得的 XP",
+  "reader.wordsSaved": "已收藏单词",
+  "reader.close": "关闭",
   "photo.placeholder": "图片占位",
 
   /* ── offline and privacy ── */

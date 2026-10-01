@@ -397,6 +397,18 @@ const hi: Catalog = {
   "reader.noMeaning": "असली ऐप में मतलब यहाँ दिखेगा।",
   "reader.noAudio": "असली ऐप में ऑडियो यहाँ चलेगा",
   "reader.switchLang": "दूसरी भाषा में झलक देखें (डेमो)",
+  "reader.settings": "पढ़ने की सेटिंग",
+  "reader.textSize": "टेक्स्ट का आकार",
+  "reader.underline": "मुख्य शब्दों को रेखांकित करें",
+  "reader.glossUnder": "हर पेज के नीचे {language}",
+  "reader.yourWords": "आपके शब्द",
+  "reader.yourWordsSub": "भूलने से ठीक पहले ये फ़्लैशकार्ड बनकर लौट आते हैं।",
+  "reader.noneSaved": "अभी तक कुछ सहेजा नहीं गया। किसी शब्द पर टैप करें, फिर शब्द सहेजें दबाएँ।",
+  "reader.removeWord": "{word} हटाएँ",
+  "reader.pagesRead": "पढ़े गए पेज",
+  "reader.xpEarned": "कमाए गए XP",
+  "reader.wordsSaved": "सहेजे गए शब्द",
+  "reader.close": "बंद करें",
   "photo.placeholder": "फ़ोटो की जगह",
 
   /* ── offline and privacy ── */

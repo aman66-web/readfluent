@@ -397,6 +397,18 @@ const de: Catalog = {
   "reader.noMeaning": "Die Bedeutung erscheint hier in der echten App.",
   "reader.noAudio": "Hier wird in der echten App Audio abgespielt",
   "reader.switchLang": "Andere Sprache ansehen (Demo)",
+  "reader.settings": "Leseeinstellungen",
+  "reader.textSize": "Textgröße",
+  "reader.underline": "Schlüsselwörter unterstreichen",
+  "reader.glossUnder": "{language} unter jeder Seite",
+  "reader.yourWords": "Deine Wörter",
+  "reader.yourWordsSub": "Sie kommen als Lernkarten zurück, kurz bevor du sie vergisst.",
+  "reader.noneSaved": "Noch nichts gespeichert. Tippe auf ein Wort und dann auf Wort speichern.",
+  "reader.removeWord": "{word} entfernen",
+  "reader.pagesRead": "Gelesene Seiten",
+  "reader.xpEarned": "Verdiente XP",
+  "reader.wordsSaved": "Gespeicherte Wörter",
+  "reader.close": "Schließen",
   "photo.placeholder": "Platzhalterfoto",
 
   /* ── offline and privacy ── */

@@ -399,6 +399,18 @@ const nl: Catalog = {
   "reader.noMeaning": "De betekenis verschijnt hier in de echte app.",
   "reader.noAudio": "Audio wordt hier afgespeeld in de echte app",
   "reader.switchLang": "Bekijk een andere taal (demo)",
+  "reader.settings": "Leesinstellingen",
+  "reader.textSize": "Tekstgrootte",
+  "reader.underline": "Onderstreep de kernwoorden",
+  "reader.glossUnder": "{language} onder elke pagina",
+  "reader.yourWords": "Jouw woorden",
+  "reader.yourWordsSub": "Ze komen terug als flashcards, vlak voordat je ze vergeet.",
+  "reader.noneSaved": "Nog niets bewaard. Tik op een woord en kies Woord bewaren.",
+  "reader.removeWord": "Verwijder {word}",
+  "reader.pagesRead": "Gelezen pagina's",
+  "reader.xpEarned": "Verdiende XP",
+  "reader.wordsSaved": "Bewaarde woorden",
+  "reader.close": "Sluiten",
   "photo.placeholder": "Tijdelijke foto",
 
   /* ── offline and privacy ── */

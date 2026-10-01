@@ -397,6 +397,18 @@ const bn: Catalog = {
   "reader.noMeaning": "আসল অ্যাপে এখানে মানে দেখা যাবে।",
   "reader.noAudio": "আসল অ্যাপে এখানে অডিও বাজবে",
   "reader.switchLang": "অন্য ভাষায় প্রিভিউ দেখুন (ডেমো)",
+  "reader.settings": "পড়ার সেটিংস",
+  "reader.textSize": "লেখার আকার",
+  "reader.underline": "গুরুত্বপূর্ণ শব্দের নিচে দাগ দিন",
+  "reader.glossUnder": "প্রতিটি পৃষ্ঠার নিচে {language}",
+  "reader.yourWords": "আপনার শব্দ",
+  "reader.yourWordsSub": "ভুলে যাওয়ার ঠিক আগে এগুলো ফ্ল্যাশকার্ড হয়ে ফিরে আসে।",
+  "reader.noneSaved": "এখনও কিছু সেভ করা হয়নি। একটি শব্দে ট্যাপ করে শব্দটি সেভ করুন চাপুন।",
+  "reader.removeWord": "{word} সরান",
+  "reader.pagesRead": "পড়া পৃষ্ঠা",
+  "reader.xpEarned": "অর্জিত XP",
+  "reader.wordsSaved": "সেভ করা শব্দ",
+  "reader.close": "বন্ধ করুন",
   "photo.placeholder": "ছবির জায়গা",
 
   /* ── offline and privacy ── */
