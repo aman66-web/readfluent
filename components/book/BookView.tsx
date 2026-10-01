@@ -31,7 +31,7 @@ export function BookView({ book }: { book: PreviewBook }) {
       <dl className="mt-6 grid grid-cols-2 gap-3 text-[13px]">
         <div className="rounded-xl border border-border bg-surface p-3">
           <dt className="font-semibold text-faint">{t("book.levels")}</dt>
-          <dd className="mt-0.5 font-semibold">{LEVELS.map((l) => l.label).join(" · ")}</dd>
+          <dd className="mt-0.5 font-semibold" dir="ltr">{LEVELS.map((l, i) => <span key={l.id} className="whitespace-nowrap">{i > 0 && " · "}{l.label}</span>)}</dd>
         </div>
         <div className="rounded-xl border border-border bg-surface p-3">
           <dt className="font-semibold text-faint">{t("book.lengths")}</dt>
@@ -39,10 +39,13 @@ export function BookView({ book }: { book: PreviewBook }) {
         </div>
       </dl>
 
-      <div className="mt-auto pt-8">
+      <p className="mt-3 text-[12px] text-faint">{t("book.versions")}</p>
+
+      {/* The way in stays on screen above the menu, wherever the page is scrolled to. */}
+      <div className="sticky bottom-[calc(env(safe-area-inset-bottom)+5.25rem)] z-30 -mx-5 mt-auto bg-gradient-to-t from-background via-background to-transparent px-5 pb-2 pt-8">
         <ReadSheet slug={book.slug} title={book.title} />
-        <p className="mt-3 text-center text-[12px] text-faint">{t("book.versions")}</p>
       </div>
+
     </main>
   );
 }
