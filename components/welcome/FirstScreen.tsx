@@ -4,40 +4,47 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 import { DotNumber } from "@/components/DotMatrix";
 import { ART, ArtDefs } from "@/components/welcome/art";
-import { APP_NAME, TAGLINE } from "@/lib/brand";
+import { APP_NAME, BRAND, TAGLINE } from "@/lib/brand";
 
 /**
- * The screen the app opens on: a wall of the app's own pictures drifting past in
- * the dark, and under it the name, one line, and the way in.
+ * The screen the app opens on: a wall of book covers drifting past in the dark,
+ * and under it the name, one line, and the way in.
  *
- * The layout, timing and motion are the first screen of the app this one was
- * adapted from, kept exactly: the wall is tilted and fades into the same black
- * ground, the rows slide slowly in opposite directions and every drawing keeps
- * its own small motion; under reduced motion all of it holds still. The name is
- * spelt in lamps — a dot-matrix readout — switching on one after another. Only
- * the pictures are new: reading, not money.
+ * Each cover is the shape of a book (two units wide to three tall) with its
+ * title and author across the top and a small drawn icon below, so the first
+ * thing anybody sees is what is in the library: real books. The rows slide slowly
+ * in opposite directions and every icon keeps its own small motion; under reduced
+ * motion all of it holds still. The name is spelt in lamps — a dot-matrix
+ * readout — switching on one after another, with a cyan glow rising behind it.
+ *
+ * The layout and timing come from the first screen of the app this one was
+ * adapted from; the covers, colours and copy are ReadFluent's own. Every title is
+ * a public-domain classic, so the real name goes on the real cover.
  */
 export function FirstScreen({ onStart }: { onStart: () => void }) {
   // "ReadFluent" → READ over FLUENT, one word per line: a 5x7 grid is about six
   // characters across on a phone, so two words side by side do not fit.
   const [top, bottom] = APP_NAME.split(/(?=[A-Z])/);
+  // "Real books. Your level." — the second sentence picked out in the brand colour.
+  const [first, ...rest] = TAGLINE.split(/(?<=\.)\s+/);
 
   return (
     <main className="first relative flex h-[100dvh] flex-col overflow-clip text-white">
+      <div className="first-glow" aria-hidden />
       <Wall />
       <div className="relative z-[1] flex shrink-0 flex-col items-center px-7 pb-[calc(env(safe-area-inset-bottom)+1rem)] text-center">
-        <h1 className="flex flex-col items-center gap-[7px]" aria-label={APP_NAME}>
-          <DotNumber value={top} cell={7} color="#FFD27A" field fieldColor="rgba(255,255,255,.055)" stagger label="" />
-          {bottom && <DotNumber value={bottom} cell={7} color="#F26A3A" field fieldColor="rgba(255,255,255,.055)" stagger label="" />}
+        <h1 className="first-name flex flex-col items-center gap-[8px]" aria-label={APP_NAME}>
+          <DotNumber value={top} cell={8} color={BRAND.light} field fieldColor="rgba(255,255,255,.07)" stagger label="" />
+          {bottom && <DotNumber value={bottom} cell={8} color={BRAND.bright} field fieldColor="rgba(255,255,255,.07)" stagger label="" />}
         </h1>
-        <p className="ed-serif wel-in mt-5 text-[22px] italic leading-snug text-white/80" style={{ animationDelay: "700ms" }}>
-          {TAGLINE}
+        <p className="first-tagline ed-serif wel-in mt-5 text-[23px] italic leading-snug text-white/85" style={{ animationDelay: "700ms" }}>
+          {first}{rest.length > 0 && <> <span style={{ color: BRAND.light }}>{rest.join(" ")}</span></>}
         </p>
         <button
           type="button"
           onClick={onStart}
-          className="first-start wel-in mt-8 inline-flex h-[58px] w-full select-none items-center justify-center gap-2.5 rounded-full bg-white px-6 text-[17px] font-semibold tracking-[-0.01em] text-[#0a0a0c] transition-[transform,background-color] duration-[140ms] ease-[cubic-bezier(.22,1,.36,1)] active:scale-[0.98]"
-          style={{ animationDelay: "900ms" }}
+          className="first-start wel-in mt-7 inline-flex h-[58px] w-full select-none items-center justify-center gap-2.5 rounded-full px-6 text-[17px] font-semibold tracking-[-0.01em] transition-[transform,filter] duration-[140ms] ease-[cubic-bezier(.22,1,.36,1)] active:scale-[0.98]"
+          style={{ animationDelay: "900ms", background: BRAND.bright, color: BRAND.ink }}
         >
           Get started
           <span className="grid size-8 shrink-0 place-items-center rounded-full bg-black/10">
@@ -65,48 +72,55 @@ interface Piece {
   r?: number;
 }
 
-interface Tile {
-  /** The tile's ground. */
+export interface Cover {
+  /** The cover's ground. */
   bg: string;
-  /** Line art on a light ground is ink; on a dark one, white. */
+  /** A light ground: dark title and ink. */
   light?: boolean;
+  /** The title, one string per line, broken by hand so no word is split. */
+  title: readonly string[];
+  /** Title size in px; long words take less. */
+  size?: number;
+  author: string;
+  /** The icon, drawn in a 200 × 150 area. */
   pieces: readonly Piece[];
 }
 
-/* Each tile is 200 across, drawn from art.tsx's pieces. Dark and light grounds
-   alternate along a row and down the columns, so the wall reads as a wall of
-   pictures rather than a stripe. */
-const T = {
-  book: { bg: "#1C1C1F", pieces: [{ id: "glowWarm", x: 100, y: 100, s: 0.85 }, { id: "book", x: 100, y: 104, s: 0.95 }, { id: "sparkles", x: 100, y: 100, s: 0.9 }] },
-  quote: { bg: "#F3EDE3", light: true, pieces: [{ id: "quote", x: 106, y: 98, s: 0.92 }] },
-  levels: { bg: "#231A4A", pieces: [{ id: "ripple", x: 100, y: 110, s: 0.85 }, { id: "levels", x: 100, y: 108, s: 0.92 }] },
-  word: { bg: "#1F5F5B", pieces: [{ id: "sentence", x: 100, y: 70, s: 1 }, { id: "wordcard", x: 100, y: 128, s: 0.95 }] },
-  page: { bg: "#F4EFE6", light: true, pieces: [{ id: "pagecard", x: 100, y: 100, s: 0.95, r: -4 }] },
-  globe: { bg: "#17223F", pieces: [{ id: "orbit", x: 100, y: 100, s: 1 }, { id: "globe", x: 100, y: 100, s: 0.95 }] },
-  audio: { bg: "#F5B83D", light: true, pieces: [{ id: "headphones", x: 100, y: 84, s: 0.95 }, { id: "soundbars", x: 100, y: 142, s: 0.95 }] },
-  cards: { bg: "#26262A", pieces: [{ id: "flashcards", x: 100, y: 100, s: 1.05 }] },
-  shelf: { bg: "#0F3B38", pieces: [{ id: "rays", x: 100, y: 96, s: 0.8 }, { id: "glowGold", x: 100, y: 110, s: 0.6 }, { id: "shelf", x: 100, y: 96, s: 0.95 }] },
-  progress: { bg: "#F7D6E0", light: true, pieces: [{ id: "progress", x: 100, y: 92, s: 0.98 }, { id: "tick", x: 152, y: 150, s: 0.9 }] },
-  lamp: { bg: "#102A22", pieces: [{ id: "glowGold", x: 100, y: 110, s: 0.85 }, { id: "lamp", x: 100, y: 100, s: 0.95 }] },
-  turtle: { bg: "#5B1236", pieces: [{ id: "glowPink", x: 100, y: 100, s: 0.75 }, { id: "turtle", x: 92, y: 128, s: 1.05 }, { id: "bubble", x: 100, y: 56, s: 0.95 }] },
-  stack: { bg: "#9CC3E0", light: true, pieces: [{ id: "stack", x: 100, y: 124, s: 0.9 }, { id: "cup", x: 100, y: 100, s: 0.9 }, { id: "steam", x: 100, y: 100, s: 0.9 }] },
-  lens: { bg: "#EE5A2A", pieces: [{ id: "aa", x: 96, y: 100, s: 1 }, { id: "lens", x: 134, y: 130, s: 1 }] },
-  frame: { bg: "#2B1B3D", pieces: [{ id: "frame", x: 100, y: 100, s: 0.95, r: -5 }] },
-  words: { bg: "#182A4A", pieces: [{ id: "wordlist", x: 100, y: 104, s: 0.95 }] },
-} satisfies Record<string, Tile>;
+/* Fifteen public-domain classics, three rows of five, with dark and light
+   grounds alternating along each row and down the columns so the wall reads as
+   a wall of books rather than a stripe. The palette is cyan, teal, navy, violet
+   and cream — no orange. The icon is the book in one picture. */
+const C = {
+  pride: { bg: "#0B3B4A", title: ["Pride and", "Prejudice"], size: 16, author: "JANE AUSTEN", pieces: [{ id: "glowCyan", x: 100, y: 78, s: 0.9 }, { id: "book", x: 100, y: 82, s: 0.92 }, { id: "sparkles", x: 100, y: 78, s: 0.9 }] },
+  frank: { bg: "#1B2250", title: ["Franken-", "stein"], size: 16, author: "MARY SHELLEY", pieces: [{ id: "glowCyan", x: 100, y: 78, s: 0.95 }, { id: "bolt", x: 100, y: 78, s: 1 }] },
+  hound: { bg: "#E3F8FC", light: true, title: ["The Hound", "of the", "Baskervilles"], size: 13, author: "ARTHUR CONAN DOYLE", pieces: [{ id: "lens", x: 98, y: 82, s: 0.95 }] },
+  alice: { bg: "#F3EDE3", light: true, title: ["Alice in", "Wonderland"], size: 14, author: "LEWIS CARROLL", pieces: [{ id: "steam", x: 100, y: 72, s: 0.8 }, { id: "cup", x: 100, y: 88, s: 0.82 }] },
+  verne: { bg: "#0E7490", title: ["Around the", "World in", "Eighty Days"], size: 14, author: "JULES VERNE", pieces: [{ id: "orbit", x: 100, y: 80, s: 1 }, { id: "globe", x: 100, y: 80, s: 0.9 }] },
+
+  darwin: { bg: "#123D2F", title: ["On the Origin", "of Species"], size: 13.5, author: "CHARLES DARWIN", pieces: [{ id: "glowPale", x: 100, y: 84, s: 0.8 }, { id: "turtle", x: 98, y: 86, s: 1 }] },
+  medit: { bg: "#1C1C1F", title: ["Meditations"], size: 14, author: "MARCUS AURELIUS", pieces: [{ id: "glowLamp", x: 100, y: 84, s: 0.85 }, { id: "lamp", x: 100, y: 80, s: 0.92 }] },
+  machine: { bg: "#2A1B5A", title: ["The Time", "Machine"], size: 16, author: "H. G. WELLS", pieces: [{ id: "stars", x: 100, y: 78, s: 1 }, { id: "hourglass", x: 100, y: 80, s: 0.9 }] },
+  dracula: { bg: "#0A1428", title: ["Dracula"], size: 19, author: "BRAM STOKER", pieces: [{ id: "stars", x: 100, y: 78, s: 1.05 }, { id: "glowPale", x: 98, y: 78, s: 0.8 }, { id: "moon", x: 100, y: 80, s: 0.9 }] },
+  treasure: { bg: "#22D3EE", light: true, title: ["Treasure", "Island"], size: 16, author: "R. L. STEVENSON", pieces: [{ id: "compass", x: 100, y: 80, s: 0.95 }, { id: "needle", x: 100, y: 80, s: 0.95 }] },
+
+  moby: { bg: "#164E63", title: ["Moby-Dick"], size: 14.5, author: "HERMAN MELVILLE", pieces: [{ id: "waves", x: 100, y: 96, s: 1 }, { id: "whale", x: 96, y: 84, s: 0.74 }, { id: "spout", x: 96, y: 84, s: 0.74 }] },
+  great: { bg: "#D4F4FA", light: true, title: ["Great", "Expectations"], size: 13, author: "CHARLES DICKENS", pieces: [{ id: "frame", x: 100, y: 82, s: 0.88, r: -4 }] },
+  women: { bg: "#3B1D4A", title: ["Little", "Women"], size: 17, author: "LOUISA M. ALCOTT", pieces: [{ id: "glowPale", x: 100, y: 82, s: 0.7 }, { id: "stack", x: 100, y: 84, s: 0.92 }] },
+  war: { bg: "#26262A", title: ["The Art", "of War"], size: 16, author: "SUN TZU", pieces: [{ id: "glowCyan", x: 100, y: 82, s: 0.85 }, { id: "pawn", x: 100, y: 82, s: 1 }] },
+  walden: { bg: "#0F3B38", title: ["Walden"], size: 19, author: "H. D. THOREAU", pieces: [{ id: "glowPale", x: 100, y: 82, s: 0.8 }, { id: "leaf", x: 100, y: 82, s: 1.02 }] },
+} satisfies Record<string, Cover>;
 
 /** The wall, row by row: exported for the tests. */
-export const ROWS: readonly (readonly Tile[])[] = [
-  [T.book, T.quote, T.levels, T.word],
-  [T.page, T.globe, T.audio, T.cards],
-  [T.shelf, T.progress, T.lamp, T.turtle],
-  [T.stack, T.lens, T.frame, T.words],
+export const ROWS: readonly (readonly Cover[])[] = [
+  [C.pride, C.frank, C.hound, C.alice, C.verne],
+  [C.darwin, C.medit, C.machine, C.dracula, C.treasure],
+  [C.moby, C.great, C.women, C.war, C.walden],
 ];
 
 function Wall() {
   return (
     <div className="first-wall pointer-events-none relative min-h-0 flex-1 overflow-hidden" aria-hidden>
-      {/* The gradients every tile fills with, defined once. */}
+      {/* The gradients every icon fills with, defined once. */}
       <svg width={0} height={0} className="absolute">
         <defs><ArtDefs /></defs>
       </svg>
@@ -114,8 +128,9 @@ function Wall() {
         {ROWS.map((row, r) => (
           <div key={r} className={`first-row flex w-max gap-3 ${r % 2 ? "first-row-back" : ""}`}
                style={{ animationDelay: `${-r * 17}s` } as CSSProperties}>
-            {/* Twice over, so the row loops without a seam. */}
-            {[...row, ...row].map((tile, i) => <TileView key={i} tile={tile} />)}
+            {/* Three times over and slid by a third, so the row loops without a
+                seam however wide the screen is. */}
+            {[...row, ...row, ...row].map((cover, i) => <CoverView key={i} cover={cover} />)}
           </div>
         ))}
       </div>
@@ -124,28 +139,36 @@ function Wall() {
 }
 
 /**
- * How each piece moves on the wall: every tile has something alive in it — the
- * book floats, the quote sways, the tortoise plods, the steam drifts, the glows
- * breathe. The motions are larger than a drawing's own idle ones, because a tile
- * is small and seen for a moment as it slides past. Kept on an inner group, never
- * on the one that places the piece (a transform attribute and an animated
- * transform on one element fight).
+ * How each piece moves on a cover: every icon has something alive in it — the
+ * book floats, the tortoise plods, the steam drifts, the lightning flickers, the
+ * needle swings, the glows breathe. The motions are larger than a drawing's own
+ * idle ones, because a cover is small and seen for a moment as it slides past.
+ * Kept on an inner group, never on the one that places the piece (a transform
+ * attribute and an animated transform on one element fight).
  */
 export const MOTION: Readonly<Record<string, string>> = {
-  glowWarm: "fs-glow", glowGold: "fs-glow", glowPink: "fs-glow", ripple: "fs-pulse", rays: "fs-turn", sparkles: "fs-glow",
-  book: "fs-float", quote: "fs-sway", levels: "fs-breathe", sentence: "fs-breathe", wordcard: "fs-float",
-  pagecard: "fs-drift", globe: "fs-float", orbit: "fs-turn", headphones: "fs-breathe", soundbars: "fs-pulse",
-  flashcards: "fs-sway", shelf: "fs-breathe", progress: "fs-breathe", tick: "fs-thump", lamp: "fs-breathe",
-  turtle: "fs-drive", bubble: "fs-float", stack: "fs-breathe", cup: "fs-breathe", steam: "fs-drift",
-  aa: "fs-float", lens: "fs-sway", frame: "fs-flutter", wordlist: "fs-flutter",
+  glowCyan: "fs-glow", glowPale: "fs-glow", glowLamp: "fs-glow", sparkles: "fs-glow", stars: "fs-glow",
+  book: "fs-float", bolt: "fs-glow", lens: "fs-sway", cup: "fs-breathe", steam: "fs-drift",
+  globe: "fs-float", orbit: "fs-turn", turtle: "fs-drive", lamp: "fs-breathe", hourglass: "fs-sway",
+  moon: "fs-float", compass: "fs-breathe", needle: "fs-sway", whale: "fs-float", spout: "fs-glow",
+  waves: "fs-drift", frame: "fs-flutter", stack: "fs-breathe", pawn: "fs-float", leaf: "fs-sway",
 };
 
-function TileView({ tile }: { tile: Tile }) {
-  const vars = { "--ink": tile.light ? "#232323" : "#F4F1EA", "--paper": tile.light ? "#FFFFFF" : "#F4F1EA" } as CSSProperties;
+function CoverView({ cover }: { cover: Cover }) {
+  const vars = {
+    "--ink": cover.light ? "#16323B" : "#EAFBFF",
+    "--paper": cover.light ? "#FFFFFF" : "#F1FAFC",
+  } as CSSProperties;
   return (
-    <div className="first-tile size-[132px] shrink-0 overflow-hidden rounded-[24px]" style={{ background: tile.bg, ...vars }}>
-      <svg viewBox="0 0 200 200" className="block size-full">
-        {tile.pieces.map((p, i) => {
+    <div className="first-cover" style={{ background: cover.bg, color: cover.light ? "#06202B" : "#EAFBFF", ...vars }}>
+      <div className="first-cover-head">
+        <p className="first-cover-title ed-serif" style={{ fontSize: cover.size ?? 15 }}>
+          {cover.title.map((line, i) => <span key={i} className="block whitespace-nowrap">{line}</span>)}
+        </p>
+        <p className="first-cover-author">{cover.author}</p>
+      </div>
+      <svg viewBox="0 0 200 150" className="first-cover-art" preserveAspectRatio="xMidYMid meet">
+        {cover.pieces.map((p, i) => {
           const draw = ART[p.id];
           return draw ? (
             <g key={i} transform={`translate(${p.x} ${p.y}) rotate(${p.r ?? 0}) scale(${p.s ?? 1})`}>

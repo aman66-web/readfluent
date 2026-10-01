@@ -1,9 +1,9 @@
 /* The first screen (components/welcome/FirstScreen).
-   Taken from the app this one was adapted from: the same wall, timing and
-   motion. A wall of pictures on a pure black ground, tilted and sliding slowly
-   in rows that alternate direction, fading out at the top and into the name
-   below. Each row holds its tiles twice and slides by half its width, so it
-   loops without a seam; the padding at its end is the gap the seam would be. */
+   The wall, timing and motion come from the app this one was adapted from: a wall
+   on a pure black ground, tilted and sliding slowly in rows that alternate
+   direction, fading out at the top and into the name below. Each row holds its
+   covers three times and slides by a third of its width, so it loops without a
+   seam on any screen; the padding at its end is the gap the seam would be. */
 
 .first { background: #000; font-family: var(--font-jakarta), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
 .ed-serif { font-family: var(--font-display), "Iowan Old Style", Georgia, serif; }
@@ -17,8 +17,35 @@
 .first-rows { transform: translateY(-50%) rotate(-9deg); }
 .first-row { padding-inline-end: .75rem; animation: first-slide 70s linear infinite; }
 .first-row-back { animation-direction: reverse; }
-@keyframes first-slide { from { transform: translateX(0) } to { transform: translateX(-50%) } }
-.first-tile { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .07); }
+@keyframes first-slide { from { transform: translateX(0) } to { transform: translateX(-33.3333%) } }
+
+/* A soft cyan light rising from behind the name. */
+.first-glow {
+  position: absolute; inset: auto -25% 0 -25%; height: 62%; pointer-events: none;
+  background: radial-gradient(48% 56% at 50% 78%, rgba(34, 211, 238, .24), rgba(34, 211, 238, .08) 55%, transparent 75%);
+}
+
+/* A book: two units wide to three tall, a spine down the left with its hinge,
+   a diagonal gloss, and a shadow it casts on the dark. The title and author sit
+   across the top; the icon fills the rest. */
+.first-cover {
+  position: relative; display: flex; flex-direction: column; flex: none;
+  width: 112px; height: 168px; overflow: hidden;
+  border-radius: 5px 10px 10px 5px;
+  box-shadow: 0 16px 28px -14px rgba(0, 0, 0, .85), inset 0 0 0 1px rgba(255, 255, 255, .08);
+}
+.first-cover::before { /* the spine and the hinge groove beside it */
+  content: ""; position: absolute; inset: 0 auto 0 0; width: 10px; pointer-events: none;
+  background: linear-gradient(90deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .06) 58%, rgba(255, 255, 255, .16) 62%, rgba(0, 0, 0, .12) 70%, transparent);
+}
+.first-cover::after { /* the gloss */
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(118deg, rgba(255, 255, 255, .18), rgba(255, 255, 255, 0) 38%, rgba(0, 0, 0, .14));
+}
+.first-cover-head { padding: 14px 10px 0 19px; }
+.first-cover-title { margin: 0; font-weight: 700; line-height: 1.08; letter-spacing: -.01em; }
+.first-cover-author { margin: 7px 0 0; font-size: 6.4px; font-weight: 700; letter-spacing: .13em; opacity: .62; line-height: 1.3; }
+.first-cover-art { display: block; width: 100%; flex: 1; min-height: 0; margin-top: auto; padding: 0 4px 4px 8px; }
 .first-link { color: rgba(255, 255, 255, .78); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 
 /* Something arriving a beat after the thing above it: a row, a card, a line. */
@@ -59,4 +86,12 @@
   .first-row, .wel-in, .lamp-stagger,
   .fs-float, .fs-breathe, .fs-drift, .fs-flutter, .fs-sway, .fs-spin, .fs-turn, .fs-pulse, .fs-glow, .fs-drive, .fs-thump, .fs-hop { animation: none; }
   .wel-in { opacity: 1; transform: none; }
+}
+
+/* A short screen (a phone with the browser's bars showing): the name and the
+   line shrink a little so the wall keeps the room it needs to read as a wall. */
+@media (max-height: 760px) {
+  .first-name { zoom: .84; }
+  .first-tagline { font-size: 21px; margin-top: 1rem; }
+  .first-start { margin-top: 1.25rem; }
 }

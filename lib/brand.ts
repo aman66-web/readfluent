@@ -26,5 +26,22 @@ export const STORAGE_PREFIX = "readfluent.";
 /** `readfluent.<name>.v<version>` — the one way a storage key is built. */
 export const storageKey = (name: string, version = 1): string => `${STORAGE_PREFIX}${name}.v${version}`;
 
+/**
+ * The brand colour is cyan (owner, 1 Oct 2026). `bright` is for dark grounds (the
+ * first screen, buttons on black); `deep` is for text and fills on the app's light
+ * paper, where bright cyan would be too faint to read. app/globals.css carries the
+ * same values as CSS tokens, and tests/unit/brand.test.ts holds the two together.
+ */
+export const BRAND = {
+  /** Light cyan: highlights and the first line of the name. */
+  light: "#A5F3FC",
+  /** The brand cyan on dark. */
+  bright: "#22D3EE",
+  /** The brand cyan on paper: passes contrast for text. */
+  deep: "#0E7490",
+  /** The dark that sits on bright cyan (button text). */
+  ink: "#04222B",
+} as const;
+
 /** Cache Storage names start with this (public/sw.js uses the same literal; tests/unit/sw.test.ts holds them together). */
 export const CACHE_PREFIX = "readfluent-";

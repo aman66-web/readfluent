@@ -78,7 +78,7 @@ export const LAMP_MIN_CELL = 6;
 export interface DotNumberProps {
   /** What to display. Anything not in the glyph table is skipped. */
   value: string | number;
-  /** Grid pitch in px. The lamp itself is a third of this. */
+  /** Grid pitch in px. The lamp itself is a little over a third of this. */
   cell?: number;
   color?: string;
   /** Draw the unlit lamps too, which is what makes it read as a panel. */
@@ -96,7 +96,7 @@ export interface DotNumberProps {
 export function DotNumber({
   value,
   cell = 9,
-  color = "#FFD27A",
+  color = "#A5F3FC",
   field = false,
   fieldColor = "rgba(255,255,255,.06)",
   glow = true,
@@ -117,7 +117,7 @@ export function DotNumber({
   const chars = String(value).toUpperCase().split("").filter((c) => c in GLYPHS);
   if (chars.length === 0) return null;
 
-  const r = cell * 0.33;
+  const r = cell * 0.37;
   const lit: { x: number; y: number }[] = [];
   const dim: { x: number; y: number }[] = [];
 
