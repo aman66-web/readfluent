@@ -1,0 +1,32 @@
+# Files `cap sync` must never copy into a native build.
+#
+# Belt and braces. capacitor.config.ts points `webDir` at native-shell/ (one
+# small page), so nothing here should ever be in reach — but the app this
+# project's engineering was adapted from pointed `webDir` at `public/`
+# with no ignore file and shipped a 239 MB audio folder inside every native
+# build for months. If `webDir` is ever changed, these keep the weight out.
+# scripts/check-native-bundle.mjs fails the build if either layer is missing.
+#
+# Patterns are relative to `webDir`. `name/` is a directory anywhere;
+# `*.ext` is an extension; a bare name is a file or directory of that name.
+
+# Content is data served from storage, never part of the app (CLAUDE.md).
+content/
+books/
+photos/
+audio/
+voice/
+narration/
+site/
+
+# Media by extension, wherever it sits.
+*.mp3
+*.m4a
+*.wav
+*.ogg
+*.opus
+*.aac
+*.flac
+*.mp4
+*.mov
+*.webm

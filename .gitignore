@@ -1,0 +1,76 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+# ...except the template. README tells a new checkout to copy this file, so
+# leaving it ignored means a fresh clone cannot follow its own setup steps.
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+.env
+.env.local
+.vercel
+coverage
+
+# Scratch Playwright scripts (review agents, audits)
+.rv-*.mjs
+.check.mjs
+.probe.mjs
+.audit.mjs
+.smoke.mjs
+.measure.mjs
+
+# Xcode (ios/App is committed; only per-developer/build state is not)
+ios/App/App.xcodeproj/xcuserdata/
+ios/App/App.xcworkspace/xcuserdata/
+ios/App/App.xcworkspace/xcshareddata/swiftpm/xcode/package.xcworkspace/xcshareddata/
+ios/App/build/
+ios/App/Pods/
+ios/DerivedData/
+*.xcuserstate
+
+# Signing material: generated outside the repo and never committed (CLAUDE.md).
+*.keystore
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+android/keystore.properties
+android/app/keystore.properties
+google-services.json
+GoogleService-Info.plist

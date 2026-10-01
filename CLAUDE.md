@@ -39,7 +39,7 @@ the reader downloads. Photos are kept once per book, audio is optional in a down
 
 Offline (1 Oct 2026): nothing persists unless the reader explicitly downloads it. One
 cache bucket per downloaded version (text, audio) plus one per book (its photos); the app shell is cached once. Reading online
-leaves nothing behind.
+writes nothing to the app's own storage (Cache Storage); the browser's ordinary HTTP cache is separate and the OS may evict it.
 
 Accounts and money (1 Oct 2026, working defaults, owner to confirm): reading needs no
 account (anonymous-first, as in the template's `proxy.ts`); signing in is for buying and
@@ -54,7 +54,7 @@ store keystores. `.env*`, keystores and `.p8`/`.p12` files are never committed.
 
 One line per milestone when it is done: date, what shipped, anything the next person must know.
 
-- M0 Seed and strip — not started
+- M0 Seed and strip — done 1 Oct 2026. Template copied from `span/revise@8a7f13c` (keep-set only, 1.05 MB tracked), identity renamed everywhere, `lib/brand.ts` is the one source for name/scheme/bundle id/storage prefix, three new migrations proved on real PostgreSQL 16, shell-only service worker verified in a browser, `.capacitorignore` + stub `webDir` + `check:native`, guard test for the old identity. Next 16.3.8 (critical advisory fixed). **Not done, by design:** `cap sync` on a Mac (first step of M11); sync, SRS, narration, offline downloads and the sign-in form are adapted in M6–M9 from the pinned commit. Placeholders to replace before M11: `PRODUCTION_URL`, Google client ids, Apple team id, icons, `PRICE`.
 - M1 Content contract — not started
 - M2 Prove the content pipeline — not started (go/no-go on scale recorded in DECISIONS.md)
 - M3 Library and the pick flow — not started

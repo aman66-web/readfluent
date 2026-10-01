@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CAPACITOR_DEBUG</key>
+	<string>$(CAPACITOR_DEBUG)</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+        <string>ReadFluent</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+    <false/>
+    <key>UISceneConfigurations</key>
+    <dict>
+      <key>UIWindowSceneSessionRoleApplication</key>
+      <array>
+        <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+            <key>UISceneStoryboardFile</key>
+            <string>Main</string>
+        </dict>
+      </array>
+    </dict>
+	</dict>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+	<!-- The way an OAuth sign-in gets back into the app. Google refuses to
+	     complete sign-in inside an embedded WebView (its own security policy
+	     against "embedded user-agents") — so Google and Apple sign-in both
+	     open in the SYSTEM browser (see Browser.open in lib/auth/native.ts),
+	     and this is how that browser hands control back: Supabase's redirect
+	     goes to readfluent://auth/callback, iOS matches the scheme below,
+	     and the app receives it as an appUrlOpen event. TODO: if you change
+	     appId in capacitor.config.ts, this scheme can stay whatever you like —
+	     it does not have to match the bundle id — but it does have to match
+	     what you add to Supabase's Redirect URLs allow-list (README, "Google
+	     and Apple sign-in"). -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>readfluent</string>
+			</array>
+		</dict>
+		<!-- Google's iOS client id, reversed. Google's own sheet hands the
+		     result back by opening this scheme, so without it the sign-in
+		     completes and then has nowhere to return to. It must stay exactly
+		     in step with iosClientId in lib/auth/google.json. -->
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.REPLACE_WITH_IOS_CLIENT_ID_BEFORE_ENABLING_GOOGLE</string>
+			</array>
+		</dict>
+	</array>
+	<!-- App-Bound Domains: the sites this app's WebView may load, and the only
+	     way iOS lets a WKWebView run a service worker — which is what keeps a
+	     downloaded book readable with no connection (public/sw.js). Paired with
+	     ios.limitsNavigationsToAppBoundDomains in capacitor.config.ts. The
+	     WebView itself then cannot navigate anywhere else; nothing here needs
+	     to: Google and Apple sign-in open as native sheets or in the system
+	     browser (lib/auth/native.ts), and a link to another site is handed to
+	     Safari by Capacitor before the WebView would try it. localhost is
+	     Capacitor's own, which its docs ask to be listed too. At most ten
+	     entries; a custom domain for the site has to be added here as well. -->
+	<key>WKAppBoundDomains</key>
+	<array>
+		<string>readfluent.vercel.app</string>
+		<string>localhost</string>
+	</array>
+	<!-- The app's only encryption is HTTPS through the operating system, which is
+	     exempt. Declaring it here means App Store Connect stops asking the export
+	     compliance question on every build upload. -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
+</plist>

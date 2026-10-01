@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/*
+ * ReadFluent's ground and ink.
+ *
+ * Mobile-first: everything is designed at 375px wide and the app column is
+ * capped at 440px, centred, on anything wider (app/layout.tsx).
+ *
+ * Warm paper and dark ink, because this is an app for reading. Placeholder
+ * tokens until the reader screens are designed (M4); screens use the tokens
+ * and never a hex, so retinting is one edit here and the Android launcher
+ * background (values/ic_launcher_background.xml), capacitor.config.ts's
+ * backgroundColor and the manifest follow it.
+ */
+:root {
+  --background: #f6f1e7;
+  --foreground: #1d1a16;
+  --surface: #fbf8f1;
+  --border: #e2d9c8;
+  --muted: #5d564b;
+  --faint: #8a8173;
+  --accent: #c2522b;
+  --error: #b3261e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-error: var(--error);
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
+  --font-reading: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+}
+
+html {
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  /* The page column is clipped here, not on <html>: a screen wider than the
+     column must not scroll sideways, and on <html> `hidden` still lets a
+     script or a focused field scroll it. */
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Keeps content clear of the status bar and the home indicator, because the
+   native shell runs the page edge to edge (capacitor.config.ts, contentInset
+   "never"; viewport-fit=cover in app/layout.tsx). */
+.safe-top { padding-top: env(safe-area-inset-top); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

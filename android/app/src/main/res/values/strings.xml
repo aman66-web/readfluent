@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ReadFluent</string>
+    <string name="title_activity_main">ReadFluent</string>
+    <string name="package_name">com.amanmarwaha.ReadFluent</string>
+    <!-- The actual scheme lib/auth/native.ts and the AndroidManifest intent-filter
+         use is "readfluent", not this bundle-id-shaped default Capacitor
+         generates — nothing in this project's own code reads this specific
+         string, but it should still say what's true rather than what's stock. -->
+    <string name="custom_url_scheme">readfluent</string>
+</resources>
