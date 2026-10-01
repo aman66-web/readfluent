@@ -1,5 +1,6 @@
 "use client";
 
+import { Modal } from "@/components/Modal";
 import Link from "next/link";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { SignIn, accountAvailable } from "@/components/onboarding/SignIn";
@@ -62,13 +63,8 @@ const Pill = ({ on, onClick, children }: { on: boolean; onClick: () => void; chi
 function Confirm({ title, body, yes, cancel, busy, error, onYes, onCancel }: {
   title: string; body: string; yes: string; cancel: string; busy: boolean; error: string | null; onYes: () => void; onCancel: () => void;
 }) {
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape" && !busy) onCancel(); };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [busy, onCancel]);
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center" role="alertdialog" aria-modal="true" aria-label={title}>
+    <Modal className="fixed inset-0 z-50 flex items-end justify-center" role="alertdialog" label={title} onClose={() => { if (!busy) onCancel(); }}>
       <button aria-label={cancel} className="fade-in absolute inset-0 bg-black/45" onClick={busy ? undefined : onCancel} />
       <div className="sheet-up relative w-full max-w-[440px] rounded-t-[24px] bg-background px-5 pb-[calc(env(safe-area-inset-bottom)+1.25rem)] pt-4 shadow-2xl">
         <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-border" aria-hidden />
@@ -79,7 +75,7 @@ function Confirm({ title, body, yes, cancel, busy, error, onYes, onCancel }: {
                 className="mt-5 h-13 w-full rounded-full bg-error px-5 py-3.5 text-[16px] font-semibold text-white active:opacity-85 disabled:opacity-60">{yes}</button>
         <button type="button" onClick={onCancel} disabled={busy} className="mt-1 h-12 w-full text-[15px] font-semibold text-muted disabled:opacity-50">{cancel}</button>
       </div>
-    </div>
+    </Modal>
   );
 }
 

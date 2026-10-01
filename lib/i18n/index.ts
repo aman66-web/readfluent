@@ -78,6 +78,8 @@ export function translate(catalog: Catalog | null, id: MessageId, vars?: Record<
 
 /** Languages written right to left. */
 export const RTL_LANGUAGES: readonly LanguageCode[] = ["ar", "ur"];
+/** What goes between two sentences: a space, except in the languages written without spaces. */
+export const sentenceGap = (code: LanguageCode): string => (code === "zh" || code === "ja" ? "" : " ");
 export const isRtl = (code: LanguageCode) => RTL_LANGUAGES.includes(code);
 
 /* ── numbers, lists, dates and names, in the reader's language ───────────── */

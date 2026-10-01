@@ -44,7 +44,17 @@ let configured = false;
  * different account) — it switches identity with `logIn` instead of
  * reconfiguring, which RevenueCat's SDK does not support and does not need.
  */
-export async function configurePurchases(userId: string): Promise<void> {
+export function configurePurchases(userId: string): Promise<void> {
+  // One call at a time: the auth listener fires straight away while the first lookup is still
+  // pending, and two overlapping calls would both find `configured` false and configure twice.
+  // A failure is swallowed here (purchases being unavailable must not break the app) and does not stop the next call.
+  queue = queue.then(() => configureNow(userId)).catch(() => {});
+  return queue;
+}
+
+let queue: Promise<void> = Promise.resolve();
+
+async function configureNow(userId: string): Promise<void> {
   if (!purchasesAvailable()) return;
   const key = apiKey();
   if (!key) return;

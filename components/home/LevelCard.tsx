@@ -50,9 +50,9 @@ export function LevelCard({ xp, learn }: { xp: number; learn: LanguageCode | nul
           {s.next && [33.33, 66.66].map((at) => <span key={at} className="absolute inset-y-0 w-[2px] bg-[#0A4B62]/70" style={{ insetInlineStart: `${at}%` }} aria-hidden />)}
         </div>
         {s.next ? (
-          <div className="tabular mt-2 flex items-baseline justify-between gap-3 text-[13px] font-semibold">
-            <span className="text-white/90">{t("xp.progress", { into: n(s.into), span: n(s.span) })}</span>
-            <span>{t("xp.toGo", { xp: n(s.toGo), next: s.next })}</span>
+          <div className="tabular mt-2 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5 text-[13px] font-semibold">
+            <span className="whitespace-nowrap text-white/90">{t("xp.progress", { into: n(s.into), span: n(s.span) })}</span>
+            <span className="whitespace-nowrap">{t("xp.toGo", { xp: n(s.toGo), next: s.next })}</span>
           </div>
         ) : (
           <p className="mt-2 text-[13px] font-semibold">{t("xp.top")}</p>

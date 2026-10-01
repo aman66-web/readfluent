@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { Modal } from "@/components/Modal";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { LENGTHS, LEVELS, levelById, type LevelId, type Length } from "@/lib/content/limits";
 import { CHOICE_KEY, parseChoice, saveChoice } from "@/lib/progress";
@@ -57,7 +58,7 @@ export function ReadSheet({ slug, title }: { slug: string; title: string }) {
       </button>
 
       {open && (
-        <div className="fixed inset-0 z-50 flex items-end justify-center" role="dialog" aria-modal="true" aria-label={t("sheet.readLabel", { title })}>
+        <Modal className="fixed inset-0 z-50 flex items-end justify-center" label={t("sheet.readLabel", { title })} onClose={() => setOpen(false)}>
           <button aria-label={t("ui.close")} className="fade-in absolute inset-0 bg-black/45" onClick={() => setOpen(false)} />
           <div className="sheet-up safe-bottom relative w-full max-w-[440px] rounded-t-[22px] bg-background px-5 [--pb:1.5rem] pt-3 shadow-2xl">
             <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-border" aria-hidden />
@@ -110,7 +111,7 @@ export function ReadSheet({ slug, title }: { slug: string; title: string }) {
               </>
             )}
           </div>
-        </div>
+        </Modal>
       )}
     </>
   );

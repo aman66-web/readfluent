@@ -5,7 +5,8 @@ import type { CSSProperties } from "react";
 import { DotNumber } from "@/components/DotMatrix";
 import { ART, ArtDefs } from "@/components/welcome/art";
 import { APP_NAME, BRAND } from "@/lib/brand";
-import { useRich, useT } from "@/lib/i18n/react";
+import { sentenceGap } from "@/lib/i18n";
+import { useLocale, useRich, useT } from "@/lib/i18n/react";
 
 /**
  * The screen the app opens on: a wall of book covers drifting past in the dark,
@@ -28,6 +29,7 @@ export function FirstScreen({ onStart, onSignIn, onBack }: { onStart: () => void
   const [top, bottom] = APP_NAME.split(/(?=[A-Z])/);
   // "Real books. Your level." — the second sentence picked out in the brand colour.
   const t = useT();
+  const locale = useLocale();
   const rich = useRich();
 
   return (
@@ -48,7 +50,7 @@ export function FirstScreen({ onStart, onSignIn, onBack }: { onStart: () => void
           {bottom && <DotNumber value={bottom} cell={8} color="#0891B2" glow={false} field fieldColor="rgba(14,116,144,.06)" stagger label="" />}
         </h1>
         <p className="first-tagline ed-serif wel-in mt-5 text-[23px] italic leading-snug" style={{ animationDelay: "700ms" }}>
-          {t("first.tagline1")} <span style={{ color: BRAND.deep }}>{t("first.tagline2")}</span>
+          {t("first.tagline1")}{sentenceGap(locale)}<span style={{ color: BRAND.deep }}>{t("first.tagline2")}</span>
         </p>
         <button
           type="button"

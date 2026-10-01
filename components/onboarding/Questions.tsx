@@ -137,7 +137,7 @@ export function WhyScreen({ at, of, learn, value, onToggle, onBack, onContinue }
               <button key={id} type="button" role="checkbox" aria-checked={on} onClick={() => onToggle(id)}
                       className={`guide-card wel-in relative flex flex-col overflow-hidden rounded-[20px] text-start ${on ? "guide-card-on" : ""}`}
                       style={{ animationDelay: `${850 + i * 70}ms` }}>
-                <span className="block aspect-[16/9] w-full" style={{ background: PICTURES[id].bg, ["--ink" as string]: "#EAFBFF", ["--paper" as string]: "#F1FAFC" }}>
+                <span aria-hidden className="block aspect-[16/9] w-full" style={{ background: PICTURES[id].bg, ["--ink" as string]: "#EAFBFF", ["--paper" as string]: "#F1FAFC" }}>
                   <svg viewBox="0 0 200 112" className="block size-full" preserveAspectRatio="xMidYMid slice">{PICTURES[id].pieces}</svg>
                 </span>
                 <span className="flex min-h-[54px] items-center gap-2 px-3 py-2 text-[14px] font-semibold leading-[1.2]">

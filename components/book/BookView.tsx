@@ -21,12 +21,12 @@ export function BookView({ book }: { book: PreviewBook }) {
         <BookCover title={book.title} author={book.author} hue={category?.hue ?? 30} className="w-[132px] shrink-0" />
         <div className="min-w-0 self-end pb-1">
           <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-accent">{category ? t(`cat.${category.id}`) : ""}</p>
-          <h1 className="mt-1 text-[24px] font-bold leading-[1.15] tracking-[-0.015em]" dir="auto">{book.title}</h1>
+          <h1 lang="en" className="mt-1 text-[24px] font-bold leading-[1.15] tracking-[-0.015em]" dir="auto">{book.title}</h1>
           <p className="mt-1 text-[14px] text-muted">{book.kind === "classic" ? t("book.by", { author: book.author }) : t("book.inspired", { author: book.author })}</p>
         </div>
       </div>
 
-      <p dir="ltr" className="font-reading mt-6 text-[18px] leading-[1.55]">{book.blurb}</p>
+      <p lang="en" dir="ltr" className="font-reading mt-6 text-[18px] leading-[1.55]">{book.blurb}</p>
 
       <dl className="mt-6 grid grid-cols-2 gap-3 text-[13px]">
         <div className="rounded-xl border border-border bg-surface p-3">
