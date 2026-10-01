@@ -3,13 +3,13 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
-import { Lex, type Mood } from "@/components/mascot/Lex";
+import { Mascot, type Mood } from "@/components/mascot/Mascot";
 import { PrimaryButton } from "./ui";
 
 /**
  * The guide: the first-run screens where the app talks the reader through it. The
  * frame is what they share — a back arrow, the run's progress, and Continue at the
- * foot — then the guide itself (Lex, the mascot), and the guide saying its line:
+ * foot — then the guide itself (Dewey, the mascot), and the guide saying its line:
  * the pages turn faster while the words arrive one after another,
  * and the line sits large on the white ground rather than in a bubble.
  *
@@ -54,10 +54,10 @@ export function useGuide(line: string) {
 }
 export type Guide = ReturnType<typeof useGuide>;
 
-/** How many times the reader has tapped something on this screen: Lex hops and cheers at each. */
+/** How many times the reader has tapped something on this screen: Dewey hops and cheers at each. */
 const Taps = createContext(0);
 
-/** The things on a screen that are answers (not the way back or on): a tap on one of them makes Lex cheer. */
+/** The things on a screen that are answers (not the way back or on): a tap on one of them makes Dewey cheer. */
 const TAPPABLE = "button, [role=radio], [role=checkbox], label, a";
 
 /** The frame every guide screen sits in. */
@@ -73,7 +73,7 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
   showContinue?: boolean;
   /** What the button says, where "Continue" undersells it (the last screen). */
   continueLabel?: string;
-  /** Off on the screen where Lex says hello: just the back arrow, no steps. */
+  /** Off on the screen where Dewey says hello: just the back arrow, no steps. */
   progress?: boolean;
   children: ReactNode;
 }) {
@@ -126,7 +126,7 @@ export function GuideHead({ guide, line, sub, mood = "hello" }: { guide: Guide; 
     <div className="shrink-0">
       <div className="flex items-center gap-3">
         {/* A new element at each tap, so the hop starts again. */}
-        <GuideLex key={taps} mood={mood} talking={guide.talking} cheered={taps > 0} />
+        <GuideMascot key={taps} mood={mood} talking={guide.talking} cheered={taps > 0} />
         <p className="ed-serif ob-muted text-[14px] italic">{t("guide.name")}</p>
       </div>
       <Said line={line} durationMs={guide.totalMs} className="mt-3 text-[29px] font-light leading-[1.12] tracking-[-0.025em]" />
@@ -138,10 +138,10 @@ export function GuideHead({ guide, line, sub, mood = "hello" }: { guide: Guide; 
 }
 
 /**
- * Lex beside the line: it pops in as the screen arrives, and at each tap on an answer it hops
+ * Dewey beside the line: it pops in as the screen arrives, and at each tap on an answer it hops
  * and cheers for a moment before settling back into the screen's own mood.
  */
-function GuideLex({ mood, talking, cheered }: { mood: Mood; talking: boolean; cheered: boolean }) {
+function GuideMascot({ mood, talking, cheered }: { mood: Mood; talking: boolean; cheered: boolean }) {
   const [on, setOn] = useState(cheered);
   useEffect(() => {
     if (!cheered) return;
@@ -150,7 +150,7 @@ function GuideLex({ mood, talking, cheered }: { mood: Mood; talking: boolean; ch
   }, [cheered]);
   return (
     <span className={`block shrink-0 ${cheered ? "go-hop" : "go-enter"}`}>
-      <Lex mood={on ? "cheer" : mood} talking={talking && !on} crop="head" className="w-[66px]" />
+      <Mascot mood={on ? "cheer" : mood} talking={talking && !on} className="w-[88px]" />
     </span>
   );
 }

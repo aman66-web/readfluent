@@ -1,19 +1,18 @@
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
-import { Lex, type Mood } from "@/components/mascot/Lex";
+import { Mascot, type Mood } from "@/components/mascot/Mascot";
 
 const MOODS: Mood[] = ["hello", "reading", "cheer", "sleepy", "ready"];
-const draw = (props: Parameters<typeof Lex>[0]) => renderToStaticMarkup(createElement(Lex, props));
+const draw = (props: Parameters<typeof Mascot>[0]) => renderToStaticMarkup(createElement(Mascot, props));
 
-describe("Lex, the mascot", () => {
-  it("draws in every pose, with its round glasses, and hidden from screen readers", () => {
+describe("Dewey, the mascot", () => {
+  it("draws in every pose, with big glossy eyes, and hidden from screen readers", () => {
     for (const mood of MOODS) {
       const svg = draw({ mood });
       expect(svg, mood).toContain(`lx-${mood}`);
       expect(svg, mood).toContain('aria-hidden="true"');
-      // Two glasses lenses and the bridge.
-      expect((svg.match(/r="17.5"/g) ?? []).length, mood).toBe(2);
+      expect(svg, mood).toContain("lx-head");
     }
   });
 

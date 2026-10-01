@@ -38,7 +38,7 @@ const indonesian: Catalog = {
   "languages.link": "Bahasa",
 
   /* ── hello ── */
-  "hello.bubble": "Hai! Aku Lex. Selamat datang di {app}!",
+  "hello.bubble": "Hai! Aku {name}. Selamat datang di {app}!",
   "quick.bubble": "Hanya {n} pertanyaan singkat, lalu kamu bisa mulai membaca!",
   "quick.sub": "Kami akan menyiapkan level dan bukumu agar aplikasi ini cocok untukmu, dan kami buat secepat mungkin.",
   "go.bubble": "Ayo mulai!",

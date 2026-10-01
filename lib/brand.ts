@@ -12,6 +12,8 @@
  * projects together.
  */
 export const APP_NAME = "ReadFluent";
+/** The mascot's name: the cyan bookworm who guides the first run. One place, so a new name is one edit. */
+export const MASCOT_NAME = "Dewey";
 export const TAGLINE = "Real books. Your level.";
 
 /** The reverse-DNS id registered with Apple and Google. Must match capacitor.config.ts and both native projects. */

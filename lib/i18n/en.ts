@@ -48,7 +48,7 @@ export const EN = {
   "languages.link": "Languages",
 
   /* ── hello ── */
-  "hello.bubble": "Hi there! I'm Lex. Welcome to {app}!",
+  "hello.bubble": "Hi there! I'm {name}. Welcome to {app}!",
   "quick.bubble": "Just {n} quick questions, then you can start reading!",
   "quick.sub": "We'll set up your level and your books so the app fits you, and keep it as quick as we can.",
   "go.bubble": "Let's go!",

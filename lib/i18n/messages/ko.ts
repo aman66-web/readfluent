@@ -38,7 +38,7 @@ const ko: Catalog = {
   "languages.link": "언어",
 
   /* ── hello ── */
-  "hello.bubble": "안녕하세요! 저는 Lex예요. {app}에 오신 걸 환영해요!",
+  "hello.bubble": "안녕하세요! 저는 {name}예요. {app}에 오신 걸 환영해요!",
   "quick.bubble": "간단한 질문 {n}개만 답하면 바로 읽기를 시작할 수 있어요!",
   "quick.sub": "레벨과 책을 설정해서 앱이 딱 맞게 준비되도록 할게요. 최대한 빠르게 끝낼게요.",
   "go.bubble": "시작해 볼까요!",

@@ -38,11 +38,11 @@ describe("the languages", () => {
 describe("looking a message up", () => {
   it("fills in {values}, and falls back to English for a language without the message", async () => {
     const { translate } = await import("@/lib/i18n");
-    expect(translate(null, "hello.bubble", { app: "ReadFluent" })).toBe("Hi there! I'm Lex. Welcome to ReadFluent!");
-    const partial: Record<string, string> = { ...EN, "hello.bubble": "¡Hola! Soy Lex. Te damos la bienvenida a {app}." };
-    expect(translate(partial as never, "hello.bubble", { app: "ReadFluent" })).toBe("¡Hola! Soy Lex. Te damos la bienvenida a ReadFluent.");
+    expect(translate(null, "hello.bubble", { app: "ReadFluent", name: "Dewey" })).toBe("Hi there! I'm Dewey. Welcome to ReadFluent!");
+    const partial: Record<string, string> = { ...EN, "hello.bubble": "¡Hola! Soy {name}. Te damos la bienvenida a {app}." };
+    expect(translate(partial as never, "hello.bubble", { app: "ReadFluent", name: "Dewey" })).toBe("¡Hola! Soy Dewey. Te damos la bienvenida a ReadFluent.");
     // A value that was not given stays visible rather than turning into "undefined".
-    expect(translate(null, "hello.bubble")).toBe("Hi there! I'm Lex. Welcome to {app}!");
+    expect(translate(null, "hello.bubble")).toBe("Hi there! I'm {name}. Welcome to {app}!");
     expect(translate(null, "path.days", { n: 114 })).toBe("114 days");
   });
 

@@ -2,14 +2,14 @@
 
 import { useEffect, useRef, type ReactNode } from "react";
 import { ART, ArtDefs } from "@/components/welcome/art";
-import { APP_NAME } from "@/lib/brand";
+import { APP_NAME, MASCOT_NAME } from "@/lib/brand";
 import { languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { MessageId } from "@/lib/i18n/en";
 import { HEARD_IDS, HEARD_OTHER_MAX, WHY_IDS, type HeardId, type WhyId } from "@/lib/onboarding/answers";
 import type { LanguageCode } from "@/lib/onboarding/languages";
 import { GuideFrame, GuideHead, Said, splitWords, useGuide } from "./Guide";
-import { Lex, type Mood } from "@/components/mascot/Lex";
+import { Mascot, type Mood } from "@/components/mascot/Mascot";
 import { QUESTION_STEPS } from "@/lib/onboarding/steps";
 import { TickIcon } from "./ui";
 
@@ -19,15 +19,15 @@ interface Nav { at: number; of: number; onBack: () => void; onContinue: () => vo
 /* ── hello ───────────────────────────────────────────────────────────────── */
 
 /**
- * The screen after "Get started": the guide says hello — Lex, the mascot,
+ * The screen after "Get started": the guide says hello — Dewey, the mascot,
  * large in the middle of the white, and what it is saying set large under it.
  */
 /**
- * Lex in the middle of a bare screen, a speech bubble over its head, and (under it) a quieter
- * line. The words of the bubble arrive one by one and Lex's mouth moves while they do. Just a
- * back arrow and Continue: nothing else on the screen to look at but Lex.
+ * Dewey in the middle of a bare screen, a speech bubble over its head, and (under it) a quieter
+ * line. The words of the bubble arrive one by one and Dewey's mouth moves while they do. Just a
+ * back arrow and Continue: nothing else on the screen to look at but Dewey.
  */
-function LexSays({ at, of, line, sub, mood, onBack, onContinue }: Nav & { line: string; sub: string; mood: Mood }) {
+function MascotSays({ at, of, line, sub, mood, onBack, onContinue }: Nav & { line: string; sub: string; mood: Mood }) {
   const guide = useGuide(`${line} ${sub}`);
   const lineMs = Math.round(guide.perWordMs * splitWords(line, useLocale()).words.length);
   return (
@@ -37,31 +37,31 @@ function LexSays({ at, of, line, sub, mood, onBack, onContinue }: Nav & { line: 
           <Said line={line} durationMs={lineMs} className="text-[22px] font-medium leading-[1.25] tracking-[-0.015em]" />
           <span className="absolute -bottom-[10px] start-1/2 size-[18px] -translate-x-1/2 rotate-45 border-b-2 border-e-2 border-[var(--ob-line)] bg-white rtl:translate-x-1/2" aria-hidden />
         </div>
-        <Lex mood={mood} talking={guide.talking} className="mt-3 w-[min(62vw,250px)]" />
+        <Mascot mood={mood} talking={guide.talking} className="mt-3 w-[min(62vw,250px)]" />
         <p className="wel-in ob-muted mt-3 max-w-[19rem] text-[16px] leading-snug" style={{ animationDelay: `${lineMs + 200}ms` }}>{sub}</p>
       </div>
     </GuideFrame>
   );
 }
 
-/** Right after "Get started": Lex waves and says hello. */
+/** Right after "Get started": Dewey waves and says hello. */
 export function HelloScreen(nav: Nav) {
   const t = useT();
-  return <LexSays {...nav} mood="hello" line={t("hello.bubble", { app: APP_NAME })} sub={t("hello.sub")} />;
+  return <MascotSays {...nav} mood="hello" line={t("hello.bubble", { app: APP_NAME, name: MASCOT_NAME })} sub={t("hello.sub")} />;
 }
 
-/** Then Lex says how quick the questions are: the number is the number of screens that ask something. */
+/** Then Dewey says how quick the questions are: the number is the number of screens that ask something. */
 export function QuickScreen(nav: Nav) {
   const t = useT();
-  return <LexSays {...nav} mood="ready" line={t("quick.bubble", { n: QUESTION_STEPS.length })} sub={t("quick.sub")} />;
+  return <MascotSays {...nav} mood="ready" line={t("quick.bubble", { n: QUESTION_STEPS.length })} sub={t("quick.sub")} />;
 }
 
 /* ── go ─────────────────────────────────────────────────────────────────── */
 
-/** How long Lex celebrates before the run moves on by itself. */
+/** How long Dewey celebrates before the run moves on by itself. */
 const GO_MS = 2600;
 
-/** Confetti: where each piece flies to (px from Lex), how it turns, its colour and when it leaves. */
+/** Confetti: where each piece flies to (px from Dewey), how it turns, its colour and when it leaves. */
 const CONFETTI = [
   { x: -120, y: -150, r: -200, c: "var(--ob-cyan)", d: 480 }, { x: -70, y: -190, r: 140, c: "var(--ob-deep)", d: 520 },
   { x: -20, y: -210, r: -90, c: "var(--ob-cyan2)", d: 460 }, { x: 40, y: -200, r: 220, c: "var(--ob-teal)", d: 540 },
@@ -73,7 +73,7 @@ const CONFETTI = [
 ] as const;
 
 /**
- * After "just N quick questions" Lex celebrates: a jump and a spin, confetti, "Let's go!" in a
+ * After "just N quick questions" Dewey celebrates: a jump and a spin, confetti, "Let's go!" in a
  * bubble. Then the run moves on by itself to the first question; there is nothing to press.
  */
 export function GoScreen({ at, of, onBack, onContinue }: Nav) {
@@ -97,7 +97,7 @@ export function GoScreen({ at, of, onBack, onContinue }: Nav) {
               <span key={n} className="go-bit" style={{ "--x": `${c.x}px`, "--y": `${c.y}px`, "--r": `${c.r}deg`, background: c.c, animationDelay: `${c.d}ms` } as React.CSSProperties} />
             ))}
           </div>
-          <div className="go-lex"><Lex mood="cheer" className="w-full" /></div>
+          <div className="go-lex"><Mascot mood="cheer" className="w-full" /></div>
         </div>
       </div>
     </GuideFrame>

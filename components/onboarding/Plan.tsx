@@ -117,7 +117,7 @@ export function PathScreen({ at, of, level, minutes, onBack, onContinue }: Nav &
 }
 
 /**
- * "Here's what you can achieve in 3 months" — Lex works it out from the level they said and the
+ * "Here's what you can achieve in 3 months" — Dewey works it out from the level they said and the
  * minutes they chose: the level they would reach (with what that level can do), the hours,
  * pages and books of reading. The same arithmetic as the dashboard, and said to be an estimate.
  */

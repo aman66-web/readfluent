@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Lex } from "@/components/mascot/Lex";
+import { Mascot } from "@/components/mascot/Mascot";
 import { useT } from "@/lib/i18n/react";
 import { installKind, promptInstall } from "@/lib/pwa/install";
 import { stageCode } from "@/lib/xp/levels";
@@ -11,7 +11,7 @@ import { PrimaryButton } from "./ui";
 interface Nav { at: number; of: number; onBack: () => void; onContinue: () => void }
 
 /**
- * "Add me to your home screen!" — Lex asks, a phone's home screen shows a Lex tile sitting among
+ * "Add me to your home screen!" — Dewey asks, a phone's home screen shows a Dewey tile sitting among
  * the icons (two looks, taking turns), Continue puts the app there and "Not now" moves on.
  *
  * What Continue does depends on the phone (lib/pwa/install.ts): where the browser has its own
@@ -58,7 +58,7 @@ export function HomeScreen({ at, of, onBack, onContinue }: Nav) {
   );
 }
 
-/** The top of a phone's home screen: the Lex tile (two looks, taking turns) among empty icons. */
+/** The top of a phone's home screen: the Dewey tile (two looks, taking turns) among empty icons. */
 function Phone() {
   return (
     <div className="home-phone mx-auto h-full w-full max-w-[17rem]">
@@ -67,11 +67,11 @@ function Phone() {
         <div className="home-tile">
           <div className="home-look home-look-a">
             <span className="home-level">{stageCode("A2", 1)}</span>
-            <Lex mood="ready" crop="head" className="home-lex" />
+            <Mascot mood="ready" crop="head" className="home-lex" />
           </div>
           <div className="home-look home-look-b">
             <span className="home-level">{stageCode("B1", 2)}</span>
-            <Lex mood="sleepy" crop="head" className="home-lex" />
+            <Mascot mood="sleepy" crop="head" className="home-lex" />
           </div>
         </div>
         {Array.from({ length: 12 }, (_, n) => <span key={n} className="home-icon" />)}

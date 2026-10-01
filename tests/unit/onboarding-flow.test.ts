@@ -26,7 +26,7 @@ describe("the steps", () => {
     expect(AFTER_ONBOARDING).toBe("/");
   });
 
-  it("have Lex say hello straight after the welcome, then ask which languages, then how much of it they know", () => {
+  it("have Dewey say hello straight after the welcome, then ask which languages, then how much of it they know", () => {
     expect(STEP_IDS[STEP_IDS.indexOf("intro") + 1]).toBe("hello");
     expect(STEP_IDS[STEP_IDS.indexOf("hello") + 1]).toBe("quick");
     expect(STEP_IDS[STEP_IDS.indexOf("quick") + 1]).toBe("go");
@@ -159,7 +159,7 @@ describe("every screen renders", () => {
   it("with the question each one asks", async () => {
     const h = await html();
     const text = (s: string) => s.replace(/<[^>]+>/g, "");
-    expect(text(h.hello)).toContain("I&#x27;m Lex. Welcome to ReadFluent!");
+    expect(text(h.hello)).toContain("I&#x27;m Dewey. Welcome to ReadFluent!");
     expect(h.hello).not.toContain("role=\"progressbar\"");
     expect(text(h.why)).toContain("Why are you learning Spanish?");
     for (const label of ["Talk with friends and family", "Travel", "My job or business", "School or exams", "Move or live abroad", "Books, films and music", "Just for fun", "Other"]) expect(text(h.why)).toContain(label);
@@ -319,7 +319,7 @@ describe("the app's language, the very first screen", () => {
   });
 });
 
-describe("Lex says how quick it will be", () => {
+describe("Dewey says how quick it will be", () => {
   it("counts the questions from the screens that ask something, and they all come after it and before the end", () => {
     expect(QUESTION_STEPS.length).toBeGreaterThan(3);
     const at = STEP_IDS.indexOf("quick");
@@ -329,7 +329,7 @@ describe("Lex says how quick it will be", () => {
     }
   });
 
-  it("says that number in the bubble, with Lex waiting to begin", async () => {
+  it("says that number in the bubble, with Dewey waiting to begin", async () => {
     const { QuickScreen } = await import("@/components/onboarding/Questions");
     const html = renderToStaticMarkup(createElement(QuickScreen, { at: 3, of: 20, onBack: () => {}, onContinue: () => {} }));
     const t = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
@@ -340,14 +340,14 @@ describe("Lex says how quick it will be", () => {
   });
 });
 
-describe("Lex celebrates, then the run moves on by itself", () => {
+describe("Dewey celebrates, then the run moves on by itself", () => {
   it("makes the celebration an interlude that Back steps over", () => {
     expect(isInterlude("go")).toBe(true);
     expect(isInterlude("quick")).toBe(false);
     expect(read("app/welcome/page.tsx")).toContain("isInterlude(STEP_IDS[i - 1]) ? i - 2 : i - 1");
   });
 
-  it("shows Lex cheering and 'Let's go!', with no progress bar and nothing to press", async () => {
+  it("shows Dewey cheering and 'Let's go!', with no progress bar and nothing to press", async () => {
     const { GoScreen } = await import("@/components/onboarding/Questions");
     const html = renderToStaticMarkup(createElement(GoScreen, { at: 4, of: 21, onBack: () => {}, onContinue: () => {} }));
     expect(html).toContain("lx-cheer");
@@ -357,14 +357,14 @@ describe("Lex celebrates, then the run moves on by itself", () => {
     expect(html).not.toContain("ob-primary");
   });
 
-  it("puts Lex beside the line on every screen that asks or shows something", () => {
+  it("puts Dewey beside the line on every screen that asks or shows something", () => {
     for (const f of ["Questions", "Tongues", "Level", "Plan", "Tour", "Last", "Ready"]) {
       expect(read(`components/onboarding/${f}.tsx`), f).toContain("GuideHead");
     }
   });
 });
 
-describe("Lex asks to be added to the home screen", () => {
+describe("Dewey asks to be added to the home screen", () => {
   it("comes after the promise and before the three-months screen", () => {
     expect(STEP_IDS[STEP_IDS.indexOf("pledge") + 1]).toBe("home");
     expect(STEP_IDS[STEP_IDS.indexOf("home") + 1]).toBe("months");
@@ -391,7 +391,7 @@ describe("installing", () => {
   });
 });
 
-describe("Lex shows what three months adds up to", () => {
+describe("Dewey shows what three months adds up to", () => {
   it("comes right after the home-screen step", () => {
     expect(STEP_IDS[STEP_IDS.indexOf("home") + 1]).toBe("months");
     expect(STEP_IDS[STEP_IDS.indexOf("months") + 1]).toBe("account");
@@ -414,7 +414,7 @@ describe("Lex shows what three months adds up to", () => {
     expect(projectMonths(null, 10).from.level).toBe("A1");
   });
 
-  it("shows Lex's line, the level, the three totals and the estimate note", async () => {
+  it("shows Dewey's line, the level, the three totals and the estimate note", async () => {
     const { MonthsScreen } = await import("@/components/onboarding/Plan");
     const html = renderToStaticMarkup(createElement(MonthsScreen, { at: 17, of: 23, level: "A1", minutes: 10, onBack: () => {}, onContinue: () => {} }));
     const t = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");

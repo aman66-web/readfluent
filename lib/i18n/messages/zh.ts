@@ -38,7 +38,7 @@ const zh: Catalog = {
   "languages.link": "语言",
 
   /* ── hello ── */
-  "hello.bubble": "你好呀！我是 Lex。欢迎来到 {app}！",
+  "hello.bubble": "你好呀！我是 {name}。欢迎来到 {app}！",
   "quick.bubble": "只需回答 {n} 个小问题，就能开始阅读啦！",
   "quick.sub": "我们会设置好你的水平和书单，让应用更适合你，也会尽量快一点完成。",
   "go.bubble": "我们出发吧！",

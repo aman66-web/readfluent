@@ -38,7 +38,7 @@ const ja: Catalog = {
   "languages.link": "言語",
 
   /* ── hello ── */
-  "hello.bubble": "こんにちは！ぼくはLex。{app}へようこそ！",
+  "hello.bubble": "こんにちは！ぼくは{name}。{app}へようこそ！",
   "quick.bubble": "質問はたったの{n}つ！答えたら、すぐ読み始められるよ！",
   "quick.sub": "あなたのレベルと本を設定して、アプリがぴったり合うようにします。できるだけ手早く進めますね。",
   "go.bubble": "さあ、始めよう！",

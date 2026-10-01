@@ -38,7 +38,7 @@ const pt: Catalog = {
   "languages.link": "Idiomas",
 
   /* ── hello ── */
-  "hello.bubble": "Oi! Eu sou o Lex. Boas-vindas ao {app}!",
+  "hello.bubble": "Oi! Eu sou o {name}. Boas-vindas ao {app}!",
   "quick.bubble": "Só {n} perguntinhas rápidas e você já pode começar a ler!",
   "quick.sub": "Vamos ajustar o seu nível e os seus livros para que o app combine com você, e fazer isso o mais rápido possível.",
   "go.bubble": "Vamos lá!",

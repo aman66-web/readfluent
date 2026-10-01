@@ -161,7 +161,7 @@
 .bp-words .bp-w { display: inline-block; animation: bp-word .6s cubic-bezier(.22, 1, .36, 1) both; }
 @keyframes bp-word { from { opacity: 0; transform: translateY(.45em); filter: blur(4px); } to { opacity: 1; transform: none; filter: blur(0); } }
 
-/* The mascot, Lex, is drawn in components/mascot/Lex (its motion is in app/globals.css). Sparks that twinkle: */
+/* The mascot is drawn in components/mascot/Mascot (its motion is in app/globals.css). Sparks that twinkle: */
 .gb-spark { transform-box: fill-box; transform-origin: center; animation: gb-twinkle 3.2s ease-in-out infinite; }
 @keyframes gb-twinkle { 0%, 100% { opacity: .15; transform: scale(.6) } 50% { opacity: 1; transform: scale(1.1) } }
 

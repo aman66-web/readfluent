@@ -31,7 +31,7 @@ const tr: Catalog = {
   "languages.title": "Diller",
   "languages.sub": "Uygulama ilk dilde. Kitaplar ikincisinde.",
   "languages.link": "Diller",
-  "hello.bubble": "Merhaba! Ben Lex. {app}'e hoş geldin!",
+  "hello.bubble": "Merhaba! Ben {name}. {app}'e hoş geldin!",
   "quick.bubble": "Sadece {n} kısa soru, sonra okumaya başlayabilirsin!",
   "quick.sub": "Uygulama sana uysun diye seviyeni ve kitaplarını ayarlayacağız, bunu da elimizden geldiğince hızlı yapacağız.",
   "go.bubble": "Hadi başlayalım!",

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { Lex } from "@/components/mascot/Lex";
+import { Mascot } from "@/components/mascot/Mascot";
 import { useT } from "@/lib/i18n/react";
 import type { MessageId } from "@/lib/i18n/en";
 
@@ -50,8 +50,8 @@ export function RecallView() {
       </ul>
 
       <div className="mt-6 flex items-center gap-4 rounded-[22px] border border-border bg-surface px-4 py-4">
-        {/* Lex dozing off: nothing to review yet. */}
-        <Lex mood="sleepy" className="block h-[84px] w-auto shrink-0" />
+        {/* Dewey dozing off: nothing to review yet. */}
+        <Mascot mood="sleepy" className="block h-[84px] w-auto shrink-0" />
         <p className="text-[14px] leading-snug text-muted">{t("recall.empty")}</p>
       </div>
 

@@ -31,7 +31,7 @@ const ar: Catalog = {
   "languages.title": "اللغات",
   "languages.sub": "التطبيق بالأولى. والكتب بالثانية.",
   "languages.link": "اللغات",
-  "hello.bubble": "أهلًا بك! أنا Lex. مرحبًا بك في {app}!",
+  "hello.bubble": "أهلًا بك! أنا {name}. مرحبًا بك في {app}!",
   "quick.bubble": "فقط {n} أسئلة سريعة، ثم تبدأ القراءة!",
   "quick.sub": "سنضبط مستواك وكتبك ليناسبك التطبيق، وسنجعل ذلك سريعًا قدر الإمكان.",
   "go.bubble": "هيا بنا!",

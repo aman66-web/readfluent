@@ -94,7 +94,7 @@ body {
 /* The menu's pill slides to the tab that is open. */
 .tab-ind { transition: transform .35s cubic-bezier(.3, 1.2, .5, 1), width .3s ease; }
 
-/* ── Lex, the mascot (components/mascot/Lex) ───────────────────────────────── */
+/* ── The mascot (components/mascot/Mascot) ───────────────────────────────── */
 .lx { overflow: visible; }
 /* The small head-and-shoulders avatar shows only what is inside its frame. */
 .lx-cropped { overflow: hidden; }

@@ -40,7 +40,7 @@ const nl: Catalog = {
   "languages.link": "Talen",
 
   /* ── hello ── */
-  "hello.bubble": "Hoi! Ik ben Lex. Welkom bij {app}!",
+  "hello.bubble": "Hoi! Ik ben {name}. Welkom bij {app}!",
   "quick.bubble": "Nog maar {n} korte vragen, dan kun je beginnen met lezen!",
   "quick.sub": "We stellen je niveau en je boeken in zodat de app bij je past, en houden het zo kort als we kunnen.",
   "go.bubble": "Daar gaan we!",

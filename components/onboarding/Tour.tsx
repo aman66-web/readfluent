@@ -10,7 +10,7 @@ import type { MessageId } from "@/lib/i18n/en";
 import { PREVIEW_BOOKS, pagesOf } from "@/lib/preview/catalog";
 import type { ShowId } from "@/lib/onboarding/steps";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
-import type { Mood } from "@/components/mascot/Lex";
+import type { Mood } from "@/components/mascot/Mascot";
 
 /**
  * The guide's tour: five screens, each one line from the guide and one picture of
@@ -23,7 +23,7 @@ import type { Mood } from "@/components/mascot/Lex";
  *   remember   the words you met come back just before you would forget
  *   connect    the books everyone talks about
  */
-/** How Lex looks on each tour screen: reading for the books and words, eager for the rest, cheering at the last. */
+/** How Dewey looks on each tour screen: reading for the books and words, eager for the rest, cheering at the last. */
 const TOUR_MOOD: Record<ShowId, Mood> = { journey: "reading", levels: "ready", words: "reading", remember: "ready", connect: "cheer" };
 
 export function TourScreen({ id, at, of, learn, onBack, onContinue }: {
