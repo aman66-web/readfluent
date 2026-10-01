@@ -40,8 +40,8 @@ const nl: Catalog = {
   "languages.link": "Talen",
 
   /* ── hello ── */
-  "hello.line": "Hoi, welkom bij {app}.",
-  "hello.sub": "Een paar minuten per dag met echte boeken, en een taal begint als de jouwe te voelen.",
+  "hello.bubble": "Hoi! Ik ben Lex. Welkom bij {app}!",
+  "hello.sub":"Een paar minuten per dag met echte boeken, en een taal begint als de jouwe te voelen.",
 
   /* ── focus ── */
 

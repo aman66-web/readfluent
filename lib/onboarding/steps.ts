@@ -2,8 +2,8 @@
  * The first run, as pure rules: which steps there are and in what order.
  *
  * Which language the app itself is in (so the rest can be read) → the welcome (a wall
- * of book covers) → which languages (the one you speak and the
- * one you want to learn) → the guide's hello → how much of it you know (or a
+ * of book covers) → Lex says hello → which languages (the one you speak and the
+ * one you want to learn) → how much of it you know (or a
  * five-minute test that finds out) → why they are learning → where they
  * heard of it → how much time a day they can give it → how
  * long that takes to reach each level → a five-screen tour → where that time
@@ -15,7 +15,7 @@
  * its screens and its copy rewritten for reading.
  */
 export const STEP_IDS = [
-  "app", "intro", "tongues", "hello", "level", "why", "heard", "time", "path",
+  "app", "intro", "hello", "tongues", "level", "why", "heard", "time", "path",
   "journey", "levels", "words", "remember", "connect",
   "future", "pledge", "account", "interests", "ready",
 ] as const;

@@ -26,9 +26,10 @@ describe("the steps", () => {
     expect(AFTER_ONBOARDING).toBe("/");
   });
 
-  it("ask which languages straight after the welcome, then how much of it they know", () => {
-    expect(STEP_IDS[2]).toBe("tongues");
-    expect(STEP_IDS[STEP_IDS.indexOf("hello") + 1]).toBe("level");
+  it("have Lex say hello straight after the welcome, then ask which languages, then how much of it they know", () => {
+    expect(STEP_IDS[STEP_IDS.indexOf("intro") + 1]).toBe("hello");
+    expect(STEP_IDS[STEP_IDS.indexOf("hello") + 1]).toBe("tongues");
+    expect(STEP_IDS[STEP_IDS.indexOf("tongues") + 1]).toBe("level");
   });
 
   it("keep the five tour screens together", () => {
@@ -156,7 +157,8 @@ describe("every screen renders", () => {
   it("with the question each one asks", async () => {
     const h = await html();
     const text = (s: string) => s.replace(/<[^>]+>/g, "");
-    expect(text(h.hello)).toContain("welcome to ReadFluent");
+    expect(text(h.hello)).toContain("I&#x27;m Lex. Welcome to ReadFluent!");
+    expect(h.hello).not.toContain("role=\"progressbar\"");
     expect(text(h.why)).toContain("Why are you learning Spanish?");
     for (const label of ["Talk with friends and family", "Travel", "My job or business", "School or exams", "Move or live abroad", "Books, films and music", "Just for fun", "Other"]) expect(text(h.why)).toContain(label);
     expect(text(h.heard)).toContain("How did you hear about ReadFluent?");

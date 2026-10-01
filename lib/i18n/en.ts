@@ -48,7 +48,7 @@ export const EN = {
   "languages.link": "Languages",
 
   /* ── hello ── */
-  "hello.line": "Hi, welcome to {app}.",
+  "hello.bubble": "Hi there! I'm Lex. Welcome to {app}!",
   "hello.sub": "A few minutes a day with real books, and a language starts to feel like yours.",
 
   /* ── why they are learning ── */

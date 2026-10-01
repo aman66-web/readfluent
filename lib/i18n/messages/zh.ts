@@ -38,8 +38,8 @@ const zh: Catalog = {
   "languages.link": "语言",
 
   /* ── hello ── */
-  "hello.line": "你好，欢迎来到{app}。",
-  "hello.sub": "每天几分钟读真正的好书，一门语言就会慢慢变成你的。",
+  "hello.bubble": "你好呀！我是 Lex。欢迎来到 {app}！",
+  "hello.sub":"每天几分钟读真正的好书，一门语言就会慢慢变成你的。",
 
   /* ── focus ── */
 

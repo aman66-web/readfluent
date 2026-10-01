@@ -55,7 +55,7 @@ export function useGuide(line: string) {
 export type Guide = ReturnType<typeof useGuide>;
 
 /** The frame every guide screen sits in. */
-export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, showContinue = true, continueLabel, children }: {
+export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, showContinue = true, continueLabel, progress = true, children }: {
   /** Which step of the run this is, and how many there are, for the progress. */
   at: number;
   of: number;
@@ -67,6 +67,8 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
   showContinue?: boolean;
   /** What the button says, where "Continue" undersells it (the last screen). */
   continueLabel?: string;
+  /** Off on the screen where Lex says hello: just the back arrow, no steps. */
+  progress?: boolean;
   children: ReactNode;
 }) {
   const t = useT();
@@ -78,13 +80,15 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
         </button>
         {/* The run's steps, one strip each; the ones behind are lit. */}
-        <div className="flex flex-1 gap-1.5" role="progressbar" aria-valuemin={1} aria-valuemax={of} aria-valuenow={at + 1} aria-label={t("guide.progress")}>
-          {Array.from({ length: of }, (_, n) => (
-            <span key={n} className="guide-track h-[3px] flex-1 overflow-hidden rounded-full">
-              <span className="guide-step block h-full origin-left rounded-full rtl:origin-right" style={{ transform: `scaleX(${n <= at ? 1 : 0})` }} />
-            </span>
-          ))}
-        </div>
+        {progress ? (
+          <div className="flex flex-1 gap-1.5" role="progressbar" aria-valuemin={1} aria-valuemax={of} aria-valuenow={at + 1} aria-label={t("guide.progress")}>
+            {Array.from({ length: of }, (_, n) => (
+              <span key={n} className="guide-track h-[3px] flex-1 overflow-hidden rounded-full">
+                <span className="guide-step block h-full origin-left rounded-full rtl:origin-right" style={{ transform: `scaleX(${n <= at ? 1 : 0})` }} />
+              </span>
+            ))}
+          </div>
+        ) : <span className="flex-1" aria-hidden />}
         <span className="size-11 shrink-0" aria-hidden />
       </div>
 

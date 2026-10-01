@@ -23,17 +23,20 @@ interface Nav { at: number; of: number; onBack: () => void; onContinue: () => vo
  */
 export function HelloScreen({ at, of, onBack, onContinue }: Nav) {
   const t = useT();
-  const line = t("hello.line", { app: APP_NAME });
+  const line = t("hello.bubble", { app: APP_NAME });
   const sub = t("hello.sub");
   const guide = useGuide(`${line} ${sub}`);
   const lineMs = Math.round(guide.perWordMs * line.split(/\s+/).length);
   return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
-      <div className="relative flex min-h-0 flex-1 flex-col items-center justify-center pb-6 text-center">
-        <Lex mood="hello" talking={guide.talking} className="w-[min(70vw,290px)]" />
-        <p className="ed-serif ob-muted mt-8 text-[15px] italic">{t("guide.name")}</p>
-        <Said line={line} durationMs={lineMs} className="mt-2 max-w-[20rem] text-[34px] font-light leading-[1.15] tracking-[-0.025em]" />
-        <p className="wel-in ob-muted mt-3 max-w-[19rem] text-[17px] leading-snug" style={{ animationDelay: `${lineMs}ms` }}>{sub}</p>
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} progress={false}>
+      <div className="relative flex min-h-0 flex-1 flex-col items-center justify-center pb-10 text-center">
+        {/* What Lex says, in a speech bubble over its head, the words arriving one by one. */}
+        <div className="wel-in relative w-full max-w-[19.5rem] rounded-[24px] border-2 border-[var(--ob-line)] bg-white px-5 py-4 shadow-[0_8px_24px_-16px_rgba(8,47,62,.4)]" style={{ animationDelay: "250ms" }}>
+          <Said line={line} durationMs={lineMs} className="text-[22px] font-medium leading-[1.25] tracking-[-0.015em]" />
+          <span className="absolute -bottom-[10px] start-1/2 size-[18px] -translate-x-1/2 rotate-45 border-b-2 border-e-2 border-[var(--ob-line)] bg-white rtl:translate-x-1/2" aria-hidden />
+        </div>
+        <Lex mood="hello" talking={guide.talking} className="mt-3 w-[min(62vw,250px)]" />
+        <p className="wel-in ob-muted mt-3 max-w-[19rem] text-[16px] leading-snug" style={{ animationDelay: `${lineMs + 200}ms` }}>{sub}</p>
       </div>
     </GuideFrame>
   );

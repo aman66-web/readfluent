@@ -38,7 +38,7 @@ const indonesian: Catalog = {
   "languages.link": "Bahasa",
 
   /* ── hello ── */
-  "hello.line": "Hai, selamat datang di {app}.",
+  "hello.bubble": "Hai! Aku Lex. Selamat datang di {app}!",
   "hello.sub": "Beberapa menit sehari dengan buku asli, dan sebuah bahasa mulai terasa seperti milikmu.",
 
   /* ── focus ── */

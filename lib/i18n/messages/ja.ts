@@ -38,8 +38,8 @@ const ja: Catalog = {
   "languages.link": "言語",
 
   /* ── hello ── */
-  "hello.line": "こんにちは、{app}へようこそ。",
-  "hello.sub": "毎日数分、本物の本を読むだけで、言語が少しずつあなたのものになります。",
+  "hello.bubble": "こんにちは！ぼくはLex。{app}へようこそ！",
+  "hello.sub":"毎日数分、本物の本を読むだけで、言語が少しずつあなたのものになります。",
 
   /* ── focus ── */
 

@@ -34,8 +34,8 @@ const vi: Catalog = {
   "languages.sub": "Ứng dụng dùng ngôn ngữ thứ nhất. Sách dùng ngôn ngữ thứ hai.",
   "languages.link": "Ngôn ngữ",
 
-  "hello.line": "Chào bạn, chào mừng đến với {app}.",
-  "hello.sub": "Mỗi ngày vài phút với sách thật, và một ngôn ngữ sẽ dần trở nên của riêng bạn.",
+  "hello.bubble": "Chào bạn! Mình là Lex đây. Chào mừng bạn đến với {app}!",
+  "hello.sub":"Mỗi ngày vài phút với sách thật, và một ngôn ngữ sẽ dần trở nên của riêng bạn.",
 
 
   "why.line": "Tại sao bạn học {language}?",

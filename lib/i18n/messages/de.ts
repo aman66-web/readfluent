@@ -38,8 +38,8 @@ const de: Catalog = {
   "languages.link": "Sprachen",
 
   /* ── hello ── */
-  "hello.line": "Hi, willkommen bei {app}.",
-  "hello.sub": "Ein paar Minuten am Tag mit echten Büchern, und eine Sprache fühlt sich bald wie deine an.",
+  "hello.bubble": "Hallo! Ich bin Lex. Willkommen bei {app}!",
+  "hello.sub":"Ein paar Minuten am Tag mit echten Büchern, und eine Sprache fühlt sich bald wie deine an.",
 
   /* ── focus ── */
 

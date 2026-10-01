@@ -40,7 +40,7 @@ const pl: Catalog = {
   "languages.link": "Języki",
 
   /* ── hello ── */
-  "hello.line": "Cześć! Witaj w {app}.",
+  "hello.bubble": "Cześć! Jestem Lex. Witaj w {app}!",
   "hello.sub": "Kilka minut dziennie z prawdziwymi książkami, a język zacznie być naprawdę Twój.",
 
   /* ── focus ── */

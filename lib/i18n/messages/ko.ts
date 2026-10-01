@@ -38,8 +38,8 @@ const ko: Catalog = {
   "languages.link": "언어",
 
   /* ── hello ── */
-  "hello.line": "안녕하세요, {app}에 오신 걸 환영해요.",
-  "hello.sub": "하루 몇 분, 진짜 책을 읽다 보면 언어가 어느새 내 것이 돼요.",
+  "hello.bubble": "안녕하세요! 저는 Lex예요. {app}에 오신 걸 환영해요!",
+  "hello.sub":"하루 몇 분, 진짜 책을 읽다 보면 언어가 어느새 내 것이 돼요.",
 
   /* ── focus ── */
 
