@@ -177,8 +177,11 @@ describe("the ledger", () => {
     expect(payPage(placed, "same", 1, "B1B2", D1).xp).toBe(XP.page);
   });
 
-  it("pays a finish once", () => {
-    const a = payFinish(EMPTY_LEDGER, "v", 50, D1);
+  it("pays a finish once, and only after most of the pages were read", () => {
+    const skimmed: Ledger = { ...EMPTY_LEDGER, pages: { v: [1, 2, 3] } };
+    expect(payFinish(skimmed, "v", 50, D1).xp).toBe(0);
+    const read: Ledger = { ...EMPTY_LEDGER, pages: { v: Array.from({ length: 40 }, (_, i) => i + 1) } };
+    const a = payFinish(read, "v", 50, D1);
     expect(a.xp).toBe(50);
     expect(payFinish(a.ledger, "v", 50, D1).xp).toBe(0);
   });

@@ -19,7 +19,7 @@ import { tokenize, translatedLine } from "@/lib/reading/sentences";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { SAVED_KEY, parseSaved, removeSaved, savedId, toggleSaved } from "@/lib/words/saved";
 import { XP } from "@/lib/xp/levels";
-import { awardFinish, awardPage, trackSeconds } from "@/lib/xp/ledger";
+import { LEDGER_KEY, awardFinish, awardPage, parseLedger, trackSeconds } from "@/lib/xp/ledger";
 import type { Scene } from "@/lib/preview/catalog";
 
 /** Photos are mounted only for the current page and its neighbours (SPEC.md §10, M4): a 200-page version never holds 200 images. */
@@ -43,7 +43,15 @@ const subscribeSaved = subscribeTo(SAVED_KEY);
 const readSaved = () => readRaw(SAVED_KEY);
 const subscribePrefs = subscribeTo(READER_PREFS_KEY);
 const readPrefsRaw = () => readRaw(READER_PREFS_KEY);
+const subscribeLedger = subscribeTo(LEDGER_KEY);
+const readLedgerRaw = () => readRaw(LEDGER_KEY);
 const serverRaw = () => "";
+const noSubscribe = () => () => {};
+const onClient = () => true;
+const onServer = () => false;
+
+/** No activity for this long and the reader is taken to have put the phone down. */
+const IDLE_MS = 60_000;
 
 /**
  * Which language of the book to open: the one the reader is learning, if the book has it, and
@@ -52,11 +60,15 @@ const serverRaw = () => "";
  */
 export function Reader(props: Props) {
   const raw = useSyncExternalStore(subscribeAnswers, readAnswers, serverRaw);
+  // Which language to open is known only on the device. Where there is a choice, wait for it
+  // instead of mounting the first language and throwing it away a moment later.
+  const ready = useSyncExternalStore(noSubscribe, onClient, onServer);
   const learn = useMemo(() => parseAnswers(raw).learn, [raw]);
   const preferred = Math.max(0, props.variants.findIndex((v) => v.lang === learn));
   const [picked, setPicked] = useState<number | null>(null);
   const vi = picked ?? preferred;
   const many = props.variants.length > 1;
+  if (many && !ready) return <div className="h-dvh" aria-busy="true" />;
   // Keyed by the language, so switching starts a fresh reader on page one.
   return <ReaderView key={vi} {...props} variant={props.variants[vi]} first={vi === 0} onSwitch={many ? () => setPicked((vi + 1) % props.variants.length) : undefined} />;
 }
@@ -83,12 +95,21 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
   // A second language reads (and is remembered) as its own version.
   const progressSlug = first ? slug : `${slug}.${variant.lang}`;
 
+  // Where a smooth scroll is heading, so two quick presses of Next go two pages, not one.
+  const heading = useRef<number | null>(null);
+  const headingTimer = useRef(0);
+  // The page the scroller last settled on, kept here so the scroll handler can tell a change from a repeat.
+  const shown = useRef(0);
   const goTo = useCallback((i: number, smooth = true) => {
     const el = scroller.current;
     if (!el) return;
     const clamped = Math.min(Math.max(0, i), total);
+    heading.current = clamped;
+    window.clearTimeout(headingTimer.current);
+    headingTimer.current = window.setTimeout(() => { heading.current = null; }, 700);
     el.scrollTo({ left: clamped * el.clientWidth, behavior: smooth ? "smooth" : "instant" });
   }, [total]);
+  const step = useCallback((by: number) => goTo((heading.current ?? shown.current) + by), [goTo]);
 
   // ── word taps ──
   const [sel, setSel] = useState<{ page: number; word: string; start: number } | null>(null);
@@ -99,7 +120,6 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
   const [menu, setMenu] = useState(false);
   const [wordsOpen, setWordsOpen] = useState(false);
   const [hop, setHop] = useState(0);
-  const [earned, setEarned] = useState(0);
   const savedRaw = useSyncExternalStore(subscribeSaved, readSaved, serverRaw);
   const saved = useMemo(() => parseSaved(savedRaw), [savedRaw]);
   const say = useCallback((text: string, happy = false) => {
@@ -118,10 +138,11 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
   const colour = keyIx >= 0 ? `var(--key-${(keyIx % 3) + 1})` : "var(--foreground)";
   const entry = sel ? variant.dict?.[sel.word] : undefined;
   const open = sel !== null;
-  const mine = languageName(locale, locale);
+  // The lines are in English until the translation pipeline gives each reader their own language.
+  const lineLang = languageName("en", locale);
 
   const hear = (rate: number) => {
-    if (sel && !speak(sel.word, variant.lang, rate)) say(t("reader.noAudio"));
+    if (sel && !speak(sel.word, variant.lang, rate, () => say(t("reader.noAudio")))) say(t("reader.noAudio"));
   };
 
   // Pick up where the reader left off. After mount, because the server has no
@@ -141,11 +162,14 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
       cancelAnimationFrame(frame);
       frame = requestAnimationFrame(() => {
         const i = Math.round(el.scrollLeft / Math.max(1, el.clientWidth));
-        setIndex((prev) => {
+        if (heading.current === i) heading.current = null;
+        if (shown.current !== i) {
           // A word card belongs to the page it was opened on.
-          if (prev !== i) { setSel(null); stopSpeaking(); }
-          return prev === i ? prev : i;
-        });
+          shown.current = i;
+          setIndex(i);
+          setSel(null);
+          stopSpeaking();
+        }
         // Remembered as the reader moves — never the "end" slide, so reopening
         // resumes on the last page. Saved here, not in an effect, so opening a
         // version never overwrites where the reader had got to.
@@ -158,13 +182,49 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "ArrowRight") goTo(index + 1);
-      else if (e.key === "ArrowLeft") goTo(index - 1);
-      else if (e.key === "Escape") { setSel(null); setMenu(false); setWordsOpen(false); }
+      // Browser shortcuts (Alt+← is "back") and keys another control already used are not ours.
+      if (e.altKey || e.metaKey || e.ctrlKey || e.shiftKey || e.defaultPrevented) return;
+      if (e.key === "Escape") {
+        // One layer at a time: the sheet, then the menu, then the card.
+        if (wordsOpen) setWordsOpen(false);
+        else if (menu) setMenu(false);
+        else setSel(null);
+        return;
+      }
+      if (wordsOpen || menu) return;
+      if ((e.target as HTMLElement | null)?.closest("input, textarea, select, [contenteditable]")) return;
+      if (e.key === "ArrowRight") step(1);
+      else if (e.key === "ArrowLeft") step(-1);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [index, goTo]);
+  }, [step, wordsOpen, menu]);
+
+  // The Aa menu is a popover: a tap anywhere else puts it away.
+  useEffect(() => {
+    if (!menu) return;
+    const away = (e: PointerEvent) => {
+      if (!(e.target as Element | null)?.closest("[data-settings], [data-settings-toggle]")) setMenu(false);
+    };
+    document.addEventListener("pointerdown", away);
+    return () => document.removeEventListener("pointerdown", away);
+  }, [menu]);
+
+  // A tapped word may sit where the card is about to rise: bring it back into view.
+  useEffect(() => {
+    if (!sel) return;
+    const id = window.setTimeout(() => {
+      scroller.current?.querySelector<HTMLElement>("[data-sel]")?.scrollIntoView({ block: "nearest", inline: "nearest" });
+    }, 240);
+    return () => window.clearTimeout(id);
+  }, [sel]);
+
+  // Focus follows the sheet: in when it opens, back on the button that opened it when it closes.
+  const wordsChip = useRef<HTMLButtonElement>(null);
+  const closeWords = useCallback(() => {
+    setWordsOpen(false);
+    window.setTimeout(() => wordsChip.current?.focus(), 0);
+  }, []);
 
   // XP: a page pays once it has been on screen for a moment, finishing pays once, and the
   // time spent feeds the dashboard's graph. All of it is kept on the device (lib/xp).
@@ -172,7 +232,6 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
   const [gain, setGain] = useState<{ xp: number; finish: boolean; n: number } | null>(null);
   const flash = useCallback((xp: number, finish: boolean) => {
     setGain((g) => ({ xp, finish, n: (g?.n ?? 0) + 1 }));
-    setEarned((e) => e + xp);
   }, []);
   useEffect(() => {
     if (!gain) return;
@@ -196,10 +255,28 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
     }, 400);
     return () => window.clearTimeout(id);
   }, [onEnd, total, version, flash]);
+  // Reading time counts only while someone is reading: not on the last slide, and not once
+  // there has been no touch, key or scroll for a minute.
+  const lastActive = useRef(0);
   useEffect(() => {
-    const id = window.setInterval(() => { if (document.visibilityState === "visible") trackSeconds(slug, 5); }, 5000);
+    const mark = () => { lastActive.current = Date.now(); };
+    mark();
+    const events = ["pointerdown", "keydown", "touchmove", "scroll"] as const;
+    for (const ev of events) window.addEventListener(ev, mark, { passive: true, capture: true });
+    return () => { for (const ev of events) window.removeEventListener(ev, mark, { capture: true }); };
+  }, []);
+  useEffect(() => {
+    if (onEnd) return;
+    const id = window.setInterval(() => {
+      if (document.visibilityState === "visible" && Date.now() - lastActive.current < IDLE_MS) trackSeconds(slug, 5);
+    }, 5000);
     return () => window.clearInterval(id);
-  }, [slug]);
+  }, [slug, onEnd]);
+
+  // The end slide reports what the ledger says, not what happened to be earned in this visit.
+  const ledgerRaw = useSyncExternalStore(subscribeLedger, readLedgerRaw, serverRaw);
+  const ledger = useMemo(() => parseLedger(ledgerRaw), [ledgerRaw]);
+  const savedHere = useMemo(() => Object.values(saved).filter((w) => w.book === title && w.lang === variant.lang).length, [saved, title, variant.lang]);
 
   const progress = onEnd ? 100 : Math.round(((index + 1) / total) * 100);
   const isPreview = length > total;
@@ -210,7 +287,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
 
   return (
     <div className="relative flex h-dvh flex-col">
-      <header className="safe-top shrink-0 px-4 pt-2">
+      <header className="safe-top shrink-0 px-4 pt-2" inert={wordsOpen}>
         <div className="flex h-11 items-center gap-1">
           <Link href={`/book/${slug}`} aria-label={t("reader.backBook")} className="-ms-2 flex size-11 shrink-0 items-center justify-center rounded-full active:bg-border/60">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
@@ -220,14 +297,14 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
             <p className="truncate text-[12px] text-muted" aria-live="polite">{sub}</p>
           </div>
           {interactive && Object.keys(saved).length > 0 && (
-            <button type="button" onClick={() => { setWordsOpen(true); setMenu(false); }} aria-label={t("reader.yourWords")}
+            <button ref={wordsChip} type="button" onClick={() => { setWordsOpen(true); setMenu(false); }} aria-label={t("reader.yourWords")}
                     className="flex h-8 shrink-0 items-center gap-1 rounded-full bg-accent-bright/25 ps-2 pe-2.5 text-[13px] font-bold tabular">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M12 3l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.8 6.6 19.7l1.1-6.1L3.2 9.4l6.1-.8z" /></svg>
               {Object.keys(saved).length}
             </button>
           )}
           {interactive && (
-            <button type="button" aria-expanded={menu} aria-label={t("reader.settings")} onClick={() => setMenu(!menu)}
+            <button type="button" data-settings-toggle aria-expanded={menu} aria-label={t("reader.settings")} onClick={() => setMenu(!menu)}
                     className={`flex size-10 shrink-0 items-baseline justify-center rounded-full pt-[9px] text-[17px] font-bold tracking-[-0.02em] ${menu ? "bg-accent-bright/25" : "active:bg-border/60"}`}>
               A<span className="text-[12px]">A</span>
             </button>
@@ -248,25 +325,25 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
         </div>
       </header>
 
-      {menu && <Settings prefs={prefs} language={mine} />}
+      {menu && <Settings prefs={prefs} language={lineLang} />}
 
       {/* What the line you tapped says in the reader's own language. */}
       {sel && selPage?.target && (
         <div className="line-down mt-2 shrink-0 border-y border-border bg-surface px-4 pb-2 pt-1.5">
-          <p className="text-[9.5px] font-semibold uppercase tracking-[0.16em] text-muted">{t("reader.lineIn", { language: mine })}</p>
-          <p className="font-reading text-[16px] font-medium leading-[1.6]">
+          <p className="text-[9.5px] font-semibold uppercase tracking-[0.16em] text-muted">{t("reader.lineIn", { language: lineLang })}</p>
+          <p lang="en" dir="ltr" className="font-reading text-[16px] font-medium leading-[1.6]">
             <TranslatedLine line={translatedLine(selPage.text, selPage.target.translation, sel.start)} keys={keys} chosen={keyIx} />
           </p>
         </div>
       )}
 
-      <div ref={scroller} dir="ltr" className="no-scrollbar flex min-h-0 flex-1 snap-x snap-mandatory overflow-x-auto overscroll-x-contain" aria-label={t("reader.pages")}>
+      <div ref={scroller} dir="ltr" className="no-scrollbar flex min-h-0 flex-1 snap-x snap-mandatory overflow-x-auto overscroll-x-contain" aria-label={t("reader.pages")} inert={wordsOpen}>
         {pages.map((p, i) => {
           const near = Math.abs(i - index) <= KEEP_PHOTOS;
           const scene = scenes[p.scene - 1];
           return (
-            <section key={p.n} className="flex h-full w-full shrink-0 snap-start flex-col overflow-hidden" aria-roledescription="page" aria-label={t("reader.pageLabel", { n: p.n, total })}>
-              <div className="flex shrink-0 justify-center px-[18px] pt-3" onClick={() => open && setSel(null)}>
+            <section key={p.n} inert={i !== index} className="flex h-full w-full shrink-0 snap-start flex-col overflow-hidden" aria-roledescription="page" aria-label={t("reader.pageLabel", { n: p.n, total })}>
+              <div className="flex shrink-0 justify-center px-[18px] pt-3" onClick={() => { if (open) setSel(null); setMenu(false); }}>
                 <div className="relative aspect-[6/5] overflow-hidden rounded-[26px] border-[1.5px] border-border bg-surface transition-[height] duration-200" style={{ height: photoH }}>
                   {near ? (
                     p.target
@@ -286,13 +363,13 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
               <div className="flex-1 overflow-y-auto px-[22px] pb-3 pt-1.5">
                 <PageText page={p} interactive={interactive} selected={sel && sel.page === i ? sel.start : -1} lang={variant.lang}
                           size={TEXT_SIZES[prefs.size]} colours={prefs.colours} gloss={prefs.gloss && !open}
-                          onPick={(word, start) => setSel({ page: i, word, start })} />
+                          onPick={(word, start) => { setMenu(false); setSel({ page: i, word, start }); }} />
               </div>
             </section>
           );
         })}
 
-        <section className="flex h-full w-full shrink-0 snap-start flex-col items-center justify-center px-8 text-center" aria-label={t("reader.end")}>
+        <section inert={!onEnd} className="flex h-full w-full shrink-0 snap-start flex-col items-center justify-center px-8 text-center" aria-label={t("reader.end")}>
           <Mascot mood="cheer" className="w-[min(46vw,170px)]" />
           <p className="mt-2 font-reading text-[26px] font-bold">{t("reader.endTitle")}</p>
           <p className="mt-3 max-w-[30ch] text-[15px] leading-snug text-muted">
@@ -300,9 +377,9 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
           </p>
           <ul className="mt-5 grid w-full max-w-[320px] grid-cols-3 gap-2">
             {[
-              { id: "reader.pagesRead" as const, value: total },
-              { id: "reader.xpEarned" as const, value: earned },
-              { id: "reader.wordsSaved" as const, value: Object.keys(saved).length },
+              { id: "reader.pagesRead" as const, value: Math.min(total, ledger.pages[version]?.length ?? 0) },
+              { id: "reader.xpEarned" as const, value: ledger.earned },
+              { id: "reader.wordsSaved" as const, value: savedHere },
             ].map((x) => (
               <li key={x.id} className="rounded-2xl border border-border bg-surface px-1.5 py-2.5">
                 <span className="tabular block text-[20px] font-bold">{x.value.toLocaleString(locale)}</span>
@@ -317,16 +394,16 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
         </section>
       </div>
 
-      <footer className={`safe-bottom relative shrink-0 px-5 ${open ? "rounded-t-[26px] border-t border-border bg-background pb-3 pt-3 shadow-[0_-8px_28px_rgba(0,0,0,.08)]" : "pb-3 pt-2"}`}>
+      <footer inert={wordsOpen} className={`safe-bottom relative shrink-0 px-5 ${open ? "rounded-t-[26px] border-t border-border bg-background pb-3 pt-3 shadow-[0_-8px_28px_rgba(0,0,0,.08)]" : "pb-3 pt-2"}`}>
         {gain && (
           <p key={gain.n} className="xp-pop tabular pointer-events-none absolute inset-x-0 -top-9 mx-auto w-fit rounded-full bg-accent px-3 py-1 text-[13px] font-bold text-white shadow-md" role="status">
-            {gain.finish ? t("reader.finishXp", { xp: gain.xp }) : t("reader.xp", { xp: gain.xp })}
+            <bdi>{gain.finish ? t("reader.finishXp", { xp: gain.xp }) : t("reader.xp", { xp: gain.xp })}</bdi>
           </p>
         )}
         {sel ? (
           <WordCard word={sel.word} entry={entry} colour={colour}
                     saved={savedId(variant.lang, sel.word) in saved}
-                    onListen={() => hear(slow ? 0.55 : 0.9)} onSlow={() => hear(0.5)}
+                    onListen={() => hear(slow ? 0.7 : 0.95)} onSlow={() => hear(0.5)}
                     onSave={() => {
                       const now = toggleSaved({ word: sel.word, lang: variant.lang, meaning: entry?.en ?? "", book: title });
                       say(now ? t("reader.savedToast") : t("reader.removedToast"), now);
@@ -336,7 +413,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
         ) : (
           <>
             <div dir="ltr" className="flex items-center justify-between gap-2">
-              <button onClick={() => goTo(index - 1)} disabled={index === 0} aria-label={t("reader.prev")} className="flex size-11 items-center justify-center rounded-full border border-border bg-surface disabled:opacity-35 active:bg-border/60">
+              <button onClick={() => step(-1)} disabled={index === 0} aria-label={t("reader.prev")} className="flex size-11 items-center justify-center rounded-full border border-border bg-surface disabled:opacity-35 active:bg-border/60">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
               </button>
               {interactive && !onEnd ? (
@@ -348,7 +425,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
               ) : (
                 <p className="tabular text-[14px] font-semibold text-muted">{onEnd ? t("reader.done") : t("reader.pageLabel", { n: index + 1, total })}</p>
               )}
-              <button onClick={() => goTo(index + 1)} disabled={onEnd} aria-label={t("reader.next")} className="flex size-11 items-center justify-center rounded-full border border-border bg-surface disabled:opacity-35 active:bg-border/60">
+              <button onClick={() => step(1)} disabled={onEnd} aria-label={t("reader.next")} className="flex size-11 items-center justify-center rounded-full border border-border bg-surface disabled:opacity-35 active:bg-border/60">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M9 5l7 7-7 7" /></svg>
               </button>
             </div>
@@ -363,7 +440,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
         </p>
       )}
 
-      {wordsOpen && <WordsSheet saved={saved} onRemove={removeSaved} onClose={() => setWordsOpen(false)} />}
+      {wordsOpen && <WordsSheet saved={saved} onRemove={removeSaved} onClose={closeWords} />}
     </div>
   );
 }
@@ -385,14 +462,14 @@ function PageText({ page, interactive, selected, lang, size, colours, gloss, onP
         if (!tok.word) return tok.text;
         const k = keys.findIndex((x) => x.w === tok.word);
         return (
-          <span key={tok.start} role="button" tabIndex={0} data-w={tok.word} data-s={tok.start}
+          <span key={tok.start} role="button" tabIndex={0} data-w={tok.word} data-s={tok.start} data-sel={selected === tok.start ? "" : undefined}
                 className={`cursor-pointer rounded-[5px] px-px transition-colors ${k >= 0 && colours ? `key-word key-${(k % 3) + 1}` : ""} ${selected === tok.start ? "bg-accent-bright/30" : "active:bg-accent-bright/20"}`}>
             {tok.text}
           </span>
         );
       })}
     </p>
-    {gloss && page.target && <p className="mt-2 text-[13.5px] italic leading-snug text-muted">{page.target.translation}</p>}
+    {gloss && page.target && <p lang="en" dir="ltr" className="mt-2 text-[13.5px] italic leading-snug text-muted">{page.target.translation}</p>}
     </>
   );
 }

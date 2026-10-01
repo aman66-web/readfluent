@@ -37,8 +37,18 @@ export function subscribeTo(key: string): (fn: () => void) => () => void {
   };
 }
 
+/**
+ * What a private window could not keep. Writes that localStorage refuses land here,
+ * so the rest of the session still agrees with itself (a page is paid once, a saved
+ * word stays saved) even though nothing survives a reload.
+ */
+const memory = new Map<string, string>();
+
 export function readRaw(key: string): string {
   if (typeof window === "undefined") return "";
+  // A value storage refused is newer than whatever storage still holds.
+  const kept = memory.get(key);
+  if (kept !== undefined) return kept;
   try {
     return window.localStorage.getItem(key) ?? "";
   } catch {
@@ -51,14 +61,17 @@ export const serverSnapshot = (): null => null;
 
 export function writeRaw(key: string, value: string): boolean {
   if (typeof window === "undefined") return false;
+  let kept = true;
   try {
     window.localStorage.setItem(key, value);
+    memory.delete(key);
   } catch {
-    // Private mode, or the quota. The caller's own state still holds for this render.
-    return false;
+    // Private mode, or the quota. Keep it for this session; tell the caller it will not last.
+    memory.set(key, value);
+    kept = false;
   }
   notify();
-  return true;
+  return kept;
 }
 
 /**
@@ -77,6 +90,7 @@ export function writeQuiet(key: string, value: string): boolean {
   try {
     window.localStorage.setItem(key, value);
   } catch {
+    memory.set(key, value);
     return false;
   }
   return true;

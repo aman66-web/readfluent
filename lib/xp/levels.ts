@@ -25,6 +25,8 @@ export const XP = {
   pageBelow: 1,
   /** Finishing a version, per page it has. */
   finishPerPage: 1,
+  /** The share of a version's pages that must have been read before finishing pays. */
+  finishShare: 0.8,
   /** The first page read each day. */
   firstOfDay: 10,
   /** How long a page must be on screen before it counts. */

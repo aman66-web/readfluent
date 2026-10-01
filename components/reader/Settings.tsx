@@ -19,7 +19,7 @@ export function Settings({ prefs, language }: { prefs: ReaderPrefs; language: st
   const t = useT();
   const sizes: TextSize[] = ["s", "m", "l"];
   return (
-    <div role="dialog" aria-label={t("reader.settings")} className="fade-in absolute end-2.5 top-[54px] z-10 w-[min(300px,calc(100%-20px))] rounded-[18px] border border-border bg-background p-3.5 shadow-[0_14px_40px_rgba(0,0,0,.2)]">
+    <div role="dialog" data-settings aria-label={t("reader.settings")} className="fade-in absolute end-2.5 top-[54px] z-10 w-[min(300px,calc(100%-20px))] rounded-[18px] border border-border bg-background p-3.5 shadow-[0_14px_40px_rgba(0,0,0,.2)]">
       <p className="mb-2 text-[11px] font-bold uppercase tracking-[0.12em] text-muted">{t("reader.textSize")}</p>
       <div className="mb-3 flex gap-1.5">
         {sizes.map((s) => (

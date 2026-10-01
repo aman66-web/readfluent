@@ -7,15 +7,29 @@ export function canSpeak(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
-/** Say `text` in `lang` at `rate` (1 is normal). False where the device cannot. */
-export function speak(text: string, lang: string, rate: number): boolean {
+/** Whether a voice list that is not empty has nothing for this language. An empty list is "not loaded yet", not "none". */
+export function noVoiceFor(voices: { lang: string }[], lang: string): boolean {
+  if (voices.length === 0) return false;
+  const want = lang.toLowerCase().split("-")[0];
+  return !voices.some((v) => v.lang.toLowerCase().replace("_", "-").split("-")[0] === want);
+}
+
+/**
+ * Say `text` in `lang` at `rate` (1 is normal). False where the device cannot; `onFail` hears of a
+ * failure that only shows once speech starts.
+ */
+export function speak(text: string, lang: string, rate: number, onFail?: () => void): boolean {
   if (!canSpeak()) return false;
   try {
-    window.speechSynthesis.cancel();
+    const synth = window.speechSynthesis;
+    if (noVoiceFor(synth.getVoices(), lang)) return false;
+    synth.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = lang;
     u.rate = rate;
-    window.speechSynthesis.speak(u);
+    // Cancelling the last utterance also fires an error ("interrupted"/"canceled"); only a real one counts.
+    u.onerror = (e) => { if (e.error !== "interrupted" && e.error !== "canceled") onFail?.(); };
+    synth.speak(u);
     return true;
   } catch {
     return false;

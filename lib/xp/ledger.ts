@@ -106,6 +106,8 @@ export function payPage(l: Ledger, version: string, page: number, band: string, 
 /** The last page of a version has been reached: pay the finish once. */
 export function payFinish(l: Ledger, version: string, pages: number, day: string): Paid {
   if (l.done.includes(version) || pages <= 0) return { ledger: l, xp: 0, reason: "none" };
+  // Reaching the last slide is not finishing: most of the pages must have been read.
+  if ((l.pages[version]?.length ?? 0) < Math.ceil(pages * XP.finishShare)) return { ledger: l, xp: 0, reason: "none" };
   const xp = xpForFinish(pages);
   const daily = dayOf(l, day);
   return {
