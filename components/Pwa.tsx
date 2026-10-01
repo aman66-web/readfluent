@@ -39,7 +39,45 @@ export function Pwa() {
     return () => { cancelled = true; };
   }, []);
 
+  useUpdateReload();
+
   return <OfflinePill />;
+}
+
+/**
+ * A page left open across a deploy keeps running the build it was loaded with, and
+ * nothing tells it otherwise: a change can be live and a phone still be showing the
+ * last one. So when the app comes back to the front, ask the server which build is
+ * live, and reload once if it is not this one. Never while offline, never in
+ * development, and at most once a minute. What a reader has done is on the device, and
+ * the first run keeps its place in the address, so a reload loses nothing.
+ */
+function useUpdateReload() {
+  useEffect(() => {
+    if (BUILD === "dev") return;
+    let last = 0;
+    const check = async () => {
+      if (document.visibilityState !== "visible" || !navigator.onLine || Date.now() - last < 60_000) return;
+      last = Date.now();
+      try {
+        const res = await fetch("/api/health", { cache: "no-store" });
+        const live = String(((await res.json()) as { build?: string }).build ?? "").split(" ")[0];
+        if (live && live !== BUILD) {
+          // Once per live build: if the reload somehow lands on the same old bundle, do not loop.
+          const key = `readfluent.reloaded.${live}`;
+          if (sessionStorage.getItem(key)) return;
+          sessionStorage.setItem(key, "1");
+          window.location.reload();
+        }
+      } catch {
+        // Offline, storage blocked, or the server is busy: try again next time the app comes forward.
+      }
+    };
+    void check();
+    document.addEventListener("visibilitychange", check);
+    window.addEventListener("focus", check);
+    return () => { document.removeEventListener("visibilitychange", check); window.removeEventListener("focus", check); };
+  }, []);
 }
 
 const subscribeOnline = (fn: () => void) => {
