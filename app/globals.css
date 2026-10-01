@@ -93,3 +93,39 @@ body {
 
 /* The menu's pill slides to the tab that is open. */
 .tab-ind { transition: transform .35s cubic-bezier(.3, 1.2, .5, 1), width .3s ease; }
+
+/* ── Lex, the mascot (components/mascot/Lex) ───────────────────────────────── */
+.lx { overflow: visible; }
+/* The small head-and-shoulders avatar shows only what is inside its frame. */
+.lx-cropped { overflow: hidden; }
+.lx-bob { animation: lx-bob 3.6s ease-in-out infinite; }
+.lx-talking .lx-bob { animation-duration: 1.5s; }
+@keyframes lx-bob { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-5px) } }
+.lx-sleepy .lx-bob { animation: lx-breathe 4.4s ease-in-out infinite; transform-origin: 50% 100%; }
+@keyframes lx-breathe { 0%, 100% { transform: scale(1) } 50% { transform: scale(1.015, 1.03) } }
+.lx-shadow { transform-box: fill-box; transform-origin: center; animation: lx-shadow 3.6s ease-in-out infinite; }
+@keyframes lx-shadow { 0%, 100% { transform: scaleX(1); opacity: .16 } 50% { transform: scaleX(.92); opacity: .1 } }
+/* A blink every few seconds: the eyes close for a moment. */
+.lx-blink { transform-box: fill-box; transform-origin: center; animation: lx-blink 4.8s infinite; }
+@keyframes lx-blink { 0%, 93%, 100% { transform: scaleY(1) } 96% { transform: scaleY(.1) } }
+/* The antennae sway; the head tips a little. */
+.lx-ant { transform-box: fill-box; transform-origin: 50% 100%; animation: lx-ant 3.2s ease-in-out infinite; }
+@keyframes lx-ant { 0%, 100% { transform: rotate(-3deg) } 50% { transform: rotate(3deg) } }
+.lx-head { transform-box: fill-box; transform-origin: 50% 100%; animation: lx-head 5s ease-in-out infinite; }
+@keyframes lx-head { 0%, 100% { transform: rotate(-1.5deg) } 50% { transform: rotate(1.5deg) } }
+.lx-tail { transform-box: fill-box; transform-origin: 0% 100%; animation: lx-tail 3s ease-in-out infinite; }
+@keyframes lx-tail { 0%, 100% { transform: rotate(-3deg) } 50% { transform: rotate(5deg) } }
+.lx-wave { transform-box: fill-box; transform-origin: 0% 100%; animation: lx-wave 1.6s ease-in-out infinite; }
+@keyframes lx-wave { 0%, 100% { transform: rotate(-8deg) } 50% { transform: rotate(14deg) } }
+.lx-cheer-l, .lx-cheer-r { transform-box: fill-box; animation: lx-cheer .9s ease-in-out infinite alternate; }
+.lx-cheer-l { transform-origin: 100% 100%; }
+.lx-cheer-r { transform-origin: 0% 100%; animation-delay: .15s; }
+@keyframes lx-cheer { from { transform: rotate(-6deg) } to { transform: rotate(8deg) } }
+.lx-talk { transform-box: fill-box; transform-origin: center; animation: lx-talk .32s ease-in-out infinite alternate; }
+@keyframes lx-talk { from { transform: scaleY(.45) } to { transform: scaleY(1.1) } }
+.lx-rise { opacity: 0; animation: lx-rise 3.4s ease-out infinite; }
+@keyframes lx-rise { 0% { opacity: 0; transform: translateY(0) } 20% { opacity: 1 } 100% { opacity: 0; transform: translateY(-46px) } }
+.lx-z { opacity: 0; animation: lx-z 3.2s ease-out infinite; }
+@keyframes lx-z { 0% { opacity: 0; transform: translate(0, 8px) } 30% { opacity: 1 } 100% { opacity: 0; transform: translate(10px, -14px) } }
+.lx-spark { transform-box: fill-box; transform-origin: center; animation: lx-spark 1.6s ease-in-out infinite; }
+@keyframes lx-spark { 0%, 100% { opacity: .2; transform: scale(.6) } 50% { opacity: 1; transform: scale(1.15) } }

@@ -3,13 +3,13 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
-import { GuideBook } from "./GuideBook";
+import { Lex } from "@/components/mascot/Lex";
 import { PrimaryButton } from "./ui";
 
 /**
  * The guide: the first-run screens where the app talks the reader through it. The
  * frame is what they share — a back arrow, the run's progress, and Continue at the
- * foot — then the guide itself (a living book, ./GuideBook), and the guide saying its line:
+ * foot — then the guide itself (Lex, the mascot), and the guide saying its line:
  * the pages turn faster while the words arrive one after another,
  * and the line sits large on the white ground rather than in a bubble.
  *
@@ -109,7 +109,7 @@ export function GuideHead({ guide, line, sub }: { guide: Guide; line: string; su
   return (
     <div className="shrink-0">
       <div className="flex items-center gap-3">
-        <GuideBook talking={guide.talking} className="w-[60px] shrink-0" />
+        <Lex mood="hello" talking={guide.talking} crop="head" className="w-[60px] shrink-0" />
         <p className="ed-serif ob-muted text-[14px] italic">{t("guide.name")}</p>
       </div>
       <Said line={line} durationMs={guide.totalMs} className="mt-3 text-[29px] font-light leading-[1.12] tracking-[-0.025em]" />

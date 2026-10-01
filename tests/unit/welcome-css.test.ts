@@ -9,7 +9,7 @@ import { describe, expect, it } from "vitest";
  */
 const root = process.cwd();
 const css = readFileSync(join(root, "app/welcome/welcome.css"), "utf8") + readFileSync(join(root, "app/globals.css"), "utf8");
-const PREFIXES = ["show-", "fx-", "fs-", "wel-", "future-", "pledge-", "ready-", "guide-", "gb-", "heard-", "bp-", "first-", "year-", "ob-", "lamp-", "level-", "chart-", "xp-", "shelf-"];
+const PREFIXES = ["show-", "fx-", "fs-", "wel-", "future-", "pledge-", "ready-", "guide-", "gb-", "heard-", "bp-", "first-", "year-", "ob-", "lamp-", "level-", "chart-", "xp-", "shelf-", "lx-"];
 
 function files(dir: string): string[] {
   return readdirSync(join(root, dir), { withFileTypes: true }).flatMap((e) =>
@@ -19,12 +19,12 @@ function files(dir: string): string[] {
 describe("welcome.css", () => {
   it("defines every prefixed class the first run's components and pages use", () => {
     const used = new Set<string>();
-    for (const f of [...files("components/onboarding"), ...files("components/welcome"), ...files("components/home"), ...files("components/placement"), "app/welcome/page.tsx"]) {
+    for (const f of [...files("components/onboarding"), ...files("components/welcome"), ...files("components/home"), ...files("components/placement"), ...files("components/mascot"), ...files("components/recall"), "app/welcome/page.tsx"]) {
       const src = readFileSync(join(root, f), "utf8");
       for (const m of src.matchAll(/className=(?:"([^"]*)"|\{`([^`]*)`\})/g)) {
         for (const tok of (m[1] ?? m[2] ?? "").split(/\s+/)) {
           const name = tok.replace(/^[a-z-]+:/, "").replace(/\$\{.*$/, "");
-          if (/^[a-z][a-z0-9-]*$/.test(name) && PREFIXES.some((p) => name.startsWith(p))) used.add(name);
+          if (!name.endsWith("-") && /^[a-z][a-z0-9-]*$/.test(name) && PREFIXES.some((p) => name.startsWith(p))) used.add(name);
         }
       }
     }
