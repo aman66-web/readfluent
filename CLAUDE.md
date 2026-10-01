@@ -1,0 +1,64 @@
+Read SPEC.md before doing anything. It is the source of truth.
+Build strictly milestone by milestone (SPEC.md §10). Do not start the next milestone until the current one's "Done when" criteria pass.
+Run `npm run typecheck && npm test` before every commit. Commit after each milestone with a message like "M1: content contract".
+If the spec is ambiguous, choose the simplest option, implement it, and log the choice in DECISIONS.md (one line each).
+Keep the UI mobile-first (375px wide first, then desktop).
+This is not the Next.js you know: read `node_modules/next/dist/docs/` before writing Next code (see AGENTS.md).
+
+## Decided — do not re-derive these
+
+The product (1 Oct 2026): ReadFluent is real books, retold at a level (A1–A2, B1–B2,
+C1–C2) and a length (50, 100, 200 pages), read one page at a time: a photo and 28–35
+words. 9 categories, 30 books each, 270 books, 9 versions each, 2,430 versions. SPEC.md
+has the rest. It is English-only until translation; colour-matched words wait for it.
+
+The template (1 Oct 2026): the engineering underneath came from Mental Stint's `revise/`
+(`aman66-web/span`, commit `8a7f13c`). The product did not. Nothing of Mental Stint's
+content, credentials or identity ships: grep for `mental ?stint`, `mentalstint`,
+`mental_stint`, `lumen`, `revise.` before every milestone commit. SPEC.md §8 lists what is
+kept and what is replaced; follow it, do not re-audit it.
+
+The app makes no calls to any AI model at read time (carried over from Mental Stint,
+29 Sep 2026). A model is used only by offline scripts in `scripts/pipeline/`. Do not add
+a runtime LLM call without the owner asking for one by name.
+
+Content is data, not code (1 Oct 2026). Versions are JSON served from storage; photos and
+audio sit in object storage behind a CDN. Never put a book, a photo or a clip in `public/`
+or compile one into the bundle. Mental Stint did, and shipped 239 MB of audio into every
+native build for months. `.capacitorignore` and the stub `webDir` stay; if
+`scripts/check-native-bundle.mjs` fails, fix the cause, do not raise the limit.
+
+A page is 28–35 words, a version's page count is exactly its length, and a version
+publishes only when every gate passes. These are enforced by `scripts/validate-content.ts`,
+not by hand. A health book without its "not medical advice" line fails validation.
+
+Offline (1 Oct 2026): nothing persists unless the reader explicitly downloads it. One
+cache bucket per downloaded version; the app shell is cached once. Reading online
+leaves nothing behind.
+
+Accounts and money (1 Oct 2026, working defaults, owner to confirm): reading needs no
+account (anonymous-first, as in the template's `proxy.ts`); signing in is for buying and
+sync. Free is the 50-page samples; 100 and 200 are paid. A version someone has started
+stays open. Prices and rules live in `lib/plan.ts` and nowhere else. The server alone
+writes `users.plan`; never grant a client the right to.
+
+Credentials: nothing is copied from Mental Stint. Own Supabase, Vercel, RevenueCat and
+store keystores. `.env*`, keystores and `.p8`/`.p12` files are never committed.
+
+## Build log
+
+One line per milestone when it is done: date, what shipped, anything the next person must know.
+
+- M0 Seed and strip — not started
+- M1 Content contract — not started
+- M2 Prove the content pipeline — not started (go/no-go on scale recorded in DECISIONS.md)
+- M3 Library and the pick flow — not started
+- M4 The reader — not started
+- M5 Word cards — not started
+- M6 Line audio — not started
+- M7 Flashcards — not started
+- M8 Accounts and sync — not started
+- M9 Offline downloads — not started
+- M10 Plans and purchases — not started
+- M11 Native builds — not started
+- M12 Scale the library — not started
