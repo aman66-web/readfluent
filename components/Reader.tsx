@@ -324,8 +324,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
           </p>
         )}
         {sel ? (
-          <WordCard word={sel.word} entry={entry} colour={colour} language={mine}
-                    matched={keyIx >= 0 ? keys[keyIx].en : null}
+          <WordCard word={sel.word} entry={entry} colour={colour}
                     saved={savedId(variant.lang, sel.word) in saved}
                     onListen={() => hear(slow ? 0.55 : 0.9)} onSlow={() => hear(0.5)}
                     onSave={() => {

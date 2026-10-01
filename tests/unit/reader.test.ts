@@ -53,6 +53,19 @@ describe("the Spanish sample (the owner's template)", () => {
     }
   });
 
+  it("has a one-line English meaning for every word of every page, so no tap lands on nothing", () => {
+    for (const p of SPANISH_PAGES) for (const l of LEVELS) {
+      for (const tok of tokenize(p.text[l.id].text)) {
+        if (!tok.word) continue;
+        const e = SPANISH_DICT[tok.word];
+        expect(e, `${l.id}: ${tok.word}`).toBeDefined();
+        expect(e.mean.length, tok.word).toBeGreaterThan(2);
+        expect(e.mean.length, tok.word).toBeLessThan(80);
+        expect(e.mean, tok.word).not.toMatch(/\n/);
+      }
+    }
+  });
+
   it("is written sentence for sentence, so a tapped word finds its line", () => {
     for (const p of SPANISH_PAGES) for (const l of LEVELS) {
       const x = p.text[l.id];
