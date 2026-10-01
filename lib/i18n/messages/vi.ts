@@ -53,16 +53,15 @@ const vi: Catalog = {
   "heard.where": "Ở đâu?",
   "heard.whereLabel": "Bạn biết đến nó từ đâu?",
 
-  "scroll.line": "Mỗi ngày bạn lướt điện thoại bao lâu?",
-  "scroll.sub": "Cứ nói thật nhé. Không ai kiểm tra đâu.",
-  "scroll.under1": "Dưới một giờ",
-  "scroll.1to2": "1–2 giờ",
-  "scroll.2to4": "2–4 giờ",
-  "scroll.4plus": "4 giờ trở lên",
-  "mirror.days": "Đó là {days} ngày trọn vẹn mỗi năm chỉ để lướt.",
-  "mirror.daysLabel": "ngày mỗi năm dành cho việc lướt",
-  "mirror.swap": "Đổi chỉ {minutes} phút mỗi ngày sang {app}…",
-  "mirror.reading": "…và bạn sẽ có {time} mỗi năm để đọc sách thật.",
+  /* ── time a day, and the path it makes ── */
+  "time.line": "Bạn có thể dành bao nhiêu thời gian mỗi ngày để học {language}?",
+  "time.sub": "Đây là thời gian đọc trong {app}. Bạn có thể thay đổi bất cứ lúc nào.",
+  "path.line": "Với {minutes} phút mỗi ngày, bạn có thể đạt {level} sau khoảng {time}.",
+  "path.top": "Bạn đã ở C2, cấp độ cao nhất. {minutes} phút mỗi ngày sẽ giúp bạn giữ vững điều đó.",
+  "path.ladder": "Lộ trình của bạn, từng cấp độ",
+  "path.days": "{n} ngày",
+  "path.note": "Đây là ước tính, không phải lời hứa. Chỉ tính phần đọc của bạn ở đây, khoảng ba trang mỗi phút.",
+
 
   "tour.journey": "Mình sẽ cùng đọc sách thật, từng trang ngắn một.",
   "tour.levels": "Mọi cuốn sách, đúng trình độ và độ dài của bạn.",
@@ -78,12 +77,6 @@ const vi: Catalog = {
   "time.month": "Một tháng nữa",
   "time.year": "Một năm nữa",
 
-  "daily.line": "Mỗi ngày bạn dành bao nhiêu thời gian?",
-  "daily.sub": "Cứ bắt đầu nhỏ thôi. Bạn có thể đổi bất cứ lúc nào.",
-  "daily.easy": "Nhẹ nhàng",
-  "daily.steady": "Đều đặn",
-  "daily.keen": "Hăng hái",
-  "daily.allin": "Hết mình",
   "daily.min": "phút",
   "daily.minutesLabel": "{minutes} phút",
   "daily.year": "{time} mỗi năm",

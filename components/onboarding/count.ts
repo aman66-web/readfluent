@@ -3,31 +3,6 @@
 import { useEffect, useState } from "react";
 
 /**
- * A number counting up to where it is going, easing out as it arrives — for the
- * first run's big readouts. Where motion is reduced it is simply there.
- */
-export function useCountUp(to: number, ms = 1400, delay = 0): number {
-  const [n, setN] = useState(0);
-  useEffect(() => {
-    const still = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-    let raf = 0;
-    let start = 0;
-    const t = window.setTimeout(() => {
-      if (still) { setN(to); return; }
-      const step = (ts: number) => {
-        if (!start) start = ts;
-        const p = Math.min(1, (ts - start) / ms);
-        setN(Math.round(to * (1 - Math.pow(1 - p, 3))));
-        if (p < 1) raf = requestAnimationFrame(step);
-      };
-      raf = requestAnimationFrame(step);
-    }, still ? 0 : delay);
-    return () => { window.clearTimeout(t); cancelAnimationFrame(raf); };
-  }, [to, ms, delay]);
-  return n;
-}
-
-/**
  * A count that works its way up in uneven stretches, as a real job does: a burst,
  * a slower crawl, a moment's pause, then on. `stops` are [value, ms] pairs, each
  * stretch eased in and out. Where motion is reduced it is simply at the last value.

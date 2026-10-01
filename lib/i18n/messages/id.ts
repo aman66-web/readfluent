@@ -59,17 +59,16 @@ const indonesian: Catalog = {
   "heard.where": "Di mana?",
   "heard.whereLabel": "Di mana kamu mendengarnya?",
 
+  /* ── time a day, and the path it makes ── */
+  "time.line": "Berapa banyak waktu yang bisa kamu luangkan untuk belajar {language} setiap hari?",
+  "time.sub": "Ini adalah waktu membaca di {app}. Kamu bisa mengubahnya kapan saja.",
+  "path.line": "Dengan {minutes} menit sehari, kamu bisa mencapai {level} dalam sekitar {time}.",
+  "path.top": "Kamu sudah ada di C2, level tertinggi. {minutes} menit sehari akan menjaganya tetap begitu.",
+  "path.ladder": "Jalurmu, level demi level",
+  "path.days": "{n} hari",
+  "path.note": "Ini perkiraan, bukan janji. Hanya menghitung bacaanmu di sini, dengan kecepatan sekitar tiga halaman per menit.",
+
   /* ── scroll and mirror ── */
-  "scroll.line": "Berapa lama kamu menggulir layar setiap hari?",
-  "scroll.sub": "Jujur saja. Tidak ada yang mengecek.",
-  "scroll.under1": "Kurang dari satu jam",
-  "scroll.1to2": "1–2 jam",
-  "scroll.2to4": "2–4 jam",
-  "scroll.4plus": "4 jam atau lebih",
-  "mirror.days": "Itu {days} hari penuh dalam setahun, hanya untuk menggulir.",
-  "mirror.daysLabel": "hari setahun dihabiskan untuk menggulir",
-  "mirror.swap": "Tukar {minutes} menit sehari untuk {app}…",
-  "mirror.reading": "…dan itu berarti {time} setahun untuk membaca buku asli.",
 
   /* ── the tour ── */
   "tour.journey": "Kita akan membaca buku asli, satu halaman pendek sekali waktu.",
@@ -87,12 +86,6 @@ const indonesian: Catalog = {
   "time.year": "Setahun lagi",
 
   /* ── the plan ── */
-  "daily.line": "Berapa lama kamu mau meluangkan waktu setiap hari?",
-  "daily.sub": "Mulai dari yang kecil. Kamu bisa mengubahnya kapan saja.",
-  "daily.easy": "Santai",
-  "daily.steady": "Rutin",
-  "daily.keen": "Semangat",
-  "daily.allin": "Total",
   "daily.min": "mnt",
   "daily.minutesLabel": "{minutes} menit",
   "daily.year": "{time} setahun",

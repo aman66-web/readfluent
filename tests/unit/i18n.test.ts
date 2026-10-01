@@ -43,7 +43,7 @@ describe("looking a message up", () => {
     expect(translate(partial as never, "hello.line", { app: "ReadFluent" })).toBe("Hola, bienvenido a ReadFluent.");
     // A value that was not given stays visible rather than turning into "undefined".
     expect(translate(null, "hello.line")).toBe("Hi, welcome to {app}.");
-    expect(translate(null, "mirror.days", { days: 46 })).toBe("That's 46 whole days a year, scrolling.");
+    expect(translate(null, "path.days", { n: 114 })).toBe("114 days");
   });
 
   it("writes Arabic and Urdu right to left, and nothing else", async () => {

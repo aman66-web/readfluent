@@ -60,16 +60,15 @@ const ko: Catalog = {
   "heard.whereLabel": "어디에서 알게 되셨어요?",
 
   /* ── scroll and mirror ── */
-  "scroll.line": "하루에 스크롤하는 시간이 얼마나 되나요?",
-  "scroll.sub": "솔직하게 말해 주세요. 아무도 안 봐요.",
-  "scroll.under1": "1시간 미만",
-  "scroll.1to2": "1–2시간",
-  "scroll.2to4": "2–4시간",
-  "scroll.4plus": "4시간 이상",
-  "mirror.days": "1년이면 꼬박 {days}일을 스크롤하며 보내요.",
-  "mirror.daysLabel": "1년 동안 스크롤에 쓰는 일수",
-  "mirror.swap": "하루 딱 {minutes}분만 {app}에 써 보세요…",
-  "mirror.reading": "…1년이면 진짜 책을 {time} 동안 읽게 돼요.",
+
+  /* ── time a day, and the path it makes ── */
+  "time.line": "하루에 {language} 공부에 얼마나 시간을 쓸 수 있나요?",
+  "time.sub": "{app}에서 읽는 데 쓰는 시간이에요. 언제든 바꿀 수 있어요.",
+  "path.line": "하루 {minutes}분이면 약 {time} 안에 {level}에 도달할 수 있어요.",
+  "path.top": "이미 최고 단계인 C2예요. 하루 {minutes}분이면 그대로 유지할 수 있어요.",
+  "path.ladder": "단계별로 보는 나의 길",
+  "path.days": "{n}일",
+  "path.note": "예상치일 뿐, 약속은 아니에요. 여기서 읽는 시간만, 1분에 약 3페이지로 계산했어요.",
 
   /* ── the tour ── */
   "tour.journey": "진짜 책을 한 번에 짧은 한 페이지씩 읽어요.",
@@ -87,12 +86,6 @@ const ko: Catalog = {
   "time.year": "1년 뒤",
 
   /* ── the plan ── */
-  "daily.line": "하루에 얼마나 시간을 낼 수 있나요?",
-  "daily.sub": "작게 시작해요. 언제든 바꿀 수 있어요.",
-  "daily.easy": "가볍게",
-  "daily.steady": "꾸준히",
-  "daily.keen": "열심히",
-  "daily.allin": "올인",
   "daily.min": "분",
   "daily.minutesLabel": "{minutes}분",
   "daily.year": "1년에 {time}",

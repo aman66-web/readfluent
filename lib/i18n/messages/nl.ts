@@ -60,16 +60,15 @@ const nl: Catalog = {
   "heard.whereLabel": "Waar heb je het gehoord?",
 
   /* ── scroll and mirror ── */
-  "scroll.line": "Hoeveel tijd besteed je per dag aan scrollen?",
-  "scroll.sub": "Wees eerlijk. Niemand controleert het.",
-  "scroll.under1": "Minder dan een uur",
-  "scroll.1to2": "1–2 uur",
-  "scroll.2to4": "2–4 uur",
-  "scroll.4plus": "4 uur of meer",
-  "mirror.days": "Dat zijn {days} hele dagen per jaar aan scrollen.",
-  "mirror.daysLabel": "dagen per jaar aan scrollen besteed",
-  "mirror.swap": "Ruil maar {minutes} minuten per dag in voor {app}…",
-  "mirror.reading": "…en je leest {time} per jaar in echte boeken.",
+
+  /* ── time a day, and the path it makes ── */
+  "time.line": "Hoeveel tijd kun je elke dag besteden aan het leren van {language}?",
+  "time.sub": "Dit is de tijd die je in {app} met lezen doorbrengt. Je kunt het altijd aanpassen.",
+  "path.line": "Met {minutes} minuten per dag kun je {level} bereiken in ongeveer {time}.",
+  "path.top": "Je zit al op C2, het hoogste niveau. Met {minutes} minuten per dag blijft dat zo.",
+  "path.ladder": "Jouw pad, niveau voor niveau",
+  "path.days": "{n} dagen",
+  "path.note": "Dit is een schatting, geen belofte. Alleen je lezen hier telt mee, met ongeveer drie pagina's per minuut.",
 
   /* ── the tour ── */
   "tour.journey": "We lezen echte boeken, steeds één korte pagina.",
@@ -87,12 +86,6 @@ const nl: Catalog = {
   "time.year": "Over een jaar",
 
   /* ── the plan ── */
-  "daily.line": "Hoeveel tijd wil je er elke dag aan besteden?",
-  "daily.sub": "Begin klein. Je kunt het altijd aanpassen.",
-  "daily.easy": "Rustig",
-  "daily.steady": "Gestaag",
-  "daily.keen": "Gedreven",
-  "daily.allin": "Vol gas",
   "daily.min": "min",
   "daily.minutesLabel": "{minutes} minuten",
   "daily.year": "{time} per jaar",

@@ -60,16 +60,15 @@ const bn: Catalog = {
   "heard.whereLabel": "কোথায় এর কথা জানলেন?",
 
   /* ── scroll and mirror ── */
-  "scroll.line": "প্রতিদিন স্ক্রল করতে কতক্ষণ কাটান?",
-  "scroll.sub": "সত্যি বলুন। কেউ দেখছে না।",
-  "scroll.under1": "এক ঘণ্টার কম",
-  "scroll.1to2": "1–2 ঘণ্টা",
-  "scroll.2to4": "2–4 ঘণ্টা",
-  "scroll.4plus": "4 ঘণ্টা বা বেশি",
-  "mirror.days": "অর্থাৎ বছরে পুরো {days} দিন কেটে যায় স্ক্রল করে।",
-  "mirror.daysLabel": "দিন প্রতি বছর স্ক্রলে যায়",
-  "mirror.swap": "দিনে মাত্র {minutes} মিনিট {app}-কে দিন…",
-  "mirror.reading": "…তাহলে বছরে {time} আসল বই পড়া হবে।",
+
+  /* ── time a day, and the path it makes ── */
+  "time.line": "প্রতিদিন {language} শেখার জন্য আপনি কতটা সময় দিতে পারবেন?",
+  "time.sub": "এটি {app}-এ পড়ার জন্য ব্যয় করা সময়। আপনি যেকোনো সময় এটি বদলাতে পারেন।",
+  "path.line": "দিনে {minutes} মিনিট করে পড়লে {level} স্তরে পৌঁছাতে আপনার প্রায় {time} লাগবে।",
+  "path.top": "আপনি আগে থেকেই C2-তে আছেন, যা সর্বোচ্চ স্তর। দিনে {minutes} মিনিট সেটি ধরে রাখে।",
+  "path.ladder": "আপনার পথ, স্তরে স্তরে",
+  "path.days": "{n} দিন",
+  "path.note": "এটি একটি অনুমান, প্রতিশ্রুতি নয়। এখানে শুধু আপনার পড়াটুকুই ধরা হয়েছে, মিনিটে প্রায় তিনটি পাতার হিসাবে।",
 
   /* ── the tour ── */
   "tour.journey": "আমরা আসল বই পড়ব, একবারে একটি ছোট পাতা।",
@@ -87,12 +86,6 @@ const bn: Catalog = {
   "time.year": "এক বছরে",
 
   /* ── the plan ── */
-  "daily.line": "প্রতিদিন কতটা সময় দেবেন?",
-  "daily.sub": "ছোট করে শুরু করুন। যেকোনো সময় বদলাতে পারবেন।",
-  "daily.easy": "সহজ",
-  "daily.steady": "নিয়মিত",
-  "daily.keen": "আগ্রহী",
-  "daily.allin": "পুরোদমে",
   "daily.min": "মিনিট",
   "daily.minutesLabel": "{minutes} মিনিট",
   "daily.year": "বছরে {time}",

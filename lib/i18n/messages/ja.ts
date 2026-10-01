@@ -60,16 +60,15 @@ const ja: Catalog = {
   "heard.whereLabel": "どこで知りましたか？",
 
   /* ── scroll and mirror ── */
-  "scroll.line": "1日にどれくらいスクロールしていますか？",
-  "scroll.sub": "正直に答えてくださいね。誰も見ていません。",
-  "scroll.under1": "1時間未満",
-  "scroll.1to2": "1–2時間",
-  "scroll.2to4": "2–4時間",
-  "scroll.4plus": "4時間以上",
-  "mirror.days": "1年で丸 {days} 日も、スクロールしている計算です。",
-  "mirror.daysLabel": "1年でスクロールに使う日数",
-  "mirror.swap": "1日たった {minutes} 分を{app}に使ったら…",
-  "mirror.reading": "…1年で {time} も本物の本を読めます。",
+
+  /* ── time a day, and the path it makes ── */
+  "time.line": "1日にどのくらい{language}の学習に時間を使えますか？",
+  "time.sub": "{app}で読書にあてる時間です。いつでも変えられます。",
+  "path.line": "1日 {minutes} 分なら、約{time}で{level}に届きます。",
+  "path.top": "あなたはすでに最上位のC2です。1日 {minutes} 分で、その力を保てます。",
+  "path.ladder": "レベルごとの道のり",
+  "path.days": "{n} 日",
+  "path.note": "あくまで目安で、約束ではありません。ここでの読書だけを、1分に約3ページのペースで数えています。",
 
   /* ── the tour ── */
   "tour.journey": "本物の本を、1ページずつ短く読んでいきます。",
@@ -87,12 +86,6 @@ const ja: Catalog = {
   "time.year": "1年後",
 
   /* ── the plan ── */
-  "daily.line": "毎日どれくらい時間をかけますか？",
-  "daily.sub": "少しずつ始めましょう。いつでも変えられます。",
-  "daily.easy": "気軽に",
-  "daily.steady": "コツコツ",
-  "daily.keen": "しっかり",
-  "daily.allin": "本気",
   "daily.min": "分",
   "daily.minutesLabel": "{minutes} 分",
   "daily.year": "年間 {time}",

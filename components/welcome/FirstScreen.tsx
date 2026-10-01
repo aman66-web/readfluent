@@ -59,7 +59,7 @@ export function FirstScreen({ onStart, onSignIn }: { onStart: () => void; onSign
         </button>
         {onSignIn && (
           <button type="button" onClick={onSignIn}
-                  className="first-alt wel-in mt-1 flex h-12 w-full items-center justify-center text-[15px] font-semibold transition-opacity active:opacity-60"
+                  className="wel-in mt-1 flex h-12 w-full items-center justify-center text-[15px] font-semibold transition-opacity active:opacity-60"
                   style={{ animationDelay: "1000ms", color: BRAND.deep }}>
             {t("first.signIn")}
           </button>

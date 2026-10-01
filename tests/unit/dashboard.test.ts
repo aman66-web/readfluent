@@ -11,20 +11,20 @@ const text = (s: string) => s.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
 describe("the dashboard's level card", () => {
   it("shows the level, the bar to the next, and what is left", async () => {
     const { LevelCard } = await import("@/components/home/LevelCard");
-    const html = renderToStaticMarkup(createElement(LevelCard, { xp: 7_500, learn: "es" }));
+    const html = renderToStaticMarkup(createElement(LevelCard, { xp: 30_000, learn: "es" }));
     const t = text(html);
     expect(t).toContain("Your Spanish level");
     expect(t).toContain("Elementary");
-    expect(t).toContain("7,500 XP in total");
-    expect(t).toContain("2,500 of 10,000 XP");
-    expect(t).toContain("7,500 XP to B1");
+    expect(t).toContain("30,000 XP in total");
+    expect(t).toContain("8,500 of 32,500 XP");
+    expect(t).toContain("24,000 XP to B1");
     expect(html).toContain('aria-label="A2"');
-    expect(html).toContain('aria-valuenow="25"');
+    expect(html).toContain('aria-valuenow="26"');
   });
 
   it("has a top: C2 says so and has no next level", async () => {
     const { LevelCard } = await import("@/components/home/LevelCard");
-    const t = text(renderToStaticMarkup(createElement(LevelCard, { xp: 140_000, learn: null })));
+    const t = text(renderToStaticMarkup(createElement(LevelCard, { xp: 300_000, learn: null })));
     expect(t).toContain("reached the top level");
     expect(t).not.toContain("to C2");
   });
@@ -32,7 +32,7 @@ describe("the dashboard's level card", () => {
   it("says how XP is earned from the numbers the reader pays", async () => {
     const { XP } = await import("@/lib/xp/levels");
     const { translate } = await import("@/lib/i18n");
-    expect(translate(null, "xp.howPage", { xp: XP.page, half: XP.pageBelow })).toBe("10 XP for every page you read (5 for a book below your level)");
+    expect(translate(null, "xp.howPage", { xp: XP.page, half: XP.pageBelow })).toBe("2 XP for every page you read (1 for a book below your level)");
   });
 });
 
@@ -60,7 +60,7 @@ describe("the dashboard's graph", () => {
 describe("the level step", () => {
   it("asks how much of the language, offers six levels and the test", async () => {
     const { LevelScreen } = await import("@/components/onboarding/Level");
-    const nav = { at: 3, of: 19, onBack() {}, onContinue() {}, onPick() {}, onTest() {} };
+    const nav = { at: 3, of: 18, onBack() {}, onContinue() {}, onPick() {}, onTest() {} };
     const html = renderToStaticMarkup(createElement(LevelScreen, { ...nav, learn: "en", value: "B2", placed: true }));
     const t = text(html);
     expect(t).toContain("How much English do you already know?");
@@ -79,7 +79,7 @@ describe("the level step", () => {
 
   it("says the test is coming for a language that has none, instead of offering it", async () => {
     const { LevelScreen } = await import("@/components/onboarding/Level");
-    const nav = { at: 3, of: 19, onBack() {}, onContinue() {}, onPick() {}, onTest() {} };
+    const nav = { at: 3, of: 18, onBack() {}, onContinue() {}, onPick() {}, onTest() {} };
     const t = text(renderToStaticMarkup(createElement(LevelScreen, { ...nav, learn: "es", value: null, placed: false })));
     expect(t).toContain("The placement test for Spanish is coming");
     expect(t).not.toContain("Take a test to find my level");

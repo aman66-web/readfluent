@@ -1,17 +1,13 @@
 "use client";
 
 import { useEffect, useRef, type ReactNode } from "react";
-import { DotNumber } from "@/components/DotMatrix";
 import { ART, ArtDefs } from "@/components/welcome/art";
 import { APP_NAME } from "@/lib/brand";
 import { languageName } from "@/lib/i18n";
-import { formatReadingTime } from "@/lib/i18n/format";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { MessageId } from "@/lib/i18n/en";
 import { HEARD_IDS, HEARD_OTHER_MAX, WHY_IDS, type HeardId, type WhyId } from "@/lib/onboarding/answers";
 import type { LanguageCode } from "@/lib/onboarding/languages";
-import { SCROLL_HOURS, SCROLL_IDS, SWAP_MINUTES, scrollDaysAYear, type ScrollId } from "@/lib/onboarding/firstrun";
-import { useCountUp } from "./count";
 import { GuideFrame, GuideHead, Said, useGuide } from "./Guide";
 import { GuideBook } from "./GuideBook";
 import { TickIcon } from "./ui";
@@ -265,101 +261,3 @@ const CHANNELS: Record<HeardId, { icon: ReactNode; label: string }> = {
   other: { label: "heard.other", icon: <><circle cx="6" cy="12" r="1.3" fill="currentColor" /><circle cx="12" cy="12" r="1.3" fill="currentColor" /><circle cx="18" cy="12" r="1.3" fill="currentColor" /></> },
 };
 
-/* ── scroll and mirror ───────────────────────────────────────────────────── */
-
-/** "How long do you spend scrolling each day?" — four answers, one picked. */
-export function ScrollScreen({ at, of, value, onPick, onBack, onContinue }: Nav & {
-  value: ScrollId | null;
-  onPick: (s: ScrollId) => void;
-}) {
-  const t = useT();
-  const line = t("scroll.line");
-  const guide = useGuide(line);
-  return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
-      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead guide={guide} line={line} sub={t("scroll.sub")} />
-        <div className="mt-7 flex flex-col gap-2.5" role="radiogroup" aria-label={line}>
-          {SCROLL_IDS.map((id, i) => {
-            const on = value === id;
-            return (
-              <button key={id} type="button" role="radio" aria-checked={on} onClick={() => onPick(id)}
-                      className={`guide-card wel-in relative flex h-[62px] items-center gap-4 rounded-[20px] px-5 text-start ${on ? "guide-card-on" : ""}`}
-                      style={{ animationDelay: `${850 + i * 80}ms` }}>
-                <span className="flex-1 text-[16px] font-semibold">{t(`scroll.${id}`)}</span>
-                {/* How much of the day it is: a meter that grows with the answer. */}
-                <span className="guide-track relative h-1.5 w-20 shrink-0 overflow-hidden rounded-full" aria-hidden>
-                  <span className="scroll-fill absolute inset-y-0 start-0 rounded-full"
-                        style={{ width: `${(SCROLL_HOURS[id] / SCROLL_HOURS["4plus"]) * 100}%`, animationDelay: `${1000 + i * 80}ms` }} />
-                </span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-    </GuideFrame>
-  );
-}
-
-/**
- * The mirror: what their scrolling adds up to over a year, as a field of lamps, and
- * what a sliver of it would be as reading instead. Every number is arithmetic on
- * what they said (lib/onboarding/firstrun.ts).
- */
-export function MirrorScreen({ at, of, scroll, onBack, onContinue }: Nav & { scroll: ScrollId | null }) {
-  const t = useT();
-  const locale = useLocale();
-  const days = scroll ? scrollDaysAYear(scroll) : 0;
-  const swap = t("mirror.swap", { minutes: SWAP_MINUTES, app: APP_NAME });
-  const line = days ? t("mirror.days", { days }) : swap;
-  const guide = useGuide(line);
-  const shown = useCountUp(days, 1500, 900);
-  return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
-      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead guide={guide} line={line} />
-
-        {days > 0 && (
-          <div className="mt-7">
-            <div className="flex items-end gap-3">
-              <DotNumber value={shown} cell={11} color="#0E7490" glow={false} field fieldColor="rgba(14,116,144,.08)" label={String(days)} />
-              <p className="ob-muted pb-1 text-[14px] font-semibold leading-tight">{t("mirror.daysLabel")}</p>
-            </div>
-            <Year lit={days} />
-          </div>
-        )}
-
-        {/* The swap, a beat after the year has filled. */}
-        <div className="wel-in guide-card relative mt-6 rounded-[22px] p-5" style={{ animationDelay: days ? "2700ms" : "900ms" }}>
-          <p className="text-[17px] font-semibold leading-snug">{swap}</p>
-          <p className="ob-muted mt-2 text-[15px] leading-snug">{t("mirror.reading", { time: formatReadingTime(365 * SWAP_MINUTES, locale) })}</p>
-        </div>
-      </div>
-    </GuideFrame>
-  );
-}
-
-/**
- * A year of days as a field of lamps, one for every day. The first `lit` light one
- * after another, all of them inside about a second and a half.
- */
-function Year({ lit }: { lit: number }) {
-  const cols = 25;
-  const rows = Math.ceil(365 / cols);
-  const pitch = 10;
-  const r = 3.3;
-  const pace = 1500 / Math.max(1, lit);
-  return (
-    <svg viewBox={`0 0 ${cols * pitch} ${rows * pitch}`} className="mt-5 block w-full" aria-hidden>
-      {Array.from({ length: 365 }, (_, i) => {
-        const x = (i % cols) * pitch + pitch / 2;
-        const y = Math.floor(i / cols) * pitch + pitch / 2;
-        const on = i < lit;
-        return (
-          <circle key={i} cx={x} cy={y} r={r} className={on ? "year-lit" : undefined}
-                  fill={on ? "#0891B2" : "rgba(11,27,34,.1)"} style={on ? { animationDelay: `${900 + i * pace}ms` } : undefined} />
-        );
-      })}
-    </svg>
-  );
-}

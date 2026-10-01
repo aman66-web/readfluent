@@ -60,16 +60,15 @@ const pl: Catalog = {
   "heard.whereLabel": "Skąd o nas wiesz?",
 
   /* ── scroll and mirror ── */
-  "scroll.line": "Ile czasu dziennie spędzasz na scrollowaniu?",
-  "scroll.sub": "Szczerze. Nikt nie sprawdza.",
-  "scroll.under1": "Poniżej godziny",
-  "scroll.1to2": "1–2 godziny",
-  "scroll.2to4": "2–4 godziny",
-  "scroll.4plus": "4 godziny lub więcej",
-  "mirror.days": "Dni w roku spędzone na scrollowaniu: {days}.",
-  "mirror.daysLabel": "dni w roku na scrollowanie",
-  "mirror.swap": "Zamień tylko {minutes} min dziennie na {app}…",
-  "mirror.reading": "…a w ciągu roku wyjdzie {time} czytania prawdziwych książek.",
+
+  /* ── time a day, and the path it makes ── */
+  "time.line": "Ile czasu dziennie możesz poświęcić na naukę języka: {language}?",
+  "time.sub": "To czas czytania w {app}. Możesz go zmienić w każdej chwili.",
+  "path.line": "Przy {minutes} min dziennie dotrzesz do poziomu {level}. Potrzebujesz na to mniej więcej {time}.",
+  "path.top": "Jesteś już na poziomie C2, czyli najwyższym. Przy {minutes} min dziennie tak zostanie.",
+  "path.ladder": "Twoja droga, poziom po poziomie",
+  "path.days": "{n} dni",
+  "path.note": "To szacunek, nie obietnica. Liczy tylko twoje czytanie tutaj, w tempie około trzech stron na minutę.",
 
   /* ── the tour ── */
   "tour.journey": "Będziemy czytać prawdziwe książki, jedna krótka strona naraz.",
@@ -87,12 +86,6 @@ const pl: Catalog = {
   "time.year": "Za rok",
 
   /* ── the plan ── */
-  "daily.line": "Ile czasu dziennie chcesz na to poświęcić?",
-  "daily.sub": "Zacznij od małych kroków. Możesz to zmienić w każdej chwili.",
-  "daily.easy": "Lekko",
-  "daily.steady": "Równo",
-  "daily.keen": "Chętnie",
-  "daily.allin": "Na całość",
   "daily.min": "min",
   "daily.minutesLabel": "{minutes} min",
   "daily.year": "{time} rocznie",

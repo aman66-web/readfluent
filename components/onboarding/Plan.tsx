@@ -3,10 +3,14 @@
 import { useRef, useState } from "react";
 import { DotNumber } from "@/components/DotMatrix";
 import type { CategoryId } from "@/lib/content/limits";
-import { formatDate, formatList } from "@/lib/i18n";
+import { formatDate, formatList, languageName } from "@/lib/i18n";
+import { APP_NAME } from "@/lib/brand";
 import { formatReadingTime } from "@/lib/i18n/format";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { WhyId } from "@/lib/onboarding/answers";
+import type { LanguageCode } from "@/lib/onboarding/languages";
+import { formatDuration, pathFrom } from "@/lib/xp/path";
+import type { Cefr } from "@/lib/xp/levels";
 import { DAILY_MINUTES } from "@/lib/onboarding/firstrun";
 import { useStagedCount } from "./count";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
@@ -22,40 +26,92 @@ interface Nav { at: number; of: number; onBack: () => void; onContinue: () => vo
  * and the totals are arithmetic on the time they chose (lib/onboarding/firstrun.ts).
  */
 
-const DAILY_LABELS = ["daily.easy", "daily.steady", "daily.keen", "daily.allin"] as const;
-
-/** "How much time will you give it each day?" — four goals, one picked. */
-export function DailyScreen({ at, of, value, onPick, onBack, onContinue }: Nav & {
+/**
+ * "How much time can you commit to learning {language} each day?" — six answers, one
+ * picked. Under each, what that adds up to in a year of reading. This is the reader's
+ * daily goal, and the next screen works out from it how long each level takes.
+ */
+export function TimeScreen({ at, of, learn, value, onPick, onBack, onContinue }: Nav & {
+  learn: LanguageCode | null;
   value: number | null;
   onPick: (minutes: number) => void;
 }) {
   const t = useT();
   const locale = useLocale();
-  const line = t("daily.line");
+  const line = t("time.line", { language: languageName(learn ?? "en", locale) });
   const guide = useGuide(line);
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead guide={guide} line={line} sub={t("daily.sub")} />
-        <div className="mt-7 grid grid-cols-2 gap-3" role="radiogroup" aria-label={line}>
+        <GuideHead key={line} guide={guide} line={line} sub={t("time.sub", { app: APP_NAME })} />
+        <div className="mt-6 grid grid-cols-2 gap-3" role="radiogroup" aria-label={line}>
           {DAILY_MINUTES.map((m, i) => {
             const on = value === m;
             return (
               <button key={m} type="button" role="radio" aria-checked={on} onClick={() => onPick(m)}
                       className={`guide-card wel-in relative flex flex-col items-start gap-3 rounded-[22px] p-4 text-start ${on ? "guide-card-on" : ""}`}
-                      style={{ animationDelay: `${850 + i * 90}ms` }}>
-                <span className="flex items-end gap-1.5">
+                      style={{ animationDelay: `${850 + i * 80}ms` }}>
+                <span className="flex items-end gap-1.5" dir="ltr">
                   <DotNumber value={m} cell={7} color={on ? "#0891B2" : "#0B1B22"} glow={false} label={t("daily.minutesLabel", { minutes: m })} />
                   <span className="ob-muted pb-0.5 text-[12px] font-bold uppercase tracking-[0.06em]">{t("daily.min")}</span>
                 </span>
-                <span>
-                  <span className="block text-[15px] font-semibold">{t(DAILY_LABELS[i])}</span>
-                  <span className="ob-muted mt-0.5 block text-[12.5px] leading-snug">{t("daily.year", { time: formatReadingTime(365 * m, locale) })}</span>
-                </span>
+                <span className="ob-muted block text-[12.5px] leading-snug">{t("daily.year", { time: formatReadingTime(365 * m, locale) })}</span>
               </button>
             );
           })}
         </div>
+      </div>
+    </GuideFrame>
+  );
+}
+
+/**
+ * "At 20 minutes a day, you could reach B2 in about …" — how long each level up takes, as a
+ * ladder of bars (the longer the climb, the longer the bar), from the level they are at to C2.
+ * The headline is the next level. It is the same arithmetic the dashboard keeps (lib/xp/path),
+ * and it says it is an estimate.
+ */
+export function PathScreen({ at, of, level, minutes, onBack, onContinue }: Nav & {
+  level: Cefr | null;
+  minutes: number;
+}) {
+  const t = useT();
+  const locale = useLocale();
+  const steps = pathFrom(level, minutes);
+  const next = steps[0];
+  const line = next
+    ? t("path.line", { minutes, level: next.level, time: formatDuration(next.days, locale) })
+    : t("path.top", { minutes });
+  const guide = useGuide(line);
+  const longest = steps.length ? steps[steps.length - 1].days : 1;
+  const n = (v: number) => v.toLocaleString(locale);
+  return (
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
+      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
+        <GuideHead key={line} guide={guide} line={line} />
+        {steps.length > 0 && (
+          <>
+            <p className="ob-muted mt-6 text-[12px] font-bold uppercase tracking-[0.1em]">{t("path.ladder")}</p>
+            <ol className="mt-3 space-y-2.5">
+              {steps.map((s, i) => (
+                <li key={s.level} className={`guide-card wel-in relative rounded-[20px] px-4 py-3 ${i === 0 ? "guide-card-on" : ""}`} style={{ animationDelay: `${900 + i * 280}ms` }}>
+                  <div className="flex items-center gap-3">
+                    <span className="tabular w-8 shrink-0 text-[16px] font-extrabold text-[var(--ob-deep)]">{s.level}</span>
+                    <span className="min-w-0 flex-1 truncate text-[13.5px] font-semibold">{t(`levelname.${s.level}`)}</span>
+                    <span className="tabular shrink-0 text-end">
+                      <span className="block text-[14px] font-bold">{t("path.days", { n: n(s.days) })}</span>
+                      {s.days >= 60 && <span className="ob-muted block text-[11.5px] font-medium">≈ {formatDuration(s.days, locale)}</span>}
+                    </span>
+                  </div>
+                  <div className="guide-track mt-2.5 h-1.5 overflow-hidden rounded-full" aria-hidden>
+                    <div className="future-fill h-full rounded-full" style={{ width: `${Math.max(4, (s.days / longest) * 100)}%`, animationDelay: `${1000 + i * 280}ms` }} />
+                  </div>
+                </li>
+              ))}
+            </ol>
+            <p className="ob-faint wel-in mt-4 text-[12px] leading-snug" style={{ animationDelay: `${1200 + steps.length * 280}ms` }}>{t("path.note")}</p>
+          </>
+        )}
       </div>
     </GuideFrame>
   );

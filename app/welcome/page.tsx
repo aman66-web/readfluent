@@ -4,8 +4,8 @@ import "./welcome.css";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo, useState, useSyncExternalStore } from "react";
 import { FirstScreen } from "@/components/welcome/FirstScreen";
-import { HeardScreen, HelloScreen, WhyScreen, MirrorScreen, ScrollScreen } from "@/components/onboarding/Questions";
-import { DailyScreen, FutureScreen, PledgeScreen, ReadyScreen } from "@/components/onboarding/Plan";
+import { HeardScreen, HelloScreen, WhyScreen } from "@/components/onboarding/Questions";
+import { FutureScreen, PathScreen, PledgeScreen, ReadyScreen, TimeScreen } from "@/components/onboarding/Plan";
 import { LevelScreen } from "@/components/onboarding/Level";
 import { TonguesScreen } from "@/components/onboarding/Tongues";
 import { AccountScreen, InterestsScreen } from "@/components/onboarding/Last";
@@ -25,8 +25,8 @@ import { startAt } from "@/lib/xp/ledger";
 /**
  * First run: the welcome (a wall of book covers), which languages (the one you speak
  * and the one you want to learn), the guide's hello and its two
- * questions, how long somebody scrolls and what that adds up to, the guide's tour of
- * what the app does (five screens), a daily time and where it takes them, a promise,
+ * questions, how much time a day they can give it and how long that takes to reach each
+ * level, the guide's tour of what the app does (five screens), where that time takes them, a promise,
  * sign in or sign up, what you are curious about, and the library being
  * set up — which saves the answers and opens the library.
  *
@@ -116,10 +116,9 @@ function Welcome() {
                    onPick={(heard) => saveAnswers({ heard })} onOther={(heardOther) => saveAnswers({ heardOther })} />
     );
   }
-  if (step === "scroll") return <ScrollScreen {...nav} value={a.scroll} onPick={(scroll) => saveAnswers({ scroll })} />;
-  if (step === "mirror") return <MirrorScreen {...nav} scroll={a.scroll} />;
+  if (step === "time") return <TimeScreen {...nav} learn={a.learn} value={a.daily} onPick={(daily) => saveAnswers({ daily })} />;
+  if (step === "path") return <PathScreen {...nav} level={a.level} minutes={minutes} />;
   if (isShowStep(step)) return <TourScreen key={step} id={step} {...nav} />;
-  if (step === "daily") return <DailyScreen {...nav} value={a.daily} onPick={(daily) => saveAnswers({ daily })} />;
   if (step === "future") return <FutureScreen {...nav} minutes={minutes} why={a.why} />;
   if (step === "pledge") {
     return <PledgeScreen {...nav} minutes={minutes} done={a.pledged} onDone={() => saveAnswers({ pledged: true })} />;

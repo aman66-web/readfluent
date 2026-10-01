@@ -70,7 +70,7 @@ export function GuideBook({ talking, className = "" }: { talking: boolean; class
       <circle className="gb-glow" cx="120" cy="140" r="112" fill="url(#gb-glow)" />
 
       {/* Letters rising off the pages. */}
-      <g className="gb-letters" fontFamily="var(--font-display), 'Iowan Old Style', Georgia, 'Noto Sans', system-ui, sans-serif" fontWeight="700" textAnchor="middle">
+      <g fontFamily="var(--font-display), 'Iowan Old Style', Georgia, 'Noto Sans', system-ui, sans-serif" fontWeight="700" textAnchor="middle">
         {GLYPHS.map((g) => (
           <text key={g.ch} className="gb-g" x="120" y="146" fill={g.c} fontSize={g.s + 2}
                 style={{ ["--x" as string]: `${g.x}px`, ["--y" as string]: `${g.y}px`, animationDelay: `${g.d}s` }}>{g.ch}</text>

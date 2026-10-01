@@ -1,7 +1,7 @@
 import { CATEGORIES, type CategoryId } from "@/lib/content/limits";
 import { storageKey } from "@/lib/brand";
 import { readRaw, writeRaw } from "@/lib/store/local";
-import { DAILY_MINUTES, SCROLL_IDS, type ScrollId } from "./firstrun";
+import { DAILY_MINUTES } from "./firstrun";
 import { isCefr, type Cefr } from "@/lib/xp/levels";
 import { DEFAULT_LANGUAGE, isLanguage, type LanguageCode } from "./languages";
 
@@ -28,7 +28,6 @@ export interface Answers {
   why: WhyId[];
   heard: HeardId | null;
   heardOther: string;
-  scroll: ScrollId | null;
   daily: number | null;
   pledged: boolean;
   /** The language they speak: the app and word meanings. */
@@ -43,7 +42,7 @@ export interface Answers {
 }
 
 export const NO_ANSWERS: Answers = {
-  why: [], heard: null, heardOther: "", scroll: null, daily: null, pledged: false, language: DEFAULT_LANGUAGE, learn: null, level: null, placed: false, interests: [],
+  why: [], heard: null, heardOther: "", daily: null, pledged: false, language: DEFAULT_LANGUAGE, learn: null, level: null, placed: false, interests: [],
 };
 
 export const ANSWERS_KEY = storageKey("onboarding");
@@ -72,7 +71,6 @@ export function parseAnswers(raw: string | null | undefined): Answers {
     why: tidy(WHY_IDS, o.why),
     heard: oneOf(HEARD_IDS, o.heard),
     heardOther: typeof o.heardOther === "string" ? o.heardOther.slice(0, HEARD_OTHER_MAX) : "",
-    scroll: oneOf(SCROLL_IDS, o.scroll),
     daily: typeof o.daily === "number" && (DAILY_MINUTES as readonly number[]).includes(o.daily) ? o.daily : null,
     pledged: o.pledged === true,
     language,

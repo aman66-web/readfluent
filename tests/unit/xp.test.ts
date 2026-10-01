@@ -1,11 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { BAND_OF, CEFR, LEVEL_FLOOR, XP, levelFromXp, startingXp, xpForFinish, xpForPage } from "@/lib/xp/levels";
+import { BAND_OF, CEFR, LEVEL_FLOOR, LEVEL_HOURS, PAGES_PER_MINUTE, XP, XP_PER_HOUR, levelFromXp, startingXp, xpForFinish, xpForPage, xpPerDay } from "@/lib/xp/levels";
+import { formatDuration, pathFrom } from "@/lib/xp/path";
 import { EMPTY_LEDGER, addSeconds, localDay, parseLedger, payFinish, payPage, series, streak, totalXp, type Ledger } from "@/lib/xp/ledger";
 
 describe("levels from XP", () => {
   it("climb A1 to C2 and never skip or go backwards", () => {
     let last = -1;
-    for (let xp = 0; xp < 140_000; xp += 250) {
+    for (let xp = 0; xp < 280_000; xp += 250) {
       const i = CEFR.indexOf(levelFromXp(xp).level);
       expect(i).toBeGreaterThanOrEqual(last);
       expect(i - last).toBeLessThanOrEqual(1);
@@ -14,26 +15,35 @@ describe("levels from XP", () => {
     expect(last).toBe(5);
   });
 
+  it("are written in hours of reading and turned into XP, so the first run and the dashboard agree", () => {
+    expect(XP_PER_HOUR).toBe(540);
+    expect(LEVEL_FLOOR).toEqual({ A1: 0, A2: 21_500, B1: 54_000, B2: 97_000, C1: 162_000, C2: 259_000 });
+    for (const level of CEFR.slice(1)) {
+      // Within a rounding step of the hours it stands for.
+      expect(Math.abs(LEVEL_FLOOR[level] - LEVEL_HOURS[level] * XP_PER_HOUR)).toBeLessThanOrEqual(250);
+    }
+  });
+
   it("put the thresholds where they are written", () => {
     expect(levelFromXp(0).level).toBe("A1");
-    expect(levelFromXp(4_999).level).toBe("A1");
-    expect(levelFromXp(5_000).level).toBe("A2");
+    expect(levelFromXp(21_499).level).toBe("A1");
+    expect(levelFromXp(21_500).level).toBe("A2");
     expect(levelFromXp(LEVEL_FLOOR.C2).level).toBe("C2");
   });
 
   it("say how far along and how far to go", () => {
-    const s = levelFromXp(5_000 + 2_500);
-    expect(s).toMatchObject({ level: "A2", next: "B1", into: 2_500, span: 10_000, toGo: 7_500 });
+    const s = levelFromXp(21_500 + 8_150);
+    expect(s).toMatchObject({ level: "A2", next: "B1", into: 8_150, span: 32_500, toGo: 24_350 });
     expect(s.fraction).toBeCloseTo(0.25);
   });
 
   it("have a top: C2 has nothing to go and a full bar", () => {
-    const s = levelFromXp(200_000);
+    const s = levelFromXp(400_000);
     expect(s).toMatchObject({ level: "C2", next: null, toGo: 0, fraction: 1 });
   });
 
   it("start a placed reader at the floor of their level, and an unplaced one at A1", () => {
-    expect(startingXp("B2")).toBe(35_000);
+    expect(startingXp("B2")).toBe(97_000);
     expect(levelFromXp(startingXp("C1")).level).toBe("C1");
     expect(startingXp(null)).toBe(0);
   });
@@ -50,7 +60,55 @@ describe("levels from XP", () => {
     expect(xpForPage("B1B2", "C1")).toBe(XP.pageBelow);
     expect(xpForPage("C1C2", "C2")).toBe(XP.page);
     expect(BAND_OF.B2).toBe("B1B2");
-    expect(xpForFinish(50)).toBe(100);
+    expect(xpForFinish(50)).toBe(50);
+  });
+
+  it("pay for a day of reading by the minute, with the first-page bonus", () => {
+    expect(xpPerDay(0)).toBe(0);
+    expect(xpPerDay(20)).toBe(XP.firstOfDay + 20 * PAGES_PER_MINUTE * (XP.page + XP.finishPerPage));
+    expect(xpPerDay(20)).toBe(190);
+    for (let i = 1; i < 6; i++) expect(xpPerDay([10, 15, 20, 30, 45, 60][i])).toBeGreaterThan(xpPerDay([10, 15, 20, 30, 45, 60][i - 1]));
+  });
+});
+
+describe("the path to each level", () => {
+  it("counts the days from where a reader starts to every level above, in order", () => {
+    const steps = pathFrom("A1", 20);
+    expect(steps.map((s) => s.level)).toEqual(["A2", "B1", "B2", "C1", "C2"]);
+    expect(steps[0].days).toBe(Math.ceil(21_500 / 190));
+    for (let i = 1; i < steps.length; i++) expect(steps[i].days).toBeGreaterThan(steps[i - 1].days);
+  });
+
+  it("is shorter for a reader who commits more, and for one who starts higher", () => {
+    expect(pathFrom("A1", 60)[2].days).toBeLessThan(pathFrom("A1", 10)[2].days);
+    expect(pathFrom("B1", 20).map((s) => s.level)).toEqual(["B2", "C1", "C2"]);
+    expect(pathFrom("B1", 20)[0].days).toBeLessThan(pathFrom("A1", 20)[2].days);
+  });
+
+  it("agrees with the dashboard: reading that many days really does reach the level", () => {
+    for (const minutes of [10, 20, 60]) {
+      for (const step of pathFrom("A2", minutes)) {
+        expect(levelFromXp(startingXp("A2") + step.days * xpPerDay(minutes)).level).toBe(step.level);
+        // And a day fewer does not.
+        expect(CEFR.indexOf(levelFromXp(startingXp("A2") + (step.days - 1) * xpPerDay(minutes)).level)).toBeLessThan(CEFR.indexOf(step.level));
+      }
+    }
+  });
+
+  it("has no path from the top, or with no time given, or for a missing level it starts at A1", () => {
+    expect(pathFrom("C2", 30)).toEqual([]);
+    expect(pathFrom("A1", 0)).toEqual([]);
+    expect(pathFrom(null, 20)[0].level).toBe("A2");
+  });
+
+  it("says a length of time the way a person does", () => {
+    expect(formatDuration(1)).toBe("1 day");
+    expect(formatDuration(45)).toBe("45 days");
+    expect(formatDuration(114)).toBe("4 months");
+    expect(formatDuration(511)).toBe("17 months");
+    expect(formatDuration(1100)).toBe("3 years");
+    expect(formatDuration(900)).toBe("2.5 years");
+    expect(formatDuration(114, "es")).toBe("4 meses");
   });
 });
 
@@ -83,12 +141,12 @@ describe("the ledger", () => {
 
   it("pays a finish once", () => {
     const a = payFinish(EMPTY_LEDGER, "v", 50, D1);
-    expect(a.xp).toBe(100);
+    expect(a.xp).toBe(50);
     expect(payFinish(a.ledger, "v", 50, D1).xp).toBe(0);
   });
 
   it("can take a reader up a level, and the total includes where they started", () => {
-    let l: Ledger = { ...EMPTY_LEDGER, base: 4_990, days: { [D1]: { sec: 0, xp: 1, books: {} } } };
+    let l: Ledger = { ...EMPTY_LEDGER, base: 21_499, days: { [D1]: { sec: 0, xp: 1, books: {} } } };
     expect(levelFromXp(totalXp(l)).level).toBe("A1");
     l = payPage(l, "v", 1, "A1A2", D1).ledger;
     expect(levelFromXp(totalXp(l)).level).toBe("A2");

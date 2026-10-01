@@ -67,17 +67,14 @@ export const EN = {
   "heard.where": "Where?",
   "heard.whereLabel": "Where did you hear about it?",
 
-  /* ── scroll and mirror ── */
-  "scroll.line": "How long do you spend scrolling each day?",
-  "scroll.sub": "Be honest. Nobody's checking.",
-  "scroll.under1": "Under an hour",
-  "scroll.1to2": "1–2 hours",
-  "scroll.2to4": "2–4 hours",
-  "scroll.4plus": "4 hours or more",
-  "mirror.days": "That's {days} whole days a year, scrolling.",
-  "mirror.daysLabel": "days a year spent scrolling",
-  "mirror.swap": "Swap just {minutes} minutes a day for {app}…",
-  "mirror.reading": "…and that's {time} a year spent reading real books.",
+  /* ── time a day, and the path it makes ── */
+  "time.line": "How much time can you commit to learning {language} each day?",
+  "time.sub": "This is time spent reading in {app}. You can change it any time.",
+  "path.line": "At {minutes} minutes a day, you could reach {level} in about {time}.",
+  "path.top": "You're already at C2, the top level. {minutes} minutes a day keeps it that way.",
+  "path.ladder": "Your path, level by level",
+  "path.days": "{n} days",
+  "path.note": "This is an estimate, not a promise. It counts only your reading here, at about three pages a minute.",
 
   /* ── the tour ── */
   "tour.journey": "We'll read real books, one short page at a time.",
@@ -95,12 +92,6 @@ export const EN = {
   "time.year": "In a year",
 
   /* ── the plan ── */
-  "daily.line": "How much time will you give it each day?",
-  "daily.sub": "Start small. You can change it any time.",
-  "daily.easy": "Easy",
-  "daily.steady": "Steady",
-  "daily.keen": "Keen",
-  "daily.allin": "All in",
   "daily.min": "min",
   "daily.minutesLabel": "{minutes} minutes",
   "daily.year": "{time} a year",

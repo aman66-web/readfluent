@@ -60,16 +60,15 @@ const zh: Catalog = {
   "heard.whereLabel": "你是在哪里听说的？",
 
   /* ── scroll and mirror ── */
-  "scroll.line": "你每天刷手机要花多长时间？",
-  "scroll.sub": "说实话就好，没人检查。",
-  "scroll.under1": "不到 1 小时",
-  "scroll.1to2": "1–2 小时",
-  "scroll.2to4": "2–4 小时",
-  "scroll.4plus": "4 小时以上",
-  "mirror.days": "一年有整整 {days} 天都在刷手机。",
-  "mirror.daysLabel": "天／年花在刷手机上",
-  "mirror.swap": "每天只用 {minutes} 分钟来读{app}……",
-  "mirror.reading": "……一年就能读 {time} 的真正的好书。",
+
+  /* ── time a day, and the path it makes ── */
+  "time.line": "你每天能花多少时间学习{language}？",
+  "time.sub": "这是你在 {app} 里阅读的时间，随时都可以修改。",
+  "path.line": "每天 {minutes} 分钟，大约 {time}，你就能达到 {level}。",
+  "path.top": "你已经是 C2 了，这是最高级别。每天 {minutes} 分钟，就能一直保持下去。",
+  "path.ladder": "你的路径，一级一级走",
+  "path.days": "{n} 天",
+  "path.note": "这只是估算，不是承诺。它只计算你在这里的阅读，按每分钟约三页来算。",
 
   /* ── the tour ── */
   "tour.journey": "我们一次读一小页，读真正的好书。",
@@ -87,12 +86,6 @@ const zh: Catalog = {
   "time.year": "一年后",
 
   /* ── the plan ── */
-  "daily.line": "你每天打算花多少时间？",
-  "daily.sub": "从少一点开始，随时可以调整。",
-  "daily.easy": "轻松",
-  "daily.steady": "稳步",
-  "daily.keen": "积极",
-  "daily.allin": "全力",
   "daily.min": "分钟",
   "daily.minutesLabel": "{minutes} 分钟",
   "daily.year": "每年 {time}",

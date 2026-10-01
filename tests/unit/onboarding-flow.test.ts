@@ -6,7 +6,7 @@ import { CATEGORIES } from "@/lib/content/limits";
 import {
   WHY_IDS, HEARD_IDS, HEARD_OTHER_MAX, NO_ANSWERS, cleanHeardOther, parseAnswers, toggleIn,
 } from "@/lib/onboarding/answers";
-import { DAILY_MINUTES, DEFAULT_MINUTES, SCROLL_HOURS, SCROLL_IDS, SWAP_MINUTES, readingTime, scrollDaysAYear } from "@/lib/onboarding/firstrun";
+import { DAILY_MINUTES, DEFAULT_MINUTES, readingTime } from "@/lib/onboarding/firstrun";
 import { LANGUAGES, isLanguage } from "@/lib/onboarding/languages";
 import { AFTER_ONBOARDING, AFTER_SIGN_IN, SHOW_IDS, SIGN_IN_STEP, STEP_IDS, isShowStep, stepIndex } from "@/lib/onboarding/steps";
 
@@ -17,9 +17,9 @@ vi.mock("@capacitor/core", () => ({ Capacitor: { isNativePlatform: () => false, 
 const read = (p: string) => readFileSync(new URL(`../../${p}`, import.meta.url), "utf8");
 
 describe("the steps", () => {
-  it("are the first run's nineteen, in order, with the welcome first and the library last", () => {
-    expect(STEP_IDS).toHaveLength(19);
-    expect(new Set(STEP_IDS).size).toBe(19);
+  it("are the first run's eighteen, in order, with the welcome first and the library last", () => {
+    expect(STEP_IDS).toHaveLength(18);
+    expect(new Set(STEP_IDS).size).toBe(18);
     expect(STEP_IDS[0]).toBe("intro");
     expect(STEP_IDS[STEP_IDS.length - 1]).toBe("ready");
     expect(AFTER_ONBOARDING).toBe("/");
@@ -55,26 +55,18 @@ describe("the steps", () => {
   });
 });
 
-describe("the numbers the mirror and the plan show", () => {
-  it("turn what somebody said into whole days of a year, never overstated", () => {
-    expect(SCROLL_IDS.map(scrollDaysAYear)).toEqual([11, 23, 46, 61]);
-    expect(SCROLL_HOURS["4plus"]).toBe(4); // the bottom of an open-ended answer
-    for (let i = 1; i < SCROLL_IDS.length; i++) expect(scrollDaysAYear(SCROLL_IDS[i])).toBeGreaterThan(scrollDaysAYear(SCROLL_IDS[i - 1]));
-  });
-
+describe("the numbers the plan shows", () => {
   it("say reading time as a person would, rounded down", () => {
     expect(readingTime(7 * 20)).toBe("140 minutes");
     expect(readingTime(179)).toBe("179 minutes");
     expect(readingTime(180)).toBe("3 hours");
-    expect(readingTime(365 * SWAP_MINUTES)).toBe("60 hours");
+    expect(readingTime(365 * 10)).toBe("60 hours");
     expect(readingTime(365 * 20)).toBe("121 hours");
-    expect(readingTime(365 * 5)).toBe("30 hours");
   });
 
-  it("offer four daily times and default to one of them", () => {
-    expect(DAILY_MINUTES).toEqual([5, 10, 15, 20]);
+  it("offer six daily times and default to one of them", () => {
+    expect(DAILY_MINUTES).toEqual([10, 15, 20, 30, 45, 60]);
     expect(DAILY_MINUTES).toContain(DEFAULT_MINUTES);
-    expect(DAILY_MINUTES).toContain(SWAP_MINUTES);
   });
 });
 
@@ -85,12 +77,11 @@ describe("the answers", () => {
 
   it("keep only values that exist, in the screen's order, each once", () => {
     const a = parseAnswers(JSON.stringify({
-      why: ["fun", "nope", "friends", "fun"], heard: "tiktok", scroll: "2to4", daily: 15, pledged: true, language: "es", learn: "fr",
+      why: ["fun", "nope", "friends", "fun"], heard: "tiktok", daily: 15, pledged: true, language: "es", learn: "fr",
       interests: ["history", "romance", "bogus"], heardOther: "x".repeat(500),
     }));
     expect(a.why).toEqual(["friends", "fun"]);
     expect(a.heard).toBe("tiktok");
-    expect(a.scroll).toBe("2to4");
     expect(a.daily).toBe(15);
     expect(a.pledged).toBe(true);
     expect(a.language).toBe("es");
@@ -100,7 +91,7 @@ describe("the answers", () => {
   });
 
   it("refuse a daily time that was not offered, and a language that does not exist", () => {
-    const a = parseAnswers(JSON.stringify({ daily: 999, language: "xx", learn: "xx", heard: "myspace", scroll: "forever", pledged: "yes" }));
+    const a = parseAnswers(JSON.stringify({ daily: 999, language: "xx", learn: "xx", heard: "myspace", pledged: "yes" }));
     expect(a).toEqual(NO_ANSWERS);
   });
 
@@ -132,7 +123,7 @@ describe("the answers", () => {
 });
 
 describe("every screen renders", () => {
-  const nav = { at: 3, of: 19, onBack: () => {}, onContinue: () => {} };
+  const nav = { at: 3, of: 18, onBack: () => {}, onContinue: () => {} };
   const html = async () => {
     const q = await import("@/components/onboarding/Questions");
     const p = await import("@/components/onboarding/Plan");
@@ -144,17 +135,17 @@ describe("every screen renders", () => {
       hello: mk(q.HelloScreen, nav),
       why: mk(q.WhyScreen, { ...nav, learn: "es", value: ["work"], onToggle: () => {} }),
       heard: mk(q.HeardScreen, { ...nav, value: "other", other: "", onPick: () => {}, onOther: () => {} }),
-      scroll: mk(q.ScrollScreen, { ...nav, value: "2to4", onPick: () => {} }),
-      mirror: mk(q.MirrorScreen, { ...nav, scroll: "2to4" }),
-      mirrorBlank: mk(q.MirrorScreen, { ...nav, scroll: null }),
+      time: mk(p.TimeScreen, { ...nav, learn: "es", value: 20, onPick: () => {} }),
+      path: mk(p.PathScreen, { ...nav, level: "A1", minutes: 20 }),
+      pathB2: mk(p.PathScreen, { ...nav, level: "B2", minutes: 30 }),
+      pathTop: mk(p.PathScreen, { ...nav, level: "C2", minutes: 30 }),
       ...Object.fromEntries(SHOW_IDS.map((id) => [id, mk(t.TourScreen, { ...nav, id })])),
-      daily: mk(p.DailyScreen, { ...nav, value: 15, onPick: () => {} }),
       future: mk(p.FutureScreen, { ...nav, minutes: 15, why: ["friends", "work"] }),
       pledge: mk(p.PledgeScreen, { ...nav, minutes: 15, done: false, onDone: () => {} }),
       tongues: mk(g.TonguesScreen, { ...nav, speak: "en", learn: "es" }),
       tonguesBlank: mk(g.TonguesScreen, { ...nav, speak: "en", learn: null }),
-      account: mk(l.AccountScreen, { at: 15, of: 19, onBack: () => {}, error: false, onNext: () => {} }),
-      accountFailed: mk(l.AccountScreen, { at: 15, of: 19, onBack: () => {}, error: true, onNext: () => {} }),
+      account: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: false, onNext: () => {} }),
+      accountFailed: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: true, onNext: () => {} }),
       interests: mk(l.InterestsScreen, { ...nav, value: ["romance"], onChange: () => {} }),
       ready: mk(p.ReadyScreen, { ...nav, interests: ["romance", "history", "science"], minutes: 15 }),
     } as Record<string, string>;
@@ -167,10 +158,13 @@ describe("every screen renders", () => {
     expect(text(h.why)).toContain("Why are you learning Spanish?");
     for (const label of ["Talk with friends and family", "Travel", "My job or business", "School or exams", "Move or live abroad", "Books, films and music", "Just for fun", "Other"]) expect(text(h.why)).toContain(label);
     expect(text(h.heard)).toContain("How did you hear about ReadFluent?");
-    expect(text(h.scroll)).toContain("How long do you spend scrolling each day?");
-    expect(text(h.mirror)).toContain("46 whole days a year");
-    expect(text(h.mirrorBlank)).toContain(`Swap just ${SWAP_MINUTES} minutes a day for ReadFluent`);
-    expect(text(h.daily)).toContain("How much time will you give it each day?");
+    expect(text(h.time)).toContain("How much time can you commit to learning Spanish each day?");
+    for (const m of ["10", "15", "20", "30", "45", "60"]) expect(h.time).toContain(`aria-label="${m} minutes"`);
+    expect(text(h.path)).toContain("At 20 minutes a day, you could reach A2 in about 4 months.");
+    expect(text(h.path)).toContain("114 days");
+    expect(text(h.path)).toContain("This is an estimate, not a promise.");
+    expect(text(h.pathB2)).toContain("you could reach C1 in about");
+    expect(text(h.pathTop)).toContain("You're already at C2".replace("'", "&#x27;"));
     expect(text(h.future)).toContain("15 minutes a day takes you");
     expect(text(h.pledge)).toContain("Make it a promise to yourself.");
     expect(text(h.tongues)).toContain("Which languages?");
@@ -260,7 +254,7 @@ describe("the two languages cannot be the same", () => {
     const g = await import("@/components/onboarding/Tongues");
     const { createElement } = await import("react");
     const { renderToStaticMarkup } = await import("react-dom/server");
-    const nav = { at: 1, of: 19, onBack: () => {}, onContinue: () => {} };
+    const nav = { at: 1, of: 18, onBack: () => {}, onContinue: () => {} };
     const off = (learn: "es" | null) => /<button[^>]*disabled=""[^>]*ob-primary|<button[^>]*ob-primary[^>]*disabled=""/.test(renderToStaticMarkup(createElement(g.TonguesScreen, { ...nav, speak: "en", learn })));
     expect(off(null)).toBe(true);
     expect(off("es")).toBe(false);

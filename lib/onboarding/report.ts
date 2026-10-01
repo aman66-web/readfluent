@@ -11,7 +11,7 @@ import { cleanHeardOther, type Answers } from "./answers";
  */
 export function reportFirstRun(a: Answers, goalMinutes: number): void {
   if (!dbConfigured()) return;
-  if (!a.why.length && !a.heard && !a.scroll) return;
+  if (!a.why.length && !a.heard) return;
   const db = createClient();
   db.auth.getUser()
     .then(({ data }) => {
@@ -23,7 +23,6 @@ export function reportFirstRun(a: Answers, goalMinutes: number): void {
           why: a.why,
           heard: a.heard,
           ...(a.heard === "other" && cleanHeardOther(a.heardOther) ? { heard_other: cleanHeardOther(a.heardOther) } : {}),
-          scroll: a.scroll,
           goal: goalMinutes,
           language: a.language,
           learn: a.learn,
