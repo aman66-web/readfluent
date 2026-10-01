@@ -223,6 +223,28 @@ const nl: Catalog = {
   "chart.other": "Overig",
   "chart.goal": "Dagdoel: {minutes} min",
 
+  /* ── the menu, and the screens behind it ── */
+  "tab.home": "Start",
+  "tab.library": "Bibliotheek",
+  "tab.recall": "Herhalen",
+  "tab.mine": "Mijn boeken",
+  "tab.menu": "Hoofdmenu",
+  "home.browse": "Bekijk de bibliotheek",
+  "home.browseSub": "Kies je volgende boek per categorie.",
+  "recall.title": "Herhalen",
+  "recall.sub": "De woorden die je tijdens het lezen tegenkomt, komen hier terug, vlak voordat je ze zou vergeten.",
+  "recall.empty": "Nog niets te herhalen. Lees een paar pagina's, tik op de woorden die je niet kent, en ze wachten hier op je.",
+  "recall.soon": "Binnenkort",
+  "mine.title": "Mijn boeken",
+  "mine.reading": "Aan het lezen",
+  "mine.finished": "Uitgelezen",
+  "mine.downloaded": "Gedownload",
+  "mine.emptyReading": "Boeken die je begint, staan hier, zodat je verder kunt waar je gebleven was.",
+  "mine.emptyFinished": "Boeken die je uitleest, staan hier.",
+  "mine.downloadedSoon": "Download een boek om het zonder verbinding te lezen. Binnenkort beschikbaar.",
+  "mine.page": "Pagina {n} van {total}",
+  "mine.done": "Uitgelezen",
+
   /* ── categories, levels and lengths ── */
   "cat.romance": "Romantiek",
   "cat.crime": "Misdaad",

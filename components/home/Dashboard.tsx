@@ -4,12 +4,11 @@ import Link from "next/link";
 import { useCallback, useMemo, useSyncExternalStore } from "react";
 import { BookCover } from "@/components/BookCover";
 import { LibraryHeader } from "@/components/library/Header";
-import { Library } from "@/components/library/Library";
 import { categoryById } from "@/lib/content/limits";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { useAnswers } from "@/lib/onboarding/use-answers";
-import { findBook, type PreviewBook } from "@/lib/preview/catalog";
+import { findBook } from "@/lib/preview/catalog";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { LEDGER_KEY, localDay, parseLedger, streak, totalXp } from "@/lib/xp/ledger";
 import { LevelCard } from "./LevelCard";
@@ -23,7 +22,7 @@ const serverLedger = () => "";
  * The home screen: where the reader stands (level, XP and the bar to the next level),
  * how their reading has gone (the graph), where to carry on, and then the library.
  */
-export function Dashboard({ books }: { books: PreviewBook[] }) {
+export function Dashboard() {
   const t = useT();
   const locale = useLocale();
   const a = useAnswers();
@@ -38,7 +37,7 @@ export function Dashboard({ books }: { books: PreviewBook[] }) {
   }, [locale]);
 
   return (
-    <main className="safe-top safe-bottom px-5 pb-10 pt-6">
+    <main className="safe-top px-5 pb-32 pt-6">
       <LibraryHeader />
       <div className="mt-5 flex items-center justify-between gap-3">
         <p className="text-[12px] font-semibold uppercase tracking-[0.1em] text-faint" suppressHydrationWarning>{date}</p>
@@ -67,7 +66,16 @@ export function Dashboard({ books }: { books: PreviewBook[] }) {
         </Link>
       )}
 
-      <div className="mt-6"><Library books={books} /></div>
+      <Link href="/library" className="mt-3 flex items-center gap-4 rounded-[22px] border border-border bg-surface p-4 active:opacity-80">
+        <span className="grid size-11 shrink-0 place-items-center rounded-full bg-accent-bright/25 text-accent" aria-hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5"><path d="M12 6.5C10.2 5 7.6 4.5 4 4.8V18c3.6-.3 6.2.2 8 1.7 1.8-1.5 4.4-2 8-1.7V4.8c-3.6-.3-6.2.2-8 1.7z" /><path d="M12 6.5v13.2" /></svg>
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-[15px] font-semibold">{t("home.browse")}</span>
+          <span className="mt-0.5 block text-[12.5px] text-muted">{t("home.browseSub")}</span>
+        </span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 shrink-0 text-faint rtl:-scale-x-100" aria-hidden><path d="M9 5l7 7-7 7" /></svg>
+      </Link>
     </main>
   );
 }

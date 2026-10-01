@@ -229,6 +229,28 @@ export const EN = {
   "chart.other": "Other",
   "chart.goal": "Daily goal: {minutes} min",
 
+  /* ── the menu, and the screens behind it ── */
+  "tab.home": "Home",
+  "tab.library": "Library",
+  "tab.recall": "Recall",
+  "tab.mine": "My books",
+  "tab.menu": "Main menu",
+  "home.browse": "Browse the library",
+  "home.browseSub": "Pick your next book by category.",
+  "recall.title": "Recall",
+  "recall.sub": "The words you meet while reading come back here, just before you'd forget them.",
+  "recall.empty": "Nothing to review yet. Read a few pages, tap the words you don't know, and they'll be waiting here.",
+  "recall.soon": "Coming soon",
+  "mine.title": "My books",
+  "mine.reading": "Reading",
+  "mine.finished": "Finished",
+  "mine.downloaded": "Downloaded",
+  "mine.emptyReading": "Books you start will be here, so you can pick up where you left off.",
+  "mine.emptyFinished": "Books you finish will be here.",
+  "mine.downloadedSoon": "Download a book to read it with no connection. Coming soon.",
+  "mine.page": "Page {n} of {total}",
+  "mine.done": "Finished",
+
   /* ── categories, levels and lengths ── */
   "cat.romance": "Romance",
   "cat.crime": "Crime",

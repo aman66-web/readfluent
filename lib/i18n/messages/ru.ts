@@ -223,6 +223,28 @@ const ru: Catalog = {
   "chart.other": "Другое",
   "chart.goal": "Цель на день: {minutes} мин",
 
+  /* ── the menu, and the screens behind it ── */
+  "tab.home": "Главная",
+  "tab.library": "Библиотека",
+  "tab.recall": "Повтор",
+  "tab.mine": "Мои книги",
+  "tab.menu": "Главное меню",
+  "home.browse": "Открыть библиотеку",
+  "home.browseSub": "Выбери следующую книгу по категории.",
+  "recall.title": "Повторение",
+  "recall.sub": "Слова, которые ты встречаешь при чтении, возвращаются сюда как раз перед тем, как ты их забудешь.",
+  "recall.empty": "Пока нечего повторять. Прочитай несколько страниц, нажми на незнакомые слова, и они будут ждать тебя здесь.",
+  "recall.soon": "Скоро",
+  "mine.title": "Мои книги",
+  "mine.reading": "Читаю",
+  "mine.finished": "Прочитано",
+  "mine.downloaded": "Скачано",
+  "mine.emptyReading": "Книги, которые ты начнёшь читать, появятся здесь, и ты сможешь продолжить с того же места.",
+  "mine.emptyFinished": "Книги, которые ты дочитаешь, появятся здесь.",
+  "mine.downloadedSoon": "Скачай книгу, чтобы читать её без подключения. Скоро.",
+  "mine.page": "Страница {n} из {total}",
+  "mine.done": "Прочитано",
+
   /* ── categories, levels and lengths ── */
   "cat.romance": "Романтика",
   "cat.crime": "Детективы",

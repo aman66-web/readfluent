@@ -222,6 +222,28 @@ const fr: Catalog = {
   "chart.other": "Autres",
   "chart.goal": "Objectif quotidien : {minutes} min",
 
+  /* ── the menu, and the screens behind it ── */
+  "tab.home": "Accueil",
+  "tab.library": "Biblio",
+  "tab.recall": "Révision",
+  "tab.mine": "Mes livres",
+  "tab.menu": "Menu principal",
+  "home.browse": "Parcourir la bibliothèque",
+  "home.browseSub": "Choisis ton prochain livre par catégorie.",
+  "recall.title": "Révision",
+  "recall.sub": "Les mots que tu rencontres en lisant reviennent ici, juste avant que tu les oublies.",
+  "recall.empty": "Rien à réviser pour l'instant. Lis quelques pages, touche les mots que tu ne connais pas et ils t'attendront ici.",
+  "recall.soon": "Bientôt",
+  "mine.title": "Mes livres",
+  "mine.reading": "En cours",
+  "mine.finished": "Terminés",
+  "mine.downloaded": "Téléchargés",
+  "mine.emptyReading": "Les livres que tu commences seront ici, pour reprendre là où tu t'étais arrêté.",
+  "mine.emptyFinished": "Les livres que tu termines seront ici.",
+  "mine.downloadedSoon": "Télécharge un livre pour le lire sans connexion. Bientôt.",
+  "mine.page": "Page {n} sur {total}",
+  "mine.done": "Terminé",
+
   /* ── categories, levels and lengths ── */
   "cat.romance": "Romance",
   "cat.crime": "Policier",

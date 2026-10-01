@@ -223,6 +223,28 @@ const bn: Catalog = {
   "chart.other": "অন্যান্য",
   "chart.goal": "দৈনিক লক্ষ্য: {minutes} মিনিট",
 
+  /* ── the menu, and the screens behind it ── */
+  "tab.home": "হোম",
+  "tab.library": "লাইব্রেরি",
+  "tab.recall": "রিভিশন",
+  "tab.mine": "আমার বই",
+  "tab.menu": "প্রধান মেনু",
+  "home.browse": "লাইব্রেরি ঘুরে দেখুন",
+  "home.browseSub": "বিভাগ ধরে আপনার পরের বইটি বেছে নিন।",
+  "recall.title": "রিভিশন",
+  "recall.sub": "পড়ার সময় যে শব্দগুলো পান, ভুলে যাওয়ার ঠিক আগে সেগুলো এখানে ফিরে আসে।",
+  "recall.empty": "রিভিশন করার মতো কিছু এখনও নেই। কয়েক পাতা পড়ুন, যে শব্দ চেনেন না তাতে ট্যাপ করুন, সেগুলো এখানে অপেক্ষা করবে।",
+  "recall.soon": "শিগগিরই আসছে",
+  "mine.title": "আমার বই",
+  "mine.reading": "পড়ছেন",
+  "mine.finished": "শেষ হয়েছে",
+  "mine.downloaded": "ডাউনলোড",
+  "mine.emptyReading": "যে বইগুলো শুরু করবেন সেগুলো এখানে থাকবে, যাতে যেখানে থেমেছিলেন সেখান থেকে আবার শুরু করতে পারেন।",
+  "mine.emptyFinished": "যে বইগুলো শেষ করবেন সেগুলো এখানে থাকবে।",
+  "mine.downloadedSoon": "কোনো বই ডাউনলোড করুন, ইন্টারনেট ছাড়াই পড়তে পারবেন। শিগগিরই আসছে।",
+  "mine.page": "পাতা {n} / {total}",
+  "mine.done": "শেষ",
+
   /* ── categories, levels and lengths ── */
   "cat.romance": "রোমান্স",
   "cat.crime": "অপরাধ",

@@ -90,3 +90,6 @@ body {
 /* "+10 XP" over the reader's footer: rises and fades. */
 @keyframes xp-pop { 0% { opacity: 0; transform: translateY(8px) scale(.9); } 15% { opacity: 1; transform: translateY(0) scale(1); } 80% { opacity: 1; } 100% { opacity: 0; transform: translateY(-6px); } }
 .xp-pop { animation: xp-pop 1.6s ease-out both; }
+
+/* The menu's pill slides to the tab that is open. */
+.tab-ind { transition: transform .35s cubic-bezier(.3, 1.2, .5, 1), width .3s ease; }

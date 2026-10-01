@@ -4,6 +4,7 @@ import { NativeAuthBridge } from "@/components/auth/NativeAuthBridge";
 import { PurchasesBridge } from "@/components/purchases/PurchasesBridge";
 import { NativeChrome } from "@/components/NativeChrome";
 import { Pwa } from "@/components/Pwa";
+import { TabBar } from "@/components/TabBar";
 import { LocaleSync } from "@/lib/i18n/react";
 import { APP_NAME, TAGLINE } from "@/lib/brand";
 
@@ -42,6 +43,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <LocaleSync />
         {/* The phone column: 375px is the design width, 440px the cap. */}
         <div className="mx-auto min-h-full max-w-[440px]">{children}</div>
+        {/* The menu: Home, Library, Recall, My books. Hidden on the first run, the test and the reader. */}
+        <TabBar />
         <Pwa />
       </body>
     </html>

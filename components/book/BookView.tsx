@@ -12,7 +12,7 @@ export function BookView({ book }: { book: PreviewBook }) {
   const t = useT();
   const category = categoryById(book.category);
   return (
-    <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 pb-6 pt-2">
+    <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 pb-28 pt-2">
       <Link href="/" aria-label={t("book.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
       </Link>

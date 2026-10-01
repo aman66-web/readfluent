@@ -222,6 +222,28 @@ const it: Catalog = {
   "chart.other": "Altro",
   "chart.goal": "Obiettivo giornaliero: {minutes} min",
 
+  /* ── the menu, and the screens behind it ── */
+  "tab.home": "Home",
+  "tab.library": "Libreria",
+  "tab.recall": "Ripasso",
+  "tab.mine": "I miei libri",
+  "tab.menu": "Menu principale",
+  "home.browse": "Sfoglia la biblioteca",
+  "home.browseSub": "Scegli il tuo prossimo libro per categoria.",
+  "recall.title": "Ripasso",
+  "recall.sub": "Le parole che incontri mentre leggi tornano qui, poco prima che tu le dimentichi.",
+  "recall.empty": "Ancora niente da ripassare. Leggi qualche pagina, tocca le parole che non conosci e ti aspetteranno qui.",
+  "recall.soon": "In arrivo",
+  "mine.title": "I miei libri",
+  "mine.reading": "In lettura",
+  "mine.finished": "Finiti",
+  "mine.downloaded": "Scaricati",
+  "mine.emptyReading": "I libri che inizi saranno qui, così puoi riprendere da dove avevi lasciato.",
+  "mine.emptyFinished": "I libri che finisci saranno qui.",
+  "mine.downloadedSoon": "Scarica un libro per leggerlo senza connessione. In arrivo.",
+  "mine.page": "Pagina {n} di {total}",
+  "mine.done": "Finito",
+
   /* ── categories, levels and lengths ── */
   "cat.romance": "Romanzi rosa",
   "cat.crime": "Gialli",

@@ -26,12 +26,13 @@ export function LevelCard({ xp, learn }: { xp: number; learn: LanguageCode | nul
       <div className="pointer-events-none absolute -end-10 -top-12 size-44 rounded-full opacity-60 blur-2xl" style={{ background: "radial-gradient(circle, #22D3EE 0%, transparent 70%)" }} aria-hidden />
       <p className="relative text-[12px] font-semibold uppercase tracking-[0.1em] text-white/70">{t("xp.yourLevel", { language })}</p>
 
-      <div className="relative mt-3 flex items-end justify-between gap-4">
-        <div className="flex min-w-0 items-end gap-3">
-          <div dir="ltr"><DotNumber value={s.level} cell={8} color="#67E8F9" glow={false} field fieldColor="rgba(255,255,255,.07)" label={s.level} /></div>
-          <p className="min-w-0 pb-1 text-[15px] font-semibold leading-tight">{t(`levelname.${s.level}`)}</p>
+      <div className="relative mt-3 flex items-end gap-3.5">
+        <div dir="ltr" className="shrink-0"><DotNumber value={s.level} cell={8} color="#67E8F9" glow={false} field fieldColor="rgba(255,255,255,.07)" label={s.level} /></div>
+        {/* The level's name over the XP in all, stacked, so a long name and a long total never meet. */}
+        <div className="min-w-0 pb-1">
+          <p className="text-[16px] font-semibold leading-tight">{t(`levelname.${s.level}`)}</p>
+          <p className="tabular mt-1 text-[12.5px] font-semibold text-white/75">{t("xp.total", { xp: n(s.xp) })}</p>
         </div>
-        <p className="tabular shrink-0 whitespace-nowrap pb-1 text-end text-[12.5px] font-semibold text-white/80">{t("xp.total", { xp: n(s.xp) })}</p>
       </div>
 
       <div className="relative mt-5">

@@ -223,6 +223,28 @@ const uk: Catalog = {
   "chart.other": "Інше",
   "chart.goal": "Щоденна мета: {minutes} хв",
 
+  /* ── the menu, and the screens behind it ── */
+  "tab.home": "Головна",
+  "tab.library": "Бібліотека",
+  "tab.recall": "Повтор",
+  "tab.mine": "Мої книжки",
+  "tab.menu": "Головне меню",
+  "home.browse": "Відкрити бібліотеку",
+  "home.browseSub": "Обери наступну книжку за категорією.",
+  "recall.title": "Повторення",
+  "recall.sub": "Слова, які ти зустрічаєш під час читання, повертаються сюди саме перед тим, як ти їх забудеш.",
+  "recall.empty": "Поки що нічого повторювати. Прочитай кілька сторінок, торкнися незнайомих слів, і вони чекатимуть на тебе тут.",
+  "recall.soon": "Незабаром",
+  "mine.title": "Мої книжки",
+  "mine.reading": "Читаю",
+  "mine.finished": "Прочитано",
+  "mine.downloaded": "Завантажено",
+  "mine.emptyReading": "Книжки, які ти почнеш читати, з'являться тут, і ти зможеш продовжити з того самого місця.",
+  "mine.emptyFinished": "Книжки, які ти дочитаєш, з'являться тут.",
+  "mine.downloadedSoon": "Завантаж книжку, щоб читати її без підключення. Незабаром.",
+  "mine.page": "Сторінка {n} з {total}",
+  "mine.done": "Прочитано",
+
   /* ── categories, levels and lengths ── */
   "cat.romance": "Романтика",
   "cat.crime": "Детективи",

@@ -223,6 +223,28 @@ const pl: Catalog = {
   "chart.other": "Inne",
   "chart.goal": "Dzienny cel: {minutes} min",
 
+  /* ── the menu, and the screens behind it ── */
+  "tab.home": "Start",
+  "tab.library": "Biblioteka",
+  "tab.recall": "Powtórki",
+  "tab.mine": "Moje książki",
+  "tab.menu": "Menu główne",
+  "home.browse": "Przeglądaj bibliotekę",
+  "home.browseSub": "Wybierz kolejną książkę według kategorii.",
+  "recall.title": "Powtórki",
+  "recall.sub": "Słowa, które poznajesz podczas czytania, wracają tutaj tuż przed tym, zanim je zapomnisz.",
+  "recall.empty": "Na razie nic do powtórki. Przeczytaj kilka stron, stuknij słowa, których nie znasz, a będą tu na ciebie czekać.",
+  "recall.soon": "Wkrótce",
+  "mine.title": "Moje książki",
+  "mine.reading": "Czytam",
+  "mine.finished": "Przeczytane",
+  "mine.downloaded": "Pobrane",
+  "mine.emptyReading": "Książki, które zaczniesz, pojawią się tutaj, a ty wrócisz dokładnie do miejsca, w którym przerwano czytanie.",
+  "mine.emptyFinished": "Książki, które skończysz, pojawią się tutaj.",
+  "mine.downloadedSoon": "Pobierz książkę, aby czytać ją bez połączenia. Już wkrótce.",
+  "mine.page": "Strona {n} z {total}",
+  "mine.done": "Przeczytana",
+
   /* ── categories, levels and lengths ── */
   "cat.romance": "Romans",
   "cat.crime": "Kryminał",

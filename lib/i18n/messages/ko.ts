@@ -223,6 +223,28 @@ const ko: Catalog = {
   "chart.other": "기타",
   "chart.goal": "하루 목표: {minutes}분",
 
+  /* ── the menu, and the screens behind it ── */
+  "tab.home": "홈",
+  "tab.library": "서재",
+  "tab.recall": "복습",
+  "tab.mine": "내 책",
+  "tab.menu": "메인 메뉴",
+  "home.browse": "서재 둘러보기",
+  "home.browseSub": "카테고리별로 다음 책을 골라 보세요.",
+  "recall.title": "복습",
+  "recall.sub": "읽다가 만난 단어가 잊어버리기 직전에 여기로 돌아와요.",
+  "recall.empty": "아직 복습할 게 없어요. 몇 페이지 읽고 모르는 단어를 탭하면 여기서 기다리고 있을 거예요.",
+  "recall.soon": "곧 공개",
+  "mine.title": "내 책",
+  "mine.reading": "읽는 중",
+  "mine.finished": "완독",
+  "mine.downloaded": "다운로드",
+  "mine.emptyReading": "시작한 책이 여기에 모여요. 읽던 곳에서 바로 이어 읽을 수 있어요.",
+  "mine.emptyFinished": "다 읽은 책이 여기에 모여요.",
+  "mine.downloadedSoon": "책을 내려받으면 인터넷 없이도 읽을 수 있어요. 곧 공개돼요.",
+  "mine.page": "{n} / {total}쪽",
+  "mine.done": "완독",
+
   /* ── categories, levels and lengths ── */
   "cat.romance": "로맨스",
   "cat.crime": "범죄",

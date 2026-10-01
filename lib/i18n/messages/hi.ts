@@ -223,6 +223,28 @@ const hi: Catalog = {
   "chart.other": "अन्य",
   "chart.goal": "रोज़ का लक्ष्य: {minutes} मिनट",
 
+  /* ── the menu, and the screens behind it ── */
+  "tab.home": "होम",
+  "tab.library": "लाइब्रेरी",
+  "tab.recall": "दोहराएँ",
+  "tab.mine": "मेरी किताबें",
+  "tab.menu": "मुख्य मेन्यू",
+  "home.browse": "लाइब्रेरी देखें",
+  "home.browseSub": "श्रेणी के हिसाब से अपनी अगली किताब चुनें।",
+  "recall.title": "दोहराएँ",
+  "recall.sub": "पढ़ते समय जो शब्द मिलते हैं, वे भूलने से ठीक पहले यहाँ लौट आते हैं।",
+  "recall.empty": "अभी दोहराने के लिए कुछ नहीं है। कुछ पन्ने पढ़ें, जो शब्द न आएँ उन्हें टैप करें, और वे यहाँ आपका इंतज़ार करेंगे।",
+  "recall.soon": "जल्द आ रहा है",
+  "mine.title": "मेरी किताबें",
+  "mine.reading": "पढ़ रहे हैं",
+  "mine.finished": "पूरी हुईं",
+  "mine.downloaded": "डाउनलोड की हुईं",
+  "mine.emptyReading": "जो किताबें आप शुरू करेंगे, वे यहाँ होंगी, ताकि आप वहीं से आगे पढ़ सकें जहाँ छोड़ा था।",
+  "mine.emptyFinished": "जो किताबें आप पूरी करेंगे, वे यहाँ होंगी।",
+  "mine.downloadedSoon": "कोई किताब डाउनलोड करें और बिना इंटरनेट के पढ़ें। जल्द आ रहा है।",
+  "mine.page": "पन्ना {n} / {total}",
+  "mine.done": "पूरी",
+
   /* ── categories, levels and lengths ── */
   "cat.romance": "रोमांस",
   "cat.crime": "अपराध",
