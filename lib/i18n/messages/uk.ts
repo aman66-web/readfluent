@@ -1,6 +1,11 @@
 import type { Catalog } from "../en";
 
 const uk: Catalog = {
+  /* ── the language of the app (the very first screen) ── */
+  "app.line": "Обери мову застосунку",
+  "app.sub": "Це мова, якою застосунок говоритиме з тобою: меню, кнопки та підказки. Це не мова, яку ти будеш вивчати. Її ти обереш на наступному екрані.",
+  "app.example": "Наприклад, якщо твоя мова — {speak}, а мова, яку ти хочеш вивчити, — {learn}, обери тут {speak}.",
+
   /* ── the welcome ── */
   "first.tagline1": "Справжні книжки.",
   "first.tagline2": "Твій рівень.",

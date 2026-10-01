@@ -22,7 +22,7 @@ import { useRich, useT } from "@/lib/i18n/react";
  * adapted from; the covers, colours and copy are ReadFluent's own. Every title is
  * a public-domain classic, so the real name goes on the real cover.
  */
-export function FirstScreen({ onStart, onSignIn }: { onStart: () => void; onSignIn?: () => void }) {
+export function FirstScreen({ onStart, onSignIn, onBack }: { onStart: () => void; onSignIn?: () => void; /** Back to the choice of the app's language. */ onBack?: () => void }) {
   // "ReadFluent" → READ over FLUENT, one word per line: a 5x7 grid is about six
   // characters across on a phone, so two words side by side do not fit.
   const [top, bottom] = APP_NAME.split(/(?=[A-Z])/);
@@ -33,6 +33,12 @@ export function FirstScreen({ onStart, onSignIn }: { onStart: () => void; onSign
   return (
     <main className="ob first relative flex h-[100dvh] flex-col overflow-clip">
       <div className="first-glow" aria-hidden />
+      {onBack && (
+        <button type="button" onClick={onBack} aria-label={t("ui.back")}
+                className="absolute start-3 top-[calc(env(safe-area-inset-top)+0.5rem)] z-[2] grid size-11 place-items-center rounded-full bg-white/80 shadow-sm ring-1 ring-black/5 backdrop-blur active:scale-95">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
+        </button>
+      )}
       <Wall />
       <div className="relative z-[1] flex shrink-0 flex-col items-center px-7 pb-[calc(env(safe-area-inset-bottom)+1rem)] text-center">
         <h1 className="first-name flex flex-col items-center gap-[8px]" aria-label={APP_NAME}>

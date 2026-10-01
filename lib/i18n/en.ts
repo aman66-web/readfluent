@@ -9,6 +9,11 @@
  * language has it, with the same `{values}`.
  */
 export const EN = {
+  /* ── the language of the app (the very first screen) ── */
+  "app.line": "Choose the language of the app",
+  "app.sub": "This is the language the app speaks to you in: its menus, buttons and help. It isn't the language you're going to learn. You'll choose that next.",
+  "app.example": "For example, if you speak {speak} and want to learn {learn}, choose {speak} here.",
+
   /* ── the welcome ── */
   "first.tagline1": "Real books.",
   "first.tagline2": "Your level.",

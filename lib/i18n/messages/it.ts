@@ -2,6 +2,9 @@ import type { Catalog } from "../en";
 
 const it: Catalog = {
   /* ── the welcome ── */
+  "app.line": "Scegli la lingua dell'app",
+  "app.sub": "È la lingua con cui l'app ti parla: menu, pulsanti e aiuto. Non è la lingua che imparerai; quella la scegli nella schermata successiva.",
+  "app.example": "Per esempio, se parli {speak} e vuoi imparare {learn}, qui scegli {speak}.",
   "first.tagline1": "Libri veri.",
   "first.tagline2": "Il tuo livello.",
   "first.start": "Inizia",

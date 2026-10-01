@@ -7,6 +7,7 @@ import { FirstScreen } from "@/components/welcome/FirstScreen";
 import { HeardScreen, HelloScreen, WhyScreen } from "@/components/onboarding/Questions";
 import { ReadyScreen } from "@/components/onboarding/Ready";
 import { FutureScreen, PathScreen, PledgeScreen, TimeScreen } from "@/components/onboarding/Plan";
+import { AppLanguageScreen } from "@/components/onboarding/AppLanguage";
 import { LevelScreen } from "@/components/onboarding/Level";
 import { TonguesScreen } from "@/components/onboarding/Tongues";
 import { AccountScreen, InterestsScreen } from "@/components/onboarding/Last";
@@ -90,9 +91,12 @@ function Welcome() {
 
   // The first screen is its own layout: the wall of covers and the way in, with no
   // progress bar and no footer.
+  // The very first screen: the language of the app itself, before anything else is said.
+  if (step === "app") return <AppLanguageScreen onContinue={next} />;
+
   if (step === "intro") {
     const account = STEP_IDS.indexOf("account");
-    return <FirstScreen onStart={next} onSignIn={accountAvailable() ? () => go(account) : undefined} />;
+    return <FirstScreen onStart={next} onBack={back} onSignIn={accountAvailable() ? () => go(account) : undefined} />;
   }
 
   const nav = { at: i, of: STEP_IDS.length, onBack: back, onContinue: next };

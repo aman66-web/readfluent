@@ -1,6 +1,9 @@
 import type { Catalog } from "../en";
 
 const tr: Catalog = {
+  "app.line": "Uygulamanın dilini seç",
+  "app.sub": "Uygulama seninle bu dilde konuşur: menüler, düğmeler ve yardım. Öğreneceğin dil bu değil. Onu bir sonraki ekranda seçeceksin.",
+  "app.example": "Örneğin {speak} dilini konuşuyorsan ve {learn} dilini öğrenmek istiyorsan, burada {speak} dilini seç.",
   "first.tagline1": "Gerçek kitaplar.",
   "first.tagline2": "Senin seviyen.",
   "first.start": "Başla",

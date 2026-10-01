@@ -2,6 +2,9 @@ import type { Catalog } from "../en";
 
 const hi: Catalog = {
   /* ── the welcome ── */
+  "app.line": "ऐप की भाषा चुनें",
+  "app.sub": "यह वह भाषा है जिसमें ऐप आपसे बात करेगा: मेन्यू, बटन और मदद। यह वह भाषा नहीं है जो आप सीखेंगे। उसे आप अगली स्क्रीन पर चुनेंगे।",
+  "app.example": "जैसे, अगर आप {speak} बोलते हैं और {learn} सीखना चाहते हैं, तो यहाँ {speak} चुनें।",
   "first.tagline1": "असली किताबें।",
   "first.tagline2": "आपका स्तर।",
   "first.start": "शुरू करें",

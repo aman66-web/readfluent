@@ -2,6 +2,9 @@ import type { Catalog } from "../en";
 
 const indonesian: Catalog = {
   /* ── the welcome ── */
+  "app.line": "Pilih bahasa aplikasi",
+  "app.sub": "Ini adalah bahasa yang dipakai aplikasi untuk berbicara denganmu: menu, tombol, dan bantuan. Ini bukan bahasa yang akan kamu pelajari. Kamu akan memilihnya di layar berikutnya.",
+  "app.example": "Misalnya, kalau kamu berbicara bahasa {speak} dan ingin belajar bahasa {learn}, pilih bahasa {speak} di sini.",
   "first.tagline1": "Buku asli.",
   "first.tagline2": "Levelmu.",
   "first.start": "Mulai",

@@ -17,16 +17,17 @@ vi.mock("@capacitor/core", () => ({ Capacitor: { isNativePlatform: () => false, 
 const read = (p: string) => readFileSync(new URL(`../../${p}`, import.meta.url), "utf8");
 
 describe("the steps", () => {
-  it("are the first run's eighteen, in order, with the welcome first and the library last", () => {
-    expect(STEP_IDS).toHaveLength(18);
-    expect(new Set(STEP_IDS).size).toBe(18);
-    expect(STEP_IDS[0]).toBe("intro");
+  it("are the first run's nineteen, in order, with the app's language first and the library last", () => {
+    expect(STEP_IDS).toHaveLength(19);
+    expect(new Set(STEP_IDS).size).toBe(19);
+    expect(STEP_IDS[0]).toBe("app");
+    expect(STEP_IDS[1]).toBe("intro");
     expect(STEP_IDS[STEP_IDS.length - 1]).toBe("ready");
     expect(AFTER_ONBOARDING).toBe("/");
   });
 
   it("ask which languages straight after the welcome, then how much of it they know", () => {
-    expect(STEP_IDS[1]).toBe("tongues");
+    expect(STEP_IDS[2]).toBe("tongues");
     expect(STEP_IDS[STEP_IDS.indexOf("hello") + 1]).toBe("level");
   });
 
@@ -123,7 +124,7 @@ describe("the answers", () => {
 });
 
 describe("every screen renders", () => {
-  const nav = { at: 3, of: 18, onBack: () => {}, onContinue: () => {} };
+  const nav = { at: 3, of: 19, onBack: () => {}, onContinue: () => {} };
   const html = async () => {
     const q = await import("@/components/onboarding/Questions");
     const p = await import("@/components/onboarding/Plan");
@@ -145,8 +146,8 @@ describe("every screen renders", () => {
       pledge: mk(p.PledgeScreen, { ...nav, minutes: 15, done: false, onDone: () => {} }),
       tongues: mk(g.TonguesScreen, { ...nav, speak: "en", learn: "es" }),
       tonguesBlank: mk(g.TonguesScreen, { ...nav, speak: "en", learn: null }),
-      account: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: false, onNext: () => {} }),
-      accountFailed: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: true, onNext: () => {} }),
+      account: mk(l.AccountScreen, { at: 15, of: 19, onBack: () => {}, error: false, onNext: () => {} }),
+      accountFailed: mk(l.AccountScreen, { at: 15, of: 19, onBack: () => {}, error: true, onNext: () => {} }),
       interests: mk(l.InterestsScreen, { ...nav, value: ["romance"], onChange: () => {} }),
       ready: mk(r.ReadyScreen, { ...nav, interests: ["romance", "history", "science"], minutes: 15, level: "A2", learn: "es" }),
     } as Record<string, string>;
@@ -262,7 +263,7 @@ describe("the two languages cannot be the same", () => {
     const g = await import("@/components/onboarding/Tongues");
     const { createElement } = await import("react");
     const { renderToStaticMarkup } = await import("react-dom/server");
-    const nav = { at: 1, of: 18, onBack: () => {}, onContinue: () => {} };
+    const nav = { at: 1, of: 19, onBack: () => {}, onContinue: () => {} };
     const off = (learn: "es" | null) => /<button[^>]*disabled=""[^>]*ob-primary|<button[^>]*ob-primary[^>]*disabled=""/.test(renderToStaticMarkup(createElement(g.TonguesScreen, { ...nav, speak: "en", learn })));
     expect(off(null)).toBe(true);
     expect(off("es")).toBe(false);
@@ -288,5 +289,28 @@ describe("the language pair", () => {
     const fr = { ...EN, "tongues.summary": "Lecture en {learn}, avec de l'aide en {speak}." };
     const t = (id: Parameters<typeof translate>[1], vars?: Record<string, string | number>) => translate(fr, id, vars);
     expect(tonguesSummary(t, "fr", "en", "es")).toBe("Lecture en espagnol, avec de l'aide en anglais.");
+  });
+});
+
+describe("the app's language, the very first screen", () => {
+  it("says it is the app's language and not the one they will learn, and gives an example", async () => {
+    const { AppLanguageScreen } = await import("@/components/onboarding/AppLanguage");
+    const html = renderToStaticMarkup(createElement(AppLanguageScreen, { onContinue: () => {} }));
+    const t = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+    expect(t).toContain("Choose the language of the app");
+    expect(t).toContain("It isn&#x27;t the language you&#x27;re going to learn");
+    expect(t).toContain("For example, if you speak English and want to learn Spanish, choose English here.");
+    for (const l of LANGUAGES) expect(t, l.code).toContain(l.native);
+    expect(t).toContain("Continue");
+  });
+
+  it("picks the reader's own language from the browser's, the first one the app is written in", async () => {
+    const { detectLanguage } = await import("@/components/onboarding/AppLanguage");
+    expect(detectLanguage(["es-MX", "en"])).toBe("es");
+    expect(detectLanguage(["xx", "pt-BR", "en-GB"])).toBe("pt");
+    expect(detectLanguage(["zh-Hans-CN"])).toBe("zh");
+    expect(detectLanguage(["en-GB"])).toBe("en");
+    expect(detectLanguage(["xx", "yy"])).toBeNull();
+    expect(detectLanguage([])).toBeNull();
   });
 });

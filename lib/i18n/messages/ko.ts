@@ -2,6 +2,9 @@ import type { Catalog } from "../en";
 
 const ko: Catalog = {
   /* ── the welcome ── */
+  "app.line": "앱에 쓸 언어를 골라 주세요",
+  "app.sub": "앱이 메뉴, 버튼, 도움말을 보여 줄 언어예요. 앞으로 배울 언어가 아니에요. 배울 언어는 다음 화면에서 고를 수 있어요.",
+  "app.example": "예를 들어 {speak}를 쓰고 {learn}를 배우고 싶다면, 여기서는 {speak}를 고르세요.",
   "first.tagline1": "진짜 책을.",
   "first.tagline2": "내 수준에 맞게.",
   "first.start": "시작하기",

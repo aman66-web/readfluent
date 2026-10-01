@@ -1,6 +1,9 @@
 import type { Catalog } from "../en";
 
 const vi: Catalog = {
+  "app.line": "Chọn ngôn ngữ của ứng dụng",
+  "app.sub": "Đây là ngôn ngữ ứng dụng dùng để nói chuyện với bạn: menu, nút bấm và phần trợ giúp. Đây không phải ngôn ngữ bạn sẽ học. Bạn sẽ chọn ngôn ngữ đó ở màn hình tiếp theo.",
+  "app.example": "Ví dụ, nếu bạn nói {speak} và muốn học {learn}, hãy chọn {speak} ở đây.",
   "first.tagline1": "Sách thật.",
   "first.tagline2": "Đúng trình độ của bạn.",
   "first.start": "Bắt đầu",

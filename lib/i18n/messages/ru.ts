@@ -1,6 +1,11 @@
 import type { Catalog } from "../en";
 
 const ru: Catalog = {
+  /* ── the language of the app (the very first screen) ── */
+  "app.line": "Выбери язык приложения",
+  "app.sub": "Это язык, на котором приложение будет говорить с тобой: меню, кнопки и подсказки. Это не язык, который ты будешь учить. Его ты выберешь на следующем экране.",
+  "app.example": "Например, если твой язык — {speak}, а язык, который ты хочешь выучить, — {learn}, выбери здесь {speak}.",
+
   /* ── the welcome ── */
   "first.tagline1": "Настоящие книги.",
   "first.tagline2": "Твой уровень.",

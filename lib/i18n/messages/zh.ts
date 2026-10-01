@@ -2,6 +2,9 @@ import type { Catalog } from "../en";
 
 const zh: Catalog = {
   /* ── the welcome ── */
+  "app.line": "选择应用的语言",
+  "app.sub": "这是应用与你交流所用的语言，包括菜单、按钮和帮助。这不是你要学习的语言，学习的语言会在下一个页面选择。",
+  "app.example": "例如，如果你说{speak}，想学{learn}，就在这里选择{speak}。",
   "first.tagline1": "真正的好书。",
   "first.tagline2": "适合你的水平。",
   "first.start": "开始",

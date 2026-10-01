@@ -1,6 +1,11 @@
 import type { Catalog } from "../en";
 
 const nl: Catalog = {
+  /* ── the language of the app (the very first screen) ── */
+  "app.line": "Kies de taal van de app",
+  "app.sub": "Dit is de taal waarin de app met je praat: de menu's, knoppen en hulp. Het is niet de taal die je gaat leren. Die kies je op het volgende scherm.",
+  "app.example": "Als je bijvoorbeeld {speak} spreekt en {learn} wilt leren, kies je hier {speak}.",
+
   /* ── the welcome ── */
   "first.tagline1": "Echte boeken.",
   "first.tagline2": "Jouw niveau.",
