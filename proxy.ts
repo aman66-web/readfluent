@@ -2,6 +2,7 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { dbConfigured } from "@/lib/db/env";
 import { hasAppSession, isSitePath, marketingHosts, sitePage } from "@/lib/site/hosts";
+import { needsOnboarding, ONBOARDED_COOKIE, WELCOME_PATH } from "@/lib/onboarding";
 
 /**
  * Refreshes the Supabase session on every page request, and signs brand-new
@@ -26,6 +27,12 @@ export async function proxy(request: NextRequest) {
   if (site) return NextResponse.rewrite(new URL(site, request.url));
   // The site's own files, on any host, are static and need no session.
   if (isSitePath(pathname)) return NextResponse.next();
+
+  // Somebody who has not been through the first screen opens on it: decided here,
+  // on the server, so the library never flashes up and then moves (lib/onboarding).
+  if (needsOnboarding(pathname, request.cookies.has(ONBOARDED_COOKIE))) {
+    return NextResponse.redirect(new URL(WELCOME_PATH, request.url));
+  }
 
   // Without a project there is no session to refresh, and constructing the
   // client would throw on every request — including the ones that need no

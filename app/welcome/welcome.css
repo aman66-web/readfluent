@@ -1,0 +1,62 @@
+/* The first screen (components/welcome/FirstScreen).
+   Taken from the app this one was adapted from: the same wall, timing and
+   motion. A wall of pictures on a pure black ground, tilted and sliding slowly
+   in rows that alternate direction, fading out at the top and into the name
+   below. Each row holds its tiles twice and slides by half its width, so it
+   loops without a seam; the padding at its end is the gap the seam would be. */
+
+.first { background: #000; font-family: var(--font-jakarta), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+.ed-serif { font-family: var(--font-display), "Iowan Old Style", Georgia, serif; }
+
+.first-wall {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 62%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 62%, transparent 100%);
+}
+/* Centred on the wall whatever its height, so a short phone sees the middle
+   rows rather than the top two. */
+.first-rows { transform: translateY(-50%) rotate(-9deg); }
+.first-row { padding-inline-end: .75rem; animation: first-slide 70s linear infinite; }
+.first-row-back { animation-direction: reverse; }
+@keyframes first-slide { from { transform: translateX(0) } to { transform: translateX(-50%) } }
+.first-tile { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .07); }
+.first-link { color: rgba(255, 255, 255, .78); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+
+/* Something arriving a beat after the thing above it: a row, a card, a line. */
+@keyframes wel-in { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+.wel-in { animation: wel-in .5s cubic-bezier(.22,1,.36,1) both; }
+
+/* One lamp at a time, left to right — DotNumber's `stagger`. The delay is per lamp, inline. */
+@keyframes lamp { from { opacity: 0 } to { opacity: 1 } }
+.lamp-stagger { animation: lamp .5s ease-out both; }
+
+/* The wall's tiles: every one moves. Each piece is drawn round its own middle,
+   so a turn or a pulse from 0 0 is about the piece itself. */
+.fs-float { animation: fs-float 4.2s ease-in-out infinite alternate; }
+@keyframes fs-float { from { transform: translateY(-7px) rotate(-1.5deg) } to { transform: translateY(7px) rotate(1.5deg) } }
+.fs-breathe { animation: fs-breathe 3.6s ease-in-out infinite alternate; }
+@keyframes fs-breathe { from { transform: translateY(3px) scale(.985) } to { transform: translateY(-4px) scale(1.015) } }
+.fs-drift { animation: fs-drift 5s ease-in-out infinite alternate; }
+@keyframes fs-drift { from { transform: translateX(-12px) } to { transform: translateX(12px) } }
+.fs-flutter { animation: fs-flutter 3.4s ease-in-out infinite alternate; }
+@keyframes fs-flutter { from { transform: translateY(-6px) rotate(-6deg) } to { transform: translateY(6px) rotate(5deg) } }
+.fs-sway { animation: fs-sway 3.8s ease-in-out infinite alternate; }
+@keyframes fs-sway { from { transform: rotate(-7deg) } to { transform: rotate(7deg) } }
+.fs-spin { animation: fs-spin 9s linear infinite; }
+@keyframes fs-spin { to { transform: rotate(360deg) } }
+.fs-turn { animation: fs-spin 22s linear infinite; }
+.fs-pulse { animation: fs-pulse 2.6s ease-in-out infinite alternate; }
+@keyframes fs-pulse { from { transform: scale(.9) } to { transform: scale(1.08) } }
+.fs-glow { animation: fs-glow 3s ease-in-out infinite alternate; }
+@keyframes fs-glow { from { opacity: .45; transform: scale(.85) } to { opacity: 1; transform: scale(1.12) } }
+.fs-drive { animation: fs-drive 2.4s ease-in-out infinite alternate; }
+@keyframes fs-drive { 0% { transform: translate(-14px, 0) } 25% { transform: translate(-7px, -2px) } 50% { transform: translate(0, 0) } 75% { transform: translate(7px, -2px) } 100% { transform: translate(14px, 0) } }
+.fs-thump { animation: fs-thump 3.2s cubic-bezier(.3, 1.4, .5, 1) infinite; }
+@keyframes fs-thump { 0%, 55% { transform: scale(1.35) rotate(-10deg); opacity: 0 } 70% { transform: scale(.95) rotate(0); opacity: 1 } 78%, 100% { transform: scale(1) rotate(0); opacity: 1 } }
+.fs-hop { animation: fs-hop 1.9s cubic-bezier(.3, 0, .4, 1) infinite; }
+@keyframes fs-hop { 0%, 100% { transform: translateY(4px) scale(1.02, .98) } 45% { transform: translateY(-10px) scale(.99, 1.01) } }
+
+@media (prefers-reduced-motion: reduce) {
+  .first-row, .wel-in, .lamp-stagger,
+  .fs-float, .fs-breathe, .fs-drift, .fs-flutter, .fs-sway, .fs-spin, .fs-turn, .fs-pulse, .fs-glow, .fs-drive, .fs-thump, .fs-hop { animation: none; }
+  .wel-in { opacity: 1; transform: none; }
+}

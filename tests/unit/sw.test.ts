@@ -49,6 +49,18 @@ describe("the service worker", () => {
     expect(sw).toContain("url.origin !== self.location.origin) return false");
   });
 
+  it("never stores a redirected response, or \"/\" breaks offline", () => {
+    // A visitor who has not seen the first screen is redirected from "/" to
+    // "/welcome". A stored redirected response is refused when used for a
+    // navigation, so it must never be written.
+    expect(sw).toContain("res.ok && !res.redirected");
+    expect(sw).toContain('res.type === "basic" && !res.redirected');
+  });
+
+  it("keeps the first screen in the shell, so it opens with no connection", () => {
+    expect(sw).toMatch(/const SHELL = \[[^\]]*"\/welcome"/);
+  });
+
   it("carries nothing from the app it was adapted from", () => {
     expect(sw).not.toMatch(/diagram|voice|\/books\/|book-|lines\.json/i);
   });

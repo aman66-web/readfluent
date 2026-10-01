@@ -36,7 +36,7 @@ const DOWNLOAD_PREFIX = `${PREFIX}dl-`;
    Long enough for a slow connection, short enough not to look broken. */
 const NAV_TIMEOUT_MS = 3500;
 /* The pages that must open with no network. Everything else is the network's. */
-const SHELL = ["/", "/offline", "/manifest.webmanifest", "/icon.svg"];
+const SHELL = ["/", "/welcome", "/offline", "/manifest.webmanifest", "/icon.svg"];
 
 const origin = self.location.origin;
 const abs = (path) => new URL(path, origin).href;
@@ -47,7 +47,7 @@ const offlineText = () => new Response("Offline", { status: 503, headers: { "Con
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(VERSION).then((cache) =>
-      Promise.allSettled(SHELL.map((url) => cache.add(new Request(url, { cache: "reload" }))))
+      Promise.allSettled(SHELL.map((url) => addShell(cache, url)))
         .then(() => precacheAssetsOf(cache, "/offline")),
     ).then(() => self.skipWaiting()),
   );
@@ -56,6 +56,15 @@ self.addEventListener("install", (event) => {
 self.addEventListener("activate", (event) => {
   event.waitUntil(tidy().then(() => self.clients.claim()));
 });
+
+/* Adds one shell page — but never a REDIRECTED response. A visitor who has not
+   seen the first screen is sent from "/" to "/welcome" by the server; storing
+   that under "/" would later be refused as a navigation response (a redirect
+   used where none is followed), and "/" would be broken offline. */
+async function addShell(cache, url) {
+  const res = await fetch(new Request(url, { cache: "reload" }));
+  if (res.ok && !res.redirected) await cache.put(url, res);
+}
 
 /* Drops every shell cache that is not this build's. Downloaded versions are not
    shell caches and are never dropped here. */
@@ -97,7 +106,7 @@ async function precache(urls) {
         && (url.pathname.startsWith("/_next/static/") || inShell(url.pathname)))
       .map((url) => {
         const key = url.pathname.startsWith("/_next/static/") ? url.origin + url.pathname : url.href;
-        return cache.match(key).then((hit) => hit || fetch(url.href).then((res) => { if (res.ok) return cache.put(key, res); }));
+        return cache.match(key).then((hit) => hit || fetch(url.href).then((res) => { if (res.ok && !res.redirected) return cache.put(key, res); }));
       }),
   );
 }
@@ -129,7 +138,7 @@ async function page(event, url) {
   const cached = await cache.match(navigate ? url.pathname : req);
   const fresh = fetch(req)
     .then((res) => {
-      if (store && res && res.ok && res.type === "basic") {
+      if (store && res && res.ok && res.type === "basic" && !res.redirected) {
         event.waitUntil(cache.put(navigate ? url.pathname : req, res.clone()));
       }
       return res;
