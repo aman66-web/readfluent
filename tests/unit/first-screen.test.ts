@@ -92,7 +92,7 @@ describe("the brand is cyan", () => {
     };
     const contrast = (a: string, b: string) => { const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p); return (x + 0.05) / (y + 0.05); };
     // Text in the deep cyan on the app's paper, and the dark ink on the bright cyan button: both readable.
-    expect(contrast(BRAND.deep, "#f6f1e7")).toBeGreaterThanOrEqual(4.5);
+    expect(contrast(BRAND.deep, "#ffffff")).toBeGreaterThanOrEqual(4.5);
     expect(contrast(BRAND.ink, BRAND.bright)).toBeGreaterThanOrEqual(7);
   });
 });

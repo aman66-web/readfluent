@@ -6,6 +6,7 @@ import { Suspense, useMemo, useState, useSyncExternalStore } from "react";
 import { FirstScreen } from "@/components/welcome/FirstScreen";
 import { HeardScreen, HelloScreen, FocusScreen, MirrorScreen, ScrollScreen } from "@/components/onboarding/Questions";
 import { DailyScreen, FutureScreen, PledgeScreen, ReadyScreen } from "@/components/onboarding/Plan";
+import { LevelScreen } from "@/components/onboarding/Level";
 import { TonguesScreen } from "@/components/onboarding/Tongues";
 import { AccountScreen, InterestsScreen } from "@/components/onboarding/Last";
 import { accountAvailable } from "@/components/onboarding/SignIn";
@@ -17,8 +18,9 @@ import {
 } from "@/lib/onboarding/answers";
 import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { reportFirstRun } from "@/lib/onboarding/report";
-import { AFTER_ONBOARDING, STEP_IDS, isShowStep, stepIndex } from "@/lib/onboarding/steps";
+import { AFTER_ONBOARDING, PLACEMENT_PATH, STEP_IDS, isShowStep, stepIndex } from "@/lib/onboarding/steps";
 import { readRaw, subscribeTo } from "@/lib/store/local";
+import { startAt } from "@/lib/xp/ledger";
 
 /**
  * First run: the welcome (a wall of book covers), which languages (the one you speak
@@ -79,6 +81,8 @@ function Welcome() {
      seen so the front door stops sending this device here. */
   const finish = () => {
     reportFirstRun(a, minutes);
+    // Their XP starts at the floor of the level they said or the test found.
+    startAt(a.level);
     markOnboarded();
     router.replace(AFTER_ONBOARDING);
   };
@@ -97,6 +101,12 @@ function Welcome() {
     );
   }
   if (step === "hello") return <HelloScreen {...nav} />;
+  if (step === "level") {
+    return (
+      <LevelScreen {...nav} learn={a.learn} value={a.level} placed={a.placed}
+                   onPick={(level) => saveAnswers({ level, placed: false })} onTest={() => router.push(PLACEMENT_PATH)} />
+    );
+  }
   if (step === "focus") {
     return <FocusScreen {...nav} value={a.focus} onToggle={(f) => saveAnswers({ focus: toggleIn(FOCUS_IDS, a.focus, f) })} />;
   }

@@ -17,16 +17,17 @@ vi.mock("@capacitor/core", () => ({ Capacitor: { isNativePlatform: () => false, 
 const read = (p: string) => readFileSync(new URL(`../../${p}`, import.meta.url), "utf8");
 
 describe("the steps", () => {
-  it("are the first run's eighteen, in order, with the welcome first and the library last", () => {
-    expect(STEP_IDS).toHaveLength(18);
-    expect(new Set(STEP_IDS).size).toBe(18);
+  it("are the first run's nineteen, in order, with the welcome first and the library last", () => {
+    expect(STEP_IDS).toHaveLength(19);
+    expect(new Set(STEP_IDS).size).toBe(19);
     expect(STEP_IDS[0]).toBe("intro");
     expect(STEP_IDS[STEP_IDS.length - 1]).toBe("ready");
     expect(AFTER_ONBOARDING).toBe("/");
   });
 
-  it("ask which languages straight after the welcome", () => {
+  it("ask which languages straight after the welcome, then how much of it they know", () => {
     expect(STEP_IDS[1]).toBe("tongues");
+    expect(STEP_IDS[STEP_IDS.indexOf("hello") + 1]).toBe("level");
   });
 
   it("keep the five tour screens together", () => {
@@ -130,7 +131,7 @@ describe("the answers", () => {
 });
 
 describe("every screen renders", () => {
-  const nav = { at: 3, of: 18, onBack: () => {}, onContinue: () => {} };
+  const nav = { at: 3, of: 19, onBack: () => {}, onContinue: () => {} };
   const html = async () => {
     const q = await import("@/components/onboarding/Questions");
     const p = await import("@/components/onboarding/Plan");
@@ -151,8 +152,8 @@ describe("every screen renders", () => {
       pledge: mk(p.PledgeScreen, { ...nav, minutes: 15, done: false, onDone: () => {} }),
       tongues: mk(g.TonguesScreen, { ...nav, speak: "en", learn: "es" }),
       tonguesBlank: mk(g.TonguesScreen, { ...nav, speak: "en", learn: null }),
-      account: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: false, onNext: () => {} }),
-      accountFailed: mk(l.AccountScreen, { at: 15, of: 18, onBack: () => {}, error: true, onNext: () => {} }),
+      account: mk(l.AccountScreen, { at: 15, of: 19, onBack: () => {}, error: false, onNext: () => {} }),
+      accountFailed: mk(l.AccountScreen, { at: 15, of: 19, onBack: () => {}, error: true, onNext: () => {} }),
       interests: mk(l.InterestsScreen, { ...nav, value: ["romance"], onChange: () => {} }),
       ready: mk(p.ReadyScreen, { ...nav, interests: ["romance", "history", "science"], minutes: 15 }),
     } as Record<string, string>;

@@ -48,7 +48,7 @@ const config: CapacitorConfig = {
   },
   // The ground behind the page wherever the page does not reach: launch,
   // overscroll. The app's own paper colour, so there is never a white flash.
-  backgroundColor: "#F6F1E7",
+  backgroundColor: "#FFFFFF",
   ios: {
     // Edge to edge: the page runs under the status bar and the home
     // indicator, and every screen keeps its own content clear of them with

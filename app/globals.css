@@ -6,19 +6,20 @@
  * Mobile-first: everything is designed at 375px wide and the app column is
  * capped at 440px, centred, on anything wider (app/layout.tsx).
  *
- * Warm paper and dark ink, because this is an app for reading. Placeholder
- * tokens until the reader screens are designed (M4); screens use the tokens
+ * A white ground, deep ink and the brand's cool greys (owner, 1 Oct 2026: white,
+ * to match the first run). Placeholder tokens until the reader screens are
+ * designed (M4); screens use the tokens
  * and never a hex, so retinting is one edit here and the Android launcher
  * background (values/ic_launcher_background.xml), capacitor.config.ts's
  * backgroundColor and the manifest follow it.
  */
 :root {
-  --background: #f6f1e7;
-  --foreground: #1d1a16;
-  --surface: #fbf8f1;
-  --border: #e2d9c8;
-  --muted: #5d564b;
-  --faint: #8a8173;
+  --background: #ffffff;
+  --foreground: #0b1b22;
+  --surface: #f3f8fa;
+  --border: #dce7eb;
+  --muted: #4b5f68;
+  --faint: #6f838d;
   --accent: #0e7490;
   --accent-bright: #22d3ee;
   --error: #b3261e;
@@ -78,3 +79,14 @@ body {
 @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 .sheet-up { animation: sheet-up 0.26s cubic-bezier(0.2, 0.8, 0.2, 1); }
 .fade-in { animation: fade-in 0.2s ease-out; }
+
+/* The dashboard's bars: the level bar and the graph's bars grow from empty once. */
+@keyframes level-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.level-fill { transform-origin: left; animation: level-fill .9s cubic-bezier(.22, 1, .36, 1) both; }
+[dir="rtl"] .level-fill { transform-origin: right; }
+@keyframes chart-fill { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+.chart-fill { transform-origin: bottom; animation: chart-fill .7s cubic-bezier(.22, 1, .36, 1) both; }
+
+/* "+10 XP" over the reader's footer: rises and fades. */
+@keyframes xp-pop { 0% { opacity: 0; transform: translateY(8px) scale(.9); } 15% { opacity: 1; transform: translateY(0) scale(1); } 80% { opacity: 1; } 100% { opacity: 0; transform: translateY(-6px); } }
+.xp-pop { animation: xp-pop 1.6s ease-out both; }

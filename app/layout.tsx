@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#f6f1e7",
+  themeColor: "#ffffff",
   // Without viewport-fit=cover, env(safe-area-inset-*) is 0 and content sits
   // under the home indicator in a PWA. resizes-content keeps a focused field on
   // screen when the keyboard rises.

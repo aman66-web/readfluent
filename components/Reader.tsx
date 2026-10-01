@@ -4,7 +4,9 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ScenePhoto } from "@/components/ScenePhoto";
 import { useT } from "@/lib/i18n/react";
-import { readPage, resumeIndex, savePage } from "@/lib/progress";
+import { readPage, resumeIndex, savePage, versionKey } from "@/lib/progress";
+import { XP } from "@/lib/xp/levels";
+import { awardFinish, awardPage, trackSeconds } from "@/lib/xp/ledger";
 import type { PreviewPage, Scene } from "@/lib/preview/catalog";
 
 /** Photos are mounted only for the current page and its neighbours (SPEC.md §10, M4): a 200-page version never holds 200 images. */
@@ -79,6 +81,38 @@ export function Reader({ slug, title, levelId, levelLabel, length, hue, pages, s
     return () => window.removeEventListener("keydown", onKey);
   }, [index, goTo]);
 
+  // XP: a page pays once it has been on screen for a moment, finishing pays once, and the
+  // time spent feeds the dashboard's graph. All of it is kept on the device (lib/xp).
+  const version = versionKey(slug, levelId, length);
+  const [gain, setGain] = useState<{ xp: number; finish: boolean; n: number } | null>(null);
+  const flash = useCallback((xp: number, finish: boolean) => setGain((g) => ({ xp, finish, n: (g?.n ?? 0) + 1 })), []);
+  useEffect(() => {
+    if (!gain) return;
+    const id = window.setTimeout(() => setGain(null), 1600);
+    return () => window.clearTimeout(id);
+  }, [gain]);
+  useEffect(() => {
+    if (total === 0 || index >= total) return;
+    const id = window.setTimeout(() => {
+      const xp = awardPage(version, index + 1, levelId);
+      if (xp > 0) flash(xp, false);
+    }, XP.dwellMs);
+    return () => window.clearTimeout(id);
+  }, [index, total, version, levelId, flash]);
+  useEffect(() => {
+    if (!onEnd || total === 0) return;
+    // After the end slide has settled, not in the same breath as arriving on it.
+    const id = window.setTimeout(() => {
+      const xp = awardFinish(version, total);
+      if (xp > 0) flash(xp, true);
+    }, 400);
+    return () => window.clearTimeout(id);
+  }, [onEnd, total, version, flash]);
+  useEffect(() => {
+    const id = window.setInterval(() => { if (document.visibilityState === "visible") trackSeconds(slug, 5); }, 5000);
+    return () => window.clearInterval(id);
+  }, [slug]);
+
   const progress = onEnd ? 100 : Math.round(((index + 1) / total) * 100);
   const isPreview = length > total;
 
@@ -126,7 +160,12 @@ export function Reader({ slug, title, levelId, levelLabel, length, hue, pages, s
         </section>
       </div>
 
-      <footer className="safe-bottom shrink-0 px-5 pb-3 pt-2">
+      <footer className="safe-bottom relative shrink-0 px-5 pb-3 pt-2">
+        {gain && (
+          <p key={gain.n} className="xp-pop tabular pointer-events-none absolute inset-x-0 -top-9 mx-auto w-fit rounded-full bg-accent px-3 py-1 text-[13px] font-bold text-white shadow-md" role="status">
+            {gain.finish ? t("reader.finishXp", { xp: gain.xp }) : t("reader.xp", { xp: gain.xp })}
+          </p>
+        )}
         <div className="h-1.5 overflow-hidden rounded-full bg-border" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress} aria-label={t("reader.progress")}>
           <div className="h-full rounded-full bg-accent transition-[width] duration-300" style={{ width: `${progress}%` }} />
         </div>

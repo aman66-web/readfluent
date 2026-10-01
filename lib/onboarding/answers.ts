@@ -2,6 +2,7 @@ import { CATEGORIES, type CategoryId } from "@/lib/content/limits";
 import { storageKey } from "@/lib/brand";
 import { readRaw, writeRaw } from "@/lib/store/local";
 import { DAILY_MINUTES, SCROLL_IDS, type ScrollId } from "./firstrun";
+import { isCefr, type Cefr } from "@/lib/xp/levels";
 import { DEFAULT_LANGUAGE, isLanguage, type LanguageCode } from "./languages";
 
 /**
@@ -33,11 +34,15 @@ export interface Answers {
   language: LanguageCode;
   /** The language they want to learn: the books. Null until chosen. */
   learn: LanguageCode | null;
+  /** How much of it they know, A1–C2: said by them or placed by the test. Null until answered. */
+  level: Cefr | null;
+  /** True when the level came from the placement test rather than their own word. */
+  placed: boolean;
   interests: CategoryId[];
 }
 
 export const NO_ANSWERS: Answers = {
-  focus: [], heard: null, heardOther: "", scroll: null, daily: null, pledged: false, language: DEFAULT_LANGUAGE, learn: null, interests: [],
+  focus: [], heard: null, heardOther: "", scroll: null, daily: null, pledged: false, language: DEFAULT_LANGUAGE, learn: null, level: null, placed: false, interests: [],
 };
 
 export const ANSWERS_KEY = storageKey("onboarding");
@@ -68,6 +73,8 @@ export function parseAnswers(raw: string | null | undefined): Answers {
     pledged: o.pledged === true,
     language: isLanguage(o.language) ? o.language : DEFAULT_LANGUAGE,
     learn: isLanguage(o.learn) ? o.learn : null,
+    level: isCefr(o.level) ? o.level : null,
+    placed: o.placed === true && isCefr(o.level),
     interests: tidy(CATEGORIES.map((c) => c.id), o.interests),
   };
 }

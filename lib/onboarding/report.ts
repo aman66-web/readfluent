@@ -27,6 +27,8 @@ export function reportFirstRun(a: Answers, goalMinutes: number): void {
           goal: goalMinutes,
           language: a.language,
           learn: a.learn,
+          level: a.level,
+          placed: a.placed,
           interests: a.interests,
         },
       });

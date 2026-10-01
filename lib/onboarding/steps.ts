@@ -2,7 +2,8 @@
  * The first run, as pure rules: which steps there are and in what order.
  *
  * The welcome (a wall of book covers) → which languages (the one you speak and the
- * one you want to learn) → the guide's hello → what you want from
+ * one you want to learn) → the guide's hello → how much of it you know (or a
+ * five-minute test that finds out) → what you want from
  * the app → where you heard of it → a mirror (how long you scroll, and what a
  * little of that would be as reading) → a five-screen tour → a daily time and
  * where it takes you → a promise → sign in → what you are
@@ -13,7 +14,7 @@
  * its screens and its copy rewritten for reading.
  */
 export const STEP_IDS = [
-  "intro", "tongues", "hello", "focus", "heard", "scroll", "mirror",
+  "intro", "tongues", "hello", "level", "focus", "heard", "scroll", "mirror",
   "journey", "levels", "words", "remember", "connect",
   "daily", "future", "pledge", "account", "interests", "ready",
 ] as const;
@@ -36,6 +37,11 @@ export const AFTER_ONBOARDING = "/";
 
 /** Where a provider sign-in comes back to: the step after sign-in. Must name a step that exists. */
 export const AFTER_SIGN_IN = "/welcome?step=interests";
+
+/** The placement test opens from the level step, and comes back to the step after it (or to the level step if it is left). */
+export const PLACEMENT_PATH = "/placement";
+export const AFTER_PLACEMENT = `/welcome?step=${STEP_IDS[STEP_IDS.indexOf("level") + 1]}`;
+export const BACK_FROM_PLACEMENT = "/welcome?step=level";
 
 /** Where a failed provider sign-in comes back to: the sign-in step itself. */
 export const SIGN_IN_STEP = "/welcome?step=account";
