@@ -19,50 +19,63 @@
 export type Mood = "hello" | "reading" | "cheer" | "sleepy" | "ready";
 
 const BODY = "url(#lx-body)";
-const WING = "#0A5C73";
-const FACE = "#E8F9FC";
-const RING = "#A5F3FC";
+const WING = "url(#lx-wing)";
+const MASK = "#EAFAFD";
 const BEAK = "#22D3EE";
 const INK = "#0B3B4A";
 
 const spark = (x: number, y: number, r: number) =>
   `M ${x} ${y - r} Q ${x} ${y} ${x + r} ${y} Q ${x} ${y} ${x} ${y + r} Q ${x} ${y} ${x - r} ${y} Q ${x} ${y} ${x} ${y - r} Z`;
 
+/** The wing raised to the right, feathered at the tip; mirrored for the left. */
+const RAISED = "M156 126 C 182 124, 203 106, 207 72 L 199 80 L 200 69 L 191 79 L 190 70 L 181 84 C 174 98, 165 106, 154 110 Z";
+const RAISED_LEFT = "M84 126 C 58 124, 37 106, 33 72 L 41 80 L 40 69 L 49 79 L 50 70 L 59 84 C 66 98, 75 106, 86 110 Z";
+/** A folded wing down the side, its tip cut into feathers. */
+const FOLDED_LEFT = "M71 118 C 52 142, 50 186, 70 212 L 75 205 L 79 213 L 84 204 L 88 210 C 91 184, 89 150, 87 124 Z";
+const FOLDED_RIGHT = "M169 118 C 188 142, 190 186, 170 212 L 165 205 L 161 213 L 156 204 L 152 210 C 149 184, 151 150, 153 124 Z";
+
 /** The beak, and its lower half moving while the guide talks. */
 function Beak({ talking }: { talking: boolean }) {
   return (
     <g>
-      {talking && <path className="lx-talk" d="M115 127 L125 127 L120 139 Z" fill={WING} />}
-      <path d="M113.5 119.5 L126.5 119.5 L120 132 Z" fill={BEAK} stroke={BEAK} strokeWidth="2.4" strokeLinejoin="round" />
+      {talking && <path className="lx-talk" d="M115.5 126 L124.5 126 L120 138 Z" fill="#0A5C73" />}
+      <path d="M113 113 Q120 109 127 113 L120 130 Z" fill={BEAK} stroke="#0FA9C8" strokeWidth="1.4" strokeLinejoin="round" />
     </g>
   );
 }
 
-/** Two round eyes in pale discs: a small dark pupil with one catch of light, or closed lids. */
+/** Two eyes in a pale heart-shaped face: a ring of colour round a dark pupil with a catch of light, or closed lids. */
 function Eyes({ mood }: { mood: Mood }) {
-  const discs = (
-    <g fill={FACE} stroke={RING} strokeWidth="3">
-      <circle cx="100" cy="108" r="23" /><circle cx="140" cy="108" r="23" />
+  const face = (
+    <g>
+      <path d="M120 84 C 110 70, 77 74, 76 106 C 75 130, 99 140, 120 128 C 141 140, 165 130, 164 106 C 163 74, 130 70, 120 84 Z" fill={MASK} />
+      <path d="M84 88 Q99 79 115 87 M125 87 Q141 79 156 88" fill="none" stroke="#0E7490" strokeWidth="3.2" strokeLinecap="round" opacity={mood === "ready" ? 0.95 : 0.7} transform={mood === "ready" ? "translate(0 -2)" : undefined} />
     </g>
   );
   if (mood === "cheer") {
-    // Closed in a smile, ^ ^
-    return <g>{discs}<g fill="none" stroke={INK} strokeWidth="4.4" strokeLinecap="round"><path d="M88 113 Q100 98 112 113" /><path d="M128 113 Q140 98 152 113" /></g></g>;
+    return <g>{face}<g fill="none" stroke={INK} strokeWidth="4.2" strokeLinecap="round"><path d="M88 110 Q100 96 112 110" /><path d="M128 110 Q140 96 152 110" /></g></g>;
   }
   if (mood === "sleepy") {
-    return <g>{discs}<g fill="none" stroke={INK} strokeWidth="4" strokeLinecap="round"><path d="M88 106 Q100 117 112 106" /><path d="M128 106 Q140 117 152 106" /></g></g>;
+    return <g>{face}<g fill="none" stroke={INK} strokeWidth="3.8" strokeLinecap="round"><path d="M88 104 Q100 114 112 104" /><path d="M128 104 Q140 114 152 104" /></g></g>;
   }
   const big = mood === "ready";
-  const r = big ? 11 : 9;
-  const dy = mood === "reading" ? 6 : 0;
+  const dy = mood === "reading" ? 5 : 0;
+  const iris = big ? 13 : 11.5;
   return (
     <g>
-      {discs}
+      {face}
       <g className="lx-blink">
-        <circle cx="100" cy={108 + dy} r={r} fill={INK} /><circle cx="140" cy={108 + dy} r={r} fill={INK} />
-        <circle cx={103.5} cy={104.5 + dy} r={big ? 3.6 : 2.8} fill="#fff" /><circle cx={143.5} cy={104.5 + dy} r={big ? 3.6 : 2.8} fill="#fff" />
+        {[100, 140].map((cx) => (
+          <g key={cx}>
+            <circle cx={cx} cy={105} r="16.5" fill="#fff" stroke="#BFE9F2" strokeWidth="1.5" />
+            <circle cx={cx} cy={105 + dy} r={iris} fill="#0E8FB0" />
+            <circle cx={cx} cy={105 + dy} r={big ? 7.2 : 6.2} fill={INK} />
+            <circle cx={cx + 4} cy={100.5 + dy} r={big ? 3.8 : 3.1} fill="#fff" />
+            <circle cx={cx - 3} cy={109 + dy} r="1.3" fill="#fff" opacity=".8" />
+          </g>
+        ))}
       </g>
-      {big && <path d={spark(158, 82, 4)} fill="#fff" opacity=".9" />}
+      {big && <path d={spark(160, 80, 4)} fill="#fff" opacity=".9" />}
     </g>
   );
 }
@@ -70,10 +83,13 @@ function Eyes({ mood }: { mood: Mood }) {
 export function Mascot({ mood = "hello", talking = false, crop, className = "" }: { mood?: Mood; talking?: boolean; crop?: "head"; className?: string }) {
   const up = mood === "cheer";
   return (
-    <svg viewBox={crop === "head" ? "52 46 136 112" : "0 0 240 240"} className={`lx ${crop ? "lx-cropped" : ""} ${talking ? "lx-talking" : ""} lx-${mood} ${className}`} aria-hidden>
+    <svg viewBox={crop === "head" ? "52 40 136 118" : "0 0 240 240"} className={`lx ${crop ? "lx-cropped" : ""} ${talking ? "lx-talking" : ""} lx-${mood} ${className}`} aria-hidden>
       <defs>
         <linearGradient id="lx-body" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#1089A6" /><stop offset="1" stopColor="#0B6580" />
+          <stop offset="0" stopColor="#17A3C2" /><stop offset=".55" stopColor="#0E7490" /><stop offset="1" stopColor="#0A566E" />
+        </linearGradient>
+        <linearGradient id="lx-wing" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#0C6A84" /><stop offset="1" stopColor="#084A5F" />
         </linearGradient>
         <linearGradient id="lx-page" x1="1" y1="0" x2="0" y2="0">
           <stop offset="0" stopColor="#B5E5F0" /><stop offset=".25" stopColor="#E9F9FC" /><stop offset="1" stopColor="#FFFFFF" />
@@ -103,45 +119,49 @@ export function Mascot({ mood = "hello", talking = false, crop, className = "" }
       ))}
 
       <g className="lx-bob">
+        {/* Its feet, on the page. */}
+        <g fill="#0A566E"><rect x="96" y="204" width="11" height="9" rx="4.5" /><rect x="133" y="204" width="11" height="9" rx="4.5" /></g>
+
         <g className="lx-head">
-          {/* Ear tufts, and the body that is also the head. */}
+          {/* Ear tufts, curved, and the body that is also the head. */}
           <g className="lx-ant">
-            <path d="M80 86 L71 55 L103 75 Z" fill={BODY} stroke={BODY} strokeWidth="3" strokeLinejoin="round" />
-            <path d="M160 86 L169 55 L137 75 Z" fill={BODY} stroke={BODY} strokeWidth="3" strokeLinejoin="round" />
+            <path d="M78 94 C 69 80, 66 62, 71 46 C 82 54, 92 64, 100 76 Z" fill={BODY} />
+            <path d="M162 94 C 171 80, 174 62, 169 46 C 158 54, 148 64, 140 76 Z" fill={BODY} />
           </g>
-          <path d="M120 68 C 84 68, 63 98, 63 140 C 63 188, 87 216, 120 216 C 153 216, 177 188, 177 140 C 177 98, 156 68, 120 68 Z" fill={BODY} />
+          <path d="M120 66 C 84 66, 62 98, 62 142 C 62 190, 86 216, 120 216 C 154 216, 178 190, 178 142 C 178 98, 156 66, 120 66 Z" fill={BODY} />
+          {/* A little light along the left of the head. */}
+          <path d="M72 112 C 74 92, 88 76, 104 71" fill="none" stroke="#fff" strokeWidth="3" strokeLinecap="round" opacity=".22" />
 
           {/* The chest, in soft rows of feathers. */}
-          <path d="M120 150 C 98 150, 86 170, 91 192 C 95 207, 107 214, 120 214 C 133 214, 145 207, 149 192 C 154 170, 142 150, 120 150 Z" fill="#D7F1F7" />
-          <g fill="none" stroke="#6FBFD3" strokeWidth="2.4" strokeLinecap="round">
-            <path d="M104 166 q5 5 10 0 M126 166 q5 5 10 0" />
-            <path d="M99 180 q5 5 10 0 M115 180 q5 5 10 0 M131 180 q5 5 10 0" />
-            <path d="M106 194 q5 5 10 0 M124 194 q5 5 10 0" />
+          <path d="M120 140 C 98 140, 86 162, 91 188 C 95 205, 107 213, 120 213 C 133 213, 145 205, 149 188 C 154 162, 142 140, 120 140 Z" fill="#DDF3F8" />
+          <g fill="none" stroke="#6FBFD3" strokeWidth="2.2" strokeLinecap="round">
+            <path d="M104 158 q5 5 10 0 M126 158 q5 5 10 0" />
+            <path d="M98 172 q5 5 10 0 M115 172 q5 5 10 0 M132 172 q5 5 10 0" />
+            <path d="M101 186 q5 5 10 0 M118 186 q5 5 10 0 M135 186 q5 5 10 0" opacity=".85" />
+            <path d="M108 200 q5 5 10 0 M126 200 q5 5 10 0" opacity=".7" />
           </g>
 
-          {/* Brows of feathers, the face, the eyes and the beak. */}
-          <g fill="none" stroke={RING} strokeWidth="3.6" strokeLinecap="round" opacity=".9">
-            <path d="M80 79 Q94 71 110 78" /><path d="M130 78 Q146 71 160 79" />
-          </g>
           <Eyes mood={mood} />
           <Beak talking={talking} />
         </g>
 
         {/* The wings: folded, one waving, or both up. */}
-        <path d="M68 124 C 50 148, 52 190, 76 212 C 84 190, 87 152, 87 126 Z" fill={WING} />
         {up ? (
           <>
-            <g className="lx-cheer-l"><path d="M82 128 C 56 124, 36 106, 36 80 C 50 92, 66 100, 86 106 Z" fill={WING} /></g>
-            <g className="lx-cheer-r"><path d="M158 128 C 184 124, 204 106, 204 80 C 190 92, 174 100, 154 106 Z" fill={WING} /></g>
+            <g className="lx-cheer-l"><path d={RAISED_LEFT} fill={WING} /></g>
+            <g className="lx-cheer-r"><path d={RAISED} fill={WING} /></g>
+            <path d={FOLDED_LEFT} fill={WING} opacity="0" /><path d={FOLDED_RIGHT} fill={WING} opacity="0" />
           </>
-        ) : mood === "hello" ? (
-          <g className="lx-wave"><path d="M158 128 C 184 124, 204 106, 204 80 C 190 92, 174 100, 154 106 Z" fill={WING} /></g>
         ) : (
-          <path d="M172 124 C 190 148, 188 190, 164 212 C 156 190, 153 152, 153 126 Z" fill={WING} />
+          <>
+            <path d={FOLDED_LEFT} fill={WING} />
+            {mood === "hello" ? <g className="lx-wave"><path d={RAISED} fill={WING} /></g> : <path d={FOLDED_RIGHT} fill={WING} />}
+          </>
         )}
-        {up && <path d="M68 124 C 50 148, 52 190, 76 212 C 84 190, 87 152, 87 126 Z" fill={WING} />}
-        {up && <path d="M172 124 C 190 148, 188 190, 164 212 C 156 190, 153 152, 153 126 Z" fill={WING} />}
-        {mood === "hello" && <path d="M172 124 C 176 150, 172 190, 164 212 C 156 190, 153 152, 153 126 Z" fill={WING} opacity="0" />}
+        {/* Feather lines on the folded wings. */}
+        <g fill="none" stroke="#2F9DB8" strokeWidth="1.8" strokeLinecap="round" opacity=".55">
+          <path d="M66 152 q6 24 8 46" />{(!up) && <path d="M174 152 q-6 24 -8 46" />}
+        </g>
 
         {/* The open book it sits on, in front of its feet. */}
         <path d="M30 222 C 58 216, 98 218, 120 228 C 142 218, 182 216, 210 222 L 210 229 C 182 223, 142 225, 120 235 C 98 225, 58 223, 30 229 Z" fill={INK} />

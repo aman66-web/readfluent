@@ -28,7 +28,7 @@ describe("Dewey, the mascot", () => {
   it("moves its mouth while it talks, and crops to the head for the small avatar", () => {
     expect(draw({ mood: "hello" })).not.toContain("lx-talk");
     expect(draw({ mood: "hello", talking: true })).toContain("lx-talk");
-    expect(draw({ crop: "head" })).toContain('viewBox="52 46 136 112"');
+    expect(draw({ crop: "head" })).toContain('viewBox="52 40 136 118"');
     expect(draw({})).toContain('viewBox="0 0 240 240"');
   });
 });
