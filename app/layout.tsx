@@ -3,6 +3,7 @@ import "./globals.css";
 import { NativeAuthBridge } from "@/components/auth/NativeAuthBridge";
 import { PurchasesBridge } from "@/components/purchases/PurchasesBridge";
 import { NativeChrome } from "@/components/NativeChrome";
+import { NavTracker } from "@/components/NavTracker";
 import { Pwa } from "@/components/Pwa";
 import { TabBar } from "@/components/TabBar";
 import { Coach } from "@/components/tour/Coach";
@@ -55,6 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="mx-auto min-h-full max-w-[440px]">{children}</div>
         {/* The menu: Home, Library, Recall, My books. Hidden on the first run, the test and the reader. */}
         <TabBar />
+        <NavTracker />
         <Coach />
         <Pwa />
       </body>

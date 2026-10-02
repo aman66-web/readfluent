@@ -35,7 +35,7 @@ export function BookView({ book, outline, langs }: { book: PreviewBook; /** The 
         <span aria-hidden className="pointer-events-none absolute -start-10 top-24 size-40 rounded-full bg-accent-bright/25 blur-3xl" />
         <span aria-hidden className="pointer-events-none absolute -end-12 top-44 size-44 rounded-full blur-3xl" style={{ background: `${wash}40` }} />
 
-        <BackLink fallback="/library" label={t("book.back")} className="relative -ms-2 flex size-11 items-center justify-center rounded-full bg-background/60 backdrop-blur active:bg-border/60">
+        <BackLink fallback="/library" previous avoid={/^\/read\//} label={t("book.back")} className="relative -ms-2 flex size-11 items-center justify-center rounded-full bg-background/60 backdrop-blur active:bg-border/60">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
         </BackLink>
 

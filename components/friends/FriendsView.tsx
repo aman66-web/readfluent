@@ -40,7 +40,7 @@ export function FriendsView() {
 
   return (
     <main className="safe-top px-5 pb-32 [--pt:.5rem]">
-      <BackLink fallback="/" label={t("ui.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
+      <BackLink fallback="/" previous label={t("ui.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
         <svg width="22" height="22" viewBox="0 0 24 24" {...stroke} className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
       </BackLink>
       <h1 className="title-display mt-1">{t("friends.title")}</h1>

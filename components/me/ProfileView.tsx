@@ -4,6 +4,7 @@ import { Modal } from "@/components/Modal";
 import { BadgeGrid } from "@/components/badges/BadgeGrid";
 import { Paywall } from "@/components/paywall/Paywall";
 import Link from "next/link";
+import { BackLink } from "@/components/BackLink";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { SignIn, accountAvailable } from "@/components/onboarding/SignIn";
 import { buildLine } from "@/lib/build";
@@ -129,9 +130,9 @@ export function ProfileView() {
 
   return (
     <main className="safe-top px-5 pb-32 [--pt:.5rem]">
-      <Link href="/" aria-label={t("ui.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
+      <BackLink fallback="/" previous label={t("ui.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
-      </Link>
+      </BackLink>
       <h1 className="title-display mt-2">{t("me.title")}</h1>
 
       {/* Who they are: a name they choose, and whether they are signed in. */}

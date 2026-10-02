@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { BackLink } from "@/components/BackLink";
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { ObjectPhoto } from "@/components/ObjectPhoto";
 import { ScenePhoto } from "@/components/ScenePhoto";
@@ -88,6 +88,8 @@ export function Reader(props: Props) {
  */
 function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, scenes, onSwitch }: Props & { variant: ReaderVariant; first: boolean; onSwitch?: () => void }) {
   const t = useT();
+  // Whether this device can read aloud is only known in the browser; the server draws no Listen button, and so must the first client render.
+  const speakable = useSyncExternalStore(noSubscribe, canSpeak, () => false);
   const locale = useLocale();
   const bookText = useBookText();
   const scroller = useRef<HTMLDivElement>(null);
@@ -316,9 +318,9 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
     <div className="relative flex h-dvh flex-col">
       <header className="safe-top shrink-0 px-4 [--pt:.5rem]" inert={wordsOpen}>
         <div className="flex h-11 items-center gap-1">
-          <Link href={`/book/${slug}`} aria-label={t("reader.backBook")} className="-ms-2 flex size-11 shrink-0 items-center justify-center rounded-full active:bg-border/60">
+          <BackLink fallback={`/book/${slug}`} label={t("reader.backBook")} className="-ms-2 flex size-11 shrink-0 items-center justify-center rounded-full active:bg-border/60">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
-          </Link>
+          </BackLink>
           <div className="min-w-0 flex-1">
             <h1 lang={locale} className="truncate text-[11.5px] font-semibold uppercase tracking-[0.09em] text-muted">{bookText(slug, "title", title)}</h1>
             <p className="truncate text-[12px] text-muted" aria-live="polite">{sub}</p>
@@ -330,7 +332,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
               {Object.keys(saved).length}
             </button>
           )}
-          {canSpeak() && (
+          {speakable && (
             <button type="button" data-tour="listen" aria-pressed={reading} aria-label={reading ? t("reader.stopListening") : t("reader.listenPage")} onClick={readPageAloud}
                     className={`grid size-11 shrink-0 place-items-center rounded-full ${reading ? "bg-accent-bright/25 text-foreground" : "text-muted active:bg-border/60"}`}>
               <svg viewBox="0 0 24 24" className="size-6" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -423,10 +425,10 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
               </li>
             ))}
           </ul>
-          <Link href={`/book/${slug}`} className="mt-6 inline-flex h-12 shrink-0 items-center btn-cyan rounded-full px-7 text-[15px] font-bold">
+          <BackLink fallback={`/book/${slug}`} className="mt-6 inline-flex h-12 shrink-0 items-center btn-cyan rounded-full px-7 text-[15px] font-bold">
             {t("reader.another")}
-          </Link>
-          <Link href="/" className="mt-3 inline-flex h-11 shrink-0 items-center text-[14px] font-semibold text-muted">{t("reader.toLibrary")}</Link>
+          </BackLink>
+          <BackLink fallback="/" className="mt-3 inline-flex h-11 shrink-0 items-center text-[14px] font-semibold text-muted">{t("reader.toLibrary")}</BackLink>
           </div>
         </section>
       </div>
