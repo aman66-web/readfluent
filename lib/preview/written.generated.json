@@ -1921,6 +1921,80 @@
   }
  },
  {
+  "slug": "survival-log-day-one",
+  "title": "Survival Log, Day One",
+  "author": "The Martian",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "A flare, a missed lift-off and a note on a whiteboard: everyone thinks Joon-ho is gone. He is alone at the Moon's south pole with a broken radio, a faulty air filter and one clear plan, which is to stay alive.",
+  "cover": {
+   "bg": "#1C1C1F",
+   "title": [
+    "Survival Log,",
+    "Day One"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lighthouse",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-signal-from-tau-lyra",
+  "title": "The Signal From Tau Lyra",
+  "author": "Project Hail Mary",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "On a lonely night shift in the Chilean desert, a radio astronomer hears a pattern in the static. It is a message from a faraway star, and it is a call for help. Can one small team answer in time?",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Signal",
+    "From Tau Lyra"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "telescope",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "one-small-step-a-day",
   "title": "One Small Step a Day",
   "author": "Atomic Habits",
@@ -3267,6 +3341,44 @@
   }
  },
  {
+  "slug": "negotiate-without-fighting",
+  "title": "Negotiate Without Fighting",
+  "author": "Never Split the Difference",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "You negotiate every day: with a boss, a landlord, a shop, a sister. This short guide shows how to listen, ask, stay calm and still get a good deal, without raising your voice or losing the person across the table.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Negotiate",
+    "Without",
+    "Fighting"
+   ],
+   "size": 18.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "handshake",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "dove",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-dhammapada",
   "title": "The Dhammapada",
   "author": "Buddhist scripture (traditional)",
@@ -3896,6 +4008,43 @@
    "pieces": [
     {
      "id": "tree",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "feather",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "letting-go-of-the-ego",
+  "title": "Letting Go of the Ego",
+  "author": "A New Earth",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "Leila wins every argument and still feels empty. Over one summer at an old harbour boatyard, a retired boat builder teaches her to notice the proud, defensive voice inside her, and to hold it more lightly.",
+  "cover": {
+   "bg": "#0E7490",
+   "title": [
+    "Letting Go of",
+    "the Ego"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "anchor",
      "x": 100,
      "y": 82,
      "s": 0.92
