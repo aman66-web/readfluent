@@ -1,0 +1,417 @@
+{
+  "slug": "think-like-a-scientist",
+  "meta": {
+    "blurb": "Dev says his lucky socks help his team win, and Ines asks, how would we know? Join their school science club to learn how scientists test ideas, avoid being fooled, and say I might be wrong. A toolkit for thinking, for anyone.",
+    "bible": "Ines: a twelve-year-old girl who always asks how do we know. Dev: her best friend, cheerful, a goalkeeper in the school football team, owner of lucky socks. Ms Rao: their science teacher, patient and funny, who runs the Question Club on Thursdays. Mr Bello: a neighbour who believes in a magnetic wristband. The story takes place in one school term at a school with a science room and a football field. Key terms: Hypothesis, Hypotheses, Variable, Variables, Control, Experiment, Experiments, Observation, Prediction, Evidence, Placebo, Blind, Bias, Confirmation, Anecdote, Anecdotes, Correlation, Cause, Sample, Replication, Peer, Review, Falsifiable, Theory, Uncertainty, Statistics, Survivorship, Pseudoscience, Pareidolia, Occam, Razor, Scurvy, Consensus, Cherry. Real history, told accurately: James Lind tested treatments for scurvy on twelve sailors in 1747; Ignaz Semmelweis in Vienna in 1847 asked doctors to wash their hands with a chlorine solution and deaths fell; Louis Pasteur used flasks with long curved necks in the 1860s; Eratosthenes estimated the size of the Earth about 240 BC with shadows in Syene and Alexandria; Arthur Eddington and others measured the bending of starlight during the eclipse of 1919; Abraham Wald studied where returning bombers were hit in the Second World War. In 2015 a large team repeated 100 psychology experiments and fewer than half gave the same clear result. Voice: friendly, curious, never superior; examples are true or clearly made up for the story; no real living people named."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Dev pulls on a pair of striped lucky socks beside a football goal",
+      "summary": "Dev says his lucky socks help his team win, and Ines asks how they could know."
+    },
+    {
+      "n": 2,
+      "scene": "Ms Rao writes the words Question Club on a whiteboard in bright blue",
+      "summary": "Ms Rao starts the Question Club and says science is a way of finding out."
+    },
+    {
+      "n": 3,
+      "scene": "Ines holds a magnifying glass over a leaf with tiny holes in it",
+      "summary": "Science starts with careful observation: looking closely, noticing and recording."
+    },
+    {
+      "n": 4,
+      "scene": "Dev raises his hand and asks a question while the club members look puzzled",
+      "summary": "A good question is one that can be tested and answered with evidence."
+    },
+    {
+      "n": 5,
+      "scene": "Ines writes a guess on a card and pins it next to the leaf",
+      "summary": "A hypothesis is a testable guess about an explanation; it must be able to be wrong."
+    },
+    {
+      "n": 6,
+      "scene": "Ines lists what she expects to see if the caterpillar guess is true",
+      "summary": "A prediction says what we should see if the hypothesis is true."
+    },
+    {
+      "n": 7,
+      "scene": "Two matching pots of beans stand by a sunny window and a dark cupboard",
+      "summary": "A fair test changes one thing at a time and keeps everything else the same."
+    },
+    {
+      "n": 8,
+      "scene": "A chart on the wall lists words: change, measure, keep the same, compare",
+      "summary": "The thing you change, the thing you measure and the things you keep the same are variables; a control is a comparison."
+    },
+    {
+      "n": 9,
+      "scene": "Ines measures a bean shoot with a ruler while Dev writes the number down",
+      "summary": "Measure with numbers and units instead of guessing: use a ruler, a clock or a scale."
+    },
+    {
+      "n": 10,
+      "scene": "A hand tosses a coin above a table covered with small tally marks",
+      "summary": "A few trials can mislead, but many trials show the pattern; a bigger sample is more reliable."
+    },
+    {
+      "n": 11,
+      "scene": "Several coloured dice lie scattered on a table beside a graph with wobbly lines",
+      "summary": "Chance causes results to vary, so scientists look at averages and repeated results."
+    },
+    {
+      "n": 12,
+      "scene": "The beans on two windowsills are measured again by two new club members",
+      "summary": "Replication: other people repeating an experiment and getting the same result makes it stronger."
+    },
+    {
+      "n": 13,
+      "scene": "Dev saves a football from a goalkeeper's position, wearing plain white socks",
+      "summary": "The club tests the lucky socks fairly and finds no difference."
+    },
+    {
+      "n": 14,
+      "scene": "Ines looks up at a cloud shaped like a face and laughs",
+      "summary": "Our brains see patterns, even in clouds and random dots."
+    },
+    {
+      "n": 15,
+      "scene": "Dev counts tally marks on a page of green ticks and few red crosses",
+      "summary": "Confirmation bias: we notice what supports our beliefs and forget what does not."
+    },
+    {
+      "n": 16,
+      "scene": "Mr Bello holds up a metal wristband over the garden fence",
+      "summary": "A single story, an anecdote, is not good evidence; many cases tested fairly are."
+    },
+    {
+      "n": 17,
+      "scene": "Ines holds two identical white pills in her open palm",
+      "summary": "The placebo effect: people can feel better just because they expect a treatment to work."
+    },
+    {
+      "n": 18,
+      "scene": "Two groups of volunteers receive plain envelopes from a researcher in a white coat",
+      "summary": "In blind tests, people do not know which treatment they get; in double-blind tests, nor do the researchers."
+    },
+    {
+      "n": 19,
+      "scene": "Twelve sailors in an old ship's cabin share lemons, oranges and cups",
+      "summary": "In 1747 James Lind tested treatments for scurvy on sailors, and the citrus group got better fastest."
+    },
+    {
+      "n": 20,
+      "scene": "A graph shows two lines rising together, labelled ice cream and swimming",
+      "summary": "Correlation is not cause: two things can rise together without one causing the other."
+    },
+    {
+      "n": 21,
+      "scene": "A detective's board shows many arrows and question marks tied by red string",
+      "summary": "A confounder is a hidden third factor; scientists try to rule these out."
+    },
+    {
+      "n": 22,
+      "scene": "A bomber with bullet holes drawn in red dots on its wings and tail",
+      "summary": "In the Second World War, Abraham Wald saw that planes hit in other places never came back."
+    },
+    {
+      "n": 23,
+      "scene": "A doctor in an old hospital ward washes his hands in a basin",
+      "summary": "In 1847, Ignaz Semmelweis had doctors wash their hands, and deaths in his ward fell sharply."
+    },
+    {
+      "n": 24,
+      "scene": "Colleagues in black coats turn away from a chart held out by Semmelweis",
+      "summary": "Many doctors rejected his results, and it took time and more evidence for handwashing to be accepted."
+    },
+    {
+      "n": 25,
+      "scene": "Two glass flasks, one with a long curved neck, stand on a laboratory shelf",
+      "summary": "In the 1860s Louis Pasteur used flasks with curved necks to show that microbes come from other microbes."
+    },
+    {
+      "n": 26,
+      "scene": "A stick casts a short shadow in one town, a longer one in another",
+      "summary": "About 240 BC Eratosthenes estimated the size of the Earth from shadows in two towns."
+    },
+    {
+      "n": 27,
+      "scene": "A solar eclipse darkens the sky above astronomers with cameras and telescopes",
+      "summary": "In 1919 Eddington and others measured starlight bending near the Sun during an eclipse, testing Einstein's theory."
+    },
+    {
+      "n": 28,
+      "scene": "Ines draws a floating invisible cat that nobody can see, hear or touch",
+      "summary": "A claim that nothing could ever disprove tells us nothing; scientific ideas must be falsifiable."
+    },
+    {
+      "n": 29,
+      "scene": "A small pebble and a heavy rock on opposite sides of a scale",
+      "summary": "The bigger the claim, the stronger the evidence needed."
+    },
+    {
+      "n": 30,
+      "scene": "Dev holds up a card reading prove it while Ines holds a blank page",
+      "summary": "The person making a claim has the job of providing the evidence."
+    },
+    {
+      "n": 31,
+      "scene": "An empty biscuit tin and a trail of crumbs leading to a dog",
+      "summary": "Often the simplest explanation that fits all the facts is the best one to test first."
+    },
+    {
+      "n": 32,
+      "scene": "Ines reads a webpage on a tablet while Dev circles the author's name",
+      "summary": "Ask who is saying it, how they know it and what they gain."
+    },
+    {
+      "n": 33,
+      "scene": "A librarian hands Ines two thick books with the same name on the cover",
+      "summary": "Experts deserve respect, yet we should still ask for their reasons; a broad agreement of experts is strong evidence."
+    },
+    {
+      "n": 34,
+      "scene": "Two scientists in white coats mark a report with red ink",
+      "summary": "Peer review means other experts check a study before it is published."
+    },
+    {
+      "n": 35,
+      "scene": "A pile of papers, some stamped with a red cross, lies on a desk",
+      "summary": "Science corrects itself: in 2015 a team repeated 100 psychology studies and fewer than half gave a clear match."
+    },
+    {
+      "n": 36,
+      "scene": "A newspaper headline reads Risk doubles, with tiny numbers beneath in small print",
+      "summary": "Read the numbers behind a headline: a doubled tiny risk is still a tiny risk."
+    },
+    {
+      "n": 37,
+      "scene": "Two graphs of the same numbers look very different because of the axis",
+      "summary": "Graphs can mislead, for example by starting the axis above zero."
+    },
+    {
+      "n": 38,
+      "scene": "Dev picks only the green apples from a basket and leaves the bruised ones",
+      "summary": "Cherry picking means showing only the evidence that fits and hiding the rest."
+    },
+    {
+      "n": 39,
+      "scene": "The word theory in large letters above a diagram of the solar system",
+      "summary": "In science a theory is a well-tested explanation, not a mere guess."
+    },
+    {
+      "n": 40,
+      "scene": "A weather forecast shows rain chances in percent beside a sun and a cloud",
+      "summary": "Scientists talk about how sure they are; uncertainty is not weakness."
+    },
+    {
+      "n": 41,
+      "scene": "Ines shrugs with open hands in front of a blackboard covered in question marks",
+      "summary": "Saying I do not know is honest and is how learning starts."
+    },
+    {
+      "n": 42,
+      "scene": "Ines crosses out a line in her notes and writes a new one",
+      "summary": "A good thinker changes their mind when new evidence arrives."
+    },
+    {
+      "n": 43,
+      "scene": "A seller in a bright coat shows a tonic bottle in a crowded market",
+      "summary": "Warning signs of pseudoscience: vague claims, testimonials, secrets, no real tests and something to sell."
+    },
+    {
+      "n": 44,
+      "scene": "Dev holds up a phone showing a dramatic photo while Ines checks a source",
+      "summary": "Check where a photo or video came from before sharing it."
+    },
+    {
+      "n": 45,
+      "scene": "Ines takes a deep calming breath before she opens a message that excites her",
+      "summary": "When we really want something to be true, we should take extra care."
+    },
+    {
+      "n": 46,
+      "scene": "Ines and Dev shake hands across a table with two different drawings",
+      "summary": "Challenge ideas, not people, and be kind when someone is wrong."
+    },
+    {
+      "n": 47,
+      "scene": "A starry night sky above Ines and Dev lying on the grass",
+      "summary": "Knowing how things work makes the world more wonderful, not less."
+    },
+    {
+      "n": 48,
+      "scene": "The club hands out word lists to two groups in a quiet science room",
+      "summary": "The club tests whether music helps people remember words, and finds an unclear result."
+    },
+    {
+      "n": 49,
+      "scene": "Dev ties his lucky socks while the football team cheers in the background",
+      "summary": "Dev wears the lucky socks anyway, knowing what they do and do not do."
+    },
+    {
+      "n": 50,
+      "scene": "Ines stands at Mr Bello's garden gate with a notebook and a smile",
+      "summary": "Ines asks Mr Bello the question that began it all: how would we know?"
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Dev says his lucky socks help his team win matches.",
+      "Ms Rao starts a Question Club at their school.",
+      "First, Ines looks closely at a leaf and writes down what she sees.",
+      "A good question is one that we can test.",
+      "A hypothesis is a careful guess that we can test.",
+      "If a caterpillar did it, Ines should find one near the leaf.",
+      "To make a fair test, change only one thing at a time.",
+      "The pot in the dark is a comparison, called a control.",
+      "They measure the plants with a ruler instead of guessing.",
+      "Four coin flips do not tell us as much as four hundred.",
+      "Even with a fair test, results can vary by chance.",
+      "Other people should be able to repeat a test and get the same answer.",
+      "The club tests Dev's lucky socks, and they find no difference.",
+      "Our brains are very good at seeing faces and patterns.",
+      "We remember the times we were right and forget the times we were wrong.",
+      "One person's story is not enough proof that something works.",
+      "Sometimes people feel better just because they expect to feel better.",
+      "In a good test, nobody knows who has the real medicine.",
+      "In 1747, a doctor tested treatments for a sailors' illness.",
+      "Two things can go up together without one causing the other.",
+      "Sometimes a hidden third thing is the real cause.",
+      "In a war, a mathematician looked at planes that came home.",
+      "In 1847, a doctor in Vienna asked his colleagues to wash their hands.",
+      "At first, many doctors did not accept the new idea.",
+      "Pasteur used curved glass bottles to test where germs come from.",
+      "Long ago, a scholar measured the size of the Earth using shadows.",
+      "During an eclipse in 1919, scientists tested a bold new idea.",
+      "If nothing could ever show an idea is wrong, it tells us nothing.",
+      "A big claim needs strong evidence before we should believe it.",
+      "The person who makes a claim should give the evidence.",
+      "The simplest explanation is often the best one to test first.",
+      "Always ask who is telling you something, and how they know.",
+      "Experts know a lot, but they should still explain their reasons.",
+      "Other experts check a scientist's work before it is shared.",
+      "Science finds its own mistakes, and then it corrects them.",
+      "A headline says a risk has doubled, but the numbers are very small.",
+      "A graph can look scary or calm depending on how it is drawn.",
+      "Choosing only the facts you like is called cherry picking.",
+      "In science, a theory is a well-tested explanation.",
+      "Scientists often say how sure they are, with likely or unlikely.",
+      "It is fine to say I do not know.",
+      "A good thinker changes their mind when the facts change.",
+      "Some claims are warning signs, and we should be careful with them.",
+      "Before you share a surprising photo, check where it came from.",
+      "When you really want something to be true, be extra careful.",
+      "We can disagree with an idea without being rude to a person.",
+      "Understanding the stars makes them even more wonderful.",
+      "The club tests whether music helps people remember words.",
+      "Dev still wears his lucky socks, but now he understands the truth.",
+      "Ines kindly asks Mr Bello, how would we know?"
+    ],
+    "B1B2": [
+      "Dev puts on his lucky socks before every match, and he is sure they make his team win. Ines smiles and asks a simple question, which is how do we know?",
+      "Ms Rao, the science teacher, starts a Question Club on Thursdays. She tells the children that science is not a pile of facts but a careful way of finding things out.",
+      "The first habit is to look closely and write down what you really see. Ines notices small holes in a leaf, and she counts them instead of just saying the leaf is damaged.",
+      "Dev asks whether the leaf holes are ugly, but Ms Rao says that is a matter of opinion. A better question is, what is eating the leaf, because that one can be tested.",
+      "Ines guesses that a hungry caterpillar made the holes. A guess like this is called a hypothesis, and it is useful because the facts could show that it is wrong.",
+      "If a caterpillar made the holes, Ines should be able to find a caterpillar, or its droppings, on the plant. This sort of if-then thinking is called making a prediction.",
+      "The club plants two pots of beans, one in sunlight and one in a dark cupboard. They give both the same soil and the same water, so the only difference is the light.",
+      "The thing you change is a variable, and so is the thing you measure. A control is a comparison group that is left alone, so you can see what the change really does.",
+      "Each day, Ines measures the beans with a ruler, and Dev writes down the number in a table. Numbers do not depend on how the plants look to a person on a certain day.",
+      "Ms Rao flips a coin four times and gets three heads. That does not prove the coin is unfair, but flipping it four hundred times would tell us much more.",
+      "Even in a fair test, the results change a little each time, because chance plays a part. This is why scientists take many measurements and look at the average.",
+      "Two other club members repeat the bean test in their own classroom. They get the same result, and that makes everyone more sure than one test ever could.",
+      "Dev takes twenty penalty kicks in his lucky socks and twenty in plain ones, and the friends choose the order by drawing from a hat. He saves nearly the same number in both, so the socks make no clear difference.",
+      "Ines sees a face in a cloud, and so does Dev. Human brains are so keen on finding patterns that we sometimes find them even when nothing is there.",
+      "Dev remembers every match he won in his lucky socks, but he forgets the ones he lost. This is called confirmation bias, because we notice what fits our beliefs.",
+      "Their neighbour Mr Bello says a magnetic wristband cured his backache. His story is sincere, but one story cannot show that the wristband worked.",
+      "A placebo is a pretend treatment, such as a sugar pill. Some people feel better after taking one, because they expect it to help, which is why doctors must test new medicines against it.",
+      "In a blind test, people do not know whether they are receiving the real treatment or the dummy. In a double-blind test, the researchers do not know either, so no one's hopes can affect the result.",
+      "In 1747, a ship's doctor named James Lind gave twelve sick sailors six different treatments in pairs. The two who ate oranges and lemons recovered the fastest, and that was a clue to curing scurvy.",
+      "In summer, ice cream sales go up, and so do accidents in the water. This does not mean that ice cream causes accidents, because hot weather makes more people do both.",
+      "Scientists call a hidden third factor a confounder, and it can fool us. People who carry lighters are more likely to get lung disease, but the true cause is smoking, which the lighters are linked to.",
+      "In the Second World War, military planners studied where returning planes had been hit, and wanted to add armour there. A mathematician named Abraham Wald said to protect the places with no holes instead.",
+      "In 1847, a doctor named Ignaz Semmelweis noticed that mothers died more often in the ward where doctors worked. He had the doctors wash their hands with a chlorine solution, and deaths fell sharply.",
+      "Many doctors rejected the idea of handwashing, partly because they did not like to be told that they had caused harm. Only later, with more evidence about germs, did the practice become accepted.",
+      "In the 1860s, Louis Pasteur boiled broth in flasks with long, curved necks. Air could enter but dust was trapped, and the broth stayed clear, showing that germs come from other germs.",
+      "About 240 BC, Eratosthenes noticed that at noon the sun shone straight down a well in Syene. In Alexandria, a stick made a shadow, and by measuring its angle he could estimate the size of the Earth.",
+      "In 1919, astronomers photographed stars near the Sun during an eclipse. Einstein's theory said that the Sun's gravity would bend starlight, and the photographs agreed, though the theory could have failed.",
+      "Dev says there is an invisible cat in the room that makes no sound and cannot be touched. Ms Rao says that an idea nothing could ever disprove is not useful, because it explains nothing at all.",
+      "A friend says he saw a cat in the street, and you believe him easily. If he says he saw a cat fly, you would want much better proof, because the claim is so much bigger.",
+      "When someone makes a claim, it is up to that person to show the evidence. It is not up to everyone else to prove the claim wrong.",
+      "The biscuits have vanished, and there are crumbs on the dog's bed. The simplest explanation is that the dog took them, so that is the one the children test before they think of anything more exotic.",
+      "When you read a claim, ask who is saying it and how they know. Also ask whether the person will earn money or fame if you believe it.",
+      "People who have studied a subject for many years deserve our attention. Good experts explain their reasons, and when almost all of them agree, that is strong evidence.",
+      "Before most scientific studies are published, other experts read them and look for mistakes. This is called peer review, and it is a useful filter, though it is not perfect.",
+      "In 2015, a large team of researchers repeated 100 psychology studies. Fewer than half gave the same clear result, which showed that some studies were weaker than they had seemed.",
+      "A headline says that something doubles your risk of an illness. If the risk was one in a million, it is now two in a million, and that is still very small.",
+      "Ms Rao draws the same numbers on two graphs. On one, the axis starts high, so a small change looks huge, and on the other it starts at zero and the change looks small.",
+      "Cherry picking means showing only the facts that support your side and leaving out the rest. Dev did this when he counted only the wins in his lucky socks, and a careful thinker looks at all the evidence.",
+      "In everyday speech, people say theory when they mean a guess. In science, a theory is an explanation that has been tested many times and that fits a great deal of evidence.",
+      "A weather forecast says there is a seventy per cent chance of rain. A scientist is not weak for saying this, because being honest about uncertainty is a sign of careful work.",
+      "When Dev asks a hard question, Ms Rao says honestly that she does not know the answer. Saying I do not know is the start of finding out, and it is nothing to be ashamed of.",
+      "At first Ines thought the beans grew only in sunlight. New evidence showed that they also grew a little in dim light, so she crossed out her old note and wrote a better one.",
+      "A seller promises a miracle tonic that cures everything, using only happy stories and a secret recipe. These are warning signs, because real treatments are tested openly.",
+      "Dev finds a dramatic photo online and wants to share it. Ines says to check where it came from first, because pictures can be edited, old or from a different event.",
+      "We are most easily fooled when we badly want something to be true. Ms Rao says that a strong feeling is a good signal to slow down and check the facts twice.",
+      "Ines disagrees with Dev about a result, and they argue about the evidence in a friendly way. Ms Rao reminds them to challenge the idea and not the person.",
+      "Lying on the grass at night, the friends look at the stars. Knowing how stars shine and how far away they are does not spoil the view, and it makes it even more amazing.",
+      "The club asks twenty classmates to learn a list of words, half in silence and half with music. The silent group remembers slightly more words, but the sample is small, so the club cannot be sure.",
+      "Dev still wears his lucky socks before every match, because they make him feel happy. He knows now that his skill wins the games, and not the socks.",
+      "Ines visits Mr Bello and asks him kindly how he could know that the wristband works. She is not trying to win an argument, only to help them both find out."
+    ],
+    "C1C2": [
+      "Before every football match, Dev put on a pair of striped socks that he swore were lucky, and he had a long list of the times his team had won while he wore them. Ines, who had never been able to leave a claim alone, asked him quietly how he could actually know the socks were doing anything. It was the question that would carry them through the whole term, and it is one worth asking about nearly everything.",
+      "Their teacher, Ms Rao, invited anyone curious to join a new Question Club that met after school every Thursday, and Ines and Dev were the first to sign up. Science, she told the small group, is not a heap of facts to memorise but a way of finding out what is true, and it is a set of habits that anyone can learn. Those habits, she promised, would be useful long after they had forgotten the names of the planets.",
+      "The first habit, Ms Rao said, is to observe carefully, and to record what you actually see rather than what you expect or hope to see. Ines held a leaf under a magnifying glass, noticed that it was full of tiny holes, and counted twenty-three of them instead of just announcing that it looked damaged. A number can be checked by another person, whereas an impression cannot, and that is why scientists prefer to count and measure.",
+      "Dev asked why the holes in the leaf looked so ugly, but Ms Rao pointed out that this was a matter of taste, not of evidence, and that nobody could settle it with an experiment. A better question, she suggested, would be what had made the holes, because that has an answer that can be found by looking and testing. Scientists spend a good deal of their time turning big, vague puzzles into small questions of this kind.",
+      "Ines wrote on a card, Caterpillars made the holes, and pinned it beside the leaf. A guess of this kind is called a hypothesis, and what makes it scientific is that the facts could show it to be wrong, since the leaf might turn out to have been damaged by wind or by something else. An idea that nothing could ever contradict, Ms Rao said, might be comforting, but it would not teach us anything.",
+      "If the hypothesis was right, Ms Rao explained, then certain other things ought to be true as well, and that gives you a chance to check. Ines predicted that she would find a caterpillar, a chewed edge or a scattering of tiny droppings on the plant, and she went outside to look. Making a prediction before you look is a way of keeping yourself honest, because it stops you from explaining away whatever you happen to find.",
+      "The club decided to test whether light matters to a growing bean, so they planted two identical pots with the same soil, the same amount of water and the same warmth. One pot went onto the sunny windowsill and the other into a dark cupboard, so that light was the only thing that differed between them. A fair test, Ms Rao reminded them, changes one thing at a time, since otherwise you could never tell which change was responsible for the result.",
+      "Ms Rao introduced some useful words, explaining that anything that can change in an experiment is called a variable, and that a good test changes only one while it measures another and keeps all the rest steady. A control is a comparison, a version of the experiment in which the thing being tested is left out, so that its effect can be seen by contrast. Without something to compare against, a result of any kind can say very little.",
+      "Every afternoon Ines measured the height of each shoot with a ruler, and Dev recorded the numbers in a table that grew longer by the day. It would have been easy simply to say that the sunny plant looked healthier, but looks are influenced by hopes and moods, whereas a measurement in millimetres is something that a stranger could repeat. Putting numbers on things, Ms Rao said, is one of the simplest and most powerful tricks in science.",
+      "Ms Rao flipped a coin four times and got three heads, and she asked whether the coin was unfair. Dev said it probably was, but she explained that such a small number of flips can easily produce a lopsided result by chance alone, whereas four hundred flips would give a count very close to two hundred of each. The more trials or people an experiment includes, the less likely it is that a fluke has fooled us.",
+      "Ines noticed that even the two beans in the same sunny pot did not grow by exactly the same amount, and Ms Rao said that this was entirely normal. Chance, in the form of small differences in the seeds, the soil and the weather, always makes results wobble a little, so scientists take many measurements and look at the average. What matters is whether the difference between the groups is clearly bigger than the wobble.",
+      "Two other pupils, who had not seen the first results, repeated the bean experiment in a different room, using new seeds and new pots. When they found the same pattern, everybody in the club felt far more confident than they had done after a single test, because one result could always have been a fluke. This habit of repeating experiments, sometimes by completely different teams, is called replication, and it is one of the main safeguards of science.",
+      "Dev agreed to try an experiment on his own socks, and the club drew names out of a hat to decide the order in which he would wear the lucky pair or a plain pair. He faced twenty penalty kicks in each, saving eight in the first set and seven in the second, a difference so small that chance could easily have caused it. Dev was a little disappointed, yet he admitted that the test had been fair, which is exactly what a good scientist must be willing to do.",
+      "Lying on the grass after school, Ines pointed to a cloud that looked unmistakably like a smiling face, and Dev saw it too. Human brains are tuned to spot faces and patterns, which is useful when you need to recognise a friend in a crowd, but it also means that we see meaning in random shapes, spots and coincidences. A scientist therefore learns to ask whether a pattern is real or simply something that the mind has supplied.",
+      "Dev could name every game that his team had won while he wore the lucky socks, but when Ines asked about the losses, he had to think hard to recall any. This is called confirmation bias, the tendency to notice and remember the evidence that supports what we already believe, and to overlook the evidence against it. The cure, Ms Rao said, is to keep a written record of the hits and the misses alike.",
+      "Mr Bello, a neighbour, told the children over the garden fence that a magnetic wristband had cured his backache, and he clearly believed every word of it. Ms Rao later explained that a personal story, or anecdote, is not worthless, but it cannot reveal whether the wristband was responsible, because backaches often improve on their own and a hundred other things may have changed that week. To judge the matter properly, you need many people, a fair comparison and a good deal of patience.",
+      "A placebo, Ms Rao explained, is a dummy treatment, such as a sugar pill that has no medicine in it, and yet some people who take one do feel better, because their expectations have real effects on how they feel. This does not mean that they were imagining their pain, but it does mean that when a new medicine is tested, its results must be compared with those of a placebo. Otherwise we may give the credit to the treatment when it belongs to hope.",
+      "To keep hopes from interfering, the best trials are blind, meaning that the volunteers do not know whether they have been given the real treatment or the dummy one. In a double-blind trial the researchers who hand out the treatments and measure the results are kept in the dark as well, so that neither the volunteers' expectations nor the scientists' own can quietly tilt the outcome. Only when the trial is over is the secret code finally opened and the truth revealed.",
+      "In 1747, aboard a ship at sea, a doctor named James Lind tried an early comparison on twelve sailors who were suffering from scurvy, a serious illness of the gums, skin and strength. He gave them similar food but divided them into six pairs and gave each pair a different remedy, and the two who received oranges and lemons recovered much faster than the others. Although his experiment was small by today's standards, it was an excellent example of testing treatments side by side.",
+      "Ms Rao drew a graph showing that on days when more ice cream is sold, more people also have accidents in swimming pools and the sea. It would be absurd to conclude that ice cream causes accidents, she said, because a third factor, hot weather, makes people both buy ice cream and go swimming. Whenever two things go up and down together, a careful thinker therefore asks whether one causes the other, or whether something else is behind both.",
+      "A hidden third factor that leads to a false conclusion is called a confounder, Ms Rao said, and it is one of the most common traps in the study of cause and effect. People who carry lighters, for instance, are more likely to suffer from lung disease, not because lighters harm the lungs, but because people who smoke tend to carry them. Good experiments try to spot such factors and rule them out, by comparing groups that are otherwise alike.",
+      "During the Second World War, military planners looked at bombers that had come home and wanted to add armour to the places where they showed the most bullet holes. A mathematician named Abraham Wald pointed out that those holes showed where a plane could be hit and still fly home, so the real weak spots were the places where the survivors had no damage at all. It is a famous example of survivorship bias, which means drawing conclusions only from what has survived.",
+      "In 1847, a young doctor named Ignaz Semmelweis noticed that far more new mothers died of fever in the Vienna hospital ward staffed by doctors than in the ward staffed by midwives. He suspected that something was being carried on the doctors' hands from the dissecting room, so he ordered everyone to wash in a chlorine solution, and the number of deaths fell dramatically. It was a clear case of a prediction, a test and a measurable result.",
+      "Despite his careful numbers, Semmelweis was met with indifference and even hostility by many doctors, some of whom were offended by the suggestion that they might have been spreading disease. The practice of washing hands was widely adopted only years later, when the work of other scientists on germs gave a clear explanation of why it worked. Good evidence, the story warns us, does not always win at once, because people are swayed by pride and habit, as well as by facts.",
+      "In the 1860s, Louis Pasteur settled an old argument about whether tiny living things could arise from lifeless broth. He boiled broth in flasks with long, curved necks that let air in but trapped dust and germs, and the liquid stayed clear for months, but when the neck was snapped off, it soon turned cloudy. The experiment gave a clean answer, and it is a model of how a clever design can answer a big question.",
+      "About 240 BC, a Greek scholar named Eratosthenes heard that at noon in the town of Syene the sun shone straight down a well, while in Alexandria, far to the north, a stick still cast a short shadow. By measuring the angle of that shadow and the distance between the two towns, he worked out the size of the Earth, and his answer was close to the truth, although historians are unsure of the length of his unit. The method, rather than the number, is what makes the story so remarkable to this day.",
+      "In 1919, astronomers led by Arthur Eddington took photographs of stars close to the Sun during a total eclipse, when the sky was dark enough for them to be seen. Einstein's new theory of gravity made a risky prediction that the Sun would bend the path of starlight by a certain amount, and the photographs showed a shift in the right direction and of about the right size. What impressed people was that the theory had stuck its neck out, since it could easily have been proved wrong.",
+      "Dev, who enjoyed teasing, announced that there was an invisible cat in the science room that made no sound, left no hair and could not be touched. Ms Rao replied that this was not so much wrong as useless, because nothing that anyone could do would ever show it to be false, and a claim that can never be tested cannot be supported either. Scientists call an idea that could be contradicted by some possible observation falsifiable, and they value such ideas for exactly that reason.",
+      "If a friend says that he saw a cat in the street this morning, you believe him without a second thought, because it is ordinary and costs you nothing to accept it. If he says that he saw the cat fly across the road, you would want a photograph, a second witness or at least a very good explanation, since the claim is so much larger. The bigger or stranger a claim is, the stronger the evidence we are right to ask for.",
+      "Ms Rao told the club that the responsibility for providing evidence rests with the person who makes a claim, and that it is not the duty of everyone else to disprove it. If a stranger announced that your school was built on a hidden underground lake, she said, nobody should have to dig up the playground to show that he was mistaken. This is often called the burden of proof, and it keeps discussions from becoming endless.",
+      "When the biscuits disappeared from the club's tin, Dev proposed that a ghost had taken them, whereas Ines pointed out the trail of crumbs that led to the dog's basket. It is usually wise to test the simplest explanation that fits all the facts before turning to something more elaborate, a habit known as Occam's razor. It is not a law of nature, of course, and sometimes the simple answer is wrong, but it is a good place to start.",
+      "Before trusting any claim that they came across online or in the news, the children learned to ask a short list of questions. Who is saying this, how could they possibly know it, what evidence do they offer, and would they gain money, fame or power if people believed them? The answers do not prove a claim true or false by themselves, but they show how much attention it deserves.",
+      "Ms Rao said that trusting experts is not laziness but a sensible way of living, since no one can test everything alone, and years of study do count for something. Even so, a good expert will explain the reasons behind a view, and a claim is more convincing when most researchers in the field reach the same conclusion by their own routes. When experts disagree, an honest account will say so openly, and a single lone voice, however confident, is rarely enough.",
+      "Before a study appears in most scientific journals, other experts in the field read the report, look for mistakes in the methods and ask awkward questions. This process, called peer review, catches a good many errors and weak arguments, although it is not perfect, and flawed studies sometimes slip through. Ms Rao described it as a quality check that is useful but not magical, and she urged the club to remember that publication alone is no proof.",
+      "In 2015, a large team of researchers set out to repeat one hundred published psychology experiments, and fewer than half of them produced the same clear result the second time around. The discovery alarmed many people, but it also showed science doing what it is meant to do, which is to examine itself, find weaknesses and improve its methods. Honest scientists do not claim to be perfect, and they trust the process because it is able to find and fix mistakes.",
+      "Ms Rao showed the club a headline announcing that a certain food doubles the risk of an illness, and asked them what it really meant. If the chance of getting the illness was one in a million and has now risen to two in a million, then the risk has indeed doubled, but it has barely changed in any way that matters to a life. Always look for the real numbers behind a relative change, and ask what the risk was to begin with.",
+      "Using exactly the same set of numbers, Ms Rao drew two graphs on the whiteboard, and they gave quite opposite impressions. On the first, the vertical axis began far above zero, so that a small rise looked like a leap, whereas on the second it began at zero and the same rise looked modest. Charts are not lies in themselves, but the club learned to read the labels and the scale before believing the shape.",
+      "To teach the club about cherry picking, Ms Rao asked Dev to describe the baskets of apples, and he proudly picked out only the fresh ones for his answer. Choosing just the examples that support a conclusion, while quietly ignoring the others, makes almost any claim look convincing, and it is a very common trick in advertising and arguments. A careful thinker therefore asks what has been left out, and tries to look at the whole of the evidence.",
+      "Dev remarked that the germ idea was only a theory, and Ms Rao smiled, because he had stumbled on a common confusion of words. In everyday speech, a theory often means a hunch, but in science it means a broad explanation that has been tested repeatedly and fits a large amount of evidence, as with the theory of gravity. A hypothesis is a tentative idea, whereas a theory has already survived many attempts to knock it down.",
+      "A weather forecaster who announces a seventy per cent chance of rain is not being evasive, Ms Rao said, but is being exact about how much is known and how much is not. Scientists measure and report their uncertainty with ranges and margins of error, and these are signs of careful work and not of weakness. It is the person who claims to be absolutely certain about everything who should make us a little suspicious.",
+      "When Dev asked how many stars there were in the sky, Ms Rao admitted cheerfully that nobody knew the exact number, and that she did not know the answer to quite a few of his other questions, either. Saying that you do not know is not a failure but a starting point, because it opens the door to looking for evidence rather than inventing something to fill the gap. The best scientists are comfortable at the edge of their knowledge, and they say so.",
+      "Ines had been certain that the beans needed bright light to grow at all, but when a third pot in a dim corner produced short, pale shoots, she crossed out her old note and wrote a revised one beside it. Changing your mind in the face of new evidence is not embarrassing, Ms Rao said, but one of the greatest strengths of scientific thinking, and it is what separates it from stubbornness. The question to ask is not whether you were right earlier, but what the evidence says now.",
+      "Ms Rao described the common warning signs of pseudoscience, which is something that looks like science without following its methods. They include vague claims that cannot be tested, a reliance on happy stories instead of data, a secret that no one is allowed to inspect, an attack on those who ask questions, and something expensive to sell. None of these signs proves that a claim is false, yet together they should make anyone check very carefully before they hand over their money.",
+      "Dev found a dramatic photograph online, supposedly taken that very morning, and he was about to send it to everyone he knew. Ines suggested that they first search for the original source and the date, because pictures can be edited, taken from an earlier event or simply described with the wrong caption. A moment's checking before sharing is one of the most useful habits of the modern age, since false stories travel quickly.",
+      "Ms Rao observed that people are most easily fooled when a claim is something that they badly want to be true or badly fear, because strong feelings push aside careful thought. She told the club to treat a surge of excitement or anger as a signal to slow down and check the facts, instead of rushing to share or believe. Scientists are human too, so they build rules and checks into their work to protect themselves from their own wishes.",
+      "When Ines and Dev disagreed about how to read their results, the argument grew a little heated, until Ms Rao reminded them that the aim was to find out what was true, not to defeat each other. Ideas can be criticised sharply, but people deserve respect, and anybody, including a teacher, may be mistaken without being foolish. A scientific community works best when it is safe to say, I think that you have made an error, and when the reply is, let us look.",
+      "One clear evening, the two friends lay on the grass and looked up at the stars, and Ines said that she liked them even more now that she knew a little about them. Learning that the light left some of them thousands of years ago does not spoil the sight, she thought, but gives it depth and a sense of scale. Understanding how something works, as the club had learned, rarely takes away its wonder and usually adds to it.",
+      "For their final project, the club asked whether listening to music helps people to remember a list of words, and they tested twenty classmates, ten in silence and ten with music playing. The silent group recalled slightly more words on average, but with so few people and so much natural variation, the difference was not large enough to be convincing. The honest conclusion, they decided, was that the result was unclear, and that they would need a larger sample and a repeat test to say more.",
+      "Dev still pulled on his lucky socks before every match, because he enjoyed the ritual and it calmed his nerves, but he no longer pretended that they were affecting the score. He had learned that it is perfectly possible to enjoy a harmless habit while being honest about what it does, and about what it does not do. The only thing he refused to do any longer was to say that the socks had won the game.",
+      "At the end of the term Ines walked up to Mr Bello's garden gate with her notebook and kindly asked him the question that had started everything, namely how he could really know that his wristband worked. She was not trying to prove him wrong, but offering to help him design a fair test, and he was curious enough to agree. Thinking like a scientist, she had discovered, is less a matter of having the answers than of learning to ask how we would know."
+    ]
+  }
+}
