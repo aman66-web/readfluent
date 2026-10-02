@@ -1719,6 +1719,42 @@
   }
  },
  {
+  "slug": "here-and-now",
+  "title": "Here and Now",
+  "author": "The Power of Now",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Elise is always thinking about tomorrow, until she misses her stop and finds a garden and an old gardener named Yusuf. Over one season of digging, breathing and noticing, she learns simple ways to come back to the present moment.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Here and Now"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "leaf",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lotus",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "choose-what-matters",
   "title": "Choose What Matters",
   "author": "The Subtle Art of Not Giving a F*ck",
@@ -2154,6 +2190,44 @@
     },
     {
      "id": "house",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "one-simple-plan-for-wealth",
+  "title": "One Simple Plan for Wealth",
+  "author": "The Simple Path to Wealth",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Marta delivers parcels, worries about money, and has no plan. Over ten years she builds one on a single page: know your numbers, keep a gap, clear debt, hold a cushion, and let one plain fund grow. Simple enough to start tonight.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "One Simple",
+    "Plan for",
+    "Wealth"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "key",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "bridge",
      "x": 160,
      "y": 38,
      "s": 0.36
