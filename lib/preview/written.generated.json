@@ -9352,6 +9352,45 @@
   }
  },
  {
+  "slug": "how-the-printing-press-changed-everything",
+  "title": "How the Printing Press Changed Everything",
+  "author": "The Gutenberg Revolution",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "In 1450 a book took months to copy and cost a fortune. Then a goldsmith in Mainz found a way to make letters that could be used again and again. Follow printing from his workshop to the screen in your hand.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "How the",
+    "Printing",
+    "Press Changed",
+    "Everything"
+   ],
+   "size": 11.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "stack",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "feather",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-descent-of-man",
   "title": "The Descent of Man",
   "author": "Charles Darwin",
