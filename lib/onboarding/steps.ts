@@ -4,19 +4,18 @@
  * Which language the app itself is in (so the rest can be read) → the welcome (a wall
  * of book covers) → Dewey says hello → Dewey says how quick it will be → Dewey celebrates and the run moves on by itself → which languages (the one you speak and the
  * one you want to learn) → how much of it you know (or a
- * five-minute test that finds out) → where they
- * heard of it → how much time a day they can give it → how
- * long that takes to reach each level → a five-screen tour → a promise → Dewey asks to be added to the home screen → Dewey shows what three months of it adds up to → sign in → what you are
- * curious about → the library being set up. Every step after the welcome can be
+ * five-minute test that finds out) → how much time a day they can give it → how
+ * long that takes to reach each level → a five-screen tour → a promise → Dewey asks to be added to the home screen → sign in → what you are
+ * curious about → where they heard of it → the library being set up. Every step after the welcome can be
  * skipped, and every one counts on the progress bar.
  *
  * Adapted from the first run of the app this one's engineering came from, with
  * its screens and its copy rewritten for reading.
  */
 export const STEP_IDS = [
-  "app", "intro", "hello", "quick", "go", "tongues", "level", "heard", "time", "path",
+  "app", "intro", "hello", "quick", "go", "tongues", "level", "time", "path",
   "journey", "levels", "words", "remember", "connect",
-  "pledge", "home", "account", "interests", "ready",
+  "pledge", "home", "account", "interests", "heard", "ready",
 ] as const;
 export type StepId = (typeof STEP_IDS)[number];
 
