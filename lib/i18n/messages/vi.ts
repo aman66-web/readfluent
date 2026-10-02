@@ -213,6 +213,7 @@ const vi: Catalog = {
   "home.carryOn": "Đọc tiếp",
   "xp.yourLevel": "Trình độ {language} của bạn",
   "xp.toGo": "Còn {xp} XP để lên {next}",
+  "xp.toEnd": "Còn {xp} XP để hoàn thành {level}",
   "xp.progress": "{into} trên {span} XP",
   "xp.top": "Bạn đã đạt cấp cao nhất",
   "xp.barLabel": "Tiến độ lên cấp tiếp theo",

@@ -227,6 +227,7 @@ const ja: Catalog = {
   "home.carryOn": "続きを読む",
   "xp.yourLevel": "あなたの{language}レベル",
   "xp.toGo": "{next} まであと {xp} XP",
+  "xp.toEnd": "{level}を終えるまであと{xp} XP",
   "xp.progress": "{into} / {span} XP",
   "xp.top": "最高レベルに到達しました",
   "xp.barLabel": "次のレベルまでの進み具合",

@@ -14,6 +14,7 @@ import { LEDGER_KEY, parseLedger, streak, totalXp } from "@/lib/xp/ledger";
 import { dayDate, useToday } from "@/lib/xp/today";
 import { Targets } from "@/components/home/Targets";
 import { FriendsCard } from "@/components/friends/FriendsCard";
+import { NewBadge } from "@/components/badges/NewBadge";
 import { LevelCard } from "./LevelCard";
 import { StudyChart } from "./StudyChart";
 
@@ -61,6 +62,7 @@ export function Dashboard() {
 
       <div className="mt-4">
         <LevelCard xp={totalXp(ledger)} learn={a.learn} />
+        <NewBadge />
         <Targets />
         <FriendsCard />
         <StudyChart ledger={ledger} goal={goal} bookName={bookName} />

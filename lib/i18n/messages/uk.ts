@@ -229,6 +229,7 @@ const uk: Catalog = {
   "home.carryOn": "Продовжити читання",
   "xp.yourLevel": "Твій рівень: {language}",
   "xp.toGo": "{xp} XP до {next}",
+  "xp.toEnd": "{xp} XP до завершення {level}",
   "xp.progress": "{into} із {span} XP",
   "xp.top": "Ти на найвищому рівні",
   "xp.barLabel": "Прогрес до наступного рівня",

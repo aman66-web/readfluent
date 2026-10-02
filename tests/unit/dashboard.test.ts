@@ -38,11 +38,15 @@ describe("the dashboard's level card", () => {
     expect(late).toContain("Next, at B2.1");
   });
 
-  it("has a top: C2 says so and has no next level", async () => {
+  it("has a top: C2 has no next level, and shows how far to its end until it is reached", async () => {
     const { LevelCard } = await import("@/components/home/LevelCard");
     const t = text(renderToStaticMarkup(createElement(LevelCard, { xp: 300_000, learn: null, startOpen: true })));
-    expect(t).toContain("reached the top level");
-    expect(t).not.toContain("to C2");
+    expect(t).toContain("XP to finish C2");
+    expect(t).not.toContain("reached the top level");
+    expect(t).not.toContain("XP to C2");
+    const done = text(renderToStaticMarkup(createElement(LevelCard, { xp: 400_000, learn: null })));
+    expect(done).toContain("reached the top level");
+    expect(done).not.toContain("to finish");
     expect(t).toContain("What you can do at C2");
     expect(t).toContain("understand virtually everything");
     expect(t).not.toContain("Next, at");

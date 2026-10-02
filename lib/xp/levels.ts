@@ -44,6 +44,9 @@ export const LEVEL_HOURS: Readonly<Record<Cefr, number>> = { A1: 0, A2: 40, B1: 
 
 const roundTo500 = (n: number) => Math.round(n / 500) * 500;
 
+/** Hours of reading in all at which C2 is finished: the top level has an end to reach too, so its bar fills as the reader nears it. */
+export const C2_END_HOURS = 700;
+
 /** XP at which each level begins. */
 export const LEVEL_FLOOR: Readonly<Record<Cefr, number>> = {
   A1: 0,
@@ -53,6 +56,9 @@ export const LEVEL_FLOOR: Readonly<Record<Cefr, number>> = {
   C1: roundTo500(LEVEL_HOURS.C1 * XP_PER_HOUR),
   C2: roundTo500(LEVEL_HOURS.C2 * XP_PER_HOUR),
 };
+
+/** XP at which C2 is finished. */
+export const C2_END = roundTo500(C2_END_HOURS * XP_PER_HOUR);
 
 /** The three bands the books are written in (SPEC.md §2). Two levels share one. */
 export const BAND_OF: Readonly<Record<Cefr, "A1A2" | "B1B2" | "C1C2">> = {
@@ -71,12 +77,12 @@ export interface LevelState {
   xp: number;
   level: Cefr;
   next: Cefr | null;
-  /** XP into this level, and the size of it; both 0 at the top. */
+  /** XP into this level, and the size of it (C2's size runs to its end). */
   into: number;
   span: number;
-  /** XP still needed for the next level; 0 at the top. */
+  /** XP still needed for the next level (for C2, to finish it); 0 once finished. */
   toGo: number;
-  /** 0–1 along this level; 1 at the top. */
+  /** 0–1 along this level; 1 only once C2 is finished. */
   fraction: number;
   /** Which third of the level they are in (1 early, 2 midway, 3 late); null at C2, which has no next level to measure against. */
   stage: Stage | null;
@@ -108,8 +114,13 @@ export function levelFromXp(xpIn: number): LevelState {
   for (let i = 0; i < CEFR.length; i++) if (xp >= LEVEL_FLOOR[CEFR[i]]) at = i;
   const level = CEFR[at];
   const next = CEFR[at + 1] ?? null;
-  if (!next) return { xp, level, next: null, into: 0, span: 0, toGo: 0, fraction: 1, stage: null, code: level };
   const floor = LEVEL_FLOOR[level];
+  if (!next) {
+    // C2 has no level after it, but it has an end: the bar shows how far through it the reader is.
+    const span = C2_END - floor;
+    const into = Math.min(span, xp - floor);
+    return { xp, level, next: null, into, span, toGo: span - into, fraction: into / span, stage: null, code: level };
+  }
   const span = LEVEL_FLOOR[next] - floor;
   const into = xp - floor;
   const stage = stageOf(into / span);

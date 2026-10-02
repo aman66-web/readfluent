@@ -4,8 +4,11 @@ import { useRouter } from "next/navigation";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { LENGTHS, LEVELS, levelById, levelForCefr, type Length, type LevelId } from "@/lib/content/limits";
 import { useT } from "@/lib/i18n/react";
+import { Paywall } from "@/components/paywall/Paywall";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
-import { CHOICE_KEY, parseChoice, saveChoice } from "@/lib/progress";
+import { canOpen } from "@/lib/plan";
+import { usePlan } from "@/lib/pro/state";
+import { CHOICE_KEY, parseChoice, readPage, saveChoice } from "@/lib/progress";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 
 const subscribeChoice = subscribeTo(CHOICE_KEY);
@@ -26,6 +29,8 @@ export function ReadPicker({ slug, lengths, children }: { slug: string; lengths:
   const router = useRouter();
   const [levelPick, setLevelPick] = useState<LevelId | null>(null);
   const [lengthPick, setLengthPick] = useState<Length | null>(null);
+  const [paywall, setPaywall] = useState(false);
+  const { plan } = usePlan();
 
   const choiceRaw = useSyncExternalStore(subscribeChoice, readChoiceRaw, serverRaw);
   const answersRaw = useSyncExternalStore(subscribeAnswers, readAnswersRaw, serverRaw);
@@ -38,9 +43,13 @@ export function ReadPicker({ slug, lengths, children }: { slug: string; lengths:
   const levelInfo = levelById(level);
   const lengthInfo = LENGTHS.find((l) => l.pages === length);
 
+  const levelSlug = LEVELS.find((l) => l.id === level)!.slug;
+  // A version already begun stays open; a longer one asks for the plan (lib/plan.ts; closed only once payments are live).
+  const locked = (n: Length) => !canOpen(n, plan, readPage(slug, levelSlug, n) !== undefined);
   const start = () => {
+    if (locked(length)) { setPaywall(true); return; }
     saveChoice(slug, level, length);
-    router.push(`/read/${slug}/${LEVELS.find((l) => l.id === level)!.slug}/${length}`);
+    router.push(`/read/${slug}/${levelSlug}/${length}`);
   };
 
   // A segmented control: a pale track with the chosen segment lit in the brand's cyan.
@@ -66,7 +75,12 @@ export function ReadPicker({ slug, lengths, children }: { slug: string; lengths:
             {lengthInfo && <p className="text-end font-semibold text-foreground/80">{t(`length.${lengthInfo.pages}.name`)} · {t(`length.${lengthInfo.pages}.time`)}</p>}
           </div>
           <div className="mt-2.5 flex gap-1 rounded-full bg-accent-bright/15 p-1" role="group">
-            {lengths.map((n) => <button key={n} type="button" aria-pressed={length === n} onClick={() => setLengthPick(n)} className={seg(length === n)}>{t("sheet.pages", { pages: n })}</button>)}
+            {lengths.map((n) => (
+              <button key={n} type="button" aria-pressed={length === n} onClick={() => setLengthPick(n)} className={`${seg(length === n)} inline-flex items-center justify-center gap-1.5`}>
+                {t("sheet.pages", { pages: n })}
+                {locked(n) ? <svg viewBox="0 0 24 24" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V8a4 4 0 0 1 8 0v3" /></svg> : null}
+              </button>
+            ))}
           </div>
         </section>
       </div>
@@ -82,6 +96,7 @@ export function ReadPicker({ slug, lengths, children }: { slug: string; lengths:
           </span>
         </button>
       </div>
+      {paywall ? <Paywall onClose={() => setPaywall(false)} /> : null}
     </>
   );
 }

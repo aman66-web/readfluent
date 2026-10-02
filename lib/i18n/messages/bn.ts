@@ -227,6 +227,7 @@ const bn: Catalog = {
   "home.carryOn": "পড়া চালিয়ে যান",
   "xp.yourLevel": "আপনার {language} স্তর",
   "xp.toGo": "{next} পর্যন্ত আরও {xp} XP",
+  "xp.toEnd": "{level} শেষ করতে {xp} XP বাকি",
   "xp.progress": "{span} XP-র মধ্যে {into}",
   "xp.top": "আপনি সর্বোচ্চ স্তরে পৌঁছে গেছেন",
   "xp.barLabel": "পরের স্তর পর্যন্ত অগ্রগতি",

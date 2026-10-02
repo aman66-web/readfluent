@@ -41,7 +41,7 @@ const GLYPHS: Record<string, string[]> = {
   // wall, which is why DotText caps what it will render.
   "A": [".###.", "#...#", "#...#", "#####", "#...#", "#...#", "#...#"],
   "B": ["####.", "#...#", "#...#", "####.", "#...#", "#...#", "####."],
-  "C": [".###.", "#...#", "#....", "#....", "#....", "#...#", ".###."],
+  "C": [".####", "#....", "#....", "#....", "#....", "#....", ".####"],
   "D": ["####.", "#...#", "#...#", "#...#", "#...#", "#...#", "####."],
   "E": ["#####", "#....", "#....", "####.", "#....", "#....", "#####"],
   "F": ["#####", "#....", "#....", "####.", "#....", "#....", "#...."],
@@ -147,8 +147,9 @@ export function DotNumber({
       aria-label={label ?? String(value)}
       style={{ overflow: "visible", display: "block" }}
     >
+      {/* The unlit lamps are smaller than the lit ones, so the open side of a C or a 2 reads as open. */}
       {dim.map((p, i) => (
-        <circle key={`d${i}`} cx={p.x} cy={p.y} r={r} fill={fieldColor} />
+        <circle key={`d${i}`} cx={p.x} cy={p.y} r={r * 0.5} fill={fieldColor} />
       ))}
       {/* One filter on the group, not one per lamp: a per-circle drop-shadow on
           a three-digit readout is 100+ filter regions and it shows on scroll.

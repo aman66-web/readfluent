@@ -41,7 +41,7 @@ export function LevelCard({ xp, learn, startOpen = false }: { xp: number; learn:
       </div>
 
       <div className="relative mt-3 flex items-end gap-3.5">
-        <div dir="ltr" className="shrink-0"><DotNumber value={s.level} cell={8} color="#67E8F9" glow={false} field fieldColor="rgba(255,255,255,.07)" label={s.level} /></div>
+        <div dir="ltr" className="shrink-0"><DotNumber value={s.level} cell={9} color="#A5F3FC" glow field fieldColor="rgba(255,255,255,.1)" label={s.level} /></div>
         {/* The level's name over the XP in all, stacked, so a long name and a long total never meet. */}
         <div className="min-w-0 pb-1">
           <p className="text-[16px] font-semibold leading-tight">{t(`levelname.${s.level}`)}</p>
@@ -60,6 +60,12 @@ export function LevelCard({ xp, learn, startOpen = false }: { xp: number; learn:
           <div className="tabular mt-2 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5 text-[13px] font-semibold">
             <span className="whitespace-nowrap text-white/90">{t("xp.progress", { into: n(s.into), span: n(s.span) })}</span>
             <span className="whitespace-nowrap">{t("xp.toGo", { xp: n(s.toGo), next: s.next })}</span>
+          </div>
+        ) : s.toGo > 0 ? (
+          // C2: no level after it, but an end to reach.
+          <div className="tabular mt-2 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5 text-[13px] font-semibold">
+            <span className="whitespace-nowrap text-white/90">{t("xp.progress", { into: n(s.into), span: n(s.span) })}</span>
+            <span className="whitespace-nowrap">{t("xp.toEnd", { xp: n(s.toGo), level: s.level })}</span>
           </div>
         ) : (
           <p className="mt-2 text-[13px] font-semibold">{t("xp.top")}</p>

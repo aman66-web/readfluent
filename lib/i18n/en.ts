@@ -235,6 +235,7 @@ export const EN = {
   "home.carryOn": "Carry on reading",
   "xp.yourLevel": "Your {language} level",
   "xp.toGo": "{xp} XP to {next}",
+  "xp.toEnd": "{xp} XP to finish {level}",
   "xp.progress": "{into} of {span} XP",
   "xp.top": "You've reached the top level",
   "xp.barLabel": "Progress to the next level",

@@ -200,6 +200,7 @@ const ar: Catalog = {
   "home.carryOn": "تابع القراءة",
   "xp.yourLevel": "مستواك في {language}",
   "xp.toGo": "{xp} XP للوصول إلى {next}",
+  "xp.toEnd": "{xp} XP لإنهاء {level}",
   "xp.progress": "{into} من {span} XP",
   "xp.top": "وصلت إلى أعلى مستوى",
   "xp.barLabel": "التقدّم نحو المستوى التالي",

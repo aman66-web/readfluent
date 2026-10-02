@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { BAND_OF, CEFR, LEVEL_FLOOR, LEVEL_HOURS, PAGES_PER_MINUTE, XP, XP_PER_HOUR, levelFromXp, stageAfter, stageCode, stageOf, startingXp, xpForFinish, xpForPage, xpPerDay } from "@/lib/xp/levels";
+import { BAND_OF, C2_END, CEFR, LEVEL_FLOOR, LEVEL_HOURS, PAGES_PER_MINUTE, XP, XP_PER_HOUR, levelFromXp, stageAfter, stageCode, stageOf, startingXp, xpForFinish, xpForPage, xpPerDay } from "@/lib/xp/levels";
 import { formatDuration, pathFrom } from "@/lib/xp/path";
 import { EMPTY_LEDGER, addSeconds, localDay, parseLedger, payFinish, payPage, series, streak, totalXp, type Ledger } from "@/lib/xp/ledger";
 
@@ -37,9 +37,15 @@ describe("levels from XP", () => {
     expect(s.fraction).toBeCloseTo(0.25);
   });
 
-  it("have a top: C2 has nothing to go and a full bar", () => {
-    const s = levelFromXp(400_000);
-    expect(s).toMatchObject({ level: "C2", next: null, toGo: 0, fraction: 1 });
+  it("have a top: C2 has an end to reach, and the bar is full only once it is reached", () => {
+    const start = levelFromXp(LEVEL_FLOOR.C2);
+    expect(start).toMatchObject({ level: "C2", next: null, into: 0, fraction: 0 });
+    expect(start.toGo).toBe(C2_END - LEVEL_FLOOR.C2);
+    const mid = levelFromXp(LEVEL_FLOOR.C2 + (C2_END - LEVEL_FLOOR.C2) / 2);
+    expect(mid.fraction).toBeCloseTo(0.5);
+    expect(mid.toGo).toBeGreaterThan(0);
+    expect(levelFromXp(C2_END)).toMatchObject({ level: "C2", toGo: 0, fraction: 1 });
+    expect(levelFromXp(C2_END + 50_000)).toMatchObject({ level: "C2", toGo: 0, fraction: 1, into: C2_END - LEVEL_FLOOR.C2 });
   });
 
   it("start a placed reader at the floor of their level, and an unplaced one at A1", () => {

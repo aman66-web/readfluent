@@ -1,6 +1,8 @@
 "use client";
 
 import { Modal } from "@/components/Modal";
+import { BadgeGrid } from "@/components/badges/BadgeGrid";
+import { Paywall } from "@/components/paywall/Paywall";
 import Link from "next/link";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { SignIn, accountAvailable } from "@/components/onboarding/SignIn";
@@ -12,6 +14,7 @@ import { useLocale, useT } from "@/lib/i18n/react";
 import { NAME_MAX, saveAnswers, toggleIn } from "@/lib/onboarding/answers";
 import { DAILY_MINUTES, DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { useAnswers } from "@/lib/onboarding/use-answers";
+import { usePlan } from "@/lib/pro/state";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { startAgain } from "@/lib/store/wipe";
 import { LEDGER_KEY, parseLedger, totalXp } from "@/lib/xp/ledger";
@@ -80,6 +83,8 @@ function Confirm({ title, body, yes, cancel, busy, error, onYes, onCancel }: {
 }
 
 export function ProfileView() {
+  const [paywall, setPaywall] = useState(false);
+  const { plan } = usePlan();
   const t = useT();
   const locale = useLocale();
   const a = useAnswers();
@@ -176,6 +181,20 @@ export function ProfileView() {
         </Row>
       </Group>
 
+      <BadgeGrid />
+
+      <Group title={t("me.premium")}>
+        <Row last>
+          <button type="button" onClick={() => setPaywall(true)} className="flex min-h-11 w-full items-center gap-3 text-start active:opacity-70">
+            <span className="min-w-0 flex-1">
+              <span className="block text-[15px] font-semibold">{t("me.premium")}{plan === "full" ? " ✓" : ""}</span>
+              <span className="mt-0.5 block text-[13px] text-muted">{t("me.premiumSub")}</span>
+            </span>
+            <Chevron />
+          </button>
+        </Row>
+      </Group>
+
       <Group title={t("me.account")}>
         {accountAvailable() && ready && (email ? (
           <Row>
@@ -209,6 +228,7 @@ export function ProfileView() {
         <Confirm title={confirm === "account" ? t("me.deleteTitle") : t("me.deleteDataTitle")} body={confirm === "account" ? t("me.deleteBody") : t("me.deleteDataBody")}
                  yes={t("me.deleteYes")} cancel={t("me.cancel")} busy={busy} error={error} onYes={() => void erase(confirm)} onCancel={() => setConfirm(null)} />
       )}
+      {paywall ? <Paywall onClose={() => setPaywall(false)} /> : null}
     </main>
   );
 }

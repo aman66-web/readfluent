@@ -227,6 +227,7 @@ const de: Catalog = {
   "home.carryOn": "Weiterlesen",
   "xp.yourLevel": "Dein {language}-Niveau",
   "xp.toGo": "{xp} XP bis {next}",
+  "xp.toEnd": "{xp} XP bis zum Abschluss von {level}",
   "xp.progress": "{into} von {span} XP",
   "xp.top": "Du hast das höchste Niveau erreicht",
   "xp.barLabel": "Fortschritt zum nächsten Niveau",

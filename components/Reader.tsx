@@ -14,7 +14,7 @@ import { useLocale, useT } from "@/lib/i18n/react";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
 import { readPage, resumeIndex, savePage, versionKey } from "@/lib/progress";
 import { READER_PREFS_KEY, TEXT_SIZES, parsePrefs } from "@/lib/reading/prefs";
-import { speak, stopSpeaking } from "@/lib/reading/speak";
+import { canSpeak, speak, stopSpeaking } from "@/lib/reading/speak";
 import { tokenize, translatedLine } from "@/lib/reading/sentences";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { SAVED_KEY, parseSaved, removeSaved, savedId, toggleSaved } from "@/lib/words/saved";
@@ -134,6 +134,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
     return () => window.clearTimeout(id);
   }, [toast]);
   useEffect(() => () => stopSpeaking(), []);
+  const [reading, setReading] = useState(false);
 
   const selPage = sel ? pages[sel.page] : undefined;
   const keys = selPage?.target?.keys ?? [];
@@ -143,6 +144,16 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
   const open = sel !== null;
   // The lines are in English until the translation pipeline gives each reader their own language.
   const lineLang = languageName("en", locale);
+
+  // The whole page read aloud with the phone's own voice; a tap again stops it.
+  const readPageAloud = () => {
+    if (reading) { stopSpeaking(); setReading(false); return; }
+    const text = pages[index]?.text;
+    if (!text) return;
+    setSel(null);
+    if (speak(text, variant.lang, slow ? 0.6 : 0.92, () => say(t("reader.noAudio")), () => setReading(false))) setReading(true);
+    else say(t("reader.noAudio"));
+  };
 
   const hear = (rate: number) => {
     if (sel && !speak(sel.word, variant.lang, rate, () => say(t("reader.noAudio")))) say(t("reader.noAudio"));
@@ -316,6 +327,14 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
                     className="flex h-8 shrink-0 items-center gap-1 rounded-full bg-accent-bright/25 ps-2 pe-2.5 text-[13px] font-bold tabular">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M12 3l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.8 6.6 19.7l1.1-6.1L3.2 9.4l6.1-.8z" /></svg>
               {Object.keys(saved).length}
+            </button>
+          )}
+          {canSpeak() && (
+            <button type="button" aria-pressed={reading} aria-label={reading ? t("reader.stopListening") : t("reader.listenPage")} onClick={readPageAloud}
+                    className={`grid size-11 shrink-0 place-items-center rounded-full ${reading ? "bg-accent-bright/25 text-foreground" : "text-muted active:bg-border/60"}`}>
+              <svg viewBox="0 0 24 24" className="size-6" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                {reading ? <rect x="7" y="7" width="10" height="10" rx="2" /> : <path d="M11 5 6 9H3v6h3l5 4zM15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" />}
+              </svg>
             </button>
           )}
           {interactive && (

@@ -200,6 +200,7 @@ const ur: Catalog = {
   "home.carryOn": "پڑھنا جاری رکھیں",
   "xp.yourLevel": "{language} میں آپ کی سطح",
   "xp.toGo": "{next} تک {xp} XP باقی",
+  "xp.toEnd": "{level} مکمل کرنے کے لیے {xp} XP باقی",
   "xp.progress": "{span} میں سے {into} XP",
   "xp.top": "آپ بلند ترین سطح پر پہنچ گئے ہیں",
   "xp.barLabel": "اگلی سطح کی طرف پیش رفت",

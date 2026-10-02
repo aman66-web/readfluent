@@ -227,6 +227,7 @@ const zh: Catalog = {
   "home.carryOn": "继续阅读",
   "xp.yourLevel": "你的{language}水平",
   "xp.toGo": "距离 {next} 还差 {xp} XP",
+  "xp.toEnd": "还差 {xp} XP 完成 {level}",
   "xp.progress": "{into} / {span} XP",
   "xp.top": "你已达到最高等级",
   "xp.barLabel": "距离下一等级的进度",

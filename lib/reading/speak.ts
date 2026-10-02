@@ -16,9 +16,9 @@ export function noVoiceFor(voices: { lang: string }[], lang: string): boolean {
 
 /**
  * Say `text` in `lang` at `rate` (1 is normal). False where the device cannot; `onFail` hears of a
- * failure that only shows once speech starts.
+ * failure that only shows once speech starts, and `onEnd` of the speech stopping for any reason.
  */
-export function speak(text: string, lang: string, rate: number, onFail?: () => void): boolean {
+export function speak(text: string, lang: string, rate: number, onFail?: () => void, onEnd?: () => void): boolean {
   if (!canSpeak()) return false;
   try {
     const synth = window.speechSynthesis;
@@ -28,7 +28,8 @@ export function speak(text: string, lang: string, rate: number, onFail?: () => v
     u.lang = lang;
     u.rate = rate;
     // Cancelling the last utterance also fires an error ("interrupted"/"canceled"); only a real one counts.
-    u.onerror = (e) => { if (e.error !== "interrupted" && e.error !== "canceled") onFail?.(); };
+    u.onerror = (e) => { if (e.error !== "interrupted" && e.error !== "canceled") onFail?.(); onEnd?.(); };
+    u.onend = () => onEnd?.();
     synth.speak(u);
     return true;
   } catch {

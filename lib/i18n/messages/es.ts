@@ -226,6 +226,7 @@ const es: Catalog = {
   "home.carryOn": "Seguir leyendo",
   "xp.yourLevel": "Tu nivel de {language}",
   "xp.toGo": "{xp} XP para llegar a {next}",
+  "xp.toEnd": "{xp} XP para terminar {level}",
   "xp.progress": "{into} de {span} XP",
   "xp.top": "Has llegado al nivel más alto",
   "xp.barLabel": "Progreso hacia el siguiente nivel",

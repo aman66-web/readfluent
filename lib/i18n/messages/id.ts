@@ -227,6 +227,7 @@ const indonesian: Catalog = {
   "home.carryOn": "Lanjut membaca",
   "xp.yourLevel": "Level {language}-mu",
   "xp.toGo": "{xp} XP lagi ke {next}",
+  "xp.toEnd": "{xp} XP lagi untuk menyelesaikan {level}",
   "xp.progress": "{into} dari {span} XP",
   "xp.top": "Kamu sudah mencapai level tertinggi",
   "xp.barLabel": "Kemajuan ke level berikutnya",

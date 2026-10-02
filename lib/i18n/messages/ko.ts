@@ -227,6 +227,7 @@ const ko: Catalog = {
   "home.carryOn": "이어서 읽기",
   "xp.yourLevel": "내 {language} 수준",
   "xp.toGo": "{next}까지 {xp} XP",
+  "xp.toEnd": "{level} 완료까지 {xp} XP",
   "xp.progress": "{into} / {span} XP",
   "xp.top": "최고 수준에 도달했어요",
   "xp.barLabel": "다음 수준까지의 진행도",

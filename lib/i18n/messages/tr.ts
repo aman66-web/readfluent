@@ -200,6 +200,7 @@ const tr: Catalog = {
   "home.carryOn": "Okumaya devam et",
   "xp.yourLevel": "{language} seviyen",
   "xp.toGo": "{next} için {xp} XP kaldı",
+  "xp.toEnd": "{level} seviyesini bitirmek için {xp} XP",
   "xp.progress": "{into} / {span} XP",
   "xp.top": "En üst seviyeye ulaştın",
   "xp.barLabel": "Sonraki seviyeye ilerleme",

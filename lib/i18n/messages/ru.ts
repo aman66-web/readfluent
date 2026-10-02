@@ -229,6 +229,7 @@ const ru: Catalog = {
   "home.carryOn": "Продолжить чтение",
   "xp.yourLevel": "Твой уровень: {language}",
   "xp.toGo": "{xp} XP до {next}",
+  "xp.toEnd": "{xp} XP до завершения {level}",
   "xp.progress": "{into} из {span} XP",
   "xp.top": "Ты на самом высоком уровне",
   "xp.barLabel": "Прогресс до следующего уровня",

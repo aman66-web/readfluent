@@ -229,6 +229,7 @@ const nl: Catalog = {
   "home.carryOn": "Verder lezen",
   "xp.yourLevel": "Jouw niveau in het {language}",
   "xp.toGo": "Nog {xp} XP tot {next}",
+  "xp.toEnd": "{xp} XP om {level} af te ronden",
   "xp.progress": "{into} van {span} XP",
   "xp.top": "Je hebt het hoogste niveau bereikt",
   "xp.barLabel": "Voortgang naar het volgende niveau",
