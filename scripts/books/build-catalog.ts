@@ -18,24 +18,40 @@ interface CoverFile { bg: string; light?: boolean; art: string[] }
 const ROOT = new URL("../../", import.meta.url);
 const read = <T,>(p: string): T => JSON.parse(readFileSync(new URL(p, ROOT), "utf8")) as T;
 
-/** The title broken into lines of about 13 letters or fewer, never splitting a word. */
+/** How wide each letter of the cover's display serif (bold) runs, in ems. Close enough to size a title so it fits. */
+const EM: Record<string, number> = {
+  a: .55, b: .6, c: .5, d: .6, e: .53, f: .38, g: .56, h: .62, i: .32, j: .32, k: .6, l: .32, m: .92, n: .63, o: .58, p: .6, q: .6, r: .45, s: .46, t: .38, u: .62, v: .54, w: .82, x: .55, y: .54, z: .5,
+  A: .78, B: .72, C: .72, D: .8, E: .68, F: .64, G: .8, H: .84, I: .4, J: .5, K: .78, L: .65, M: .98, N: .84, O: .82, P: .66, Q: .82, R: .74, S: .62, T: .68, U: .8, V: .76, W: 1.06, X: .76, Y: .72, Z: .66,
+  " ": .26, "'": .25, "’": .25, ",": .28, "-": .38, ":": .3,
+};
+/** A line's width in ems of type, with a little to spare. */
+export const emWidth = (line: string): number => [...line].reduce((w, ch) => w + (EM[ch] ?? 0.6), 0) * 1.04;
+
+/** Room for a title on the cover, in the cover's 112-unit width: 112 less the spine and the margins, and a little to spare. */
+const ROOM = 78;
+const BIGGEST = 19;
+const SMALLEST = 10.5;
+
+/** The title broken into lines that fit the cover at a good size, never splitting a word. */
 export function breakTitle(title: string, max = 13): string[] {
   const lines: string[] = [];
-  for (const word of title.split(/\s+/)) {
+  // A hyphenated word ("Gentleman-Burglar") may break after its hyphen; the pieces are glued back if they fit on one line.
+  const pieces = title.split(/\s+/).flatMap((w) => (w.includes("-") && w.length > 9 ? w.split(/(?<=-)/).map((p, i, all) => ({ p, glue: i > 0 && all.length > 1 })) : [{ p: w, glue: false }]));
+  for (const { p, glue } of pieces) {
     const last = lines[lines.length - 1];
-    if (last !== undefined && (last + " " + word).length <= max) lines[lines.length - 1] = `${last} ${word}`;
-    else lines.push(word);
+    const joined = last === undefined ? "" : glue ? `${last}${p}` : `${last} ${p}`;
+    // A line grows while it is short in letters and no wider than the room allows at a size that still reads.
+    if (last !== undefined && joined.length <= max && emWidth(joined) * 11.5 <= ROOM) lines[lines.length - 1] = joined;
+    else lines.push(p);
   }
-  // Small words ("of", "the") hang at the end of a line rather than start the next, which reads better on a cover.
   return lines;
 }
 
-/** Type size (in the cover's 112-unit width): big for a short title, smaller as its longest line grows. */
+/** Type size (in the cover's 112-unit width): as big as the widest line allows, up to a limit. */
 export function titleSize(lines: string[]): number {
-  const longest = Math.max(...lines.map((l) => l.length));
-  const fit = 168 / longest;
+  const widest = Math.max(...lines.map(emWidth));
   const shrink = lines.length > 3 ? 0.9 : 1;
-  return Math.round(Math.max(10.5, Math.min(19, fit * shrink)) * 2) / 2;
+  return Math.floor(Math.max(SMALLEST, Math.min(BIGGEST, (ROOM / widest) * shrink)) * 2) / 2;
 }
 
 const SCRIPTURE = /scripture|bible|gospel|tradition/i;
