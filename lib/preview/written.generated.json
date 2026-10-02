@@ -7621,6 +7621,42 @@
   }
  },
  {
+  "slug": "the-gold-bug",
+  "title": "The Gold-Bug",
+  "author": "Edgar Allan Poe",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A strange golden beetle, a scrap of old parchment and a message in secret signs. Clever William Legrand decodes the riddle and leads his friend into the wilds at night to dig for pirate treasure. But what will they find?",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Gold-Bug"
+   ],
+   "size": 14,
+   "author": "EDGAR ALLAN POE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "key",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-leavenworth-case",
   "title": "The Leavenworth Case",
   "author": "Anna Katharine Green",
@@ -7651,6 +7687,44 @@
     },
     {
      "id": "candle",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-last-train-to-harrow-bay",
+  "title": "The Last Train to Harrow Bay",
+  "author": "Murder on the Orient Express",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "On the last train of the winter, a rich man dies in his locked room, and everyone on board had a reason to hate him. Only a young guard and a sharp-eared old teacher notice that something is wrong. Can they solve it before the snow clears?",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "The Last",
+    "Train to",
+    "Harrow Bay"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "train",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lamp",
      "x": 160,
      "y": 38,
      "s": 0.36
