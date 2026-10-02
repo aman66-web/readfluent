@@ -2,12 +2,12 @@
 
 import { BackLink } from "@/components/BackLink";
 import { BookCover } from "@/components/BookCover";
-import { ReadSheet } from "@/components/library/ReadSheet";
-import { LEVELS, categoryById } from "@/lib/content/limits";
+import { ReadPicker } from "@/components/book/ReadPicker";
+import { categoryById } from "@/lib/content/limits";
 import { useT } from "@/lib/i18n/react";
 import { coverAuthor, lengthsOf, type PreviewBook } from "@/lib/preview/catalog";
 
-/** A book's jacket: who wrote it, what it is, and the Read button that starts the level and length choice. The book's own words stay as they are; the interface around them follows the reader's language. */
+/** A book's jacket: who wrote it, what it is, its level and length (already chosen, one tap to change) and the Read button. The book's own words stay as they are; the interface around them follows the reader's language. */
 export function BookView({ book }: { book: PreviewBook }) {
   const t = useT();
   const category = categoryById(book.category);
@@ -29,23 +29,7 @@ export function BookView({ book }: { book: PreviewBook }) {
 
       <p lang="en" dir="ltr" className="font-reading mt-6 text-[18px] leading-[1.55]">{book.blurb}</p>
 
-      <dl className="mt-6 grid grid-cols-2 gap-3 text-[13px]">
-        <div className="rounded-xl border border-border bg-surface p-3">
-          <dt className="font-semibold text-faint">{t("book.levels")}</dt>
-          <dd className="mt-0.5 font-semibold" dir="ltr">{LEVELS.map((l, i) => <span key={l.id}>{i > 0 && " · "}<span className="whitespace-nowrap">{l.label}</span></span>)}</dd>
-        </div>
-        <div className="rounded-xl border border-border bg-surface p-3">
-          <dt className="font-semibold text-faint">{t("book.lengths")}</dt>
-          <dd className="mt-0.5 font-semibold">{t("book.pages", { list: lengths.join(" · ") })}</dd>
-        </div>
-      </dl>
-
-      {lengths.length === 3 && <p className="mt-3 text-[12px] text-faint">{t("book.versions")}</p>}
-
-      {/* The way in stays on screen above the menu, wherever the page is scrolled to. */}
-      <div className="sticky bottom-[calc(env(safe-area-inset-bottom)+5.25rem)] z-30 -mx-5 mt-auto bg-gradient-to-t from-background via-background to-transparent px-5 pb-2 pt-8">
-        <ReadSheet slug={book.slug} title={book.title} lengths={lengths} />
-      </div>
+      <ReadPicker slug={book.slug} lengths={lengths} />
 
     </main>
   );

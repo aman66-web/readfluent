@@ -55,3 +55,12 @@ describe("the hand-written books", () => {
     });
   }
 });
+
+describe("the level a book opens at", () => {
+  it("follows the level picked at sign-up: A1 and A2 read at A1–A2, and so on", async () => {
+    const { levelForCefr } = await import("@/lib/content/limits");
+    expect(["A1", "A2", "B1", "B2", "C1", "C2"].map((c) => levelForCefr(c))).toEqual(["A1A2", "A1A2", "B1B2", "B1B2", "C1C2", "C1C2"]);
+    expect(levelForCefr("A1.2")).toBe("A1A2");
+    for (const none of [null, undefined, "", "Z9"]) expect(levelForCefr(none)).toBeNull();
+  });
+});

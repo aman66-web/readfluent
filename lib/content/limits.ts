@@ -45,3 +45,10 @@ export const levelBySlug = (slug: string) => LEVELS.find((l) => l.slug === slug)
 export const levelById = (id: string) => LEVELS.find((l) => l.id === id) ?? null;
 export const lengthByPages = (n: number) => LENGTHS.find((l) => l.pages === n) ?? null;
 export const categoryById = (id: string) => CATEGORIES.find((c) => c.id === id) ?? null;
+
+/** The edition that holds a level of the A1–C2 scale a reader picked at sign-up: A1 and A2 read at A1–A2, and so on. */
+export function levelForCefr(cefr: string | null | undefined): LevelId | null {
+  if (!cefr) return null;
+  const band = cefr.slice(0, 2).toUpperCase();
+  return band === "A1" || band === "A2" ? "A1A2" : band === "B1" || band === "B2" ? "B1B2" : band === "C1" || band === "C2" ? "C1C2" : null;
+}
