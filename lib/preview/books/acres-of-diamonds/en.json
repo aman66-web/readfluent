@@ -1,417 +1,1639 @@
 {
-  "slug": "acres-of-diamonds",
-  "meta": {
-    "blurb": "Ali Hafed sells his farm and sets out to find diamonds. Back home, the man who bought it leads his camel to the garden stream. Russell Conwell told this tale thousands of times, to ask where your own chances hide.",
-    "bible": "Russell H. Conwell: an American preacher, teacher and speaker who lived from the nineteenth into the twentieth century; he gave the lecture Acres of Diamonds thousands of times. He served in the Union army in the American Civil War, then worked as a lawyer and became a minister. Temple University: the school in Philadelphia that grew from his evening classes for working people. Ali Hafed: the Persian farmer in the tale, who lived near the Indus. Indus: the river near his farm. Persia: where the tale is set. Golconda: the famous diamond mine in the tale. Tigris and Euphrates: the rivers where Conwell said a guide told him the tale. Pennsylvania, California and Spain are places named in the book. Philadelphia is the city of Conwell's church and school. Voice and tone: warm, plain, practical and encouraging; the tales are told as tales (\"the story says\"); Conwell's opinions are given as his opinions; gentle modern notes where his views are disputed; no invented quotes, numbers or events."
+ "slug": "acres-of-diamonds",
+ "meta": {
+  "blurb": "Ali Hafed sells his farm and sets out to find diamonds. Back home, the man who bought it leads his camel to the garden stream. Russell Conwell told this tale thousands of times, to ask where your own chances hide.",
+  "bible": "Russell H. Conwell: an American preacher, teacher and speaker who lived from the nineteenth into the twentieth century; he gave the lecture Acres of Diamonds thousands of times. He served in the Union army in the American Civil War, then worked as a lawyer and became a minister. Temple University: the school in Philadelphia that grew from his evening classes for working people. Ali Hafed: the Persian farmer in the tale, who lived near the Indus. Indus: the river near his farm. Persia: where the tale is set. Golconda: the famous diamond mine in the tale. Tigris and Euphrates: the rivers where Conwell said a guide told him the tale. Pennsylvania, California and Spain are places named in the book. Philadelphia is the city of Conwell's church and school. Voice and tone: warm, plain, practical and encouraging; the tales are told as tales (\"the story says\"); Conwell's opinions are given as his opinions; gentle modern notes where his views are disputed; no invented quotes, numbers or events. Full-length additions. Conwell: born 15 August 1843 on a hill farm in South Worthington, Massachusetts; he went to Yale, served as an officer in the Union army in the Civil War, studied law at Albany in New York, worked as a lawyer in Minneapolis and Boston, wrote for newspapers and travelled in Europe, the Middle East and Asia; he became a Baptist minister in Lexington, Massachusetts in 1879 and moved to Grace Baptist Church in Philadelphia in 1882; he died in 1925, aged eighty-two. Baptist Temple: the very large church in Philadelphia that opened in 1891. Temple College began in 1884 as evening classes for working people and became Temple University in 1907. Samaritan Hospital: the Philadelphia hospital Conwell helped to found for the sick, including those who could not pay. Baghdad and Babylon: places Conwell said he travelled to when a guide told him the tale. Mesopotamia: the land between the Tigris and Euphrates. Persia: the old name of Iran. Indus: the great river that rises in Tibet, flows through Pakistan and reaches the Arabian Sea. The tale: a priest tells Ali Hafed that the first diamond was a drop of sunlight turned to stone and that a river running over white sand between high mountains holds diamonds; Ali Hafed sells his farm, leaves his family with a neighbour, searches from the Mountains of the Moon to Palestine and Europe, and at last ends his life at a bay near Barcelona, in Spain. The man who buys his farm sees a flash in the white sand of the garden stream when his camel drinks, and the priest later knows the stone for a diamond. The garden proves rich in diamonds; the tale calls the mine Golconda. Golconda: the real fortress and diamond region is in India near Hyderabad. Koh-i-Noor: a famous old diamond now part of the British crown jewels. Kimberley: the South African diamond field with the Big Hole, dug almost all by hand. Pennsylvania oil: oil seeped from the ground long before Edwin Drake drilled the 1859 well near Titusville; the oil farm story is Conwell's. California gold: James Marshall found gold in January 1848 in the millrace of John Sutter's mill at Coloma; the rush that followed is called the forty-niners. Inventors named as true examples: Elisha Otis (the safety lift, shown at the New York Crystal Palace in 1854), Margaret Knight (flat-bottomed paper bags, patented 1871), Josephine Cochrane (dishwasher, patented 1886), Jacob Davis and Levi Strauss (riveted work trousers, patented 1873; Strauss opened a San Francisco dry-goods business in 1853). Benjamin Franklin learned printing from his older brother. Stephen Girard's school for poor boys opened in 1848; Peter Cooper founded Cooper Union in 1859; Franklin left money in his will for loans to young tradesmen in Philadelphia and Boston. Abraham Lincoln was born in 1809 in a log cabin in Kentucky. Wilbur and Orville Wright ran a bicycle shop in Dayton, Ohio, and made the first powered flights in December 1903 in North Carolina. Gilded Age: the American years of the 1870s to 1890s when some large fortunes were made unfairly. Bible: the letter of Timothy says the love of money is a root of evil. Conwell's opinions (that it is a duty to become rich honestly, that most rich people are honest, that most poor people are poor through their own fault) are given as his opinions, with modern notes that many things besides fault cause poverty.",
+  "chapters": [
+   "A Talk Heard Thousands of Times",
+   "Soldier, Lawyer, Minister",
+   "A School Born at Night",
+   "A Guide by the River",
+   "The Contented Farmer",
+   "A Drop of Sunlight",
+   "White Sands and High Mountains",
+   "The Long Search",
+   "A Flash in the Stream",
+   "The Mine in the Garden",
+   "What the Tale Is Really About",
+   "Black Oil, Yellow Gold",
+   "Look Where You Stand",
+   "Find a Need and Fill It",
+   "Begin Small, Begin Here",
+   "A Skill Is a Diamond",
+   "Honest Riches",
+   "What Money Can Build",
+   "Greatness in Plain Places",
+   "Dig in Your Own Garden"
+  ]
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "A tall man in a dark suit speaks to a packed hall",
+   "summary": "Russell Conwell stands before a full hall and gives his famous talk, Acres of Diamonds."
   },
-  "beats": [
-    {
-      "n": 1,
-      "scene": "A tall man in a dark suit speaks to a packed hall",
-      "summary": "Russell Conwell, a preacher and teacher, gave one famous talk to crowds thousands of times."
-    },
-    {
-      "n": 2,
-      "scene": "A young soldier, a lawyer and a minister shown in three framed portraits",
-      "summary": "Conwell was a soldier, a lawyer and a minister before he became a famous speaker."
-    },
-    {
-      "n": 3,
-      "scene": "Evening students with books climb the steps of a school in Philadelphia",
-      "summary": "Money from his talks helped to build Temple University for working students."
-    },
-    {
-      "n": 4,
-      "scene": "A guide and a traveller sit by a fire beside a wide river",
-      "summary": "Conwell said a guide told him the story as they travelled along rivers of the Middle East."
-    },
-    {
-      "n": 5,
-      "scene": "A farmer looks proudly over orchards, fields and a garden stream",
-      "summary": "Ali Hafed lived near the river Indus on a large farm with fields, orchards and gardens, and he was content."
-    },
-    {
-      "n": 6,
-      "scene": "An old priest warms his hands by the fire in Ali Hafed's house",
-      "summary": "One evening a wise old priest sat by the fire and spoke to Ali Hafed about diamonds."
-    },
-    {
-      "n": 7,
-      "scene": "The priest holds up his thumb and describes a glittering stone",
-      "summary": "The priest said a diamond the size of a thumb could buy a great deal, and a handful could buy a country."
-    },
-    {
-      "n": 8,
-      "scene": "Ali Hafed leans forward, imagining his children wearing golden crowns",
-      "summary": "With a whole mine of diamonds, the priest said, Ali Hafed could place his sons on thrones."
-    },
-    {
-      "n": 9,
-      "scene": "Ali Hafed lies awake in the dark, staring at the ceiling",
-      "summary": "That night Ali Hafed felt poor, not because he had lost anything but because he wanted more."
-    },
-    {
-      "n": 10,
-      "scene": "At dawn Ali Hafed shakes the sleeping priest awake",
-      "summary": "Early next morning he woke the priest and asked where diamonds could be found."
-    },
-    {
-      "n": 11,
-      "scene": "Ali Hafed sells his farm and leaves his family with a neighbour",
-      "summary": "Ali Hafed sold his farm, left his family with a neighbour and set out to look for diamonds."
-    },
-    {
-      "n": 12,
-      "scene": "Ali Hafed walks through a rocky desert under a burning sun",
-      "summary": "He searched for years across many lands but found no diamonds."
-    },
-    {
-      "n": 13,
-      "scene": "A thin, ragged man sits by a road with an empty bag",
-      "summary": "His money ran out, and he became thin, hungry and dressed in rags."
-    },
-    {
-      "n": 14,
-      "scene": "A lonely figure stands on a seashore at the edge of a stormy sea",
-      "summary": "He came at last to the sea in Spain and died there, poor and far from home."
-    },
-    {
-      "n": 15,
-      "scene": "A new owner leads a camel into a garden toward a small stream",
-      "summary": "Meanwhile the man who bought Ali Hafed's farm led his camel to drink in the garden stream."
-    },
-    {
-      "n": 16,
-      "scene": "A flash of light glows from white sand at the bottom of a stream",
-      "summary": "He saw a flash of light in the white sand and picked up a dark stone with a bright spot in it."
-    },
-    {
-      "n": 17,
-      "scene": "The old priest points at a glowing stone on a shelf by the fireplace",
-      "summary": "The old priest returned, saw the stone on the shelf and cried out that it was a diamond."
-    },
-    {
-      "n": 18,
-      "scene": "Two men dig through white sand in a garden stream and find sparkling stones",
-      "summary": "They ran to the garden, stirred the sand and found many more stones, each more beautiful."
-    },
-    {
-      "n": 19,
-      "scene": "A great mine glitters with thousands of diamonds in the sunlight",
-      "summary": "In the tale, the garden held the famous diamond mine of Golconda, one of the richest in the world."
-    },
-    {
-      "n": 20,
-      "scene": "A garden full of glittering stones in front of a farmhouse",
-      "summary": "The lesson: had Ali Hafed stayed home and dug in his own garden, he would have had acres of diamonds."
-    },
-    {
-      "n": 21,
-      "scene": "A crowd gazes at a far horizon, ignoring a field at their feet",
-      "summary": "Conwell says many people repeat Ali Hafed's mistake, chasing riches far away while standing on them."
-    },
-    {
-      "n": 22,
-      "scene": "A farmer leaves a small farm with a bundle while a stream runs past",
-      "summary": "Conwell tells of a Pennsylvania farmer who left to look for oil elsewhere, while oil lay on his own land."
-    },
-    {
-      "n": 23,
-      "scene": "Crowds hurry west with picks and pans toward a river",
-      "summary": "In 1848 gold was found in California and thousands rushed there, though many found little."
-    },
-    {
-      "n": 24,
-      "scene": "Conwell speaks to a small-town crowd and points to a local map",
-      "summary": "It is said that Conwell studied each town before his talk, so he could name chances in the audience's own streets."
-    },
-    {
-      "n": 25,
-      "scene": "A man stands at his own front door and looks along his street",
-      "summary": "Conwell says do not wait for a better time or place: opportunity is where you stand now."
-    },
-    {
-      "n": 26,
-      "scene": "A shopkeeper listens to a customer describe what she needs",
-      "summary": "How to find the diamond: find out what people need, and then supply it."
-    },
-    {
-      "n": 27,
-      "scene": "An inventor at a workbench holds up a small new tool",
-      "summary": "Many useful things began when someone noticed a small need and solved it."
-    },
-    {
-      "n": 28,
-      "scene": "A woman starts a small business at her kitchen table",
-      "summary": "He says to start small, where you are and with what you have; a good start needs attention more than cash."
-    },
-    {
-      "n": 29,
-      "scene": "A young man reads a newspaper and studies a map of his town",
-      "summary": "Learning what people need takes attention: watch, ask and listen."
-    },
-    {
-      "n": 30,
-      "scene": "A preacher stands before a crowd with one firm hand raised",
-      "summary": "Conwell says it is right, and a duty, to get rich honestly and for a good purpose."
-    },
-    {
-      "n": 31,
-      "scene": "A stack of coins turns into a school, a hospital and a church",
-      "summary": "Money is a power that can do much good: it builds schools, churches and hospitals."
-    },
-    {
-      "n": 32,
-      "scene": "An open old book rests beside a single coin",
-      "summary": "Conwell says the Bible warns against the love of money, not against money itself."
-    },
-    {
-      "n": 33,
-      "scene": "A shopkeeper greets customers across a clean, open counter",
-      "summary": "He claims most rich people earned their money honestly, which is why people trust them; some would question this."
-    },
-    {
-      "n": 34,
-      "scene": "Customers line up at a small shop with a tidy sign",
-      "summary": "A person who is honest and serves customers well earns trust, and trust brings customers back."
-    },
-    {
-      "n": 35,
-      "scene": "A thoughtful man stands at the door of a poor home",
-      "summary": "Conwell held a hard view that most poor people were poor through their own faults; many today see more causes."
-    },
-    {
-      "n": 36,
-      "scene": "A woman hands a loaf of bread to a neighbour at a door",
-      "summary": "Still, he believed in helping people who try, and much of his own money went to students."
-    },
-    {
-      "n": 37,
-      "scene": "A quiet teacher stands in a plain classroom with a few pupils",
-      "summary": "Greatness, Conwell says, is not fame or office but doing great good in ordinary places."
-    },
-    {
-      "n": 38,
-      "scene": "A schoolteacher, a nurse and a farmer at work in a small village",
-      "summary": "Many great people come from small towns and plain homes; you need not be famous."
-    },
-    {
-      "n": 39,
-      "scene": "A person holds a glowing stone beside a hammer, a pen and a book",
-      "summary": "Your own skills, friends and surroundings are your acres of diamonds."
-    },
-    {
-      "n": 40,
-      "scene": "A craftsman practises a skill at a bench with an open book",
-      "summary": "Learning and practising a skill makes you more useful, and a useful person is always in demand."
-    },
-    {
-      "n": 41,
-      "scene": "A traveller in a green field looks at a greener field far away",
-      "summary": "Distant fields look greener; Ali Hafed's story warns against envy of faraway things."
-    },
-    {
-      "n": 42,
-      "scene": "A man digs in a garden with a spade, sweat on his face",
-      "summary": "There is no shortcut: digging takes work and patience."
-    },
-    {
-      "n": 43,
-      "scene": "A boy asks an older woman questions on a doorstep",
-      "summary": "Begin by serving the people nearest to you: family, neighbours and townspeople."
-    },
-    {
-      "n": 44,
-      "scene": "A worker keeps a notebook of ideas open by a window",
-      "summary": "The advice in three steps: find a real need, plan a way to meet it, and begin."
-    },
-    {
-      "n": 45,
-      "scene": "Students with books climb the steps of a college at dusk",
-      "summary": "Temple University grew from Conwell's evening classes and has taught many thousands of students."
-    },
-    {
-      "n": 46,
-      "scene": "A printed book lies open on a library table beside a lamp",
-      "summary": "The lecture was printed as a book and is still read today."
-    },
-    {
-      "n": 47,
-      "scene": "A person sees their own street in a new, golden light",
-      "summary": "Times have changed and chances are not equal for everyone, yet looking close to home still helps."
-    },
-    {
-      "n": 48,
-      "scene": "A hand lists four ideas in a notebook: need, honesty, skill and effort",
-      "summary": "Summary: find a need, serve it honestly, build a skill and work steadily."
-    },
-    {
-      "n": 49,
-      "scene": "A farmer walks back through his gate toward his own house, smiling",
-      "summary": "Conwell hopes those who succeed will use their money for good, and be content with a useful life."
-    },
-    {
-      "n": 50,
-      "scene": "A single diamond glitters in garden soil at sunrise",
-      "summary": "Ending: where are your own acres of diamonds? They may be very close."
-    }
-  ],
-  "levels": {
-    "A1A2": [
-      "Russell Conwell gave the same famous talk to crowds again and again.",
-      "Conwell was a soldier, then a lawyer, and then a church leader.",
-      "He used the money from his talks to start a school.",
-      "Conwell said a guide told him a story while they were travelling.",
-      "Ali Hafed had a big farm with fields, trees and gardens.",
-      "One evening a wise old priest came to visit Ali Hafed.",
-      "The priest said one big diamond could buy a whole country.",
-      "With a diamond mine, his sons could one day be kings.",
-      "That night Ali Hafed could not sleep, and he felt poor.",
-      "Early next day he asked the priest where to find diamonds.",
-      "He sold his farm and left his family with a neighbour.",
-      "He looked in many lands for years, but he found nothing.",
-      "His money was gone, and he was thin, hungry and sad.",
-      "At last he died by the sea, poor and far from home.",
-      "One day the new owner of the farm took his camel to drink.",
-      "He saw a flash of light in the white sand.",
-      "The priest saw the stone and shouted, “It is a diamond!”",
-      "They ran to the garden and found many more stones.",
-      "In the story, this was one of the richest diamond mines.",
-      "If Ali Hafed had stayed home, he would have been rich.",
-      "Conwell said many people look far away for what is near.",
-      "A farmer left his farm to look for oil far away.",
-      "When gold was found in California, many people ran there.",
-      "In each town, he learned about the people before his talk.",
-      "He said your best chance is where you stand today.",
-      "Find out what people need, and then give it to them.",
-      "Many good ideas start with a small need that someone saw.",
-      "He said you can start small, with what you have.",
-      "To learn what people need, you must watch and listen.",
-      "He said it is right to want money, if you earn it fairly.",
-      "Money can build schools and help sick people.",
-      "He said it is wrong to love money too much.",
-      "He said most rich people got their money in an honest way.",
-      "Honest people win trust, and trust brings back customers.",
-      "Conwell said most poor people had caused their own trouble.",
-      "He thought we should help people who are trying to help themselves.",
-      "He said a great person is one who helps others.",
-      "Many great people come from small towns and plain homes.",
-      "Your skills and your friends are your own diamonds.",
-      "A person who learns a skill is always useful to others.",
-      "Places far away can look better than home, but they are not.",
-      "Finding diamonds takes hard work, and it takes time.",
-      "He said to serve the people near you first.",
-      "First look for a need, then make a plan, then act.",
-      "Many thousands of people have studied at Conwell's school.",
-      "His talk was printed in a book, and people still read it.",
-      "Times have changed, but his idea is still a good one.",
-      "Find a need, be honest, learn a skill, and work hard.",
-      "He said to use what you earn to do good for others.",
-      "Your own acres of diamonds may be very close to you."
-    ],
-    "B1B2": [
-      "Russell Conwell was an American preacher and teacher who lived in the 1800s and early 1900s. He gave one famous talk, called Acres of Diamonds, to crowds thousands of times.",
-      "Before he became a famous speaker, Conwell had many different jobs. He served as a soldier in the American Civil War, worked as a lawyer, and later became a minister.",
-      "Much of the money that Conwell earned from his talks went to help students. It helped to build Temple University in Philadelphia, which began with evening classes for working people.",
-      "Conwell often began his talk with a story from a journey he made as a young man. He said that a guide told it to him as they travelled along the rivers of the Middle East.",
-      "The story begins with a farmer named Ali Hafed, who lived near the river Indus. He owned a large farm with fields, orchards and gardens, and he had a wife and children, so he felt content.",
-      "One evening a wise old priest came to Ali Hafed's house and sat by the fire. He began to talk about the wonders of the world, and then he spoke about diamonds.",
-      "The priest said that diamonds are the most precious of all stones. A single diamond the size of a man's thumb, he said, could buy a large part of the country.",
-      "The priest added that a man with a whole mine of diamonds could put his sons on thrones. Ali Hafed listened carefully, and the thought stayed in his mind.",
-      "That night Ali Hafed lay awake and felt like a poor man. He had lost nothing, but he now wanted something that he did not have.",
-      "Early the next morning Ali Hafed woke the old priest and asked him where diamonds could be found. The surprised priest answered that he should look for a river running over white sand between high mountains.",
-      "Ali Hafed sold his farm for money and left his family in the care of a neighbour. Then he set off to look for the river of white sand.",
-      "For many years Ali Hafed travelled through one country after another in his search. He searched in mountains and in valleys, yet he never found a river of white sand with diamonds in it.",
-      "After many years of travel, all of his money was gone. Ali Hafed was thin and hungry, and his clothes were worn into rags.",
-      "In the end Ali Hafed reached the sea in the country of Spain. The old tale says that his sorrow was too great, and that he died there, a poor man far from home.",
-      "Back at the old farm, the new owner of the land was caring for his animals. One morning he led his camel into the garden to drink from the little stream.",
-      "As the camel drank, the man saw a flash of light in the white sand at the bottom of the stream. He picked up a dark stone that had a bright spot of light in it.",
-      "Some time later the old priest visited the farm and saw the stone on the shelf. He stopped and cried out that it was a diamond, and he asked whether Ali Hafed had come home.",
-      "The priest did not believe him, so the two men ran out to the garden. They dug in the white sand, and there they found many more stones, each more beautiful than the first.",
-      "In the tale, the garden held the famous diamond mine of Golconda. It was said to be one of the richest diamond mines in the world.",
-      "That is the lesson Conwell wanted every listener to take home with them. If Ali Hafed had stayed at home and dug in his own garden, he would have had acres of diamonds.",
-      "Conwell said that many people do exactly what Ali Hafed did. They dream of riches in far places, while the best chances are right beside them.",
-      "Conwell tells of a farmer in Pennsylvania who left home to look for oil in another place. Later he learned that rich oil lay under the very farm that he had left.",
-      "In 1848 gold was found in California, and thousands of people rushed there to dig for it. It is often said that the people who sold tools and food to the diggers made more money than the diggers themselves.",
-      "It is said that Conwell visited each town before his talk and learned about its people and its businesses. He could then name chances that lay in the streets his listeners knew.",
-      "Conwell tells his listeners not to wait for another place or time. The best chance is in the place where you are right now, he says.",
-      "Conwell gives a simple method for finding riches close to home, and it has two steps. First find out what people need, he says, and then supply it.",
-      "Conwell says that great fortunes often begin with small needs. Someone sees a problem that other people have missed, and then finds a way to solve it.",
-      "Conwell says that a person can start small, with whatever he has. A small beginning, he says, is better than waiting for a large one that may never come.",
-      "To learn what people need, a person must watch, ask and listen. Conwell says this takes care and patience, but it costs very little money.",
-      "Conwell makes a bold claim that surprised many of his listeners. He says that it is a person's duty to get rich, as long as the money is earned honestly.",
-      "Money, says Conwell, is a kind of power, and power can be used for good. It can build schools and hospitals and pay for the work of teachers and doctors.",
-      "Conwell reminds his listeners that an old saying of the Bible warns against the love of money. It does not, he says, warn against money itself.",
-      "Conwell claims that most rich people of his time had earned their money honestly. Some people would question this, but he says it is the reason people trusted them.",
-      "A shop that is honest and serves its customers well wins their trust. Trust brings people back again and again, and that is how a business grows.",
-      "Conwell held a very hard view of why some people are poor. He thought that most poor people had caused their own troubles, but many readers today see more causes than that.",
-      "Even so, Conwell believed in kindness to people in need. He thought that the best help is the kind that lets a person stand on his own feet.",
-      "Conwell asks what really makes a person great, and his answer is not what many expect. He says that greatness is not fame or high office, but doing good in the place where you live.",
-      "Conwell points out that many great people grew up in small towns and plain homes. A person does not need a famous place or a famous name to do something important.",
-      "Conwell says that each person already owns some diamonds. Your skills, your friends, your health and your town are all part of your own treasure.",
-      "Learning a skill and practising it well makes you more useful to others. A useful person, Conwell says, will always find that people want his help.",
-      "Fields that are far away often look greener than our own. Ali Hafed's story warns us that the grass is not always better on the other side.",
-      "Conwell never says that the work of finding these diamonds is easy. Digging in your own garden still takes hard work, patience and time.",
-      "Conwell says that the best place to begin is among the people you know. Serve your family, your neighbours and your town first, and your work will grow.",
-      "The advice of the lecture can be put in three simple steps. First look for a real need, then plan a way to meet it, and then begin the work.",
-      "Conwell's evening classes for working people grew into a large university. Over the years, Temple University has taught many thousands of students.",
-      "The talk was later printed as a book and read by many people. More than a hundred years later, it is still read today.",
-      "Times have changed since Conwell spoke, and chances are not equal for everyone. Even so, his idea to look carefully at what is close to home is still useful.",
-      "The lessons of the lecture are easy to list. Find a need, deal honestly, build a skill, and work steadily until it is met.",
-      "Conwell hopes that those who succeed will use their money for good. A useful life, he says, brings a deeper happiness than the richest treasure.",
-      "So ask yourself where your own acres of diamonds might be. The answer may be in your town, your work, your skills, or even in your own back garden."
-    ],
-    "C1C2": [
-      "Russell Conwell was an American preacher, teacher and speaker who lived from the middle of the nineteenth century into the early twentieth. He gave one lecture, Acres of Diamonds, to audiences in towns and cities across the country, and he gave it, by most accounts, thousands of times. Its message was so simple that a child could repeat it, yet so stubborn that people kept coming back to hear it again.",
-      "Conwell's own life had taken many turns before the lecture made him famous in so many towns. He served as an officer in the Union army during the American Civil War, practised law for a time, and then answered a call to the ministry. Each of these paths, one may imagine, taught him a good deal about how ordinary people live and what they truly need.",
-      "Much of what Conwell earned from his lectures was spent on a cause close to his heart, the education of people who could not easily afford it. In Philadelphia, in the 1880s, he began teaching evening classes for working men and women, and from that small start grew Temple University. The man who preached about finding riches close to home had, in this way, found one himself.",
-      "Conwell liked to begin with a story that, he said, was told to him by a guide while he travelled down the Tigris and Euphrates rivers. The guide was a man who loved to talk and who seemed to have a tale for every bend of the river. Whether the story is an old legend or a clever invention, it has remained the heart of the lecture.",
-      "The story tells of a Persian farmer named Ali Hafed, who lived not far from the river Indus. His farm was large and rich, with green fields of grain, orchards heavy with fruit and gardens watered by a clear stream, and around him were his wife, his children and his friends. He was, in every sense that mattered, a wealthy and contented man, and he had never felt a need for more.",
-      "One evening a wise old priest from the East came to the farm and sat by the fire, warming his hands while Ali Hafed listened with respect. The guest spoke of many wonders, of how the world was made and how its marvels came to be, and at last he turned to the subject of diamonds. It was a subject that Ali Hafed, in his peaceful life, had hardly ever stopped to consider.",
-      "The priest explained that diamonds are the most precious of all stones, and he held up his thumb to show how small a treasure could be. A single stone of that size, he said, was worth more than a great estate, and a handful of them could purchase an entire country. His eyes shone as he spoke, as if he could already see the glittering heaps.",
-      "If a man owned a whole mine of diamonds, the priest went on, his wealth would be so great that he could place his sons upon thrones. Ali Hafed drank in every word, and the dream of crowns and palaces rose before his eyes until the quiet farm around him began to look small. The old priest said good night and went to his bed, never guessing what he had done.",
-      "That night Ali Hafed lay awake, and for the first time in his life he felt poor. He had lost nothing at all, but a discontented man is poor in his heart, and he was discontented because he did not own a mine of diamonds. All the fields, the orchards and the gardens suddenly seemed to him to be of little worth.",
-      "At dawn Ali Hafed hurried to the priest, woke him, and begged to be told where diamonds could be found. The priest, surprised and a little alarmed, asked why a man so well off should want them, and Ali Hafed replied that he wished to be rich. Then the old man gave him a clue: he must search for a river that runs over white sand, between high mountains.",
-      "Ali Hafed did not stop to think for even a day, but hurried to turn everything he owned into money. He sold the farm, left his family in the care of a neighbour, and set out with a hopeful heart in search of the river of white sand. Behind him lay a comfortable life that thousands of people in the same land would gladly have envied.",
-      "For months and then for years, Ali Hafed wandered through deserts, over mountains and across many foreign lands, always asking the same question. He climbed hills and followed countless rivers, but nowhere did he find the river of white sand that the priest had described. Each failure only made him more determined, and each journey took a little more of his strength.",
-      "After years of searching, the last of his money was spent, and the proud farmer had become a thin and hungry wanderer in torn clothes. He slept wherever he could find shelter and ate whatever others would give him, while the dream that had driven him on grew fainter each day. Somewhere far behind him lay the farm that he had once thought too small to keep.",
-      "In the end the wanderer reached the coast of Spain, where the wide sea lay before him and his hope finally gave out. The old tale says that, overcome by sorrow, he died there, a poor man who was very far from the home that he had left. Ali Hafed never found a single diamond, and he never learned what was waiting for him at the place where he began.",
-      "Meanwhile, back on the old farm, a new owner was settling into the house that Ali Hafed had sold. One morning he led his camel into the garden to drink from the little stream that ran between the trees, as the earlier owner must have done many times before. It was an ordinary moment on an ordinary day, and nothing about it suggested that a great discovery was near.",
-      "As the camel lowered its head to the water, the man noticed a sudden flash of light in the white sand at the bottom of the stream. He reached in and drew out a dark stone with a single bright spot at its heart that shone like a tiny rainbow in the sun. Pleased with its beauty, he carried it into the house and set it on the shelf above the fireplace, then thought no more about it.",
-      "Some time later the old priest came to the farm again, and the moment he entered the room his eyes fell upon the stone on the shelf. He stood still, and then he cried out that it was a diamond and asked whether Ali Hafed had returned. The new owner shook his head and explained that the stone was nothing but a pretty pebble that his camel had led him to in the garden.",
-      "The priest could scarcely believe his ears, and he hurried out to the garden with the farmer at his heels. They stirred the white sand with their hands, and one glittering stone after another appeared, each one more beautiful than the last. In a few minutes the two men had gathered more than they had ever dreamed of seeing.",
-      "In the tale, the quiet garden turned out to hold the great diamond mine of Golconda, said to be among the richest in the world. From that very spot, the story claims, came some of the finest jewels ever set in a king's crown. Ali Hafed, far from home and starving, had walked away from the greatest treasure that he would ever see.",
-      "Here is the point of the whole tale: had Ali Hafed stayed at home and dug beneath his own garden, he would have owned acres of diamonds instead of dying poor in a foreign land. He had been standing on his treasure all along, but he had been looking so hard at the horizon that he never looked at the ground. It is a story, not a history, but its meaning is as plain as day.",
-      "Conwell told his listeners that countless people repeat the mistake of Ali Hafed, dreaming of riches in distant places while the best opportunities lie beside their own doors. They envy the fortunes of strangers and overlook the fields that they walk across every day. The ground at our feet, he insisted, is almost always richer than we have the wit to see.",
-      "In another tale, Conwell speaks of a farmer in Pennsylvania who went off to look for oil in a faraway place, leaving his own farm in the hands of someone else. When he came back, he discovered that the stream on his own land was covered with oil, and that the man who had taken over the farm was growing rich. It is the same lesson in a different dress: the fortune had never left home, but the man had.",
-      "When gold was discovered in California in 1848, thousands of people left their homes and set out across the continent with picks and pans. Many of them returned poor, and it is often said that more fortunes were made by those who sold tools and food to the diggers than by the diggers themselves. Conwell's lesson fits the story well, for wealth is not always found where the crowd is running.",
-      "Conwell, it is said, would arrive in a town some time before his lecture and chat with the local shopkeepers, barbers and postmasters, so that he knew the place almost as well as they did. On the platform he could then name real opportunities in streets that his listeners walked every day. The effect was powerful, because the audience saw that the great chance was not in a distant story but in a place they knew.",
-      "Conwell urges every listener to stop dreaming of a better place or a luckier time, because the best opportunity is almost always in the place where he already stands. The past is gone, as the saying goes, and the future has not yet arrived, so the only ground that anyone can really dig is the ground under his feet. It is an old thought, but Conwell gives it a fresh and cheerful force.",
-      "How, then, is the diamond to be found, and where does a person begin the search? Conwell's answer is plain, for he says that a person should find out what the people around him need and then supply it. A business that meets a real need will never lack customers, and the person who notices the need first holds the key.",
-      "Many of the most useful things in daily life began when an ordinary person noticed a small need and set out to meet it. The inventor of a simple tool may have seen no further than the trouble in his own kitchen, and yet his idea went on to be used in thousands of homes. Conwell wanted his listeners to understand that the great opportunities are often small ones, hidden in plain sight.",
-      "A listener who feels that he has no money to begin with, Conwell says, is forgetting that a good beginning needs more attention than cash. A person can start with a small shop, a small service or a small idea, and let honest work do the growing. Waiting for a large beginning, in his view, is only another way of never beginning at all.",
-      "Learning what other people need is a skill, and it asks for careful watching, thoughtful questions and a patient ear. The merchant who knows his customers well will always see a little farther than the one who merely waits behind the counter. Conwell's whole method, in the end, is a call to pay close attention to the people around us.",
-      "At this point Conwell makes a claim that surprised some of his listeners, since he was a minister of religion. He declares that it is right, and even a duty, for a person to become rich, provided the money is earned honestly and for a good purpose. Money, in his view, is not an enemy of goodness but one of the tools that goodness needs.",
-      "Money is power, Conwell argues, and power in good hands does great good in the world. It builds schools and churches and hospitals, pays teachers, feeds the hungry and supports those who have no other support. A person who despises money, he suggests, must also despise everything that money does for others.",
-      "Some of the listeners had been taught that money is evil, and Conwell answers them with a point of careful reading. The Bible, he says, speaks of the love of money as a root of evil and does not say that money itself is wicked. It is the greed and not the gold that does the damage, and that is the point he asks them to remember.",
-      "Conwell makes a claim that is bound to start an argument: that most of the rich people of his time had earned their money honestly, and that this is why other people trusted them with it. Today, many readers would point to cases of cheating and unfair advantage and ask for more evidence. The reader may decide how far the claim is true, while keeping the underlying point that trust is earned by fair dealing.",
-      "In every honest business, trust is the real capital, since a customer will return to the shop where he has been treated fairly and avoid the one where he has been cheated. A good name takes years to build and a single dishonest act to destroy. For this reason, the honest merchant has an advantage that no clever trick can match.",
-      "Here Conwell expresses a view that many people today would find too harsh, that the poor are mostly poor through their own faults and mistakes. We now know that poverty has many causes, among them illness, accident, lack of schooling and plain bad luck, and that a person cannot always control them. A modern reader should therefore take his encouragement gladly but leave his severity behind, since the one does not need the other.",
-      "Conwell was not a cold man, however, and he believed that those who are able must assist those who are in real need. The best kind of help, he held, is the help that sets a person upon his own feet and does not leave him dependent on charity. His own life, in which so much of his earnings was devoted to students, showed that he meant what he said.",
-      "Conwell asks what truly makes a person great, and his answer would have surprised many people in his audience. It is not a high office or a famous name, he says, but the doing of useful and generous deeds, often in a very small place and with very small means. The greatest people, on this view, may be teachers, nurses and neighbours whose names will never be printed in a newspaper.",
-      "History is full of men and women who grew up in small villages and plain houses, and who nevertheless changed the world around them, Conwell reminds his audience. Their start in life was ordinary, and what made them great was the use they made of what lay within their reach. If they could do so, he concludes, then so can the listener who sits before him tonight.",
-      "Each of us, Conwell insists, already owns some acres of diamonds, though we seldom think of them in that way. Our skills, our friendships, our health, our town and our daily work are all fields in which something valuable may be found if we are willing to dig. The question is not whether the treasure exists but whether we are willing to look for it.",
-      "To dig well in one's own ground, one must have the right tools, and the best tools are knowledge and skill. A person who learns to do something well, and keeps learning, becomes more useful to others, and a useful person is never long without work. Conwell never tires of repeating that service to others is the surest root of success, in business as in life.",
-      "Distant fields always look greener than the one beneath our feet, and this is a feeling that every generation knows well. Ali Hafed's story is a warning against that restless envy, which makes us trade a known treasure for an unknown one. Before we set out for far-off places, Conwell would say, we should first dig deeply where we are.",
-      "Conwell does not promise that the digging will be easy, for even a field of diamonds must be worked with spade and sieve. There are no shortcuts, and the person who expects sudden riches will be as disappointed as Ali Hafed was. Steady effort, honest dealing and a careful eye for need will do what luck never can.",
-      "Charity, as the old saying has it, begins at home, and Conwell thinks that opportunity does too. The first people to serve are those nearest to us, such as the family, the neighbours and the townspeople whose needs we know best. If a person cannot be useful there, he warns, it is unlikely that he will be useful in a strange city.",
-      "If the lecture were reduced to a short method, it would run in three steps, of which the first is to look carefully for a real need near at hand. The second is to plan an honest and useful way of meeting that need, and the third is to start the work at once without waiting for perfect conditions. Each step is simple, and each, as Conwell would say, is within reach of anyone.",
-      "Conwell's evening classes for working people grew steadily until they became Temple University, a large school that has taught many thousands of students. It was founded on the idea that a person with ambition and a little help can always find a way to learn. It is a fine proof of what the lecture teaches, since the school was built from money earned in ordinary towns, one talk at a time.",
-      "In time the lecture was printed as a book, and it has been reprinted in many editions since. People who never heard Conwell speak have found in it the same plain encouragement that thrilled his audiences. More than a century later, its central story is still told in classrooms, in offices and at kitchen tables.",
-      "The world is very different from the one that Conwell knew, and it must be admitted that opportunities have never been equally shared among all people. Even so, his central idea survives every change, for the habit of looking closely at what lies near us is one that anyone can practise. Wherever we live, someone around us needs something that we are able to offer.",
-      "When we gather the lessons of the lecture together, they make a short and sensible list: find a real need, serve it honestly, build the skill to do it well and keep working at it steadily. None of these steps depends on luck, and none of them requires a person to leave home. Together they make a plain and honest road, which Conwell believed that any listener, however poor, could walk.",
-      "Conwell hopes that those who grow rich by this road will remember what the money is for, and will spend it on schools, hospitals and the happiness of others. A life that has been useful, he suggests, brings a deeper content than any heap of gold or jewels. Ali Hafed, with his stubborn longing for something far away, never discovered that secret.",
-      "Conwell ended his lecture with a question that every listener could take home, and the question is still open: where are your own acres of diamonds? They may lie in a skill you have not yet used, in a neighbour whose need you have not yet noticed, or in the work that lies at your own door. Dig there first, he would say, before you set out to look anywhere else."
-    ]
+  {
+   "n": 2,
+   "scene": "A calendar page, a hall door and a crowd of listeners spanning many years",
+   "summary": "He gave the same talk thousands of times over many years, by some counts more than six thousand."
+  },
+  {
+   "n": 3,
+   "scene": "A steam train crosses farmland while a man reads by the window",
+   "summary": "He travelled by train from town to town, so the talk reached farmers, clerks, teachers and shopkeepers."
+  },
+  {
+   "n": 4,
+   "scene": "A speaker's notes on a table, and a printed booklet beside them",
+   "summary": "The talk was spoken first and printed later, so a reader meets a speaker's voice on the page."
+  },
+  {
+   "n": 5,
+   "scene": "A wide green field marked into acres beside a football field",
+   "summary": "An acre is a measure of land, about the size of a football field, so acres of diamonds means treasure in plenty."
+  },
+  {
+   "n": 6,
+   "scene": "A rough diamond held up to the light between two fingers",
+   "summary": "Diamonds were the great symbol of wealth in Conwell's day, hard, rare and formed deep underground."
+  },
+  {
+   "n": 7,
+   "scene": "A paper plan with three boxes: a tale, a lesson, advice",
+   "summary": "The talk has a simple plan: a tale first, then what it means, then practical advice."
+  },
+  {
+   "n": 8,
+   "scene": "A farmer stands in his own field, looking down at the soil",
+   "summary": "Its main idea is that your best chance may lie close to home, where you already stand."
+  },
+  {
+   "n": 9,
+   "scene": "Ordinary people in work clothes sit close together in rows",
+   "summary": "It spoke to ordinary people who wanted a better life but did not know where to begin."
+  },
+  {
+   "n": 10,
+   "scene": "A door with light shining under it and a speaker's name on a plaque",
+   "summary": "Before the tale, it helps to know the man who told it."
+  },
+  {
+   "n": 11,
+   "scene": "A hill farm with stone walls and a farmhouse in autumn",
+   "summary": "Russell Conwell was born in 1843 on a farm in the hills of South Worthington, Massachusetts."
+  },
+  {
+   "n": 12,
+   "scene": "A farm boy walks to school with a book under his arm",
+   "summary": "He left the farm to study, and he went on to Yale."
+  },
+  {
+   "n": 13,
+   "scene": "A young soldier in a blue coat stands in a camp at dawn",
+   "summary": "When the American Civil War began, he joined the Union army and became an officer."
+  },
+  {
+   "n": 14,
+   "scene": "A young man in a law school classroom bends over a thick book",
+   "summary": "After the war he studied law, and he finished at the law school in Albany, New York."
+  },
+  {
+   "n": 15,
+   "scene": "A lawyer's desk in a small office with files and a lamp",
+   "summary": "He worked as a lawyer in Minneapolis and then in Boston."
+  },
+  {
+   "n": 16,
+   "scene": "A man writes in a notebook on a ship's deck near a far coast",
+   "summary": "He also wrote for newspapers and travelled in Europe, the Middle East and Asia."
+  },
+  {
+   "n": 17,
+   "scene": "A man in a plain church pulpit with a small congregation",
+   "summary": "In 1879 he became a Baptist minister in Lexington, Massachusetts."
+  },
+  {
+   "n": 18,
+   "scene": "A small brick church with a crowd waiting outside its doors",
+   "summary": "In 1882 he moved to a small church in Philadelphia, and it quickly grew crowded."
+  },
+  {
+   "n": 19,
+   "scene": "A huge new church with tall doors opens in a busy city street",
+   "summary": "A very large new church, the Baptist Temple, was built for the growing crowds."
+  },
+  {
+   "n": 20,
+   "scene": "A writer at a desk with a stack of finished books",
+   "summary": "Conwell also wrote many books, including life stories of well-known leaders."
+  },
+  {
+   "n": 21,
+   "scene": "A young man with a work cap knocks at the door of a study",
+   "summary": "In 1884 a young man asked Conwell to teach him, so that he could become a minister."
+  },
+  {
+   "n": 22,
+   "scene": "A lamp-lit room where a few working men sit with notebooks",
+   "summary": "Conwell taught him in the evenings, and soon other working people joined."
+  },
+  {
+   "n": 23,
+   "scene": "Church-hall classroom filled with evening students in work clothes",
+   "summary": "The evening classes grew, and the school was named Temple College."
+  },
+  {
+   "n": 24,
+   "scene": "A bundle of banknotes handed across a table to a school clerk",
+   "summary": "Much of the money Conwell earned from speaking went to the school."
+  },
+  {
+   "n": 25,
+   "scene": "A shopgirl and a clerk walk toward a lit school window after work",
+   "summary": "Students could work by day and study by night, so no one had to choose."
+  },
+  {
+   "n": 26,
+   "scene": "A nurse in a long apron beside a hospital bed",
+   "summary": "Conwell also helped to found a hospital in Philadelphia for people who could not pay."
+  },
+  {
+   "n": 27,
+   "scene": "A long row of graduates in caps and gowns on a wide lawn",
+   "summary": "In time the college became Temple University, with thousands of students."
+  },
+  {
+   "n": 28,
+   "scene": "A bearded man in a plain office signs a paper beside letters",
+   "summary": "Conwell led the school for the rest of his life."
+  },
+  {
+   "n": 29,
+   "scene": "A single small room and lamp, with a bigger building sketched behind",
+   "summary": "The school shows his own idea at work: see a need, start small and use what you have."
+  },
+  {
+   "n": 30,
+   "scene": "A bookmark placed in a book, a cover with a drawing of a river",
+   "summary": "Now comes the story that made the talk famous."
+  },
+  {
+   "n": 31,
+   "scene": "A wide brown river flows between dry banks under a hot sky",
+   "summary": "As a young man Conwell travelled in the Middle East, by the Tigris and Euphrates rivers."
+  },
+  {
+   "n": 32,
+   "scene": "A traveller and a guide walk beside a camel train past old ruins",
+   "summary": "He hired a guide to show him ancient cities such as Baghdad and Babylon."
+  },
+  {
+   "n": 33,
+   "scene": "A line of camels moves slowly across a dusty plain at midday",
+   "summary": "They travelled slowly across dry land, and the long days left plenty of time for stories."
+  },
+  {
+   "n": 34,
+   "scene": "An old guide with a wrapped headcloth gestures as he talks",
+   "summary": "The guide loved to talk, and he seemed to know a tale for every bend of the river."
+  },
+  {
+   "n": 35,
+   "scene": "Two men and their camels pause beside a quiet river",
+   "summary": "One day the guide offered to tell a tale about a Persian farmer who lived by the Indus."
+  },
+  {
+   "n": 36,
+   "scene": "A rolled old scroll tied with string on a low table",
+   "summary": "Nobody can say whether the tale is an old legend or a clever invention."
+  },
+  {
+   "n": 37,
+   "scene": "A map showing Persia, the Indus river and the sea beyond",
+   "summary": "Persia is the old name of the land now called Iran; the Indus is a great river farther east."
+  },
+  {
+   "n": 38,
+   "scene": "A man in a long coat stands on a farm porch, facing the sunrise",
+   "summary": "The guide called the farmer Ali Hafed, and in the tale he lived near the river Indus."
+  },
+  {
+   "n": 39,
+   "scene": "A traveller writing in a notebook by lamp light under a canvas roof",
+   "summary": "Conwell kept the tale and told it, in his own way, to crowds across America."
+  },
+  {
+   "n": 40,
+   "scene": "Two men sit by a fire at dusk; the guide raises one finger",
+   "summary": "Let us listen to the guide: a tale of a man who had everything and did not know it."
+  },
+  {
+   "n": 41,
+   "scene": "A wide farm beside a river, with fields, trees and a white house",
+   "summary": "Ali Hafed lived near the Indus on a large farm, and he was content."
+  },
+  {
+   "n": 42,
+   "scene": "Golden fields of grain wave in the wind under a clear sky",
+   "summary": "His fields of grain grew tall, and the harvests filled his barns."
+  },
+  {
+   "n": 43,
+   "scene": "Orchard trees heavy with ripe fruit and a ladder against a trunk",
+   "summary": "His orchards gave more fruit than his family could eat."
+  },
+  {
+   "n": 44,
+   "scene": "A small garden stream runs over pale sand between flower beds",
+   "summary": "A small stream ran through his garden over clean, pale sand."
+  },
+  {
+   "n": 45,
+   "scene": "A leather purse and a stack of coins on a wooden table",
+   "summary": "He had money put away and lent out at interest."
+  },
+  {
+   "n": 46,
+   "scene": "Children play by the garden stream while their mother calls them",
+   "summary": "He had a wife and children whom he loved dearly."
+  },
+  {
+   "n": 47,
+   "scene": "A farmer wakes at dawn and walks through his fields",
+   "summary": "His days followed the seasons: plough, plant, water and harvest."
+  },
+  {
+   "n": 48,
+   "scene": "A family eats supper by lamplight at a long wooden table",
+   "summary": "In the evenings the family ate together, and Ali Hafed felt himself a lucky man."
+  },
+  {
+   "n": 49,
+   "scene": "A scale balancing a small bag of coins against a happy family",
+   "summary": "Conwell's tale says he was contented because he was wealthy, and wealthy because he was contented."
+  },
+  {
+   "n": 50,
+   "scene": "A visitor's silhouette arrives at the farm gate at sunset",
+   "summary": "Then one evening a visitor arrived, and everything began to change."
+  },
+  {
+   "n": 51,
+   "scene": "An old priest in a plain robe sits by a fireside",
+   "summary": "The visitor was an old priest, a wise and learned man."
+  },
+  {
+   "n": 52,
+   "scene": "Fire light flickers on the wall as the priest speaks to the farmer",
+   "summary": "One cool evening the priest sat by the fire and told Ali Hafed how the world was made."
+  },
+  {
+   "n": 53,
+   "scene": "A glowing drop of sunlight hardens into a clear stone",
+   "summary": "The priest said the first diamond was a drop of sunlight that had turned to stone."
+  },
+  {
+   "n": 54,
+   "scene": "Layers of earth under a mountain with a glowing stone deep below",
+   "summary": "Today we know that diamonds are carbon, made far underground under great heat and pressure."
+  },
+  {
+   "n": 55,
+   "scene": "The priest holds up his thumb to show the size of a stone",
+   "summary": "He said a diamond as big as a thumb would buy many farms."
+  },
+  {
+   "n": 56,
+   "scene": "A pile of diamonds in two cupped hands",
+   "summary": "A handful of diamonds, he said, could buy a whole country."
+  },
+  {
+   "n": 57,
+   "scene": "Two boys in golden crowns sit on carved thrones",
+   "summary": "A mine of diamonds could set Ali Hafed's sons on thrones."
+  },
+  {
+   "n": 58,
+   "scene": "A man lies awake in the dark, looking at the ceiling",
+   "summary": "That night Ali Hafed went to bed poor, not because he had lost anything but because he wanted more."
+  },
+  {
+   "n": 59,
+   "scene": "A man sits up in bed at midnight, his face full of thoughts",
+   "summary": "He could not sleep, and he thought about diamonds until the sky grew pale."
+  },
+  {
+   "n": 60,
+   "scene": "A farmer shakes an old priest awake in the early dawn",
+   "summary": "At dawn he woke the priest and asked him where diamonds could be found."
+  },
+  {
+   "n": 61,
+   "scene": "A tired priest rubs his eyes and frowns at the farmer",
+   "summary": "The tired priest asked why Ali Hafed wanted diamonds so badly."
+  },
+  {
+   "n": 62,
+   "scene": "A river runs over white sand between two tall mountains",
+   "summary": "He told him to find a river that runs over white sand between high mountains."
+  },
+  {
+   "n": 63,
+   "scene": "The farmer kneels beside the priest, nodding with a bright face",
+   "summary": "Ali Hafed believed him, and he was filled with hope."
+  },
+  {
+   "n": 64,
+   "scene": "A farmer counts money into a bag while a buyer reads a paper",
+   "summary": "He sold his farm and gathered all the money that was owed to him."
+  },
+  {
+   "n": 65,
+   "scene": "A farmer's family stands with a neighbour at a garden gate",
+   "summary": "He left his wife and children in the care of a neighbour."
+  },
+  {
+   "n": 66,
+   "scene": "A lone man with a pack on his back walks down a long road",
+   "summary": "Then he set off alone to look for the river of white sand."
+  },
+  {
+   "n": 67,
+   "scene": "An old map of Africa, a mountain range marked Mountains of the Moon",
+   "summary": "His search began, in the tale, at the Mountains of the Moon, a range of legend at the source of the Nile."
+  },
+  {
+   "n": 68,
+   "scene": "A traveller on a hill looks over a harbour and old stone walls",
+   "summary": "From there he wandered on to Palestine and then through Europe."
+  },
+  {
+   "n": 69,
+   "scene": "A traveller stops at a river bank and kneels to look at its sand",
+   "summary": "At every river he stopped, looked at the sand and asked if it was white enough."
+  },
+  {
+   "n": 70,
+   "scene": "A calendar with torn pages and a thinning purse on a table",
+   "summary": "Months went by, then years, and the money in his purse grew less and less."
+  },
+  {
+   "n": 71,
+   "scene": "A man digs and sifts river sand in a pan",
+   "summary": "He sifted many riverbeds, but none held the diamonds the priest had described."
+  },
+  {
+   "n": 72,
+   "scene": "A tired traveller sleeps under open sky beside a dead fire",
+   "summary": "He slept in the open, crossed strange lands and could not speak the languages around him."
+  },
+  {
+   "n": 73,
+   "scene": "An empty purse turned upside down on the ground",
+   "summary": "At last his money was all gone."
+  },
+  {
+   "n": 74,
+   "scene": "A thin man in tattered clothes sits by a roadside with an empty bag",
+   "summary": "He became thin and hungry, dressed in rags."
+  },
+  {
+   "n": 75,
+   "scene": "A man gazes into the distance, remembering a farm and garden",
+   "summary": "He often thought of his farm, his garden and the children who played by the stream."
+  },
+  {
+   "n": 76,
+   "scene": "A man looks back along a long dusty road toward the horizon",
+   "summary": "He had promised himself to return a rich man, and he could not go home with nothing."
+  },
+  {
+   "n": 77,
+   "scene": "A bay with tall cliffs and a harbour full of ships",
+   "summary": "In the end his road led him to a bay near Barcelona, in Spain."
+  },
+  {
+   "n": 78,
+   "scene": "A ragged man stands alone on a shore as a huge wave rolls in",
+   "summary": "He stood on the shore, worn out, as a great wave rolled in from the sea."
+  },
+  {
+   "n": 79,
+   "scene": "A rough sea under a grey sky, with no one on the shore",
+   "summary": "In despair he threw himself into the tide, and he never came out alive."
+  },
+  {
+   "n": 80,
+   "scene": "An empty road leading to the horizon, with one bundle left on it",
+   "summary": "So ended the search of Ali Hafed, far from the home where his riches lay."
+  },
+  {
+   "n": 81,
+   "scene": "The same farm in morning light, with a stranger at the gate",
+   "summary": "Meanwhile the man who bought the farm had settled in, and he cared for it well."
+  },
+  {
+   "n": 82,
+   "scene": "A man leads a camel through the farm garden toward a stream",
+   "summary": "One day he led his camel to the garden stream to drink."
+  },
+  {
+   "n": 83,
+   "scene": "A camel dips its nose into shallow water over white sand",
+   "summary": "The camel put its nose into the shallow water."
+  },
+  {
+   "n": 84,
+   "scene": "A bright flash of light glints up from the sand under the water",
+   "summary": "As it lifted its head, the man saw a flash of light in the sand."
+  },
+  {
+   "n": 85,
+   "scene": "A man's wet hand holds a dark stone with a glowing spot",
+   "summary": "He picked out a dark stone with a spot of light inside it that showed every colour of the rainbow."
+  },
+  {
+   "n": 86,
+   "scene": "A stone is placed on a mantel above a fireplace beside a clock",
+   "summary": "He took it home, put it on the shelf above the fireplace and forgot about it."
+  },
+  {
+   "n": 87,
+   "scene": "The old priest walks up the farm path with his stick",
+   "summary": "A few days later the old priest came to visit the new owner."
+  },
+  {
+   "n": 88,
+   "scene": "The priest points at the glittering stone on the shelf",
+   "summary": "The priest saw the flash of light and cried out, \"Here is a diamond!\""
+  },
+  {
+   "n": 89,
+   "scene": "The priest asks and the farmer shrugs, holding out the stone",
+   "summary": "\"Has Ali Hafed come home?\" he asked, and the farmer said no, and that it was only a stone from the garden."
+  },
+  {
+   "n": 90,
+   "scene": "The priest tugs the farmer's sleeve toward the garden door",
+   "summary": "\"I know a diamond when I see one,\" said the priest, and they ran to the garden."
+  },
+  {
+   "n": 91,
+   "scene": "Two men on their knees stirring white sand with their fingers",
+   "summary": "Together they stirred the white sand with their fingers."
+  },
+  {
+   "n": 92,
+   "scene": "Sparkling stones lie in the stirred sand, one bigger than the last",
+   "summary": "They found more stones, each more beautiful and more valuable than the first."
+  },
+  {
+   "n": 93,
+   "scene": "A grand gleaming mine entrance with sacks of gems",
+   "summary": "So the guide said, the great diamond mine of Golconda was found."
+  },
+  {
+   "n": 94,
+   "scene": "A fortress on a rocky hill over a plain, with towers",
+   "summary": "The real Golconda is in India, and the tale only borrows its famous name."
+  },
+  {
+   "n": 95,
+   "scene": "A crown in a glass case, lit from above, with a large central stone",
+   "summary": "Famous old diamonds, such as the Koh-i-Noor in the British crown jewels, came from that region of India."
+  },
+  {
+   "n": 96,
+   "scene": "A huge open pit in the ground with thousands of tiny workers",
+   "summary": "The guide said this mine beat even Kimberley, a diamond field in South Africa."
+  },
+  {
+   "n": 97,
+   "scene": "A child on a river bank holds up a pretty pebble to a neighbour",
+   "summary": "The usual story says a child found a pebble that proved to be a diamond on a South African farm in 1866."
+  },
+  {
+   "n": 98,
+   "scene": "Ali Hafed's old garden with a spade left stuck in the sand",
+   "summary": "The guide's lesson: had Ali Hafed stayed home and dug in his garden, he would have had acres of diamonds."
+  },
+  {
+   "n": 99,
+   "scene": "Rich jewels in rows lit by sun through a high window",
+   "summary": "In the tale, every shovelful of that old farm held jewels that later shone in the crowns of kings."
+  },
+  {
+   "n": 100,
+   "scene": "Split scene: a lonely tent far away, a glowing garden at home",
+   "summary": "Ali Hafed starved in a strange land while the treasure lay in the stream where his children played."
+  },
+  {
+   "n": 101,
+   "scene": "Two travellers rest after the story; one is thoughtful",
+   "summary": "Conwell said that the tale stayed with him long after the journey."
+  },
+  {
+   "n": 102,
+   "scene": "A man alone in a bedroom looks out a window at a field",
+   "summary": "Ali Hafed's real trouble was not poverty but discontent; the priest's words made him feel poor."
+  },
+  {
+   "n": 103,
+   "scene": "A scale with a wish on one side and a field on the other",
+   "summary": "Wanting to grow is not wrong; Conwell's point is to look at what you have first."
+  },
+  {
+   "n": 104,
+   "scene": "A man looks over a fence at a faraway hill that glows",
+   "summary": "The trap is the idea that the good chance is always somewhere else."
+  },
+  {
+   "n": 105,
+   "scene": "A person stands knee-deep in a stream and never looks down",
+   "summary": "Ali Hafed never asked what his own land held, and nobody asked it for him."
+  },
+  {
+   "n": 106,
+   "scene": "A crowd in a hall; the speaker points straight at them",
+   "summary": "Conwell told his listeners that they were standing in the middle of their own acres of diamonds."
+  },
+  {
+   "n": 107,
+   "scene": "A paper with words: skills, friends, needs, ideas, work",
+   "summary": "The diamonds stand for chances: skills, ideas, friends, work and the needs of the neighbours around you."
+  },
+  {
+   "n": 108,
+   "scene": "Hands stirring sand with effort, sweat on a forehead",
+   "summary": "Even in the tale, the diamonds had to be found by digging in the sand."
+  },
+  {
+   "n": 109,
+   "scene": "A road sign with two arrows; the man is thinking",
+   "summary": "Sometimes moving away is the right choice, and the tale does not claim otherwise."
+  },
+  {
+   "n": 110,
+   "scene": "A magnifying glass held over a city street",
+   "summary": "The useful question is whether you have really looked carefully where you are."
+  },
+  {
+   "n": 111,
+   "scene": "A farmer stands beside a creek with a dark, shiny film on its surface",
+   "summary": "Conwell next tells of a Pennsylvania farm, and its tale began in oil."
+  },
+  {
+   "n": 112,
+   "scene": "Old settlers skim dark oil from a creek with a blanket",
+   "summary": "People in western Pennsylvania had long seen oil seep from the ground and skimmed it from creeks."
+  },
+  {
+   "n": 113,
+   "scene": "A wooden derrick stands above a well in a green valley",
+   "summary": "In 1859 Edwin Drake drilled a well near Titusville, and oil flowed from about seventy feet down."
+  },
+  {
+   "n": 114,
+   "scene": "Farmers in work clothes sell their fields while wells rise behind them",
+   "summary": "In Conwell's telling, a farmer sold his farm and went far away to hunt for oil."
+  },
+  {
+   "n": 115,
+   "scene": "A man pushes a plank across a farm stream to block the dark film",
+   "summary": "The new owner kept a board in the stream to hold back the oily scum so his cattle could drink."
+  },
+  {
+   "n": 116,
+   "scene": "A well tower and storage tank stand where the old farm was",
+   "summary": "In the story, that farm lay above one of the richest oil fields in the region."
+  },
+  {
+   "n": 117,
+   "scene": "A young carpenter peers into a mill stream and finds yellow flakes",
+   "summary": "In January 1848 a carpenter named James Marshall found gold in the millrace at Sutter's Mill, in California."
+  },
+  {
+   "n": 118,
+   "scene": "Wagons and ships crowd the road and harbour, full of hopeful people",
+   "summary": "The news raced around the world, and by about 1855 some three hundred thousand people had come to California."
+  },
+  {
+   "n": 119,
+   "scene": "A prospector washes gravel in a pan, finding almost nothing",
+   "summary": "Few of them grew rich by digging, and many went home with little."
+  },
+  {
+   "n": 120,
+   "scene": "A shopkeeper counts coins at a busy tent store in the gold fields",
+   "summary": "Shopkeepers who sold tools, food and cloth often did better than the diggers, and the first finder was already at work on the spot."
+  },
+  {
+   "n": 121,
+   "scene": "A man stands at his own front door and looks along the street",
+   "summary": "Conwell's first rule is not to wait for a better time or place."
+  },
+  {
+   "n": 122,
+   "scene": "A neighbour talks across a garden fence, with a question mark floating above",
+   "summary": "He asked his listeners what the people around them lacked."
+  },
+  {
+   "n": 123,
+   "scene": "A speaker studies a town map and shop list in a hotel room",
+   "summary": "It is said that before each talk he learned about the town, so he could name chances in its own streets."
+  },
+  {
+   "n": 124,
+   "scene": "A mill, a school and a railway station along one main street",
+   "summary": "Picture a town with a school, a mill and a station: each has needs a person could meet."
+  },
+  {
+   "n": 125,
+   "scene": "A man packs a bag and looks uneasy at his own shadow",
+   "summary": "Moving away rarely cures worry, for the same person goes along."
+  },
+  {
+   "n": 126,
+   "scene": "A local shopkeeper greets customers by name",
+   "summary": "You know your town, your neighbours and your customs, and a stranger does not."
+  },
+  {
+   "n": 127,
+   "scene": "A friendly handshake across a counter",
+   "summary": "Neighbours know your name and your character, and trust makes customers come back."
+  },
+  {
+   "n": 128,
+   "scene": "A pile of moving boxes beside a bill and a new key",
+   "summary": "Starting over in a new place costs money, and trust has to be earned again from zero."
+  },
+  {
+   "n": 129,
+   "scene": "A man holds a spade at his own door, ready to start",
+   "summary": "Conwell did not mean sit still; he meant begin today, with what is in front of you."
+  },
+  {
+   "n": 130,
+   "scene": "A notebook with five written needs of a street",
+   "summary": "Try it: write five things people in your street lack or complain about, and each is a possible start."
+  },
+  {
+   "n": 131,
+   "scene": "A shopkeeper listens to a customer and takes notes",
+   "summary": "Conwell's rule for finding the diamond is to find out what people need, and then supply it."
+  },
+  {
+   "n": 132,
+   "scene": "A coin passes from a woman's hand to a baker's hand for bread",
+   "summary": "People pay for what helps them, not for what the maker happens to like."
+  },
+  {
+   "n": 133,
+   "scene": "A man rides a lift platform high above a crowded hall",
+   "summary": "In 1854 Elisha Otis showed a safety brake for lifts at the New York Crystal Palace; it made tall buildings safer to use."
+  },
+  {
+   "n": 134,
+   "scene": "A woman sketches a flat-bottomed paper bag beside a machine",
+   "summary": "Margaret Knight worked in a paper-bag factory and invented a machine for flat-bottomed bags, patented in 1871."
+  },
+  {
+   "n": 135,
+   "scene": "A woman in a long dress stands beside a wooden dish-washing machine",
+   "summary": "Josephine Cochrane wanted to protect her good dishes, and in 1886 she patented a dishwasher."
+  },
+  {
+   "n": 136,
+   "scene": "A tailor rivets a pocket on a pair of work trousers",
+   "summary": "A tailor named Jacob Davis put rivets in work trousers, and with Levi Strauss he gained a patent in 1873."
+  },
+  {
+   "n": 137,
+   "scene": "A sewing needle, a pocket and a worried face",
+   "summary": "Each began with a real, small problem that someone else had noticed and fixed."
+  },
+  {
+   "n": 138,
+   "scene": "Three question signs: What is hard? What takes long? What is paid for?",
+   "summary": "Ask what people near you find hard, what wastes their time, and what they already pay others to do."
+  },
+  {
+   "n": 139,
+   "scene": "A tailor, a cook and a teacher at work in a busy village",
+   "summary": "Not everyone invents a machine; teaching, cooking, mending and caring also meet needs."
+  },
+  {
+   "n": 140,
+   "scene": "A neighbour hands over a bag of tools to a friend",
+   "summary": "Learning what people need takes attention: watch, ask and listen."
+  },
+  {
+   "n": 141,
+   "scene": "A small shop with a handwritten sign and a few shelves",
+   "summary": "Conwell says to start small, where you are and with what you have."
+  },
+  {
+   "n": 142,
+   "scene": "A man shows an idea to a customer rather than money",
+   "summary": "A good start needs attention more than cash."
+  },
+  {
+   "n": 143,
+   "scene": "A kitchen table covered with sewing, sales slips and a lamp",
+   "summary": "Many firms began in a kitchen, a shed or a corner of a shop."
+  },
+  {
+   "n": 144,
+   "scene": "A modest stack of goods and a small coin tray on a bench",
+   "summary": "A small start lets you learn cheaply, since early mistakes cost little."
+  },
+  {
+   "n": 145,
+   "scene": "A neighbour tells another over a fence about a good seller",
+   "summary": "Your first customers are neighbours, and they tell others."
+  },
+  {
+   "n": 146,
+   "scene": "A jar on a shelf slowly filling with coins",
+   "summary": "Put aside a little each week; a small saving is a seed."
+  },
+  {
+   "n": 147,
+   "scene": "A tall store with a shop window, with a tiny shop sketched beside it",
+   "summary": "Levi Strauss began as a dry-goods merchant in San Francisco in 1853; great firms often begin small."
+  },
+  {
+   "n": 148,
+   "scene": "Two brothers build a wooden-winged flying machine in a bicycle workshop",
+   "summary": "Wilbur and Orville Wright ran a bicycle shop in Dayton and built the first powered aeroplane with its tools and skills."
+  },
+  {
+   "n": 149,
+   "scene": "A staircase with the first step lit",
+   "summary": "When one step works, take the next; do not try to leap to the top."
+  },
+  {
+   "n": 150,
+   "scene": "A paper with three steps: need, plan, begin",
+   "summary": "The advice in three steps is to find a real need, plan a way to meet it, and begin."
+  },
+  {
+   "n": 151,
+   "scene": "A person holds a glowing stone beside a hammer, a pen and a book",
+   "summary": "Your own skills, friends and surroundings are your acres of diamonds."
+  },
+  {
+   "n": 152,
+   "scene": "A craftsman practises at a bench, a book open beside him",
+   "summary": "Learning and practising a skill makes you more useful, and a useful person is always in demand."
+  },
+  {
+   "n": 153,
+   "scene": "A crowd of evening students at a school door",
+   "summary": "This is why Conwell started evening classes: learning was a way of digging."
+  },
+  {
+   "n": 154,
+   "scene": "A boy in a print shop sets type beside his older brother",
+   "summary": "Benjamin Franklin learned the printing trade as a boy, working for his older brother."
+  },
+  {
+   "n": 155,
+   "scene": "A worker repeats a task slowly, with a calendar showing many days",
+   "summary": "A skill is built by steady practice, a little each day."
+  },
+  {
+   "n": 156,
+   "scene": "A farmer in shirt sleeves digs a field, sweat on his face",
+   "summary": "A farmer knows there is no shortcut to a good harvest; the richest ground still has to be dug."
+  },
+  {
+   "n": 157,
+   "scene": "A traveller in a green field gazes at a greener field far away",
+   "summary": "Distant fields look greener; Ali Hafed's story warns against envy of faraway things."
+  },
+  {
+   "n": 158,
+   "scene": "A boy asks an older woman questions at her doorstep",
+   "summary": "Begin by serving the people nearest to you: family, neighbours and townspeople."
+  },
+  {
+   "n": 159,
+   "scene": "A circle of friends around a table, sharing a meal and talking",
+   "summary": "Friends and neighbours are part of the treasure, so do not neglect them in your search."
+  },
+  {
+   "n": 160,
+   "scene": "A well-used toolbox open on a bench with tools in a neat row",
+   "summary": "A useful person has a kind of safety, for there is always some work for them to do."
+  },
+  {
+   "n": 161,
+   "scene": "A preacher stands before a crowd with one firm hand raised",
+   "summary": "Conwell said it is right, and even a duty, to get rich honestly and for a good purpose."
+  },
+  {
+   "n": 162,
+   "scene": "A kindly person at a church door frowns at a thin purse",
+   "summary": "He thought that many good people avoid wealth because they think wanting money is wrong."
+  },
+  {
+   "n": 163,
+   "scene": "An open old book beside a single coin on a table",
+   "summary": "He pointed out that the Bible warns against the love of money, not against money itself."
+  },
+  {
+   "n": 164,
+   "scene": "A shopkeeper greets customers across a clean, open counter",
+   "summary": "A person who is honest and serves customers well earns trust, and trust brings customers back."
+  },
+  {
+   "n": 165,
+   "scene": "A cartoon of a top hat and a fat purse with dishonest hands",
+   "summary": "In Conwell's own time, the Gilded Age, some fortunes were built by cheating, and newspapers said so."
+  },
+  {
+   "n": 166,
+   "scene": "A single stone in a hand, with a mark that cannot be erased",
+   "summary": "A good name takes years to build, and one dishonest act can spoil it in a day."
+  },
+  {
+   "n": 167,
+   "scene": "A thoughtful man stands at the door of a poor home",
+   "summary": "Conwell held a hard view that most poor people were poor through their own faults."
+  },
+  {
+   "n": 168,
+   "scene": "A factory gate, a sick bed and a school door side by side",
+   "summary": "Many today see more causes: bad luck, illness, low pay and unequal chances."
+  },
+  {
+   "n": 169,
+   "scene": "A woman hands a loaf of bread to a neighbour at a door",
+   "summary": "Still, he believed in helping people who try, and much of his own money went to students."
+  },
+  {
+   "n": 170,
+   "scene": "Two hands, one handing, one receiving, over a fence",
+   "summary": "So honest effort is good, but we should not judge the poor too quickly."
+  },
+  {
+   "n": 171,
+   "scene": "A stack of coins turns into a school, a hospital and a church",
+   "summary": "Money is a power that can do much good: it builds schools, churches and hospitals."
+  },
+  {
+   "n": 172,
+   "scene": "A grand stone building with a college name carved above its doors",
+   "summary": "Stephen Girard, a Philadelphia banker, left money for a school for poor boys that opened in 1848."
+  },
+  {
+   "n": 173,
+   "scene": "A bronze statue of a seated man outside a building of evening classes",
+   "summary": "Peter Cooper, a New York businessman, founded Cooper Union in 1859 for free education."
+  },
+  {
+   "n": 174,
+   "scene": "Two old letters with seals and a purse of coins on a desk",
+   "summary": "Benjamin Franklin left money in his will to lend to young tradesmen in Philadelphia and Boston."
+  },
+  {
+   "n": 175,
+   "scene": "A well-dressed couple hand an envelope to a clerk at a school",
+   "summary": "Conwell asked those who grow rich to give wisely, not just to keep."
+  },
+  {
+   "n": 176,
+   "scene": "A teen shows a small child how to read a letter",
+   "summary": "You do not need to be rich to give: time, skill and care are gifts too."
+  },
+  {
+   "n": 177,
+   "scene": "A man bent over a heap of coins with a dark shadow behind him",
+   "summary": "The danger is when money becomes the master instead of the tool."
+  },
+  {
+   "n": 178,
+   "scene": "A wide field, a family and a pair of hands full of fruit",
+   "summary": "Ali Hafed already had enough, and knowing what is enough is a kind of wealth."
+  },
+  {
+   "n": 179,
+   "scene": "Five items in a row: health, family, friends, work, a good name",
+   "summary": "Wealth is not only money: health, family, friends and good work count too."
+  },
+  {
+   "n": 180,
+   "scene": "A single clear stone on a family table, the family smiling around it",
+   "summary": "Ali Hafed had all of these at the start of the tale, and left them for a dream."
+  },
+  {
+   "n": 181,
+   "scene": "A quiet teacher stands in a plain classroom with a few pupils",
+   "summary": "Greatness, Conwell says, is not fame or office but doing great good in ordinary places."
+  },
+  {
+   "n": 182,
+   "scene": "A teacher helps a girl read her first sentence",
+   "summary": "A good teacher in a small school can change many lives, and rarely gets a statue."
+  },
+  {
+   "n": 183,
+   "scene": "A log cabin in a green field with a boy reading by the fire",
+   "summary": "Abraham Lincoln was born in a log cabin in Kentucky in 1809 and had very little schooling."
+  },
+  {
+   "n": 184,
+   "scene": "A boy on a hill farm looks toward a faraway town",
+   "summary": "Conwell himself was a hill-farm boy from a small town in Massachusetts."
+  },
+  {
+   "n": 185,
+   "scene": "A schoolteacher, a nurse and a farmer at work in a small village",
+   "summary": "Many great people come from small towns and plain homes; you need not be famous."
+  },
+  {
+   "n": 186,
+   "scene": "A name carved on a wooden gate that nobody notices",
+   "summary": "Every famous person was once a neighbour whom few people knew."
+  },
+  {
+   "n": 187,
+   "scene": "A shop sign, a handshake and a kept promise",
+   "summary": "You can be great in small things: a kind act, a fair price, a promise kept."
+  },
+  {
+   "n": 188,
+   "scene": "A busy town square with a woman who is greeted by name",
+   "summary": "A person who serves a community becomes known for it, and often trusted with more."
+  },
+  {
+   "n": 189,
+   "scene": "A golden throne in the dust and a simple chair by a window",
+   "summary": "Fame fades, and Ali Hafed longed for thrones, but a useful life lasts."
+  },
+  {
+   "n": 190,
+   "scene": "A person at a window looks out at a quiet street at dawn",
+   "summary": "Greatness is open to everyone listening, and it can start today."
+  },
+  {
+   "n": 191,
+   "scene": "A printed book lies open on a library table beside a lamp",
+   "summary": "The lecture belongs to its time; a modern reader should enjoy its wisdom and weigh its opinions with care."
+  },
+  {
+   "n": 192,
+   "scene": "A crowd of people from many backgrounds in front of a closed gate",
+   "summary": "Times have changed, and chances were never equal; many faced barriers that Conwell hardly mentioned."
+  },
+  {
+   "n": 193,
+   "scene": "A crowd of people raise a new school building together",
+   "summary": "Where barriers are real, people have worked together to change them, with schools, unions and votes."
+  },
+  {
+   "n": 194,
+   "scene": "A hand lists four ideas in a notebook: need, honesty, skill, effort",
+   "summary": "Summary: find a need, serve it honestly, build a skill and work steadily."
+  },
+  {
+   "n": 195,
+   "scene": "A farmer walks back through his gate toward his own house, smiling",
+   "summary": "Conwell hopes those who succeed will use their money for good, and be content with a useful life."
+  },
+  {
+   "n": 196,
+   "scene": "Ali Hafed's empty road and the neighbour's lit garden gate",
+   "summary": "Ali Hafed is not a villain, only a man who looked past what he had."
+  },
+  {
+   "n": 197,
+   "scene": "A woman reads the tale aloud to a group of children and workers",
+   "summary": "The tale of Ali Hafed has been retold in many books, sermons and speeches."
+  },
+  {
+   "n": 198,
+   "scene": "A person sees their own street in a new, golden light",
+   "summary": "When you close the book, look at your own street, as a stranger would, and see what it holds."
+  },
+  {
+   "n": 199,
+   "scene": "A notebook with three lists: skills, people, needs",
+   "summary": "Try writing three lists: your skills, the people you know and the needs near you."
+  },
+  {
+   "n": 200,
+   "scene": "A single diamond glitters in garden soil at sunrise",
+   "summary": "Ending: where are your own acres of diamonds? They may be very close."
   }
+ ],
+ "levels": {
+  "A1A2": [
+   "Russell Conwell stands before a big crowd and starts his famous talk.",
+   "Conwell gave this same talk thousands of times, in many different towns.",
+   "He travelled by train to reach people in towns and villages.",
+   "The talk was spoken first and printed in a book later.",
+   "An acre is a piece of land about as big as a football field.",
+   "Diamonds are hard, rare and costly, so people see them as treasure.",
+   "The talk has a plan: first a tale, then a lesson, then advice.",
+   "His main idea is that your best chance may be close to home.",
+   "The talk was for ordinary people who wanted a better life.",
+   "Before we hear the tale, let us meet the man who told it.",
+   "Conwell was born in 1843 on a farm in the hills.",
+   "He left the farm to study, and later he went to Yale.",
+   "When the Civil War began, he left college to join the army.",
+   "After the war he studied law in the city of Albany.",
+   "He worked as a lawyer, first in Minneapolis and then in Boston.",
+   "He also wrote for newspapers and travelled to far countries.",
+   "In 1879 he became a church minister in a small town.",
+   "In 1882 he moved to a small church in Philadelphia.",
+   "A very large new church, the Baptist Temple, was built for the crowds.",
+   "Conwell also wrote many books during his long and busy life.",
+   "In 1884 a young man asked Conwell to teach him at night.",
+   "Soon other working men and women came to learn too.",
+   "The classes grew, and the school was named Temple College.",
+   "Much of the money he earned from speaking went to the school.",
+   "Students could work by day and study at night.",
+   "Conwell also helped start a hospital for people who could not pay.",
+   "In time the school became Temple University, with thousands of students.",
+   "Conwell led the school for the rest of his long life.",
+   "The school shows his idea at work: see a need, start small.",
+   "Now comes the story that made the talk so famous.",
+   "As a young man Conwell travelled beside two great rivers.",
+   "In Baghdad he hired a guide to show him old ruins.",
+   "They moved slowly across the dry land, and the days were long.",
+   "The guide loved to talk, and he knew many tales.",
+   "One day the guide offered to tell him a special story.",
+   "Nobody can say if the tale is very old or quite new.",
+   "Persia is the old name for the country now called Iran.",
+   "In the guide's tale the farmer was a man named Ali Hafed.",
+   "Conwell never forgot the tale, and later he told it to crowds.",
+   "Let us listen to the tale of a man who had everything.",
+   "Ali Hafed lived near the Indus on a large farm.",
+   "His fields of grain grew tall in the summer sun.",
+   "His orchards gave more fruit than his family could eat.",
+   "A small stream ran through his garden over clean, pale sand.",
+   "He also had money put away, and it earned him interest.",
+   "He had a wife and children whom he loved dearly.",
+   "His days followed the seasons: dig, plant, water and harvest.",
+   "In the evenings the family ate together, and Ali Hafed was happy.",
+   "He was content because he was rich, and rich because content.",
+   "Then one evening a visitor came, and everything began to change.",
+   "The visitor was an old priest, wise and kind.",
+   "One cool evening the priest sat by the fire and spoke.",
+   "The priest said the first diamond was a drop of sunlight.",
+   "Today we know that diamonds are made of carbon.",
+   "He said a diamond as big as a thumb would buy many farms.",
+   "A handful of diamonds, the priest said, could buy a whole country.",
+   "With a whole mine, Ali Hafed could put his sons on thrones.",
+   "That night Ali Hafed felt poor, though he had lost nothing.",
+   "He could not sleep, and he thought about diamonds all night.",
+   "At dawn he woke the priest and asked where diamonds were.",
+   "The tired priest asked why he wanted diamonds so badly.",
+   "The priest told him to find a river with white sand.",
+   "Ali Hafed believed every word, and his heart was full of hope.",
+   "He sold his farm and collected all the money he was owed.",
+   "He left his wife and children with a good neighbour.",
+   "Then he set off alone to look for the river of white sand.",
+   "In the tale, his search began at the Mountains of the Moon.",
+   "From there he walked on to Palestine and then to Europe.",
+   "At every river he stopped and looked closely at the sand.",
+   "Months and years passed, and his purse grew lighter and lighter.",
+   "He looked in many rivers, but he found no diamonds.",
+   "He slept outside and crossed many lands where he knew no one.",
+   "At last the money was all gone, and he had nothing left.",
+   "He became thin and hungry, and his clothes were rags.",
+   "He often thought about his farm and the garden stream.",
+   "He could not go home with empty hands, so he walked on.",
+   "At last his road led him to the sea, in Spain.",
+   "He stood on the shore, tired, as a great wave came.",
+   "In despair he gave himself to the tide and was lost.",
+   "So ended the search of Ali Hafed, far from the home he left.",
+   "Back at the farm, the new owner took good care of the land.",
+   "One day the new owner led his camel to the garden stream.",
+   "The camel put its nose into the shallow water.",
+   "As it lifted its head, he saw a flash in the sand.",
+   "He picked up a dark stone with a bright spot of light.",
+   "He took it home, put it on a shelf and forgot it.",
+   "A few days later the old priest came to visit him.",
+   "The priest saw the shining stone and shouted that it was a diamond.",
+   "He asked if Ali Hafed had come home, and the answer was no.",
+   "“I know a diamond when I see one,” said the priest.",
+   "Together they stirred the white sand with their fingers.",
+   "They found more stones, each more beautiful than the first.",
+   "According to the guide, this is how Golconda was found.",
+   "The real Golconda is in India, and the tale only borrows its name.",
+   "Some very famous diamonds came from that part of the world.",
+   "Kimberley, in South Africa, was another great diamond field.",
+   "In 1866 a boy found a pretty stone, and it was a diamond.",
+   "The guide said Ali Hafed should have stayed home and dug.",
+   "Every spade of earth on that old farm held jewels fit for kings.",
+   "Ali Hafed went hungry and cold in a strange land far away.",
+   "Conwell said the tale stayed with him long after the trip.",
+   "Ali Hafed's real trouble was not poverty but discontent.",
+   "Wanting a better life is good, but look at what you have first.",
+   "The trap is to think that good chances are always far away.",
+   "Ali Hafed never asked what treasures his own land held.",
+   "Conwell told his listeners they were standing in acres of diamonds.",
+   "The diamonds stand for chances: skills, ideas, friends and work.",
+   "Even in the tale, the diamonds had to be found by stirring the sand.",
+   "Sometimes moving away is the right choice for a person.",
+   "The useful question is whether you have really looked around you.",
+   "Conwell next tells of a farm in Pennsylvania, far from Persia.",
+   "In western Pennsylvania, oil sometimes came up out of the ground.",
+   "In 1859 Edwin Drake drilled a well near Titusville.",
+   "In the story, a farmer sold his farm to look for oil.",
+   "The new owner saw a dark film on the stream.",
+   "Under that farm lay one of the richest oil fields around.",
+   "In 1848 a carpenter found gold in a mill stream in California.",
+   "News of the gold spread, and thousands rushed to California.",
+   "Few people grew rich by digging, and many went home poor.",
+   "Shopkeepers who sold tools and food often did better than miners.",
+   "Conwell says do not wait for a better time or place.",
+   "He asked listeners what the people around them lacked.",
+   "It is said he studied each town before he spoke there.",
+   "A town with a station needs people to carry goods.",
+   "Moving away does not cure worry, for you take yourself along.",
+   "You know your town and your neighbours, and a stranger does not.",
+   "Your neighbours know you, and they will trust you more.",
+   "Starting again in a new place costs money and time.",
+   "Conwell did not mean sit still; he meant start today.",
+   "Try it: write down five things your neighbours lack.",
+   "To find the diamond, find what people need and supply it.",
+   "People pay for what helps them, not for what you like.",
+   "In 1854 Elisha Otis showed a safety brake for lifts.",
+   "Margaret Knight invented a machine that made flat paper bags.",
+   "Josephine Cochrane built a machine to wash dishes in 1886.",
+   "A tailor put metal studs in work trousers, and they sold well.",
+   "Each of them began with one small, real problem.",
+   "Ask what is hard, what takes too long, and what people pay for.",
+   "Not everyone invents a machine; many people simply serve others.",
+   "Learning what people need takes patience and careful attention.",
+   "Conwell says to start small, where you are, with what you have.",
+   "A good start needs more attention than money.",
+   "Many firms began in a kitchen, a shed or a shop corner.",
+   "A small start lets you learn, and mistakes cost little.",
+   "Your first customers are neighbours, and they tell others.",
+   "Put aside a little each week, and it will grow.",
+   "Levi Strauss began with a small shop that sold cloth and clothes.",
+   "The Wright brothers began in a small bicycle shop.",
+   "When one small step works, you can take the next one.",
+   "The advice in three steps: find a need, plan, and begin.",
+   "Your own skills and friends are your acres of diamonds.",
+   "Learning a skill makes you more useful to other people.",
+   "Conwell started evening classes so that working people could learn.",
+   "Benjamin Franklin learned the printing trade as a boy.",
+   "A skill is built by steady practice, a little each day.",
+   "A farmer knows there is no shortcut to a good harvest.",
+   "Distant fields look greener, but they may not be.",
+   "Begin by serving the people nearest to you.",
+   "Friends and neighbours are part of the treasure too.",
+   "A useful person always has work to do.",
+   "Conwell said it is right to get rich in an honest way.",
+   "Many good people think that wanting money is wrong.",
+   "The Bible warns against the love of money, not money itself.",
+   "An honest seller who serves customers well earns their trust.",
+   "Not every fortune in Conwell's time was earned honestly.",
+   "A good name takes many years to build, but is lost fast.",
+   "Conwell held that most poor people were poor through their own fault.",
+   "Many people today see more causes of poverty than that.",
+   "Still, he believed in helping people who work to improve.",
+   "Honest effort is good, but do not judge the poor too fast.",
+   "Money is a power that can do much good.",
+   "Stephen Girard left money for a school for poor boys.",
+   "Peter Cooper started a college for working people in New York.",
+   "Benjamin Franklin left money to lend to young craftsmen.",
+   "Conwell asked the rich to give wisely, not just to keep.",
+   "You do not need to be rich to give something.",
+   "The danger is when money becomes the master, not the tool.",
+   "Ali Hafed already had enough, though he did not see it.",
+   "Wealth is also health, family, friends and good work.",
+   "Ali Hafed had all of these, and left them for a dream.",
+   "Greatness is doing great good, even in ordinary places.",
+   "A teacher in a small school can change many lives.",
+   "Abraham Lincoln was born in a log cabin in Kentucky.",
+   "Conwell himself was a boy from a hill farm.",
+   "Many great people come from small towns and plain homes.",
+   "Every famous person was once an unknown neighbour.",
+   "You can be great in small things, like a kept promise.",
+   "A person who serves others in town becomes known and trusted.",
+   "Fame soon fades, but a useful life is long remembered.",
+   "Greatness is open to everyone, and it can start today.",
+   "The lecture is a product of its time, so read it with care.",
+   "Times have changed, and chances were never equal for all.",
+   "Where barriers are real, people can work together to change them.",
+   "Summary: find a need, serve it honestly, build a skill, work steadily.",
+   "Conwell hopes that those who do well will use money for good.",
+   "Ali Hafed was not a bad man, only a man who looked away.",
+   "The tale of Ali Hafed has been told in many places.",
+   "Look at your own street as if you were a stranger.",
+   "Write three lists: your skills, your friends and local needs.",
+   "Your own acres of diamonds may be very close to you."
+  ],
+  "B1B2": [
+   "A tall man in a dark suit walks onto a stage in front of a full hall. His name is Russell Conwell, and he is about to give the talk that made him famous.",
+   "Conwell gave the talk again and again for many years. By most counts he gave it thousands of times, and some people say more than six thousand.",
+   "Conwell travelled by train from town to town, carrying his talk with him. In this way it reached farmers, clerks, teachers and shopkeepers who would never have visited a big city.",
+   "Acres of Diamonds began as a spoken lecture, not as a written book. It was printed later, so when you read it you are hearing a speaker's voice.",
+   "An acre is a measure of land, about as big as a football field. So acres of diamonds means a treasure so large that it covers the ground.",
+   "In Conwell's day a diamond was the great symbol of wealth. It is the hardest natural material, it is rare, and it forms deep under the ground.",
+   "The talk follows a very simple plan, in three parts. It begins with a tale, then explains what the tale means, and finishes with practical advice.",
+   "His main idea is easy to say, though hard to live by. Your best chance in life may lie close to home, where you already stand.",
+   "The talk was meant for ordinary people who wanted a better life but did not know where to begin. It offered them a new way of looking at their own town.",
+   "Before we hear the tale, it helps to know the man who told it. His own life, like a good story, had many surprising turns.",
+   "Russell Conwell was born in 1843 on a hill farm in western Massachusetts. The nearest village was South Worthington, a small place among the hills.",
+   "As a boy Conwell wanted to learn more than the farm could teach him. He went away to school, and then he entered Yale College.",
+   "When the American Civil War began, Conwell left his studies and joined the Union army. He rose to become an officer and led a company of soldiers.",
+   "After the war ended, Conwell turned to the law. He studied at a law school in Albany, New York, and finished his course there.",
+   "He began work as a lawyer in Minneapolis, which was then a young city in the Midwest. Later he returned to the east and practised law in Boston.",
+   "Conwell also worked as a writer for several newspapers of his time. His work took him to Europe, the Middle East and Asia, where he saw how other people lived.",
+   "In 1879 Conwell became a Baptist minister after years of other work. His first church was in Lexington, Massachusetts, a small town near Boston.",
+   "In 1882 Conwell moved to a small church in Philadelphia. It was called Grace Baptist Church, and it soon grew crowded.",
+   "To hold the crowds, a very large new church was built in Philadelphia. It was called the Baptist Temple, and it opened in 1891.",
+   "Besides preaching and teaching, Conwell found time to write many books. Among them were life stories of well-known leaders of his time.",
+   "One evening in 1884 a young man came to Conwell with a request. He wanted to become a minister, and he asked Conwell to teach him.",
+   "Conwell taught him in the evenings, and soon others asked to join. They were young people who worked all day and could only study at night.",
+   "The evening classes grew larger each year, and the school was given a name. It was called Temple College, after the church where it began.",
+   "Conwell gave much of the money he earned from his lectures to the school. In this way the talk about diamonds helped to pay for something real.",
+   "Students could work all day and study in the evening, so no one had to choose between earning a living and learning. For many of them this opened a door that would otherwise have stayed shut.",
+   "Conwell also helped to start a hospital in Philadelphia, called the Samaritan Hospital. It was founded to care for sick people, including those who could not pay.",
+   "In 1907 the college became Temple University, with the right to give degrees. Over the years it grew to teach many thousands of students.",
+   "Conwell led the school for the rest of his long life. He died in 1925, in Philadelphia, at the age of eighty-two.",
+   "The school shows his own advice being put to work. He saw a need, he started small, and he used what he already had.",
+   "Now it is time for the story that made the talk famous. It begins far from Philadelphia, beside a great river in the Middle East.",
+   "As a young man, Conwell travelled through the lands of the Middle East. His journey took him along the Tigris and Euphrates, two great rivers in what is now Iraq.",
+   "At Baghdad, Conwell hired a guide to take him to the ruins of ancient cities such as Babylon. The guide knew the roads, the ruins and the old stories of the land.",
+   "They travelled slowly across dry, dusty land, with camels carrying the baggage. The days were long, and there was plenty of time for stories.",
+   "The guide was a man who loved to talk about the places they passed. He seemed to know a tale for every bend of the river.",
+   "One day the guide offered to tell Conwell a very special tale. It was about a Persian farmer who lived beside the river Indus.",
+   "Nobody can say whether the tale is an ancient legend or a clever invention. Folk tales travel by word of mouth, and each storyteller adds a little.",
+   "Persia is the old name of the country that is now called Iran. The Indus is a great river that begins in the mountains of Tibet and flows through Pakistan to the sea.",
+   "In the guide's tale, the farmer was a man named Ali Hafed. He lived on the banks of the Indus, a long way from the place where Conwell listened.",
+   "Conwell never forgot the guide's tale, and he kept it in his memory for years. Later he told it in his own words to crowds all over America.",
+   "So let us pause beside the river at dusk and listen to the guide. It is a tale about a man who had everything and did not know it.",
+   "Ali Hafed lived on a large farm beside the river Indus. He had everything a farmer could want, and he was content.",
+   "Ali Hafed's fields of grain grew tall in the sun. Every harvest filled his barns, and there was always some left over.",
+   "His orchards were full of trees that gave fruit every year. In the season there was more than his family could eat.",
+   "Near the house was a garden, and a small stream flowed through it. The water ran clear and shallow over clean, pale sand.",
+   "Ali Hafed also had money saved, and he had lent some of it out at interest. He was a careful man who looked after his affairs.",
+   "Best of all, Ali Hafed had a wife and children whom he loved dearly. In the evenings they played in the garden and by the stream.",
+   "His days followed the seasons of the whole year on the farm. In spring he ploughed and planted, and in autumn he gathered in the harvest.",
+   "In the evenings the family sat down to eat together by lamplight. Ali Hafed looked at their faces and felt like a very lucky man.",
+   "In Conwell's telling, Ali Hafed was a man who was both contented and wealthy. He was content because he was wealthy, and wealthy because he was content.",
+   "Then, one evening, a visitor came to the farm. His arrival would change everything in Ali Hafed's quiet life.",
+   "The visitor was an old priest, a wise man who had studied and travelled widely. Ali Hafed welcomed him warmly and gave him a seat by the fire.",
+   "On a cool evening the priest sat by the fire and began to talk. He told Ali Hafed how the world was made.",
+   "The priest said that the first diamond was a drop of sunlight that had turned into stone. Ali Hafed had never heard anything so wonderful in all his life.",
+   "Today we know that a diamond is made of carbon, the same substance that is found in coal. It forms far underground, under great heat and pressure.",
+   "The priest held up his thumb and said that a diamond of that size would buy many farms. Ali Hafed stared at the old man's thumb as if it already shone.",
+   "The priest went on to say that a handful of diamonds could buy an entire country. Ali Hafed tried to imagine such a huge fortune.",
+   "A whole mine of diamonds, said the priest, could put Ali Hafed's sons on thrones. Their wealth would give them power over whole kingdoms.",
+   "That night Ali Hafed went to bed a poor man, although he had lost nothing at all. He was poor only because he wanted more than he had.",
+   "Ali Hafed could not sleep that night, however hard he tried. He lay awake and thought about diamonds until the sky began to grow pale.",
+   "At dawn Ali Hafed hurried to the priest and woke him from his sleep. He asked the old man to tell him where diamonds could be found.",
+   "The tired old priest was not pleased to be woken so early. He asked Ali Hafed why he wanted diamonds so badly.",
+   "The priest told him to find a river that runs over white sand between high mountains. In that white sand, he said, there would always be diamonds.",
+   "Ali Hafed believed the old priest completely, and without a single doubt. He did not ask for proof, and he did not stop to count the cost.",
+   "Ali Hafed sold his farm and gathered all the money that people owed him. He turned everything that he owned into heavy coins.",
+   "Ali Hafed left his wife and children in the care of a neighbour. One can imagine the sad farewell at the garden gate.",
+   "Then he set off alone with a heavy bag of money on his back. His only plan was to find a river of white sand.",
+   "In Conwell's telling, the search began at the Mountains of the Moon. Ancient writers placed these mountains in Africa, at the source of the Nile.",
+   "From there he wandered on to Palestine, and later he travelled through Europe. In every country he looked for a river that ran over white sand.",
+   "At every river he came to, Ali Hafed stopped and knelt on the bank. He studied the sand, but it was never quite right.",
+   "Months went by, and then whole years went by. The money in his purse grew less and less, and still he had found nothing.",
+   "Ali Hafed searched the sand of many riverbeds in many different lands. None of them held the diamonds that the priest had described.",
+   "He slept outside under the open sky and crossed many lands where nobody knew him. He could not speak the languages that he heard around him.",
+   "At long last, the money in his purse was completely gone. He could no longer pay for food, for a bed or for a place on a boat.",
+   "He became thin and hungry, and his fine clothes turned to rags. People who passed him on the road thought that he was a beggar.",
+   "Sometimes, at night, he thought about his farm, his garden and the children who played in the stream. Those thoughts were sweet to him, but they were also very painful.",
+   "He had told himself that he would come home a rich man. He could not bear the thought of going back with nothing in his hands.",
+   "At last his road led him to a bay near Barcelona, in Spain. He had come a very long way from the river Indus.",
+   "He stood on the shore, worn out and without any hope. Out at sea a great wave was rolling slowly toward the land.",
+   "In his deep despair, he gave himself to the great incoming tide. He sank beneath the foaming water and never rose again in this life.",
+   "So ended the search of Ali Hafed, far from the home where his riches lay. He had never found a single diamond, and he never would.",
+   "Back at the farm on the Indus, the new owner had settled in. He looked after the fields, the orchards and the garden with great care.",
+   "One day the new owner led his camel into the garden to drink. He walked down to the little stream where Ali Hafed's children had once played.",
+   "The camel lowered its head and put its nose into the shallow water. The stream ran slowly and clearly over its bed of white sand.",
+   "When the camel lifted its head, the man noticed a flash of light. It came from the sand at the bottom of the stream.",
+   "He reached into the water and pulled out a curious dark stone. It had a bright spot in it that showed all the colours of the rainbow.",
+   "He carried the stone into the house and put it on the shelf above the fireplace. Then he went back to his work and forgot all about it.",
+   "A few days later the old priest came to visit the new owner. It was the same priest who had once told Ali Hafed about diamonds.",
+   "The priest's eye was caught by the flash of light from the shelf. He rushed across the room and cried out, “Here is a diamond!”",
+   "Then he asked whether Ali Hafed had come back, and the farmer said that he had not. The farmer added that it was only a stone from the garden.",
+   "“I know a diamond when I see one,” said the priest, and he would not be argued with. Together the two men hurried out through the door to the garden stream.",
+   "At the stream the two men knelt down and stirred the white sand with their fingers. The priest was trembling with excitement, though the farmer still thought it silly.",
+   "Soon they found more stones, and each one seemed more beautiful than the last. Some were larger and brighter than the one on the shelf.",
+   "According to the guide, this is how the diamond mine of Golconda was discovered. He said that it was the most magnificent mine in all history.",
+   "The real Golconda is in India, near the city of Hyderabad. It was famous for its diamonds for centuries, and the tale simply borrows its name.",
+   "Some famous old diamonds, such as the Koh-i-Noor, are said to have come from that part of India. Today the Koh-i-Noor is part of the British crown jewels.",
+   "Kimberley, in South Africa, was another great field of diamonds. In the 1870s thousands of diggers dug a huge hole there, almost all of it by hand.",
+   "The usual account says that in 1866 a boy found a pretty stone beside a river on a farm in South Africa. Others soon recognised that it was a real diamond.",
+   "The guide made his moral plain when he finished the tale. If Ali Hafed had stayed home and dug in his own garden, he would have owned acres of diamonds.",
+   "Every shovelful of the old farm, said the guide, would have shown more gems. Those gems later shone in the crowns of kings.",
+   "Ali Hafed went hungry and cold in a strange land far away. All the time the treasure lay in the stream where his children had played.",
+   "Conwell said that the tale stayed with him long after the journey ended. He turned it over in his mind for years.",
+   "Ali Hafed's real trouble was not poverty but discontent. Until the priest spoke, he had been happy; afterward he felt poor, though nothing had changed.",
+   "Wanting a better life is not wrong, and Conwell never said that it was. His point is to look at what you already have before you search elsewhere.",
+   "The trap is to believe that the good chances are always somewhere else. Far-off places look exciting, while your own street looks ordinary and dull.",
+   "Ali Hafed never asked what his own land might hold. It does not seem that anyone ever tested the sand in his garden stream.",
+   "Conwell told his listeners that they too were standing in the middle of acres of diamonds. He did not mean that the ground under them was full of jewels.",
+   "The diamonds in the tale stand for all kinds of chances in life. They include your skills, your ideas, your friends, your work and the needs of the people around you.",
+   "Even in the tale, the diamonds had to be found by someone. The priest and the farmer had to kneel down and stir the sand with their hands.",
+   "Sometimes moving away is the right choice for a person. Millions of people have left home to find work, safety or a better school, and the tale does not say they were wrong.",
+   "So the useful question is whether you have really looked carefully at the place where you are. It is a question that costs nothing to ask.",
+   "Conwell next tells a story from Pennsylvania, in the eastern United States. It is the story of a farm and of the oil beneath it.",
+   "In western Pennsylvania, oil had long seeped out of the ground into the creeks. People skimmed it off the water and used it as medicine.",
+   "In 1859 Edwin Drake drilled a well near Titusville, Pennsylvania. Oil flowed from about seventy feet down, and the great oil rush began.",
+   "In Conwell's telling, one farmer sold his farm and went far away to hunt for oil. He did not think to look closely at his own land.",
+   "The new owner noticed a dark film on the farm stream. He put a board across the water to hold it back so that his cattle could drink.",
+   "In the story, that farm lay above one of the richest oil fields in the region. The oil had been there all along, and nobody had looked.",
+   "In January 1848 a carpenter named James Marshall found shining flakes in the millrace of Sutter's Mill, in California. The flakes proved to be real gold, and the news spread fast.",
+   "The news of the gold raced around the whole world. By about 1855, some three hundred thousand people had come to California by ship and by wagon.",
+   "Few people grew rich by digging for gold, and many went home with little. Some stayed on and became farmers, merchants or craftsmen.",
+   "Shopkeepers who sold tools, food and clothes often did better than the diggers. The first finder was not a traveller but a worker already on the spot.",
+   "Conwell's first rule is not to wait for a better time or a better place. Opportunity, he says, is found where you stand today, not elsewhere.",
+   "He asked his listeners to think about the people around them. What do your neighbours lack, and what would they gladly pay for?",
+   "It is said that before each talk Conwell studied the town he was visiting. He asked questions about its shops, its factories and its people.",
+   "Think of a town with a school, a mill and a railway station. The school needs books, the mill needs workers, and the station needs people to carry goods.",
+   "Moving away rarely cures a worry, because you take yourself along with you. A new town brings new problems along with its new chances.",
+   "You know your own town, your neighbours and their customs. A stranger who arrives tomorrow knows none of these things at all.",
+   "Your neighbours already know your name, your family and your character. Trust is slow to build, so you start far ahead of any newcomer.",
+   "Starting again in a new place costs money, and trust must be earned all over again. Staying where you are saves both of these costs.",
+   "Conwell did not mean that people should sit still and wait. He meant that they should begin today, with what is in front of them.",
+   "Here is a simple way to try the idea for yourself. Write down five things that people in your street lack or often complain about.",
+   "Conwell's rule for finding the diamond is to find out what people need. Then you supply it, and people pay you for your trouble.",
+   "People pay for things that help them, not for things that the maker happens to like. A fine product that nobody needs will sit on the shelf.",
+   "In 1854 Elisha Otis showed a safety brake for lifts at the New York Crystal Palace. It made tall buildings much safer to use, and it was used in many cities.",
+   "Margaret Knight worked in a paper-bag factory and invented a machine to make flat-bottomed bags. She won a patent for her machine in the year 1871.",
+   "Josephine Cochrane wanted to protect her good dishes from careless hands. In 1886 she patented a machine that washed them for her.",
+   "A tailor named Jacob Davis put metal rivets in work trousers so that the pockets would not tear. With the help of Levi Strauss, he gained a patent in 1873.",
+   "Each of these people began with one small, real problem. They noticed it, they thought about it, and then they did something.",
+   "Ask what people near you find hard, and what wastes their time. Ask also what they already pay other people to do.",
+   "Not everyone has to invent a machine in order to meet a need. Teaching, cooking, mending and caring for others all meet real needs too.",
+   "Learning what people really need takes patience and careful attention. You must watch closely, ask questions and listen to the answers.",
+   "Conwell says to start small, right where you are, with what you already have. Big plans can wait until the first small step works.",
+   "A good start needs attention more than it needs cash. Many useful ideas cost very little to try, if you watch closely.",
+   "Many firms began in a kitchen, in a shed or in a corner of a shop. Their owners had little space, but they had a clear idea.",
+   "A small start lets you learn cheaply, because early mistakes cost little. A mistake in a small trade is a lesson, and a mistake in a large one can be a disaster.",
+   "Your first customers are likely to be your own neighbours. If they are pleased with you, they tell their friends, and your name begins to spread.",
+   "Put aside a little money each week, even when the amount seems tiny. A small saving is a seed that can grow into a tool or a shop.",
+   "Levi Strauss opened a dry-goods business in San Francisco in 1853. It started small, and over the years it grew into a famous firm.",
+   "Wilbur and Orville Wright ran a small bicycle shop in Dayton, Ohio. In that shop they built the machine that made the first powered flights in 1903.",
+   "When one small step works, you should take the next one. Do not try to leap to the top of the stairs in a single jump, because you may fall.",
+   "Conwell's advice can be put into three very simple steps. Find a real need, plan a way to meet it, and begin.",
+   "Your own skills, your friends and your surroundings are your acres of diamonds. They are already yours, and you do not have to buy them.",
+   "Learning and practising a skill makes you more useful to others. A person who is really useful to others is always in demand.",
+   "This is why Conwell started evening classes for working people. He saw learning as a way of digging for the treasure inside every person.",
+   "Benjamin Franklin learned the printing trade as a boy, working for his older brother. He also read as many books as he could find.",
+   "A skill is built by steady practice, a little each day. Nobody becomes truly skilled in the course of a single week.",
+   "A farmer knows that there is no shortcut to a good harvest. Seeds must be planted, watered and weeded before anything grows.",
+   "Distant fields always look much greener than our own fields do. Ali Hafed's story warns us against envy of faraway things.",
+   "Begin by serving the people who are nearest to you. That means your family, your neighbours and the people of your town.",
+   "Friends and neighbours are part of the treasure too, so do not neglect them. They may offer you good advice, honest work or a useful introduction.",
+   "A person who is truly useful has a kind of safety in life. There is always some work for someone who can do something well.",
+   "Conwell said that it is right, and even a duty, to become rich honestly. He added that the money should be used for a good purpose.",
+   "Conwell thought that many good people avoid wealth because they believe that wanting money is wrong. He said that this belief holds them back from doing good.",
+   "Conwell pointed out that the Bible warns against the love of money. It does not, he said, warn against money itself.",
+   "A person who is honest and serves customers well earns their trust. Trust brings customers back to the same shop again and again.",
+   "Conwell claimed that most rich people had earned their money honestly. Yet in his own time, the Gilded Age, some large fortunes were made by cheating.",
+   "A good name takes many years of honest work to build up. One dishonest act can spoil it in a single day.",
+   "Conwell held a hard view that many readers find unkind today. He believed that most poor people were poor through their own faults.",
+   "Many people today see more causes of poverty than personal fault. They include illness, bad luck, low pay and unequal chances.",
+   "Still, Conwell believed in helping people who were trying to improve their lives. Much of his own money went to help students pay for school.",
+   "So honest effort is a good thing and worth admiring. But we should not judge people who are poor too quickly or too harshly.",
+   "Conwell said that money is a power that can do much good. It can pay for schools, churches, hospitals and homes for those in need.",
+   "Stephen Girard, a rich banker in Philadelphia, left money for a school for poor orphan boys. The school, Girard College, opened in 1848, many years after his death.",
+   "Peter Cooper was a New York businessman who built useful things and made a fortune. In 1859 he opened Cooper Union, which gave free education to working people.",
+   "When Benjamin Franklin died in 1790, he left money to Philadelphia and to Boston. It was to be lent to young craftsmen who wanted to start a trade.",
+   "Conwell asked those who grow rich to give wisely, and not only to keep. He believed that wealth carries a duty to help other people.",
+   "You do not need to be rich in order to give to other people. Your time, your skill and your care are valuable gifts too.",
+   "The danger comes when money stops being a tool and becomes a master. Then a person works only for coins and forgets everything else.",
+   "Ali Hafed already had enough, but after the priest's visit he could no longer see it. Knowing what is enough is itself a kind of wealth.",
+   "Wealth is not only money, and Conwell's tale shows it clearly. Health, family, friends, good work and a good name all count as riches too.",
+   "At the start of the tale, Ali Hafed had every one of these riches. He left them all behind for the sake of a dream.",
+   "Greatness, Conwell says, is not a matter of fame or of high office. It is the habit of doing great good in plain and ordinary places.",
+   "A good teacher in a small school can change many lives. Such a person rarely gets a statue or a newspaper headline.",
+   "Abraham Lincoln was born in 1809 in a log cabin in Kentucky. He had very little schooling, yet he became the president of the United States.",
+   "Conwell himself was a boy from a hill farm in a small town. Nothing in his early life promised that he would speak to crowds in great cities.",
+   "Many people who do great good come from small towns and plain homes. You do not need to be famous in order to be one of them.",
+   "Every famous person was once a neighbour whom few people knew. Their first steps were taken in plain places, without any cheering.",
+   "You can show real greatness in small and everyday things. A kind act, a fair price and a kept promise are all good examples.",
+   "A person who serves a community faithfully becomes known for it. In time, such a person is often trusted with larger duties.",
+   "Fame is quick to fade, and Ali Hafed once longed for thrones. But a useful life leaves something lasting behind it.",
+   "Greatness is open to everyone who is willing to listen. It can begin today, in your own street, with a single useful act.",
+   "The lecture belongs to the time in which Conwell lived and spoke. Enjoy its plain wisdom, but weigh its opinions and its facts with care.",
+   "Times have changed, and chances were never equal for everyone. In Conwell's day, many women and many Black Americans faced barriers that hard digging could not remove.",
+   "Where barriers are real, people have often worked together to change them. They have built schools, formed unions and won the right to vote.",
+   "Here is the whole lecture, in short, boiled down to four ideas. Find a need, serve it honestly, build a skill and work steadily.",
+   "Conwell hopes that those who succeed will use their money for good. He also hopes that they will be content with a useful life.",
+   "Ali Hafed is not a villain, and nobody in the tale is. He is only a man who looked past what he already had.",
+   "The tale of Ali Hafed has been retold in many books, sermons and speeches. Many people who have never read the lecture know its story.",
+   "When you close the book, look at your own street as a stranger would. You may see chances that you never noticed before.",
+   "Before you go, try writing three short lists on a single sheet of paper. One should hold your skills, one the people you know, and one the needs near you.",
+   "So ask yourself where your own acres of diamonds might be. The answer may be in your town, your work, your skills, or even your own back garden."
+  ],
+  "C1C2": [
+   "The hall is full to the last seat, and the murmur of the crowd dies away as a tall man in a dark suit walks to the front. Russell Conwell has done this many times before, yet he speaks as though each listener were a new friend. The talk he is about to give, called Acres of Diamonds, became one of the most often repeated speeches in American history.",
+   "Few speakers have repeated one lecture as often as Conwell repeated Acres of Diamonds. By most counts he gave it thousands of times over many years, and some people say more than six thousand. It is said that he changed small parts each time to suit the audience in front of him.",
+   "In the age of the steam railway a speaker could cross a country in a few days, and Conwell used the trains to carry his talk to places both large and small. Ordinary people, farmers, clerks and shopkeepers among them, filled the seats of town halls and churches. Because he went to the people instead of waiting for them to come, his words reached crowds that no city hall could ever have held.",
+   "This book began its life as a voice, and not as words on a page. Conwell spoke the lecture over and over, and it was printed only afterwards, so the words carry the warmth and the plain, friendly rhythm of a man talking to a crowd. That is why it feels more like a conversation with a wise neighbour than a lesson from a teacher's desk.",
+   "An acre is a measure of land, roughly the size of a football field, and Conwell's title asks us to imagine not one diamond but whole fields of them. The picture is deliberately extravagant, a treasure so vast that nobody could carry it away in a pocket. It is meant to make us wonder how much value may be lying around us, unnoticed.",
+   "To the people who filled Conwell's halls, a diamond was the very picture of riches, small enough to hold in one hand and worth a fortune. It is the hardest natural substance known, it is made deep in the earth over an immense span of time, and it is found in only a few places. No wonder it made such a perfect symbol for a treasure that everyone longs to own.",
+   "The plan of the lecture is as plain as a path through a garden. It opens with a tale about a farmer and a search for treasure, moves on to what that tale means for ordinary lives, and ends with practical advice that any listener could try the next morning. Each step leads naturally to the next, and we shall follow them in the same order.",
+   "The central claim of the lecture can be stated in a single breath: the chance you are looking for may be lying at your own feet. Conwell did not promise that it would be easy to see, or that it would come without effort. He argued only that it was far more likely to be near than far, and that most of us have not looked near enough.",
+   "Conwell's audiences were not scholars or kings but working people, men and women with jobs, families and a quiet longing to do a little better. To them he offered neither magic nor luck but a new way of looking at the place where they already lived. That may be a large part of why so many wanted to hear the same talk again and again.",
+   "A tale is always a little different in the mouth of the one who tells it, and this tale is Conwell's through and through. Before we follow Ali Hafed along his long and winding road, it is worth learning who Conwell was and what shaped him. His own life, as we shall discover, took more unexpected turns than many a novel.",
+   "Russell Conwell was born in 1843 on a farm in the hills of western Massachusetts, near the small village of South Worthington. It was a place of stone walls, short summers and long winters, where children learned early that nothing came without work. The boy who grew up there would one day tell crowds in great cities that opportunity can be found in the humblest place.",
+   "The farm could feed a boy, but it could not satisfy his hunger for learning, and Conwell set his heart on a life of study. He went away to school and then to Yale, one of the oldest and best-known colleges in America. It was a long way from the hill farm, and it showed him that a person's beginnings need not fix his road.",
+   "In 1861 the American Civil War broke out, and young men all over the North put down their books and picked up rifles. Conwell was among them, and he served in the Union army and became an officer who led a company of soldiers. The war taught him a great deal about courage, hardship and the quiet worth of ordinary men.",
+   "When the fighting was over, Conwell looked for a new way to serve and settled on the law. He studied at the law school in Albany, in the state of New York, and learned how courts, contracts and quarrels between neighbours are put right. It was a practical education, and he would draw on it for the rest of his life.",
+   "Conwell opened a law office in Minneapolis, which was then a young and growing city, and later he moved back east to work as a lawyer in Boston. In both places he met all kinds of people, from careful shopkeepers to anxious borrowers, and he heard their troubles at first hand. Such meetings gave him an unusual understanding of how people succeed and fail with money.",
+   "Alongside his work in the law he wrote for newspapers, and that writing sent him on long journeys through Europe, the Middle East and Asia. He saw ancient cities and brand-new ones, crowded markets and empty deserts, and he came home with a head full of stories. One of those stories, he said, was handed to him by a guide on the banks of a famous river.",
+   "In 1879, after years in other trades, Conwell took up the work that would shape the rest of his life and became a Baptist minister. His first church stood in Lexington, Massachusetts, a small town near Boston, and the congregation there was modest in size. He accepted the post all the same, and he is remembered for the energy he brought to it.",
+   "Three years later, in 1882, Conwell accepted a call to a small church in Philadelphia, and the congregation soon found the little building too full to hold everyone who came. Word spread that the new minister spoke plainly, helped his neighbours and welcomed all comers. Within a few years the crowds were far too large for the room that was meant to hold them.",
+   "So many people came that the congregation decided to build something much larger, and the result was the Baptist Temple, one of the largest churches of its day. It opened in 1891 and stood in the middle of a busy city, with room for thousands. It was a fitting stage for a minister whose fame was spreading far beyond the city.",
+   "Conwell was also a prolific writer, and over the years his pen produced many books, among them the life stories of well-known leaders of his time. Few people have filled so many roles in a single lifetime, as a soldier, a lawyer, a traveller, a minister and an author. Each of them gave him a different window onto the way ordinary people live.",
+   "One evening in 1884 a young man came to Conwell with a very bold request. He lacked the time and the money for college, but he wished to become a minister, and he asked whether Conwell would teach him. Conwell agreed, and that quiet decision set a great chain of events in motion.",
+   "Word soon spread, and other working men and women asked to join the lessons, bringing their notebooks after a long day of labour. Conwell did not turn them away, and the little group began to meet regularly in the evenings. It was a modest start, but it was the seed of something much larger.",
+   "The evening classes grew year by year, and in time the school needed a name, a charter and teachers beyond Conwell himself. It was called Temple College, after the Baptist Temple where it had first begun. From a handful of tired workers in a church room, it had become a proper institution.",
+   "Conwell is said to have given a large share of what he earned from his lectures to the school, so that every audience he addressed helped to pay for the teaching of working students. In this way a talk about hidden treasure was turned into books, desks and teachers. It was the lecture's own advice, quietly put to work in the real world.",
+   "The great advantage of the school was that its students could work by day and study by night, and so no one was asked to choose between earning a living and improving his mind. Clerks, shop assistants, factory workers and mothers sat side by side in the evening classes. For many of them it opened a door that would otherwise have stayed firmly shut.",
+   "His concern for his neighbours reached beyond the classroom, and Conwell also helped to found the Samaritan Hospital in Philadelphia, which cared for the sick whether or not they could pay. In later years it grew into part of the hospital that belongs to the university. A man who had once been a soldier and a lawyer now found himself building places of healing and learning.",
+   "In 1907 the college won the right to call itself a university, and it has kept growing ever since. Today Temple is a large university with thousands of students from many countries, and its history is rooted in a few evening lessons given to a young man. Few schools can trace their beginnings so precisely to a single act of generosity.",
+   "Conwell led the school for the rest of his long life, balancing the care of a college, a church and a hospital with his endless travels as a speaker. He died in 1925 at the age of eighty-two, and by then the evening class that began with a single student had become a centre of learning. Even those who disagreed with his opinions could see plainly what he had built.",
+   "The story of the school is, in a way, the whole lecture lived out in practice. Conwell saw a need in the people around him, he began in a small way with a single student and a single room, and he used the gifts he already possessed, his learning and his voice. He did not travel to the ends of the earth to find his diamond, for it was waiting in his own church.",
+   "Now we come to the part of the lecture that every listener remembered long after the rest had faded. It begins far from Philadelphia and far from the world of churches and classrooms, on the banks of a slow, wide river in the Middle East. There a young traveller is about to hear a story that he will never forget.",
+   "As a young man Conwell journeyed through the Middle East, and his road took him along the Tigris and Euphrates, the two great rivers of what is now Iraq. Their valley is often called Mesopotamia, a name that means the land between the rivers. Some of the oldest cities in the world once rose beside their muddy banks.",
+   "In the city of Baghdad, Conwell hired a guide to lead him to the ruins of ancient places such as Babylon, whose great walls and gardens were famous in the old world. The guide knew the roads, the villages and the dusty histories of the land as well as he knew his own hand. He was the ideal companion for a curious young traveller with time to listen.",
+   "Travel in that country was slow, and the party moved at the pace of the camels that carried their baggage across the dusty plains. The sun was hot, the road was long, and the landscape changed so little that there was nothing to do but talk. In such conditions a good storyteller is a precious companion, worth more than a cool breeze.",
+   "The guide was a man who loved the sound of his own voice, and he seemed to have a tale ready for every bend in the river and every pile of old stones. Many of them, one imagines, were about kings and battles, and some were about buried treasure. Conwell listened to them all with the patience of a man who is far from home.",
+   "One day, as the camels plodded on, the guide offered to tell a tale that was a favourite of his own. It concerned a Persian farmer who lived beside the river Indus long ago, and it began quietly enough. Conwell, who had heard many stories already, had no idea that this one would stay with him for the rest of his life.",
+   "Nobody can say for certain whether the tale is an ancient legend or a clever invention, and it may well be a mixture of both. Folk tales travel from mouth to mouth across the centuries, and each storyteller changes a detail here and adds a flourish there. What matters most is not where this particular tale came from, but what it has to teach.",
+   "Persia is the old name of the country now called Iran, and in ancient times the Persian empire reached as far east as the river Indus. That river rises in the mountains of Tibet and flows for more than three thousand kilometres through Pakistan to the Arabian Sea. A Persian farmer by the Indus, then, was not a strange idea at all.",
+   "The farmer in the guide's tale was named Ali Hafed, and he lived on the banks of the Indus, far to the east of the place where Conwell sat listening. He was not a king or a soldier but an ordinary working man with an ordinary life. That is exactly why the story speaks so well to ordinary listeners in ordinary towns.",
+   "Conwell never forgot the guide's tale, and he kept it in his memory for years until he was ready to use it. When he became a speaker, he made it the opening of his lecture and told it, in his own words, to crowds all over America. It became, by a wide margin, the best-known story that he ever told to anyone.",
+   "So let us pause beside the river at dusk, while the camels rest and the sun goes down, and listen to the guide. It is a tale about a man who had almost everything he could wish for and did not know it, and about the long road he took to find that out. The story begins, as many of the best stories do, in a quiet and peaceful place.",
+   "Ali Hafed lived on a large and prosperous farm beside the river Indus, and in the tale he wanted for nothing that a farmer could reasonably desire. His land was wide, his work was steady, and his mind was at peace. In the words of the tale, he was a contented man, and he knew it.",
+   "His broad fields of grain rippled like water in the summer wind, and when the harvest came, the barns were filled to the roof. Ali Hafed and his household cut, bound and stored the crop with the quiet pride of people who know their land. There was always enough to eat, and often a good deal more than enough to share with friends.",
+   "Beyond the fields stood his orchards, rows of trees that bent under the weight of ripe fruit in the warm season. Branches reached down almost to the grass, and the air was sweet with the smell of the harvest. Ali Hafed walked slowly among them in the cool of the evening, a man at peace with the world and glad of every tree.",
+   "Beside the house lay a garden, and through the garden ran a small, clear stream that murmured over beds of pale sand. It was a pleasant, ordinary thing, and no one who looked at it would have thought it worth a second glance. Ali Hafed certainly never did, and that is a part of the tale to remember.",
+   "Besides land, Ali Hafed owned a store of money, and he had lent a part of it out at interest, so that it quietly grew while he slept. He was careful with his affairs, being neither a spendthrift who wasted money nor a miser who hoarded it. In short, he was a comfortable and sensible man, well established in his neighbourhood.",
+   "Best of all, Ali Hafed had a wife and children whom he loved dearly, and their laughter filled the house from morning until night. The children played in the garden and splashed in the little stream, and they were healthy and well fed. No king in the whole world could have asked for a richer or a happier household than his.",
+   "The rhythm of his days was set by the seasons, with ploughing and planting in the spring, watering through the long summer, and the great gathering of the harvest in autumn. It was hard work, but it was honest work, and it gave him a good appetite and a good night's sleep. Year after year the pattern repeated itself, and year after year it rewarded him with plenty and peace.",
+   "When the work was done, the family gathered round the table by lamplight and shared the day's bread, and Ali Hafed looked at the faces around him with a full heart. He thought himself a fortunate man, and in the plainest sense he was right. Whatever else the tale would teach, it began with a man who truly had enough.",
+   "In Conwell's telling, Ali Hafed was both a contented man and a wealthy one, and the two went hand in hand. He was content because he was wealthy, and wealthy because he was content, each blessing feeding the other. Hold on to that thought, for the story is about what happens when one of the two goes missing.",
+   "Then, one evening at sunset, a visitor appeared at the gate of the farm, leaning on a stick and wrapped in a travelling cloak. He was no stranger to Ali Hafed, but the words he carried would soon turn a peaceful household upside down. Nothing had been lost yet and nothing had been stolen, but the quiet contentment of the farm was about to end.",
+   "The visitor was an old priest, a man known for his learning, who had studied the ways of the world and the stars above it. Ali Hafed welcomed him warmly into his house, as a good host should, and offered him a place by the fire. Neither could have guessed that the conversation of that night would cost the farmer everything he owned.",
+   "It was a cool evening, and the priest sat close to the fire, warming his thin hands, while the family listened. He began to tell Ali Hafed how the world had been made, in the old story of mist and fire and cooling stone. The farmer, who had never given the matter much thought, found himself drawn in by the tale.",
+   "Among the first of the earth's treasures, said the priest, was the diamond, which he described as a drop of sunlight that had hardened into stone. It was a beautiful picture, and Ali Hafed turned it over in his mind as a child turns a bright pebble in his hand. He had never before thought of the light on his own fields as something that might be kept.",
+   "The scientific truth about diamonds is less poetic than the priest's picture, though it is no less wonderful. A diamond is a form of carbon, the same element that is found in coal and in pencil lead, and it is created deep underground, under enormous heat and pressure, over a span of time that dwarfs human history. Volcanic eruptions then carry some of these stones up toward the surface, where people can find them.",
+   "To show how precious such a stone could be, the priest held up his thumb and declared that a diamond of that size could buy a whole district full of farms. Ali Hafed looked at his own farm, which had always seemed to him a great estate, and suddenly it seemed rather small. A single glittering stone, it appeared, was worth more than all his fields and orchards put together.",
+   "Then the old man went further and said that a handful of such stones would be enough to purchase an entire country, with its cities, its armies and its kings. The farmer, who had thought himself comfortably rich, now felt like a child who has been shown the sea for the first time. The conversation had only just begun, and already the comfortable evening was slipping away.",
+   "With a whole mine of diamonds, said the priest, a man could set his sons upon thrones through the influence of their immense wealth. He painted the picture in glowing words, and Ali Hafed, who loved his children, saw each of them wearing a crown. It was a dazzling dream, and dreams of that kind do not sit quietly in a person's head.",
+   "When the priest had finished, Ali Hafed went to bed that night a poor man, though he had lost nothing whatever. He was poor only because he was discontented, and he was discontented because he now felt that he was poor. Here, in one small circle of thought, is the real sickness that runs through the whole tale.",
+   "Ali Hafed lay awake in the dark, staring at the ceiling, while his wife and children slept peacefully nearby. His farm, his orchards and his garden had not changed in the least, but they no longer seemed to him enough. Hour after hour the thought of diamonds went round and round in his head, until the sky began to grow pale.",
+   "As soon as the first grey light appeared, Ali Hafed rose, hurried to the priest's bedside and woke the old man from a deep sleep. He could not wait for breakfast or for a more civil hour, for the question had been burning inside him all night. He asked, in a trembling voice, where a man might go to find diamonds.",
+   "The old priest, who had been sleeping soundly, was not at all pleased to be woken at such an hour. He frowned and asked what a man with a good farm could possibly want with diamonds. Ali Hafed answered that he wished to be immensely rich, and that nothing else would content him.",
+   "Rather impatiently, the old man told Ali Hafed to go out and find a river that runs over white sand between high mountains. In the white sand of such a river, he said, a man would always find diamonds. It was the vaguest of directions, and it was enough to send a farmer round the world.",
+   "Ali Hafed believed the old priest completely and without the slightest doubt, and he thanked him warmly. He did not ask how many people had tried and failed, he did not ask whether the river even existed, and he did not stop to ask what a search might cost him. When a dream has taken hold of a man's heart, as the tale shows, it leaves little room for questions.",
+   "Ali Hafed lost no time at all in turning his whole prosperous life into ready money. He sold the farm, with its fields, orchards and garden, and he collected every coin that he had lent out at interest. In a few days a household that had stood for years was reduced to a heavy purse.",
+   "He left his wife and children in the care of a neighbour, promising that he would return with riches beyond measure. One can picture the family at the garden gate, the children waving and the mother wiping her eyes. He walked away down the road, certain that he was doing the best thing for them.",
+   "With a bag of money over his shoulder and a head full of dreams, he set off alone along the road that led away from the Indus. His only plan was to find a river that ran over white sand between high mountains. How hard could it be, he must have thought, to find a single river in the whole wide world?",
+   "In Conwell's telling, Ali Hafed began his search, quite properly, at the Mountains of the Moon, a range of old legend which ancient writers placed in Africa, near the source of the Nile. It was a long way from the Indus, and he must have crossed deserts and seas to reach it. If any mountains were high enough for the priest's river, surely these were the ones.",
+   "From the mountains he wandered on to Palestine, and later he made his way through country after country in Europe, always asking and always looking. Each new land brought him new rivers, strange languages, unfamiliar customs and fresh disappointments of every kind. In the tale, the more places he visited, the further he seemed to be from his goal.",
+   "At every river that he crossed, Ali Hafed stopped, knelt on the bank and scooped up a handful of sand to study. Sometimes the sand was yellow, sometimes it was grey, and sometimes the mountains were too low or the water too muddy. The perfect river, the one the priest had described, kept slipping out of his reach.",
+   "Months went by, then years, and the heavy purse that had weighed on his shoulder grew lighter with every town and every meal. He paid for boats, for bread and for a bed in a hundred strange inns. Still the diamonds he had dreamed of seemed to be as far away from him as they had ever been.",
+   "He sifted the sand of riverbeds in one country after another, using his hands, a pan and a great deal of patience. None of them held the diamonds that the priest had promised, and none of them was quite the river he had been told to find. Each failure only made him more determined, and that determination was slowly eating him up.",
+   "Night after night he slept in the open, wrapped in his cloak, in places where no one knew his name and no one cared. He crossed borders and mountains, and he could rarely make himself understood in the languages he met. For a man who had once sat at the head of his own table, it was a hard and lonely life.",
+   "At last the day came when he turned his purse upside down and not a single coin fell out. He could no longer pay for food, for a bed or for a place on a boat, and the road ahead was all the harder for it. The man who had once lent money to his neighbours now had nothing to lend and nothing to spend.",
+   "He grew thin and hungry, and the fine clothes in which he had left the Indus gradually fell to rags. People who passed him on the road took him for a beggar, and some of them would not even look him in the face. It was a sad change for a man who had once owned orchards and gardens.",
+   "Sometimes, in the long dark hours, his mind went back to the farm, the orchard, the table by lamplight and the children who played in the garden stream. Such memories were sweet to him, and bitter too, for they showed him exactly what he had given away. He pushed them aside and walked on, telling himself that the next river would be the right one.",
+   "He had told himself that he would come home a rich man, bringing gifts for his wife and crowns for his sons. To return with empty hands, poor and ashamed, was more than his pride could bear. So, weary but obstinate, he turned his face once more toward the distant horizon and trudged on.",
+   "In the end his long road led him to the coast of Spain, to a bay near the city of Barcelona, where the hills run down to the Mediterranean Sea. He had come thousands of miles from the Indus, and he had found nothing but hunger and fatigue. His strength was spent, his money was gone and his hope was almost gone as well.",
+   "He stood alone on the shore, worn out in body and in spirit, looking at the sea as though it might have an answer for him. Out beyond the harbour a great wave was gathering itself, rolling steadily in toward the land. Behind him lay the long road, and before him lay nothing but the grey water.",
+   "In that moment the poor, tired man could not resist the terrible temptation, and he gave himself to the incoming tide. He sank beneath the foaming crest of the wave and did not rise again in this life. The tale does not dwell on the sadness, and neither shall we, but it does not hide it either.",
+   "So ended the search of Ali Hafed, in a foreign land, far from the farm where his true riches had lain all the time. He had surrendered his home, his savings and at last his life, and he had not found a single stone. The next part of the tale turns back to the very place that he had abandoned so hastily.",
+   "Meanwhile, back at the farm beside the Indus, the man who had bought it from Ali Hafed had settled in and gone to work. He tended the fields, the orchards and the garden with care, as any sensible owner would. He did not know that he was living on top of the greatest treasure in the land.",
+   "One day the new owner led his camel into the garden so that it could drink from the little stream that ran through it. It was an ordinary errand on an ordinary day, and he thought no more about it than he thought about breakfast. The sun was warm, the water was clear, and nothing in the scene suggested that it was about to become famous.",
+   "The camel lowered its long neck and put its nose into the shallow water, which ran slowly and clearly over a bed of white sand. The man stood by with the rope in his hand, idly watching the ripples spread. It was, in fact, just the kind of white sand that Ali Hafed had crossed half the world to find.",
+   "As the camel lifted its head, the man noticed a sudden flash of light flickering among the grains of sand at the bottom of the stream. He looked closer, for something in that small gleam seemed quite unlike an ordinary pebble. The sun had caught it, and it threw back the light as though it were alive.",
+   "He reached down into the cool water and drew out a curious dark pebble with an eye of light in its heart. When he turned it in his fingers, the spot flashed with every colour of the rainbow, red and gold and green and blue. It was certainly a pretty thing, and he did not know what else to say about it.",
+   "Pleased with his pretty find, he carried it into the house and set it on the shelf above the fireplace. Then he went back to his work in the fields and soon forgot all about it. Such stones, he supposed, were not uncommon, and a busy farmer had many more pressing matters to attend to.",
+   "A few days later an old visitor arrived at the farm, and it was the very same priest who had once told Ali Hafed about diamonds. He had come to call on the new owner, as such men do, and to see how the old farm was doing. He strode into the house, glanced idly around the room, and then stopped dead in the middle of the floor, staring.",
+   "The old man's eye was caught at once by the flash of light from the shelf above the fireplace, and he hurried across the room as fast as his years would allow. He stared at the stone for a long moment in astonished silence, and then he cried out that it was a diamond. His voice rang through the quiet house like a bell, and the farmer jumped.",
+   "Then the priest inquired whether Ali Hafed had returned, and the new owner replied that nobody had set eyes on him since the day he left. The farmer added that the stone was nothing remarkable, merely a pebble that he had picked out of his own garden. He could not for the life of him understand why the old man was in such a state of excitement.",
+   "“I know a diamond when I see one,” said the priest firmly, and he would not hear another word of argument. Taking the farmer by the arm, he pulled him toward the door, and together the two men hurried out into the garden. Behind them, on the shelf above the empty hearth, the little stone went on glittering quietly in the half dark.",
+   "At the stream the two men knelt side by side on the bank and began to stir the white sand with their fingers, while the camel looked on in mild surprise. The priest's hands trembled with excitement, though the farmer still thought the whole thing rather silly. Neither of them said a word as the sand swirled and settled in the clear water.",
+   "It was not long before their fingers closed on a second stone and then a third, and each seemed more beautiful and more valuable than the one before. Some were larger than the pebble on the shelf, and others flashed with a fire that made the farmer gasp. The humble garden stream, it was now perfectly clear, was lined from end to end with precious jewels.",
+   "According to the guide, this was how the diamond mine of Golconda was discovered, the most magnificent mine in the whole history of mankind. He claimed that it surpassed even the great fields of Kimberley, and that its stones had gone to decorate the crowns of the world's most powerful rulers. A story told from the back of a camel is surely allowed a little grandeur, and the guide made the most of it.",
+   "The real Golconda lies in India, near the city of Hyderabad, where a great fortress stands on a rocky hill above the plain. For centuries the region was famous for its diamonds, which were traded to merchants and rulers across the world, and the tale simply borrows its glamorous name. As far as anyone knows, no diamond mine has ever been found in a Persian farmer's garden.",
+   "Some of the most famous old diamonds in the world, among them the Koh-i-Noor, are said to have come from that part of India. The Koh-i-Noor now belongs to the British crown jewels, and several countries still argue over who should rightly own it. Its long history of kings, wars and quarrels is a real story, and quite as dramatic as any legend.",
+   "Kimberley, in South Africa, became the centre of the world's diamond trade after diamonds were found there around 1871. Thousands of diggers rushed to the spot, and with picks and shovels they dug a vast crater, now called the Big Hole, almost entirely by hand. It is said to be the largest hole ever dug by hand, and the guide used it as the yardstick of a truly rich mine.",
+   "The usual account of the first African discovery sounds uncannily like the guide's tale of the camel and the stone. In 1866 a young boy picked up a pretty stone beside a river on his family's farm in South Africa, and it was later recognised as a diamond. Within a few years the news had drawn thousands of hopeful diggers to the region.",
+   "When the tale was finished at last, the guide drew the moral plainly for his young listener. Had Ali Hafed stayed at home and dug in his own garden, instead of wandering to starvation and death in a strange land, he would have had acres of diamonds. That, in a single sentence, is where the title of the lecture comes from.",
+   "Every shovelful of that old farm, the guide said, would have uncovered more of the gems that went on to decorate the crowns of monarchs. Each acre was a treasury waiting to be opened by anyone with a spade and a little curiosity. And the man who had once owned it all had turned his back on it and walked away.",
+   "While Ali Hafed went hungry in a strange land, the treasure he longed for lay in the little stream where his children had splashed and played. He had walked past it a thousand times and watched his family laugh beside it. It is hard to imagine a crueller irony, and it is the very heart of the tale.",
+   "Conwell said that the guide's tale stayed with him long after the camels and the river had been left behind. He turned it over in his mind for years, as one turns over a coin to see both sides, and each time it seemed to say something new. In the end he decided that it was not really a tale about diamonds at all.",
+   "In Conwell's view, Ali Hafed's real trouble was never poverty, which he did not have, but discontent, which he caught like a fever from a single conversation. Until the priest spoke he had been perfectly happy, and afterward he felt miserably poor, although not one thing on his farm had changed. The farm was exactly the same as before; only his way of seeing it had altered, and that alone was enough to ruin his peace.",
+   "Wanting a better life is not wrong, and Conwell never claimed that it was; ambition drove him as hard as anyone. His point is a narrower one, that before you set out across the world you should look carefully at the ground you are standing on. A search that begins at home costs little, and it may save a lifetime of wandering.",
+   "The trap is the belief that the good chances are always somewhere else, in another town, another trade or another country. Far-off places look exciting precisely because we do not know them, while our own street looks dull because we know it too well. Familiarity, in other words, can hide a treasure from our eyes quite as effectively as any distance can.",
+   "Not once, so far as the tale tells, did Ali Hafed stop to ask what his own land might hold, or to look closely at the sand in his garden stream. He had trusted a priest's word about the world far away and had never questioned his own ignorance of the world nearby. A little curiosity at home, a spade and an afternoon in the garden would have cost him nothing at all.",
+   "Then Conwell turned to the faces in front of him and told his listeners that they, too, were standing in the middle of their own acres of diamonds. He did not mean that the ground beneath the hall was full of jewels, but that every person there was surrounded by chances that they had not yet noticed. It was a bold thing to say to a room full of strangers, and it is easy to see why it held their attention.",
+   "In the lecture the diamonds stand for opportunities of every kind, such as a skill you have learned, an idea you have had or a friend who might help you. They include the work that is waiting at your own door and the needs of the neighbours whom you meet every day. Most of us own a good many of them already, and most of us have simply never counted.",
+   "Conwell never suggested that the treasure would simply leap into a person's hand, and even in the tale the diamonds had to be found. The priest and the farmer had to kneel in the stream, stir the sand with their fingers and look closely at what came up. Opportunity, in other words, is something to be worked for, and not merely waited for.",
+   "It would be a mistake to read the tale as an order never to leave home. Millions of people have moved to find work, safety, education or freedom, and many of them were right to go, as any history of migration shows. The lesson of the tale is not that leaving is foolish, but that leaving without first looking around is a gamble.",
+   "So the question that Conwell leaves with us is a simple one, and it can be asked by anyone, anywhere, at any age: have I really looked carefully at the place where I am? If the answer is no, then the search for diamonds has not yet begun, whatever journeys we may have made. The chapters that follow are, in a sense, a practical guide to looking, and they begin with two famous examples from history.",
+   "Conwell next gives his audience a story closer to home, set on a farm in Pennsylvania, the state where many of his listeners lived. As he tells it, the farm was owned by a man who wanted to find oil, and he looked everywhere except under his own feet. It is Ali Hafed's story again, set in a different land and told in a different dress.",
+   "In western Pennsylvania, black oil had long seeped from the rocks into the creeks, and people had known about it for generations. They skimmed it from the surface of the water with cloths and blankets, and some sold it as a medicine for aches and pains. Nobody yet imagined that it might become the foundation of a vast new industry.",
+   "In 1859 a man named Edwin Drake drilled a well near Titusville, in Pennsylvania, and struck oil at a depth of about seventy feet. His success astonished the neighbourhood, and within a few years the valleys were crowded with wooden towers, storage tanks and hopeful investors. The oil rush had begun, and it went on to change the American economy.",
+   "In Conwell's telling, a farmer in that part of the country sold his farm for a modest sum and went off to hunt for oil in some distant place. He was certain that the fortune must be waiting somewhere else, and he never thought to look closely at his own fields. So off he went, and he took all of his hopes and every one of his dreams along with him.",
+   "The man who bought the farm soon noticed a dark, oily film floating on the stream that crossed it. Being practical, he laid a board across the water to hold back the scum, so that his cattle could drink from the clean water behind it. The first owner had seen that same dark film every day of his life, and he had never once asked what it might mean.",
+   "In the story, the farm lay directly above one of the richest oil fields in the region, and the new owner grew wealthy from it. The treasure that the first owner had travelled so far to find had been seeping into his own stream, in plain view, for years. The lesson is the same as in the Persian tale, and the stakes are just as large.",
+   "In January 1848 a carpenter named James Marshall noticed shining flakes in the water of a millrace at Sutter's Mill, beside the American River in California. He was building a sawmill for his employer, John Sutter, and he had not set out to look for treasure at all. The flakes turned out to be gold, and the news was soon impossible to keep quiet.",
+   "The news raced around the world, and in the following years people poured into California by ship, by wagon and on foot, in a great movement known as the gold rush. By about 1855 some three hundred thousand people had arrived, many of them having left homes, farms and families thousands of miles away. Those who arrived in the first great wave of 1849 are still remembered today as the forty-niners, and their name has become part of American history.",
+   "Only a small number of the diggers grew rich, for the work was hard, the claims were crowded and the supplies were costly, and many went home with little more than they had brought. Others stayed in the new state and became farmers, shopkeepers or craftsmen, building lives that were worth more than a lucky find. The golden dream, it seems, was kinder to the careful than to the merely hopeful.",
+   "Shopkeepers who sold tools, food and clothing to the diggers often did better than the diggers themselves, for they met a need that every newcomer had. It is also worth noticing that the very first finder was not a far-travelled treasure hunter but a working carpenter who happened to be standing at the right stream. Once again, the chance had been lying close to someone who was paying attention.",
+   "Conwell's first rule is simple: do not wait for a better time or a better place, because the opportunity that matters is the one lying directly before you. People are forever promising to begin when they have more capital, more leisure or a kinder town. He replied that the best moment and the best place are, almost invariably, the present one and the nearest.",
+   "He invited his listeners to look at the people around them as though they were seeing them for the first time. What do your neighbours need, he would ask, and what would they gladly pay for if someone offered it? Those questions, he held, are the quickest road to a diamond, because the answers are usually standing next door.",
+   "It is said that before each talk Conwell took the trouble to learn about the town in which he was to speak. He asked about its shops, its factories, its schools and its leading citizens, so that he could talk about the people in front of him and not about strangers far away. Such care is probably one reason why audiences felt that he spoke to them personally.",
+   "Picture a town with a school, a mill and a railway station, the kind of place that Conwell visited again and again. Each of these has needs of its own, for the school wants books and teachers, the mill wants workers and repairs, and the station wants porters, carts and a place for travellers to eat. A person who looks at the town in this way sees a dozen small chances where others see only a quiet street.",
+   "Moving away rarely cures a restless mind, for you take yourself with you wherever you go. The lazy habit, the fear or the careless way with money that held you back at home will follow you onto the train. A mere change of place, taken by itself, solves a good deal less than most people hope that it will.",
+   "You know your own town, its customs, its seasons and its people, and that knowledge is a kind of capital that a stranger would take years to acquire. You know who is honest, who is in a hurry, who has just had a baby and who is about to open a shop. Conwell wanted his listeners to see that this ordinary knowledge was worth real money.",
+   "Your neighbours already know your name, your family and your character, and in business that counts for a great deal. Trust takes years to build, and a newcomer must start from nothing, whereas you have a head start the moment you open your door. A reputation for fairness, once earned in a small place, travels from mouth to mouth faster than any advertisement.",
+   "Starting again in a new place costs money for rent, travel and tools, and the trust of the neighbours must be earned all over again. Staying where you are saves both, and leaves your first savings free to invest in your own good idea. It is a sensible, if somewhat unglamorous, argument for staying put and making the best of the ground that you already know.",
+   "Conwell did not mean that people should sit still and wait for fortune to knock at the door. He meant that they should begin today, with the tools and the talents that they already hold, and keep going until something works. The garden, after all, only yielded its diamonds to those who were willing to stir the sand.",
+   "Here is a simple way to test the idea for yourself, and it takes only a few minutes. Write down five things that people in your street or village lack, or often complain about, and then ask which of them you could help to solve. Each of those five items is a possible beginning, and none of them requires a journey.",
+   "Conwell's rule for finding the diamond can be put in a single line: find out what people need, and then supply it. It sounds almost too simple, and yet most of the world's useful trades, from baking to banking, are built on exactly that. Whoever solves a real problem for many of his neighbours will seldom find himself short of customers.",
+   "People pay for what helps them, and not for what the maker happens to admire. A beautiful object that nobody needs will gather dust on the shelf, while a plain one that solves a pressing problem will sell out by noon. The best test of any good idea is simply whether it makes somebody's day easier to get through.",
+   "In 1854 an inventor named Elisha Otis stood on a lift platform at the New York Crystal Palace and, according to the famous story, ordered the rope to be cut, proving that his safety brake would hold. People had feared lifts because a snapped rope meant a fall, and he had solved exactly that fear. His invention helped to make tall buildings practical, and the need he met was one that everyone could understand.",
+   "Margaret Knight worked in a paper-bag factory in the 1860s, where she noticed that the bags were folded like envelopes and were awkward to fill. She designed a machine that made bags with flat bottoms, much like the grocery bags we know today, and she won a patent for it in 1871. A tiny, everyday annoyance in a busy factory had pointed her straight toward a most useful invention.",
+   "Josephine Cochrane wanted to protect her fine china from the chips and cracks that came with hand washing, and so she designed a machine to do the work with jets of soapy water. She patented it in 1886, and hotels and restaurants soon became her best customers, for they had more dishes than they could wash. She had begun by solving her own small problem and ended by solving a great many other people's.",
+   "A tailor named Jacob Davis found that the pockets of tough work trousers tore easily, so he strengthened them with small metal rivets. Lacking the money to patent the idea alone, he wrote to Levi Strauss, a merchant who supplied the cloth, and together they received a patent in 1873. The result was the blue work trousers that millions of people still wear today.",
+   "Look closely at these four inventors and the same clear pattern begins to appear in each of their stories. None of them set out to be famous or to find a treasure, but each noticed a small and real problem and then did something about it. Their diamonds were lying in the open for anyone to pick up, and they were the ones who bent down.",
+   "Three modest questions are enough to set a patient person on the road toward a personal fortune. What do the people near me find difficult, what squanders their time or their money, and what do they already pay other people to undertake? A sound answer to any one of them may prove to be the first gem in your own garden.",
+   "Not everyone has to invent a machine in order to meet a need, and Conwell would have agreed. A teacher, a cook, a tailor or a nurse serves other people every day, and each of them earns a living by being useful. Service of that kind is the oldest kind of treasure, and it is available to anyone.",
+   "Learning what people really need takes far more attention than most of us ever give. You must watch what they do, ask them kind and sensible questions, and above all listen to the answers without interrupting. The diamond hunter who listens well will often be told exactly where the treasure lies.",
+   "Begin small, says Conwell, begin where you are, and begin with what you have. The grand plan that needs a fortune, a distant city and a lucky break is usually a way of putting off the first step. A modest start made today is worth more than a magnificent start that is always planned for next year.",
+   "A good start, in Conwell's view, demands attention a great deal more than it demands cash. Many useful ideas can be tested for the price of a few materials and a few days of observation, while expensive ideas often fail precisely because nobody tested them cheaply first. Careful watching, in short, is the cheapest kind of capital that any beginner is ever likely to find.",
+   "Countless firms have begun in a kitchen, a shed or a corner of someone else's shop, with a single table, a few tools and a clear idea. Their owners had little space and little money, but they were close to their first customers and could learn from them quickly. Size and fame come later, but only if the idea at the heart of the enterprise is sound and useful.",
+   "A small start has one great advantage, which is that it lets you learn cheaply. A mistake made with a few goods and a few customers is a lesson, whereas the same mistake made with a large stock and borrowed money may be a disaster. Those who begin modestly can afford to be wrong, and being wrong is how nearly everyone learns.",
+   "Your first customers will most likely be your neighbours, and they are the best possible audience for a beginner. If they are pleased with what you offer, they will tell their friends over the garden fence, and your reputation will begin to spread without costing you a penny. If they are not pleased, they will tell you why, which is nearly as valuable.",
+   "Put aside a little money each week, even when the amount seems too small to matter, because small amounts have a way of becoming useful. A modest saving may one day buy a tool, a stock of goods or a month of study, and those things are the seeds of a trade. It is dull advice, which no one finds exciting, and yet it is advice that almost everyone would do well to follow.",
+   "Levi Strauss arrived in San Francisco in 1853 and opened a business selling cloth, clothing and other dry goods to the shops of the growing city. It was a modest beginning for a man who would later help to create one of the most famous clothing firms in the world. Great companies, as his example reminds us, are nearly always small companies that did not give up.",
+   "Wilbur and Orville Wright ran a small bicycle shop in Dayton, Ohio, and they used the skills and tools of that humble trade to build gliders and then an engine-powered aeroplane. In December 1903 their machine made the first successful powered flights, on a windy beach in North Carolina. Such a world-changing idea grew from a workshop that most visitors would have thought quite ordinary.",
+   "When one small step works, the sensible thing is to take the next one, and then the one after that. Few people reach the top of a staircase in a single leap, and those who try often fall and hurt themselves. Progress that is steady, patient and a little dull is the kind that lasts.",
+   "Conwell's advice, in the end, comes down to three plain steps that any patient person can follow. First find a real need among the people near you, then plan a way to meet that need with the means that you have, and finally begin, without waiting for perfect conditions. Each step is modest, and taken together they form a road leading from an empty pocket to a useful and respected life.",
+   "Your own skills, your friends and the place where you live are your acres of diamonds, and you did not have to travel anywhere to acquire them. Each is a resource that someone has built over many years, often without noticing. The first task, then, is simply to take a careful inventory of everything that you already own.",
+   "Learning a skill and practising it until it is second nature makes you more useful to other people, and a useful person is always in demand. Employers look for those who can do something well, and customers seek out those who can solve their problems quickly. No other kind of treasure is quite as easy to carry from one place to another as a well-practised skill.",
+   "This is partly why Conwell founded his evening classes, since he saw learning as a form of digging for the treasure that lies inside every person. A clerk who learned bookkeeping, or a labourer who learned to read plans, had added a diamond to his own hands. Education, in his view, was the most reliable tool for turning daily effort into lasting value.",
+   "Benjamin Franklin was apprenticed as a boy to his older brother, a printer in Boston, and there he learned a trade that would carry him through life. He read as many books as he could borrow, and he practised writing by copying the style of good authors. The skills he built in those early years later served him as a writer, a scientist and a statesman.",
+   "A skill is built by steady practice, a little each day, in the same way that a wall is built a brick at a time. Nobody becomes truly skilled in a week, but anyone who keeps at it for a year will be astonished at how far they have come. The patience that this demands is simply the price of the diamond, and it is a price that anyone can afford to pay.",
+   "Every farmer knows that there is no shortcut to a good harvest, and that seeds must be planted, watered and weeded before anything grows. The same law governs every other kind of work, and those who hope to skip the labour usually end up with nothing to show for their hopes. Conwell's tale is a reminder that the richest ground still has to be dug.",
+   "A field at a distance always looks greener than the one beneath our feet, and the tale is a long warning against the envy that this illusion breeds. Ali Hafed pictured a faraway treasure so brightly that he overlooked the one at home. We are all tempted, now and then, to make the same mistake with our own work, our towns and our lives.",
+   "Begin by serving the people who are nearest to you, which means your family first, then your neighbours, and then the people of your town. Their needs are the easiest for you to see, and your help is the easiest for them to trust. A habit of generous service in a small circle is the best training for service in a larger one.",
+   "Friends and neighbours are part of the treasure as well, and a wise person does not neglect them while chasing something larger. They may offer advice, work, an introduction or simply the courage to try, and such gifts cannot be bought at any price. Ali Hafed, tragically, left behind the best family and the best neighbours that a man could have wished for.",
+   "A person who is truly useful has a kind of safety that money alone cannot supply, for there will always be work for someone who can do something well. Fashions change, businesses close and prices rise and fall, but a real skill, honestly practised, keeps its value through all of them. That, at bottom, is why Conwell urged ordinary people to become skilful before they tried to become rich.",
+   "Conwell took a bold position, one that some listeners found surprising from a minister: it is right, and even a duty, to become rich, so long as one does so honestly and for a good purpose. He gave this as his own opinion, and he defended it with energy in hall after hall. Whether we agree with him or not, his argument gives every thoughtful reader a good deal to think about.",
+   "Conwell believed that many kind and honest people keep away from wealth because they have been taught that wanting money is wrong. In his opinion, this belief left the world's money in the hands of the careless and the greedy, and left good people poor when they might have done a great deal of good. It was a thought-provoking argument, and it is easy to imagine that not every listener in the hall was convinced by it.",
+   "Conwell pointed out that the Bible warns against the love of money, and not against money itself, which in his view was a useful servant. A letter attributed to the apostle Paul says that the love of money is a root of all kinds of evil, and the difference between loving money and using it, he argued, is the whole point. Readers from every tradition may weigh the question for themselves, and many will read the old text in their own way.",
+   "A person who is honest, who weighs fairly and keeps promises, earns a trust that no advertisement can buy. Trust brings customers back again and again, and it brings their friends along with them, so that honesty turns out to be good business as well as good conduct. Conwell never tired of making that point, which he repeated to shopkeepers, farmers and clerks in town after town.",
+   "Conwell claimed that most wealthy people had earned their money honestly, which was why people trusted them with so much. Yet in his own time, the years that we call the Gilded Age, some very large fortunes were made by bribery, fraud or the crushing of rivals, and newspapers said so loudly. Many historians would say that the truth lay somewhere between his cheerful view and his critics' harsher one.",
+   "A good name takes many years of honest work to build, and a single dishonest act can destroy it in an afternoon. For that reason a careful person guards it more jealously than any purse, since once lost it is very hard to buy back. Conwell's listeners, living in small towns where everyone knew everyone, understood this very well.",
+   "Conwell held a hard view that many readers will find unkind today, namely that most poor people were poor through their own faults. He thought that laziness, carelessness and bad habits kept them down, and he said so plainly to audiences that included people who were struggling. We should note it as his opinion, and then look at what the evidence says.",
+   "Today many economists and historians see numerous causes of poverty beyond personal fault, among them illness, accidents, low wages, lost jobs and unequal chances at school and work. A hard-working farmer may lose a crop to the weather, and a careful worker may lose a job when a factory closes. Conwell's view contains some truth, since habits matter, but it is certainly not the whole story.",
+   "Still, Conwell believed strongly in helping those who were trying to improve their lives, and he put his own money where his opinions were. Much of what he earned went to students who could not otherwise have afforded an education, and it is for this generosity that he is best remembered. A harsh opinion about the poor, it seems, can sit quite comfortably beside a very generous and helping hand.",
+   "So we may take two lessons from this part of the lecture, and hold them together. Honest effort is good, and an honest fortune is nothing to be ashamed of; yet we should be slow to judge the poor, since we rarely know the whole of another person's story. Wisdom lies, as so often, in keeping both of these thoughts firmly in view at the same time.",
+   "Money, said Conwell, is a power, and like any power it can be used well or badly. Used well, it builds schools, churches and hospitals, pays teachers and nurses, and gives help to those who would otherwise go without. He wanted his listeners to see it as a tool for good, and to feel a little less ashamed of wishing for it.",
+   "Stephen Girard, a banker and shipowner in Philadelphia, died in 1831 and left most of his large fortune to the city and to the founding of a school for poor orphan boys. Girard College opened in 1848, and it still stands in Philadelphia today, a monument to what one man's money could do. Conwell would have known it well, since he lived and worked in the same city.",
+   "Peter Cooper, a New York businessman and inventor, made a fortune from iron and from glue, and he never forgot that he had himself been short of schooling. In 1859 he opened Cooper Union, a college that offered free education to working people and that still carries his name. His example shows how a fortune earned honestly can pay for opportunities for thousands.",
+   "When Benjamin Franklin died in 1790, he left a sum of money to each of the cities of Boston and Philadelphia, with the instruction that it be lent to young craftsmen who were starting out in a trade. The fund was to grow over two centuries, and it did, paying for useful projects long after his death. Franklin had once been a poor apprentice himself, and he wanted others to have the help that he had needed.",
+   "Conwell asked those who grew rich to give wisely and not merely to keep, since he believed that wealth carries with it a duty toward other people. A gift that teaches a young person a trade may do more lasting good than a purse of coins handed over without thought, and many givers have reached that same conclusion. This was the principle that seems to have guided his own giving to the school.",
+   "You do not have to be rich in order to give, and Conwell would not have wanted anyone to believe otherwise. An hour spent teaching a child to read, a skill shared with a neighbour or a meal carried to a sick friend are gifts of real value. Some of the best help in any town is given by people who have almost no money at all.",
+   "The danger comes when money stops being a tool and becomes a master, so that a person works only for coins and forgets the people for whom the coins were meant. Conwell's warning about the love of money seems to have exactly this danger in mind. A fortune that costs a man his honesty, his health and his friends is a very poor bargain indeed.",
+   "Ali Hafed already had enough, but after the priest's visit he could no longer see it. To know what is enough is itself a kind of wealth, and it is one that a person can possess without owning a single jewel. The farmer lost it in a single evening, and he never found it again.",
+   "Wealth is not only a matter of money, and Conwell's own tale shows this very clearly. Health, a loving family, good friends, honest work and a respected name are all forms of riches, and they cannot be bought in any market. A person who has them has far more than the accounts of a bank can ever show.",
+   "At the beginning of the tale Ali Hafed possessed every one of these riches, and he gave them up for the sake of a dream that was not even his own. The priest had meant no harm, and the farmer had meant none either, which is exactly why the story is so sad. That is why the tale still stings after all these years, and why it remains well worth hearing again and again.",
+   "Greatness, says Conwell, is not a matter of fame, wealth or high office, but of doing great good wherever one happens to be. A quiet life spent serving others may therefore be greater than a loud life spent in the public eye. It was a democratic idea, and it suited the ordinary people who filled his halls.",
+   "A good teacher in a small village school may change the lives of hundreds of children over the years, and yet she will seldom be given a statue or a headline. Her pupils carry what she taught them into homes, shops and farms that she will never see. If that is not a kind of greatness, then it is very hard to say what greatness could possibly be.",
+   "Abraham Lincoln was born in 1809 in a one-room log cabin in Kentucky, and he grew up on frontier farms with very little formal schooling. He taught himself by reading whatever books he could borrow, and he became a lawyer and later the sixteenth president of the United States. His beginnings were as plain as any listener's, and that was just the point.",
+   "Conwell himself was a boy from a hill farm in a small Massachusetts town, and nothing in his early surroundings promised that he would one day address enormous crowds in great cities. His own life was a modest proof of his argument that important work can begin in the least important place. He spoke, in other words, as a living example and not as a distant expert.",
+   "Many of the people who do the greatest good come from small towns and plain homes, and are known to few outside them. The village schoolteacher, the country nurse and the careful farmer rarely appear in history books, yet their work holds a community together. A community, after all, is built far more from steady labour than from famous names.",
+   "Every famous person was once someone's neighbour, a name that few people knew and nobody expected to remember. Their first steps were taken in plain places, among ordinary tasks, long before any crowd was there to cheer them. If you are waiting for the world to notice you before you begin, you may be waiting for a very long time.",
+   "You can show real greatness in small and everyday things, and a kind act, a fair price or a promise kept at some cost to yourself is as good a place to begin as any. Such deeds rarely make the news, but they make a community worth living in. A town full of people who do them is a town full of diamonds.",
+   "A person who serves a community faithfully becomes known for it, and in time is often trusted with larger duties. The doctor who comes at night, the shopkeeper who gives fair measure and the teacher who stays late are the people to whom others turn. Conwell saw in such figures the quiet answer to his own question about where greatness might be found.",
+   "Fame is quick to fade, and the thrones that Ali Hafed once dreamed of for his sons have crumbled in the real world as surely as any kingdom of the past. A useful life, by contrast, leaves behind schools, hospitals, friendships and habits of kindness that outlast the person who began them. The tale quietly asks us which kind of legacy we would prefer to leave.",
+   "Greatness, in Conwell's sense, is open to everyone who is listening, and it need not wait for a better year or a larger stage. It can begin today, in your own street, with a single useful act done for another person. There is no entrance fee to be paid, and the door, as far as Conwell was concerned, has always stood wide open.",
+   "The lecture belongs to the time in which Conwell lived and spoke, and a modern reader should enjoy its plain wisdom while weighing its opinions and its facts with care. Some of its examples are legends rather than records, and some of its views about money and poverty have been challenged by later writers. That is no reason to put the book down, only to read it with an open and critical mind.",
+   "Times have changed, and chances were never equal for everyone, even in Conwell's own day. Women were denied the vote in national elections, many Black Americans were shut out of good schools and well-paid jobs by law and custom, and newcomers from other lands were often treated with suspicion. For people in those positions, some barriers could not be dug away by hard work alone.",
+   "Where the barriers are real, the lesson becomes a double one: look for what you can use close to you, and also work with others to change what is unfair. In Conwell's century and since, people have built schools, formed unions, won the vote and opened doors that were once shut, and each of those victories created new acres for those who came after. A garden can be improved and made fairer for everyone, as well as simply dug.",
+   "The whole lecture can be boiled down to four ideas that fit easily into a notebook. Find a real need near you, serve it honestly, build a skill that makes you useful, and keep working steadily even when progress seems slow. None of the four requires a fortune, a miracle or a long journey, only a clear head and a willingness to begin.",
+   "Conwell hoped that those who succeeded by this road would remember what money is for, and would spend it on schools, hospitals and the happiness of others. He hoped, too, that they would find contentment in a useful life, and not merely in a growing pile of coins. In that hope, the end of the lecture comes back to the contented man at the beginning of the tale.",
+   "Ali Hafed is not a villain, and nobody in the tale is one, for the priest meant well and the new owner simply picked up what lay at his feet. Ali Hafed was a good man with a restless wish, and his story is sad because it could have ended so differently. That is the secret of its power, for each listener is able to find a little of himself in it.",
+   "The tale of Ali Hafed has been retold in many books, sermons and speeches, and plenty of people who have never read the lecture know the story of the farmer, the priest and the camel. Each teller changes the details a little, as the guide himself may once have done, but the heart of the tale survives every retelling. It is the mark of a good story that it can travel so far and still be recognised.",
+   "When you close the book, try looking at your own street as though you were a stranger seeing it for the first time. The shop that is always empty, the school that needs helpers and the neighbour who cannot find a tradesman are all clues that something is waiting to be done. In that new light, a familiar place may begin to look quite different from the one that you thought you knew so well.",
+   "Before you go, take a sheet of paper and set down three lists: the abilities you possess, the acquaintances you value and the needs that you can observe nearby. Then draw a line from each ability to a need that it might meet, and from each friend to the help that they might offer. Within a few minutes you may discover that your acres of diamonds already have a rough map.",
+   "Conwell ended his lecture with a question that every listener could take home, and the question is still open: where are your own acres of diamonds? They may lie in a skill you have not yet used, in a neighbour whose need you have not yet noticed, or in the work that lies at your own door. Dig there first, he would say, before you set out to look anywhere else."
+  ]
+ }
 }
