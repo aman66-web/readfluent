@@ -726,6 +726,39 @@
      "s": 0.92
     },
     {
+     "id": "candle",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-mystery-of-the-yellow-room",
+  "title": "The Mystery of the Yellow Room",
+  "author": "Gaston Leroux",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A young woman is attacked in a locked room with barred windows, yet the attacker has vanished. Eighteen-year-old reporter Rouletabille follows clues from a muddy lake to a long gallery, and finds a truth stranger than any ghost.",
+  "cover": {
+   "bg": "#F3EDE3",
+   "light": true,
+   "title": [
+    "The Mystery",
+    "of the Yellow",
+    "Room"
+   ],
+   "size": 13,
+   "author": "GASTON LEROUX",
+   "pieces": [
+    {
+     "id": "key",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
      "id": "footprints",
      "x": 160,
      "y": 38,
@@ -1175,6 +1208,81 @@
     },
     {
      "id": "lamp",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-last-lantern-of-aldermoor",
+  "title": "The Last Lantern of Aldermoor",
+  "author": "The Lord of the Rings",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "A grey fog is spreading across Aldermoor, and everyone it touches forgets who they are. Corin, a ferryman's son, is handed the last burning lantern and must carry it across marsh, forest, mountain and sea before its light goes out.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "The Last",
+    "Lantern of",
+    "Aldermoor"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lamp",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "ship",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-reluctant-burglar-s-map",
+  "title": "The Reluctant Burglar's Map",
+  "author": "The Hobbit",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "Ilse Quill mends maps and never leaves home after dark. Then a sea captain asks her to read a thief's old chart and steal the one map that could feed a hungry island. Ilse would much rather stay and drink her tea.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Reluctant",
+    "Burglar's Map"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -2270,7 +2378,7 @@
   "category": "religion-spirituality",
   "blurb": "Ines cannot stop worrying, so she takes a summer job at a tiny railway station. There, an old stationmaster teaches her to sit on the platform and watch her thoughts arrive and leave like trains. A gentle book about the part of you that notices.",
   "cover": {
-   "bg": "#0A1428",
+   "bg": "#1B2250",
    "title": [
     "The Mind That",
     "Watches"
@@ -2285,13 +2393,46 @@
      "s": 0.9
     },
     {
-     "id": "lighthouse",
+     "id": "train",
      "x": 100,
      "y": 82,
      "s": 0.92
     },
     {
-     "id": "train",
+     "id": "moon",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "walk-slowly-breathe-deeply",
+  "title": "Walk Slowly, Breathe Deeply",
+  "author": "The Miracle of Mindfulness",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "Hana has just retired and cannot stop hurrying, even with nowhere to go. A quiet neighbour shows her how to walk slowly beside the river, and how to breathe as if each breath were new. A gentle guide to walking and breathing.",
+  "cover": {
+   "bg": "#DDF3E4",
+   "light": true,
+   "title": [
+    "Walk Slowly,",
+    "Breathe",
+    "Deeply"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "leaf",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -2659,6 +2800,42 @@
     },
     {
      "id": "apple",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "feed-your-gut",
+  "title": "Feed Your Gut",
+  "author": "Fiber Fueled",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Noah rides a bicycle for a living and wants to feel lighter and stronger. His neighbour Ines studies microbes, and she shows him the tiny world inside every gut, and how everyday food can help it thrive.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Feed Your Gut"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lens",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "leaf",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -3298,6 +3475,44 @@
     },
     {
      "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "strings-space-and-time",
+  "title": "Strings, Space and Time",
+  "author": "The Elegant Universe",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "What are space and time made of? Follow two great theories, relativity and quantum physics, to the place where they clash, then meet string theory, a bold and unproven idea about tiny vibrating loops. It is honest about what we know and what we do not.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "Strings,",
+    "Space and",
+    "Time"
+   ],
+   "size": 18.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "orbit",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "needle",
      "x": 160,
      "y": 38,
      "s": 0.36

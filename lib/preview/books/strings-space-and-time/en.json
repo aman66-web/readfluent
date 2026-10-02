@@ -1,0 +1,417 @@
+{
+  "slug": "strings-space-and-time",
+  "meta": {
+    "blurb": "What are space and time made of? Follow two great theories, relativity and quantum physics, to the place where they clash, then meet string theory, a bold and unproven idea about tiny vibrating loops. It is honest about what we know and what we do not.",
+    "bible": "Voice: clear, curious and honest, speaking to \"you\". The science is real; string theory is not proven, and the text says so wherever it matters. Plan: relativity, then quantum physics, then the clash between them, then string theory, then the doubts and the open questions. Key terms: Newton, Einstein, Planck, Heisenberg, Special relativity, General relativity, Spacetime, Light, Photon, Black hole, Event horizon, Gravitational waves, Big Bang, Quantum, Quantum physics, Wave, Probability, Uncertainty principle, Superposition, Entanglement, Quantum field, Electron, Quark, Proton, Neutron, Neutrino, Higgs boson, Standard Model, Graviton, Large Hadron Collider, CERN, Planck length, String theory, Superstring, M-theory, Brane, Dimension, Dimensions, Supersymmetry, Holography, Landscape, Loop quantum gravity, Cosmic strings, Mercury, GPS, LIGO, Sun, Earth, Moon, Universe, Calabi-Yau. Facts used: light travels about three hundred thousand kilometres a second; the Sun turns about four million tonnes of matter into energy every second; the first gravitational waves were detected in 2015; the Higgs boson was found in 2012; string theory needs ten dimensions of spacetime, and M-theory eleven; no experiment has yet confirmed string theory."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A person lies on a hill at night looking at stars and the Moon",
+      "summary": "You ask what space and time are made of, and the book sets out its plan."
+    },
+    {
+      "n": 2,
+      "scene": "A man with a heavy book and an apple beside an old clock",
+      "summary": "Newton pictured space and time as a fixed stage with gravity pulling across it."
+    },
+    {
+      "n": 3,
+      "scene": "A beam of light passes a runner and a fast train",
+      "summary": "The speed of light is the same for every observer, which is very strange."
+    },
+    {
+      "n": 4,
+      "scene": "A young man writes at a desk by lamplight beside a clock",
+      "summary": "In 1905 Einstein said that if light is always the same speed, time itself must change."
+    },
+    {
+      "n": 5,
+      "scene": "Two clocks, one on a rocket and one on the ground, show different times",
+      "summary": "A moving clock runs slower than a still one, but the effect is tiny at everyday speeds."
+    },
+    {
+      "n": 6,
+      "scene": "A rocket speeds past a stretched ruler toward the edge of a bright beam",
+      "summary": "Nothing with mass can reach the speed of light, which is a cosmic speed limit."
+    },
+    {
+      "n": 7,
+      "scene": "A bending grid of lines like a net, with a clock at one crossing",
+      "summary": "Space and time are linked together as one thing called spacetime."
+    },
+    {
+      "n": 8,
+      "scene": "The Sun shines in the dark as tiny grains of matter become light",
+      "summary": "Mass is a kind of stored energy, and a little mass can make a huge amount of energy."
+    },
+    {
+      "n": 9,
+      "scene": "Two travellers walk north on a globe and meet at the top",
+      "summary": "In general relativity, gravity is the bending of spacetime."
+    },
+    {
+      "n": 10,
+      "scene": "Clocks at the top and bottom of a tower, with satellites above",
+      "summary": "Gravity slows time, and navigation satellites must allow for this."
+    },
+    {
+      "n": 11,
+      "scene": "Stars seen near the edge of the Sun during a total eclipse",
+      "summary": "Tests such as the 1919 eclipse showed that starlight bends near the Sun."
+    },
+    {
+      "n": 12,
+      "scene": "A dark round shape with a bright ring of curved light around it",
+      "summary": "A black hole is a place where gravity is so strong that not even light can escape."
+    },
+    {
+      "n": 13,
+      "scene": "Two black holes spiral together while ripples spread across the grid of space",
+      "summary": "In 2015 ripples in spacetime called gravitational waves were detected for the first time."
+    },
+    {
+      "n": 14,
+      "scene": "A balloon with dots drawn on it grows larger as the dots move apart",
+      "summary": "Relativity predicts that the whole Universe can expand, as astronomers observe."
+    },
+    {
+      "n": 15,
+      "scene": "A glowing hot metal rod shows energy leaving in small separate sparks",
+      "summary": "In 1900 Max Planck found that energy comes in small packets called quanta."
+    },
+    {
+      "n": 16,
+      "scene": "A ray of light with ripples on one side and balls on the other",
+      "summary": "Light acts as a wave and as a stream of particles called photons."
+    },
+    {
+      "n": 17,
+      "scene": "A screen with two narrow slits and a striped pattern forming from small dots",
+      "summary": "Single electrons fired through two slits build up a wave pattern."
+    },
+    {
+      "n": 18,
+      "scene": "A wave of cloud shape spreads out above a map with one small mark",
+      "summary": "The wave of a particle gives only the odds of where it will be found."
+    },
+    {
+      "n": 19,
+      "scene": "A tiny ball with a blurred outline on a ruler with a fuzzy scale",
+      "summary": "The uncertainty principle says we cannot know a particle's position and motion exactly together."
+    },
+    {
+      "n": 20,
+      "scene": "A cat in a closed box with two glowing outcomes drawn above it",
+      "summary": "Before a measurement, a particle can be in several states, and scientists still debate what this means."
+    },
+    {
+      "n": 21,
+      "scene": "A calm sheet of fabric with small ripples spreading in different places",
+      "summary": "In quantum field theory, particles are ripples in fields that fill all space."
+    },
+    {
+      "n": 22,
+      "scene": "Two glowing particles far apart on either side of a dark space",
+      "summary": "Entangled particles stay linked even when far apart, but this cannot send messages faster than light."
+    },
+    {
+      "n": 23,
+      "scene": "A laser beam, a computer chip and a medical scanner on a table",
+      "summary": "Quantum physics gives us lasers, computer chips and medical scanners."
+    },
+    {
+      "n": 24,
+      "scene": "Four arrows of different colours pointing from a small circle",
+      "summary": "Nature has four forces, gravity, electromagnetism, and the strong and weak forces."
+    },
+    {
+      "n": 25,
+      "scene": "A table of small glowing balls grouped by colour and size",
+      "summary": "The Standard Model lists the known particles, including quarks and electrons."
+    },
+    {
+      "n": 26,
+      "scene": "A huge ring of machinery underground with two beams meeting in the middle",
+      "summary": "In 2012 the Higgs boson was found at the Large Hadron Collider."
+    },
+    {
+      "n": 27,
+      "scene": "A list of three forces with an empty space left for a fourth",
+      "summary": "The Standard Model leaves out gravity."
+    },
+    {
+      "n": 28,
+      "scene": "A smooth sheet on the left beside a jittering fuzzy sheet on the right",
+      "summary": "Relativity describes smooth spacetime, while quantum physics describes a jumpy world."
+    },
+    {
+      "n": 29,
+      "scene": "A dark point inside a black hole beside a tiny glowing dot",
+      "summary": "The clash matters inside black holes and at the Big Bang."
+    },
+    {
+      "n": 30,
+      "scene": "A ruler shrinks from a person to a cell, an atom and a dot",
+      "summary": "The Planck length is the tiny scale at which quantum gravity should matter."
+    },
+    {
+      "n": 31,
+      "scene": "A tiny loop of glowing thread where a dot would be",
+      "summary": "String theory suggests that the smallest things are tiny loops, not points."
+    },
+    {
+      "n": 32,
+      "scene": "A single guitar string with several different waves above it",
+      "summary": "Different ways of vibrating make different particles, like notes from one string."
+    },
+    {
+      "n": 33,
+      "scene": "A glowing loop of string with a small ripple that spreads like a wave",
+      "summary": "One vibration pattern of a string matches the graviton, so gravity appears in the theory."
+    },
+    {
+      "n": 34,
+      "scene": "A rubber band cannot be squeezed into a point between two fingers",
+      "summary": "Because a string has size, it may smooth out the wild jumps of tiny spacetime."
+    },
+    {
+      "n": 35,
+      "scene": "A line of equations on a board with the number ten circled",
+      "summary": "The maths of string theory needs ten dimensions of spacetime."
+    },
+    {
+      "n": 36,
+      "scene": "A sheet of paper rolled into a tube, seen from far and near",
+      "summary": "The extra dimensions may be rolled up so small that we cannot see them."
+    },
+    {
+      "n": 37,
+      "scene": "A twisted, folded shape glowing with many loops and holes",
+      "summary": "The shape of the hidden dimensions would decide which particles and forces exist."
+    },
+    {
+      "n": 38,
+      "scene": "Five different small loops merge into one large glowing shape",
+      "summary": "In the mid-1990s five versions of string theory were linked into one idea, M-theory."
+    },
+    {
+      "n": 39,
+      "scene": "A flat sheet floating like a membrane in a larger space with strings attached",
+      "summary": "M-theory suggests membranes called branes, and our world might lie on one."
+    },
+    {
+      "n": 40,
+      "scene": "A black hole with a surface covered in tiny dots",
+      "summary": "String theory can count the inner states of some black holes, matching an older prediction."
+    },
+    {
+      "n": 41,
+      "scene": "A small flat picture on a surface that shows a three-dimensional room",
+      "summary": "Holography suggests a volume of space can be described by information on its boundary."
+    },
+    {
+      "n": 42,
+      "scene": "Pairs of mirror image particles lined up beside a large detector",
+      "summary": "Supersymmetry would give every known particle a partner, but none has been found yet."
+    },
+    {
+      "n": 43,
+      "scene": "A long landscape of hills and valleys, each valley holding a tiny universe",
+      "summary": "There may be an enormous number of possible shapes, and so many possible universes."
+    },
+    {
+      "n": 44,
+      "scene": "A huge machine shown beside a tiny dot, far too small to measure",
+      "summary": "Strings are far too small, and the energy needed to see them is far too large."
+    },
+    {
+      "n": 45,
+      "scene": "A scientist watches a screen showing a tiny measurement of gravity",
+      "summary": "Indirect tests might use gravity at short distances, cosmic strings, partners and the early Universe."
+    },
+    {
+      "n": 46,
+      "scene": "Two people argue across a table, one holding equations and the other an experiment",
+      "summary": "Some people ask whether an untested theory is science, and the argument continues."
+    },
+    {
+      "n": 47,
+      "scene": "A web of tiny glowing blocks forming a woven space",
+      "summary": "Other approaches, such as loop quantum gravity, try to build quantum gravity differently."
+    },
+    {
+      "n": 48,
+      "scene": "A mathematician draws a strange shape on a board, and a physicist smiles",
+      "summary": "String theory has already helped mathematics and other parts of physics."
+    },
+    {
+      "n": 49,
+      "scene": "A clock with no hands in front of a swirl of light",
+      "summary": "Time may be part of the puzzle, and nobody knows what came before the Big Bang."
+    },
+    {
+      "n": 50,
+      "scene": "A person on a hill under stars with a notebook full of questions",
+      "summary": "We do not yet have the final theory, and that is part of the adventure."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "You look at the night sky and ask what space really is.",
+      "Long ago, people thought space and time never changed.",
+      "Light always moves at the same speed, whoever looks at it.",
+      "In 1905, Albert Einstein found a surprising way to explain this.",
+      "A clock that moves very fast runs slightly slower.",
+      "Nothing that has weight can ever move as fast as light.",
+      "Space and time are joined together into one thing called spacetime.",
+      "A tiny bit of matter can turn into a huge amount of energy.",
+      "In 1915, Einstein said gravity is a bend in space.",
+      "Gravity slows down time, and clocks near Earth tick more slowly.",
+      "In 1919, scientists saw that light from stars bent near the Sun.",
+      "A black hole pulls so strongly that light cannot escape.",
+      "In 2015, scientists felt ripples in space for the first time.",
+      "The whole Universe is growing, and the galaxies move apart.",
+      "In 1900, Max Planck found that energy comes in tiny packets.",
+      "Light can act like a wave, and like a stream of tiny balls.",
+      "Even a single electron can make a pattern like a wave.",
+      "Quantum physics can only tell us the odds of what will happen.",
+      "You cannot know exactly where something small is and how fast it moves.",
+      "A small particle can be in more than one state at once.",
+      "Each kind of particle is a ripple in a field.",
+      "Two particles can stay linked, even when they are far apart.",
+      "Quantum physics is used in your phone and in lasers.",
+      "Nature has four basic forces, and gravity is one of them.",
+      "A list of tiny particles explains all the matter we know.",
+      "In 2012, scientists found a new particle called the Higgs.",
+      "One thing is missing, and it is gravity.",
+      "Relativity says space is smooth, but quantum physics says it is shaky.",
+      "The problem matters most inside black holes and at the start.",
+      "The problem begins at a size much smaller than an atom.",
+      "String theory says the smallest things are tiny loops, not dots.",
+      "One string can play many different notes, just as a guitar does.",
+      "One of the strings' notes behaves just like gravity.",
+      "A string has a size, so it is not a point.",
+      "The maths of string theory needs more than three directions of space.",
+      "The extra directions may be curled up very small.",
+      "The shape of the hidden directions could decide how nature works.",
+      "In the 1990s, scientists found that five versions are really one.",
+      "String theory also has flat sheets called branes.",
+      "In 1996, string theory passed one test with black holes.",
+      "A whole room might be described by information on its walls.",
+      "Some scientists thought every particle might have a partner.",
+      "There may be a huge number of possible shapes for the hidden directions.",
+      "Strings are far too small to see with any machine.",
+      "Scientists look for small clues that could support the theory.",
+      "Some scientists think string theory is science, and others do not.",
+      "String theory is not the only idea about quantum gravity.",
+      "The ideas of string theory have already helped mathematics.",
+      "Nobody knows what time is, or what came before the beginning.",
+      "We do not have the answer yet, but we are looking."
+    ],
+    "B1B2": [
+      "Space and time seem simple, but physicists have found that they are strange. This book follows two great theories, and then a bold idea that tries to join them.",
+      "More than three hundred years ago, Isaac Newton described space as a fixed stage and time as a clock that ticks the same for everyone. On that stage, gravity was a pull between all objects.",
+      "Light travels at about three hundred thousand kilometres a second, and careful tests show that every observer measures the same speed. This sounds simple, but it does not match what we expect from everyday life.",
+      "In 1905, Albert Einstein suggested that if light always has the same speed, then space and time must change instead. This idea is called special relativity, and it changed physics for good.",
+      "Time passes more slowly for something that moves quickly, compared with something at rest. At everyday speeds the difference is far too small to notice, but fast particles and precise clocks have confirmed it again and again.",
+      "The faster an object goes, the more energy it takes to speed it up even more. Nothing with mass can ever reach the speed of light, so it works as a limit for the whole Universe.",
+      "Relativity shows that space and time cannot be separated, and together they form a four part fabric called spacetime. Every event, such as a flash of light, has a place in space and also a moment in time.",
+      "Einstein's famous equation says that mass and energy are two forms of the same thing. Every second the Sun turns about four million tonnes of its matter into light and heat.",
+      "Imagine two people on a globe who walk north along straight lines. They start apart, yet they meet at the pole because the surface itself is curved.",
+      "Where gravity is stronger, clocks run slightly slower, so a clock on the ground ticks a little slower than one in orbit. The satellites of the GPS system must correct for this, or their maps would go wrong by many kilometres in one day.",
+      "During a solar eclipse in 1919, astronomers measured the positions of stars close to the Sun. Their light had bent by exactly the amount that Einstein's theory predicted.",
+      "When a very massive star dies, it can collapse into a black hole, where gravity is so strong that nothing can escape. The edge of this region is called the event horizon.",
+      "When two black holes crash together, they send out ripples in spacetime called gravitational waves. In 2015, the LIGO detectors measured such a ripple that had travelled for more than a billion years.",
+      "When Einstein's equations are applied to the whole Universe, they say that space can stretch. Astronomers have since found that distant galaxies are indeed moving apart, as if the space between them were growing.",
+      "To explain the glow of hot objects, Max Planck suggested that energy comes in small, separate packets. He called these packets quanta, and this was the beginning of quantum physics.",
+      "Einstein showed that light comes in packets that we now call photons, even though it also spreads out like a wave. Light seems to be both at once, depending on how we look.",
+      "In a famous experiment, electrons are fired one at a time at a wall with two narrow slits. Slowly, the dots they leave on a screen build up into stripes, which is the sign of a wave.",
+      "In quantum physics, each particle is described by a wave that tells us the chances of finding it in each place. We can calculate the odds very exactly, but we cannot say where one particle will land.",
+      "In 1927, Werner Heisenberg showed that there is a limit to how well we can know a particle's position and its motion together. This is not caused by clumsy instruments, because it is built into nature.",
+      "Before it is measured, a particle can be in a mixture of several possible states at the same time, which is called superposition. When we measure it, we find just one result, and physicists still argue about why.",
+      "Modern physics says that space is filled with fields, one for each kind of particle. An electron is a small ripple in the electron field, like a wave on a still lake.",
+      "Two particles can be prepared so that measuring one instantly tells you something about the other, however far away it is. This is called entanglement, and experiments have confirmed it, but it cannot be used to send messages faster than light.",
+      "Quantum physics may sound strange, but it is at work in lasers, in computer chips and in the scanners that doctors use. A large part of modern life depends on it.",
+      "Physicists know of four forces, which are gravity, electromagnetism, and the strong and weak nuclear forces. Quantum physics describes three of them very well, but gravity does not fit.",
+      "The Standard Model is a list of the known particles and the way they interact. Protons and neutrons are made of smaller particles called quarks, and electrons are among the particles that cannot be split.",
+      "In 2012, experiments at the Large Hadron Collider near Geneva found the Higgs boson. It is tied to a field that gives many particles their mass.",
+      "For all its success, the Standard Model does not include gravity. There is no tested quantum theory of gravity, and this is a serious gap.",
+      "General relativity describes spacetime as a smooth, gently curving surface. Quantum physics says that everything should shake and jump when you look at it closely.",
+      "Most of the time we can use relativity for big things and quantum physics for small ones. But inside a black hole, and at the start of the Universe, things are heavy and tiny together.",
+      "Physicists think the clash becomes serious at the Planck length, which is far smaller than an atom. It is tens of billions of billions of times smaller than a nucleus.",
+      "In string theory, particles are not points but tiny, vibrating loops of energy. These strings are too small to see with any machine we can build.",
+      "A guitar string can make many different notes, depending on how it vibrates. In the same way, one kind of tiny string could make electrons, quarks and light, depending on its pattern of vibration.",
+      "When physicists studied the vibrations of strings, they found one pattern that behaves just like the graviton, the particle that would carry gravity. Gravity was not added to the theory, because it came out of it.",
+      "A point can be squeezed into an infinitely small space, but a string cannot. Many physicists think this softens the wild jumps that spoil the equations of quantum gravity.",
+      "To work properly, the equations of string theory need ten dimensions of spacetime, meaning nine of space and one of time. In daily life we notice only three dimensions of space, so the others must be hidden.",
+      "Take a sheet of paper and roll it into a tube. From far away it looks like a single line, but up close you can see a second direction going around.",
+      "The hidden dimensions would have a complicated shape, and the strings would vibrate in the shape's holes and folds. Its geometry would decide which particles and forces we see, which is why mathematicians study shapes such as Calabi-Yau.",
+      "By the 1980s, there were five different versions of string theory, which was confusing. In the mid-1990s, physicists found that they are linked, and they named the larger idea M-theory, which needs eleven dimensions.",
+      "String theory also allows larger objects called branes, which are like sheets that can have many dimensions. Some scientists have wondered whether our whole world could be stuck on a brane, but that is only a speculation.",
+      "Black holes have a measurable amount of disorder, called entropy, that was predicted from earlier work. In 1996, two physicists used string theory to count the hidden states of certain black holes and got the same answer.",
+      "In 1997, a surprising link was found between two kinds of theory, called holography. It says that a theory with gravity in a region of space is equivalent to one without gravity on the edge of that region.",
+      "Most versions of string theory need supersymmetry, which says that every known particle has a heavier partner. So far, no experiment, including the Large Hadron Collider, has found one.",
+      "Mathematicians have found a vast number of possible shapes for the hidden dimensions, and each one would give a different set of laws. Some call this the landscape, and it has made many scientists uneasy.",
+      "To see a string, we would need a machine far more powerful than any collider, possibly one larger than a galaxy. This is the main reason that string theory is so hard to test.",
+      "Some tests may be possible without seeing a string, for example by measuring gravity at very short distances. Others look for signs in the sky, such as long cosmic strings, or for patterns in the oldest light of the Universe.",
+      "Supporters say that string theory is a real and promising theory, and that tests will come in time. Critics say that a theory which cannot be tested is not yet science, and the argument goes on.",
+      "Another approach, called loop quantum gravity, suggests that space itself is built from tiny pieces. It does not try to include the other forces, but it also faces the problem of how to test its ideas.",
+      "Even without a final test, string theory has produced new mathematics and new ways of calculating. Some of these tools now help in other areas of physics, such as the study of unusual materials.",
+      "Time may be a deep part of the puzzle, and nobody is sure why it seems to run only one way. We also do not know whether anything came before the Big Bang, and string theory offers several guesses.",
+      "We now have two wonderful theories of space and time, and a bold idea that might join them. We do not yet know whether string theory is right, and that is what makes it exciting."
+    ],
+    "C1C2": [
+      "At night, lying on the grass beneath the stars, space looks like nothing more than an empty stage on which everything else happens. Physicists have found, however, that space and time are far stranger than they seem, and that they can bend, stretch and even blur. This book follows two great theories to the place where they clash, and then looks at a bold and unproven idea that tries to unite them.",
+      "More than three hundred years ago, Isaac Newton described space as a great fixed stage, and time as a clock that ticks at the same pace for everyone, everywhere. On that stage, gravity was a pull that acted between any two objects, however far apart they were. His rules were so successful that they guided the planets, the cannonballs and the first space flights, and for two centuries nobody saw any reason to doubt them.",
+      "Light moves at about three hundred thousand kilometres every second, and experiments show that every observer finds exactly the same figure, whether they are standing still or racing alongside the beam. That is very odd, because a ball thrown from a fast train seems quicker to someone on the platform, and light does not behave like the ball. Something in our picture of the world, either of space or of time, had to give way.",
+      "In 1905, a young Albert Einstein proposed that the speed of light is fixed, and that distances and times must be the things that give way. Instead of a universal clock ticking for everyone, each observer would have a slightly different measure of time and space, depending on how they move. The idea is called special relativity, and in the years that followed it changed the whole of physics, as well as the way we think about time.",
+      "According to special relativity, a clock that moves quickly ticks more slowly than one that stays still, and the faster it goes, the greater the difference. At the speeds of cars and aircraft the effect is a tiny fraction of a second, but fast particles and very precise clocks have confirmed it over and over. This is not a trick of the instruments, because it is how time itself behaves.",
+      "As an object approaches the speed of light, it becomes harder and harder to make it go any faster, and the energy needed grows without limit. For this reason nothing that has mass can ever reach the speed of light, which acts as a cosmic speed limit for the whole Universe. Moving objects also shrink slightly along their line of travel, as seen by someone who is standing still.",
+      "Relativity tells us that space and time are not separate things but two aspects of a single fabric, which we call spacetime. Every event, such as a flash of light or the ringing of a bell, needs four numbers to describe it, three for where it happened and one for when. Different observers may divide that fabric into space and time in slightly different ways, but they all agree about the fabric itself.",
+      "Einstein's most famous equation says that mass is a concentrated form of energy, and that a little mass is equal to a very great deal of energy. The Sun is the proof, since it turns about four million tonnes of its own matter into light and heat every second. Even so, it is so enormous that it has enough matter to shine for billions of years.",
+      "Einstein spent ten years asking what gravity really is, and in 1915 he gave an answer called general relativity. Imagine two travellers on a globe who start walking north along parallel paths, and who end up meeting at the pole because the surface itself curves. In the same way, matter bends spacetime, and objects in space follow the straightest possible paths through it, which we see as the pull of gravity.",
+      "Where gravity is stronger, time passes a little more slowly, so a clock on the ground ticks more slowly than one high above. The satellites that power GPS navigation have to allow for this effect, as well as for the effect of their speed, and without those corrections their positions would drift by many kilometres in a single day. It is an everyday proof that relativity is not just a clever idea on paper.",
+      "During a total eclipse of the Sun in 1919, astronomers photographed the stars that appeared close to its edge, which are normally lost in the glare. The starlight had been bent by the Sun's gravity by roughly the amount that general relativity predicted, and the news made Einstein famous around the world. The theory had also explained a small, long-standing puzzle in the orbit of the planet Mercury.",
+      "When a very massive star runs out of fuel, its core can collapse into a region where gravity is so strong that not even light can escape. The edge of that region is called the event horizon, and anything that crosses it can never come back out. A black hole is not a hole in space but a very heavy object packed into a very small place.",
+      "When two black holes spiral together and merge, they shake spacetime like a stone dropped in a pond, and the ripples are called gravitational waves. In 2015 the LIGO detectors measured such a ripple for the first time, after it had crossed space for more than a billion years. The change in length that they detected was far smaller than the width of an atomic nucleus.",
+      "When the equations of general relativity are applied to the Universe as a whole, they allow space itself to expand or shrink. Astronomers later found that distant galaxies are indeed moving apart from one another, as though the space between them were stretching like the surface of a blowing balloon. Running that picture backwards leads to a hot, dense beginning that we now call the Big Bang.",
+      "To explain the colour of the glow from hot objects, Max Planck suggested in 1900 that energy is handed out in small, separate parcels rather than in a smooth flow. He called these parcels quanta, a word that simply means amounts, and he thought of it as a mathematical trick. It turned out to be the first step towards a whole new way of describing nature, called quantum physics.",
+      "Einstein showed that light, which had long been known to spread out in waves, also arrives in tiny packets that we now call photons. Which side it shows depends on the experiment we choose, since a lens treats it as a wave and a camera sensor counts it as a stream of particles. It is not like anything in our everyday world, and we simply have to accept that.",
+      "In a famous experiment, electrons are fired one at a time toward a barrier with two narrow slits and land as dots on a screen behind it. As the dots slowly accumulate they form a striped pattern, which is the signature of waves passing through both slits and overlapping. Each electron seems to travel as a wave, yet it always arrives as a single particle.",
+      "In quantum physics, a particle is described by a mathematical wave that gives the chance of finding it at each place when we look. The odds can be calculated with astonishing accuracy, yet the result of any single measurement cannot be predicted. This was a shock, because it meant that at the smallest scale nature seems to rely on probability rather than on certainty.",
+      "In 1927, Werner Heisenberg showed that the more precisely you know where a particle is, the less precisely you can know how it is moving, and the other way round. This limit, known as the uncertainty principle, is not caused by clumsy instruments or poor technique, since it is built into the way the world works. It marks the point at which our everyday ideas about solid little balls stop being useful.",
+      "Until it is measured, a quantum system can exist in a blend of several possible states at once, a condition called superposition. When we look, we always find a single, definite result, and the question of how and why that happens remains a matter of lively debate. Physicists agree completely about how to calculate the answers, but they do not agree about what the calculations mean.",
+      "According to modern physics, the whole of space is filled with invisible fields, with one field for each kind of particle. An electron is a tiny ripple in the electron field, much as a wave is a disturbance in the surface of a lake. This view, called quantum field theory, unites the wave and particle pictures, and it is the foundation of everything we know about the very small.",
+      "Two particles can be prepared in such a way that their properties remain linked, so that measuring one immediately tells you something about the other, however far apart they may be. This is called entanglement, and careful experiments have confirmed it again and again, even though Einstein himself found it troubling. It cannot be used to send a message faster than light, because the result of each measurement looks random by itself.",
+      "However strange quantum physics may sound, it is also among the most useful ideas ever discovered, and it lies behind lasers, computer chips and the magnetic scanners used in hospitals. Your phone contains billions of tiny switches whose behaviour can only be explained with quantum rules. A very large part of the modern economy depends on a theory that nobody finds easy to picture.",
+      "Physicists have found four basic forces in nature, namely gravity, electromagnetism, and the strong and weak nuclear forces. The strong force binds the nuclei of atoms, the weak force lies behind some kinds of radioactivity, and electromagnetism acts between charged particles. Quantum physics describes the last three with remarkable success, but gravity has always been the one that refused to fit.",
+      "The Standard Model, built up over the twentieth century, is a catalogue of the known particles and the forces that act between them. Protons and neutrons turn out to be made of smaller particles called quarks, while electrons and neutrinos belong to another family that seems to have no parts. It has passed nearly every test that scientists have devised, and it ranks among the most accurate theories ever made.",
+      "In 2012, two experiments at the Large Hadron Collider, a machine built in a ring under the border between France and Switzerland, announced the discovery of the Higgs boson. This particle belongs to a field that, in the Standard Model, is what gives many other particles their mass. It was the last missing piece of the model, found about half a century after it was first predicted.",
+      "For all its success, the Standard Model describes only three of the four forces, because gravity does not fit inside it. We have a splendid theory of gravity in general relativity, but no tested way to describe gravity in quantum terms. That gap is not just untidy, because it hides a real problem about how nature works.",
+      "General relativity describes spacetime as a smooth, gently curving surface, like a perfectly polished table. Quantum physics, on the other hand, insists that everything fluctuates and jitters when examined at very small scales. When physicists try to bring the two ideas together in the same equations, the jitters of space are so violent that the maths produces nonsense.",
+      "Usually we can avoid the clash by using relativity for the very large and quantum physics for the very small. There are places, however, such as the centre of a black hole and the first instant of the Big Bang, where an enormous amount of matter is squeezed into a minute space. There both theories are needed at once, and the equations give answers that are infinite and meaningless.",
+      "Physicists believe that the clash becomes unavoidable at a tiny distance called the Planck length, which is about tens of billions of billions of times smaller than the nucleus of an atom. At that scale, gravity and quantum effects should be equally important and spacetime itself would be foamy and wild. We cannot look at anything so small, so the idea can only be explored with mathematics.",
+      "String theory begins with a simple but radical suggestion, which is that the smallest ingredients of nature are not dots but tiny, vibrating loops of energy. They are called strings, although they have nothing to do with ordinary thread, and they are so small that no machine we can imagine building could see one. If the idea is right, however, a particle only looks like a point because we are standing too far away.",
+      "A single guitar string can produce a whole range of notes, depending on how it is made to vibrate. In string theory, in the same way, one kind of tiny string could account for electrons, quarks and the particles of light, simply by vibrating in different patterns. The huge zoo of particles would then be just a musical scale played by a single instrument.",
+      "When physicists worked out the possible vibrations of a string, they were astonished to find one pattern that has exactly the properties of a graviton, the particle that should carry gravity. Gravity did not have to be added by hand, since it came out of the mathematics whether they wanted it or not. This is one of the main reasons that so many serious scientists have taken the theory seriously.",
+      "Everything in ordinary quantum theory is treated as a point, and points can be squeezed into an infinitely small space, which is where the infinities come from. A string, by contrast, always has a small but real size, and so it cannot be squashed into nothing. Calculations suggest that this smooths out the worst of the wild jumps, which would make a theory of quantum gravity finally work.",
+      "For its equations to work properly, the best-known version of string theory needs ten dimensions of spacetime, which means nine of space and one of time. In our world we only ever notice three dimensions of space, so the theory seems to be describing a place we have never seen. If the theory is correct, the other six dimensions must somehow be hidden from us, and finding out where they are is part of the challenge.",
+      "Take a large sheet of paper and roll it into a thin tube, and then look at it from across the room. It looks like a simple line with only one direction, though from close up you can see a second direction curling around the tube. In the same way, the extra dimensions of string theory may be curled up so tightly that we never notice them.",
+      "The tiny, folded dimensions would not be featureless, but would have a complicated geometry full of loops and holes, with shapes such as those called Calabi-Yau spaces. The strings would have to vibrate within that geometry, and the shape would therefore decide which particles and forces appear in our larger world. In this way a question about physics has become a question about geometry, and mathematicians have joined the search.",
+      "By the late 1980s there were five different versions of string theory, which was awkward for a theory that was supposed to be unique. In the mid-1990s, physicists discovered that the five are connected, as if they were different views of a single deeper theory called M-theory. M-theory is not fully understood, and it seems to need eleven dimensions of spacetime instead of ten.",
+      "Besides strings, the theory allows for larger objects called branes, which are flat sheets that can stretch in several dimensions at once. Some physicists have speculated that everything we know, including light and ourselves, is stuck on a three-dimensional brane floating inside a larger space. This is an imaginative idea rather than an established fact, and it has never been tested.",
+      "Earlier work on black holes had predicted that each one carries a definite amount of disorder, called entropy, which hints at a hidden inner structure. In 1996, two physicists used string theory to count the hidden states of certain special black holes and obtained exactly the predicted number. It was a remarkable success, though it covered only a few unusual cases, and not the black holes found in the sky.",
+      "In 1997, a physicist discovered a surprising link that came to be called holography, in which a theory of gravity inside a region of space is mathematically equal to an ordinary quantum theory living on its boundary. It is a little like a flat hologram that stores the whole of a three-dimensional picture. The link has been proved only for certain model universes that are not like our own, but it has given scientists a powerful new tool.",
+      "Most versions of string theory depend on an idea called supersymmetry, which says that every known particle has a heavier partner that we have not yet seen. Experiments at the Large Hadron Collider have searched for these partners and, so far, have found none. That does not rule the idea out, because the partners might simply be too heavy, but it does make some physicists more cautious.",
+      "Calculations suggest that there is an immense number of different ways in which the hidden dimensions could be folded, and each way would give a universe with different particles and forces. Some call this the landscape of string theory, and they wonder whether our own Universe is just one valley among countless others. Critics reply that a theory which allows almost anything may end up explaining nothing.",
+      "To see a string directly, physicists would need to collide particles at energies that are about a million billion times greater than those of the Large Hadron Collider. Some estimates suggest that a machine for the job would have to be larger than the whole galaxy, which is not remotely practical. That is the main reason why string theory has not yet been tested directly, and why it remains controversial.",
+      "Even though no single string can be seen, there are indirect ways of testing parts of the theory, such as measuring gravity at very short distances, where it might suddenly change. Others hope to find cosmic strings, which are long threads of energy that may have been stretched across the sky, or to detect patterns in the oldest light of the Universe. So far, gravity has been tested to a fraction of a millimetre and has shown no surprises.",
+      "Supporters argue that string theory is a serious and well-motivated framework, and that experiments will eventually catch up with the mathematics, as they have done many times in history. Critics reply that a theory which makes no firm prediction cannot be tested, and that it should not be taught as established truth. Both sides are made up of intelligent, honest scientists, and the question is still open.",
+      "String theory is not the only attempt at a quantum theory of gravity, and a rival called loop quantum gravity suggests that space itself is woven from extremely small separate pieces. It does not attempt to explain the other forces and particles in the same way, but it faces the same difficulty of finding a test. Good science often advances through the competition of several ideas, and no one yet knows which of them will survive the test of time.",
+      "Even if string theory turns out not to describe our Universe, it has already produced a rich harvest of new mathematics and powerful methods of calculation. Some of these tools are now used in other areas of physics, such as the study of unusual materials, and in the study of black holes. An idea can be valuable long before it is proved right, and it may be valuable even if it is proved wrong.",
+      "Time may turn out to be one of the deepest puzzles of all, since most of the basic laws of physics work equally well forwards and backwards, yet our world clearly runs in one direction. Nobody knows whether time began with the Big Bang or whether something came before it, and string theory has produced several imaginative guesses, none of them tested. A theory of quantum gravity might finally tell us what a beginning would even mean.",
+      "We possess two magnificent theories, one of space, time and gravity and the other of everything small, and each has passed every test that was set for it. Whether string theory is the missing bridge between them, or merely a useful step on the way, nobody can yet say. Looking up at the stars, you are standing at the edge of the greatest unsolved problem in physics, and perhaps one day you will help to solve it."
+    ]
+  }
+}

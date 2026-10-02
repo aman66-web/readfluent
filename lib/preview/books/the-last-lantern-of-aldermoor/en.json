@@ -1,0 +1,417 @@
+{
+  "slug": "the-last-lantern-of-aldermoor",
+  "meta": {
+    "blurb": "A grey fog is spreading across Aldermoor, and everyone it touches forgets who they are. Corin, a ferryman's son, is handed the last burning lantern and must carry it across marsh, forest, mountain and sea before its light goes out.",
+    "bible": "Corin Thatch: fifteen-year-old ferryman's son from Saltreach, quiet, stubborn and brave; the Lantern-bearer. Juniper: Corin's brown ferry dog, loyal and clever. Brother Aldous Wick: the old Keeper of the Tower at Aldermoor, who gives Corin the Dawnlight before he dies. Mara Thatch: Corin's mother, who mends nets. Rook Tarn: a witty barge-woman with a river barge called the Kestrel; she knows rivers, harbours and the sea. Dame Isaura Brack: a retired mountain guide with a bad knee, gruff and wise. Pell Ainsley: a young scribe from Millbrook who never forgets anything; he carries a book called the Long Memory. Marigold Fenn: a beekeeper who lives in the Thornwood. Keeper Ansel Dray: once the Keeper of the Beacon at Cairnhead; now the Pale Regent, a tall figure of fog who wears a Keeper's chain. Aldermoor: the land, and also the name of the Tower where the last lantern was kept. The Dawnlight: the last lantern, which burns with a flame that never goes out by itself. The Grey: a creeping fog that makes people forget their names, their homes and the people they love; it is not a weapon, it is a sadness that spreads. The Hushed: people already taken by the Grey, who walk silently and follow it. The Beacons: seven great fires, once lit across Aldermoor from the tower on Cairnhead, now all dark but the Dawnlight. Saltreach: Corin's marsh village on the River Wendle. Millbrook: the river town where Pell lives. The Long Road: the old road across the country. Thornwood: the old forest. Hightarn Pass: the snowy mountain pass. The Salt Flats: a vast white plain that shines like a mirror. Port Larrow: the harbour town with a dark lighthouse. Cairnhead: the sea cliff where the first and greatest Beacon stands. Voice and tone: an old-fashioned adventure told warmly and clearly; danger is real but no one is killed in battle; the Grey is beaten by memory, kindness and shared stories rather than by swords."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Corin poles a flat ferry across a misty marsh river at dawn",
+      "summary": "Corin Thatch, a ferryman's son, lives in the marsh village of Saltreach, where he carries people across the river."
+    },
+    {
+      "n": 2,
+      "scene": "A low grey fog bank hangs on the far horizon of a marsh",
+      "summary": "A strange grey fog is seen on the horizon, and the marsh birds fall silent."
+    },
+    {
+      "n": 3,
+      "scene": "A villager stands confused outside his own front door in the fog",
+      "summary": "The fog reaches Saltreach, and an old fisherman stands in front of his own house, unable to remember his name."
+    },
+    {
+      "n": 4,
+      "scene": "A wounded old man in a cloak steps onto Corin's night ferry",
+      "summary": "That night, an old man named Brother Aldous arrives at the ferry, tired and hunted, with something glowing in his cloak."
+    },
+    {
+      "n": 5,
+      "scene": "An old man opens his cloak to reveal a glowing lantern on a ferry",
+      "summary": "Brother Aldous reveals the Dawnlight, the last lantern in Aldermoor, and tells how the Beacons went dark."
+    },
+    {
+      "n": 6,
+      "scene": "Brother Aldous points to a distant sea cliff on an old map",
+      "summary": "Aldous explains that the Dawnlight must be carried to Cairnhead, where the first and greatest Beacon stands, to relight them all."
+    },
+    {
+      "n": 7,
+      "scene": "On the river bank, an old man hands a lantern to Corin",
+      "summary": "On the far bank, Aldous gives Corin the Dawnlight, and then falls into a deep sleep from which he does not wake."
+    },
+    {
+      "n": 8,
+      "scene": "Corin kisses his mother goodbye in a doorway as fog gathers behind them",
+      "summary": "Corin says goodbye to his mother, who has not yet been touched by the Grey, and sets out with the lantern."
+    },
+    {
+      "n": 9,
+      "scene": "A woman in a red scarf waves from a river barge",
+      "summary": "On the river, Corin meets Rook Tarn, a bold barge-woman, who agrees to carry him down to Millbrook."
+    },
+    {
+      "n": 10,
+      "scene": "A barge glides downriver as lantern light pushes back the fog",
+      "summary": "On the river, the Grey follows them, but the Dawnlight pushes it back like a wall."
+    },
+    {
+      "n": 11,
+      "scene": "Rook tells a story to Corin on a barge deck at night",
+      "summary": "Rook tells Corin how the Beacons were lit long ago, one for each of Aldermoor's seven valleys."
+    },
+    {
+      "n": 12,
+      "scene": "A barge ties up at a stone quay in a busy market town",
+      "summary": "The Kestrel reaches Millbrook, a river town where the people are beginning to fall under the Grey."
+    },
+    {
+      "n": 13,
+      "scene": "A tall weathered woman with a walking stick studies a map on a stall",
+      "summary": "In the market, Corin meets Dame Isaura Brack, a mountain guide, who agrees to lead them over the Hightarn Pass."
+    },
+    {
+      "n": 14,
+      "scene": "A cloaked thief grabs at a lantern in a crowded market as people scatter",
+      "summary": "A thief tries to snatch the Dawnlight in the market, but a young scribe knocks him down."
+    },
+    {
+      "n": 15,
+      "scene": "A thin young scribe with ink-stained fingers holds a thick leather book",
+      "summary": "The scribe is Pell Ainsley, who remembers everything he reads, and he asks to come, for the Grey is coming for his town."
+    },
+    {
+      "n": 16,
+      "scene": "Four travellers and a dog walk a long straight road at dawn",
+      "summary": "The party leaves the river and takes the Long Road toward the mountains, with Pell's book and Juniper beside them."
+    },
+    {
+      "n": 17,
+      "scene": "Silent grey-cloaked figures stand in a line on a hill behind the travellers",
+      "summary": "Silent, grey-cloaked figures, the Hushed, begin to follow the party; they are people who have been taken by the Grey."
+    },
+    {
+      "n": 18,
+      "scene": "Four travellers escape through a cellar trapdoor at a country inn",
+      "summary": "At an inn, the Hushed surround the building, and the party escapes through the cellar."
+    },
+    {
+      "n": 19,
+      "scene": "Ancient dark trees close over a narrow path in a deep forest",
+      "summary": "The Long Road enters Thornwood, an ancient forest, and the party loses its way."
+    },
+    {
+      "n": 20,
+      "scene": "A lantern's golden flame leans toward a dark gap between old trees",
+      "summary": "The Dawnlight's flame leans toward the right path, and the party follows it to a clearing with beehives."
+    },
+    {
+      "n": 21,
+      "scene": "A woman in a straw hat offers honey to four travellers",
+      "summary": "Marigold gives them honey and tells them that the Grey feeds on forgotten things, and that it hates being remembered."
+    },
+    {
+      "n": 22,
+      "scene": "A scribe reads names aloud as grey-cloaked figures stand around him",
+      "summary": "At the forest's edge, the Hushed catch up, and Pell calls out the names of the people of Millbrook, and one of the Hushed wakes."
+    },
+    {
+      "n": 23,
+      "scene": "Corin and Rook comfort a crying boy beside a campfire at the forest's edge",
+      "summary": "The boy, Pip, is awake and well, and a kindly farmer agrees to carry him home."
+    },
+    {
+      "n": 24,
+      "scene": "Four travellers and a dog climb a snowy mountain path beneath heavy clouds",
+      "summary": "The party climbs into the Hightarn Pass, where snow falls and the path grows steep and dangerous."
+    },
+    {
+      "n": 25,
+      "scene": "Four travellers huddle around a lantern inside a small stone hut as snow falls",
+      "summary": "A blizzard traps them in a stone hut, where each tells a story to pass the long night."
+    },
+    {
+      "n": 26,
+      "scene": "A grey mist creeps over a snowy mountain ridge toward four small figures",
+      "summary": "At dawn, the Grey reaches the pass, and Dame Isaura, shielding the others, is touched by it."
+    },
+    {
+      "n": 27,
+      "scene": "A gruff old woman stares blankly while her friends watch, dismayed",
+      "summary": "Isaura has forgotten her name, her mountains and her friends, and the party must carry her over the pass."
+    },
+    {
+      "n": 28,
+      "scene": "Pell turns the pages of a thick book by the light of a lantern",
+      "summary": "Pell finds an old note in the Long Memory: a name spoken by someone who loves the person may bring them back."
+    },
+    {
+      "n": 29,
+      "scene": "Rook and Corin walk on each side of an old woman, talking warmly",
+      "summary": "Rook and Corin tell Isaura the story of her own life, as they know it, and her memory returns."
+    },
+    {
+      "n": 30,
+      "scene": "Four weary travellers descend a rocky hillside above a vast shining white plain",
+      "summary": "The party descends from the mountains and sees the vast, shining Salt Flats below them."
+    },
+    {
+      "n": 31,
+      "scene": "Corin walks alone across a white plain toward a shimmering village",
+      "summary": "On the Salt Flats, the Grey shows Corin a vision of Saltreach and tempts him to stop and rest."
+    },
+    {
+      "n": 32,
+      "scene": "A dog tugs a boy's sleeve while a lantern's light breaks a shimmering illusion",
+      "summary": "Juniper bites his sleeve, and the Dawnlight flares; Corin sees that the vision was only the Grey's trick."
+    },
+    {
+      "n": 33,
+      "scene": "A grey harbour town with a dark lighthouse stands above crowded boats and fishermen",
+      "summary": "They reach Port Larrow, a harbour town on the coast, where the lighthouse is dark and sailors are wandering without direction."
+    },
+    {
+      "n": 34,
+      "scene": "A golden lantern lights the lamp room of a great lighthouse",
+      "summary": "Corin lights the old lighthouse lamp from the Dawnlight, and for one night the Grey is pushed back, and the town cheers."
+    },
+    {
+      "n": 35,
+      "scene": "A silent sailor on a dusky quay speaks in a strange voice",
+      "summary": "A Hushed sailor speaks with another voice, the Pale Regent's, and tells Corin to give up the light and rest."
+    },
+    {
+      "n": 36,
+      "scene": "Rook shows Corin a small sailing boat tied up at a quay",
+      "summary": "Rook finds a small sailing boat called the Heron, and she, Corin, Pell, Isaura and Juniper set sail for Cairnhead."
+    },
+    {
+      "n": 37,
+      "scene": "A small sailing boat rocks in a storm under thick grey fog at sea",
+      "summary": "A storm and a thick Grey fog hit the Heron at sea, and the compass spins, but Corin steers by the lantern's lean."
+    },
+    {
+      "n": 38,
+      "scene": "A small boat lands beneath a tall cliff crowned by a ruined tower",
+      "summary": "At last the Heron lands at the foot of Cairnhead, where a ruined tower stands at the top of the cliff."
+    },
+    {
+      "n": 39,
+      "scene": "Four climbers and a dog climb a narrow stair cut into a cliff",
+      "summary": "They climb the narrow stone stair of Cairnhead, and the Grey creeps up behind them."
+    },
+    {
+      "n": 40,
+      "scene": "A tall figure of drifting fog stands before a dark stone Beacon",
+      "summary": "At the top, the Pale Regent waits, a tall figure of drifting fog who wears a Keeper's chain."
+    },
+    {
+      "n": 41,
+      "scene": "A misty figure speaks softly to a boy holding a lantern",
+      "summary": "The Regent says he was once Ansel Dray, Keeper of this Beacon, who lost everyone he loved and wanted the world to forget its pain."
+    },
+    {
+      "n": 42,
+      "scene": "A boy hides a glowing lantern as a misty figure holds out its hand",
+      "summary": "The Regent asks Corin to give him the Dawnlight, and Corin refuses, but without anger."
+    },
+    {
+      "n": 43,
+      "scene": "Four friends and a dog stand in a circle around a lantern, each speaking",
+      "summary": "Corin and his friends each tell a memory aloud; with every story, the Dawnlight burns brighter."
+    },
+    {
+      "n": 44,
+      "scene": "A thinning mist figure stares at a bright lantern held out to it",
+      "summary": "Corin tells the Regent that remembering a sorrow is not the same as being broken by it, and offers him the light."
+    },
+    {
+      "n": 45,
+      "scene": "A misty figure kneels and lays a silver chain at a boy's feet",
+      "summary": "The Regent remembers his name and his family, weeps, and lays his Keeper's chain at Corin's feet."
+    },
+    {
+      "n": 46,
+      "scene": "A boy lifts a glowing lantern to the old stone Beacon at dawn",
+      "summary": "Corin lights the great Beacon at Cairnhead from the Dawnlight, and it catches with a roar of golden flame."
+    },
+    {
+      "n": 47,
+      "scene": "A chain of golden fires lights up across dark hills",
+      "summary": "Across Aldermoor, the other six Beacons answer, one after another, and light the whole country."
+    },
+    {
+      "n": 48,
+      "scene": "People in grey cloaks lift their faces to the sunrise on a hillside",
+      "summary": "At dawn the Grey melts away, and the Hushed wake, remembering their names and the people they love."
+    },
+    {
+      "n": 49,
+      "scene": "Ansel tends the Beacon fire as the travellers prepare to leave",
+      "summary": "Ansel decides to stay as Keeper of Cairnhead, tending the Beacon, while the travellers go home."
+    },
+    {
+      "n": 50,
+      "scene": "Corin hangs the lantern in the Tower of Aldermoor above a green marsh village",
+      "summary": "Corin returns to Saltreach and to his mother, and hangs the Dawnlight in the Tower of Aldermoor, where it is now the first of many lights."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Corin Thatch worked on a ferry in the marsh village of Saltreach.",
+      "One evening a strange grey fog came across the marsh.",
+      "The old fisherman stood in front of his house, lost.",
+      "That night an old man came to the ferry, tired and afraid.",
+      "The old man showed Corin a small, bright lantern.",
+      "The old man said the lantern must go to the sea.",
+      "Aldous gave Corin the lantern and then fell asleep for ever.",
+      "Corin said goodbye to his mother and left with the lantern.",
+      "On the river, Corin met Rook, who owned a barge.",
+      "The Grey followed the boat, but the lantern kept it away.",
+      "Rook told Corin about the old Beacons, one in each valley.",
+      "The boat reached the town of Millbrook after two days.",
+      "In the market they met Dame Isaura, who knew the mountains.",
+      "A thief tried to take the lantern, but a young man stopped him.",
+      "The young man was Pell, and he wanted to come too.",
+      "They left the river and walked along the Long Road.",
+      "Silent figures in grey cloaks began to follow them.",
+      "At an inn, the Hushed came, so they ran through the cellar.",
+      "They walked into Thornwood, an old forest full of tall trees.",
+      "The lantern's flame showed them the right way through the trees.",
+      "Marigold gave them honey and told them about the Grey.",
+      "Pell called out names, and one of the Hushed woke up.",
+      "The boy said his name was Pip, and Rook comforted him.",
+      "They climbed into the snowy mountains of the Hightarn Pass.",
+      "A big storm came, so they stayed in a stone hut.",
+      "In the morning the Grey came over the mountain.",
+      "Isaura could not remember her name or her friends.",
+      "Pell found a page that told them how to wake her.",
+      "Corin said her name, and Isaura slowly remembered.",
+      "They came down the mountain and saw a huge white plain.",
+      "On the white plain, Corin saw his home in a dream.",
+      "Juniper pulled his sleeve, and the dream broke apart.",
+      "They reached the sea town of Port Larrow at last.",
+      "Corin lit the lighthouse lamp, and the town woke up.",
+      "A silent sailor spoke in a strange cold voice.",
+      "Rook found a small boat, and they sailed along the coast.",
+      "A storm hit the boat, and the compass stopped working.",
+      "At last they came to Cairnhead, a tall cliff by the sea.",
+      "They climbed a narrow stair up the cliff.",
+      "At the top, a tall grey figure was waiting for them.",
+      "The Regent said he was once the Keeper of the Beacon.",
+      "The Regent asked for the lantern, but Corin said no.",
+      "Each friend told a memory, and the lantern grew brighter.",
+      "Corin said that remembering sad things can be a good thing.",
+      "The Regent cried, and he laid down his silver chain.",
+      "Corin lit the great Beacon with the golden lantern.",
+      "Across the land, the other Beacons lit up one by one.",
+      "At dawn the Grey melted away, and the Hushed woke up.",
+      "Ansel stayed to look after the Beacon, and the friends said goodbye.",
+      "Corin went home, and he hung the lantern in the tower."
+    ],
+    "B1B2": [
+      "Corin Thatch is fifteen years old, and he helps his mother run the ferry at Saltreach. Each morning he carries villagers across the wide, slow river with his brown dog Juniper at his feet.",
+      "One evening, a long grey fog appears on the far horizon, and it moves slowly toward the village. The marsh birds fall silent, and even the wind seems to hold its breath.",
+      "The fog reaches the village at midnight, and in the morning old Tobias the fisherman stands before his own door, confused. He cannot remember his name, his house or the faces of his children.",
+      "Late that night, an old man in a torn grey cloak staggers to the ferry landing. Something glows faintly beneath his coat, and he begs Corin to take him across the river before the Grey arrives.",
+      "Halfway across, the old man opens his cloak and shows Corin a small lantern with a bright golden flame. He is Brother Aldous, the Keeper of the Tower at Aldermoor, and this is the Dawnlight, the last light in the land.",
+      "Aldous says that the Dawnlight must be carried to Cairnhead, on the far coast, where the first and greatest Beacon stands. If the Beacon can be lit again, he says, all the others will answer it.",
+      "On the far bank, Aldous presses the Dawnlight into Corin's hands and asks him to carry it to Cairnhead. Then he sits down beneath a willow, closes his eyes, and dies peacefully before the sun comes up.",
+      "Corin runs home and tells his mother Mara everything. She holds him for a long time, packs him some bread and cheese, and tells him to go before the Grey reaches the house.",
+      "At the river landing, Corin meets Rook Tarn, a bold barge-woman with a red scarf and a quick laugh. She does not believe his story at first, but when she sees the Dawnlight she agrees to carry him to Millbrook.",
+      "The Kestrel slides down the river, and behind it the Grey follows like a hungry cloud. Whenever the fog comes close, Corin holds up the Dawnlight, and the mist draws back as though it were afraid.",
+      "As the barge drifts onward, Rook tells Corin about the old days, when seven Beacons burned on the hills of Aldermoor. There was one for each valley, and at night you could see them from the sea.",
+      "After two days, the Kestrel reaches Millbrook, a busy river town with stone bridges and a market. A thin grey mist has already crept into the lower streets, and some of the people look strangely sleepy.",
+      "In the market, they find Dame Isaura Brack, a retired mountain guide with a bad knee and a sharp tongue. She says that the only road to Cairnhead leads over the Hightarn Pass, and that she will guide them there.",
+      "As they leave the market, a thief runs up and grabs for the Dawnlight. A young man in ink-stained clothes trips him with a heavy book, and the thief falls flat on his face.",
+      "The young man is Pell Ainsley, a scribe who has never forgotten a word that he has read. He asks to come with them, because he is afraid that the Grey will wipe away his town's memory.",
+      "They leave the Kestrel in the care of a friend and set off along the Long Road toward the mountains. Corin carries the lantern, Rook sings as she walks, and Juniper runs ahead with her tail high.",
+      "On the second day, Corin notices silent figures in grey cloaks walking behind them at a distance. Pell says they are the Hushed, people who have been taken by the Grey, and they follow it wherever it goes.",
+      "That night, the travellers sleep at a roadside inn, but the Hushed gather silently around the building. The innkeeper, who has not been touched, shows them a cellar door, and they slip out the back.",
+      "Two days later, the road enters Thornwood, an ancient forest where the trees grow so thickly that the sky is hidden. Soon the path disappears, and Dame Isaura admits that for once she does not know the way.",
+      "Corin realises that the Dawnlight leans toward the path to Cairnhead, as a compass needle would. They follow it for hours and at last find a sunny clearing full of beehives.",
+      "Marigold feeds the travellers honey and bread, and she tells them what the old beekeepers have learned. The Grey feeds on forgotten things, she says, and it hates to be remembered, so that is how it must be fought.",
+      "At the forest's edge, the Hushed surround them, and Pell, with his heart pounding, begins to read aloud the names of the people of Millbrook. One of the Hushed, a young boy, blinks and remembers his own.",
+      "The boy says his name is Pip, and he cannot remember how long he has been walking. Rook sits with him by the fire, and in the morning the party sends him back to the inn with a kindly farmer.",
+      "The road climbs into the Hightarn Pass, where the air is thin and the snow lies deep. Dame Isaura's knee hurts badly, but she walks in front with her stick and never complains.",
+      "A blizzard sweeps across the pass, and the party shelters in an old stone hut. To pass the time, each of them tells a story from home, and the Dawnlight burns a little brighter after each one.",
+      "At dawn, a thick wall of Grey creeps over the ridge, faster than any of them expected. Dame Isaura steps in front of the others, and the mist touches her face.",
+      "Dame Isaura asks who they are, and where she is, and why she is standing in the snow. She has forgotten her own name, and the others realise that they must now carry her over the pass.",
+      "As they walk down the slope, Pell turns the pages of the Long Memory and finds an old note. It says that a name spoken by someone who loves a person may call that person back from the Grey.",
+      "Rook and Corin walk beside Isaura and tell her all they know about her, from her bad knee to her love of mountains. At last Corin says her name, and she blinks and looks at him as if for the first time.",
+      "After three more days, the party comes down from the mountains and sees the Salt Flats stretching out below them. The plain is flat, white and shining, and it looks like a lake of glass.",
+      "Halfway across the flats, Corin sees a picture of Saltreach shimmering ahead, with his mother waving from the door. It looks so real that he forgets the others, and he begins to walk toward it.",
+      "Juniper seizes his sleeve in her teeth and pulls him back, and in his hand the Dawnlight suddenly flares. The picture of Saltreach breaks into pieces, and Corin sees only white salt around him.",
+      "After a week, the travellers reach Port Larrow, a harbour town on the western coast. The great lighthouse above it is dark, and the sailors wander the quays, forgetting their ships and the way to sea.",
+      "They climb the lighthouse stair, and Corin lights its great lamp from the Dawnlight. The golden beam sweeps over the town, and the Grey rolls back from the harbour, and the people begin to cheer.",
+      "At dusk, one of the Hushed, a silent sailor, steps forward and speaks in a voice that is not his own. It says to Corin that he is tired, that the light is heavy, and that he should lay it down and rest.",
+      "Rook finds a small, sturdy sailing boat called the Heron and talks its owner into lending it. Soon the five of them are sailing north along the coast toward Cairnhead, with a fresh wind behind them.",
+      "On the third day, a storm breaks, and a thick grey fog rolls over the sea. The compass spins uselessly, but Corin remembers how the Dawnlight leaned in the forest and uses it to steer.",
+      "Late that night, the Heron scrapes onto a rocky beach beneath the cliffs of Cairnhead. High above them, against the stars, stands the dark shape of the ruined tower where the great Beacon once burned.",
+      "A narrow stone stair has been cut into the cliff, and it winds up and up toward the tower. They climb it slowly, one step at a time, with the sea roaring below them and the Grey creeping up behind.",
+      "At the top of the stair, a tall figure made of drifting fog stands before the dark Beacon. It wears an old Keeper's chain around its neck, and its eyes are quiet and very sad.",
+      "The figure says that he was once Ansel Dray, Keeper of this Beacon, who lost everyone he loved in a single winter. He made the Grey so that no one else would ever have to feel grief.",
+      "The Regent holds out a hand of mist and asks Corin to give him the Dawnlight, so that he can put it out for ever. Corin shakes his head, and he says no kindly and without fear.",
+      "Corin turns to his friends, and one by one they tell a memory aloud, of a river, a mountain, a library and a sea. The Dawnlight grows brighter with each story, and the mist trembles.",
+      "Corin tells the Regent that remembering a sorrow is not the same as being broken by it. It is a way of keeping a person close, he says, and he offers the Dawnlight to the Regent as a gift.",
+      "The Regent's face softens, and he says the names of the ones he lost, aloud, for the first time in years. Then he takes off the Keeper's chain and lays it at Corin's feet.",
+      "Corin climbs into the broken tower with Ansel beside him, and together they carry the Dawnlight to the great stone bowl of the Beacon. Corin touches the flame to the old wood, and it catches with a roar.",
+      "One by one across the dark hills, the other six Beacons answer the first, flaring up from the far valleys and the towers. By midnight, a chain of golden fires stretches across the whole of Aldermoor.",
+      "When the sun rises, the Grey melts away like frost, and all over the land the Hushed lift their heads and remember. Fathers find their children, friends call each other by name, and Saltreach is full of joy.",
+      "Ansel decides to stay at Cairnhead and become the Keeper of the Beacon once again. He thanks Corin, shakes the hands of his friends, and promises that this time the fire will never be left to die.",
+      "In time, Corin returns to Saltreach, where his mother runs down the lane to meet him. He hangs the Dawnlight in the Tower of Aldermoor, no longer the last lantern in the land but the first of many."
+    ],
+    "C1C2": [
+      "Corin Thatch was fifteen years old and the son of a ferryman, and each dawn he poled the flat ferry across the wide, slow river that ran past his marsh village of Saltreach. At his feet sat Juniper, his brown dog, who knew every landing stage and every passenger by smell alone. It was a quiet, ordinary life, and Corin had never thought that it could be taken from him.",
+      "One evening, as the sun went down, a long bank of grey fog appeared on the horizon and began to move slowly across the marsh toward Saltreach. The birds fell silent one by one, the frogs stopped singing, and even the reeds seemed to stand more still than they had ever stood. Corin watched it with a growing chill, for he had heard the traders' stories of a mist that swallowed whole towns.",
+      "The fog crept through the lanes of Saltreach that night and, by morning, the old fisherman Tobias was standing in front of his own house with a bewildered look on his face. He could not remember his name, nor the house, nor the faces of the grandchildren who came running out to him, and his eyes were quite empty. Corin understood then that this was no ordinary mist, for it did not merely hide the world, it took things out of people's minds.",
+      "Late that night, when the whole village lay silent beneath the fog, an old man in a torn grey cloak staggered down to the ferry landing and begged Corin to carry him across the river. Something glowed faintly beneath his coat, a warm golden light that seemed to push back the damp, and Juniper, who was usually wary of strangers, pressed her nose into his hand. Corin did not ask any questions, but pushed off from the bank and began to pole into the dark.",
+      "Halfway across the river, the old man opened his cloak, and Corin saw that he carried a small brass lantern with a flame as golden as honey. He was Brother Aldous Wick, the Keeper of the Tower at Aldermoor, he said, and this was the Dawnlight, the last of the seven great lights that had once kept the Grey from the land. One by one the other Beacons had died, and tonight the Dawnlight alone still burned in all of Aldermoor.",
+      "The Keeper explained that the Dawnlight must be carried across the whole country to Cairnhead, a sea cliff on the far coast, where the first and greatest of the Beacons still stood. If the old fire were lit again from this flame, he said, every other Beacon in Aldermoor would answer it, and the Grey would be driven back into the sea. He was too old and too weak to make the journey, and the Grey was already close behind him.",
+      "On the far bank, Aldous pressed the Dawnlight into Corin's hands and asked him, with a smile that was both sorry and trusting, to carry it to the sea. He sat down under a willow, leaned his head against the trunk, and closed his eyes, and by the time the sun rose he had died as quietly as a candle goes out. Corin buried him there beneath the roots, with Juniper pressed close against his side.",
+      "Corin ran home through the fog, where his mother Mara was waiting at the door, and he told her everything in a single breath. She listened without speaking, held him for a very long time, and then wrapped bread, cheese and a warm scarf in a cloth and told him to go before the Grey reached their door. He promised that he would come back, and she smiled, though her eyes were full of tears.",
+      "At the landing, a barge called the Kestrel was making ready to leave, and its owner, a quick-witted woman called Rook Tarn, leaned on the rail and eyed the boy with amusement. She did not believe his story at first, but when he lifted the lantern and its golden light fell on her face, she stopped laughing and agreed to carry him down to Millbrook. Whatever this light was, she said, she wanted to see where it was going.",
+      "The Kestrel slid down the river through the night, and behind it the Grey followed like a great cloud that had lost its way and wanted company. Whenever the fog crept too close, Corin held the Dawnlight high, and the mist shrank back from the golden glow as though it could not bear the sight of it. Rook, who had said nothing for an hour, watched the lantern in silence and began to hum a quiet tune.",
+      "In the stillness of the night, Rook told Corin what her grandmother had told her, which was that long ago seven great Beacons had burned along the hills, one for every valley of Aldermoor. Sailors out at sea could see them from fifty miles away, and farmers in the fields felt safer simply knowing they were burning. It seemed impossible that a light so large could ever have gone out, yet it had.",
+      "After two days on the water, the Kestrel came alongside the stone quay at Millbrook, a busy river town of bridges, market stalls and tall, crooked houses. A thin grey mist was already seeping up from the lower streets, and the people it touched wandered with slow, dreamy faces that Corin recognised with a pang of fear. Rook pulled her scarf up over her mouth and told him to keep the lantern close.",
+      "In the crowded market, Rook pointed out Dame Isaura Brack, a retired mountain guide who stood with a walking stick and the weathered, patient look of someone who had seen every kind of weather. She studied the lantern for a long minute, then declared gruffly that the only road to Cairnhead led over the Hightarn Pass, and that no one else in Millbrook would find it. It took a good deal of persuading, but in the end she agreed to come.",
+      "As the four of them made their way out of the market, a quick-fingered thief darted from the crowd and grabbed for the Dawnlight, and for a terrible moment it seemed that the lantern would be lost. A young man in ink-stained clothes swung a heavy leather book at the thief's knees, and the fellow went sprawling in the mud. The lantern was safe, and Corin, breathless, thanked his rescuer with all his heart.",
+      "The young man was Pell Ainsley, a scribe of Millbrook who had never forgotten a single word he had read or heard, and who carried everything he knew in a thick leather book called the Long Memory. He begged to come with them, for the Grey was already creeping into the town, and he could not bear to watch the library's thousand years of history slip away. Dame Isaura groaned at the thought of a fourth traveller, but Corin said that they could use a friend who remembered things.",
+      "They left the Kestrel in the care of one of Rook's old friends and set off along the Long Road, a broad, ancient highway that ran across the heart of Aldermoor toward the distant mountains. Corin carried the Dawnlight, Rook sang as she walked, Pell wrote down everything he saw, and Juniper ran ahead with her tail held high. For a time it felt less like a desperate journey than a grand adventure.",
+      "On the second day, Corin noticed that a group of silent figures in grey cloaks was following them along the road, never closing the distance, never falling behind. Pell, who had read of them in old books, explained that they were called the Hushed, ordinary people who had been taken by the Grey and had forgotten everything but the need to follow it. They did not seem dangerous, he said, but they did not seem to stop either.",
+      "That evening the travellers stopped at a roadside inn, and in the middle of the night Juniper began to growl at the door, for the Hushed had gathered in a silent ring around the building. The innkeeper, who was still himself, led them down to the cellar and opened a hidden door into the stable yard, whispering that the Grey had been closing in for weeks. They slipped out into the dark and did not stop walking until the sun was up.",
+      "Two days later the Long Road entered Thornwood, an ancient forest whose trees grew so thickly overhead that the sky vanished and the daylight turned green and dim. The track dwindled to a thread, then broke into a dozen paths, and Dame Isaura, the best guide in the land, admitted through her teeth that she no longer knew which way to turn. It was Corin who noticed that the lantern's flame was leaning gently to the left.",
+      "Corin realised that the Dawnlight leaned toward the road that led to Cairnhead, as a compass needle turns toward the north, and so they followed it through the gloom for hours. At last the trees opened onto a sunny clearing where rows of white hives hummed in the warm air, and a small, round woman in a straw hat looked up from her work. She was Marigold Fenn, and she seemed not at all surprised to see them.",
+      "Marigold fed the weary travellers with honey, bread and strong tea, and while they ate, she told them what the old keepers of the forest had learned over many years. The Grey, she said, fed on forgotten things, and the more a place was forgotten, the stronger it grew, but it shrank from anything that was remembered aloud, and loved, and shared. It was not a monster to be fought with a sword, but a hunger that could only be answered with stories.",
+      "At the edge of the forest, the Hushed closed around them in a silent circle, and Pell, his heart pounding, opened the Long Memory and began to read the names of the people of Millbrook in a loud, steady voice. As he read, a young boy among the Hushed raised his head, blinked, and whispered his own name, and the silent ring began to shiver like a pond in the wind. The boy burst into tears, ran to Rook, and held on to her coat.",
+      "The boy, whose name was Pip, could not tell them how long he had been walking, and he shook so hard that Rook wrapped him in her own coat and sat with him beside the fire until he slept. In the morning a kindly farmer, driving his cart toward the inn, agreed to carry the child home. Corin watched the cart rumble away with a lump in his throat, and thought that if this could be done once, it could be done again.",
+      "The Long Road climbed steadily into the Hightarn Pass, where the air grew thin and sharp and the snow lay deep on the narrow ledges. Dame Isaura limped at the front with her stick, her bad knee aching, but she refused to slow down, for she knew that a storm was coming. Behind her, the others followed in single file, their breath rising in clouds and their eyes fixed on the small, warm gleam of the lantern.",
+      "That afternoon a blizzard swept across the pass, and the travellers took shelter in an old stone hut built for shepherds, where they huddled around the Dawnlight and ate the last of their bread. To pass the night, each of them told a story from home, Rook about the river, Isaura about the mountains, Pell about his library, and Corin about the ferry, and with every tale the flame grew a little taller. Pell saw it first, and in his small, neat hand he wrote down exactly what he had noticed that night.",
+      "At dawn the Grey came over the ridge in a thick, silent wall, faster than any of them had thought possible, and it rolled down toward the hut like a wave. Dame Isaura stepped in front of the others, lifting her walking stick as though she could stop it, and the cold mist closed around her face. When it drew back, she stood quite still, with a puzzled look, like someone who had walked into the wrong room.",
+      "Dame Isaura looked at her three companions with polite, blank interest and asked where she was, and who they were, and why she was standing in a snowdrift. She had forgotten everything, her name, her mountains and the very years she had spent guiding travellers through this pass, and the friends looked at one another in dismay. They could not leave her, and they could not stay, so there was nothing to do but take her arm and walk.",
+      "As they descended the far side of the pass, Pell, who knew the Long Memory better than anyone, turned its pages in the lantern light and stopped at a faded note in a very old hand. It said that a person lost to the Grey might sometimes be called back by their own name, spoken aloud by someone who loved them and who could tell the story of their life. The trouble was that Isaura had never spoken very much about her own past, and so they knew far less of it than they wished.",
+      "Rook and Corin walked on either side of the old guide and told her everything they knew, from the stories she had told in the stone hut to her stubborn temper and her pride in her work. Pell wrote it all down and read it aloud again, until at last Corin said her name, quietly and fondly, and she stopped, and blinked, and looked at him as though for the first time. Then she sighed and said gruffly that if they were going to talk about her, they could at least get the details right.",
+      "After three more days of hard descent, the travellers came out from the last of the mountains and saw below them the Salt Flats, an enormous white plain that gleamed in the sun like a mirror. It stretched all the way to the horizon, flat and cold and utterly empty, with no tree or house or road to break its silence. Rook, who had sailed on many waters, said that she had never seen anything so lonely.",
+      "Halfway across the flats, Corin saw a village shimmering ahead of him, and as he stared, it resolved into Saltreach, with the ferry on the river and his mother waving from the doorstep. The picture looked so real that he forgot the lantern, forgot his friends, and began to walk toward it, thinking only that he could rest at last. A voice, low and gentle, whispered that he had done enough, and that he could simply go home.",
+      "Juniper seized his sleeve in her teeth and pulled with all her might, barking and growling until Corin looked down at her in surprise. In his hand, the Dawnlight flared with a sudden golden brilliance, and the picture of Saltreach cracked and crumbled like a mirror struck with a stone. Corin knelt down, buried his face in her fur, and understood how easily the Grey could win by being kind.",
+      "After another week of walking, the travellers came down into Port Larrow, a harbour town of grey stone and crowded fishing boats, and the first thing they noticed was the dark lighthouse above it. The sailors drifted along the quays with vacant faces, forgetting their ships and the very tides, and the ships rocked at their moorings with no one to sail them. It was a sorry sight, and Rook, who loved harbours, was nearly in tears.",
+      "They climbed the long spiral stair of the lighthouse together, and in the great lamp room Corin touched the Dawnlight's flame to the old wick, which caught at once with a roar of gold. The beam swept out across the harbour and the sleeping town, and the Grey rolled back from the shore like a tide, while below them the sailors raised their heads and began to cheer. For one night at least, and perhaps for longer if the gods were kind, Port Larrow was entirely itself again.",
+      "At dusk, one of the Hushed stepped from the crowd on the quay and spoke to Corin in a deep, soft voice that did not belong to him. It was the voice of the Pale Regent, the master of the Grey, and it told him gently that the road ahead was long, the light was heavy, and a boy could be forgiven for wanting to rest. Corin trembled, but he only held the lantern more tightly and said that he would be going on.",
+      "At dawn Rook found a small, sturdy sailing boat called the Heron, and by noon she had talked its owner into lending it to them for the sake of the whole country. The five travellers, counting Juniper, put out from the harbour with a fresh wind at their backs and the cliffs of the coast sliding past on the right. It was the first time in weeks that Corin had felt the sea air on his face, and he drank it in gladly.",
+      "On the third day, a great storm broke over the sea, and a thick Grey fog came down so heavily that the sailors could not see the bow of their own boat. The compass spun in its box like a wheel, and Rook swore that she had never known such waters, until Corin remembered how the Dawnlight had leaned through the Thornwood. He held it high at the front of the boat, and the golden flame leaned steadily north.",
+      "Late that night the Heron grounded on a shingle beach at the foot of the cliffs of Cairnhead, and the five weary travellers waded ashore in the dark. High above them, outlined against a few scattered stars, rose the broken tower where the first Beacon had once burned, so far above that Corin felt his knees shake. They had come so far, he thought, and only the last, steepest part of the journey remained.",
+      "A narrow stair, carved into the cliff by hands long forgotten, wound upward toward the tower, and the travellers climbed it one step at a time with the sea thundering far below them. Behind them the Grey crept up the cliff like a tide of smoke, and Isaura, who had never complained about a slope in her life, said that she had never climbed a worse one. Even so, she kept going, step after painful step, and Corin was more grateful than he could ever say.",
+      "At the top of the cliff, beside the dark and broken Beacon, stood a tall figure that seemed to be woven from drifting fog, and around its neck hung the heavy silver chain of a Keeper. Its eyes were quiet, deep and unutterably sad, and when it spoke, its voice was the one that Corin had heard on the quay at Port Larrow. It was the Pale Regent, and it did not look in the least like a monster.",
+      "The figure told them that he had once been Ansel Dray, Keeper of this very Beacon, who had lost everyone he loved in a single hard winter and had found the pain too great to bear. He had wished, with all his heart, that the whole world might forget its sorrows, and the Grey had come at his wish and spread without his meaning it to. He said that it was a kindness, and that he only wanted everyone to rest.",
+      "The Regent held out a hand of drifting mist and asked Corin, almost tenderly, to give him the Dawnlight, so that he might put out the last light and let the world sleep. Corin, who had expected to feel afraid, discovered that he felt only pity, and he shook his head and said, very gently, that he could not. He did not raise the lantern as a weapon, but held it close, and the Regent seemed more puzzled than angry.",
+      "Corin turned to his friends, remembering what Marigold had told them, and one by one they told the Regent a memory of their own, of rivers, mountains, libraries and Brother Aldous. With every story, the Dawnlight burned a little higher, and the cliff top was filled with a golden glow that made the Regent flinch. The mist around him shivered and began to thin, like a morning fog when the sun climbs above the hills.",
+      "Corin told the Regent, in a voice that trembled but did not break, that remembering a sorrow was not the same as being ruined by it, and that grief was only another name for love that had lost its home. To forget a person, he said, was to lose them twice, and he held the lantern out to the Regent as a gift rather than a challenge. The tall figure stared at the golden flame for a very long time, and said nothing at all.",
+      "The Regent's grey face softened, and slowly, like a man speaking in a language he had not used for years, he began to say aloud the names of the people whom he had loved and lost. As he did so, the mist thinned further and the shape of an ordinary tired man appeared inside it, with tears running down his cheeks. Then he lifted the heavy silver chain from his neck and laid it gently at Corin's feet.",
+      "Corin climbed into the old tower with Ansel at his side, and together they cleared away the dust and the broken timber and laid fresh wood in the great stone bowl of the Beacon. Corin touched the Dawnlight's flame to the pile, and the fire caught with a roar like a great breath, throwing a column of golden light into the sky. It was seen, that very night, from ships and hilltops and farm gates fifty miles away.",
+      "One by one across the dark country the other six Beacons answered the first, flaring up on far hills and in distant valleys as though some great invisible hand were lighting them in turn. By midnight, a chain of golden fires burned across the whole of Aldermoor, and the people who looked up from their doorsteps wept and laughed together. The old light, so long lost, had at last come home to every part of the land.",
+      "When the sun rose, the Grey dissolved like frost on a warm window, and all over Aldermoor the Hushed lifted their heads and remembered who they were. Fathers found their children, friends greeted one another by name, and in Saltreach old Tobias walked down to the ferry landing and asked for his boat as if he had never lost it. In a hundred villages that morning, the people stood in the sunshine, held one another close, and gave quiet thanks.",
+      "Ansel, who had become a quiet, grey-haired man with kind eyes, chose to stay at Cairnhead and take up once more his old duty as Keeper of the Beacon. He thanked Corin with a depth of feeling that needed no words, promised that the fire would never again be left to die, and gave each of them a handshake and a blessing. The four friends and Juniper went down the stair together, and nobody wanted to say goodbye.",
+      "In time, Corin came home to Saltreach, where his mother ran down the lane to meet him and held him as tightly as she had on the night that he left. He hung the Dawnlight in the Tower of Aldermoor, where it burned beside the Keeper's old chair, no longer the last lantern in the land but the first of many. That night, as the ferry lights glimmered on the river, he sat beside Juniper and for the first time in months felt entirely at peace."
+    ]
+  }
+}
