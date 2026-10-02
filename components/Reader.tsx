@@ -34,7 +34,6 @@ interface Props {
   levelId: string;
   levelLabel: string;
   length: number;
-  hue: number;
   /** The book in each language it has here, the first being the default. */
   variants: ReaderVariant[];
   scenes: Scene[];
@@ -86,7 +85,7 @@ export function Reader(props: Props) {
  * reader's own language) for that sentence appears at the top, with the matched words in the
  * same colour as in the text, and the word card rises at the bottom.
  */
-function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, first, scenes, onSwitch }: Props & { variant: ReaderVariant; first: boolean; onSwitch?: () => void }) {
+function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, scenes, onSwitch }: Props & { variant: ReaderVariant; first: boolean; onSwitch?: () => void }) {
   const t = useT();
   const locale = useLocale();
   const scroller = useRef<HTMLDivElement>(null);
@@ -351,7 +350,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
                   {near ? (
                     p.target?.art
                       ? <ObjectPhoto art={p.target.art} bg={p.target.bg ?? ""} caption={scene?.caption ?? ""} className="h-full w-full" />
-                      : <ScenePhoto n={p.scene} hue={hue} caption={scene?.caption ?? ""} pill={false} className="h-full w-full" />
+                      : <ScenePhoto caption={scene?.caption ?? ""} pill={false} className="h-full w-full" />
                   ) : null}
                   <span className="absolute start-3 top-3 grid h-9 min-w-9 place-items-center rounded-full bg-black/80 px-3 text-[15px] font-bold text-white">{p.n}</span>
                   {onSwitch && i === index && !open && (

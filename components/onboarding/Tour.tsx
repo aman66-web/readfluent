@@ -2,7 +2,7 @@
 
 import { useEffect, useState, type CSSProperties } from "react";
 import { ScenePhoto } from "@/components/ScenePhoto";
-import { LEVELS, categoryById, type LevelId } from "@/lib/content/limits";
+import { LEVELS, type LevelId } from "@/lib/content/limits";
 import { languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
@@ -82,7 +82,6 @@ function Journey() {
   const t = useT();
   const [tick, setTick] = useState(0);
   const book = PREVIEW_BOOKS[0];
-  const hue = categoryById(book.category)?.hue ?? 195;
   // A page at a time, round and round.
   useEffect(() => {
     const id = window.setInterval(() => setTick((n) => n + 1), PAGE_MS);
@@ -113,7 +112,7 @@ function Journey() {
         {page ? (
           /* The photograph, and under it the page, set as the reader sets it. */
           <div key={`page-${tick}`} className="show-swap absolute inset-x-0 top-[44px] bottom-0">
-            <ScenePhoto n={page.scene} hue={hue} caption={book.scenes[page.scene - 1]?.caption ?? ""} pill={false} className="aspect-[16/11] w-full" />
+            <ScenePhoto caption={book.scenes[page.scene - 1]?.caption ?? ""} pill={false} className="aspect-[16/11] w-full" />
             <p className="show-line px-3 pt-3 font-reading text-[9.6px] leading-[1.45] text-[#0B1B22]">{page.text}</p>
           </div>
         ) : (

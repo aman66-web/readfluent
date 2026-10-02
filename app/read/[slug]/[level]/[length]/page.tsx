@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { Reader } from "@/components/Reader";
-import { categoryById, LENGTHS, LEVELS, levelBySlug } from "@/lib/content/limits";
+import { LENGTHS, LEVELS, levelBySlug } from "@/lib/content/limits";
 import type { ReaderVariant } from "@/components/reader/types";
 import { findBook, lengthsOf, pagesOf, PREVIEW_BOOKS, type Scene } from "@/lib/preview/catalog";
 import { loadDictionary, loadEnglish, loadTranslation } from "@/lib/preview/books/load";
@@ -72,7 +72,6 @@ export default async function ReadPage({ params }: { params: Promise<{ slug: str
       levelId={lv.id}
       levelLabel={lv.label}
       length={len.pages}
-      hue={categoryById(book.category)?.hue ?? 30}
       variants={variants}
       scenes={scenes}
     />

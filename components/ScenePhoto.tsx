@@ -4,13 +4,18 @@ import { useId } from "react";
 import { useT } from "@/lib/i18n/react";
 
 /**
- * A stand-in for a page's photograph, drawn from the scene number so every scene
- * looks different and the same scene always looks the same. TEMPORARY: the real
- * photos are generated, one pool of 200 per book (SPEC.md §7), and arrive with the
- * content pipeline (M2). The caption says so, so nobody mistakes it for the product.
+ * A stand-in for a page's photograph: one fixed landscape, the same on every page of every
+ * book, so nothing is spent drawing pictures that will be replaced. TEMPORARY: the real
+ * photos are made one pool of 200 per book (SPEC.md §7) and arrive later. The caption of the
+ * page's scene is kept as the picture's description (and as the brief for the real one).
  */
+const SCENE = 10;
+const HUE = 150;
+
 /** `pill` is the "Photo placeholder" caption; off where the picture is small (the first-run tour's phone). */
-export function ScenePhoto({ n, hue, caption, className = "", pill = true }: { n: number; hue: number; caption: string; className?: string; pill?: boolean }) {
+export function ScenePhoto({ caption, className = "", pill = true }: { caption: string; className?: string; pill?: boolean }) {
+  const n = SCENE;
+  const hue = HUE;
   const id = useId();
   const t = useT();
   // A small deterministic shuffle: no Math.random, so server and client agree.

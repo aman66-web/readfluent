@@ -91,7 +91,7 @@ describe("saved words", () => {
 vi.mock("next/link", () => ({ default: (p: { href: string; children?: unknown }) => createElement("a", { href: p.href }, p.children as never) }));
 
 describe("the reader", () => {
-  const book = { slug: "pride-and-prejudice", title: "Pride and Prejudice", levelId: "A1A2", levelLabel: "A1–A2", length: 50, hue: 345, scenes: [{ n: 1, caption: "A" }] };
+  const book = { slug: "pride-and-prejudice", title: "Pride and Prejudice", levelId: "A1A2", levelLabel: "A1–A2", length: 50, scenes: [{ n: 1, caption: "A" }] };
   it("shows a Spanish page with its matched words underlined and nothing open", async () => {
     const { Reader } = await import("@/components/Reader");
     const x = SPANISH_PAGES[0].text.A1A2;
@@ -130,7 +130,7 @@ describe("reading settings", () => {
     const { Reader } = await import("@/components/Reader");
     const x = SPANISH_PAGES[0].text.A1A2;
     const html = renderToStaticMarkup(createElement(Reader, {
-      slug: "pride-and-prejudice", title: "Pride and Prejudice", levelId: "A1A2", levelLabel: "A1–A2", length: 50, hue: 345, scenes: [{ n: 1, caption: "A" }],
+      slug: "pride-and-prejudice", title: "Pride and Prejudice", levelId: "A1A2", levelLabel: "A1–A2", length: 50, scenes: [{ n: 1, caption: "A" }],
       variants: [{ lang: "es", dict: SPANISH_DICT, pages: [{ n: 1, text: x.text, scene: 1, target: { translation: x.translation, keys: x.keys, art: SPANISH_PAGES[0].art, bg: SPANISH_PAGES[0].bg } }] }],
     }));
     expect(html).toContain('aria-label="Reading settings"');
