@@ -31,6 +31,18 @@ export const XP = {
   firstOfDay: 10,
   /** How long a page must be on screen before it counts. */
   dwellMs: 2_500,
+  /**
+   * Flashcards pay more than reading, and only for a card answered right: "Again" earns nothing.
+   * A card takes about ten seconds, so a good one pays about three times what reading earns in that time.
+   */
+  card: { good: 5, easy: 6 },
+  /**
+   * Tests pay the most. Each question answered right pays `correct` (half for a test below the reader's level),
+   * and a finished test with at least `passShare` right adds `finish` scaled by the score.
+   */
+  test: { correct: 12, finish: 60, passShare: 0.6 },
+  /** The most a day can pay from each, so the same easy cards or papers cannot be farmed. */
+  dayCap: { card: 400, test: 600 },
 } as const;
 
 /** How fast an ordinary reader gets through the app's pages: a page is 28–35 words and a picture, about twenty seconds. */
@@ -133,6 +145,21 @@ export const startingXp = (level: Cefr | null | undefined): number => (level ? L
 /** XP for one page of a version in `band`, for a reader at `level`. */
 export function xpForPage(band: string, level: Cefr): number {
   return (BAND_INDEX[band] ?? 0) >= BAND_INDEX[BAND_OF[level]] ? XP.page : XP.pageBelow;
+}
+
+/** XP for one flashcard by the answer given: nothing for "again" (it was not known), more for an easy one. */
+export const xpForCard = (grade: "again" | "good" | "easy"): number => (grade === "again" ? 0 : XP.card[grade]);
+
+const atOrAbove = (testLevel: Cefr, level: Cefr): boolean => CEFR.indexOf(testLevel) >= CEFR.indexOf(level);
+
+/** XP for one test question answered right, in a test at `testLevel`, for a reader at `level`: a test below their level pays half. */
+export const xpForTestAnswer = (testLevel: Cefr, level: Cefr): number => (atOrAbove(testLevel, level) ? XP.test.correct : Math.floor(XP.test.correct / 2));
+
+/** XP for finishing a test: nothing under the pass mark, then more the better the score. */
+export function xpForTestFinish(testLevel: Cefr, level: Cefr, correct: number, total: number): number {
+  if (total <= 0 || correct / total < XP.test.passShare) return 0;
+  const full = Math.round(XP.test.finish * (correct / total));
+  return atOrAbove(testLevel, level) ? full : Math.floor(full / 2);
 }
 
 /** XP for finishing a version that has `pages` pages. */

@@ -13,6 +13,9 @@ import { answerCard, parseSrs, saveSrs, sittingState, SRS_KEY } from "@/lib/srs/
 import { useDeviceReady, useSaved, useSrs } from "@/lib/srs/use";
 import { readRaw } from "@/lib/store/local";
 import { SAVED_KEY, parseSaved } from "@/lib/words/saved";
+import { LevelUp } from "@/components/xp/LevelUp";
+import { levelUpBetween, xpForCard, type LevelUp as LevelUpInfo } from "@/lib/xp/levels";
+import { awardCard, currentXp } from "@/lib/xp/ledger";
 
 /** What a card shows: the word or phrase, and what it means. */
 interface Face { front: string; back: string; hint?: string; lang: string; book?: string }
@@ -54,6 +57,14 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
   const [at, setAt] = useState(0);
   const [shown, setShown] = useState(false);
   const [done, setDone] = useState(0);
+  // What the last right answer paid, shown for a moment; and a new stage or level, celebrated.
+  const [gain, setGain] = useState<{ n: number; xp: number } | null>(null);
+  const [levelUp, setLevelUp] = useState<LevelUpInfo | null>(null);
+  useEffect(() => {
+    if (!gain) return;
+    const timer = window.setTimeout(() => setGain(null), 1200);
+    return () => window.clearTimeout(timer);
+  }, [gain]);
 
   // The decks this sitting draws on, fetched once each.
   const langs = useMemo(() => [...new Set(ids.map((id) => parseDeckCardId(id)?.lang).filter((l): l is string => !!l))], [ids]);
@@ -82,6 +93,14 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
   const grade = useCallback((g: Grade) => {
     if (!id) return;
     answerCard(id, g);
+    // A card known pays XP (more than reading does); one that was not known ("Again") pays nothing.
+    const before = currentXp();
+    const xp = awardCard(g);
+    if (xp > 0) {
+      setGain({ n: Date.now(), xp });
+      const up = levelUpBetween(before, currentXp());
+      if (up) setLevelUp(up);
+    }
     stopSpeaking();
     setDone((n) => n + 1);
     setShown(false);
@@ -122,6 +141,7 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
         <Link href={none ? "/library" : "/recall"} className="btn-cyan flex h-14 items-center justify-center rounded-full text-[16px] font-bold">
           {none ? t("cards.toLibrary") : t("cards.back")}
         </Link>
+        {levelUp && <LevelUp up={levelUp} onClose={() => setLevelUp(null)} />}
       </>
     );
   }
@@ -138,7 +158,12 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
         <span className="w-12 text-end text-[13px] font-semibold tabular-nums text-muted">{at + 1}/{ids.length}</span>
       </div>
 
-      <div className="flex flex-1 flex-col justify-center py-6">
+      <div className="relative flex flex-1 flex-col justify-center py-6">
+        {gain && (
+          <p key={gain.n} className="xp-pop tabular pointer-events-none absolute inset-x-0 top-1 mx-auto w-fit rounded-full bg-accent-bright px-3.5 py-1 text-[14px] font-bold text-on-cyan shadow-md" role="status">
+            <bdi>{t("reader.xp", { xp: gain.xp })}</bdi>
+          </p>
+        )}
         <div className="rounded-[28px] border border-border bg-surface px-6 py-10 text-center shadow-[0_10px_30px_-18px_rgba(14,116,144,.5)]">
           {face ? (
             <>
@@ -173,13 +198,14 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
           {GRADES.map((g) => (
             <button key={g.grade} type="button" onClick={() => grade(g.grade)} className={`flex h-16 flex-col items-center justify-center rounded-2xl border-2 text-[16px] font-bold ${g.tone}`}>
               {t(g.label)}
-              <span className="text-[11.5px] font-medium opacity-70">{g.grade === "again" ? "10 min" : `${Math.max(1, previewDays(card, g.grade))} d`}</span>
+              <span className="text-[11.5px] font-medium opacity-70">{g.grade === "again" ? "10 min" : `${Math.max(1, previewDays(card, g.grade))} d`}{g.grade === "again" ? "" : ` · +${xpForCard(g.grade)} XP`}</span>
             </button>
           ))}
         </div>
       ) : (
         <button type="button" onClick={reveal} disabled={!face} className="btn-cyan h-14 rounded-full text-[16px] font-bold disabled:opacity-50">{t("cards.show")}</button>
       )}
+      {levelUp && <LevelUp up={levelUp} onClose={() => setLevelUp(null)} />}
     </>
   );
 }

@@ -225,7 +225,7 @@ describe("the ledger", () => {
     expect(l.base).toBe(5000);
     expect(l.earned).toBe(0);
     expect(l.pages.v).toEqual([1, 3]);
-    expect(l.days["2026-10-01"]).toEqual({ sec: 60, xp: 5, books: { a: 60 }, pages: 0 });
+    expect(l.days["2026-10-01"]).toEqual({ sec: 60, xp: 5, books: { a: 60 }, pages: 0, cards: 0, cardXp: 0, tests: 0, testsDone: 0, testXp: 0 });
     expect(Object.keys(l.days)).toHaveLength(1);
     expect(l.done).toEqual(["v"]);
   });
@@ -249,5 +249,47 @@ describe("reaching a new stage", () => {
     // Never for XP that went down or stood still.
     expect(levelUpBetween(LEVEL_FLOOR.A2 + 3, LEVEL_FLOOR.A2 - 3)).toBeNull();
     expect(levelUpBetween(500, 500)).toBeNull();
+  });
+});
+
+describe("flashcards and tests pay more than reading, and only for right answers", () => {
+  it("pays a flashcard that was known and nothing for one that was not", async () => {
+    const { payCard } = await import("@/lib/xp/ledger");
+    const { XP, xpForCard } = await import("@/lib/xp/levels");
+    expect(xpForCard("again")).toBe(0);
+    expect(xpForCard("good")).toBe(XP.card.good);
+    expect(xpForCard("easy")).toBeGreaterThan(xpForCard("good"));
+    expect(XP.card.good).toBeGreaterThan(XP.page);
+    const wrong = payCard(EMPTY_LEDGER, "again", "2026-10-02");
+    expect(wrong.xp).toBe(0);
+    expect(wrong.ledger.earned).toBe(0);
+    const right = payCard(EMPTY_LEDGER, "good", "2026-10-02");
+    expect(right.xp).toBe(XP.card.good);
+    expect(right.ledger.earned).toBe(XP.card.good);
+    expect(right.ledger.days["2026-10-02"].cards).toBe(1);
+  });
+
+  it("stops paying cards at the day's limit", async () => {
+    const { payCard } = await import("@/lib/xp/ledger");
+    const { XP } = await import("@/lib/xp/levels");
+    let l = EMPTY_LEDGER;
+    let total = 0;
+    for (let i = 0; i < 200; i++) { const p = payCard(l, "easy", "2026-10-02"); l = p.ledger; total += p.xp; }
+    expect(total).toBe(XP.dayCap.card);
+  });
+
+  it("pays a test question more than a card, half in a test below the reader's level, and a bonus only for a pass", async () => {
+    const { payTestAnswer, payTestFinish } = await import("@/lib/xp/ledger");
+    const { XP, xpForTestAnswer, xpForTestFinish } = await import("@/lib/xp/levels");
+    expect(XP.test.correct).toBeGreaterThan(XP.card.easy);
+    expect(xpForTestAnswer("B1", "B1")).toBe(XP.test.correct);
+    expect(xpForTestAnswer("A1", "B1")).toBe(XP.test.correct / 2);
+    expect(payTestAnswer(EMPTY_LEDGER, "A1", "2026-10-02").xp).toBe(XP.test.correct);
+    expect(xpForTestFinish("A1", "A1", 5, 10)).toBe(0);
+    expect(xpForTestFinish("A1", "A1", 10, 10)).toBe(XP.test.finish);
+    expect(xpForTestFinish("A1", "B2", 10, 10)).toBe(XP.test.finish / 2);
+    const done = payTestFinish(EMPTY_LEDGER, "A1", 8, 10, "2026-10-02");
+    expect(done.xp).toBeGreaterThan(0);
+    expect(done.ledger.days["2026-10-02"].testsDone).toBe(1);
   });
 });

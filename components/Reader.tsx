@@ -435,7 +435,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
 
       <footer inert={wordsOpen} className={`safe-bottom relative shrink-0 px-5 ${open ? "rounded-t-[26px] border-t border-border bg-background [--pb:.75rem] pt-3 shadow-[0_-8px_28px_rgba(0,0,0,.08)]" : "[--pb:.75rem] pt-2"}`}>
         {gain && (
-          <p key={gain.n} className="xp-pop tabular pointer-events-none absolute inset-x-0 -top-9 mx-auto w-fit rounded-full bg-accent px-3 py-1 text-[13px] font-bold text-white shadow-md" role="status">
+          <p key={gain.n} className="xp-pop tabular pointer-events-none absolute inset-x-0 -top-9 mx-auto w-fit rounded-full bg-accent-bright px-3 py-1 text-[13px] font-bold text-on-cyan shadow-md" role="status">
             <bdi>{gain.finish ? t("reader.finishXp", { xp: gain.xp }) : t("reader.xp", { xp: gain.xp })}</bdi>
           </p>
         )}

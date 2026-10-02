@@ -1,6 +1,6 @@
 import { storageKey } from "@/lib/brand";
 import { readRaw, writeRaw } from "@/lib/store/local";
-import { startingXp, xpForFinish, xpForPage, levelFromXp, XP, type Cefr } from "./levels";
+import { startingXp, xpForCard, xpForFinish, xpForPage, xpForTestAnswer, xpForTestFinish, levelFromXp, XP, type Cefr } from "./levels";
 
 /**
  * The XP ledger, kept on the device (it becomes a `sync_docs` document in M8).
@@ -23,6 +23,13 @@ export interface DayStat {
   books: Record<string, number>;
   /** Pages that paid that day (the day's reading, for the daily targets). */
   pages: number;
+  /** Flashcards answered right that day, and the XP they paid. */
+  cards?: number;
+  cardXp?: number;
+  /** Test questions answered right that day, tests finished, and the XP they paid. */
+  tests?: number;
+  testsDone?: number;
+  testXp?: number;
 }
 
 export interface Ledger {
@@ -60,7 +67,7 @@ export function parseLedger(raw: string | null | undefined): Ledger {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(d) || !isObject(s)) continue;
       const books: Record<string, number> = {};
       if (isObject(s.books)) for (const [b, n] of Object.entries(s.books)) if (count(n)) books[b] = count(n);
-      days[d] = { sec: count(s.sec), xp: count(s.xp), books, pages: count(s.pages) };
+      days[d] = { sec: count(s.sec), xp: count(s.xp), books, pages: count(s.pages), cards: count(s.cards), cardXp: count(s.cardXp), tests: count(s.tests), testsDone: count(s.testsDone), testXp: count(s.testXp) };
     }
   }
   return {
@@ -82,11 +89,12 @@ export function localDay(d: Date = new Date()): string {
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
 }
 
-export const dayOf = (l: Ledger, day: string): DayStat => l.days[day] ?? { sec: 0, xp: 0, books: {}, pages: 0 };
+const EMPTY_DAY: DayStat = { sec: 0, xp: 0, books: {}, pages: 0 };
+export const dayOf = (l: Ledger, day: string): DayStat => l.days[day] ?? EMPTY_DAY;
 
 /* ── pure changes: each returns the next ledger and what it paid ─────────── */
 
-export interface Paid { ledger: Ledger; xp: number; reason: "page" | "finish" | "none" }
+export interface Paid { ledger: Ledger; xp: number; reason: "page" | "finish" | "card" | "test" | "none" }
 
 /** A page has been on screen long enough: pay it once, plus the day's first-read bonus. */
 export function payPage(l: Ledger, version: string, page: number, band: string, day: string): Paid {
@@ -117,6 +125,31 @@ export function payFinish(l: Ledger, version: string, pages: number, day: string
     xp,
     reason: "finish",
   };
+}
+
+/** A flashcard has been answered: pay it if it was right ("good" or "easy"), up to the day's limit. */
+export function payCard(l: Ledger, grade: "again" | "good" | "easy", day: string): Paid {
+  const daily = dayOf(l, day);
+  const xp = Math.max(0, Math.min(xpForCard(grade), XP.dayCap.card - (daily.cardXp ?? 0)));
+  if (grade === "again") return { ledger: l, xp: 0, reason: "none" };
+  const next: Ledger = { ...l, earned: l.earned + xp, days: { ...l.days, [day]: { ...daily, xp: daily.xp + xp, cards: (daily.cards ?? 0) + 1, cardXp: (daily.cardXp ?? 0) + xp } } };
+  return { ledger: next, xp, reason: xp > 0 ? "card" : "none" };
+}
+
+/** A test question has been answered right: pay it, up to the day's limit. A wrong answer is never passed here. */
+export function payTestAnswer(l: Ledger, testLevel: Cefr, day: string): Paid {
+  const daily = dayOf(l, day);
+  const xp = Math.max(0, Math.min(xpForTestAnswer(testLevel, levelFromXp(totalXp(l)).level), XP.dayCap.test - (daily.testXp ?? 0)));
+  const next: Ledger = { ...l, earned: l.earned + xp, days: { ...l.days, [day]: { ...daily, xp: daily.xp + xp, tests: (daily.tests ?? 0) + 1, testXp: (daily.testXp ?? 0) + xp } } };
+  return { ledger: next, xp, reason: xp > 0 ? "test" : "none" };
+}
+
+/** A test has been finished: the pass bonus, if it was passed, up to the day's limit. */
+export function payTestFinish(l: Ledger, testLevel: Cefr, correct: number, total: number, day: string): Paid {
+  const daily = dayOf(l, day);
+  const xp = Math.max(0, Math.min(xpForTestFinish(testLevel, levelFromXp(totalXp(l)).level, correct, total), XP.dayCap.test - (daily.testXp ?? 0)));
+  const next: Ledger = { ...l, earned: l.earned + xp, days: { ...l.days, [day]: { ...daily, xp: daily.xp + xp, testsDone: (daily.testsDone ?? 0) + 1, testXp: (daily.testXp ?? 0) + xp } } };
+  return { ledger: next, xp, reason: xp > 0 ? "test" : "none" };
 }
 
 /** Time on a page, counted toward the day and the book. */
@@ -182,6 +215,27 @@ export function awardPage(version: string, page: number, band: string): number {
 export function awardFinish(version: string, pages: number): number {
   const paid = payFinish(read(), version, pages, localDay());
   if (paid.reason !== "none") write(paid.ledger);
+  return paid.xp;
+}
+
+/** Pays a flashcard answer; returns what it paid (0 for a wrong one). */
+export function awardCard(grade: "again" | "good" | "easy"): number {
+  const paid = payCard(read(), grade, localDay());
+  if (paid.reason !== "none") write(paid.ledger);
+  return paid.xp;
+}
+
+/** Pays one test question answered right. */
+export function awardTestAnswer(testLevel: Cefr): number {
+  const paid = payTestAnswer(read(), testLevel, localDay());
+  if (paid.reason !== "none") write(paid.ledger);
+  return paid.xp;
+}
+
+/** Pays the bonus for finishing a test, and counts it. */
+export function awardTestFinish(testLevel: Cefr, correct: number, total: number): number {
+  const paid = payTestFinish(read(), testLevel, correct, total, localDay());
+  write(paid.ledger);
   return paid.xp;
 }
 
