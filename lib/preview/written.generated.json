@@ -841,6 +841,43 @@
   }
  },
  {
+  "slug": "arsene-lupin-gentleman-burglar",
+  "title": "Arsène Lupin, Gentleman-Burglar",
+  "author": "Maurice Leblanc",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "Arsène Lupin robs the rich, outwits the police and always keeps his word. Nine daring adventures take him from a stormy ocean liner to a prison cell, a castle with a secret passage, and a meeting with Sherlock Holmes.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Arsène Lupin,",
+    "Gentleman-Burglar"
+   ],
+   "size": 10.5,
+   "author": "MAURICE LEBLANC",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mask",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "ring",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-thirty-nine-steps",
   "title": "The Thirty-Nine Steps",
   "author": "John Buchan",
@@ -3311,6 +3348,43 @@
     },
     {
      "id": "sun",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "life-as-a-seeker",
+  "title": "Life as a Seeker",
+  "author": "Autobiography of a Yogi",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "Ines grows up asking questions on a harbour wall, then sets out to find answers. She sits in silence with monks and meditators, shares music, bread and long roads with strangers, and learns that seeking is a way of living, not a place to arrive.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "Life as a",
+    "Seeker"
+   ],
+   "size": 18.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "compass",
      "x": 160,
      "y": 38,
      "s": 0.36

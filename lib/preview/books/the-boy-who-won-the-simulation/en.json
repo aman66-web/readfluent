@@ -1,0 +1,417 @@
+{
+  "slug": "the-boy-who-won-the-simulation",
+  "meta": {
+    "blurb": "Twelve-year-old Kofi is brilliant at a tide game, so the Tide Academy invites him to train on its great Simulation. He works, learns and wins every test. Then comes the final exam, and nothing about it is what he believes.",
+    "bible": "Kofi Asante: twelve, from a seaweed-farming family in the delta near Port Halden; clever, stubborn, kind. Abena: his sister, eight, draws. Efua Asante: his mother. Gran: his grandmother, proud and sharp. Commander Ruth Halloran: head of the Tide Academy, stern, honest in the end. Dr Pavel Lind: Kofi's gentle instructor. Mei-Lin Tran: thirteen, careful planner, Kofi's friend. Joaquin Ferro: fourteen, big laugh, Kofi's friend. Samira Qadir: thirteen, top of the class, fast and proud, becomes a friend. Port Halden: the big city on the delta, protected by sea walls. Highfield Station: the Academy, high in the hills inland. Tide Academy: the school that trains young pilots. The Simulation, also called the Game: the tank-room map where pilots command drones. Floats: small floating rescue drones that carry sandbags, close gates and lift people. Delta Command: the advanced class. The Last Tide: the final exam, which is really the real storm. East Bend: a weak part of the sea wall. Mill Fields: the low farmland outside the city. Hill School: where the evacuated families wait. The tide puzzle: the tablet game Kofi plays at home. Voice: warm close third person, past tense, tense and hopeful; no gore; no real people. Pilots are twelve to fourteen; the storm is a real surge in the near future."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Kofi sits on a seaweed raft at dawn, playing a puzzle game on a cracked tablet",
+      "summary": "Kofi, a boy on a seaweed farm, plays a tide puzzle game and sets a new record."
+    },
+    {
+      "n": 2,
+      "scene": "A letter with a bright seal lies on a kitchen table beside bowls of rice",
+      "summary": "A letter from the Tide Academy invites Kofi to train, and the family reads it around the kitchen table."
+    },
+    {
+      "n": 3,
+      "scene": "Mum and Gran watch the sea wall news on a small screen while Abena draws",
+      "summary": "The family worries about the bigger storms, and the news shows the sea walls of Port Halden."
+    },
+    {
+      "n": 4,
+      "scene": "Commander Halloran sits stiffly in the kitchen with a folder on her knees",
+      "summary": "Commander Halloran visits and explains that the Academy trains young pilots to command rescue drones."
+    },
+    {
+      "n": 5,
+      "scene": "Kofi waves from a train window as the seaweed raft shrinks behind him",
+      "summary": "Kofi says goodbye, and the train takes him up the river valley, away from the sea."
+    },
+    {
+      "n": 6,
+      "scene": "A boy with a loud laugh helps Kofi carry his bag into a plain bunk room",
+      "summary": "At Highfield Station, Kofi gets a bunk and meets Joaquin, a big laughing boy."
+    },
+    {
+      "n": 7,
+      "scene": "Students eat at long tables beneath a board with names and numbers",
+      "summary": "In the dining hall Kofi meets Mei-Lin and Samira, and he sees a board that ranks every student."
+    },
+    {
+      "n": 8,
+      "scene": "Kofi stands over a glowing table map of a delta crowded with tiny floating machines",
+      "summary": "Dr Lind shows the class the Simulation: a glowing map and hundreds of little floats to command."
+    },
+    {
+      "n": 9,
+      "scene": "Water floods across the table map while red lights blink",
+      "summary": "In his first exercise Kofi closes the wrong gate, and the flood spreads across the whole map."
+    },
+    {
+      "n": 10,
+      "scene": "Dr Lind crouches beside Kofi and points at the flowing water",
+      "summary": "Dr Lind tells Kofi not to watch the water but to ask where the water wants to go."
+    },
+    {
+      "n": 11,
+      "scene": "Kofi works alone in the dark tank-room with a single glowing map",
+      "summary": "At night Kofi practises alone and learns the floats' limits, their batteries and how long a sandbag chain takes."
+    },
+    {
+      "n": 12,
+      "scene": "Samira sweeps through a test exercise as Kofi watches, thoughtful",
+      "summary": "Samira beats everyone in speed but follows the rules too stiffly, and she scorns Kofi's style."
+    },
+    {
+      "n": 13,
+      "scene": "A squad of small floats moves like a flock of birds across the map",
+      "summary": "In a team test Kofi leads ten floats that move together like a flock of birds, and his team wins."
+    },
+    {
+      "n": 14,
+      "scene": "Kofi writes a letter at his bunk while Joaquin snores above",
+      "summary": "Kofi writes home, and a letter from Mum tells of more storms while Abena sends a drawing."
+    },
+    {
+      "n": 15,
+      "scene": "The tank-room map goes dark and then flickers with a surprise storm",
+      "summary": "Halloran changes the exercises without warning, and Kofi begins to suspect the Game cheats."
+    },
+    {
+      "n": 16,
+      "scene": "Kofi lies awake in his bunk while Joaquin hands him a mug of tea",
+      "summary": "Kofi feels homesick, and Joaquin and a kitchen aunt cheer him with tea and stories."
+    },
+    {
+      "n": 17,
+      "scene": "Kofi opens a channel across a map to let water flood an empty field",
+      "summary": "Kofi tries a bold idea, to let the sea into low fields to protect the town, and it works but costs points."
+    },
+    {
+      "n": 18,
+      "scene": "Commander Halloran frowns at a screen of scores",
+      "summary": "Halloran does not like the lost fields but cannot deny that the town was saved, and Kofi's rank is lower than Samira's."
+    },
+    {
+      "n": 19,
+      "scene": "Four students stand in a row as the Commander reads out their names",
+      "summary": "Four students, Kofi, Mei-Lin, Samira and Joaquin, are chosen for Delta Command, the advanced class."
+    },
+    {
+      "n": 20,
+      "scene": "Four students sit at four glowing consoles in a round room",
+      "summary": "In Delta Command each student controls a district, and Kofi takes the middle, the sea gate."
+    },
+    {
+      "n": 21,
+      "scene": "Samira refuses to share her floats while Kofi argues with his hands raised",
+      "summary": "Samira will not share her floats, they quarrel, and Kofi learns to ask for help instead of demanding it."
+    },
+    {
+      "n": 22,
+      "scene": "Mei-Lin shows Kofi a weather chart in her notebook",
+      "summary": "Mei-Lin teaches Kofi to read weather charts, and he notices that the storms in the Game look real."
+    },
+    {
+      "n": 23,
+      "scene": "Kofi points at a street on the map while Dr Lind looks away",
+      "summary": "Kofi recognises his own street on the map, and Halloran says they train on the places they are going to protect."
+    },
+    {
+      "n": 24,
+      "scene": "A tired Kofi stares at a wall clock in the empty mess hall",
+      "summary": "The pilots are not allowed news or phones, Mum's last letter is late, and Kofi feels uneasy."
+    },
+    {
+      "n": 25,
+      "scene": "Joaquin points out a dark window while rain streaks the glass",
+      "summary": "Joaquin shows Kofi a window where the sky is dark and the instructors look tired and anxious."
+    },
+    {
+      "n": 26,
+      "scene": "Dr Lind presses a small wooden whistle into Kofi's palm",
+      "summary": "Dr Lind gives Kofi a small wooden whistle and tells him that whatever happens, he is very good at this."
+    },
+    {
+      "n": 27,
+      "scene": "The Commander points at a huge board that reads The Last Tide",
+      "summary": "Halloran announces that tomorrow is the final exam, the Last Tide, and it will last a whole day."
+    },
+    {
+      "n": 28,
+      "scene": "Four friends eat in a quiet room while Samira holds out her hand",
+      "summary": "On the night before, Samira apologises, and Mei-Lin shares her lucky stone with all of them."
+    },
+    {
+      "n": 29,
+      "scene": "The four pilots sit at consoles as the Commander lowers her voice",
+      "summary": "In the morning the Commander tells them to treat the exam as real, and the Last Tide begins."
+    },
+    {
+      "n": 30,
+      "scene": "A grey line of cloud gathers over a gentle blue map",
+      "summary": "In the first hour a storm gathers far out at sea, and the map shows only a low swell."
+    },
+    {
+      "n": 31,
+      "scene": "Wind bends the map's trees as a swarm of floats rushes along the wall",
+      "summary": "By the third hour the wind rises, the sea walls strain, and Kofi spreads his floats along the sea gate."
+    },
+    {
+      "n": 32,
+      "scene": "A jammed gate on the map while floats pull a cable and stack sandbags",
+      "summary": "At the fifth hour the surge arrives and a gate jams, so Kofi sends floats with sandbags and a cable to hold it."
+    },
+    {
+      "n": 33,
+      "scene": "Samira's district floods red while Kofi sends floats to help",
+      "summary": "The East Bend wall cracks in Samira's district, and Kofi sends her half his floats, and she thanks him."
+    },
+    {
+      "n": 34,
+      "scene": "Kofi opens a long channel across Mill Fields while boats collect farm families",
+      "summary": "In the seventh hour Kofi decides to flood Mill Fields on purpose and sends evacuation boats to the farms first."
+    },
+    {
+      "n": 35,
+      "scene": "Adults stand behind the glass wall looking pale as a radio crackles",
+      "summary": "Behind the glass wall, the instructors stare pale and silent, and Dr Lind whispers while Halloran holds a radio."
+    },
+    {
+      "n": 36,
+      "scene": "Hundreds of floats glow in a long line across the dark map",
+      "summary": "In the eighth hour the surge peaks, and Kofi holds the line with hundreds of floats while rotating their batteries."
+    },
+    {
+      "n": 37,
+      "scene": "A hospital icon floods on the map while Mei-Lin's floats rush to help",
+      "summary": "In the ninth hour water reaches the hospital district, and Kofi and Mei-Lin use the last floats to save it."
+    },
+    {
+      "n": 38,
+      "scene": "The map turns from red to green as the four friends cheer",
+      "summary": "In the tenth hour the storm passes, the map turns from red to green, and the four pilots cheer."
+    },
+    {
+      "n": 39,
+      "scene": "The tank-room door opens and a crowd of adults pours in",
+      "summary": "The door opens, adults pour in and applaud, and Halloran kneels and says it was not a test."
+    },
+    {
+      "n": 40,
+      "scene": "Dr Lind shows a live camera feed of a muddy city under dark clouds",
+      "summary": "Dr Lind shows a live feed of the real Port Halden, with floats carrying people through muddy water."
+    },
+    {
+      "n": 41,
+      "scene": "Kofi glares at Halloran while holding the carved whistle",
+      "summary": "Kofi is furious that they lied, and Halloran explains that fear would have made them slower but says she is sorry."
+    },
+    {
+      "n": 42,
+      "scene": "Dr Lind holds out a phone beside a list of names",
+      "summary": "Kofi asks about his family, and Dr Lind finds them on the list of the evacuated at the Hill School."
+    },
+    {
+      "n": 43,
+      "scene": "Kofi cries while his three friends hold him in a tight circle",
+      "summary": "Kofi cries into his friends' arms, and Joaquin laughs and cries while Mei-Lin and Samira hold him."
+    },
+    {
+      "n": 44,
+      "scene": "Morning light shines through a window onto a table of newspapers",
+      "summary": "The next morning the news shows the sea walls held, the farms were empty, and more than a million people were safe."
+    },
+    {
+      "n": 45,
+      "scene": "A woman clasps Kofi's hand in a hospital corridor beside a sleeping baby",
+      "summary": "A hospital worker visits Highfield Station, and she thanks Kofi for the lights that stayed on."
+    },
+    {
+      "n": 46,
+      "scene": "Kofi faces the Commander across a desk in a bare office",
+      "summary": "Kofi tells Halloran that next time pilots must be told the truth, and she agrees to take it to the Board."
+    },
+    {
+      "n": 47,
+      "scene": "Students speak to a long table of grown-ups in a large hall",
+      "summary": "Kofi, Mei-Lin, Samira and Joaquin tell the Board they will serve if they are told the truth."
+    },
+    {
+      "n": 48,
+      "scene": "A train passes through muddy fields on the way down to the delta",
+      "summary": "Kofi takes the train home and sees the mud and the sea wall that still stands."
+    },
+    {
+      "n": 49,
+      "scene": "Kofi hugs his mother, Gran and Abena on the family's seaweed raft",
+      "summary": "Kofi is reunited with Mum, Gran and Abena on the raft, and he tells them about the floats."
+    },
+    {
+      "n": 50,
+      "scene": "Kofi and Abena sit on the raft at dawn beside a calm sea and the tablet",
+      "summary": "At dawn Kofi plays the tide puzzle with Abena beside him, calm, and he knows that the game was real."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Every morning, Kofi sits on his family's raft and plays a game.",
+      "A letter comes from the Tide Academy, and Kofi's family reads it.",
+      "On the news, the sea is high, and the family is worried.",
+      "A tall woman visits and says the Academy trains young pilots.",
+      "Kofi says goodbye to his family and takes a train to the hills.",
+      "At Highfield Station, Kofi meets Joaquin, a boy who laughs a lot.",
+      "Kofi meets Mei-Lin and Samira, and they look at the ranking board.",
+      "Dr Lind shows the class the Simulation, a big glowing map.",
+      "Kofi closes the wrong gate, and the flood covers the map.",
+      "Dr Lind tells Kofi to watch where the water wants to go.",
+      "At night Kofi practises alone, and he learns about the floats.",
+      "Samira is very fast, but she follows the rules too stiffly.",
+      "Kofi leads ten floats, and they move like a flock of birds.",
+      "Kofi writes home, and Mum sends a letter about storms.",
+      "The exercises change without warning, and Kofi is unsure why.",
+      "Kofi is homesick, and Joaquin makes him laugh.",
+      "Kofi has a bold idea: let the water into the empty fields.",
+      "Halloran frowns at the score, and Kofi's rank is lower than Samira's.",
+      "Four students are chosen for Delta Command: Kofi, Mei-Lin, Samira and Joaquin.",
+      "In Delta Command, each of them has a district, and Kofi takes the sea gate.",
+      "Samira will not share her floats, and they quarrel.",
+      "Mei-Lin teaches Kofi to read weather charts, and the storms look real.",
+      "Kofi sees his own street on the map, and he is surprised.",
+      "There is no news at the Academy, and Mum's letter is late.",
+      "Joaquin shows Kofi that the sky is dark, and the teachers look tired.",
+      "Dr Lind gives Kofi a small whistle and says he is very good.",
+      "Halloran announces that tomorrow is the final exam, the Last Tide.",
+      "The night before the exam, Samira says sorry, and they share a meal.",
+      "In the morning, the Commander tells them to treat the exam as real.",
+      "In the first hour, a storm grows far out at sea.",
+      "By the third hour, the wind is strong, and the sea walls strain.",
+      "At the fifth hour, the surge arrives, and a gate jams.",
+      "The wall cracks in Samira's district, and Kofi sends her floats.",
+      "In the seventh hour, Kofi floods Mill Fields on purpose to save the city.",
+      "Behind the glass, the teachers look pale and say nothing.",
+      "In the eighth hour, the surge is at its highest, and Kofi holds on.",
+      "In the ninth hour, the hospital district floods, and Kofi helps Mei-Lin.",
+      "In the tenth hour, the storm passes, and the lights turn green.",
+      "Adults come in and clap, and Halloran says it was not a test.",
+      "Dr Lind shows a live camera feed of the real Port Halden.",
+      "Kofi says that they lied, and Halloran says she is sorry.",
+      "Kofi asks about his family, and Dr Lind finds their names.",
+      "Kofi cries, and his three friends hold him tightly.",
+      "In the morning, the news says the sea walls held and many people are safe.",
+      "A woman from the hospital comes to thank Kofi.",
+      "Kofi tells the Commander that pilots must know the truth next time.",
+      "The four friends tell the Board they will serve if they are told the truth.",
+      "Kofi takes the train home and sees the mud and the wall.",
+      "Kofi hugs his family on the raft and tells them about the floats.",
+      "At dawn Kofi plays the tide puzzle again, and the sea is calm."
+    ],
+    "B1B2": [
+      "Kofi Asante lives on a seaweed farm in the delta, and every morning he plays the tide puzzle on a cracked tablet. Today he sets a new record, which no one in the world has beaten.",
+      "That evening a letter with a bright blue seal arrives from the Tide Academy, and the family gathers around the kitchen table. It says that Kofi has been chosen to train on the Simulation, and Mum is worried while Abena asks if he will come back.",
+      "The news shows the sea walls of Port Halden, and the sea beyond them is higher and angrier than last year. Mum says that storms are getting bigger, and Abena draws a boat beside her brother's name.",
+      "Commander Ruth Halloran arrives the next morning, tall and serious in a dark blue coat. She explains that the Academy trains young people to command small rescue drones called floats, but she never says what the floats are really for.",
+      "Kofi hugs his mother and grandmother on the platform, and Abena gives him a drawing of a boat to keep. The train pulls away past the great sea wall, and he watches the sea shrink to a thin silver line.",
+      "Highfield Station sits among cold hills, a long grey building with bright windows and a view of nothing but fog. A big boy with a loud laugh takes Kofi's bag and says that his name is Joaquin and that the food is bad but the pillows are good.",
+      "In the dining hall Kofi meets Mei-Lin Tran, who writes everything in a tiny notebook, and Samira Qadir, whose name is at the top of a ranking board. Kofi looks at the board and sees that his own name is at the very bottom.",
+      "In the great tank-room, Dr Pavel Lind switches on the Simulation, and a glowing map of a river delta spreads across the table. Hundreds of small floats sit on it like beads, and each pilot can command them with a touch or a spoken word.",
+      "His first exercise is simple, but Kofi panics and closes the wrong gate, and the blue flood spreads over the whole map. The other pilots finish in minutes, and he is sure that he will be sent home.",
+      "Dr Lind finds him afterwards, sitting alone beside the map, and tells him not to be ashamed. Most pilots stare at the water, he says, but the best ones ask where it wants to go and then make that path easy.",
+      "That night, while the others sleep, Kofi creeps back to the tank-room and practises until his eyes burn. He learns that each float has only a few hours of power, and that a chain of floats passes sandbags faster than a single float can carry them.",
+      "Samira is faster than anyone, and her floats move across the map in neat, perfect rows. But when the exercise changes without warning, her rows break, and she tells Kofi afterwards that real pilots do not guess.",
+      "In the first team exercise, Kofi is given ten floats and told to build a wall of sandbags against a rising tide. Instead of using straight lines, he makes the floats move like starlings, and his wall stands while three others fall.",
+      "After a few weeks, Kofi writes a long letter home about the floats, the hills and Joaquin's snoring. Mum writes back that the storms are growing worse, and she sends a drawing from Abena of a boy flying a kite over the waves.",
+      "The Commander makes the tests harder and harder, and sometimes the Simulation seems to change its rules in the middle of a task. Kofi begins to wonder whether the Game cheats, but Dr Lind only says that real storms never keep to a timetable.",
+      "One cold night Kofi lies awake missing the smell of the sea, and Joaquin climbs down from his bunk with two mugs of tea. He tells ridiculous stories about his old school until Kofi laughs so hard that his sides hurt.",
+      "On a hard exercise, Kofi tries something nobody has taught him and opens a gate to let the flood spill across the low fields beside the city. The town stays dry, but the Simulation counts the fields as lost, so his score is poor.",
+      "Commander Halloran dislikes the idea at first because it means giving up the farmland, and she tells him sharply that the score counts crops as well as people. But the town was saved, so she cannot argue, and Samira's name stays above his on the wall.",
+      "One morning, the Commander calls out four names in a row: Kofi, Mei-Lin, Samira and Joaquin. They have been chosen for the advanced class, called Delta Command, and from tomorrow they will train in a different room with a bigger map.",
+      "The new room is round and dark, with four glowing consoles and a huge map that curls around the walls like the inside of a shell. Kofi is given the middle district, the sea gate itself, and he feels both proud and frightened.",
+      "In the first big exercise, Kofi's district floods, and he demands that Samira send him floats, but she refuses. Mei-Lin asks them quietly what they are both afraid of, and after a long pause Samira sends half her floats.",
+      "Mei-Lin shows Kofi how to read the pressure lines and wind arrows in the weather charts that feed the Simulation. The storms in the Game, Kofi notices, are not at all like invented ones, because they behave with all the small, untidy habits of real weather.",
+      "One evening Kofi looks closely at the district map and sees a bridge, a market and a street he knows well. When he asks about it, Commander Halloran says briskly that they train on the places they are going to protect.",
+      "The students are forbidden to watch the news or use their phones, because the Commander says it would break their concentration. Mum's last letter has not come, and a teacher says that the post is slow in bad weather, but Kofi does not believe it.",
+      "Joaquin creeps to a window and points out at the hills, where a heavy dark sky is gathering and the rain comes sideways. The instructors hurry through the corridors with grey faces, and Kofi feels that something is happening that nobody will explain.",
+      "Late that night, Dr Lind stops Kofi in the corridor and presses a small carved whistle into his hand. Whatever happens, he says, you are better at this than you know, and the words sound to Kofi like a goodbye.",
+      "The next morning, the Commander tells the four of them that the final exam, the Last Tide, will begin the following day. It will last from morning until night, she says, and nothing in the Academy can prepare them for it.",
+      "The four of them eat together that night in the empty hall, and nobody wants to speak of tomorrow. Samira tells Kofi that she is sorry for calling him lucky, and Mei-Lin passes round a smooth grey stone that she says has brought her luck all year.",
+      "At dawn the four pilots take their places in the round room, and the map glows softly around them. Commander Halloran tells them to treat everything as real and to remember that every light on the map is a life.",
+      "In the first hour the map shows only a slow, grey swell far out at sea, and a ring of low pressure is gathering strength. Kofi sends floats to check the gates, and nothing seems to be wrong yet, but he knows that a storm can grow fast.",
+      "By the third hour, the wind has risen sharply, and the sea begins to climb against the walls of the delta. Kofi spreads his floats along the sea gate in a long, thin line, ready to reinforce any weak point.",
+      "The surge arrives in the fifth hour, a mountain of water pushing against the sea gate, and one of the great doors jams halfway open. Kofi sends forty floats to drag a cable around the gate and heap sandbags against it, and slowly the door holds.",
+      "In the sixth hour, the East Bend wall cracks in Samira's district, and water pours through the gap. Kofi does not hesitate but sends half of his own floats across the map, and together they plug the crack.",
+      "By the seventh hour the sea is too strong to hold back at the wall, so Kofi remembers his old idea about the fields. He sends boats to Mill Fields to collect every family from the farms, and only then does he open a channel and let the sea spill across the land.",
+      "Behind the glass wall of the tank-room, the instructors watch in complete silence, and some of them have their hands over their mouths. Dr Lind whispers something to the Commander, and she grips the radio so tightly that her knuckles turn white.",
+      "The surge peaks in the eighth hour, and the whole sea seems to lean against the delta. Kofi holds the line with six hundred floats, rotating them in and out of the charging bays so that none goes dark at the wrong moment.",
+      "In the ninth hour, water begins to creep into the hospital district, and Mei-Lin cries out that she has no floats left. Kofi sends her every spare machine he has, and she lifts a wall of sandbags just in time.",
+      "In the tenth hour, the winds soften, the surge slides back, and the red lights on the map turn slowly to green. The four pilots shout and hug one another, but when Kofi looks up at the glass, the instructors are not cheering.",
+      "The door of the tank-room opens, and a crowd of adults pours in, many with tears running down their faces. Commander Halloran kneels in front of Kofi and takes both of his hands, and she says in a cracked voice that it was never a test.",
+      "Dr Lind turns on a screen, and Kofi sees a live view of Port Halden under heavy clouds, with the real sea wall holding against real waves. Small floats, the same ones he commanded, are moving through the muddy streets and carrying people to safety.",
+      "Kofi steps back and tells Commander Halloran that she lied to them, and his voice shakes with anger. She says that fear would have made the pilots slower and less clever, so she hid the truth, and she is sorry for the pain it has caused.",
+      "Kofi turns to Dr Lind and asks, in a very small voice, whether his own family was in the city. Dr Lind scrolls through a long list of evacuated families and finds Efua Asante, Gran and Abena, who are safe at the Hill School.",
+      "Kofi shakes with sobs, and Samira, Mei-Lin and Joaquin put their arms around him until the four of them are a single knot. Joaquin is laughing and crying together, and nobody speaks for a long time.",
+      "The next morning, the news is finally allowed into the Academy, and the headline says that Port Halden has survived the surge. The sea walls held, the flooded farmland was empty because of the early evacuation, and more than a million people are safe.",
+      "Two days later a woman from the Port Halden hospital arrives with a cake that she has baked herself. She tells Kofi that the hospital lights never went out, and that her newborn daughter slept safely through the whole night.",
+      "Kofi asks to speak to the Commander alone, and he stands in her office with his hands clenched. He says that the pilots must be told the truth in future, and Halloran listens with her head bowed and promises to take the matter to the Board.",
+      "The Board of the Academy meets in a long hall, and the four friends stand up one by one to speak. They say that they will serve again, but only if pilots are told when the storm is real, and after hours of argument the Board agrees.",
+      "When the Academy lets him go home at last, Kofi rides the train down the valley with the carved whistle in his pocket. The fields are grey with mud, but the great sea wall stands tall at the end of the valley.",
+      "The seaweed raft has survived, its ropes frayed but unbroken, and his family stands on it waiting for him. Abena runs at him so hard that she nearly knocks him into the water, and that night he tells them everything about the floats.",
+      "At dawn Kofi sits on the raft with the cracked tablet on his knees, and Abena leans against his shoulder to watch. The tide puzzle looks different now, because he knows that behind every small blue gate lies a real city, but the sea is calm."
+    ],
+    "C1C2": [
+      "At dawn, on the family's seaweed raft, Kofi Asante bent over a cracked tablet and moved small blue gates to stop an imaginary flood. The tide puzzle was his favourite thing in the world, and this morning he finished it faster than anyone had before. He did not yet know that someone far away was watching the score climb past every other name on the list.",
+      "That evening a letter with a bright blue seal arrives from the Tide Academy, and the whole family gathers around the kitchen table. It says that Kofi has been chosen to train on the Simulation, and that his family must decide quickly. Gran is proud, Mum is worried, and his little sister Abena asks if he will come back.",
+      "That night the news shows the sea walls of Port Halden, and the sea beyond them is higher and angrier than last year. Mum says that storms are getting bigger and that the Academy is the best chance Kofi has to learn something useful. Abena draws a boat beside her brother's name, and Gran tells him he can always come home.",
+      "Commander Ruth Halloran arrives the next morning, tall and serious in a dark blue coat. She explains that the Academy trains young people to command fleets of small rescue drones, called floats, and that learners often adapt to new ideas faster than adults. Mum asks hard questions, and the Commander answers them honestly, except that she never says what the floats are really for.",
+      "Kofi hugged his mother and grandmother on the platform, and Abena gave him a drawing of a boat to keep in his pocket. The train pulled away from the delta, past the great sea wall and up the river valley into the hills. He pressed his face to the window until the sea had shrunk to a thin silver line and then disappeared.",
+      "Highfield Station sat among cold hills, a long grey building with bright windows and a view of nothing but fog. A big boy with a loud laugh took Kofi's bag and introduced himself as Joaquin Ferro, the fourteen-year-old who had the bunk above his. He promised that the food was bad but the pillows were good, and that was how Kofi's life at the Academy began.",
+      "In the dining hall, he met Mei-Lin Tran, a thoughtful girl who wrote everything in a tiny notebook, and Samira Qadir, whose name stood at the top of a ranking board on the wall. Samira looked at him as if he were a small, odd fish, and Mei-Lin whispered that she was very good and knew it. Kofi looked at the board and saw that his own name was at the very bottom.",
+      "In the great tank-room, Dr Pavel Lind switched on the Simulation, and a glowing map of a river delta spread across the table. Hundreds of small floats sat on it like beads, and each pilot could command them with a touch or a spoken word. Kofi stared, because the map looked strangely alive, as if real water was moving somewhere under the glass.",
+      "His first exercise was simple, but Kofi panicked and closed the wrong gate, and the blue flood spread over the whole map. The other pilots finished in minutes while he was still sending his floats in circles. When the red lights stopped blinking, he felt hot with embarrassment, and he was sure he would be sent home.",
+      "Dr Lind found him afterwards, sitting alone beside the map, and told him not to be ashamed. He said that most pilots stared at the water, but the best ones asked where it wanted to go and then made that path easy. Kofi thought about the tide puzzle at home, and for the first time all day he felt a little braver.",
+      "That night, while the others slept, Kofi crept back to the tank-room and practised until his eyes burned. He learned that each float had only a few hours of power, that a chain of floats could pass sandbags faster than a single one could carry them, and that a gate cost more time to close than it seemed. The map was no longer a puzzle to him but something he began to understand.",
+      "Samira was faster than anyone, and her floats moved across the map in neat, perfect rows. But when the exercise changed without warning, her neat rows broke, and Kofi saw her bite her lip. She told him afterwards that he had been lucky and that real pilots did not guess, and he decided not to argue.",
+      "In the first team exercise, Kofi was given ten floats and told to build a wall of sandbags against a rising tide. Instead of sending the floats in straight lines, he made them move like starlings, in a flowing shape that bent around every new problem. Dr Lind watched with his arms folded, and when the exercise ended, Kofi's wall stood while three others had fallen.",
+      "After a few weeks, Kofi wrote a long letter home about the floats and the hills and Joaquin's snoring. Mum wrote back that the storms were growing worse and that the sea walls were being checked every day, and she sent a drawing from Abena of a boy flying a kite over the waves. He pinned it above his bunk and read it every night before he slept.",
+      "The Commander made the tests harder and harder, and sometimes the Simulation seemed to change its rules in the middle of a task. A gate that should have worked would jam, or a storm would arrive an hour before it was due. Kofi began to wonder whether the Game cheated, but when he asked, Dr Lind only smiled thinly and said that real storms never kept to a timetable either.",
+      "One cold night Kofi lay awake missing the smell of the sea, and Joaquin climbed down from his bunk with two mugs of tea. He told ridiculous stories about his old school until Kofi laughed so hard that his sides hurt. Kofi realised that he had found a friend, and that he no longer felt quite so far from home.",
+      "On a particularly hard exercise, Kofi tried something nobody had taught him, and he opened a gate to let the flood spill across the low fields beside the city. The water spread out thin and harmless there, and the town stayed dry behind it. The Simulation counted the fields as lost, so his score was poor, but Dr Lind quietly told him that this was the cleverest thing he had seen all year.",
+      "Commander Halloran disliked the idea at first, because it meant giving up the farmland, and she told him sharply that the score counted crops as well as people. But the town had been saved, and she could not argue with that, so she let the matter rest. Samira's name stayed above his on the wall, but several other students were beginning to watch what Kofi did.",
+      "One morning, the Commander called out four names in a row: Kofi, Mei-Lin, Samira and Joaquin. They had been chosen for the advanced class, called Delta Command, and from tomorrow they would train in a different room with a bigger map. Kofi grinned at Joaquin, and Samira pretended not to care, though her fingers tightened on her notebook.",
+      "The new room was round and dark, with four glowing consoles and a huge map that curled around the walls like the inside of a shell. Each student took charge of one district of the delta, and Kofi was given the middle, the sea gate itself. It was the busiest and most important place, and he felt both proud and frightened.",
+      "In the first big exercise, Kofi's district was flooded and he asked Samira to send floats, but she refused. They shouted at each other until Mei-Lin stepped between them and asked quietly what they were both afraid of. Kofi admitted that he had been demanding help instead of asking, and Samira, after a long pause, sent half her floats.",
+      "Mei-Lin showed Kofi how to read the pressure lines and wind arrows in the weather charts that fed the Simulation. She explained that low pressure draws the sea upward and that wind pushes it toward land, and that together they can make a surge. The storms in the Game, Kofi noticed, were not at all like invented ones, because they behaved with all the small, untidy habits of real weather.",
+      "One evening, Kofi looked closely at the district map and saw a bridge, a market and a street he knew well. It was the delta around Port Halden, and one small square was the road where his seaweed raft was moored. When he asked about it, Commander Halloran said briskly that they trained on the places they were going to protect, and the answer sounded perfectly reasonable.",
+      "The students were forbidden to watch the news or use their phones, because the Commander said it would break their concentration. Mum's last letter had not come, and when Kofi asked about it, a teacher said that the post was slow in bad weather. He did not believe it, but he was too tired to push, and the uneasy feeling settled into his stomach like a stone.",
+      "Joaquin crept to a window and pointed out at the hills, where a heavy dark sky was gathering and the rain came sideways. The instructors hurried through the corridors with grey faces, and one of them snapped at a student for no reason at all. Kofi felt that something was happening beyond the walls of Highfield Station, something that nobody would explain.",
+      "Late that night, Dr Lind stopped Kofi in the corridor and pressed a small carved whistle into his hand. It had belonged to his own father, he said, who had been a sailor, and it was meant to bring good luck. Whatever happens, he told Kofi, you are better at this than you know, and the words sounded to Kofi like a goodbye.",
+      "The next morning, the Commander stood before the four of them and announced that the final exam, the Last Tide, would begin the following day. It would last from morning until night and would test everything they had learned, she said, and nothing in the Academy could prepare them for it. Her voice was steady, but Kofi noticed that she had not slept.",
+      "The four of them ate together that night in the empty hall, and nobody wanted to speak of tomorrow. Samira turned to Kofi and said she was sorry for calling him lucky, because he was the best pilot she had ever seen. Mei-Lin passed round a smooth grey stone she said had brought her luck all year, and each of them held it for a moment.",
+      "At dawn the four pilots took their places in the round room, and the map glowed softly around them. Commander Halloran told them to treat everything as real, to trust their training and to remember that every light on the map was a life. Then she stepped back, and the Last Tide began, and the tank-room fell silent.",
+      "In the first hour, the map showed only a slow, grey swell far out at sea, and a ring of low pressure was gathering strength. Kofi sent floats to check the gates and test the walls, and nothing seemed to be wrong yet. But he remembered Mei-Lin's lessons, and he knew that a storm like this could grow far faster than anyone expected.",
+      "By the third hour, the wind had risen sharply, and the sea began to climb against the walls of the delta. Kofi spread his floats along the sea gate in a long, thin line, ready to reinforce any weak point. Beside him Samira worked in silence, and Joaquin muttered encouragement to his floats as if they were a herd of nervous sheep.",
+      "The surge arrived in the fifth hour, a mountain of water pushing against the sea gate, and one of the great doors jammed halfway open. Kofi did not panic this time, but sent forty floats to drag a cable around the gate and heap sandbags against it. The door shuddered, held and slowly stopped letting water through, and he let out a breath he had not known he was holding.",
+      "In the sixth hour, the East Bend wall cracked in Samira's district, and water poured through the gap. Samira's voice was tight with fear, and Kofi did not hesitate: he sent half of his own floats across the map to help her. Together they plugged the crack, and Samira whispered a quick thank you without turning her head.",
+      "By the seventh hour, the sea had grown too strong to hold back at the wall, and Kofi remembered his old idea about the fields. He sent boats to Mill Fields to collect every family from the farms, and only then did he open a slow channel to let the sea spill across the farmland. It was a terrible choice, but the water spread out thinly there, and the city behind it began to breathe again.",
+      "Behind the glass wall of the tank-room, the instructors watched in complete silence, and some of them had their hands over their mouths. Dr Lind whispered something to the Commander, and she gripped the radio so tightly that her knuckles went white. Kofi glanced up once and wondered why a mere exam could frighten grown people so much.",
+      "The surge peaked in the eighth hour, and the whole sea seemed to lean against the delta. Kofi held the line with six hundred floats, rotating them in and out of the charging bays so that none went dark at the wrong moment. His hands were shaking, but his thoughts were clear and calm, as they had been on the family's raft long ago.",
+      "In the ninth hour, water began to creep into the hospital district, and Mei-Lin cried out that she had no floats left. Kofi sent her every spare machine he had, even the ones that were nearly out of power, and she lifted a wall of sandbags just in time. The lights of the hospital stayed on, and Mei-Lin laughed and cried at the same time.",
+      "In the tenth hour, the winds softened, the surge slid back, and the red lights on the map turned slowly to green. The four of them shouted and hugged one another, and Joaquin picked Kofi clean off the floor. But when Kofi looked up at the glass, the instructors were not cheering, and the room was far too quiet.",
+      "The door of the tank-room opened, and a crowd of adults poured in, many with tears running down their faces. They began to applaud, and Commander Halloran knelt in front of Kofi and took both of his hands. It was not a test, she said, in a voice that cracked, and it had never been one.",
+      "Dr Lind turned on a screen, and Kofi saw a live view of Port Halden under heavy clouds, with the real sea wall holding against the real waves. Small floats, the same ones he had commanded, were moving through muddy streets and carrying people to safety. He recognised the market, the bridge and the clock tower, and his legs went weak beneath him.",
+      "Kofi stepped back and told Commander Halloran that she had lied to them, and his voice shook with anger. She said that if the pilots had known that real people were at stake, fear would have made them slower and less clever, and so she had chosen to hide the truth. She would probably choose it again, she admitted, but she was truly sorry for the pain it caused.",
+      "Kofi turned to Dr Lind and asked, in a very small voice, whether his own family had been in the city. Dr Lind said gently that they had, and then scrolled through a long list of evacuated families until he found a name. Efua Asante, Gran and Abena had all been taken to the Hill School and were safe, and the tears came all at once.",
+      "Kofi shook with sobs, and Samira, Mei-Lin and Joaquin put their arms around him until the four of them were a single knot. Joaquin was laughing and crying together, and Mei-Lin passed him her lucky stone without a word. Nobody spoke for a long time, and that silence said everything that needed saying.",
+      "The next morning, the news was finally allowed into the Academy, and the headline said that Port Halden had survived the surge. The sea walls had held, the flooded farmland had been empty because of the early evacuation, and more than a million people were safe. Kofi read it twice, and the numbers meant nothing until he thought of every window in Port Halden and every one of the lights in them.",
+      "Two days later, a woman from the Port Halden hospital arrived at the Academy with a cake that she had baked herself. She held Kofi's hand and told him that the hospital lights had never gone out, and that her own newborn daughter had slept safely through the whole night. Kofi did not know what to say, so he said thank you, and she laughed and said that it should be her saying that.",
+      "Kofi asked to speak to the Commander alone, and he stood in her office with his hands clenched. He said that the pilots must be told the truth in future, because trusting them was the only way to deserve their best. Halloran listened with her head bowed, and then she agreed that he was right and promised to take the matter to the Board.",
+      "The Board of the Academy met in a long hall, and the four friends stood up one by one to speak. They said that they were proud of what they had done and would serve again, but only if the pilots were told when the storm was real. The Board argued for hours, and in the end it voted to change the rules, so that future pilots would always know the truth.",
+      "When the Academy let him go home at last, Kofi rode the train down the valley with the carved whistle in his pocket. The fields were grey with mud, and the river was high, but the great sea wall stood tall at the end of the valley. He pressed his face to the window, and the sea came back to him, brown and tired and beautiful.",
+      "The seaweed raft had survived, its ropes frayed but unbroken, and his family stood on it waiting for him. Abena ran at him so hard that she nearly knocked him into the water, and Mum and Gran held on to him as if he might float away. That night he told them about the floats and the Simulation, and Gran said she had always known he would do something great.",
+      "At dawn, Kofi sat on the raft with the cracked tablet on his knees, and Abena leaned against his shoulder to watch. The tide puzzle looked different now, because he knew that behind every small blue gate lay a real city full of real lights. He moved a gate gently, the sea lay calm all round them, and for once he was glad that the game was only a game."
+    ]
+  }
+}
