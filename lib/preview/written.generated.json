@@ -1366,6 +1366,81 @@
   }
  },
  {
+  "slug": "the-housekeeper-s-notebook",
+  "title": "The Housekeeper's Notebook",
+  "author": "The Maid",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "Ada Brennan has kept house at Fenwick House for thirty years and written down every small thing she noticed. When her employer dies after his birthday dinner, the police look at her first. Her green notebook may be the only proof she has.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The",
+    "Housekeeper's",
+    "Notebook"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "window-seat-platform-nine",
+  "title": "Window Seat, Platform Nine",
+  "author": "The Girl on the Train",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "Every morning the 7:42 stops for one minute beside a garden, and a woman in a yellow coat waves. Then she vanishes, and only Mina, a jobless bookkeeper with a window seat and a sharp eye, believes something is wrong.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Window Seat,",
+    "Platform Nine"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "train",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lamp",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-wonderful-wizard-of-oz",
   "title": "The Wonderful Wizard of Oz",
   "author": "L. Frank Baum",
@@ -2061,6 +2136,43 @@
     },
     {
      "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "neon-rain-city",
+  "title": "Neon Rain City",
+  "author": "Neuromancer",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "In a city that never stops raining, an old data thief mends umbrellas and tries to forget her past. Then a child brings her a glass key, and a company's secret plan to let the sea drown a poor district. One last job remains.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "Neon Rain",
+    "City"
+   ],
+   "size": 18.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "waves",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -3445,6 +3557,43 @@
     },
     {
      "id": "dove",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "why-people-buy",
+  "title": "Why People Buy",
+  "author": "Influence",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Why does one person buy and another walk away? Follow Rosa, who runs a small bakery, as she learns what really moves people: feelings, trust, fear of risk and the power of a good story, and how to be persuasive without ever being unfair.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Why People",
+    "Buy"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "coin",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "heart",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -5978,6 +6127,81 @@
     },
     {
      "id": "orbit",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-secret-world-of-fungi",
+  "title": "The Secret World of Fungi",
+  "author": "Entangled Life",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "A mushroom is only the visible tip. Walk through a wet forest and discover the hidden threads beneath it: fungi that recycle the dead, feed the trees, grow in our bread and medicine, and still hold secrets scientists have not yet named.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Secret",
+    "World of",
+    "Fungi"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "leaf",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lens",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "wuthering-heights",
+  "title": "Wuthering Heights",
+  "author": "Emily Brontë",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "A wild moor, two haunted houses and a love too fierce for either. Heathcliff, a homeless boy, grows up beside Catherine Earnshaw, and when she chooses another man, his revenge reaches into the next generation. Emily Brontë's masterpiece, retold for learners.",
+  "cover": {
+   "bg": "#1C1C1F",
+   "title": [
+    "Wuthering",
+    "Heights"
+   ],
+   "size": 18.5,
+   "author": "EMILY BRONTË",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "house",
      "x": 160,
      "y": 38,
      "s": 0.36

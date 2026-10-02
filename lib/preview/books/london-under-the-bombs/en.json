@@ -1,0 +1,417 @@
+{
+  "slug": "london-under-the-bombs",
+  "meta": {
+    "blurb": "For 57 nights in a row in 1940, bombers came to London. This is the story of how ordinary people lived, worked, hid, laughed and rebuilt while the city burned around them.",
+    "bible": "Time and place: London and Britain, from 1939 to 1941, with a short look at the years after. The Blitz: the German bombing of British cities from September 1940 to May 1941. Luftwaffe: the German air force. RAF: the Royal Air Force. Germany, Hitler, France, Poland, Spain, Guernica, Dunkirk, Norway. Key dates: war declared on Germany on 3 September 1939; first heavy daylight raid on London 7 September 1940; 57 nights of bombing in a row; Coventry bombed on 14 November 1940; the Second Great Fire of London on 29 December 1940; the last great raid on 10 May 1941. Places: Thames, Docks, East End, Silvertown, Balham, Bank, Buckingham Palace, Westminster, Parliament, Commons, Big Ben, Guildhall, Cathedral, National Gallery, Wales, Windsor, Coventry, Liverpool, Birmingham, Bristol, Glasgow. People and terms: Anderson shelter, Morrison shelter, Tube, Underground, Siren, Warden, ARP, Blackout, Gas, Evacuees, Pied Piper, Rationing, Phoney War, Balloons, Searchlights, Incendiary, Stirrup pump, Shrapnel, Trekkers, George Cross, Myra Hess, Henry Moore, Mass Observation, Dig for Victory, Festival of Britain, Women's Voluntary Service. Numbers are rounded and hedged: about 20,000 Londoners died in the Blitz and about 40,000 people in all Britain; more than a million London homes were damaged or destroyed in the whole war. Voice and tone: calm, clear and humane. The courage is real, so are the fear, the anger and the unfairness; nothing is invented and no gore is shown."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Terraced streets, smoking chimneys and busy docks along the River Thames in 1939",
+      "summary": "In 1939 London is one of the biggest cities on earth, with no idea what is coming."
+    },
+    {
+      "n": 2,
+      "scene": "Newspaper readers look up at the sky as aeroplanes fly over a city street",
+      "summary": "Many people fear that bombers can destroy a whole city from the sky."
+    },
+    {
+      "n": 3,
+      "scene": "A volunteer warden in a steel helmet shows neighbours a map of the street",
+      "summary": "Volunteers train as air raid wardens to warn, guide and help their neighbours."
+    },
+    {
+      "n": 4,
+      "scene": "A family walks along a pavement, each carrying a gas mask box",
+      "summary": "Everyone is given a gas mask, though poison gas is never dropped on Britain."
+    },
+    {
+      "n": 5,
+      "scene": "A man in a back garden digs a pit for a curved steel shelter",
+      "summary": "Families dig Anderson shelters of curved steel into their gardens."
+    },
+    {
+      "n": 6,
+      "scene": "A dark street at night with covered windows and white paint on the kerb",
+      "summary": "From the first day of the war every light in London is covered at night."
+    },
+    {
+      "n": 7,
+      "scene": "A crowd of schoolchildren with suitcases waits on a railway platform",
+      "summary": "Hundreds of thousands of London children are sent away to the countryside."
+    },
+    {
+      "n": 8,
+      "scene": "A small boy with a name label on his coat holds a bag",
+      "summary": "Children arrive in strange villages with labels on their coats; some are happy and some are not."
+    },
+    {
+      "n": 9,
+      "scene": "A crowd stands in a London street looking up as a siren sounds",
+      "summary": "Britain declares war on 3 September 1939, and a siren sounds in London a few minutes later."
+    },
+    {
+      "n": 10,
+      "scene": "Empty theatre seats and a shop window with a poster saying business as usual",
+      "summary": "For months nothing happens, and many evacuated children go home; this is called the Phoney War."
+    },
+    {
+      "n": 11,
+      "scene": "Small boats cross the sea to a smoking beach full of waiting soldiers",
+      "summary": "In 1940 Germany conquers much of Western Europe, and Britain stands almost alone."
+    },
+    {
+      "n": 12,
+      "scene": "Fighter planes climb through white vapour trails over green English fields",
+      "summary": "In the summer of 1940 the RAF fights the German air force over southern England."
+    },
+    {
+      "n": 13,
+      "scene": "A bombed street in central London in the early morning with firefighters at work",
+      "summary": "Late in August German bombers hit London, probably by mistake, and the war over the city begins."
+    },
+    {
+      "n": 14,
+      "scene": "Hundreds of bombers fly in tight groups over the Thames on a sunny afternoon",
+      "summary": "On 7 September 1940 hundreds of bombers attack the London Docks in daylight."
+    },
+    {
+      "n": 15,
+      "scene": "The docks burn red against a black night sky as bombers return",
+      "summary": "Fires at the docks light the night, and bombers return; London is bombed for 57 nights in a row."
+    },
+    {
+      "n": 16,
+      "scene": "A family sits in the dark, listening to the drone of engines overhead",
+      "summary": "Raids are loud and frightening: sirens, engines, guns and falling bombs."
+    },
+    {
+      "n": 17,
+      "scene": "Beams of searchlights cross the sky above a gun on a rooftop",
+      "summary": "Searchlights, guns and rooftop spotters try to find and fight the bombers."
+    },
+    {
+      "n": 18,
+      "scene": "A huge silver balloon floats on a cable above rooftops",
+      "summary": "Barrage balloons on steel cables force the bombers to fly higher."
+    },
+    {
+      "n": 19,
+      "scene": "Crowded East End streets in daylight with damaged houses and angry faces",
+      "summary": "The East End has few shelters, and many poor Londoners feel left to face the bombs alone."
+    },
+    {
+      "n": 20,
+      "scene": "Crowds with blankets and pillows queue at the entrance to an Underground station",
+      "summary": "Thousands of people go down into the Underground stations for safety, though officials had not allowed it."
+    },
+    {
+      "n": 21,
+      "scene": "Rows of bunk beds and sleeping people on a lit platform beside the rails",
+      "summary": "Life in the Tube shelters settles into a routine of bunks, tea, songs and jokes."
+    },
+    {
+      "n": 22,
+      "scene": "Rescue workers clear rubble at the entrance of a damaged Underground station",
+      "summary": "Even deep shelters are not completely safe: in October 1940 a bomb strikes Balham station."
+    },
+    {
+      "n": 23,
+      "scene": "A family eats supper in a cramped steel shelter by candlelight",
+      "summary": "Home shelters are damp and cold, and in 1941 the Morrison shelter, a steel cage indoors, appears."
+    },
+    {
+      "n": 24,
+      "scene": "Families walk out of London at dusk with bundles, prams and blankets",
+      "summary": "Some people leave London every evening to sleep in fields and villages; they are called trekkers."
+    },
+    {
+      "n": 25,
+      "scene": "A warden in a tin helmet leads a family from a damaged house",
+      "summary": "Wardens patrol in the dark, find people who need help and report where the bombs have fallen."
+    },
+    {
+      "n": 26,
+      "scene": "Firefighters aim hoses at a burning warehouse while sparks fly",
+      "summary": "Firefighters, many of them volunteers, fight huge fires in streets and warehouses."
+    },
+    {
+      "n": 27,
+      "scene": "A man on a roof pours sand over a small glowing bomb",
+      "summary": "Small fire bombs fall in thousands, and fire watchers on roofs put them out with sand and water."
+    },
+    {
+      "n": 28,
+      "scene": "Rescue workers pass a stretcher over bricks beside a tea van",
+      "summary": "Rescue squads dig people out of ruins, ambulances carry the injured, and volunteers serve tea."
+    },
+    {
+      "n": 29,
+      "scene": "Soldiers carefully dig around a large bomb in a street cordoned off with ropes",
+      "summary": "Bombs that do not explode are a danger, and bomb disposal teams work to make them safe."
+    },
+    {
+      "n": 30,
+      "scene": "A palace with a damaged wall and a king and queen among ruins",
+      "summary": "Buckingham Palace is bombed in September 1940, and the royal family shares the danger."
+    },
+    {
+      "n": 31,
+      "scene": "People in office clothes step over broken glass on their way to work",
+      "summary": "Each morning Londoners pick their way over rubble to work, and life carries on."
+    },
+    {
+      "n": 32,
+      "scene": "A shop with boarded windows and a hand-painted sign saying business as usual",
+      "summary": "Shops, factories and offices keep working, with signs promising business as usual."
+    },
+    {
+      "n": 33,
+      "scene": "Rows of vegetables growing in a London park beside a tall iron fence",
+      "summary": "Food is rationed, and parks and gardens are dug up to grow vegetables."
+    },
+    {
+      "n": 34,
+      "scene": "A pianist plays in an empty gallery while people listen in coats",
+      "summary": "The National Gallery holds lunchtime concerts, and artists draw and paint the shelterers."
+    },
+    {
+      "n": 35,
+      "scene": "A group of friends laugh together on the platform of a shelter",
+      "summary": "Humour helped, but the picture of a calm and cheerful city is only half true."
+    },
+    {
+      "n": 36,
+      "scene": "Children collect pieces of metal on a bombed street while a teacher watches",
+      "summary": "Children who stay in London go to school when they can and collect pieces of shrapnel."
+    },
+    {
+      "n": 37,
+      "scene": "A woman in uniform drives an ambulance through a dark city street",
+      "summary": "Women do vital work as drivers, nurses, wardens, factory workers and gunners."
+    },
+    {
+      "n": 38,
+      "scene": "A grand hotel lobby with sleeping guests beside a crowded public shelter",
+      "summary": "The raids were not equal for everyone: the rich could pay for comfort, and the poor suffered most."
+    },
+    {
+      "n": 39,
+      "scene": "A man in a rescue uniform receives a small silver cross from an official",
+      "summary": "The George Cross is created in 1940 to honour the bravery of civilians; some people also commit crimes."
+    },
+    {
+      "n": 40,
+      "scene": "A ruined cathedral with a broken roof and smoking walls in the evening",
+      "summary": "The bombing spreads to other cities such as Coventry, Liverpool, Birmingham and Glasgow."
+    },
+    {
+      "n": 41,
+      "scene": "Flames rise around dark church towers in the City of London at night",
+      "summary": "On 29 December 1940, a raid on the City of London starts the Second Great Fire."
+    },
+    {
+      "n": 42,
+      "scene": "The dome of a great cathedral rises through smoke above burning streets",
+      "summary": "St Paul's Cathedral survives, helped by its volunteer fire watchers, and its picture inspires the nation."
+    },
+    {
+      "n": 43,
+      "scene": "A snowy London street with a lone bus and ruined buildings in grey light",
+      "summary": "In the cold winter of 1940–41 the raids are fewer, but they continue on ports and cities."
+    },
+    {
+      "n": 44,
+      "scene": "Smoke rising above a London skyline after a heavy raid in spring",
+      "summary": "In April 1941 two heavy raids return to London, and more than a thousand people die on one night."
+    },
+    {
+      "n": 45,
+      "scene": "A ruined debating chamber with a clock tower still standing against the dawn",
+      "summary": "On 10 May 1941 the last great raid hits Parliament, but Big Ben keeps the time."
+    },
+    {
+      "n": 46,
+      "scene": "German bombers on an airfield heading east under a cloudy sky",
+      "summary": "After May 1941 the big raids stop because Germany turns its forces towards the Soviet Union."
+    },
+    {
+      "n": 47,
+      "scene": "A long row of wrecked houses with their fronts missing and rooms exposed",
+      "summary": "The Blitz kills about 40,000 people in Britain, half of them in London, and destroys many homes."
+    },
+    {
+      "n": 48,
+      "scene": "A woman and a girl look up at a flying bomb",
+      "summary": "Bombing does not break the will of the city, and London is bombed again in 1944 with flying bombs."
+    },
+    {
+      "n": 49,
+      "scene": "Children play among the ruins of a bombed street while new flats rise nearby",
+      "summary": "After the war the bomb sites are used as playgrounds, and London is slowly rebuilt."
+    },
+    {
+      "n": 50,
+      "scene": "A modern London street with an old stone wall pitted by shrapnel",
+      "summary": "Traces of the Blitz can still be found today, and the book ends with what ordinary Londoners show us."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "In 1939, London was one of the biggest cities in the world.",
+      "People were afraid of a new kind of war from the sky.",
+      "Thousands of volunteers trained to help their neighbours in a raid.",
+      "Everyone got a gas mask in a small cardboard box.",
+      "Many families dug a steel shelter into their garden.",
+      "At night, every window had to be covered with dark cloth.",
+      "Children left the city by train to stay in the country.",
+      "Each child wore a label and carried a bag and a mask.",
+      "On Sunday morning, Britain declared war on Germany.",
+      "For months, no bombs came, and many children went home.",
+      "In 1940, Germany took over France, and Britain stood alone.",
+      "Fighter planes of the RAF fought German planes over England.",
+      "In late August, German bombs fell on London for the first time.",
+      "On 7 September, hundreds of planes flew over London.",
+      "That night the docks burned, and the planes came back.",
+      "First the siren sounded, then the planes arrived with a loud noise.",
+      "Searchlights searched the sky, and the guns fired up at planes.",
+      "Big silver balloons floated over the city on steel cables.",
+      "Poor families in the East End had few safe places.",
+      "Thousands of people went down into the Tube stations.",
+      "People slept on the platforms and sang songs to feel brave.",
+      "Even underground, people were not completely safe from the bombs.",
+      "Garden shelters were cold and wet, so many people hated them.",
+      "Some people left London every evening to sleep in the fields.",
+      "Wardens walked the dark streets and helped people in trouble.",
+      "Firefighters worked all night to put out the great fires.",
+      "Small fire bombs fell, and people put them out with sand.",
+      "Rescue teams dug for hours to find people under bricks.",
+      "Some bombs did not explode, so brave teams made them safe.",
+      "The king and queen stayed in London, even when bombs fell.",
+      "Next morning, people walked to work over broken glass.",
+      "Shops put up signs that said business as usual.",
+      "Food was limited, so people grew vegetables in parks.",
+      "In a quiet gallery, a woman played the piano for people.",
+      "People told jokes to feel better, but they were also afraid.",
+      "Some children stayed in London and collected pieces of metal.",
+      "Women drove ambulances, worked in factories and helped to fight fires.",
+      "Rich people had better shelters than poor people.",
+      "A new medal honoured brave people who were not soldiers.",
+      "Other cities were bombed too, not only London.",
+      "On 29 December, fires burned through the old city.",
+      "St Paul's stood tall in the smoke and was not destroyed.",
+      "In winter, fewer raids came, but life was still hard.",
+      "In April 1941, the bombers came back in large numbers.",
+      "On 10 May 1941, the last big raid hit London.",
+      "After May, the big raids stopped as Germany attacked another country.",
+      "The Blitz killed many people and destroyed thousands of homes.",
+      "The bombing did not make Londoners give up the war.",
+      "After the war, children played in the empty bomb sites.",
+      "Today you can still see marks of the Blitz in London."
+    ],
+    "B1B2": [
+      "In the summer of 1939, more than eight million people lived in London. It was the capital of a huge empire, and its docks were among the busiest in the world.",
+      "In the 1930s, aeroplanes became bigger, faster and able to carry more bombs. Many people feared that bombers could ruin a whole city within a few days.",
+      "The government set up Air Raid Precautions, and thousands of ordinary people trained as wardens. Their job was to warn people, guide them to shelter and help anyone who was hurt.",
+      "Millions of gas masks were handed out, even tiny ones for babies. People carried them everywhere, although poison gas was never dropped on Britain.",
+      "The Anderson shelter was made of curved steel sheets, buried in the garden and covered with soil. It was named after the minister in charge of air raid planning, and it was free for poorer families.",
+      "From the start of September 1939, London went dark every evening. Street lamps were switched off and windows were covered, so that bombers could not see the city from above.",
+      "Just before the war began, the government started to send children away from the cities, which was called evacuation. About one and a half million people left in the first few days, mostly children and mothers with babies.",
+      "Children arrived in small villages with labels on their coats, and many had never seen a farm before. Some were welcomed warmly, but others were homesick and unhappy.",
+      "Britain declared war on Germany on the morning of Sunday 3 September 1939. Within minutes the siren sounded over London, but it was a false alarm and no bombers came.",
+      "The first winter of the war was strangely quiet, and people called it the Phoney War. Because the bombers did not come, many evacuated children returned to the city.",
+      "In the spring of 1940, German armies swept through Norway, the Netherlands, Belgium and France. After the rescue of the army at Dunkirk, Britain faced Germany almost alone.",
+      "In the summer of 1940, the German air force tried to destroy the RAF before an invasion. The air battles over southern England are now called the Battle of Britain.",
+      "On the night of 24 August 1940, German bombers probably hit central London by mistake. The RAF replied by bombing Berlin, and Hitler decided to attack the British capital.",
+      "On the afternoon of Saturday 7 September 1940, hundreds of German bombers appeared over the Thames. They were aiming at the docks and the crowded streets of the East End.",
+      "The docks were soon on fire, and the glow could be seen from many miles away. The bombers returned that night and every night after it, for 57 nights in a row.",
+      "First came the wail of the siren, then the heavy drone of the engines. After that came the crash of the guns and the thump of falling bombs.",
+      "Searchlights swept across the sky to find the bombers, and big guns fired at them from the parks. At first the guns hit very little, but the noise made Londoners feel that someone was fighting back.",
+      "Barrage balloons hung over London, tied to the ground by strong steel cables. They forced bombers to fly higher, which made it harder for them to aim.",
+      "The East End was hit hardest, and many of its small, crowded houses had no garden or cellar. People were angry that so few good shelters had been built for them.",
+      "At first the government did not want people to shelter in the Underground, because it feared they would never come back up. But Londoners went anyway, and soon the officials gave in.",
+      "Before long the stations had bunk beds, toilets and tea stalls. People sang, played cards, read books and tried to sleep while trains ran past.",
+      "In October 1940 a bomb hit the road above Balham station and broke through to the platform below. Dozens of people were killed, which showed that no shelter was completely safe.",
+      "Garden shelters were damp and cold, and they often flooded in winter. In 1941 a new shelter, named the Morrison shelter, was made: a strong steel table that families could sleep under indoors.",
+      "Every evening, many families left London on foot or by bus and slept in fields, barns and village halls. They were called trekkers, and they came home again the next morning.",
+      "Wardens patrolled the dark streets during every single raid. They reported where bombs had fallen, helped people out of damaged houses and gave out tea and kind words.",
+      "London's firefighters, many of them part-time volunteers, fought huge fires through the night. They often worked for many hours without rest, and some water pipes were broken by the bombs.",
+      "Many of the bombs were small incendiary bombs that started fires on roofs. Fire watchers waited on rooftops, ready to put them out with sand, buckets of water or a stirrup pump.",
+      "When a house was hit, rescue squads dug through the rubble, often with bare hands and small tools. Ambulance crews took the injured to hospital, and volunteer women served hot tea to everyone.",
+      "Not every bomb went off when it hit the ground. Entire streets were closed while bomb disposal teams dug down and worked to make the unexploded bomb safe.",
+      "Buckingham Palace was hit by bombs in September 1940, while the king and queen were at home. They chose to stay in London, which many people admired.",
+      "In the morning the all-clear sounded, and tired Londoners walked to work. They stepped around holes in the road and broken glass, and sometimes their usual bus did not come.",
+      "Even when a shop lost its windows, the owner often painted a sign saying business as usual. Factories and the docks kept working too, because the country needed what they made.",
+      "Food was rationed from 1940, which meant each person could buy only a small amount of meat, sugar and butter. Many Londoners dug up their lawns and parks to grow vegetables, under the slogan Dig for Victory.",
+      "The National Gallery had sent its paintings away to Wales for safety. In their place a pianist called Myra Hess gave lunchtime concerts, and thousands of Londoners came to listen.",
+      "People joked and sang to keep their spirits up, and a famous film said London could take it. But diaries show that many people were frightened, tired and angry as well.",
+      "Many children stayed in London, and some schools opened between raids. Boys and girls collected shrapnel, the pieces of metal from exploded bombs and shells, and swapped them like treasure.",
+      "Women did a great deal of the work in London during the Blitz. They drove ambulances, worked in factories, nursed the wounded and served as wardens.",
+      "Rich people could stay in hotels with strong basements or leave for the country. Poorer people had fewer choices, and they suffered most of the bomb damage.",
+      "In September 1940 the king created the George Cross, a medal for great courage by civilians. Not everyone was a hero, however, and the police also dealt with looting from damaged shops and houses.",
+      "The Blitz was not only about London, and many other cities were bombed too. On 14 November 1940, Coventry was heavily bombed, and its ancient cathedral was destroyed.",
+      "On the night of 29 December 1940, German bombers attacked the old City of London. The fires that followed were so big that people called them the Second Great Fire of London.",
+      "A famous photograph showed the dome of St Paul's Cathedral rising out of the smoke. Volunteer watchers had spent the night putting out fires on its roof, and the building survived.",
+      "During the winter, bad weather meant that there were fewer raids on London. Even so, people were cold and tired, and food and fuel were short.",
+      "In the spring of 1941, the heavy raids came back to the city. On the night of 16 April alone, more than a thousand people were killed in London.",
+      "The last great raid came on the night of 10 May 1941. Parliament's chamber was destroyed, and more than a thousand people died, but the clock called Big Ben kept the right time.",
+      "After that night the heavy raids on London stopped. Germany was getting ready to invade the Soviet Union in June 1941, and it moved most of its bombers to the east.",
+      "The Blitz killed about 40,000 people in Britain, and about half of them lived in London. More than a million London homes were damaged or destroyed during the whole war.",
+      "The bombing did not break the will of the people to go on, but it was cruel and destroyed much. London suffered again in 1944, when flying bombs and rockets began to fall.",
+      "When peace came in 1945, bomb sites lay all over London, and children used them as playgrounds. It took many years to rebuild the damaged streets, and new homes were built instead of old ones.",
+      "Today you can still see small marks from shrapnel on some old walls in London, and workers sometimes find unexploded bombs. The story shows how ordinary people can stay brave and kind in terrible times."
+    ],
+    "C1C2": [
+      "In the summer of 1939, London was one of the largest cities on earth, a sprawling mass of terraced streets, smoking factories and crowded docks along the River Thames. More than eight million people lived there, going to work and school as usual. Few of them could have imagined how soon the sky above their homes would become a battlefield.",
+      "Writers and politicians warned throughout the 1930s that fleets of bombers could wreck a city in a matter of days, and the bombing of the Spanish town of Guernica in 1937 seemed to prove it. The British government quietly planned for hundreds of thousands of casualties, including many deaths. Nobody knew whether the fear was exaggerated, and that uncertainty hung over every family.",
+      "Long before the first bomb fell, the government created a system called Air Raid Precautions, and thousands of volunteers in every London street trained as wardens. They were shopkeepers, clerks and retired workers who knew every house on their patch. Their task was to sound the warning, steer people to safety and give first help to the injured until real doctors arrived.",
+      "Since poison gas had been used in the last war, the government handed a mask to nearly every man, woman and child, and special hoods for babies were made as well. People carried them in cardboard boxes on strings, to the shop and the cinema and the office. In the end the gas never came, but the boxes became a symbol of those first anxious months.",
+      "The Anderson shelter was a simple hut of curved steel sheets, half buried in the back garden and heaped over with earth, and families were told to crouch inside it when the siren sounded. It was named after the minister in charge of air raid planning, Sir John Anderson, and the poorest households received one for nothing. Its weakness was plain, however, because a city of flats and tiny yards had no gardens to put it in.",
+      "From the first days of the war, the capital was plunged into darkness every evening, with street lamps switched off, shop signs unlit and every window screened with heavy curtains or black paper. Bus headlamps were shaded to thin slits, and kerbs were painted white to help people find their way. Strangely, the blackout killed many people before a single bomb fell, because road accidents in the gloom rose sharply.",
+      "In the last days of August 1939, a huge plan called Operation Pied Piper began to move children out of the cities that were likely to be bombed. In the first few days, roughly one and a half million people left, among them schoolchildren, teachers and mothers with babies. Families had only a short time to prepare, and few knew where they were going.",
+      "Wearing name labels on their coats and carrying a gas mask, a bag and a little food, the children arrived in villages where they were chosen, almost like parcels, by strangers. Some were welcomed into loving homes and discovered farms, rivers and fresh air for the first time. Others were lonely, hungry for their parents or treated unkindly, and the memories stayed with them for life.",
+      "When the Prime Minister announced on the radio that Britain was at war with Germany, the date was Sunday 3 September 1939. Within minutes the first air raid siren wailed across London, and people hurried to shelters with their gas masks and their hearts in their mouths. It was a false alarm, though, and the all-clear sounded soon afterwards, leaving everyone feeling rather foolish and very relieved.",
+      "Through the winter of 1939 and the early spring, almost nothing happened over London, and people came to call this period the Phoney War. Theatres reopened, parents grew impatient and, as the weeks passed, large numbers of evacuated children simply drifted back home. The quiet was deceptive, however, for it gave Germany time to prepare its attack.",
+      "In the spring of 1940, German armies rolled across Norway, the Netherlands, Belgium and France with astonishing speed. Hundreds of thousands of British and Allied soldiers escaped from the beaches at Dunkirk in a flotilla of navy ships and small boats, but France soon fell. Britain, with its empire, was left to face Germany almost alone, and the threat of invasion suddenly felt real.",
+      "During the summer of 1940, the Luftwaffe tried to wipe out the Royal Air Force so that German troops could cross the Channel safely. Over the fields and coastal towns of southern England, young pilots on both sides fought desperate battles in the blue sky. The campaign is remembered as the Battle of Britain, and for weeks the outcome seemed to hang in the balance.",
+      "On the night of 24 August 1940, a few German bombers that had lost their way almost certainly dropped their bombs on central London instead of on their intended targets. The RAF replied by raiding Berlin in the following days, which infuriated Hitler, and he ordered his air force to turn its attention to the British capital. Historians still debate how much that single mistake, and the anger it caused, changed the course of the war.",
+      "On the sunny afternoon of Saturday 7 September 1940, wave after wave of German bombers, hundreds of them escorted by fighters, droned up the River Thames towards London. Their targets were the great docks and the crowded streets of the East End around them. It was the first day of what would later be called the Blitz, and nothing in London would ever feel quite the same again.",
+      "By evening, the warehouses, timber yards and docks along the river were burning, and the glow could be seen from many miles away. Then the bombers came back under cover of darkness, using the fires as a guide, and they returned on every night that followed. For 57 nights in a row, London was bombed, and a new kind of life began.",
+      "A raid began with the rising and falling wail of the siren, followed by the heavy, throbbing drone of bomber engines coming closer. Then the guns began to crash, the ground shook with distant explosions, and the sky filled with flashes. Only the steady note of the all-clear, sometimes many hours later, told people they could breathe again.",
+      "Great beams of searchlights probed the clouds for the enemy, while anti-aircraft guns in the parks hurled shells high into the dark. At first they hit very little, since the bombers flew fast and the weapons were not yet accurate. Yet the thunder of the guns lifted people's spirits, because it proved that London was fighting back.",
+      "Hundreds of barrage balloons floated above the city like a herd of enormous silver fish, each one tethered to the ground by a steel cable. A plane that flew low could snag its wings on the wires, so the bombers had to stay higher up, where it was harder to hit a target. The balloons were a gentle and almost comical sight, and Londoners grew strangely fond of them.",
+      "The docks and the streets around them took the first and worst blows, and the families who lived there were among the poorest in London. Their houses were small and old, they had no gardens for a steel shelter, and the public shelters were few and badly equipped. Anger spread through the district, and some people said openly that the government had forgotten them.",
+      "Officials had argued that the Underground should keep running and that people who hid below ground would lose their nerve. Londoners paid no attention, queued with blankets and bundles in the afternoon and stayed all night on the platforms. Faced with such a crowd, the authorities gave in, and the Tube stations became the largest shelters in the city.",
+      "Within weeks, the stations were given bunk beds, toilets, first-aid posts and canteens, and a rough kind of village life grew up under the streets. People kept their own favourite spots, played cards, read and sang, and sometimes a child's laughter echoed down the tunnels. Sleeping was hard, though, for the air was stuffy and the trains rumbled by until midnight.",
+      "Shelter below ground was far safer than a house, but it was never perfect, and in October 1940 a bomb struck the road above Balham station and tore into the tunnel beneath it. Dozens of people who had gone there for safety were killed, and the disaster shocked the whole city. Even so, most people kept coming back to the stations, because they could think of nowhere better.",
+      "Anderson shelters were cramped, cold and prone to flooding, and many families preferred to take their chances in bed. In 1941 the government introduced the Morrison shelter, which was in effect a heavy steel table with wire sides, designed to sit in the living room and protect sleepers from a collapsing ceiling. It was named after the minister for home security, and it saved many lives.",
+      "Every evening, as the light faded, thousands of families left the worst-hit districts with their blankets and prams to sleep in fields, woods, churches and barns on the edge of the city. They were known as trekkers, and in the morning they trudged back into the city, tired and dusty, to start another day of work. It was a quiet reminder that the courage of the capital never depended on pretending that nothing was wrong.",
+      "Throughout each raid the wardens patrolled their sectors in the dark, wearing tin helmets and carrying whistles and torches. They reported where the bombs fell, so that rescue teams could be sent, and they led frightened people out of damaged houses. Because they knew their neighbours so well, their calm voices often meant more than any uniform could.",
+      "Firefighters, among them thousands of part-time volunteers who had never expected to fight a war, struggled against enormous blazes in warehouses, factories and streets. They often worked for a whole night and the following day with hardly a pause, and their hoses ran dry whenever bombs smashed the water mains. Some of them paid for that courage with their lives, and their names are remembered on memorials today.",
+      "Besides the heavy explosives, the bombers dropped thousands of small incendiary bombs that burned fiercely on the roofs of homes, offices and churches. Volunteer fire watchers waited on rooftops with sand, buckets and a hand-operated stirrup pump, ready to smother the flames before they could spread. In 1941, many workers were required to take turns on this duty, so that every building had someone on guard.",
+      "When a house collapsed, specially trained rescue squads crawled into the wreckage, tunnelling through broken beams and bricks and often calling out to trapped people to keep them calm. Ambulance crews, many of them women, drove through darkened streets to take the injured to hospital. Mobile canteens run by the Women's Voluntary Service were never far away, offering hot tea and a few comforting words.",
+      "Many bombs failed to explode on impact, and some were fitted with delayed fuses that could go off hours or even days later. Whole streets were emptied and roped off while the bomb disposal squads, who had very little training at the start, dug down beside the huge weapon and tried to defuse it. It was slow, nerve-racking work, and many of those who did it were killed.",
+      "When bombs fell on Buckingham Palace in September 1940, the king and queen were at home, and they escaped without injury. The queen is reported to have said that she was glad, because now she could look the people of the East End in the face. The royal family stayed in London, though the two princesses were sent to Windsor, and the gesture was warmly appreciated.",
+      "When morning arrived, the exhausted city rose, washed in whatever water was left and set off for work. People stepped around craters, climbed over fallen masonry and walked miles when the bus routes were closed. Remarkably, the milk was often delivered, the post arrived and the trains mostly ran, and that routine was a kind of defiance in itself.",
+      "Shopkeepers whose windows had been blown out nailed boards across the gaps and hung cheerful signs reading business as usual. Factories, railways and the docks worked on through the raids, because the war effort could not stop for a single night. The determination was real, and yet it also reflected a plain fact: people needed their wages and their daily bread.",
+      "Because ships carrying food were attacked at sea, rationing limited each person to small weekly amounts of butter, sugar, bacon and later meat. Under the slogan Dig for Victory, Londoners turned lawns, parks, railway banks and even the old moat of the Tower of London into vegetable plots. The diet was plain, but many historians believe that Britain's health improved as a result.",
+      "The paintings of the National Gallery had been taken to a quarry in Wales for safekeeping, so the great rooms stood empty. In their place the pianist Myra Hess organised lunchtime concerts, and tens of thousands of people came to sit in their coats and forget the war for an hour. Elsewhere, the artist Henry Moore drew sleeping figures in the Tube stations, and his sketches are still admired.",
+      "A famous film of the time, proudly titled London Can Take It, showed the world a cheerful, unbreakable city, and the cheerfulness was very often real. Yet the diaries and reports of the time, including those collected by a project called Mass Observation, show that many people were also frightened, exhausted and sometimes bitter. The truth is that ordinary people felt both fear and courage, often within the same hour.",
+      "Many children never left London, or came home again, and schools opened and closed according to the damage and the weather. Some boys and girls collected shrapnel, the jagged fragments of exploded bombs and shells, and swapped it in the playground as though it were treasure. For them, the war was often an adventure, and only later did they understand what it had cost the grown-ups around them.",
+      "Women were central to the defence of London, driving ambulances through the blackout, nursing the wounded in half-lit hospitals and keeping factories running as men went to the forces. Many served as wardens or fire watchers, and from 1941 some joined anti-aircraft batteries in non-fighting roles. The war changed what many people believed women could do, and it was not forgotten when peace came.",
+      "The Blitz is sometimes described as a time when everyone shared the same dangers, but in practice the burden was uneven. Wealthier people could retreat to country houses or to the strong cellars of grand hotels, whereas poorer Londoners were stuck in crowded, damp, badly lit shelters. The East End and other working districts lost far more homes, which is part of why resentment lingered.",
+      "In September 1940 the king created the George Cross, a medal designed to honour extraordinary bravery by people who were not soldiers, and it was awarded to wardens, rescue workers and bomb disposal men. Not everyone behaved so nobly, however, for there were cases of looting from damaged shops and empty homes. As in any big city at any time, courage and selfishness lived side by side, and the courts and newspapers recorded both.",
+      "The bombers were by no means interested only in the capital, and during the winter and spring they attacked Birmingham, Bristol, Liverpool, Glasgow and many other towns and ports. On the night of 14 November 1940, the city of Coventry was heavily bombed, and its medieval cathedral was reduced to a shell. Each of these cities had its own terrible nights, its own losses and its own long stories of quiet courage.",
+      "On the night of 29 December 1940, bombers attacked the historic City of London while most offices stood empty for the holiday. The Thames was low, many water mains had burst, and fires spread quickly through the narrow streets until the sky glowed with a thousand flames. People later called the night the Second Great Fire of London, a reference to the disaster of 1666.",
+      "A photograph of the dome of St Paul's Cathedral, rising calm and pale from a sea of smoke, was published across the world and became a symbol of the city's endurance. The building had been saved by a band of volunteer watchers who spent the night putting out fires on the roof. Nearby, many other churches and the old Guildhall were badly damaged, and some were lost forever.",
+      "As the winter of 1940 and 1941 closed in, bad weather often kept the bombers on the ground, and many of the raids were aimed at other ports and cities. London grew a little calmer, though no one could be certain that the worst was over. Meanwhile, the city shivered through the cold months with scarce fuel, shorter rations and a growing weariness.",
+      "When spring arrived, the German air force returned to the capital with larger forces, and the raids of April 1941 were among the worst of the whole campaign. On the night of 16 April, more than a thousand people died in London, and thousands more lost their homes. Even then, the city kept working, though the strain on its people was heavier than ever.",
+      "The last great raid took place on the night of 10 May 1941, and it was one of the heaviest of the whole war. The chamber of the House of Commons was destroyed and more than a thousand people died, and the old hall of Westminster was saved only by determined firefighting. Big Ben was damaged, yet its clock kept working, and people took heart from the sound of its bells.",
+      "The raids stopped after May 1941, but not because Germany had lost heart or been beaten in the sky. Hitler was preparing to attack the Soviet Union, and the bombers were needed in the east for that campaign. To Londoners it felt like a miracle, though they could not yet know that the relief was only temporary.",
+      "In the eight months of the Blitz, about 40,000 people were killed in Britain, roughly half of them in London, and many times that number were injured. Over the whole war, more than a million London homes were damaged or destroyed. Behind each of those figures lay a family, a name and a story that was suddenly interrupted.",
+      "Bombing was meant to break the nerve of the British people, and it failed, though the claim that Londoners never wavered is too simple. The city was attacked again in 1944, first by pilotless flying bombs and then by long-range rockets, which killed thousands more. Historians still argue about how far such bombing can ever achieve its goals, on either side of the war.",
+      "When the war ended in 1945, empty bomb sites scarred every district, and children who were too young to remember the raids made playgrounds of them. The rebuilding took decades, and new blocks of flats, schools and roads replaced the rows of old houses that had been lost. In 1951, a festival was held beside the Thames to show that Britain could imagine a brighter future.",
+      "Even now, shrapnel scars pit some stone walls in London, new memorials stand beside the streets, and builders still turn up unexploded bombs from time to time. The story of the Blitz is a reminder that ordinary people, with no weapons, can keep to their duties and look after one another while the world falls apart. That quiet endurance, rather than any single battle or speech, is the lasting lesson of those months."
+    ]
+  }
+}

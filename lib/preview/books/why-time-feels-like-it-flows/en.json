@@ -1,0 +1,417 @@
+{
+  "slug": "why-time-feels-like-it-flows",
+  "meta": {
+    "blurb": "You can't touch it, yet it rules your day. Follow time through ancient clocks, Einstein's bent minutes, the arrow that makes eggs break, and the brain that makes an hour fly or crawl, and see why nobody fully understands it.",
+    "bible": "Voice: curious, clear and warm, speaking to You; the science is real, hedged where scientists disagree, with no invented numbers or studies. Christiaan Huygens: Dutch scientist who built the first Pendulum clock in 1656. Albert Einstein: Relativity, 1905 and 1915. Greenwich: the meridian chosen in 1884 at an international conference. Egypt: ancient Egyptians used Water clocks. Global Positioning System (GPS): satellite clocks run fast by about thirty-eight millionths of a second a day because of gravity and speed. In 1971 scientists flew atomic clocks round the world on aeroplanes. Key terms: Sundial, Hourglass, Pendulum, Quartz, Caesium, Attosecond, Relativity, Simultaneous, Entropy, Arrow of time, Circadian, Suprachiasmatic, Jet lag, Shift workers, Flip book, Stopped clock illusion, Black hole, Big Bang, Billiard, Leap year, Meridian, Photograph, Footprints, Psychologists, Philosophers, Cosmologists, Arabic, Hebrew, Metres. Facts: the Earth turns in about a day, the Moon circles in about a month, the Earth orbits the Sun in about a year; a quartz watch crystal vibrates 32,768 times a second; since 1967 the second is a little over nine billion cycles of caesium radiation; the universe is close to fourteen billion years old."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A woman looks at a wall clock in a quiet kitchen at dusk",
+      "summary": "Everyone knows what time is until asked to explain it, and this book follows three stories about it."
+    },
+    {
+      "n": 2,
+      "scene": "A low Sun sets over a field while a pale full Moon rises opposite",
+      "summary": "The first clocks were in the sky: the turning Earth makes the day, the Moon the month and the Earth's orbit the year."
+    },
+    {
+      "n": 3,
+      "scene": "A boy watches the shadow of a stick on sunny ground",
+      "summary": "A sundial tells the time from the shadow of the Sun, but only by day and only when it is sunny."
+    },
+    {
+      "n": 4,
+      "scene": "A stone bowl drips water beside a burning candle and an hourglass",
+      "summary": "Water clocks, candles and hourglasses measured time at any hour by letting something flow or burn at a steady rate."
+    },
+    {
+      "n": 5,
+      "scene": "A tall wooden pendulum clock swings gently in a candlelit hall",
+      "summary": "In 1656 Christiaan Huygens built a clock regulated by a pendulum, which was far more accurate than anything before."
+    },
+    {
+      "n": 6,
+      "scene": "A man looks at a wristwatch next to a tiny quartz crystal",
+      "summary": "A modern watch counts the vibrations of a tiny quartz crystal, which shakes 32,768 times each second."
+    },
+    {
+      "n": 7,
+      "scene": "Scientists stand beside a large metal machine in a bright laboratory",
+      "summary": "Atomic clocks count the vibrations of atoms, and since 1967 the second has been defined that way."
+    },
+    {
+      "n": 8,
+      "scene": "A railway station with a big clock and a steam train waiting",
+      "summary": "Railways forced towns to share one standard time instead of each keeping its own."
+    },
+    {
+      "n": 9,
+      "scene": "A calendar page with an extra day circled in a leap year",
+      "summary": "A year is not a whole number of days, so calendars add a leap day to stay in step with the seasons."
+    },
+    {
+      "n": 10,
+      "scene": "A woman waves from a hill while a man across the valley sees her",
+      "summary": "Light takes time to travel, so everything we see is already slightly in the past."
+    },
+    {
+      "n": 11,
+      "scene": "Two flashes of light are seen from a platform and from a passing train",
+      "summary": "Two events that look simultaneous to one observer may not to another who moves differently, so there is no single shared now."
+    },
+    {
+      "n": 12,
+      "scene": "Two identical clocks, one on a table and one in a speeding rocket",
+      "summary": "Moving clocks run slow: the faster something travels, the more slowly time passes for it."
+    },
+    {
+      "n": 13,
+      "scene": "A jet plane flies high above the clouds with a small clock on board",
+      "summary": "Experiments with fast particles and with clocks flown on aeroplanes have confirmed that moving clocks run slow."
+    },
+    {
+      "n": 14,
+      "scene": "A clock on a high shelf and a clock on the floor of a room",
+      "summary": "Gravity also slows time: a clock closer to a heavy body ticks more slowly than one farther away."
+    },
+    {
+      "n": 15,
+      "scene": "A satellite orbits above the Earth while a phone shows a map",
+      "summary": "GPS satellite clocks must be corrected for relativity, or navigation would drift by kilometres every day."
+    },
+    {
+      "n": 16,
+      "scene": "A traveller steps out of a spacecraft that has landed in a green field",
+      "summary": "A traveller flying near the speed of light would return younger than her friends, though no person has done this."
+    },
+    {
+      "n": 17,
+      "scene": "A glowing ring of gas surrounds a dark black hole in space",
+      "summary": "Near a black hole, time slows dramatically as seen from far away, though it feels normal to someone close to it."
+    },
+    {
+      "n": 18,
+      "scene": "A long strip of film shows a child at many different ages",
+      "summary": "Some physicists think the past, present and future are all equally real, like the frames of a film, though this is debated."
+    },
+    {
+      "n": 19,
+      "scene": "A film of a swinging pendulum is shown forward and then in reverse",
+      "summary": "The basic laws of motion work equally well forwards and backwards, so they do not by themselves explain the arrow of time."
+    },
+    {
+      "n": 20,
+      "scene": "An egg falls from a kitchen table and breaks on the floor",
+      "summary": "An egg breaks but never mends: in everyday life, time clearly has a direction."
+    },
+    {
+      "n": 21,
+      "scene": "An ice cube melts in a warm glass beside a freshly shuffled pack of cards",
+      "summary": "There are far more messy arrangements than tidy ones, so things drift toward disorder, and physicists call this entropy."
+    },
+    {
+      "n": 22,
+      "scene": "A smooth glowing cloud of hot gas fills a dark sky",
+      "summary": "If entropy rises, it must have been very low at the start, and why the early universe was so orderly is unsolved."
+    },
+    {
+      "n": 23,
+      "scene": "Footprints in wet sand on a beach as waves wash in",
+      "summary": "We remember the past and not the future, because memories are traces left by events, like footprints."
+    },
+    {
+      "n": 24,
+      "scene": "A child kicks a football and it flies into a net",
+      "summary": "Causes come before effects, which makes the past feel fixed and the future open."
+    },
+    {
+      "n": 25,
+      "scene": "A woman sits with her eyes closed and listens in a quiet room",
+      "summary": "There is no organ for sensing time; the brain builds our sense of time from many other signals."
+    },
+    {
+      "n": 26,
+      "scene": "A girl wearing headphones listens to a tune and a spoken sentence",
+      "summary": "The felt present is not an instant but a short stretch of a few seconds, in which the very recent past is held in mind."
+    },
+    {
+      "n": 27,
+      "scene": "A boy watches a drummer in the distance and hears the beat later",
+      "summary": "Signals reach the brain at different speeds, and the brain edits them into one smooth moment."
+    },
+    {
+      "n": 28,
+      "scene": "A woman wakes at dawn as sunlight reaches her bed",
+      "summary": "A body clock in the brain keeps a rhythm of about a day, called the circadian rhythm, and light sets it each morning."
+    },
+    {
+      "n": 29,
+      "scene": "A tired traveller walks through an airport at night under bright lights",
+      "summary": "Jet lag is the body clock out of step with a new time zone, and it adjusts slowly, with daylight as the strongest cue."
+    },
+    {
+      "n": 30,
+      "scene": "A sleeper dreams while moonlight crosses the bedroom",
+      "summary": "In sleep, time feels different: hours pass in a moment, and dreams can seem to cover days."
+    },
+    {
+      "n": 31,
+      "scene": "A girl paints happily while a boy stares at a waiting room clock",
+      "summary": "Time flies when we are absorbed and drags when we are bored, because attending to time makes it seem longer."
+    },
+    {
+      "n": 32,
+      "scene": "A cyclist sees a car brake suddenly beside him on a road",
+      "summary": "In a frightening moment time seems to slow down, but experiments suggest this is a trick of memory, not faster thinking."
+    },
+    {
+      "n": 33,
+      "scene": "A tourist photographs a busy harbour at sunrise in a foreign town",
+      "summary": "New experiences make rich memories, so a holiday seems long when remembered, while a routine week seems to shrink."
+    },
+    {
+      "n": 34,
+      "scene": "A grandmother and her grandchild blow out candles on one birthday cake",
+      "summary": "Years seem to pass faster as we age, perhaps because each year is a smaller part of life and routine leaves fewer new memories."
+    },
+    {
+      "n": 35,
+      "scene": "A drummer and a group of dancing people clap in time to the beat",
+      "summary": "The brain predicts rhythm, which is why we can tap along to music and why a missing beat is noticeable."
+    },
+    {
+      "n": 36,
+      "scene": "A fly dodges a hand beside a window while a snail crawls below",
+      "summary": "Animals perceive time at different rates; a fly can notice flickers too fast for us, which helps it escape."
+    },
+    {
+      "n": 37,
+      "scene": "A teacher draws a timeline on a board from left to right",
+      "summary": "Cultures picture time differently: readers of left-to-right languages often put the past on the left, and others do the opposite."
+    },
+    {
+      "n": 38,
+      "scene": "A factory worker punches a card in a time clock at the factory gate",
+      "summary": "As factories and railways spread, clocks came to rule daily life, and people began to save, spend and waste time."
+    },
+    {
+      "n": 39,
+      "scene": "Two friends on a river bank watch a leaf float past",
+      "summary": "Philosophers disagree on whether time truly flows or whether the flow is only how experience looks."
+    },
+    {
+      "n": 40,
+      "scene": "A child flicks the pages of a flip book and a drawn figure seems to run",
+      "summary": "The feeling of flow may come from the brain joining separate moments, comparing memory with the present."
+    },
+    {
+      "n": 41,
+      "scene": "A man looks at a wall clock whose second hand seems to hang still",
+      "summary": "The stopped-clock illusion shows that the brain edits the time of what we see."
+    },
+    {
+      "n": 42,
+      "scene": "A chalkboard covered in equations stands beside an old clock",
+      "summary": "Some physicists suspect that time is not basic but emerges from something deeper, which is speculation."
+    },
+    {
+      "n": 43,
+      "scene": "A short flash of laser light shines in a laboratory beside a stopwatch",
+      "summary": "Scientists can time events lasting an attosecond, and nobody knows whether there is a smallest unit of time."
+    },
+    {
+      "n": 44,
+      "scene": "A small bright point of light bursts outwards in a dark space",
+      "summary": "Time as we know it began with the Big Bang close to fourteen billion years ago, and what came before may be a meaningless question."
+    },
+    {
+      "n": 45,
+      "scene": "A dark sky with a few dim stars above an empty frozen plain",
+      "summary": "In the very far future the stars may die and the universe may grow cold and dark, though this is uncertain."
+    },
+    {
+      "n": 46,
+      "scene": "A child puts a hand on her chest and feels her heartbeat",
+      "summary": "Our own bodies keep time: the heart beats about a hundred thousand times a day and cells are renewed over days, months and years."
+    },
+    {
+      "n": 47,
+      "scene": "A man walks a new path through a forest with a small notebook",
+      "summary": "To make time feel fuller, give it your attention, vary your days and make new memories."
+    },
+    {
+      "n": 48,
+      "scene": "Two friends talk on a park bench with their phones put away",
+      "summary": "Everyone has the same hours, and giving full attention to people and tasks is a way of making them count."
+    },
+    {
+      "n": 49,
+      "scene": "A woman sits at a desk with a clock, a book and a globe",
+      "summary": "Clocks, physics and the brain each explain part of time, and none explains it all."
+    },
+    {
+      "n": 50,
+      "scene": "A woman smiles as she looks from her wall clock to the evening sky",
+      "summary": "Time remains a mystery, but understanding a little more of it can make each moment feel more precious and more curious."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Everyone knows what time is, but nobody can easily explain it.",
+      "The first clocks were the Sun, the Moon and the seasons.",
+      "A stick in the sun makes a shadow that moves.",
+      "Water drips slowly out of a bowl, and the hours pass.",
+      "A swinging weight takes the same time for every swing.",
+      "A tiny crystal in your watch shakes many times each second.",
+      "The best clocks count the shaking of atoms.",
+      "Trains made towns agree on one time for everyone.",
+      "A year is a little longer than three hundred and sixty-five days.",
+      "Light takes time to travel, so you always see the past.",
+      "Two people who move differently can disagree about what happens together.",
+      "A clock that moves very fast ticks more slowly.",
+      "Tests with fast planes and tiny particles show that this is true.",
+      "Time passes a little slower near the ground than high up.",
+      "Your phone map works only because it understands Einstein's ideas.",
+      "A fast traveller would come home a little younger than her friends.",
+      "Near a black hole, time goes very, very slowly.",
+      "Some scientists think the past and the future are as real as now.",
+      "A film of a swinging pendulum looks right both ways.",
+      "A broken egg never jumps back together again.",
+      "There are many more messy ways than tidy ways.",
+      "Long ago, the whole universe was very smooth and orderly.",
+      "Footprints show where you walked, but not where you will walk.",
+      "We can change the future, but we cannot change the past.",
+      "You have eyes for light, but nothing special for time.",
+      "Your now is not one moment but a few seconds long.",
+      "Your brain joins sights and sounds into one moment.",
+      "Your body has its own clock that follows the day.",
+      "After a long flight, your body clock is in the wrong place.",
+      "When you sleep, hours seem to pass in one moment.",
+      "Time goes fast when you are busy and slow when bored.",
+      "In a scary moment, time seems to go very slowly.",
+      "A holiday seems long afterwards, because it was full of new things.",
+      "As we get older, the years seem to go faster.",
+      "Your brain expects the next beat before it comes.",
+      "A fly sees more moments each second than you do.",
+      "People often draw time as a line from left to right.",
+      "In factories, workers began to live by the clock.",
+      "Does time really flow like a river, or does it only seem so?",
+      "Flow may come from your brain joining many small moments.",
+      "Sometimes a clock seems to stand still when you look at it.",
+      "Some scientists think time may not be a basic thing.",
+      "Scientists can now time things that last almost no time.",
+      "Our universe began about fourteen billion years ago.",
+      "In the far future, the stars will slowly go out.",
+      "Your heart beats about a hundred thousand times a day.",
+      "Do something new, and your day will feel longer.",
+      "Give your full attention to a friend, and time feels rich.",
+      "Clocks, physics and the brain each tell part of the story.",
+      "Time is still a mystery, but you can enjoy every moment."
+    ],
+    "B1B2": [
+      "You use time every day, to wake up, to meet friends or to wait for a bus. Yet if someone asks you what time actually is, the answer is surprisingly hard to give.",
+      "The Earth turns once around itself in about a day, and the Moon circles the Earth in about a month. The Earth also travels around the Sun, and one trip takes about a year.",
+      "A sundial tells the time by the shadow of a stick. As the Sun moves across the sky, the shadow turns slowly, and marks on the ground show the hours.",
+      "Ancient Egyptians used bowls that let water drip out at a steady rate, and marks inside showed how much time had passed. Later people measured time in the same way with burning candles and glass hourglasses full of sand.",
+      "In 1656 the Dutch scientist Christiaan Huygens built a clock controlled by a swinging weight, called a pendulum. Because every swing takes almost exactly the same time, it was far more accurate than any clock before it.",
+      "Most modern watches use a tiny piece of quartz crystal. When electricity passes through it, it vibrates 32,768 times each second, and the watch simply counts the vibrations.",
+      "Atoms of caesium vibrate at an exact, unchanging rate, and atomic clocks count those vibrations. Since 1967 the official second has been defined as a fixed number of them, a little more than nine billion.",
+      "Two hundred years ago, every town set its clocks by the Sun, so noon came at slightly different moments in different places. Railways made this a problem, and countries slowly agreed on standard time.",
+      "The Earth takes about three hundred and sixty-five and a quarter days to go around the Sun. To keep the calendar in step with the seasons, we add an extra day to February every fourth year.",
+      "Light is fast, but it does not arrive instantly. When you look at a friend across a field, you see her as she was a tiny fraction of a second ago.",
+      "Einstein realised that two events which seem simultaneous to one person may not seem so to a moving observer. There is no single moment called now that everyone in the universe shares.",
+      "Because the speed of light is the same for everyone, time itself must pass differently for people who move differently. A clock moving fast ticks more slowly than a clock that stays still.",
+      "In 1971 scientists flew atomic clocks around the world on aeroplanes and compared them with clocks on the ground. The clocks disagreed by tiny amounts, just as Einstein's theory said they should.",
+      "Einstein also found that gravity slows down time. A clock near the ground ticks a little slower than a clock higher up, because it is closer to the pull of the Earth.",
+      "Clocks on the satellites that locate your phone tick a little faster than clocks on the ground, because gravity is weaker up there. Engineers correct this on purpose, or the map would be wrong by kilometres within a day.",
+      "Imagine a traveller who flies away at nearly the speed of light and then returns. Her clock would run slowly, so she would be younger than her friends, though no person has ever gone anywhere near that fast.",
+      "Close to a black hole, gravity is so strong that time slows down a great deal. To someone watching from far away, a clock near the edge would seem to tick slower and slower.",
+      "Since there is no shared now, some physicists think past, present and future all exist, like the frames of a film. Others disagree strongly, and the question is still open.",
+      "The basic laws of motion make no difference between the two directions of time. A film of a swinging pendulum, played backwards, still looks like something that could really happen.",
+      "In everyday life, it is obvious that time has a direction. An egg falls and breaks, but we never see the pieces rise from the floor and join up again.",
+      "A tidy arrangement can be made in only a few ways, but a messy one can be made in a huge number of ways. When things change at random, they almost always end up messy, and this tendency is called entropy.",
+      "If disorder keeps growing, the universe must have begun in a very tidy state. Why it began that way is one of the biggest questions that nobody has answered.",
+      "Footprints on a beach are a record of the past, not of the future. Memories are records too: they are traces that events leave behind in the brain.",
+      "A cause always comes before its effect: you kick the ball, and then it flies. This is why the past feels fixed, while the future feels open.",
+      "We see with eyes and hear with ears, but there is no organ that senses time. The brain has to build the feeling of time out of many other signals.",
+      "To hear a tune, you must hold the last few notes in mind while the next ones arrive. Many psychologists think that the feeling of now lasts about two or three seconds.",
+      "Light, sound and touch reach the brain at different speeds, and the signals take time to process. The brain waits a fraction of a second and then joins them together, so that the world feels like a single moment.",
+      "Deep in the brain, a small group of cells works as a body clock. It keeps a rhythm of about twenty-four hours, and daylight gently sets it each morning.",
+      "When you fly across many time zones, your body clock still follows the time at home. This mismatch is called jet lag, and it usually takes a few days of daylight in the new place to fix.",
+      "After a good night's sleep, the hours seem to disappear in a single moment. Dreams can seem to cover days or years, and scientists are still studying how the brain measures time while we sleep.",
+      "When you are busy and enjoying yourself, you hardly think about time, so it seems to fly. When you are bored, you keep checking the clock, and the minutes appear to crawl.",
+      "People in an accident often say that everything seemed to happen in slow motion. Experiments suggest that the brain does not really work faster; it simply stores the memory in great detail.",
+      "On holiday, you meet new places and people, and your brain stores a great deal about them. Looking back, the trip seems long, while a week of routine leaves hardly any memories and seems to vanish.",
+      "Many adults say that years pass faster than they did in childhood. One explanation is that each year is a smaller part of our life, and another is that adult life contains fewer new experiences.",
+      "When you listen to music, your brain predicts when the next beat will arrive, and you may find your foot tapping in time. If a beat is missing, you notice at once, because your brain was expecting it.",
+      "Many animals see the world in finer slices of time than we do. A fly can notice movements that are too quick for us, which is why it is so hard to catch.",
+      "If you read from left to right, you probably picture the past on the left and the future on the right. In experiments, people who read from right to left often do the opposite.",
+      "When factories opened in the eighteenth and nineteenth centuries, workers had to arrive at fixed hours and were paid for the time they worked. People began to talk about saving, spending and wasting time, as if it were money.",
+      "We often say that time flows like a river, carrying us from the past into the future. Philosophers disagree about whether this flow is real or only the way our experience looks to us.",
+      "A flip book is only a pile of still pictures, but when you flick the pages, a figure seems to move. The brain may build the flow of time in a similar way, by joining separate moments together.",
+      "Have you ever looked at a clock and thought that the first second lasted longer than the others? Scientists call this the stopped clock illusion, and it happens when your eyes jump quickly from one place to another.",
+      "In the search for a single theory of gravity and quantum physics, some equations have no place for time at all. A few physicists therefore suspect that time may not be basic, but may appear from something deeper.",
+      "With ultra-fast lasers, scientists can now measure events that last only a billionth of a billionth of a second. Nobody knows whether there is a shortest possible moment, below which time cannot be divided.",
+      "According to the best evidence, the universe began in a hot, dense state close to fourteen billion years ago. Some physicists think that asking what came before may have no meaning, while others are trying to answer it.",
+      "Stars cannot shine forever, because they use up their fuel. Many scientists expect that, in a far distant future, the universe will become cold, dark and almost empty, though that is uncertain.",
+      "Your body keeps time in many ways. The heart beats about a hundred thousand times each day, and the skin renews itself about once a month.",
+      "You cannot change the clock, but you can change how a day feels. Pay attention to what you are doing, try new things and notice small details, and your days will leave richer memories.",
+      "Every person has the same twenty-four hours each day, but we use them very differently. Spending time on people and things that we truly care about is one of the best ways of making it count.",
+      "Clocks show us how to measure time, and physics shows us how it can bend and why it has a direction. The brain shows us how it feels, but nobody has yet joined all three into one complete picture.",
+      "You started with a clock on the wall, and you have followed time into atoms, galaxies and the mind. The mystery remains, but when you next glance at a clock, you will see a little more in it."
+    ],
+    "C1C2": [
+      "We organise our whole lives around time, yet when someone asks what it is, most of us find that the answer slips away like water through our fingers. Clocks tell us how much of it has passed, and our own minds tell us that it seems to flow, but neither of these is quite the same as knowing what time itself is. This book follows three stories, the story of clocks, the story of physics and the story of the brain, to see how far each of them can take us.",
+      "Long before anyone built a machine to measure time, the sky kept it for us: each turn of the Earth gave a day, each circuit of the Moon around the Earth gave a month, and each trip of the Earth around the Sun gave a year. Farmers, sailors and priests learned to read these rhythms, and they planted, travelled and celebrated by them. Every calendar in the world began as a careful attempt to fit those three cycles together.",
+      "Among the oldest instruments for measuring time is the sundial, in which the shadow of an upright rod sweeps across marked ground as the Sun appears to cross the sky. It works well on a bright afternoon, but it is useless at night, and a single cloud passing overhead is enough to stop it. Those weaknesses pushed people to look for a clock that would keep going whatever the weather.",
+      "If the Sun cannot be trusted, something else must be made to flow, and so people invented clocks of water, sand and flame. In ancient Egypt a stone bowl with a small hole let water drip out at a steady pace, and marks on its inside wall showed how much of the night had gone by. Candles marked with rings, and glass hourglasses filled with sand, solved the same problem in later centuries.",
+      "The great step forward came in the seventeenth century, when the Dutch scientist Christiaan Huygens attached a swinging pendulum to a clock in 1656. A pendulum of a given length takes almost exactly the same time to swing back and forth, so it can regulate the turning wheels far more evenly than any earlier device. From errors of many minutes a day, the best clocks fell to errors of seconds a day.",
+      "Inside most modern watches sits a sliver of quartz crystal cut to a precise shape, and when a small current passes through it, it shakes with a steady beat of 32,768 times each second. A tiny circuit counts those vibrations and turns them into seconds, minutes and hours without any swinging parts at all. Such a watch may drift by only a few seconds in a month, which would have astonished the makers of the great pendulum clocks.",
+      "The most accurate clocks of all count the vibrations of atoms, because every atom of a given kind behaves in exactly the same way wherever and whenever it is measured. Since 1967 the second has been officially defined as a little more than nine billion cycles of the radiation from caesium atoms, a figure chosen to match the old second as closely as possible. The finest experimental clocks of today are so steady that they would lose less than a second in billions of years.",
+      "For most of history every town set its clocks by its own Sun, so that noon arrived a few minutes earlier in the east of a country than in the west, and nobody much minded. The railways changed that, because a timetable is useless if every station keeps a different hour. In the nineteenth century, railway companies and then governments adopted standard time, and in 1884 an international conference chose the line through Greenwich as the starting point for the world's longitude and time.",
+      "The Earth takes about three hundred and sixty-five and a quarter days to circle the Sun, and a calendar of whole days therefore drifts away from the seasons unless it is corrected. Our solution is the leap year, which adds an extra day to February every four years, except in century years that cannot be divided by four hundred. Even that clever rule is only an approximation, which shows how hard it is to make human time fit the rhythms of the sky.",
+      "Light is the fastest thing in the universe, but it is not infinitely fast, and that means that everything you see is already slightly in the past. The delay is far too small to notice across a room, yet the Sun you see is eight minutes old, and the stars of the night sky show us light that left them years, centuries or even thousands of years ago. Looking outwards is, in a very real sense, looking backwards in time.",
+      "Einstein's theory of relativity contains a shock for common sense: two events that happen at the same moment for one observer may happen one after the other for another observer who is moving at a different speed. Neither is mistaken, because each one is simply measuring with a different set of rulers and clocks. The comfortable idea of a single universal now, shared by everyone everywhere, turns out to be a rule of thumb that works well only for slow and nearby things.",
+      "The speed of light is the same for every observer, and for that to be true, time cannot tick at one fixed rate for everybody. A clock in motion runs slow compared with a clock at rest, and the closer its speed comes to that of light, the slower it runs. At everyday speeds the difference is so tiny that nobody has ever noticed it in daily life, which is why the old idea of one universal time seemed so obvious for so long.",
+      "These strange claims about time have been tested many times, and the tests have always agreed with the theory. In 1971, scientists flew atomic clocks around the world on ordinary passenger aeroplanes and found that, when they returned, the clocks disagreed with identical ones left at home by tiny amounts that matched the predictions of relativity. Fast-moving particles tell the same story, since particles that normally vanish in a few millionths of a second last noticeably longer when they travel at speeds close to that of light.",
+      "Relativity predicts a second effect, which is that gravity itself slows the passing of time: the closer a clock is to a massive body, the more slowly it ticks. The difference between your head and your feet is unimaginably small, but the best atomic clocks are precise enough to detect it across a height of less than a metre. It means that, strictly speaking, your feet age a tiny bit more slowly than your head, though by a margin far too small to matter in a lifetime.",
+      "The satellites of the Global Positioning System carry atomic clocks, and these clocks face two opposite effects: their speed slows them down, while the weaker gravity at their height speeds them up, and the second effect wins. The net result is that they run fast by about thirty-eight millionths of a second a day, and unless engineers correct for it, the navigation on your phone would drift by several kilometres every day. Relativity is therefore not just a curiosity but a piece of everyday engineering.",
+      "Picture a traveller who sets off in a spaceship at a speed close to that of light, turns round and comes home. By her own clocks, and by her own body, only a few years would have passed, while her friends on Earth would have grown many years older. This has never been tried with a person, and the real astronauts on the space station, who return a few thousandths of a second younger after six months, give only a faint hint of it.",
+      "Near an object as heavy and compact as a black hole, the effect of gravity on time becomes dramatic, and a clock hovering close to its edge would appear, to a distant observer, to slow almost to a halt. For the person carrying that clock nothing would seem strange at all, because every second would feel like any other. Time, in this picture, is not a universal river running at one pace but something that depends on where you are.",
+      "Some physicists draw a bold conclusion from relativity: if there is no universal now, then perhaps the past, the present and the future are all equally real, spread out like the frames of a film that has already been shot. On this view the sense that the present is special belongs to us rather than to the universe. Many scientists and philosophers reject that view, however, and the debate is still very much alive.",
+      "Strangely, the basic laws of motion treat the future and the past in exactly the same way: a film of two billiard balls colliding gently looks just as natural run backwards as forwards. If the fundamental equations make no difference between the two directions, then something else must explain why we remember yesterday and not tomorrow. That puzzle, known as the arrow of time, is one of the deepest in all of science.",
+      "Whatever the equations say, daily life leaves no doubt that time has a direction: eggs break but never mend, milk mixes into coffee but never separates again, and a candle burns down but never grows back. Each of these events could run backwards without breaking any law of motion, yet we never see it happen. Something in the world, other than the basic laws, must be responsible for the one-way street.",
+      "Take a new pack of cards, arranged in order, and shuffle it: you will almost certainly end up with a jumble, not because jumbles are favoured by any law, but because there are astronomically more jumbled arrangements than ordered ones. Physicists call the measure of this disorder entropy, and it applies to heat, gases and everything else made of many particles. The arrow of time, they argue, is simply the direction in which entropy goes up, from the unlikely to the likely.",
+      "If entropy always rises, then it must have been extraordinarily low at the start, which means that the early universe was in a state of remarkable order. Observations of the oldest light in the sky show a hot, smooth glow that was almost perfectly even in every direction. Why the universe began in such an unlikely condition, which in effect gives time its arrow, is a puzzle that cosmologists have not solved.",
+      "A footprint in the sand tells you where someone has already been, never where they are going, and that is a clue to why we remember the past but not the future. Memories, like footprints, are traces left behind by events, and many physicists argue that such traces can only form in the direction in which disorder grows. Our brains record yesterday for much the same reason that the sand records the foot.",
+      "In our experience a cause always comes before its effect: the ball is kicked and then it flies, the match is struck and then it burns. This one-way order is what makes the past feel settled and the future feel open, and it is the reason we can plan, make choices and take the blame for what we did. Without the arrow, the very idea of responsibility would be hard to put into words.",
+      "For sight we have eyes and for sound we have ears, but there is no organ of the body that detects time directly. What we call the feeling of time is something the brain constructs, drawing on memory, attention, the rhythms of the body and the changes it notices in the world. That is why the time we feel can stretch and shrink in ways that the clock on the wall never does.",
+      "A melody could never be heard if the mind lived in perfectly thin instants, because to recognise a tune you must still hold the last few notes while the next ones arrive. Many psychologists therefore suggest that the present, as we feel it, is a short stretch of perhaps two or three seconds, a kind of moving window in which the very recent past is blended with what is actually happening. The exact length is debated, and it probably varies with the task.",
+      "Light, sound and touch are all detected at different speeds, and nerve signals from your toes take longer to reach your brain than signals from your face, yet you feel one smooth moment and not a muddle. The brain manages this by waiting a fraction of a second, perhaps a tenth or so, and then editing the signals into a single story. What you experience as the present is therefore a little behind the world, as if it were being delivered by a very fast but very careful editor.",
+      "Deep in the brain, a tiny cluster of nerve cells called the suprachiasmatic nucleus acts as the master clock of the body, running a rhythm that lasts roughly a day and is known as the circadian rhythm. It tells us when to feel sleepy, when to feel alert and when body temperature should rise or fall. Light entering the eyes resets it every morning, which keeps it in step with the Sun.",
+      "Jet lag is what happens when the master clock and the sky disagree: you fly across many time zones in a few hours, but your body keeps insisting that it is the middle of the night. The clock can shift by only an hour or so each day, so adjustment takes several days, and exposure to daylight at the right time is the strongest help. Studies of shift workers, whose clocks are in constant conflict with the Sun, suggest that this mismatch can affect health over many years.",
+      "During sleep our sense of time seems to switch off, and a night that lasted eight hours can feel as if it passed in a heartbeat. Dreams add a further confusion, for they can seem to span days or years, and scientists are still learning how the sleeping brain keeps track of time at all. When we wake, we rely on the body clock, the light in the room and the memory of where we left off in order to rebuild the story of what has been happening.",
+      "Everyone knows that time flies when we are absorbed and drags when we are bored, and psychologists have a plausible explanation for it. If our attention is fully taken up by a task, little of it is left to monitor the passing minutes, and the hours seem to melt away. When we are idle, however, we watch the clock and count the moments, and the more we attend to time the longer it seems to take.",
+      "People who have survived a fall or a crash often report that the world seemed to move in slow motion, as if time itself had stretched. Experiments in which volunteers were dropped from a great height into a safety net found no sign that their perception of fast events had actually sharpened, so the effect appears to come from memory: a frightening moment is stored with unusual richness, and a richly stored moment seems long when we look back on it. The matter is still being studied, however.",
+      "A week in a foreign city can feel, when we look back on it, longer than a month of routine at home, and the reason is probably memory. Each new street, taste and conversation makes a fresh and distinct memory, whereas a repeated day leaves almost no separate mark, so that weeks of sameness collapse into one blur. In this sense we measure the length of the past by how much there is to remember, rather than by the clock.",
+      "Most adults notice that years seem to pass more quickly than they did in childhood, when a single summer felt endless. Several explanations have been offered: each year is a smaller fraction of the life already lived, the days of adults are more repetitive, and routine leaves fewer fresh memories behind. None of these has been proved to be the whole story, but together they suggest that we can slow the years down a little by seeking out new experiences.",
+      "Music reveals how actively the brain handles time: as soon as it hears a steady pulse, it predicts when the next beat will fall, and we find ourselves tapping a foot or nodding the head in perfect time. That prediction is why a missing beat is so noticeable, since the brain is surprised by a silence it had already filled in. Rhythm seems to be one of the oldest and most widely shared ways in which humans keep time together.",
+      "Animals do not all share the same rhythm of experience, and the differences can be striking. Insects such as flies can distinguish flickers of light that are much too fast for a human eye to notice, so a hand that appears quick to us may seem to approach a fly in a slow, easily avoided way. This does not mean that a fly lives a long life in a short one, but it does suggest that the pace of a creature's perception depends on its way of life.",
+      "We speak about time in terms of space, saying that the best days are ahead of us and the worst are behind, and the way we picture that line depends on culture. Readers of languages written from left to right usually imagine the past on the left and the future on the right, while experiments suggest that readers of Arabic and Hebrew often arrange them the other way round. The mind seems to borrow whatever habits of space it already has to give time its shape.",
+      "As factories spread, the pace of life was handed over to the clock: workers were called by a whistle, paid by the hour and fined for lateness, and they gradually learned to think of time as a quantity that could be saved, spent or wasted. Many historians argue that this changed how people felt about time, replacing the slower rhythm of the seasons and the task with an even, measured beat. Our modern sense of hurry is, in part, a product of that history.",
+      "We speak naturally of time flowing, of the future approaching and the past receding, as though we were standing on the bank of a river. Some philosophers insist that this flow is real and that the present moment truly moves from earlier to later, while others argue that it is only a feature of how conscious beings experience a universe in which all moments simply exist. Science has not settled the argument, and both sides can point to careful reasoning.",
+      "A flip book is nothing more than a stack of still drawings, yet when the pages are flicked, a figure appears to move smoothly across them. Some scientists suspect that the flow of time works the same way: the brain constantly compares what it remembers with what it senses, and the sense of passing is created by that comparison between a moment and the one just before it. If so, the flow may be less a property of the world than a talent of the mind.",
+      "Glance at the second hand of a clock and you may notice that it seems to hang in place for longer than a second before it moves on, an effect known as the stopped clock illusion. Researchers think that, when the eyes jump from one point to another, the brain fills in the blank moment by extending the new image backwards, so that it seems to have been there for longer than it really was. The illusion is a small but striking proof that the time we perceive is a careful reconstruction.",
+      "In the search for a theory that joins quantum physics with gravity, some of the proposed equations seem to have no place for time in them at all. This has led a number of physicists to suspect that time is not a basic ingredient of the universe but something that emerges, in the way that the smooth surface of water emerges from countless separate molecules. This is speculation, not established science, and it remains one of the most open questions in physics.",
+      "Using pulses of laser light that last only a few hundred attoseconds, one attosecond being a billionth of a billionth of a second, scientists can now watch electrons moving inside atoms. Whether time can be divided without limit is unknown: some theories hint at a smallest possible moment, far shorter than anything we can measure, while others allow time to be cut into ever finer slices. The answer probably depends on the still unfinished theory of quantum gravity.",
+      "Our best evidence says that the universe was born in a hot and extremely dense state close to fourteen billion years ago, and that space, matter and time have been expanding and changing ever since. It is tempting to ask what happened before the beginning, but some physicists believe that the question may have no meaning, in the same way that asking what lies north of the North Pole has none. Others are exploring ideas about earlier phases, though none of them has yet been tested.",
+      "Every star eventually exhausts its fuel, and although new ones are still being born, the supply of gas from which they form is slowly running out. If the expansion of the universe continues as it does now, then in a future too remote to picture, trillions of years from today, the last stars will fade and the universe will grow cold, dark and thin. Our knowledge of dark energy is still limited, so this forecast is possible rather than certain.",
+      "Your body is full of small clocks and calendars. The heart beats about a hundred thousand times a day, the lining of the gut renews itself in a matter of days, the surface of the skin is replaced roughly every month, and the bones are slowly rebuilt over years. Living, in other words, means being rebuilt continuously through time, so that you are a pattern that lasts rather than a thing that never changes.",
+      "We cannot add a single minute to the day, but the research on memory and attention suggests a few ways to make the time we have feel fuller. Pay close attention to what you are doing instead of rushing through it, vary your routine so that days do not blur together, and take a moment to notice the small details of a place or a conversation. A life full of attention, in the end, tends to feel longer in memory than one spent on autopilot.",
+      "Every person receives the same twenty-four hours each day, yet the way we spend them is very different, and that is something physics cannot decide for us. Giving a friend your full attention, instead of half of it, or finishing a task without constant interruption, makes minutes feel fuller and more meaningful in a way that no clock can measure. Perhaps the most useful lesson of the science of time is that attention is the part of it that we can truly control.",
+      "Each of our three stories has given something real: clocks have taught us to measure time with astonishing precision, physics has shown that it bends with speed and gravity and points in one direction because of entropy, and the study of the brain has revealed how its flow is built from memory and attention. Yet the three do not fit together neatly, and no one can yet say why the feeling of flow should come from a universe whose basic laws hardly mention it. The honest answer to the question we began with is therefore still, in part, that we do not fully know.",
+      "We began with a clock on a kitchen wall, and we have followed time into the heart of an atom, across the sky and deep into the workings of the mind. The mystery has not gone away, and some of the best minds of every age have found that the more carefully they look at time, the more surprising it becomes. The next time you glance at a clock, you may find that you see a little more in its patient ticking, and that each unhurried minute seems a little more like a gift."
+    ]
+  }
+}
