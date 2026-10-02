@@ -4282,6 +4282,43 @@
   }
  },
  {
+  "slug": "stillness-for-beginners",
+  "title": "Stillness for Beginners",
+  "author": "Be Here Now",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "Seventeen-year-old Eli spends four winter weeks on his grandmother's farm, where nobody hurries and nothing buzzes. She teaches him the plainest skill there is: how to sit still, and what turns up when you do.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Stillness for",
+    "Beginners"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "candle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "moon",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "walking",
   "title": "Walking",
   "author": "Henry David Thoreau",
@@ -4985,6 +5022,44 @@
   }
  },
  {
+  "slug": "twelve-rules-for-a-sharper-brain",
+  "title": "Twelve Rules for a Sharper Brain",
+  "author": "Brain Rules",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Teo, forty-six, keeps forgetting names and where he put his keys. His friend Ada, a psychology teacher, gives him twelve rules about sleep, attention, memory and calm. Each one is simple, backed by real research and easy to try this week.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "Twelve Rules",
+    "for a Sharper",
+    "Brain"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lamp",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-histories",
   "title": "The Histories",
   "author": "Herodotus",
@@ -5502,6 +5577,40 @@
     },
     {
      "id": "sun",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-salt-trade-that-shaped-nations",
+  "title": "The Salt Trade That Shaped Nations",
+  "author": "Salt: A World History",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "It seasons your dinner, yet salt once paid armies, built roads and sparked revolts. Follow the white crystals from ancient seas to desert caravans, from Roman roads to Gandhi's famous march, and discover how a pinch of salt changed the world.",
+  "cover": {
+   "bg": "#E3F8FC",
+   "light": true,
+   "title": [
+    "The Salt",
+    "Trade That",
+    "Shaped",
+    "Nations"
+   ],
+   "size": 15,
+   "author": "",
+   "pieces": [
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "ship",
      "x": 160,
      "y": 38,
      "s": 0.36
