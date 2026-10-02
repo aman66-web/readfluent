@@ -1,0 +1,417 @@
+{
+  "slug": "the-wisdom-of-father-brown",
+  "meta": {
+    "blurb": "A short, round priest with a battered umbrella walks into the strangest cases in England and France. A scientist, a colonel, an actress, a duke: each has a wonderful theory, and each is wrong. Only Father Brown asks the simple question.",
+    "bible": "Father Brown: a small, round, mild Catholic priest with a shabby hat and a clumsy umbrella who solves crimes by understanding people; humble, patient and quietly funny. Flambeau: his friend, a big, strong man, once a famous thief, now a detective. The Wisdom of Father Brown: a book of twelve stories by G K Chesterton, published in 1914. Story one, The Absence of Mr Glass, Scarborough: Dr Orion Hood, a famous, tidy criminologist; Maggie MacNab; her mother, Mrs MacNab, a widow who lets lodgings; James Todhunter, the lodger, really a conjuror and ventriloquist known as Zaladin, who performs at the Empire Pavilion on Monday. Mr Glass never existed. Story two, The Duel of Dr Hirsch, Paris: Dr Paul Hirsch, a mild scientist with a noiseless powder; Maurice Brun and Armand Armagnac, his pupils; Simon, his servant; Colonel Jules Dubosc, who is really Hirsch in disguise; the Duke de Valognes; the Champs Elysees; Cafe Charlemagne; Hotel Saint Louis; the War Office. Story three, The Man in the Passage, London: the Apollo Theatre in the Adelphi; Sir Wilson Seymour, an elegant gentleman of the arts; Captain Cutler, hero of the siege of Hong-Kong; Aurora Rome, an actress; Isidore Bruno, an actor who plays Oberon; Parkinson, the old dresser and Aurora's husband, who killed her with a stage spear; Mr Justice Monkhouse; Sir Walter Cowdray; Mr Patrick Butler. Story four, The Purple Wig, Devonshire: Mr Edward Nutt, editor of the Daily Reformer; Miss Barlow, his typist; Francis Finn, the reporter; the Duke of Exmoor of the Eyre family; Dr Mull, the librarian; Isaac Green, a lawyer who became the Duke; the Blue Dragon inn; Bradford; James the First. Voice and tone: quick, clever, humorous and warm; each case ends with a surprising, simple truth; deaths are stated plainly, with no gore."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A small, round priest with a battered hat and umbrella on a seaside road",
+      "summary": "Father Brown, a small, humble Catholic priest, solves crimes by understanding people."
+    },
+    {
+      "n": 2,
+      "scene": "An open book of twelve stories lies beside a black hat and umbrella",
+      "summary": "The Wisdom of Father Brown, published in 1914, has twelve stories, and this retelling follows four of them."
+    },
+    {
+      "n": 3,
+      "scene": "A small priest drops his hat and umbrella in a tidy room above the sea",
+      "summary": "In The Absence of Mr Glass, Father Brown visits the criminologist Dr Orion Hood at Scarborough to ask for help with the MacNab family."
+    },
+    {
+      "n": 4,
+      "scene": "Dr Hood leans back in his chair, amused, as the priest speaks earnestly",
+      "summary": "Maggie MacNab and her lodger Todhunter want to marry, but her mother refuses, and Dr Hood agrees to help."
+    },
+    {
+      "n": 5,
+      "scene": "A neat little lodger turns a key in the door of his room in a seaside house",
+      "summary": "Todhunter is polite and wealthy but secretive, and he locks himself in his room for hours, so people tell strange tales about him."
+    },
+    {
+      "n": 6,
+      "scene": "A breathless girl bursts into the room in a windswept dress",
+      "summary": "Maggie rushes in and says that Todhunter has been murdered by a man called Glass, whom she heard through the door."
+    },
+    {
+      "n": 7,
+      "scene": "Three people hurry along a dark sea-front street toward a gloomy house",
+      "summary": "The three hurry to the MacNabs' house, and Dr Hood bursts open the lodger's door."
+    },
+    {
+      "n": 8,
+      "scene": "Playing cards, broken glass, a sword and a silk hat litter a small room",
+      "summary": "The room looks as if a fight has taken place, and Todhunter lies in a corner, tied with ropes and a scarf."
+    },
+    {
+      "n": 9,
+      "scene": "Dr Hood studies a tall silk hat through a small lens",
+      "summary": "Dr Hood deduces that Mr Glass is a tall, bald, elderly man who blackmailed the wealthy and secretive Todhunter."
+    },
+    {
+      "n": 10,
+      "scene": "Dr Hood examines the knots on the bound man's arms with great care",
+      "summary": "Dr Hood refuses to untie Todhunter, saying that he tied the knots himself, and he guesses that Todhunter has killed Glass."
+    },
+    {
+      "n": 11,
+      "scene": "Father Brown peers into the bound man's face and bursts out laughing",
+      "summary": "Father Brown looks into Todhunter's eyes and sees that he is laughing at Dr Hood."
+    },
+    {
+      "n": 12,
+      "scene": "A round little priest holds up a silk hat and smiles at a startled scientist",
+      "summary": "Father Brown says that Mr Glass never existed, and that the hat, glasses, sword and ropes are the tools of a conjuror."
+    },
+    {
+      "n": 13,
+      "scene": "A man uncoils the ropes from his arms and bows with a printed bill",
+      "summary": "The two voices were ventriloquism, the name Glass came from Todhunter counting aloud, and Todhunter proudly shows a poster for his show."
+    },
+    {
+      "n": 14,
+      "scene": "Two young men with pointed beards cross a sunny avenue in Paris",
+      "summary": "In The Duel of Dr Hirsch, two pupils of the great scientist Dr Hirsch go to his house in Paris."
+    },
+    {
+      "n": 15,
+      "scene": "A grey-haired servant hands a letter to a young man at a green door",
+      "summary": "Dr Hirsch writes that he will not meet an army colonel named Dubosc and asks his pupils to wait at the cafe opposite."
+    },
+    {
+      "n": 16,
+      "scene": "A broad man in a Tyrolean hat stands on a cafe table and shouts to a crowd",
+      "summary": "Colonel Dubosc is thrown out of the house and tells a crowd that Hirsch has betrayed France with a note found on a German spy."
+    },
+    {
+      "n": 17,
+      "scene": "A pale man in blue spectacles speaks from an iron balcony to an angry crowd",
+      "summary": "The crowd grows angry, and Dr Hirsch appears on his balcony and says that honour forbids him to meet the Colonel, but that a duel will be arranged."
+    },
+    {
+      "n": 18,
+      "scene": "A big man and a soldier shake hands with the Colonel while a priest turns away",
+      "summary": "Two men offer to act for Colonel Dubosc in the duel: a soldier, the Duc de Valognes, and a big man whose friend, a small priest, tries to stop him."
+    },
+    {
+      "n": 19,
+      "scene": "A big man and a small priest talk over a plate of whitebait in a leafy cafe garden",
+      "summary": "The big man, Flambeau, tells Father Brown that the note found on the spy is wrong about the hiding place and the colour of the ink."
+    },
+    {
+      "n": 20,
+      "scene": "Father Brown stares in alarm across the table at his friend, a fork in his hand",
+      "summary": "Father Brown becomes frightened when he hears that the envelope was white, because three wrong facts show that the writer knew the truth exactly."
+    },
+    {
+      "n": 21,
+      "scene": "A short soldier in uniform sits down heavily at the cafe table",
+      "summary": "The Duke announces that the Colonel is packing to leave the country, and Father Brown says he is going on a very short journey."
+    },
+    {
+      "n": 22,
+      "scene": "Three men creep along a shadowy lane beside a high wall at dusk",
+      "summary": "They follow the Colonel into a lane, and he vanishes through a garden door, and Flambeau climbs the wall and recognises the back of Hirsch's house."
+    },
+    {
+      "n": 23,
+      "scene": "A man at a basin washes his face in a brightly lit upstairs room",
+      "summary": "Through a gap in a blind, Flambeau sees the Colonel remove the padding from his chest and wash the brown from his face and take off his moustache."
+    },
+    {
+      "n": 24,
+      "scene": "A man in blue spectacles and a red beard steps onto a lit balcony",
+      "summary": "The man puts on a red wig and beard and blue spectacles and becomes Dr Hirsch, who invented an enemy to win glory."
+    },
+    {
+      "n": 25,
+      "scene": "Two well-dressed men stand at opposite ends of a long dark passage by a London theatre",
+      "summary": "In The Man in the Passage, Sir Wilson Seymour and Captain Cutler, two famous men who hate each other, meet outside a theatre dressing-room."
+    },
+    {
+      "n": 26,
+      "scene": "A dressing-room of mirrors where an actress in green satin smiles at two visitors",
+      "summary": "The old dresser Parkinson lets them in to see the actress Aurora Rome, who is given flowers and an ancient dagger, and the actor Bruno enters with a spear."
+    },
+    {
+      "n": 27,
+      "scene": "An actress points toward a flower shop as a soldier hesitates at the door",
+      "summary": "Father Brown arrives, and Aurora Rome tactfully clears the room by sending Cutler to buy lilies-of-the-valley and letting Bruno storm off."
+    },
+    {
+      "n": 28,
+      "scene": "A small priest sits among many reflections of himself while a dresser slides mirrors",
+      "summary": "Father Brown is left alone with Parkinson, who slides the mirrors about and takes the spear to Bruno's room, and then a strong cry is heard."
+    },
+    {
+      "n": 29,
+      "scene": "The priest kneels beside a still figure in green and gold in a golden passage",
+      "summary": "Seymour and Cutler rush back, quarrelling, and Father Brown finds Aurora Rome dead in the passage, with the brass dagger lying beside her."
+    },
+    {
+      "n": 30,
+      "scene": "A soldier and a huge actor wrestle for a dagger in a theatre dressing-room",
+      "summary": "Cutler seizes the dagger and attacks Bruno, the police arrest Bruno, and old Parkinson sits down and dies."
+    },
+    {
+      "n": 31,
+      "scene": "Two worried men listen to a small priest at a street corner at dusk",
+      "summary": "Father Brown warns Seymour and Cutler that their behaviour looks suspicious, and Seymour insists that he saw a man in the passage."
+    },
+    {
+      "n": 32,
+      "scene": "A crowded courtroom where an elegant witness speaks to the judge",
+      "summary": "At Bruno's trial, Sir Wilson Seymour says that he saw a tall man in the passage, but admits it first looked like a woman."
+    },
+    {
+      "n": 33,
+      "scene": "A soldier in the witness box describes a shape with his hands",
+      "summary": "Captain Cutler says that the figure looked like a beast with humped shoulders, and not like a woman at all."
+    },
+    {
+      "n": 34,
+      "scene": "A tiny priest in a witness box answers a lawyer while the judge leans forward",
+      "summary": "Father Brown tells the court that the shape was short and thick with two black horns, and that the man in the passage was himself."
+    },
+    {
+      "n": 35,
+      "scene": "A slender stage spear lies beside a sliding mirror in a theatre passage",
+      "summary": "Father Brown explains that Parkinson killed his wife with the stage spear, and that each witness saw only his own reflection in a sliding mirror."
+    },
+    {
+      "n": 36,
+      "scene": "A worried editor with a blue pencil sits at a desk in a noisy newspaper office",
+      "summary": "In The Purple Wig, a nervous editor, Mr Nutt, receives a letter from his reporter Francis Finn about the legend of the Duke of Exmoor's monstrous ear."
+    },
+    {
+      "n": 37,
+      "scene": "Three men in old-fashioned clothes sit at a long table outside a thatched inn",
+      "summary": "Finn finds three men outside an inn called the Blue Dragon, and the thin old gentleman tells horrible tales of the Eyres and storms away."
+    },
+    {
+      "n": 38,
+      "scene": "A small priest points after a figure walking away through the trees at twilight",
+      "summary": "The priest tells Finn that the old man is the Duke himself, that the big man is Dr Mull, the Duke's librarian, and that the Duke wears a wig."
+    },
+    {
+      "n": 39,
+      "scene": "A bald lawyer with a bleeding head faces a furious duke across a dinner table",
+      "summary": "Dr Mull tells how the Duke's lawyer, Isaac Green, tried to take half the estates, and was hit with a decanter and driven away by the threat of the wig."
+    },
+    {
+      "n": 40,
+      "scene": "An editor crosses out words with a blue pencil while a typist waits",
+      "summary": "Finn checks Mull's story and finds it confirmed, and Mr Nutt changes the Catholic priest into a Spiritualist."
+    },
+    {
+      "n": 41,
+      "scene": "A small priest holds a bright lemon and studies a distant figure among apple trees",
+      "summary": "Father Brown says that the Duke's wig is an odd colour, that he is proud of the curse rather than ashamed, and that he really hides only his toilet."
+    },
+    {
+      "n": 42,
+      "scene": "A grey-haired duke in a purple wig stares coldly at a small priest across a table",
+      "summary": "The Duke returns, and Father Brown asks him to take off his wig before everyone, but the Duke refuses, warning them of a terrible secret."
+    },
+    {
+      "n": 43,
+      "scene": "A man seizes a purple wig from the head of a struggling old duke",
+      "summary": "Father Brown says that anything too terrible to look at must be looked at, and Finn knocks the wig off the Duke's head."
+    },
+    {
+      "n": 44,
+      "scene": "Two men bend over the bald head of an old man, and a priest points to a scar",
+      "summary": "Dr Mull cries that the Duke's ears are quite ordinary, and Father Brown says this is what he had to hide, and points to a scar that shows he is the lawyer Green."
+    },
+    {
+      "n": 45,
+      "scene": "A bald man in a fine coat stands beneath the portraits of old dukes",
+      "summary": "Finn explains that the old Duke really had a slight ear defect, lost his lands to Green, and died without a son, so Green became the real Duke."
+    },
+    {
+      "n": 46,
+      "scene": "An editor crumples a long article and drops it into a waste-paper basket",
+      "summary": "Mr Nutt refuses to print the story because of the Exmoors' powerful friends and his proprietor's ambition, and crumples it up."
+    },
+    {
+      "n": 47,
+      "scene": "Four clever men stand puzzled while a small priest smiles beside his umbrella",
+      "summary": "In every case a clever person built a grand theory, and in every case it was wrong, until Father Brown asked what was odd."
+    },
+    {
+      "n": 48,
+      "scene": "A small priest looks kindly into the eyes of a worried stranger",
+      "summary": "Father Brown says that he goes by a person's eyes and voice, by the happiness of his family, and by the subjects he chooses and avoids."
+    },
+    {
+      "n": 49,
+      "scene": "The little priest hurries along a wet road at dusk, his umbrella under his arm",
+      "summary": "Father Brown wants no credit and quietly leaves, as he leaves the street corner and the sea-front."
+    },
+    {
+      "n": 50,
+      "scene": "Under a street lamp, a small priest holds an umbrella against the rain",
+      "summary": "Father Brown walks into the evening, and the wisdom he carries is a habit of humble attention, with another puzzle waiting."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Father Brown was a small, round priest with an old umbrella.",
+      "This book by Chesterton has twelve stories, and we read four.",
+      "In the first story, Father Brown visited a famous scientist by the sea.",
+      "Maggie and her friend wanted to marry, but her mother said no.",
+      "Todhunter was kind, but he locked his door and told no one why.",
+      "Then Maggie ran in and cried that James had been murdered.",
+      "They ran to the house, and Dr Hood broke the door open.",
+      "The room was a mess, and Todhunter lay tied up on the floor.",
+      "Dr Hood looked at the hat and described Mr Glass.",
+      "Dr Hood said the ropes were a trick, and he would not untie him.",
+      "Father Brown looked at Todhunter's eyes and saw him laughing.",
+      "Father Brown said that Mr Glass did not exist at all.",
+      "At last Todhunter freed himself and bowed to everyone.",
+      "In Paris, two young men served the great scientist Dr Hirsch.",
+      "Dr Hirsch sent a note: he would not meet Colonel Dubosc.",
+      "Colonel Dubosc shouted to the crowd that Dr Hirsch was a traitor.",
+      "Dr Hirsch spoke from his balcony and said he would fight.",
+      "Two men offered to help the Colonel in the fight.",
+      "Flambeau said the secret note had three mistakes in it.",
+      "Father Brown was afraid when he heard about the white envelope.",
+      "The Duke said the Colonel was leaving France and would say sorry.",
+      "They followed the Colonel down a lane, and he went through a door.",
+      "At the window, Flambeau watched the Colonel wash his face.",
+      "He put on a red beard and became Dr Hirsch again.",
+      "In London, two men came to a theatre's side door.",
+      "A dresser opened the door of a room full of mirrors.",
+      "Father Brown arrived, and Miss Rome sent the men away.",
+      "Father Brown heard a loud cry from the passage.",
+      "Aurora Rome lay dead in the passage, and a dagger lay near her.",
+      "Cutler fought with Bruno, and the police arrested the actor.",
+      "Father Brown warned the two men that they had hurt themselves.",
+      "At the trial, Sir Wilson said he saw a tall man.",
+      "Captain Cutler said he saw a beast, not a woman.",
+      "Father Brown told the judge that the man in the passage was himself.",
+      "A mirror had shown each man his own shape in the passage.",
+      "A newspaper writer went to Devon to learn about a duke's curse.",
+      "Finn found an inn, and an old man told frightening stories.",
+      "The priest said that the old man was the Duke.",
+      "The Duke once hit a lawyer with a heavy bottle.",
+      "Mr Nutt changed the priest in the story to a Spiritualist.",
+      "Father Brown said that the Duke was proud of his curse.",
+      "Father Brown asked the Duke to take off his wig.",
+      "Finn pulled the wig from the Duke's head.",
+      "The Duke's ears were normal, but a scar showed he was Mr Green.",
+      "The new Duke was really the lawyer, and he used the old curse.",
+      "Mr Nutt would not print the story, and he threw it away.",
+      "All the clever experts in these stories were wrong.",
+      "Father Brown looked at people's eyes and listened to their voices.",
+      "Father Brown never wanted fame, and he walked home alone.",
+      "Father Brown went home, ready for the next puzzle."
+    ],
+    "B1B2": [
+      "Father Brown is a small, round Catholic priest with a shabby hat and an umbrella that is always in his way. He looks harmless and rather foolish, but he understands people better than any detective in England.",
+      "The Wisdom of Father Brown was written by G K Chesterton in 1914, and it holds twelve stories. We will read four of them, and in each one the priest shows more sense than the experts.",
+      "In the first story, The Absence of Mr Glass, Father Brown visits Dr Orion Hood, a famous criminologist, in his tidy rooms by the sea. The priest drops his hat and umbrella as he asks for help with a family called MacNab.",
+      "Father Brown explains that Maggie MacNab and young Todhunter want to marry, but her mother will not allow it. Dr Hood laughs, but he agrees to give his best advice, because he has nothing else to do that afternoon.",
+      "Todhunter is a neat, polite lodger who has plenty of money, but nobody knows his trade. He locks himself in for hours, and people say a tall man in a silk hat once argued with him at the window.",
+      "Dr Hood has started a lecture on foolish village tales when Maggie runs in, red-faced and out of breath. She says that Todhunter has been murdered, because she heard a man called Glass and saw James lying in a corner.",
+      "The three hurry through the dusk to the MacNabs' house, where Mrs MacNab runs out to meet them. Dr Hood puts his shoulder to the lodger's door and bursts it open.",
+      "Playing cards lie everywhere, two wine glasses stand ready, and a third lies smashed on the carpet. A sword and a tall silk hat lie nearby, and in the corner Todhunter lies tied up, with a scarf across his mouth.",
+      "Dr Hood puts the silk hat on Todhunter's head, and it is far too big, so it must belong to a tall man. He decides that Mr Glass is bald, elderly, fond of drink and probably a blackmailer who came to threaten the rich, secretive lodger.",
+      "Dr Hood studies the knots and says that Todhunter tied them himself, and could free himself at any moment. There is a little blood on the sword, but Todhunter has no wound, so he thinks that Todhunter killed Glass and hid the body.",
+      "Father Brown asks again if Todhunter can tie and untie himself, and then he runs across the room to look at his face. The scarf hides his mouth, but the priest cries that the man is laughing, and that he is laughing at Dr Hood.",
+      "Father Brown says that Mr Glass is absent from everywhere, because he never existed. He explains that Todhunter is learning to be a conjuror and juggler, and that the hat, glasses, sword and ropes are all part of his tricks.",
+      "Todhunter was practising ventriloquism, and the name Glass came from his counting aloud when he missed a glass. Everyone laughs, and Todhunter slips out of the ropes, bows, and hands round a bill for his show on Monday.",
+      "In the second story, The Duel of Dr Hirsch, two young Frenchmen, Brun and Armagnac, walk across a sunny avenue in Paris. They are going to see Dr Paul Hirsch, a famous scientist who loves peace and has invented a noiseless powder that the government guards.",
+      "The old servant Simon gives the young men a letter from Dr Hirsch. The doctor is locked in his study, because an army colonel named Dubosc is in the house, and he begs them to deal with the man.",
+      "Colonel Dubosc is thrown out of the house, and he jumps on a cafe table and shouts to the crowd. He says that a German spy was caught with a note in Hirsch's writing, which shows where to find the secret formula.",
+      "The crowd grows angry and throws stones, and then Dr Hirsch appears on the balcony in blue spectacles. He says that honour does not allow him to meet the Colonel himself, but that his friends will arrange a duel, and the crowd cheers.",
+      "Two men in the crowd offer to act as the Colonel's seconds, a soldier called the Duke de Valognes and a very big man. The big man's friend, a small priest, tries to stop him, and then he walks away alone.",
+      "Flambeau has seen the real hiding place, and the note is wrong about the cupboard and the colour of the ink. He thinks it is a clumsy forgery, so he is ready to give up helping the Colonel.",
+      "Father Brown asks about the envelope, and Flambeau says that it was supposed to be grey, but it was really white. The priest is frightened, because three wrong facts cannot be an accident, and the writer must have known the truth exactly.",
+      "The Duke de Valognes hurries in with strange news, because the Colonel is packing to leave the country. He wants his seconds to apologise for him at the duel, and Father Brown quietly says that he is going on a very short journey.",
+      "They follow the Colonel down a dim lane, until he unlocks a garden door with a key and vanishes. Flambeau climbs the wall and sees that it is the back of the street where Dr Hirsch lives.",
+      "Through a gap in the red blind, Flambeau sees the Colonel take off his coat, and his big chest comes off with it. He washes his face, and his brown skin and big moustache disappear.",
+      "The man puts on a ragged red wig and beard and blue spectacles, and he is Dr Hirsch. Father Brown says that the two men were opposites, like a lock and a key, and that Hirsch had made an enemy up to win glory.",
+      "In the next story, The Man in the Passage, two famous men enter opposite ends of a dark passage beside a London theatre. Sir Wilson Seymour is an elegant gentleman who rules the world of art, and Captain Cutler is a popular war hero.",
+      "The two men go into the dressing-room of Aurora Rome, an actress in peacock-green satin, and it is full of mirrors. Sir Wilson gives her an old Greek dagger of brass, and the tall actor Isidore Bruno comes in with a spear.",
+      "A small priest, Father Brown, walks in and says that Miss Rome sent for him. She wants to be alone with him, so Bruno storms off, and she sends Captain Cutler to buy lilies-of-the-valley.",
+      "Father Brown and the old dresser are left alone while Parkinson slides the mirrors in and out, filling the room with small priests. Then Parkinson carries Bruno's spear into the far room, and the priest suddenly hears a strong, strangled cry.",
+      "Seymour rushes in, pale, and asks who the man in the passage is, and where his dagger is. Cutler arrives with his flowers and the two men quarrel, but Father Brown goes into the passage and finds Aurora Rome lying dead.",
+      "Cutler seizes the dagger and bursts into Bruno's room, where the two men fight and Bruno cuts the Captain's hand. The police arrest Bruno for the murder, and old Parkinson sits down in a chair and dies.",
+      "At the corner of the road, Father Brown warns Seymour and Cutler that they have done nearly everything to hang themselves. He must tell the court how wildly they quarrelled, and that nobody can now say whose blood is on the dagger.",
+      "At Bruno's trial the court is full, because every newspaper reports the case. Sir Wilson Seymour says that he saw a tall man in the passage, but under questioning he admits that at first it looked like a woman.",
+      "Captain Cutler agrees about the events, but he says that the shape in the passage looked like a beast, with humped shoulders and bristles. He is sure it did not look like a woman, and Butler points out that this is not what Sir Wilson saw.",
+      "The third witness is Father Brown, who is so small that he can hardly see over the box. He says that the shape was short and thick, with two black horns, and that it was himself.",
+      "Father Brown says that old Parkinson, her husband, killed her with the stage spear, which has a short blade and a long handle. Her dress was caught in a sliding mirror, and each witness who saw a man in the passage saw only himself.",
+      "In the fourth story, The Purple Wig, a nervous newspaper editor, Mr Nutt, gets a letter from his writer Francis Finn. Finn is in Devonshire, studying a legend that the Duke of Exmoor's family has a monstrous ear.",
+      "Finn finds the Blue Dragon inn and sits with three men, a big bald librarian, a small priest and a thin old gentleman. The old gentleman tells him horrible tales about the cruel Eyres, and then he breaks his pipe and glass and storms away.",
+      "Finn asks who the strange old gentleman is, and the small priest says that he is the Duke of Exmoor. The big man is Dr Mull, the Duke's librarian, and Father Brown adds that the Duke wears a wig.",
+      "Dr Mull tells how a clever lawyer named Green once tried to take half the Duke's land at dinner. The Duke hit him on the head with a bottle, and said that if Green took the land, he would take off his wig.",
+      "Finn checks the story, and an old apothecary remembers a bald man named Green who had a three-cornered cut on his forehead. Mr Nutt likes the article, but he changes the Catholic priest into Mr Brown, a Spiritualist, because his readers would not like a priest.",
+      "Father Brown picks up a lemon and says that the Duke's wig is a very odd colour, because nobody has hair like that. If the Duke were ashamed of his curse, the priest says, he would hide it better, but he is really proud of it.",
+      "The Duke returns, and Father Brown begs him to take off his wig in front of everyone. The Duke refuses, saying that the horror beneath it would make them scream.",
+      "Father Brown says that if something seems too terrible to look at, we must look at it. When the Duke still refuses, Finn jumps up and pulls the wig off his head.",
+      "Dr Mull cries that the Duke's ears are quite ordinary. Father Brown says that this is what the Duke had to hide, and points to a scar that proves he is really the lawyer Green.",
+      "Finn writes that the old Duke really had a slight ear defect, but he lost his lands to Green and died without a son. The government then gave the title to the man who owned the land, so Green is now the real Duke of Exmoor.",
+      "Mr Nutt writes back that Finn must be mad, because the Exmoors have powerful friends and the owner would be furious. He crumples the pages and drops them in the waste-paper basket, but first, out of habit, he changes the word God to circumstances.",
+      "In every case, a clever expert has built a splendid theory, and in every case the theory is wrong. Dr Hood, the three witnesses and Mr Finn all see what they expect to see, and only Father Brown asks what is really odd.",
+      "Father Brown does not trust grand theories about people, and he says that moral evidence is easier for him to understand than other kinds. He goes by a man's eyes and voice, by whether his family seems happy, and by what subjects the man chooses and avoids.",
+      "Father Brown never asks for thanks, and after each case he picks up his hat and his umbrella and goes quietly home. Others are cheered in the street or praised in the newspapers, but he is content to be forgotten.",
+      "In the end, the wisdom of Father Brown is very simple, because he looks at what is odd and asks why. The strangest riddles often have the plainest answers, and the priest is already walking towards the next one."
+    ],
+    "C1C2": [
+      "Father Brown was a shapeless little priest in a broad black hat, whose umbrella was as unmanageable as a bundle of luggage and whose round, mild face seemed made for nothing more dangerous than a parish tea. Yet his quiet attention missed nothing, and where clever men built towers of theory, he simply asked what was odd and why. This book gathers some of the cases in which that humble habit of thought unravelled mysteries that had baffled scientists, soldiers and policemen.",
+      "The Wisdom of Father Brown, which G K Chesterton published in 1914, is a collection of twelve stories, and the four retold here show the priest at his best. In each of them some learned, famous or confident person builds a magnificent explanation, and in each of them the explanation turns out to be wrong. We begin with a case that took him to the tidy house of a scientist on the sea-front at Scarborough.",
+      "In the first of the stories, The Absence of Mr Glass, Father Brown shambled into the long, spotless consulting-rooms of Dr Orion Hood, a famous criminologist whose tall windows looked out over the North Sea at Scarborough. The visitor dropped his hat and umbrella on the carpet and apologised for both in a single breath, while the scientist regarded him as he might have regarded a harmless sea-beast crawling into his study. The priest had come, he said, about the business of the MacNabs, and he begged Dr Hood to excuse him if he was mistaken.",
+      "Maggie MacNab and young Todhunter wanted to marry, the priest explained, and nothing could be more important than that, yet the girl's sharp-tempered mother, a widow who let lodgings, would not hear of it. The great Dr Hood, who had once advised governments on matters of grave danger, found that he could not resist so absurd a request. He settled into an armchair in the manner of a consulting physician, declared that he was a sportsman, and promised the MacNab family the best advice he had.",
+      "James Todhunter, the priest continued, was a bright little man, as agile as a monkey and as clean-shaven as an actor, who paid his rent to the minute and loved the younger children, but nobody knew what his trade was. He shut himself up behind a locked door for hours every day, promising to explain before the wedding, and so Mrs MacNab had filled the silence with tales of two voices heard in the room. She even whispered that a mysterious tall man in a silk hat had once come out of the sea mist and quarrelled with him at his window.",
+      "Before Dr Hood could finish a lecture on how such tales are only the superstitions of simple people, a young woman with sea-blown hair burst into the room and begged Father Brown to come at once. James had been murdered, for all she could make out, because that man Glass had been with him again, and she had heard two separate voices through the door, one low and burring and the other high and quavering. She had heard James say Mr Glass again and again, she added, and when she climbed on to the window-sill she had seen him lying huddled in a dim corner.",
+      "In a few minutes all three were approaching the dreary end of the MacNabs' street, the girl with the stern stride of a mountaineer, the criminologist with a lounging grace, and the priest at an energetic trot that had no distinction at all. The afternoon was closing in a lurid twilight, the sea was an inky purple, and two black, barren trees in the scrappy garden stood up like hands raised in astonishment. Mrs MacNab ran down the street to meet them, shrilling her vows of vengeance, and Dr Hood, with the trick of an old detective, put his shoulder sharply to the lodger's door and burst it open.",
+      "The room had plainly been the scene of some violent collision, for playing-cards lay littered across the table and floor, two wine glasses stood ready on a side-table, and a third lay smashed in a star of crystal upon the carpet. A few feet from it lay a long knife or short sword with a pictured handle, whose dull blade caught a grey glint from the window, and a gentleman's silk top hat had rolled into the farthest corner. In that corner lay James Todhunter, thrown like a sack of potatoes but corded like a railway trunk, with a scarf across his mouth and six or seven ropes knotted round his elbows and ankles, though his brown eyes were alive and alert.",
+      "Dr Hood stepped across the carpet, picked up the tall silk hat, and gravely set it on the head of the bound Todhunter, where it slid down almost to his shoulders. From the brushed and burnished look of the hat, the absence of any hair inside it, the high quavering voice that Maggie had heard, and a splinter of glass lying on a high bracket, he deduced a tall, bald, elderly man, fashionable but frayed, and fond of strong drink. Since Todhunter was thrifty, wealthy and secretive, Hood reasoned, the two were the classic figures of a tragedy of hush-money, the respectable man with a mystery and the vulture who scents it.",
+      "Maggie begged him to untie the man at once, but Dr Hood refused, saying that every knot had been made by Todhunter himself and could be loosened by him at any minute, for no enemy really trying to pinion a victim would have tied them so. A tiny touch of blood on the sword-point, he added, showed that someone had been wounded, yet Todhunter had not a scratch on him, so Glass must have carried the wound away, dead or alive. The ropes were a clever fake, he concluded, to make the blackmailer seem the victim, and the corpse was probably hidden in the garden or stuffed up the chimney.",
+      "Father Brown, whose usually comic face had suddenly knotted into a frown, asked in a puzzled voice whether Todhunter could really tie himself up and untie himself alone, and when the doctor said that he could, the little priest scuttled across the room like a rabbit and peered into the part of the captive's face that the scarf did not cover. Dr Hood spoke gravely of the transverse wrinkles and of some slight psychological abnormality, but the priest cut him short and cried that the man was laughing. To put it plainly, he added with an apologetic air, Todhunter was laughing at Dr Hood.",
+      "Mr Glass was so extremely absent, said the priest, that he was absent from the very nature of things, and the hat was not Mr Glass's at all but a hat that belonged to Todhunter, who could get rabbits, ribbons and sweets out of it. Todhunter was learning to be a professional conjuror, juggler and ventriloquist, and the hat had no hair inside it because nobody had ever worn it. The three glasses were for juggling, one of which he had smashed against the ceiling, the sword was for swallowing, and the blood on its point came from a slight graze inside his throat, while the ropes were a practice for escaping like the famous Davenport Brothers.",
+      "The two voices, Father Brown reminded Maggie, were only a ventriloquist speaking first in his own voice and then in a shrill, squeaky one, and the name Glass was simply the juggler's patter, because he counted the glasses aloud and said that he had missed a glass. There was a second of stillness in the room, and then everyone burst out laughing, and Todhunter complacently uncoiled all the ropes, let them fall with a flourish, and advanced into the middle of the room with a bow. From his pocket he took a big bill printed in blue and red, which announced that Zaladin, the World's Greatest Conjuror, Contortionist, Ventriloquist and Human Kangaroo, would perform an entirely new series of tricks at the Empire Pavilion in Scarborough on Monday next at eight o'clock.",
+      "In the second story, The Duel of Dr Hirsch, two short, brisk young Frenchmen, Maurice Brun and Armand Armagnac, crossed the sunlit Champs Elysees with a kind of vivacious respectability. They were pupils of Dr Paul Hirsch, a scientist whom half of Europe regarded as a saint of reason, a mild, dreamy man who pleaded for peace in a peaceful manner. He had lately discovered a noiseless explosive, the secret of which the Government guarded with great care, and he lived in a handsome house in a street of chestnut trees near the Elysee.",
+      "At the door they were met by the doctor's old servant Simon, who looked more like a physician than his master did, and who handed Armagnac a letter. In it Dr Hirsch wrote that he could not come down, because a Colonel Dubosc, a hot-tempered army officer, had been kicking the furniture about in the house, and that he had locked himself in his study opposite a cafe. If they loved him, he begged, they would wait at one of the cafe tables and deal with the Colonel in his place, for he himself could not and would not meet the man.",
+      "The Colonel was shot out of the shrubs like a cannon-ball, a sturdy figure in a small Tyrolean hat, with a huge black moustache like the horns of a bison and a scarf of dark red, old gold and purple wound up to his ears. He sprang on a cafe table, seized a branch of chestnut to steady himself, and shouted to the gathering crowd that France was betrayed by the man in the house opposite. A German spy had been caught the day before, he cried, with a paper in his pocket that was in Hirsch's own handwriting, signed with his initials, and telling where to find the formula for the noiseless powder.",
+      "The crowd swelled until it surged against the railings of the traitor's house and two stones flew, one smashing a window above the balcony, and then the broken french window opened and Dr Hirsch himself stepped out. He was an absurd figure in such a scene, with a long bare neck, a coat that hung on him as on a peg, carroty hair, a weedy beard and blue spectacles, yet he spoke with such prim decision that the mob fell silent in the middle of his third sentence. He would not meet the Colonel, he declared, because honour forbade it, but he had asked two friends to confront the man for him, and he would pay this barbaric price and then go back to reason for the rest of his life.",
+      "Two men were soon found in the crowd to offer their services to Colonel Dubosc, who came out presently, satisfied, and one was a plain soldier who said simply that he was the Duc de Valognes. The other was a big man whose friend, a small priest, tried at first to dissuade him and then walked away alone. In the early evening, at the back of the Cafe Charlemagne, that small priest sat in complete solitude under a roof of leaves, eating a pile of whitebait with the gravest enjoyment.",
+      "Over the whitebait, Flambeau confessed gloomily that he thought they had made a mistake, for although the paper in Dubosc's hand looked exactly like Hirsch's writing, it could not have been written by Hirsch, since it told the Germans nothing true. He and the Duke had been allowed to inspect the secret drawer at the War Office, and they had found that the cupboard stood to the left of the desk and not the right, and that the formula was written in ordinary black ink, not red. It was manifestly absurd, he said, to suppose that Hirsch could be mistaken about a paper known to nobody but himself, and he was ready to apologise to old Carrots and give up the business.",
+      "Father Brown put down his fork and asked whether the envelope in the cupboard had been grey, and when Flambeau answered that it was really white, the little priest said that his friend frightened him. A man telling lies at random would have told some of the truth, he explained, for if you were sent to find a house with a green door and a back garden, and found one with a blue door and no back garden, you would know that you had the wrong house. But if every single detail were exactly reversed, he added, you would know you had found the right house, and so the man who wrote that note must have known the facts perfectly.",
+      "Almost before they could take it in, the Duc de Valognes walked up to their table like the wind and sat down with a thump, announcing that he had extraordinary news. The Colonel was packing to leave the country, he said, and had asked his seconds to apologise for him on the field of honour, before everybody, when the swords were drawn. Father Brown, whose face had suddenly shone with understanding, said quite simply that the Colonel was setting out on a very short journey, and that they might still catch him if they took a motor-cab.",
+      "The cab swept round the corner by the Hotel Saint Louis, and Father Brown led the party up a side lane already in deep shadow, behind a sturdy figure shuffling along with a bag in each hand. The man vanished through one of the dull wooden doors in the long wall, and Flambeau, burning with curiosity, swung himself up like a monkey and stood on top of it against the purple sky. The Duke asked where the fellow could be going, and Father Brown answered that he was escaping from everywhere, and at that moment Flambeau cried out that he knew the place, for it was the back of the street where old Hirsch lived.",
+      "A red blind had been pulled crookedly over the one lighted window at the back of the house, and by risking his neck along a treacherous branch, Flambeau could just see Colonel Dubosc in a brilliantly lit bedroom. The Colonel took off his coat, and the solidity and squareness of his chest and shoulders came off with it, for it was all padding, and he walked across to a basin, washed his face, and turned again to the light. His brown complexion had gone, his big black moustache had gone, and he was clean-shaven and very pale, with nothing left of the Colonel but his bright, hawk-like eyes.",
+      "In the lighted window the same man fitted round his face a framework of rank red hair that clung to his jaws and chin, covered his eyes with blue spectacles, slipped on a loose black coat, and hurried towards the front of the house. A few moments later a roar of popular applause from the street announced that Dr Hirsch had once more appeared on his balcony. Below the wall Father Brown had been explaining that the two men were exact opposites, fair and dark, stout and slim, strong and weak, like a face and a mask or a lock and a key, and that the doctor was guilty of nothing worse than ambition, having invented an enemy in order to be cheered as a hero.",
+      "In the next story, The Man in the Passage, two men appeared at the same moment at opposite ends of a long covered passage beside the Apollo Theatre in the Adelphi, each knowing the other at once by his silhouette, and each hating him. Sir Wilson Seymour was the kind of man whose importance is known to everyone who knows, tall, silver-haired and elegant, the one intelligent man on twenty unintelligent committees and omnipotent in the arts. Captain Cutler was square-jawed and blue-eyed, the hero of the siege of Hong-Kong and of the great march across China, whose portrait appeared on postcards and whose praises were sung in every music-hall.",
+      "A shabby old dresser named Parkinson let them into the dressing-room of the great actress Aurora Rome, which was fitted with looking-glasses at every angle, so that it seemed like the inside of one huge diamond. She entered in a gown of peacock green and blue, beaming and baffling, and accepted tropical flowers from Cutler and, from Seymour, an ancient Greek dagger that was made of brass but still sharp enough to prick anyone. Then the door burst open, and Isidore Bruno, who played Oberon opposite her Titania, strode in dressed in a leopard skin and leaning on a silvery hunting-spear that looked menacing in so small a room.",
+      "A very short priest in black then appeared in the doorway, saying with dull civility that he believed Miss Rome had sent for him, and the emotional temperature of the room rose at once. Aurora, who wished to be left alone with the one man who did not admire her, set about clearing the others with brisk feminine diplomacy, sending Cutler to fetch her favourite lilies-of-the-valley and leaving the huge Bruno to storm off to his own room in sulks. She ran out to speed the Captain on his way and then, laughing, turned and ran down the passage towards the other end, while Seymour, with a darkening brow, strolled out into the upper end.",
+      "Father Brown and Parkinson were left alone, and the dresser went round the room pulling out looking-glasses and pushing them in again, still holding the festive spear of King Oberon, so that every new mirror produced a new black figure of the priest, some upside down like angels and some turning their backs like rude persons. At last Parkinson took himself and the spear into Bruno's farther room, and Father Brown, left to his abstract meditations, began calculating the angles of the mirrors and of each refraction. He was in the middle of this pleasant arithmetic when he heard a strong but strangled cry from somewhere in the passage.",
+      "Sir Wilson Seymour burst back into the room, white as ivory, crying out to know who that man in the passage was and where his dagger had gone, and a moment later Captain Cutler's square face appeared in the doorway, still clutching his lilies-of-the-valley. They turned on each other with accusations, but Father Brown stepped out into the top of the passage, looked down it, and walked briskly towards what he saw. There, in the last gold light of the afternoon, lay Aurora Rome in her green and gold, her dead face turned upwards and her dress torn from her right shoulder, with a wound on the other side and the brass dagger lying flat a yard away.",
+      "Cutler snatched up the dagger, sprang at the lower door, burst it open, bolt and all, and flew at Bruno in his dressing-room, and the two men fought for the weapon until Bruno twisted it from his grasp and slashed him slightly across the hand. When the police arrived they tore the pair apart and arrested the great actor for murder on the word of the national hero, who pointed to his own bleeding hand as proof. Meanwhile old Parkinson, who had tottered to the door and seen the body, had shuffled back to a gorgeous cushioned chair, and Father Brown found that he too was dead.",
+      "They took leave of Father Brown at the corner of the road, with some random apologies for any rudeness, and both their faces were tragic but cryptic. The priest quietly warned them that they had done nearly everything they could to hang themselves if the actor were acquitted, for he would be bound to tell the court that each of them had rushed in wild and quarrelled about a dagger, and that Cutler had since cut himself with it, so that nobody could ever know whose blood was on it before. Seymour answered, with an emphasis alien to his usual accent, that he had seen a man in the passage, and Father Brown replied with a face of wood that he knew he had, and that so had Cutler, and that this was what seemed so improbable.",
+      "All London followed the Bruno case in the newspapers, and the trial was presided over by the humorous Mr Justice Monkhouse, with Sir Walter Cowdray prosecuting for the Crown and the sleepy-looking Mr Patrick Butler defending the accused. The doctors agreed that Aurora Rome had been stabbed over the heart with a short blade, and that she had died almost at once. Sir Wilson Seymour then told the court, perfectly and lucidly, that he had seen a figure in the passage like a tall man, though when pressed by the defence he admitted that it had at first looked something like a woman, with curves and long hair.",
+      "Captain Cutler gave the same account of the opening events, but when he was asked about the figure in the passage he said sourly that he was no art critic, and that it looked more like a beast than a man or a woman. It had huge humped shoulders like a chimpanzee, he added, and bristles sticking out of its head like a pig. Mr Butler asked sleepily whether it had been like a woman, and the soldier cried that it certainly had not, which, as the lawyer was quick to remark, was not what the last witness had said.",
+      "The third witness was the little Catholic priest, so small that his head hardly rose above the box, and the prosecutor, who was prejudiced against him, told him sharply to answer yes or no and keep his theories to himself. Asked what shape he had seen in the passage, Father Brown said that it was short and thick, with two sharp black projections curving upward on each side of the head like horns, and when the barrister jeered that it must have been the devil, he said calmly that he knew who it was. The judge, whose old eyes were bright with interest, asked who the man in the passage had been, and the priest answered that he was himself.",
+      "A short blade, the priest agreed with Mr Butler, but a very long hilt, for daggers were not the only weapons with short blades, and a fancy theatre spear catches at the end of its steel just like a dagger. Poor old Parkinson had killed his wife with exactly such a spear, he said, and had died penitent that same evening, unable to bear what he had done, and her dress had been torn because it was caught in a mirror panel that slid out into the passage behind her. When the amazed judge asked whether Sir Wilson Seymour and Captain Cutler had each seen only their own reflections, and why the priest should know his own figure when such distinguished men did not, Father Brown blinked and answered that it was probably because he did not look at it so often.",
+      "In the fourth story, The Purple Wig, Mr Edward Nutt, the editor of the Daily Reformer, lived in continuous fear of libel actions, lost advertisements and the sack, and he hesitated before opening a letter from his clever contributor Francis Finn, which bore a Devonshire postmark. Finn wrote that in the reign of James the First a servant listening at a keyhole was said to have overheard a terrible royal secret, and that the ear with which he heard it had grown large and monstrous by magic. That ear was supposed to recur in the family of the Duke of Exmoor still, and although Finn believed nothing of the witchcraft, he suspected that something queer but natural lay behind the tale.",
+      "Walking through a Devonshire orchard, Finn came upon a low, thatched inn called the Blue Dragon, and at a rustic table outside it sat a tall, fat man in black, a round-faced little Roman Catholic priest, and a lank, sallow old gentleman in tight grey pantaloons whose curling hair was of an odd, dim russet that looked almost purple. At the mention of the Duke of Exmoor the old gentleman broke his silence and, puffing at his long pipe, told Finn horrible tales of Eyres who had hanged their own fathers and scourged their wives at the cart's tail. When Finn remarked that he did not seem fond of the family, the old man deliberately broke his pipe and his glass on the table, declared that none had suffered from the curse as he had, and strode away among the twinkling apple trees.",
+      "The big man stared at Finn like a baffled bull, and it was the little priest who said quietly that the old gentleman was the Duke of Exmoor, adding that his companion was Dr Mull, the Duke's librarian, and that his own name was Brown. The Duke seemed really to believe, said Father Brown, that his ancestors had left a curse on him, and that, he added with some irrelevance, was why he wore a wig. Dr Mull groaned that the Duke was a tyrant who let the whole world do everything for him except dress him, which he insisted on doing in total solitude, and anyone found near his dressing-room door was thrown out of the house.",
+      "Dr Mull told the story as he had heard it from his own predecessor, how the Duke's lawyer, one Isaac Green, a bald and clever little man of thirty, had quietly put the family finances into a hole and then proposed at dinner, with a steady smile, that they should halve the estates between them. For answer the Duke smashed a decanter on the lawyer's head, leaving a red triangular scar, and Green, rising unsteadily, said that he was glad, since now he could take the whole estate and the law would give it to him. The Duke, white as ashes, replied that Green would not take it, because if he did the Duke would take off his wig, and no man should see that sight and live, and Green ran from the room and never again appeared in the countryside.",
+      "Finn took care to check Mull's story, and an old apothecary in the village told him that a bald man in evening dress, who gave the name of Green, had once come at night to have a three-cornered cut on his forehead plastered, while the legal records showed that a lawsuit had indeed been begun by one Green against the Duke of Exmoor. Mr Nutt read the copy with his blue pencil in hand and dictated a letter saying that the public would never stand a Romanist priest in the story, so he had altered him to Mr Brown, a Spiritualist. A day or two afterwards he was examining the second instalment, in which Finn declared that he had made an astounding discovery.",
+      "When the librarian had gone heavily after his master, Father Brown picked up one of the lemons from the table and remarked cheerfully that he did not like the colour of the Duke's wig, because there never was hair of that colour in this world, and it looked more like a sunset-cloud coming through the wood. If the Duke were truly ashamed of the family curse, he asked, why did he not conceal it better, and he answered himself that the old man was not ashamed of it at all, but proud, as many aristocrats are proud of a genuine old family curse. The Duke hid neither his wig nor his blood nor his family crimes, the priest concluded, his eyes growing suddenly round and bright like a waking owl's, but he did really conceal his toilet.",
+      "The Duke came back with his soft foot and sunset-coloured hair and took his seat at the head of the table, saying to Father Brown that for the sake of his fathers' religion he would hear his request in private. The priest answered that he wished as many people as possible to be present, for hundreds of minds in that country were poisoned by the spell he wanted broken, and that his request was that the Duke should take off his wig. The Duke stared with the most awful expression Finn had ever seen on a human face, and said that he refused, for if he gave them the faintest hint of the horror he bore alone, they would lie shrieking at his feet.",
+      "The Duke warned that the priest and all he believed in would shrivel and perish, but Father Brown, with the unconscious grandeur of a granite tower, said that he knew the Unknown God and that his name was Satan, and that when the devil says something is too fearful to look at, one must look at it. Finn, who had been leaning over the table in ungovernable excitement, called the Duke's bluff and said that he would knock the wig off himself, and when the answer was a stony refusal he sprang upon the old man. For three long instants the Duke strained against him as if he had all hell to help him, and then the hairy cap fell off, and Finn admits that he shut his eyes as it fell.",
+      "A cry from Dr Mull awoke Finn, and the two men bent over the bald head of the wigless Duke, for the librarian was exclaiming that the man had nothing to hide, because his ears were just like everybody else's. Yes, said Father Brown, that is what he had to hide, and he walked straight up to him but did not so much as glance at the ears. He stared with comical seriousness at the bald forehead, pointed to a three-cornered scar that was long healed but still plain, and said politely, “Mr Green, I think, and he did get the whole estate after all.”",
+      "This transformation scene, Finn wrote, had been strictly legal and constitutional from the beginning, for the man with the odd scar and the ordinary ears was no impostor and had stolen no coronet. The old Duke had really suffered from a slight and more or less hereditary malformation of the ear, and had been morbid about it, but when he lost the contest with Green he was dispossessed and died without a son, after which the Government revived the extinct peerage and gave it, as usual, to the person who held the property. Green had used the old feudal fables because in his snobbish soul he envied and admired them, so that thousands of poor people trembled before a mysterious chieftain with an ancient destiny when they were really trembling before a man who had been a pettifogger and a pawnbroker not twelve years before.",
+      "Mr Nutt read the manuscript with his blue eyes growing rounder and rounder, then called sharply for Miss Barlow and dictated a letter telling Finn that he must be mad and that the paper could not touch a word of it. He had wanted vampires and the bad old days, with aristocracy hand-in-hand with superstition, he said, but Sir Simon was one of Exmoor's greatest friends, a cousin of the Eyres was standing for the paper at Bradford, and the old soap-boiler who owned the paper, who longed for a peerage, would sack him by wire for such lunacy. As Miss Barlow rattled the letter away, he crumpled the copy into the waste-paper basket, but not before he had altered, automatically and by force of habit, the word God to the word circumstances.",
+      "Looking back, the four cases have one thing in common, for in each a person of learning, rank or confidence builds a fine and elaborate explanation, and in each the explanation is wrong. The criminologist read a murder into a conjuror's practice, three witnesses saw a devil, a woman and a beast in their own reflections, and a crowd cheered a hero who had invented his own enemy. Only the little priest stopped to ask what was odd and why, and what he found was never a monster, only a human being.",
+      "Moral evidence, Father Brown once confessed to Flambeau, was easier for him to grasp than any other kind, and he explained that he went by a man's eyes and voice, by whether his family seemed happy, and by the subjects that a man chose, and avoided. Other people looked at hats, ropes, blades, wigs and signatures, but the priest looked at the people who owned them. A conjuror's laughing eyes, a dresser's grief, a duke's pride in his own curse and a doctor's ambition told him more than all the instruments of a scientific mind.",
+      "When the laughter, the arrests and the applause were over, the little priest generally slipped away unnoticed, as he did from the corner of that London street, stumping up the road with his stumpy old umbrella. He wanted no credit and no reward, and he was happy to leave the honours to Flambeau, to the police, or to the nearest great man who happened to be standing by. His round face wore the same mild look with which he had arrived, as if the most extraordinary thing about a mystery were how little it asked of anyone who simply looked.",
+      "So the little priest walked off into the evening with his umbrella, leaving behind a conjuror taking his bow, a scientist who had invented an enemy, a mirror that had fooled three clever men, and a duke who was no duke by blood. The wisdom that he carried with him was not a method or a machine but a habit of humble and patient attention, which noticed what was odd and asked why, and which found in the strangest riddle a very ordinary human heart. Somewhere in the dusk, as he turned the corner, another puzzle was already waiting for him."
+    ]
+  }
+}
