@@ -1,417 +1,1639 @@
 {
-  "slug": "hard-task-first",
-  "meta": {
-    "blurb": "Noor's list has one job that frightens her, so she does everything else first. The dread only grows. Then she turns the list upside down, with a timer, a sticky note and a small, kind rule for the morning.",
-    "bible": "Noor: a freelance designer who avoids her hardest work, then learns to do it first. Lucia: a university student who studies chemistry, her hardest subject, first. Jonas: a baker who runs a small bakery and hates paperwork. The book speaks to \"you\" and uses these three people as examples. Sunday: the day Noor plans her week. Friday: the end of the work week. Studies are real and hedged: present bias, if-then plans, task switching and habit formation are described cautiously, with no invented numbers. Voice and tone: calm, warm, practical and encouraging, one clear idea or step in each beat, building to a final takeaway."
+ "slug": "hard-task-first",
+ "meta": {
+  "blurb": "Noor's list has one job that frightens her, so she does everything else first. The dread only grows. Then she turns the list upside down, with a timer, a sticky note and a small, kind rule for the morning.",
+  "bible": "Noor: a freelance designer who avoids her hardest work, then learns to do it first. Her big job is a proposal for Brightway, a company, due in six weeks; she sends it at about week five and Brightway says yes about a month later. Elena Rossi: Brightway's manager. Hana: Noor's friend, who becomes her accountability partner. Kofi: an older designer who gives Noor advice. Lucia: a university student who studies chemistry, her hardest subject, first. Jonas: a baker who runs the small Hearth Street Bakery and hates paperwork; he does paperwork while the first bread bakes. Places: Noor's flat with a sunny balcony, a quiet library table, a café. The proposal has six parts: an introduction, the client's problem, three design options, a timeline, a price and a closing page. The book speaks to \"you\" and uses these people as examples. Sunday: the day Noor plans her week. Friday: the end of the work week, when she reviews it. Studies are real and hedged: present bias, the planning fallacy, if-then plans, task switching, self-forgiveness and habit formation are described cautiously, with no invented numbers. Voice and tone: calm, warm, practical and encouraging, one clear idea or step in each beat, building to a final takeaway.",
+  "chapters": [
+   "A List With One Scary Line",
+   "Why the Mind Looks Away",
+   "The List Turned Upside Down",
+   "Tomorrow's Job, Tonight",
+   "Small Enough to Begin",
+   "Clearing the Desk",
+   "The Kitchen Timer",
+   "Not Ready, Start Anyway",
+   "Know Your Best Hours",
+   "The Baker and the Bills",
+   "Cutting the Mountain",
+   "Rough and Ready",
+   "If This, Then That",
+   "When You Get Stuck",
+   "The Pull of Other Things",
+   "Rest Is Part of the Plan",
+   "Counting the Wins",
+   "Hard Tasks at Home",
+   "Sunday Plans and Friday Reviews",
+   "Tonight, One Small Note"
+  ]
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "Noor sits at a desk beside a long handwritten list of jobs.",
+   "summary": "Noor has a long list of jobs, and one of them frightens her."
   },
-  "beats": [
-    {
-      "n": 1,
-      "scene": "Noor sits at a desk beside a long handwritten list of jobs.",
-      "summary": "Noor has a long list of jobs, and one of them frightens her."
-    },
-    {
-      "n": 2,
-      "scene": "Noor circles one line on her list with a thick pen.",
-      "summary": "The task we avoid is often the one that matters most."
-    },
-    {
-      "n": 3,
-      "scene": "Noor stares at a blank page with her chin in her hand.",
-      "summary": "We avoid hard tasks because they feel bad: unclear, boring or risky."
-    },
-    {
-      "n": 4,
-      "scene": "Noor smiles with relief as she closes the proposal file.",
-      "summary": "Avoiding the task gives quick relief, but the problem comes back bigger."
-    },
-    {
-      "n": 5,
-      "scene": "Noor sorts neat piles of emails and receipts at her desk.",
-      "summary": "Easy tasks feel productive, so we fill the day with them."
-    },
-    {
-      "n": 6,
-      "scene": "Noor eats dinner but looks at her phone with a worried face.",
-      "summary": "An avoided task hangs over the whole day and spoils rest."
-    },
-    {
-      "n": 7,
-      "scene": "A hand turns a list over and writes one task at the top.",
-      "summary": "The idea: do your hardest important task first."
-    },
-    {
-      "n": 8,
-      "scene": "Morning sunlight falls on a tidy, empty desk by a window.",
-      "summary": "Starting early means the task is done before the day's demands crowd in."
-    },
-    {
-      "n": 9,
-      "scene": "Noor writes times of day beside a small chart in a notebook.",
-      "summary": "People have different best times, so notice your own."
-    },
-    {
-      "n": 10,
-      "scene": "Noor writes tomorrow's task on a sticky note at night.",
-      "summary": "Choose tomorrow's task the evening before."
-    },
-    {
-      "n": 11,
-      "scene": "Noor holds a pen over a list, thinking carefully.",
-      "summary": "Pick just one task by asking which would matter most today."
-    },
-    {
-      "n": 12,
-      "scene": "Noor draws a star beside a single line on her list.",
-      "summary": "Choose the task with the biggest result, not the easiest one."
-    },
-    {
-      "n": 13,
-      "scene": "Noor rewrites a vague line into a clear one on paper.",
-      "summary": "Write the task as a clear action with a finish line."
-    },
-    {
-      "n": 14,
-      "scene": "Noor types only a title at the top of a blank page.",
-      "summary": "Make the first step tiny: open the file and write a title."
-    },
-    {
-      "n": 15,
-      "scene": "Noor puts her phone in a drawer and closes extra windows.",
-      "summary": "Remove distractions before you start."
-    },
-    {
-      "n": 16,
-      "scene": "A kitchen timer stands on a desk beside an open laptop.",
-      "summary": "Use a timer for a short, fixed block of focused work."
-    },
-    {
-      "n": 17,
-      "scene": "Noor leans forward, typing, her frown slowly relaxing.",
-      "summary": "The first minutes are hardest, and the feeling often eases once you start."
-    },
-    {
-      "n": 18,
-      "scene": "Noor sits with a laptop open and a cup of tea beside it.",
-      "summary": "Do not wait to feel ready; start before you feel like it."
-    },
-    {
-      "n": 19,
-      "scene": "Lucia sits among chemistry notes at a library table.",
-      "summary": "Lucia, a student, studies her hardest subject first."
-    },
-    {
-      "n": 20,
-      "scene": "Jonas stands in a bakery kitchen holding a stack of paper bills.",
-      "summary": "Jonas, a baker, does his hated paperwork before the ovens get busy."
-    },
-    {
-      "n": 21,
-      "scene": "Noor draws boxes on paper that divide a big project into parts.",
-      "summary": "Split a huge task into parts and begin with the first."
-    },
-    {
-      "n": 22,
-      "scene": "Noor types quickly, with messy notes scattered across the page.",
-      "summary": "Write a rough first draft and let it be imperfect."
-    },
-    {
-      "n": 23,
-      "scene": "Noor writes an if-then sentence on a card beside her laptop.",
-      "summary": "Use an if-then plan to decide when and where you will start."
-    },
-    {
-      "n": 24,
-      "scene": "Noor drinks a cup of coffee on a sunny balcony.",
-      "summary": "Give yourself a small reward after finishing."
-    },
-    {
-      "n": 25,
-      "scene": "Noor writes a list of what is stopping her on a notepad.",
-      "summary": "When stuck, write down exactly what is stopping you."
-    },
-    {
-      "n": 26,
-      "scene": "Noor talks to a colleague at a desk, pointing at her notes.",
-      "summary": "Ask for help when you do not know how to start."
-    },
-    {
-      "n": 27,
-      "scene": "Noor shows a rough draft on her laptop to a friend.",
-      "summary": "Fear of judgement: share a draft early and with a kind person."
-    },
-    {
-      "n": 28,
-      "scene": "Noor puts on headphones and lights a candle at her desk.",
-      "summary": "Make a dull task more pleasant with a ritual, music or a favourite place."
-    },
-    {
-      "n": 29,
-      "scene": "Noor hangs a sign on her door asking not to be disturbed.",
-      "summary": "Tell others about your focus time and let messages wait."
-    },
-    {
-      "n": 30,
-      "scene": "Noor looks confused as she switches between a spreadsheet and a chat window.",
-      "summary": "Switching between tasks costs time and attention."
-    },
-    {
-      "n": 31,
-      "scene": "Noor hesitates over a polished page, unsure whether to send it.",
-      "summary": "Perfectionism: a good first version beats waiting for a perfect one."
-    },
-    {
-      "n": 32,
-      "scene": "Noor compares two deadlines written on a wall calendar.",
-      "summary": "If you have two hard tasks, start with the nearer deadline."
-    },
-    {
-      "n": 33,
-      "scene": "A simple four-box grid on paper with notes in each box.",
-      "summary": "Urgent and important are different; protect the important."
-    },
-    {
-      "n": 34,
-      "scene": "Noor crosses a low-value meeting off her calendar with a pen.",
-      "summary": "Say no to low-value requests to protect time for the hard task."
-    },
-    {
-      "n": 35,
-      "scene": "Noor sits on a sofa wrapped in a blanket, holding a tissue.",
-      "summary": "On a bad day, do a smaller piece of the task and be kind to yourself."
-    },
-    {
-      "n": 36,
-      "scene": "Noor walks along a path beside a park at lunchtime.",
-      "summary": "Take breaks; a short walk restores attention."
-    },
-    {
-      "n": 37,
-      "scene": "Noor crosses the hard task off her list and smiles.",
-      "summary": "Notice the feeling of finishing; a sense of progress feeds motivation."
-    },
-    {
-      "n": 38,
-      "scene": "A notebook lies open with a list of finished tasks.",
-      "summary": "Keep a done list of the hard tasks you finish."
-    },
-    {
-      "n": 39,
-      "scene": "A calendar with tick marks sits beside a coffee cup.",
-      "summary": "Habits form by repetition; it takes weeks or months, and differs by person."
-    },
-    {
-      "n": 40,
-      "scene": "Noor looks at an empty tick box, then picks up a pen.",
-      "summary": "If you miss a day, simply return the next morning."
-    },
-    {
-      "n": 41,
-      "scene": "Noor and a friend sit with coffee, comparing their notebooks.",
-      "summary": "Tell a friend your plan to stay accountable."
-    },
-    {
-      "n": 42,
-      "scene": "Noor writes one big task at the top of a weekly planner.",
-      "summary": "Choose one hard task for the week, plus one each day."
-    },
-    {
-      "n": 43,
-      "scene": "Noor pins a note with a goal on the wall above her desk.",
-      "summary": "Connect the hard task to a bigger reason and write it down."
-    },
-    {
-      "n": 44,
-      "scene": "Noor sits at a table holding her phone, about to make a call.",
-      "summary": "Hard tasks at home include calls, forms and difficult conversations."
-    },
-    {
-      "n": 45,
-      "scene": "Jonas fills in a tax form at a kitchen table with a calculator.",
-      "summary": "Jonas does his yearly tax form in short daily sessions."
-    },
-    {
-      "n": 46,
-      "scene": "Noor lies in a hammock reading a book in the evening.",
-      "summary": "Do not use this idea to overwork; rest and limits matter."
-    },
-    {
-      "n": 47,
-      "scene": "Noor tidies her desk calmly on an ordinary day.",
-      "summary": "Some days have no big task, and routine days are fine."
-    },
-    {
-      "n": 48,
-      "scene": "Noor shakes hands with a smiling client in a bright office.",
-      "summary": "After a month, Noor sends the proposal and wins the client."
-    },
-    {
-      "n": 49,
-      "scene": "A notebook page lists five short steps in neat handwriting.",
-      "summary": "Recap: choose, define, start small, protect focus, finish and repeat."
-    },
-    {
-      "n": 50,
-      "scene": "A hand writes tomorrow's task on a note beside a lamp at night.",
-      "summary": "Final takeaway: tonight, choose tomorrow's hard task and begin in the morning."
-    }
-  ],
-  "levels": {
-    "A1A2": [
-      "Noor has a long list, and one job on it scares her.",
-      "The job we avoid is often the job that matters most.",
-      "Hard jobs feel bad, so we want to stay away from them.",
-      "When Noor looks away, she feels better for a short time.",
-      "Noor answers twenty emails, and she feels very busy.",
-      "At night Noor still thinks about the proposal and feels tense.",
-      "This book has one simple idea: do the hardest job first.",
-      "Early in the day, nobody is asking you for anything.",
-      "Some people work best in the morning, others at night.",
-      "Before bed, Noor chooses the one job for tomorrow.",
-      "Pick only one task, the one that matters most.",
-      "Look for the job that will bring the biggest result.",
-      "Write the task in clear words, so you know when it ends.",
-      "Make the first step tiny, like opening a file.",
-      "Put your phone in a drawer and close extra windows.",
-      "Set a timer for twenty-five minutes and start working.",
-      "The first five minutes are hard, then it gets easier.",
-      "Do not wait to feel ready, just begin.",
-      "Lucia studies chemistry first, because it is her hardest subject.",
-      "Jonas bakes bread, but he hates paperwork and bills.",
-      "A big task is easier when you cut it into parts.",
-      "Write a rough first version, and let it be bad.",
-      "Write a plan: when it is nine, I open the file.",
-      "After the hard job, Noor enjoys a cup of coffee.",
-      "If you are stuck, write down what is stopping you.",
-      "When you do not know how, ask someone for help.",
-      "Noor shows her rough work to a friend first.",
-      "A dull job feels better with music and a nice place.",
-      "Tell people you will answer later, and close your door.",
-      "Doing two things at once makes both jobs worse.",
-      "Perfect is slow, so finish a good version first.",
-      "With two hard jobs, do the one that is due first.",
-      "Some jobs are loud, but they are not always important.",
-      "Say no to small jobs, so you can keep your time.",
-      "On a bad day, do a smaller part of the task.",
-      "After a long time at work, take a short walk.",
-      "Noor finishes the page and feels proud of herself.",
-      "Keep a list of the hard jobs you finished.",
-      "If you do it every day, it becomes a habit.",
-      "If you miss a day, start again the next day.",
-      "Tell a friend your plan, and ask them to check.",
-      "Pick one big job for the week, too.",
-      "Write why the task matters to you, and read it.",
-      "Hard jobs at home are phone calls and forms.",
-      "Jonas does a little of his tax form each day.",
-      "Working hard is good, but you also need rest.",
-      "Some days have no big task, and that is fine.",
-      "A month later, Noor sends her proposal, and the client says yes.",
-      "Choose the task, start small, work without distractions, then rest.",
-      "Tonight, write down tomorrow's hard job, and start in the morning."
-    ],
-    "B1B2": [
-      "Every morning Noor writes a long list of jobs, and one of them makes her stomach tighten. It is a proposal for a big new client, and she has been avoiding it for days.",
-      "Look closely at your own list and you will probably find the same thing. The job you keep avoiding is often the one that matters most.",
-      "A hard task can feel unclear, boring or risky, and sometimes all three at once. Our minds want to stay away from that bad feeling.",
-      "The moment Noor closes the file, she feels a small wave of relief. However, the relief does not last, because the deadline is still coming closer.",
-      "Instead of working on the proposal, Noor answers emails, tidies her files and orders new pens. By evening she feels busy, but nothing important has moved.",
-      "Even at dinner, the proposal sits in the back of Noor's mind. She cannot enjoy her evening, because a small worry hums quietly behind everything she does.",
-      "This book offers one simple idea, and it is easy to remember. Each day, do your hardest and most important task first, before the easier jobs.",
-      "Early in the day, fewer people need you, and fewer surprises have arrived. If you start then, the hard task is finished before the day's demands can crowd it out.",
-      "Not everyone is sharpest in the morning, because people have different body clocks. For one week, notice when you feel most alert, and plan your hard task for that time.",
-      "Each evening, Noor decides which task she will do first the next morning. That way she does not have to choose while she is tired and tempted to hide.",
-      "Ask yourself a simple question: if I finish only one thing today, which would I be happiest about? The answer to that question is your hard task for the day.",
-      "Look for the task with the biggest result, not the one that is easiest or most urgent. Ask what would change things most if it were finished.",
-      "A vague task such as “work on the proposal” never really ends, so it is hard to begin. Write something with a finish line instead, like “complete page one of the proposal”.",
-      "Make the very first step so small that it is almost silly. Open the file, type a title, and you have already begun.",
-      "Before you begin, remove whatever might pull you away. Put your phone in a drawer, close every extra window and clear your desk of anything unrelated.",
-      "Set a timer for twenty-five minutes and promise yourself only that you will work until it rings. A short, fixed block feels much easier to start than a vague promise to work all morning.",
-      "The first few minutes of any difficult job are usually the hardest of all. After that, the dread often fades, because doing the task is rarely as bad as imagining it.",
-      "You may wait a long time to feel ready, and the feeling may never come. Begin anyway, and let the feeling catch up with you.",
-      "Lucia is a student, and chemistry is the subject she likes least. She now studies it first each evening, while her mind is fresh, and saves her favourite subjects for later.",
-      "Jonas runs a small bakery, and the paperwork is the part he hates. Now he does his bills for twenty minutes first thing in the morning, before the first customers arrive.",
-      "A huge task can feel like a wall with no door. Cut it into smaller parts, and then begin with the first one.",
-      "Give yourself permission to write a bad first version. It is much easier to improve a rough page than to create a perfect one from nothing.",
-      "Decide exactly when and where you will begin, using a simple sentence: if it is nine o'clock, then I open the proposal. Studies of such if-then plans suggest that they help people follow through.",
-      "When the hard task is finished, give yourself a small reward. It could be a walk, a good coffee or ten minutes with a favourite song.",
-      "Sometimes you cannot begin because something is blocking the way. Write down exactly what it is, because a problem with a name is easier to solve.",
-      "Many hard tasks stay undone because we do not know how to begin them. Ask a friend or a colleague for ten minutes of advice, and the way forward may appear.",
-      "Part of the fear is the fear of being judged. Show your rough work to a kind friend first, and you may find the courage to continue.",
-      "If a task is boring, try to make the setting pleasant. Choose a favourite chair, a cup of tea and some quiet music, and do the job in the same way each time.",
-      "Tell the people around you that you will be busy for an hour. Most messages can wait, and almost nothing important will happen while you are working.",
-      "Many of us believe that we can do two things at once. In fact, switching between tasks wastes time, because the mind needs a moment to catch up each time.",
-      "Perfectionism can look like high standards, but it often hides fear. Finish a good version first, and improve it afterwards if you still have time.",
-      "Sometimes you will have two hard tasks competing for the morning. Start with the one that has the nearer deadline, and give the other the next block of time.",
-      "A job can be urgent without being important, and the reverse is also true. The tasks that change your life are often quiet ones that nobody is shouting about.",
-      "Every yes to a small request is a no to something else. Learn to decline politely, so that your best hours are protected.",
-      "Some mornings you will be tired, unwell or upset. On those days, choose a smaller piece of the hard task, and be kind to yourself.",
-      "Attention does not last for ever, and a tired mind makes poor choices. Take a short break after your hard task, and walk outside if you can.",
-      "When the hard task is done, stop for a moment and notice how you feel. Research on working life suggests that a sense of progress is a powerful source of motivation.",
-      "At the end of each day, write down the hard task you finished. A list of things done is more encouraging than a list of things still to do.",
-      "Doing the hard task at the same time each day slowly turns it into a habit. One study found it took about two months on average, although the range was wide.",
-      "Sooner or later, you will miss a day of your new habit. One missed day does not matter, so simply return to it the next morning.",
-      "It is easier to keep a promise that someone else knows about. Tell a friend your plan and send them a short message each time you finish.",
-      "Each Sunday, choose one important task for the whole week. Then break it into daily pieces, so that every morning you already know your first job.",
-      "Hard work is easier when you remember why it matters. Write one sentence about your reason, and put it where you can see it.",
-      "Not every hard task belongs to your working life. A difficult phone call, a form to fill in or an honest talk with a friend can be done first, too.",
-      "Every year, Jonas fears his tax form more than anything else. This year he does twenty minutes a day for a week, and the job is finished without any drama.",
-      "Doing the hardest task first does not mean working all day. Rest is part of the plan, because a tired person cannot do good work.",
-      "Some days will not contain one big, frightening task. On those days, simply choose the most useful job and enjoy a calmer morning.",
-      "After a month of starting early, Noor has not only finished the proposal but also won the client. She says that the best part is her calmer evenings.",
-      "Here is the whole method, in a few short steps. Choose one important task the night before, make the first step tiny, remove distractions and work until it is done.",
-      "Tonight, take one small piece of paper and write down tomorrow's hardest important task. In the morning, do it first, and see how the day feels."
-    ],
-    "C1C2": [
-      "Every morning, Noor writes a generous list of jobs, and every morning one item on it seems to glow with a faint menace. It is a proposal for a large new client, a document that could shape her whole year and that she has not touched for nine days. Like most of us, she has grown remarkably skilled at finding something else to do.",
-      "If you study your own list honestly, you will probably notice the same pattern. The task that makes you hesitate is rarely a trivial one, because the jobs that carry real weight tend to be the ones that ask the most of us. Whatever we dread is frequently whatever would move our lives forward, and that is exactly why we dread it so much.",
-      "A difficult task may feel vague, tedious or frightening, and sometimes it manages all three at the same moment. The mind, which would rather feel comfortable than uncomfortable, quietly steers us towards anything else. Researchers who study delay often describe it less as a problem with time than as a way of escaping an unpleasant feeling.",
-      "The instant Noor closes the file, a small wave of relief washes over her, as pleasant as putting down a heavy bag. Unfortunately, the bag has not gone anywhere, and the deadline keeps creeping closer while she looks the other way. Psychologists call our habit of favouring the pleasant now over the better later a kind of present bias.",
-      "Instead of facing the proposal, Noor answers a dozen emails, reorganises her files and orders a new set of pens. Each small job gives her a tiny reward, the pleasant feeling of crossing something off. By evening she is tired and strangely unsatisfied, because busy is not at all the same as productive.",
-      "Even at dinner, the unfinished proposal sits in the back of Noor's mind like a guest who has overstayed his welcome. She cannot fully relax, because a low and persistent worry hums behind every conversation and every film. The task is costing her energy long before she has spent a single minute on it.",
-      "This book is built around one simple and rather stubborn idea about how to spend your days. Each day, before you touch the easier and more tempting jobs, give your first and best attention to the hardest task that truly matters. Everything else you will read here is only a way of making that single habit easier to keep.",
-      "Early in the day, the world has not yet had time to make its demands, and your messages are still few. If you begin the hard task then, it is finished, or at least well begun, before meetings and phone calls can crowd it out. Even a mediocre morning, you may find, feels like a success when the worst job is already behind you.",
-      "Early rising is not a virtue for everyone, because people differ in the natural rhythm of their bodies, and some think best late in the day. Spend a week noticing when your attention is sharpest and when it sags, and write down what you see. Your hardest task belongs in your own best hours, whatever the clock on the wall may say.",
-      "Each evening, before she closes her laptop, Noor decides which task will come first the next morning and writes it on a note. By settling the question in advance, she spares her morning self the temptation to negotiate. Decisions made calmly the night before are usually kinder to us than those made under pressure.",
-      "To find your task, ask yourself a plain and slightly uncomfortable question: if I could finish only one thing today, which would leave me most relieved? The answer is seldom the loudest or the quickest job on your list, and it is rarely the one that you would choose to start with. It is the one that quietly carries the most weight for your work and your life.",
-      "Beware of choosing the task that is merely loud, since urgency and importance are very different things. The job that deserves your first hour is the one whose completion would change the most, whether that is money, health, a friendship or a skill. Give that job the star, and let the others wait patiently for their turn.",
-      "A vague task is a slippery one, because “work on the proposal” has no edges and therefore no moment of completion. Write the task instead as a concrete action with a visible finish, such as “complete the first page and save the file”. When you know exactly what done looks like, the fog that surrounds the job begins to lift.",
-      "Make the very first step so small that it feels almost silly, such as opening the file and typing a title. A beginning of that size is too modest to frighten anyone, and yet it changes the situation completely. The task is no longer something you are avoiding; it is something you have started.",
-      "Willpower is a poor guard against temptation, so it is wiser to remove temptation before the struggle begins. Put your phone in a drawer, close every window that has nothing to do with the task, and clear your desk of anything unrelated. A calm, bare workspace sends a clear signal to the mind that only one thing matters at the moment.",
-      "Set a timer for twenty-five minutes and promise yourself nothing more than steady attention until it rings. A short, fixed block of time feels far less threatening than an open-ended afternoon, and it gives your effort a clear shape. When the bell sounds, you may stop, though you will often find that you would rather continue.",
-      "The first few minutes are usually the hardest, as anyone who has stood at the edge of cold water will recognise. Once you are actually working, the dread often fades, because the task itself is rarely as bad as the picture of it that your imagination painted. Many people find that action comes first and motivation follows, rather than the other way round.",
-      "If you wait until you feel ready, you may wait for a very long time, because the feeling often refuses to arrive on schedule. Professionals in every field work at times when they would honestly prefer to be somewhere else. Begin anyway, and allow your mood to catch up with your hands, as it usually does.",
-      "Lucia, a university student, has always found chemistry the most stubborn of her subjects, and for months she saved it until midnight. Now she opens her chemistry notes first each evening, while her mind is fresh, and treats her favourite subjects as a reward for later. Her marks have not changed overnight, but her dread of the exam has shrunk.",
-      "Jonas has run his small bakery for ten years and loves every part of it except the paperwork, which used to pile up like flour dust in a corner. Now he sits down with the bills for twenty minutes, early in the morning, before the first customers arrive. The pile is gone, and the shop, he says, feels noticeably lighter and calmer.",
-      "A huge task can feel like a wall with no door in it, and staring at the whole thing will only make you feel small. Break it into sections that each fit inside a single work session, and then begin with the first. You do not have to climb the mountain today; you only have to take the first stretch of the path.",
-      "Give yourself explicit permission to produce something clumsy, incomplete and even a little embarrassing. A rough draft is raw material, and it is far easier to improve a page that exists than to summon a flawless one out of nothing. Most good work, in every trade, begins life looking quite unimpressive and rather unpromising.",
-      "Vague intentions tend to dissolve, so decide exactly when and where you will begin, and put it into a sentence: if it is nine o'clock, then I sit down and open the proposal. Psychologists who have studied such if-then plans have repeatedly found that they help people follow through on what they meant to do. The plan hands the decision to the clock, and the clock, unlike your mood, is reliable.",
-      "When the hard task is finished, mark the moment with a small and genuine reward, such as a walk in the sun, a good coffee or ten minutes with a favourite song. A reward teaches the mind that unpleasant effort leads somewhere pleasant, and that lesson makes tomorrow's start a little easier. Choose something that you will truly enjoy, rather than something you feel you ought to enjoy.",
-      "Sometimes the trouble is not laziness at all but a real obstacle, such as a missing figure, an unanswered question or an unclear instruction. Write down exactly what is standing in your way, in plain words, because a problem with a name is far easier to solve than a vague feeling of dread. Often the obstacle turns out to be smaller, and more solvable, than it seemed.",
-      "Many tasks stay unfinished for no deeper reason than that we do not know how to start them, and pride keeps us from asking. A ten-minute conversation with someone who has done the job before can save you hours of lonely worry. Most people are far happier to help than we imagine, and often they are flattered to be asked.",
-      "Part of what we dread is the thought of other people judging the result, and that fear can freeze us before we write a single line. Show your rough work to someone kind and trustworthy while it is still unfinished, and ask what is working rather than what is wrong. Feedback offered early feels like a conversation instead of a harsh and final verdict.",
-      "If the task is dull rather than frightening, make the surroundings as pleasant as you honestly can. Choose a favourite chair, a pot of tea and some quiet music, and perform the same small ritual each time you begin. Over the weeks, the ritual becomes a doorway, and walking through it takes less and less effort.",
-      "Tell the people around you, politely and in advance, that you will be unavailable for an hour. Very few messages are as urgent as they appear, and a delay of sixty minutes rarely causes anything worse than mild impatience. If your work really does demand that you answer emergencies, agree in advance how people can reach you.",
-      "Many of us believe that we are gifted at doing several things at once, but research on attention suggests that we are mostly switching quickly between them. Each switch carries a small cost, because the mind needs a moment to find its place again. Over a whole morning, those moments add up to a surprising amount of lost time and lower quality.",
-      "Perfectionism can pass for high standards, yet it frequently hides a quiet fear of being found out. Aim first to finish a good version, because a finished piece can be improved, whereas an unfinished one can only be worried about. You can always polish tomorrow what you were brave enough to complete today, and nobody will mind.",
-      "Occasionally two hard tasks will compete for the same morning, and it is tempting to spend the whole time deciding between them. Choose the one with the nearer deadline or the heavier consequences, give it your first block, and let the second have the one that follows. Making the choice quickly matters far more than making it perfectly, so do not agonise.",
-      "A task can be urgent without being important, and a task can be important without ever being urgent, which is exactly why the second kind is so easily neglected. Learning a skill, mending a friendship or preparing for a distant exam will never ring your phone. Unless you protect time for such jobs, the loud ones will quietly eat the whole day.",
-      "Every yes to a small request is, in effect, a no to something else, because the hours of a day do not stretch. Learn to decline politely and without a long apology, offering another time if you can, so that your best hours stay free for your hardest work. People respect a clear answer more than an eager promise that is broken later.",
-      "There will be mornings when you are tired, upset or unwell, and on those mornings a heroic effort is neither realistic nor wise. Choose a smaller piece of the hard task, perhaps ten minutes of it, and then rest without guilt. If you are ill, looking after yourself comes first, and the task can wait.",
-      "Attention is a limited resource, and a mind that has worked hard needs a pause before it can work well again. After your hard task, stand up, stretch, drink some water and, if you can, walk outside for a few minutes. Such breaks are not a reward for finishing the real work but a part of how the real work gets done.",
-      "When the hard task is complete, pause long enough to notice how you feel, because the feeling is information worth keeping. Research on working life suggests that a sense of making progress in meaningful work is one of the most powerful sources of motivation we have. The relief you feel at ten o'clock can carry the whole rest of the day.",
-      "At the end of each day, write down the hard task you completed, even if it seems modest. A growing list of finished things is far more encouraging than a list of those still waiting, and it becomes a kind of private evidence. On discouraging days you can read it and remember that you have done difficult things before.",
-      "Doing the hard task at the same time each day gradually turns the effort into a habit, so that less and less willpower is required. One well-known study of everyday habits found that the process took about two months on average, although some people needed only a few weeks and others far longer. Do not be discouraged if it takes you longer, because the pace differs a great deal from person to person.",
-      "Sooner or later you will miss a day, because life has a way of interrupting even the best intentions. One missed day proves nothing about your character, and it does no real damage to the habit you are building. What matters is that you return the next morning without a speech of self-punishment.",
-      "A promise made only to yourself is easy to break quietly, whereas one that a friend knows about carries a little extra weight. Share your plan with someone you trust, and send a short message when each hard task is finished. Better still, find a partner with a hard task of their own, and cheer for each other.",
-      "Each Sunday evening, choose one important task for the coming week, the kind of job that you would be pleased to have finished by Friday. Then divide it into daily pieces, so that every morning you already know what your first and hardest job will be. The week then has a spine, and the small tasks arrange themselves around it.",
-      "Difficult work becomes easier to bear when you can remember exactly why it matters to you. Write a sentence that connects today's task to something larger, such as a dream, a person you care about or a skill you want to master, and pin it above your desk. A strong reason will not remove the effort, but it gives the effort a meaning.",
-      "Not every difficult task belongs to the office, since some of the heaviest ones live at home: an unpleasant phone call, an official form or an honest conversation that has been postponed for months. The same principle applies, which is to do these things early, briefly and kindly, before the dread has time to grow. Few of us have ever regretted making the call, but many have regretted waiting.",
-      "Every year, Jonas fears his tax form more than any other task, and every year he used to leave it until the last frantic weekend. This time he worked on it for twenty minutes each morning, one small section at a time, and the whole thing was finished days before the deadline. The same job that once felt like a mountain turned out to be a modest hill.",
-      "Doing the hardest task first is not a licence to work every waking hour, and it would be a misuse of the idea to treat it that way. Rest, play and sleep are part of the plan, because a person who is permanently exhausted cannot concentrate on anything difficult. Do your hard task, finish your day, and then truly stop working for the evening.",
-      "Some days will contain no single frightening task at all, only a long, ordinary run of small and sensible duties. On those days there is no need to invent a drama, so choose the most useful job on the list and do it first anyway. The habit of beginning well is valuable even when the stakes are quite low.",
-      "After a month of beginning each day with her hardest job, Noor finished the proposal in four short sessions and sent it off, a little nervously, to her new client. A week later, the answer was yes, and the contract was larger than she had dared to hope. What she values most, though, is the quiet she now feels in the evenings.",
-      "Here, in short, is the whole method: choose the one task that matters most, write it with a clear finish, make the first step tiny and clear away every distraction. Then work for a fixed block of time, notice what you have finished and reward yourself. Repeat it tomorrow, and the day after, and watch what slowly happens to your life.",
-      "So tonight, before you sleep, take a small piece of paper and write down the hardest task that truly matters for tomorrow. In the morning, do that one first, before the messages, before the easy jobs and before the excuses have had time to stir. Nothing about your life will transform in a single day, yet an entire existence is composed of days exactly like that one."
-    ]
+  {
+   "n": 2,
+   "scene": "Noor circles one line on her list with a thick pen.",
+   "summary": "The task we avoid is often the one that matters most."
+  },
+  {
+   "n": 3,
+   "scene": "Noor stares at a blank page with her chin in her hand.",
+   "summary": "Noor opens the proposal file, sees an empty page and shuts it again."
+  },
+  {
+   "n": 4,
+   "scene": "Noor smiles with relief as she closes the proposal file.",
+   "summary": "Avoiding the task brings quick relief, but the problem comes back bigger."
+  },
+  {
+   "n": 5,
+   "scene": "Noor sorts neat piles of emails and receipts at her desk.",
+   "summary": "Easy tasks feel productive, so Noor fills her morning with them."
+  },
+  {
+   "n": 6,
+   "scene": "Noor eats a sandwich at her desk and glances at the clock.",
+   "summary": "After lunch Noor promises to start soon, and finds one more small job."
+  },
+  {
+   "n": 7,
+   "scene": "Noor looks at the untouched line on her list as the sun sets.",
+   "summary": "At the end of the day, the big job is still untouched."
+  },
+  {
+   "n": 8,
+   "scene": "Noor eats dinner but looks at her phone with a worried face.",
+   "summary": "An avoided task hangs over the evening and spoils rest."
+  },
+  {
+   "n": 9,
+   "scene": "Noor lies awake in bed, staring at the ceiling.",
+   "summary": "At night the dread grows louder, and sleep comes slowly."
+  },
+  {
+   "n": 10,
+   "scene": "Noor points at a wall calendar with a circled date six weeks away.",
+   "summary": "The deadline is six weeks away, and Noor has not begun."
+  },
+  {
+   "n": 11,
+   "scene": "Noor reads an article on her phone at a sunny kitchen table.",
+   "summary": "Putting things off is not laziness; it is a way to escape a bad feeling."
+  },
+  {
+   "n": 12,
+   "scene": "Noor frowns at a page of unfinished notes with question marks.",
+   "summary": "A task feels unclear when we do not know where to start."
+  },
+  {
+   "n": 13,
+   "scene": "Jonas yawns over a thick pile of grey paper bills.",
+   "summary": "A task feels boring when it offers no fun at all."
+  },
+  {
+   "n": 14,
+   "scene": "Noor hovers a finger over the send button, looking nervous.",
+   "summary": "A task feels risky when we fear being judged."
+  },
+  {
+   "n": 15,
+   "scene": "A small cake and a thick book sit side by side on a table.",
+   "summary": "Present bias: we prefer a small reward now to a bigger one later."
+  },
+  {
+   "n": 16,
+   "scene": "Noor writes a note to her future self and tapes it to a mirror.",
+   "summary": "We trust our future self to do what we will not do today."
+  },
+  {
+   "n": 17,
+   "scene": "Noor looks surprised at a clock showing that three hours have passed.",
+   "summary": "The planning fallacy: we guess that tasks will take less time than they do."
+  },
+  {
+   "n": 18,
+   "scene": "A buzzing phone and a quiet notebook lie side by side on a desk.",
+   "summary": "Small urgent jobs often beat big important ones."
+  },
+  {
+   "n": 19,
+   "scene": "Noor sits with her head in her hands, then slowly lifts it.",
+   "summary": "Blaming yourself makes avoiding worse; understanding it helps."
+  },
+  {
+   "n": 20,
+   "scene": "Hana talks to Noor over the phone while Noor takes notes.",
+   "summary": "Hana suggests one change: do the scary task before anything else."
+  },
+  {
+   "n": 21,
+   "scene": "A hand turns a list over and writes one task at the top.",
+   "summary": "The idea: do your hardest important task first."
+  },
+  {
+   "n": 22,
+   "scene": "Morning sunlight falls on a tidy, empty desk by a window.",
+   "summary": "Starting early means the task is done before the day's demands crowd in."
+  },
+  {
+   "n": 23,
+   "scene": "Noor sets an alarm clock beside her bed, next to a sticky note.",
+   "summary": "First means first in order; the clock time is up to you."
+  },
+  {
+   "n": 24,
+   "scene": "Noor sits at her desk at eight with a steaming cup and laptop.",
+   "summary": "On her first morning, Noor sits down and opens the proposal before anything else."
+  },
+  {
+   "n": 25,
+   "scene": "Noor types a single title line and a heading on a fresh page.",
+   "summary": "Noor writes a title and one rough line, and it takes twenty minutes."
+  },
+  {
+   "n": 26,
+   "scene": "Noor answers emails with a relaxed smile and a cup of tea.",
+   "summary": "Afterwards the easy jobs feel lighter, and the relief is earned."
+  },
+  {
+   "n": 27,
+   "scene": "A dark cloud above Noor's desk gives way to a bright window.",
+   "summary": "A finished hard task lifts the weight from the rest of the day."
+  },
+  {
+   "n": 28,
+   "scene": "Noor looks at the proposal on her screen, still mostly empty.",
+   "summary": "The task is not finished and not easy; only the order has changed."
+  },
+  {
+   "n": 29,
+   "scene": "Hana sends Noor a message with a thumbs up and a smile.",
+   "summary": "Noor tells Hana how it went, and Hana cheers quietly."
+  },
+  {
+   "n": 30,
+   "scene": "Noor writes a rule on a card and tapes it above her desk.",
+   "summary": "Noor writes the rule on a card: the hardest important job goes first."
+  },
+  {
+   "n": 31,
+   "scene": "Noor writes tomorrow's task on a sticky note at night.",
+   "summary": "Choose tomorrow's task the evening before."
+  },
+  {
+   "n": 32,
+   "scene": "A tired hand reaches for a note while a morning alarm clock waits.",
+   "summary": "Deciding at night means no debate at the start of the morning."
+  },
+  {
+   "n": 33,
+   "scene": "Noor holds a pen over a list, thinking carefully.",
+   "summary": "Pick just one task by asking which would matter most tomorrow."
+  },
+  {
+   "n": 34,
+   "scene": "Noor draws a star beside a single line on her list.",
+   "summary": "Choose the task with the biggest result, not the easiest one."
+  },
+  {
+   "n": 35,
+   "scene": "Two lines on a list, one in loud capitals and one in small writing.",
+   "summary": "Loud tasks and heavy tasks are different; ask what happens if you skip it."
+  },
+  {
+   "n": 36,
+   "scene": "Noor rewrites a vague line into a clear one on paper.",
+   "summary": "Write the task as a clear action with a finish line."
+  },
+  {
+   "n": 37,
+   "scene": "Lucia circles a clear study goal in her notebook at a library table.",
+   "summary": "Lucia turns the vague job study chemistry into ten practice questions."
+  },
+  {
+   "n": 38,
+   "scene": "A laptop, open notes and an empty mug sit ready on a tidy desk.",
+   "summary": "Prepare your desk and materials the night before."
+  },
+  {
+   "n": 39,
+   "scene": "Noor writes one big task and three small ones on a card.",
+   "summary": "Keep one hard task a day; everything else is a bonus."
+  },
+  {
+   "n": 40,
+   "scene": "Noor sleeps peacefully in bed under a soft blanket, her lamp switched off.",
+   "summary": "The evening habit takes five minutes and makes the morning easy."
+  },
+  {
+   "n": 41,
+   "scene": "Noor types only a title at the top of a blank page.",
+   "summary": "Make the first step tiny: open the file and write a title."
+  },
+  {
+   "n": 42,
+   "scene": "A clock on the desk shows a hand pointing two minutes ahead.",
+   "summary": "Promise yourself only two minutes; starting is the hardest part."
+  },
+  {
+   "n": 43,
+   "scene": "Noor scribbles a messy list of everything she already knows.",
+   "summary": "Dump what you know as rough notes before writing sentences."
+  },
+  {
+   "n": 44,
+   "scene": "Noor grins as she types an awkward sentence on purpose.",
+   "summary": "Lower the bar: allow the very first sentence to be bad."
+  },
+  {
+   "n": 45,
+   "scene": "Noor skips the opening and writes the easiest section of the proposal.",
+   "summary": "You do not have to start at the beginning; start where it is easiest."
+  },
+  {
+   "n": 46,
+   "scene": "Noor types half a sentence and leaves a note beneath it.",
+   "summary": "Stop in the middle and leave a note about what comes next."
+  },
+  {
+   "n": 47,
+   "scene": "Noor reads her note from yesterday and starts typing at once.",
+   "summary": "The next morning, the note makes starting almost effortless."
+  },
+  {
+   "n": 48,
+   "scene": "Noor takes a deep breath, then lifts her tea, then opens the file.",
+   "summary": "A tiny starting ritual tells your mind that work is beginning."
+  },
+  {
+   "n": 49,
+   "scene": "Four pages of proposal stand in a neat pile beside Noor's laptop.",
+   "summary": "Small steps add up faster than you expect."
+  },
+  {
+   "n": 50,
+   "scene": "Noor looks at her laptop, a little tired, with a half-empty page.",
+   "summary": "On a day when little gets done, opening the task still counts."
+  },
+  {
+   "n": 51,
+   "scene": "Noor puts her phone in a drawer and closes extra windows.",
+   "summary": "Remove distractions before you start."
+  },
+  {
+   "n": 52,
+   "scene": "A phone screen lights up with many small alerts, then goes dark.",
+   "summary": "Switch off notifications; almost every alert can wait an hour."
+  },
+  {
+   "n": 53,
+   "scene": "A laptop screen with thirty open tabs shrinks to just one.",
+   "summary": "Close every tab and window the task does not need."
+  },
+  {
+   "n": 54,
+   "scene": "A phone sits across the room while Noor's hand reaches for nothing.",
+   "summary": "Add friction to bad habits and remove it from good ones."
+  },
+  {
+   "n": 55,
+   "scene": "A clean desk holds only a laptop, a notebook and a cup.",
+   "summary": "Keep only the things the task needs on your desk."
+  },
+  {
+   "n": 56,
+   "scene": "Noor wears headphones with a candle lit beside her notebook.",
+   "summary": "Make a dull task more pleasant with music, a ritual or a favourite place."
+  },
+  {
+   "n": 57,
+   "scene": "A paper sign hangs on a door, asking not to be disturbed.",
+   "summary": "Tell the people around you about your focus time."
+  },
+  {
+   "n": 58,
+   "scene": "Noor's email screen shows an automatic reply set for the morning.",
+   "summary": "Tell clients when you will reply; real emergencies are rare."
+  },
+  {
+   "n": 59,
+   "scene": "A small notepad lies beside a laptop with a few scribbled lines.",
+   "summary": "Write stray thoughts on a notepad and return to the task."
+  },
+  {
+   "n": 60,
+   "scene": "Noor sits at a quiet library table with her laptop open.",
+   "summary": "If home is too tempting, change the place where you work."
+  },
+  {
+   "n": 61,
+   "scene": "A kitchen timer stands on a desk beside an open laptop.",
+   "summary": "Use a timer for a short, fixed block of focused work."
+  },
+  {
+   "n": 62,
+   "scene": "Noor turns the dial of a red timer shaped like a tomato.",
+   "summary": "Many people use blocks of about twenty-five minutes, named after a tomato-shaped timer."
+  },
+  {
+   "n": 63,
+   "scene": "A short deadline sits beside a half-written page and a sand timer.",
+   "summary": "Work tends to fill the time you give it, so a short limit sharpens focus."
+  },
+  {
+   "n": 64,
+   "scene": "Noor leans forward, typing, her frown slowly relaxing.",
+   "summary": "The first minutes are hardest, and the feeling often eases once you start."
+  },
+  {
+   "n": 65,
+   "scene": "The timer rings and Noor stretches with a surprised smile.",
+   "summary": "When the timer rings, stop and take a short break."
+  },
+  {
+   "n": 66,
+   "scene": "Noor stands at a window with a glass of water, looking at trees.",
+   "summary": "Use breaks to move, drink water and look away from screens."
+  },
+  {
+   "n": 67,
+   "scene": "Noor writes tick marks on a card beside a freshly set timer.",
+   "summary": "After four blocks, take a longer break; you may also keep going if you wish."
+  },
+  {
+   "n": 68,
+   "scene": "Three timers sit in a row, marked ten, twenty-five and fifty.",
+   "summary": "Block length is personal; try different sizes and keep what works."
+  },
+  {
+   "n": 69,
+   "scene": "A small timer set to ten minutes sits next to a tired Noor.",
+   "summary": "On a heavy day, shrink the block instead of skipping it."
+  },
+  {
+   "n": 70,
+   "scene": "A card shows rows of tick marks, one for each finished block.",
+   "summary": "Count blocks instead of hours, so you measure effort that you control."
+  },
+  {
+   "n": 71,
+   "scene": "Noor sits on a sofa with a blanket, waiting for a good idea.",
+   "summary": "Do not wait to feel ready; start before you feel like it."
+  },
+  {
+   "n": 72,
+   "scene": "Noor types with a small smile after a slow beginning.",
+   "summary": "Motivation often follows action, not the other way round."
+  },
+  {
+   "n": 73,
+   "scene": "Lucia sits among chemistry notes at a library table.",
+   "summary": "Lucia, a student, studies her hardest subject first."
+  },
+  {
+   "n": 74,
+   "scene": "Lucia frowns at a page full of chemical symbols and arrows.",
+   "summary": "Lucia used to avoid chemistry by studying easier subjects first."
+  },
+  {
+   "n": 75,
+   "scene": "Lucia's timetable shows chemistry in the morning and history after lunch.",
+   "summary": "Lucia moves chemistry to the first slot and saves history as her reward."
+  },
+  {
+   "n": 76,
+   "scene": "Lucia circles a wrong answer in red and writes a note beside it.",
+   "summary": "Mistakes show Lucia exactly what she has to learn."
+  },
+  {
+   "n": 77,
+   "scene": "Lucia explains an answer aloud to an empty chair in the library.",
+   "summary": "Lucia explains each answer aloud, which shows what she does not know."
+  },
+  {
+   "n": 78,
+   "scene": "Lucia sits at an exam desk with a pen, nervous but upright.",
+   "summary": "On exam day, Lucia is nervous but feels better prepared."
+  },
+  {
+   "n": 79,
+   "scene": "Lucia reads a results sheet and smiles quietly in a corridor.",
+   "summary": "Lucia's mark rises a little, and her stress falls."
+  },
+  {
+   "n": 80,
+   "scene": "Noor and Lucia compare notebooks over cups of tea at the library.",
+   "summary": "The same order helps different people, but results vary; test it yourself."
+  },
+  {
+   "n": 81,
+   "scene": "Noor writes times of day beside a small chart in a notebook.",
+   "summary": "People have different best times, so notice your own."
+  },
+  {
+   "n": 82,
+   "scene": "Noor colours a weekly chart with dark and light squares for each hour.",
+   "summary": "For a week, rate your focus each hour and see the pattern."
+  },
+  {
+   "n": 83,
+   "scene": "A sleepy owl and a singing bird sit on opposite sides of a clock.",
+   "summary": "Some people are early birds and some are night owls, partly by biology."
+  },
+  {
+   "n": 84,
+   "scene": "Noor circles three morning hours on her chart in green pencil.",
+   "summary": "Noor discovers that her sharpest hours are between eight and eleven."
+  },
+  {
+   "n": 85,
+   "scene": "Noor's day plan shows the proposal in the morning and email after lunch.",
+   "summary": "Put the hard task in your sharpest hours and easy jobs in the dips."
+  },
+  {
+   "n": 86,
+   "scene": "Noor switches off a bedside lamp, a closed book beside her.",
+   "summary": "Regular sleep helps attention; tired minds find hard tasks harder."
+  },
+  {
+   "n": 87,
+   "scene": "Noor eats a simple breakfast and fills a large glass of water.",
+   "summary": "Basic care, like a meal and water, keeps the mind from drifting."
+  },
+  {
+   "n": 88,
+   "scene": "Hana drinks coffee at ten in the morning and opens her laptop.",
+   "summary": "Hana is a night owl, so her first hard task is at ten, not at eight."
+  },
+  {
+   "n": 89,
+   "scene": "A parent works at a kitchen table; a school bag hangs by the door.",
+   "summary": "If mornings are crowded, use the first quiet window you have."
+  },
+  {
+   "n": 90,
+   "scene": "Noor crosses out one time on her chart and writes a new one.",
+   "summary": "After two weeks, look at your chart and adjust the plan."
+  },
+  {
+   "n": 91,
+   "scene": "Jonas stands in a bakery kitchen holding a stack of paper bills.",
+   "summary": "Jonas runs Hearth Street Bakery; he loves baking and hates paperwork."
+  },
+  {
+   "n": 92,
+   "scene": "Jonas pushes a pile of envelopes into a drawer, one with a red stamp.",
+   "summary": "Jonas hides his bills in a drawer, until a late-payment notice arrives."
+  },
+  {
+   "n": 93,
+   "scene": "Jonas shapes dough happily while a desk of papers waits behind him.",
+   "summary": "The paperwork is not hard; it is dull, and the numbers might be bad news."
+  },
+  {
+   "n": 94,
+   "scene": "Jonas slides a tray of loaves into the oven and sets a small timer.",
+   "summary": "New plan: when the first bread goes in, use the baking time for paperwork."
+  },
+  {
+   "n": 95,
+   "scene": "Three trays on a desk are labelled pay, file and ask.",
+   "summary": "Jonas sorts paper into three trays: pay, file and ask."
+  },
+  {
+   "n": 96,
+   "scene": "Jonas ticks a short list; the pile of bills has become much smaller.",
+   "summary": "In one week, the pile of bills is gone."
+  },
+  {
+   "n": 97,
+   "scene": "Jonas points at a flour invoice with a surprised look.",
+   "summary": "Jonas finds that a supplier charged him twice, and he gets a refund."
+  },
+  {
+   "n": 98,
+   "scene": "Jonas eats a warm roll with butter in the quiet kitchen.",
+   "summary": "Jonas rewards himself with a warm roll after the paperwork."
+  },
+  {
+   "n": 99,
+   "scene": "A queue of customers stretches along the bakery counter.",
+   "summary": "In a very busy week, Jonas does only five minutes and keeps the habit alive."
+  },
+  {
+   "n": 100,
+   "scene": "A neat folder stands on a shelf beside the till.",
+   "summary": "Dull tasks shrink when they have a time, a tray and a reward."
+  },
+  {
+   "n": 101,
+   "scene": "Noor looks up at a tall, untidy stack of notes on her desk.",
+   "summary": "A big project can look like a wall, even when it is made of small pieces."
+  },
+  {
+   "n": 102,
+   "scene": "Noor draws boxes on paper that divide a big project into parts.",
+   "summary": "Split a huge task into parts and begin with the first."
+  },
+  {
+   "n": 103,
+   "scene": "Noor writes a page count beside each box on her plan.",
+   "summary": "Give each part its own finish line, such as one page or one list."
+  },
+  {
+   "n": 104,
+   "scene": "Noor writes a first step on a sticky note: find last year's prices.",
+   "summary": "Ask what the very next step is, and make it a small physical action."
+  },
+  {
+   "n": 105,
+   "scene": "Noor draws a star next to the price section on her plan.",
+   "summary": "Inside a big task, do the hardest part early, not last."
+  },
+  {
+   "n": 106,
+   "scene": "Noor writes an estimate on a page, then writes a doubled number beside it.",
+   "summary": "Plans take longer than we expect, so add extra time on purpose."
+  },
+  {
+   "n": 107,
+   "scene": "Noor writes the parts of her plan into her wall calendar.",
+   "summary": "Put each part on the calendar like an appointment."
+  },
+  {
+   "n": 108,
+   "scene": "Noor ticks two boxes on a checklist while a third waits.",
+   "summary": "A visible checklist makes progress feel real."
+  },
+  {
+   "n": 109,
+   "scene": "Noor cuts a large box on her plan into three smaller boxes.",
+   "summary": "If a part is too big and you keep avoiding it, split it again."
+  },
+  {
+   "n": 110,
+   "scene": "Noor finishes the price section and sits back with her arms in the air.",
+   "summary": "Noor finishes the hardest part, and the rest feels possible."
+  },
+  {
+   "n": 111,
+   "scene": "Noor types quickly, with messy notes scattered across the page.",
+   "summary": "Write a rough first draft and let it be imperfect."
+  },
+  {
+   "n": 112,
+   "scene": "Two hats on a desk, one marked write and one marked edit.",
+   "summary": "Writing and editing are different jobs; do not do them at once."
+  },
+  {
+   "n": 113,
+   "scene": "Noor types fill in later in a gap and keeps going.",
+   "summary": "Leave a placeholder for missing details and keep moving."
+  },
+  {
+   "n": 114,
+   "scene": "Noor hesitates over a polished page, unsure whether to send it.",
+   "summary": "Perfectionism: a good first version beats waiting for a perfect one."
+  },
+  {
+   "n": 115,
+   "scene": "Noor hides behind a very tall stack of her own rewritten pages.",
+   "summary": "A very high standard can hide a fear of being judged."
+  },
+  {
+   "n": 116,
+   "scene": "Noor shows a rough draft on her laptop to Hana.",
+   "summary": "Share a draft early, and choose a kind person to read it."
+  },
+  {
+   "n": 117,
+   "scene": "Hana points at one paragraph while Noor holds a notepad.",
+   "summary": "Ask a specific question, and listen to the answer."
+  },
+  {
+   "n": 118,
+   "scene": "Noor writes notes in a notebook while Hana speaks calmly.",
+   "summary": "Feedback is about the draft, not about you."
+  },
+  {
+   "n": 119,
+   "scene": "A second timer stands beside Noor while she edits a printed page.",
+   "summary": "Edit in a timed pass, and stop when the time is up."
+  },
+  {
+   "n": 120,
+   "scene": "Six finished rough sections lie side by side across Noor's desk.",
+   "summary": "Noor has a rough draft of all six parts."
+  },
+  {
+   "n": 121,
+   "scene": "Noor writes an if-then sentence on a card beside her laptop.",
+   "summary": "Use an if-then plan to decide when and where you will start."
+  },
+  {
+   "n": 122,
+   "scene": "Noor reads a short note about a study on a tablet screen.",
+   "summary": "Researchers call such plans implementation intentions, and many studies find that they help."
+  },
+  {
+   "n": 123,
+   "scene": "Noor's phone lies face down on the desk beside a small card.",
+   "summary": "Plan for a distraction: if my phone buzzes, then I turn it face down."
+  },
+  {
+   "n": 124,
+   "scene": "Noor takes a deep breath at her desk, her hand on a card.",
+   "summary": "Plan for a wish to quit: if I want to stop, then I write one more sentence."
+  },
+  {
+   "n": 125,
+   "scene": "Noor and Hana share a phone screen with a morning message.",
+   "summary": "Agree with a friend to send a short message each morning."
+  },
+  {
+   "n": 126,
+   "scene": "Noor taps a website blocker button on her laptop.",
+   "summary": "Decide now and make quitting harder later."
+  },
+  {
+   "n": 127,
+   "scene": "Noor and Hana sit side by side in a café, typing quietly.",
+   "summary": "Some people work better in quiet company."
+  },
+  {
+   "n": 128,
+   "scene": "Noor drinks a cup of coffee on a sunny balcony.",
+   "summary": "Give yourself a small reward after finishing."
+  },
+  {
+   "n": 129,
+   "scene": "A small biscuit and a very large pile of laundry sit apart.",
+   "summary": "Choose a reward that is small, quick and does not undo your work."
+  },
+  {
+   "n": 130,
+   "scene": "Noor crosses out a plan on her card and writes a better one.",
+   "summary": "If a plan fails twice, change the plan, not yourself."
+  },
+  {
+   "n": 131,
+   "scene": "Noor writes a list of what is stopping her on a notepad.",
+   "summary": "When stuck, write down exactly what is stopping you."
+  },
+  {
+   "n": 132,
+   "scene": "Noor circles one line on her notepad that reads: how long will it take?",
+   "summary": "Being stuck is often a missing fact, not a lack of will."
+  },
+  {
+   "n": 133,
+   "scene": "Noor talks to Kofi at a café table, pointing at her notes.",
+   "summary": "Ask for help when you do not know how to start."
+  },
+  {
+   "n": 134,
+   "scene": "Noor types a short, clear message to Kofi on her laptop.",
+   "summary": "Make your question short, specific and easy to answer."
+  },
+  {
+   "n": 135,
+   "scene": "A small egg timer stands beside a laptop showing search results.",
+   "summary": "Set a short limit for research, then decide with what you have."
+  },
+  {
+   "n": 136,
+   "scene": "Noor moves a sticky note from one section of her plan to another.",
+   "summary": "If one part is stuck, work on another part, and set a time to return."
+  },
+  {
+   "n": 137,
+   "scene": "Noor explains her plan aloud to a small toy duck on her desk.",
+   "summary": "Explain the problem aloud to a friend or a toy; it often helps."
+  },
+  {
+   "n": 138,
+   "scene": "Noor writes a timeline on paper with the word assumption beside two dates.",
+   "summary": "Decide with imperfect information, and note your assumptions."
+  },
+  {
+   "n": 139,
+   "scene": "Noor reads her printed proposal aloud and marks small errors in pencil.",
+   "summary": "Do a last check from a short list before you finish."
+  },
+  {
+   "n": 140,
+   "scene": "Noor presses send on an email to Elena Rossi, her eyes closed.",
+   "summary": "Noor sends the proposal; the fear is loud, then it fades."
+  },
+  {
+   "n": 141,
+   "scene": "Noor looks confused as she switches between a spreadsheet and a chat window.",
+   "summary": "Switching between tasks costs time and attention."
+  },
+  {
+   "n": 142,
+   "scene": "Noor turns from her laptop to a ringing phone, pen held in mid-air.",
+   "summary": "Studies suggest people are slower and make more mistakes right after switching."
+  },
+  {
+   "n": 143,
+   "scene": "A clock on the wall has three times circled in pen.",
+   "summary": "Check email at set times, not all day long."
+  },
+  {
+   "n": 144,
+   "scene": "A simple four-box grid on paper with notes in each box.",
+   "summary": "Urgent and important are different; protect the important."
+  },
+  {
+   "n": 145,
+   "scene": "Noor sorts her week's tasks into a four-box grid with coloured pens.",
+   "summary": "Noor finds that most of her week is urgent but not important."
+  },
+  {
+   "n": 146,
+   "scene": "Noor crosses a low-value meeting off her calendar with a pen.",
+   "summary": "Say no to low-value requests to protect time for the hard task."
+  },
+  {
+   "n": 147,
+   "scene": "Noor types a polite reply on her laptop, her smile calm and firm.",
+   "summary": "Say no kindly, and offer a later time if you can."
+  },
+  {
+   "n": 148,
+   "scene": "Noor sits near her laptop, a closed inbox on the screen.",
+   "summary": "While waiting for news, decide when you will check, then let go."
+  },
+  {
+   "n": 149,
+   "scene": "A colleague stands at Noor's door while she writes a note.",
+   "summary": "When interrupted, say you will come back, and write where you stopped."
+  },
+  {
+   "n": 150,
+   "scene": "Noor types a calendar event called Hard task, blocked all morning.",
+   "summary": "Block your hard-task time in your calendar like an appointment."
+  },
+  {
+   "n": 151,
+   "scene": "Noor walks along a path beside a park at lunchtime.",
+   "summary": "Take breaks; a short walk restores attention."
+  },
+  {
+   "n": 152,
+   "scene": "Noor closes her laptop at six as a lamp glows beside it.",
+   "summary": "Stop work at a set time, and write tomorrow's task first."
+  },
+  {
+   "n": 153,
+   "scene": "Noor lies in a hammock reading a book in the evening.",
+   "summary": "Do not use this idea to overwork; rest and limits matter."
+  },
+  {
+   "n": 154,
+   "scene": "Noor sits on a sofa wrapped in a blanket, holding a tissue.",
+   "summary": "On a bad day, do a smaller piece of the task and be kind to yourself."
+  },
+  {
+   "n": 155,
+   "scene": "A mug of tea and an open window with a quiet bed beside it.",
+   "summary": "When you are really unwell, rest is the task."
+  },
+  {
+   "n": 156,
+   "scene": "Noor writes a kind note to herself and pins it above her desk.",
+   "summary": "A study suggests that forgiving yourself for delay may reduce it next time."
+  },
+  {
+   "n": 157,
+   "scene": "Noor talks into a mirror with a friendly face.",
+   "summary": "Speak to yourself as you would speak to a good friend."
+  },
+  {
+   "n": 158,
+   "scene": "Noor hikes up a green hill with Hana on a bright Saturday.",
+   "summary": "A real day off makes the next week possible."
+  },
+  {
+   "n": 159,
+   "scene": "Noor paints a messy sunset with a small brush at the kitchen table.",
+   "summary": "Keep a hobby that is only for fun."
+  },
+  {
+   "n": 160,
+   "scene": "Noor tidies her desk calmly on an ordinary day.",
+   "summary": "Some days have no big task, and routine days are fine."
+  },
+  {
+   "n": 161,
+   "scene": "Noor crosses the hard task off her list and smiles.",
+   "summary": "Notice the feeling of finishing; a sense of progress feeds motivation."
+  },
+  {
+   "n": 162,
+   "scene": "Two researchers' names appear on the cover of a book Noor holds.",
+   "summary": "Research on work diaries suggests that small wins on meaningful work lift mood."
+  },
+  {
+   "n": 163,
+   "scene": "A notebook lies open with a list of finished tasks.",
+   "summary": "Keep a done list of the hard tasks you finish."
+  },
+  {
+   "n": 164,
+   "scene": "Noor reads her done list on a grey, tired afternoon.",
+   "summary": "On a bad day, the done list is proof that you can do it."
+  },
+  {
+   "n": 165,
+   "scene": "A calendar with tick marks sits beside a coffee cup.",
+   "summary": "Habits form by repetition; it takes weeks or months, and differs by person."
+  },
+  {
+   "n": 166,
+   "scene": "Noor looks at an empty tick box, then picks up a pen.",
+   "summary": "If you miss a day, simply return the next morning."
+  },
+  {
+   "n": 167,
+   "scene": "A long row of ticks has one blank box in the middle.",
+   "summary": "A broken streak is only a missed day, so do not make the streak the goal."
+  },
+  {
+   "n": 168,
+   "scene": "Noor and Hana raise glasses of sparkling water at a small table.",
+   "summary": "Celebrate finished stages, even in a small way."
+  },
+  {
+   "n": 169,
+   "scene": "Noor reads an email from Brightway on her screen with raised eyebrows.",
+   "summary": "Noor receives a short reply: the client will decide in two weeks."
+  },
+  {
+   "n": 170,
+   "scene": "Noor opens a new sticky note and writes a new hard task on it.",
+   "summary": "While she waits, Noor keeps her routine and picks the next hard task."
+  },
+  {
+   "n": 171,
+   "scene": "Noor sits at a table holding her phone, about to make a call.",
+   "summary": "Hard tasks at home include calls, forms and difficult conversations."
+  },
+  {
+   "n": 172,
+   "scene": "Noor writes two lines on a notepad beside her phone.",
+   "summary": "Before a hard call, write the two things you want to say."
+  },
+  {
+   "n": 173,
+   "scene": "Noor talks on the phone at a kitchen table, glancing at her notes.",
+   "summary": "The call is short; the dread was the long part."
+  },
+  {
+   "n": 174,
+   "scene": "Noor fills in one section of a thick form at a kitchen table.",
+   "summary": "Split a form into sections, and do one section a day."
+  },
+  {
+   "n": 175,
+   "scene": "Jonas fills in a tax form at a kitchen table with a calculator.",
+   "summary": "Jonas does his yearly tax form in short daily sessions."
+  },
+  {
+   "n": 176,
+   "scene": "Noor opens a bank statement and a monthly list on her laptop.",
+   "summary": "Look at your money on a fixed date each month, and keep it short."
+  },
+  {
+   "n": 177,
+   "scene": "Noor clicks a button to book a dentist visit on her phone.",
+   "summary": "Book the appointment first; the booking is often the hardest part."
+  },
+  {
+   "n": 178,
+   "scene": "Noor practises a kind sentence aloud before a phone call to her aunt.",
+   "summary": "Plan a difficult talk: choose a calm time and start with something kind."
+  },
+  {
+   "n": 179,
+   "scene": "Noor kneels by a cupboard crowded with cables, boxes and old bags.",
+   "summary": "Give a hated cupboard a short timer, not a whole day."
+  },
+  {
+   "n": 180,
+   "scene": "Noor writes a home job on a note beside her kitchen keys.",
+   "summary": "Put one home task first on Saturday morning, before the fun."
+  },
+  {
+   "n": 181,
+   "scene": "Noor writes one big task at the top of a weekly planner.",
+   "summary": "Choose one hard task for the week, plus one each day."
+  },
+  {
+   "n": 182,
+   "scene": "Noor pins a note with a goal on the wall above her desk.",
+   "summary": "Connect the hard task to a bigger reason and write it down."
+  },
+  {
+   "n": 183,
+   "scene": "Noor writes one sentence on a card while her tea cools.",
+   "summary": "Keep your reason short and honest, and read it when you feel weak."
+  },
+  {
+   "n": 184,
+   "scene": "Noor sits with a notebook and a pen on Friday afternoon.",
+   "summary": "On Friday, review the week: what worked, what did not, one change."
+  },
+  {
+   "n": 185,
+   "scene": "Noor changes one item on her weekly plan and leaves the rest.",
+   "summary": "Change only one thing at a time, so you can see what helps."
+  },
+  {
+   "n": 186,
+   "scene": "Noor reads an email on her phone and gasps with a wide smile.",
+   "summary": "Brightway says yes, and Noor wins the project."
+  },
+  {
+   "n": 187,
+   "scene": "Noor shakes hands with a smiling client in a bright office.",
+   "summary": "Noor meets Elena Rossi, and the work begins."
+  },
+  {
+   "n": 188,
+   "scene": "Noor sits by a window with a notebook and a calm face.",
+   "summary": "Whatever the answer, finishing the proposal was the part Noor controlled."
+  },
+  {
+   "n": 189,
+   "scene": "Noor sticks a fresh note at the top of a clean page.",
+   "summary": "A new project brings new hard tasks, and the same simple routine."
+  },
+  {
+   "n": 190,
+   "scene": "Lucia, Jonas and Noor sit at their own desks in a row.",
+   "summary": "Three people with three kinds of hard task use one simple idea."
+  },
+  {
+   "n": 191,
+   "scene": "Noor holds a yellowed list with one circled line beside a window.",
+   "summary": "Noor finds her first list, and sees how much has changed."
+  },
+  {
+   "n": 192,
+   "scene": "Noor looks at two columns in a notebook headed then and now.",
+   "summary": "What changed was not her talent but the order of her days."
+  },
+  {
+   "n": 193,
+   "scene": "A notebook page lists five short steps in neat handwriting.",
+   "summary": "Recap: choose, define, start small, protect focus, finish and repeat."
+  },
+  {
+   "n": 194,
+   "scene": "Noor sits at her desk at dawn, a timer set, a pen ready.",
+   "summary": "The first minutes are the hardest, so make them small."
+  },
+  {
+   "n": 195,
+   "scene": "Noor frowns at a list while a candle burns beside it.",
+   "summary": "This idea is not magic; check that the hard task is worth doing."
+  },
+  {
+   "n": 196,
+   "scene": "Noor, Lucia and Jonas appear as older figures at three different desks.",
+   "summary": "Over a life the hard tasks change, but the method stays."
+  },
+  {
+   "n": 197,
+   "scene": "A reader's hand holds a pen above a blank list at night.",
+   "summary": "Your turn: look at your list and find the line that makes you hesitate."
+  },
+  {
+   "n": 198,
+   "scene": "A hand writes a clear task and a tiny first step on a card.",
+   "summary": "Write the task with a finish line and a tiny first step."
+  },
+  {
+   "n": 199,
+   "scene": "A tidy desk with an open laptop and a timer sits beside a bed.",
+   "summary": "Set up your desk, put your phone away and go to bed."
+  },
+  {
+   "n": 200,
+   "scene": "A hand writes tomorrow's task on a note beside a lamp at night.",
+   "summary": "Final takeaway: tonight, choose tomorrow's hard task and begin in the morning."
   }
+ ],
+ "levels": {
+  "A1A2": [
+   "Noor has a long list of jobs, and one of them scares her.",
+   "Noor puts a circle around the line she does not want to read.",
+   "She opens the file, sees a blank page, and feels her stomach turn.",
+   "Noor closes the file and feels better, but only for a moment.",
+   "Then she cleans her desk, sorts old bills, and answers many small emails.",
+   "After lunch, Noor says, “I will start soon,” but she does something else.",
+   "At six o'clock, Noor feels tired, but the big job is still waiting.",
+   "At dinner, Noor looks at her phone and thinks about the big job.",
+   "In bed, Noor cannot sleep, because the proposal keeps coming back into her head.",
+   "On the calendar, Noor sees that the deadline is only six weeks away.",
+   "Noor reads that people do not delay because they are lazy.",
+   "Sometimes a job is hard because you do not know where to begin.",
+   "Sometimes a job is simply boring, like Jonas and his thick pile of bills.",
+   "Sometimes we are afraid that other people will not like our work.",
+   "Most of us want a small reward today more than a bigger one later.",
+   "We think the person we will be tomorrow will do the hard job.",
+   "Noor thinks the proposal will take an hour, but it takes much longer.",
+   "A buzzing phone feels more important than a quiet task on your list.",
+   "When Noor blames herself, she feels worse, and she works even less.",
+   "Hana says, “Tomorrow, try doing the scary job before anything else.”",
+   "Noor turns her list over and writes one hard job at the top.",
+   "Early in the day, nobody is asking you for anything yet.",
+   "First does not mean a special hour, it means before the easy jobs.",
+   "The next morning, Noor sits at her desk and opens the proposal first.",
+   "She writes a title and one rough line, and it takes twenty minutes.",
+   "After that, Noor answers her emails and feels much lighter.",
+   "With the hard job started, the whole day feels less heavy.",
+   "The proposal is not finished, but Noor has done the first step.",
+   "Noor tells Hana the news, and Hana sends a big smile.",
+   "Noor writes a rule on a card: hard job first.",
+   "Before bed, Noor writes tomorrow's hard job on a small note.",
+   "At night, you are calm, so you can choose without a fight.",
+   "Pick only one task, the one that matters most.",
+   "Look for the job that will bring the biggest result.",
+   "A loud job is not always a big job.",
+   "Write the task in clear words, so you know when it ends.",
+   "Lucia does not write “study chemistry,” she writes “do ten questions.”",
+   "Put your laptop and notes on your desk before you sleep.",
+   "Choose one hard job for each day, and no more.",
+   "The night plan takes five minutes, and the morning feels easy.",
+   "Make the first step tiny, like opening the file.",
+   "Tell yourself you will work for only two minutes.",
+   "Write down all the things you already know, in short, messy notes.",
+   "Your first sentence can be bad, and that is fine.",
+   "You can begin in the middle, with the easiest part.",
+   "Stop in the middle of a sentence, and write a note.",
+   "The next day, Noor reads her note and starts at once.",
+   "Noor breathes in, drinks her tea, and then opens the file.",
+   "After four days, Noor has four pages, and she feels surprised.",
+   "Even on a slow day, opening the file is a win.",
+   "Put your phone in a drawer and close extra windows.",
+   "Turn off the alerts, because almost every message can wait.",
+   "Noor closes thirty tabs and keeps only the one she needs.",
+   "If your phone is in another room, you will not reach for it.",
+   "Keep only a laptop, a notebook, and a cup on your desk.",
+   "A dull job feels better with music and a nice place.",
+   "Tell people you will answer later, and close your door.",
+   "Noor writes, “I will answer all messages after ten o'clock.”",
+   "When a new idea comes, write it down and go back to work.",
+   "If home is too noisy, Noor works at a quiet library table.",
+   "Set a timer for twenty-five minutes and start working.",
+   "Some people use a timer shaped like a tomato.",
+   "If you have a short time, you work with more focus.",
+   "The first five minutes are hard, then it gets easier.",
+   "When the timer rings, Noor stops and stretches her arms.",
+   "During a break, Noor drinks water and looks out the window.",
+   "After four blocks of work, Noor takes a longer rest.",
+   "Try ten, twenty-five, or fifty minutes, and keep what works.",
+   "On a hard day, Noor sets her timer for only ten minutes.",
+   "Noor makes a mark on a card after each finished block.",
+   "Do not wait to feel ready, just begin.",
+   "Often you feel like working only after you start.",
+   "Lucia studies chemistry first, because it is her hardest subject.",
+   "Before, Lucia always studied the easy subjects first and left chemistry.",
+   "Now Lucia does chemistry in the morning and history after lunch.",
+   "When Lucia makes a mistake, she learns what to study next.",
+   "Lucia says each answer aloud, and she finds what she does not know.",
+   "On exam day, Lucia is nervous, but she feels ready.",
+   "Lucia's mark is a little higher, and she is less stressed.",
+   "Noor and Lucia talk about their notebooks, and they agree: test it yourself.",
+   "Everyone is different, so notice the times when you work best.",
+   "For one week, Noor writes how well she works each hour.",
+   "Some people work best in the morning, others at night.",
+   "Noor sees that her best hours are between eight and eleven.",
+   "Noor does the hard job in the morning and emails after lunch.",
+   "If you sleep well, your mind works better the next day.",
+   "Noor eats breakfast and drinks water, so her mind feels clear.",
+   "Hana likes the night, so her hard job starts at ten.",
+   "If your mornings are busy, use the first quiet time you have.",
+   "After two weeks, Noor looks at her chart and changes her plan.",
+   "Jonas owns a small bakery, and he hates paperwork and bills.",
+   "He puts the bills in a drawer, until a letter comes.",
+   "The paperwork is not hard, but it is boring, and the numbers worry him.",
+   "Now Jonas puts the bread in the oven and sits down with the bills.",
+   "He has three trays: one to pay, one to file, one to ask.",
+   "After a week, the big pile of bills is gone.",
+   "Jonas finds that a company took his money twice, and he gets it back.",
+   "After the paperwork, Jonas eats a warm roll with butter.",
+   "In a busy week, Jonas does only five minutes each morning.",
+   "A dull job gets easier with a time, a tray, and a reward.",
+   "A big job looks like a wall, but it is made of small parts.",
+   "Noor draws boxes on paper, and each box is one part of the job.",
+   "Each part has its own finish line, like one page or one list.",
+   "Noor asks herself what the very next step is, and writes it down.",
+   "Noor starts with the hardest part, which is the price.",
+   "Plans take longer than we think, so Noor adds extra time.",
+   "Noor puts each part on her calendar, like a meeting.",
+   "When Noor ticks a box, she feels that the work is moving.",
+   "If a part is still too big, cut it into smaller parts.",
+   "Noor finishes the price part, and now the rest feels possible.",
+   "Write a rough first version, and let it be bad.",
+   "Writing and fixing are two jobs, so do not do them together.",
+   "If you miss a fact, write “fill in later,” and keep going.",
+   "Perfect is slow, so finish a good version first.",
+   "Sometimes Noor wants things perfect because she is afraid.",
+   "Noor shows her rough work to a friend named Hana.",
+   "Noor asks Hana, “Is the price clear to you?”",
+   "Hana's words are about the page, not about Noor.",
+   "Noor sets a timer for editing, and she stops when it rings.",
+   "Now Noor has a rough draft of all six parts.",
+   "Write a plan: when it is eight, I open the file.",
+   "Some studies show that plans like this help people do hard jobs.",
+   "Noor writes, “If my phone buzzes, I turn it face down.”",
+   "Noor also writes, “If I want to stop, I write one more sentence.”",
+   "Noor and Hana send each other a message every morning.",
+   "Noor turns on a tool that blocks her favourite websites.",
+   "Some people work better with a friend in the same room.",
+   "After the hard job, Noor enjoys a cup of coffee.",
+   "A good reward is small and quick, like a biscuit or a walk.",
+   "If a plan does not work twice, change the plan.",
+   "If you are stuck, write down what is stopping you.",
+   "Noor sees that she is not lazy, she just needs one fact.",
+   "When you do not know how, ask someone for help.",
+   "Noor writes a short, clear question to her friend Kofi.",
+   "Noor looks for the answer for ten minutes, then she decides.",
+   "If one part is stuck, Noor works on a different part.",
+   "Noor explains her plan aloud to a small toy duck.",
+   "Noor makes a choice, and she writes down what she does not know.",
+   "Noor reads the whole proposal aloud and fixes small mistakes.",
+   "Noor presses send, and her email goes to Elena Rossi.",
+   "Doing two things at once makes both jobs worse.",
+   "After a call or a message, it takes time to focus again.",
+   "Noor reads her email at ten, one, and four, and not in between.",
+   "Some jobs are urgent, some are important, and they are not the same.",
+   "Noor sees that most of her week is urgent but not important.",
+   "Noor says no to a small meeting to keep her time.",
+   "Noor says no politely, and she offers a time next month.",
+   "While she waits for news, Noor checks her inbox only twice a day.",
+   "When someone interrupts, Noor says, “Give me ten minutes,” and writes a note.",
+   "Noor puts her hard job in her calendar, like a meeting.",
+   "After a long time at work, take a short walk.",
+   "At six, Noor stops work, and writes down tomorrow's hard job.",
+   "Working hard is good, but you also need rest.",
+   "On a bad day, do a smaller part of the task.",
+   "If you are really ill, your job is to rest.",
+   "A study says that being kind to yourself helps next time.",
+   "Talk to yourself like you talk to a good friend.",
+   "On Saturday, Noor and Hana walk up a green hill.",
+   "Noor has a hobby for fun: she paints sunsets.",
+   "Some days have no big task, and that is fine.",
+   "Noor finishes the hard job and feels proud of herself.",
+   "A small win in work you care about makes you feel good.",
+   "Keep a list of the hard jobs you finished.",
+   "On a bad day, read your list and remember what you can do.",
+   "If you do it every day, it becomes a habit.",
+   "If you miss a day, start again the next day.",
+   "One missed day is not a disaster, so do not give up.",
+   "Noor and Hana drink sparkling water to celebrate a finished job.",
+   "Brightway writes to Noor, and the answer will take two weeks.",
+   "While she waits, Noor chooses her next hard job.",
+   "Hard jobs at home are phone calls and forms.",
+   "Before the call, Noor writes down two things she wants to say.",
+   "The call takes four minutes, but the fear took a week.",
+   "Noor fills in one part of the form each day.",
+   "Jonas does a little of his tax form each day.",
+   "Once a month, Noor looks at her money for twenty minutes.",
+   "Noor books the dentist first, and then she feels lighter.",
+   "Before a difficult talk, Noor says her first kind sentence aloud.",
+   "Noor sets a timer for twenty minutes and cleans the cupboard.",
+   "On Saturday morning, Noor does one home job before the fun.",
+   "On Sunday, Noor picks one hard job for the week.",
+   "Noor writes why the job matters, and she pins it up.",
+   "Her reason is short: I want work that I am proud of.",
+   "On Friday, Noor looks back at her week and asks what worked.",
+   "She changes only one thing, so she can see what helps.",
+   "One morning, Brightway writes to Noor, and the answer is yes.",
+   "Noor meets Elena Rossi, and they shake hands in a bright office.",
+   "Even if the answer was no, Noor did her part.",
+   "A new project means a new hard job at the top of the list.",
+   "Lucia, Jonas, and Noor have different jobs, but they use one idea.",
+   "Noor finds her first list, and she is surprised by how much has changed.",
+   "Noor is not smarter now, but she does things in a better order.",
+   "Choose the job, make it clear, start small, work without distractions, then rest.",
+   "The first minutes are the hardest, so make them very small.",
+   "This idea is not magic, so check that the hard job is worth doing.",
+   "In the future, the hard jobs will change, but this idea will still help.",
+   "Now it is your turn: which job on your list makes you nervous?",
+   "Write the job with a finish line, and write one tiny first step.",
+   "Put your phone away, set your desk, and then go to bed.",
+   "Tonight, write down tomorrow's hard job, and start in the morning."
+  ],
+  "B1B2": [
+   "Noor is a freelance designer, and every morning she writes a long list of jobs. One line on that list makes her stomach tighten: the proposal for Brightway, a big new client.",
+   "Look at your own list, and you will probably find a line like that too. The job you keep avoiding is often the one that matters most.",
+   "Noor opens the proposal file and sees nothing but a blank page. Within a minute she has closed it again, and she tells herself she will come back later.",
+   "The moment the file is shut, Noor feels a small wave of relief. However, the relief does not last, because the deadline is still coming closer.",
+   "Instead of writing, Noor sorts her receipts, answers emails and tidies her desk. Each small job is finished quickly, so she feels busy and useful, even though the important work has not moved.",
+   "At lunch Noor says to herself, “After I eat, I will start.” Then she remembers a font she wanted to download, and the afternoon begins to slip away.",
+   "By six o'clock the receipts are sorted and the inbox is almost empty. Yet the proposal is exactly where it was this morning, and Noor knows it.",
+   "Noor eats dinner with her phone beside her plate, but she cannot enjoy the food. The unfinished proposal sits in her mind like an unwelcome guest at the table.",
+   "Late at night Noor lies in bed and watches the shadows on the ceiling. The dread is louder in the dark, and every hour of sleep she loses makes tomorrow harder.",
+   "On the wall calendar, a date is circled in red, and it is only six weeks away. Noor counts the weeks on her fingers, and for the first time she is truly worried.",
+   "Noor reads an article that says delay is not really about laziness. It is a way of escaping a bad feeling, and the relief is what teaches us to do it again.",
+   "Some tasks feel unclear, because we do not know what to include or where to start. When the first step is hidden, the mind chooses to look at something easier.",
+   "Other tasks are simply boring, with nothing in them to enjoy. Jonas, a baker, will happily bake at four in the morning, yet a pile of paper bills makes him want to go for a walk.",
+   "Some tasks feel risky, because other people will see the result and may not like it. Noor's cursor hovers over the send button, and the fear of being judged makes her hands feel heavy.",
+   "Researchers talk about something called present bias, which is our habit of choosing a small reward now over a bigger one later. A slice of cake tonight can beat a healthy plan for next month, and a free evening can beat a finished project.",
+   "We also tend to picture our future self as a calm and capable person who will happily do the hard work. Tomorrow we are usually the same tired person as today, so the promise often breaks.",
+   "Noor believed that the proposal would take one quiet afternoon. People have a long habit of guessing too low, and psychologists have given it a name: the planning fallacy.",
+   "One experiment suggested that people often choose small jobs with an urgent deadline over bigger jobs that matter more. A buzzing phone feels like an emergency, while a quiet and important task simply waits.",
+   "When Noor calls herself lazy, she feels ashamed, and shame makes her want to hide from the task even more. Understanding the reasons is much kinder, and it also works better.",
+   "That evening Noor tells her friend Hana the whole story over the phone. Hana laughs gently and says, “Tomorrow morning, try doing the scary job first, before email or anything else.”",
+   "That night Noor takes her list and turns it upside down, so the scariest line sits at the top. The idea is simple: do your hardest important task first, before you do anything else.",
+   "There is a very good reason to start early in the day. In the first hour nobody has asked you for anything yet, so the hard task does not have to fight with other people's demands.",
+   "First does not mean a special hour on the clock. It means first in order, so if you start your day at noon, noon is when the hard task comes.",
+   "At eight the next morning, Noor sits at her desk with a hot cup of tea. Before she opens her email, before she looks at her phone, she opens the proposal.",
+   "Her heart beats a little fast, and she types a title and one rough line that she is not proud of. Twenty minutes later she has a heading, a few notes and a beginning.",
+   "When Noor finally opens her email, she answers her messages with an easy mind. She has done something real today, so the small jobs feel like a pleasant treat instead of a hiding place.",
+   "The strange thing is how the whole day changes. The dark cloud that usually follows her around is thinner, and her shoulders sit lower than they did yesterday.",
+   "Of course, the proposal is nowhere near finished, and it is still hard. Nothing has changed except the order, and for now that is exactly enough.",
+   "At lunchtime Noor sends Hana a message that says, “I opened it, and I wrote for twenty minutes.” Hana replies with a big smile and one small word: “Again.”",
+   "Before bed Noor writes a rule on a card in her neatest handwriting. It says, “The hardest important job goes first,” and she tapes it above her desk where she cannot miss it.",
+   "Every evening, Noor takes a small sticky note and writes tomorrow's hard task on it. She sticks it on her laptop, so it is the first thing she will see.",
+   "If you wait until morning to choose, you will probably argue with yourself for half an hour. At night you are calmer, and the choice takes only a minute.",
+   "Look at your list and ask a simple question: if I finish only one thing tomorrow, which will I be happiest about? The answer to that question is your hard task for the day.",
+   "Do not pick the easiest line, and do not pick the one that makes you feel best right now. Choose the task that will bring the biggest result for your work and your life.",
+   "A loud task is not the same as a heavy one. Ask yourself what would happen in a month if you skipped it, and the heavy tasks will quickly show themselves.",
+   "Noor looks at a line on her list that says, “work on proposal.” That is far too vague, so she rewrites it as, “write the introduction, about five hundred words.”",
+   "A good task has a finish line, so you know when you are done. Lucia changes “study chemistry” into “do ten practice questions about acids,” and suddenly the job feels possible.",
+   "Before she goes to bed, Noor opens her laptop, puts her notes beside it and leaves a clean mug on the desk. In the morning there is nothing left to arrange.",
+   "Some people write a list of five big tasks, and then none of them gets done. Choose one hard task for tomorrow, and treat everything else you finish as a happy bonus.",
+   "The whole evening ritual takes about five minutes, and Noor does it while the kettle boils. Noor sleeps better, because her mind knows that tomorrow has a plan.",
+   "Noor decides that today her only job is to open the proposal and type a title. The first step is so small that it is almost impossible to say no.",
+   "A good trick is to promise yourself just two minutes. The hardest part of any task is crossing the line from not doing it to doing it, and two minutes is a very small line.",
+   "Instead of writing good sentences, Noor writes everything she knows about Brightway in short, messy notes. It is much easier to improve a pile of notes than to stare at nothing.",
+   "Noor types the worst opening sentence she can imagine, and she even laughs a little. Once a bad sentence is on the page, the page is no longer empty, and she can start to fix it.",
+   "There is no rule that says you must begin at the beginning. Noor skips the introduction and writes the section she understands best, and the words come more easily.",
+   "At the end of each session, Noor stops in the middle of a sentence and writes a short note about what comes next. It feels odd to stop when she could keep going, but the note will help tomorrow.",
+   "The next morning Noor opens the file and reads her note: “Next, explain the three design options.” She does not need to think about where to start, because yesterday's Noor has already done it.",
+   "Noor has a tiny ritual that begins every session: one deep breath, a sip of tea and then the file. The habit is so small that it feels silly, but it tells her mind that work is starting.",
+   "After four mornings, Noor has four pages of rough proposal in a pile beside her laptop. None of them is perfect, but together they are more than she wrote in the previous nine days.",
+   "Not every day goes well, and on the fifth morning Noor feels tired and slow. She opens the file, writes two lines and closes it, and she decides that even that counts.",
+   "Before she starts, Noor puts her phone in a drawer and closes every window on her screen except the proposal. Distractions are much easier to remove before you begin than to resist while you work.",
+   "Most notifications feel urgent, yet almost all of them can wait an hour. Noor switches her phone to silent mode, and the small buzzes that used to interrupt her disappear.",
+   "Noor counts thirty tabs open in her browser, including a recipe, three shops and an old video. She closes them all except one, and the screen looks as quiet as a clear sky.",
+   "Habits depend on how easy things are to do. If the phone is in another room, checking it takes effort, but if it lies next to your hand, it takes none.",
+   "Noor clears her desk until only three things remain: her laptop, a notebook and a cup of tea. Every extra object on a desk is a small invitation to do something else.",
+   "A hard task is easier to start when the place feels pleasant. Noor puts on soft music without words and lights a candle, and the desk begins to feel like her own small studio.",
+   "Noor hangs a sign on her door that says, “Working until ten, please knock only for emergencies.” The people in her building are kind, and every one of them respects it.",
+   "Clients often expect fast replies, but few messages need one within an hour. Noor sets an automatic note that says, “I answer all messages after ten o'clock,” and nobody complains.",
+   "Halfway through a session, Noor remembers a gift she has to buy and an email she must send. She writes both on a small notepad and goes back to work, and the thoughts stop nagging her.",
+   "On some days the flat is too tempting, with its dishes and its sofa and its washing machine. On those days Noor takes her laptop to a quiet table at the library and starts there.",
+   "Noor puts a kitchen timer beside her laptop and sets it for twenty-five minutes. Until it rings, she does only one thing: she works on the proposal.",
+   "The idea of working in short blocks comes from the Pomodoro Technique, which a student named Francesco Cirillo invented in the late nineteen eighties. It is named after the tomato-shaped kitchen timer that he used.",
+   "A British writer named Cyril Northcote Parkinson once joked that work expands to fill the time available. Noor finds that a short limit makes her sharper, because she cannot drift for a whole morning.",
+   "The first five minutes are always the hardest, and Noor feels the old urge to check her phone. If she stays in her chair, the feeling usually eases, and soon she is deep in the work.",
+   "When the timer finally rings, Noor is surprised, because the time seems to have gone so fast. She stops mid-sentence, as she has planned, and stretches her arms above her head.",
+   "Breaks work best when they really rest the mind. Noor stands up, drinks a glass of water and looks at the trees outside her window instead of looking at a screen.",
+   "After four blocks, many people take a longer break of fifteen or twenty minutes. If you feel fresh and the work is going well, there is no rule against starting another block.",
+   "Twenty-five minutes is not magic, and some people prefer ten minutes or fifty. Noor tries all three on different days and discovers that she likes blocks of about forty.",
+   "On a heavy day, when everything feels sticky, Noor sets the timer for only ten minutes. A short block that really happens is much better than a long one that never begins.",
+   "At the end of each block, Noor makes a small mark on a card. She counts blocks instead of hours, because the number of blocks is something she can control.",
+   "Noor sits on the sofa under a blanket, waiting for a good idea. An hour passes, and the idea does not arrive, because ideas rarely come to people who are only waiting.",
+   "Many people believe that motivation comes first and action follows. Often it works the other way round: once you begin, a little energy appears, and the feeling of wanting to continue grows.",
+   "Meanwhile, at a table in the university library, a student named Lucia opens her chemistry notes at nine in the morning. Chemistry is her hardest subject, and she has learned to study it first.",
+   "Last year Lucia did exactly the opposite of that, and it did not go well. She spent her best hours on history and languages, which she enjoyed, and she left chemistry until she was too tired to understand it.",
+   "This term Lucia changes her timetable so that chemistry comes in the first slot of every day. History is saved for the afternoon, and she treats it as a small reward.",
+   "When Lucia gets a practice question wrong, she circles it in red and writes a short note beside it. Every mistake tells her exactly what she needs to learn next, so she has stopped being afraid of them.",
+   "After each problem, Lucia explains the answer aloud to an empty chair, as if she were teaching a friend. If she cannot explain a step clearly, she knows she has not understood it yet.",
+   "On the morning of the exam, Lucia still feels nervous, and her hands are a little cold. However, she has done real work every day, and she knows what she knows.",
+   "When the results arrive, Lucia's mark is higher than before, though not perfect. More important to her, the weeks of revision felt calmer than any she can remember.",
+   "Noor meets Lucia at the library, and they compare notebooks over two cups of tea. Their lives are very different, but they agree on one thing: treat every method as an experiment and keep what works for you.",
+   "Not everyone has the same best time of day, so Noor decides to find her own. She opens a notebook and draws a small chart with the hours of the day along the top.",
+   "For one whole week, Noor writes a number from one to five beside each hour to show how well she can focus. By Friday the chart is covered in dark and light squares, and a pattern has begun to appear.",
+   "Scientists use the word chronotype for a person's natural tendency to be an early bird or a night owl. It is partly shaped by biology, and it changes with age, so there is no right or wrong type.",
+   "Noor looks at her chart and circles three hours in green pencil, from eight until eleven. Her mind is clearest in the early morning, and it dips badly in the middle of the afternoon.",
+   "With this knowledge, Noor moves the proposal into her three green hours. Email, receipts and small phone calls go into the dull afternoon, when she could not write well anyway.",
+   "On the nights when Noor sleeps badly, the hard task feels twice as heavy the next morning. She now switches off the light at a sensible hour, because rest is part of the work.",
+   "Noor also notices that she drifts more when she is hungry or thirsty. A simple breakfast and a large glass of water take only five minutes, and they make a surprising difference.",
+   "Hana is a true night owl, and mornings make her grumpy. She starts her hard task at ten, after a slow breakfast, and for her that counts as first.",
+   "Some people have crowded mornings, with children, early shifts or long journeys. If that sounds like you, use the first quiet window that your day allows, even if it is only thirty minutes.",
+   "After two weeks, Noor reads her chart again and moves her work block half an hour earlier. A plan is only a good guess, and it improves each time you look at the evidence.",
+   "Jonas runs the Hearth Street Bakery, and he is happy when his hands are covered in flour. However, the paperwork that comes with a business, the bills and forms and tax papers, fills him with dread.",
+   "For months Jonas pushes the envelopes into a drawer, hoping the problem will go away. Then a letter arrives with a red stamp that says he has paid late, and he has to pay an extra fee as well.",
+   "The paperwork is not difficult, and Jonas knows that very well. It is simply dull, and he is afraid that the numbers will tell him something he does not want to hear.",
+   "Jonas tries the hard-task-first idea in his own way. When the first loaves go into the oven, he sits at a desk and uses the baking time for fifteen minutes of paperwork.",
+   "Instead of one terrible pile, Jonas makes three trays and labels them pay, file and ask. Each paper goes into a tray, and he never has to decide anything difficult in the moment.",
+   "On Monday the pile is as tall as a loaf of bread. By Friday the first tray is empty, the second is neat, and the third holds only two questions for his accountant.",
+   "On Wednesday Jonas sees that a flour supplier has charged him twice for the same delivery. He phones the company, and they agree to return his money, which he could never have found in the drawer.",
+   "When the fifteen minutes are over, Jonas takes a warm roll from the oven and eats it with butter. The small reward makes the paperwork feel like part of the morning ritual instead of a punishment.",
+   "The week before a holiday, the bakery is full of customers from the first minute. Jonas has no time for fifteen minutes, so he does five and keeps the habit alive.",
+   "After a month, the bills are no longer a monster, and the folder beside the till is neat. Jonas has learned that a dull task does not need courage; it needs a time, a place and a small reward.",
+   "Noor now has twenty pages of notes, but they are a mess, and the proposal feels like a wall again. A big project often looks scary only because we see it all at once.",
+   "On a clean sheet, Noor draws six boxes: an introduction, the client's problem, three design options, a timeline, a price and a closing page. Each box is a small job that she can finish on its own.",
+   "She writes a finish line in each box, such as “one page” or “a list of five steps.” A part with a finish line is much easier to start, because you know when you are allowed to stop.",
+   "Noor asks herself, “What is the very next step?” The answer is not “work on the price,” but “find last year's price list,” and that takes about two minutes.",
+   "The price is the part that frightens Noor the most, so she draws a star beside it. Inside a big task, the hardest piece also deserves to be done early, while her energy is high.",
+   "Noor guesses that each part will take about three hours, and then she writes a doubled number beside each guess. A famous saying called Hofstadter's law says that things always take longer than you expect, even when you remember this law.",
+   "She puts each part into her wall calendar as if it were a meeting with a client. A job that has a date and a time is far more likely to happen than a job that only has a wish.",
+   "On a simple checklist, Noor ticks off the first two boxes, and she is delighted by how good it feels. Studies suggest that people often work harder as a goal gets closer, and a visible list makes the progress easy to see.",
+   "The timeline section still scares her, and she keeps finding reasons to skip it. This is a sign that the part is too big, so she cuts it into three smaller boxes and begins with the first.",
+   "On Thursday morning, Noor finishes the price section and throws her arms in the air. The most frightening part of the proposal is done, and the rest suddenly looks possible.",
+   "Noor types as fast as she can, and the sentences come out clumsy and a little crooked. That is exactly the point of a first draft: it only has to exist, because nobody can fix a page that is empty.",
+   "Writing and editing are two different jobs, and they use the mind in different ways. Noor imagines two hats on her desk, and she never wears both hats at the same time.",
+   "When Noor needs a number she does not have, she types “fill in later” and keeps going. Stopping to hunt for one fact would break the flow, and she can find it in the next block.",
+   "Noor has a polished page that she has rewritten four times, and she still cannot decide whether to share it. A good version that is finished is much better than a perfect one that nobody ever sees.",
+   "Sometimes the wish for perfection is really a hidden fear. If the work is never finished, it can never be judged, and that is a comfortable but expensive place to hide.",
+   "Noor shows her rough draft to Hana, who is a kind and honest friend. Sharing something early is much less frightening than sharing something finished, and the feedback arrives while there is still time to use it.",
+   "Noor does not ask Hana a wide question like “What do you think?” Instead she asks one narrow question, which is more likely to bring a useful and honest answer: “Is the price clear to you?”",
+   "Hana says that the third option sounds a little vague, and Noor writes this down without arguing. She reminds herself that the comments are about the draft, and that a draft is meant to be improved.",
+   "For the polish, Noor sets a second timer for forty minutes and reads one printed section with a pencil. When the bell rings, she stops, because a clear deadline protects her from endless tinkering.",
+   "By the end of the week, six rough sections lie across Noor's desk like a patchwork quilt. It is not beautiful, but for the first time it is a real proposal, and it exists.",
+   "Noor takes a card and writes one sentence on it: “If it is eight o'clock, then I open the proposal at my desk.” The plan decides in advance when and where she will begin, so she does not have to decide in the morning.",
+   "Psychologists call plans like this implementation intentions, a term from a researcher named Peter Gollwitzer. Many studies suggest that people who make them follow through more often, although the effect is not the same for every task or every person.",
+   "Noor writes a plan for her biggest distraction: “If my phone buzzes, then I turn it face down and keep working.” The plan removes the argument, because she has already decided what to do.",
+   "She also prepares for the moment when she wants to quit. Her card says, “If I want to stop before the timer rings, then I take one breath and write one more sentence.”",
+   "Noor and Hana agree to send each other one short message every morning, saying what the hard task will be. Neither of them wants to write, “I did nothing,” so the small promise is surprisingly strong.",
+   "Noor turns on a website blocker for the next two hours. In a Greek story, the hero Odysseus asked his crew to tie him to the mast so he could hear a dangerous song safely.",
+   "On Friday Noor and Hana work side by side at a café, each typing on a laptop and saying very little. Some people find that quiet company helps them stay on task, and Noor is one of them.",
+   "When her morning block is over, Noor carries a cup of coffee out onto her sunny balcony. She sits for ten minutes and does nothing useful at all, and she has earned every sip.",
+   "A reward should be small, quick and pleasant, such as a biscuit, a short walk or a song. Noor avoids rewards that could cancel her work, like an hour of scrolling that would eat the rest of the day.",
+   "One morning Noor's plan fails twice, because she forgets the card entirely. She does not blame herself; she moves the card to her laptop screen, where she cannot miss it.",
+   "On the day the timeline section stops her, Noor takes a notepad and writes down every reason she cannot continue. Seeing the problem on paper makes it smaller, and it is harder to fear what you have named.",
+   "The list shows that Noor is not lazy at all, because the real problem is a missing fact. She does not know how long the final designs normally take, and she cannot finish the timeline without that number.",
+   "Noor has never wanted to ask for help, because she thought it would look weak. This time she walks to a café with Kofi, an older designer she knows, and he answers her question in two minutes.",
+   "A good request is short, specific and easy to answer, and Noor follows those rules. She writes, “I plan to send three logo options in week two, is that realistic for a small client?”",
+   "Sometimes the answer is out there, but the search could last all day. Noor sets a timer for ten minutes of research and agrees to decide with whatever she has found when it rings.",
+   "If one part of the project refuses to move, Noor works on a different part for a while. She writes down a time to return, so that the change is a plan and not an escape.",
+   "Noor sits her small toy duck on the desk and explains the whole timeline to it, out loud. Programmers have a long tradition of doing the same, and explaining a problem slowly often shows where the gap is.",
+   "Noor cannot know exactly how a client will respond, but she must still choose dates. She writes a timeline and marks two of the dates with the word “assumption,” so she and Elena can talk about them honestly.",
+   "Before sending, Noor prints the proposal and reads it aloud with a pencil in her hand. She follows a short checklist: names spelled correctly, numbers added up, and every promise realistic.",
+   "Noor puts her cursor over the send button and closes her eyes. Her heart beats loudly for a moment, and then she clicks, and the proposal goes to Elena Rossi at Brightway.",
+   "Noor finds herself jumping between a spreadsheet, a chat window and an email, and she finishes none of them well. Doing two things at once feels clever, but the mind has to pay a small cost each time it switches.",
+   "Psychologists have measured that cost in many careful experiments over the years. People are often slower and make more mistakes right after switching tasks, and a phone call can break a good thought completely.",
+   "Noor decides to read her email at ten, at one and at four. Between those times the inbox is closed, and the world, to her surprise, goes on turning.",
+   "Some tasks are urgent, and some are important, and the two are not the same. A useful tool is a grid with four boxes, often linked to Dwight Eisenhower, who is said to have spoken about this difference.",
+   "Noor sorts a week of tasks into the four boxes with coloured pens. Most of them land in the box for urgent but unimportant things, and she sees how much time that box has been eating.",
+   "A weekly meeting has no purpose that Noor can name, and it takes up every Tuesday morning. She crosses it off her calendar with a pen, and a clear slot of two hours appears.",
+   "Saying no does not have to sound cold or unkind, and Noor learns to do it with care. She writes, “Thank you for asking, but I cannot join this month, and I would be glad to help in March.”",
+   "While Noor waits for an answer from Brightway, she wants to check her inbox every five minutes. She decides to look only twice a day, because waiting is also a task, and watching the screen does not make an answer come sooner.",
+   "When a neighbour stops at her door, Noor says, “Give me ten minutes, and I will come and find you.” Then she writes a short note about where she stopped, so she can pick up again easily.",
+   "Noor creates a calendar event called “Hard task” and blocks the whole of her morning. If someone wants a meeting, the calendar shows that she is already busy, which is true.",
+   "At lunchtime Noor leaves her desk and walks for twenty minutes along a path beside the park. Short breaks help the mind recover, and she comes back with a clearer head than she had before.",
+   "Noor now stops work at six o'clock, and before she closes her laptop she writes tomorrow's hard task on a sticky note. The note lets her mind switch off, because it knows that the plan is safe.",
+   "It would be a mistake to use this idea as an excuse to work all day and all night. Noor spends an evening in her hammock with a novel, because a tired mind does worse work, not better.",
+   "On Wednesday Noor wakes up with a heavy head and a cold coming on. She does not skip the hard task completely; she chooses a small piece of it, writes for twenty minutes and then lets herself rest.",
+   "If you are truly unwell, rest is the right task, and nobody should push through real illness for a proposal. Noor moves her plan back by a day and tells the client what is happening, and the world does not end.",
+   "Researchers once studied students who put off studying for an exam. Those who forgave themselves at first seemed to put off the next exam less, so kindness may help more than harshness.",
+   "Noor catches herself saying, “You are hopeless,” and she stops. She asks what she would tell Hana, and she says it aloud: “You are doing your best, and tomorrow is a new morning.”",
+   "On Saturday Noor and Hana climb a green hill outside the city and spend all day talking. Noor does not touch her laptop, and on Monday she is rested and eager.",
+   "Noor also keeps one hobby that has nothing to do with money or success. She paints messy sunsets at the kitchen table, and she is never planning to sell any of them.",
+   "Some days have no hard task in them, because the big job is waiting for a reply or the week is quiet. On such days Noor tidies her desk, answers messages and enjoys a normal day without feeling guilty.",
+   "When Noor crosses the proposal off her list, she feels a warm rush of pride. She has learned to stop and notice that feeling, because the sense of progress is what gives her energy for the next job.",
+   "Two researchers, Teresa Amabile and Steven Kramer, read the daily diaries of many working people. They found that small steps forward on meaningful work were often linked to a better mood and stronger motivation.",
+   "Noor buys a cheap notebook and writes “Done” on the cover. Each evening she adds the hard task she finished that day, even if it was small.",
+   "On a grey and tired afternoon, Noor reads the done list from the beginning. The long column of finished tasks reminds her that she has done difficult things before, and that she can do them again.",
+   "A habit becomes automatic through repetition, and Noor marks each hard-task morning with a tick on a calendar. In one study of new habits, the average person took about two months to make a habit feel automatic, and the range was wide.",
+   "On the ninth Friday, Noor sleeps late and misses her morning block completely. Instead of giving up, she sees the empty box on her calendar and simply starts again on Monday.",
+   "A long streak of ticks can be motivating, but it can also become a trap. Noor tells herself that a broken streak is only a missed day, and that the next ticks are worth just as much.",
+   "When the last section of a big stage is finished, Noor and Hana raise two glasses of sparkling water at a small table. A little celebration tells the mind that effort leads to something pleasant.",
+   "Two weeks after Noor sent her proposal, an email from Brightway arrives in her inbox. Elena Rossi thanks her and writes that the company will decide within two weeks.",
+   "Noor sighs and is a little disappointed, because she wanted a clear answer at once. Then she opens a sticky note, writes her next hard task on it and goes back to her routine.",
+   "Hard tasks do not stay at the office, because they follow us home. At home there are phone calls to make, forms to complete and conversations that we would rather not have.",
+   "Noor has to phone the gas company about a bill that is far too high. Before she dials, she writes the two things she wants to say on a notepad, and she keeps it beside her.",
+   "The call lasts four minutes, and the person on the other end is polite and helpful. Noor sits for a moment in surprise, because the dread had lasted a week and the real thing was nearly over before it began.",
+   "A thick form for a new passport has been sitting on Noor's shelf for a month. She cuts the work into small sections and fills in one section each morning for six days.",
+   "Jonas does the same thing with his yearly tax form. He sits down for twenty minutes after the first loaves go in, and by the end of the month the form is done.",
+   "Money tasks can feel scary because the numbers might be bad. Noor picks one date each month and spends twenty minutes with her bank statement, and the monthly habit makes the numbers feel familiar.",
+   "For many people, booking a dentist or a check-up is a task they put off for months. The booking is often the hardest part, so Noor does it first thing in the morning and then feels much lighter.",
+   "Noor needs to tell her aunt that she cannot visit this month, and she dreads the conversation. She chooses a calm time, practises a kind first sentence aloud and begins with how much she loves her aunt.",
+   "There is a cupboard in Noor's flat that she never opens, because it is full of cables, boxes and old bags. She sets a timer for twenty minutes, and she finds that this is enough to make real progress.",
+   "Noor decides that Saturday mornings are for one home task before the fun begins. She writes the job on a sticky note on Friday night, and by eleven o'clock she is free for the rest of the weekend.",
+   "On Sunday evening Noor opens her weekly planner and writes one big task at the top of the page. Then she adds one smaller hard task for each day, so every morning already has its first job.",
+   "Noor remembers that hard tasks are easier to face when they connect to something that matters. She writes her reason on a note and pins it above her desk, where she will see it every morning.",
+   "Her reason is only one sentence: “I want to do design work I am proud of, and still have calm evenings.” It is not fancy, but it is true, and on difficult mornings she reads it aloud.",
+   "Every Friday afternoon Noor sits with her notebook and reviews the week. She writes down what worked, what did not and one thing that she will change on Monday.",
+   "Noor has learned to change only one thing at a time. If she changes five things at once, she never knows which of them was helping.",
+   "On a Thursday morning, Noor's phone shows a new email from Brightway, and her heart jumps. Elena Rossi writes that the company loved the proposal and wants to start the project next month.",
+   "A few days later, Noor visits the bright Brightway office and shakes hands with Elena Rossi. They talk about colours and deadlines, and for once Noor does not dread a single minute of it.",
+   "Noor knows that the answer could have been no, and that the habit would still have been worth it. She could not control the client's decision, but she could control finishing the proposal, and that she did.",
+   "The new project quickly brings its own list of hard tasks, and the first one is already circled in pen. Noor does not panic, because she has a routine that begins with a sticky note and a quiet morning.",
+   "Lucia studies chemistry, Jonas does his paperwork and Noor writes her proposals, but they use the same simple idea. Each of them decides on the hard task the night before and does it first.",
+   "Months later, Noor finds her very first list at the back of a drawer, with one line circled in thick pen. She reads it and smiles, because she remembers exactly how that line made her feel.",
+   "Noor writes two columns in her notebook, one for “then” and one for “now.” She sees that she is no more talented than she was before; what has changed is the order of her days.",
+   "If you remember only a few things, remember these five steps. Choose one hard task, make it clear, start small, protect your focus, and then finish, rest and repeat.",
+   "The hardest part of any hard task is the first few minutes, when the old urge to look away is strongest. That is why a tiny start, a short timer and a quiet desk matter so much.",
+   "This idea is not a magic spell, and it will not fix every problem in your life. Make sure that the hard task you choose is worth doing, because doing the wrong thing first is still the wrong thing.",
+   "Years from now, the hard tasks in your life will be different from the ones in this book. You may be starting a business, writing a report or facing a hard conversation, and the same simple method will still be there.",
+   "Now it is your turn, and it is best to do it tonight. Look at your list, and find the line that makes you hesitate, because that line is probably the one that matters.",
+   "Write that task as a clear action, with a finish line, so you know when you are done. Then add one tiny first step, small enough that you cannot say no.",
+   "Put your laptop or your notebook on the desk, with your phone out of sight and a timer within reach. Then switch off the light, knowing that tomorrow already has a plan.",
+   "Tonight, take one small piece of paper and write down tomorrow's hardest important task. In the morning, do it first, and see how the day feels."
+  ],
+  "C1C2": [
+   "Every morning, Noor writes a generous list of jobs, and every morning one item on it seems to glow with a faint menace. It is a proposal for Brightway, a large new client, and it could shape her whole year as a freelance designer. She has not touched it for nine days, and the silence of that unopened file grows louder each morning.",
+   "If you study your own list honestly, you will probably notice the same pattern. The task that makes you hesitate is rarely a trivial one, because the jobs that carry real weight tend to be the ones that ask the most of us. Whatever we dread is often whatever would move our lives forward, and that is exactly why we dread it.",
+   "This morning Noor finally opens the proposal file, and a blank white page stares back at her like a locked door. Her mind goes quiet and slightly dizzy, as though she has been asked a question in a language she does not speak. Within a minute the file is closed again, and she tells herself that she simply needs a better moment.",
+   "The instant the file disappears, a small wave of relief washes over her, as pleasant as putting down a heavy bag. Unfortunately the bag has not gone anywhere, and the deadline keeps creeping closer while she looks the other way. Avoidance is a loan with a cruel rate of interest, and the bill always arrives in the end.",
+   "With the proposal safely out of sight, Noor throws herself into a flurry of small tasks. She sorts receipts, answers a dozen emails and tidies the cables under her desk, and each little job is finished quickly enough to deliver a tiny reward. Being busy feels wonderfully like being productive, which is precisely why it is such a convincing disguise.",
+   "At lunch Noor makes herself a promise: as soon as she has eaten, she will begin. The sandwich disappears, and then a thought arrives that seems perfectly sensible, that she should first find a new font and reply to one more message. By the time she looks up, the best hours of the afternoon have quietly slipped through her fingers.",
+   "When the light outside turns golden, Noor looks at her list and finds that nearly every line has been crossed out except one. She has been working for hours, and she is exhausted, yet the single task that counts has not moved by an inch. It is a strange kind of tiredness, heavy with effort and strangely empty of progress.",
+   "At dinner Noor props her phone against a glass and scrolls through nothing in particular, hoping to be distracted. The food is good, but she tastes very little of it, because the unfinished proposal has followed her to the table like an uninvited guest. This is the hidden price of avoidance: the task does not only steal your work hours, it also spoils your rest.",
+   "In the dark of her bedroom, the worry grows louder, as small fears often do when the world falls silent. Noor rehearses the opening of the proposal in her head, rejects every version and then starts again, which is the most work she has done on it all day. A poor night's sleep is waiting for her, and it will make tomorrow's task harder still.",
+   "Before she turns out the light, Noor glances at the calendar on the wall, where one date is ringed in red ink. There are only six weeks left, and she counts them twice as if the number might change. For the first time she suspects that the problem is not her talent or her schedule, but the order in which she does things.",
+   "Noor is reading an article on her phone, and one idea in it stops her mid-sip. Delay, the writer explains, is rarely about laziness and is far more often an attempt to escape an uncomfortable feeling. Each time we look away, the instant relief teaches the mind to do it again.",
+   "The first of these uncomfortable feelings is pure confusion about where to begin or what to include. A task feels unclear when we cannot see its edges, when we do not know what belongs inside it or which step should come first, and a mind faced with fog will always prefer a clear path somewhere else. Noor has no idea how long her proposal should be or what its opening line ought to say.",
+   "The second uncomfortable feeling, which is far more familiar than the first, is plain boredom. Jonas, who runs a small bakery, will rise at four in the morning without complaint and shape a hundred loaves, yet a heap of grey paper bills defeats him every single time. Nothing about the paperwork is actually difficult, but nothing about it is rewarding or interesting either.",
+   "The third feeling is fear, and it usually arrives wearing a clever disguise of caution and reasonable excuses. A task feels risky when other people will see the result and form an opinion, so that every sentence could become evidence against us. Noor's cursor hovers over the send button of an old email draft, and her stomach tightens as if the cursor were a ledge.",
+   "Psychologists use the term present bias for our habit of favouring a small pleasure now over a larger benefit later. A slice of cake tonight beats a healthier month, and a free evening beats a finished project, even when we know very well which would serve us better. The reward for delay arrives at once, while the cost arrives so quietly that we hardly notice it.",
+   "We also tend to picture our future self as a calmer, braver and more disciplined version of who we are today. Some research suggests that people think of that person almost as a stranger, which makes it easy to hand over the hardest work with a casual promise. Unfortunately, tomorrow we turn out to be exactly the same tired person, with the same dread and a shorter deadline.",
+   "Noor was convinced that the proposal would take a single quiet afternoon, and she has now spent nine days proving herself wrong. Two psychologists, Daniel Kahneman and Amos Tversky, named this habit of guessing too low the planning fallacy, and it catches nearly everyone. A task that has not yet begun always looks smaller than it does from the inside.",
+   "There is another trap, which researchers have called the mere urgency effect, and it works on nearly all of us. In one experiment, people often chose small jobs with a close deadline over larger jobs that offered a better reward, simply because the first kind felt pressing. A buzzing phone behaves like a tiny fire alarm, while an important task lies silent and waits to be noticed.",
+   "When Noor calls herself lazy and undisciplined, she feels a hot wave of shame, and shame makes her want to hide from the task even more. Treating yourself harshly is not a clever form of motivation, because the mind avoids what hurts. Understanding why you delay is far kinder, and it turns out to be far more useful as well.",
+   "That evening Noor tells her friend Hana the whole embarrassing story over the phone. Hana does not scold her; she laughs warmly and describes a small experiment instead. “Tomorrow morning,” she says, “do the scary job first, before email and before anything else, and tell me how it feels.”",
+   "That night, with a slightly mischievous feeling, Noor takes her list and turns it upside down. The scariest line now sits at the very top, where she cannot pretend not to see it. The idea behind the experiment is wonderfully simple: do your hardest important task first, before anything else is allowed to enter the day.",
+   "There is a very sensible reason to start early in the morning, and it has little to do with virtue. In the first hour of the morning nobody has asked you for anything, no messages are waiting to be answered and no small emergencies have yet had time to arrive. A hard task started in that quiet space does not have to compete with the demands of other people.",
+   "Notice that first is a position in the order of your day, not a particular time on the clock. A nurse who finishes a night shift, a baker who rises before the sun and a student who studies after lectures will each have a different hour in which the hardest work comes first. What matters is that the task goes before the easy jobs, which are always ready to leap in.",
+   "At eight the next morning, Noor sits at her desk with a mug of tea and a slightly nervous stomach. She does not open her email, she does not glance at her phone, and she resists the sudden urge to straighten her pencils. Instead she opens the proposal file, and the blank page looks back at her.",
+   "Her heart beats a little faster, and she types a title and a single rough sentence that she would not show to anyone. Then, to her surprise, a second sentence follows, and a heading, and a short list of things she wants to say. Twenty minutes pass without a single glance at her phone, and the proposal is no longer empty.",
+   "When Noor finally opens her inbox, she answers her messages with an unusually light mind. She has done something real today, so the small jobs feel like a pleasant reward instead of a place to hide. The relief she feels is the earned kind, and it is entirely different from the borrowed relief of avoiding the task.",
+   "The most remarkable part of the experiment is how the rest of the day changes around it. The grey cloud that has followed her around for nine days becomes thinner, and her shoulders sit lower and her breathing is easier. A hard task that has been started stops being a threat and becomes simply a piece of work.",
+   "Of course, the proposal is nowhere near finished, and it remains difficult, and Noor is wise enough not to pretend otherwise. Nothing has changed except the order of her day, and a little of her fear. For now, that is exactly enough, and it is far more than she managed in the nine days before.",
+   "At lunchtime Noor sends Hana a message that says, “I opened it, and I wrote for twenty minutes.” Hana, who has been waiting for news all morning, replies with a row of smiling faces and one small word, which is “Again.” It is not a lecture or a demand, but a friendly nudge, and it feels surprisingly good.",
+   "Before bed Noor writes a rule on a card in her neatest handwriting, as if it were a promise to someone she respects. It reads, “The hardest important job goes first,” and she tapes it above her desk where she cannot avoid it. It is only six words, but it will turn out to be the shortest and most useful sentence in her whole working life.",
+   "Every evening, as the light fades, Noor takes a small yellow note and writes tomorrow's hard task on it in large letters. She presses it onto the edge of her laptop, so that it will be the first thing she sees in the morning. It is a tiny habit, yet it works like a letter from a trusted friend who knows what you need.",
+   "If you wait until morning to choose your task, you will probably spend half an hour debating with yourself, and the debate favours the easy options. At night the pressure is gone, the day's noise has settled and the decision takes about a minute. By the time the morning arrives, there is nothing left to decide, only something to do.",
+   "To find your task, ask a plain and slightly uncomfortable question: if I could finish only one thing tomorrow, which would leave me most relieved? The answer is seldom the loudest or the quickest job on your list, and it is rarely the one you would choose to start with. It is the one that quietly carries the most weight in your work and your life.",
+   "Resist the temptation to select the easiest line, or the line that would make you feel best this minute. Noor draws a star beside the task that will bring the biggest result, even though it is the one that makes her stomach flutter. The size of the fear is often a reasonable guide to the size of the reward.",
+   "Loudness and weight are two entirely different qualities, and our tired minds confuse them constantly. A message marked urgent can be trivial, while a silent task can decide the shape of your year. Ask what would happen in a month if you never did it, and the genuinely heavy jobs will step forward on their own.",
+   "Noor looks at a line on her list that reads, “work on proposal,” and recognises at once that it is hopelessly vague. A phrase like that is a doorway with no floor behind it, and the mind refuses to step through. She rewrites it as “write the introduction, about five hundred words,” and the doorway acquires a floor.",
+   "A good task has a visible finish line, so that you can tell when you are done and your effort has somewhere to go. Lucia, a university student, replaces “study chemistry” with “do ten practice questions about acids and bases,” and the dread shrinks to a manageable size. Precision is a form of kindness to the person who will be doing the work.",
+   "Before she goes to bed, Noor opens her laptop to the right file, places her notes beside it and sets a clean mug on the desk. It looks like fussiness, but each small preparation removes one more excuse that tomorrow's tired self might invent. A desk that is already waiting makes starting feel less like a decision and more like a continuation.",
+   "Many people write a list of five big tasks and then achieve none of them, because their attention is scattered across all five. Noor allows herself one hard task per day, and she thinks of everything else that she manages to finish as a pleasant bonus. A single clear target is easier to hit than a crowd of vague ambitions.",
+   "The whole evening ritual takes about five minutes, and Noor does it while the kettle is boiling for her last cup of tea. She falls asleep more easily than she has in weeks, because her mind has been told that tomorrow already has a plan. That peaceful feeling is the first unexpected reward of the whole experiment, and it arrives long before any visible result.",
+   "Noor decides that her only job this morning is to open the proposal and type its title. The first step is so small that it leaves no room for the usual arguments, and so she simply does it. A title is hardly a draft, but it is a flag planted on an empty hillside.",
+   "A useful trick is to promise yourself just two minutes, with full permission to stop afterwards. The most difficult part of nearly any task is crossing the line between not doing it and doing it, and two minutes make that line very thin. Surprisingly often, once the first two minutes have passed, you will find that you want to carry on.",
+   "Rather than trying to write polished sentences, Noor pours out everything she knows about Brightway in short, untidy notes. The page fills with half-ideas, questions and scraps of research, and none of it needs to make sense yet. It is far easier to sculpt a heap of clay than to stare at an empty table.",
+   "Noor types the worst opening sentence she can imagine, and she even laughs a little at how clumsy it is. Once an awkward line sits on the page, the emptiness has been broken, and the work changes from creating to improving. Improving feels like a much smaller and friendlier job than creating, and in truth it very often is.",
+   "Nothing in the world insists that you must begin at the very beginning of a piece of work. Noor skips the introduction, which she has been dreading, and writes the section about her design process, which she understands better than anyone. The words arrive more easily there, and they build a kind of confidence that carries over to the harder parts.",
+   "At the end of each session, Noor deliberately stops in the middle of a sentence and writes a short note about what comes next. It feels slightly absurd to leave the page just when the words are flowing. Yet that unfinished sentence acts as a handle, and tomorrow she will be able to grasp it.",
+   "The following morning Noor opens the file and finds her own note waiting: “Next, explain the three design options and why the second is best.” She does not have to wonder where to begin or what to say, because yesterday's Noor has already done the thinking. Starting, which used to take her an hour of arguing with herself, now takes about ten seconds.",
+   "Every session now opens with a tiny ritual: one deep breath, one sip of tea, and then the file. It may seem silly to give such a small habit a ceremony, but the repetition teaches her mind to recognise the signal. After a few mornings the ritual begins to do some of the work of motivation for her.",
+   "After four mornings, Noor has four pages of rough proposal stacked beside her laptop. None of them is polished, and several are rather messy, yet together they are more than she managed in the previous nine days. Small steps, taken in the right order, add up with a speed that is hard to believe until you see it.",
+   "Not every day goes smoothly, and on the fifth morning Noor feels slow and heavy-headed. She opens the file, writes two honest lines and closes the laptop, and she decides that even this counts as a win. The goal of the tiny start is not to finish but to keep the door from closing.",
+   "Before she begins, Noor places her phone in a drawer and closes every window on her screen except the proposal. It is far easier to remove distractions before the work starts than to resist them one by one while you are trying to think. Willpower is a poor guard, but an empty doorway needs no guard at all.",
+   "Most notifications feel urgent at the moment they appear, yet almost all of them can comfortably wait an hour. Noor switches her phone to silent and turns off the little banners that used to leap across her screen. The silence is strange at first, like a clock that has stopped ticking, and then it becomes a gift.",
+   "Noor counts thirty tabs open in her browser, including a recipe, three online shops, a half-watched video and a news story she never finished. She closes every one except the document she needs, and the screen seems to take a deep breath. A cluttered screen quietly asks your attention to travel in thirty directions at once.",
+   "Behaviour depends heavily on how easy something is to do, and clever people arrange their surroundings accordingly. If the phone sits in another room, checking it requires a walk, but if it lies beside your hand, checking it requires nothing at all. Some studies even suggest that a phone in plain view can weaken focus a little, though the results vary from person to person.",
+   "Noor clears her desk until only three objects remain: her laptop, a notebook and a cup of tea. Each additional item, from a stray letter to a half-read magazine, is a small invitation to wander. A bare desk makes the task itself the most interesting thing in the room, and that is exactly the point.",
+   "A hard task is easier to begin when the setting feels pleasant, so Noor tries to make her work space inviting. She puts on soft music without words and lights a small candle, and the desk starts to feel like a private studio rather than a place of punishment. Whatever helps you settle in without costing too much time or money is worth trying for a week at least.",
+   "Noor hangs a handwritten sign on her door that reads, “Working until ten, please knock only for emergencies.” She expected to feel silly, but the neighbours in her building are kind, and every one of them respects the note. Other people will usually protect your time, once they know that it needs protecting and why.",
+   "Clients may expect quick answers, but very few messages truly need a reply within the hour. Noor sets an automatic response that says, “I answer all messages after ten o'clock,” and braces herself for complaints. None arrives, and she realises that she has been serving a pressure that existed mostly in her own mind.",
+   "Halfway through a session, Noor suddenly remembers a gift she must buy and an invoice she needs to send. Instead of acting on either thought, she writes them on a small notepad beside her laptop and returns to the proposal. The thoughts lose their grip on her attention once they have somewhere safe and written to wait.",
+   "On some days the flat is simply too tempting, with its dishes, its comfortable sofa and its humming washing machine. On those days Noor carries her laptop to a quiet table at the library, where nobody knows her and nothing asks to be cleaned. Changing the place can change the habit, because the old cues are left behind.",
+   "Noor sets a kitchen timer beside her laptop and turns the dial to twenty-five minutes. Until it rings, she will do only one thing, which is to work on the proposal. The ticking sounds old-fashioned and slightly comic, and yet it makes the room feel like a small laboratory for concentration.",
+   "Working in short, timed blocks is the heart of a method called the Pomodoro Technique, which a student named Francesco Cirillo developed in the late nineteen eighties. He borrowed a kitchen timer shaped like a tomato, and the Italian word for tomato gave the method its name. Many people have since found that a clear block of time is far less intimidating than an open-ended afternoon.",
+   "A British writer named Cyril Northcote Parkinson once observed, half in jest, that work expands to fill the time available for it. Noor finds that a short limit makes her sharper, because she can no longer drift pleasantly through an entire morning. A deadline, even a tiny and self-imposed one, tightens the mind like a belt.",
+   "The first five minutes are always the most uncomfortable, and Noor feels the familiar tug towards her phone. If she remains in her chair and keeps typing, however, the discomfort usually eases, and then fades. Soon she is absorbed in the proposal, and the urge to flee has quietly left the room.",
+   "When the timer finally rings, Noor is startled, because the twenty-five minutes seem to have passed in about ten. She stops in the middle of a sentence, exactly as she planned, and stretches her arms towards the ceiling. Stopping on time teaches her mind that these blocks have an end, which makes it easier to begin the next one.",
+   "Breaks work best when they truly rest the mind, and scrolling through news is not rest at all. Noor stands up, drinks a full glass of water and lets her eyes wander over the trees outside her window. A few minutes of movement and distance are enough to make her feel refreshed.",
+   "After four blocks, many people take a longer break of fifteen or twenty minutes, and Noor adopts the habit. She makes a tick on her card after each block and treats the fourth tick as a small celebration. If she feels fresh and the work is flowing, there is no rule against beginning another block straight away.",
+   "Twenty-five minutes is a convenient number and not a magical one, since some people prefer ten minutes and others fifty. Noor experiments for a week and discovers that blocks of about forty suit her best. Treat any advice, including this advice, as a starting point that you are free to adjust.",
+   "On a heavy day, when every task feels as if it were made of glue, Noor sets the timer for a mere ten minutes. It is a modest promise, but a short block that actually happens is worth far more than a grand one that never begins. Very often, the ten minutes quietly become thirty before she has even noticed that the time has gone.",
+   "At the end of each block, Noor makes a small mark on an index card, and by evening the card looks like a tiny fence. She has learned to count blocks rather than hours, because blocks are something she can control, while the quality of her ideas is not. Effort is a promise she can always keep, and results, in her experience, tend to follow in time.",
+   "Noor sits on the sofa with a blanket over her knees, waiting for a good idea to arrive. An hour slips by, and nothing arrives, because inspiration rarely visits people who are simply waiting for it. The feeling of being ready, she begins to suspect, is a guest who comes only after the work has started.",
+   "Many of us assume that motivation comes first and action follows, as if energy were a coin we must find before we can pay for effort. Often the order is reversed: a person begins, a little progress appears, and the desire to continue grows out of the work itself. This is not true for every task or every person, but it is true often enough to be worth testing.",
+   "Meanwhile, at a long wooden table in the university library, a student named Lucia opens her chemistry notes at nine in the morning. Chemistry is her hardest subject, with its crowded formulas and unforgiving arithmetic, and she has learned to face it before anything else. The decision cost her a few uncomfortable weeks, and it has since paid her back many times.",
+   "Last year Lucia did exactly the opposite of that, and the results were not encouraging at all. She spent her freshest hours on history and languages, which she enjoyed, and she left chemistry until the evening, when her mind was too tired to take in anything new. The subject she feared most received the least of her attention, and her fear grew accordingly.",
+   "This term Lucia redesigns her timetable so that chemistry occupies the first slot of every day, from nine until half past ten. History is moved to the afternoon, where it serves as a pleasant reward for the harder work done earlier. The very same hours, arranged in a different order, produce a remarkably different experience for her.",
+   "When Lucia gets a practice question wrong, she circles it in red and writes a short note beside it explaining what went astray. Each mistake, she has realised, is a precise map of what she does not yet understand, and that makes it more useful than a correct answer. She no longer flinches at red ink, because red ink is where the learning happens.",
+   "After finishing each problem, Lucia explains the solution aloud to an empty chair, as if she were teaching a patient friend. Educational researchers generally agree that trying to explain an idea reveals the gaps in your understanding more quickly than rereading does. If she cannot say a step clearly, she knows at once that she has not yet understood it.",
+   "On the morning of the exam, Lucia still feels nervous, and her fingers are cold as she pulls out her pen. Yet she has done honest work on every one of the past forty days, and the knowledge is there when she reaches for it. The nervousness does not vanish, but it stops being the loudest thing in the room.",
+   "When the results arrive, Lucia's mark is higher than last year's, although it is not perfect and she makes no claim that it is. What matters more to her is that the weeks of revision were calmer than any she can remember. She slept better, worried less and did not once spend an evening dreading the next day's study.",
+   "Noor and Lucia meet at the library, where they compare notebooks over two cups of tea and laugh about how alike their habits have become. Their lives and their tasks are entirely different, yet they agree on a sensible conclusion. Treat every method, including this one, as an experiment, and keep whatever works for you.",
+   "Not everyone has the same best time of day, and Noor realises that she has never actually checked her own. She opens a fresh notebook and draws a small chart, with the hours of the day running along the top. It is the first time in years that she has treated her own mind as something worth observing.",
+   "For one whole week, Noor writes a number from one to five beside each hour to show how well she was able to concentrate. By Friday the page is filled with dark and light squares, and a pattern has begun to emerge from the noise. Data, even the humble kind collected with a pencil, has a way of replacing guesses with facts.",
+   "Scientists use the word chronotype to describe a person's natural leaning towards early mornings or late nights, the familiar difference between larks and owls. It is shaped partly by biology and partly by age, since teenagers often drift later than older adults. Neither type is better, and what matters is that you learn which one you are.",
+   "Noor studies her chart and circles three hours in green pencil, from eight until eleven. Her mind is clearest in the early morning, and it dips badly in the middle of the afternoon, when even a simple email feels like a mountain. Seeing the numbers explains a great many mornings that she once put down to bad luck.",
+   "With this knowledge, Noor moves the proposal into her three green hours and promises it a place at the front of every day. Emails, receipts and small phone calls are sent to the afternoon slump, where they can be done at half power without any harm. In this way the best of her attention goes to the work that deserves it most.",
+   "On the nights when Noor sleeps badly, the hard task feels twice as heavy the next morning, and she has begun to notice the link. Sleep is not a luxury that competes with productivity, because a tired mind struggles most with exactly the demanding work that matters. She now switches off her lamp at a sensible hour and treats rest as part of the job.",
+   "Noor also observes that she drifts more easily when she is hungry or thirsty, and that her best mornings follow a proper breakfast. She is careful not to exaggerate, since bodies differ and the evidence on food is mixed. Still, a simple meal and a large glass of water take five minutes, and they are cheap experiments worth running.",
+   "Hana, by contrast, is a determined night owl, and mornings make her unusually grumpy. She begins her hard task at ten, after a slow breakfast and a long stretch, and for her that is exactly what first means. The principle belongs to the order of the day, and the hour is yours to choose.",
+   "Some people have crowded mornings, filled with children, early shifts and long journeys on slow trains. If that describes your life, use the first quiet window that your day allows, even if it lasts only thirty minutes. A small piece of the hard task, done early, still beats a perfect plan that never finds a place.",
+   "After two weeks, Noor reads her chart again and moves her work block half an hour earlier, because the first half hour of the morning turned out to be a pleasant surprise. She also adds a note to remind herself that bad nights will always produce weaker mornings. A plan is only a good guess, and it improves each time you check it against the evidence.",
+   "Jonas runs the Hearth Street Bakery, and he is happiest when his arms are dusted with flour and the shop smells of warm bread. The paperwork that comes with owning a business, the bills, the forms and the endless tax papers, fills him with a dread he cannot quite explain. He would cheerfully bake for twelve hours rather than answer a single official letter.",
+   "For months Jonas pushes the envelopes into a kitchen drawer, as though a closed drawer were a closed problem. Then a letter arrives with a red stamp on it, telling him that a payment is late and that an extra fee has been added. The drawer, it turns out, was never a safe; it was a slow clock.",
+   "The paperwork itself is not complicated, and Jonas knows that perfectly well, which makes his avoidance more embarrassing. It is simply dull, and beneath the dullness lies a quiet fear that the numbers will announce something he would rather not know. Avoiding bad news feels like protection, although it is really just a way of letting the news grow.",
+   "Jonas decides to test the hard-task-first idea in his own way and on his own schedule. As soon as the first loaves slide into the oven, he sits down at a small desk and spends fifteen minutes on paperwork while the bread bakes. The oven becomes his timer, and the warm smell of baking becomes his gentle and constant encouragement.",
+   "Instead of one terrible heap, Jonas creates three trays and labels them pay, file and ask. Each paper is placed in a tray without thought, so that he is never forced to make a difficult decision while he is feeling discouraged. Sorting is a gentle way to begin, and it quietly turns a mountain into three hills.",
+   "On Monday morning the pile is as tall as a large loaf of rye bread. By Friday the first tray is empty, the second is neat, and the third contains only two questions for his accountant. The shrinking of the pile gives him a quiet satisfaction, as if the shop were breathing out.",
+   "On Wednesday, Jonas notices that a flour supplier has charged him twice for the same delivery. He telephones the company with a slightly shaky voice, and they cheerfully agree to repay the money, which he would never have found while the envelope lay in the drawer. Looking at the truth, however uncomfortable it may be, turns out to be cheaper than hiding from it.",
+   "When the fifteen minutes are over, Jonas takes a warm roll from the oven and eats it with a thick layer of butter. This small reward changes the feeling of the whole exercise, so that the paperwork becomes part of a pleasant morning ritual rather than a punishment. The brain remembers the roll, and it begins to look forward to the desk.",
+   "The week before a holiday, the bakery is crowded from the first minute, and Jonas has no time for fifteen minutes of anything. He does five, standing up beside the till, and he counts that as a success because the habit remains alive. A tiny version of a good routine is worth far more than a perfect version that disappears.",
+   "After a month, the bills are no longer a monster, and a neat folder sits on the shelf beside the till. Jonas has learned that a dull task does not demand courage or inspiration; it asks for a time, a place and a small reward. Anyone who has ever dreaded a pile of papers will recognise how much lighter that makes the load.",
+   "Noor now has twenty pages of notes scattered across her desk and her screen, and the proposal looks like a wall once more. A large project is often frightening only because we see it all at once, with every sentence still unwritten and every decision still open. Looked at from the right distance, a wall is simply a great many bricks.",
+   "On a clean sheet of paper, Noor draws six boxes: an introduction, the client's problem, three design options, a timeline, a price and a closing page. Each box is a modest job that she can complete on its own, and none of them is the proposal. The proposal exists only as a single word that stands for all six of them together.",
+   "In every box she writes a finish line, such as “one page” or “a list of five steps.” A part with a clear boundary is much easier to start, because you know exactly when you are allowed to stop. Without a finish line, even a small task can feel like an endless road.",
+   "Noor asks herself what the very next step might be, and the answer is not “work on the price” but “find last year's price list,” which takes about two minutes. The most useful next step is always a small physical action, something your hands can begin before your doubts have woken up. She writes it on a yellow note and sticks it to her screen, where it waits like a polite invitation.",
+   "The price is the part that frightens Noor the most, so she draws a bold star beside it. Inside a big task, the hardest piece deserves to be done early, while her energy is high and her courage has not yet been spent. Leaving it until the end would only give the dread another week to grow.",
+   "Noor estimates that each part will take about three hours, and then she writes a doubled number beside every guess. A well-known saying called Hofstadter's law claims that things always take longer than you expect, even when you remember the law, and she has no wish to test it. The extra time acts like a cushion, and it turns surprises from disasters into inconveniences.",
+   "She enters each part into her wall calendar as if it were a meeting with an important client. A job that has a date and a time is far more likely to happen than a job that merely has a wish, because the calendar quietly asks you what else you were planning to do. By the evening, the next two weeks have a clear shape, and Noor feels oddly calm about all of them.",
+   "On a simple checklist, Noor ticks the first two boxes, and she is startled by how satisfying the little marks feel. Research on motivation suggests that people often work harder as they see a goal getting closer, although the effect is not the same for everyone. A visible list makes progress easy to see, and what we can see we tend to keep doing.",
+   "The timeline section still alarms her, and she catches herself inventing reasons to skip it. This is a reliable sign that the part is too large, so she cuts it into three smaller boxes: the dates, the people and the risks. She begins with the dates, and within an hour the scary section has become three ordinary jobs.",
+   "On Thursday morning, Noor finishes the price section, and she throws both arms into the air like a runner crossing a line. The most frightening part of the proposal has been defeated by a few hours of careful, ordinary work. What remains still needs effort and care, but it no longer feels like a cliff that she must climb alone.",
+   "Noor types as fast as her fingers can move, and the sentences emerge clumsy, crooked and slightly over-excited. That is exactly the purpose of a first draft: it needs only to exist, because nobody can improve a blank page. The most valuable quality of a rough draft is simply that it is there, ready and waiting to be improved.",
+   "Writing and editing are two separate jobs, and they ask the mind to behave in opposite ways, one generous and the other critical. Noor imagines two hats on her desk, and she makes a rule never to wear both at the same moment. When the critic interrupts the writer, the writer usually goes quiet and stays that way.",
+   "Whenever Noor needs a number or a name that she does not have, she types “fill in later” and carries on. Stopping to hunt for a single fact would break her concentration, and she can easily collect all the gaps in one tidy block afterwards. The flow of a draft is fragile, and protecting it is worth a few ugly brackets.",
+   "Noor has a polished page that she has rewritten four times, and she still cannot decide whether it is ready to share. Each pass makes it slightly smoother and slightly more lifeless, and the date of sending retreats like a mirage. A good version that is finished beats a perfect version that no one ever reads.",
+   "Sometimes the wish for perfection is nothing more than a fear that has dressed itself in good clothes. If the work is never finished, it can never be judged, and that is a comfortable but costly place to hide. Noor recognises the pattern with a small, rueful smile, because she has used it for years.",
+   "Noor shows her rough draft to Hana, who is both kind and honest, which is the best combination in a reader. Sharing something early is less frightening than sharing something finished, because there is still time to change it, and the feedback arrives while it can do some good. Choosing the right person matters, since a careless reader can turn a small fear into a large one.",
+   "Noor does not ask Hana a wide question such as “What do you think?” Instead she asks one narrow question, which is far more likely to bring a specific, useful and rather surprising answer: “Is the price clear to you?” A narrow question is a flashlight, while a wide one is only a gesture at the dark.",
+   "Hana says that the third design option sounds a little vague, and Noor writes this down without arguing or explaining. She reminds herself that the comments are about the draft and not about her, and that a draft exists in order to be improved. The sting passes within a minute, and the note remains useful for a week.",
+   "For the polishing, Noor sets a second timer for forty minutes and reads one printed section at a time with a pencil in her hand. When the bell rings, she stops, because a clear deadline protects her from the endless tinkering that perfectionism loves. Done is a perfectly legitimate state, she has decided, and she has begun to enjoy living in it.",
+   "By the end of the week, six rough sections lie across Noor's desk like the pieces of a patchwork quilt. The seams are visible and several of the colours clash, but for the first time it is a real proposal, and it exists in the world. A month ago she could not open the file, and now she is holding the whole thing in her hands.",
+   "Noor takes an index card and writes a single sentence on it: “If it is eight o'clock, then I open the proposal at my desk.” The plan settles in advance when and where she will begin, so that the morning no longer contains a debate. A decision made calmly the night before has a great advantage over one made reluctantly at the last minute.",
+   "Psychologists call plans of this kind implementation intentions, a term connected with the researcher Peter Gollwitzer. Many studies suggest that people who make a specific if-then plan are more likely to follow through, although the benefit varies with the task and the person. It is not a spell, but it is a cheap tool that is well worth trying.",
+   "Noor writes a plan for her biggest distraction: “If my phone buzzes, then I turn it face down and keep working.” The plan removes the argument in advance, because the decision has already been made by a calmer version of herself. When the moment finally arrives, she does not need any heroic strength, only a good memory for her own plan.",
+   "She also prepares for the moment that every worker knows, when the urge to stop arrives long before the work does. Her card reads, “If I want to quit before the timer rings, then I take one breath and write one more sentence.” Often one more sentence is all that is needed to pass through the narrow part of the road.",
+   "Noor and Hana agree to send each other one short message every morning, announcing the hard task of the day. Neither of them wants to write, “I did nothing,” and so a small, friendly promise has a surprising grip. Telling another person about your plan converts a private wish into something that feels slightly more real.",
+   "Noor also turns on a website blocker for the next two hours, which locks away her favourite distractions. In an ancient Greek story, the hero Odysseus asked his crew to tie him to the mast of the ship so that he could hear a dangerous song without steering towards it. Making the tempting option difficult in advance is a clever way of helping your future self.",
+   "On Friday Noor and Hana work side by side at a café, each typing on a laptop and saying almost nothing. Some people find that quiet company helps them stay on task, perhaps because it makes an unspoken promise, and Noor discovers that she is one of them. The quiet hum of someone else's concentration seems to be catching, like a yawn or a tune.",
+   "When her morning block is over, Noor carries a cup of coffee out onto her sunny balcony and sits down with a sigh. For ten minutes she does nothing useful at all, and she has earned every sip. A reward given at once teaches the brain that hard work is followed by something good.",
+   "A reward should be small, quick and pleasant, such as a biscuit, a short walk or a favourite song. Noor learns to avoid rewards that cancel her work, like an hour of scrolling that would swallow the rest of the day. The best prize is one that refreshes you and leaves you eager and ready for the next block.",
+   "One morning Noor's plan fails twice in a row, because she forgets the card completely. She does not accuse herself of weakness; she treats it as a design problem and moves the card onto the front of her laptop screen, where it cannot be missed. A failed plan is usually a clue about the plan, not a verdict on the person.",
+   "On the day the timeline section stops her, Noor takes a notepad and writes down every reason she cannot continue. Seeing the problem in ink makes it smaller, because it is much harder to fear something that has a name and a list of parts. Vague dread feeds on fog, and writing is a way of switching on a lamp.",
+   "The list reveals something unexpected: Noor is not lazy or frightened at all, but missing a single fact. She does not know how long the final designs normally take for a small client, and she cannot finish the timeline without that number. Being stuck, it turns out, is frequently nothing more than a question in disguise, waiting to be asked aloud.",
+   "Noor has always been reluctant to ask for help, partly because she imagined that it would make her look incompetent. This time she walks to a café with Kofi, an older designer she has known for years, and he answers her question in about two minutes. The conversation that she dreaded for an entire week turns out to be shorter than the walk to the café.",
+   "A good request is short, specific and easy to answer, and Noor follows those rules carefully. She writes to Kofi, “I plan to send three logo options in week two, is that a realistic time for a small client?” His thoughtful reply arrives within the hour, because people like to be asked for help in a way that respects their time.",
+   "Sometimes the answer exists, but the search for it could swallow a whole day, and the longer she looks the more convincing every page appears. Noor sets a timer for ten minutes of research and promises herself to decide with whatever she has found when it rings. Limits of this kind turn open-ended hunting into a manageable job with a beginning, a middle and an end.",
+   "If one part of the project refuses to move, Noor works on a different part of it for a while, and she keeps her hand on the plan. She writes down a time to return, so that the change is a deliberate strategy and not a disguised escape. The whole difference between strategy and escape lies in the promise that she will come back to it.",
+   "Noor sits her small toy duck on the desk and explains the entire timeline to it, aloud and in order. Programmers have a long tradition of doing precisely this, and the reason is sound: describing a problem slowly in plain words often reveals the exact point at which your understanding gives out. The duck, of course, never interrupts, never sighs and never offers advice that nobody has asked for.",
+   "Noor cannot know exactly how a client will respond, but she must still choose dates. She writes a timeline and marks two of the dates with the word “assumption,” so that she and Elena can discuss them honestly instead of discovering a surprise later. A decision made with incomplete information can always be revised, whereas a decision never made cannot even be improved.",
+   "Before sending anything, Noor prints the proposal and reads it aloud with a pencil in her hand, catching three typing errors and one confusing sentence. She follows a short checklist: names spelled correctly, numbers adding up, and every promise genuinely achievable. A brief list protects her from the anxious fear that she has forgotten something.",
+   "Noor places her cursor over the send button and closes her eyes, aware of the old fear rising in her chest. Her heart beats loudly for a moment, and then she clicks, and the proposal travels to Elena Rossi at Brightway. When she opens her eyes, the room is exactly as quiet as before, and the worst has happened to nobody.",
+   "Noor finds herself jumping between a spreadsheet, a chat window and an email, and she finishes none of them well. Doing two things at once feels wonderfully efficient, but each switch carries a small price, as the mind has to pick up the thread it has just dropped. The cost is almost invisible in the moment, and yet it is enormous by the end of the evening.",
+   "Psychologists have measured that price in many experiments, and the findings are fairly consistent. People are often slower, and they make more mistakes, directly after switching from one task to another, and a ringing phone can shatter a half-formed idea beyond recovery. Attention, it seems, is something like a pond that takes a while to become still again.",
+   "Noor decides to read her email at ten, at one and at four, and to close her inbox at every other hour. Between those times the messages simply collect, patient and harmless, and the world, to her surprise, goes on turning. A message that is willing to wait for two hours is rarely a message that truly mattered.",
+   "Some tasks are urgent, and some are important, and the two are not always the same. A well-known tool is a grid of four boxes, which is often linked to Dwight Eisenhower, the American president who is said to have spoken about this very difference. The aim is to spend more of your life in the box for important things, even when nobody is shouting about them.",
+   "Noor sorts a whole week of tasks into the four boxes using coloured pens. A shocking number of them land in the box for urgent things that are not important, and she realises how much of her energy that box has been quietly consuming. The important and the non-urgent, her design work and her plans, were being served last.",
+   "A weekly meeting has no purpose that Noor can honestly name, and it occupies every Tuesday morning. She crosses it off her calendar with a firm line of her pen, and a clear two-hour slot appears like a clearing in a forest. Every yes to something small is a quiet no to something that matters more.",
+   "Saying no need not sound cold or selfish, and Noor learns to do it kindly. She writes, “Thank you for asking, but I cannot join this month, and I would be glad to help in March.” Her reply is received with understanding, because most people respect a clear and friendly refusal far more than a reluctant yes.",
+   "While she waits for an answer from Brightway, Noor is tempted to check her inbox every five minutes, as if the message might arrive faster for being watched. She decides to look only twice a day, because waiting is also a kind of task, and staring at a screen does not shorten it. The hours she gets back are quietly spent on the next piece of work, and on a little peace of mind.",
+   "When a neighbour appears at her door in the middle of a morning block, Noor says warmly, “Give me ten minutes, and I will come and find you.” Then she writes a short note about exactly where she stopped, so that picking the thread up again will be easy. The interruption becomes a brief pause in her morning rather than the collapse of an entire working session.",
+   "Noor creates a calendar event called “Hard task” and blocks out the whole of her morning, every weekday. If anyone suggests a meeting at that time, the calendar shows that she is already busy, and that is true. She has learned to treat her best hours as an appointment with her own future.",
+   "At lunchtime Noor leaves her desk and walks for twenty minutes along a path beside the park, watching dogs, prams and the slow change of the light. Short breaks help the mind to recover, and many people find that a walk lets a stuck problem loosen its grip. She returns with a clearer head, and often with the solution to a sentence that has baffled her all morning.",
+   "Noor now ends her work at six o'clock, and before she closes her laptop she writes tomorrow's hard task on a sticky note. This tiny ritual lets her mind switch off, because it knows that the plan is safe and nothing needs to be remembered overnight. The edge of the working day has become a gentle line instead of a blur.",
+   "It would be a mistake to use this idea as an excuse to work all day and half the night. Noor spends an evening in her hammock with a novel, her phone in another room, because a tired mind does worse work, not better. Doing the hardest task first is meant to make your life feel lighter, not heavier or more crowded.",
+   "On Wednesday Noor wakes up with a heavy head and a cold in her throat. She does not abandon the hard task entirely, but she chooses a small piece of it, writes quietly for twenty minutes and then allows herself to rest. A smaller step on a bad day keeps the habit alive without asking for heroism.",
+   "If you are truly unwell, rest is the right task, and nobody should push through a real illness for the sake of a proposal. Noor moves her plan back by a day and tells the client plainly what has happened, and the world does not end. If your symptoms worry you, a doctor is the person to ask, and this book is not a substitute for one.",
+   "Researchers once studied a group of students who put off studying for an important exam. Those who forgave themselves for the first delay appeared to put off studying less for the next exam, which suggests that kindness may be a better helper than harshness. The result is one study among many, but it fits what many people discover for themselves.",
+   "Noor catches herself muttering, “You are hopeless,” and she stops in the middle of the sentence. She asks what she would say to Hana in the same situation, and she says exactly that instead: “You are doing your best, and tomorrow is a fresh morning.” The words feel strange and awkward at first, and then comforting, like a warm coat on a cold morning.",
+   "On Saturday Noor and Hana climb a green hill outside the city and spend the whole day talking, eating sandwiches and arguing about maps. Noor does not touch her laptop once, and on Monday she is rested, cheerful and eager. A real day off is not time stolen from the plan, because the plan depends on it.",
+   "Noor also keeps one hobby that has nothing whatever to do with money or success. She paints messy sunsets at the kitchen table with a small brush, and she has no intention of selling a single one. Having a place where nothing is being measured is a quiet and powerful form of rest.",
+   "Some days contain no hard task, perhaps because the big job is waiting for a reply or because the week happens to be calm. On such days Noor tidies her desk, answers messages and enjoys an ordinary day without a trace of guilt. A method that insists on drama every morning has stopped being a method and become a burden.",
+   "When Noor crosses the proposal off her list, she feels a warm rush of pride that spreads from her chest to her fingertips. She has learned to stop and notice that feeling instead of rushing on, because the sense of progress is exactly what powers the next job. Satisfaction that goes unnoticed is satisfaction wasted, and she has decided not to waste any more of it.",
+   "Two researchers, Teresa Amabile and Steven Kramer, once read the daily diaries of hundreds of people at work. They found that small steps forward on meaningful tasks were often linked with better moods and stronger motivation, and they called this the progress principle. Even a modest win seems to give us fuel, provided that the work matters to us.",
+   "Noor buys an inexpensive notebook and writes “Done” on its cover in thick black letters. Every evening she adds the hard task that she finished that day, even when it was small and even when the day was ordinary. It is a simple record of effort rather than success, and it asks for nothing at all except honesty.",
+   "On a grey, tired afternoon, Noor turns back to the first page of the notebook and reads her list from the beginning. The long column of finished tasks reminds her that she has faced difficult things before, and that she has a history of getting through them. A bad mood can argue with a feeling, but it has a harder time arguing with a page of evidence.",
+   "A habit becomes automatic through repetition, and Noor marks every hard-task morning with a tick on a wall calendar. In one study of new habits, volunteers took about two months on average before a behaviour felt automatic, although the range between people was very wide. Anyone who is told that it takes exactly twenty-one days has been given a number with no solid basis behind it.",
+   "On the ninth Friday, Noor sleeps late and misses her morning block entirely, and a hot wave of disappointment rises in her chest. Instead of giving up, she studies the empty box on her calendar and decides that it does not need any punishment. She begins again on Monday, as if nothing had happened, and in the larger story nothing had.",
+   "A long row of ticks can be motivating, but it can also become a trap if the streak turns into the goal. Noor reminds herself that a broken streak is only a missed day, and that the ticks that follow are worth every bit as much as the ones before. Progress is made of returning to the work again and again, much more than it is made of perfection.",
+   "When the last section of a big stage is finished, Noor and Hana raise two glasses of sparkling water at a small table, and they laugh at the feeble clink. The celebration is modest, but it tells the mind that effort leads to something warm and pleasant. Making a fuss over a finished stage is not vanity, but a way of teaching yourself to continue.",
+   "Two weeks after Noor sent her proposal, an email from Brightway arrives in her inbox with a small ping. Elena Rossi thanks her politely for the work and writes that the company will make its decision within another two weeks. Noor's stomach twists, because she had hoped for an instant answer, and the old urge to hide returns for a moment.",
+   "Noor lets out a long sigh and allows herself to feel disappointed, since pretending not to care would not help. Then she does what she has trained herself to do: she takes a fresh sticky note, writes her next hard task on it and returns to her routine. The waiting will take as long as it takes, and her work does not need to wait with it.",
+   "Hard tasks do not stay politely at the office, and at home they appear as phone calls, forms and conversations that we would much rather skip. The same principles apply, because the feeling of dread is the same wherever it lives. A call to a utility company can be as frightening as a presentation to a board.",
+   "Noor has to phone the gas company about a bill that is far higher than it should be. Before she dials, she writes the two things she wants to say on a notepad, and she places it beside her phone like a small safety rail. Knowing the first sentence in advance removes most of the panic of an open silence.",
+   "The call lasts four minutes, and the person at the other end is polite, patient and quick to help. Noor sits for a moment in astonishment, because the dread had lasted a week and the reality was over almost before it had begun. The anticipation, she realises, was by far the harder task, and the call itself was merely an ordinary conversation.",
+   "A thick form for a new passport has been lying on Noor's shelf for a month, gathering both dust and guilt. She divides it into small sections and fills in one section every morning for six days, and each section is a manageable job. A form is only a staircase of questions that look steep from the bottom.",
+   "Jonas treats his yearly tax return in exactly the same way, with the oven as his timer and a warm roll as his reward. He sits down for twenty minutes after the first loaves go into the oven, and by the end of the month the form is complete and nobody has been shouted at. A job that once filled him with dread has been dissolved into a few quiet mornings.",
+   "Money tasks can feel particularly frightening, because the numbers might turn out to be unwelcome ones. Noor chooses one date each month and spends twenty minutes with her bank statement, and the regular habit makes the figures feel familiar instead of threatening. Looking at the truth, even a disappointing one, is the only way to change it.",
+   "For many people, booking a dentist visit or a routine check-up is a task they postpone for months. The booking itself is often the hardest part, so Noor does it first thing in the morning, before she can begin to argue with herself. By ten o'clock she feels a pleasant lightness, as though she has put down a bag she forgot she was carrying.",
+   "Noor needs to tell her aunt that she cannot visit this month, and she dreads the conversation, because she loves her aunt and hates to disappoint her. She chooses a calm time, practises a kind opening sentence aloud and begins with how much she looks forward to seeing her in spring. The conversation turns out to be gentle, and her aunt is more understanding than Noor had imagined.",
+   "There is a cupboard in Noor's flat that she never opens, because it is stuffed with cables, empty boxes and old bags. She sets a timer for twenty minutes and discovers that it is enough to clear a whole shelf, which is more than she has managed in two years of intending to. A short and fixed block of time makes even a thoroughly hated job much less hateful than it looked.",
+   "Noor decides that Saturday mornings are for one home task before the fun begins. She writes the job on a sticky note on Friday night, and by eleven o'clock she is free to enjoy the rest of the weekend with a clear conscience. The same simple rule, hard first, fits a kitchen table as well as it fits a studio.",
+   "On Sunday evening Noor opens her weekly planner and writes one big task across the top of the page, in letters larger than the rest. Beneath it she adds one smaller hard task for each day, so that every morning of the week already contains its first job. The plan takes ten minutes, and it saves her ten times that in hesitation.",
+   "Noor remembers that hard tasks are easier to face when they connect to something that matters beyond the task itself. She writes her reason on a small card and pins it to the wall above her desk, where it will meet her eyes every morning. A purpose is a kind of weather, and it changes how the same journey feels.",
+   "Her reason is only one sentence long: “I want to do design work I am proud of, and still have calm evenings.” It is not grand or poetic, but it is honest, and on difficult mornings she reads it aloud to the empty room. Keep your own reason short enough to remember, true enough to believe and warm enough to move you.",
+   "Every Friday afternoon Noor sits down with her notebook and holds a small review of the week. She writes down what worked, what did not and one thing she will change on Monday, and she tries to treat the page as a scientist treats a lab record. The aim is curiosity, not judgement, and the result is a plan that improves from week to week.",
+   "Noor has learned to change only one thing at a time, which is a rule that experimenters know well. If she changed five things at once and the week went better, she could never tell which of them was responsible. A single small adjustment each Friday slowly builds a method that fits her working life exactly.",
+   "On a Thursday morning, Noor's phone lights up with a new email from Brightway, and her heart gives a great leap. Elena Rossi writes that the company loved the proposal, especially the second design option, and would like to start the project next month. Noor reads the message three times, and then she laughs out loud in her empty flat.",
+   "A few days later, Noor visits the bright Brightway office, shakes hands with Elena Rossi and sits down at a long table scattered with coloured samples. They talk about brand colours and deadlines, and for once Noor does not dread a single minute of the meeting. The woman who once could not open a file is now explaining her ideas with ease.",
+   "Noor is honest enough to know that the answer could have been no, and that the habit would have been worth it even then. She could not control the client's decision, but she could control finishing the proposal, and that she did. A method like this gives you the part that belongs to you, and no method can promise the part that belongs to someone else.",
+   "The new project soon brings a fresh list of hard tasks, and the first of them is already circled in pen on Noor's planner. She does not panic or procrastinate, because she has a routine that begins with a sticky note, a quiet morning and a ticking timer. Hard things never run out, but her way of meeting them has become dependable.",
+   "Lucia studies chemistry, Jonas battles his paperwork and Noor writes proposals, and their daily lives could hardly be more different. Yet each of them chooses the hard task the night before and does it first, and each of them can describe the same slow shift from dread to calm. The tasks vary endlessly from one person to the next, but the principle behind them travels remarkably well.",
+   "Months later, Noor discovers her very first list at the back of a drawer, with one line circled in thick pen and a small coffee stain in the corner. She reads it slowly and smiles, because she remembers exactly how that single line used to feel. Dread, she sees now, was only a feeling, and feelings change when you act.",
+   "Noor draws two columns in her notebook, one headed “then” and the other “now,” and she fills them in honestly. She is no more talented than she was before, and she is no braver by nature, but the order of her days has changed completely. A modest rearrangement of her mornings has done what years of harsh self-criticism never managed to do.",
+   "If you remember only a few things from this book, let them be these five steps. Choose one hard task, make it clear, start small, protect your focus, and then finish, rest and begin again. Nothing in that list requires genius, only a little repetition and a great deal of patience with yourself.",
+   "The most difficult part of any hard task is the first few minutes, when the old urge to look away is at its strongest. That is why a tiny start, a short timer and a quiet desk matter so much, since each of them makes the doorway a little smaller. Cross that threshold, and the room on the other side is nearly always friendlier than it looked.",
+   "This idea is not a magic spell, and it will not solve every difficulty in your life, so be wary of anyone who claims that it will. Make sure that the task you place first is genuinely worth doing, because doing the wrong thing early is still doing the wrong thing. A method can give you order and a place to begin, but only you can supply the judgement.",
+   "Years from now, the hard tasks in your life will look very different from the ones in these pages, and you may be starting a business, writing a report or preparing for a conversation you cannot yet imagine. The faces and the stakes will change, but the method will be waiting patiently, as simple as ever. It has no expiry date, it needs no special equipment, and it costs nothing more than a pen and a scrap of paper.",
+   "Now it is your turn, and the best time to begin is tonight, while the whole evening is still ahead of you. Look honestly at your own list, and find the line that makes you hesitate, because that line is probably the one that matters most. The part of you that longs to look away is not an adversary, although you are under no obligation to obey it.",
+   "Write that task as a clear action with a finish line, so that you know exactly when you are allowed to stop. Then add one tiny first step, so small that your tired morning self could not possibly refuse it. Together, the finish line and the first step turn an ominous cloud into a short, walkable road.",
+   "Place your laptop or your notebook on the desk, with your phone out of sight and a timer within reach, and let the room do some of the remembering for you. Then switch off the light, knowing that tomorrow already has a plan and that you need not rehearse it in the dark. Rest is the last step of the evening, and the first step of the morning.",
+   "So tonight, before you sleep, take a small piece of paper and write down the hardest task that truly matters for tomorrow. In the morning, do that one first, before the messages, before the easy jobs and before the excuses have had time to stir. Nothing about your life will transform in a single day, yet an entire existence is composed of days exactly like that one."
+  ]
+ }
 }
