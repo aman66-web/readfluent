@@ -510,6 +510,43 @@
   }
  },
  {
+  "slug": "letters-i-never-sent",
+  "title": "Letters I Never Sent",
+  "author": "The Notebook",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "Inside a hidden drawer, furniture restorer Iris finds thirty letters that were written but never sent. To deliver them at last, she must travel to a seaside town, and face the letters she has never sent herself.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Letters I",
+    "Never Sent"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "envelope",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lighthouse",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "every-july",
   "title": "Every July",
   "author": "One Day",
@@ -538,6 +575,44 @@
     },
     {
      "id": "bridge",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-duke-s-convenient-bride",
+  "title": "The Duke's Convenient Bride",
+  "author": "The Duke and I",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "A duke must marry within a year or lose his lands. A clever farmer's daughter needs money to save her family. A contract, a year, three rules. Nobody agreed that it would turn into love.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The Duke's",
+    "Convenient",
+    "Bride"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "crown",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -1056,7 +1131,45 @@
      "s": 0.92
     },
     {
-     "id": "key",
+     "id": "lens",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-cipher-beneath-the-bridge",
+  "title": "The Cipher Beneath the Bridge",
+  "author": "The Da Vinci Code",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "An engineer is hired to condemn a Victorian iron bridge, but beneath it she finds twelve plates of strange letters. With a shy archivist she follows a cipher from the river to a mill and a bell. Someone close to them is whispering to the man who wants the bridge gone.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "The Cipher",
+    "Beneath the",
+    "Bridge"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "bridge",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "scroll",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -1686,6 +1799,44 @@
     },
     {
      "id": "hourglass",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-boy-who-won-the-simulation",
+  "title": "The Boy Who Won the Simulation",
+  "author": "Ender's Game",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "Twelve-year-old Kofi is brilliant at a tide game, so the Tide Academy invites him to train on its great Simulation. He works, learns and wins every test. Then comes the final exam, and nothing about it is what he believes.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "The Boy Who",
+    "Won the",
+    "Simulation"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "anchor",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lens",
      "x": 160,
      "y": 38,
      "s": 0.36
