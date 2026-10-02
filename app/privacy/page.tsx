@@ -1,11 +1,14 @@
+import { PrivacyPolicy } from "@/components/PrivacyPolicy";
 import { PrivacyView } from "@/components/PrivacyView";
 
 export const metadata = { title: "Privacy · ReadFluent" };
 
-/**
- * A placeholder, said plainly. The full policy is written before the app is
- * released (M11, SPEC.md §10); the first screen links here so the link works.
- */
+/** The short, translated note on top (what the app keeps on the device), then the full English policy the stores require. */
 export default function Privacy() {
-  return <PrivacyView />;
+  return (
+    <>
+      <PrivacyView />
+      <PrivacyPolicy />
+    </>
+  );
 }
