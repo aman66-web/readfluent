@@ -54,8 +54,22 @@ export function useGuide(line: string) {
 }
 export type Guide = ReturnType<typeof useGuide>;
 
-/** How many times the reader has tapped something on this screen: Dewey hops and cheers at each. */
-const Taps = createContext(0);
+/** How many times the reader has tapped something on this screen (Dewey hops and cheers at each), and where in the run they are. */
+const Taps = createContext({ taps: 0, at: 0, of: 1 });
+
+/** What Dewey says when the reader answers: the same few words in turn, and one for being nearly done. */
+const CHEERS = ["cheer.1", "cheer.2", "cheer.3", "cheer.4", "cheer.5", "cheer.6"] as const;
+export function cheerFor(taps: number, at: number, of: number): (typeof CHEERS)[number] | "cheer.almost" {
+  if (of >= 6 && at >= of - 3 && taps % 2 === 0) return "cheer.almost";
+  return CHEERS[(Math.max(1, taps) - 1 + at) % CHEERS.length];
+}
+/** The screens where Dewey cheers on his own, as the reader passes the middle and nears the end. */
+export function milestoneFor(at: number, of: number): "cheer.half" | "cheer.almost" | null {
+  if (of < 8) return null;
+  if (at === Math.floor(of / 2)) return "cheer.half";
+  if (at === of - 3) return "cheer.almost";
+  return null;
+}
 
 /** The things on a screen that are answers (not the way back or on): a tap on one of them makes Dewey cheer. */
 const TAPPABLE = "button, [role=radio], [role=checkbox], label, a";
@@ -103,7 +117,7 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
         <span className="size-11 shrink-0" aria-hidden />
       </div>
 
-      <Taps.Provider value={taps}>{children}</Taps.Provider>
+      <Taps.Provider value={{ taps, at, of }}>{children}</Taps.Provider>
 
       {showContinue && (
         <div data-guide-nav className="relative shrink-0">
@@ -121,13 +135,28 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
  */
 export function GuideHead({ guide, line, sub, mood = "hello" }: { guide: Guide; line: string; sub?: string; mood?: Mood }) {
   const t = useT();
-  const taps = useContext(Taps);
+  const { taps, at, of } = useContext(Taps);
+  const milestone = milestoneFor(at, of);
+  const cheer = taps > 0 ? cheerFor(taps, at, of) : milestone;
+  // The bubble is there for a moment (its animation fades it out), then the owl's name comes back.
+  const bubbleKey = `${taps}-${cheer}`;
+  const [gone, setGone] = useState<string | null>(null);
+  useEffect(() => {
+    if (!cheer) return;
+    const id = window.setTimeout(() => setGone(bubbleKey), 2300);
+    return () => window.clearTimeout(id);
+  }, [cheer, bubbleKey]);
+  const showing = cheer !== null && gone !== bubbleKey;
   return (
     <div className="shrink-0">
       <div className="flex items-center gap-3">
         {/* A new element at each tap, so the hop starts again. */}
         <GuideMascot key={taps} mood={mood} talking={guide.talking} cheered={taps > 0} />
-        <p className="ed-serif ob-muted text-[14px] italic">{t("guide.name")}</p>
+        {showing ? (
+          <p key={bubbleKey} role="status" className="cheer-bubble rounded-2xl px-3.5 py-2 text-[15px] font-bold leading-tight">{t(cheer)}</p>
+        ) : (
+          <p className="ed-serif ob-muted text-[14px] italic">{t("guide.name")}</p>
+        )}
       </div>
       <Said line={line} durationMs={guide.totalMs} className="mt-3 text-[29px] font-light leading-[1.12] tracking-[-0.025em]" />
       {sub && (

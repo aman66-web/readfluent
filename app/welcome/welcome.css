@@ -310,7 +310,7 @@
   100% { transform: translateY(0) scale(1, 1) }
 }
 @media (prefers-reduced-motion: reduce) {
-  .go-lex, .go-pop, .go-enter, .go-hop { animation: none; }
+  .go-lex, .go-pop, .go-enter, .go-hop, .cheer-bubble { animation: none; }
   .go-bit { display: none; }
 }
 
@@ -328,3 +328,25 @@
 @keyframes home-a { 0%, 42% { opacity: 1 } 50%, 92% { opacity: 0 } 100% { opacity: 1 } }
 @keyframes home-b { 0%, 42% { opacity: 0 } 50%, 92% { opacity: 1 } 100% { opacity: 0 } }
 @media (prefers-reduced-motion: reduce) { .home-look-a { animation: none; opacity: 1 } .home-look-b { display: none } }
+
+/* Dewey's cheer: a small bubble that pops out beside the owl, then is gone. */
+.cheer-bubble {
+  position: relative;
+  background: var(--accent-bright); color: var(--foreground);
+  animation: cheer-bubble 2.3s cubic-bezier(.3, .8, .3, 1) both;
+  transform-origin: 0 50%;
+}
+.cheer-bubble::before {
+  content: "";
+  position: absolute; inset-inline-start: -5px; top: 50%;
+  width: 11px; height: 11px; margin-top: -5.5px;
+  background: inherit; transform: rotate(45deg);
+  border-radius: 2px;
+}
+@keyframes cheer-bubble {
+  0% { opacity: 0; transform: scale(.4) translateX(-8px); }
+  14% { opacity: 1; transform: scale(1.08) translateX(0); }
+  22% { transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(.9) translateY(-4px); }
+}
