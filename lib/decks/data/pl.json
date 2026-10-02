@@ -1,0 +1,505 @@
+{
+ "lang": "pl",
+ "phrases": [
+  {
+   "t": "Dzień dobry",
+   "en": "Hello / Good day",
+   "ph": "jen DOB-ri"
+  },
+  {
+   "t": "Cześć",
+   "en": "Hi (informal)",
+   "ph": "cheshch"
+  },
+  {
+   "t": "Dobry wieczór",
+   "en": "Good evening",
+   "ph": "DOB-ri VYE-choor"
+  },
+  {
+   "t": "Do widzenia",
+   "en": "Goodbye",
+   "ph": "do vee-DZEN-ya"
+  },
+  {
+   "t": "Proszę",
+   "en": "Please",
+   "ph": "PRO-sheh"
+  },
+  {
+   "t": "Dziękuję",
+   "en": "Thank you",
+   "ph": "jen-KOO-yeh"
+  },
+  {
+   "t": "Dziękuję bardzo",
+   "en": "Thank you very much",
+   "ph": "jen-KOO-yeh BAR-dzo"
+  },
+  {
+   "t": "Proszę bardzo",
+   "en": "You're welcome",
+   "ph": "PRO-sheh BAR-dzo"
+  },
+  {
+   "t": "Tak",
+   "en": "Yes",
+   "ph": "tak"
+  },
+  {
+   "t": "Nie",
+   "en": "No",
+   "ph": "nyeh"
+  },
+  {
+   "t": "Przepraszam",
+   "en": "Excuse me",
+   "ph": "psheh-PRA-sham"
+  },
+  {
+   "t": "Bardzo mi przykro",
+   "en": "I'm sorry",
+   "ph": "BAR-dzo mee PSHIK-ro"
+  },
+  {
+   "t": "Nie rozumiem",
+   "en": "I don't understand",
+   "ph": "nyeh ro-ZOO-myem"
+  },
+  {
+   "t": "Czy może Pan mówić wolniej?",
+   "en": "Can you speak more slowly?",
+   "ph": "chi MO-zheh pan MOO-veech VOL-nyay"
+  },
+  {
+   "t": "Czy może Pan powtórzyć?",
+   "en": "Can you repeat that?",
+   "ph": "chi MO-zheh pan pov-TOO-zhich"
+  },
+  {
+   "t": "Czy mówi Pan po angielsku?",
+   "en": "Do you speak English?",
+   "ph": "chi MOO-vee pan po an-GYEL-skoo"
+  },
+  {
+   "t": "Mówię trochę po polsku",
+   "en": "I speak a little Polish",
+   "ph": "MOO-vyeh TRO-heh po POL-skoo"
+  },
+  {
+   "t": "Mam na imię Anna",
+   "en": "My name is Anna",
+   "ph": "mam na EE-myeh AN-na"
+  },
+  {
+   "t": "Jak się Pan nazywa?",
+   "en": "What's your name?",
+   "ph": "yak shyeh pan na-ZI-va"
+  },
+  {
+   "t": "Miło mi",
+   "en": "Nice to meet you",
+   "ph": "MEE-wo mee"
+  },
+  {
+   "t": "Jak się Pan ma?",
+   "en": "How are you?",
+   "ph": "yak shyeh pan ma"
+  },
+  {
+   "t": "Dobrze, dziękuję",
+   "en": "I'm fine, thank you",
+   "ph": "DOB-zheh jen-KOO-yeh"
+  },
+  {
+   "t": "A Pan?",
+   "en": "And you?",
+   "ph": "a pan"
+  },
+  {
+   "t": "Skąd Pan jest?",
+   "en": "Where are you from?",
+   "ph": "skont pan yest"
+  },
+  {
+   "t": "Jestem z Anglii",
+   "en": "I'm from England",
+   "ph": "YES-tem z AN-glee"
+  },
+  {
+   "t": "Pomocy!",
+   "en": "Help!",
+   "ph": "po-MO-tsi"
+  },
+  {
+   "t": "Może mi Pan pomóc?",
+   "en": "Can you help me?",
+   "ph": "MO-zheh mee pan PO-moots"
+  },
+  {
+   "t": "Gdzie jest toaleta?",
+   "en": "Where is the bathroom?",
+   "ph": "gdzheh yest to-a-LE-ta"
+  },
+  {
+   "t": "Gdzie jest dworzec?",
+   "en": "Where is the station?",
+   "ph": "gdzheh yest DVO-zhets"
+  },
+  {
+   "t": "Ile to kosztuje?",
+   "en": "How much is it?",
+   "ph": "EE-leh to kosh-TOO-yeh"
+  },
+  {
+   "t": "To za drogo",
+   "en": "That's too expensive",
+   "ph": "to za DRO-go"
+  },
+  {
+   "t": "Poproszę to",
+   "en": "I would like this",
+   "ph": "po-PRO-sheh to"
+  },
+  {
+   "t": "Rachunek, proszę",
+   "en": "The bill, please",
+   "ph": "ra-HOO-nek PRO-sheh"
+  },
+  {
+   "t": "Stolik dla dwojga, proszę",
+   "en": "A table for two, please",
+   "ph": "STO-leek dla DVOY-ga PRO-sheh"
+  },
+  {
+   "t": "Menu, proszę",
+   "en": "The menu, please",
+   "ph": "ME-noo PRO-sheh"
+  },
+  {
+   "t": "Wodę, proszę",
+   "en": "Water, please",
+   "ph": "VO-deh PRO-sheh"
+  },
+  {
+   "t": "Kawę, proszę",
+   "en": "A coffee, please",
+   "ph": "KA-veh PRO-sheh"
+  },
+  {
+   "t": "Jestem głodny",
+   "en": "I'm hungry",
+   "ph": "YES-tem GWOD-ni"
+  },
+  {
+   "t": "Chce mi się pić",
+   "en": "I'm thirsty",
+   "ph": "htseh mee shyeh peech"
+  },
+  {
+   "t": "To jest pyszne",
+   "en": "It's delicious",
+   "ph": "to yest PISH-neh"
+  },
+  {
+   "t": "Dobranoc",
+   "en": "Good night",
+   "ph": "do-BRA-nots"
+  },
+  {
+   "t": "Nie wiem",
+   "en": "I don't know",
+   "ph": "nyeh vyem"
+  },
+  {
+   "t": "Oczywiście",
+   "en": "Of course",
+   "ph": "o-chi-VEESH-chyeh"
+  },
+  {
+   "t": "Nie ma problemu",
+   "en": "No problem",
+   "ph": "nyeh ma pro-BLE-moo"
+  },
+  {
+   "t": "Która jest godzina?",
+   "en": "What time is it?",
+   "ph": "KTOO-ra yest go-JEE-na"
+  },
+  {
+   "t": "Dzisiaj",
+   "en": "Today",
+   "ph": "JEE-shay"
+  },
+  {
+   "t": "Jutro",
+   "en": "Tomorrow",
+   "ph": "YOO-tro"
+  },
+  {
+   "t": "Zgubiłem się",
+   "en": "I'm lost",
+   "ph": "zgoo-BEE-wem shyeh"
+  },
+  {
+   "t": "Proszę skręcić w lewo",
+   "en": "Turn left",
+   "ph": "PRO-sheh SKREN-cheech v LE-vo"
+  },
+  {
+   "t": "Proszę skręcić w prawo",
+   "en": "Turn right",
+   "ph": "PRO-sheh SKREN-cheech v PRA-vo"
+  },
+  {
+   "t": "Prosto",
+   "en": "Straight ahead",
+   "ph": "PRO-sto"
+  },
+  {
+   "t": "Czy to daleko?",
+   "en": "Is it far?",
+   "ph": "chi to da-LE-ko"
+  },
+  {
+   "t": "Poproszę jeden bilet",
+   "en": "One ticket, please",
+   "ph": "po-PRO-sheh YE-den BEE-let"
+  },
+  {
+   "t": "Gdzie jest przystanek autobusowy?",
+   "en": "Where is the bus stop?",
+   "ph": "gdzheh yest pshi-STA-nek ow-to-boo-SO-vi"
+  },
+  {
+   "t": "Na lotnisko, proszę",
+   "en": "To the airport, please",
+   "ph": "na lot-NEES-ko PRO-sheh"
+  },
+  {
+   "t": "Mam rezerwację",
+   "en": "I have a reservation",
+   "ph": "mam re-zer-VA-tsyeh"
+  },
+  {
+   "t": "Czy macie wolny pokój?",
+   "en": "Do you have a free room?",
+   "ph": "chi MA-chyeh VOL-ni PO-kooy"
+  },
+  {
+   "t": "Jeden, dwa, trzy",
+   "en": "One, two, three",
+   "ph": "YE-den dva tshi"
+  },
+  {
+   "t": "Czy mogę zapłacić kartą?",
+   "en": "Do you accept cards?",
+   "ph": "chi MO-geh za-PWA-cheech KAR-tom"
+  },
+  {
+   "t": "Zapłacę gotówką",
+   "en": "I'll pay in cash",
+   "ph": "za-PWA-tseh go-TOOV-kom"
+  },
+  {
+   "t": "Gdzie jest apteka?",
+   "en": "Where is the pharmacy?",
+   "ph": "gdzheh yest ap-TE-ka"
+  },
+  {
+   "t": "Źle się czuję",
+   "en": "I don't feel well",
+   "ph": "zhleh shyeh CHOO-yeh"
+  },
+  {
+   "t": "Potrzebuję lekarza",
+   "en": "I need a doctor",
+   "ph": "pot-sheh-BOO-yeh le-KA-zha"
+  },
+  {
+   "t": "Proszę wezwać policję",
+   "en": "Call the police",
+   "ph": "PRO-sheh VEZ-vach po-LEE-tsyeh"
+  },
+  {
+   "t": "Jestem szczęśliwy",
+   "en": "I'm happy",
+   "ph": "YES-tem shchen-SHLEE-vi"
+  },
+  {
+   "t": "Jestem zmęczony",
+   "en": "I'm tired",
+   "ph": "YES-tem zmen-CHO-ni"
+  },
+  {
+   "t": "Podoba mi się",
+   "en": "I like it",
+   "ph": "po-DO-ba mee shyeh"
+  },
+  {
+   "t": "Nie podoba mi się",
+   "en": "I don't like it",
+   "ph": "nyeh po-DO-ba mee shyeh"
+  },
+  {
+   "t": "Co to jest?",
+   "en": "What is this?",
+   "ph": "tso to yest"
+  },
+  {
+   "t": "Co to znaczy?",
+   "en": "What does this mean?",
+   "ph": "tso to ZNA-chi"
+  },
+  {
+   "t": "Jak to się mówi po polsku?",
+   "en": "How do you say this in Polish?",
+   "ph": "yak to shyeh MOO-vee po POL-skoo"
+  },
+  {
+   "t": "Czy jest Wi-Fi?",
+   "en": "Is there Wi-Fi?",
+   "ph": "chi yest VEE-fee"
+  },
+  {
+   "t": "Jaki jest dzisiaj dzień?",
+   "en": "What day is it today?",
+   "ph": "YA-kee yest JEE-shay jen"
+  },
+  {
+   "t": "Teraz",
+   "en": "Now",
+   "ph": "TE-raz"
+  },
+  {
+   "t": "Później",
+   "en": "Later",
+   "ph": "POOZH-nyay"
+  },
+  {
+   "t": "Chwileczkę",
+   "en": "One moment",
+   "ph": "hvee-LECH-keh"
+  },
+  {
+   "t": "Chodźmy",
+   "en": "Let's go",
+   "ph": "HOJ-mi"
+  },
+  {
+   "t": "Jestem gotowy",
+   "en": "I'm ready",
+   "ph": "YES-tem go-TO-vi"
+  },
+  {
+   "t": "Spóźniłem się",
+   "en": "I'm late",
+   "ph": "SPOOZH-nee-wem shyeh"
+  },
+  {
+   "t": "Powodzenia!",
+   "en": "Good luck!",
+   "ph": "po-vo-DZE-nya"
+  },
+  {
+   "t": "Wszystkiego najlepszego!",
+   "en": "Happy birthday!",
+   "ph": "fshis-TKYE-go nay-LEP-sheh-go"
+  },
+  {
+   "t": "Witamy",
+   "en": "Welcome",
+   "ph": "vee-TA-mi"
+  },
+  {
+   "t": "Miłego dnia",
+   "en": "Have a nice day",
+   "ph": "mee-WE-go dnya"
+  },
+  {
+   "t": "Szczęśliwej podróży",
+   "en": "Have a good trip",
+   "ph": "shchen-SHLEE-vay po-DROO-zhi"
+  },
+  {
+   "t": "Uczę się polskiego",
+   "en": "I'm learning Polish",
+   "ph": "OO-cheh shyeh pol-SKYE-go"
+  },
+  {
+   "t": "Jestem na wakacjach",
+   "en": "I'm on holiday",
+   "ph": "YES-tem na va-KA-tsyah"
+  },
+  {
+   "t": "Ile to trwa?",
+   "en": "How long does it take?",
+   "ph": "EE-leh to trfa"
+  },
+  {
+   "t": "Mieszkam w Londynie",
+   "en": "I live in London",
+   "ph": "MYESH-kam v lon-DI-nyeh"
+  },
+  {
+   "t": "Zgadzam się",
+   "en": "I agree",
+   "ph": "ZGA-dzam shyeh"
+  },
+  {
+   "t": "Może",
+   "en": "Maybe",
+   "ph": "MO-zheh"
+  },
+  {
+   "t": "Naprawdę?",
+   "en": "Really?",
+   "ph": "na-PRAV-deh"
+  },
+  {
+   "t": "To nieważne",
+   "en": "It doesn't matter",
+   "ph": "to nyeh-VAZH-neh"
+  },
+  {
+   "t": "Do zobaczenia",
+   "en": "See you later",
+   "ph": "do zo-ba-CHE-nya"
+  },
+  {
+   "t": "Do jutra",
+   "en": "See you tomorrow",
+   "ph": "do YOO-tra"
+  },
+  {
+   "t": "Mam alergię na orzechy",
+   "en": "I'm allergic to nuts",
+   "ph": "mam a-LER-gyeh na o-ZHE-hi"
+  },
+  {
+   "t": "Bez mięsa, proszę",
+   "en": "Without meat, please",
+   "ph": "bez MYEN-sa PRO-sheh"
+  },
+  {
+   "t": "Poproszę piwo",
+   "en": "A beer, please",
+   "ph": "po-PRO-sheh PEE-vo"
+  },
+  {
+   "t": "Na zdrowie!",
+   "en": "Cheers!",
+   "ph": "na ZDRO-vyeh"
+  },
+  {
+   "t": "Trzymaj się",
+   "en": "Take care",
+   "ph": "TSHI-may shyeh"
+  },
+  {
+   "t": "Jest bardzo ładnie",
+   "en": "It's beautiful",
+   "ph": "yest BAR-dzo WAD-nyeh"
+  }
+ ]
+}

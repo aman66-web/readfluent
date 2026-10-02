@@ -1,0 +1,505 @@
+{
+ "lang": "zh",
+ "phrases": [
+  {
+   "t": "你好。",
+   "en": "Hello",
+   "ph": "Nǐ hǎo."
+  },
+  {
+   "t": "再见。",
+   "en": "Goodbye",
+   "ph": "Zàijiàn."
+  },
+  {
+   "t": "请",
+   "en": "Please",
+   "ph": "Qǐng"
+  },
+  {
+   "t": "谢谢。",
+   "en": "Thank you",
+   "ph": "Xièxie."
+  },
+  {
+   "t": "不客气。",
+   "en": "You're welcome",
+   "ph": "Bú kèqi."
+  },
+  {
+   "t": "打扰一下。",
+   "en": "Excuse me",
+   "ph": "Dǎrǎo yíxià."
+  },
+  {
+   "t": "对不起。",
+   "en": "I'm sorry",
+   "ph": "Duìbuqǐ."
+  },
+  {
+   "t": "是的。",
+   "en": "Yes",
+   "ph": "Shì de."
+  },
+  {
+   "t": "不是。",
+   "en": "No",
+   "ph": "Bú shì."
+  },
+  {
+   "t": "早上好。",
+   "en": "Good morning",
+   "ph": "Zǎoshang hǎo."
+  },
+  {
+   "t": "晚上好。",
+   "en": "Good evening",
+   "ph": "Wǎnshang hǎo."
+  },
+  {
+   "t": "晚安。",
+   "en": "Good night",
+   "ph": "Wǎn'ān."
+  },
+  {
+   "t": "你好吗？",
+   "en": "How are you?",
+   "ph": "Nǐ hǎo ma?"
+  },
+  {
+   "t": "我很好，谢谢。",
+   "en": "I'm fine, thank you",
+   "ph": "Wǒ hěn hǎo, xièxie."
+  },
+  {
+   "t": "你呢？",
+   "en": "And you?",
+   "ph": "Nǐ ne?"
+  },
+  {
+   "t": "你叫什么名字？",
+   "en": "What is your name?",
+   "ph": "Nǐ jiào shénme míngzi?"
+  },
+  {
+   "t": "我叫……",
+   "en": "My name is ...",
+   "ph": "Wǒ jiào ..."
+  },
+  {
+   "t": "很高兴认识你。",
+   "en": "Nice to meet you",
+   "ph": "Hěn gāoxìng rènshi nǐ."
+  },
+  {
+   "t": "我听不懂。",
+   "en": "I don't understand",
+   "ph": "Wǒ tīng bu dǒng."
+  },
+  {
+   "t": "我明白了。",
+   "en": "I understand",
+   "ph": "Wǒ míngbai le."
+  },
+  {
+   "t": "请说慢一点儿。",
+   "en": "Can you speak more slowly?",
+   "ph": "Qǐng shuō màn yìdiǎnr."
+  },
+  {
+   "t": "请再说一遍。",
+   "en": "Can you repeat that, please?",
+   "ph": "Qǐng zài shuō yí biàn."
+  },
+  {
+   "t": "你会说英语吗？",
+   "en": "Do you speak English?",
+   "ph": "Nǐ huì shuō Yīngyǔ ma?"
+  },
+  {
+   "t": "我会说一点儿中文。",
+   "en": "I speak a little Chinese",
+   "ph": "Wǒ huì shuō yìdiǎnr Zhōngwén."
+  },
+  {
+   "t": "我不知道。",
+   "en": "I don't know",
+   "ph": "Wǒ bù zhīdào."
+  },
+  {
+   "t": "你能帮我吗？",
+   "en": "Can you help me?",
+   "ph": "Nǐ néng bāng wǒ ma?"
+  },
+  {
+   "t": "我需要帮助。",
+   "en": "I need help",
+   "ph": "Wǒ xūyào bāngzhù."
+  },
+  {
+   "t": "洗手间在哪儿？",
+   "en": "Where is the bathroom?",
+   "ph": "Xǐshǒujiān zài nǎr?"
+  },
+  {
+   "t": "这个多少钱？",
+   "en": "How much is this?",
+   "ph": "Zhège duōshao qián?"
+  },
+  {
+   "t": "我想要这个。",
+   "en": "I would like this, please",
+   "ph": "Wǒ xiǎng yào zhège."
+  },
+  {
+   "t": "请给我水。",
+   "en": "Water, please",
+   "ph": "Qǐng gěi wǒ shuǐ."
+  },
+  {
+   "t": "请结账。",
+   "en": "The bill, please",
+   "ph": "Qǐng jiézhàng."
+  },
+  {
+   "t": "车站在哪儿？",
+   "en": "Where is the station?",
+   "ph": "Chēzhàn zài nǎr?"
+  },
+  {
+   "t": "你是哪里人？",
+   "en": "Where are you from?",
+   "ph": "Nǐ shì nǎlǐ rén?"
+  },
+  {
+   "t": "我来自……",
+   "en": "I am from ...",
+   "ph": "Wǒ láizì ..."
+  },
+  {
+   "t": "回头见。",
+   "en": "See you later",
+   "ph": "Huítóu jiàn."
+  },
+  {
+   "t": "明天见。",
+   "en": "See you tomorrow",
+   "ph": "Míngtiān jiàn."
+  },
+  {
+   "t": "当然。",
+   "en": "Of course",
+   "ph": "Dāngrán."
+  },
+  {
+   "t": "没问题。",
+   "en": "No problem",
+   "ph": "Méi wèntí."
+  },
+  {
+   "t": "非常感谢。",
+   "en": "Thank you very much",
+   "ph": "Fēicháng gǎnxiè."
+  },
+  {
+   "t": "现在几点？",
+   "en": "What time is it?",
+   "ph": "Xiànzài jǐ diǎn?"
+  },
+  {
+   "t": "我迷路了。",
+   "en": "I am lost",
+   "ph": "Wǒ mílù le."
+  },
+  {
+   "t": "向左转。",
+   "en": "Turn left",
+   "ph": "Xiàng zuǒ zhuǎn."
+  },
+  {
+   "t": "向右转。",
+   "en": "Turn right",
+   "ph": "Xiàng yòu zhuǎn."
+  },
+  {
+   "t": "一直走。",
+   "en": "Go straight ahead",
+   "ph": "Yìzhí zǒu."
+  },
+  {
+   "t": "远吗？",
+   "en": "Is it far?",
+   "ph": "Yuǎn ma?"
+  },
+  {
+   "t": "我饿了。",
+   "en": "I am hungry",
+   "ph": "Wǒ è le."
+  },
+  {
+   "t": "我渴了。",
+   "en": "I am thirsty",
+   "ph": "Wǒ kě le."
+  },
+  {
+   "t": "我需要看医生。",
+   "en": "I need a doctor",
+   "ph": "Wǒ xūyào kàn yīshēng."
+  },
+  {
+   "t": "救命！",
+   "en": "Help!",
+   "ph": "Jiùmìng!"
+  },
+  {
+   "t": "可以刷信用卡吗？",
+   "en": "Do you accept credit cards?",
+   "ph": "Kěyǐ shuā xìnyòngkǎ ma?"
+  },
+  {
+   "t": "太贵了。",
+   "en": "It is too expensive",
+   "ph": "Tài guì le."
+  },
+  {
+   "t": "请给我们一张两人桌。",
+   "en": "A table for two, please",
+   "ph": "Qǐng gěi wǒmen yì zhāng liǎng rén zhuō."
+  },
+  {
+   "t": "请给我菜单。",
+   "en": "The menu, please",
+   "ph": "Qǐng gěi wǒ càidān."
+  },
+  {
+   "t": "我要一杯咖啡。",
+   "en": "I would like a coffee",
+   "ph": "Wǒ yào yì bēi kāfēi."
+  },
+  {
+   "t": "我要一杯茶。",
+   "en": "I would like some tea",
+   "ph": "Wǒ yào yì bēi chá."
+  },
+  {
+   "t": "我吃素。",
+   "en": "I am vegetarian",
+   "ph": "Wǒ chī sù."
+  },
+  {
+   "t": "很好吃。",
+   "en": "It is delicious",
+   "ph": "Hěn hǎochī."
+  },
+  {
+   "t": "请再来一个。",
+   "en": "Another one, please",
+   "ph": "Qǐng zài lái yí ge."
+  },
+  {
+   "t": "请给我一张票。",
+   "en": "One ticket, please",
+   "ph": "Qǐng gěi wǒ yì zhāng piào."
+  },
+  {
+   "t": "公交车站在哪儿？",
+   "en": "Where is the bus stop?",
+   "ph": "Gōngjiāochē zhàn zài nǎr?"
+  },
+  {
+   "t": "火车几点开？",
+   "en": "What time does the train leave?",
+   "ph": "Huǒchē jǐ diǎn kāi?"
+  },
+  {
+   "t": "去机场怎么走？",
+   "en": "How do I get to the airport?",
+   "ph": "Qù jīchǎng zěnme zǒu?"
+  },
+  {
+   "t": "这个座位有人吗？",
+   "en": "Is this seat free?",
+   "ph": "Zhège zuòwèi yǒu rén ma?"
+  },
+  {
+   "t": "我预订了房间。",
+   "en": "I have a reservation",
+   "ph": "Wǒ yùdìng le fángjiān."
+  },
+  {
+   "t": "有空房吗？",
+   "en": "Do you have a room available?",
+   "ph": "Yǒu kōngfáng ma?"
+  },
+  {
+   "t": "今天星期几？",
+   "en": "What day is it today?",
+   "ph": "Jīntiān xīngqī jǐ?"
+  },
+  {
+   "t": "今天",
+   "en": "Today",
+   "ph": "Jīntiān"
+  },
+  {
+   "t": "明天",
+   "en": "Tomorrow",
+   "ph": "Míngtiān"
+  },
+  {
+   "t": "昨天",
+   "en": "Yesterday",
+   "ph": "Zuótiān"
+  },
+  {
+   "t": "一、二、三",
+   "en": "One, two, three",
+   "ph": "Yī, èr, sān"
+  },
+  {
+   "t": "多少钱？",
+   "en": "How much does it cost?",
+   "ph": "Duōshao qián?"
+  },
+  {
+   "t": "我累了。",
+   "en": "I am tired",
+   "ph": "Wǒ lèi le."
+  },
+  {
+   "t": "我很高兴。",
+   "en": "I am happy",
+   "ph": "Wǒ hěn gāoxìng."
+  },
+  {
+   "t": "我不舒服。",
+   "en": "I feel sick",
+   "ph": "Wǒ bù shūfu."
+  },
+  {
+   "t": "我很冷。",
+   "en": "I am cold",
+   "ph": "Wǒ hěn lěng."
+  },
+  {
+   "t": "天气很热。",
+   "en": "It is hot (weather)",
+   "ph": "Tiānqì hěn rè."
+  },
+  {
+   "t": "我喜欢。",
+   "en": "I like it",
+   "ph": "Wǒ xǐhuan."
+  },
+  {
+   "t": "我不喜欢。",
+   "en": "I don't like it",
+   "ph": "Wǒ bù xǐhuan."
+  },
+  {
+   "t": "我是游客。",
+   "en": "I am a tourist",
+   "ph": "Wǒ shì yóukè."
+  },
+  {
+   "t": "药店在哪儿？",
+   "en": "Where is the pharmacy?",
+   "ph": "Yàodiàn zài nǎr?"
+  },
+  {
+   "t": "请报警。",
+   "en": "Call the police",
+   "ph": "Qǐng bàojǐng."
+  },
+  {
+   "t": "请叫救护车。",
+   "en": "Call an ambulance",
+   "ph": "Qǐng jiào jiùhùchē."
+  },
+  {
+   "t": "我的护照丢了。",
+   "en": "I lost my passport",
+   "ph": "Wǒ de hùzhào diū le."
+  },
+  {
+   "t": "可以给我发票吗？",
+   "en": "Can I have a receipt?",
+   "ph": "Kěyǐ gěi wǒ fāpiào ma?"
+  },
+  {
+   "t": "请稍等。",
+   "en": "Wait a moment, please",
+   "ph": "Qǐng shāo děng."
+  },
+  {
+   "t": "我很赶时间。",
+   "en": "I am in a hurry",
+   "ph": "Wǒ hěn gǎn shíjiān."
+  },
+  {
+   "t": "小心。",
+   "en": "Be careful",
+   "ph": "Xiǎoxīn."
+  },
+  {
+   "t": "生日快乐！",
+   "en": "Happy birthday",
+   "ph": "Shēngrì kuàilè!"
+  },
+  {
+   "t": "恭喜！",
+   "en": "Congratulations",
+   "ph": "Gōngxǐ!"
+  },
+  {
+   "t": "祝你好运！",
+   "en": "Good luck",
+   "ph": "Zhù nǐ hǎoyùn!"
+  },
+  {
+   "t": "祝你今天愉快！",
+   "en": "Have a nice day",
+   "ph": "Zhù nǐ jīntiān yúkuài!"
+  },
+  {
+   "t": "欢迎。",
+   "en": "Welcome",
+   "ph": "Huānyíng."
+  },
+  {
+   "t": "我想是的。",
+   "en": "I think so",
+   "ph": "Wǒ xiǎng shì de."
+  },
+  {
+   "t": "我同意。",
+   "en": "I agree",
+   "ph": "Wǒ tóngyì."
+  },
+  {
+   "t": "这是什么？",
+   "en": "What is this?",
+   "ph": "Zhè shì shénme?"
+  },
+  {
+   "t": "这个词是什么意思？",
+   "en": "What does this word mean?",
+   "ph": "Zhège cí shì shénme yìsi?"
+  },
+  {
+   "t": "这个用英语怎么说？",
+   "en": "How do you say this in English?",
+   "ph": "Zhège yòng Yīngyǔ zěnme shuō?"
+  },
+  {
+   "t": "这里有Wi-Fi吗？",
+   "en": "Is there Wi-Fi here?",
+   "ph": "Zhèlǐ yǒu Wi-Fi ma?"
+  },
+  {
+   "t": "我在学中文。",
+   "en": "I am learning Chinese",
+   "ph": "Wǒ zài xué Zhōngwén."
+  }
+ ]
+}

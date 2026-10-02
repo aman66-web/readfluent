@@ -172,7 +172,7 @@ describe("the ledger", () => {
   });
 
   it("pays easier books less once the reader has moved up", () => {
-    const placed: Ledger = { ...EMPTY_LEDGER, base: startingXp("B1"), days: { [D1]: { sec: 0, xp: 1, books: {} } } };
+    const placed: Ledger = { ...EMPTY_LEDGER, base: startingXp("B1"), days: { [D1]: { sec: 0, xp: 1, books: {}, pages: 0 } } };
     expect(payPage(placed, "easy", 1, "A1A2", D1).xp).toBe(XP.pageBelow);
     expect(payPage(placed, "same", 1, "B1B2", D1).xp).toBe(XP.page);
   });
@@ -187,7 +187,7 @@ describe("the ledger", () => {
   });
 
   it("can take a reader up a level, and the total includes where they started", () => {
-    let l: Ledger = { ...EMPTY_LEDGER, base: 21_499, days: { [D1]: { sec: 0, xp: 1, books: {} } } };
+    let l: Ledger = { ...EMPTY_LEDGER, base: 21_499, days: { [D1]: { sec: 0, xp: 1, books: {}, pages: 0 } } };
     expect(levelFromXp(totalXp(l)).level).toBe("A1");
     l = payPage(l, "v", 1, "A1A2", D1).ledger;
     expect(levelFromXp(totalXp(l)).level).toBe("A2");
@@ -219,7 +219,7 @@ describe("the ledger", () => {
     expect(l.base).toBe(5000);
     expect(l.earned).toBe(0);
     expect(l.pages.v).toEqual([1, 3]);
-    expect(l.days["2026-10-01"]).toEqual({ sec: 60, xp: 5, books: { a: 60 } });
+    expect(l.days["2026-10-01"]).toEqual({ sec: 60, xp: 5, books: { a: 60 }, pages: 0 });
     expect(Object.keys(l.days)).toHaveLength(1);
     expect(l.done).toEqual(["v"]);
   });

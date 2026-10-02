@@ -26,6 +26,8 @@ export interface PreviewBook {
   slug: string;
   title: string;
   author: string;
+  /** The day the book joined the library (YYYY-MM-DD). */
+  added: string;
   kind: "classic" | "inspired";
   category: CategoryId;
   blurb: string;
@@ -42,6 +44,7 @@ const PRIDE_SCENES = [
 export const PREVIEW_BOOKS: PreviewBook[] = [
   {
     slug: "pride-and-prejudice",
+    added: "2026-10-01",
     title: "Pride and Prejudice",
     author: "Jane Austen",
     kind: "classic",
@@ -103,6 +106,7 @@ const WRITTEN: PreviewBook[] = [
   {
     source: "file", pageCount: 50, lengths: [50],
     slug: "alice-s-adventures-in-wonderland",
+    added: "2026-10-02",
     title: "Alice's Adventures in Wonderland",
     author: "Lewis Carroll",
     kind: "classic",
@@ -114,6 +118,7 @@ const WRITTEN: PreviewBook[] = [
   {
     source: "file", pageCount: 50, lengths: [50],
     slug: "the-hound-of-the-baskervilles",
+    added: "2026-10-02",
     title: "The Hound of the Baskervilles",
     author: "Arthur Conan Doyle",
     kind: "classic",
@@ -125,6 +130,7 @@ const WRITTEN: PreviewBook[] = [
   {
     source: "file", pageCount: 50, lengths: [50],
     slug: "the-richest-man-in-babylon",
+    added: "2026-10-02",
     title: "The Richest Man in Babylon",
     author: "George S. Clason",
     kind: "classic",
@@ -136,6 +142,7 @@ const WRITTEN: PreviewBook[] = [
   {
     source: "file", pageCount: 50, lengths: [50],
     slug: "trees-talk-to-each-other",
+    added: "2026-10-02",
     title: "Trees Talk to Each Other",
     author: "The Hidden Life of Trees",
     kind: "inspired",

@@ -4,15 +4,25 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { BookCover } from "@/components/BookCover";
 import { CATEGORIES, categoryById, type CategoryId } from "@/lib/content/limits";
-import { useT } from "@/lib/i18n/react";
+import { formatDate } from "@/lib/i18n";
+import { useLocale, useT } from "@/lib/i18n/react";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { coverAuthor, type PreviewBook } from "@/lib/preview/catalog";
 
-/** A cover, as a link to the book. */
-function Cover({ book, className = "" }: { book: PreviewBook; className?: string }) {
+/** A cover, as a link to the book, with its name, the day it joined, and the first lines of what it is about (the rest is on its page). */
+function Cover({ book, className = "", caption = true }: { book: PreviewBook; className?: string; caption?: boolean }) {
+  const t = useT();
+  const locale = useLocale();
   return (
-    <Link href={`/book/${book.slug}`} aria-label={book.title} className={`block transition-transform active:scale-[0.97] ${className}`}>
+    <Link href={`/book/${book.slug}`} className={`block transition-transform active:scale-[0.98] ${className}`}>
       <BookCover slug={book.slug} title={book.title} author={coverAuthor(book)} hue={categoryById(book.category)?.hue ?? 30} />
+      {caption && (
+        <span className="mt-2.5 block">
+          <span lang="en" className="block text-[14px] font-semibold leading-tight">{book.title}</span>
+          <span className="mt-0.5 block text-[11.5px] text-faint">{t("library.added", { date: formatDate(new Date(`${book.added}T12:00:00`), locale) })}</span>
+          <span lang="en" className="mt-1 line-clamp-2 block text-[12px] leading-snug text-muted">{book.blurb}</span>
+        </span>
+      )}
     </Link>
   );
 }

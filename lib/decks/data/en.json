@@ -1,0 +1,505 @@
+{
+ "lang": "en",
+ "phrases": [
+  {
+   "t": "Hello",
+   "en": "greeting, any time of day",
+   "ph": ""
+  },
+  {
+   "t": "Goodbye",
+   "en": "when leaving",
+   "ph": ""
+  },
+  {
+   "t": "Please",
+   "en": "to ask politely",
+   "ph": ""
+  },
+  {
+   "t": "Thank you",
+   "en": "to show thanks",
+   "ph": "THANK yoo"
+  },
+  {
+   "t": "You're welcome",
+   "en": "reply to thanks",
+   "ph": ""
+  },
+  {
+   "t": "Excuse me",
+   "en": "to get attention or pass by",
+   "ph": "ik-SKYOOZ mee"
+  },
+  {
+   "t": "I'm sorry",
+   "en": "to apologise",
+   "ph": "ym SOR-ee"
+  },
+  {
+   "t": "Yes",
+   "en": "to agree or say yes",
+   "ph": ""
+  },
+  {
+   "t": "No",
+   "en": "to refuse or say no",
+   "ph": ""
+  },
+  {
+   "t": "Good morning",
+   "en": "greeting, until about noon",
+   "ph": ""
+  },
+  {
+   "t": "Good evening",
+   "en": "greeting, after about 6 pm",
+   "ph": ""
+  },
+  {
+   "t": "Good night",
+   "en": "when going to bed or leaving late",
+   "ph": ""
+  },
+  {
+   "t": "How are you?",
+   "en": "friendly greeting question",
+   "ph": ""
+  },
+  {
+   "t": "I'm fine, thank you",
+   "en": "reply to \"How are you?\"",
+   "ph": ""
+  },
+  {
+   "t": "And you?",
+   "en": "to ask the same question back",
+   "ph": ""
+  },
+  {
+   "t": "What is your name?",
+   "en": "to ask someone's name",
+   "ph": ""
+  },
+  {
+   "t": "My name is ...",
+   "en": "to say your name",
+   "ph": ""
+  },
+  {
+   "t": "Nice to meet you",
+   "en": "when you first meet someone",
+   "ph": ""
+  },
+  {
+   "t": "I don't understand",
+   "en": "when you did not follow",
+   "ph": ""
+  },
+  {
+   "t": "I understand",
+   "en": "when you followed",
+   "ph": ""
+  },
+  {
+   "t": "Can you speak more slowly?",
+   "en": "to ask someone to slow down",
+   "ph": ""
+  },
+  {
+   "t": "Can you repeat that, please?",
+   "en": "to ask someone to repeat",
+   "ph": ""
+  },
+  {
+   "t": "Do you speak English?",
+   "en": "to ask if someone speaks English",
+   "ph": "doo yoo speek ING-glish"
+  },
+  {
+   "t": "I speak a little English",
+   "en": "to say your English is basic",
+   "ph": ""
+  },
+  {
+   "t": "I don't know",
+   "en": "when you have no answer",
+   "ph": ""
+  },
+  {
+   "t": "Can you help me?",
+   "en": "to ask for help politely",
+   "ph": ""
+  },
+  {
+   "t": "I need help",
+   "en": "when you need help",
+   "ph": ""
+  },
+  {
+   "t": "Where is the bathroom?",
+   "en": "to find a toilet",
+   "ph": "wair iz thuh BATH-room"
+  },
+  {
+   "t": "How much is this?",
+   "en": "to ask the price of something",
+   "ph": ""
+  },
+  {
+   "t": "I would like this, please",
+   "en": "to choose something in a shop",
+   "ph": ""
+  },
+  {
+   "t": "Water, please",
+   "en": "to ask for water",
+   "ph": ""
+  },
+  {
+   "t": "The bill, please",
+   "en": "to ask for the bill in a restaurant",
+   "ph": ""
+  },
+  {
+   "t": "Where is the station?",
+   "en": "to ask for the train station",
+   "ph": ""
+  },
+  {
+   "t": "Where are you from?",
+   "en": "to ask someone's country or city",
+   "ph": ""
+  },
+  {
+   "t": "I am from ...",
+   "en": "to say where you come from",
+   "ph": ""
+  },
+  {
+   "t": "See you later",
+   "en": "casual goodbye",
+   "ph": ""
+  },
+  {
+   "t": "See you tomorrow",
+   "en": "goodbye until tomorrow",
+   "ph": ""
+  },
+  {
+   "t": "Of course",
+   "en": "to say yes warmly",
+   "ph": "uv KORSS"
+  },
+  {
+   "t": "No problem",
+   "en": "reply to thanks or a request",
+   "ph": ""
+  },
+  {
+   "t": "Thank you very much",
+   "en": "stronger thanks",
+   "ph": ""
+  },
+  {
+   "t": "What time is it?",
+   "en": "to ask the time",
+   "ph": "wut tym iz it"
+  },
+  {
+   "t": "I am lost",
+   "en": "when you cannot find your way",
+   "ph": ""
+  },
+  {
+   "t": "Turn left",
+   "en": "direction",
+   "ph": ""
+  },
+  {
+   "t": "Turn right",
+   "en": "direction",
+   "ph": ""
+  },
+  {
+   "t": "Go straight ahead",
+   "en": "direction",
+   "ph": ""
+  },
+  {
+   "t": "Is it far?",
+   "en": "to ask about distance",
+   "ph": "iz it FAR"
+  },
+  {
+   "t": "I am hungry",
+   "en": "when you want to eat",
+   "ph": ""
+  },
+  {
+   "t": "I am thirsty",
+   "en": "when you want a drink",
+   "ph": ""
+  },
+  {
+   "t": "I need a doctor",
+   "en": "in a medical emergency",
+   "ph": ""
+  },
+  {
+   "t": "Help!",
+   "en": "to call for help in danger",
+   "ph": ""
+  },
+  {
+   "t": "Do you accept credit cards?",
+   "en": "to ask before paying",
+   "ph": ""
+  },
+  {
+   "t": "It is too expensive",
+   "en": "when a price is too high",
+   "ph": ""
+  },
+  {
+   "t": "A table for two, please",
+   "en": "when you arrive at a restaurant",
+   "ph": ""
+  },
+  {
+   "t": "The menu, please",
+   "en": "to ask for the menu",
+   "ph": ""
+  },
+  {
+   "t": "I would like a coffee",
+   "en": "to order a drink",
+   "ph": ""
+  },
+  {
+   "t": "I would like some tea",
+   "en": "to order a drink",
+   "ph": ""
+  },
+  {
+   "t": "I am vegetarian",
+   "en": "to say you do not eat meat",
+   "ph": "y am VEJ-uh-TAIR-ee-un"
+  },
+  {
+   "t": "It is delicious",
+   "en": "to praise food",
+   "ph": "it iz di-LISH-us"
+  },
+  {
+   "t": "Another one, please",
+   "en": "to order the same again",
+   "ph": ""
+  },
+  {
+   "t": "One ticket, please",
+   "en": "to buy a ticket",
+   "ph": ""
+  },
+  {
+   "t": "Where is the bus stop?",
+   "en": "to find a bus stop",
+   "ph": ""
+  },
+  {
+   "t": "What time does the train leave?",
+   "en": "to ask about a departure",
+   "ph": ""
+  },
+  {
+   "t": "How do I get to the airport?",
+   "en": "to ask for directions",
+   "ph": ""
+  },
+  {
+   "t": "Is this seat free?",
+   "en": "to ask before sitting down",
+   "ph": ""
+  },
+  {
+   "t": "I have a reservation",
+   "en": "when you check in or arrive",
+   "ph": "y hav uh REZ-er-VAY-shun"
+  },
+  {
+   "t": "Do you have a room available?",
+   "en": "to ask a hotel for a room",
+   "ph": ""
+  },
+  {
+   "t": "What day is it today?",
+   "en": "to ask the day",
+   "ph": ""
+  },
+  {
+   "t": "Today",
+   "en": "the present day",
+   "ph": ""
+  },
+  {
+   "t": "Tomorrow",
+   "en": "the day after today",
+   "ph": ""
+  },
+  {
+   "t": "Yesterday",
+   "en": "the day before today",
+   "ph": ""
+  },
+  {
+   "t": "One, two, three",
+   "en": "counting",
+   "ph": ""
+  },
+  {
+   "t": "How much does it cost?",
+   "en": "to ask a price",
+   "ph": ""
+  },
+  {
+   "t": "I am tired",
+   "en": "when you need rest",
+   "ph": ""
+  },
+  {
+   "t": "I am happy",
+   "en": "to say how you feel",
+   "ph": ""
+  },
+  {
+   "t": "I feel sick",
+   "en": "when you are unwell",
+   "ph": ""
+  },
+  {
+   "t": "I am cold",
+   "en": "when the temperature is low for you",
+   "ph": ""
+  },
+  {
+   "t": "It is hot",
+   "en": "to talk about hot weather",
+   "ph": ""
+  },
+  {
+   "t": "I like it",
+   "en": "to show you enjoy something",
+   "ph": ""
+  },
+  {
+   "t": "I don't like it",
+   "en": "to politely refuse or dislike",
+   "ph": ""
+  },
+  {
+   "t": "I am a tourist",
+   "en": "to say why you are here",
+   "ph": ""
+  },
+  {
+   "t": "Where is the pharmacy?",
+   "en": "to find medicine",
+   "ph": "wair iz thuh FAR-muh-see"
+  },
+  {
+   "t": "Call the police",
+   "en": "in an emergency",
+   "ph": ""
+  },
+  {
+   "t": "Call an ambulance",
+   "en": "in a medical emergency",
+   "ph": "kawl un AM-byuh-lunss"
+  },
+  {
+   "t": "I lost my passport",
+   "en": "to report a lost passport",
+   "ph": ""
+  },
+  {
+   "t": "Can I have a receipt?",
+   "en": "to ask for proof of payment",
+   "ph": "kan y hav uh ri-SEET"
+  },
+  {
+   "t": "Wait a moment, please",
+   "en": "to ask someone to wait",
+   "ph": "wayt uh MOH-munt, pleez"
+  },
+  {
+   "t": "I am in a hurry",
+   "en": "when you are short of time",
+   "ph": ""
+  },
+  {
+   "t": "Be careful",
+   "en": "to warn someone",
+   "ph": ""
+  },
+  {
+   "t": "Happy birthday",
+   "en": "to wish someone well on their birthday",
+   "ph": ""
+  },
+  {
+   "t": "Congratulations",
+   "en": "to praise good news",
+   "ph": "kun-GRACH-uh-LAY-shunz"
+  },
+  {
+   "t": "Good luck",
+   "en": "to wish someone success",
+   "ph": ""
+  },
+  {
+   "t": "Have a nice day",
+   "en": "friendly goodbye",
+   "ph": ""
+  },
+  {
+   "t": "Welcome",
+   "en": "to greet a guest",
+   "ph": ""
+  },
+  {
+   "t": "I think so",
+   "en": "a mild yes",
+   "ph": ""
+  },
+  {
+   "t": "I agree",
+   "en": "to show you share an opinion",
+   "ph": ""
+  },
+  {
+   "t": "What is this?",
+   "en": "to ask about an object",
+   "ph": ""
+  },
+  {
+   "t": "What does this word mean?",
+   "en": "to ask for a meaning",
+   "ph": ""
+  },
+  {
+   "t": "How do you say this in English?",
+   "en": "to ask for the English word",
+   "ph": ""
+  },
+  {
+   "t": "Is there Wi-Fi here?",
+   "en": "to ask for internet access",
+   "ph": "iz thair WY-fy heer"
+  },
+  {
+   "t": "I am learning English",
+   "en": "to say you are a learner",
+   "ph": ""
+  }
+ ]
+}

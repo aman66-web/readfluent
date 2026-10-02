@@ -1,0 +1,505 @@
+{
+ "lang": "pt",
+ "phrases": [
+  {
+   "t": "Olá",
+   "en": "Hello",
+   "ph": "oh-LAH"
+  },
+  {
+   "t": "Tchau",
+   "en": "Goodbye",
+   "ph": "CHOW"
+  },
+  {
+   "t": "Por favor",
+   "en": "Please",
+   "ph": "poor fah-VOR"
+  },
+  {
+   "t": "Obrigado",
+   "en": "Thank you",
+   "ph": "oh-bree-GAH-doo"
+  },
+  {
+   "t": "De nada",
+   "en": "You're welcome",
+   "ph": "jee NAH-dah"
+  },
+  {
+   "t": "Com licença",
+   "en": "Excuse me",
+   "ph": "kohm lee-SEN-sah"
+  },
+  {
+   "t": "Desculpe",
+   "en": "I'm sorry",
+   "ph": "dees-KOOL-pee"
+  },
+  {
+   "t": "Sim",
+   "en": "Yes",
+   "ph": "SEEM"
+  },
+  {
+   "t": "Não",
+   "en": "No",
+   "ph": "NOWM"
+  },
+  {
+   "t": "Bom dia",
+   "en": "Good morning",
+   "ph": "bohm JEE-ah"
+  },
+  {
+   "t": "Boa noite",
+   "en": "Good evening",
+   "ph": "BOH-ah NOY-chee"
+  },
+  {
+   "t": "Durma bem",
+   "en": "Good night",
+   "ph": "DOOR-mah BAYM"
+  },
+  {
+   "t": "Como vai você?",
+   "en": "How are you?",
+   "ph": "KOH-moo vy voh-SAY"
+  },
+  {
+   "t": "Estou bem, obrigado",
+   "en": "I'm fine, thanks",
+   "ph": "ees-TOH baym, oh-bree-GAH-doo"
+  },
+  {
+   "t": "E você?",
+   "en": "And you?",
+   "ph": "ee voh-SAY"
+  },
+  {
+   "t": "Muito prazer",
+   "en": "Nice to meet you",
+   "ph": "MOY-too prah-ZEHR"
+  },
+  {
+   "t": "Meu nome é Anna",
+   "en": "My name is Anna",
+   "ph": "MEH-oo NOH-mee eh AH-nah"
+  },
+  {
+   "t": "Qual é o seu nome?",
+   "en": "What is your name?",
+   "ph": "kwow eh oo SEH-oo NOH-mee"
+  },
+  {
+   "t": "Não entendo",
+   "en": "I don't understand",
+   "ph": "NOWM ayn-TEN-doo"
+  },
+  {
+   "t": "Você fala inglês?",
+   "en": "Do you speak English?",
+   "ph": "voh-SAY FAH-lah een-GLEHS"
+  },
+  {
+   "t": "Pode falar mais devagar?",
+   "en": "Can you speak more slowly?",
+   "ph": "POH-jee fah-LAR mysh jee-vah-GAR"
+  },
+  {
+   "t": "Pode repetir, por favor?",
+   "en": "Can you repeat that, please?",
+   "ph": "POH-jee heh-peh-CHEER, poor fah-VOR"
+  },
+  {
+   "t": "Não sei",
+   "en": "I don't know",
+   "ph": "NOWM SAY"
+  },
+  {
+   "t": "Socorro!",
+   "en": "Help!",
+   "ph": "soh-KOH-hoo"
+  },
+  {
+   "t": "Preciso de ajuda",
+   "en": "I need help",
+   "ph": "preh-SEE-zoo jee ah-ZHOO-dah"
+  },
+  {
+   "t": "Onde fica o banheiro?",
+   "en": "Where is the toilet?",
+   "ph": "OHN-jee FEE-kah oo bah-NYAY-roo"
+  },
+  {
+   "t": "Quanto custa isso?",
+   "en": "How much is this?",
+   "ph": "KWAN-too KOOS-tah EE-soo"
+  },
+  {
+   "t": "Onde fica a estação?",
+   "en": "Where is the station?",
+   "ph": "OHN-jee FEE-kah ah ees-tah-SOWM"
+  },
+  {
+   "t": "Estou perdido",
+   "en": "I'm lost",
+   "ph": "ees-TOH pehr-JEE-doo"
+  },
+  {
+   "t": "Eu queria água, por favor",
+   "en": "I would like some water, please",
+   "ph": "eh-oo keh-REE-ah AH-gwah, poor fah-VOR"
+  },
+  {
+   "t": "O cardápio, por favor",
+   "en": "The menu, please",
+   "ph": "oo kar-DAH-pyoo, poor fah-VOR"
+  },
+  {
+   "t": "A conta, por favor",
+   "en": "The bill, please",
+   "ph": "ah KOHN-tah, poor fah-VOR"
+  },
+  {
+   "t": "Estou com fome",
+   "en": "I'm hungry",
+   "ph": "ees-TOH kohm FOH-mee"
+  },
+  {
+   "t": "Estou com sede",
+   "en": "I'm thirsty",
+   "ph": "ees-TOH kohm SEH-jee"
+  },
+  {
+   "t": "Um, dois, três, quatro, cinco",
+   "en": "One, two, three, four, five",
+   "ph": "oom, doysh, trehsh, KWAH-troo, SEEN-koo"
+  },
+  {
+   "t": "Que horas são?",
+   "en": "What time is it?",
+   "ph": "kee OH-rahs SOWM"
+  },
+  {
+   "t": "Até amanhã",
+   "en": "See you tomorrow",
+   "ph": "ah-TEH ah-mah-NYAH"
+  },
+  {
+   "t": "Eu queria isto",
+   "en": "I would like this",
+   "ph": "eh-oo keh-REE-ah EES-too"
+  },
+  {
+   "t": "De onde você é?",
+   "en": "Where are you from?",
+   "ph": "jee OHN-jee voh-SAY eh"
+  },
+  {
+   "t": "Sou da Inglaterra",
+   "en": "I'm from England",
+   "ph": "soh dah een-glah-TEH-hah"
+  },
+  {
+   "t": "Moro em Londres",
+   "en": "I live in London",
+   "ph": "MOH-roo ayn LOHN-drees"
+  },
+  {
+   "t": "Falo um pouco de português",
+   "en": "I speak a little Portuguese",
+   "ph": "FAH-loo oom POH-koo jee por-too-GEHS"
+  },
+  {
+   "t": "Tem uma mesa para dois?",
+   "en": "Do you have a table for two?",
+   "ph": "tayn OO-mah MEH-zah PAH-rah DOYSH"
+  },
+  {
+   "t": "É longe daqui?",
+   "en": "Is it far from here?",
+   "ph": "eh LOHN-zhee dah-KEE"
+  },
+  {
+   "t": "Vire à esquerda",
+   "en": "Turn left",
+   "ph": "VEE-ree ah ees-KEHR-dah"
+  },
+  {
+   "t": "Siga em frente",
+   "en": "Go straight ahead",
+   "ph": "SEE-gah ayn FREN-chee"
+  },
+  {
+   "t": "Uma passagem, por favor",
+   "en": "A ticket, please",
+   "ph": "OO-mah pah-SAH-zhayn, poor fah-VOR"
+  },
+  {
+   "t": "Pode me ajudar?",
+   "en": "Can you help me?",
+   "ph": "POH-jee mee ah-zhoo-DAR"
+  },
+  {
+   "t": "Vocês aceitam cartão de crédito?",
+   "en": "Do you accept credit cards?",
+   "ph": "voh-SEHS ah-SAY-towm kar-TOWM jee KREH-jee-too"
+  },
+  {
+   "t": "Eu entendo",
+   "en": "I understand",
+   "ph": "eh-oo ayn-TEN-doo"
+  },
+  {
+   "t": "Boa tarde",
+   "en": "Good afternoon",
+   "ph": "BOH-ah TAR-jee"
+  },
+  {
+   "t": "Até logo",
+   "en": "See you later",
+   "ph": "ah-TEH LOH-goo"
+  },
+  {
+   "t": "Muito obrigado",
+   "en": "Thank you very much",
+   "ph": "MOY-too oh-bree-GAH-doo"
+  },
+  {
+   "t": "Não, obrigado",
+   "en": "No, thank you",
+   "ph": "NOWM, oh-bree-GAH-doo"
+  },
+  {
+   "t": "Talvez",
+   "en": "Maybe",
+   "ph": "tow-VEHS"
+  },
+  {
+   "t": "O que isso significa?",
+   "en": "What does this mean?",
+   "ph": "oo kee EE-soo seeg-nee-FEE-kah"
+  },
+  {
+   "t": "Como se diz isto em português?",
+   "en": "How do you say this in Portuguese?",
+   "ph": "KOH-moo see JEESH EES-too ayn por-too-GEHS"
+  },
+  {
+   "t": "Pode escrever?",
+   "en": "Can you write it down?",
+   "ph": "POH-jee ees-kreh-VEHR"
+  },
+  {
+   "t": "Alguém fala inglês?",
+   "en": "Does anyone speak English?",
+   "ph": "ow-GAYN FAH-lah een-GLEHS"
+  },
+  {
+   "t": "Chame a polícia!",
+   "en": "Call the police!",
+   "ph": "SHAH-mee ah poh-LEE-syah"
+  },
+  {
+   "t": "Estou me sentindo mal",
+   "en": "I feel sick",
+   "ph": "ees-TOH mee sen-CHEEN-doo MOW"
+  },
+  {
+   "t": "Preciso de um médico",
+   "en": "I need a doctor",
+   "ph": "preh-SEE-zoo jee oom MEH-jee-koo"
+  },
+  {
+   "t": "Onde fica o hospital?",
+   "en": "Where is the hospital?",
+   "ph": "OHN-jee FEE-kah oo ohs-pee-TOW"
+  },
+  {
+   "t": "Tenho alergia a nozes",
+   "en": "I'm allergic to nuts",
+   "ph": "TAYN-yoo ah-lehr-ZHEE-ah ah NOH-zeess"
+  },
+  {
+   "t": "Sou vegetariano",
+   "en": "I'm vegetarian",
+   "ph": "soh veh-zheh-tah-ree-AH-noo"
+  },
+  {
+   "t": "Um café com leite, por favor",
+   "en": "A coffee with milk, please",
+   "ph": "oom kah-FEH kohm LAY-chee, poor fah-VOR"
+  },
+  {
+   "t": "Uma cerveja, por favor",
+   "en": "A beer, please",
+   "ph": "OO-mah sehr-VAY-zhah, poor fah-VOR"
+  },
+  {
+   "t": "Saúde!",
+   "en": "Cheers!",
+   "ph": "sah-OO-jee"
+  },
+  {
+   "t": "Bom apetite",
+   "en": "Enjoy your meal",
+   "ph": "bohm ah-peh-CHEE-chee"
+  },
+  {
+   "t": "Está delicioso",
+   "en": "It's delicious",
+   "ph": "ees-TAH deh-lee-see-OH-zoo"
+  },
+  {
+   "t": "Estou satisfeito",
+   "en": "I'm full",
+   "ph": "ees-TOH sah-chees-FAY-too"
+  },
+  {
+   "t": "Onde fica o ponto de ônibus?",
+   "en": "Where is the bus stop?",
+   "ph": "OHN-jee FEE-kah oo POHN-too jee OH-nee-boos"
+  },
+  {
+   "t": "Onde posso encontrar um táxi?",
+   "en": "Where can I find a taxi?",
+   "ph": "OHN-jee POH-soo ayn-kohn-TRAR oom TAHK-see"
+  },
+  {
+   "t": "Como chego ao aeroporto?",
+   "en": "How do I get to the airport?",
+   "ph": "KOH-moo SHEH-goo ow ah-eh-roh-POR-too"
+  },
+  {
+   "t": "A que horas sai o trem?",
+   "en": "What time does the train leave?",
+   "ph": "ah kee OH-rahs SY oo TRAYN"
+  },
+  {
+   "t": "Quanto tempo leva?",
+   "en": "How long does it take?",
+   "ph": "KWAN-too TEM-poo LEH-vah"
+  },
+  {
+   "t": "Quero reservar um quarto",
+   "en": "I would like to book a room",
+   "ph": "KEH-roo heh-zehr-VAR oom KWAR-too"
+  },
+  {
+   "t": "Que dia é hoje?",
+   "en": "What day is it today?",
+   "ph": "kee JEE-ah eh OH-zhee"
+  },
+  {
+   "t": "A que horas vocês abrem?",
+   "en": "What time do you open?",
+   "ph": "ah kee OH-rahs voh-SEHS AH-brayn"
+  },
+  {
+   "t": "É muito caro",
+   "en": "It's too expensive",
+   "ph": "eh MOY-too KAH-roo"
+  },
+  {
+   "t": "Tem algo mais barato?",
+   "en": "Do you have a cheaper one?",
+   "ph": "tayn OW-goo mysh bah-RAH-too"
+  },
+  {
+   "t": "Dez, vinte, cinquenta, cem",
+   "en": "Ten, twenty, fifty, one hundred",
+   "ph": "dehs, VEEN-chee, seen-KWEN-tah, sayn"
+  },
+  {
+   "t": "Estou cansado",
+   "en": "I'm tired",
+   "ph": "ees-TOH kahn-SAH-doo"
+  },
+  {
+   "t": "Estou feliz",
+   "en": "I'm happy",
+   "ph": "ees-TOH feh-LEESS"
+  },
+  {
+   "t": "Estou com frio",
+   "en": "I'm cold",
+   "ph": "ees-TOH kohm FREE-oo"
+  },
+  {
+   "t": "Eu gosto disso",
+   "en": "I like it",
+   "ph": "eh-oo GOHS-too JEE-soo"
+  },
+  {
+   "t": "Eu não gosto disso",
+   "en": "I don't like it",
+   "ph": "eh-oo nowm GOHS-too JEE-soo"
+  },
+  {
+   "t": "Parabéns!",
+   "en": "Congratulations!",
+   "ph": "pah-rah-BAYNS"
+  },
+  {
+   "t": "Feliz aniversário!",
+   "en": "Happy birthday!",
+   "ph": "feh-LEES ah-nee-vehr-SAH-ryoo"
+  },
+  {
+   "t": "Boa sorte!",
+   "en": "Good luck!",
+   "ph": "BOH-ah SOR-chee"
+  },
+  {
+   "t": "Bem-vindo!",
+   "en": "Welcome!",
+   "ph": "bayn-VEEN-doo"
+  },
+  {
+   "t": "Sem problema",
+   "en": "No problem",
+   "ph": "sayn proh-BLEH-mah"
+  },
+  {
+   "t": "Com certeza",
+   "en": "Of course",
+   "ph": "kohm sehr-TEH-zah"
+  },
+  {
+   "t": "Concordo",
+   "en": "I agree",
+   "ph": "kohn-KOR-doo"
+  },
+  {
+   "t": "Um momento, por favor",
+   "en": "Wait a moment, please",
+   "ph": "oom moh-MEN-too, poor fah-VOR"
+  },
+  {
+   "t": "Estou pronto",
+   "en": "I'm ready",
+   "ph": "ees-TOH PROHN-too"
+  },
+  {
+   "t": "Posso tirar uma foto aqui?",
+   "en": "Can I take a photo here?",
+   "ph": "POH-soo chee-RAR OO-mah FOH-too ah-KEE"
+  },
+  {
+   "t": "Qual é a senha do Wi-Fi?",
+   "en": "What is the Wi-Fi password?",
+   "ph": "kwow eh ah SEN-yah doo wee-FEE"
+  },
+  {
+   "t": "Onde posso carregar meu celular?",
+   "en": "Where can I charge my phone?",
+   "ph": "OHN-jee POH-soo kah-heh-GAR MEH-oo seh-loo-LAR"
+  },
+  {
+   "t": "Tenha um bom dia!",
+   "en": "Have a nice day!",
+   "ph": "TAYN-yah oom bohm JEE-ah"
+  }
+ ]
+}

@@ -1,0 +1,505 @@
+{
+ "lang": "it",
+ "phrases": [
+  {
+   "t": "Ciao",
+   "en": "Hello",
+   "ph": "CHOW"
+  },
+  {
+   "t": "Buongiorno",
+   "en": "Good morning",
+   "ph": "bwon-JOR-no"
+  },
+  {
+   "t": "Buonasera",
+   "en": "Good evening",
+   "ph": "bwo-na-SEH-ra"
+  },
+  {
+   "t": "Arrivederci",
+   "en": "Goodbye",
+   "ph": "ar-ree-veh-DEHR-chee"
+  },
+  {
+   "t": "Per favore",
+   "en": "Please",
+   "ph": "per fa-VO-reh"
+  },
+  {
+   "t": "Grazie",
+   "en": "Thank you",
+   "ph": "GRAT-see-eh"
+  },
+  {
+   "t": "Grazie mille",
+   "en": "Thank you very much",
+   "ph": "GRAT-see-eh MEEL-leh"
+  },
+  {
+   "t": "Prego",
+   "en": "You're welcome",
+   "ph": "PREH-go"
+  },
+  {
+   "t": "Sì",
+   "en": "Yes",
+   "ph": "see"
+  },
+  {
+   "t": "No",
+   "en": "No",
+   "ph": "no"
+  },
+  {
+   "t": "Scusi",
+   "en": "Excuse me",
+   "ph": "SKOO-zee"
+  },
+  {
+   "t": "Mi dispiace",
+   "en": "I'm sorry",
+   "ph": "mee dee-SPYA-cheh"
+  },
+  {
+   "t": "Non capisco",
+   "en": "I don't understand",
+   "ph": "non ka-PEE-sko"
+  },
+  {
+   "t": "Può parlare più lentamente?",
+   "en": "Can you speak more slowly?",
+   "ph": "pwo par-LA-reh pyoo len-ta-MEN-teh"
+  },
+  {
+   "t": "Può ripetere?",
+   "en": "Can you repeat that?",
+   "ph": "pwo ree-PEH-teh-reh"
+  },
+  {
+   "t": "Parla inglese?",
+   "en": "Do you speak English?",
+   "ph": "PAR-la een-GLEH-zeh"
+  },
+  {
+   "t": "Parlo un po' d'italiano",
+   "en": "I speak a little Italian",
+   "ph": "PAR-lo oon po dee-ta-LYA-no"
+  },
+  {
+   "t": "Mi chiamo Anna",
+   "en": "My name is Anna",
+   "ph": "mee KYA-mo AN-na"
+  },
+  {
+   "t": "Come si chiama?",
+   "en": "What's your name?",
+   "ph": "KO-meh see KYA-ma"
+  },
+  {
+   "t": "Piacere",
+   "en": "Nice to meet you",
+   "ph": "pya-CHEH-reh"
+  },
+  {
+   "t": "Come sta?",
+   "en": "How are you?",
+   "ph": "KO-meh sta"
+  },
+  {
+   "t": "Sto bene, grazie",
+   "en": "I'm fine, thank you",
+   "ph": "sto BEH-neh GRAT-see-eh"
+  },
+  {
+   "t": "E lei?",
+   "en": "And you?",
+   "ph": "eh lay"
+  },
+  {
+   "t": "Di dov'è?",
+   "en": "Where are you from?",
+   "ph": "dee do-VEH"
+  },
+  {
+   "t": "Vengo dall'Inghilterra",
+   "en": "I'm from England",
+   "ph": "VEN-go dal-leen-gheel-TEHR-ra"
+  },
+  {
+   "t": "Aiuto!",
+   "en": "Help!",
+   "ph": "a-YOO-to"
+  },
+  {
+   "t": "Può aiutarmi?",
+   "en": "Can you help me?",
+   "ph": "pwo a-yoo-TAR-mee"
+  },
+  {
+   "t": "Dov'è il bagno?",
+   "en": "Where is the bathroom?",
+   "ph": "do-VEH eel BA-nyo"
+  },
+  {
+   "t": "Dov'è la stazione?",
+   "en": "Where is the station?",
+   "ph": "do-VEH la sta-TSYO-neh"
+  },
+  {
+   "t": "Quanto costa?",
+   "en": "How much is it?",
+   "ph": "KWAN-to KO-sta"
+  },
+  {
+   "t": "È troppo caro",
+   "en": "That's too expensive",
+   "ph": "eh TROP-po KA-ro"
+  },
+  {
+   "t": "Vorrei questo",
+   "en": "I would like this",
+   "ph": "vor-RAY KWEH-sto"
+  },
+  {
+   "t": "Il conto, per favore",
+   "en": "The bill, please",
+   "ph": "eel KON-to per fa-VO-reh"
+  },
+  {
+   "t": "Un tavolo per due, per favore",
+   "en": "A table for two, please",
+   "ph": "oon TA-vo-lo per DOO-eh per fa-VO-reh"
+  },
+  {
+   "t": "Il menù, per favore",
+   "en": "The menu, please",
+   "ph": "eel meh-NOO per fa-VO-reh"
+  },
+  {
+   "t": "Acqua, per favore",
+   "en": "Water, please",
+   "ph": "AK-kwa per fa-VO-reh"
+  },
+  {
+   "t": "Un caffè, per favore",
+   "en": "A coffee, please",
+   "ph": "oon kaf-FEH per fa-VO-reh"
+  },
+  {
+   "t": "Ho fame",
+   "en": "I'm hungry",
+   "ph": "o FA-meh"
+  },
+  {
+   "t": "Ho sete",
+   "en": "I'm thirsty",
+   "ph": "o SEH-teh"
+  },
+  {
+   "t": "È delizioso",
+   "en": "It's delicious",
+   "ph": "eh deh-lee-TSYO-zo"
+  },
+  {
+   "t": "Buonanotte",
+   "en": "Good night",
+   "ph": "bwo-na-NOT-teh"
+  },
+  {
+   "t": "Non lo so",
+   "en": "I don't know",
+   "ph": "non lo so"
+  },
+  {
+   "t": "Certo",
+   "en": "Of course",
+   "ph": "CHEHR-to"
+  },
+  {
+   "t": "Nessun problema",
+   "en": "No problem",
+   "ph": "nes-SOON pro-BLEH-ma"
+  },
+  {
+   "t": "Che ore sono?",
+   "en": "What time is it?",
+   "ph": "keh O-reh SO-no"
+  },
+  {
+   "t": "Oggi",
+   "en": "Today",
+   "ph": "OD-jee"
+  },
+  {
+   "t": "Domani",
+   "en": "Tomorrow",
+   "ph": "do-MA-nee"
+  },
+  {
+   "t": "Mi sono perso",
+   "en": "I'm lost",
+   "ph": "mee SO-no PEHR-so"
+  },
+  {
+   "t": "Giri a sinistra",
+   "en": "Turn left",
+   "ph": "JEE-ree a see-NEE-stra"
+  },
+  {
+   "t": "Giri a destra",
+   "en": "Turn right",
+   "ph": "JEE-ree a DEH-stra"
+  },
+  {
+   "t": "Sempre dritto",
+   "en": "Straight ahead",
+   "ph": "SEM-preh DREET-to"
+  },
+  {
+   "t": "È lontano?",
+   "en": "Is it far?",
+   "ph": "eh lon-TA-no"
+  },
+  {
+   "t": "Un biglietto, per favore",
+   "en": "One ticket, please",
+   "ph": "oon bee-LYET-to per fa-VO-reh"
+  },
+  {
+   "t": "Dov'è la fermata dell'autobus?",
+   "en": "Where is the bus stop?",
+   "ph": "do-VEH la fer-MA-ta del-LOW-to-boos"
+  },
+  {
+   "t": "All'aeroporto, per favore",
+   "en": "To the airport, please",
+   "ph": "al-la-eh-ro-POR-to per fa-VO-reh"
+  },
+  {
+   "t": "Ho una prenotazione",
+   "en": "I have a reservation",
+   "ph": "o OO-na preh-no-ta-TSYO-neh"
+  },
+  {
+   "t": "Avete una camera libera?",
+   "en": "Do you have a free room?",
+   "ph": "a-VEH-teh OO-na KA-meh-ra LEE-beh-ra"
+  },
+  {
+   "t": "Uno, due, tre",
+   "en": "One, two, three",
+   "ph": "OO-no DOO-eh treh"
+  },
+  {
+   "t": "Accettate carte?",
+   "en": "Do you accept cards?",
+   "ph": "at-cheh-TA-teh KAR-teh"
+  },
+  {
+   "t": "Pago in contanti",
+   "en": "I'll pay in cash",
+   "ph": "PA-go een kon-TAN-tee"
+  },
+  {
+   "t": "Dov'è la farmacia?",
+   "en": "Where is the pharmacy?",
+   "ph": "do-VEH la far-ma-CHEE-a"
+  },
+  {
+   "t": "Non mi sento bene",
+   "en": "I don't feel well",
+   "ph": "non mee SEN-to BEH-neh"
+  },
+  {
+   "t": "Ho bisogno di un medico",
+   "en": "I need a doctor",
+   "ph": "o bee-ZO-nyo dee oon MEH-dee-ko"
+  },
+  {
+   "t": "Chiami la polizia",
+   "en": "Call the police",
+   "ph": "KYA-mee la po-lee-TSEE-a"
+  },
+  {
+   "t": "Sono felice",
+   "en": "I'm happy",
+   "ph": "SO-no feh-LEE-cheh"
+  },
+  {
+   "t": "Sono stanco",
+   "en": "I'm tired",
+   "ph": "SO-no STAN-ko"
+  },
+  {
+   "t": "Mi piace",
+   "en": "I like it",
+   "ph": "mee PYA-cheh"
+  },
+  {
+   "t": "Non mi piace",
+   "en": "I don't like it",
+   "ph": "non mee PYA-cheh"
+  },
+  {
+   "t": "Cos'è questo?",
+   "en": "What is this?",
+   "ph": "ko-ZEH KWEH-sto"
+  },
+  {
+   "t": "Che cosa significa?",
+   "en": "What does this mean?",
+   "ph": "keh KO-za see-NYEE-fee-ka"
+  },
+  {
+   "t": "Come si dice questo in italiano?",
+   "en": "How do you say this in Italian?",
+   "ph": "KO-meh see DEE-cheh KWEH-sto een ee-ta-LYA-no"
+  },
+  {
+   "t": "C'è il Wi-Fi?",
+   "en": "Is there Wi-Fi?",
+   "ph": "cheh eel WEE-fee"
+  },
+  {
+   "t": "Che giorno è oggi?",
+   "en": "What day is it today?",
+   "ph": "keh JOR-no eh OD-jee"
+  },
+  {
+   "t": "Adesso",
+   "en": "Now",
+   "ph": "a-DES-so"
+  },
+  {
+   "t": "Più tardi",
+   "en": "Later",
+   "ph": "pyoo TAR-dee"
+  },
+  {
+   "t": "Un momento",
+   "en": "One moment",
+   "ph": "oon mo-MEN-to"
+  },
+  {
+   "t": "Andiamo",
+   "en": "Let's go",
+   "ph": "an-DYA-mo"
+  },
+  {
+   "t": "Sono pronto",
+   "en": "I'm ready",
+   "ph": "SO-no PRON-to"
+  },
+  {
+   "t": "Sono in ritardo",
+   "en": "I'm late",
+   "ph": "SO-no een ree-TAR-do"
+  },
+  {
+   "t": "Buona fortuna!",
+   "en": "Good luck!",
+   "ph": "BWO-na for-TOO-na"
+  },
+  {
+   "t": "Buon compleanno!",
+   "en": "Happy birthday!",
+   "ph": "bwon kom-pleh-AN-no"
+  },
+  {
+   "t": "Benvenuto",
+   "en": "Welcome",
+   "ph": "ben-veh-NOO-to"
+  },
+  {
+   "t": "Buona giornata",
+   "en": "Have a nice day",
+   "ph": "BWO-na jor-NA-ta"
+  },
+  {
+   "t": "Buon viaggio",
+   "en": "Have a good trip",
+   "ph": "bwon VYAD-jo"
+  },
+  {
+   "t": "Sto imparando l'italiano",
+   "en": "I'm learning Italian",
+   "ph": "sto eem-pa-RAN-do lee-ta-LYA-no"
+  },
+  {
+   "t": "Sono in vacanza",
+   "en": "I'm on holiday",
+   "ph": "SO-no een va-KAN-tsa"
+  },
+  {
+   "t": "Quanto ci vuole?",
+   "en": "How long does it take?",
+   "ph": "KWAN-to chee VWO-leh"
+  },
+  {
+   "t": "Vivo a Londra",
+   "en": "I live in London",
+   "ph": "VEE-vo a LON-dra"
+  },
+  {
+   "t": "Sono d'accordo",
+   "en": "I agree",
+   "ph": "SO-no dak-KOR-do"
+  },
+  {
+   "t": "Forse",
+   "en": "Maybe",
+   "ph": "FOR-seh"
+  },
+  {
+   "t": "Davvero?",
+   "en": "Really?",
+   "ph": "dav-VEH-ro"
+  },
+  {
+   "t": "Non importa",
+   "en": "It doesn't matter",
+   "ph": "non eem-POR-ta"
+  },
+  {
+   "t": "A più tardi",
+   "en": "See you later",
+   "ph": "a pyoo TAR-dee"
+  },
+  {
+   "t": "A domani",
+   "en": "See you tomorrow",
+   "ph": "a do-MA-nee"
+  },
+  {
+   "t": "Sono allergico alle noci",
+   "en": "I'm allergic to nuts",
+   "ph": "SO-no al-LEHR-jee-ko AL-leh NO-chee"
+  },
+  {
+   "t": "Senza carne, per favore",
+   "en": "Without meat, please",
+   "ph": "SEN-tsa KAR-neh per fa-VO-reh"
+  },
+  {
+   "t": "Una birra, per favore",
+   "en": "A beer, please",
+   "ph": "OO-na BEER-ra per fa-VO-reh"
+  },
+  {
+   "t": "Cin cin!",
+   "en": "Cheers!",
+   "ph": "cheen cheen"
+  },
+  {
+   "t": "Abbia cura di sé",
+   "en": "Take care",
+   "ph": "AB-bya KOO-ra dee seh"
+  },
+  {
+   "t": "È bellissimo",
+   "en": "It's beautiful",
+   "ph": "eh bel-LEES-see-mo"
+  }
+ ]
+}

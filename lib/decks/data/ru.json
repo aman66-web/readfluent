@@ -1,0 +1,505 @@
+{
+ "lang": "ru",
+ "phrases": [
+  {
+   "t": "Здравствуйте",
+   "en": "Hello",
+   "ph": "ZDRAH-stvooy-tye"
+  },
+  {
+   "t": "Доброе утро",
+   "en": "Good morning",
+   "ph": "DOH-bra-ye OO-tra"
+  },
+  {
+   "t": "Добрый вечер",
+   "en": "Good evening",
+   "ph": "DOH-bryy VYEH-chyer"
+  },
+  {
+   "t": "Спокойной ночи",
+   "en": "Good night",
+   "ph": "spa-KOY-noy NOH-chee"
+  },
+  {
+   "t": "До свидания",
+   "en": "Goodbye",
+   "ph": "da svee-DAH-nya"
+  },
+  {
+   "t": "Увидимся",
+   "en": "See you later",
+   "ph": "oo-VEE-deem-sya"
+  },
+  {
+   "t": "Пожалуйста",
+   "en": "Please",
+   "ph": "pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Спасибо",
+   "en": "Thank you",
+   "ph": "spa-SEE-ba"
+  },
+  {
+   "t": "Большое спасибо",
+   "en": "Thank you very much",
+   "ph": "bal-SHOH-ye spa-SEE-ba"
+  },
+  {
+   "t": "Не за что",
+   "en": "You're welcome",
+   "ph": "nye ZAH shto"
+  },
+  {
+   "t": "Извините",
+   "en": "Excuse me",
+   "ph": "eez-vee-NEE-tye"
+  },
+  {
+   "t": "Простите",
+   "en": "I'm sorry",
+   "ph": "pra-STEE-tye"
+  },
+  {
+   "t": "Да",
+   "en": "Yes",
+   "ph": "da"
+  },
+  {
+   "t": "Нет",
+   "en": "No",
+   "ph": "nyet"
+  },
+  {
+   "t": "Может быть",
+   "en": "Maybe",
+   "ph": "MOH-zhet byt"
+  },
+  {
+   "t": "Как дела?",
+   "en": "How are you?",
+   "ph": "kak dee-LAH"
+  },
+  {
+   "t": "Хорошо, спасибо",
+   "en": "I'm fine, thank you",
+   "ph": "kha-ra-SHOH, spa-SEE-ba"
+  },
+  {
+   "t": "А у вас?",
+   "en": "And you?",
+   "ph": "ah oo VAHS"
+  },
+  {
+   "t": "Меня зовут...",
+   "en": "My name is...",
+   "ph": "mee-NYA za-VOOT"
+  },
+  {
+   "t": "Как вас зовут?",
+   "en": "What is your name?",
+   "ph": "kak vas za-VOOT"
+  },
+  {
+   "t": "Приятно познакомиться",
+   "en": "Nice to meet you",
+   "ph": "pree-YAHT-na paz-na-KOH-meet-sya"
+  },
+  {
+   "t": "Я из Англии",
+   "en": "I'm from England",
+   "ph": "ya eez AHN-glee-ee"
+  },
+  {
+   "t": "Я не понимаю",
+   "en": "I don't understand",
+   "ph": "ya nye pa-nee-MAH-yu"
+  },
+  {
+   "t": "Я не знаю",
+   "en": "I don't know",
+   "ph": "ya nye ZNAH-yu"
+  },
+  {
+   "t": "Вы говорите по-английски?",
+   "en": "Do you speak English?",
+   "ph": "vy ga-va-REE-tye pa-an-GLEE-skee"
+  },
+  {
+   "t": "Я немного говорю по-русски",
+   "en": "I speak a little",
+   "ph": "ya nyem-NOH-ga ga-va-RYU pa-ROO-skee"
+  },
+  {
+   "t": "Говорите медленнее, пожалуйста",
+   "en": "Can you speak more slowly?",
+   "ph": "ga-va-REE-tye MYEHD-lyen-nye-ye, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Повторите, пожалуйста",
+   "en": "Can you repeat that?",
+   "ph": "paf-ta-REE-tye, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Что это значит?",
+   "en": "What does this mean?",
+   "ph": "shto EH-ta ZNAH-cheet"
+  },
+  {
+   "t": "Помогите!",
+   "en": "Help!",
+   "ph": "pa-ma-GEE-tye"
+  },
+  {
+   "t": "Вы можете мне помочь?",
+   "en": "Can you help me?",
+   "ph": "vy MOH-zhe-tye mnye pa-MOCH"
+  },
+  {
+   "t": "Я заблудился (заблудилась)",
+   "en": "I'm lost",
+   "ph": "ya za-bloo-DEEL-sya (za-bloo-DEE-las)"
+  },
+  {
+   "t": "Где туалет?",
+   "en": "Where is the bathroom?",
+   "ph": "gdye too-a-LYET"
+  },
+  {
+   "t": "Сколько это стоит?",
+   "en": "How much is this?",
+   "ph": "SKOHL-ka EH-ta STOH-eet"
+  },
+  {
+   "t": "Это слишком дорого",
+   "en": "It's too expensive",
+   "ph": "EH-ta SLEESH-kam DOH-ra-ga"
+  },
+  {
+   "t": "Дайте мне это, пожалуйста",
+   "en": "I would like this",
+   "ph": "DAHY-tye mnye EH-ta, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Воду, пожалуйста",
+   "en": "Water, please",
+   "ph": "VOH-doo, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Счёт, пожалуйста",
+   "en": "The bill, please",
+   "ph": "SHCHOT, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Я голоден (голодна)",
+   "en": "I'm hungry",
+   "ph": "ya GOH-la-dyen (ga-lad-NAH)"
+  },
+  {
+   "t": "Я хочу пить",
+   "en": "I'm thirsty",
+   "ph": "ya kha-CHOO peet"
+  },
+  {
+   "t": "Меню, пожалуйста",
+   "en": "The menu, please",
+   "ph": "mee-NYU, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Очень вкусно",
+   "en": "It's delicious",
+   "ph": "OH-chen FKOOS-na"
+  },
+  {
+   "t": "Где вокзал?",
+   "en": "Where is the station?",
+   "ph": "gdye vak-ZAL"
+  },
+  {
+   "t": "Где автобусная остановка?",
+   "en": "Where is the bus stop?",
+   "ph": "gdye af-TOH-boos-na-ya a-sta-NOHF-ka"
+  },
+  {
+   "t": "Поверните налево",
+   "en": "Turn left",
+   "ph": "pa-veer-NEE-tye na-LYEH-va"
+  },
+  {
+   "t": "Поверните направо",
+   "en": "Turn right",
+   "ph": "pa-veer-NEE-tye na-PRAH-va"
+  },
+  {
+   "t": "Прямо",
+   "en": "Straight ahead",
+   "ph": "PRYAH-ma"
+  },
+  {
+   "t": "Мне нужен врач",
+   "en": "I need a doctor",
+   "ph": "mnye NOO-zhen vrach"
+  },
+  {
+   "t": "Вызовите полицию",
+   "en": "Call the police",
+   "ph": "VY-za-vee-tye pa-LEE-tsy-yu"
+  },
+  {
+   "t": "Без проблем",
+   "en": "No problem",
+   "ph": "byez prab-LYEM"
+  },
+  {
+   "t": "Мне нравится",
+   "en": "I like it",
+   "ph": "mnye NRAH-vee-tsa"
+  },
+  {
+   "t": "Мне не нравится",
+   "en": "I don't like it",
+   "ph": "mnye nye NRAH-vee-tsa"
+  },
+  {
+   "t": "Один",
+   "en": "One",
+   "ph": "a-DEEN"
+  },
+  {
+   "t": "Два",
+   "en": "Two",
+   "ph": "dvah"
+  },
+  {
+   "t": "Три",
+   "en": "Three",
+   "ph": "tree"
+  },
+  {
+   "t": "Десять",
+   "en": "Ten",
+   "ph": "DYEH-syat"
+  },
+  {
+   "t": "Сто",
+   "en": "One hundred",
+   "ph": "sto"
+  },
+  {
+   "t": "Который час?",
+   "en": "What time is it?",
+   "ph": "ka-TOH-ry chas"
+  },
+  {
+   "t": "Сегодня",
+   "en": "Today",
+   "ph": "see-VOHD-nya"
+  },
+  {
+   "t": "Завтра",
+   "en": "Tomorrow",
+   "ph": "ZAHF-tra"
+  },
+  {
+   "t": "Вчера",
+   "en": "Yesterday",
+   "ph": "fchee-RAH"
+  },
+  {
+   "t": "Сейчас",
+   "en": "Now",
+   "ph": "see-CHAS"
+  },
+  {
+   "t": "Позже",
+   "en": "Later",
+   "ph": "POH-zhe"
+  },
+  {
+   "t": "Подождите, пожалуйста",
+   "en": "Wait a moment, please",
+   "ph": "pa-dazh-DEE-tye, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Я устал (устала)",
+   "en": "I'm tired",
+   "ph": "ya oos-TAL (oos-TAH-la)"
+  },
+  {
+   "t": "Я рад (рада)",
+   "en": "I'm happy",
+   "ph": "ya rat (RAH-da)"
+  },
+  {
+   "t": "Я болен (больна)",
+   "en": "I'm sick",
+   "ph": "ya BOH-lyen (bal-NAH)"
+  },
+  {
+   "t": "С днём рождения!",
+   "en": "Happy birthday",
+   "ph": "z dnyom razh-DYEH-nee-ya"
+  },
+  {
+   "t": "Поздравляю!",
+   "en": "Congratulations",
+   "ph": "paz-drav-LYAH-yu"
+  },
+  {
+   "t": "Удачи!",
+   "en": "Good luck",
+   "ph": "oo-DAH-chee"
+  },
+  {
+   "t": "За здоровье!",
+   "en": "Cheers!",
+   "ph": "za zda-ROH-vye"
+  },
+  {
+   "t": "Откуда вы?",
+   "en": "Where are you from?",
+   "ph": "at-KOO-da vy"
+  },
+  {
+   "t": "Сколько вам лет?",
+   "en": "How old are you?",
+   "ph": "SKOHL-ka vam lyet"
+  },
+  {
+   "t": "Я живу в Лондоне",
+   "en": "I live in London",
+   "ph": "ya zhee-VOO v LOHN-da-nye"
+  },
+  {
+   "t": "Я студент (студентка)",
+   "en": "I'm a student",
+   "ph": "ya stoo-DYENT (stoo-DYENT-ka)"
+  },
+  {
+   "t": "Я в отпуске",
+   "en": "I'm on vacation",
+   "ph": "ya v OHT-poos-kye"
+  },
+  {
+   "t": "Столик на двоих, пожалуйста",
+   "en": "A table for two, please",
+   "ph": "STOH-leek na dva-EEKH, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Я вегетарианец (вегетарианка)",
+   "en": "I'm vegetarian",
+   "ph": "ya vye-gye-ta-ree-AH-nyets (vye-gye-ta-ree-AHN-ka)"
+  },
+  {
+   "t": "Кофе, пожалуйста",
+   "en": "A coffee, please",
+   "ph": "KOH-fye, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Пиво, пожалуйста",
+   "en": "A beer, please",
+   "ph": "PEE-va, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Можно оплатить картой?",
+   "en": "Can I pay by card?",
+   "ph": "MOHZH-na a-pla-TEET KAHR-toy"
+  },
+  {
+   "t": "У вас есть свободный номер?",
+   "en": "Do you have a room?",
+   "ph": "oo vas yest sva-BOHD-ny NOH-myer"
+  },
+  {
+   "t": "Где аэропорт?",
+   "en": "Where is the airport?",
+   "ph": "gdye a-eh-ra-PORT"
+  },
+  {
+   "t": "Один билет, пожалуйста",
+   "en": "One ticket, please",
+   "ph": "a-DEEN bee-LYET, pa-ZHAH-loo-sta"
+  },
+  {
+   "t": "Сколько стоит билет?",
+   "en": "How much is a ticket?",
+   "ph": "SKOHL-ka STOH-eet bee-LYET"
+  },
+  {
+   "t": "Во сколько отправление?",
+   "en": "What time does it leave?",
+   "ph": "va SKOHL-ka at-prav-LYEH-nee-ye"
+  },
+  {
+   "t": "Это место свободно?",
+   "en": "Is this seat free?",
+   "ph": "EH-ta MYES-ta sva-BOHD-na"
+  },
+  {
+   "t": "У меня бронь",
+   "en": "I have a reservation",
+   "ph": "oo mee-NYA bron"
+  },
+  {
+   "t": "Можно сфотографировать?",
+   "en": "Can I take a photo?",
+   "ph": "MOHZH-na sfa-ta-gra-FEE-ra-vat"
+  },
+  {
+   "t": "Здесь есть вайфай?",
+   "en": "Is there Wi-Fi?",
+   "ph": "zdyes yest VAY-fay"
+  },
+  {
+   "t": "Какой пароль от вайфая?",
+   "en": "What's the Wi-Fi password?",
+   "ph": "ka-KOY pa-ROL at VAY-fa-ya"
+  },
+  {
+   "t": "Я потерял (потеряла) паспорт",
+   "en": "I lost my passport",
+   "ph": "ya pa-tee-RYAL (pa-tee-RYAH-la) PAS-part"
+  },
+  {
+   "t": "Очень жарко",
+   "en": "It's very hot",
+   "ph": "OH-chen ZHAR-ka"
+  },
+  {
+   "t": "Что это?",
+   "en": "What is this?",
+   "ph": "shto EH-ta"
+  },
+  {
+   "t": "Осторожно!",
+   "en": "Be careful!",
+   "ph": "a-sta-ROZH-na"
+  },
+  {
+   "t": "Конечно",
+   "en": "Of course",
+   "ph": "ka-NYESH-na"
+  },
+  {
+   "t": "Это всё, спасибо",
+   "en": "That's all, thank you",
+   "ph": "EH-ta fsyo, spa-SEE-ba"
+  },
+  {
+   "t": "Я согласен (согласна)",
+   "en": "I agree",
+   "ph": "ya sag-LAH-syen (sag-LAHS-na)"
+  },
+  {
+   "t": "Хорошего дня",
+   "en": "Have a nice day",
+   "ph": "kha-ROH-she-va dnya"
+  },
+  {
+   "t": "Мне холодно",
+   "en": "I'm cold",
+   "ph": "mnye KHOH-lad-na"
+  }
+ ]
+}

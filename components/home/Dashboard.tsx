@@ -12,6 +12,7 @@ import { findBook, coverAuthor } from "@/lib/preview/catalog";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { LEDGER_KEY, parseLedger, streak, totalXp } from "@/lib/xp/ledger";
 import { dayDate, useToday } from "@/lib/xp/today";
+import { Targets } from "@/components/home/Targets";
 import { LevelCard } from "./LevelCard";
 import { StudyChart } from "./StudyChart";
 
@@ -59,6 +60,7 @@ export function Dashboard() {
 
       <div className="mt-4">
         <LevelCard xp={totalXp(ledger)} learn={a.learn} />
+        <Targets />
         <StudyChart ledger={ledger} goal={goal} bookName={bookName} />
       </div>
 

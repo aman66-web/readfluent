@@ -1,0 +1,505 @@
+{
+ "lang": "ur",
+ "phrases": [
+  {
+   "t": "السلام علیکم",
+   "en": "Hello",
+   "ph": "as-sa-LAAM a-lay-KUM"
+  },
+  {
+   "t": "صبح بخیر",
+   "en": "Good morning",
+   "ph": "SUBH ba-KHAIR"
+  },
+  {
+   "t": "شام بخیر",
+   "en": "Good evening",
+   "ph": "SHAAM ba-KHAIR"
+  },
+  {
+   "t": "شب بخیر",
+   "en": "Good night",
+   "ph": "SHAB ba-KHAIR"
+  },
+  {
+   "t": "خدا حافظ",
+   "en": "Goodbye",
+   "ph": "khu-DAA HAA-fiz"
+  },
+  {
+   "t": "پھر ملیں گے",
+   "en": "See you later",
+   "ph": "phir MI-leyn-gey"
+  },
+  {
+   "t": "براہ مہربانی",
+   "en": "Please",
+   "ph": "braa meh-ar-BAA-nee"
+  },
+  {
+   "t": "شکریہ",
+   "en": "Thank you",
+   "ph": "SHUK-ri-ya"
+  },
+  {
+   "t": "بہت بہت شکریہ",
+   "en": "Thank you very much",
+   "ph": "ba-HUT ba-HUT SHUK-ri-ya"
+  },
+  {
+   "t": "کوئی بات نہیں",
+   "en": "You're welcome",
+   "ph": "ko-EE baat na-HEEN"
+  },
+  {
+   "t": "معاف کیجیے",
+   "en": "Excuse me",
+   "ph": "maaf kee-JEE-yay"
+  },
+  {
+   "t": "مجھے افسوس ہے",
+   "en": "I'm sorry",
+   "ph": "mu-JHAY af-SOS hay"
+  },
+  {
+   "t": "جی ہاں",
+   "en": "Yes",
+   "ph": "jee HAAN"
+  },
+  {
+   "t": "نہیں",
+   "en": "No",
+   "ph": "na-HEEN"
+  },
+  {
+   "t": "شاید",
+   "en": "Maybe",
+   "ph": "SHAA-yad"
+  },
+  {
+   "t": "آپ کیسے ہیں؟",
+   "en": "How are you?",
+   "ph": "aap KAY-say hayn"
+  },
+  {
+   "t": "میں ٹھیک ہوں، شکریہ",
+   "en": "I'm fine, thank you",
+   "ph": "mayn THEEK hoon, SHUK-ri-ya"
+  },
+  {
+   "t": "اور آپ؟",
+   "en": "And you?",
+   "ph": "aur AAP"
+  },
+  {
+   "t": "میرا نام ... ہے",
+   "en": "My name is...",
+   "ph": "MAY-raa naam ... hay"
+  },
+  {
+   "t": "آپ کا نام کیا ہے؟",
+   "en": "What is your name?",
+   "ph": "aap kaa naam kyaa hay"
+  },
+  {
+   "t": "آپ سے مل کر خوشی ہوئی",
+   "en": "Nice to meet you",
+   "ph": "aap say mil kar khu-SHEE ho-EE"
+  },
+  {
+   "t": "میں انگلینڈ سے ہوں",
+   "en": "I'm from England",
+   "ph": "mayn ING-lend say hoon"
+  },
+  {
+   "t": "مجھے سمجھ نہیں آیا",
+   "en": "I don't understand",
+   "ph": "mu-JHAY sa-MAJH na-HEEN aa-YAA"
+  },
+  {
+   "t": "مجھے معلوم نہیں",
+   "en": "I don't know",
+   "ph": "mu-JHAY ma-LOOM na-HEEN"
+  },
+  {
+   "t": "کیا آپ انگریزی بولتے ہیں؟",
+   "en": "Do you speak English?",
+   "ph": "kyaa aap an-gre-ZEE bol-TAY hayn"
+  },
+  {
+   "t": "میں تھوڑی اردو بولتا ہوں",
+   "en": "I speak a little",
+   "ph": "mayn THO-ree UR-doo bol-TAA hoon"
+  },
+  {
+   "t": "براہ مہربانی آہستہ بولیں",
+   "en": "Can you speak more slowly?",
+   "ph": "braa meh-ar-BAA-nee aa-HIS-ta BO-leyn"
+  },
+  {
+   "t": "براہ مہربانی دوبارہ کہیں",
+   "en": "Can you repeat that?",
+   "ph": "braa meh-ar-BAA-nee doo-BAA-ra ka-HEYN"
+  },
+  {
+   "t": "اس کا کیا مطلب ہے؟",
+   "en": "What does this mean?",
+   "ph": "is kaa kyaa mat-LAB hay"
+  },
+  {
+   "t": "مدد کریں!",
+   "en": "Help!",
+   "ph": "ma-DAD ka-REYN"
+  },
+  {
+   "t": "کیا آپ میری مدد کر سکتے ہیں؟",
+   "en": "Can you help me?",
+   "ph": "kyaa aap MAY-ree ma-DAD kar SAK-tay hayn"
+  },
+  {
+   "t": "میں راستہ بھول گیا ہوں",
+   "en": "I'm lost",
+   "ph": "mayn RAAS-ta bhool ga-YAA hoon"
+  },
+  {
+   "t": "واش روم کہاں ہے؟",
+   "en": "Where is the bathroom?",
+   "ph": "wash room ka-HAAN hay"
+  },
+  {
+   "t": "یہ کتنے کا ہے؟",
+   "en": "How much is this?",
+   "ph": "yeh KIT-nay kaa hay"
+  },
+  {
+   "t": "یہ بہت مہنگا ہے",
+   "en": "It's too expensive",
+   "ph": "yeh ba-HUT MEH-n-gaa hay"
+  },
+  {
+   "t": "مجھے یہ چاہیے",
+   "en": "I would like this",
+   "ph": "mu-JHAY yeh chaa-HEE-ay"
+  },
+  {
+   "t": "پانی دیجیے، مہربانی",
+   "en": "Water, please",
+   "ph": "PAA-nee dee-JEE-yay, meh-ar-BAA-nee"
+  },
+  {
+   "t": "بل لائیے، مہربانی",
+   "en": "The bill, please",
+   "ph": "bil laa-EE-ay, meh-ar-BAA-nee"
+  },
+  {
+   "t": "مجھے بھوک لگی ہے",
+   "en": "I'm hungry",
+   "ph": "mu-JHAY bhook la-GEE hay"
+  },
+  {
+   "t": "مجھے پیاس لگی ہے",
+   "en": "I'm thirsty",
+   "ph": "mu-JHAY pyaas la-GEE hay"
+  },
+  {
+   "t": "مینو دکھائیے، مہربانی",
+   "en": "The menu, please",
+   "ph": "MEE-noo dik-HAA-ee-ay, meh-ar-BAA-nee"
+  },
+  {
+   "t": "بہت مزیدار ہے",
+   "en": "It's delicious",
+   "ph": "ba-HUT ma-ZAY-daar hay"
+  },
+  {
+   "t": "اسٹیشن کہاں ہے؟",
+   "en": "Where is the station?",
+   "ph": "ISS-te-shan ka-HAAN hay"
+  },
+  {
+   "t": "بس اسٹاپ کہاں ہے؟",
+   "en": "Where is the bus stop?",
+   "ph": "bus ISS-taap ka-HAAN hay"
+  },
+  {
+   "t": "بائیں مڑیں",
+   "en": "Turn left",
+   "ph": "baa-EEN ma-REYN"
+  },
+  {
+   "t": "دائیں مڑیں",
+   "en": "Turn right",
+   "ph": "daa-EEN ma-REYN"
+  },
+  {
+   "t": "سیدھا جائیں",
+   "en": "Straight ahead",
+   "ph": "SEE-dha JAA-een"
+  },
+  {
+   "t": "مجھے ڈاکٹر چاہیے",
+   "en": "I need a doctor",
+   "ph": "mu-JHAY DAAK-tar chaa-HEE-ay"
+  },
+  {
+   "t": "پولیس کو بلائیں",
+   "en": "Call the police",
+   "ph": "po-LEES ko bu-LAA-een"
+  },
+  {
+   "t": "کوئی مسئلہ نہیں",
+   "en": "No problem",
+   "ph": "ko-EE mas-A-la na-HEEN"
+  },
+  {
+   "t": "مجھے یہ پسند ہے",
+   "en": "I like it",
+   "ph": "mu-JHAY yeh pa-SAND hay"
+  },
+  {
+   "t": "مجھے یہ پسند نہیں",
+   "en": "I don't like it",
+   "ph": "mu-JHAY yeh pa-SAND na-HEEN"
+  },
+  {
+   "t": "ایک",
+   "en": "One",
+   "ph": "ayk"
+  },
+  {
+   "t": "دو",
+   "en": "Two",
+   "ph": "do"
+  },
+  {
+   "t": "تین",
+   "en": "Three",
+   "ph": "teen"
+  },
+  {
+   "t": "دس",
+   "en": "Ten",
+   "ph": "das"
+  },
+  {
+   "t": "سو",
+   "en": "One hundred",
+   "ph": "sao"
+  },
+  {
+   "t": "کتنے بجے ہیں؟",
+   "en": "What time is it?",
+   "ph": "KIT-nay ba-JAY hayn"
+  },
+  {
+   "t": "آج",
+   "en": "Today",
+   "ph": "aaj"
+  },
+  {
+   "t": "آنے والا کل",
+   "en": "Tomorrow",
+   "ph": "AA-nay waa-LAA kal"
+  },
+  {
+   "t": "گزرا ہوا کل",
+   "en": "Yesterday",
+   "ph": "gu-ZRAA ho-AA kal"
+  },
+  {
+   "t": "ابھی",
+   "en": "Now",
+   "ph": "a-BHEE"
+  },
+  {
+   "t": "بعد میں",
+   "en": "Later",
+   "ph": "baad MAYN"
+  },
+  {
+   "t": "ایک منٹ، مہربانی",
+   "en": "Wait a moment, please",
+   "ph": "ayk MI-nat, meh-ar-BAA-nee"
+  },
+  {
+   "t": "میں تھکا ہوا ہوں",
+   "en": "I'm tired",
+   "ph": "mayn THA-kaa ho-AA hoon"
+  },
+  {
+   "t": "میں خوش ہوں",
+   "en": "I'm happy",
+   "ph": "mayn khush hoon"
+  },
+  {
+   "t": "میں بیمار ہوں",
+   "en": "I'm sick",
+   "ph": "mayn bee-MAAR hoon"
+  },
+  {
+   "t": "سالگرہ مبارک",
+   "en": "Happy birthday",
+   "ph": "SAAL-gi-ra mu-BAA-rak"
+  },
+  {
+   "t": "مبارک ہو",
+   "en": "Congratulations",
+   "ph": "mu-BAA-rak ho"
+  },
+  {
+   "t": "نیک تمنائیں",
+   "en": "Good luck",
+   "ph": "nayk ta-man-NAA-een"
+  },
+  {
+   "t": "ان شاء اللہ",
+   "en": "God willing",
+   "ph": "in-shaa-AL-laah"
+  },
+  {
+   "t": "آپ کہاں سے ہیں؟",
+   "en": "Where are you from?",
+   "ph": "aap ka-HAAN say hayn"
+  },
+  {
+   "t": "آپ کی عمر کیا ہے؟",
+   "en": "How old are you?",
+   "ph": "aap kee UMR kyaa hay"
+  },
+  {
+   "t": "میں لندن میں رہتا ہوں",
+   "en": "I live in London",
+   "ph": "mayn LAN-dan mayn reh-TAA hoon"
+  },
+  {
+   "t": "میں طالب علم ہوں",
+   "en": "I'm a student",
+   "ph": "mayn TAA-lib ilm hoon"
+  },
+  {
+   "t": "میں چھٹیوں پر ہوں",
+   "en": "I'm on vacation",
+   "ph": "mayn chhut-TEE-yoon par hoon"
+  },
+  {
+   "t": "دو لوگوں کی میز، مہربانی",
+   "en": "A table for two, please",
+   "ph": "do lo-GOON kee mayz, meh-ar-BAA-nee"
+  },
+  {
+   "t": "میں سبزی خور ہوں",
+   "en": "I'm vegetarian",
+   "ph": "mayn SAB-zee khor hoon"
+  },
+  {
+   "t": "ایک کافی، مہربانی",
+   "en": "A coffee, please",
+   "ph": "ayk KAA-fee, meh-ar-BAA-nee"
+  },
+  {
+   "t": "ایک چائے، مہربانی",
+   "en": "A tea, please",
+   "ph": "ayk CHAA-ay, meh-ar-BAA-nee"
+  },
+  {
+   "t": "کیا میں کارڈ سے ادائیگی کر سکتا ہوں؟",
+   "en": "Can I pay by card?",
+   "ph": "kyaa mayn kaard say a-daa-EE-gee kar SAK-taa hoon"
+  },
+  {
+   "t": "کیا کوئی کمرہ خالی ہے؟",
+   "en": "Do you have a room?",
+   "ph": "kyaa ko-EE KAM-ra khaa-LEE hay"
+  },
+  {
+   "t": "ہوائی اڈہ کہاں ہے؟",
+   "en": "Where is the airport?",
+   "ph": "ha-waa-EE ad-DA ka-HAAN hay"
+  },
+  {
+   "t": "ایک ٹکٹ، مہربانی",
+   "en": "One ticket, please",
+   "ph": "ayk ti-KAT, meh-ar-BAA-nee"
+  },
+  {
+   "t": "ٹکٹ کتنے کا ہے؟",
+   "en": "How much is a ticket?",
+   "ph": "ti-KAT KIT-nay kaa hay"
+  },
+  {
+   "t": "یہ کتنے بجے روانہ ہوگا؟",
+   "en": "What time does it leave?",
+   "ph": "yeh KIT-nay ba-JAY ra-waa-NAA ho-GAA"
+  },
+  {
+   "t": "کیا یہ سیٹ خالی ہے؟",
+   "en": "Is this seat free?",
+   "ph": "kyaa yeh seet khaa-LEE hay"
+  },
+  {
+   "t": "میں نے بکنگ کرائی ہے",
+   "en": "I have a reservation",
+   "ph": "mayn nay BU-king ka-RAA-ee hay"
+  },
+  {
+   "t": "کیا میں تصویر لے سکتا ہوں؟",
+   "en": "Can I take a photo?",
+   "ph": "kyaa mayn tas-VEER lay SAK-taa hoon"
+  },
+  {
+   "t": "کیا وائی فائی ہے؟",
+   "en": "Is there Wi-Fi?",
+   "ph": "kyaa WAI-fai hay"
+  },
+  {
+   "t": "وائی فائی کا پاس ورڈ کیا ہے؟",
+   "en": "What's the Wi-Fi password?",
+   "ph": "WAI-fai kaa PAAS-werd kyaa hay"
+  },
+  {
+   "t": "میرا پاسپورٹ کھو گیا ہے",
+   "en": "I lost my passport",
+   "ph": "MAY-raa PAAS-port kho ga-YAA hay"
+  },
+  {
+   "t": "بہت گرمی ہے",
+   "en": "It's very hot",
+   "ph": "ba-HUT GAR-mee hay"
+  },
+  {
+   "t": "یہ کیا ہے؟",
+   "en": "What is this?",
+   "ph": "yeh kyaa hay"
+  },
+  {
+   "t": "احتیاط کریں!",
+   "en": "Be careful!",
+   "ph": "ih-tee-YAAT ka-REYN"
+  },
+  {
+   "t": "ضرور",
+   "en": "Of course",
+   "ph": "za-ROOR"
+  },
+  {
+   "t": "بس یہی، شکریہ",
+   "en": "That's all, thank you",
+   "ph": "bas ya-HEE, SHUK-ri-ya"
+  },
+  {
+   "t": "میں متفق ہوں",
+   "en": "I agree",
+   "ph": "mayn mut-ta-FIK hoon"
+  },
+  {
+   "t": "آپ کا دن اچھا گزرے",
+   "en": "Have a nice day",
+   "ph": "aap kaa din ACH-chhaa gu-ZAY-ray"
+  },
+  {
+   "t": "مجھے سردی لگ رہی ہے",
+   "en": "I'm cold",
+   "ph": "mu-JHAY SAR-dee lag RA-hee hay"
+  }
+ ]
+}

@@ -21,6 +21,8 @@ export interface DayStat {
   xp: number;
   /** Seconds per book. */
   books: Record<string, number>;
+  /** Pages that paid that day (the day's reading, for the daily targets). */
+  pages: number;
 }
 
 export interface Ledger {
@@ -58,7 +60,7 @@ export function parseLedger(raw: string | null | undefined): Ledger {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(d) || !isObject(s)) continue;
       const books: Record<string, number> = {};
       if (isObject(s.books)) for (const [b, n] of Object.entries(s.books)) if (count(n)) books[b] = count(n);
-      days[d] = { sec: count(s.sec), xp: count(s.xp), books };
+      days[d] = { sec: count(s.sec), xp: count(s.xp), books, pages: count(s.pages) };
     }
   }
   return {
@@ -80,7 +82,7 @@ export function localDay(d: Date = new Date()): string {
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
 }
 
-const dayOf = (l: Ledger, day: string): DayStat => l.days[day] ?? { sec: 0, xp: 0, books: {} };
+export const dayOf = (l: Ledger, day: string): DayStat => l.days[day] ?? { sec: 0, xp: 0, books: {}, pages: 0 };
 
 /* ── pure changes: each returns the next ledger and what it paid ─────────── */
 
@@ -98,7 +100,7 @@ export function payPage(l: Ledger, version: string, page: number, band: string, 
     ...l,
     earned: l.earned + xp,
     pages: { ...l.pages, [version]: [...seen, page].sort((a, b) => a - b) },
-    days: { ...l.days, [day]: { ...daily, xp: daily.xp + xp } },
+    days: { ...l.days, [day]: { ...daily, xp: daily.xp + xp, pages: daily.pages + 1 } },
   };
   return { ledger: next, xp, reason: "page" };
 }

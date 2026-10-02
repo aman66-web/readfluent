@@ -1,0 +1,505 @@
+{
+ "lang": "bn",
+ "phrases": [
+  {
+   "t": "নমস্কার",
+   "en": "Hello (greeting)",
+   "ph": "nomoshkar"
+  },
+  {
+   "t": "বিদায়",
+   "en": "Goodbye",
+   "ph": "biday"
+  },
+  {
+   "t": "অনুগ্রহ করে",
+   "en": "Please",
+   "ph": "onugroho kore"
+  },
+  {
+   "t": "ধন্যবাদ",
+   "en": "Thank you",
+   "ph": "dhonnobad"
+  },
+  {
+   "t": "আপনাকে স্বাগতম",
+   "en": "You're welcome",
+   "ph": "apnake shagotom"
+  },
+  {
+   "t": "মাফ করবেন",
+   "en": "Excuse me",
+   "ph": "maf korben"
+  },
+  {
+   "t": "আমি দুঃখিত",
+   "en": "I'm sorry",
+   "ph": "ami dukkhito"
+  },
+  {
+   "t": "হ্যাঁ",
+   "en": "Yes",
+   "ph": "hyaan"
+  },
+  {
+   "t": "না",
+   "en": "No",
+   "ph": "na"
+  },
+  {
+   "t": "সুপ্রভাত",
+   "en": "Good morning",
+   "ph": "suprobhat"
+  },
+  {
+   "t": "শুভ সন্ধ্যা",
+   "en": "Good evening",
+   "ph": "shubho shondhya"
+  },
+  {
+   "t": "শুভ রাত্রি",
+   "en": "Good night",
+   "ph": "shubho ratri"
+  },
+  {
+   "t": "আপনি কেমন আছেন?",
+   "en": "How are you?",
+   "ph": "apni kemon achhen"
+  },
+  {
+   "t": "আমি ভালো আছি, ধন্যবাদ",
+   "en": "I'm fine, thanks",
+   "ph": "ami bhalo achhi, dhonnobad"
+  },
+  {
+   "t": "আর আপনি?",
+   "en": "And you?",
+   "ph": "ar apni"
+  },
+  {
+   "t": "আপনার সঙ্গে দেখা হয়ে ভালো লাগলো",
+   "en": "Nice to meet you",
+   "ph": "apnar shonge dekha hoye bhalo laglo"
+  },
+  {
+   "t": "আমার নাম আনা",
+   "en": "My name is Anna",
+   "ph": "amar nam ana"
+  },
+  {
+   "t": "আপনার নাম কী?",
+   "en": "What is your name?",
+   "ph": "apnar nam ki"
+  },
+  {
+   "t": "আমি বুঝতে পারছি না",
+   "en": "I don't understand",
+   "ph": "ami bujhte parchhi na"
+  },
+  {
+   "t": "আপনি কি ইংরেজি বলেন?",
+   "en": "Do you speak English?",
+   "ph": "apni ki ingreji bolen"
+  },
+  {
+   "t": "আরও ধীরে বলবেন?",
+   "en": "Can you speak more slowly?",
+   "ph": "aro dhire bolben"
+  },
+  {
+   "t": "দয়া করে আবার বলুন",
+   "en": "Can you repeat that, please?",
+   "ph": "doya kore abar bolun"
+  },
+  {
+   "t": "আমি জানি না",
+   "en": "I don't know",
+   "ph": "ami jani na"
+  },
+  {
+   "t": "বাঁচাও!",
+   "en": "Help!",
+   "ph": "banchao"
+  },
+  {
+   "t": "আমার সাহায্য দরকার",
+   "en": "I need help",
+   "ph": "amar shahajjo dorkar"
+  },
+  {
+   "t": "টয়লেট কোথায়?",
+   "en": "Where is the toilet?",
+   "ph": "toylet kothay"
+  },
+  {
+   "t": "এটার দাম কত?",
+   "en": "How much is this?",
+   "ph": "etar dam koto"
+  },
+  {
+   "t": "স্টেশন কোথায়?",
+   "en": "Where is the station?",
+   "ph": "steshon kothay"
+  },
+  {
+   "t": "আমি পথ হারিয়েছি",
+   "en": "I'm lost",
+   "ph": "ami poth hariyechhi"
+  },
+  {
+   "t": "আমাকে একটু পানি দিন",
+   "en": "I would like some water, please",
+   "ph": "amake ektu pani din"
+  },
+  {
+   "t": "দয়া করে মেনুটা দিন",
+   "en": "The menu, please",
+   "ph": "doya kore menuta din"
+  },
+  {
+   "t": "দয়া করে বিলটা দিন",
+   "en": "The bill, please",
+   "ph": "doya kore bilta din"
+  },
+  {
+   "t": "আমার খিদে পেয়েছে",
+   "en": "I'm hungry",
+   "ph": "amar khide peyechhe"
+  },
+  {
+   "t": "আমার তেষ্টা পেয়েছে",
+   "en": "I'm thirsty",
+   "ph": "amar teshta peyechhe"
+  },
+  {
+   "t": "এক, দুই, তিন, চার, পাঁচ",
+   "en": "One, two, three, four, five",
+   "ph": "ek, dui, tin, char, panch"
+  },
+  {
+   "t": "এখন কয়টা বাজে?",
+   "en": "What time is it?",
+   "ph": "ekhon koyta baje"
+  },
+  {
+   "t": "কাল দেখা হবে",
+   "en": "See you tomorrow",
+   "ph": "kal dekha hobe"
+  },
+  {
+   "t": "আমি এটা চাই",
+   "en": "I would like this",
+   "ph": "ami eta chai"
+  },
+  {
+   "t": "আপনি কোথা থেকে এসেছেন?",
+   "en": "Where are you from?",
+   "ph": "apni kotha theke esechhen"
+  },
+  {
+   "t": "আমি ইংল্যান্ড থেকে এসেছি",
+   "en": "I'm from England",
+   "ph": "ami ingland theke eshechhi"
+  },
+  {
+   "t": "আমি লন্ডনে থাকি",
+   "en": "I live in London",
+   "ph": "ami londone thaki"
+  },
+  {
+   "t": "আমি একটু বাংলা বলতে পারি",
+   "en": "I speak a little Bengali",
+   "ph": "ami ektu bangla bolte pari"
+  },
+  {
+   "t": "দুজনের জন্য একটা টেবিল আছে?",
+   "en": "Do you have a table for two?",
+   "ph": "dujoner jonno ekta tebil achhe"
+  },
+  {
+   "t": "এখান থেকে কি অনেক দূর?",
+   "en": "Is it far from here?",
+   "ph": "ekhan theke ki onek dur"
+  },
+  {
+   "t": "বাঁ দিকে যান",
+   "en": "Turn left",
+   "ph": "ban dike jan"
+  },
+  {
+   "t": "সোজা যান",
+   "en": "Go straight ahead",
+   "ph": "shoja jan"
+  },
+  {
+   "t": "দয়া করে একটা টিকিট দিন",
+   "en": "A ticket, please",
+   "ph": "doya kore ekta tikit din"
+  },
+  {
+   "t": "আপনি কি আমাকে সাহায্য করতে পারেন?",
+   "en": "Can you help me?",
+   "ph": "apni ki amake shahajjo korte paren"
+  },
+  {
+   "t": "আপনারা কি ক্রেডিট কার্ড নেন?",
+   "en": "Do you accept credit cards?",
+   "ph": "apnara ki kredit kard nen"
+  },
+  {
+   "t": "আমি বুঝতে পারছি",
+   "en": "I understand",
+   "ph": "ami bujhte parchhi"
+  },
+  {
+   "t": "আসসালামু আলাইকুম",
+   "en": "Peace be upon you (Muslim greeting)",
+   "ph": "assalamu alaikum"
+  },
+  {
+   "t": "পরে দেখা হবে",
+   "en": "See you later",
+   "ph": "pore dekha hobe"
+  },
+  {
+   "t": "অনেক ধন্যবাদ",
+   "en": "Thank you very much",
+   "ph": "onek dhonnobad"
+  },
+  {
+   "t": "না, ধন্যবাদ",
+   "en": "No, thank you",
+   "ph": "na, dhonnobad"
+  },
+  {
+   "t": "হয়তো",
+   "en": "Maybe",
+   "ph": "hoyto"
+  },
+  {
+   "t": "এর মানে কী?",
+   "en": "What does this mean?",
+   "ph": "er mane ki"
+  },
+  {
+   "t": "এটা বাংলায় কীভাবে বলে?",
+   "en": "How do you say this in Bengali?",
+   "ph": "eta banglay kibhabe bole"
+  },
+  {
+   "t": "লিখে দেবেন?",
+   "en": "Can you write it down?",
+   "ph": "likhe deben"
+  },
+  {
+   "t": "এখানে কেউ কি ইংরেজি বলতে পারেন?",
+   "en": "Does anyone speak English?",
+   "ph": "ekhane keu ki ingreji bolte paren"
+  },
+  {
+   "t": "পুলিশ ডাকুন!",
+   "en": "Call the police!",
+   "ph": "pulish dakun"
+  },
+  {
+   "t": "আমার শরীর খারাপ লাগছে",
+   "en": "I feel sick",
+   "ph": "amar shorir kharap lagchhe"
+  },
+  {
+   "t": "আমার ডাক্তার দরকার",
+   "en": "I need a doctor",
+   "ph": "amar daktar dorkar"
+  },
+  {
+   "t": "হাসপাতাল কোথায়?",
+   "en": "Where is the hospital?",
+   "ph": "haspatal kothay"
+  },
+  {
+   "t": "আমার বাদামে অ্যালার্জি আছে",
+   "en": "I'm allergic to nuts",
+   "ph": "amar badame yalarji achhe"
+  },
+  {
+   "t": "আমি নিরামিষভোজী",
+   "en": "I'm vegetarian",
+   "ph": "ami niramishbhoji"
+  },
+  {
+   "t": "দুধ দিয়ে এক কাপ কফি দিন",
+   "en": "A coffee with milk, please",
+   "ph": "dudh diye ek kap kofi din"
+  },
+  {
+   "t": "দয়া করে এক কাপ চা দিন",
+   "en": "A tea, please",
+   "ph": "doya kore ek kap cha din"
+  },
+  {
+   "t": "আরেকটু নেবেন?",
+   "en": "Would you like some more?",
+   "ph": "arekto neben"
+  },
+  {
+   "t": "আপনার খাবার উপভোগ করুন",
+   "en": "Enjoy your meal",
+   "ph": "apnar khabar upobhog korun"
+  },
+  {
+   "t": "খুব সুস্বাদু",
+   "en": "It's delicious",
+   "ph": "khub shushwadu"
+  },
+  {
+   "t": "আমার পেট ভরে গেছে",
+   "en": "I'm full",
+   "ph": "amar pet bhore gechhe"
+  },
+  {
+   "t": "বাস স্টপ কোথায়?",
+   "en": "Where is the bus stop?",
+   "ph": "bas stop kothay"
+  },
+  {
+   "t": "ট্যাক্সি কোথায় পাব?",
+   "en": "Where can I find a taxi?",
+   "ph": "taksi kothay pabo"
+  },
+  {
+   "t": "বিমানবন্দরে কীভাবে যাব?",
+   "en": "How do I get to the airport?",
+   "ph": "bimanbondore kibhabe jabo"
+  },
+  {
+   "t": "ট্রেন কখন ছাড়ে?",
+   "en": "What time does the train leave?",
+   "ph": "tren kokhon chhare"
+  },
+  {
+   "t": "কতক্ষণ লাগবে?",
+   "en": "How long does it take?",
+   "ph": "kotokkhon lagbe"
+  },
+  {
+   "t": "আমি একটা রুম বুক করতে চাই",
+   "en": "I would like to book a room",
+   "ph": "ami ekta rum buk korte chai"
+  },
+  {
+   "t": "আজ কী বার?",
+   "en": "What day is it today?",
+   "ph": "aj ki bar"
+  },
+  {
+   "t": "আপনারা কখন খোলেন?",
+   "en": "What time do you open?",
+   "ph": "apnara kokhon kholen"
+  },
+  {
+   "t": "এটা খুব দামি",
+   "en": "It's too expensive",
+   "ph": "eta khub dami"
+  },
+  {
+   "t": "এর চেয়ে সস্তা কিছু আছে?",
+   "en": "Do you have a cheaper one?",
+   "ph": "er cheye shosta kichhu achhe"
+  },
+  {
+   "t": "দশ, কুড়ি, পঞ্চাশ, একশো",
+   "en": "Ten, twenty, fifty, one hundred",
+   "ph": "dosh, kuri, ponchash, eksho"
+  },
+  {
+   "t": "আমি ক্লান্ত",
+   "en": "I'm tired",
+   "ph": "ami klanto"
+  },
+  {
+   "t": "আমি খুশি",
+   "en": "I'm happy",
+   "ph": "ami khushi"
+  },
+  {
+   "t": "আমার ঠান্ডা লাগছে",
+   "en": "I'm cold",
+   "ph": "amar thanda lagchhe"
+  },
+  {
+   "t": "আমার এটা ভালো লাগে",
+   "en": "I like it",
+   "ph": "amar eta bhalo lage"
+  },
+  {
+   "t": "আমার এটা ভালো লাগে না",
+   "en": "I don't like it",
+   "ph": "amar eta bhalo lage na"
+  },
+  {
+   "t": "অভিনন্দন!",
+   "en": "Congratulations!",
+   "ph": "obhinondon"
+  },
+  {
+   "t": "শুভ জন্মদিন!",
+   "en": "Happy birthday!",
+   "ph": "shubho jonmodin"
+  },
+  {
+   "t": "শুভকামনা!",
+   "en": "Good luck!",
+   "ph": "shubhokamona"
+  },
+  {
+   "t": "স্বাগতম!",
+   "en": "Welcome!",
+   "ph": "shagotom"
+  },
+  {
+   "t": "কোনো সমস্যা নেই",
+   "en": "No problem",
+   "ph": "kono shomoshya nei"
+  },
+  {
+   "t": "অবশ্যই",
+   "en": "Of course",
+   "ph": "oboshshoi"
+  },
+  {
+   "t": "আমি একমত",
+   "en": "I agree",
+   "ph": "ami ekmoto"
+  },
+  {
+   "t": "এক মিনিট অপেক্ষা করুন",
+   "en": "Wait a moment, please",
+   "ph": "ek minit opekkha korun"
+  },
+  {
+   "t": "আমি প্রস্তুত",
+   "en": "I'm ready",
+   "ph": "ami prostut"
+  },
+  {
+   "t": "এখানে কি ছবি তোলা যাবে?",
+   "en": "Can I take a photo here?",
+   "ph": "ekhane ki chhobi tola jabe"
+  },
+  {
+   "t": "ওয়াইফাইয়ের পাসওয়ার্ড কী?",
+   "en": "What is the Wi-Fi password?",
+   "ph": "waifaiyer pasoyard ki"
+  },
+  {
+   "t": "ফোন কোথায় চার্জ দিতে পারি?",
+   "en": "Where can I charge my phone?",
+   "ph": "phon kothay charj dite pari"
+  },
+  {
+   "t": "আপনার দিনটি শুভ হোক",
+   "en": "Have a nice day!",
+   "ph": "apnar dinti shubho hok"
+  }
+ ]
+}

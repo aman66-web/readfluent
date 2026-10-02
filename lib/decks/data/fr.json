@@ -1,0 +1,505 @@
+{
+ "lang": "fr",
+ "phrases": [
+  {
+   "t": "Bonjour",
+   "en": "Hello",
+   "ph": "bon-ZHOOR"
+  },
+  {
+   "t": "Au revoir",
+   "en": "Goodbye",
+   "ph": "oh ruh-VWAHR"
+  },
+  {
+   "t": "S'il vous plaît",
+   "en": "Please",
+   "ph": "seel voo PLEH"
+  },
+  {
+   "t": "Merci",
+   "en": "Thank you",
+   "ph": "mehr-SEE"
+  },
+  {
+   "t": "De rien",
+   "en": "You're welcome",
+   "ph": "duh ree-AN"
+  },
+  {
+   "t": "Excusez-moi",
+   "en": "Excuse me",
+   "ph": "ex-kew-zay MWAH"
+  },
+  {
+   "t": "Désolé",
+   "en": "I'm sorry",
+   "ph": "day-zoh-LAY"
+  },
+  {
+   "t": "Oui",
+   "en": "Yes",
+   "ph": "WEE"
+  },
+  {
+   "t": "Non",
+   "en": "No",
+   "ph": "NOHN"
+  },
+  {
+   "t": "Salut",
+   "en": "Hi (informal)",
+   "ph": "sah-LEW"
+  },
+  {
+   "t": "Bonsoir",
+   "en": "Good evening",
+   "ph": "bohn-SWAHR"
+  },
+  {
+   "t": "Bonne nuit",
+   "en": "Good night",
+   "ph": "bun NWEE"
+  },
+  {
+   "t": "Comment allez-vous ?",
+   "en": "How are you?",
+   "ph": "koh-mohn tah-lay VOO"
+  },
+  {
+   "t": "Je vais bien, merci",
+   "en": "I'm fine, thanks",
+   "ph": "zhuh vay bee-AN, mehr-SEE"
+  },
+  {
+   "t": "Et vous ?",
+   "en": "And you?",
+   "ph": "ay VOO"
+  },
+  {
+   "t": "Enchanté",
+   "en": "Nice to meet you",
+   "ph": "ahn-shahn-TAY"
+  },
+  {
+   "t": "Je m'appelle Anna",
+   "en": "My name is Anna",
+   "ph": "zhuh mah-PEL ah-NAH"
+  },
+  {
+   "t": "Comment vous appelez-vous ?",
+   "en": "What is your name?",
+   "ph": "koh-mohn voo zah-puh-lay VOO"
+  },
+  {
+   "t": "Je ne comprends pas",
+   "en": "I don't understand",
+   "ph": "zhuh nuh kohm-PRAHN pah"
+  },
+  {
+   "t": "Parlez-vous anglais ?",
+   "en": "Do you speak English?",
+   "ph": "par-lay-voo ahn-GLAY"
+  },
+  {
+   "t": "Pouvez-vous parler plus lentement ?",
+   "en": "Can you speak more slowly?",
+   "ph": "poo-vay-voo par-LAY plew lahn-tuh-MAHN"
+  },
+  {
+   "t": "Pouvez-vous répéter, s'il vous plaît ?",
+   "en": "Can you repeat that, please?",
+   "ph": "poo-vay-voo ray-pay-TAY seel voo PLEH"
+  },
+  {
+   "t": "Je ne sais pas",
+   "en": "I don't know",
+   "ph": "zhuh nuh say PAH"
+  },
+  {
+   "t": "Au secours !",
+   "en": "Help!",
+   "ph": "oh suh-KOOR"
+  },
+  {
+   "t": "J'ai besoin d'aide",
+   "en": "I need help",
+   "ph": "zhay buh-zwan DEHD"
+  },
+  {
+   "t": "Où sont les toilettes ?",
+   "en": "Where is the toilet?",
+   "ph": "oo sohn lay twah-LET"
+  },
+  {
+   "t": "Combien ça coûte ?",
+   "en": "How much is this?",
+   "ph": "kohm-bee-AN sah KOOT"
+  },
+  {
+   "t": "Où est la gare ?",
+   "en": "Where is the station?",
+   "ph": "oo ay lah GAHR"
+  },
+  {
+   "t": "Je suis perdu",
+   "en": "I'm lost",
+   "ph": "zhuh swee pehr-DEW"
+  },
+  {
+   "t": "Je voudrais de l'eau, s'il vous plaît",
+   "en": "I would like some water, please",
+   "ph": "zhuh voo-DRAY duh LOH, seel voo PLEH"
+  },
+  {
+   "t": "La carte, s'il vous plaît",
+   "en": "The menu, please",
+   "ph": "lah KART, seel voo PLEH"
+  },
+  {
+   "t": "L'addition, s'il vous plaît",
+   "en": "The bill, please",
+   "ph": "lah-dee-see-OHN, seel voo PLEH"
+  },
+  {
+   "t": "J'ai faim",
+   "en": "I'm hungry",
+   "ph": "zhay FAN"
+  },
+  {
+   "t": "J'ai soif",
+   "en": "I'm thirsty",
+   "ph": "zhay SWAHF"
+  },
+  {
+   "t": "Un, deux, trois, quatre, cinq",
+   "en": "One, two, three, four, five",
+   "ph": "an, duh, trwah, KAT-ruh, sank"
+  },
+  {
+   "t": "Quelle heure est-il ?",
+   "en": "What time is it?",
+   "ph": "kel UHR eh-TEEL"
+  },
+  {
+   "t": "À demain",
+   "en": "See you tomorrow",
+   "ph": "ah duh-MAN"
+  },
+  {
+   "t": "Je voudrais ça",
+   "en": "I would like this",
+   "ph": "zhuh voo-DRAY SAH"
+  },
+  {
+   "t": "D'où venez-vous ?",
+   "en": "Where are you from?",
+   "ph": "doo vuh-nay VOO"
+  },
+  {
+   "t": "Je viens d'Angleterre",
+   "en": "I'm from England",
+   "ph": "zhuh vee-AN dahn-gluh-TEHR"
+  },
+  {
+   "t": "J'habite à Londres",
+   "en": "I live in London",
+   "ph": "zhah-BEET ah LOHN-druh"
+  },
+  {
+   "t": "Je parle un peu français",
+   "en": "I speak a little French",
+   "ph": "zhuh parl uhn puh frahn-SAY"
+  },
+  {
+   "t": "Avez-vous une table pour deux ?",
+   "en": "Do you have a table for two?",
+   "ph": "ah-vay-voo ewn TAH-bluh poor DUH"
+  },
+  {
+   "t": "C'est loin d'ici ?",
+   "en": "Is it far from here?",
+   "ph": "say lwan dee-SEE"
+  },
+  {
+   "t": "Tournez à gauche",
+   "en": "Turn left",
+   "ph": "toor-nay ah GOHSH"
+  },
+  {
+   "t": "Allez tout droit",
+   "en": "Go straight ahead",
+   "ph": "ah-lay too DRWAH"
+  },
+  {
+   "t": "Un billet, s'il vous plaît",
+   "en": "A ticket, please",
+   "ph": "uhn bee-YAY, seel voo PLEH"
+  },
+  {
+   "t": "Pouvez-vous m'aider ?",
+   "en": "Can you help me?",
+   "ph": "poo-vay-voo may-DAY"
+  },
+  {
+   "t": "Acceptez-vous les cartes de crédit ?",
+   "en": "Do you accept credit cards?",
+   "ph": "ak-sep-tay-voo lay kart duh kray-DEE"
+  },
+  {
+   "t": "Je comprends",
+   "en": "I understand",
+   "ph": "zhuh kohm-PRAHN"
+  },
+  {
+   "t": "Bon après-midi",
+   "en": "Good afternoon",
+   "ph": "bohn ah-pray-mee-DEE"
+  },
+  {
+   "t": "À tout à l'heure",
+   "en": "See you later",
+   "ph": "ah too tah LUHR"
+  },
+  {
+   "t": "Merci beaucoup",
+   "en": "Thank you very much",
+   "ph": "mehr-SEE boh-KOO"
+  },
+  {
+   "t": "Non, merci",
+   "en": "No, thank you",
+   "ph": "nohn, mehr-SEE"
+  },
+  {
+   "t": "Peut-être",
+   "en": "Maybe",
+   "ph": "puh-TET-ruh"
+  },
+  {
+   "t": "Qu'est-ce que ça veut dire ?",
+   "en": "What does this mean?",
+   "ph": "kes-kuh sah vuh DEER"
+  },
+  {
+   "t": "Comment dit-on ça en français ?",
+   "en": "How do you say this in French?",
+   "ph": "koh-mohn dee-tohn sah ahn frahn-SAY"
+  },
+  {
+   "t": "Pouvez-vous l'écrire ?",
+   "en": "Can you write it down?",
+   "ph": "poo-vay-voo lay-KREER"
+  },
+  {
+   "t": "Quelqu'un parle-t-il anglais ?",
+   "en": "Does anyone speak English?",
+   "ph": "kel-kuhn par-leel ahn-GLAY"
+  },
+  {
+   "t": "Appelez la police !",
+   "en": "Call the police!",
+   "ph": "ah-play lah poh-LEES"
+  },
+  {
+   "t": "Je me sens mal",
+   "en": "I feel sick",
+   "ph": "zhuh muh sahn MAHL"
+  },
+  {
+   "t": "J'ai besoin d'un médecin",
+   "en": "I need a doctor",
+   "ph": "zhay buh-zwan duhn mayd-SAN"
+  },
+  {
+   "t": "Où est l'hôpital ?",
+   "en": "Where is the hospital?",
+   "ph": "oo ay loh-pee-TAHL"
+  },
+  {
+   "t": "Je suis allergique aux noix",
+   "en": "I'm allergic to nuts",
+   "ph": "zhuh swee ah-lehr-ZHEEK oh NWAH"
+  },
+  {
+   "t": "Je suis végétarien",
+   "en": "I'm vegetarian",
+   "ph": "zhuh swee vay-zhay-tah-ree-AN"
+  },
+  {
+   "t": "Un café au lait, s'il vous plaît",
+   "en": "A coffee with milk, please",
+   "ph": "uhn kah-fay oh LAY, seel voo PLEH"
+  },
+  {
+   "t": "Une bière, s'il vous plaît",
+   "en": "A beer, please",
+   "ph": "ewn bee-EHR, seel voo PLEH"
+  },
+  {
+   "t": "Santé !",
+   "en": "Cheers!",
+   "ph": "sahn-TAY"
+  },
+  {
+   "t": "Bon appétit",
+   "en": "Enjoy your meal",
+   "ph": "bohn ah-pay-TEE"
+  },
+  {
+   "t": "C'est délicieux",
+   "en": "It's delicious",
+   "ph": "say day-lee-see-UH"
+  },
+  {
+   "t": "Je n'ai plus faim",
+   "en": "I'm full",
+   "ph": "zhuh nay plew FAN"
+  },
+  {
+   "t": "Où est l'arrêt de bus ?",
+   "en": "Where is the bus stop?",
+   "ph": "oo ay lah-RAY duh BEWS"
+  },
+  {
+   "t": "Où trouver un taxi ?",
+   "en": "Where can I find a taxi?",
+   "ph": "oo troo-vay uhn tak-SEE"
+  },
+  {
+   "t": "Comment aller à l'aéroport ?",
+   "en": "How do I get to the airport?",
+   "ph": "koh-mohn tah-lay ah lah-ay-roh-POR"
+  },
+  {
+   "t": "À quelle heure part le train ?",
+   "en": "What time does the train leave?",
+   "ph": "ah kel UHR par luh TRAN"
+  },
+  {
+   "t": "Combien de temps ça prend ?",
+   "en": "How long does it take?",
+   "ph": "kohm-bee-AN duh TAHN sah PRAHN"
+  },
+  {
+   "t": "Je voudrais réserver une chambre",
+   "en": "I would like to book a room",
+   "ph": "zhuh voo-DRAY ray-zehr-VAY ewn SHAHN-bruh"
+  },
+  {
+   "t": "Quel jour sommes-nous ?",
+   "en": "What day is it today?",
+   "ph": "kel ZHOOR som-NOO"
+  },
+  {
+   "t": "À quelle heure ouvrez-vous ?",
+   "en": "What time do you open?",
+   "ph": "ah kel UHR oo-vray-VOO"
+  },
+  {
+   "t": "C'est trop cher",
+   "en": "It's too expensive",
+   "ph": "say troh SHEHR"
+  },
+  {
+   "t": "Avez-vous moins cher ?",
+   "en": "Do you have a cheaper one?",
+   "ph": "ah-vay-voo mwan SHEHR"
+  },
+  {
+   "t": "Dix, vingt, cinquante, cent",
+   "en": "Ten, twenty, fifty, one hundred",
+   "ph": "dees, van, san-KAHNT, sahn"
+  },
+  {
+   "t": "Je suis fatigué",
+   "en": "I'm tired",
+   "ph": "zhuh swee fah-tee-GAY"
+  },
+  {
+   "t": "Je suis content",
+   "en": "I'm happy",
+   "ph": "zhuh swee kohn-TAHN"
+  },
+  {
+   "t": "J'ai froid",
+   "en": "I'm cold",
+   "ph": "zhay FRWAH"
+  },
+  {
+   "t": "J'aime ça",
+   "en": "I like it",
+   "ph": "zhem SAH"
+  },
+  {
+   "t": "Je n'aime pas ça",
+   "en": "I don't like it",
+   "ph": "zhuh nem pah SAH"
+  },
+  {
+   "t": "Félicitations !",
+   "en": "Congratulations!",
+   "ph": "fay-lee-see-tah-see-OHN"
+  },
+  {
+   "t": "Joyeux anniversaire !",
+   "en": "Happy birthday!",
+   "ph": "zhwah-yuh zah-nee-vehr-SEHR"
+  },
+  {
+   "t": "Bonne chance !",
+   "en": "Good luck!",
+   "ph": "bun SHAHNS"
+  },
+  {
+   "t": "Bienvenue !",
+   "en": "Welcome!",
+   "ph": "bee-an-vuh-NEW"
+  },
+  {
+   "t": "Pas de problème",
+   "en": "No problem",
+   "ph": "pah duh proh-BLEM"
+  },
+  {
+   "t": "Bien sûr",
+   "en": "Of course",
+   "ph": "bee-AN SEWR"
+  },
+  {
+   "t": "Je suis d'accord",
+   "en": "I agree",
+   "ph": "zhuh swee dah-KOR"
+  },
+  {
+   "t": "Un instant, s'il vous plaît",
+   "en": "Wait a moment, please",
+   "ph": "uhn nan-STAHN, seel voo PLEH"
+  },
+  {
+   "t": "Je suis prêt",
+   "en": "I'm ready",
+   "ph": "zhuh swee PRAY"
+  },
+  {
+   "t": "Puis-je prendre une photo ici ?",
+   "en": "Can I take a photo here?",
+   "ph": "pwee-zhuh prahn-druh ewn foh-toh ee-SEE"
+  },
+  {
+   "t": "Quel est le mot de passe du Wi-Fi ?",
+   "en": "What is the Wi-Fi password?",
+   "ph": "kel ay luh moh duh PAS dew wee-FEE"
+  },
+  {
+   "t": "Où puis-je recharger mon téléphone ?",
+   "en": "Where can I charge my phone?",
+   "ph": "oo pwee-zhuh ruh-shar-ZHAY mohn tay-lay-FUN"
+  },
+  {
+   "t": "Bonne journée !",
+   "en": "Have a nice day!",
+   "ph": "bun zhoor-NAY"
+  }
+ ]
+}

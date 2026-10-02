@@ -1,0 +1,40 @@
+import { parseDeckCardId, deckCardId, type DeckSize } from "@/lib/decks";
+import { dueCards, type Card } from "./schedule";
+
+/** A card that has never been answered. */
+export const isNewCard = (c: Card): boolean => c.reps === 0 && c.interval === 0 && c.lapses === 0;
+
+export const NEW_PER_SESSION = 10;
+export const MAX_PER_SESSION = 30;
+
+/**
+ * The cards for one sitting: what is due first (the ones being relearned and the ones that have come
+ * round), then a few new ones, so a deck of a hundred is met ten at a time rather than all at once.
+ * `only` narrows it to some cards (one deck, or the saved words).
+ */
+export function buildSession(cards: readonly Card[], now: number, opts: { only?: (id: string) => boolean; newLimit?: number; max?: number } = {}): string[] {
+  const pool = opts.only ? cards.filter((c) => opts.only!(c.id)) : cards;
+  const due = dueCards(pool, now);
+  const reviews = due.filter((c) => !isNewCard(c));
+  const fresh = due.filter(isNewCard).slice(0, opts.newLimit ?? NEW_PER_SESSION);
+  return [...reviews, ...fresh].slice(0, opts.max ?? MAX_PER_SESSION).map((c) => c.id);
+}
+
+/** How a deck is getting on: of its `size` phrases, how many have been met and how many are well learned (a day or more between reviews). */
+export function deckProgress(cards: Record<string, Card>, lang: string, size: DeckSize): { met: number; learned: number; size: number } {
+  let met = 0;
+  let learned = 0;
+  for (let i = 0; i < size; i++) {
+    const c = cards[deckCardId(lang, i)];
+    if (!c) continue;
+    if (!isNewCard(c)) met++;
+    if (c.interval >= 1) learned++;
+  }
+  return { met, learned, size };
+}
+
+/** Whether a card is of one language's deck of `size` phrases. */
+export function inDeck(id: string, lang: string, size: DeckSize): boolean {
+  const d = parseDeckCardId(id);
+  return !!d && d.lang === lang && d.index < size;
+}

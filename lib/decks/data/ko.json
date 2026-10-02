@@ -1,0 +1,505 @@
+{
+ "lang": "ko",
+ "phrases": [
+  {
+   "t": "안녕하세요",
+   "en": "Hello",
+   "ph": "Annyeonghaseyo"
+  },
+  {
+   "t": "좋은 아침이에요",
+   "en": "Good morning",
+   "ph": "Joeun achimieyo"
+  },
+  {
+   "t": "좋은 저녁이에요",
+   "en": "Good evening",
+   "ph": "Joeun jeonyeogieyo"
+  },
+  {
+   "t": "안녕히 가세요",
+   "en": "Goodbye",
+   "ph": "Annyeonghi gaseyo"
+  },
+  {
+   "t": "부탁합니다",
+   "en": "Please",
+   "ph": "Butakhamnida"
+  },
+  {
+   "t": "감사합니다",
+   "en": "Thank you",
+   "ph": "Gamsahamnida"
+  },
+  {
+   "t": "천만에요",
+   "en": "You're welcome",
+   "ph": "Cheonmaneyo"
+  },
+  {
+   "t": "네",
+   "en": "Yes",
+   "ph": "Ne"
+  },
+  {
+   "t": "아니요",
+   "en": "No",
+   "ph": "Aniyo"
+  },
+  {
+   "t": "실례합니다",
+   "en": "Excuse me",
+   "ph": "Sillyehamnida"
+  },
+  {
+   "t": "죄송합니다",
+   "en": "I'm sorry",
+   "ph": "Joesonghamnida"
+  },
+  {
+   "t": "잘 지내세요?",
+   "en": "How are you?",
+   "ph": "Jal jinaeseyo?"
+  },
+  {
+   "t": "잘 지내요, 감사합니다.",
+   "en": "I'm fine, thank you",
+   "ph": "Jal jinaeyo, gamsahamnida."
+  },
+  {
+   "t": "만나서 반갑습니다.",
+   "en": "Nice to meet you",
+   "ph": "Mannaseo bangapseumnida."
+  },
+  {
+   "t": "이름이 뭐예요?",
+   "en": "What's your name?",
+   "ph": "Ireumi mwoyeyo?"
+  },
+  {
+   "t": "제 이름은 샘이에요.",
+   "en": "My name is Sam",
+   "ph": "Je ireumeun saemieyo."
+  },
+  {
+   "t": "어디에서 오셨어요?",
+   "en": "Where are you from?",
+   "ph": "Eodieseo osyeosseoyo?"
+  },
+  {
+   "t": "영국에서 왔어요.",
+   "en": "I'm from England",
+   "ph": "Yeongugeseo wasseoyo."
+  },
+  {
+   "t": "이해가 안 돼요.",
+   "en": "I don't understand",
+   "ph": "Ihaega an dwaeyo."
+  },
+  {
+   "t": "이해해요.",
+   "en": "I understand",
+   "ph": "Ihaehaeyo."
+  },
+  {
+   "t": "천천히 말씀해 주세요.",
+   "en": "Can you speak more slowly?",
+   "ph": "Cheoncheonhi malsseumhae juseyo."
+  },
+  {
+   "t": "다시 말씀해 주세요.",
+   "en": "Can you repeat that?",
+   "ph": "Dasi malsseumhae juseyo."
+  },
+  {
+   "t": "영어 할 줄 아세요?",
+   "en": "Do you speak English?",
+   "ph": "Yeongeo hal jul aseyo?"
+  },
+  {
+   "t": "한국어를 조금 해요.",
+   "en": "I speak a little",
+   "ph": "Hangugeoreul jogeum haeyo."
+  },
+  {
+   "t": "도와주세요!",
+   "en": "Help!",
+   "ph": "Dowajuseyo!"
+  },
+  {
+   "t": "좀 도와주시겠어요?",
+   "en": "Can you help me?",
+   "ph": "Jom dowajusigesseoyo?"
+  },
+  {
+   "t": "모르겠어요.",
+   "en": "I don't know",
+   "ph": "Moreugesseoyo."
+  },
+  {
+   "t": "길을 잃었어요.",
+   "en": "I'm lost",
+   "ph": "Gireul ireosseoyo."
+  },
+  {
+   "t": "화장실이 어디예요?",
+   "en": "Where is the toilet?",
+   "ph": "Hwajangsiri eodiyeyo?"
+  },
+  {
+   "t": "역이 어디예요?",
+   "en": "Where is the station?",
+   "ph": "Yeogi eodiyeyo?"
+  },
+  {
+   "t": "이거 얼마예요?",
+   "en": "How much is this?",
+   "ph": "Igeo eolmayeyo?"
+  },
+  {
+   "t": "이걸로 주세요.",
+   "en": "I'd like this",
+   "ph": "Igeollo juseyo."
+  },
+  {
+   "t": "계산서 주세요.",
+   "en": "The bill, please",
+   "ph": "Gyesanseo juseyo."
+  },
+  {
+   "t": "물 주세요.",
+   "en": "Water, please",
+   "ph": "Mul juseyo."
+  },
+  {
+   "t": "커피 한 잔 주세요.",
+   "en": "A coffee, please",
+   "ph": "Keopi han jan juseyo."
+  },
+  {
+   "t": "메뉴판 주세요.",
+   "en": "The menu, please",
+   "ph": "Menyupan juseyo."
+  },
+  {
+   "t": "배고파요.",
+   "en": "I'm hungry",
+   "ph": "Baegopayo."
+  },
+  {
+   "t": "목말라요.",
+   "en": "I'm thirsty",
+   "ph": "Mongmallayo."
+  },
+  {
+   "t": "맛있어요.",
+   "en": "It's delicious",
+   "ph": "Masisseoyo."
+  },
+  {
+   "t": "괜찮아요.",
+   "en": "No problem",
+   "ph": "Gwaenchanayo."
+  },
+  {
+   "t": "알겠습니다.",
+   "en": "Okay, got it",
+   "ph": "Algesseumnida."
+  },
+  {
+   "t": "물론이죠.",
+   "en": "Of course",
+   "ph": "Mullonijyo."
+  },
+  {
+   "t": "아마도요.",
+   "en": "Maybe",
+   "ph": "Amadoyo."
+  },
+  {
+   "t": "좋아해요.",
+   "en": "I like it",
+   "ph": "Joahaeyo."
+  },
+  {
+   "t": "안 좋아해요.",
+   "en": "I don't like it",
+   "ph": "An joahaeyo."
+  },
+  {
+   "t": "이게 뭐예요?",
+   "en": "What is this?",
+   "ph": "Ige mwoyeyo?"
+  },
+  {
+   "t": "지금 몇 시예요?",
+   "en": "What time is it?",
+   "ph": "Jigeum myeot siyeyo?"
+  },
+  {
+   "t": "오늘",
+   "en": "Today",
+   "ph": "Oneul"
+  },
+  {
+   "t": "내일",
+   "en": "Tomorrow",
+   "ph": "Naeil"
+  },
+  {
+   "t": "나중에 봬요.",
+   "en": "See you later",
+   "ph": "Najunge bwaeyo."
+  },
+  {
+   "t": "안녕히 주무세요.",
+   "en": "Good night",
+   "ph": "Annyeonghi jumuseyo."
+  },
+  {
+   "t": "좋은 하루 보내세요.",
+   "en": "Have a nice day",
+   "ph": "Joeun haru bonaeseyo."
+  },
+  {
+   "t": "축하합니다.",
+   "en": "Congratulations",
+   "ph": "Chukahamnida."
+  },
+  {
+   "t": "환영합니다.",
+   "en": "Welcome",
+   "ph": "Hwanyeonghamnida."
+  },
+  {
+   "t": "맛있게 드세요.",
+   "en": "Enjoy your meal",
+   "ph": "Masitge deuseyo."
+  },
+  {
+   "t": "하나, 둘, 셋",
+   "en": "One, two, three",
+   "ph": "Hana, dul, set"
+  },
+  {
+   "t": "십",
+   "en": "Ten",
+   "ph": "Sip"
+  },
+  {
+   "t": "백",
+   "en": "One hundred",
+   "ph": "Baek"
+  },
+  {
+   "t": "너무 비싸요.",
+   "en": "It's too expensive",
+   "ph": "Neomu bissayo."
+  },
+  {
+   "t": "카드로 결제할 수 있어요?",
+   "en": "Can I pay by card?",
+   "ph": "Kadeuro gyeoljehal su isseoyo?"
+  },
+  {
+   "t": "현금으로 낼게요.",
+   "en": "I'll pay in cash",
+   "ph": "Hyeongeumeuro naelgeyo."
+  },
+  {
+   "t": "호텔이 어디예요?",
+   "en": "Where is the hotel?",
+   "ph": "Hoteri eodiyeyo?"
+  },
+  {
+   "t": "버스 정류장이 어디예요?",
+   "en": "Where is the bus stop?",
+   "ph": "Beoseu jeongnyujangi eodiyeyo?"
+  },
+  {
+   "t": "공항에 어떻게 가요?",
+   "en": "How do I get to the airport?",
+   "ph": "Gonghange eotteoke gayo?"
+  },
+  {
+   "t": "왼쪽으로 가세요.",
+   "en": "Turn left",
+   "ph": "Oenjjogeuro gaseyo."
+  },
+  {
+   "t": "오른쪽으로 가세요.",
+   "en": "Turn right",
+   "ph": "Oreunjjogeuro gaseyo."
+  },
+  {
+   "t": "직진하세요.",
+   "en": "Go straight ahead",
+   "ph": "Jikjinhaseyo."
+  },
+  {
+   "t": "멀어요?",
+   "en": "Is it far?",
+   "ph": "Meoreoyo?"
+  },
+  {
+   "t": "표 한 장 주세요.",
+   "en": "One ticket, please",
+   "ph": "Pyo han jang juseyo."
+  },
+  {
+   "t": "몇 시에 출발해요?",
+   "en": "What time does it leave?",
+   "ph": "Myeot sie chulbalhaeyo?"
+  },
+  {
+   "t": "택시를 불러 주세요.",
+   "en": "Please call a taxi",
+   "ph": "Taeksireul bulleo juseyo."
+  },
+  {
+   "t": "예약했어요.",
+   "en": "I have a reservation",
+   "ph": "Yeyakhaesseoyo."
+  },
+  {
+   "t": "두 명 자리 주세요.",
+   "en": "A table for two, please",
+   "ph": "Du myeong jari juseyo."
+  },
+  {
+   "t": "저는 채식주의자예요.",
+   "en": "I'm vegetarian",
+   "ph": "Jeoneun chaesikjuuijayeyo."
+  },
+  {
+   "t": "견과류 알레르기가 있어요.",
+   "en": "I'm allergic to nuts",
+   "ph": "Gyeongwaryu allereugiga isseoyo."
+  },
+  {
+   "t": "고기 빼고 주세요.",
+   "en": "Without meat, please",
+   "ph": "Gogi ppaego juseyo."
+  },
+  {
+   "t": "하나 더 주세요.",
+   "en": "One more, please",
+   "ph": "Hana deo juseyo."
+  },
+  {
+   "t": "뭘 추천하세요?",
+   "en": "What do you recommend?",
+   "ph": "Mwol chucheonhaseyo?"
+  },
+  {
+   "t": "오늘은 월요일이에요.",
+   "en": "Today is Monday",
+   "ph": "Oneureun woryoirieyo."
+  },
+  {
+   "t": "오늘 무슨 요일이에요?",
+   "en": "What day is it today?",
+   "ph": "Oneul museun yoirieyo?"
+  },
+  {
+   "t": "어제",
+   "en": "Yesterday",
+   "ph": "Eoje"
+  },
+  {
+   "t": "지금",
+   "en": "Now",
+   "ph": "Jigeum"
+  },
+  {
+   "t": "잠깐만요.",
+   "en": "Wait a moment, please",
+   "ph": "Jamkkanmanyo."
+  },
+  {
+   "t": "피곤해요.",
+   "en": "I'm tired",
+   "ph": "Pigonhaeyo."
+  },
+  {
+   "t": "기뻐요.",
+   "en": "I'm happy",
+   "ph": "Gippeoyo."
+  },
+  {
+   "t": "몸이 안 좋아요.",
+   "en": "I don't feel well",
+   "ph": "Momi an joayo."
+  },
+  {
+   "t": "의사가 필요해요.",
+   "en": "I need a doctor",
+   "ph": "Uisaga piryohaeyo."
+  },
+  {
+   "t": "경찰을 불러 주세요.",
+   "en": "Call the police",
+   "ph": "Gyeongchareul bulleo juseyo."
+  },
+  {
+   "t": "여권을 잃어버렸어요.",
+   "en": "I lost my passport",
+   "ph": "Yeogwoneul ireobeoryeosseoyo."
+  },
+  {
+   "t": "약국이 어디예요?",
+   "en": "Where is the pharmacy?",
+   "ph": "Yakgugi eodiyeyo?"
+  },
+  {
+   "t": "와이파이 있어요?",
+   "en": "Is there Wi-Fi?",
+   "ph": "Waipai isseoyo?"
+  },
+  {
+   "t": "와이파이 비밀번호가 뭐예요?",
+   "en": "What's the Wi-Fi password?",
+   "ph": "Waipai bimilbeonhoga mwoyeyo?"
+  },
+  {
+   "t": "여기서 휴대폰을 충전해도 돼요?",
+   "en": "Can I charge my phone here?",
+   "ph": "Yeogiseo hyudaeponeul chungjeonhaedo dwaeyo?"
+  },
+  {
+   "t": "한국어를 공부하고 있어요.",
+   "en": "I'm learning the language",
+   "ph": "Hangugeoreul gongbuhago isseoyo."
+  },
+  {
+   "t": "책 읽는 걸 좋아해요.",
+   "en": "I love reading books",
+   "ph": "Chaek ingneun geol joahaeyo."
+  },
+  {
+   "t": "이 단어는 무슨 뜻이에요?",
+   "en": "What does this word mean?",
+   "ph": "I daneoneun museun tteusieyo?"
+  },
+  {
+   "t": "이건 한국어로 뭐라고 해요?",
+   "en": "How do you say this?",
+   "ph": "Igeon hangugeoro mworago haeyo?"
+  },
+  {
+   "t": "적어 주실 수 있어요?",
+   "en": "Can you write it down?",
+   "ph": "Jeogeo jusil su isseoyo?"
+  },
+  {
+   "t": "휴가로 왔어요.",
+   "en": "I'm here on holiday",
+   "ph": "Hyugaro wasseoyo."
+  },
+  {
+   "t": "사진 찍어도 돼요?",
+   "en": "May I take a photo?",
+   "ph": "Sajin jjigeodo dwaeyo?"
+  }
+ ]
+}

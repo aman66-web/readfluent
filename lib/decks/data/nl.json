@@ -1,0 +1,505 @@
+{
+ "lang": "nl",
+ "phrases": [
+  {
+   "t": "Hallo",
+   "en": "Hello",
+   "ph": "HAH-loh"
+  },
+  {
+   "t": "Goedemorgen",
+   "en": "Good morning",
+   "ph": "KHOO-deh-MOR-khen"
+  },
+  {
+   "t": "Goedenavond",
+   "en": "Good evening",
+   "ph": "KHOO-den-AH-vont"
+  },
+  {
+   "t": "Tot ziens",
+   "en": "Goodbye",
+   "ph": "tot ZEENS"
+  },
+  {
+   "t": "Alstublieft",
+   "en": "Please",
+   "ph": "AHL-stew-bleeft"
+  },
+  {
+   "t": "Dank u",
+   "en": "Thank you",
+   "ph": "dahnk ew"
+  },
+  {
+   "t": "Dank u wel",
+   "en": "Thank you very much",
+   "ph": "dahnk ew VEL"
+  },
+  {
+   "t": "Graag gedaan",
+   "en": "You're welcome",
+   "ph": "khrakh khuh-DAHN"
+  },
+  {
+   "t": "Ja",
+   "en": "Yes",
+   "ph": "yah"
+  },
+  {
+   "t": "Nee",
+   "en": "No",
+   "ph": "nay"
+  },
+  {
+   "t": "Pardon",
+   "en": "Excuse me",
+   "ph": "par-DON"
+  },
+  {
+   "t": "Het spijt me",
+   "en": "I'm sorry",
+   "ph": "het SPAYT meh"
+  },
+  {
+   "t": "Ik begrijp het niet",
+   "en": "I don't understand",
+   "ph": "ik buh-KHRAYP het neet"
+  },
+  {
+   "t": "Kunt u langzamer praten?",
+   "en": "Can you speak more slowly?",
+   "ph": "kunt ew LAHNG-zah-mer PRAH-ten"
+  },
+  {
+   "t": "Kunt u dat herhalen?",
+   "en": "Can you repeat that?",
+   "ph": "kunt ew dat her-HAH-len"
+  },
+  {
+   "t": "Spreekt u Engels?",
+   "en": "Do you speak English?",
+   "ph": "spraykt ew ENG-els"
+  },
+  {
+   "t": "Ik spreek een beetje Nederlands",
+   "en": "I speak a little Dutch",
+   "ph": "ik sprayk un BAY-tyuh NAY-der-lahnts"
+  },
+  {
+   "t": "Mijn naam is Anna",
+   "en": "My name is Anna",
+   "ph": "mayn nahm is AH-nah"
+  },
+  {
+   "t": "Hoe heet u?",
+   "en": "What's your name?",
+   "ph": "hoo hayt ew"
+  },
+  {
+   "t": "Aangenaam",
+   "en": "Nice to meet you",
+   "ph": "AHN-khuh-nahm"
+  },
+  {
+   "t": "Hoe gaat het?",
+   "en": "How are you?",
+   "ph": "hoo khaht het"
+  },
+  {
+   "t": "Goed, dank u",
+   "en": "I'm fine, thank you",
+   "ph": "khoot dahnk ew"
+  },
+  {
+   "t": "En met u?",
+   "en": "And you?",
+   "ph": "en met ew"
+  },
+  {
+   "t": "Waar komt u vandaan?",
+   "en": "Where are you from?",
+   "ph": "vahr komt ew vahn-DAHN"
+  },
+  {
+   "t": "Ik kom uit Engeland",
+   "en": "I'm from England",
+   "ph": "ik kom out ENG-uh-lahnt"
+  },
+  {
+   "t": "Help!",
+   "en": "Help!",
+   "ph": "help"
+  },
+  {
+   "t": "Kunt u mij helpen?",
+   "en": "Can you help me?",
+   "ph": "kunt ew may HEL-pen"
+  },
+  {
+   "t": "Waar is het toilet?",
+   "en": "Where is the bathroom?",
+   "ph": "vahr is het twah-LET"
+  },
+  {
+   "t": "Waar is het station?",
+   "en": "Where is the station?",
+   "ph": "vahr is het stah-SHON"
+  },
+  {
+   "t": "Hoeveel kost het?",
+   "en": "How much is it?",
+   "ph": "hoo-VAYL kost het"
+  },
+  {
+   "t": "Dat is te duur",
+   "en": "That's too expensive",
+   "ph": "dat is teh DEWR"
+  },
+  {
+   "t": "Ik wil graag dit",
+   "en": "I would like this",
+   "ph": "ik vil khrahkh dit"
+  },
+  {
+   "t": "De rekening, alstublieft",
+   "en": "The bill, please",
+   "ph": "duh RAY-kuh-ning AHL-stew-bleeft"
+  },
+  {
+   "t": "Een tafel voor twee, alstublieft",
+   "en": "A table for two, please",
+   "ph": "un TAH-fel vor TVAY AHL-stew-bleeft"
+  },
+  {
+   "t": "De menukaart, alstublieft",
+   "en": "The menu, please",
+   "ph": "duh meh-NEW-kahrt AHL-stew-bleeft"
+  },
+  {
+   "t": "Water, alstublieft",
+   "en": "Water, please",
+   "ph": "VAH-ter AHL-stew-bleeft"
+  },
+  {
+   "t": "Een koffie, alstublieft",
+   "en": "A coffee, please",
+   "ph": "un KOF-fee AHL-stew-bleeft"
+  },
+  {
+   "t": "Ik heb honger",
+   "en": "I'm hungry",
+   "ph": "ik hep HONG-er"
+  },
+  {
+   "t": "Ik heb dorst",
+   "en": "I'm thirsty",
+   "ph": "ik hep dorst"
+  },
+  {
+   "t": "Het is heerlijk",
+   "en": "It's delicious",
+   "ph": "het is HAYR-lek"
+  },
+  {
+   "t": "Welterusten",
+   "en": "Good night",
+   "ph": "VEL-tuh-RUS-ten"
+  },
+  {
+   "t": "Ik weet het niet",
+   "en": "I don't know",
+   "ph": "ik vayt het neet"
+  },
+  {
+   "t": "Natuurlijk",
+   "en": "Of course",
+   "ph": "nah-TEWR-lek"
+  },
+  {
+   "t": "Geen probleem",
+   "en": "No problem",
+   "ph": "khayn pro-BLAYM"
+  },
+  {
+   "t": "Hoe laat is het?",
+   "en": "What time is it?",
+   "ph": "hoo laht is het"
+  },
+  {
+   "t": "Vandaag",
+   "en": "Today",
+   "ph": "vahn-DAHKH"
+  },
+  {
+   "t": "Morgen",
+   "en": "Tomorrow",
+   "ph": "MOR-khen"
+  },
+  {
+   "t": "Ik ben verdwaald",
+   "en": "I'm lost",
+   "ph": "ik ben ver-DVAHLT"
+  },
+  {
+   "t": "Ga naar links",
+   "en": "Turn left",
+   "ph": "khah nahr LINKS"
+  },
+  {
+   "t": "Ga naar rechts",
+   "en": "Turn right",
+   "ph": "khah nahr REKHTS"
+  },
+  {
+   "t": "Rechtdoor",
+   "en": "Straight ahead",
+   "ph": "REKHT-dor"
+  },
+  {
+   "t": "Is het ver?",
+   "en": "Is it far?",
+   "ph": "is het VER"
+  },
+  {
+   "t": "Een kaartje, alstublieft",
+   "en": "One ticket, please",
+   "ph": "un KAHRT-yuh AHL-stew-bleeft"
+  },
+  {
+   "t": "Waar is de bushalte?",
+   "en": "Where is the bus stop?",
+   "ph": "vahr is duh BUS-hal-teh"
+  },
+  {
+   "t": "Naar het vliegveld, alstublieft",
+   "en": "To the airport, please",
+   "ph": "nahr het VLEEKH-velt AHL-stew-bleeft"
+  },
+  {
+   "t": "Ik heb een reservering",
+   "en": "I have a reservation",
+   "ph": "ik hep un ray-zer-VAY-ring"
+  },
+  {
+   "t": "Hebt u een kamer vrij?",
+   "en": "Do you have a free room?",
+   "ph": "hept ew un KAH-mer vray"
+  },
+  {
+   "t": "Een, twee, drie",
+   "en": "One, two, three",
+   "ph": "ayn tvay dree"
+  },
+  {
+   "t": "Kan ik met pin betalen?",
+   "en": "Do you accept cards?",
+   "ph": "kan ik met PIN buh-TAH-len"
+  },
+  {
+   "t": "Ik betaal contant",
+   "en": "I'll pay in cash",
+   "ph": "ik buh-TAHL kon-TANT"
+  },
+  {
+   "t": "Waar is de apotheek?",
+   "en": "Where is the pharmacy?",
+   "ph": "vahr is duh ah-po-TAYK"
+  },
+  {
+   "t": "Ik voel me niet goed",
+   "en": "I don't feel well",
+   "ph": "ik vool muh neet khoot"
+  },
+  {
+   "t": "Ik heb een dokter nodig",
+   "en": "I need a doctor",
+   "ph": "ik hep un DOK-ter NO-dukh"
+  },
+  {
+   "t": "Bel de politie",
+   "en": "Call the police",
+   "ph": "bel duh po-LEE-tsee"
+  },
+  {
+   "t": "Ik ben blij",
+   "en": "I'm happy",
+   "ph": "ik ben blay"
+  },
+  {
+   "t": "Ik ben moe",
+   "en": "I'm tired",
+   "ph": "ik ben moo"
+  },
+  {
+   "t": "Ik vind het leuk",
+   "en": "I like it",
+   "ph": "ik vint het LUHK"
+  },
+  {
+   "t": "Ik vind het niet leuk",
+   "en": "I don't like it",
+   "ph": "ik vint het neet LUHK"
+  },
+  {
+   "t": "Wat is dit?",
+   "en": "What is this?",
+   "ph": "vat is dit"
+  },
+  {
+   "t": "Wat betekent dit?",
+   "en": "What does this mean?",
+   "ph": "vat buh-TAY-kent dit"
+  },
+  {
+   "t": "Hoe zeg je dit in het Nederlands?",
+   "en": "How do you say this in Dutch?",
+   "ph": "hoo zekh yuh dit in het NAY-der-lahnts"
+  },
+  {
+   "t": "Is er wifi?",
+   "en": "Is there Wi-Fi?",
+   "ph": "is er VEE-fee"
+  },
+  {
+   "t": "Welke dag is het vandaag?",
+   "en": "What day is it today?",
+   "ph": "VEL-kuh dakh is het vahn-DAHKH"
+  },
+  {
+   "t": "Nu",
+   "en": "Now",
+   "ph": "new"
+  },
+  {
+   "t": "Straks",
+   "en": "Later",
+   "ph": "strahks"
+  },
+  {
+   "t": "Een momentje",
+   "en": "One moment",
+   "ph": "un mo-MENT-yuh"
+  },
+  {
+   "t": "Laten we gaan",
+   "en": "Let's go",
+   "ph": "LAH-ten vuh KHAHN"
+  },
+  {
+   "t": "Ik ben klaar",
+   "en": "I'm ready",
+   "ph": "ik ben KLAHR"
+  },
+  {
+   "t": "Ik ben te laat",
+   "en": "I'm late",
+   "ph": "ik ben tuh LAHT"
+  },
+  {
+   "t": "Veel succes!",
+   "en": "Good luck!",
+   "ph": "vayl suk-SES"
+  },
+  {
+   "t": "Gefeliciteerd!",
+   "en": "Happy birthday!",
+   "ph": "khuh-fay-lee-see-TAYRT"
+  },
+  {
+   "t": "Welkom",
+   "en": "Welcome",
+   "ph": "VEL-kom"
+  },
+  {
+   "t": "Een fijne dag",
+   "en": "Have a nice day",
+   "ph": "un FAY-nuh DAKH"
+  },
+  {
+   "t": "Goede reis",
+   "en": "Have a good trip",
+   "ph": "KHOO-duh RAYS"
+  },
+  {
+   "t": "Ik leer Nederlands",
+   "en": "I'm learning Dutch",
+   "ph": "ik layr NAY-der-lahnts"
+  },
+  {
+   "t": "Ik ben op vakantie",
+   "en": "I'm on holiday",
+   "ph": "ik ben op vah-KAHN-see"
+  },
+  {
+   "t": "Hoe lang duurt het?",
+   "en": "How long does it take?",
+   "ph": "hoo lahng DEWRT het"
+  },
+  {
+   "t": "Ik woon in Londen",
+   "en": "I live in London",
+   "ph": "ik vohn in LON-den"
+  },
+  {
+   "t": "Ik ben het ermee eens",
+   "en": "I agree",
+   "ph": "ik ben het er-MAY ayns"
+  },
+  {
+   "t": "Misschien",
+   "en": "Maybe",
+   "ph": "mis-KHEEN"
+  },
+  {
+   "t": "Echt waar?",
+   "en": "Really?",
+   "ph": "ekht VAHR"
+  },
+  {
+   "t": "Het maakt niet uit",
+   "en": "It doesn't matter",
+   "ph": "het mahkt neet OWT"
+  },
+  {
+   "t": "Tot straks",
+   "en": "See you later",
+   "ph": "tot STRAHKS"
+  },
+  {
+   "t": "Tot morgen",
+   "en": "See you tomorrow",
+   "ph": "tot MOR-khen"
+  },
+  {
+   "t": "Ik ben allergisch voor noten",
+   "en": "I'm allergic to nuts",
+   "ph": "ik ben ah-LER-khees vor NO-ten"
+  },
+  {
+   "t": "Zonder vlees, alstublieft",
+   "en": "Without meat, please",
+   "ph": "ZON-der VLAYS AHL-stew-bleeft"
+  },
+  {
+   "t": "Een biertje, alstublieft",
+   "en": "A beer, please",
+   "ph": "un BEER-tyuh AHL-stew-bleeft"
+  },
+  {
+   "t": "Proost!",
+   "en": "Cheers!",
+   "ph": "prohst"
+  },
+  {
+   "t": "Pas goed op jezelf",
+   "en": "Take care",
+   "ph": "pas khoot op yuh-ZELF"
+  },
+  {
+   "t": "Het is prachtig",
+   "en": "It's beautiful",
+   "ph": "het is PRAHKH-tukh"
+  }
+ ]
+}

@@ -1,0 +1,505 @@
+{
+ "lang": "ar",
+ "phrases": [
+  {
+   "t": "مرحباً",
+   "en": "Hello",
+   "ph": "marhaban"
+  },
+  {
+   "t": "مع السلامة",
+   "en": "Goodbye",
+   "ph": "ma'a as-salaama"
+  },
+  {
+   "t": "من فضلك",
+   "en": "Please",
+   "ph": "min fadlak"
+  },
+  {
+   "t": "شكراً",
+   "en": "Thank you",
+   "ph": "shukran"
+  },
+  {
+   "t": "عفواً",
+   "en": "You're welcome",
+   "ph": "'afwan"
+  },
+  {
+   "t": "عذراً",
+   "en": "Excuse me",
+   "ph": "'udhran"
+  },
+  {
+   "t": "أنا آسف",
+   "en": "I'm sorry",
+   "ph": "ana aasif"
+  },
+  {
+   "t": "نعم",
+   "en": "Yes",
+   "ph": "na'am"
+  },
+  {
+   "t": "لا",
+   "en": "No",
+   "ph": "laa"
+  },
+  {
+   "t": "صباح الخير",
+   "en": "Good morning",
+   "ph": "sabaah al-khayr"
+  },
+  {
+   "t": "مساء الخير",
+   "en": "Good evening",
+   "ph": "masaa' al-khayr"
+  },
+  {
+   "t": "تصبح على خير",
+   "en": "Good night",
+   "ph": "tusbih 'alaa khayr"
+  },
+  {
+   "t": "كيف حالك؟",
+   "en": "How are you?",
+   "ph": "kayfa haaluk"
+  },
+  {
+   "t": "أنا بخير، شكراً",
+   "en": "I'm fine, thanks",
+   "ph": "ana bikhayr, shukran"
+  },
+  {
+   "t": "وأنت؟",
+   "en": "And you?",
+   "ph": "wa-anta"
+  },
+  {
+   "t": "تشرفنا",
+   "en": "Nice to meet you",
+   "ph": "tasharrafnaa"
+  },
+  {
+   "t": "اسمي آنا",
+   "en": "My name is Anna",
+   "ph": "ismii aanaa"
+  },
+  {
+   "t": "ما اسمك؟",
+   "en": "What is your name?",
+   "ph": "maa ismuk"
+  },
+  {
+   "t": "لا أفهم",
+   "en": "I don't understand",
+   "ph": "laa afham"
+  },
+  {
+   "t": "هل تتكلم الإنجليزية؟",
+   "en": "Do you speak English?",
+   "ph": "hal tatakallam al-injliiziyya"
+  },
+  {
+   "t": "هل يمكنك التحدث ببطء أكثر؟",
+   "en": "Can you speak more slowly?",
+   "ph": "hal yumkinuka at-tahadduth bi-bu't akthar"
+  },
+  {
+   "t": "هل يمكنك أن تعيد ذلك من فضلك؟",
+   "en": "Can you repeat that, please?",
+   "ph": "hal yumkinuka an tu'iida dhaalik min fadlak"
+  },
+  {
+   "t": "لا أعرف",
+   "en": "I don't know",
+   "ph": "laa a'rif"
+  },
+  {
+   "t": "النجدة!",
+   "en": "Help!",
+   "ph": "an-najda"
+  },
+  {
+   "t": "أحتاج إلى مساعدة",
+   "en": "I need help",
+   "ph": "ahtaaj ilaa musaa'ada"
+  },
+  {
+   "t": "أين دورة المياه؟",
+   "en": "Where is the toilet?",
+   "ph": "ayna dawrat al-miyaah"
+  },
+  {
+   "t": "بكم هذا؟",
+   "en": "How much is this?",
+   "ph": "bikam haadhaa"
+  },
+  {
+   "t": "أين المحطة؟",
+   "en": "Where is the station?",
+   "ph": "ayna al-mahatta"
+  },
+  {
+   "t": "أنا تائه",
+   "en": "I'm lost",
+   "ph": "ana taa'ih"
+  },
+  {
+   "t": "أريد ماءً من فضلك",
+   "en": "I would like some water, please",
+   "ph": "uriid maa'an min fadlak"
+  },
+  {
+   "t": "قائمة الطعام من فضلك",
+   "en": "The menu, please",
+   "ph": "qaa'imat at-ta'aam min fadlak"
+  },
+  {
+   "t": "الحساب من فضلك",
+   "en": "The bill, please",
+   "ph": "al-hisaab min fadlak"
+  },
+  {
+   "t": "أنا جائع",
+   "en": "I'm hungry",
+   "ph": "ana jaa'i'"
+  },
+  {
+   "t": "أنا عطشان",
+   "en": "I'm thirsty",
+   "ph": "ana 'atshaan"
+  },
+  {
+   "t": "واحد، اثنان، ثلاثة، أربعة، خمسة",
+   "en": "One, two, three, four, five",
+   "ph": "waahid, ithnaan, thalaatha, arba'a, khamsa"
+  },
+  {
+   "t": "كم الساعة؟",
+   "en": "What time is it?",
+   "ph": "kam as-saa'a"
+  },
+  {
+   "t": "أراك غداً",
+   "en": "See you tomorrow",
+   "ph": "araak ghadan"
+  },
+  {
+   "t": "أريد هذا",
+   "en": "I would like this",
+   "ph": "uriid haadhaa"
+  },
+  {
+   "t": "من أين أنت؟",
+   "en": "Where are you from?",
+   "ph": "min ayna anta"
+  },
+  {
+   "t": "أنا من إنجلترا",
+   "en": "I'm from England",
+   "ph": "ana min injiltiraa"
+  },
+  {
+   "t": "أسكن في لندن",
+   "en": "I live in London",
+   "ph": "askun fii lundun"
+  },
+  {
+   "t": "أتكلم العربية قليلاً",
+   "en": "I speak a little Arabic",
+   "ph": "atakallam al-'arabiyya qaliilan"
+  },
+  {
+   "t": "هل لديكم طاولة لشخصين؟",
+   "en": "Do you have a table for two?",
+   "ph": "hal ladaykum taawila li-shakhsayn"
+  },
+  {
+   "t": "هل هو بعيد من هنا؟",
+   "en": "Is it far from here?",
+   "ph": "hal huwa ba'iid min hunaa"
+  },
+  {
+   "t": "انعطف يساراً",
+   "en": "Turn left",
+   "ph": "in'atif yasaaran"
+  },
+  {
+   "t": "اذهب إلى الأمام مباشرة",
+   "en": "Go straight ahead",
+   "ph": "idhhab ilaa al-amaam mubaashara"
+  },
+  {
+   "t": "تذكرة من فضلك",
+   "en": "A ticket, please",
+   "ph": "tadhkira min fadlak"
+  },
+  {
+   "t": "هل يمكنك مساعدتي؟",
+   "en": "Can you help me?",
+   "ph": "hal yumkinuka musaa'adatii"
+  },
+  {
+   "t": "هل تقبلون بطاقات الائتمان؟",
+   "en": "Do you accept credit cards?",
+   "ph": "hal taqbaluun bitaaqaat al-i'timaan"
+  },
+  {
+   "t": "أفهم",
+   "en": "I understand",
+   "ph": "afham"
+  },
+  {
+   "t": "طاب يومك",
+   "en": "Good day (good afternoon)",
+   "ph": "taab yawmuk"
+  },
+  {
+   "t": "أراك لاحقاً",
+   "en": "See you later",
+   "ph": "araak laahiqan"
+  },
+  {
+   "t": "شكراً جزيلاً",
+   "en": "Thank you very much",
+   "ph": "shukran jaziilan"
+  },
+  {
+   "t": "لا، شكراً",
+   "en": "No, thank you",
+   "ph": "laa, shukran"
+  },
+  {
+   "t": "ربما",
+   "en": "Maybe",
+   "ph": "rubbamaa"
+  },
+  {
+   "t": "ماذا يعني هذا؟",
+   "en": "What does this mean?",
+   "ph": "maadhaa ya'nii haadhaa"
+  },
+  {
+   "t": "كيف أقول هذا بالعربية؟",
+   "en": "How do you say this in Arabic?",
+   "ph": "kayfa aquul haadhaa bil-'arabiyya"
+  },
+  {
+   "t": "هل يمكنك كتابته؟",
+   "en": "Can you write it down?",
+   "ph": "hal yumkinuka kitaabatuh"
+  },
+  {
+   "t": "هل يتكلم أحد الإنجليزية؟",
+   "en": "Does anyone speak English?",
+   "ph": "hal yatakallam ahad al-injliiziyya"
+  },
+  {
+   "t": "اتصل بالشرطة!",
+   "en": "Call the police!",
+   "ph": "ittasil bish-shurta"
+  },
+  {
+   "t": "أشعر بالمرض",
+   "en": "I feel sick",
+   "ph": "ash'ur bil-marad"
+  },
+  {
+   "t": "أحتاج إلى طبيب",
+   "en": "I need a doctor",
+   "ph": "ahtaaj ilaa tabiib"
+  },
+  {
+   "t": "أين المستشفى؟",
+   "en": "Where is the hospital?",
+   "ph": "ayna al-mustashfaa"
+  },
+  {
+   "t": "عندي حساسية من المكسرات",
+   "en": "I'm allergic to nuts",
+   "ph": "'indii hassaasiyya min al-mukassaraat"
+  },
+  {
+   "t": "أنا نباتي",
+   "en": "I'm vegetarian",
+   "ph": "ana nabaatii"
+  },
+  {
+   "t": "قهوة بالحليب من فضلك",
+   "en": "A coffee with milk, please",
+   "ph": "qahwa bil-haliib min fadlak"
+  },
+  {
+   "t": "شاي من فضلك",
+   "en": "A tea, please",
+   "ph": "shaay min fadlak"
+  },
+  {
+   "t": "في صحتك!",
+   "en": "Cheers! (to your health)",
+   "ph": "fii sihhatik"
+  },
+  {
+   "t": "بالعافية",
+   "en": "Enjoy your meal (bon appetit)",
+   "ph": "bil-'aafiya"
+  },
+  {
+   "t": "إنه لذيذ",
+   "en": "It's delicious",
+   "ph": "innahu ladhiidh"
+  },
+  {
+   "t": "لقد شبعت",
+   "en": "I'm full",
+   "ph": "laqad shabi'tu"
+  },
+  {
+   "t": "أين موقف الحافلة؟",
+   "en": "Where is the bus stop?",
+   "ph": "ayna mawqif al-haafila"
+  },
+  {
+   "t": "أين أجد سيارة أجرة؟",
+   "en": "Where can I find a taxi?",
+   "ph": "ayna ajid sayyaarat ujra"
+  },
+  {
+   "t": "كيف أصل إلى المطار؟",
+   "en": "How do I get to the airport?",
+   "ph": "kayfa asil ilaa al-mataar"
+  },
+  {
+   "t": "متى يغادر القطار؟",
+   "en": "What time does the train leave?",
+   "ph": "mataa yughaadir al-qitaar"
+  },
+  {
+   "t": "كم يستغرق ذلك من الوقت؟",
+   "en": "How long does it take?",
+   "ph": "kam yastaghriq dhaalika min al-waqt"
+  },
+  {
+   "t": "أريد حجز غرفة",
+   "en": "I would like to book a room",
+   "ph": "uriid hajz ghurfa"
+  },
+  {
+   "t": "أي يوم هو اليوم؟",
+   "en": "What day is it today?",
+   "ph": "ayy yawm huwa al-yawm"
+  },
+  {
+   "t": "متى تفتحون؟",
+   "en": "What time do you open?",
+   "ph": "mataa taftahuun"
+  },
+  {
+   "t": "هذا غالٍ جداً",
+   "en": "It's too expensive",
+   "ph": "haadhaa ghaalin jiddan"
+  },
+  {
+   "t": "هل لديكم شيء أرخص؟",
+   "en": "Do you have a cheaper one?",
+   "ph": "hal ladaykum shay' arkhas"
+  },
+  {
+   "t": "عشرة، عشرون، خمسون، مئة",
+   "en": "Ten, twenty, fifty, one hundred",
+   "ph": "'ashara, 'ishruun, khamsuun, mi'a"
+  },
+  {
+   "t": "أنا متعب",
+   "en": "I'm tired",
+   "ph": "ana mut'ab"
+  },
+  {
+   "t": "أنا سعيد",
+   "en": "I'm happy",
+   "ph": "ana sa'iid"
+  },
+  {
+   "t": "أشعر بالبرد",
+   "en": "I'm cold",
+   "ph": "ash'ur bil-bard"
+  },
+  {
+   "t": "يعجبني",
+   "en": "I like it",
+   "ph": "yu'jibunii"
+  },
+  {
+   "t": "لا يعجبني",
+   "en": "I don't like it",
+   "ph": "laa yu'jibunii"
+  },
+  {
+   "t": "مبروك!",
+   "en": "Congratulations!",
+   "ph": "mabruuk"
+  },
+  {
+   "t": "عيد ميلاد سعيد!",
+   "en": "Happy birthday!",
+   "ph": "'iid miilaad sa'iid"
+  },
+  {
+   "t": "حظاً سعيداً!",
+   "en": "Good luck!",
+   "ph": "hazzan sa'iidan"
+  },
+  {
+   "t": "أهلاً وسهلاً!",
+   "en": "Welcome!",
+   "ph": "ahlan wa-sahlan"
+  },
+  {
+   "t": "لا مشكلة",
+   "en": "No problem",
+   "ph": "laa mushkila"
+  },
+  {
+   "t": "بالتأكيد",
+   "en": "Of course",
+   "ph": "bit-ta'kiid"
+  },
+  {
+   "t": "أوافق",
+   "en": "I agree",
+   "ph": "uwaafiq"
+  },
+  {
+   "t": "لحظة من فضلك",
+   "en": "Wait a moment, please",
+   "ph": "lahza min fadlak"
+  },
+  {
+   "t": "أنا جاهز",
+   "en": "I'm ready",
+   "ph": "ana jaahiz"
+  },
+  {
+   "t": "هل يمكنني التقاط صورة هنا؟",
+   "en": "Can I take a photo here?",
+   "ph": "hal yumkinunii iltiqaat suura hunaa"
+  },
+  {
+   "t": "ما كلمة مرور الواي فاي؟",
+   "en": "What is the Wi-Fi password?",
+   "ph": "maa kalimat muruur al-waay faay"
+  },
+  {
+   "t": "أين يمكنني شحن هاتفي؟",
+   "en": "Where can I charge my phone?",
+   "ph": "ayna yumkinunii shahn haatifii"
+  },
+  {
+   "t": "أتمنى لك يوماً سعيداً",
+   "en": "Have a nice day!",
+   "ph": "atamannaa laka yawman sa'iidan"
+  }
+ ]
+}

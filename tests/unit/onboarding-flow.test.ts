@@ -413,15 +413,15 @@ describe("What three months adds up to", () => {
   });
 });
 
-describe("Recall offers ways to practise", () => {
-  it("lists flashcards and talk, both marked as coming soon", async () => {
+describe("Recall is a hub", () => {
+  it("offers the saved cards, the phrase decks and a talk with Dewey", async () => {
     const { RecallView } = await import("@/components/recall/RecallView");
     const html = renderToStaticMarkup(createElement(RecallView));
     const t = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
-    expect(html).toContain('data-way="flashcards"');
     expect(html).toContain('data-way="talk"');
+    expect(html).toContain('href="/recall/talk"');
+    expect(t).toContain("Your cards");
     expect(t).toContain("Ways to practise");
-    expect(t).toContain("conversation in the language you");
-    expect((t.match(/Coming soon/g) ?? []).length).toBe(2);
+    expect(t).not.toContain("Coming soon");
   });
 });

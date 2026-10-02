@@ -33,8 +33,8 @@ const TABS: readonly Tab[] = [
     icon: <><path d="M4.5 4.5h3v15h-3zM9.5 4.5h3v15h-3z" /><path d="M14.6 5.6l2.9-.8 3.3 14-2.9.8z" /></> },
 ];
 
-/** Screens that own the phone, with their own way out: the first run, the placement test, reading. */
-const HIDDEN = [/^\/welcome/, /^\/placement/, /^\/read\//, /^\/offline/, /^\/privacy/];
+/** Screens that own the phone, with their own way out: the first run, the placement test, reading, a flashcard or conversation sitting. */
+const HIDDEN = [/^\/welcome/, /^\/placement/, /^\/read\//, /^\/recall\/./, /^\/offline/, /^\/privacy/];
 
 export function TabBar() {
   const path = usePathname();

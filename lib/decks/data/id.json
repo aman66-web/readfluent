@@ -1,0 +1,505 @@
+{
+ "lang": "id",
+ "phrases": [
+  {
+   "t": "Halo",
+   "en": "Hello",
+   "ph": "HAH-lo"
+  },
+  {
+   "t": "Selamat pagi",
+   "en": "Good morning",
+   "ph": "seh-LAH-mat PAH-gee"
+  },
+  {
+   "t": "Selamat malam",
+   "en": "Good evening",
+   "ph": "seh-LAH-mat MAH-lam"
+  },
+  {
+   "t": "Selamat tidur",
+   "en": "Good night",
+   "ph": "seh-LAH-mat tee-DOOR"
+  },
+  {
+   "t": "Selamat tinggal",
+   "en": "Goodbye",
+   "ph": "seh-LAH-mat TING-gal"
+  },
+  {
+   "t": "Sampai jumpa lagi",
+   "en": "See you later",
+   "ph": "SAHM-pie JOOM-pah LAH-gee"
+  },
+  {
+   "t": "Tolong",
+   "en": "Please",
+   "ph": "TOH-long"
+  },
+  {
+   "t": "Terima kasih",
+   "en": "Thank you",
+   "ph": "teh-REE-mah KAH-see"
+  },
+  {
+   "t": "Terima kasih banyak",
+   "en": "Thank you very much",
+   "ph": "teh-REE-mah KAH-see BAHN-yak"
+  },
+  {
+   "t": "Sama-sama",
+   "en": "You're welcome",
+   "ph": "SAH-mah SAH-mah"
+  },
+  {
+   "t": "Permisi",
+   "en": "Excuse me",
+   "ph": "per-MEE-see"
+  },
+  {
+   "t": "Maaf",
+   "en": "I'm sorry",
+   "ph": "MAH-af"
+  },
+  {
+   "t": "Ya",
+   "en": "Yes",
+   "ph": "yah"
+  },
+  {
+   "t": "Tidak",
+   "en": "No",
+   "ph": "TEE-dak"
+  },
+  {
+   "t": "Mungkin",
+   "en": "Maybe",
+   "ph": "MOONG-kin"
+  },
+  {
+   "t": "Apa kabar?",
+   "en": "How are you?",
+   "ph": "AH-pah KAH-bar"
+  },
+  {
+   "t": "Baik, terima kasih",
+   "en": "I'm fine, thank you",
+   "ph": "BAH-ik, teh-REE-mah KAH-see"
+  },
+  {
+   "t": "Dan Anda?",
+   "en": "And you?",
+   "ph": "dahn AHN-dah"
+  },
+  {
+   "t": "Nama saya...",
+   "en": "My name is...",
+   "ph": "NAH-mah SAH-yah"
+  },
+  {
+   "t": "Siapa nama Anda?",
+   "en": "What is your name?",
+   "ph": "see-AH-pah NAH-mah AHN-dah"
+  },
+  {
+   "t": "Senang bertemu dengan Anda",
+   "en": "Nice to meet you",
+   "ph": "seh-NAHNG ber-TEH-moo DENG-an AHN-dah"
+  },
+  {
+   "t": "Saya dari Inggris",
+   "en": "I'm from England",
+   "ph": "SAH-yah DAH-ree ING-gris"
+  },
+  {
+   "t": "Saya tidak mengerti",
+   "en": "I don't understand",
+   "ph": "SAH-yah TEE-dak meng-ER-tee"
+  },
+  {
+   "t": "Saya tidak tahu",
+   "en": "I don't know",
+   "ph": "SAH-yah TEE-dak TAH-hoo"
+  },
+  {
+   "t": "Apakah Anda bisa berbahasa Inggris?",
+   "en": "Do you speak English?",
+   "ph": "AH-pah-kah AHN-dah BEE-sah ber-bah-HAH-sah ING-gris"
+  },
+  {
+   "t": "Saya bisa sedikit bahasa Indonesia",
+   "en": "I speak a little",
+   "ph": "SAH-yah BEE-sah seh-DEE-kit bah-HAH-sah in-doh-NEH-see-ah"
+  },
+  {
+   "t": "Bisa bicara lebih pelan?",
+   "en": "Can you speak more slowly?",
+   "ph": "BEE-sah bee-CHAH-rah leh-BIH peh-LAHN"
+  },
+  {
+   "t": "Bisa diulang?",
+   "en": "Can you repeat that?",
+   "ph": "BEE-sah dee-OO-lang"
+  },
+  {
+   "t": "Apa artinya?",
+   "en": "What does this mean?",
+   "ph": "AH-pah ar-TEE-nyah"
+  },
+  {
+   "t": "Tolong saya!",
+   "en": "Help!",
+   "ph": "TOH-long SAH-yah"
+  },
+  {
+   "t": "Bisa tolong bantu saya?",
+   "en": "Can you help me?",
+   "ph": "BEE-sah TOH-long BAHN-too SAH-yah"
+  },
+  {
+   "t": "Saya tersesat",
+   "en": "I'm lost",
+   "ph": "SAH-yah ter-SEH-sat"
+  },
+  {
+   "t": "Di mana toilet?",
+   "en": "Where is the bathroom?",
+   "ph": "dee MAH-nah TOY-let"
+  },
+  {
+   "t": "Berapa harganya?",
+   "en": "How much is this?",
+   "ph": "beh-RAH-pah har-GAH-nyah"
+  },
+  {
+   "t": "Terlalu mahal",
+   "en": "It's too expensive",
+   "ph": "ter-LAH-loo MAH-hal"
+  },
+  {
+   "t": "Saya mau yang ini",
+   "en": "I would like this",
+   "ph": "SAH-yah MAH-oo yahng EE-nee"
+  },
+  {
+   "t": "Air putih, tolong",
+   "en": "Water, please",
+   "ph": "AH-yer POO-tih, TOH-long"
+  },
+  {
+   "t": "Minta tagihannya",
+   "en": "The bill, please",
+   "ph": "MIN-tah tah-GEE-han-nyah"
+  },
+  {
+   "t": "Saya lapar",
+   "en": "I'm hungry",
+   "ph": "SAH-yah LAH-par"
+  },
+  {
+   "t": "Saya haus",
+   "en": "I'm thirsty",
+   "ph": "SAH-yah HAH-oos"
+  },
+  {
+   "t": "Minta menunya",
+   "en": "The menu, please",
+   "ph": "MIN-tah meh-NOO-nyah"
+  },
+  {
+   "t": "Enak sekali",
+   "en": "It's delicious",
+   "ph": "EH-nak seh-KAH-lee"
+  },
+  {
+   "t": "Di mana stasiun?",
+   "en": "Where is the station?",
+   "ph": "dee MAH-nah STAH-see-oon"
+  },
+  {
+   "t": "Di mana halte bus?",
+   "en": "Where is the bus stop?",
+   "ph": "dee MAH-nah HAHL-teh boos"
+  },
+  {
+   "t": "Belok kiri",
+   "en": "Turn left",
+   "ph": "BEH-lok KEE-ree"
+  },
+  {
+   "t": "Belok kanan",
+   "en": "Turn right",
+   "ph": "BEH-lok KAH-nahn"
+  },
+  {
+   "t": "Lurus saja",
+   "en": "Straight ahead",
+   "ph": "LOO-roos SAH-jah"
+  },
+  {
+   "t": "Saya butuh dokter",
+   "en": "I need a doctor",
+   "ph": "SAH-yah BOO-tooh DOK-ter"
+  },
+  {
+   "t": "Panggil polisi",
+   "en": "Call the police",
+   "ph": "PAHNG-gil poh-LEE-see"
+  },
+  {
+   "t": "Tidak apa-apa",
+   "en": "No problem",
+   "ph": "TEE-dak AH-pah AH-pah"
+  },
+  {
+   "t": "Saya suka",
+   "en": "I like it",
+   "ph": "SAH-yah SOO-kah"
+  },
+  {
+   "t": "Saya tidak suka",
+   "en": "I don't like it",
+   "ph": "SAH-yah TEE-dak SOO-kah"
+  },
+  {
+   "t": "Satu",
+   "en": "One",
+   "ph": "SAH-too"
+  },
+  {
+   "t": "Dua",
+   "en": "Two",
+   "ph": "DOO-ah"
+  },
+  {
+   "t": "Tiga",
+   "en": "Three",
+   "ph": "TEE-gah"
+  },
+  {
+   "t": "Sepuluh",
+   "en": "Ten",
+   "ph": "seh-POO-looh"
+  },
+  {
+   "t": "Seratus",
+   "en": "One hundred",
+   "ph": "seh-RAH-toos"
+  },
+  {
+   "t": "Jam berapa sekarang?",
+   "en": "What time is it?",
+   "ph": "jahm beh-RAH-pah seh-KAH-rang"
+  },
+  {
+   "t": "Hari ini",
+   "en": "Today",
+   "ph": "HAH-ree EE-nee"
+  },
+  {
+   "t": "Besok",
+   "en": "Tomorrow",
+   "ph": "BEH-sok"
+  },
+  {
+   "t": "Kemarin",
+   "en": "Yesterday",
+   "ph": "keh-MAH-rin"
+  },
+  {
+   "t": "Sekarang",
+   "en": "Now",
+   "ph": "seh-KAH-rang"
+  },
+  {
+   "t": "Nanti",
+   "en": "Later",
+   "ph": "NAHN-tee"
+  },
+  {
+   "t": "Tunggu sebentar",
+   "en": "Wait a moment, please",
+   "ph": "TOONG-goo seh-BEN-tar"
+  },
+  {
+   "t": "Saya lelah",
+   "en": "I'm tired",
+   "ph": "SAH-yah LEH-lah"
+  },
+  {
+   "t": "Saya senang",
+   "en": "I'm happy",
+   "ph": "SAH-yah seh-NAHNG"
+  },
+  {
+   "t": "Saya sakit",
+   "en": "I'm sick",
+   "ph": "SAH-yah SAH-kit"
+  },
+  {
+   "t": "Selamat ulang tahun",
+   "en": "Happy birthday",
+   "ph": "seh-LAH-mat OO-lang TAH-hoon"
+  },
+  {
+   "t": "Selamat",
+   "en": "Congratulations",
+   "ph": "seh-LAH-mat"
+  },
+  {
+   "t": "Semoga berhasil",
+   "en": "Good luck",
+   "ph": "seh-MOH-gah ber-HAH-sil"
+  },
+  {
+   "t": "Bersulang",
+   "en": "Cheers!",
+   "ph": "ber-SOO-lang"
+  },
+  {
+   "t": "Anda berasal dari mana?",
+   "en": "Where are you from?",
+   "ph": "AHN-dah beh-RAH-sal DAH-ree MAH-nah"
+  },
+  {
+   "t": "Berapa umur Anda?",
+   "en": "How old are you?",
+   "ph": "beh-RAH-pah OO-moor AHN-dah"
+  },
+  {
+   "t": "Saya tinggal di London",
+   "en": "I live in London",
+   "ph": "SAH-yah TING-gal dee LON-don"
+  },
+  {
+   "t": "Saya mahasiswa",
+   "en": "I'm a student",
+   "ph": "SAH-yah mah-hah-SEES-wah"
+  },
+  {
+   "t": "Saya sedang berlibur",
+   "en": "I'm on vacation",
+   "ph": "SAH-yah seh-DAHNG ber-LEE-boor"
+  },
+  {
+   "t": "Meja untuk dua orang",
+   "en": "A table for two, please",
+   "ph": "MEH-jah OON-took DOO-ah OH-rang"
+  },
+  {
+   "t": "Saya vegetarian",
+   "en": "I'm vegetarian",
+   "ph": "SAH-yah veh-geh-TAH-ree-ahn"
+  },
+  {
+   "t": "Kopi, tolong",
+   "en": "A coffee, please",
+   "ph": "KOH-pee, TOH-long"
+  },
+  {
+   "t": "Bir, tolong",
+   "en": "A beer, please",
+   "ph": "beer, TOH-long"
+  },
+  {
+   "t": "Bisa bayar dengan kartu?",
+   "en": "Can I pay by card?",
+   "ph": "BEE-sah BAH-yar DENG-an KAR-too"
+  },
+  {
+   "t": "Apakah ada kamar kosong?",
+   "en": "Do you have a room?",
+   "ph": "AH-pah-kah AH-dah KAH-mar KOH-song"
+  },
+  {
+   "t": "Di mana bandara?",
+   "en": "Where is the airport?",
+   "ph": "dee MAH-nah bahn-DAH-rah"
+  },
+  {
+   "t": "Satu tiket, tolong",
+   "en": "One ticket, please",
+   "ph": "SAH-too TEE-ket, TOH-long"
+  },
+  {
+   "t": "Berapa harga tiketnya?",
+   "en": "How much is a ticket?",
+   "ph": "beh-RAH-pah HAR-gah TEE-ket-nyah"
+  },
+  {
+   "t": "Berangkat jam berapa?",
+   "en": "What time does it leave?",
+   "ph": "beh-RAHNG-kat jahm beh-RAH-pah"
+  },
+  {
+   "t": "Apakah kursi ini kosong?",
+   "en": "Is this seat free?",
+   "ph": "AH-pah-kah KOOR-see EE-nee KOH-song"
+  },
+  {
+   "t": "Saya sudah memesan",
+   "en": "I have a reservation",
+   "ph": "SAH-yah SOO-dah meh-MEH-sahn"
+  },
+  {
+   "t": "Boleh saya foto?",
+   "en": "Can I take a photo?",
+   "ph": "BOH-leh SAH-yah FOH-toh"
+  },
+  {
+   "t": "Apakah ada Wi-Fi?",
+   "en": "Is there Wi-Fi?",
+   "ph": "AH-pah-kah AH-dah WAI-fai"
+  },
+  {
+   "t": "Apa kata sandi Wi-Fi-nya?",
+   "en": "What's the Wi-Fi password?",
+   "ph": "AH-pah KAH-tah SAHN-dee WAI-fai-nyah"
+  },
+  {
+   "t": "Paspor saya hilang",
+   "en": "I lost my passport",
+   "ph": "PAHS-por SAH-yah HEE-lang"
+  },
+  {
+   "t": "Panas sekali",
+   "en": "It's very hot",
+   "ph": "PAH-nas seh-KAH-lee"
+  },
+  {
+   "t": "Apa ini?",
+   "en": "What is this?",
+   "ph": "AH-pah EE-nee"
+  },
+  {
+   "t": "Hati-hati!",
+   "en": "Be careful!",
+   "ph": "HAH-tee HAH-tee"
+  },
+  {
+   "t": "Tentu saja",
+   "en": "Of course",
+   "ph": "TEN-too SAH-jah"
+  },
+  {
+   "t": "Itu saja, terima kasih",
+   "en": "That's all, thank you",
+   "ph": "EE-too SAH-jah, teh-REE-mah KAH-see"
+  },
+  {
+   "t": "Saya setuju",
+   "en": "I agree",
+   "ph": "SAH-yah seh-TOO-joo"
+  },
+  {
+   "t": "Semoga harimu menyenangkan",
+   "en": "Have a nice day",
+   "ph": "seh-MOH-gah hah-REE-moo meh-nyeh-NAHNG-kahn"
+  },
+  {
+   "t": "Saya kedinginan",
+   "en": "I'm cold",
+   "ph": "SAH-yah keh-DING-ee-nahn"
+  }
+ ]
+}

@@ -1,0 +1,505 @@
+{
+ "lang": "uk",
+ "phrases": [
+  {
+   "t": "Привіт",
+   "en": "Hello",
+   "ph": "pryvit"
+  },
+  {
+   "t": "Добрий ранок",
+   "en": "Good morning",
+   "ph": "dobryy ranok"
+  },
+  {
+   "t": "Добрий вечір",
+   "en": "Good evening",
+   "ph": "dobryy vechir"
+  },
+  {
+   "t": "До побачення",
+   "en": "Goodbye",
+   "ph": "do pobachennya"
+  },
+  {
+   "t": "Будь ласка",
+   "en": "Please",
+   "ph": "bud' laska"
+  },
+  {
+   "t": "Дякую",
+   "en": "Thank you",
+   "ph": "dyakuyu"
+  },
+  {
+   "t": "Дуже дякую",
+   "en": "Thank you very much",
+   "ph": "duzhe dyakuyu"
+  },
+  {
+   "t": "Нема за що",
+   "en": "You're welcome",
+   "ph": "nema za shcho"
+  },
+  {
+   "t": "Так",
+   "en": "Yes",
+   "ph": "tak"
+  },
+  {
+   "t": "Ні",
+   "en": "No",
+   "ph": "ni"
+  },
+  {
+   "t": "Перепрошую",
+   "en": "Excuse me",
+   "ph": "pereproshuyu"
+  },
+  {
+   "t": "Мені шкода",
+   "en": "I'm sorry",
+   "ph": "meni shkoda"
+  },
+  {
+   "t": "Я не розумію",
+   "en": "I don't understand",
+   "ph": "ya ne rozumiyu"
+  },
+  {
+   "t": "Ви можете говорити повільніше?",
+   "en": "Can you speak more slowly?",
+   "ph": "vy mozhete hovoryty povil'nishe"
+  },
+  {
+   "t": "Ви можете повторити?",
+   "en": "Can you repeat that?",
+   "ph": "vy mozhete povtoryty"
+  },
+  {
+   "t": "Ви говорите англійською?",
+   "en": "Do you speak English?",
+   "ph": "vy hovoryte anhliys'koyu"
+  },
+  {
+   "t": "Я трохи говорю українською",
+   "en": "I speak a little Ukrainian",
+   "ph": "ya trokhy hovoryu ukrayins'koyu"
+  },
+  {
+   "t": "Мене звати Анна",
+   "en": "My name is Anna",
+   "ph": "mene zvaty Anna"
+  },
+  {
+   "t": "Як вас звати?",
+   "en": "What's your name?",
+   "ph": "yak vas zvaty"
+  },
+  {
+   "t": "Приємно познайомитись",
+   "en": "Nice to meet you",
+   "ph": "pryyemno poznayomytys'"
+  },
+  {
+   "t": "Як справи?",
+   "en": "How are you?",
+   "ph": "yak spravy"
+  },
+  {
+   "t": "Добре, дякую",
+   "en": "I'm fine, thank you",
+   "ph": "dobre, dyakuyu"
+  },
+  {
+   "t": "А у вас?",
+   "en": "And you?",
+   "ph": "a u vas"
+  },
+  {
+   "t": "Звідки ви?",
+   "en": "Where are you from?",
+   "ph": "zvidky vy"
+  },
+  {
+   "t": "Я з Англії",
+   "en": "I'm from England",
+   "ph": "ya z Anhliyi"
+  },
+  {
+   "t": "Допоможіть!",
+   "en": "Help!",
+   "ph": "dopomozhit'"
+  },
+  {
+   "t": "Ви можете мені допомогти?",
+   "en": "Can you help me?",
+   "ph": "vy mozhete meni dopomohty"
+  },
+  {
+   "t": "Де туалет?",
+   "en": "Where is the bathroom?",
+   "ph": "de tualet"
+  },
+  {
+   "t": "Де вокзал?",
+   "en": "Where is the station?",
+   "ph": "de vokzal"
+  },
+  {
+   "t": "Скільки це коштує?",
+   "en": "How much is it?",
+   "ph": "skil'ky tse koshtuye"
+  },
+  {
+   "t": "Це дуже дорого",
+   "en": "That's too expensive",
+   "ph": "tse duzhe doroho"
+  },
+  {
+   "t": "Я хочу це",
+   "en": "I would like this",
+   "ph": "ya khochu tse"
+  },
+  {
+   "t": "Рахунок, будь ласка",
+   "en": "The bill, please",
+   "ph": "rakhunok, bud' laska"
+  },
+  {
+   "t": "Столик на двох, будь ласка",
+   "en": "A table for two, please",
+   "ph": "stolyk na dvokh, bud' laska"
+  },
+  {
+   "t": "Меню, будь ласка",
+   "en": "The menu, please",
+   "ph": "menyu, bud' laska"
+  },
+  {
+   "t": "Воду, будь ласка",
+   "en": "Water, please",
+   "ph": "vodu, bud' laska"
+  },
+  {
+   "t": "Каву, будь ласка",
+   "en": "A coffee, please",
+   "ph": "kavu, bud' laska"
+  },
+  {
+   "t": "Я голодний",
+   "en": "I'm hungry",
+   "ph": "ya holodnyy"
+  },
+  {
+   "t": "Я хочу пити",
+   "en": "I'm thirsty",
+   "ph": "ya khochu pyty"
+  },
+  {
+   "t": "Дуже смачно",
+   "en": "It's delicious",
+   "ph": "duzhe smachno"
+  },
+  {
+   "t": "На добраніч",
+   "en": "Good night",
+   "ph": "na dobranich"
+  },
+  {
+   "t": "Я не знаю",
+   "en": "I don't know",
+   "ph": "ya ne znayu"
+  },
+  {
+   "t": "Звичайно",
+   "en": "Of course",
+   "ph": "zvychayno"
+  },
+  {
+   "t": "Нема проблем",
+   "en": "No problem",
+   "ph": "nema problem"
+  },
+  {
+   "t": "Котра година?",
+   "en": "What time is it?",
+   "ph": "kotra hodyna"
+  },
+  {
+   "t": "Сьогодні",
+   "en": "Today",
+   "ph": "s'ohodni"
+  },
+  {
+   "t": "Завтра",
+   "en": "Tomorrow",
+   "ph": "zavtra"
+  },
+  {
+   "t": "Я заблукав",
+   "en": "I'm lost",
+   "ph": "ya zablukav"
+  },
+  {
+   "t": "Поверніть ліворуч",
+   "en": "Turn left",
+   "ph": "povernit' livoruch"
+  },
+  {
+   "t": "Поверніть праворуч",
+   "en": "Turn right",
+   "ph": "povernit' pravoruch"
+  },
+  {
+   "t": "Прямо",
+   "en": "Straight ahead",
+   "ph": "pryamo"
+  },
+  {
+   "t": "Це далеко?",
+   "en": "Is it far?",
+   "ph": "tse daleko"
+  },
+  {
+   "t": "Один квиток, будь ласка",
+   "en": "One ticket, please",
+   "ph": "odyn kvytok, bud' laska"
+  },
+  {
+   "t": "Де зупинка автобуса?",
+   "en": "Where is the bus stop?",
+   "ph": "de zupynka avtobusa"
+  },
+  {
+   "t": "В аеропорт, будь ласка",
+   "en": "To the airport, please",
+   "ph": "v aeroport, bud' laska"
+  },
+  {
+   "t": "У мене є бронювання",
+   "en": "I have a reservation",
+   "ph": "u mene ye bronyuvannya"
+  },
+  {
+   "t": "У вас є вільний номер?",
+   "en": "Do you have a free room?",
+   "ph": "u vas ye vil'nyy nomer"
+  },
+  {
+   "t": "Один, два, три",
+   "en": "One, two, three",
+   "ph": "odyn, dva, try"
+  },
+  {
+   "t": "Ви приймаєте картки?",
+   "en": "Do you accept cards?",
+   "ph": "vy pryymayete kartky"
+  },
+  {
+   "t": "Я заплачу готівкою",
+   "en": "I'll pay in cash",
+   "ph": "ya zaplachu hotivkoyu"
+  },
+  {
+   "t": "Де аптека?",
+   "en": "Where is the pharmacy?",
+   "ph": "de apteka"
+  },
+  {
+   "t": "Мені погано",
+   "en": "I don't feel well",
+   "ph": "meni pohano"
+  },
+  {
+   "t": "Мені потрібен лікар",
+   "en": "I need a doctor",
+   "ph": "meni potriben likar"
+  },
+  {
+   "t": "Викличте поліцію",
+   "en": "Call the police",
+   "ph": "vyklychte politsiyu"
+  },
+  {
+   "t": "Я щасливий",
+   "en": "I'm happy",
+   "ph": "ya shchaslyvyy"
+  },
+  {
+   "t": "Я втомився",
+   "en": "I'm tired",
+   "ph": "ya vtomyvsya"
+  },
+  {
+   "t": "Мені подобається",
+   "en": "I like it",
+   "ph": "meni podobayet'sya"
+  },
+  {
+   "t": "Мені не подобається",
+   "en": "I don't like it",
+   "ph": "meni ne podobayet'sya"
+  },
+  {
+   "t": "Що це?",
+   "en": "What is this?",
+   "ph": "shcho tse"
+  },
+  {
+   "t": "Що це означає?",
+   "en": "What does this mean?",
+   "ph": "shcho tse oznachaye"
+  },
+  {
+   "t": "Як це сказати українською?",
+   "en": "How do you say this in Ukrainian?",
+   "ph": "yak tse skazaty ukrayins'koyu"
+  },
+  {
+   "t": "Тут є вай-фай?",
+   "en": "Is there Wi-Fi?",
+   "ph": "tut ye vay-fay"
+  },
+  {
+   "t": "Який сьогодні день?",
+   "en": "What day is it today?",
+   "ph": "yakyy s'ohodni den'"
+  },
+  {
+   "t": "Зараз",
+   "en": "Now",
+   "ph": "zaraz"
+  },
+  {
+   "t": "Пізніше",
+   "en": "Later",
+   "ph": "piznishe"
+  },
+  {
+   "t": "Одну хвилинку",
+   "en": "One moment",
+   "ph": "odnu khvylynku"
+  },
+  {
+   "t": "Ходімо",
+   "en": "Let's go",
+   "ph": "khodimo"
+  },
+  {
+   "t": "Я готовий",
+   "en": "I'm ready",
+   "ph": "ya hotovyy"
+  },
+  {
+   "t": "Я спізнююся",
+   "en": "I'm late",
+   "ph": "ya spiznyuyusya"
+  },
+  {
+   "t": "Успіхів!",
+   "en": "Good luck!",
+   "ph": "uspikhiv"
+  },
+  {
+   "t": "З днем народження!",
+   "en": "Happy birthday!",
+   "ph": "z dnem narodzhennya"
+  },
+  {
+   "t": "Ласкаво просимо",
+   "en": "Welcome",
+   "ph": "laskavo prosymo"
+  },
+  {
+   "t": "Гарного дня",
+   "en": "Have a nice day",
+   "ph": "harnoho dnya"
+  },
+  {
+   "t": "Щасливої дороги",
+   "en": "Have a good trip",
+   "ph": "shchaslyvoyi dorohy"
+  },
+  {
+   "t": "Я вивчаю українську",
+   "en": "I'm learning Ukrainian",
+   "ph": "ya vyvchayu ukrayins'ku"
+  },
+  {
+   "t": "Я у відпустці",
+   "en": "I'm on holiday",
+   "ph": "ya u vidpustsi"
+  },
+  {
+   "t": "Скільки це триває?",
+   "en": "How long does it take?",
+   "ph": "skil'ky tse tryvaye"
+  },
+  {
+   "t": "Я живу в Лондоні",
+   "en": "I live in London",
+   "ph": "ya zhyvu v Londoni"
+  },
+  {
+   "t": "Я згоден",
+   "en": "I agree",
+   "ph": "ya zghoden"
+  },
+  {
+   "t": "Можливо",
+   "en": "Maybe",
+   "ph": "mozhlyvo"
+  },
+  {
+   "t": "Справді?",
+   "en": "Really?",
+   "ph": "spravdi"
+  },
+  {
+   "t": "Це неважливо",
+   "en": "It doesn't matter",
+   "ph": "tse nevazhlyvo"
+  },
+  {
+   "t": "До зустрічі",
+   "en": "See you later",
+   "ph": "do zustrichi"
+  },
+  {
+   "t": "До завтра",
+   "en": "See you tomorrow",
+   "ph": "do zavtra"
+  },
+  {
+   "t": "У мене алергія на горіхи",
+   "en": "I'm allergic to nuts",
+   "ph": "u mene alerhiya na horikhy"
+  },
+  {
+   "t": "Без м'яса, будь ласка",
+   "en": "Without meat, please",
+   "ph": "bez m'yasa, bud' laska"
+  },
+  {
+   "t": "Пиво, будь ласка",
+   "en": "A beer, please",
+   "ph": "pyvo, bud' laska"
+  },
+  {
+   "t": "Будьмо!",
+   "en": "Cheers!",
+   "ph": "bud'mo"
+  },
+  {
+   "t": "Бережіть себе",
+   "en": "Take care",
+   "ph": "berezhit' sebe"
+  },
+  {
+   "t": "Тут дуже гарно",
+   "en": "It's beautiful",
+   "ph": "tut duzhe harno"
+  }
+ ]
+}

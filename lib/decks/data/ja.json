@@ -1,0 +1,505 @@
+{
+ "lang": "ja",
+ "phrases": [
+  {
+   "t": "こんにちは",
+   "en": "Hello",
+   "ph": "Konnichiwa"
+  },
+  {
+   "t": "おはようございます",
+   "en": "Good morning",
+   "ph": "Ohayō gozaimasu"
+  },
+  {
+   "t": "こんばんは",
+   "en": "Good evening",
+   "ph": "Konbanwa"
+  },
+  {
+   "t": "さようなら",
+   "en": "Goodbye",
+   "ph": "Sayōnara"
+  },
+  {
+   "t": "お願いします",
+   "en": "Please",
+   "ph": "Onegai shimasu"
+  },
+  {
+   "t": "ありがとうございます",
+   "en": "Thank you",
+   "ph": "Arigatō gozaimasu"
+  },
+  {
+   "t": "どういたしまして",
+   "en": "You're welcome",
+   "ph": "Dō itashimashite"
+  },
+  {
+   "t": "はい",
+   "en": "Yes",
+   "ph": "Hai"
+  },
+  {
+   "t": "いいえ",
+   "en": "No",
+   "ph": "Iie"
+  },
+  {
+   "t": "すみません",
+   "en": "Excuse me",
+   "ph": "Sumimasen"
+  },
+  {
+   "t": "ごめんなさい",
+   "en": "I'm sorry",
+   "ph": "Gomen nasai"
+  },
+  {
+   "t": "お元気ですか?",
+   "en": "How are you?",
+   "ph": "Ogenki desu ka?"
+  },
+  {
+   "t": "元気です、ありがとう。",
+   "en": "I'm fine, thank you",
+   "ph": "Genki desu, arigatō."
+  },
+  {
+   "t": "はじめまして。",
+   "en": "Nice to meet you",
+   "ph": "Hajimemashite."
+  },
+  {
+   "t": "お名前は何ですか?",
+   "en": "What's your name?",
+   "ph": "Onamae wa nan desu ka?"
+  },
+  {
+   "t": "私の名前はサムです。",
+   "en": "My name is Sam",
+   "ph": "Watashi no namae wa Samu desu."
+  },
+  {
+   "t": "どちらから来ましたか?",
+   "en": "Where are you from?",
+   "ph": "Dochira kara kimashita ka?"
+  },
+  {
+   "t": "イギリスから来ました。",
+   "en": "I'm from England",
+   "ph": "Igirisu kara kimashita."
+  },
+  {
+   "t": "わかりません。",
+   "en": "I don't understand",
+   "ph": "Wakarimasen."
+  },
+  {
+   "t": "わかります。",
+   "en": "I understand",
+   "ph": "Wakarimasu."
+  },
+  {
+   "t": "もっとゆっくり話してください。",
+   "en": "Can you speak more slowly?",
+   "ph": "Motto yukkuri hanashite kudasai."
+  },
+  {
+   "t": "もう一度お願いします。",
+   "en": "Can you repeat that?",
+   "ph": "Mō ichido onegai shimasu."
+  },
+  {
+   "t": "英語を話せますか?",
+   "en": "Do you speak English?",
+   "ph": "Eigo o hanasemasu ka?"
+  },
+  {
+   "t": "日本語が少し話せます。",
+   "en": "I speak a little",
+   "ph": "Nihongo ga sukoshi hanasemasu."
+  },
+  {
+   "t": "助けて!",
+   "en": "Help!",
+   "ph": "Tasukete!"
+  },
+  {
+   "t": "手伝ってもらえますか?",
+   "en": "Can you help me?",
+   "ph": "Tetsudatte moraemasu ka?"
+  },
+  {
+   "t": "知りません。",
+   "en": "I don't know",
+   "ph": "Shirimasen."
+  },
+  {
+   "t": "道に迷いました。",
+   "en": "I'm lost",
+   "ph": "Michi ni mayoimashita."
+  },
+  {
+   "t": "トイレはどこですか?",
+   "en": "Where is the toilet?",
+   "ph": "Toire wa doko desu ka?"
+  },
+  {
+   "t": "駅はどこですか?",
+   "en": "Where is the station?",
+   "ph": "Eki wa doko desu ka?"
+  },
+  {
+   "t": "これはいくらですか?",
+   "en": "How much is this?",
+   "ph": "Kore wa ikura desu ka?"
+  },
+  {
+   "t": "これをください。",
+   "en": "I'd like this",
+   "ph": "Kore o kudasai."
+  },
+  {
+   "t": "お会計をお願いします。",
+   "en": "The bill, please",
+   "ph": "Okaikei o onegai shimasu."
+  },
+  {
+   "t": "お水をください。",
+   "en": "Water, please",
+   "ph": "Omizu o kudasai."
+  },
+  {
+   "t": "コーヒーをください。",
+   "en": "A coffee, please",
+   "ph": "Kōhī o kudasai."
+  },
+  {
+   "t": "メニューをお願いします。",
+   "en": "The menu, please",
+   "ph": "Menyū o onegai shimasu."
+  },
+  {
+   "t": "お腹がすきました。",
+   "en": "I'm hungry",
+   "ph": "Onaka ga sukimashita."
+  },
+  {
+   "t": "喉が渇きました。",
+   "en": "I'm thirsty",
+   "ph": "Nodo ga kawakimashita."
+  },
+  {
+   "t": "おいしいです。",
+   "en": "It's delicious",
+   "ph": "Oishii desu."
+  },
+  {
+   "t": "大丈夫です。",
+   "en": "No problem",
+   "ph": "Daijōbu desu."
+  },
+  {
+   "t": "わかりました。",
+   "en": "Okay, got it",
+   "ph": "Wakarimashita."
+  },
+  {
+   "t": "もちろん。",
+   "en": "Of course",
+   "ph": "Mochiron."
+  },
+  {
+   "t": "たぶん。",
+   "en": "Maybe",
+   "ph": "Tabun."
+  },
+  {
+   "t": "好きです。",
+   "en": "I like it",
+   "ph": "Suki desu."
+  },
+  {
+   "t": "好きじゃないです。",
+   "en": "I don't like it",
+   "ph": "Suki janai desu."
+  },
+  {
+   "t": "これは何ですか?",
+   "en": "What is this?",
+   "ph": "Kore wa nan desu ka?"
+  },
+  {
+   "t": "今何時ですか?",
+   "en": "What time is it?",
+   "ph": "Ima nanji desu ka?"
+  },
+  {
+   "t": "今日",
+   "en": "Today",
+   "ph": "Kyō"
+  },
+  {
+   "t": "明日",
+   "en": "Tomorrow",
+   "ph": "Ashita"
+  },
+  {
+   "t": "また後で。",
+   "en": "See you later",
+   "ph": "Mata ato de."
+  },
+  {
+   "t": "おやすみなさい。",
+   "en": "Good night",
+   "ph": "Oyasumi nasai."
+  },
+  {
+   "t": "良い一日を。",
+   "en": "Have a nice day",
+   "ph": "Yoi ichinichi o."
+  },
+  {
+   "t": "おめでとうございます。",
+   "en": "Congratulations",
+   "ph": "Omedetō gozaimasu."
+  },
+  {
+   "t": "ようこそ。",
+   "en": "Welcome",
+   "ph": "Yōkoso."
+  },
+  {
+   "t": "いただきます。",
+   "en": "Enjoy your meal",
+   "ph": "Itadakimasu."
+  },
+  {
+   "t": "一、二、三",
+   "en": "One, two, three",
+   "ph": "Ichi, ni, san"
+  },
+  {
+   "t": "十",
+   "en": "Ten",
+   "ph": "Jū"
+  },
+  {
+   "t": "百",
+   "en": "One hundred",
+   "ph": "Hyaku"
+  },
+  {
+   "t": "高すぎます。",
+   "en": "It's too expensive",
+   "ph": "Takasugimasu."
+  },
+  {
+   "t": "カードで払えますか?",
+   "en": "Can I pay by card?",
+   "ph": "Kādo de haraemasu ka?"
+  },
+  {
+   "t": "現金で払います。",
+   "en": "I'll pay in cash",
+   "ph": "Genkin de haraimasu."
+  },
+  {
+   "t": "ホテルはどこですか?",
+   "en": "Where is the hotel?",
+   "ph": "Hoteru wa doko desu ka?"
+  },
+  {
+   "t": "バス停はどこですか?",
+   "en": "Where is the bus stop?",
+   "ph": "Basutei wa doko desu ka?"
+  },
+  {
+   "t": "空港へはどう行きますか?",
+   "en": "How do I get to the airport?",
+   "ph": "Kūkō e wa dō ikimasu ka?"
+  },
+  {
+   "t": "左に曲がってください。",
+   "en": "Turn left",
+   "ph": "Hidari ni magatte kudasai."
+  },
+  {
+   "t": "右に曲がってください。",
+   "en": "Turn right",
+   "ph": "Migi ni magatte kudasai."
+  },
+  {
+   "t": "まっすぐ行ってください。",
+   "en": "Go straight ahead",
+   "ph": "Massugu itte kudasai."
+  },
+  {
+   "t": "遠いですか?",
+   "en": "Is it far?",
+   "ph": "Tōi desu ka?"
+  },
+  {
+   "t": "切符を一枚ください。",
+   "en": "One ticket, please",
+   "ph": "Kippu o ichimai kudasai."
+  },
+  {
+   "t": "何時に出発しますか?",
+   "en": "What time does it leave?",
+   "ph": "Nanji ni shuppatsu shimasu ka?"
+  },
+  {
+   "t": "タクシーを呼んでください。",
+   "en": "Please call a taxi",
+   "ph": "Takushī o yonde kudasai."
+  },
+  {
+   "t": "予約しています。",
+   "en": "I have a reservation",
+   "ph": "Yoyaku shite imasu."
+  },
+  {
+   "t": "二人の席をお願いします。",
+   "en": "A table for two, please",
+   "ph": "Futari no seki o onegai shimasu."
+  },
+  {
+   "t": "私はベジタリアンです。",
+   "en": "I'm vegetarian",
+   "ph": "Watashi wa bejitarian desu."
+  },
+  {
+   "t": "ナッツアレルギーがあります。",
+   "en": "I'm allergic to nuts",
+   "ph": "Nattsu arerugī ga arimasu."
+  },
+  {
+   "t": "肉なしでお願いします。",
+   "en": "Without meat, please",
+   "ph": "Niku nashi de onegai shimasu."
+  },
+  {
+   "t": "もう一つお願いします。",
+   "en": "One more, please",
+   "ph": "Mō hitotsu onegai shimasu."
+  },
+  {
+   "t": "おすすめは何ですか?",
+   "en": "What do you recommend?",
+   "ph": "Osusume wa nan desu ka?"
+  },
+  {
+   "t": "今日は月曜日です。",
+   "en": "Today is Monday",
+   "ph": "Kyō wa getsuyōbi desu."
+  },
+  {
+   "t": "今日は何曜日ですか?",
+   "en": "What day is it today?",
+   "ph": "Kyō wa nan'yōbi desu ka?"
+  },
+  {
+   "t": "昨日",
+   "en": "Yesterday",
+   "ph": "Kinō"
+  },
+  {
+   "t": "今",
+   "en": "Now",
+   "ph": "Ima"
+  },
+  {
+   "t": "ちょっと待ってください。",
+   "en": "Wait a moment, please",
+   "ph": "Chotto matte kudasai."
+  },
+  {
+   "t": "疲れました。",
+   "en": "I'm tired",
+   "ph": "Tsukaremashita."
+  },
+  {
+   "t": "うれしいです。",
+   "en": "I'm happy",
+   "ph": "Ureshii desu."
+  },
+  {
+   "t": "気分が悪いです。",
+   "en": "I don't feel well",
+   "ph": "Kibun ga warui desu."
+  },
+  {
+   "t": "医者が必要です。",
+   "en": "I need a doctor",
+   "ph": "Isha ga hitsuyō desu."
+  },
+  {
+   "t": "警察を呼んでください。",
+   "en": "Call the police",
+   "ph": "Keisatsu o yonde kudasai."
+  },
+  {
+   "t": "パスポートをなくしました。",
+   "en": "I lost my passport",
+   "ph": "Pasupōto o nakushimashita."
+  },
+  {
+   "t": "薬局はどこですか?",
+   "en": "Where is the pharmacy?",
+   "ph": "Yakkyoku wa doko desu ka?"
+  },
+  {
+   "t": "Wi-Fiはありますか?",
+   "en": "Is there Wi-Fi?",
+   "ph": "Wai-fai wa arimasu ka?"
+  },
+  {
+   "t": "Wi-Fiのパスワードは何ですか?",
+   "en": "What's the Wi-Fi password?",
+   "ph": "Wai-fai no pasuwādo wa nan desu ka?"
+  },
+  {
+   "t": "ここで携帯を充電できますか?",
+   "en": "Can I charge my phone here?",
+   "ph": "Koko de keitai o jūden dekimasu ka?"
+  },
+  {
+   "t": "日本語を勉強しています。",
+   "en": "I'm learning the language",
+   "ph": "Nihongo o benkyō shite imasu."
+  },
+  {
+   "t": "本を読むのが好きです。",
+   "en": "I love reading books",
+   "ph": "Hon o yomu no ga suki desu."
+  },
+  {
+   "t": "この言葉はどういう意味ですか?",
+   "en": "What does this word mean?",
+   "ph": "Kono kotoba wa dō iu imi desu ka?"
+  },
+  {
+   "t": "これは日本語で何と言いますか?",
+   "en": "How do you say this?",
+   "ph": "Kore wa nihongo de nan to iimasu ka?"
+  },
+  {
+   "t": "書いてもらえますか?",
+   "en": "Can you write it down?",
+   "ph": "Kaite moraemasu ka?"
+  },
+  {
+   "t": "休暇で来ています。",
+   "en": "I'm here on holiday",
+   "ph": "Kyūka de kite imasu."
+  },
+  {
+   "t": "写真を撮ってもいいですか?",
+   "en": "May I take a photo?",
+   "ph": "Shashin o totte mo ii desu ka?"
+  }
+ ]
+}

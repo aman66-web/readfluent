@@ -1,0 +1,505 @@
+{
+ "lang": "tr",
+ "phrases": [
+  {
+   "t": "Merhaba",
+   "en": "Hello",
+   "ph": "mer-hah-BAH"
+  },
+  {
+   "t": "Günaydın",
+   "en": "Good morning",
+   "ph": "gew-nye-DUHN"
+  },
+  {
+   "t": "İyi akşamlar",
+   "en": "Good evening",
+   "ph": "ee-YEE ak-shahm-LAR"
+  },
+  {
+   "t": "Hoşça kalın",
+   "en": "Goodbye",
+   "ph": "hosh-CHAH kah-LUHN"
+  },
+  {
+   "t": "Lütfen",
+   "en": "Please",
+   "ph": "LEWT-fen"
+  },
+  {
+   "t": "Teşekkür ederim",
+   "en": "Thank you",
+   "ph": "te-shek-KEWR e-de-REEM"
+  },
+  {
+   "t": "Rica ederim",
+   "en": "You're welcome",
+   "ph": "ree-JAH e-de-REEM"
+  },
+  {
+   "t": "Evet",
+   "en": "Yes",
+   "ph": "e-VET"
+  },
+  {
+   "t": "Hayır",
+   "en": "No",
+   "ph": "hah-YUHR"
+  },
+  {
+   "t": "Affedersiniz",
+   "en": "Excuse me",
+   "ph": "af-fe-der-see-NEEZ"
+  },
+  {
+   "t": "Özür dilerim",
+   "en": "I'm sorry",
+   "ph": "er-ZEWR dee-le-REEM"
+  },
+  {
+   "t": "Nasılsınız?",
+   "en": "How are you?",
+   "ph": "nah-suhl-suh-NUHZ"
+  },
+  {
+   "t": "İyiyim, teşekkürler.",
+   "en": "I'm fine, thank you",
+   "ph": "ee-yee-YEEM, te-shek-kewr-LER"
+  },
+  {
+   "t": "Memnun oldum.",
+   "en": "Nice to meet you",
+   "ph": "mem-NOON ol-DOOM"
+  },
+  {
+   "t": "Adınız nedir?",
+   "en": "What's your name?",
+   "ph": "ah-duh-NUHZ ne-DEER"
+  },
+  {
+   "t": "Benim adım Sam.",
+   "en": "My name is Sam",
+   "ph": "be-NEEM ah-DUHM Sam"
+  },
+  {
+   "t": "Nerelisiniz?",
+   "en": "Where are you from?",
+   "ph": "ne-re-lee-see-NEEZ"
+  },
+  {
+   "t": "İngiltereliyim.",
+   "en": "I'm from England",
+   "ph": "een-geel-te-re-lee-YEEM"
+  },
+  {
+   "t": "Anlamıyorum.",
+   "en": "I don't understand",
+   "ph": "an-lah-muh-yo-ROOM"
+  },
+  {
+   "t": "Anlıyorum.",
+   "en": "I understand",
+   "ph": "an-luh-yo-ROOM"
+  },
+  {
+   "t": "Daha yavaş konuşabilir misiniz?",
+   "en": "Can you speak more slowly?",
+   "ph": "dah-HAH yah-VASH ko-noo-shah-bee-LEER mee-see-NEEZ"
+  },
+  {
+   "t": "Tekrar eder misiniz?",
+   "en": "Can you repeat that?",
+   "ph": "tek-RAR e-der mee-see-NEEZ"
+  },
+  {
+   "t": "İngilizce biliyor musunuz?",
+   "en": "Do you speak English?",
+   "ph": "een-gee-leez-JE bee-lee-YOR moo-soo-NOOZ"
+  },
+  {
+   "t": "Biraz Türkçe konuşuyorum.",
+   "en": "I speak a little",
+   "ph": "bee-RAHZ TEWRK-che ko-noo-shoo-yo-ROOM"
+  },
+  {
+   "t": "İmdat!",
+   "en": "Help!",
+   "ph": "eem-DAHT"
+  },
+  {
+   "t": "Bana yardım edebilir misiniz?",
+   "en": "Can you help me?",
+   "ph": "bah-NAH yar-DUHM e-de-bee-LEER mee-see-NEEZ"
+  },
+  {
+   "t": "Bilmiyorum.",
+   "en": "I don't know",
+   "ph": "beel-mee-yo-ROOM"
+  },
+  {
+   "t": "Kayboldum.",
+   "en": "I'm lost",
+   "ph": "kye-bol-DOOM"
+  },
+  {
+   "t": "Tuvalet nerede?",
+   "en": "Where is the toilet?",
+   "ph": "too-vah-LET ne-re-DE"
+  },
+  {
+   "t": "İstasyon nerede?",
+   "en": "Where is the station?",
+   "ph": "ees-tas-YON ne-re-DE"
+  },
+  {
+   "t": "Bu ne kadar?",
+   "en": "How much is this?",
+   "ph": "boo ne kah-DAR"
+  },
+  {
+   "t": "Bunu istiyorum.",
+   "en": "I'd like this",
+   "ph": "boo-NOO ees-tee-yo-ROOM"
+  },
+  {
+   "t": "Hesap, lütfen.",
+   "en": "The bill, please",
+   "ph": "he-SAHP lewt-FEN"
+  },
+  {
+   "t": "Su, lütfen.",
+   "en": "Water, please",
+   "ph": "SOO lewt-FEN"
+  },
+  {
+   "t": "Bir kahve, lütfen.",
+   "en": "A coffee, please",
+   "ph": "BEER kah-VE lewt-FEN"
+  },
+  {
+   "t": "Menü, lütfen.",
+   "en": "The menu, please",
+   "ph": "me-NEW lewt-FEN"
+  },
+  {
+   "t": "Acıktım.",
+   "en": "I'm hungry",
+   "ph": "ah-juhk-TUHM"
+  },
+  {
+   "t": "Susadım.",
+   "en": "I'm thirsty",
+   "ph": "soo-sah-DUHM"
+  },
+  {
+   "t": "Çok lezzetli.",
+   "en": "It's delicious",
+   "ph": "CHOK lez-zet-LEE"
+  },
+  {
+   "t": "Sorun değil.",
+   "en": "No problem",
+   "ph": "so-ROON de-EEL"
+  },
+  {
+   "t": "Tamam.",
+   "en": "Okay, got it",
+   "ph": "tah-MAHM"
+  },
+  {
+   "t": "Tabii ki.",
+   "en": "Of course",
+   "ph": "tah-BEE kee"
+  },
+  {
+   "t": "Belki.",
+   "en": "Maybe",
+   "ph": "bel-KEE"
+  },
+  {
+   "t": "Beğendim.",
+   "en": "I like it",
+   "ph": "be-en-DEEM"
+  },
+  {
+   "t": "Beğenmedim.",
+   "en": "I don't like it",
+   "ph": "be-en-me-DEEM"
+  },
+  {
+   "t": "Bu nedir?",
+   "en": "What is this?",
+   "ph": "boo ne-DEER"
+  },
+  {
+   "t": "Saat kaç?",
+   "en": "What time is it?",
+   "ph": "sah-AHT KAHCH"
+  },
+  {
+   "t": "Bugün",
+   "en": "Today",
+   "ph": "boo-GEWN"
+  },
+  {
+   "t": "Yarın",
+   "en": "Tomorrow",
+   "ph": "yah-RUHN"
+  },
+  {
+   "t": "Sonra görüşürüz.",
+   "en": "See you later",
+   "ph": "son-RAH gur-ew-shew-REWZ"
+  },
+  {
+   "t": "İyi geceler.",
+   "en": "Good night",
+   "ph": "ee-YEE ge-je-LER"
+  },
+  {
+   "t": "İyi günler.",
+   "en": "Have a nice day",
+   "ph": "ee-YEE gewn-LER"
+  },
+  {
+   "t": "Tebrikler!",
+   "en": "Congratulations",
+   "ph": "teb-reek-LER"
+  },
+  {
+   "t": "Hoş geldiniz.",
+   "en": "Welcome",
+   "ph": "hosh gel-dee-NEEZ"
+  },
+  {
+   "t": "Afiyet olsun.",
+   "en": "Enjoy your meal",
+   "ph": "ah-fee-YET ol-SOON"
+  },
+  {
+   "t": "Bir, iki, üç",
+   "en": "One, two, three",
+   "ph": "beer, ee-KEE, EWCH"
+  },
+  {
+   "t": "On",
+   "en": "Ten",
+   "ph": "ON"
+  },
+  {
+   "t": "Yüz",
+   "en": "One hundred",
+   "ph": "YEWZ"
+  },
+  {
+   "t": "Çok pahalı.",
+   "en": "It's too expensive",
+   "ph": "chok pah-hah-LUH"
+  },
+  {
+   "t": "Kartla ödeyebilir miyim?",
+   "en": "Can I pay by card?",
+   "ph": "kart-LAH er-de-ye-bee-LEER mee-yeem"
+  },
+  {
+   "t": "Nakit ödeyeceğim.",
+   "en": "I'll pay in cash",
+   "ph": "nah-KEET er-de-ye-je-EEM"
+  },
+  {
+   "t": "Otel nerede?",
+   "en": "Where is the hotel?",
+   "ph": "o-TEL ne-re-DE"
+  },
+  {
+   "t": "Otobüs durağı nerede?",
+   "en": "Where is the bus stop?",
+   "ph": "o-to-BEWS doo-rah-UH ne-re-DE"
+  },
+  {
+   "t": "Havalimanına nasıl gidebilirim?",
+   "en": "How do I get to the airport?",
+   "ph": "hah-vah-lee-mah-nuh-NAH nah-SUHL gee-de-bee-lee-REEM"
+  },
+  {
+   "t": "Sola dönün.",
+   "en": "Turn left",
+   "ph": "so-LAH dur-NEWN"
+  },
+  {
+   "t": "Sağa dönün.",
+   "en": "Turn right",
+   "ph": "sah-AH dur-NEWN"
+  },
+  {
+   "t": "Düz gidin.",
+   "en": "Go straight ahead",
+   "ph": "DEWZ gee-DEEN"
+  },
+  {
+   "t": "Uzak mı?",
+   "en": "Is it far?",
+   "ph": "oo-ZAHK muh"
+  },
+  {
+   "t": "Bir bilet, lütfen.",
+   "en": "One ticket, please",
+   "ph": "BEER bee-LET lewt-FEN"
+  },
+  {
+   "t": "Saat kaçta kalkıyor?",
+   "en": "What time does it leave?",
+   "ph": "sah-AHT kahch-TAH kal-kuh-YOR"
+  },
+  {
+   "t": "Bir taksi çağırır mısınız?",
+   "en": "Please call a taxi",
+   "ph": "BEER tahk-SEE chah-uh-RUHR muh-suh-NUHZ"
+  },
+  {
+   "t": "Rezervasyonum var.",
+   "en": "I have a reservation",
+   "ph": "re-zer-vahs-yo-NOOM VAR"
+  },
+  {
+   "t": "İki kişilik masa, lütfen.",
+   "en": "A table for two, please",
+   "ph": "ee-KEE kee-shee-LEEK mah-SAH lewt-FEN"
+  },
+  {
+   "t": "Ben vejetaryenim.",
+   "en": "I'm vegetarian",
+   "ph": "BEN ve-zhe-tar-ye-NEEM"
+  },
+  {
+   "t": "Kuruyemiş alerjim var.",
+   "en": "I'm allergic to nuts",
+   "ph": "koo-roo-ye-MEESH ah-ler-ZHEEM VAR"
+  },
+  {
+   "t": "Etsiz, lütfen.",
+   "en": "Without meat, please",
+   "ph": "et-SEEZ lewt-FEN"
+  },
+  {
+   "t": "Bir tane daha, lütfen.",
+   "en": "One more, please",
+   "ph": "BEER tah-NE dah-HAH lewt-FEN"
+  },
+  {
+   "t": "Ne önerirsiniz?",
+   "en": "What do you recommend?",
+   "ph": "NE ur-ne-reer-see-NEEZ"
+  },
+  {
+   "t": "Bugün pazartesi.",
+   "en": "Today is Monday",
+   "ph": "boo-GEWN pah-zar-te-SEE"
+  },
+  {
+   "t": "Bugün günlerden ne?",
+   "en": "What day is it today?",
+   "ph": "boo-GEWN gewn-ler-DEN NE"
+  },
+  {
+   "t": "Dün",
+   "en": "Yesterday",
+   "ph": "DEWN"
+  },
+  {
+   "t": "Şimdi",
+   "en": "Now",
+   "ph": "sheem-DEE"
+  },
+  {
+   "t": "Bir dakika, lütfen.",
+   "en": "Wait a moment, please",
+   "ph": "BEER dah-kee-KAH lewt-FEN"
+  },
+  {
+   "t": "Yorgunum.",
+   "en": "I'm tired",
+   "ph": "yor-goo-NOOM"
+  },
+  {
+   "t": "Mutluyum.",
+   "en": "I'm happy",
+   "ph": "moot-loo-YOOM"
+  },
+  {
+   "t": "Kendimi iyi hissetmiyorum.",
+   "en": "I don't feel well",
+   "ph": "ken-dee-MEE ee-YEE hees-set-mee-yo-ROOM"
+  },
+  {
+   "t": "Doktora ihtiyacım var.",
+   "en": "I need a doctor",
+   "ph": "dok-to-RAH eeh-tee-yah-JUHM VAR"
+  },
+  {
+   "t": "Polisi arayın!",
+   "en": "Call the police",
+   "ph": "po-lee-SEE ah-rah-YUHN"
+  },
+  {
+   "t": "Pasaportumu kaybettim.",
+   "en": "I lost my passport",
+   "ph": "pah-sah-por-too-MOO kye-bet-TEEM"
+  },
+  {
+   "t": "Eczane nerede?",
+   "en": "Where is the pharmacy?",
+   "ph": "ej-zah-NE ne-re-DE"
+  },
+  {
+   "t": "Wi-Fi var mı?",
+   "en": "Is there Wi-Fi?",
+   "ph": "wai-fai VAR muh"
+  },
+  {
+   "t": "Wi-Fi şifresi nedir?",
+   "en": "What's the Wi-Fi password?",
+   "ph": "wai-fai sheef-re-SEE ne-DEER"
+  },
+  {
+   "t": "Burada telefonumu şarj edebilir miyim?",
+   "en": "Can I charge my phone here?",
+   "ph": "boo-rah-DAH te-le-fo-noo-MOO SHARJ e-de-bee-LEER mee-yeem"
+  },
+  {
+   "t": "Türkçe öğreniyorum.",
+   "en": "I'm learning the language",
+   "ph": "TEWRK-che ur-re-nee-yo-ROOM"
+  },
+  {
+   "t": "Kitap okumayı seviyorum.",
+   "en": "I love reading books",
+   "ph": "kee-TAHP o-koo-mah-YUH se-vee-yo-ROOM"
+  },
+  {
+   "t": "Bu kelime ne demek?",
+   "en": "What does this word mean?",
+   "ph": "boo ke-lee-ME ne de-MEK"
+  },
+  {
+   "t": "Bu Türkçe nasıl söylenir?",
+   "en": "How do you say this?",
+   "ph": "boo TEWRK-che nah-SUHL sur-ee-le-NEER"
+  },
+  {
+   "t": "Yazabilir misiniz?",
+   "en": "Can you write it down?",
+   "ph": "yah-zah-bee-LEER mee-see-NEEZ"
+  },
+  {
+   "t": "Tatildeyim.",
+   "en": "I'm here on holiday",
+   "ph": "tah-teel-de-YEEM"
+  },
+  {
+   "t": "Fotoğraf çekebilir miyim?",
+   "en": "May I take a photo?",
+   "ph": "fo-to-RAHF che-ke-bee-LEER mee-yeem"
+  }
+ ]
+}
