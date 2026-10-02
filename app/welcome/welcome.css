@@ -23,6 +23,10 @@
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 62%, transparent 100%);
   mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 62%, transparent 100%);
 }
+/* The wall's two sides fade to white, so a cover cut off by the screen's edge does not look chopped. */
+.first-wall::before, .first-wall::after { content: ""; position: absolute; top: 0; bottom: 0; width: 34px; z-index: 1; pointer-events: none; }
+.first-wall::before { inset-inline-start: 0; background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0)); }
+.first-wall::after { inset-inline-end: 0; background: linear-gradient(to left, #fff, rgba(255, 255, 255, 0)); }
 /* Centred on the wall whatever its height, so a short phone sees the middle
    rows rather than the top two. */
 .first-rows { transform: translateY(-50%) rotate(-9deg); }
@@ -102,7 +106,9 @@
 /* A short screen (a phone with the browser's bars showing): the name and the
    line shrink a little so the wall keeps the room it needs to read as a wall. */
 @media (max-height: 760px) {
-  .first-name { zoom: .84; }
+  .first-owl { margin-top: -3rem; }
+  .first-owl > svg { width: 84px; }
+  .first-name { font-size: clamp(36px, 12.5vw, 48px); }
   .first-tagline { font-size: 21px; margin-top: 1rem; }
   .first-start { margin-top: 1.25rem; }
 }

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { CSSProperties } from "react";
-import { DotNumber } from "@/components/DotMatrix";
+import { Mascot } from "@/components/mascot/Mascot";
 import { ART, ArtDefs } from "@/components/welcome/art";
 import { C, type Cover } from "@/components/welcome/covers";
 import { APP_NAME, BRAND } from "@/lib/brand";
@@ -17,16 +17,16 @@ import { useLocale, useRich, useT } from "@/lib/i18n/react";
  * title and author across the top and a small drawn icon below, so the first
  * thing anybody sees is what is in the library: real books. The rows slide slowly
  * in opposite directions and every icon keeps its own small motion; under reduced
- * motion all of it holds still. The name is spelt in lamps — a dot-matrix
- * readout — switching on one after another, with a cyan glow rising behind it.
+ * motion all of it holds still. The name is set in plain heavy letters that rise one
+ * after another (it was a dot-matrix readout, which read poorly at this size), with Dewey above it
+ * and a cyan glow rising behind it.
  *
  * The layout and timing come from the first screen of the app this one was
  * adapted from; the covers, colours and copy are ReadFluent's own. Every title is
  * a public-domain classic, so the real name goes on the real cover.
  */
 export function FirstScreen({ onStart, onSignIn, onBack }: { onStart: () => void; onSignIn?: () => void; /** Back to the choice of the app's language. */ onBack?: () => void }) {
-  // "ReadFluent" → READ over FLUENT, one word per line: a 5x7 grid is about six
-  // characters across on a phone, so two words side by side do not fit.
+  // "ReadFluent" → "Read" + "Fluent", one word, two colours.
   const [top, bottom] = APP_NAME.split(/(?=[A-Z])/);
   // "Real books. Your level." — the second sentence picked out in the brand colour.
   const t = useT();
@@ -44,13 +44,15 @@ export function FirstScreen({ onStart, onSignIn, onBack }: { onStart: () => void
       )}
       <Wall />
       <div className="relative z-[1] flex shrink-0 flex-col items-center px-7 pb-[calc(env(safe-area-inset-bottom)+1rem)] text-center">
-        <h1 className="first-name flex flex-col items-center gap-[8px]" aria-label={APP_NAME}>
-          {/* On white the lamps are the deeper cyans (the bright one is too faint on
-              a light ground) and the unlit field is a pale wash of the same blue. */}
-          <DotNumber value={top} cell={8} color="#0B5F78" glow={false} field fieldColor="rgba(14,116,144,.06)" stagger label="" />
-          {bottom && <DotNumber value={bottom} cell={8} color="#0891B2" glow={false} field fieldColor="rgba(14,116,144,.06)" stagger label="" />}
+        {/* Dewey stands on the foot of the wall, where it has faded to white. */}
+        <span className="first-owl wel-in -mt-16 block" style={{ animationDelay: "200ms" }} aria-hidden><Mascot mood="hello" className="w-[112px]" /></span>
+        <h1 className="first-name mt-1 flex items-baseline justify-center text-[clamp(40px,14.4vw,60px)] font-extrabold leading-none tracking-[-0.035em]" aria-label={APP_NAME}>
+          {/* The name in plain, heavy letters rising one after another: "Read" in ink, "Fluent" in the brand's deep cyan. */}
+          {Array.from(top).map((ch, i) => <span key={`t${i}`} aria-hidden className="wel-in inline-block" style={{ animationDelay: `${300 + i * 55}ms`, color: "var(--ob-ink)" }}>{ch}</span>)}
+          {bottom && Array.from(bottom).map((ch, i) => <span key={`b${i}`} aria-hidden className="wel-in inline-block" style={{ animationDelay: `${300 + (top.length + i) * 55}ms`, color: BRAND.deep }}>{ch}</span>)}
         </h1>
-        <p className="first-tagline ed-serif wel-in mt-5 text-[23px] italic leading-snug" style={{ animationDelay: "700ms" }}>
+        <span className="first-rule wel-in mt-3 block h-1 w-14 rounded-full" style={{ animationDelay: "800ms", background: BRAND.bright }} aria-hidden />
+        <p className="first-tagline ed-serif wel-in mt-4 text-[23px] italic leading-snug" style={{ animationDelay: "900ms" }}>
           {t("first.tagline1")}{sentenceGap(locale)}<span style={{ color: BRAND.deep }}>{t("first.tagline2")}</span>
         </p>
         <button
