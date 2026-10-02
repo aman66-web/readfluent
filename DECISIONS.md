@@ -156,3 +156,5 @@ These unblock the build. None is final; the owner decides.
 - Flashcards: SM-2-like (Again 10 min / Good / Easy), 10 new + due reviews per sitting, max 30; state on the device (`readfluent.srs`); a saved word gets a card automatically.
 - Phrase decks: 100 phrases per language (Top 50 = the first 50), written by hand with a respelling; JSON in `lib/decks/data/`, fetched only when opened. Drafts, not yet native-reviewed.
 - Friends and league: SQL only so far (migration 0004, RPCs, no table policies); a monthly league of up to 30, top 5 promoted, bottom 5 demoted.
+- Talk: Dewey answers in 1–3 short sentences at the reader's level, with an English-free translation in the reader's own language and one kind correction; 40 messages a day per signed-in reader; the last 16 turns only; replies shown as text, never as markup.
+- Talk topics are sent as the reader's own words in their own language ("Order a meal"); Dewey replies in the language being learned.
