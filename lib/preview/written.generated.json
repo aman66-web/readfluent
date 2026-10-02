@@ -1028,6 +1028,44 @@
   }
  },
  {
+  "slug": "the-hacker-with-the-red-scarf",
+  "title": "The Hacker With the Red Scarf",
+  "author": "The Girl with the Dragon Tattoo",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "Tamsin Rook breaks into computers for a living, always with permission, and always in her grandmother's red scarf. When a kind treasurer is blamed for stolen charity money, she must find the real thief. Every clue is fair. Can you spot him first?",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Hacker",
+    "With the Red",
+    "Scarf"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lens",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-wonderful-wizard-of-oz",
   "title": "The Wonderful Wizard of Oz",
   "author": "L. Frank Baum",
@@ -3211,6 +3249,38 @@
   }
  },
  {
+  "slug": "what-joy-really-is",
+  "title": "What Joy Really Is",
+  "author": "The Book of Joy",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "On his thirty-fifth birthday, teacher Ravi has everything he wanted and feels nothing. So he takes a month of trains to ask bakers, nuns, singers and gardeners what joy really is, and how to let it in.",
+  "cover": {
+   "bg": "#22D3EE",
+   "light": true,
+   "title": [
+    "What Joy",
+    "Really Is"
+   ],
+   "size": 18.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "sun",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "dove",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "a-purpose-bigger-than-you",
   "title": "A Purpose Bigger Than You",
   "author": "The Purpose Driven Life",
@@ -3764,6 +3834,43 @@
   }
  },
  {
+  "slug": "ten-moves-for-a-lifetime",
+  "title": "Ten Moves for a Lifetime",
+  "author": "Built to Move",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "After a small stumble on the pavement, Grace, sixty-three, wants to stay strong and independent for life. Her neighbour Mateo, a physiotherapist, teaches her ten simple everyday moves, from walking to getting up off the floor, and how to practise each one safely.",
+  "cover": {
+   "bg": "#164E63",
+   "title": [
+    "Ten Moves for",
+    "a Lifetime"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lotus",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-stress-reset",
   "title": "The Stress Reset",
   "author": "Why Zebras Don't Get Ulcers",
@@ -4168,6 +4275,81 @@
     },
     {
      "id": "chart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-roads-that-built-the-world",
+  "title": "The Roads That Built the World",
+  "author": "The Silk Roads",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "From a line of footprints in volcanic ash to cables on the sea floor, follow the roads, rivers and sea lanes that carried silk, spices, gold, ideas and sometimes disease, and see how they joined the world together.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Roads",
+    "That Built",
+    "the World"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "footprints",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "rome-in-ten-moments",
+  "title": "Rome in Ten Moments",
+  "author": "SPQR",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "Ten turning points, from a legend about twins and a wolf to the day the last western emperor was sent away. Walk through a thousand years of Rome, five steps at a time, and see why this one city still matters.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Rome in Ten",
+    "Moments"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "pillar",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "crown",
      "x": 160,
      "y": 38,
      "s": 0.36

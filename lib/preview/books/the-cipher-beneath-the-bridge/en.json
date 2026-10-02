@@ -1,0 +1,417 @@
+{
+  "slug": "the-cipher-beneath-the-bridge",
+  "meta": {
+    "blurb": "An engineer is hired to condemn a Victorian iron bridge, but beneath it she finds twelve plates of strange letters. With a shy archivist she follows a cipher from the river to a mill and a bell. Someone close to them is whispering to the man who wants the bridge gone.",
+    "bible": "Ines Varga: a bridge engineer, patient and honest, our point of view. Tobias Wren: the museum archivist, thin and eager, ink on his fingers, wears a grey cardigan. Councillor Marcus Holt: smooth, silver pen, wants the bridge closed so he can sell the riverside meadows. Dr Sylvia Ashe: the museum director, about fifty-five, green jacket, silver bracelets; she secretly owes Holt money and tells him everything. Dale Kane: Holt's fixer, huge man in a donkey jacket and very large boots. Alma Dunn: the honest mayor of Harrowby. Constable Nina Brook: the local police officer. Amos Pell: the old bell-ringer of Saint Aldric's. Josiah Calder: the engineer who built the bridge in 1868, loved puzzles, wore a magnificent moustache. Ada Calder: his only daughter. Harrowby: the small town. River Wend: the river. Harrowby Bridge: the green iron bridge with three arches. Crown Mill: a ruined mill half a mile upstream with a stone crown above its water wheel. Saint Aldric's: the chapel on the hill; its bell was cast in 1868 and reads Ring for Harrowby. Calder's Gift: the legend and the truth, the riverside meadows and the bridge given to the people of Harrowby for ever. The cipher: the first message on twelve iron plates under the bridge is shifted by the digits of 1868, one, eight, six, eight, repeating, and reads Where the river wears a crown, look down; the second message on a stone beneath the mill wheel uses the keyword Ada and reads The bell keeps the key; the small iron key is hidden in the oak frame above the bell, stamped with a tiny bridge and the Roman number twelve, and it opens plate twelve, whose slot was painted over. Dr Ashe gave herself away by knowing about the hotel break-in and the keyword Ada before she was told. Voice and tone: lively, clear and clever, a fair-play treasure hunt with no violence or gore; Holt resigns and Kane is arrested."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A red car drives toward a curved iron bridge over a river at dawn",
+      "summary": "Ines Varga, a bridge engineer, arrives in Harrowby at dawn and sees the old iron bridge over the River Wend."
+    },
+    {
+      "n": 2,
+      "scene": "Councillor Holt sits behind a polished desk at the town hall, smiling coldly",
+      "summary": "Councillor Marcus Holt hires Ines to inspect the bridge and makes it plain that he expects a report saying it is unsafe."
+    },
+    {
+      "n": 3,
+      "scene": "Ines walks along the bridge deck tapping the ironwork with a small hammer",
+      "summary": "Ines walks over the bridge and finds the ironwork sound, so she wonders why Holt wants it closed."
+    },
+    {
+      "n": 4,
+      "scene": "Ines climbs down through a hatch into a dark chamber with a torch",
+      "summary": "Under the deck Ines finds a hidden inspection chamber and twelve iron plates carved with letters; the twelfth has a painted-over slot."
+    },
+    {
+      "n": 5,
+      "scene": "Ines photographs a row of iron plates covered in letters and numbers",
+      "summary": "Ines photographs the plates; the letters make no words, and she sees the year 1868 carved beside them."
+    },
+    {
+      "n": 6,
+      "scene": "Tobias Wren shows Ines an old drawing of the bridge in a museum",
+      "summary": "Ines meets Tobias Wren, the museum archivist, who loves the bridge and its builder, Josiah Calder."
+    },
+    {
+      "n": 7,
+      "scene": "Tobias reads aloud from a leather book beside a lamp, Ines listening",
+      "summary": "Tobias tells the legend that Josiah Calder, who loved puzzles, left a secret gift for the town."
+    },
+    {
+      "n": 8,
+      "scene": "Dr Sylvia Ashe in a green jacket offers tea in an office of old maps",
+      "summary": "The museum director, Dr Sylvia Ashe, welcomes Ines warmly and says she would love to help."
+    },
+    {
+      "n": 9,
+      "scene": "Holt speaks on a telephone while Ines frowns at her desk",
+      "summary": "Holt telephones Ines to remind her that her report is due on Friday and to hint at a generous reward."
+    },
+    {
+      "n": 10,
+      "scene": "Ines and Tobias hunch over a table covered in photographs of the plates",
+      "summary": "Ines and Tobias try simple letter-shifting codes on the plates, but none of them works."
+    },
+    {
+      "n": 11,
+      "scene": "Tobias reads a page of a small notebook with a magnifying glass",
+      "summary": "Tobias finds a note in Calder's notebook that says a clever man should count by the year."
+    },
+    {
+      "n": 12,
+      "scene": "Ines writes the numbers one, eight, six, eight over a line of letters",
+      "summary": "Ines realises that the year 1868 gives the shifts 1, 8, 6, 8, repeating, and the first word, WHERE, appears."
+    },
+    {
+      "n": 13,
+      "scene": "Ines and Tobias read a finished line of decoded words with their heads together",
+      "summary": "Together they decode all twelve plates; the message reads: Where the river wears a crown, look down."
+    },
+    {
+      "n": 14,
+      "scene": "A river curves between two stone banks, reflecting a distant mill",
+      "summary": "They puzzle over what a crown on the river could mean: a weir, a bridge or the mill."
+    },
+    {
+      "n": 15,
+      "scene": "Tobias holds up an old photograph of a mill with a stone crown",
+      "summary": "Tobias finds an old photograph of Crown Mill, with a stone crown carved above its great water wheel."
+    },
+    {
+      "n": 16,
+      "scene": "Two figures at a rusted gate with a new padlock and boot prints",
+      "summary": "At dusk they reach the ruined Crown Mill, where there is a new padlock and fresh boot prints in the mud."
+    },
+    {
+      "n": 17,
+      "scene": "Ines crawls through a low stone tunnel beside a rushing stream",
+      "summary": "They squeeze through an old sluice tunnel to reach the water wheel pit."
+    },
+    {
+      "n": 18,
+      "scene": "A great water wheel hangs above a stone block carved with letters",
+      "summary": "In the wheel pit, below the stone crown, they find a block of stone carved with a second band of letters."
+    },
+    {
+      "n": 19,
+      "scene": "A torch beam sweeps a dark mill as two people hide in water",
+      "summary": "A man with a torch arrives, and Ines and Tobias hide in the shallow water until he leaves."
+    },
+    {
+      "n": 20,
+      "scene": "Two wet figures run across a dark field toward distant town lights",
+      "summary": "They crawl out through the sluice and escape with their photographs; Ines wonders who the man was."
+    },
+    {
+      "n": 21,
+      "scene": "Ines stands in a hotel room with drawers pulled open and her bag emptied",
+      "summary": "Back in her hotel room, Ines finds her things searched and her laptop gone, but the photographs are safe."
+    },
+    {
+      "n": 22,
+      "scene": "Dr Ashe speaks anxiously into a telephone in a lamplit museum office",
+      "summary": "Dr Sylvia Ashe telephones to ask if they are safe and urges them to stop before they are hurt."
+    },
+    {
+      "n": 23,
+      "scene": "Holt stands at the bridge railing, hands in pockets, speaking to Ines",
+      "summary": "Holt visits Ines at the bridge and threatens to cancel her contract unless she writes the report he wants."
+    },
+    {
+      "n": 24,
+      "scene": "Holt hands Ines a letter of dismissal as the wind blows across the bridge",
+      "summary": "Holt dismisses Ines and announces that he will close the bridge on Saturday, but she decides to keep going."
+    },
+    {
+      "n": 25,
+      "scene": "Tobias opens a large parish register at a wooden desk in a church office",
+      "summary": "Tobias finds in the parish register that Josiah Calder's daughter was called Ada, and he guesses that her name is the key to the second cipher."
+    },
+    {
+      "n": 26,
+      "scene": "Ines writes the name Ada above a line of carved letters and decodes it",
+      "summary": "Using ADA as the keyword, Ines decodes the second message: The bell keeps the key."
+    },
+    {
+      "n": 27,
+      "scene": "A small stone chapel with a bell tower on a hill",
+      "summary": "Tobias knows which bell: the one in the tower of Saint Aldric's chapel, cast in the same year as the bridge."
+    },
+    {
+      "n": 28,
+      "scene": "Dr Ashe leans in the workroom door with a smile and a plate of biscuits",
+      "summary": "Dr Ashe drops in and says: So Ada was the keyword, was she? But nobody has told her yet."
+    },
+    {
+      "n": 29,
+      "scene": "Ines tells Dr Ashe a false story in the museum corridor",
+      "summary": "To test Dr Ashe, they tell her that the key is hidden in the old coal store under the museum."
+    },
+    {
+      "n": 30,
+      "scene": "A broken cellar door hangs open, a huge boot print in the coal dust",
+      "summary": "That night someone breaks into the museum cellar and leaves a large boot print in the coal dust."
+    },
+    {
+      "n": 31,
+      "scene": "A bell-ringer in a woollen hat points up a spiral stair",
+      "summary": "At the chapel the caretaker Amos Pell, the bell-ringer, agrees to take them up the tower."
+    },
+    {
+      "n": 32,
+      "scene": "Ines reaches up into a hollow in an oak beam above the bell",
+      "summary": "Ines finds a small iron key wrapped in oilcloth in a hollow in the oak frame that holds the bell."
+    },
+    {
+      "n": 33,
+      "scene": "A small iron key in a palm, stamped with a tiny bridge and XII",
+      "summary": "The key is stamped with a tiny bridge and the Roman number XII, the number twelve."
+    },
+    {
+      "n": 34,
+      "scene": "Ines in the dark inspection chamber touches the painted slot in plate twelve",
+      "summary": "Ines remembers the twelfth plate under the bridge, with the keyhole-shaped slot painted over, and understands that the answer was under the bridge from the start."
+    },
+    {
+      "n": 35,
+      "scene": "Dr Ashe and a big man in heavy boots wait at the chapel gate",
+      "summary": "As they leave the chapel, Dr Ashe and a large man called Dale Kane block the gate and demand the key."
+    },
+    {
+      "n": 36,
+      "scene": "Ines hands a rusty key to the man; the real key is in a sandwich tin",
+      "summary": "Ines hands over a rusty chapel key borrowed from Amos Pell, while the real key stays hidden in Tobias's sandwich tin."
+    },
+    {
+      "n": 37,
+      "scene": "A car drives away from the chapel as Ines raises a phone",
+      "summary": "Ines telephones Mayor Alma Dunn and Constable Nina Brook and asks them to come to the bridge at noon."
+    },
+    {
+      "n": 38,
+      "scene": "Holt, Dr Ashe and Kane kneel in a dark chamber, forcing a rusty key",
+      "summary": "Holt and his helpers try the rusty key on plate twelve, but it will not turn."
+    },
+    {
+      "n": 39,
+      "scene": "A crowd gathers at the foot of the bridge as the mayor arrives",
+      "summary": "At noon a crowd gathers at the bridge, with Mayor Alma Dunn and Constable Brook at the front."
+    },
+    {
+      "n": 40,
+      "scene": "Ines, Tobias, the mayor and the constable climb down into the chamber",
+      "summary": "Ines, Tobias, the mayor and the constable go down into the chamber under the bridge."
+    },
+    {
+      "n": 41,
+      "scene": "Ines puts a small iron key into the slot as everyone watches",
+      "summary": "Ines scrapes the remaining paint away, puts the real key into plate twelve and turns it, and the lock clicks open."
+    },
+    {
+      "n": 42,
+      "scene": "An iron plate swings open, showing a small green iron box",
+      "summary": "Plate twelve swings open to show a dry hollow in the stonework, and inside it sits a small iron box."
+    },
+    {
+      "n": 43,
+      "scene": "Tobias lifts a yellowed letter and a folded parchment from an open iron box",
+      "summary": "In the box they find a letter in Josiah Calder's handwriting and a folded deed on parchment."
+    },
+    {
+      "n": 44,
+      "scene": "The mayor reads aloud from a letter as the crowd leans in",
+      "summary": "The mayor reads Calder's letter aloud: he gives the meadows and the bridge to the people of Harrowby forever."
+    },
+    {
+      "n": 45,
+      "scene": "The mayor holds a sealed parchment up to the light",
+      "summary": "The deed proves that the riverside meadows belong to the town in trust, so Holt's sale of them is not allowed."
+    },
+    {
+      "n": 46,
+      "scene": "Dr Ashe stands before Tobias holding a crumpled tissue in her hand",
+      "summary": "Dr Ashe confesses to Tobias that she told Holt everything because she owed him money, and she resigns."
+    },
+    {
+      "n": 47,
+      "scene": "Constable Brook places a hand on a big man's arm outside the town hall",
+      "summary": "Constable Brook arrests Dale Kane for the break-ins, and Holt resigns from the council."
+    },
+    {
+      "n": 48,
+      "scene": "Ines types at a laptop in the museum workroom, a mug beside her",
+      "summary": "Ines writes her honest report: the bridge is sound and should stand for another hundred years."
+    },
+    {
+      "n": 49,
+      "scene": "A crowd with flags and a brass band crosses a green iron bridge",
+      "summary": "The bridge stays open, the museum shows the twelve plates, and the town holds a party on the riverside meadows."
+    },
+    {
+      "n": 50,
+      "scene": "Ines and Tobias stand together at the bridge railing as the sun goes down",
+      "summary": "At sunset Ines and Tobias stand on the bridge; she has a new job in another town, and he asks her to come back."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Ines drove into Harrowby early and saw the old iron bridge.",
+      "Councillor Holt told Ines he wanted a report on the bridge.",
+      "Ines walked on the bridge and found the iron was strong.",
+      "Under the bridge, Ines found a small room with twelve iron plates.",
+      "Ines took pictures of the plates, but the letters made no words.",
+      "Ines met Tobias, who worked in the town museum and loved the bridge.",
+      "Tobias told her Calder loved puzzles and left a gift for the town.",
+      "The museum director, Dr Ashe, offered help with a warm smile.",
+      "Mr Holt called Ines and reminded her about the report.",
+      "Ines and Tobias tried simple codes, but none of them worked.",
+      "Tobias found a line in Calder's notebook about counting by the year.",
+      "Ines used the year's numbers to move the letters, and a word appeared.",
+      "They decoded all the plates: Where the river wears a crown, look down.",
+      "They wondered what a crown on the river might be.",
+      "An old photo showed Crown Mill, with a stone crown above its wheel.",
+      "At the mill, they found a new lock and fresh footprints.",
+      "They went through a low old tunnel to reach the wheel.",
+      "Under the wheel, they found a stone with more carved letters.",
+      "A man came with a torch, and they hid in the water.",
+      "They crawled out and ran home with their pictures.",
+      "Ines found her hotel room searched, but the pictures were safe.",
+      "Dr Ashe called to ask if they were safe and told them to stop.",
+      "Mr Holt told Ines he would end her work unless she wrote his report.",
+      "Mr Holt dismissed Ines, but she decided to carry on.",
+      "Tobias found the name of Calder's daughter: Ada.",
+      "Using the name Ada, Ines read the message: The bell keeps the key.",
+      "Tobias knew which bell it was: the one in Saint Aldric's tower.",
+      "Dr Ashe said, so the word was Ada, but nobody had told her.",
+      "They told Dr Ashe a false story about where the key was hidden.",
+      "That night someone broke into the cellar, and left a boot print.",
+      "At the chapel, old Amos Pell took them up the tower.",
+      "Ines found a small iron key wrapped in cloth above the bell.",
+      "On the key was a little bridge and the number twelve.",
+      "Ines remembered plate twelve and the painted slot under the bridge.",
+      "Dr Ashe and a big man stood at the gate and asked for the key.",
+      "Ines gave them an old rusty key, and the real key stayed hidden.",
+      "Ines called the mayor and asked her to come to the bridge at noon.",
+      "Mr Holt tried the rusty key at the plate, but it would not turn.",
+      "At noon a big crowd came to the bridge with the mayor.",
+      "Ines, Tobias, the mayor and the constable went under the bridge.",
+      "Ines put the real key in the slot, and the lock clicked open.",
+      "The plate swung open, and inside was a small iron box.",
+      "In the box was a letter from Calder and a folded old paper.",
+      "The mayor read the letter: the meadows and bridge belonged to the people.",
+      "The old deed proved the meadows belonged to the town for ever.",
+      "Dr Ashe told Tobias she gave Mr Holt news because she owed him.",
+      "Constable Brook arrested Dale Kane, and Mr Holt left the council.",
+      "Ines wrote her report: the bridge was strong and would stand for years.",
+      "The bridge stayed open, and the town had a party on the meadows.",
+      "At sunset Ines and Tobias stood on the bridge and promised to meet again."
+    ],
+    "B1B2": [
+      "Ines Varga drives into the town of Harrowby at dawn, with a long day of work ahead of her. Across the River Wend stands a graceful iron bridge, painted green and glowing in the morning mist.",
+      "At the town hall, Councillor Marcus Holt shakes her hand and explains why he has hired her. He wants a report on the old bridge by Friday, and he says that he hopes it will say the bridge is unsafe.",
+      "Ines walks slowly across the bridge and taps the iron with a small hammer. The metal is strong, the rivets are tight, and she cannot see why anyone would want to close it.",
+      "Under the deck, Ines opens a hatch and climbs down into a narrow inspection chamber. On the wall she finds twelve small iron plates, each carved with letters, and the last has a dark slot like a keyhole under thick paint.",
+      "Ines photographs every plate with her phone and tries to read the letters. They make no words at all, but beside them is carved a date: the year the bridge was built, 1868.",
+      "In the Harrowby museum, Ines meets Tobias Wren, the archivist, a thin man with ink on his fingers. He is delighted that someone cares about the bridge, and he shows her a drawing of its builder, Josiah Calder.",
+      "Tobias tells Ines the old story that Josiah Calder, who loved puzzles, left a gift for the town that no one has ever found. People call it Calder's Gift, and most believe it is only a legend.",
+      "The museum director, Dr Sylvia Ashe, looks in with a tray of tea. She is warm and friendly, and she says that she would be glad to help the two of them in any way she can.",
+      "Holt telephones Ines to remind her that the report is due on Friday. He adds, in a soft voice, that the council is very generous to people who write what it wants to read.",
+      "That night Ines and Tobias spread the photographs across a table. They try moving each letter one place along, then two, then three, but every attempt gives only nonsense.",
+      "In Josiah Calder's old notebook, Tobias finds a short line written in a corner. It says that a clever reader should always count by the year, and Tobias reads it aloud twice.",
+      "Ines writes the numbers of the year, one, eight, six and eight, above the first line of letters. She moves each letter along by those numbers in turn, and the word WHERE appears in her notebook.",
+      "By lunchtime they have decoded every plate, and they read the message aloud together. It says: where the river wears a crown, look down, and it sounds like a riddle from a storybook.",
+      "What could a crown on the river possibly mean? Tobias suggests a weir or a waterfall, but Ines points out that there are many things on the Wend that could be described as a crown.",
+      "Next morning Tobias finds an old photograph of Crown Mill on the river. Above its water wheel is a small stone crown, carved by the mill's first owner, and the building has been empty for fifty years.",
+      "At dusk Ines and Tobias reach the ruined mill, which is fenced off and marked with warning signs. The padlock on the gate is new, and in the mud beside it are the fresh prints of large boots.",
+      "They find another way in, an old sluice tunnel that the water once used to drive the wheel. Ines crawls through first, and Tobias follows, holding the torch in his teeth.",
+      "In the wheel pit, directly under the stone crown, Ines shines her torch on the wall. A block of stone carries another long line of carved letters, just as strange as the first.",
+      "Footsteps ring on the stones above, and a torch beam sweeps across the pit. Ines and Tobias crouch in the cold water until the man grumbles and goes away.",
+      "They crawl out through the tunnel and run across the dark field, soaking wet but safe. Ines holds her phone close, for it still holds the photographs, and she wonders who the man with the torch might be.",
+      "At the hotel, Ines finds her door unlocked and her belongings scattered across the floor. Her laptop has been taken, but Tobias has copies of every photograph, and she is grateful for his careful habits.",
+      "Next morning Dr Ashe telephones to ask if they are all right, because she has heard about the break-in. She urges them to leave the whole business alone before somebody is hurt.",
+      "Holt visits Ines on the bridge and tells her that her contract will be ended unless she writes the report he wants. He says it quietly and pleasantly, as if he were discussing the weather.",
+      "Holt hands her a letter ending her contract and says that the bridge will be closed on Saturday morning. Ines folds the letter into her pocket and decides that she will find the Calder Gift before then.",
+      "The second code needs a keyword, and Tobias guesses that it is the name of someone Calder loved. In the parish register he finds the name of Calder's only daughter, born in 1860, and it is Ada.",
+      "Using the name Ada as a keyword, Ines decodes the letters from the mill stone one by one. The message is short and clear: the bell keeps the key.",
+      "Tobias knows which bell the message means. The bell in the tower of Saint Aldric's chapel was cast in 1868, the same year as the bridge, and Josiah Calder was one of the men who paid for it.",
+      "That evening Dr Ashe brings biscuits and says cheerfully, “So Ada was the keyword, was she?” Tobias goes still, because neither he nor Ines has said that word to anyone.",
+      "To test her, Ines tells Dr Ashe that the key is hidden in the old coal store under the museum. Tobias says nothing, and the director thanks them and hurries away.",
+      "In the morning they find the cellar door broken and the coal store turned upside down. In the dust there is a single huge boot print, exactly like the ones at the mill gate.",
+      "At Saint Aldric's, the old bell-ringer Amos Pell greets them with a toothy smile. He says that nobody has asked to climb the tower in twenty years, and he leads the way up the stone steps.",
+      "Ines runs her hand along the heavy oak frame that holds the bell and feels a narrow hollow. Inside is a small bundle of oilcloth, and in the cloth is a small iron key.",
+      "On the head of the key, someone has stamped a tiny bridge and the Roman number XII. Ines stares at it, and then she says out loud that it means twelve.",
+      "Ines remembers the twelfth plate in the chamber under the bridge, with its painted slot. The treasure has been under her feet since the day she arrived, and she laughs aloud in the bell tower.",
+      "As they leave the chapel, Dr Ashe and a large man called Dale Kane are standing at the gate. The man has very large boots, and Dr Ashe says that they will take the key, please.",
+      "Ines sighs and hands over an old iron key. It is a rusty spare that she borrowed from Amos Pell's board of keys, while the real key is hidden in Tobias's sandwich tin.",
+      "As the car drives away, Ines takes out her phone and calls the mayor, Alma Dunn, and then the local constable, Nina Brook. She asks both of them to meet her at the bridge at noon, with as many townspeople as possible.",
+      "Under the bridge, Holt, Dr Ashe and Kane crowd into the little chamber and push the rusty key into the slot. It will not turn, and Holt growls that someone has tricked him.",
+      "At noon, a crowd of townspeople gathers at the foot of the bridge. At the front are Mayor Alma Dunn and Constable Nina Brook, and Holt climbs out of the hatch, trying to look calm.",
+      "Ines leads Tobias, the mayor and the constable down through the hatch into the damp chamber. The twelve plates glow faintly in the torchlight, and the air smells of old iron and river water.",
+      "Ines takes the real key from Tobias's sandwich tin and scrapes the last paint from the slot. She slides the key in and turns it, and the lock gives a soft, perfect click.",
+      "Plate twelve swings open on a hinge, and behind it is a dry hollow in the stone. Sitting in the hollow is a small iron box, painted green, its edges still sharp and clean.",
+      "Inside the box lie a letter in Josiah Calder's handwriting and a folded paper. The writing is faded but clear, and the paper has a heavy red seal at the bottom.",
+      "The mayor reads Calder's letter to the crowd. In it, the engineer gives the riverside meadows and the bridge to the people of Harrowby for ever, so that no council may ever sell them.",
+      "The parchment is a legal deed, and the mayor says it proves that the riverside meadows belong to the town. Holt's plan to sell them to builders is impossible, because the land was never the council's to sell.",
+      "Dr Ashe comes to Tobias in tears and tells him the truth. She owed Holt a great deal of money, and for that reason she told him everything, and she is deeply ashamed.",
+      "Constable Brook arrests Dale Kane for the break-ins at the hotel, the mill and the museum. Holt, facing questions about his false safety report, resigns from the council the next day.",
+      "Ines writes her honest report in the museum workroom. It says that the bridge is sound, that the iron is strong, and that with a little care it should stand for another hundred years.",
+      "The bridge stays open, and the museum shows Calder's letter and the twelve plates. On Sunday the town holds a party on the riverside meadows, with a brass band and children running everywhere.",
+      "At sunset Ines and Tobias stand together on the bridge. She tells him she has another job in another town, and he asks her, a little shyly, to come back one day to see how the old bridge is doing."
+    ],
+    "C1C2": [
+      "Ines Varga, a bridge engineer with a reputation for patience, drove into the little town of Harrowby just as the sun was lifting the mist from the River Wend. Ahead of her, spanning the water in three delicate arches, stood a great iron bridge painted a faded green, and she slowed the car to look at it. Some structures, she thought, look as though they were designed by an artist who also understood arithmetic.",
+      "At the town hall, Councillor Marcus Holt greeted Ines with a handshake that was a little too firm and a smile that never altered. He explained that he wished to have the old bridge inspected by an independent expert, and that he would need her report by Friday, adding with a delicate cough that he expected it to say the bridge was unsafe. Ines, who had never in her career written the conclusion before the survey, said politely that she would look at the iron first.",
+      "Ines walked the length of the bridge twice, tapping the ironwork with a small hammer and listening to the note each rivet gave back. The metal was sound, the joints were tight and the old paint, though faded, had protected the structure remarkably well, so that she saw no reason at all why it should be closed. She began to suspect that Councillor Holt's interest in the bridge had very little to do with its strength.",
+      "Beneath the central arch Ines found an iron hatch, unscrewed it and lowered herself with a torch into a narrow inspection chamber that smelled of river water and rust. On the damp wall, in a neat row, hung twelve small iron plates, each cut with a line of strange letters, and the last of them carried a slot like a keyhole almost buried under thick layers of paint. She had inspected a hundred bridges, and not one of them had ever said hello in this manner.",
+      "She photographed all twelve plates with great care, each in its own frame, and then sat on an iron beam trying to read the lines of letters in the torchlight. They made no words in any language she knew, and the only thing she could make out for certain was the year 1868, cut in bold figures at the end of the row. It was, she realised, a message that someone had meant to be found by the right person and by nobody else.",
+      "In the little museum beside the market square, Ines was introduced to Tobias Wren, the archivist, a thin, eager man with ink on his fingers and a grey cardigan buttoned wrongly. He was so delighted that anyone cared about the bridge that he forgot to be shy, and he spread out a faded drawing of its builder, Josiah Calder, a stern man with a magnificent moustache. Calder, he said, had been the finest engineer that Harrowby had ever produced, and the most mysterious.",
+      "Josiah Calder, Tobias explained, had adored puzzles all his life, and the town had a very old story that he had left a gift to the people of Harrowby when he died, hidden where only a clever person could find it. Most historians dismissed it as a legend, because nobody had ever found a scrap of evidence, but Tobias had never quite managed to stop believing it. Ines, thinking of the twelve plates under the bridge, felt the hair prickle on the back of her neck.",
+      "The museum's director, Dr Sylvia Ashe, swept in with a tray of tea and a smile of such generous warmth that Ines instantly liked her. She was a handsome woman of about fifty-five in a green jacket, with silver bracelets that jingled when she poured, and she declared that anything that gave the museum a mystery was to be encouraged. Whatever help the two of them needed, she said, they had only to ask.",
+      "That afternoon Councillor Holt telephoned her in the small rented office she had been given, and his voice was as smooth as warm butter. The report, he reminded her, was due on Friday, and the council, he added, was famous for its generosity to consultants who understood what it wished to read. Ines thanked him in a tone so level that it would have cut glass, and put the telephone down, resolving to find out why he wanted that bridge closed.",
+      "That evening Ines and Tobias laid the twelve photographs side by side across a table in the museum workroom and attacked the lines of letters with pencils and every scrap of ingenuity they possessed. They shifted each letter forward by one place, then by two, then by three, and so on through the whole alphabet, but every attempt produced only a heap of gibberish. It was well past midnight before Tobias slumped back and admitted that the engineer had been cleverer than both of them.",
+      "Next morning Tobias came running into the workroom with Josiah Calder's battered pocket notebook, waving it like a flag. In one margin, so small that it was nearly invisible, the engineer had scribbled a line telling the reader that a clever man would always count by the year. They stared at it in silence, and then both of them looked down at the date carved beside the plates.",
+      "Ines seized a pencil and wrote the digits of the year, one, eight, six, eight, in a repeating row above the first line of letters, and then shifted each letter forward by its own number in turn. For a moment the paper gave her only nonsense, but then the first five letters fell into place with a click, spelling the plain word WHERE. She looked up at Tobias, and he was laughing aloud like a boy.",
+      "By lunchtime the whole message lay before them in neat pencilled capitals, and they read it aloud together in the hushed voices of people reading something holy. Where the river wears a crown, it said, look down, and the words had the unmistakable ring of a riddle composed by a man who enjoyed it enormously. Tobias said that he had waited his entire life to see those words, and for a moment he could not go on.",
+      "What, they wondered, could it mean for a river to wear a crown? Tobias suggested a weir whose foaming edge might resemble a coronet, or perhaps a waterfall, while Ines pointed out that the Wend had a dozen features that a poetic engineer might have described in that way. They argued happily until sunset, and neither of them could choose between the candidates.",
+      "Next morning, while rummaging in a box of forgotten prints, Tobias found a photograph of Crown Mill, which had stood on the Wend half a mile above the bridge in the eighteen-sixties. Over the great water wheel, carved in pale stone, sat a small crown, and the river passed directly beneath it. The mill had been derelict for fifty years, he added, and the land around it now belonged to a company owned by Councillor Holt.",
+      "Ines and Tobias reached Crown Mill at dusk, when the old stone walls were turning from grey to violet and the river muttered behind them. A tall fence surrounded the ruin, hung with warning signs, and the padlock on the gate was bright and new, while in the soft mud beside it lay the unmistakable prints of large boots. Someone else, Ines thought with a chill, had been interested in the mill very recently.",
+      "Fences, however, had never stopped an engineer for long, and Ines soon discovered an old sluice tunnel, once used to carry the water to the mill wheel, that ran under the wall at the river's edge. She went first on hands and knees through the cold dripping dark, with Tobias puffing behind her and holding the torch in his teeth, and after thirty yards the tunnel opened into a great stone pit. The wheel loomed overhead, black and still as the skeleton of a giant.",
+      "Directly beneath the stone crown, where the water would have fallen in the old days, Ines swept her torch across the wall of the pit and caught her breath. A single block of stone, smoothed by a century of damp, had been carved with another band of strange letters, even more tightly packed than those on the plates. She photographed them one by one, with fingers that would hardly obey her.",
+      "Footsteps crunched overhead, and a torch beam came sweeping down into the pit, passing within inches of the place where Ines and Tobias crouched, scarcely breathing, in the cold shallow water. A man's voice grumbled something about rats, and they recognised, from the way he spat into the river, the large boots that had made the prints at the gate. At last the light moved away, and they let out their breath.",
+      "They wriggled back through the sluice, climbed out into the damp night and ran across a ploughed field toward the lights of the town, soaked to the skin and giddy with fear and triumph. Ines clutched her phone to her chest the whole way, for it held the only copy of the second message, and she wondered who in Harrowby had a reason to guard a ruined mill. She was no closer to an answer, but she was beginning to suspect that Holt would know.",
+      "At the hotel, Ines found her door standing very slightly open, and inside, every drawer had been pulled out and her bags had been emptied across the carpet. Her laptop had vanished, and with it her survey notes, but the photographs of the plates and the mill stone were safe on Tobias's computer, thanks to his careful habit of copying everything twice. Someone, she told herself firmly, was getting nervous.",
+      "Next morning Dr Sylvia Ashe telephoned the workroom in a flutter of concern, having heard of the break-in at Ines's hotel, and begged them to leave the whole business to the police before somebody was hurt. Her voice trembled just the right amount, and Tobias thanked her warmly for her kindness. Ines, listening to it from the other side of the room, found herself wondering how the director had learned about the break-in so quickly.",
+      "On Thursday morning Councillor Holt strolled out onto the bridge, where Ines was examining a bolt, and informed her pleasantly that her contract would be cancelled by the end of the day unless she produced the report he had requested. He spoke as quietly as if he were commenting on the weather, but his eyes, fixed on her face, were not pleasant at all. Ines said that her report would say exactly what her measurements said, and that he was welcome to read it when it was done.",
+      "Holt drew an envelope from his pocket, handed it to her without a word and walked away along the bridge, and when she tore it open she found that it dismissed her with immediate effect. A notice pinned to the end of the parapet declared that the bridge would close for safety reasons on Saturday morning, which gave her barely two days. Ines folded the letter, put it away like a receipt, and promised herself that she would find whatever Calder had hidden before the barriers went up.",
+      "The second message, Ines had observed, needed a key word rather than a number, and Tobias reasoned that a man who loved puzzles and loved his family would choose the name of someone dear to him. He spent the morning in the parish register at Saint Aldric's, running his finger down the faded baptisms of the eighteen-sixties, until the name of Josiah Calder's only daughter leaped out at him: Ada. He copied it onto a card, and said nothing to anyone.",
+      "Using the name Ada as a repeating key, Ines shifted the letters of the mill stone one at a time, and the second message rose out of the gibberish as a photograph rises in a tray of developer. THE BELL KEEPS THE KEY, it said, and nothing more, but it was enough to send a shiver of pleasure right through her. Calder, she thought, had been the sort of man who would not waste a single letter.",
+      "Tobias knew at once which bell was meant, for there was only one in Harrowby that could possibly have a link with the engineer. The great bell in the tower of Saint Aldric's chapel had been cast in 1868, the very year the bridge was opened, and Calder, by the parish records, had been among the men who had paid for it. They would climb the tower the next morning, they agreed, as soon as the chapel opened.",
+      "That evening Dr Ashe came in with a plate of biscuits and a bright, easy smile, and remarked, as she set it down, “So Ada was the keyword, then?” Tobias went very still, for he had written the name on a card that had never left his pocket, and neither he nor Ines had spoken it to a living soul. Ines caught his eye across the table and saw that he had understood the same thing.",
+      "To be certain, they decided to set a trap, and next morning Ines mentioned to Dr Ashe, with an air of careless confidence, that they had deciphered the second message and that the key must lie in the old coal store beneath the museum. Tobias examined his shoes while she spoke, and the director thanked them both warmly, said how thrilled she was and hurried away with remarkable speed. It was a lie of the cleanest, simplest kind, and they waited to see what it would do.",
+      "The next morning they found the cellar door hanging from its hinges and the old coal store torn apart, every box overturned and every corner raked. In the black dust on the floor lay a single enormous boot print, which Ines compared with the photograph she had taken at the mill gate and found to be identical. The trap had worked, and with that discovery the last of their doubts about Dr Ashe vanished.",
+      "At Saint Aldric's they were met by Amos Pell, the chapel's ancient bell-ringer, who looked at them from under a woolly hat with the shrewd twinkle of a man who has seen a great deal. Nobody had asked to climb his tower for twenty years, he said, and he led them up a spiral stair so worn that every step held a small pool of daylight. He did not ask what they were looking for, and Ines suspected that he already knew.",
+      "Ines ran her fingers along the heavy oak frame from which the bell was hung and found, under the lip of the main beam, a narrow hollow, shaped as neatly as a drawer. Inside lay a small bundle wrapped in oilcloth, hardened with age, and when she unwrapped it with careful fingers, a small iron key fell into her palm, as cold as a coin. Behind her Tobias gave a long, soft whistle.",
+      "On the broad head of the key was stamped a tiny, exquisite picture of the bridge, and beneath it, in Roman numerals, the figure XII. Ines turned it over once in the light from the louvres and then stood perfectly still, because the number had connected itself in her mind with something she had seen. Twelve, she said aloud, and her voice was hardly more than a whisper.",
+      "In a flash she saw it again, the twelfth plate in the damp chamber under the bridge, with its dark slot buried beneath layers of paint, a keyhole that she had taken for a flaw in the casting. Whatever Calder had hidden had been under her very feet since the morning she arrived in Harrowby, patiently waiting for a key and for a person who could read a riddle. She began to laugh, and the bell hummed softly with the echo.",
+      "Outside in the thin sunshine two people were waiting at the chapel gate, and one of them was Dr Sylvia Ashe, no longer smiling, while the other was a vast man in a donkey jacket with the largest boots that Ines had ever seen. His name, she would learn later, was Dale Kane, and he worked for Councillor Holt in the kind of capacity that does not appear on any payroll. Dr Ashe held out her hand, and said in a voice of steel that she would take the key, please.",
+      "Ines sighed as if beaten, reached into her coat and handed over an old iron key, black with age and stamped with nothing at all. It was a spare that she had borrowed that morning from Amos Pell's board, on a hunch that something of the kind might happen, while the true key lay in the bottom of Tobias's sandwich tin under a cheese roll. Dale Kane took the decoy without a flicker of suspicion, and Dr Ashe closed her fingers around it with a thin smile.",
+      "The moment the car had disappeared down the hill, Ines took out her phone and rang the mayor, Alma Dunn, whom she had met briefly at the town hall and who had struck her as an honest woman, and then the local constable, Nina Brook. She asked each of them to come to the bridge at noon, and to bring as many witnesses as they could gather, explaining only that the history of Harrowby was about to be made. Both of them, to her relief, said that they would come.",
+      "Meanwhile, in the damp chamber beneath the bridge, Councillor Holt, Dr Ashe and Dale Kane crowded together around the twelfth plate, scraping away the paint over its slot with a pocket knife. Holt pushed the rusty key into the opening with trembling fingers and wrenched it left and right, but the lock did not so much as shiver, and he cursed in a voice that echoed ungracefully along the iron walls. Someone, he snarled, had played a very clever trick, and he had a good idea who.",
+      "At noon a crowd gathered at the foot of the bridge, larger than Ines had dared to hope, for the news that something interesting was about to happen had run through Harrowby like a flame through dry grass. At the front stood the mayor, Alma Dunn, in her chain of office, with Constable Nina Brook beside her, and Councillor Holt climbed out of the hatch with an expression that he tried and failed to make look relaxed. Dr Ashe slipped quietly to the back, where nobody could see her face.",
+      "Ines led the way down through the iron hatch, with Tobias at her heels and the mayor and the constable following, and a hush fell as the torchlight revealed the twelve plates in their neat row. The air smelled of old iron and river water, and the walls seemed to lean inward as though the bridge itself were holding its breath. Alma Dunn laid a hand on the cold metal and murmured that she had crossed this bridge ten thousand times without ever suspecting what lay beneath her feet.",
+      "From the depths of the sandwich tin Tobias produced the true key with an apologetic glance at his crumpled roll, and Ines gently scraped the last flakes of paint from the keyhole with her thumbnail. The key slid into the slot as smoothly as a word into its sentence, and when she turned it the whole plate responded with a single deep, satisfying click, like the closing of a very old book. Nobody in the little chamber was breathing.",
+      "The twelfth plate swung slowly open on hinges that had not moved for a century and a half, revealing a dry, narrow hollow cut into the heart of the pier. Within it, protected from damp by a skilful lining of lead, sat a small iron box painted the same faded green as the bridge, its corners still sharp and its lid still tight. Tobias made a sound that was half a laugh and half a sob.",
+      "Inside the box lay two things, a letter in brown ink in Josiah Calder's confident hand and a folded sheet of thick parchment bearing a heavy red seal at its foot. Tobias, who had dreamed of precisely this moment ever since he was a schoolboy, lifted them out with a reverence that made everyone else stand a little straighter. The mayor bent over his shoulder, and nobody noticed that the constable had taken off her cap.",
+      "Alma Dunn climbed out of the hatch with the letter in her hands and read it aloud to the waiting crowd, in a voice that shook a little at the beginning and grew steadier as she went. In plain, dignified language Josiah Calder declared that he gave the riverside meadows and the bridge itself to the people of Harrowby for ever, in trust, so that no council and no private person might ever sell them. When she finished, there was a long silence, and then a roar went up that rattled the iron beneath their feet.",
+      "The sealed parchment, the mayor explained, was a legal deed of trust, and she could see even on a first reading that it placed the riverside meadows beyond the reach of any sale. Holt's scheme to sell the land to builders, which had depended upon the deed having been lost, was therefore impossible, because the land had never belonged to the council in the first place. It would be for the lawyers to confirm, she added, but she did not think they would find a flaw.",
+      "Dr Sylvia Ashe, her silver bracelets dull and silent, came to Tobias that afternoon with tears running down her powdered cheeks and confessed everything. She had borrowed a large sum from Councillor Holt years before and could not repay it, she said, and in return she had told him all that happened in the museum, including the cipher, the keyword and the plan to search the mill. Tobias, who was fond of her in spite of everything, accepted her resignation sorrowfully and without anger.",
+      "Constable Nina Brook stopped the vast figure of Dale Kane on the steps of the town hall that evening and arrested him for the break-ins at the hotel, the mill and the museum, a task she carried out with great politeness. Councillor Holt, faced next morning with a list of awkward questions about the false safety report he had tried to buy, resigned from the council by letter, and was not seen in Harrowby again. The town, it was widely agreed, bore his departure with fortitude.",
+      "Seated at a table in the museum workroom with a mug of tea going cold at her elbow, Ines wrote the report that she had been hired to produce, and every word of it was the truth. The bridge, she concluded, was in excellent condition, its ironwork sound and its foundations firm, and with sensible care it should carry the people of Harrowby for another hundred years. It was, she reflected, the happiest conclusion she had ever signed.",
+      "The bridge remained open, and within a month the museum had mounted a splendid exhibition of Calder's letter, his notebook and photographs of the twelve plates, with Tobias beaming proudly at the door. On the following Sunday the whole town crossed the green iron arches to a festival on the riverside meadows, with a brass band, a tea tent and children racing through the long grass. For the first time in a hundred and fifty years, everyone in Harrowby understood what Calder had given them.",
+      "At sunset Ines and Tobias stood together at the railing of the green bridge, watching the Wend turn to gold beneath them. She had another job waiting in another town, she told him, but she did not think that she would ever pass a bridge again without thinking of this one, and he asked her, rather shyly, whether she might come back one day to see how it was keeping. She said that she would, and as the lamps came on along the arches, she found that she meant it."
+    ]
+  }
+}
