@@ -21,6 +21,8 @@ def books():
         f = os.path.join(ROOT, "lib/preview/books", slug, "en.json")
         if os.path.exists(f):
             chapters = json.load(open(f)).get("meta", {}).get("chapters", []) or []
+        if not chapters:
+            continue  # only the full-length books (with named chapters) are translated; the short 50-page ones wait
         out.append((slug, b["title"], b["blurb"], [c if isinstance(c, str) else c.get("title", "") for c in chapters]))
     return out
 
