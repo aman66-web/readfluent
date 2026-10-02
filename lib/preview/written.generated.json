@@ -7581,6 +7581,43 @@
   }
  },
  {
+  "slug": "the-sleeper-awakes",
+  "title": "The Sleeper Awakes",
+  "author": "H. G. Wells",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "A tired man falls asleep in 1897 and wakes in 2100 to learn that he owns half the world. Everyone cheers his name, but a clever friend has plans of his own. Can the Sleeper save the people who trust him?",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Sleeper",
+    "Awakes"
+   ],
+   "size": 15.5,
+   "author": "H. G. WELLS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "self-help",
   "title": "Self-Help",
   "author": "Samuel Smiles",
@@ -7950,6 +7987,45 @@
   }
  },
  {
+  "slug": "the-decline-and-fall-of-the-roman-empire",
+  "title": "The Decline and Fall of the Roman Empire",
+  "author": "Edward Gibbon",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "How did the greatest empire in the world fall apart? In 1764 a young Englishman sat among the ruins of Rome and began to ask. Edward Gibbon's six great volumes follow the story for more than a thousand years, retold here in fifty steps.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The Decline",
+    "and Fall of",
+    "the Roman",
+    "Empire"
+   ],
+   "size": 13.5,
+   "author": "EDWARD GIBBON",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "castle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "scroll",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "common-sense",
   "title": "Common Sense",
   "author": "Thomas Paine",
@@ -8055,6 +8131,44 @@
     },
     {
      "id": "lens",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-secret-life-of-the-ocean",
+  "title": "The Secret Life of the Ocean",
+  "author": "The Blue Planet",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Sink from the bright surface to the darkest trench and meet the animals that glow, hunt and wander there. This is a journey through the largest living space on Earth, and a look at why it needs our care.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "The Secret",
+    "Life of the",
+    "Ocean"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "whale",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "waves",
      "x": 160,
      "y": 38,
      "s": 0.36
