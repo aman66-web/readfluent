@@ -5395,6 +5395,43 @@
   }
  },
  {
+  "slug": "work-hard-rest-well",
+  "title": "Work Hard, Rest Well",
+  "author": "Peak Performance",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Why do some people grow stronger and sharper while others burn out? This short guide shows how effort and recovery work together, from muscles and sleep to breaks, weekends and the habits that keep you going.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Work Hard,",
+    "Rest Well"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "leaf",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-histories",
   "title": "The Histories",
   "author": "Herodotus",
@@ -6760,6 +6797,44 @@
     },
     {
      "id": "orbit",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "ten-questions-about-the-universe",
+  "title": "Ten Questions About the Universe",
+  "author": "Brief Answers to the Big Questions",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Ten questions a curious child might ask, with honest answers: how big the universe is, how it began, what it is made of, how it ends, what time is, and whether we are alone. What science knows, and what it cannot yet say.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Ten Questions",
+    "About the",
+    "Universe"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "question",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
      "x": 160,
      "y": 38,
      "s": 0.36

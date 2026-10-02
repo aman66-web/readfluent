@@ -1,0 +1,417 @@
+{
+ "slug": "how-maps-shape-power",
+ "meta": {
+  "blurb": "Who decides where the lines go, and what the world looks like on paper? From a clay map in Babylon to the blue dot on your phone, discover how rivers, mountains, borders and mapmakers have shaped who holds power.",
+  "bible": "This book explains how geography and maps shape power, with real examples; geography is never destiny and the book says so. Babylon: a clay map of the world more than 2,500 years old, in Cuneiform. Ptolemy: scholar in Alexandria who around the year 150 listed places by latitude and longitude; his book reached Europe in Latin in the early 1400s. Jerusalem: put at the centre of many medieval European maps. Zhongguo: Chinese name for China, often translated as Middle Kingdom. Gerardus Mercator: Flemish mapmaker, world map of 1569, Greenland looks as big as Africa though Africa is about fourteen times larger. Switzerland: mountains helped it stay out of wars. Hannibal: crossed the Alps in 218 BC. Khyber Pass: between Afghanistan and Pakistan. Nile: Egypt's life line; Ethiopia's dam on the Blue Nile, Sudan; talks continue. English Channel: about thirty-three kilometres at its narrowest; Spanish Armada failed in 1588. Strait of Hormuz and Strait of Malacca: chokepoints. Suez Canal: opened 1869; Panama Canal: opened 1914; Ever Given: ran aground in the Suez Canal in March 2021 for about six days. Mongols and Genghis Khan: the steppe. Mesopotamia: Tigris and Euphrates. Berlin Conference: 1884 and 1885, fourteen countries, no African ruler present; Ethiopia and Liberia stayed independent. Organization of African Unity: agreed in 1964 to keep inherited borders. Treaty of Tordesillas: 1494, Spain and Portugal, Brazil. Sykes-Picot: secret agreement of 1916 between Britain and France, Mark Sykes and Georges-Picot. Cyril Radcliffe: British lawyer, border of India and Pakistan in 1947, about five weeks, announced 17 August, deaths estimated from about two hundred thousand to two million. Sea of Japan and East Sea. Ordnance Survey: began 1791. Great Trigonometrical Survey: Mount Everest named in 1865, Chomolungma. Soviet Union: deliberately distorted public maps. John Snow: Soho, Broad Street, cholera, 1854. Home Owners' Loan Corporation: 1930s maps, Redlining. Elbridge Gerry: Massachusetts 1812, Gerrymander. Marshall Islands: stick charts; Songlines of Aboriginal Australians. GPS: Global Positioning System, American military, 1970s, working fully by 1995. OpenStreetMap: begun 2004 by Steve Coast; Haiti earthquake in January 2010, Port-au-Prince. Sea level: about twenty centimetres higher since 1900. Arctic: shrinking summer ice. Singapore: independent in 1965, Malaysia. Japan. Key words: Projection, Equator, Chokepoint, Canal, Strait, Colonial, Latitude, Longitude, Dam, Delta, Survey, Atlas. Voice: curious, vivid and fair; no invented numbers, quotes or studies."
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "A hand draws a coastline on blank paper with a pencil",
+   "summary": "A map cannot show everything, so its maker chooses what to include and what to leave out."
+  },
+  {
+   "n": 2,
+   "scene": "A clay tablet with a circle, lines and wedge writing sits in a museum case",
+   "summary": "One of the oldest world maps, from Babylon, is more than 2,500 years old."
+  },
+  {
+   "n": 3,
+   "scene": "A scholar in ancient Alexandria draws grid lines on a large map",
+   "summary": "Around the year 150, Ptolemy lists thousands of places by latitude and longitude, and his method shapes later maps."
+  },
+  {
+   "n": 4,
+   "scene": "A round medieval map with Jerusalem at its centre hangs on a monastery wall",
+   "summary": "Many cultures drew the world around themselves, putting Jerusalem or China at the centre."
+  },
+  {
+   "n": 5,
+   "scene": "A globe stands beside a flat map with strings stretched between them",
+   "summary": "A round Earth cannot be flattened without stretching, so every flat map distorts something."
+  },
+  {
+   "n": 6,
+   "scene": "A sailor draws straight compass lines across a large world map in 1569",
+   "summary": "Mercator's 1569 map helps sailors but stretches lands far from the equator."
+  },
+  {
+   "n": 7,
+   "scene": "A child compares two world maps, one with a huge Greenland and one with a small one",
+   "summary": "Familiar maps shape what we believe about size; other maps keep size but bend shape, so none is neutral."
+  },
+  {
+   "n": 8,
+   "scene": "A mapmaker's pencil hovers over a desk with a ruler, a compass and a royal seal",
+   "summary": "A map is an argument made by someone for a purpose, so ask who made it and why."
+  },
+  {
+   "n": 9,
+   "scene": "A mountain range with a narrow pass and a single watchtower",
+   "summary": "Mountains are natural walls that protect, as in Switzerland, though bold armies like Hannibal's can cross."
+  },
+  {
+   "n": 10,
+   "scene": "A line of loaded mules climbs a narrow mountain pass",
+   "summary": "A pass through the mountains is valuable; the Khyber Pass has been used for centuries."
+  },
+  {
+   "n": 11,
+   "scene": "A green valley winds through a vast brown desert, with boats on a river",
+   "summary": "Egypt is mostly desert, and the Nile gives it fertile farmland."
+  },
+  {
+   "n": 12,
+   "scene": "A huge concrete dam stands across a river as people watch from downstream",
+   "summary": "Rivers cross borders, so upstream dams worry downstream countries; Ethiopia's dam on the Blue Nile is an example."
+  },
+  {
+   "n": 13,
+   "scene": "Tall wooden warships with sails stand off a chalk coast in the English Channel",
+   "summary": "A narrow sea can be a wall: the English Channel and the failed Spanish Armada of 1588."
+  },
+  {
+   "n": 14,
+   "scene": "A cargo ship passes through a narrow strait between two rocky coasts",
+   "summary": "A chokepoint is a narrow passage many ships must use, so whoever can threaten it gains influence."
+  },
+  {
+   "n": 15,
+   "scene": "A ship sails along a straight canal cut through yellow desert sand",
+   "summary": "The Suez Canal of 1869 and the Panama Canal of 1914 shorten the world's sea routes by thousands of kilometres."
+  },
+  {
+   "n": 16,
+   "scene": "A huge container ship lies wedged crosswise in a canal with small diggers beside it",
+   "summary": "In March 2021 the Ever Given blocks the Suez Canal for about six days, showing how trade depends on narrow places."
+  },
+  {
+   "n": 17,
+   "scene": "Horse riders gallop across an endless grassy plain under a wide sky",
+   "summary": "The open steppe was a highway for horse riders, and the Mongols built a huge land empire."
+  },
+  {
+   "n": 18,
+   "scene": "Early farmers harvest grain beside a river in a flat green valley",
+   "summary": "Rich farmland feeds many people, and the first cities rose in the river valleys of Mesopotamia."
+  },
+  {
+   "n": 19,
+   "scene": "A coal mine, an iron foundry and a canal side by side in a smoky valley",
+   "summary": "Coal and iron close together and near the coast helped Britain lead the Industrial Revolution."
+  },
+  {
+   "n": 20,
+   "scene": "A surveyor draws a straight pencil line across a map of empty land",
+   "summary": "A border is a line people agree on, not something visible on the ground, and some are straight lines drawn far away."
+  },
+  {
+   "n": 21,
+   "scene": "Men in dark suits sit around a table with a large map of Africa in 1884",
+   "summary": "At the Berlin Conference of 1884 and 1885, fourteen countries agree rules for claiming African land without any African ruler present."
+  },
+  {
+   "n": 22,
+   "scene": "Farmers stand beside a straight boundary post that cuts across their fields",
+   "summary": "Many African borders split peoples, but in 1964 African leaders chose to keep them to avoid wars."
+  },
+  {
+   "n": 23,
+   "scene": "Two kings in long robes point at a line drawn down the middle of a globe",
+   "summary": "In 1494 the Treaty of Tordesillas divides new lands between Spain and Portugal along a line on a map."
+  },
+  {
+   "n": 24,
+   "scene": "Two diplomats draw a line in pencil across a map of the Middle East",
+   "summary": "In 1916 Britain and France secretly agree how to divide Ottoman lands; borders later differ."
+  },
+  {
+   "n": 25,
+   "scene": "A lawyer in a dark suit bends over a map at a desk in a hot office",
+   "summary": "In 1947 Cyril Radcliffe, who had never visited India, has about five weeks to draw the border between India and Pakistan."
+  },
+  {
+   "n": 26,
+   "scene": "Long lines of families with bundles walk along a dusty road with their animals",
+   "summary": "Millions cross the new border and many die in the violence, with estimates from 200,000 to two million."
+  },
+  {
+   "n": 27,
+   "scene": "A sailor's chart with two different names written for the same sea",
+   "summary": "Place names are claims: Japan and Korea use different names for the same sea."
+  },
+  {
+   "n": 28,
+   "scene": "Soldiers survey a hillside with a measuring chain and a brass instrument",
+   "summary": "Britain's Ordnance Survey began in 1791 as a military project to map the south coast."
+  },
+  {
+   "n": 29,
+   "scene": "Surveyors with tall instruments measure a distant snowy peak in the Himalayas",
+   "summary": "British surveyors in India measure the Himalayas; Peak XV is named Mount Everest in 1865."
+  },
+  {
+   "n": 30,
+   "scene": "A government officer in a plain office blacks out a section of a map",
+   "summary": "Governments treat accurate maps as secrets, and the Soviet Union published deliberately distorted public maps."
+  },
+  {
+   "n": 31,
+   "scene": "A doctor marks small black bars on a street map around a water pump",
+   "summary": "In 1854 John Snow maps cholera deaths in Soho, which cluster around one pump."
+  },
+  {
+   "n": 32,
+   "scene": "A 1930s city map shaded in colours by neighbourhood while an official points",
+   "summary": "In the 1930s US government maps grade neighbourhoods by lending risk, which became known as redlining."
+  },
+  {
+   "n": 33,
+   "scene": "An odd twisting district on a map of Massachusetts looks like a lizard",
+   "summary": "Voting districts can be drawn to help one party; in 1812 a strange district gave us the word gerrymander."
+  },
+  {
+   "n": 34,
+   "scene": "A navigator holds a woven frame of palm ribs with small shells tied on",
+   "summary": "Marshall Islands stick charts and Aboriginal songlines are other ways to map the world."
+  },
+  {
+   "n": 35,
+   "scene": "A satellite circles the Earth above a glowing blue planet",
+   "summary": "GPS began as an American military system in the 1970s and was working fully by 1995."
+  },
+  {
+   "n": 36,
+   "scene": "A phone in a hand shows a blue dot on a street map",
+   "summary": "Phone maps are made by companies that decide which places, names and businesses to show."
+  },
+  {
+   "n": 37,
+   "scene": "Volunteers at laptops trace streets onto a shared map from satellite views",
+   "summary": "OpenStreetMap, begun in 2004, lets volunteers build a free open map, used after the 2010 Haiti earthquake."
+  },
+  {
+   "n": 38,
+   "scene": "Waves lap at the doorsteps of houses on a low island at high tide",
+   "summary": "Sea level has risen about twenty centimetres since 1900, so coastlines on maps will change."
+  },
+  {
+   "n": 39,
+   "scene": "A ship pushes through broken ice in a pale blue northern sea",
+   "summary": "Arctic ice is shrinking, so new sea routes may open and countries argue over claims."
+  },
+  {
+   "n": 40,
+   "scene": "A busy harbour on a small island with skyscrapers behind it",
+   "summary": "Singapore, a tiny island with few resources, became rich after 1965, so geography is not destiny."
+  },
+  {
+   "n": 41,
+   "scene": "A train, a ship and a jet cross a map in different directions",
+   "summary": "Technology changes what distance means and which places matter."
+  },
+  {
+   "n": 42,
+   "scene": "A factory hall on a mountainous island with robots and stacked shipping crates",
+   "summary": "Japan has few resources yet became a great manufacturing nation through skills and trade."
+  },
+  {
+   "n": 43,
+   "scene": "Two neighbouring valleys under the same mountains, one green and busy, one quiet",
+   "summary": "The same land can lead to different outcomes, because laws, ideas, leaders and luck matter."
+  },
+  {
+   "n": 44,
+   "scene": "A traveller reads a folded map and asks a guide a question",
+   "summary": "First question for any map: who made it, for whom, and for what purpose?"
+  },
+  {
+   "n": 45,
+   "scene": "A finger points at the scale bar and the compass on the edge of a map",
+   "summary": "Check what is placed at the centre and how the scale and projection change sizes."
+  },
+  {
+   "n": 46,
+   "scene": "A finger traces a border line and a place name on a map",
+   "summary": "Check the borders and names, and ask who agrees with them."
+  },
+  {
+   "n": 47,
+   "scene": "A date printed in the corner of an old map beside a faded coastline",
+   "summary": "Check the date, because countries, cities, coasts and rivers change."
+  },
+  {
+   "n": 48,
+   "scene": "A blank patch on a map beside a village drawn only at its edge",
+   "summary": "Look for what the map leaves out, such as people, languages and histories."
+  },
+  {
+   "n": 49,
+   "scene": "A reader spreads three different maps of one region across a table",
+   "summary": "Reading several maps of one place and comparing them is better than trusting one."
+  },
+  {
+   "n": 50,
+   "scene": "A traveller stands on a hill with a map in hand, looking at the real land",
+   "summary": "Maps help us see the world but also choose what we notice, so read them with care."
+  }
+ ],
+ "levels": {
+  "A1A2": [
+   "A map cannot show everything, so its maker must choose what to show.",
+   "One of the oldest world maps is on a clay tablet from Babylon.",
+   "Around the year 150, a Greek scholar named Ptolemy gave places numbers.",
+   "Many old maps put the mapmaker's own land in the middle.",
+   "The Earth is round and paper is flat, so every map gets something wrong.",
+   "In 1569, Mercator made a map that helped sailors find their way.",
+   "On this map, Europe and North America look bigger than they really are.",
+   "A map is made by a person, who wants you to see something.",
+   "High mountains can protect a country, but they can also divide it.",
+   "Where there is a pass through the mountains, everyone wants it.",
+   "Egypt is mostly desert, but the Nile gives it rich farmland.",
+   "A river does not stop at a border, so countries must share it.",
+   "A narrow sea can keep out an enemy army, but not always.",
+   "Some narrow seas are like doors that ships must use.",
+   "In 1869, a new canal made the sea trip between Europe and Asia shorter.",
+   "In 2021, one big ship got stuck and blocked the Suez Canal.",
+   "Wide grass plains were good roads for people on fast horses.",
+   "Rich farmland can feed many people, and many people can build cities.",
+   "Coal and iron helped Britain to become rich in the 1800s.",
+   "A border is a line on a map, not a line on the land.",
+   "In 1884, European leaders met in Berlin to talk about Africa.",
+   "Many African borders cut through homelands, but most stayed after independence.",
+   "In 1494, Spain and Portugal drew a line on a map to share new lands.",
+   "In 1916, Britain and France made a secret plan for the Middle East.",
+   "In 1947, a lawyer had five weeks to draw a new border.",
+   "Millions of people had to move, and many were hurt or killed.",
+   "One sea can have two names, and each name is a claim.",
+   "In 1791, Britain began to map its land, because it feared a war.",
+   "In the 1800s, British workers measured the highest mountain in the world.",
+   "Some governments keep maps secret, or even change them on purpose.",
+   "In 1854, a doctor used a map to find where an illness began.",
+   "In the 1930s, US officials coloured maps to show which streets were risky.",
+   "A voting area can be drawn to help one group win.",
+   "Not all maps are drawn on paper, and some are even sung.",
+   "Today, satellites in space tell your phone exactly where you are.",
+   "Your phone shows where you are, but a company made the map.",
+   "In 2004, people began to make a free map that anyone can fix.",
+   "As the sea rises, the edges of the land are changing.",
+   "Ice is melting in the far north, and new sea roads may open.",
+   "Geography matters a lot, but it does not decide everything.",
+   "Trains, ships and planes make faraway places seem closer.",
+   "Japan has few resources, but it built a strong industry.",
+   "The same land can lead to different lives, because people choose.",
+   "When you see a map, ask who made it and why.",
+   "Look at the middle of the map, and look at the scale.",
+   "Look at the borders and the names, and ask who agrees.",
+   "Check the date, because the world changes and old maps get old.",
+   "Look for what the map leaves out, such as people and places.",
+   "The best way is to read many maps and compare them.",
+   "Maps help us see the world, and they also choose what we see."
+  ],
+  "B1B2": [
+   "A map cannot show everything, so the person who makes it must choose what to include and what to leave out. Those choices decide what the reader sees, and what the reader never notices.",
+   "One of the oldest known world maps was scratched onto a clay tablet in Babylon, more than 2,500 years ago. It shows Babylon in the middle, with a ring of water around the edge of the world.",
+   "Around the year 150, a scholar named Ptolemy worked in Alexandria and listed thousands of places by their latitude and longitude. His book was copied for centuries, and it taught later mapmakers to place the world on a grid.",
+   "Many medieval European maps put Jerusalem at the centre, because it was the holiest city for Christians. Chinese maps often showed China in the middle, and the Chinese name for China means Middle Kingdom.",
+   "The Earth is round, but a map is flat, and a round surface cannot be flattened without stretching it. So every map has to distort something, such as sizes, shapes, distances or directions.",
+   "In 1569, the mapmaker Gerardus Mercator drew a world map on which any straight line follows one steady compass direction. This was a gift to sailors, but it meant stretching the lands that lie far from the equator.",
+   "Because Mercator's map is so common, many people picture Europe and North America as larger than they really are. Other maps keep sizes true but bend shapes instead, so no flat map can be called neutral.",
+   "A map is an argument as well as a picture of the land. Whoever pays for it, draws it or prints it usually wants the reader to see something in particular.",
+   "High mountains are natural walls that make it hard for armies, traders and even ideas to cross. Switzerland, which is full of mountains, has stayed out of most wars for centuries, and its geography has helped it to do so.",
+   "Mountains matter most where people can get through them, so a pass is a valuable thing. The Khyber Pass, between what are now Afghanistan and Pakistan, has been used by traders and armies for many centuries.",
+   "Most of Egypt is desert, but the Nile river runs through it like a green ribbon. Nearly all Egyptians live close to the river, because only there is there enough water to grow food.",
+   "A river does not stop at a border, so countries along it must share its water. Ethiopia built a very large dam on the Blue Nile, and Egypt and Sudan, further downstream, worry about their share.",
+   "A stretch of sea can act as a wall, and the English Channel, only about thirty-three kilometres wide at its narrowest, is a famous example. In 1588, a great Spanish fleet, the Armada, failed to bring an invading army across it, because of English ships and bad weather.",
+   "A chokepoint is a narrow passage that many ships must pass through, such as the Strait of Hormuz or the Strait of Malacca. A country that can threaten such a passage has great influence over trade, even if its own land is small.",
+   "The Suez Canal in Egypt opened in 1869 and joined the Mediterranean Sea to the Red Sea. Ships no longer had to sail all the way around Africa, which saved thousands of kilometres.",
+   "In March 2021, a huge container ship called the Ever Given ran aground in the Suez Canal and blocked it for about six days. Hundreds of other ships had to wait or take the long way around Africa.",
+   "A belt of open grassland, called the steppe, stretches across Asia from eastern Europe to Mongolia. Horse riders could cross it quickly, and in the 1200s the Mongols built one of the largest land empires in history.",
+   "Land that grows a lot of food can feed many people, and many people can build cities and armies. More than five thousand years ago, some of the first cities rose in the river valleys of Mesopotamia.",
+   "What lies under the ground can shape power too. In Britain, coal and iron were often found close together, and close to the sea, which helped it to lead the Industrial Revolution.",
+   "A border is a line that people have agreed on, and often it cannot be seen on the ground at all. Some follow rivers or mountains, while others are straight lines drawn by people far away.",
+   "In 1884 and 1885, representatives of fourteen countries met in Berlin to agree rules for claiming land in Africa. None of them came from Africa, and no African ruler had a say.",
+   "Many African borders were drawn by colonial officials, and some split peoples who shared one language or one homeland. When African countries became independent, however, their leaders chose to keep the borders, to avoid endless wars over new ones.",
+   "In 1494, in the Treaty of Tordesillas, Spain and Portugal agreed on a line down the Atlantic Ocean on the map. Lands to the west of it were for Spain, and lands to the east were for Portugal.",
+   "In 1916, during the First World War, Britain and France secretly agreed how they might divide lands then ruled by the Ottoman Empire. The agreement is named after two diplomats, Mark Sykes and François Georges-Picot.",
+   "In 1947, Britain left India, and the land was divided into two countries, India and Pakistan. A British lawyer named Cyril Radcliffe, who had never visited India before, was given about five weeks to draw the border.",
+   "Millions of people crossed the new border, Hindus and Sikhs in one direction and Muslims in the other, afraid to stay where they were. Violence broke out, and estimates of the dead range from about two hundred thousand to two million.",
+   "The sea between Japan and Korea is called the Sea of Japan in Japan and the East Sea in Korea. Names on maps can carry claims about history and ownership, so people sometimes argue about them for years.",
+   "Britain's national mapping agency, the Ordnance Survey, began in 1791 as a military project. Britain feared a French invasion, and the army needed accurate maps of the south coast, where an enemy might land.",
+   "In the 1800s, the British Survey of India measured the heights of the Himalayas and found that one peak was the highest on Earth. In 1865 it was named Mount Everest, after a former head of the survey, though Tibetans already called it Chomolungma.",
+   "Governments often treat accurate maps as secrets, because a good map helps an enemy. In the twentieth century, the Soviet Union is known to have published public maps with small deliberate errors.",
+   "In 1854, cholera, a deadly disease, struck the Soho area of London. A doctor named John Snow marked the deaths on a map, and they clustered around one water pump in Broad Street.",
+   "In the 1930s, US government agencies made maps that coloured city neighbourhoods by how risky they were for lending money. Areas where many Black families lived were often marked as the riskiest, which made loans harder to get.",
+   "The lines of voting districts can be drawn to help one political party win. In 1812, one oddly shaped district in Massachusetts was compared to a salamander, and the word gerrymander was born.",
+   "In the Marshall Islands, navigators once made charts from sticks and shells that showed ocean swells and the position of islands. Aboriginal Australians used songs, called songlines, to remember routes across the land.",
+   "The Global Positioning System, known as GPS, began in the 1970s as a project of the American military. It was later opened to everyone, and by 1995 a fleet of satellites could tell anyone with a receiver where they were.",
+   "When you open a map on your phone, a blue dot shows where you are. The company that made the map decides which streets, shops and names it shows, and in what order it shows them.",
+   "In 2004, a project called OpenStreetMap began, in which volunteers draw and correct a free map of the whole world. After the earthquake in Haiti in January 2010, volunteers around the world quickly mapped its capital to help rescue workers.",
+   "Since 1900, the average level of the oceans has risen by about twenty centimetres, and it is still rising. Maps of coasts, rivers and low islands will need to be redrawn, and some places may become much harder to live in.",
+   "In the far north, the sea ice of the Arctic has been shrinking, so in summer some ships can now sail along the northern coast of Russia. New routes could save time, but they also raise questions about who controls them.",
+   "Singapore is a tiny island with almost no natural resources, and much of its water has long been imported. Yet since independence in 1965, it has become one of the richest countries in the world, thanks to its busy port and its policies.",
+   "Technology keeps changing what distance means, because railways, steamships and aircraft have each made faraway places feel closer. The internet has done the same for information, so that a message crosses the world in a moment.",
+   "Japan has few natural resources and imports most of its energy. Even so, it became one of the world's great manufacturing nations, because of the skills of its people and its trade.",
+   "Two societies can live beside the same river or the same mountains and still follow very different paths. The difference lies in their laws, their ideas, their leaders and their luck.",
+   "The first question to ask of any map is who made it, and for whom. A map made to sell land, to plan a war or to guide a tourist will each show the same place differently.",
+   "Look at what has been put in the centre of the map, and at how the scale changes from one place to another. A map that places your country in the middle may make it feel more important than it is.",
+   "Look at the borders and the place names, and ask who agrees with them. Some lines are accepted by everyone, while others are disputed, and a map may show only one side of the argument.",
+   "Check the date on a map, because the world changes. Countries have appeared and disappeared, cities have grown and rivers have moved, so an old map may be wrong today.",
+   "Always look for what a map leaves out, because the empty parts can say as much as the filled ones. Many maps show roads and borders but not the people, the stories or the places that mapmakers thought unimportant.",
+   "Reading several maps of the same place is better than trusting a single one. When two maps disagree, the difference is usually where the most interesting questions begin.",
+   "Maps help us to find our way, and they show us where power sits, but they also decide what we notice. The wise reader enjoys a map, trusts it carefully, and then looks up at the real land."
+  ],
+  "C1C2": [
+   "A map cannot show everything, for if it did it would be as large and as confusing as the land itself. Its maker must therefore choose what to include and what to leave out, and those choices quietly decide what the reader sees and what the reader never thinks about. This book looks at how maps, and the land they describe, have shaped who holds power.",
+   "One of the oldest known world maps was pressed in cuneiform writing into a clay tablet in Babylon, more than two and a half thousand years ago. It shows a circle of the world with Babylon placed near the middle, a river running through it, and a ring of water around the outside. Scholars think that the maker was less interested in guiding travellers than in saying where Babylon stood in the order of things.",
+   "Around the year 150, a scholar named Ptolemy, who worked in the great Egyptian city of Alexandria, wrote a guide to making maps and listed thousands of places by their latitude and longitude. His book was copied in Greek and Arabic for more than a thousand years, and when it was translated into Latin in the early 1400s it taught European mapmakers to place the world on a grid of numbered lines. It also contained errors, such as an Earth that was too small, yet its method gave later explorers and rulers a powerful tool for measuring the world.",
+   "Many medieval European maps placed Jerusalem at the centre, because it was the holiest city of the Christian world, and they gave more space to sacred stories than to roads. Chinese maps often placed China in the middle, and the Chinese name for the country, Zhongguo, is usually translated as the Middle Kingdom. Almost every culture has drawn the world around itself, and so the centre of a map tells us what its makers thought mattered most.",
+   "The Earth is a sphere, but a map is flat, and a curved surface cannot be flattened without being stretched, torn or squeezed, as anyone who has tried to press an orange peel flat will know. Every flat map is therefore a compromise, which keeps some things true, such as direction or area or shape, and gives up others. The choice of what to keep is made by the mapmaker, and it is never neutral.",
+   "In 1569, the Flemish mapmaker Gerardus Mercator published a world map on which any straight line follows one steady compass direction, which was a priceless help to sailors in the age of ocean voyages. To achieve this, however, he had to stretch the lands that lie far from the equator more and more, the closer they were to the poles. Greenland, for instance, looks about as big as Africa on his map, although Africa is about fourteen times larger.",
+   "Because Mercator's map became so familiar, in classrooms and on screens, many people carry in their minds a picture in which Europe and North America are larger, and the countries near the equator smaller, than they truly are. Other maps keep the sizes of lands accurate but bend their shapes, and each of them gives a different impression of the world. No flat map is neutral, since every one decides which truth to protect and which to sacrifice.",
+   "A map is an argument as well as a record of the land, and like every argument it is made by someone, for someone, with a purpose. Kings paid for maps to show what they owned, merchants to show where profit lay, and armies to show where to march. A wise reader therefore asks of any map who made it, who it was meant for, and what the maker hoped the reader would believe.",
+   "High mountains are natural walls, and they make it hard for armies, traders and even ideas to cross from one side to the other. Switzerland, a country of steep valleys and snowy peaks, has stayed out of most of Europe's wars for centuries, and its geography has been one of the reasons, though careful politics has mattered as much. Mountains can also be crossed by the bold: in 218 BC, the general Hannibal led an army with war elephants over the Alps to strike at Rome's own land in Italy.",
+   "A mountain range matters most at the places where it can be crossed, which is why a narrow pass can be worth more than a whole province. The Khyber Pass, which links the lands that are now Afghanistan and Pakistan, has been used for many centuries by merchants, pilgrims, invaders and armies, and whoever has held it has been able to tax or block the traffic. The route is a reminder that power often gathers where the land funnels people together.",
+   "Most of Egypt is desert, yet the River Nile runs through it from south to north like a long green ribbon. For thousands of years, the river flooded each summer and left a layer of fertile mud, and so the farmers beside it could grow enough food to feed a large population and a powerful state. Even today, nearly all Egyptians live close to the river or its delta, because away from the water the land is too dry to farm.",
+   "A river pays no attention to borders, and countries upstream can hold back water that countries downstream depend on. Ethiopia, which has built a very large dam on the Blue Nile, one of the main sources of the great river, says that it needs the electricity, while Egypt and Sudan, further downstream, worry about the flow of water to their farms. Talks have gone on for years, and the quarrel shows how an old pattern of geography still shapes modern politics.",
+   "A stretch of sea can act as a wall, and the English Channel, only about thirty-three kilometres wide at its narrowest point, is the most famous example. In 1588, a great Spanish fleet, the Armada, set out to help carry an invading army across the water, but English ships, clever tactics and terrible storms drove it away and wrecked many of its vessels. Britain's leaders learned the lesson and built their power on the navy, since a country that holds the sea around it can often manage with a smaller army at home.",
+   "A chokepoint is a narrow passage that large numbers of ships must pass through, such as the Strait of Hormuz at the mouth of the Persian Gulf, or the Strait of Malacca between the Malay Peninsula and the island of Sumatra. A large share of the world's oil and goods travels through a few such places, so any country that can threaten them gains influence over many others. For this reason, navies have watched the world's narrow seas with special care for hundreds of years.",
+   "When the Suez Canal opened in Egypt in 1869, it joined the Mediterranean Sea to the Red Sea, and ships travelling between Europe and Asia no longer had to sail all the way around Africa. The journey became shorter by thousands of kilometres, and the country that controlled the canal, or the roads leading to it, held a key to world trade. The Panama Canal, opened in 1914, did the same for ships travelling between the Atlantic and the Pacific, saving them the long voyage around South America.",
+   "In March 2021, a container ship called the Ever Given, nearly four hundred metres long, ran aground in the Suez Canal and blocked it for about six days. Hundreds of ships queued at either end, and some chose the long voyage around Africa instead, while shops and factories around the world waited for delayed goods. It was a small accident in a narrow place, and it showed how much of the world's trade still depends on a few narrow lines on the map.",
+   "A belt of open grassland called the steppe stretches across Asia from eastern Europe to Mongolia, with few mountains or forests to slow an army down. Horse riders who grew up on it could travel enormous distances quickly, and in the 1200s the Mongols, under Genghis Khan and his successors, used that speed to build one of the largest land empires in history. For a time, the steppe was not a barrier but a highway, and it linked the farming civilisations at either end of Eurasia.",
+   "Land that grows plenty of food can support a large population, and a large population can build cities, raise armies and pay for rulers. More than five thousand years ago, some of the first cities in the world rose between the Tigris and Euphrates rivers in Mesopotamia, where flood water and fertile soil made farming rich. Good farmland, in other words, has often been the quiet foundation of great power.",
+   "What lies under the ground can shape power as much as what lies on top of it. In Britain, coal and iron ore were often found close together and not far from the sea, and this helped the country to lead the Industrial Revolution in the 1700s and 1800s. In the twentieth century, oil played a similar role, which is why regions with large deposits of it have attracted so much attention from the rest of the world.",
+   "A border is a line that people have agreed on, or that someone has forced them to accept, and it is often invisible on the ground itself. Some borders follow rivers, coasts and mountain ridges, which gives them at least some connection to the land, while others were drawn as straight lines across places that the mapmakers had never seen. Every border is a political decision before it is a geographical fact, and the people who live beside it have not always been asked.",
+   "In 1884 and 1885, representatives of fourteen countries, almost all of them European, met in Berlin to agree on the rules for claiming land in Africa. No African ruler was invited, although the lands under discussion were home to many millions of people. Within about thirty years, nearly all of the continent, apart from Ethiopia and Liberia, had been divided up among European powers.",
+   "Many African borders were drawn by colonial officials who had little knowledge of the people living there, and some of them divided communities that shared a language or a history, or joined together groups that had often been rivals. When the countries became independent, mostly between the 1950s and the 1970s, their leaders agreed in 1964, through the Organization of African Unity, to keep the inherited borders, fearing that any attempt to redraw them would lead to endless wars. The decision brought a measure of stability, yet the old lines still cause arguments and hardships in many places today.",
+   "In 1494, in the Treaty of Tordesillas, Spain and Portugal agreed to divide the newly reached lands outside Europe between them along a line drawn on a map in the middle of the Atlantic Ocean. Lands to the west were to belong to Spain and those to the east to Portugal, and since part of the coast of what is now Brazil lay on the eastern side, Portugal gained a large part of South America. The people who lived in those lands were not consulted, and other European powers, such as France and England, ignored the arrangement.",
+   "In 1916, in the middle of the First World War, Britain and France secretly agreed how they might divide the lands of the Middle East then ruled by the Ottoman Empire, marking their zones on a map. The agreement is named after the two diplomats who negotiated it, Mark Sykes and François Georges-Picot. The borders that were eventually drawn after the war were not the same as those on that map, and historians disagree about how much the secret agreement really shaped them.",
+   "In 1947, Britain withdrew from India, and the land was divided into two new countries, India and Pakistan, with Pakistan made up of two regions on either side of India. A British lawyer named Cyril Radcliffe, who had never visited India before, was given about five weeks to draw the border through Punjab and Bengal. His line, announced on 17 August, two days after independence, split provinces, districts and even villages, and many people did not know which country they lived in until it was published.",
+   "Millions of people crossed the new border in the weeks and months that followed, Hindus and Sikhs travelling in one direction and Muslims in the other, because they feared for their safety if they stayed in a place where they were now a minority. Violence broke out in many places, and estimates of the number who died range widely, from about two hundred thousand to two million. It was one of the largest movements of people in modern history, and it began with a line drawn quickly in an office, far from the people who had to live with it.",
+   "The sea between Japan and the Korean Peninsula is called the Sea of Japan by the Japanese and the East Sea by Koreans, and each side has argued for years that its name should appear on international maps. Names on maps are never just labels, because they carry claims about history, ownership and belonging. The one who gives a place its name often seems to be the one who has the right to it, and that is why mapmakers are so often drawn into quarrels.",
+   "Britain's national mapping agency, the Ordnance Survey, began in 1791 as a military project, which is why the word ordnance, meaning weapons and army supplies, is part of its name. Britain feared an invasion from France in those years, and the army needed accurate maps of the south coast, where an enemy might land. In time the maps were extended to the whole country, and they were used for roads, railways, taxes and the planning of towns as well as for defence.",
+   "In the 1800s, the Great Trigonometrical Survey of India, a huge project of the British government, measured the land by laying out chains of triangles from the southern tip of the country to the Himalayas. Its calculations showed that a peak known to the surveyors only as Peak XV was the highest mountain on Earth, and in 1865 it was named Mount Everest, after a former head of the survey. Tibetans, however, already called it Chomolungma, and the mapping that helped British officials to govern and tax India also gave the world new names that pushed older ones aside.",
+   "Governments have often treated accurate maps as secrets, because a good map of a country's roads, bridges and factories helps an enemy as much as it helps a friend. In the twentieth century, the Soviet Union is known to have published public maps with deliberate errors, shifting some features and leaving out others, while keeping precise ones for the army. Such cases remind us that a map can be used to hide as well as to show.",
+   "In 1854, an outbreak of cholera, a deadly disease of the gut, struck the Soho district of London, and many people believed that it was spread through the air. A doctor named John Snow marked the homes of the dead on a map and found that they clustered around a single water pump in Broad Street, which supported his idea that the disease travelled in water. The local authorities removed the pump handle, and although the outbreak was already fading, his map became one of the best-known examples of a map used to find a cause.",
+   "In the 1930s, a US government agency, the Home Owners' Loan Corporation, made maps of cities in which neighbourhoods were graded and coloured by how risky they seemed for lending money. Areas where many Black families lived were often placed in the lowest grade, and banks and other agencies often refused mortgages in such areas, a practice that came to be called redlining. Historians still debate how much of the harm came from these particular maps and how much from other rules and habits, but few doubt that maps helped to harden unfair divisions in many cities.",
+   "The lines of voting districts can be drawn to help one political party win, for example by packing the other side's voters into a single district or splitting them among several. In 1812, one oddly twisting district in Massachusetts, approved under Governor Elbridge Gerry, was compared by a newspaper to a salamander, and the word gerrymander was born. The trick has been used in many countries since then, and it shows that a map line can decide who governs.",
+   "In the Marshall Islands of the Pacific, navigators once made charts from the ribs of palm leaves tied together with shells that marked islands, and these showed how ocean swells bend and meet around the land. Aboriginal Australians used songs, often called songlines, to remember and share routes across their country, as well as stories and laws that belonged to the places along the way. These maps were not made for kings or armies, and they remind us that knowledge of place can be held in memory, art and voice as well as on paper.",
+   "The Global Positioning System, known as GPS, began in the 1970s as a project of the American military, which wanted its ships, aircraft and missiles to know exactly where they were. It was later opened for civilian use, and by 1995 a fleet of satellites circling the Earth could tell anyone with a receiver where they stood, to within a few metres. This system, which now guides aeroplanes, ships, farm machinery and phones alike, is still owned and run by one government, and other powers have built their own systems for that very reason.",
+   "When you open a map on your phone, a small blue dot shows exactly where you are, and the world seems simple and neutral. In fact, a company has decided which roads, shops and place names to show, how to label disputed borders, and which businesses appear first when you search. The most widely used maps today are therefore not public objects but products, and the choices behind them can affect where people go and which places prosper.",
+   "In 2004, a young British computer scientist named Steve Coast started OpenStreetMap, a project in which volunteers draw and correct a free map of the whole world, which anyone is allowed to use. After the earthquake in Haiti in January 2010, hundreds of volunteers around the world traced roads, bridges and damaged buildings onto the map from satellite images, and rescue workers used the result to find their way through the capital, Port-au-Prince. The project shows that mapping, once the privilege of kings and companies, can also become a shared and open activity.",
+   "Since 1900, the average level of the world's oceans has risen by about twenty centimetres, and it continues to rise as the climate warms and ice melts. Maps of coasts, river mouths and low islands will need to be redrawn, and in some places the people who live there will have to decide whether to build walls, move inland or leave. A map is a picture of one moment, and in a changing world even the shape of the land cannot be taken for granted.",
+   "In the far north, the summer sea ice of the Arctic has been shrinking for several decades, and in some years ships can sail for a few weeks along the northern coast of Russia, which could cut the journey between Europe and East Asia. New routes bring new questions about safety, about the environment and about who has the right to control and tax the traffic. Countries around the Arctic are studying the seabed to support their claims under the law of the sea, and the map of the top of the world is being argued over more actively than before.",
+   "Singapore is a tiny island with almost no natural resources, no large farmland and, for much of its history, a large part of its water supply imported from its neighbour Malaysia. Yet after becoming independent in 1965, it grew into one of the richest countries in the world, by making use of its position beside one of the busiest shipping lanes and by investing heavily in education, order and trade. Its history is a warning against thinking that geography is destiny, for what people do with a place matters as much as the place itself.",
+   "Technology keeps changing what distance means, and with it the value of particular places on the map. Railways turned the plains of North America into farmland for the world, steamships made oceans easier to cross, and aircraft ignored mountains and seas altogether. The internet has done the same for information, so that a message crosses the world in a moment, and a country's power now depends on cables, satellites and servers as well as on rivers and ports.",
+   "Japan is a mountainous island country with little coal, oil or gas of its own, and it imports most of the energy that it uses. Even so, it recovered from the destruction of the Second World War to become one of the world's great manufacturing nations, building cars, ships and electronics that are sold everywhere. The skills of its people, its investment in education and its trade links proved more important than the lack of resources beneath its soil.",
+   "Two societies can live beside the same river or under the same mountains and still follow very different paths. What separates them is not the land but their laws, their ideas, their leaders, their neighbours and a good deal of luck. Geography sets the stage, and it limits some choices and invites others, but it is people who write the play.",
+   "The first question to ask of any map is who made it, for whom, and for what purpose. A map made to sell land, to plan a campaign, to collect taxes or to guide a tourist will show the same place in four quite different ways, and each of them can be accurate for its own purpose. Knowing the purpose helps us to see what has been emphasised and what has been left in the shadows.",
+   "Look at what has been put in the centre of the map, and at how the scale changes from one place to another, since a map in which your country sits in the middle will naturally make it feel more important. Check whether the projection, the way the round Earth has been flattened, enlarges the lands near the poles or the lands near the equator. Shifting the centre or changing the projection can make the same world look like a very different place.",
+   "Look closely at the borders and the place names, and ask who agrees with them and who does not. Some lines are accepted by everyone who lives near them, while others are disputed, and a map made in one country may show only that country's version of the argument. Many maps solve the problem with dotted lines or with two names for the same place, and these small marks often hint at the story of a quarrel.",
+   "Check the date, because the world keeps changing and a map is only a record of one moment. Countries have appeared and disappeared, cities have swallowed their fields, coastlines have shifted and rivers have changed their courses, so that a map which was right fifty years ago may mislead us today. Old maps are still worth reading, but they must be read as evidence of what people believed at the time and not as a guide to the present.",
+   "Always look for what a map leaves out, because the empty spaces can say as much as the filled ones. Many maps show roads, cities and borders but not the people who live in them, the languages they speak, the histories they remember or the places that mapmakers considered unimportant. Where a land was marked empty on a map, there was sometimes a thriving community on the ground, and being left off the map has often been the first step towards being ignored.",
+   "Reading several maps of the same place is far better than trusting any one of them, for each shows a different part of the truth. When two maps disagree, the difference is usually where the most interesting questions begin, and finding the answer often means going out into the land itself, asking the people who live there, and reading what they have to say. Good map reading, in the end, is just good thinking, applied to lines and colours.",
+   "Maps help us to find our way, and they show us where power sits, where trade flows and where a line has been drawn between one people and another. They also decide what we notice, because every map is a choice about what to include, and those choices have helped kings, companies and governments to claim, divide and rule. The wise reader enjoys a map, trusts it with care, and then looks up from the paper to the real land and the real people who live on it."
+  ]
+ }
+}

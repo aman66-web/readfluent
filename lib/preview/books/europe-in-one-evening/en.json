@@ -1,0 +1,417 @@
+{
+  "slug": "europe-in-one-evening",
+  "meta": {
+    "blurb": "Europe's long story, told in fifty short scenes: from cave painters and Greek thinkers to Roman roads, plague, printing, revolutions, two world wars and a continent learning to live in peace. Sit down for one evening and follow it all.",
+    "bible": "Subject: a short history of Europe from the first people to the present day, told as fifty scenes that can be read in one evening. Dates are rounded and hedged; where historians disagree, the text says so. Europe: a continent of many peoples, languages and states. Key people: Alexander, Socrates, Plato, Aristotle, Hannibal, Julius Caesar, Augustus, Constantine, Charlemagne, Gutenberg, Joan of Arc, Martin Luther, Galileo, Newton, Louis XIV, Voltaire, Napoleon, Bismarck, Mussolini, Hitler. Places and peoples: Greece, Athens, Sparta, Rome, Carthage, Italy, Spain, Portugal, France, Germany, Britain, England, Russia, Poland, Ukraine, Austria, Constantinople, Istanbul, Byzantine, Ottoman, Vikings, Franks, Goths, Visigoths, Vandals, Huns, Saxons, Persians, Rhine, Thames, Sarajevo, Berlin, Versailles, Paris, Vienna, Florence, Mainz, Cordoba, Jerusalem, Africa, America, Asia, India, Congo. Terms: Democracy, Republic, Empire, Christianity, Islam, Latin, Renaissance, Reformation, Enlightenment, Revolution, Crusades, Black Death, Magna Carta, Stonehenge, Chauvet, Marshall Plan, NATO, European Union, Iron Curtain, Holocaust, Treaty of Rome, Westphalia, Parthenon, Pantheon, Bastille. Key dates: Marathon 490 BC; Rome founded in legend in 753 BC; Hannibal crosses the Alps 218 BC; Augustus first emperor 27 BC; Edict of Milan AD 313; fall of the western empire AD 476; Charlemagne crowned AD 800; Magna Carta 1215; Black Death 1347 to 1351; Constantinople falls 1453; Columbus 1492; Luther 1517; Westphalia 1648; French Revolution 1789; Waterloo 1815; First World War 1914 to 1918; Second World War 1939 to 1945; Berlin Wall falls 1989. Numbers are rounded and hedged: about six million Jews were murdered in the Holocaust; about ten million soldiers died in the First World War; the Black Death killed perhaps a third or more of Europeans. Voice and tone: warm, clear and fair, like a good storyteller; great achievements and great crimes are both told plainly, without gore, and no side is flattered."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A small lamp-lit table with a map of Europe and a long evening ahead",
+      "summary": "Europe is a small continent with a very long story, and the book will tell it in one evening."
+    },
+    {
+      "n": 2,
+      "scene": "Hunters in furs paint animals on the wall of a cave by torchlight",
+      "summary": "The first modern humans reach Europe more than 40,000 years ago and paint the walls of caves."
+    },
+    {
+      "n": 3,
+      "scene": "People sow seeds in a field beside a small village of wooden houses",
+      "summary": "About 8,000 years ago farmers from the Middle East spread through Europe and changed how people live."
+    },
+    {
+      "n": 4,
+      "scene": "Huge stones stand in a circle on a grassy plain as the sun rises",
+      "summary": "About 5,000 years ago people build great monuments such as Stonehenge, and learn to work metal."
+    },
+    {
+      "n": 5,
+      "scene": "Herders on horses with wagons cross a wide grassland toward the west",
+      "summary": "Most European languages come from one ancient family, spread by migrating peoples."
+    },
+    {
+      "n": 6,
+      "scene": "Small walled towns with a hilltop temple and ships in a sunny harbour",
+      "summary": "From about 800 BC the Greeks live in independent city-states and spread across the Mediterranean."
+    },
+    {
+      "n": 7,
+      "scene": "Citizens raise their hands to vote in an open-air assembly on a hill",
+      "summary": "Athens invents democracy around 508 BC, though only some adult men can take part."
+    },
+    {
+      "n": 8,
+      "scene": "Greek soldiers in bronze helmets hold a line against a larger army on a plain",
+      "summary": "In 490 BC and 480 BC the Greeks fight off the large Persian Empire, and Greek culture continues."
+    },
+    {
+      "n": 9,
+      "scene": "Old men in simple robes talk beneath a grand temple on a hill",
+      "summary": "Greek thinkers such as Socrates, Plato and Aristotle ask big questions and shape science and philosophy."
+    },
+    {
+      "n": 10,
+      "scene": "A young king on a horse leads an army across a mountain pass",
+      "summary": "Alexander the Great conquers the Persian Empire by 323 BC, and Greek ideas spread across Asia."
+    },
+    {
+      "n": 11,
+      "scene": "A small city on seven hills beside a river with men in white togas",
+      "summary": "Rome begins as a small city in Italy and, in legend, was founded in 753 BC; it becomes a republic."
+    },
+    {
+      "n": 12,
+      "scene": "Elephants and soldiers climb through snow on a high mountain pass",
+      "summary": "Rome fights Carthage in the Punic Wars, and Hannibal crosses the Alps with elephants in 218 BC."
+    },
+    {
+      "n": 13,
+      "scene": "A Roman senator is surrounded by men with hidden daggers in a marble hall",
+      "summary": "Julius Caesar is killed in 44 BC, and after civil wars Augustus becomes the first emperor in 27 BC."
+    },
+    {
+      "n": 14,
+      "scene": "A stone road runs straight across the countryside beside an aqueduct",
+      "summary": "The Roman Empire brings roads, laws, cities and the Latin language, and keeps a long peace."
+    },
+    {
+      "n": 15,
+      "scene": "Gladiators stand in a sandy arena before a roaring crowd, beside a line of chained workers",
+      "summary": "Rome was also built on conquest and slavery, and many millions of people were not free."
+    },
+    {
+      "n": 16,
+      "scene": "A small group meets in a candlelit room in a Roman house to pray",
+      "summary": "Christianity begins as a small Jewish movement in the Roman province of Judea and spreads across the empire."
+    },
+    {
+      "n": 17,
+      "scene": "An emperor in purple stands on the steps of a great church, as people kneel",
+      "summary": "Emperor Constantine allows Christianity in AD 313, and it becomes the official religion by AD 380."
+    },
+    {
+      "n": 18,
+      "scene": "A Germanic chief stands beside an empty throne in a marble hall",
+      "summary": "In AD 476 the last western emperor is removed; the eastern half, called Byzantine, lives on for another thousand years."
+    },
+    {
+      "n": 19,
+      "scene": "Families with carts and animals cross a wide river in a cold dawn",
+      "summary": "From the 300s, peoples such as the Goths, Vandals, Huns and Franks move into the empire; Rome is sacked in 410."
+    },
+    {
+      "n": 20,
+      "scene": "A monk writes carefully with a feather pen by a candle in a quiet room",
+      "summary": "Monks in monasteries copy books by hand and keep learning alive during the troubled years after Rome."
+    },
+    {
+      "n": 21,
+      "scene": "A king in a crown kneels as a pope places a crown on his head in a church",
+      "summary": "In AD 800 the Frankish king Charlemagne is crowned emperor and rules much of western Europe."
+    },
+    {
+      "n": 22,
+      "scene": "A long ship with a dragon head on its bow comes ashore on a grey beach",
+      "summary": "From AD 793 the Vikings raid, trade and settle from Scandinavia as far as Russia, Iceland and North America."
+    },
+    {
+      "n": 23,
+      "scene": "A beautiful courtyard with orange trees and arches in a sunny southern city",
+      "summary": "Muslim rulers govern much of Spain from AD 711, and cities such as Cordoba become centres of learning."
+    },
+    {
+      "n": 24,
+      "scene": "Peasants plough a field with oxen below a stone castle on a hill",
+      "summary": "In the Middle Ages most people are farmers who work land for powerful lords in return for protection."
+    },
+    {
+      "n": 25,
+      "scene": "A huge stone cathedral with tall towers rises above a small medieval town",
+      "summary": "The Church is powerful, cathedrals rise in every town, and in 1054 Christianity splits into western and eastern churches."
+    },
+    {
+      "n": 26,
+      "scene": "Knights in armour with crosses on their tunics ride toward a walled city",
+      "summary": "From 1095 the Crusades send armies to Jerusalem, bringing contact, trade and also bitter violence."
+    },
+    {
+      "n": 27,
+      "scene": "A busy market square with merchants, a guild hall and students walking by",
+      "summary": "From around 1100 towns grow, trade revives, merchants form guilds and the first universities open."
+    },
+    {
+      "n": 28,
+      "scene": "A king in a tent signs a large paper while armoured nobles stand beside him",
+      "summary": "In 1215 English nobles force King John to accept Magna Carta, which says that even a king must follow the law."
+    },
+    {
+      "n": 29,
+      "scene": "Empty houses with doors marked by crosses in a silent medieval street",
+      "summary": "The Black Death arrives in 1347 and kills perhaps a third or more of Europeans in a few years."
+    },
+    {
+      "n": 30,
+      "scene": "A young woman in armour holds a banner at the head of a French army",
+      "summary": "England and France fight the Hundred Years War from 1337 to 1453, and Joan of Arc helps lift the siege of Orleans."
+    },
+    {
+      "n": 31,
+      "scene": "A painter and a banker stand before a beautiful church with a huge dome",
+      "summary": "In the 1400s rich Italian cities such as Florence lead a rebirth of art and learning called the Renaissance."
+    },
+    {
+      "n": 32,
+      "scene": "A printer pulls a lever on a heavy wooden press beside stacks of paper",
+      "summary": "Around 1450 Johannes Gutenberg builds a printing press in Mainz, and books become cheaper."
+    },
+    {
+      "n": 33,
+      "scene": "Warships fire at the walls of a great city beside a narrow sea",
+      "summary": "In 1453 the Ottomans capture Constantinople, ending the Byzantine Empire; their rule in south-eastern Europe lasts for centuries."
+    },
+    {
+      "n": 34,
+      "scene": "Tall wooden ships with square sails leave a harbour toward the open sea",
+      "summary": "From the 1400s European sailors cross the oceans, reaching America in 1492 and India in 1498, with great consequences."
+    },
+    {
+      "n": 35,
+      "scene": "A monk nails a paper to the door of a church in a German town",
+      "summary": "In 1517 Martin Luther challenges the Church, and the Reformation splits western Christianity."
+    },
+    {
+      "n": 36,
+      "scene": "A ruined village with burnt roofs and a lone soldier on a muddy road",
+      "summary": "Wars of religion devastate Europe, and the Peace of Westphalia in 1648 ends the Thirty Years' War."
+    },
+    {
+      "n": 37,
+      "scene": "A man in a long coat looks through a telescope at the moon on a clear night",
+      "summary": "The Scientific Revolution, from Copernicus and Galileo to Newton, teaches Europeans to test ideas by observation and experiment."
+    },
+    {
+      "n": 38,
+      "scene": "A grand palace with a golden gate and a king in fine clothes watching a parliament debate",
+      "summary": "Kings such as Louis XIV claim absolute power in France, while in England Parliament wins the right to limit its king."
+    },
+    {
+      "n": 39,
+      "scene": "Men and women sit in a coffee house, arguing over books and newspapers",
+      "summary": "In the 1700s Enlightenment thinkers such as Voltaire argue for reason, tolerance and human rights."
+    },
+    {
+      "n": 40,
+      "scene": "A crowd storms a great stone fortress in Paris as smoke fills the air",
+      "summary": "In 1789 the French Revolution begins, ends the old order and brings both new rights and a time of terror."
+    },
+    {
+      "n": 41,
+      "scene": "A small man in a hat and grey coat stands on a hill above a battlefield",
+      "summary": "Napoleon rules France as emperor from 1804, conquers much of Europe and is beaten at Waterloo in 1815."
+    },
+    {
+      "n": 42,
+      "scene": "A steam train runs past tall factory chimneys and rows of crowded brick houses",
+      "summary": "From the late 1700s the Industrial Revolution begins in Britain with machines, factories and railways, and spreads across Europe."
+    },
+    {
+      "n": 43,
+      "scene": "A crowd waves flags in a city square as soldiers and workers stand together",
+      "summary": "In the 1800s nationalism, the revolutions of 1848 and workers' movements reshape Europe, and Italy and Germany unite."
+    },
+    {
+      "n": 44,
+      "scene": "Soldiers in uniform stand beside a map of Africa covered in coloured lines",
+      "summary": "By 1900, Europeans rule much of Africa and Asia, with great wealth for some and great suffering for many."
+    },
+    {
+      "n": 45,
+      "scene": "Soldiers huddle in a muddy trench under a grey sky with barbed wire in front",
+      "summary": "The First World War begins in 1914 and kills about ten million soldiers, destroying four empires."
+    },
+    {
+      "n": 46,
+      "scene": "A long queue of men in worn coats wait outside a factory gate",
+      "summary": "Between the wars, economic collapse and fear help dictators such as Mussolini and Hitler to take power."
+    },
+    {
+      "n": 47,
+      "scene": "A ruined city street full of rubble with a lone family walking by",
+      "summary": "The Second World War, from 1939 to 1945, kills tens of millions, including about six million Jews murdered in the Holocaust."
+    },
+    {
+      "n": 48,
+      "scene": "A tall grey wall with barbed wire stands across a city street with guards",
+      "summary": "After the war Europe is divided by the Cold War into east and west, with the Iron Curtain and the Berlin Wall."
+    },
+    {
+      "n": 49,
+      "scene": "Crowds climb on a wall and celebrate beside open gates in a city at night",
+      "summary": "Western Europe builds peace through cooperation, the Berlin Wall falls in 1989, and the European Union grows."
+    },
+    {
+      "n": 50,
+      "scene": "A table at the end of the evening with a glass, a lamp and a closed book",
+      "summary": "The evening ends: Europe's story shows both great achievements and great crimes, and it is still being written."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Europe is a small land with a very long story.",
+      "The first people came to Europe a very long time ago.",
+      "Later, farmers came and started to grow food in fields.",
+      "People built great stone circles like Stonehenge in England.",
+      "Most European languages come from one very old language family.",
+      "In Greece, people lived in small, independent cities.",
+      "In Athens, citizens voted on laws, but only some people.",
+      "A small Greek army beat the great Persian army.",
+      "Greek thinkers asked big questions about the world and people.",
+      "A young king named Alexander led his army far to the east.",
+      "Rome began as a small city on a river in Italy.",
+      "A general named Hannibal crossed the Alps with elephants.",
+      "Julius Caesar was killed, and later Rome got an emperor.",
+      "Rome built long roads, and people across Europe spoke Latin.",
+      "Rome was strong, but it also used many enslaved people.",
+      "A new religion called Christianity began in the Roman Empire.",
+      "Later, the emperor allowed Christians to follow their religion freely.",
+      "In 476, the western part of the empire came to an end.",
+      "New peoples moved into the old empire from the north and east.",
+      "Monks copied old books by hand and kept learning alive.",
+      "In 800, the king of the Franks was crowned emperor.",
+      "Vikings sailed from the north in long ships to raid and trade.",
+      "In Spain, Muslim rulers built beautiful cities and libraries.",
+      "In the Middle Ages, most people worked on farms.",
+      "Great churches called cathedrals rose in towns across Europe.",
+      "In 1095, armies began to travel to Jerusalem for religious reasons.",
+      "Towns grew, traders became rich, and the first universities opened.",
+      "In 1215, English nobles made King John agree to rules.",
+      "A terrible illness called the Black Death spread across Europe.",
+      "England and France fought a very long war.",
+      "In Italy, new art and new ideas began to grow.",
+      "Around 1450, a German man built a machine to print books.",
+      "In 1453, the Ottomans took the great city of Constantinople.",
+      "In 1492, Columbus sailed across the Atlantic Ocean from Spain.",
+      "In 1517, a German monk named Martin Luther spoke against the Church.",
+      "Wars about religion hurt Europe for more than a hundred years.",
+      "Scientists like Galileo studied the sky with new tools.",
+      "In France, kings had great power, but not in England.",
+      "In the 1700s, writers argued for freedom, reason and rights.",
+      "In 1789, people in France rose against their king.",
+      "Napoleon became emperor and tried to rule all of Europe.",
+      "Machines and factories changed how people worked and lived.",
+      "In the 1800s, people fought for new rights and new countries.",
+      "European countries took control of large parts of Africa and Asia.",
+      "In 1914, a terrible war began, and millions of soldiers died.",
+      "After the war, many countries had hunger and angry leaders.",
+      "In 1939, an even bigger war began, and Europe was ruined.",
+      "After the war, Europe was split into east and west.",
+      "In 1989, the Berlin Wall fell and Europe began to come together.",
+      "The evening is over, but Europe's story is not finished."
+    ],
+    "B1B2": [
+      "Europe is a small continent, but its story is long and full of surprises. Imagine that we have one evening to tell all of it.",
+      "Modern humans reached Europe more than 40,000 years ago. In caves such as Chauvet in France they painted horses, lions and bears that still look alive today.",
+      "About 8,000 years ago, farmers from the Middle East began to spread across Europe. They brought wheat, sheep and cattle, and slowly people stopped moving around and built villages.",
+      "About 5,000 years ago, people in Britain began to build Stonehenge, a circle of huge stones. In the same age, people learned to make tools and weapons from bronze, which is a mixture of copper and tin.",
+      "English, Spanish, Russian and Greek all belong to one great family of languages. Many scholars believe it was spread by herders who moved west from the grasslands about 5,000 years ago.",
+      "From about 800 BC, the Greeks lived in small, independent city-states such as Athens and Sparta. They traded by sea, set up colonies and took their alphabet and their culture across the Mediterranean.",
+      "Around 508 BC, the city of Athens created democracy, which means rule by the people. However, only free men born in Athens could vote, and women, foreigners and enslaved people were left out.",
+      "In 490 BC the Greeks defeated a Persian army at the battle of Marathon. Ten years later they fought off a second, even larger invasion, and the Greek city-states stayed free.",
+      "Greek thinkers such as Socrates, Plato and Aristotle asked questions about justice, nature and how to live. They tried to answer with reason instead of stories, and their ideas still shape how we think.",
+      "Alexander, the young king of Macedon, conquered the Persian Empire in only about ten years. He died in 323 BC, aged about thirty-two, and Greek language and ideas had spread as far as India.",
+      "Rome began as a small city on the River Tiber in Italy. According to legend it was founded in 753 BC, and about 509 BC it became a republic, ruled by elected officials instead of a king.",
+      "Rome and the North African city of Carthage fought three wars, called the Punic Wars. In 218 BC, the Carthaginian general Hannibal famously led an army and elephants across the snowy Alps.",
+      "The general Julius Caesar won great power and was killed by senators in 44 BC. After years of civil war, Augustus became Rome's first emperor in 27 BC, and the republic was over.",
+      "At its height, the Roman Empire stretched from Britain to the Middle East. It built straight roads, aqueducts and cities, and it gave much of Europe its laws and its language, Latin.",
+      "The Roman peace had a dark side, because the empire was built on conquest and slavery. Millions of people were enslaved, and some, like Spartacus, rose in revolt, although the rebels lost.",
+      "Christianity began in the first century AD as a small movement among the followers of Jesus, in the Roman province of Judea. It spread along the roads and sea routes, and sometimes its followers were punished.",
+      "In AD 313, the emperor Constantine allowed Christians to worship freely. By AD 380, Christianity had become the official religion of the empire, and Europe's future had changed.",
+      "In AD 476, a Germanic general removed the last emperor of the western half of the empire. The eastern half, with its capital at Constantinople, survived for another thousand years.",
+      "Between about AD 300 and 500, many peoples moved into the Roman world, among them the Goths, Vandals, Huns and Franks. In 410, the Visigoths entered the city of Rome and robbed it for three days.",
+      "In the years after the fall of Rome, monasteries became quiet centres of learning. Monks copied old books by hand, including many Roman and Greek works that might otherwise have been lost.",
+      "Charlemagne, the king of the Franks, conquered much of western Europe. On Christmas Day in AD 800, the Pope crowned him emperor in Rome, and he set up schools and courts across his lands.",
+      "In AD 793, Vikings from Scandinavia raided the monastery of Lindisfarne in England. Over the next centuries they raided, traded and settled from Russia to Iceland, and some reached North America around the year 1000.",
+      "In AD 711, Muslim armies crossed from Africa into Spain, and for centuries much of the country was ruled by Muslims. Cities such as Cordoba became famous for their libraries, science and beautiful buildings.",
+      "In the Middle Ages, most Europeans were farmers. Many were peasants who worked land for a local lord, and in exchange the lord offered protection from raiders and robbers.",
+      "The Church was very powerful in the Middle Ages, and towns competed to build huge stone cathedrals with colourful windows. In 1054, Christianity split into two main branches, the Catholic Church in the west and the Orthodox Church in the east.",
+      "In 1095, the Pope called for a crusade, a religious war to take Jerusalem from Muslim rule. The Crusades lasted for about two centuries, and they brought new trade and contact as well as terrible violence.",
+      "From about 1100, trade began to flourish and towns grew larger. Merchants and craftsmen formed guilds to protect their work, and the first universities opened in cities such as Bologna, Paris and Oxford.",
+      "In 1215, English nobles forced King John to sign a charter called Magna Carta. Most of its clauses became outdated, but its idea that even a king must obey the law has lasted.",
+      "The Black Death reached Europe in 1347, probably carried on ships from Asia. In about four years it killed perhaps a third or more of the people, and whole villages were left empty.",
+      "England and France fought each other, on and off, from 1337 to 1453, which is called the Hundred Years War. A farm girl named Joan of Arc helped inspire the French army, but she was captured and burned in 1431.",
+      "In the 1400s, rich Italian cities such as Florence supported painters, sculptors and scholars. This age is called the Renaissance, which means rebirth, and artists like Leonardo da Vinci studied nature and the ancient world.",
+      "Around 1450, Johannes Gutenberg in Mainz developed a printing press with movable metal letters. Books became cheaper and faster to make, and by 1500 there were millions of printed books in Europe.",
+      "In 1453, the Ottoman army captured Constantinople, and the Byzantine Empire came to an end. The city became Istanbul, and Ottoman rulers governed parts of south-eastern Europe for centuries.",
+      "In the 1400s, Portuguese and Spanish sailors began to explore the oceans. Columbus reached America in 1492 and Vasco da Gama reached India in 1498, and the world was linked as never before.",
+      "In 1517, a German monk named Martin Luther criticised some practices of the Church, such as the selling of pardons. Printing spread his ideas widely, and western Christianity split into Catholic and Protestant churches.",
+      "Religion led to terrible wars. The Thirty Years' War of 1618 to 1648 destroyed much of Germany, and the Peace of Westphalia that ended it recognised states as independent powers.",
+      "In the 1500s and 1600s, scientists began to test ideas with careful observation. Copernicus said the Earth moves around the Sun, Galileo used a telescope, and Newton explained gravity in 1687.",
+      "In France, Louis XIV ruled as an absolute king from his splendid palace at Versailles. In England, Parliament fought a civil war, executed one king in 1649 and later limited the power of the crown.",
+      "In the 1700s, thinkers of the Enlightenment, such as Voltaire, argued for reason, freedom of speech and human rights. They met in coffee houses and salons, and their books spread across Europe.",
+      "In 1789, the French Revolution began when crowds in Paris attacked the Bastille prison. The revolutionaries declared the rights of man, executed the king in 1793 and then entered a violent period called the Terror.",
+      "A general named Napoleon took power in France and made himself emperor in 1804. His armies conquered much of Europe, but he was finally beaten at Waterloo in 1815.",
+      "The Industrial Revolution began in Britain in the late 1700s, with steam engines, factories and later railways. Cities grew very quickly, and many workers, including children, lived and worked in terrible conditions.",
+      "In the 1800s, many Europeans demanded national freedom and more political rights. Italy became one country in 1861 and Germany in 1871, and workers began to organise to demand fairer pay and the vote.",
+      "By 1900, a handful of European nations ruled much of Africa and Asia. The empires brought wealth to Europe, but they often used force, took land and resources and caused terrible suffering.",
+      "In June 1914, the murder of an Austrian prince in Sarajevo set off the First World War. The fighting in trenches lasted until 1918, and about ten million soldiers died.",
+      "After 1918, Europe struggled with debt, unemployment and anger. In the 1920s and 1930s, dictators such as Mussolini in Italy and Hitler in Germany took power by promising order and greatness.",
+      "The Second World War began in 1939 when Germany invaded Poland. It killed tens of millions of people, and the Nazis murdered about six million Jews in the Holocaust, which is one of the greatest crimes in history.",
+      "After 1945, the Soviet Union and the United States became rivals in the Cold War. Europe was split by what was called the Iron Curtain, and in 1961 a wall was built across the city of Berlin.",
+      "In the 1950s, former enemies such as France and Germany began to work together, which later became the European Union. In 1989 the Berlin Wall fell, and in the years after that, many eastern countries joined it.",
+      "So our evening ends, but Europe's story goes on. It has been a story of great ideas and great crimes, and each new generation must decide how to use what it has learned."
+    ],
+    "C1C2": [
+      "Europe is not really a continent in the way that Africa is, but a large peninsula of Asia where many peoples, languages and ideas have met and clashed. Its story is long, crowded and often violent, yet it is also one of the most influential in the history of the world. Let us imagine we have a single evening to hear it from the beginning.",
+      "Anatomically modern humans reached Europe more than 40,000 years ago, sharing the continent for a time with the Neanderthals who were already there. In caves such as Chauvet, in France, they left astonishing paintings of horses, lions and bears, some made more than 30,000 years ago. These artists had no writing, no farms and no cities, but they clearly had imagination.",
+      "Some 8,000 years ago, farming peoples from the Middle East began to move across Europe, bringing with them wheat, barley, sheep and cattle. Over the next few thousand years, the hunters and the farmers mingled, and settled villages replaced wandering bands almost everywhere. The change was gradual rather than sudden, but it was one of the most important in the whole of history.",
+      "About 5,000 years ago, communities in Britain began to raise the great circle of stones at Stonehenge, an enormous effort that needed many hands and a shared purpose. About the same time, metalworkers learned to mix copper and tin to make bronze, which created new tools, new weapons and new trade routes across the continent. Nobody can say exactly what the monuments meant, and scholars still debate their purpose.",
+      "English, French, Russian, Greek and Hindi all belong to a single family of languages, and many scholars believe it was carried westward by herders who rode out of the grasslands about five thousand years ago. A few older tongues survive as exceptions, notably Basque, and Finnish and Hungarian belong to a different family altogether. The words we use every day, therefore, are a faint echo of those vanished travellers.",
+      "From about 800 BC, the Greeks lived in a patchwork of independent city-states, among them Athens and Sparta, which cooperated at festivals such as the Olympic Games yet were often at war with one another. Their sailors and merchants founded colonies from the Black Sea to Spain, and they adapted a script from the Phoenicians that became our alphabet. Their world was small, divided and astonishingly creative.",
+      "Around 508 BC, the Athenians began to govern themselves through an assembly in which citizens debated and voted on decisions together, a system they called democracy. It was a radical idea in a world of kings, but it was a limited one, because women, foreigners and enslaved people were excluded entirely. Even so, the principle that power belongs to the people has inspired reformers ever since.",
+      "When the vast Persian Empire sent armies and ships to conquer Greece, the city-states shelved their quarrels long enough to resist, winning at Marathon in 490 BC and again ten years later. Their survival allowed the culture of Athens to flourish for another century. Historians still wonder what Europe would look like if the Persians had won.",
+      "In the age of the Parthenon, thinkers such as Socrates, Plato and Aristotle pressed one another with questions about justice, virtue and the nature of the world. They tried to answer them with reason and argument instead of relying on tradition or the will of the gods. Greek doctors, mathematicians and historians did the same, and their habit of asking why became part of the European mind.",
+      "Alexander, king of Macedon, led a Greek and Macedonian army into the Persian Empire in 334 BC and conquered it within about ten years, reaching the edge of India. He died in 323 BC at about thirty-two, and his generals divided his empire among themselves. Yet Greek language and ideas, carried so far by his campaigns, survived in the East for centuries.",
+      "Rome began as a modest town beside the river Tiber, and according to legend it was founded in 753 BC by the twin brothers Romulus and Remus. According to tradition, around 509 BC the Romans drove out their last king and established a republic, ruled by elected officials and a council called the Senate. Its citizens prized duty, discipline and law, and it expanded steadily throughout Italy.",
+      "Rome and Carthage, a rich trading city in North Africa, fought for control of the western Mediterranean in three long wars, and in 218 BC the brilliant Carthaginian general Hannibal marched an army and elephants through the snowy Alps to invade Italy. He won great victories, but Rome refused to surrender and eventually destroyed Carthage in 146 BC. After that, no rival remained to challenge its power.",
+      "The conquest of Gaul made Julius Caesar famous and powerful, and when he seized control of Rome, a group of senators who feared for the republic killed him in 44 BC. Years of civil war followed, until his adopted heir Augustus emerged as the winner and became the first emperor in 27 BC. The old republic had given way to one-man rule, though Augustus was careful to hide the fact.",
+      "At its height, the Roman Empire stretched from northern Britain to the deserts of the Middle East and was home to tens of millions of people. It linked them with straight roads, aqueducts, harbours and cities, and for about two hundred years it kept an unusual peace. Latin, the language of Rome, later grew into Italian, French, Spanish, Portuguese and Romanian.",
+      "Roman power rested on conquest, and the people who were conquered were often killed, taxed or sold into slavery. Millions of enslaved men and women worked in homes, mines and fields, and in 73 BC a gladiator named Spartacus led a huge revolt that frightened Rome before it was crushed. Admiring the engineering of the Romans should never mean ignoring the cost of it.",
+      "Christianity began in the first century AD among the followers of Jesus of Nazareth, in the Roman province of Judea, and it spread quickly along the same roads and sea routes that carried soldiers and merchants. It offered hope and community to rich and poor alike, and women and slaves were welcome. The authorities sometimes punished Christians severely, but the movement grew in spite of them.",
+      "In AD 313, the emperor Constantine issued an order that allowed Christians to worship openly, and he supported the Church with money and buildings. By AD 380, Christianity had become the official religion of the empire, and for the next thousand years it would shape almost every part of European life. The change brought new powers and new quarrels, as bishops and emperors argued over who was in charge.",
+      "The western half of the Roman Empire declined slowly, and in AD 476 a Germanic general deposed its last emperor, a boy called Romulus Augustulus. Few people at the time thought that history had come to an end. The eastern half, which we call the Byzantine Empire, kept its capital at Constantinople and survived for almost a thousand years more.",
+      "Between about AD 300 and 500, peoples such as the Goths, Vandals, Huns and Franks moved into the Roman world, sometimes as invaders and sometimes as refugees seeking safety from others. In 410, Visigoths entered Rome and plundered it for three days, an event that shocked the whole Mediterranean. The old Roman world was broken into new kingdoms, many of which became the nations of today.",
+      "In the unsettled centuries after Rome, monasteries became small islands of calm, where monks prayed, farmed, taught and copied manuscripts by hand in silent rooms. Thanks to their patient work, a great deal of Greek and Roman writing was preserved for later generations. The monks did not do this alone, however, for scholars in the Byzantine and Muslim worlds kept many of the same works safe as well.",
+      "Charlemagne, king of the Franks, conquered much of what is now France, Germany and northern Italy, and on Christmas Day in the year 800 he was crowned emperor in Rome by Pope Leo III. He encouraged schools, scholars and a clearer style of handwriting, which helped revive learning. After his death, his empire was divided among his heirs, and France and Germany began to take shape.",
+      "The Viking age began in AD 793, when seafarers from Scandinavia attacked the monastery of Lindisfarne off the English coast, and for the next two centuries their long ships terrified the shores of Europe. Yet they were also traders and farmers, who founded settlements in Normandy, Iceland and Russia, and a few reached North America around the year 1000. They were both raiders and builders.",
+      "In AD 711, an army from North Africa crossed into Spain, and for several centuries much of the peninsula, called al-Andalus, was governed by Muslim rulers. Cities such as Cordoba grew into great centres of science, medicine, poetry and architecture, where Christians, Muslims and Jews lived together, not always in peace. Scholars there translated Greek and Arabic works that later reached the rest of Europe.",
+      "For most of the Middle Ages, roughly nine out of ten people lived by farming, and many were peasants who worked the fields of a local lord in exchange for protection and the right to live there. The lords in turn owed loyalty to kings, and the system that bound them together is often called feudalism. Life was hard and short, yet it also had its songs, its festivals and its strong sense of community.",
+      "The Church dominated medieval life, and towns competed to build soaring stone cathedrals whose coloured windows and towers could take a hundred years to complete. In 1054, after centuries of growing quarrels, Christianity divided into the Catholic Church of the west and the Orthodox Church of the east. Both of them continue today, and the division still shapes the politics of Europe.",
+      "In 1095, Pope Urban II called on Christians to march to Jerusalem, and the Crusaders captured the city in 1099 after a terrible siege and massacre. The campaigns that followed continued for about two hundred years, bringing trade, new knowledge and contact with the Muslim world, but also bitterness that has never completely faded. Many of the people who went were driven by faith, while others hoped for land or riches.",
+      "From about 1100, Europe's population grew, farming improved and trade revived, so that towns became busy places of workshops, markets and merchant houses. Craftsmen and merchants formed guilds to regulate their trades, and the first universities appeared in Bologna, Paris and Oxford, where students argued about law, medicine and theology. A new kind of person, the town dweller, was beginning to matter.",
+      "In 1215, a group of English barons, angry at the taxes and the arbitrary power of King John, forced him to accept a charter of rights at Runnymede beside the Thames. Magna Carta was meant to protect the barons, not ordinary people, and most of its clauses were soon out of date. Its great principle, that the king himself is under the law, lived on and inspired later generations.",
+      "In 1347 a deadly plague, probably carried on ships from Asia, arrived in Europe and swept through towns and villages for four years. Estimates vary, but perhaps a third or more of all Europeans died, and whole communities disappeared. Because workers were now so scarce, survivors could demand higher wages, and the old feudal order began to weaken.",
+      "England and France fought one another on and off from 1337 until 1453, in a conflict now called the Hundred Years War. In 1429, a teenage peasant girl called Joan of Arc, claiming to hear heavenly voices, helped to lift the siege of Orleans, but she was captured and executed by the English in 1431. By the end, France had survived, and the idea of a French nation had grown stronger.",
+      "In the 1400s, wealthy Italian cities, especially Florence, poured money into painting, sculpture, architecture and the study of ancient Greek and Roman texts, and the movement is called the Renaissance, or rebirth. Artists such as Leonardo da Vinci observed nature closely, while thinkers called humanists put human beings and their talents at the centre. The results can still be admired in countless museums and churches.",
+      "Around 1450, a German goldsmith called Johannes Gutenberg developed a printing press in Mainz that used movable metal type, and books could be produced far faster and more cheaply than by hand. By the year 1500, millions of printed volumes were in circulation, carrying new ideas to readers who had never owned a book. The press was an engine of change that no ruler could easily control.",
+      "In 1453, after a long siege, an Ottoman army under Sultan Mehmed II captured Constantinople, and the last remnant of the Roman Empire came to an end. The city became the capital of a vast Muslim empire, which ruled much of south-eastern Europe for hundreds of years. Many Greek scholars fled westward, and some historians think they helped fuel the Renaissance.",
+      "In the 1400s, Portuguese and Spanish sailors started to explore the oceans, searching for new trade routes, gold and glory. Columbus reached the Americas in 1492, and Vasco da Gama reached India by sea in 1498, and the world was suddenly linked as never before. The consequences were enormous and often terrible, for millions of native people died, and more than ten million Africans were later forced across the Atlantic as slaves.",
+      "In 1517, a German monk named Martin Luther publicly criticised the Church for selling pardons for sins, and the printing press carried his protest across Europe in a matter of weeks. Reformers in many countries soon rejected the authority of the Pope, and western Christianity split into Catholic and Protestant churches. This upheaval, known as the Reformation, changed religion, politics and daily life.",
+      "Disputes between Catholics and Protestants soon turned into wars, the worst of which was the Thirty Years' War from 1618 to 1648, which devastated much of Germany and killed millions through fighting, hunger and disease. The Peace of Westphalia that ended it laid down the principle that each state was master within its own borders. That idea has shaped the political map of Europe ever since.",
+      "In the 1500s and 1600s, thinkers began to test their ideas against careful observation and experiment, instead of simply trusting old authorities. Copernicus argued that the Earth travels around the Sun, Galileo studied the heavens with a telescope, and in 1687 Isaac Newton explained gravity and motion with a few laws. The method they used, in which every claim must face evidence, remains the basis of science.",
+      "In France, Louis XIV, the Sun King, ruled for seventy-two years and claimed that his power came directly from God, ruling from the dazzling palace at Versailles. In England, by contrast, Parliament fought a civil war against King Charles I, who was executed in 1649, and in 1689 a Bill of Rights limited the powers of the crown. Europe had two very different answers to the question of who should rule.",
+      "In the 1700s, a movement known as the Enlightenment spread across Europe, led by writers such as Voltaire, who defended tolerance and free speech, and Immanuel Kant, who urged people to dare to think for themselves. They met in salons and coffee houses, argued about government and justice, and published their ideas in books and newspapers. Their belief in universal human rights would soon help to bring down kings.",
+      "In July 1789, Parisians stormed the Bastille, a royal prison, and the French Revolution began, sweeping away the privileges of the nobility and proclaiming the rights of man and citizen. The king was executed in 1793, and the Terror that followed sent thousands more to the guillotine, many of them revolutionaries themselves. The ideas of liberty and equality, nonetheless, spread across Europe.",
+      "A brilliant young general named Napoleon Bonaparte seized power in France in 1799 and crowned himself emperor in 1804, and his armies overran most of the continent. He introduced a clear legal code and swept away old privileges wherever he went, but his invasion of Russia in 1812 destroyed his army. He was finally beaten at Waterloo in 1815 and spent his last years on a remote island.",
+      "The Industrial Revolution began in Britain in the late eighteenth century, when coal, iron and steam power made it possible to run machines in great factories and to build railways across whole countries. Cities swelled with workers, many of them living in crowded slums, and children often laboured in dangerous conditions. Within a century, Europe's population had more than doubled, and its wealth grew enormously.",
+      "In the nineteenth century, many Europeans demanded national freedom and a say in government, and revolutions swept through the continent in 1848. Italy was united in 1861, and Germany was united under Prussian leadership in 1871 by Bismarck, creating powerful new states in the heart of Europe. Meanwhile, workers organised unions, socialist ideas spread, and the right to vote slowly widened.",
+      "By 1900, a handful of European powers, including Britain, France, Germany and Belgium, controlled most of Africa and large parts of Asia, and in the 1880s they divided Africa among themselves with hardly any African voice at the table. The empires enriched Europe, but they often relied on force, forced labour and the seizure of land, and the cruelty in places such as the Congo shocked even some Europeans.",
+      "After the assassination of the Austrian archduke Franz Ferdinand in Sarajevo in June 1914, alliances dragged the great powers into a war that nobody had really planned for. For four years armies faced each other from muddy trenches, with machine guns and poison gas, and about ten million soldiers were killed. The German, Austrian, Russian and Ottoman empires all collapsed by the end.",
+      "Peace in 1919 left Europe in debt, resentful and unstable, and the Great Depression that began in 1929 threw millions out of work. In that atmosphere, dictators such as Mussolini in Italy and Hitler in Germany rose to power by promising order, national pride and someone to blame, and democracy collapsed in many countries. Communism, meanwhile, ruled in the Soviet Union after the Russian Revolution.",
+      "The Second World War began in September 1939 when Germany invaded Poland, and by the time it ended in Europe in May 1945, tens of millions of people were dead and many cities lay in ruins. The Nazi regime murdered about six million Jews, as well as Roma and many others, in the Holocaust, one of the greatest crimes in history. The world vowed that it must never be allowed to happen again.",
+      "After 1945, the Soviet Union dominated the east of Europe, while the United States helped to rebuild the west through the Marshall Plan and the alliance of NATO. The continent was split by what Winston Churchill called an iron curtain, and in 1961 a wall was built across Berlin to stop people escaping to the west. For decades, it seemed that the division might last forever.",
+      "Starting in the 1950s, former enemies such as France and Germany began to pool their coal and steel industries, and that cooperation grew into the European Union. When the Berlin Wall fell in 1989 and the Soviet Union collapsed in 1991, many countries of the east were free to join in. It was one of the most remarkable turns in the whole of European history, though war returned to the Balkans in the 1990s and to Ukraine in 2022.",
+      "So our long evening comes to an end, but the story of Europe is far from over, for it is still being written by the people who live there today. It is a history of astonishing ideas, beautiful art and brave reformers, but also of conquest, cruelty and wars that nearly destroyed the continent. Each generation must decide for itself which of these legacies to follow and which to leave behind."
+    ]
+  }
+}
