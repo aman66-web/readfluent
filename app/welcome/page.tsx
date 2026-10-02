@@ -12,7 +12,6 @@ import { HomeScreen } from "@/components/onboarding/Home";
 import { LevelScreen } from "@/components/onboarding/Level";
 import { TonguesScreen } from "@/components/onboarding/Tongues";
 import { AccountScreen, InterestsScreen } from "@/components/onboarding/Last";
-import { accountAvailable } from "@/components/onboarding/SignIn";
 import { TourScreen } from "@/components/onboarding/Tour";
 import { display, jakarta } from "@/lib/fonts";
 import { markOnboarded } from "@/lib/onboarding";
@@ -106,7 +105,7 @@ function Welcome() {
 
   if (step === "intro") {
     const account = STEP_IDS.indexOf("account");
-    return <FirstScreen onStart={next} onBack={back} onSignIn={accountAvailable() ? () => { jumpedFrom.current = i; go(account); } : undefined} />;
+    return <FirstScreen onStart={next} onBack={back} onSignIn={() => { jumpedFrom.current = i; go(account); }} />;
   }
 
   const nav = { at: i, of: STEP_IDS.length, onBack: back, onContinue: next };
