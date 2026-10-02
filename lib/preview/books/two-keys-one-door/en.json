@@ -1,0 +1,417 @@
+{
+ "slug": "two-keys-one-door",
+ "meta": {
+  "blurb": "A letting agent gave the same flat to two strangers on the same day. Odile has a violin and a secret. Sam has headphones and a deadline. One month, one strip of tape down the hall, and two keys to one door.",
+  "bible": "Odile Brandt: 31, a violin teacher, tidy and careful, secretly lost her place in the city orchestra and has not told her family; practises every afternoon. Sam Ferreira: 30, a sound engineer who works from home with headphones and cables, untidy, kind, bad at saying what he feels; fears his small studio will fail. Ms Vane: the letting agent at Vane and Co, who double-booked the flat. Mr Quill: the landlord, away abroad, returns late. Mrs Okonkwo: the elderly neighbour in Flat 3B, wise and funny, owner of the cat Biscuit, about to move to live near her daughter. Biscuit: the grey cat who escapes. Tilly: 9, Odile's pupil, shy, plays the violin. Dev: Sam's best friend, a cheerful cook. Mrs Brandt: Odile's mother, Hélène Brandt, who visits for a weekend. Lamplighter Lane: the street. Flat 4B: the top-floor flat, one bedroom, a tiny study with a sofa, a long hall, a noisy kitchen, a stairwell with a beautiful echo. Flat 3B: the flat below, with high ceilings and a big front room. Corn Hall: where Tilly's recital is held. Larkspur Children's Choir: the choir Sam records. Stairwell Songs: the album they make, recorded in the echoing stairwell at midnight. The tape line: a strip of blue masking tape down the hall that divides the flat. Ending: Mr Quill leases Flat 3B to Odile and Sam together; they carry their boxes down one floor and try both keys in the same door. Voice and tone: warm, funny, gentle, slow-burning; a home, a sound and a friendship that becomes love; clean, no bad language."
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "A young woman with a suitcase and a violin case climbs steep stairs",
+   "summary": "Odile Brandt arrives at 22 Lamplighter Lane with her suitcase and violin, and the key to Flat 4B."
+  },
+  {
+   "n": 2,
+   "scene": "A man in big headphones stands in a half-unpacked living room holding a key",
+   "summary": "She opens the door and finds Sam Ferreira already inside, holding his own key."
+  },
+  {
+   "n": 3,
+   "scene": "Two people compare crumpled rental papers on a kitchen counter",
+   "summary": "Both have lease papers for the same flat, the same week: it has been double-booked."
+  },
+  {
+   "n": 4,
+   "scene": "Sam holds a phone to his ear while Odile paces by the window",
+   "summary": "Ms Vane at the letting agency apologises: the flat was double-booked and nothing else is free for a month."
+  },
+  {
+   "n": 5,
+   "scene": "Odile sits on a suitcase looking at a photograph of a sold-sign house",
+   "summary": "Odile's old flat has been sold and Sam's lease has ended, and both have paid their deposits."
+  },
+  {
+   "n": 6,
+   "scene": "A coin spins in the air above a small hand in an empty room",
+   "summary": "They agree to share for one month, and a coin toss gives Odile the bedroom and Sam the study."
+  },
+  {
+   "n": 7,
+   "scene": "Sam presses blue masking tape along the floor of a long hall",
+   "summary": "Sam lays a line of blue masking tape down the hall to divide the flat, and they split the kitchen shelves."
+  },
+  {
+   "n": 8,
+   "scene": "Odile plays scales with her bow while Sam glares at the wall",
+   "summary": "On the first evening Odile practises scales loudly while Sam tries to work in headphones."
+  },
+  {
+   "n": 9,
+   "scene": "Odile lies awake in a bed listening to a laugh through a thin wall",
+   "summary": "At night Sam laughs at his own recordings, keeping Odile awake."
+  },
+  {
+   "n": 10,
+   "scene": "A fridge door covered with paper notes in two handwritings",
+   "summary": "They agree a timetable: Odile plays from four to six, Sam records after nine."
+  },
+  {
+   "n": 11,
+   "scene": "Two sticky notes on a fridge: one about socks, one about a dirty pan",
+   "summary": "Their fridge notes grow snippy, then funny."
+  },
+  {
+   "n": 12,
+   "scene": "A grey cat jumps through an open window as two people run after it",
+   "summary": "Mrs Okonkwo's cat Biscuit escapes into the flat and Odile and Sam chase it together and laugh."
+  },
+  {
+   "n": 13,
+   "scene": "An elderly woman in a green cardigan holds a grey cat at the door",
+   "summary": "Mrs Okonkwo from Flat 3B comes to collect Biscuit and says they make a lovely noise together."
+  },
+  {
+   "n": 14,
+   "scene": "Odile folds a letter from an orchestra into a drawer",
+   "summary": "Odile has secretly lost her place in the city orchestra and has told no one at home."
+  },
+  {
+   "n": 15,
+   "scene": "Sam stares at a calendar with a date circled in thick pen",
+   "summary": "Sam has won his big job: a children's choir album due in four weeks that needs perfect sound."
+  },
+  {
+   "n": 16,
+   "scene": "Sam sits among cables in a tiny, noisy study",
+   "summary": "Sam cannot record in the flat because of the violin, the traffic and the pipes, and he is stressed."
+  },
+  {
+   "n": 17,
+   "scene": "A pot of soup sits on the tape line with a handwritten note",
+   "summary": "Sam leaves a pot of soup on the line with a note saying soup may cross the tape."
+  },
+  {
+   "n": 18,
+   "scene": "Odile writes a note while holding a bowl of soup",
+   "summary": "Odile eats the soup, finds it excellent, and leaves a note inviting him to listen to Bach at six."
+  },
+  {
+   "n": 19,
+   "scene": "A violinist plays in a hallway while a man listens, headphones around his neck",
+   "summary": "She plays Bach in the hall and Sam listens quietly, headphones off."
+  },
+  {
+   "n": 20,
+   "scene": "A small girl with a violin stands beside Odile in a bright room",
+   "summary": "Odile teaches Tilly, aged nine, in the flat; Sam hides in the study and fixes a loose peg."
+  },
+  {
+   "n": 21,
+   "scene": "A man stands on a stair landing listening to an echo",
+   "summary": "Sam discovers the stairwell has a beautiful echo, perfect for recording the choir."
+  },
+  {
+   "n": 22,
+   "scene": "A violinist plays on a dark landing while a man holds a microphone",
+   "summary": "At midnight, Sam records in the stairwell and Odile plays a few notes to test the sound."
+  },
+  {
+   "n": 23,
+   "scene": "Sam listens to a recording through headphones with wide eyes",
+   "summary": "Sam plays back the recording and says Odile is not only a teacher."
+  },
+  {
+   "n": 24,
+   "scene": "Odile sits on the stairs with her knees up, speaking quietly to Sam",
+   "summary": "On the stairs, Odile tells Sam about losing her orchestra place."
+  },
+  {
+   "n": 25,
+   "scene": "Sam rubs his neck while sitting on the staircase at night",
+   "summary": "Sam shares his own fear: if the album fails, his studio fails."
+  },
+  {
+   "n": 26,
+   "scene": "Odile holds a phone to her ear with a worried look",
+   "summary": "Odile's mother phones: she will visit for the weekend and expects to attend an orchestra concert."
+  },
+  {
+   "n": 27,
+   "scene": "A smiling older woman in a scarf stands at the door",
+   "summary": "Mrs Brandt arrives, and Sam cooks dinner; she thinks he is lovely."
+  },
+  {
+   "n": 28,
+   "scene": "A mother and daughter hug in a tidy kitchen",
+   "summary": "Odile tells her mother the truth, and her mother says she is proud of her teaching."
+  },
+  {
+   "n": 29,
+   "scene": "A woman in a blazer hands two sets of keys to two people",
+   "summary": "Ms Vane calls to say that two flats are ready and they must move out by Sunday."
+  },
+  {
+   "n": 30,
+   "scene": "Two people smile too brightly in a hallway with tape on the floor",
+   "summary": "Both say that is great news, but neither means it."
+  },
+  {
+   "n": 31,
+   "scene": "A lopsided birthday cake with three candles on a kitchen table",
+   "summary": "On Sam's birthday Odile bakes a lopsided cake that tastes terrible, and he loves it."
+  },
+  {
+   "n": 32,
+   "scene": "Two people dance in a small kitchen and peel tape off a floor",
+   "summary": "They dance in the kitchen and peel the tape line off the floor together."
+  },
+  {
+   "n": 33,
+   "scene": "Rain drips from a ceiling toward a computer drive on a desk",
+   "summary": "That night rain leaks through the roof above Sam's desk and drips toward his hard drive."
+  },
+  {
+   "n": 34,
+   "scene": "Odile throws her coat over a hard drive while Sam grabs a bowl",
+   "summary": "Odile covers the hard drive with her coat and Sam wakes up and moves it to safety."
+  },
+  {
+   "n": 35,
+   "scene": "Two people sit on a bed holding a hard drive after a storm",
+   "summary": "The album is safe and their hug lasts too long."
+  },
+  {
+   "n": 36,
+   "scene": "Ms Vane hands out two different keys at the door in morning light",
+   "summary": "In the morning Ms Vane brings two new keys for two flats, and they both take them without a word."
+  },
+  {
+   "n": 37,
+   "scene": "Cardboard boxes line an echoing room with bare walls",
+   "summary": "They pack boxes in silence and the flat becomes empty and echoing."
+  },
+  {
+   "n": 38,
+   "scene": "Mrs Okonkwo sits in a chair with her cat while Odile stands near her",
+   "summary": "Mrs Okonkwo tells Odile she is moving to live near her daughter and thinks the pair are foolish."
+  },
+  {
+   "n": 39,
+   "scene": "Dev pushes a plate toward Sam across a small table",
+   "summary": "Dev tells Sam to say what he feels before it is too late."
+  },
+  {
+   "n": 40,
+   "scene": "A hall full of parents and children with a stage and a small violinist",
+   "summary": "Saturday: Tilly's recital at the Corn Hall; Sam sits at the back with a microphone."
+  },
+  {
+   "n": 41,
+   "scene": "A small girl freezes on stage while her teacher walks up",
+   "summary": "Tilly freezes mid-piece and Odile steps up and plays beside her until she finds her way."
+  },
+  {
+   "n": 42,
+   "scene": "Parents clap and a man in the back row wipes his eyes",
+   "summary": "The hall cheers, Tilly's parents thank Odile, and Sam records it all, with tears in his eyes."
+  },
+  {
+   "n": 43,
+   "scene": "Two people stand under a streetlamp in the evening after a concert",
+   "summary": "Afterwards in the lamplit street, Odile confesses she dreads the move."
+  },
+  {
+   "n": 44,
+   "scene": "A man looks at the ground and then at a woman under a streetlamp",
+   "summary": "Sam says he is bad at saying things but he does not want to move either."
+  },
+  {
+   "n": 45,
+   "scene": "Sam holds up a letter from a landlord outside a tall building",
+   "summary": "Sam reveals he asked Mr Quill, who is back; Mrs Okonkwo's Flat 3B is free to rent to both of them."
+  },
+  {
+   "n": 46,
+   "scene": "A woman laughs under a lamp while a man nervously waits",
+   "summary": "Odile laughs and asks if he is asking her to move in as a flatmate or as more, and he says more."
+  },
+  {
+   "n": 47,
+   "scene": "Two people kiss on a landing under a round window",
+   "summary": "She says yes to more, and they kiss on the stairs of the building."
+  },
+  {
+   "n": 48,
+   "scene": "Two people carry boxes down one flight of stairs with a grey cat watching",
+   "summary": "On moving day they carry their boxes down one floor while Biscuit supervises."
+  },
+  {
+   "n": 49,
+   "scene": "A landlord hands two keys on one ring to two smiling people",
+   "summary": "Mr Quill hands over two keys on one ring, and they try both in the same lock."
+  },
+  {
+   "n": 50,
+   "scene": "A shining stairwell and a lit doorway with two keys",
+   "summary": "Months later, Stairwell Songs is released and they open the door of their home together with their two keys."
+  }
+ ],
+ "levels": {
+  "A1A2": [
+   "Odile Brandt climbed four floors with a suitcase and a violin.",
+   "She opened the door, and a man in headphones was inside.",
+   "They both had papers for the same flat, on the same day.",
+   "Ms Vane said that she was sorry, but nothing else was free.",
+   "Odile's old home was sold, and Sam's old flat was gone too.",
+   "They agreed to share for one month, and Odile won the bedroom.",
+   "Sam put blue tape down the hall to cut the flat in two.",
+   "That evening Odile played scales, and Sam put on headphones.",
+   "At night, Sam played sounds and laughed, and Odile could not sleep.",
+   "They wrote a timetable and stuck it on the fridge.",
+   "Their notes on the fridge began to sound rude, then funny.",
+   "A grey cat ran in, and they both chased it and laughed.",
+   "Mrs Okonkwo came to take her cat and said they were noisy.",
+   "Odile had lost her place in the orchestra, and she told nobody.",
+   "Sam had a big job, an album with a children's choir.",
+   "Sam could not find a quiet room to record, and he felt stressed.",
+   "Sam left a pot of soup on the line, with a kind note.",
+   "Odile ate the soup and said thank you on a note.",
+   "Odile played Bach in the hall, and Sam listened quietly.",
+   "Odile taught little Tilly while Sam stayed in the study.",
+   "Sam clapped on the stairs and heard a beautiful echo.",
+   "At midnight, Sam recorded the stairs, and Odile played a few notes.",
+   "Sam played the recording and said that Odile was not only a teacher.",
+   "On the stairs, Odile told Sam about the orchestra.",
+   "Then Sam said that he was afraid his studio would fail.",
+   "Odile's mother phoned and said that she would visit.",
+   "Odile's mother arrived, and Sam cooked a warm dinner for all.",
+   "Odile told her mother the truth, and her mother hugged her.",
+   "Ms Vane called to say that two new flats were ready.",
+   "They said it was great news, but neither of them smiled properly.",
+   "On Sam's birthday, Odile made a cake that looked very strange.",
+   "They danced in the kitchen and pulled up the blue tape.",
+   "That night rain leaked through the roof over Sam's desk.",
+   "Odile covered the drive with her coat and woke Sam up.",
+   "The album was safe, and their hug lasted a long time.",
+   "In the morning, Ms Vane brought two new keys, and they took them.",
+   "They packed their boxes in silence, and the flat grew empty.",
+   "Mrs Okonkwo told Odile that she was moving to be near her daughter.",
+   "Dev told Sam to say how he felt before it was too late.",
+   "On Saturday, Tilly played in a recital at the Corn Hall.",
+   "Tilly froze, and Odile walked up and played with her.",
+   "Everyone clapped, and Sam wiped his eyes behind the microphone.",
+   "After the concert, Odile said that she did not want to move.",
+   "Sam said that he did not want to move either.",
+   "Sam said that he had asked the landlord about Flat 3B.",
+   "Odile asked him if he meant as a friend or as more.",
+   "She said yes, and they kissed on the stairs.",
+   "On Sunday, they carried their boxes down only one floor.",
+   "Mr Quill gave them two keys on one ring.",
+   "Months later, they opened their door together with two keys."
+  ],
+  "B1B2": [
+   "Odile Brandt carried her suitcase and her violin up four floors of narrow stairs. In her pocket was the key to Flat 4B, her new home for the year.",
+   "Odile opened the door and stopped still on the doormat. A man with large headphones around his neck was standing in the middle of the room, and he was holding a key exactly like hers.",
+   "The man said that his name was Sam Ferreira, and that this was his flat. They put their papers side by side on the counter and saw that both were for Flat 4B, and both began today.",
+   "Sam telephoned Ms Vane at the letting agency, and she apologised many times. She had given the flat to both of them by mistake, and she had nothing else available for a month.",
+   "Odile's old flat had been sold last week, and Sam's lease had ended on Sunday. Both of them had already paid a big deposit to Vane and Co, and neither had any money left for a hotel.",
+   "At last they agreed to share the flat for a single month. There was one bedroom and one tiny study with a sofa, and Odile won the coin toss, so Sam took the study.",
+   "Sam found a roll of blue tape in his box and stuck a line down the middle of the hall. They also divided the kitchen shelves, and each of them put their own food on their own side.",
+   "That evening Odile began to practise her scales, up and down, again and again. Sam, who was working on the sofa, put on his big headphones, but he could still hear every note through the wall.",
+   "Late at night, Sam worked on recordings in the study and sometimes laughed aloud at them. Odile lay awake in the bedroom and listened to the strange sounds through the thin wall.",
+   "In the morning they wrote a timetable and stuck it on the fridge. Odile could play her violin from four to six, and Sam could record his sounds after nine at night.",
+   "The notes on the fridge soon became sharp, and then they slowly became funny. One said that his socks were not furniture, and another said that violins did not belong in the kitchen.",
+   "One evening, a grey cat jumped in through the open window and ran under the sofa. Odile and Sam both chased it around the flat, and for the first time they laughed together.",
+   "A knock came at the door, and an old woman in a green cardigan asked for her cat, Biscuit. She was Mrs Okonkwo from the flat below, and she said, smiling, that she had never heard such a lively pair.",
+   "Odile had a secret that she kept in a drawer, under her socks. Three months ago the city orchestra had cut her job, and she had not told her family, who still thought she played every night.",
+   "Sam had received the biggest job of his life. He had to record an album with a children's choir, and it was due in four weeks, and every note had to sound perfect.",
+   "The trouble was that the flat was not quiet. There was a violin by day and traffic by night, and Sam feared he would never find a quiet place to record.",
+   "One evening, Odile came home tired and found a pot of hot soup on the tape line. There was a note beside it, and it said that soup was allowed to cross the line.",
+   "The soup was delicious, and Odile ate every drop. She wrote a note that said thank you, and that tomorrow at six o'clock she would play some Bach, if he wanted to listen.",
+   "At six o'clock, Odile played the Bach in the long hall, and the music filled every room. Sam took off his headphones and stood very still, and when it ended he did not say a word.",
+   "On Wednesday, Odile taught her nine-year-old pupil, Tilly, in the front room. When a peg on Tilly's violin slipped, Sam quietly came out of the study and fixed it with a tool from his kit.",
+   "One night, Sam walked down to the stairwell and clapped his hands once. The sound rang up and down through the tall building, round and warm, and he realised that this was exactly the place to record.",
+   "At midnight, Sam set up his microphones on the stairs and asked Odile to play a few notes for the test. Mrs Okonkwo opened her door a little and quietly put out two cups of tea.",
+   "Sam played the recording back, and Odile heard her own violin shine in the stairwell. He said, in a low voice, that she was not only a teacher, and that she must never say that again.",
+   "They sat on the cold stairs with their tea, and Odile told Sam the truth about the orchestra. She said that she had cried for a week, and that she was still afraid to tell her mother.",
+   "Then it was Sam's turn, and he said that he was afraid too. If the choir album was not perfect, he said, his little studio would close, and he would have to find another job.",
+   "Odile's mother phoned from far away and said that she was coming to visit this weekend. She was very excited, and she said that she hoped to hear Odile at the orchestra.",
+   "Odile's mother arrived on Saturday morning, and Sam cooked a lovely dinner for the three of them. She said that he was a charming young man, and she smiled at Odile in a way that was very hard to bear.",
+   "On Sunday morning, Odile took a deep breath and told her mother that she had lost her place in the orchestra. Her mother hugged her tightly and said that she was proud of her, whatever she did.",
+   "Early in the week, Ms Vane called to say that two separate flats were now ready. She said that she was very sorry about the mistake, and that both of them must leave Flat 4B by Sunday.",
+   "Odile and Sam both said that it was wonderful news, and they smiled very brightly. Neither of them meant it, but neither of them could say so.",
+   "On Thursday it was Sam's birthday, and Odile baked him a cake. It leaned to one side and tasted a little burnt, but Sam said that it was the best birthday cake in the world.",
+   "That evening they turned on some music and danced around the kitchen. Then, without a word, they knelt down and peeled the blue tape from the floor, strip by strip.",
+   "In the middle of the night, a great storm began, and rain started to leak through the roof of the study. Odile heard the dripping and ran in to find water falling toward Sam's hard drive.",
+   "Odile threw her coat over the hard drive and shouted for Sam to wake up. He leaped up from the sofa, grabbed the drive and put a bowl under the leak, and together they saved everything.",
+   "When the storm was over, Sam checked the hard drive, and it still worked. He told Odile that she had saved his whole career, and then he hugged her, and the hug lasted a long time.",
+   "In the morning, Ms Vane arrived with two sets of keys for the two new flats. Neither Odile nor Sam said anything, and they each quietly took a set, as if it were a medicine they did not want.",
+   "For two days, they packed their boxes without talking much. The walls grew bare, the shelves were empty, and the flat began to echo, the way a flat does when the people have gone.",
+   "Mrs Okonkwo called Odile down for tea and told her that she was moving soon to live near her daughter. Then she said, gently, that she thought the two of them were being rather foolish.",
+   "Meanwhile, Dev took Sam out for dinner and told him very clearly to say how he felt. Sam said that he was no good at that, and Dev said that this was exactly why he had to try.",
+   "On Saturday, Tilly played in her first recital at the Corn Hall. Odile stood at the side of the stage, feeling nervous for her pupil, and Sam sat at the back with a microphone, ready to record.",
+   "Halfway through her piece, Tilly forgot the next notes and froze. Odile quietly walked on to the stage, lifted her own violin and played beside her until Tilly found her way again.",
+   "The whole hall clapped and cheered, and Tilly's parents hugged Odile and thanked her. At the back, Sam had recorded every note, and he wiped his eyes quickly with his sleeve.",
+   "After the concert, they walked home slowly under the streetlamps. Odile stopped and told Sam, in a small voice, that she did not want to move to a new flat on Sunday.",
+   "Sam said that he was very bad at saying things, but that he did not want to move either. He told her that the flat had never felt like a home until she had come into it.",
+   "Sam said that he had written to Mr Quill, the landlord, who had come home from abroad. Mrs Okonkwo's flat on the floor below was becoming free, and Mr Quill would rent it to them both, if they wanted it.",
+   "Odile laughed with joy and asked if he was asking her to live with him as a flatmate, or as something more. Sam went red and said that he was hoping for something more.",
+   "Odile said that she wanted more as well, and she put her arms around his neck. They kissed on the stairs of the old house, where the echo carried the sound up and down.",
+   "On Sunday, Odile and Sam carried their boxes down just one floor, from Flat 4B to Flat 3B. Biscuit the cat sat on the stairs and watched them with great interest.",
+   "Mr Quill, the landlord, met them at the door and gave them two keys on one ring. They each tried a key in the lock, and both of the keys turned the same door.",
+   "Months later, the choir album Stairwell Songs was in every shop, and Odile's violin was heard on the very first track. That evening she and Sam came home together and opened their door with two keys."
+  ],
+  "C1C2": [
+   "Odile Brandt dragged her suitcase and her violin case up four flights of narrow, creaking stairs, pausing on every landing to catch her breath. In her coat pocket, wrapped in a tissue like a small treasure, was the key to Flat 4B, her new home for the coming year. She had been waiting for this moment for weeks, and her heart was beating faster than the climb could explain.",
+   "Odile turned the key, pushed open the door and stopped dead on the threshold. In the middle of the room, among a dozen half-opened boxes, stood a tall man with large headphones around his neck, and in his hand he held a key identical to hers. For a moment they stared at each other like two cats who had chosen the same cushion.",
+   "The man introduced himself as Sam Ferreira and politely informed her that this was his flat. They laid their rental papers side by side on the kitchen counter, and with a creeping sense of dread saw that both documents described Flat 4B, both began that very day, and both bore the same signature. Someone, somewhere, had made a very expensive mistake, and it was now sitting in the middle of the kitchen with two suitcases.",
+   "Sam telephoned Ms Vane at Vane and Co and put her on speaker, and she apologised so many times that the word lost all meaning. She had, she admitted, given the same flat to both of them by mistake, and there was nothing else on her books for at least a month. The silence that followed was the sound of two people discovering that they had nowhere else to go.",
+   "Odile's old flat had been sold the previous week, and Sam's lease had expired on Sunday, so neither of them had a bed to go back to. Each had already paid a hefty deposit to Vane and Co, which left them with no savings, no spare room at a friend's and no hope of a cheap hotel in a city so expensive. It was clear, as they sat on their suitcases, that someone would have to give way.",
+   "At last they agreed, with the grim politeness of strangers in a lifeboat, to share the flat for one month and not a day more. There was one bedroom and one tiny study with a sofa in it, and they flipped a coin to decide who slept where. Odile won the bedroom, Sam took the sofa without complaint, and both of them privately wished they had been born in a different century.",
+   "Sam rummaged in a box, produced a roll of blue masking tape and laid a perfectly straight line down the middle of the long hall. They divided the kitchen shelves, the fridge and even the bathroom cupboard with the same strict fairness, and each marked their own half with small paper labels. It was ridiculous, and it was also, strangely, rather a relief to know exactly where they stood.",
+   "That evening Odile took out her violin and began to practise her scales, up and down and up again, with the dedication of a woman who had done it every day since she was six. On the other side of the wall Sam pressed his headphones tighter over his ears, but nothing in the world could shut out that bright, relentless sound. He did admit, grudgingly and only to himself, that it was beautifully in tune and that the scales were far from dull.",
+   "Late at night, Sam sat in the tiny study editing sound for a living, and every so often he burst out laughing at something that only he could hear. Odile lay in the bedroom listening to the strange, muffled noises, a goat, a door, a whale, a spoon, and wondered what kind of person made a career out of this. She could not decide whether she was more annoyed or more curious, and that uncertainty kept her staring at the ceiling until nearly two.",
+   "In the morning they drew up a careful timetable and fixed it to the fridge with a magnet shaped like a banana. Odile could play her violin between four and six each afternoon, and Sam could record whatever he liked after nine at night, provided that he used headphones for anything that sounded like a stampede. Both of them signed it at the bottom with great ceremony, like two nations agreeing to an international treaty.",
+   "Within a week the fridge door had become a battleground of tiny yellow notes. One said that his socks were not furniture, another that violins should not be left on the kitchen table, and a third, in capital letters, that a pan is not a plant pot. Gradually the tone changed, and the notes grew funnier, and Odile caught herself reading them in the morning before she had even made her coffee.",
+   "One evening a fat grey cat slipped in through the open kitchen window, shot down the hall and vanished beneath the sofa. Odile and Sam chased it from room to room, colliding in the doorway and apologising to each other and the cat, until they ended up on the floor, helpless with laughter. It was the first time either of them had forgotten about the tape line.",
+   "A knock came at the door, and an elderly woman in a green cardigan stood on the landing holding out her arms for her cat. She was Mrs Okonkwo from the flat below, she said, and Biscuit had a habit of visiting the top floor, though never before had she been chased by such a lively pair. Her eyes twinkled as she tucked the cat under her arm and said that it was a pleasure to hear the house so full of sound.",
+   "Odile was hiding something, and it lay folded in a drawer beneath her socks. Three months earlier the city orchestra had cut her position in a round of savings, and she had been too ashamed to tell her family, who still imagined her sitting in the second row every night. She taught children in the afternoons to pay the rent, and she called it temporary, though she no longer believed that word.",
+   "Sam had just received the biggest commission of his small career, and it was both thrilling and terrifying. The Larkspur Children's Choir wanted an album recorded in four weeks, and every note had to sound clean and warm and utterly effortless. If he failed, his tiny studio would probably fail with him, and he did not have another plan.",
+   "The trouble was that the flat was never quiet: there was a violin in the afternoon, traffic in the evening and pipes that groaned at night like a ship in a storm. Sam tried a blanket over the window, a mattress against the door and finally a pillow on his own head, but nothing worked, and he began to lose sleep. A good recording needs silence, and silence was exactly what he could not afford.",
+   "One cold evening Odile came home exhausted and found a pot of hot soup standing on the blue tape in the hall, exactly halfway between their territories. A note beside it said, in Sam's untidy handwriting, that the line was to be respected by everything except soup. She stood in the hallway with her coat still on and felt something inside her chest begin to thaw.",
+   "The soup was delicious, rich and peppery and sweet with roasted tomatoes, and Odile ate every last spoonful sitting on the kitchen floor. Afterwards she wrote a note of thanks on the back of an envelope, adding that at six o'clock the next day she would be playing some Bach and that he was welcome to listen. She stuck it on the fridge, then took it down, then stuck it up again.",
+   "At six o'clock, Odile stood on her side of the tape and played a slow piece by Bach, and the music rose through the flat like warm water filling a bath. Sam, who had meant only to listen for a minute, took off his headphones and stood motionless in the study doorway until the final note had faded to nothing. He did not clap or speak, but his silence was the finest compliment she had received in years.",
+   "On Wednesday afternoon Odile gave her weekly lesson to a nine-year-old pupil named Tilly, who was so shy that she spoke mostly to her shoes. When a peg on Tilly's small violin slipped, Sam crept out of the study, murmured something kind and mended it in less than a minute with a tiny tool from his sound kit. Tilly smiled for the first time that day, and Odile found herself looking at him differently.",
+   "One restless night Sam wandered out onto the stair landing and clapped his hands once, just to test the air. The sound rang up through the tall building and back down again, round and warm and shimmering, and he realised with a jolt that the stairwell was the finest recording space he had ever found. He laughed out loud in the empty stairwell, and the echo laughed back at him a moment later, as if it had been waiting.",
+   "At midnight Sam set up his microphones on the stairs, and, after a deep breath, he asked Odile whether she would play a few notes so that he could test the sound. She stood on the landing in her pyjamas and played, and the whole stairwell sang with her, while Mrs Okonkwo opened her door a crack and silently set two cups of tea on the mat. No one spoke afterwards, in case a single careless word should break the spell that the stairwell had cast.",
+   "Sam played the recording back through his headphones and then handed them to Odile, and she heard her own violin glowing in the stairwell as she had never heard it before. He said, very quietly, that she was far more than a teacher and that if she ever called herself only that again he would put a sign on the fridge. She laughed, but her eyes were wet, and she turned away quickly to pretend that she was looking for her tea.",
+   "They sat together on the cold stairs with their tea, and in the soft echo of the empty building Odile told Sam the truth about the orchestra. She said that she had wept for a whole week when the letter came, and that she was still too ashamed to tell her mother, who had sacrificed so much for her lessons. Sam listened without interrupting, which was the greatest gift anyone could have given her.",
+   "Then Sam, who rarely spoke of his feelings, admitted in a low and halting voice that he was frightened as well. If the choir album was less than perfect, he said, his small studio would probably close within the year, and he would have to give up the only work he had ever loved. Odile placed her hand on his arm, and neither of them moved it away.",
+   "Odile's mother telephoned from the other side of the country and announced, in a voice bubbling with joy, that she was coming to stay for the weekend. She was looking forward above all to hearing her daughter perform with the orchestra, she said, and she had already bought a new scarf for the occasion. Odile sat down very slowly on the edge of the bath, holding the phone away from her ear, and tried to remember how to breathe.",
+   "Odile's mother arrived on Saturday morning with a small bag and a very large cake, and that evening Sam cooked a splendid dinner for the three of them. She pronounced him a charming young man, praised his cooking to the skies and glanced at her daughter with an expression that was hopeful and curious. Odile could hardly eat for the guilt that sat on her chest like a heavy, silent cat, and she smiled so hard that her cheeks ached.",
+   "On Sunday morning, while Sam was out buying bread, Odile took a deep breath and told her mother everything about the orchestra, the letter and the months of pretending. Her mother listened with a very still face, and then she wrapped her daughter in a hug and said that she had never been prouder, because teaching children to love music was just as great a gift. They both cried a little, and then they laughed at how much they had cried.",
+   "Early in the week Ms Vane telephoned with the news that two entirely separate flats had become available, one on each side of the city. She apologised once again for the mistake, thanked them for their patience and added, in her most businesslike voice, that both of them would need to move out of Flat 4B by Sunday. Odile put down the phone and looked at the wall for a long time.",
+   "They both declared that it was wonderful news, and they smiled at one another with the dazzling brightness of two people who have been told that a holiday is over. Neither of them meant it in the least, yet neither could find the words to say so, and the silence in the hall grew thick and slightly awkward. The blue tape lay between them on the floor like a narrow, silent river that neither of them quite knew how to cross.",
+   "On Thursday it was Sam's thirty-first birthday, and Odile, who could play Bach perfectly but had never baked a cake in her life, produced a creation that leaned dangerously to the left. It tasted faintly of smoke, and the icing had slid into a puddle, but Sam ate two slices and declared it the best birthday cake he had ever been given. He was entirely serious, and she could tell from the way he looked at her, which was far better than any frosting.",
+   "That evening they put on some music and danced clumsily around the kitchen, bumping into the table, the fridge and one another. Then, without a word, they knelt in the hall and began to peel the blue tape from the floor, one long sticky strip at a time, until the boards lay bare. It was the first time in a month that the flat felt like one home instead of two.",
+   "In the middle of the night a great storm broke over the city, and rain began to leak through the roof above Sam's desk in a heavy, rhythmic drip. Odile heard it from her bedroom and ran in to find water dropping steadily toward the hard drive that held the whole choir album. Sam was asleep on the sofa, and there was not a moment to lose.",
+   "Without stopping to think, Odile flung her good wool coat over the hard drive and shouted at the top of her voice for Sam to wake up. He sprang off the sofa, snatched the drive to his chest, shoved a mixing bowl under the leak and then stared at her coat, which was now soaking wet. Between them they had saved the album, and neither of them regretted the coat.",
+   "When the storm finally eased, Sam connected the drive with trembling hands, and every file was there, safe and perfectly intact. He told Odile in a shaky voice that she had just saved his entire career, and then he hugged her, hard, and neither of them seemed willing to let go first. Outside, the rain fell softly, and the drip into the bowl kept time like a small, patient metronome.",
+   "In the morning Ms Vane appeared on the landing with two sets of keys, one for each of the new flats, and a bright and slightly nervous smile. Neither Odile nor Sam said anything at all, and each of them took a set as though accepting a medicine they did not want to swallow. Ms Vane, who was not as foolish as she sometimes looked, glanced from one to the other and said nothing either.",
+   "For two days they packed their belongings with hardly a word, wrapping cups in newspaper and winding cables into neat coils. The shelves emptied, the pictures came off the walls, and the flat began to echo, the way a home does when it is quietly preparing to forget the people who were happy in it. Even the fridge door, stripped at last of its yellow notes and its banana magnet, looked lonely and rather accusing.",
+   "Mrs Okonkwo invited Odile down to Flat 3B for tea and announced, as she stroked the cat on her lap, that she would soon be leaving to live near her daughter. Then she looked over her glasses and remarked, with great tenderness, that two clever young people could be remarkably foolish about the one thing that mattered. Odile stirred her tea for a very long time and pretended not to understand.",
+   "Meanwhile Dev took Sam out for dinner and told him in his usual direct way to say what he felt before it was too late. Sam protested that he was no good at speeches, and that she deserved someone who could find the right words. Dev replied that nobody ever finds the right words, and that the wrong ones said aloud are worth more than the right ones kept silent, while Sam stared miserably at his noodles.",
+   "On Saturday evening the Corn Hall was crowded with parents, grandparents and small children in their best clothes, all waiting for the recital to begin. Odile stood at the side of the stage feeling more nervous than she had ever been for a concert of her own, while Sam sat at the back of the hall with a microphone, silently offering his help. At last Tilly came out onto the stage, holding her violin as carefully as if it were a precious egg that might crack.",
+   "Halfway through her piece Tilly forgot what came next, and the whole hall held its breath as she stood there, pale and frozen, with her bow in the air. Without hesitation Odile walked onto the stage, raised her own violin and played the line softly beside her, until the small girl's fingers remembered the way and the two melodies became one. Together they reached the final bar, and the applause that followed was so thunderous that the old windows rattled in their frames.",
+   "The entire hall rose to applaud, and Tilly's parents rushed forward to thank Odile with tears in their eyes. At the back of the room Sam, who had captured every note on his microphone, wiped his face quickly with his sleeve and told himself sternly that sound engineers do not cry. He was thinking, with a pang, that within a few days he would no longer live under the same roof as the finest musician he knew.",
+   "After the concert they walked home slowly through the lamplit streets, with the sounds of the evening humming quietly around them. At the corner of Lamplighter Lane Odile stopped, looked up at him and confessed in a small, steady voice that she did not want to move out on Sunday, or on any other day. It was the bravest sentence she had spoken since the orchestra letter, and her voice shook only a little on the last word.",
+   "Sam, who had spent a lifetime listening rather than speaking, said that he was dreadful at saying things and that he hoped she would forgive the clumsiness. Then, with a deep breath, he told her that he did not want to move either, and that the flat had never felt like a home until a stranger with a violin had walked into it by mistake. Odile found that she was smiling and crying together, which is a very difficult thing to do under a streetlamp.",
+   "Sam explained, a little sheepishly, that he had written to the landlord, Mr Quill, who had at last returned from abroad. Mrs Okonkwo's flat on the floor below was about to become free, with its high ceilings and its big front room, and Mr Quill would gladly rent it to the two of them on a single lease. Mrs Okonkwo, it turned out, had arranged the whole thing and told no one.",
+   "Odile began to laugh with sheer happiness and asked whether he was proposing that she live with him as a flatmate or as something rather more interesting. Sam turned red to the tips of his ears and said, in the most honest sentence of his life, that he was hoping very much for the second. She had never heard anything so beautiful, not even in a concert hall, and she had heard a great deal of beautiful music.",
+   "Odile said that she wanted exactly the same thing, and she stepped forward and put her arms around his neck. They kissed on the stairs of the old house, in the same stairwell where he had first recorded her violin, and the echo carried the sound of their happiness up through every floor. Somewhere above, a door opened a crack, and a very old, very satisfied voice said, at last.",
+   "On Sunday Odile and Sam carried their boxes down just one flight of stairs, from the top-floor flat to the airy rooms of 3B, while Dev ran up and down with the heavy things. Biscuit supervised from the bottom step, flicking her tail critically at every box and sniffing the violin case as if it were an important visitor. It was, by a wide margin, the shortest and easiest move that either of them had ever made.",
+   "Mr Quill, the landlord, met them at the door of Flat 3B, shook hands solemnly and gave them two brass keys on a single ring. Odile and Sam each tried one in the lock at the same moment, and both keys turned smoothly, as if the door had been waiting for exactly this pair. Mrs Okonkwo, standing in the doorway of the flat across the hall, wiped her eyes and pretended to be looking for her cat.",
+   "Months later the choir album Stairwell Songs was sold in shops across the country, and the very first track began with a single, shimmering note from Odile's violin. That evening she and Sam climbed the steps of Lamplighter Lane together, each with a key in hand, and opened the same door at the same moment. Inside, the lamp was already lit, the cat was already asleep and the sound of home was waiting."
+  ]
+ }
+}

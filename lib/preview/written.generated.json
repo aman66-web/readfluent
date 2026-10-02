@@ -399,6 +399,80 @@
   }
  },
  {
+  "slug": "two-keys-one-door",
+  "title": "Two Keys, One Door",
+  "author": "The Flatshare",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "A letting agent gave the same flat to two strangers on the same day. Odile has a violin and a secret. Sam has headphones and a deadline. One month, one strip of tape down the hall, and two keys to one door.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Two Keys, One",
+    "Door"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "key",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "house",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "summer-at-willow-bay",
+  "title": "Summer at Willow Bay",
+  "author": "People We Meet on Vacation",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "Nora Bell comes to Willow Bay only to sell her late aunt's boat hut. Then come the dawn rowing lessons, a grumpy boat builder next door and one foggy night on an island. Can one summer change where she belongs?",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "Summer at",
+    "Willow Bay"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "waves",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "anchor",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "a-study-in-scarlet",
   "title": "A Study in Scarlet",
   "author": "Arthur Conan Doyle",
@@ -996,6 +1070,43 @@
   }
  },
  {
+  "slug": "the-jungle-book",
+  "title": "The Jungle Book",
+  "author": "Rudyard Kipling",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "A boy raised by wolves, a bear who teaches the Law, a panther who loves him and a tiger who wants him. Follow Mowgli, brave little Rikki-Tikki-Tavi and a boy called Toomai through Kipling's jungle. Can the man-cub find where he belongs?",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Jungle",
+    "Book"
+   ],
+   "size": 17,
+   "author": "RUDYARD KIPLING",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "tree",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "footprints",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "strange-case-of-dr-jekyll-and-mr-hyde",
   "title": "Strange Case of Dr Jekyll and Mr Hyde",
   "author": "Robert Louis Stevenson",
@@ -1020,6 +1131,44 @@
     },
     {
      "id": "mask",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lamp",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-academy-under-the-mountain",
+  "title": "The Academy Under the Mountain",
+  "author": "Harry Potter",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "Wren Tallow can hear the hum inside every lamp, and it is her ticket to a secret school carved inside a mountain. But the mountain's great heart is growing quiet, and only a new student who listens closely can find out why.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Academy",
+    "Under the",
+    "Mountain"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mountain",
      "x": 100,
      "y": 82,
      "s": 0.92
@@ -1388,6 +1537,43 @@
   }
  },
  {
+  "slug": "goals-that-stick",
+  "title": "Goals That Stick",
+  "author": "Think and Grow Rich",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Kofi has wished for years to make pottery, and nothing has happened. With help from Ana, a retired mountain guide, he turns a wish into a goal with a date, a plan and a price. Follow six months of real progress, slumps and all.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "Goals That",
+    "Stick"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mountain",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "chart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-science-of-getting-rich",
   "title": "The Science of Getting Rich",
   "author": "Wallace D. Wattles",
@@ -1610,6 +1796,115 @@
   }
  },
  {
+  "slug": "assets-and-liabilities-in-plain-words",
+  "title": "Assets and Liabilities in Plain Words",
+  "author": "Rich Dad Poor Dad",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Leila's money disappears every month and she cannot say why. Over tea, a retired shopkeeper gives her one simple question that sorts everything she owns or owes into assets and liabilities, and then shows her what to do next.",
+  "cover": {
+   "bg": "#0B3B4A",
+   "title": [
+    "Assets and",
+    "Liabilities",
+    "in Plain",
+    "Words"
+   ],
+   "size": 13.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "coin",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "house",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "how-money-really-works",
+  "title": "How Money Really Works",
+  "author": "The Psychology of Money and The Intelligent Investor",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Ana and Ben start work on the same day, on the same pay. Ten years later their money tells two very different stories. Find out why saving, patience, luck and fear matter more than clever tricks, and how money really works.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "How Money",
+    "Really Works"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "chart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "start-investing-today",
+  "title": "Start Investing Today",
+  "author": "The Little Book of Common Sense Investing",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Mira has some savings and no idea where to start. With the help of her cousin Dev, she learns what shares, bonds and index funds are, why costs matter, and how a simple plan can carry an ordinary person through good years and bad.",
+  "cover": {
+   "bg": "#DDF3E4",
+   "light": true,
+   "title": [
+    "Start",
+    "Investing",
+    "Today"
+   ],
+   "size": 18.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "tree",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "coin",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-index-fund-way",
   "title": "The Index Fund Way",
   "author": "A Random Walk Down Wall Street",
@@ -1639,6 +1934,44 @@
     },
     {
      "id": "tree",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "small-savings-big-future",
+  "title": "Small Savings, Big Future",
+  "author": "The Millionaire Next Door",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Amara and Joel earn a fair wage, yet each month their money seems to vanish. With help from wise Aunt Wen, they learn small, steady habits that turn spare coins into freedom. Real people, real choices, and a future that grows quietly.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Small",
+    "Savings, Big",
+    "Future"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "coin",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "house",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -2260,6 +2593,43 @@
   }
  },
  {
+  "slug": "where-people-live-longest",
+  "title": "Where People Live Longest",
+  "author": "The Blue Zones",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Elena is a data analyst, and her grandmother Nina is about to turn ninety. Before the birthday party, the two of them study maps, charts and daily habits to find out why people in some places live longer than others, and what is luck, what is place and what is choice.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Where People",
+    "Live Longest"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "globe",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "heart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "foods-that-protect-you",
   "title": "Foods That Protect You",
   "author": "Eat to Beat Disease",
@@ -2551,6 +2921,43 @@
     },
     {
      "id": "feather",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "twelve-years-a-slave",
+  "title": "Twelve Years a Slave",
+  "author": "Solomon Northup",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "Solomon Northup was a free Black man, a husband, a father and a fine violin player, living in New York. In 1841 two strangers tricked him, and he woke in chains. This is his true story of twelve years of bondage, and of the day he was found.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Twelve Years",
+    "a Slave"
+   ],
+   "size": 14,
+   "author": "SOLOMON NORTHUP",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "anchor",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -2853,6 +3260,44 @@
     },
     {
      "id": "heart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "everything-you-missed-in-school",
+  "title": "Everything You Missed in School",
+  "author": "A Short History of Nearly Everything",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Nobody has time to teach you everything. This book takes you from the Big Bang to your own brain in fifty short steps, covering the stars, the Earth, life, atoms and the way science works, and it never talks down to you.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Everything",
+    "You Missed in",
+    "School"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "globe",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
      "x": 160,
      "y": 38,
      "s": 0.36
