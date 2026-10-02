@@ -1,0 +1,417 @@
+{
+  "slug": "strange-case-of-dr-jekyll-and-mr-hyde",
+  "meta": {
+    "blurb": "In foggy London, a quiet lawyer follows a trail of strange clues to a cruel little man called Hyde, and to the secret of his old friend Dr Jekyll. A classic tale of good, evil and the dark side we hide.",
+    "bible": "Mr Gabriel Utterson: a London lawyer, plain, serious and loyal, the main point of view. Mr Richard Enfield: his cousin and Sunday walking companion, a lively man about town. Dr Henry Jekyll: a rich, kind and respected doctor, friend of Utterson; secretly the maker of the Potion. Mr Edward Hyde: a small, pale, hateful young man who seems deformed though no one can say how; the dark side of Jekyll. Dr Hastie Lanyon: a doctor and old friend of Jekyll, who quarrels with him and dies of shock. Poole: Jekyll's loyal butler. Sir Danvers Carew: a kind old Member of Parliament, murdered by Hyde. Mr Guest: Utterson's clerk who knows handwriting. Inspector Newcomen: the police officer from Scotland Yard. Soho: the poor district of London where Hyde lives. Cavendish Square: where Lanyon lives. Regent's Park: where Jekyll changes without the Potion. London: the city of fog and gaslight. Key objects: the Door in the back street, the Cheque, the Cane that Utterson gave Jekyll, the Cabinet and laboratory behind Jekyll's house, the Potion made from a powder or Salt, the Statement. Voice and tone: sombre, steady and suspenseful, a mystery told by Utterson that is solved only at the end by two letters; deaths are stated plainly with no gore; the transformation is chemical, never magic. The story follows Robert Louis Stevenson's Strange Case of Dr Jekyll and Mr Hyde (1886), which is in the public domain."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Mr Utterson, a plain-faced lawyer, walks through a foggy London street",
+      "summary": "Mr Utterson, a quiet and loyal London lawyer, is introduced."
+    },
+    {
+      "n": 2,
+      "scene": "Utterson and Enfield walk past a shabby door in a smart street",
+      "summary": "On a Sunday walk, Utterson and his cousin Enfield pass a strange, shabby door in a handsome street."
+    },
+    {
+      "n": 3,
+      "scene": "A small man runs into a little girl at a street corner at night",
+      "summary": "Enfield tells how, on a black winter night, a small man knocked down a little girl and walked calmly over her."
+    },
+    {
+      "n": 4,
+      "scene": "Angry neighbours and a doctor surround the small man in the street",
+      "summary": "Enfield seizes the man, and the angry crowd makes him pay the girl's family."
+    },
+    {
+      "n": 5,
+      "scene": "The small man leads the crowd to the door and comes out with money",
+      "summary": "The man goes through the door and returns with gold and a cheque for the girl's family."
+    },
+    {
+      "n": 6,
+      "scene": "Enfield tells Utterson the cheque was good and the man seemed odd",
+      "summary": "The cheque proves real, and Enfield says the man was horrible to look at, though he cannot say why."
+    },
+    {
+      "n": 7,
+      "scene": "Utterson and Enfield promise to say no more about the door",
+      "summary": "Enfield says the man's name is Hyde and the door belongs to a house, and they agree to speak of it no more."
+    },
+    {
+      "n": 8,
+      "scene": "Utterson opens a safe at night to take out an old paper",
+      "summary": "At home, Utterson takes out the will of his friend Dr Jekyll and re-reads it with unease."
+    },
+    {
+      "n": 9,
+      "scene": "Utterson visits Dr Lanyon in his comfortable room and they talk about Jekyll",
+      "summary": "Utterson asks Dr Lanyon about Hyde and learns that Lanyon and Jekyll have quarrelled over Jekyll's strange science."
+    },
+    {
+      "n": 10,
+      "scene": "Utterson tosses in bed and dreams of a faceless figure in the fog",
+      "summary": "Utterson cannot sleep and dreams of a faceless figure trampling a child, and decides to find Hyde."
+    },
+    {
+      "n": 11,
+      "scene": "Utterson waits in lamplight beside the shabby door as a small man approaches",
+      "summary": "After many nights of waiting, Utterson meets Mr Hyde at the door."
+    },
+    {
+      "n": 12,
+      "scene": "Utterson looks closely at Hyde, who stands pale in the lamplight",
+      "summary": "Utterson sees Hyde clearly; the man is small, pale and strangely disgusting."
+    },
+    {
+      "n": 13,
+      "scene": "Hyde gives Utterson an address in Soho, then goes inside and shuts the door",
+      "summary": "Hyde gives his Soho address and slips inside the door; Utterson wonders what hold he has over Jekyll."
+    },
+    {
+      "n": 14,
+      "scene": "Poole stands in Jekyll's grand doorway and shakes his head at Utterson",
+      "summary": "Utterson goes to Jekyll's house, where Poole says Hyde has a key and the servants have been told to obey him."
+    },
+    {
+      "n": 15,
+      "scene": "Jekyll sits at his dinner table with Utterson after the guests have gone",
+      "summary": "At a dinner party, Utterson raises the will, and Jekyll says he can be rid of Hyde whenever he likes."
+    },
+    {
+      "n": 16,
+      "scene": "A maid at an upstairs window watches two men meet in moonlight",
+      "summary": "A year later, a maid at her window sees a small man beat a kind old gentleman to death in the street."
+    },
+    {
+      "n": 17,
+      "scene": "A police officer shows Utterson half a broken cane and a letter",
+      "summary": "The dead man is Sir Danvers Carew, and Utterson recognises half the broken cane as his own gift to Jekyll."
+    },
+    {
+      "n": 18,
+      "scene": "Utterson and the officer walk through the yellow fog of Soho",
+      "summary": "Utterson leads Inspector Newcomen through the fog to Hyde's poor lodgings in Soho."
+    },
+    {
+      "n": 19,
+      "scene": "The inspector searches Hyde's untidy rooms and finds the other half of the cane",
+      "summary": "Hyde has gone, but his rooms have been searched, and the second half of the broken cane lies behind a door."
+    },
+    {
+      "n": 20,
+      "scene": "Jekyll sits pale and ill in his laboratory with Utterson",
+      "summary": "Jekyll tells Utterson that he is done with Hyde forever and shows him a note from Hyde."
+    },
+    {
+      "n": 21,
+      "scene": "Mr Guest, the clerk, holds two letters side by side under a lamp",
+      "summary": "Utterson's clerk Mr Guest compares Hyde's note with Jekyll's handwriting and finds them alike."
+    },
+    {
+      "n": 22,
+      "scene": "Jekyll welcomes friends into his bright drawing room",
+      "summary": "For two months, Jekyll recovers, gives to charity and entertains his friends happily."
+    },
+    {
+      "n": 23,
+      "scene": "Jekyll shuts his door and Poole turns Utterson away at the steps",
+      "summary": "In January, Jekyll suddenly shuts himself away, and Utterson is told he will see no one."
+    },
+    {
+      "n": 24,
+      "scene": "Utterson sits in Dr Lanyon's room as the sick man shakes with fear",
+      "summary": "Utterson goes to Lanyon, who has fallen ill, and finds him changed and terrified."
+    },
+    {
+      "n": 25,
+      "scene": "Lanyon lies in bed, writing a letter and sealing an envelope",
+      "summary": "Lanyon dies within weeks, leaving a sealed envelope for Utterson to open only after Jekyll is dead or gone."
+    },
+    {
+      "n": 26,
+      "scene": "Poole stands at Jekyll's door and shakes his head at Utterson",
+      "summary": "Jekyll keeps writing short notes that he wants to be alone, and Poole says he lives in the room above the laboratory."
+    },
+    {
+      "n": 27,
+      "scene": "Enfield and Utterson stop in a little courtyard beneath a barred window",
+      "summary": "On a Sunday walk, Utterson and Enfield stop in the court behind the door, and Jekyll appears at his window."
+    },
+    {
+      "n": 28,
+      "scene": "The window slams shut and two men walk away in shock",
+      "summary": "The window is slammed shut, and the two cousins leave without speaking."
+    },
+    {
+      "n": 29,
+      "scene": "Poole stands at Utterson's door at night, pale and breathless",
+      "summary": "One windy March night, Poole comes to Utterson's house with a frightened face."
+    },
+    {
+      "n": 30,
+      "scene": "Utterson and Poole hurry through a windy empty street",
+      "summary": "The two men hurry through the cold, empty streets to Jekyll's house."
+    },
+    {
+      "n": 31,
+      "scene": "Poole speaks quietly outside the locked door of the laboratory",
+      "summary": "Poole says that for a week the voice in the cabinet has been begging for a drug, and he thinks it is not his master."
+    },
+    {
+      "n": 32,
+      "scene": "Poole describes a masked small figure leaping behind some crates",
+      "summary": "Poole once saw a small masked figure that ran from him, and swears it was not his master."
+    },
+    {
+      "n": 33,
+      "scene": "Utterson and Poole raise an axe before the locked cabinet door",
+      "summary": "Utterson calls out to Jekyll, hears a strange answer, and orders Poole to break the door down with an axe."
+    },
+    {
+      "n": 34,
+      "scene": "A small man in oversized clothes lies on a laboratory floor",
+      "summary": "The door breaks, and the two men find Hyde lying dead in Jekyll's clothes, a vial in his hand."
+    },
+    {
+      "n": 35,
+      "scene": "Utterson searches the cabinet and finds a thick packet on the desk",
+      "summary": "Utterson finds a packet and a note from Jekyll, naming Utterson in place of Hyde in the will, and telling him to read Lanyon's letter first."
+    },
+    {
+      "n": 36,
+      "scene": "Utterson sits by the fire at home, reading a letter by lamplight",
+      "summary": "Utterson goes home and reads Lanyon's letter, which tells how Jekyll asked him for help one night."
+    },
+    {
+      "n": 37,
+      "scene": "Lanyon breaks into Jekyll's cabinet and lifts a drawer of powders and a vial",
+      "summary": "Lanyon fetches the drawer from Jekyll's cabinet, as asked, and takes it home to Cavendish Square."
+    },
+    {
+      "n": 38,
+      "scene": "A small man in baggy clothes enters Lanyon's room at midnight",
+      "summary": "At midnight, a small man in baggy clothes arrives, and Lanyon feels a strong dislike for him."
+    },
+    {
+      "n": 39,
+      "scene": "The small man drinks from a glass as a shocked Lanyon looks on",
+      "summary": "The man mixes the drug and drinks it, and Lanyon watches him change into Jekyll."
+    },
+    {
+      "n": 40,
+      "scene": "Lanyon lies in bed, pale and still, with a pen in his hand",
+      "summary": "Lanyon says the shock is killing him, and he will say nothing more of what Jekyll told him."
+    },
+    {
+      "n": 41,
+      "scene": "Utterson opens Jekyll's long statement and begins reading in the night",
+      "summary": "Utterson opens Jekyll's own statement, which begins with his early life."
+    },
+    {
+      "n": 42,
+      "scene": "A young Jekyll sits in a dim study, his face half in shadow",
+      "summary": "Jekyll says every person has two natures, good and evil, and he dreams of separating them."
+    },
+    {
+      "n": 43,
+      "scene": "Jekyll mixes powders and liquids in his laboratory, bubbling glass in his hands",
+      "summary": "After years of research, Jekyll makes a drug from a salt, and decides to test it on himself."
+    },
+    {
+      "n": 44,
+      "scene": "Jekyll doubles over in pain in his laboratory, then rises younger and smaller",
+      "summary": "The drug brings great pain and then a feeling of wild freedom, and Jekyll becomes the smaller, younger Hyde."
+    },
+    {
+      "n": 45,
+      "scene": "Hyde looks into a mirror in a dim room, grinning wildly",
+      "summary": "Jekyll names his new self Edward Hyde and takes a house for him in Soho."
+    },
+    {
+      "n": 46,
+      "scene": "A crowd stands around a trampled girl in the street at night",
+      "summary": "Jekyll explains the night of the trampled child, and how Hyde grew bolder and crueller."
+    },
+    {
+      "n": 47,
+      "scene": "Hyde raises a heavy cane in the moonlit lane over a fallen old man",
+      "summary": "Jekyll tells how, as Hyde, he murdered Sir Danvers Carew in a sudden rage."
+    },
+    {
+      "n": 48,
+      "scene": "Jekyll kneels beside a bed in tears, his hands clasped",
+      "summary": "Jekyll sees the horror of what he has done, vows never to be Hyde again, and keeps his vow for two months."
+    },
+    {
+      "n": 49,
+      "scene": "Jekyll sits alone on a park bench, looking at his hands in horror",
+      "summary": "In Regent's Park, Jekyll changes into Hyde without the drug, and he must send letters to Lanyon for help."
+    },
+    {
+      "n": 50,
+      "scene": "Utterson sits with the last page in his hands as the candle burns low",
+      "summary": "Jekyll's supply of the salt runs out, he cannot make it again, and his last page is written as Hyde is about to take him for good; Utterson understands."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Mr Utterson was a London lawyer, and he was serious but very kind.",
+      "On Sundays Utterson walked with his cousin Enfield through the city.",
+      "Enfield said he once saw a strange man hurt a little girl.",
+      "Enfield caught the man, and an angry crowd soon came around him.",
+      "The man went through the door and came back with money.",
+      "The money was real, but the man was horrible to look at.",
+      "They agreed never to speak about the door again.",
+      "That night Utterson took out the will of his friend, Dr Jekyll.",
+      "Utterson visited Dr Lanyon and asked him about Jekyll and Hyde.",
+      "Utterson could not sleep, and he dreamed of a man without a face.",
+      "After many nights of waiting, Utterson saw a small man arrive.",
+      "Mr Hyde was small and pale, and Utterson did not like him.",
+      "Hyde gave his address in Soho and then went inside the door.",
+      "Utterson went to Jekyll's house, but Jekyll was not at home.",
+      "Jekyll said he could be free of Hyde whenever he liked.",
+      "One night a maid saw a terrible thing from her window.",
+      "The dead man was Sir Danvers Carew, a kind old man.",
+      "In the fog, Utterson led the police to Hyde's house in Soho.",
+      "Hyde was gone, but the police found the other half of the cane.",
+      "Jekyll told Utterson that he was finished with Hyde for ever.",
+      "Utterson's clerk saw that both letters had almost the same writing.",
+      "For two months, Jekyll was happy, and he saw his friends again.",
+      "In January, Jekyll shut his door and would not see anyone.",
+      "Utterson went to Lanyon, but his friend was very ill.",
+      "Lanyon died a few weeks later and left a letter for Utterson.",
+      "Jekyll sent notes to say that he wanted to be alone.",
+      "One Sunday, Utterson and Enfield saw Jekyll at a window.",
+      "The window shut quickly, and the two men went away in silence.",
+      "One night Poole came to Utterson's house, looking afraid.",
+      "They hurried through the cold, empty streets to Jekyll's house.",
+      "Poole said the voice behind the door was not his master's.",
+      "Poole once saw a small man with a mask run away.",
+      "Poole took an axe and began to break down the door.",
+      "Behind the door, they found Hyde dead on the floor.",
+      "On the desk, Utterson found a note and a packet for himself.",
+      "At home, Utterson opened Lanyon's letter and began to read.",
+      "Lanyon did what Jekyll asked and brought the drawer home.",
+      "At midnight a small man in large clothes came to the door.",
+      "The man drank the drug, and then he changed into Jekyll.",
+      "Lanyon wrote that the shock was killing him, and he said no more.",
+      "Utterson opened Jekyll's own story and began to read it.",
+      "Jekyll believed that every person has a good side and a bad side.",
+      "After years of work, Jekyll made a drug and decided to drink it.",
+      "He felt pain, and then he became smaller, younger and wild.",
+      "He called his new self Edward Hyde and took a house in Soho.",
+      "Hyde grew bolder, and his deeds became worse every week.",
+      "Jekyll told how, as Hyde, he killed the old man.",
+      "Jekyll cried and promised never to become Hyde again.",
+      "One day in the park, Jekyll became Hyde without the drug.",
+      "Jekyll's drug ran out, and at the end his story stopped."
+    ],
+    "B1B2": [
+      "Mr Utterson is a London lawyer with a plain face and a serious manner. Although he rarely smiles, he is loyal to his friends and helps them even when they fall into trouble.",
+      "Every Sunday, Mr Utterson walks through London with his cousin, Mr Enfield. One day they pass a bright, busy street, and in the middle of it stands an ugly door with no bell.",
+      "Enfield tells his cousin that he once passed this door at three o'clock on a black winter morning. A small, cruel-looking man ran into a little girl at the corner and walked calmly over her body.",
+      "Enfield ran up, caught the man by the collar and brought him back to the screaming child. A doctor and the girl's family came too, and they all wanted to make the man pay.",
+      "The man took out a key, opened the door and went inside. When he returned, he gave them ten pounds in gold and a Cheque for the rest.",
+      "The next morning, the bank paid the Cheque, so the name on it was real. Enfield says the man was horrible to look at, although he could never say exactly what was wrong with him.",
+      "Enfield says the man's name was Hyde, and that the door seems to be part of someone's house. The two cousins agree to say no more about it, and they walk on in silence.",
+      "At home that evening, Utterson takes out Dr Jekyll's will from his safe. It says that if Jekyll dies, everything he owns will go to his friend Edward Hyde.",
+      "Utterson visits Dr Lanyon, an old friend of both men, and asks if he has ever heard of Hyde. Lanyon has not, and he says that he and Jekyll have not spoken for ten years because Jekyll's ideas became too wild.",
+      "That night Utterson cannot sleep, and in his dreams he sees a faceless figure walking over a child. He decides that if he can only see Hyde's face, the mystery will become clearer.",
+      "Night after night, Utterson waits by the door in the cold. At last, he hears quick steps and sees a small, plainly dressed man take out a key.",
+      "Mr Hyde is small and pale, and he gives an impression of deformity, although Utterson cannot say where. His voice is low and broken, and Utterson feels a strong dislike and even a little fear.",
+      "Hyde coolly gives Utterson an address in Soho, and then he slips inside the door and shuts it. Utterson walks slowly away, afraid that Hyde has some hold over his friend Jekyll.",
+      "Utterson goes at once to Jekyll's fine house, where the butler Poole tells him the doctor is out. Poole adds that Mr Hyde has a key to the laboratory, and that the servants have all been told to obey him.",
+      "A few weeks later, Utterson stays behind after one of Jekyll's dinner parties and speaks of the will. Jekyll laughs it off and says he can be rid of Hyde whenever he chooses.",
+      "Nearly a year later, a maid sits at her window one moonlit night in October. She sees a small, evil-looking man meet a kind old gentleman, and she sees what happens next.",
+      "The police find the dead man's name is Sir Danvers Carew, and a letter to Utterson is in his pocket. The police also find half a broken cane, and Utterson knows he gave it to Dr Jekyll long ago.",
+      "A thick brown fog covers the city as Utterson leads Inspector Newcomen to Soho. The streets are dirty and the people look poor, and Utterson wonders how an heir to a fortune can live in such a place.",
+      "Hyde is not at home, and his rooms look as though someone has left in a hurry. Behind a door they find the other half of the broken cane, and burnt papers lie in the fireplace.",
+      "Utterson finds Jekyll pale and ill in his laboratory. Jekyll swears he will never see Hyde again, and he shows a note from Hyde which says that he has escaped for good.",
+      "Utterson shows the note to his clerk, Mr Guest, who knows a great deal about handwriting. Guest places it beside one of Jekyll's dinner invitations, and the two hands are alike, except for the slope.",
+      "For two months after the murder, Jekyll seems to be a new man. He gives money to charity, welcomes his friends to dinner and appears happy and at peace.",
+      "In January, however, Jekyll suddenly shuts himself in his house. Poole tells Utterson that his master is not seeing any visitors and is staying in his room.",
+      "Utterson goes to Dr Lanyon for advice, but he finds his old friend gravely ill. Lanyon has lost weight, his face is pale, and a deep fear sits in his eyes.",
+      "Within a few weeks of that visit, Dr Lanyon has died of shock and sorrow. He leaves Utterson an envelope marked to be opened only after the death or disappearance of Henry Jekyll.",
+      "Jekyll writes short notes to say that he must be left alone, and he does not leave the room above his laboratory. Poole tells Utterson that the doctor is no longer himself, and Utterson becomes more worried every week.",
+      "On a Sunday walk, Utterson and Enfield enter the little court beside the strange door. Jekyll is sitting at an open window, looking pale and sad, and Utterson asks him to come out for a walk.",
+      "The window is slammed shut before anyone can speak, and the two men stand stunned in the court. They leave in silence, and neither can quite believe what he has seen.",
+      "One windy night in March, Poole arrives at Utterson's door in a state of great fear. He says he thinks that something terrible has happened to his master, and begs the lawyer to come at once.",
+      "The wind is strong, the moon is pale, and the streets are empty of people. Utterson, who has never felt so afraid, hurries beside Poole to the doctor's house.",
+      "Poole explains that for a week someone inside the cabinet has been crying out for a certain drug. He is sure that the voice does not belong to Dr Jekyll, and the notes that come out under the door are never enough.",
+      "Poole says that one day he surprised someone in the old laboratory, wearing a mask and running away. The figure was small, much smaller than his master, and it was crying like a sick rat.",
+      "Utterson calls out and hears a thin, strange voice that begs for mercy. He decides that he cannot wait any longer, and Poole goes for an axe to break the door down.",
+      "At the fourth blow, the door breaks and falls into the room. On the floor lies Mr Hyde in clothes that are far too big for him, and he lies still, a broken glass in his hand.",
+      "They search the room but cannot find Jekyll anywhere. On the desk Utterson finds a new will that names him as heir, a thick packet and a short letter from Jekyll himself.",
+      "Utterson goes home, locks his door and opens the first letter, the one that Dr Lanyon left for him. It tells of the night when Lanyon first received an odd request from Jekyll.",
+      "Jekyll has also asked Lanyon to wait at home at midnight for a messenger. Lanyon follows these odd orders, fetches the drawer, and finds it full of powders, a red liquid and a notebook.",
+      "At midnight, a small man in clothes that are too big for him knocks at Lanyon's door. Lanyon feels a strange disgust, and the man asks, in great excitement, if he has the drawer.",
+      "The man mixes the powders with the red liquid and gulps down the mixture in front of Lanyon. His face swells and darkens, and a moment later Dr Jekyll is standing there in his place.",
+      "Lanyon writes that Jekyll then told him a long story, but he cannot bring himself to repeat it. He says his life is shaken to its root, and that he expects to die soon.",
+      "With a heavy heart, Utterson opens the second paper, the Statement of Dr Jekyll. Jekyll writes that he was born rich, well educated and well liked, and that he had always wanted to be respected.",
+      "Jekyll came to believe that every person is made of two natures, one good and one evil, locked together in the same body. He dreamed that if he could separate them, the good half would be free to live without shame.",
+      "After years of experiments, Jekyll finds that a certain Salt, bought from a chemist, can mix with other things and change the body. He decides to test it on himself, although he knows it may kill him.",
+      "At first Jekyll feels great pain, as though his bones were grinding. Then the pain passes, and he feels lighter, younger and full of a wicked joy, and he sees that he has become small.",
+      "Jekyll gives his new shape the name Edward Hyde, and he finds that he enjoys being Hyde. He takes a house for him in Soho and hires a housekeeper who will ask no questions.",
+      "At first Jekyll took pleasure in small sins as Hyde, and he thought he was safe. But Hyde grew more cruel, as in the case of the little girl, and Jekyll was afraid of what he had made.",
+      "One night in October, Hyde meets Sir Danvers Carew in a quiet lane and is filled with a wild rage. Jekyll writes that he took joy in each blow, and that he left only when the old man was dead.",
+      "Back in his own body, Jekyll weeps and prays, and he promises himself that he will never be Hyde again. For two months he keeps his word and lives a good and charitable life.",
+      "One bright January day, as he is sitting in Regent's Park, Jekyll feels the sickness and sees his hand change. He has become Hyde without the drug, and he must now find a way to reach his old friend Lanyon.",
+      "Jekyll's drug runs out, and the salt he buys is never the same as the first, so he can never be Jekyll again. As he writes the last page, he knows Hyde is about to take over for ever."
+    ],
+    "C1C2": [
+      "Mr Utterson was a lawyer of London, a man with a rough, plain face who seldom smiled and who spoke very little, even among his friends. Yet beneath that cold surface lay a steady kindness, and he was often the last respectable person to whom a ruined man could turn. It was said of him that he was easier with the faults of others than with his own.",
+      "Every Sunday, Mr Utterson went walking with his cousin Mr Enfield, and the two men, though very different, looked forward to these hours more than to any other in the week. On one such walk they entered a busy back street where the shops were bright and the people cheerful. In the middle of it, a dirty, blistered door with no bell or knocker stood like a stain on the neat row of buildings.",
+      "Enfield stopped, pointed with his stick, and said that he knew a strange story about that door. Coming home at three o'clock on a black winter morning, he had seen a small man walking quickly along one street while a young girl ran along another, and the two had met at the corner. The man had trampled calmly over the child as she lay on the ground, and had gone on without a glance, which was, Enfield said, a horrid thing to see.",
+      "Enfield seized the man by the collar and brought him back to where the child lay screaming, and soon a small crowd of her family and neighbours had gathered. The doctor, who had been sent for, looked ready to faint with rage whenever his eyes fell on the stranger. The man himself stood there cold and still, with a dark sneer on his face, and merely said that he would not make a scene if they would name a price.",
+      "The crowd demanded one hundred pounds for the family, and the man, seeing that he was beaten, agreed at last to pay. He led them to the ugly door, unlocked it with a key, and came back after a minute with ten pounds in gold and a Cheque for the rest. The paper was signed with a name that Enfield would not repeat, though he admitted that it was well known and often printed.",
+      "Enfield insisted that he had waited with the others until morning and walked to the bank himself, and the Cheque had been honoured without a question. The man, he said, had been quite unpleasant to see, and yet he could not name a single thing that was wrong with his face, for he seemed deformed in some way that eluded description. Utterson, who had listened in silence, only asked whether the man had really used a key to open the door.",
+      "Enfield admitted, to Utterson's quiet surprise, that the man's name was Hyde and that the door appeared to be the back entrance of a house that no one ever seemed to use. It troubled him, he said, to have told the story at all, since a man who asks questions in this world may find himself drawn into a mystery. They agreed to speak of it no more, and walked on, though Utterson's mind kept returning to that strange and dirty door.",
+      "That evening Utterson went home with a heavy heart and took from his safe the will that his old friend Dr Henry Jekyll had made, and which he had always disliked. It stated that, in the event of Jekyll's death or of his disappearance for more than three months, all that he owned should pass into the hands of one Edward Hyde. Until now the name had meant nothing to Utterson, but after Enfield's tale it suddenly meant a great deal.",
+      "Utterson decided to consult Dr Hastie Lanyon, who had been the closest friend of Jekyll since their school days, and he found him in his comfortable dining room. Lanyon had never heard the name of Hyde, and he explained, with a flush of anger, that he and Jekyll had quarrelled over the doctor's wild theories, which he called nonsense. Utterson went home more troubled than before, for he saw that no one around Jekyll could explain the stranger.",
+      "All night long Utterson tossed and turned, and whenever he slept he dreamed of a dark city of lamps, a running child, and a figure without a face that walked over her and went on. The dream was so vivid that he longed, almost against his will, to look upon the real Hyde, as if the sight of a face might drive the nightmare away. He therefore resolved to stand by the dirty door, morning and evening, until the man should appear.",
+      "For many evenings, Utterson stood in the shadow of the street and watched the door, in all weathers, until at last his patience was rewarded. A small, plainly dressed man came quickly along the pavement, and as he drew a key from his pocket Utterson stepped forward and touched his shoulder. The stranger shrank back with a hiss of breath, though he recovered himself and met the lawyer's eye with a cold, calm stare.",
+      "Mr Hyde was small, pale, and strangely hard to look at, and he gave an impression of deformity without any single feature to explain it. He spoke in a husky, whispering voice, with a smile that seemed to Utterson both timid and savage, and the lawyer felt a loathing that he had never known before. It was not fear exactly, he thought, but something older and deeper, as though a creature from a darker age had put on the clothes of a modern man.",
+      "Hyde asked how Utterson knew him, and then, when the lawyer said they had a friend in common, he gave a rough address in Soho and said that Utterson might find him there if he wished. In another moment the door had closed, and the lawyer was left standing alone in the empty street, deeply troubled. He guessed that the will might be a sign that Jekyll was being blackmailed for some old mistake, and his kind heart ached for his friend.",
+      "Utterson walked straight to the handsome house in the square where Jekyll lived, and was received by Poole, the old butler, who said that his master was out. Poole added, with obvious unease, that Mr Hyde had a key to the old laboratory behind the house, and that all the servants had been told to obey him. Utterson went away sadly, convinced that the young Jekyll had been wilder than he knew, and that his past had now come back to claim him.",
+      "A fortnight later Jekyll gave a small dinner for his friends, and when the others had gone Utterson stayed behind and spoke plainly about the will and about Hyde. Jekyll, a large, smooth-faced man with a kind expression, turned a little pale, and begged him to say no more, assuring him that he could be rid of Mr Hyde whenever he chose. Then he asked, with a strange earnestness, that Utterson should promise to see that Hyde received his rights if ever he should be gone.",
+      "Nearly a year went by before the quiet of the story was broken, on a clear October night when a maid sat dreaming at her window above a lonely lane. She saw an old gentleman with white hair approach, and then a small, evil-looking man whom she recognised as Mr Hyde, who had once visited her master. The old gentleman spoke politely, whereupon Hyde flew into a sudden rage, struck him down with a heavy cane, and beat him until he lay still.",
+      "The dead man, a kind and well-loved Member of Parliament named Sir Danvers Carew, carried a letter addressed to Mr Utterson, and so the police sent for the lawyer at dawn. Beside the body lay half of a broken cane, and Utterson felt his heart sink, for he recognised it as the very Cane that he himself had given Jekyll many years before. He said nothing at first, but offered instead to take the officer to Hyde's address.",
+      "A thick brown fog lay over the city as the lawyer led the police inspector through the poorest streets of Soho, past gin shops and cheap eating houses and ragged children huddled in the doorways. Utterson, who had been told that Hyde was the heir to a great fortune, could scarcely believe that he lived in such a place. They stopped at last before a mean house, and an old woman with a silver face answered their knock.",
+      "The woman said that Hyde was away and had hardly been home that night, for he kept strange hours, and the officer went through the rooms with a practised eye. The cupboards had been turned out in a hurry, and a cheque book lay half burnt in the grate, while behind the door they found the second piece of the broken cane. Utterson, looking at it, had no further doubt that Hyde was the murderer and that Jekyll's own gift had been the weapon.",
+      "Utterson found his friend in the dim laboratory, sitting by the fire like a sick man, with a face that looked old and drawn. Jekyll assured him solemnly that he was done with Hyde for ever, that the man was safe beyond all pursuit, and he showed a letter in a strange upright hand that said as much. Utterson, a little comforted, took it away, never guessing how much it would one day matter.",
+      "That evening Utterson showed the note to his clerk, Mr Guest, a man of long experience in the study of handwriting, and asked him to compare it with an invitation from Jekyll. Guest laid them side by side under the lamp and observed that, apart from the slope of the letters, the two hands were remarkably alike. Utterson stood very still, for he understood that his old friend might have written a letter in a murderer's name to save him.",
+      "In the weeks that followed, Jekyll appeared to be a new man, throwing off his sadness like a heavy coat and returning to the world of his friends. He gave generously to the poor, gave dinners that were lively and kind, and in the middle of January even took a seat once more at Utterson's own table. The police had found no trace of Hyde, and it seemed as though the shadow had lifted for ever.",
+      "Then, early in January, the door of Jekyll's house was closed to Utterson, who had come to dine and was told by Poole that the doctor was confined to his rooms and would see no one. This happened on the first day, then on the next, and by the end of the week the lawyer had begun to feel as lonely as he had before. The cheerful man of December had vanished, and in his place was a hermit.",
+      "Hoping to learn what had happened, Utterson went to see Dr Lanyon, and was shocked to find a man who had become a ghost of himself. His face was pale, his hands trembled, and his eyes held a fear that seemed to come from deep inside him. When the lawyer spoke of Jekyll, Lanyon said that he never wished to see or hear of that man again.",
+      "Within three weeks, Lanyon had taken to his bed, and not long after that he was dead, leaving the lawyer stunned and full of anxious questions. Among his papers Utterson found a thick envelope marked that it was not to be opened until the death or disappearance of Dr Henry Jekyll. Though he was curious beyond measure, he was a man of honour, and he locked the envelope in his safe without breaking the seal.",
+      "Every time Utterson called, he was turned away by Poole, and each time the old butler seemed more frightened and more reluctant to speak. Jekyll, he said, lived entirely in the room above the laboratory, where he slept, ate little, and read nothing, and he had grown quiet in a way that frightened the household. Utterson wrote to his friend and received brief notes in reply, begging to be left alone.",
+      "On a Sunday walk, the two cousins came into the little court behind the strange door and noticed that one window was half open. There sat Jekyll, looking like a prisoner in his cell, and when Utterson called out and asked him to join them he answered that he dared not. A moment later the smile on the doctor's face seemed to freeze into an expression of such terror and despair that the two men felt their blood run cold.",
+      "At once the window was slammed down, and the face was gone, but the look upon it had been enough to haunt both of them. They walked out of the court without a word, and for a long while they went along the next street in silence, each man afraid to speak. At last Utterson said quietly that he hoped God would forgive them both for whatever lay behind that window, and Enfield, very grave, nodded his agreement.",
+      "One windy evening in March, as Utterson sat before his fire, the butler Poole was shown in, and the lawyer saw at once that the man was ill with fright. Poole could hardly speak, but he said that there had been foul play at the house, and that he dared not go on alone any longer. Utterson reached for his hat and coat without a word and followed him out into the night.",
+      "A wild wind was blowing, the moon lay on its back as though tilted, and the streets were so empty that the lawyer had never seen London so silent. They crossed the square at a run, and Utterson felt a heavy dread settle on him, as if some terrible event were waiting at the end of the road. At Jekyll's door the servants stood huddled together like frightened sheep, and one of the maids began to cry out.",
+      "Poole led the lawyer through the empty kitchen and explained that for nearly a week a voice in the cabinet had been calling for a drug from the chemists, passing out notes that grew more urgent every day. Each time he had gone out and brought back the medicine, and each time the writer had thrown it away and sent for a different one. He did not believe, he said, that the creature inside the room was his master.",
+      "Poole described, in a shaking voice, how he had once surprised the thing in the laboratory with its mask on and its head bent over the crates. It had given a cry like a rat and bolted up the stairs into the cabinet, and he had seen at once that it was far too small for a man of Jekyll's height. Poole, who had served his master for twenty years, swore on his life that he knew Jekyll when he saw him.",
+      "Utterson knocked on the cabinet door and called out, and a voice answered in a thin and broken tone, begging him to have pity and to go away. The lawyer replied that he was sure it was not Jekyll's voice, and that for his friend's sake he would force the door, whatever the cost. Poole fetched the axe from the cellar, and with every blow the whole house seemed to tremble.",
+      "After the fourth blow the lock burst, and the door fell inward, and in the quiet room beyond they saw the body of Edward Hyde twisted upon the floor. He was dressed in clothes that were much too big for him, which belonged to Jekyll, and his hand still gripped a broken vial. The air smelt of bitter almonds, and Utterson understood that the man had ended his own life only a moment before.",
+      "They searched every corner of the laboratory and the rooms above, but nowhere could they find the body of Dr Jekyll, alive or dead. On the desk lay a large packet addressed to Utterson, a new will that named him in place of Hyde, and a short note from his friend. The note told him to read Lanyon's letter first and then, if he still wished to know more, the Statement of the case.",
+      "Utterson took the packet home to his study and, by the light of his lamp, broke the seal on the first of the two papers, Lanyon's account. It began with a letter that Lanyon had received from Jekyll a few days earlier, which begged him, as an old friend, to rescue his life. Jekyll asked him to go to his cabinet, take a certain drawer, and carry it to his own house.",
+      "Lanyon, who believed that his old friend had lost his mind, nevertheless did as he was asked and went to the laboratory with a locksmith. He found the drawer containing several packets of salt, a small vial of a blood red liquid, and a notebook with a few puzzling dates. He took it all home to Cavendish Square, where he was to wait for a visitor at midnight.",
+      "At the stroke of twelve, a knock sounded at the door, and a small man, wearing clothes that hung on him like a sack, slipped past Lanyon into the hall. Something about his appearance filled the doctor with a sudden, instinctive dislike, and the stranger asked with trembling urgency whether he had the drawer. Lanyon pointed to it, and the man sprang forward and nearly wept with relief.",
+      "The stranger measured out the drug, mixed it in a glass, and warned the doctor that what he was about to see would change the whole of his life. He drank it at a gulp, and before Lanyon's eyes his features seemed to melt and swell, until the face of Henry Jekyll stood there, pale and wretched. It was a sight that Lanyon could never forget, and he said that he had never recovered from the shock.",
+      "What Jekyll said next, Lanyon declared, he could not bring himself to set down, for it was too terrible, and his mind and his body had been shaken to their roots. He wrote only that he expected to be dead within a few weeks, and that Utterson must now read the other paper to learn what had passed. The letter ended there, and the lawyer sat for a long time with it in his hand.",
+      "At last Utterson turned to the Statement itself, which Jekyll had written in his own careful hand, and he read it through to the end that night. Jekyll described how he had been born to wealth and a good name, and how he had always been fond of pleasure, though he also wanted to be thought a respectable man. Because of this, he said, he had learned to hide his faults with a deep and secret shame.",
+      "Through his scientific studies, Jekyll had come to believe that a human being is not truly one but truly two, a good and an evil nature bound together in a single body. If each could only be given a house of its own, he reasoned, the wicked half would be free to pursue its pleasures, and the better half would walk its path untroubled. It was a dangerous dream, and he followed it further than he should have.",
+      "After years of experiment, Jekyll discovered a certain chemical salt which, when mixed with a red tincture and swallowed, might change the shape of the human body and mind. He knew very well that it might kill him, but the great temptation of the discovery outweighed his fear, and on a dark night he mixed the drink. He drank it down in one swallow, and then he stood in the silence and waited for whatever the night might bring.",
+      "At first the pain was terrible, like the grinding of bones, and he felt sickness and horror in his very soul, but then it passed away as swiftly as it had come. He felt younger, lighter and happier, with a reckless delight running through his veins like wine, and when he went to the glass he saw a small, strange figure looking back at him. The smaller body, he realised, was because the evil in him had been less used than the good.",
+      "The new creature, whom Jekyll named Edward Hyde, felt no shame, and the doctor was surprised to discover how much he enjoyed the freedom of the change. He rented a house in Soho for his second self, found a housekeeper who would ask no questions, and told his servants that Mr Hyde was to be obeyed as freely as himself. As for his will, he made it in such a way that, should Jekyll die, Hyde would lose nothing.",
+      "For a while, the plan seemed perfect, since Jekyll could slip into Hyde and out again as easily as a man changes his coat. Yet the creature grew bolder and more cruel with every visit, and the night he trampled the child was a horror that Jekyll could scarcely bear to remember. He paid the price with a cheque in his own name, and tried to believe that it would never happen again.",
+      "Jekyll confessed that on the October night when Hyde had met the old gentleman in the lane, the creature had been seized by a fit of mad violence, without a reason or an excuse. He had struck again and again, taking a terrible joy in each blow, until the old man lay still, and only then had a cold fear arisen in his heart. He fled to his house in Soho, burned his papers, and ran through the lamplit streets to Jekyll's door.",
+      "In his laboratory, Jekyll fell upon his knees, shedding tears of shame and thanksgiving, and swore to God that he would never again take on the shape of Hyde. He locked the door that Hyde had used, crushed the key beneath his heel, and for two months he lived a life as useful and as kind as any in London. It was the happiest season of his life, and the one that he remembered best.",
+      "Then, on a clear January day while he sat on a bench in Regent's Park, he felt the familiar shudder, and glancing down saw that his hand had become dark and hairy. He had become Hyde without any drug at all, and he knew that he was in grave danger, for the whole of London was looking for that man. Disguised by his borrowed clothes, he took a room in a hotel and began to write the letters to Lanyon.",
+      "As the weeks passed, the first supply of salt ran low, and every new batch failed, which showed Jekyll that the first one must have held some unknown impurity that made the change possible. He wrote the last pages of the Statement knowing that Hyde would soon win and that, in that last hour of being himself, he must say all he could. Utterson laid down the paper, understanding at last why the door in the back street had held such a dreadful secret."
+    ]
+  }
+}

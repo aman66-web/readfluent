@@ -1,0 +1,417 @@
+{
+  "slug": "how-money-really-works",
+  "meta": {
+    "blurb": "Ana and Ben start work on the same day, on the same pay. Ten years later their money tells two very different stories. Find out why saving, patience, luck and fear matter more than clever tricks, and how money really works.",
+    "bible": "Ana: a careful, thoughtful young woman who saves and invests every month and keeps a one-page plan. Ben: her friend since childhood, generous and image-conscious, who spends to look successful and sells in a panic in a bad year; he learns and is never mocked. Marlow: the seaside town where both grew up. Both start work at twenty-three at the same company on two thousand five hundred dollars a month after tax. Ana sets aside four hundred dollars a month. In their fourth year the stock market falls sharply; Ana keeps investing, Ben sells at a loss. After ten years Ana has nearly sixty thousand dollars; Ben has a newer car, a loan and almost no savings. Money is counted in dollars. Facts: the first coins we know of were struck about two thousand six hundred years ago in the kingdom of Lydia, in what is now Turkey; the rule of seventy-two says money doubles in about seventy-two divided by the yearly rate in years; two hundred dollars a month at an average of six percent a year grows to about two hundred thousand dollars in thirty years and about four hundred thousand in forty, an example and not a promise; stock markets have fallen by a third or more many times and so far recovered. Key terms: Money, Barter, Inflation, Interest, Compounding, Diversification, Speculating, Investing, Emergency fund, Savings rate, Shares, Market, Debt, Fraud, Regulator, Wealth. Voice: calm, kind, wise and plain; every fact is true and hedged where it depends on the market or the country; no real brands or people; general information and not personal financial advice."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Two friends, Ana and Ben, walk past the harbour on their way to work",
+      "summary": "Ana and Ben start work on the same day with the same pay."
+    },
+    {
+      "n": 2,
+      "scene": "A coin, a shell and a bag of grain lie on a market table",
+      "summary": "Money is a tool that lets people trade, store value and compare prices."
+    },
+    {
+      "n": 3,
+      "scene": "An ancient king's coin lies beside a modern bank card",
+      "summary": "The first coins appeared about two thousand six hundred years ago, in Lydia."
+    },
+    {
+      "n": 4,
+      "scene": "A bank clerk places a deposit in a safe while a customer waits",
+      "summary": "Banks keep your deposits safe and lend part of the money to others."
+    },
+    {
+      "n": 5,
+      "scene": "A shopper holds the same basket in two different years with different price tags",
+      "summary": "Prices usually rise over the years, which is called inflation."
+    },
+    {
+      "n": 6,
+      "scene": "Ana puts a small coin into a jar marked later",
+      "summary": "Interest is the price of borrowing, and savers can earn a little of it."
+    },
+    {
+      "n": 7,
+      "scene": "Ana and Ben compare their first pay slips outside the office",
+      "summary": "Both friends earn the same, so the difference will come from what they do."
+    },
+    {
+      "n": 8,
+      "scene": "Ana writes a number on a sticky note and places it on her fridge",
+      "summary": "The friends' savings rate matters more than any clever idea."
+    },
+    {
+      "n": 9,
+      "scene": "Ben signs for a new car while the salesman smiles",
+      "summary": "Ben buys a very new car and spends most of his pay on looking successful."
+    },
+    {
+      "n": 10,
+      "scene": "A shiny new car beside the same car, much older and cheaper",
+      "summary": "A new car loses a large share of its value in its first few years."
+    },
+    {
+      "n": 11,
+      "scene": "Ana rides a second-hand bicycle to work and carries a lunch box",
+      "summary": "Ana lives modestly and saves four hundred dollars each month."
+    },
+    {
+      "n": 12,
+      "scene": "A large iceberg shows only a small tip above the water",
+      "summary": "Real wealth is what you keep, and much of it cannot be seen."
+    },
+    {
+      "n": 13,
+      "scene": "Two doors stand side by side, one labelled rich and one labelled wealthy",
+      "summary": "Being rich means high income now; being wealthy means having assets that last."
+    },
+    {
+      "n": 14,
+      "scene": "A woman watches the sun set over a small house with a garden",
+      "summary": "Know how much is enough for you and stop chasing more."
+    },
+    {
+      "n": 15,
+      "scene": "Ben looks at a friend's holiday photos on his phone with a frown",
+      "summary": "Comparing yourself with others makes you spend for the wrong reasons."
+    },
+    {
+      "n": 16,
+      "scene": "A dice and a compass sit next to a young man's diploma",
+      "summary": "Luck and skill both shape outcomes, and it is hard to tell them apart."
+    },
+    {
+      "n": 17,
+      "scene": "A single tall tree in a field stands among many fallen ones",
+      "summary": "We hear about the winners, but the people who failed are not in the story."
+    },
+    {
+      "n": 18,
+      "scene": "A plant grows from a seed to a young tree to a tall tree",
+      "summary": "Compounding means growth is added to the pile and then grows too."
+    },
+    {
+      "n": 19,
+      "scene": "A clock face turns into a coin that is cut into two equal halves",
+      "summary": "Money growing at seven percent a year roughly doubles in about ten years."
+    },
+    {
+      "n": 20,
+      "scene": "Two lines on a graph start at different ages and meet at the end",
+      "summary": "Starting ten years earlier can roughly double the result."
+    },
+    {
+      "n": 21,
+      "scene": "A turtle and a rabbit walk beside a growing stack of coins",
+      "summary": "Most of the growth comes late, so patience matters most."
+    },
+    {
+      "n": 22,
+      "scene": "A busy market square with traders and buyers calling out prices",
+      "summary": "A market is a place where buyers and sellers meet and agree on a price."
+    },
+    {
+      "n": 23,
+      "scene": "A shop window displays price tags that change from hour to hour",
+      "summary": "Share prices move every day, even if the company has not changed much."
+    },
+    {
+      "n": 24,
+      "scene": "A steep graph drops sharply and then climbs slowly back",
+      "summary": "Stock markets have fallen by a third or more many times, and so far they have recovered."
+    },
+    {
+      "n": 25,
+      "scene": "A ship rides high waves under a stormy sky",
+      "summary": "Higher possible returns come with larger ups and downs; that is the price."
+    },
+    {
+      "n": 26,
+      "scene": "Two people stand on either side of a dial marked fear and greed",
+      "summary": "Fear and greed push people to buy high and sell low."
+    },
+    {
+      "n": 27,
+      "scene": "Ben watches his phone as the numbers fall and his face turns pale",
+      "summary": "A market fall arrives and Ben sells in a panic."
+    },
+    {
+      "n": 28,
+      "scene": "Ana looks at the same falling numbers but keeps her hands in her pockets",
+      "summary": "Ana feels the same fear but keeps investing every month."
+    },
+    {
+      "n": 29,
+      "scene": "A child's money box beside a calendar with a date circled",
+      "summary": "Money you need soon should not be in risky investments."
+    },
+    {
+      "n": 30,
+      "scene": "A strong stone bridge carries one small cart across a wide river",
+      "summary": "Leave room for error: plan for things to go worse than you expect."
+    },
+    {
+      "n": 31,
+      "scene": "A small umbrella protects a stack of coins during a storm",
+      "summary": "An emergency fund gives room for error against sudden costs."
+    },
+    {
+      "n": 32,
+      "scene": "A heavy chain is tied to a young man's ankle as he walks",
+      "summary": "Debt reduces your room for error because the payments continue no matter what."
+    },
+    {
+      "n": 33,
+      "scene": "Eggs of many colours are placed carefully in many different baskets",
+      "summary": "Do not put everything in one basket; spread your money across many things."
+    },
+    {
+      "n": 34,
+      "scene": "A magnifying glass reveals small fees hidden in a long page of numbers",
+      "summary": "Small yearly costs add up to a lot over decades."
+    },
+    {
+      "n": 35,
+      "scene": "A form with a government stamp lies beside a calculator and a pen",
+      "summary": "Tax rules differ by country, so check the rules where you live."
+    },
+    {
+      "n": 36,
+      "scene": "A crowd of experts looks at a crystal ball that is cracked",
+      "summary": "Even experts find it very hard to predict the market."
+    },
+    {
+      "n": 37,
+      "scene": "A gambler at a table beside a farmer at a field",
+      "summary": "Investing means owning something productive; speculating means betting on price moves."
+    },
+    {
+      "n": 38,
+      "scene": "Ben leans in to listen to a stranger whispering at a party",
+      "summary": "Hot tips and rumours usually reach you too late and cost a lot."
+    },
+    {
+      "n": 39,
+      "scene": "A smooth-talking salesman offers a glowing brochure with a promise of guaranteed profit",
+      "summary": "If a return sounds too good to be true, it usually is."
+    },
+    {
+      "n": 40,
+      "scene": "Ana's bank sends money to her investment account on payday",
+      "summary": "Automating good habits beats relying on willpower."
+    },
+    {
+      "n": 41,
+      "scene": "An open notebook with two lists, old facts and new facts",
+      "summary": "Changing your mind when the facts change is a strength."
+    },
+    {
+      "n": 42,
+      "scene": "A woman holds a key and a map with a path to a house",
+      "summary": "Money buys choices, and the greatest of them is control over your time."
+    },
+    {
+      "n": 43,
+      "scene": "Friends share a meal at a long table in a garden",
+      "summary": "Spend on what you truly value, and enjoy it without guilt."
+    },
+    {
+      "n": 44,
+      "scene": "Two hands pass a small gift of money to a neighbour",
+      "summary": "Sharing money with others can bring real happiness."
+    },
+    {
+      "n": 45,
+      "scene": "A parent and a child count coins on a kitchen table",
+      "summary": "Teaching children about money early gives them a head start."
+    },
+    {
+      "n": 46,
+      "scene": "Ana writes a single page headed my money plan",
+      "summary": "Ana writes a one-page plan for her money."
+    },
+    {
+      "n": 47,
+      "scene": "Ana and Ben meet on a harbour wall ten years later",
+      "summary": "Ten years later, Ana and Ben meet and compare how they have fared."
+    },
+    {
+      "n": 48,
+      "scene": "A growing pile of coins next to a smaller pile with a loan note",
+      "summary": "Ana has savings that grew despite a bad year; Ben has debts and no savings."
+    },
+    {
+      "n": 49,
+      "scene": "Ben admits his mistakes while Ana listens with a kind face",
+      "summary": "Ben admits what he learned, and Ana tells him it is never too late."
+    },
+    {
+      "n": 50,
+      "scene": "Ben writes his first savings plan at the harbour as the sun sets",
+      "summary": "The takeaway: money is mostly about habits, patience and humility."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Ana and Ben start work on the same day.",
+      "Money is a tool that helps people trade with each other.",
+      "The first coins were made a very long time ago.",
+      "A bank keeps your money safe and lends some to others.",
+      "Prices usually go up a little each year.",
+      "Interest is the price you pay to borrow money.",
+      "Ana and Ben earn the same, so the difference is what they do.",
+      "How much you save matters more than clever ideas.",
+      "Ben buys a new car and spends almost all his pay.",
+      "A new car loses value very fast in the first years.",
+      "Ana lives simply and saves some money every month.",
+      "Real wealth is the money you keep, not what you show.",
+      "Earning a lot is not the same as being wealthy.",
+      "Think about how much money is enough for you.",
+      "Ben sees his friend's holiday and feels a little sad.",
+      "Luck and skill both help to decide how life goes.",
+      "We hear about winners, but not about people who fail.",
+      "Growth that you earn can then earn more growth.",
+      "Money can double after about ten years of growth.",
+      "Starting early gives your money more time to grow.",
+      "Most of the growth comes in the last few years.",
+      "A market is a place where buyers and sellers meet.",
+      "Share prices change every day, even when little else does.",
+      "Stock markets sometimes fall a lot, and then they rise again.",
+      "Bigger possible gains come with bigger ups and downs.",
+      "Fear and greed push people to make bad choices.",
+      "In a bad year, Ben sells because he is scared.",
+      "Ana feels the same fear, but she keeps her plan.",
+      "Money you need soon should not be in shares.",
+      "Plan for things to go a little worse than expected.",
+      "An emergency fund gives you room when things go wrong.",
+      "Debt makes it harder to deal with surprises.",
+      "Do not put all your eggs in one basket.",
+      "Small costs can add up to a lot over time.",
+      "The rules about tax are different in each country.",
+      "Even experts cannot tell what the market will do.",
+      "Owning a business is not the same as betting on prices.",
+      "A hot tip from a friend is usually a bad idea.",
+      "If it sounds too good to be true, it often is.",
+      "Ana lets her bank save money for her automatically.",
+      "It is fine to change your mind when facts change.",
+      "Money can give you more choices in your life.",
+      "Spend money on what really matters to you.",
+      "Sharing money with others can make you feel good.",
+      "Ana shows her young niece how to save.",
+      "Ana writes her whole money plan on one page.",
+      "Ten years later, Ana and Ben meet at the harbour.",
+      "Ana has savings now, but Ben has debts.",
+      "Ben says that he is ready to learn from Ana.",
+      "Money is mostly about habits, time and patience."
+    ],
+    "B1B2": [
+      "Ana and Ben grew up on the same street in the seaside town of Marlow. At twenty-three, they start work at the same company, on exactly the same pay.",
+      "Money is a tool with three very important jobs for everyone. It lets people trade without swapping goods directly, it stores value for later, and it gives everything a price so we can compare.",
+      "People traded by barter for thousands of years before coins appeared. The first coins we know of were made about two thousand six hundred years ago in the kingdom of Lydia, in what is now Turkey.",
+      "When you put money in a bank, it does not simply sit in a drawer. The bank keeps some of it ready for you and lends the rest to people and businesses, and it pays you a little interest.",
+      "Prices tend to rise slowly over the years, a change known as inflation. A basket of food that cost one hundred dollars long ago costs much more today.",
+      "Interest is the price of borrowing money, and it is paid by the person who uses it. When a bank pays you interest, it pays you for the use of your money, but when you borrow, you pay it.",
+      "Ana and Ben each earn two thousand five hundred dollars a month after tax. Because their pay is exactly equal, any difference between them will come from their choices.",
+      "Most people believe that wealth comes from finding a brilliant idea. In reality, the amount you save from your income, called your savings rate, matters far more than almost anything else in the early years.",
+      "Ben wants people to see that he is doing well, so he buys a new car on a loan. Every month, almost all of his pay goes on the loan, the insurance and the fuel.",
+      "Ben does not stop to think about what happens next to his new car. It usually loses a large share of its value in the first few years, so the loan can be bigger than the car is worth.",
+      "Ana chooses a plain, cheap flat and an old bicycle for travel. Each month, she sets aside four hundred dollars before she spends anything on herself.",
+      "Wealth is not the car in the driveway or the watch on someone's wrist. It is the money that someone has not spent, and most of it cannot be seen.",
+      "It is worth separating two words that people often mix up. Someone is rich when they earn and spend a lot, while someone is wealthy when they have saved enough that the money works for them.",
+      "Ana sits one evening and asks herself a rare question: how much is enough? Without an answer, she realises, there is no finish line, and the chase never ends.",
+      "Ben sees a friend's holiday photos online and feels that he is falling behind. Comparing himself with other people makes him spend money he did not plan to spend.",
+      "Success comes from both skill and luck, and it is not easy to tell how much came from each. Being honest about that helps people feel less proud when things go well and less guilty when they go badly.",
+      "Stories of people who became rich make a good read, but the many people who tried the same thing and failed are rarely written about. That makes risky choices look safer than they really are.",
+      "Compounding means that the growth you earn is added to your pile, and then the bigger pile grows again. At first it seems slow, but over many years the effect becomes very large.",
+      "A quick way to estimate growth is to divide seventy-two by the yearly rate. If your money grew by seven percent a year, it would roughly double in about ten years, although no growth is ever guaranteed.",
+      "Imagine saving two hundred dollars a month at an average growth of six percent a year. Over thirty years that becomes about two hundred thousand dollars, but over forty years it becomes about twice as much.",
+      "The surprising part of compounding is that most of the growth comes at the end. For many years the pile looks small, and then, in the last stretch, it grows much faster.",
+      "A market is simply a place where buyers and sellers meet and agree on a price. A stock market works in the same way, but the things for sale are small pieces of companies.",
+      "Share prices change every day, and sometimes every minute. A company can be almost the same today as yesterday, but the mood of the people trading its shares can be very different.",
+      "Stock markets have fallen by a third or more many times in history. So far they have recovered each time, although sometimes it took several years, and nobody can promise that it will always happen.",
+      "Investments that may grow more over time usually also swing up and down more. These swings are the price you pay for the chance of a higher return, and they are not a sign that something is broken.",
+      "Two feelings cause a great deal of financial damage: fear and greed. When prices rise, people want to buy because they are greedy, and when prices fall, they want to sell because they are afraid.",
+      "In their fourth year, share prices fall sharply, and Ben, who has put some money into shares, is frightened. He sells everything at a loss, because he cannot stand the feeling of watching it drop.",
+      "Ana feels exactly the same fear, and she does not enjoy the headlines either. However, she has a written plan, so she keeps investing the same amount every month and waits.",
+      "Ana keeps money that she will need within a few years in a safe savings account. Shares can fall at the wrong moment, so only money that can wait a long time should go into them.",
+      "Engineers build bridges to carry far more weight than they will ever need to hold. In money, the same idea means leaving room for error, so that a bad surprise does not break your plans.",
+      "One simple way of leaving room for error is an emergency fund. Ana keeps about four months of her basic costs in cash, so that a sudden bill never forces her to sell her investments.",
+      "Debt reduces your room for error, because payments continue even when your life gets harder. Ben discovers this when his company has a bad year and his pay is cut.",
+      "The old advice is not to put all your eggs in one basket. Spreading your money across many companies, countries and kinds of asset is called diversification, and it protects you if one of them fails.",
+      "Small fees seem harmless, but over decades they grow into a large sum. A cost of one percent a year can take away a large share of what your investments might have earned.",
+      "Taxes affect how much you keep from your earnings and your investments. The rules differ from one country to another and change over time, so Ana checks the official rules where she lives.",
+      "Many experts make predictions about the market, but their forecasts are often wrong. Nobody has found a reliable way to know what will happen next month or next year.",
+      "Investing means owning a share of something that produces goods or profits over time. Speculating means betting that a price will rise quickly, and it is much closer to gambling.",
+      "At a party, a man tells Ben about a secret tip that will double his money in a month. Ben puts in most of his savings, and the price falls instead.",
+      "Be careful with anyone who promises a guaranteed high return. Real investments can always lose money, so a promise of a sure profit is the first warning sign of a scam.",
+      "Ana sets up an automatic payment so that money moves to her savings on the day she is paid. She does not have to remember, and she does not have to be strong each month.",
+      "Ana learns that it is not a weakness to change her mind when the facts change. She reviews her plan once a year, and she updates it when her life or the world has really changed.",
+      "Ana realises that money is not the goal itself but a way to buy choices. The most valuable of these is control over your own time, such as the freedom to say no to a job you hate.",
+      "Saving does not mean that you can never enjoy anything at all. Ana spends happily on the few things she truly values, such as travelling to see her family and sharing meals with friends.",
+      "Ana also gives a part of her income to a local charity each year. She finds that sharing what she has brings her a kind of happiness that buying more things never did.",
+      "When her niece turns eight, Ana gives her a small piece of advice about money. She shows her a jar for saving, one for spending and one for giving, and the girl loves the game.",
+      "Ana decides that her plan should fit on one page. It states her goals, how much she saves, where the money goes, and what she will do if the market falls.",
+      "Ten years later, Ana and Ben meet at the harbour where they once celebrated their first pay. They are still friends, but their money looks very different.",
+      "Ana has saved and invested every month, and her pile has grown to nearly sixty thousand dollars despite one terrible year. Ben has a car he still owes money on, and he has very little in savings.",
+      "Ben admits that he spent to impress people who did not really care. Ana tells him gently that it is never too late to start, and that she once made mistakes too.",
+      "The lesson is that money is mostly about behaviour. Save regularly, stay calm, leave room for error, and remember that this book is general information and not personal financial advice."
+    ],
+    "C1C2": [
+      "Ana and Ben grew up on the same street in the seaside town of Marlow, shared the same school bench and finished their studies in the same month. At twenty-three they started work at the same company, on exactly the same pay, and nobody could have guessed that their lives would drift so far apart. This book follows them for ten years to show how money really works, which has far less to do with cleverness than most people suppose.",
+      "Money is a tool with three jobs, and it is worth knowing them before anything else. It allows strangers to trade without having to swap goods directly, it stores a little of today's effort for use tomorrow, and it gives every item a price so that very different things can be compared. Seen this way, money is not a prize to be admired but a servant that either helps you or does not.",
+      "For thousands of years people traded by barter, offering a goat for a sack of grain, and the arrangement worked only when each side happened to want what the other had. The earliest coins that we know of were struck about two thousand six hundred years ago in the kingdom of Lydia, in what is now Turkey, and they made trade far easier. Today most money exists only as numbers on a screen, yet it does exactly the same three jobs.",
+      "When you put money into a bank, it does not simply sit in a drawer with your name on it. The bank keeps a portion ready for withdrawals and lends the rest to families and businesses, charging them a higher rate of interest than it pays to you, and that difference is how banks earn their living. In most countries, deposits up to a certain limit are protected by law, but the rules differ from place to place.",
+      "One of the quietest forces in the world of money is a general rise in prices over time, which economists call inflation. In most years it is gentle, perhaps a few percent, but over a decade or two it adds up, so that the same basket of food costs noticeably more and the same amount of cash buys less. It follows that money standing still is not standing safe, because its power slowly drains away.",
+      "Interest is nothing more than the price of borrowing money, and it is paid by whoever uses someone else's cash. When a bank pays you interest on your savings, it is renting your money from you, and when you take out a loan, the roles are reversed and the rent is yours to pay. Whether you are on the earning side or the paying side of interest is among the biggest quiet differences in anyone's financial life.",
+      "Ana and Ben each took home two thousand five hundred dollars a month after tax, and they celebrated their first pay with a meal at the harbour. Because their incomes were exactly equal, whatever differences appeared between them later could not be blamed on salary, and would have to be explained by the choices that each of them made. That is the useful thing about their story, for most of the real differences in money begin in small habits.",
+      "Many people believe that wealth comes from discovering one brilliant idea, a secret stock or a lucky business. In reality, during the early years of a career the single most powerful number is your savings rate, which means the share of your income that you keep rather than spend. It is far less exciting than a secret, but it is also entirely within your control, and that is exactly why it works.",
+      "Ben wanted the people around him to see that he was doing well, so in his first month he bought a shiny new car with a loan that took five years to repay. Each month, almost his whole pay passed through his hands to the lender, the insurer and the petrol station, and there was very little left to grow. It was not foolishness exactly, because the feeling of success was real, but it was a feeling that had to be bought again and again.",
+      "What Ben did not stop to consider was that a new car usually loses a large share of its value in the first few years of its life. In practice this meant that, for a long while, he owed the lender more than the car could be sold for, which is a quiet and rather uncomfortable position to be in. Ben's car was not a disaster, but a good part of his pay was turning into smoke, month after month.",
+      "Ana chose a modest flat close to work, an old bicycle for getting around and a packed lunch from home, none of which she found especially painful. On the day her pay arrived she set aside four hundred dollars, about one sixth of it, and learned to live comfortably on the rest. Her friends sometimes teased her for being careful, though she hardly noticed, because the figure in her savings account was quietly growing.",
+      "Wealth is not the car in the driveway or the watch on a stranger's wrist, for those are merely things that money was turned into. Real wealth is the part that has not been spent, the unseen savings and investments that give a person freedom, and for that reason the wealthy are often harder to spot than the showy. Like an iceberg, the largest part of it lies quietly beneath the surface where nobody can admire it.",
+      "It helps to separate two words that people use as if they meant the same thing. A rich person earns a great deal and may spend nearly all of it, whereas a wealthy person has built up assets that keep providing security even if the wages stop tomorrow. Many people with high salaries are, in this sense, not wealthy at all, and many quiet savers are.",
+      "One evening Ana sat down and asked herself a rare and uncomfortable question: how much is actually enough? Without an answer, she realised, there is no finish line, and a person can spend forty years chasing a larger number only to find that nothing about their daily life improved along the way. Enough, she decided, was not a sum but a description of the life she wanted to be able to afford.",
+      "Scrolling through a friend's holiday photographs one night, Ben felt a sharp pang of being left behind and booked an expensive trip he had not planned. Comparison is a powerful engine of spending, because the lives we see online are the highlights, not the ordinary Tuesdays and the unpaid bills behind them. The wiser question, which he would learn in time, is not what others have but what you yourself truly value.",
+      "Outcomes in life and in money are shaped partly by skill and partly by luck, and it is surprisingly difficult to say how much of each was involved. If we give ourselves all the credit for our successes and all the blame for our failures, we end up learning the wrong lessons, so honesty about luck is not weakness but a form of accuracy. A little humility also leaves us more room to be kind to the people who were less fortunate than we were.",
+      "We read the stories of the people who took a great risk and became wealthy, whereas those who took the very same risk and lost it all do not give interviews or write books. Because only the survivors are visible, bold choices can seem much safer and more rewarding than they really are, a mistake that is easy to make and quite hard to notice. Whenever you hear a success story, it is worth asking about everyone who is not in it.",
+      "Compounding is the idea that the growth you earn is added to your pile, and the larger pile then earns growth of its own, so that each year builds on every year before it. In the early years the effect is almost invisible, like a seedling that does not seem to grow at all, but over decades it becomes the most powerful force that an ordinary saver can have. Time, rather than talent or luck, is its main ingredient, and it costs nothing at all.",
+      "There is a handy shortcut for estimating how long money takes to double: divide seventy-two by the yearly rate of growth. At seven percent a year, for example, the answer is a little over ten years, so a sum left alone for thirty years could double three times, though real returns are never so smooth and no rate is promised. The shortcut is not exact, but it is accurate enough to change how people think about patience.",
+      "Imagine two people who each save two hundred dollars a month and earn an average of six percent a year, which is a reasonable example but not a promise. After thirty years of saving, the first would have about two hundred thousand dollars in her account. The second began ten years earlier and so saved for forty years, which would give her close to four hundred thousand, although she paid in only a little more.",
+      "The surprising part of compounding is that the largest share of the growth arrives at the end rather than at the beginning. For years the line on the chart creeps upward so slowly that people lose interest and quit, and yet it is precisely the last stretch, built on all the patient years before it, that does the most dramatic climbing. The lesson is that giving up early costs far more than it appears to at the time.",
+      "A market, in its simplest form, is a place where buyers and sellers meet and agree on a price, whether it is a square full of fruit stalls or a computer system trading millions of orders every day. On a stock market the goods are small pieces of companies called shares, and each price shows what the last buyer and the last seller agreed that a piece was worth. That is all a stock price is, an agreement that changes from one moment to the next.",
+      "Share prices move every day and sometimes every minute, and the reason is not always a real change in the company. A business can be almost exactly the same today as it was yesterday, while the mood of the people who trade its shares swings from hope to worry and back again. In the short run, then, prices reflect feelings as well as facts, and in the long run they tend to follow the facts more closely.",
+      "Over the past century, stock markets have fallen by a third or more on a number of occasions, in some cases within just a few months. So far they have recovered each time, though the recovery has sometimes taken several years, and nobody can guarantee that the future will resemble the past. A person who invests must therefore be willing to endure such drops without panic, or must not invest at all.",
+      "Assets that offer the chance of higher growth over long periods generally come with larger swings along the way, and those swings are the price of admission. They are not a sign that something has broken or that someone is cheating you, but simply the ordinary behaviour of an uncertain future being priced day by day. Investors who understand this from the start are far less likely to be frightened into a mistake when the swings arrive.",
+      "Two feelings do more financial damage than almost any other, and they are fear and greed. When prices climb, greed persuades people to buy at exactly the moment when things are most expensive, and when prices plunge, fear persuades them to sell at the moment when things are cheapest. The result, repeated by millions, is that they buy high and sell low, which is the reverse of a good plan.",
+      "In their fourth working year, the stock market fell sharply and the newspapers filled with alarming headlines, and Ben, who had recently put a little money into shares, could not bear to watch his balance shrink. He sold everything at a loss, telling himself that he was being sensible, and felt a brief wave of relief that did not last. The relief was real, but so was the damage, since the loss was now permanent.",
+      "Ana felt exactly the same fear as Ben, for nobody is immune to it, and she disliked the headlines just as much as he did. The difference was that she had written down her plan beforehand, including what she would do in a crash, so she kept investing the same amount each month and left her savings alone. A written plan is a way of letting the calm version of yourself make the decisions for the frightened version.",
+      "Ana kept the money that she expected to need within a few years in a safe savings account, where its value would not leap about from week to week. Shares may fall at precisely the wrong moment, and an investor who is forced to sell during a downturn turns a temporary drop into a real loss. The length of time you can afford to wait is therefore just as important as the investment you choose, and the goal should decide the tool.",
+      "Engineers design a bridge to carry far more weight than it will ever be asked to bear, because they know that the world is not entirely predictable. The same principle applies to a household, which should leave plenty of room for error by assuming that income may fall, costs may rise and that something unexpected will surely happen. Plans that work only if everything goes right are not really plans but hopes.",
+      "One of the most practical ways of leaving room for error is an emergency fund, a pot of cash kept apart from everything else and used only when something truly unexpected occurs. Ana built hers up until it equalled about four months of her essential spending, which meant that a broken tooth or a lost job would not force her to sell investments at an awkward moment. It is not an exciting thing to own, but it is what allows everything else in a plan to be patient.",
+      "Debt shrinks your room for error, because the repayments continue relentlessly even when your own circumstances become harder. Ben discovered this when his company had a poor year and cut his pay, for his loan payment stayed exactly the same and he suddenly had very little left to live on. Borrowing is not always unwise, but each loan is a promise made by a future version of yourself, who may not be in a position to keep it.",
+      "The old advice is not to carry all your eggs in a single basket, and it remains excellent. Spreading your money across many companies, many countries and several kinds of asset, which is known as diversification, means that no single failure can ruin you, and it spares you from guessing which one will succeed. It will not remove risk entirely, but it does soften the blow when one part of the world has a very bad year.",
+      "A yearly charge of one percent sounds too small to worry about, but it is taken from your money every single year and, over several decades, it can consume a surprisingly large share of what your investments might have earned. Because the effect compounds just as growth does, only in the wrong direction, it deserves as much attention as the choice of what to buy. Always ask exactly what you are paying for each year, and compare it carefully with the alternatives on offer.",
+      "Taxes influence how much of your earnings and investment growth you actually get to keep, and the rules differ widely from one country to another and change from year to year. Ana therefore took care to read the official guidance in her own country and, when the decisions grew larger, paid for advice from a qualified professional. This book can only describe the general principles of money, because the details are always local and always changing.",
+      "Television is full of experts who speak confidently about what markets will do next month or next year, and a few of them will inevitably be right by chance. Studies of forecasting have repeatedly found that predictions about short-term movements are unreliable, and that very few people beat the market consistently for long periods. Ana decided that if even the experts could not see the future, she should not build her plans upon a guess about it.",
+      "Investing, in its true sense, means owning a share of something productive, such as a business that makes goods and earns profits, and being paid for waiting. Speculating means betting that a price will leap within days or weeks, with no interest in what the thing produces, and it has much more in common with a game of chance. Some speculation may be harmless in small amounts, but it should never be mistaken for a plan.",
+      "At a party in their seventh year, a charming stranger confided to Ben that a certain company was about to double in value within a month. Eager to catch up with Ana, Ben put in most of what remained of his savings, and within weeks the price had fallen by half and the stranger could not be found. By the time a secret reaches a person at a party, it is rarely still a secret and rarely worth acting on.",
+      "Be very wary of anyone who promises a guaranteed high return with no risk, because in the real world a higher expected return always carries a higher chance of loss. A promise of a sure profit is the oldest warning sign of fraud, and the pressure to decide quickly is another. If something sounds wonderful, wait a week, ask for the details in writing and check the seller with your country's financial regulator.",
+      "Ana set up an automatic payment so that a fixed amount moved to her savings and investments on the day her pay arrived, and she never had to remember or to be brave about it. Good financial behaviour, she had come to understand, depends less on knowledge than on systems that carry on working when she is tired, busy or tempted. Willpower is a limited resource, whereas a standing instruction to the bank costs nothing to maintain and never forgets.",
+      "Ana learned that changing your mind when the facts change is a strength rather than a weakness, and that sticking to a plan only because it is yours is a form of pride. Once a year she reviewed her goals, her costs and her investments, and she updated the plan only when her life or the world had truly changed, not when the news had frightened her. The aim was a plan that could bend in a storm without ever breaking apart.",
+      "Ana came to see that money is not the goal in itself but a means of buying choices, and that the most precious choice of all is control over how you spend your time. Having enough savings gives a person the freedom to say no to a job she dislikes, to take a risk on a new project or to look after a sick parent without panic. In that sense, wealth is the ability to wake up in the morning and decide for yourself how the day will go.",
+      "Saving, Ana found, is not the same as denying yourself every pleasure, and a life without any enjoyment is rarely sustainable. She chose to spend generously on the few things that mattered most to her, such as visiting her family and hosting long dinners for her friends, and to cut back without regret on everything else. Money spent on what you truly value, she decided, is not a leak but a return.",
+      "As her savings grew, Ana began giving a small part of her income each year to a charity in her town, and she was struck by how good it felt. Research on happiness suggests that spending on other people can lift a person's mood more than spending on herself, though the effect varies from person to person, and Ana simply found it to be true. Generosity, she thought, made her wealth feel like something far more meaningful than a number on a screen.",
+      "When her niece turned eight, Ana gave her three jars, one for spending, one for saving and one for sharing, and showed her how to divide her pocket money among them. The child treated it as a game, but she was also learning that money has different purposes and that waiting for something can make it better. Habits that are formed early, Ana believed, are the most durable ones, because nobody has to unlearn them.",
+      "Ana made a rule that her plan should fit on a single page, since a plan that she could not remember would be useless in a crisis. It named her goals, the amount she saved each month, where the money was kept and, most importantly, what she would do if the market fell and the headlines turned dark. Simplicity, she found, was not a lack of ambition but a protection against confusion.",
+      "Ten years later, Ana and Ben met at the harbour where they had once celebrated their very first pay slips. They were still good friends, and each of them had worked hard for a decade, but when they began to talk honestly about money, the difference between them was far greater than either had expected. Neither of them had been lazy or foolish, so the story could not be reduced to simple blame.",
+      "Ana had saved and invested steadily every month, and in spite of one terrible year along the way her pile had grown to nearly sixty thousand dollars, a result that depended partly on how the markets happened to behave. Ben had a newer car than hers, an impressive wardrobe and a loan that still had two years to run, but almost nothing set aside for the future. Both had earned exactly the same wages for ten years, and that was what made the comparison so striking.",
+      "Ben admitted, without any bitterness, that he had spent a decade trying to impress people who had barely noticed, and that selling in a panic had cost him more than he cared to calculate. Ana, who had made a few errors of her own, told him that nothing about the past was permanent and that the best time to begin was always the present, with a small amount and a calm mind. They agreed to meet every month to compare notes, to encourage each other and to keep the plan simple.",
+      "The lesson of their story is that money has less to do with intelligence than with behaviour. It means saving regularly, living below your means, staying calm when markets fall, leaving room for error and giving time the chance to do its quiet work. This book offers general information and not personal financial advice, so for decisions about your own life, consult a qualified adviser where you live."
+    ]
+  }
+}

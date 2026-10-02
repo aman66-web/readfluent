@@ -288,6 +288,43 @@
   }
  },
  {
+  "slug": "cyrano-de-bergerac",
+  "title": "Cyrano de Bergerac",
+  "author": "Edmond Rostand",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "Cyrano can fight a hundred men and rhyme at the same time, but he believes no woman could love his enormous nose. When the beautiful Roxane falls for a handsome soldier who cannot speak, Cyrano lends him his words, and his own heart.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Cyrano de",
+    "Bergerac"
+   ],
+   "size": 18.5,
+   "author": "EDMOND ROSTAND",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "feather",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sword",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-rival-at-desk-four",
   "title": "The Rival at Desk Four",
   "author": "The Hating Game",
@@ -317,6 +354,43 @@
     },
     {
      "id": "train",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "just-pretending",
+  "title": "Just Pretending",
+  "author": "The Love Hypothesis",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "Wren Ashby only wanted her aunt to stop finding her dates. So she said she was already seeing someone, and the nearest man in the café was Kit Navarro. Six weeks, one napkin of rules and one big lantern fair. What could go wrong?",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Just",
+    "Pretending"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "candle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "heart",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -809,6 +883,44 @@
   }
  },
  {
+  "slug": "strange-case-of-dr-jekyll-and-mr-hyde",
+  "title": "Strange Case of Dr Jekyll and Mr Hyde",
+  "author": "Robert Louis Stevenson",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "In foggy London, a quiet lawyer follows a trail of strange clues to a cruel little man called Hyde, and to the secret of his old friend Dr Jekyll. A classic tale of good, evil and the dark side we hide.",
+  "cover": {
+   "bg": "#26262A",
+   "title": [
+    "Strange Case",
+    "of Dr Jekyll",
+    "and Mr Hyde"
+   ],
+   "size": 14,
+   "author": "ROBERT LOUIS STEVENSON",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mask",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lamp",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "one-small-step-a-day",
   "title": "One Small Step a Day",
   "author": "Atomic Habits",
@@ -1013,6 +1125,43 @@
     },
     {
      "id": "cup",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "decide-your-direction",
+  "title": "Decide Your Direction",
+  "author": "Awaken the Giant Within",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Leon has drifted for years, until his aunt Rosa, a ferry captain, shows him that every day is full of small decisions. Follow one year of choosing a direction, taking a first step, and steering through setbacks.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Decide Your",
+    "Direction"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "anchor",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -1243,6 +1392,43 @@
   }
  },
  {
+  "slug": "the-index-fund-way",
+  "title": "The Index Fund Way",
+  "author": "A Random Walk Down Wall Street",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Leila has saved some money for the first time, and everyone has advice. Follow her as she learns, step by step, why a plain, low-cost index fund may beat clever tricks, and how patience does the real work.",
+  "cover": {
+   "bg": "#0E7490",
+   "title": [
+    "The Index",
+    "Fund Way"
+   ],
+   "size": 18.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "chart",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "tree",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-dhammapada",
   "title": "The Dhammapada",
   "author": "Buddhist scripture (traditional)",
@@ -1445,6 +1631,43 @@
     },
     {
      "id": "feather",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "be-here-be-calm",
+  "title": "Be Here, Be Calm",
+  "author": "Wherever You Go, There You Are",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "Maya is always rushing, always somewhere else in her head. Over six weeks of small, honest practice, she learns to arrive in her own life, one breath at a time. A calm, practical guide to being here.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Be Here, Be",
+    "Calm"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lotus",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "footprints",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -1708,6 +1931,44 @@
   }
  },
  {
+  "slug": "exercise-for-a-sharper-mind",
+  "title": "Exercise for a Sharper Mind",
+  "author": "Spark",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Leila keeps losing her keys and her words, and she spends all day at a desk. When her nephew Ravi, who studies the brain, comes to stay, he takes her out walking and explains what movement may really do for memory, focus and mood.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Exercise for",
+    "a Sharper",
+    "Mind"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "brain",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "footprints",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-histories",
   "title": "The Histories",
   "author": "Herodotus",
@@ -1923,6 +2184,45 @@
     },
     {
      "id": "stack",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-autobiography-of-benjamin-franklin",
+  "title": "The Autobiography of Benjamin Franklin",
+  "author": "Benjamin Franklin",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "Benjamin Franklin was a poor Boston printer's apprentice who ran away at seventeen with almost no money. In his own warm, funny, honest words, he tells how he taught himself, built a business and a city, and tried to become a better man.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The",
+    "Autobiography",
+    "of Benjamin",
+    "Franklin"
+   ],
+   "size": 11.5,
+   "author": "BENJAMIN FRANKLIN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "feather",
      "x": 160,
      "y": 38,
      "s": 0.36

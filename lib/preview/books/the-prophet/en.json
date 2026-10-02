@@ -1,0 +1,417 @@
+{
+  "slug": "the-prophet",
+  "meta": {
+    "blurb": "A wise stranger has waited twelve years in the city of Orphalese for his ship. Before he sails, the people ask him about love, work, joy, pain, freedom and death. His answers, in the poetry of Kahlil Gibran, have comforted readers for a hundred years.",
+    "bible": "The Prophet: a book of 26 short poems in prose by Kahlil Gibran, first published in English in 1923. Kahlil Gibran: poet and painter, born in Lebanon, who lived and wrote in the United States. Almustafa: the wise man of the book, called the chosen and the beloved; he is also called the Prophet. Orphalese: the city by the sea where Almustafa has lived for twelve years. Almitra: a seeress, the first in the city to believe in him, who asks him to speak. Ielool: the month of reaping, when the ship comes. The ship: it will carry Almustafa home to the island where he was born. The people ask in turn: a rich man, an innkeeper, a ploughman, a mason, a weaver, a merchant, a judge, a lawyer, an orator, a priestess, a teacher, a youth, a scholar, an astronomer, an elder, a hermit, a poet and an old priest. The poems come in this order: Love, Marriage, Children, Giving, Eating and Drinking, Work, Joy and Sorrow, Houses, Clothes, Buying and Selling, Crime and Punishment, Laws, Freedom, Reason and Passion, Pain, Self-Knowledge, Teaching, Friendship, Talking, Time, Good and Evil, Prayer, Pleasure, Beauty, Religion, Death. Voice and tone: calm, tender, and poetic; every idea is spoken by Almustafa and attributed to him; images are of the sea, the field, the sun and the seasons. The book is respectful of all faiths and never preaches."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A wise man stands on a hill above a white city by the sea",
+      "summary": "Introduces The Prophet, Kahlil Gibran, and Almustafa, who has waited twelve years in Orphalese for his ship."
+    },
+    {
+      "n": 2,
+      "scene": "A tall ship with pale sails comes slowly through the mist toward the harbour",
+      "summary": "On the seventh day of Ielool, Almustafa climbs a hill and sees his ship coming through the mist."
+    },
+    {
+      "n": 3,
+      "scene": "Almustafa walks down the hill toward the city with a sad face",
+      "summary": "As he walks down, he is sad, for he cannot leave without grief after so many days in the city."
+    },
+    {
+      "n": 4,
+      "scene": "Townspeople crowd the square and hold out their hands to the wise man",
+      "summary": "The people of Orphalese gather around him and beg him not to leave yet."
+    },
+    {
+      "n": 5,
+      "scene": "A woman in a long veil steps forward from the crowd to speak",
+      "summary": "Almitra the seeress asks him to tell them what he has learned of life."
+    },
+    {
+      "n": 6,
+      "scene": "A person climbs a steep stony path with large wings opening behind",
+      "summary": "On Love: follow love when it calls, though its ways are hard and steep."
+    },
+    {
+      "n": 7,
+      "scene": "Golden sheaves of corn are gathered, ground and baked into bread",
+      "summary": "Love gathers, threshes, grinds and kneads us like grain; it owns nothing and cannot be owned."
+    },
+    {
+      "n": 8,
+      "scene": "A bride and groom stand together with a space of light between them",
+      "summary": "On Marriage: together always, but with spaces in the togetherness for the winds of heaven."
+    },
+    {
+      "n": 9,
+      "scene": "Two stone pillars of a temple stand apart, an oak and a cypress beside them",
+      "summary": "Fill each other's cups but drink from separate ones; the pillars of the temple stand apart."
+    },
+    {
+      "n": 10,
+      "scene": "A mother holds a baby while an older child leans on her knee",
+      "summary": "On Children: they are not yours; they come through you but do not come from you."
+    },
+    {
+      "n": 11,
+      "scene": "An archer bends a great bow and a young arrow flies far toward the horizon",
+      "summary": "Parents are bows and children living arrows; the Archer bends the bow so the arrows fly far."
+    },
+    {
+      "n": 12,
+      "scene": "A rich man in fine clothes listens as the wise man speaks of giving",
+      "summary": "On Giving: you give little when you give your things; you truly give when you give yourself."
+    },
+    {
+      "n": 13,
+      "scene": "A myrtle bush breathes sweet air into a quiet green valley",
+      "summary": "The best givers give with joy, like the myrtle in the valley, and it is better to give unasked."
+    },
+    {
+      "n": 14,
+      "scene": "An old innkeeper sets a table with fruit and bread",
+      "summary": "On Eating and Drinking: every meal comes from another life, so eat with respect and thanks."
+    },
+    {
+      "n": 15,
+      "scene": "A ploughman walks behind his plough across a golden field",
+      "summary": "On Work: we work to keep pace with the earth; work is love made visible."
+    },
+    {
+      "n": 16,
+      "scene": "A baker kneads dough with a sad face while a weaver smiles at her loom",
+      "summary": "Bread baked without love is bitter; work done with love is like weaving cloth for someone dear."
+    },
+    {
+      "n": 17,
+      "scene": "A woman sits at a table, one hand holding a cup and one wiping a tear",
+      "summary": "On Joy and Sorrow: they come together; the cup that holds the wine was burned in the potter's oven."
+    },
+    {
+      "n": 18,
+      "scene": "A mason looks at a stone house; a simple tent stands in an open field",
+      "summary": "On Houses: build a shelter in the wild before a house in the city; a house is a mast, not an anchor."
+    },
+    {
+      "n": 19,
+      "scene": "A weaver sits at a loom; a barefoot child runs in sun and wind",
+      "summary": "On Clothes: they hide much of our beauty, but the earth loves bare feet and the wind loves our hair."
+    },
+    {
+      "n": 20,
+      "scene": "A merchant weighs fruit and cloth at a busy market stall",
+      "summary": "On Buying and Selling: the earth gives her fruit freely; trade should be done with love and fairness."
+    },
+    {
+      "n": 21,
+      "scene": "A judge in a long robe stands before a crowd in a stone hall",
+      "summary": "On Crime and Punishment: when one person does wrong, we all share a little of the blame."
+    },
+    {
+      "n": 22,
+      "scene": "Black and white threads woven together on a loom, one thread broken",
+      "summary": "A judge must look at the whole cloth: good and bad stand together; those who punish must look to the roots."
+    },
+    {
+      "n": 23,
+      "scene": "Children build sand towers by the sea and a wave rolls in",
+      "summary": "On Laws: people love making laws and breaking them, like children building sand towers by the sea."
+    },
+    {
+      "n": 24,
+      "scene": "A person stands on a hilltop as broken chains fall away while a crowd bows",
+      "summary": "On Freedom: we are free when we rise above our cares and wants; first dethrone the tyrant within."
+    },
+    {
+      "n": 25,
+      "scene": "A small boat on a stormy sea with a rudder and wide white sails",
+      "summary": "On Reason and Passion: they are the rudder and the sails of the soul's ship."
+    },
+    {
+      "n": 26,
+      "scene": "A cracked fruit stone opens to let its heart into the sunlight",
+      "summary": "On Pain: pain breaks the shell around our understanding, and much of it is a bitter medicine we choose."
+    },
+    {
+      "n": 27,
+      "scene": "A man sits alone beside a still lake at dawn, a lotus opening on the water",
+      "summary": "On Self-Knowledge: our hearts know in silence; do not say I have found the truth, but I have found a truth."
+    },
+    {
+      "n": 28,
+      "scene": "A teacher stands at a temple door and points students toward their own thoughts",
+      "summary": "On Teaching: no one can teach what is not already half awake in us; a wise teacher leads us to the door of our own minds."
+    },
+    {
+      "n": 29,
+      "scene": "Two friends sit by a warm fire and share bread",
+      "summary": "On Friendship: a friend is our needs answered, a field sown with love and a fireside for peace."
+    },
+    {
+      "n": 30,
+      "scene": "Friends laugh together at dawn with dew shining on the grass",
+      "summary": "Let friendship have no purpose except deepening the spirit, with laughter and the sharing of small pleasures."
+    },
+    {
+      "n": 31,
+      "scene": "A scholar speaks while a small bird beats its wings inside a cage",
+      "summary": "On Talking: we talk when we are no longer at peace with our thoughts; a thought in a cage of words cannot fly."
+    },
+    {
+      "n": 32,
+      "scene": "An astronomer under a night sky of turning stars holds a watch and a sundial",
+      "summary": "On Time: we try to measure the measureless; today is the memory of yesterday and tomorrow the dream of today."
+    },
+    {
+      "n": 33,
+      "scene": "A ship with no rudder drifts among rocky islands but does not sink",
+      "summary": "On Good and Evil: evil is only good tortured by hunger and thirst; a divided house is not a den of thieves."
+    },
+    {
+      "n": 34,
+      "scene": "A root grips the dark earth beneath a tree heavy with ripe fruit",
+      "summary": "We are good when we give of ourselves, yet not evil when we seek gain; the fruit cannot ask the root to be like it."
+    },
+    {
+      "n": 35,
+      "scene": "A priestess kneels in a quiet temple as light pours through its windows",
+      "summary": "On Prayer: pray in joy as well as in need, for prayer is the spreading of ourselves into the living air."
+    },
+    {
+      "n": 36,
+      "scene": "A hermit in a plain robe stands near bees on a flowering bush",
+      "summary": "On Pleasure: it is a song of freedom but not freedom itself; the bee and the flower need each other."
+    },
+    {
+      "n": 37,
+      "scene": "A poet walks through a green valley toward a distant mountain",
+      "summary": "On Beauty: beauty must be our guide and our way; it is not a need but an ecstasy."
+    },
+    {
+      "n": 38,
+      "scene": "A mirror lit by the dawn shows a veiled face turning toward the light",
+      "summary": "Beauty is life unveiling her holy face and eternity gazing in a mirror; we are both the veil and the mirror."
+    },
+    {
+      "n": 39,
+      "scene": "An old priest in a white robe watches a stonecutter and a weaver at work",
+      "summary": "On Religion: it is all our deeds and thoughts; our daily life is our temple."
+    },
+    {
+      "n": 40,
+      "scene": "A child plays in a doorway while clouds and lightning cross the sky",
+      "summary": "If we would know God, we should look around us: He plays with our children and walks in the clouds."
+    },
+    {
+      "n": 41,
+      "scene": "An owl sits in a dark tree at noon while a river runs to the sea",
+      "summary": "On Death: we cannot find its secret unless we look for it in the heart of life; life and death are one."
+    },
+    {
+      "n": 42,
+      "scene": "Seeds sleep under the snow while a shepherd stands before a king",
+      "summary": "Our hearts dream of spring like seeds under snow; the fear of death is the trembling of a shepherd before a king."
+    },
+    {
+      "n": 43,
+      "scene": "A dancer stands on a mountain top above a river that runs to the sea",
+      "summary": "To die is to stand in the wind and melt into the sun; only then shall we truly sing, climb and dance."
+    },
+    {
+      "n": 44,
+      "scene": "Evening falls on the temple as Almitra stands among a silent crowd",
+      "summary": "Evening comes; Almitra blesses the day and the spirit that spoke, and Almustafa wonders whether he was also a listener."
+    },
+    {
+      "n": 45,
+      "scene": "The crowd follows Almustafa down the temple steps toward the harbour",
+      "summary": "Almustafa goes down the steps of the temple, the people follow, and he steps aboard his ship."
+    },
+    {
+      "n": 46,
+      "scene": "On the ship's deck he turns to face the crowd on the quay",
+      "summary": "From the deck he tells the people the wind bids him go; wanderers never begin a day where they ended the last."
+    },
+    {
+      "n": 47,
+      "scene": "A rope is coiled on the deck as a fading sun lights the crowd",
+      "summary": "His days among them were brief and his words briefer; if his voice fades, he will return with a richer heart."
+    },
+    {
+      "n": 48,
+      "scene": "Sailors wait by the ropes while the captain looks toward the open sea",
+      "summary": "He tells the sailors that they sailed in his dreams, and now they will sail in his awakening."
+    },
+    {
+      "n": 49,
+      "scene": "Almustafa raises one hand in farewell as the sun climbs to noon",
+      "summary": "He says their meeting was a dream that is over; if they meet again in memory, they will sing a deeper song."
+    },
+    {
+      "n": 50,
+      "scene": "The ship sails east into the mist while a woman watches from the sea wall",
+      "summary": "The ship sails; Almitra, alone on the sea wall, remembers his promise: a little while, and another woman shall bear him."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Almustafa lived in the city of Orphalese for twelve long years.",
+      "One morning he climbed a hill and saw his ship in the mist.",
+      "But as he walked down, he felt sad about leaving the city.",
+      "The people of the city came to him and asked him to stay.",
+      "A wise woman named Almitra asked him to tell them about life.",
+      "He said that when love calls, you must follow it.",
+      "Love does not own anyone, and no one can own love.",
+      "Married people should stay together, but also keep a little space.",
+      "Share your bread, but drink from your own cups.",
+      "Your children are not really yours, he said.",
+      "Parents are like bows, and children are like arrows.",
+      "You give only a little when you give things.",
+      "Some people give with joy and do not want thanks.",
+      "When you eat an apple, thank the tree.",
+      "He said that work is love that people can see.",
+      "Bread made without love is bitter and does not feed anyone well.",
+      "Joy and sadness come together, he told her.",
+      "A house should help you move forward, not hold you back.",
+      "Clothes cover us, but the sun and wind like our skin.",
+      "He told the merchant to trade with love and fairness.",
+      "He said that we all share a little of the blame.",
+      "The judge must look at the whole cloth, not one thread.",
+      "People like to make laws, but they also like to break them.",
+      "You are free when your worries no longer rule you.",
+      "Your thinking steers the ship, and your passion fills the sails.",
+      "Pain breaks open the hard shell around what you understand.",
+      "Do not say you found the truth, but a truth.",
+      "A good teacher helps you find what you already know.",
+      "A friend is someone who gives you what you really need.",
+      "Friends should laugh together and share small joys.",
+      "Too many words can shut a thought in a cage.",
+      "Time is like love, and cannot be cut into pieces.",
+      "He said evil is only good when it is hungry and thirsty.",
+      "The root holds the earth, and the fruit gives away its sweetness.",
+      "He said we should pray in good times and in bad.",
+      "Pleasure is like a song of freedom, but it is not freedom.",
+      "Beauty is not something we need, but something that fills us with joy.",
+      "Beauty is life when life shows her true face.",
+      "He said that daily life is a person's temple.",
+      "If you want to know God, look at the world around you.",
+      "Almitra asked about death, and he answered her softly.",
+      "Your heart dreams of spring like a seed under the snow.",
+      "To die is only to stand in the wind and sun.",
+      "Evening came, and Almitra thanked him for his words.",
+      "He walked down the steps, and all the people followed him.",
+      "He told the people that the wind was calling him.",
+      "He promised that one day he would come back to them.",
+      "He told the sailors that he was ready to sail.",
+      "Our dream is over, he said, and now we must part.",
+      "The ship sailed away, and Almitra watched it go."
+    ],
+    "B1B2": [
+      "The Prophet is a book of poems in prose by Kahlil Gibran, first printed in 1923. It begins with Almustafa, a wise man who has waited twelve years in Orphalese for a ship.",
+      "On the seventh day of Ielool, the month of reaping, Almustafa climbed the hill beyond the city wall. There, moving slowly through the soft grey mist, he saw the ship that had come to take him home.",
+      "Yet when he came down from the hill, a sadness fell over him. He wondered how he could leave in peace, for he had spent many sad days and lonely nights there.",
+      "The people of Orphalese came out of their houses and gathered around him. They begged him not to leave yet, because he had been like a bright noon in their twilight.",
+      "Almitra, a seeress who had been the first in the city to believe in him, stepped forward to speak. She asked him to tell them, before he sailed, everything that he had learned about life.",
+      "Almustafa said that when love calls to you, you must follow, even if its road is hard and steep. When its wings close around you, give yourself to it, even though a sword hidden in its feathers may wound you.",
+      "Love works on us like a farmer who gathers, beats and grinds the grain until it becomes bread. Yet love owns nothing, and it does not wish to be owned by anyone.",
+      "Almustafa told married couples that they were born together and will be together always. However, he said, there should be spaces in their togetherness, so that the winds of heaven can dance between them.",
+      "Fill each other's cups, he said, but do not drink from the same cup. Stand together, but not too close, because even the pillars of a temple stand apart.",
+      "A woman who was holding a baby against her chest asked him to speak about children. He answered that they are not really yours, for they are the sons and daughters of Life's longing for itself.",
+      "You are the bows, he said, and your children are living arrows sent into the future. The Archer sees a mark far away, and he bends you with his strength so that his arrows fly swift and far.",
+      "A rich man asked about giving, and Almustafa answered that gifts of money are small. It is only when we give something of ourselves that we truly give.",
+      "Some people give a little in order to be praised, but others have little and give it all. The best givers, he said, give with joy, as the myrtle in the valley gives out its sweet smell.",
+      "An old innkeeper asked about eating and drinking, and Almustafa wished that people could live on the scent of the earth. Since they must eat, he said, they should remember that every meal comes from another living thing.",
+      "A ploughman asked about work, and Almustafa said that we work to keep pace with the earth and its soul. When we work, he said, we are like a flute through which the hours whisper their music.",
+      "If we bake bread without love, he said, it will be bitter and will feed only half of a person's hunger. Work done with love is like cloth woven with threads from the heart, as if someone we love would wear it.",
+      "A woman asked about joy and sorrow, and Almustafa said that they cannot be separated. The deeper sorrow cuts into us, the more joy we can hold, as a cup is made in the potter's fire.",
+      "A mason asked about houses, and Almustafa answered that a house should be a mast, not an anchor. A desire for comfort can slip in like a guest, then become the host, and at last the master.",
+      "A weaver asked about clothes, and Almustafa said that they hide much of our beauty but cannot hide what is ugly. The earth enjoys the touch of bare feet, he said, and the winds long to play with our hair.",
+      "A merchant asked him to speak about buying and selling in the markets. He said that the earth gives her fruit freely, and that trading with love and fairness leaves no one hungry.",
+      "A judge of the city asked him to speak about crime and punishment. He said that when one person does wrong, we all share a little of the blame, like a tree whose leaf turns yellow.",
+      "Good and bad people stand together in the sun, he said, like black and white threads woven into one cloth. When a black thread breaks, the weaver should examine the whole cloth, and the loom as well.",
+      "A lawyer asked about laws, and Almustafa said that people are like children who build towers of sand by the sea. They build with care and destroy with laughter, while the ocean brings more sand and laughs with them.",
+      "An orator asked about freedom, and Almustafa said that people often worship it like slaves praising a tyrant. Real freedom, he said, comes when we rise above our cares and wants, even though they still surround our lives.",
+      "The priestess asked about reason and passion, and he said that our souls are often a battlefield. Reason is the rudder of the soul's ship and passion is its sails, and if either breaks, we can only drift.",
+      "A woman asked about pain, and Almustafa said that it is the breaking of the shell around our understanding. Just as the stone of a fruit must break to let its heart see the sun, we must know pain.",
+      "A man asked about self-knowledge, and Almustafa said that our hearts already know the secrets of the days and nights in silence. We should never say, “I have found the truth,” but rather, “I have found a truth.”",
+      "A teacher asked about teaching, and Almustafa said that nobody can teach us what is not already half awake in our minds. A wise teacher does not ask us into his house of wisdom, but leads us to the door of our own minds.",
+      "A youth asked about friendship, and Almustafa said that a friend is our needs answered. A friend is the field that we sow with love and reap with thanks, and the fireside where we go for peace.",
+      "Let friendship have no purpose except the deepening of the spirit, for love that seeks anything else is not love but a net. In the dew of little things, the heart finds its morning, so let friends share laughter.",
+      "A scholar asked about talking, and Almustafa answered that we talk when we are no longer at peace with our thoughts. A thought is a bird of the open sky, which may spread its wings in a cage of words but cannot fly.",
+      "An astronomer asked about time, and Almustafa said that people try to measure what cannot be measured. Today is the memory of yesterday, and tomorrow is the dream of today.",
+      "An elder of the city asked about good and evil, and Almustafa said that evil is only good tortured by hunger and thirst. A divided house is not a den of thieves; it is only a divided house.",
+      "We are good when we try to give of ourselves, but we are not evil when we seek something for ourselves. The root clings to the earth and drinks from it, and the fruit cannot ask the root to be like itself.",
+      "A priestess asked about prayer, and Almustafa said that we pray in need, but should also pray in our days of joy. For what is prayer but the spreading of ourselves out into the living air?",
+      "A hermit who came to the city once a year asked him about pleasure. He called it a song of freedom, but not freedom itself, the blossoming of desires but not their fruit.",
+      "A poet asked where beauty can be found, and Almustafa answered that beauty herself must be our way and our guide. It is not a need but an ecstasy, he said, not a thirsty mouth but a heart on fire.",
+      "Beauty is life when life uncovers her holy face, Almustafa said, but we are both the life and the veil. Beauty is also eternity looking at itself in a mirror, and we are both the eternity and the mirror.",
+      "An old priest asked about religion, and Almustafa answered that it is all our deeds and all our thoughts. Who can separate faith from actions, or belief from the work of his hands?",
+      "Almustafa told them not to try to solve God like a riddle, but to look around them. They would see Him playing with their children, walking in the clouds, and coming down in the rain.",
+      "Then Almitra spoke again and asked him to tell them about death. He said that we cannot find the secret of death unless we look for it in the heart of life.",
+      "Deep in our hopes lies a quiet knowledge of what is beyond, and our hearts dream of spring like seeds under snow. We should trust these dreams, Almustafa said, for in them is hidden the gate to eternity.",
+      "What is it to die, he asked, but to stand naked in the wind and melt into the sun? And what is it to stop breathing but to free the breath from its restless tides so it may rise?",
+      "Evening had come, and Almitra the seeress blessed the day, the place and the spirit that had spoken. Almustafa asked, with a smile, whether it was truly he who had spoken, or whether he had been a listener too.",
+      "Almustafa walked down the steps of the temple, and all the people followed him through the streets. At last they reached the harbour, where he stepped aboard his ship and stood on the deck.",
+      "Standing on the deck, Almustafa told the people that the wind was calling him away. He explained that wanderers never begin a day where they ended the last, and that they travel even while the earth sleeps.",
+      "He told them that his days among them had been brief, and his words even briefer. If his voice faded and his love were forgotten, he promised, he would come again with a richer heart.",
+      "He turned to the sailors and told them that they had often sailed through his dreams. Now they would sail in his awakening, he said, and that was his deeper dream.",
+      "He said that they had met only yesterday, in a dream, and that the dream was now over. If they met again in the twilight of memory, he said, they would sing together a deeper song.",
+      "At his signal the sailors raised the anchor, and the ship sailed east as a great cry rose from the people. Only Almitra stayed silent, watching the ship until it vanished in the mist."
+    ],
+    "C1C2": [
+      "Kahlil Gibran, a poet and painter born in the mountains of Lebanon, published The Prophet in English in 1923, and readers have loved it ever since. Its hero is Almustafa, a wise and gentle stranger who has lived for twelve years in the city of Orphalese and is honoured there as the chosen and the beloved. All that time he has waited for a ship to carry him home to the island where he was born.",
+      "On the seventh day of Ielool, the month of reaping, Almustafa climbed the hill that stood beyond the city walls and turned his eyes toward the sea. Out of the mist, slowly and silently, his ship was coming, as though the waters themselves had decided that the waiting was over. The gates of his heart flew open, and his joy rose from him and flew far out across the water.",
+      "Yet as he walked back down toward the city, a deep sadness settled upon him, for how could he sail away without a wound in his spirit? Many were the days of pain he had passed within its walls, and long were the nights of loneliness, and who could part from such memories without regret? He knew that he could not leave quietly, as a man shuts a door behind him and walks away without a backward look.",
+      "Hearing of his sorrow, the people of Orphalese poured out of their houses and gathered about him in the square, and the old men and the young cried out with one voice. “Do not leave us yet,” they begged, for he had been a noon in their twilight, and his presence had given them dreams to dream. Even the priests and priestesses asked him not to let the waves of the sea part them from him now.",
+      "Then Almitra, a seeress who had been the first in the city to put her faith in him, stepped forward and spoke. She reminded him that he had searched the far distances so long for his ship, and that now it had come, and she begged him to tell them what he had seen of life between birth and death. He replied gently that he could speak of nothing except what was already stirring in the depths of their own souls.",
+      "Speaking first of love, Almustafa told the people that when love beckons they must follow, though its paths are hard and steep. When its wings enfold them they must yield, even though the sword hidden among its feathers may wound them. And when love speaks, they should believe it, though its voice may shatter their dreams as the north wind lays waste the garden.",
+      "Love, Almustafa said, gathers us in like sheaves of corn, threshes us bare, grinds us to whiteness and kneads us until we are soft enough to be shaped. All this love does so that we may know the secrets of our hearts, and in that knowledge become a small part of the heart of life. Yet love gives nothing but itself and takes nothing but from itself, for it possesses nothing and would not be possessed.",
+      "When Almitra asked about marriage, Almustafa replied that husband and wife were born together and will remain together even when the white wings of death scatter their days. Yet let there be spaces in your togetherness, he said, and let the winds of heaven dance between you, for love should be a moving sea between the shores of two souls. Let them love one another, but never make a chain of love.",
+      "Fill each other's cup, he said, but do not drink from the same one, and give each other of your bread without eating from the same loaf. Sing and dance together and be joyous, yet let each of you be alone, as the strings of a lute are alone although they tremble with the same music. Give your hearts, but not into each other's keeping, for only the hand of Life can hold them, and stand together yet not too near, for the pillars of the temple stand apart.",
+      "A woman who held a baby against her breast asked him to speak of children, and he told her that her children were not truly hers. They were the sons and daughters of Life's longing for itself, he said, and though they came through her, they did not come from her. She might give them her love but not her thoughts, and she might shelter their bodies but never their souls, for their souls dwell in the house of tomorrow.",
+      "Parents, Almustafa said, are the bows from which their children are sent forth like living arrows, and the Archer sees the mark upon the path of the infinite. He bends the bow with his might so that his arrows may fly swift and far, and the parent should let the bending be a joy. For just as the Archer loves the arrow that flies, he loves also the bow that stays steady in his hand.",
+      "A rich man asked him to speak of giving, and Almustafa replied that people give very little when they give only what they own. What is a possession but something kept and guarded for fear of needing it tomorrow, like the bones that an overcautious dog buries in trackless sand as he trots behind the pilgrims to a holy city? It is when we give of ourselves, he said, that we truly give.",
+      "There are those who give little of the much they have, and they give it only for praise, yet there are others who have little and give every bit of it. Others give with joy, and that joy is their reward, and still others give without pain, without seeking joy, and without thinking of virtue, like the myrtle breathing its fragrance into the air of the valley. It is good to give when asked, Almustafa said, but it is better to give unasked, out of understanding.",
+      "An old innkeeper asked him to speak of eating and drinking, and Almustafa answered that he wished people could live on the fragrance of the earth, as a plant of the air lives on light. Since we must kill in order to eat, he said, we should do it with respect, telling the animal in our hearts that the same power that ends its life will one day end ours. And when we bite into an apple, we should tell it that its seeds will live in our bodies and that the buds of its tomorrow will bloom in our hearts.",
+      "When a ploughman asked about work, Almustafa said that people work so that they may keep pace with the earth and the soul of the earth, for to be idle is to become a stranger to the seasons and to step out of life's procession. In labour, he said, a person is a flute through whose heart the whispering of the hours is turned to music. And work, if it is done with love, is nothing less than love made visible to the world.",
+      "If you bake bread with indifference, Almustafa warned, you bake a bitter loaf that feeds only half of a person's hunger, and if you grudge the pressing of the grapes, your grudge distils a poison into the wine. But if you build a house with affection, as though your beloved were to live in it, every task becomes an act of love. Better, he said, to leave work that you can only do with distaste and sit at the temple gate, taking gifts from those who work with joy.",
+      "Then a woman asked him to speak of joy and sorrow, and he told her that her joy was her sorrow unmasked, for the very well from which her laughter rose had often been filled with her tears. The deeper sorrow carves into one's being, he said, the more joy one can contain, since the cup that holds the wine is the same cup that was burned in the potter's oven. They come together, he added, and when one sits alone with you at the table, remember that the other is asleep upon your bed.",
+      "A mason stepped forward and asked about houses, and Almustafa advised the people to build in their imagination a shelter in the wilderness before they raised walls within the city. Your house, he said, is your larger body, and it grows in the sun and sleeps in the stillness of the night, so ask yourselves whether it holds peace or only the quiet fear of those who lock their doors. The desire for comfort, he warned, enters as a guest, becomes a host and ends as a master, and your house should therefore be a mast for your ship and never an anchor.",
+      "A weaver asked about clothes, and Almustafa said that they conceal much of our beauty, though they cannot hide what is not beautiful. We seek in garments the freedom of privacy, he said, but we may find only a harness and a chain, and he reminded them that modesty is a shield against the eyes of the unclean. Let it never be forgotten that the earth delights to feel bare feet beneath it, and that the winds long to play with our hair.",
+      "A merchant stepped forward and asked about buying and selling, and Almustafa replied that the earth yields her fruit to those who know how to fill their hands, and that they need never want. In exchanging her gifts, he said, they would find abundance and be satisfied, yet unless the exchange were made in love and kindly justice, it would lead some to greed and others to hunger. He also told the weavers, the potters and the gatherers of spices to bring the work of their hands to the market, where the earth and her fruits are shared.",
+      "One of the judges of the city asked him to speak of crime and punishment, and Almustafa answered that the wrongdoer cannot do wrong without the hidden will of all. Even as a single leaf turns yellow only with the silent knowledge of the whole tree, he said, so we are all travelling together toward the higher self, and the one who stumbles has often stumbled because of those ahead who did not move the stone from the path. Therefore no one should judge the guilty as if they were a different kind of person, for the criminal is often the victim of the injured, and the righteous are never wholly innocent of the deeds of the wicked.",
+      "No one, Almustafa told the judge, can separate the just from the unjust or the good from the wicked, for they stand together before the face of the sun, like the black thread and the white woven together in a single cloth. When the black thread breaks, the weaver must look at the whole cloth and examine the loom as well. So whoever would punish in the name of righteousness and lay the axe to the evil tree must first look at its roots, and he will find there the roots of the good and the bad, all entwined together in the silent heart of the earth.",
+      "A lawyer asked him about laws, and Almustafa answered that people delight in laying them down but delight even more in breaking them, like children who build towers of sand by the sea with great patience and then knock them down with laughter. Yet while they build, the ocean carries more sand to the shore, and when they destroy their work, the ocean laughs along with them, for the ocean always laughs with the innocent. But what of those to whom life is a rock and the law a chisel, with which they try to carve themselves in their own likeness?",
+      "An orator asked him to speak of freedom, and Almustafa said that he had seen people at the city gate and by their firesides bow down and worship their own freedom, as slaves humble themselves before a tyrant who is destroying them. You will be free, he told them, not when your days are without care or your nights without want and grief, but when these things surround your life and you rise above them, bare and unbound. And if it is a tyrant you would dethrone, see first that the throne erected for him within yourselves is destroyed.",
+      "The priestess asked him to speak of reason and passion, and he told her that the soul is so often a battlefield on which judgment goes to war against appetite. Reason and passion, he said, are the rudder and the sails of the seafaring soul, and if either is broken, the soul can only toss and drift, or else stand still in the middle of the sea. Let your reason lift your passion to the height where it sings, and let it guide passion so that it lives through its own daily resurrection, like the phoenix rising from its ashes.",
+      "A woman asked him to speak of pain, and Almustafa answered that pain is the breaking of the shell that encloses our understanding. Even as the stone of the fruit must break so that its heart may stand in the sun, he said, so we must know pain, and if we could keep our hearts in wonder at the daily miracles of life, our pain would seem no less wondrous than our joy. Much of our pain, he added, is self-chosen, a bitter medicine by which the physician within us heals our sick selves, and so we should trust that physician and drink the remedy in silence and calm.",
+      "A man asked about self-knowledge, and Almustafa told him that our hearts know in silence the secrets of the days and the nights, though our ears thirst to hear the sound of that knowledge. Do not say, “I have found the path of the soul,” he advised, but say rather, “I have met the soul walking upon my path.” For the soul does not walk upon a line, nor does it grow like a reed, but unfolds itself like a lotus of countless petals.",
+      "A teacher asked him to speak of teaching, and Almustafa replied that no one can reveal to us anything except what already lies half asleep in the dawn of our own knowledge. The teacher who walks in the shadow of the temple among his followers gives not so much of his wisdom as of his faith and his lovingness, and if he is truly wise, he does not bid us enter the house of his wisdom, but leads us gently to the threshold of our own minds. The astronomer may tell us of his understanding of space, yet he cannot give us that understanding itself.",
+      "A youth asked him about friendship, and Almustafa answered that a friend is our needs answered, the field which we sow with love and reap with thanksgiving. He is our board and our fireside, for we come to him with our hunger and seek him for our peace. And when our friend speaks his mind, he said, we do not fear the no in our own minds, nor do we withhold the yes.",
+      "Let there be no purpose in friendship, Almustafa went on, save the deepening of the spirit, for love that seeks anything beyond the disclosure of its own mystery is not love but a net cast forth, and only the useless is caught. Let the best of ourselves be for our friend, and if he must know the ebb of our tide, let him know its flood also. For in the sweetness of friendship there should be laughter and the sharing of pleasures, since in the dew of little things the heart finds its morning and is refreshed.",
+      "A scholar asked about talking, and Almustafa answered that people talk when they cease to be at peace with their thoughts, and when they can no longer dwell in the solitude of their hearts, they live in their lips, where sound is a diversion and a pastime. In much of our talking, he said, thinking is half murdered, for thought is a bird of space that may spread its wings in a cage of words but cannot fly. And there are those who hold the truth within them, yet they tell it not in words, for in the heart of such a person the spirit dwells in a rhythm of silence.",
+      "An astronomer asked about time, and Almustafa answered that people would measure the measureless and the immeasurable, adjusting their conduct and even directing the course of their spirits according to the hours and the seasons. Yet the timeless in us is aware of the timelessness of life, and knows that yesterday is only today's memory and tomorrow is today's dream. Time, like love, is undivided and paceless, so let today embrace the past with remembrance and the future with longing.",
+      "One of the elders of the city asked him to speak of good and evil, and Almustafa answered that he could speak of the good in us but not of the evil, for what is evil but good tortured by its own hunger and thirst? We are good when we are one with ourselves, he said, yet when we are not one with ourselves we are not evil, for a divided house is not a den of thieves but only a divided house. And a ship without a rudder may wander aimlessly among perilous isles and yet not sink to the bottom of the sea.",
+      "We are good, Almustafa said, when we strive to give of ourselves, yet we are not evil when we seek gain for ourselves, for in striving for gain we are only a root that clings to the earth and drinks at her breast. Surely the fruit cannot say to the root, be like me, ripe and full and ever giving of your abundance, for to the fruit giving is a need, as receiving is a need to the root. Each of us is good in countless ways, he said, and when we are not good we are only lingering, and even those who limp do not go backward.",
+      "A priestess asked him to speak of prayer, and Almustafa answered that people pray in their distress and in their need, and that they should pray also in the fullness of their joy and in their days of abundance. For what is prayer, he asked, but the expansion of ourselves into the living ether, and if it comforts us to pour our darkness into space, should it not be a delight to pour out the dawn of our hearts? He told them that the temple they enter in prayer is unseen, that he could not teach them words to pray with, and that the Almighty listens to our words only when He Himself speaks them through our lips.",
+      "A hermit who visited the city once a year came forward and asked about pleasure, and Almustafa answered that pleasure is a freedom song, but not freedom. It is the blossoming of our desires but not their fruit, a depth calling to a height without being either the deep or the high, a caged thing taking wing without being space itself. For to the bee a flower is a fountain of life, and to the flower a bee is a messenger of love, and to both the giving and the receiving of pleasure is a need and an ecstasy.",
+      "A poet asked where beauty might be found, and Almustafa replied that she must herself be the way and the guide, for how else could we find her? Beauty, he said, is not a need but an ecstasy; it is not a thirsty mouth or an empty hand stretched out, but a heart inflamed and a soul enchanted. It is not the sight you would see nor the song you would hear, but a vision you see with your eyes closed and a song you hear with your ears shut.",
+      "Beauty, Almustafa declared, is life when life unveils her holy face, but we are life and we are also the veil. Beauty is eternity gazing at itself in a mirror, yet we are eternity, and we are the mirror as well. Those who search the world for beauty, he suggested, need only learn to see that they are both the veil and the face behind it.",
+      "An old priest asked about religion, and Almustafa answered that it is all deeds and all reflection, and also that wonder and surprise which springs up in the soul even while the hands are hewing stone or tending a loom. Who can separate his faith from his actions, or his belief from his occupations, or spread his hours out before him and say, this for God and this for myself? Your daily life, he told them, is your temple and your religion, and whenever you enter it you should take your all with you.",
+      "If you would know God, Almustafa said, do not be a solver of riddles, but look about you, and you shall see Him playing with your children. Look into space, and you shall see Him walking in the cloud, outstretching His arms in the lightning and descending in the rain. You shall see Him smiling in flowers, then rising and waving His hands in trees.",
+      "Then Almitra spoke once more and said that now they would ask of death. You would know the secret of death, Almustafa told them, but how can you find it unless you seek it in the heart of life? The owl, whose night-bound eyes are blind to the day, cannot unveil the mystery of light, and if you would behold the spirit of death, you must open your heart wide to the body of life, for life and death are one, even as the river and the sea are one.",
+      "In the depth of our hopes and desires, Almustafa said, lies our silent knowledge of the beyond, and like seeds dreaming beneath the snow, our hearts dream of spring. Trust the dreams, he told them, for in them is hidden the gate to eternity, and the winter that seems so deep is only the sleep of the seed. Our fear of death is only the trembling of a shepherd who stands before a king, whose hand is about to be laid upon him in honour.",
+      "What is it to die, Almustafa asked, but to stand naked in the wind and to melt into the sun? And what is it to cease breathing, but to free the breath from its restless tides, that it may rise and expand and seek God unencumbered? Only when you drink from the river of silence shall you truly sing, and when you have reached the mountain top, then you shall begin to climb, and when the earth claims your limbs, then shall you truly dance.",
+      "Now it was evening, and Almitra the seeress, standing quietly among the crowd, said that this day, this place and the spirit that had spoken were all blessed. Almustafa answered her with a question of his own: was it really he who had spoken, he asked, and had he not also been a listener? It was as though the words had come to him as a guest and not as a possession.",
+      "Then he went down the steps of the temple, and all the people followed him through the narrow streets of Orphalese, the old walking beside the young as if the whole city had decided to see him off. At last they reached the harbour, and he stepped aboard his ship and stood upon its deck, looking back at the faces on the shore. Beyond the crowd, the sea lay calm and shining, and the sails stood ready.",
+      "Standing on the deck and facing the people again, Almustafa raised his voice and told them that the wind was bidding him leave, and that although he was less hasty than the wind, he must go. We wanderers, he said, are always seeking the lonelier way, and we never begin a day where we ended another, nor does any sunrise find us where the sunset left us. Even while the earth sleeps we travel, for we are like the seeds of a tenacious plant, which in their ripeness and fullness of heart are given to the wind and scattered.",
+      "Brief were his days among them, Almustafa said, and briefer still the words he had spoken. Yet if his voice should fade in their ears and his love vanish from their memory, he would come again, and with a richer heart and lips more yielding to the spirit he would speak. He would return with the tide, he promised, and though death might hide him and the greater silence enfold him, he would seek their understanding once more, and not in vain.",
+      "Almustafa turned to the sailors and called them sons of the ancient sea, for they had often sailed through his dreams, and now they would sail through his awakening, which was his deeper dream. He was ready, he said, and his eagerness stood with its sails full set, waiting only for the wind. He would draw one more breath of that still air and cast one more loving look backward, and then he would stand among them, a seafarer among seafarers.",
+      "He bade farewell to the people and to the youth he had spent among them, for it was only yesterday, he said, that they had met in a dream. They had sung to him in his aloneness, and out of their longings he had built a tower in the sky, but now their sleep had fled, the dream was over, and it was no longer dawn. The noontide was upon them and their half waking had turned to fuller day, so they must part, yet if in the twilight of memory they should meet once more, they would speak together again, and if their hands should meet in another dream, they would build another tower in the sky.",
+      "At his signal the sailors weighed anchor and cast the ship loose from its moorings, and they took their way eastward, while a cry rose from the people as from a single heart and was carried out over the sea like a great trumpet. Only Almitra was silent, gazing after the ship until it vanished into the mist. When the crowd had dispersed, she still stood alone upon the sea wall, remembering his promise that after a little while, a moment of rest upon the wind, another woman would bear him."
+    ]
+  }
+}
