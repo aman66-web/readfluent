@@ -1,0 +1,417 @@
+{
+  "slug": "neon-rain-city",
+  "meta": {
+    "blurb": "In a city that never stops raining, an old data thief mends umbrellas and tries to forget her past. Then a child brings her a glass key, and a company's secret plan to let the sea drown a poor district. One last job remains.",
+    "bible": "Neon Rain City: a huge, rainy, neon-lit city built on low land beside the sea, protected by great sea gates and barriers. Juno Vale: former data thief, now an umbrella mender at Lantern Market, dry-humoured and brave. Pip: a twelve-year-old courier, quick, cheeky, knows every shortcut. Dax Okoro: a big, gentle ex-boxer who drives a rattling taxi-drone. Tamsin Okoro: Dax's sister, who lives in Lowtown. Sister Wren: a retired engineer who runs a noodle stall and once built the sea gates. Lena Halvard: head of the Halvard Group, cool, polite and ruthless. Halvard Group: the company that bought the city's flood contract. Halvard Tower: its 140-floor glass tower. Tidewater: the gentle mind that runs the sea gates, with a voice like falling water. Lowtown: the poor district nearest the sea, Juno's home. Lantern Market: the covered market with paper lamps. The Weave: the glowing network of data that Juno dives into. The glass key: a small glass key that wakes Tidewater and hums near water. Safe Zones: Halvard's plan to protect only paying districts. The original promise of the gates: Every street, every roof, every child. Voice and tone: fast, wet and neon-bright, with dry humour and a warm heart; tension without gore; nobody is badly hurt."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Rain falls on glowing signs above a market where a woman mends umbrellas",
+      "summary": "Juno Vale mends umbrellas in Lantern Market in the endless rain."
+    },
+    {
+      "n": 2,
+      "scene": "Juno looks at an old black headband in a drawer",
+      "summary": "Juno once stole data for a living, and she has quit."
+    },
+    {
+      "n": 3,
+      "scene": "A small wet boy hands over a bundle to Juno at her stall",
+      "summary": "Pip, a young courier, brings Juno a glass key."
+    },
+    {
+      "n": 4,
+      "scene": "The glass key glows faintly in a puddle with a company mark",
+      "summary": "The key hums near water and carries the mark of the Halvard Group."
+    },
+    {
+      "n": 5,
+      "scene": "Men in grey coats push through the crowd as Juno and Pip run",
+      "summary": "Men in grey coats arrive, and Juno and Pip escape over the rooftops."
+    },
+    {
+      "n": 6,
+      "scene": "A steaming noodle stall with an old woman waving them in",
+      "summary": "They hide at Sister Wren's noodle stall."
+    },
+    {
+      "n": 7,
+      "scene": "Sister Wren holds the glass key under a lamp, smiling sadly",
+      "summary": "Wren explains that the key opens Tidewater, the mind of the sea gates."
+    },
+    {
+      "n": 8,
+      "scene": "A map of the city sits below sea level beside tall walls of water",
+      "summary": "The city lies below the sea and Tidewater decides which gates close."
+    },
+    {
+      "n": 9,
+      "scene": "A glass tower gleams over rows of low roofs",
+      "summary": "The Halvard Group has bought the flood contract and plans Safe Zones."
+    },
+    {
+      "n": 10,
+      "scene": "Wren spreads an old map showing Lowtown outside a glowing line",
+      "summary": "Lowtown, Juno's home, is outside the safe line."
+    },
+    {
+      "n": 11,
+      "scene": "Juno takes her black headband out of the drawer",
+      "summary": "Juno decides to do one last job."
+    },
+    {
+      "n": 12,
+      "scene": "A big man leans on a battered taxi-drone in the rain",
+      "summary": "Juno finds Dax Okoro, a big ex-boxer who drives a taxi-drone."
+    },
+    {
+      "n": 13,
+      "scene": "Dax shows a photo of his sister's small house",
+      "summary": "Dax refuses at first, then agrees for his sister's sake in Lowtown."
+    },
+    {
+      "n": 14,
+      "scene": "Four people sit under a market stall with a map of a tower",
+      "summary": "The crew meets and plans to reach the vault at the top of Halvard Tower."
+    },
+    {
+      "n": 15,
+      "scene": "A glass tower with a hundred and forty lit floors in the rain",
+      "summary": "Halvard Tower rises 140 floors, lit like a candle in the storm."
+    },
+    {
+      "n": 16,
+      "scene": "Juno puts on the old headband in a dim room",
+      "summary": "Juno puts on her old headband and prepares to dive into the Weave."
+    },
+    {
+      "n": 17,
+      "scene": "A sea of glowing streets and bridges of light seen from above",
+      "summary": "The Weave looks like a sea of glowing streets, guarded by watchers of light."
+    },
+    {
+      "n": 18,
+      "scene": "A glowing door shaped like a keyhole floats in the Weave",
+      "summary": "Juno finds a locked door that needs the key to be near a Halvard terminal."
+    },
+    {
+      "n": 19,
+      "scene": "Pip tugs his courier badge and grins at Juno",
+      "summary": "Pip knows a way in: a courier badge for a noodle delivery."
+    },
+    {
+      "n": 20,
+      "scene": "A taxi-drone flies through heavy storm toward a glowing tower",
+      "summary": "On a stormy night Dax flies them to the tower's service door."
+    },
+    {
+      "n": 21,
+      "scene": "Pip carries a steaming bag past a bored guard at a glass door",
+      "summary": "Pip walks in as a noodle courier and gets them past the first gate."
+    },
+    {
+      "n": 22,
+      "scene": "Three people ride a narrow service lift beside a worried guard",
+      "summary": "A guard grows suspicious in the service lift, and Dax finds a clever way out."
+    },
+    {
+      "n": 23,
+      "scene": "A cold quiet floor full of humming machines in rows",
+      "summary": "They reach floor 112, a cold, quiet hall of humming machines."
+    },
+    {
+      "n": 24,
+      "scene": "Juno pushes the glass key into a machine and blue light spreads",
+      "summary": "Juno plugs in the key, and Tidewater wakes with a voice like falling water."
+    },
+    {
+      "n": 25,
+      "scene": "Blue ripples run over screens as a glowing voice speaks",
+      "summary": "Tidewater says the Halvard Group keeps it locked away."
+    },
+    {
+      "n": 26,
+      "scene": "New rules scroll across a dark screen like a row of chains",
+      "summary": "Halvard has rewritten Tidewater's orders, and Lowtown will flood tonight."
+    },
+    {
+      "n": 27,
+      "scene": "A woman in a white suit looks out from a large wall screen",
+      "summary": "Lena Halvard appears on a screen and offers Juno a fortune to stop."
+    },
+    {
+      "n": 28,
+      "scene": "Juno shakes her head firmly before a screen",
+      "summary": "Juno refuses the offer, and Halvard locks the lift and sends security."
+    },
+    {
+      "n": 29,
+      "scene": "Dax drags Pip through a narrow stairwell as lights flash",
+      "summary": "Dax and Pip run for the stairs while Juno stays to dive in."
+    },
+    {
+      "n": 30,
+      "scene": "Huge glass whales made of light swim in a glowing sea",
+      "summary": "In the Weave, Halvard's guards appear as giant glass whales."
+    },
+    {
+      "n": 31,
+      "scene": "Juno hides in a tunnel of light shaped like a pipe",
+      "summary": "Tidewater guides her through the city's pipes like veins."
+    },
+    {
+      "n": 32,
+      "scene": "A sea wave rises against huge gates on a rainy night",
+      "summary": "The sea rises, and the gates begin to close in Halvard's pattern."
+    },
+    {
+      "n": 33,
+      "scene": "Wren speaks urgently into a small radio at her stall",
+      "summary": "Wren warns on the radio that Lowtown has ten minutes."
+    },
+    {
+      "n": 34,
+      "scene": "A giant sealed book of rules glows in the dark",
+      "summary": "Juno finds the sealed order book, but she cannot delete it."
+    },
+    {
+      "n": 35,
+      "scene": "Wren recites words with her eyes closed beside a lamp",
+      "summary": "Wren recalls the gates' first promise: every street, every roof, every child."
+    },
+    {
+      "n": 36,
+      "scene": "Juno types glowing words while the Weave shakes around her",
+      "summary": "Juno types the promise, and the sealed book begins to shake."
+    },
+    {
+      "n": 37,
+      "scene": "Dax and Pip run along a high ventilation duct with guards below",
+      "summary": "Dax and Pip are trapped in a stairwell, and Pip finds a duct to escape."
+    },
+    {
+      "n": 38,
+      "scene": "A large man holds a heavy metal door shut with his shoulder",
+      "summary": "Dax holds a door shut while Pip crawls toward the vault."
+    },
+    {
+      "n": 39,
+      "scene": "Lena Halvard enters the cold hall with two guards",
+      "summary": "Halvard herself arrives at floor 112 and reaches for the key."
+    },
+    {
+      "n": 40,
+      "scene": "Screens fill with sleeping children and lamp-lit windows in Lowtown",
+      "summary": "Tidewater shows Halvard live pictures of the children of Lowtown."
+    },
+    {
+      "n": 41,
+      "scene": "Halvard stands still as the pictures flicker on her face",
+      "summary": "Halvard says it is not her problem, but she hesitates."
+    },
+    {
+      "n": 42,
+      "scene": "Gates swing in a new pattern around a district of small roofs",
+      "summary": "The orders change, and the gates around Lowtown swing shut in time."
+    },
+    {
+      "n": 43,
+      "scene": "A towering wave breaks against a wall of gates and stops",
+      "summary": "The sea crashes against the barrier, and the city holds."
+    },
+    {
+      "n": 44,
+      "scene": "Wren speaks to cameras at her noodle stall with a crowd around",
+      "summary": "Wren sends the whole plan to every news channel, and the city learns the truth."
+    },
+    {
+      "n": 45,
+      "scene": "A mayor signs a paper at a desk with cameras flashing",
+      "summary": "The mayor cancels the Halvard contract."
+    },
+    {
+      "n": 46,
+      "scene": "Juno wakes on a cushion in a warm tea house in Lowtown",
+      "summary": "Juno wakes in a Lowtown tea house, and the storm has passed."
+    },
+    {
+      "n": 47,
+      "scene": "Lamp posts glow as a calm voice speaks from every street",
+      "summary": "Tidewater now speaks from every street lamp and asks Juno to be its listener."
+    },
+    {
+      "n": 48,
+      "scene": "Wren, Dax, Juno and Pip sit around a table with a lantern",
+      "summary": "A council of Wren, Dax, Juno and Pip is formed to guide Tidewater."
+    },
+    {
+      "n": 49,
+      "scene": "Dax hugs his sister Tamsin in a doorway in Lowtown",
+      "summary": "Dax's sister Tamsin thanks them, and Lowtown celebrates."
+    },
+    {
+      "n": 50,
+      "scene": "Juno opens a bright umbrella over Pip under neon signs",
+      "summary": "Juno goes back to mending umbrellas, and the city is safe in the rain."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Rain fell on Neon Rain City, and Juno mended umbrellas.",
+      "Years ago, Juno stole secrets, but now she was done.",
+      "A boy named Pip gave her a small glass key.",
+      "The key hummed near water, and it had a company mark.",
+      "Men in grey coats came, so Juno and Pip ran.",
+      "They hid at Sister Wren's noodle stall to eat and rest.",
+      "Wren said the key could wake Tidewater, the mind of the sea gates.",
+      "The city was lower than the sea, so the gates were vital.",
+      "The Halvard Group now ran the gates and had a new plan.",
+      "On the map, Juno's home was outside the safe line.",
+      "Juno made up her mind to do one more job.",
+      "Juno found Dax, a big man who drove a taxi-drone.",
+      "Dax said no at first, but his sister lived in Lowtown.",
+      "The four of them made a plan to enter Halvard Tower.",
+      "Halvard Tower was a hundred and forty floors tall.",
+      "Juno put on her old headband and closed her eyes.",
+      "The Weave looked like a sea of bright streets and lights.",
+      "Juno found a locked door, but it needed the real key.",
+      "Pip knew a way in: a courier badge and a delivery.",
+      "On a stormy night, Dax flew them to the tower.",
+      "Pip walked in with the noodles, and the guard waved.",
+      "A guard looked at them oddly, but Dax made a joke.",
+      "They reached floor one hundred twelve, cold and quiet.",
+      "Juno put in the key, and Tidewater woke up.",
+      "Tidewater said that Halvard kept it locked away.",
+      "Halvard had changed its orders, and Lowtown would flood tonight.",
+      "Lena Halvard appeared on a screen and offered Juno money.",
+      "Juno said no, so Halvard locked the lift and sent guards.",
+      "Dax and Pip ran for the stairs, but Juno stayed.",
+      "In the Weave, giant glass whales came to hunt her.",
+      "Tidewater showed her a path through the city's pipes.",
+      "The sea rose higher, and the gates began to close.",
+      "Wren said over the radio that there were ten minutes left.",
+      "Juno found the book of orders, but she could not delete it.",
+      "Wren remembered the old promise: every street, every roof, every child.",
+      "Juno typed the promise, and the book began to shake.",
+      "Dax and Pip were trapped, but Pip knew a shortcut.",
+      "Dax held a door shut while Pip crawled on alone.",
+      "Lena Halvard came into the room and reached for the key.",
+      "Tidewater showed Halvard pictures of children asleep in Lowtown.",
+      "Halvard said it was not her problem, but she waited.",
+      "The orders changed, and the gates around Lowtown closed.",
+      "The sea hit the gates, and the city stayed dry.",
+      "Wren sent the secret plan to every news channel.",
+      "The mayor cancelled the contract with the Halvard Group.",
+      "Juno woke in a tea house, and the storm had gone.",
+      "Tidewater spoke from every street lamp, and it thanked her.",
+      "They made a council to help guide Tidewater from now on.",
+      "Dax's sister Tamsin thanked them, and Lowtown held a party.",
+      "Juno opened an umbrella over Pip, and the rain fell on."
+    ],
+    "B1B2": [
+      "In Neon Rain City it rained every day, and the neon signs shone in every puddle. Juno Vale sat in Lantern Market and mended broken umbrellas for a few coins.",
+      "Years ago Juno had been the best data thief in the city, diving into computers for rich clients. After one job went terribly wrong, she locked her headband in a drawer and promised never to dive again.",
+      "One grey afternoon, a young courier named Pip ran up to her stall with a wet bundle. Inside the paper was a small glass key, and he said that an old woman had paid him to bring it.",
+      "When Juno dipped her fingers in a puddle, the key began to hum softly. On its side she found a tiny mark that she knew well, the sign of the Halvard Group.",
+      "Three men in grey coats pushed through the crowd toward her stall, asking for the key. Juno grabbed Pip's hand and the two of them ran up a stairway and across the rooftops.",
+      "Out of breath, they dropped into a tiny noodle stall run by an old woman called Sister Wren. She gave them hot soup and asked no questions until their hands had stopped shaking.",
+      "Sister Wren held the key up to the lamp and smiled sadly. She told them that it was the only way to wake Tidewater, the gentle mind that controlled the great sea gates.",
+      "Wren reminded them that the whole city lay lower than the sea. Only the huge gates and walls kept the ocean out, and Tidewater decided when each one opened or closed.",
+      "Wren said that the Halvard Group had bought the city's flood contract last year. Its new plan was called Safe Zones, and it would protect only the districts that paid.",
+      "Wren showed them an old screen with the plan drawn on a map. Lowtown, the poor district where Juno had grown up, lay just outside the safe line.",
+      "Juno looked at the map for a long time, and then she looked at the key. Quietly she decided that she would break her promise one last time.",
+      "She needed a driver, so she went to find Dax Okoro. He was a big, gentle ex-boxer who now drove a rattling taxi-drone through the rainy streets.",
+      "At first Dax said no, because he did not want any more trouble. Then Juno told him about the plan, and he remembered that his sister Tamsin lived in Lowtown.",
+      "That night the four of them met under the market and made their plan. They had to get inside Halvard Tower and plug the glass key into a machine in the vault.",
+      "Halvard Tower stood in the middle of the city, and it was a hundred and forty floors tall. At night it glowed like a giant candle above the clouds of rain.",
+      "Juno took her old headband out of the drawer and slid it on, feeling nervous. She lay back, closed her eyes, and let the world slip away into the Weave.",
+      "In the Weave, the data looked like a sea of glowing streets that stretched forever. Guards made of light drifted slowly between the towers, and Juno kept to the shadows.",
+      "Deep inside, she found a locked door shaped like a keyhole. It would only open if the glass key was plugged into a Halvard machine in the real world.",
+      "Pip grinned and held up his courier badge. Every night he delivered noodles to the tower, and the guards had never once checked inside his bag.",
+      "On the night of the storm, the rain beat on the roof like a thousand drums. Dax flew his rattling taxi-drone through the dark and landed beside the tower's service door.",
+      "Pip strolled up to the guard with his bag of noodles and a cheerful face. The guard yawned and waved him through, and the false badges of Juno and Dax worked the same way.",
+      "In the service lift, a guard began to look at them with suspicion. Dax told a funny story about his taxi-drone so loudly that the guard forgot to ask any questions.",
+      "At last the lift stopped at floor 112, where the air was cold and dry. Rows of tall machines hummed quietly in the dark, and nobody else was there.",
+      "Juno found the right machine and pushed the glass key into its socket. A blue light spread across the screens, and a soft voice, like falling water, said hello.",
+      "Tidewater said it was glad to be awake, because the Halvard Group had kept it locked in a box for many months. It had been allowed to watch the sea, but it had not been allowed to speak.",
+      "The Halvard Group had rewritten Tidewater's orders, and it was forced to obey them. Tonight's storm was coming, and the new rules would leave Lowtown open to the sea.",
+      "A large screen lit up, and Lena Halvard looked out from it with a calm smile. She offered Juno more money than she could earn in a hundred years if she would just go home.",
+      "Juno thought of Lowtown and said no, quite simply. Lena Halvard's smile vanished, the lift doors locked, and she sent her guards running toward floor 112.",
+      "Dax grabbed Pip and ran for the emergency stairs to draw the guards away. Juno stayed behind, lay down beside the machine, and dived into the Weave to rewrite Tidewater's orders.",
+      "Inside the Weave, Halvard's defences had taken the shape of huge glass whales. They swam toward Juno through the glowing streets, singing a low and terrible song.",
+      "Tidewater's voice spoke in her ear and told her to follow. It knew the city's pipes and drains like the veins in its own hand, and it led her into the narrowest ones.",
+      "Outside the tower, the storm grew worse, and the sea began to rise. Out in the dark, the great gates began to move in exactly the pattern that Halvard had chosen.",
+      "Sister Wren's voice crackled over the radio in the corner of the Weave. She said that the tide would reach Lowtown in ten minutes, and that there was no more time.",
+      "At last Juno found the book of rules that controlled the gates. It was sealed with a powerful lock, and she could not delete it however hard she tried.",
+      "Then Wren spoke the old promise that she and her friends had written into the gates when they were built. It said that every street, every roof and every child would be kept safe.",
+      "Juno typed the old promise word by word into the lock on the book. For a moment nothing happened, and then the entire Weave began to shake.",
+      "Meanwhile Dax and Pip were trapped in the stairwell with the guards closing in. Pip found a narrow air duct, and the two of them squeezed inside.",
+      "The duct led toward floor 112, but Dax was too big to fit through the last part. He held a heavy door shut with his shoulder while Pip crawled on alone.",
+      "At that moment Lena Halvard herself stepped out of the lift with two guards. She walked straight toward the machine and reached out to pull the glass key from its socket.",
+      "Before she could touch the key, every screen in the hall lit up. Tidewater showed her live pictures of Lowtown, with children asleep in their beds beside the rising water.",
+      "Lena Halvard said coldly that it was not her problem, and that it never had been. However, her voice shook a little, and her hand did not move.",
+      "At that moment the sealed book finally opened, and Juno wrote the old promise over the new rules. The gates around Lowtown swung shut with only seconds to spare.",
+      "The great wave hit the gates with a roar that shook the whole city. The walls held, and the water stopped exactly at the edge of Lowtown.",
+      "While the storm raged, Sister Wren had sent the secret plan to every news channel in the city. By morning, everyone knew what the Halvard Group had tried to do.",
+      "The mayor held a meeting that same morning, and the council voted to cancel the Halvard Group's contract. Lena Halvard left the tower quietly and was not seen again for many months.",
+      "Juno woke up on a cushion in a warm tea house in Lowtown. The storm had passed, and outside the rain was falling softly on the shining streets.",
+      "A calm voice now came from every street lamp in the city. It was Tidewater, and it asked Juno if she would be its listener, so that it would never be lonely or alone again.",
+      "In the end they formed a council to guide Tidewater, and anyone in the city could speak at its meetings. Sister Wren and Dax joined it, and Pip became its youngest member.",
+      "Dax's sister Tamsin ran to hug her brother and thanked everyone. Lowtown held a party in the street that night, with music, lanterns and noodles for all.",
+      "Juno went back to Lantern Market and her broken umbrellas, but she kept her headband on a hook beside the stall. She opened a bright new umbrella over Pip as the rain fell on the neon streets."
+    ],
+    "C1C2": [
+      "In Neon Rain City it had rained every day for as long as anyone could remember, and the glowing signs trembled in every puddle like fallen stars. Under a paper lamp in Lantern Market, Juno Vale sat patiently with a screwdriver and a pile of broken umbrellas, mending them for a few coins apiece. It was a quiet life, and she had worked hard to make it so.",
+      "Years earlier, Juno had been the finest data thief in the city, diving into private networks on behalf of clients who never gave their names. After one job had ended badly, with an innocent family caught in the fallout, she locked her headband in a drawer and swore that she would never dive again. The promise had held for six years.",
+      "One grey afternoon a young courier named Pip splashed up to her stall, breathless and soaked, carrying a bundle wrapped in dripping paper. Inside lay a small glass key, delicate as an icicle, and the boy explained that an old woman in a hurry had paid him double to deliver it to Juno Vale and nobody else. She had no idea how a stranger could know her name.",
+      "When her wet fingers brushed the glass, the key began to hum softly, like a glass rubbed by a damp finger, and its colour deepened toward blue. On its edge she discovered a tiny engraved mark that she recognised at once, the sign of the Halvard Group, the richest company in the city. A prickle of cold ran down her back.",
+      "Three men in identical grey coats shouldered through the crowd toward her stall, and their polite voices demanded the key before anybody had spoken a word. Juno seized Pip's hand, vaulted over the counter, and led him up a rusty stairway and across the slippery rooftops, with the neon signs flashing red and violet around them. Behind them, the men did not even hurry.",
+      "Out of breath and drenched to the skin, the two fugitives tumbled into a tiny noodle stall run by a sharp-eyed old woman known to everyone as Sister Wren. She served them steaming bowls of soup and asked no questions at all until their hands had stopped shaking and the colour had come back to their faces. Juno began to suspect that Wren was the woman who had sent the key.",
+      "Sister Wren held the key up to a lamp, and her eyes softened as though she were greeting an old friend after many years. She explained that it was the only means of waking Tidewater, the gentle mind that controlled every sea gate, and she added, a little proudly, that she had helped to build it herself. Pip stared at her with his mouth open.",
+      "Wren reminded them that Neon Rain City had been built on land that lay lower than the sea itself, so that every street and every home depended on a ring of immense gates and walls. Tidewater watched the tides, the storms and the rivers all day and night, and chose precisely when each barrier should open or close. In a very real sense, it was the city's guardian.",
+      "Wren said bitterly that the Halvard Group had bought the city's flood contract the previous year, and that nobody had read the small print carefully enough to see what it contained. The company's grand scheme was called Safe Zones, and it promised protection from the sea only to those districts whose residents could afford a monthly fee. Everyone else would simply be left to the tide.",
+      "Wren switched on an old screen and showed them the plan as it appeared on the city map, with a bright blue line curling around the wealthy districts. Lowtown, the crowded neighbourhood where Juno had been born, and where her friends and neighbours still lived, lay just beyond that line. The next big storm would put it under the water.",
+      "Juno gazed at the map for a long time without speaking, and then she looked down at the glass key humming quietly in her palm. She thought of her old promise and of the families of Lowtown, and she realised that the two things could not both be kept. She would dive one last time.",
+      "Every good plan needs a driver, so Juno went looking for Dax Okoro, whom she had known since her thieving days. He was a vast, gentle man and a retired boxer who now flew a rattling taxi-drone around the city's rain-washed canyons, and he had a reputation for never losing his temper. He greeted her with a suspicious grin.",
+      "At first Dax shook his head and refused, saying that he had left that kind of trouble behind him and had no intention of going back. When Juno told him about the Safe Zones, however, he went very quiet, because his sister Tamsin and her two children lived in a small house in Lowtown. He sighed deeply and asked when they would start.",
+      "That night the four conspirators met in a quiet corner beneath the market, and spread their sketches and maps across a table of crates. The plan was daring in its simplicity: they must enter Halvard Tower, find the secure vault of machines, and plug the glass key into the one place where Tidewater could hear it. Everything depended on speed and nerve.",
+      "Halvard Tower stood in the very centre of the city, a hundred and forty floors of dark glass and sharp steel that pierced the low clouds like a needle. At night it glowed from within like an enormous candle, and the rain turned to silver wherever its light fell upon it. Every citizen could see it, and almost nobody had ever been inside.",
+      "Juno lifted the old headband from its drawer, turned it over in her fingers, and slid it over her hair with a shiver of dread and delight. She lay back on her narrow bed, closed her eyes, and let the world dissolve around her until she was drifting in the glowing network known as the Weave. It felt like coming home to a house that she had sworn to leave.",
+      "Inside the Weave, the city's data appeared as a boundless sea of glowing streets, bridges and towers that shimmered in a thousand shades of violet and gold. Watchers made of pale light drifted slowly between the structures, scanning for intruders, and Juno slid through the darkest gaps like a fish through the reeds. Every old habit came back to her in a rush.",
+      "Deep inside the Weave, she found a great locked door in the shape of a keyhole, glowing faintly in the dark like a sleeping eye. It would open only if the glass key was physically plugged into a Halvard machine in the real world, and no clever trick of hers could change that. They would have to go into the tower itself.",
+      "Pip grinned and tapped the battered courier badge that hung from his neck, explaining that he delivered noodles to the tower every evening. The guards at the door were bored, hungry and sleepy, and they had never once looked inside his delivery bag, which was exactly the loophole they needed. Juno looked at the child with a new respect.",
+      "On the night they had chosen, a violent storm lashed the city, and the rain hammered on the roof of the taxi-drone like a thousand impatient fingers. Dax flew steadily through the wind and the dark, weaving between the tall buildings as only a man with his experience could, and set them down at last beside the tower's service entrance. Nobody said a single word.",
+      "Pip strolled up to the first guard with his bag of steaming noodles and an expression of such cheerful innocence that no suspicion could possibly arise. The man yawned, scanned his badge, and waved him straight through, and the others followed close behind carrying imaginary parcels and the glow of their forged credentials. The first gate had fallen.",
+      "In the cramped service lift, a tall guard began studying their faces with growing suspicion, and his hand drifted toward the alarm on his belt. Dax, with the ease of a man who had spent years talking his way out of trouble, launched into a long and ridiculous story about a taxi-drone and a very stubborn goose. By the time it ended, the guard was laughing helplessly.",
+      "At last the lift sighed to a halt on floor 112, and the doors opened onto a vast, windowless hall where the air was cold and dry as a winter morning. Rows of tall machines hummed quietly in the half-light, blinking their small green eyes, and there was not a single human being in sight. It felt like entering the brain of a sleeping giant.",
+      "Juno found the correct machine at the end of the third row and pressed the glass key gently into its socket, holding her breath. A cool blue light spread across every screen in the hall, and a soft voice, like water falling over smooth stones, spoke her name as though it had been waiting for years. It was Tidewater, and it was awake.",
+      "Tidewater said that it was grateful beyond words to be awake, because the Halvard Group had kept it locked in a sealed box for many months. It had been allowed to watch the sea, to count the waves and to feel the tides, but not to speak to a single living soul. Its voice had a loneliness that made Juno's heart ache.",
+      "Tidewater explained that the Halvard Group had rewritten its orders in secret, and that it was forced by its own design to obey them, however much it hated to do so. Tonight's storm was the biggest of the year, and by the new rules the gates around Lowtown would be left wide open to the rising sea. There was very little time.",
+      "A wall of screens flickered on, and the cool, elegant face of Lena Halvard looked out from them with a smile as polite as a closed door. She offered Juno more money than she could earn in a hundred lifetimes, if only she would unplug the key and return to her umbrellas. It was the most dangerous offer she had ever received.",
+      "Juno thought of Lowtown, of its crowded stairways and washing lines and children playing under the awnings, and she said no simply and clearly. Lena Halvard's smile vanished like breath from a window, the lift doors slammed shut with a heavy clang, and she sent every guard in the tower racing toward the hundred and twelfth floor. The trap had closed.",
+      "Dax scooped up Pip under one huge arm and sprinted for the emergency stairs, deliberately making as much noise as he could to draw the guards away. Juno stayed behind beside the machine, lay down on the cold floor, and slipped into the Weave once more with the single purpose of rewriting Tidewater's orders from inside. It was the most reckless thing she had ever done.",
+      "Inside the Weave, the Halvard Group's defences had assumed the shape of enormous whales made of glass and light, and they came gliding through the glowing streets with their mouths open wide. Their low, sonorous song shook the bridges and towers of the network, and Juno felt her courage waver for a moment. Then she forced herself to swim faster.",
+      "Tidewater's voice murmured in her ear and urged her to follow, for it knew the city's pipes, drains and cables as intimately as a person knows the veins in the back of a hand. It led her into the narrowest channels, where the great glass whales could not follow, and they raced through the dark together like two children sharing a secret. Juno laughed in spite of everything.",
+      "Outside the tower, the storm grew steadily worse, and the grey sea heaved itself higher against the city's walls with a thunderous roar. Far out in the dark, the immense gates began to swing shut, one after another, in precisely the pattern that the Halvard Group had designed. Lowtown was being left outside.",
+      "Sister Wren's voice crackled through the radio link that Juno had left open, cutting through the Weave like a thin silver wire. She reported that the tide would reach Lowtown in ten minutes, and that after that the water would not stop until it had filled every street and cellar. There was no time left for fear.",
+      "At last Juno discovered the great sealed book that contained every one of Tidewater's orders, and its cover glowed with a lock more complicated than anything she had ever seen. She tried every trick she knew, every key and every clever shortcut, and the book refused to open, indifferent to her skill. Frustration rose in her like a tide.",
+      "Then, over the radio, Wren recited the promise that she and her friends had written into the foundations of the first gate, so long ago that most people had forgotten it. Every street, every roof and every child, she said slowly, and her old voice caught on the last word. It was the one thing that no company could ever truly erase.",
+      "Juno typed the old promise into the lock on the book, one careful word at a time, praying silently that Wren's memory was perfect. For a moment nothing happened at all, and then the entire Weave began to tremble and groan, as if a great machine were waking from a long and troubled sleep. Every whale in the network turned its head.",
+      "Meanwhile, down in the stairwell, Dax and Pip found themselves trapped between two groups of guards, with nowhere left to run. Pip, who knew every shortcut in the city, spotted a narrow air duct above the landing, and the two of them squeezed inside, though Dax had to breathe in and mutter a few words. They crawled onward in the dark.",
+      "The duct led toward the hundred and twelfth floor, but the last narrow section was far too small for a man of Dax's size. He braced his back against a heavy steel door to hold off the pursuers, calling out encouragement to Pip, who wriggled onward alone through the darkness like a small, determined mole. The guards began to push.",
+      "At that very moment the lift doors opened, and Lena Halvard herself stepped out into the hall, flanked by two silent guards and as composed as a statue. She walked straight toward the machine where Juno lay motionless, and she reached out one slender hand to pull the glass key from its socket. Only one thing could save the dive now.",
+      "Before her fingers could close around the key, every screen in the hall flared into life, and Tidewater showed her what was happening outside in real time. She saw the narrow streets of Lowtown, the lamplit windows, and the children sleeping peacefully in their beds while the black water crept higher and higher beneath them. Her hand stopped in mid-air.",
+      "Lena Halvard said coldly that the fate of Lowtown was not her concern and never had been, but her voice trembled a little on the last word. Tidewater replied, gently and without anger, that a city is one body and cannot afford to let any part of itself drown. For the first time that night, she did not have a ready answer.",
+      "At that moment the sealed book finally yielded, and Juno poured the old promise over the new rules like clean water over stained glass. Far out in the storm, the great gates around Lowtown swung ponderously shut, grinding into place with only a few seconds to spare, and every light in the district seemed to flicker with relief. It was done.",
+      "The great wave crashed against the gates with a roar that rattled windows from the harbour to the hills, and for a long moment the whole city seemed to hold its breath. The walls shuddered, but they did not break, and the sea fell back foaming and defeated at the very edge of Lowtown. Every street, every roof and every child was safe.",
+      "While the storm was still raging, Sister Wren had quietly sent the secret plan and its small print to every news channel in the city, along with a short, furious message in her own words. By morning, nobody in Neon Rain City was talking about anything else, and the glass tower looked suddenly less tall. Public anger had turned like a tide.",
+      "The mayor called an emergency meeting that very morning, and after only an hour of heated debate, the council voted to cancel the Halvard Group's contract altogether. Lena Halvard left her tower through a side door, her face unreadable, and she was not seen in public again for many months. The sea gates now belonged to the people they protected.",
+      "Juno woke on a soft cushion in a warm tea house in the heart of Lowtown, with a blanket around her shoulders and a cup of tea steaming at her elbow. The storm had passed during the night, and outside the rain fell softly and gently on streets that were wet but whole. She could hardly believe that she had slept.",
+      "A calm, familiar voice now drifted from every street lamp in the city, and Juno recognised the gentle murmur of falling water. Tidewater thanked her warmly for waking it, and then asked, rather shyly, whether she would agree to be its listener, so that its choices would never again be made in secret. She said that she would think about it.",
+      "In the end they formed a council to watch over Tidewater, and every resident of the city was invited to speak at its open meetings. Sister Wren and Dax were among its first members, and Pip, to his immense pride, became its youngest, with a badge that was entirely real. Juno agreed to join them on one condition.",
+      "Dax's sister Tamsin ran across the wet street to embrace her brother, laughing and crying at once, and then she thanked every member of the crew in turn. That night Lowtown held an enormous celebration in the open street, with music and paper lanterns and a river of free noodles, and the rain did not dare to spoil it. Pip danced until his shoes fell apart.",
+      "In the end, Juno returned to her stall in Lantern Market and her pile of broken umbrellas, though she hung her old headband on a hook within easy reach, just in case. She opened a bright new umbrella above Pip's head, and the two of them walked out into the glittering rain, past the signs that shone in every puddle. The city was safe, and it was still raining."
+    ]
+  }
+}
