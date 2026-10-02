@@ -1,0 +1,417 @@
+{
+  "slug": "a-tour-through-your-body",
+  "meta": {
+    "blurb": "Take a guided tour of the one place you have always lived. From skin and bones to the heart, the brain, the gut and the tiny cells inside, discover how your body works, and why it is stranger and more wonderful than you thought.",
+    "bible": "Voice: warm, curious and clear, speaking to You like a tour guide; the science is real and hedged where unsure, with no invented numbers; general information only. Key terms: Keratin, Collagen, Marrow, Cartilage, Ligaments, Tendons, Biceps, Triceps, Achilles, Aorta, Arteries, Veins, Capillaries, Plasma, Platelets, Haemoglobin, Alveoli, Diaphragm, Larynx, Vocal folds, Neurons, Synapse, Cortex, Cerebellum, Reflex, Cornea, Retina, Rods, Cones, Pupil, Iris, Cochlea, Eardrum, Umami, Enamel, Saliva, Incisors, Canines, Molars, Oesophagus, Peristalsis, Hydrochloric, Enzymes, Mucus, Villi, Bile, Pancreas, Glycogen, Fibre, Microbes, Bacteria, Kidneys, Antibodies, Vaccine, Hormones, Insulin, Adrenaline, Thyroid, Proprioception, Nucleus, DNA, Membrane, Celsius, Litres, Kilometres, Metres, Braille, Spinal, Backbone, Windpipe, Glands, Scab, Scar, Mitochondria, Immune, Inflammation. Facts: an adult has 206 bones; the heart beats about a hundred thousand times a day; an adult has about five litres of blood; the brain has roughly eighty-six billion neurons and weighs about one and a half kilograms; inner body temperature is about thirty-seven degrees Celsius; an adult has tens of trillions of cells of at least two hundred kinds."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A girl stands in front of a mirror in a bright bedroom",
+      "summary": "Your body is built from tens of trillions of cells working together, and this book tours it from the outside in."
+    },
+    {
+      "n": 2,
+      "scene": "A boy examines the back of his hand under a magnifying glass",
+      "summary": "Skin is the body's largest organ, a waterproof, self-repairing coat that protects and senses."
+    },
+    {
+      "n": 3,
+      "scene": "A girl brushes her long hair beside a window",
+      "summary": "Hair and nails are made of keratin, and the part we can see is dead, growing from living roots."
+    },
+    {
+      "n": 4,
+      "scene": "A runner wipes her forehead on a hot day beside a track",
+      "summary": "The body keeps its inner temperature near thirty-seven degrees Celsius, and sweating cools it as the water evaporates."
+    },
+    {
+      "n": 5,
+      "scene": "A skeleton model stands beside a window in a classroom",
+      "summary": "An adult has 206 bones that support the body, protect the organs and let us move."
+    },
+    {
+      "n": 6,
+      "scene": "A boy shows his arm in a cast to a friend at school",
+      "summary": "Bone is living tissue that is constantly rebuilt and can heal, and marrow inside many bones makes blood cells."
+    },
+    {
+      "n": 7,
+      "scene": "A girl bends her knee while sitting on a bench",
+      "summary": "Joints let bones move, and smooth cartilage with a slippery fluid keeps the movement easy."
+    },
+    {
+      "n": 8,
+      "scene": "A boy shows the muscle in his arm in front of a mirror",
+      "summary": "There are hundreds of muscles, some under our control and some working automatically in the heart and the gut."
+    },
+    {
+      "n": 9,
+      "scene": "A woman bends and straightens her arm while holding a shopping bag",
+      "summary": "Muscles can only pull, so they work in pairs and are joined to the bones by tendons."
+    },
+    {
+      "n": 10,
+      "scene": "A child holds a clenched fist in front of her chest",
+      "summary": "The heart is a muscular pump about the size of a fist, beating about a hundred thousand times a day."
+    },
+    {
+      "n": 11,
+      "scene": "A model heart with four rooms and small valve doors on a table",
+      "summary": "The heart has four chambers and four valves; the right side sends blood to the lungs and the left side sends it to the body."
+    },
+    {
+      "n": 12,
+      "scene": "A doctor rests two fingers on a patient's wrist to feel the pulse",
+      "summary": "Arteries carry blood from the heart, veins return it, and tiny capillaries deliver oxygen to every tissue."
+    },
+    {
+      "n": 13,
+      "scene": "A glass tube of blood separated into layers sits in a laboratory rack",
+      "summary": "Blood is plasma carrying red cells, white cells and platelets, and an adult has about five litres."
+    },
+    {
+      "n": 14,
+      "scene": "Thousands of round red cells flow through a narrow vessel",
+      "summary": "Red blood cells carry oxygen with haemoglobin, last about four months and are made in huge numbers."
+    },
+    {
+      "n": 15,
+      "scene": "A woman breathes in deeply on a hilltop at sunrise",
+      "summary": "The lungs take oxygen from the air into the blood through millions of tiny air sacs and release carbon dioxide."
+    },
+    {
+      "n": 16,
+      "scene": "A swimmer's chest rises as she takes a breath at the pool edge",
+      "summary": "Breathing is driven by the diaphragm, which works automatically at about twelve to twenty breaths a minute at rest."
+    },
+    {
+      "n": 17,
+      "scene": "A girl sings in a school choir with her mouth open wide",
+      "summary": "The voice is made when air makes the vocal folds in the larynx vibrate, and the mouth shapes the sound into words."
+    },
+    {
+      "n": 18,
+      "scene": "A girl holds a model of a human brain in a science museum",
+      "summary": "The brain weighs about one and a half kilograms, uses about a fifth of the body's energy and contains billions of neurons."
+    },
+    {
+      "n": 19,
+      "scene": "A branching nerve cell glows under a microscope with thin fibres",
+      "summary": "Neurons pass messages as tiny electrical signals along their fibres and as chemicals across the gaps called synapses."
+    },
+    {
+      "n": 20,
+      "scene": "A brain model with a wrinkled outer layer, a small rear part and a stem",
+      "summary": "The cortex handles thinking and senses, the cerebellum helps balance and movement, and the brain stem runs breathing and heartbeat."
+    },
+    {
+      "n": 21,
+      "scene": "A doctor taps a patient's knee with a small rubber hammer",
+      "summary": "The spinal cord and nerves link the brain to the body, and in a reflex the spinal cord reacts before the brain is aware."
+    },
+    {
+      "n": 22,
+      "scene": "A boy winces as he gently touches a scraped knee",
+      "summary": "Pain is a warning produced by the brain, and it protects us."
+    },
+    {
+      "n": 23,
+      "scene": "A close view of a girl's eye with a small dark pupil in bright light",
+      "summary": "The eye focuses light with the cornea and lens onto the retina, which holds rod and cone cells."
+    },
+    {
+      "n": 24,
+      "scene": "A boy covers one eye and looks at a distant tree",
+      "summary": "The retinal image is upside down and flat, and the brain turns it into a picture, filling gaps and making guesses."
+    },
+    {
+      "n": 25,
+      "scene": "A girl listens carefully to a bird with her hand behind her ear",
+      "summary": "Sound waves vibrate the eardrum, three tiny bones pass on the vibration, and the cochlea turns it into nerve signals."
+    },
+    {
+      "n": 26,
+      "scene": "A girl walks along a low wall with her arms held out",
+      "summary": "The inner ear also senses head movement with fluid-filled loops, which helps balance, and spinning makes us dizzy."
+    },
+    {
+      "n": 27,
+      "scene": "A boy smells a fresh loaf of bread in a bakery",
+      "summary": "Smell receptors in the nose detect chemicals in the air, and smell is closely linked to memory and taste."
+    },
+    {
+      "n": 28,
+      "scene": "A girl tastes a slice of lemon and screws up her face",
+      "summary": "The tongue detects five basic tastes, the tongue map is a myth, and much of flavour comes from smell."
+    },
+    {
+      "n": 29,
+      "scene": "A girl runs her fingertips over a page of raised dots",
+      "summary": "Skin has separate receptors for touch, pressure, vibration, heat and pain, and fingertips and lips are especially sensitive."
+    },
+    {
+      "n": 30,
+      "scene": "A boy smiles widely and shows his white teeth in a mirror",
+      "summary": "Adults have up to thirty-two teeth covered in enamel, the hardest substance in the body, and saliva begins digestion."
+    },
+    {
+      "n": 31,
+      "scene": "A girl drinks a glass of water at a kitchen table",
+      "summary": "Swallowing pushes food down the oesophagus with waves of muscle called peristalsis."
+    },
+    {
+      "n": 32,
+      "scene": "A boy rubs his stomach after eating lunch",
+      "summary": "The stomach churns food with acid and enzymes for a few hours and protects itself with a layer of mucus."
+    },
+    {
+      "n": 33,
+      "scene": "Coiled intestines in a medical model on a classroom desk",
+      "summary": "Most digestion and absorption happens in the small intestine, which is several metres long and lined with villi."
+    },
+    {
+      "n": 34,
+      "scene": "A glass of water and a bowl of vegetables stand on a table",
+      "summary": "The large intestine absorbs water from the leftovers, and fibre helps keep waste moving."
+    },
+    {
+      "n": 35,
+      "scene": "A bowl of yoghurt with berries on a kitchen table",
+      "summary": "Trillions of microbes live in the gut, mostly harmless or helpful, and their effects on health are still being studied."
+    },
+    {
+      "n": 36,
+      "scene": "A body model with a large dark organ under the ribs on the right",
+      "summary": "The liver processes nutrients, makes bile, stores energy and clears harmful substances, and it can regrow part of itself."
+    },
+    {
+      "n": 37,
+      "scene": "Two bean-shaped organs sit on a table beside a glass of water",
+      "summary": "The kidneys filter the blood, removing waste and extra water as urine and helping control blood pressure and the balance of salts."
+    },
+    {
+      "n": 38,
+      "scene": "A girl fills a glass at a tap in a sunny kitchen",
+      "summary": "More than half of an adult's weight is water, which is lost and replaced every day, and thirst is the brain's reminder."
+    },
+    {
+      "n": 39,
+      "scene": "Under a microscope, a large white cell reaches around a tiny germ",
+      "summary": "The immune system uses barriers and white blood cells to find and destroy germs, and it remembers some of them."
+    },
+    {
+      "n": 40,
+      "scene": "A mother checks her child's forehead with the back of her hand",
+      "summary": "Redness, swelling and fever show the immune system at work; mild fever can help, while a very high one needs care."
+    },
+    {
+      "n": 41,
+      "scene": "A nurse holds a small bottle and a syringe beside a child",
+      "summary": "A vaccine shows the immune system a harmless piece or weak form of a germ so it can learn to defend without the illness."
+    },
+    {
+      "n": 42,
+      "scene": "A boy measures his height against a doorframe with a pencil mark",
+      "summary": "Hormones are chemical messages carried in the blood from glands: insulin handles sugar, adrenaline readies the body, and others control growth."
+    },
+    {
+      "n": 43,
+      "scene": "A child sleeps under a blanket as moonlight shines through the window",
+      "summary": "Sleep is vital; the brain cycles through stages, and scientists are still learning exactly why we need it."
+    },
+    {
+      "n": 44,
+      "scene": "A girl looks at a small scab on her knee",
+      "summary": "A cut heals in stages: blood clots, new cells grow and the wound closes, sometimes leaving a scar."
+    },
+    {
+      "n": 45,
+      "scene": "A woman closes her eyes and touches her nose with one finger",
+      "summary": "Proprioception, the sense of where body parts are, lets us move without looking, thanks to receptors in muscles and joints."
+    },
+    {
+      "n": 46,
+      "scene": "A microscope shows a pale round cell with a dark centre",
+      "summary": "The body is made of tens of trillions of cells of at least two hundred kinds, each a tiny living unit with a nucleus."
+    },
+    {
+      "n": 47,
+      "scene": "A scientist holds a model of a twisting double helix",
+      "summary": "DNA in the nucleus is a long molecule carrying the instructions for making proteins, and you inherit half from each parent."
+    },
+    {
+      "n": 48,
+      "scene": "A woman looks at her hands in the morning light",
+      "summary": "Many cells are replaced over time, though some last for life; the idea that you are completely replaced every seven years is a myth."
+    },
+    {
+      "n": 49,
+      "scene": "A girl runs up a flight of stairs in a school building",
+      "summary": "Climbing stairs uses muscles, heart, lungs, brain, hormones and sweat at once, showing how the systems work as one."
+    },
+    {
+      "n": 50,
+      "scene": "A girl stands at a window at sunrise with her eyes closed and smiling",
+      "summary": "The body is a marvel of cooperating parts, and knowing about it helps us appreciate and care for it."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Your body is the home you live in every day.",
+      "Your skin covers your whole body like a soft coat.",
+      "Hair and nails are made of the same tough material.",
+      "When you get hot, your body makes sweat to cool you.",
+      "An adult has two hundred and six bones inside the body.",
+      "Bone is alive, and it can grow back together after a break.",
+      "Joints like your knee let your bones bend and move.",
+      "Muscles pull on your bones and make your body move.",
+      "A muscle can pull, but it cannot push.",
+      "Your heart is a strong muscle about the size of your fist.",
+      "The heart has four rooms with small doors that keep blood moving.",
+      "Blood travels around your body in tubes called vessels.",
+      "An adult has about five litres of blood in the body.",
+      "Red blood cells carry oxygen from the lungs to the body.",
+      "You breathe in air, and your lungs take the oxygen.",
+      "A strong muscle under your lungs helps you breathe.",
+      "You make your voice with air from your lungs.",
+      "Your brain is the control centre of your whole body.",
+      "Nerve cells send small messages to each other all the time.",
+      "Different parts of the brain do different jobs.",
+      "Nerves carry messages between your brain and your body.",
+      "Pain is a warning that tells you something is wrong.",
+      "Your eyes catch light and send pictures to your brain.",
+      "The brain turns the signals from your eyes into a picture.",
+      "Sound shakes a thin skin inside your ear.",
+      "Your ears also help you to stay balanced when you walk.",
+      "Your nose can smell many things, like bread and flowers.",
+      "Your tongue can taste sweet, sour, salty and bitter things.",
+      "Your fingertips can feel very small things.",
+      "Teeth cut and crush your food before you swallow it.",
+      "Food goes down a tube from your mouth to your stomach.",
+      "The stomach mixes food with strong acid until it is soft.",
+      "Most food is broken down in a long, coiled tube.",
+      "The last part of the gut takes water from the leftovers.",
+      "Tiny living things live in your gut, and most are friendly.",
+      "Your liver cleans your blood and stores energy.",
+      "Your kidneys clean your blood and make urine.",
+      "More than half of your body is made of water.",
+      "White blood cells find germs and fight them.",
+      "A fever means your body is fighting something.",
+      "A vaccine teaches your body how to fight a germ.",
+      "Hormones are chemical messages that travel in the blood.",
+      "Sleep gives your body and brain time to rest.",
+      "A cut on your skin slowly heals by itself.",
+      "You can touch your nose with your eyes closed.",
+      "Your body is made of tiny living units called cells.",
+      "Inside most cells is a long set of instructions called DNA.",
+      "Many of the cells in your body are replaced over time.",
+      "When you run up stairs, your whole body works together.",
+      "Your body is amazing, so take good care of it."
+    ],
+    "B1B2": [
+      "You have lived in your body all your life, but you have probably never seen most of it. This book is a tour, from the skin on the outside to the cells on the inside.",
+      "Skin is the largest organ of the body, and it keeps out germs and water. It also feels heat, cold and touch, so it is both a coat and a sense organ.",
+      "Hair and nails are made of keratin, a strong protein. The part you can see is not alive, which is why cutting your hair or your nails does not hurt.",
+      "Your inner body temperature stays close to thirty-seven degrees Celsius, whatever the weather. When you get too hot, you sweat, and the water takes heat away from your skin as it dries.",
+      "The adult skeleton has two hundred and six bones, which hold the body up and protect the soft organs inside. Bone is surprisingly light, yet strong enough to carry your whole weight for a lifetime.",
+      "Bone is living tissue, and old bone is constantly replaced by new. Inside many bones there is a soft centre called marrow, which makes new blood cells.",
+      "A joint is a place where two bones meet. The ends of the bones are covered with smooth cartilage and a slippery fluid, so that they glide easily.",
+      "The human body has hundreds of muscles. Some, like the ones in your arms, you can control, but others, like the muscles in your heart, work on their own.",
+      "Muscles can only pull, never push, so they work in pairs. When the biceps at the front of your arm shortens, the arm bends, and the triceps at the back straightens it again.",
+      "The heart is a pump that never takes a rest. It beats about a hundred thousand times a day, and at rest it sends roughly all of your blood around your body in a minute.",
+      "The heart has four chambers, two on the right and two on the left. The right side sends blood to the lungs, the left side pumps it to the body, and valves act as one-way doors.",
+      "Arteries carry blood away from the heart, and veins bring it back. In between, tiny vessels called capillaries are so thin that oxygen can pass through their walls into your tissues.",
+      "Blood is mostly a pale yellow liquid called plasma, with three kinds of cells floating in it. Red cells carry oxygen, white cells fight germs, and tiny platelets help to close a cut.",
+      "Red cells contain a substance called haemoglobin, which holds on to oxygen and gives blood its red colour. Each cell lives for about four months, and your bone marrow makes millions of new ones every second.",
+      "When you breathe in, air travels down your windpipe into the lungs. There it reaches millions of tiny air sacs, where oxygen passes into the blood and carbon dioxide passes out.",
+      "Under your lungs there is a large sheet of muscle called the diaphragm. When it tightens and moves down, air is drawn into your lungs, and when it relaxes, the air flows out again.",
+      "At the top of your windpipe, the larynx holds two folds of tissue called the vocal folds. Air from the lungs makes them vibrate, and your tongue and lips shape the sound into words.",
+      "The adult brain weighs about one and a half kilograms, yet it uses about a fifth of the body's energy. It contains tens of billions of nerve cells, called neurons.",
+      "A neuron sends a message as a tiny electrical signal along its long fibre. At the end, a chemical crosses the small gap, called a synapse, and passes the message on to the next cell.",
+      "The wrinkled outer layer, called the cortex, is used for thinking, seeing and hearing. The small cerebellum helps with balance and movement, and the brain stem controls breathing and the heartbeat.",
+      "The spinal cord runs down the back inside the backbone, and nerves branch from it to every part of the body. In a reflex, such as pulling your hand off a hot pan, the spinal cord replies before your brain knows.",
+      "Pain begins when nerve endings detect damage and send a signal to the brain. The brain then decides how much it hurts, so worry can make pain stronger and distraction can make it weaker.",
+      "Light enters the eye through the clear cornea and the lens, which focus it on the retina at the back. The retina holds millions of light-sensitive cells, and they send signals along a nerve to the brain.",
+      "The image on the retina is actually upside down and flat. Your brain turns it round and fills in missing parts, so seeing is a job for the brain as well as the eyes.",
+      "Sound waves make your eardrum vibrate, and three tiny bones, the smallest in the body, pass the shaking on. The inner ear, shaped like a snail shell, then turns it into signals for the brain.",
+      "Next to the cochlea are three fluid-filled loops that sense when your head turns or tilts. The brain combines this with what you see and feel to keep you balanced.",
+      "Tiny particles from bread or flowers drift into your nose and reach special receptor cells inside it. People have about four hundred kinds of these cells, and the brain recognises a smell by the pattern they make.",
+      "Taste buds on your tongue detect five basic tastes: sweet, sour, salty, bitter and umami, the savoury taste of foods like cheese. The old idea that each taste has its own area of the tongue is a myth.",
+      "Your skin contains several kinds of receptors for light touch, pressure, vibration, heat and cold. Some parts, such as the fingertips and lips, have so many that they can feel extremely small details.",
+      "Adults have up to thirty-two teeth, and their hard outer layer, called enamel, is the strongest material in the body. Saliva in the mouth makes food wet and begins to break it down.",
+      "When you swallow, a small flap closes over your windpipe so that food goes down the right way. Waves of muscle then squeeze it along the oesophagus to your stomach, usually in less than ten seconds.",
+      "The stomach is a stretchy bag that churns your food with acid and special chemicals called enzymes. A layer of mucus protects its own wall, so the stomach does not digest itself.",
+      "The small intestine is a narrow tube several metres long, folded into the middle of your body. Its inner wall is covered in tiny fingers called villi, which soak up nutrients into the blood.",
+      "What the small intestine does not absorb moves on into the large intestine, which takes back most of the water. Fibre from plants, which we cannot digest, helps to move the waste along.",
+      "Trillions of microbes, mostly bacteria, live in your large intestine. Most are harmless or helpful, and they digest food that your own body cannot, although scientists are still learning how much they matter.",
+      "The liver, the largest organ inside the body, sits on the right side under the ribs. It processes the nutrients from your food, makes a liquid called bile and removes harmful substances from the blood.",
+      "You have two kidneys, each about the size of a fist, in the lower back. They filter your blood many times a day, and they remove waste and extra water as urine.",
+      "Water makes up more than half of an adult's weight, and every cell needs it. You lose some every day by breathing, sweating and passing urine, so you must drink to replace it.",
+      "Your skin and nose keep out many germs, and the ones that get in meet your immune system. White blood cells find them and destroy them, and some cells remember them for next time.",
+      "When you have an infection, the body may raise its temperature on purpose, and this is called a fever. A fever makes life harder for some germs, but a very high one can be dangerous.",
+      "A vaccine shows your immune system a harmless piece of a germ, or a weakened form of it. Your body practises fighting it, and if the real germ arrives later, the defences are ready.",
+      "Glands such as the thyroid and the pancreas release hormones into the blood. Insulin, for example, helps the cells to take in sugar, and adrenaline makes your heart beat faster when you are frightened or excited.",
+      "Everyone needs sleep, and during the night the brain moves through several different stages. Scientists are still working out exactly why we need sleep, but it clearly helps memory, mood and health.",
+      "When you cut yourself, the blood clots to stop the bleeding, and a scab forms over the wound. Underneath, new cells grow, and the skin is gradually mended, sometimes with a small scar.",
+      "You know where your arms and legs are even when you cannot see them. Receptors in your muscles and joints send this information to the brain, and the sense is called proprioception.",
+      "An adult body has tens of trillions of cells, and there are at least two hundred different kinds. Each cell is a tiny living unit with a control centre called the nucleus.",
+      "Inside the nucleus of almost every cell is DNA, a very long molecule shaped like a twisted ladder. It carries the instructions for building and running your body, and you received half of them from each parent.",
+      "The cells that line your gut live only a few days, and red blood cells last about four months. A few kinds, such as many nerve cells in the brain, are with you for your whole life.",
+      "Running up a flight of stairs asks for help from nearly every part of you. Your muscles pull, your heart and lungs speed up, your brain keeps your balance, and you begin to sweat.",
+      "You have now toured the body, from the skin on the outside to the DNA in the cells. It is a remarkable place to live, and understanding how it works is a good reason to look after it."
+    ],
+    "C1C2": [
+      "You have lived inside your body for every moment of your life, yet most of its workings are hidden from you, humming away without any help from your attention. This book is a guided tour of that remarkable machine, which is built from tens of trillions of living cells cooperating with one another. We shall begin on the outside, with the skin, and then travel inwards, one system after another, until we reach the cells themselves.",
+      "The skin is the largest organ of the body, a flexible coat of roughly two square metres in an adult that keeps water in and germs out. It has three main layers, an outer shield of tough dead cells, a middle layer of strength and blood vessels, and a fatty cushion underneath. Skin also senses heat, cold, pressure and pain, which makes it both armour and instrument.",
+      "Hair and nails are both made of keratin, the same tough protein that forms the outer layer of the skin. The part that you can see is made of dead cells that have been pushed upwards by living cells at the root, which is why cutting your hair or trimming a nail causes no pain. Hair helps to keep us warm and protects the scalp from the sun, while nails shield the sensitive tips of the fingers and help us to pick up small things.",
+      "Your body works best at an inner temperature of about thirty-seven degrees Celsius, and it defends that figure with great determination. When you grow too warm, the blood vessels near the skin widen and the sweat glands release a thin film of water, which carries heat away as it evaporates. When you grow cold, you shiver, because the small, rapid movements of your muscles generate heat.",
+      "The adult skeleton contains two hundred and six bones, which hold the body upright, shield delicate organs such as the brain and the heart, and give the muscles something to pull against. A baby is born with about three hundred, many of them partly soft, and some of these gradually fuse together as the child grows. The result is a frame that is remarkably light for its strength, which is why it can carry you for a lifetime.",
+      "Far from being dry sticks, bones are living tissue, riddled with blood vessels and continually rebuilt as old material is removed and new material is laid down. That is why a broken bone can knit together again, and why bones grow stronger when they are used. Inside many of them lies soft marrow, the factory in which most of your blood cells are made.",
+      "Wherever two bones meet, there is a joint, and the knee, the hip and the shoulder are among the most remarkable. The bone ends are capped with cartilage, a smooth, springy material, and the whole joint is bathed in a slippery fluid, so that the surfaces glide past each other with very little friction. Strong bands called ligaments hold the bones together, allowing movement in some directions while preventing it in others.",
+      "You have hundreds of muscles, and they fall into three kinds. Skeletal muscles are attached to the bones and move the body at your command, while smooth muscle in the walls of the gut and the blood vessels works automatically, and the heart is made of a special muscle that never tires. All of them work in the same basic way, by shortening when a signal from a nerve arrives.",
+      "A muscle can only pull, so to move a joint in both directions the body arranges its muscles in opposing pairs. When the biceps at the front of the upper arm tightens, the elbow bends, and when the triceps at the back tightens, it straightens again, with the opposite muscle relaxing each time. Tough cords called tendons join the muscles to the bones, and the largest of them, the Achilles tendon at the heel, can carry several times your body weight when you run.",
+      "Your heart is a muscular pump about the size of your fist, and from before you were born until your last day it never takes a rest. It beats roughly a hundred thousand times a day, and at rest it can send a volume of blood equal to all that you have around your body in about a minute. Over a lifetime, that adds up to billions of beats.",
+      "Inside, the heart is divided into four chambers, with two upper ones that receive blood and two lower ones that push it out. The right side sends blood that has given up its oxygen to the lungs, while the left side sends the freshly oxygenated blood out through the great artery called the aorta to the rest of the body. Four valves, which open and close in turn, keep the blood moving in one direction, and the soft double sound of a heartbeat is the noise of those valves closing.",
+      "Blood travels in a closed network of tubes: arteries carry it away from the heart under high pressure, veins return it, and between them lies a web of capillaries so fine that red cells must squeeze through in single file. It is through the thin walls of the capillaries that oxygen and food pass into the tissues and waste passes back out. If all of your blood vessels were laid end to end, they would stretch for tens of thousands of kilometres.",
+      "An adult carries about five litres of blood, and just over half of it is plasma, a pale yellow liquid that carries sugar, salts, proteins and waste. Floating in the plasma are three main kinds of cell: red cells that transport oxygen, white cells that defend against infection, and tiny platelets that clump together to seal a wound. When you cut yourself, the platelets and certain proteins form a clot within minutes.",
+      "Each red blood cell is a flexible disc packed with haemoglobin, a protein that binds oxygen in the lungs and releases it where the tissues need it, and which also gives blood its colour. A single drop of blood contains millions of these cells, and since each lives for only about four months, the marrow must manufacture around two million new ones every second. Replacing them is a quiet, unending feat of production that you never notice, and it goes on every second of every day.",
+      "Air entering the nose or mouth travels down the windpipe, which divides into branches that become finer and finer, like the twigs of an upside-down tree. At their ends are hundreds of millions of tiny air sacs, each wrapped in capillaries, and here oxygen slips into the blood while carbon dioxide, a waste product of the body's cells, slips out to be breathed away. Spread flat, the surface of the lungs would cover an area many times larger than your skin.",
+      "The lungs have no muscle of their own, and it is the diaphragm, a broad dome of muscle beneath them, that does most of the work: when it tightens and flattens, the chest expands and air is drawn in, and when it relaxes, air flows out. Your brain controls this rhythm without any thought from you, at about twelve to twenty breaths each minute when you are at rest. You can still take charge of it when you wish, which is why you can hold your breath, sing or sigh.",
+      "When you speak or sing, air from the lungs rushes up the windpipe and between the vocal folds, two small bands of tissue in the larynx, making them vibrate many times a second. The tighter they are stretched, the higher the pitch of the sound, and your throat, tongue, teeth and lips then shape it into the vowels and consonants of speech. A voice is therefore less a single organ than a performance by a whole team, and each person's team is slightly different.",
+      "The brain weighs only about one and a half kilograms, around two percent of your body weight, yet it consumes roughly a fifth of the energy that you use at rest. It contains something like eighty-six billion nerve cells, according to the best recent counts, and each of these is connected to thousands of others. From this tangle come every thought, memory, feeling and movement you have ever had.",
+      "A neuron receives signals through its branching fibres and, if they add up to enough, fires a brief electrical pulse along its length. At the far end, the pulse causes the release of chemical messengers that cross a minute gap, the synapse, and either encourage or discourage the next cell to fire. Learning, scientists believe, is largely a matter of strengthening some of these connections and weakening others.",
+      "The brain is not one uniform organ but a collection of regions with different specialities. Its wrinkled outer layer, the cortex, deals with thought, language, planning and conscious sensation, while the cerebellum at the back refines movement and balance, and the brain stem, which joins the brain to the spinal cord, keeps the heart beating and the lungs breathing. Yet these regions work together constantly, and almost nothing you do uses just one of them.",
+      "The spinal cord is a thick cable of nerve tissue running down the inside of the backbone, and from it nerves branch out to the skin, the muscles and the organs. Signals travel along the fastest of them at over a hundred metres a second. In a reflex, such as snatching a hand from a hot pan, the message turns round in the spinal cord without waiting for the brain, which saves precious fractions of a second.",
+      "Pain feels like a property of the damaged finger or knee, but it is actually produced by the brain, which interprets the signals that nerve endings send as a warning that something needs attention. The system is unpleasant by design, and the rare people who are born unable to feel pain often suffer serious injuries because they never learn to protect themselves. Because the brain builds the experience, mood, attention and expectation can all make a pain feel stronger or weaker.",
+      "Light enters the eye through the transparent cornea, passes through the pupil, whose size is adjusted by the coloured iris, and is focused by the lens onto the retina at the back. The retina holds more than a hundred million rods, which work in dim light, and some six million cones, which detect colour and fine detail in bright light. Their signals travel along the optic nerve to the brain.",
+      "The image that falls on the retina is small, upside down and slightly different in each eye, and what you experience is nothing like it. The brain combines the two views to judge depth, flips the picture, fills in the small blind spot where the optic nerve leaves each eye, and even makes educated guesses about what is probably there. This is why optical illusions work: they exploit the shortcuts that our brains take.",
+      "A sound wave entering the ear canal makes the eardrum vibrate, and the vibration passes along a chain of three tiny bones, the smallest in the body. It reaches the cochlea, a fluid-filled spiral shaped like a snail's shell, where thousands of microscopic hair cells bend with the movement and turn it into nerve signals. Those delicate cells do not regrow once they are lost, which is why protecting your hearing from very loud noise matters.",
+      "Alongside the cochlea, the inner ear contains three small fluid-filled loops, set at right angles to one another, which detect every turn and tilt of the head as the liquid inside them moves. The brain combines these signals with information from the eyes and from the muscles and joints to keep you upright without any conscious effort. After you spin round and round, the fluid keeps moving for a moment after you stop, and that mismatch is why you feel dizzy.",
+      "Every smell begins as tiny molecules drifting from a flower, a loaf of bread or a stranger's coat, which dissolve in the moist lining high inside the nose and lock onto receptor cells. People have about four hundred types of receptor, and because each smell activates a different combination of them, we can tell apart a very large number of odours. Smell is closely linked to the brain's centres of emotion and memory, which is why a scent can bring back a childhood afternoon in an instant.",
+      "The tongue carries thousands of taste buds, each containing cells that detect the five basic tastes: sweet, sour, salty, bitter and umami, the savoury quality of foods such as cheese, tomatoes and broth. The popular diagram that shows each taste confined to its own region of the tongue is a myth, since all areas can detect all five. Most of what we call flavour actually comes from smell, which is why food seems bland when a cold blocks your nose.",
+      "Touch is not one sense but several, because the skin contains separate receptors for light contact, firm pressure, vibration, stretching, warmth, cold and pain. Their numbers vary enormously from place to place, being densest in the fingertips and lips and sparse on the middle of the back, and the brain devotes a large area of its surface to the most sensitive parts. That is why people who read braille can make sense of a page of raised dots by feel alone.",
+      "Chewing is the first stage of digestion: adults have up to thirty-two teeth, with sharp incisors for cutting, pointed canines for tearing and broad molars for grinding. Their outer layer of enamel is the hardest substance in the human body, but it cannot repair itself once it is worn away, which is why dentists emphasise prevention. Meanwhile saliva moistens the food and contains an enzyme that begins to break down starch.",
+      "Swallowing is a surprisingly complex act in which the tongue pushes food to the back of the mouth, a small flap closes the windpipe and the oesophagus takes over. Waves of muscle contraction, called peristalsis, then squeeze the food down towards the stomach, and they work so well that you could swallow while standing on your head. The whole journey from mouth to stomach usually takes less than ten seconds.",
+      "The stomach is an elastic muscular bag that can hold about a litre or more of food, churning it with strong hydrochloric acid and enzymes until it becomes a thick, creamy liquid. The acid is strong enough to kill most germs that arrive with the food, and a thick layer of mucus protects the stomach's own wall from it. A meal usually stays in the stomach for a few hours before being released, bit by bit, into the intestine.",
+      "Most digestion is completed, and nearly all of the nutrients are absorbed, in the small intestine, a narrow tube several metres long folded neatly inside the abdomen. Its inner lining is covered with millions of microscopic fingers called villi, which multiply the surface area enormously so that sugars, fats, proteins, vitamins and minerals can pass into the blood. Helped by bile from the liver and enzymes from the pancreas, it turns a meal into the raw material of the body.",
+      "What remains after the small intestine has taken its share, mostly fibre and water, passes into the large intestine, where much of the water is absorbed and the rest is formed into waste. Fibre, the part of plant foods that we cannot digest ourselves, is not useless: it adds bulk, keeps things moving and feeds the helpful microbes that live there. The whole journey, from the first bite to the final exit, usually takes between one and three days.",
+      "Your gut is home to trillions of microbes, mostly bacteria, and the number is roughly the same as the number of human cells in your entire body. Most are harmless or helpful, since they break down fibre that your own enzymes cannot touch, make some vitamins and crowd out harmful germs that might otherwise settle there. Researchers are now investigating how this community may affect the immune system and even mood, but many of the claims remain unproven.",
+      "The liver, the largest organ inside the body, performs hundreds of tasks at once: it processes the nutrients that arrive from the intestine, stores energy in the form of a starch-like substance called glycogen, produces bile for digesting fats and neutralises many harmful substances in the blood. It is also one of the few organs able to regrow, so that a damaged or partly removed liver can restore much of its size. Yet it can do so only within limits, and it often gives few early warnings when it is in trouble.",
+      "The two kidneys, each about the size of a fist and tucked into the lower back, filter the entire volume of your blood many times a day. They remove waste products and surplus water, which leave the body as urine, and they keep the levels of salts and acids in the blood remarkably steady. They also help to control blood pressure, so that these two modest organs are essential to the body's whole balance.",
+      "Water makes up roughly half to two thirds of an adult's body weight, depending on age, build and sex, and it is the medium in which almost every chemical reaction of life takes place. You lose some of it every day in breath, sweat and urine, and you replace it with the drinks and food you take. Thirst is the brain's alert that the balance has tipped, and the best response for most healthy people is simply to drink when they feel it.",
+      "The body's defences work in layers: the skin, the mucus in the nose and the acid in the stomach keep most germs out, and those that break through meet the immune system. Different kinds of white cell swallow invaders, release chemical alarms or produce antibodies, proteins that lock onto a particular germ and mark it for destruction. Some of these cells then remain as a memory, so that a second encounter with the same germ is met much more swiftly.",
+      "The redness and swelling around a cut, and the fever that often accompanies an infection, are not the disease itself but signs of the body's response to it. Extra blood and defensive cells flood the damaged area, and the brain raises the body's temperature, which can slow the growth of some germs and speed up some immune reactions. Mild fever is usually part of the cure, though a very high or lasting one can itself be a danger and deserves attention.",
+      "A vaccine works by giving the immune system a rehearsal: it presents a harmless piece of a germ, a weakened or killed form of it, or instructions for making one of its proteins, without causing the disease itself. The body responds as it would to a real invasion and keeps a memory of it, so that when the genuine germ appears, the defenders are already trained. Vaccination has made once-feared illnesses rare, and it has done so by working with the body's own defences rather than replacing them.",
+      "Where nerves are fast and precise, hormones are slower and wider in their effects: they are chemical messengers released by glands into the blood, and they reach every part of the body. Insulin from the pancreas helps the cells to absorb sugar after a meal, thyroid hormone sets the pace of the body's chemistry, adrenaline prepares you for sudden action, and growth hormone helps children to get taller. Together they form a second communication network, working alongside the nervous system.",
+      "Sleep is not a switching off of the brain but a different kind of activity, in which it passes through repeating cycles of light sleep, deep sleep and dreaming sleep roughly every ninety minutes. Scientists are still discovering exactly why we need it, although experiments show that it helps to consolidate memories, supports the immune system and keeps mood and attention in order. Most adults function best on seven to nine hours a night, though the amount varies from person to person.",
+      "A cut is repaired in overlapping stages: first the blood clots and seals the wound, then immune cells clear away germs and debris, and finally new cells and fibres multiply to rebuild the damaged tissue. The scab that forms is a natural dressing, and when it falls away, the new skin underneath may leave a scar, which is made of tough fibres arranged differently from the original. It is a reminder that the body is always capable of repairing itself within its limits.",
+      "Close your eyes and touch the tip of your nose, and you will find that you succeed without difficulty, because you possess a sense that is rarely mentioned: proprioception, the awareness of where each part of your body is and how it is moving. Receptors in the muscles, tendons and joints report constantly to the brain, which is why you can walk down a stair in the dark, type without looking or catch a ball. Without that sense, even simple movements would require your eyes to supervise every step.",
+      "Everything you have toured so far is built from cells, the smallest units that can be called alive, of which an adult has tens of trillions, divided into at least two hundred different kinds. A nerve cell, a red blood cell and a muscle cell look nothing alike, yet each contains the same basic equipment: a nucleus holding the instructions, tiny power plants that turn food into usable energy and a thin membrane that decides what may enter and leave. A single cell is far too small to see, and it takes a microscope to appreciate how busy one is.",
+      "Folded inside the nucleus of nearly every cell is DNA, a long molecule that resembles a twisted ladder and spells out, in a four-letter chemical code, the instructions for making the proteins on which life depends. If the DNA of a single cell were stretched out, it would measure about two metres, so it is wound up very tightly to fit. You inherited half of your DNA from each parent, which is why you resemble your family and yet are different from every one of them.",
+      "Your body is in a state of constant renewal, but the rates vary enormously: the cells lining the gut are replaced within days, red blood cells within months and the cells of the skin's surface within a few weeks. Others, including most of the nerve cells of the cerebral cortex and the cells in the lens of the eye, are with you from early life for as long as you live. The popular claim that your whole body is replaced every seven years is therefore a myth, but you are certainly not the same collection of material that you were long ago.",
+      "Think of running up a flight of stairs, which looks simple but calls on almost every system you have toured. The brain plans the movement and keeps your balance, the muscles pull on the bones, the heart and lungs speed up to deliver more oxygen, hormones such as adrenaline prepare the body for effort, and sweat appears to carry away the extra heat. None of these parts could do the job alone, and none of them needs you to think about it.",
+      "We have travelled from the skin to the cell, and met the bones that hold us up, the heart that never rests, the brain that makes each of us what we are and the trillions of tiny workers that keep it all going. It is easy to forget such a place while we are living in it, and a tour like this one is a reminder to be curious about it and grateful for it. The most fascinating thing about the body, in the end, is that it is yours."
+    ]
+  }
+}
