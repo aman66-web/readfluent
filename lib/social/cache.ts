@@ -4,8 +4,8 @@ import { readRaw, writeRaw } from "@/lib/store/local";
 /** What the device remembers of the social side, so the home screen can say things without asking the server. */
 export const SOCIAL_KEY = storageKey("social");
 
-export interface SocialCache { friends: number; friendCode: string }
-export const NO_SOCIAL: SocialCache = { friends: 0, friendCode: "" };
+export interface SocialCache { friends: number; friendCode: string; /** When the device last reported itself to the server (ms). */ syncedAt: number }
+export const NO_SOCIAL: SocialCache = { friends: 0, friendCode: "", syncedAt: 0 };
 
 export function parseSocial(raw: string | null | undefined): SocialCache {
   if (!raw) return NO_SOCIAL;
@@ -14,6 +14,7 @@ export function parseSocial(raw: string | null | undefined): SocialCache {
     return {
       friends: typeof v?.friends === "number" && Number.isInteger(v.friends) && v.friends >= 0 ? v.friends : 0,
       friendCode: typeof v?.friendCode === "string" && /^[A-Z0-9]{8}$/.test(v.friendCode) ? v.friendCode : "",
+      syncedAt: typeof v?.syncedAt === "number" && Number.isFinite(v.syncedAt) && v.syncedAt > 0 ? v.syncedAt : 0,
     };
   } catch {
     return NO_SOCIAL;

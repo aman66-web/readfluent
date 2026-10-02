@@ -159,3 +159,4 @@ These unblock the build. None is final; the owner decides.
 - Talk: Dewey answers in 1–3 short sentences at the reader's level, with an English-free translation in the reader's own language and one kind correction; 40 messages a day per signed-in reader; the last 16 turns only; replies shown as text, never as markup.
 - Talk topics are sent as the reader's own words in their own language ("Order a meal"); Dewey replies in the language being learned.
 - Onboarding cheers: at each answer Dewey says a short line in a bubble beside him (rotating, "Almost there!" near the end), and on his own at the halfway point and three screens from the end; 8 strings in 20 languages (first drafts).
+- Friends and league screen (`/friends`): the device reports itself (name, stage code, XP by day, streak) when the screen opens and at most every 15 min from home; XP is self-reported, so the league is friendly, not verified. A friend with no name shows as #CODE.

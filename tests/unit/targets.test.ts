@@ -35,9 +35,9 @@ describe("today's targets", () => {
 
 describe("what the device remembers of the social side", () => {
   it("reads a bad value as nothing", () => {
-    expect(parseSocial(null)).toEqual({ friends: 0, friendCode: "" });
-    expect(parseSocial('{"friends":-3,"friendCode":"abc"}')).toEqual({ friends: 0, friendCode: "" });
-    expect(parseSocial('{"friends":2,"friendCode":"ABCD2345"}')).toEqual({ friends: 2, friendCode: "ABCD2345" });
-    expect(parseSocial("not json")).toEqual({ friends: 0, friendCode: "" });
+    expect(parseSocial(null)).toEqual({ friends: 0, friendCode: "", syncedAt: 0 });
+    expect(parseSocial('{"friends":-3,"friendCode":"abc"}')).toEqual({ friends: 0, friendCode: "", syncedAt: 0 });
+    expect(parseSocial('{"friends":2,"friendCode":"ABCD2345"}')).toEqual({ friends: 2, friendCode: "ABCD2345", syncedAt: 0 });
+    expect(parseSocial("not json")).toEqual({ friends: 0, friendCode: "", syncedAt: 0 });
   });
 });
