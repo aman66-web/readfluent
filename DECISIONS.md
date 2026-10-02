@@ -260,3 +260,4 @@ These unblock the build. None is final; the owner decides.
 - The Counselor's Last Session (200 pages, original): nothing to fact-check; plot facts added to the bible (Anna posted her ledger and diary to Daniel before she died; Pike burned the scarf).
 - Summer at Willow Bay (200 pages, original romance): nothing to fact-check.
 - Why Healthy Food Feels So Hard (200 pages) fact-check (hedged): about 500 extra calories a day in the ultra-processed diet study, habit-formation timing of about two months, the sleep, willpower and self-compassion findings. Page 200 says 'not medical advice'.
+- Build It Lean (200 pages, original): nothing to fact-check; all numbers are imagined; new cast and places in meta.bible. Page 200 says 'not financial advice'.
