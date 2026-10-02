@@ -9,6 +9,7 @@
  * page sample, and the reader says so.
  */
 import GENERATED from "./written.generated.json";
+import PAGE_COUNTS from "./pages.generated.json";
 import type { GeneratedBook } from "./generated";
 import { type CategoryId, type Length, type LevelId } from "@/lib/content/limits";
 
@@ -53,7 +54,7 @@ export const PREVIEW_BOOKS: PreviewBook[] = [
     author: "Jane Austen",
     kind: "classic",
     category: "romance",
-    blurb: "Elizabeth Bennet has no plans to like the proud Mr Darcy. He has no plans to fall in love with her. Both are wrong about a great deal.",
+    blurb: "Elizabeth Bennet hears a rich stranger call her barely tolerable, and she decides to dislike him for life. Mr Darcy, however, cannot stop looking at her. Two proud people, five sisters and one very wrong first impression.",
     scenes: PRIDE_SCENES.map((caption, i) => ({ n: i + 1, caption })),
     text: {
       A1A2: [
@@ -115,7 +116,7 @@ const WRITTEN: PreviewBook[] = [
     author: "Lewis Carroll",
     kind: "classic",
     category: "fantasy-scifi",
-    blurb: "Follow a bored girl and a very late White Rabbit down a hole, into a world where cakes make you grow, cats vanish, and a Queen wants everyone's head. Lewis Carroll's dream is funny, strange and unforgettable.",
+    blurb: "A white rabbit in a waistcoat hurries past, checking his watch, and bored Alice follows him down a hole. Below, cakes change her size, a cat grins and fades away, and a furious Queen wants heads to roll.",
     scenes: [],
     text: EMPTY_TEXT,
   },
@@ -127,7 +128,7 @@ const WRITTEN: PreviewBook[] = [
     author: "Arthur Conan Doyle",
     kind: "classic",
     category: "crime",
-    blurb: "A cursed family, a monstrous hound and a lonely moor. When Sir Henry Baskerville inherits his ancestors' house, only Sherlock Holmes and Dr Watson can learn whether the beast is a ghost or something more human. Can they stop it in time?",
+    blurb: "Sir Charles Baskerville is found dead on a lonely path, and beside him are the prints of a giant dog. Now his heir comes home to the house on the moor. Watson goes with him, and something howls in the dark.",
     scenes: [],
     text: EMPTY_TEXT,
   },
@@ -139,7 +140,7 @@ const WRITTEN: PreviewBook[] = [
     author: "George S. Clason",
     kind: "classic",
     category: "business-money",
-    blurb: "Two hard-working friends in ancient Babylon cannot understand why their purses are always empty. They go to Arkad, the richest man in the city, and learn how he began with nothing but a habit and some patience.",
+    blurb: "Bansir builds chariots, Kobbi plays the lute, and at sunset both of them are broke. So they walk across Babylon to Arkad, who started with nothing and is now the richest man in the city. His answer is simpler than they expect.",
     scenes: [],
     text: EMPTY_TEXT,
   },
@@ -151,7 +152,7 @@ const WRITTEN: PreviewBook[] = [
     author: "The Hidden Life of Trees",
     kind: "inspired",
     category: "science",
-    blurb: "Follow Mina and her grandfather Tomas through one year in one old forest, from a falling acorn to a new one planted. Along the way you will meet roots, fungi, giant trees and the quiet signals that may pass between them.",
+    blurb: "Mina marks one acorn in the forest soil, then spends a year watching it with her grandfather Tomas. Through snow, spring and storm, they learn how trees and fungi trade, and why scientists still argue about how far it goes.",
     scenes: [],
     text: EMPTY_TEXT,
   },
@@ -169,6 +170,15 @@ const MORE: PreviewBook[] = (GENERATED as GeneratedBook[]).map((g) => ({
   blurb: g.blurb, scenes: [], text: EMPTY_TEXT,
 }));
 PREVIEW_BOOKS.push(...MORE);
+
+/**
+ * Every written book has one length, the pages it has (200 once a book is full-length, 50 until then; no
+ * choice is offered). Read from `pages.generated.json`, which the catalogue builder writes from the books.
+ */
+for (const b of PREVIEW_BOOKS) {
+  const n = (PAGE_COUNTS as Record<string, number>)[b.slug];
+  if (b.source === "file" && (n === 50 || n === 100 || n === 200)) { b.pageCount = n; b.lengths = [n]; }
+}
 
 export const findBook = (slug: string): PreviewBook | null => PREVIEW_BOOKS.find((b) => b.slug === slug) ?? null;
 

@@ -22,5 +22,5 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
   const en = book.source === "file" ? await loadEnglish(slug) : null;
   const outline = en ? en.beats.map((b) => ({ n: b.n, text: b.summary })) : book.scenes.map((s) => ({ n: s.n, text: s.caption }));
   const langs = await readableLanguages(slug, book.source);
-  return <BookView book={book} outline={outline} langs={langs} />;
+  return <BookView book={book} outline={outline} langs={langs} chapterNames={en?.meta.chapters} />;
 }

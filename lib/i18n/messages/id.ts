@@ -578,6 +578,8 @@ const indonesian: Catalog = {
   "book.trees-talk-to-each-other.blurb": "Ikuti Mina dan kakeknya, Tomas, menjalani satu tahun di sebuah hutan tua, dari sebutir biji ek yang jatuh hingga biji ek baru yang ditanam. Di sepanjang jalan kamu akan bertemu akar, jamur, pohon-pohon raksasa, dan isyarat tenang yang mungkin dipertukarkan di antara mereka.",
   "path.title": "Isi buku",
   "path.part": "Bab {n} · halaman {from}–{to}",
+  "path.chapterN": "Bab {n}",
+  "path.pages": "Halaman {from}–{to}",
   "book.by": "oleh {author}",
   "book.inspired": "Terinspirasi dari {author}",
   "book.levels": "Level",

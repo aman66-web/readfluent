@@ -580,6 +580,8 @@ const de: Catalog = {
   "book.trees-talk-to-each-other.blurb": "Begleite Mina und ihren Großvater Tomas ein Jahr lang durch einen alten Wald, von einer fallenden Eichel bis zu einer neu gepflanzten. Unterwegs begegnest du Wurzeln, Pilzen, riesigen Bäumen und den leisen Signalen, die vielleicht zwischen ihnen hin- und hergehen.",
   "path.title": "Was drinsteckt",
   "path.part": "Kapitel {n} · Seiten {from}–{to}",
+  "path.chapterN": "Kapitel {n}",
+  "path.pages": "Seiten {from}–{to}",
   "book.by": "von {author}",
   "book.inspired": "Inspiriert von {author}",
   "book.levels": "Niveaus",

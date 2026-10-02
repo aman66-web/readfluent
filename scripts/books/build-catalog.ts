@@ -91,7 +91,21 @@ export function buildAll(): GeneratedBook[] {
   return out;
 }
 
+/** How many pages each written book has (the same in all three levels), for every book that has pages: the app reads it to know a book's length without loading its text. */
+export function pageCounts(): Record<string, number> {
+  const out: Record<string, number> = {};
+  for (const e of read<ListEntry[]>("scripts/books/LIST.json")) {
+    const f = new URL(`lib/preview/books/${e.slug}/en.json`, ROOT);
+    if (!existsSync(f)) continue;
+    const en = JSON.parse(readFileSync(f, "utf8")) as EnBook;
+    // A book a writer is still working on keeps its last good length until it passes the checker.
+    if (checkBook(en).length === 0) out[e.slug] = en.levels.A1A2.length;
+  }
+  return out;
+}
+
 if (process.argv[1]?.endsWith("build-catalog.ts")) {
+  writeFileSync(new URL("lib/preview/pages.generated.json", ROOT), JSON.stringify(pageCounts(), null, 1) + "\n");
   const books = buildAll();
   writeFileSync(new URL("lib/preview/written.generated.json", ROOT), JSON.stringify(books, null, 1) + "\n");
   console.log(`wrote lib/preview/written.generated.json: ${books.length} books`);

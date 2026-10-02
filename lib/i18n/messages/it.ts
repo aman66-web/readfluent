@@ -579,6 +579,8 @@ const it: Catalog = {
   "book.trees-talk-to-each-other.blurb": "Segui Mina e suo nonno Tomas per un anno in un vecchio bosco, da una ghianda che cade a una nuova piantata. Lungo la strada incontrerai radici, funghi, alberi giganti e i segnali silenziosi che forse passano tra loro.",
   "path.title": "Cosa c'è dentro",
   "path.part": "Capitolo {n} · pagine {from}–{to}",
+  "path.chapterN": "Capitolo {n}",
+  "path.pages": "Pagine {from}–{to}",
   "book.by": "di {author}",
   "book.inspired": "Ispirato a {author}",
   "book.levels": "Livelli",

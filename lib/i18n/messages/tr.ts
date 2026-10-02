@@ -547,6 +547,8 @@ const tr: Catalog = {
   "book.trees-talk-to-each-other.blurb": "Mina ve dedesi Tomas'ı yaşlı bir ormanda, düşen bir palamuttan dikilen yeni bir palamuda kadar geçen bir yıl boyunca izleyin. Yol boyunca kökleri, mantarları, dev ağaçları ve aralarında dolaşabilecek sessiz sinyalleri tanıyacaksınız.",
   "path.title": "İçindekiler",
   "path.part": "Bölüm {n} · sayfa {from}–{to}",
+  "path.chapterN": "Bölüm {n}",
+  "path.pages": "Sayfalar {from}–{to}",
   "book.by": "Yazar: {author}",
   "book.inspired": "{author} eserinden esinlenildi",
   "book.levels": "Seviyeler",

@@ -578,6 +578,8 @@ const zh: Catalog = {
   "book.trees-talk-to-each-other.blurb": "跟着米娜和她的外公托马斯，在一片古老的森林里度过一年，从一颗落下的橡果，到一颗新种下的橡果。一路上，你会遇见树根、真菌、参天大树，还有它们之间可能传递的无声信号。",
   "path.title": "内容概览",
   "path.part": "第 {n} 章 · 第 {from}–{to} 页",
+  "path.chapterN": "第 {n} 章",
+  "path.pages": "第 {from}–{to} 页",
   "book.by": "作者：{author}",
   "book.inspired": "灵感来自 {author}",
   "book.levels": "等级",

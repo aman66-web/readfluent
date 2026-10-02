@@ -10,7 +10,7 @@ import type { LevelId } from "@/lib/content/limits";
 import type { KeyPair, WordEntry } from "@/lib/preview/spanish";
 
 export interface Beat { n: number; scene: string; summary: string }
-export interface EnglishBook { slug: string; meta: { blurb: string; bible: string }; beats: Beat[]; levels: Record<LevelId, string[]> }
+export interface EnglishBook { slug: string; meta: { blurb: string; bible: string; chapters?: string[] }; beats: Beat[]; levels: Record<LevelId, string[]> }
 
 /** One translated page: the text in the language, and three words of it matched to words of the English page. */
 export interface TranslatedPage { text: string; keys: KeyPair[] }

@@ -582,6 +582,8 @@ const pl: Catalog = {
   "book.trees-talk-to-each-other.blurb": "Przez rok, w jednym starym lesie, towarzyszysz Minie i jej dziadkowi Tomasowi — od spadającego żołędzia do posadzonego nowego. Po drodze poznasz korzenie, grzyby, olbrzymie drzewa i ciche sygnały, które mogą między nimi krążyć.",
   "path.title": "Co w środku",
   "path.part": "Rozdział {n} · strony {from}–{to}",
+  "path.chapterN": "Rozdział {n}",
+  "path.pages": "Strony {from}–{to}",
   "book.by": "autor: {author}",
   "book.inspired": "Inspirowane: {author}",
   "book.levels": "Poziomy",

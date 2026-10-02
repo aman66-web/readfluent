@@ -579,6 +579,8 @@ const es: Catalog = {
   "book.trees-talk-to-each-other.blurb": "Acompaña a Mina y a su abuelo Tomas durante un año en un bosque antiguo, desde una bellota que cae hasta otra recién plantada. En el camino conocerás raíces, hongos, árboles gigantes y las señales silenciosas que quizá se transmiten entre ellos.",
   "path.title": "Qué hay dentro",
   "path.part": "Capítulo {n} · páginas {from}–{to}",
+  "path.chapterN": "Capítulo {n}",
+  "path.pages": "Páginas {from}–{to}",
   "book.by": "de {author}",
   "book.inspired": "Inspirado en {author}",
   "book.levels": "Niveles",

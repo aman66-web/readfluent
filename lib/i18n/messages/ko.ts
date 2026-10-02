@@ -580,6 +580,8 @@ const ko: Catalog = {
   "book.trees-talk-to-each-other.blurb": "미나와 할아버지 토마스를 따라, 오래된 숲에서 보내는 한 해를 함께하세요. 떨어지는 도토리에서 새로 심는 도토리까지입니다. 그 길에서 뿌리, 균류, 거대한 나무들, 그리고 나무 사이를 오갈지도 모르는 조용한 신호를 만나게 됩니다.",
   "path.title": "책 속 이야기",
   "path.part": "{n}장 · {from}–{to}쪽",
+  "path.chapterN": "{n}장",
+  "path.pages": "{from}–{to}쪽",
   "book.by": "{author} 지음",
   "book.inspired": "{author}에게서 영감을 받음",
   "book.levels": "수준",

@@ -30,7 +30,6 @@ export const TOUR: readonly TourStep[] = [
   { id: "library", on: /^\/$/, target: "tab-library", text: "coach.library", mode: "route", until: /^\/library/, mood: "hello" },
   { id: "pick", on: /^\/library/, target: "shelf", text: "coach.pick", mode: "route", until: /^\/book\//, mood: "ready" },
   { id: "levels", on: /^\/book\//, target: "levels", text: "coach.bookLevel", mode: "next", mood: "reading" },
-  { id: "lengths", on: /^\/book\//, target: "lengths", text: "coach.bookLength", mode: "next", mood: "reading" },
   { id: "path", on: /^\/book\//, target: "path", text: "coach.bookPath", mode: "next", mood: "ready" },
   { id: "read", on: /^\/book\//, target: "read", text: "coach.read", mode: "route", until: /^\/read\//, mood: "cheer" },
   { id: "swipe", on: /^\/read\//, target: "page", text: "coach.swipe", mode: "next", mood: "reading" },

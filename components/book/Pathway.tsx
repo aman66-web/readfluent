@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useSyncExternalStore } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { PROGRESS_KEY, parseProgress, versionKey } from "@/lib/progress";
 import { readRaw, subscribeTo } from "@/lib/store/local";
@@ -36,12 +36,14 @@ export function currentMoment(reached: number | undefined, moments: number, leng
  * read are lit with a tick, the one to carry on from is marked, and a tap on any of them opens the book
  * at that page. It follows the level and length chosen above it.
  */
-export function Pathway({ slug, level, length, outline, onOpen }: {
+export function Pathway({ slug, level, length, outline, chapters, onOpen }: {
   slug: string;
   /** The level's address part (a1a2…). */
   level: string;
   length: number;
   outline: readonly OutlineItem[];
+  /** One name per chapter of ten moments, where the book has them. */
+  chapters?: readonly string[];
   /** Opens the reader at this page (0-based). */
   onOpen: (page: number) => void;
 }) {
@@ -51,6 +53,10 @@ export function Pathway({ slug, level, length, outline, onOpen }: {
   const reached = useMemo(() => parseProgress(raw)[versionKey(slug, level, length)], [raw, slug, level, length]);
   const here = currentMoment(reached, outline.length, length);
   const parts = Math.ceil(outline.length / PART_SIZE);
+  // A long book is a list of chapters, closed but for the one the reader is in; a tap opens or closes one.
+  const [picked, setPicked] = useState<ReadonlySet<number> | null>(null);
+  const open = picked ?? new Set([here === null ? 0 : Math.floor(here / PART_SIZE)]);
+  const toggle = (p: number) => setPicked((cur) => { const next = new Set(cur ?? open); if (next.has(p)) next.delete(p); else next.add(p); return next; });
 
   return (
     <section data-tour="path" className="mt-8" aria-label={t("path.title")}>
@@ -61,9 +67,17 @@ export function Pathway({ slug, level, length, outline, onOpen }: {
         const from = pageOfMoment(first, outline.length, length) + 1;
         const to = pageOfMoment(first + items.length, outline.length, length) + (first + items.length >= outline.length ? 1 : 0);
         return (
-          <div key={p} className="mt-5">
-            <p className="inline-flex h-8 items-center rounded-full bg-accent-bright/20 px-3.5 text-[12.5px] font-bold text-accent">{t("path.part", { n: p + 1, from, to: Math.max(from, to) })}</p>
-            <ol className="relative mx-auto mt-2 w-full max-w-[360px]" style={{ height: items.length * ROW }} dir="ltr">
+          <div key={p} className="mt-3">
+            <button type="button" aria-expanded={open.has(p)} onClick={() => toggle(p)}
+                    className="sheet-card flex w-full items-center gap-3.5 rounded-[20px] px-4 py-3.5 text-start transition-transform active:scale-[0.99]">
+              <span aria-hidden className="tabular grid size-10 shrink-0 place-items-center rounded-full bg-accent-bright text-[15px] font-bold text-on-cyan">{p + 1}</span>
+              <span className="min-w-0 flex-1">
+                <span lang={locale === "en" ? "en" : undefined} className="block text-[16px] font-semibold leading-tight">{chapters?.[p] ?? t("path.chapterN", { n: p + 1 })}</span>
+                <span className="tabular mt-0.5 block text-[12.5px] text-muted">{t("path.pages", { from, to: Math.max(from, to) })} · {here === null ? 0 : Math.max(0, Math.min(items.length, here - first + 1))}/{items.length}</span>
+              </span>
+              <svg viewBox="0 0 24 24" className={`size-5 shrink-0 text-faint transition-transform ${open.has(p) ? "rotate-180" : ""}`} fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M6 9l6 6 6-6" /></svg>
+            </button>
+            {open.has(p) && <ol className="relative mx-auto mt-3 w-full max-w-[360px]" style={{ height: items.length * ROW }} dir="ltr">
               <svg viewBox={`0 0 ${WIDTH} ${items.length * ROW}`} preserveAspectRatio="none" className="absolute inset-0 size-full" aria-hidden>
                 {items.slice(1).map((_, k) => {
                   const x1 = WIDTH / 2 + windOf(k), y1 = k * ROW + ROW / 2;
@@ -103,7 +117,7 @@ export function Pathway({ slug, level, length, outline, onOpen }: {
                   </li>
                 );
               })}
-            </ol>
+            </ol>}
           </div>
         );
       })}

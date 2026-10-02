@@ -578,6 +578,8 @@ const ja: Catalog = {
   "book.trees-talk-to-each-other.blurb": "ミナと祖父のトマスと一緒に、古い森で過ごす一年をたどります。落ちるどんぐりから、新しく植えられるどんぐりまで。その道中で、根っこや菌類、巨大な木々、そして木々のあいだを行き交うかもしれない静かな合図に出会います。",
   "path.title": "中身",
   "path.part": "第{n}章 · {from}〜{to}ページ",
+  "path.chapterN": "第{n}章",
+  "path.pages": "{from}〜{to}ページ",
   "book.by": "{author} 著",
   "book.inspired": "{author} にインスパイア",
   "book.levels": "レベル",

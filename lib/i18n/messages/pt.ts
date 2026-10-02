@@ -579,6 +579,8 @@ const pt: Catalog = {
   "book.trees-talk-to-each-other.blurb": "Acompanhe Mina e seu avô Tomas durante um ano numa velha floresta, desde uma semente de carvalho que cai até outra que é plantada. No caminho, você vai conhecer raízes, fungos, árvores gigantes e os sinais silenciosos que talvez circulem entre elas.",
   "path.title": "O que há dentro",
   "path.part": "Capítulo {n} · páginas {from}–{to}",
+  "path.chapterN": "Capítulo {n}",
+  "path.pages": "Páginas {from}–{to}",
   "book.by": "de {author}",
   "book.inspired": "Inspirado em {author}",
   "book.levels": "Níveis",

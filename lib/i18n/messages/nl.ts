@@ -582,6 +582,8 @@ const nl: Catalog = {
   "book.trees-talk-to-each-other.blurb": "Volg Mina en haar grootvader Tomas een jaar lang door één oud bos, van een vallende eikel tot een nieuw geplante. Onderweg ontmoet je wortels, schimmels, reusachtige bomen en de stille signalen die tussen hen kunnen gaan.",
   "path.title": "Wat er in zit",
   "path.part": "Hoofdstuk {n} · pagina's {from}–{to}",
+  "path.chapterN": "Hoofdstuk {n}",
+  "path.pages": "Pagina’s {from}–{to}",
   "book.by": "door {author}",
   "book.inspired": "Geïnspireerd door {author}",
   "book.levels": "Niveaus",

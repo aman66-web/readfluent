@@ -562,6 +562,8 @@ const vi: Catalog = {
   "book.trees-talk-to-each-other.blurb": "Hãy cùng Mina và ông nội Tomas đi qua một năm trong một khu rừng già, từ quả sồi rơi đến quả sồi mới được trồng. Dọc đường, bạn sẽ gặp rễ cây, nấm, những cây khổng lồ và những tín hiệu lặng lẽ có thể truyền giữa chúng.",
   "path.title": "Bên trong có gì",
   "path.part": "Chương {n} · trang {from}–{to}",
+  "path.chapterN": "Chương {n}",
+  "path.pages": "Trang {from}–{to}",
   "book.by": "của {author}",
   "book.inspired": "Lấy cảm hứng từ {author}",
   "book.levels": "Cấp độ",

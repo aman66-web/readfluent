@@ -579,6 +579,8 @@ const fr: Catalog = {
   "book.trees-talk-to-each-other.blurb": "Suivez Mina et son grand-père Tomas pendant une année dans une vieille forêt, du gland qui tombe jusqu'à celui qu'on plante. En chemin, vous rencontrerez des racines, des champignons, des arbres géants et les signaux discrets qui circulent peut-être entre eux.",
   "path.title": "Au programme",
   "path.part": "Chapitre {n} · pages {from}–{to}",
+  "path.chapterN": "Chapitre {n}",
+  "path.pages": "Pages {from}–{to}",
   "book.by": "par {author}",
   "book.inspired": "Inspiré de {author}",
   "book.levels": "Niveaux",

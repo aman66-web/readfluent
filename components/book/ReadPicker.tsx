@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useMemo, useState, useSyncExternalStore, type ReactNode } from "react";
-import { LENGTHS, LEVELS, levelById, levelForCefr, type Length, type LevelId } from "@/lib/content/limits";
+import { LEVELS, levelById, levelForCefr, type Length, type LevelId } from "@/lib/content/limits";
 import { languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { Pathway, PART_SIZE, type OutlineItem } from "@/components/book/Pathway";
@@ -44,13 +44,12 @@ function Card({ title, aside, children, label, tour }: { title: string; aside?: 
  * for this book, and the shortest length; a tap on another changes it), the book's path, and the way in. The Read
  * button carries on from where they were.
  */
-export function ReadPicker({ slug, lengths, langs = [], outline: english = [], children }: { slug: string; /** The lengths this book exists in; the others are shown as coming soon. */ lengths: readonly Length[]; /** The languages (besides English) the book can be read in. */ langs?: readonly string[]; /** The book's moments in order, for the path (English; shown in the reader's language where there is a translation). */ outline?: readonly OutlineItem[]; /** The "about" text. */ children?: ReactNode }) {
+export function ReadPicker({ slug, lengths, langs = [], outline: english = [], chapterNames, children }: { slug: string; /** The length this book has (its pages): the one it opens at. */ lengths: readonly Length[]; /** The languages (besides English) the book can be read in. */ langs?: readonly string[]; /** The book's moments in order, for the path (English; shown in the reader's language where there is a translation). */ outline?: readonly OutlineItem[]; /** One name for each chapter of ten pages, where the book has them. */ chapterNames?: readonly string[]; /** The "about" text. */ children?: ReactNode }) {
   const t = useT();
   const locale = useLocale();
   const router = useRouter();
   const outline = useOutline(slug, english);
   const [levelPick, setLevelPick] = useState<LevelId | null>(null);
-  const [lengthPick, setLengthPick] = useState<Length | null>(null);
   const [paywall, setPaywall] = useState(false);
   const { plan } = usePlan();
 
@@ -61,8 +60,8 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
   const signedUpAt = useMemo(() => levelForCefr(parseAnswers(answersRaw).level), [answersRaw]);
 
   const level: LevelId = levelPick ?? (last ? levelById(last.level)?.id : undefined) ?? signedUpAt ?? LEVELS[0].id;
-  const lastLength = last && lengths.includes(last.length as Length) ? (last.length as Length) : undefined;
-  const length: Length = lengthPick ?? lastLength ?? lengths[0];
+  // A book has one length (all its pages): no choice is offered.
+  const length: Length = lengths[lengths.length - 1];
   const levelInfo = levelById(level);
   const learn = useMemo(() => parseAnswers(answersRaw).learn, [answersRaw]);
 
@@ -78,7 +77,7 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
     router.push(`/read/${slug}/${levelSlug}/${length}`);
   };
 
-  const chapters = Math.max(1, Math.ceil(outline.length / PART_SIZE));
+  const chapters = chapterNames?.length ?? Math.max(1, Math.ceil(outline.length / PART_SIZE));
   const share = reached === undefined ? 0 : Math.min(1, (reached + 1) / length);
 
   return (
@@ -110,7 +109,7 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
       <div className="mt-3 flex flex-col gap-3">
         {children && <Card title={t("book.about")}><div className="mt-2.5">{children}</div></Card>}
 
-        {/* Both choices side by side in one card: how hard the language is, and how many pages. */}
+        {/* How hard the language is: one sentence, two or three a page. */}
         <Card title={t("book.levels")} aside={levelInfo && <p className="text-end text-[13px] font-semibold text-foreground/80">{t(`level.${levelInfo.id}.name`)}</p>}>
           <div data-tour="levels" className="mt-3 grid grid-cols-3 gap-2" role="group" aria-label={t("book.levels")} dir="ltr">
             {LEVELS.map((l) => {
@@ -130,22 +129,6 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
             </p>
           )}
 
-          <h3 className="mt-5 text-[12px] font-bold uppercase tracking-[0.1em] text-[var(--ob-deep)]">{t("book.pagesTitle")}</h3>
-          <div data-tour="lengths" className="mt-3 grid grid-cols-3 gap-2" role="group" aria-label={t("book.pagesTitle")}>
-            {LENGTHS.map(({ pages: n }) => {
-              const exists = lengths.includes(n);
-              const on = length === n;
-              return (
-                <button key={n} type="button" disabled={!exists} aria-pressed={on} onClick={() => setLengthPick(n)}
-                        className={`opt relative flex h-[88px] flex-col items-center justify-center gap-0.5 rounded-2xl ${on ? "opt-on" : ""}`}>
-                  <span className="text-[24px] font-extrabold leading-none tracking-[-0.02em]">{n}</span>
-                  <span className={`text-[11.5px] font-semibold ${on ? "text-[var(--ob-deep)]" : "text-muted"}`}>{exists ? t(`length.${n}.name` as "length.50.name") : t("book.soon")}</span>
-                  {exists && locked(n) && <span className="absolute end-2 top-2 text-faint"><Lock /></span>}
-                </button>
-              );
-            })}
-          </div>
-          {lengths.length < LENGTHS.length && <p className="mt-3 text-[13px] leading-snug text-muted">{t("book.moreLengthsSoon")}</p>}
         </Card>
 
         {/* Whether the book opens in the language they are learning. */}
@@ -164,7 +147,7 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
         )}
       </div>
 
-      {outline.length > 0 && <Pathway slug={slug} level={levelSlug} length={length} outline={outline} onOpen={start} />}
+      {outline.length > 0 && <Pathway slug={slug} level={levelSlug} length={length} outline={outline} chapters={chapterNames} onOpen={start} />}
 
       {/* The way in stays on screen above the menu, wherever the page is scrolled to. */}
       <div className="sticky bottom-[calc(env(safe-area-inset-bottom)+5.25rem)] z-30 -mx-5 mt-auto bg-gradient-to-t from-background via-background to-transparent px-5 pb-2 pt-8">

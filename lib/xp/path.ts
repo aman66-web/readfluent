@@ -39,7 +39,7 @@ export function formatDuration(days: number, locale: LanguageCode = "en"): strin
 export const PROJECTION_MONTHS = 3;
 const DAYS_PER_MONTH = 30;
 /** The versions are 50, 100 and 200 pages; a book is counted as the middle one. */
-export const BOOK_PAGES = 100;
+export const BOOK_PAGES = 200;
 
 export interface Projection {
   /** Where they start and where `PROJECTION_MONTHS` of reading `minutes` a day would leave them. */

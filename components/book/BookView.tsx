@@ -16,7 +16,7 @@ import { coverAuthor, lengthsOf, type PreviewBook } from "@/lib/preview/catalog"
  * reader's language: its name and description too, where there is a translation; the book's own pages stay
  * as they are.
  */
-export function BookView({ book, outline, langs }: { book: PreviewBook; /** The book's moments, in order, for the path. */ outline: readonly OutlineItem[]; /** The languages (besides English) the book can be read in. */ langs: readonly string[] }) {
+export function BookView({ book, outline, langs, chapterNames }: { book: PreviewBook; /** The book's moments, in order, for the path. */ outline: readonly OutlineItem[]; /** The languages (besides English) the book can be read in. */ langs: readonly string[]; /** The names of the chapters (ten pages each), where the book has them. */ chapterNames?: readonly string[] }) {
   const t = useT();
   const locale = useLocale();
   const text = useBookText();
@@ -56,7 +56,7 @@ export function BookView({ book, outline, langs }: { book: PreviewBook; /** The 
         </div>
       </div>
 
-      <ReadPicker slug={book.slug} lengths={lengths} outline={outline} langs={langs}>
+      <ReadPicker slug={book.slug} lengths={lengths} outline={outline} langs={langs} chapterNames={chapterNames}>
         <p lang={locale} dir="auto" className="font-reading text-[17px] leading-[1.6] text-foreground/90">{blurb}</p>
         {/* Where it comes from, in the description where readers can see it. */}
         <p className="mt-3 border-t border-border pt-3 text-[13px] leading-snug text-muted">
