@@ -7432,6 +7432,45 @@
   }
  },
  {
+  "slug": "midnight-at-the-lighthouse-inn",
+  "title": "Midnight at the Lighthouse Inn",
+  "author": "The Notebook",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "On a wild island, Iris climbs her lighthouse every midnight, and an engineer arrives who may decide to switch the old lamp off for good. Winter storms, a hidden secret and one terrible night will show them what a light is for.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Midnight at",
+    "the",
+    "Lighthouse",
+    "Inn"
+   ],
+   "size": 13.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lighthouse",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "moon",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-valley-of-fear",
   "title": "The Valley of Fear",
   "author": "Arthur Conan Doyle",
@@ -7866,6 +7905,43 @@
     },
     {
      "id": "scroll",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "letters-from-a-stoic",
+  "title": "Letters from a Stoic",
+  "author": "Seneca",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "A Roman statesman writes to a younger friend about time, fear, friendship, grief and how to live well. Read the best known letters of Seneca, the Stoic, and find calm, practical advice that is nearly two thousand years old and still surprisingly fresh.",
+  "cover": {
+   "bg": "#26262A",
+   "title": [
+    "Letters from",
+    "a Stoic"
+   ],
+   "size": 14,
+   "author": "SENECA",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "hourglass",
      "x": 160,
      "y": 38,
      "s": 0.36
