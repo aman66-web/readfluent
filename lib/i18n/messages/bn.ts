@@ -345,7 +345,7 @@ const bn: Catalog = {
   "library.versions": "{category} · 9টি সংস্করণ",
   "library.soon": "শিগগিরই আসছে",
   "library.soonLabel": "{category}: শিগগিরই আসছে",
-  "library.preview": "প্রিভিউ: এখন পর্যন্ত একটি বই। পূর্ণ লাইব্রেরিতে থাকবে 270টি।",
+  "library.preview": "প্রিভিউ: এখন পর্যন্ত পাঁচটি বই। পূর্ণ লাইব্রেরিতে থাকবে 200টি।",
   "book.back": "লাইব্রেরিতে ফিরুন",
   "book.by": "{author}-এর লেখা",
   "book.inspired": "{author} থেকে অনুপ্রাণিত",

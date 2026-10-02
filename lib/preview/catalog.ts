@@ -8,11 +8,21 @@
  * Page counts are NOT the real 50/100/200: every length opens this same twelve-
  * page sample, and the reader says so.
  */
-import { type CategoryId, type LevelId } from "@/lib/content/limits";
+import { type CategoryId, type Length, type LevelId } from "@/lib/content/limits";
 
 export interface Scene { n: number; caption: string }
 export interface PreviewPage { n: number; text: string; scene: number }
 export interface PreviewBook {
+  /**
+   * Where the pages are. Absent: in `text` below (the one sample book, compiled in). "file": in
+   * `lib/preview/books/<slug>/en.json`, read on the server only when somebody opens the reader,
+   * so no page of these books is ever sent to a phone that is not reading it.
+   */
+  source?: "file";
+  /** Pages in each level of a "file" book (the real, full-length version). */
+  pageCount?: number;
+  /** The lengths this book exists in. Absent: all three (the sample opens for each). */
+  lengths?: readonly Length[];
   slug: string;
   title: string;
   author: string;
@@ -85,9 +95,71 @@ export const PREVIEW_BOOKS: PreviewBook[] = [
   },
 ];
 
+/** A "file" book carries no text in the catalogue: the pages, the scene captions and the translations are loaded on the server (lib/preview/books/load.ts). */
+const EMPTY_TEXT: Record<LevelId, string[]> = { A1A2: [], B1B2: [], C1C2: [] };
+
+/** The books written by hand for the preview (scripts/books/BRIEF.md). 50 pages in each of three levels; the 100 and 200 page editions are not written yet. */
+const WRITTEN: PreviewBook[] = [
+  {
+    source: "file", pageCount: 50, lengths: [50],
+    slug: "alice-s-adventures-in-wonderland",
+    title: "Alice's Adventures in Wonderland",
+    author: "Lewis Carroll",
+    kind: "classic",
+    category: "fantasy-scifi",
+    blurb: "Follow a bored girl and a very late White Rabbit down a hole, into a world where cakes make you grow, cats vanish, and a Queen wants everyone's head. Lewis Carroll's dream is funny, strange and unforgettable.",
+    scenes: [],
+    text: EMPTY_TEXT,
+  },
+  {
+    source: "file", pageCount: 50, lengths: [50],
+    slug: "the-hound-of-the-baskervilles",
+    title: "The Hound of the Baskervilles",
+    author: "Arthur Conan Doyle",
+    kind: "classic",
+    category: "crime",
+    blurb: "A cursed family, a monstrous hound and a lonely moor. When Sir Henry Baskerville inherits his ancestors' house, only Sherlock Holmes and Dr Watson can learn whether the beast is a ghost or something more human. Can they stop it in time?",
+    scenes: [],
+    text: EMPTY_TEXT,
+  },
+  {
+    source: "file", pageCount: 50, lengths: [50],
+    slug: "the-richest-man-in-babylon",
+    title: "The Richest Man in Babylon",
+    author: "George S. Clason",
+    kind: "classic",
+    category: "business-money",
+    blurb: "Two hard-working friends in ancient Babylon cannot understand why their purses are always empty. They go to Arkad, the richest man in the city, and learn how he began with nothing but a habit and some patience.",
+    scenes: [],
+    text: EMPTY_TEXT,
+  },
+  {
+    source: "file", pageCount: 50, lengths: [50],
+    slug: "trees-talk-to-each-other",
+    title: "Trees Talk to Each Other",
+    author: "The Hidden Life of Trees",
+    kind: "inspired",
+    category: "science",
+    blurb: "Follow Mina and her grandfather Tomas through one year in one old forest, from a falling acorn to a new one planted. Along the way you will meet roots, fungi, giant trees and the quiet signals that may pass between them.",
+    scenes: [],
+    text: EMPTY_TEXT,
+  },
+];
+
+PREVIEW_BOOKS.push(...WRITTEN);
+
 export const findBook = (slug: string): PreviewBook | null => PREVIEW_BOOKS.find((b) => b.slug === slug) ?? null;
 
-/** The pages of one level of a book, each tied to its scene. */
+/** What a cover prints under the title: the author of a classic. A retelling "inspired by" a book names that book on the jacket page, not on a cover that would then read as its author. */
+export const coverAuthor = (book: PreviewBook): string | undefined => (book.kind === "classic" ? book.author : undefined);
+
+/** How many pages one level of the book has, wherever its text lives. */
+export const pageCount = (book: PreviewBook, level: LevelId): number => book.pageCount ?? book.text[level].length;
+
+/** The lengths a book can be read in. */
+export const lengthsOf = (book: PreviewBook): readonly Length[] => book.lengths ?? [50, 100, 200];
+
+/** The pages of one level of a book, each tied to its scene. Only for a book whose text is compiled in. */
 export function pagesOf(book: PreviewBook, level: LevelId): PreviewPage[] {
   return book.text[level].map((text, i) => ({ n: i + 1, text, scene: i + 1 }));
 }

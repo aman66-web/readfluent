@@ -347,7 +347,7 @@ const nl: Catalog = {
   "library.versions": "{category} · 9 versies",
   "library.soon": "Binnenkort",
   "library.soonLabel": "{category}: binnenkort",
-  "library.preview": "Voorproefje: tot nu toe één boek. De volledige bibliotheek krijgt er 270.",
+  "library.preview": "Voorproefje: tot nu toe vijf boeken. De volledige bibliotheek krijgt er 200.",
   "book.back": "Terug naar de bibliotheek",
   "book.by": "door {author}",
   "book.inspired": "Geïnspireerd door {author}",

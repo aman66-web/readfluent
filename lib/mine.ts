@@ -1,5 +1,5 @@
 import { LEVELS, levelById, lengthByPages } from "@/lib/content/limits";
-import { findBook, pagesOf, type PreviewBook } from "@/lib/preview/catalog";
+import { findBook, pageCount, type PreviewBook } from "@/lib/preview/catalog";
 import type { Progress } from "@/lib/progress";
 
 /**
@@ -31,7 +31,7 @@ function entryOf(key: string, index: number): MineEntry | null {
   const book = findBook(v.slug);
   const level = levelById(v.level);
   if (!book || !level || !lengthByPages(v.length)) return null;
-  const total = pagesOf(book, level.id).length;
+  const total = pageCount(book, level.id);
   return { key, book, levelLabel: level.label, levelSlug: level.slug, length: v.length, page: Math.min(total, Math.max(0, index) + 1), total };
 }
 

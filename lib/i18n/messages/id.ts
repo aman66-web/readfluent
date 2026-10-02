@@ -343,7 +343,7 @@ const indonesian: Catalog = {
   "library.versions": "{category} · 9 versi",
   "library.soon": "Segera hadir",
   "library.soonLabel": "{category}: segera hadir",
-  "library.preview": "Pratinjau: baru satu buku. Perpustakaan lengkapnya akan memiliki 270.",
+  "library.preview": "Pratinjau: baru lima buku. Perpustakaan lengkapnya akan memiliki 200.",
   "book.back": "Kembali ke perpustakaan",
   "book.by": "oleh {author}",
   "book.inspired": "Terinspirasi dari {author}",

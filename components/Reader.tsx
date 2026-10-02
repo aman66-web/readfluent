@@ -25,6 +25,9 @@ import type { Scene } from "@/lib/preview/catalog";
 /** Photos are mounted only for the current page and its neighbours (SPEC.md §10, M4): a 200-page version never holds 200 images. */
 const KEEP_PHOTOS = 2;
 
+/** How tall the photo is, in screen heights: the longer the page of text at a level, the less room the photo takes. */
+const PHOTO_DVH: Record<string, number> = { A1A2: 38, B1B2: 33, C1C2: 27 };
+
 interface Props {
   slug: string;
   title: string;
@@ -283,7 +286,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
   const sub = [onEnd ? t("reader.done") : t("reader.pageLabel", { n: index + 1, total }), levelLabel, languageName(variant.lang, locale)].join(" · ");
 
   // The photo is six wide by five tall, as wide as the column allows, and shorter while a word card is open so the text keeps room.
-  const photoH = `min(${open ? 22 : 38}dvh, calc((min(100vw, 440px) - 36px) / 1.2))`;
+  const photoH = `min(${open ? 22 : PHOTO_DVH[levelId] ?? 38}dvh, calc((min(100vw, 440px) - 36px) / 1.2))`;
 
   return (
     <div className="relative flex h-dvh flex-col">
@@ -346,8 +349,8 @@ function ReaderView({ slug, title, levelId, levelLabel, length, hue, variant, fi
               <div className="flex shrink-0 justify-center px-[18px] pt-3" onClick={() => { if (open) setSel(null); setMenu(false); }}>
                 <div className="relative aspect-[6/5] overflow-hidden rounded-[26px] border-[1.5px] border-border bg-surface transition-[height] duration-200" style={{ height: photoH }}>
                   {near ? (
-                    p.target
-                      ? <ObjectPhoto art={p.target.art} bg={p.target.bg} caption={scene?.caption ?? ""} className="h-full w-full" />
+                    p.target?.art
+                      ? <ObjectPhoto art={p.target.art} bg={p.target.bg ?? ""} caption={scene?.caption ?? ""} className="h-full w-full" />
                       : <ScenePhoto n={p.scene} hue={hue} caption={scene?.caption ?? ""} pill={false} className="h-full w-full" />
                   ) : null}
                   <span className="absolute start-3 top-3 grid h-9 min-w-9 place-items-center rounded-full bg-black/80 px-3 text-[15px] font-bold text-white">{p.n}</span>

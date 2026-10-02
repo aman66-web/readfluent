@@ -315,7 +315,7 @@ const ur: Catalog = {
   "library.versions": "{category} · 9 ورژن",
   "library.soon": "جلد آ رہا ہے",
   "library.soonLabel": "{category}: جلد آ رہا ہے",
-  "library.preview": "پیش نظارہ: ابھی ایک کتاب۔ مکمل لائبریری میں 270 ہوں گی۔",
+  "library.preview": "پیش نظارہ: ابھی پانچ کتابیں۔ مکمل لائبریری میں 200 ہوں گی۔",
   "book.back": "لائبریری پر واپس",
   "book.by": "مصنف: {author}",
   "book.inspired": "{author} سے ماخوذ",

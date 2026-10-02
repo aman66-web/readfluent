@@ -345,7 +345,7 @@ const de: Catalog = {
   "library.versions": "{category} · 9 Versionen",
   "library.soon": "Bald verfügbar",
   "library.soonLabel": "{category}: bald verfügbar",
-  "library.preview": "Vorschau: bisher ein Buch. Die ganze Bibliothek wird 270 haben.",
+  "library.preview": "Vorschau: bisher fünf Bücher. Die ganze Bibliothek wird 200 haben.",
   "book.back": "Zurück zur Bibliothek",
   "book.by": "von {author}",
   "book.inspired": "Inspiriert von {author}",

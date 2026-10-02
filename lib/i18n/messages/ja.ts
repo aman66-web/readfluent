@@ -343,7 +343,7 @@ const ja: Catalog = {
   "library.versions": "{category} · 9バージョン",
   "library.soon": "近日公開",
   "library.soonLabel": "{category}：近日公開",
-  "library.preview": "プレビュー：今のところ1冊のみです。完成版のライブラリは270冊になります。",
+  "library.preview": "プレビュー：今のところ5冊のみです。完成版のライブラリは200冊になります。",
   "book.back": "ライブラリに戻る",
   "book.by": "{author} 著",
   "book.inspired": "{author} にインスパイア",

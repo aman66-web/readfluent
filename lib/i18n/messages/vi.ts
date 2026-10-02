@@ -327,7 +327,7 @@ const vi: Catalog = {
   "library.versions": "{category} · 9 phiên bản",
   "library.soon": "Sắp có",
   "library.soonLabel": "{category}: sắp có",
-  "library.preview": "Xem trước: mới có một cuốn. Thư viện đầy đủ sẽ có 270 cuốn.",
+  "library.preview": "Xem trước: mới có năm cuốn. Thư viện đầy đủ sẽ có 200 cuốn.",
   "book.back": "Về thư viện",
   "book.by": "của {author}",
   "book.inspired": "Lấy cảm hứng từ {author}",

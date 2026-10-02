@@ -3,14 +3,15 @@
 import { BackLink } from "@/components/BackLink";
 import { BookCover } from "@/components/BookCover";
 import { ReadSheet } from "@/components/library/ReadSheet";
-import { LENGTHS, LEVELS, categoryById } from "@/lib/content/limits";
+import { LEVELS, categoryById } from "@/lib/content/limits";
 import { useT } from "@/lib/i18n/react";
-import type { PreviewBook } from "@/lib/preview/catalog";
+import { coverAuthor, lengthsOf, type PreviewBook } from "@/lib/preview/catalog";
 
 /** A book's jacket: who wrote it, what it is, and the Read button that starts the level and length choice. The book's own words stay as they are; the interface around them follows the reader's language. */
 export function BookView({ book }: { book: PreviewBook }) {
   const t = useT();
   const category = categoryById(book.category);
+  const lengths = lengthsOf(book);
   return (
     <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:7rem] [--pt:.5rem]">
       <BackLink fallback="/library" label={t("book.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
@@ -18,7 +19,7 @@ export function BookView({ book }: { book: PreviewBook }) {
       </BackLink>
 
       <div className="mt-2 flex gap-5">
-        <BookCover title={book.title} author={book.author} hue={category?.hue ?? 30} className="w-[132px] shrink-0" />
+        <BookCover title={book.title} author={coverAuthor(book)} hue={category?.hue ?? 30} className="w-[132px] shrink-0" />
         <div className="min-w-0 self-end pb-1">
           <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-accent">{category ? t(`cat.${category.id}`) : ""}</p>
           <h1 lang="en" className="mt-1 text-[24px] font-bold leading-[1.15] tracking-[-0.015em]" dir="auto">{book.title}</h1>
@@ -35,15 +36,15 @@ export function BookView({ book }: { book: PreviewBook }) {
         </div>
         <div className="rounded-xl border border-border bg-surface p-3">
           <dt className="font-semibold text-faint">{t("book.lengths")}</dt>
-          <dd className="mt-0.5 font-semibold">{t("book.pages", { list: LENGTHS.map((l) => l.pages).join(" · ") })}</dd>
+          <dd className="mt-0.5 font-semibold">{t("book.pages", { list: lengths.join(" · ") })}</dd>
         </div>
       </dl>
 
-      <p className="mt-3 text-[12px] text-faint">{t("book.versions")}</p>
+      {lengths.length === 3 && <p className="mt-3 text-[12px] text-faint">{t("book.versions")}</p>}
 
       {/* The way in stays on screen above the menu, wherever the page is scrolled to. */}
       <div className="sticky bottom-[calc(env(safe-area-inset-bottom)+5.25rem)] z-30 -mx-5 mt-auto bg-gradient-to-t from-background via-background to-transparent px-5 pb-2 pt-8">
-        <ReadSheet slug={book.slug} title={book.title} />
+        <ReadSheet slug={book.slug} title={book.title} lengths={lengths} />
       </div>
 
     </main>

@@ -347,7 +347,7 @@ const ru: Catalog = {
   "library.versions": "{category} · 9 версий",
   "library.soon": "Скоро",
   "library.soonLabel": "{category}: скоро",
-  "library.preview": "Превью: пока одна книга. В полной библиотеке будет 270.",
+  "library.preview": "Превью: пока пять книг. В полной библиотеке будет 200.",
   "book.back": "Назад в библиотеку",
   "book.by": "автор: {author}",
   "book.inspired": "По мотивам: {author}",

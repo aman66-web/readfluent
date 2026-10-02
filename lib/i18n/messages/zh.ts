@@ -343,7 +343,7 @@ const zh: Catalog = {
   "library.versions": "{category} · 9 个版本",
   "library.soon": "即将推出",
   "library.soonLabel": "{category}：即将推出",
-  "library.preview": "预览：目前只有一本书。完整书库将有 270 本。",
+  "library.preview": "预览：目前只有五本书。完整书库将有 200 本。",
   "book.back": "返回书库",
   "book.by": "作者：{author}",
   "book.inspired": "灵感来自 {author}",

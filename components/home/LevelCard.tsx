@@ -11,7 +11,7 @@ import { XP, levelFromXp, stageAfter, stageCode } from "@/lib/xp/levels";
 /**
  * The top of the dashboard: the reader's level (A1 to C2), a bar that fills toward
  * the next one, and how much XP that still takes. XP comes from reading (lib/xp); the
- * little list under "How to earn XP" says exactly how, from the same numbers the reader
+ * list under the "?" says exactly how, from the same numbers the reader
  * pays out, so what it promises is what happens. Each level is split into three stages
  * (B1.1, B1.2, B1.3: early, midway, late), and under the bar the card says what a reader
  * can do at the stage they are at, and what comes next.
@@ -19,10 +19,10 @@ import { XP, levelFromXp, stageAfter, stageCode } from "@/lib/xp/levels";
 const CAN_DO = (code: string) => `cando.${code}` as MessageId;
 const STAGE_NAME = { 1: "stage.early", 2: "stage.mid", 3: "stage.late" } as const;
 
-export function LevelCard({ xp, learn }: { xp: number; learn: LanguageCode | null }) {
+export function LevelCard({ xp, learn, startOpen = false }: { xp: number; learn: LanguageCode | null; /** The details open from the first render (for tests and for looking at them). */ startOpen?: boolean }) {
   const t = useT();
   const locale = useLocale();
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(startOpen);
   const s = levelFromXp(xp);
   const after = stageAfter(s.level, s.stage);
   const n = (v: number) => v.toLocaleString(locale);
@@ -31,7 +31,14 @@ export function LevelCard({ xp, learn }: { xp: number; learn: LanguageCode | nul
     <section className="relative overflow-hidden rounded-[26px] p-5 text-white shadow-[0_18px_40px_-22px_rgba(8,47,62,.75)]"
              style={{ background: "linear-gradient(155deg, #0E7490 0%, #0A4B62 55%, #082F3E 100%)" }}>
       <div className="pointer-events-none absolute -end-10 -top-12 size-44 rounded-full opacity-60 blur-2xl" style={{ background: "radial-gradient(circle, #22D3EE 0%, transparent 70%)" }} aria-hidden />
-      <p className="relative text-[12px] font-semibold uppercase tracking-[0.1em] text-white/90">{t("xp.yourLevel", { language })}</p>
+      <div className="relative flex items-start justify-between gap-3">
+        <p className="pt-1 text-[12px] font-semibold uppercase tracking-[0.1em] text-white/90">{t("xp.yourLevel", { language })}</p>
+        {/* The details (what the level means, and how to earn XP) are one tap away, so the card stays short. */}
+        <button type="button" onClick={() => setOpen((o) => !o)} aria-expanded={open} aria-label={t("cando.title", { code: s.code })}
+                className="-me-2 -mt-2 grid size-11 shrink-0 place-items-center rounded-full active:bg-white/10">
+          <span className={`grid size-7 place-items-center rounded-full border text-[15px] font-bold leading-none transition-colors ${open ? "border-white bg-white text-[#0E7490]" : "border-white/60 text-white"}`} aria-hidden>?</span>
+        </button>
+      </div>
 
       <div className="relative mt-3 flex items-end gap-3.5">
         <div dir="ltr" className="shrink-0"><DotNumber value={s.level} cell={8} color="#67E8F9" glow={false} field fieldColor="rgba(255,255,255,.07)" label={s.level} /></div>
@@ -59,30 +66,27 @@ export function LevelCard({ xp, learn }: { xp: number; learn: LanguageCode | nul
         )}
       </div>
 
-      {/* What a reader at this stage can do, and what the next stage adds. */}
-      <div className="relative mt-4 rounded-[18px] bg-white/10 p-4">
-        <p className="text-[11.5px] font-bold uppercase tracking-[0.1em] text-[#67E8F9]">{t("cando.title", { code: s.code })}</p>
-        <p className="mt-1.5 text-[14px] leading-snug">{t(CAN_DO(s.code))}</p>
-        {after && (
-          <div className="mt-3 border-t border-white/15 pt-3">
-            <p className="text-[11.5px] font-bold uppercase tracking-[0.1em] text-white/85">{t("cando.next", { code: stageCode(after.level, after.stage) })}</p>
-            <p className="mt-1 text-[13px] leading-snug text-white/90">{t(CAN_DO(stageCode(after.level, after.stage)))}</p>
-          </div>
-        )}
-      </div>
-
-      <button type="button" onClick={() => setOpen((o) => !o)} aria-expanded={open}
-              className="relative mt-3 flex h-11 w-full items-center justify-between gap-2 rounded-xl text-[13px] font-semibold text-white/85 active:opacity-70">
-        <span>{t("xp.how")}</span>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className={`size-4 transition-transform ${open ? "rotate-180" : ""}`} aria-hidden><path d="M6 9l6 6 6-6" /></svg>
-      </button>
+      {/* What a reader at this stage can do, what the next stage adds, and how XP is earned: shown on request. */}
       {open && (
-        <ul className="relative mt-1 space-y-2 border-t border-white/15 pt-3 text-[13px] leading-snug text-white/90">
-          <li>{t("xp.howPage", { xp: XP.page, half: XP.pageBelow })}</li>
-          <li>{t("xp.howFinish", { xp: XP.finishPerPage })}</li>
-          <li>{t("xp.howDaily", { xp: XP.firstOfDay })}</li>
-          <li className="text-white/65">{t("xp.howSoon")}</li>
-        </ul>
+        <div className="relative mt-4 rounded-[18px] bg-white/10 p-4">
+          <p className="text-[11.5px] font-bold uppercase tracking-[0.1em] text-[#67E8F9]">{t("cando.title", { code: s.code })}</p>
+          <p className="mt-1.5 text-[14px] leading-snug">{t(CAN_DO(s.code))}</p>
+          {after && (
+            <div className="mt-3 border-t border-white/15 pt-3">
+              <p className="text-[11.5px] font-bold uppercase tracking-[0.1em] text-white/85">{t("cando.next", { code: stageCode(after.level, after.stage) })}</p>
+              <p className="mt-1 text-[13px] leading-snug text-white/90">{t(CAN_DO(stageCode(after.level, after.stage)))}</p>
+            </div>
+          )}
+          <div className="mt-3 border-t border-white/15 pt-3">
+            <p className="text-[11.5px] font-bold uppercase tracking-[0.1em] text-white/85">{t("xp.how")}</p>
+            <ul className="mt-1.5 space-y-2 text-[13px] leading-snug text-white/90">
+              <li>{t("xp.howPage", { xp: XP.page, half: XP.pageBelow })}</li>
+              <li>{t("xp.howFinish", { xp: XP.finishPerPage })}</li>
+              <li>{t("xp.howDaily", { xp: XP.firstOfDay })}</li>
+              <li className="text-white/65">{t("xp.howSoon")}</li>
+            </ul>
+          </div>
+        </div>
       )}
     </section>
   );

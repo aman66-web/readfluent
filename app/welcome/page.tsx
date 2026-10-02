@@ -4,7 +4,7 @@ import "./welcome.css";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { FirstScreen } from "@/components/welcome/FirstScreen";
-import { GoScreen, HeardScreen, HelloScreen, QuickScreen, WhyScreen } from "@/components/onboarding/Questions";
+import { GoScreen, HeardScreen, HelloScreen, QuickScreen } from "@/components/onboarding/Questions";
 import { ReadyScreen } from "@/components/onboarding/Ready";
 import { PathScreen, PledgeScreen, TimeScreen } from "@/components/onboarding/Plan";
 import { AppLanguageScreen } from "@/components/onboarding/AppLanguage";
@@ -17,7 +17,7 @@ import { TourScreen } from "@/components/onboarding/Tour";
 import { display, jakarta } from "@/lib/fonts";
 import { markOnboarded } from "@/lib/onboarding";
 import {
-  ANSWERS_KEY, WHY_IDS, parseAnswers, saveAnswers, toggleIn,
+  ANSWERS_KEY, parseAnswers, saveAnswers,
 } from "@/lib/onboarding/answers";
 import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { reportFirstRun } from "@/lib/onboarding/report";
@@ -123,9 +123,6 @@ function Welcome() {
       <LevelScreen {...nav} learn={a.learn} value={a.level} placed={a.placed}
                    onPick={(level) => saveAnswers({ level, placed: false })} />
     );
-  }
-  if (step === "why") {
-    return <WhyScreen {...nav} learn={a.learn} value={a.why} onToggle={(w) => saveAnswers({ why: toggleIn(WHY_IDS, a.why, w) })} />;
   }
   if (step === "heard") {
     return (

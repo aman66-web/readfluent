@@ -344,7 +344,7 @@ const it: Catalog = {
   "library.versions": "{category} · 9 versioni",
   "library.soon": "In arrivo",
   "library.soonLabel": "{category}: in arrivo",
-  "library.preview": "Anteprima: per ora un solo libro. La biblioteca completa ne avrà 270.",
+  "library.preview": "Anteprima: per ora cinque libri. La biblioteca completa ne avrà 200.",
   "book.back": "Torna alla biblioteca",
   "book.by": "di {author}",
   "book.inspired": "Ispirato a {author}",

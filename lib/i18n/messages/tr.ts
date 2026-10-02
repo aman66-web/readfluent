@@ -312,7 +312,7 @@ const tr: Catalog = {
   "library.versions": "{category} · 9 sürüm",
   "library.soon": "Yakında",
   "library.soonLabel": "{category}: yakında",
-  "library.preview": "Önizleme: şimdilik tek kitap. Tam kütüphanede 270 kitap olacak.",
+  "library.preview": "Önizleme: şimdilik beş kitap. Tam kütüphanede 200 kitap olacak.",
   "book.back": "Kütüphaneye dön",
   "book.by": "Yazar: {author}",
   "book.inspired": "{author} eserinden esinlenildi",

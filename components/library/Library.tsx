@@ -5,10 +5,10 @@ import { useState } from "react";
 import { BookCover } from "@/components/BookCover";
 import { CATEGORIES, categoryById, type CategoryId } from "@/lib/content/limits";
 import { useT } from "@/lib/i18n/react";
-import type { PreviewBook } from "@/lib/preview/catalog";
+import { coverAuthor, type PreviewBook } from "@/lib/preview/catalog";
 
 /** Categories shown as "coming soon" in the all-books view, so the shape of the full library is visible. */
-const SOON_IN_ALL: CategoryId[] = ["crime", "fantasy-scifi", "self-help", "history", "science"];
+const SOON_IN_ALL: CategoryId[] = ["self-help", "history"];
 
 export function Library({ books }: { books: PreviewBook[] }) {
   const t = useT();
@@ -41,9 +41,9 @@ export function Library({ books }: { books: PreviewBook[] }) {
         {shown.map((b) => (
           <li key={b.slug}>
             <Link href={`/book/${b.slug}`} className="block active:opacity-80">
-              <BookCover title={b.title} author={b.author} hue={categoryById(b.category)?.hue ?? 30} />
+              <BookCover title={b.title} author={coverAuthor(b)} hue={categoryById(b.category)?.hue ?? 30} />
               <p className="mt-2 text-[14px] font-semibold leading-tight">{b.title}</p>
-              <p className="text-[12px] text-faint">{t("library.versions", { category: t(`cat.${b.category}`) })}</p>
+              <p className="text-[12px] text-faint">{t(`cat.${b.category}`)}</p>
             </Link>
           </li>
         ))}

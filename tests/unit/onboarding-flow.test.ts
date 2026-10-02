@@ -17,9 +17,9 @@ vi.mock("@capacitor/core", () => ({ Capacitor: { isNativePlatform: () => false, 
 const read = (p: string) => readFileSync(new URL(`../../${p}`, import.meta.url), "utf8");
 
 describe("the steps", () => {
-  it("are the first run's twenty-one, in order, with the app's language first and the library last", () => {
-    expect(STEP_IDS).toHaveLength(21);
-    expect(new Set(STEP_IDS).size).toBe(21);
+  it("are the first run's twenty, in order, with the app's language first and the library last", () => {
+    expect(STEP_IDS).toHaveLength(20);
+    expect(new Set(STEP_IDS).size).toBe(20);
     expect(STEP_IDS[0]).toBe("app");
     expect(STEP_IDS[1]).toBe("intro");
     expect(STEP_IDS[STEP_IDS.length - 1]).toBe("ready");
@@ -42,8 +42,8 @@ describe("the steps", () => {
   });
 
   it("open any step by name, and the first for anything else", () => {
-    expect(stepIndex("why")).toBe(STEP_IDS.indexOf("why"));
-    for (const bad of [null, undefined, "", "nope", "WHY", "focus", "__proto__"]) expect(stepIndex(bad as string), String(bad)).toBe(0);
+    expect(stepIndex("heard")).toBe(STEP_IDS.indexOf("heard"));
+    for (const bad of [null, undefined, "", "nope", "HEARD", "why", "focus", "__proto__"]) expect(stepIndex(bad as string), String(bad)).toBe(0);
   });
 
   it("send a provider sign-in back to steps that exist", () => {
@@ -138,7 +138,6 @@ describe("every screen renders", () => {
     const mk = (c: unknown, props: object) => renderToStaticMarkup(createElement(c as never, props as never));
     return {
       hello: mk(q.HelloScreen, nav),
-      why: mk(q.WhyScreen, { ...nav, learn: "es", value: ["work"], onToggle: () => {} }),
       heard: mk(q.HeardScreen, { ...nav, value: "other", other: "", onPick: () => {}, onOther: () => {} }),
       time: mk(p.TimeScreen, { ...nav, learn: "es", value: 20, onPick: () => {} }),
       path: mk(p.PathScreen, { ...nav, level: "A1", minutes: 20 }),
@@ -160,8 +159,6 @@ describe("every screen renders", () => {
     const text = (s: string) => s.replace(/<[^>]+>/g, "");
     expect(text(h.hello)).toContain("I&#x27;m Dewey. Welcome to ReadFluent!");
     expect(h.hello).not.toContain("role=\"progressbar\"");
-    expect(text(h.why)).toContain("Why are you learning Spanish?");
-    for (const label of ["Talk with friends and family", "Travel", "My job or business", "School or exams", "Move or live abroad", "Books, films and music", "Just for fun", "Other"]) expect(text(h.why)).toContain(label);
     expect(text(h.heard)).toContain("How did you hear about ReadFluent?");
     expect(text(h.time)).toContain("How much time can you commit to learning Spanish each day?");
     for (const m of ["10", "15", "20", "30", "45", "60"]) expect(h.time).toContain(`aria-label="${m} minutes"`);
@@ -177,6 +174,9 @@ describe("every screen renders", () => {
     expect(text(h.tongues)).toContain("You can change this any time, and your progress is always saved.");
     expect(text(h.account)).toContain("Sign in or sign up");
     expect(text(h.interests)).toContain("What are you curious about?");
+    // One card for each of the nine shelves, each with its own picture.
+    for (const label of ["Romance", "Crime", "Fantasy & sci-fi", "Self-help", "Business & money", "Religion & spirituality", "Health", "History", "Science"]) expect(text(h.interests).replace(/&amp;/g, "&")).toContain(label);
+    expect((h.interests.match(/aspect-\[16\/9\]/g) ?? []).length).toBe(9);
     expect(text(h.ready)).toContain("Building your library");
   });
 

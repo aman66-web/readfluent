@@ -4,7 +4,7 @@
  * Which language the app itself is in (so the rest can be read) → the welcome (a wall
  * of book covers) → Dewey says hello → Dewey says how quick it will be → Dewey celebrates and the run moves on by itself → which languages (the one you speak and the
  * one you want to learn) → how much of it you know (or a
- * five-minute test that finds out) → why they are learning → where they
+ * five-minute test that finds out) → where they
  * heard of it → how much time a day they can give it → how
  * long that takes to reach each level → a five-screen tour → a promise → Dewey asks to be added to the home screen → Dewey shows what three months of it adds up to → sign in → what you are
  * curious about → the library being set up. Every step after the welcome can be
@@ -14,14 +14,14 @@
  * its screens and its copy rewritten for reading.
  */
 export const STEP_IDS = [
-  "app", "intro", "hello", "quick", "go", "tongues", "level", "why", "heard", "time", "path",
+  "app", "intro", "hello", "quick", "go", "tongues", "level", "heard", "time", "path",
   "journey", "levels", "words", "remember", "connect",
   "pledge", "home", "account", "interests", "ready",
 ] as const;
 export type StepId = (typeof STEP_IDS)[number];
 
 /** The steps that ask the reader something before they are in the app. Dewey says how many ("just 6 quick questions"), so the number is counted here, not written. */
-export const QUESTION_STEPS = ["tongues", "level", "why", "heard", "time", "interests"] as const satisfies readonly StepId[];
+export const QUESTION_STEPS = ["tongues", "level", "heard", "time", "interests"] as const satisfies readonly StepId[];
 
 /** Steps that play by themselves and move on: Back skips over them rather than landing on one that would run again. */
 export const INTERLUDE_STEPS = ["go"] as const satisfies readonly StepId[];

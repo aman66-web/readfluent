@@ -315,7 +315,7 @@ const ar: Catalog = {
   "library.versions": "{category} · 9 نسخ",
   "library.soon": "قريبًا",
   "library.soonLabel": "{category}: قريبًا",
-  "library.preview": "نسخة تجريبية: كتاب واحد حتى الآن. ستضم المكتبة الكاملة 270 كتابًا.",
+  "library.preview": "نسخة تجريبية: خمسة كتب حتى الآن. ستضم المكتبة الكاملة 200 كتاب.",
   "book.back": "العودة إلى المكتبة",
   "book.by": "تأليف {author}",
   "book.inspired": "مستوحى من {author}",

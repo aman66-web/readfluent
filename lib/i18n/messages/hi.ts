@@ -345,7 +345,7 @@ const hi: Catalog = {
   "library.versions": "{category} · 9 संस्करण",
   "library.soon": "जल्द आ रहा है",
   "library.soonLabel": "{category}: जल्द आ रहा है",
-  "library.preview": "झलक: अभी सिर्फ़ एक किताब। पूरी लाइब्रेरी में 270 होंगी।",
+  "library.preview": "झलक: अभी सिर्फ़ पाँच किताबें। पूरी लाइब्रेरी में 200 होंगी।",
   "book.back": "लाइब्रेरी पर वापस",
   "book.by": "{author} द्वारा",
   "book.inspired": "{author} से प्रेरित",

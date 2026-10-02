@@ -11,7 +11,7 @@ const text = (s: string) => s.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
 describe("the dashboard's level card", () => {
   it("shows the level, the bar to the next, and what is left", async () => {
     const { LevelCard } = await import("@/components/home/LevelCard");
-    const html = renderToStaticMarkup(createElement(LevelCard, { xp: 30_000, learn: "es" }));
+    const html = renderToStaticMarkup(createElement(LevelCard, { xp: 30_000, learn: "es", startOpen: true }));
     const t = text(html);
     expect(t).toContain("Your Spanish level");
     expect(t).toContain("Elementary");
@@ -30,17 +30,17 @@ describe("the dashboard's level card", () => {
 
   it("says midway through a level, and moves on to the next level's first stage after the third", async () => {
     const { LevelCard } = await import("@/components/home/LevelCard");
-    const mid = text(renderToStaticMarkup(createElement(LevelCard, { xp: 74_000, learn: "es" })));
+    const mid = text(renderToStaticMarkup(createElement(LevelCard, { xp: 74_000, learn: "es", startOpen: true })));
     expect(mid).toContain("B1.2 · Midway");
     expect(mid).toContain("Next, at B1.3");
-    const late = text(renderToStaticMarkup(createElement(LevelCard, { xp: 90_000, learn: "es" })));
+    const late = text(renderToStaticMarkup(createElement(LevelCard, { xp: 90_000, learn: "es", startOpen: true })));
     expect(late).toContain("B1.3 · Late");
     expect(late).toContain("Next, at B2.1");
   });
 
   it("has a top: C2 says so and has no next level", async () => {
     const { LevelCard } = await import("@/components/home/LevelCard");
-    const t = text(renderToStaticMarkup(createElement(LevelCard, { xp: 300_000, learn: null })));
+    const t = text(renderToStaticMarkup(createElement(LevelCard, { xp: 300_000, learn: null, startOpen: true })));
     expect(t).toContain("reached the top level");
     expect(t).not.toContain("to C2");
     expect(t).toContain("What you can do at C2");

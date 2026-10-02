@@ -7,7 +7,7 @@ export interface ReaderPage {
   n: number;
   text: string;
   scene: number;
-  target?: { translation: string; keys: KeyPair[]; art: ArtId; bg: string };
+  target?: { translation: string; keys: KeyPair[]; /** The object picture the template used for this page; without one the page has the scene picture like any other. */ art?: ArtId; bg?: string };
 }
 
 /** A version of the book in one language. Word cards need a dictionary; a version without one is plain reading. */

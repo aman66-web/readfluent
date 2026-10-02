@@ -17,7 +17,7 @@ const serverChoiceRaw = () => "";
  * "Read" → choose a level → choose a length → read (SPEC.md §2). The last choice
  * for each book is remembered on the device and offered again.
  */
-export function ReadSheet({ slug, title }: { slug: string; title: string }) {
+export function ReadSheet({ slug, title, lengths }: { slug: string; title: string; lengths: readonly Length[] }) {
   const t = useT();
   const router = useRouter();
   const [open, setOpen] = useState(false);
@@ -91,7 +91,7 @@ export function ReadSheet({ slug, title }: { slug: string; title: string }) {
                 <h2 className="text-[20px] font-bold tracking-[-0.01em]">{t("sheet.chooseLength")}</h2>
                 <p className="mt-0.5 text-[13px] text-muted">{t("sheet.lengthSub")}</p>
                 <ul className="mt-4 space-y-2.5">
-                  {LENGTHS.map((l) => (
+                  {LENGTHS.filter((l) => lengths.includes(l.pages)).map((l) => (
                     <li key={l.pages}>
                       <button
                         onClick={() => level && start(level, l.pages)}

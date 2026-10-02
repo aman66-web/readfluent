@@ -347,7 +347,7 @@ const uk: Catalog = {
   "library.versions": "{category} · 9 версій",
   "library.soon": "Незабаром",
   "library.soonLabel": "{category}: незабаром",
-  "library.preview": "Превʼю: поки що одна книжка. У повній бібліотеці буде 270.",
+  "library.preview": "Превʼю: поки що пʼять книжок. У повній бібліотеці буде 200.",
   "book.back": "Назад до бібліотеки",
   "book.by": "автор: {author}",
   "book.inspired": "За мотивами: {author}",

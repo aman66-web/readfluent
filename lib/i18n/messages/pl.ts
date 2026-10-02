@@ -347,7 +347,7 @@ const pl: Catalog = {
   "library.versions": "{category} · 9 wersji",
   "library.soon": "Wkrótce",
   "library.soonLabel": "{category}: wkrótce",
-  "library.preview": "Podgląd: na razie jedna książka. Pełna biblioteka będzie miała 270.",
+  "library.preview": "Podgląd: na razie pięć książek. Pełna biblioteka będzie miała 200.",
   "book.back": "Wróć do biblioteki",
   "book.by": "autor: {author}",
   "book.inspired": "Inspirowane: {author}",
