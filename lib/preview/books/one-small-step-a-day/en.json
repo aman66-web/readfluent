@@ -1,417 +1,1639 @@
 {
-  "slug": "one-small-step-a-day",
-  "meta": {
-    "blurb": "Priya's New Year list of big goals lasts until February. Then her neighbour Sam hands her a cup of tea and a smaller idea, one step so small it feels silly. Can a minute a day really change a life?",
-    "bible": "Priya: a busy office worker in her thirties who wants to read more and get fitter; kind, funny, easily discouraged by big plans. Mei: Priya's friend, who learns ten Spanish words a day. Sam: her neighbour and friend, a retired teacher who gives calm advice. The book is practical self-help for adults, with one idea in each beat, building to a final takeaway. Key terms: Motivation, Habit, Anchor (a daily moment that already happens, which a new step follows), Friction, Calendar, Plateau. One real study is mentioned, carefully: researchers in London who followed volunteers found that forming a new habit took about two months on average, with a wide range from person to person. No other studies or numbers are invented. Voice and tone: warm, concrete, encouraging, never bossy."
+ "slug": "one-small-step-a-day",
+ "meta": {
+  "blurb": "Priya's New Year list of big goals lasts until February. Then her neighbour Sam hands her a cup of tea and a smaller idea, one step so small it feels silly. Can a minute a day really change a life?",
+  "bible": "Priya: a busy office worker in her thirties who wants to read more and get fitter; kind, funny, easily discouraged by big plans. Mei: Priya's friend, who learns ten Spanish words a day. Sam: her neighbour and friend, a retired teacher who gives calm advice. The book is practical self-help for adults, with one idea in each beat, building to a final takeaway. Key terms: Motivation, Habit, Anchor (a daily moment that already happens, which a new step follows), Friction, Calendar, Plateau. One real study is mentioned, carefully: researchers in London who followed volunteers found that forming a new habit took about two months on average, with a wide range from person to person. No other studies or numbers are invented. Voice and tone: warm, concrete, encouraging, never bossy. Added for the full-length book: Dev: Priya's older brother, who lives in another town, and his daughter Ada, aged eight. Jo: a colleague at Priya's office who makes jokes about her plans. Priya's late mother loved reading in the garden. Sam plays the piano for five minutes every day and took about two years to play one whole tune. Priya's step is to read one page after pouring her morning coffee; she keeps a wall calendar and a pencil by the fridge. Priya moves to a flat five minutes away from Sam's house. By the next New Year's Eve she has read about ten books. Keywords: Willpower, Routine, Review. The thin blue book: a paperback of short stories that Priya reads first; after it she borrows novels from the library. Sam gives Priya a wooden bookmark carved with the words next page. Priya's habit starts at the end of February, her hundredth day falls in June, and the book ends on New Year's morning. Priya reads one page after she pours her coffee; in the new flat the anchor is switching on the kettle. After reading she stretches for one minute, and later she starts a morning walk.",
+  "chapters": [
+   "The List in the Drawer",
+   "Tea Over the Fence",
+   "A Path in the Grass",
+   "Just One Thing",
+   "Shrinking the Step",
+   "The Anchor",
+   "Easy to See",
+   "The Phone in the Drawer",
+   "A Good Feeling at the End",
+   "The Missed Day",
+   "Telling Someone",
+   "Rest and Room",
+   "The Crisps Problem",
+   "Growing Slowly",
+   "Small Time, Big Sum",
+   "When Life Gets in the Way",
+   "Proof You Can Count On",
+   "Cake for a Hundred Days",
+   "The Flat Stretch",
+   "Sunrise at the Door"
+  ]
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "Priya writes a long list of big goals on New Year's Eve",
+   "summary": "On New Year's Eve, Priya writes a long list of big goals and feels sure this year will be different."
   },
-  "beats": [
-    {
-      "n": 1,
-      "scene": "Priya writes a long list of big goals on New Year's Eve",
-      "summary": "Priya writes an ambitious list of resolutions that she will drop by February."
-    },
-    {
-      "n": 2,
-      "scene": "A shiny gym bag sits unused by the front door",
-      "summary": "Motivation is strong on day one but rises and falls like the weather."
-    },
-    {
-      "n": 3,
-      "scene": "Priya sits tired on her sofa while a thick book gathers dust",
-      "summary": "A big plan asks too much of a tired person on an ordinary day."
-    },
-    {
-      "n": 4,
-      "scene": "Sam hands Priya a cup of tea over a garden fence",
-      "summary": "Sam, a wise neighbour, suggests a smaller way: one step so small it feels silly."
-    },
-    {
-      "n": 5,
-      "scene": "Priya stands in her kitchen holding a one-page book and a pair of shoes",
-      "summary": "A small step is an action that takes a minute or two and feels easy."
-    },
-    {
-      "n": 6,
-      "scene": "A faint footpath cuts across a green field",
-      "summary": "Walking the same way again and again wears a path into the grass."
-    },
-    {
-      "n": 7,
-      "scene": "A person walks easily along a path through a field",
-      "summary": "The brain likes shortcuts, so repeated actions slowly become automatic."
-    },
-    {
-      "n": 8,
-      "scene": "Priya looks at a calendar with two months circled in pencil",
-      "summary": "Researchers found that a new habit took about two months on average, with a wide range."
-    },
-    {
-      "n": 9,
-      "scene": "Priya taps one finger on a notebook that says “one habit”",
-      "summary": "Start with only one habit; many at once will crush you."
-    },
-    {
-      "n": 10,
-      "scene": "Priya looks at a photo of her late mother reading in a garden",
-      "summary": "Choose a habit you truly want, with a reason that matters to you."
-    },
-    {
-      "n": 11,
-      "scene": "Priya's finger rests on the first page of a thin paperback",
-      "summary": "The step is shrunk to the smallest version: read one page."
-    },
-    {
-      "n": 12,
-      "scene": "Priya lays out running shoes, a book and a glass of water",
-      "summary": "Other tiny steps: put on shoes, write one sentence, do one push-up."
-    },
-    {
-      "n": 13,
-      "scene": "Priya checks a kitchen timer showing sixty seconds",
-      "summary": "A good small step takes about a minute or two, never more."
-    },
-    {
-      "n": 14,
-      "scene": "Priya pours her morning coffee while a book waits on the counter",
-      "summary": "Link the new step to something you already do every day: an anchor."
-    },
-    {
-      "n": 15,
-      "scene": "Priya leaves a book on her pillow and her shoes by the door",
-      "summary": "Make the step easy to see: put the book and shoes where you cannot miss them."
-    },
-    {
-      "n": 16,
-      "scene": "Priya wipes dust from a shelf and puts her book on top",
-      "summary": "Every extra step between you and a habit is friction; remove as much as you can."
-    },
-    {
-      "n": 17,
-      "scene": "Priya puts her phone in a drawer across the room",
-      "summary": "Add friction to habits you want to reduce: put the phone in another room."
-    },
-    {
-      "n": 18,
-      "scene": "Priya smiles and drinks a warm cup of tea after reading",
-      "summary": "Finish with something pleasant so the brain connects the step with a good feeling."
-    },
-    {
-      "n": 19,
-      "scene": "Priya draws a cross on a wall calendar",
-      "summary": "Mark each day on a calendar; a visible chain of crosses is motivating."
-    },
-    {
-      "n": 20,
-      "scene": "Priya looks at an empty square on the calendar, feeling guilty",
-      "summary": "One missed day will happen; it is normal and does not erase your progress."
-    },
-    {
-      "n": 21,
-      "scene": "Priya picks up her book the next morning, smiling again",
-      "summary": "After a miss, restart quickly: the real danger is a second missed day."
-    },
-    {
-      "n": 22,
-      "scene": "Priya tears a perfect plan in half and smiles",
-      "summary": "The all-or-nothing trap makes people quit after one mistake; a small imperfect step beats no step."
-    },
-    {
-      "n": 23,
-      "scene": "Priya and Sam share a bench and look at her calendar",
-      "summary": "Telling a friend about your habit helps you keep it."
-    },
-    {
-      "n": 24,
-      "scene": "Priya sleeps in a dark, quiet bedroom with a book beside her bed",
-      "summary": "Rest matters: it is much easier to keep habits when you have enough energy."
-    },
-    {
-      "n": 25,
-      "scene": "A fruit bowl glows on a clean kitchen table",
-      "summary": "Your surroundings shape your choices; a fruit bowl invites an apple."
-    },
-    {
-      "n": 26,
-      "scene": "Priya cleans a corner of her room with a chair and a lamp",
-      "summary": "Give each habit its own place, such as a reading chair."
-    },
-    {
-      "n": 27,
-      "scene": "Priya writes down what happens before she opens a bag of crisps",
-      "summary": "To change a bad habit, notice what happens just before it."
-    },
-    {
-      "n": 28,
-      "scene": "Priya swaps a bag of crisps for a bowl of popcorn",
-      "summary": "Replace a bad habit with another that meets the same need."
-    },
-    {
-      "n": 29,
-      "scene": "Priya sits on the sofa at night, bored and tired",
-      "summary": "Bad habits often start with boredom, stress or tiredness; name the feeling."
-    },
-    {
-      "n": 30,
-      "scene": "Priya sits quietly with her eyes closed and a clock ticking",
-      "summary": "Urges often rise and then fade; waiting a few minutes can help."
-    },
-    {
-      "n": 31,
-      "scene": "Priya adds a second page to her book after two easy weeks",
-      "summary": "When a step feels easy for a while, make it a little bigger."
-    },
-    {
-      "n": 32,
-      "scene": "Priya reads just one line on a bad day, still smiling",
-      "summary": "On hard days, keep the tiny version: the habit matters more than the amount."
-    },
-    {
-      "n": 33,
-      "scene": "Priya begins to stretch beside her bed, while the book waits nearby",
-      "summary": "Add a second habit only when the first one feels steady."
-    },
-    {
-      "n": 34,
-      "scene": "Priya looks at a kettle that has not yet started to boil",
-      "summary": "Progress is often invisible for a while, like water slowly warming before it boils."
-    },
-    {
-      "n": 35,
-      "scene": "Priya counts ten minutes on a clock, then sixty hours on a wall chart",
-      "summary": "Small daily time adds up: ten minutes a day is about sixty hours a year."
-    },
-    {
-      "n": 36,
-      "scene": "Priya holds a thick novel with a bookmark near the end",
-      "summary": "One page a day is about three hundred and sixty-five pages a year, a long book."
-    },
-    {
-      "n": 37,
-      "scene": "Priya writes ten new words on a card each morning",
-      "summary": "Ten new words a day would be about thirty-six hundred words in a year."
-    },
-    {
-      "n": 38,
-      "scene": "Priya ticks a box that says “I did it” beside a chart",
-      "summary": "Judge yourself by what you did, not by how you feel that day."
-    },
-    {
-      "n": 39,
-      "scene": "Priya reads a page while rain falls on the window",
-      "summary": "On tired days, the routine carries you when motivation does not."
-    },
-    {
-      "n": 40,
-      "scene": "Priya opens her small suitcase in a hotel room and reads a page",
-      "summary": "Travel, illness and busy weeks break routines, so keep a tiny version going."
-    },
-    {
-      "n": 41,
-      "scene": "Priya moves into a new flat with boxes and a new kitchen",
-      "summary": "When life changes, build a new anchor, because the old one may be gone."
-    },
-    {
-      "n": 42,
-      "scene": "Priya looks at her row of crosses with quiet pride",
-      "summary": "Each time you act, you collect proof that you can keep a promise to yourself."
-    },
-    {
-      "n": 43,
-      "scene": "Priya looks at a sticky note that says “Be kind”",
-      "summary": "Be kind to yourself after a lapse; harsh self-criticism often makes quitting more likely."
-    },
-    {
-      "n": 44,
-      "scene": "Priya sits with a notebook and a cup of tea on Sunday evening",
-      "summary": "A short weekly review shows what works and what does not."
-    },
-    {
-      "n": 45,
-      "scene": "Priya swaps reading time from the evening to the morning",
-      "summary": "If a habit is not working, change the plan, not yourself."
-    },
-    {
-      "n": 46,
-      "scene": "Priya shares a slice of cake with Sam to mark one hundred days",
-      "summary": "Celebrate progress in small ways, so the habit stays enjoyable."
-    },
-    {
-      "n": 47,
-      "scene": "A family cooks together in a bright kitchen while a child reads",
-      "summary": "Habits shared with family or friends are easier to keep."
-    },
-    {
-      "n": 48,
-      "scene": "Priya waves goodbye to a pile of old magazines",
-      "summary": "Some habits no longer help you, and it is fine to let them go."
-    },
-    {
-      "n": 49,
-      "scene": "Priya looks at a year of calendar pages on the wall",
-      "summary": "A year of small steps can feel like a very different life."
-    },
-    {
-      "n": 50,
-      "scene": "Priya stands at her front door at sunrise with one shoe on",
-      "summary": "Choose one small step today, make it tiny, attach it to your day, and start."
-    }
-  ],
-  "levels": {
-    "A1A2": [
-      "On New Year's Eve, Priya writes a long list of big goals.",
-      "At first Priya feels strong, but the feeling does not last.",
-      "Big plans are hard when you come home tired after work.",
-      "Her neighbour Sam says, “Try something much smaller.”",
-      "A small step takes only one or two minutes to do.",
-      "A path in the grass is made by many small steps.",
-      "After many days, the walk begins to feel easy.",
-      "Studies say a new habit often takes about two months.",
-      "First, Priya chooses only one new habit to start.",
-      "Priya wants to read more because her mother loved books.",
-      "Priya makes her new step tiny: read one page each day.",
-      "Other tiny steps are to put on shoes or write one sentence.",
-      "A good small step takes less than two minutes.",
-      "Priya decides to read one page after she pours her coffee.",
-      "Priya puts her book on the table next to her chair.",
-      "Priya takes away anything that makes her habit harder.",
-      "Priya puts her phone in a drawer before she reads.",
-      "After reading her page, Priya smiles and enjoys her tea.",
-      "Every day, Priya puts a cross on her calendar.",
-      "One day, Priya forgets to read and feels bad.",
-      "The next day, Priya reads again and goes on.",
-      "Priya learns that a small step is better than no step.",
-      "Priya tells Sam about her calendar every Sunday.",
-      "Priya sleeps well, so she has more energy to read.",
-      "Priya puts a bowl of fruit on the kitchen table.",
-      "Priya makes a special corner in her room for reading.",
-      "Priya wants to eat less junk food, so she watches herself.",
-      "Priya finds a better snack for the same moment.",
-      "Priya sees that she eats when she feels tired or bored.",
-      "Priya waits a few minutes, and the wish goes away.",
-      "After two weeks, Priya reads two pages instead of one.",
-      "On a bad day, Priya reads only one line.",
-      "After two months, Priya starts a second small habit.",
-      "For a while, Priya cannot see any change.",
-      "Ten minutes a day is a lot over a whole year.",
-      "One page every day is a whole book in a year.",
-      "Priya's friend learns ten new words every day.",
-      "Priya counts what she does, not how she feels.",
-      "It rains, and Priya feels tired, but she still reads.",
-      "On a trip, Priya still reads one page in the hotel.",
-      "Priya moves to a new home and must find a new anchor.",
-      "Each page is a small promise that Priya keeps.",
-      "Priya misses two days but speaks kindly to herself.",
-      "Every Sunday, Priya thinks about her week.",
-      "Priya sees that evening reading is not working, so she changes it.",
-      "After one hundred days, Priya has a small party.",
-      "Priya's family starts a reading hour on Sundays.",
-      "Priya stops one old habit that no longer helps her.",
-      "A year later, Priya looks back and feels proud.",
-      "The takeaway: pick one tiny step, anchor it to your day, and begin today."
-    ],
-    "B1B2": [
-      "Every January, Priya writes a long list of big goals and promises herself that this year will be different. By the middle of February, the list is at the bottom of a drawer.",
-      "Motivation is strongest on the first day of a plan, when everything feels possible. However, it rises and falls like the weather, and a plan that needs it every single day will soon fail.",
-      "Priya's plan asks for an hour of exercise and an hour of study every evening. Most evenings she comes home tired, and an hour feels as heavy as a mountain.",
-      "Her neighbour Sam, a retired teacher, hears about the failed list and smiles kindly. He suggests a different way: choose one step so small that it feels almost silly.",
-      "A small step is an action that is easy to start and quick to finish. Reading one page, drinking one glass of water or doing five squats are all good examples.",
-      "Imagine a green field with no path across it. If many people walk the same way day after day, their feet slowly wear a clear line in the grass.",
-      "The brain likes to save energy, so it turns repeated actions into shortcuts. Once an action is automatic, it takes much less effort and thought.",
-      "Researchers in London once followed volunteers who were trying to form a new habit. On average it took about two months, but the time varied a great deal from person to person.",
-      "Sam warns Priya not to change her whole life at once. He says she should choose only one habit and give it all her attention for a while.",
-      "A habit lasts longer when it matters to you, so Sam asks Priya for her reason. She says she wants to read more, because her mother loved books and Priya misses sharing them.",
-      "Priya wants to read for an hour every evening, but Sam asks her to shrink the plan. In the end she decides on one page a day, which feels almost too easy to count.",
-      "Tiny steps can be found for almost any goal. You can put on your running shoes, write one sentence in a diary, or do a single push-up.",
-      "A good small step should take about a minute or two. If you cannot do it while tired, busy or stressed, it is still too big.",
-      "Sam calls this an anchor, a moment that already happens every day, such as pouring coffee or brushing teeth. Priya decides that after she pours her evening tea, she will read one page.",
-      "What we see around us often decides what we do every day. Priya puts her book on her pillow and her shoes next to the door, so that her small steps are easy to see.",
-      "Every small difficulty between you and a habit is a kind of friction. Priya searches for books in a messy pile, so she keeps one on the table.",
-      "Friction can also work in the opposite direction, which is useful for bad habits. To scroll less, Priya keeps her phone in a drawer across the room, so reaching for it takes real effort.",
-      "Habits grow faster when they feel good at the end. Priya finishes her page and then enjoys a warm drink, which gives her a small, happy reward.",
-      "Priya hangs a calendar on the wall and puts a cross on each day that she reads. Soon the crosses make a line, and she does not want to break it.",
-      "One evening Priya is ill and forgets to read, and the empty square on the calendar makes her feel bad. Sam tells her that one missed day is normal and does not erase what she has built.",
-      "Sam says the dangerous moment comes after the miss, because one lost day can easily turn into two. Priya reads her page the next morning, and the habit stays alive.",
-      "Many people think that if they cannot do a habit perfectly, they should not do it at all. This all-or-nothing thinking is a trap, because a small, imperfect step is always better than none.",
-      "Priya tells Sam about her calendar every Sunday, and he asks how the week went. Knowing that a friend will ask makes her a little more careful.",
-      "When we are tired, everything is harder, including good habits. Priya goes to bed a little earlier, and she finds that her new steps feel lighter.",
-      "Our surroundings quietly shape the choices that we make. If Priya wants to eat more fruit, she can put a bowl of apples on the table and keep sweets out of sight.",
-      "Priya clears a small corner of her living room and puts a chair and a lamp there. This is her reading place, and she uses it for nothing else.",
-      "Priya also has a bad habit: she eats junk food every night. To change it, she first watches what happens just before she opens the bag.",
-      "Priya notices that she wants something crunchy and comforting. Instead of fighting the wish, she chooses a bowl of plain popcorn.",
-      "Priya notices a pattern: she reaches for snacks when she feels bored, stressed or tired. Once she can name the feeling, she can look for other ways to care for herself.",
-      "When a strong wish comes, Priya waits five minutes before she acts. Urges often get weaker if you wait, so she lets the feeling rise and fall.",
-      "After a few weeks, Priya's one page feels very easy. She decides to read two pages, which is still a small step, and nothing is lost if she goes back to one.",
-      "Some days are very hard, and Priya has no energy. On those days, she reads just one line, because keeping the habit alive is more important than the amount.",
-      "After two months of steady reading, Priya feels ready for a new habit. She chooses to stretch for one minute each morning, and she does it right after she wakes.",
-      "In the third week, Priya feels that nothing is happening. Sam explains that a kettle is quiet for a long time while the water heats, before it finally boils.",
-      "Ten minutes a day may seem like almost nothing at all. Over one whole year, however, it adds up to about sixty hours of practice.",
-      "If Priya reads one page every day, she will read about three hundred and sixty-five pages in a year. That is about the size of a long and satisfying novel.",
-      "Priya's friend Mei wants to learn Spanish, so she studies ten new words every day. In a year, that is about thirty-six hundred words, which is a very large number.",
-      "On some days, Priya does not feel like a person who reads. She learns to judge herself by what she did, not by how she feels about it.",
-      "On a grey, rainy Monday, Priya feels no wish at all to read. However, the routine is stronger than the mood, and she reads her page without thinking about it.",
-      "When Priya travels for work, her normal routine disappears. In her hotel room, she reads a single page, and her chain stays unbroken.",
-      "Months later, Priya packs up her things and moves to a new flat. Her old anchor, the tea in her old kitchen, is gone, so she picks a new one: sitting down on the new sofa.",
-      "Each time Priya reads her page, she keeps a small promise to herself. Little by little, she begins to trust herself again.",
-      "Priya misses two days during a very busy week, and at first she calls herself lazy. Sam says that kindness works better than harsh words, so she smiles and starts again.",
-      "Every Sunday, Priya asks herself three questions: what went well, what was hard, and what should I change? It takes only five minutes and gives her a clear plan.",
-      "Priya finds that she is often too tired to read in the evening. She does not blame herself, but moves her reading to the morning instead.",
-      "After one hundred days of reading, Priya buys a cake and shares it with Sam. Small celebrations make the habit feel like something to look forward to.",
-      "Priya invites her sister and her nephew to read with her for ten minutes on Sundays. Reading together turns a private effort into a happy ritual.",
-      "Priya also learns that some habits are worth ending. She buys magazines every week but never reads them, so she stops, and her desk is tidier.",
-      "A year later, Priya looks at her wall of calendars and sees hundreds of crosses. She has read many books and moves with more energy, and she feels like a different person.",
-      "If you remember one thing, remember this: pick a step so small that you cannot say no, and attach it to something you do daily. Begin today, and if you miss a day, simply begin again tomorrow."
-    ],
-    "C1C2": [
-      "Every January, Priya filled a fresh page with ambitious goals: run a marathon, learn Italian, read fifty books, and finally become the organised person she imagined herself to be. By the middle of February, the page had slipped to the bottom of a drawer, and the old routines had quietly returned. This book is about why that keeps happening, and about a much gentler way to change.",
-      "Motivation is at its strongest on the first day of any plan, when the future looks bright and every obstacle seems small. It behaves, however, like the weather: it arrives without warning, lingers for a while, and leaves just when it is most needed. A plan that depends on feeling inspired every morning is therefore built on very shaky ground.",
-      "The trouble with Priya's plan was its size, since it demanded two full hours of effort from a woman who usually arrived home exhausted and hungry. On ordinary evenings, the task seemed as heavy as a mountain, and she looked for any excuse to put it off. Each skipped evening then made her feel a little more like a failure, and the next evening's plan seemed even harder to face.",
-      "Over a cup of tea across the garden fence, Sam, a retired teacher, listened to the story of the abandoned list and nodded with sympathy. He had watched many students make the same mistake, he said, and the cure was never more willpower but a smaller beginning. He asked her to try a single step so tiny that she could do it even on her worst day.",
-      "A small step is an action so modest that refusing it would feel almost ridiculous, and it should take no more than a minute or two. Reading a single page, drinking a glass of water, or doing five slow squats all qualify. The point is not what the step achieves today, but how easily it can be repeated tomorrow.",
-      "Picture a wide green field where nobody has ever walked, and imagine people crossing it from the same corner every morning. Within weeks their feet will have pressed a pale line into the grass, and soon newcomers will follow it without a second thought. A habit grows in much the same way, from small steps repeated in the same direction.",
-      "The human brain is a thrifty organ that is constantly looking for ways to save energy, and one of its favourite tricks is to turn repeated behaviour into an automatic routine. Once an action has become automatic, it demands very little thought and almost no willpower. That is why brushing your teeth now feels effortless, although it was once a tiresome task that somebody had to teach you.",
-      "In one well-known study, researchers in London followed volunteers who were trying to make a new action automatic. It took about two months on average, although the time varied widely, and some people needed much longer. The lesson is not to expect a magic number, but to be patient with yourself.",
-      "Priya was tempted to start five new habits at once, but Sam advised her to begin with only one. Every new action needs a little attention and energy, he explained, and those are limited, so it is wiser to spend them on one thing than to scatter them across many. When the first habit stands on its own, there will be time to add another.",
-      "Sam asked Priya why she wanted to read more, because a step that is connected to something you truly care about is much easier to repeat. After a pause, she admitted that her mother had always been reading, and that she herself had drifted away from books. Knowing her reason gave the small habit a warmth that a mere goal never had.",
-      "Priya's first idea was to read for an hour each evening, but Sam asked her to shrink it until it felt laughably easy. After some thought, she settled on a single page a day, which she could finish even when she was ill, late, or cross. If she wanted to read more once she had begun, she was free to do so, but one page was the promise.",
-      "Almost any large ambition, however grand, can be broken down into a tiny and manageable first step. Someone who wants to run can start by putting on their shoes, a would-be writer can produce a single sentence, and a person hoping to get stronger can manage one push-up. The magic lies in the fact that starting is far easier than continuing, and once you have started, you often carry on.",
-      "A good test for a small step is whether you could do it on your very worst day. If the answer is no, the step is still too big, and you should make it smaller until it takes a minute or two. Remember that you are laying down a path that you will walk for years, and that you are certainly not racing anybody to the end of it.",
-      "Sam suggested attaching the new step to an anchor, which is a moment that already happens every day without any effort, such as pouring coffee, locking the front door, or brushing your teeth. Priya decided that as soon as she poured her evening tea, she would read one page. In this way, the old habit became a signpost that pointed quietly towards the new one.",
-      "What we see often decides what we do, so Priya placed her book on her pillow and her running shoes beside the front door. Whenever she walked past them, they quietly reminded her of the promise she had made. A good reminder, after all, is one that does not itself need to be remembered by anybody.",
-      "Every little difficulty between you and a new habit acts like friction, slowing you down until you give up. Priya noticed that her book was always buried in a messy pile, and that her gym clothes were at the bottom of a laundry basket. By removing these small obstacles one by one, she turned the right choice into the easy and obvious one.",
-      "Friction works equally well in reverse, because you can make an unwanted habit a little harder to start. Priya, who tended to scroll for an hour each evening, began to leave her phone in a drawer on the other side of the room. The extra twelve steps were not much, but they gave her a moment to think before she reached for it.",
-      "A habit is easier to keep when it ends with something pleasant, because the mind remembers the feeling and wants to repeat it. After each page, Priya allowed herself a moment of quiet satisfaction and a warm drink. It sounds simple, but a small reward teaches the brain that the new behaviour is worth coming back to.",
-      "Priya hung a paper calendar above her desk and drew a cross on each day she read her page, using a thick blue pen. After a week, the neat row of crosses had become a kind of proof, and she felt a strange reluctance to leave a gap in it. Seeing her progress laid out so plainly turned out to be a surprisingly quiet and dependable source of energy.",
-      "One evening Priya fell asleep early with a pounding headache and missed her page. The empty square on the calendar made her feel guilty, as though she had broken a sacred rule. Sam told her gently that one missed day is almost certain to happen, and that it does very little damage to everything she had already built.",
-      "The real danger is not the missed day but the story we tell ourselves afterwards, which usually begins with “I have failed, so why continue?” Sam advised Priya to restart as quickly as she could, even with a tiny version of the step. A habit is rarely killed by one bad day, but it can be killed by giving up the next.",
-      "Many people fall into an all-or-nothing way of thinking: if they cannot follow their plan perfectly, they decide to drop it completely. This is a trap, because a small and imperfect step still keeps the path open. Half a page read on a bad night is worth far more than a perfect page that never happens.",
-      "Priya began to report to Sam every Sunday, showing him her row of crosses and describing how the week had gone. The friendly interest of another person is a gentle kind of pressure, and it also makes success more enjoyable. She discovered that a habit shared with someone is easier to carry than a habit hidden away.",
-      "Tired people find everything harder, including good habits, because the part of the mind that plans and resists temptation works best when it is rested. Priya began to go to bed half an hour earlier, and she found that her small steps felt noticeably lighter. Taking care of your sleep is, in a quiet way, taking care of every other habit.",
-      "Our surroundings quietly shape our choices, and they do so far more than we like to admit. A bowl of apples on the kitchen table makes fruit the easy option, while a cupboard full of sweets does the opposite. If you want a habit to survive, rearrange your space so that it favours the habit you want.",
-      "Priya cleared a corner of her living room and set up a comfortable chair beside a warm lamp. Because she used the spot only for reading, her mind soon learned to connect the place with the activity. Over time, the simple act of sitting down in that spot was enough to make her want to open the book and turn the page.",
-      "Priya also had a bad habit that she wanted to change, which was eating crisps late at night. Sam told her not to fight it yet, but to watch it closely and write down what happened just before she reached for the bag. Understanding what sets the habit off is the necessary first step towards changing the behaviour itself.",
-      "Priya noticed that the crisps satisfied a need for something crunchy and comforting at the end of a long day. Instead of banning them, which rarely works, she gave herself a better option for the same moment. It is much easier to replace a habit than to leave an empty space where it used to be.",
-      "After a week of notes, Priya noticed that her snacking usually followed one of three feelings: boredom, stress or tiredness. Naming the feeling was a small but powerful discovery, because it showed her that the snack was rarely about hunger. She could now ask what she really needed, and sometimes the answer was simply rest.",
-      "When a strong urge arrives, it often feels as if it will last forever, but it usually fades if you wait a little. Priya learned to say, “Let me wait five minutes,” and to do something else in the meantime. More often than not, the urge had passed before the five minutes had finished.",
-      "After several weeks, a single page had become so easy that Priya hardly noticed it. She decided to raise the bar slightly, to two pages, and she gave herself permission to return to one whenever life became difficult. Growth that is gradual enough to be comfortable is much more likely to last than a sudden leap.",
-      "On a terrible day, with a deadline looming and a headache building, Priya read only a single line of her book. It hardly counted as reading, but it kept the thread of her routine unbroken and her calendar free of gaps. On hard days, the habit itself matters far more than the amount that you manage to do.",
-      "When her reading had felt steady for about two months, Priya was finally ready to build a second habit. She chose to stretch her back for one minute each morning, tying it to the moment she switched off her alarm. By adding things one at a time, she never allowed her new life to become a burden.",
-      "In the third week, Priya felt that nothing was changing, and she began to wonder whether the effort was worth it. Sam compared her to a kettle that stays silent while the water slowly warms, and he reminded her that boiling comes only after all that unseen heating. The long, flat part of a journey is where most people give up, even though it is also where most of the work is being done.",
-      "Ten minutes a day sounds like almost nothing, yet over a full year it adds up to more than three thousand minutes, or about sixty hours. That is time enough to learn a great deal, and it hardly interferes with the rest of your life. Small amounts of effort, repeated faithfully over many months, produce surprisingly large and impressive totals.",
-      "A single page a day does not sound impressive, but over a year it adds up to about three hundred and sixty-five pages, which is the length of a long novel. Priya realised that she could finish a book without ever setting aside a special evening. Her mother, she thought with a smile, would have been delighted to see her turning pages again.",
-      "Priya's friend Mei decided to learn ten new words of Spanish every morning before she left for work. If she keeps it up for a year, she will have met about thirty-six hundred words, and she will recognise many more in the street and in songs. The effort each day is small, but the reward at the end is enormous.",
-      "Some days, Priya did not feel like a person who had a habit at all, and her mood told her loudly that she was a failure. Sam taught her to look at the evidence on the calendar instead of at her passing feelings. Facts, he said, are a far more reliable and far fairer judge than any bad mood could ever be.",
-      "One grey Monday, Priya felt no desire whatsoever to read, and an hour earlier she would have called that a good reason to skip it. The routine, however, was stronger than the mood, and she found the book open in her hands before she had made a decision. This is exactly what a habit is for: it works when motivation does not.",
-      "When Priya travelled for work, nearly everything in her daily routine disappeared: the kitchen, the chair, the tea. She kept her habit alive by reading one page on the train and one in her hotel room, even though the conditions were far from ideal. A tiny version of a habit, unlike a grand plan, can travel almost anywhere without any fuss.",
-      "Months later Priya moved to a new flat, and her old anchor, the evening tea in the old kitchen, was suddenly gone. For a few days her habit wobbled, until Sam reminded her to build a new anchor in the new surroundings. She chose to read as soon as she sat down on the sofa after dinner, and the habit quickly steadied itself.",
-      "Every single time Priya read her page, she kept a small and private promise to herself. Over several months, those promises added up to something she had not felt for years, which was a quiet trust in her own word. That trust became a quiet strength, and she soon found herself using it in many other parts of her life.",
-      "After a very busy week, Priya found that she had missed two days in a row, and she began to scold herself unkindly. Sam told her that harsh self-criticism often makes people quit, while a kind attitude helps them return. Researchers who study self-compassion tend to agree with him, although more work is still needed before anyone can be certain.",
-      "Every Sunday evening, Priya asked herself three simple questions: what went well, what was hard, and what should I change next week? The review took only five minutes, but it turned vague feelings into clear information. A habit that is reviewed regularly can be steadily improved, instead of simply being endured until the day it fails.",
-      "When the review showed that Priya was often too tired to read in the evening, she did not blame her character. She moved her reading to the morning, before the day had a chance to eat up her energy. When a plan fails, the fault usually lies in the design and not in the person.",
-      "When Priya reached one hundred days of reading, she bought a small cake and shared it with Sam on the garden bench. Celebrating a milestone does not have to be extravagant or costly, but it does help the mind associate effort with enjoyment. In the long run, a habit that brings real joy is far more likely to survive than one that is performed through gritted teeth.",
-      "Priya invited her sister and her young nephew to join her for ten minutes of reading on Sunday afternoons. What had been a private effort became a shared ritual, and the little boy was soon asking for stories of his own. Habits that are shared are usually easier to keep, and they spread kindness through a home.",
-      "Priya also learned, to her surprise, that not every habit deserves to be kept. She had bought a magazine every week for years out of nothing more than routine, and it now sat unread in a pile on her desk. Letting it go gave her a little more money, a lot more space, and the peace of a decision made on purpose.",
-      "A year later, Priya stood in front of a wall covered with calendars and counted the crosses that marked her days. She had read nine books, grown stronger, and found a quiet confidence that no resolution had ever given her. None of it had come from a dramatic leap, but from a long line of small, ordinary mornings.",
-      "Here is the whole lesson in a few lines: choose one tiny step, link it to a moment that already exists in your day, and make it easy to see and pleasant to finish. Be patient on slow days, kind on bad days, and curious about what is working. Then begin today, and when tomorrow comes, begin again with the same small step and the same patient smile."
-    ]
+  {
+   "n": 2,
+   "scene": "A new gym bag, running shoes and a planner on a kitchen table",
+   "summary": "On the first day Priya is full of energy and buys everything her plan needs."
+  },
+  {
+   "n": 3,
+   "scene": "Priya jogs through a cold park at dawn with her breath misting",
+   "summary": "In the first week Priya keeps her whole plan and feels proud."
+  },
+  {
+   "n": 4,
+   "scene": "A hand reaches from a warm bed to switch off an alarm",
+   "summary": "In the second week rain and a late night make Priya skip her first run."
+  },
+  {
+   "n": 5,
+   "scene": "A shiny gym bag sits unused by the front door",
+   "summary": "Motivation fades, and the new gym bag waits unused by the front door."
+  },
+  {
+   "n": 6,
+   "scene": "Priya sits tired on a sofa while a thick book gathers dust",
+   "summary": "A big plan asks too much of a tired person on an ordinary evening."
+  },
+  {
+   "n": 7,
+   "scene": "Priya holds two old folded lists from a desk drawer",
+   "summary": "Priya has made lists like this before, and each one ended the same way."
+  },
+  {
+   "n": 8,
+   "scene": "Priya frowns at herself in a bathroom mirror",
+   "summary": "Priya blames her own character, but the real problem may be the plan and not the person."
+  },
+  {
+   "n": 9,
+   "scene": "A sun and a rain cloud drawn beside a line of moods",
+   "summary": "Motivation rises and falls like the weather, so a plan that needs it every day will fail."
+  },
+  {
+   "n": 10,
+   "scene": "Priya closes a desk drawer on her old lists",
+   "summary": "By mid-February the list is at the bottom of a drawer, and Priya is ready to hear a better idea."
+  },
+  {
+   "n": 11,
+   "scene": "Priya hangs washing while Sam waters tomatoes beyond the fence",
+   "summary": "Priya meets her neighbour Sam, a retired teacher, who notices her gloomy face."
+  },
+  {
+   "n": 12,
+   "scene": "Priya and Sam sit on a bench by the fence with two mugs",
+   "summary": "Over tea Priya admits that her list has failed again."
+  },
+  {
+   "n": 13,
+   "scene": "Sam holds up two fingers, one tall and one short",
+   "summary": "Sam asks what Priya did on her first day and her last, and she sees the gap."
+  },
+  {
+   "n": 14,
+   "scene": "Sam smiles kindly over a mug of tea at the fence",
+   "summary": "Sam suggests a smaller way: one step so small it feels silly."
+  },
+  {
+   "n": 15,
+   "scene": "Priya laughs with one eyebrow raised beside her mug",
+   "summary": "Priya thinks a tiny step is too small to matter, and Sam says small things done daily beat big things done rarely."
+  },
+  {
+   "n": 16,
+   "scene": "Sam sits at an old piano with his hands on the keys",
+   "summary": "Sam tells how he learned the piano with five minutes a day."
+  },
+  {
+   "n": 17,
+   "scene": "Priya looks doubtful with her chin on her hand",
+   "summary": "Priya doubts that five minutes can change a life, and Sam says a life is made of days."
+  },
+  {
+   "n": 18,
+   "scene": "Priya holds a thin book and a pair of shoes in her kitchen",
+   "summary": "A small step is an action that takes a minute or two and feels easy."
+  },
+  {
+   "n": 19,
+   "scene": "Sam holds up one hand like a stop sign beside a garden bench",
+   "summary": "Sam's test: if you could do the step on your worst day, it is small enough."
+  },
+  {
+   "n": 20,
+   "scene": "Priya walks home across the grass carrying an empty mug",
+   "summary": "Priya agrees to try one tiny step for a week."
+  },
+  {
+   "n": 21,
+   "scene": "A pale footpath cuts across a wide green field",
+   "summary": "Sam shows Priya a faint path worn across the field behind the gardens."
+  },
+  {
+   "n": 22,
+   "scene": "Feet walk the same way across wet grass",
+   "summary": "The path was made by many people walking the same way again and again."
+  },
+  {
+   "n": 23,
+   "scene": "A person walks easily along a path across a field",
+   "summary": "The brain likes shortcuts, so repeated actions slowly become automatic."
+  },
+  {
+   "n": 24,
+   "scene": "Priya brushes her teeth in the morning without thinking",
+   "summary": "Everyday actions such as brushing teeth were once hard and are now automatic."
+  },
+  {
+   "n": 25,
+   "scene": "Priya walks to a bus stop through familiar streets",
+   "summary": "Priya notices how much of her day runs on autopilot."
+  },
+  {
+   "n": 26,
+   "scene": "A snack cupboard and a glowing phone on a pillow",
+   "summary": "Bad habits are paths too, worn smooth by repetition."
+  },
+  {
+   "n": 27,
+   "scene": "A new path of flattened grass with blades springing back up",
+   "summary": "A new path starts faint: at first the grass springs back."
+  },
+  {
+   "n": 28,
+   "scene": "A clipboard and a chart of volunteers' progress over weeks",
+   "summary": "Researchers in London followed volunteers: a new habit took about two months on average, with a wide range."
+  },
+  {
+   "n": 29,
+   "scene": "Priya circles a date two months away on a wall calendar",
+   "summary": "Priya marks a date two months ahead as a gentle target, not a deadline."
+  },
+  {
+   "n": 30,
+   "scene": "Priya relaxes on her sofa with a calm face",
+   "summary": "A new habit is a faint path, so it is no failure if it feels hard in the first weeks."
+  },
+  {
+   "n": 31,
+   "scene": "Priya's notebook with a list of five new habits",
+   "summary": "Priya wants to start five new habits at once."
+  },
+  {
+   "n": 32,
+   "scene": "Sam raises his eyebrows over the fence at a notebook",
+   "summary": "Sam warns that attention and energy are limited, so many habits at once will crush you."
+  },
+  {
+   "n": 33,
+   "scene": "Priya taps one finger on a notebook that says one habit",
+   "summary": "Start with only one habit; many at once will crush you."
+  },
+  {
+   "n": 34,
+   "scene": "Priya reads her list of five habits with a pencil in hand",
+   "summary": "How to choose: the habit you want most and will notice soon."
+  },
+  {
+   "n": 35,
+   "scene": "Priya looks at a framed snapshot of her late mother reading in a garden",
+   "summary": "Choose a habit you truly want, with a reason that matters to you."
+  },
+  {
+   "n": 36,
+   "scene": "A young Priya sits beside her mother on a garden bench",
+   "summary": "Priya remembers sitting beside her mother, who loved reading, and how the books were forgotten after she died."
+  },
+  {
+   "n": 37,
+   "scene": "Priya crosses out the word should and writes want",
+   "summary": "A reason must be your own: want, not should."
+  },
+  {
+   "n": 38,
+   "scene": "Priya sticks a small white card to the fridge",
+   "summary": "Priya writes her reason on a card and keeps it where she can see it."
+  },
+  {
+   "n": 39,
+   "scene": "A page headed Later holds four unfinished goals",
+   "summary": "The other four goals are not lost; they wait on a page called Later."
+  },
+  {
+   "n": 40,
+   "scene": "Priya closes her notebook with a decided smile",
+   "summary": "Priya decides that her one habit is reading, and Sam approves."
+  },
+  {
+   "n": 41,
+   "scene": "Priya's finger rests on the first page of a thin paperback",
+   "summary": "Sam helps Priya shrink her step to the smallest version: read one page."
+  },
+  {
+   "n": 42,
+   "scene": "Priya laughs at the single page of a thin book",
+   "summary": "Priya says one page is silly, and Sam says that is exactly the point."
+  },
+  {
+   "n": 43,
+   "scene": "Priya lays out running shoes, a pen and a book on a table",
+   "summary": "Other tiny steps for other goals: put on shoes, write one sentence, do one push-up."
+  },
+  {
+   "n": 44,
+   "scene": "A kitchen timer shows sixty seconds beside a thin book",
+   "summary": "A good small step takes a minute or two, never more."
+  },
+  {
+   "n": 45,
+   "scene": "A notebook page contrasts a vague wish with one clear page",
+   "summary": "Be specific: read more is a wish, but read one page of this book is a step."
+  },
+  {
+   "n": 46,
+   "scene": "Priya reads one page by lamplight at the kitchen table",
+   "summary": "Priya reads her first page, which takes ninety seconds and feels strange."
+  },
+  {
+   "n": 47,
+   "scene": "Priya closes a book though the story is half told",
+   "summary": "Doing more is allowed but never required; stopping on purpose leaves her wanting more."
+  },
+  {
+   "n": 48,
+   "scene": "A hand opens the cover of a book on a table",
+   "summary": "Starting is the hardest part; once the book is open, the rest follows."
+  },
+  {
+   "n": 49,
+   "scene": "Priya's notebook lists tiny versions of four waiting goals",
+   "summary": "The same shrinking works for any goal; Priya lists tiny versions of her waiting goals."
+  },
+  {
+   "n": 50,
+   "scene": "A notebook shows seven small ticks beside a thin blue book",
+   "summary": "At the end of week one Priya has read seven pages and kept her word."
+  },
+  {
+   "n": 51,
+   "scene": "Priya falls asleep on a sofa with a book on the table",
+   "summary": "In week two a busy evening makes Priya forget her page."
+  },
+  {
+   "n": 52,
+   "scene": "Sam points at Priya's kitchen window with a mug in his hand",
+   "summary": "Sam says a new habit needs a moment that already happens every day: an anchor."
+  },
+  {
+   "n": 53,
+   "scene": "Priya pours morning coffee while a book waits on the counter",
+   "summary": "Link the new step to something you already do every day: pour coffee, then read one page."
+  },
+  {
+   "n": 54,
+   "scene": "Sam counts anchors on his fingers beside a kettle",
+   "summary": "Good anchors are daily, specific and already automatic: brushing teeth, the kettle, locking the door."
+  },
+  {
+   "n": 55,
+   "scene": "A yellow sticky note on a coffee machine",
+   "summary": "A plan in one sentence: after I pour my coffee, I will read one page."
+  },
+  {
+   "n": 56,
+   "scene": "A calendar page with vague words in the evening column",
+   "summary": "Vague anchors such as in the evening or when I have time do not work."
+  },
+  {
+   "n": 57,
+   "scene": "Priya at her office desk holding a paper cup, with no book",
+   "summary": "The anchor works for three days, then fails when she drinks coffee at work and the book is at home."
+  },
+  {
+   "n": 58,
+   "scene": "A coat hook on a wall holds a bag and a thin book",
+   "summary": "An anchor gives a habit a home in the day, like a hook on a wall."
+  },
+  {
+   "n": 59,
+   "scene": "A second sticky note on a bathroom mirror above a toothbrush",
+   "summary": "A backup plan: if she misses the first anchor, she reads after brushing her teeth."
+  },
+  {
+   "n": 60,
+   "scene": "Priya reaches for the book on the counter without looking",
+   "summary": "After two weeks she reaches for the book before she has thought about it: the first hint of something automatic."
+  },
+  {
+   "n": 61,
+   "scene": "A thin book on a pillow and shoes by the front door",
+   "summary": "Make the step easy to see: put the book and shoes where you cannot miss them."
+  },
+  {
+   "n": 62,
+   "scene": "Dusty books sit on a high shelf behind a bedroom door",
+   "summary": "Out of sight, out of mind: Priya's books have been invisible for years."
+  },
+  {
+   "n": 63,
+   "scene": "Sam's piano with its lid up and music open on the stand",
+   "summary": "Sam keeps his piano open with the music ready, so playing is the easy thing."
+  },
+  {
+   "n": 64,
+   "scene": "Priya places a blue book beside a coffee machine",
+   "summary": "Priya moves the blue book to the counter beside the coffee machine."
+  },
+  {
+   "n": 65,
+   "scene": "A drawer, a bag and a lamp stand between a person and a book",
+   "summary": "Every extra step between you and a habit is friction; remove as much as you can."
+  },
+  {
+   "n": 66,
+   "scene": "Priya counts five little jobs on her fingers beside a sofa",
+   "summary": "Priya counts the steps between her and the book, then removes most of them."
+  },
+  {
+   "n": 67,
+   "scene": "Priya lays out running shoes, a book and a glass of water",
+   "summary": "Prepare the night before: lay out what you need so the morning is easy."
+  },
+  {
+   "n": 68,
+   "scene": "Priya smiles at a tidy kitchen counter with a book on it",
+   "summary": "Making things easy is not cheating; it is good design."
+  },
+  {
+   "n": 69,
+   "scene": "A sticky note and a book reminding a person in an empty kitchen",
+   "summary": "Do not rely on remembering; arrange your world so that it reminds you."
+  },
+  {
+   "n": 70,
+   "scene": "A small reading corner on a kitchen counter with a lamp and book",
+   "summary": "Priya's kitchen counter has become a small reading spot, and she feels proud."
+  },
+  {
+   "n": 71,
+   "scene": "Priya puts her phone in a drawer across the room",
+   "summary": "Add friction to habits you want to reduce: put the phone in another place."
+  },
+  {
+   "n": 72,
+   "scene": "A glowing phone screen lights a face in a dark bed",
+   "summary": "Priya sees that her evenings vanish into her phone."
+  },
+  {
+   "n": 73,
+   "scene": "A phone charger plugged into a wall socket in a hallway",
+   "summary": "Priya moves the charger to the hallway so the phone is out of reach of her bed."
+  },
+  {
+   "n": 74,
+   "scene": "Priya lies in bed with her hand on an empty pillow",
+   "summary": "The first night without the phone feels strange, but she falls asleep."
+  },
+  {
+   "n": 75,
+   "scene": "Priya stands in a hallway looking at a phone on a charger",
+   "summary": "Make a bad habit one step harder, not impossible; strict rules are not needed."
+  },
+  {
+   "n": 76,
+   "scene": "Priya places a television remote on a high shelf",
+   "summary": "Priya puts the television remote on a high shelf, so evening television needs a small effort."
+  },
+  {
+   "n": 77,
+   "scene": "Sam reaches for a biscuit tin on a high shelf, apples on the table",
+   "summary": "Sam once moved his biscuit tin to a high shelf and learned to enjoy apples."
+  },
+  {
+   "n": 78,
+   "scene": "A table with a book and an apple, and a phone far away",
+   "summary": "Make good habits easy and bad habits a little hard."
+  },
+  {
+   "n": 79,
+   "scene": "Priya reads on a kitchen chair with her phone far away",
+   "summary": "Without the phone competing, Priya often reads more than one page."
+  },
+  {
+   "n": 80,
+   "scene": "An evening room with a chair, a lamp and a sofa with cushions",
+   "summary": "The room that pulled her to the sofa now pulls her to a chair."
+  },
+  {
+   "n": 81,
+   "scene": "Priya smiles and sips warm coffee by a sunny window after reading",
+   "summary": "End with something pleasant so the mind connects the step with a good feeling."
+  },
+  {
+   "n": 82,
+   "scene": "Two faces on a napkin, one bored and one happy",
+   "summary": "The mind links a step to how it feels; a step that feels like a chore stays hard."
+  },
+  {
+   "n": 83,
+   "scene": "A song, a square of chocolate and a sip of tea on a table",
+   "summary": "Priya tries small rewards; Sam says a good one is small, quick and fits the habit."
+  },
+  {
+   "n": 84,
+   "scene": "A wall calendar by a fridge with a red pen on a string",
+   "summary": "Sam suggests marking each day she completes her step, so Priya ties a red pen to the calendar."
+  },
+  {
+   "n": 85,
+   "scene": "Five red crosses in a row on a wall calendar",
+   "summary": "Five crosses in a row bring pride, and she does not want to break the chain."
+  },
+  {
+   "n": 86,
+   "scene": "Priya studies a calendar crowded with red crosses and smiles",
+   "summary": "Seeing your progress is a reward by itself."
+  },
+  {
+   "n": 87,
+   "scene": "A far mountain and a small sweet on a table",
+   "summary": "Why a quick reward matters: the real benefits come months later, so the brain needs something now."
+  },
+  {
+   "n": 88,
+   "scene": "Priya says the word done out loud in her kitchen with a smile",
+   "summary": "A small celebration, even a word or a smile, tells the brain the step was a success."
+  },
+  {
+   "n": 89,
+   "scene": "Priya copies a sentence from her book onto a small card",
+   "summary": "A pleasant surprise: Priya finds a sentence she loves and copies it onto a card."
+  },
+  {
+   "n": 90,
+   "scene": "A calendar with ten red crosses beside a smiling Priya with coffee",
+   "summary": "After two weeks of marking, Priya feels the mood of her mornings has changed."
+  },
+  {
+   "n": 91,
+   "scene": "An empty square on a wall calendar with Priya looking guilty",
+   "summary": "Priya misses a day after a late night and sees the empty square."
+  },
+  {
+   "n": 92,
+   "scene": "A thought bubble saying here we go again beside Priya",
+   "summary": "The guilty voice says she has ruined it."
+  },
+  {
+   "n": 93,
+   "scene": "Sam on the garden bench points at a cloudy sky",
+   "summary": "Sam says one missed day is normal; one cloudy day does not end the summer."
+  },
+  {
+   "n": 94,
+   "scene": "Priya picks up the blue book the next morning, smiling again",
+   "summary": "After a miss, restart quickly: the real danger is a second missed day."
+  },
+  {
+   "n": 95,
+   "scene": "Two calendar squares, one empty and one marked with a cross",
+   "summary": "A rule: after a miss, act the very next day, even in the smallest way."
+  },
+  {
+   "n": 96,
+   "scene": "Priya tears a perfect plan in half and smiles",
+   "summary": "The all-or-nothing trap makes people quit after one mistake; a small imperfect step beats no step."
+  },
+  {
+   "n": 97,
+   "scene": "A calendar with the word Monday circled and crossed out",
+   "summary": "Priya remembers waiting for next Monday after every bad day."
+  },
+  {
+   "n": 98,
+   "scene": "Priya smiles at a book while a kettle boils on the second morning",
+   "summary": "Restarting after a miss feels like a small win and builds trust."
+  },
+  {
+   "n": 99,
+   "scene": "A pencil points to a gap in a long red line of crosses",
+   "summary": "One empty square does not erase the crosses around it."
+  },
+  {
+   "n": 100,
+   "scene": "A calendar with many crosses and one gap beside a smiling Priya",
+   "summary": "Two days later Priya counts twelve crosses in thirteen days and calls it a success."
+  },
+  {
+   "n": 101,
+   "scene": "Priya and Sam share a bench and look at her calendar",
+   "summary": "Telling a friend about your habit helps you keep it."
+  },
+  {
+   "n": 102,
+   "scene": "Priya and Mei at a market café with a plate of pastries",
+   "summary": "Priya's friend Mei learns ten Spanish words a day with notes on her fridge."
+  },
+  {
+   "n": 103,
+   "scene": "Priya shows Mei her one-page habit over coffee",
+   "summary": "Priya tells Mei about her one page, and Mei laughs, then admits she started the same way."
+  },
+  {
+   "n": 104,
+   "scene": "Priya says a promise aloud while a friend listens",
+   "summary": "Why telling helps: someone may ask, and a promise said aloud is harder to drop quietly."
+  },
+  {
+   "n": 105,
+   "scene": "Priya's colleague Jo laughs at a desk while Priya looks hurt",
+   "summary": "Choose who you tell: someone kind, not someone who nags or teases."
+  },
+  {
+   "n": 106,
+   "scene": "Priya and Mei hold up a book page and a list of Spanish words",
+   "summary": "Share, do not compete: Priya and Mei agree to send each other a message every week."
+  },
+  {
+   "n": 107,
+   "scene": "Priya smiles at a phone showing a list of Spanish words",
+   "summary": "The first Sunday exchange gives a small thrill."
+  },
+  {
+   "n": 108,
+   "scene": "Mei types a message on her phone looking apologetic",
+   "summary": "Mei misses days and says so honestly; Priya answers kindly that tomorrow is a good day to start again."
+  },
+  {
+   "n": 109,
+   "scene": "Priya waves at the camera beside two smiling friends on a terrace",
+   "summary": "The habit starts to feel like a team effort, not a lonely test."
+  },
+  {
+   "n": 110,
+   "scene": "Sam, Priya and Mei drink tea on a sunny garden bench",
+   "summary": "Three people on one street now take tiny steps every day."
+  },
+  {
+   "n": 111,
+   "scene": "Priya yawns over a thin book at the kitchen counter",
+   "summary": "Rest matters: habits are much easier to keep when you have enough energy."
+  },
+  {
+   "n": 112,
+   "scene": "A dark quiet bedroom with a book and an alarm clock on a table",
+   "summary": "Priya sets a bedtime and dims the lights; a dark, quiet bedroom helps."
+  },
+  {
+   "n": 113,
+   "scene": "A sunny morning window beside a kitchen counter and a thin book",
+   "summary": "Do the step at the time of day when you have most energy; for Priya it is the morning."
+  },
+  {
+   "n": 114,
+   "scene": "A fruit bowl glows on a clean kitchen table",
+   "summary": "Your surroundings shape your choices; a fruit bowl invites an apple."
+  },
+  {
+   "n": 115,
+   "scene": "Priya sets a fruit bowl on the table and shuts biscuits in a cupboard",
+   "summary": "Priya puts a fruit bowl in the centre of the table and moves the biscuits out of sight."
+  },
+  {
+   "n": 116,
+   "scene": "An old armchair with a lamp beside a window",
+   "summary": "Give each habit its own place, such as a reading chair."
+  },
+  {
+   "n": 117,
+   "scene": "A cosy chair and lamp glow in the evening",
+   "summary": "The place becomes a cue: sitting in the chair means reading time."
+  },
+  {
+   "n": 118,
+   "scene": "A chair with a closed laptop and a phone placed far away",
+   "summary": "Keep the chair only for reading: no laptop, no phone."
+  },
+  {
+   "n": 119,
+   "scene": "Priya wipes a shelf and carries a box of old things out",
+   "summary": "Priya cleans the corner and gives away a box of old things."
+  },
+  {
+   "n": 120,
+   "scene": "A cold evening with a lamp, a chair and a blue book",
+   "summary": "Priya reads three pages by choice on a cold evening in her chair."
+  },
+  {
+   "n": 121,
+   "scene": "Priya sits on a sofa with a bag of crisps and a television",
+   "summary": "Priya's evening crisps habit: Sam asks her to be curious, not ashamed."
+  },
+  {
+   "n": 122,
+   "scene": "Priya writes notes in a notebook beside an open bag of crisps",
+   "summary": "To change a bad habit, notice what happens just before it."
+  },
+  {
+   "n": 123,
+   "scene": "A notebook page lists a hard email and a tired face",
+   "summary": "The notes show that the crisps came after a hard email or a tired moment, not after hunger."
+  },
+  {
+   "n": 124,
+   "scene": "Three faces labelled bored, stressed and tired on a notebook page",
+   "summary": "Bad habits often start with boredom, stress or tiredness; name the feeling."
+  },
+  {
+   "n": 125,
+   "scene": "Priya swaps a bag of crisps for a bowl of popcorn",
+   "summary": "Replace a bad habit with another that meets the same need."
+  },
+  {
+   "n": 126,
+   "scene": "Priya eats popcorn on a sofa, looking surprised",
+   "summary": "The first night feels odd, but the second is easier."
+  },
+  {
+   "n": 127,
+   "scene": "Priya sits with closed eyes while a clock ticks on a shelf",
+   "summary": "Urges often rise and then fade; waiting a few minutes can help."
+  },
+  {
+   "n": 128,
+   "scene": "A wave rising and falling beside a ticking clock",
+   "summary": "Think of an urge as a wave: it rises, peaks and falls."
+  },
+  {
+   "n": 129,
+   "scene": "Mei turns off notifications on her phone at a dinner table",
+   "summary": "Mei stops checking work emails at dinner by turning off notifications."
+  },
+  {
+   "n": 130,
+   "scene": "Priya shares a small bowl of crisps with a friend on a Friday evening",
+   "summary": "Be gentle: Priya still has crisps on Friday as a treat she chooses."
+  },
+  {
+   "n": 131,
+   "scene": "Priya holds a thin book open at two pages",
+   "summary": "When a step feels easy for a while, make it a little bigger."
+  },
+  {
+   "n": 132,
+   "scene": "A staircase with low steps, each a little higher than the last",
+   "summary": "Grow by a little; if it gets hard, step back."
+  },
+  {
+   "n": 133,
+   "scene": "A clock showing five minutes beside Priya's open book",
+   "summary": "A month later Priya reads for five minutes a day by choice."
+  },
+  {
+   "n": 134,
+   "scene": "Priya reads one line standing up with her coat on",
+   "summary": "On hard days, keep the tiny version: the habit matters more than the amount."
+  },
+  {
+   "n": 135,
+   "scene": "Priya stretches beside her bed while a book waits nearby",
+   "summary": "Add a second habit only when the first one feels steady."
+  },
+  {
+   "n": 136,
+   "scene": "Priya stretches her arms beside the kitchen counter after closing a book",
+   "summary": "The finished habit becomes the anchor for the next: after reading, she stretches for a minute."
+  },
+  {
+   "n": 137,
+   "scene": "A kettle on a stove with water not yet boiling",
+   "summary": "Progress is often invisible for a while, like water warming before it boils."
+  },
+  {
+   "n": 138,
+   "scene": "Priya looks at herself in a mirror, looking the same as before",
+   "summary": "She sees no big change and feels a dip, until she notices small signs."
+  },
+  {
+   "n": 139,
+   "scene": "A tidy desk with a glass of water and a neat pile of mail",
+   "summary": "Small changes spread: Priya's desk is tidier and her mind clearer."
+  },
+  {
+   "n": 140,
+   "scene": "Priya marks a red cross on a wall calendar with a pencil circle ahead",
+   "summary": "Many weeks in, the habit is easier but not yet automatic, and Priya keeps going."
+  },
+  {
+   "n": 141,
+   "scene": "Ten minutes on a clock and sixty hours on a wall chart",
+   "summary": "Small daily time adds up: ten minutes a day is about sixty hours a year."
+  },
+  {
+   "n": 142,
+   "scene": "Priya does sums on the back of an envelope at the kitchen table",
+   "summary": "Priya checks the sums herself, and the answer surprises her."
+  },
+  {
+   "n": 143,
+   "scene": "A thick novel with a bookmark near the end",
+   "summary": "One page a day is three hundred and sixty-five pages a year, a long book."
+  },
+  {
+   "n": 144,
+   "scene": "Mei's fridge covered in yellow notes of Spanish words",
+   "summary": "Ten new words a day would be about thirty-six hundred words in a year."
+  },
+  {
+   "n": 145,
+   "scene": "A glass jar nearly full of coins on a shelf",
+   "summary": "Small actions pile up like coins in a jar: one a day becomes a heavy jar."
+  },
+  {
+   "n": 146,
+   "scene": "Priya ticks a box that says I did it beside a chart",
+   "summary": "Judge yourself by what you did, not by how you feel that day."
+  },
+  {
+   "n": 147,
+   "scene": "Priya sits at her kitchen counter with a heavy head and an open book",
+   "summary": "I do not feel like it is a thought, not a verdict."
+  },
+  {
+   "n": 148,
+   "scene": "Priya reads a page while rain falls on the window",
+   "summary": "On tired days, the routine carries you when motivation does not."
+  },
+  {
+   "n": 149,
+   "scene": "Priya reads a page with a yawn, still smiling",
+   "summary": "A page read badly still counts; a bad session beats none."
+  },
+  {
+   "n": 150,
+   "scene": "Priya holds the finished thin blue book and smiles at its last page",
+   "summary": "Priya finishes the thin blue book, the first book she has finished in over a year."
+  },
+  {
+   "n": 151,
+   "scene": "A small suitcase open on a hotel bed beside a library book",
+   "summary": "Travel breaks routines: Priya packs her book for a work trip."
+  },
+  {
+   "n": 152,
+   "scene": "A hotel room kettle, a paper cup and a book on a small table",
+   "summary": "The anchor changes in a hotel: there is no coffee machine, so she uses the kettle."
+  },
+  {
+   "n": 153,
+   "scene": "Priya reads on a station bench with her bag on her knees",
+   "summary": "A delayed train: one page fits into any gap."
+  },
+  {
+   "n": 154,
+   "scene": "Priya lies in bed with a box of tissues and a book",
+   "summary": "Illness: when she is unwell, Priya reads only one line and rests."
+  },
+  {
+   "n": 155,
+   "scene": "A desk piled with papers and a clock showing late",
+   "summary": "A busy week with a deadline: use the smallest version."
+  },
+  {
+   "n": 156,
+   "scene": "Priya's landlord hands her a letter beside an open front door",
+   "summary": "Priya must leave her flat when her landlord decides to sell it."
+  },
+  {
+   "n": 157,
+   "scene": "Cardboard boxes stacked in a hallway, one labelled kitchen",
+   "summary": "Moving hides the book: she misses two mornings before she finds it."
+  },
+  {
+   "n": 158,
+   "scene": "Priya places a book beside a new kettle in a new kitchen",
+   "summary": "When life changes, build a new anchor, because the old one may be gone."
+  },
+  {
+   "n": 159,
+   "scene": "Dev sleeps on a sofa bed while Priya reads in the early light",
+   "summary": "A visit: her brother Dev stays, and she reads her page quietly at dawn."
+  },
+  {
+   "n": 160,
+   "scene": "A rope bending in a curve but not breaking, held in two hands",
+   "summary": "A good routine bends but does not break."
+  },
+  {
+   "n": 161,
+   "scene": "Priya looks at a long row of red crosses on a wall calendar",
+   "summary": "Each time you act, you collect proof that you can keep a promise to yourself."
+  },
+  {
+   "n": 162,
+   "scene": "A balance scale with many small coins weighing against one stone",
+   "summary": "Promises to yourself build trust the way promises to others do."
+  },
+  {
+   "n": 163,
+   "scene": "A crumpled old list on a table beside Priya's thoughtful face",
+   "summary": "Priya remembers her old broken promises and sees why she stopped trusting herself."
+  },
+  {
+   "n": 164,
+   "scene": "A yellow sticky note on a mirror saying be kind",
+   "summary": "Be kind to yourself after a lapse; harsh self-criticism makes quitting more likely."
+  },
+  {
+   "n": 165,
+   "scene": "Priya speaks to Mei on the phone in a gentle voice",
+   "summary": "Speak to yourself as you would speak to a friend."
+  },
+  {
+   "n": 166,
+   "scene": "Priya sits with a notebook and a cup of tea on Sunday evening",
+   "summary": "A short weekly review shows what works and what does not."
+  },
+  {
+   "n": 167,
+   "scene": "A notebook page with three questions written in pencil",
+   "summary": "Three questions: what went well, what was hard, and what will I change."
+  },
+  {
+   "n": 168,
+   "scene": "Priya reads a book on a bus in the early morning light",
+   "summary": "If a habit is not working, change the plan, not yourself."
+  },
+  {
+   "n": 169,
+   "scene": "Priya writes the word interesting beside a crossed-out line",
+   "summary": "Be curious like a scientist: say interesting instead of failure."
+  },
+  {
+   "n": 170,
+   "scene": "A neat stack of weekly review pages beside a cup of tea",
+   "summary": "After several weekly reviews Priya trusts her own word again."
+  },
+  {
+   "n": 171,
+   "scene": "Priya shares a slice of cake with Sam in a bright new kitchen",
+   "summary": "Priya shares a cake with Sam to mark one hundred days."
+  },
+  {
+   "n": 172,
+   "scene": "A wall calendar with a long red line of crosses and a few gaps",
+   "summary": "A hundred days: about ninety crosses, and every gap forgiven."
+  },
+  {
+   "n": 173,
+   "scene": "Sam raises a fork with a smile as Priya laughs",
+   "summary": "Celebrating in small ways keeps the habit enjoyable."
+  },
+  {
+   "n": 174,
+   "scene": "Sam hands Priya a wooden bookmark wrapped in newspaper",
+   "summary": "Sam gives Priya a bookmark with a short message."
+  },
+  {
+   "n": 175,
+   "scene": "A family cooks together in a bright kitchen while a child reads",
+   "summary": "Habits shared with family or friends are easier to keep."
+  },
+  {
+   "n": 176,
+   "scene": "Ada and Priya sit side by side with a thin book on a sofa",
+   "summary": "Ada asks why Priya reads only one page a day, and Priya explains in simple words."
+  },
+  {
+   "n": 177,
+   "scene": "Ada draws a calendar with gold stars on a large sheet of paper",
+   "summary": "Ada makes her own star calendar for reading one page a day."
+  },
+  {
+   "n": 178,
+   "scene": "Priya reads a story aloud to a child on a phone screen",
+   "summary": "A shared habit: a Sunday story read aloud by video call."
+  },
+  {
+   "n": 179,
+   "scene": "Sam plays a slow tune on his old piano while Priya listens",
+   "summary": "Sam plays his one whole tune, learned in about two years of five-minute sessions."
+  },
+  {
+   "n": 180,
+   "scene": "A fallen sticky note lies on the counter beside a kettle",
+   "summary": "Priya realises she no longer needs a reminder: the habit runs on its own."
+  },
+  {
+   "n": 181,
+   "scene": "A long flat road stretching under a grey sky",
+   "summary": "After the hundred days the excitement fades and the habit feels like plain routine: a plateau."
+  },
+  {
+   "n": 182,
+   "scene": "Priya talks to Sam in his garden among ripe tomatoes",
+   "summary": "Priya tells Sam her habit is not exciting any more, and he says that is a good sign."
+  },
+  {
+   "n": 183,
+   "scene": "Sam sits at his piano with a thoughtful look in autumn light",
+   "summary": "Sam tells how his piano practice stayed flat for months before it improved."
+  },
+  {
+   "n": 184,
+   "scene": "A quiet clock on the wall of a plain room",
+   "summary": "Boredom is the real test: when the novelty is gone, the habit is becoming strong."
+  },
+  {
+   "n": 185,
+   "scene": "Priya holds three different library books on a shelf",
+   "summary": "Change the book, not the habit: Priya chooses books of different kinds."
+  },
+  {
+   "n": 186,
+   "scene": "Priya writes a new word on a sticky note beside her book",
+   "summary": "A small game keeps the routine playful: one new word a week to use in a message to Mei."
+  },
+  {
+   "n": 187,
+   "scene": "Priya waves goodbye to a pile of old magazines at a recycling bin",
+   "summary": "Some habits no longer help you, and it is fine to let them go."
+  },
+  {
+   "n": 188,
+   "scene": "A toolbox with a hammer and a screwdriver on a table",
+   "summary": "Habits are tools, not duties: not every habit must continue for ever."
+  },
+  {
+   "n": 189,
+   "scene": "Priya studies her Later page beside a calendar and a notebook",
+   "summary": "The second habit is steady for months; Priya wonders about a third from her Later page."
+  },
+  {
+   "n": 190,
+   "scene": "Priya crosses out old goals on a page and circles one",
+   "summary": "She crosses out goals that have lost their appeal and circles a morning walk."
+  },
+  {
+   "n": 191,
+   "scene": "Priya opens a desk drawer on New Year's Eve and finds an old list",
+   "summary": "A year later it is New Year's Eve, and Priya finds her old list in a drawer."
+  },
+  {
+   "n": 192,
+   "scene": "Priya reads an old list: a marathon, Italian, fifty books, organised",
+   "summary": "Priya reads her old list and laughs kindly at it."
+  },
+  {
+   "n": 193,
+   "scene": "A shelf with a short row of books Priya has finished",
+   "summary": "She counts what she really did: about ten books finished."
+  },
+  {
+   "n": 194,
+   "scene": "Priya walks along a quiet path at sunrise with her breath showing",
+   "summary": "A different life, not a dramatic one: calmer mornings, walks, steadier energy."
+  },
+  {
+   "n": 195,
+   "scene": "Priya writes three short lines on a clean page at a table",
+   "summary": "She writes a new list with three tiny steps."
+  },
+  {
+   "n": 196,
+   "scene": "Sam and Priya raise teacups in his garden as fireworks light the sky",
+   "summary": "Sam says she did not change her life in a day; she changed one minute, many times."
+  },
+  {
+   "n": 197,
+   "scene": "Mei smiles beside a restaurant menu on a phone screen",
+   "summary": "Mei's Spanish pays off: on holiday she orders a whole meal in Spanish."
+  },
+  {
+   "n": 198,
+   "scene": "Priya pins a card with four short lessons to her fridge",
+   "summary": "The first lessons on a card: tiny, anchored, easy to see, a pleasant end."
+  },
+  {
+   "n": 199,
+   "scene": "A second card lists be kind, begin again, be patient and look back weekly",
+   "summary": "The other lessons: be kind after a slip, begin again at once, be patient, and review each week."
+  },
+  {
+   "n": 200,
+   "scene": "Priya stands at her front door at sunrise with one shoe on",
+   "summary": "Choose one small step today, make it tiny, attach it to your day, and start."
   }
+ ],
+ "levels": {
+  "A1A2": [
+   "On New Year's Eve, Priya writes a long list of big goals.",
+   "On January first, Priya feels strong and buys new running shoes.",
+   "In the first week, Priya runs, reads and studies every day.",
+   "One rainy morning, Priya turns off the alarm and stays in bed.",
+   "The new gym bag sits by the front door, unused.",
+   "After work, Priya is tired and the big plan feels too heavy.",
+   "Priya finds two old lists in a drawer with the same goals.",
+   "Priya thinks, “I have no willpower,” and feels very sad.",
+   "Motivation is like the weather: sunny one day, rainy the next.",
+   "By February, the list is at the bottom of a drawer.",
+   "Sam, her kind neighbour, waters his tomatoes on the other side of the fence.",
+   "Over tea, Priya tells Sam that her big list has failed.",
+   "Sam asks, “What did you do on the first day?”",
+   "Her neighbour Sam says, “Try something much smaller.”",
+   "Priya laughs and says a tiny step cannot change anything.",
+   "Sam learns the piano by playing for only five minutes daily.",
+   "Priya asks, “Can five minutes really change my life?”",
+   "A small step takes only one or two minutes to do.",
+   "If you can do it on a bad day, it is small enough.",
+   "Priya agrees to try one tiny step for a whole week.",
+   "Sam shows Priya a pale path across the green field.",
+   "A path in the grass is made by many small steps.",
+   "The brain likes to save work, so repeated actions become easy.",
+   "Nobody decides each night to brush their teeth; they just do.",
+   "On the way to work, Priya notices how much she does without thinking.",
+   "Bad habits are paths too, made by the same steps.",
+   "At first, a new path is faint and the grass springs back.",
+   "A study in London found a new habit takes about two months.",
+   "Priya draws a pencil circle two months away on her calendar.",
+   "A hard first week does not mean Priya is failing.",
+   "Priya wants to start five new habits at the same time.",
+   "Sam looks at the list and raises his eyebrows.",
+   "Sam says she should pick only one habit to start.",
+   "Priya asks herself which habit she wants the most.",
+   "Priya looks at a photo of her mother reading in a garden.",
+   "As a child, Priya sat beside her mother and listened to stories.",
+   "Priya writes, “I want to read,” not “I should read.”",
+   "Priya writes her reason on a card and keeps it close.",
+   "The other four goals go on a page called Later.",
+   "Priya closes her notebook and decides that reading is her one habit.",
+   "Priya makes her new step tiny: read one page each day.",
+   "Priya says, “One page is silly,” and Sam smiles.",
+   "A tiny step can be putting on shoes or writing one sentence.",
+   "A good small step takes one or two minutes, never more.",
+   "A clear step works better than a vague wish such as “read more.”",
+   "Priya reads her first page, and it takes only a minute.",
+   "On day two, Priya stops after one page, although she wants more.",
+   "The hardest part is starting; after that, it is easy.",
+   "On the Later page, Priya writes a tiny step for each goal.",
+   "After one week, Priya has read seven pages and kept her word.",
+   "On a busy evening, Priya forgets to read her one page.",
+   "Sam says a new habit needs something old to hold it.",
+   "Priya chooses her morning coffee as the anchor for her page.",
+   "Good anchors happen every day, like brushing teeth or locking the door.",
+   "She writes, “After I pour my coffee, I will read one page.”",
+   "“When I have time” is a weak plan, because that time never comes.",
+   "One day Priya has coffee at work, but her book is at home.",
+   "An anchor gives the habit a home in the day.",
+   "If she misses coffee, she will read after she brushes her teeth.",
+   "After two weeks, Priya reaches for the book without thinking.",
+   "Sam says to put the book where she cannot miss it.",
+   "For months, her books sat on a high shelf and she never saw them.",
+   "Sam keeps his piano open, with the music ready on top.",
+   "Priya puts her blue book next to the coffee machine.",
+   "Every extra step between you and a habit makes it harder.",
+   "Priya counts five small jobs between her and her book.",
+   "At night, Priya puts out her shoes, her book and a glass of water.",
+   "Making a habit easy is not cheating; it is smart.",
+   "Do not rely on memory; set up your home to remind you.",
+   "Her kitchen counter is now a small place for reading.",
+   "To use her phone less, Priya puts it in another room.",
+   "Every night, Priya scrolls on her phone for a very long time.",
+   "Priya moves her phone charger to the hallway, far from her bed.",
+   "The first night is strange, and Priya feels a little restless.",
+   "Make the bad habit a little harder, not impossible.",
+   "Priya puts the television remote on a high shelf.",
+   "Sam puts his biscuit tin up high and an apple on the table.",
+   "Make good habits easy and make bad habits hard.",
+   "With no phone nearby, Priya sometimes reads three pages.",
+   "Her room now calls her to a chair with a lamp.",
+   "After reading her page, Priya enjoys her warm coffee and smiles.",
+   "If a habit feels bad every time, it stays hard.",
+   "Priya tries a few small treats after her page.",
+   "Priya ties a red pen to the wall calendar.",
+   "Priya makes five red crosses in a row and feels proud.",
+   "Seeing her red crosses is a reward in itself.",
+   "The big rewards come late, so we need a small one now.",
+   "After each page, Priya says the word “done” out loud and smiles.",
+   "Priya finds a sentence she loves and copies it onto a card.",
+   "After two weeks of crosses, Priya's mornings feel calmer and happier.",
+   "Priya misses a day, and one square on the calendar stays empty.",
+   "A voice in her head says, “Here we go again.”",
+   "Sam says that one missed day is normal and means little.",
+   "The next morning, Priya picks up the book again.",
+   "After a missed day, do something small the very next day.",
+   "Priya tears a perfect plan in half and smiles.",
+   "In the past, a bad day meant she waited for next Monday.",
+   "Starting again feels like a small win, and Priya is proud.",
+   "One empty square does not erase all the other crosses.",
+   "Priya counts twelve crosses in thirteen days, and she is happy.",
+   "Sam says that telling a friend can help a new habit.",
+   "At the market, her friend Mei says she learns ten Spanish words a day.",
+   "Priya tells Mei about her one page, and Mei laughs kindly.",
+   "A promise said aloud is harder to drop quietly.",
+   "Jo laughs at Priya's tiny habit, and it hurts her a little.",
+   "Priya and Mei agree to share their progress every week.",
+   "On Sunday, Priya gets a photo of Mei's word list.",
+   "Mei says she missed three days, and Priya says, “Tomorrow.”",
+   "The habit no longer feels like a lonely test.",
+   "Sam smiles, because three people near him now take tiny daily steps.",
+   "Tired days make every habit harder to keep.",
+   "Priya picks a bedtime and keeps her bedroom dark and quiet.",
+   "Priya has the most energy in the morning, so she reads then.",
+   "A bowl of fruit on the table invites her to eat an apple.",
+   "Priya puts fruit on the table and the biscuits in a cupboard.",
+   "Priya gives her reading a place: a chair by the window.",
+   "When she sits in the chair, her mind knows it is reading time.",
+   "The chair is only for reading, with no laptop and no phone.",
+   "Priya cleans the corner and gives away a box of old things.",
+   "On a cold evening, Priya reads three pages in her chair.",
+   "Most nights, Priya sits on the sofa and eats a bag of crisps.",
+   "Priya writes down what happens just before she opens the bag.",
+   "Her notes show that she is not hungry, only tired.",
+   "Priya names the feeling: she is stressed and tired.",
+   "Priya swaps the bag of crisps for a bowl of popcorn.",
+   "The first night feels odd, but the second night is easier.",
+   "An urge often rises and then fades if she waits.",
+   "An urge is like a wave: it rises and then falls.",
+   "Mei turns off her phone alerts so she can enjoy dinner.",
+   "On Friday, Priya has a small bowl of crisps as a treat.",
+   "After easy weeks, Priya decides to read two pages.",
+   "Grow in small steps, and step back if it gets hard.",
+   "A month later, Priya reads for five minutes every morning.",
+   "On hard days, Priya reads just one line and keeps the habit.",
+   "Priya adds a second habit only when the first one is steady.",
+   "After she closes her book, Priya stretches for one minute.",
+   "Sometimes progress is hidden, like water that is slowly getting warm.",
+   "Priya sees no big change and feels a little low.",
+   "Priya notices that her desk is clean and she feels calm.",
+   "Priya has marked many crosses, and the habit feels easier now.",
+   "Ten minutes a day adds up to sixty hours in a year.",
+   "Priya does sums on an envelope, and the answers surprise her.",
+   "One page every day makes three hundred and sixty-five pages in a year.",
+   "Ten new words a day is about thirty-six hundred in a year.",
+   "A jar fills with coins when you add one each day.",
+   "Priya judges her day by what she did, not how she feels.",
+   "“I don't feel like it” is only a thought, not a decision.",
+   "On a rainy, tired day, the routine carries Priya along.",
+   "A page read badly still counts as a page.",
+   "Priya finishes the thin blue book, her first finished book in a year.",
+   "On a work trip, Priya packs her book at the top of her bag.",
+   "The hotel has no coffee machine, so she uses the kettle.",
+   "On the train platform, Priya reads her page while she waits.",
+   "When Priya has a cold, she reads one line and rests.",
+   "In a busy week, Priya only does the smallest version.",
+   "Her landlord sells the house, so Priya must move to a new flat.",
+   "In the boxes, Priya loses her book and misses two days.",
+   "In her new kitchen, Priya picks a new anchor for her habit.",
+   "When her brother Dev visits, Priya reads quietly at dawn.",
+   "A good routine can bend without breaking.",
+   "Each cross is proof that Priya keeps her promises to herself.",
+   "Keeping promises to yourself builds trust, just as with friends.",
+   "Priya remembers old broken promises and why she stopped trusting herself.",
+   "Priya sticks a note on her mirror: “Be kind.”",
+   "Priya talks to herself as she talks to her friend Mei.",
+   "On Sunday evening, Priya looks back at her week.",
+   "Her review asks: what went well, what was hard, and what should change?",
+   "On Tuesdays Priya leaves early, so she reads her page on the bus.",
+   "When something fails, Priya says “interesting” and not “failure.”",
+   "After several weekly reviews, Priya trusts her own word again.",
+   "Priya and Sam share a cake to mark one hundred days.",
+   "Out of one hundred days, Priya has about ninety crosses.",
+   "Sam says that small celebrations keep a habit enjoyable.",
+   "Sam gives Priya a small wooden gift for her book.",
+   "At her brother Dev's house, eight-year-old Ada reads while everyone cooks.",
+   "Ada asks why Priya reads only one page a day.",
+   "Ada draws her own calendar and puts a star on each day.",
+   "Every Sunday, Priya reads a short story to Ada by video.",
+   "Sam plays Priya the one tune he learned in two years.",
+   "Priya forgets the sticky note, but her hand finds the book.",
+   "After the hundred days, the habit feels flat and plain.",
+   "Priya tells Sam, “It is not exciting any more.”",
+   "Sam says his piano playing got no better for many months.",
+   "When the new feeling goes away, the habit becomes strong.",
+   "Priya keeps her habit but chooses books of different kinds.",
+   "Each week, Priya picks one new word from her book to use.",
+   "Priya says goodbye to a pile of old magazines.",
+   "A habit is a tool, and some tools are no longer needed.",
+   "Her second habit is steady, so Priya thinks about a third.",
+   "Priya crosses out old goals and circles one: walking.",
+   "A year later, it is New Year's Eve again.",
+   "Priya reads her old list and laughs in a kind way.",
+   "Priya counts the books she finished this year: about ten.",
+   "Her life is not very different, but it feels calmer.",
+   "Priya writes a new list with three tiny steps.",
+   "Sam raises his cup and says, “You changed one minute, many times.”",
+   "Mei sends a photo: she ordered dinner in Spanish on holiday.",
+   "Priya writes the first lessons on a card for her fridge.",
+   "On the second card: be kind, begin again, and be patient.",
+   "Pick one tiny step, tie it to your day, and begin today."
+  ],
+  "B1B2": [
+   "On New Year's Eve, Priya sits at her kitchen table and writes a list of six big goals. She feels certain that this year, at last, will be different.",
+   "On the first of January, Priya wakes early, full of energy. Before lunch she has bought a gym bag, new shoes and a planner, because everything feels possible.",
+   "For one whole week, Priya does everything on her list. She runs before work, reads for an hour at night and tells her friends how proud she feels.",
+   "In the second week it rains, and Priya has stayed up very late. She switches off her alarm, tells herself that she will run tomorrow and rolls over.",
+   "The shiny gym bag stays by the front door, and Priya starts to walk around it. Each time she sees it, she feels a small pinch of guilt.",
+   "Priya's plan asks for an hour of exercise and an hour of study every evening. Most nights she comes home tired, and an hour feels as heavy as a mountain.",
+   "When Priya opens her desk drawer, she finds last year's list and the one before it. The goals are almost the same, and so is the way they ended.",
+   "Priya decides that she is simply a lazy person with no willpower. But what if the problem is the plan, and not the person?",
+   "Motivation is strongest on the first day of a plan, but it rises and falls like the weather. A plan that needs it every single day will soon break.",
+   "By the middle of February, the new list lies at the bottom of the drawer, under the old ones. Priya closes it gently and wonders whether anyone knows a better way.",
+   "On Saturday morning, Priya hangs out her washing in the small back garden. On the other side of the fence, Sam, her neighbour and a retired teacher, is watering his tomatoes.",
+   "Priya sits on a bench by the fence and holds a hot mug. Slowly she tells Sam about the long list, the gym bag and the drawer.",
+   "Sam asks what Priya did on her very first day, and then on her last. She laughs sadly, because the first day was an hour of effort and the last was nothing.",
+   "Sam says that the answer is never more willpower, but a smaller beginning. He asks her to try one step so small that it feels almost silly.",
+   "Priya laughs, because a tiny step sounds too small to matter. Sam answers that small things done every day beat big things done once in a while.",
+   "Sam tells her about the old piano in his front room. When he retired, he learned to play by practising for only five minutes every morning.",
+   "Priya doubts that a few minutes can change anything real. Sam agrees that they cannot change a life in a day, but days are what a life is made of.",
+   "Sam explains that a small step is an action that is easy to start and quick to finish. Reading one page, drinking a glass of water or doing five squats are all good examples.",
+   "Sam offers a simple test for the size of a step. If you could do the step on your very worst day, when you are ill, late or cross, then it is small enough.",
+   "Priya is not sure that Sam is right, but she has nothing to lose. She agrees to try one tiny step for a week, and she thanks him for the tea.",
+   "Sam leads her to the gate at the end of the gardens, where a green field begins. Across the grass runs a faint, pale line that nobody ever planned.",
+   "Sam says that nobody dug or planned that path, and nobody decided that it should exist. People simply crossed the field from the same corner, day after day, and their feet pressed down the grass.",
+   "The brain likes to save energy, so it turns repeated actions into shortcuts. Once an action is automatic, it needs much less effort and thought.",
+   "Think about brushing your teeth, which you do every night without any argument in your head. It was hard once, when somebody first taught you, but now it is a well-worn path.",
+   "Priya notices how much of her day runs on autopilot, from her route to the bus stop to the way she locks the door. Most of it is useful, because it leaves her mind free.",
+   "Of course, bad habits are paths as well, worn smooth by the very same steps. The late-night snack and the endless scrolling were also made smooth by repeating them again and again.",
+   "A new path starts out faint, because the grass springs back after each walk. This is why a new habit feels awkward and strange in the first days.",
+   "Researchers in London once followed volunteers who were trying to form a new habit. On average it took about two months, but the time varied a great deal from person to person.",
+   "Back home, Priya circles a date two months away on her calendar, in pencil. It is not a deadline, only a reminder to be patient.",
+   "Sam's last words stay with her: a new habit is only a faint path, so it is no failure if it feels hard. In the past she expected every plan to feel natural after three days, and that was the trap.",
+   "The next day, Priya writes five new habits in her notebook: running, reading, studying Italian, quiet breathing and cooking at home. She cannot wait to start them all on Monday.",
+   "Sam looks at the five habits over the fence and raises his eyebrows. He warns her not to change her whole life at once.",
+   "Sam says she should choose only one habit and give it all her attention for a while. When it stands on its own, there will be time to add another.",
+   "Priya wonders how to choose among the five, and Sam gives her two questions. Which habit does she want the most, and which one will she notice soon in her daily life?",
+   "Priya's eyes fall on the old photo on her fridge, which shows her mother reading in a sunny garden. She thinks of the five goals and knows at once which one she wants most.",
+   "As a child, Priya sat beside her mother on a garden bench while her mother read aloud. After her mother died, the books stayed on the shelf, and Priya stopped opening them.",
+   "Sam says that a reason must belong to you, and not to a magazine or a neighbour. Priya crosses out the word should on her page and writes want.",
+   "Priya takes a small white card and writes her reason on it in her neatest hand. She sticks it to the fridge, next to the photo of her mother.",
+   "Priya does not throw away the other four goals, because Sam says they are only waiting. She copies them onto a new page called Later, where they will be safe.",
+   "Priya closes her notebook with a firm click and a very satisfied smile. Her one habit will be reading, and Sam, watching from the fence, nods with quiet approval.",
+   "Priya wants to read for an hour every evening, but Sam asks her to shrink the plan. In the end she decides on one page a day, which feels almost too easy to count.",
+   "Priya says that one page is silly, and that a child could do it. Sam smiles and says that this is exactly the point.",
+   "Every goal can be shrunk in the same way. Running becomes putting on your shoes, writing becomes one sentence, and exercise becomes a single push-up.",
+   "A good small step takes about a minute or two. If it takes longer, Priya must make it smaller, and she checks it with a kitchen timer.",
+   "A step must be specific, because a vague wish gives the mind nothing to hold on to. “Read more” is only a wish, but “read one page of the blue book” is something that Priya can actually do.",
+   "That evening, Priya opens the blue book and reads one page. It takes about ninety seconds, and it feels so small that she almost laughs.",
+   "Sam tells her that reading more is allowed, but never required. On the second day Priya stops after one page on purpose, and she looks forward to the next one.",
+   "Priya notices that the hardest moment is not reading but opening the book. Once the book is open, her eyes keep going, and the step has done its job.",
+   "On her page called Later, Priya writes a tiny version beside each waiting goal. Learning Italian becomes one word, cooking at home becomes washing one vegetable, and quiet breathing becomes three slow breaths.",
+   "At the end of the first week, Priya adds up her pages and finds seven. It is not much, but it is more than she has read in months, and she has kept her promise.",
+   "In the second week a busy evening arrives, and Priya forgets her page. She remembers at midnight, in bed, and decides to do it tomorrow.",
+   "Sam listens to the story of the forgotten page. He says that a new step needs an anchor, a moment that already happens every day.",
+   "Priya thinks about the moments that never change in her day. Every morning she pours her coffee, so she decides that the page will come right after the coffee.",
+   "Sam lists some good anchors: brushing your teeth, boiling the kettle and locking the front door. Each one happens every day, in the same place, almost without thought.",
+   "Priya writes her plan as one clear sentence on a sticky note. It says that after she pours her coffee, she will read one page of the blue book.",
+   "Sam warns her about weak anchors such as “in the evening” or “when I have time.” They move around the day, and so they are easy to miss.",
+   "The coffee anchor works well for the first three days of the plan. On the fourth morning she buys a coffee on the way to work, and the book is sitting at home.",
+   "Priya decides that an anchor must be a moment and a place together. Her plan now happens at home, in the kitchen, beside the machine that makes the coffee.",
+   "Priya adds a backup plan for days when the first anchor fails. If she misses her coffee-time page, she will read it after brushing her teeth at night.",
+   "After about two weeks of mornings, Priya notices something that she did not expect. She pours her coffee, and her hand is already reaching for the blue book before she has even thought about it.",
+   "Sam says that a habit needs to be easy to see. If the book is on the counter and the shoes are by the door, Priya cannot miss them.",
+   "Priya remembers where her books have lived for the past two years: on a high shelf, behind the bedroom door. Out of sight, they were also out of mind, and she hardly noticed them.",
+   "Sam shows her his piano, with the lid already raised and the music open on the stand. He says that on the mornings when he forgets, the piano reminds him.",
+   "That evening Priya takes the blue book from the bedroom and places it on the counter, right next to the coffee machine. Now she cannot make a cup of coffee without seeing it first.",
+   "Sam calls the extra effort between you and a habit friction. Every small obstacle, such as a drawer to open or a bag to find, makes the habit a little harder.",
+   "Priya counts five little jobs between her and her reading, from finding her glasses to clearing the table. In a single evening she removes most of them by keeping her things together.",
+   "Before bed, Priya lays out everything for tomorrow: her book on the counter, her shoes by the door and a glass of water. In the morning, the choices have already been made.",
+   "Priya worries for a moment that making things so easy is a kind of cheating. Sam says that it is simply good design, like a path with no stones in it.",
+   "Sam says that remembering is the least reliable tool she owns. Instead of trying harder to remember, she should arrange her home so that it reminds her.",
+   "Priya looks at her counter, with its lamp, its mug and its blue book. It is not a library, but it is a little corner that belongs to her habit.",
+   "Sam says that friction works the other way too. To cut down a habit you do not want, add steps, and Priya puts her phone in a drawer across the room.",
+   "Priya admits that she scrolls in bed every night, usually for far longer than she means to. The next day she often feels more tired than she should.",
+   "Priya plugs the charger into a socket in the hallway, far from her bed. The phone now sleeps there, and an old alarm clock takes its place beside her pillow.",
+   "On the first night, Priya reaches for her phone, and her hand finds only the cool pillow. She feels restless for a few minutes, and then the room grows quiet and she falls asleep.",
+   "Sam says that the aim is not to lock the phone away for ever. It is only to make the habit one step harder, so that you choose it on purpose.",
+   "Priya tries the same trick with the television in her living room. She puts the remote on a high shelf, so that switching it on takes a small effort.",
+   "Sam tells her a story about his own habit of eating biscuits with tea. He moved the tin to a high shelf and left apples on the table, and soon he hardly missed the biscuits.",
+   "Priya sees that friction has two sides, and that she can use both of them. She wants to take it away from the habits she wants and add a little to the habits she does not.",
+   "Without the phone to compete with, Priya finds that one page often turns into two or three. Nobody told her to do it, and she is surprised by how pleasant it feels.",
+   "After a few weeks, Priya takes stock of her evenings. The room that once pulled her to the sofa and the phone now pulls her, gently, to a chair and a lamp.",
+   "Sam says that a step should end with something pleasant. After her page, Priya takes a slow sip of her coffee and looks out of the window.",
+   "The brain links an action with the feeling that follows it. If a habit feels like a chore, it stays hard, but if it ends with a good feeling, it gets easier.",
+   "Priya tries several small treats after her page, such as a song, a square of chocolate or a walk to the window. Sam says that a good treat is small, quick and does not spoil the habit.",
+   "Sam suggests that Priya mark each day she completes her step. She ties a red pen to the calendar by the fridge, ready for the first cross.",
+   "After five days of marking, Priya has five red crosses in a row. She is surprised by how proud they make her, and by how much she wants to keep the line going.",
+   "Sam says that being able to see your progress is a reward in itself. The crosses show Priya what she has done, even on days when she feels that nothing has changed.",
+   "Sam explains why a small reward right away matters. The big benefits of a habit often arrive months later, and the brain needs something pleasant today.",
+   "After each page, Priya says the word “done” out loud and gives a small, silly smile. Sam says that he does the same, with a tiny bow to his piano.",
+   "One morning, the page ends with a sentence that Priya loves. She copies it onto a card and sticks it beside the coffee machine, where she will see it again.",
+   "After two weeks of marking the calendar, Priya has ten red crosses. Her mornings feel a little calmer than before, and she cannot quite say why.",
+   "After a long night at a friend's birthday, Priya wakes late and rushes out of the door. That evening she sees an empty square on the calendar, and her stomach drops.",
+   "A familiar voice in her head says that she has ruined everything, and Priya feels the old shame creeping back. This, she thinks, is exactly how every earlier plan ended.",
+   "Sam is not worried at all, and he answers with a smile. He says that one missed day is normal, and that a single cloudy day does not end the summer.",
+   "The next morning, Priya pours her coffee and reads her page as if nothing had happened. Sam says that the first miss is an accident, but the second can become a new habit.",
+   "Priya makes a rule for herself: after a missed day, she will do the tiny version at once. Even one line of one page is enough to keep the path alive.",
+   "Priya sees the trap in her old thinking: if a plan cannot be perfect, it is ruined. She tears up an old schedule of perfect days and decides that a small imperfect step beats no step.",
+   "Priya remembers her old habit of saying that, because she missed Monday, the whole week was lost. She would wait for the next Monday to begin again, and somehow it never arrived.",
+   "Priya is surprised to find that starting again feels like a small victory. It shows her that one mistake does not have to end the story.",
+   "Priya looks at the calendar again with a calmer and kinder eye. The empty square is still there, but so are all the crosses, and the crosses are far more numerous.",
+   "Two days later, Priya counts twelve crosses in thirteen days. A year ago she would have called it a failure, but now she calls it a success.",
+   "Sam says that a habit is easier to keep when someone else knows about it. So far only he knows, and Priya wonders who else she could tell.",
+   "On Saturday Priya meets her friend Mei at a café by the market. Mei has been learning ten Spanish words a day, with sticky notes all over her fridge.",
+   "Priya admits that her habit is only one page a day. Mei laughs, and then she admits that her Spanish began with only two words.",
+   "Sam explains why telling someone else can make such a difference. When another person knows your plan, they might ask about it, and a promise made aloud is harder to drop in silence.",
+   "When Priya mentions her habit to Jo at work, Jo makes a joke about it. Sam says to choose carefully, and to tell people who are kind and not people who tease.",
+   "Priya and Mei agree to send each other a short message every Sunday. It will be a photo of a page or a word list, with no pressure and no competition.",
+   "On the first Sunday, Priya sends a photo of the blue book, and Mei sends a photo of her fridge. They both feel a small thrill of being part of something.",
+   "A few weeks later, Mei writes honestly that she has missed three days of Spanish. Priya does not scold her, but replies that tomorrow is a perfect day to begin again.",
+   "Priya notices that her habit no longer feels like a lonely test. Mei and Sam are cheering her on, and she is cheering for them.",
+   "Sam looks very pleased as he sips his tea. Three people within a few streets of each other are now taking tiny steps every single day.",
+   "After a week of late nights, Priya finds that even one page feels heavy. Sam says that habits are much easier to keep when you have enough energy.",
+   "Priya chooses a bedtime and keeps to it on most nights. She dims the lights early, and the dark, quiet bedroom starts to feel like a welcome.",
+   "Priya notices that her best energy comes in the morning, before the day has asked anything of her. That is also when her tiny habit takes place, which turns out to be lucky.",
+   "Sam says that surroundings shape choices more than we think. If a fruit bowl sits in the middle of the table, a person will eat more apples without noticing.",
+   "Priya buys a large fruit bowl and puts it in the middle of the kitchen table. She puts the biscuits at the back of a cupboard, where she has to look for them.",
+   "Priya brings an old armchair into the corner beside the window and adds a small lamp. Sam says that giving a habit its own place helps the habit feel real.",
+   "After a few weeks, the chair begins to work by itself. As soon as Priya sits down in it, her mind seems to know that it is time to read.",
+   "Priya makes a rule that the chair is for reading only. She does not bring the laptop or the phone there, so that the place keeps its meaning.",
+   "To make room for the chair, Priya clears the corner, which is full of old things. She finds a box of forgotten items and takes it to a charity shop.",
+   "On a cold evening, Priya wraps herself in the blanket and opens the blue book in her chair. She reads three pages, because she wants to and not because she has to.",
+   "Most nights, Priya sits on the sofa and eats a whole bag of crisps without really tasting them. Sam asks her to be curious about the habit, and not ashamed of it.",
+   "Sam tells her that to change a bad habit, she must first notice what happens just before it. For three evenings Priya keeps a note beside the sofa.",
+   "When Priya reads her notes, a clear pattern appears on the page. The crisps came after a hard email or a long meeting, and it was never really about hunger.",
+   "Sam says that bad habits often begin with boredom, stress or tiredness. If Priya names the feeling out loud, it loses some of its power.",
+   "Sam says that it is hard to remove a habit without putting something in its place. Priya wants something crunchy and comforting, so she tries a bowl of plain popcorn.",
+   "On the first evening, the popcorn feels like a poor substitute, and Priya misses the salty crisps. By the second night it is easier, and by the end of the week she hardly thinks about it.",
+   "One night the urge is very strong, so Priya sits quietly and watches the clock. After a few minutes, to her surprise, the feeling begins to fade.",
+   "Sam says that an urge is like a wave. It rises, reaches a top and then falls again, and the trick is to stay on the beach until it has passed.",
+   "Mei has a bad habit of her own: she checks work email at dinner. She turns off the alerts on her phone, and the habit loses its trigger.",
+   "Priya does not ban crisps for ever, because strict bans often backfire. On Friday evenings she chooses a small bowl and enjoys every bite, and it feels like a treat instead of a habit.",
+   "After several easy weeks, Priya wonders whether it is time to grow. Sam says that when a step feels easy for a while, she may make it a little bigger.",
+   "Sam says that growth should be gentle, like a staircase and not a cliff. If the new size starts to feel hard, Priya should step back for a while.",
+   "Over the next month, two pages become three, and three become five. Without noticing, Priya is soon reading for about five minutes every morning, and it is her own choice.",
+   "On a very hard day, Priya has a headache and a late meeting. She reads just one line of the blue book, and Sam says that on days like this the habit matters more than the amount.",
+   "When reading feels steady, Priya thinks about a second habit from her Later page. She chooses stretching for one minute, because she often wakes with a stiff back.",
+   "Priya does not need a new anchor for the stretch, because she already has one. When she closes the book, she stretches for one minute, and the first habit leads into the second.",
+   "After many weeks, Priya feels that nothing dramatic has changed. Sam points to a kettle on the stove and says that the water is getting hotter, even though it is not boiling yet.",
+   "Priya looks in the mirror and sees the same face, in the same flat, with the same job. Then she notices the small signs: she is calmer, she reads more, and she dreads her evenings less.",
+   "Other small things begin to improve without any plan. Priya's desk is tidier, her bag is packed the night before, and she feels more in charge of her days.",
+   "Priya counts about fifty crosses on the calendar, and the pencil circle two months away is getting close. The habit is easier now, but it is not yet automatic, and she decides to keep going.",
+   "Sam says that small amounts of time add up. Ten minutes a day is about sixty hours in a year, which is more than a full working week.",
+   "Priya does the sums for herself on the back of an envelope. She checks them twice, because the answer seems far too big for such a small habit.",
+   "One page a day adds up to three hundred and sixty-five pages in a year. That is the length of a long novel, and she would have read it without ever feeling busy.",
+   "Mei has done her own sums, and she shows them to Priya with pride. Ten new words a day would give her about thirty-six hundred words in a year, which is a very good start for a language.",
+   "Sam takes down an old glass jar that is almost full of coins. He has dropped one coin into it every morning since he retired, and now it needs two hands.",
+   "Priya feels sluggish one morning, but she reads her page anyway and ticks the box. Sam says to judge each day by what you did, and not by how you felt.",
+   "Priya learns to hear the words “I don't feel like it” as a passing thought. It is not a verdict, and it does not have to decide what she does next.",
+   "One wet, grey morning, Priya has no motivation at all. The routine carries her anyway, because her hand has already reached for the book.",
+   "Some days Priya reads with a wandering mind and forgets what she has read. Sam says that a badly read page still counts, because the habit is made of showing up.",
+   "One bright morning in late April, Priya reads the last page of the thin blue book. It is the first book she has finished in over a year, and she holds it to her chest for a moment.",
+   "In early May, Priya must go away for work for three days. She packs her new library book at the very top of her bag, because travel breaks routines more easily than anything.",
+   "The hotel room has no coffee machine, so her usual anchor is gone. Priya makes tea with the little kettle instead and reads her page beside the window.",
+   "On the second day, Priya's train is delayed for forty minutes. She uses the waiting time to read her page, and a few more besides.",
+   "A few days after the trip, Priya catches a heavy cold and stays in bed. She reads one line of her book, which still counts, and then she rests.",
+   "Soon after, a big deadline at work fills every hour of the week. Priya uses the smallest version of her habit, and she does not feel guilty about it.",
+   "At the end of May, Priya's landlord decides to sell the house, and she must find a new home. She finds a flat only five minutes from Sam's house, which is a great relief.",
+   "On moving day, the book disappears into a box, and for two mornings Priya does not read a page. She finds it at last in a box marked kitchen, under a pile of tea towels.",
+   "Sam says that when life changes, the old anchor may be gone. In the new kitchen, Priya chooses a new one: she will read her page after she switches on the kettle.",
+   "Her older brother Dev comes to stay for a weekend. While he sleeps on the sofa bed, Priya makes her tea and reads her page in the early light.",
+   "Looking back at the busy month, Priya sees that the habit survived travel, illness, a deadline and a move. It bent in every direction, but it did not break.",
+   "Priya looks at her long row of red crosses with quiet pride. Each one is a small piece of proof that she can keep a promise to herself.",
+   "Sam says that trust is built by keeping promises, and that this is true even when the promise is to yourself. Each kept promise makes the next one easier to believe.",
+   "Priya thinks of all the January lists she did not finish. Now she understands why she stopped believing herself: each broken promise had taken a little trust away.",
+   "Sam says that harsh words make a person more likely to quit, and not less. Priya writes two words on a sticky note and puts it on her mirror: be kind.",
+   "Priya tries a simple test whenever the harsh voice in her head begins to speak. When she misses a day, she asks how she would talk to Mei, and she uses the same gentle voice with herself.",
+   "Sam suggests a short review every Sunday evening, to see how the week has gone. Priya sits with her notebook and a cup of tea and looks back.",
+   "Priya's review has only three questions, and each one is easy to answer. What went well, what was hard, and what will she change next week?",
+   "Her review shows a pattern: on Tuesdays Priya leaves home early and skips her page. She does not blame herself, but changes the plan and reads on the bus on those days.",
+   "Sam suggests that Priya treat her habit as an experiment. When something does not work, she says it is interesting, and not a failure, and she asks what she can learn.",
+   "After several Sunday reviews, Priya has a small stack of notes. Reading them, she realises that she has begun to trust her own word again.",
+   "On a sunny Saturday in June, Priya counts one hundred days since she began. She buys a small cake and invites Sam to her new flat.",
+   "Together they count the red crosses on the calendar by the fridge. There are about ninety in a hundred days, and every gap is a day that she has already forgiven.",
+   "Sam raises his fork and says that celebrating small wins is not silly. It keeps the habit enjoyable, and an enjoyable habit is one that lasts.",
+   "Sam has brought a small present, wrapped in newspaper. It is a wooden bookmark with two words carved along one edge: next page.",
+   "Priya visits her brother Dev and his family one Sunday afternoon. In the bright kitchen everyone cooks together, while his eight-year-old daughter Ada sits at the table with a book.",
+   "Ada asks why her aunt reads only one page a day. Priya explains that it is like brushing teeth: a tiny job, every day, that adds up to something big.",
+   "Ada draws her own calendar on a large sheet of paper. Every night she will add a gold star when she has read one page of her own book.",
+   "A new habit is born: every Sunday afternoon, Priya reads a short story to Ada by video call. Ada follows in her own copy, turning each page with great care.",
+   "The next evening, Sam plays Priya his tune on the old piano. It took him about two years of five-minute sessions, and it is slow, simple and lovely.",
+   "One morning Priya notices that her sticky note has fallen off the kettle and she never missed it. Her hand went to the book by itself, which shows that the habit no longer needs a reminder.",
+   "In the months after the celebration, the excitement fades. Reading her page is now a plain routine, and Priya feels that she has reached a long, flat plateau.",
+   "Priya tells Sam that the habit is no longer exciting. He grins and says that this is good news, because it means the habit is becoming part of the furniture.",
+   "Sam tells her about his own flat stretch at the piano. For months he played the same few notes, and he could not hear any improvement at all.",
+   "Sam says that boredom is the real test of a habit. When the novelty has gone, whatever remains is what you truly own.",
+   "Sam suggests that she change the book and not the habit. At the library, Priya picks a mystery, a book about stars and a book of old stories.",
+   "To keep things playful, Priya starts a small game. Each week she chooses one new word from her reading and tries to use it in a message to Mei.",
+   "Priya notices that some of her old habits no longer help her. She puts a pile of unread magazines into the recycling bin and feels lighter.",
+   "Sam says that habits are tools, and not duties. A tool is useful for a time, and when the job changes, it is fine to put it away.",
+   "The one-minute stretch has now been steady for several months. Priya looks at her Later page and wonders whether a third habit might be ready to begin.",
+   "Priya crosses out the goals on her Later page that no longer appeal to her, with no guilt at all. One stays, and she circles it: a walk, starting with just one minute.",
+   "The year goes by, and New Year's Eve comes round again. Priya opens her desk drawer to look for a pen and sees the old list at the bottom.",
+   "The old list asks her to run a marathon, learn Italian, read fifty books and become organised. Priya laughs, not unkindly, at the woman who wrote it.",
+   "Then Priya counts what she has really done during the long year. She has finished about ten books this year, more than in the five years before, and not one of them took a heroic effort.",
+   "Priya admits that nothing dramatic has happened, and nobody has noticed a big change. Yet she reads every morning, stretches, walks most days and sleeps well, and her life feels like a different one.",
+   "This time Priya writes a very different kind of list on a clean page. It has only three lines, and every line is a step so small that it would fit into a single minute.",
+   "At midnight, Priya and Sam raise their teacups in his garden as fireworks bloom overhead. Sam says that she did not change her life in a day, but changed one small minute again and again.",
+   "A message from Mei arrives on Priya's phone, with a photo of a table in Spain. Mei has ordered a whole dinner in Spanish, using words she learned a few at a time.",
+   "Before bed, Priya writes the lessons on a card for the fridge. Make the step tiny, tie it to your day, make it easy to see, and end it with something pleasant.",
+   "On a second card, she writes the lessons about the hard days. Be kind to yourself, begin again at once after a miss, and be patient with the slow weeks.",
+   "At sunrise on New Year's Day, Priya stands at her front door with one shoe on, ready to begin again. You can do the same today: pick one tiny step, tie it to your day, and start."
+  ],
+  "C1C2": [
+   "Every New Year's Eve, Priya filled a fresh page with ambitious goals: run a marathon, learn Italian, read fifty books, and finally become the organised person she imagined herself to be. She wrote them in her best handwriting, with a glass of lemonade beside her and the first fireworks already popping outside. This book is about why such lists so often fail, and about a much gentler way to change.",
+   "On the first morning of the year, Priya woke before her alarm, buzzing with the kind of energy that makes any plan feel easy. By lunchtime she had bought a shiny gym bag, a pair of running shoes and an expensive planner with a page for every hour. It seemed to her that the hard part was over, and that only the pleasant part, becoming a new person, remained.",
+   "For the whole of the first week, the plan worked exactly as she had imagined it would. She ran through the cold park at dawn, studied Italian over lunch, and read for a full hour each night, telling anyone who would listen how well it was going. For those few days, she felt like a person whom nothing in the world could possibly stop.",
+   "In the second week the rain began, and Priya had stayed up late finishing a film. When the alarm rang in the dark, she reached out of the warm bed, silenced it, and promised herself that she would run twice as far tomorrow. Tomorrow, as it turned out, was colder still, and the promise quietly melted away.",
+   "The gym bag stayed where she had dropped it by the front door, and soon she was stepping around it as one steps around a sleeping dog. Every glance at its bright zip brought a small pinch of guilt, which she tried to cure by looking somewhere else. The bag, of course, said nothing at all, yet it seemed to say a great deal.",
+   "The trouble with the plan was its size, since it demanded two full hours of effort from a woman who usually reached home hungry and exhausted. On an ordinary evening the task seemed as heavy as a mountain, and she searched for any excuse to put it off. Each skipped evening then made her feel a little more like a failure, which made the next evening harder still.",
+   "One grey Saturday she opened a drawer in search of a pen and found two older lists folded small, one from each of the previous years. The goals were almost identical, with only the handwriting a little more hopeful, and the story behind each one had ended in the same quiet way. It was an odd feeling, as though she had been rereading a book she already knew by heart.",
+   "Standing in front of the mirror, Priya told herself, quite sincerely, that she was lazy and had no willpower, and that some people were simply made differently. It is a comforting story in a gloomy sort of way, because it asks nothing of us except to give up. The better question, which this book will keep asking, is whether the plan was ever built for a real person on a real Tuesday.",
+   "Motivation behaves like the weather: it arrives without warning, lingers for a while, and leaves just when it is most needed. Nobody would build a house that stands only on sunny days, yet we build our plans in exactly that way. A better plan must work even on the grey mornings, when the feeling has gone and only the schedule remains.",
+   "By the middle of February, the list had slipped to the bottom of the drawer, where it lay beneath its older brothers, and the old routines had quietly returned. Priya closed the drawer and, with a small sigh, decided that she would not write another list until she understood what had gone wrong. She did not yet know that the answer was waiting on the other side of her garden fence.",
+   "On Saturday morning, Priya went out to hang the washing in the narrow back garden, still thinking about the drawer. On the other side of the fence stood Sam, a retired teacher in his seventies, who was watering his tomatoes with the slow care of a man in no hurry. He looked up, saw her face, and said that she looked like somebody who needed a cup of tea.",
+   "Sam brought two mugs of strong tea and set them on the bench that stood beside the fence, where the two gardens almost met. Priya, who had meant to say that she was fine, found herself telling him the whole story instead: the long list, the shiny bag by the door, and the drawer. He listened without interrupting once, which was a rarer and more welcome gift than she had expected.",
+   "When she had finished, Sam asked two simple questions: what had she done on the very first day of the plan, and what on the last? Priya counted on her fingers and was startled to discover that the first day had demanded two hours of effort, while the last had demanded nothing whatsoever. That plunge from everything to nothing, he said gently, is how a plan too ambitious for real life usually ends.",
+   "He had watched many students make the same mistake, Sam said, and the cure was never more willpower but a smaller beginning. He asked her to try a single step so tiny that she could do it even on her very worst day. Priya raised an eyebrow, because it sounded far too easy to be of any use.",
+   "Priya laughed, since it seemed obvious to her that a tiny step could not possibly change anything of importance. Sam only smiled and pointed out that a small thing done every day will outweigh a large thing done once in a while, however grand the large thing may feel. She had to admit that her last three lists were a good argument on his side.",
+   "To prove his point, Sam told her about the old piano that stood in his front room. When he retired, he had wanted to learn it, but long practice sessions kept slipping away, so he promised himself only five minutes each morning. At first it sounded like nothing, yet, unlike the long sessions, those five minutes always happened.",
+   "Priya was not convinced, and she said that five minutes could not possibly change a person's life. Sam agreed that no single five minutes ever could, but he reminded her that a life is only a long row of days, and that what happens in the days is mostly what happens in the life. The idea was simple enough to be slightly annoying, and it stayed in her head.",
+   "A small step, Sam explained, is an action so modest that refusing it would feel almost ridiculous, and it should take no more than a minute or two. Reading a single page, drinking a glass of water, or doing five slow squats all qualify. The point is not what the step achieves today, but how easily it can be repeated tomorrow.",
+   "Sam offered a test that she could use for the rest of her life: imagine the worst day you can, with a headache, a deadline, and a train that never comes. If you could still manage the step on that day, he said, then it is small enough, and if you could not, it is still too big. Priya found, to her irritation, that nothing on her old list passed the test.",
+   "Priya was still not certain that Sam was right, but a week was a small price for finding out, and her own methods had failed three times. She agreed to try one tiny step for seven days, and she thanked him for the tea and for his odd, stubborn encouragement. As she walked back across the grass, she had the unfamiliar feeling that something might finally be about to change.",
+   "Sam led her to the little gate at the end of the gardens, beyond which a wide green field rolled toward the railway. Across the grass ran a pale, narrow line, as clear as a pencil mark, which no council or gardener had ever planned. He asked her to look at it carefully, because it contained everything he wanted to tell her.",
+   "Nobody had dug that path, Sam explained, and nobody had decided that it should exist. People had simply crossed the field from the same corner on their way to the station, day after day, until their feet had pressed a line into the earth. One walk had left almost no trace, but a thousand walks had made a road.",
+   "The human brain is a thrifty organ, always looking for ways to save energy, and one of its favourite tricks is to turn repeated behaviour into an automatic routine. Once an action has become automatic, it demands very little thought and almost no willpower. A habit, in other words, is simply a path that the mind has learned to follow without asking for directions.",
+   "Sam asked her whether she had to persuade herself to brush her teeth each night, and she laughed, because the answer was obviously no. The task had once been tiresome, with a parent standing over her and the taste of mint making her cross, but repetition had worn it smooth. That was precisely the kind of ease he hoped she would one day feel about the things that mattered to her.",
+   "Walking to the bus stop the next morning, Priya noticed how much of her day ran on autopilot: the route she took, the way she poured her coffee, and the order in which she locked the door. Most of it was useful, because it freed her mind for more interesting matters. It struck her that she had never actually chosen any of these routines, which meant that she could choose new ones.",
+   "The same machinery, she realised with a slight shudder, also builds the habits that people would rather be without. The packet of crisps on the sofa and the long scroll through her phone before sleep were paths too, trodden smooth by thousands of repetitions. The brain does not ask whether a path is good for us, only whether it is familiar.",
+   "Every new path begins faint, Sam warned her, because the grass springs back after each pair of feet has passed. That is why a new habit feels awkward and unnatural in the early days, and why so many people conclude too soon that it will never work. It is not that the path is failing to form, only that it is not yet visible.",
+   "In one well-known study, researchers in London followed volunteers who were trying to make a new action automatic. It took about two months on average, although the time varied widely, and some people needed much longer. The lesson is not to expect a magic number, but to be patient with yourself.",
+   "Back in her kitchen, Priya took a pencil and drew a soft circle around a date two months away on the calendar beside the fridge. It was not a deadline, she told herself, but a reminder that she had given the experiment a fair length of time. She felt oddly relieved, as though somebody had finally told her how long the journey was.",
+   "Sam's final remark stayed with her all evening: on day ten you are not failing, you are standing on a faint path. All her life she had expected a new plan to feel natural after three days, and when it did not, she had taken it as proof of her own weakness. Now she saw that this expectation had been the real trap, and that the plan itself might have been fine.",
+   "The next morning, Priya was so excited that she wrote five habits in her notebook: running, reading, studying Italian, quiet breathing, and cooking at home. She could not see why a person should wait when there were so many things to improve at once. On Monday, she decided, she would begin them all together, with a tiny step for each.",
+   "Over the fence, Sam studied the list and raised his eyebrows in a way that had once silenced entire classrooms. Even tiny steps, he said, need attention and energy, and a person has only so much of either on a given day. Five at once, however small, would be like trying to carry five cups of tea in two hands.",
+   "Sam advised her to begin with only one habit and to give it her full attention for a while. When it stood on its own, he said, there would be time to add another, and then another, each one resting on the work of the last. A wall built one brick at a time, he added, is far more likely to be standing next year than ten walls begun together.",
+   "Priya wondered how to choose among her five ideas, and Sam gave her two questions to ask. Which of them did she want most, deep down, and which would she be able to feel in her daily life within a few weeks? A habit that rewards you soon, he said, is easier to keep than one whose benefits are hidden far in the future.",
+   "Priya's eyes fell on the photograph held to her fridge by a small magnet: her mother, reading in a sunny garden with a cup beside her. She looked from the picture to the five habits on the page, and the answer arrived without any effort. Of all the goals, the one that made her throat tighten was the one about books.",
+   "As a girl, Priya had sat beside her mother on a wooden bench in that garden, listening while she read aloud, and the afternoons seemed to last for ever. When her mother died, the books stayed on the shelves like guests who had been forgotten, and Priya, without ever deciding to, stopped opening them. She had not realised until now how much of the silence in her life was the silence of unread pages.",
+   "A reason, Sam told her, has to belong to you, because borrowed reasons are the first to fall away when the going gets hard. Priya crossed out the word should in her notebook, which had always sounded like a stern teacher, and wrote the word want in its place. The small change made the whole idea feel lighter, and strangely more possible, as if a window had been opened.",
+   "Then she took a small white card and wrote on it her reason, which was that she wanted to sit with her mother's books again. She stuck it to the fridge beside the photograph, where she would see it every time she reached for the milk. A reason you can see, Sam would later tell her, is worth ten that you merely remember.",
+   "Priya did not want to throw the other four goals away, and Sam assured her that she need not, since they were only waiting. She copied them onto a fresh page headed Later, and found that the act of writing them down made it easier to leave them alone. They were not abandoned, she felt, but merely standing in a queue with polite patience.",
+   "Priya closed the notebook with a firm and satisfying click, and announced across the fence that her one habit would be reading. Sam, who had been pretending to inspect a tomato plant, nodded with the quiet approval of someone who has seen it work before. For the first time in years, she felt that she was beginning something rather than merely planning it.",
+   "Priya's first idea was to read for an hour each evening, but Sam asked her to shrink it until it felt laughably easy. After some thought, she settled on a single page a day, which she could finish even when she was ill, late or cross. If she wanted to read more once she had begun, she was free to do so, but one page was the promise.",
+   "Priya protested that a single page was silly, a task so small that a child could do it in her sleep. Sam replied, with a satisfied nod, that this was exactly the point, because a step that cannot be refused will be taken on the days when nothing else is. She suspected that he had given this answer many times before, and that it had always worked.",
+   "Every large goal, Sam explained, has a tiny version hiding inside it, like a small seed inside a large and intimidating fruit. Running becomes putting on your shoes, writing a book becomes one sentence, and getting fit becomes a single push-up beside the bed. Priya laid out her own examples on the table and was amused to see how small they all looked.",
+   "A good small step, Sam said, takes a minute or two and never more, and the only honest way to know is to time it. Priya set the kitchen timer to sixty seconds and read one page aloud, and she was astonished to finish with ten seconds to spare. The little test had shown her just how small an amount of time her many excuses had been protecting.",
+   "Sam insisted that her step be specific, because a wish such as reading more gives the mind nothing to hold on to. On the following Monday she wrote, with a firm pencil, that she would read one page of the thin blue book of short stories, and the sentence felt solid in her hand. A clear instruction is a gift to the tired person you will be later.",
+   "That evening, Priya sat at the kitchen table, opened the thin blue book, and read a single page, which took about ninety seconds. It felt absurdly small, like drinking a thimble of water after a long walk, and she waited for some great feeling that did not arrive. Still, when she closed the cover, she noticed a faint warmth in her chest that she had not felt for a long time.",
+   "Sam had told her that doing more was allowed but never required, and on the second evening she tried an odd experiment: she stopped after one page, although the story was just becoming interesting. To her surprise, the unfinished tale pulled at her all the next day, and she looked forward to the evening in a way she had not done for months. Leaving a little hunger behind, it seemed, is a good way to ensure a return.",
+   "Priya noticed that the hard moment was never the reading itself but the instant before it, when the book lay closed and the sofa called loudly. Once the cover was open, her eyes kept moving of their own accord, and the page was finished before the argument in her head could begin. A tiny step, she decided, is less an action than a doorway, and the whole difficulty lies in stepping through it.",
+   "On the page headed Later, Priya wrote a tiny version beside each of the goals that were waiting. Learning Italian became a single new word, cooking at home became washing one vegetable, and quiet breathing became three slow breaths before bed. It was pleasing to see that none of the four now looked like a mountain, only like a small and friendly hill.",
+   "At the end of the first week, Priya added up her pages and found seven, one for each evening. It was not much by any grand standard, yet it was more than she had read in months, and it was the first promise to herself that she had kept for a whole week. She walked next door to tell Sam, who listened solemnly and then asked, with a twinkle, whether the pages had felt easy.",
+   "In the second week a busy evening swallowed her whole: a late meeting, a long queue at the shop, and a phone call that refused to end. By the time she thought of the blue book, she was already in bed, and the warm blankets made a good argument for tomorrow. She lay in the dark, annoyed, because the step had been so small that forgetting it felt almost embarrassing.",
+   "Sam listened to the whole story of the forgotten page without any sign of surprise or disappointment. A new step, he said, needs an anchor: a moment that already happens every day, whether or not you feel like it, and to which the new habit can be attached. Without one, a habit is like a boat left drifting on the water, which no one can be sure of finding again.",
+   "Priya considered the moments in her day that never changed, and one stood out at once: every single morning, without fail, she poured herself a cup of coffee in the kitchen. She decided that the page would follow the pouring, so that the old habit would carry the new one along with it. The coffee, in a sense, would do the remembering for her, and it would never once forget its part.",
+   "Sam listed some reliable anchors on his fingers: brushing teeth, switching on the kettle, locking the front door, sitting down on the bus. What they share, he pointed out, is that they happen daily, in the same place, almost without thought, which makes them dependable hooks for something new. A good anchor, he added, is never exciting or clever, but it is always faithful, and that is all that is required.",
+   "Priya wrote the whole plan as one clear sentence on a yellow sticky note and pressed it onto the coffee machine. After I pour my coffee, it said, I will read one page of the blue book. She liked how plain it sounded, with no big promises, only a time, an action and a place.",
+   "Sam warned her about weak anchors, such as in the evening or when I have time. These float around the day like leaves on a pond, he said, and a habit with no fixed place is easily lost. The moment must be definite enough that you could point to it on a clock or a kitchen counter.",
+   "For three mornings the coffee anchor worked beautifully, and Priya felt rather pleased with herself. On the fourth day she was late, bought a paper cup on the way to work, and arrived at her desk with a coffee but no book, which taught her that an anchor also needs a place. She went home that evening and, with a little sigh, found the sticky note still waiting on the machine.",
+   "Priya understood that a good anchor is a moment and a place together, the way a coat hook is a place for a coat. Her plan would now live in the kitchen, at the coffee machine, at the start of the day, and nowhere else. The habit had a home at last, and homes are easier to find in the dark.",
+   "Priya added a second sticky note, this one on the bathroom mirror, for mornings when the coffee anchor failed. If the page had not been read by bedtime, it said, then she would read it after brushing her teeth. A backup plan, she reflected, is not a sign of weak confidence but of respect for how unpredictable ordinary days can be.",
+   "After about two weeks of ordinary mornings, Priya noticed something that she had not expected at all. She poured her coffee, and her hand was already reaching for the blue book before she had thought anything at all. It was the faintest of paths, hardly more than a few pressed blades of grass, but it was undeniably there.",
+   "A habit, Sam told her, also has to be easy to see, because the mind cannot act on what it has forgotten. If the book lay on the counter and the shoes stood by the front door, Priya would meet them at the very moment she needed them. Good habits, he added, like to be placed in the middle of the road.",
+   "Priya thought about where her books had lived for the past two years: on a high shelf, behind the bedroom door, under a thin coat of dust. Out of sight, they had also been out of mind, and she had gone months without even glancing at them. The shelf had not been hiding the books from her, exactly, but it had hardly been inviting her to open one.",
+   "Sam took her into his front room and showed her the old piano, its lid raised and a piece of music standing open, as though someone had just stepped away. On the mornings when he forgot his promise, he said, the instrument reminded him by simply being there, ready and slightly reproachful. It was always easier, he said, to sit down at the keys than to walk past them.",
+   "That evening she carried the blue book from the bedroom and placed it on the counter, directly beside the coffee machine and its yellow note. From now on she could not make a cup of coffee without seeing it, and that was entirely the idea. It was only a tiny rearrangement of the kitchen, but it quietly changed the shape of her whole morning.",
+   "Sam gave the extra effort a name: friction, the rubbing that slows everything down. Every small obstacle between you and a habit, whether it is a drawer to open, a bag to find, or a lamp to switch on, takes away a little of the energy you need for the habit itself. The task, he said, is to sand away as much of it as possible.",
+   "With a pencil, Priya counted the little jobs that stood between her and a single page: finding the book, hunting for her glasses, switching on a lamp, and clearing a space on the table. Five small obstacles, none of them serious, had been quietly adding up to a reason to stay on the sofa. In a single evening she removed most of them by keeping her glasses, her book and a small lamp together in one spot.",
+   "Before going to bed, Priya laid out what she would need in the morning: the book on the counter, her trainers by the front door, and a full glass of water beside the kettle. It was a small gift to her future self, who would wake up tired and unwilling to make decisions. By morning, the difficult part of each habit had already been done by somebody who was thinking clearly.",
+   "A small, stubborn voice in Priya's head suggested that this was cheating, since real success ought to feel difficult. Sam laughed and said that nobody calls a well-made road cheating just because it has no holes in it. Good design, he said, is simply the art of making the right action the easy one.",
+   "Memory, Sam observed, is among the least reliable tools a person owns, especially on a busy day when the mind is crowded with other matters. It is far wiser to arrange the world so that it does the reminding, by placing the right object in the right spot at the right time. Priya looked around her kitchen and realised that it had begun to remind her already.",
+   "One morning Priya stood back and looked at the corner of the counter that had quietly become her reading place: a small lamp, a mug, and the blue book with its bookmark leaning like a tired traveller. It was no library, and it would never appear in a magazine, but it belonged entirely to the habit she was building. She felt a quiet pride, the kind that comes from making something with your own hands.",
+   "Friction, Sam went on, works in the opposite direction as well: if you want to do less of something, make it a little harder to begin. Priya considered her phone, which lived in her hand from the moment she woke until the moment she slept, and decided to try an experiment. That night she placed it in a drawer on the far side of the room.",
+   "When she was honest with herself, Priya admitted that the evenings had been quietly vanishing into her phone. She would pick it up to check one message and look up, with a start, a long time later, her eyes dry and her mind strangely empty. It was not that the phone was wicked, but that it was so easy, and she had made it the easiest thing in the room.",
+   "Priya moved the phone charger to a socket in the hallway, well out of reach of her bed, and dug an old alarm clock out of a cupboard to take its place at her bedside. It was a modest change that required no promises and no lectures from anyone. The phone would still be there if she truly needed it; it would simply no longer be there by accident.",
+   "On the first night, her hand went out to the pillow for the phone, as it had done a thousand times before, and found nothing but cool cotton. For a few minutes she felt restless and oddly bare, like someone who has left the house without keys. Then the room grew quiet, the clock ticked softly beside her, and she fell asleep sooner than she had in weeks.",
+   "Sam cautioned her against turning the experiment into a war between herself and the machine in her pocket. The aim was not to ban the phone for ever, which would only tempt her to break the rule, but to put one small step in front of the habit. A habit you choose is a servant, whereas a habit you fall into is a master.",
+   "Encouraged, Priya tried the same trick on the television, whose remote control had a habit of finding its way into her hand each evening. She placed it on a high shelf in the bedroom, so that switching on a programme now required a short and slightly ridiculous journey. Some nights she made the journey, but on others she found that she did not want it enough.",
+   "Sam confessed that he too had once fought a battle with the biscuit tin, which sat beside the kettle and whispered to him every afternoon. Rather than relying on willpower, he had moved the tin to a high shelf and left a bowl of apples on the table, and within a few weeks the apples had become the natural choice. He still had a biscuit now and then, but now it was a decision.",
+   "Priya saw that friction had two faces, and that she could use them both to her advantage. She could sand it away from the actions she wanted to repeat, and she could add a little to the ones she wished to leave behind. It was like adjusting the slope of a hill so that water ran naturally toward the garden and away from the cellar.",
+   "Without the phone nearby to compete for her attention, Priya noticed that one page often turned into two or three. No rule had asked her to read more, and nobody was watching, so the extra pages had to be coming from somewhere inside her. It was a pleasant discovery, as though a dry spring had quietly begun to flow.",
+   "After a few weeks of small changes, Priya sat down one night and took stock of her evenings. The room that had once pulled her toward the sofa and the glowing screen now pulled her, almost imperceptibly, toward a chair and a lamp. She had not fought the old pull or won any great battle against it; she had merely moved the furniture of her days, and her feet had followed.",
+   "A habit that ends well is far more likely to return, Sam told her, because the mind remembers how a thing felt long after it forgets the details. So Priya made a small ritual of finishing: she closed the book, took a slow sip of coffee, and looked out of the window at the garden for a full minute. The page itself became a kind of key to the best minute of her entire morning.",
+   "Sam explained that the mind quietly links every action with the feeling that follows it, and that it will avoid anything it has labelled a chore. If a habit ends in a sigh of relief, it will always feel like homework, but if it ends in a small pleasure, the mind begins to look forward to it. The feeling at the end, in other words, is the part of the habit that does the persuading.",
+   "Priya experimented with a succession of tiny treats after her page: a favourite song, a square of dark chocolate, a stretch by the open window. Sam judged them by three rules, that a reward should be small, immediate, and in harmony with the habit it follows. A reward that undoes the habit, such as a long video that swallows the morning, was no reward at all.",
+   "Sam suggested that she keep score in the simplest possible way: a mark on the calendar for every day on which she completed her step. Priya tied a red pen to a string beside the calendar by the fridge, which already held the pencil circle two months ahead. The empty squares looked up at her like a long row of small and very patient windows.",
+   "After five days of marking, there were five red crosses in a row, each one drawn with a small flourish that she would have been embarrassed to admit. The line of crosses looked more impressive than five tiny pages had any right to look, and she found that she did not want to be the one to break it. It was a harmless sort of pride, she told herself, but it was undeniably real and rather warming.",
+   "Progress, Sam observed, is invisible until we find a way to look at it, and a calendar full of marks is a mirror that tells the truth. On days when Priya felt that nothing was changing, the crosses told a different story, one that was quiet, steady, and entirely in her own handwriting. Seeing the record each morning gave her a small, steady push in precisely the direction she wished to travel.",
+   "The real rewards of reading, Sam reminded her, such as new ideas and a quieter mind, would arrive slowly over months, and the brain is notoriously poor at waiting. That is why a small, immediate pleasure is so useful: it bridges the long gap between the effort today and the benefit far ahead. It is a little like leaving a string of cheerful lights along a dark road, so that the traveller does not lose heart.",
+   "It felt faintly ridiculous at first, but each morning Priya closed the book, said the word done out loud, and allowed herself a small, private smile. Sam confessed that he gave a tiny bow to his piano when he finished his five minutes, and that neighbours who had seen it through the window had learned to say nothing. The gesture was silly, and it worked, because the mind believes what the body celebrates.",
+   "One morning, the single page contained a sentence so lovely that Priya read it three times and then copied it onto a small card. She stuck the card beside the coffee machine, where it caught the morning light, and where it gave her something new to look forward to. Without any plan on her part, the habit had begun to produce its own small rewards, like a tree that bears unexpected fruit.",
+   "After two weeks of marking the calendar, there were ten red crosses in an unbroken line. Her mornings felt different, in a way she found hard to put into words: calmer, a little more spacious, and flavoured by something that she had chosen. A single page had changed the mood of the day's first minutes, and the first minutes, she was beginning to suspect, set the tone for the rest.",
+   "After a long night at a friend's birthday party, Priya woke late and ran out of the house without so much as a glance at the blue book. That evening, standing in the kitchen, she looked at the calendar and saw it: a single empty square at the end of a long row of crosses. Her stomach dropped, as though she had missed a step in the dark on a familiar staircase.",
+   "A familiar voice in her head announced that she had ruined it, that this was exactly how every earlier plan had ended, and that she might as well stop now. Priya recognised the voice at once, because it had been present at every funeral of every list she had ever written. For a moment, standing there in the kitchen light, she very nearly believed every word that it said.",
+   "When Priya confessed, expecting a frown, Sam only shrugged and said that one missed day was entirely normal. A single cloudy day does not end the summer, he said, and a single empty square does not cancel all the full ones before it. The danger was never the missed day itself, but what she decided it meant about her.",
+   "The next morning Priya poured her coffee, opened the blue book, and read her page as though nothing had happened, which, Sam pointed out, was precisely the right attitude. A first miss is an accident, he said, but a second miss in a row starts to become a new habit, and the pattern of missing is just as easy to build as the pattern of doing. The key, he said, is to restart at once, while the path is still warm and the grass has not yet sprung back.",
+   "Priya turned the lesson into a private rule that she wrote at the back of her notebook. After a missed day, she would do the smallest version of the step at the first opportunity, even if that meant reading a single line while the coffee was still pouring. The aim was not to catch up on what she had missed but to avoid becoming a person who gave up on Tuesday because she had given up on Monday.",
+   "Priya suddenly recognised the trap that had caught her on every earlier occasion: the belief that a plan is either perfect or worthless. She found her old schedule of flawless days, tore it neatly in half, and put the pieces in the bin with a feeling close to joy. A small and imperfect step, she realised, will always beat a perfect step that is never taken.",
+   "She remembered her old habit of declaring that, because Monday had gone badly, the whole week was lost and the sensible course was to begin again next Monday. Each fresh start had come with a new notebook, a new resolution and a quiet confidence that this time would be different. The truth was that the week had never been lost; she had simply stopped playing it.",
+   "Priya was surprised to discover that starting again felt like a small victory in its own right, quite different from the heavy gloom of earlier failures. Each time she returned after a miss, she gathered a little more evidence that a mistake did not have to be the end of the story. It was a quiet lesson, and it was one that no list had ever taught her.",
+   "Priya studied the calendar once more, this time with a calmer eye and a kinder heart. The single empty square was still there, a small white gap in a long red line, but it was surrounded by crosses on every side, and no amount of staring could make them disappear. It looked less like a failure than like a short breath between two long and perfectly good sentences.",
+   "Two days later, Priya counted the squares and found twelve crosses in thirteen days. A year earlier she would have called that a disaster, and thrown the calendar away in disgust, but now it looked to her like a victory. The method was working, she thought, not because it prevented every mistake, but because it knew exactly what to do after one.",
+   "Sitting together on the bench, they looked at a photograph of the calendar on Priya's phone, and Sam remarked that a habit is easier to keep when somebody else knows about it. So far, he was the only one who did, and he suggested, with a hint of mischief, that this was not quite enough. Priya began to run through the faces of her friends, wondering which of them she could trust with something so small and so embarrassing.",
+   "On Saturday morning Priya met her friend Mei at a café beside the market, where the smell of fresh bread drifted in from the next stall. Mei, who had been quietly learning Spanish for weeks, explained that she studied only ten new words a day, written on sticky notes that now covered her whole fridge. Priya listened with growing delight, because the plan sounded so much like her own.",
+   "Priya admitted, with some embarrassment, that her whole habit was one page of a thin book each morning. Mei laughed, but it was the warm laughter of recognition, and she confessed that her Spanish had begun with only two words a day, learned while waiting for the kettle. They looked at each other across the table like two people who had discovered the same secret door.",
+   "Telling someone, Sam explained, works for two quite separate reasons, both of them simple and both of them powerful. The first is that another person might ask how it is going, and the second is that a promise spoken aloud is much harder to abandon in silence than one that lives only in your head. Priya realised that all her earlier lists had been kept secret, and that nobody had even noticed when they disappeared.",
+   "When Priya mentioned her habit to Jo, a colleague who liked to joke about everything, the reply was a smirk and a remark about reading an entire page. Sam advised her to choose her audience carefully, since the person you tell should be kind and encouraging rather than someone who nags or teases. A listener who makes you feel foolish will make the habit feel foolish too.",
+   "Priya and Mei made a simple agreement: every Sunday evening, each would send the other a short message showing how the week had gone. There would be no prizes, no comparisons and no pressure, only a photograph of a page or a list of words and a word of encouragement. They were not rivals but, as Mei put it, two people leaning on the same fence.",
+   "On the first Sunday, Priya sent a photograph of the blue book with a pencil lying across it, and within a minute Mei replied with a picture of her fridge, bright with yellow notes. Priya felt a small thrill she had not expected, the pleasure of seeing her private effort become something shared. The messages were tiny, but they made the whole week feel witnessed, as though someone had been watching kindly from a window.",
+   "A few weeks later, Mei sent a rather sheepish message saying that she had missed three days of Spanish and felt dreadful. Priya, who had learned the lesson recently and painfully, did not scold or advise but simply replied that tomorrow was an excellent day to start again. It was strange and rather lovely to give her friend the kindness she had so rarely given herself.",
+   "Priya noticed that her habit no longer felt like a lonely test of character. Mei and Sam were cheering her on, she was cheering for them in return, and the ordinary mornings felt like part of a small and friendly team. It is much easier to continue along a path when you can see other people walking it.",
+   "At the end of the month, Sam invited both women to tea in his garden, and he looked around the table with open satisfaction. Three people in a few streets, he observed, were now taking tiny steps every single morning, and none of them had needed a heroic effort to do so. Priya thought that it was perhaps the most hopeful sentence she had heard all year.",
+   "After a week of very late nights, Priya discovered that even a single page felt like lifting a heavy box. Sam reminded her that habits do not live in a vacuum, and that a tired body makes every choice harder than it needs to be. Rest, he said, is not the opposite of effort but the ground on which effort stands.",
+   "Priya chose a sensible bedtime and tried to keep to it on most nights, dimming the lights an hour before and leaving the phone in the hallway. The dark, quiet bedroom began to feel less like a place where the day ended and more like a welcome. She noticed, a little to her surprise, that the mornings began to feel lighter too.",
+   "Priya observed that her energy was highest in the morning, before the day had had a chance to demand anything of her. Her anchor happened to fall in exactly that hour, which was luck, but she saw that it would have been wise to choose it deliberately. A step placed at your best time of day starts with the wind behind it.",
+   "Our surroundings, Sam argued, shape our choices far more than our intentions do, and most people never notice the quiet pressure of the things around them. A bowl of fruit in the middle of a table is an invitation, whereas a packet of biscuits at the front of a cupboard is another, and each invitation is accepted more often than refused. Priya looked at her own kitchen and wondered what it had been inviting her to do.",
+   "That weekend Priya bought a wide wooden bowl, filled it with apples and oranges, and set it in the centre of the kitchen table. The biscuits she moved to the back of a high cupboard, where finding them required a stool and a small decision. She did not feel that she was depriving herself of anything, only rearranging what was easy and what was hard.",
+   "Priya carried an old armchair from the spare room to the corner beside the kitchen window, and added a small lamp and a woollen blanket. Sam told her that a habit which has its own place gains a kind of reality, as a seat at a table tells a person they are expected. The chair, in effect, was an invitation with her name written on it, and it was waiting for her every evening.",
+   "After a few weeks of faithful use, the armchair began to work on its own, without any help from her. The moment Priya sank into its cushions, her mind seemed to understand that the time for reading had arrived, much as a dog understands the sound of its lead. Place and habit had grown together until one could hardly be separated from the other.",
+   "Priya made one firm rule: the chair was for reading and nothing else, so no laptop, no phone and no email would ever cross its arms. If a place is used for everything, Sam observed, it comes to mean nothing, but a place with a single purpose carries its message clearly. She was surprised by how seriously the chair took its job, and by how quickly she came to respect it.",
+   "Making room for the chair meant clearing the corner, which had become a graveyard of forgotten things: broken lamps, unread magazines, and a bag of cables that belonged to no known device. Priya filled a box with the items she no longer needed and carried it to the charity shop, feeling lighter with each step. A clear space, she thought, makes a clear mind possible, or at least much more likely.",
+   "One cold evening, rain tapped at the window, and Priya wrapped herself in the woollen blanket and opened the blue book in the armchair. She read three pages, then a fourth, and she noticed with quiet wonder that nobody had asked her to and no square on the calendar required it. The tiny habit had made a doorway, and she had walked through it on her own.",
+   "There was one habit that Priya did not want, and it lived on the sofa: most evenings she ate an entire bag of crisps without really tasting a single one. Sam urged her to meet it with curiosity rather than shame, since shame is a poor detective and tends to look away from the evidence. A habit you are willing to look at, he said, is already half understood.",
+   "To change a bad habit, Sam said, you must first become a careful observer of the moments just before it. For three evenings Priya kept a small notebook on the arm of the sofa and wrote down what had happened in the minutes before she opened the packet. It was oddly fascinating, like following the tracks of an animal she had never really looked at.",
+   "When she read through her three evenings of notes at the weekend, the pattern was unmistakable. On each occasion the crisps had followed some small stress, a sharp email, a long meeting, a tired train journey, and she had not been hungry at all. The packet had never been about food, it seemed, but about something nearer to comfort.",
+   "Bad habits, Sam explained, very often begin with a feeling that we would rather not have, such as boredom, stress or tiredness. Naming the feeling aloud takes away a little of its power, because it turns an unseen pull into something that can be looked at and understood. That evening Priya sat on the sofa, said quietly that she was stressed, and felt the urge change shape.",
+   "It is almost impossible to remove a habit and leave a hole, Sam warned, because the need it served will simply look for another door. Priya's need was something crunchy, warm and comforting at the end of a hard day, so she tried a bowl of plain popcorn and a cup of herbal tea. It was not the same, but it was close enough to answer the question her evenings had been asking.",
+   "On the first evening, the popcorn seemed a poor substitute, and Priya found herself staring at the cupboard where the crisps used to live. The second night was easier, and by the end of the week the new routine had begun to feel as natural as the old one had. The old path was fading, and the new one, though faint, was beginning to show.",
+   "One night the urge arrived with unusual force, and Priya, instead of obeying or fighting it, simply sat down with her eyes closed and listened to the clock tick. She was astonished to find that after a few minutes the pull began to weaken, like a wave that rises, peaks, and slides back into the sea. Urges, it seemed, were visitors, and most of them left if they were not fed.",
+   "Sam liked the image of the wave, and he suggested that Priya keep it in her pocket for difficult moments. An urge, he said, rises, reaches a peak and falls away, and the secret is not to be the swimmer who fights it but the person who sits on the beach and watches it pass. She tried the picture on the next hard evening and found, to her satisfaction, that it worked.",
+   "Mei had a habit of her own to tackle, which was checking work email at the dinner table whenever her phone buzzed. She did not try to be stronger, but simply turned off the alerts, so that the buzzing that had always set the habit off no longer happened. It confirmed what Priya was learning, that it is usually easier to remove the cause than to resist the pull.",
+   "Priya did not turn crisps into a forbidden fruit, since Sam had warned her that rigid bans tend to backfire. On Friday evenings she poured a small bowl, sat down, and enjoyed every crunchy mouthful with her full attention. It was a pleasure she had chosen, which made it a completely different thing from the one she had slid into.",
+   "After several weeks in which the single page felt almost too easy, Priya asked whether it was time to raise the bar. Sam said that when a step has been easy for a long while, it can be made a little bigger, as long as the new size is also easy. She decided to try two pages, and she kept the one-page version in reserve as a safety net.",
+   "Growth, Sam said, should resemble a staircase and not a cliff, with each step only a little higher than the last. If the new size began to feel heavy, then she should go back to the previous one without any sense of defeat, since stepping back is part of the method and not a flaw in it. The aim was to keep walking for as long as possible, and not to climb quickly and then collapse.",
+   "Over the following month, two pages quietly became three, and three became five, and one morning Priya glanced at the clock and found that she had been reading for a full five minutes. Nobody had pushed her there, and no rule had demanded it; the step had simply grown, as a seedling grows when it is watered and left alone. She was not the same reader who had once struggled with a single page.",
+   "Not every day was a good day, and after a very bad one, with a headache, a late meeting and a leaking tap, Priya read a single line of the blue book and went to bed. Sam, when he heard, applauded, because on difficult days the habit matters more than the amount. A small version kept alive is worth far more than a grand version abandoned.",
+   "When the reading habit stood firmly on its own, Priya went back to her page headed Later and chose a second habit. She picked a single minute of stretching, since she often woke with a stiff neck and a heavy head. Sam approved of the order of events, because a second habit should be added to a firm foundation and never to a wobbling one.",
+   "For the stretching, Priya did not need a new anchor, because her reading had become one. After I close my book, her note said, I will stretch my arms and back for one minute. The end of the first habit now called up the beginning of the second, like one bead sliding along a string to meet the next.",
+   "Priya hit a small slump and complained that, despite so many weeks of effort, nothing dramatic had changed. Sam pointed to the kettle on his stove, where the water was still perfectly calm, and explained that it was getting hotter every second even though nothing could be seen. Progress, like heat, often builds in secret until it suddenly crosses a line and becomes visible.",
+   "Priya stared at herself in the mirror and saw the same face, the same flat, and the same job as before, and her spirits sank a little. Then she began to list the small signs that did not show in a photograph: she woke more calmly, read more freely, and dreaded the evenings far less than she once had. Real change, it turned out, often arrives on the inside first and shows itself on the outside much later.",
+   "Other small improvements had begun to appear around the edges of her life without any plan at all. Priya's desk was tidier, her bag was packed the night before, and she felt, for the first time in years, that she was steering her days rather than being carried along by them. Sam said that this was common, since a person who has kept one small promise grows a taste for keeping others.",
+   "Priya counted about fifty red crosses on the calendar, and the pencil circle two months away was beginning to draw near. The habit was easier now, though not yet fully automatic, and some mornings she still had to nudge herself toward the book. She did not mind, because she remembered the faint path in the field and understood that it was still being pressed into the grass.",
+   "Sam asked her to consider what ten minutes a day became over a year, and, after some scribbling on the back of an envelope, Priya found that it came to about sixty hours. That was more than an entire working week, spent on something she loved, and taken from her days so gently that she would never notice the loss. Small amounts of time, it seemed, are the only kind that most busy people can spare.",
+   "Priya did not quite trust Sam's arithmetic, so she did the sums herself on the back of an electricity bill. She checked them twice, then a third time, because the answer seemed much too large for such a modest daily habit. It was a rather pleasant thing, she decided, to be proved wrong by nothing more than arithmetic.",
+   "A single page a day, Sam pointed out, comes to three hundred and sixty-five pages in a year, which is the length of a long and satisfying novel. Priya looked at the thick book on her shelf with the bookmark stuck near its beginning and saw it differently, as a mountain that can be climbed in small, daily steps. She also saw, with some satisfaction, that she was already reading at several times that pace.",
+   "Mei had done her own sums, and she showed them to Priya with some pride across the café table. Ten new words a day would give her about thirty-six hundred words in a year, which is a very solid foundation for any language, and all of it would come from a few minutes beside the kettle. She admitted that she had not really believed it until she saw the figures written down in front of her.",
+   "Sam took down from a shelf an old glass jar that was almost full of coins, and told her that he had dropped a single coin into it every morning since he retired. No single coin had ever felt important, he said, but together they had become heavy enough to need two hands. Habits, in his experience, were just the same, since they were made of pieces too small to notice and too many to ignore.",
+   "On one grey morning Priya felt sluggish and flat, and every part of her argued that today was not a day for reading. She read her page anyway and ticked the box, and Sam, when he heard, told her to judge each day by what she had done and never by how she had felt. Feelings, he said, are only the weather, whereas the habit is the house in which you live through it.",
+   "Priya learned to hear the sentence I do not feel like it as a passing thought and not as a command. It was information about her mood, which was interesting, but it was not a decision, and it did not have to be obeyed. Between the thought and the action, she found, there was a small gap, and in that gap she could simply open the book.",
+   "One wet and bitter morning, Priya had no motivation whatever, and the old Priya would have gone straight back to bed. This time the routine carried her, for her hand had reached for the book before her mood could vote, and she read her page while the rain ran down the window. It was a victory won by the path itself and not by the tired walker who followed it.",
+   "On some days Priya read with a wandering mind and could not have said, a minute later, what the page had contained. Sam assured her that a badly read page still counts, since the habit was built from showing up and not from performing well. Quality, he said, tends to follow quantity, and the person who turns up regularly will eventually turn up ready.",
+   "One bright morning in late April, Priya read the last page of the thin blue book, closed it slowly, and held it against her chest for a moment. It was the first book she had finished in more than a year, and she had reached the end not through some heroic effort but through hundreds of tiny, ordinary ones. She went next door that evening to show Sam the empty last page, and he shook her hand.",
+   "In early May, work sent Priya to another city for three days, and she knew that travel is one of the great destroyers of routine. Sam had told her to prepare for exactly this, so she packed her new library novel at the very top of her bag, where she would see it before she saw anything else. The plan was to keep the habit alive in whatever form the trip allowed.",
+   "The hotel room had no coffee machine and no familiar counter, so her usual anchor was gone. Priya decided that the anchor was really the first hot drink of the morning, whatever it happened to be, and she made tea with the little kettle on the desk. The page that followed, read beside a window above a strange street, felt oddly adventurous.",
+   "On the second day, her train home from a meeting was delayed, and the platform filled with sighing commuters checking their watches. Priya sat on a bench, took out the library novel, and found that a tiny habit fits into almost any gap, however unexpected. For once in her life, she was almost grateful for a delayed train and the quiet time that it had given her.",
+   "A few days after her return, Priya caught a heavy cold and spent two days under a blanket with a box of tissues. On the first day she read exactly one line of her book, which was all the habit asked of her, and then she gave herself permission to rest. A habit that could not bend, she realised, would have broken the moment she was ill.",
+   "Soon afterwards a deadline at work swallowed an entire week, with evening meetings, cold dinners and no time for anything that could be postponed. Priya fell back on the smallest version of her habit, a single sentence read at the kitchen counter, and she did so without any trace of guilt. It was exactly the kind of situation that the tiny step had been designed for from the very start.",
+   "At the end of May, Priya's landlord decided to sell the house, and she was given a few weeks to find a new home. She found a bright little flat only five minutes' walk from Sam's house, which was a relief, although it meant packing everything she owned. Even the best change, she thought wearily, comes with a great many cardboard boxes and very little tape.",
+   "In the chaos of moving day, the library novel vanished into a box, and for two mornings Priya did not read a single page. She finally found it under a heap of tea towels, in a box labelled kitchen, and she had to admit that her carefully built system had been wrecked by something as simple as cardboard. Everything she had arranged was in the old flat, and none of it had come with her.",
+   "When life changes, Sam told her, the old anchors may disappear, and the sensible response is to look around and choose new ones. In the new kitchen, Priya noticed that the first thing she always did was to switch on the kettle, so she wrote a fresh sticky note: after I switch on the kettle, I will read one page. Her habit, once so fragile that a single busy evening could break it, had learned how to travel.",
+   "Her older brother Dev came to stay for a weekend, bringing his noisy good humour and an enormous bag of laundry. While he slept soundly on the sofa bed, Priya made her tea as quietly as possible and read her page by the early light from the window. Guests and visits, she saw, were not enemies of the habit, as long as the step was small enough to fit between them.",
+   "Looking back over that crowded month, Priya saw that her habit had survived a journey, a cold, a deadline and a house move. It had bent, shrunk, moved to a new kitchen and sometimes dwindled to a single line, but it had never broken. A routine, she decided, should be less like a glass vase than like a rope.",
+   "Priya stood in front of the calendar, which she had carried carefully from the old flat, and looked at the long row of red crosses with quiet pride. Each cross, she realised, was a small piece of evidence that she could make a promise to herself and keep it. There were now so many that the evidence had begun to outweigh her old doubts.",
+   "Trust, Sam said, is built in exactly the same way whether it is between two people or inside one head: by promises that are kept. Each time Priya did what she had said she would do, she became a little more believable to herself, and a person who believes herself finds it easier to begin. The reverse, he added, was equally true, and a person who keeps breaking her word soon stops listening to it.",
+   "Priya thought of all the January lists that she had written and abandoned, and she finally understood why she had stopped believing her own word. Each broken promise had taken a small amount of trust away, until the account was empty and every new resolution sounded like a lie. It was a sad conclusion, but also a hopeful one, since an empty account can be filled again.",
+   "Sam argued that harsh self-criticism is a poor motivator, because a person who feels ashamed of failing is far more likely to run away from the thing that made her ashamed. Priya wrote two words on a sticky note and stuck it on the bathroom mirror, where she would meet it every morning: be kind. It looked very small on its yellow square, but it felt like a warm hand on her shoulder each morning.",
+   "Priya tried a simple test whenever the harsh voice began to speak: what would she say to Mei in the same situation? The answer was always warm and sensible, full of understanding and quiet encouragement, and she began to use those same words on herself. It felt awkward at first, like wearing someone else's shoes, but the shoes soon fitted.",
+   "Sam suggested a short weekly review, and Priya made it a quiet Sunday ritual, with a notebook, a cup of tea and ten peaceful minutes. The purpose was not to judge the week but to learn from it, in the way that a gardener walks round the beds and sees what is thriving and what needs attention. Within a month she was wondering how on earth she had managed without it for so many years.",
+   "Her review consisted of only three questions, which she wrote at the top of a fresh page each Sunday. What went well this week, what was hard, and what is one small thing I could change next week? Answering them honestly took a few minutes, and the answers were frequently more interesting than she had expected.",
+   "One Sunday the review revealed a pattern: on Tuesdays she left the flat so early that her page was nearly always skipped. In the past she would have blamed her character, but she now saw that the plan was at fault, and so she changed it, reading her Tuesday page on the bus instead. If a habit is not working, she told herself, change the plan, not yourself.",
+   "Sam encouraged her to think like a scientist, for whom an experiment that does not work is not a disaster but a piece of information. When a day or a plan went wrong, Priya began saying that it was interesting, and then asking what it was telling her. The word failure, she noticed, rarely made her curious, while the word interesting almost always did.",
+   "After several Sunday reviews, Priya had a neat little stack of pages, each one honest and a little different from the last. Reading through them, she realised that she had quietly begun to trust her own word again, which was something no list or planner had ever given her. The proof, she thought, had been stacking up all along, one small page at a time.",
+   "On a sunny Saturday in June, Priya realised that it was exactly one hundred days since she had read her first tiny page. She bought a small lemon cake from the bakery on the corner and invited Sam to her new flat, where he arrived on the dot with a pot of basil under his arm. It was the first time he had seen the armchair, and he sat in it with open approval.",
+   "Together they counted the crosses on the calendar, and the total came to about ninety out of the hundred days. The gaps, Priya noticed, no longer looked like accusations, because each had been followed by a return, and the returns told the better story. Ninety small promises kept, she thought, was a record that no list of grand plans had ever come near.",
+   "Sam raised his fork in a solemn toast and declared that celebrating small victories was not frivolous but sensible. A habit that is only ever work will eventually be abandoned, he said, whereas one that is acknowledged and enjoyed has a reason to continue. The cake, in that light, was not an indulgence at all but an essential part of the method.",
+   "Sam had brought a small present wrapped in newspaper: a wooden bookmark with two words carved along one edge, next page. Priya turned it over in her fingers and felt unexpectedly moved, for it was both a joke about her tiny habit and a promise that the story was not over. She slipped it into the library novel at once, and it fitted the pages as though it had been made for them.",
+   "One Sunday Priya visited Dev and his family, and the kitchen was bright and noisy with the happy chaos of cooking together. Dev's daughter Ada, who was eight, sat at the end of the table with a picture book, reading aloud to nobody in particular and quite undisturbed by the clatter. Priya watched with a smile and thought that a habit shared by a whole family must be far easier to keep than one carried alone.",
+   "Ada, who missed nothing, asked why her aunt read only one page a day when there were so many books in the world. Priya explained, in the simplest words she could find, that it was like brushing your teeth: a tiny job done every single day that adds up to something very big. Ada considered this very seriously for a moment, and then she pronounced it perfectly sensible.",
+   "Inspired, Ada fetched a large sheet of paper and drew her own calendar, with a careful row of squares for every day of the month. Each night, she announced, she would add a gold star when she had read one page of her own book, and she made Dev promise to sign it every Sunday. It was the first time Priya had understood that a habit can also be a gift to pass on.",
+   "Out of that visit grew a second shared habit: every Sunday afternoon, Priya read a short story aloud to Ada by video call, while the girl followed in her own copy and turned each page with ceremony. It cost them both about ten minutes, and it gave them something to talk about that was not homework or the weather. Priya found that reading aloud made her love the words themselves even more than she had before.",
+   "The next evening Sam invited her to his front room and played the one complete tune that he had learned in about two years of five-minute sessions. It was slow and simple and not entirely free of wrong notes, but Priya listened with a lump in her throat, because she knew how many small mornings were inside it. Hundreds of tiny steps, she thought, can sound a great deal like music when they are played with patience.",
+   "One morning Priya noticed that the yellow sticky note had fallen off the kettle days ago and that she had never missed it. Her hand had gone to the book by itself, as it would have gone to a light switch in a dark room, and the whole thing had happened without a single thought. It was the first time she could truthfully say that reading had become something she did, and not something she tried.",
+   "In the weeks after the celebration, the excitement quietly drained out of the whole thing. The page that had once felt like a small adventure was now merely part of the morning, as ordinary as a clean cup, and Priya felt that she had arrived at a long flat plateau where nothing new was happening. She had not been warned that the middle of a journey would feel so much less thrilling than the start.",
+   "Priya confessed to Sam, among the ripe tomatoes, that her habit had stopped being exciting. Far from being worried, he grinned and said that this was excellent news, since it meant the habit was becoming part of the furniture. Nobody feels thrilled by a chair they sit in every day, he pointed out, and yet it holds them up all the same.",
+   "Sam described his own flat stretch at the piano, which had lasted for several months in the middle of his second year. He had played the same few bars every morning without hearing the smallest improvement, and he had been tempted to give up and sell the instrument. Then one morning, without any warning at all, the separate bars joined together into a single flowing phrase.",
+   "Boredom, Sam said, is the real examination of any habit, because anyone can be diligent while the novelty lasts. What remains when the excitement has gone is the part that truly belongs to you, and it is that dull, dependable core that carries a person through the years. Priya found the thought oddly comforting, since it turned her flat feelings into evidence of progress.",
+   "Sam proposed a simple remedy for boredom: change the contents but keep the container. At the library Priya borrowed a mystery, a book about the night sky, and a collection of very old stories, and she let the page each morning come from a different one. The routine stayed firmly in place, while the reading inside it became new again.",
+   "To keep things playful, Priya invented a small game: each week she chose one unusual word from her reading and tried to slip it into a message to Mei. Mei, delighted, replied with a Spanish word of her own, and soon their Sunday messages had become a pleasant contest of curiosity. A little play, Priya found, could keep a plain routine warm through even the longest and greyest of weeks.",
+   "In her Sunday review, Priya noticed that some old habits no longer served her at all, such as buying magazines that she never read and keeping subscriptions that she never opened. She put the pile into the recycling bin, cancelled two of the subscriptions, and felt as if she had set down a bag that she had not known she was carrying. Some habits, she realised, can be thanked for their service and then released without any regret.",
+   "Habits, Sam reminded her, are tools and not duties, and a tool is judged by whether it still does its job. If a habit has stopped serving the life you want, there is no virtue in clinging to it out of loyalty, and no shame in laying it down. The skill, he said, lies in telling the difference between a habit that is merely dull and one that is truly finished.",
+   "By now the one-minute stretch had been steady for several months, and Priya turned once more to her page headed Later. Two habits stood firmly on the ground, and she felt, for the first time, that there might be room for a third, though she still wanted to be sure that the old ones would bear the weight. She read down the list slowly and carefully, like a person choosing from a long and tempting menu.",
+   "With a pencil, Priya crossed out the goals on her Later page that had lost their appeal, and she did it without any guilt, because wishes are allowed to change. One remained, which she circled twice: to take a walk outdoors each morning, starting with the smallest version she could imagine, which was to put on her shoes and step outside. It was a small decision, but it felt like the opening of a door.",
+   "The year wore on, and New Year's Eve came round again, with fireworks being tested somewhere down the street. Looking for a pen, Priya opened the old desk drawer, which had survived the move, and found the list from last January lying at the very bottom. She sat down on the floor with it, as one sits down with a letter from a younger self.",
+   "The old list asked for a marathon, fluent Italian, fifty books and a perfectly organised life, all by the end of the year. Priya read it aloud and laughed, but the laugh was gentle, because she could see how much hope the woman who wrote it had carried. She did not think that woman had been foolish, only badly advised about the size of her first step.",
+   "Then she counted what she had actually done, and the answer was not what she expected. About ten books stood on the shelf, every one of them finished, which was more than she had read in the previous five years, and not one had needed a heroic effort. They had arrived a page at a time, quietly and steadily, like rain filling a barrel overnight.",
+   "Nothing dramatic had happened, and she could not have photographed the change for a magazine. Yet she read every morning, stretched, walked on most days, slept well, and felt calmer in the middle of a crowded week, and the sum of these small things felt like a different life. It was not the life of the woman in the old list, but it was one she liked a great deal more.",
+   "This time Priya took a clean sheet and wrote a very different kind of list, with only three lines. Each one was a step so small that it would fit inside a single minute, and each was joined to something she already did every morning. It looked less impressive than the old list, and she was quite certain that it would work.",
+   "At midnight, Priya joined Sam in his garden, and they raised two cups of tea to the sky while the fireworks bloomed above the rooftops. She had not changed her life in a single day, Sam said, but she had changed one small minute, over and over again, until the minutes became a life. Priya laughed, because it sounded like exactly the sort of thing a retired teacher would say, and because it was entirely true.",
+   "Just after midnight, Priya's phone buzzed with a photograph from Mei, who was spending the holiday in a small town in Spain. She had ordered the whole dinner in Spanish, the message said, without once reaching for her phone, and every word had arrived on a yellow note beside the kettle. Priya held the screen out to Sam, and for a moment all three of them, in two countries, were standing at the same fence.",
+   "Before bed, Priya wrote on a card the lessons that she wanted to remember, and she pinned it to the fridge beside her mother's photograph. Make the step so small that you cannot say no, it began, tie it to something you already do, make it easy to see, and let it end with something pleasant. She read it twice, and it seemed to her that none of it was complicated, and all of it was true.",
+   "On a second card she wrote the lessons for the hard days, and they were gentler than the first. Be kind to yourself when you slip, begin again at once, and trust that a flat stretch is only a stretch of the road. Look back each week with curiosity, and when something fails, change the plan instead of blaming yourself.",
+   "At sunrise on New Year's Day, Priya stood at her front door with one shoe on and the other in her hand, about to take the smallest walk of the year. Here is the whole lesson in a few lines: choose one tiny step, link it to a moment that already exists in your day, and make it easy to see and pleasant to finish. Be patient on slow days, kind on bad days, and then begin today, and when tomorrow comes, begin again with the same small step and the same patient smile."
+  ]
+ }
 }
