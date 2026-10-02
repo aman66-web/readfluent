@@ -75,6 +75,7 @@ export default async function ReadPage({ params }: { params: Promise<{ slug: str
       length={len.pages}
       variants={variants}
       scenes={scenes}
+      translatable={book.source === "file"}
     />
   );
 }

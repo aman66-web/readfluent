@@ -9,6 +9,7 @@ import { Settings } from "@/components/reader/Settings";
 import { WordCard } from "@/components/reader/WordCard";
 import { WordsSheet } from "@/components/reader/WordsSheet";
 import type { ReaderPage, ReaderVariant } from "@/components/reader/types";
+import { LEVELS } from "@/lib/content/limits";
 import { languageName } from "@/lib/i18n";
 import { useBookText, useLocale, useT } from "@/lib/i18n/react";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
@@ -38,6 +39,8 @@ interface Props {
   /** The book in each language it has here, the first being the default. */
   variants: ReaderVariant[];
   scenes: Scene[];
+  /** The book can be translated into any language on demand (a book of the library); the preview sample cannot. */
+  translatable?: boolean;
 }
 
 const subscribeAnswers = subscribeTo(ANSWERS_KEY);
@@ -66,14 +69,61 @@ export function Reader(props: Props) {
   // Which language to open is known only on the device. Where there is a choice, wait for it
   // instead of mounting the first language and throwing it away a moment later.
   const ready = useSyncExternalStore(noSubscribe, onClient, onServer);
-  const learn = useMemo(() => parseAnswers(raw).learn, [raw]);
-  const preferred = Math.max(0, props.variants.findIndex((v) => v.lang === learn));
+  const answers = useMemo(() => parseAnswers(raw), [raw]);
+  const learn = answers.learn;
+  const t = useT();
+  const locale = useLocale();
+  // A language the book has no file for is made by the machine translator, the first time somebody opens it.
+  const wanted = ready && props.translatable && learn && learn !== "en" && !props.variants.some((v) => v.lang === learn) ? learn : null;
+  const made = useTranslated(wanted, answers.language, props.slug, props.levelId, props.length);
+  const variants = made.variant ? [...props.variants, made.variant] : props.variants;
+  const preferred = Math.max(0, variants.findIndex((v) => v.lang === learn));
   const [picked, setPicked] = useState<number | null>(null);
   const vi = picked ?? preferred;
-  const many = props.variants.length > 1;
-  if (many && !ready) return <div className="h-dvh" aria-busy="true" />;
+  const many = variants.length > 1;
+  if (!ready && (many || props.translatable)) return <div className="h-dvh" aria-busy="true" />;
+  if (wanted && made.state === "loading") {
+    return (
+      <div className="flex h-dvh flex-col items-center justify-center gap-4 px-8 text-center" role="status" aria-busy="true">
+        <Mascot mood="reading" talking className="w-[132px]" />
+        <p className="text-[17px] font-semibold leading-snug">{t("reader.translating", { language: languageName(wanted, locale) })}</p>
+      </div>
+    );
+  }
+  const notice = wanted && made.state === "off" ? t("reader.notYet", { language: languageName(wanted, locale) })
+    : wanted && made.state === "failed" ? t("reader.translateFailed", { language: languageName(wanted, locale) })
+    : undefined;
   // Keyed by the language, so switching starts a fresh reader on page one.
-  return <ReaderView key={vi} {...props} variant={props.variants[vi]} first={vi === 0} onSwitch={many ? () => setPicked((vi + 1) % props.variants.length) : undefined} />;
+  return <ReaderView key={`${vi}-${variants[vi].lang}`} {...props} variant={variants[vi]} first={vi === 0} notice={notice} onSwitch={many ? () => setPicked((vi + 1) % variants.length) : undefined} />;
+}
+
+/**
+ * The book in the language being learned, from the machine translator (app/api/translate): asked for once
+ * when the book is opened, and kept by the CDN after that. `state` is "loading" until there is an answer;
+ * "off" when the translator is not switched on; "failed" when it did not answer.
+ */
+function useTranslated(lang: string | null, speak: string, slug: string, levelId: string, length: number): { state: "idle" | "loading" | "ready" | "off" | "failed"; variant: ReaderVariant | null } {
+  const levelSlug = LEVELS.find((l) => l.id === levelId)?.slug ?? "";
+  const key = lang ? `${slug}/${levelSlug}/${length}/${lang}/${speak}` : null;
+  const [res, setRes] = useState<{ key: string; state: "ready" | "off" | "failed"; variant: ReaderVariant | null } | null>(null);
+  useEffect(() => {
+    if (!key || !lang) return;
+    let live = true;
+    const q = new URLSearchParams({ slug, level: levelSlug, length: String(length), lang, speak: speak || "en" });
+    fetch(`/api/translate?${q}`)
+      .then(async (r) => {
+        if (r.status === 503) return { state: "off" as const, variant: null };
+        if (!r.ok) return { state: "failed" as const, variant: null };
+        const body = (await r.json()) as { variant?: ReaderVariant };
+        return body.variant ? { state: "ready" as const, variant: body.variant } : { state: "failed" as const, variant: null };
+      })
+      .catch(() => ({ state: "failed" as const, variant: null }))
+      .then((out) => { if (live) setRes({ key, ...out }); });
+    return () => { live = false; };
+  }, [key, lang, speak, slug, levelSlug, length]);
+  if (!key) return { state: "idle", variant: null };
+  if (!res || res.key !== key) return { state: "loading", variant: null };
+  return { state: res.state, variant: res.variant };
 }
 
 /**
@@ -86,7 +136,7 @@ export function Reader(props: Props) {
  * reader's own language) for that sentence appears at the top, with the matched words in the
  * same colour as in the text, and the word card rises at the bottom.
  */
-function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, scenes, onSwitch }: Props & { variant: ReaderVariant; first: boolean; onSwitch?: () => void }) {
+function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, scenes, notice, onSwitch }: Props & { variant: ReaderVariant; first: boolean; notice?: string; onSwitch?: () => void }) {
   const t = useT();
   // Whether this device can read aloud is only known in the browser; the server draws no Listen button, and so must the first client render.
   const speakable = useSyncExternalStore(noSubscribe, canSpeak, () => false);
@@ -360,6 +410,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
         <div className="mt-1 h-1 overflow-hidden rounded-full bg-border" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress} aria-label={t("reader.progress")}>
           <div className="h-full rounded-full bg-accent-bright transition-[width] duration-300" style={{ width: `${progress}%` }} />
         </div>
+        {notice && <p role="status" className="mt-2 rounded-xl bg-accent-bright/20 px-3 py-2 text-[12.5px] font-semibold leading-snug text-[var(--ob-deep)]">{notice}</p>}
       </header>
 
       {menu && <Settings prefs={prefs} language={lineLang} />}

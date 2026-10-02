@@ -6,6 +6,8 @@
  */
 import { LEVELS } from "@/lib/content/limits";
 import { tokenize } from "@/lib/reading/sentences";
+import { LANGUAGES } from "@/lib/onboarding/languages";
+import { translatorConfigured } from "@/lib/translate/google";
 import { loadDictionary, loadEnglish, loadTranslation } from "./load";
 
 const TRANSLATIONS = ["es"] as const;
@@ -14,6 +16,8 @@ export async function readableLanguages(slug: string, source: "file" | undefined
   if (source !== "file") return [];
   const en = await loadEnglish(slug);
   if (!en) return [];
+  // With the machine translator switched on, a book opens in any language (app/api/translate).
+  if (translatorConfigured()) return LANGUAGES.filter((l) => l.code !== "en").map((l) => l.code);
   const out: string[] = [];
   for (const lang of TRANSLATIONS) {
     const tr = await loadTranslation(slug, lang);
