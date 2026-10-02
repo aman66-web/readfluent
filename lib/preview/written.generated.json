@@ -8877,6 +8877,44 @@
   }
  },
  {
+  "slug": "a-journal-of-the-plague-year",
+  "title": "A Journal of the Plague Year",
+  "author": "Daniel Defoe",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "London, 1665. A saddler named HF decides to stay while the plague closes doors, empties streets and fills the great pits. Through his sharp eyes, Defoe's famous journal shows how ordinary people meet fear, loss and unexpected kindness.",
+  "cover": {
+   "bg": "#1C1C1F",
+   "title": [
+    "A Journal of",
+    "the Plague",
+    "Year"
+   ],
+   "size": 14,
+   "author": "DANIEL DEFOE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "candle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "hourglass",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-descent-of-man",
   "title": "The Descent of Man",
   "author": "Charles Darwin",
