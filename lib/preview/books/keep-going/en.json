@@ -1,417 +1,1639 @@
 {
-  "slug": "keep-going",
-  "meta": {
-    "blurb": "Ben wants to row on Mill Lake in a boat he built himself. The excitement lasts four weeks. Then come a plank cut too short, a new baby, and a neighbour who says the boat will never float.",
-    "bible": "Ben: a man of forty-one who builds a small wooden rowing boat in his Garage over about two years, and the main character. Nora: his wife. They have a baby daughter born during the project, and an older child. Marta: a retired Boatbuilder in her seventies who lives two streets away and becomes his adviser. Mr Dunn: a neighbour who doubts the boat will float. Wren: the name Ben paints on the boat. Mill Lake: where Ben rowed with his Grandfather as a boy, and where the boat is launched. Setting: a small town, two winters. Key terms: Garage, Plywood, Plank, Planks, Hull, Oars, Oarlocks, Sanding, Boatbuilder, Boat club. Voice: warm, steady and practical; each beat shows one idea about perseverance. No invented studies or numbers; one hour a day is about 365 hours in a year."
+ "slug": "keep-going",
+ "meta": {
+  "blurb": "Ben wants to row on Mill Lake in a boat he built himself. The excitement lasts four weeks. Then come a plank cut too short, a new baby, and a neighbour who says the boat will never float.",
+  "bible": "Ben: a man of forty-one who builds a small wooden rowing boat in his Garage over about two years, and the main character. Nora: his wife. They have a baby daughter born during the project, and an older child. Marta: a retired Boatbuilder in her seventies who lives two streets away and becomes his adviser. Mr Dunn: a neighbour who doubts the boat will float. Wren: the name Ben paints on the boat. Mill Lake: where Ben rowed with his Grandfather as a boy, and where the boat is launched. Setting: a small town, two winters. Key terms: Garage, Plywood, Plank, Planks, Hull, Oars, Oarlocks, Sanding, Boatbuilder, Boat club. Voice: warm, steady and practical; each beat shows one idea about perseverance. No invented studies or numbers; one hour a day is about 365 hours in a year. Family: Sam is Ben's eight-year-old son; Ivy is the baby daughter, born in March, the first spring after Ben starts. Tomas: Ben's friend from work, who tells him the truth. Marta lives in a small house with a blue door in Tanner's Lane and has a workshop in her shed. Priya: chair of the Mill Lake Boat Club. Hugo: a club member who built a plain, quick boat in one summer. Lowfield: the small town. Timeline: Ben starts in October; Ivy is born the next spring; he works through a second winter and launches Wren in April of the second spring, about eighteen months after starting and a little short of the two years he first guessed. Ben works Saturday mornings and Wednesday evenings, and has a ten-minute rule for bad days. The six stages: cutting, joining, shaping, sanding, painting, launching. More key terms: Oar, Chine, Keel, Stern, Bow, Thwart, Gunwale, Transom, Varnish, Epoxy, Sealant, Clamps, Chisel, Plane, Sandpaper, Offcuts, Trailer, Jetty, Noticeboard, Clubhouse, Kayak, Timber, Heater, Workbench, Mallet, Brass, Ash.",
+  "chapters": [
+   "Plans on the Kitchen Table",
+   "Starting Before You Are Ready",
+   "Four Weeks of Fire",
+   "A Timer Set for Ten Minutes",
+   "The Plank That Was Too Short",
+   "Ten Scrap Joints",
+   "The Blue Door in the Lane",
+   "Six Weeks of Silence",
+   "Three Weekends of Sandpaper",
+   "What Mr Dunn Said at the Fence",
+   "Money, Methods and a Kayak",
+   "What Ben Gave Up",
+   "The Quiet Arithmetic of Hours",
+   "A Date on the Noticeboard",
+   "One Year in Two Columns",
+   "Ice on the Workbench",
+   "The Crack in the Stern",
+   "A Name for the Hull",
+   "Dawn at Mill Lake",
+   "Where the Oars Lead"
+  ]
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "Ben unrolls boat plans across the kitchen table at night",
+   "summary": "Ben, forty-one, decides to build a small wooden rowing boat in his garage."
   },
-  "beats": [
-    {
-      "n": 1,
-      "scene": "Ben stands in his garage with plans and a stack of plywood",
-      "summary": "Ben decides to build a small wooden rowing boat in his garage."
-    },
-    {
-      "n": 2,
-      "scene": "Ben holds an old photograph of his grandfather rowing on a lake",
-      "summary": "Ben's goal matters to him because of a memory of his grandfather."
-    },
-    {
-      "n": 3,
-      "scene": "Ben reads a book on boatbuilding with a pencil behind his ear",
-      "summary": "Interest often grows by doing, and does not have to be perfect before you start."
-    },
-    {
-      "n": 4,
-      "scene": "A drawing of a boat divided into six labelled stages",
-      "summary": "Ben breaks the big goal into stages so it feels possible."
-    },
-    {
-      "n": 5,
-      "scene": "A sheet of paper with a goal at the top and steps beneath it",
-      "summary": "Each small goal serves a bigger goal, and the top goal gives them meaning."
-    },
-    {
-      "n": 6,
-      "scene": "Ben marks a sheet of plywood with a pencil and a long ruler",
-      "summary": "On the first Saturday Ben measures and cuts, full of excitement."
-    },
-    {
-      "n": 7,
-      "scene": "Ben looks at a half-finished panel in a cold, quiet garage",
-      "summary": "By the fourth week the excitement has faded."
-    },
-    {
-      "n": 8,
-      "scene": "Ben hangs his coat and puts on his work apron without hurry",
-      "summary": "Motivation comes and goes, so a routine has to carry the work."
-    },
-    {
-      "n": 9,
-      "scene": "A calendar with two days in each week circled in blue",
-      "summary": "Ben fixes his working times: Saturday mornings and Wednesday evenings."
-    },
-    {
-      "n": 10,
-      "scene": "Tools laid out neatly on a workbench under a bright lamp",
-      "summary": "Ben makes starting easy by laying out his tools the night before."
-    },
-    {
-      "n": 11,
-      "scene": "A kitchen timer set to ten minutes on a bench",
-      "summary": "On bad days, Ben only has to work for ten minutes."
-    },
-    {
-      "n": 12,
-      "scene": "A wall calendar with a row of neat red crosses",
-      "summary": "Ben marks every working day on a calendar to see his progress."
-    },
-    {
-      "n": 13,
-      "scene": "Ben stares at a plank that is clearly too short",
-      "summary": "Ben cuts a plank too short, his first big mistake."
-    },
-    {
-      "n": 14,
-      "scene": "Ben fits a small patch of wood into the gap on a plank",
-      "summary": "Ben repairs the mistake with a patch instead of throwing everything away."
-    },
-    {
-      "n": 15,
-      "scene": "Ben sits alone at the garage door in the dark, tired and thinking",
-      "summary": "That evening Ben wants to quit, but he sees that he is only tired and doubtful."
-    },
-    {
-      "n": 16,
-      "scene": "A graph drawn on a board with a deep dip in the middle",
-      "summary": "The middle of a long task is usually the hardest part."
-    },
-    {
-      "n": 17,
-      "scene": "Ben practises a tricky joint on scrap wood while a friend watches",
-      "summary": "Ben practises the hardest skill on scrap wood and asks for feedback."
-    },
-    {
-      "n": 18,
-      "scene": "Ben knocks on a blue door in a lane near the river",
-      "summary": "Ben meets Marta, a retired boatbuilder who lives two streets away."
-    },
-    {
-      "n": 19,
-      "scene": "Marta runs her fingertips along the edge of Ben's boat hull",
-      "summary": "People who are further along the road can save you from many mistakes."
-    },
-    {
-      "n": 20,
-      "scene": "Marta taps a ruler and a pencil on the workbench",
-      "summary": "Marta's advice is to slow down and do each step properly."
-    },
-    {
-      "n": 21,
-      "scene": "Ben leaves his phone on a shelf and walks to the garage",
-      "summary": "Ben leaves his phone in the house so he can focus on the work."
-    },
-    {
-      "n": 22,
-      "scene": "Ben holds a newborn baby while the unused garage stands dark",
-      "summary": "A new baby arrives, and Ben does not work on the boat for six weeks."
-    },
-    {
-      "n": 23,
-      "scene": "Ben opens the garage door on a bright morning and sets a timer",
-      "summary": "Ben returns to the boat by starting again with just ten minutes."
-    },
-    {
-      "n": 24,
-      "scene": "A calendar with one empty square surrounded by crossed squares",
-      "summary": "Ben's rule: if he misses a session, he does not miss the next one."
-    },
-    {
-      "n": 25,
-      "scene": "Ben sands a long curved plank in a cloud of fine white dust",
-      "summary": "Sanding takes three weekends, and Ben finds it very boring."
-    },
-    {
-      "n": 26,
-      "scene": "Ben sands with a radio on the bench and a mug of tea",
-      "summary": "Ben makes the boring work easier with music and company."
-    },
-    {
-      "n": 27,
-      "scene": "Ben's family has a picnic on a rug beside the finished boat shell",
-      "summary": "When a stage is finished, Ben celebrates with his family."
-    },
-    {
-      "n": 28,
-      "scene": "A neighbour leans over the garden fence and smiles doubtfully",
-      "summary": "A neighbour laughs and says that the boat will never float."
-    },
-    {
-      "n": 29,
-      "scene": "Ben speaks calmly to himself in the mirror of a small garage window",
-      "summary": "Ben learns to talk to himself the way he would talk to a friend."
-    },
-    {
-      "n": 30,
-      "scene": "Ben watches a speeded-up boatbuilding video on a laptop screen",
-      "summary": "Online videos make building look quick and easy because they are edited."
-    },
-    {
-      "n": 31,
-      "scene": "Ben counts coins and a long receipt next to a stack of wood",
-      "summary": "Wood costs more than Ben expected, so he changes his plan."
-    },
-    {
-      "n": 32,
-      "scene": "Ben crosses out a method on his plan and writes another",
-      "summary": "Be flexible about the method, but firm about the reason for the goal."
-    },
-    {
-      "n": 33,
-      "scene": "Ben sits at the kitchen table with a pencil, thinking hard",
-      "summary": "Ben asks whether to quit, and decides the goal still matters to him."
-    },
-    {
-      "n": 34,
-      "scene": "Ben hangs up his football boots and closes a cupboard",
-      "summary": "To make room for the boat, Ben gives up some other things."
-    },
-    {
-      "n": 35,
-      "scene": "Ben holds up a flaking painted panel with a sad expression",
-      "summary": "The first coat of paint peels, and Ben learns what went wrong."
-    },
-    {
-      "n": 36,
-      "scene": "Ben leans against the workbench waiting beside a clamped joint",
-      "summary": "The glue needs a full day to set, and some things cannot be rushed."
-    },
-    {
-      "n": 37,
-      "scene": "A large clock and a pile of hours drawn as stacked blocks",
-      "summary": "One hour a day adds up to about three hundred and sixty-five hours in a year."
-    },
-    {
-      "n": 38,
-      "scene": "Two planks side by side, one rough and one smooth and straight",
-      "summary": "Ben compares his early cuts with his recent ones and sees how his skill has grown."
-    },
-    {
-      "n": 39,
-      "scene": "Ben talks with club members around a boat on a trailer",
-      "summary": "Ben joins a local boat club and finds people with the same interest."
-    },
-    {
-      "n": 40,
-      "scene": "Ben shows his friends a photo of the boat at the club",
-      "summary": "Ben tells people his plan, which makes him feel responsible to them."
-    },
-    {
-      "n": 41,
-      "scene": "Ben writes two columns in a notebook under a bright lamp",
-      "summary": "One year in, Ben reviews honestly what works and what does not."
-    },
-    {
-      "n": 42,
-      "scene": "Ben works in a thick coat and wool hat inside a frosty garage",
-      "summary": "In the second winter the garage is freezing, so Ben changes how he works."
-    },
-    {
-      "n": 43,
-      "scene": "Ben looks at an almost finished boat and a long list of small jobs",
-      "summary": "The last part of the work seems to take a very long time."
-    },
-    {
-      "n": 44,
-      "scene": "Ben paints the name Wren on the boat's side with a small brush",
-      "summary": "Ben finishes the details: the oars, the oarlocks and the name Wren."
-    },
-    {
-      "n": 45,
-      "scene": "Ben and his family stand by Mill Lake at dawn beside the boat",
-      "summary": "On launch morning Ben is nervous that the boat will not float."
-    },
-    {
-      "n": 46,
-      "scene": "Ben bails water from the boat on the shore while Marta watches",
-      "summary": "The boat floats, but it has a small leak, which Ben fixes on the bank."
-    },
-    {
-      "n": 47,
-      "scene": "Ben rows slowly across calm water with his daughter in the stern",
-      "summary": "Ben rows across Mill Lake with his children, and the goal is reached."
-    },
-    {
-      "n": 48,
-      "scene": "Ben sits on the grass beside the boat and writes in his notebook",
-      "summary": "Ben sees that the boat also changed him: he is more patient and skilled."
-    },
-    {
-      "n": 49,
-      "scene": "Ben and Marta stand with a drawing of a new boat on a table",
-      "summary": "Ben chooses a new goal and keeps the habit that carried him here."
-    },
-    {
-      "n": 50,
-      "scene": "Ben rows alone on a calm lake at sunset, the boat gleaming",
-      "summary": "The book ends with the main lessons about perseverance."
-    }
-  ],
-  "levels": {
-    "A1A2": [
-      "Ben wants to build a small wooden boat in his garage.",
-      "Ben remembers rowing with his grandfather on the lake long ago.",
-      "Ben is not an expert, but he loves to learn.",
-      "Ben cuts the big job into six smaller jobs.",
-      "At the top of the page, Ben writes why he is building.",
-      "On the first Saturday, Ben measures and cuts with joy.",
-      "By week four, the excitement has gone, and Ben feels tired.",
-      "Some days Ben wants to work, and some days he does not.",
-      "Ben picks two times each week: Saturday morning and Wednesday night.",
-      "The night before, Ben puts his tools out on the bench.",
-      "On bad days, Ben only works for ten minutes.",
-      "Ben puts a cross on the calendar after each work day.",
-      "Ben cuts a plank, but it is too short.",
-      "Ben finds a way to fix the plank with a patch.",
-      "That night, Ben wants to quit, but he is just tired.",
-      "The middle of a long job is often the hardest.",
-      "Ben practises a hard cut on a piece of scrap wood.",
-      "Ben meets Marta, an old woman who built boats for years.",
-      "Marta looks at his work and gives him good advice.",
-      "Marta tells Ben to slow down and do each step well.",
-      "Ben leaves his phone in the house when he works.",
-      "A new baby is born, and Ben cannot work for weeks.",
-      "After six weeks, Ben goes back and works for ten minutes.",
-      "If Ben misses one day, he works on the next day.",
-      "Ben sands the boat for three weekends, and it is boring.",
-      "Ben plays music while he works, and the time goes faster.",
-      "When a stage is done, Ben and his family celebrate.",
-      "A neighbour laughs and says the boat will never float.",
-      "Ben learns to talk to himself as he would to a friend.",
-      "Online videos make boat building look quick and easy.",
-      "The wood costs more than Ben thought, so he changes his plan.",
-      "Ben changes how he works, but he keeps his goal.",
-      "Ben asks himself honestly whether he still wants this boat.",
-      "To make time, Ben stops playing football on Tuesday nights.",
-      "The first coat of paint comes off the boat.",
-      "The glue needs one full day, and Ben must wait.",
-      "One hour each day adds up to a lot of time.",
-      "Ben looks at his first cut and his newest cut.",
-      "Ben joins a boat club and meets new friends.",
-      "Ben tells his friends his plan and shows them photos.",
-      "After one year, Ben writes about what works and what does not.",
-      "In winter, the garage is cold, so Ben wears a thick coat.",
-      "The boat looks nearly finished, but the small jobs take forever.",
-      "Ben paints the name Wren on the side of the boat.",
-      "On launch day, Ben is afraid that the boat will sink.",
-      "The boat floats, but there is a small leak.",
-      "Ben rows across the lake with his children at last.",
-      "Ben is happy, and he is more patient than before.",
-      "Ben thinks of a new goal and keeps his weekly habit.",
-      "Care about your goal, work every week, and keep going."
-    ],
-    "B1B2": [
-      "Ben has never built anything bigger than a bookshelf. Even so, he decides to build a small wooden rowing boat in his garage, and he thinks it will take two years.",
-      "The reason for the boat is an old memory. When Ben was a boy, his grandfather took him rowing on Mill Lake, and he has never forgotten the quiet.",
-      "Ben is not an expert, and he is not sure that he loves woodwork. Interest often grows as people get better at something, so he decides to start and see.",
-      "A whole boat is a frightening thing to think about. Ben therefore divides the project into six stages: cutting, joining, shaping, sanding, painting and launching.",
-      "At the top of his plan, Ben writes the real purpose of the boat: to row with his own children on Mill Lake. Every smaller task now serves that goal, and that makes even boring tasks mean something.",
-      "On the first Saturday morning, Ben measures the plywood and cuts the first panels. He is so excited that he forgets to eat lunch.",
-      "By the fourth week of the project, the early excitement has faded away. The boat looks like a few pieces of wood, and the finish seems very far away.",
-      "Ben notices that some days he is keen to work and other days he is not. Feelings come and go like the weather, so he decides that he cannot wait for the right mood.",
-      "Ben chooses fixed times to work: Saturday mornings and Wednesday evenings. He writes them in the family calendar like any other important appointment.",
-      "On Friday night, Ben lays out his tools and the next day's wood on the bench. When Saturday morning comes, there is nothing to stop him from starting at once.",
-      "When Ben feels tired, he makes himself a small promise to work for ten minutes only. Most of the time, once he has started, he keeps working for much longer.",
-      "After every session, Ben puts a cross on a calendar that hangs above the bench. The growing row of marks shows him that he is moving, even when the boat does not look different.",
-      "One Saturday, Ben cuts a long plank and then sees that he measured wrongly. It is too short, and the wood was expensive.",
-      "Ben sits down, calms himself and thinks about the problem. He finds a way to join a small piece of wood to the plank, and the repair is almost invisible.",
-      "That night, Ben lies awake and thinks seriously about quitting for good. When he is honest, he sees that he is not really tired of the boat, only very tired and a little scared.",
-      "Ben reads that the middle of a long project is often the hardest part. The beginning is exciting, the ending is in sight, but the middle can feel like a very long road.",
-      "Instead of risking the good wood, Ben practises the hardest cut on scrap pieces. He asks a friend to look at the result, and each attempt teaches him something new.",
-      "Ben discovers that a retired boatbuilder named Marta lives only two streets away. He knocks on her door, a little shyly, and asks if she would look at his work.",
-      "Marta runs her hand along the edge of his work and finds three problems in a minute. People who have already travelled the road can save you months of wasted effort.",
-      "Marta's main piece of advice is not clever or secret at all. She tells Ben to slow down, measure twice and finish one step properly before he starts the next.",
-      "Ben notices how often he picks up his phone in the middle of a task. He starts leaving it in the house, and his work becomes calmer and better.",
-      "Ben and his wife Nora have a new baby, and for six weeks he does not touch the boat. He feels guilty at first, but life sometimes asks for all of us.",
-      "When the baby is a little older, Ben opens the garage door again. He does not try to make up for lost time; he simply works for ten minutes and then goes in.",
-      "Ben makes himself a simple rule: if he misses a session, he must not miss the next one. One missed day is only an accident, but two missed days can become a new habit.",
-      "The next stage is sanding, and it takes three whole weekends. It is dull, repetitive and dusty, and Ben soon realises that every big goal contains a lot of boring work.",
-      "Ben finds ways to make the boring work easier. He puts on music, and sometimes he asks his friend to sand alongside him, and the hours pass much more quickly.",
-      "Each time Ben finishes a stage, he marks it with a small celebration. This time the family has a picnic on the garage floor beside the shell of the boat.",
-      "A neighbour, Mr Dunn, looks over the fence and laughs. He says that the boat will never float, and Ben feels a flash of anger.",
-      "When Ben makes a mistake, he used to call himself stupid. Now he tries to speak to himself the way he would speak to a friend who was building a boat.",
-      "Ben watches online videos in which a boat is finished in ten minutes. He reminds himself that the videos have been edited, and that he is only seeing the best parts.",
-      "The wood costs much more than Ben expected, and the family has other bills too. He decides to use cheaper fittings and to make the oars himself.",
-      "Ben realises that he has changed many small things since the first plan. The methods can change, he decides, as long as the reason for the boat stays the same.",
-      "Ben asks himself a serious question: if he were starting today, would he still choose this boat? He tries not to count the money and hours he has already spent, since those are gone either way.",
-      "To make time for the boat, Ben stops playing football on Tuesday nights. He cannot do everything, so a goal that matters must take the place of something else.",
-      "Ben paints the hull, but a week later the paint begins to peel. He finds out that the wood was not clean enough, and he learns to prepare it better.",
-      "The glue on the boat needs a full day before it is ready, and Ben must wait. No amount of hurry can speed it up, so he learns to be patient.",
-      "Ben sits down one evening and does a quick sum on paper. One hour a day is about three hundred and sixty-five hours in a year, and that is plenty of time to build a boat.",
-      "Ben puts his first cut beside his newest one. The first is rough and crooked, the latest is clean and straight, and the difference makes him smile.",
-      "Ben joins a local boat club on Marta's advice. There he meets people who understand what he is doing, and their company makes the work feel less lonely.",
-      "Ben tells his friends and his club exactly when he hopes to launch the boat. Having said it aloud, he feels a gentle, helpful pressure to keep going.",
-      "After one year, Ben sits down and reviews his progress honestly. He notes what is working, what is slowing him down and what he should change.",
-      "In the second winter, the garage is freezing and Ben's energy is low. He buys a small heater and works in shorter sessions, and he keeps going.",
-      "The boat looks almost finished, yet the last small jobs seem to take forever. Ben has heard that the final ten percent of any project takes the longest, and now he believes it.",
-      "Ben finishes all the last details with great care and without any hurry. He fits the oarlocks, sands the oars he made himself, and paints a name on the side of the boat: Wren.",
-      "On launch morning, the family drives to Mill Lake with the boat on a trailer. Ben is nervous, because after two years of work he is not sure that it will float.",
-      "Wren floats, which is a great relief, but a little water is coming in at one corner. Marta helps Ben pull her ashore, and together they fix the leak on the bank.",
-      "At last, Ben rows across Mill Lake with his children, and the water is quiet and still. He remembers his grandfather's oars, and he is happy that he never gave up.",
-      "Ben realises that building the boat has changed him as well. He is more patient, more careful and more confident that he can finish difficult things.",
-      "Soon Ben chooses a new goal: to teach a friend how to build a small boat. He keeps his Saturday habit, because the habit was what carried him through.",
-      "Choose a goal that matters to you, make a regular routine, and be ready to change your methods. Rest when you must, ask for help, and then keep going until it is done."
-    ],
-    "C1C2": [
-      "Ben, a man of forty-one who had never built anything grander than a bookshelf, announced one evening that he would build a rowing boat in his garage. He had a set of plans, a stack of plywood and a rough estimate of two years, which sounded long and short at the same time. What follows is the story of how he finished it, and what the long road taught him about perseverance.",
-      "The boat had a reason behind it, and the reason, as it happened, was an old and very vivid memory. When Ben was a boy, his grandfather had rowed him across Mill Lake at dawn, the oars dipping softly and the whole world holding its breath. A goal that is tied to something we truly care about has a far better chance of surviving the dull months than one picked on a whim.",
-      "Ben was no expert, and he could not honestly say that he had a burning passion for woodwork. Yet interest is often less a thing that we find than a thing that we grow, deepening as we understand more and as our hands become more skilful. He decided that curiosity and a good reason were quite enough to begin with, and that the rest could be learned later.",
-      "A finished boat is a daunting thing to hold in the mind all at once, and Ben felt his courage wobble whenever he tried. So he divided the project into six stages, from cutting the plywood to launching on the lake, and decided to think only about the stage in front of him. Large goals become manageable once they are cut into pieces small enough to lift.",
-      "At the very top of his plan, Ben wrote the purpose that sat above all the others, which was to row his own children across Mill Lake. Beneath it came the stages, and beneath those came the daily tasks, each one a small rung on a ladder that led to that single sentence. Even a dull afternoon of measuring looks different when you can see what it is climbing toward.",
-      "On the first Saturday morning, Ben measured the sheets of plywood, drew careful lines and cut the first panels with a pulse of real excitement. The smell of fresh wood filled the garage, and he was so absorbed that he forgot lunch entirely and looked up to find that the light had changed. Beginnings are intoxicating, and they are also, as he was about to discover, a poor guide to what lies ahead.",
-      "By the fourth week, the early excitement had drained away like water from a bath, leaving only a cold garage and a heap of flat panels. The boat still looked like nothing at all, and the finish seemed so far away that Ben wondered whether he had made a foolish promise. This is the point at which many projects quietly end, not because anything has gone wrong, but because the novelty has gone.",
-      "Ben noticed that his desire to work swung up and down from one week to the next, as unpredictable as the weather. If he waited to feel inspired, the boat would never be built, so he decided to rely on something steadier than a mood. Motivation may well start a project, but it is routine, quiet and unglamorous, that finishes it.",
-      "Ben chose two fixed times each week, Saturday mornings and Wednesday evenings, and wrote them in the family calendar as firmly as a doctor's appointment. Once the hours were decided, he no longer had to argue with himself about whether to work, since the question had already been answered. A decision made once, in advance, spares us the exhausting business of deciding again every day.",
-      "On Friday evenings, Ben took a few minutes to lay out the tools and the day's materials on the bench, ready to use. When Saturday morning arrived, there was nothing to prevent him from beginning at once, and no small chore to hide behind. Removing friction from the first step is one of the cheapest ways of making a hard habit easy.",
-      "On evenings when he was weary, Ben made himself a modest promise: he would work for ten minutes, and then he could stop if he wished. Surprisingly often, once the saw was moving and the wood was under his hands, he found that he wanted to carry on for an hour. The hardest part of many tasks is not the work itself but crossing the threshold into it.",
-      "After every session, however short, Ben drew a cross on the calendar hanging above his bench, and the row of marks slowly lengthened. On weeks when the boat seemed to have changed very little, the calendar offered a different and more reliable kind of evidence, which was that he had turned up. Seeing progress, even in this humble form, makes it easier to keep believing in it.",
-      "One Saturday, in a moment of carelessness, Ben cut a long plank to the wrong measurement and then stood staring at the useless, too-short result. The wood had been expensive, the morning had been going so well, and a hot flush of shame crept up his neck. Every long project contains such a moment, and the real test is not whether it comes but what a person does next.",
-      "After a few minutes of grumbling, Ben sat down, calmed himself and began to look at the problem as a puzzle instead of a disaster. He found that a small, carefully shaped patch could repair the plank, and once it was glued and sanded, the join was almost impossible to see. Most mistakes can be mended if we stay calm enough to look for a way.",
-      "That night, as he washed his hands, the thought of quitting arrived in a very reasonable voice and offered him a dozen excellent excuses. When he examined it honestly, he found that he was not tired of the boat so much as tired of the day, and a little frightened of failing. The wish to stop is very often only a feeling, and feelings have a habit of changing by morning.",
-      "Ben learned that nearly every long undertaking has a dip in the middle, where the thrill of starting has worn off and the satisfaction of finishing is still out of sight. This stretch tests character more than any other, for it offers no novelty and no applause, only the quiet repetition of tasks that must be done. Knowing in advance that the dip is normal, and that others have crossed it, makes the crossing a little easier.",
-      "Rather than risk his expensive plywood on the most delicate joint, Ben practised it on scraps, again and again, with a friend to point out the flaws. This kind of focused practice, aimed at the hardest part and guided by honest feedback, improves skill far more quickly than simply repeating what is already comfortable. It is less pleasant than ordinary work, but it is where most of the growth happens.",
-      "By luck, Ben discovered that a retired boatbuilder named Marta lived only two streets from him, and after several days of hesitation, he knocked on her door. She was in her seventies, sharp-eyed and brisk, and she agreed to look at his work with an expression that gave nothing away. Asking for help from someone further along the road takes a little courage, but it is rarely wasted.",
-      "Marta ran her fingertips along the half-built hull and found three problems within a minute, each of which Ben had missed completely. People who have travelled the road before us can warn us of the potholes and show us shortcuts that we could never have found alone. A good mentor shortens the journey, not by doing the work for us but by sparing us needless detours.",
-      "Marta's advice, when it came, was not clever or secret but almost embarrassingly plain: slow down, measure twice and finish each step properly before beginning the next. A rushed job, she told him, always costs more time than a careful one, because it must be done again. Perseverance does not mean going fast; it means going steadily and not having to go back.",
-      "Ben noticed how often his hand strayed toward his phone in the middle of a delicate task, and how each small interruption broke his concentration. He began to leave it in the house during his working hours, and within a few weeks his work became calmer, more accurate and strangely more enjoyable. Attention is a limited and precious resource, and a long project depends on protecting it from needless interruption.",
-      "When Ben and Nora's baby daughter was born, the garage stood dark and untouched for six long weeks. He felt guilty at first, as though he had broken a promise to himself, but he soon realised that some seasons of life demand all of our attention. A pause taken for a good reason is not at all the same thing as giving up on a goal.",
-      "When life had settled a little, Ben opened the garage door and found the boat waiting for him, patient and slightly dusty. He did not try to make up for the lost weeks or scold himself; he simply worked for ten minutes and went back inside. After any break, the surest way to resume is to start small and let the habit reassemble itself.",
-      "Ben adopted a simple rule that he came to rely on: if he missed one session, he would not miss the one that followed. A single gap is only an accident, whereas two in succession begin to look like a new routine, and routines are fiercely hard to break. The rule did not demand perfection from him; it asked only that he recover quickly and without much fuss.",
-      "The next stage was sanding, which took three entire weekends of patient, dusty repetition and offered almost no sense of reward. Ben realised that every ambitious goal contains a large helping of tedium, and that the glamorous parts of a project are usually a small fraction of the whole. Those who succeed are often the ones who can stay cheerful through the dull stretches.",
-      "Ben discovered that tedious work becomes far more tolerable when it is paired with something pleasant. He played his favourite music, he listened to long radio programmes, and on some Saturdays he persuaded a friend to sand beside him over a pot of tea. There is no shame in making a hard job more enjoyable; it is simply a clever way of staying with it.",
-      "Whenever he completed a stage, Ben marked it with a small celebration, because a long road needs milestones as well as a destination. This time the whole family spread a rug on the garage floor beside the bare shell of the boat and ate sandwiches as if on a seaside holiday. Celebrating progress is not frivolous; it replenishes the energy that the next stage will require.",
-      "Mr Dunn, the neighbour, leaned over the fence one evening, looked at the pale hull and chuckled that it would never float. Ben felt a flash of anger followed by an unwelcome flicker of doubt, since the same fear lived somewhere in his own mind. Other people's doubts matter far less than we fear, though they have a way of echoing our own.",
-      "In earlier years, a mistake would have prompted Ben to call himself an idiot, and the habit had done nothing to improve his work. Now he tried to speak to himself as he would to a friend who was attempting something difficult, with honesty but also with warmth. People tend to persevere longer when their inner voice is encouraging than when it is cruel.",
-      "Ben watched online videos in which a magnificent boat appeared in a matter of minutes, and felt the old sting of comparison. Then he reminded himself that such films are edited, that months of toil are squeezed into a few cheerful seconds and that the failures are almost always left out. Comparing your real, messy middle with someone else's polished ending is a very unfair contest.",
-      "Prices had risen since Ben made his budget, and the bill for the next batch of wood was far larger than he had expected. After a worried evening with a calculator, he decided to buy simpler fittings and to make the oars himself, which would be slower but much cheaper. Being flexible about how you reach a goal is often what keeps the goal alive.",
-      "Looking at his plan, Ben saw that nearly every method on it had been altered since the first day, yet the purpose at the top had not changed at all. This, he realised, is the secret of flexible persistence: you can be endlessly adaptable about how you proceed, provided that you remain firm about why. Rigid methods break under pressure, whereas a clear purpose can bend its path and still arrive.",
-      "One evening Ben asked himself a serious question: if he were starting from nothing today, would he still choose to build this boat? Economists warn against throwing good effort after bad merely because effort has already been spent, so he tried to weigh only what lay ahead. His honest answer was yes, and the feeling that came with it was very different from simple stubbornness.",
-      "Time cannot be stretched, so Ben made room for the boat by giving up his Tuesday football and some evenings of television. It was a small loss, and yet he felt it, as everyone does when they give up something pleasant in favour of something lasting. A serious goal rarely fits into a full life by magic; it must be given space deliberately.",
-      "After a week of careful painting, Ben watched in dismay as large flakes of the first coat began to peel away from the hull. By asking Marta and reading further, he discovered that a trace of dust had prevented the paint from gripping, and that the fault lay in the preparation. Failure is painful, yet it is also an unusually patient and detailed teacher, if we are willing to listen.",
-      "The glue needed a full day to cure properly, and no amount of pacing the garage could make it hurry. Ben, who had always been impatient, learned to use the waiting time for planning, tidying or simply sitting with a cup of tea. Some processes have their own speed, and persistence includes the humility to respect it.",
-      "Ben did a quick calculation, and the answer cheered him considerably: one hour a day comes to about three hundred and sixty-five hours in a year. That is more than nine working weeks, delivered in pieces so small that no single day ever felt heavy. Small efforts, repeated faithfully, add up to something far greater than any one of them seems to promise.",
-      "Ben held his first rough plank beside the one he had finished that week, and the contrast made him laugh out loud. The early cut was ragged and crooked, while the new one was clean and accurate, and he had not noticed the gradual improvement because it had happened a little each day. Progress is often almost invisible while it is happening, and yet it becomes perfectly obvious in hindsight.",
-      "On Marta's advice, Ben joined the local boat club, where he met a dozen people who spoke his language and understood his struggles. They shared tools, stories and tips, and their company made a solitary garage project feel like part of something larger. Long and difficult journeys are always easier to bear when other people are walking beside us.",
-      "Ben told his friends and the members of the club exactly when he hoped to launch the boat, and he showed them photographs every month. Having spoken the goal aloud, he felt a gentle but useful pressure to keep going, since he would have to explain himself if he stopped. Telling others about a goal turns a private wish into a shared commitment, and a shared commitment is harder to drop.",
-      "One year after the first Saturday, Ben sat down with a notebook and reviewed his progress as honestly as he could. He listed what was working, such as the fixed hours and the club, and what was slowing him down, such as his habit of starting new tasks too late in the evening. Pausing to examine your method from time to time is not wasted time; it is how a long effort stays on course.",
-      "In the second winter the garage became bitterly cold, and Ben's energy sank with the temperature as the dark evenings closed in. He bought a small heater, dressed like an explorer and shortened his sessions, accepting that a modest effort in poor conditions was still better than none. Persistence is not about heroics; it is about finding a way to continue under whatever conditions you are given.",
-      "To any passer-by the boat looked almost finished, but there remained an endless list of small tasks, each tedious and each necessary. Ben had heard it said that the last tenth of any project takes as long as the first nine, and he was now inclined to believe it. It is tempting to rush the end, but the final details are often what makes the difference between a good result and a great one.",
-      "Ben gave the final details the same care as the early stages, fitting the oarlocks, sanding the oars that he had shaped himself and checking every join once more. On the last evening he took a very small brush and painted the name Wren in neat white letters along the side. The finish of a piece of work is the part that others notice, but it is built on every step before it.",
-      "On the launch morning, the family drove to Mill Lake before sunrise with the boat strapped to a trailer, and Ben's stomach tightened with every mile. After two years of Saturdays and Wednesdays, the whole project would be tested in a single moment, and he could not entirely shake the memory of Mr Dunn's laughter. It is a strange feeling to be about to find out whether your patience was justified.",
-      "Wren slid into the water and floated, to the great relief of everyone present, but within minutes a little water began to seep in at one corner. Marta, who had come along to watch, calmly helped Ben haul the boat back onto the bank, and together they sealed the small gap. Even at the moment of success, a problem can arrive, and the person who has learned to keep going simply deals with it.",
-      "At last, Ben took his children out onto Mill Lake and rowed slowly across the still water, the oars dipping with a soft, familiar sound. He thought of his grandfather, of the long Saturdays in the garage and of the many times he had nearly given up, and he found that his eyes were wet. The goal written at the very top of his plan, two years earlier, had finally been reached.",
-      "Ben realised, sitting on the grass afterwards, that the boat was not the only thing that had been built over those two years. He had become more patient, more careful and far more confident in his ability to finish hard things, and these qualities would outlast any piece of wood. Long efforts reward us with their outcomes but also with the people we turn into along the way.",
-      "Before long Ben chose a new goal, which was to help a friend build a small boat of his own, with Marta as their adviser. He kept his Saturday mornings in the garage, for he understood now that the habit, not the boat, had been the true engine of the whole enterprise. Skills and routines are the things we truly take from one goal to the next.",
-      "Choose a goal that truly matters to you, so that you can draw on it when the excitement has gone, and cut it into stages small enough to begin today. Build a routine that does not depend on mood, learn from your mistakes, ask for help and rest when life requires it, but always return. Perseverance is nothing mysterious; it is simply the habit of coming back to something you care about, over and over, until it is done."
-    ]
+  {
+   "n": 2,
+   "scene": "Ben stands in a cluttered garage full of boxes and a bicycle",
+   "summary": "The garage must be cleared before any wood can come in."
+  },
+  {
+   "n": 3,
+   "scene": "Nora reads the plans over Ben's shoulder with a raised eyebrow",
+   "summary": "Nora asks sensible questions and agrees, as long as the family comes first."
+  },
+  {
+   "n": 4,
+   "scene": "Ben holds an old snapshot of his grandfather rowing on a lake",
+   "summary": "The boat matters because of a memory of his grandfather and Mill Lake."
+  },
+  {
+   "n": 5,
+   "scene": "A small boy sits in a rowing boat at dawn on still water",
+   "summary": "Ben remembers the quiet of rowing across Mill Lake as a child."
+  },
+  {
+   "n": 6,
+   "scene": "Ben writes his reason on a card and pins it above the workbench",
+   "summary": "Ben writes down why he wants the boat, so he can read it on bad days."
+  },
+  {
+   "n": 7,
+   "scene": "A delivery van unloads tall sheets of plywood in the driveway",
+   "summary": "The plywood arrives, and the idea becomes real."
+  },
+  {
+   "n": 8,
+   "scene": "Sam, aged eight, drags a small piece of plywood across the garage floor",
+   "summary": "Sam, Ben's eight-year-old son, wants to help, and so the project gains a witness."
+  },
+  {
+   "n": 9,
+   "scene": "Ben tells his friend Tomas about the boat over lunch at work",
+   "summary": "Tomas laughs kindly and says two years is a very long time."
+  },
+  {
+   "n": 10,
+   "scene": "Ben counts two winters on a calendar, then closes the garage door",
+   "summary": "Ben accepts that a long task needs a long view, and the first night ends."
+  },
+  {
+   "n": 11,
+   "scene": "Ben reads a thick boatbuilding book with a pencil behind his ear",
+   "summary": "Ben knows very little yet, and he learns that interest often grows by doing."
+  },
+  {
+   "n": 12,
+   "scene": "Ben tests a glued joint on a scrap of wood and frowns",
+   "summary": "The first practice joint is ugly, and beginners are always bad at first."
+  },
+  {
+   "n": 13,
+   "scene": "Ben chooses a boat book from a library shelf",
+   "summary": "Ben reads a little, then does a little, instead of waiting until he knows everything."
+  },
+  {
+   "n": 14,
+   "scene": "Ben smiles over a clamped scrap with glue and sawdust on his hands",
+   "summary": "Ben notices he enjoys the work more as his hands improve."
+  },
+  {
+   "n": 15,
+   "scene": "A drawing of a boat divided into six labelled stages",
+   "summary": "Ben divides the big goal into six stages so that it feels possible."
+  },
+  {
+   "n": 16,
+   "scene": "Ben stands before a wall chart showing six stages",
+   "summary": "Only the next stage needs his attention; the others can wait."
+  },
+  {
+   "n": 17,
+   "scene": "Ben writes a small goal for the week on a sticky note",
+   "summary": "Small goals for each week serve the big goal."
+  },
+  {
+   "n": 18,
+   "scene": "A sheet of paper with a goal at the top and steps beneath it",
+   "summary": "The top goal gives every lower goal its meaning."
+  },
+  {
+   "n": 19,
+   "scene": "Ben crosses a garage shelf off his list of jobs",
+   "summary": "Ben drops a tempting side job that has nothing to do with the boat."
+  },
+  {
+   "n": 20,
+   "scene": "Ben looks at a tidy list of weekly goals pinned to the wall",
+   "summary": "A clear plan means each evening begins with the decision already made."
+  },
+  {
+   "n": 21,
+   "scene": "Ben marks a sheet of plywood with a pencil and a long ruler",
+   "summary": "On the first Saturday Ben measures and cuts, full of excitement."
+  },
+  {
+   "n": 22,
+   "scene": "Sawdust flies from a saw as Ben cuts the first curved panel",
+   "summary": "The first cuts go well, and Ben feels like a real builder."
+  },
+  {
+   "n": 23,
+   "scene": "Ben shows Nora a freshly cut panel in the kitchen doorway",
+   "summary": "Excitement feels as though it will last for ever."
+  },
+  {
+   "n": 24,
+   "scene": "Ben sleeps on the sofa with sawdust in his hair",
+   "summary": "In the first weeks Ben works late every night and burns his energy fast."
+  },
+  {
+   "n": 25,
+   "scene": "Ben tells Sam the boat will be ready by spring",
+   "summary": "Ben promises a quick finish, a promise made on a high."
+  },
+  {
+   "n": 26,
+   "scene": "Ben and Tomas laugh over a panel in the garage on a Friday evening",
+   "summary": "Early progress is fast and easy to see, which makes it fun."
+  },
+  {
+   "n": 27,
+   "scene": "A half-finished panel in a cold, quiet garage on a wet evening",
+   "summary": "By the fourth week the excitement has faded, and the work feels like work."
+  },
+  {
+   "n": 28,
+   "scene": "Ben stands in the cold doorway of the garage, then walks back inside",
+   "summary": "One evening Ben skips the garage and watches television instead."
+  },
+  {
+   "n": 29,
+   "scene": "Ben sits on the sofa with the television on and a heavy feeling",
+   "summary": "Ben feels guilty and puzzled: where did the wanting go?"
+  },
+  {
+   "n": 30,
+   "scene": "A single spark beside a stack of dry logs",
+   "summary": "Excitement is a spark, not a fire; a habit is the fire that lasts."
+  },
+  {
+   "n": 31,
+   "scene": "Ben hangs his coat and puts on his work apron without hurry",
+   "summary": "Motivation comes and goes, so a routine has to carry the work."
+  },
+  {
+   "n": 32,
+   "scene": "A calendar with two days in each week circled in blue",
+   "summary": "Ben fixes his working times: Saturday mornings and Wednesday evenings."
+  },
+  {
+   "n": 33,
+   "scene": "Nora writes the garage hours on the family planner",
+   "summary": "Telling the family makes the hours safe, and Nora protects them."
+  },
+  {
+   "n": 34,
+   "scene": "Tools laid out neatly on a workbench under a bright lamp",
+   "summary": "Ben makes starting easy by laying out his tools the night before."
+  },
+  {
+   "n": 35,
+   "scene": "A kitchen timer set to ten minutes on a bench",
+   "summary": "On bad days Ben only has to work for ten minutes."
+  },
+  {
+   "n": 36,
+   "scene": "Ben works on past the timer with warm hands",
+   "summary": "Once he has begun, Ben usually carries on, because starting is the hard part."
+  },
+  {
+   "n": 37,
+   "scene": "Ben sweeps the garage floor after a tired ten minutes",
+   "summary": "On days when ten minutes is all he can do, that still counts."
+  },
+  {
+   "n": 38,
+   "scene": "A wall calendar with a row of neat red crosses",
+   "summary": "Ben marks every working day on a calendar to see his progress."
+  },
+  {
+   "n": 39,
+   "scene": "Ben admires a chain of nine red crosses on the calendar",
+   "summary": "A visible chain is a small reward and a reason not to break it."
+  },
+  {
+   "n": 40,
+   "scene": "Ben hangs his coat on the same hook, in the same place every time",
+   "summary": "Same place, same time, same hook: habit takes the effort out of beginning."
+  },
+  {
+   "n": 41,
+   "scene": "Ben stares at a plank that is clearly too short",
+   "summary": "Ben cuts a plank too short, his first big mistake."
+  },
+  {
+   "n": 42,
+   "scene": "Ben holds the short plank against the frame in disbelief",
+   "summary": "The mistake costs him a day, some money and a good deal of pride."
+  },
+  {
+   "n": 43,
+   "scene": "Ben carries the plank toward the bin, then stops at the door",
+   "summary": "Ben nearly throws the whole thing away."
+  },
+  {
+   "n": 44,
+   "scene": "Ben spreads scraps of wood on the bench and thinks",
+   "summary": "Most mistakes can be mended if the maker stays calm long enough to look."
+  },
+  {
+   "n": 45,
+   "scene": "Ben fits a small patch of wood into the gap on a plank",
+   "summary": "Ben repairs the mistake with a patch instead of throwing everything away."
+  },
+  {
+   "n": 46,
+   "scene": "Ben clamps the patched joint and steps back",
+   "summary": "The patch is neither perfect nor invisible, but it is strong."
+  },
+  {
+   "n": 47,
+   "scene": "Ben sits alone at the garage door in the dark, tired and thinking",
+   "summary": "That evening Ben wants to quit, but he sees that he is only tired and doubtful."
+  },
+  {
+   "n": 48,
+   "scene": "Ben writes the words tired and doubtful in his notebook",
+   "summary": "Ben gives his feelings names, and sees that they are weather, not facts."
+  },
+  {
+   "n": 49,
+   "scene": "Ben eats a late supper while Nora listens",
+   "summary": "Telling Nora about the day makes the bad feeling smaller."
+  },
+  {
+   "n": 50,
+   "scene": "Ben looks at the patched plank in the morning light",
+   "summary": "In the morning light the patch looks smaller, and Ben begins again."
+  },
+  {
+   "n": 51,
+   "scene": "A graph drawn on a board with a deep dip in the middle",
+   "summary": "The middle of a long task is usually the hardest part."
+  },
+  {
+   "n": 52,
+   "scene": "Ben draws a dip on a board and labels the stages along it",
+   "summary": "Ben draws his own dip and expects it, which takes away some of its power."
+  },
+  {
+   "n": 53,
+   "scene": "Ben sighs at a second panel and a pile of sandpaper",
+   "summary": "The novelty has gone and the finish is still far away."
+  },
+  {
+   "n": 54,
+   "scene": "Ben practises a tricky joint on scrap wood while Tomas watches",
+   "summary": "Ben practises his weakest skill on scrap wood and asks for feedback."
+  },
+  {
+   "n": 55,
+   "scene": "Tomas points at a gap in the joint with a pencil",
+   "summary": "Honest feedback stings a little, and it is worth more than praise."
+  },
+  {
+   "n": 56,
+   "scene": "Ten numbered scrap joints stand in a row on the bench",
+   "summary": "Ben practises on purpose, working on one weakness at a time."
+  },
+  {
+   "n": 57,
+   "scene": "Ben holds the first joint and the tenth joint side by side",
+   "summary": "The tenth joint is far better than the first, so practice works."
+  },
+  {
+   "n": 58,
+   "scene": "Ben joins the real frame with steady hands",
+   "summary": "Practice on scrap makes the real work calm."
+  },
+  {
+   "n": 59,
+   "scene": "Ben tapes a note above the bench: the middle is meant to be hard",
+   "summary": "If you expect difficulty, you are less frightened when it comes."
+  },
+  {
+   "n": 60,
+   "scene": "Ben and Sam share cocoa beside the frame while rain taps the roof",
+   "summary": "Small comforts and good company help a person keep going."
+  },
+  {
+   "n": 61,
+   "scene": "Ben knocks on a blue door in a lane near the river",
+   "summary": "Ben hears that a retired boatbuilder lives two streets away, and goes to find her."
+  },
+  {
+   "n": 62,
+   "scene": "Marta, silver-haired, peers over her glasses at Ben on the doorstep",
+   "summary": "Marta, in her seventies, agrees to look at the boat."
+  },
+  {
+   "n": 63,
+   "scene": "Marta runs her fingertips along the edge of Ben's boat hull",
+   "summary": "She finds three faults in a minute, and none of them is fatal."
+  },
+  {
+   "n": 64,
+   "scene": "Marta's workshop wall hangs with old chisels and faded boat snapshots",
+   "summary": "People who are further along the road can save you from many mistakes."
+  },
+  {
+   "n": 65,
+   "scene": "Marta holds up the broken keel of her first boat",
+   "summary": "Even experts began badly, and Marta's first three boats failed."
+  },
+  {
+   "n": 66,
+   "scene": "Marta taps a ruler and a pencil on the workbench",
+   "summary": "Marta's advice is to slow down and do each step properly."
+  },
+  {
+   "n": 67,
+   "scene": "Ben measures a plank twice before cutting it",
+   "summary": "Slowing down turns out to be faster than doing the job twice."
+  },
+  {
+   "n": 68,
+   "scene": "Ben leaves his phone on a shelf and walks to the garage",
+   "summary": "Ben leaves his phone in the house so that he can focus on the work."
+  },
+  {
+   "n": 69,
+   "scene": "Ben works with deep focus while shavings curl from a plane",
+   "summary": "With no distractions, two hours of work feel like one."
+  },
+  {
+   "n": 70,
+   "scene": "Ben hands Marta a jar of jam on her doorstep",
+   "summary": "Asking for help and saying thanks keeps the road open, and Marta says come again."
+  },
+  {
+   "n": 71,
+   "scene": "Ben and Nora pack a bag by the front door at night",
+   "summary": "The baby is coming, and the boat must wait."
+  },
+  {
+   "n": 72,
+   "scene": "Ben holds a newborn baby while the unused garage stands dark",
+   "summary": "A baby daughter, Ivy, is born, and Ben does not touch the boat for six weeks."
+  },
+  {
+   "n": 73,
+   "scene": "Ben pushes a pram past the closed garage door",
+   "summary": "Life takes over, and the garage becomes a place he only walks past."
+  },
+  {
+   "n": 74,
+   "scene": "Ben makes tea at three in the morning, half asleep",
+   "summary": "In very tired weeks, rest is not failure."
+  },
+  {
+   "n": 75,
+   "scene": "A dust sheet lies over the boat and a notebook with no new entries",
+   "summary": "Weeks pass, and the half-built boat waits patiently."
+  },
+  {
+   "n": 76,
+   "scene": "Ben sits at the kitchen table, worried that the project is over",
+   "summary": "The pause feels like quitting, but a pause and a quit are different things."
+  },
+  {
+   "n": 77,
+   "scene": "Nora hands Ben the garage key on a bright morning",
+   "summary": "Nora tells him to go, because the family supports the goal."
+  },
+  {
+   "n": 78,
+   "scene": "Ben opens the garage door on a bright morning and sets a timer",
+   "summary": "Ben returns to the boat by starting again with just ten minutes."
+  },
+  {
+   "n": 79,
+   "scene": "Ben wipes dust from the tools and starts slowly",
+   "summary": "The first session back is clumsy, and clumsy is fine."
+  },
+  {
+   "n": 80,
+   "scene": "A calendar with one empty square surrounded by crossed squares",
+   "summary": "Ben's rule: if he misses a session, he does not miss the next one."
+  },
+  {
+   "n": 81,
+   "scene": "Ben sands a long curved plank in a cloud of fine white dust",
+   "summary": "Sanding takes three weekends, and Ben finds it very boring."
+  },
+  {
+   "n": 82,
+   "scene": "Ben wears goggles and a mask beside a pile of sandpaper",
+   "summary": "The dull jobs are where many people give up."
+  },
+  {
+   "n": 83,
+   "scene": "Ben sands with a radio on the bench and a mug of tea",
+   "summary": "Ben makes boring work easier with music and tea."
+  },
+  {
+   "n": 84,
+   "scene": "Sam sands a scrap of wood with his own small block",
+   "summary": "Company makes dull work lighter, and Sam wants to help."
+  },
+  {
+   "n": 85,
+   "scene": "Ben runs his palm over a smooth plank",
+   "summary": "Smoothness under his hand is a small reward for every hour."
+  },
+  {
+   "n": 86,
+   "scene": "Sheets of rough, medium and fine sandpaper laid out in a row",
+   "summary": "Dull work done in careful steps gives the best finish."
+  },
+  {
+   "n": 87,
+   "scene": "Marta watches Ben sand in the evening light and nods",
+   "summary": "Marta says boring work shows who really cares about the result."
+  },
+  {
+   "n": 88,
+   "scene": "Ben sweeps a floor covered in white dust beside a finished shell",
+   "summary": "The shell of the boat is done."
+  },
+  {
+   "n": 89,
+   "scene": "Ben's family has a picnic on a rug beside the finished boat shell",
+   "summary": "When a stage is finished, Ben celebrates with his family."
+  },
+  {
+   "n": 90,
+   "scene": "Ben ticks four stages on the wall chart with a bold pen",
+   "summary": "The chart shows progress and gives Ben fresh energy."
+  },
+  {
+   "n": 91,
+   "scene": "A neighbour leans over the garden fence and smiles doubtfully",
+   "summary": "Mr Dunn laughs and says that the boat will never float."
+  },
+  {
+   "n": 92,
+   "scene": "Ben goes back into the garage, red in the face",
+   "summary": "The doubts of other people can hurt."
+  },
+  {
+   "n": 93,
+   "scene": "Ben looks at his hands, which are still shaking a little",
+   "summary": "Mr Dunn's words match the quiet fears Ben already has."
+  },
+  {
+   "n": 94,
+   "scene": "Ben speaks calmly to himself in the mirror of a small garage window",
+   "summary": "Ben learns to talk to himself the way he would talk to a friend."
+  },
+  {
+   "n": 95,
+   "scene": "Ben writes three true sentences on a card",
+   "summary": "Ben writes down three true facts about his progress to answer his fear."
+  },
+  {
+   "n": 96,
+   "scene": "Nora teases Ben at the kitchen table about the neighbour's garden",
+   "summary": "Nora points out that people's doubts often say more about them than about you."
+  },
+  {
+   "n": 97,
+   "scene": "Ben watches a speeded-up boatbuilding video on a laptop",
+   "summary": "Online videos make building look quick and easy, because they are edited."
+  },
+  {
+   "n": 98,
+   "scene": "Ben frowns at the laptop screen beside his slow, unfinished boat",
+   "summary": "Comparing your middle with someone else's highlights is unfair to yourself."
+  },
+  {
+   "n": 99,
+   "scene": "Ben shuts the laptop and picks up his chisel",
+   "summary": "Ben compares himself with the Ben of last year, not with strangers."
+  },
+  {
+   "n": 100,
+   "scene": "Mr Dunn peers through a gap in the fence at the boat, saying nothing",
+   "summary": "Doubt can soften when the evidence keeps growing."
+  },
+  {
+   "n": 101,
+   "scene": "Ben counts coins and a long receipt next to a stack of wood",
+   "summary": "Wood costs more than Ben expected."
+  },
+  {
+   "n": 102,
+   "scene": "Ben and Nora sit at the kitchen table with bills and a calculator",
+   "summary": "Money problems are best solved together, honestly."
+  },
+  {
+   "n": 103,
+   "scene": "Ben crosses out a method on his plan and writes another",
+   "summary": "Be flexible about the method, but firm about the reason for the goal."
+  },
+  {
+   "n": 104,
+   "scene": "Ben carves an oar shape from a cheap plank in the garage",
+   "summary": "Ben makes his own oars to save money, and learns a new skill."
+  },
+  {
+   "n": 105,
+   "scene": "Ben hauls offcuts from a timber yard in the boot of his car",
+   "summary": "Creative thinking finds cheaper ways to the same result."
+  },
+  {
+   "n": 106,
+   "scene": "Ben flips through a magazine showing a sleek new kayak design",
+   "summary": "A bright new idea tempts Ben away from the unfinished boat."
+  },
+  {
+   "n": 107,
+   "scene": "Ben puts the kayak magazine in a drawer and shuts it",
+   "summary": "New ideas are exciting because they are not yet hard; Ben finishes one thing first."
+  },
+  {
+   "n": 108,
+   "scene": "Ben sits at the kitchen table with a pencil, thinking hard",
+   "summary": "Ben asks whether he should quit, and treats the question seriously."
+  },
+  {
+   "n": 109,
+   "scene": "Ben writes reasons to stop in one column and reasons to continue in another",
+   "summary": "A fair test of quitting is to ask whether the goal still matters."
+  },
+  {
+   "n": 110,
+   "scene": "Ben pins the card with his grandfather's snapshot back above the bench",
+   "summary": "Ben decides that the goal still matters to him, and so he stays."
+  },
+  {
+   "n": 111,
+   "scene": "Ben hangs up his football boots and closes a cupboard",
+   "summary": "To make room for the boat, Ben gives up Sunday football."
+  },
+  {
+   "n": 112,
+   "scene": "Ben watches his old team play from beside the pitch",
+   "summary": "Giving something up has a real cost, and Ben does not pretend it does not."
+  },
+  {
+   "n": 113,
+   "scene": "Ben and Nora talk about their Friday evenings",
+   "summary": "Trade-offs affect the whole family, so they are best discussed openly."
+  },
+  {
+   "n": 114,
+   "scene": "Ben switches off the television and opens his notebook",
+   "summary": "Ben finds time by cutting the hours he spent half-watching television."
+  },
+  {
+   "n": 115,
+   "scene": "Ben holds up a flaking painted panel with a sad expression",
+   "summary": "The first coat of paint peels, and Ben must start that stage again."
+  },
+  {
+   "n": 116,
+   "scene": "Ben scrapes flaking paint from the hull with a flat tool",
+   "summary": "Ben scrapes off the failed paint, because it is better to redo it than hide it."
+  },
+  {
+   "n": 117,
+   "scene": "Marta points at a damp patch of the garage wall",
+   "summary": "Marta shows him the cause: damp air, so a failure can teach."
+  },
+  {
+   "n": 118,
+   "scene": "Ben waits beside a clamped joint with a mug of tea",
+   "summary": "The glue needs a full day to set, and some things cannot be rushed."
+  },
+  {
+   "n": 119,
+   "scene": "Ben reads in a deckchair while the glue dries in the garage",
+   "summary": "Patience means doing something useful while the slow thing happens."
+  },
+  {
+   "n": 120,
+   "scene": "Ben presses a thumb against a dry joint in the morning",
+   "summary": "The joint is hard as stone, and patience has paid."
+  },
+  {
+   "n": 121,
+   "scene": "A large clock and a pile of hours drawn as stacked blocks",
+   "summary": "One hour a day adds up to about three hundred and sixty-five hours in a year."
+  },
+  {
+   "n": 122,
+   "scene": "Ben counts the red crosses on the calendar with his finger",
+   "summary": "Ben counts his working days and is surprised by how many there are."
+  },
+  {
+   "n": 123,
+   "scene": "Two planks side by side, one rough and one smooth and straight",
+   "summary": "Ben compares his early cuts with his recent ones, and sees how his skill has grown."
+  },
+  {
+   "n": 124,
+   "scene": "Ben reads an old notebook page beside a joint he now makes quickly",
+   "summary": "A joint that once took an hour now takes ten minutes, though no single day showed the change."
+  },
+  {
+   "n": 125,
+   "scene": "Ben's hand rests on a plane that fits his grip perfectly",
+   "summary": "His hands now know the tools in a way they did not before."
+  },
+  {
+   "n": 126,
+   "scene": "Ben holds baby Ivy's tiny hand in the kitchen",
+   "summary": "Ivy grows every day without anyone noticing, as slow work does too."
+  },
+  {
+   "n": 127,
+   "scene": "Ben runs a hand along the curved hull of the boat",
+   "summary": "The boat now has a shape, and the shape is visible proof."
+  },
+  {
+   "n": 128,
+   "scene": "Sam asks when the boat will float, and Ben thinks",
+   "summary": "Ben gives Sam an honest answer: next spring, if the work goes on."
+  },
+  {
+   "n": 129,
+   "scene": "Ben writes a list headed Done and fills a page",
+   "summary": "Looking back at what is done is as useful as looking at what is left."
+  },
+  {
+   "n": 130,
+   "scene": "Ben pins the Done list beside the chart of six stages",
+   "summary": "Ben keeps the list on the wall as a reminder on hard days."
+  },
+  {
+   "n": 131,
+   "scene": "Ben talks with club members around a boat on a trailer",
+   "summary": "Ben finds the Mill Lake Boat Club and meets people who share his interest."
+  },
+  {
+   "n": 132,
+   "scene": "Priya, the club chair, shows Ben a clubhouse hung with oars",
+   "summary": "Priya welcomes him, and Ben feels that he belongs."
+  },
+  {
+   "n": 133,
+   "scene": "Hugo shows his plain, quick boat built in a single summer",
+   "summary": "Hugo built his boat quickly, and Ben feels small beside it."
+  },
+  {
+   "n": 134,
+   "scene": "Ben drives home slowly with the radio off",
+   "summary": "Ben wonders whether he is too slow."
+  },
+  {
+   "n": 135,
+   "scene": "Nora speaks to Ben on the doorstep as he comes home",
+   "summary": "Nora reminds him that Hugo's road is not his road, so pace is no measure of worth."
+  },
+  {
+   "n": 136,
+   "scene": "Ben shows friends a snapshot of his boat at the club",
+   "summary": "Ben tells people his plan, which makes him feel responsible to them."
+  },
+  {
+   "n": 137,
+   "scene": "Priya writes launch day and Ben's name on the club noticeboard",
+   "summary": "A date is set, and a vague wish becomes a plan."
+  },
+  {
+   "n": 138,
+   "scene": "Ben stares at the date on the club noticeboard and swallows",
+   "summary": "The date frightens Ben and also pulls him forward."
+  },
+  {
+   "n": 139,
+   "scene": "Ben works late with a calendar open, counting weeks",
+   "summary": "With a date set, each week gets a purpose."
+  },
+  {
+   "n": 140,
+   "scene": "Members share tea and boat stories at the clubhouse on a Thursday evening",
+   "summary": "Everyone in a community has a story of nearly giving up."
+  },
+  {
+   "n": 141,
+   "scene": "Ben writes two columns in a notebook under a bright lamp",
+   "summary": "One year in, Ben reviews honestly what works and what does not."
+  },
+  {
+   "n": 142,
+   "scene": "Ben lists what has worked: the timer, the calendar and Marta",
+   "summary": "Keep what works, and name it, so that it is not lost."
+  },
+  {
+   "n": 143,
+   "scene": "Ben lists what has not worked: late nights and cold sanding",
+   "summary": "Be honest about what fails, and change it."
+  },
+  {
+   "n": 144,
+   "scene": "Ben notices he works better in the morning than at night",
+   "summary": "Ben learns that he works best early, and changes his plan."
+  },
+  {
+   "n": 145,
+   "scene": "Ben sets an early alarm and walks to the garage before work",
+   "summary": "Ben adjusts the times of his work, not the size of his goal."
+  },
+  {
+   "n": 146,
+   "scene": "Ben finds a curled yellow weekly goal note in a drawer",
+   "summary": "Ben rereads his very first weekly goal and sees how far he has come."
+  },
+  {
+   "n": 147,
+   "scene": "Ben tells Sam that the boat is more than half done",
+   "summary": "The boat has passed its halfway point."
+  },
+  {
+   "n": 148,
+   "scene": "Ben sits at his desk at work with a tall pile of papers",
+   "summary": "A busy season at work cuts his free time again."
+  },
+  {
+   "n": 149,
+   "scene": "Ben sets the kitchen timer to twenty minutes before dinner",
+   "summary": "Ben shrinks the plan to twenty minutes on busy days, but does not stop."
+  },
+  {
+   "n": 150,
+   "scene": "A calendar crossed with small marks beside the long ones",
+   "summary": "Small days count too, and the chain stays unbroken."
+  },
+  {
+   "n": 151,
+   "scene": "Ben works in a thick coat and wool hat inside a frosty garage",
+   "summary": "In the second winter the garage is freezing, and Ben must change how he works."
+  },
+  {
+   "n": 152,
+   "scene": "Ben's breath makes clouds above a tin of glue that will not set",
+   "summary": "Glue will not set in the cold."
+  },
+  {
+   "n": 153,
+   "scene": "Ben carries a borrowed fan heater into the garage",
+   "summary": "Ben asks Marta for help again, and she lends him her old heater."
+  },
+  {
+   "n": 154,
+   "scene": "Ben cuts small parts at the warm kitchen table",
+   "summary": "Ben moves the jobs that need warmth into the house."
+  },
+  {
+   "n": 155,
+   "scene": "Ivy sits on the kitchen floor beside a basket of wooden offcuts",
+   "summary": "Family life and boat work can share a room."
+  },
+  {
+   "n": 156,
+   "scene": "Ben shovels a path through snow to the garage door",
+   "summary": "He shows up in bad weather, because that is when the habit matters."
+  },
+  {
+   "n": 157,
+   "scene": "A drip falls from the garage roof onto the hull",
+   "summary": "A leaking roof threatens the boat."
+  },
+  {
+   "n": 158,
+   "scene": "Ben patches the garage roof at dusk while Mr Dunn holds the ladder",
+   "summary": "Mr Dunn arrives to hold the ladder, and doubt turns into help."
+  },
+  {
+   "n": 159,
+   "scene": "Mr Dunn stands in the garage doorway, rubbing his chin",
+   "summary": "Mr Dunn admits he might have been wrong, and people can change."
+  },
+  {
+   "n": 160,
+   "scene": "Ben drinks tea in a warm kitchen with the boat safe in the garage",
+   "summary": "Rest after a hard day is part of the work."
+  },
+  {
+   "n": 161,
+   "scene": "Ben looks at an almost finished boat and a long list of small jobs",
+   "summary": "The last part of the work seems to take a very long time."
+  },
+  {
+   "n": 162,
+   "scene": "A list of forty small jobs taped to the garage wall",
+   "summary": "Ninety per cent finished is not the same as finished."
+  },
+  {
+   "n": 163,
+   "scene": "Ben fits a tiny brass screw into a seat support for an hour",
+   "summary": "Small details take a surprising amount of time."
+  },
+  {
+   "n": 164,
+   "scene": "Ben shapes a seat for the boat and fits it with care",
+   "summary": "Ben makes the seat well, because careless work now would show later."
+  },
+  {
+   "n": 165,
+   "scene": "Ben finds a crack in the wooden panel at the stern of the boat",
+   "summary": "A big setback arrives near the end."
+  },
+  {
+   "n": 166,
+   "scene": "Ben sits on the garage floor next to the cracked stern panel",
+   "summary": "Ben is ready to quit, and for the first time he says it aloud."
+  },
+  {
+   "n": 167,
+   "scene": "Marta arrives with a flask of soup and sits beside him",
+   "summary": "Marta tells Ben she cracked a stern panel too, three weeks before her own launch."
+  },
+  {
+   "n": 168,
+   "scene": "Ben and Marta cut a new stern panel together at the bench",
+   "summary": "Rebuilding is quicker the second time, because he knows more now."
+  },
+  {
+   "n": 169,
+   "scene": "Ben compares the new stern panel with the old one",
+   "summary": "The new piece is better than the old one: failure can leave you stronger."
+  },
+  {
+   "n": 170,
+   "scene": "Ben crosses the longest job off the list of forty",
+   "summary": "With each job crossed off the list shrinks, one small step at a time."
+  },
+  {
+   "n": 171,
+   "scene": "Ben carves an oar at the bench among curls of wood",
+   "summary": "Ben shapes the oars by hand, a stage he once thought beyond him."
+  },
+  {
+   "n": 172,
+   "scene": "Marta balances an oar on one finger",
+   "summary": "Marta shows Ben how to test an oar's balance, and good craft has many small tests."
+  },
+  {
+   "n": 173,
+   "scene": "Ben fits metal oarlocks into the sides of the boat",
+   "summary": "The oarlocks are fitted, and the boat begins to look ready."
+  },
+  {
+   "n": 174,
+   "scene": "Ben brushes varnish on the seat and oars on a mild evening",
+   "summary": "The first coat of varnish goes on, and the wood glows."
+  },
+  {
+   "n": 175,
+   "scene": "Ben sands lightly between coats of varnish",
+   "summary": "Repeating the same careful step three times makes the finish deep and smooth."
+  },
+  {
+   "n": 176,
+   "scene": "Nora and Ben talk about names at the kitchen table",
+   "summary": "Nora suggests Wren, a small, brave bird, and Ben loves it."
+  },
+  {
+   "n": 177,
+   "scene": "Ben paints the name Wren on the boat's side with a small brush",
+   "summary": "Ben paints the name Wren on the hull, one careful letter at a time."
+  },
+  {
+   "n": 178,
+   "scene": "Sam holds the paint pot and watches each letter appear",
+   "summary": "Sam's pride in his father's work is a quiet reward."
+  },
+  {
+   "n": 179,
+   "scene": "Ben steps back from the finished boat in the garage",
+   "summary": "The boat is finished, and Ben cannot quite believe it."
+  },
+  {
+   "n": 180,
+   "scene": "Ben and Marta sit quietly beside the boat as the lamp hums",
+   "summary": "Pride can be quiet, and Marta understands without needing words."
+  },
+  {
+   "n": 181,
+   "scene": "Ben and Tomas load the boat onto a borrowed trailer at dawn",
+   "summary": "On launch morning the boat leaves the garage for the first time."
+  },
+  {
+   "n": 182,
+   "scene": "Ben and his family stand by Mill Lake at dawn beside the boat",
+   "summary": "Ben is nervous that the boat will not float."
+  },
+  {
+   "n": 183,
+   "scene": "Club members line the shore with flasks and folding chairs",
+   "summary": "Friends from the club arrive, and Mr Dunn comes too."
+  },
+  {
+   "n": 184,
+   "scene": "Ben gently lowers the boat into the water",
+   "summary": "The boat touches the water at last."
+  },
+  {
+   "n": 185,
+   "scene": "The boat floats, with a thin line of water creeping in at a seam",
+   "summary": "The boat floats, but a small leak shows."
+  },
+  {
+   "n": 186,
+   "scene": "Ben bails water from the boat on the shore while Marta watches",
+   "summary": "Ben fixes the leak on the bank, because problems can be solved calmly."
+  },
+  {
+   "n": 187,
+   "scene": "Ben dries the seam and waits ten minutes for the sealant",
+   "summary": "Ben uses his old ten-minute rule once more while the repair sets."
+  },
+  {
+   "n": 188,
+   "scene": "Ben pushes off from the shore and pulls the first stroke",
+   "summary": "Ben takes his first stroke with oars he made himself."
+  },
+  {
+   "n": 189,
+   "scene": "Ben rows slowly across calm water with Sam on the seat",
+   "summary": "Ben rows across Mill Lake with his son, and the goal is reached."
+  },
+  {
+   "n": 190,
+   "scene": "Ben rows Nora and baby Ivy while Mr Dunn waves from the bank",
+   "summary": "Ben rows the rest of the family, and even the doubter waves."
+  },
+  {
+   "n": 191,
+   "scene": "Ben sits on the grass beside the boat and writes in his notebook",
+   "summary": "Ben sees that the boat has also changed him."
+  },
+  {
+   "n": 192,
+   "scene": "Ben lists what he has learned about himself in his notebook",
+   "summary": "Ben is more patient and more skilful, and he knows he can finish hard things."
+  },
+  {
+   "n": 193,
+   "scene": "Marta and Ben share sandwiches by the shore",
+   "summary": "Marta asks what Ben will do next."
+  },
+  {
+   "n": 194,
+   "scene": "Ben and Marta stand with a drawing of a new boat on a table",
+   "summary": "Ben chooses a new goal and keeps the habit that carried him here."
+  },
+  {
+   "n": 195,
+   "scene": "Ben pins the same calendar and timer in the garage for the next project",
+   "summary": "The habits that built the boat can build other things."
+  },
+  {
+   "n": 196,
+   "scene": "Ben helps a beginner at the club who is stuck on a plank",
+   "summary": "Ben passes on what he has learned."
+  },
+  {
+   "n": 197,
+   "scene": "Ben tells the beginner that the middle is meant to be hard",
+   "summary": "Ben shares the idea that helped him most, and the beginner smiles."
+  },
+  {
+   "n": 198,
+   "scene": "Ben and Nora sit on the jetty at sunset with their feet dangling",
+   "summary": "Nora and Ben look back on the two years together."
+  },
+  {
+   "n": 199,
+   "scene": "Ben holds his grandfather's snapshot beside the boat on the water",
+   "summary": "Ben thinks of his grandfather, and the old memory has become a new one."
+  },
+  {
+   "n": 200,
+   "scene": "Ben rows alone on a calm lake at sunset, the boat gleaming",
+   "summary": "The book ends with the main lessons about perseverance."
   }
+ ],
+ "levels": {
+  "A1A2": [
+   "Ben is forty-one, and tonight he decides to build a boat.",
+   "The garage is full of boxes, tools and an old bicycle.",
+   "Nora reads the plans and says yes, but the family comes first.",
+   "Ben looks at an old photo of his grandfather in a boat.",
+   "As a boy, Ben sat in the boat, and the lake was quiet.",
+   "Ben writes why he wants the boat on a small card.",
+   "A van brings tall sheets of plywood to Ben's house.",
+   "Sam is eight, and he wants to help carry the wood.",
+   "Tomas is Ben's friend, and he laughs at the long plan.",
+   "Ben counts two winters on the calendar and closes the door.",
+   "Ben reads a big book about boats before he starts.",
+   "Ben tries to join two pieces of wood, and it looks bad.",
+   "Ben reads a little, and then he tries a little.",
+   "Ben has glue on his hands, but he is smiling.",
+   "Ben cuts the big job into six smaller jobs.",
+   "Ben pins the chart on the wall and looks at stage one.",
+   "Each week Ben writes one small goal on a note.",
+   "The big goal is at the top, and the small goals are below.",
+   "Ben thinks of a new shelf, but he crosses it out.",
+   "The list is on the wall, so every evening starts easily.",
+   "On Saturday, Ben marks the plywood with a pencil and a ruler.",
+   "The saw sings, and the first curved piece falls free.",
+   "Ben shows Nora the first piece, and she smiles.",
+   "Ben works late each night and falls asleep on the sofa.",
+   "Ben tells Sam the boat will be ready by spring.",
+   "Tomas helps Ben cut a long panel, and they laugh a lot.",
+   "Now it is the fourth week, and the work feels hard.",
+   "Ben stands in the cold garage, and then he goes back inside.",
+   "Ben feels bad, and he does not understand where his wish went.",
+   "Excitement is a spark, but a habit is a fire.",
+   "Ben hangs his coat on a hook and puts on his apron.",
+   "Ben chooses two work times: Saturday morning and Wednesday evening.",
+   "Nora writes the garage hours on the family planner.",
+   "The night before, Ben puts his tools out on the bench.",
+   "On bad days, Ben only has to work for ten minutes.",
+   "The timer rings, but Ben is warm, so he keeps working.",
+   "Some days Ben is very tired, and ten minutes is all.",
+   "Ben marks each work day with a red cross on the calendar.",
+   "Nine red crosses stand in a row, and Ben is proud.",
+   "Ben hangs his coat on the same hook every time.",
+   "Ben cuts a plank, and it is much too short.",
+   "The mistake costs him a morning, some money and his pride.",
+   "Ben picks up the plank and walks toward the bin.",
+   "Ben puts the plank down and looks at the scraps.",
+   "Ben cuts a small patch and fits it into the gap.",
+   "The patch is not perfect, but it is strong.",
+   "Ben sits alone in the dark garage and wants to quit.",
+   "Ben writes the words tired and doubtful in his notebook.",
+   "Ben eats a late supper while Nora listens to him.",
+   "In the morning the patch looks small, and Ben begins again.",
+   "The middle of a long job is usually the hardest part.",
+   "Ben draws a dip on a board and writes the stages.",
+   "Ben looks at another panel and a big pile of sandpaper.",
+   "Tomas watches Ben practise a hard joint on scrap wood.",
+   "Tomas points at a gap in the joint with a pencil.",
+   "Ben makes ten joints in a row and numbers each one.",
+   "The tenth joint is much better than the first one.",
+   "Ben joins the real frame, and his hands are steady.",
+   "Ben puts a note on the wall: the middle is hard.",
+   "Ben and Sam drink cocoa while rain taps on the roof.",
+   "Ben finds a blue door in a lane near the river.",
+   "Marta is in her seventies, and she agrees to look.",
+   "Marta touches the boat and finds three faults at once.",
+   "Marta's workshop has old tools and faded photos on the wall.",
+   "Marta says her first three boats were all failures.",
+   "Marta taps the bench and tells Ben to slow down.",
+   "Ben measures every plank twice before he cuts it.",
+   "Ben leaves his phone on a shelf in the house.",
+   "With no phone, Ben works for two quiet hours.",
+   "Ben gives Marta a jar of jam to say thanks.",
+   "Late at night, Ben and Nora pack a bag by the door.",
+   "Baby Ivy is born, and Ben holds her in his arms.",
+   "Every day Ben walks past the garage door with the baby.",
+   "At three in the morning, Ben makes tea, and he is very tired.",
+   "A sheet covers the boat, and dust is on the tools.",
+   "Ben worries that the project is over and that he has quit.",
+   "Nora gives Ben the garage key and tells him to go.",
+   "Ben opens the garage door and sets the timer.",
+   "Ben wipes the dust from his tools and starts slowly.",
+   "Ben's new rule is simple: he never misses two sessions in a row.",
+   "Sanding takes three weekends, and Ben finds it very boring.",
+   "Ben wears goggles and a mask, and the work is dull.",
+   "Ben sands to the radio and drinks a mug of tea.",
+   "Sam sands a piece of wood with his own small block.",
+   "Ben runs his hand over the smooth wood and feels glad.",
+   "Ben uses rough sandpaper first, and then he uses fine paper.",
+   "Marta watches Ben sand and nods her head.",
+   "Ben sweeps the floor, and the shell of the boat is done.",
+   "Ben's family has a picnic beside the finished shell.",
+   "Ben marks four stages on the wall chart with a bold pen.",
+   "Mr Dunn, the neighbour, says that the boat will never float.",
+   "Ben goes back into the garage with a red face.",
+   "Ben looks at his hands, and they are shaking a little.",
+   "Ben talks to himself like a friend, in the window.",
+   "Ben writes three true facts about his work on a card.",
+   "Nora laughs and says Mr Dunn should look at his own garden.",
+   "Ben watches a fast video of a boat being built.",
+   "Ben looks at the video, and then at his slow boat.",
+   "Ben closes the laptop and picks up his chisel.",
+   "Mr Dunn looks through the fence and says nothing.",
+   "Ben counts his coins, and wood costs more than he thought.",
+   "Ben and Nora talk about the money at the kitchen table.",
+   "Ben crosses out one method on his plan and writes another.",
+   "Ben cuts the shape of an oar from a cheap plank.",
+   "Ben drives to the timber yard and fills the boot with offcuts.",
+   "Ben finds a magazine with a beautiful new kayak design.",
+   "Ben puts the magazine in a drawer and shuts it.",
+   "Ben sits at the table with a pencil and thinks hard.",
+   "Ben writes two lists: reasons to stop and reasons to go on.",
+   "Ben pins the old photo of his grandfather above the bench.",
+   "Ben puts away his football boots and closes the cupboard.",
+   "Ben watches his old team play and feels a little sad.",
+   "Ben and Nora talk about their Friday evenings together.",
+   "Ben turns off the television and opens his notebook.",
+   "The first coat of paint is coming off the boat.",
+   "Ben scrapes the bad paint off the hull with a flat tool.",
+   "Marta shows Ben a damp patch on the garage wall.",
+   "The glue needs a whole day, and Ben cannot hurry it.",
+   "Ben reads in a garden chair while the glue dries.",
+   "Ben presses his thumb on the dry joint, and it is hard.",
+   "One hour a day becomes hundreds of hours in one year.",
+   "Ben counts the red crosses on the calendar with a finger.",
+   "One plank is rough and crooked, and one is smooth and straight.",
+   "A joint that took an hour now takes only ten minutes.",
+   "Ben holds a plane that fits his hand perfectly.",
+   "Ben holds baby Ivy's tiny hand in the kitchen.",
+   "Ben runs a hand along the hull, and it is a boat.",
+   "Sam asks when the boat will float, and Ben thinks.",
+   "Ben writes a list called Done, and it fills a page.",
+   "Ben pins the Done list beside the chart of stages.",
+   "Ben meets people from the boat club beside a boat on a trailer.",
+   "Priya shows Ben the clubhouse, and it is full of oars.",
+   "Hugo shows his plain, quick boat, built in one summer.",
+   "Ben drives home very slowly, and he does not turn on the radio.",
+   "Nora meets Ben at the door and listens to him.",
+   "Ben shows his friends a photo of the boat at the club.",
+   "Priya writes Ben's name and the launch day on the board.",
+   "Ben stares at the date on the board and swallows.",
+   "Ben counts the weeks to April and plans every one.",
+   "Members drink tea and tell boat stories at the club.",
+   "One year after the start, Ben makes two lists in a notebook.",
+   "In the first list, Ben writes what has worked well.",
+   "In the second list, Ben writes what has not worked.",
+   "Ben sees that he works better in the morning.",
+   "Ben sets an early alarm and walks to the garage.",
+   "Ben finds his first weekly goal note in a drawer.",
+   "Ben tells Sam that the boat is more than half done.",
+   "Ben's job becomes very busy, and he has less free time.",
+   "Ben sets the timer for twenty minutes before dinner.",
+   "Small days count too, and the chain of crosses stays whole.",
+   "Ben wears a thick coat and a hat in the freezing garage.",
+   "Ben's breath makes clouds, and the glue will not harden.",
+   "Ben carries an old fan heater from Marta into the garage.",
+   "Ben cuts small parts at the warm kitchen table.",
+   "Ivy sits on the kitchen floor with a basket of offcuts.",
+   "Ben clears a path through the snow to the garage door.",
+   "Water drips from the garage roof onto the boat.",
+   "Ben fixes the roof while Mr Dunn holds the ladder.",
+   "Mr Dunn says that he might have been wrong.",
+   "Ben drinks tea in the kitchen, and the boat is safe.",
+   "Ben looks at an almost finished boat and a long list.",
+   "A list of forty small jobs hangs on the garage wall.",
+   "Ben fixes one tiny brass screw into a part for an hour.",
+   "Ben shapes a seat for the boat and fits it with care.",
+   "Ben finds a crack in the wood at the back of the boat.",
+   "Ben sits on the garage floor and says he wants to quit.",
+   "Marta arrives with a flask of soup and sits next to Ben.",
+   "Ben and Marta cut a new panel together at the bench.",
+   "Ben sees that the new panel is better than the old one.",
+   "Ben crosses the longest job off the list of forty.",
+   "Ben carves an oar at the bench, and wood curls fall down.",
+   "Marta holds the oar and balances it on one finger.",
+   "Ben fits the metal oarlocks into the sides of the boat.",
+   "Ben brushes varnish on the wooden parts on a warm evening.",
+   "Ben sands the wood very lightly between each coat of varnish.",
+   "Nora suggests the name Wren, and Ben loves it.",
+   "Ben paints the name Wren on the side of the boat.",
+   "Sam holds the paint pot and watches every letter.",
+   "Ben steps back and sees the finished boat in the garage.",
+   "Ben and Marta sit by the boat as the lamp hums.",
+   "Ben and Tomas lift the boat onto a borrowed trailer.",
+   "At dawn, Ben and his family stand by Mill Lake.",
+   "Club members stand on the shore with hot tea and chairs.",
+   "Ben and Tomas slowly lower the boat into the lake.",
+   "The boat floats, but a little water comes in.",
+   "Ben pulls the boat ashore and bails out the water.",
+   "Ben dries the seam and waits ten minutes for the sealant.",
+   "Ben pushes off from the shore and pulls the first stroke.",
+   "Ben rows slowly across calm water with Sam on board.",
+   "Ben rows Nora and baby Ivy while Mr Dunn waves.",
+   "Ben sits on the grass beside the boat and writes.",
+   "Ben writes down what he has learned about himself.",
+   "Marta and Ben eat sandwiches together on the shore of the lake.",
+   "Ben and Marta look at a drawing of a new boat.",
+   "Ben pins the calendar and the timer up for the next project.",
+   "Ben helps a beginner at the club who is stuck.",
+   "Ben tells the beginner that the middle is meant to be hard.",
+   "Ben and Nora sit on the jetty with their feet dangling.",
+   "Ben holds his grandfather's old photo up on the quiet lake.",
+   "Care about your goal, work every week, and keep going."
+  ],
+  "B1B2": [
+   "Ben has never built anything larger than a bookshelf. Tonight, however, he spreads the plans for a small rowing boat across the kitchen table and decides to build it himself.",
+   "Before any wood can come in, the garage must be emptied. Ben spends the whole weekend carrying boxes up to the loft and the old bicycle out to the shed.",
+   "Nora reads the plans over his shoulder and asks sensible questions about cost, time and space. In the end she agrees, as long as the family always comes first.",
+   "In the photograph, Ben's grandfather is rowing a small wooden boat across Mill Lake. That photograph is the real reason for the project, because the mornings Ben spent on that lake were the happiest of his childhood.",
+   "When Ben was seven, his grandfather rowed him across the lake at dawn. The water was so still that the whole sky seemed to lie underneath them.",
+   "Ben writes one sentence on a card: I will row my family across Mill Lake. He pins it above the workbench so that he can read it on bad days.",
+   "On Thursday afternoon a delivery van arrives with ten tall sheets of marine plywood. Ben stands in the driveway and feels, for the first time, that the idea is real.",
+   "Ben's son Sam, who is eight, drags a small piece of plywood across the garage floor all by himself. He is very proud, and Ben realises that someone is now watching.",
+   "At lunch on Friday Ben tells his friend Tomas about the boat he is going to build. Tomas laughs kindly and says that two years is a very long time to keep doing one thing.",
+   "That night Ben counts two winters on the kitchen calendar. A long task needs a long view, he thinks, and he closes the garage door until morning.",
+   "Ben knows very little about boats, so he reads a thick book about boatbuilding with a pencil behind his ear. He understands perhaps half of it, and that turns out to be enough to begin.",
+   "Ben glues two scraps of wood together to practise his first joint. It comes out crooked and ugly, and that is simply how every beginner starts.",
+   "Ben decides on a simple rule: he reads for one evening, then tries the idea with his hands the next day. In this way the book and the saw teach him together.",
+   "After a week of practice Ben notices something odd, which is that he is enjoying himself. His hands are getting better, and the better they get, the more he likes the work.",
+   "A whole boat is too large to think about all at once. So Ben draws it and divides the work into six stages: cutting, joining, shaping, sanding, painting and launching.",
+   "Ben pins the chart of six stages to the garage wall, just above the workbench. For now he only has to think about stage one, and the other five can wait.",
+   "Every Sunday Ben writes one small goal on a yellow note, such as cutting two planks or testing a joint. At the end of the week the note is either done or not, and that is easy to judge.",
+   "On the paper, the goal at the top is rowing on Mill Lake, and each small step below it serves that goal. Because of this, even a dull job such as sharpening a chisel feels like part of something larger.",
+   "While planning, Ben thinks of a useful new shelf for the garage and writes it down. Then he crosses it out, because the shelf is not part of the boat.",
+   "Ben pins the week-by-week list to the wall beside the six stages. Now each evening begins with a decision that has already been made.",
+   "On the first Saturday Ben is up before the sun, marking the plywood with a long ruler and a sharp pencil. He has never felt so full of energy, and he can hardly wait to begin.",
+   "The saw sings through the wood, and the first curved panel falls free. Ben holds it up to the light and feels like a real boatbuilder.",
+   "Ben carries the first panel into the kitchen to show Nora. She admires it kindly, and he is sure that this happy feeling will last for ever.",
+   "For two weeks Ben works in the garage every evening until midnight. He falls asleep on the sofa with sawdust in his hair, tired but very happy.",
+   "Ben tells Sam that the boat will be finished by spring. He says it with total confidence, because he does not yet know how long the hard parts take.",
+   "On Friday evening Tomas comes to the garage and helps Ben hold a long panel steady. They laugh a great deal, and the work feels more like play than work.",
+   "By the fourth week the excitement has gone, and a cold, wet evening finds Ben alone with a half-finished panel. The work no longer feels like a game, and it has started to feel like work.",
+   "One evening Ben opens the garage door, looks at the cold dark room and closes the door again. He goes inside and switches on the television instead.",
+   "Ben watches the television without really seeing it, and a heavy feeling grows in his chest. He feels guilty, and he cannot understand where his wanting has gone.",
+   "Late that night, lying awake in bed, Ben understands something quite simple. Excitement is a spark that starts a fire, but only a habit keeps the fire burning.",
+   "Motivation comes and goes like the weather, so Ben stops waiting for it. He simply hangs up his coat, ties on his apron and walks into the garage, whether he feels like it or not.",
+   "Ben looks at his week and chooses two fixed work times: Saturday mornings and Wednesday evenings. He circles them in blue on the kitchen calendar so that he cannot argue with them later.",
+   "Ben explains his new schedule to Nora over a cup of tea one evening. She writes the garage hours on the family planner, and from that moment they belong to the boat.",
+   "The night before each session, Ben lays his tools out neatly on the bench under the lamp. When the time comes, there is nothing to find and nothing to prepare, so starting is easy.",
+   "Ben also makes himself a special deal for the days when he feels tired or cross. He sets the kitchen timer for ten minutes, and when it rings he is allowed to stop.",
+   "Most of the time, when the timer rings, Ben is already warmed up and keeps going. The hardest part of any task, he finds, is almost always the beginning.",
+   "On other days Ben is so tired that he works for exactly ten minutes and sweeps the floor. That is all he does that day, and he is allowed to feel proud of it.",
+   "Ben hangs a big wall calendar by the garage door. After each session he marks the day with a neat red cross, and he soon starts to enjoy this small ritual.",
+   "After five weeks there is a chain of nine red crosses on the calendar. Ben finds that he does not want to be the one who breaks it.",
+   "Same hook, same time, same apron: Ben does everything in the same order at each session. Because it has become a habit, it takes almost no effort to begin.",
+   "Ben is in a hurry one Saturday, so he measures only once before he cuts. When he holds the plank against the frame, he sees at once that it is too short.",
+   "The plank cost money, and the mistake has cost him a whole morning. Worst of all, it hurts his pride, because he had begun to think he was getting good.",
+   "Ben picks up the short plank and carries it toward the rubbish bin. He nearly throws it away, and with it the whole project.",
+   "Ben puts the plank back on the bench and looks at his box of scraps. Perhaps, he thinks, most mistakes can be mended if a person stays calm and looks carefully.",
+   "Ben cuts a small patch from his scraps and shapes it to fit the gap. He glues it in place instead of throwing everything away.",
+   "When the glue is dry, the patch is not perfect and it is not invisible. However, it is strong, and the plank will do its job very well.",
+   "That evening Ben sits alone at the garage door in the dark and thinks about quitting. He feels tired and full of doubt, but he is not sure that this is the same as wanting to stop.",
+   "Ben takes out his notebook and writes two words: tired and doubtful. Seeing the words on paper, he realises that feelings are like weather, and not like facts.",
+   "Nora has kept his supper warm, and she listens while he tells her about the plank. When he has said it all out loud, the bad feeling seems smaller.",
+   "In the morning light the patch looks much smaller than it did in the dark. Ben eats some breakfast, puts on his apron and begins again.",
+   "Ben realises that every long task has a beginning, a middle and an end. The beginning is exciting and the end is thrilling, but the middle is usually the hardest part.",
+   "Ben takes a small board and draws a line that starts high, sinks into a deep dip and climbs again. He writes the stages along it and puts a cross in the dip.",
+   "The second panel looks exactly like the first one, and a pile of sandpaper is waiting beside it. The newness has gone, and the finish is still very far away.",
+   "Ben decides to practise the hardest joint on scrap wood before he tries it on the boat. Tomas comes round and watches, and Ben asks him for honest feedback.",
+   "Tomas squints at the joint and points to a thin gap with his pencil. It stings a little to hear it, but his comment is worth more than any praise.",
+   "Ben decides to make ten practice joints in a row, and he numbers each one. After every attempt he looks for the one thing that went wrong and changes only that.",
+   "Ben holds the first joint and the tenth joint side by side on the bench. The difference is so large that he can hardly believe he made both of them.",
+   "On Saturday Ben makes the difficult joints on the real frame. Because he has practised on scrap, his hands stay steady and he feels calm.",
+   "Ben tapes a note above the bench that says the middle is meant to be hard. If he expects difficulty, he is less frightened when it arrives.",
+   "One wet evening Sam brings two mugs of cocoa to the garage. They drink it beside the frame while the rain taps the roof, and the hard work feels lighter.",
+   "A man at the hardware shop tells Ben that a retired boatbuilder lives two streets away. One February evening he walks to Tanner's Lane and knocks on a blue door.",
+   "The door is opened by Marta, a silver-haired woman in her seventies. She looks at him over her glasses and agrees, to his surprise, to come and see the boat.",
+   "Marta runs her fingertips along the edge of the hull and finds three faults in a minute. None of them is fatal, and she lists them calmly, one by one.",
+   "A few days later Ben visits Marta's workshop, where old chisels and faded photographs of boats hang on the wall. He understands that people who are further along the road can save him from many mistakes.",
+   "Marta shows Ben the broken keel of her very first boat and laughs. Her first three boats were failures, she says, and even experts began badly.",
+   "Marta taps a ruler and a pencil on the workbench as she gives her advice. Slow down, she says, and do each step properly, because speed comes from care.",
+   "From then on Ben measures every plank twice before he cuts it. To his surprise, slowing down turns out to be faster than doing the job twice.",
+   "Marta says that a phone in the pocket is a thief of attention. So Ben leaves his phone on a shelf in the house and walks to the garage without it.",
+   "With no phone buzzing in his pocket, the two hours pass quickly and quietly. Ben listens to the plane hiss over the wood while shavings curl onto the floor, and he feels completely absorbed.",
+   "Ben brings Marta a jar of Nora's plum jam to say thank you. She smiles and says that he should come again on Thursday.",
+   "One night in March, Nora says that it is time. Ben picks up the bag that has been waiting by the door and drives her to the hospital.",
+   "A baby daughter called Ivy is born before dawn, and Ben holds her in the quiet hospital room. After that he does not touch the boat for six whole weeks.",
+   "Ben pushes the pram up and down the street, and each time he passes the closed garage door. The boat is only a few steps away, but it feels very far.",
+   "At three in the morning, Ben stands in the kitchen making tea, half asleep. In weeks as tired as these, he thinks, rest is not failure.",
+   "A dust sheet lies over the half-built boat, and Ben's notebook has no new entries. Week after week the boat waits patiently in the dark.",
+   "At the kitchen table Ben worries that the project is over. A pause feels like quitting, but he slowly begins to see that the two are different.",
+   "One bright Saturday morning Nora puts the garage key into Ben's hand and tells him to go. The family supports the goal, she says, and Ivy is perfectly happy with her.",
+   "Ben opens the garage door on a bright spring morning and sets the kitchen timer for ten minutes. After six weeks, that is all he asks of himself.",
+   "Ben wipes the dust from his tools and picks up the plane. His first session back is clumsy, and he decides that clumsy is perfectly fine.",
+   "Ben makes a new rule: if he misses one session, he must not miss the next one. Everyone slips, he decides, but a slip does not have to become a slide.",
+   "Ben sands the long curved planks in a cloud of fine white dust. The job takes three weekends, and he finds it very boring.",
+   "Ben wears goggles and a mask and stares at a mountain of sandpaper. The dull jobs, he realises, are where many people give up.",
+   "Ben carries the old radio into the garage and puts a mug of tea on the bench. Music and tea make the boring work much easier to bear.",
+   "Sam asks if he can help, so Ben gives him a scrap of wood and a small sanding block. Having a cheerful companion makes the dull work feel much lighter.",
+   "Ben runs his palm along a plank that is now as smooth as glass. The feeling under his hand is a small reward for all those hours.",
+   "Ben lays out three kinds of sandpaper in a row: rough, medium and fine. Doing a dull job in careful steps, he finds, gives the best finish.",
+   "Marta stands in the garage doorway in the evening light and watches Ben sand. Boring work, she says, shows who really cares about the result.",
+   "At last the final plank is sanded, and Ben sweeps up a floor covered in white dust. The whole shell of the boat is complete, and it looks like a boat.",
+   "To celebrate, Nora spreads a rug on the garage floor, and the family eats a picnic beside the shell. When a stage is finished, it deserves a little celebration with the people you love.",
+   "Ben takes a bold pen and ticks four of the six stages on the wall chart. Seeing those four ticks in a row gives him fresh energy for the next stage.",
+   "One warm evening the neighbour, Mr Dunn, leans over the garden fence and smiles. He says that the boat will never float, and that Ben is wasting his time.",
+   "Ben goes back into the garage with a red face and picks up a chisel, but his hands are not steady. Other people's doubts can hurt, even when they are not meant to.",
+   "Ben looks at his hands, which are still shaking a little. Mr Dunn's words hurt because they match the quiet fears that Ben already has.",
+   "Ben looks at his face in the small garage window and speaks to himself calmly. He tries to talk to himself as he would talk to a good friend.",
+   "Ben takes a card and writes three true facts about his progress. Four stages are done, he has fixed his mistakes, and he has kept going for months.",
+   "Nora laughs when she hears the story and says that Mr Dunn should look at his own garden. People's doubts, she says, often tell you more about them than about you.",
+   "Late one night Ben watches a speeded-up video of someone building a boat on his laptop. In four minutes the whole boat appears, which looks quick and easy because the boring parts have been cut out.",
+   "Ben frowns at the screen and then at his own slow, unfinished boat. Comparing his middle with someone else's highlights, he realises, is unfair to himself.",
+   "Ben shuts the laptop and picks up his chisel. The only fair comparison, he decides, is between himself today and the Ben of last autumn.",
+   "A week later Mr Dunn peers through a gap in the fence at the boat and says nothing. His doubt is not gone, but it has become a little quieter.",
+   "Ben sits beside a stack of wood with a long receipt in his hand. The wood costs more than he expected, and he feels a cold worry in his stomach.",
+   "Ben and Nora sit down together with the bills and a calculator. Money problems, they agree, are best solved honestly and as a team.",
+   "Ben crosses out a costly method on his plan and writes a cheaper one beside it. He learns to be flexible about the method but firm about the reason for the goal.",
+   "Instead of buying expensive oars, Ben decides to make a pair himself from a plain plank of ash. He draws an oar on the plank and begins to cut the rough outline.",
+   "Ben visits a timber yard and asks for its offcuts, which are sold very cheaply. He drives home with the boot of the car full of useful pieces.",
+   "In a waiting room Ben finds a magazine with a sleek design for a kayak. He feels a strong pull to start a new and shinier project.",
+   "Ben tears out the design, puts it in a drawer and shuts it. New ideas feel exciting because they are not yet hard, so he decides to finish one thing first.",
+   "One night Ben sits at the kitchen table with a pencil and asks himself whether he should quit. He treats the question seriously, because it deserves a serious answer.",
+   "Ben writes reasons to stop in one column and reasons to continue in another. A fair test of quitting, he decides, is to ask whether the goal still matters.",
+   "Ben takes the old photograph of his grandfather and pins it next to his goal card. The goal still matters to him, so he decides to stay.",
+   "To make room for the boat, Ben puts away his football boots and closes the cupboard. He gives up Sunday football, which he has played for ten years.",
+   "On Sunday Ben stands by the pitch and watches his old team play. Giving something up has a real cost, and Ben does not pretend that it does not.",
+   "Ben and Nora talk about what the project has changed for them both. Trade-offs affect the whole family, so they are best discussed openly.",
+   "Ben finds extra time by switching off the television, which he used to watch without much enjoyment. Those hours that once vanished without a trace now belong to the boat.",
+   "The first coat of paint begins to peel off the hull in thin flakes. Ben holds up a flaking panel with a sad face and knows that he must start the stage again.",
+   "Ben scrapes the failed paint from the hull with a flat tool. It is better to redo the work properly than to hide a fault under more paint.",
+   "Ben asks Marta why the paint peeled, and she points at a damp patch on the garage wall. The air was too wet, so the paint could not hold.",
+   "The glue on the new joint needs a full day to set, and Ben has to wait with a mug of tea. Some things in a long project simply cannot be hurried, however much he wants to.",
+   "Instead of fretting, Ben reads a boat book in a deckchair while the glue dries. Patience, he finds, means doing something useful while the slow thing happens.",
+   "The next morning Ben presses his thumb against the joint, and it is as hard as stone. Patience has paid him back, and the work can continue.",
+   "Ben does a sum on the back of an envelope. One hour a day adds up to about three hundred and sixty-five hours in a year, which is a very large amount of work.",
+   "Ben counts the red crosses on his old calendars, running his finger along each row. He has marked about ninety working days since October, and that surprises him.",
+   "Ben puts two planks side by side on the bench. One is an early cut, rough and crooked, and the other is a recent cut, smooth and straight.",
+   "Ben reads an old notebook page about a joint that once took him a whole hour. Today he makes the same joint in ten minutes, although no single day showed him the change.",
+   "Ben's hand rests on the plane, and it fits his grip as if it had been made for him. His hands now know the tools in a way that they did not before.",
+   "Ben sits in the kitchen holding Ivy's tiny hand, and she grips his finger tightly. She grows a little every day, and nobody sees it happen, just as slow work builds up unseen.",
+   "Ben runs a hand along the curved hull of the boat. It now has a real shape, and the shape is visible proof of all the work.",
+   "Sam asks when the boat will float on the water. Ben gives him an honest answer: next spring, if the work goes on.",
+   "Ben writes a list headed Done and soon fills a whole page. Looking back at what is finished, he finds, is as useful as looking at what is left.",
+   "Ben pins the Done list on the wall beside the chart of six stages. On hard days he will read it as a reminder of how much he has already done.",
+   "Ben finds the Mill Lake Boat Club and meets a group of people around a boat on a trailer. They share his interest, and he has never talked with people like them before.",
+   "Priya, the club chair, shows Ben the clubhouse, where old oars hang from the ceiling. She welcomes him warmly, and for the first time he feels that he belongs.",
+   "A club member called Hugo proudly shows his own boat, which he built in a single summer. It is plain and quick, and next to it Ben feels very small.",
+   "Ben drives home very slowly with the radio turned off and his thoughts running round. He wonders whether he is simply too slow for this kind of project.",
+   "Nora listens on the doorstep as Ben explains how he feels. She reminds him that Hugo's road is not his road, and that speed is no measure of worth.",
+   "Ben shows his friends a photograph of the boat at the club, and they cheer. He has told people his plan, and that makes him feel responsible to them.",
+   "Priya writes Ben's name and the first Saturday in April on the club noticeboard. A date has been set, and a vague wish has become a plan.",
+   "Ben stares at the date on the noticeboard and swallows hard. The date frightens him, and it also pulls him forward.",
+   "Ben sits down with a calendar and counts the weeks until April. With a date to aim at, each week now has a job to do.",
+   "On Thursday evening the members drink tea and share stories at the clubhouse. Everyone there has a tale of nearly giving up, and Ben finds that very comforting.",
+   "One year after the first night, Ben writes two columns in his notebook under a bright lamp. He wants to look at the year honestly, without pride or shame.",
+   "In the first column Ben lists what has worked: the timer, the calendar, the Done list and Marta. He underlines each one, so that he will not lose it.",
+   "In the second column Ben lists what has not worked: late nights, cold sanding and rushed cuts. Being honest about failures, he thinks, is the first step toward changing them.",
+   "Looking at the two columns, Ben notices a pattern. His best work was always done in the morning, and his worst mistakes came at the end of long days.",
+   "Ben changes his Wednesday session from the evening to the early morning. He sets an alarm for six and walks to the garage before work, and the new time suits him well.",
+   "In a drawer Ben finds his very first weekly goal, written on a yellow note in October. It says only: cut two planks, and he smiles at how small it seems now.",
+   "Ben tells Sam that the boat is now more than half finished. Sam cheers, and Ben feels a surge of new energy, because he is closer to the end than to the beginning.",
+   "A busy season begins at work, and Ben sits at his desk behind a tall pile of papers. For several weeks his free time almost disappears again.",
+   "Ben shrinks his plan to twenty minutes before dinner on busy days. It is much less than he wanted, but it is not nothing, and he does not stop.",
+   "On the calendar the short sessions get the same red crosses as the long ones. Small days count, and so the chain stays unbroken all through the busy weeks.",
+   "In the second winter the garage is freezing, and Ben works in a thick coat and a wool hat. He knows that he must change how he works.",
+   "Ben's breath makes clouds above a tin of glue that will not set in the cold. Epoxy needs warmth to harden, and the garage cannot give it any.",
+   "Ben asks Marta for help again, and she lends him her old fan heater. He thanks her, and he feels a little less alone in the cold.",
+   "Ben moves the jobs that need warmth into the house. He cuts and glues small parts at the kitchen table, where the radiator keeps everything warm.",
+   "Ivy sits on the kitchen floor with a basket of wooden offcuts and bangs two together happily. Family life and boat work, Ben discovers, can share a room.",
+   "After a night of heavy snow, Ben clears a path to the garage door. He shows up in bad weather, because that is when the habit matters most.",
+   "In the thaw a drip falls from the garage roof onto the hull. If the leak is not stopped, the water will ruin months of careful work.",
+   "At dusk Ben climbs up to patch the garage roof, and Mr Dunn comes round to hold the ladder. The doubter has become a helper without a word being said.",
+   "When the roof is mended, Mr Dunn stands in the garage doorway rubbing his chin. He says gruffly that he might have been wrong about the boat.",
+   "Ben drinks hot tea in the warm kitchen while the boat sleeps safely under its tarpaulin. Rest after a hard day is not laziness, because it is part of the work.",
+   "By the end of February the boat looks almost finished, but a long list of small jobs remains. The last part of the work seems to take for ever.",
+   "Forty small jobs are taped to the garage wall, and Ben has finished most of the big ones. Nearly finished, he learns, is not at all the same as finished.",
+   "Ben spends a whole hour fitting one tiny brass screw into a seat support. It feels as though nothing has changed, but every small detail must be right.",
+   "Ben shapes a smooth seat for the middle of the boat. He fits it with great care, because careless work now would show later.",
+   "One morning Ben finds a long crack in the wooden panel at the stern. A serious setback has arrived, and it has arrived near the end.",
+   "Ben sits down on the cold garage floor next to the cracked panel. For the first time in months he says out loud that he wants to quit, and the words sound frightening.",
+   "Marta arrives with a flask of soup and sits down beside him. She tells him that she cracked a stern panel too, only three weeks before her own launch.",
+   "Together Ben and Marta cut a new panel for the stern at the workbench. It goes faster this time, because he now knows how to do it.",
+   "When the new panel is fitted, Ben compares it with the old one. It is better in every way, because he made it with a year of learning behind him.",
+   "Ben draws a line through the longest job on the list of forty. With each job crossed off, the list shrinks, one small step at a time.",
+   "Ben carves one of the oars at the bench, with curls of wood falling around his boots. He once thought that this job was beyond him.",
+   "Marta shows Ben how to test the oar's balance by resting it on one finger. Good craft, she says, is built from many small tests.",
+   "Ben fits the brass oarlocks into the sides of the boat, one on each side. Now the boat starts to look ready for the water.",
+   "On a mild March evening Ben brushes the first coat of varnish over the seat, the oars and the rails. The wood begins to shine like honey in the lamplight.",
+   "Between each coat of varnish, Ben sands the surface very lightly. Repeating the same careful step three times makes the finish deep and smooth.",
+   "Nora and Ben talk about names at the kitchen table. She suggests Wren, which is the name of a small, brave bird, and Ben loves it at once.",
+   "Ben paints the name Wren on the side of the hull with a small brush. He paints it one careful letter at a time.",
+   "Sam holds the paint pot and watches each letter appear. His quiet pride in his father's work is a reward that Ben did not expect.",
+   "Ben steps back from the finished boat and looks at it for a long time. He can hardly believe that it is real, and that he made it.",
+   "Ben and Marta sit quietly beside the finished boat while the lamp hums. Neither of them needs to speak, because Marta understands how he feels.",
+   "On the first Saturday in April, Ben and Tomas lift Wren onto a borrowed trailer before dawn. The boat leaves the garage for the first time, and the garage looks strangely empty.",
+   "The family stands by Mill Lake at dawn beside the boat, and Ben is very nervous. Everything depends on one simple fact, which is whether the boat will float.",
+   "Club members line the shore with flasks of tea and folding chairs, and Priya has brought a camera. To Ben's great surprise, Mr Dunn arrives too, wearing his best coat and carrying a small flag.",
+   "Ben and Tomas lower the boat down the ramp until its stern touches the lake. The water is cold and clear, and everyone on the shore goes quiet.",
+   "The boat floats, and everyone cheers, but a thin line of water creeps in at one seam. It is a small leak, yet it makes Ben's heart jump.",
+   "Ben pulls the boat back onto the shore and bails out the water with a cup. Marta watches closely, and she does not seem worried.",
+   "Ben dries the seam with a cloth and presses sealant along it. Then he sets the kitchen timer for ten minutes, his old rule from the bad days, and waits.",
+   "When the timer rings, Ben pushes the boat off from the shore and sits on the seat. He takes his first stroke with the oars that he made himself.",
+   "Ben rows slowly across Mill Lake with Sam sitting in the stern, facing him. The water is smooth and the morning is silent, exactly as he remembered it.",
+   "Ben rows back to the shore and takes Nora and baby Ivy for a second trip. From the bank Mr Dunn waves his little flag, and Ben waves back.",
+   "Later Ben sits on the grass beside the boat and writes in his notebook. He sees that the boat has changed him, as well as the other way round.",
+   "Ben lists what he has learned about himself: he is more patient, more skilled and more steady than he was. Above all, he now knows that he can finish things that are hard.",
+   "Marta and Ben share sandwiches by the shore as the sun climbs. She looks at him with her head on one side and asks what he will do next.",
+   "Ben takes the kayak design out of his drawer, and he and Marta study it on a table. He chooses a new goal, and he plans to keep the habits that carried him here.",
+   "In the garage Ben pins up a new calendar and puts the old timer on the bench. The habits that built the boat can build other things too.",
+   "At the club a new member is stuck on a crooked plank and looks close to tears. Ben sits down beside him and offers to help.",
+   "Ben tells the beginner that the middle of any big project is meant to be hard. The young man smiles with relief and picks up his saw.",
+   "One evening Ben and Nora sit on the jetty at sunset with their feet dangling over the water. They look back together on the long months they have shared.",
+   "Out on the lake Ben holds his grandfather's old photograph up to the light. The old memory has become a new one, because he is now living what he once only remembered.",
+   "Choose a goal that matters to you, make a regular routine, and be ready to change your methods. Rest when you must, ask for help, and then keep going until it is done."
+  ],
+  "C1C2": [
+   "Ben was forty-one years old, and the largest thing he had ever built was a bookshelf that leaned slightly to the left. Yet one October night he spread a set of plans for a small rowing boat across the kitchen table, smoothed the creases with both hands, and announced to the empty room that he would build it. It was a foolish idea, a stubborn idea, and it would take him the better part of two years to carry out.",
+   "The garage, however, was in no fit state to hold a boat, let alone to build one inside it. It was crammed with a decade of cardboard boxes, a rusting bicycle, an old paddling pool and the sort of objects that nobody ever decides to throw away. Ben spent a whole weekend shifting, sorting and sweeping, and by Sunday evening there was an empty rectangle of concrete waiting for something to happen.",
+   "Nora read the plans over his shoulder with one eyebrow slightly raised, and then she asked the questions that a sensible person asks, about the cost, the noise and the amount of time it would swallow. Ben answered honestly, which meant that he answered with a good deal of guessing. In the end she smiled, shrugged and agreed, on one condition: that the family would always come before the boat.",
+   "The reason for the boat lived in an old photograph kept in a kitchen drawer. It showed Ben's grandfather, broad and sunburnt and smiling, rowing a small wooden boat across the grey-green water of Mill Lake. Ben had not looked at it for years, and yet he could remember the very smell of that morning, of wet rope and cold air and tea from a flask.",
+   "When Ben was seven, his grandfather had rowed him out to the middle of Mill Lake at dawn and then simply stopped, letting the boat drift while the mist lifted off the water. Nobody spoke a word, and the whole world seemed to be holding its breath. Ben had never forgotten that silence, and he had been looking for a way back to it ever since.",
+   "Before he touched a single piece of wood, Ben took a white card and wrote on it, in careful capital letters, the reason for the whole adventure. It said that he would row his family across Mill Lake in a boat that he had built with his own hands. He pinned the card above the workbench, where he could see it on the days when the reason would be hard to remember.",
+   "The plywood arrived on a Thursday afternoon, strapped to the back of a delivery van, ten tall sheets that smelled faintly of resin and forest. Ben signed for them with a hand that was not quite steady, and then he stood there in the drizzle, looking at them. Until that moment the boat had been a daydream, but now it was a heavy, stubborn, expensive fact leaning against the garage wall.",
+   "Ben's son Sam, who was eight and believed that every project should include him, appeared in the doorway and dragged a small offcut of plywood across the freshly swept floor. He announced that he was the assistant and that assistants were entitled to a tool belt. Ben laughed, but he also felt the weight of a new kind of responsibility, because a person who is being watched cannot quietly drop an idea.",
+   "At work on Friday Ben told his friend Tomas about the boat over sandwiches in the canteen, and he was rather proud of the plan. Tomas listened carefully, laughed in a kindly way and pointed out that two years was a very long time to keep doing any single thing. Ben had no answer ready, and it occurred to him that this was exactly the question he ought to be asking.",
+   "That night, standing alone in the swept garage, Ben imagined the calendar on the kitchen wall and counted two winters on it, with a spring and a summer in between. It looked like an enormous distance to cover with a saw and a few borrowed books. But a long journey is made only of short steps, he decided, and he switched off the light, closed the door and went in to supper.",
+   "Ben knew very little about boats, so he sat at the kitchen table each evening with a thick book on boatbuilding and a pencil behind his ear. Half of it might as well have been written in another language, full of keels and chines and gunwales. Yet he found, to his surprise, that understanding half was enough to begin, and that the other half would arrive more easily once his hands had touched the wood.",
+   "His first practice joint, glued together from two scraps of pine, came out crooked, lumpy and faintly embarrassing. Ben held it up to the light and burst out laughing, because it looked like something a child might make on a bad day. Every expert he admired had once made a joint exactly like this, he reminded himself, and the only way past it was straight through it.",
+   "At the library Ben borrowed three more books, and then he made himself a rule that saved him from endless reading. He would study one idea in the evening and test it in the garage the next day, however clumsily. Learning, he found, sticks much better when the head and the hands take turns.",
+   "After a week of practising on scraps, Ben noticed something that he had not expected, which was that he was looking forward to the next session. His hands had started to understand the saw and the plane, and each small improvement made the work a little more satisfying. Interest, it seemed, was not a gift that some people were born with but a plant that grew from use.",
+   "The thought of a finished boat was too large to hold in the mind all at once, and Ben felt his courage wobble whenever he tried. So he took a large sheet of paper, drew the boat in the middle and divided the whole project into six stages: cutting, joining, shaping, sanding, painting and launching. Each stage was a job that he could picture, and a job that can be pictured can be begun.",
+   "Ben pinned the chart of six stages to the garage wall, where the light from the single window fell across it every morning. He made himself a promise that he would think only about the stage in front of him, and that he would not lie awake worrying about the painting while he was still cutting the planks. The other five stages could wait their turn, quietly and patiently, like passengers in a long and orderly queue.",
+   "Every Sunday evening Ben wrote a small goal for the week on a yellow sticky note, something modest like cutting two planks or sanding one edge. At the end of the week the note was either finished or it was not, which made the verdict beautifully clear. Small goals, he discovered, are the stepping stones that make a very large river crossable.",
+   "Ben noticed that his paper looked like a small family tree, with the great goal at the top and the little goals branching downward from it. Every small goal served the one above it, and the one at the very top, rowing on Mill Lake, gave all of them their meaning. A dull job, such as sharpening a chisel, stops feeling dull when it is plainly a step toward something that matters.",
+   "Ben was a man with plenty of ideas, and in the middle of his planning he thought of a shelf, a rack and a better lamp, all of which would have made the garage nicer. He wrote them down, looked at them honestly and crossed them out, because none of them would carry him one step closer to the lake. A goal is protected as much by the things we refuse as by the things we choose.",
+   "By the end of the month the wall of the garage looked like the headquarters of a small and very organised army. It held the six stages, the week-by-week list and the white card with its one plain sentence. Ben noticed that each evening now began with a decision that had already been made, which meant that all his energy could go into the work instead of into deciding.",
+   "The first Saturday arrived at last, and Ben was up before the sun, humming as he marked the great sheet of plywood with a long ruler and a sharp pencil. Every line he drew felt like a small declaration of intent, a promise made in pencil to a boat that did not yet exist. There was no doubt in his mind that he could do this, and the feeling was as warm and bright as the coffee that steamed beside him.",
+   "The saw sang through the plywood in a long, clean line, and a cloud of pale dust drifted through the air and settled on his sleeves. When the first curved panel fell free, Ben lifted it in both hands and turned it to the light. It was only a piece of wood, but it was the first piece of the boat, and he felt like a real builder at last.",
+   "Ben carried the panel into the kitchen and held it in the doorway like a trophy, while Nora admired it with the patience of a woman who had watched many enthusiasms come and go. In his heart Ben was perfectly certain that this bright feeling would never fade, and that it would carry him all the way to the lake. He could not imagine ever being bored by something that made him as happy as this.",
+   "For the first two weeks Ben worked in the garage every evening until long after midnight, running on excitement and strong tea. He fell asleep on the sofa with sawdust in his hair and woke with a stiff neck and a grin. It did not occur to him that a pace like that burns energy far faster than it can be replaced.",
+   "At breakfast, with a mouth full of toast, Ben promised Sam that the boat would be finished by spring. He said it grandly and without the smallest doubt, the way people do when they are standing at the top of a wave. It was a promise made at the height of his excitement, by a man who had not yet met the long, flat middle of the work.",
+   "Early progress is fast, visible and enormously encouraging, and the first month of Ben's work was no exception. On Friday evening Tomas came round with a bag of crisps and held a long panel steady while Ben cut it, and the two of them laughed so much that they nearly ruined the line. For a while the whole project felt like a game with no rules except enjoyment.",
+   "By the fourth week the excitement that had carried Ben so far had quietly drained away, like water from a bath. On a cold, wet evening he stood in the garage with a half-finished panel in front of him and a long list of tasks behind it. The work no longer felt like a game, and for the first time he understood how large the job really was.",
+   "One Wednesday evening Ben opened the garage door, looked at the cold, dark room and the pale shape of the unfinished panel, and quietly closed it again. He went inside, dropped onto the sofa and switched on the television, telling himself that one evening off would hurt nobody. It was a small decision, and small decisions of that kind are exactly how big plans come apart.",
+   "He watched the programme without taking in a word of it, while a heavy, uncomfortable feeling settled in his chest. He felt guilty, and he felt puzzled, because only a month ago he had wanted this boat more than almost anything. It seemed impossible that a wish so strong could simply vanish, and he wondered whether he had ever really meant it.",
+   "Lying awake that night, Ben worked out what had happened, and it was not a failure of character. Excitement is a spark, bright and quick and wonderful, but a spark does not heat a house for two years. For that you need a fire, and a fire is built slowly out of habit, routine and the plain decision to keep adding wood.",
+   "Ben decided that he would no longer wait for the mood to arrive, because moods are like the weather, and nobody builds a boat on the strength of a forecast. On Thursday evening he hung up his coat, tied on his work apron and walked into the garage whether he felt like it or not. Routine, he realised, is the quiet machine that carries the work on the days when motivation has stayed in bed.",
+   "Ben studied the week honestly, with its school runs, its meetings and its dinners, and he chose two fixed times for the boat: Saturday mornings and Wednesday evenings. He circled them in blue on the kitchen calendar, so that when the moment came there would be nothing left to debate. Two sessions a week sounded modest, but modest plans are the ones that tend to survive.",
+   "Ben explained his new schedule to Nora over a cup of tea, half expecting her to find fault with it. Instead she took a green pen and wrote the garage hours on the family planner, right beside the swimming lessons and the dentist. Once a plan is written where everyone can see it, it stops being a private wish and becomes a part of the household's life.",
+   "Ben discovered that the hardest part of any session was the first five minutes, and so he set about making those minutes easier. The evening before, he laid out the saw, the pencil, the ruler and the clamps on the workbench under the lamp, as if for an operation. When the time came there was nothing to search for and nothing to decide, and the work simply pulled him in.",
+   "He also made himself a special deal for the days when he felt tired, cross or simply unwilling. On those days he had only to set the kitchen timer for ten minutes and work until it rang, and then he was free to stop with a clear conscience. Ten minutes was so small a request that his reluctance had nothing sensible to argue against.",
+   "Something curious happened when the timer rang on the first few evenings, and it happened again and again. Ben was warm, his hands were busy and the work had caught hold of his attention, so he kept going for an hour or more without once looking at the clock. Starting, he realised, was the real mountain, and the climb itself was far kinder than the view from the bottom.",
+   "There were also evenings when Ben was so tired that ten minutes was genuinely all that he could give, and on those evenings he stopped when the timer rang. He sanded one edge, swept the floor, switched off the lamp and went to bed without a trace of guilt. A small effort that is actually made is worth more than a grand effort that exists only in the imagination.",
+   "By the garage door Ben hung a large wall calendar and a thick red pen. After every session, whether it lasted ten minutes or three hours, he drew a neat red cross through that day, and he soon found that he looked forward to the small ritual of doing so. The calendar did not judge the quality of the work; it only recorded that the work had been done.",
+   "After five weeks the calendar showed a chain of nine red crosses, marching along the days like a line of small soldiers. Ben stood and admired it for a full minute, and then he noticed, with some amusement, that he had no wish at all to be the one to break the chain. A visible record of effort is a small reward in itself, and it is also a quiet kind of pressure.",
+   "Ben began to notice that his sessions followed an unchanging pattern, the same hook for the coat, the same apron, the same tea in the same blue mug. None of it was clever, but together these small repetitions told his mind that it was time for the boat, so that beginning took almost no effort at all. A habit is simply a decision that has been made so many times that it no longer needs making.",
+   "On a rushed Saturday, with the clock ticking toward lunch, Ben measured the long plank once instead of twice and cut it with a flourish. When he lifted it against the frame, the gap at the end was so obvious that he could only stare. It was the first big mistake of the whole project, and it was entirely his own.",
+   "The mistake had cost him a good plank, a whole morning and a considerable amount of pride, for he had begun to think of himself as rather competent. He sat on an upturned bucket and felt his face grow hot, as if somebody were watching and keeping score. It is surprising how much a single piece of badly cut wood can shake a person's belief in himself.",
+   "In a burst of temper Ben picked up the short plank and carried it toward the rubbish bin by the garage door. For a moment he truly meant to throw it away and, with it, the half-built frame, the plans and the whole ridiculous dream. His hand was on the lid before something made him stop and ask himself what he was actually doing.",
+   "He put the plank back on the bench instead, breathed out slowly and looked at the box of offcuts beneath it. A thought occurred to him that was both obvious and new, which was that people mend things all the time. Most mistakes, it turned out, can be repaired by someone who stays calm long enough to look at them properly.",
+   "Slowly and carefully Ben cut a small patch from the scrap box and shaped it until it slid into the gap with a satisfying snug fit. He spread glue along the edges, pressed the patch into place and held it there, breathing quietly. It was not the heroic repair of a master craftsman, but it was a repair, and that was a great deal better than a bin.",
+   "Once the glue had dried, Ben examined the patch with a critical eye, and he had to admit that it was neither perfect nor invisible. A thin pale line ran across the plank like a scar on a knee. But the repair was strong, and the plank would do exactly what a plank is supposed to do, which is all that a boat asks of it.",
+   "That evening Ben sat alone at the open garage door in the dark, with a mug of cold tea going colder in his hand, and thought seriously about quitting. He was weary to the bone and full of doubt, and the voice in his head said that he was not the kind of person who finished things. Yet beneath the voice there was a smaller question, which was whether he actually wanted to stop or was simply exhausted.",
+   "Ben took a pencil from behind his ear and wrote two words in his notebook, tired and doubtful, as if he were filling in a weather report. Seeing them on the page, he understood that these were conditions passing through him and not facts about the boat. Feelings can be real and loud and still be wrong about what is going to happen next.",
+   "Nora had kept his supper warm, and she sat across the table while he told her the whole sorry story of the plank and the patch and the bin. She did not try to fix anything or to cheer him up with a speech. She only listened, and by the time he had finished talking, the heavy feeling had shrunk to something he could carry.",
+   "In the morning light the patch looked far smaller and far less important than it had by the dark door the night before. Ben ate his breakfast, hung up his coat and tied on his apron, and then he walked into the garage and picked up the next plank. Bad nights, he reflected, tend to look very different once the sun has had a chance to get involved.",
+   "By January Ben had begun to notice that a long task has a shape, and the shape is not a straight climb. The beginning is exciting and the ending is thrilling, but the long middle, far from the first spark and far from the finish line, is where the work feels heaviest. It is the stretch of the road where so many people quietly turn round and walk back home again.",
+   "On a small whiteboard Ben drew a line that began high and bright, plunged into a long valley and then climbed toward a triumphant peak. He wrote the six stages along its length and put a large cross in the valley, to mark roughly where he now stood. It was oddly comforting to find that his struggle already had a place on the map, because a difficulty that is expected loses half of its power to frighten.",
+   "The second panel looked exactly like the first, and beside it sat a tall pile of sandpaper and a dozen more cuts that Ben had already made once in his head. The novelty had gone out of the work, and the finish was still so far away that he could not make it out. Ben recognised the valley at once, and he knew that he was standing in the middle of it.",
+   "The hardest joint in the whole frame was one that Ben dreaded, and so he decided to practise it on scrap wood, where a failure would cost nothing. Tomas came round that Wednesday evening, sat on an upturned crate with a mug of tea and watched. Ben asked him to be honest, which is not an easy thing to ask of a friend, and a still harder thing to hear.",
+   "Tomas squinted at the joint, held it up against the lamp and pointed with his pencil to a thin sliver of light along one edge. It stung Ben a little to hear it, and the first thing that rose in him was a wish to defend his work. But honest feedback is a gift, and it is worth far more than praise, because praise only tells you what you already hope.",
+   "Instead of trying again at random, Ben set himself an exercise: ten practice joints in a row, each one numbered in pencil. After every attempt he studied the result, picked out the single weakest point and concentrated on improving just that. This is how skill really grows, by aiming at one small weakness at a time, rather than by repeating the same mistake a hundred times.",
+   "When the tenth joint was done, Ben laid it beside the first and looked at the two of them for a long while. The first was gappy and crooked, and the tenth was tight and square, with not a sliver of light showing through. Nobody had performed a miracle in between, and all that had happened was ten patient tries.",
+   "On Saturday morning Ben fitted the difficult joints into the real frame, one after another, and was astonished by how calm he felt. His hands, which had practised the movements so many times on scrap, seemed to know the way without being told. Preparation had taken the fear out of the real thing, and the frame came together with hardly a whisper of trouble.",
+   "Above the workbench Ben taped a note in large letters that said the middle is meant to be hard. He read it whenever the work grew tedious, and each time it made him smile, because it turned his discomfort from a sign of failure into a sign of progress. Whatever he felt, it seemed, was not a signal that he had taken a wrong turn but only the ordinary weather of the middle.",
+   "One wet evening Sam came across the garden in his boots, carrying two mugs of cocoa that slopped over the rims at every step. They sat side by side on upturned crates beside the frame, listening to the rain drum on the roof, and neither of them said much. Small comforts and good company are not a luxury in the middle of a long task but part of what keeps a person going.",
+   "A man at the hardware shop had mentioned, almost in passing, that a retired boatbuilder lived two streets away from Ben, in a cottage with a blue door. For three weeks Ben did nothing about it, because asking a stranger for help felt like an admission of weakness. Then one cold February evening he walked down to Tanner's Lane, took a deep breath and knocked.",
+   "The door was opened by Marta, a small, silver-haired woman in her seventies who peered at Ben over the top of her glasses as if he were a plank she was thinking of buying. He stammered out an explanation about a boat and a garage and a great many mistakes. To his astonishment she nodded, fetched her coat and said that she had been waiting years for someone to ask.",
+   "In the garage Marta ran her fingertips along the edge of the hull with her eyes half closed, like a pianist testing the keys. In less than a minute she had found three faults, a twist in one plank, a rough joint and a gap that Ben had not even noticed. None of them was fatal, she said, and then she listed the cures as calmly as if she were reading a shopping list.",
+   "A few days later Ben visited Marta's workshop, a long shed behind her cottage, where rows of old chisels gleamed on the wall beside faded photographs of boats long since launched. Every tool had a story, and every story seemed to contain a mistake that she had once made. Ben realised how much time he might save by listening to somebody who had already travelled the road that he was only beginning.",
+   "On a shelf she kept the cracked keel of her very first boat, and she held it up for Ben with a wicked grin. Her first three boats had been failures, she told him cheerfully, and one of them had sunk within sight of her own front door. Everyone who is good at something was once a person who was bad at it, and the ones who became good were simply the ones who did not stop.",
+   "Marta tapped a ruler and a pencil on the workbench, one in each hand, as if she were conducting a very small orchestra. Her advice was simple, and Ben suspected it was also the hardest advice of all, because it was to slow down and do each step properly. Speed, she said, is not something you chase, but something that arrives by itself once care has become a habit.",
+   "From that Saturday onward Ben measured every plank twice, marked it once and cut it only when he was entirely sure. The garage grew quieter, and the pile of ruined wood in the corner stopped growing. It turned out that going slowly was not the opposite of going fast, since a job done right the first time is finished sooner than a job done twice.",
+   "Marta had one more piece of advice, which she delivered while glaring at the phone that buzzed in Ben's pocket. A mind that keeps being interrupted, she said, never quite settles into the work, and so the sensible thing was to put temptation out of reach. That evening Ben left his phone on a shelf in the kitchen and walked out to the garage without it, feeling strangely light.",
+   "Without the phone in his pocket, Ben found that time behaved in a different and far more generous way. He worked for two unbroken hours, listening to the hiss of the plane and watching long pale shavings curl onto the floor, and when he finally looked up he was amazed to see that the light outside had changed. Deep attention, he discovered, is a place that one can only visit by closing the other doors.",
+   "On Thursday Ben stood on Marta's doorstep with a jar of Nora's plum jam in his hand, feeling slightly foolish. Marta accepted it with great dignity and invited him in for tea, and over the cups she said that he should come back whenever he was stuck. Asking for help had not made him smaller, Ben thought as he walked home, and thanking the helper had kept the road open.",
+   "In the small hours of a March night Nora shook him awake and said, very calmly, that it was time. Ben, who had rehearsed this moment a dozen times, nevertheless put his shoes on the wrong feet and had to start again. For once the boat did not cross his mind at all, because some things in a life are so large that they push every other goal out of the room.",
+   "Ivy was born just before dawn, small and furious and perfect, and Ben held her in a quiet hospital room while the window turned from black to grey. He had never in his life felt so entirely at the centre of what mattered, and he did not want to be anywhere else. For the next six weeks the garage stood dark and untouched, and nobody, least of all Ben, could have wished it otherwise.",
+   "Life took over completely, as it always does when there is a newborn in the house, and the old routine simply fell away. Ben pushed the pram up and down the street at all hours, and each time he passed the closed garage door he felt a small pang, as one does when walking past an old friend without stopping to talk. The boat was only a few steps away, but it might as well have been on the moon.",
+   "At three in the morning Ben stood in the kitchen with the kettle humming, swaying slightly on his feet. He was so tired that the idea of picking up a chisel seemed almost comic. There are seasons in a life when rest is not a failure of will but the very thing that will, eventually, make the work possible again.",
+   "A dust sheet lay over the half-built boat like a blanket over a sleeping child, and the red pen hung unused beside the calendar. Week after week the days went by without a single cross, and the white squares began to look like a row of closed doors. The boat did not complain, however, and in its silence there was a kind of trust, because wood is patient and it waits for whoever comes back.",
+   "At the kitchen table one night, with Ivy asleep upstairs, Ben confessed to Nora that he was afraid the project was finished. He had not really quit, he said, but it felt very much like quitting, and he was ashamed of it. Nora pointed out that a pause is not an ending, and that the difference lies in whether you intend to come back.",
+   "One bright Saturday morning, with Ivy balanced on her hip, Nora pressed the garage key into Ben's palm and told him to go. The family wanted the boat built, she said, and it would be built better by a man who was granted some time to himself for it. Support from the people closest to us is no small thing, and it is often what allows us to return after a long absence.",
+   "The garage door rattled up on a bright spring morning, and sunlight fell across the dust sheet for the first time in six weeks. Ben did not make a grand speech to himself about catching up or about the time that had been lost. He took the kitchen timer from his pocket, set it for ten minutes and told himself that this was all he had to do.",
+   "He wiped the dust from the plane, the chisels and the clamps and began, slowly, to work. His hands felt stiff and unsure, as if they had forgotten a language that they once spoke well, and the first cuts were clumsy. But clumsy is a perfectly good way to start again, and by the time the timer rang he did not want to stop.",
+   "As he drew the first red cross after six weeks, Ben wrote himself a rule in the margin of the calendar: miss one session if you must, but never miss two in a row. Everyone slips, and a perfect record is not a thing that any human being has ever kept. What matters is that a slip should stay a slip and never be allowed to grow into a slide.",
+   "Once the planks were shaped, the stage that nobody had warned him about arrived without any fanfare. For three whole weekends Ben worked along the long curved planks with a block of sandpaper, wrapped in a fine white cloud, and the work was every bit as dull as it sounds. Nothing about it was difficult, and that was exactly the trouble, because difficulty at least keeps the mind awake.",
+   "With goggles on his face and a mask over his mouth, Ben looked like a very unhappy diver as he faced the mountain of sandpaper. He suspected that this was the point at which a great many projects are abandoned, not in a blaze of failure but in a long, quiet, bored fade. The dull jobs are where most people give up, and the people who finish are the ones who get through them.",
+   "On the second weekend Ben carried the old radio out to the garage, tuned it to a station that played songs from his youth and set a mug of tea within reach. Suddenly the sanding had a soundtrack and a small reward at the end of each plank. He had not made the work any less boring, but he had made himself a more cheerful person to be bored with.",
+   "On Saturday Sam appeared at the garage door in his pyjamas and asked whether he could help. Ben gave him a scrap of pine and a small sanding block, and the boy set to work with fierce concentration, his tongue between his teeth. A dull job shared with someone you love is only half as dull, and Ben found that the morning slipped by far more quickly than before.",
+   "When Ben ran his palm along the first finished plank, it felt as smooth and cool as the inside of a shell. A few hours earlier it had been rough and splintery, and now it invited his hand to linger. The pleasure under his fingers was a small, silent reward, and it paid him for every dull minute that had come before it.",
+   "Marta had taught him to lay out three grades of sandpaper in a row, the rough for taking away wood, the medium for removing scratches and the fine for the final silk. Ben followed her order faithfully, resisting the temptation to leap straight to the finest paper. A dull task performed in careful stages produces a better result than any amount of hurried polishing.",
+   "Marta stood in the doorway of the garage in the long evening light, with her arms folded, and watched Ben sand for a quarter of an hour without saying a word. At last she nodded, once, and remarked that anybody can love a project while it is exciting. It is the dull stretches, she said, that show who really cares about the result.",
+   "On the third Sunday afternoon Ben sanded the last plank, switched off the radio and stood up with an aching back. The floor lay white with dust, and in the middle of it stood the whole shell of the boat, smooth and curved and unmistakably a boat. He had spent three weekends being bored, and the result was standing there in front of him.",
+   "To mark the moment Nora spread a tartan rug on the garage floor, and the family sat down to a picnic beside the finished shell, with sandwiches, apple juice and a bewildered Ivy in a basket. Sam proposed a toast with his plastic cup of juice, and everyone solemnly clinked their drinks together. Celebrating the end of a stage is not a waste of time but a way of telling the mind that effort leads to something pleasant.",
+   "With a bold black pen Ben ticked off four of the six stages on the chart on the garage wall: cutting, joining, shaping and sanding. Two stages remained, and the painting would be the next, but for now he simply stood and enjoyed the sight of the four ticks. Visible progress is a kind of fuel, and a person who can see how far he has come finds the strength to go further.",
+   "One warm evening Mr Dunn, who lived next door and had views about everything, leaned over the garden fence with a doubtful smile. He looked at the boat shell through the open garage door and said, in the kindest possible voice, that it would never float. Ben, who had been feeling rather pleased with himself, felt the pleasure drain out of him like water from a leaking bucket.",
+   "Ben went back into the garage with his face burning and picked up a chisel, but his hands would not settle to the task. It is remarkable how heavily a few careless words can land, especially when they are spoken by someone who has watched your hard work for months. He was angry, and underneath the anger he was frightened, and he was not sure which feeling was worse.",
+   "He put the chisel down and looked at his hands, which were trembling very slightly. The truth was that Mr Dunn had spoken aloud the very thought that Ben had been whispering to himself for months, and it is always harder to ignore a doubt once it has been given a voice. He sat on the upturned crate and made himself breathe slowly until the trembling stopped.",
+   "In the dark glass of the little garage window Ben could see his own face, tired and dusty, and he did something that felt faintly ridiculous. He spoke to himself aloud, quietly and kindly, in the voice that he would have used to comfort a friend in the same position. Most of us are far harder on ourselves than we would ever dream of being on other people, and a little fairness goes a long way.",
+   "Ben took a clean card from the drawer and wrote three sentences on it, each one perfectly true. Four of the six stages were finished, every mistake so far had been mended, and he had kept turning up for the better part of a year. Against a fear that is only a feeling, plain facts are the best answer that anyone can find.",
+   "Nora listened to the story at the kitchen table, and then she laughed out loud and remarked that Mr Dunn might do better to look at his own garden, where the lawn had not been cut since June. His doubt, she said, said a great deal about him and very little about the boat. People who have never finished anything difficult often find it hard to believe that anyone else will.",
+   "Late one night Ben found a video on his laptop in which a stranger built a boat from nothing in four minutes, with cheerful music and a smooth flow of cuts. The planks leaped together, the paint dried instantly and the finished boat glided away across a sparkling lake. Nothing in the film showed the weeks of sanding, the wrong cuts or the evenings when the maker had wanted to give up.",
+   "Ben glanced from the shining screen to his own slow, dusty, half-finished boat, and for a moment he felt like a snail in a race. Then it struck him that he was comparing the middle of his own story with the best moments of someone else's, which was a hopelessly unfair contest. People post their highlights, and they very rarely post the long hours in between.",
+   "He closed the laptop with a gentle click and went back to the bench, where the chisel was waiting. The only fair comparison, he decided, was between himself today and the person he had been the autumn before, who could not have cut a straight line to save his life. By that measure, he was doing rather well, and the boat in front of him was the proof.",
+   "A week later Ben noticed an eye at a gap in the fence, and then a pair of bushy eyebrows, and he realised that Mr Dunn was watching the boat. The neighbour said nothing at all and, when he saw that he had been seen, pretended to examine a rose. Doubt does not always vanish with an argument, but it can soften quietly when the evidence in front of it keeps growing.",
+   "One Saturday Ben sat beside a new stack of timber, a long receipt in one hand and a pile of coins in the other, and did a sum that he did not like. The wood had cost far more than he had expected, and the oars, the paint and the varnish were still to come. The boat was becoming an expensive hobby, and a smaller man might have taken that as a sign to stop.",
+   "That evening Ben put the receipt on the kitchen table beside the household bills and asked Nora to look at it with him. They worked out together what could be spent and what could not, using a calculator and a great deal of tea. Hiding a problem makes it grow, whereas sharing it honestly makes it a puzzle that two people can solve.",
+   "Ben took his plan and crossed out three costly methods, writing cheaper ones in the margin. Nothing in the plan said that the boat had to be built in one particular way, he realised, and only the reason for building it was fixed. It is wise to be flexible about the road while staying firm about the destination.",
+   "Oars from a shop were out of the question, so Ben bought a plain plank of ash, drew the outline of an oar on it and began to cut the rough shape. He had never made an oar before, and he did not know how it would turn out. The saving was real, but the greater prize was a new skill, which is often what a setback quietly offers.",
+   "At the timber yard a cheerful man told Ben that offcuts were sold by the bag at a fraction of the price of new wood. Ben filled the boot of his car with short lengths of oak, ash and pine, which were exactly right for the seats, supports and small fittings. Often the cheapest road to the same result is not a smaller ambition but a more inventive search.",
+   "In a dentist's waiting room Ben found a magazine with a sleek design for a kayak, long and elegant and unmarked by a single mistake. It looked so beautiful that he felt his own half-finished boat grow heavy and plain in his imagination. A bright new idea tempts us most when the old one has entered its difficult middle.",
+   "Ben carefully tore the page from the magazine, folded it small and put it in a drawer, which he closed with a decisive thump. New ideas are exciting precisely because they have not yet become hard, and the kayak would have its own long valley one day. He would be glad to meet it later, he told himself, but only after the first boat was floating.",
+   "One night, after a long day, Ben sat at the kitchen table with a pencil and asked himself outright whether he should give up. He did not push the question away or pretend that it was foolish, because a question that is ignored tends to come back louder. If he was going to carry on, he wanted it to be a real choice and not simply a matter of drifting.",
+   "In one column Ben wrote his reasons to stop, which were tiredness, expense and the long road ahead, and in the other column he wrote his reasons to continue. The first column was full of difficulties, and the second column held only one reason, but it was a very large one. A fair test of whether to quit is not whether the work is hard but whether the goal still matters.",
+   "Ben fetched the old photograph of his grandfather from the kitchen drawer and pinned it beside the white card above the workbench. The goal still mattered, and it mattered as much as it ever had, so the answer to his question was simple. He was not trapped in the project, and he was not driven by pride; he was there because he wanted to be, which made all the difference.",
+   "To make room for the boat, Ben had to give something up, and the thing he chose was Sunday football, which he had played with the same friends for ten years. He put his boots on a high shelf, closed the cupboard door and felt a pang that surprised him. Every goal worth reaching asks for room, and the room has to come from somewhere.",
+   "On Sunday morning Ben went to the park and stood beside the pitch with his hands in his pockets, watching his old team play without him. His friends waved, and one of them shouted that he was missed, and Ben felt the loss sharply. He did not pretend that giving something up was free, because honesty about the price is what makes a choice worth making.",
+   "Ben and Nora sat down one evening and talked about their Fridays, which used to mean a film and a takeaway and had lately meant a tired husband and a sleeping baby. They agreed on one Friday a month that would be theirs alone, whatever the boat demanded. A sacrifice that affects a whole family has to be talked about openly, or else it turns into a resentment that nobody mentions.",
+   "Ben realised that a good deal of time could be found without hurting anybody, simply by switching off the television, which he had been watching in a half-asleep daze for years. Those hours had always vanished without leaving a trace, and now they went to the boat. It is easier to give up something we never really enjoyed than something we love, and it pays to look for that first.",
+   "The painting stage began well, and then, a few days later, the first coat started to peel from the hull in thin pale flakes, like the skin of a sunburnt shoulder. Ben held a flaking panel in his hands and looked at it with a sinking heart. Hours of careful brushing had been wasted, and the stage he had been looking forward to would have to begin all over again.",
+   "Ben fetched a flat scraper and began to remove the failed paint, patiently, an inch at a time. The temptation to paint over the flaking patches and hope for the best was strong, but he knew that a hidden fault only grows. It is far better to undo a poor piece of work honestly than to bury it under a second layer of effort.",
+   "Ben carried a flake of the paint round to Marta and asked her what had gone wrong. She came to the garage, ran a finger along the wall and pointed to a dark patch of damp, explaining that wet air makes paint peel from wood. A failure that is understood is no longer a loss, since it has taught the very lesson that was missing.",
+   "The new joints had to be glued, and the glue needed a full twenty-four hours to set before they could bear any weight. Ben stood beside the clamps with a mug of tea, itching to touch them, and he could do nothing at all to speed things up. Some parts of a long project move at their own pace, and the only thing the builder can do is respect it.",
+   "Instead of fretting beside the clamps, Ben carried a deckchair into the garden and spent the afternoon reading about varnish, while Ivy slept in the shade and the sun slid across the lawn. Patience, he found, was not at all the same thing as doing nothing, or even as sitting still. It means finding something useful to do while the slow thing happens in its own time.",
+   "Early the next morning Ben pressed his thumb hard against the new joint and felt nothing give, not the smallest tremble. The glue had set as hard as stone, and the waiting, which had felt like wasted time, had made the joint strong. Patience is a form of work too, though it never looks like it from the outside.",
+   "One evening Ben did a sum on the back of an envelope, and the answer made him sit up. A single hour of work every day adds up to about three hundred and sixty-five hours in a year, which is more than nine ordinary working weeks. Small amounts of effort, repeated faithfully, grow into something that looks like a miracle from a distance.",
+   "Ben took down the old calendars and counted the red crosses, running his finger along each row like a child learning to count. In the months since October he had marked about ninety working days, which was far more than he would have guessed, given the baby, the doubts and the dust sheet. It is easy to feel that nothing has been achieved until you take the trouble to count what has been done.",
+   "Ben laid two planks side by side on the bench, and the difference between them was almost comic. One was an early cut, rough and wavering and a little ashamed of itself, and the other was a recent cut, straight as a ruled line and smooth under the thumb. The same man had made both, and the only thing that had changed in between was the time he had spent learning.",
+   "Ben turned back the pages of his notebook and found the entry from the autumn, in which he had complained that a single joint had taken him a whole hour. Today he had made the same joint in ten minutes without even noticing, whistling as he worked. Growth is almost impossible to see from one day to the next, and it only shows itself when we compare the present with the past.",
+   "The plane lay in Ben's hand as comfortably as a bar of soap, and he realised that he no longer had to think about how to hold it. His fingers knew the weight, his wrists knew the angle and his ears knew, from the pitch of the hiss, when the blade was cutting well. Skill is mostly knowledge that has sunk out of the head and into the hands.",
+   "In the kitchen Ben held Ivy's tiny hand, and she gripped his finger with a strength that would have been impossible a few months before. She had grown a little every day, and nobody had seen it happening, because nothing happens on any single day that you could point to. The boat had grown in exactly the same way, and in the same unnoticed fashion.",
+   "Ben stood at the stern and ran one hand slowly along the sweeping curve of the hull, from the tip of the bow to the last smooth inch. For months it had been a heap of flat sheets and good intentions, and now it had a shape that anybody would call a boat. Shape is a kind of proof, and it answers the quiet doubts more convincingly than any argument.",
+   "Sam, who measured time in birthdays and holidays, asked his father one evening when the boat would be floating on the lake. Ben could have said soon, which is what most people say, but he gave an honest answer instead. It would be next spring, he said, if the work went on, and he was happy to find that he no longer felt afraid of saying so.",
+   "Ben took a fresh page and wrote the word Done at the top, and then he began to list everything that was finished: the frame, the joints, the planks, the sanding, the patch, the oars begun. The list ran down the whole page and spilled onto the next, and Ben was astonished at how long it was. Most of us spend our days staring at what remains to be done, and it is a strange kind of cheer to look at the other side of the ledger.",
+   "Ben pinned the Done list to the garage wall beside the chart of six stages, where it could be seen from the workbench. It was not a boast, he told himself, but a tool, and he would read it on the hard days when the finish line seemed too far away to be real. A person who remembers what he has done finds it much easier to believe in what he can do.",
+   "Ben had known about the Mill Lake Boat Club for years without ever going near it, and on a Thursday evening in September he finally walked down to the shore. A small group of people stood around a boat on a trailer, arguing happily about its paint. They were the first people he had ever met who cared about boats as much as he did, and he felt an odd mixture of shyness and homecoming.",
+   "Priya, the chair of the club, a brisk and smiling woman in a waterproof jacket, showed him round the clubhouse, where dozens of old oars hung from the rafters like the bones of some great wooden whale. She did not ask whether he was good enough to join, and she did not ask how many boats he had built. She only asked what he was working on, and the question made him feel, for the first time, that he belonged.",
+   "A club member called Hugo showed Ben his own boat, built, he said, in a single summer and launched before the leaves turned. It was plain and quick and sturdy, and it sat on its trailer like a finished sentence. Ben admired it sincerely, and he also felt his own year of work shrink in his mind to something small and slow.",
+   "Ben drove home slowly with the radio turned off, and the thoughts ran round his head like a dog chasing its tail. If Hugo could do in one summer what he was taking more than a year to do, then perhaps Ben was simply slow, or clumsy, or not meant for this sort of work. Comparison creeps in quietly, and it always seems to choose the moment when we are least able to resist it.",
+   "Nora met him on the doorstep and listened to the whole sad account without interrupting. Then she pointed out that Hugo's summer and Ben's year were different roads through different lives, and that nobody had ever been paid by the mile. Speed is only one way of measuring a journey, and it is rarely the one that matters most.",
+   "At the club that evening Ben showed his new friends a photograph of the boat on his phone, and they crowded round, pointing and asking questions and offering opinions about the varnish. He had told other people what he was doing, and the result was a pleasant new weight on his shoulders. It is much harder to quietly drop a plan once other people know that it exists.",
+   "At the next meeting Priya took a marker pen and wrote Ben's name on the club noticeboard, beside the first Saturday of April and the words Launch of Ben's boat. She said it so cheerfully, and wrote it so firmly, that nobody could have argued. Until that moment the finish had been a hazy hope, and now it was a date that was going to arrive whether he was ready or not.",
+   "Ben stared at the date on the noticeboard and swallowed hard, because it was suddenly very real, very close and written down in front of a room full of witnesses. Fear and excitement are so alike in the body that it took him a moment to tell which one he was feeling. Then he realised that it was both, and that the fear was the sort that makes a person stand up straighter.",
+   "That night Ben sat down with the calendar and counted the weeks until April, writing a short job in each one: the varnish here, the oars there, a week of slack in case of disaster. The plan was not complicated, but it turned the long, foggy middle into a series of steps that could be seen. A deadline is a gift to the person who has been walking in a fog, because it tells him which way to go.",
+   "On Thursday evenings the members gathered in the clubhouse with tea and biscuits and told stories, and Ben discovered that nearly every one of them contained a moment of near-surrender. A cracked mast, a lost summer, a flooded shed, a boat left for ten years under a tarpaulin: everybody had been where he was. Belonging to a community of people who are doing the same difficult thing is one of the strongest supports for carrying on.",
+   "It was October again, a full year since the plans had been spread across the kitchen table, and Ben sat under the bright lamp with his notebook and ruled a line down the middle of a page. He meant to look back at the year honestly, without pride and without shame, as one might examine a map after a long walk. A review is not a verdict on a person but a tool for improving the next stretch.",
+   "In the left column Ben listed what had worked, and the list was longer than he expected: the ten-minute timer, the red calendar, the Wednesday and Saturday hours, the phone left in the kitchen, and above all Marta. He underlined each item twice, so that none of them could quietly slip away when life became busy again. What works deserves to be named and protected, because good habits are easily lost when we forget why we began them.",
+   "In the right column he wrote what had not worked, and this list was harder to write, because it asked for honesty rather than pride. Late nights had left him useless the next morning, cold sanding had left him miserable and rushed cuts had left him with a bin of ruined wood. It is only by looking squarely at failures, without making excuses, that we can ever learn to change them.",
+   "As he studied the two columns side by side, a pattern emerged that he had never noticed before. His best work, the clean joints and the steady cuts, had nearly all been done in the morning, while his worst mistakes had crept in at the end of long, tired days. A year of experience had given him a piece of knowledge about himself that no book could have supplied.",
+   "He changed his Wednesday session from the evening to the very early morning, setting the alarm for six and creeping out to the garage while the house was still asleep. The air was cold and the light was grey, but his mind was clear and his hands were steady. He had adjusted the timing of the work without touching the size of the goal, which is the sort of change that keeps a project alive.",
+   "At the back of a drawer Ben found a yellow sticky note, curled with age, on which he had written his very first goal for the week: cut two planks. He smiled at how small and shy it looked beside the nearly finished hull in the garage. Looking back at the first step is a good way to measure how much ground has been covered since.",
+   "Ben told Sam over breakfast that the boat was now more than half finished, and Sam cheered so loudly that Ivy burst into laughter. It was a milestone that Ben had not noticed himself, and he felt a surge of new energy at the thought of being closer to the end than to the beginning. Passing the halfway point changes the way a journey feels, even when the work that remains is just as hard.",
+   "Then came a very busy season at work, when Ben sat behind a tall pile of papers until the lights outside had come on, and he arrived home hungry, grey and silent. His free time shrank almost to nothing, and the plan he had made with such care began to creak. Real life has a way of arriving just when a project seems to be moving smoothly.",
+   "Ben did not abandon the plan, and he did not pretend that nothing had changed. On the busiest days he set the kitchen timer for twenty minutes before dinner and did what he could in that small space of time. When the circumstances shrink, the wise response is to shrink the task to fit them, and never to throw it away.",
+   "The red calendar made no distinction between a three-hour Saturday and a twenty-minute evening, and that was precisely its virtue. Every short session earned its cross, and the chain stayed unbroken right through the crowded weeks at the office. Small days are not worth less than big ones in the long arithmetic of effort, because what carries a person to the end is the habit of returning.",
+   "The second winter was harder than the first, because the garage had no heating and the frost on the window was thick enough to write in. Ben worked in a thick coat, a woollen hat and fingerless gloves, looking like a shipwrecked sailor. A long project is not conducted in a single season, and he had to learn to work with the weather as well as against it.",
+   "Ben's breath hung in clouds above a tin of epoxy that stayed as sticky as treacle hour after hour, and he realised that the cold was stopping it from setting. The glue, like the builder, needed some warmth before it would do any work. Frustration rose in his chest, but he made himself remember that a problem with a clear cause usually has a clear cure.",
+   "Ben knocked on the blue door once more and explained his trouble, and Marta lent him her old fan heater without a moment's hesitation. It was dented and noisy and smelled faintly of burnt dust, and Ben thought it was beautiful. Asking for help had been hard the first time, but it was easier now, and the helper seemed to enjoy giving it.",
+   "The heater could not warm the whole garage, so Ben moved the small jobs indoors and carried the little pieces to the kitchen table, where the radiator hummed. There he cut, glued and sanded fittings and supports while the winter rain ran down the windowpane. He changed the place and the method, but the goal stayed exactly where it was, and that is the whole art of adapting.",
+   "Ivy, who was nearly a year old and had opinions about everything, sat on the kitchen floor with a basket of smooth wooden offcuts and banged two of them together with great satisfaction. Ben worked above her, cutting and fitting small pieces, and Nora cooked beside them. The boat did not have to push the family out of the house, and he was pleased to discover that the two could happily share one warm room.",
+   "One morning the snow lay a foot deep across the garden, and nobody would have blamed Ben for staying in bed. Instead he cleared a narrow path from the back door to the garage, whistling through his teeth, and went in to work for his twenty minutes. A habit proves its worth on exactly the days when everything else says that it can be skipped.",
+   "When the snow began to melt, a slow drip appeared in the roof of the garage, and a bright drop fell with a small tap onto the painted hull. Ben stared at it in horror, because months of careful work were lying directly underneath. He threw a tarpaulin over the boat and put a bucket under the leak, and then he sat down on the floor and wondered how many more surprises the winter had saved up.",
+   "At dusk, with the wind rising, Ben climbed onto the garage roof with a roll of roofing felt and a hammer. At the foot of the ladder he found, to his great surprise, Mr Dunn in a woolly hat, holding it steady with both hands. Neither of them said a word about the fence or the summer, and a person who once doubted you can turn into your most useful ally, if you leave him room to change.",
+   "When the roof was mended, Mr Dunn stood in the doorway of the garage, rubbing his chin and looking at the hull with real attention. It was a good-looking boat, he said gruffly, and it was possible that he had been wrong about it. Ben was surprised how much the admission meant to him, and he understood that people can change their minds if we give them time and evidence.",
+   "That night Ben sat in the warm kitchen with a mug of hot tea cupped in both hands, while the boat slept safely beneath its tarpaulin and the rain hammered harmlessly on the repaired roof. He had worked hard, and for once he allowed himself to enjoy the feeling of a job well done. Rest after a difficult day is not an interruption of the work but a part of how it gets done.",
+   "By the end of February the boat looked almost finished to any passer-by, and Ben, standing in the garage with a mug in his hand, would have agreed with them. But beside the hull a long list of small jobs hung on the wall, and each one would take far longer than it seemed. The last stretch of a big task is famous for stretching out, as though it were made of elastic.",
+   "The list on the wall had forty items, from fitting the seat to smoothing a rough edge near the bow, and none of them was dramatic. Ben had once believed that building a boat was mostly a matter of the big, bold stages, but it turned out that the end was made of crumbs. Being nearly finished is a very different state from being finished, and the gap between the two can be wide.",
+   "One Wednesday morning Ben spent a full hour fitting a single tiny brass screw into a support for the seat, easing it in turn by turn so that the wood would not split. At the end of the hour the boat looked exactly as it had before, and nobody walking into the garage would have noticed any progress. Yet the details are what separate a boat that floats from a boat that merely looks as if it will.",
+   "Ben shaped the seat, which in boat language is called a thwart, from a clean plank of ash, rounding its edges so that no rower would ever be pinched or scratched. He fitted it with care, checking and rechecking its level with a spirit level that he held up to the light. Careless work at the end of a project is the most tempting kind, and it is also the kind that people remember.",
+   "One cold morning Ben walked into the garage and saw, in the pale light from the window, a long dark crack running down the transom, the flat panel at the stern of the boat. He touched it with his finger, hoping that it was a shadow, but it was real and deep and impossible to hide. Setbacks come in all sizes, and the cruellest of them often arrive when the end of the journey is almost in sight.",
+   "Ben sat down on the cold concrete beside the cracked transom, put his head in his hands and said aloud, to nobody, that he could not do this any more. He had mended the plank, survived the baby, outlasted the paint and endured the winter, and now this. For the first time in well over a year the thought of quitting did not feel like a passing cloud but like a very comfortable chair.",
+   "Marta arrived with a flask of soup, because Nora had telephoned her, and she lowered herself onto an upturned crate beside him without a word. When he had drunk half of the soup she told him, as casually as if she were discussing the weather, that she had cracked a transom of her own, three weeks before her own launch. Nobody who builds anything difficult is spared the crack that comes at the worst moment, and the people who finish are not the ones who avoid it.",
+   "By the end of the soup the idea of rebuilding no longer seemed unthinkable, and Ben and Marta spent the afternoon cutting a new transom at the workbench, shoulder to shoulder. It went faster than the first time, much faster, because Ben now knew the joints, the angles and the order in which things must be done. The slack week in his calendar, which he had written there half as a joke, was suddenly worth its weight in gold.",
+   "When the new transom was fitted, Ben set it beside the cracked one and was astonished by the difference. The old panel had been made by a man who knew a little, and the new one by a man who had learned a great deal in the meantime. A failure that is repaired often leaves behind something stronger than the thing that was lost.",
+   "Ben took a pencil and drew a long, satisfying line through the biggest job on the list, the replaced transom, and counted the items that remained. There were twenty-two left, and they no longer seemed like a mountain but like a heap of stones that could be moved one at a time. Every large task, however enormous it may look from far away, will shrink if we keep removing pieces from it.",
+   "At the bench Ben carved the first of his two oars, with the long curls of ash falling around his boots like ribbons. He had begun the rough shape months before, when money was short, and he had never been sure that he could make the thing beautiful. Yet the blade was taking shape under his hands, smooth and slim, proof that a job once thought impossible can be done in stages.",
+   "Marta showed him how to test an oar by resting it across a single finger and watching which end dipped. A good oar should feel alive in the hand, she said, neither heavy at the blade nor sluggish at the grip. Good craft, Ben saw, is built not from a single brilliant act but from a long series of small, patient tests.",
+   "The brass oarlocks went into the gunwales on each side, and Ben fitted them carefully, with a few drops of oil on each pin. When he stepped back and looked at the boat, he felt a thrill that he had not felt for weeks. At last it looked like a thing that had been made for a lake and not for a garage.",
+   "On a mild March evening, with the garage lamp humming, Ben brushed the first coat of varnish over the seat, the oars and the polished rails. The wood drank it in and began, almost at once, to glow like honey. It was the loveliest moment of the whole project so far, and it was a reward for months of preparation that nobody had seen.",
+   "Between each coat Ben waited for the varnish to dry, rubbed the surface down with the finest paper and wiped away the dust before brushing on the next layer. He did this three times, and by the third the wood looked as deep as a pond. There is a kind of patience that consists of doing the same careful thing again and again without hoping for shortcuts.",
+   "Every boat needs a name, and for weeks Ben had been rejecting suggestions as too grand, too silly or too sad. It was Nora who proposed Wren, after the small brown bird that makes an enormous song and never seems to be afraid of anything. He repeated the word aloud a few times, and by the third time he knew that it was right.",
+   "With a very small brush and a very steady hand, Ben painted the name Wren in cream-coloured letters along the side of the hull. He did it one letter at a time, pausing between each to let his breathing settle. When he had finished, the four letters seemed to belong there, as though the boat had been waiting all along to be called by its name.",
+   "Sam knelt beside his father with the pot of paint held carefully in both hands, and he watched each letter appear without making a sound. When the last stroke was finished he whispered that it was the best boat in the whole world. A father's work can be repaid in many currencies, and the quiet admiration of a child is among the richest.",
+   "Ben stepped back until his shoulders touched the wall, and then he simply looked at the boat for a very long time. The hull gleamed, the seat shone, the oars leaned against the bench, and the name Wren glowed in cream along the side. He could hardly believe that this beautiful thing was the same as the pile of plywood that he had signed for in the driveway.",
+   "Marta came to see the finished boat that evening, and she and Ben sat side by side on two upturned crates, saying nothing, while the lamp hummed and the varnish gave off its sweet, sharp smell. After a long time she nodded and patted his arm, which was more praise than most people ever got from her. Pride can be quiet, and the best company for it is somebody who has felt the same thing.",
+   "Before dawn on the first Saturday of April, Ben and Tomas lifted Wren off her stands and slid her onto a borrowed trailer, grunting and laughing and trying not to wake the street. When the trailer rolled out of the driveway, the garage behind it looked suddenly large and strange and empty. Ben looked back at it once, with a pang of something close to grief, and then he turned his face toward the lake.",
+   "Mill Lake lay flat and silver in the early light, with a thin mist lifting off the water exactly as it had done on a morning in his childhood. Ben stood beside the boat with Nora, Sam and Ivy, and his stomach felt as though it were full of moths. After a year and a half of work everything depended on one simple fact, which was whether the boat would float.",
+   "Word had spread through the club, and by seven o'clock a small crowd had gathered on the shore with flasks of tea, folding chairs and a camera or two. Priya was there, and Hugo, and a dozen other members, and Tomas, and even Mr Dunn, wearing his best coat and carrying a small flag that nobody had asked him to bring. It is a remarkable thing to be cheered on by people who have seen you at your slowest.",
+   "Ben and Tomas eased the trailer down the ramp, and the stern of the boat touched the water with the faintest whisper. Slowly, with the whole shore holding its breath, they let her slide off the trailer and into the lake. For a moment nothing happened at all, and then the hull settled into the water as lightly as a leaf.",
+   "Wren floated, and the shore erupted in cheers, and Sam jumped up and down so hard that he lost a boot. But as Ben leaned over the side, he saw a thin line of water creeping in along one seam, glinting in the morning light. It was a small leak, hardly more than a trickle, and yet it made his heart drop like a stone.",
+   "Ben and Tomas dragged Wren back onto the shore, and Ben bailed out the little pool of water with a plastic cup, his face burning with disappointment. Marta watched him from her folding chair with her hands folded calmly on her knees. A leak that can be seen is a leak that can be mended, she said, and the worst problems are the ones that nobody finds out about until too late.",
+   "Ben dried the seam with a cloth, pressed a line of sealant into the gap and then, from habit, took the old kitchen timer out of his pocket. He set it for ten minutes, just as he had on all the worst days of the last year and a half, and sat on the grass to wait. It occurred to him that the little timer had been rowing alongside him the whole way, and that it deserved some of the credit.",
+   "When the timer rang, the seam was dry and tight, and Ben pushed the boat gently off from the shore and stepped aboard. He sat down on the seat that he had made, took hold of the oars that he had carved, and pulled his first stroke. The blades bit the water, the boat glided forward and a long, silver ripple ran out behind it toward the shore.",
+   "Ben rowed out across the lake with Sam sitting in the stern, facing him, wearing a life jacket that was far too big. The water was smooth, the mist was lifting and the whole world seemed to be holding its breath, exactly as it had when Ben was seven years old. He was no longer remembering that silence, because he was inside it, and he had built the boat that brought him there.",
+   "Back at the shore Ben helped Nora and Ivy aboard, and he rowed them out into the middle of the lake, where Ivy pointed at a duck and shrieked with delight. On the bank Mr Dunn stood on tiptoe and waved his small flag, and Ben lifted one oar in salute. The goal that had seemed like a foolish daydream a year and a half earlier was now carrying his whole family across the water.",
+   "Later, when the crowd had gone and the picnic baskets were packed away, Ben sat on the grass beside the boat with his notebook open on his knee. He wrote for a long time, and what he wrote surprised him, because it was not about the boat at all. It was about the man who had been standing at the kitchen table a year and a half earlier, and about the very different man who now sat here.",
+   "He wrote that he was more patient than he had been, and that his hands were more skilled and his temper more even. He wrote that he had learned to ask for help, to rest without guilt and to forgive his mistakes. Above all, he wrote, he now knew from experience, and not just from hope, that he was a person who could finish a hard thing.",
+   "Marta and Ben shared a plate of sandwiches on the shore while the sun climbed and the mist melted into nothing. She looked at him sideways, with her head on one side, and asked in her dry way what he planned to do next. It was a fair question, and he was a little surprised to find that he already half knew the answer.",
+   "A few days later Ben took the page of the kayak out of its drawer, smoothed it flat and spread it on Marta's workshop table, and the two of them looked at it together. The idea had not lost its charm during the long months of waiting, and it now looked less like a temptation than a reward. He chose it as his next goal, and he chose it knowing exactly what the long middle would feel like.",
+   "In the empty garage Ben hung a brand-new calendar on the wall beside the old one, which was by now a solid wall of red crosses, and put the kitchen timer back in its place on the bench. He would use exactly the same tools of the mind for the new project, because they had never belonged to the boat alone. The habits that carry one big goal to its end are the same habits that can carry the next.",
+   "A few weeks later, at the clubhouse, Ben noticed a new member sitting alone with a crooked plank in front of him and the look of someone who is close to giving up. Ben remembered, exactly and uncomfortably, what that look had felt like from the inside, only a year before. He pulled up a stool, said that he had made that very mistake himself, and asked whether he could help.",
+   "Ben told him the thing that had helped him most, which was that the middle of a long task is meant to be hard, and that finding it hard is not a sign of failure. The beginner's shoulders dropped with relief, and he gave a crooked smile and picked up his saw. Sharing the idea that rescued you is one of the best ways to be certain that you will remember it.",
+   "One warm evening Ben and Nora sat on the jetty with their feet dangling above the water, while Wren rocked gently at her mooring and the sun went down behind the trees. They talked about the long months, the broken nights, the missed Fridays and the patch on the plank, and they laughed at nearly all of it. Looking back with someone who was there is one of the quiet rewards of a long effort.",
+   "Alone on the water at dusk, Ben took his grandfather's photograph out of his pocket and held it up against the glowing sky. The small boy in his memory and the man in the boat seemed to have met at last, with a long road of patience between them. The old memory had become a new one, and the goal that had once been only a wish was now simply a place he knew.",
+   "Choose a goal that truly matters to you, so that you can draw on it when the excitement has gone, and cut it into stages small enough to begin today. Build a routine that does not depend on mood, learn from your mistakes, ask for help and rest when life requires it, but always return. Perseverance is nothing mysterious; it is simply the habit of coming back to something you care about, over and over, until it is done."
+  ]
+ }
 }
