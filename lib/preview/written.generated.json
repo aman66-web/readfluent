@@ -1478,6 +1478,81 @@
   }
  },
  {
+  "slug": "the-lawyer-in-the-back-seat",
+  "title": "The Lawyer in the Back Seat",
+  "author": "The Lincoln Lawyer",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "Nico Barrow cannot drive, so his office is the back seat of an old black cab. When a young courier is blamed for stealing a priceless violin, Nico and his driver Stan must find the truth before a jury decides.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Lawyer in",
+    "the Back Seat"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-sixth-form-detective",
+  "title": "The Sixth-Form Detective",
+  "author": "A Good Girl's Guide to Murder",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "For her big school project, seventeen-year-old Zee Rahman chooses an old question: did a caretaker really steal a charity's Fun Run money? With her friend Callum, she follows the evidence to a surprising and powerful person.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "The",
+    "Sixth-Form",
+    "Detective"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lens",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stack",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-wonderful-wizard-of-oz",
   "title": "The Wonderful Wizard of Oz",
   "author": "L. Frank Baum",
@@ -3044,6 +3119,42 @@
     },
     {
      "id": "leaf",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "self-reliance",
+  "title": "Self-Reliance",
+  "author": "Ralph Waldo Emerson",
+  "kind": "classic",
+  "category": "self-help",
+  "blurb": "Trust yourself. In 1841 Ralph Waldo Emerson wrote an essay that still startles readers: be a nonconformist, ignore the frown of the crowd, and live by your own deepest sense of what is true.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Self-Reliance"
+   ],
+   "size": 13,
+   "author": "RALPH WALDO EMERSON",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "mountain",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -7097,6 +7208,43 @@
   }
  },
  {
+  "slug": "mansfield-park",
+  "title": "Mansfield Park",
+  "author": "Jane Austen",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "Fanny Price is sent as a shy ten-year-old to live with rich relatives at Mansfield Park. Years later, charming newcomers from London arrive, a play breaks every rule of the house, and quiet Fanny is the only one who sees where it will lead.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Mansfield",
+    "Park"
+   ],
+   "size": 18.5,
+   "author": "JANE AUSTEN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "house",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-valley-of-fear",
   "title": "The Valley of Fear",
   "author": "Arthur Conan Doyle",
@@ -7163,6 +7311,117 @@
     },
     {
      "id": "lens",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-island-of-doctor-moreau",
+  "title": "The Island of Doctor Moreau",
+  "author": "H. G. Wells",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "Shipwrecked and starving, Edward Prendick is rescued and landed on a lonely island. There a scientist is shaping animals into people, and strange creatures follow rules they do not understand. Can Prendick escape before the island turns on him?",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Island of",
+    "Doctor Moreau"
+   ],
+   "size": 13,
+   "author": "H. G. WELLS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "waves",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "mask",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-imitation-of-christ",
+  "title": "The Imitation of Christ",
+  "author": "Thomas à Kempis",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "A small book of quiet guidance, written by a monk in the fifteenth century and read by millions since. Follow Thomas à Kempis through its four short books, on humility, peace, patience and the friendship of Christ.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Imitation",
+    "of Christ"
+   ],
+   "size": 13,
+   "author": "THOMAS À KEMPIS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "candle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "scroll",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "move-a-little-every-hour",
+  "title": "Move a Little Every Hour",
+  "author": "Spark",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Nadia sits at a desk all day and feels stiff, tired and slow. Follow her week as she tries one small change, moving a little every hour, and find out what long sitting does to the body and how little it takes to begin.",
+  "cover": {
+   "bg": "#0E7490",
+   "title": [
+    "Move a Little",
+    "Every Hour"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "bolt",
      "x": 160,
      "y": 38,
      "s": 0.36
