@@ -843,6 +843,43 @@
   }
  },
  {
+  "slug": "the-wife-who-vanished",
+  "title": "The Wife Who Vanished",
+  "author": "Gone Girl",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "On the eve of the Lantern Festival, Isla Marlowe disappears from her clock workshop. Her husband is blamed, but her sister Hannah finds a stopped clock, a brass key and a game from childhood. Where has Isla gone, and who wants her silent?",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Wife Who",
+    "Vanished"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lighthouse",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "hourglass",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-wonderful-wizard-of-oz",
   "title": "The Wonderful Wizard of Oz",
   "author": "L. Frank Baum",
@@ -2236,6 +2273,42 @@
   }
  },
  {
+  "slug": "build-it-lean",
+  "title": "Build It Lean",
+  "author": "The Lean Startup",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Mira has an idea that she is sure the whole street will love. Before she spends a year and all her savings on it, she learns how to test it with small, cheap experiments. A clear, practical guide to starting new things wisely.",
+  "cover": {
+   "bg": "#0E7490",
+   "title": [
+    "Build It Lean"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lens",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "bolt",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-dhammapada",
   "title": "The Dhammapada",
   "author": "Buddhist scripture (traditional)",
@@ -2992,6 +3065,43 @@
   }
  },
  {
+  "slug": "steady-energy-all-day",
+  "title": "Steady Energy All Day",
+  "author": "Good Energy",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "By three o'clock every afternoon, Hana's energy has vanished. Her colleague Dev, a running coach, helps her test what really gives steady energy: sleep, light, meals, movement and stress, with the evidence for each.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Steady Energy",
+    "All Day"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "sun",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "bolt",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-histories",
   "title": "The Histories",
   "author": "Herodotus",
@@ -3283,6 +3393,44 @@
     },
     {
      "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "why-some-countries-got-rich-first",
+  "title": "Why Some Countries Got Rich First",
+  "author": "Guns, Germs, and Steel",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "Why do some countries have so much and others so little? Follow the long story from the first farms to the first factories, and weigh the answers that historians offer: place, rules and sheer chance.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "Why Some",
+    "Countries Got",
+    "Rich First"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "globe",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "chart",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -3694,6 +3842,38 @@
     },
     {
      "id": "needle",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "physics-in-six-ideas",
+  "title": "Physics in Six Ideas",
+  "author": "Six Easy Pieces",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Kofi is twelve and thinks physics is for scientists in white coats. Then his Aunt Zainab, a physics teacher, shows him that one ordinary day on a bike, in a kitchen and under the stars is built on just six big ideas.",
+  "cover": {
+   "bg": "#E3F8FC",
+   "light": true,
+   "title": [
+    "Physics in",
+    "Six Ideas"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "bolt",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "apple",
      "x": 160,
      "y": 38,
      "s": 0.36

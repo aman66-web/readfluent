@@ -1,0 +1,417 @@
+{
+  "slug": "physics-in-six-ideas",
+  "meta": {
+    "blurb": "Kofi is twelve and thinks physics is for scientists in white coats. Then his Aunt Zainab, a physics teacher, shows him that one ordinary day on a bike, in a kitchen and under the stars is built on just six big ideas.",
+    "bible": "Kofi: a curious boy of twelve who asks plain questions. Aunt Zainab: his aunt, a physics teacher, patient, funny and warm. They spend one day together, from the morning bike ride to the night sky, in a small town with a park, a hill and a river. The six ideas, in order, are Motion and forces, Energy, Heat and disorder, Waves, Electricity and magnetism, and Atoms and the very small. Voice: friendly, concrete and simple, with everyday examples; every fact is true and rounded with \"about\". Key terms: Newton, Einstein, Force, Mass, Gravity, Friction, Inertia, Velocity, Acceleration, Orbit, Moon, Earth, Sun, Energy, Kinetic, Potential, Joule, Watt, Heat, Temperature, Molecules, Conduction, Convection, Radiation, Entropy, Absolute zero, Celsius, Wave, Frequency, Sound, Pitch, Echo, Resonance, Light, Spectrum, Infrared, Ultraviolet, Microwaves, X-rays, Lens, Charge, Current, Circuit, Voltage, Resistance, Battery, Magnet, Magnetic field, Generator, Electromagnet, Atom, Nucleus, Proton, Neutron, Electron, Fission, Fusion, Quantum, Photon, Uncertainty, Radio, Solar panel."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Kofi and Aunt Zainab at a breakfast table with a bicycle outside the window",
+      "summary": "Kofi asks what physics is, and Zainab says six big ideas explain his day."
+    },
+    {
+      "n": 2,
+      "scene": "A parked bicycle stands still on a flat road with a boy beside it",
+      "summary": "Things stay still or keep moving the same way unless a force changes that."
+    },
+    {
+      "n": 3,
+      "scene": "Kofi pedals faster along the road with the wind in his hair",
+      "summary": "Velocity is speed with direction, and acceleration is a change in velocity."
+    },
+    {
+      "n": 4,
+      "scene": "Kofi pushes a loaded cart and an empty cart at the shop",
+      "summary": "A bigger force gives more acceleration, and a bigger mass gives less."
+    },
+    {
+      "n": 5,
+      "scene": "Kofi pushes back on a wall and slides away on his skateboard",
+      "summary": "Every force has an equal force pushing back, which is Newton's third law."
+    },
+    {
+      "n": 6,
+      "scene": "Kofi squeezes the brakes, and the bike slows with a faint squeal",
+      "summary": "Friction slows moving things and turns movement into heat."
+    },
+    {
+      "n": 7,
+      "scene": "Kofi drops a heavy ball and a light one together, and both fall",
+      "summary": "Gravity makes all objects fall at the same rate when air does not get in the way."
+    },
+    {
+      "n": 8,
+      "scene": "The Moon hangs in a blue sky above the hill with a curved arrow",
+      "summary": "The Moon stays in orbit because it is always falling around the Earth."
+    },
+    {
+      "n": 9,
+      "scene": "Kofi stands on a weighing scale with the Moon behind him",
+      "summary": "Mass is the amount of matter, while weight is the pull of gravity on it."
+    },
+    {
+      "n": 10,
+      "scene": "A bright morning with a bowl of food and a running boy",
+      "summary": "Energy is the ability to cause change, and it comes in many forms."
+    },
+    {
+      "n": 11,
+      "scene": "A cyclist races down a hill and another goes slowly beside it",
+      "summary": "Moving things have kinetic energy, which grows quickly with speed."
+    },
+    {
+      "n": 12,
+      "scene": "A roller coaster car waits at the top of a high hill",
+      "summary": "Raised things have stored potential energy that can become movement."
+    },
+    {
+      "n": 13,
+      "scene": "A pendulum swings between two high points beside a ticking clock",
+      "summary": "Energy changes form, but the total stays the same."
+    },
+    {
+      "n": 14,
+      "scene": "A hand holds a bicycle brake pad that glows faintly warm",
+      "summary": "Energy that seems lost has usually become heat."
+    },
+    {
+      "n": 15,
+      "scene": "Kofi eats a sandwich while a diagram shows energy flowing to his legs",
+      "summary": "Food gives the body chemical energy to move and to stay warm."
+    },
+    {
+      "n": 16,
+      "scene": "A light bulb, a kettle and a kettle's dial showing power",
+      "summary": "Power is the rate at which energy is used, and it is measured in watts."
+    },
+    {
+      "n": 17,
+      "scene": "A wind turbine, a solar panel and a sunny sky above a field",
+      "summary": "Most of our energy sources come from the Sun, and we can use them wisely."
+    },
+    {
+      "n": 18,
+      "scene": "Steam rises from a boiling kettle in a warm kitchen",
+      "summary": "Heat is the movement of the tiny molecules inside things."
+    },
+    {
+      "n": 19,
+      "scene": "A thermometer in a cup of tea and a bath full of cool water",
+      "summary": "Temperature measures how fast molecules move, and heat is the energy that flows."
+    },
+    {
+      "n": 20,
+      "scene": "A metal spoon in hot tea with the handle growing warm",
+      "summary": "Heat always flows from hot things to colder things."
+    },
+    {
+      "n": 21,
+      "scene": "A hot pot on a stove with warm air rising above it",
+      "summary": "Heat moves by conduction, by convection and by radiation."
+    },
+    {
+      "n": 22,
+      "scene": "A block of ice melts to water and then becomes steam",
+      "summary": "Ice, water and steam are the same molecules in different states."
+    },
+    {
+      "n": 23,
+      "scene": "A frozen lake at night with a thermometer reading far below zero",
+      "summary": "Absolute zero is the coldest temperature possible, about minus 273 degrees Celsius."
+    },
+    {
+      "n": 24,
+      "scene": "Milk spreads into coffee in a cup, with swirls that never go back",
+      "summary": "Disorder tends to grow, and mixed things do not unmix by themselves."
+    },
+    {
+      "n": 25,
+      "scene": "A car engine with heat rising from the hood and a gauge",
+      "summary": "An engine cannot turn all heat into useful work."
+    },
+    {
+      "n": 26,
+      "scene": "Kofi and Zainab sit by a pond as ripples spread out from a stone",
+      "summary": "A wave is a disturbance that carries energy without carrying matter along."
+    },
+    {
+      "n": 27,
+      "scene": "A flash of lightning over the hills and a boy counting on his fingers",
+      "summary": "Sound is a wave of vibrating air that travels much more slowly than light."
+    },
+    {
+      "n": 28,
+      "scene": "A guitar string vibrating, with a quiet note and a loud note",
+      "summary": "Pitch depends on frequency, and loudness depends on the size of the wave."
+    },
+    {
+      "n": 29,
+      "scene": "A boy shouts toward a cliff and the sound bounces back as an echo",
+      "summary": "Echoes come from reflected sound, and resonance makes small pushes grow big."
+    },
+    {
+      "n": 30,
+      "scene": "A beam of sunlight crosses a dusty room with a measuring tape",
+      "summary": "Light is a wave that travels extremely fast."
+    },
+    {
+      "n": 31,
+      "scene": "Rain falls in sunlight and a rainbow arches over the town",
+      "summary": "White light is a mix of colours that a prism or raindrops can separate."
+    },
+    {
+      "n": 32,
+      "scene": "Coloured bands of rays beside a radio and a doctor's X-ray",
+      "summary": "The same family of waves includes radio, microwaves, infrared, ultraviolet and X-rays."
+    },
+    {
+      "n": 33,
+      "scene": "A glass lens bends a beam of light and a boy wears glasses",
+      "summary": "Lenses bend light, and this is how eyes, glasses and cameras work."
+    },
+    {
+      "n": 34,
+      "scene": "Kofi rubs a balloon on his hair and the hair stands up",
+      "summary": "Rubbing can move electric charge, and charges attract or repel."
+    },
+    {
+      "n": 35,
+      "scene": "A huge bolt of lightning strikes a tall tree during a storm",
+      "summary": "Lightning is a giant spark of electric charge jumping between cloud and ground."
+    },
+    {
+      "n": 36,
+      "scene": "A small lamp connected to a battery by a wire in a loop",
+      "summary": "Moving charges make a current, which flows when a battery pushes them round a circuit."
+    },
+    {
+      "n": 37,
+      "scene": "A water pipe drawn beside a wire with a narrow part",
+      "summary": "Voltage is the push, current is the flow, and resistance holds the flow back."
+    },
+    {
+      "n": 38,
+      "scene": "Kofi holds two small magnets that pull together and push apart",
+      "summary": "Magnets have two poles, like poles repel and unlike poles attract."
+    },
+    {
+      "n": 39,
+      "scene": "A coil of wire around a nail picks up pins",
+      "summary": "An electric current makes a magnetic field, as in an electromagnet."
+    },
+    {
+      "n": 40,
+      "scene": "A magnet moves in and out of a coil connected to a lamp",
+      "summary": "A moving magnet makes a current, which is how generators work."
+    },
+    {
+      "n": 41,
+      "scene": "A phone, a radio tower and waves of light spreading from a lamp",
+      "summary": "Light, radio and electricity are linked, as they are all parts of electromagnetism."
+    },
+    {
+      "n": 42,
+      "scene": "A night garden under the stars, with a drop of water in close-up",
+      "summary": "Everything is made of atoms, which are far too small to see."
+    },
+    {
+      "n": 43,
+      "scene": "A model atom with a tiny nucleus and a wide cloud around it",
+      "summary": "An atom is mostly empty space with a tiny nucleus at its centre."
+    },
+    {
+      "n": 44,
+      "scene": "A wall chart of coloured squares beside a pile of different kinds of rock",
+      "summary": "There are about one hundred and eighteen kinds of atom, called elements."
+    },
+    {
+      "n": 45,
+      "scene": "Two atoms share their outer electrons to make a molecule",
+      "summary": "The electrons of an atom decide how it joins with others."
+    },
+    {
+      "n": 46,
+      "scene": "A nucleus splits in two, with a bright flash and small particles flying out",
+      "summary": "Some nuclei are unstable, and splitting or joining nuclei releases huge energy."
+    },
+    {
+      "n": 47,
+      "scene": "A tiny glowing packet of light hits a surface and knocks out an electron",
+      "summary": "Quantum physics says that light and energy come in small packets called photons."
+    },
+    {
+      "n": 48,
+      "scene": "A tiny ball drawn as a blurred cloud in a box",
+      "summary": "Very small things behave in odd ways, and we can only know the odds of what they do."
+    },
+    {
+      "n": 49,
+      "scene": "A computer chip beside a laser beam and a small phone",
+      "summary": "The strange rules of quantum physics are tested and used in everyday devices."
+    },
+    {
+      "n": 50,
+      "scene": "Kofi and Zainab lie on a hill and look at the stars together",
+      "summary": "The six ideas explain an ordinary day and the stars above."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Kofi asks his aunt what physics is, and she smiles.",
+      "The bicycle stays still until someone pushes it.",
+      "When Kofi pedals harder, the bike goes faster and faster.",
+      "A full cart is much harder to push than an empty one.",
+      "When you push on a wall, the wall pushes back on you.",
+      "The brakes rub on the wheels and slow the bike down.",
+      "A heavy ball and a light ball fall together at the same time.",
+      "The Moon is always falling around the Earth, and never lands.",
+      "On the Moon, Kofi would weigh much less than he does now.",
+      "Energy is what lets things move, grow and change.",
+      "Fast things have more energy of movement than slow things.",
+      "A ball at the top of a hill has stored energy.",
+      "Energy changes its form, but the total always stays the same.",
+      "When a pendulum stops, its energy has changed into heat.",
+      "Food gives your body the energy it needs to move.",
+      "A kettle uses much more power than a small light.",
+      "Wind, plants and sunlight all get their energy from the Sun.",
+      "The kettle boils, and steam comes out into the kitchen.",
+      "A hot cup of tea is hotter than a bath, but holds less heat.",
+      "Heat always moves from something hot to something cold.",
+      "Heat can travel through metal, through the air, and through space.",
+      "Ice, water and steam are all made of the same molecules.",
+      "There is a limit to how cold anything can ever get.",
+      "Milk mixes into coffee, but it never mixes back again.",
+      "An engine can never use all of the heat it makes.",
+      "Kofi drops a stone in the pond, and ripples spread.",
+      "Sound needs air to travel through, and it moves slowly.",
+      "A short string makes a high note, and a long one makes a low note.",
+      "A shout bounces off a cliff and comes back as an echo.",
+      "Light is also a wave, and it moves very fast.",
+      "A rainbow shows all the colours that are hidden in sunlight.",
+      "Some kinds of light are invisible, such as radio waves.",
+      "Glass can bend light, and this helps us see clearly.",
+      "In the evening, a rubbed balloon makes Kofi's hair stand up.",
+      "A bolt of lightning is a very big spark of electricity.",
+      "A battery pushes tiny electrons round a wire and lights a lamp.",
+      "Voltage is the push, and current is the flow.",
+      "Magnets pull on each other, and sometimes they push apart.",
+      "An electric current in a wire can make a magnet.",
+      "When a magnet moves near a wire, it makes a current.",
+      "Light and radio waves come from electricity and magnets.",
+      "Everything around you is made from tiny atoms.",
+      "Atoms are mostly empty, with a tiny centre called the nucleus.",
+      "There are only about one hundred kinds of atom.",
+      "The electrons outside an atom decide how it joins with others.",
+      "Some atoms are unstable, and they give off energy as they change.",
+      "Light comes in tiny packets called photons.",
+      "Very small things do not behave like balls or like stones.",
+      "Even though it is strange, quantum physics works very well.",
+      "Now Kofi sees that physics is all around him."
+    ],
+    "B1B2": [
+      "Kofi thinks physics is only for scientists in white coats. His aunt Zainab laughs and says that six big ideas can explain his whole day.",
+      "Nothing starts to move by itself, and nothing that is moving stops without a reason. This idea is called inertia, and it is Newton's first law.",
+      "Velocity tells you how fast you go and in which direction. Acceleration means any change in velocity, so speeding up, slowing down and turning are all kinds of acceleration.",
+      "Newton's second law says that the more force you use, the more you accelerate, and the more mass an object has, the less it accelerates. That is why it is hard to move a full cart.",
+      "When one object pushes another, the second one pushes back with an equal force in the opposite direction. This is Newton's third law, and it is how you walk, swim and ride a bike.",
+      "When two surfaces rub together, a force called friction pushes against the movement. The brakes use friction to stop the bike, and they get warm because the movement is turned into heat.",
+      "Without air to slow them down, all objects fall at the same rate, and each second they fall about ten metres per second faster. On the Moon, an astronaut once dropped a hammer and a feather, and they hit the ground together.",
+      "Gravity pulls the Moon toward the Earth, but the Moon is also moving sideways very fast. So it keeps missing the Earth, and it stays in a path called an orbit.",
+      "Mass is the amount of matter in an object, and it stays the same everywhere. Weight is the pull of gravity on that mass, so Kofi would weigh only about a sixth as much on the Moon.",
+      "Energy is the ability to make things happen, such as moving, heating or lighting up. It comes in many forms, and the unit we use to measure it is the joule.",
+      "Energy of movement is called kinetic energy, and it depends on the mass and on the speed. If you double the speed, the energy becomes four times greater.",
+      "An object that is lifted up has stored energy, called potential energy, because gravity can make it fall. At the top of a roller coaster, nearly all the energy is stored, and on the way down it becomes movement.",
+      "A swinging pendulum keeps changing stored energy into movement and back again. The total stays the same, which is called the conservation of energy, and it is one of the most important rules in physics.",
+      "In real life, a pendulum slowly stops, but its energy has not vanished. It has turned into a tiny amount of heat in the air and in the string.",
+      "Your body is a machine that runs on food, which stores energy in chemical form. When you digest a sandwich, that energy powers your muscles and keeps you warm.",
+      "Power is how fast energy is used, and it is measured in watts. A small light bulb may use about ten watts, while an electric kettle may use two or three thousand.",
+      "Most of the energy we use comes from the Sun, whether it is sunlight, wind or the old plants that became coal and oil. Understanding energy helps us to use it carefully and to find cleaner sources.",
+      "Zainab's third idea is that heat is the jiggling of tiny molecules inside everything. The hotter something is, the faster its molecules move.",
+      "Temperature tells us how fast the molecules move on average, while heat is the total energy that flows between things. A big bath of warm water holds far more heat than a small cup of hot tea.",
+      "If you leave a metal spoon in hot tea, its handle slowly warms up. Heat always flows from the hot place to the cold place, never the other way round without help.",
+      "Heat moves in three ways, which are conduction through solid things, convection in moving air or water, and radiation as invisible rays. The Sun warms us by radiation across empty space.",
+      "When ice is heated, it melts into water, and when water is heated enough, it turns into steam. The molecules do not change, but they move faster and become less tightly held.",
+      "As things get colder, their molecules move more slowly, and there is a lowest possible temperature. It is called absolute zero, and it is about minus 273 degrees Celsius.",
+      "When you stir milk into coffee, it spreads out and never separates by itself. Physicists say that disorder, or entropy, tends to increase, and this gives time its direction.",
+      "A car engine burns fuel to make heat, but it can only turn some of that heat into movement. The rest must be thrown away to the cooler air, which is why engines get hot.",
+      "Zainab's fourth idea is the wave, which is a disturbance that travels and carries energy from place to place. The ripples move across the pond, but the water does not travel with them.",
+      "Sound is a wave of vibrating air, and in air it travels at about three hundred and forty metres a second. That is why you see lightning first and hear the thunder a few seconds later.",
+      "The pitch of a sound depends on its frequency, which is the number of waves each second. The loudness depends on the size of the waves, so a bigger vibration makes a louder sound.",
+      "When sound hits a hard surface, it bounces back, and we hear an echo. A swing shows resonance, because small pushes at the right time can make it go very high.",
+      "Light is a wave too, but it needs no air to travel through. It moves at about three hundred thousand kilometres a second, so it can circle the Earth more than seven times in a second.",
+      "Sunlight looks white, but it is a mix of every colour, and each colour is a wave of a different length. Raindrops bend the colours by different amounts and spread them into a rainbow.",
+      "Visible light is just one small part of a large family of waves. The family also includes radio waves, microwaves, infrared, ultraviolet light and X-rays, but our eyes cannot see any of them.",
+      "When light passes from air into glass or water, it changes direction. A lens uses this bending to focus light, and this is how your eyes, your glasses and a camera work.",
+      "Zainab's fifth idea begins with a balloon, which collects electric charge when it is rubbed on hair. There are two kinds of charge, and opposite charges pull together while the same kinds push apart.",
+      "Inside a storm cloud, ice and water drops rub together and build up a huge electric charge. When the charge becomes too great, it jumps to the ground as lightning, which heats the air until it is hotter than the Sun's surface.",
+      "An electric current is a flow of charge, usually electrons moving along a wire. A battery gives them a push, but they will only flow if there is a complete loop, called a circuit.",
+      "Think of a water pipe, where the pressure is the voltage and the amount of water that flows is the current. A narrow pipe, like a thin wire, gives resistance that holds the flow back.",
+      "Every magnet has a north pole and a south pole, and unlike poles attract while like poles repel. The Earth is a giant magnet too, which is why a compass needle points north.",
+      "Every electric current creates a magnetic field around it. If you wind a wire into a coil around an iron nail, the current turns it into an electromagnet that can lift small pins.",
+      "The reverse is true too, because a magnet moving near a coil of wire makes a current flow in it. Power stations use this to make the electricity that comes to our homes.",
+      "A changing electric field makes a magnetic field, and a changing magnetic field makes an electric field. Together they travel as electromagnetic waves, which include light, radio and the signals for your phone.",
+      "At night Zainab told Kofi about the last big idea, which is that everything is made of atoms. A single drop of water has more than a billion billion of them.",
+      "Most of an atom is empty space around a tiny nucleus, which is made of protons and neutrons. The nucleus is about one hundred thousand times smaller than the whole atom.",
+      "Each kind of atom is called an element, and about one hundred and eighteen are known. The periodic table arranges them in order, and elements in the same column behave in similar ways.",
+      "How an atom behaves depends mostly on its outer electrons. Atoms join together by sharing or swapping these electrons, and this is the whole basis of chemistry.",
+      "The nuclei of some atoms are unstable, and they give off radiation as they change, which we call radioactivity. Splitting a heavy nucleus is called fission, and it is how a nuclear power station makes energy.",
+      "Zainab explained that at the smallest scale, energy comes in small packets called quanta. Light is made of packets called photons, and a solar panel works because photons knock electrons loose.",
+      "Electrons and photons do not move like tiny balls, because they behave partly like waves. We can usually only know the chances of where they will be, and this is called the uncertainty principle.",
+      "The rules of quantum physics are strange, but experiments have tested them more carefully than almost any other idea in science. The chips in computers and phones, and the lasers in shops, depend on them.",
+      "Kofi looked back over his day and saw all six ideas in the bike, the kettle, the pond, the lamp and the stars. Physics was not only for scientists in white coats, because it was everywhere he looked."
+    ],
+    "C1C2": [
+      "Kofi had always imagined that physics belonged to scientists in white coats, working in laboratories that nobody else was allowed to enter. His aunt Zainab, who taught the subject at the town school, laughed and said that just six big ideas could explain almost everything he would do that day. They agreed to take the ideas one at a time, beginning with the bicycle waiting outside.",
+      "A bicycle that is standing still will stay exactly where it is until somebody pushes it, and a bicycle that is moving would carry on in a straight line at the same speed if nothing got in its way. This stubbornness of objects is called inertia, and it is the first of Newton's three laws of motion. The surprising part is that, on Earth, things only seem to slow down by themselves because something is always pushing against them.",
+      "Velocity tells you not only how fast you are going but also in which direction, and any change in velocity is called acceleration. Speeding up is acceleration, slowing down is acceleration, and so is turning a corner at the same speed, because the direction has changed. Kofi was surprised to learn that he was accelerating every time he steered round a bend.",
+      "Newton's second law says that the acceleration of an object depends on the force that pushes it and on its mass. A bigger push gives a bigger acceleration, but the same push on a heavier object gives much less, which is why a loaded cart is so hard to get moving. It also explains why a small car and a large truck need such different engines.",
+      "Whenever one object pushes on another, the second pushes back on the first with an equal force in the opposite direction. This third law of Newton is how you walk, since your foot pushes the ground backwards and the ground pushes you forwards. It is also how a rocket works, because it throws hot gas one way and is thrown the other way itself.",
+      "Friction is the force that acts when two surfaces rub against each other, and it always works against the motion. A bicycle brake presses a pad against the wheel so that friction can slow the bike, and the pad warms up as the energy of movement turns into heat. On smooth ice there is very little friction, so a sliding skater goes on for a long time and finds it hard to stop.",
+      "Zainab explained that when air does not get in the way, all objects fall with the same acceleration, speeding up by about ten metres per second in every second of the fall. On the Moon, where there is no air at all, an astronaut once let go of a hammer and a feather at the same moment, and the two reached the dust together. The feather falls slowly here only because the air holds it back, and not because it is lighter.",
+      "Gravity pulls the Moon towards the Earth all the time, but the Moon is also moving sideways at great speed, so it keeps falling past the planet instead of into it. Newton imagined firing a cannonball so fast that the ground curved away beneath it as quickly as it fell, and that is exactly what an orbit is. Satellites, space stations and the planets themselves are all following the same rule, falling for ever around something larger.",
+      "Mass is the amount of matter in an object, and it does not change wherever you go, but weight is the pull of gravity on that mass and it does change. On the Moon, where gravity is only about one sixth as strong, Kofi would weigh about a sixth of what he weighs now, although he would still be the same boy. Spacecraft engineers must remember the difference, because the mass decides how much force they need to move something.",
+      "Zainab's second idea was energy, which she described as the ability to make something change, whether that means moving, heating, glowing or growing. It comes in many forms, such as movement, heat, light, sound and the chemical energy held in food, and it is measured in units called joules. Kofi realised that his breakfast, his bicycle and the morning sunshine were all connected by the same quantity.",
+      "The energy that a moving object has because of its motion is called kinetic energy, and it depends on both the mass and the speed. When the speed is doubled the kinetic energy becomes four times larger, which is why a fast crash does so much more damage than a slow one. This is the reason for speed limits near schools, where a small difference in speed can mean a very large difference in danger.",
+      "Anything lifted above the ground has stored energy, called potential energy, because gravity is ready to pull it back down. At the very top of a roller coaster, almost all of the car's energy is stored in this way, and as it plunges downward that store is turned into the energy of movement. Climbing the hill took energy from a motor, and the ride gives it back in a few exciting seconds.",
+      "A swinging pendulum constantly trades stored energy for the energy of motion and then trades it back, rising and falling in an endless exchange. Through all of these changes the total amount of energy stays the same, and this rule is called the conservation of energy. Physicists trust it so much that whenever some energy seems to be missing, they go looking for where it went.",
+      "In the real world a pendulum gradually comes to a halt, and it may look as though its energy has simply disappeared. In fact it has been spread out as a tiny amount of heat, shared among the air, the string and the support from which the pendulum hangs. Energy is never destroyed, but it often ends up in a form that is far too scattered to be of much use.",
+      "Food is a store of chemical energy that originally came from sunlight, which plants captured and used to build their sugars. When Kofi digested his sandwich, his body released that energy to move his muscles, to power his brain and to keep him warm at about the same temperature all day. A resting person gives off about as much heat as a bright light bulb.",
+      "Power measures how quickly energy is used or changed, and it is counted in watts, where one watt means one joule every second. A modern light bulb may need only about ten watts, whereas an electric kettle may use two or three thousand, which is why it can boil water in minutes. A cheap appliance that runs for a long time can therefore cost more than an expensive one that is only used briefly.",
+      "Nearly all of the energy that we use, including sunshine, wind, food and the fossil fuels formed from ancient plants, can be traced back to the Sun. Nuclear power and the heat of the deep Earth are the main exceptions to that rule. Because energy cannot be created, the real question for humanity is not how to make it but how to collect it cleanly and use it sensibly.",
+      "In the kitchen, as the kettle began to sing, Zainab introduced her third big idea, which is that heat is really the restless movement of the tiny molecules that make up everything. The hotter an object is, the faster its molecules jiggle about, and the more energy they carry. Nothing in a cup of tea is ever perfectly still, even when it seems to be sitting calmly on the table.",
+      "Temperature tells us how fast the molecules in something are moving on average, whereas heat is the energy that flows from one object to another because of a difference in temperature. A bath of warm water is cooler than a cup of boiling tea, yet it holds much more heat because there are so many more molecules in it. People often use the two words as if they meant the same, but physicists keep them carefully apart.",
+      "If a metal spoon is left in a cup of hot tea, the handle gradually becomes warm, as heat flows along it from the hot end to the cooler end. Heat always flows in this direction by itself, and it never flows from cold to hot unless a machine, such as a refrigerator, uses energy to push it. The flow carries on until both places are at the same temperature, and then it stops, which is why a cup of tea cools to the temperature of the room.",
+      "Heat travels in three ways, and the first is conduction, in which energy is handed on from molecule to molecule through a solid such as a metal pan. The second is convection, in which warm air or water rises and carries heat with it, and the third is radiation, in which invisible rays carry heat across space. Sunshine reaches us only by radiation, because there is nothing between the Sun and the Earth to carry it in any other way.",
+      "Ice, liquid water and steam are made of exactly the same molecules, and the only difference between them is how those molecules are moving. In ice they are locked in place and only tremble, in water they slide past each other, and in steam they fly about freely, far apart. Heat is simply what moves a substance from one of these states to the next.",
+      "As something is cooled its molecules move more and more slowly, and this means there must be a lowest possible temperature, at which nearly all motion stops. This limit is known as absolute zero and lies at about minus 273 degrees Celsius, far colder than any winter on Earth. Scientists have come astonishingly close to it in the laboratory, but the laws of physics say that they can never quite arrive.",
+      "Once milk has been stirred into coffee, the two liquids will never unmix on their own, however long you wait. Physicists describe this by saying that the disorder of the world, which they call entropy, almost always increases with time. It is this one-way tendency that separates the past from the future, and it is why a film of a broken cup mending itself looks so absurd.",
+      "A car engine burns fuel to produce heat, but the laws of physics say that only part of that heat can ever be converted into useful movement. The rest has to be released into the cooler surroundings, which is why engines have radiators and why their exhaust pipes are hot. This limit is not a flaw in the design, because it follows from the growth of disorder, and it applies to every engine ever made.",
+      "At the pond, Kofi dropped a stone and watched the ripples run out in circles, and Zainab used them to introduce the fourth big idea, the wave. A wave is a disturbance that moves from place to place and carries energy with it, but it does not carry the material along. A floating leaf bobs up and down as the ripples pass underneath, and then stays more or less where it was.",
+      "Sound is a wave of compressed and stretched air that travels outwards from something that is vibrating, at about three hundred and forty metres every second. Light is nearly a million times faster, which is why you see a flash of lightning first and hear the thunder afterwards. If you count the seconds between them and divide by three, you get the distance of the storm in kilometres.",
+      "The pitch of a sound, meaning how high or low it seems, depends on its frequency, which is the number of waves that pass each second. Its loudness depends on the size of the waves, so a bigger vibration carries more energy and sounds louder. A short, tight guitar string vibrates quickly and gives a high note, while a long, loose one gives a low note.",
+      "When sound strikes a hard, flat surface such as a cliff, it bounces back, and if the delay is long enough we hear it as an echo. Pushing a child on a swing shows another effect, called resonance, in which small pushes given at exactly the right rhythm build up into a very large motion. Opera singers can shatter a wine glass by singing a note that matches its natural rhythm of vibration.",
+      "Light is also a wave, though unlike sound it needs no air or any other material to carry it, and that is why sunshine can cross empty space. It moves at about three hundred thousand kilometres every second, fast enough to circle the Earth more than seven times in a single second. Nothing in the Universe, as far as we know, can travel faster than light, and that is a limit we will meet again.",
+      "Sunlight appears white, but it is really a mixture of every colour, and each colour is a wave of a slightly different length, with red waves the longest and violet the shortest. Raindrops act like tiny prisms, bending each colour by a different amount and spreading the light into a rainbow that arcs across the sky. If you ever see one, remember that your position decides which drops send the colours to you.",
+      "The light that we can see is only one narrow strip of a much larger family of waves, known as the electromagnetic spectrum. On one side are the long waves, including radio, microwaves and infrared heat, and on the other are the short ones, such as ultraviolet light and X-rays. They differ only in wavelength, yet one warms your dinner, another carries a phone call and another shows a doctor your bones.",
+      "When light passes from air into glass or water, it slows down a little and changes direction, an effect called refraction. A curved piece of glass, known as a lens, uses this bending to bring rays of light together at a single point, which is how your eyes, spectacles, cameras and telescopes form sharp images. People who cannot see clearly are often just a lens away from perfect sight.",
+      "In the evening, Zainab handed Kofi a balloon, and when he rubbed it on his hair his hair rose up to meet it, which introduced the fifth big idea, electric charge. There are two kinds of charge, positive and negative, and opposite charges attract each other while the same kinds repel. The balloon had picked up tiny electrons from his hair, and that had left the two of them with opposite charges.",
+      "Inside a storm cloud, ice crystals and water drops collide and rub against one another, and the cloud slowly gathers an enormous electric charge. When the build-up becomes too great for the air to hold back, it leaps towards the ground as a flash of lightning, which heats the air around it to a temperature that is hotter than the surface of the Sun. The thunder that follows is simply the sound of that suddenly heated air expanding.",
+      "An electric current is a flow of electric charge, which in a wire means a stream of tiny electrons that are pushed along by a battery. They only move if there is a complete loop for them to follow, called a circuit, and a switch works by breaking the loop. When Kofi closed the switch, the lamp lit almost at once, because every electron in the wire began to move together.",
+      "Zainab asked Kofi to imagine water in a pipe, where the pressure that drives the water is like the voltage in a circuit, and the amount of water flowing is like the current. A narrow pipe resists the flow of water, and in the same way a thin wire has resistance that holds back the electric current. A simple law connects the three, which says that for a given resistance, a bigger voltage drives a bigger current.",
+      "Every magnet has two ends, called poles, and the north pole of one attracts the south pole of another while like poles push each other away. A magnet is surrounded by an invisible region, called a magnetic field, in which other magnets and iron feel a force. The Earth has a magnetic field of its own, which is why a compass needle swings round to point to the north.",
+      "Every electric current creates a magnetic field in the space around it, and the effect is strengthened when the wire is wound into a coil. Wrap such a coil around an iron nail and connect it to a battery, and you have an electromagnet that picks up pins and can be switched off at will. Giant versions of the same device lift cars in scrapyards and drive the motors in trains and lifts.",
+      "The reverse is also true, since a magnet that moves in and out of a coil of wire will push a current through the wire. A power station uses this effect by spinning huge magnets inside coils, turning them with steam, with water or with wind. Nearly all of the electricity in the sockets of your home began as the turning of a giant generator somewhere.",
+      "In the nineteenth century it was discovered that a changing electric field makes a magnetic field, and a changing magnetic field makes an electric field, so the two can sustain each other as they move through space. The result is an electromagnetic wave, and light, radio signals and the waves that carry your phone calls are all examples of it. So the force that holds the balloon to Kofi's hair is the same one that makes sunshine.",
+      "Sitting outside under the stars, Zainab began on the last of the six big ideas, which is that everything in the world is made of atoms. They are so small that a single drop of water contains more than a billion billion of them, and a human hair is hundreds of thousands of atoms wide. If you could see them, you would see that the world around you is built from an astonishingly small number of different kinds.",
+      "Almost all of an atom is empty space, with a tiny nucleus at the centre made of protons and neutrons and a cloud of electrons around the outside. The nucleus is about a hundred thousand times smaller than the whole atom, yet it holds nearly all of the mass. If an atom were the size of a cathedral, its nucleus would be about the size of a grain of sand.",
+      "Each kind of atom is called an element, and about one hundred and eighteen have been found, although only about ninety occur naturally. The periodic table arranges them by the number of protons in their nuclei, and elements that sit in the same column tend to behave in similar ways. Everything in the world, from your bones to the stars, is built from just these few ingredients.",
+      "The way that an atom behaves depends largely on the number of electrons around its outer edge, because those are the parts that touch other atoms. Atoms join together by sharing or swapping these electrons, and the bonds that result make up the entire world of chemistry, from the rusting of iron to the baking of bread. Every colour, smell and flavour you have ever met comes from atoms of this kind joining and parting.",
+      "The nuclei of some kinds of atom are unstable, and over time they break apart and give off energy in the form of radiation, which we call radioactivity. Splitting a heavy nucleus deliberately, called fission, releases a great deal of energy and powers nuclear stations, while joining two light nuclei, called fusion, is what powers the Sun. Both are examples of the energy locked inside matter, which Einstein's famous equation describes.",
+      "Zainab explained that at the smallest scales energy comes in indivisible little packets, called quanta, and that this discovery gave rise to quantum physics. Light itself is made of such packets, which are called photons, and a solar panel works because each photon can knock an electron out of an atom and so set a current flowing. Kofi looked at the lamp on the table, and realised it was pouring out countless photons every second.",
+      "Electrons and photons do not behave like tiny balls rolling along tracks, since they act partly like waves and spread out through space. In the quantum world we can usually only predict the odds of finding a particle in a certain place, and there is a limit to how well we can know both its position and its motion at once. This is called the uncertainty principle, and it seems strange even to the people who work on it every day.",
+      "The rules of quantum physics may feel strange, but they have been tested with extraordinary precision, and they have never been caught out by an experiment. The chips in computers and phones, the lasers that read bar codes in shops and the scanners in hospitals all depend on them. Kofi found it hard to picture, yet he was holding the evidence in his own pocket.",
+      "Lying on the hill, Kofi looked back over his day and saw the six ideas hidden in the bicycle, the kettle, the pond, the lamp and the stars, which burned far above him by the same rules. Physics, he realised, was not a subject for scientists in white coats but a way of understanding every ordinary thing around him. Zainab smiled and told him that this was only the beginning, and that the best part of physics is the questions that nobody has answered yet."
+    ]
+  }
+}
