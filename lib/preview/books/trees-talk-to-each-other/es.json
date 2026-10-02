@@ -1,0 +1,2564 @@
+{
+ "slug": "trees-talk-to-each-other",
+ "lang": "es",
+ "title": "Los árboles se hablan",
+ "blurb": "Acompaña a Mina y a su abuelo Tomas durante un año en un viejo bosque, desde una bellota que cae hasta una nueva que se planta. Por el camino conocerás las raíces, los hongos, los árboles gigantes y las señales silenciosas que tal vez pasan entre ellos.",
+ "levels": {
+  "A1A2": [
+   {
+    "text": "Mina y su abuelo Tomas entran al bosque una mañana de otoño.",
+    "keys": [
+     {
+      "w": "abuelo",
+      "en": "grandfather"
+     },
+     {
+      "w": "bosque",
+      "en": "forest"
+     },
+     {
+      "w": "otoño",
+      "en": "autumn"
+     }
+    ]
+   },
+   {
+    "text": "Un viejo roble deja caer sus bellotas al suelo.",
+    "keys": [
+     {
+      "w": "roble",
+      "en": "oak"
+     },
+     {
+      "w": "bellotas",
+      "en": "acorns"
+     },
+     {
+      "w": "suelo",
+      "en": "ground"
+     }
+    ]
+   },
+   {
+    "text": "Un arrendajo toma una bellota y se va volando con ella.",
+    "keys": [
+     {
+      "w": "arrendajo",
+      "en": "jay"
+     },
+     {
+      "w": "bellota",
+      "en": "acorn"
+     },
+     {
+      "w": "volando",
+      "en": "flies"
+     }
+    ]
+   },
+   {
+    "text": "Mina encuentra una bellota bajo las hojas y marca el lugar.",
+    "keys": [
+     {
+      "w": "encuentra",
+      "en": "finds"
+     },
+     {
+      "w": "hojas",
+      "en": "leaves"
+     },
+     {
+      "w": "marca",
+      "en": "marks"
+     }
+    ]
+   },
+   {
+    "text": "En otoño las hojas verdes se vuelven amarillas, naranjas y rojas.",
+    "keys": [
+     {
+      "w": "hojas",
+      "en": "leaves"
+     },
+     {
+      "w": "amarillas",
+      "en": "yellow"
+     },
+     {
+      "w": "rojas",
+      "en": "red"
+     }
+    ]
+   },
+   {
+    "text": "Luego las hojas caen del árbol y cubren el suelo.",
+    "keys": [
+     {
+      "w": "hojas",
+      "en": "leaves"
+     },
+     {
+      "w": "caen",
+      "en": "fall"
+     },
+     {
+      "w": "cubren",
+      "en": "cover"
+     }
+    ]
+   },
+   {
+    "text": "Bajo las hojas, gusanos e insectos pequeños comen y hacen tierra.",
+    "keys": [
+     {
+      "w": "gusanos",
+      "en": "worms"
+     },
+     {
+      "w": "insectos",
+      "en": "insects"
+     },
+     {
+      "w": "tierra",
+      "en": "soil"
+     }
+    ]
+   },
+   {
+    "text": "Un bosque tiene capas: copas altas, árboles pequeños y el suelo.",
+    "keys": [
+     {
+      "w": "capas",
+      "en": "layers"
+     },
+     {
+      "w": "copas",
+      "en": "tops"
+     },
+     {
+      "w": "suelo",
+      "en": "ground"
+     }
+    ]
+   },
+   {
+    "text": "La corteza es la piel del árbol, y lo mantiene a salvo.",
+    "keys": [
+     {
+      "w": "corteza",
+      "en": "bark"
+     },
+     {
+      "w": "piel",
+      "en": "skin"
+     },
+     {
+      "w": "árbol",
+      "en": "tree"
+     }
+    ]
+   },
+   {
+    "text": "El tronco de un árbol cortado muestra anillos, uno por cada año.",
+    "keys": [
+     {
+      "w": "tronco",
+      "en": "trunk"
+     },
+     {
+      "w": "anillos",
+      "en": "rings"
+     },
+     {
+      "w": "año",
+      "en": "year"
+     }
+    ]
+   },
+   {
+    "text": "Los anillos anchos muestran años húmedos, y los delgados muestran años secos.",
+    "keys": [
+     {
+      "w": "anchos",
+      "en": "wide"
+     },
+     {
+      "w": "húmedos",
+      "en": "wet"
+     },
+     {
+      "w": "secos",
+      "en": "dry"
+     }
+    ]
+   },
+   {
+    "text": "En invierno cae nieve y el bosque está blanco y callado.",
+    "keys": [
+     {
+      "w": "invierno",
+      "en": "winter"
+     },
+     {
+      "w": "nieve",
+      "en": "snow"
+     },
+     {
+      "w": "callado",
+      "en": "quiet"
+     }
+    ]
+   },
+   {
+    "text": "Los pinos mantienen sus agujas verdes todo el invierno.",
+    "keys": [
+     {
+      "w": "pinos",
+      "en": "pine"
+     },
+     {
+      "w": "agujas",
+      "en": "needles"
+     },
+     {
+      "w": "invierno",
+      "en": "winter"
+     }
+    ]
+   },
+   {
+    "text": "Bajo la nieve, la bellota de Mina duerme y espera la primavera.",
+    "keys": [
+     {
+      "w": "nieve",
+      "en": "snow"
+     },
+     {
+      "w": "duerme",
+      "en": "sleeping"
+     },
+     {
+      "w": "primavera",
+      "en": "spring"
+     }
+    ]
+   },
+   {
+    "text": "Una ardilla cava en la nieve para encontrar sus nueces escondidas.",
+    "keys": [
+     {
+      "w": "ardilla",
+      "en": "squirrel"
+     },
+     {
+      "w": "cava",
+      "en": "digs"
+     },
+     {
+      "w": "nueces",
+      "en": "nuts"
+     }
+    ]
+   },
+   {
+    "text": "Tomas le muestra a Mina un brote pequeño en una rama sin hojas.",
+    "keys": [
+     {
+      "w": "brote",
+      "en": "bud"
+     },
+     {
+      "w": "rama",
+      "en": "branch"
+     },
+     {
+      "w": "pequeño",
+      "en": "small"
+     }
+    ]
+   },
+   {
+    "text": "Un árbol muerto sigue en pie, y unas aves viven en sus huecos.",
+    "keys": [
+     {
+      "w": "muerto",
+      "en": "dead"
+     },
+     {
+      "w": "aves",
+      "en": "birds"
+     },
+     {
+      "w": "huecos",
+      "en": "holes"
+     }
+    ]
+   },
+   {
+    "text": "Bajo la tierra, hilos blancos y delgados rodean las raíces de los árboles.",
+    "keys": [
+     {
+      "w": "hilos",
+      "en": "threads"
+     },
+     {
+      "w": "raíces",
+      "en": "roots"
+     },
+     {
+      "w": "delgados",
+      "en": "thin"
+     }
+    ]
+   },
+   {
+    "text": "El árbol da azúcar al hongo, y el hongo da agua.",
+    "keys": [
+     {
+      "w": "azúcar",
+      "en": "sugar"
+     },
+     {
+      "w": "hongo",
+      "en": "fungus"
+     },
+     {
+      "w": "agua",
+      "en": "water"
+     }
+    ]
+   },
+   {
+    "text": "Algunos hilos unen las raíces de un árbol con otro árbol.",
+    "keys": [
+     {
+      "w": "hilos",
+      "en": "threads"
+     },
+     {
+      "w": "unen",
+      "en": "join"
+     },
+     {
+      "w": "raíces",
+      "en": "roots"
+     }
+    ]
+   },
+   {
+    "text": "Algunos científicos dicen que los árboles grandes y viejos ayudan a los jóvenes.",
+    "keys": [
+     {
+      "w": "científicos",
+      "en": "scientists"
+     },
+     {
+      "w": "ayudan",
+      "en": "help"
+     },
+     {
+      "w": "jóvenes",
+      "en": "young"
+     }
+    ]
+   },
+   {
+    "text": "Los científicos todavía discuten cuánto importan estas uniones.",
+    "keys": [
+     {
+      "w": "científicos",
+      "en": "scientists"
+     },
+     {
+      "w": "discuten",
+      "en": "argue"
+     },
+     {
+      "w": "importan",
+      "en": "matter"
+     }
+    ]
+   },
+   {
+    "text": "Llega la primavera, y los días son más cálidos y más largos.",
+    "keys": [
+     {
+      "w": "primavera",
+      "en": "spring"
+     },
+     {
+      "w": "cálidos",
+      "en": "warmer"
+     },
+     {
+      "w": "largos",
+      "en": "longer"
+     }
+    ]
+   },
+   {
+    "text": "La bellota de Mina se abre, y sale una raíz blanca y pequeña.",
+    "keys": [
+     {
+      "w": "bellota",
+      "en": "acorn"
+     },
+     {
+      "w": "raíz",
+      "en": "root"
+     },
+     {
+      "w": "blanca",
+      "en": "white"
+     }
+    ]
+   },
+   {
+    "text": "La raíz crece hacia abajo y encuentra agua en la tierra.",
+    "keys": [
+     {
+      "w": "raíz",
+      "en": "root"
+     },
+     {
+      "w": "encuentra",
+      "en": "finds"
+     },
+     {
+      "w": "agua",
+      "en": "water"
+     }
+    ]
+   },
+   {
+    "text": "Las raíces crecen hacia la tierra húmeda y se extienden lejos bajo el suelo.",
+    "keys": [
+     {
+      "w": "raíces",
+      "en": "roots"
+     },
+     {
+      "w": "húmeda",
+      "en": "wet"
+     },
+     {
+      "w": "extienden",
+      "en": "spread"
+     }
+    ]
+   },
+   {
+    "text": "Un pequeño brote verde sale a la sombra del roble.",
+    "keys": [
+     {
+      "w": "brote",
+      "en": "shoot"
+     },
+     {
+      "w": "sombra",
+      "en": "shade"
+     },
+     {
+      "w": "roble",
+      "en": "oak"
+     }
+    ]
+   },
+   {
+    "text": "Muy arriba, hojas nuevas y verdes se abren en el gran roble.",
+    "keys": [
+     {
+      "w": "arriba",
+      "en": "above"
+     },
+     {
+      "w": "nuevas",
+      "en": "new"
+     },
+     {
+      "w": "abren",
+      "en": "open"
+     }
+    ]
+   },
+   {
+    "text": "Las hojas usan luz del sol, agua y aire para hacer azúcar.",
+    "keys": [
+     {
+      "w": "hojas",
+      "en": "leaves"
+     },
+     {
+      "w": "aire",
+      "en": "air"
+     },
+     {
+      "w": "azúcar",
+      "en": "sugar"
+     }
+    ]
+   },
+   {
+    "text": "Unos agujeros diminutos bajo la hoja dejan entrar y salir el aire.",
+    "keys": [
+     {
+      "w": "agujeros",
+      "en": "holes"
+     },
+     {
+      "w": "diminutos",
+      "en": "tiny"
+     },
+     {
+      "w": "aire",
+      "en": "air"
+     }
+    ]
+   },
+   {
+    "text": "El agua sube por el tronco desde las raíces hasta las hojas.",
+    "keys": [
+     {
+      "w": "agua",
+      "en": "water"
+     },
+     {
+      "w": "tronco",
+      "en": "trunk"
+     },
+     {
+      "w": "raíces",
+      "en": "roots"
+     }
+    ]
+   },
+   {
+    "text": "El azúcar de las hojas baja para alimentar las raíces.",
+    "keys": [
+     {
+      "w": "azúcar",
+      "en": "sugar"
+     },
+     {
+      "w": "baja",
+      "en": "down"
+     },
+     {
+      "w": "alimentar",
+      "en": "feed"
+     }
+    ]
+   },
+   {
+    "text": "Un pajarito construye un nido en las ramas del roble.",
+    "keys": [
+     {
+      "w": "pajarito",
+      "en": "bird"
+     },
+     {
+      "w": "nido",
+      "en": "nest"
+     },
+     {
+      "w": "ramas",
+      "en": "branches"
+     }
+    ]
+   },
+   {
+    "text": "Una oruga se come las hojas nuevas y tiernas y les hace agujeros.",
+    "keys": [
+     {
+      "w": "oruga",
+      "en": "caterpillar"
+     },
+     {
+      "w": "agujeros",
+      "en": "holes"
+     },
+     {
+      "w": "tiernas",
+      "en": "soft"
+     }
+    ]
+   },
+   {
+    "text": "Algunos árboles sueltan un olor cuando los insectos los muerden.",
+    "keys": [
+     {
+      "w": "olor",
+      "en": "smell"
+     },
+     {
+      "w": "insectos",
+      "en": "insects"
+     },
+     {
+      "w": "muerden",
+      "en": "bite"
+     }
+    ]
+   },
+   {
+    "text": "Una avispa pequeña sigue el olor y ataca a la oruga.",
+    "keys": [
+     {
+      "w": "avispa",
+      "en": "wasp"
+     },
+     {
+      "w": "olor",
+      "en": "smell"
+     },
+     {
+      "w": "ataca",
+      "en": "attacks"
+     }
+    ]
+   },
+   {
+    "text": "En verano, el bosque con sombra es más fresco que los campos.",
+    "keys": [
+     {
+      "w": "verano",
+      "en": "summer"
+     },
+     {
+      "w": "sombra",
+      "en": "shady"
+     },
+     {
+      "w": "campos",
+      "en": "fields"
+     }
+    ]
+   },
+   {
+    "text": "Llega una tormenta de verano, y el viento fuerte sacude los árboles.",
+    "keys": [
+     {
+      "w": "tormenta",
+      "en": "storm"
+     },
+     {
+      "w": "viento",
+      "en": "wind"
+     },
+     {
+      "w": "sacude",
+      "en": "shakes"
+     }
+    ]
+   },
+   {
+    "text": "Hace mucho tiempo hubo aquí un incendio, pero ahora crecen árboles nuevos.",
+    "keys": [
+     {
+      "w": "incendio",
+      "en": "fire"
+     },
+     {
+      "w": "crecen",
+      "en": "grow"
+     },
+     {
+      "w": "nuevos",
+      "en": "new"
+     }
+    ]
+   },
+   {
+    "text": "Un árbol enorme y viejo ha caído, y sus raíces quedan en el aire.",
+    "keys": [
+     {
+      "w": "enorme",
+      "en": "huge"
+     },
+     {
+      "w": "caído",
+      "en": "fallen"
+     },
+     {
+      "w": "raíces",
+      "en": "roots"
+     }
+    ]
+   },
+   {
+    "text": "Un tronco caído se pudre despacio, y en él crecen plantas nuevas.",
+    "keys": [
+     {
+      "w": "tronco",
+      "en": "log"
+     },
+     {
+      "w": "pudre",
+      "en": "rots"
+     },
+     {
+      "w": "plantas",
+      "en": "plants"
+     }
+    ]
+   },
+   {
+    "text": "Los pinos longevos crecen en montañas secas y viven miles de años.",
+    "keys": [
+     {
+      "w": "pinos",
+      "en": "pines"
+     },
+     {
+      "w": "montañas",
+      "en": "mountains"
+     },
+     {
+      "w": "miles",
+      "en": "thousands"
+     }
+    ]
+   },
+   {
+    "text": "Las secuoyas son los árboles más altos de la Tierra, de más de cien metros.",
+    "keys": [
+     {
+      "w": "secuoyas",
+      "en": "redwoods"
+     },
+     {
+      "w": "altos",
+      "en": "tallest"
+     },
+     {
+      "w": "metros",
+      "en": "metres"
+     }
+    ]
+   },
+   {
+    "text": "Llega otra vez el otoño, y las hojas se vuelven doradas y rojas.",
+    "keys": [
+     {
+      "w": "otoño",
+      "en": "autumn"
+     },
+     {
+      "w": "hojas",
+      "en": "leaves"
+     },
+     {
+      "w": "doradas",
+      "en": "gold"
+     }
+    ]
+   },
+   {
+    "text": "El pequeño roble de Mina ha crecido, pero todavía es muy pequeño.",
+    "keys": [
+     {
+      "w": "roble",
+      "en": "oak"
+     },
+     {
+      "w": "crecido",
+      "en": "grown"
+     },
+     {
+      "w": "pequeño",
+      "en": "small"
+     }
+    ]
+   },
+   {
+    "text": "Los árboles toman carbono del aire y lo guardan en la madera.",
+    "keys": [
+     {
+      "w": "carbono",
+      "en": "carbon"
+     },
+     {
+      "w": "aire",
+      "en": "air"
+     },
+     {
+      "w": "madera",
+      "en": "wood"
+     }
+    ]
+   },
+   {
+    "text": "Los bosques dan hogar a los animales y ayudan a mantener limpia el agua.",
+    "keys": [
+     {
+      "w": "bosques",
+      "en": "forests"
+     },
+     {
+      "w": "animales",
+      "en": "animals"
+     },
+     {
+      "w": "agua",
+      "en": "water"
+     }
+    ]
+   },
+   {
+    "text": "La gente puede plantar árboles y puede proteger los bosques viejos.",
+    "keys": [
+     {
+      "w": "plantar",
+      "en": "plant"
+     },
+     {
+      "w": "proteger",
+      "en": "protect"
+     },
+     {
+      "w": "bosques",
+      "en": "forests"
+     }
+    ]
+   },
+   {
+    "text": "Camina por los senderos y deja las ramas caídas donde están.",
+    "keys": [
+     {
+      "w": "senderos",
+      "en": "paths"
+     },
+     {
+      "w": "ramas",
+      "en": "branches"
+     },
+     {
+      "w": "caídas",
+      "en": "fallen"
+     }
+    ]
+   },
+   {
+    "text": "Mina planta una bellota en el borde del bosque y sonríe.",
+    "keys": [
+     {
+      "w": "planta",
+      "en": "plants"
+     },
+     {
+      "w": "bellota",
+      "en": "acorn"
+     },
+     {
+      "w": "sonríe",
+      "en": "smiles"
+     }
+    ]
+   }
+  ],
+  "B1B2": [
+   {
+    "text": "Mina ha venido al viejo bosque con su abuelo Tomas, que fue guardabosques. Él le ha prometido caminar con ella durante todas las estaciones de un año entero.",
+    "keys": [
+     {
+      "w": "abuelo",
+      "en": "grandfather"
+     },
+     {
+      "w": "guardabosques",
+      "en": "forester"
+     },
+     {
+      "w": "prometido",
+      "en": "promised"
+     }
+    ]
+   },
+   {
+    "text": "El roble que está sobre ellos es muy viejo, y en otoño suelta sus bellotas. Cada bellota es una semilla, y dentro de ella espera un arbolito.",
+    "keys": [
+     {
+      "w": "roble",
+      "en": "oak"
+     },
+     {
+      "w": "bellotas",
+      "en": "acorns"
+     },
+     {
+      "w": "semilla",
+      "en": "seed"
+     }
+    ]
+   },
+   {
+    "text": "Un arrendajo aterriza a su lado y se llena la garganta de bellotas antes de irse volando. Las enterrará en distintos lugares, y las que olvide podrán crecer y convertirse en nuevos robles.",
+    "keys": [
+     {
+      "w": "arrendajo",
+      "en": "jay"
+     },
+     {
+      "w": "garganta",
+      "en": "throat"
+     },
+     {
+      "w": "olvide",
+      "en": "forgets"
+     }
+    ]
+   },
+   {
+    "text": "Mina encuentra una bellota medio escondida en la tierra blanda. Clava un palo junto a ella, porque quiere ver qué le pasa durante este año.",
+    "keys": [
+     {
+      "w": "encuentra",
+      "en": "finds"
+     },
+     {
+      "w": "escondida",
+      "en": "hidden"
+     },
+     {
+      "w": "palo",
+      "en": "stick"
+     }
+    ]
+   },
+   {
+    "text": "Las hojas son verdes porque contienen clorofila, una sustancia que atrapa la luz del sol. En otoño la clorofila se descompone, y empiezan a verse los colores amarillos y anaranjados que estaban escondidos debajo.",
+    "keys": [
+     {
+      "w": "clorofila",
+      "en": "chlorophyll"
+     },
+     {
+      "w": "sustancia",
+      "en": "substance"
+     },
+     {
+      "w": "descompone",
+      "en": "breaks"
+     }
+    ]
+   },
+   {
+    "text": "Antes del invierno, el árbol forma una capa delgada de células en la base del tallo de cada hoja. La hoja queda sellada y cae flotando hasta el suelo.",
+    "keys": [
+     {
+      "w": "células",
+      "en": "cells"
+     },
+     {
+      "w": "tallo",
+      "en": "stalk"
+     },
+     {
+      "w": "sellada",
+      "en": "sealed"
+     }
+    ]
+   },
+   {
+    "text": "Bajo las hojas caídas, las lombrices, los escarabajos y los hongos ya están trabajando. Rompen las hojas en trozos pequeños y las convierten en una tierra oscura y rica que alimenta a los árboles.",
+    "keys": [
+     {
+      "w": "lombrices",
+      "en": "worms"
+     },
+     {
+      "w": "escarabajos",
+      "en": "beetles"
+     },
+     {
+      "w": "hongos",
+      "en": "fungi"
+     }
+    ]
+   },
+   {
+    "text": "Tomas explica que un bosque tiene capas, como una casa con pisos. El dosel es el techo alto de hojas, el sotobosque tiene árboles más pequeños y arbustos, y el suelo del bosque queda abajo.",
+    "keys": [
+     {
+      "w": "capas",
+      "en": "layers"
+     },
+     {
+      "w": "dosel",
+      "en": "canopy"
+     },
+     {
+      "w": "sotobosque",
+      "en": "understorey"
+     }
+    ]
+   },
+   {
+    "text": "Mina pone la mano sobre la corteza áspera del roble. Como una piel, protege la madera viva de su interior del frío, de los insectos, de los hongos y a veces hasta del fuego.",
+    "keys": [
+     {
+      "w": "corteza",
+      "en": "bark"
+     },
+     {
+      "w": "protege",
+      "en": "protects"
+     },
+     {
+      "w": "fuego",
+      "en": "fire"
+     }
+    ]
+   },
+   {
+    "text": "Encuentran un tocón donde cortaron un árbol, y Mina cuenta sus anillos. Cada año el árbol añade un anillo nuevo de madera, así que el número de anillos es la edad del árbol.",
+    "keys": [
+     {
+      "w": "tocón",
+      "en": "stump"
+     },
+     {
+      "w": "anillos",
+      "en": "rings"
+     },
+     {
+      "w": "edad",
+      "en": "age"
+     }
+    ]
+   },
+   {
+    "text": "Mina nota que los anillos no tienen todos el mismo ancho. En un año húmedo y cálido, un árbol suele formar un anillo ancho, pero en un año seco el anillo es delgado.",
+    "keys": [
+     {
+      "w": "ancho",
+      "en": "width"
+     },
+     {
+      "w": "húmedo",
+      "en": "wet"
+     },
+     {
+      "w": "delgado",
+      "en": "thin"
+     }
+    ]
+   },
+   {
+    "text": "Ha llegado el invierno, y una nieve espesa se posa suavemente sobre todas las ramas. El bosque está muy quieto, como si estuviera dormido, aunque Tomas dice que solo está descansando.",
+    "keys": [
+     {
+      "w": "nieve",
+      "en": "snow"
+     },
+     {
+      "w": "ramas",
+      "en": "branches"
+     },
+     {
+      "w": "descansando",
+      "en": "resting"
+     }
+    ]
+   },
+   {
+    "text": "Algunos árboles, como los pinos y los abetos, no pierden todas sus hojas. Sus agujas son delgadas y tienen una capa de cera, que les ayuda a conservar el agua y a sacudirse la nieve.",
+    "keys": [
+     {
+      "w": "agujas",
+      "en": "needles"
+     },
+     {
+      "w": "cera",
+      "en": "waxy"
+     },
+     {
+      "w": "conservar",
+      "en": "keep"
+     }
+    ]
+   },
+   {
+    "text": "Muy abajo, bajo la nieve, la bellota de Mina yace en la oscuridad y espera. Muchas semillas de árboles necesitan un periodo de frío antes de brotar, y eso evita que despierten demasiado pronto.",
+    "keys": [
+     {
+      "w": "bellota",
+      "en": "acorn"
+     },
+     {
+      "w": "semillas",
+      "en": "seeds"
+     },
+     {
+      "w": "brotar",
+      "en": "sprout"
+     }
+    ]
+   },
+   {
+    "text": "Muchos animales se quedan en el bosque durante todo el largo invierno. Una ardilla cava en la nieve en busca de las nueces que enterró en otoño, y algunas de las nueces que nunca encuentra brotarán.",
+    "keys": [
+     {
+      "w": "ardilla",
+      "en": "squirrel"
+     },
+     {
+      "w": "enterró",
+      "en": "buried"
+     },
+     {
+      "w": "encuentra",
+      "en": "finds"
+     }
+    ]
+   },
+   {
+    "text": "Tomas inclina una rama hacia Mina para mostrarle los pequeños brotes que tiene. Las hojas de la próxima primavera ya están plegadas adentro, bien apretadas y protegidas por duras escamas.",
+    "keys": [
+     {
+      "w": "brotes",
+      "en": "buds"
+     },
+     {
+      "w": "plegadas",
+      "en": "folded"
+     },
+     {
+      "w": "escamas",
+      "en": "scales"
+     }
+    ]
+   },
+   {
+    "text": "No todos los árboles que están en pie en el bosque están vivos. Un tronco muerto lleno de huecos ofrece a los pájaros carpinteros, a los búhos y a muchos insectos un lugar donde hacer su hogar.",
+    "keys": [
+     {
+      "w": "tronco",
+      "en": "trunk"
+     },
+     {
+      "w": "huecos",
+      "en": "holes"
+     },
+     {
+      "w": "búhos",
+      "en": "owls"
+     }
+    ]
+   },
+   {
+    "text": "Tomas se arrodilla y levanta con cuidado un poco de tierra junto a una raíz. Está envuelta en finos hilos blancos, que pertenecen a hongos que viven en la tierra.",
+    "keys": [
+     {
+      "w": "arrodilla",
+      "en": "kneels"
+     },
+     {
+      "w": "raíz",
+      "en": "root"
+     },
+     {
+      "w": "hilos",
+      "en": "threads"
+     }
+    ]
+   },
+   {
+    "text": "Los hongos micorrízicos y los árboles con los que viven intercambian cosas entre sí. El árbol le da al hongo azúcar de sus hojas, y el hongo trae agua y minerales de la tierra.",
+    "keys": [
+     {
+      "w": "hongos",
+      "en": "fungi"
+     },
+     {
+      "w": "azúcar",
+      "en": "sugar"
+     },
+     {
+      "w": "minerales",
+      "en": "minerals"
+     }
+    ]
+   },
+   {
+    "text": "Los hilos de los hongos también pueden unir las raíces de árboles distintos. En experimentos, los científicos han medido azúcares y otras sustancias químicas que pasan de un árbol a otro.",
+    "keys": [
+     {
+      "w": "hilos",
+      "en": "threads"
+     },
+     {
+      "w": "científicos",
+      "en": "scientists"
+     },
+     {
+      "w": "experimentos",
+      "en": "experiments"
+     }
+    ]
+   },
+   {
+    "text": "Una científica llamada Suzanne Simard, y otros más, han estudiado árboles viejos que están muy conectados con muchos vecinos. Algunos científicos piensan que estos árboles centrales, llamados a veces árboles madre, pueden ayudar a las plántulas jóvenes que crecen a su sombra.",
+    "keys": [
+     {
+      "w": "conectados",
+      "en": "linked"
+     },
+     {
+      "w": "vecinos",
+      "en": "neighbours"
+     },
+     {
+      "w": "plántulas",
+      "en": "seedlings"
+     }
+    ]
+   },
+   {
+    "text": "Tomas se cuida de añadir que este es un campo emocionante pero debatido. Los científicos coinciden en que las redes de hongos existen, pero todavía discrepan sobre cuánto importan para todo un bosque.",
+    "keys": [
+     {
+      "w": "debatido",
+      "en": "debated"
+     },
+     {
+      "w": "redes",
+      "en": "networks"
+     },
+     {
+      "w": "discrepan",
+      "en": "disagree"
+     }
+    ]
+   },
+   {
+    "text": "Los días se hacen más largos y cálidos, y los árboles despiertan. La savia empieza a subir, los brotes se hinchan y el bosque pasa poco a poco del marrón al verde.",
+    "keys": [
+     {
+      "w": "savia",
+      "en": "sap"
+     },
+     {
+      "w": "hinchan",
+      "en": "swell"
+     },
+     {
+      "w": "marrón",
+      "en": "brown"
+     }
+    ]
+   },
+   {
+    "text": "Mina se arrodilla junto a su palo y encuentra su bellota abierta. Una pequeña raíz blanca ha salido de ella y ya va bajando hacia la tierra.",
+    "keys": [
+     {
+      "w": "palo",
+      "en": "stick"
+     },
+     {
+      "w": "abierta",
+      "en": "split"
+     },
+     {
+      "w": "raíz",
+      "en": "root"
+     }
+    ]
+   },
+   {
+    "text": "Detrás de su punta, la raíz joven está cubierta de pelos finos. Estos absorben agua y minerales de la tierra, y la raíz se alarga cada día.",
+    "keys": [
+     {
+      "w": "punta",
+      "en": "tip"
+     },
+     {
+      "w": "pelos",
+      "en": "hairs"
+     },
+     {
+      "w": "absorben",
+      "en": "take"
+     }
+    ]
+   },
+   {
+    "text": "Las raíces pueden sentir dónde la tierra está más húmeda, y suelen crecer en esa dirección. Las raíces de un árbol a menudo se extienden más que sus ramas, y casi todas están en la capa superior del suelo.",
+    "keys": [
+     {
+      "w": "raíces",
+      "en": "roots"
+     },
+     {
+      "w": "húmeda",
+      "en": "wetter"
+     },
+     {
+      "w": "capa",
+      "en": "layer"
+     }
+    ]
+   },
+   {
+    "text": "Un pequeño brote verde sale de la bellota y abre sus primeras hojas. Está a la sombra del gran roble, adonde llega muy poca luz.",
+    "keys": [
+     {
+      "w": "brote",
+      "en": "shoot"
+     },
+     {
+      "w": "sombra",
+      "en": "shade"
+     },
+     {
+      "w": "luz",
+      "en": "light"
+     }
+    ]
+   },
+   {
+    "text": "En lo alto del dosel, el gran roble abre sus hojas nuevas. Al principio son brillantes, suaves y pequeñas, pero pronto serán la fábrica de alimento del árbol.",
+    "keys": [
+     {
+      "w": "dosel",
+      "en": "canopy"
+     },
+     {
+      "w": "brillantes",
+      "en": "bright"
+     },
+     {
+      "w": "fábrica",
+      "en": "factory"
+     }
+    ]
+   },
+   {
+    "text": "Las hojas fabrican su alimento mediante un proceso muy ingenioso llamado fotosíntesis. Con la energía de la luz del sol, convierten el agua y el dióxido de carbono del aire en azúcar, y liberan oxígeno.",
+    "keys": [
+     {
+      "w": "fotosíntesis",
+      "en": "photosynthesis"
+     },
+     {
+      "w": "azúcar",
+      "en": "sugar"
+     },
+     {
+      "w": "oxígeno",
+      "en": "oxygen"
+     }
+    ]
+   },
+   {
+    "text": "Bajo cada hoja hay poros diminutos llamados estomas. Se abren para dejar entrar el dióxido de carbono y salir el oxígeno, pero por ellos también se escapa vapor de agua.",
+    "keys": [
+     {
+      "w": "poros",
+      "en": "pores"
+     },
+     {
+      "w": "estomas",
+      "en": "stomata"
+     },
+     {
+      "w": "vapor",
+      "en": "vapour"
+     }
+    ]
+   },
+   {
+    "text": "El agua viaja de las raíces a las hojas por tubos muy delgados de la madera, llamados xilema. Cuando el agua se evapora de las hojas, arrastra tras de sí más agua hacia arriba, como una bebida por una pajilla.",
+    "keys": [
+     {
+      "w": "tubos",
+      "en": "tubes"
+     },
+     {
+      "w": "xilema",
+      "en": "xylem"
+     },
+     {
+      "w": "evapora",
+      "en": "evaporates"
+     }
+    ]
+   },
+   {
+    "text": "El azúcar que se fabrica en las hojas debe llegar al resto del árbol. Baja por otro conjunto de tubos, llamados floema, justo debajo de la corteza.",
+    "keys": [
+     {
+      "w": "azúcar",
+      "en": "sugar"
+     },
+     {
+      "w": "floema",
+      "en": "phloem"
+     },
+     {
+      "w": "corteza",
+      "en": "bark"
+     }
+    ]
+   },
+   {
+    "text": "La primavera es una época muy activa en las ramas. Los pájaros construyen nidos, las abejas visitan las flores de otros árboles, y el roble cuelga largos amentos amarillos que dejan que el viento lleve su polen.",
+    "keys": [
+     {
+      "w": "nidos",
+      "en": "nests"
+     },
+     {
+      "w": "abejas",
+      "en": "bees"
+     },
+     {
+      "w": "polen",
+      "en": "pollen"
+     }
+    ]
+   },
+   {
+    "text": "Las hojas jóvenes y suaves son sabrosas, y llegan las orugas a comérselas. Mina encuentra una hoja llena de agujeros, y Tomas explica que los árboles no pueden huir de los insectos hambrientos.",
+    "keys": [
+     {
+      "w": "sabrosas",
+      "en": "tasty"
+     },
+     {
+      "w": "orugas",
+      "en": "caterpillars"
+     },
+     {
+      "w": "agujeros",
+      "en": "holes"
+     }
+    ]
+   },
+   {
+    "text": "Cuando los insectos muerden sus hojas, algunos árboles liberan sustancias químicas en el aire. En algunos experimentos, los árboles vecinos que detectaron esas sustancias fabricaron más defensas en sus propias hojas, como si los hubieran avisado.",
+    "keys": [
+     {
+      "w": "insectos",
+      "en": "insects"
+     },
+     {
+      "w": "sustancias",
+      "en": "chemicals"
+     },
+     {
+      "w": "defensas",
+      "en": "defences"
+     }
+    ]
+   },
+   {
+    "text": "Las mismas sustancias también pueden funcionar como una llamada de auxilio. Algunas avispas diminutas y algunas aves se sienten atraídas por el olor de una hoja mordida, y atacan a las orugas.",
+    "keys": [
+     {
+      "w": "avispas",
+      "en": "wasps"
+     },
+     {
+      "w": "olor",
+      "en": "smell"
+     },
+     {
+      "w": "orugas",
+      "en": "caterpillars"
+     }
+    ]
+   },
+   {
+    "text": "A mediados del verano, los campos fuera del bosque están calientes y secos. Bajo los árboles hace más fresco, porque las hojas tapan el sol y el agua que sueltan enfría el aire.",
+    "keys": [
+     {
+      "w": "campos",
+      "en": "fields"
+     },
+     {
+      "w": "fresco",
+      "en": "cooler"
+     },
+     {
+      "w": "enfría",
+      "en": "cools"
+     }
+    ]
+   },
+   {
+    "text": "Una tormenta de verano recorre el bosque, y los altos troncos se mecen con el viento. Los árboles que el viento empuja suelen formar troncos y raíces más gruesos, así que cada tormenta es también una especie de entrenamiento.",
+    "keys": [
+     {
+      "w": "tormenta",
+      "en": "storm"
+     },
+     {
+      "w": "mecen",
+      "en": "sway"
+     },
+     {
+      "w": "entrenamiento",
+      "en": "training"
+     }
+    ]
+   },
+   {
+    "text": "Al otro lado de la colina, llegan a un lugar donde hace muchos años hubo un incendio. La gruesa corteza de algunos árboles los protegió, y ahora crecen árboles jóvenes entre los troncos ennegrecidos.",
+    "keys": [
+     {
+      "w": "incendio",
+      "en": "fire"
+     },
+     {
+      "w": "protegió",
+      "en": "protected"
+     },
+     {
+      "w": "ennegrecidos",
+      "en": "blackened"
+     }
+    ]
+   },
+   {
+    "text": "La tormenta ha derribado una enorme haya vieja, y sus raíces se levantan como un muro de tierra. Donde cayó hay un hueco en el dosel, y por primera vez en décadas la luz del sol llega al suelo.",
+    "keys": [
+     {
+      "w": "enorme",
+      "en": "huge"
+     },
+     {
+      "w": "raíces",
+      "en": "roots"
+     },
+     {
+      "w": "hueco",
+      "en": "gap"
+     }
+    ]
+   },
+   {
+    "text": "Meses después, el haya caída está cubierta de musgo, hongos y escarabajos. A medida que se pudre lentamente, alimenta el suelo, y diminutos árboles nuevos brotan a lo largo de su lomo.",
+    "keys": [
+     {
+      "w": "musgo",
+      "en": "moss"
+     },
+     {
+      "w": "escarabajos",
+      "en": "beetles"
+     },
+     {
+      "w": "pudre",
+      "en": "rots"
+     }
+    ]
+   },
+   {
+    "text": "Una tarde, Tomas le muestra a Mina un libro sobre los pinos longevos, que crecen en montañas secas y ventosas del oeste de Estados Unidos. Algunos han vivido más de cuatro mil años, y los más antiguos que se conocen tienen casi cinco mil años.",
+    "keys": [
+     {
+      "w": "libro",
+      "en": "book"
+     },
+     {
+      "w": "montañas",
+      "en": "mountains"
+     },
+     {
+      "w": "antiguos",
+      "en": "oldest"
+     }
+    ]
+   },
+   {
+    "text": "Al pasar la página, Tomas le muestra a Mina las secuoyas de la costa de California, donde los árboles más altos que se conocen miden más de cien metros. Viven donde entra la niebla del océano, y sus hojas pueden absorber parte de esa niebla como agua.",
+    "keys": [
+     {
+      "w": "secuoyas",
+      "en": "redwoods"
+     },
+     {
+      "w": "niebla",
+      "en": "fog"
+     },
+     {
+      "w": "absorber",
+      "en": "take"
+     }
+    ]
+   },
+   {
+    "text": "El otoño ha vuelto a llegar, y el roble deja caer sus hojas una vez más. Mina ahora ve un bosque donde antes solo veía árboles, y sabe cuántas cosas ocurren debajo de los colores.",
+    "keys": [
+     {
+      "w": "otoño",
+      "en": "autumn"
+     },
+     {
+      "w": "bosque",
+      "en": "forest"
+     },
+     {
+      "w": "colores",
+      "en": "colours"
+     }
+    ]
+   },
+   {
+    "text": "Mina encuentra su plántula junto al viejo palo, un año mayor y un poco más alta que su mano. Los robles crecen despacio al principio, y Tomas dice que pueden pasar muchos años antes de que llegue a la luz del dosel.",
+    "keys": [
+     {
+      "w": "plántula",
+      "en": "seedling"
+     },
+     {
+      "w": "palo",
+      "en": "stick"
+     },
+     {
+      "w": "despacio",
+      "en": "slowly"
+     }
+    ]
+   },
+   {
+    "text": "Los bosques también tienen un papel importante en el clima del mundo. Mientras crecen, los árboles sacan dióxido de carbono del aire y guardan el carbono en su madera, sus raíces y el suelo.",
+    "keys": [
+     {
+      "w": "clima",
+      "en": "climate"
+     },
+     {
+      "w": "carbono",
+      "en": "carbon"
+     },
+     {
+      "w": "raíces",
+      "en": "roots"
+     }
+    ]
+   },
+   {
+    "text": "Mina aprende que los bosques hacen mucho más que guardar carbono en su madera. Dan refugio a los animales, sujetan la tierra con sus raíces y ayudan a mantener limpios los arroyos.",
+    "keys": [
+     {
+      "w": "refugio",
+      "en": "shelter"
+     },
+     {
+      "w": "sujetan",
+      "en": "hold"
+     },
+     {
+      "w": "arroyos",
+      "en": "streams"
+     }
+    ]
+   },
+   {
+    "text": "Tomas dice que plantar árboles ayuda, sobre todo si son de los tipos correctos y están en los lugares correctos. Proteger los bosques viejos es igual de importante, porque su suelo, sus hongos y sus árboles antiguos no se pueden reemplazar fácilmente.",
+    "keys": [
+     {
+      "w": "plantar",
+      "en": "planting"
+     },
+     {
+      "w": "proteger",
+      "en": "protecting"
+     },
+     {
+      "w": "reemplazar",
+      "en": "replaced"
+     }
+    ]
+   },
+   {
+    "text": "En su último paseo, Tomas le da a Mina dos reglas sencillas. Deja la madera muerta donde está, porque muchas criaturas viven en ella, y camina con suavidad, porque la tierra aplastada es mala para las raíces.",
+    "keys": [
+     {
+      "w": "reglas",
+      "en": "rules"
+     },
+     {
+      "w": "criaturas",
+      "en": "creatures"
+     },
+     {
+      "w": "aplastada",
+      "en": "crushed"
+     }
+    ]
+   },
+   {
+    "text": "Mina recoge una buena bellota del sendero y la planta en un claro soleado al borde del bosque. Tal vez nunca la vea envejecer, pero Tomas dice que un bosque lo hacen las personas que plantan para otros.",
+    "keys": [
+     {
+      "w": "bellota",
+      "en": "acorn"
+     },
+     {
+      "w": "claro",
+      "en": "gap"
+     },
+     {
+      "w": "soleado",
+      "en": "sunny"
+     }
+    ]
+   }
+  ],
+  "C1C2": [
+   {
+    "text": "En una luminosa mañana de otoño, Mina siguió a su abuelo Tomas, un guardabosques jubilado, por un sendero que llevaba del último campo a la primera sombra de los árboles. Él le había prometido caminar con ella durante todas las estaciones de un año, para que pudiera ver cómo vive y cambia de verdad un bosque. Todo lo que estaba a punto de contarle, dijo, lo habían descubierto científicos pacientes con sus cuadernos, y ella podía preguntarle por cualquier cosa.",
+    "keys": [
+     {
+      "w": "guardabosques",
+      "en": "forester"
+     },
+     {
+      "w": "sendero",
+      "en": "path"
+     },
+     {
+      "w": "estaciones",
+      "en": "season"
+     }
+    ]
+   },
+   {
+    "text": "Sobre ellos se alzaba un roble tan viejo que Mina no podía rodear su tronco con los brazos, y en otoño dejaba caer sus bellotas como pequeñas gotas de lluvia marrones. Cada bellota es una semilla, explicó Tomas, un arbolito dormido envuelto con un poco de alimento para vivir hasta que encuentre la luz. La mayoría de ellas, añadió, nunca llegarían a ser árboles, pues hay muchas más bellotas que espacio en el bosque.",
+    "keys": [
+     {
+      "w": "tronco",
+      "en": "trunk"
+     },
+     {
+      "w": "semilla",
+      "en": "seed"
+     },
+     {
+      "w": "espacio",
+      "en": "room"
+     }
+    ]
+   },
+   {
+    "text": "Un arrendajo bajó en picada desde las ramas, recogió varias bellotas en la garganta y el pico, y se alejó volando entre los troncos para esconderlas en la tierra para el invierno. Las aves como esta suelen olvidar algunas de las semillas que entierran, dijo Tomas, y así un bosque es plantado en parte por criaturas que simplemente pierden la cuenta de sus propias provisiones. Mina lo vio alejarse y se preguntó cuántos de los grandes robles que la rodeaban habían comenzado su vida exactamente así.",
+    "keys": [
+     {
+      "w": "arrendajo",
+      "en": "jay"
+     },
+     {
+      "w": "garganta",
+      "en": "throat"
+     },
+     {
+      "w": "provisiones",
+      "en": "supplies"
+     }
+    ]
+   },
+   {
+    "text": "Mina se arrodilló junto al tronco y encontró una única bellota ya medio hundida en la tierra húmeda, con la cáscara todavía brillante. Clavó un palo a su lado para poder encontrarla de nuevo, y se hizo la silenciosa promesa de visitarla en cada estación del año. Era un comienzo pequeño, pero sintió como si sostuviera un secreto enorme.",
+    "keys": [
+     {
+      "w": "bellota",
+      "en": "acorn"
+     },
+     {
+      "w": "cáscara",
+      "en": "shell"
+     },
+     {
+      "w": "promesa",
+      "en": "promise"
+     }
+    ]
+   },
+   {
+    "text": "El verde de una hoja proviene de la clorofila, el pigmento que atrapa la luz del sol, y cuando los días se acortan el árbol deja de producirla y recupera lo que puede. Los pigmentos amarillos y anaranjados, que estuvieron todo el verano detrás del verde, quedan de pronto al descubierto. En algunos árboles se forma de nuevo un pigmento rojo en otoño, y los científicos todavía están averiguando exactamente por qué.",
+    "keys": [
+     {
+      "w": "clorofila",
+      "en": "chlorophyll"
+     },
+     {
+      "w": "pigmentos",
+      "en": "pigments"
+     },
+     {
+      "w": "rojo",
+      "en": "red"
+     }
+    ]
+   },
+   {
+    "text": "A fines del otoño, el árbol forma una delgada capa de células donde cada tallo de hoja se une a la ramita, y sella la herida mientras la hoja se suelta. Las hojas anchas atraparían la nieve y perderían un agua valiosa en el aire frío y seco, dijo Tomas, así que dejarlas caer es una manera de sobrevivir al invierno. Pronto todo el suelo del bosque fue una gruesa alfombra crujiente, y cada paso de Mina levantaba un olor a tierra.",
+    "keys": [
+     {
+      "w": "células",
+      "en": "cells"
+     },
+     {
+      "w": "herida",
+      "en": "wound"
+     },
+     {
+      "w": "alfombra",
+      "en": "carpet"
+     }
+    ]
+   },
+   {
+    "text": "Cuando Mina levantó un puñado de hojas, encontró una multitud afanosa y escondida de lombrices, escarabajos, colémbolos e hilos de hongos que iban desarmando lentamente la hoja. Nada se desperdicia en un bosque, dijo Tomas, porque lo que un año deja caer, el suelo lo devuelve a las raíces como alimento para el siguiente. Ella volvió a poner las hojas con tanto cuidado como una manta sobre un niño dormido, para que los pequeños trabajadores de abajo pudieran seguir.",
+    "keys": [
+     {
+      "w": "lombrices",
+      "en": "worms"
+     },
+     {
+      "w": "desperdicia",
+      "en": "wasted"
+     },
+     {
+      "w": "manta",
+      "en": "blanket"
+     }
+    ]
+   },
+   {
+    "text": "De pie en un claro, Tomas dibujó el bosque en el aire con las manos, empezando por el dosel, el techo soleado de hojas donde los árboles más altos tocan el cielo. Debajo, dijo, está el sotobosque de árboles jóvenes y arbustos, y más abajo el suelo sombrío de musgo, helechos y hojas caídas, y cada capa tiene su propia luz y sus propios animales. Una plántula en el suelo debe vivir años con migajas de luz, esperando su oportunidad.",
+    "keys": [
+     {
+      "w": "dosel",
+      "en": "canopy"
+     },
+     {
+      "w": "sotobosque",
+      "en": "understorey"
+     },
+     {
+      "w": "migajas",
+      "en": "scraps"
+     }
+    ]
+   },
+   {
+    "text": "La corteza se sentía como cuero agrietado bajo la palma de Mina, un abrigo rugoso hecho de células muertas que protege las capas vivas de abajo de la helada, de los insectos hambrientos, de la podredumbre y a veces incluso del fuego. Justo debajo, dijo Tomas, corre una delgada capa donde el árbol realmente crece, añadiendo un poco de madera nueva y un poco de corteza nueva cada año. Un árbol, le dijo, es un ser vivo que lleva puesta la historia de su propia protección.",
+    "keys": [
+     {
+      "w": "corteza",
+      "en": "bark"
+     },
+     {
+      "w": "agrietado",
+      "en": "cracked"
+     },
+     {
+      "w": "podredumbre",
+      "en": "rot"
+     }
+    ]
+   },
+   {
+    "text": "Junto al sendero había un tocón recién cortado, y Mina se inclinó sobre él para contar con la yema del dedo los círculos oscuros y claros. Un árbol añade una capa nueva de madera alrededor de su tronco en cada temporada de crecimiento, explicó Tomas, así que los anillos, contados desde el centro hacia afuera, dicen cuántos años vivió. Contó sesenta y un anillos, y después se quedó muy quieta un momento, pensando en todo lo que había ocurrido en esos años.",
+    "keys": [
+     {
+      "w": "tocón",
+      "en": "stump"
+     },
+     {
+      "w": "círculos",
+      "en": "circles"
+     },
+     {
+      "w": "anillos",
+      "en": "rings"
+     }
+    ]
+   },
+   {
+    "text": "Algunos de los anillos eran anchos y pálidos y otros angostos y apretados, y Tomas dijo que eran un diario que el árbol había escrito sin proponérselo. Un anillo ancho suele significar un buen año de agua y calor, uno delgado un año duro, y los científicos comparan los patrones de muchos árboles viejos para saber cómo era el clima mucho antes de que alguien lo midiera. Mina tocó el anillo más angosto con un dedo y se preguntó cómo habría sido para el árbol aquel año lejano.",
+    "keys": [
+     {
+      "w": "diario",
+      "en": "diary"
+     },
+     {
+      "w": "patrones",
+      "en": "patterns"
+     },
+     {
+      "w": "clima",
+      "en": "weather"
+     }
+    ]
+   },
+   {
+    "text": "Cuando llegó la primera nevada, Mina y Tomas caminaron con gorros de lana y botas gruesas por un bosque que casi se había quedado en silencio. Los árboles de hoja ancha estaban desnudos, con su crecimiento reducido a un hilo, y Tomas lo llamó un descanso y no un sueño, porque en lo profundo de la madera ocurrían en silencio muchísimas cosas. El aliento de Mina subía en pequeñas nubes blancas entre los troncos, y el único sonido era el crujido de sus botas sobre la nieve.",
+    "keys": [
+     {
+      "w": "gorros",
+      "en": "hats"
+     },
+     {
+      "w": "desnudos",
+      "en": "bare"
+     },
+     {
+      "w": "aliento",
+      "en": "breath"
+     }
+    ]
+   },
+   {
+    "text": "Entre los robles desnudos se alzaba un grupo de pinos, todavía de un verde oscuro, porque los árboles de hoja perenne conservan sus agujas varios años en vez de soltarlas todas cada otoño. Las agujas son delgadas, con una capa de cera que limita la pérdida de agua, y las ramas inclinadas dejan resbalar la nieve antes de que su peso pueda hacer daño. Aun así, observó Tomas, un árbol de hoja perenne pierde algunas de sus agujas más viejas cada año.",
+    "keys": [
+     {
+      "w": "pinos",
+      "en": "pines"
+     },
+     {
+      "w": "cera",
+      "en": "waxy"
+     },
+     {
+      "w": "peso",
+      "en": "weight"
+     }
+    ]
+   },
+   {
+    "text": "Mina sacudió la nieve de la parte de arriba de su palo señalador e imaginó la bellota tendida en la fría oscuridad de abajo. Muchas clases de semillas de árbol necesitan un largo periodo de frío antes de poder brotar, dijo Tomas, una protección incorporada que impide que despierten durante una semana templada en pleno invierno. La semilla, a su manera, estaba contando los días hasta la primavera, aunque no tenía ojos para ver la nieve.",
+    "keys": [
+     {
+      "w": "palo",
+      "en": "stick"
+     },
+     {
+      "w": "periodo",
+      "en": "spell"
+     },
+     {
+      "w": "protección",
+      "en": "safeguard"
+     }
+    ]
+   },
+   {
+    "text": "Había huellas que cruzaban la nieve en todas direcciones, y Mina siguió las de una ardilla hasta un lugar donde había cavado para sacar una nuez enterrada semanas antes. Las ardillas esconden muchísimas nueces, dijo Tomas, y las que se olvidan pueden quedar para brotar cuando el tiempo se vuelva cálido. Allá afuera también andaban ciervos, zorros y búhos, añadió, y el bosque invernal nunca estaba tan vacío como parecía.",
+    "keys": [
+     {
+      "w": "huellas",
+      "en": "tracks"
+     },
+     {
+      "w": "ardilla",
+      "en": "squirrel"
+     },
+     {
+      "w": "ciervos",
+      "en": "deer"
+     }
+    ]
+   },
+   {
+    "text": "Tomas dobló hacia abajo una ramita desnuda para que Mina pudiera ver los pequeños brotes bien envueltos a lo largo de ella, cada uno sellado con escamas superpuestas contra la helada. Dentro de cada brote, le dijo, el árbol había plegado meses antes las hojas de la próxima primavera, para que nada quedara librado al azar cuando volviera el calor. Ella sostuvo la ramita con mucha delicadeza, sintiendo que tenía en la mano una promesa que el bosque entero se había hecho a sí mismo.",
+    "keys": [
+     {
+      "w": "ramita",
+      "en": "twig"
+     },
+     {
+      "w": "escamas",
+      "en": "scales"
+     },
+     {
+      "w": "promesa",
+      "en": "promise"
+     }
+    ]
+   },
+   {
+    "text": "Cerca del arroyo se levantaba un alto tronco gris sin ramas y sin corteza, y sin embargo lleno de vida: un pájaro carpintero taladraba uno de sus costados, y unos viejos huecos servían de nidos. La madera muerta no es el final de la historia de un árbol, dijo Tomas, porque escarabajos, aves, murciélagos y hongos dependen de ella para alimentarse y refugiarse. A Mina le pareció un edificio de apartamentos muy concurrido, con una familia distinta viviendo detrás de cada puerta.",
+    "keys": [
+     {
+      "w": "arroyo",
+      "en": "stream"
+     },
+     {
+      "w": "taladraba",
+      "en": "drilled"
+     },
+     {
+      "w": "murciélagos",
+      "en": "bats"
+     }
+    ]
+   },
+   {
+    "text": "Tomas se arrodilló en la nieve, raspó con una palita un poco de tierra helada y le mostró a Mina una raíz cubierta por unos hilos finos y pálidos, casi demasiado delgados para verse. Pertenecen a hongos, dijo, y las más estudiadas de estas alianzas se llaman micorrizas, de unas antiguas palabras griegas que significan “hongo” y “raíz”. Mina se acercó tanto que su aliento empañó la tierra, y trató de imaginar cuántos hilos así había bajo todo el bosque.",
+    "keys": [
+     {
+      "w": "palita",
+      "en": "trowel"
+     },
+     {
+      "w": "hilos",
+      "en": "threads"
+     },
+     {
+      "w": "alianzas",
+      "en": "partnerships"
+     }
+    ]
+   },
+   {
+    "text": "Es un intercambio muy antiguo: el árbol le paga al hongo con azúcar fabricado por sus hojas, y el hongo le paga al árbol con agua y minerales como el fósforo. Los hilos del hongo, dijo Tomas, son mucho más finos que cualquier raíz, y muchos de los árboles que los rodean están asociados con hongos de esta manera, y algunos tendrían dificultades para prosperar sin ellos. Mina decidió que el suelo estaba mucho menos vacío de lo que parecía, y que todo el tiempo había estado caminando sobre un mercado.",
+    "keys": [
+     {
+      "w": "azúcar",
+      "en": "sugar"
+     },
+     {
+      "w": "fósforo",
+      "en": "phosphorus"
+     },
+     {
+      "w": "mercado",
+      "en": "market"
+     }
+    ]
+   },
+   {
+    "text": "Los hilos de un solo hongo pueden extenderse por el suelo y tocar las raíces de muchos árboles a la vez, uniéndolos en lo que la gente llama una red micorrícica. En experimentos cuidadosos, los científicos han medido carbono, nutrientes y señales químicas que pasan por esos enlaces de un árbol a otro, y los hallazgos han hecho que mucha gente piense distinto sobre un bosque. Mina imaginó una vasta red oculta bajo sus botas, uniendo en silencio cada árbol que podía ver.",
+    "keys": [
+     {
+      "w": "extenderse",
+      "en": "spread"
+     },
+     {
+      "w": "nutrientes",
+      "en": "nutrients"
+     },
+     {
+      "w": "hallazgos",
+      "en": "findings"
+     }
+    ]
+   },
+   {
+    "text": "Suzanne Simard, una científica forestal, y otros investigadores han descubierto que los árboles más viejos y más grandes suelen estar conectados con muchísimos vecinos, y por eso algunos llaman a estos gigantes árboles centrales o árboles madre. Algunos científicos piensan que un árbol así puede pasar carbono y nutrientes por los hilos de los hongos a las plántulas que crecen a su sombra, dándoles una mejor oportunidad. Tomas miró hacia el viejo roble y dijo que era una idea hermosa, y que todavía se estaba poniendo a prueba.",
+    "keys": [
+     {
+      "w": "investigadores",
+      "en": "researchers"
+     },
+     {
+      "w": "gigantes",
+      "en": "giants"
+     },
+     {
+      "w": "plántulas",
+      "en": "seedlings"
+     }
+    ]
+   },
+   {
+    "text": "Antes de irse, Tomas le pidió que escribiera en su cuaderno que los científicos coinciden en que los hongos conectan las raíces de los árboles y en que pasan algunos materiales entre ellos, pero todavía no coinciden en cuánto importa esto. Algunos investigadores piensan que la ayuda que se dan los vecinos puede ser pequeña, o que los árboles sobre todo compiten, y la buena ciencia, dijo, significa sostener una idea con suavidad hasta que se la haya puesto a prueba una y otra vez. Mina subrayó dos veces la palabra “debatido”, porque le pareció la palabra más honesta de la página.",
+    "keys": [
+     {
+      "w": "cuaderno",
+      "en": "notebook"
+     },
+     {
+      "w": "compiten",
+      "en": "competing"
+     },
+     {
+      "w": "honesta",
+      "en": "honest"
+     }
+    ]
+   },
+   {
+    "text": "La primavera se fue colando a medida que los días se alargaban y la tierra se calentaba, y los árboles, que habían descansado durante meses, empezaron a moverse. La savia subió por los troncos, los brotes se hincharon y se abrieron, y una tenue bruma verde se extendió por las ramas hasta que todo el bosque pareció exhalar. Mina corrió por delante por el sendero, ansiosa por saber si su bellota había sobrevivido.",
+    "keys": [
+     {
+      "w": "savia",
+      "en": "sap"
+     },
+     {
+      "w": "tenue",
+      "en": "faint"
+     },
+     {
+      "w": "ansiosa",
+      "en": "desperate"
+     }
+    ]
+   },
+   {
+    "text": "Junto al palo señalador, Mina encontró su bellota abierta, y de la grieta había salido hacia la tierra una raíz pálida, fina como un hilo y que ya se volvía hacia abajo. Lo primero que hace una semilla, le dijo Tomas, es anclarse y encontrar agua, porque un brote diminuto no puede hacer nada sin la raíz que lo alimenta. Se rio en voz alta en el bosque vacío, y el sonido espantó a un chochín de entre los arbustos.",
+    "keys": [
+     {
+      "w": "grieta",
+      "en": "crack"
+     },
+     {
+      "w": "anclarse",
+      "en": "anchor"
+     },
+     {
+      "w": "chochín",
+      "en": "wren"
+     }
+    ]
+   },
+   {
+    "text": "Cerca de su punta, la raíz estaba cubierta de pelos radiculares microscópicos, cada uno una sola célula que se metía entre los granos de tierra para beber agua y minerales disueltos. Un árbol adulto tiene incontables puntas así, dijo Tomas, y juntas funcionan como una esponja enorme y paciente. Mina se acercó con su lupa, pero los pelos eran demasiado finos incluso para eso.",
+    "keys": [
+     {
+      "w": "microscópicos",
+      "en": "microscopic"
+     },
+     {
+      "w": "célula",
+      "en": "cell"
+     },
+     {
+      "w": "esponja",
+      "en": "sponge"
+     }
+    ]
+   },
+   {
+    "text": "Con un palo, Tomas dibujó en el polvo las raíces del roble, que no se hundían rectas como una zanahoria, como Mina había esperado, sino que se extendían anchas y poco profundas, a menudo más lejos de lo que llegan las ramas. Las raíces crecen hacia la humedad y se alejan del suelo duro y seco, dijo, y avanzan a tientas por diferencias diminutas de la tierra, como una mano que busca en la oscuridad. Mina miró el dibujo y luego el gran tronco, tratando de imaginar la mitad oculta del árbol.",
+    "keys": [
+     {
+      "w": "zanahoria",
+      "en": "carrot"
+     },
+     {
+      "w": "humedad",
+      "en": "moisture"
+     },
+     {
+      "w": "oscuridad",
+      "en": "dark"
+     }
+    ]
+   },
+   {
+    "text": "En unos días, un brote había salido de la tierra junto al palo, desplegando dos o tres hojitas del color de la lechuga fresca. Estaba en la sombra profunda del gran roble, adonde solo llegaban destellos de luz al suelo, y Tomas dijo que muchas plántulas pueden esperar allí durante años. Creciendo un poco cada vez, esperan un hueco en el dosel, añadió Tomas, y Mina le prometió a su plántula que ella también sería paciente.",
+    "keys": [
+     {
+      "w": "brote",
+      "en": "shoot"
+     },
+     {
+      "w": "lechuga",
+      "en": "lettuce"
+     },
+     {
+      "w": "hueco",
+      "en": "gap"
+     }
+    ]
+   },
+   {
+    "text": "En lo alto, el gran roble desplegó sus hojas, suaves y brillantes y arrugadas como papel que hubiera estado muy doblado, y la luz bajo el dosel se volvió de un verde claro y tembloroso. Cada hoja, dijo Tomas, es una pequeña fábrica que debe trabajar duro desde el momento en que se abre. Mina echó la cabeza hacia atrás hasta que le dolió el cuello, y miró cómo la luz titilaba entre las hojas nuevas.",
+    "keys": [
+     {
+      "w": "arrugadas",
+      "en": "crinkled"
+     },
+     {
+      "w": "fábrica",
+      "en": "factory"
+     },
+     {
+      "w": "titilaba",
+      "en": "flicker"
+     }
+    ]
+   },
+   {
+    "text": "Tomas levantó una hoja hacia el sol y explicó la fotosíntesis: con la energía de la luz, la clorofila verde que hay dentro de la hoja fabrica azúcar a partir del agua del suelo y del dióxido de carbono del aire. El árbol usa ese azúcar para crecer, para repararse y para dar energía a todo lo que hace, y el oxígeno que sobra se escapa al aire que respiran los animales. Mina comprendió que un árbol está hecho, en un grado sorprendente, de aire y de luz.",
+    "keys": [
+     {
+      "w": "fotosíntesis",
+      "en": "photosynthesis"
+     },
+     {
+      "w": "repararse",
+      "en": "repair"
+     },
+     {
+      "w": "oxígeno",
+      "en": "oxygen"
+     }
+    ]
+   },
+   {
+    "text": "Con su lupa, Mina vio que el envés de la hoja estaba salpicado de poros minúsculos llamados estomas, cada uno capaz de abrirse y cerrarse como un diminuto par de labios. Dejan entrar el dióxido de carbono y salir el oxígeno, pero también dejan escapar vapor de agua, un costo que el árbol debe equilibrar siempre, cerrándolos cuando el aire está seco y al suelo le falta agua. Mina contuvo la respiración, esperando casi que la hoja le respondiera, y luego se rio de sí misma por haberse quedado tan callada.",
+    "keys": [
+     {
+      "w": "poros",
+      "en": "pores"
+     },
+     {
+      "w": "labios",
+      "en": "lips"
+     },
+     {
+      "w": "vapor",
+      "en": "vapour"
+     }
+    ]
+   },
+   {
+    "text": "El agua que absorben las raíces sube por estrechos tubos de la madera llamados xilema, hasta las hojas más altas, sin ningún corazón que la bombee. A medida que el agua se evapora de las hojas, tira del agua que va detrás en una cadena ininterrumpida, porque las moléculas de agua se adhieren unas a otras, y así toda la columna es succionada hacia arriba como una bebida por una pajilla larguísima. Mina apoyó la oreja en el tronco, con la esperanza de oír el agua subir, pero el roble guardó su secreto.",
+    "keys": [
+     {
+      "w": "xilema",
+      "en": "xylem"
+     },
+     {
+      "w": "moléculas",
+      "en": "molecules"
+     },
+     {
+      "w": "columna",
+      "en": "column"
+     }
+    ]
+   },
+   {
+    "text": "El azúcar que se fabrica en las hojas tiene que compartirse con todo el árbol, y viaja hacia abajo por un segundo conjunto de tubos vivos, el floema, que está justo debajo de la corteza. Raíces, tronco y socios fúngicos se alimentan de este lento río de dulzura, y por eso cortar un anillo en la corteza puede matar de hambre a las raíces aunque la madera de dentro quede intacta. Mina retiró la mano del tronco, con mucho respeto, como si hubiera interrumpido algo importante.",
+    "keys": [
+     {
+      "w": "floema",
+      "en": "phloem"
+     },
+     {
+      "w": "socios",
+      "en": "partners"
+     },
+     {
+      "w": "respeto",
+      "en": "respectfully"
+     }
+    ]
+   },
+   {
+    "text": "Las ramas se habían llenado de vida: un par de herrerillos llevaba musgo a un hueco del tronco, las abejas trabajaban las flores de un cerezo silvestre, y el propio roble colgaba largos amentos amarillos. El roble no depende de los insectos, dijo Tomas, porque esparce su polen con el viento, y con suerte algunos granos llegarán a las flores de otro roble y empezarán las bellotas del año próximo. Mina estornudó, y él se rio y dijo que ahora ella era parte del proceso.",
+    "keys": [
+     {
+      "w": "herrerillos",
+      "en": "tits"
+     },
+     {
+      "w": "cerezo",
+      "en": "cherry"
+     },
+     {
+      "w": "amentos",
+      "en": "catkins"
+     }
+    ]
+   },
+   {
+    "text": "Mina encontró una hoja tan carcomida de agujeros que parecía encaje, y sobre ella estaba una gorda oruga verde, todavía masticando. Un árbol no puede huir ni esconderse, dijo Tomas, así que tiene que defenderse donde está, y a lo largo de mucho tiempo los árboles han desarrollado una asombrosa variedad de defensas. En muchas especies estas incluyen sustancias amargas en las hojas, que las hacen menos agradables, y a veces menos seguras, de comer.",
+    "keys": [
+     {
+      "w": "encaje",
+      "en": "lace"
+     },
+     {
+      "w": "oruga",
+      "en": "caterpillar"
+     },
+     {
+      "w": "amargas",
+      "en": "bitter"
+     }
+    ]
+   },
+   {
+    "text": "Cuando se muerde una hoja, algunos árboles liberan una nube de sustancias químicas en el aire, y en experimentos de laboratorio y de campo, las plantas vecinas que las detectaron han respondido a veces reforzando sus propias defensas. Si esto cuenta como una advertencia, en el sentido de un mensaje enviado a propósito, es algo que los científicos todavía discuten, pues las sustancias podrían ser simplemente un subproducto de la herida. Tomas sonrió y dijo que, en cualquier caso, mostraba que los árboles son mucho más sensibles de lo que parecen.",
+    "keys": [
+     {
+      "w": "advertencia",
+      "en": "warning"
+     },
+     {
+      "w": "subproducto",
+      "en": "by-product"
+     },
+     {
+      "w": "sensibles",
+      "en": "sensitive"
+     }
+    ]
+   },
+   {
+    "text": "Las mismas sustancias del aire pueden cumplir una segunda tarea, porque algunos estudios muestran que ciertas avispas y aves que se alimentan de insectos se sienten atraídas por el olor de una hoja dañada, y cazan a las orugas responsables. De esta manera, un árbol atacado parece llamar a sus propios defensores, aunque es más exacto decir que los animales han aprendido a leer las señales. Mina se preguntó si un bosque se parecía menos a una multitud de extraños y más a una aldea.",
+    "keys": [
+     {
+      "w": "avispas",
+      "en": "wasps"
+     },
+     {
+      "w": "defensores",
+      "en": "defenders"
+     },
+     {
+      "w": "aldea",
+      "en": "village"
+     }
+    ]
+   },
+   {
+    "text": "A mediados del verano, los campos más allá de los árboles se estremecían de calor, pero bajo el dosel el aire se sentía fresco y húmedo, como si hubieran entrado en otro país. Las hojas dan una sombra profunda, y el agua que sueltan como vapor se lleva calor al evaporarse, de modo que un bosque funciona como un aire acondicionado natural para las criaturas que se refugian en él. Tomas se sentó en una raíz y soltó un largo suspiro de satisfacción, y Mina se sentó a su lado y bebió de su botella.",
+    "keys": [
+     {
+      "w": "campos",
+      "en": "fields"
+     },
+     {
+      "w": "sombra",
+      "en": "shade"
+     },
+     {
+      "w": "suspiro",
+      "en": "sigh"
+     }
+    ]
+   },
+   {
+    "text": "Una tarde, una tormenta de verano rodó sobre las colinas, y Mina y Tomas miraron desde un refugio de roca cómo las copas de los árboles se mecían y rugían. Los árboles que el viento sacude con regularidad tienden a crecer más bajos y gruesos, con troncos y raíces más fuertes, dijo Tomas, de modo que un árbol protegido puede ser más frágil que uno que ha soportado muchos vendavales. Cuando paró la lluvia, todo el bosque goteaba y brillaba, y el aire olía intensamente a hojas mojadas y a tierra.",
+    "keys": [
+     {
+      "w": "tormenta",
+      "en": "storm"
+     },
+     {
+      "w": "vendavales",
+      "en": "gales"
+     },
+     {
+      "w": "goteaba",
+      "en": "dripped"
+     }
+    ]
+   },
+   {
+    "text": "Más allá del arroyo el bosque cambiaba, pues allí había pasado un viejo incendio, dejando troncos ennegrecidos y un suelo repleto de plantas jóvenes y brillantes. El fuego es una parte natural de muchos bosques, explicó Tomas, y algunos árboles lo sobreviven gracias a su corteza gruesa, mientras que unos pocos pinos guardan sus semillas en piñas que solo se abren con el calor. Pero el fuego también es peligroso, añadió, y muchísimos incendios de hoy los provocan las personas.",
+    "keys": [
+     {
+      "w": "incendio",
+      "en": "fire"
+     },
+     {
+      "w": "ennegrecidos",
+      "en": "blackened"
+     },
+     {
+      "w": "piñas",
+      "en": "cones"
+     }
+    ]
+   },
+   {
+    "text": "De camino a casa se encontraron con un enorme haya que la tormenta había derribado, con las raíces erguidas como un muro de tierra arrancado del suelo y con piedras todavía atrapadas en el enredo. Donde había estado el árbol había ahora un claro luminoso en el dosel, y la luz caía a raudales sobre un suelo que había vivido en la sombra durante décadas. Tomas se vio triste un instante, y luego dijo que para los árboles jóvenes que esperaban abajo, este era el mejor día de su vida.",
+    "keys": [
+     {
+      "w": "haya",
+      "en": "beech"
+     },
+     {
+      "w": "raíces",
+      "en": "roots"
+     },
+     {
+      "w": "décadas",
+      "en": "decades"
+     }
+    ]
+   },
+   {
+    "text": "Los hongos, los escarabajos y las bacterias ya se habían puesto a trabajar en el tronco caído, que tardaría años, incluso décadas, en pudrirse por completo, y el musgo y unos hongos vistosos se extendían a lo largo de él. La descomposición no es lo contrario de la vida, dijo Tomas, sino la manera en que un bosque recicla su riqueza, devolviendo poco a poco al suelo los nutrientes atrapados en la madera. Las plántulas suelen brotar a lo largo de un tronco podrido como en un estante de vivero, añadió, y Mina escribió las palabras “árbol nodriza” en su cuaderno y dibujó un arbolito que crecía de uno.",
+    "keys": [
+     {
+      "w": "bacterias",
+      "en": "bacteria"
+     },
+     {
+      "w": "descomposición",
+      "en": "decay"
+     },
+     {
+      "w": "vivero",
+      "en": "nursery"
+     }
+    ]
+   },
+   {
+    "text": "Una noche, a la luz de la lámpara, Tomas abrió un libro en una página que mostraba un pino longevo, con el tronco retorcido y plateado por el viento y las raíces aferradas a una ladera árida y desnuda en el oeste de Estados Unidos. Algunos de estos árboles han vivido más de cuatro mil años, y los más antiguos que se conocen tienen casi cinco mil años. Crecen despacio en suelo pobre, dijo, y esa lentitud, junto con su madera dura y rica en resina, puede ser parte de su secreto.",
+    "keys": [
+     {
+      "w": "lámpara",
+      "en": "lamplight"
+     },
+     {
+      "w": "retorcido",
+      "en": "twisted"
+     },
+     {
+      "w": "plateado",
+      "en": "silvered"
+     }
+    ]
+   },
+   {
+    "text": "La página siguiente mostraba las secuoyas de la costa de California, y las más altas que se conocen se elevan más de cien metros desde el suelo del bosque, más que un rascacielos de unos treinta pisos. Estos gigantes viven a lo largo de una franja donde llega desde el Pacífico una niebla fría, y las investigaciones han demostrado que pueden beber parte de esa niebla por las hojas. Tomas añadió que es un buen truco para un árbol cuyas ramas más altas están tan lejos de sus raíces, y Mina trató de imaginar cómo sería estar al pie de uno.",
+    "keys": [
+     {
+      "w": "secuoyas",
+      "en": "redwoods"
+     },
+     {
+      "w": "rascacielos",
+      "en": "skyscraper"
+     },
+     {
+      "w": "niebla",
+      "en": "fog"
+     }
+    ]
+   },
+   {
+    "text": "El otoño volvió a llegar, y el roble dejó caer sus hojas exactamente como un año antes, aunque ahora Mina podía nombrar casi todo lo que ocurría en su interior. Ya no veía una multitud de árboles separados, sino una comunidad lenta y enredada de raíces, hongos, insectos, aves y podredumbre, todos dependientes unos de otros. Tomas caminaba un poco detrás de ella y la dejaba guiar, como había empezado a hacer unas semanas antes sin decirlo.",
+    "keys": [
+     {
+      "w": "comunidad",
+      "en": "community"
+     },
+     {
+      "w": "enredada",
+      "en": "tangled"
+     },
+     {
+      "w": "guiar",
+      "en": "lead"
+     }
+    ]
+   },
+   {
+    "text": "El palo se había desteñido hasta quedar gris, pero la plántula que estaba a su lado era verde y erguida, un año mayor y quizá un palmo más alta, con una yema ya formada para la primavera. Había sobrevivido a la helada, a los animales hambrientos y a la sombra profunda, y Tomas le recordó que la mayoría de las bellotas nunca llegan tan lejos, de modo que el roble que estaba sobre ellos solo había necesitado que triunfaran una o dos de sus muchas bellotas. Mina la comparó con su palma, y aunque apenas era más grande que su mano, se sintió orgullosa sin razón.",
+    "keys": [
+     {
+      "w": "desteñido",
+      "en": "faded"
+     },
+     {
+      "w": "sobrevivido",
+      "en": "survived"
+     },
+     {
+      "w": "orgullosa",
+      "en": "proud"
+     }
+    ]
+   },
+   {
+    "text": "La fotosíntesis tiene una consecuencia que va mucho más allá del bosque: al crecer, los árboles sacan dióxido de carbono del aire y encierran el carbono en sus troncos, ramas, raíces y en el suelo que los rodea. Por eso los bosques actúan como grandes reservas de carbono, y cuando se queman, se talan o se dejan secar, una parte de él vuelve al aire como el mismo gas que está calentando el planeta. Tomas dijo en voz baja que mantener en pie los bosques viejos es una de las cosas más útiles que pueden hacer las personas, aunque no puede reemplazar el recorte de la contaminación.",
+    "keys": [
+     {
+      "w": "consecuencia",
+      "en": "consequence"
+     },
+     {
+      "w": "reservas",
+      "en": "stores"
+     },
+     {
+      "w": "contaminación",
+      "en": "pollution"
+     }
+    ]
+   },
+   {
+    "text": "Mina había llegado a entender que un bosque es mucho más que una multitud de árboles, pues da refugio a incontables animales, sujeta la tierra con sus raíces y ayuda a mantener los arroyos claros y limpios. La lluvia que cae sobre una ladera arbolada es frenada por las hojas y absorbida por el suelo, dijo Tomas, en lugar de salir corriendo de golpe. Vio a un ciervo bajar la cabeza para beber y trató de no moverse.",
+    "keys": [
+     {
+      "w": "refugio",
+      "en": "shelters"
+     },
+     {
+      "w": "ladera",
+      "en": "slope"
+     },
+     {
+      "w": "ciervo",
+      "en": "deer"
+     }
+    ]
+   },
+   {
+    "text": "Tomas le dijo que plantar árboles es algo muy bueno, siempre que se planten los tipos adecuados en los lugares adecuados y se cuiden durante años. Proteger los bosques que ya existen importa igual de mucho, porque un bosque viejo guarda suelo, hilos de hongos y árboles antiguos que ninguna plantación puede reemplazar en una vida. Dijo que todo bosque, por pequeño que sea, merece un defensor, y que ella podía empezar por el que estaba al final de su propia calle.",
+    "keys": [
+     {
+      "w": "plantar",
+      "en": "planting"
+     },
+     {
+      "w": "defensor",
+      "en": "defender"
+     },
+     {
+      "w": "calle",
+      "en": "street"
+     }
+    ]
+   },
+   {
+    "text": "Antes de volver a casa, Tomas le dio dos reglas que un guardabosques aprende pronto: deja la madera muerta donde está, y camina con suavidad. La madera muerta alimenta a innumerables criaturas y hongos, explicó, y el suelo aplastado por muchas botas se vuelve duro para que crezcan las raíces, así que ambas reglas eran en realidad sobre el respeto. Eran reglas pequeñas, admitió, y Mina las repitió en voz alta dos veces, como si aprendiera un hechizo.",
+    "keys": [
+     {
+      "w": "reglas",
+      "en": "rules"
+     },
+     {
+      "w": "aplastado",
+      "en": "crushed"
+     },
+     {
+      "w": "hechizo",
+      "en": "spell"
+     }
+    ]
+   },
+   {
+    "text": "Mina eligió una bellota sana del sendero, la hundió en la tierra blanda al borde del bosque y clavó un palo nuevo a su lado, igual que había hecho un año antes. Sería vieja antes de que llegara a ser tan alta como el gran roble, y quizá esta semilla nunca lo lograra, pero sintió que se había unido a algo mucho más grande que ella misma. Tomas le puso una mano en el hombro, y sobre ellos el bosque siguió creciendo en silencio.",
+    "keys": [
+     {
+      "w": "bellota",
+      "en": "acorn"
+     },
+     {
+      "w": "semilla",
+      "en": "seed"
+     },
+     {
+      "w": "hombro",
+      "en": "shoulder"
+     }
+    ]
+   }
+  ]
+ }
+}

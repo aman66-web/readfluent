@@ -1,0 +1,2564 @@
+{
+ "slug": "alice-s-adventures-in-wonderland",
+ "lang": "es",
+ "title": "Alicia en el país de las maravillas",
+ "blurb": "Sigue a una niña aburrida y a un Conejo Blanco muy retrasado por un agujero hasta un mundo donde los pasteles te hacen crecer, los gatos se desvanecen y una Reina quiere la cabeza de todos. El sueño de Lewis Carroll es divertido, extraño e inolvidable.",
+ "levels": {
+  "A1A2": [
+   {
+    "text": "Alice se sienta junto al río con su hermana, y se siente muy aburrida.",
+    "keys": [
+     {
+      "w": "aburrida",
+      "en": "bored"
+     },
+     {
+      "w": "río",
+      "en": "river"
+     },
+     {
+      "w": "hermana",
+      "en": "sister"
+     }
+    ]
+   },
+   {
+    "text": "El Conejo Blanco corre junto a Alice y dice: “¡Llego tarde!”",
+    "keys": [
+     {
+      "w": "corre",
+      "en": "runs"
+     },
+     {
+      "w": "dice",
+      "en": "says"
+     },
+     {
+      "w": "tarde",
+      "en": "late"
+     }
+    ]
+   },
+   {
+    "text": "Alice corre tras el conejo y salta a un gran agujero.",
+    "keys": [
+     {
+      "w": "corre",
+      "en": "runs"
+     },
+     {
+      "w": "salta",
+      "en": "jumps"
+     },
+     {
+      "w": "agujero",
+      "en": "hole"
+     }
+    ]
+   },
+   {
+    "text": "Alice cae, cae y cae, y piensa en su gata Dinah.",
+    "keys": [
+     {
+      "w": "cae",
+      "en": "falls"
+     },
+     {
+      "w": "piensa",
+      "en": "thinks"
+     },
+     {
+      "w": "gata",
+      "en": "cat"
+     }
+    ]
+   },
+   {
+    "text": "Aterriza en un salón largo con muchas puertas, pero todas están cerradas.",
+    "keys": [
+     {
+      "w": "aterriza",
+      "en": "lands"
+     },
+     {
+      "w": "puertas",
+      "en": "doors"
+     },
+     {
+      "w": "cerradas",
+      "en": "shut"
+     }
+    ]
+   },
+   {
+    "text": "Alice encuentra una pequeña llave de oro, y abre una puerta muy chica.",
+    "keys": [
+     {
+      "w": "llave",
+      "en": "key"
+     },
+     {
+      "w": "oro",
+      "en": "gold"
+     },
+     {
+      "w": "abre",
+      "en": "opens"
+     }
+    ]
+   },
+   {
+    "text": "Alice bebe de una botellita, y de pronto se vuelve muy pequeña.",
+    "keys": [
+     {
+      "w": "bebe",
+      "en": "drinks"
+     },
+     {
+      "w": "botellita",
+      "en": "bottle"
+     },
+     {
+      "w": "pequeña",
+      "en": "small"
+     }
+    ]
+   },
+   {
+    "text": "Ahora la llave está sobre una mesa alta, y Alice no puede alcanzarla.",
+    "keys": [
+     {
+      "w": "mesa",
+      "en": "table"
+     },
+     {
+      "w": "alta",
+      "en": "high"
+     },
+     {
+      "w": "alcanzarla",
+      "en": "reach"
+     }
+    ]
+   },
+   {
+    "text": "Alice come un pastel pequeño, y crece cada vez más alta.",
+    "keys": [
+     {
+      "w": "come",
+      "en": "eats"
+     },
+     {
+      "w": "pastel",
+      "en": "cake"
+     },
+     {
+      "w": "crece",
+      "en": "grows"
+     }
+    ]
+   },
+   {
+    "text": "Alice es muy grande y está triste, y sus lágrimas forman un gran charco.",
+    "keys": [
+     {
+      "w": "lágrimas",
+      "en": "tears"
+     },
+     {
+      "w": "charco",
+      "en": "pool"
+     },
+     {
+      "w": "triste",
+      "en": "sad"
+     }
+    ]
+   },
+   {
+    "text": "El conejo deja caer sus guantes y se va corriendo, y Alice vuelve a ser pequeña.",
+    "keys": [
+     {
+      "w": "guantes",
+      "en": "gloves"
+     },
+     {
+      "w": "conejo",
+      "en": "rabbit"
+     },
+     {
+      "w": "pequeña",
+      "en": "small"
+     }
+    ]
+   },
+   {
+    "text": "Alice nada en el charco con un ratón y muchos otros animales.",
+    "keys": [
+     {
+      "w": "nada",
+      "en": "swims"
+     },
+     {
+      "w": "ratón",
+      "en": "mouse"
+     },
+     {
+      "w": "animales",
+      "en": "animals"
+     }
+    ]
+   },
+   {
+    "text": "El Dodo hace que todos corran en un gran círculo para secarse.",
+    "keys": [
+     {
+      "w": "círculo",
+      "en": "circle"
+     },
+     {
+      "w": "secarse",
+      "en": "dry"
+     },
+     {
+      "w": "corran",
+      "en": "run"
+     }
+    ]
+   },
+   {
+    "text": "El Dodo dice que todos han ganado, y Alice les da un dulce a cada uno.",
+    "keys": [
+     {
+      "w": "ganado",
+      "en": "won"
+     },
+     {
+      "w": "dulce",
+      "en": "sweet"
+     },
+     {
+      "w": "dice",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "text": "El conejo regresa y le dice a Alice: “¡Ve y trae mis guantes!”",
+    "keys": [
+     {
+      "w": "trae",
+      "en": "get"
+     },
+     {
+      "w": "guantes",
+      "en": "gloves"
+     },
+     {
+      "w": "conejo",
+      "en": "rabbit"
+     }
+    ]
+   },
+   {
+    "text": "En su casa, Alice bebe otra vez y se vuelve demasiado grande para el cuarto.",
+    "keys": [
+     {
+      "w": "casa",
+      "en": "house"
+     },
+     {
+      "w": "grande",
+      "en": "big"
+     },
+     {
+      "w": "cuarto",
+      "en": "room"
+     }
+    ]
+   },
+   {
+    "text": "Bill el Lagarto baja por la chimenea, pero Alice lo patea y lo saca.",
+    "keys": [
+     {
+      "w": "chimenea",
+      "en": "chimney"
+     },
+     {
+      "w": "patea",
+      "en": "kicks"
+     },
+     {
+      "w": "baja",
+      "en": "goes"
+     }
+    ]
+   },
+   {
+    "text": "Alice come un pastelito, se hace pequeña y corre hacia el bosque.",
+    "keys": [
+     {
+      "w": "bosque",
+      "en": "wood"
+     },
+     {
+      "w": "pequeña",
+      "en": "small"
+     },
+     {
+      "w": "pastelito",
+      "en": "cake"
+     }
+    ]
+   },
+   {
+    "text": "Una Oruga azul sobre un hongo le pregunta a Alice: “¿Quién eres?”",
+    "keys": [
+     {
+      "w": "hongo",
+      "en": "mushroom"
+     },
+     {
+      "w": "azul",
+      "en": "blue"
+     },
+     {
+      "w": "pregunta",
+      "en": "asks"
+     }
+    ]
+   },
+   {
+    "text": "La Oruga dice que un lado la hace grande y el otro la hace pequeña.",
+    "keys": [
+     {
+      "w": "lado",
+      "en": "side"
+     },
+     {
+      "w": "grande",
+      "en": "big"
+     },
+     {
+      "w": "pequeña",
+      "en": "small"
+     }
+    ]
+   },
+   {
+    "text": "El cuello de Alice se pone muy largo, y un pájaro enojado cree que ella es una serpiente.",
+    "keys": [
+     {
+      "w": "cuello",
+      "en": "neck"
+     },
+     {
+      "w": "pájaro",
+      "en": "bird"
+     },
+     {
+      "w": "serpiente",
+      "en": "snake"
+     }
+    ]
+   },
+   {
+    "text": "Alice entra en una casa pequeña, y la cocina está llena de pimienta.",
+    "keys": [
+     {
+      "w": "cocina",
+      "en": "kitchen"
+     },
+     {
+      "w": "pimienta",
+      "en": "pepper"
+     },
+     {
+      "w": "casa",
+      "en": "house"
+     }
+    ]
+   },
+   {
+    "text": "La Duquesa le da su bebé a Alice, pero el bebé se convierte en un cerdo.",
+    "keys": [
+     {
+      "w": "bebé",
+      "en": "baby"
+     },
+     {
+      "w": "cerdo",
+      "en": "pig"
+     },
+     {
+      "w": "convierte",
+      "en": "turns"
+     }
+    ]
+   },
+   {
+    "text": "Alice deja al cerdo en el suelo, y él se va caminando hacia el bosque.",
+    "keys": [
+     {
+      "w": "cerdo",
+      "en": "pig"
+     },
+     {
+      "w": "caminando",
+      "en": "walks"
+     },
+     {
+      "w": "bosque",
+      "en": "wood"
+     }
+    ]
+   },
+   {
+    "text": "El Gato de Cheshire se sienta en un árbol y sonríe con una sonrisa muy grande.",
+    "keys": [
+     {
+      "w": "sonríe",
+      "en": "smiles"
+     },
+     {
+      "w": "sonrisa",
+      "en": "smile"
+     },
+     {
+      "w": "árbol",
+      "en": "tree"
+     }
+    ]
+   },
+   {
+    "text": "El Gato dice que el Sombrerero y la Liebre de Marzo están locos, y luego desaparece.",
+    "keys": [
+     {
+      "w": "locos",
+      "en": "mad"
+     },
+     {
+      "w": "desaparece",
+      "en": "disappears"
+     },
+     {
+      "w": "dice",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "text": "Alice ve al Sombrerero Loco, a la Liebre de Marzo y al Lirón tomando el té.",
+    "keys": [
+     {
+      "w": "ve",
+      "en": "sees"
+     },
+     {
+      "w": "té",
+      "en": "tea"
+     },
+     {
+      "w": "loco",
+      "en": "mad"
+     }
+    ]
+   },
+   {
+    "text": "El Sombrerero hace una pregunta extraña, pero nadie sabe la respuesta.",
+    "keys": [
+     {
+      "w": "pregunta",
+      "en": "question"
+     },
+     {
+      "w": "extraña",
+      "en": "strange"
+     },
+     {
+      "w": "respuesta",
+      "en": "answer"
+     }
+    ]
+   },
+   {
+    "text": "Allí siempre son las seis, así que nunca dejan de tomar té.",
+    "keys": [
+     {
+      "w": "siempre",
+      "en": "always"
+     },
+     {
+      "w": "nunca",
+      "en": "never"
+     },
+     {
+      "w": "té",
+      "en": "tea"
+     }
+    ]
+   },
+   {
+    "text": "Alice encuentra una puerta en un árbol y por fin entra en el hermoso jardín.",
+    "keys": [
+     {
+      "w": "puerta",
+      "en": "door"
+     },
+     {
+      "w": "jardín",
+      "en": "garden"
+     },
+     {
+      "w": "hermoso",
+      "en": "lovely"
+     }
+    ]
+   },
+   {
+    "text": "Tres jardineros pintan de rojo unas rosas blancas, porque la Reina quiere rosas rojas.",
+    "keys": [
+     {
+      "w": "jardineros",
+      "en": "gardeners"
+     },
+     {
+      "w": "pintan",
+      "en": "painting"
+     },
+     {
+      "w": "rosas",
+      "en": "roses"
+     }
+    ]
+   },
+   {
+    "text": "Pasan unos soldados, y luego llegan el Rey y la Reina de Corazones.",
+    "keys": [
+     {
+      "w": "soldados",
+      "en": "soldiers"
+     },
+     {
+      "w": "llegan",
+      "en": "arrive"
+     },
+     {
+      "w": "pasan",
+      "en": "walk"
+     }
+    ]
+   },
+   {
+    "text": "La Reina mira a Alice y grita: “¡Que le corten la cabeza!”",
+    "keys": [
+     {
+      "w": "grita",
+      "en": "shouts"
+     },
+     {
+      "w": "cabeza",
+      "en": "head"
+     },
+     {
+      "w": "mira",
+      "en": "looks"
+     }
+    ]
+   },
+   {
+    "text": "En el juego de la Reina, los pájaros son los bastones y los animalitos son las pelotas.",
+    "keys": [
+     {
+      "w": "pájaros",
+      "en": "birds"
+     },
+     {
+      "w": "bastones",
+      "en": "sticks"
+     },
+     {
+      "w": "pelotas",
+      "en": "balls"
+     }
+    ]
+   },
+   {
+    "text": "La cabeza del Gato de Cheshire aparece en el aire, y la Reina se enoja mucho.",
+    "keys": [
+     {
+      "w": "cabeza",
+      "en": "head"
+     },
+     {
+      "w": "aire",
+      "en": "air"
+     },
+     {
+      "w": "enoja",
+      "en": "angry"
+     }
+    ]
+   },
+   {
+    "text": "La Duquesa habla con Alice y es amable, pero la Reina la manda lejos.",
+    "keys": [
+     {
+      "w": "habla",
+      "en": "talks"
+     },
+     {
+      "w": "amable",
+      "en": "kind"
+     },
+     {
+      "w": "manda",
+      "en": "sends"
+     }
+    ]
+   },
+   {
+    "text": "Alice conoce a un Grifo, y él la lleva con una Tortuga Falsa muy triste.",
+    "keys": [
+     {
+      "w": "conoce",
+      "en": "meets"
+     },
+     {
+      "w": "lleva",
+      "en": "takes"
+     },
+     {
+      "w": "triste",
+      "en": "sad"
+     }
+    ]
+   },
+   {
+    "text": "La Tortuga Falsa le cuenta a Alice sobre su vieja escuela bajo el mar.",
+    "keys": [
+     {
+      "w": "escuela",
+      "en": "school"
+     },
+     {
+      "w": "mar",
+      "en": "sea"
+     },
+     {
+      "w": "cuenta",
+      "en": "tells"
+     }
+    ]
+   },
+   {
+    "text": "El Grifo y la Tortuga Falsa bailan un baile divertido con langostas.",
+    "keys": [
+     {
+      "w": "bailan",
+      "en": "dance"
+     },
+     {
+      "w": "divertido",
+      "en": "funny"
+     },
+     {
+      "w": "langostas",
+      "en": "lobsters"
+     }
+    ]
+   },
+   {
+    "text": "El Rey y la Reina se sientan en lo alto, y la Sota de Corazones está de pie abajo.",
+    "keys": [
+     {
+      "w": "sientan",
+      "en": "sit"
+     },
+     {
+      "w": "alto",
+      "en": "high"
+     },
+     {
+      "w": "abajo",
+      "en": "below"
+     }
+    ]
+   },
+   {
+    "text": "El Conejo Blanco dice que la Sota de Corazones se llevó los pasteles de la Reina.",
+    "keys": [
+     {
+      "w": "llevó",
+      "en": "took"
+     },
+     {
+      "w": "pasteles",
+      "en": "cakes"
+     },
+     {
+      "w": "dice",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "text": "El Sombrerero viene a hablar, pero está tan asustado que tiembla.",
+    "keys": [
+     {
+      "w": "asustado",
+      "en": "afraid"
+     },
+     {
+      "w": "tiembla",
+      "en": "shakes"
+     },
+     {
+      "w": "hablar",
+      "en": "speak"
+     }
+    ]
+   },
+   {
+    "text": "Alice se siente extraña, porque está creciendo otra vez.",
+    "keys": [
+     {
+      "w": "siente",
+      "en": "feels"
+     },
+     {
+      "w": "extraña",
+      "en": "strange"
+     },
+     {
+      "w": "creciendo",
+      "en": "growing"
+     }
+    ]
+   },
+   {
+    "text": "Alice salta rápidamente y tira a todos los animalitos de sus asientos.",
+    "keys": [
+     {
+      "w": "salta",
+      "en": "jumps"
+     },
+     {
+      "w": "animalitos",
+      "en": "animals"
+     },
+     {
+      "w": "asientos",
+      "en": "seats"
+     }
+    ]
+   },
+   {
+    "text": "El Rey dice que las personas muy altas deben irse, pero Alice se queda.",
+    "keys": [
+     {
+      "w": "personas",
+      "en": "people"
+     },
+     {
+      "w": "altas",
+      "en": "tall"
+     },
+     {
+      "w": "queda",
+      "en": "stays"
+     }
+    ]
+   },
+   {
+    "text": "El Rey lee un poema extraño, y Alice dice que no tiene sentido.",
+    "keys": [
+     {
+      "w": "poema",
+      "en": "poem"
+     },
+     {
+      "w": "extraño",
+      "en": "strange"
+     },
+     {
+      "w": "sentido",
+      "en": "sense"
+     }
+    ]
+   },
+   {
+    "text": "Alice dice que eso es una tontería, y la Reina ordena a los soldados que la atrapen.",
+    "keys": [
+     {
+      "w": "tontería",
+      "en": "nonsense"
+     },
+     {
+      "w": "soldados",
+      "en": "soldiers"
+     },
+     {
+      "w": "dice",
+      "en": "says"
+     }
+    ]
+   },
+   {
+    "text": "Las cartas vuelan hacia Alice cuando ella grita: “¡Ustedes son solo cartas!”",
+    "keys": [
+     {
+      "w": "cartas",
+      "en": "cards"
+     },
+     {
+      "w": "vuelan",
+      "en": "fly"
+     },
+     {
+      "w": "grita",
+      "en": "shouts"
+     }
+    ]
+   },
+   {
+    "text": "Alice despierta junto al río, y su hermana le quita unas hojas de la cara.",
+    "keys": [
+     {
+      "w": "despierta",
+      "en": "wakes"
+     },
+     {
+      "w": "hojas",
+      "en": "leaves"
+     },
+     {
+      "w": "hermana",
+      "en": "sister"
+     }
+    ]
+   },
+   {
+    "text": "Alice le cuenta a su hermana sobre su sueño, y luego entra a tomar el té.",
+    "keys": [
+     {
+      "w": "cuenta",
+      "en": "tells"
+     },
+     {
+      "w": "sueño",
+      "en": "dream"
+     },
+     {
+      "w": "té",
+      "en": "tea"
+     }
+    ]
+   }
+  ],
+  "B1B2": [
+   {
+    "text": "Alice está sentada en la orilla del río junto a su hermana, que lee un libro sin dibujos. Alice está tan aburrida que se pregunta si vale la pena hacer una cadena de margaritas.",
+    "keys": [
+     {
+      "w": "orilla",
+      "en": "riverbank"
+     },
+     {
+      "w": "dibujos",
+      "en": "drawings"
+     },
+     {
+      "w": "aburrida",
+      "en": "bored"
+     }
+    ]
+   },
+   {
+    "text": "De pronto un Conejo Blanco con chaleco pasa corriendo a su lado, murmurando que llega terriblemente tarde. Lo que más sorprende a Alice es que saca un reloj del bolsillo y lo mira.",
+    "keys": [
+     {
+      "w": "chaleco",
+      "en": "waistcoat"
+     },
+     {
+      "w": "tarde",
+      "en": "late"
+     },
+     {
+      "w": "bolsillo",
+      "en": "pocket"
+     }
+    ]
+   },
+   {
+    "text": "Ardiendo de curiosidad, Alice cruza el campo a toda prisa tras él y lo ve desaparecer por una gran madriguera. Sin pararse a pensar cómo saldrá de allí, salta detrás de él.",
+    "keys": [
+     {
+      "w": "curiosidad",
+      "en": "curiosity"
+     },
+     {
+      "w": "desaparecer",
+      "en": "vanish"
+     },
+     {
+      "w": "salta",
+      "en": "jumps"
+     }
+    ]
+   },
+   {
+    "text": "El agujero es tan profundo que Alice cae despacio, con tiempo para mirar los armarios y los estantes a su alrededor. Se pregunta dónde aterrizará y espera que Dinah, su gata, no extrañe su leche.",
+    "keys": [
+     {
+      "w": "profundo",
+      "en": "deep"
+     },
+     {
+      "w": "armarios",
+      "en": "cupboards"
+     },
+     {
+      "w": "leche",
+      "en": "milk"
+     }
+    ]
+   },
+   {
+    "text": "Por fin cae sobre un montón de hojas secas, pero el Conejo ya se ha alejado corriendo por un pasillo. Se encuentra en un largo salón lleno de puertas, y todas y cada una están cerradas con llave.",
+    "keys": [
+     {
+      "w": "montón",
+      "en": "heap"
+     },
+     {
+      "w": "pasillo",
+      "en": "passage"
+     },
+     {
+      "w": "puertas",
+      "en": "doors"
+     }
+    ]
+   },
+   {
+    "text": "Sobre una mesa de vidrio descubre una diminuta llave dorada, que encaja en una puertecita escondida tras una cortina. Por la puerta ve un hermoso jardín, pero la abertura es demasiado pequeña para que ella pase.",
+    "keys": [
+     {
+      "w": "llave",
+      "en": "key"
+     },
+     {
+      "w": "cortina",
+      "en": "curtain"
+     },
+     {
+      "w": "jardín",
+      "en": "garden"
+     }
+    ]
+   },
+   {
+    "text": "Cerca hay una botella con la etiqueta “Bébeme,” y Alice, tras comprobar que no está marcada como veneno, toma un traguito. Para su asombro, empieza a encogerse hasta medir solo diez pulgadas, justo el tamaño de la puerta.",
+    "keys": [
+     {
+      "w": "botella",
+      "en": "bottle"
+     },
+     {
+      "w": "veneno",
+      "en": "poison"
+     },
+     {
+      "w": "encogerse",
+      "en": "shrink"
+     }
+    ]
+   },
+   {
+    "text": "Por desgracia, ha dejado la llave dorada sobre la mesa de vidrio, y ahora está demasiado alta para que ella la alcance. Intenta trepar por una pata de la mesa, pero está muy resbalosa, y se sienta a llorar.",
+    "keys": [
+     {
+      "w": "llave",
+      "en": "key"
+     },
+     {
+      "w": "pata",
+      "en": "leg"
+     },
+     {
+      "w": "resbalosa",
+      "en": "slippery"
+     }
+    ]
+   },
+   {
+    "text": "Debajo de la mesa Alice encuentra un pastel pequeño con las palabras “Cómeme” escritas con pasas de Corinto. Lo mordisquea y, poco después, se estira hacia arriba, tan alta que sus pies parecen estar a millas de distancia.",
+    "keys": [
+     {
+      "w": "pastel",
+      "en": "cake"
+     },
+     {
+      "w": "palabras",
+      "en": "words"
+     },
+     {
+      "w": "pies",
+      "en": "feet"
+     }
+    ]
+   },
+   {
+    "text": "Demasiado grande para la puerta, Alice llora tanto que un gran charco de lágrimas se extiende por el suelo. Se regaña por llorar, pero las lágrimas siguen cayendo, y pronto el agua le llega a los tobillos.",
+    "keys": [
+     {
+      "w": "charco",
+      "en": "pool"
+     },
+     {
+      "w": "regaña",
+      "en": "scolds"
+     },
+     {
+      "w": "tobillos",
+      "en": "ankles"
+     }
+    ]
+   },
+   {
+    "text": "El Conejo Blanco regresa deprisa con guantes blancos y un abanico, y deja caer ambos cuando Alice le habla. Alice recoge el abanico, y mientras lo agita vuelve a encogerse y se resbala dentro del charco de sus propias lágrimas.",
+    "keys": [
+     {
+      "w": "guantes",
+      "en": "gloves"
+     },
+     {
+      "w": "abanico",
+      "en": "fan"
+     },
+     {
+      "w": "resbala",
+      "en": "slips"
+     }
+    ]
+   },
+   {
+    "text": "Mientras nada en el agua salada, Alice conoce a un Ratón e intenta hacerse su amiga hablándole de su gata Dinah. El pobre Ratón está tan asustado por la mención de los gatos que tiembla de pies a cabeza.",
+    "keys": [
+     {
+      "w": "salada",
+      "en": "salt"
+     },
+     {
+      "w": "gata",
+      "en": "cat"
+     },
+     {
+      "w": "asustado",
+      "en": "frightened"
+     }
+    ]
+   },
+   {
+    "text": "El charco pronto se llena de aves y animales, que salen a la orilla como pueden, mojados y malhumorados. El Dodo propone una Carrera Loca para secar a todos, y las criaturas corren en círculo, empezando y parando cuando quieren.",
+    "keys": [
+     {
+      "w": "aves",
+      "en": "birds"
+     },
+     {
+      "w": "mojados",
+      "en": "wet"
+     },
+     {
+      "w": "círculo",
+      "en": "circle"
+     }
+    ]
+   },
+   {
+    "text": "Nadie gana, o mejor dicho todos ganan, así que el Dodo declara que todos deben recibir premios. Alice, que tiene una caja de dulces en el bolsillo, los reparte, y ella misma recibe un dedal.",
+    "keys": [
+     {
+      "w": "premios",
+      "en": "prizes"
+     },
+     {
+      "w": "dulces",
+      "en": "sweets"
+     },
+     {
+      "w": "dedal",
+      "en": "thimble"
+     }
+    ]
+   },
+   {
+    "text": "Al quedarse sola, Alice piensa tristemente en Dinah hasta que el Conejo Blanco vuelve trotando, en busca de sus guantes y su abanico perdidos. La confunde con su criada y le ordena que vaya a su casa y los traiga de inmediato.",
+    "keys": [
+     {
+      "w": "tristemente",
+      "en": "sadly"
+     },
+     {
+      "w": "guantes",
+      "en": "gloves"
+     },
+     {
+      "w": "criada",
+      "en": "housemaid"
+     }
+    ]
+   },
+   {
+    "text": "Alice encuentra la pequeña y ordenada casa del Conejo y sube al piso de arriba, donde bebe de otra botella sin leer la etiqueta. Casi de inmediato llena la habitación, con un brazo fuera de la ventana y un pie dentro de la chimenea.",
+    "keys": [
+     {
+      "w": "casa",
+      "en": "house"
+     },
+     {
+      "w": "etiqueta",
+      "en": "label"
+     },
+     {
+      "w": "ventana",
+      "en": "window"
+     }
+    ]
+   },
+   {
+    "text": "El Conejo y Bill el Lagarto intentan en vano entrar, y el pobre Bill es enviado por la chimenea. Alice da una fuerte patada, y Bill sale volando de la chimenea como un cohete.",
+    "keys": [
+     {
+      "w": "chimenea",
+      "en": "chimney"
+     },
+     {
+      "w": "patada",
+      "en": "kick"
+     },
+     {
+      "w": "cohete",
+      "en": "rocket"
+     }
+    ]
+   },
+   {
+    "text": "La multitud de afuera lanza piedritas por la ventana, y las piedritas se convierten en pastelitos en el suelo. Alice se come uno, se encoge hasta un tamaño pequeño y sale corriendo de la casa hacia un bosque espeso.",
+    "keys": [
+     {
+      "w": "piedritas",
+      "en": "pebbles"
+     },
+     {
+      "w": "multitud",
+      "en": "crowd"
+     },
+     {
+      "w": "bosque",
+      "en": "wood"
+     }
+    ]
+   },
+   {
+    "text": "En el bosque encuentra una gran Oruga azul sentada sobre un hongo, fumando una larga pipa. La Oruga la mira largo rato antes de preguntar, con voz lenta y soñolienta: “¿Quién eres?”",
+    "keys": [
+     {
+      "w": "hongo",
+      "en": "mushroom"
+     },
+     {
+      "w": "pipa",
+      "en": "pipe"
+     },
+     {
+      "w": "soñolienta",
+      "en": "sleepy"
+     }
+    ]
+   },
+   {
+    "text": "Alice explica que ha cambiado de tamaño tantas veces hoy que casi no sabe quién es. La Oruga le dice que un lado del hongo la hará crecer y el otro la hará encoger.",
+    "keys": [
+     {
+      "w": "tamaño",
+      "en": "size"
+     },
+     {
+      "w": "lado",
+      "en": "side"
+     },
+     {
+      "w": "crecer",
+      "en": "grow"
+     }
+    ]
+   },
+   {
+    "text": "Primero mordisquea el lado equivocado, y su cuello se estira tanto que una paloma enojada la confunde con una serpiente. Mordisqueando con más cuidado, vuelve a su altura normal, y de pronto encuentra una casita en el bosque.",
+    "keys": [
+     {
+      "w": "cuello",
+      "en": "neck"
+     },
+     {
+      "w": "paloma",
+      "en": "pigeon"
+     },
+     {
+      "w": "altura",
+      "en": "height"
+     }
+    ]
+   },
+   {
+    "text": "Alice entra, y la cocina está llena de humo y pimienta; todos estornudan, menos la cocinera y un gato sonriente. La Duquesa mece a un bebé que llora a gritos sobre un banquito, mientras la cocinera les lanza ollas y sartenes a todos.",
+    "keys": [
+     {
+      "w": "humo",
+      "en": "smoke"
+     },
+     {
+      "w": "estornudan",
+      "en": "sneezes"
+     },
+     {
+      "w": "ollas",
+      "en": "pots"
+     }
+    ]
+   },
+   {
+    "text": "La Duquesa le entrega el bebé a Alice y se va deprisa a jugar al croquet con la Reina. Pronto la nariz del bebé se levanta, sus ojos se achican, y en sus brazos se convierte en un cerdo.",
+    "keys": [
+     {
+      "w": "croquet",
+      "en": "croquet"
+     },
+     {
+      "w": "nariz",
+      "en": "nose"
+     },
+     {
+      "w": "cerdo",
+      "en": "pig"
+     }
+    ]
+   },
+   {
+    "text": "Alice pone al cerdo en el suelo, y este se va trotando feliz hacia los árboles. Piensa que habría sido un niño feo, pero resulta ser un cerdo bastante bonito.",
+    "keys": [
+     {
+      "w": "trotando",
+      "en": "trots"
+     },
+     {
+      "w": "árboles",
+      "en": "trees"
+     },
+     {
+      "w": "feo",
+      "en": "ugly"
+     }
+    ]
+   },
+   {
+    "text": "En un árbol cercano está el Gato de Cheshire, sonriendo de oreja a oreja, y Alice le pregunta cortésmente por dónde debe ir. El Gato responde que depende de adónde quiera ir, y añade que aquí todos están locos.",
+    "keys": [
+     {
+      "w": "árbol",
+      "en": "tree"
+     },
+     {
+      "w": "cortésmente",
+      "en": "politely"
+     },
+     {
+      "w": "locos",
+      "en": "mad"
+     }
+    ]
+   },
+   {
+    "text": "Él explica que en una dirección vive un Sombrerero y en la otra una Liebre de Marzo, y que ambos están locos. Luego el Gato desaparece poco a poco, hasta que solo su amplia sonrisa queda flotando en el aire.",
+    "keys": [
+     {
+      "w": "dirección",
+      "en": "direction"
+     },
+     {
+      "w": "desaparece",
+      "en": "vanishes"
+     },
+     {
+      "w": "sonrisa",
+      "en": "grin"
+     }
+    ]
+   },
+   {
+    "text": "Alice encuentra a la Liebre de Marzo y al Sombrerero Loco tomando el té en una gran mesa, con un Lirón soñoliento apretado entre ellos. Gritan que no hay lugar cuando ella se acerca, aunque la mesa está casi vacía, y ella se sienta de todos modos.",
+    "keys": [
+     {
+      "w": "té",
+      "en": "tea"
+     },
+     {
+      "w": "apretado",
+      "en": "squashed"
+     },
+     {
+      "w": "vacía",
+      "en": "empty"
+     }
+    ]
+   },
+   {
+    "text": "El Sombrerero pregunta en qué se parece un cuervo a un escritorio, pero nadie tiene la respuesta, ni siquiera él mismo. También se queja de que su reloj marca el día del mes y no la hora, lo cual le parece perfectamente razonable.",
+    "keys": [
+     {
+      "w": "cuervo",
+      "en": "raven"
+     },
+     {
+      "w": "respuesta",
+      "en": "answer"
+     },
+     {
+      "w": "reloj",
+      "en": "watch"
+     }
+    ]
+   },
+   {
+    "text": "Explican que se han peleado con el Tiempo, así que siempre son las seis y el té siempre está listo. Cuando las tazas se ensucian, simplemente se mueven al siguiente lugar limpio alrededor de la mesa.",
+    "keys": [
+     {
+      "w": "peleado",
+      "en": "quarrelled"
+     },
+     {
+      "w": "listo",
+      "en": "ready"
+     },
+     {
+      "w": "tazas",
+      "en": "cups"
+     }
+    ]
+   },
+   {
+    "text": "Alice se cansa de tanta tontería, y el Lirón se queda dormido en medio de un cuento, así que ella se marcha. Pronto encuentra una puerta en un árbol y, con la llave y un poco de hongo, entra en el hermoso jardín.",
+    "keys": [
+     {
+      "w": "tontería",
+      "en": "nonsense"
+     },
+     {
+      "w": "cuento",
+      "en": "story"
+     },
+     {
+      "w": "llave",
+      "en": "key"
+     }
+    ]
+   },
+   {
+    "text": "En el jardín, tres jardineros pintan de rojo un rosal con mucho afán, porque plantaron rosas blancas por error. Tienen terror de que la Reina de Corazones se entere y se ponga furiosa.",
+    "keys": [
+     {
+      "w": "jardineros",
+      "en": "gardeners"
+     },
+     {
+      "w": "error",
+      "en": "mistake"
+     },
+     {
+      "w": "furiosa",
+      "en": "furious"
+     }
+    ]
+   },
+   {
+    "text": "Llega una gran procesión, con soldados, cortesanos y niños reales, seguida del Conejo Blanco, el Rey y la Reina de Corazones. Todos se tiran al suelo de bruces, menos Alice, que se pregunta de qué serviría un desfile si todos estuvieran boca abajo.",
+    "keys": [
+     {
+      "w": "procesión",
+      "en": "procession"
+     },
+     {
+      "w": "cortesanos",
+      "en": "courtiers"
+     },
+     {
+      "w": "desfile",
+      "en": "parade"
+     }
+    ]
+   },
+   {
+    "text": "La Reina fulmina a Alice con la mirada y se pone morada de rabia, y el Rey le recuerda con suavidad que Alice es solo una niña. Aun así, la Reina patea el suelo y grita su orden favorita: “¡Que le corten la cabeza!”",
+    "keys": [
+     {
+      "w": "morada",
+      "en": "purple"
+     },
+     {
+      "w": "niña",
+      "en": "child"
+     },
+     {
+      "w": "orden",
+      "en": "order"
+     }
+    ]
+   },
+   {
+    "text": "La Reina invita a Alice a jugar croquet, pero los mazos son flamencos vivos y las bolas son erizos. Los soldados se doblan para formar los aros, y nada en este extraño juego se queda quieto ni un momento.",
+    "keys": [
+     {
+      "w": "flamencos",
+      "en": "flamingos"
+     },
+     {
+      "w": "erizos",
+      "en": "hedgehogs"
+     },
+     {
+      "w": "aros",
+      "en": "hoops"
+     }
+    ]
+   },
+   {
+    "text": "Entonces aparece en el aire la cabeza del Gato de Cheshire, y la pareja real discute si se la puede cortar. La Reina pelea con todos los jugadores y ordena cortar cabezas a diestra y siniestra, lo cual pone nerviosa a Alice.",
+    "keys": [
+     {
+      "w": "cabeza",
+      "en": "head"
+     },
+     {
+      "w": "pareja",
+      "en": "couple"
+     },
+     {
+      "w": "nerviosa",
+      "en": "nervous"
+     }
+    ]
+   },
+   {
+    "text": "La Duquesa, ahora sorprendentemente amable, toma a Alice del brazo y encuentra una moraleja en todo lo que ven. Pronto llega la Reina con el ceño fruncido, y la Duquesa se aleja deprisa por miedo a perder la cabeza.",
+    "keys": [
+     {
+      "w": "brazo",
+      "en": "arm"
+     },
+     {
+      "w": "moraleja",
+      "en": "moral"
+     },
+     {
+      "w": "ceño",
+      "en": "frown"
+     }
+    ]
+   },
+   {
+    "text": "La Reina le dice a Alice que visite a la Tortuga Falsa, y un Grifo soñoliento la lleva hasta la costa. Encuentran a la Tortuga Falsa sentada con tristeza sobre una roca, suspirando como si fuera a partírsele el corazón.",
+    "keys": [
+     {
+      "w": "visite",
+      "en": "visit"
+     },
+     {
+      "w": "roca",
+      "en": "rock"
+     },
+     {
+      "w": "suspirando",
+      "en": "sighing"
+     }
+    ]
+   },
+   {
+    "text": "La Tortuga Falsa le cuenta a Alice que su escuela estaba bajo el mar, con clases de Tambalear, Retorcerse y Afeamiento. Alice piensa que esas clases son muy raras, y esconde una sonrisa detrás de la mano.",
+    "keys": [
+     {
+      "w": "escuela",
+      "en": "school"
+     },
+     {
+      "w": "clases",
+      "en": "lessons"
+     },
+     {
+      "w": "sonrisa",
+      "en": "smile"
+     }
+    ]
+   },
+   {
+    "text": "El Grifo y la Tortuga Falsa bailan la Cuadrilla de la Langosta, avanzando con solemnidad por la orilla mientras la Tortuga canta. Alice mira encantada, aunque se sobresalta cuando un grito lejano anuncia que el juicio está por comenzar.",
+    "keys": [
+     {
+      "w": "orilla",
+      "en": "shore"
+     },
+     {
+      "w": "canta",
+      "en": "sings"
+     },
+     {
+      "w": "juicio",
+      "en": "trial"
+     }
+    ]
+   },
+   {
+    "text": "El Rey y la Reina de Corazones se sientan en sus tronos, rodeados por una multitud de aves, animales y naipes. La Sota de Corazones está de pie ante ellos, encadenada, acusada de robar las tartas de la Reina.",
+    "keys": [
+     {
+      "w": "tronos",
+      "en": "thrones"
+     },
+     {
+      "w": "naipes",
+      "en": "cards"
+     },
+     {
+      "w": "tartas",
+      "en": "tarts"
+     }
+    ]
+   },
+   {
+    "text": "El Conejo Blanco toca una trompeta y lee una rima sobre cómo la Reina hizo unas tartas y las perdió. El Rey llama al primer testigo mientras los doce animales del jurado garabatean en sus pizarras.",
+    "keys": [
+     {
+      "w": "trompeta",
+      "en": "trumpet"
+     },
+     {
+      "w": "testigo",
+      "en": "witness"
+     },
+     {
+      "w": "garabatean",
+      "en": "scribble"
+     }
+    ]
+   },
+   {
+    "text": "El Sombrerero entra arrastrando los pies, temblando, con una taza en una mano y pan con mantequilla en la otra. Está tan nervioso que muerde un pedazo de su taza, y el Rey se impacienta con sus respuestas confusas.",
+    "keys": [
+     {
+      "w": "taza",
+      "en": "teacup"
+     },
+     {
+      "w": "temblando",
+      "en": "trembling"
+     },
+     {
+      "w": "nervioso",
+      "en": "nervous"
+     }
+    ]
+   },
+   {
+    "text": "Mientras tanto, Alice siente una sensación muy extraña, y se da cuenta de que va creciendo otra vez poco a poco. El Lirón, sentado a su lado, se queja de que ella no tiene derecho a crecer tan rápido y ocupa demasiado espacio.",
+    "keys": [
+     {
+      "w": "sensación",
+      "en": "sensation"
+     },
+     {
+      "w": "derecho",
+      "en": "right"
+     },
+     {
+      "w": "rápido",
+      "en": "fast"
+     }
+    ]
+   },
+   {
+    "text": "Cuando llaman a Alice como testigo, ella se levanta de un salto tan rápido que su falda vuelca el estrado del jurado. Los animalitos caen sobre la multitud, y Alice los vuelve a poner ansiosamente, uno por uno.",
+    "keys": [
+     {
+      "w": "testigo",
+      "en": "witness"
+     },
+     {
+      "w": "falda",
+      "en": "skirt"
+     },
+     {
+      "w": "ansiosamente",
+      "en": "anxiously"
+     }
+    ]
+   },
+   {
+    "text": "El Rey anuncia que quien mida más de una milla de alto debe abandonar el tribunal. Alice responde que ella ni de cerca es tan alta, y que él acaba de inventar esa regla.",
+    "keys": [
+     {
+      "w": "milla",
+      "en": "mile"
+     },
+     {
+      "w": "tribunal",
+      "en": "court"
+     },
+     {
+      "w": "regla",
+      "en": "rule"
+     }
+    ]
+   },
+   {
+    "text": "El Conejo saca una carta misteriosa, y el Rey lee unos versos confusos que supuestamente prueban que la Sota es culpable. Alice declara que no hay ni un átomo de sentido en ellos, lo que hace que toda la corte contenga el aliento.",
+    "keys": [
+     {
+      "w": "carta",
+      "en": "letter"
+     },
+     {
+      "w": "versos",
+      "en": "verses"
+     },
+     {
+      "w": "átomo",
+      "en": "atom"
+     }
+    ]
+   },
+   {
+    "text": "La Reina, sin hacer caso de ningún argumento, insiste en que primero va la sentencia y después el veredicto. Alice dice que eso es una tontería, y la furiosa Reina ordena a los soldados que la agarren.",
+    "keys": [
+     {
+      "w": "sentencia",
+      "en": "sentence"
+     },
+     {
+      "w": "veredicto",
+      "en": "verdict"
+     },
+     {
+      "w": "tontería",
+      "en": "nonsense"
+     }
+    ]
+   },
+   {
+    "text": "Ya de nuevo de tamaño completo, Alice grita que aquí nadie le da miedo, porque no son más que un mazo de cartas. Ante eso, todo el mazo se eleva en el aire y se le viene encima volando.",
+    "keys": [
+     {
+      "w": "grita",
+      "en": "shouts"
+     },
+     {
+      "w": "mazo",
+      "en": "pack"
+     },
+     {
+      "w": "aire",
+      "en": "air"
+     }
+    ]
+   },
+   {
+    "text": "Grita y trata de apartar las cartas a manotazos, y entonces despierta en la orilla del río, con la cabeza en el regazo de su hermana. Su hermana le quita con suavidad unas hojas secas de la cara.",
+    "keys": [
+     {
+      "w": "cartas",
+      "en": "cards"
+     },
+     {
+      "w": "regazo",
+      "en": "lap"
+     },
+     {
+      "w": "hojas",
+      "en": "leaves"
+     }
+    ]
+   },
+   {
+    "text": "Alice le cuenta a su hermana su extraño sueño, y su hermana la escucha con una sonrisa antes de mandarla a entrar a tomar el té. Mientras corre hacia adentro, piensa en lo curioso que fue ese sueño y en lo afortunada que es de haberlo tenido.",
+    "keys": [
+     {
+      "w": "sueño",
+      "en": "dream"
+     },
+     {
+      "w": "sonrisa",
+      "en": "smile"
+     },
+     {
+      "w": "afortunada",
+      "en": "lucky"
+     }
+    ]
+   }
+  ],
+  "C1C2": [
+   {
+    "text": "Alice empezaba a cansarse de estar sentada sin hacer nada en la orilla del río junto a su hermana, que estaba absorta en un libro que no ofrecía ni dibujos ni conversación. La tarde era tan calurosa y soñolienta que el mundo entero parecía haberse reducido a un murmullo. Con la poca energía que el calor le había dejado, sopesaba si el placer de hacer una cadena de margaritas justificaría el esfuerzo de levantarse a recoger las flores.",
+    "keys": [
+     {
+      "w": "absorta",
+      "en": "absorbed"
+     },
+     {
+      "w": "soñolienta",
+      "en": "drowsy"
+     },
+     {
+      "w": "justificaría",
+      "en": "justify"
+     }
+    ]
+   },
+   {
+    "text": "De repente, un Conejo Blanco de ojos rosados pasó disparado a su lado, murmurando muy agitado que llegaría terriblemente tarde. No había nada de extraordinario en eso, ni siquiera en su murmullo, hasta que sacó un reloj del bolsillo de su chaleco, lo consultó con gravedad y siguió apresurado su camino. Alice se puso de pie de un salto, impresionada por la idea de que jamás en su vida había visto a un conejo que usara chaleco y llevara reloj.",
+    "keys": [
+     {
+      "w": "murmurando",
+      "en": "muttering"
+     },
+     {
+      "w": "consultó",
+      "en": "consulted"
+     },
+     {
+      "w": "chaleco",
+      "en": "waistcoat"
+     }
+    ]
+   },
+   {
+    "text": "Ardiendo de curiosidad, cruzó el campo a la carrera en su persecución y llegó justo a tiempo para verlo meterse en una enorme madriguera bajo el seto. Un instante después se había precipitado tras él, sin pensar siquiera en cómo saldría de allí. El túnel avanzaba recto como un pasadizo durante cierto trecho, y luego descendía tan de repente que no tuvo oportunidad de detenerse.",
+    "keys": [
+     {
+      "w": "persecución",
+      "en": "pursuit"
+     },
+     {
+      "w": "seto",
+      "en": "hedge"
+     },
+     {
+      "w": "pasadizo",
+      "en": "passage"
+     }
+    ]
+   },
+   {
+    "text": "Cayó y cayó, y el pozo era tan profundo, o ella caía tan lentamente, que tuvo tiempo de sobra para mirar a su alrededor y preguntarse qué ocurriría después. Alacenas y estantes de libros cubrían las paredes, y al pasar frente a uno tomó un frasco de mermelada, solo para descubrir con decepción que estaba vacío. Sus pensamientos volaron hacia su gata Dinah, y deseó que alguien recordara el platito de leche a la hora del té.",
+    "keys": [
+     {
+      "w": "profundo",
+      "en": "deep"
+     },
+     {
+      "w": "mermelada",
+      "en": "marmalade"
+     },
+     {
+      "w": "platito",
+      "en": "saucer"
+     }
+    ]
+   },
+   {
+    "text": "Por fin, con un golpe suave, aterrizó sobre un montón de ramas y hojas secas, ilesa, y se levantó de un salto a tiempo para vislumbrar al Conejo apresurándose por un largo pasillo. Lo siguió, pero él dobló una esquina y desapareció, dejándola sola en un salón largo y bajo, iluminado por una hilera de lámparas que colgaban del techo. Había puertas a ambos lados, pero cuando las probó una por una, todas resultaron estar cerradas con llave, y ella vagó con tristeza por el centro, preguntándose cómo saldría de allí.",
+    "keys": [
+     {
+      "w": "ilesa",
+      "en": "unhurt"
+     },
+     {
+      "w": "esquina",
+      "en": "corner"
+     },
+     {
+      "w": "vagó",
+      "en": "wandered"
+     }
+    ]
+   },
+   {
+    "text": "Poco después llegó a una mesita de cristal, y sobre ella no había más que una diminuta llave de oro, que probó con esperanza en cada cerradura. Era demasiado pequeña para las grandes puertas, pero en su segunda vuelta reparó en una cortina baja, y detrás de ella una puerta de apenas quince pulgadas de alto, en la que la llave encajó a la perfección. Más allá había un pasaje no más ancho que un agujero de rata, y al fondo brillaba el jardín más hermoso que había visto jamás, resplandeciente de flores y fresco de fuentes.",
+    "keys": [
+     {
+      "w": "cerradura",
+      "en": "lock"
+     },
+     {
+      "w": "cortina",
+      "en": "curtain"
+     },
+     {
+      "w": "fuentes",
+      "en": "fountains"
+     }
+    ]
+   },
+   {
+    "text": "Alice anhelaba llegar al jardín, pero era demasiado grande para pasar por la puertecita, y deseó poder plegarse de algún modo. Junto a la mesa, como en respuesta, había una botellita que sin duda no estaba allí antes, y de su cuello colgaba una etiqueta de papel con las palabras “Bébeme”. Como niña prudente que era, Alice comprobó primero que no tuviera la marca de veneno, y solo cuando la encontró deliciosa se la bebió y comenzó a menguar.",
+    "keys": [
+     {
+      "w": "etiqueta",
+      "en": "label"
+     },
+     {
+      "w": "prudente",
+      "en": "prudent"
+     },
+     {
+      "w": "menguar",
+      "en": "dwindle"
+     }
+    ]
+   },
+   {
+    "text": "Fue encogiéndose hasta medir apenas diez pulgadas, y su rostro se iluminó al pensar que ahora tenía justo el tamaño de la puertecita. Por desgracia, al llegar a ella descubrió que había dejado la llave de oro sobre la mesa de cristal, y la veía con claridad a través del vidrio, pero no podía alcanzarla. Intentó trepar por una de las patas de la mesa, pero era demasiado resbaladiza, y al final la pobre niña se sentó a llorar.",
+    "keys": [
+     {
+      "w": "rostro",
+      "en": "face"
+     },
+     {
+      "w": "llave",
+      "en": "key"
+     },
+     {
+      "w": "trepar",
+      "en": "climb"
+     }
+    ]
+   },
+   {
+    "text": "Enseguida divisó bajo la mesa una cajita de cristal, y dentro un diminuto pastel con las palabras “Cómeme” formadas con pasas de Corinto. Razonando que crecer le acercaría la llave, mientras que encogerse le permitiría deslizarse bajo la puerta, mordisqueó una esquina y esperó. Para su asombro, comenzó a estirarse hacia arriba a un ritmo vertiginoso, hasta que su cabeza golpeó el techo y sus pies parecieron pertenecer a alguien situado a una milla de distancia.",
+    "keys": [
+     {
+      "w": "pasas",
+      "en": "currants"
+     },
+     {
+      "w": "razonando",
+      "en": "reasoning"
+     },
+     {
+      "w": "vertiginoso",
+      "en": "dizzying"
+     }
+    ]
+   },
+   {
+    "text": "Con nueve pies de estatura y sin poder pasar por la puertecita, Alice lloró tan copiosamente que se formó un gran charco a su alrededor, que se extendió por la mitad del salón. Se reprendió severamente por semejante comportamiento, diciéndose que una niña de su tamaño debería avergonzarse, y aun así las lágrimas seguían cayendo. Poco después oyó a lo lejos un repiqueteo de piececitos, y se secó los ojos a toda prisa, ansiosa por ver quién venía.",
+    "keys": [
+     {
+      "w": "copiosamente",
+      "en": "copiously"
+     },
+     {
+      "w": "severamente",
+      "en": "severely"
+     },
+     {
+      "w": "ansiosa",
+      "en": "eager"
+     }
+    ]
+   },
+   {
+    "text": "Era el Conejo Blanco, espléndidamente vestido, con un par de guantes blancos y un gran abanico, murmurando con ansiedad sobre la Duquesa y su mal genio. Cuando Alice se dirigió a él con timidez, se sobresaltó violentamente, dejó caer guantes y abanico, y se escabulló hacia la oscuridad. Alice recogió el abanico y, mientras se abanicaba en el sofocante salón, notó que volvía a encogerse, y lo soltó justo a tiempo para no desaparecer del todo.",
+    "keys": [
+     {
+      "w": "espléndidamente",
+      "en": "splendidly"
+     },
+     {
+      "w": "violentamente",
+      "en": "violently"
+     },
+     {
+      "w": "sofocante",
+      "en": "stuffy"
+     }
+    ]
+   },
+   {
+    "text": "Con un chapoteo cayó en agua salada hasta la barbilla, y por un momento creyó haber caído al mar, hasta que comprendió que era el charco de sus propias lágrimas. Pronto pasó nadando un ratón que también había resbalado dentro, y Alice, con la esperanza de ser amistosa, le habló con toda la cortesía que pudo. Aquello salió mal, pues al mencionar a su gata Dinah, la pobre criatura tembló de la nariz a la cola, y Alice se apresuró a disculparse.",
+    "keys": [
+     {
+      "w": "chapoteo",
+      "en": "splash"
+     },
+     {
+      "w": "barbilla",
+      "en": "chin"
+     },
+     {
+      "w": "tembló",
+      "en": "trembled"
+     }
+    ]
+   },
+   {
+    "text": "Al poco rato el charco estaba lleno de aves y bestias que habían caído, entre ellas un Pato, un Dodo, un Loro y un Aguilucho, y toda la desaliñada compañía nadó hacia la orilla. Se quedaron chorreando en la ribera, malhumorados e incómodos, y debatieron con gravedad cómo secarse de nuevo. El Dodo, con aires de erudito, propuso una Carrera Loca, que resultó ser un recorrido circular donde todos empezaban y paraban cuando se les antojaba.",
+    "keys": [
+     {
+      "w": "desaliñada",
+      "en": "bedraggled"
+     },
+     {
+      "w": "chorreando",
+      "en": "dripping"
+     },
+     {
+      "w": "erudito",
+      "en": "scholar"
+     }
+    ]
+   },
+   {
+    "text": "Pronto todos estaban secos otra vez, y el Dodo, tras mucho meditar con solemnidad, anunció que todos habían ganado y que todos debían recibir premios. Alice, sin otra opción, repartió los dulces de su bolsillo, y cada animal recibió uno, mientras que a ella misma se le concedió su propio dedal con gran ceremonia. Luego todos comieron sus dulces, con mucho ruido y confusión, y algunas aves se atragantaron y hubo que darles palmadas en la espalda.",
+    "keys": [
+     {
+      "w": "premios",
+      "en": "prizes"
+     },
+     {
+      "w": "ceremonia",
+      "en": "ceremony"
+     },
+     {
+      "w": "atragantaron",
+      "en": "choked"
+     }
+    ]
+   },
+   {
+    "text": "Sola otra vez, Alice se puso a pensar con tristeza en su hogar y en su gata Dinah, hasta que por fin el Conejo Blanco volvió trotando, buscando con ansiedad los guantes y el abanico que había perdido. Al verla, la confundió con su criada y le ordenó, en un tono de gran irritación, que corriera a su casa a traerlos de inmediato. Alice se sobresaltó tanto que obedeció sin decir palabra, corriendo directamente hacia donde él le había indicado, sin detenerse a explicarle su error.",
+    "keys": [
+     {
+      "w": "hogar",
+      "en": "home"
+     },
+     {
+      "w": "irritación",
+      "en": "irritation"
+     },
+     {
+      "w": "obedeció",
+      "en": "obeyed"
+     }
+    ]
+   },
+   {
+    "text": "Pronto encontró una casita ordenada con una placa de bronce reluciente con el nombre del Conejo, y subió corriendo al piso de arriba por miedo a toparse con la verdadera criada y que la echaran. Arriba encontró el abanico, un par de guantes y, junto al espejo, una botellita sin etiqueta, que bebió sin pensarlo dos veces. Casi al instante creció hasta volverse enorme, de modo que su cabeza presionaba el techo, un codo sobresalía por la ventana y un pie quedó atascado en la chimenea.",
+    "keys": [
+     {
+      "w": "bronce",
+      "en": "brass"
+     },
+     {
+      "w": "espejo",
+      "en": "mirror"
+     },
+     {
+      "w": "atascado",
+      "en": "wedged"
+     }
+    ]
+   },
+   {
+    "text": "Afuera, el indignado Conejo intentó en vano abrir la puerta, que estaba atrancada por el codo de Alice, y entonces envió al pobre Bill el Lagarto por la chimenea. Alice esperó hasta oír un rasguño y un forcejeo justo encima de ella, luego bajó el pie todo lo que pudo y dio una patada repentina. Hubo un grito y un estruendo lejano mientras el pobre Bill salía disparado de la chimenea como un cohete, para gran alarma de la multitud reunida afuera.",
+    "keys": [
+     {
+      "w": "indignado",
+      "en": "indignant"
+     },
+     {
+      "w": "atrancada",
+      "en": "jammed"
+     },
+     {
+      "w": "estruendo",
+      "en": "crash"
+     }
+    ]
+   },
+   {
+    "text": "Una lluvia de piedritas golpeó la ventana y, para su sorpresa, Alice vio que cada una, al tocar el suelo, se convertía en un pastelito. Razonando que cualquier pastel que comiera debía cambiar su tamaño, y que difícilmente podría crecer más, se tragó uno y sintió que menguaba de inmediato. En cuanto fue lo bastante pequeña para pasar por la puerta, salió disparada hacia un espeso bosque, perseguida por una multitud de criaturas curiosas.",
+    "keys": [
+     {
+      "w": "lluvia",
+      "en": "shower"
+     },
+     {
+      "w": "tragó",
+      "en": "swallowed"
+     },
+     {
+      "w": "perseguida",
+      "en": "pursued"
+     }
+    ]
+   },
+   {
+    "text": "Una vez en el bosque, resolvió volver a su tamaño normal y encontrar el camino hacia ese hermoso jardín, aunque no tenía ni idea de cómo lograr ninguna de las dos cosas. Pronto su mirada se posó en un gran hongo tan alto como ella, y sobre él estaba sentada una Oruga azul, que fumaba una larga pipa, completamente indiferente al mundo. Tras un largo y lánguido silencio, la criatura se sacó la pipa de la boca y preguntó, con voz soñolienta: “¿Quién eres?”",
+    "keys": [
+     {
+      "w": "resolvió",
+      "en": "resolved"
+     },
+     {
+      "w": "indiferente",
+      "en": "indifferent"
+     },
+     {
+      "w": "lánguido",
+      "en": "languid"
+     }
+    ]
+   },
+   {
+    "text": "Alice respondió con bastante timidez que apenas lo sabía, pues había cambiado de tamaño varias veces ese día y se sentía muy confundida. La Oruga permaneció impasible y exigió una explicación más clara, que era precisamente lo que Alice no podía dar, pues ya no estaba segura de quién era. Cuando se volvió para irse, él la llamó y le dijo que un lado del hongo la haría crecer y el otro la haría encoger.",
+    "keys": [
+     {
+      "w": "confundida",
+      "en": "muddled"
+     },
+     {
+      "w": "impasible",
+      "en": "unmoved"
+     },
+     {
+      "w": "exigió",
+      "en": "demanded"
+     }
+    ]
+   },
+   {
+    "text": "Sin saber qué lado era cuál, pues el hongo era perfectamente redondo, Alice partió un trozo con cada mano, y el primer mordisco que probó hizo que su barbilla golpeara contra su pie. El segundo disparó su cuello por encima de las copas de los árboles como un tallo, donde una paloma indignada la confundió con una serpiente y se lanzó contra su cara, regañando furiosamente por los huevos. Mordisqueando cautelosamente cada pedazo por turnos, por fin logró recuperar su altura normal, y poco después llegó a una casita en medio del bosque.",
+    "keys": [
+     {
+      "w": "redondo",
+      "en": "round"
+     },
+     {
+      "w": "tallo",
+      "en": "stalk"
+     },
+     {
+      "w": "cautelosamente",
+      "en": "cautiously"
+     }
+    ]
+   },
+   {
+    "text": "Alice empujó la puerta de la casita y entró en una cocina tan llena de humo y pimienta que apenas podía ver al otro lado. Todos en la habitación estornudaban, excepto la cocinera, que revolvía una enorme olla de sopa, y un gran gato que yacía junto al hogar sonriendo de oreja a oreja. En medio de la habitación, sobre un taburete de tres patas, estaba sentada la Duquesa, que mecía a un bebé que aullaba y estornudaba por turnos, mientras la cocinera lanzaba ollas y sartenes a cualquiera que estuviera a su alcance.",
+    "keys": [
+     {
+      "w": "pimienta",
+      "en": "pepper"
+     },
+     {
+      "w": "hogar",
+      "en": "hearth"
+     },
+     {
+      "w": "aullaba",
+      "en": "howled"
+     }
+    ]
+   },
+   {
+    "text": "La Duquesa, que no estaba de humor para amabilidades, le arrojó el bebé a Alice y se fue a jugar croquet con la Reina, dejando a la cocinera lanzarle una sartén. Alice sacó al niño al aire libre, donde gruñía de un modo tan extraño que miró hacia abajo y descubrió que tenía la nariz respingona y los ojos cada vez más pequeños. Antes de que pudiera decidir qué hacer, se había convertido, sin duda alguna, en un cerdo, y ella supo que no podía llevar más lejos a semejante criatura.",
+    "keys": [
+     {
+      "w": "amabilidades",
+      "en": "pleasantries"
+     },
+     {
+      "w": "gruñía",
+      "en": "grunted"
+     },
+     {
+      "w": "duda",
+      "en": "doubt"
+     }
+    ]
+   },
+   {
+    "text": "La dejó en el suelo, y el cerdo se alejó trotando contento hacia el bosque, y ella lo vio marcharse con una sensación de alivio. Alice reflexionó que, como niño, habría crecido extremadamente feo, aunque como cerdo era bastante guapo. Luego se preguntó cuál de sus conocidos haría buenos cerdos, y casi había decidido que conocía a varios, cuando un repentino crujido la hizo levantar la vista.",
+    "keys": [
+     {
+      "w": "alivio",
+      "en": "relief"
+     },
+     {
+      "w": "extremadamente",
+      "en": "extremely"
+     },
+     {
+      "w": "conocidos",
+      "en": "acquaintances"
+     }
+    ]
+   },
+   {
+    "text": "Allí, sobre una rama de un árbol cercano, estaba el Gato de Cheshire, sonriendo de oreja a oreja y mostrando muchísimos dientes, lo que a Alice le pareció descortés pero también bastante amistoso. Ella le preguntó, muy cortésmente, por qué camino debía seguir desde allí, y él respondió que dependía por completo de adónde quisiera llegar. Al decirle ella que poco importaba, comentó que cualquier camino servía, y añadió con perfecta calma que todos aquí estaban locos, ella incluida.",
+    "keys": [
+     {
+      "w": "dientes",
+      "en": "teeth"
+     },
+     {
+      "w": "descortés",
+      "en": "impolite"
+     },
+     {
+      "w": "calma",
+      "en": "calm"
+     }
+    ]
+   },
+   {
+    "text": "El Gato explicó, con la paciencia de quien se dirige a un alumno lento, que en una dirección vivía un Sombrerero y en la otra una Liebre de Marzo, y que ambos estaban locos. Alice optó por visitar a la Liebre, pero apenas se había decidido cuando el Gato empezó a desvanecerse. Primero desapareció su cola, luego su cuerpo, y por último su enorme sonrisa, que permaneció flotando en el aire mucho después de que el resto de él se hubiera ido.",
+    "keys": [
+     {
+      "w": "paciencia",
+      "en": "patience"
+     },
+     {
+      "w": "desvanecerse",
+      "en": "fade"
+     },
+     {
+      "w": "permaneció",
+      "en": "lingered"
+     }
+    ]
+   },
+   {
+    "text": "La casa de la Liebre de Marzo tenía una mesa puesta para el té bajo un árbol, y en ella estaban sentados la Liebre y el Sombrerero, con un Lirón somnoliento encajado entre ambos como un cojín. La mesa era enorme, pero los tres estaban apretujados en una esquina y gritaron que no había lugar apenas vieron acercarse a Alice. Ella protestó indignada que había lugar de sobra y se acomodó en un gran sillón en el extremo de la mesa.",
+    "keys": [
+     {
+      "w": "cojín",
+      "en": "cushion"
+     },
+     {
+      "w": "apretujados",
+      "en": "crowded"
+     },
+     {
+      "w": "sillón",
+      "en": "armchair"
+     }
+    ]
+   },
+   {
+    "text": "El Sombrerero, que la había estado mirando con gran curiosidad, preguntó de pronto en qué se parece un cuervo a un escritorio, y Alice, encantada ante la perspectiva de las adivinanzas, se puso a intentar adivinar. Nadie, resultó, sabía la respuesta, ni siquiera el propio Sombrerero, quien confesó que simplemente se le había ocurrido la pregunta y no tenía idea de qué la resolvería. Mientras tanto sacó su reloj, lo sacudió y se quejó de que marcaba el día del mes en vez de la hora, lo cual a Alice le pareció inútil pero a él le resultaba muy natural.",
+    "keys": [
+     {
+      "w": "adivinanzas",
+      "en": "riddles"
+     },
+     {
+      "w": "confesó",
+      "en": "confessed"
+     },
+     {
+      "w": "inútil",
+      "en": "useless"
+     }
+    ]
+   },
+   {
+    "text": "Explicaron que se habían peleado con el Tiempo, que ahora se negaba a complacerlos, por lo que siempre eran las seis y siempre era la hora del té. Como nunca había oportunidad de lavar la vajilla, simplemente se movían a lo largo de la mesa un lugar a la vez cada vez que un puesto se ensuciaba demasiado para usarlo. Cuando Alice preguntó qué pasaba cuando volvían al principio, la Liebre cambió de tema de inmediato y despertaron al Lirón para que contara un cuento.",
+    "keys": [
+     {
+      "w": "peleado",
+      "en": "quarrelled"
+     },
+     {
+      "w": "puesto",
+      "en": "setting"
+     },
+     {
+      "w": "tema",
+      "en": "subject"
+     }
+    ]
+   },
+   {
+    "text": "El Lirón comenzó un cuento soñoliento sobre tres hermanas en un pozo de melaza, pero se quedaba dormido a mitad del relato, y Alice se levantó con disgusto y se marchó. Detrás de ella, el Sombrerero y la Liebre siguieron riñendo y ni siquiera parecieron notar que se había ido. En un árbol cercano divisó una puerta en el tronco, y con un mordisco de hongo y la llave de oro en la mano entró por fin en el hermoso jardín.",
+    "keys": [
+     {
+      "w": "melaza",
+      "en": "treacle"
+     },
+     {
+      "w": "riñendo",
+      "en": "squabbling"
+     },
+     {
+      "w": "tronco",
+      "en": "trunk"
+     }
+    ]
+   },
+   {
+    "text": "Junto a un gran rosal cerca de la entrada, tres jardineros pintaban afanosamente de rojo las rosas blancas, pues habían plantado el rosal equivocado por error. Trabajaban en un frenesí de ansiedad, discutiendo de quién era la culpa y rogándose unos a otros que se dieran prisa. Su terror era fácil de explicar, pues sabían que si la Reina de Corazones descubría el error, se pondría una de sus famosas rabias.",
+    "keys": [
+     {
+      "w": "afanosamente",
+      "en": "busily"
+     },
+     {
+      "w": "culpa",
+      "en": "fault"
+     },
+     {
+      "w": "terror",
+      "en": "terror"
+     }
+    ]
+   },
+   {
+    "text": "Pronto apareció una espléndida procesión, encabezada por soldados armados con garrotes, seguidos por cortesanos e hijos reales, y por último el Conejo Blanco, el Rey y la Reina de Corazones. Todos se arrojaron de bruces al suelo, pero Alice, reflexionando que un desfile carecería de sentido si todos se tiraban al suelo, permaneció de pie y observó con interés. La pareja real se detuvo ante ella, y la Reina, estudiándola con ojo feroz, se irguió en toda su estatura.",
+    "keys": [
+     {
+      "w": "garrotes",
+      "en": "clubs"
+     },
+     {
+      "w": "desfile",
+      "en": "parade"
+     },
+     {
+      "w": "feroz",
+      "en": "fierce"
+     }
+    ]
+   },
+   {
+    "text": "La Reina exigió saber quién era esa niña, y Alice, cuya audacia sorprendió incluso a ella misma, respondió que era simplemente Alice. Morada de furia, la Reina la fulminó con la mirada como una bestia salvaje y luego gritó la orden que la había hecho famosa: “¡Que le corten la cabeza!” El Rey, sin embargo, le puso una mano tímida en el brazo y le recordó con suavidad que Alice era solo una niña.",
+    "keys": [
+     {
+      "w": "audacia",
+      "en": "boldness"
+     },
+     {
+      "w": "bestia",
+      "en": "beast"
+     },
+     {
+      "w": "tímida",
+      "en": "timid"
+     }
+    ]
+   },
+   {
+    "text": "La Reina ordenó a Alice unirse al juego de croquet, y jamás se disputó un partido más extraño, pues los mazos eran flamencos vivos, las bolas eran erizos y los aros eran soldados doblados. Alice descubrió que su flamenco no dejaba de torcer su largo cuello para mirarla con tal desconcierto que ella estalló en carcajadas. Nada se quedaba en su sitio ni un instante, pues los erizos se desenrollaban y se alejaban cuando les placía, y cada jugador reñía con los demás a la vez.",
+    "keys": [
+     {
+      "w": "mazos",
+      "en": "mallets"
+     },
+     {
+      "w": "desconcierto",
+      "en": "puzzlement"
+     },
+     {
+      "w": "desenrollaban",
+      "en": "unrolled"
+     }
+    ]
+   },
+   {
+    "text": "En medio del alboroto, la Reina iba y venía pisoteando, ordenando cortar cabezas a diestra y siniestra, hasta que Alice empezó a buscar con inquietud una forma de escapar. Entonces un curioso destello en el aire se resolvió en una sonrisa, y pronto la cabeza entera del Gato de Cheshire quedó flotando allí sin un cuerpo que le hiciera compañía. El Rey y la Reina se pusieron enseguida a discutir si se podía cortar algo que no tenía cuerpo, y toda la corte esperó para ver quién ganaría.",
+    "keys": [
+     {
+      "w": "alboroto",
+      "en": "uproar"
+     },
+     {
+      "w": "destello",
+      "en": "shimmer"
+     },
+     {
+      "w": "corte",
+      "en": "court"
+     }
+    ]
+   },
+   {
+    "text": "La Duquesa, ahora sorprendentemente afectuosa, pasó un brazo por el de Alice y encontró una moraleja en todo lo que veían, por trivial o absurdo que fuera. Alice, que habría preferido menos moralejas y más espacio para los codos, escuchó con cortesía mientras se preguntaba por qué había cambiado tanto la Duquesa. La Reina llegó pronto con un ceño amenazador y le ordenó a la Duquesa irse de inmediato o perder la cabeza, tras lo cual la Duquesa se esfumó en un instante.",
+    "keys": [
+     {
+      "w": "afectuosa",
+      "en": "affectionate"
+     },
+     {
+      "w": "trivial",
+      "en": "trivial"
+     },
+     {
+      "w": "ceño",
+      "en": "frown"
+     }
+    ]
+   },
+   {
+    "text": "Cansada del juego, la Reina envió a Alice a conocer a la Tortuga Falsa, y un Grifo que dormía profundamente al sol fue despertado para llevarla. El Grifo abrió la marcha, riendo entre dientes mientras le aseguraba que las amenazas de la Reina eran pura palabrería y que a nadie se castigaba de verdad. Al fin encontraron a la Tortuga Falsa sentada, abatida, en una repisa de roca, y al acercarse pudieron oírla suspirar como si se le fuera a partir el corazón.",
+    "keys": [
+     {
+      "w": "cansada",
+      "en": "weary"
+     },
+     {
+      "w": "amenazas",
+      "en": "threats"
+     },
+     {
+      "w": "abatida",
+      "en": "forlorn"
+     }
+    ]
+   },
+   {
+    "text": "Con la voz quebrada por los sollozos, la Tortuga Falsa le contó a Alice que antes había sido una tortuga de verdad y que había asistido a la escuela en el fondo del mar. Sus lecciones incluían Tambalear y Retorcerse y las cuatro ramas de la Aritmética, a saber, Ambición, Distracción, Fealdad y Burla. Alice, que jamás había oído hablar de tales materias, las encontró tan peculiares que escondió su sonrisa tras la mano, por miedo a herir sus sentimientos.",
+    "keys": [
+     {
+      "w": "sollozos",
+      "en": "sobs"
+     },
+     {
+      "w": "ramas",
+      "en": "branches"
+     },
+     {
+      "w": "peculiares",
+      "en": "peculiar"
+     }
+    ]
+   },
+   {
+    "text": "Agotado el tema de la escuela, el Grifo propuso bailar la Cuadrilla de la Langosta para Alice, y los dos se levantaron con gran solemnidad. Formando una fila a lo largo de la playa arenosa, avanzaron y retrocedieron, se pasaron langostas de pareja en pareja y las arrojaron lejos mar adentro mientras la Tortuga Falsa cantaba lúgubremente. Alice miró con deleite e incluso se unió durante unos pasos, hasta que un grito lejano anunció que estaba por comenzar un juicio.",
+    "keys": [
+     {
+      "w": "solemnidad",
+      "en": "solemnity"
+     },
+     {
+      "w": "retrocedieron",
+      "en": "retreated"
+     },
+     {
+      "w": "deleite",
+      "en": "delight"
+     }
+    ]
+   },
+   {
+    "text": "El Grifo la tomó de la mano y la llevó a toda prisa, y al llegar encontraron al Rey y a la Reina de Corazones sentados en sus tronos, con una gran multitud reunida a su alrededor. La Sota de Corazones estaba ante ellos encadenada, con un soldado a cada lado, mientras el jurado, una docena de criaturas variadas, se sentaba en un palco a su lado. La acusación contra el prisionero era que había robado las tartas que la Reina había horneado con sus propias manos reales.",
+    "keys": [
+     {
+      "w": "multitud",
+      "en": "crowd"
+     },
+     {
+      "w": "docena",
+      "en": "dozen"
+     },
+     {
+      "w": "prisionero",
+      "en": "prisoner"
+     }
+    ]
+   },
+   {
+    "text": "Con el toque de la trompeta del Conejo Blanco la corte guardó silencio, y él desenrolló un pergamino y leyó una rima sobre la Reina, unas tartas y un robo. El Rey ordenó al jurado considerar su veredicto, solo para ser corregido por el Conejo, quien le recordó que los testigos debían ir primero. Mientras tanto, el jurado garabateaba afanosamente en sus pizarras, y Alice notó que escribían sus propios nombres por miedo a olvidarlos antes de que terminara el juicio.",
+    "keys": [
+     {
+      "w": "pergamino",
+      "en": "parchment"
+     },
+     {
+      "w": "corregido",
+      "en": "corrected"
+     },
+     {
+      "w": "pizarras",
+      "en": "slates"
+     }
+    ]
+   },
+   {
+    "text": "El primer testigo fue el Sombrerero, que entró arrastrando los pies, tembloroso, con una taza de té en una mano y una rebanada de pan con mantequilla en la otra. El Rey le ordenó dar su testimonio sin ponerse nervioso, una orden que lo asustó tanto que mordió un gran pedazo de su taza en lugar de su pan. Todo lo que decía solo aumentaba la confusión, y el Rey se impacientaba con cada respuesta divagante hasta que le dijeron al pobre hombre que se retirara.",
+    "keys": [
+     {
+      "w": "tembloroso",
+      "en": "trembling"
+     },
+     {
+      "w": "rebanada",
+      "en": "slice"
+     },
+     {
+      "w": "divagante",
+      "en": "rambling"
+     }
+    ]
+   },
+   {
+    "text": "Mientras tanto Alice sintió una sensación muy extraña que la desconcertó hasta que se dio cuenta de que había empezado a crecer otra vez, y se preguntó si no debería abandonar la corte por completo. El Lirón, sentado a su lado, protestó de que no tenía derecho a crecer a tal ritmo, pues apenas podía respirar. Alice respondió que no podía evitarlo, y el Lirón, entre gruñidos, se levantó y se cambió al otro lado de la corte.",
+    "keys": [
+     {
+      "w": "sensación",
+      "en": "sensation"
+     },
+     {
+      "w": "protestó",
+      "en": "protested"
+     },
+     {
+      "w": "respirar",
+      "en": "breathe"
+     }
+    ]
+   },
+   {
+    "text": "Cuando el Sombrerero fue despedido, el Rey pidió al siguiente testigo, y el Conejo, leyendo de su lista, chilló el nombre de Alice. Alice se levantó de un salto, con tal agitación que olvidó lo grande que había crecido, y el borde de su falda barrió el palco del jurado y envió a sus ocupantes rodando sobre la multitud de abajo. Consternada, los recogió uno por uno y los devolvió a sus asientos, aunque Bill el Lagarto quedó colocado al revés y se quedó mirando el techo.",
+    "keys": [
+     {
+      "w": "chilló",
+      "en": "squeaked"
+     },
+     {
+      "w": "borde",
+      "en": "edge"
+     },
+     {
+      "w": "consternada",
+      "en": "dismayed"
+     }
+    ]
+   },
+   {
+    "text": "Sin inmutarse por el destrozo, el Rey anunció que, según la Regla Cuarenta y dos, toda persona de más de una milla de altura debía abandonar la corte, y miró fijamente a Alice. Alice protestó que no era ni de lejos tan alta y que no era una regla común, sino una que él acababa de inventar un momento antes. El Rey, poniéndose algo rosado hasta las orejas, afirmó que era la regla más antigua del libro, y Alice respondió dulcemente que en ese caso debería ser la Regla Uno.",
+    "keys": [
+     {
+      "w": "destrozo",
+      "en": "wreckage"
+     },
+     {
+      "w": "milla",
+      "en": "mile"
+     },
+     {
+      "w": "dulcemente",
+      "en": "sweetly"
+     }
+    ]
+   },
+   {
+    "text": "Entonces el Conejo Blanco presentó una carta misteriosa, supuestamente escrita por el prisionero, aunque no estaba firmada por nadie ni dirigida a nadie en particular. El Rey leyó una serie de versos confusos, convencido de que probaban la culpabilidad de la Sota, aunque estaban tan llenos de disparates que no había dos líneas que concordaran entre sí. Alice, que había crecido tanto que ya no temía a nadie, declaró que no había ni un átomo de significado en todo el poema, y toda la corte contuvo el aliento.",
+    "keys": [
+     {
+      "w": "firmada",
+      "en": "signed"
+     },
+     {
+      "w": "disparates",
+      "en": "nonsense"
+     },
+     {
+      "w": "átomo",
+      "en": "atom"
+     }
+    ]
+   },
+   {
+    "text": "La Reina, que había escuchado con creciente impaciencia, anunció que primero debía dictarse la sentencia y después el veredicto. Alice declaró que eso era un completo disparate, y la Reina, poniéndose morada, ordenó a los soldados que la apresaran. Los soldados, sin embargo, vacilaron, pues Alice había alcanzado un tamaño enorme, y ninguno quería ser el primero en ponerle una mano encima.",
+    "keys": [
+     {
+      "w": "impaciencia",
+      "en": "impatience"
+     },
+     {
+      "w": "disparate",
+      "en": "nonsense"
+     },
+     {
+      "w": "vacilaron",
+      "en": "hesitated"
+     }
+    ]
+   },
+   {
+    "text": "De pie, a su altura completa y sin temerle ya a nadie, Alice gritó que nadie allí la asustaba, pues no eran más que un mazo de cartas. Ante estas palabras el mazo entero se elevó por los aires y cayó sobre ella volando en una tormenta crujiente. Soltó un pequeño grito, mitad de miedo y mitad de rabia, y manoteó con furia para ahuyentarlas.",
+    "keys": [
+     {
+      "w": "mazo",
+      "en": "pack"
+     },
+     {
+      "w": "crujiente",
+      "en": "rustling"
+     },
+     {
+      "w": "rabia",
+      "en": "anger"
+     }
+    ]
+   },
+   {
+    "text": "En un instante las cartas y la corte desaparecieron, y Alice yacía en la orilla del río con la cabeza en el regazo de su hermana, parpadeando bajo la cálida luz del sol. Su hermana le quitaba suavemente unas hojas secas que habían caído revoloteando sobre su cara desde los árboles de arriba. Alice se estiró y bostezó, sintiendo aún la rareza del sueño suspendida a su alrededor como un tenue perfume, y se incorporó lentamente.",
+    "keys": [
+     {
+      "w": "parpadeando",
+      "en": "blinking"
+     },
+     {
+      "w": "revoloteando",
+      "en": "fluttered"
+     },
+     {
+      "w": "perfume",
+      "en": "perfume"
+     }
+    ]
+   },
+   {
+    "text": "Alice se sentó y le contó a su hermana, lo mejor que pudo recordar, las extrañas aventuras que acababa de vivir, desde el Conejo Blanco hasta la Reina y su mazo de cartas. Su hermana escuchó con una sonrisa pensativa, la besó y dijo que había sido un sueño curioso, pero que ya era hora de tomar el té. Alice entró corriendo por el césped, pensando mientras iba, con una sonrisa feliz, qué sueño tan maravilloso había sido.",
+    "keys": [
+     {
+      "w": "aventuras",
+      "en": "adventures"
+     },
+     {
+      "w": "pensativa",
+      "en": "thoughtful"
+     },
+     {
+      "w": "maravilloso",
+      "en": "wonderful"
+     }
+    ]
+   }
+  ]
+ }
+}

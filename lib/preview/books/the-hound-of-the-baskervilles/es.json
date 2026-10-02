@@ -1,0 +1,2564 @@
+{
+  "slug": "the-hound-of-the-baskervilles",
+  "lang": "es",
+  "title": "El sabueso de los Baskerville",
+  "blurb": "Una familia maldita, un sabueso monstruoso y un páramo solitario. Cuando sir Henry Baskerville hereda la casa de sus antepasados, solo Sherlock Holmes y el doctor Watson pueden descubrir si la bestia es un fantasma o algo mucho más humano. ¿Lograrán detenerla a tiempo?",
+  "levels": {
+    "A1A2": [
+      {
+        "text": "Sherlock Holmes y el doctor Watson encontraron un bastón en su habitación.",
+        "keys": [
+          {
+            "w": "bastón",
+            "en": "stick"
+          },
+          {
+            "w": "encontraron",
+            "en": "found"
+          },
+          {
+            "w": "habitación",
+            "en": "room"
+          }
+        ]
+      },
+      {
+        "text": "Holmes miró el bastón y le contó a Watson muchas cosas sobre su dueño.",
+        "keys": [
+          {
+            "w": "bastón",
+            "en": "stick"
+          },
+          {
+            "w": "dueño",
+            "en": "owner"
+          },
+          {
+            "w": "miró",
+            "en": "looked"
+          }
+        ]
+      },
+      {
+        "text": "El doctor Mortimer llegó a Baker Street por su bastón y por la ayuda de Holmes.",
+        "keys": [
+          {
+            "w": "ayuda",
+            "en": "help"
+          },
+          {
+            "w": "bastón",
+            "en": "stick"
+          },
+          {
+            "w": "llegó",
+            "en": "came"
+          }
+        ]
+      },
+      {
+        "text": "El doctor Mortimer leyó un papel antiguo sobre Hugo Baskerville, un hombre muy cruel.",
+        "keys": [
+          {
+            "w": "leyó",
+            "en": "read"
+          },
+          {
+            "w": "antiguo",
+            "en": "old"
+          },
+          {
+            "w": "cruel",
+            "en": "cruel"
+          }
+        ]
+      },
+      {
+        "text": "Hugo encerró a una joven, pero ella huyó por el páramo oscuro.",
+        "keys": [
+          {
+            "w": "encerró",
+            "en": "locked"
+          },
+          {
+            "w": "huyó",
+            "en": "ran"
+          },
+          {
+            "w": "páramo",
+            "en": "moor"
+          }
+        ]
+      },
+      {
+        "text": "Más tarde, sus amigos encontraron a Hugo muerto junto a un enorme sabueso negro.",
+        "keys": [
+          {
+            "w": "muerto",
+            "en": "dead"
+          },
+          {
+            "w": "enorme",
+            "en": "huge"
+          },
+          {
+            "w": "sabueso",
+            "en": "hound"
+          }
+        ]
+      },
+      {
+        "text": "Sir Charles Baskerville murió en un sendero oscuro, y la gente habló de la maldición.",
+        "keys": [
+          {
+            "w": "murió",
+            "en": "died"
+          },
+          {
+            "w": "sendero",
+            "en": "path"
+          },
+          {
+            "w": "maldición",
+            "en": "curse"
+          }
+        ]
+      },
+      {
+        "text": "Cerca del cuerpo, el doctor Mortimer vio las enormes huellas de un perro.",
+        "keys": [
+          {
+            "w": "cuerpo",
+            "en": "body"
+          },
+          {
+            "w": "huellas",
+            "en": "footprints"
+          },
+          {
+            "w": "perro",
+            "en": "dog"
+          }
+        ]
+      },
+      {
+        "text": "Sir Henry Baskerville llegó de Canadá y le mostró a Holmes una carta extraña.",
+        "keys": [
+          {
+            "w": "llegó",
+            "en": "came"
+          },
+          {
+            "w": "carta",
+            "en": "letter"
+          },
+          {
+            "w": "extraña",
+            "en": "strange"
+          }
+        ]
+      },
+      {
+        "text": "Alguien se llevó una bota nueva del hotel y después se llevó una bota vieja.",
+        "keys": [
+          {
+            "w": "alguien",
+            "en": "someone"
+          },
+          {
+            "w": "bota",
+            "en": "boot"
+          },
+          {
+            "w": "vieja",
+            "en": "old"
+          }
+        ]
+      },
+      {
+        "text": "Un hombre con barba siguió a sir Henry en un carruaje por Londres.",
+        "keys": [
+          {
+            "w": "barba",
+            "en": "beard"
+          },
+          {
+            "w": "siguió",
+            "en": "followed"
+          },
+          {
+            "w": "carruaje",
+            "en": "cab"
+          }
+        ]
+      },
+      {
+        "text": "Holmes estaba demasiado ocupado para ir, así que envió a Watson con sir Henry.",
+        "keys": [
+          {
+            "w": "ocupado",
+            "en": "busy"
+          },
+          {
+            "w": "envió",
+            "en": "sent"
+          },
+          {
+            "w": "demasiado",
+            "en": "too"
+          }
+        ]
+      },
+      {
+        "text": "En la pequeña estación, unos soldados buscaban a un prisionero llamado Selden.",
+        "keys": [
+          {
+            "w": "estación",
+            "en": "station"
+          },
+          {
+            "w": "soldados",
+            "en": "soldiers"
+          },
+          {
+            "w": "prisionero",
+            "en": "prisoner"
+          }
+        ]
+      },
+      {
+        "text": "Baskerville Hall era grande y oscuro, y Barrymore, el mayordomo, les dio la bienvenida.",
+        "keys": [
+          {
+            "w": "grande",
+            "en": "big"
+          },
+          {
+            "w": "mayordomo",
+            "en": "butler"
+          },
+          {
+            "w": "oscuro",
+            "en": "dark"
+          }
+        ]
+      },
+      {
+        "text": "Por la noche, Watson oyó llorar a una mujer en la gran casa.",
+        "keys": [
+          {
+            "w": "noche",
+            "en": "night"
+          },
+          {
+            "w": "oyó",
+            "en": "heard"
+          },
+          {
+            "w": "llorar",
+            "en": "crying"
+          }
+        ]
+      },
+      {
+        "text": "Stapleton, un hombre con una red para mariposas, le mostró a Watson el peligroso pantano de Grimpen.",
+        "keys": [
+          {
+            "w": "mariposas",
+            "en": "butterfly"
+          },
+          {
+            "w": "peligroso",
+            "en": "dangerous"
+          },
+          {
+            "w": "pantano",
+            "en": "mire"
+          }
+        ]
+      },
+      {
+        "text": "Esa tarde, un grito terrible cruzó el páramo, y Watson sintió miedo.",
+        "keys": [
+          {
+            "w": "grito",
+            "en": "cry"
+          },
+          {
+            "w": "terrible",
+            "en": "terrible"
+          },
+          {
+            "w": "miedo",
+            "en": "afraid"
+          }
+        ]
+      },
+      {
+        "text": "Beryl Stapleton corrió hacia Watson y le dijo: “¡Vuelva a Londres de inmediato!”",
+        "keys": [
+          {
+            "w": "dijo",
+            "en": "said"
+          },
+          {
+            "w": "corrió",
+            "en": "ran"
+          },
+          {
+            "w": "vuelva",
+            "en": "back"
+          }
+        ]
+      },
+      {
+        "text": "A sir Henry le gustaba mucho Beryl, pero su hermano no estaba contento.",
+        "keys": [
+          {
+            "w": "gustaba",
+            "en": "liked"
+          },
+          {
+            "w": "hermano",
+            "en": "brother"
+          },
+          {
+            "w": "contento",
+            "en": "happy"
+          }
+        ]
+      },
+      {
+        "text": "Una noche, Watson vio a Barrymore sosteniendo una vela en una ventana.",
+        "keys": [
+          {
+            "w": "noche",
+            "en": "night"
+          },
+          {
+            "w": "vela",
+            "en": "candle"
+          },
+          {
+            "w": "ventana",
+            "en": "window"
+          }
+        ]
+      },
+      {
+        "text": "Barrymore dijo que la vela era una señal para Selden, el hermano de su esposa.",
+        "keys": [
+          {
+            "w": "vela",
+            "en": "candle"
+          },
+          {
+            "w": "señal",
+            "en": "signal"
+          },
+          {
+            "w": "hermano",
+            "en": "brother"
+          }
+        ]
+      },
+      {
+        "text": "Watson y sir Henry salieron al páramo para atrapar a Selden.",
+        "keys": [
+          {
+            "w": "salieron",
+            "en": "went"
+          },
+          {
+            "w": "páramo",
+            "en": "moor"
+          },
+          {
+            "w": "atrapar",
+            "en": "catch"
+          }
+        ]
+      },
+      {
+        "text": "Sobre una roca, encima de ellos, vieron a un hombre alto de pie y solo.",
+        "keys": [
+          {
+            "w": "roca",
+            "en": "rock"
+          },
+          {
+            "w": "alto",
+            "en": "tall"
+          },
+          {
+            "w": "solo",
+            "en": "alone"
+          }
+        ]
+      },
+      {
+        "text": "Barrymore también encontró una carta quemada de una mujer para sir Charles.",
+        "keys": [
+          {
+            "w": "encontró",
+            "en": "found"
+          },
+          {
+            "w": "carta",
+            "en": "letter"
+          },
+          {
+            "w": "quemada",
+            "en": "burned"
+          }
+        ]
+      },
+      {
+        "text": "El señor Frankland miraba el páramo todo el día con su gran telescopio.",
+        "keys": [
+          {
+            "w": "telescopio",
+            "en": "telescope"
+          },
+          {
+            "w": "miraba",
+            "en": "watched"
+          },
+          {
+            "w": "gran",
+            "en": "big"
+          }
+        ]
+      },
+      {
+        "text": "Laura Lyons le dijo a Watson que le pidió a sir Charles que se encontrara con ella.",
+        "keys": [
+          {
+            "w": "dijo",
+            "en": "told"
+          },
+          {
+            "w": "pidió",
+            "en": "asked"
+          },
+          {
+            "w": "encontrara",
+            "en": "meet"
+          }
+        ]
+      },
+      {
+        "text": "Ella nunca fue a la cita, porque alguien le dijo que se quedara en casa.",
+        "keys": [
+          {
+            "w": "nunca",
+            "en": "never"
+          },
+          {
+            "w": "cita",
+            "en": "meeting"
+          },
+          {
+            "w": "quedara",
+            "en": "stay"
+          }
+        ]
+      },
+      {
+        "text": "Frankland vio a un niño llevar comida a un hombre escondido en el páramo.",
+        "keys": [
+          {
+            "w": "niño",
+            "en": "boy"
+          },
+          {
+            "w": "comida",
+            "en": "food"
+          },
+          {
+            "w": "escondido",
+            "en": "hidden"
+          }
+        ]
+      },
+      {
+        "text": "Watson subió una colina rocosa y encontró unas casitas de piedra.",
+        "keys": [
+          {
+            "w": "colina",
+            "en": "hill"
+          },
+          {
+            "w": "rocosa",
+            "en": "rocky"
+          },
+          {
+            "w": "piedra",
+            "en": "stone"
+          }
+        ]
+      },
+      {
+        "text": "Dentro había una cama, algo de comida y una carta sobre el propio Watson.",
+        "keys": [
+          {
+            "w": "cama",
+            "en": "bed"
+          },
+          {
+            "w": "comida",
+            "en": "food"
+          },
+          {
+            "w": "carta",
+            "en": "letter"
+          }
+        ]
+      },
+      {
+        "text": "Watson se sorprendió mucho, porque el hombre de la cabaña era Sherlock Holmes.",
+        "keys": [
+          {
+            "w": "sorprendió",
+            "en": "amazed"
+          },
+          {
+            "w": "hombre",
+            "en": "man"
+          },
+          {
+            "w": "cabaña",
+            "en": "hut"
+          }
+        ]
+      },
+      {
+        "text": "Holmes había llegado en secreto para vigilar el páramo y a la gente de allí.",
+        "keys": [
+          {
+            "w": "secreto",
+            "en": "secret"
+          },
+          {
+            "w": "vigilar",
+            "en": "watch"
+          },
+          {
+            "w": "gente",
+            "en": "people"
+          }
+        ]
+      },
+      {
+        "text": "Oyeron un grito y encontraron a un hombre muerto con la ropa vieja de sir Henry.",
+        "keys": [
+          {
+            "w": "grito",
+            "en": "scream"
+          },
+          {
+            "w": "muerto",
+            "en": "dead"
+          },
+          {
+            "w": "ropa",
+            "en": "clothes"
+          }
+        ]
+      },
+      {
+        "text": "Era Selden, y luego llegó Stapleton, que parecía muy sorprendido al ver a Holmes.",
+        "keys": [
+          {
+            "w": "luego",
+            "en": "then"
+          },
+          {
+            "w": "llegó",
+            "en": "arrived"
+          },
+          {
+            "w": "sorprendido",
+            "en": "shocked"
+          }
+        ]
+      },
+      {
+        "text": "Holmes vio un cuadro antiguo de Hugo, y la cara se parecía a la de Stapleton.",
+        "keys": [
+          {
+            "w": "cuadro",
+            "en": "painting"
+          },
+          {
+            "w": "cara",
+            "en": "face"
+          },
+          {
+            "w": "antiguo",
+            "en": "old"
+          }
+        ]
+      },
+      {
+        "text": "El inspector Lestrade llegó de Londres, y Holmes le contó un plan inteligente.",
+        "keys": [
+          {
+            "w": "llegó",
+            "en": "came"
+          },
+          {
+            "w": "plan",
+            "en": "plan"
+          },
+          {
+            "w": "inteligente",
+            "en": "clever"
+          }
+        ]
+      },
+      {
+        "text": "Los tres hombres se escondieron cerca de Merripit House mientras llegaba una niebla espesa.",
+        "keys": [
+          {
+            "w": "escondieron",
+            "en": "hid"
+          },
+          {
+            "w": "niebla",
+            "en": "fog"
+          },
+          {
+            "w": "espesa",
+            "en": "thick"
+          }
+        ]
+      },
+      {
+        "text": "Sir Henry salió solo de la casa y volvió caminando a casa entre la niebla.",
+        "keys": [
+          {
+            "w": "solo",
+            "en": "alone"
+          },
+          {
+            "w": "niebla",
+            "en": "fog"
+          },
+          {
+            "w": "caminando",
+            "en": "walked"
+          }
+        ]
+      },
+      {
+        "text": "Un enorme sabueso saltó de la niebla, y su boca brillaba como fuego.",
+        "keys": [
+          {
+            "w": "sabueso",
+            "en": "hound"
+          },
+          {
+            "w": "saltó",
+            "en": "jumped"
+          },
+          {
+            "w": "boca",
+            "en": "mouth"
+          }
+        ]
+      },
+      {
+        "text": "Holmes disparó su pistola y el gran sabueso cayó muerto.",
+        "keys": [
+          {
+            "w": "disparó",
+            "en": "fired"
+          },
+          {
+            "w": "pistola",
+            "en": "gun"
+          },
+          {
+            "w": "muerto",
+            "en": "dead"
+          }
+        ]
+      },
+      {
+        "text": "El sabueso solo era un perro grande cubierto de pintura brillante.",
+        "keys": [
+          {
+            "w": "perro",
+            "en": "dog"
+          },
+          {
+            "w": "pintura",
+            "en": "paint"
+          },
+          {
+            "w": "brillante",
+            "en": "shining"
+          }
+        ]
+      },
+      {
+        "text": "Stapleton había atado a Beryl, y los hombres la encontraron en la casa.",
+        "keys": [
+          {
+            "w": "atado",
+            "en": "tied"
+          },
+          {
+            "w": "encontraron",
+            "en": "found"
+          },
+          {
+            "w": "casa",
+            "en": "house"
+          }
+        ]
+      },
+      {
+        "text": "Stapleton huyó por el páramo hacia el pantano en la oscuridad.",
+        "keys": [
+          {
+            "w": "huyó",
+            "en": "ran"
+          },
+          {
+            "w": "páramo",
+            "en": "moor"
+          },
+          {
+            "w": "pantano",
+            "en": "mire"
+          }
+        ]
+      },
+      {
+        "text": "Holmes siguió sus huellas hasta el pantano y encontró una bota perdida.",
+        "keys": [
+          {
+            "w": "huellas",
+            "en": "footprints"
+          },
+          {
+            "w": "bota",
+            "en": "boot"
+          },
+          {
+            "w": "perdida",
+            "en": "lost"
+          }
+        ]
+      },
+      {
+        "text": "Holmes dijo que Stapleton era un Baskerville y que quería la casa de la familia y el dinero.",
+        "keys": [
+          {
+            "w": "dijo",
+            "en": "said"
+          },
+          {
+            "w": "quería",
+            "en": "wanted"
+          },
+          {
+            "w": "dinero",
+            "en": "money"
+          }
+        ]
+      },
+      {
+        "text": "Stapleton usó al sabueso para asustar a sir Charles, y el anciano murió.",
+        "keys": [
+          {
+            "w": "usó",
+            "en": "used"
+          },
+          {
+            "w": "asustar",
+            "en": "scare"
+          },
+          {
+            "w": "murió",
+            "en": "died"
+          }
+        ]
+      },
+      {
+        "text": "Sir Henry se sintió débil después de esa noche, pero sus amigos lo cuidaron.",
+        "keys": [
+          {
+            "w": "débil",
+            "en": "weak"
+          },
+          {
+            "w": "noche",
+            "en": "night"
+          },
+          {
+            "w": "amigos",
+            "en": "friends"
+          }
+        ]
+      },
+      {
+        "text": "Más tarde, sir Henry y el doctor Mortimer hicieron un largo viaje por el mundo.",
+        "keys": [
+          {
+            "w": "viaje",
+            "en": "trip"
+          },
+          {
+            "w": "mundo",
+            "en": "world"
+          },
+          {
+            "w": "largo",
+            "en": "long"
+          }
+        ]
+      },
+      {
+        "text": "Holmes y Watson volvieron a Londres, y el caso se cerró.",
+        "keys": [
+          {
+            "w": "volvieron",
+            "en": "back"
+          },
+          {
+            "w": "caso",
+            "en": "case"
+          },
+          {
+            "w": "cerró",
+            "en": "closed"
+          }
+        ]
+      },
+      {
+        "text": "Esa tarde, en Baker Street, Holmes le pidió a Watson que fuera a la ópera.",
+        "keys": [
+          {
+            "w": "tarde",
+            "en": "evening"
+          },
+          {
+            "w": "pidió",
+            "en": "asked"
+          },
+          {
+            "w": "ópera",
+            "en": "opera"
+          }
+        ]
+      }
+    ],
+    "B1B2": [
+      {
+        "text": "Se ha dejado un bastón en Baker Street, y Sherlock Holmes lo estudia con atención. El doctor Watson está seguro de que su amigo aprenderá muchísimo de él en poco tiempo.",
+        "keys": [
+          {
+            "w": "bastón",
+            "en": "stick"
+          },
+          {
+            "w": "estudia",
+            "en": "studies"
+          },
+          {
+            "w": "aprenderá",
+            "en": "learn"
+          }
+        ]
+      },
+      {
+        "text": "Holmes dice que el dueño es un amable médico de campo que camina mucho y tiene un perrito. Watson se queda asombrado, aunque ha visto a su amigo hacer cosas así muchas veces.",
+        "keys": [
+          {
+            "w": "dueño",
+            "en": "owner"
+          },
+          {
+            "w": "médico",
+            "en": "doctor"
+          },
+          {
+            "w": "asombrado",
+            "en": "amazed"
+          }
+        ]
+      },
+      {
+        "text": "Un hombre alto y preocupado llama a la puerta y pregunta si alguien ha visto su bastón. Es el doctor Mortimer, y ha venido a ver a Holmes por un problema muy extraño.",
+        "keys": [
+          {
+            "w": "preocupado",
+            "en": "worried"
+          },
+          {
+            "w": "llama",
+            "en": "knocks"
+          },
+          {
+            "w": "problema",
+            "en": "problem"
+          }
+        ]
+      },
+      {
+        "text": "El doctor Mortimer saca un papel antiguo y lo lee en voz alta a la luz de una lámpara. Habla de Hugo Baskerville, un hombre cruel y salvaje que vivió una vez en Baskerville Hall.",
+        "keys": [
+          {
+            "w": "lee",
+            "en": "reads"
+          },
+          {
+            "w": "lámpara",
+            "en": "lamplight"
+          },
+          {
+            "w": "cruel",
+            "en": "cruel"
+          }
+        ]
+      },
+      {
+        "text": "Hugo encerró a la hija de un granjero en una habitación del piso de arriba, pero ella escapó por una ventana y corrió hacia el páramo. Hugo y sus amigos borrachos montaron de un salto en sus caballos y salieron tras ella.",
+        "keys": [
+          {
+            "w": "hija",
+            "en": "daughter"
+          },
+          {
+            "w": "ventana",
+            "en": "window"
+          },
+          {
+            "w": "escapó",
+            "en": "escaped"
+          }
+        ]
+      },
+      {
+        "text": "Por fin sus amigos encontraron a Hugo muerto en el páramo, con un enorme sabueso negro de pie sobre él. Desde aquella noche, dice la historia, una maldición persigue a todos los Baskerville.",
+        "keys": [
+          {
+            "w": "muerto",
+            "en": "dead"
+          },
+          {
+            "w": "sabueso",
+            "en": "hound"
+          },
+          {
+            "w": "maldición",
+            "en": "curse"
+          }
+        ]
+      },
+      {
+        "text": "El doctor Mortimer dice entonces que su amigo sir Charles Baskerville ha muerto hace poco en un sendero bordeado de tejos. En el pueblo la gente dice que la maldición de la familia por fin lo ha alcanzado.",
+        "keys": [
+          {
+            "w": "amigo",
+            "en": "friend"
+          },
+          {
+            "w": "maldición",
+            "en": "curse"
+          },
+          {
+            "w": "pueblo",
+            "en": "village"
+          }
+        ]
+      },
+      {
+        "text": "Cerca del cuerpo, Mortimer vio las huellas de un perro enorme, aunque nadie más les prestó atención. Holmes escucha con cuidado, porque quiere saber por qué un anciano tan amable murió de repente.",
+        "keys": [
+          {
+            "w": "huellas",
+            "en": "footprints"
+          },
+          {
+            "w": "enorme",
+            "en": "enormous"
+          },
+          {
+            "w": "escucha",
+            "en": "listens"
+          }
+        ]
+      },
+      {
+        "text": "A la mañana siguiente, sir Henry Baskerville, el nuevo dueño de Baskerville Hall, llega de Canadá y le muestra a Holmes una carta extraña. Le advierte que se aleje del páramo, y sus palabras están recortadas de un periódico.",
+        "keys": [
+          {
+            "w": "mañana",
+            "en": "morning"
+          },
+          {
+            "w": "llega",
+            "en": "arrives"
+          },
+          {
+            "w": "carta",
+            "en": "letter"
+          }
+        ]
+      },
+      {
+        "text": "Mientras sir Henry se queda en su hotel, alguien roba una bota marrón nueva de afuera de su puerta. La noche siguiente desaparece también una bota negra vieja, lo que no tiene sentido para nadie.",
+        "keys": [
+          {
+            "w": "bota",
+            "en": "boot"
+          },
+          {
+            "w": "roba",
+            "en": "steals"
+          },
+          {
+            "w": "desaparece",
+            "en": "disappears"
+          }
+        ]
+      },
+      {
+        "text": "Un hombre de barba negra ha estado siguiendo a sir Henry en un carruaje por todo Londres. Holmes corre tras él, pero el carruaje desaparece entre el tráfico y nadie llega a saber su nombre.",
+        "keys": [
+          {
+            "w": "barba",
+            "en": "beard"
+          },
+          {
+            "w": "siguiendo",
+            "en": "following"
+          },
+          {
+            "w": "tráfico",
+            "en": "traffic"
+          }
+        ]
+      },
+      {
+        "text": "Holmes no puede dejar Londres por otro caso importante, así que decide enviar a Watson a Devonshire. Watson debe quedarse cerca de sir Henry y escribirle a Holmes sobre todo lo que vea.",
+        "keys": [
+          {
+            "w": "caso",
+            "en": "case"
+          },
+          {
+            "w": "decide",
+            "en": "decides"
+          },
+          {
+            "w": "escribirle",
+            "en": "write"
+          }
+        ]
+      },
+      {
+        "text": "En la pequeña estación cerca de Dartmoor, unos soldados registran los campos porque se ha escapado un peligroso prisionero llamado Selden. Los viajeros siguen su camino en el crepúsculo, y las colinas solitarias se ven oscuras y frías.",
+        "keys": [
+          {
+            "w": "soldados",
+            "en": "soldiers"
+          },
+          {
+            "w": "prisionero",
+            "en": "prisoner"
+          },
+          {
+            "w": "colinas",
+            "en": "hills"
+          }
+        ]
+      },
+      {
+        "text": "Baskerville Hall se levanta al final de una larga avenida oscura, y sus muros grises parecen fríos. Barrymore, el mayordomo, y su esposa les dan la bienvenida con cortesía, pero ambos parecen inquietos.",
+        "keys": [
+          {
+            "w": "avenida",
+            "en": "avenue"
+          },
+          {
+            "w": "muros",
+            "en": "walls"
+          },
+          {
+            "w": "mayordomo",
+            "en": "butler"
+          }
+        ]
+      },
+      {
+        "text": "En medio de la noche, Watson se despierta y oye a alguien llorar suavemente en algún lugar de la casa. Por la mañana, los ojos de la señora Barrymore están rojos, pero ella no dice nada.",
+        "keys": [
+          {
+            "w": "despierta",
+            "en": "wakes"
+          },
+          {
+            "w": "llorar",
+            "en": "crying"
+          },
+          {
+            "w": "ojos",
+            "en": "eyes"
+          }
+        ]
+      },
+      {
+        "text": "En el páramo, Watson conoce a un amable naturalista llamado Jack Stapleton, que persigue mariposas con una red. Stapleton le advierte que se mantenga lejos del pantano de Grimpen, porque un solo paso en falso allí puede significar la muerte.",
+        "keys": [
+          {
+            "w": "naturalista",
+            "en": "naturalist"
+          },
+          {
+            "w": "mariposas",
+            "en": "butterflies"
+          },
+          {
+            "w": "advierte",
+            "en": "warns"
+          }
+        ]
+      },
+      {
+        "text": "Cuando el sol se pone, un aullido largo y profundo rueda por el páramo y le hiela la sangre a Watson. Stapleton dice que solo es un pájaro, pero no parece muy seguro.",
+        "keys": [
+          {
+            "w": "aullido",
+            "en": "howl"
+          },
+          {
+            "w": "sangre",
+            "en": "blood"
+          },
+          {
+            "w": "pájaro",
+            "en": "bird"
+          }
+        ]
+      },
+      {
+        "text": "Beryl Stapleton cruza la hierba apresurada, confunde a Watson con sir Henry y le ruega que abandone Devonshire de inmediato. Un momento después se da cuenta de su error y se aleja, asustada.",
+        "keys": [
+          {
+            "w": "hierba",
+            "en": "grass"
+          },
+          {
+            "w": "ruega",
+            "en": "begs"
+          },
+          {
+            "w": "asustada",
+            "en": "frightened"
+          }
+        ]
+      },
+      {
+        "text": "Sir Henry pronto se enamora de Beryl, pero a su hermano Jack no le gusta y le dice enojado que se mantenga alejado. Watson no entiende por qué Stapleton está tan molesto por una simple amistad.",
+        "keys": [
+          {
+            "w": "hermano",
+            "en": "brother"
+          },
+          {
+            "w": "entiende",
+            "en": "understand"
+          },
+          {
+            "w": "amistad",
+            "en": "friendship"
+          }
+        ]
+      },
+      {
+        "text": "Una noche, Watson despierta y ve una luz que se mueve por el corredor de arriba. Siguiéndola en silencio, descubre a Barrymore sosteniendo una vela en una ventana que da hacia el páramo.",
+        "keys": [
+          {
+            "w": "luz",
+            "en": "light"
+          },
+          {
+            "w": "corredor",
+            "en": "corridor"
+          },
+          {
+            "w": "vela",
+            "en": "candle"
+          }
+        ]
+      },
+      {
+        "text": "Cuando sir Henry y Watson le preguntan por qué, Barrymore admite que la vela es una señal para Selden, el prisionero fugado. Selden es el hermano menor de la señora Barrymore, y el matrimonio le ha estado llevando comida.",
+        "keys": [
+          {
+            "w": "admite",
+            "en": "admits"
+          },
+          {
+            "w": "señal",
+            "en": "signal"
+          },
+          {
+            "w": "comida",
+            "en": "food"
+          }
+        ]
+      },
+      {
+        "text": "Sir Henry quiere atrapar al prisionero, así que los dos hombres salen al páramo de noche. Pronto ven el rostro pálido de Selden a la luz de la luna, pero él huye por entre las rocas antes de que puedan alcanzarlo.",
+        "keys": [
+          {
+            "w": "atrapar",
+            "en": "catch"
+          },
+          {
+            "w": "rostro",
+            "en": "face"
+          },
+          {
+            "w": "rocas",
+            "en": "rocks"
+          }
+        ]
+      },
+      {
+        "text": "Cuando regresan, Watson ve a un hombre alto y delgado, completamente quieto sobre una roca contra la luna. Antes de que pueda gritar, el desconocido se desvanece, y los dos amigos se quedan solos con el viento.",
+        "keys": [
+          {
+            "w": "delgado",
+            "en": "thin"
+          },
+          {
+            "w": "quieto",
+            "en": "still"
+          },
+          {
+            "w": "desconocido",
+            "en": "stranger"
+          }
+        ]
+      },
+      {
+        "text": "Barrymore también entrega un trozo de papel quemado que encontró en la chimenea de sir Charles. El doctor Mortimer dice que las dos iniciales deben de pertenecer a Laura Lyons, que vive en Coombe Tracey.",
+        "keys": [
+          {
+            "w": "quemado",
+            "en": "burned"
+          },
+          {
+            "w": "chimenea",
+            "en": "fireplace"
+          },
+          {
+            "w": "iniciales",
+            "en": "initials"
+          }
+        ]
+      },
+      {
+        "text": "El señor Frankland, un vecino anciano, ruidoso y pendenciero, adora ir a los tribunales y pasa los días ante un telescopio en su techo. Todos en la zona saben que ve casi todo lo que ocurre en el páramo.",
+        "keys": [
+          {
+            "w": "telescopio",
+            "en": "telescope"
+          },
+          {
+            "w": "vecino",
+            "en": "neighbour"
+          },
+          {
+            "w": "techo",
+            "en": "roof"
+          }
+        ]
+      },
+      {
+        "text": "Watson visita a Laura Lyons en Coombe Tracey, y al principio ella se niega a decir nada sobre sir Charles. Por fin admite que le escribió, porque esperaba que él la ayudara con sus problemas de dinero.",
+        "keys": [
+          {
+            "w": "visita",
+            "en": "visits"
+          },
+          {
+            "w": "niega",
+            "en": "refuses"
+          },
+          {
+            "w": "dinero",
+            "en": "money"
+          }
+        ]
+      },
+      {
+        "text": "Ella dice que le pidió a sir Charles que se encontrara con ella en la puerta esa noche, pero nunca fue. Alguien en quien confiaba le dijo que se quedara en casa, aunque no quiere decir quién fue.",
+        "keys": [
+          {
+            "w": "puerta",
+            "en": "gate"
+          },
+          {
+            "w": "nunca",
+            "en": "never"
+          },
+          {
+            "w": "confiaba",
+            "en": "trusted"
+          }
+        ]
+      },
+      {
+        "text": "De camino a casa, Watson se encuentra con Frankland, que dice que un niño lleva comida a un hombre escondido en el páramo. Frankland ha observado al niño con su telescopio y señala la colina rocosa adonde va.",
+        "keys": [
+          {
+            "w": "niño",
+            "en": "boy"
+          },
+          {
+            "w": "escondido",
+            "en": "hidden"
+          },
+          {
+            "w": "señala",
+            "en": "points"
+          }
+        ]
+      },
+      {
+        "text": "Watson decide encontrar él mismo al hombre escondido, así que camina por el páramo hasta la colina rocosa. Allí hay antiguas cabañas de piedra entre las rocas, y la gente vivió en ellas hace miles de años.",
+        "keys": [
+          {
+            "w": "decide",
+            "en": "decides"
+          },
+          {
+            "w": "colina",
+            "en": "hill"
+          },
+          {
+            "w": "cabañas",
+            "en": "huts"
+          }
+        ]
+      },
+      {
+        "text": "Dentro de una cabaña, Watson encuentra una manta, unas latas de comida y una nota en un trozo de papel. Al leerla, se sorprende al ver que describe su propia visita a Coombe Tracey.",
+        "keys": [
+          {
+            "w": "manta",
+            "en": "blanket"
+          },
+          {
+            "w": "latas",
+            "en": "tins"
+          },
+          {
+            "w": "nota",
+            "en": "note"
+          }
+        ]
+      },
+      {
+        "text": "Se oyen pasos que se acercan en la oscuridad, y Watson espera detrás de una roca con la pistola en la mano. Entonces una voz tranquila y familiar llama, y el mismo Sherlock Holmes aparece en la puerta, sonriendo.",
+        "keys": [
+          {
+            "w": "pasos",
+            "en": "footsteps"
+          },
+          {
+            "w": "pistola",
+            "en": "gun"
+          },
+          {
+            "w": "voz",
+            "en": "voice"
+          }
+        ]
+      },
+      {
+        "text": "Holmes explica que ha estado viviendo en la vieja cabaña para vigilar el páramo sin ser visto. Se ha enterado de que alguien intenta hacerle daño a sir Henry, y tiene una buena idea de quién es.",
+        "keys": [
+          {
+            "w": "explica",
+            "en": "explains"
+          },
+          {
+            "w": "cabaña",
+            "en": "hut"
+          },
+          {
+            "w": "vigilar",
+            "en": "watch"
+          }
+        ]
+      },
+      {
+        "text": "Un grito terrible rompe el silencio de la noche, y los dos hombres corren hacia el sonido. Entre las rocas encuentran un cuerpo con la ropa vieja de sir Henry, y por un momento temen lo peor.",
+        "keys": [
+          {
+            "w": "grito",
+            "en": "scream"
+          },
+          {
+            "w": "silencio",
+            "en": "silence"
+          },
+          {
+            "w": "cuerpo",
+            "en": "body"
+          }
+        ]
+      },
+      {
+        "text": "Holmes da vuelta al cuerpo y ve que el muerto no es sir Henry, sino Selden, el prisionero fugado. En ese momento llega Stapleton apresurado, pálido y muy sorprendido de ver a Holmes allí.",
+        "keys": [
+          {
+            "w": "muerto",
+            "en": "dead"
+          },
+          {
+            "w": "prisionero",
+            "en": "prisoner"
+          },
+          {
+            "w": "pálido",
+            "en": "pale"
+          }
+        ]
+      },
+      {
+        "text": "De vuelta en Baskerville Hall, Holmes mira durante mucho tiempo un cuadro antiguo de Hugo Baskerville. De pronto ve que el rostro cruel tiene los mismos ojos y la misma barbilla que Stapleton.",
+        "keys": [
+          {
+            "w": "cuadro",
+            "en": "painting"
+          },
+          {
+            "w": "ojos",
+            "en": "eyes"
+          },
+          {
+            "w": "barbilla",
+            "en": "chin"
+          }
+        ]
+      },
+      {
+        "text": "El inspector Lestrade llega de Londres, y Holmes explica un plan para atrapar al villano. Sir Henry cenará en Merripit House y volverá a casa caminando por el páramo, mientras los tres hombres esperan cerca.",
+        "keys": [
+          {
+            "w": "plan",
+            "en": "plan"
+          },
+          {
+            "w": "villano",
+            "en": "villain"
+          },
+          {
+            "w": "cenará",
+            "en": "dine"
+          }
+        ]
+      },
+      {
+        "text": "En la noche elegida, Holmes, Watson y Lestrade se esconden entre las rocas cerca de Merripit House. Una espesa niebla blanca llega desde el pantano, y pronto casi no pueden ver sus propias manos.",
+        "keys": [
+          {
+            "w": "esconden",
+            "en": "hide"
+          },
+          {
+            "w": "niebla",
+            "en": "fog"
+          },
+          {
+            "w": "manos",
+            "en": "hands"
+          }
+        ]
+      },
+      {
+        "text": "Por fin se abre la puerta, y sir Henry sale y empieza a caminar a casa por el estrecho sendero. La niebla ya es espesa a su alrededor, y sus pasos suenan muy fuertes en el silencio.",
+        "keys": [
+          {
+            "w": "puerta",
+            "en": "door"
+          },
+          {
+            "w": "estrecho",
+            "en": "narrow"
+          },
+          {
+            "w": "silencio",
+            "en": "silence"
+          }
+        ]
+      },
+      {
+        "text": "De pronto un enorme sabueso negro salta de la niebla, y su boca y sus ojos parecen arder en llamas. Sir Henry grita y echa a correr, y el terrible animal lo sigue.",
+        "keys": [
+          {
+            "w": "salta",
+            "en": "leaps"
+          },
+          {
+            "w": "boca",
+            "en": "mouth"
+          },
+          {
+            "w": "animal",
+            "en": "animal"
+          }
+        ]
+      },
+      {
+        "text": "Holmes corre hacia adelante y dispara su revólver contra el costado del sabueso, y el enorme animal cae rodando con un aullido. Sir Henry yace pálido y temblando sobre la hierba, pero está ileso, y el sabueso nunca volverá a hacerle daño a nadie.",
+        "keys": [
+          {
+            "w": "dispara",
+            "en": "fires"
+          },
+          {
+            "w": "revólver",
+            "en": "revolver"
+          },
+          {
+            "w": "ileso",
+            "en": "unhurt"
+          }
+        ]
+      },
+      {
+        "text": "De cerca, la criatura no es un fantasma en absoluto, sino un perro muy grande. Su hocico y su pelaje han sido frotados con una sustancia química que brilla en la oscuridad, por eso parece un demonio.",
+        "keys": [
+          {
+            "w": "fantasma",
+            "en": "ghost"
+          },
+          {
+            "w": "brilla",
+            "en": "glows"
+          },
+          {
+            "w": "demonio",
+            "en": "demon"
+          }
+        ]
+      },
+      {
+        "text": "Los hombres corren a Merripit House, donde encuentran a Beryl atada en un dormitorio. Stapleton no es su hermano sino su esposo, y la ató porque ella no quiso ayudar con su plan.",
+        "keys": [
+          {
+            "w": "atada",
+            "en": "tied"
+          },
+          {
+            "w": "dormitorio",
+            "en": "bedroom"
+          },
+          {
+            "w": "esposo",
+            "en": "husband"
+          }
+        ]
+      },
+      {
+        "text": "Stapleton se ha ido, y el único escondite seguro para él es un sendero secreto a través del pantano de Grimpen. Holmes y Watson corren tras él en la espesa niebla, pero no saben adónde lleva el sendero.",
+        "keys": [
+          {
+            "w": "escondite",
+            "en": "hiding"
+          },
+          {
+            "w": "secreto",
+            "en": "secret"
+          },
+          {
+            "w": "niebla",
+            "en": "fog"
+          }
+        ]
+      },
+      {
+        "text": "Por la mañana, Holmes sigue las huellas de Stapleton hasta el borde del pantano, donde terminan en un barro verde y blando. A su lado está la bota perdida de sir Henry, y Holmes cree que el pantano se tragó a Stapleton, aunque nadie podrá probarlo jamás.",
+        "keys": [
+          {
+            "w": "huellas",
+            "en": "footprints"
+          },
+          {
+            "w": "barro",
+            "en": "mud"
+          },
+          {
+            "w": "bota",
+            "en": "boot"
+          }
+        ]
+      },
+      {
+        "text": "Holmes explica que Jack Stapleton era en realidad un Baskerville, sobrino de sir Charles y el siguiente heredero después de sir Henry. Quería la mansión y la fortuna de la familia, así que planeó eliminar a los dos hombres que se interponían en su camino.",
+        "keys": [
+          {
+            "w": "sobrino",
+            "en": "nephew"
+          },
+          {
+            "w": "heredero",
+            "en": "heir"
+          },
+          {
+            "w": "fortuna",
+            "en": "fortune"
+          }
+        ]
+      },
+      {
+        "text": "Stapleton tenía escondido en el pantano a un enorme perro, y lo cubrió con pintura brillante para copiar al sabueso de la leyenda. Sir Charles tenía el corazón débil y murió de miedo cuando la bestia corrió hacia él por el sendero de los tejos.",
+        "keys": [
+          {
+            "w": "pintura",
+            "en": "paint"
+          },
+          {
+            "w": "leyenda",
+            "en": "legend"
+          },
+          {
+            "w": "corazón",
+            "en": "heart"
+          }
+        ]
+      },
+      {
+        "text": "Sir Henry está conmocionado y débil después de su terrible noche, y el doctor Mortimer le dice que descanse. Poco a poco, con la ayuda de sus amigos, empieza a sentirse fuerte otra vez.",
+        "keys": [
+          {
+            "w": "débil",
+            "en": "weak"
+          },
+          {
+            "w": "terrible",
+            "en": "terrible"
+          },
+          {
+            "w": "descanse",
+            "en": "rest"
+          }
+        ]
+      },
+      {
+        "text": "Cuando tiene fuerzas suficientes, sir Henry decide hacer un largo viaje por mar con el doctor Mortimer, con la esperanza de olvidar su miedo. Antes de partir, les agradece a Holmes y a Watson con calidez, porque sabe que le salvaron la vida.",
+        "keys": [
+          {
+            "w": "viaje",
+            "en": "voyage"
+          },
+          {
+            "w": "olvidar",
+            "en": "forget"
+          },
+          {
+            "w": "agradece",
+            "en": "thanks"
+          }
+        ]
+      },
+      {
+        "text": "Holmes y Watson regresan a Londres en tren, cansados pero satisfechos. Detrás de ellos, la gente de Devonshire puede caminar otra vez por el páramo sin miedo al sabueso.",
+        "keys": [
+          {
+            "w": "tren",
+            "en": "train"
+          },
+          {
+            "w": "cansados",
+            "en": "tired"
+          },
+          {
+            "w": "miedo",
+            "en": "fear"
+          }
+        ]
+      },
+      {
+        "text": "En una noche de niebla en Baker Street, Holmes deja su pipa y sugiere que vayan a la ópera. Watson se ríe, contento de ver a su amigo relajado otra vez después de tantos días de peligro.",
+        "keys": [
+          {
+            "w": "pipa",
+            "en": "pipe"
+          },
+          {
+            "w": "sugiere",
+            "en": "suggests"
+          },
+          {
+            "w": "peligro",
+            "en": "danger"
+          }
+        ]
+      }
+    ],
+    "C1C2": [
+      {
+        "text": "Una mañana temprano en Baker Street, se descubrió un bastón ajeno apoyado junto a la puerta, y Sherlock Holmes se abalanzó sobre él como si fuera una carta escrita en su propia lengua. El doctor Watson, que había observado durante el desayuno el creciente deleite de su amigo, esperó la actuación que sabía inminente. Pocos detectives de Londres sabían leer un simple objeto con tanta minucia, y ninguno lo hacía con tan pausado placer.",
+        "keys": [
+          {
+            "w": "bastón",
+            "en": "stick"
+          },
+          {
+            "w": "deleite",
+            "en": "delight"
+          },
+          {
+            "w": "placer",
+            "en": "pleasure"
+          }
+        ]
+      },
+      {
+        "text": "Con un ademán teatral, Holmes anunció que el dueño del bastón era un médico de campo, respetado por sus vecinos y aficionado a los perros, pues las marcas de sus dientes se veían claras en el mango. Watson, que hacía tiempo había renunciado a sorprender a su amigo en un error, escuchó con esa mezcla de asombro e irritación que siempre producían estas exhibiciones. Cada detalle, por humilde que fuera, parecía confesarle a Holmes la historia del hombre que lo había llevado.",
+        "keys": [
+          {
+            "w": "dientes",
+            "en": "teeth"
+          },
+          {
+            "w": "mango",
+            "en": "handle"
+          },
+          {
+            "w": "irritación",
+            "en": "irritation"
+          }
+        ]
+      },
+      {
+        "text": "Su conversación fue interrumpida por una figura alta y encorvada que entró apresuradamente sin ceremonia, escudriñando con ansiedad la habitación en busca del bastón que había olvidado. Era el doctor Mortimer, un médico de campo de modales gentiles, y la tensión de su rostro delataba que había venido por algo más que un bastón extraviado. Había viajado a Baker Street, dijo, para exponer ante el gran detective un asunto que lo inquietaba desde hacía semanas.",
+        "keys": [
+          {
+            "w": "encorvada",
+            "en": "stooping"
+          },
+          {
+            "w": "tensión",
+            "en": "strain"
+          },
+          {
+            "w": "asunto",
+            "en": "matter"
+          }
+        ]
+      },
+      {
+        "text": "Sacando un manuscrito amarillento de su abrigo, el doctor Mortimer se acomodó junto a la lámpara y empezó a leer con voz baja y firme. Hablaba de Hugo Baskerville, un hacendado de temperamento salvaje y costumbres perversas, que había gobernado Baskerville Hall en tiempos de la Guerra Civil. Incluso la crónica de la propia familia, al parecer, admitía que nadie en la comarca lo había querido jamás, y pocos se habían atrevido a contrariarlo.",
+        "keys": [
+          {
+            "w": "manuscrito",
+            "en": "manuscript"
+          },
+          {
+            "w": "temperamento",
+            "en": "temper"
+          },
+          {
+            "w": "crónica",
+            "en": "chronicle"
+          }
+        ]
+      },
+      {
+        "text": "Una noche de otoño, Hugo se llevó a la hija de un granjero, la encerró en una habitación del piso alto y se sentó a banquetear abajo con sus compañeros borrachos. La muchacha aterrorizada, sin embargo, bajó por la ventana y huyó por el oscuro páramo hacia la granja de su padre. Cuando Hugo descubrió su fuga, montó en cólera, pidió su caballo y salió en su persecución con sus compañeros pisándole los talones.",
+        "keys": [
+          {
+            "w": "otoño",
+            "en": "autumn"
+          },
+          {
+            "w": "ventana",
+            "en": "window"
+          },
+          {
+            "w": "caballo",
+            "en": "horse"
+          }
+        ]
+      },
+      {
+        "text": "Al cabo, los jinetes encontraron a la muchacha muerta en el páramo, agotada por el terror y el cansancio, y el propio Hugo yacía sin vida a su lado. Sobre su cuerpo, juraron, se erguía un enorme sabueso negro, de ojos ardientes como brasas, que huyó aullando hacia la noche. Desde aquel día, advertía la crónica, la misma figura había rondado a los Baskerville, y la familia había vivido bajo la sombra de su maldición.",
+        "keys": [
+          {
+            "w": "jinetes",
+            "en": "riders"
+          },
+          {
+            "w": "brasas",
+            "en": "coals"
+          },
+          {
+            "w": "sombra",
+            "en": "shadow"
+          }
+        ]
+      },
+      {
+        "text": "El doctor Mortimer cerró el manuscrito y habló más bajo, pues había llegado al verdadero motivo de su visita. Su amigo y paciente, sir Charles Baskerville, había sido hallado muerto al final de la alameda de tejos junto a la mansión, y en el pueblo ya se murmuraba que la vieja maldición había reclamado otra víctima. Sir Charles, hombre generoso y de corazón débil, había salido a dar su acostumbrado paseo vespertino y nunca había regresado.",
+        "keys": [
+          {
+            "w": "motivo",
+            "en": "reason"
+          },
+          {
+            "w": "víctima",
+            "en": "victim"
+          },
+          {
+            "w": "generoso",
+            "en": "generous"
+          }
+        ]
+      },
+      {
+        "text": "Entonces Mortimer añadió el detalle que no había mencionado a nadie más: junto al cuerpo había visto las huellas de un perro enorme. Holmes, que había escuchado con los ojos entrecerrados, se incorporó de golpe y deseó en voz alta haber visto él mismo la escena. El asunto, declaró, era mucho más extraño y peligroso que una leyenda de pueblo, y se proponía examinarlo con sumo cuidado.",
+        "keys": [
+          {
+            "w": "huellas",
+            "en": "footprints"
+          },
+          {
+            "w": "leyenda",
+            "en": "legend"
+          },
+          {
+            "w": "peligroso",
+            "en": "dangerous"
+          }
+        ]
+      },
+      {
+        "text": "La cuestión era urgente, pues sir Henry Baskerville, último de la estirpe, acababa de llegar de Canadá para reclamar la mansión, y Mortimer temía por su seguridad. Sir Henry, un joven franco y alegre, llegó a Baker Street a la mañana siguiente con una carta que había recibido en su hotel. Sus palabras habían sido recortadas de un periódico y pegadas en una hoja, y le exhortaban, si apreciaba su vida o su razón, a mantenerse lejos del páramo.",
+        "keys": [
+          {
+            "w": "estirpe",
+            "en": "line"
+          },
+          {
+            "w": "franco",
+            "en": "frank"
+          },
+          {
+            "w": "recortadas",
+            "en": "clipped"
+          }
+        ]
+      },
+      {
+        "text": "Los sucesos extraños se multiplicaron casi de inmediato, pues durante su primera noche en Londres desapareció una bota marrón nueva de afuera de la habitación de hotel de sir Henry. A la noche siguiente se esfumó en su lugar otra bota distinta y mucho más vieja, y sir Henry, que no lograba entender semejantes robos triviales, se mostró más irritado que asustado. Holmes, en cambio, trató el asunto con la mayor seriedad, como si el cuero perdido pudiera conducirlo al corazón mismo del misterio.",
+        "keys": [
+          {
+            "w": "bota",
+            "en": "boot"
+          },
+          {
+            "w": "irritado",
+            "en": "irritated"
+          },
+          {
+            "w": "misterio",
+            "en": "mystery"
+          }
+        ]
+      },
+      {
+        "text": "Mientras recorrían las calles abarrotadas, Holmes vio a un hombre de espesa barba negra que los observaba desde un carruaje que pasaba. Se lanzó tras el vehículo, pero el tráfico se tragó el carruaje y el vigilante se le escapó. Con todo, el cochero, una vez localizado, informó que su pasajero había dado el nombre de Sherlock Holmes, una desfachatez que el detective admiró.",
+        "keys": [
+          {
+            "w": "barba",
+            "en": "beard"
+          },
+          {
+            "w": "tráfico",
+            "en": "traffic"
+          },
+          {
+            "w": "desfachatez",
+            "en": "impudence"
+          }
+        ]
+      },
+      {
+        "text": "El deber retenía a Holmes en Londres, donde otro caso reclamaba su atención, y no podía acompañar de inmediato a su cliente a Devonshire. Por eso le encomendó la tarea a Watson, indicándole que jamás dejara solo a sir Henry en el páramo después del anochecer. Watson debía observarlo todo, informar fielmente por carta y no confiar en nada que no pudiera ver por sí mismo.",
+        "keys": [
+          {
+            "w": "deber",
+            "en": "duty"
+          },
+          {
+            "w": "encomendó",
+            "en": "entrusted"
+          },
+          {
+            "w": "fielmente",
+            "en": "faithfully"
+          }
+        ]
+      },
+      {
+        "text": "Su tren los llevó hacia el oeste, a Devonshire, y en una diminuta estación una fila de soldados escrutaba los campos en busca de Selden, un convicto que se había fugado de la prisión cercana. Mientras el carruaje traqueteaba hacia la mansión en el crepúsculo que se espesaba, las colinas de Dartmoor se alzaban a su alrededor, áridas, silenciosas y extrañamente amenazantes. Sir Henry contempló la tierra de sus antepasados con una curiosa mezcla de entusiasmo e inquietud.",
+        "keys": [
+          {
+            "w": "convicto",
+            "en": "convict"
+          },
+          {
+            "w": "amenazantes",
+            "en": "threatening"
+          },
+          {
+            "w": "antepasados",
+            "en": "ancestors"
+          }
+        ]
+      },
+      {
+        "text": "Baskerville Hall apareció por fin al final de una larga avenida de árboles oscuros, con su fachada de piedra gris reluciendo débilmente en el crepúsculo. Barrymore, el mayordomo, y su esposa, la señora Barrymore, los recibieron en el gran vestíbulo con grave cortesía, aunque ambos parecían curiosamente nerviosos. No era el regreso al hogar que sir Henry había imaginado, y la penumbra del lugar se asentó sobre los tres hombres.",
+        "keys": [
+          {
+            "w": "avenida",
+            "en": "avenue"
+          },
+          {
+            "w": "cortesía",
+            "en": "courtesy"
+          },
+          {
+            "w": "penumbra",
+            "en": "gloom"
+          }
+        ]
+      },
+      {
+        "text": "Esa noche Watson yacía despierto en su vieja habitación revestida de paneles y, en la quietud entre las campanadas del reloj del vestíbulo, oyó el inconfundible sonido de una mujer sollozando. El ruido venía de algún lugar dentro de la casa, sofocado y amargo, y cesó antes de que pudiera rastrearlo hasta su origen. En el desayuno, los ojos de la señora Barrymore estaban hinchados de llorar, y aun así respondió a cada pregunta con una negativa rotunda.",
+        "keys": [
+          {
+            "w": "sollozando",
+            "en": "sobbing"
+          },
+          {
+            "w": "sofocado",
+            "en": "muffled"
+          },
+          {
+            "w": "hinchados",
+            "en": "swollen"
+          }
+        ]
+      },
+      {
+        "text": "En su primer paseo por el páramo, Watson se topó con un naturalista delgado y bronceado llamado Jack Stapleton, que corría tras una mariposa con una red y un entusiasmo que desarmaba toda sospecha. Stapleton le señaló la verde e inocente alfombra del pantano de Grimpen, donde, según dijo, un solo paso en falso podía tragarse a un hombre o a un poni sin dejar rastro. Hablaba del lugar con una calma familiar, como quien habla de un viejo conocido cuyo carácter conoce bien.",
+        "keys": [
+          {
+            "w": "bronceado",
+            "en": "sunburnt"
+          },
+          {
+            "w": "alfombra",
+            "en": "carpet"
+          },
+          {
+            "w": "conocido",
+            "en": "acquaintance"
+          }
+        ]
+      },
+      {
+        "text": "El crepúsculo cayó sobre el páramo mientras conversaban, y desde algún lugar lejano, más allá de la oscura ondulación de las colinas, rodó un aullido largo, grave y lastimero que erizó el vello de la nuca de Watson. Stapleton, cuyo rostro había cambiado por un instante, lo desechó con una risa y dijo que el sonido era solo algún pájaro, o quizá el gemido del propio pantano. Watson aceptó la explicación con cortesía, pero notó que la mano del naturalista había temblado.",
+        "keys": [
+          {
+            "w": "lastimero",
+            "en": "mournful"
+          },
+          {
+            "w": "gemido",
+            "en": "groaning"
+          },
+          {
+            "w": "temblado",
+            "en": "trembled"
+          }
+        ]
+      },
+      {
+        "text": "En otro paseo, Watson se sobresaltó al ver a Beryl Stapleton, que venía apresurada por la hierba hacia él, con el rostro pálido y las palabras atropellándose demasiado deprisa para seguirlas. Lo había confundido con sir Henry, y le suplicó, con desesperada sinceridad, que volviera a Londres de inmediato y que nunca regresara al páramo. Al darse cuenta de su error, se interrumpió, balbuceó algo sobre una equivocación y se alejó apresuradamente por el brezal sin mirar atrás ni una vez.",
+        "keys": [
+          {
+            "w": "sobresaltó",
+            "en": "startled"
+          },
+          {
+            "w": "suplicó",
+            "en": "begged"
+          },
+          {
+            "w": "balbuceó",
+            "en": "stammered"
+          }
+        ]
+      },
+      {
+        "text": "Entretanto, sir Henry se había enamorado perdidamente de Beryl, cuya callada belleza contrastaba vivamente con el sombrío páramo. Su hermano, como entonces parecía ser Jack Stapleton, tomó el cortejo con abierto disgusto y le rogó al joven heredero que le diera tiempo. Watson, intrigado por tanta ansiedad ante una inocente relación, guardó la rareza en su memoria para más adelante.",
+        "keys": [
+          {
+            "w": "sombrío",
+            "en": "sombre"
+          },
+          {
+            "w": "cortejo",
+            "en": "courtship"
+          },
+          {
+            "w": "rareza",
+            "en": "oddity"
+          }
+        ]
+      },
+      {
+        "text": "Una noche, ya tarde, Watson despertó al oír unos pasos suaves y, deslizándose al corredor, vio una luz que se movía con sigilo por el piso de arriba. La siguió hasta el final del pasillo, donde Barrymore permanecía inmóvil junto a una ventana con una vela en alto, mirando la negra extensión del páramo. Era claramente una señal, y la rígida atención del mayordomo sugería que esperaba una respuesta.",
+        "keys": [
+          {
+            "w": "corredor",
+            "en": "corridor"
+          },
+          {
+            "w": "vela",
+            "en": "candle"
+          },
+          {
+            "w": "mayordomo",
+            "en": "butler"
+          }
+        ]
+      },
+      {
+        "text": "Cuando sir Henry y Watson lo enfrentaron a la mañana siguiente, Barrymore primero protestó y luego confesó que la vela era una señal para Selden, el convicto fugado que se ocultaba en el páramo. Selden, admitió, era el hermano menor de su esposa, y el matrimonio le había llevado comida en secreto desde que se había escapado de la cárcel. Eran los sollozos que Watson había oído su primera noche, pues la señora Barrymore estaba frenética de preocupación por el hermano al que no podía abandonar.",
+        "keys": [
+          {
+            "w": "confesó",
+            "en": "confessed"
+          },
+          {
+            "w": "admitió",
+            "en": "admitted"
+          },
+          {
+            "w": "frenética",
+            "en": "frantic"
+          }
+        ]
+      },
+      {
+        "text": "Sir Henry, aunque compadecido del matrimonio, no estaba dispuesto a dejar suelto a un hombre peligroso, y esa misma noche él y Watson salieron al páramo. La luna brillaba, las rocas yacían negras sobre la hierba plateada y, al poco, un rostro pálido y salvaje apareció entre las piedras: el de Selden en persona. Antes de que pudieran alcanzarlo, el convicto se alejó de un salto entre los peñascos y se perdió en la oscuridad.",
+        "keys": [
+          {
+            "w": "compadecido",
+            "en": "sympathetic"
+          },
+          {
+            "w": "plateada",
+            "en": "silver"
+          },
+          {
+            "w": "peñascos",
+            "en": "boulders"
+          }
+        ]
+      },
+      {
+        "text": "Al volver, Watson alzó la vista y vio, recortada contra la luna llena en un risco lejano, la figura de un hombre alto y delgado, perfectamente inmóvil. El desconocido parecía vigilar el páramo como un centinela, y desapareció antes de que Watson pudiera gritar o levantar su arma. En ese instante comprendió que el páramo guardaba otro secreto además del convicto, y uno mucho más peligroso.",
+        "keys": [
+          {
+            "w": "risco",
+            "en": "crag"
+          },
+          {
+            "w": "centinela",
+            "en": "sentry"
+          },
+          {
+            "w": "secreto",
+            "en": "secret"
+          }
+        ]
+      },
+      {
+        "text": "Barrymore tenía una contribución más que hacer: un trozo de papel quemado que había encontrado en la chimenea del estudio de sir Charles, con el débil final de una nota de mujer. Le pedía al anciano caballero que estuviera en la puerta a las diez y que quemara el mensaje, y estaba firmada solo con dos iniciales. El doctor Mortimer, al ser consultado, dijo que las letras debían de pertenecer a Laura Lyons, una joven que vivía en Coombe Tracey.",
+        "keys": [
+          {
+            "w": "contribución",
+            "en": "contribution"
+          },
+          {
+            "w": "mensaje",
+            "en": "message"
+          },
+          {
+            "w": "consultado",
+            "en": "consulted"
+          }
+        ]
+      },
+      {
+        "text": "En la comarca nadie era más conocido que el señor Frankland, un anciano caballero ruidoso y pendenciero que nada amaba tanto como un pleito. Cuando no estaba demandando a alguien, se sentaba en el techo de su casa con un telescopio, rastreando el páramo en busca de cualquier cosa que pudiera proporcionarle una queja o un chisme. Poco, en consecuencia, escapaba a su atención, y Watson pronto comprendió cuán útil podía ser eso.",
+        "keys": [
+          {
+            "w": "pendenciero",
+            "en": "quarrelsome"
+          },
+          {
+            "w": "pleito",
+            "en": "lawsuit"
+          },
+          {
+            "w": "chisme",
+            "en": "gossip"
+          }
+        ]
+      },
+      {
+        "text": "Decidido a averiguar la verdad, Watson fue en coche a Coombe Tracey y visitó a Laura Lyons, quien lo recibió con cautelosa cortesía y al principio se negó a hablar de sir Charles. Sin embargo, ante un interrogatorio constante, admitió que le había escrito en desesperada necesidad de dinero, con la esperanza de que él se compadeciera de su situación y saldara sus deudas. Su tono era desafiante, pero Watson sintió que ocultaba mucho más de lo que contaba.",
+        "keys": [
+          {
+            "w": "interrogatorio",
+            "en": "questioning"
+          },
+          {
+            "w": "deudas",
+            "en": "debts"
+          },
+          {
+            "w": "desafiante",
+            "en": "defiant"
+          }
+        ]
+      },
+      {
+        "text": "Ella le había pedido a sir Charles que se encontrara con ella en la puerta la noche en que murió, dijo, pero nunca había ido, pues un amigo la había persuadido de quedarse en casa. Quién era ese amigo se negó obstinadamente a decirlo, y Watson, observándole el rostro, estuvo seguro de que el nombre importaría mucho. Sir Charles había esperado solo en la puerta, entonces, y había caminado de un lado a otro por la oscura alameda sin nadie que lo recibiera.",
+        "keys": [
+          {
+            "w": "persuadido",
+            "en": "persuaded"
+          },
+          {
+            "w": "obstinadamente",
+            "en": "steadfastly"
+          },
+          {
+            "w": "alameda",
+            "en": "alley"
+          }
+        ]
+      },
+      {
+        "text": "Al volver por el páramo, Watson se topó de nuevo con Frankland, quien estaba fuera de sí de placer por un descubrimiento, pues a través de su telescopio había visto a un muchacho llevando una cesta de comida hacia una colina distante. El chico iba allí todos los días, insistió, y solo podía estar alimentando a un hombre escondido, a quien Frankland imaginaba el convicto. Watson, que sabía muy bien de dónde sacaba el convicto su comida, extrajo una conclusión muy distinta y le dio las gracias con gravedad.",
+        "keys": [
+          {
+            "w": "descubrimiento",
+            "en": "discovery"
+          },
+          {
+            "w": "insistió",
+            "en": "insisted"
+          },
+          {
+            "w": "conclusión",
+            "en": "conclusion"
+          }
+        ]
+      },
+      {
+        "text": "A la tarde siguiente Watson trepó él mismo a la colina rocosa, una cumbre desolada coronada por las cabañas de piedra sin techo de algún pueblo prehistórico. Pasó de cabaña en cabaña con el revólver en el bolsillo, escuchando el viento y atento a cualquier rastro del hombre desconocido. Entre todas las ruinas, una pequeña vivienda parecía mucho menos abandonada que las demás, y su entrada estaba oscura y silenciosa.",
+        "keys": [
+          {
+            "w": "cumbre",
+            "en": "summit"
+          },
+          {
+            "w": "viento",
+            "en": "wind"
+          },
+          {
+            "w": "abandonada",
+            "en": "abandoned"
+          }
+        ]
+      },
+      {
+        "text": "Dentro de la cabaña, Watson encontró una manta enrollada, unas latas de comida, una cantimplora y, sobre una piedra plana, un trozo de papel con una letra pulcra y desconocida. Decía, en pocas palabras breves, que el doctor Watson había ido a Coombe Tracey. Se quedó muy quieto, comprendiendo por fin que alguien lo había seguido durante todas sus gestiones privadas.",
+        "keys": [
+          {
+            "w": "manta",
+            "en": "blanket"
+          },
+          {
+            "w": "plana",
+            "en": "flat"
+          },
+          {
+            "w": "gestiones",
+            "en": "errands"
+          }
+        ]
+      },
+      {
+        "text": "Entonces sonaron pasos afuera, lentos y sin prisa, y Watson se agazapó entre las sombras con el revólver amartillado y el corazón desbocado. Una voz que conocía mejor que ninguna otra en el mundo llamó suavemente en la oscuridad, y una alta figura apareció en el pálido umbral iluminado por la luna. Era Sherlock Holmes, sonriendo ante el asombro de su amigo, y todo el misterio del extraño en el risco encajó en su sitio.",
+        "keys": [
+          {
+            "w": "pasos",
+            "en": "footsteps"
+          },
+          {
+            "w": "umbral",
+            "en": "doorway"
+          },
+          {
+            "w": "asombro",
+            "en": "astonishment"
+          }
+        ]
+      },
+      {
+        "text": "Holmes explicó que había venido desde Londres en secreto, dejando a Watson como guardián visible mientras él vivía sin ser visto en la cabaña, donde ningún enemigo pensaría en buscarlo. Había leído con atención cada uno de los informes de Watson, y había reunido por su cuenta lo suficiente para sospechar de una mano astuta y despiadada detrás de todo el asunto. El peligro, advirtió, distaba mucho de haber pasado, y sir Henry, que no sospechaba nada, seguía siendo la víctima elegida de un enemigo paciente y decidido.",
+        "keys": [
+          {
+            "w": "guardián",
+            "en": "guardian"
+          },
+          {
+            "w": "despiadada",
+            "en": "ruthless"
+          },
+          {
+            "w": "paciente",
+            "en": "patient"
+          }
+        ]
+      },
+      {
+        "text": "Antes de que pudieran seguir hablando, un grito terrible se elevó desde la oscuridad, un grito de tal agonía que ambos hombres se levantaron de un salto y corrieron hacia él entre las rocas. Al pie de un risco yacía un cuerpo con la conocida ropa vieja de sir Henry, y por un momento espantoso creyeron haber llegado demasiado tarde. Holmes se arrodilló junto al cuerpo, encendió un fósforo y contuvo bruscamente el aliento mientras la pequeña llama temblaba sobre el rostro del muerto.",
+        "keys": [
+          {
+            "w": "agonía",
+            "en": "agony"
+          },
+          {
+            "w": "espantoso",
+            "en": "dreadful"
+          },
+          {
+            "w": "fósforo",
+            "en": "match"
+          }
+        ]
+      },
+      {
+        "text": "El rostro, a esa pequeña luz, no era el de sir Henry sino el de Selden, pues Barrymore le había dado al convicto un fardo de prendas desechadas de su amo. El hombre había caído del risco en su huida, y el cuerpo sin vida hablaba más de terror que de violencia. En ese momento una figura llegó apresurada entre el brezo, y Stapleton, con la red aún en la mano, se detuvo en seco y miró a Holmes con indisimulado desconcierto.",
+        "keys": [
+          {
+            "w": "fardo",
+            "en": "bundle"
+          },
+          {
+            "w": "huida",
+            "en": "flight"
+          },
+          {
+            "w": "desconcierto",
+            "en": "dismay"
+          }
+        ]
+      },
+      {
+        "text": "De vuelta en Baskerville Hall, Holmes se detuvo ante los retratos de los antepasados de los Baskerville, hasta que su mirada se posó en un cuadro de Hugo con su atuendo de caballero del rey. Cubrió con la mano el sombrero y el cabello largo, y el rostro cruel y estrecho que había debajo de pronto le resultó asombrosamente familiar. Era el rostro de Jack Stapleton, y Holmes comprendió por fin que el naturalista llevaba sangre de los Baskerville.",
+        "keys": [
+          {
+            "w": "retratos",
+            "en": "portraits"
+          },
+          {
+            "w": "estrecho",
+            "en": "narrow"
+          },
+          {
+            "w": "sangre",
+            "en": "blood"
+          }
+        ]
+      },
+      {
+        "text": "El inspector Lestrade llegó de Londres con la tranquila confianza de quien ha sido convocado para consumar un arresto, y Holmes desplegó su plan durante la cena. Sir Henry cenaría en Merripit House con los Stapleton y volvería a casa solo por el páramo, como ya lo había hecho antes, mientras los tres amigos esperaban en la oscuridad. Era un cebo peligroso, pero era la única manera de atrapar al culpable con las manos en la masa.",
+        "keys": [
+          {
+            "w": "convocado",
+            "en": "summoned"
+          },
+          {
+            "w": "cebo",
+            "en": "bait"
+          },
+          {
+            "w": "culpable",
+            "en": "culprit"
+          }
+        ]
+      },
+      {
+        "text": "En la noche señalada, los tres hombres se agazaparon entre las rocas cerca de Merripit House, envueltos en sus abrigos, mientras una espesa niebla blanca empezaba a arrastrarse hacia ellos desde la dirección del pantano de Grimpen. Subió sin pausa por la tierra baja hasta que la casa fue un tenue destello amarillo y el sendero hacia Baskerville Hall se desvaneció por completo. Holmes, que había contado con una luna clara, masculló una maldición, pues la niebla era un peligro que nadie podría haber previsto.",
+        "keys": [
+          {
+            "w": "envueltos",
+            "en": "wrapped"
+          },
+          {
+            "w": "destello",
+            "en": "glimmer"
+          },
+          {
+            "w": "masculló",
+            "en": "muttered"
+          }
+        ]
+      },
+      {
+        "text": "Por fin se abrió una puerta en la casa, y sir Henry salió al frío y echó a andar por el sendero que llevaba a su hogar a través del páramo, con paso deliberado y firme. Sus pasos se hicieron más débiles a medida que la niebla se espesaba a su alrededor, hasta que los vigías podían oírlo pero apenas verlo. Holmes aferró su revólver y contuvo la respiración, pues todo instinto le decía que el enemigo estaba cerca.",
+        "keys": [
+          {
+            "w": "deliberado",
+            "en": "deliberate"
+          },
+          {
+            "w": "vigías",
+            "en": "watchers"
+          },
+          {
+            "w": "instinto",
+            "en": "instinct"
+          }
+        ]
+      },
+      {
+        "text": "Entonces, con un grito repentino y ensordecedor desde la oscuridad, un enorme sabueso negro irrumpió de la niebla y se lanzó por el sendero tras sir Henry. Sus ojos brillaban con un fuego horrendo, sus fauces estaban envueltas en llamas, y su tamaño era tal que parecía más una criatura de pesadilla que de la naturaleza. Sir Henry, con un grito de horror, se arrojó hacia adelante y corrió por su vida, con el monstruo saltando tras él.",
+        "keys": [
+          {
+            "w": "ensordecedor",
+            "en": "deafening"
+          },
+          {
+            "w": "pesadilla",
+            "en": "nightmare"
+          },
+          {
+            "w": "monstruo",
+            "en": "monster"
+          }
+        ]
+      },
+      {
+        "text": "Holmes, Watson y Lestrade salieron de un salto de su escondite y corrieron hacia ellos, y en ese instante Holmes alzó su revólver y disparó una y otra vez contra el flanco de la bestia. Con un último aullido el gran animal saltó en el aire y rodó sobre la hierba, y luego quedó inmóvil. Sir Henry yacía en el suelo cerca de allí, blanco como el papel y temblando, pero sin una sola marca en el cuerpo.",
+        "keys": [
+          {
+            "w": "flanco",
+            "en": "flank"
+          },
+          {
+            "w": "aullido",
+            "en": "howl"
+          },
+          {
+            "w": "temblando",
+            "en": "shaking"
+          }
+        ]
+      },
+      {
+        "text": "Una mirada más cercana mostró que la cosa era un sabueso magnífico pero del todo corriente, mitad perro de presa y mitad mastín, aunque su hocico y su cuello habían sido untados con alguna preparación que brillaba con una pálida llama. La sustancia era fósforo, y su resplandor en la niebla había bastado para convertir a un animal vivo en un espectro de la vieja leyenda. Aquí no había nada sobrenatural, dijo Holmes, solo una mente humana astuta que había comprendido hasta dónde se podía llevar el miedo.",
+        "keys": [
+          {
+            "w": "mastín",
+            "en": "mastiff"
+          },
+          {
+            "w": "espectro",
+            "en": "spectre"
+          },
+          {
+            "w": "sobrenatural",
+            "en": "supernatural"
+          }
+        ]
+      },
+      {
+        "text": "Dejando a la criatura muerta en el sendero, los hombres corrieron a Merripit House y entraron a la fuerza, donde no hallaron rastro de su dueño. En una habitación del piso de arriba, atada a un poste con tiras de sábana, encontraron a Beryl Stapleton, agotada pero viva. No era en absoluto la hermana de Stapleton, según supieron entonces, sino su esposa, y él la había atado allí porque se había negado a participar en su trama.",
+        "keys": [
+          {
+            "w": "poste",
+            "en": "post"
+          },
+          {
+            "w": "agotada",
+            "en": "exhausted"
+          },
+          {
+            "w": "trama",
+            "en": "scheme"
+          }
+        ]
+      },
+      {
+        "text": "Stapleton había huido, y solo un camino le quedaba abierto en aquella noche ciega: el sendero oculto a través del pantano de Grimpen que solo él conocía. Holmes y Watson se internaron tras él en la niebla, llamando y escuchando, pero la blancura se tragaba todo sonido. Se vieron obligados a esperar la luz del día, sabiendo que el hombre al que perseguían tenía toda la ventaja del conocimiento.",
+        "keys": [
+          {
+            "w": "ciega",
+            "en": "blind"
+          },
+          {
+            "w": "blancura",
+            "en": "whiteness"
+          },
+          {
+            "w": "ventaja",
+            "en": "advantage"
+          }
+        ]
+      },
+      {
+        "text": "Al amanecer, Holmes encontró las huellas de Stapleton y las siguió hasta el borde del pantano, donde las varitas que marcaban el sendero seguro se adentraban en el cieno verde. Allí se detenían los rastros, y cerca de ellos yacía la vieja bota negra de sir Henry, arrojada como una herramienta inútil. Nunca se halló ningún cuerpo, y Holmes concluyó que el pantano se había tragado al hombre que mejor lo conocía, aunque nadie podía asegurarlo con certeza.",
+        "keys": [
+          {
+            "w": "varitas",
+            "en": "wands"
+          },
+          {
+            "w": "herramienta",
+            "en": "tool"
+          },
+          {
+            "w": "concluyó",
+            "en": "concluded"
+          }
+        ]
+      },
+      {
+        "text": "De vuelta en la mansión, junto a un fuego cálido la noche siguiente, Holmes expuso toda la historia del caso a sus dos amigos y al doctor Mortimer. Jack Stapleton, explicó, había nacido Baskerville, hijo del hermano menor de sir Charles, y con solo dos vidas entre él y la mansión se había decidido por un plan asesino. Había vuelto a Devonshire con nombre falso, se había hecho pasar por naturalista en el borde del páramo y había esperado su oportunidad.",
+        "keys": [
+          {
+            "w": "fuego",
+            "en": "fire"
+          },
+          {
+            "w": "asesino",
+            "en": "murderous"
+          },
+          {
+            "w": "oportunidad",
+            "en": "chance"
+          }
+        ]
+      },
+      {
+        "text": "El sabueso, continuó, era un perro enorme que Stapleton había comprado y mantenido oculto en una vieja mina en el corazón del pantano, donde lo alimentaban y lo adiestraban para cazar por el olfato. La noche de la muerte de sir Charles lo había enviado por la alameda de tejos, y el débil corazón del anciano había fallado de puro terror ante la visión de la bestia luminosa. Más tarde se le dio el olor de una bota robada del hotel de sir Henry, y el desafortunado Selden, que vestía la ropa vieja de sir Henry, había sido perseguido por él en su lugar.",
+        "keys": [
+          {
+            "w": "mina",
+            "en": "mine"
+          },
+          {
+            "w": "terror",
+            "en": "terror"
+          },
+          {
+            "w": "desafortunado",
+            "en": "luckless"
+          }
+        ]
+      },
+      {
+        "text": "Sir Henry, cuyos nervios habían sufrido terriblemente en aquella niebla, estuvo débil y callado durante muchos días, y el doctor Mortimer insistió en que descansara en la quietud de la mansión. Poco a poco, con la ayuda de sus amigos y los amables cuidados de Barrymore y su esposa, el joven empezó a recobrar el color y el ánimo. Al final de la semana incluso pudo reírse al pensar en el sabueso negro que antaño había parecido tener a toda la comarca entre sus fauces.",
+        "keys": [
+          {
+            "w": "nervios",
+            "en": "nerves"
+          },
+          {
+            "w": "recobrar",
+            "en": "recover"
+          },
+          {
+            "w": "fauces",
+            "en": "jaws"
+          }
+        ]
+      },
+      {
+        "text": "En cuanto tuvo fuerzas, sir Henry resolvió viajar, y él y el doctor Mortimer emprendieron un largo viaje alrededor del mundo para dejar atrás las sombras de Baskerville Hall. Antes de partir, tomó de la mano a Holmes y a Watson y les agradeció con una calidez que las palabras apenas podían expresar. El páramo, por su parte, quedó librado al viento, los ponis y la niebla, y la maldición de la familia llegó por fin a su fin.",
+        "keys": [
+          {
+            "w": "resolvió",
+            "en": "resolved"
+          },
+          {
+            "w": "calidez",
+            "en": "warmth"
+          },
+          {
+            "w": "maldición",
+            "en": "curse"
+          }
+        ]
+      },
+      {
+        "text": "Terminado su trabajo, Holmes y Watson regresaron a Londres, donde el traqueteo de los coches y el brillo de las farolas parecían maravillosamente normales después del silencio del páramo. El misterio del sabueso les había costado semanas de ansiedad y muchas noches en vela, y había terminado en un triunfo que Holmes aceptó con un encogimiento de hombros. Detrás de ellos, la gente de Devonshire podía caminar de nuevo por el páramo, libre por fin de la criatura que tanto tiempo les había oscurecido las veladas.",
+        "keys": [
+          {
+            "w": "farolas",
+            "en": "streetlamps"
+          },
+          {
+            "w": "ansiedad",
+            "en": "anxiety"
+          },
+          {
+            "w": "criatura",
+            "en": "creature"
+          }
+        ]
+      },
+      {
+        "text": "En una húmeda tarde de niebla en Baker Street, Holmes dejó a un lado su pipa, estiró las piernas hacia el fuego y anunció con una sonrisa que tenía dos entradas para la ópera. Watson, que no había visto a su amigo tan relajado en semanas, rió a carcajadas y buscó su abrigo. El gran detective se había ganado su descanso y, mientras el coche los llevaba por las calles iluminadas, el oscuro páramo parecía muy lejano.",
+        "keys": [
+          {
+            "w": "húmeda",
+            "en": "damp"
+          },
+          {
+            "w": "relajado",
+            "en": "relaxed"
+          },
+          {
+            "w": "descanso",
+            "en": "rest"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -39,9 +39,12 @@ export default async function ReadPage({ params }: { params: Promise<{ slug: str
       const pages = tr?.levels[lv.id];
       if (!pages || pages.length !== english.length) continue;
       const words = new Set(pages.flatMap((p) => tokenize(p.text).flatMap((t) => (t.word ? [t.word] : []))));
+      const dict = await loadDictionary(lang, words);
+      // A translation is offered once nearly every word in it has a card: a tap that says "no meaning" is worse than reading in English.
+      if (Object.keys(dict).length < words.size * 0.9) continue;
       variants.push({
         lang,
-        dict: await loadDictionary(lang, words),
+        dict,
         pages: pages.map((p, i) => ({ n: i + 1, text: p.text, scene: i + 1, target: { translation: english[i], keys: p.keys } })),
       });
     }
