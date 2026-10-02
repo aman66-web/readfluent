@@ -87,6 +87,8 @@ const tr: Catalog = {
   "time.month": "Bir ay sonra",
   "time.year": "Bir yıl sonra",
   "daily.min": "dk",
+  "daily.custom": "Özel",
+  "daily.customLabel": "Günlük dakika",
   "daily.minutesLabel": "{minutes} dakika",
   "daily.year": "Yılda {time}",
   "future.line": "Günde {minutes} dakika seni buraya getirir.",

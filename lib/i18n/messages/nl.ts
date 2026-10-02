@@ -106,6 +106,8 @@ const nl: Catalog = {
 
   /* ── the plan ── */
   "daily.min": "min",
+  "daily.custom": "Aangepast",
+  "daily.customLabel": "Minuten per dag",
   "daily.minutesLabel": "{minutes} minuten",
   "daily.year": "{time} per jaar",
   "future.line": "Dit brengen {minutes} minuten per dag je.",

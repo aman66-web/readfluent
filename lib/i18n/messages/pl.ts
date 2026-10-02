@@ -106,6 +106,8 @@ const pl: Catalog = {
 
   /* ── the plan ── */
   "daily.min": "min",
+  "daily.custom": "Własna",
+  "daily.customLabel": "Minuty dziennie",
   "daily.minutesLabel": "{minutes} min",
   "daily.year": "{time} rocznie",
   "future.line": "Oto dokąd zaprowadzi Cię {minutes} min dziennie.",

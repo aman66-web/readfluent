@@ -164,7 +164,7 @@ export function ProfileView() {
         <Row>
           <span className="block text-[15px] font-semibold">{t("me.goal")}</span>
           <span className="mt-2.5 flex flex-wrap gap-2" role="group" aria-label={t("me.goal")}>
-            {DAILY_MINUTES.map((m) => <Pill key={m} on={goal === m} onClick={() => saveAnswers({ daily: m })}>{t("daily.minutesLabel", { minutes: m })}</Pill>)}
+            {[...DAILY_MINUTES, ...((DAILY_MINUTES as readonly number[]).includes(goal) ? [] : [goal])].sort((x, y) => x - y).map((m) => <Pill key={m} on={goal === m} onClick={() => saveAnswers({ daily: m })}>{t("daily.minutesLabel", { minutes: m })}</Pill>)}
           </span>
         </Row>
         <Row last>

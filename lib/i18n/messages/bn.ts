@@ -104,6 +104,8 @@ const bn: Catalog = {
 
   /* ── the plan ── */
   "daily.min": "মিনিট",
+  "daily.custom": "নিজের মতো",
+  "daily.customLabel": "প্রতিদিন কত মিনিট",
   "daily.minutesLabel": "{minutes} মিনিট",
   "daily.year": "বছরে {time}",
   "future.line": "দিনে {minutes} মিনিট আপনাকে যেখানে নিয়ে যায়।",

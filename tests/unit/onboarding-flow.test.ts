@@ -68,8 +68,8 @@ describe("the numbers the plan shows", () => {
     expect(readingTime(365 * 20)).toBe("121 hours");
   });
 
-  it("offer six daily times and default to one of them", () => {
-    expect(DAILY_MINUTES).toEqual([10, 15, 20, 30, 45, 60]);
+  it("offer seven daily times, and a custom one, and default to one of the seven", () => {
+    expect(DAILY_MINUTES).toEqual([5, 10, 15, 20, 30, 45, 60]);
     expect(DAILY_MINUTES).toContain(DEFAULT_MINUTES);
   });
 });
@@ -94,9 +94,14 @@ describe("the answers", () => {
     expect(a.heardOther).toHaveLength(HEARD_OTHER_MAX);
   });
 
-  it("refuse a daily time that was not offered, and a language that does not exist", () => {
+  it("refuse a daily time that is not a sensible number of minutes, and a language that does not exist", () => {
     const a = parseAnswers(JSON.stringify({ daily: 999, language: "xx", learn: "xx", heard: "myspace", pledged: "yes" }));
     expect(a).toEqual(NO_ANSWERS);
+    for (const bad of [0, -5, 2.5, 481, "20", null]) expect(parseAnswers(JSON.stringify({ daily: bad })).daily, String(bad)).toBeNull();
+  });
+
+  it("keep a custom daily time as typed, from one minute to eight hours", () => {
+    for (const ok of [1, 5, 25, 90, 480]) expect(parseAnswers(JSON.stringify({ daily: ok })).daily, String(ok)).toBe(ok);
   });
 
   it("tick and untick, keeping the screen's order", () => {

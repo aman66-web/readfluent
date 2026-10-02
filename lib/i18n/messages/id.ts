@@ -104,6 +104,8 @@ const indonesian: Catalog = {
 
   /* ── the plan ── */
   "daily.min": "mnt",
+  "daily.custom": "Kustom",
+  "daily.customLabel": "Menit per hari",
   "daily.minutesLabel": "{minutes} menit",
   "daily.year": "{time} setahun",
   "future.line": "Inilah tujuan yang dicapai dengan {minutes} menit sehari.",

@@ -112,6 +112,8 @@ export const EN = {
 
   /* ── the plan ── */
   "daily.min": "min",
+  "daily.custom": "Custom",
+  "daily.customLabel": "Minutes a day",
   "daily.minutesLabel": "{minutes} minutes",
   "daily.year": "{time} a year",
   "future.line": "Here's where {minutes} minutes a day takes you.",

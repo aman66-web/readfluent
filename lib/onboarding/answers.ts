@@ -1,7 +1,7 @@
 import { CATEGORIES, type CategoryId } from "@/lib/content/limits";
 import { storageKey } from "@/lib/brand";
 import { readRaw, writeRaw } from "@/lib/store/local";
-import { DAILY_MINUTES } from "./firstrun";
+import { isDailyMinutes } from "./firstrun";
 import { isCefr, type Cefr } from "@/lib/xp/levels";
 import { DEFAULT_LANGUAGE, isLanguage, type LanguageCode } from "./languages";
 
@@ -77,7 +77,7 @@ export function parseAnswers(raw: string | null | undefined): Answers {
     why: tidy(WHY_IDS, o.why),
     heard: oneOf(HEARD_IDS, o.heard),
     heardOther: typeof o.heardOther === "string" ? o.heardOther.slice(0, HEARD_OTHER_MAX) : "",
-    daily: typeof o.daily === "number" && (DAILY_MINUTES as readonly number[]).includes(o.daily) ? o.daily : null,
+    daily: isDailyMinutes(o.daily) ? o.daily : null,
     pledged: o.pledged === true,
     language,
     learn,

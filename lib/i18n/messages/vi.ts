@@ -95,6 +95,8 @@ const vi: Catalog = {
   "time.year": "Một năm nữa",
 
   "daily.min": "phút",
+  "daily.custom": "Tùy chỉnh",
+  "daily.customLabel": "Số phút mỗi ngày",
   "daily.minutesLabel": "{minutes} phút",
   "daily.year": "{time} mỗi năm",
   "future.line": "Đây là nơi {minutes} phút mỗi ngày đưa bạn đến.",

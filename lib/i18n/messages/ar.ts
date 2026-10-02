@@ -87,6 +87,8 @@ const ar: Catalog = {
   "time.month": "بعد شهر",
   "time.year": "بعد سنة",
   "daily.min": "د",
+  "daily.custom": "مخصص",
+  "daily.customLabel": "الدقائق في اليوم",
   "daily.minutesLabel": "{minutes} دقيقة",
   "daily.year": "{time} في السنة",
   "future.line": "إلى أين ستوصلك {minutes} دقيقة كل يوم.",

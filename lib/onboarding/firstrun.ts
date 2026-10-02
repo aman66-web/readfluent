@@ -9,9 +9,15 @@ import { formatReadingTime } from "@/lib/i18n/format";
  * the same rules the dashboard keeps; nothing is a statistic about other people.
  */
 
-/** The daily times offered, in minutes. */
-export const DAILY_MINUTES = [10, 15, 20, 30, 45, 60] as const;
+/** The daily times offered as choices, in minutes. A reader may also type their own (`isDailyMinutes`). */
+export const DAILY_MINUTES = [5, 10, 15, 20, 30, 45, 60] as const;
 export type DailyMinutes = (typeof DAILY_MINUTES)[number];
+
+/** The most a custom daily time may be: eight hours. */
+export const MAX_DAILY_MINUTES = 480;
+
+/** A time a reader can have as their daily goal: a whole number of minutes, one to eight hours' worth. */
+export const isDailyMinutes = (v: unknown): v is number => typeof v === "number" && Number.isInteger(v) && v >= 1 && v <= MAX_DAILY_MINUTES;
 
 /** What the later screens assume when nobody picked a daily time (they can skip it). */
 export const DEFAULT_MINUTES: DailyMinutes = 15;

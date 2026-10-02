@@ -104,6 +104,8 @@ const zh: Catalog = {
 
   /* ── the plan ── */
   "daily.min": "分钟",
+  "daily.custom": "自定义",
+  "daily.customLabel": "每天分钟数",
   "daily.minutesLabel": "{minutes} 分钟",
   "daily.year": "每年 {time}",
   "future.line": "每天 {minutes} 分钟，你会走到这里。",

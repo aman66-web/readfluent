@@ -104,6 +104,8 @@ const ja: Catalog = {
 
   /* ── the plan ── */
   "daily.min": "分",
+  "daily.custom": "カスタム",
+  "daily.customLabel": "1日の分数",
   "daily.minutesLabel": "{minutes} 分",
   "daily.year": "年間 {time}",
   "future.line": "1日 {minutes} 分で、ここまで行けます。",

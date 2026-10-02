@@ -106,6 +106,8 @@ const uk: Catalog = {
 
   /* ── the plan ── */
   "daily.min": "хв",
+  "daily.custom": "Свій варіант",
+  "daily.customLabel": "Хвилин на день",
   "daily.minutesLabel": "{minutes} хв",
   "daily.year": "{time} на рік",
   "future.line": "Ось куди тебе приведуть {minutes} хв на день.",

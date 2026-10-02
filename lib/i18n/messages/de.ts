@@ -104,6 +104,8 @@ const de: Catalog = {
 
   /* ── the plan ── */
   "daily.min": "Min.",
+  "daily.custom": "Eigene",
+  "daily.customLabel": "Minuten pro Tag",
   "daily.minutesLabel": "{minutes} Minuten",
   "daily.year": "{time} im Jahr",
   "future.line": "Das bringen dir {minutes} Minuten am Tag.",

@@ -9,7 +9,7 @@ import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
 import { formatDuration, pathFrom } from "@/lib/xp/path";
 import type { Cefr } from "@/lib/xp/levels";
-import { DAILY_MINUTES } from "@/lib/onboarding/firstrun";
+import { DAILY_MINUTES, MAX_DAILY_MINUTES, isDailyMinutes } from "@/lib/onboarding/firstrun";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
 import { useHold } from "./hold";
 
@@ -36,15 +36,22 @@ export function TimeScreen({ at, of, learn, value, onPick, onBack, onContinue }:
   const locale = useLocale();
   const line = t("time.line", { language: languageName(learn ?? "en", locale) });
   const guide = useGuide(line);
+  // Custom: the reader's own number. It is on when they tapped it, or when what is saved is not one of the choices.
+  const preset = value !== null && (DAILY_MINUTES as readonly number[]).includes(value);
+  const [asking, setAsking] = useState(false);
+  const custom = asking || (value !== null && !preset);
+  const [text, setText] = useState(() => (value !== null && !preset ? String(value) : ""));
+  const box = useRef<HTMLInputElement>(null);
+  const typed = Number(text);
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
         <GuideHead key={line} guide={guide} line={line} sub={t("time.sub", { app: APP_NAME })} mood="ready" />
         <div className="mt-6 grid grid-cols-2 gap-3" role="group" aria-label={line}>
           {DAILY_MINUTES.map((m, i) => {
-            const on = value === m;
+            const on = !custom && value === m;
             return (
-              <button key={m} type="button" aria-pressed={on} onClick={() => onPick(m)}
+              <button key={m} type="button" aria-pressed={on} onClick={() => { setAsking(false); setText(""); onPick(m); }}
                       className={`guide-card wel-in relative flex flex-col items-start gap-3 rounded-[22px] p-4 text-start ${on ? "guide-card-on" : ""}`}
                       style={{ animationDelay: `${850 + i * 80}ms` }}>
                 <span className="flex items-end gap-1.5" dir="ltr">
@@ -55,6 +62,35 @@ export function TimeScreen({ at, of, learn, value, onPick, onBack, onContinue }:
               </button>
             );
           })}
+          {/* Their own number of minutes. */}
+          <div className={`guide-card wel-in relative flex flex-col items-start justify-between gap-3 rounded-[22px] p-4 text-start ${custom ? "guide-card-on" : ""}`}
+               style={{ animationDelay: `${850 + DAILY_MINUTES.length * 80}ms` }}>
+            {custom ? (
+              <>
+                <span className="flex items-end gap-1.5" dir="ltr">
+                  <input ref={box} autoFocus type="text" inputMode="numeric" pattern="[0-9]*" maxLength={3} value={text} placeholder="0" aria-label={t("daily.customLabel")}
+                         onChange={(e) => {
+                           const digits = e.target.value.replace(/\D/g, "").slice(0, 3);
+                           setText(digits);
+                           if (isDailyMinutes(Number(digits))) onPick(Number(digits));
+                         }}
+                         className="tabular w-[3.2ch] bg-transparent text-[40px] font-bold leading-none tracking-[-0.02em] text-[var(--ob-deep)] outline-none placeholder:text-black/20" />
+                  <span className="ob-muted pb-0.5 text-[12px] font-bold uppercase tracking-[0.06em]">{t("daily.min")}</span>
+                </span>
+                <span className="ob-muted block text-[12.5px] leading-snug">
+                  {isDailyMinutes(typed) ? t("daily.year", { time: formatReadingTime(365 * typed, locale) }) : t("daily.customLabel")}
+                  {text !== "" && !isDailyMinutes(typed) ? ` (1–${MAX_DAILY_MINUTES})` : ""}
+                </span>
+              </>
+            ) : (
+              <button type="button" onClick={() => { setAsking(true); }} className="flex h-full w-full flex-col items-start justify-between gap-3 text-start">
+                <span className="grid size-[46px] place-items-center rounded-full bg-black/[0.06] text-[var(--ob-deep)]" aria-hidden>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-[22px]"><path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16v4zM13.5 6.5l4 4" /></svg>
+                </span>
+                <span className="text-[17px] font-semibold">{t("daily.custom")}</span>
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </GuideFrame>

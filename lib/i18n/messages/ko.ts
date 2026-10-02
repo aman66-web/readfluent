@@ -104,6 +104,8 @@ const ko: Catalog = {
 
   /* ── the plan ── */
   "daily.min": "분",
+  "daily.custom": "직접 입력",
+  "daily.customLabel": "하루 분",
   "daily.minutesLabel": "{minutes}분",
   "daily.year": "1년에 {time}",
   "future.line": "하루 {minutes}분이면 여기까지 갈 수 있어요.",

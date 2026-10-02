@@ -87,6 +87,8 @@ const ur: Catalog = {
   "time.month": "ایک مہینے میں",
   "time.year": "ایک سال میں",
   "daily.min": "منٹ",
+  "daily.custom": "اپنی مرضی",
+  "daily.customLabel": "روزانہ منٹ",
   "daily.minutesLabel": "{minutes} منٹ",
   "daily.year": "سال میں {time}",
   "future.line": "روزانہ {minutes} منٹ آپ کو یہاں تک پہنچاتے ہیں۔",
