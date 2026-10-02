@@ -1,26 +1,55 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { BookCover } from "@/components/BookCover";
 import { CATEGORIES, categoryById, type CategoryId } from "@/lib/content/limits";
 import { useT } from "@/lib/i18n/react";
+import { useAnswers } from "@/lib/onboarding/use-answers";
 import { coverAuthor, type PreviewBook } from "@/lib/preview/catalog";
 
-/** Categories shown as "coming soon" in the all-books view, so the shape of the full library is visible. */
-const SOON_IN_ALL: CategoryId[] = ["self-help", "history"];
+/** A cover, as a link to the book. */
+function Cover({ book, className = "" }: { book: PreviewBook; className?: string }) {
+  return (
+    <Link href={`/book/${book.slug}`} aria-label={book.title} className={`block transition-transform active:scale-[0.97] ${className}`}>
+      <BookCover slug={book.slug} title={book.title} author={coverAuthor(book)} hue={categoryById(book.category)?.hue ?? 30} />
+    </Link>
+  );
+}
 
+/** Where a book will be: the same shape as a cover, dashed, saying more is coming. */
+function SoonTile({ label, className = "" }: { label?: string; className?: string }) {
+  const t = useT();
+  return (
+    <div className={`flex aspect-[2/3] flex-col items-center justify-center rounded-[10px] border-2 border-dashed border-accent-bright/35 bg-accent-bright/[0.05] px-3 text-center ${className}`}>
+      {label && <span className="text-[13px] font-semibold text-muted">{label}</span>}
+      <span className={label ? "mt-1 text-[12px] text-faint" : "text-[13px] font-semibold text-faint"}>{t("library.soon")}</span>
+    </div>
+  );
+}
+
+/**
+ * The library as shelves, one row for each kind of book, sliding sideways: the shelves the reader said
+ * they were curious about first, then the rest, and under them the kinds still to come. The chips
+ * above narrow it to one shelf, shown as a grid.
+ */
 export function Library({ books }: { books: PreviewBook[] }) {
   const t = useT();
+  const { interests } = useAnswers();
   const [category, setCategory] = useState<CategoryId | "all">("all");
-  const shown = category === "all" ? books : books.filter((b) => b.category === category);
-  const soon: CategoryId[] =
-    category === "all" ? SOON_IN_ALL : shown.length === 0 ? [category] : [];
 
+  const shelves = useMemo(() => {
+    const withBooks = CATEGORIES.map((c) => ({ id: c.id, books: books.filter((b) => b.category === c.id) })).filter((s) => s.books.length > 0);
+    // The ones they picked come first, in the order the shelves are always in.
+    return [...withBooks.filter((s) => interests.includes(s.id)), ...withBooks.filter((s) => !interests.includes(s.id))];
+  }, [books, interests]);
+  const empty = CATEGORIES.filter((c) => !books.some((b) => b.category === c.id)).map((c) => c.id);
+
+  const chips = [{ id: "all" as const }, ...CATEGORIES];
   return (
     <div>
       <div role="group" aria-label={t("library.categories")} className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5 pb-1">
-        {[{ id: "all" as const }, ...CATEGORIES].map((c) => {
+        {chips.map((c) => {
           const on = category === c.id;
           return (
             <button
@@ -28,7 +57,7 @@ export function Library({ books }: { books: PreviewBook[] }) {
               aria-pressed={on}
               onClick={() => setCategory(c.id)}
               className={`h-11 shrink-0 rounded-full px-4 text-[14px] font-semibold transition-colors ${
-                on ? "btn-cyan font-bold" : "border border-border bg-surface text-muted"
+                on ? "btn-cyan font-bold" : "border border-border bg-surface text-muted active:bg-accent-bright/15"
               }`}
             >
               {c.id === "all" ? t("library.all") : t(`cat.${c.id}`)}
@@ -37,32 +66,42 @@ export function Library({ books }: { books: PreviewBook[] }) {
         })}
       </div>
 
-      <ul className="mt-5 grid grid-cols-2 gap-x-4 gap-y-6">
-        {shown.map((b) => (
-          <li key={b.slug}>
-            <Link href={`/book/${b.slug}`} className="block active:opacity-80">
-              <BookCover slug={b.slug} title={b.title} author={coverAuthor(b)} hue={categoryById(b.category)?.hue ?? 30} />
-              <p className="mt-2 text-[14px] font-semibold leading-tight">{b.title}</p>
-              <p className="text-[12px] text-faint">{t(`cat.${b.category}`)}</p>
-            </Link>
-          </li>
-        ))}
-        {soon.map((id) => {
-          const label = t(`cat.${id}`);
-          return (
-            <li key={id} aria-label={t("library.soonLabel", { category: label })}>
-              <div className="flex aspect-[2/3] flex-col items-center justify-center rounded-[10px] border-2 border-dashed border-border px-3 text-center">
-                <span className="text-[13px] font-semibold text-muted">{label}</span>
-                <span className="mt-1 text-[12px] text-faint">{t("library.soon")}</span>
+      {category === "all" ? (
+        <div className="mt-6 flex flex-col gap-8">
+          {shelves.map((shelf) => (
+            <section key={shelf.id} aria-labelledby={`shelf-${shelf.id}`}>
+              <div className="flex items-baseline justify-between gap-3">
+                <h2 id={`shelf-${shelf.id}`} className="text-[19px] font-bold tracking-[-0.01em]">{t(`cat.${shelf.id}`)}</h2>
+                {interests.includes(shelf.id) && <span aria-hidden className="size-2 rounded-full bg-accent-bright shadow-[0_0_10px_2px_rgba(34,211,238,.6)]" />}
               </div>
-            </li>
-          );
-        })}
-      </ul>
+              <ul className="no-scrollbar -mx-5 mt-3 flex snap-x snap-mandatory gap-3.5 overflow-x-auto px-5 pb-3 pt-1">
+                {shelf.books.map((b) => (
+                  <li key={b.slug} className="w-[38vw] max-w-[168px] shrink-0 snap-start"><Cover book={b} /></li>
+                ))}
+                {shelf.books.length < 3 && <li className="w-[38vw] max-w-[168px] shrink-0 snap-start" aria-hidden><SoonTile /></li>}
+              </ul>
+            </section>
+          ))}
 
-      <p className="mt-8 text-center text-[12px] leading-snug text-faint">
-        {t("library.preview")}
-      </p>
+          {empty.length > 0 && (
+            <section>
+              <h2 className="text-[19px] font-bold tracking-[-0.01em]">{t("library.soon")}</h2>
+              <ul className="no-scrollbar -mx-5 mt-3 flex gap-3.5 overflow-x-auto px-5 pb-2 pt-1">
+                {empty.map((id) => (
+                  <li key={id} className="w-[30vw] max-w-[132px] shrink-0" aria-label={t("library.soonLabel", { category: t(`cat.${id}`) })}><SoonTile label={t(`cat.${id}`)} /></li>
+                ))}
+              </ul>
+            </section>
+          )}
+        </div>
+      ) : (
+        <ul className="mt-6 grid grid-cols-2 gap-x-4 gap-y-6">
+          {books.filter((b) => b.category === category).map((b) => <li key={b.slug}><Cover book={b} /></li>)}
+          {!books.some((b) => b.category === category) && <li><SoonTile label={t(`cat.${category}`)} /></li>}
+        </ul>
+      )}
+
+      <p className="mt-10 text-center text-[12px] leading-snug text-faint">{t("library.preview")}</p>
     </div>
   );
 }
