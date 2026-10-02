@@ -1,0 +1,417 @@
+{
+  "slug": "the-invisible-man",
+  "meta": {
+    "blurb": "A stranger wrapped in bandages arrives at a quiet inn in a snowstorm, and beneath the wrappings there is nothing at all. When a brilliant scientist's secret is found, a village is thrown into fear, and one old friend must stop him.",
+    "bible": "Griffin: the Invisible Man, a pale, white-haired scientist, a former student at University College, brilliant, proud and increasingly cruel. Mrs Hall: the landlady of the Coach and Horses inn at Iping. Mr Hall: her husband, the innkeeper. Teddy Henfrey: the clockmender who sees the hollow where the face should be. Dr Cuss: the village doctor whose nose is pinched. Mr Bunting: the vicar of Iping, whose house is robbed. Mr Jaffers: the village constable. Thomas Marvel: a tramp who is made Griffin's servant and keeps his notebooks. Fearenside: the carter whose dog bites Griffin. Dr Kemp: a scientist of Port Burdock, once a fellow student of Griffin. Colonel Adye: the chief of police at Port Burdock. Mr Wicksteed: an elderly gentleman killed on a lonely road. Professor Oliver: Griffin's old teacher. Iping: a village in Sussex. Sussex: the county. Coach and Horses: the inn at Iping. Port Stowe: a seaside town. Jolly Cricketers: an inn at Port Stowe. Port Burdock: the town where Kemp lives. Burdock. London. University College. Omniums: a huge London shop. Whitsun: a spring holiday. Queen: Queen Victoria. Invisible Man. Rules of the story: Griffin made himself invisible by changing how his body bends light; he can not reverse it; clothes and food stay visible. Voice and tone: a mystery that starts as comedy in a village and turns dark; clear, quick and suspenseful; deaths stated plainly with no gore."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A stranger in a heavy coat trudges through the snow to an inn",
+      "summary": "A bandaged stranger arrives at the Iping inn in a snowstorm."
+    },
+    {
+      "n": 2,
+      "scene": "Mrs Hall lights a fire in the parlour for the wrapped stranger",
+      "summary": "Mrs Hall shows him a room and sees that his face is wrapped in bandages."
+    },
+    {
+      "n": 3,
+      "scene": "A carter unloads crates of glass bottles while his dog snarls",
+      "summary": "His boxes of bottles arrive, and a dog bites him."
+    },
+    {
+      "n": 4,
+      "scene": "The stranger works alone at a table crowded with glass tubes",
+      "summary": "He shuts himself in the parlour to work and forbids visitors."
+    },
+    {
+      "n": 5,
+      "scene": "Villagers whisper by the fire at the Coach and Horses",
+      "summary": "The village gossips about the bandaged lodger."
+    },
+    {
+      "n": 6,
+      "scene": "Mrs Hall hesitates outside the stranger's door with a bill in her hand",
+      "summary": "His money runs short and his temper grows worse."
+    },
+    {
+      "n": 7,
+      "scene": "A clockmender stares in shock at the stranger's dark, hollow face",
+      "summary": "Teddy Henfrey sees a dark hollow where the stranger's face should be."
+    },
+    {
+      "n": 8,
+      "scene": "Dr Cuss knocks at the stranger's door with his hat in his hand",
+      "summary": "Dr Cuss visits the lodger, curious about his illness and his secret."
+    },
+    {
+      "n": 9,
+      "scene": "The stranger holds up a sleeve with no hand inside it",
+      "summary": "The stranger shows an empty sleeve and pinches Dr Cuss's nose."
+    },
+    {
+      "n": 10,
+      "scene": "A vicar and his wife listen to noises downstairs at night",
+      "summary": "A thief robs the vicarage, but Mr Bunting sees only a floating candle and hears a sneeze."
+    },
+    {
+      "n": 11,
+      "scene": "Furniture moves by itself in an empty bedroom",
+      "summary": "The stranger's room is empty, yet the bedclothes rise and a chair drives the Halls out."
+    },
+    {
+      "n": 12,
+      "scene": "The stranger shouts at Mr and Mrs Hall in the parlour",
+      "summary": "The stranger will not pay, and he and the Halls quarrel."
+    },
+    {
+      "n": 13,
+      "scene": "The stranger tears off bandages and glasses before a shocked crowd",
+      "summary": "He tears off his glasses and bandages, and the crowd sees nothing where his head should be."
+    },
+    {
+      "n": 14,
+      "scene": "Villagers run screaming from the inn into the snowy street",
+      "summary": "Panic sweeps the village, and the constable is sent for."
+    },
+    {
+      "n": 15,
+      "scene": "Jaffers reaches for a coat that seems to have no one inside",
+      "summary": "Jaffers tries to arrest him, and the stranger starts taking off his clothes."
+    },
+    {
+      "n": 16,
+      "scene": "The invisible man throws punches and runs down the village street",
+      "summary": "The invisible man fights the villagers and escapes across the fields."
+    },
+    {
+      "n": 17,
+      "scene": "A tramp sits on a grassy bank beside the road and hears a voice",
+      "summary": "The tramp Marvel, resting by the road, hears an invisible voice."
+    },
+    {
+      "n": 18,
+      "scene": "Marvel walks along a country lane carrying a heavy bundle",
+      "summary": "The invisible man makes Marvel his helper."
+    },
+    {
+      "n": 19,
+      "scene": "Marvel creeps out of the inn at Iping carrying three heavy books",
+      "summary": "Marvel fetches Griffin's three notebooks from the Iping inn."
+    },
+    {
+      "n": 20,
+      "scene": "Marvel runs along a seaside road, clutching a bundle of books",
+      "summary": "Marvel escapes with the books to Port Stowe."
+    },
+    {
+      "n": 21,
+      "scene": "Customers fight in a crowded inn as chairs fly through the air",
+      "summary": "Griffin finds Marvel at the inn, and a fight breaks out."
+    },
+    {
+      "n": 22,
+      "scene": "Dr Kemp sits at his study desk above the lights of a town",
+      "summary": "Dr Kemp, at home above Port Burdock, hears the strange news."
+    },
+    {
+      "n": 23,
+      "scene": "Kemp follows drops of blood up the stairs of his house",
+      "summary": "Kemp finds blood on the stairs and a bandage that rises into the air."
+    },
+    {
+      "n": 24,
+      "scene": "Kemp stares at an empty chair as a voice speaks from it",
+      "summary": "Griffin reveals himself, and Kemp recognises his old fellow student."
+    },
+    {
+      "n": 25,
+      "scene": "A pale white-haired student works at a laboratory table late at night",
+      "summary": "Griffin tells how he was a brilliant, ambitious student."
+    },
+    {
+      "n": 26,
+      "scene": "A glowing glass tube lights a dark room at night",
+      "summary": "He discovers that a body which bends light like air cannot be seen."
+    },
+    {
+      "n": 27,
+      "scene": "Griffin works at a crowded bench in a poor rented room",
+      "summary": "Griffin, poor and secretive, works alone in a rented room in London."
+    },
+    {
+      "n": 28,
+      "scene": "Griffin stands beside a grave on a grey day",
+      "summary": "Griffin takes money that is not his, and his father dies of shame."
+    },
+    {
+      "n": 29,
+      "scene": "A white cat fades from view, leaving only two glowing eyes",
+      "summary": "He makes a cat invisible, but its eyes and claws remain."
+    },
+    {
+      "n": 30,
+      "scene": "Griffin lies on the floor of a dark room as his hand grows faint",
+      "summary": "He makes himself invisible, in great pain, during a long night."
+    },
+    {
+      "n": 31,
+      "scene": "A house burns behind a hurrying figure in the London dawn",
+      "summary": "He burns his house to hide his work and leaves London."
+    },
+    {
+      "n": 32,
+      "scene": "Bare footprints appear in the snow of a busy London street",
+      "summary": "In London he is cold and hungry, and dogs follow him."
+    },
+    {
+      "n": 33,
+      "scene": "A man in a department store pulls on a coat in the dark",
+      "summary": "He steals clothes and a disguise from a London shop."
+    },
+    {
+      "n": 34,
+      "scene": "A bandaged man bends over a table of bottles in a small inn room",
+      "summary": "Griffin goes to Iping to find a way to become visible again."
+    },
+    {
+      "n": 35,
+      "scene": "Kemp listens in horror as a voice speaks from an empty chair",
+      "summary": "Griffin invites Kemp to share his power and rule through fear."
+    },
+    {
+      "n": 36,
+      "scene": "Kemp writes a hurried note at his desk by lamplight",
+      "summary": "Kemp pretends to agree and secretly sends for help."
+    },
+    {
+      "n": 37,
+      "scene": "Griffin stands at the top of the stairs, listening angrily",
+      "summary": "Griffin realises he has been betrayed and escapes before the police arrive."
+    },
+    {
+      "n": 38,
+      "scene": "A handwritten note is pinned to a door in a busy street",
+      "summary": "Griffin declares the first day of a reign of terror."
+    },
+    {
+      "n": 39,
+      "scene": "An old gentleman lies on a lonely country road beside an iron bar",
+      "summary": "An elderly man named Wicksteed is killed by the invisible man."
+    },
+    {
+      "n": 40,
+      "scene": "Kemp and Adye study a map of the town on a table",
+      "summary": "Kemp and Adye plan the hunt with dogs and broken glass."
+    },
+    {
+      "n": 41,
+      "scene": "Kemp locks the windows of his house as the afternoon light fades",
+      "summary": "Kemp locks up his house and waits, knowing that Griffin is coming."
+    },
+    {
+      "n": 42,
+      "scene": "An axe blade smashes through the shutters of a downstairs window",
+      "summary": "Griffin attacks the house with an axe and breaks in."
+    },
+    {
+      "n": 43,
+      "scene": "Colonel Adye falls in the hallway as a pistol rises in the air",
+      "summary": "Griffin takes Adye's pistol and shoots him, and Adye falls badly hurt."
+    },
+    {
+      "n": 44,
+      "scene": "Kemp sprints down a steep hill road with houses on both sides",
+      "summary": "Kemp runs down the hill toward the town."
+    },
+    {
+      "n": 45,
+      "scene": "Kemp runs among frightened townspeople, shouting a warning",
+      "summary": "Kemp reaches the town and shouts that the invisible man is behind him."
+    },
+    {
+      "n": 46,
+      "scene": "Kemp lies in the dust of a road as a crowd runs toward him",
+      "summary": "Kemp is caught by an invisible hand near the crowd."
+    },
+    {
+      "n": 47,
+      "scene": "A crowd of workmen with spades strikes at the empty air",
+      "summary": "The crowd fights and holds the invisible man until he falls."
+    },
+    {
+      "n": 48,
+      "scene": "The crowd stands back, breathing hard, around a patch of empty ground",
+      "summary": "The crowd falls silent, and Griffin is dead."
+    },
+    {
+      "n": 49,
+      "scene": "A pale white-haired young man lies covered by a sheet in the road",
+      "summary": "Griffin's body slowly becomes visible: a pale young man."
+    },
+    {
+      "n": 50,
+      "scene": "A tired innkeeper reads old notebooks by lamplight",
+      "summary": "Marvel keeps the notebooks, and Griffin's secret is never solved."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "On a snowy winter day, a strange man came to Iping.",
+      "Mrs Hall lit a fire and saw white cloth all over his face.",
+      "Next day, boxes of glass bottles came, and a dog bit him.",
+      "He stayed in his room all day and told Mrs Hall nothing.",
+      "Soon the whole village was talking about the strange man.",
+      "His money was almost gone, and he was often very angry.",
+      "A man came to mend a clock and saw something strange.",
+      "Dr Cuss went to see the stranger, for he wanted to know more.",
+      "He held out his sleeve, but there was no hand inside.",
+      "At night, a thief took the vicar's money, but nobody saw him.",
+      "In his room, a chair moved by itself, and nobody was there.",
+      "Mrs Hall asked for her money, but the stranger shouted at her.",
+      "He took off his glasses and hat, but there was no head.",
+      "The people ran away screaming, and someone went to find Jaffers.",
+      "Jaffers said, “You are under arrest,” but the man laughed.",
+      "The invisible man hit them hard and ran out of the village.",
+      "A poor man called Marvel sat by the road and heard a voice.",
+      "The voice said, “Be my servant, or I will hurt you.”",
+      "Griffin sent Marvel to the inn to bring his three books.",
+      "Marvel took the books and ran away to Port Stowe.",
+      "A voice said, “Give me my books,” and a fight began.",
+      "In Burdock, Dr Kemp read about the invisible man in the newspaper.",
+      "Kemp saw blood on the floor and a bandage in the air.",
+      "He said his name was Griffin, and Kemp remembered him.",
+      "Griffin was a clever student, and he loved science very much.",
+      "One night he found a way to make things invisible.",
+      "He worked in a small room in London and had no money.",
+      "Griffin took money that was not his, and his father died.",
+      "First he made a white cat invisible, but its eyes stayed.",
+      "Then he tried it on himself, and slowly he disappeared.",
+      "He set fire to the house and left London.",
+      "He was cold and hungry, and dogs followed him in the street.",
+      "He found a big shop and took clothes, a hat and glasses.",
+      "He went to Iping to find a way to become visible.",
+      "Griffin said, “We can rule the world together, Kemp.”",
+      "Kemp said yes, but he secretly wrote a note for help.",
+      "Griffin heard the police at the door and ran away.",
+      "Griffin wrote, “This is the first day of the Terror.”",
+      "The invisible man killed an old man called Wicksteed.",
+      "They made plans to find him with dogs and broken glass.",
+      "Kemp locked all the doors and windows and waited for him.",
+      "The invisible man broke a window and tried to come in.",
+      "Griffin took the pistol and shot Colonel Adye in the hall.",
+      "Kemp ran down the hill as fast as he could.",
+      "In the town, Kemp shouted, “The Invisible Man is here!”",
+      "Kemp fell down, and the invisible man held him.",
+      "The men hit the air with sticks, and a voice cried out.",
+      "Soon the street was quiet, and the invisible man was dead.",
+      "Slowly, his body came back, and they saw a young man.",
+      "Marvel kept Griffin's books, but he could not read them."
+    ],
+    "B1B2": [
+      "A cold wind blows snow across the Sussex village of Iping as a stranger walks up to the Coach and Horses inn. He is wrapped from head to foot, and he asks for a room and a fire.",
+      "Mrs Hall hurries to light the fire in the little parlour and offers to take his wet coat and hat. He refuses to take off his dark glasses, and she sees that his whole face is wrapped in white bandages.",
+      "The carter Fearenside brings the stranger's boxes, which are full of glass bottles packed in straw. As he unloads them, his dog suddenly jumps at the stranger and bites his leg.",
+      "For days the stranger stays in his parlour with the door shut, working at a table crowded with bottles and tubes. He has told Mrs Hall that nobody is to disturb him, and she obeys.",
+      "Soon everyone in Iping is talking about the bandaged stranger, who never goes out in daylight. Some people say he is a criminal, and others believe he was hurt in a terrible accident.",
+      "After a few weeks the stranger's money begins to run out, and he becomes more bad-tempered every day. Mrs Hall wants to be paid, but she is too afraid to knock at his door.",
+      "Teddy Henfrey comes to mend the clock in the stranger's parlour, and he works slowly so that he can look around. When the stranger turns, Henfrey sees only a dark hollow where a mouth should be.",
+      "Dr Cuss, who has heard all the gossip, calls on the stranger and asks him about his work. The stranger says he is a scientist who needs peace, but the doctor does not leave.",
+      "When the doctor presses him, the stranger holds out his sleeve, and Cuss sees that there is no hand inside it. Then an unseen finger and thumb pinch the doctor's nose, and he runs from the room.",
+      "That night the vicar and his wife hear strange noises downstairs and find the study door open. A candle moves across the room by itself, somebody sneezes, and all the money in the desk is gone.",
+      "The Halls find the stranger's room empty, though his clothes lie on the chair and the door was locked. Then the bedclothes rise by themselves, a chair jumps at them, and they run from the room.",
+      "When the stranger returns, the Halls demand that he pays his bill and explains what has happened in the room. He shouts that he will pay when he likes, and a loud row begins.",
+      "Furious, the stranger tears off his false nose, his glasses and his bandages, and he throws his hat to the floor. The people at the door scream, because above his collar there is nothing at all.",
+      "The villagers run screaming into the street, and soon the whole of Iping is shouting about a man with no head. The constable, Mr Jaffers, is called, and he walks bravely into the inn.",
+      "The constable tells the stranger that he is under arrest and takes hold of his arm. The invisible man laughs and begins to take off all his clothes, piece by piece.",
+      "The invisible man knocks the constable to the floor and hits anyone who comes near. He runs out of the inn and across the fields, leaving the frightened villagers behind him.",
+      "Far from Iping, a poor tramp called Marvel is resting by the road with his boots beside him. Suddenly a voice speaks from the empty air, and he can see no one.",
+      "The invisible man, whose name is Griffin, grips the tramp's shoulder and says that he needs a helper. Marvel is frightened, so he agrees to carry things for the stranger and to obey him.",
+      "Griffin needs his three notebooks, which are full of his secret notes, and he sends Marvel to fetch them from the inn. The tramp carries them away, while the invisible man waits outside and watches.",
+      "Marvel sees his chance and runs away with the books, which he carries to the town of Port Stowe. He hopes that the invisible man will never find him among so many people.",
+      "Griffin soon finds Marvel in the inn and demands his books back, and the room fills with noise and fear. Chairs fly, a shot is fired, and Marvel escapes in the confusion.",
+      "In his comfortable study above the town of Port Burdock, Dr Kemp reads a newspaper story about an invisible man. Like everyone else, he laughs at it and thinks it is nonsense.",
+      "Kemp notices spots of fresh blood on the stairs and follows them to his own bedroom. There he sees a bandage tying itself around nothing, and a voice says, “Kemp, keep steady.”",
+      "The voice says, “I am Griffin, of University College,” and Kemp remembers a pale, white-haired student from long ago. Shaking, he locks the door and sits down to hear the whole story.",
+      "Griffin explains that he was a medical student who soon grew bored with medicine and turned to the study of light. He was always poor and often hungry, but his mind was full of great ideas.",
+      "One night Griffin discovers that if an object bends light exactly as air does, nobody can see it. He knows at once that this idea could change the world, and he tells nobody.",
+      "Griffin leaves the college and rents a cheap room in London, where he works in secret day after day. His money is almost gone, and his landlord has begun to ask questions.",
+      "Desperate for money, Griffin takes a sum that his father was keeping for someone else. Soon afterwards his father dies, ruined and broken-hearted, but Griffin goes back to his work.",
+      "Griffin tests his idea on a white cat, which slowly fades until only its eyes and claws remain. Then the cat cries and escapes into the night, and the neighbours hear a strange sound.",
+      "Griffin finally uses the process on himself, and it hurts him terribly. As the long night passes, he watches his hands, then his arms and legs, slowly disappear.",
+      "When his landlord comes to the door, Griffin sets fire to the house to hide his secret. Then he steps out into the cold street, free, but with no clothes and no money.",
+      "Griffin soon discovers that being invisible is not much fun in a cold, crowded city. He is hungry and freezing, people walk into him, and dogs follow him because they can smell him.",
+      "At last Griffin hides in a big shop and waits until it is empty. He takes clothes, gloves, dark glasses and a false nose, and for the first time in days he feels warm.",
+      "Griffin takes the train to Iping, a quiet village where he hopes to work in peace. He needs a way to make himself visible again, but his notes and his money are running out.",
+      "Griffin tells Kemp that an invisible man can rule through fear, and he asks him to be his partner. He says that the whole town will be afraid of him before long.",
+      "Kemp pretends to agree, but he is afraid and knows that Griffin is dangerous. While his guest sleeps, he writes a short letter to Colonel Adye, the head of the police.",
+      "Griffin wakes, hears voices at the door, and realises that his friend has betrayed him. Before the police can come in, he rushes out of the house and disappears into the town.",
+      "Griffin leaves a note announcing that Port Burdock is no longer ruled by the Queen. It says that this is the first day of a new age, called the Reign of Terror.",
+      "The same morning, the invisible man meets Mr Wicksteed, a quiet gentleman, on a road outside the town. He kills him with an iron rod and leaves the rod lying beside him.",
+      "Colonel Adye and Kemp plan how to catch the invisible man. They will use dogs, they will spread broken glass on the roads, and nobody must give him food.",
+      "Kemp sends his servants away, shuts every window and door, and puts a pistol in his pocket. He knows that Griffin will come, and he waits in his study with the colonel.",
+      "Soon there is a crash, and an axe breaks through the shutters of a downstairs window. Kemp and Adye stand ready as the invisible man tries to climb in.",
+      "Griffin grabs the pistol from Adye's hand and fires it, and the colonel falls to the floor, badly hurt. Kemp knows that he must run, and he flees from the house.",
+      "Kemp races down the hill road toward Port Burdock, shouting for help as he goes. He can hear the footsteps of the invisible man behind him, getting closer.",
+      "Kemp runs into the town, shouting that the Invisible Man is behind him and that everyone must help. Workmen and passers-by hear him, and some of them run toward him with spades and sticks.",
+      "Kemp is almost at the end of his strength when an invisible hand catches his ankle. He falls to the ground, and the voice of the invisible man cries out in triumph.",
+      "The workmen strike at the air with their spades, and a cry of pain tells them that they have hit him. More and more people join in, and Griffin is soon trapped among them.",
+      "The crowd stands back, breathing hard and staring at the empty ground, and Kemp kneels to feel for a heartbeat. After a moment he says quietly that the invisible man is dead.",
+      "As the crowd watches, the body slowly becomes visible, first as a faint shape like glass, then as flesh. At the end they see a pale young man with white hair and a tired, angry face.",
+      "Marvel, who has kept the notebooks safe, buys a small inn and calls it The Invisible Man. At night he sits alone and tries to read them, but they are written in a secret code."
+    ],
+    "C1C2": [
+      "On a bitter winter day, with snow driving across the Sussex downs, a stranger struggled through the village of Iping and made for the Coach and Horses inn. He was muffled from head to foot in a heavy coat, and a broad hat hid all but the tip of a shiny pink nose. Without a word of greeting, he demanded a room and a blazing fire, and he flung down his money as though the weather had been the landlady's fault.",
+      "Mrs Hall, the landlady, hurried to light the fire in the little parlour and offered to take away his dripping coat and hat. The stranger allowed her to take them but refused to remove his glasses, and when he at last sat down, she saw that his entire face was bound in white bandages. Behind two round blue lenses his eyes were invisible, and the sight left her more curious than frightened.",
+      "A carter named Fearenside delivered the stranger's luggage, which turned out to be crates of bottles, tubes and strange glass instruments packed in straw. His dog, which had been watching the newcomer with obvious dislike, leapt at him and caught his leg in its teeth. The stranger ran into the inn shouting with pain and fury, and Mr Hall, following him up the stairs, was sure he had seen something very odd about the torn clothing.",
+      "For days afterwards the stranger lived behind his closed door, bent over a table crowded with bottles, tubes and scribbled notes. He had warned Mrs Hall that his work was delicate and must never be interrupted, and she, although consumed by curiosity, did as she was told. Only the clink of glass and the sound of his restless footsteps told the household that anyone was there at all.",
+      "It was not long before all of Iping was talking about the bandaged lodger, who walked out only after dark and spoke to no one. Some of the villagers whispered that he was a criminal in hiding, while others, with equal confidence, declared that he had been scarred in some dreadful accident. Mrs Hall defended him loyally, since a guest who paid his bill was not to be lightly criticised.",
+      "As the weeks went by, the stranger's money began to run short, and his temper, never sweet, grew steadily worse. Mrs Hall, who had been patient while the bills were paid, now watched the unpaid weeks pile up with growing alarm. She dared not knock on his door, however, for the last time she had done so, he had shouted at her so fiercely that she had gone downstairs shaking.",
+      "Teddy Henfrey, a clockmender, was sent into the parlour to repair a clock, and he took as long as he possibly could, hoping to learn something about its owner. When the stranger finally turned from the window, Henfrey glimpsed a black, empty hollow where the face should have been. He fled the room with his tools still in his hands and spoke of nothing else for the rest of the evening.",
+      "Dr Cuss, who had listened to every rumour in the village, called one morning on the stranger and politely asked about his work. The man replied that he was a scientific investigator and that his accident was a private matter. The doctor, however, was not a person to be dismissed so easily, and he stayed on, asking question after question.",
+      "When Cuss grew too curious, the stranger slowly pulled off a glove and held up his sleeve, and the doctor saw with horror that there was nothing inside it at all. Before he could speak, an unseen finger and thumb closed upon his nose and pulled it hard. The doctor stumbled backwards, flung open the door, and ran out of the inn to find the vicar.",
+      "That night, a faint noise woke the vicar, Mr Bunting, and his wife, and they crept down to the study with a poker and a candle. The room was empty, yet the drawers lay open, a flame flickered, and from somewhere in the darkness came the unmistakable sound of a sneeze. When they searched the desk, they found that the vicar's money had vanished, and no one in the house had seen the thief.",
+      "Early next morning, the Halls found the stranger's bedroom empty, although the door had been locked and his clothes lay scattered on the chair. As they stared, the bedclothes rose of their own accord, a sneeze rang out, and a chair sprang forward and drove them from the room. Mrs Hall locked herself in the kitchen, trembling, convinced that her house was haunted.",
+      "The stranger came back to the inn as if nothing had happened, and Mr and Mrs Hall, pale with anger and fear, demanded their money and an explanation. He answered that he would pay when it suited him and that the business of his room was none of their concern. Soon the whole parlour rang with raised voices, and neighbours gathered at the door to listen.",
+      "In a burst of fury, the stranger tore off his false nose, his dark glasses and his hat, and then unwound the bandages that had hidden his face. A scream rose from the crowd at the door, for above the collar of his coat there was nothing to be seen but empty air. Men and women fell over one another in their haste to escape from the room.",
+      "The villagers ran screaming into the street, and within minutes all of Iping was shouting about a man with no head. The village constable, Mr Jaffers, was fetched from his tea, and although his knees were shaking, he marched into the inn with a warrant in his pocket. Dr Cuss, who had returned with the vicar, followed close behind him, determined not to miss what would happen next.",
+      "Jaffers announced that he had come to arrest the stranger, and he reached out to seize an arm that could not be seen. The stranger laughed in his face and, with astonishing speed, began to tear off his coat, his waistcoat and finally his shirt. As each garment fell, more of him vanished from view, until the whole figure had disappeared and only the empty clothes lay on the floor.",
+      "Jaffers was knocked off his feet, and for a few wild minutes the parlour was filled with the cries of men struck by an enemy they could not see. The invisible man broke free, flung open the door, and ran through the village street, leaving hats and shutters rattling behind him. By the time the villagers had gathered their courage, he had escaped across the fields, and no one could say where he had gone.",
+      "Some miles from Iping, a ragged tramp named Thomas Marvel sat beside the road, examining his boots with a doubtful frown. All at once, a harsh voice spoke close behind him, though when he turned round, there was not a living soul in sight. Marvel, who had lived by his wits for many years, thought for a moment that he must be going mad.",
+      "The voice belonged to the invisible man, whose name was Griffin, and he seized the terrified tramp by the shoulder and made it clear that he needed a servant. He was cold, hungry and hurt, and he needed someone to buy food, carry his belongings and speak to shopkeepers on his behalf. Marvel, who happened to be the nearest man, had the misfortune to be chosen.",
+      "Griffin's greatest worry was his three notebooks, which held the secret of his work, and they had been left behind at the inn in Iping. He sent Marvel back to fetch them, warning the tramp that he would be watched every step of the way. The tramp, trembling under the load, carried the books out of the village while the invisible man walked silently at his side.",
+      "At last Marvel found his chance, and when his master was distracted, he snatched up the books and ran, his heart pounding, all the way to the seaside town of Port Stowe. There, he hoped, among the crowds and the noise, a frightened man might be safe from an enemy who could not be seen. He pushed through the door of the Jolly Cricketers inn and sat down with the books clutched against his chest.",
+      "It was not long before the invisible man tracked the tramp to the inn, and he burst through the door, demanding his books at the top of his voice. In a moment, chairs were flying, glasses lay smashed on the floor, and a pistol shot rang out, while the customers fought the empty air. Marvel took his chance to slip away with the books, and Griffin, wounded in the arm, fled into the night.",
+      "In his comfortable study above the town of Port Burdock, Dr Kemp, a scientist, was reading the newspaper when he came upon an absurd tale of a man who could not be seen. Like everyone else, he dismissed the story as nonsense and went back to his work. He had no idea that the subject of the story was, at that very moment, approaching his front door.",
+      "Returning to his rooms, Kemp noticed spots of fresh blood on the stairs and followed them to his own bedroom, where a bloodstained bandage lay on the washstand. As he stared, the bandage rose into the air and began to wind itself round something that was not there. A voice spoke calmly out of the empty room, asking him to keep still and to listen.",
+      "At length the voice gave its name, and Kemp, who had once known a pale young student called Griffin, understood that he was speaking to an old acquaintance. Griffin had been the most gifted man in the college, a brilliant scientist whose white hair and pink eyes had made him stand out in every crowd. Kemp shut the door, took a long breath, and sat down to listen to a story stranger than any he had ever heard.",
+      "Griffin began by reminding Kemp that he had been a medical student who abandoned his studies for the physics of light, a subject that gripped him like a fever. Poor, proud and ambitious, he worked day and night in a laboratory, driven by the belief that a single discovery could make him famous. Few of his teachers guessed how far his thoughts had already outrun their own.",
+      "One night, after years of failure, he found that an object which bent light exactly as the air does would be impossible to see, since nothing would turn or reflect the light that struck it. Glass could be made so clear that it vanished in water, and, he realised, so could a living creature. He told no one and went on alone, hungry for the glory that he thought would soon be his.",
+      "Leaving the college behind, Griffin took a shabby room in a poor part of London, where he worked in secret for three long years. Money was always short, and the experiments cost more than a student could hope to pay. His landlord had begun to ask awkward questions, and the old professor, Oliver, whose laboratory he had left, was growing suspicious.",
+      "Desperate to finish his work, Griffin took a large sum that his father had been holding for someone else, and the loss destroyed the old man. After the funeral, Griffin stood alone by the grave, and he felt, or so he told Kemp, only a cold impatience to return to his experiments. Even in the retelling, there was little sign that he understood how much he had done wrong.",
+      "He tried his discovery first on a white cat, and he watched the animal fade away until only the glowing pigment of its eyes and the tips of its claws remained. The cat, frightened by what had been done to it, cried piteously and slipped out through the window into the night. Griffin never discovered what became of it, and he spoke of it afterwards with a careless shrug.",
+      "At last, with no one to help or to warn him, he turned the process upon himself, and the pain was so great that he feared he might die. Through the long night he lay on the floor and watched his hands, then his arms and his legs, grow faint like smoke and finally melt into nothing. When the sun came up, the room around him seemed perfectly empty, although he could feel the cold boards beneath his body.",
+      "When his landlord came to the door and began to demand an explanation, Griffin took the only course he could think of and set fire to the house. As the flames rose behind him, he walked out into the early morning, a man whom no one could see and whom no one would ever suspect. He was free at last, but it was the depth of winter, and he had no clothes, no money and no friends.",
+      "The freedom of invisibility proved to be a bitter joke, for the streets of London were crowded, filthy and freezing. Carts and passers-by struck him without noticing, snow showed the outline of his bare feet, and dogs, whose noses told them what their eyes could not, followed him with growls. By evening he was shaking with cold and hunger, and he began to see that his great discovery might be a curse.",
+      "At last, he found shelter in a vast shop called Omniums and hid there until the doors were locked and the last customer had gone home. Moving through the dark rooms, he helped himself to warm clothes, gloves, a pair of dark spectacles, a false nose and bandages, and he filled his pockets with money. For the first time in days he felt like a human being again, though a very strange one.",
+      "Griffin now longed to be an ordinary man again, and he took the train to the quiet village of Iping, where he hoped to work undisturbed in a rented room. His notebooks, which he had posted to himself, and his boxes of bottles followed him there, but his money was soon spent, and every attempt to reverse the process failed. Hunger and disappointment turned his temper sour, and the villagers who had stared at him were the first to feel it.",
+      "Griffin's story ended in a dark and dreadful plan, for he now wished to use his gift to rule the world through fear. He proposed that Kemp should become his partner and helper, hiding him, feeding him and sharing in what he called a reign of terror. His voice had grown cold and strange, and Kemp, listening in horror, saw that his old friend was no longer sane.",
+      "Kemp, who was quick-witted if not brave, pretended to agree to everything, while his mind raced toward a way of stopping the madman. Once the invisible man had fallen asleep in an upstairs room, he sat down and wrote a short, urgent letter to Colonel Adye, the head of the police at Port Burdock. A servant carried the note out into the night, and Kemp spent the rest of it waiting with a pounding heart.",
+      "The invisible man woke earlier than Kemp had hoped, and when he heard voices at the door, he understood that his friend had betrayed him. In a rage he swept through the house, breaking furniture and shouting threats, and he slipped out before the police could surround it. Kemp and Colonel Adye searched every room from top to bottom, but all they found was an open window and an empty bed.",
+      "That morning, a note was left in a public place in Port Burdock, written in an angry hand and signed by the invisible man himself. It declared that the town no longer belonged to the Queen, that this was the first day of a new age, and that Kemp would be put to death before nightfall. The people who read it stood in silent knots, afraid to move and afraid to speak.",
+      "Later that morning, on a lonely road near the town, an old gentleman named Wicksteed was walking home when the invisible man attacked him with an iron rod. He died at once, and the dreadful news spread through the district faster than any rumour had ever done. The deed showed that Griffin's threats were not empty words, and the town now understood that a cruel killer was moving freely among them.",
+      "In Kemp's library, the doctor and the colonel drew up a plan to trap the creature who now menaced the whole district. Bloodhounds would be brought from the country, broken glass would be scattered on the roads where he walked barefoot, and no food was to be left anywhere that he might find it. They agreed that Griffin must be forced to sleep in the open and go hungry, and that sooner or later he would be driven into a corner.",
+      "Kemp, knowing that the invisible man meant to kill him, sent his servants away, shut every window and bolted every door. He kept a loaded revolver beside him in the study, and he handed a second weapon to Colonel Adye, who had come to protect his friend. The house, usually full of the small noises of daily life, sank into a tense silence.",
+      "In the afternoon, there was a sudden crash of glass, and the blade of an axe appeared through the shutters of a downstairs window. The invisible man, who had found a tool in the garden, was hacking his way into the house, and every blow echoed through the rooms. Kemp and the colonel, pale but steady, waited at the top of the stairs.",
+      "Colonel Adye, who had hesitated for one second too long, had the pistol torn from his hand by an unseen arm, and a shot rang out. He fell to the floor, badly wounded, while Kemp looked on, stunned, as the weapon rose in the air and turned toward him. With a wild cry, he flung himself through the door, and he ran for his life.",
+      "Kemp raced down the long hill toward Port Burdock, his heart hammering, and the empty road behind him was filled with the sound of invisible feet. Doors were closed in his face, for the people he met had heard the stories and were afraid. Yet with every step, the crowded town drew nearer, and with it his only hope of safety.",
+      "At the edge of the town, Kemp burst into the first crowded street, shouting that the invisible man was behind him and that every person must help. Workmen, shopkeepers and idle passers-by heard him, and at once a few of the bravest picked up spades and sticks and ran forward to meet the danger. Behind them, the less brave went on watching from their doorways, afraid but strangely fascinated by it all.",
+      "At the bottom of the hill, Kemp's strength failed him, and an unseen hand caught his ankle, so that he fell heavily in the dust. He struggled to rise, shouting for help, and felt strong fingers close around his throat. The workmen were still some yards away, but they came on at a run, and one of them swung his spade down upon the empty air.",
+      "The blow struck home, for a cry rang out, and then the whole crowd threw itself upon the place where the invisible man must be. They pinned him to the ground with their hands and knees, while the street rang with shouts and the thud of blows. Kemp, free at last, heard a weak voice begging for mercy, and then there was only silence.",
+      "The shouting died away, and the men who had been fighting stepped back, breathing hard, to stare at an empty patch of dusty ground. Kemp, shaken and bruised, knelt beside it and felt carefully with his hands for some sign of life. After a long moment, he told the crowd quietly that the invisible man was dead, and a hush fell over the street.",
+      "Then, as they gazed, a strange thing happened, for the dead man began slowly to appear, first as a faint shape like glass, then as bones and veins, and last of all as flesh and skin. At the end, a pale young man of about thirty lay before them, his white hair damp, his hands clenched, and his face worn out by anger and sorrow. Someone fetched a sheet and covered him, and nobody in the street spoke for a long time.",
+      "Marvel, who had kept the notebooks through every danger, used the money he had gathered to buy a little inn, and he gave it the name of The Invisible Man. Each evening, when the customers had gone, he locked the door, took the books from their hiding place and tried hard to read them. They were written in a secret code that he could never understand, and so the greatest scientific secret of the age remained hidden for ever."
+    ]
+  }
+}

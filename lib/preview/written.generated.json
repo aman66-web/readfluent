@@ -4543,6 +4543,43 @@
   }
  },
  {
+  "slug": "forgiveness-step-by-step",
+  "title": "Forgiveness, Step by Step",
+  "author": "The Book of Forgiving",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "Three years ago Nell's brother sold their late father's café without telling her, and she has not spoken to him since. Over one spring, a retired teacher walks beside her through the slow, honest steps of forgiveness.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Forgiveness,",
+    "Step by Step"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "bridge",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "dove",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "a-calm-and-happy-life",
   "title": "A Calm and Happy Life",
   "author": "The Art of Happiness",
@@ -5313,6 +5350,43 @@
     },
     {
      "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "real-food-simple-rules",
+  "title": "Real Food, Simple Rules",
+  "author": "In Defense of Food",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Elif eats takeaway, ready meals and desk snacks, and every headline tells her something different. Her uncle Davit, a cook for forty years, gives her simple rules for shopping, cooking and eating well, with no diet and no guilt.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Real Food,",
+    "Simple Rules"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "apple",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "leaf",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -6685,6 +6759,116 @@
     },
     {
      "id": "house",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "little-women",
+  "title": "Little Women",
+  "author": "Louisa May Alcott",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "Four sisters, one small house and a war far away. Meg, Jo, Beth and Amy grow up in the March family, learning about love, loss and following their dreams. Louisa May Alcott's beloved story of home, retold for learners.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Little Women"
+   ],
+   "size": 14,
+   "author": "LOUISA MAY ALCOTT",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "heart",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "house",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-valley-of-fear",
+  "title": "The Valley of Fear",
+  "author": "Arthur Conan Doyle",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A coded warning, a body in a moated Sussex house, and a face that is not whose it seems. Holmes unravels a murder at Birlstone, then follows it back to a dark valley in Pennsylvania where a secret society ruled by fear.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "The Valley of",
+    "Fear"
+   ],
+   "size": 13,
+   "author": "ARTHUR CONAN DOYLE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mountain",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "mask",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-invisible-man",
+  "title": "The Invisible Man",
+  "author": "H. G. Wells",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "A stranger wrapped in bandages arrives at a quiet inn in a snowstorm, and beneath the wrappings there is nothing at all. When a brilliant scientist's secret is found, a village is thrown into fear, and one old friend must stop him.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Invisible",
+    "Man"
+   ],
+   "size": 13,
+   "author": "H. G. WELLS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lens",
      "x": 160,
      "y": 38,
      "s": 0.36
