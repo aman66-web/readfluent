@@ -1,8 +1,10 @@
 # Next steps for the next session (written 2 Oct 2026)
 
 The owner is tired and wants Claude Code to do as much as possible. Do not ask them to paste secrets into chat.
-Tokens are in the environment as `VERCEL_TOKEN` and `SUPABASE_ACCESS_TOKEN` (never print them; never commit them).
-If either is missing, or a host is denied, say so in one line and point them at the environment settings (Edit, then
+The owner stored the tokens as environment API credentials for hosts `api.vercel.com` and `api.supabase.com` (values are hidden from the session
+and injected into requests to those hosts, so call the APIs WITHOUT an Authorization header first; if you get 401, check
+whether `VERCEL_TOKEN` / `SUPABASE_ACCESS_TOKEN` exist as env vars instead and use them). Never print or commit any key.
+If neither works, or a host is denied, say so in one line and point them at the environment settings (Edit, then
 API credentials / Network access: api.vercel.com, api.supabase.com).
 
 ## State when this was written
