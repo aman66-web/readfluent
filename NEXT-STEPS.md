@@ -1,4 +1,4 @@
-# Next steps for the next session (written 2 Oct 2026)
+# Next steps for the next session (written 2 Oct 2026) — STEPS 1-4 ARE DONE: the database is connected; only Google sign-in remains
 
 The owner is tired and wants Claude Code to do as much as possible. Do not ask them to paste secrets into chat.
 The owner stored the tokens as environment API credentials for hosts `api.vercel.com` and `api.supabase.com` (values are hidden from the session
