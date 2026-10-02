@@ -7208,6 +7208,43 @@
   }
  },
  {
+  "slug": "romeo-and-juliet",
+  "title": "Romeo and Juliet",
+  "author": "William Shakespeare",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "In fair Verona, two families have hated each other for years. Then a boy and a girl from opposite houses fall in love at first sight. Shakespeare's most famous love story is retold here for learners, from the secret wedding to its heartbreaking end.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Romeo and",
+    "Juliet"
+   ],
+   "size": 18.5,
+   "author": "WILLIAM SHAKESPEARE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "heart",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "dove",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "mansfield-park",
   "title": "Mansfield Park",
   "author": "Jane Austen",
@@ -7348,6 +7385,42 @@
     },
     {
      "id": "mask",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "self-help",
+  "title": "Self-Help",
+  "author": "Samuel Smiles",
+  "kind": "classic",
+  "category": "self-help",
+  "blurb": "Samuel Smiles's famous book says that heaven helps those who help themselves. Meet the poor boys, patient workers and stubborn dreamers who built engines, railways and fine pottery, and learn what their lives can teach you.",
+  "cover": {
+   "bg": "#0E7490",
+   "title": [
+    "Self-Help"
+   ],
+   "size": 18.5,
+   "author": "SAMUEL SMILES",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "anchor",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stack",
      "x": 160,
      "y": 38,
      "s": 0.36
