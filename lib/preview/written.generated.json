@@ -7844,6 +7844,44 @@
   }
  },
  {
+  "slug": "the-picture-of-dorian-gray",
+  "title": "The Picture of Dorian Gray",
+  "author": "Oscar Wilde",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "A painter finishes the portrait of a beautiful young man, and the young man makes a careless wish: that the picture will grow old instead of him. It comes true. As Dorian Gray stays young, his sins appear on the canvas. How long can a secret like that stay hidden?",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The Picture",
+    "of Dorian",
+    "Gray"
+   ],
+   "size": 15.5,
+   "author": "OSCAR WILDE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "frame",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "mask",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-sleeper-awakes",
   "title": "The Sleeper Awakes",
   "author": "H. G. Wells",
