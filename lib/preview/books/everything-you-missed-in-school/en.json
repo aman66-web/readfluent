@@ -1,0 +1,417 @@
+{
+  "slug": "everything-you-missed-in-school",
+  "meta": {
+    "blurb": "Nobody has time to teach you everything. This book takes you from the Big Bang to your own brain in fifty short steps, covering the stars, the Earth, life, atoms and the way science works, and it never talks down to you.",
+    "bible": "You: the reader, who sat in a classroom and wants the parts that were left out. Voice: friendly, curious and plain, speaking to \"you\", never talking down. Every fact is real and rounded with \"about\"; where scientists are unsure, the text says so. The order runs from the whole Universe, to the Earth, to life, to atoms and energy, to the brain and how science works. Key terms: Big Bang, Universe, Galaxy, Milky Way, Sun, Earth, Moon, Solar System, Light year, Hydrogen, Helium, Carbon, Oxygen, Iron, Fusion, Supernova, Dark matter, Dark energy, Crust, Mantle, Core, Plates, Tectonics, Pangaea, Atmosphere, Nitrogen, Greenhouse, Carbon dioxide, Cells, DNA, Genes, Evolution, Natural selection, Cyanobacteria, Photosynthesis, Cambrian, Extinction, Asteroid, Dinosaurs, Mammals, Homo sapiens, Microbes, Bacteria, Vaccines, Atoms, Protons, Neutrons, Electrons, Nucleus, Elements, Periodic table, Molecule, Energy, Electricity, Magnetism, Gravity, Neurons, Brain, Theory, Hypothesis, Radioactive."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A student sits at a school desk by a window, a globe beside her",
+      "summary": "You remember school, and see that much was left out of the lessons."
+    },
+    {
+      "n": 2,
+      "scene": "A tiny figure stands under a sky full of stars and galaxies",
+      "summary": "The Universe is so big that its size is hard to picture."
+    },
+    {
+      "n": 3,
+      "scene": "A beam of light crosses a dark space between two distant stars",
+      "summary": "A light year is the distance light travels in one year."
+    },
+    {
+      "n": 4,
+      "scene": "A hot glowing point of light begins to swell into a bright cloud",
+      "summary": "The Big Bang began about fourteen billion years ago as space itself expanded."
+    },
+    {
+      "n": 5,
+      "scene": "Galaxies move apart across space beside a faint glow of old light",
+      "summary": "Two kinds of evidence support the Big Bang."
+    },
+    {
+      "n": 6,
+      "scene": "Tiny glowing dots of gas fill a dark space",
+      "summary": "The first atoms were hydrogen and helium."
+    },
+    {
+      "n": 7,
+      "scene": "The first stars shine like blue lamps inside a cloud of gas",
+      "summary": "The first stars lit up as gravity pulled gas together."
+    },
+    {
+      "n": 8,
+      "scene": "A star glows like a furnace, with heavier atoms forming in its middle",
+      "summary": "Stars turn lighter atoms into heavier ones by fusion."
+    },
+    {
+      "n": 9,
+      "scene": "A giant star bursts into a bright cloud that scatters dust in every direction",
+      "summary": "Dying stars scatter the elements they made across space."
+    },
+    {
+      "n": 10,
+      "scene": "A spiral galaxy with a bright centre seen from far away",
+      "summary": "Galaxies hold billions of stars, and ours is the Milky Way."
+    },
+    {
+      "n": 11,
+      "scene": "A planet and a star surrounded by a dark ghostly cloud",
+      "summary": "Most of the Universe is made of things we cannot see."
+    },
+    {
+      "n": 12,
+      "scene": "A great cloud of gas and dust spins into a flat disc around a young Sun",
+      "summary": "The Solar System formed about four and a half billion years ago."
+    },
+    {
+      "n": 13,
+      "scene": "The Sun in the middle, with eight planets of different sizes on rings around it",
+      "summary": "The Sun holds almost all the mass of the Solar System, with eight planets around it."
+    },
+    {
+      "n": 14,
+      "scene": "A huge rocky planet crashes into the young Earth, with fire and sparks",
+      "summary": "The Moon probably formed when a planet-sized object hit the young Earth."
+    },
+    {
+      "n": 15,
+      "scene": "A rock being held up beside a ticking clock",
+      "summary": "We know the Earth is about four and a half billion years old from radioactive rocks."
+    },
+    {
+      "n": 16,
+      "scene": "A cut-away of the Earth showing a thin crust, thick mantle and glowing core",
+      "summary": "The Earth has a thin crust, a thick mantle and a hot metal core."
+    },
+    {
+      "n": 17,
+      "scene": "Huge slabs of rock drift apart across a map of the Earth",
+      "summary": "The Earth's crust is broken into plates that move slowly."
+    },
+    {
+      "n": 18,
+      "scene": "A volcano erupts above a line of mountains with a crack in the ground",
+      "summary": "Earthquakes and volcanoes mostly happen where plates meet."
+    },
+    {
+      "n": 19,
+      "scene": "One great supercontinent slowly breaks into the continents of today",
+      "summary": "The continents have moved and were once joined as Pangaea."
+    },
+    {
+      "n": 20,
+      "scene": "Layers of coloured rock in a cliff with a fossil shell inside",
+      "summary": "Layers of rock and fossils record the history of Earth."
+    },
+    {
+      "n": 21,
+      "scene": "A blue sky above, with thin air around the curve of the Earth seen from space",
+      "summary": "The atmosphere is mostly nitrogen, with about a fifth oxygen."
+    },
+    {
+      "n": 22,
+      "scene": "A wide blue ocean seen from above, with a comet streaking in the sky",
+      "summary": "Oceans cover most of the Earth, and where the water came from is debated."
+    },
+    {
+      "n": 23,
+      "scene": "Clouds, rain and a river running back to a sea under the Sun",
+      "summary": "The Sun drives weather and the water cycle."
+    },
+    {
+      "n": 24,
+      "scene": "Sunlight passes into the air and warm rays are trapped under a thin blanket",
+      "summary": "The greenhouse effect keeps Earth warm, and extra carbon dioxide warms it more."
+    },
+    {
+      "n": 25,
+      "scene": "Hot springs and a shallow warm sea with a tiny glowing speck inside",
+      "summary": "Life began on Earth over three and a half billion years ago, but how is not known."
+    },
+    {
+      "n": 26,
+      "scene": "A drop of water through a lens, with cells shaped like tiny rooms",
+      "summary": "All living things are made of cells."
+    },
+    {
+      "n": 27,
+      "scene": "A twisted ladder shape glowing inside a cell",
+      "summary": "DNA is a chemical code that holds the instructions for building a living thing."
+    },
+    {
+      "n": 28,
+      "scene": "A mother, a father and a child standing in a line",
+      "summary": "Genes pass from parents to children."
+    },
+    {
+      "n": 29,
+      "scene": "Many small birds of different shapes and beak sizes on a branch",
+      "summary": "Evolution works by natural selection among varied living things."
+    },
+    {
+      "n": 30,
+      "scene": "A fossil whale with legs beside a family tree drawn in the sand",
+      "summary": "Fossils, DNA and direct observation all support evolution."
+    },
+    {
+      "n": 31,
+      "scene": "Green blue slime floating in a sunny shallow sea with bubbles rising",
+      "summary": "Tiny cyanobacteria filled the air with oxygen."
+    },
+    {
+      "n": 32,
+      "scene": "The first soft sea animals lie on the sea floor among strange shapes",
+      "summary": "Animals appeared in the sea, and many kinds burst into view about five hundred and forty million years ago."
+    },
+    {
+      "n": 33,
+      "scene": "A fish crawls out of a pond onto land among low green plants",
+      "summary": "Plants and animals moved onto the land."
+    },
+    {
+      "n": 34,
+      "scene": "A bare land with dead trees beneath a red sky and few small animals",
+      "summary": "Mass extinctions have wiped out most species several times."
+    },
+    {
+      "n": 35,
+      "scene": "A huge dinosaur stands beside a bright streak in the sky above",
+      "summary": "Dinosaurs ruled for a very long time until an asteroid hit about sixty-six million years ago."
+    },
+    {
+      "n": 36,
+      "scene": "Small furry mammals hide in the grass as large animals move about",
+      "summary": "After the dinosaurs, mammals grew in size and kind."
+    },
+    {
+      "n": 37,
+      "scene": "A group of early people walk across a grassy plain in Africa",
+      "summary": "Modern humans appeared in Africa about three hundred thousand years ago."
+    },
+    {
+      "n": 38,
+      "scene": "A microscope shows bacteria on a hand, with a happy person behind",
+      "summary": "Microbes are everywhere, and most are harmless or helpful."
+    },
+    {
+      "n": 39,
+      "scene": "A doctor's hands washing in a bowl next to a small bottle and a needle",
+      "summary": "Understanding germs led to cleaner hospitals, vaccines and medicines."
+    },
+    {
+      "n": 40,
+      "scene": "A hand holding a speck of dust, with an invisible atom shown as a small dot",
+      "summary": "Everything is made of atoms."
+    },
+    {
+      "n": 41,
+      "scene": "A big empty stadium with a tiny marble in the middle",
+      "summary": "Atoms are mostly empty space, with a tiny nucleus in the middle."
+    },
+    {
+      "n": 42,
+      "scene": "A wall chart with rows of coloured squares that hold letters",
+      "summary": "There are about one hundred and eighteen elements, arranged in the periodic table."
+    },
+    {
+      "n": 43,
+      "scene": "Two small atoms of hydrogen join one atom of oxygen to make a water drop",
+      "summary": "Atoms join together to make molecules, such as water."
+    },
+    {
+      "n": 44,
+      "scene": "A ball rolls down a slope while sparks and a warm glow rise from it",
+      "summary": "Energy cannot be created or destroyed, only changed from one form to another."
+    },
+    {
+      "n": 45,
+      "scene": "A bright bolt of lightning hits near a compass and a magnet",
+      "summary": "Electricity and magnetism are two sides of one force."
+    },
+    {
+      "n": 46,
+      "scene": "A prism splits a ray of white light into a rainbow",
+      "summary": "Light is a wave and also acts like a stream of particles."
+    },
+    {
+      "n": 47,
+      "scene": "A heavy ball sits on a stretched cloth, and a small ball curves around it",
+      "summary": "Gravity pulls all things together and, in Einstein's view, bends space and time."
+    },
+    {
+      "n": 48,
+      "scene": "A glowing outline of a head, with sparks running along its branched cells",
+      "summary": "The brain has billions of neurons that pass electrical signals."
+    },
+    {
+      "n": 49,
+      "scene": "A scientist writes a question on a board, with a flask and a notebook beside it",
+      "summary": "Science works by asking questions, testing ideas and being ready to be wrong."
+    },
+    {
+      "n": 50,
+      "scene": "A person looks up from a hill at the night sky, full of stars",
+      "summary": "You are part of the story, so keep asking questions."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "You sit in a classroom and wonder what the teacher left out.",
+      "The Universe is very big, much bigger than you can imagine.",
+      "Light moves very fast, and in one year it goes far.",
+      "Long ago, the whole Universe was very small and very hot.",
+      "Far away galaxies are moving away from us, and from each other.",
+      "At first there were only two kinds of atom, hydrogen and helium.",
+      "Gravity pulled the gas together, and the first stars began to shine.",
+      "Inside a star, small atoms join together to make bigger atoms.",
+      "When a big star dies, it throws its atoms out into space.",
+      "Stars gather in great groups called galaxies, and ours is the Milky Way.",
+      "Most of the Universe is made of things that we cannot see.",
+      "Our Sun and its planets began as a cloud of gas.",
+      "The Sun is a star, and eight planets travel around it.",
+      "The Moon is probably a piece of Earth that flew off long ago.",
+      "Scientists have found that the Earth is very, very old.",
+      "Under your feet, the Earth has layers like an onion.",
+      "The ground is broken into big pieces that move very slowly.",
+      "Earthquakes and volcanoes happen where two plates meet.",
+      "Long ago, all the land on Earth was one big piece.",
+      "Layers of rock in a cliff tell a story about the past.",
+      "The air around us is mostly nitrogen, and about one fifth is oxygen.",
+      "Oceans cover most of the Earth, and they are full of water.",
+      "The Sun heats the sea, and the water rises into the air.",
+      "Gases in the air keep the Earth warm, like a blanket.",
+      "Life began on Earth a very long time ago.",
+      "All living things are made of tiny parts called cells.",
+      "Inside each cell is a long code called DNA.",
+      "You get half of your genes from each of your parents.",
+      "Living things change over a very long time, as life moves on.",
+      "Fossils and DNA show that living things share the same family.",
+      "Tiny green living things made the oxygen that we breathe.",
+      "The first animals lived in the sea, and they had soft bodies.",
+      "After a long time, plants and animals moved onto the land.",
+      "Sometimes most of the animals on Earth died in a short time.",
+      "Dinosaurs lived on Earth for a very long time.",
+      "After the dinosaurs, small furry animals called mammals became more common.",
+      "People like us first lived in Africa about three hundred thousand years ago.",
+      "Tiny living things live everywhere, even on your skin.",
+      "Washing hands and having vaccines can stop many illnesses.",
+      "Everything you can touch is made of tiny atoms.",
+      "Most of an atom is empty space around a tiny middle.",
+      "There are about one hundred and eighteen kinds of atom.",
+      "Atoms join together and make new things, such as water.",
+      "Energy can change its form, but it never disappears.",
+      "Electricity and magnets are closely joined to each other.",
+      "White light is a mix of all the colours of the rainbow.",
+      "Gravity pulls everything toward everything else, and it keeps us on the ground.",
+      "Your brain is made of billions of tiny cells that send signals.",
+      "Science is a way to ask questions and test the answers.",
+      "You are part of this story, so keep asking questions."
+    ],
+    "B1B2": [
+      "Every school has to leave things out, because there is far more to know than any timetable can hold. This book is a quick tour of the big ideas that you may have missed.",
+      "Space is so large that kilometres are the wrong tool for measuring it. The part of the Universe we can see is about ninety billion light years across.",
+      "Light travels about three hundred thousand kilometres every second, which is faster than anything else we know. A light year is the distance it covers in a whole year, about nine trillion kilometres.",
+      "About fourteen billion years ago, everything we can see was packed into a hot, dense state. Then space itself began to expand, and we call that moment the Big Bang.",
+      "When we look at distant galaxies, almost all of them are moving away from us, and the farther ones move faster. We also detect a faint glow of ancient light coming from every direction in the sky.",
+      "As the young Universe cooled, tiny particles joined together to make the first atoms. They were nearly all hydrogen and helium, the two lightest kinds.",
+      "Gravity slowly pulled clouds of gas into thick clumps, and the clumps grew hot in the middle. After a few hundred million years, the first stars lit up and ended the long dark age.",
+      "A star is a huge furnace in which atoms of hydrogen are squeezed together until they join. This process is called fusion, and it releases the energy that makes starlight.",
+      "Very large stars end their lives in huge explosions called supernovas, which scatter their atoms across space. The carbon, oxygen and iron in your body were made inside stars that died long ago.",
+      "A galaxy is a huge family of stars, gas and dust held together by gravity. Our own galaxy, the Milky Way, has hundreds of billions of stars, and the Sun is just one of them.",
+      "The stars and planets we know make up only about five percent of the Universe. The rest is dark matter, which pulls on galaxies, and dark energy, which seems to push space apart.",
+      "About four and a half billion years ago, a cloud of gas and dust began to collapse. Most of it became the Sun, and the rest spun into a flat disc.",
+      "The Sun holds almost all the mass of our Solar System, and its gravity keeps the planets in their paths. There are four small rocky planets near the Sun and four giant planets farther out.",
+      "Most scientists think a planet about the size of Mars hit the young Earth. The cloud of rock it threw into space probably joined together to make the Moon.",
+      "Some atoms in rocks are radioactive, which means they change into other atoms at a steady rate. By measuring how much has changed, scientists have found that the Earth is about four and a half billion years old.",
+      "The Earth has a thin outer crust, a thick layer of hot rock called the mantle, and a core of iron and nickel at the middle. The core is about as hot as the surface of the Sun.",
+      "The Earth's crust is split into large pieces called plates, which float on the hot mantle below. They move about as fast as your fingernails grow, a few centimetres each year.",
+      "When plates push against each other or slide past each other, they sometimes get stuck. When they finally slip, the ground shakes in an earthquake, and hot rock may rise to the surface as a volcano.",
+      "About three hundred million years ago, most of the land was joined into one huge continent called Pangaea. It slowly broke apart, and the pieces drifted to where they are today.",
+      "Over millions of years, mud and sand settle in layers, and the oldest layers lie at the bottom. Fossils inside the rock show which living things were alive at each time.",
+      "The thin layer of air around the Earth is called the atmosphere. It is about four fifths nitrogen and about one fifth oxygen, and the early Earth had almost no oxygen at all.",
+      "Water covers about seven tenths of the Earth's surface, mostly in the oceans. Scientists are not sure where it first came from, and some think it arrived on asteroids and comets while others think it was already in the rocks.",
+      "The Sun warms the oceans, and water rises into the air as invisible vapour. High up, it cools into clouds, falls as rain and flows back to the sea in rivers.",
+      "Gases such as carbon dioxide trap some heat near the surface, and without them the Earth would be frozen. Burning coal, oil and gas adds more of these gases, so the planet is slowly getting warmer.",
+      "The oldest signs of life are more than three and a half billion years old. Scientists have several ideas about how it began, but nobody knows for sure.",
+      "A cell is the smallest unit that is alive, and some living things are just one cell. Your own body is made of tens of trillions of cells, and each one has a job.",
+      "DNA is a long molecule with a code written in four chemical letters. The human code is about three billion letters long, and it holds the instructions for building a person.",
+      "Genes are the parts of DNA that carry particular instructions, and you receive one set from each parent. That is why children often look like their parents but are never exactly the same.",
+      "Individuals in a group are all a little different, and some of the differences help them survive and have young. Over many generations those helpful traits become common, and this is called natural selection.",
+      "Fossils show how animals have changed through time, and DNA shows how closely related different species are. We can even watch evolution happen today in fast-breeding creatures, such as bacteria that become resistant to medicines.",
+      "About two and a half billion years ago, tiny living things called cyanobacteria learned to use sunlight to make food. This is called photosynthesis, and it gave off oxygen that slowly filled the air.",
+      "Animals appeared in the sea more than five hundred million years ago. Then, about five hundred and forty million years ago, many new kinds appeared in what is called the Cambrian explosion.",
+      "Plants spread onto the land first, about four hundred and fifty million years ago, and animals followed them. Some fish slowly grew strong fins that could carry them across mud.",
+      "Life has suffered five great mass extinctions, when most species died out. The largest one was about two hundred and fifty million years ago, when more than nine in ten sea species were lost.",
+      "Dinosaurs appeared about two hundred and thirty million years ago and ruled the land for a long time. About sixty-six million years ago, a huge asteroid hit the Earth, and most of them died out.",
+      "Mammals had lived beside the dinosaurs for a long time, but they were mostly small. When the dinosaurs went, they spread into many new shapes, from whales to bats to elephants.",
+      "Our species, Homo sapiens, first appeared in Africa, and the oldest fossils are about three hundred thousand years old. Later, groups of people walked out of Africa and spread across the world.",
+      "Microbes are living things too small to see, and they are in the soil, in the sea and on your skin. Most of them are harmless, and many of them help us, for example by breaking down food in the gut.",
+      "Once people understood that tiny germs cause many illnesses, they began to wash their hands and clean their tools. Vaccines teach the body to fight a germ safely, and they have saved millions of lives.",
+      "An atom is a tiny building block, so small that a single speck of dust has billions of them. Everything around you, from the air to your own hand, is made from atoms.",
+      "At the centre of an atom is a tiny nucleus made of protons and neutrons, and electrons move around it. If the nucleus were a marble in the middle of a stadium, the electrons would be at the far seats.",
+      "Each kind of atom is called an element, and there are about one hundred and eighteen known ones. The periodic table lists them in order, and elements in the same column behave in a similar way.",
+      "Atoms can join together by sharing or swapping their electrons, and a group of joined atoms is called a molecule. Two hydrogen atoms and one oxygen atom make one molecule of water.",
+      "Energy can take many forms, such as movement, heat, light and stored energy. It can change from one form to another, but the total amount never changes.",
+      "A moving electric charge makes a magnetic field, and a changing magnetic field can make an electric current. The two are really parts of one force called electromagnetism, and it powers our homes and our phones.",
+      "A glass prism splits white light into a rainbow of colours, because each colour bends by a different amount. Light travels as a wave, yet it also arrives in tiny packets of energy called photons.",
+      "Everything with mass pulls on everything else, and this pull is called gravity. Einstein later showed that large objects bend space and time, and the planets follow the curves.",
+      "Your brain has about eighty-six billion nerve cells, called neurons, which pass signals to each other using electricity and chemicals. It weighs only about one and a half kilograms, but it uses about a fifth of the body's energy.",
+      "A scientist starts with a question, makes a guess called a hypothesis, and then tests it carefully. In science, a theory is not just a guess, because it is an explanation that many tests have supported.",
+      "Your atoms came from the stars, your cells came from ancient life, and your brain can now ask how it all works. You missed nothing for good, because the questions are still there for you."
+    ],
+    "C1C2": [
+      "Think back to your school days, to the long afternoons and the clock above the board, and you may notice how much was quietly left out. No timetable can hold everything, so the great story of how the Universe, the Earth and life itself came to be usually arrived in scraps. This book gathers those scraps into one journey, beginning with the very largest question and working steadily down to the very small.",
+      "The Universe is so vast that ordinary distances stop meaning anything, and a kilometre becomes about as useful as a grain of sand on a beach. The part of it that we can see from Earth stretches about ninety billion light years from side to side. Beyond that edge there may be far more, but we cannot look there, because its light has had no time to reach us.",
+      "Nothing in nature moves faster than light, which races along at about three hundred thousand kilometres every second. A light year is simply the distance that a beam covers in a full year, roughly nine and a half trillion kilometres. Because light takes time to travel, looking at a distant star means looking back in time, and you see it as it was long ago.",
+      "Nearly fourteen billion years ago, all the matter and energy we can now observe was crowded into a state of extraordinary heat and density. Space itself began to stretch, and we call that stretching the Big Bang. It was not an explosion in the middle of an empty room, because the room, meaning space, was growing everywhere at once.",
+      "Astronomers have found that nearly every distant galaxy is rushing away from us, and the more distant it is, the faster it goes. They have also found a faint, even glow of old light, the cosmic microwave background, coming from every direction of the sky. Together these two discoveries are the strongest evidence that the Universe was once much smaller and hotter than it is now.",
+      "As the young Universe cooled, the hot soup of particles slowly settled into the first complete atoms, a few hundred thousand years after the beginning. They were almost all hydrogen, with some helium, the two lightest elements that exist. Everything heavier, including the carbon in your body, did not yet exist and had to be made later.",
+      "Gravity, working patiently on the lumps of gas, drew clouds together into denser and denser clumps, and the centres of those clumps grew hot. After a few hundred million years, the pressure and heat in some of them became so great that the first stars switched on. The long dark age was over, and the Universe was no longer a place of faint glow and shadow.",
+      "Deep inside a star, the pressure is so crushing that atoms of hydrogen are forced to merge, and this process is called fusion. It releases the energy that we see as starlight, and it also builds new, heavier elements such as carbon and oxygen. The stars are therefore not only lamps but also factories, and they have been making the raw materials of the world for billions of years.",
+      "The most massive stars end their lives in colossal explosions called supernovas, which hurl their freshly made atoms far out into space. Later clouds of gas gather up that debris and form new stars and planets. Most of the carbon, oxygen and iron in your body was made inside stars that died before the Sun was born, which is why people say that we are made of stardust.",
+      "A galaxy is an enormous island of stars, gas and dust, bound together by the pull of gravity. Our own, the Milky Way, holds hundreds of billions of stars and is shaped like a flat spiral, and the Sun sits in one of its quiet outer arms. Astronomers think there are hundreds of billions of other galaxies in the part of the Universe we can see, and perhaps many more.",
+      "Everything we can touch and see, from planets to stars to people, makes up only about five percent of the Universe. About a quarter is dark matter, which we detect only by its gravity, and most of the rest is dark energy, which seems to be making space expand faster. Nobody yet knows what either one really is, and finding out is among the biggest open questions in science.",
+      "About four and a half billion years ago, a cloud of gas and dust, left over from earlier stars, began to collapse under its own weight. Most of the material fell to the centre and became the Sun, while the rest flattened into a spinning disc. Inside that disc, tiny grains stuck together to make larger lumps, and those lumps slowly grew into the planets.",
+      "The Sun contains almost all of the mass in the Solar System, and its gravity holds eight planets in steady paths around it. The four inner planets are small and rocky, while the four outer ones are giants made mostly of gas and ice. Every one of them, including Earth, is simply a lump of material that was left over when the Sun was formed.",
+      "The most widely accepted idea is that a young planet about the size of Mars crashed into the infant Earth. The collision threw a huge cloud of hot rock into orbit, and over time that cloud probably gathered into the Moon. The evidence is good, but the details are still argued over, and new computer models keep changing the story a little.",
+      "Certain atoms inside rocks are radioactive, meaning that they slowly turn into different atoms at a steady and well-measured rate. By comparing how much of each kind a rock contains, scientists can work out how long ago it formed. The oldest rocks, along with fragments that fell from space, show that the Earth is about four and a half billion years old.",
+      "The ground beneath you is only a thin crust, much thinner than the skin of an apple compared with the whole fruit. Below it lies the mantle, a thick layer of hot rock that flows very slowly, and in the middle is a core made mostly of iron and nickel. The inner core is solid and about as hot as the surface of the Sun, although the great pressure there keeps it from melting.",
+      "The outer shell of the Earth is not one solid piece but is broken into a handful of large plates and many smaller ones. They ride slowly on the hot mantle beneath, moving about as fast as your fingernails grow, a few centimetres every year. This idea is called plate tectonics, and it explains much of what happens on the surface of our planet.",
+      "Where two plates push together, pull apart or grind past one another, enormous stresses build up in the rock. When the stress is suddenly released, the ground shakes in an earthquake, and in some places molten rock finds a way upward to form a volcano. This is why such events are concentrated in narrow belts, such as the one around the edge of the Pacific Ocean.",
+      "About three hundred million years ago, most of the dry land on the planet was joined into a single supercontinent that we call Pangaea. It slowly broke into pieces, and the pieces drifted apart, so that fossils of the same animals now lie on opposite sides of an ocean. The continents are still moving, and in time they will gather again in a different pattern.",
+      "Mud, sand and the remains of living things settle in layers over millions of years, and the oldest layers usually lie at the bottom. A cliff can therefore be read like a page of history, with each band of rock holding its own fossils. Since particular creatures lived only in certain ages, fossils also help us date the rocks and compare places across the world.",
+      "The atmosphere is a thin skin of gas wrapped around the planet, and it is about four fifths nitrogen and about one fifth oxygen. The breathable mixture that fills your lungs is not the original air of the young Earth, which contained almost no free oxygen at all. Living things changed the air over a very long time, and the story of how they did it comes a little later.",
+      "Water covers about seven tenths of the surface of the Earth, most of it in salty oceans that are several kilometres deep. Nobody is certain where it came from, since some scientists believe that icy asteroids and comets delivered it, while others argue that much of it was already locked inside the rocks that formed the planet. Whatever the answer, liquid water is the reason that Earth can have life, because it stays liquid at the right distance from the Sun.",
+      "Weather is largely a product of sunlight, because the Sun heats the Earth unevenly and sets the air and the oceans moving. Water evaporates from the sea, rises as invisible vapour, cools into clouds and returns as rain or snow, a loop known as the water cycle. The same uneven heating drives the winds, so every storm you have ever seen was powered by a star.",
+      "Certain gases in the atmosphere, notably carbon dioxide and water vapour, trap some of the heat that the Earth would otherwise lose to space. This natural greenhouse effect is welcome, since without it the planet would be a frozen world, but burning coal, oil and gas has been adding more of those gases for about two centuries. Measurements from all over the world, and the agreement of nearly all climate scientists, show that the planet is warming as a result.",
+      "The oldest traces of living things on Earth are more than three and a half billion years old, and they are tiny and simple. Scientists have proposed several ideas for how chemicals first became alive, including warm pools, hot springs on the sea floor and clay surfaces. None of them has been proved, so the beginning of life is still one of science's great unsolved puzzles.",
+      "A cell is the smallest unit of life, a tiny package wrapped in a skin and filled with busy chemistry. Some creatures, such as bacteria, are just one cell, while your own body is built from tens of trillions of them, each one doing a job. No cell is visible to the naked eye in a person, yet every one of them is doing more work than a small factory.",
+      "DNA is a long, twisted molecule that carries a code written in only four chemical letters, and the order of those letters carries the instructions for a living thing. The human version is about three billion letters long, and nearly every cell in your body holds a full copy. If you could write it all in a book, it would fill thousands of volumes, yet it fits inside a space far too small to see.",
+      "A gene is a stretch of DNA that carries one instruction, such as how to build a certain protein, and you inherit one set from each of your parents. Because the sets are shuffled together in a new way for every child, family members resemble one another without ever being exact copies. Small changes in the code, called mutations, also appear from time to time and are one source of new variety.",
+      "Individuals in any group differ from one another, and a few of those differences help them to find food, avoid danger or raise young. Those individuals tend to leave more offspring, so over many generations a helpful trait spreads through the whole group, a process known as natural selection. Given enough time, this slow sorting can turn one kind of creature into many new ones.",
+      "Several independent lines of evidence point to the same conclusion, which is why evolution is among the best-supported ideas in science. Fossils show a long record of change, DNA reveals that all living things share a common code, and in the laboratory we can watch fast-breeding creatures such as bacteria change within a few years. Bacteria that become resistant to medicines are a real and urgent example of natural selection at work.",
+      "Roughly two and a half billion years ago, microscopic organisms called cyanobacteria began using sunlight to turn water and carbon dioxide into food. This process, photosynthesis, releases oxygen as a waste gas, and over a very long time that gas built up in the sea and the air. The change was so great that it poisoned many older kinds of life, and it also made room for animals that breathe oxygen.",
+      "Simple animals first appeared in the sea more than five hundred million years ago, and for a time they were soft and small. Around five hundred and forty million years ago, in a period called the Cambrian, fossils of many new body shapes suddenly appear in the rocks, with eyes, shells and legs. The word explosion is a little misleading, because it still lasted for millions of years.",
+      "Mosses and other small plants began to spread across bare rock about four hundred and fifty million years ago, and insects and other small animals followed. Later, some fish with strong, jointed fins began to spend time on the mud, and their descendants became the first animals with four legs. Moving to dry land was hard, since breathing, drying out and holding up the body all became new problems to solve.",
+      "Life on Earth has passed through five major mass extinctions, in which a large share of all the species alive at the time disappeared. The worst came about two hundred and fifty million years ago, when more than nine in every ten kinds of sea creature were lost. Scientists think huge volcanic eruptions played a large part, but the full cause is still being studied.",
+      "The first dinosaurs appeared about two hundred and thirty million years ago, and they went on to dominate the land for well over a hundred million years. Then, about sixty-six million years ago, an asteroid roughly as wide as a city struck the Earth and changed the climate for years afterwards. Most dinosaurs died, but one group survived and lives today, because birds are the descendants of dinosaurs.",
+      "Mammals had lived in the shadow of the dinosaurs for many millions of years, and most of them were no bigger than a rat. With the giant reptiles gone, they spread into the empty places and quickly took on a wonderful variety of forms, from swimming whales to flying bats. Our own ancestors were among them, small tree climbers who ate fruit and insects.",
+      "Our own species, Homo sapiens, first appeared in Africa, where the oldest known fossils are about three hundred thousand years old. Over many thousands of years, groups of people moved north and east and eventually settled on every continent except icy Antarctica. Despite the differences you can see, any two humans share about ninety-nine point nine percent of their DNA, because we all come from the same recent family.",
+      "Microbes, which include bacteria and many other tiny organisms, are the most common living things on Earth, and they live in the soil, in the sea and all over your own body. A small minority cause disease, but most are harmless, and a good number are very useful, such as the ones in your gut that help you digest food. Your body carries about as many bacteria as it has cells of its own.",
+      "Once doctors understood that some illnesses are caused by germs, hospitals began to scrub their floors, wash their hands and clean their instruments. Vaccines go one step further by training the body to recognise a germ before it can do harm, and they have prevented a huge number of deaths. The most striking triumph is smallpox, a terrible disease that has now been wiped out from the whole world.",
+      "An atom is a building block of matter so small that billions of them fit on a speck of dust. The air, the water, the Earth and your own hand are all made from atoms, which are arranged in different patterns. The idea that matter is made from tiny pieces is very old, but only in recent times have we been able to prove it and even see atoms with special microscopes.",
+      "At the heart of every atom sits a tiny nucleus made of protons and neutrons, and a cloud of much lighter electrons surrounds it. If the nucleus were a marble placed in the middle of a large stadium, the electrons would be somewhere around the outer seats, and the rest would be empty. You do not fall through the floor because the electrons in your feet push back strongly against the electrons in the floor.",
+      "Each kind of atom is called an element, and about one hundred and eighteen have been identified, though only about ninety occur naturally. The periodic table arranges them in order of the number of protons in their nuclei, and elements that fall in the same column tend to behave alike. Its pattern was so good that it made it possible to predict elements that had not yet been found.",
+      "Atoms can link up by sharing or swapping their outermost electrons, and a joined group is called a molecule. Two atoms of hydrogen and one of oxygen make a single molecule of water, a substance with properties that neither of its ingredients has alone. All of chemistry is, in the end, the story of atoms linking up and breaking apart in different combinations.",
+      "Energy appears in many forms, including movement, heat, light and the stored energy in food or fuel. It can change from one form into another, but it is never made from nothing and never destroyed, so the total stays the same. This single rule, called the conservation of energy, is one of the most reliable ideas in all of science.",
+      "Electricity and magnetism were once thought of as separate wonders, but about two centuries ago people found that moving electric charges create magnetic fields, and that a changing magnetic field can drive a current. They are two sides of one force, electromagnetism, and the discovery made it possible to build generators, motors and radios. Almost every device in your home depends on it.",
+      "When white light passes through a glass prism it spreads into the colours of the rainbow, because each colour bends by a slightly different amount. Light travels in waves, with red light having long waves and violet short ones, yet it also arrives in tiny packets of energy called photons. Strangely, both descriptions are needed, and we must use whichever one fits the experiment.",
+      "Every object that has mass pulls on every other object, and that pull is what we call gravity. It holds you to the ground, keeps the Moon moving around the Earth and keeps the planets circling the Sun. Albert Einstein showed, a little more than a century ago, that gravity is best understood as the bending of space and time by matter, and many careful experiments have supported him.",
+      "The human brain contains about eighty-six billion nerve cells, called neurons, and each one is linked to thousands of others by tiny connections. They pass signals using electricity and chemicals, and from the activity of those signals come memory, feeling and thought. The brain weighs only about one and a half kilograms, yet it consumes about a fifth of the energy that the body uses.",
+      "Science begins with a question and a possible answer, called a hypothesis, which must be tested by experiments or careful observation. In everyday speech, a theory is a guess, but in science it means an explanation that has been tested many times and has survived. Being wrong is not a failure, because every discarded idea shows where the truth is not, and that is how knowledge grows.",
+      "The atoms in your body were forged in stars, your cells descend from ancient life, and your brain is now able to ask how all of it works. Nothing you missed at school is lost, because the books are open and the questions are still waiting. Look up at the night sky, remember that you are part of this story, and never stop asking why."
+    ]
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "slug": "start-investing-today",
+  "meta": {
+    "blurb": "Mira has some savings and no idea where to start. With the help of her cousin Dev, she learns what shares, bonds and index funds are, why costs matter, and how a simple plan can carry an ordinary person through good years and bad.",
+    "bible": "Mira: a careful young woman of twenty-eight who has never invested; she starts with two hundred dollars a month and keeps going. Dev: her cousin, a bookkeeper who has invested quietly for ten years; patient and honest; he once sold in a panic and regretted it. Money is counted in dollars. Mira pays off a card debt of six hundred dollars before she invests. In the fourteenth month the market falls by roughly a fifth; Mira reads her written plan and keeps investing. Five years later she has paid in twelve thousand dollars and her account is worth a little more. Illustrations, never forecasts: ten thousand dollars growing at six percent a year for thirty years becomes about fifty-seven thousand dollars, and at five percent about forty-three thousand; two hundred dollars a month for thirty years at an average of six percent a year becomes about two hundred thousand dollars on seventy-two thousand paid in. Key terms: Share, Shares, Bond, Bonds, Fund, Index, Index fund, Expense ratio, Dividends, Diversification, Broker, Platform, Regulated, Adviser, Pension, Compounding, Inflation, Emergency fund, Speculating, Investing, Saving. Voice: calm, practical and kind; every fact is true and hedged; no real brands, funds or people; general information and not personal financial advice; tax and pension rules differ by country."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Mira sits at a kitchen table with a laptop and a cup of coffee",
+      "summary": "Mira has some savings and wants to know what to do with them."
+    },
+    {
+      "n": 2,
+      "scene": "Dev draws two lines on a napkin, one flat and one rising",
+      "summary": "Dev explains that money in a bank does not keep up when prices rise."
+    },
+    {
+      "n": 3,
+      "scene": "A seed packet, a bag of coins and a casino chip on a table",
+      "summary": "Saving, investing and speculating are three different things."
+    },
+    {
+      "n": 4,
+      "scene": "Mira ticks items off a checklist headed before you invest",
+      "summary": "First build an emergency fund and pay off expensive debt."
+    },
+    {
+      "n": 5,
+      "scene": "Mira writes a goal and a date on a card",
+      "summary": "Decide what the money is for and when you will need it."
+    },
+    {
+      "n": 6,
+      "scene": "A single leaf grows on a tree hung with small company flags",
+      "summary": "A share is a small piece of ownership in a company."
+    },
+    {
+      "n": 7,
+      "scene": "A handshake between a saver and a town hall with a signed paper",
+      "summary": "A bond is a loan to a company or government that pays interest."
+    },
+    {
+      "n": 8,
+      "scene": "A large basket holds hundreds of tiny shop signs",
+      "summary": "A fund puts many investments in one basket, which spreads the risk."
+    },
+    {
+      "n": 9,
+      "scene": "A long list of company names is printed on a roll of paper",
+      "summary": "An index is a list of companies, such as the largest in a country."
+    },
+    {
+      "n": 10,
+      "scene": "A photocopier copies a list of companies into a basket",
+      "summary": "An index fund simply copies an index instead of choosing companies."
+    },
+    {
+      "n": 11,
+      "scene": "A row of runners, most far behind a line and a few ahead",
+      "summary": "Over long periods, most professional fund pickers do not beat the market."
+    },
+    {
+      "n": 12,
+      "scene": "Two piles of coins, one noticeably smaller, stand beside a calendar",
+      "summary": "A one percent yearly fee can leave you thousands of dollars worse off."
+    },
+    {
+      "n": 13,
+      "scene": "Mira circles a small number on a fund information sheet",
+      "summary": "The expense ratio is the yearly fee, shown as a percent of your money."
+    },
+    {
+      "n": 14,
+      "scene": "Mira compares three websites on her phone, each with different prices",
+      "summary": "Choose a regulated platform with clear, low charges."
+    },
+    {
+      "n": 15,
+      "scene": "A passport and a tax form lie beside a laptop showing a form",
+      "summary": "Some countries offer special tax-friendly accounts for investing."
+    },
+    {
+      "n": 16,
+      "scene": "Mira fills in an online form with her name and bank details",
+      "summary": "Opening an account takes a form, ID and a link to your bank."
+    },
+    {
+      "n": 17,
+      "scene": "A small seed is planted in a pot, in a big garden behind it",
+      "summary": "You can start with a small amount; the habit matters more than the size."
+    },
+    {
+      "n": 18,
+      "scene": "A calendar with the same amount marked on the first day of each month",
+      "summary": "Invest the same amount every month and keep going."
+    },
+    {
+      "n": 19,
+      "scene": "Two baskets show the same money buying more when prices are low",
+      "summary": "Regular investing buys more units when prices are low and fewer when high."
+    },
+    {
+      "n": 20,
+      "scene": "Mira sets a monthly payment on her phone and closes the app",
+      "summary": "Set up an automatic payment so that you invest without having to decide."
+    },
+    {
+      "n": 21,
+      "scene": "Mira looks at her screen as the order for her first fund is placed",
+      "summary": "Mira buys her first units of a broad, low-cost index fund."
+    },
+    {
+      "n": 22,
+      "scene": "A phone screen shows a small red number with a down arrow",
+      "summary": "After the first month, the value is a little lower and Mira worries."
+    },
+    {
+      "n": 23,
+      "scene": "A clock on a wall next to a phone locked in a drawer",
+      "summary": "Checking prices daily does not help; look at the account only now and then."
+    },
+    {
+      "n": 24,
+      "scene": "A line on a chart dips sharply and then slowly climbs again",
+      "summary": "Markets fall sometimes, and a fall is a normal part of investing."
+    },
+    {
+      "n": 25,
+      "scene": "A balanced scale: a basket of shares against a basket of bonds",
+      "summary": "A mix of shares and bonds smooths the ride."
+    },
+    {
+      "n": 26,
+      "scene": "A dial moves between cautious and bold with a thoughtful hand on it",
+      "summary": "Rules of thumb for the mix are only a starting point."
+    },
+    {
+      "n": 27,
+      "scene": "A globe with many small flags on it is held in two hands",
+      "summary": "Spread your money across many countries, not just your own."
+    },
+    {
+      "n": 28,
+      "scene": "Seeds fall from a tree and sprout into small trees nearby",
+      "summary": "Reinvesting dividends buys more shares, which pay more dividends."
+    },
+    {
+      "n": 29,
+      "scene": "Two lines on a graph rise together, with a gap widening at the top",
+      "summary": "Two hundred dollars a month for thirty years could grow to about two hundred thousand."
+    },
+    {
+      "n": 30,
+      "scene": "Mira reads a letter about a pay rise with her calculator beside her",
+      "summary": "Raise your monthly amount whenever your pay goes up."
+    },
+    {
+      "n": 31,
+      "scene": "A glittering coin and a screen showing a very high price attract a crowd",
+      "summary": "Hot stocks and fashionable coins can make you lose money fast."
+    },
+    {
+      "n": 32,
+      "scene": "Mira holds a small coin beside a large jar and laughs",
+      "summary": "If you want to gamble, keep it small and separate."
+    },
+    {
+      "n": 33,
+      "scene": "A man whispers to a friend across a restaurant table",
+      "summary": "Do not act on tips from friends or strangers."
+    },
+    {
+      "n": 34,
+      "scene": "A magnifying glass hovers over a list of small charges on a statement",
+      "summary": "Look out for hidden charges: trading fees, account fees and advice fees."
+    },
+    {
+      "n": 35,
+      "scene": "A woman in a plain office listens as a customer asks questions",
+      "summary": "A regulated adviser can help, but check how they are paid."
+    },
+    {
+      "n": 36,
+      "scene": "A shoebox holds papers, receipts and an annual statement",
+      "summary": "Keep simple records for tax and for your own peace of mind."
+    },
+    {
+      "n": 37,
+      "scene": "Two bags of coins, one slightly smaller, with the word inflation on a ticket",
+      "summary": "Look at returns after inflation: what your money can really buy."
+    },
+    {
+      "n": 38,
+      "scene": "A person walks calmly along a road while the weather changes above",
+      "summary": "Time in the market matters more than guessing the right moment."
+    },
+    {
+      "n": 39,
+      "scene": "Four days circled on a calendar, scattered among many ordinary days",
+      "summary": "A few of the best days often come close to the worst days."
+    },
+    {
+      "n": 40,
+      "scene": "Mira stands in the rain beside a tall office building, holding an umbrella",
+      "summary": "Fourteen months in, the market falls and Mira's account drops."
+    },
+    {
+      "n": 41,
+      "scene": "Dev drives to Mira's house with an old notebook on the passenger seat",
+      "summary": "Dev reminds her of the plan she wrote down at the start."
+    },
+    {
+      "n": 42,
+      "scene": "Dev slumps on a sofa with a phone showing his sold shares",
+      "summary": "Dev admits that he once sold in a panic and regretted it."
+    },
+    {
+      "n": 43,
+      "scene": "Mira keeps working at her desk as a quiet graph rises in the background",
+      "summary": "She keeps investing, and over the next two years the account recovers."
+    },
+    {
+      "n": 44,
+      "scene": "A calendar page with one date circled once a year, and a pencil",
+      "summary": "Review once a year, and change the plan only when life changes."
+    },
+    {
+      "n": 45,
+      "scene": "A winding road branches towards a house, a baby carriage and a boat",
+      "summary": "When life changes, adjust the plan: a new job, a home, a child."
+    },
+    {
+      "n": 46,
+      "scene": "A couple at a kitchen table with a work contract and a letter",
+      "summary": "Many workers get help from their employer's pension, so check yours."
+    },
+    {
+      "n": 47,
+      "scene": "Mira shows a young colleague how to draw a simple plan on a napkin",
+      "summary": "Mira teaches a friend what she has learned."
+    },
+    {
+      "n": 48,
+      "scene": "A plain bowl of soup beside a fancy, complicated dish",
+      "summary": "Keep it boring: simple plans are easier to follow for decades."
+    },
+    {
+      "n": 49,
+      "scene": "Five years later, Mira and Dev watch a slowly rising graph",
+      "summary": "Five years on, her account is worth a little more than she has paid in."
+    },
+    {
+      "n": 50,
+      "scene": "Mira and Dev walk through a park at sunset with a notebook",
+      "summary": "The takeaway: start early, keep costs low, spread your money, and stay calm."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Mira has some savings and wants to use them well.",
+      "Dev says money in a bank may grow very slowly.",
+      "Saving, investing and gambling are not the same thing.",
+      "First, have some savings and pay off costly debt.",
+      "Mira writes down what the money is for.",
+      "A share is a very small piece of a company.",
+      "A bond is a loan that you give to someone.",
+      "A fund puts many shares together in one basket.",
+      "An index is a long list of companies.",
+      "An index fund simply copies a list of companies.",
+      "Most experts do not beat the whole market.",
+      "A small fee every year can add up to a lot.",
+      "The fee for a fund is shown as a small percent.",
+      "Mira looks for a safe and cheap place to invest.",
+      "Some countries have special accounts for investing.",
+      "Mira fills in a form to open an account.",
+      "You can start small, even with a little money.",
+      "Mira decides to invest the same amount each month.",
+      "When prices are low, your money buys more.",
+      "Mira sets up an automatic payment each month.",
+      "Mira buys her first small piece of a big fund.",
+      "In the first weeks, her fund is worth a little less.",
+      "Looking at your money every day does not help.",
+      "Prices fall sometimes, and this is normal.",
+      "A mix of shares and bonds can make things calmer.",
+      "There is no perfect mix, only the one you accept.",
+      "Spread your money across many countries.",
+      "Payments from companies can buy more shares.",
+      "Small amounts over many years can grow a lot.",
+      "When her pay rises, Mira invests a little more.",
+      "Exciting new investments can also lose a lot of money.",
+      "If you must gamble, use only a small amount.",
+      "Do not buy something just because a friend says so.",
+      "Look out for charges that are hard to see.",
+      "A good adviser can help, but you should ask questions.",
+      "Keep a simple record of what you buy and sell.",
+      "What matters is what your money can really buy.",
+      "Time in the market matters more than guessing.",
+      "A few good days can make a big difference.",
+      "In her second year, the market falls a lot.",
+      "Dev tells Mira to look at the plan she wrote.",
+      "Dev tells Mira that he once sold in a panic.",
+      "Mira keeps investing, and in time prices recover.",
+      "Once a year, Mira checks her plan and her accounts.",
+      "When her life changes, her plan can change too.",
+      "Some employers add money to your pension savings.",
+      "Mira shows a friend how to start investing.",
+      "Simple plans are easier to follow for many years.",
+      "Five years later, Mira's account has grown a little.",
+      "Start early, keep costs low, and stay calm."
+    ],
+    "B1B2": [
+      "Mira is twenty-eight, and she has saved a little money in a bank account. She wonders whether there is a better place for it, but she has never invested before.",
+      "Dev is a bookkeeper who has been investing for ten years. He explains that prices usually rise over time, so cash that earns very little slowly loses some of its buying power.",
+      "Dev says that there are three different activities that people often mix up. Saving keeps money safe, investing puts money into things that can grow over time, and speculating is a bet on quick price changes.",
+      "Before she invests anything, Dev asks her to check two things. She should have an emergency fund of a few months of costs, and she should pay off any debt that charges high interest.",
+      "Dev asks what the money is for and when she will need it. Mira says she wants to feel secure later in life, so her time to wait is about thirty years.",
+      "Dev starts with the simplest building block of all, which is the share. It is a tiny piece of ownership in a company, so if the company earns profit, the owners of its shares can benefit.",
+      "Next Dev explains the second building block, which is called a bond. A bond is a loan to a company or a government, which agrees to pay you interest and to return your money on a fixed date.",
+      "Buying single companies is risky, because one bad year can ruin a business. A fund puts the shares of hundreds or thousands of companies into one basket, so that you own a little of each.",
+      "An index is a list of companies chosen by a clear rule, for example the largest companies in a country. People use it as a measure of how that part of the market is doing.",
+      "An index fund is a fund that does not try to pick winners. It simply buys all the companies on an index, in the same proportions, and holds them.",
+      "Professional managers try to choose the best companies, but studies often find that most of them do not beat the market over long periods. After their fees, the average investor in such funds earns less than an index fund would have earned.",
+      "Imagine ten thousand dollars growing for thirty years, which is only an example. At six percent a year it becomes about fifty-seven thousand, but if one percent goes on fees, it becomes about forty-three thousand.",
+      "A fund's yearly fee is called its expense ratio, and it is shown as a percentage of the money you invest. Dev tells Mira to look for this number first, and to prefer a low one.",
+      "To buy a fund, Mira needs an account with a company called a broker or investment platform. Dev says it should be properly regulated in her country, and its charges should be clear and low.",
+      "In many countries, special accounts exist that give tax benefits for saving and investing. Dev says the rules differ from place to place and change, so Mira should read the official guidance where she lives.",
+      "Opening an account takes about twenty minutes, and it is easier than Mira expected. She fills in a form, proves who she is with an identity document, and links the account to her bank.",
+      "Mira worries that her amount is too small to matter. Dev tells her that many platforms let you start with very little, and that the habit matters more than the size of the first payment.",
+      "Dev suggests that Mira invests the same amount on the same day each month, whatever the news says. She decides on two hundred dollars, which she can afford without touching her emergency savings.",
+      "When you invest the same amount each month, you buy more units when the price is low and fewer when it is high. If a unit costs ten dollars, two hundred buys twenty; if it costs eight, it buys twenty-five.",
+      "Mira sets up an automatic payment from her bank so that the money moves to her investments on payday. She never has to remember, and she is not tempted to spend it first.",
+      "On the first payday, Mira buys her first units of a broad index fund with very low costs. It holds thousands of companies from around the world, and she feels both proud and nervous.",
+      "A few weeks later, Mira checks her account and finds that it is worth slightly less than she paid. She feels a small drop in her stomach, because she expected it to grow immediately.",
+      "Dev suggests that she should look at her investments less often, perhaps once every few months. Watching prices every day only increases worry, and it can tempt people to act on feelings.",
+      "Dev reminds her that stock markets fall from time to time, sometimes by a third or more. So far they have recovered, but nobody can promise that this will always happen or say how long it will take.",
+      "To make the ride calmer, some investors hold both shares and bonds. Shares may grow more over time, while bonds usually move less, so the mix reduces the size of the swings.",
+      "Some people use a rule of thumb, such as holding fewer shares as they get older. Dev says that such rules are only a starting point, and that Mira should choose a mix that she can really stay with.",
+      "Dev explains that it is risky to invest only in one country. A global fund holds companies from many countries, so a problem in one place does not hurt as much.",
+      "Many companies share part of their profits with their owners, and these payments are called dividends. If Mira reinvests them, she buys more shares, which can earn even more over time.",
+      "Dev shows her what compounding could do, using a simple example. If she invests two hundred dollars a month for thirty years and earns an average of six percent, she could have about two hundred thousand dollars.",
+      "When Mira gets a pay rise, she decides to increase her monthly investment instead of her spending. Even a small rise in the amount makes a large difference after many years.",
+      "Mira hears that a certain stock and a new digital coin are rising very fast. Dev warns that fashionable investments can fall just as fast, and many people have lost money by buying at the top.",
+      "Dev says that if she is curious about risky bets, she should use only a small amount that she can afford to lose completely. She should keep it separate, so that her real plan is never touched.",
+      "At a family dinner, an uncle tells Mira about a sure thing that he heard about from a friend. She remembers Dev's advice, thanks him politely and does nothing.",
+      "Dev tells her to look for every charge on her account. There may be fees for trading, for holding the account, and for advice, and each one reduces her return.",
+      "Sometimes a person needs advice about her own situation, and a qualified adviser can help. Dev tells Mira to check that the adviser is regulated, and to ask clearly how they are paid.",
+      "Dev tells her to keep simple records of what she buys, when she buys it, and what she pays. They may be needed for tax, and they also help her see what is really happening.",
+      "Dev says that a return of five percent in a year with four percent inflation is not a big gain. What matters is what her money can buy, which he calls the real return.",
+      "Many people try to jump in and out of the market at the right moments. Dev says that almost nobody can do this reliably, and that staying invested for a long time has worked better for most people.",
+      "Dev says that in many markets a small number of the best days have produced a large part of the gains. These good days often come close to the worst days, which makes jumping out very risky.",
+      "In the fourteenth month, the market falls sharply, and the value of Mira's account drops by about a fifth. She feels sick and almost opens her laptop to sell everything.",
+      "Mira calls Dev, who reminds her that they wrote her plan down for exactly this day. She reads it again, which says to keep investing the same amount and not to sell in a fall.",
+      "Dev admits that years ago he sold part of his investments in a fall, and then watched the market recover without him. He tells her that this is why he now has a plan and sticks to it.",
+      "Mira keeps investing her two hundred dollars every month, and she buys at lower prices through the fall. Over the following two years the market slowly recovers, and her account climbs back.",
+      "Once a year, on her birthday, Mira reviews her plan. She checks her costs and her mix, and she changes the plan only when something important has changed in her life.",
+      "Life does not stand still, and a good plan can change with it. A new home, a baby or a career break may mean saving less, or needing money sooner.",
+      "In some countries, an employer will add money to a worker's pension savings if the worker also contributes. Dev tells Mira to check whether her job offers this, because it can be a very good deal.",
+      "A friend at work asks Mira how to start, and Mira draws a plan on a napkin. She explains emergency savings, low costs, regular payments and patience, and her friend listens closely.",
+      "Mira finds that the most useful advice is also the most boring. A simple plan, with low costs and regular payments, is easier to follow for decades than a clever one.",
+      "Five years later, Mira has paid in twelve thousand dollars, and her account is worth a little more than that. The path was bumpy, but she is still going, and she still sleeps well.",
+      "The plan is simple: build savings first, invest regularly in low-cost funds, spread your money, and stay calm. This book is general information and not personal financial advice, and no investment is ever certain."
+    ],
+    "C1C2": [
+      "Mira was twenty-eight years old, and for three years she had been putting a little money aside each month in an ordinary bank account. It was safe, and it was growing very slowly, so she began to wonder whether there was a better place for it, although the world of investing looked to her like a closed room with a complicated lock. One evening she rang her cousin Dev and asked him to explain it in plain words.",
+      "Dev, who worked as a bookkeeper and had been investing quietly for ten years, drew two lines on a napkin, one almost flat and one climbing. Prices usually rise over time, he explained, so cash that earns very little interest slowly loses some of its buying power, even though the number in the account never goes down. Investing, in his view, is mainly a way of giving your money a chance to keep up with the world.",
+      "Dev insisted on separating three activities that people often blur together in their minds and in their conversation. Saving keeps your money safe and ready to use, investing puts it into things that can grow over many years but may also fall, and speculating is a bet on fast price changes. This book, he said, is only about the second one, and only about the calm and rather boring version of it.",
+      "Before Mira put in a single dollar, Dev asked her to check two things on a short list. She should have an emergency fund of a few months of ordinary costs, so that a sudden bill would not force her to sell, and she should clear any debt that charged a high rate of interest. She had the savings, and a small card debt of six hundred dollars, which she paid off that same month because doing so was a certain gain.",
+      "Dev asked what the money was for, and when she would need it, because the answer decides almost everything else about how it should be invested. Mira thought carefully and said that she wanted security in later life and perhaps a home one day, which gave her one pot with a very long time to grow and another that she might need within a few years. Dev nodded and said that the long pot, with its decades of patience ahead, was the one they would discuss.",
+      "Dev began with the simplest building block, which is the share, a tiny slice of ownership in a company. When the business earns profit and grows, the owners of its shares may benefit through a rising price or through payments called dividends, but when it struggles, their slice can lose value and may even become worthless. Owning shares therefore offers a chance of growth, but it never offers a promise of it, and Dev repeated that distinction several times.",
+      "Next Dev explained the second building block, which is the bond, and here it is you who plays the part of the bank. You lend money to a company or a government, which promises to pay you interest for a fixed period and to return your original sum at the end, though the promise is only as strong as the borrower. Bonds usually move up and down less than shares do, but they can still lose value.",
+      "Buying individual companies, Dev warned, is risky, because even excellent businesses can fail and no one can reliably tell which ones will. A fund solves part of the problem by gathering the shares of hundreds or even thousands of companies into a single basket, so that the failure of any one of them has only a small effect. This spreading of risk is called diversification, and he called it the closest thing to a free gift in investing.",
+      "An index, Dev explained, is simply a long list of companies chosen by a clear rule, for example the largest five hundred companies in a particular country. People use it as a kind of thermometer for how that part of the stock market is doing, and its level rises or falls as the combined value of those companies changes. Mira had heard index numbers on the radio for years without realising what they were.",
+      "An index fund, Dev said, is a fund that does not try to pick winners at all, which is precisely what makes it so unusual. It buys all of the companies on a chosen index, in the same proportions, and simply holds them, with a computer doing the work and very few people involved. There is no star manager, no secret method and no guesswork, and that is the point.",
+      "Many fund managers are intelligent and hard-working, and they try to beat the market by choosing the best companies, yet studies across many countries have often found that most of them fail to do so over long periods. After their fees are subtracted, the average investor in such funds receives less than the index would have delivered, and the few managers who do win one decade rarely repeat it in the next. Dev added that the evidence is not perfect, but it is strong enough to be worth respecting.",
+      "Dev took a calculator and showed her an example, which was only an illustration and not a forecast. Ten thousand dollars that grows at six percent a year for thirty years becomes about fifty-seven thousand, but if one percent of that growth disappears in fees each year, the same money reaches only about forty-three thousand. A seemingly tiny difference in cost, repeated for decades, took away roughly a quarter of the final result.",
+      "The yearly fee charged by a fund is called its expense ratio, and it is quoted as a percentage of the money that you have invested in it. Dev told Mira to look for this figure before anything else, because it is certain, whereas the future returns are not, and he explained that index funds usually charge much less than funds with human managers. A low cost is one of the few things an investor can fully control.",
+      "To buy a fund, Mira needed an account with an investment platform, sometimes called a broker, which acts as the shop through which ordinary people buy and hold investments. Dev told her to choose one that is properly regulated in her country, to compare the charges for trading and for holding, and to avoid any firm that rushed her or promised rewards. She spent an evening comparing three of them and reading the small print, which was tedious but worthwhile.",
+      "Many countries offer special accounts, such as retirement or long-term savings accounts, that give tax benefits to people who invest through them, and Dev urged Mira to find out what existed where she lived. The rules, limits and benefits differ widely and change from time to time, so he told her to read the official government guidance or to ask a qualified adviser rather than trust a stranger's summary. He was clear that he could teach principles but not give advice about her own tax.",
+      "Opening the account turned out to be much less dramatic than Mira had feared, and it took about twenty minutes on her laptop. She filled in a form, uploaded a photograph of her identity document to prove who she was, and linked the account to her bank, and the platform asked a few questions about her experience and her attitude to risk. Honest answers, Dev said, are the only useful ones, because the questions exist to protect her and not to test her.",
+      "Mira confessed that she was embarrassed by how little she could afford to begin with, and she wondered whether it was even worth the trouble. Dev replied that many platforms accept very small amounts, that the habit of investing regularly matters far more than the size of the first payment, and that a small beginning costs you little if you make a mistake. Almost every large pile, he said, began as a very small one, and the people who waited for a bigger start often never began at all.",
+      "Dev suggested that instead of waiting for the perfect moment, which nobody can identify in advance, Mira should invest the same fixed amount on the same day of each month. She chose two hundred dollars, a sum she could afford without touching her emergency savings or feeling squeezed, and agreed to increase it whenever her pay allowed. The plan was dull, and Dev said that dull was the entire strategy, since excitement is expensive and rarely rewards the person who seeks it.",
+      "When you invest a fixed sum every month, Dev explained, you automatically buy more units of a fund when the price is low and fewer when it is high. If a unit costs ten dollars, two hundred dollars buys twenty of them, and if the price falls to eight dollars the same money buys twenty-five. A falling market is therefore not entirely bad news for a person who is still buying, though this approach does not guarantee a profit and does remove the stress of choosing a moment.",
+      "Mira arranged an automatic transfer from her bank so that two hundred dollars moved to her investment account on the day her pay arrived, and the money was gone before she could think of spending it. Dev pointed out that automation turns a decision that must be made every month into one that is made only once, which makes it far more likely to survive a busy or anxious season. She felt a little lighter as soon as she pressed the button, as if a heavy question had been answered on her behalf.",
+      "On the first payday of the new plan, Mira bought her first units of a broad index fund that held thousands of companies from many countries and charged a very low fee. The sum was small, but the feeling was large, a mixture of pride and nervousness, as though she had crossed a quiet frontier into a country she had always watched from a distance. Dev sent her a short message that said only, welcome, now go and do something else.",
+      "A few weeks later, Mira opened the app and discovered that her investment was worth slightly less than the amount she had paid, and she felt a small drop in her stomach. She had imagined that investing would reward her immediately, and the first small loss seemed like evidence that she had made a mistake. Dev reassured her that prices move in both directions all the time, and that a few weeks tells you almost nothing about thirty years.",
+      "Dev advised her to look at her investments far less often, perhaps once every few months, because daily prices are mostly noise and checking them tends to turn small worries into hasty decisions. Studies of behaviour suggest that people who watch their accounts closely are more likely to react emotionally, though that is a tendency and not a rule. Mira deleted the app from her home screen and found that her life went on exactly as before.",
+      "Dev reminded her that stock markets fall from time to time, sometimes by a third or more, and that such falls are a normal part of investing, not a sign that the system has failed. So far they have recovered, though the recovery has sometimes taken years and nobody can promise that it will always occur, so only money that you can leave alone for a long time should go into shares. He wanted her to understand this carefully before it happened, rather than in the middle of the storm.",
+      "To make the journey less bumpy, many investors hold a mixture of shares and bonds, the shares offering more growth over the long term and the bonds usually behaving with greater calm. The proportion between them is a personal choice that depends on how many years you have, how steady your income is and how well you sleep when prices fall. Dev admitted that there is no perfect mix, only one that you can live with.",
+      "Some people follow a rule of thumb, such as holding a smaller share of stocks as they grow older, but Dev stressed that these rules are only a rough starting point. A young person who panics at every fall may be better off with a calmer mix than the rule suggests, and an older person with a long future and a large pension may reasonably take more risk. The correct answer, he said, is the one that you will actually keep during a bad year.",
+      "Dev pointed out that placing all of your money in the companies of one country, even your own, concentrates the risk in a single economy and a single currency. A global fund holds businesses from dozens of countries, so that a bad decade in one place may be balanced by a better one somewhere else, though no spread can protect you from a worldwide downturn. Mira chose a fund that covered the world and felt oddly like a citizen of it.",
+      "Many companies share a portion of their profits with their owners in regular payments called dividends, and a good fund collects these on behalf of its investors. If Mira chose to reinvest them, they would automatically buy more units of the fund, which in turn would earn more dividends, in a quiet loop of growth that compounds in her favour. She ticked the box marked reinvest and forgot about it, which was exactly what Dev recommended.",
+      "Dev ran the numbers on his calculator, labelling them clearly as an illustration and not a forecast of anything. If she invested two hundred dollars every month for thirty years and the money grew at an average of six percent a year, she would have contributed seventy-two thousand dollars and ended with about two hundred thousand. The difference was the work done by compounding, and although real markets are bumpier and no average is guaranteed, the example showed what patience can do with a modest sum.",
+      "When Mira received a modest pay rise, she resisted the natural temptation to let her spending grow to match it, and instead raised her monthly investment by fifty dollars. Over a long career, a series of small increases like this one can double the final result, because each extra payment has as many years to compound as it can possibly have. It cost her almost nothing in comfort, since she had never become used to the money.",
+      "Mira heard colleagues at work talking excitedly about a certain stock and a new digital coin that had doubled in a month, and she felt the old fear of being left behind. Dev warned that fashionable investments can fall as dramatically as they rise and that many people have lost large sums by buying at the top. Anything whose chief attraction is that its price is climbing, he said, is closer to speculation than to investing, and excitement is rarely a good sign in this business.",
+      "Dev was realistic enough to admit that some people want to try a more exciting bet, and he said that if she did, she should use only a small sum she could afford to lose completely. The serious money would stay in the boring fund, he said, while the amusement money would be treated as entertainment, with no expectation of profit and no tears if it vanished. Mira thought about it for a day and decided that she would rather save the entertainment for holidays.",
+      "At a family dinner, an uncle leaned across the table and told Mira, in a low voice, about a sure thing that a friend of his had heard about. She remembered Dev's advice that anyone who offers a sure thing is either mistaken or selling something, so she thanked him politely, said that she already had a plan and quietly changed the subject. It felt strange to refuse, but she found that it also felt like strength.",
+      "Dev told her to read the list of charges on any account or product from top to bottom, because costs hide in several places at once. There may be fees for buying and selling, a yearly charge for holding the account, a charge inside each fund and a further fee for any advice, and every one of them reduces what remains for the investor. He liked to say that what you cannot control is the market and what you can control is the bill.",
+      "There are times, Dev said, when an investor does need advice about her own situation, for example about a large inheritance or a complicated tax question, and a qualified adviser can be well worth the cost. He urged Mira to check that any adviser was regulated in her country, to ask in plain words how they were paid and whether that payment affected what they recommended, and to walk away from anyone who evaded the questions. A good adviser, he added, will never object to being asked, and will usually be glad to see that a client is paying attention.",
+      "Dev told her to keep simple records of everything she bought, the dates and the amounts she paid, in one folder on her computer or in a notebook. Some countries ask investors to report gains and income on their tax forms, and the records both make that easy and let her see, without guessing, what is really happening to her money. It took her ten minutes a year, and she wondered why she had ever thought it would be hard.",
+      "A return that looks impressive may be disappointing once rising prices are taken into account, Dev explained. A gain of five percent in a year when prices rose by four percent leaves you only about one percent better off in terms of what you can actually buy. This adjusted figure is called the real return, and it is the one that matters when you want to pay for rent, food and travel in the years to come, so Mira began to read every number more carefully.",
+      "Plenty of people believe that they can jump out of the market before it falls and back in before it rises, but Dev said that almost nobody manages to do it consistently, because both moves must be perfectly timed. Historically, staying invested for a long time has treated ordinary investors better than trying to guess, although the past offers no guarantee about the future. It is dull advice, he said with a shrug, and its dullness is its best feature.",
+      "Studies of many stock markets, Dev said, have found that a small number of exceptionally good days produce a surprisingly large share of the long-term gains, and those days often arrive soon after some of the worst ones. An investor who sells in fear may therefore miss the very days that matter most, and the damage can be larger than the loss that he was trying to avoid. The pattern is not a law, but it has appeared often enough to deserve respect.",
+      "In the fourteenth month of her plan, the market fell sharply and the value of Mira's account dropped by roughly a fifth, just as Dev had warned her it eventually would. She felt nauseous, her hands shook slightly, and for an hour she sat with her laptop open at the page where she could sell everything with a single click. It was the first real test of the plan, and she knew that the answer she gave would matter for years.",
+      "Mira telephoned Dev, who calmly reminded her that they had written her plan down on the first day for exactly this moment, so that a calm Mira could advise the frightened one. She took out the page and read it aloud, and it said that she would keep investing the same amount every month and would not sell because of a fall. Reading her own handwriting made the fear less powerful, and she closed the laptop.",
+      "Dev confessed that, years earlier, in his own first big fall, he had sold part of his investments in a panic and then watched the market recover without him. The loss had been made real by his own hand, and the memory still made him wince, which was exactly why he now relied on a written plan and an automatic payment instead of his feelings. Mira found his honesty more convincing than any amount of confidence would have been.",
+      "Mira kept investing her two hundred dollars every single month, so that during the downturn she was buying more units for the same money, and she resisted the daily temptation to look at the balance. Over the following two years the market slowly recovered and her account climbed back above the amount that she had paid in, although nothing about the recovery was guaranteed. The experience taught her more about patience and her own temperament than any book could have done.",
+      "Once a year, on her birthday, Mira sat down for an hour and reviewed her plan, her costs and the balance between her shares and bonds, and she checked whether her goals had changed. She altered the plan only when something important in her life had changed, such as a new job or a new home, and never because a headline had alarmed her. A good review, she discovered, is usually uneventful, and its best result is the decision to change nothing at all.",
+      "Life does not stand still, and a sensible plan must be able to bend with it, as Dev made clear when Mira described her hopes of buying a home. A new baby, a career break or a house purchase may mean saving less for a while or needing a part of the money sooner, and the money needed within a few years should be moved to a safer place. Changing a plan for a real reason is wisdom, whereas changing it out of fear is simply a mistake.",
+      "In some countries, an employer will contribute to a worker's retirement savings, sometimes matching what the worker pays in, and Dev urged Mira to find out whether her company offered anything of the kind. If it did, he said, it would often be wise to take full advantage, since it is in effect extra pay, though the rules of such schemes vary enormously and she should read them carefully. She discovered that her employer did offer a match, and she was delighted that she had asked.",
+      "A young colleague at work asked Mira how she had begun, so she took a napkin and drew the plan in four boxes, emergency savings, low costs, regular payments and patience. Explaining it aloud, she realised how much she had learned in only two years, and how much simpler it had all become once the mystery had been taken away. Teaching, she noticed, was one more way of understanding a subject, and her colleague left looking relieved and curious.",
+      "Mira found that the most valuable advice she had received was also the most boring, and she began to suspect that this was not an accident. A simple plan, with low costs, wide spreading and regular payments, is easy to understand and cheap to maintain, and it can be followed for decades by a person who is tired, busy and sometimes frightened. Anything complicated, she realised, gives the mind many more opportunities to wander off, to be tempted and to make expensive mistakes.",
+      "Five years after her first payment, Mira had paid in twelve thousand dollars, and her account was worth a little more than that, having been pushed and pulled by both good years and bad ones along the way. It was not a fortune, and it was not meant to be, but it was real, it was growing and the habit behind it was now as natural as brushing her teeth. Best of all, she no longer felt that investing was a locked room whose key belonged to other people.",
+      "The plan, in the end, was short enough to fit on a napkin: build your savings first, invest regularly in broad, low-cost funds, spread your money widely, keep your costs low and stay calm when prices fall. Nobody can promise results, and every investment carries some risk of loss, so the sensible course is to begin small, learn as you go and be patient with the years. This book offers general information and not personal financial advice, so for your own decisions, consult a qualified adviser in your country."
+    ]
+  }
+}

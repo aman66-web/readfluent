@@ -1,0 +1,409 @@
+{
+  "slug": "where-people-live-longest",
+  "meta": {
+    "blurb": "Elena is a data analyst, and her grandmother Nina is about to turn ninety. Before the birthday party, the two of them study maps, charts and daily habits to find out why people in some places live longer than others, and what is luck, what is place and what is choice.",
+    "bible": "Elena: a thirty-four-year-old data analyst, curious and careful with facts. Nina: her grandmother, about to turn ninety, sharp, funny and active, who walks to the Market square every morning. Theo: Nina's six-year-old great-grandson. They live in Marlow, a small hill town. The story takes place in the weeks before Nina's ninetieth birthday party. Key terms: Life expectancy, Healthy life expectancy, Centenarian, Mediterranean diet, Sanitation, Vaccine, Heritability, Social ties, Purpose. The science is real and hedged: life expectancy is an average, not a limit; lists of countries change from year to year; findings about diet, alcohol, purpose and social life are mostly links and not proof; genes explain only part of the difference between people, with estimates that vary; no invented numbers, studies or quotes. Countries named are only those that often rank high in official life-expectancy tables. Voice: warm, curious, honest about luck and uncertainty. Nobody gets personal medical advice. This book is general information and is not medical advice."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A cake with ninety candles drawn on a kitchen calendar next to a family photo",
+      "summary": "Nina is about to turn ninety, and her granddaughter Elena promises to explore why some people live so long."
+    },
+    {
+      "n": 2,
+      "scene": "Nina and Elena sit at a table with a world map and a cup of tea",
+      "summary": "Nina asks why some people live longer than others, and Elena says they will look at the data together."
+    },
+    {
+      "n": 3,
+      "scene": "A newborn baby and a long arrow showing the average of many lives",
+      "summary": "Life expectancy is the average number of years a newborn would live if today's death rates stayed the same; it is not a limit."
+    },
+    {
+      "n": 4,
+      "scene": "A long staircase rising from the year eighteen hundred to today with small figures",
+      "summary": "Worldwide, life expectancy has risen from about thirty years around eighteen hundred to more than seventy today."
+    },
+    {
+      "n": 5,
+      "scene": "A group of babies and elderly people drawn beside a short and a long bar",
+      "summary": "The old averages were low mainly because many babies died, not because adults died at thirty."
+    },
+    {
+      "n": 6,
+      "scene": "A tap with clean water, a syringe and a bowl of food on a table",
+      "summary": "Clean water, sanitation, vaccines, better food and medicine explain much of the rise in life expectancy."
+    },
+    {
+      "n": 7,
+      "scene": "A map of the world with some countries shaded light and others dark",
+      "summary": "Today a newborn in some countries can expect to live more than eighty-three years, and in others fewer than sixty."
+    },
+    {
+      "n": 8,
+      "scene": "Five small flags beside a long bar at the top of a chart",
+      "summary": "Japan, Switzerland, Spain, Italy, Singapore and Hong Kong often appear near the top of life-expectancy tables, but the lists change."
+    },
+    {
+      "n": 9,
+      "scene": "Two figures side by side with one slightly taller bar for a woman",
+      "summary": "In nearly all countries women live longer than men, on average by about five years, for reasons that are not fully understood."
+    },
+    {
+      "n": 10,
+      "scene": "A line drawing of a tall bar with a short section of it coloured red",
+      "summary": "Healthy life expectancy counts the years lived in good health, and it is usually shorter than total life expectancy by several years."
+    },
+    {
+      "n": 11,
+      "scene": "A graph with a steep curve that flattens near the top, with coins at the bottom",
+      "summary": "Richer countries tend to live longer, but the effect flattens: past a point, more wealth adds little, and some middle-income countries do surprisingly well."
+    },
+    {
+      "n": 12,
+      "scene": "A city map with two neighbourhoods coloured differently along one train line",
+      "summary": "Inside one city, life expectancy can differ by many years between neighbourhoods only a few stops apart."
+    },
+    {
+      "n": 13,
+      "scene": "A cigarette crossed out beside a calendar with years added",
+      "summary": "Tobacco is one of the largest causes of early death, so countries and people who smoke less tend to live longer."
+    },
+    {
+      "n": 14,
+      "scene": "Two twins, one holding a book and one a spoon, with a small double helix",
+      "summary": "Studies of twins suggest genes explain perhaps a fifth to a third of the differences in lifespan, so most of the story is environment, habits and chance."
+    },
+    {
+      "n": 15,
+      "scene": "A birthday cake with a hundred candles on a table surrounded by smiling people",
+      "summary": "People who reach one hundred, called centenarians, are still rare, though their numbers have been growing in many countries."
+    },
+    {
+      "n": 16,
+      "scene": "Elena studies an old birth certificate with a magnifying glass at a desk",
+      "summary": "Where birth records are poor, claims of extreme old age are sometimes wrong, so researchers check documents carefully."
+    },
+    {
+      "n": 17,
+      "scene": "Nina walks to the market square with a basket in the early morning",
+      "summary": "Elena starts to look at Nina's own daily habits and notices that Nina walks to the market every morning."
+    },
+    {
+      "n": 18,
+      "scene": "Nina carries a basket up a flight of steps and waters tomato plants in a garden",
+      "summary": "In many places where people live long, activity is built into daily life through walking, gardening and stairs, and many studies link daily movement with lower risk of early death."
+    },
+    {
+      "n": 19,
+      "scene": "A table with beans, olive oil, vegetables, fish and bread in bowls",
+      "summary": "There is no single longevity diet, but eating patterns rich in vegetables, beans, whole grains and fish, such as the Mediterranean diet, are linked with a lower risk of heart disease."
+    },
+    {
+      "n": 20,
+      "scene": "A bowl of lentils beside a bowl of meat and a bowl of sweets, in smaller portions",
+      "summary": "Many long-lived populations eat mostly plants and little processed meat or sweet drinks, though research cannot say that any one food is responsible."
+    },
+    {
+      "n": 21,
+      "scene": "A plate with a little food left and a person smiling beside it",
+      "summary": "Some traditions say to stop eating before you are completely full; research in animals suggests eating less may extend life, but human evidence is unclear."
+    },
+    {
+      "n": 22,
+      "scene": "A glass of wine with a question mark and a stopped clock behind it",
+      "summary": "People once thought moderate drinking was protective, but newer research doubts it, and many experts now say no level of alcohol is clearly good for health."
+    },
+    {
+      "n": 23,
+      "scene": "A bed with a deep blue blanket under a window with a crescent moon",
+      "summary": "Adults need about seven to nine hours of sleep, and regularly sleeping much less is linked with poorer health and earlier death."
+    },
+    {
+      "n": 24,
+      "scene": "Nina sleeps in an armchair with a hat over her eyes in the afternoon sun",
+      "summary": "Nina takes a rest after lunch; chronic stress harms health, and many cultures have habits of rest, prayer or quiet that may help people unwind."
+    },
+    {
+      "n": 25,
+      "scene": "Four older friends playing cards around a kitchen table",
+      "summary": "Large reviews find that people with strong social ties tend to live longer than people who are lonely or isolated."
+    },
+    {
+      "n": 26,
+      "scene": "Three generations at a long table, with a great-grandson passing a bowl",
+      "summary": "Nina lives close to her family, and being part of a family or community gives older people care and a feeling of being useful."
+    },
+    {
+      "n": 27,
+      "scene": "A person rising from bed in the morning with the sun rising behind a window",
+      "summary": "Studies link a strong sense of purpose with a lower risk of early death, though it is hard to be sure which comes first."
+    },
+    {
+      "n": 28,
+      "scene": "A small community hall with people singing and sharing food together",
+      "summary": "Regular community gatherings, religious or not, are linked in some studies with longer life, mostly through the support and routine they provide."
+    },
+    {
+      "n": 29,
+      "scene": "A grey city street with traffic smoke beside a clear green park",
+      "summary": "Clean air and green spaces matter, because air pollution is linked with heart and lung disease and earlier death."
+    },
+    {
+      "n": 30,
+      "scene": "A small town with shops, a school and a clinic all within a short walk",
+      "summary": "Towns where shops, services and friends are within walking distance build daily movement and contact into life."
+    },
+    {
+      "n": 31,
+      "scene": "A nurse takes the blood pressure of an older man at a clinic",
+      "summary": "Good health care also matters: vaccines, screening and treatment of problems such as high blood pressure prevent many early deaths."
+    },
+    {
+      "n": 32,
+      "scene": "A school desk with an open book beside a pair of reading glasses",
+      "summary": "Education is linked with longer life, probably because it leads to safer work, better income and an understanding of health."
+    },
+    {
+      "n": 33,
+      "scene": "A road with a pedestrian crossing and a calm town square at dusk",
+      "summary": "Safety matters too: fewer road accidents, less violence and peace all help more people reach old age."
+    },
+    {
+      "n": 34,
+      "scene": "A woman in an old coat laughs on a park bench with a bright smile",
+      "summary": "Some studies find that people with a positive view of ageing live longer, but it is hard to know whether attitude is the cause."
+    },
+    {
+      "n": 35,
+      "scene": "An older man at a market stall selling vegetables with a sign and a smile",
+      "summary": "Staying busy, through part-time work, volunteering or helping others, keeps older people active and connected."
+    },
+    {
+      "n": 36,
+      "scene": "Elena at her desk with a laptop and a half-eaten sandwich late at night",
+      "summary": "Elena looks at her own life and sees long sitting, rushed lunches and late nights, which are the opposite of Nina's habits."
+    },
+    {
+      "n": 37,
+      "scene": "Elena shakes her head at a page of rules while Nina laughs",
+      "summary": "Elena realises that copying other people's habits wholesale is not the answer, because cultures, bodies and circumstances differ."
+    },
+    {
+      "n": 38,
+      "scene": "A magazine headline about a secret of long life with a fine print of doubt",
+      "summary": "Newspaper stories about the secrets of very old people are often misleading, because one person's habits may not explain their age."
+    },
+    {
+      "n": 39,
+      "scene": "A seesaw with a coin on one side and a pair of shoes on the other",
+      "summary": "Many things go together, such as wealth, schooling, safe jobs and health, so a link in the data does not prove that one thing causes the other."
+    },
+    {
+      "n": 40,
+      "scene": "A street with a clean bus, a cycle path and a family in a park",
+      "summary": "Not everyone can choose healthy habits freely, so safe streets, clean air, health care and fair incomes matter for whole communities."
+    },
+    {
+      "n": 41,
+      "scene": "A man puts a cigarette packet into a bin and a calendar shows new years added",
+      "summary": "Habits changed even in middle age can help; for example, people who stop smoking can recover many of the years they might have lost."
+    },
+    {
+      "n": 42,
+      "scene": "An older woman lifts a light weight while standing near a chair with support",
+      "summary": "Strength and balance matter for staying independent in old age, so muscle exercises and balance practice are useful at any age."
+    },
+    {
+      "n": 43,
+      "scene": "Nina holds a teacup and laughs while Elena writes in her notebook",
+      "summary": "When asked for her secret, Nina jokes that it is a bit of everything and not worrying too much about it."
+    },
+    {
+      "n": 44,
+      "scene": "Five icons on a card: shoes, bowl, moon, two friends and a sunrise",
+      "summary": "Elena sums up five themes: move naturally, eat mostly plants, sleep enough, keep close people and have a reason to get up."
+    },
+    {
+      "n": 45,
+      "scene": "A pair of dice next to a small plant in a pot",
+      "summary": "Nobody controls everything: genes, health care and chance play a part, so habits improve the odds but do not guarantee a long life."
+    },
+    {
+      "n": 46,
+      "scene": "Guests arrive in Marlow with presents and balloons at Nina's front gate",
+      "summary": "The day of the party arrives, and four generations of the family fill Nina's house."
+    },
+    {
+      "n": 47,
+      "scene": "Elena stands at a long table with a glass raised while Nina listens",
+      "summary": "Elena's toast says that long life is partly luck, partly place and partly habit, and that the aim is to add life to years and not only years to life."
+    },
+    {
+      "n": 48,
+      "scene": "Nina walks slowly through the Market square holding Theo's hand in the evening light",
+      "summary": "After the party, Nina takes Theo for a walk, showing that the best evidence of a good life is a normal good day."
+    },
+    {
+      "n": 49,
+      "scene": "Elena and Nina sit on a bench at sunset with a small sign and a notebook",
+      "summary": "The book ends with Elena's reminder that it is general information and not medical advice, and an invitation to talk to a doctor about your own health."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Nina will soon be ninety, and her family is happy.",
+      "Nina asks, “Why do some people live longer?”",
+      "Life expectancy means how long people live, on average.",
+      "People today live much longer than people long ago.",
+      "Long ago, many babies died, and this made the average low.",
+      "Clean water, good food and medicine help people live longer.",
+      "In some countries people live longer than in other countries.",
+      "Some countries often have very long lives, like Japan and Spain.",
+      "In most places, women live longer than men.",
+      "Living long is good, but living in good health is better.",
+      "Rich countries often live longer, but money is not everything.",
+      "Even in one city, some streets have longer lives.",
+      "Smoking is one of the worst things for health.",
+      "Genes matter, but they are not the whole story.",
+      "Some people live to be one hundred years old.",
+      "Sometimes people say they are older than they really are.",
+      "Nina walks to the market every morning with her basket.",
+      "Nina walks, climbs stairs and works in her garden.",
+      "Nina eats a lot of vegetables and beans.",
+      "Nina eats meat and sweets only on special days.",
+      "Nina stops eating before she is completely full.",
+      "Nina drinks a little wine, but only on special days.",
+      "Nina goes to bed early, and she sleeps well.",
+      "After lunch, Nina has a short rest in her chair.",
+      "Nina's friends come every week to play cards.",
+      "Nina lives near her family, and they eat together often.",
+      "Nina has a reason to get up every morning.",
+      "Nina goes to the community hall each Sunday.",
+      "Clean air is good for people, and dirty air is not.",
+      "In Marlow, shops and friends are all close to Nina's home.",
+      "Doctors and nurses help people stay healthy.",
+      "People who go to school for longer often live longer.",
+      "Safe roads and safe towns help people to live long.",
+      "Nina says that old age is not bad at all.",
+      "Nina's friend Pavel still sells vegetables at the market.",
+      "Elena sits all day and eats lunch at her desk.",
+      "Elena cannot copy other people's lives exactly, and Nina laughs.",
+      "A newspaper says one old man smokes and lives long.",
+      "Good things often come together, like money, school and health.",
+      "A town can help its people to live well.",
+      "It is never too late to start a good habit.",
+      "Strong legs and good balance help people to stay independent.",
+      "Nina says her secret is a little of everything.",
+      "Elena writes five simple ideas for a long and healthy life.",
+      "Nobody can know how long they will live.",
+      "The big day comes, and the house is full of guests.",
+      "Elena says a few words about her grandmother.",
+      "After the party, Nina walks with little Theo.",
+      "This book is general information and it is not medical advice."
+    ],
+    "B1B2": [
+      "Nina is about to turn ninety, and the whole family is planning a party in her small hill town of Marlow. Her granddaughter Elena, a data analyst, wants to find out how people reach such an age.",
+      "Over tea, Nina asks her granddaughter why some people live much longer than others. Elena says that nobody knows everything, but that the evidence is interesting, and she opens her laptop.",
+      "Elena explains that life expectancy is an average. It is the number of years a newborn baby would live if today's death rates stayed the same, and it is not a limit for anyone.",
+      "Elena shows Nina a chart of the world over two hundred years. Around the year eighteen hundred, the average life was only about thirty years, and today it is more than seventy.",
+      "Nina asks if people were old at thirty in those days. Elena says no, because the average was low mainly because so many babies and children died, and many adults lived into their sixties and seventies.",
+      "Elena lists the big reasons for the rise. Clean water and sanitation, vaccines, more food and better medicine have saved many lives, and these changes matter more than any miracle food.",
+      "Elena shows her a map of the world today, shaded by life expectancy. In some countries a newborn can expect to live more than eighty-three years, but in others fewer than sixty.",
+      "Elena points to the top of the list, where countries such as Japan, Switzerland, Spain, Italy and Singapore often appear. The order changes from year to year, so it is not a race with one winner.",
+      "Nina notices that the chart has two lines, one for women and one for men. In almost every country women live longer, by about five years on average, and scientists are still working out why.",
+      "Elena says that some years of life are spent in poor health. Healthy life expectancy counts the years in good health, and it is often eight to ten years shorter than total life expectancy.",
+      "Elena shows that, on average, richer countries have longer lives. The curve flattens at the top, however, so extra wealth adds little, and some middle-income countries do better than expected.",
+      "Elena explains that the differences exist inside countries too. In some cities, life expectancy differs by many years between two neighbourhoods that are only a few stops apart on the same train line.",
+      "Elena says that tobacco is one of the biggest causes of early death in the world. It harms the heart, the lungs and many other parts of the body, so people who never smoke tend to live longer.",
+      "Nina asks if long life runs in families. Elena says that studies of twins suggest genes explain perhaps a fifth to a third of the difference between people, so habits, environment and chance matter more.",
+      "Elena says that people who reach a hundred years, called centenarians, are still quite rare. Their numbers have been growing fast in many countries, so more families will know one.",
+      "Elena warns that stories of very old people should be checked. Where birth records are poor or missing, people can be wrong about their age, so serious researchers look for documents.",
+      "Elena starts to watch her grandmother's day more carefully. Every morning Nina walks to the Market square with a basket, which is about a mile there and back.",
+      "Nina does not exercise in a gym, but she moves all day long. She walks, climbs stairs and works in her garden, and many studies link this kind of daily movement with a lower risk of early death.",
+      "At lunch, Nina serves a bean soup with vegetables, bread and a little olive oil. Elena says that no single diet is the secret, but eating patterns like this are linked with fewer heart problems.",
+      "Nina eats meat only occasionally, and she drinks very few sweet drinks. Elena says that many studies link eating less processed meat and less sugar with better health, but no single food decides it.",
+      "Nina always stops eating before she is completely full. Elena says that some studies in animals suggest eating less can lengthen life, but the evidence in people is unclear.",
+      "Elena says that scientists used to think a little alcohol was good for the heart. Newer research doubts this, and many experts now say that no amount of alcohol has been shown to be clearly healthy.",
+      "Nina goes to bed at ten and gets up at six. Elena says that regular sleep of seven to nine hours is linked with better health, and very short sleep is linked with earlier death.",
+      "After lunch, Nina always rests in her armchair for twenty minutes. Elena says that long-lasting stress harms the body, and habits of rest and quiet may help people to unwind.",
+      "Every Thursday, Nina's friends come over to play cards and gossip. Large reviews of research find that people with strong social ties tend to live longer than lonely people.",
+      "Nina lives five minutes from her son's house, and the family eats together on Sundays. Being close to family can give older people care, company and a feeling of being useful.",
+      "Nina says that she gets up each morning because the garden, the market and Theo are waiting for her. Studies link a sense of purpose with a lower risk of early death, though cause and effect are hard to separate.",
+      "Every Sunday, Nina goes to the community hall, where neighbours sing, share food and talk. Some studies link regular community gatherings with longer life, whether they are religious or not.",
+      "Elena shows that polluted air is linked with heart and lung disease and with earlier death. Clean air and green spaces are good for health, and Marlow has plenty of both.",
+      "In Marlow, everything that Nina needs is within a short walk, including the baker, the pharmacy and her friends. Elena says that such towns make healthy habits easier because they are built into the day.",
+      "Elena says that health care also matters a great deal. Vaccines, screening and the treatment of problems such as high blood pressure prevent many early deaths.",
+      "Elena says that people with more years of education tend to live longer. This is probably because education leads to safer work, a better income and a better understanding of health.",
+      "Elena points out that long life also depends on safety. Fewer road accidents, less violence and a lack of war all help more people to reach old age.",
+      "Nina says that she has never thought of old age as a disaster. Some studies find that a positive view of ageing is linked with longer life, though it is hard to prove it is the cause.",
+      "Nina's friend Pavel, who is eighty-eight, still sells vegetables at the market stall every Saturday. Staying busy, with work or volunteering, keeps people active and connected.",
+      "Elena looks honestly at her own week. She sits for nine hours, eats lunch at her desk, stays up late and calls her friends only rarely, which is the opposite of what she has seen at Nina's house.",
+      "Elena makes a list of everything that Nina does, and plans to copy all of it. Nina laughs and says that nobody can borrow another person's whole life, because every body and every place is different.",
+      "Elena shows Nina a newspaper story about a man who smokes and drinks daily, and who is one hundred and one. She explains that one person's story proves nothing, because luck and genes can hide bad habits.",
+      "Elena reminds her grandmother that many good things come together, such as money, schooling, clean air and health. A link in the data does not prove that one thing causes the other.",
+      "Elena says that people with less money and time cannot always choose healthy habits. Governments and towns can help by providing clean air, safe streets and health care for everyone.",
+      "Nina asks if it is too late for people who have lived badly. Elena says that changes made even in middle age can help, and that stopping smoking, for example, recovers many years of life.",
+      "Elena says that strong muscles and good balance help older people to stay independent and to avoid falls. Simple exercises such as standing up from a chair repeatedly can be started at any age.",
+      "When Elena asks for her secret at last, Nina laughs and says that she has no secret. She says that she does a bit of everything, and that she does not worry about things she cannot change.",
+      "Elena writes five ideas on a card: move every day, eat mostly plants, sleep enough, keep close friends and have a reason to get up. She remembers that none of them is a guarantee.",
+      "Elena admits that luck is a part of every life. Genes, accidents and illness all play a part, so good habits improve the odds but they never guarantee a long life.",
+      "The day of the party arrives, and Nina's small house fills with family, friends and neighbours. Four generations stand around her, from her son to little Theo.",
+      "Elena stands up and makes a short speech. She says that long life is partly luck, partly place and partly habit, and that the aim is to add life to years, as well as years to life.",
+      "When the guests have gone, Nina takes Theo's hand and walks him slowly to the Market square for an ice cream. It is an ordinary evening, and Elena thinks that it is perfect.",
+      "Elena closes her notebook and tells her grandmother what she has learned. This book is general information only and is not medical advice, so please ask a doctor about your own health."
+    ],
+    "C1C2": [
+      "In the hill town of Marlow, Nina was about to turn ninety, and her family had been planning a party for months. Her granddaughter Elena, who analysed numbers for a living and could not resist a good question, decided to spend the weeks beforehand finding out why some people reach such an age. She had a laptop, a pile of reports and a grandmother who seemed to have all the energy in the family.",
+      "Over a pot of tea, Nina put a very direct question to her granddaughter, which was why some people live so much longer than others. Elena admitted that nobody has a complete answer, but that scientists have gathered a great deal of evidence from many countries and over many decades. She unfolded a map on the table and told her grandmother to prepare herself for a lot of charts.",
+      "Elena began with a definition, because she believed that most arguments about long life begin with a misunderstanding. Life expectancy, she explained, is the average number of years that a newborn baby would be expected to live if the death rates of today stayed the same throughout its life. It is a statistical summary of a whole population, and it says nothing about the limit of any one person.",
+      "On her laptop, Elena brought up a line that climbed steadily across two centuries of history. In the year eighteen hundred, she said, the average newborn in the world could expect to live only about thirty years, whereas today the global figure is more than seventy. It is one of the greatest improvements in human history, she added, and one that few people notice because it happened so gradually.",
+      "Was everyone old at thirty in those days, Nina asked, and her granddaughter laughed and shook her head. The low averages of the past, she explained, were pulled down mainly by the deaths of babies and small children, while a person who survived childhood often lived on into their sixties or seventies. A statistic that mixes together such different lives can easily mislead, she said, and she always checks what is inside an average before she trusts it.",
+      "What caused the great rise in life expectancy, Nina wondered, and Elena listed the main reasons on her fingers. Clean drinking water and sewers kept diseases from spreading, vaccines prevented many deadly infections, better and more reliable food nourished children, and medicine slowly learned to treat what could not be prevented. These ordinary public measures, she said, have saved far more lives than any secret diet or magic herb.",
+      "The map on Elena's screen was shaded in different colours, and the contrasts were remarkable even to someone who thought she already understood the world. In some countries, a baby born today can expect to live well over eighty-three years, while in others the figure is below sixty, a gap of more than twenty years. The causes, Elena said, are rarely mysterious, and they have much more to do with poverty and health care than with anyone's genes.",
+      "Near the top of the usual tables, Elena said, you often find Japan, Switzerland, Spain, Italy and Singapore, along with the city of Hong Kong, although the exact order changes from year to year and from one report to the next. She cautioned her grandmother not to treat it like a league table with a permanent champion, since small differences are within the margin of error. What these places share, she added, would be the more interesting question.",
+      "Elena pointed to the two lines on the chart, the upper one for women and the lower one for men, and noted that the gap appears in nearly every country in the world. On average women live about five years longer than men, she said, and the reasons seem to combine biology with behaviour, such as higher rates of smoking, accidents and risky work among men. Nina remarked dryly that she had never needed a chart to know this.",
+      "Living longer is only part of the goal, Elena said, because most people would also like those years to be good ones. Researchers therefore calculate something called healthy life expectancy, which counts the years that people can expect to live in good health, and in many countries it is shorter than total life expectancy by around eight to ten years. That gap, she suggested, may matter more to most of us than the headline number.",
+      "When Elena plotted income against life expectancy, the points formed a steep curve that rose quickly at first and then flattened out. Among poorer countries, more money tends to mean far longer lives, she said, but beyond a certain level extra wealth adds little, and some middle-income countries achieve surprisingly good results with sensible public health. It is how a country spends its money, she concluded, and not only how much it has.",
+      "The differences are not only between countries, Elena told her grandmother, and she showed a study of a large city in which two neighbourhoods a short train ride apart had life expectancies many years from each other. Poverty, poor housing, polluted air, stress and limited access to health services all gather in some places, she explained, and their effects accumulate silently over a lifetime. Where you live, in other words, can matter as much as how you live.",
+      "Of all the habits that shorten life, Elena said, smoking is among the most thoroughly proved, and it damages the heart, the blood vessels, the lungs and almost every other part of the body. Countries and communities in which smoking has fallen have generally seen life expectancy rise, and people who give up, even in middle age, can recover many of the years that they might have lost. It is never too late to stop, she said, though it is easier the earlier you do it.",
+      "Nina, who came from a family of long livers, asked whether she had simply inherited her good fortune. Studies of twins suggest that genes explain perhaps a fifth to a third of the differences between people in how long they live, Elena said, although estimates vary and the figure is hard to measure. The great majority of the story, then, belongs to environment, habits and chance, and these are things that people can influence.",
+      "Centenarians, the people who reach their hundredth birthday, are still uncommon, Elena told her grandmother, but they are now one of the fastest-growing groups of the population in many countries. A century ago, such a birthday was an occasion for newspaper headlines, whereas today many towns have one or two among their residents. Nina announced that she intended to become one of them, simply to see everybody's faces.",
+      "Not every claim of great age can be trusted, Elena warned, and she described how researchers who study the oldest people in the world demand written proof such as birth certificates and census records. Where records are poor, missing or lost, ages are sometimes mistaken or exaggerated, and an exciting story about the oldest village in the world may collapse under a careful look. A good scientist, she said, begins by checking the date of birth.",
+      "To make the research more personal, Elena began to follow her grandmother around town, with a notebook and a tolerant smile. Every morning at eight, Nina set out for the Market square with a wicker basket on her arm, walking about a mile there and back, stopping to chat with three neighbours on the way. Elena realised that she had never once seen her grandmother go to a gym.",
+      "Nina's movement was not a scheduled workout but part of the fabric of her day, which included stairs, errands, housework and a vegetable garden that needed constant attention. Many large studies have found that people who walk and move more during the day have a lower risk of dying early, and the benefits seem to appear well before anyone reaches the level of an athlete. Movement that comes naturally, Elena noted, is movement that people actually keep doing.",
+      "Lunch at Nina's house was a thick soup of beans and vegetables, served with dark bread and a thin thread of olive oil. There is no single longevity diet, Elena said, and no one food can be called a miracle, but eating patterns such as the Mediterranean diet, which is rich in plants, beans, whole grains and fish, have been linked with a lower risk of heart disease. Nina listened politely, then went back for a second bowl.",
+      "In Nina's kitchen, meat belonged to Sunday and cake belonged to birthdays, while the rest of the week was devoted to beans, vegetables, eggs and simple cooking from scratch. Many studies link a high intake of processed meat and sugary drinks with higher risks of disease, Elena said, though it is impossible to say that any one food on its own is responsible. Habits as a whole, she explained, matter more than individual choices.",
+      "Nina had a habit of putting down her fork while she still felt a little hungry, a custom she had learned from her own mother. In some animals, Elena said, eating considerably less than normal has been found to lengthen life, but whether the same is true of people is not known, and extreme dieting carries its own dangers. Eating slowly and stopping before you feel stuffed, she concluded, is at least a kindly habit.",
+      "For years, it was widely believed that a daily glass of wine protected the heart, and the idea was often used to explain the health of certain countries. More recent research has cast doubt on it, Elena said, because earlier studies may have compared drinkers with former drinkers who had stopped for health reasons, and many experts now say that no level of alcohol is clearly good for health. Nina, who drank one glass on feast days, shrugged cheerfully.",
+      "Nina's evenings followed a very regular routine, in which the television went off at nine, the lights were out by ten and the alarm clock was never needed because she woke at six. Large studies link regular sleep of about seven to nine hours with better health, Elena said, and they find that people who sleep much less than that are at higher risk of early death. Being tired all the time is not a badge of honour, she added.",
+      "Every afternoon, after the dishes were done, Nina sank into her armchair, put a hat over her eyes and slept for exactly twenty minutes. Long-lasting stress is known to harm the body, Elena explained, and many cultures have their own rituals of rest, such as a midday break, a prayer, a cup of tea in the garden or a quiet walk at dusk. Nobody can prove that these rituals extend life, but they are certainly kind to it.",
+      "On Thursday afternoon, four of Nina's oldest friends arrived to play cards, drink coffee and argue happily about the rules. Large reviews of many studies have found that people with strong social ties tend to live longer than those who are lonely or isolated, Elena said, and the effect is comparable in size to some well-known health risks. Elena noticed that the friends laughed more in two hours than she did in a week of work.",
+      "Nina's son lived only five minutes away, her granddaughter a short drive, and her great-grandson Theo shouted through the letterbox every Sunday morning to ask for pancakes. Living near family brings practical help when it is needed, Elena said, but it also gives older people a sense of belonging and of being useful to others. Nina, who babysat Theo on Wednesdays, thought that she was the one who got the greater benefit.",
+      "Why do you get up in the morning, Elena asked, and Nina replied without hesitation that there were tomatoes to water, friends to meet and a great-grandson to spoil. Several studies have found that people who feel they have a purpose in life have a lower risk of early death, Elena said, though it is hard to know whether purpose protects health or whether healthy people simply find it easier to feel purposeful. Probably, she suggested, it works in both directions.",
+      "On Sundays Nina went to the community hall, where the neighbours sang, shared food, swapped news and kept an eye on each other's health. Some studies have found that regular attendance at a community group, whether religious or not, is linked to longer life, Elena said, and the explanation may lie in the support, routine and friendship that such gatherings provide. A feeling of belonging, she added, is hard to buy.",
+      "Elena reminded her grandmother that people do not choose the air that they breathe, and that polluted air is linked with heart disease, lung disease and early death in many parts of the world. A hill town with little traffic and plenty of trees, such as Marlow, offers a real advantage, and green spaces may also encourage people to go outdoors and meet their neighbours. Part of Nina's luck, in other words, was her postcode.",
+      "Almost everything Nina needed in her daily life could be reached on foot, from the baker and the pharmacy to the library and the houses of her friends. Planners increasingly recognise that places like this make healthy habits easier, because walking and meeting people become part of every errand, with no need for willpower. Elena noted that her own neighbourhood, with its busy road and out-of-town shops, had been designed for cars.",
+      "Lifestyle is only part of the picture, Elena said, because a good health system saves lives that no amount of walking and bean soup could rescue. Vaccines protect against dangerous infections, screening can find some illnesses early, and treating conditions such as high blood pressure and diabetes reduces the risk of strokes and heart attacks in later life. Nina's own doctor, who visited her once a year, was one of her favourite people.",
+      "Across many countries, Elena said, people who have spent more years in education tend to live longer, and the link persists even when income is taken into account. The reasons are probably several, among them safer jobs, easier access to information, a better understanding of health and a greater sense of control over one's own life. Nina, who had left school at fourteen, observed that she had learned a great deal since.",
+      "Some of the biggest differences in life expectancy, Elena reminded her grandmother, come from the simplest of causes, such as whether children can cross the road safely or whether families live in peace. Road accidents, violence and war cut short many lives in some parts of the world, and the safer a place is, the more people it allows to grow old. Marlow, with its slow streets and quiet nights, was a very safe town.",
+      "Nina refused to describe herself as old in any sense that mattered, preferring to say that she had been collecting years. A number of studies have found that people with a positive attitude to ageing tend to live longer, Elena said, although it is difficult to know whether the attitude causes good health or whether good health simply makes people more cheerful. Either way, Nina's cheerfulness was a pleasure to everyone.",
+      "At the Market square, Nina introduced her granddaughter to Pavel, an eighty-eight-year-old who had sold vegetables from the same stall for more than sixty years. He had cut down his hours but refused to retire altogether, and he told Elena that the stall kept him in conversation, on his feet and in touch with the town. Staying busy, whether through a job, volunteering or looking after grandchildren, may be a quiet tonic.",
+      "One evening, Elena turned her data analysis on herself and did not like what it showed. She sat for nine hours a day, ate lunch over her keyboard, went to bed long after midnight and saw her friends once a month, an arrangement that was almost the exact opposite of her grandmother's. It was a little humbling, she admitted, to study longevity at a desk in the dark.",
+      "At first Elena was tempted to write a strict rulebook based on her grandmother's day and to follow it down to the last bean. Nina laughed at the idea, observing that she had never followed a plan in her life, and Elena soon realised that habits belong to a culture, a family and a place, and cannot simply be lifted out and pasted into another life. The lesson, she decided, was in the principles and not the details.",
+      "A newspaper article about an old man who claimed that cigarettes and strong spirits were the secret of his one hundred and one years made Elena groan. Single stories prove nothing, she said, because for every such person there are thousands who followed the same habits and died young, and we never read about them. Good evidence comes from large groups that are followed over many years, and not from the lucky survivor.",
+      "Elena explained to her grandmother why she is careful with the words link and cause, since in real life good things tend to cluster, so that people with more money also tend to have more education, safer homes and better care. A link in the data, she said, does not prove that one factor causes another, and scientists use trials, natural experiments and careful statistics to try to separate the threads. Most of the claims in this field, she added, come with a question mark.",
+      "Elena warned that it would be unfair to treat long life as simply a personal achievement, since the choices available to people depend strongly on their income, their housing, their work and the neighbourhood they live in. A family without a safe park or a good bus service finds it much harder to adopt the habits of Marlow, she said, which is why public measures such as clean air, health services and fair wages can affect whole communities. Long life, in this view, is a shared project.",
+      "Is it too late to change, Nina wondered, if a person has spent decades with poor habits? Elena answered that the evidence is encouraging, because people who stop smoking, begin to walk regularly or improve their diet even in middle age tend to lower their risk of early death compared with people who carry on as before. No one can undo the past, she added, but the future remains open.",
+      "Living long is of little use if you cannot get out of your own armchair, Elena said, and she explained that muscle strength and balance are two of the keys to independence in later life. Simple exercises, such as rising from a chair ten times or standing on one leg beside a counter, can be practised at almost any age, although anyone with health problems should ask a professional first. Nina, it turned out, did her own version while waiting for the kettle to boil.",
+      "At last Elena put down her pen and asked her grandmother directly for her secret, and Nina laughed until she had to wipe her eyes. She did a little of everything, she said, with a bit of walking, a lot of soup, good company and an afternoon rest, and she had always declined to worry about anything that she could not change. Elena wrote it down anyway, pleased that the old woman's advice agreed with the evidence.",
+      "Elena gathered everything she had learned onto a single card with five short lines, which were to move naturally, to eat mostly plants, to sleep enough, to keep your people close and to have a reason to get up in the morning. None of these promises a long life, she reminded herself, but together they tilt the odds in a favourable direction, and each of them is pleasant in its own right. It seemed an unusually cheerful conclusion for a data analyst.",
+      "There was one more sentence that Elena felt she had to write, which was that luck is part of every life and no amount of careful living can remove it. Good habits improve the odds, and bad habits worsen them, but nobody can promise anyone a particular number of years, and anyone who does is selling something. Nina nodded firmly and said that this was the wisest thing she had heard all month.",
+      "On the day of the party, the little house in Marlow overflowed with relatives, neighbours, friends from the Thursday card table and even the family doctor, who had brought a bunch of tulips. Four generations stood in the small garden, from Nina's son in his seventies down to Theo, who was busy trying to blow out the candles before anyone could light them. Elena had never seen her grandmother look so pleased.",
+      "Elena rose to her feet, tapped her glass and gave the shortest speech of her career. Long life, she said, is partly luck, partly the place where we live and partly the habits we keep, but the real prize is not only to add years to life but also to add life to years. Then she raised her glass to Nina, and the whole garden erupted in applause.",
+      "When the last guests had gone and the balloons were beginning to sag, Nina took Theo's hand and walked him slowly down to the Market square to buy an ice cream. Elena followed a few steps behind, watching two people separated by eighty-four years and joined by a shared appetite for sweets. Whatever the statistics said, she thought, an ordinary good day was surely the best evidence of a life well lived.",
+      "Elena closed her notebook on the bench in the setting sun, glad that she had spent these weeks learning about the people who live long and the places that help them. This book has offered only general information, and it is not medical advice, so it cannot replace a conversation with a doctor who knows your own health and history. If you want to live well for a long time, start somewhere small, and perhaps start with a walk."
+    ]
+  }
+}
