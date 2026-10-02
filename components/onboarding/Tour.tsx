@@ -107,7 +107,7 @@ function Journey() {
         {page ? (
           /* The photograph, and under it the page, set as the reader sets it. */
           <div key={`page-${tick}`} className="show-swap absolute inset-x-0 top-[44px] bottom-0">
-            <ScenePhoto caption={book.scenes[page.scene - 1]?.caption ?? ""} pill={false} className="aspect-[16/11] w-full" />
+            <ScenePhoto caption={book.scenes[page.scene - 1]?.caption ?? ""} seed={`${book.slug}:${page.scene}`} pill={false} className="aspect-[16/11] w-full" />
             <p className="show-line px-3 pt-3 font-reading text-[9.6px] leading-[1.45] text-[#0B1B22]">{page.text}</p>
           </div>
         ) : (

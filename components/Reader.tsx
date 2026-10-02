@@ -436,7 +436,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
                   {near ? (
                     p.target?.art
                       ? <ObjectPhoto art={p.target.art} bg={p.target.bg ?? ""} caption={scene?.caption ?? ""} className="h-full w-full" />
-                      : <ScenePhoto caption={scene?.caption ?? ""} pill={false} className="h-full w-full" />
+                      : <ScenePhoto caption={scene?.caption ?? ""} seed={`${slug}:${p.scene}`} pill={false} className="h-full w-full" />
                   ) : null}
                   <span className="absolute start-3 top-3 grid h-9 min-w-9 place-items-center rounded-full bg-black/80 px-3 text-[15px] font-bold text-white">{p.n}</span>
                   {onSwitch && i === index && !open && (
