@@ -397,10 +397,12 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
                   )}
                 </div>
               </div>
-              <div data-tour="text" className="flex-1 overflow-y-auto px-[22px] pb-3 pt-1.5">
+              <div className="flex-1 overflow-y-auto px-[22px] pb-3 pt-1.5">
+                <div data-tour="text" className="-mx-2 px-2">
                 <PageText page={p} interactive={interactive} selected={sel && sel.page === i ? sel.start : -1} lang={variant.lang}
                           size={TEXT_SIZES[prefs.size]} colours={prefs.colours} gloss={prefs.gloss && !open}
                           onPick={(word, start) => { setMenu(false); setSel({ page: i, word, start }); }} />
+                </div>
               </div>
             </section>
           );

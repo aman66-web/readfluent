@@ -603,7 +603,7 @@ const nl: Catalog = {
   "coach.level": "Dit is je niveau. Elke pagina die je leest levert XP op, en met XP ga je van A1 naar C2.",
   "coach.targets": "Je doelen voor vandaag. Haal ze allemaal om je reeks vol te houden.",
   "coach.library": "Laten we je eerste boek zoeken. Tik op Bibliotheek.",
-  "coach.pick": "Kies een boek dat je aanspreekt. Schuif de planken opzij om meer te zien.",
+  "coach.pick": "Tik op dit boek om het te openen. Een ander boek kies je later.",
   "coach.bookLevel": "Kies hoe moeilijk de woorden zijn. Je niveau is al ingesteld.",
   "coach.bookLength": "Kies hoe lang het boek is. 50 pagina's duren ongeveer 15 minuten.",
   "coach.bookPath": "Dit pad toont het hele verhaal, hoofdstuk voor hoofdstuk. Tik op een stap om erheen te springen.",

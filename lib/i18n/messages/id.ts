@@ -599,7 +599,7 @@ const indonesian: Catalog = {
   "coach.level": "Ini levelmu. Setiap halaman yang kamu baca memberi XP, dan XP membawamu naik dari A1 ke C2.",
   "coach.targets": "Target harianmu. Selesaikan agar rentetan membacamu tidak putus.",
   "coach.library": "Ayo cari buku pertamamu. Ketuk Perpustakaan.",
-  "coach.pick": "Pilih buku yang menarik. Geser rak ke samping untuk melihat lainnya.",
+  "coach.pick": "Ketuk buku ini untuk membukanya. Buku lain bisa kamu pilih nanti.",
   "coach.bookLevel": "Pilih seberapa sulit kata-katanya. Levelmu sudah dipilihkan.",
   "coach.bookLength": "Pilih panjang bukunya. 50 halaman butuh sekitar 15 menit.",
   "coach.bookPath": "Jalur ini menunjukkan seluruh cerita, bab demi bab. Ketuk langkah mana pun untuk melompat ke sana.",

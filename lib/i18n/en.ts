@@ -609,7 +609,7 @@ export const EN = {
   "coach.level": "This is your level. Every page you read earns XP, and XP moves you up from A1 to C2.",
   "coach.targets": "Your targets for today. Tick them off to keep your streak alive.",
   "coach.library": "Let's find your first book. Tap Library.",
-  "coach.pick": "Pick any book that looks good. Slide the shelves sideways to see more.",
+  "coach.pick": "Tap this book to open it. You can pick any other one later.",
   "coach.bookLevel": "Choose how hard the words are. Your level is already picked for you.",
   "coach.bookLength": "Choose how long the book is. 50 pages takes about 15 minutes.",
   "coach.bookPath": "This path shows the whole story, chapter by chapter. Tap any step to jump in.",

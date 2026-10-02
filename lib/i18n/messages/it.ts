@@ -600,7 +600,7 @@ const it: Catalog = {
   "coach.level": "Questo è il tuo livello. Ogni pagina letta dà XP, e gli XP ti portano da A1 a C2.",
   "coach.targets": "I tuoi obiettivi di oggi. Completali per non interrompere la serie.",
   "coach.library": "Troviamo il tuo primo libro. Tocca Biblioteca.",
-  "coach.pick": "Scegli un libro che ti piace. Fai scorrere gli scaffali di lato per vederne altri.",
+  "coach.pick": "Tocca questo libro per aprirlo. Potrai sceglierne un altro più tardi.",
   "coach.bookLevel": "Scegli quanto sono difficili le parole. Il tuo livello è già selezionato.",
   "coach.bookLength": "Scegli la lunghezza del libro. 50 pagine richiedono circa 15 minuti.",
   "coach.bookPath": "Questo percorso mostra tutta la storia, capitolo per capitolo. Tocca un passo per saltarci dentro.",

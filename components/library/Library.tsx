@@ -36,7 +36,7 @@ function useShare(slug: string): number | null {
  * neighbours meet, so a row reads as one shelf), and under that its name, the day it joined and the first
  * lines of what it is about, in the reader's language (the rest is on its page).
  */
-function Tile({ book }: { book: PreviewBook }) {
+function Tile({ book, tour }: { book: PreviewBook; /** The tour points at this one (the first book on the first shelf). */ tour?: boolean }) {
   const t = useT();
   const text = useBookText();
   const locale = useLocale();
@@ -48,7 +48,7 @@ function Tile({ book }: { book: PreviewBook }) {
   return (
     <Link href={`/book/${book.slug}`} className="group block px-2 transition-transform active:scale-[0.98]">
       <div className="relative pt-2 [perspective:700px]">
-        <div className="relative origin-left transition-transform duration-300 [transform:rotateY(-7deg)] group-active:[transform:rotateY(0deg)]">
+        <div data-tour={tour ? "book" : undefined} className="relative origin-left transition-transform duration-300 [transform:rotateY(-7deg)] group-active:[transform:rotateY(0deg)]">
           <BookCover slug={book.slug} title={title} author={coverAuthor(book)} hue={categoryById(book.category)?.hue ?? 30} className="drop-shadow-[0_14px_14px_rgba(8,47,60,.32)]" />
           {fresh && <span className="absolute -end-1.5 -top-1.5 rounded-full bg-accent-bright px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-[0.06em] text-foreground shadow-sm">{t("library.new")}</span>}
           {share !== null && (
@@ -145,7 +145,7 @@ export function Library({ books }: { books: PreviewBook[] }) {
           {category === "all" ? (
             <div className="mt-7 flex flex-col gap-9">
               {shelves.map((shelf, si) => (
-                <section key={shelf.id} aria-labelledby={`shelf-${shelf.id}`} data-tour={si === 0 ? "shelf" : undefined}>
+                <section key={shelf.id} aria-labelledby={`shelf-${shelf.id}`} >
                   <div className="flex items-center gap-2.5">
                     <span aria-hidden className="h-6 w-1.5 rounded-full" style={{ background: `hsl(${shelf.hue} 70% 52%)` }} />
                     <h2 id={`shelf-${shelf.id}`} className="text-[20px] font-bold tracking-[-0.01em]">{t(`cat.${shelf.id}`)}</h2>
@@ -153,8 +153,8 @@ export function Library({ books }: { books: PreviewBook[] }) {
                     {interests.includes(shelf.id) && <span aria-hidden className="ms-auto size-2 rounded-full bg-accent-bright shadow-[0_0_10px_2px_rgba(34,211,238,.6)]" />}
                   </div>
                   <ul className="no-scrollbar -mx-5 mt-2 flex snap-x snap-mandatory overflow-x-auto px-3 pb-2">
-                    {shelf.books.map((b) => (
-                      <li key={b.slug} className="w-[44vw] max-w-[186px] shrink-0 snap-start"><Tile book={b} /></li>
+                    {shelf.books.map((b, bi) => (
+                      <li key={b.slug} className="w-[44vw] max-w-[186px] shrink-0 snap-start"><Tile book={b} tour={si === 0 && bi === 0} /></li>
                     ))}
                     {shelf.books.length < 3 && <li className="w-[44vw] max-w-[186px] shrink-0 snap-start" aria-hidden><SoonTile /></li>}
                   </ul>

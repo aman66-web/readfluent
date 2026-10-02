@@ -568,7 +568,7 @@ const tr: Catalog = {
   "coach.level": "Bu senin seviyen. Okuduğun her sayfa XP kazandırır, XP de seni A1'den C2'ye çıkarır.",
   "coach.targets": "Bugünkü hedeflerin. Serini sürdürmek için hepsini tamamla.",
   "coach.library": "İlk kitabını bulalım. Kütüphane'ye dokun.",
-  "coach.pick": "Hoşuna giden bir kitap seç. Daha fazlasını görmek için rafları yana kaydır.",
+  "coach.pick": "Açmak için bu kitaba dokun. Başka birini sonra seçebilirsin.",
   "coach.bookLevel": "Kelimelerin ne kadar zor olacağını seç. Seviyen zaten seçili.",
   "coach.bookLength": "Kitabın ne kadar uzun olacağını seç. 50 sayfa yaklaşık 15 dakika sürer.",
   "coach.bookPath": "Bu yol, hikâyenin tamamını bölüm bölüm gösterir. İstediğin adıma dokunup oraya atla.",

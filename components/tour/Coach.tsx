@@ -14,7 +14,7 @@ const subscribe = subscribeTo(TOUR_KEY);
 const server = () => "";
 const subNone = () => () => {};
 const hasOnboardedCookie = (): boolean => document.cookie.split("; ").some((c) => c.startsWith(`${ONBOARDED_COOKIE}=`));
-const PAD = 8;
+const PAD = 7;
 
 interface Box { x: number; y: number; w: number; h: number }
 
@@ -131,24 +131,45 @@ export function Coach() {
   if (!step) return null;
   const last = after(index) === null;
   const next = () => { const n = after(index); if (n === null) finishTour(); else setTourStep(n); };
+  // A step with nothing to light (the hello and the goodbye) is a card in the middle of the screen.
+  const centered = !step.target && !step.gesture;
   // The bubble goes where the highlighted part is not: at the top when it is low on the screen, else at the bottom.
   const vw = typeof window === "undefined" ? 390 : window.innerWidth;
+  const bubbleTop = box ? top : step.place === "top";
   // Where the bubble's tail points: the middle of what is lit, kept inside the bubble.
   const cardW = Math.min(420, vw - 24);
-  const tailX = box ? Math.min(cardW - 30, Math.max(top ? 30 : 104, box.x + box.w / 2 - (vw - cardW) / 2)) : 0;
+  const tailX = box ? Math.min(cardW - 30, Math.max(bubbleTop ? 30 : 104, box.x + box.w / 2 - (vw - cardW) / 2)) : 0;
   const hole = box ? { left: box.x - PAD, top: box.y - PAD, width: box.w + PAD * 2, height: box.h + PAD * 2 } : null;
   const pct = ((index + 1) / TOUR.length) * 100;
+  const text = t(step.text, { mascot: MASCOT_NAME });
+  const nextButton = (
+    <button type="button" onClick={next} className="btn-cyan inline-flex h-12 items-center gap-2 rounded-full ps-6 pe-2 text-[15.5px] font-semibold active:scale-[0.98]">
+      {last ? t("coach.finish.button") : t("coach.next")}
+      <span className="grid size-8 place-items-center rounded-full bg-black/10" aria-hidden>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="size-[18px] rtl:-scale-x-100"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+      </span>
+    </button>
+  );
+  const skip = (
+    <button type="button" onClick={() => finishTour()} className="h-11 rounded-full px-1 text-[14px] font-semibold text-[rgba(11,27,34,.6)] underline decoration-[rgba(11,27,34,.25)] decoration-1 underline-offset-4 active:opacity-60">{t("coach.skip")}</button>
+  );
+  const steps = (
+    <div className="flex items-center justify-center gap-1" aria-hidden>
+      {TOUR.map((_, n) => <span key={n} className={`block h-1.5 rounded-full transition-all duration-300 ${n === index ? "w-5 bg-[#22D3EE]" : n < index ? "w-1.5 bg-[#22D3EE]/60" : "w-1.5 bg-[rgba(11,27,34,.14)]"}`} />)}
+    </div>
+  );
 
   return (
     <div className="pointer-events-none fixed inset-0 z-[70]" aria-live="polite">
       {hole ? (
         <>
-          <div className="coach-spot absolute" style={{ ...hole, borderRadius: Math.min(hole.height / 2, 26) }} />
-          {/* A step that asks for a tap points at the thing to tap: an arrow that bounces towards it. */}
-          {step.mode === "route" && (
+          <div className="coach-spot absolute" style={{ ...hole, borderRadius: Math.min(hole.height / 2, 22) }} />
+          {/* A step that asks for a tap shows how: a hand that taps the lit part, or, for a bar at the edge of the screen, an arrow that bounces towards it. */}
+          {step.point === "hand" && <TapHand x={hole.left + hole.width / 2} y={hole.top + Math.min(hole.height / 2, 110)} />}
+          {step.point === "arrow" && (
             <span aria-hidden className="coach-point absolute grid size-11 place-items-center rounded-full bg-accent-bright text-on-cyan shadow-[0_8px_18px_-6px_rgba(0,0,0,.55)] ring-[3px] ring-white"
-                  style={{ left: hole.left + hole.width / 2 - 22, top: top ? hole.top - 58 : hole.top + hole.height + 12 }}>
-              <svg viewBox="0 0 24 24" className={`size-6 ${top ? "" : "rotate-180"}`} fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v13M6 13l6 6 6-6" /></svg>
+                  style={{ left: hole.left + hole.width / 2 - 22, top: bubbleTop ? hole.top - 58 : hole.top + hole.height + 12 }}>
+              <svg viewBox="0 0 24 24" className={`size-6 ${bubbleTop ? "" : "rotate-180"}`} fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v13M6 13l6 6 6-6" /></svg>
             </span>
           )}
           {/* Touches on the dimmed part do nothing (not even scrolling); the lit part stays tappable, which is how a step that asks for a tap is done. */}
@@ -165,44 +186,82 @@ export function Coach() {
         </>
       ) : (
         <>
-          <div className="coach-dim absolute inset-0" />
+          <div className={`coach-dim absolute inset-0 ${step.gesture ? "coach-dim-soft" : ""}`} />
           <Shield className="inset-0" />
+          {step.gesture === "swipe" && <SwipeHand />}
         </>
       )}
 
-      <Dialog label={t("coach.stepOf", { n: index + 1, total: TOUR.length })}
-              className={top ? "top-[calc(env(safe-area-inset-top)+3.25rem)]" : "bottom-[calc(env(safe-area-inset-bottom)+5.75rem)]"}>
-        <div className="coach-bubble relative rounded-[28px] bg-white px-5 pb-4 pt-5 text-[#0B1B22]">
-          {box && <span className={`coach-tail absolute size-4 rotate-45 bg-white ${top ? "-bottom-[7px]" : "-top-[7px]"}`} style={{ left: tailX - 8 }} aria-hidden />}
-          <div className="flex items-start gap-3.5">
-            <span className="-mt-14 block w-[84px] shrink-0"><Mascot mood={step.mood} talking className="w-full" /></span>
-            <div className="min-w-0 flex-1 pt-0.5">
-              <p className="ed-serif text-[12.5px] font-medium italic tabular-nums text-[rgba(11,27,34,.55)]">{index + 1} / {TOUR.length}</p>
-              <p className="mt-1 text-[17px] font-medium leading-[1.3] tracking-[-0.012em]">{t(step.text, { mascot: MASCOT_NAME })}</p>
+      {centered ? (
+        <Dialog label={t("coach.stepOf", { n: index + 1, total: TOUR.length })} className="top-1/2 -translate-y-[44%]">
+          <div key={step.id} className="coach-bubble relative rounded-[32px] bg-white px-6 pb-5 pt-0 text-center text-[#0B1B22]">
+            <span className="coach-hero -mt-[76px] mx-auto block w-[148px]"><Mascot mood={step.mood} talking className="w-full" /></span>
+            <p className="mt-2 text-[21px] font-semibold leading-[1.25] tracking-[-0.02em]">{text}</p>
+            <div className="mt-5 flex justify-center">{nextButton}</div>
+            <div className="mt-1.5 flex justify-center">{skip}</div>
+            <div className="mt-1.5">{steps}</div>
+          </div>
+        </Dialog>
+      ) : (
+        <Dialog label={t("coach.stepOf", { n: index + 1, total: TOUR.length })}
+                className={bubbleTop ? "top-[calc(env(safe-area-inset-top)+3.25rem)]" : "bottom-[calc(env(safe-area-inset-bottom)+5.75rem)]"}>
+          <div key={step.id} className="coach-bubble relative rounded-[28px] bg-white px-5 pb-3.5 pt-4 text-[#0B1B22]">
+            {box && <span className={`coach-tail absolute size-4 rotate-45 bg-white ${bubbleTop ? "-bottom-[7px]" : "-top-[7px]"}`} style={{ left: tailX - 8 }} aria-hidden />}
+            <div className="flex items-start gap-3.5">
+              <span className="-mt-12 block w-[76px] shrink-0"><Mascot mood={step.mood} talking className="w-full" /></span>
+              <p className="min-w-0 flex-1 pt-0.5 text-[16.5px] font-medium leading-[1.32] tracking-[-0.012em]">{text}</p>
+            </div>
+            <div className="mt-3 flex items-center justify-between gap-3">
+              {skip}
+              {step.mode === "next" ? nextButton : (
+                <span className="coach-hint flex items-center gap-2 text-[14px] font-semibold text-[#0E7490]">
+                  {t("coach.tapHere")}
+                  <span className="coach-tap size-3 rounded-full bg-[#22D3EE]" aria-hidden />
+                </span>
+              )}
+            </div>
+            <div className="mt-2.5 h-[3px] overflow-hidden rounded-full bg-[rgba(11,27,34,.08)]" aria-hidden>
+              <span className="block h-full rounded-full bg-[#22D3EE] transition-[width] duration-300" style={{ width: `${pct}%` }} />
             </div>
           </div>
-          <div className="mt-4 flex items-center justify-between gap-3">
-            <button type="button" onClick={() => finishTour()} className="h-11 rounded-full px-1 text-[14px] font-semibold text-[rgba(11,27,34,.6)] underline decoration-[rgba(11,27,34,.25)] decoration-1 underline-offset-4 active:opacity-60">{t("coach.skip")}</button>
-            {step.mode === "next" ? (
-              <button type="button" onClick={next} className="btn-cyan inline-flex h-12 items-center gap-2 rounded-full ps-6 pe-2 text-[15.5px] font-semibold active:scale-[0.98]">
-                {last ? t("coach.finish.button") : t("coach.next")}
-                <span className="grid size-8 place-items-center rounded-full bg-black/10" aria-hidden>
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="size-[18px] rtl:-scale-x-100"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
-                </span>
-              </button>
-            ) : (
-              <span className="coach-hint flex items-center gap-2 text-[14px] font-semibold text-[#0E7490]">
-                {t("coach.tapHere")}
-                <span className="coach-tap size-3 rounded-full bg-[#22D3EE]" aria-hidden />
-              </span>
-            )}
-          </div>
-          <div className="mt-3.5 h-[3px] overflow-hidden rounded-full bg-[rgba(11,27,34,.08)]" aria-hidden>
-            <span className="block h-full rounded-full bg-[#22D3EE] transition-[width] duration-300" style={{ width: `${pct}%` }} />
-          </div>
-        </div>
-      </Dialog>
+        </Dialog>
+      )}
     </div>
+  );
+}
+
+/** A hand that taps the spot (the fingertip is at x, y): it presses down, and rings spread out from where it lands. */
+function TapHand({ x, y }: { x: number; y: number }) {
+  const SIZE = 56;
+  return (
+    <div aria-hidden className="absolute" style={{ left: x, top: y }}>
+      <span className="coach-ring absolute -ms-6 -mt-6 block size-12 rounded-full" />
+      <span className="coach-ring coach-ring-2 absolute -ms-6 -mt-6 block size-12 rounded-full" />
+      <span className="coach-hand absolute block" style={{ width: SIZE, height: SIZE, left: -SIZE * (8 / 24), top: -SIZE * (2.2 / 24) }}>
+        <HandIcon />
+      </span>
+    </div>
+  );
+}
+
+/** A hand that swipes from the right to the left across the middle of the page, as a reader's thumb does to turn it. */
+function SwipeHand() {
+  return (
+    <div aria-hidden className="absolute inset-x-0 top-[30%] flex justify-center">
+      <span className="coach-swipe block">
+        <span className="coach-trail absolute end-full top-6 me-1 block h-1.5 w-24 rounded-full" />
+        <span className="block size-14"><HandIcon /></span>
+      </span>
+    </div>
+  );
+}
+
+/** A pointing hand, white with a dark edge so it shows on the dim and on a page alike. */
+function HandIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="size-full drop-shadow-[0_6px_8px_rgba(0,0,0,.45)]" fill="#fff" stroke="#0B1B22" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M18 11V10a2 2 0 0 0-2-2 2 2 0 0 0-2 2V9a2 2 0 0 0-2-2 2 2 0 0 0-2 2v1.5V4a2 2 0 0 0-2-2 2 2 0 0 0-2 2v10l-1.4-1.9a2 2 0 0 0-2.8-.1 2 2 0 0 0 0 2.8l3.6 3.6C9 19.9 10.8 21 13.5 21h.5a8 8 0 0 0 8-8v-2a2 2 0 0 0-4 0Z" />
+    </svg>
   );
 }
 

@@ -225,11 +225,24 @@ h1, h2 { text-wrap: balance; }
 @keyframes coach-pop { from { opacity: 0; transform: translateY(16px) scale(.97); } to { opacity: 1; transform: none; } }
 .coach-bubble { animation: coach-pop .38s cubic-bezier(.22, 1, .36, 1) both; box-shadow: 0 2px 0 rgba(255,255,255,.9) inset, 0 30px 60px -22px rgba(0,0,0,.7), 0 0 0 1px rgba(11,27,34,.06); }
 .coach-tail { border-radius: 3px; }
-@keyframes coach-blink { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
+@keyframes coach-blink { 0%, 100% { opacity: 1; } 50% { opacity: .7; } }
 .coach-hint { animation: coach-blink 1.6s ease-in-out infinite; }
 @keyframes coach-tap { 0% { box-shadow: 0 0 0 0 rgba(34,211,238,.7); } 100% { box-shadow: 0 0 0 10px rgba(34,211,238,0); } }
 .coach-tap { animation: coach-tap 1.4s ease-out infinite; }
-@media (prefers-reduced-motion: reduce) { .coach-spot, .coach-bubble, .coach-hint, .coach-tap, .coach-point { animation: none; } .coach-spot { box-shadow: 0 0 0 9999px rgba(6,22,30,.7), 0 0 0 3px #22D3EE, 0 0 0 7px rgba(255,255,255,.95); } }
+.coach-dim-soft { background: rgba(6, 22, 30, .5); }
+/* The hand that taps: it lifts, presses the spot, and two rings spread out from the fingertip. */
+@keyframes coach-hand { 0%, 100% { transform: translate(10px, 12px) scale(1); } 40%, 55% { transform: translate(0, 0) scale(.94); } }
+.coach-hand { animation: coach-hand 1.5s ease-in-out infinite; transform-origin: 33% 9%; }
+@keyframes coach-ring { 0%, 35% { transform: scale(.3); opacity: 0; } 40% { opacity: .9; } 100% { transform: scale(1.7); opacity: 0; } }
+.coach-ring { animation: coach-ring 1.5s ease-out infinite; border: 3px solid #22D3EE; background: rgba(34,211,238,.22); }
+.coach-ring-2 { animation-delay: .22s; }
+/* The hand that swipes: in from the right, across, away. */
+@keyframes coach-swipe { 0% { transform: translateX(110px); opacity: 0; } 15% { opacity: 1; } 70% { transform: translateX(-90px); opacity: 1; } 100% { transform: translateX(-100px); opacity: 0; } }
+.coach-swipe { position: relative; animation: coach-swipe 1.9s cubic-bezier(.45, 0, .25, 1) infinite; }
+.coach-trail { background: linear-gradient(to left, rgba(255,255,255,.85), rgba(255,255,255,0)); }
+@keyframes coach-hero { from { transform: translateY(14px) scale(.8); opacity: 0; } to { transform: none; opacity: 1; } }
+.coach-hero { animation: coach-hero .5s .08s cubic-bezier(.22, 1, .36, 1) both; }
+@media (prefers-reduced-motion: reduce) { .coach-hand, .coach-ring, .coach-swipe, .coach-hero { animation: none; } .coach-ring { opacity: 0; } .coach-swipe { opacity: 1; } .coach-spot, .coach-bubble, .coach-hint, .coach-tap, .coach-point { animation: none; } .coach-spot { box-shadow: 0 0 0 9999px rgba(6,22,30,.7), 0 0 0 3px #22D3EE, 0 0 0 7px rgba(255,255,255,.95); } }
 
 /* The big title at the top of a main screen: the display serif of the covers, so the app and its books look like one thing. */
 .title-display { font-family: var(--font-display), "Iowan Old Style", Georgia, serif; font-size: 36px; font-weight: 700; line-height: 1.04; letter-spacing: -0.02em; }

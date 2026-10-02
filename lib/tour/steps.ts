@@ -21,19 +21,25 @@ export interface TourStep {
   until?: RegExp;
   /** What Dewey looks like for this step. */
   mood: "hello" | "reading" | "cheer" | "ready";
+  /** How the lit part is pointed at: a hand that taps it, or an arrow that bounces towards it (for a bar at the screen's edge). */
+  point?: "hand" | "arrow";
+  /** A gesture shown on a step that has no single thing to light: the hand swipes across the page. */
+  gesture?: "swipe";
+  /** Where the bubble goes when there is nothing lit to decide it. */
+  place?: "top" | "bottom";
 }
 
 export const TOUR: readonly TourStep[] = [
   { id: "welcome", on: /^\/$/, text: "coach.welcome", mode: "next", mood: "hello" },
   { id: "level", on: /^\/$/, target: "level", text: "coach.level", mode: "next", mood: "ready" },
   { id: "targets", on: /^\/$/, target: "targets", text: "coach.targets", mode: "next", mood: "reading" },
-  { id: "library", on: /^\/$/, target: "tab-library", text: "coach.library", mode: "route", until: /^\/library/, mood: "hello" },
-  { id: "pick", on: /^\/library/, target: "shelf", text: "coach.pick", mode: "route", until: /^\/book\//, mood: "ready" },
+  { id: "library", on: /^\/$/, target: "tab-library", text: "coach.library", mode: "route", until: /^\/library/, mood: "hello", point: "arrow" },
+  { id: "pick", on: /^\/library/, target: "book", text: "coach.pick", mode: "route", until: /^\/book\//, mood: "ready", point: "hand" },
   { id: "levels", on: /^\/book\//, target: "levels", text: "coach.bookLevel", mode: "next", mood: "reading" },
   { id: "path", on: /^\/book\//, target: "path", text: "coach.bookPath", mode: "next", mood: "ready" },
-  { id: "read", on: /^\/book\//, target: "read", text: "coach.read", mode: "route", until: /^\/read\//, mood: "cheer" },
-  { id: "swipe", on: /^\/read\//, target: "page", text: "coach.swipe", mode: "next", mood: "reading" },
-  { id: "word", on: /^\/read\//, target: "text", text: "coach.tapWord", mode: "next", mood: "ready" },
+  { id: "read", on: /^\/book\//, target: "read", text: "coach.read", mode: "route", until: /^\/read\//, mood: "cheer", point: "arrow" },
+  { id: "swipe", on: /^\/read\//, text: "coach.swipe", mode: "next", mood: "reading", gesture: "swipe", place: "bottom" },
+  { id: "word", on: /^\/read\//, target: "text", text: "coach.tapWord", mode: "next", mood: "ready", point: "hand" },
   { id: "listen", on: /^\/read\//, target: "listen", text: "coach.listen", mode: "next", mood: "hello" },
   { id: "settings", on: /^\/read\//, target: "settings", text: "coach.settings", mode: "next", mood: "reading" },
   { id: "finish", on: /^\/read\//, text: "coach.finish", mode: "next", mood: "cheer" },

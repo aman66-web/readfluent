@@ -583,7 +583,7 @@ const vi: Catalog = {
   "coach.level": "Đây là trình độ của bạn. Mỗi trang đọc được cộng XP, và XP đưa bạn từ A1 lên C2.",
   "coach.targets": "Đây là mục tiêu hôm nay. Hoàn thành để giữ chuỗi ngày đọc của bạn.",
   "coach.library": "Cùng tìm cuốn sách đầu tiên nào. Chạm vào Thư viện.",
-  "coach.pick": "Chọn một cuốn bạn thích. Trượt các giá sách sang ngang để xem thêm.",
+  "coach.pick": "Chạm vào cuốn này để mở. Cuốn khác bạn có thể chọn sau.",
   "coach.bookLevel": "Chọn độ khó của từ vựng. Trình độ của bạn đã được chọn sẵn.",
   "coach.bookLength": "Chọn độ dài cuốn sách. 50 trang mất khoảng 15 phút.",
   "coach.bookPath": "Lối đi này cho thấy cả câu chuyện, từng chương một. Chạm vào bất kỳ bước nào để nhảy tới đó.",

@@ -603,7 +603,7 @@ const pl: Catalog = {
   "coach.level": "To twój poziom. Każda przeczytana strona daje XP, a XP awansuje cię od A1 do C2.",
   "coach.targets": "Twoje cele na dziś. Wykonuj je, żeby nie przerwać serii.",
   "coach.library": "Znajdźmy twoją pierwszą książkę. Dotknij Biblioteki.",
-  "coach.pick": "Wybierz książkę, która ci się podoba. Przesuń półki w bok, żeby zobaczyć więcej.",
+  "coach.pick": "Stuknij tę książkę, żeby ją otworzyć. Inną wybierzesz później.",
   "coach.bookLevel": "Wybierz, jak trudne mają być słowa. Twój poziom jest już wybrany.",
   "coach.bookLength": "Wybierz długość książki. 50 stron to około 15 minut.",
   "coach.bookPath": "Ta ścieżka pokazuje całą historię, rozdział po rozdziale. Dotknij dowolnego kroku, by tam przeskoczyć.",
