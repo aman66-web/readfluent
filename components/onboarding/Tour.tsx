@@ -2,6 +2,7 @@
 
 import { useEffect, useState, type CSSProperties } from "react";
 import { ScenePhoto } from "@/components/ScenePhoto";
+import { C, CoverFace } from "@/components/welcome/covers";
 import { LEVELS, type LevelId } from "@/lib/content/limits";
 import { languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
@@ -169,52 +170,36 @@ function Levels() {
   );
 }
 
-/* ── connect: real books, joined up ───────────────────────────────────────
-   Classics from different shelves that are about the same things. The lit links
-   are the strong ones. The books zig-zag down the screen, each named on its open
-   side, so no two names meet. */
-const TEAL = "#0891B2";
-const DEEP = "#0E7490";
-const VIOLET = "#6D5BD0";
-const NODES: { title: string; x: number; y: number; c: string }[] = [
-  { title: "Pride and Prejudice", x: 16, y: 7, c: TEAL },
-  { title: "Frankenstein", x: 84, y: 24, c: VIOLET },
-  { title: "Dracula", x: 16, y: 42, c: VIOLET },
-  { title: "Moby-Dick", x: 84, y: 58, c: DEEP },
-  { title: "Treasure Island", x: 16, y: 76, c: DEEP },
-  { title: "Walden", x: 84, y: 93, c: TEAL },
+/* ── connect: real books, to read while you learn ────────────────────────
+   Five of the covers from the first screen, fanned like a hand of cards, floating a little,
+   with a few greetings in other languages around them. */
+const FAN: { cover: keyof typeof C; left: number; top: number; rot: number; w: number; z: number }[] = [
+  { cover: "frank", left: 5, top: 46, rot: -13, w: 92, z: 1 },
+  { cover: "treasure", left: 19, top: 20, rot: -7, w: 104, z: 2 },
+  { cover: "pride", left: 36, top: 0, rot: 0, w: 124, z: 5 },
+  { cover: "alice", left: 57, top: 20, rot: 7, w: 104, z: 3 },
+  { cover: "dracula", left: 71, top: 46, rot: 13, w: 92, z: 2 },
 ];
-const LINKS: { a: number; b: number; lit: boolean }[] = [
-  { a: 0, b: 1, lit: true }, { a: 1, b: 2, lit: true }, { a: 1, b: 3, lit: true }, { a: 2, b: 3, lit: false },
-  { a: 3, b: 4, lit: false }, { a: 4, b: 5, lit: true }, { a: 0, b: 2, lit: false }, { a: 0, b: 5, lit: false },
-];
+const HELLOS = ["Hello", "Hola", "Bonjour", "你好", "Ciao"] as const;
 
 function Connect() {
   return (
-    <div dir="ltr" className="relative h-full max-h-[420px] w-full max-w-[340px]">
-      <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="absolute inset-0 size-full overflow-visible">
-        {LINKS.map(({ a, b, lit }, i) => (
-          <line key={i} x1={NODES[a].x} y1={NODES[a].y} x2={NODES[b].x} y2={NODES[b].y}
-                className="wel-fade" vectorEffect="non-scaling-stroke"
-                stroke={lit ? NODES[a].c : "rgba(11,27,34,.2)"} strokeWidth={lit ? 2 : 1.2}
-                strokeDasharray={lit ? "5 4" : "2 4"} strokeLinecap="round"
-                style={{ ["--d" as string]: `${1100 + i * 90}ms` }} />
-        ))}
-      </svg>
-      {NODES.map(({ title, x, y, c }, i) => {
-        const right = x > 50;
-        return (
-          <div key={title} className={`absolute flex items-center gap-2.5 ${right ? "flex-row-reverse" : ""}`}
-               style={{ left: `${x}%`, top: `${y}%`, transform: `translate(${right ? "calc(-100% + 8px)" : "-8px"}, -50%)` }}>
-            <span className="wel-pop size-4 shrink-0 rounded-full"
-                  style={{ background: c, boxShadow: `0 0 0 4px ${c}33, 0 0 14px ${c}66`, ["--d" as string]: `${800 + i * 120}ms` } as CSSProperties} />
-            <span className={`show-label wel-fade w-[128px] text-[13px] font-semibold leading-tight ${right ? "text-end" : ""}`}
-                  style={{ ["--d" as string]: `${900 + i * 120}ms` } as CSSProperties}>
-              {title}
-            </span>
+    <div dir="ltr" className="flex w-full max-w-[340px] flex-col items-center gap-5">
+      <div className="relative h-[250px] w-full">
+        <div className="absolute inset-x-6 top-10 h-40 rounded-full bg-accent-bright/25 blur-3xl" />
+        {FAN.map(({ cover, left, top, rot, w, z }, i) => (
+          <div key={cover} className="wel-pop absolute" style={{ left: `${left}%`, top, zIndex: z, ["--d" as string]: `${500 + i * 130}ms` } as CSSProperties}>
+            <div className="show-bob" style={{ width: w, ["--r" as string]: `${rot}deg`, ["--b" as string]: `${i * 0.35}s`, transform: `rotate(${rot}deg)` } as CSSProperties}>
+              <CoverFace cover={C[cover]} className="drop-shadow-[0_16px_18px_rgba(8,47,60,.38)]" />
+            </div>
           </div>
-        );
-      })}
+        ))}
+      </div>
+      <ul className="flex flex-wrap items-center justify-center gap-2">
+        {HELLOS.map((h, i) => (
+          <li key={h} className="wel-fade guide-card relative inline-flex h-9 items-center rounded-full px-3.5 text-[14px] font-semibold" style={{ ["--d" as string]: `${1200 + i * 110}ms` } as CSSProperties}>{h}</li>
+        ))}
+      </ul>
     </div>
   );
 }

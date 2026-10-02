@@ -1,7 +1,8 @@
 "use client";
 
 import { DotNumber } from "@/components/DotMatrix";
-import { CATEGORIES, type CategoryId } from "@/lib/content/limits";
+import { C, CoverFace } from "@/components/welcome/covers";
+import type { CategoryId } from "@/lib/content/limits";
 import { formatList, languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
@@ -27,71 +28,50 @@ const BUILDING: readonly (readonly [number, number])[] = [
 ];
 
 /* ── the shelf ──────────────────────────────────────────────────────────────
-   Two shelves of books standing up as the library is built, one book at a time, in the
-   colours of the shelves the reader picked (every shelf when they picked none). Which
-   book is next follows the percentage, so what is drawn is how far along it is. */
+   Two shelves of real book covers dropping into place as the library is built, one book at a
+   time. Which book is next follows the percentage, so what is drawn is how far along it is.
+   When it is done the shelf shines, and the book they will start with lights up. */
 
-const WIDTHS = [20, 26, 18, 28, 22, 19, 26, 23, 18, 25, 21, 24, 19, 27, 21, 18, 25, 22, 28, 19, 23, 20] as const;
-const HEIGHTS = [58, 70, 52, 74, 62, 56, 72, 64, 50, 68, 60, 66, 54, 72, 58, 62, 70, 52, 66, 60, 74, 56] as const;
-const PER_ROW = 11;
+const SHELF: readonly (keyof typeof C)[] = ["pride", "frank", "hound", "alice", "verne", "treasure", "machine", "dracula", "darwin", "great"];
+const PER_ROW = 5;
 /** The one book that is lit: where they will start. */
-const LIT = 7;
+const LIT = 2;
+const TILT = [-3, 2, 0, -2, 3, 2, -3, 0, 3, -2] as const;
 
-function layout() {
-  const out: { x: number; row: 0 | 1; w: number; h: number }[] = [];
-  for (const row of [0, 1] as const) {
-    let x = 22;
-    for (let k = 0; k < PER_ROW; k++) {
-      const i = row * PER_ROW + k;
-      out.push({ x, row, w: WIDTHS[i], h: HEIGHTS[i] });
-      x += WIDTHS[i] + 2.4;
-    }
-  }
-  return out;
-}
-const BOOKS = layout();
-
-function Shelf({ hues, pct }: { hues: readonly number[]; pct: number }) {
-  const shown = Math.min(BOOKS.length, Math.floor((pct / 100) * BOOKS.length * 1.06));
+function Shelf({ pct }: { pct: number }) {
+  const shown = Math.min(SHELF.length, Math.floor((pct / 100) * SHELF.length * 1.06));
   const done = pct >= 100;
-  const board = (y: number) => <rect x="8" y={y} width="304" height="9" rx="4.5" fill="#0E7490" opacity=".9" />;
   return (
-    <svg viewBox="0 0 320 196" className="mx-auto block h-[158px] w-full overflow-visible" aria-hidden>
-      <defs>
-        <radialGradient id="rs-glow" cx=".5" cy=".5" r=".5">
-          <stop offset="0" stopColor="#22D3EE" stopOpacity=".42" />
-          <stop offset="1" stopColor="#22D3EE" stopOpacity="0" />
-        </radialGradient>
-      </defs>
-      <ellipse cx="160" cy="100" rx="170" ry="96" fill="url(#rs-glow)" style={{ opacity: 0.25 + 0.75 * (pct / 100), transition: "opacity .6s" }} />
-      {BOOKS.map((b, i) => {
-        const base = b.row === 0 ? 90 : 180;
-        const hue = hues[i % hues.length];
-        const lit = i === LIT && done;
-        const body = lit ? "#22D3EE" : `hsl(${hue} 52% ${34 + (i % 4) * 4}%)`;
-        const band = lit ? "#E6FBFF" : `hsl(${hue} 62% 70%)`;
-        return (
-          <g key={i} className={`shelf-book ${i < shown ? "shelf-book-in" : ""}`} style={{ ["--r" as string]: `${i % 7 === 3 ? -7 : 0}deg`, transitionDelay: `${(i % PER_ROW) * 25}ms` }}>
-            <rect x={b.x} y={base - b.h} width={b.w} height={b.h} rx="2.5" fill={body} />
-            <rect x={b.x} y={base - b.h + 8} width={b.w} height="3" fill={band} opacity=".85" />
-            <rect x={b.x} y={base - 14} width={b.w} height="2.4" fill={band} opacity=".55" />
-            <rect x={b.x + 3} y={base - b.h + 18} width={Math.max(4, b.w - 12)} height="2.2" rx="1.1" fill="#fff" opacity=".4" />
-          </g>
-        );
-      })}
-      {board(90)}
-      {board(180)}
+    <div className="relative mx-auto w-full max-w-[340px]">
+      <div className="absolute inset-x-0 top-1/2 h-24 -translate-y-1/2 rounded-full bg-accent-bright/25 blur-2xl transition-opacity duration-700" style={{ opacity: 0.2 + 0.8 * (pct / 100) }} aria-hidden />
+      {[0, 1].map((row) => (
+        <div key={row} className="relative">
+          <ul className="relative flex items-end justify-between gap-1.5 px-1.5">
+            {SHELF.slice(row * PER_ROW, row * PER_ROW + PER_ROW).map((id, k) => {
+              const i = row * PER_ROW + k;
+              const lit = done && i === LIT;
+              return (
+                <li key={id} className={`shelf-cover w-[17.5%] ${i < shown ? "shelf-cover-in" : ""} ${lit ? "ready-lit" : ""}`}
+                    style={{ ["--r" as string]: `${TILT[i]}deg`, transitionDelay: `${k * 25}ms` }}>
+                  <CoverFace cover={C[id]} className={`drop-shadow-[0_6px_8px_rgba(8,47,60,.3)] ${lit ? "ring-2 ring-accent-bright rounded-md" : ""}`} />
+                </li>
+              );
+            })}
+          </ul>
+          <div className="relative h-2.5 rounded-full bg-accent shadow-[0_4px_8px_-3px_rgba(8,47,60,.5)]" />
+        </div>
+      ))}
       {/* Once it is built, the shelf shines and a few sparks go up. */}
       {done && (
-        <g>
-          <rect className="ready-sheen" x="8" y="14" width="40" height="176" fill="#fff" opacity=".35" transform="skewX(-16)" />
+        <svg viewBox="0 0 320 196" className="pointer-events-none absolute inset-0 size-full overflow-hidden" aria-hidden>
+          <rect className="ready-sheen" x="8" y="0" width="40" height="196" fill="#fff" opacity=".35" transform="skewX(-16)" />
           {[[44, 28, 5], [160, 10, 4], [286, 32, 5], [236, 6, 3.5]].map(([x, y, r], i) => (
             <path key={i} className="gb-spark" style={{ animationDelay: `${i * 0.4}s` }} fill="#7DE3F4"
                   d={`M ${x} ${y - r} Q ${x} ${y} ${x + r} ${y} Q ${x} ${y} ${x} ${y + r} Q ${x} ${y} ${x - r} ${y} Q ${x} ${y} ${x} ${y - r} Z`} />
           ))}
-        </g>
+        </svg>
       )}
-    </svg>
+    </div>
   );
 }
 
@@ -124,8 +104,6 @@ export function ReadyScreen({ at, of, interests, minutes, level, learn, onTest, 
   const done = pct >= 100;
   const line = done ? t("ready.done") : t("ready.building");
   const guide = useGuide(line);
-  const picked = interests.length ? interests : CATEGORIES.map((c) => c.id);
-  const hues = picked.map((id) => CATEGORIES.find((c) => c.id === id)?.hue ?? 195);
   const names = formatList(interests.slice(0, 2).map((id) => t(`cat.${id}`)), locale);
   const more = interests.length - 2;
   const shelves = interests.length === 0 ? t("ready.every") : more > 0 ? t("ready.shelvesMore", { names, more }) : t("ready.shelves", { names });
@@ -135,7 +113,7 @@ export function ReadyScreen({ at, of, interests, minutes, level, learn, onTest, 
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-4 pt-4">
         <GuideHead key={line} guide={guide} line={line} mood="cheer" />
 
-        <div className="mt-3" dir="ltr"><Shelf hues={hues} pct={pct} /></div>
+        <div className="mt-3" dir="ltr"><Shelf pct={pct} /></div>
 
         {/* While it builds, how far along; once built, the plan it was built from. */}
         <div className="mt-2 min-h-10 shrink-0">
