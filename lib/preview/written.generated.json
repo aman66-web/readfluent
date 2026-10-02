@@ -6066,6 +6066,187 @@
   }
  },
  {
+  "slug": "how-maps-shape-power",
+  "title": "How Maps Shape Power",
+  "author": "Prisoners of Geography",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "Who decides where the lines go, and what the world looks like on paper? From a clay map in Babylon to the blue dot on your phone, discover how rivers, mountains, borders and mapmakers have shaped who holds power.",
+  "cover": {
+   "bg": "#0E7490",
+   "title": [
+    "How Maps",
+    "Shape Power"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "mountain",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "london-under-the-bombs",
+  "title": "London Under the Bombs",
+  "author": "The Splendid and the Vile",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "For 57 nights in a row in 1940, bombers came to London. This is the story of how ordinary people lived, worked, hid, laughed and rebuilt while the city burned around them.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "London Under",
+    "the Bombs"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "shield",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-rise-of-the-plains-warriors",
+  "title": "The Rise of the Plains Warriors",
+  "author": "Empire of the Summer Moon",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "A people on foot met a returning animal and, within two lifetimes, ruled the Great Plains from the saddle. Follow the Comanche from the mountains to the grasslands, through a golden age, a fierce war and a long road home.",
+  "cover": {
+   "bg": "#26262A",
+   "title": [
+    "The Rise of",
+    "the Plains",
+    "Warriors"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "feather",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sun",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "europe-in-one-evening",
+  "title": "Europe in One Evening",
+  "author": "The Shortest History of Europe",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "Europe's long story, told in fifty short scenes: from cave painters and Greek thinkers to Roman roads, plague, printing, revolutions, two world wars and a continent learning to live in peace. Sit down for one evening and follow it all.",
+  "cover": {
+   "bg": "#F3EDE3",
+   "light": true,
+   "title": [
+    "Europe in One",
+    "Evening"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "compass",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "lincoln-and-his-rivals",
+  "title": "Lincoln and His Rivals",
+  "author": "Team of Rivals",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "In 1860 Abraham Lincoln beat three famous rivals for his party's nomination, then did something astonishing: he asked them to help him run the country in its darkest hour. Meet the proud, brilliant men around the table.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "Lincoln and",
+    "His Rivals"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "crown",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "on-the-origin-of-species",
   "title": "On the Origin of Species",
   "author": "Charles Darwin",
