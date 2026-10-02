@@ -8,7 +8,8 @@ import { SPANISH_DICT, SPANISH_LANG, SPANISH_PAGES } from "@/lib/preview/spanish
 import { tokenize } from "@/lib/reading/sentences";
 
 export function generateStaticParams() {
-  return PREVIEW_BOOKS.flatMap((b) =>
+  // The hand-built books are made at build time; the rest of the library is built the first time somebody opens it, then kept.
+  return PREVIEW_BOOKS.filter((b) => !b.generated).flatMap((b) =>
     LEVELS.flatMap((l) => lengthsOf(b).map((n) => ({ slug: b.slug, level: l.slug, length: String(n) }))),
   );
 }

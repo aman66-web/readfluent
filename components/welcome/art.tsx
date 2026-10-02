@@ -277,4 +277,203 @@ export const ART: Record<string, () => ReactNode> = {
       <path d="M-6 10 l-18 -14 M-5 -8 l16 -12 M-5 26 l16 -12" fill="none" stroke="#1F7F5A" strokeWidth="2" strokeLinecap="round" opacity=".7" />
     </g>
   ),
+
+  /* ── More pictures, so that a library of hundreds of books has one for each ───────────── */
+  heart: () => <path d="M0 44 C-66 -4 -48 -54 -20 -46 C-9 -43 0 -33 0 -24 C0 -33 9 -43 20 -46 C48 -54 66 -4 0 44 Z" fill="url(#rf-cy)" stroke="#E6FBFF" strokeWidth="2.5" strokeLinejoin="round" />,
+  key: () => (
+    <g fill="none" stroke="var(--ink)" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="-34" cy="0" r="19" /><path d="M-15 0 H58 M40 0 V18 M54 0 V12" />
+    </g>
+  ),
+  house: () => (
+    <g>
+      <path d="M-56 -4 L0 -52 L56 -4" fill="none" stroke="var(--ink)" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M-42 -8 V46 H42 V-8 L0 -42 Z" fill="var(--paper)" opacity=".95" /><rect x="-10" y="14" width="20" height="32" rx="3" fill="url(#rf-cover)" />
+    </g>
+  ),
+  crown: () => <path d="M-54 36 L-60 -28 L-30 -2 L0 -46 L30 -2 L60 -28 L54 36 Z" fill="url(#rf-cy)" stroke="#E6FBFF" strokeWidth="3" strokeLinejoin="round" />,
+  mountain: () => (
+    <g>
+      <path d="M-70 46 L-22 -34 L6 10 L28 -18 L70 46 Z" fill="url(#rf-whale)" />
+      <path d="M-22 -34 L-36 -10 L-24 -16 L-14 -8 Z M28 -18 L18 -2 L28 -6 L36 0 Z" fill="#F2FCFE" />
+    </g>
+  ),
+  rocket: () => (
+    <g>
+      <path d="M0 -58 C26 -34 28 4 20 30 H-20 C-28 4 -26 -34 0 -58 Z" fill="var(--paper)" />
+      <circle cx="0" cy="-12" r="10" fill="url(#rf-cover)" />
+      <path d="M-20 14 L-40 40 L-20 34 Z M20 14 L40 40 L20 34 Z" fill="url(#rf-cy)" /><path d="M-8 34 L0 58 L8 34 Z" fill="#E6FBFF" />
+    </g>
+  ),
+  tree: () => (
+    <g>
+      <rect x="-6" y="14" width="12" height="40" rx="3" fill="#1F7F5A" />
+      <circle cx="0" cy="-22" r="30" fill="url(#rf-leaf)" /><circle cx="-24" cy="2" r="22" fill="url(#rf-leaf)" /><circle cx="24" cy="2" r="22" fill="url(#rf-leaf)" />
+    </g>
+  ),
+  flame: () => <path d="M0 -58 C8 -30 38 -16 38 14 C38 40 20 52 0 52 C-20 52 -38 40 -38 14 C-38 -2 -24 -10 -20 -26 C-10 -16 -2 -34 0 -58 Z" fill="#E6FBFF" stroke="#22D3EE" strokeWidth="4" strokeLinejoin="round" />,
+  sun: () => (
+    <g>
+      <circle r="26" fill="#FBF6DC" />
+      <g stroke="#FBF6DC" strokeWidth="6" strokeLinecap="round">{[0, 45, 90, 135, 180, 225, 270, 315].map((a) => <path key={a} d="M0 -40 V-56" transform={`rotate(${a})`} />)}</g>
+    </g>
+  ),
+  feather: () => (
+    <g>
+      <path d="M44 -52 C-6 -44 -46 -6 -44 44 C-6 38 40 8 44 -52 Z" fill="var(--paper)" />
+      <path d="M44 -52 C10 -20 -22 10 -48 54" fill="none" stroke="url(#rf-cover)" strokeWidth="4" strokeLinecap="round" />
+    </g>
+  ),
+  shield: () => (
+    <g>
+      <path d="M0 -54 L46 -38 V6 C46 34 22 48 0 56 C-22 48 -46 34 -46 6 V-38 Z" fill="url(#rf-cy)" stroke="#E6FBFF" strokeWidth="3" strokeLinejoin="round" />
+      <path d="M0 -34 V36 M-24 -8 H24" stroke="#E6FBFF" strokeWidth="5" strokeLinecap="round" />
+    </g>
+  ),
+  anchor: () => (
+    <g fill="none" stroke="var(--ink)" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="0" cy="-42" r="9" /><path d="M0 -33 V50 M-20 -14 H20 M-48 10 C-44 40 -20 52 0 50 C20 52 44 40 48 10" />
+    </g>
+  ),
+  scroll: () => (
+    <g>
+      <rect x="-44" y="-40" width="88" height="80" rx="6" fill="var(--paper)" />
+      <rect x="-54" y="-48" width="20" height="96" rx="10" fill="url(#rf-cover)" /><rect x="34" y="-48" width="20" height="96" rx="10" fill="url(#rf-cover)" />
+      {lines(-26, -22, [52, 44, 50, 36], 14, 0.3)}
+    </g>
+  ),
+  brain: () => (
+    <g>
+      <path d="M-4 -44 C-30 -56 -58 -36 -50 -10 C-64 0 -58 30 -34 32 C-30 50 -6 54 -4 40 Z" fill="url(#rf-cy)" />
+      <path d="M4 -44 C30 -56 58 -36 50 -10 C64 0 58 30 34 32 C30 50 6 54 4 40 Z" fill="url(#rf-cover)" />
+      <path d="M-30 -20 C-18 -14 -18 0 -30 6 M30 -20 C18 -14 18 0 30 6" fill="none" stroke="#E6FBFF" strokeWidth="3" strokeLinecap="round" />
+    </g>
+  ),
+  dumbbell: () => (
+    <g fill="url(#rf-cy)" stroke="#E6FBFF" strokeWidth="2">
+      <rect x="-56" y="-28" width="14" height="56" rx="4" /><rect x="-42" y="-18" width="12" height="36" rx="3" />
+      <rect x="42" y="-28" width="14" height="56" rx="4" /><rect x="30" y="-18" width="12" height="36" rx="3" /><rect x="-30" y="-6" width="60" height="12" rx="4" />
+    </g>
+  ),
+  apple: () => (
+    <g>
+      <path d="M0 -26 C-30 -44 -56 -14 -44 18 C-38 40 -18 54 0 46 C18 54 38 40 44 18 C56 -14 30 -44 0 -26 Z" fill="url(#rf-leaf)" />
+      <path d="M0 -26 C0 -38 6 -46 12 -50" fill="none" stroke="#1F7F5A" strokeWidth="5" strokeLinecap="round" />
+    </g>
+  ),
+  coin: () => (
+    <g>
+      <circle r="50" fill="url(#rf-cy)" stroke="#E6FBFF" strokeWidth="4" /><circle r="36" fill="none" stroke="#E6FBFF" strokeWidth="3" opacity=".8" />
+      <path d="M0 -20 V20 M-12 -8 C-12 -22 12 -22 12 -8 C12 4 -12 4 -12 14 C-12 26 12 26 12 14" fill="none" stroke="#E6FBFF" strokeWidth="5" strokeLinecap="round" />
+    </g>
+  ),
+  chart: () => (
+    <g>
+      <path d="M-56 50 H56" stroke="var(--ink)" strokeWidth="5" strokeLinecap="round" />
+      <rect x="-46" y="8" width="20" height="36" rx="3" fill="url(#rf-cover)" /><rect x="-10" y="-16" width="20" height="60" rx="3" fill="url(#rf-cy)" /><rect x="26" y="-44" width="20" height="88" rx="3" fill="#E6FBFF" />
+    </g>
+  ),
+  castle: () => (
+    <g fill="var(--paper)">
+      <path d="M-56 50 V-10 H-44 V-22 H-32 V-10 H-18 V-22 H-6 V-34 H6 V-22 H18 V-10 H32 V-22 H44 V-10 H56 V50 Z" />
+      <path d="M-12 50 V22 C-12 4 12 4 12 22 V50 Z" fill="url(#rf-cover)" />
+    </g>
+  ),
+  sword: () => (
+    <g>
+      <path d="M0 -58 L9 22 H-9 Z" fill="#E6FBFF" /><rect x="-26" y="22" width="52" height="9" rx="4" fill="url(#rf-cy)" /><rect x="-5" y="31" width="10" height="24" rx="4" fill="url(#rf-cover)" />
+    </g>
+  ),
+  ring: () => (
+    <g>
+      <circle cy="14" r="34" fill="none" stroke="url(#rf-cy)" strokeWidth="11" />
+      <path d="M-14 -22 L0 -44 L14 -22 L0 -12 Z" fill="#E6FBFF" stroke="#22D3EE" strokeWidth="3" strokeLinejoin="round" />
+    </g>
+  ),
+  envelope: () => (
+    <g>
+      <rect x="-56" y="-36" width="112" height="76" rx="8" fill="var(--paper)" />
+      <path d="M-56 -30 L0 10 L56 -30" fill="none" stroke="url(#rf-cover)" strokeWidth="6" strokeLinejoin="round" strokeLinecap="round" />
+    </g>
+  ),
+  dove: () => (
+    <g>
+      <path d="M-56 6 C-30 -4 -18 -30 -4 -34 C-6 -46 8 -54 18 -46 C26 -52 40 -44 38 -34 L52 -30 L36 -24 C32 8 6 36 -26 30 C-40 26 -52 18 -56 6 Z" fill="var(--paper)" />
+      <path d="M-18 -4 C-4 -30 14 -50 30 -62 C28 -36 14 -12 -2 6 Z" fill="url(#rf-cy)" opacity=".9" />
+    </g>
+  ),
+  lotus: () => (
+    <g>
+      <path d="M0 40 C-26 22 -26 -20 0 -50 C26 -20 26 22 0 40 Z" fill="url(#rf-cy)" />
+      <path d="M-4 42 C-44 36 -62 6 -58 -22 C-30 -14 -10 8 -4 42 Z M4 42 C44 36 62 6 58 -22 C30 -14 10 8 4 42 Z" fill="#E6FBFF" opacity=".92" />
+    </g>
+  ),
+  dna: () => (
+    <g fill="none" strokeLinecap="round">
+      <path d="M-26 -54 C30 -34 -30 -14 26 6 C-30 26 30 46 -26 56" stroke="url(#rf-cy)" strokeWidth="7" />
+      <path d="M26 -54 C-30 -34 30 -14 -26 6 C30 26 -30 46 26 56" stroke="#E6FBFF" strokeWidth="7" opacity=".9" />
+      <path d="M-14 -38 H14 M-18 -4 H18 M-14 30 H14" stroke="var(--ink)" strokeWidth="4" opacity=".6" />
+    </g>
+  ),
+  telescope: () => (
+    <g>
+      <g transform="rotate(-24)"><rect x="-56" y="-16" width="86" height="30" rx="6" fill="url(#rf-cover)" /><rect x="22" y="-22" width="36" height="42" rx="6" fill="url(#rf-cy)" /></g>
+      <path d="M-4 20 L-26 56 M-4 20 L16 56 M-4 20 V56" stroke="var(--ink)" strokeWidth="5" strokeLinecap="round" />
+    </g>
+  ),
+  pyramid: () => (
+    <g>
+      <path d="M-62 46 L0 -46 L62 46 Z" fill="url(#rf-cy)" /><path d="M0 -46 L62 46 H8 Z" fill="#0891B2" opacity=".7" />
+      <path d="M-30 4 H30 M-46 28 H46" stroke="#E6FBFF" strokeWidth="3" opacity=".7" />
+    </g>
+  ),
+  ship: () => (
+    <g>
+      <path d="M-58 14 H58 L40 44 H-40 Z" fill="url(#rf-cover)" /><path d="M0 -52 V12" stroke="var(--ink)" strokeWidth="5" />
+      <path d="M4 -48 C34 -34 40 -10 38 8 H4 Z M-4 -40 C-24 -26 -30 -8 -30 8 H-4 Z" fill="var(--paper)" />
+    </g>
+  ),
+  train: () => (
+    <g>
+      <rect x="-50" y="-34" width="100" height="62" rx="12" fill="url(#rf-cover)" /><rect x="-36" y="-22" width="30" height="24" rx="4" fill="#E6FBFF" /><rect x="6" y="-22" width="30" height="24" rx="4" fill="#E6FBFF" />
+      <circle cx="-26" cy="38" r="9" fill="var(--paper)" /><circle cx="26" cy="38" r="9" fill="var(--paper)" /><path d="M-62 52 H62" stroke="var(--ink)" strokeWidth="4" strokeLinecap="round" />
+    </g>
+  ),
+  footprints: () => (
+    <g fill="var(--ink)" opacity=".9">
+      <ellipse cx="-22" cy="-18" rx="12" ry="22" transform="rotate(-10 -22 -18)" /><ellipse cx="-24" cy="20" rx="8" ry="10" />
+      <ellipse cx="24" cy="2" rx="12" ry="22" transform="rotate(10 24 2)" /><ellipse cx="26" cy="38" rx="8" ry="10" />
+    </g>
+  ),
+  candle: () => (
+    <g>
+      <rect x="-16" y="-8" width="32" height="58" rx="5" fill="var(--paper)" />
+      <path d="M0 -50 C10 -34 16 -26 0 -14 C-16 -26 -10 -34 0 -50 Z" fill="#FFF3C4" /><path d="M0 -8 V-14" stroke="var(--ink)" strokeWidth="3" />
+    </g>
+  ),
+  mask: () => (
+    <g>
+      <path d="M-52 -30 C-20 -44 20 -44 52 -30 C54 8 30 40 0 44 C-30 40 -54 8 -52 -30 Z" fill="var(--paper)" />
+      <path d="M-34 -10 C-26 -18 -14 -16 -8 -8 C-14 2 -28 4 -34 -10 Z M34 -10 C26 -18 14 -16 8 -8 C14 2 28 4 34 -10 Z" fill="url(#rf-cover)" />
+      <path d="M-18 22 C-8 30 8 30 18 22" fill="none" stroke="url(#rf-cover)" strokeWidth="4" strokeLinecap="round" />
+    </g>
+  ),
+  lighthouse: () => (
+    <g>
+      <path d="M-18 50 L-10 -22 H10 L18 50 Z" fill="var(--paper)" /><path d="M-14 6 H14 M-16 28 H16" stroke="url(#rf-cover)" strokeWidth="6" />
+      <rect x="-14" y="-40" width="28" height="18" rx="3" fill="#FFF3C4" /><path d="M-18 -40 L0 -56 L18 -40 Z" fill="url(#rf-cy)" />
+    </g>
+  ),
+  question: () => <path d="M-26 -22 C-26 -56 26 -56 26 -24 C26 -6 2 -6 2 14 M2 34 V42" fill="none" stroke="url(#rf-cy)" strokeWidth="13" strokeLinecap="round" />,
+  handshake: () => (
+    <g>
+      <path d="M-62 -10 L-30 -30 L2 -14 L34 -30 L62 -10 L48 30 L10 46 L-10 40 L-48 30 Z" fill="var(--paper)" />
+      <path d="M-30 -30 L-6 6 L16 -6 M2 -14 L22 14" fill="none" stroke="url(#rf-cover)" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
+    </g>
+  ),
+  bridge: () => (
+    <g fill="none" stroke="var(--ink)" strokeWidth="6" strokeLinecap="round">
+      <path d="M-62 14 H62 M-50 14 C-30 -34 30 -34 50 14 M-30 -6 V14 M-10 -14 V14 M10 -14 V14 M30 -6 V14" /><path d="M-62 36 H62" opacity=".5" />
+    </g>
+  ),
 };

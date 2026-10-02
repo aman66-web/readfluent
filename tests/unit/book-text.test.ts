@@ -7,9 +7,12 @@ import { PREVIEW_BOOKS } from "@/lib/preview/catalog";
 const dir = (slug: string) => `lib/preview/books/${slug}`;
 const read = (p: string) => JSON.parse(readFileSync(p, "utf8")) as string[];
 
-describe("every book speaks every language", () => {
+/** The five books translated so far; the rest of the library shows its English until it is translated. */
+const TRANSLATED = PREVIEW_BOOKS.filter((b) => !b.generated);
+
+describe("every translated book speaks every language", () => {
   it("has a title and a description in the app's words for each book", () => {
-    for (const b of PREVIEW_BOOKS) {
+    for (const b of TRANSLATED) {
       expect(EN[`book.${b.slug}.title` as keyof typeof EN], b.slug).toBe(b.title);
       expect(EN[`book.${b.slug}.blurb` as keyof typeof EN], b.slug).toBe(b.blurb);
     }
@@ -17,7 +20,7 @@ describe("every book speaks every language", () => {
 
   for (const { code } of LANGUAGES) {
     it(`${code}: a chapter line for every moment of every book, same count as English`, () => {
-      for (const b of PREVIEW_BOOKS) {
+      for (const b of TRANSLATED) {
         const en = read(`${dir(b.slug)}/outline.en.json`);
         const p = `${dir(b.slug)}/outline.${code}.json`;
         expect(existsSync(p), p).toBe(true);

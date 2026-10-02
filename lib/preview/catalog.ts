@@ -8,11 +8,15 @@
  * Page counts are NOT the real 50/100/200: every length opens this same twelve-
  * page sample, and the reader says so.
  */
+import GENERATED from "./written.generated.json";
+import type { GeneratedBook } from "./generated";
 import { type CategoryId, type Length, type LevelId } from "@/lib/content/limits";
 
 export interface Scene { n: number; caption: string }
 export interface PreviewPage { n: number; text: string; scene: number }
 export interface PreviewBook {
+  /** One of the books listed by the catalogue builder (its pages are built on first request, not at build time). */
+  generated?: boolean;
   /**
    * Where the pages are. Absent: in `text` below (the one sample book, compiled in). "file": in
    * `lib/preview/books/<slug>/en.json`, read on the server only when somebody opens the reader,
@@ -154,6 +158,17 @@ const WRITTEN: PreviewBook[] = [
 ];
 
 PREVIEW_BOOKS.push(...WRITTEN);
+
+/**
+ * The rest of the library, written to the same rules (scripts/books/BRIEF-batch.md) and listed by
+ * `scripts/books/build-catalog.ts`: only the jacket's words are here, never a page.
+ */
+const MORE: PreviewBook[] = (GENERATED as GeneratedBook[]).map((g) => ({
+  source: "file" as const, pageCount: 50, lengths: [50] as const, generated: true,
+  slug: g.slug, added: "2026-10-02", title: g.title, author: g.author, kind: g.kind, category: g.category as CategoryId,
+  blurb: g.blurb, scenes: [], text: EMPTY_TEXT,
+}));
+PREVIEW_BOOKS.push(...MORE);
 
 export const findBook = (slug: string): PreviewBook | null => PREVIEW_BOOKS.find((b) => b.slug === slug) ?? null;
 

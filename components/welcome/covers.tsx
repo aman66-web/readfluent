@@ -1,5 +1,7 @@
 import type { CSSProperties } from "react";
 import { ART, ArtDefs } from "@/components/welcome/art";
+import GENERATED from "@/lib/preview/written.generated.json";
+import type { GeneratedBook } from "@/lib/preview/generated";
 
 /**
  * Book covers, drawn: a title and an author across the top and one small picture below. The first
@@ -56,6 +58,7 @@ export const C = {
 
 /** The covers of the books in the library, by the book's slug. Pride and Prejudice, the Hound and Alice are the first screen's own. */
 export const COVERS: Readonly<Record<string, Cover>> = {
+  ...Object.fromEntries((GENERATED as GeneratedBook[]).map((g) => [g.slug, g.cover satisfies Cover])),
   "pride-and-prejudice": C.pride,
   "the-hound-of-the-baskervilles": C.hound,
   "alice-s-adventures-in-wonderland": C.alice,
