@@ -7876,6 +7876,112 @@
   }
  },
  {
+  "slug": "the-wealth-of-nations",
+  "title": "The Wealth of Nations",
+  "author": "Adam Smith",
+  "kind": "classic",
+  "category": "business-money",
+  "blurb": "In 1776 a Scottish thinker asked a simple question: why do some nations grow rich while others stay poor? Follow Adam Smith from a tiny pin workshop to the shape of the whole world economy.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Wealth of",
+    "Nations"
+   ],
+   "size": 13,
+   "author": "ADAM SMITH",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "ship",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "coin",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-art-of-money-getting",
+  "title": "The Art of Money Getting",
+  "author": "P. T. Barnum",
+  "kind": "classic",
+  "category": "business-money",
+  "blurb": "Phineas Barnum, the famous showman, made a fortune, lost it, and built another. In 1880 he wrote down his golden rules for making money: choose the right work, avoid debt, advertise, be kind, and keep your good name.",
+  "cover": {
+   "bg": "#F3EDE3",
+   "light": true,
+   "title": [
+    "The Art of",
+    "Money Getting"
+   ],
+   "size": 13,
+   "author": "P. T. BARNUM",
+   "pieces": [
+    {
+     "id": "stars",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "coin",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-gospel-of-wealth",
+  "title": "The Gospel of Wealth",
+  "author": "Andrew Carnegie",
+  "kind": "classic",
+  "category": "business-money",
+  "blurb": "A poor weaver's son became one of the richest men in America, then wrote an essay asking what the rich owe the rest of us. Read Andrew Carnegie's bold, famous and much-argued answer: give it away, wisely, while you are alive.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "The Gospel of",
+    "Wealth"
+   ],
+   "size": 13,
+   "author": "ANDREW CARNEGIE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "stack",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "heart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-imitation-of-christ",
   "title": "The Imitation of Christ",
   "author": "Thomas à Kempis",
