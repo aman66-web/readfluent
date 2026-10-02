@@ -7583,6 +7583,44 @@
   }
  },
  {
+  "slug": "the-leavenworth-case",
+  "title": "The Leavenworth Case",
+  "author": "Anna Katharine Green",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A rich old merchant is shot dead in his locked library, and the evidence points to the beautiful niece a young lawyer has come to love. With a clever detective, he follows a secret marriage, a missing maid and a forged letter to the truth.",
+  "cover": {
+   "bg": "#26262A",
+   "title": [
+    "The",
+    "Leavenworth",
+    "Case"
+   ],
+   "size": 15.5,
+   "author": "ANNA KATHARINE GREEN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "key",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "candle",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-invisible-man",
   "title": "The Invisible Man",
   "author": "H. G. Wells",
@@ -8012,6 +8050,43 @@
     },
     {
      "id": "coin",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-pricing-puzzle",
+  "title": "The Pricing Puzzle",
+  "author": "Predictably Irrational",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Ines sells plants at a small Saturday market and has never been sure about her prices. With her nephew Theo she spends a year learning how people really judge a price, and how to use that honestly.",
+  "cover": {
+   "bg": "#0E7490",
+   "title": [
+    "The Pricing",
+    "Puzzle"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "coin",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "question",
      "x": 160,
      "y": 38,
      "s": 0.36
