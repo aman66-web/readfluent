@@ -240,7 +240,7 @@ describe("the run's last step", () => {
     const finish = page.slice(page.indexOf("const finish = () => {"), page.indexOf("// The first screen is its own layout"));
     expect(finish).toContain("reportFirstRun(a, minutes)");
     expect(finish).toContain("markOnboarded()");
-    expect(finish).toContain("router.replace(AFTER_ONBOARDING)");
+    expect(finish).toContain("window.location.replace(AFTER_ONBOARDING)");
   });
 
   it("does not send the reader off before the run is finished", () => {

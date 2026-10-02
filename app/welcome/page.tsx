@@ -95,7 +95,9 @@ function Welcome() {
     // Their XP starts at the floor of the level they said or the test found.
     startAt(a.level);
     markOnboarded();
-    router.replace(AFTER_ONBOARDING);
+    // A full page load, not the app's router: the cookie is set, so the server opens the home screen, and nothing
+    // the router remembered from before the cookie existed (a cached redirect back to this page) can answer instead.
+    window.location.replace(AFTER_ONBOARDING);
   };
 
   // The first screen is its own layout: the wall of covers and the way in, with no
