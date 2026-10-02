@@ -510,6 +510,42 @@
   }
  },
  {
+  "slug": "every-july",
+  "title": "Every July",
+  "author": "One Day",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "One promise made on a jetty at nineteen: meet here every July. Nell and Sam keep it through distance, other people and one missed summer. Will the lanterns on Lake Verna finally light the way home?",
+  "cover": {
+   "bg": "#164E63",
+   "title": [
+    "Every July"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "candle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "bridge",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "a-study-in-scarlet",
   "title": "A Study in Scarlet",
   "author": "Arthur Conan Doyle",
@@ -2015,6 +2051,76 @@
   }
  },
  {
+  "slug": "a-reason-to-get-up",
+  "title": "A Reason to Get Up",
+  "author": "Ikigai",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Some mornings, the alarm is not enough. Meet Grace, a retired teacher, and Kofi, who works nights, as they find small, real reasons to start the day, and learn how you can find yours too.",
+  "cover": {
+   "bg": "#E3F8FC",
+   "light": true,
+   "title": [
+    "A Reason to",
+    "Get Up"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "sun",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "cup",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "four-simple-rules-for-life",
+  "title": "Four Simple Rules for Life",
+  "author": "The Four Agreements",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Leo is tired, tangled and overpromising. His neighbour Ada, a retired ferry captain, hands him four plain white cards. Follow him through a year of small changes, and see how four simple rules can steady an ordinary life.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "Four Simple",
+    "Rules for",
+    "Life"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-science-of-getting-rich",
   "title": "The Science of Getting Rich",
   "author": "Wallace D. Wattles",
@@ -2960,6 +3066,82 @@
   }
  },
  {
+  "slug": "radical-kindness-to-yourself",
+  "title": "Radical Kindness to Yourself",
+  "author": "Radical Acceptance",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "Elena makes one small mistake at work, and the voice in her head turns cruel. Join a quiet Thursday circle in a library and learn, step by step, how to be on your own side: warm, practical and wise.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Radical",
+    "Kindness to",
+    "Yourself"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "heart",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lotus",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "a-purpose-bigger-than-you",
+  "title": "A Purpose Bigger Than You",
+  "author": "The Purpose Driven Life",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "What is your life for? Walk with a baker, a bus driver, a cleaner, a retired engineer and a teenager as they discover that purpose grows when it reaches beyond yourself. Small, practical steps for anyone, with or without faith.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "A Purpose",
+    "Bigger Than",
+    "You"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "bridge",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sun",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "walking",
   "title": "Walking",
   "author": "Henry David Thoreau",
@@ -3438,6 +3620,43 @@
   }
  },
  {
+  "slug": "lift-heavy-start-simple",
+  "title": "Lift Heavy, Start Simple",
+  "author": "Starting Strength",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Kofi is forty-four, sits all day and is out of breath on the stairs. With Ana, a patient coach, he learns to squat, hinge, push, pull and carry, then adds weight a little at a time. A simple start for anyone who has never lifted.",
+  "cover": {
+   "bg": "#26262A",
+   "title": [
+    "Lift Heavy,",
+    "Start Simple"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "dumbbell",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "mountain",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-histories",
   "title": "The Histories",
   "author": "Herodotus",
@@ -3805,6 +4024,43 @@
     },
     {
      "id": "chart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-horseback-empire",
+  "title": "The Horseback Empire",
+  "author": "Genghis Khan and the Making of the Modern World",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "In 1206 a poor, abandoned boy from the grasslands was named Genghis Khan. Within a lifetime, his riders and their heirs ruled lands from the Pacific to Poland. This is how it happened, what it cost, and why it still matters.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Horseback",
+    "Empire"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mountain",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "compass",
      "x": 160,
      "y": 38,
      "s": 0.36
