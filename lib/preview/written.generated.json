@@ -548,6 +548,81 @@
   }
  },
  {
+  "slug": "the-woman-in-white",
+  "title": "The Woman in White",
+  "author": "Wilkie Collins",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A pale woman in white appears on a moonlit road and asks Walter Hartright for help. Soon he is caught in a plot of stolen names, with a charming villain who keeps pet mice. Can he save the woman he loves?",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The Woman in",
+    "White"
+   ],
+   "size": 14,
+   "author": "WILKIE COLLINS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "candle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "moon",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-murders-in-the-rue-morgue",
+  "title": "The Murders in the Rue Morgue",
+  "author": "Edgar Allan Poe",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "Two women are found dead in a locked room in Paris, and the police are baffled. Only Auguste Dupin, a strange night-owl with a brilliant mind, can follow the clues, from a hidden window spring to a shrill voice that nobody understands.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "The Murders",
+    "in the Rue",
+    "Morgue"
+   ],
+   "size": 15.5,
+   "author": "EDGAR ALLAN POE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lens",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stack",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-innocence-of-father-brown",
   "title": "The Innocence of Father Brown",
   "author": "G. K. Chesterton",

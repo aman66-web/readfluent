@@ -1,0 +1,417 @@
+{
+  "slug": "why-genes-behave-like-they-do",
+  "meta": {
+    "blurb": "In her grandmother's bakery, Maya finds a box of old recipe cards, and her uncle Teo shows her that every living thing has one too. Fifty short steps explain what genes are, why they get copied, and what they cannot tell us.",
+    "bible": "Maya: a curious girl of about twelve who helps in her grandmother's bakery for the summer. Teo: her uncle, a biology teacher, patient and funny. Rosa: Maya's grandmother, who owns the Bakery and keeps an old Recipe box of handwritten cards. The whole book is Maya and Teo talking in the bakery over one summer, using the Recipe box as a picture of how Genes work. Real facts used: DNA is a long molecule with four letters, A, C, G and T; a human cell holds about 3 billion letters and about 20,000 Genes; humans have 23 pairs of Chromosomes; Gregor Mendel studied Pea plants in the 1860s; any two people share nearly all of their DNA; Humans and Chimpanzees share more than 98 out of 100 letters; about eight in every hundred letters of human DNA came from ancient Viruses; a gene tool called CRISPR was invented in 2012 and a treatment using it for sickle cell disease was approved in 2023. Key terms: Protein, Amino acids, Haemoglobin, Mutation, Nucleus, Genome, Cell, Bacteria, Antibiotic, Malaria, Lactase, Hox, EPAS1, Phenylketonuria, Natural selection, Darwin, Meiosis, Cuckoo, Bat, Queen, Worker. Voice: friendly, curious and clear; genes never \"want\" or \"think\", and the book says so; science is real and hedged where scientists disagree; no invented numbers, studies or quotes."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Maya opens an old wooden box of handwritten recipe cards in the bakery",
+      "summary": "Maya finds her grandmother's old recipe box, and her uncle Teo says every living thing has one."
+    },
+    {
+      "n": 2,
+      "scene": "Teo holds up one recipe card beside a bowl of flour and eggs",
+      "summary": "A recipe card is a set of instructions, and a gene is also a set of instructions."
+    },
+    {
+      "n": 3,
+      "scene": "A cell shown as a small busy kitchen with workers and a recipe box",
+      "summary": "Every cell is a tiny kitchen, and almost every cell keeps a full copy of the recipe box."
+    },
+    {
+      "n": 4,
+      "scene": "A long twisting ladder of DNA with four coloured letters",
+      "summary": "Genes are written in DNA, a long molecule with only four letters: A, C, G and T."
+    },
+    {
+      "n": 5,
+      "scene": "Three coloured letters are read off a strand like a word",
+      "summary": "The cell reads the letters three at a time, and each group of three picks one building block."
+    },
+    {
+      "n": 6,
+      "scene": "A folded chain of building blocks forms a small curled machine",
+      "summary": "The chains fold into proteins, which build the body, carry things and do most of the work."
+    },
+    {
+      "n": 7,
+      "scene": "A very long thread of DNA coiled into a tiny nucleus",
+      "summary": "A human cell holds about three billion DNA letters and about 20,000 genes."
+    },
+    {
+      "n": 8,
+      "scene": "Forty-six chromosomes arranged in pairs, half blue and half yellow",
+      "summary": "DNA is packed into 23 pairs of chromosomes, and you get one of each pair from each parent."
+    },
+    {
+      "n": 9,
+      "scene": "A heart cell and a skin cell side by side, each with the same box",
+      "summary": "Different cells use different cards, so a heart cell and a skin cell are not the same."
+    },
+    {
+      "n": 10,
+      "scene": "A monk in a garden counts tall and short pea plants",
+      "summary": "In the 1860s, a monk named Gregor Mendel grew pea plants and found that traits pass on in separate units."
+    },
+    {
+      "n": 11,
+      "scene": "Two recipe cards for the same dish, one with more sugar",
+      "summary": "A gene can come in different versions, and you have two copies of each one."
+    },
+    {
+      "n": 12,
+      "scene": "A crowd of tiny cards combine to decide one person's height",
+      "summary": "Most traits, such as height, depend on many genes at once, and not on a single gene."
+    },
+    {
+      "n": 13,
+      "scene": "DNA splits like a zip, and each half builds a new matching half",
+      "summary": "Before a cell divides, its DNA is copied, and the copying is very careful."
+    },
+    {
+      "n": 14,
+      "scene": "One tiny letter on a copied strand is wrong, glowing red",
+      "summary": "Sometimes a mistake slips through, and a changed letter is called a mutation."
+    },
+    {
+      "n": 15,
+      "scene": "A recipe with one smudged word that makes no difference to the cake",
+      "summary": "Most mutations do nothing, a few do harm, and a very few help."
+    },
+    {
+      "n": 16,
+      "scene": "A box of cards in slightly different handwriting for each family member",
+      "summary": "After many copies, the cards differ a little, so no two individuals have exactly the same recipes."
+    },
+    {
+      "n": 17,
+      "scene": "Fast and slow rabbits in a field, a fox chasing the slower ones",
+      "summary": "Some versions help an animal survive and raise young, and so they get copied more often."
+    },
+    {
+      "n": 18,
+      "scene": "A dish with a few surviving bacteria after medicine is added",
+      "summary": "Bacteria change quickly, so a few that resist a medicine can survive and multiply fast."
+    },
+    {
+      "n": 19,
+      "scene": "Recipe cards from long ago are copied again and again through the years",
+      "summary": "The copies that last are the ones that helped earlier bodies to survive, so useful genes spread."
+    },
+    {
+      "n": 20,
+      "scene": "Maya shakes her head as a recipe card has a thought bubble crossed out",
+      "summary": "Genes do not think or want anything, and the word wants is only a way to describe what happens."
+    },
+    {
+      "n": 21,
+      "scene": "A fruit fly and a person in a row, each with the same switch genes",
+      "summary": "Hox genes, which plan the body, are found in flies and in people, and they are very old."
+    },
+    {
+      "n": 22,
+      "scene": "A strand of human DNA with a short piece drawn as a tiny virus",
+      "summary": "About eight in every hundred letters of our DNA came from ancient viruses."
+    },
+    {
+      "n": 23,
+      "scene": "Two red blood cells, one round and one bent like a sickle",
+      "summary": "One version of a haemoglobin gene protects against malaria in one copy, but causes illness in two."
+    },
+    {
+      "n": 24,
+      "scene": "A herder with cows and a child drinking a cup of milk",
+      "summary": "In people whose ancestors kept cattle, many adults can still digest milk, thanks to a gene change."
+    },
+    {
+      "n": 25,
+      "scene": "Climbers in a thin-aired high valley with snowy peaks",
+      "summary": "Many people in Tibet carry a version of a gene called EPAS1 that helps the body cope with thin air."
+    },
+    {
+      "n": 26,
+      "scene": "Several recipe cards used together to make one layered cake",
+      "summary": "No gene works alone, because each one works with many others in the same body."
+    },
+    {
+      "n": 27,
+      "scene": "Two decks of cards are shuffled together into a new deck",
+      "summary": "Before an egg or sperm is made, the cards are shuffled, so each child gets a new mix."
+    },
+    {
+      "n": 28,
+      "scene": "Cards from two boxes laid out in many combinations on a table",
+      "summary": "Scientists have several ideas about why sex exists, and none of them explains everything."
+    },
+    {
+      "n": 29,
+      "scene": "A grandmother, a mother and a child with matching recipe cards",
+      "summary": "You share about half your gene versions with a parent, child or sibling, and less with cousins."
+    },
+    {
+      "n": 30,
+      "scene": "A mother bird feeds wide-open beaks in a nest",
+      "summary": "Parents care for young, and the young carry copies of half of their parents' genes."
+    },
+    {
+      "n": 31,
+      "scene": "Worker bees tend a larger queen bee inside a honeycomb",
+      "summary": "Worker bees do not have young, but they help their mother the queen, who passes on copies of shared genes."
+    },
+    {
+      "n": 32,
+      "scene": "Bats hang in a row in a cave, one feeding another",
+      "summary": "Vampire bats share food with roost mates who shared with them, as well as with relatives."
+    },
+    {
+      "n": 33,
+      "scene": "A baby animal tugging at its mother who turns away",
+      "summary": "Young animals often want more milk than their mothers are ready to give, so families can disagree."
+    },
+    {
+      "n": 34,
+      "scene": "A small bird feeds a giant cuckoo chick that fills the whole nest",
+      "summary": "A cuckoo chick tricks other birds into feeding it, and some hosts have learned to spot the trick."
+    },
+    {
+      "n": 35,
+      "scene": "A frog fights a growing line of tiny parasites on a leaf",
+      "summary": "Hosts and parasites keep changing to beat each other, and neither stays ahead for long."
+    },
+    {
+      "n": 36,
+      "scene": "A puppeteer's strings are cut and a puppet stands on its own legs",
+      "summary": "Genes are not puppet strings, because they only shape how a brain and body develop."
+    },
+    {
+      "n": 37,
+      "scene": "Two identical twin girls with different hairstyles and hobbies",
+      "summary": "Identical twins share nearly all their DNA, yet they still differ in many ways."
+    },
+    {
+      "n": 38,
+      "scene": "A graph with groups of people of different heights, with a food table beside it",
+      "summary": "When scientists say a trait is half inherited, they mean something about differences in a group."
+    },
+    {
+      "n": 39,
+      "scene": "A baby having a small heel-prick test in a hospital room",
+      "summary": "A gene version can cause harm in one world and be harmless in another, as with phenylketonuria."
+    },
+    {
+      "n": 40,
+      "scene": "A crowd of people of all kinds seen from above, linked by faint lines",
+      "summary": "Any two people share almost all of their DNA, and most differences are found within groups."
+    },
+    {
+      "n": 41,
+      "scene": "A person, a chimpanzee, a mouse and a fruit fly in a family portrait",
+      "summary": "Humans share more than 98 out of 100 DNA letters with chimpanzees, and many genes with mice and flies."
+    },
+    {
+      "n": 42,
+      "scene": "A wolf at one end and several different dogs at the other",
+      "summary": "People have changed the genes of other species by choosing which ones to breed, as with dogs."
+    },
+    {
+      "n": 43,
+      "scene": "Tall maize plants beside a small wild grass with a few seeds",
+      "summary": "Crops such as maize were shaped by farmers choosing seeds from the best plants over many years."
+    },
+    {
+      "n": 44,
+      "scene": "A scientist's glove holds a tiny pair of scissors beside a DNA strand",
+      "summary": "In 2012, a tool called CRISPR made editing genes much easier, and one treatment was approved in 2023."
+    },
+    {
+      "n": 45,
+      "scene": "A thin machine reads a strand of DNA while a screen shows letters",
+      "summary": "Reading a whole genome once took many years and billions of dollars, and now it is much faster and cheaper."
+    },
+    {
+      "n": 46,
+      "scene": "A doctor and a patient look at a page of gene results together",
+      "summary": "A gene test usually shows chances, not certainties, and a doctor can help to understand it."
+    },
+    {
+      "n": 47,
+      "scene": "A lion catches a gazelle while a person offers a hand to a neighbour",
+      "summary": "Natural does not mean good, and what evolution has produced does not tell us how we should live."
+    },
+    {
+      "n": 48,
+      "scene": "A teacher, a book, a song and a child, all connected by lines",
+      "summary": "People also pass on ideas, skills and customs, so we are more than our genes."
+    },
+    {
+      "n": 49,
+      "scene": "A long line of parents and children going back through time to a single cell",
+      "summary": "Every gene in you was copied through an unbroken line of ancestors back to the first cells."
+    },
+    {
+      "n": 50,
+      "scene": "Maya writes her own card and slides it into the recipe box",
+      "summary": "Maya adds a new card to the box, and Teo says she is a new edition of an old book."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Maya finds a box of old recipe cards in her grandmother's bakery.",
+      "A recipe card has instructions, and a gene has instructions too.",
+      "A cell is a tiny kitchen, and it has the whole recipe box.",
+      "The recipes are written in DNA, which has only four letters.",
+      "The cell reads the letters in small groups of three.",
+      "The chains become proteins, and proteins do most of the work.",
+      "A human cell has about three billion DNA letters.",
+      "You have 23 pairs of chromosomes, and half come from each parent.",
+      "A heart cell and a skin cell use different recipes.",
+      "A monk named Mendel grew pea plants and counted them.",
+      "A gene has different versions, and you have two copies.",
+      "Height depends on many genes, not just one.",
+      "Before a cell divides, it makes a copy of its DNA.",
+      "Sometimes the copy has a mistake, and we call it a mutation.",
+      "Most mutations do nothing at all, but some are harmful.",
+      "Copies are never exactly the same, so living things differ.",
+      "Some animals survive and have young, and others do not.",
+      "Some bacteria survive a medicine and then multiply.",
+      "Useful gene versions are copied again and again for a long time.",
+      "Genes do not think, and they do not want anything.",
+      "Flies and people share very old genes that plan the body.",
+      "Some of our DNA came from ancient viruses.",
+      "One gene version protects against malaria but can cause illness too.",
+      "Many adults can drink milk because of a small gene change.",
+      "Some people in Tibet have a gene that helps in thin air.",
+      "No gene works alone, and genes work together in a team.",
+      "Before a baby is made, the parents' cards are shuffled.",
+      "There are several ideas about why we have sex, but no final answer.",
+      "You share about half your genes with your parents and with your children.",
+      "Parents work hard to feed their young, and the young carry their genes.",
+      "Worker bees do not have young, but they work for the queen.",
+      "Vampire bats share food with each other in the cave.",
+      "A baby animal wants more milk than its mother gives.",
+      "A cuckoo lays an egg in another bird's nest.",
+      "Hosts and parasites each change to beat the other.",
+      "Genes do not control us like strings control a puppet.",
+      "Identical twins have the same DNA, but they are not the same.",
+      "Heritability is about differences in a group, not about one person.",
+      "A harmful gene can be safe if the person eats the right diet.",
+      "Any two people are nearly the same in their DNA.",
+      "We share many genes with chimpanzees, mice and even flies.",
+      "People have changed dogs by choosing which ones to breed.",
+      "Farmers shaped crops like maize by choosing the best seeds.",
+      "A tool called CRISPR can edit genes, and it was invented in 2012.",
+      "Reading all of a person's DNA is now much faster and cheaper.",
+      "A gene test usually shows chances, and not a fixed future.",
+      "Natural does not always mean good.",
+      "We also pass on ideas, songs and skills to each other.",
+      "Every gene in you has been copied through a very long line of ancestors.",
+      "Maya writes a new card and puts it in the box."
+    ],
+    "B1B2": [
+      "Maya has found an old wooden box of recipe cards in her grandmother Rosa's bakery. Her uncle Teo says that every living thing carries a box like it.",
+      "A recipe card does not bake anything by itself, because it only tells a baker what to do. A gene is the same, because it is a set of instructions for making one useful part of a living thing.",
+      "Your body is made of trillions of tiny rooms called cells, and each one works like a kitchen. Almost every cell keeps its own complete copy of the recipe box inside a part called the nucleus.",
+      "The recipes are written in a long, twisted molecule called DNA. It uses only four letters, which are A, C, G and T, and the order of the letters is what matters.",
+      "The cell reads DNA three letters at a time. Each group of three tells it which building block to add next.",
+      "The finished chain folds up into a protein, and proteins do most of the work in the body. Some build hair, some digest food, and one called haemoglobin carries oxygen in your blood.",
+      "A human cell holds about three billion DNA letters and about 20,000 genes. If you stretched out the DNA from one cell, it would be about two metres long.",
+      "DNA is packed into bundles called chromosomes, and a human cell has 23 pairs of them. You received one chromosome of each pair from your mother and the other from your father.",
+      "Your heart cells and your skin cells hold the same recipe box, but they use different cards. Part of the DNA acts as a set of switches that decide which genes are turned on.",
+      "In the 1860s, a monk named Gregor Mendel grew thousands of pea plants and counted their tall and short offspring. He saw that traits are passed on in separate units, although nobody yet knew what those units were.",
+      "Most genes come in slightly different versions, rather like two cards for the same cake that call for different amounts of sugar. Because you have two copies of each gene, you may hold two different versions.",
+      "Many people talk about a gene for height or for a talent, but that is a simplification. Most traits are shaped by thousands of small effects added together, and by the world around us.",
+      "Before a cell divides, it unzips its DNA and builds a new partner for each half. Special proteins check the work as they go, so mistakes are very rare.",
+      "Now and then the copying goes wrong, and one letter changes. A change in the DNA is called a mutation, and every person is born with a few dozen new ones.",
+      "Most mutations make no difference, as when a smudged word on a card does not change the cake. A few do harm, a very few help, and none of them are made because they are needed.",
+      "Because mutations keep appearing, the cards in a population slowly drift apart. Every group of living things therefore contains many small differences.",
+      "More young are born than can survive, so some do better than others. The ones that live and have young pass on their gene versions, and that is natural selection.",
+      "Bacteria can divide in about twenty minutes, so change comes quickly. If a few of them resist an antibiotic, they survive, and soon the whole group is resistant.",
+      "What lasts through time is not a body but the instructions that build it. A useful version of a gene can be copied through thousands of bodies and many thousands of years.",
+      "Teo reminded Maya that genes do not think, plan or want anything. Saying that a gene wants to be copied is only a short way to describe what happens.",
+      "Some genes are very old. A family called the Hox genes helps to plan which body parts grow where, and flies and humans both have them.",
+      "Some of our DNA has a surprising origin. About eight in every hundred letters came from viruses that infected our ancestors long ago.",
+      "In some people, a version of the haemoglobin gene bends the red blood cells into a sickle shape. One copy protects against severe malaria, but two copies cause the serious illness called sickle cell disease.",
+      "Most babies can digest milk, but in many people the lactase gene switches off in childhood. In some groups with a long history of herding, the gene stays on and adults can drink milk too.",
+      "High in the mountains, the air has less oxygen. Many people in Tibet carry a version of a gene called EPAS1 that helps the body cope with it.",
+      "No gene works alone. A gene version is judged by how well it works with all of the other genes in the same body, just as sugar is judged by the cake it goes into.",
+      "When eggs and sperm are made, the DNA is shuffled, so each one gets a different mix. Because of this, brothers and sisters are alike but never identical, apart from identical twins.",
+      "Making new combinations is expensive, and scientists still debate why almost all animals do it. One leading idea is that shuffling the cards helps a species to keep one step ahead of fast-changing parasites.",
+      "You share about half of your gene versions with each parent, and with each of your own children. A grandparent shares about a quarter, and a first cousin about an eighth.",
+      "A mother bird works all day to feed her chicks. Each chick carries about half of her gene versions, so caring for it helps to carry them forward.",
+      "In a honeybee hive, the workers do not have young of their own. They feed and guard their mother, the queen, because she produces their brothers and sisters.",
+      "Not all helping is between relatives. Vampire bats share blood meals with roost mates, and they are more likely to share with bats that once shared with them.",
+      "Family members do not always agree. A young animal often wants more milk than its mother is ready to give, because she must save strength for her future young.",
+      "A cuckoo lays an egg in another bird's nest, and the chick pushes the other eggs out. The small birds feed it as if it were their own, although some hosts have learned to spot odd eggs.",
+      "Hosts evolve ways to resist parasites, and parasites evolve ways around those defences. Neither side can stay ahead for very long, so both keep on changing.",
+      "Genes do not give orders like the strings of a puppet. They shape how a brain and a body grow, and what we do depends on that growth and on what happens to us.",
+      "Identical twins start with nearly the same DNA, but they are never exactly alike. Their fingerprints differ, and so do their habits, because chance and life experience matter too.",
+      "A number such as fifty percent heritable is often misunderstood. It does not mean that half of you comes from genes, but that, in a given group, about half of the differences between people are linked to genes.",
+      "Some babies are born with a version of a gene that cannot handle one protein building block. A simple diet that avoids it keeps them healthy, so a gene is not always a fixed fate.",
+      "Any two people on Earth share roughly 999 letters out of every 1,000. Most of the small differences are found within every group of people, rather than between groups.",
+      "We share more than 98 out of every 100 DNA letters with chimpanzees. Most of our genes also have a close partner in mice, and many in fruit flies.",
+      "Dogs came from wolves many thousands of years ago. People chose which dogs to breed, and in this way they changed the genes of the whole species.",
+      "Maize was shaped from a wild grass called teosinte in Mexico about nine thousand years ago. Farmers saved seeds from the best plants, season after season, and the gene versions changed.",
+      "In 2012, scientists described a tool called CRISPR that can change DNA at a chosen spot. In 2023, a treatment based on it was approved for sickle cell disease.",
+      "The first human genome took many years and cost billions of dollars. Today, a person's genome can be read in a day or two for a small part of that cost.",
+      "Most gene tests show chances, not certainties. A doctor or a genetic counsellor can explain what a result really means.",
+      "Evolution explains how we came to be the way we are, but it does not tell us how we ought to behave. We can choose to be kind even if no gene tells us to.",
+      "People also hand down language, songs, skills and customs, and these are not carried in genes. We are shaped by our genes, but we are also shaped by what we learn from others.",
+      "Every gene in your body has been copied through a very long line of ancestors. Not one of them failed to survive and have young, and the chain goes back billions of years.",
+      "Maya wrote a card for a new bread and slid it into the box beside Rosa's old ones. Teo smiled and said that she herself was a new edition of a very old book."
+    ],
+    "C1C2": [
+      "On the first morning of the summer, Maya found a worn wooden box of handwritten recipe cards at the back of her grandmother Rosa's bakery. Her uncle Teo, who taught biology, looked at the cards and smiled, because he said that every living thing carries a box very much like this one. By the end of the summer, he promised, she would know exactly what he meant.",
+      "Teo held up a single card and pointed out that a recipe does not bake a loaf by itself, since it only tells a baker what to do. A gene is the same kind of thing, he said, a set of instructions for building one useful part of a living body, and it needs a kitchen full of workers to carry it out.",
+      "Teo explained that the body is built from trillions of tiny rooms called cells, and that each of them works like a very small, very busy kitchen. Almost every cell keeps a full copy of the family recipe box, tucked safely inside a central compartment called the nucleus, even though a single cell will only use a few of the cards at a time.",
+      "Rosa's cards were written in ink, but the cards in a cell are written in DNA, a long molecule twisted into the shape of a spiral ladder. Its alphabet has only four letters, called A, C, G and T, and it is the order in which they appear that carries all of the meaning.",
+      "Inside the cell, machines read the DNA letters in groups of three, a little like reading a sentence word by word. Each group picks out one building block from a set of twenty called amino acids, and the machines join those blocks into a chain in the order that the gene demands.",
+      "Once a chain of amino acids is finished, it folds itself into a precise shape, and we call the result a protein. Proteins are the real workers of the body, because some build hair and skin, some digest your lunch, and one called haemoglobin carries oxygen around in the blood.",
+      "In every human cell there are about three billion letters of DNA, and about 20,000 of the genes that make proteins. If you could pull the DNA from a single cell into a straight line, it would stretch for roughly two metres, yet it is folded so cleverly that it fits inside a space far smaller than a speck of dust.",
+      "To keep the long threads tidy, the DNA is wound into bundles called chromosomes, and a human cell has 23 pairs of them. One chromosome in each pair came from your mother and the other from your father, so you are, in a literal sense, a mixture of two family recipe boxes.",
+      "Maya wondered how one box of recipes could make both a heart cell and a skin cell, and Teo told her that cells use different cards. Much of our DNA does not make proteins at all but works as a set of switches, deciding which genes are turned on, where in the body and at what moment.",
+      "Long before anyone had seen DNA, a monk named Gregor Mendel spent years in the 1860s growing and counting pea plants in a monastery garden. He noticed that features such as tall or short stems were handed on in separate units rather than blending like paint, and his careful patterns were later recognised as the first clear evidence of genes.",
+      "Teo laid two cards side by side that described the same cake but called for different amounts of sugar. In the same way, a gene can exist in several slightly different versions, and since you inherit one copy from each parent, you may carry two different versions of the same gene.",
+      "Teo warned Maya that headlines about a gene for this or a gene for that are almost always an oversimplification. Height, for instance, is influenced by thousands of tiny differences scattered across the DNA, and food, health and chance during growing up also play their part in the final result.",
+      "When a cell is about to divide, it unzips its long ladder of DNA down the middle and builds a new matching half for each side. Proofreading proteins check the new strand as it grows, rather like a baker rereading a card, so that errors are extremely rare, though they are not impossible.",
+      "Every so often a mistake slips past the proofreaders, and a letter in the DNA is swapped, lost or added, which is what scientists call a mutation. Each person is born with a few dozen brand new mutations that neither of their parents had, and almost all of them are far too small to notice.",
+      "Teo said that most mutations are like a smudge on a recipe card where the cake comes out the same anyway. A few do harm, a very small number turn out to be useful, and the crucial point is that mutations happen by chance and are not designed to solve whatever problem the living thing faces.",
+      "Because new mutations keep appearing, and because each parent passes on a different mix, the cards in a population drift slowly apart. Every group of living things therefore holds a rich supply of small differences, and Teo said that this variety is the raw material for everything that follows.",
+      "Every living thing makes more offspring than the world has room for, so some survive and have young while others do not. When the differences are inherited, the versions that help are copied into the next generation more often, and Charles Darwin called this process natural selection.",
+      "Teo gave a modern example that can be seen within days, which was bacteria meeting an antibiotic. Bacteria can divide every twenty minutes or so, and if just a few happen to carry a version that resists the medicine, they survive and multiply, and soon nearly all of the bacteria are resistant.",
+      "Bodies do not last, Teo said, but the instructions can be copied from one generation to the next for thousands of years. Seen from that angle, a gene version that helps its bodies survive and breed will tend to become more common, so that over time the genes we find in living things are the ones that were good at being copied.",
+      "Teo stopped and said that the language they had been using could mislead, because genes do not think, plan or want anything. When biologists say that a gene wants to spread, they mean only that gene versions which happen to be copied well are the ones that are still around, in the same way that a river does not want to reach the sea.",
+      "Some genes are astonishingly old, because their cards were copied before flies, fish and humans went their separate ways. One family, called the Hox genes, helps to decide which body parts grow where along the length of an animal, and fruit flies and people have versions that look surprisingly alike.",
+      "Scientists have discovered that about eight of every hundred letters in human DNA are the remains of viruses that infected our distant ancestors. Most of these pieces are silent now, but a few have been put to use, and one of them seems to help a baby's placenta to form.",
+      "A change in the gene for haemoglobin can bend red blood cells into a sickle shape, and a person with two copies of it suffers from sickle cell disease. Someone with just one copy is better protected against severe malaria, which explains why the version stays common in places where malaria has been a danger, even though it carries a cost.",
+      "Almost all babies can digest milk because a gene called the lactase gene is switched on, but in most of the world's adults it switches off in childhood. In some groups whose ancestors kept cattle, a change spread in the past several thousand years that keeps the gene on, which lets adults drink milk without trouble.",
+      "On the high plateau of Tibet, the air holds much less oxygen than at sea level. Many people living there carry a particular version of a gene called EPAS1, and scientists think it helps their bodies to cope with the thin air without making their blood too thick.",
+      "A gene is never tested alone, Teo explained, because it always works alongside thousands of others in the same body. A version that is excellent in one body may be useless in another, in the same way that a spoonful of salt may rescue one recipe and ruin a different one.",
+      "When an egg or a sperm cell is made, the chromosomes in each pair swap pieces and are dealt out again, so no two cells contain exactly the same mixture. This is why brothers and sisters resemble each other without being copies, and why each new person is a fresh combination of genes that has never been seen before.",
+      "Why sexual reproduction exists is still a lively question, because it costs a great deal of energy compared with simple copying. One popular idea is that shuffling the genes helps a species to stay ahead of parasites, which evolve quickly, but biologists agree that no single explanation covers every case.",
+      "On average, you share about half of your gene versions with each parent, each child and each brother or sister. The share halves with each step further out, so a grandparent or an uncle shares about a quarter, and a first cousin about an eighth, which is why families really do look alike.",
+      "A mother bird flies back and forth all day to feed her hungry chicks. Each chick carries about half of her gene versions, which is why animals that care for their young tend to leave more copies of the very genes that make them care, without any bird knowing why.",
+      "In a honeybee hive, thousands of workers never have young of their own, but spend their lives feeding and defending their mother, the queen. Because the workers share many genes with their sisters, biologists see this as one way that a trait can spread by helping relatives, although they still argue about how much relatedness explains it.",
+      "Helping is not always limited to relatives, because vampire bats will share blood from a meal with roost mates that failed to feed. Researchers have found that bats tend to help those that have helped them before, which shows that cooperation can also succeed when it is based on trust and repayment.",
+      "Even in the closest families, interests can pull in different directions. A young mammal usually wants more milk and care than its mother is ready to give, because she must save strength for other offspring, and the tug of war between them can be seen around weaning time.",
+      "The common cuckoo lays its egg in the nest of a smaller bird, and the cuckoo chick that hatches soon pushes the other eggs out. The foster parents often work themselves to exhaustion feeding it, but in some species the hosts have evolved the ability to notice odd eggs, which in turn forces cuckoos to make better copies.",
+      "Every defence that a host evolves creates a reason for its parasites to evolve a way around it, and the same is true the other way round. This kind of contest never ends with a clear victor, so both sides must keep changing just to stay where they are.",
+      "It is tempting to think of genes as puppet strings, but the picture is wrong. Genes influence how the brain and body are built, and behaviour then arises from that body meeting the world, which means that the same genes can lead to very different lives.",
+      "Identical twins begin life with almost exactly the same DNA, and yet even their fingerprints are different. They have different friends, hobbies and habits, which shows that the same instructions can produce distinct people once chance and experience have had their say.",
+      "Many people misread the term heritability, so Teo explained it slowly. A trait that is said to be fifty percent heritable does not mean that half of any one person is genetic, but only that, in one particular group and setting, about half of the differences among people are linked to gene differences.",
+      "Teo gave an example of a gene that is not destiny, a rare condition called phenylketonuria, in which a baby cannot process one amino acid. Newborns are tested soon after birth, and a special diet then prevents the damage, which shows that the effect of a gene can depend heavily on the environment.",
+      "Teo told Maya that any two people on Earth have DNA that is almost exactly alike, differing by roughly one letter in a thousand. Most of those small differences exist within every large group of people, rather than between groups, so the idea of sharply different human types has no basis in our genes.",
+      "Humans and chimpanzees share more than 98 out of every 100 DNA letters, which fits the idea that we had a common ancestor not very long ago in evolutionary terms. Most human genes also have a close counterpart in the mouse, and many have one in the fruit fly, which is why those animals are so useful in laboratories.",
+      "Dogs descend from wolves that began living alongside people many thousands of years ago. Humans kept breeding the animals with the traits they liked, and over time this choice changed gene versions so much that a tiny terrier and a huge hound can both belong to the same species.",
+      "Maize, the grain that fills tortillas and cornflakes, was shaped from a small wild grass called teosinte in what is now Mexico about nine thousand years ago. Farmers saved seeds from the plants they liked best, season after season, and across hundreds of generations they changed the gene versions of the whole crop.",
+      "In 2012, scientists described a tool called CRISPR, which can cut and change DNA at a chosen place, a little like a find and replace command for genes. In 2023, the first treatment based on it was approved for sickle cell disease, though the technology also raises serious ethical questions that societies are still debating.",
+      "The first reading of a human genome was finished in 2003 after many years of work by teams around the world, and it cost billions of dollars. Today the same job can be done in a day or two for a small fraction of the cost, which has changed medicine and research.",
+      "Most results of a gene test are expressed as chances rather than promises, because so many genes, and so much of life, influence what happens. Teo said that anyone who gets such a result should talk to a doctor or a genetic counsellor, who can explain what it does and does not mean.",
+      "Teo said that explaining why something happens is not the same as saying it is good. The process of evolution has no moral purpose, so the fact that a behaviour is natural gives us no reason to excuse it, and we are free to choose kindness, fairness and care.",
+      "Maya realised that Rosa's recipes were not the only things that had been passed on in her family, since there were songs, stories, habits and sayings too. Humans transmit language, skills and customs by teaching, and these cultural inheritances change much faster than genes and often matter just as much.",
+      "Teo pointed out something that made Maya pause, which was that each of her genes had been copied, again and again, through an unbroken line of ancestors. Every one of them had lived long enough to have young, and the chain of copies reaches back across billions of years to the very first living cells.",
+      "On the last evening of the summer, Maya wrote her own recipe for a new kind of bread and slid it into the box beside her grandmother's cards. Teo said that she was a new edition of a very old book, copied with care, changed a little, and still unfinished, and that she would help to write the next page."
+    ]
+  }
+}
