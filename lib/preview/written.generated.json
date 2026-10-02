@@ -7982,6 +7982,44 @@
   }
  },
  {
+  "slug": "advice-to-a-young-tradesman",
+  "title": "Advice to a Young Tradesman",
+  "author": "Benjamin Franklin",
+  "kind": "classic",
+  "category": "business-money",
+  "blurb": "A printer writes to a young man who is starting a business. In a few plain pages, Benjamin Franklin explains why time is money, why credit is a treasure, and why small habits decide who succeeds.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Advice to a",
+    "Young",
+    "Tradesman"
+   ],
+   "size": 15.5,
+   "author": "BENJAMIN FRANKLIN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "coin",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-imitation-of-christ",
   "title": "The Imitation of Christ",
   "author": "Thomas à Kempis",
@@ -8122,6 +8160,44 @@
     },
     {
      "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-little-flowers-of-saint-francis",
+  "title": "The Little Flowers of Saint Francis",
+  "author": "Franciscan tradition",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "Francis of Assisi gave away everything and found joy. Here are the best-loved stories told about him and his friends: a sermon to the birds, a wolf made gentle, and a night of perfect joy in the snow.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Little",
+    "Flowers of",
+    "Saint Francis"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "dove",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "leaf",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -8572,6 +8648,38 @@
     },
     {
      "id": "waves",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "how-your-brain-learns",
+  "title": "How Your Brain Learns",
+  "author": "Make It Stick",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Ana reads her notes again and again, yet forgets them on test day. Follow her as a retired teacher shows her how memory really works, and learn simple methods that help new things stay in your mind.",
+  "cover": {
+   "bg": "#E3F8FC",
+   "light": true,
+   "title": [
+    "How Your",
+    "Brain Learns"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "brain",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lamp",
      "x": 160,
      "y": 38,
      "s": 0.36
