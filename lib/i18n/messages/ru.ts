@@ -520,6 +520,8 @@ const ru: Catalog = {
   "library.soonLabel": "{category}: скоро",
   "library.preview": "Превью: пока пять книг. В полной библиотеке будет 200.",
   "book.back": "Назад в библиотеку",
+  "path.title": "Что внутри",
+  "path.part": "Глава {n} · страницы {from}–{to}",
   "book.by": "автор: {author}",
   "book.inspired": "По мотивам: {author}",
   "book.levels": "Уровни",

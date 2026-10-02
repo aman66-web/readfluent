@@ -488,6 +488,8 @@ const ar: Catalog = {
   "library.soonLabel": "{category}: قريبًا",
   "library.preview": "نسخة تجريبية: خمسة كتب حتى الآن. ستضم المكتبة الكاملة 200 كتاب.",
   "book.back": "العودة إلى المكتبة",
+  "path.title": "ماذا بالداخل",
+  "path.part": "الفصل {n} · الصفحات {from}–{to}",
   "book.by": "تأليف {author}",
   "book.inspired": "مستوحى من {author}",
   "book.levels": "المستويات",

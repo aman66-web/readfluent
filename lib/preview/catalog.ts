@@ -170,3 +170,16 @@ export const lengthsOf = (book: PreviewBook): readonly Length[] => book.lengths 
 export function pagesOf(book: PreviewBook, level: LevelId): PreviewPage[] {
   return book.text[level].map((text, i) => ({ n: i + 1, text, scene: i + 1 }));
 }
+
+/**
+ * A blurb cut short for under a cover: whole words, about two lines, ending in "…". A blurb that already
+ * fits is left alone. The full blurb is on the book's own page.
+ */
+export function shortBlurb(blurb: string, max = 64): string {
+  const text = blurb.replace(/\s+/g, " ").trim();
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max + 1);
+  const at = cut.lastIndexOf(" ");
+  const words = (at > max * 0.5 ? cut.slice(0, at) : text.slice(0, max)).replace(/[\s,;:.!?\-–—]+$/, "");
+  return `${words}…`;
+}

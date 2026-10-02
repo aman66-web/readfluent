@@ -520,6 +520,8 @@ const uk: Catalog = {
   "library.soonLabel": "{category}: незабаром",
   "library.preview": "Превʼю: поки що пʼять книжок. У повній бібліотеці буде 200.",
   "book.back": "Назад до бібліотеки",
+  "path.title": "Що всередині",
+  "path.part": "Розділ {n} · сторінки {from}–{to}",
   "book.by": "автор: {author}",
   "book.inspired": "За мотивами: {author}",
   "book.levels": "Рівні",

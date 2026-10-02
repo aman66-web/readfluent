@@ -518,6 +518,8 @@ const bn: Catalog = {
   "library.soonLabel": "{category}: শিগগিরই আসছে",
   "library.preview": "প্রিভিউ: এখন পর্যন্ত পাঁচটি বই। পূর্ণ লাইব্রেরিতে থাকবে 200টি।",
   "book.back": "লাইব্রেরিতে ফিরুন",
+  "path.title": "ভেতরে কী আছে",
+  "path.part": "অধ্যায় {n} · পৃষ্ঠা {from}–{to}",
   "book.by": "{author}-এর লেখা",
   "book.inspired": "{author} থেকে অনুপ্রাণিত",
   "book.levels": "স্তর",

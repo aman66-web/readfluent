@@ -518,6 +518,8 @@ const hi: Catalog = {
   "library.soonLabel": "{category}: जल्द आ रहा है",
   "library.preview": "झलक: अभी सिर्फ़ पाँच किताबें। पूरी लाइब्रेरी में 200 होंगी।",
   "book.back": "लाइब्रेरी पर वापस",
+  "path.title": "अंदर क्या है",
+  "path.part": "अध्याय {n} · पृष्ठ {from}–{to}",
   "book.by": "{author} द्वारा",
   "book.inspired": "{author} से प्रेरित",
   "book.levels": "स्तर",

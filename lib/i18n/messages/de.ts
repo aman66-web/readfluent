@@ -518,6 +518,8 @@ const de: Catalog = {
   "library.soonLabel": "{category}: bald verfügbar",
   "library.preview": "Vorschau: bisher fünf Bücher. Die ganze Bibliothek wird 200 haben.",
   "book.back": "Zurück zur Bibliothek",
+  "path.title": "Was drinsteckt",
+  "path.part": "Kapitel {n} · Seiten {from}–{to}",
   "book.by": "von {author}",
   "book.inspired": "Inspiriert von {author}",
   "book.levels": "Niveaus",

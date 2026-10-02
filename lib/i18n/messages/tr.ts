@@ -485,6 +485,8 @@ const tr: Catalog = {
   "library.soonLabel": "{category}: yakında",
   "library.preview": "Önizleme: şimdilik beş kitap. Tam kütüphanede 200 kitap olacak.",
   "book.back": "Kütüphaneye dön",
+  "path.title": "İçindekiler",
+  "path.part": "Bölüm {n} · sayfa {from}–{to}",
   "book.by": "Yazar: {author}",
   "book.inspired": "{author} eserinden esinlenildi",
   "book.levels": "Seviyeler",

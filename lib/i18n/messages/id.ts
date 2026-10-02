@@ -516,6 +516,8 @@ const indonesian: Catalog = {
   "library.soonLabel": "{category}: segera hadir",
   "library.preview": "Pratinjau: baru lima buku. Perpustakaan lengkapnya akan memiliki 200.",
   "book.back": "Kembali ke perpustakaan",
+  "path.title": "Isi buku",
+  "path.part": "Bab {n} · halaman {from}–{to}",
   "book.by": "oleh {author}",
   "book.inspired": "Terinspirasi dari {author}",
   "book.levels": "Level",

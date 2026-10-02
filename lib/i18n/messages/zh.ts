@@ -516,6 +516,8 @@ const zh: Catalog = {
   "library.soonLabel": "{category}：即将推出",
   "library.preview": "预览：目前只有五本书。完整书库将有 200 本。",
   "book.back": "返回书库",
+  "path.title": "内容概览",
+  "path.part": "第 {n} 章 · 第 {from}–{to} 页",
   "book.by": "作者：{author}",
   "book.inspired": "灵感来自 {author}",
   "book.levels": "等级",

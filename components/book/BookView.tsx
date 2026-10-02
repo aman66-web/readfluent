@@ -2,6 +2,7 @@
 
 import { BackLink } from "@/components/BackLink";
 import { BookCover } from "@/components/BookCover";
+import type { OutlineItem } from "@/components/book/Pathway";
 import { ReadPicker } from "@/components/book/ReadPicker";
 import { COVERS } from "@/components/welcome/covers";
 import { categoryById } from "@/lib/content/limits";
@@ -13,7 +14,7 @@ import { coverAuthor, lengthsOf, type PreviewBook } from "@/lib/preview/catalog"
  * level and length (already chosen, one tap to change) and the Read button. The book's own words stay
  * as they are; the interface around them follows the reader's language.
  */
-export function BookView({ book }: { book: PreviewBook }) {
+export function BookView({ book, outline }: { book: PreviewBook; /** The book's moments, in order, for the path. */ outline: readonly OutlineItem[] }) {
   const t = useT();
   const category = categoryById(book.category);
   const lengths = lengthsOf(book);
@@ -38,7 +39,7 @@ export function BookView({ book }: { book: PreviewBook }) {
         </div>
       </div>
 
-      <ReadPicker slug={book.slug} lengths={lengths}>
+      <ReadPicker slug={book.slug} lengths={lengths} outline={outline}>
         <p lang="en" dir="ltr" className="font-reading mt-6 text-[17.5px] leading-[1.6] text-foreground/90">{book.blurb}</p>
       </ReadPicker>
     </main>

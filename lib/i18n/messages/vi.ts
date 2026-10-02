@@ -500,6 +500,8 @@ const vi: Catalog = {
   "library.soonLabel": "{category}: sắp có",
   "library.preview": "Xem trước: mới có năm cuốn. Thư viện đầy đủ sẽ có 200 cuốn.",
   "book.back": "Về thư viện",
+  "path.title": "Bên trong có gì",
+  "path.part": "Chương {n} · trang {from}–{to}",
   "book.by": "của {author}",
   "book.inspired": "Lấy cảm hứng từ {author}",
   "book.levels": "Cấp độ",

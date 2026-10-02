@@ -488,6 +488,8 @@ const ur: Catalog = {
   "library.soonLabel": "{category}: جلد آ رہا ہے",
   "library.preview": "پیش نظارہ: ابھی پانچ کتابیں۔ مکمل لائبریری میں 200 ہوں گی۔",
   "book.back": "لائبریری پر واپس",
+  "path.title": "اندر کیا ہے",
+  "path.part": "باب {n} · صفحات {from}–{to}",
   "book.by": "مصنف: {author}",
   "book.inspired": "{author} سے ماخوذ",
   "book.levels": "سطحیں",

@@ -520,6 +520,8 @@ const nl: Catalog = {
   "library.soonLabel": "{category}: binnenkort",
   "library.preview": "Voorproefje: tot nu toe vijf boeken. De volledige bibliotheek krijgt er 200.",
   "book.back": "Terug naar de bibliotheek",
+  "path.title": "Wat er in zit",
+  "path.part": "Hoofdstuk {n} · pagina's {from}–{to}",
   "book.by": "door {author}",
   "book.inspired": "Geïnspireerd door {author}",
   "book.levels": "Niveaus",

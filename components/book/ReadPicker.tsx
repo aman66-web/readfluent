@@ -4,11 +4,12 @@ import { useRouter } from "next/navigation";
 import { useMemo, useState, useSyncExternalStore } from "react";
 import { LENGTHS, LEVELS, levelById, levelForCefr, type Length, type LevelId } from "@/lib/content/limits";
 import { useT } from "@/lib/i18n/react";
+import { Pathway, type OutlineItem } from "@/components/book/Pathway";
 import { Paywall } from "@/components/paywall/Paywall";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
 import { canOpen } from "@/lib/plan";
 import { usePlan } from "@/lib/pro/state";
-import { CHOICE_KEY, parseChoice, readPage, saveChoice } from "@/lib/progress";
+import { CHOICE_KEY, parseChoice, readPage, saveChoice, savePage } from "@/lib/progress";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 
 const subscribeChoice = subscribeTo(CHOICE_KEY);
@@ -24,7 +25,7 @@ const serverRaw = () => "";
  * length), and a tap on another one changes it. The Read button goes straight to the first page.
  * Renders the two boxes and the way in, to sit in the page's column.
  */
-export function ReadPicker({ slug, lengths, children }: { slug: string; lengths: readonly Length[]; /** What goes between the two boxes and the Read button (the blurb). */ children?: React.ReactNode }) {
+export function ReadPicker({ slug, lengths, outline = [], children }: { slug: string; lengths: readonly Length[]; /** The book's moments in order, for the path under the blurb. */ outline?: readonly OutlineItem[]; /** What goes between the two boxes and the Read button (the blurb). */ children?: React.ReactNode }) {
   const t = useT();
   const router = useRouter();
   const [levelPick, setLevelPick] = useState<LevelId | null>(null);
@@ -46,14 +47,16 @@ export function ReadPicker({ slug, lengths, children }: { slug: string; lengths:
   const levelSlug = LEVELS.find((l) => l.id === level)!.slug;
   // A version already begun stays open; a longer one asks for the plan (lib/plan.ts; closed only once payments are live).
   const locked = (n: Length) => !canOpen(n, plan, readPage(slug, levelSlug, n) !== undefined);
-  const start = () => {
+  // `page` is where to open it: a tap on the path opens there; the Read button carries on from where they were.
+  const start = (page?: number) => {
     if (locked(length)) { setPaywall(true); return; }
     saveChoice(slug, level, length);
+    if (page !== undefined) savePage(slug, levelSlug, length, page);
     router.push(`/read/${slug}/${levelSlug}/${length}`);
   };
 
   // A segmented control: a pale track with the chosen segment lit in the brand's cyan.
-  const seg = (on: boolean) => `h-11 flex-1 rounded-full text-[14px] font-bold transition-colors ${on ? "btn-cyan" : "text-muted active:bg-accent-bright/15"}`;
+  const seg = (on: boolean) => `h-11 flex-1 rounded-full text-[14px] font-bold transition-colors ${on ? "bg-accent text-white shadow-[0_6px_14px_-6px_rgba(14,116,144,.7)]" : "text-muted active:bg-accent-bright/15"}`;
 
   return (
     <>
@@ -87,11 +90,13 @@ export function ReadPicker({ slug, lengths, children }: { slug: string; lengths:
 
       {children}
 
+      {outline.length > 0 && <Pathway slug={slug} level={levelSlug} length={length} outline={outline} onOpen={start} />}
+
       {/* The way in stays on screen above the menu, wherever the page is scrolled to. */}
       <div className="sticky bottom-[calc(env(safe-area-inset-bottom)+5.25rem)] z-30 -mx-5 mt-auto bg-gradient-to-t from-background via-background to-transparent px-5 pb-2 pt-8">
-        <button type="button" onClick={start} className="btn-cyan inline-flex h-14 w-full select-none items-center justify-center gap-2.5 rounded-full px-6 text-[17px] font-bold">
+        <button type="button" onClick={() => start()} className="inline-flex h-14 w-full select-none items-center justify-center gap-2.5 rounded-full bg-accent px-6 text-[17px] font-bold text-white shadow-[0_14px_26px_-12px_rgba(14,116,144,.8)] active:opacity-90">
           {t("sheet.read")}
-          <span className="grid size-8 place-items-center rounded-full bg-black/10" aria-hidden>
+          <span className="grid size-8 place-items-center rounded-full bg-white/20" aria-hidden>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="size-3.5 rtl:-scale-x-100"><path d="M5 12h13M12 5l7 7-7 7" /></svg>
           </span>
         </button>

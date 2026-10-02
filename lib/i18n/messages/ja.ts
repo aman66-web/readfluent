@@ -516,6 +516,8 @@ const ja: Catalog = {
   "library.soonLabel": "{category}：近日公開",
   "library.preview": "プレビュー：今のところ5冊のみです。完成版のライブラリは200冊になります。",
   "book.back": "ライブラリに戻る",
+  "path.title": "中身",
+  "path.part": "第{n}章 · {from}〜{to}ページ",
   "book.by": "{author} 著",
   "book.inspired": "{author} にインスパイア",
   "book.levels": "レベル",

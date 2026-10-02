@@ -526,6 +526,8 @@ export const EN = {
   "library.soonLabel": "{category}: coming soon",
   "library.preview": "Preview: five books so far. The full library will have 200.",
   "book.back": "Back to the library",
+  "path.title": "What's inside",
+  "path.part": "Chapter {n} · pages {from}–{to}",
   "book.by": "by {author}",
   "book.inspired": "Inspired by {author}",
   "book.levels": "Levels",

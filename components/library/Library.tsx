@@ -7,7 +7,7 @@ import { CATEGORIES, categoryById, type CategoryId } from "@/lib/content/limits"
 import { formatDate } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { useAnswers } from "@/lib/onboarding/use-answers";
-import { coverAuthor, type PreviewBook } from "@/lib/preview/catalog";
+import { coverAuthor, shortBlurb, type PreviewBook } from "@/lib/preview/catalog";
 
 /** A cover, as a link to the book, with its name, the day it joined, and the first lines of what it is about (the rest is on its page). */
 function Cover({ book, className = "", caption = true }: { book: PreviewBook; className?: string; caption?: boolean }) {
@@ -20,7 +20,8 @@ function Cover({ book, className = "", caption = true }: { book: PreviewBook; cl
         <span className="mt-2.5 block">
           <span lang="en" className="block text-[14px] font-semibold leading-tight">{book.title}</span>
           <span className="mt-0.5 block text-[11.5px] text-faint">{t("library.added", { date: formatDate(new Date(`${book.added}T12:00:00`), locale) })}</span>
-          <span lang="en" className="mt-1 line-clamp-2 block text-[12px] leading-snug text-muted">{book.blurb}</span>
+          {/* No `block` here: it would undo the clamp that line-clamp sets (display: -webkit-box). */}
+          <span lang="en" className="mt-1 line-clamp-2 text-[12px] leading-snug text-muted">{shortBlurb(book.blurb)}</span>
         </span>
       )}
     </Link>

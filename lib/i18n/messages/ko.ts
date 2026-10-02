@@ -518,6 +518,8 @@ const ko: Catalog = {
   "library.soonLabel": "{category}: 곧 공개",
   "library.preview": "미리보기: 지금은 책이 다섯 권뿐이에요. 전체 서재에는 200권이 담길 거예요.",
   "book.back": "서재로 돌아가기",
+  "path.title": "책 속 이야기",
+  "path.part": "{n}장 · {from}–{to}쪽",
   "book.by": "{author} 지음",
   "book.inspired": "{author}에게서 영감을 받음",
   "book.levels": "수준",

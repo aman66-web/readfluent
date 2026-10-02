@@ -517,6 +517,8 @@ const fr: Catalog = {
   "library.soonLabel": "{category} : bientôt",
   "library.preview": "Aperçu : cinq livres pour l'instant. La bibliothèque complète en comptera 200.",
   "book.back": "Retour à la bibliothèque",
+  "path.title": "Au programme",
+  "path.part": "Chapitre {n} · pages {from}–{to}",
   "book.by": "par {author}",
   "book.inspired": "Inspiré de {author}",
   "book.levels": "Niveaux",
