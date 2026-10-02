@@ -8358,6 +8358,43 @@
   }
  },
  {
+  "slug": "the-book-of-job",
+  "title": "The Book of Job",
+  "author": "Hebrew Bible",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "A good man loses everything in a single day. Three friends sit beside him, and then the arguments begin. Read the ancient Book of Job, the great story of suffering, honest questions and a voice from the whirlwind.",
+  "cover": {
+   "bg": "#1C1C1F",
+   "title": [
+    "The Book of",
+    "Job"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "candle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "whale",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-little-flowers-of-saint-francis",
   "title": "The Little Flowers of Saint Francis",
   "author": "Franciscan tradition",
