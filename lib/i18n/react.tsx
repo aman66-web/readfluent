@@ -4,6 +4,7 @@ import { Fragment, useCallback, useEffect, useMemo, useSyncExternalStore, type R
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
 import { DEFAULT_LANGUAGE, type LanguageCode } from "@/lib/onboarding/languages";
 import { readRaw, subscribeTo } from "@/lib/store/local";
+import { bookMetaFor, bookMetaVersion, loadBookMeta, subscribeBookMeta } from "./book-meta";
 import { EN, catalogFor, catalogVersion, isRtl, loadCatalog, subscribeCatalogs, translate, type MessageId } from "./index";
 
 const subscribeAnswers = subscribeTo(ANSWERS_KEY);
@@ -36,12 +37,24 @@ export function useT(): T {
 export function useBookText() {
   const locale = useLocale();
   useSyncExternalStore(subscribeCatalogs, catalogVersion, () => 0);
-  useEffect(() => { void loadCatalog(locale); }, [locale]);
+  useSyncExternalStore(subscribeBookMeta, bookMetaVersion, () => 0);
+  useEffect(() => { void loadCatalog(locale); void loadBookMeta(locale); }, [locale]);
   const catalog = catalogFor(locale) as Record<string, string> | null;
+  const meta = bookMetaFor(locale);
   return useCallback((slug: string, field: "title" | "blurb", fallback: string): string => {
     const id = `book.${slug}.${field}`;
-    return catalog?.[id] ?? (EN as Record<string, string>)[id] ?? fallback;
-  }, [catalog]);
+    // The hand-made translations first, then the machine-made ones for every other book, then English.
+    return catalog?.[id] ?? meta?.[slug]?.[field === "title" ? "t" : "b"] ?? (EN as Record<string, string>)[id] ?? fallback;
+  }, [catalog, meta]);
+}
+
+/** A book's chapter names in the reader's language (the English ones until they arrive). */
+export function useChapterNames(slug: string, english: readonly string[] | undefined): readonly string[] | undefined {
+  const locale = useLocale();
+  useSyncExternalStore(subscribeBookMeta, bookMetaVersion, () => 0);
+  useEffect(() => { void loadBookMeta(locale); }, [locale]);
+  const names = bookMetaFor(locale)?.[slug]?.c;
+  return english && names && names.length === english.length ? names : english;
 }
 
 /**

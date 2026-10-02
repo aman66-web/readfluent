@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useMemo, useState, useSyncExternalStore, type ReactNode } from "react";
 import { LEVELS, levelById, levelForCefr, type Length, type LevelId } from "@/lib/content/limits";
 import { languageName } from "@/lib/i18n";
-import { useLocale, useT } from "@/lib/i18n/react";
+import { useChapterNames, useLocale, useT } from "@/lib/i18n/react";
 import { Pathway, PART_SIZE, type OutlineItem } from "@/components/book/Pathway";
 import { useOutline } from "@/components/book/useOutline";
 import { Paywall } from "@/components/paywall/Paywall";
@@ -44,8 +44,9 @@ function Card({ title, aside, children, label, tour }: { title: string; aside?: 
  * for this book, and the shortest length; a tap on another changes it), the book's path, and the way in. The Read
  * button carries on from where they were.
  */
-export function ReadPicker({ slug, lengths, langs = [], outline: english = [], chapterNames, children }: { slug: string; /** The length this book has (its pages): the one it opens at. */ lengths: readonly Length[]; /** The languages (besides English) the book can be read in. */ langs?: readonly string[]; /** The book's moments in order, for the path (English; shown in the reader's language where there is a translation). */ outline?: readonly OutlineItem[]; /** One name for each chapter of ten pages, where the book has them. */ chapterNames?: readonly string[]; /** The "about" text. */ children?: ReactNode }) {
+export function ReadPicker({ slug, lengths, langs = [], outline: english = [], chapterNames: englishChapters, children }: { slug: string; /** The length this book has (its pages): the one it opens at. */ lengths: readonly Length[]; /** The languages (besides English) the book can be read in. */ langs?: readonly string[]; /** The book's moments in order, for the path (English; shown in the reader's language where there is a translation). */ outline?: readonly OutlineItem[]; /** One name for each chapter of ten pages, where the book has them. */ chapterNames?: readonly string[]; /** The "about" text. */ children?: ReactNode }) {
   const t = useT();
+  const chapterNames = useChapterNames(slug, englishChapters);
   const locale = useLocale();
   const router = useRouter();
   const outline = useOutline(slug, english);
