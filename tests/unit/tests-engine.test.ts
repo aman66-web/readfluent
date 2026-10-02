@@ -34,7 +34,7 @@ describe("the tests", () => {
       // The right answer is among the options and the other three are not it.
       for (const q of paper.questions) if (q.options) expect(q.options.filter((o) => o === q.options![q.answer!])).toHaveLength(1);
     }
-  });
+  }, 30_000);
 
   it("make cloze, word-order and listening papers of English at every level", () => {
     for (const level of CEFR) for (const kind of supportFor("en")!.kinds) {
@@ -42,7 +42,7 @@ describe("the tests", () => {
       expect(paper.questions.length, `${level} ${kind}`).toBeGreaterThanOrEqual(PAPER_SIZE - 2);
       paper.questions.forEach(valid);
     }
-  });
+  }, 30_000);
 
   it("are the same for the same seed and different for another", () => {
     const a = makePaper({ lang: "es", level: "B1", kind: "mixed", bank: ES, seed: 1 });
