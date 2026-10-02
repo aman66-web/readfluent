@@ -6,7 +6,7 @@ Written 2 Oct 2026. "You" is the owner, "me" is Claude. Order matters: each phas
 
 Built and working: the first-run (18 screens, 20 languages, Dewey), dashboard with levels and XP, library and book pages, the reader with word cards, flashcards with phrase decks, Talk with Dewey, friends and league, achievements, premium sheet, listen-to-page.
 
-Not real yet: the library is **5 books** (the plan is 200), each only in the 50-page length; every page uses **one placeholder picture**; nothing is saved to an account (progress, XP and words live on the phone only); nobody can buy anything; there is no native app yet.
+Not real yet: the library is **270 books** (30 in each of nine categories), each only in the 50-page length and English only, with a fact-check owed on the classics written from memory; every page uses **one placeholder picture**; nothing is saved to an account (progress, XP and words live on the phone only); nobody can buy anything; there is no native app yet.
 
 ---
 
@@ -22,7 +22,8 @@ Not real yet: the library is **5 books** (the plan is 200), each only in the 50-
 ## Phase 2: the books (the biggest job)
 
 - [ ] **Run the real pilot** of the book pipeline on 3 books (needs the Anthropic key), read the results, and fix the prompts. You approve the cost before the other 197.
-- [ ] **Write the rest of the library**: 200 books × 3 levels × 3 lengths (50/100/200 pages) = 1,800 versions, every one passing the checks (`scripts/pipeline/validate.ts`). Health books need their "not medical advice" line.
+- [x] **First library written (2 Oct 2026)**: 270 books, 3 levels, 50 pages each, every one passing `scripts/books/check-en.ts`.
+- [ ] **100 and 200-page editions, and a fact-check of every book** (the writers flagged the ones they wrote from memory: see CLAUDE.md, R4). Every version must pass the checks (`scripts/pipeline/validate.ts`). Health books need their "not medical advice" line.
 - [ ] **Real pictures**: one generated photo per page, a pool of 200 per book, stored in object storage behind a CDN (not in the app). Today's single placeholder goes.
 - [ ] **Translate every book** into the 19 other languages, page for page, with a word card for every word. Today only 4 books exist in Spanish.
 - [ ] **Titles, descriptions and chapter lines** for each new book in all 20 languages (I have set this up; it is one small file per language per book).
