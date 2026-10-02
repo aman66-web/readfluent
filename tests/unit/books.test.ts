@@ -12,13 +12,15 @@ const read = <T,>(slug: string, file: string): T => JSON.parse(readFileSync(new 
 const WRITTEN = PREVIEW_BOOKS.filter((b) => b.source === "file" && !b.generated);
 
 describe("the hand-written books", () => {
-  it("are four, each offered in the 50-page edition only, with no text in the app's own code", () => {
+  it("are four, each offered at its one length (50 pages, or 200 once it is full-length), with no text in the app's own code", () => {
     expect(WRITTEN.map((b) => b.slug).sort()).toEqual([
       "alice-s-adventures-in-wonderland", "the-hound-of-the-baskervilles", "the-richest-man-in-babylon", "trees-talk-to-each-other",
     ]);
     for (const b of WRITTEN) {
-      expect(lengthsOf(b), b.slug).toEqual([50]);
-      for (const l of LEVELS) { expect(pageCount(b, l.id), b.slug).toBe(50); expect(b.text[l.id], b.slug).toEqual([]); }
+      const pages = read<EnBook>(b.slug, "en.json").levels.A1A2.length;
+      expect([50, 200]).toContain(pages);
+      expect(lengthsOf(b), b.slug).toEqual([pages]);
+      for (const l of LEVELS) { expect(pageCount(b, l.id), b.slug).toBe(pages); expect(b.text[l.id], b.slug).toEqual([]); }
     }
   });
 
@@ -26,7 +28,7 @@ describe("the hand-written books", () => {
     describe(b.slug, () => {
       const en = read<EnBook>(b.slug, "en.json");
 
-      it("is clean by the checker: 50 beats, 50 pages in each level, the right number of sentences, readable at its level", () => {
+      it("is clean by the checker: one beat per page, the same pages in each level, the right number of sentences, readable at its level", () => {
         const problems = checkBook(en);
         expect(problems.map((p) => `${p.where}: ${p.message}`)).toEqual([]);
       });
@@ -34,12 +36,14 @@ describe("the hand-written books", () => {
       it("has the jacket blurb the catalogue shows, and a first beat and a last", () => {
         expect(b.blurb).toBe(en.meta.blurb);
         expect(en.beats[0].n).toBe(1);
-        expect(en.beats[49].n).toBe(50);
+        expect(en.beats[en.beats.length - 1].n).toBe(en.beats.length);
       });
 
-      it("has a Spanish translation that matches it page for page, or none yet", () => {
+      it("has a Spanish translation that matches it page for page, or none yet (or is waiting to be redone for the full-length English)", () => {
         if (!existsSync(new URL("es.json", dir(b.slug)))) return;
         const es = read<TrBook>(b.slug, "es.json");
+        // Once the English is full length the old 50-page translation no longer matches it; the reader leaves it out until it is retranslated.
+        if (es.levels.A1A2.length !== en.levels.A1A2.length) return;
         expect(checkTranslation(en, es)).toEqual([]);
       });
 

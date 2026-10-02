@@ -26,7 +26,7 @@ describe("the written library", () => {
       expect(checkBook(book).map((p) => `${p.where}: ${p.message}`)).toEqual([]);
       if (e.category === "health") {
         expect(book.beats[49].summary + book.beats[49].scene, "beat 50").toBeTruthy();
-        for (const level of Object.values(book.levels)) expect(level[49], "last page").toMatch(/not medical advice/i);
+        for (const level of Object.values(book.levels)) expect(level[level.length - 1], "last page").toMatch(/not medical advice/i);
         expect(book.meta.bible).toMatch(/not medical advice/i);
       }
       const cover = JSON.parse(readFileSync(`lib/preview/books/${e.slug}/cover.json`, "utf8")) as { bg: string; light?: boolean; art: string[] };
