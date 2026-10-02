@@ -8065,6 +8065,112 @@
   }
  },
  {
+  "slug": "habits-over-hype",
+  "title": "Habits Over Hype",
+  "author": "Atomic Habits",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Noor starts the year full of big promises and watches them fade. Then she tries something smaller: one tiny habit, repeated every day. Follow her through twelve months and learn how quiet daily steps beat bursts of excitement.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Habits Over",
+    "Hype"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "hourglass",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-calm-decision",
+  "title": "The Calm Decision",
+  "author": "Thinking, Fast and Slow",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Mira has two days to answer a job offer in another city, and her heart says yes. Follow her as she slows down, tests her feelings and learns how the mind can be fooled, so that she can make a calm choice she will not regret.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Calm",
+    "Decision"
+   ],
+   "size": 19,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "moon",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "ten-minutes-to-brave",
+  "title": "Ten Minutes to Brave",
+  "author": "Daring Greatly",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Priya knows what she wants to say, but her hand will not go up. Then she tries one small brave act at a time, each lasting no more than ten minutes. Follow her year and learn how fear shrinks when you meet it in small steps.",
+  "cover": {
+   "bg": "#D4F4FA",
+   "light": true,
+   "title": [
+    "Ten Minutes",
+    "to Brave"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "lighthouse",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-wealth-of-nations",
   "title": "The Wealth of Nations",
   "author": "Adam Smith",
@@ -8533,6 +8639,44 @@
     },
     {
      "id": "leaf",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-rubaiyat-of-omar-khayyam",
+  "title": "The Rubaiyat of Omar Khayyam",
+  "author": "Omar Khayyam",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "A Persian astronomer, a roadside inn, a jug of wine and a question nobody can answer. Omar Khayyam's four-line poems, and the English poet who made them famous, ask how to live well when life is short.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Rubaiyat",
+    "of Omar",
+    "Khayyam"
+   ],
+   "size": 14,
+   "author": "OMAR KHAYYAM",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "scroll",
      "x": 160,
      "y": 38,
      "s": 0.36
