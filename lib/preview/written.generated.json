@@ -7357,6 +7357,43 @@
   }
  },
  {
+  "slug": "the-lady-of-the-camellias",
+  "title": "The Lady of the Camellias",
+  "author": "Alexandre Dumas fils",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "Marguerite Gautier is the most admired woman in Paris, and she never goes out without her flowers. When a poor young man falls truly in love with her, she dares to dream of a different life, until a visit from his father forces her into a secret sacrifice.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "The Lady of",
+    "the Camellias"
+   ],
+   "size": 13,
+   "author": "ALEXANDRE DUMAS FILS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lotus",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "envelope",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-bookshop-on-lantern-lane",
   "title": "The Bookshop on Lantern Lane",
   "author": "The Bookshop on the Corner",
@@ -7470,6 +7507,43 @@
   }
  },
  {
+  "slug": "the-purloined-letter",
+  "title": "The Purloined Letter",
+  "author": "Edgar Allan Poe",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A stolen letter could ruin a great lady, and the police of Paris have searched for months without finding it. Only Dupin thinks like the clever thief who took it. Can he win a battle of wits with a dangerous minister?",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Purloined",
+    "Letter"
+   ],
+   "size": 13,
+   "author": "EDGAR ALLAN POE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "envelope",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lens",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-invisible-man",
   "title": "The Invisible Man",
   "author": "H. G. Wells",
@@ -7573,6 +7647,43 @@
     },
     {
      "id": "orbit",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "through-the-looking-glass",
+  "title": "Through the Looking-Glass",
+  "author": "Lewis Carroll",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "On a snowy afternoon Alice climbs through the mirror above the fireplace and enters a world where everything runs backwards. She must cross a giant chessboard, meet talking flowers, twin brothers and a rude egg, and become a Queen. But is it all a dream?",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Through the",
+    "Looking-Glass"
+   ],
+   "size": 13,
+   "author": "LEWIS CARROLL",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "frame",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "pawn",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -8091,6 +8202,43 @@
     },
     {
      "id": "footprints",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-sidereal-messenger",
+  "title": "The Sidereal Messenger",
+  "author": "Galileo Galilei",
+  "kind": "classic",
+  "category": "science",
+  "blurb": "In 1610 Galileo pointed a new spyglass at the sky and found mountains on the Moon, countless hidden stars and four little worlds circling Jupiter. Share the discoveries that shook Europe, told in the order he made them.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Sidereal",
+    "Messenger"
+   ],
+   "size": 14,
+   "author": "GALILEO GALILEI",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "telescope",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
      "x": 160,
      "y": 38,
      "s": 0.36
