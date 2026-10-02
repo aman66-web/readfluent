@@ -7357,6 +7357,44 @@
   }
  },
  {
+  "slug": "the-bookshop-on-lantern-lane",
+  "title": "The Bookshop on Lantern Lane",
+  "author": "The Bookshop on the Corner",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "When Tessa inherits her great-uncle's failing bookshop, she plans to sell it within a week. Then she finds the secret notes he hid for strangers, meets the quiet carpenter who lights the lane's lamps, and learns that some places choose their people.",
+  "cover": {
+   "bg": "#164E63",
+   "title": [
+    "The Bookshop",
+    "on Lantern",
+    "Lane"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lamp",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "book",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-valley-of-fear",
   "title": "The Valley of Fear",
   "author": "Arthur Conan Doyle",
@@ -7615,6 +7653,42 @@
   }
  },
  {
+  "slug": "walden",
+  "title": "Walden",
+  "author": "Henry David Thoreau",
+  "kind": "classic",
+  "category": "self-help",
+  "blurb": "In 1845 Henry David Thoreau built a small cabin by a quiet pond and lived there for two years. Walden retells his experiment: how little a person needs, how much a day can hold, and what the woods can teach us about living well.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Walden"
+   ],
+   "size": 19,
+   "author": "HENRY DAVID THOREAU",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "tree",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "waves",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-imitation-of-christ",
   "title": "The Imitation of Christ",
   "author": "Thomas à Kempis",
@@ -7800,6 +7874,43 @@
   }
  },
  {
+  "slug": "strong-bones-for-life",
+  "title": "Strong Bones for Life",
+  "author": "Strong Women, Strong Bones",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "When her mother breaks a wrist in a simple fall, Tess discovers that bones are alive, always rebuilding, and shaped by what we eat and do. Follow one family through a year of learning how to look after the skeleton for life.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Strong Bones",
+    "for Life"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "dna",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "moon",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "history-of-the-peloponnesian-war",
   "title": "History of the Peloponnesian War",
   "author": "Thucydides",
@@ -7831,6 +7942,42 @@
     },
     {
      "id": "shield",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "common-sense",
+  "title": "Common Sense",
+  "author": "Thomas Paine",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "In January 1776 an unsigned pamphlet appeared in Philadelphia and set a whole continent talking. Thomas Paine asked a simple question: why should a far-off king rule free people? Discover the plain-spoken argument that helped start a nation.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Common Sense"
+   ],
+   "size": 14,
+   "author": "THOMAS PAINE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "feather",
      "x": 160,
      "y": 38,
      "s": 0.36
