@@ -1,0 +1,417 @@
+{
+  "slug": "the-gentle-pilgrim",
+  "meta": {
+    "blurb": "Nara is a young potter with one big question: what am I for? She sets out for a silent bell on a faraway mountain, and every stranger on the road gives her something she did not know she needed.",
+    "bible": "Nara: a restless seventeen-year-old apprentice potter from Alder Ford; she carries one plain clay cup. Alder Ford: her riverside village; smoke from the kilns, a red-brick road. Master Orin: her old teacher, a potter with large patient hands. Edda: Nara's mother, who bakes bread. The River Wend: the wide river on the way. Pell: the ferryman who takes stories as fare. The salt flats and the marsh: grey flat land by the sea. Hesta: a salt seller with a cart. Tam: a boy of a charcoal burner's family in the woods; his mother Brenna. Brightwater: a busy market town. Corvin: a rich merchant with a big workshop. Dilys: his old servant. Lio: a blind weaver in a hill town. The Narrow Gate: the high mountain pass, with early snow. Joss: an old pilgrim coming down, who says the Bell rang nothing. Wynn: a lost little girl on the pass; her mother Marta; a caravan of traders. Mount Hallow: the mountain at the end of the road. The Quiet Bell: an old bronze bell with a long crack from top to rim; it makes no ordinary sound. The monastery of the Quiet Bell: a place of sweeping, silence and simple food. Keeper Maren: the calm, humorous head of the monastery. Odo: the cook, a cheerful man who loves silence at meals. The pilgrim's rule: carry little, take what is given, give what you can. The cracked cup: Nara's cup, mended with pine pitch; it still holds water. The Cracked Cup House: the small rest house with a kiln that Nara builds at the crossroads outside Alder Ford. No real religion is named; the book is about attention, humility, kindness and silence, and is respectful of every tradition. Voice and tone: calm, clear, warm and gently wise, like a fable; no preaching; no gore; the road is hard but kind."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A river village with kiln smoke rising and a girl at a potter's wheel",
+      "summary": "Nara, a young potter in the river village of Alder Ford, shapes cups every day."
+    },
+    {
+      "n": 2,
+      "scene": "Nara stares at a shelf of a hundred finished cups, her face unhappy",
+      "summary": "Nara has made a hundred cups, but she asks herself, what am I for?"
+    },
+    {
+      "n": 3,
+      "scene": "Orin the old potter sits by the kiln at dusk, speaking to Nara",
+      "summary": "Master Orin has no answer, but he tells her about the Quiet Bell on Mount Hallow, far away in the north."
+    },
+    {
+      "n": 4,
+      "scene": "Orin holds out a rough, uneven clay cup in his large hands",
+      "summary": "Orin gives Nara her own first cup, uneven and plain, and tells her the pilgrim's rule: carry little, take what is given, give what you can."
+    },
+    {
+      "n": 5,
+      "scene": "A woman puts a loaf in a cloth bag at a doorway at dawn",
+      "summary": "Her mother Edda packs bread, and at dawn Nara leaves, while Edda watches from the door."
+    },
+    {
+      "n": 6,
+      "scene": "Nara marches along a dusty road, head down, with a blister",
+      "summary": "Nara walks fast, thinking only of the end, and soon her feet are sore and blistered."
+    },
+    {
+      "n": 7,
+      "scene": "A wide brown river, a flat ferry and an old man with a pole",
+      "summary": "At the wide River Wend, the ferryman Pell asks for a fare, but not in coins: he wants a story."
+    },
+    {
+      "n": 8,
+      "scene": "Nara speaks while Pell laughs in his boat in the middle of the river",
+      "summary": "Nara tells a poor story about the Bell; Pell asks for one about her hands in clay, and then he rows her across."
+    },
+    {
+      "n": 9,
+      "scene": "Pell poles the boat over smooth water, pointing at the slow current",
+      "summary": "In mid-river Pell says that the river never hurries, and yet it always reaches the sea."
+    },
+    {
+      "n": 10,
+      "scene": "A woman pushes a heavy cart of salt across a flat grey plain",
+      "summary": "On the salt flats Nara meets Hesta, a salt seller, and helps her push a heavy cart."
+    },
+    {
+      "n": 11,
+      "scene": "A thick white fog fills a marsh, with a tiny dark figure standing still",
+      "summary": "The fog comes down, and Nara, lost, stops and stands still; she hears a dog barking far away and follows the sound out."
+    },
+    {
+      "n": 12,
+      "scene": "A charcoal burner's family eats soup around a small fire in a dark wood",
+      "summary": "At night a charcoal burner's family shares its soup with Nara, and a boy named Tam asks about her journey."
+    },
+    {
+      "n": 13,
+      "scene": "Brenna stirs a pot and smiles as Nara speaks, a child asleep nearby",
+      "summary": "Brenna says she never asked what she was for; she simply fed the children."
+    },
+    {
+      "n": 14,
+      "scene": "Nara walks away from the hut at dawn without looking back",
+      "summary": "Nara leaves early without thanks, feeling above these simple people, but uneasy as she goes."
+    },
+    {
+      "n": 15,
+      "scene": "A busy market with striped awnings, Nara mending a jug on a stool",
+      "summary": "In the busy market town of Brightwater, Nara earns coins by mending broken pots and is proud of her skill."
+    },
+    {
+      "n": 16,
+      "scene": "A rich merchant in a fine coat offers Nara a place in his workshop",
+      "summary": "A rich merchant, Corvin, offers Nara a good place in his large workshop, with pay and a warm bed."
+    },
+    {
+      "n": 17,
+      "scene": "At night Nara sits at a table with an old servant and a candle",
+      "summary": "Nara nearly says yes, but old Dilys, the merchant's servant, whispers that many pilgrims stayed and never went on."
+    },
+    {
+      "n": 18,
+      "scene": "Nara hurries out of a grand door into the dawn",
+      "summary": "Nara says no; Corvin is angry, and she leaves at dawn."
+    },
+    {
+      "n": 19,
+      "scene": "Nara crosses a rushing stream on stepping stones as her purse floats away",
+      "summary": "In the rain Nara crosses a stream on stepping stones, slips, and her purse is swept away."
+    },
+    {
+      "n": 20,
+      "scene": "An old woman hands a loaf to Nara at a farm gate",
+      "summary": "Hungry and penniless, Nara is given bread by an old woman at a farm gate and learns to accept it and say thank you."
+    },
+    {
+      "n": 21,
+      "scene": "A blind man weaves at a loom in a stone hill town",
+      "summary": "In a hill town, a blind weaver named Lio takes Nara in and shows her how he weaves by touch."
+    },
+    {
+      "n": 22,
+      "scene": "Lio's hands rest on the loom while Nara listens, the threads gleaming",
+      "summary": "Lio tells Nara that one thread alone does nothing; he never asks a thread what it is for."
+    },
+    {
+      "n": 23,
+      "scene": "Nara mends a roof with her hands as Lio listens from below",
+      "summary": "Nara stays three days, learns to weave a little, and mends the roof of Lio's shed."
+    },
+    {
+      "n": 24,
+      "scene": "Snow falls on a steep stony path toward a gap between two cliffs",
+      "summary": "Nara leaves the town and climbs toward the Narrow Gate, the high pass, as the first snow begins."
+    },
+    {
+      "n": 25,
+      "scene": "An old man in a thick coat walks down the snowy path",
+      "summary": "Nara meets an old pilgrim, Joss, who says he reached the Bell and it rang nothing."
+    },
+    {
+      "n": 26,
+      "scene": "Nara sits in a small cave, wrapped in her scarf, as snow whirls outside",
+      "summary": "Nara doubts; a storm drives her into a cave, and she wonders whether to turn back."
+    },
+    {
+      "n": 27,
+      "scene": "Nara's clay cup falls on a rock in the snow and cracks",
+      "summary": "Nara fills her cup with snow-melt and drops it, and a long crack runs across it."
+    },
+    {
+      "n": 28,
+      "scene": "Nara weeps in the cave beside a small fire, holding the broken cup",
+      "summary": "Nara weeps over the cup, then she remembers she can mend things, and she mends it with pine pitch."
+    },
+    {
+      "n": 29,
+      "scene": "A mended cup full of water sits on a flat stone, steam rising nearby",
+      "summary": "The mended cup still holds water, and Nara smiles at the shining line."
+    },
+    {
+      "n": 30,
+      "scene": "A small child sits crying on a snowy path in a red hood",
+      "summary": "In the morning Nara finds a lost little girl named Wynn, separated from her caravan."
+    },
+    {
+      "n": 31,
+      "scene": "Nara wraps her cloak round a small girl and lifts her onto her back",
+      "summary": "Nara gives Wynn her bread and her warm scarf, and carries her on her back."
+    },
+    {
+      "n": 32,
+      "scene": "Nara carries Wynn along a mountain path, the child's arms around her neck",
+      "summary": "As they walk slowly, Wynn asks where Nara is going; the two sing songs to keep warm."
+    },
+    {
+      "n": 33,
+      "scene": "A warm camp of wagons at the foot of the pass, a woman running",
+      "summary": "They find the caravan's camp, and Wynn's mother, Marta, runs to them, crying with joy."
+    },
+    {
+      "n": 34,
+      "scene": "A caravan master offers a bag of coins, but Nara chooses a coat instead",
+      "summary": "The caravan master offers a reward, but Nara takes only a warm coat and some bread, as the pilgrim's rule says."
+    },
+    {
+      "n": 35,
+      "scene": "Nara climbs a last steep stair toward tall gates on a mountain top",
+      "summary": "At last Nara climbs the final steps of Mount Hallow, and at the monastery gate she sees a woman sweeping."
+    },
+    {
+      "n": 36,
+      "scene": "A grey-robed woman takes the mended cup in her hands and smiles",
+      "summary": "Keeper Maren takes Nara's cup, does not ask why she came, and gives her soup and a bed."
+    },
+    {
+      "n": 37,
+      "scene": "Nara and Maren climb a frozen path to a stone house on the peak",
+      "summary": "In the morning Nara asks to ring the Bell, and Maren leads her up to the bell house."
+    },
+    {
+      "n": 38,
+      "scene": "A huge bronze bell hangs in a stone house with a long crack",
+      "summary": "Nara sees the Bell: old, huge and dark, with a long crack running from its top to its rim."
+    },
+    {
+      "n": 39,
+      "scene": "Nara pulls a rope as the cracked bell moves slightly, Maren watching beside her",
+      "summary": "Nara rings the Bell, but it gives only a dull sound; she is angry and disappointed."
+    },
+    {
+      "n": 40,
+      "scene": "Nara sweeps a stone yard with a broom in the morning light",
+      "summary": "Maren does not explain; she says only to stay a while and sweep the steps."
+    },
+    {
+      "n": 41,
+      "scene": "A cheerful round cook puts a finger to his lips at a quiet table",
+      "summary": "Odo the cook teaches Nara the quiet of meals, when everyone eats without speaking and listens."
+    },
+    {
+      "n": 42,
+      "scene": "Nara stands at an open window with a broom, smiling at the valley",
+      "summary": "Days pass; Nara notices that she has stopped asking her question, and she is content in her work."
+    },
+    {
+      "n": 43,
+      "scene": "Nara rings the cracked bell at dawn, and the valley lies golden below",
+      "summary": "On the seventh morning she rings the Bell again; it makes no sound, but she hears the whole valley."
+    },
+    {
+      "n": 44,
+      "scene": "Maren and Nara sit side by side on a bench in the bell house",
+      "summary": "Maren explains: the Bell cracked long ago and rings only in the listening; some hear it in a day, some in many years, and some perhaps never."
+    },
+    {
+      "n": 45,
+      "scene": "Nara and Maren on the bench, Nara counting on her fingers as she speaks",
+      "summary": "Maren asks what the road taught her, and Nara lists the ferryman, the salt seller, the weaver and the child."
+    },
+    {
+      "n": 46,
+      "scene": "Nara looks out over the mountains with her mended cup in her hands",
+      "summary": "Nara sees that she is for what is in front of her, done with care, and for the people who come to her door."
+    },
+    {
+      "n": 47,
+      "scene": "Nara shoulders her bag at the monastery gate while Maren waves goodbye",
+      "summary": "Nara thanks Maren and sets out for home; Maren says that the road down is the same road, seen from the other side."
+    },
+    {
+      "n": 48,
+      "scene": "Nara greets Pell, Hesta, Lio and an old woman along the road, all smiling",
+      "summary": "On the way home Nara visits Pell, Hesta, Lio and the others, and thanks each of them properly."
+    },
+    {
+      "n": 49,
+      "scene": "Nara and her mother meet at the door of the house in Alder Ford",
+      "summary": "Nara reaches Alder Ford, where Orin and Edda welcome her, and she tells them what she has found."
+    },
+    {
+      "n": 50,
+      "scene": "A small stone rest house with a kiln at a crossroads by a village",
+      "summary": "Nara builds a little rest house with a kiln at the crossroads, where every traveller gets a cup of water."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Nara is a young potter, and she lives in Alder Ford.",
+      "She made many cups, but she was not happy inside.",
+      "Master Orin said he did not know, but he told her a story.",
+      "Orin gave her a plain cup and three rules for the road.",
+      "Her mother packed bread, and Nara left at dawn.",
+      "Nara walked very fast, and soon her feet were sore.",
+      "At the wide river, an old man with a boat asked for a story.",
+      "Her first story was dull, but her second story made Pell laugh.",
+      "Pell said that the river never hurries, but it arrives.",
+      "On the salt flats, Nara met a woman with a heavy cart.",
+      "The fog came, so Nara stood still and heard a dog bark.",
+      "A family in the woods gave her soup, and she was glad.",
+      "Brenna said that she never asked such a big question.",
+      "Nara left early, and she did not say thank you.",
+      "In Brightwater, Nara fixed broken pots and earned some coins.",
+      "A rich man offered her a good place in his workshop.",
+      "Nara almost said yes, but an old servant spoke to her.",
+      "Nara said no, and she left the town at dawn.",
+      "In the rain, Nara dropped her purse into a fast stream.",
+      "An old woman gave Nara bread, and Nara thanked her warmly.",
+      "A blind weaver named Lio let Nara sleep in his house.",
+      "Lio said that one thread by itself does nothing.",
+      "Nara stayed for three days and helped the weaver.",
+      "Nara walked up to the Narrow Gate as snow began to fall.",
+      "On the path, she met an old man coming down the mountain.",
+      "A storm began, and Nara hid in a cave and felt unsure.",
+      "Nara dropped her cup on a rock, and it cracked.",
+      "Nara cried, and then she remembered that she could mend things.",
+      "The cup still held water after the crack, and Nara smiled.",
+      "In the morning, Nara found a little girl crying on the path.",
+      "Nara shared her bread and lifted the girl onto her back.",
+      "They walked slowly, and the child asked where Nara was going.",
+      "They found the caravan, and her mother cried with joy.",
+      "The traders offered coins, but Nara only took a coat and bread.",
+      "Nara climbed the last steps, and she saw the monastery gate.",
+      "The woman was Keeper Maren, and she gave Nara some soup.",
+      "Next morning, Nara asked to ring the Bell, and Maren led her.",
+      "The Bell was old and large, and it had a long crack.",
+      "Nara rang the Bell, but it made only a dull sound.",
+      "Maren said only, please stay, and sweep the steps with me.",
+      "At meals, Odo the cook asked everyone to be quiet.",
+      "The days passed, and Nara no longer asked her big question.",
+      "On the seventh morning, Nara rang the Bell again, quite calmly.",
+      "Maren said that the Bell rings only for those who listen.",
+      "Maren asked what the road had taught Nara, and Nara told her.",
+      "Nara understood that she was for the next task, and for others.",
+      "Nara thanked Maren and started the walk home.",
+      "On the way home, she thanked each person she had met.",
+      "At last Nara came home to Alder Ford, and Orin and Edda were there.",
+      "Nara built a rest house at the crossroads, and she called it the Cracked Cup House."
+    ],
+    "B1B2": [
+      "Nara is seventeen, and she lives in the river village of Alder Ford. Every morning she sits at the potter's wheel, where the smoke from the kilns drifts over the red roofs.",
+      "Nara has made a hundred cups this year, and every one is good. However, she cannot stop asking herself a question, which is, what am I for?",
+      "Master Orin sighs and says he does not know the answer. But he has heard of a Quiet Bell on a high mountain, which only helps those who come with a true question.",
+      "Orin gives Nara the first cup she ever made, which is lopsided and thick. He tells her the pilgrim's rule: carry little, take what is given, and give what you can.",
+      "Her mother Edda baked a loaf, wrapped it in a cloth and put it in her bag. At dawn Nara set out along the red road, and her mother stood at the door.",
+      "In the first days, Nara walks as quickly as she can, counting every mile and thinking only about the end. By the fourth evening her feet are blistered and she is exhausted.",
+      "At the wide River Wend, an old ferryman named Pell is waiting with his flat boat. He does not want her coins, because he takes a story as the fare.",
+      "Nara tells a dull story about the Quiet Bell, and Pell yawns. Then he asks her to tell him what it feels like to put her hands in wet clay, and she makes him laugh.",
+      "In the middle of the river, Pell points at the water and tells her something simple. The river never hurries, he says, and yet it always reaches the sea.",
+      "On the grey salt flats by the sea, Nara meets a woman named Hesta, who is pushing a heavy cart of salt. Nara helps her, and Hesta warns her that fog is coming.",
+      "The fog comes down, and Nara can no longer see the road. She stops and stands still, which is not like her at all, and she hears a dog barking far away.",
+      "That night Nara reaches a charcoal burner's hut in the woods. The family has little, but they give her hot soup, and a boy named Tam asks where she is going.",
+      "Nara tells them about her question, and Brenna smiles. She says that she has never asked it, because she is too busy feeding her children and keeping the fire.",
+      "Nara leaves before sunrise and does not say thank you. She tells herself that these people are too simple to understand her, but she feels uneasy as she walks.",
+      "In the busy town of Brightwater, Nara sets up a small stool in the market and mends broken pots. People pay her well, and she is proud of her skill.",
+      "A rich merchant named Corvin sees Nara's work and offers her a place in his big workshop. He promises her good pay, a warm bed and a safe future.",
+      "Nara is almost ready to say yes to the merchant and stay. That night, however, Dilys, the old servant, tells her quietly that many pilgrims have stayed in this house and never finished their journey.",
+      "In the morning Nara thanks Corvin politely, and she tells him no. He is angry, but she walks out into the dawn feeling oddly light.",
+      "The road climbs into the hills, and the autumn rain begins. While crossing a stream on stepping stones, Nara slips, and the water carries her purse away.",
+      "At a farm gate an old woman sees Nara's face and hands her a warm loaf without a word. Nara takes it, and for the first time she says thank you from her heart.",
+      "In a hill town Nara meets Lio, a blind weaver who lets her sleep in his workshop. He shows her how he weaves by touch alone, and his hands never hesitate.",
+      "Lio tells Nara that one thread alone does nothing at all. He says that he never asks a thread what it is for, but he trusts that it belongs in the cloth.",
+      "Nara stays in the blind weaver's house for three days and learns to weave a little. She also mends the leaking roof of his shed with some of her own clay.",
+      "Nara thanks Lio and sets off again toward the mountains in the cold morning. The road climbs to a high pass called the Narrow Gate, and as she reaches it, the first snow of winter starts to fall.",
+      "In the snow Nara meets an old pilgrim named Joss, who is coming down from the mountain. He says that he reached the Bell, but that it rang nothing at all.",
+      "A fierce storm drives Nara into a small cave beside the path. She sits shivering and thinks about what Joss said, and she wonders whether she should turn back.",
+      "To get water, Nara fills her cup with melted snow. Her cold fingers slip, the cup falls on a rock, and a long crack runs from the rim to the base.",
+      "Nara cries for a while, because the cup was a gift from her teacher. Then she remembers that she mends things for a living, and she melts a little pine pitch to fix the crack.",
+      "Nara fills the cup again, and the water stays inside. The dark line of pitch is still there, but the cup is now stronger than before, and she smiles for the first time in days.",
+      "The storm ends, and in the morning Nara finds a little girl crying on the path. Her name is Wynn, and she has been separated from her family's caravan.",
+      "Nara gives Wynn the last of her bread and wraps her in the warm scarf. Then she lifts the girl onto her back and begins to walk down the mountain.",
+      "As they walk slowly down the mountain, Wynn asks where Nara is going. Nara tells her that she is travelling to find a bell, and they sing marching songs together to keep warm.",
+      "At last Nara and Wynn see smoke from the caravan's fires at the foot of the pass. Wynn's mother, Marta, runs to meet them, and she cries with joy.",
+      "The traders offer Nara a bag of silver coins as thanks. She refuses it, and she takes only a warm coat and a loaf of bread, because the pilgrim's rule says to carry little.",
+      "At last Nara reaches the top of Mount Hallow. Before her stands the monastery gate, and a calm woman in a grey robe is sweeping the stone steps.",
+      "The woman at the gate is Keeper Maren, the head of the monastery. She admires Nara's mended cup and asks no questions, but she gives her hot soup and a warm bed.",
+      "The next morning, Nara asks if she may ring the Bell. Maren nods, and she leads her up a short path to a small stone house at the top of the mountain.",
+      "In the bell house hangs a huge, dark bronze bell. A long crack runs from the top to the rim, and Nara realises with a shock that the Bell is broken.",
+      "Nara pulls the rope with all her strength, and the great Bell swings and strikes. It gives only a dull thud and then it is silent, and she feels angry and empty.",
+      "Maren does not explain anything, and she offers no comfort or apology. She only says that Nara is welcome to stay for a time, and she hands her a broom.",
+      "Odo, the cheerful cook, teaches Nara how to eat in silence. At each meal nobody speaks, and Nara begins to hear the spoons, the wind and even her own breathing.",
+      "Several days pass in sweeping, carrying water and scrubbing pots. One afternoon Nara notices that she has not asked her big question for a long time, and her heart is calm.",
+      "On the seventh morning Nara climbs up and rings the Bell once more. This time it gives no sound, yet she hears the wind, the birds and the brooms far below.",
+      "Maren tells Nara that the Bell cracked a long time ago. She says that it rings only inside the person who listens, and some hear it quickly while others hear it after many years.",
+      "Maren asks what Nara learned on the long road. Nara thinks of Pell, Hesta, Brenna, Lio and little Wynn, and she begins to tell Maren about each of them.",
+      "Nara looks at her cup and begins to understand. She is for the work that is in front of her, done with care, and for the people who come to her door.",
+      "Nara thanks Maren, hugs Odo and says goodbye at the monastery gate. Maren tells her that the road home is the same road, but she will see it with new eyes.",
+      "On the road home, Nara stops to see everyone who helped her. She thanks Pell, Hesta, Lio, Brenna and the old woman with the bread, and this time she tells them a good story.",
+      "At last Nara reaches Alder Ford on a bright winter evening, and her mother runs to the door. Master Orin comes slowly after her, and she tells them all that happened on her long road.",
+      "At the crossroads outside Alder Ford, Nara builds a small rest house with a kiln. Any traveller may sit there and drink water from a mended cup, and she calls it the Cracked Cup House."
+    ],
+    "C1C2": [
+      "In the river village of Alder Ford, where smoke from a dozen kilns drifted over the red roofs each morning, a seventeen-year-old apprentice named Nara sat at the potter's wheel and shaped cups. Her hands were quick and clever, and her teacher, the old master Orin, praised her more often than she admitted to anyone. Yet something deep inside her, a small and stubborn voice that she could neither silence nor explain, refused to be quiet.",
+      "By midsummer Nara had made a hundred cups, each one smooth, even and sound, and not one of them had answered the question that followed her about like a shadow. What am I for, she kept wondering, and why does a girl with steady hands feel so lost? The other apprentices simply laughed whenever she mentioned it, and told her cheerfully that she thought too much for a girl who worked with clay.",
+      "When Nara finally asked him, Master Orin put down his tools, rubbed the clay from his fingers, and admitted that he had no answer to give her. He had heard, however, of the Quiet Bell on Mount Hallow, a bronze bell in a mountain monastery far away to the north, which was said to help those who came to it with a true question. The road to it, he warned, was long and the way was hard, and nobody could say for certain what a pilgrim would find at the end.",
+      "From a shelf Orin took down the first cup Nara had ever made, a thick, lopsided thing that she had believed long since thrown away, and he placed it in her hands. Every pilgrim, he said, should follow three rules, which were to carry little, to take whatever was freely given, and to give whatever one could spare. She turned the humble cup over and over and wondered why he had kept it for so long.",
+      "Her mother, Edda, said little, but that night she baked a loaf of bread, wrapped it carefully in a clean cloth, and slipped it into Nara's bag beside the cup. At dawn, as the first light turned the river pink, Nara walked out of Alder Ford along the red-brick road, and when she looked back, her mother was still standing in the doorway, one hand raised. Nara had not realised, until that moment, how heavy a small wave of the hand could be to carry away.",
+      "In those first days Nara walked as if the mountain might run away, counting the milestones, scowling at the slow carts, and thinking of nothing except the end of the journey. By the fourth evening she was blistered, hungry and bad-tempered, and she had not noticed a single tree, a single bird or a single kind face along the way. The road, she began to suspect, was trying to tell her something, and she was far too busy to listen.",
+      "The River Wend was so broad that the far bank seemed a distant rumour, and on the near shore an old ferryman named Pell sat mending a rope beside his flat wooden boat. When Nara held out her coins, he waved them away with a wrinkled hand and explained that he took only stories as fare, being fond of a good one. Nara, who had never told a story in her life, felt her face grow hot.",
+      "Nara began with the Quiet Bell and her great question, but she told it so stiffly that the ferryman yawned and rubbed his eyes. Then he asked her instead what it felt like to put her hands into wet clay, and she found herself talking with surprising ease about the cold slip and the humming wheel. By the time she had described the cup that rose between her palms like a small miracle, Pell was laughing and leaning on his pole.",
+      "Halfway across, with the current sliding quietly beneath the boat, Pell nodded at the water and remarked that in all his years on the Wend he had never once seen it hurry. It never rushes, he said, and it never stops, and nevertheless it has always got to the sea. Nara said nothing, but she looked at her blistered feet and felt that the river had been talking about her.",
+      "The land beyond the river was flat, grey and shining with salt, and there Nara met a broad-shouldered woman named Hesta, who was struggling to push a cart of salt through the mud. Nara put her shoulder to the cart without being asked, and the two of them heaved it onto firm ground. Hesta, grateful and out of breath, warned her that a thick fog often came down on the marsh road at this time of year.",
+      "The fog came down at midday as thick as wool, and within a hundred paces Nara had lost the road, her bearings and very nearly her temper. She hurried on in a circle, stumbling and calling, until at last she did the one thing she had never done on this journey, which was to stop and stand perfectly still. In that silence she heard a dog barking far away, and she followed the sound, one careful step after another, until the fog thinned, having found her way by doing nothing at all.",
+      "That night she reached a smoky clearing in the woods where a charcoal burner's family lived in a low hut with a roof of turf. They had very little, but the mother, Brenna, ladled out a bowl of hot soup for the stranger as though it were the most natural thing in the world. A boy named Tam, who had been watching Nara with round eyes, asked her where in the world she was going.",
+      "When Nara explained her great question, the woman only smiled, stirred the pot, and said that she had never once asked such a thing, having always been too busy feeding the children and keeping the fire alive. It seemed to Nara a very small answer to a very large problem, and she felt a little disappointed. She said nothing, but inside her a small voice declared that a person with a gift for clay was surely meant for something grander than soup.",
+      "She left before sunrise without waking anyone, and without saying the word of thanks that was owed, telling herself that these simple people could never understand her great quest. All morning the soup sat warm in her memory, and so did the feeling that she had been rude, and that pride had made her a poorer traveller than she had been in the fog. She walked on all the same, with a small, cold stone of unease sitting somewhere under her ribs.",
+      "Brightwater was a bustling market town of striped awnings and shouting sellers, and there Nara set up a little stool at the corner of the square and offered to mend broken pots. The work came quickly to her clever fingers, the coins in her purse multiplied, and she began to think rather well of herself. It had been a long time since anyone had asked her what she was for.",
+      "A rich merchant named Corvin, who had watched her work for an hour with narrowed eyes, offered her a place in his great workshop at three times the wages she could earn on the road. He spoke of a warm bed, regular meals and a secure future, and he spoke so charmingly that she began, half against her will, to imagine it. Was this, she wondered, with the lamplight shining on the polished table, perhaps what she had been made for all along?",
+      "That evening Nara was very nearly ready to say yes, and she sat turning the offer over in her mind until Dilys, the merchant's silent old servant, brought her a candle and bent to whisper in her ear. Many pilgrims had stayed in this house, the old woman murmured, drawn by the same good pay and the same warm bed, and not one of them had ever finished the journey. Then she slipped out of the room as quietly as she had come, and left Nara alone with the flickering candle.",
+      "In the morning Nara thanked the merchant for his kindness and told him, as politely as she could, that she had a mountain to climb. His face darkened and his voice rose, and he called her a fool who threw away good fortune, but she picked up her bag and walked out into the pale dawn. Strangely, as she went down the cobbled street toward the town gate, she felt as light as a leaf in the wind.",
+      "The road now climbed into the hills, and autumn rain began to fall in long cold sheets. While crossing a rushing stream on slippery stepping stones, Nara lost her footing, and the water snatched her purse from her belt and carried it out of sight, with every coin she had earned in Brightwater. She stood in the stream, soaked and stunned, with nothing left but her bag, her bread and the little clay cup.",
+      "At last an old woman standing at a farm gate took one look at Nara's face, disappeared into the house, and came back with a warm loaf, which she pressed into the girl's hands without a word. Nara, who had spent her whole life giving and earning, stood there trembling, and then she did the hardest thing of all, which was to accept it and say thank you from the bottom of her heart. It was, she realised, a kind of gift in itself, for the old woman had been given the chance to be generous.",
+      "In a steep little town of stone houses, a blind weaver named Lio heard Nara's footsteps in the lane, guessed at her weariness, and offered her a corner of his workshop for the night. In the morning she sat and watched his long fingers move over the loom, passing the shuttle through the threads without hesitation. He could not see a single colour, yet his cloth was the most beautiful she had ever touched.",
+      "A single thread alone does nothing, Lio told her, as his fingers went on working, and he had never in his life asked a thread what it was for. He simply trusted that each one, laid in its place, belonged to the cloth, and that the pattern was something to be felt in the doing rather than known in advance. Nara, who had come so far with her question, felt it turn over in her mind like a stone in a stream.",
+      "She stayed for three days, learning the simple patterns of the loom, fetching water from the well and mending the leaking roof of Lio's shed with a patch of fired clay tile that she shaped on his hearth. In that small house she felt no hurry at all, and, for the first time since leaving Alder Ford, she wanted nothing more than the task in front of her. It was a calm that she had not known since she was a very small child, playing in the mud by the river.",
+      "Nara thanked Lio, tucked a woollen scarf that he had woven around her neck, and set off once more toward the mountains. The road climbed steeply to a high pass named the Narrow Gate, a gap between two walls of rock, and as she approached it, the first snow of the winter began to drift out of a heavy grey sky. The wind sharpened until it stung her cheeks, and every step grew harder and slower than the one before.",
+      "In the swirling snow she met an old pilgrim named Joss, who was coming down the path with a bowed head and a heavy step. He told her bitterly that he had reached the monastery at the very top of the mountain, that he had rung the famous Bell with all his strength, and that it had made no sound whatever. Years of his life, he said, had gone into that road, and for nothing.",
+      "The storm grew so fierce that Nara was forced to crawl into a small cave by the side of the path, where she sat shivering with her knees drawn up and her scarf over her face. Joss's bitter words rang in her mind, and doubt crept in beside her like a cold companion. Was she a fool to climb to a bell that rang nothing, and should she turn back while she still could?",
+      "To quench her thirst she melted a handful of snow and poured it into the little clay cup, but her numb fingers slipped, and the cup fell and struck a rock. When she picked it up, she found a long crack running from the rim to the base, thin as a hair and impossible to deny. It seemed to her that the last of her hopes had split with it.",
+      "Nara wept for a long while, for the cup was the only thing she had left from her master and her home. Then, wiping her eyes, she remembered that mending was exactly what she did best, and she gathered some sticky pine resin from a tree beside the cave and warmed it over a tiny fire. She pressed it carefully into the crack until the cup was whole again, though now marked with a dark, shining line.",
+      "She filled the mended cup with snow-melt and watched, holding her breath, as it kept every drop. The dark seam of resin still ran across it from rim to base, but the cup seemed more handsome than before, and somehow more truly hers. For the first time in days she laughed, and the sound echoed oddly in the little cave, as though the mountain were listening.",
+      "The storm blew itself out in the night, and at dawn Nara climbed out into a world of blinding white, where she soon discovered a small girl in a red hood sitting alone on the path and crying. Her name was Wynn, she sobbed, and she had been separated from her mother and the traders' caravan during the storm. She was perhaps five years old, and her small hands were blue with cold and her lashes stiff with frost.",
+      "Nara knelt in the snow, shared her last piece of bread with the shivering child, wrapped the woollen scarf twice around her neck, and then swung her up onto her back. The pilgrim's third rule, to give what you can, was simpler than she had expected, since it asked only that she notice who needed help. She set off downhill, slowly and carefully, through the blue shadows of the snow.",
+      "As they picked their way down the slope, Wynn, now warmer, asked in her small voice where Nara was going, and Nara said that she was going to find a bell. Wynn thought this was a splendid reason, and she began to sing a marching song that she had learned from the caravan drivers, and Nara, to her own surprise, sang with her. Their two voices, one small and one cracked with tiredness, carried across the snow like bright little flags.",
+      "By late morning they saw smoke curling up from a cluster of wagons at the bottom of the pass, and a woman came running toward them across the snow, calling Wynn's name. It was her mother, Marta, who had searched all night with a lantern and had nearly given up hope. She caught the child in her arms, laughing and weeping at the same time, and could hardly find words to thank the stranger who had brought her daughter home.",
+      "The caravan master, a gruff man with a fur hat, pressed a heavy bag of silver into her hands, but Nara handed it back with a smile, remembering Orin's rule to carry little. She accepted only a thick, warm coat that one of the drivers had outgrown and a fresh loaf of bread, which was all that she truly needed. The traders watched her go with a respect that none of them could quite explain.",
+      "After many more days of climbing, Nara came at last to the summit of Mount Hallow, where a plain stone monastery stood in a hollow among the clouds. Before its wooden gate, a calm woman in a grey robe was sweeping the stone steps with a broom of twigs, as though she had all the time in the world. Nara, who had rehearsed a great speech for months, found that she could not remember a single word.",
+      "The sweeper turned out to be the Keeper of the monastery, a woman named Maren, with a lined face and humorous eyes. She admired the mended cup for a long moment, filled it with hot soup without asking a single question about why the girl had come, and led her to a narrow, warm bed in a quiet room. Nara fell asleep in the warm dark before she could finish saying how grateful she was for the soup and the bed.",
+      "The next morning, Nara found the courage to ask whether she might ring the Quiet Bell. Maren, without any sign of surprise, nodded and led her up a short, frozen path to a small stone house on the very peak of the mountain. The wind blew thin and clear, the whole world lay spread out below them in silver light, and Nara's heart was beating hard.",
+      "Inside the bell house hung a huge bronze bell, dark with age and green at the edges. When Nara's eyes grew accustomed to the dim light, she saw with a shock that a long crack ran from its crown all the way to its rim. This was the Bell that had drawn her across rivers, marshes and mountains, and it was plainly broken beyond repair, which brought old Joss and his bitter face at once to her mind.",
+      "Nara seized the rope and pulled with all the strength she had left, and the great Bell swung and struck, but it gave out only a dull, short thud, like a stick against a door. Silence followed, wide and perfect, and in it she felt the whole weight of her disappointment, her tired legs and her wasted weeks. Joss, it seemed, had been right, and the road had led nowhere at all.",
+      "Maren offered no explanation, no comfort and no apology, only a broom and a smile, and she said that Nara was welcome to stay a while if she wished to. Having nowhere else to go, and too tired to be proud, Nara took the broom and began to sweep the stone steps, then to carry water from the spring, and then to scrub the great pots in the kitchen. She expected to be bored by such humble tasks, and was astonished to find that she was not.",
+      "The monastery cook was a round and cheerful man named Odo, who loved silence at meals as other men love music, and who showed Nara how to eat without speaking a single word. At first the quiet felt strange and almost rude, but gradually she began to hear the chiming of spoons, the sigh of the wind in the chimney and the soft, steady rhythm of her own breathing. It was like discovering a room in a house she had always lived in.",
+      "The days slipped by in sweeping, carrying and scrubbing, and each one seemed a little simpler than the last. One afternoon, standing with a broom at a window that looked out over a sea of cloud, Nara realised that she had not asked her great question for a long time. Her hands were busy and her heart was quiet, and although she was too sensible to say that this was the answer, she wondered.",
+      "On the seventh morning she climbed up to the bell house alone, without being asked, and rang the Bell very gently, in no hurry and without hope or complaint. It made no sound that her ears could name, yet in the stillness that followed she heard the wind in the high grass, the calling of a distant bird and the faint scrape of brooms on stone far below. Everything around her seemed to be singing at once, and the song had been there all along, waiting only for her to listen.",
+      "Maren told her that the Bell had cracked long ago in a savage winter, and that since then it had given out no ordinary note, only an invitation to attend. Some pilgrims, she said, heard it on the first morning, some only after many years, and some perhaps never, for the Bell made no promise to any of them. Joss had not heard it, she added gently, though she hoped that one day he would.",
+      "Then Maren asked, quite casually, what the road had taught her, and Nara began to count on her fingers. There was the ferryman who took stories as fare, the salt seller who needed a pair of shoulders, the family who shared their soup, the old woman who gave bread, the blind weaver and the lost child. As she spoke, she saw that every one of them had given her something, and that each of them had been a kind of answer.",
+      "Looking down at her mended cup, Nara began to understand that she was probably for the task in front of her, done with care, and for the people who came to her door. It was a modest answer, nothing like the thunder she had imagined at the start. Yet it fitted her hands as the cup fitted her palm, and she knew that she could live inside it.",
+      "At the end of the month, Nara thanked Keeper Maren, hugged Odo, who was too moved to speak, and shouldered her bag at the monastery gate. The road home, said Maren, was exactly the same road, and yet Nara would find that she walked it with new eyes. The girl laughed, because she had begun to see that this was true of almost everything.",
+      "On the road home she stopped to see everyone who had helped her, and she paid Pell his fare with a story that made him laugh until he wept. She thanked Brenna and young Tam for the soup she had never thanked them for, swept Hesta's doorstep, and drank tea in Lio's loft while the loom clacked beside her. The old woman at the farm gate gave her another loaf, and this time Nara received it as a friend, because each of them, she found, had been waiting.",
+      "She came into Alder Ford on a bright winter evening with the smoke of the kilns drifting over the red roofs, exactly as she had left them. Her mother ran out of the door with flour on her hands and tears on her cheeks, and old Master Orin came limping behind her. Nara sat with them for half the night, telling the whole story of the road, the Bell and the cracked cup, and when she had finished, Orin looked at the cup and began to smile.",
+      "At the crossroads outside Alder Ford, Nara built a small stone rest house with a kiln at one end and a long table in the middle, and she named it the Cracked Cup House. Every traveller who stopped there was given soup, a cup of cool water and a place to rest, and every cup on the shelf had been mended at least once. Pilgrims often asked her what she was for, and she answered, with a glance at the dark seam in her cup, that she was for whoever happened to be standing at the door."
+    ]
+  }
+}

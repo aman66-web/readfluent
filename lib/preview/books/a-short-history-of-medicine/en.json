@@ -1,0 +1,417 @@
+{
+  "slug": "a-short-history-of-medicine",
+  "meta": {
+    "blurb": "From the first herbs and healers to vaccines, scans and gene tests, this is the story of how people learned to fight disease. Meet the thinkers who got it wrong, the ones who got it right, and the ideas that changed everything.",
+    "bible": "A guide with no fictional characters: a clear, warm and curious overview of the history of medicine, told in order of time, in one idea at a time. It is general history and is not medical advice. Every fact is real and hedged where historians disagree; no invented dates, numbers or quotes. People and places: Hippocrates (Greek physician of Kos, about 460 to 370 BC), Galen (Pergamon, born about AD 129), Al-Razi, Ibn Sina (Avicenna), Andreas Vesalius (1543), William Harvey (1628), Antonie van Leeuwenhoek, Robert Hooke, William Morton (ether, Boston, 1846), James Simpson, Lady Mary Wortley Montagu, Edward Jenner (1796), John Snow (Broad Street, Soho, 1854), Louis Pasteur, Ignaz Semmelweis (Vienna, 1847), Joseph Lister (Glasgow, 1867), Robert Koch, Florence Nightingale (Scutari), Elizabeth Blackwell (1849), Elizabeth Garrett Anderson (1865), Joseph Bazalgette, Wilhelm Röntgen (1895), Karl Landsteiner (1901), James Lind (1747), Frederick Banting, Charles Best, James Collip, John Macleod, Leonard Thompson (1922), Alexander Fleming (1928), Howard Florey, Ernst Chain, Jonas Salk, Albert Sabin, James Watson, Francis Crick, Rosalind Franklin, Maurice Wilkins (1953), Joseph Murray (1954), Christiaan Barnard (Cape Town, 1967), Cicely Saunders (St Christopher's Hospice, 1967). Key terms: Egypt, Egyptian, Edwin Smith Papyrus, Ebers Papyrus, Papyrus, Ayurveda, Sushruta Samhita, Acupuncture, Humours, Phlegm, Bile, Hippocratic Oath, Cloaca Maxima, Canon of Medicine, Black Death, Plague, Quarantine, Ragusa, Dubrovnik, Venice, Smallpox, Cowpox, Vaccine, Cholera, Anaesthesia, Ether, Chloroform, Antiseptic, Carbolic acid, Tuberculosis, Penicillin, Streptomycin, Antibiotics, Insulin, Polio, Vitamin, DNA, Genome, HIV, AIDS, COVID, Ultrasound, Palliative, Placebo, Celsius, Latin, Arabic, Persian, Greek, Roman, Flemish, Scottish, Hungarian, Africa, Asia, Britain, Thames, Parliament, Epidemiology, Pancreas, Hormone, Ciclosporin, Ayurveda, Nobel, Oxford, Toronto, Cambridge, Boston, Vienna, London, Baghdad, Constantinople, Somalia, Scutari, Crimean, Soho, Glasgow, Cape Town. Voice: calm, clear, kind and curious, and honest about mistakes of the past."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Early healers gather herbs beside a cave fire at dusk",
+      "summary": "People have always fallen ill, and the first healers used plants, rest and simple care."
+    },
+    {
+      "n": 2,
+      "scene": "A scribe writes on a long papyrus scroll in a sunlit stone room",
+      "summary": "Egyptian papyri from about 3,500 years ago describe injuries and remedies."
+    },
+    {
+      "n": 3,
+      "scene": "A teacher in a courtyard shows students leaves and bronze instruments",
+      "summary": "In India, Ayurveda and the Sushruta Samhita describe herbs, diet and surgery."
+    },
+    {
+      "n": 4,
+      "scene": "A healer places thin needles in a patient's arm beside jars of herbs",
+      "summary": "Chinese medicine built a long tradition of herbs and acupuncture, and gave us one modern drug."
+    },
+    {
+      "n": 5,
+      "scene": "A Greek physician in a white robe examines a patient on a stone bed",
+      "summary": "Hippocrates and his followers looked for natural causes of illness."
+    },
+    {
+      "n": 6,
+      "scene": "Four glass bottles of coloured liquid stand on a wooden table",
+      "summary": "The Greek theory of four humours was wrong but shaped medicine for about two thousand years."
+    },
+    {
+      "n": 7,
+      "scene": "A young doctor raises one hand while older doctors watch in a hall",
+      "summary": "The Hippocratic Oath is an old promise to help patients, and new doctors still make a version of it."
+    },
+    {
+      "n": 8,
+      "scene": "A Roman physician studies an animal's body beside scrolls in lamplight",
+      "summary": "Galen, doctor to gladiators and emperors, wrote hundreds of books but learned anatomy from animals."
+    },
+    {
+      "n": 9,
+      "scene": "A Roman aqueduct carries water across a valley as people bathe nearby",
+      "summary": "The Romans built aqueducts, drains and army hospitals that kept cities healthier."
+    },
+    {
+      "n": 10,
+      "scene": "Doctors in turbans study a thick book in a bright hospital courtyard",
+      "summary": "Doctors in the Islamic world built hospitals, preserved Greek knowledge and added their own discoveries."
+    },
+    {
+      "n": 11,
+      "scene": "A narrow medieval street where a cart rolls by and shutters are closed",
+      "summary": "The Black Death reached Europe in 1347 and killed perhaps a third of its people."
+    },
+    {
+      "n": 12,
+      "scene": "Sailing ships wait at anchor outside a harbour town beneath a banner",
+      "summary": "Port cities began to hold ships back, which gave us the word quarantine."
+    },
+    {
+      "n": 13,
+      "scene": "A young scholar draws the muscles of a body in a lecture hall",
+      "summary": "Vesalius published a book in 1543 based on his own dissections that corrected Galen."
+    },
+    {
+      "n": 14,
+      "scene": "A physician holds a patient's arm and points at veins beside a heart drawing",
+      "summary": "William Harvey showed in 1628 that the heart pumps blood around the body in a circle."
+    },
+    {
+      "n": 15,
+      "scene": "A man peers through a tiny brass microscope at a drop of water",
+      "summary": "Leeuwenhoek used tiny lenses to see living creatures too small for the eye."
+    },
+    {
+      "n": 16,
+      "scene": "A surgeon holds a pocket watch beside a wooden table in an old hospital",
+      "summary": "Before anaesthesia, surgery was an agonising last resort, and surgeons worked as fast as they could."
+    },
+    {
+      "n": 17,
+      "scene": "Doctors in a domed hospital theatre watch a patient asleep on a table",
+      "summary": "In 1846 ether was shown to make surgery painless, and chloroform followed in 1847."
+    },
+    {
+      "n": 18,
+      "scene": "A woman in a silk dress watches a doctor prick a child's arm",
+      "summary": "Variolation protected people from smallpox, and Lady Mary Wortley Montagu brought it to Britain."
+    },
+    {
+      "n": 19,
+      "scene": "A country doctor scratches a boy's arm while a milkmaid and cows watch",
+      "summary": "In 1796 Edward Jenner used cowpox to protect against smallpox and began vaccination."
+    },
+    {
+      "n": 20,
+      "scene": "A health worker vaccinates a child in a village while a crowd queues",
+      "summary": "Smallpox was wiped out in 1980 after a global vaccination campaign."
+    },
+    {
+      "n": 21,
+      "scene": "A doctor studies a street map with dots near a public water pump",
+      "summary": "In 1854 John Snow mapped cholera deaths and traced them to one water pump."
+    },
+    {
+      "n": 22,
+      "scene": "A scientist in a long coat holds up a curved glass flask",
+      "summary": "Pasteur showed that microbes spoil wine and milk, which supported the germ theory of disease."
+    },
+    {
+      "n": 23,
+      "scene": "A doctor washes his hands in a basin beside a hospital bed",
+      "summary": "In 1847 Semmelweis showed that handwashing cut deaths among new mothers, but few believed him."
+    },
+    {
+      "n": 24,
+      "scene": "A surgeon in a long coat operates beneath a drifting fine spray",
+      "summary": "Lister used carbolic acid on wounds and instruments, and infections after surgery fell."
+    },
+    {
+      "n": 25,
+      "scene": "A scientist stains a slide beside a microscope and a dish of jelly",
+      "summary": "Robert Koch identified the bacteria behind anthrax and tuberculosis and set rules for proving a germ causes a disease."
+    },
+    {
+      "n": 26,
+      "scene": "A nurse carries a small oil lamp through a long hospital ward at night",
+      "summary": "Florence Nightingale improved hospital cleanliness, used statistics and founded modern nurse training."
+    },
+    {
+      "n": 27,
+      "scene": "A woman in a dark Victorian dress receives a certificate in a hall",
+      "summary": "Elizabeth Blackwell and Elizabeth Garrett Anderson broke through the barriers keeping women out of medicine."
+    },
+    {
+      "n": 28,
+      "scene": "Workers lay brick sewers under a Victorian city street",
+      "summary": "After the Great Stink of 1858, new sewers and clean water helped to end cholera in London."
+    },
+    {
+      "n": 29,
+      "scene": "A hand with a ring appears as dark bones on a glowing plate",
+      "summary": "In 1895 Röntgen discovered X-rays, which let doctors see inside the body."
+    },
+    {
+      "n": 30,
+      "scene": "Four test tubes of blood in a rack on a laboratory bench",
+      "summary": "In 1901 Landsteiner found the blood groups, which made safe transfusions possible."
+    },
+    {
+      "n": 31,
+      "scene": "A sailor on a wooden ship holds a lemon beside a crate of oranges",
+      "summary": "In 1747 James Lind compared remedies for scurvy, and citrus fruit won; vitamin C was found much later."
+    },
+    {
+      "n": 32,
+      "scene": "A boy sits up in bed as a doctor holds a small bottle",
+      "summary": "In 1922 insulin was first used to treat diabetes, and it saved children who would otherwise have died."
+    },
+    {
+      "n": 33,
+      "scene": "A mould-spotted dish sits on a lab bench beside a microscope",
+      "summary": "Fleming noticed a mould that killed bacteria in 1928, and Florey and Chain turned it into penicillin."
+    },
+    {
+      "n": 34,
+      "scene": "A nurse hands a small bottle of medicine to a smiling child",
+      "summary": "Antibiotics turned many deadly infections into curable ones and made operations safer."
+    },
+    {
+      "n": 35,
+      "scene": "Children line up in a school hall to receive a vaccine",
+      "summary": "Salk and Sabin made polio vaccines in the 1950s, and polio has since almost disappeared."
+    },
+    {
+      "n": 36,
+      "scene": "A rising line on a graph beside old and new street scenes",
+      "summary": "Average life expectancy rose from about thirty years around 1800 to over seventy today."
+    },
+    {
+      "n": 37,
+      "scene": "Two groups of patients in a clinic receive small identical pills",
+      "summary": "Fair tests, such as the 1948 streptomycin trial, became the standard way to know whether a treatment works."
+    },
+    {
+      "n": 38,
+      "scene": "A twisting ladder of glowing beads stands beside an X-ray photograph",
+      "summary": "In 1953 the double helix structure of DNA was described, opening the way to modern genetics."
+    },
+    {
+      "n": 39,
+      "scene": "Surgeons in green gowns gather around an operating table under bright lights",
+      "summary": "In 1954 a kidney was transplanted between identical twins, the first lasting organ transplant."
+    },
+    {
+      "n": 40,
+      "scene": "A surgeon in Cape Town holds a mask beneath a large operating light",
+      "summary": "In 1967 the first human heart transplant was carried out, and later drugs made transplants reliable."
+    },
+    {
+      "n": 41,
+      "scene": "A patient lies inside a large white scanner while a doctor watches a screen",
+      "summary": "Ultrasound, CT and MRI scanners let doctors see inside the body without cutting."
+    },
+    {
+      "n": 42,
+      "scene": "A bright modern garden room where two people talk on sofas",
+      "summary": "Care for mental illness moved from harsh asylums to medicines, talking therapies and community support."
+    },
+    {
+      "n": 43,
+      "scene": "A kind nurse sits beside an elderly patient in a quiet bright room",
+      "summary": "Cicely Saunders opened a hospice in 1967 and made comfort and dignity part of medicine."
+    },
+    {
+      "n": 44,
+      "scene": "A red ribbon is pinned to a coat beside a small bottle of tablets",
+      "summary": "HIV was identified in the early 1980s, and combination drugs from 1996 made it a manageable condition."
+    },
+    {
+      "n": 45,
+      "scene": "Scientists in white coats work in a bright laboratory with glass vials",
+      "summary": "Vaccines against COVID-19 were approved in under a year, building on decades of research."
+    },
+    {
+      "n": 46,
+      "scene": "Green bacteria drawn around a single white pill",
+      "summary": "Overuse of antibiotics breeds resistant bacteria, which is now a serious threat."
+    },
+    {
+      "n": 47,
+      "scene": "A scientist studies long strips of coloured code on a bright computer screen",
+      "summary": "The human genome was nearly fully read by 2003, and genes and computers now help doctors, though the benefits are still being tested."
+    },
+    {
+      "n": 48,
+      "scene": "A long queue of people waits outside a small village clinic in the sun",
+      "summary": "The benefits of medicine are not shared equally, and many people still lack basic health care."
+    },
+    {
+      "n": 49,
+      "scene": "A smiling person walks in a park past a doctor and a pharmacist",
+      "summary": "Prevention and good evidence have achieved as much as cures, so healthy habits and careful questions matter."
+    },
+    {
+      "n": 50,
+      "scene": "People of many ages walk together along a path at sunrise",
+      "summary": "Medicine is a long story of curiosity, care and courage that is still going on; this book is general history, not medical advice."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "People have always been ill, and people have always tried to help.",
+      "In Egypt, long ago, doctors wrote down how to treat people.",
+      "Old books from India describe plants, food and tools for surgery.",
+      "In China, doctors used herbs and thin needles to treat people.",
+      "Hippocrates was a Greek doctor who watched his patients very carefully.",
+      "Old doctors believed four liquids in the body had to stay balanced.",
+      "Many new doctors still make a promise to help their patients.",
+      "Galen was a famous doctor in Rome who wrote many books.",
+      "The Romans built long bridges that carried clean water into cities.",
+      "In the Islamic world, great hospitals taught doctors and cared for patients.",
+      "In 1347, a terrible illness began to spread across Europe.",
+      "Ships had to wait outside the port before the sailors could land.",
+      "In 1543, Vesalius made a book with very exact pictures of the body.",
+      "Harvey showed that the heart pushes blood around the body.",
+      "A small glass lens let people see tiny living things for the first time.",
+      "Before 1846, an operation was very painful, so surgeons worked fast.",
+      "In 1846, a doctor in Boston used ether to put a patient to sleep.",
+      "Smallpox was a deadly illness, and many people tried to protect children.",
+      "Edward Jenner found a safer way to protect people from smallpox.",
+      "In 1980, the world said that smallpox was gone for ever.",
+      "John Snow made a map and found a bad water pump.",
+      "Louis Pasteur proved that tiny living things make milk and wine go bad.",
+      "Ignaz Semmelweis told doctors to wash their hands, but few listened.",
+      "Joseph Lister used a strong cleaning liquid to stop wounds from going bad.",
+      "Robert Koch found the tiny living thing that causes tuberculosis.",
+      "Florence Nightingale cleaned a hospital, and then fewer soldiers died.",
+      "In 1849, for the first time, a woman in America became a doctor.",
+      "Big new sewers took dirty water away and made cities safer.",
+      "X-rays let doctors see inside a living body for the first time.",
+      "Doctors learned that people have different kinds of blood, called blood groups.",
+      "Sick sailors got better when they ate oranges and lemons.",
+      "In 1922, a new medicine called insulin helped a very sick boy.",
+      "A mould on a dish killed germs, and it became a medicine.",
+      "Antibiotics could cure many illnesses that used to kill people.",
+      "A vaccine against polio protected millions of children from harm.",
+      "People today live much longer than people did two hundred years ago.",
+      "Doctors learned to test new medicines fairly before they used them.",
+      "In 1953, scientists found the shape of DNA, which carries our genes.",
+      "In 1954, a kidney from one twin saved the life of his brother.",
+      "In 1967, a surgeon in South Africa moved a heart into a patient.",
+      "New machines let doctors see inside the body without any cutting.",
+      "People now understand that the mind needs care, just like the body.",
+      "Some doctors and nurses care for people who cannot be cured.",
+      "HIV was a new illness in the 1980s, but medicines now control it.",
+      "In 2020, scientists made vaccines against the new virus in under a year.",
+      "Germs can change so that the medicine no longer works.",
+      "Scientists have now read the whole code of human life.",
+      "Many people in the world still cannot see a doctor when they are ill.",
+      "Good health also comes from simple habits, like sleep and exercise.",
+      "The story of medicine is long, and it is not finished yet."
+    ],
+    "B1B2": [
+      "As long as there have been people there has been illness, and there have been others who tried to help. The first healers used plants, rest and simple care, and some very old skeletons show broken bones that healed well.",
+      "In ancient Egypt, doctors wrote on long rolls of papyrus, and some of them survive today. One roll, the Edwin Smith Papyrus, describes injuries in a careful and practical way, case by case.",
+      "In ancient India a system of medicine called Ayurveda grew up around food, herbs, exercise and balance. An old text named the Sushruta Samhita describes many surgical tools and operations, although scholars disagree about exactly when it was written.",
+      "Chinese medicine has a written history of more than two thousand years, and it uses herbs, food and thin needles placed in the skin. The needles are called acupuncture, and scientists still study how well it works for different problems.",
+      "Hippocrates lived on the Greek island of Kos about 2,400 years ago. He and his followers looked for natural causes of illness instead of blaming angry gods, and they wrote down what they saw in each patient.",
+      "Greek doctors taught that the body holds four liquids, called humours: blood, phlegm, yellow bile and black bile. They believed illness came when these were out of balance, and this idea shaped medicine for about two thousand years.",
+      "The Hippocratic Oath is an old promise, and new doctors in many countries still make a version of it. It asks them to help their patients, to keep their secrets and to protect them from harm.",
+      "Galen, born in Pergamon in about AD 129, became doctor to the gladiators and later to Roman emperors. Because cutting open human bodies was rarely allowed, he studied animals, so some of what he taught about people was wrong.",
+      "The Romans understood that clean water helped to keep people healthy. They built aqueducts to bring fresh water into their cities, drains such as the Cloaca Maxima to carry waste away, and hospitals for their soldiers.",
+      "From about the year 800, doctors in the Islamic world built large hospitals, translated Greek books and added new ideas of their own. Al-Razi described the difference between measles and smallpox, and Ibn Sina wrote the Canon of Medicine.",
+      "In 1347 a terrible plague reached Europe by ship, and within four years it had killed perhaps a third of the people there. Nobody knew what caused it, and doctors could do very little to stop it.",
+      "Port cities began to keep sick travellers apart, and in 1377 the city of Ragusa made ships wait thirty days before landing. Later it became forty days, and the Italian words for forty days gave us the word quarantine.",
+      "In 1543 a young Flemish scholar named Andreas Vesalius published a book called On the Fabric of the Human Body. He had studied real human bodies himself, and his detailed drawings showed that Galen had made many mistakes.",
+      "In 1628 the English doctor William Harvey published his proof that the heart pumps blood around the body in a circle. He worked out that the heart pushes out far more blood in an hour than the body could possibly make.",
+      "In the 1670s a Dutch cloth seller named Antonie van Leeuwenhoek made very small, powerful lenses. Looking through them at pond water, he saw tiny living creatures that nobody had known about.",
+      "Before the 1840s there was no way to put a patient to sleep, so surgery was a terrible ordeal. Surgeons were proud of their speed, because every minute of pain was hard for the patient to bear.",
+      "In October 1846, a dentist named William Morton showed in Boston that ether gas could make a patient fall asleep during an operation. The news crossed the ocean within weeks, and in 1847 James Simpson of Edinburgh began to use chloroform.",
+      "Smallpox killed about three in ten of the people who caught it, so many families tried to protect their children. Lady Mary Wortley Montagu saw a mild dose being given in Turkey and brought the idea to Britain in the early 1720s.",
+      "In 1796 the English doctor Edward Jenner heard that milkmaids who had caught cowpox seemed safe from smallpox. He tried the idea on a young boy and it worked, and the word vaccine comes from vacca, the Latin word for cow.",
+      "As late as 1967 smallpox still killed about two million people a year. A worldwide vaccination campaign followed, and in 1980 the World Health Organization announced that the disease had been wiped out.",
+      "In 1854 a terrible cholera outbreak struck a district of London. A doctor named John Snow marked every death on a map, and the dots gathered around one water pump.",
+      "In the 1860s the French chemist Louis Pasteur proved that tiny living things make wine and milk go sour. His work convinced many doctors that tiny germs could also cause diseases, an idea called the germ theory.",
+      "In Vienna in 1847, Ignaz Semmelweis saw that mothers died more often when doctors came from examining dead bodies. When he made the doctors wash their hands in a strong cleaning liquid, deaths in the ward fell sharply.",
+      "Joseph Lister, a surgeon in Scotland, read Pasteur's work and began to clean wounds, instruments and his own hands with carbolic acid. In 1867 he reported that far fewer of his patients now died from infection after operations.",
+      "In 1882 the German doctor Robert Koch announced that a bacterium causes tuberculosis, one of the biggest killers of his day. He also set out clear rules for proving that a particular germ causes a particular disease.",
+      "During the Crimean War in the 1850s, Florence Nightingale led nurses in a dirty, crowded army hospital. She insisted on clean wards, fresh air and good food, and the number of deaths fell.",
+      "In 1849 Elizabeth Blackwell became the first woman in the United States to earn a medical degree, after many schools had refused her. In 1865 Elizabeth Garrett Anderson became a doctor in Britain, and later she opened a hospital run by women.",
+      "After the Great Stink of 1858, the engineer Joseph Bazalgette built a huge system of sewers under London. Clean water and working drains helped to end the great cholera epidemics in the city.",
+      "In 1895 the German scientist Wilhelm Röntgen found a new kind of ray that passes through skin but not through bone. His first picture showed the bones and the ring on his wife's hand, and doctors soon began to use X-rays everywhere.",
+      "Before 1901, giving one person's blood to another often made the patient very ill or even killed the patient. Karl Landsteiner then showed that there are different blood groups, and that a safe transfusion needs a matching group.",
+      "In 1747 the Scottish naval doctor James Lind gave twelve sick sailors different remedies in six pairs. The two who ate oranges and lemons got better fastest, but the cause, a lack of vitamin C, was not understood until much later.",
+      "Before 1922, children with type 1 diabetes usually died within a few years. Then Frederick Banting and his team in Toronto made insulin from animal glands, and a boy named Leonard Thompson was one of the first patients.",
+      "In 1928 Alexander Fleming saw that a mould had killed the bacteria growing around it on a dish. A team in Oxford led by Howard Florey and Ernst Chain later turned that mould into the first widely used antibiotic.",
+      "After penicillin, other antibiotics followed, and illnesses such as pneumonia and infected wounds could often be cured. Operations and childbirth became safer, because doctors could now fight the infections that came with them.",
+      "In the 1950s Jonas Salk and Albert Sabin developed vaccines against polio, a virus that could leave children unable to walk. Since a world campaign began in 1988, cases of wild polio have fallen by more than 99 percent.",
+      "Around the year 1800, the average person in the world could expect to live only about thirty years. Today it is over seventy, thanks to clean water, better food, vaccines and medicine.",
+      "In 1948 a British trial of streptomycin gave some patients the drug and others only bed rest, chosen by chance. This kind of fair test, called a randomised controlled trial, is now the usual way to learn whether a treatment works.",
+      "In 1953 James Watson and Francis Crick showed that DNA has the shape of a twisted ladder. They used an X-ray image taken by Rosalind Franklin, and the discovery showed how the body's instructions can be copied.",
+      "In 1954 surgeons in Boston moved a kidney from one healthy man into his identical twin brother, who was dying. It worked because the twins had the same genes, so the new organ was not rejected.",
+      "In December 1967 Christiaan Barnard in Cape Town carried out the first transplant of a human heart. The patient lived for eighteen days, but later drugs that calm the immune system made such operations far more successful.",
+      "Ultrasound uses sound waves, CT scans use many X-ray pictures, and MRI uses magnets and radio waves. With these machines doctors can look at a baby before birth, or find a problem deep in the body, without cutting.",
+      "For centuries, people with mental illness were often hidden away or treated cruelly. Today doctors treat these illnesses with talking therapies, medicines and community support, and people are slowly learning to talk about them without shame.",
+      "Medicine cannot always cure, but it can always care, and Cicely Saunders opened St Christopher's Hospice in London in 1967 to show how. Her work spread worldwide as palliative care, which aims to ease pain and give comfort and dignity.",
+      "A new disease called AIDS was first described in 1981, and scientists soon found that a virus named HIV caused it. Within fifteen years, combinations of drugs made it possible for people with HIV to live long lives.",
+      "When COVID-19 appeared at the end of 2019, scientists shared the virus's genetic code within weeks. The first vaccines were approved before the end of 2020, much faster than ever before.",
+      "When bacteria meet an antibiotic again and again, some of them survive and pass on their strength. As a result, some infections have become hard to treat, and doctors ask people to take antibiotics only when they are really needed.",
+      "In 2003 scientists announced that they had read almost the whole human genome, about three billion letters of code. Today, reading a person's genes costs far less, and doctors can sometimes choose medicines that suit a patient's own body.",
+      "The success of modern medicine has not reached everyone equally. According to the World Health Organization, about half of the world's people still cannot get all the health care they need.",
+      "Much of the history of medicine is about prevention as well as cure. Clean water, vaccines, healthy food, exercise and sleep all protect health, which reminds us that good habits matter as much as good hospitals.",
+      "From herbs and prayers to vaccines and gene tests, the story of medicine shows people learning from their mistakes and trying again. This book is general history and not medical advice, so for your own health, ask a doctor or nurse."
+    ],
+    "C1C2": [
+      "Illness is as old as humanity itself, and so is the instinct to help the sick, which is why the story of medicine begins long before anyone could write it down. The earliest healers relied on plants, warmth, rest and knowledge handed down from parent to child, and ancient skeletons with well-healed broken bones suggest that people sometimes cared for the injured for weeks. This book travels through the long story, from those first remedies to the medicine of today, one step at a time.",
+      "Some of the oldest medical writing in the world comes from ancient Egypt, where scribes recorded their knowledge on rolls of papyrus about 3,500 years ago. The Edwin Smith Papyrus examines wounds and broken bones case by case, describing what to look for and what to do, while the Ebers Papyrus lists hundreds of remedies in which sensible treatments sit beside spells and prayers. Together they show healers who were already observing the body closely, even though they could not yet explain what they saw.",
+      "In India, a tradition of healing known as Ayurveda developed over many centuries, treating health as a balance that diet, herbs, exercise and daily habits could support. One of its great texts, the Sushruta Samhita, describes around a hundred surgical instruments and many operations, though historians still debate when it was composed and how many authors shaped it. Its careful descriptions of surgery show how seriously the physicians of the region took practical skill.",
+      "Chinese medicine has a written history stretching back more than two thousand years, and its classic books describe the body as a web of forces kept in balance by herbs, diet, massage and fine needles. Acupuncture, the use of needles at chosen points of the skin, is still practised worldwide, and research suggests that it may ease some kinds of pain, although the evidence is mixed and scientists still debate how it works. The herbal tradition has also given modern medicine one great gift, a malaria drug taken from the sweet wormwood plant.",
+      "The Greek physician Hippocrates, who lived on the island of Kos around 2,400 years ago, is often called the father of medicine, mainly because he and his followers looked for natural causes of disease rather than blaming angry gods. They watched patients closely, recorded how an illness developed from day to day, and taught that rest, good food and clean air could help the body to heal itself. Historians know little about the man himself, and the collection of writings that carries his name was in fact produced by many authors.",
+      "The Greeks proposed that the body contained four humours, which were blood, phlegm, yellow bile and black bile, and that health depended on keeping them in balance. The theory was wrong, but it was a serious attempt to explain illness through nature, and it shaped the treatment of patients in Europe and the Middle East for nearly two thousand years. Bleeding, purging and special diets were all meant to restore the balance, and many of these treatments did patients more harm than good.",
+      "The Hippocratic Oath, a short pledge from the ancient Greek world, has been rewritten many times, yet new doctors in many countries still swear a modern version at graduation. Its central promises are to act for the benefit of the sick, to avoid harming them and to keep their private affairs confidential, and these are the foundations of medical ethics today. Scholars are not sure who wrote the oldest text, but its influence on the idea of a doctor's duty has been enormous.",
+      "Galen, who was born in the Greek city of Pergamon in about AD 129, treated wounded gladiators before he became physician to Roman emperors, and he wrote so many books that his word became law for generations of doctors. Since cutting open the human body was frowned upon in his world, he learned anatomy mainly from animals, and so his books contained errors that were repeated for more than a thousand years. His story is a reminder that authority and truth are not the same thing.",
+      "Roman engineers may not have known about germs, but they understood that clean water and clean streets made a city safer to live in. Aqueducts carried fresh water across valleys into towns, a great drain called the Cloaca Maxima carried waste away from Rome, and the army built special hospitals for its wounded soldiers. In many places these systems fell into decay when the empire collapsed in the West, and many centuries passed before European cities again enjoyed such comforts.",
+      "Between about the eighth and the thirteenth centuries, scholars of the Islamic world translated Greek, Persian and Indian medical books into Arabic, built large hospitals and added a great deal of their own observation. Al-Razi, working in Baghdad and Persia, was among the first to separate measles from smallpox, while Ibn Sina, known in Europe as Avicenna, produced the Canon of Medicine, an encyclopedia that doctors in East and West studied for centuries. Without this work of preserving, testing and extending older knowledge, much of ancient medicine might have been lost.",
+      "In 1347 the plague arrived in Europe aboard trading ships from the Black Sea, and in the next four years it swept through towns and villages and killed perhaps a third of the population, and in some places more. Nobody knew that the cause was a bacterium spread largely by fleas, and the remedies of the time, from prayer to the burning of herbs, could not stop it. The Black Death left a world of empty farms and frightened survivors, and it changed European society for generations.",
+      "Although people did not understand how plague spread, they noticed that it followed travellers, and port cities began to hold ships and passengers away from the shore. Ragusa, now Dubrovnik, ordered a waiting period of thirty days in 1377, and Venice later lengthened it to forty days, from which the word quarantine comes, since in Italian it means forty days. It was a rough but sensible idea, and similar methods of isolation are still used when a dangerous infection appears.",
+      "In 1543 a young Flemish scholar named Andreas Vesalius published On the Fabric of the Human Body, a large book illustrated with magnificent drawings of muscles, bones and organs. Unlike many earlier teachers, who read from Galen while an assistant did the cutting, Vesalius carried out the dissections himself, and he was bold enough to show that Galen's account contained many errors. The book marks the moment when medicine began to value what could be seen over what had been written long ago.",
+      "Galen had taught that the liver made blood which the body used up like fuel, but in 1628 the English physician William Harvey showed that this could not be true. By measuring how much blood the heart pushes out with each beat, he reasoned that it was far more than the body could create, so the same blood must travel in a circle, driven by the heart. He could not see the tiny vessels that join arteries to veins, and it was only a few years after his death that the microscope revealed them.",
+      "Antonie van Leeuwenhoek, a Dutch cloth merchant with no university training, ground tiny lenses of astonishing quality, and in the 1670s he turned them on pond water and saw crowds of creatures too small for the eye to see. Robert Hooke in England had already used the word cell in 1665 to describe the little boxes he saw in a slice of cork. These discoveries opened a hidden world, and it would take another two centuries before anyone understood that some of its inhabitants cause disease.",
+      "Until the middle of the nineteenth century there was no reliable way to spare a patient the agony of an operation, and so surgery was an ordeal that people accepted only when the alternative was worse. The best surgeons prized speed above all, working in minutes with a few simple instruments while assistants held the patient still, and many who survived the pain were later lost to infection. Patients sometimes took alcohol or opium beforehand, but these did little to dull what was about to happen.",
+      "On 16 October 1846, at a hospital in Boston, a dentist named William Morton let a patient breathe ether while a surgeon removed a growth from his neck, and the man felt no pain. Within weeks the news had crossed the Atlantic, and in the following year the Scottish doctor James Simpson began using chloroform, which was soon used even in childbirth. Surgeons no longer had to race against the clock, and that freedom made longer, more careful and more ambitious operations possible for the first time.",
+      "Smallpox was one of the great killers of history, taking the lives of about three in every ten people it infected and leaving many survivors scarred or blind. For centuries in parts of Asia, Africa and the Ottoman lands, families had protected their children by deliberately giving them a mild case taken from a sufferer's sores. Lady Mary Wortley Montagu, who had seen this in Constantinople, brought it to Britain in the early 1720s, and although it was risky, it was far safer than catching smallpox naturally.",
+      "In 1796 the English country doctor Edward Jenner noticed that milkmaids who had caught the mild disease cowpox seemed to escape smallpox, and he tested his idea by giving a boy a little cowpox material and later exposing him to smallpox. The boy stayed healthy, and although by modern standards the experiment would never be allowed, it launched the age of vaccination, a word taken from the Latin vacca, meaning cow. Within a few years the method had spread across Europe and beyond, and it was far safer than the older practice of inoculating with smallpox itself.",
+      "Even in 1967 smallpox was still killing about two million people a year, and so the World Health Organization launched a global campaign that hunted down each outbreak and vaccinated everyone around it. The last natural case occurred in Somalia in 1977, and in 1980 the world was declared free of the disease, the only human illness that has ever been wiped out completely. It was a triumph of teamwork between countries that were often rivals, and it still stands as proof of what vaccines can do.",
+      "When cholera swept through the Soho district of London in 1854, most doctors blamed bad air, but John Snow suspected the water and marked each death on a street map. The deaths clustered around a single pump in Broad Street, and when the authorities removed its handle the outbreak faded, although it may already have been past its peak. Snow had no microscope proof of the cause, yet his map showed that disease could be traced through patterns, which became one of the foundations of the science of epidemiology.",
+      "In the 1860s the French chemist Louis Pasteur showed with careful experiments that microscopic organisms, and not some mysterious spontaneous process, were responsible for the souring of wine and milk, and that heating a liquid gently could destroy them. His results gave strong support to the germ theory, the idea that many diseases are caused by living things too small to see, and the heating process, pasteurisation, still carries his name. It was a profound change of mind, for it meant that illness could be tracked, blocked and one day prevented.",
+      "In 1847 the Hungarian doctor Ignaz Semmelweis noticed that far more mothers died of fever in the Vienna clinic run by medical students than in the one run by midwives. He realised that the students often arrived straight from examining dead bodies, and when he insisted that everyone wash their hands in a chlorine solution, deaths in his ward fell dramatically. Most doctors rejected his claim, partly because it implied that they themselves were carrying the disease, and it was not widely accepted until after germ theory had been proved.",
+      "Joseph Lister, a surgeon in Glasgow, read Pasteur's papers and reasoned that germs might cause the pus and fever that so often followed an operation, so in the 1860s he began to treat wounds and instruments with carbolic acid. In 1867 he reported that his patients' infections had fallen sharply, and although many colleagues were at first sceptical, antiseptic methods gradually spread. Surgery had become not only painless but far more survivable, and the clean, sterile operating rooms of today grew directly from his idea.",
+      "Robert Koch, a German country doctor turned laboratory scientist, proved in the 1870s that a particular bacterium caused anthrax, and in 1882 he announced that another was behind tuberculosis, then a leading killer in Europe. He set out a series of steps for proving that a given germ causes a given disease, and, together with his students, he identified the causes of several other illnesses, including cholera. Between them, Pasteur, Lister and Koch had turned the fight against infection from guesswork into science.",
+      "When she led a team of nurses at a military hospital in Scutari during the Crimean War, Florence Nightingale found overcrowded wards, poor drains and soldiers dying more often of disease than of their wounds. Cleaning, ventilation and better food improved matters, and, back in Britain, she used clear charts of statistics to convince politicians that sanitary reform saved lives. In 1860 she opened a school for nurses in London, and modern nursing as a respected profession grew out of her example.",
+      "In 1849 Elizabeth Blackwell, who had been turned down by many medical schools, became the first woman in the United States to earn a medical degree, and she later opened a hospital for women in New York. In 1865 Elizabeth Garrett Anderson found a way through the rules and qualified as a doctor in Britain, and a few years later she founded a hospital staffed largely by women. Their persistence opened a profession that had been closed to half of humanity, and today women are a large part of the medical workforce in many countries.",
+      "In the hot summer of 1858 the Thames was so foul that the smell, known as the Great Stink, drove politicians out of Parliament, and the engineer Joseph Bazalgette was given the task of building a new system of sewers. Hundreds of kilometres of brick tunnels carried waste away from the river, and together with cleaner drinking water they helped to end London's cholera outbreaks. Many historians believe that such projects did as much for human health as any single medicine, a fact that is easily forgotten today.",
+      "In 1895 the German physicist Wilhelm Röntgen noticed that an unfamiliar ray, which he called X, passed through flesh but was stopped by bone, and he produced a startling picture of the bones and ring on his wife's hand. Within months hospitals around the world were using X-rays to find fractures and swallowed objects, and it was the first time in history that doctors could look inside a living body without cutting it open. Only later did people realise that large doses of radiation are harmful, and safety rules were gradually put in place.",
+      "Doctors had tried to transfuse blood from one person to another for centuries, but the results were so unpredictable that the practice was often abandoned. In 1901 the Austrian scientist Karl Landsteiner discovered that human blood falls into different groups, and that a transfusion fails when the blood of the giver clashes with that of the receiver. Once the groups were identified and matched, transfusion became routine and safe, and it has since saved the lives of countless people in surgery, childbirth and war.",
+      "Scurvy had killed countless sailors on long voyages until, in 1747, the Scottish naval surgeon James Lind divided twelve sick men into six pairs and gave each pair a different remedy, one of which was oranges and lemons. The two sailors who ate the fruit recovered quickly, which is an early example of a fair comparison, yet it took nearly two centuries before scientists identified vitamin C and explained why the body needs it. The lesson of scurvy is that a disease can come from a lack of something as well as from a germ.",
+      "Until the 1920s, a child with type 1 diabetes faced a slow, wasting illness that almost always ended in death within a few years, because the body could no longer make the hormone insulin that controls blood sugar. In 1922 a team in Toronto that included Frederick Banting, Charles Best, James Collip and John Macleod extracted a purified form of insulin from animal pancreases, and a teenage boy called Leonard Thompson was among the first to be treated. The change was so dramatic that doctors spoke of patients rising from their beds, and insulin remains a daily lifeline for millions of people.",
+      "In 1928, as the story is usually told, the Scottish scientist Alexander Fleming returned from a holiday to find that a mould had contaminated one of his dishes of bacteria and that the germs around it had been killed. A decade later a team at Oxford, led by Howard Florey and Ernst Chain, learned to make the mould's active substance, penicillin, in quantities large enough to treat patients, and by 1944 it was being produced for wounded soldiers. The three men shared a Nobel Prize in 1945, and the age of antibiotics had begun.",
+      "Streptomycin, the first effective drug against tuberculosis, arrived in the 1940s, and many other antibiotics followed, turning pneumonia, infected wounds and other once deadly conditions into problems that a short course of tablets could solve. Operations became safer, premature babies had better chances, and treatments that weaken the body's defences, such as transplants, became thinkable because infections could be controlled. Few discoveries have done more to lengthen human life, although the bacteria have since been learning to fight back.",
+      "Polio, a virus that could paralyse a child within days, caused terror in the early 1950s, and the injected vaccine of Jonas Salk, announced in 1955, was greeted with a joy that is hard to imagine today. Albert Sabin soon produced a vaccine that could be given by mouth, and after a global campaign began in 1988, the number of cases of wild polio fell by more than 99 percent. The disease has not yet been wiped out everywhere, but vaccination programmes for measles, diphtheria and many other illnesses show the same pattern of success.",
+      "Around 1800, the average life expectancy in the world was only about thirty years, a figure that was pulled down mainly by the huge number of children who died in infancy, not by people dropping dead at thirty. Today the global average is more than seventy, and the gain comes from many sources working together: clean water, sewers, better food, vaccines, antibiotics and safer childbirth. Medicine played a vital part, but so did the humble work of keeping people fed, warm and clean.",
+      "By the middle of the twentieth century doctors realised that their own impressions were an unreliable guide, since many patients recover whatever they are given, and so they began to design fairer tests. A famous British trial of streptomycin in 1948 used chance to decide who received the drug and who received only bed rest, and later studies added dummy pills, called placebos, so that nobody knew who had what. Such trials are now the standard way of finding out whether a treatment really works, and they have exposed many popular remedies as useless or harmful.",
+      "In 1953 James Watson and Francis Crick, working in Cambridge, proposed that DNA is a double helix, a twisting ladder whose rungs carry a code, and their model relied heavily on X-ray images taken by Rosalind Franklin. The structure showed at once how the instructions of life can be copied and passed from one cell to the next, and it opened the way to understanding inherited diseases at the level of single molecules. Franklin died young, and her contribution was not fully recognised during her lifetime, although Maurice Wilkins, who also supplied measurements, shared the Nobel Prize with Watson and Crick.",
+      "The first long-lasting organ transplant took place in Boston in 1954, when a surgeon named Joseph Murray moved a kidney from one young man into his identical twin, whose own kidneys had failed. Because the twins shared the same genes, the receiver's body accepted the new organ as its own, whereas in other patients the immune system attacked and destroyed it. The achievement showed that transplants were possible in principle, and the long search for a way to overcome rejection began.",
+      "In December 1967, at a hospital in Cape Town, the surgeon Christiaan Barnard replaced a dying man's heart with one from a donor, a feat that astonished the world. The patient survived for only eighteen days before dying of pneumonia, yet the operation proved that the idea could work, and better drugs to restrain the immune system, notably ciclosporin in the 1980s, later made transplants a reliable treatment. Today organs from generous donors give many thousands of people extra years of life.",
+      "From the 1950s onward, new machines gave doctors clearer views of the living body: ultrasound builds pictures from echoes, CT scanners combine many X-ray images into slices, and MRI uses magnets and radio waves to map soft tissue. A mother can now see her unborn baby on a screen, and a surgeon can plan an operation after studying a three-dimensional picture of the problem. Such technology has made earlier and more accurate diagnosis possible for diseases that once could be confirmed only during an operation or after death.",
+      "For many centuries, people suffering from mental illness were feared, hidden away in crowded asylums or blamed for their own condition, and the care they received was often harsh. Effective medicines arrived in the 1950s, talking therapies developed, and care moved gradually into the community, so that today it is widely accepted that mental health is as much a part of health as the body is. Many people still face stigma and long waits for help, so the work of understanding and supporting them is far from finished.",
+      "Medicine cannot always cure, but it can always care, and that conviction led Cicely Saunders, who had trained as a nurse, a social worker and a doctor, to open St Christopher's Hospice in London in 1967. She taught that pain should be treated seriously and regularly, and that dying people need comfort, company and dignity as much as any other patient needs treatment. Her ideas spread around the world as palliative care, which today is offered not only at the end of life but alongside treatment for serious illnesses.",
+      "When doctors first described AIDS in 1981 they were baffled, but within two years scientists in Paris had identified the cause, a virus that attacks the body's defences, and it became known as HIV. For years there was little to offer, yet in 1996 treatment with combinations of antiviral drugs began to turn the infection from a death sentence into a long-term condition that people can live with for decades. Millions of people now depend on these medicines, and one of the great tasks of public health has been making them available to everyone who needs them.",
+      "When the new coronavirus appeared at the end of 2019, scientists in China shared its genetic code within weeks, and laboratories around the world began to race for a vaccine. The first vaccines were approved in December 2020, a speed possible only because researchers could build on decades of earlier work on similar viruses and on new techniques such as mRNA, while trials and manufacturing ran side by side. The pandemic was a painful reminder that infectious disease has not disappeared, and also a demonstration of how fast cooperative science can move.",
+      "Every time an antibiotic is used, a few bacteria may survive by chance, and those survivors multiply and pass on their resistance, so the more often the drugs are used, the faster the problem grows. Fleming himself warned of this danger in 1945, and today infections that resist one or many antibiotics are a serious threat, and one major study estimated that they were directly responsible for more than a million deaths in 2019. Doctors therefore urge that antibiotics be taken only when needed and exactly as prescribed, while scientists search for new drugs, new vaccines and other ways to fight the germs.",
+      "In 2003 an international team announced that it had read nearly the whole of the human genome, a code of about three billion letters, in a project that took over a decade and cost billions of dollars. Sequencing has since become so fast and cheap that doctors can sometimes use a patient's genes to diagnose a rare condition or choose a suitable medicine, and computers are being trained to help read scans. These tools hold great promise, but they are still being tested, and how much they will improve everyday care remains to be seen.",
+      "The triumphs of medicine have not been shared equally, and a child's chance of survival still depends heavily on where in the world that child is born. According to the World Health Organization, about half of all people lack full access to essential services, and each year nearly five million children die before their fifth birthday, many from causes that are cheap to treat. Closing this gap with clean water, vaccines, trained nurses and local clinics may do more good than any new invention.",
+      "One lesson of the long story is that prevention has often achieved more than cure: clean water, vaccines, safer food, tobacco control and everyday habits such as exercise and sleep have probably protected more lives than any single heroic operation. Another lesson is that we should ask for evidence, since for every real breakthrough there have been many confident remedies that proved useless. A healthy sense of curiosity, together with trust in careful testing, is the best guide through the claims about health that fill the modern world.",
+      "From the herbs of the first healers to vaccines, scans and gene tests, the story of medicine is one of curiosity, care and courage, in which mistakes were slowly corrected by people willing to look again at the evidence. There is every reason to think that the next chapters will surprise us as much as the last ones surprised those who lived through them. This book is general history and is not medical advice, so for questions about your own health, a doctor or nurse is the person to ask."
+    ]
+  }
+}
