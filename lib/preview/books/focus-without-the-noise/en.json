@@ -1,417 +1,1639 @@
 {
-  "slug": "focus-without-the-noise",
-  "meta": {
-    "blurb": "Noor ends every busy day with a screen full of open tabs and nothing important finished. Her calm colleague Hana goes home on time. Hana's secret is simple, one protected block of time for one task, and the phone in another room.",
-    "bible": "Noor: a translator in her thirties who works from home and in a shared office; clever, restless, always busy and rarely finished. Hana: her older colleague, calm and quiet, who does hard work well and goes home on time. Omar: Noor's flatmate, cheerful and noisy. Key terms: Attention, Focus, Distraction, Notification, Block (a protected stretch of time for one task), Parking note (a paper where stray thoughts are written down to deal with later), Shutdown routine. The science is hedged: research suggests that switching tasks costs time and that notifications pull at attention, but results vary from person to person. No studies, numbers or quotes are invented. Voice and tone: calm, clear, practical and kind."
+ "slug": "focus-without-the-noise",
+ "meta": {
+  "blurb": "Noor ends every busy day with a screen full of open tabs and nothing important finished. Her calm colleague Hana goes home on time. Hana's secret is simple, one protected block of time for one task, and the phone in another room.",
+  "bible": "Noor: a translator in her thirties who works from home and in a shared office; clever, restless, always busy and rarely finished. Hana: her older colleague, calm and quiet, who does hard work well and goes home on time. Omar: Noor's flatmate, cheerful and noisy, who loves loud music and cooking. Dalia: the manager of the translation agency where Noor and Hana work; friendly, fast and always in a hurry. Pavel: a colleague who asks for quick favours. Lena: Noor's old friend, who lives in another city and calls on Sundays. Grandma Amal: Noor's grandmother, who telephones on Sunday evenings. The harbour book: the long history of a fishing town that Noor translates from Portuguese into English for a small publisher; the big job she has been avoiding, due at the end of the second month. Polish: the language Noor starts to learn for work. Key terms: Attention, Focus, Distraction, Notification, Block (a protected stretch of time for one task), Parking note (a paper where stray thoughts are written down to deal with later), Shutdown routine. Noor's block is between nine and eleven in the morning. Hana leaves at five o'clock every day. The story lasts about two months. The science is hedged: research suggests that switching tasks costs time and that notifications pull at attention, but results vary from person to person. No studies, numbers or quotes are invented. Voice and tone: calm, clear, practical and kind. Pages in A1-A2 and B1-B2 use the present tense; C1-C2 pages use the past tense for the story and the present for general ideas.",
+  "chapters": [
+   "The Day That Vanished",
+   "Two Kinds of Noise",
+   "The Price of Switching",
+   "The Calm Colleague",
+   "One Task, Chosen",
+   "A Place and a Time",
+   "The First Block",
+   "When the Mind Wanders",
+   "Learning to Be Bored",
+   "How Much Is Enough",
+   "Taming the Inbox",
+   "Meetings and Small Favours",
+   "Closing the Day",
+   "Training the Muscle",
+   "Noisy Places",
+   "Making Friends With the Phone",
+   "One Thing at a Time",
+   "Room for Ideas",
+   "Quiet Hours Together",
+   "One Block Tomorrow"
+  ]
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "Noor's phone alarm glows on her pillow as she reaches for it",
+   "summary": "Noor wakes and checks her phone before she even gets up."
   },
-  "beats": [
-    {
-      "n": 1,
-      "scene": "Noor sits at a desk covered in open tabs and sticky notes",
-      "summary": "Noor has a busy day but finishes nothing important."
-    },
-    {
-      "n": 2,
-      "scene": "A phone, a laptop and a smart watch all light up at once",
-      "summary": "Noise from outside: pings, messages and alerts that call for attention."
-    },
-    {
-      "n": 3,
-      "scene": "Noor stares at the ceiling while worries swirl above her head",
-      "summary": "Noise from inside: worries, plans and urges also pull the mind away."
-    },
-    {
-      "n": 4,
-      "scene": "A bright torch lights a small circle on a dark floor",
-      "summary": "Attention works like a torch: it lights only a small area at one time."
-    },
-    {
-      "n": 5,
-      "scene": "Noor works on a long, careful translation with her head down",
-      "summary": "Hard and valuable work needs long, unbroken stretches of thinking."
-    },
-    {
-      "n": 6,
-      "scene": "Noor looks up from her screen and loses her place on the page",
-      "summary": "Switching between tasks costs time, because the mind needs time to return."
-    },
-    {
-      "n": 7,
-      "scene": "Noor juggles a laptop, a phone and a notebook, looking confused",
-      "summary": "Multitasking is mostly quick switching, and it usually makes work slower and worse."
-    },
-    {
-      "n": 8,
-      "scene": "A silent phone lies face down on a desk beside a book",
-      "summary": "Even a silent phone nearby may pull at your attention, though studies differ."
-    },
-    {
-      "n": 9,
-      "scene": "Hana types calmly at a tidy desk beside a window",
-      "summary": "Noor meets Hana, a calm colleague who does hard work well and goes home on time."
-    },
-    {
-      "n": 10,
-      "scene": "Hana points to a calendar with a block marked in blue",
-      "summary": "Hana's secret is a protected block of time for one important task."
-    },
-    {
-      "n": 11,
-      "scene": "Noor circles one item on a short to-do list",
-      "summary": "First, choose one important task for the block."
-    },
-    {
-      "n": 12,
-      "scene": "Noor writes tomorrow's task on a card and puts it on her desk",
-      "summary": "Write the task down the evening before so the morning starts clearly."
-    },
-    {
-      "n": 13,
-      "scene": "Noor sits at a bare table in a quiet corner of a library",
-      "summary": "Choose a quiet place that is used for focused work."
-    },
-    {
-      "n": 14,
-      "scene": "Noor yawns at noon but looks bright and alert at nine in the morning",
-      "summary": "Choose the time of day when your mind is at its best."
-    },
-    {
-      "n": 15,
-      "scene": "Noor sets a kitchen timer for twenty-five minutes",
-      "summary": "Start with a short block, then grow it; about an hour is a good target."
-    },
-    {
-      "n": 16,
-      "scene": "Noor leaves her phone in a bag in another room",
-      "summary": "Put your phone in another room so it cannot call you."
-    },
-    {
-      "n": 17,
-      "scene": "Noor closes extra tabs and turns off alerts on her laptop",
-      "summary": "Close tabs and turn off alerts on the computer."
-    },
-    {
-      "n": 18,
-      "scene": "Noor tapes a small note to her door saying “Back at eleven”",
-      "summary": "Tell people when you will be free again, so they can wait calmly."
-    },
-    {
-      "n": 19,
-      "scene": "Noor hunches over her desk, looking at a blank page",
-      "summary": "The first five minutes are the hardest, so expect them."
-    },
-    {
-      "n": 20,
-      "scene": "Noor works at her desk while a puppy on a lead sits beside her",
-      "summary": "The mind will wander; notice it and bring it back, like training a puppy."
-    },
-    {
-      "n": 21,
-      "scene": "Noor writes a worry on a small paper labelled “Parking note”",
-      "summary": "Write stray thoughts on a parking note to deal with after the block."
-    },
-    {
-      "n": 22,
-      "scene": "Noor stands in a queue and looks calmly around without her phone",
-      "summary": "Practise boredom: wait without your phone, and your mind learns to rest."
-    },
-    {
-      "n": 23,
-      "scene": "Noor stretches her arms and drinks water by an open window",
-      "summary": "Take short breaks away from the screen: stand, stretch, drink water."
-    },
-    {
-      "n": 24,
-      "scene": "A tired Noor puts her pen down and rests her head on her hand",
-      "summary": "Good breaks refresh the mind so the next block goes well."
-    },
-    {
-      "n": 25,
-      "scene": "Noor looks at her watch at midday, content, as her afternoon stays free",
-      "summary": "Do not expect to focus all day: three or four hours is a good amount for many people."
-    },
-    {
-      "n": 26,
-      "scene": "Noor sleeps peacefully in a dark room with her phone on a shelf",
-      "summary": "Sleep matters: a tired brain finds focus very hard."
-    },
-    {
-      "n": 27,
-      "scene": "Noor walks under tall trees on a sunny afternoon",
-      "summary": "A short walk can clear the mind and help ideas flow."
-    },
-    {
-      "n": 28,
-      "scene": "Noor checks her inbox once at noon and once at four",
-      "summary": "Check messages at set times instead of all day long."
-    },
-    {
-      "n": 29,
-      "scene": "Four people sit around a table with a clock showing thirty minutes",
-      "summary": "Keep meetings short and clear, with a purpose and an end time."
-    },
-    {
-      "n": 30,
-      "scene": "Noor smiles kindly while shaking her head at a colleague",
-      "summary": "Learn to say no politely to small requests that can wait."
-    },
-    {
-      "n": 31,
-      "scene": "Noor closes her laptop and says “Done for today” with a smile",
-      "summary": "End the workday with a short shutdown routine, such as a list for tomorrow."
-    },
-    {
-      "n": 32,
-      "scene": "Noor cooks dinner with Omar and laughs with her phone out of sight",
-      "summary": "Free evenings let the mind rest and make tomorrow's work better."
-    },
-    {
-      "n": 33,
-      "scene": "Noor reads a printed book in an armchair beside a lamp",
-      "summary": "Reading a long text with full attention is a way to train focus."
-    },
-    {
-      "n": 34,
-      "scene": "Noor writes “20” on a notepad and adds “+5” beside it",
-      "summary": "Build up slowly: start with twenty minutes and add a few each week."
-    },
-    {
-      "n": 35,
-      "scene": "Noor ticks boxes on a chart that counts her hours of focus",
-      "summary": "Count your focused hours, so progress is visible."
-    },
-    {
-      "n": 36,
-      "scene": "Noor wears big headphones in a lively open-plan office",
-      "summary": "In a noisy office, use headphones and clear signals."
-    },
-    {
-      "n": 37,
-      "scene": "Noor sits at the kitchen table while Omar reads a sign on the door",
-      "summary": "At home, a sign on the door tells others you need quiet."
-    },
-    {
-      "n": 38,
-      "scene": "Noor puts her phone down while a clock on the wall shows ten minutes",
-      "summary": "Decide what social media is for and set time limits for it."
-    },
-    {
-      "n": 39,
-      "scene": "Noor studies a difficult grammar book with a pencil and full attention",
-      "summary": "Learning difficult skills needs full attention, not half attention."
-    },
-    {
-      "n": 40,
-      "scene": "Noor eats lunch slowly in a park, looking at the trees",
-      "summary": "Practise one thing at a time in daily life, such as eating or walking."
-    },
-    {
-      "n": 41,
-      "scene": "Noor looks up in a quiet moment, a new idea lighting her face",
-      "summary": "Ideas often arrive in quiet moments, so protect some empty time."
-    },
-    {
-      "n": 42,
-      "scene": "Noor works with a calm smile as the clock hands move fast",
-      "summary": "When you are absorbed in work, time seems to pass quickly and the work feels good."
-    },
-    {
-      "n": 43,
-      "scene": "Noor looks at a messy desk, rubbing her eyes after a poor night",
-      "summary": "On a bad day, lower the bar and do a shorter block."
-    },
-    {
-      "n": 44,
-      "scene": "A team sits together in a quiet room with a “focus time” sign",
-      "summary": "Teams can share quiet hours so everyone can do focused work."
-    },
-    {
-      "n": 45,
-      "scene": "Noor writes an emergency phone number on a card for her team",
-      "summary": "Give people a clear way to reach you for real emergencies."
-    },
-    {
-      "n": 46,
-      "scene": "Noor sits with her notebook and a cup of tea on Friday afternoon",
-      "summary": "A short weekly review shows what helped focus and what did not."
-    },
-    {
-      "n": 47,
-      "scene": "Noor smiles at a friend while a phone rests on the table between them",
-      "summary": "Be flexible: some days you need to be available, and that is fine."
-    },
-    {
-      "n": 48,
-      "scene": "Noor reads her finished translation on her laptop with quiet joy",
-      "summary": "After a month, Noor finishes the big translation she was avoiding."
-    },
-    {
-      "n": 49,
-      "scene": "Noor and Hana walk home together on a summer evening",
-      "summary": "Noor sees how much calmer and happier she feels, and she thanks Hana."
-    },
-    {
-      "n": 50,
-      "scene": "Noor puts her phone in a drawer and opens a blank page at sunrise",
-      "summary": "Protect one block a day: choose a task, remove noise, start, and be kind to yourself."
-    }
-  ],
-  "levels": {
-    "A1A2": [
-      "Noor works all day but finishes nothing important.",
-      "Phones, messages and alerts all want Noor's attention.",
-      "Noor also has noise in her head: worries and plans.",
-      "Attention is like a light that shines on one thing.",
-      "Hard work needs a quiet mind and a lot of time.",
-      "When Noor stops to check her phone, she loses her place.",
-      "Doing two things at once is really doing one thing, then another.",
-      "Even a quiet phone on the desk can pull at your mind.",
-      "Noor's colleague Hana finishes her work and goes home early.",
-      "Hana tells Noor: “I protect one block of time every day.”",
-      "First, Noor chooses one important job for her block.",
-      "In the evening, Noor writes tomorrow's task on a card.",
-      "Noor finds a quiet place to work, away from her kitchen.",
-      "Noor thinks about when she feels most awake and clear.",
-      "Noor starts with a short block of only twenty-five minutes.",
-      "Before the block, Noor puts her phone in another room.",
-      "Noor also closes her extra tabs and turns off alerts.",
-      "Noor tells Omar and her team, “I will be back at eleven.”",
-      "The first five minutes are always the hardest for Noor.",
-      "When her mind wanders, Noor brings it back to the page.",
-      "Noor writes stray thoughts on a small paper called a parking note.",
-      "In a queue, Noor does not look at her phone.",
-      "After her block, Noor stands up and drinks some water.",
-      "A short rest helps Noor work well again later.",
-      "Noor cannot focus all day, and that is fine.",
-      "Noor sleeps well because a tired mind cannot focus.",
-      "Noor takes a short walk outside every afternoon.",
-      "Noor reads her messages only twice a day.",
-      "Noor asks for short meetings with a clear purpose.",
-      "Noor learns to say, “Not now, but later today.”",
-      "At five o'clock, Noor closes her laptop and writes tomorrow's list.",
-      "In the evening, Noor cooks dinner and rests.",
-      "Noor reads one chapter of a book with no phone.",
-      "Noor adds five minutes to her block every week.",
-      "Noor keeps a chart of her hours of focus.",
-      "In a noisy office, Noor wears headphones.",
-      "At home, Noor puts a sign on her door.",
-      "Noor decides how much time to give social media.",
-      "To learn something new, Noor gives it her full attention.",
-      "At lunch, Noor only eats and looks at the trees.",
-      "In a quiet moment, Noor gets a good idea.",
-      "When Noor is deep in her work, time passes quickly.",
-      "On a bad day, Noor does a shorter block, and that is fine.",
-      "Noor's team agrees to have a quiet hour every morning.",
-      "Noor gives her team a way to reach her in an emergency.",
-      "Every Friday, Noor looks at her chart and thinks about the week.",
-      "Some days, Noor needs to be easy to reach, and that is fine.",
-      "One month later, Noor finishes the big translation.",
-      "Noor feels calmer and thanks Hana for her advice.",
-      "Choose one task, put away your phone, and begin your block."
-    ],
-    "B1B2": [
-      "Noor has been busy from the moment she woke up until it was dark outside. However, when she looks at her list, the most important job has not been touched.",
-      "Noor's phone buzzes, her laptop pings and her watch glows on her wrist. Each small sound asks her to look, and she almost always does.",
-      "There is another kind of noise that lives inside the head, too. Noor keeps thinking about her bills, her next trip and the email she forgot to send.",
-      "Attention is like a torch in a dark room. It can light one small area clearly, but it cannot light everything at the same time.",
-      "Some jobs are easy to do in small pieces, such as sending a short reply. Hard jobs, such as writing a report, need long stretches of thinking without any breaks.",
-      "When Noor stops to check a message, she does not come back to her work at once. Research suggests that it can take many minutes to return fully to a difficult task.",
-      "Many people believe that they can do two things at once. In fact, the brain mostly switches quickly between them, and this usually makes the work slower and less careful.",
-      "Some studies suggest that a phone lying on the desk can pull at attention even when it makes no sound. The results are mixed, but many people notice the effect in their own lives.",
-      "One day, Noor starts to notice her older colleague Hana, who sits near the window. Hana looks calm, does difficult work very well, and goes home at five every evening.",
-      "Hana smiles and says that her secret is simple. Every day she protects one block of time for her most important task and lets nothing else enter it.",
-      "The first step in Hana's method is to choose one clear task for the block. Noor looks at her long list and circles the one job that would make the biggest difference.",
-      "Hana advises Noor to write the task down the evening before. That way, she does not waste her fresh morning energy deciding what to do.",
-      "Next, Noor needs a good place where she can work without being interrupted. She finds a quiet table at the library, where nobody talks to her and nothing reminds her of housework.",
-      "Noor thinks about the time of day when her mind feels freshest. For her, it is between nine and eleven in the morning, so that becomes her block.",
-      "A block does not need to be long at first. Noor starts with twenty-five minutes and plans to grow it slowly, until she can focus for about an hour.",
-      "Noor puts her phone in a bag and leaves it in another room. Out of sight and out of reach, it is much less likely to pull at her.",
-      "On her laptop, Noor closes every tab she does not need and turns off all alerts. Only the document she is working on stays open.",
-      "Noor tells her team and her flatmate Omar that she will be unavailable until eleven. A clear promise to return makes it easier for others to wait.",
-      "When the block begins, Noor feels restless and wants to check something. This is normal, because the first five minutes are often the hardest.",
-      "Noor's mind wanders, like a puppy that runs away from the path. She does not get angry; she kindly notices it and leads her thoughts back to the work.",
-      "When a sudden thought appears, such as “buy milk”, Noor writes it on a parking note. She knows she can deal with it later, so her mind lets it go.",
-      "Noor begins to practise being bored on purpose, which sounds strange but helps. In a queue or on a bus, she leaves her phone in her pocket and just looks around.",
-      "Between her blocks, Noor takes a short break that has nothing to do with screens. She stands up, stretches, looks out of the window and drinks a glass of water, but she does not look at her phone.",
-      "A real break gives the tired mind a chance to recover its strength. After ten minutes without a screen, Noor finds that she can start her next block with new energy.",
-      "Noor learns that nobody can focus hard for a whole day. Many people find that three or four hours of real focus is plenty.",
-      "A tired person finds it hard to focus, however strong their plans are. Noor goes to bed earlier and puts her phone far from her bed.",
-      "Some studies suggest that a short walk can help ideas flow. Noor walks outside for fifteen minutes every afternoon, and she often comes back with an answer.",
-      "Noor decides to read her messages only at set times, such as noon and four o'clock. In between, she keeps her inbox closed and works in peace.",
-      "Noor also takes a hard look at the meetings that fill her week. She asks for a clear purpose and a fixed end time, and she skips the ones where she has nothing to add.",
-      "Colleagues often ask Noor for small favours that seem to take only a moment. She learns to answer kindly, “I can help after eleven,” instead of dropping everything at once.",
-      "At five o'clock, Noor follows a short shutdown routine. She writes tomorrow's list, closes her laptop and says, “Done for today.”",
-      "Noor now keeps her evenings free of work, and she does not feel guilty about it. She cooks with Omar, goes for a walk and reads a book, and her mind has time to recover.",
-      "Reading deeply is a good way to train attention. Noor chooses a paper book, sits in an armchair and reads one chapter without any interruption.",
-      "Noor starts with twenty minutes and adds five minutes every week. After two months, she can work for almost an hour without stopping.",
-      "Noor draws a simple chart on the wall and colours a box for every focused hour. On Friday, she can see exactly how much she has done.",
-      "In the open office, Noor wears large headphones when she wants to concentrate. Colleagues soon understand that this is a signal not to disturb her.",
-      "At home, Noor puts a note on her door that says “Working until eleven.” Omar reads it, smiles, and plays his music more quietly.",
-      "Noor does not leave social media completely, because she enjoys keeping in touch. She decides what it is for, and she gives it a set time of twenty minutes in the evening.",
-      "Noor wants to learn a new language for her work. She finds that she learns much faster with her phone away and her whole attention on the lesson.",
-      "Noor also practises doing one thing at a time in daily life. At lunch, she only eats, and on her walk, she only walks.",
-      "Good ideas often come in quiet moments, when the mind is not busy. While Noor walks, with no phone and no music, she suddenly sees how to solve a hard sentence.",
-      "One morning, Noor looks up and finds that two hours have passed. She was so absorbed that she did not notice the time, and she feels calm and proud.",
-      "On a bad day, Noor cannot focus well, however hard she tries. She does not give up; she does a short block of twenty minutes and then rests.",
-      "Noor suggests a quiet hour every morning for her team, when nobody sends messages. After a month, the whole team gets more done.",
-      "Noor wants her team to feel safe, so she gives them a way to reach her in a real emergency. They can call her, and everything else can wait.",
-      "Every Friday, Noor looks at her chart and asks what helped her focus and what got in the way. Then she makes one small change for next week.",
-      "Focus is not a rule that must never be broken. Some days, such as when a friend is ill or a client needs help, Noor chooses to be easy to reach.",
-      "One month after meeting Hana, Noor finishes the long translation that she had been avoiding. Her client is delighted, and Noor feels proud and calm.",
-      "Looking back, Noor sees how much calmer her days have become. She thanks Hana, who laughs and says that anyone can learn it with practice.",
-      "If you remember only one idea, protect one block of time each day for the work that matters most. Choose the task, remove the noise, and start with a gentle first step."
-    ],
-    "C1C2": [
-      "Noor had been busy from the moment she woke up until the moment the sun went down, answering messages, joining calls and checking her phone. When she finally looked at her list, however, the one job that truly mattered had not been touched. She felt tired, a little ashamed, and deeply puzzled about where the day had gone.",
-      "Noor's world was full of small, urgent sounds: her phone buzzed, her laptop pinged, and her watch lit up on her wrist with a gentle tap. Each of these signals asked her to look, and she almost always obeyed without thinking. Together they formed a kind of constant weather, a soft rain of interruptions that never quite stopped.",
-      "There is also a quieter kind of noise, which lives inside the head rather than on the screen. While Noor tried to work, she kept remembering her bills, rehearsing a conversation with her landlord and wondering whether she had forgotten to answer an email. Her mind was never still for long enough to let a deep and useful thought settle.",
-      "Attention is a little like a torch in a dark room: it can light one small area very clearly, but it can never light the whole room at once. What you point it at becomes sharp and real, while everything else fades into shadow. This is why deciding where to shine it is one of the most valuable choices you make each day.",
-      "Some tasks can be done in small pieces between other things, like answering a simple question or filing a document. The most valuable work, however, such as solving a difficult problem or writing something thoughtful, usually needs long and unbroken stretches of thinking. If those long stretches never appear in the day, the best work simply does not get done at all.",
-      "Whenever Noor stopped to glance at a message, she did not slip back into her translation as smoothly as she imagined. Research suggests that after an interruption it can take many minutes to return fully to a demanding task, although the exact time varies from person to person. A day full of little interruptions can therefore swallow far more time than the interruptions themselves seem to take.",
-      "Many people are proud of being able to do two things at once, and Noor was one of them. In truth, the brain mostly jumps rapidly from one task to another, and this switching usually makes work slower and more error-prone. There are a few exceptions, such as walking while listening to music, but they involve tasks that need little thought.",
-      "Some studies suggest that a phone lying on the desk can draw at the mind even when it is silent and face down. The evidence is mixed, and the effect may be stronger for some people than for others, but plenty of people recognise the feeling. You may know the sense of a small, invisible thread that keeps tugging you towards the screen.",
-      "In the shared office, Noor kept noticing her colleague Hana, a quiet woman who seemed to carry no stress at all. Hana produced beautiful, careful work, rarely stayed late, and always left at five o'clock with a peaceful expression. Curious and a little envious, Noor finally gathered her courage one afternoon and asked her how she did it.",
-      "Hana laughed warmly and told Noor that her secret was almost embarrassingly simple, and that anyone could copy it. Every day, she explained, she set aside one block of time for her most important task and allowed nothing else to enter it. Everything else, she said, could wait its turn, because the world rarely ends when a reply arrives an hour late.",
-      "The first step, Hana said, is to choose a single task for the block. Noor studied her long list of jobs and circled the one that would make the biggest difference if she finished it. It was a translation she had been avoiding for two weeks, which was probably a sign that it mattered.",
-      "Hana advised Noor to write the task on a card the evening before, and to leave the card where she would see it first. In this way she would not spend the fresh energy of the morning deciding what to do, and she would sit down already knowing her purpose. A clear starting point, it turns out, removes a surprising amount of the resistance that we feel.",
-      "Next, Noor needed a good place to work, somewhere quiet that she could use again and again. She tried a quiet table at the local library, where nobody spoke to her and nothing reminded her of washing up or unfinished chores. A place used again and again for focused work soon begins to signal to the mind that it is time to concentrate.",
-      "Hana told her to ask when her mind was freshest, because everyone has a different rhythm. Noor realised that she was sharpest between nine and eleven in the morning, and she decided to protect those hours rather than waste them on email. Matching difficult work to your best hours is like sailing with the wind instead of against it.",
-      "At first, Noor's block was a modest twenty-five minutes, because a short and achievable target is far less frightening than a whole morning. As her concentration grew, she would add a few minutes at a time, until she could comfortably work for about an hour. Like a muscle, attention tends to grow stronger with gentle and regular use, but it can tire if overworked.",
-      "Before every block, Noor placed her phone in a bag and left it in a different room. She had learned that willpower is weak when temptation sits within easy reach, whereas distance is strong and requires no effort at all. With the phone out of sight and out of mind, the urge to check it faded quite quickly.",
-      "On her laptop, Noor closed every window she did not need and switched off every alert that might disturb her. Only the document she was translating stayed open on the screen, and the rest of the digital world was politely asked to wait. The result felt like stepping out of a crowded and noisy market into a quiet, empty room.",
-      "Noor told her colleagues and her flatmate Omar that she would be unreachable until eleven, and that she would answer everything straight afterwards. Most people, she discovered, are perfectly happy to wait when they know exactly when a reply will arrive. A little honest communication in advance spared her the guilt of simply disappearing without any explanation.",
-      "When the block began, Noor felt restless, bored and strangely sure that something more urgent was waiting elsewhere. Hana had warned her that the first five minutes are usually the hardest, and that the discomfort is a sign of the brain adjusting rather than a sign of failure. If she simply kept going, the restlessness would fade like a wave that has spent its strength.",
-      "Her mind wandered, of course, as minds always do, much like a young puppy that darts away from the path to chase every smell. Noor learned not to scold it but to notice the wandering quickly and lead her thoughts gently back to the page. Each return, she realised, was a small repetition that made her attention a little stronger.",
-      "Whenever an unrelated thought barged in, such as a reminder to buy milk or call the dentist, Noor wrote it on a small paper that she called her parking note. Having captured the idea safely, she no longer had to hold it in her head, and she could return to her task with a lighter mind. After the block, she dealt with the list calmly, and most of it turned out to be unimportant.",
-      "Noor also began to practise being bored on purpose, which sounded odd but proved surprisingly useful. In a queue or on a bus, she left her phone in her pocket, watched the people around her and let her mind drift without any input. The first few times felt uncomfortable, but the discomfort gradually turned into a kind of quiet that her mind had been missing for years.",
-      "Between her blocks, Noor took a proper break of ten or fifteen minutes, which she guarded as carefully as the blocks themselves. She stood up, stretched her stiff shoulders, gazed out of the window and drank a glass of water, but she scrupulously avoided the phone. A break filled with scrolling is not really a rest, because the mind goes on working all the same.",
-      "A genuine break gives the tired mind a chance to recover, so that the next block begins with fresh energy rather than lingering fatigue. After ten minutes away from a screen, Noor usually felt clearer and more cheerful than when she had left her desk. Rest is therefore not the enemy of good work but one of its necessary ingredients.",
-      "Noor soon discovered that nobody can concentrate intensely for a whole day, and that expecting it only leads to disappointment. Many people find that around three or four hours of truly focused work is already plenty, although the number differs from person to person. The rest of the day can be used for lighter, easier jobs without any guilt.",
-      "However good the plan, a tired mind finds it very difficult to concentrate, and Noor noticed this on the days after a late night. She began to go to bed earlier and left her phone on a shelf across the room, so that the evening scroll could not steal her sleep. Her best blocks, she found, almost always followed a good night, and her worst almost always followed a bad one.",
-      "Some studies suggest that a short walk can help people think more freely, although more work is needed to understand why. Noor began to walk outside for fifteen minutes each afternoon, and she often returned with the solution to a problem that had defeated her at her desk. At the very least, the fresh air and the afternoon sunshine did her no harm, and they lifted her mood.",
-      "Noor decided to check her inbox at fixed moments, noon and four o'clock, instead of dipping into it every few minutes. Between those times she kept it closed, and the messages waited patiently for her without anything terrible happening. She was surprised to discover that the vast majority of them were not urgent.",
-      "Noor also took a hard look at her meetings, many of which wandered for an hour without reaching a decision. She began to ask for a clear purpose and a fixed end time, and she politely declined the ones where her presence made no difference. The time that she saved in this way went straight back into her protected block of concentration.",
-      "Colleagues often asked Noor for small favours that seemed to take only a moment but cost her a whole stretch of concentration. She learned to answer warmly, “I can help you after eleven,” instead of dropping everything at once. Most people accepted this gladly, and the few who did not were usually not in real trouble.",
-      "At five o'clock, Noor began to follow a short shutdown routine, as Hana did. She wrote down tomorrow's task, closed her laptop and said aloud, “Done for today,” as if shutting a door behind her. The little ritual told her mind that it was allowed to stop, and the worries of work no longer followed her home.",
-      "Noor now kept her evenings free from work, and she did not feel guilty about it. She cooked dinner with Omar, walked by the river, and read for pleasure, which gave her tired mind the chance to recover. Rested people, she noticed, tend to return to their tasks with more energy than exhausted ones.",
-      "Reading a long text with full attention is excellent training, because it demands exactly the kind of concentration that a scattered mind has lost. Noor picked up a paper book, sat in an armchair beside a warm lamp and read a whole chapter without once reaching for anything else. The first attempt was difficult and she felt twitchy, but the second was noticeably easier, and the third easier still.",
-      "Noor started with blocks of twenty minutes and added about five minutes each week, so that the increase never felt overwhelming. Within two months she could work for close to an hour without stopping, which would have seemed impossible when she began. Slow and steady growth, she found, is a great deal more dependable than a heroic leap.",
-      "Noor drew a simple chart on the wall and coloured one square for every hour of truly focused work. By Friday, the pattern on the chart told her more about her week than her memory ever could, and an empty row made her ask what had gone wrong. Measuring the right thing, she realised, is always the first step towards improving it, and it costs almost nothing.",
-      "In the open-plan office, Noor put on a large pair of headphones whenever she needed to concentrate, and she explained to her team that this meant she should not be disturbed. The signal was clear enough for everybody to learn, and it saved many awkward conversations. Noise cannot always be removed, but its power over you can often be reduced.",
-      "When she worked from home, Noor hung a note on her bedroom door that said, “Working until eleven, please knock softly after that.” Omar, who loved loud music, read it, grinned and promised to keep the volume down. A simple sign can turn an invisible need into something that other people can understand and respect.",
-      "Noor did not abandon social media altogether, because she enjoyed it and used it to keep in touch with friends. Instead she decided what it was for, gave it a fixed twenty minutes in the evening and stopped opening it during her working blocks. Choosing a limit is far kinder than relying on a moment of weak willpower.",
-      "Noor wanted to master a difficult language for her work, and she noticed that she learned far faster when her phone was away and her whole mind was on the lesson. Learning a hard skill requires the effort of holding new ideas in the head and connecting them to old ones. That effort is easily broken by even a small distraction, which is why the phone had to go.",
-      "Noor began to practise doing just one thing at a time in her daily life, even in small moments. At lunch she only ate, noticing the taste of her food, and on her walk she only walked, noticing the sky and the sound of her footsteps. These small habits, she found, made it easier to concentrate when it really mattered.",
-      "Good ideas often arrive in quiet moments, when the mind is not being fed with a constant stream of information. One afternoon, while Noor walked with no music and no phone, she suddenly saw how to solve a sentence that had troubled her for days. It was as if her mind, finally left alone, had quietly been working on it all along.",
-      "One morning Noor looked up from her work and was astonished to find that nearly two hours had passed. She had been so absorbed in her translation that she had not noticed the time, and she felt a deep and quiet pride. Moments like this are among the greatest rewards of protecting your attention, and they cannot be forced or hurried.",
-      "Of course, some days were bad, and on those days Noor could not concentrate no matter how she tried. Instead of giving up completely, she lowered the bar, did a short block of twenty minutes and then allowed herself to rest. Something small and honest, she knew, is always worth more than nothing, and it keeps the habit of focus alive.",
-      "Noor suggested a quiet hour every morning for her whole team, during which nobody would send messages or call meetings. After a month, the team agreed that they were getting more done and that the afternoons felt calmer as well. Protecting attention is easier and a great deal more effective when a whole group agrees to do it together.",
-      "So that her colleagues would never feel abandoned, Noor gave them a simple way to reach her in a real emergency, which was to phone her directly. Everything less urgent could wait for the next time she looked at her messages. This arrangement reassured everyone in the office, and in practice it almost never had to be used.",
-      "Every Friday afternoon, Noor looked at her chart and asked herself what had helped her to focus and what had got in her way. Then she chose one small change to try during the following week, such as moving her phone further away or starting her block ten minutes earlier. Gentle experiments like these, repeated week after week, taught her more than any rule book ever could.",
-      "Focus, Noor realised, is a tool and not a religion, and it must never become an excuse for ignoring the people she loves. On days when a friend was ill or a client truly needed her, she chose to be easy to reach, and she did so without guilt. The skill lies in deciding on purpose, rather than being dragged along by whatever demands your attention.",
-      "One month after her conversation with Hana, Noor sent off the long translation that she had been avoiding for weeks. The client was delighted, and Noor realised that she had finished it without working a single late evening. For the first time in years, she felt that her effort was matching her real ability.",
-      "Looking back over the month, Noor saw how much calmer her days had become, and how much more she had achieved with fewer hours of effort. She thanked Hana for her advice, and Hana laughed and said that the secret belonged to everyone and only needed a little practice. Noor smiled, because she knew that, one day, she would pass the same secret on to somebody else.",
-      "Here is the whole lesson in short: protect one block of time every day for the work that matters most. Choose your task, remove the noise, begin gently, and rest well afterwards, so that tomorrow's block is as good as today's. Do not wait for a perfect day, because attention grows stronger each time you protect it and bring it back."
-    ]
+  {
+   "n": 2,
+   "scene": "Omar sings and fries eggs while Noor types at the breakfast table",
+   "summary": "Breakfast with Omar is noisy, and Noor answers emails instead of eating."
+  },
+  {
+   "n": 3,
+   "scene": "Noor opens a long document while a chat message slides onto her screen",
+   "summary": "At nine, Noor opens the big translation, but a message pulls her away at once."
+  },
+  {
+   "n": 4,
+   "scene": "A laptop screen crowded with a dozen open browser tabs",
+   "summary": "Looking up one word, she opens tab after tab and wanders far from the work."
+  },
+  {
+   "n": 5,
+   "scene": "Noor eats a sandwich at her desk with a phone in her other hand",
+   "summary": "Lunch is a sandwich at the desk, eaten while scrolling."
+  },
+  {
+   "n": 6,
+   "scene": "Noor on a video call with several faces while messages pop up",
+   "summary": "The afternoon fills with calls, quick requests and group chats."
+  },
+  {
+   "n": 7,
+   "scene": "Noor at six o'clock, frowning at a long list with nothing crossed off",
+   "summary": "At six, Noor looks at her list and sees the main job barely touched."
+  },
+  {
+   "n": 8,
+   "scene": "Noor slumped on the sofa while Omar laughs beside her",
+   "summary": "Tired and a little ashamed, Noor tells Omar, who says she looked very busy."
+  },
+  {
+   "n": 9,
+   "scene": "Noor lies awake in bed, her face lit by a phone",
+   "summary": "At night her mind will not rest, and she scrolls in bed."
+  },
+  {
+   "n": 10,
+   "scene": "Noor stares at a dark ceiling with a question mark floating above her",
+   "summary": "Noor wonders whether the problem is her or the way she works."
+  },
+  {
+   "n": 11,
+   "scene": "A phone, a laptop and a smart watch all light up at once",
+   "summary": "Noise from outside: pings, messages and alerts that call for attention."
+  },
+  {
+   "n": 12,
+   "scene": "Noor makes tally marks on paper while her phone lies beside her",
+   "summary": "Noor counts how often she picks up her phone in one morning and is shocked."
+  },
+  {
+   "n": 13,
+   "scene": "Noor stares at the ceiling while worries swirl above her head",
+   "summary": "Noise from inside: worries, plans and urges also pull the mind away."
+  },
+  {
+   "n": 14,
+   "scene": "Noor looks at a biscuit tin and her phone while a document waits",
+   "summary": "Small urges for a snack, a headline or a quick look interrupt her from inside."
+  },
+  {
+   "n": 15,
+   "scene": "A bright torch lights a small circle on a dark floor",
+   "summary": "Attention works like a torch: it lights only a small area at one time."
+  },
+  {
+   "n": 16,
+   "scene": "Noor and Omar search a dark garden with a torch for lost keys",
+   "summary": "Looking for lost keys at night shows how a torch lights one small spot."
+  },
+  {
+   "n": 17,
+   "scene": "Noor works on a long, careful translation with her head down",
+   "summary": "Hard and valuable work needs long, unbroken stretches of thinking."
+  },
+  {
+   "n": 18,
+   "scene": "Noor types while on a call, and a wrong word glows on her page",
+   "summary": "Half attention makes mistakes: Noor mistranslates a word while listening to a call."
+  },
+  {
+   "n": 19,
+   "scene": "Noor crosses off small jobs on a list while the big job waits",
+   "summary": "Small jobs give a quick good feeling, so she keeps choosing them over the big one."
+  },
+  {
+   "n": 20,
+   "scene": "Noor writes the words busy and useful at the top of a blank page",
+   "summary": "Noor sees that being busy and doing useful work are different things."
+  },
+  {
+   "n": 21,
+   "scene": "Noor's pen hovers over a half-read page as her phone chimes",
+   "summary": "One message breaks a hard sentence, and Noor must read the paragraph again."
+  },
+  {
+   "n": 22,
+   "scene": "Noor looks up from her screen and loses her place on the page",
+   "summary": "Switching between tasks costs time, because the mind needs time to return."
+  },
+  {
+   "n": 23,
+   "scene": "Noor times two paragraphs on a kitchen clock, one with her phone beside her",
+   "summary": "In her own small test, the paragraph with phone checks takes longer and has more errors."
+  },
+  {
+   "n": 24,
+   "scene": "Noor juggles a laptop, a phone and a notebook, looking confused",
+   "summary": "Multitasking is mostly quick switching, and it usually makes work slower and worse."
+  },
+  {
+   "n": 25,
+   "scene": "Noor reads a report on one screen while a chat window flashes on another",
+   "summary": "Trying to read and chat together, Noor reads the same sentence three times."
+  },
+  {
+   "n": 26,
+   "scene": "Noor frowns at an email sent to the wrong person",
+   "summary": "A careless moment sends the wrong file to a client, and the mistake costs a whole afternoon."
+  },
+  {
+   "n": 27,
+   "scene": "A silent phone lies face down on a desk beside a book",
+   "summary": "Even a silent phone nearby may pull at your attention, though studies differ."
+  },
+  {
+   "n": 28,
+   "scene": "Noor holds her phone in one hand and a stopwatch in the other",
+   "summary": "In another test, the phone in the next room seems to tug at Noor less than the phone on the desk."
+  },
+  {
+   "n": 29,
+   "scene": "Noor rests her head on her desk after a day of small jobs",
+   "summary": "Switching all day can leave a person tired even when little real work was done."
+  },
+  {
+   "n": 30,
+   "scene": "Noor sits by a window at dusk with her notebook and a smile",
+   "summary": "Noor sees that the noise, not her talent, is the problem, and she feels hopeful."
+  },
+  {
+   "n": 31,
+   "scene": "A bright shared office with a tidy desk by the window",
+   "summary": "In the shared office, Noor notices a tidy desk by the window where Hana works."
+  },
+  {
+   "n": 32,
+   "scene": "Hana's desk with one laptop, a notebook and a cup of tea",
+   "summary": "Hana's desk holds only a laptop, a notebook and a cup of tea, and her phone is not in sight."
+  },
+  {
+   "n": 33,
+   "scene": "Dalia holds up a page and smiles at Hana while the team listens",
+   "summary": "Dalia praises Hana's careful translation in front of the whole team."
+  },
+  {
+   "n": 34,
+   "scene": "Hana puts on her coat at five while Noor stays at her desk",
+   "summary": "Hana leaves at five every day while Noor stays at her desk until late."
+  },
+  {
+   "n": 35,
+   "scene": "Hana and Noor sit with cups of tea in the sunny office kitchen",
+   "summary": "Over tea, Hana admits that she was once as busy and tired as Noor."
+  },
+  {
+   "n": 36,
+   "scene": "Hana points to a calendar with a block marked in blue",
+   "summary": "Hana's secret is a protected block of time for one important task."
+  },
+  {
+   "n": 37,
+   "scene": "Hana draws a simple box on a notepad and writes one task inside",
+   "summary": "A block means one task, one stretch of time and no interruptions."
+  },
+  {
+   "n": 38,
+   "scene": "Hana shows her tidy calendar with an empty afternoon",
+   "summary": "Hana says she does not work more hours; she protects a few good ones."
+  },
+  {
+   "n": 39,
+   "scene": "Noor shakes her head, holding a buzzing phone, while Hana smiles",
+   "summary": "Noor doubts the idea because people need her, but Hana says they can wait."
+  },
+  {
+   "n": 40,
+   "scene": "Noor sticks a yellow note reading try one week on her laptop",
+   "summary": "Noor agrees to try the method for one week and sticks a note on her laptop."
+  },
+  {
+   "n": 41,
+   "scene": "Noor's very long to-do list covers a page and spills onto another",
+   "summary": "That evening Noor writes down everything she has to do, and the list is very long."
+  },
+  {
+   "n": 42,
+   "scene": "Hana taps one line of Noor's list with her pencil",
+   "summary": "Hana says to ask which single job would make the day a success."
+  },
+  {
+   "n": 43,
+   "scene": "Noor circles one item on a short to-do list",
+   "summary": "First, choose one important task for the block."
+  },
+  {
+   "n": 44,
+   "scene": "Two items on a scale: an easy email and a heavy book",
+   "summary": "Pick the job that matters, not the job that is easy or loud."
+  },
+  {
+   "n": 45,
+   "scene": "A page says translate chapter six, crossed over the words work on the book",
+   "summary": "A good task is specific: translate chapter six, not work on the book."
+  },
+  {
+   "n": 46,
+   "scene": "Noor writes tomorrow's task on a card and puts it on her desk",
+   "summary": "Write the task down the evening before so the morning starts clearly."
+  },
+  {
+   "n": 47,
+   "scene": "The harbour file open on the right page beside a pencil and notes",
+   "summary": "Noor leaves her work ready: the file open, notes beside it, and nothing else."
+  },
+  {
+   "n": 48,
+   "scene": "Noor writes first step on a card: translate one paragraph",
+   "summary": "Make the first step small: one paragraph is easier to begin than a whole book."
+  },
+  {
+   "n": 49,
+   "scene": "Noor frowns at the unfinished jobs on a list marked later",
+   "summary": "Noor worries about the other jobs, but Hana says they fit into the other hours."
+  },
+  {
+   "n": 50,
+   "scene": "Noor falls asleep in a tidy bedroom with a card on her desk",
+   "summary": "That night Noor goes to bed knowing exactly what tomorrow's block will hold."
+  },
+  {
+   "n": 51,
+   "scene": "A noisy café with a hissing coffee machine and Noor's laptop",
+   "summary": "Noor tries a busy café, but the music and chatter break her thoughts."
+  },
+  {
+   "n": 52,
+   "scene": "Noor sits at a bare table in a quiet corner of a library",
+   "summary": "Choose a quiet place that is used for focused work."
+  },
+  {
+   "n": 53,
+   "scene": "Noor lays out only her laptop and a notebook on the library table",
+   "summary": "Noor uses the same seat every time, and the mind learns what the place means."
+  },
+  {
+   "n": 54,
+   "scene": "Noor clears a corner of her bedroom desk and puts a lamp on it",
+   "summary": "At home, Noor makes a corner that is used only for work, never for the sofa or the bed."
+  },
+  {
+   "n": 55,
+   "scene": "Noor yawns at noon but looks bright and alert at nine in the morning",
+   "summary": "Noor asks when she feels most awake and clear."
+  },
+  {
+   "n": 56,
+   "scene": "Noor writes a small table of times and energy in a notebook",
+   "summary": "For three days Noor notes how awake she feels each hour and sees a clear pattern."
+  },
+  {
+   "n": 57,
+   "scene": "A hard page in morning light, a pile of invoices in afternoon light",
+   "summary": "Hard work goes in the best hours, and easy jobs go in the tired hours."
+  },
+  {
+   "n": 58,
+   "scene": "Hana's friend works at a desk by a lamp late at night",
+   "summary": "Everyone is different: one of Hana's friends works best at night."
+  },
+  {
+   "n": 59,
+   "scene": "Noor types an invitation in a calendar titled harbour book with herself",
+   "summary": "Noor puts her block in her calendar like a meeting with herself."
+  },
+  {
+   "n": 60,
+   "scene": "Noor lays out a card, a pencil and a cup on Sunday evening",
+   "summary": "On Sunday evening Noor gets everything ready, because the first real block begins in the morning."
+  },
+  {
+   "n": 61,
+   "scene": "Noor sets a kitchen timer for twenty-five minutes",
+   "summary": "Start with a short block, then grow it; about an hour is a good target."
+  },
+  {
+   "n": 62,
+   "scene": "Noor sits at her desk at nine as the clock hand moves",
+   "summary": "At nine on Monday, Noor starts her first block and the first paragraph comes slowly."
+  },
+  {
+   "n": 63,
+   "scene": "Noor's phone buzzes on the desk and she looks away from the page",
+   "summary": "Ten minutes in, her phone buzzes and she checks it, and the paragraph slips away."
+  },
+  {
+   "n": 64,
+   "scene": "Hana arranges a plate of biscuits at the far end of her desk",
+   "summary": "Hana says to make the right thing easy and the wrong thing hard."
+  },
+  {
+   "n": 65,
+   "scene": "Noor leaves her phone in a bag in another room",
+   "summary": "Put your phone in another room so it cannot call you."
+  },
+  {
+   "n": 66,
+   "scene": "Omar holds up Noor's buzzing bag in the doorway with a grin",
+   "summary": "Omar jokes that Noor's bag is singing in the hall."
+  },
+  {
+   "n": 67,
+   "scene": "Noor closes extra tabs and turns off alerts on her laptop",
+   "summary": "Close tabs and turn off alerts on the computer."
+  },
+  {
+   "n": 68,
+   "scene": "A smart watch lies in a drawer beside a pair of socks",
+   "summary": "She switches off the notifications on her watch and puts the watch in a drawer for the block."
+  },
+  {
+   "n": 69,
+   "scene": "Noor tapes a small note to her door saying Back at eleven",
+   "summary": "Tell people when you will be free again, so they can wait calmly."
+  },
+  {
+   "n": 70,
+   "scene": "A kitchen timer rings and Noor looks up at a finished page",
+   "summary": "The timer rings after twenty-five minutes, and Noor has finished a whole page without a break."
+  },
+  {
+   "n": 71,
+   "scene": "Noor hunches over her desk, looking at a blank page",
+   "summary": "The first five minutes are the hardest, so expect them."
+  },
+  {
+   "n": 72,
+   "scene": "Noor sits with closed eyes and a hand on her chest at her desk",
+   "summary": "When the urge to check something rises, Noor breathes and waits, and it passes."
+  },
+  {
+   "n": 73,
+   "scene": "A hand holds up five fingers in front of a tired Noor",
+   "summary": "A trick for hard starts: promise yourself only five minutes, and then you may stop."
+  },
+  {
+   "n": 74,
+   "scene": "Noor writes quickly with a happy face as the clock ticks on",
+   "summary": "After five minutes the work begins to flow, and she does not want to stop."
+  },
+  {
+   "n": 75,
+   "scene": "Noor works at her desk while a puppy on a lead sits beside her",
+   "summary": "The mind will wander; notice it and bring it back, like training a puppy."
+  },
+  {
+   "n": 76,
+   "scene": "Noor makes small tick marks in the corner of her notebook page",
+   "summary": "She makes a tick each time she brings her mind back, and the ticks become a proud little row."
+  },
+  {
+   "n": 77,
+   "scene": "Noor writes a worry on a small paper labelled Parking note",
+   "summary": "Write stray thoughts on a parking note to deal with after the block."
+  },
+  {
+   "n": 78,
+   "scene": "A parking note with seven short lines beside a finished page",
+   "summary": "At the end of the block, her parking note has seven items and none of them is urgent."
+  },
+  {
+   "n": 79,
+   "scene": "Noor ticks off jobs on her parking note with a smile",
+   "summary": "After the block, she deals with the note: some jobs take two minutes, and some she crosses out."
+  },
+  {
+   "n": 80,
+   "scene": "Noor sits back with a calm smile beside a short list",
+   "summary": "The paper holds her worries, so her mind is lighter and free for the real work."
+  },
+  {
+   "n": 81,
+   "scene": "Noor stands in a queue and looks calmly around without her phone",
+   "summary": "Practise boredom: wait without your phone, and your mind learns to rest."
+  },
+  {
+   "n": 82,
+   "scene": "Noor holds her phone in a lift, a queue and on a bench",
+   "summary": "Noor notices how often she fills every empty moment with her phone."
+  },
+  {
+   "n": 83,
+   "scene": "Noor stands at a bus stop with her phone deep in her bag",
+   "summary": "At the bus stop, Noor tries five minutes with no phone at all."
+  },
+  {
+   "n": 84,
+   "scene": "A child with a red balloon crosses a street under a pink evening sky",
+   "summary": "Without the phone, she notices the street: a child with a red balloon, the colours of the sky."
+  },
+  {
+   "n": 85,
+   "scene": "Noor sits calmly on a bench while the bus arrives behind her",
+   "summary": "Empty moments are not emergencies; waiting is safe, and the mind learns to rest."
+  },
+  {
+   "n": 86,
+   "scene": "Noor stretches her arms and drinks water by an open window",
+   "summary": "Take short breaks away from the screen: stand, stretch, drink water."
+  },
+  {
+   "n": 87,
+   "scene": "Noor makes tea, waters a plant and looks out of a window in turn",
+   "summary": "Noor tries different kinds of break: making tea, watering a plant, standing at the window."
+  },
+  {
+   "n": 88,
+   "scene": "A tired Noor puts her pen down and rests her head on her hand",
+   "summary": "Good breaks refresh the mind so the next block goes well."
+  },
+  {
+   "n": 89,
+   "scene": "Hana stands at the office window with a cup of tea, watching the street",
+   "summary": "Hana's own break is ten minutes with tea at the window, watching the street and doing nothing else."
+  },
+  {
+   "n": 90,
+   "scene": "Noor finishes a second block at eleven with a break marked in her notebook",
+   "summary": "Noor completes two blocks with a break between them and ends the morning proud."
+  },
+  {
+   "n": 91,
+   "scene": "Noor rubs her eyes at a blank screen at two in the afternoon",
+   "summary": "On one day Noor tries to focus from nine to five and is empty by two."
+  },
+  {
+   "n": 92,
+   "scene": "Noor looks at her watch at midday, content, as her afternoon stays free",
+   "summary": "Do not expect to focus all day: three or four hours is a good amount for many people."
+  },
+  {
+   "n": 93,
+   "scene": "Noor sorts invoices and replies to emails in a sunny afternoon office",
+   "summary": "The rest of the day is for lighter jobs, and she does them without guilt."
+  },
+  {
+   "n": 94,
+   "scene": "Noor writes a Friday list of chapters finished in a bright office",
+   "summary": "By Friday, Noor has translated three chapters, more than in the two weeks before."
+  },
+  {
+   "n": 95,
+   "scene": "Noor yawns over a poor page after a late night of scrolling in bed",
+   "summary": "After a late night with her phone, one block goes badly, and she sees that tiredness is a thief."
+  },
+  {
+   "n": 96,
+   "scene": "Noor sleeps peacefully in a dark room with her phone on a shelf",
+   "summary": "Sleep matters: a tired brain finds focus very hard."
+  },
+  {
+   "n": 97,
+   "scene": "Noor reads a paper book by a dim lamp before bed",
+   "summary": "Noor makes a calm evening routine: dim light, a book and no screens in the last half hour."
+  },
+  {
+   "n": 98,
+   "scene": "Noor yawns happily on a bright morning beside a clear desk",
+   "summary": "After a good night's sleep, the next block feels easy and clear."
+  },
+  {
+   "n": 99,
+   "scene": "Noor walks under tall trees on a sunny afternoon",
+   "summary": "A short walk can clear the mind and help ideas flow."
+  },
+  {
+   "n": 100,
+   "scene": "Noor and Hana shake hands over tea in the office kitchen",
+   "summary": "Two weeks in, the one-week trial is long over, and Noor tells Hana she will keep going."
+  },
+  {
+   "n": 101,
+   "scene": "Noor's inbox with a red number that keeps growing",
+   "summary": "Noor notices that she opens her inbox every few minutes, all day."
+  },
+  {
+   "n": 102,
+   "scene": "Noor checks her inbox once at noon and once at four",
+   "summary": "Check messages at set times instead of all day long."
+  },
+  {
+   "n": 103,
+   "scene": "A status line on a screen reads I read messages at noon and four",
+   "summary": "Noor sets a short status message to tell people when she will answer."
+  },
+  {
+   "n": 104,
+   "scene": "Pavel grins at Noor's door with a cup of coffee in his hand",
+   "summary": "Pavel jokes that she has turned into a hermit, but nothing falls apart."
+  },
+  {
+   "n": 105,
+   "scene": "Noor types quick answers to a row of emails with tea",
+   "summary": "Answering many messages in one sitting is faster than answering them one by one."
+  },
+  {
+   "n": 106,
+   "scene": "Noor sorts emails into two piles: now and later",
+   "summary": "Short messages are answered at once; longer ones go onto her later list."
+  },
+  {
+   "n": 107,
+   "scene": "A group chat on a phone filled with jokes and pictures of lunches",
+   "summary": "Noor mutes the group chat during blocks, and later finds mostly jokes."
+  },
+  {
+   "n": 108,
+   "scene": "Noor clicks unsubscribe on a long list of newsletters on Sunday",
+   "summary": "On Sunday, Noor unsubscribes from a dozen newsletters she never reads."
+  },
+  {
+   "n": 109,
+   "scene": "Dalia frowns at her phone with an urgent label on a message",
+   "summary": "Noor sees that Dalia marks nearly every message as urgent, and very few of them truly are."
+  },
+  {
+   "n": 110,
+   "scene": "Noor and Dalia talk across a desk, Dalia nodding and holding her phone",
+   "summary": "Noor explains her new method to Dalia, who agrees to phone her for real emergencies."
+  },
+  {
+   "n": 111,
+   "scene": "Noor's calendar on Tuesday, filled with five meetings in a row",
+   "summary": "On Tuesday, Noor's calendar is full of meetings, and there is no time left for real work."
+  },
+  {
+   "n": 112,
+   "scene": "Noor doodles a boat on her notebook as people talk around a table",
+   "summary": "In one meeting nobody decides anything, and Noor doodles a boat while people talk."
+  },
+  {
+   "n": 113,
+   "scene": "Four people sit around a table with a clock showing thirty minutes",
+   "summary": "Keep meetings short and clear, with a purpose and an end time."
+  },
+  {
+   "n": 114,
+   "scene": "Noor writes a short agenda of three lines on a whiteboard",
+   "summary": "Noor suggests a short plan for each meeting: the purpose, the decisions needed and the end time."
+  },
+  {
+   "n": 115,
+   "scene": "A team leaves a meeting room smiling as the clock shows five minutes early",
+   "summary": "The next meeting finishes five minutes early, and people thank her."
+  },
+  {
+   "n": 116,
+   "scene": "Pavel reads a short written update on a screen instead of attending a meeting",
+   "summary": "Some meetings can be replaced by a short written message, and Pavel's weekly meeting is one."
+  },
+  {
+   "n": 117,
+   "scene": "Pavel leans on Noor's desk at two o'clock, holding a laptop",
+   "summary": "At two o'clock Pavel asks for a two-minute favour, which takes forty minutes."
+  },
+  {
+   "n": 118,
+   "scene": "Noor smiles kindly while shaking her head at a colleague",
+   "summary": "Learn to say no politely to small requests that can wait."
+  },
+  {
+   "n": 119,
+   "scene": "Noor writes polite phrases on a card: not today, but Thursday",
+   "summary": "Noor writes three kind ways to say no: not today, but Thursday; not now, but later; ask Hana."
+  },
+  {
+   "n": 120,
+   "scene": "Hana writes the words every yes costs time on a whiteboard",
+   "summary": "Hana reminds Noor that every yes costs time, so a small no protects the important work."
+  },
+  {
+   "n": 121,
+   "scene": "Noor sits on the sofa at night with her laptop glowing on her knees",
+   "summary": "In the old days Noor kept working at night, and her mind never really rested."
+  },
+  {
+   "n": 122,
+   "scene": "Noor closes her laptop and says Done for today with a smile",
+   "summary": "End the workday with a short shutdown routine, such as a list for tomorrow."
+  },
+  {
+   "n": 123,
+   "scene": "Noor lays a card on her desk and switches off her lamp at five",
+   "summary": "The first evening of the routine feels strange, like leaving the stove on."
+  },
+  {
+   "n": 124,
+   "scene": "Noor writes a worry on a pad hanging beside the front door",
+   "summary": "If a worry returns in the evening, she writes it on a pad by the door and lets it go."
+  },
+  {
+   "n": 125,
+   "scene": "Noor cooks dinner with Omar and laughs with her phone out of sight",
+   "summary": "Free evenings let the mind rest and make tomorrow's work better."
+  },
+  {
+   "n": 126,
+   "scene": "Omar tells a story with big gestures while Noor listens, smiling",
+   "summary": "Noor listens to Omar's story with her whole attention and no phone in her hand."
+  },
+  {
+   "n": 127,
+   "scene": "Noor holds a phone to her ear as she smiles in an armchair",
+   "summary": "On Sunday, Lena calls from another city, and Noor gives their conversation her full attention."
+  },
+  {
+   "n": 128,
+   "scene": "Noor plays a simple tune on Omar's guitar, with a frown and a smile",
+   "summary": "Noor tries a hobby that uses her hands, and she plays a slow tune badly but happily."
+  },
+  {
+   "n": 129,
+   "scene": "Noor sleeps in a tidy room with her phone on a shelf",
+   "summary": "She goes to bed on time, and the evening protects the morning."
+  },
+  {
+   "n": 130,
+   "scene": "Morning light falls on Noor's desk with a sharpened pencil ready",
+   "summary": "Noor wakes rested, and her block starts well because the evening before ended well."
+  },
+  {
+   "n": 131,
+   "scene": "Noor's eyes slide off a page of a novel as her phone glows nearby",
+   "summary": "Noor finds that she can no longer read a long text without her mind sliding away."
+  },
+  {
+   "n": 132,
+   "scene": "Noor sets a small alarm clock on the arm of an armchair",
+   "summary": "Noor makes a plan: fifteen minutes with a printed book every evening, phone in another room."
+  },
+  {
+   "n": 133,
+   "scene": "Noor reads a printed book in an armchair beside a lamp",
+   "summary": "Reading a long text with full attention is a way to train focus."
+  },
+  {
+   "n": 134,
+   "scene": "Noor turns a page calmly beside a stack of finished pages",
+   "summary": "After one week, Noor can read thirty pages without her mind wandering once."
+  },
+  {
+   "n": 135,
+   "scene": "Noor writes 20 on a notepad and adds +5 beside it",
+   "summary": "Build up slowly: start with twenty minutes and add a few each week."
+  },
+  {
+   "n": 136,
+   "scene": "Omar and Noor jog side by side in a park, laughing",
+   "summary": "Omar compares it to running: nobody begins with a marathon, so attention grows by small steps."
+  },
+  {
+   "n": 137,
+   "scene": "Hana shows Noor an old notebook with a short column of minutes",
+   "summary": "Hana admits that when she began she could only focus for fifteen minutes."
+  },
+  {
+   "n": 138,
+   "scene": "Noor ticks boxes on a chart that counts her hours of focus",
+   "summary": "Count your focused hours, so progress is visible."
+  },
+  {
+   "n": 139,
+   "scene": "Two charts side by side, one almost empty and one with many coloured boxes",
+   "summary": "The first week's chart has few boxes; by the third week it has many."
+  },
+  {
+   "n": 140,
+   "scene": "Noor looks at a chart with one empty day and shrugs kindly",
+   "summary": "A low day on the chart is not a failure; Noor learns to look at the whole week."
+  },
+  {
+   "n": 141,
+   "scene": "A lively open-plan office with phones, laughter and a hissing coffee machine",
+   "summary": "The shared office is lively, with calls, laughter and a coffee machine, and Noor cannot think."
+  },
+  {
+   "n": 142,
+   "scene": "Noor wears big headphones in a lively open-plan office",
+   "summary": "In a noisy office, use headphones and clear signals."
+  },
+  {
+   "n": 143,
+   "scene": "Two colleagues smile at Noor as she lifts her headphones",
+   "summary": "Her colleagues learn the signal: headphones on means please wait, headphones off means come and talk."
+  },
+  {
+   "n": 144,
+   "scene": "Noor carries a laptop to a quiet desk in a far corner",
+   "summary": "Noor asks Dalia for a desk in a quiet corner, away from the door and the coffee machine."
+  },
+  {
+   "n": 145,
+   "scene": "Noor puts a sign on her door that says Working until eleven",
+   "summary": "At home, a sign on the door tells others you need quiet."
+  },
+  {
+   "n": 146,
+   "scene": "Omar and Noor shake hands over a table with two mugs",
+   "summary": "Omar and Noor agree on quiet hours from nine to eleven, and Omar uses headphones."
+  },
+  {
+   "n": 147,
+   "scene": "Noor writes in a café with a steady murmur of conversation around her",
+   "summary": "A steady murmur helps some people, but sudden loud sounds hurt, so test it yourself."
+  },
+  {
+   "n": 148,
+   "scene": "A neighbour's drill and Noor putting in earplugs at her desk",
+   "summary": "When a neighbour's drill cannot be stopped, Noor uses earplugs and moves her block."
+  },
+  {
+   "n": 149,
+   "scene": "Noor lists three quiet places on a card: library, spare room, headphones",
+   "summary": "Noor keeps a backup plan for noisy days: a place, a time and a pair of headphones."
+  },
+  {
+   "n": 150,
+   "scene": "Noor sits in a quiet corner with a mug while the office hums",
+   "summary": "After a few weeks, her quiet corner, her signs and her headphones make the noise much easier to live with."
+  },
+  {
+   "n": 151,
+   "scene": "Noor laughs at her phone on the sofa as the clock jumps",
+   "summary": "Noor enjoys her friends' photos, but one quick look can swallow a whole hour."
+  },
+  {
+   "n": 152,
+   "scene": "Noor puts her phone down while a clock on the wall shows ten minutes",
+   "summary": "Noor decides what social media is for and sets a time limit for it."
+  },
+  {
+   "n": 153,
+   "scene": "A phone screen shows a time limit message while Noor puts it down",
+   "summary": "Noor uses the phone's own time limit, and when it rings, she stops."
+  },
+  {
+   "n": 154,
+   "scene": "Noor's phone with every app hidden in a folder on the last page",
+   "summary": "Noor moves the apps off her first screen and logs out each time, to add a little effort."
+  },
+  {
+   "n": 155,
+   "scene": "A phone surrounded by glowing icons and a clock that spins quickly",
+   "summary": "Many apps are built to hold attention, which is part of why they are hard to put down."
+  },
+  {
+   "n": 156,
+   "scene": "Noor dials her grandmother's number with the phone held to her ear",
+   "summary": "When she wants to scroll, Noor calls her Grandma Amal or reads a page instead."
+  },
+  {
+   "n": 157,
+   "scene": "Noor's phone lies switched off in a drawer on a sunny Sunday morning",
+   "summary": "On a Sunday, Noor leaves her phone switched off until noon, just to see what happens."
+  },
+  {
+   "n": 158,
+   "scene": "Noor reads the paper at a sunny table with steaming coffee",
+   "summary": "Noor finds that she misses almost nothing, and Lena's message says that there was no rush."
+  },
+  {
+   "n": 159,
+   "scene": "Noor smiles at a picture of a friend's new puppy on her phone",
+   "summary": "Noor still enjoys social media, but now she chooses when and why she uses it."
+  },
+  {
+   "n": 160,
+   "scene": "Noor sends a short message to friends and holds up a phone card",
+   "summary": "Noor tells her friends how to reach her: call if it is urgent, and she will reply in the evening."
+  },
+  {
+   "n": 161,
+   "scene": "Dalia hands Noor a folder with a Polish title page",
+   "summary": "Dalia says that clients are asking for Polish, so Noor decides to learn it."
+  },
+  {
+   "n": 162,
+   "scene": "Noor watches a video lesson with her phone in her hand",
+   "summary": "At first, Noor tries to learn with a video playing while she looks at her phone, and nothing stays in her head."
+  },
+  {
+   "n": 163,
+   "scene": "Noor studies a difficult grammar book with a pencil and full attention",
+   "summary": "Learning difficult skills needs full attention, not half attention."
+  },
+  {
+   "n": 164,
+   "scene": "Noor writes a new Polish word on a card and says it aloud",
+   "summary": "Noor writes each new word by hand, says it aloud and puts it on a card."
+  },
+  {
+   "n": 165,
+   "scene": "Noor frowns over a hard page, her pencil on a long word",
+   "summary": "Effort feels hard, but many researchers think that effortful learning often lasts longer."
+  },
+  {
+   "n": 166,
+   "scene": "Noor eats lunch slowly in a park, looking at the trees",
+   "summary": "Practise one thing at a time in daily life, such as eating or walking."
+  },
+  {
+   "n": 167,
+   "scene": "Noor walks along a river path with her hands empty and her head up",
+   "summary": "On a walk, Noor leaves the podcast at home and just walks, and she notices the river."
+  },
+  {
+   "n": 168,
+   "scene": "Noor washes a blue plate with warm water and soapy hands",
+   "summary": "When she washes the dishes, Noor only washes the dishes, and she enjoys the warm water."
+  },
+  {
+   "n": 169,
+   "scene": "Noor talks on the phone with no laptop in front of her",
+   "summary": "On a phone call, Noor only talks: no typing, no scrolling, just listening to the other person."
+  },
+  {
+   "n": 170,
+   "scene": "Hana and Noor walk past a window, Hana pointing at the street",
+   "summary": "Hana says that attention is a habit practised all day, in small things as well as large."
+  },
+  {
+   "n": 171,
+   "scene": "Noor in a shower with a thoughtful face, a sentence glowing above her",
+   "summary": "Hana says that ideas need empty space; many people get their best ideas in the shower or on a walk."
+  },
+  {
+   "n": 172,
+   "scene": "Noor looks up in a quiet moment, a new idea lighting her face",
+   "summary": "Ideas often arrive in quiet moments, so protect some empty time."
+  },
+  {
+   "n": 173,
+   "scene": "Noor sits by a window with a notebook and tea, doing nothing",
+   "summary": "Noor protects twenty minutes of empty time each day, with a notebook but no screen."
+  },
+  {
+   "n": 174,
+   "scene": "Noor works with a calm smile as the clock hands move fast",
+   "summary": "When you are absorbed in work, time seems to pass quickly and the work feels good."
+  },
+  {
+   "n": 175,
+   "scene": "Noor leans back with a satisfied look beside a long page of translation",
+   "summary": "The work feels good, and some people call this feeling flow, but it cannot be ordered to appear."
+  },
+  {
+   "n": 176,
+   "scene": "Noor looks at a messy desk, rubbing her eyes after a poor night",
+   "summary": "On a bad day, lower the bar and do a shorter block."
+  },
+  {
+   "n": 177,
+   "scene": "Noor talks gently to her own reflection in a window, with a small smile",
+   "summary": "On bad days Noor speaks to herself as she would speak to a friend, not as an enemy."
+  },
+  {
+   "n": 178,
+   "scene": "Hana holds her head and a cup of tea at a quiet desk",
+   "summary": "Hana tells Noor that she too has bad days: with a headache, she did twenty minutes and went home."
+  },
+  {
+   "n": 179,
+   "scene": "A tall tree bending in the wind next to a stiff wooden fence",
+   "summary": "A habit that bends on hard days lasts longer than one that breaks."
+  },
+  {
+   "n": 180,
+   "scene": "Noor sticks a gold star on a short block while Omar laughs",
+   "summary": "Noor marks even a short block with a star, because a small honest effort still counts."
+  },
+  {
+   "n": 181,
+   "scene": "Dalia leans on Noor's desk and looks closely at her chart",
+   "summary": "Dalia notices that Noor is calmer and asks how she finished three chapters so fast."
+  },
+  {
+   "n": 182,
+   "scene": "Noor's team sits together in a quiet room with a focus time sign",
+   "summary": "Teams can share quiet hours so everyone can do focused work."
+  },
+  {
+   "n": 183,
+   "scene": "A quiet office with people typing and a Focus time sign",
+   "summary": "The first quiet morning feels strange, and then the office settles into a calm, busy hum."
+  },
+  {
+   "n": 184,
+   "scene": "Pavel waves a list of questions at the door of the quiet room",
+   "summary": "Pavel complains that his questions pile up, so the team agrees on open question time at two."
+  },
+  {
+   "n": 185,
+   "scene": "Noor writes an emergency phone number on a card for her team",
+   "summary": "Give people a clear way to reach you for real emergencies."
+  },
+  {
+   "n": 186,
+   "scene": "Noor studies her chart with a cup of tea on Friday",
+   "summary": "Every Friday, Noor reviews her chart and thinks about the week."
+  },
+  {
+   "n": 187,
+   "scene": "Noor circles a Monday on her chart and writes a new time",
+   "summary": "From the review, Noor finds that Mondays go badly, so she tries a later start for her Monday block."
+  },
+  {
+   "n": 188,
+   "scene": "Noor smiles at a friend while a phone rests on the table between them",
+   "summary": "Be flexible: some days you need to be available, and that is fine."
+  },
+  {
+   "n": 189,
+   "scene": "Hana taps a notebook with the words a tool, not a cage",
+   "summary": "Hana says that the method is a tool and not a cage; it is there to serve Noor, not to rule her."
+  },
+  {
+   "n": 190,
+   "scene": "Noor rushes along a street towards Grandma Amal's flat with a bag of towels",
+   "summary": "When Grandma Amal's washing machine floods, Noor drops her block and goes to help without guilt."
+  },
+  {
+   "n": 191,
+   "scene": "Noor types the last words of the harbour book as the sun sets",
+   "summary": "Two months after meeting Hana, Noor writes the last sentence of the harbour book."
+  },
+  {
+   "n": 192,
+   "scene": "Noor reads her finished translation on her laptop with quiet joy",
+   "summary": "Noor reads the whole translation from beginning to end, and she is proud of it."
+  },
+  {
+   "n": 193,
+   "scene": "Noor presses send on an email to the publisher",
+   "summary": "Noor sends the book to the client, and the reply next morning is delighted."
+  },
+  {
+   "n": 194,
+   "scene": "Dalia shakes Noor's hand beside a stack of new projects",
+   "summary": "Dalia offers Noor a more interesting project, and Noor says yes, with her blocks in the plan."
+  },
+  {
+   "n": 195,
+   "scene": "Noor and Hana walk home together on a summer evening",
+   "summary": "Noor and Hana walk home together at five, in the soft light of a summer evening."
+  },
+  {
+   "n": 196,
+   "scene": "Noor shakes Hana's hand beside a river at sunset",
+   "summary": "Noor sees how much calmer her days are and thanks Hana, who says that Noor did the work."
+  },
+  {
+   "n": 197,
+   "scene": "Hana points at a busy street full of glowing screens and people",
+   "summary": "Hana warns that the noise will always come back, so every day Noor must choose again."
+  },
+  {
+   "n": 198,
+   "scene": "Noor writes a note for a bad day and sticks it inside her notebook",
+   "summary": "On a card for hard days, Noor writes: do twenty minutes, be kind, begin again tomorrow."
+  },
+  {
+   "n": 199,
+   "scene": "Omar leans over the kitchen table, reading Noor's card with interest",
+   "summary": "Omar sees Noor's card and asks to try the method himself, and Noor is glad to share it."
+  },
+  {
+   "n": 200,
+   "scene": "Noor puts her phone in a drawer and opens a blank page at sunrise",
+   "summary": "Protect one block a day: choose a task, remove noise, start, and be kind to yourself."
   }
+ ],
+ "levels": {
+  "A1A2": [
+   "Noor wakes up and looks at her phone before anything else.",
+   "At breakfast, Noor answers emails while Omar plays loud music.",
+   "At nine, Noor opens her big job, but a message arrives.",
+   "Noor looks up one word and then opens ten more pages.",
+   "Noor eats lunch at her desk and looks at her phone.",
+   "In the afternoon, Noor has three calls and many small requests.",
+   "At six, Noor sees that her big job has hardly started.",
+   "Noor tells Omar she is tired and did nothing important.",
+   "At night, Noor cannot sleep, so she looks at her phone.",
+   "Noor wonders why she cannot focus like other people.",
+   "Phones, messages and alerts all want Noor's attention.",
+   "Noor marks a paper each time she picks up her phone.",
+   "Noor also has noise in her head: worries and plans.",
+   "Noor wants a snack, then the news, then her phone.",
+   "Attention is like a light that shines on one thing.",
+   "Omar and Noor look for lost keys with a small torch.",
+   "Hard work needs a quiet mind and a lot of time.",
+   "Noor listens to a call and types, and she makes mistakes.",
+   "Small jobs feel good, but the big job matters more.",
+   "Noor learns that being busy is not the same as useful.",
+   "A message arrives, and Noor must read the page again.",
+   "When Noor stops to check her phone, she loses her place.",
+   "Noor tests herself, and the paragraph with her phone takes longer.",
+   "Doing two things at once is really doing one thing, then another.",
+   "Noor reads one sentence three times because she is chatting.",
+   "Noor sends the wrong file to a client by mistake.",
+   "Even a quiet phone on the desk can pull at your mind.",
+   "Noor puts her phone in the next room and feels calmer.",
+   "Noor feels tired at night, but she did little real work.",
+   "Noor sees that the noise is the problem, not her.",
+   "In the office, Noor sees a tidy desk by the window.",
+   "Hana has a laptop, a notebook and a cup of tea.",
+   "Dalia says that Hana's translation is wonderful.",
+   "Noor's colleague Hana finishes her work and goes home early.",
+   "Hana tells Noor that she was once busy and tired too.",
+   "Hana tells Noor: “I protect one block of time every day.”",
+   "A block is one job, one time, and no one calling you.",
+   "Hana does not work more hours; she protects good ones.",
+   "Noor says that people need her, but Hana smiles.",
+   "Noor agrees to try Hana's idea for one week.",
+   "That evening, Noor writes down every job she has to do.",
+   "Hana asks, which one job matters most?",
+   "First, Noor chooses one important job for her block.",
+   "Pick the job that matters, not the easy one.",
+   "A good job is clear, like translate chapter six.",
+   "In the evening, Noor writes tomorrow's task on a card.",
+   "Noor leaves her file open and her notes ready for tomorrow.",
+   "The first step is small: one paragraph, not a whole book.",
+   "Noor worries about her other jobs, but Hana says they can wait.",
+   "That night, Noor goes to bed feeling calm and clear.",
+   "Noor tries a busy café, but it is too loud.",
+   "Noor finds a quiet place to work, away from her kitchen.",
+   "Noor sits in the same seat and brings only what she needs.",
+   "At home, Noor clears a corner of her desk for work.",
+   "Noor thinks about when she feels most awake and clear.",
+   "For three days, Noor writes down how awake she feels.",
+   "Hard work goes in the best hours, and easy jobs in the tired hours.",
+   "Some people work best at night, and that is fine.",
+   "Noor puts her block in her calendar like a meeting.",
+   "On Sunday evening, Noor gets ready for her first real block.",
+   "Noor starts with a short block of only twenty-five minutes.",
+   "At nine on Monday, Noor starts her first block.",
+   "After ten minutes, Noor's phone buzzes and she looks.",
+   "Hana says, make the good thing easy and the bad thing hard.",
+   "Before the block, Noor puts her phone in another room.",
+   "Omar says that Noor's bag is singing in the hall.",
+   "Noor also closes her extra tabs and turns off alerts.",
+   "Noor takes off her watch and puts it in a drawer.",
+   "Noor tells Omar and her team, “I will be back at eleven.”",
+   "The timer rings, and Noor has finished a whole page.",
+   "The first five minutes are always the hardest for Noor.",
+   "Noor feels an urge, breathes slowly, and waits.",
+   "Noor tells herself, just work for five minutes.",
+   "After five minutes, the work flows and Noor does not stop.",
+   "When her mind wanders, Noor brings it back to the page.",
+   "Noor makes a tick each time her mind comes back.",
+   "Noor writes stray thoughts on a small paper called a parking note.",
+   "After the block, Noor has seven notes and none is urgent.",
+   "After the block, Noor does the small jobs on her list.",
+   "The paper keeps her worries, so her mind is lighter.",
+   "In a queue, Noor does not look at her phone.",
+   "Noor sees that she fills every empty moment with her phone.",
+   "At the bus stop, Noor waits without her phone.",
+   "Noor sees a child with a red balloon and a pink sky.",
+   "Noor learns that empty moments are not emergencies.",
+   "After her block, Noor stands up and drinks some water.",
+   "Noor makes tea, waters a plant, and looks out the window.",
+   "A short rest helps Noor work well again later.",
+   "Hana drinks tea at the window and does nothing else.",
+   "Today, Noor finishes two blocks with a break between them.",
+   "Noor tries to focus all day, but she is empty by two.",
+   "Noor cannot focus all day, and that is fine.",
+   "In the afternoon, Noor does lighter jobs and feels fine.",
+   "By Friday, Noor has finished three chapters of the book.",
+   "After a late night, Noor works badly the next morning.",
+   "Noor sleeps well because a tired mind cannot focus.",
+   "Noor reads a book in dim light before she sleeps.",
+   "After a good sleep, Noor's next block feels easy.",
+   "Noor takes a short walk outside every afternoon.",
+   "Two weeks later, Noor tells Hana that she will not stop.",
+   "Noor opens her inbox again and again all day.",
+   "Noor reads her messages only twice a day.",
+   "Noor writes a note that says when she will answer.",
+   "Pavel jokes that Noor has become a hermit.",
+   "At noon, Noor answers many messages quickly, all at once.",
+   "Noor answers short messages now and puts long ones on a list.",
+   "Noor turns off the group chat and misses almost nothing.",
+   "On Sunday, Noor stops a dozen emails she never reads.",
+   "Dalia says that every message is urgent, but it is not.",
+   "Noor tells Dalia about her plan, and Dalia agrees.",
+   "On Tuesday, Noor has five meetings and no time to work.",
+   "Nobody decides anything in the meeting, and Noor draws a boat.",
+   "Noor asks for short meetings with a clear purpose.",
+   "Noor suggests a short plan for every meeting.",
+   "Her next meeting ends early, and people say thank you.",
+   "Some meetings can be a short message instead.",
+   "Pavel asks for a quick favour, and it takes forty minutes.",
+   "Noor learns to say, “Not now, but later today.”",
+   "Noor learns kind ways to say no: not today, but Thursday.",
+   "Hana says, every yes costs you some of your time.",
+   "In the old days, Noor worked on her laptop every night.",
+   "At five o'clock, Noor closes her laptop and writes tomorrow's list.",
+   "The first night, the routine feels strange to Noor.",
+   "If a worry returns, Noor writes it on a pad.",
+   "In the evening, Noor cooks dinner and rests.",
+   "Noor listens to Omar's story with her whole attention.",
+   "On Sunday, Lena calls, and Noor listens without any distraction.",
+   "Noor plays a slow tune on Omar's guitar, and it sounds bad.",
+   "Noor goes to bed on time and sleeps well.",
+   "In the morning, Noor feels rested and ready to begin.",
+   "Noor cannot read a long book anymore because her mind slides away.",
+   "Noor plans to read for fifteen minutes every evening.",
+   "Noor reads one chapter of a book with no phone.",
+   "After a week, Noor can read thirty pages without stopping.",
+   "Noor adds five minutes to her block every week.",
+   "Omar says that nobody begins running with a marathon.",
+   "Hana says that she could only focus for fifteen minutes once.",
+   "Noor keeps a chart of her hours of focus.",
+   "The chart has few boxes at first, but many later.",
+   "One empty day on the chart does not worry Noor.",
+   "The office is loud, and Noor cannot think.",
+   "In a noisy office, Noor wears headphones.",
+   "Headphones on mean please wait, and headphones off mean talk.",
+   "Noor asks for a desk in a quiet corner of the office.",
+   "At home, Noor puts a sign on her door.",
+   "Omar and Noor agree to have quiet hours in the morning.",
+   "A steady hum helps some people, but loud sounds do not.",
+   "A neighbour's drill is very loud, so Noor wears headphones.",
+   "Noor has a backup plan for noisy days.",
+   "Noor feels calm now, even when the office is busy.",
+   "Noor looks at photos for a minute, and an hour passes.",
+   "Noor decides how much time to give social media.",
+   "Noor sets a timer on her phone, and when it rings, she stops.",
+   "Noor hides the apps and logs out each time.",
+   "Many apps want to keep you looking for a long time.",
+   "When she wants to scroll, Noor calls her grandmother.",
+   "On Sunday, Noor leaves her phone off until noon.",
+   "At noon, Noor has missed almost nothing at all.",
+   "Noor still enjoys social media, but now she chooses.",
+   "Noor tells her friends, call me if it is urgent.",
+   "Dalia says clients want Polish, so Noor decides to learn it.",
+   "Noor watches a lesson and uses her phone, but learns nothing.",
+   "To learn something new, Noor gives it her full attention.",
+   "Noor writes each new word by hand and says it aloud.",
+   "The work feels hard, but hard work helps the mind learn.",
+   "At lunch, Noor only eats and looks at the trees.",
+   "Noor goes for a walk with no podcast and no phone.",
+   "When Noor washes dishes, she only washes dishes.",
+   "On a phone call, Noor only listens and talks.",
+   "Hana says that attention is a habit you practise all day.",
+   "Hana says that good ideas often come when we are not working.",
+   "In a quiet moment, Noor gets a good idea.",
+   "Noor sits quietly for twenty minutes each day with no screen.",
+   "When Noor is deep in her work, time passes quickly.",
+   "Noor loves how good the work feels when she is absorbed.",
+   "On a bad day, Noor does a shorter block, and that is fine.",
+   "On a bad day, Noor is kind to herself.",
+   "Hana says that she has bad days, too.",
+   "A habit that can bend will not break.",
+   "Noor puts a star on her short block, and Omar laughs.",
+   "Dalia asks Noor how she finishes so much work.",
+   "Noor's team agrees to have a quiet hour every morning.",
+   "At first, the quiet office feels strange, and then it feels good.",
+   "Pavel has questions, so the team makes time at two.",
+   "Noor gives her team a way to reach her in an emergency.",
+   "Every Friday, Noor looks at her chart and thinks about the week.",
+   "Noor sees that Mondays are hard, so she starts later.",
+   "Some days, Noor needs to be easy to reach, and that is fine.",
+   "Hana says that the method is a tool, not a cage.",
+   "Grandma Amal needs help, so Noor leaves her block and goes.",
+   "Two months after meeting Hana, Noor finishes the big translation.",
+   "Noor reads the whole book from beginning to end.",
+   "Noor sends the book away, and the client is delighted.",
+   "Dalia offers Noor a new and more interesting project.",
+   "Noor and Hana walk home together on a summer evening.",
+   "Noor thanks Hana, who says, you did the work.",
+   "Hana says that the noise will come back, and Noor must choose.",
+   "Noor writes a note for hard days: be kind and begin again.",
+   "Omar reads Noor's card and asks, can I try this?",
+   "Choose one task, put away your phone, and begin your block."
+  ],
+  "B1B2": [
+   "Noor's alarm rings at seven, and she reaches for her phone at once. Before she has even left her bed, she has read six messages and started two replies.",
+   "Omar is cooking eggs and singing along to the radio, as he does every morning. Noor eats her toast with one hand and types emails with the other.",
+   "At nine o'clock, Noor opens the long book that she must translate within two months. She reads one sentence, and then a chat message appears on her screen.",
+   "Noor needs to check one word, so she opens a dictionary. Ten minutes later she is reading about fishing boats in a dozen tabs, and she has forgotten the word.",
+   "At lunch, Noor does not leave her desk, because she is afraid of falling behind. She eats a sandwich with one hand while the other hand scrolls through the news.",
+   "The afternoon is full of video calls and quick requests. Her manager Dalia sends three messages in ten minutes, and the group chat never goes quiet.",
+   "At six o'clock, Noor looks at her list and feels a little sick. She has answered dozens of messages, but the one important job has barely been touched.",
+   "Noor tells Omar that she worked all day and has nothing to show for it. He laughs kindly and says that she looked very busy.",
+   "That night, Noor lies awake while her thoughts run in circles. She picks up her phone to calm down, but it only wakes her mind further.",
+   "Before she falls asleep, Noor asks herself a hard question. Is she simply bad at working, or is something around her making it harder?",
+   "Noor's phone buzzes, her laptop pings and her watch glows on her wrist. Each small sound asks her to look, and she almost always does.",
+   "Noor decides to count how often she picks up her phone in one morning. By ten o'clock the paper is covered in small marks, and she is shocked.",
+   "There is another kind of noise that lives inside the head, too. Noor keeps thinking about her bills, her next trip and the email she forgot to send.",
+   "Even when nothing outside is calling, small urges rise from within. Noor suddenly wants a snack, then a glass of water, then just a quick look at the news.",
+   "Attention is like a torch in a dark room. It can light one small area clearly, but it cannot light everything at the same time.",
+   "One night Omar loses his keys in the dark garden, and Noor holds the torch. She can see only one small circle of grass at a time, so they must choose where to look.",
+   "Some jobs are easy to do in small pieces, such as sending a short reply. Hard jobs, such as writing a report, need long stretches of thinking without any breaks.",
+   "Noor tries to type her translation while she listens to a long call. Later she finds that she has written sea where the book says salt.",
+   "Noor notices that every small job gives her a quick, good feeling when she finishes it. The big job gives her nothing yet, so she keeps choosing the small ones.",
+   "Noor writes two words at the top of a page: busy and useful. For the first time she sees clearly that the two words do not mean the same thing.",
+   "Noor is halfway through a hard sentence when her phone chimes. She answers in one minute, but then she has to read the whole paragraph again.",
+   "When Noor stops to check a message, she does not come back to her work at once. Research suggests that it can take many minutes to return fully to a difficult task.",
+   "Noor translates two paragraphs of the same length, one in peace and one while checking her phone. The second takes much longer and has more mistakes, although this is only her own small test.",
+   "Many people believe that they can do two things at once. In fact, the brain mostly switches quickly between them, and this usually makes the work slower and less careful.",
+   "Noor tries to read a long report and answer a chat at the same time. After ten minutes she has read the same sentence three times and understood none of it.",
+   "One afternoon, Noor sends an old file to a client because she is answering three chats at once. It takes her the rest of the day to repair the mistake.",
+   "Some studies suggest that a phone lying on the desk can pull at attention even when it makes no sound. The results are mixed, but many people notice the effect in their own lives.",
+   "Noor tries a second small test, this time with her phone in two different places. With her phone face down on the desk she keeps reaching for it, but with the phone in the next room, her hand stays still.",
+   "Many people say that switching all day is more tiring than steady work, and Noor agrees. By evening she feels as tired as a runner, yet she has done very little that matters.",
+   "Noor looks at her notes and realises something important. The problem is not her ability, because she is a good translator; the problem is the noise around her work.",
+   "On Monday, Noor arrives at the shared office and notices a desk by the window. It belongs to Hana, and it is the tidiest desk in the room.",
+   "Hana's desk holds only a laptop, a notebook and a cup of tea. Her phone is nowhere to be seen, and her screen shows only one window.",
+   "At the team meeting, Dalia holds up a page of Hana's work and praises it warmly. She says that the language is beautiful, careful and perfectly clear.",
+   "One day, Noor starts to notice her older colleague Hana, who sits near the window. Hana looks calm, does difficult work very well, and goes home at five every evening.",
+   "In the sunny office kitchen, Hana tells Noor a surprising story. Years ago she was just like Noor, always busy, always tired, and never proud of her work.",
+   "Hana smiles and says that her secret is simple. Every day she protects one block of time for her most important task and lets nothing else enter it.",
+   "Hana explains to Noor, very simply, what a block really is. It is a stretch of time with one task inside it, and she keeps it like an important appointment.",
+   "Hana says that she does not work more hours than other people. She works fewer, but they are the best hours of the day, and nothing is allowed to break them.",
+   "Noor is not sure that the method will work for her. People need her all day, she says, but Hana only smiles and says that most things can wait an hour.",
+   "Hana does not argue with Noor, and she does not push her. She only asks Noor to try the idea for one week, and Noor agrees, because she has nothing to lose but a little noise.",
+   "That evening Noor writes down everything she has to do, and the list fills two whole pages. Looking at it, she feels more tired than before she started.",
+   "The next morning Noor shows Hana the list, and Hana laughs gently. She says that Noor should ask one question: if only one job gets done today, which job would make the day a success?",
+   "The first step in Hana's method is to choose one clear task for the block. Noor looks at her long list and circles the one job that would make the biggest difference.",
+   "The easiest job is rarely the most important one. Noor learns to pick the task with the biggest result, even when a loud message asks for something smaller.",
+   "A task must be clear enough to start at once. Work on the book is too vague, but translate chapter six is something that Noor can begin and finish.",
+   "Hana advises Noor to write the task down the evening before. That way, she does not waste her fresh morning energy deciding what to do.",
+   "Before she leaves, Noor opens the file at the right page and puts her notes and a pencil beside it. In the morning she will not need to look for anything.",
+   "A big task can feel too heavy to lift. So Noor writes a small first step on the card, translate one paragraph, and that feels easy enough to begin.",
+   "Noor worries that her other jobs will be forgotten. Hana tells her to write them on a list called later, because the rest of the day has plenty of room for them.",
+   "For the first time in weeks, Noor goes to bed without a hundred jobs running through her head. She knows exactly what she will do at nine, and it is a relief.",
+   "Noor tries working in a busy café, because she has heard that it is a good place for writers. The loud music and the constant chatter break her thoughts into little pieces.",
+   "Next, Noor needs a good place where she can work without being interrupted. She finds a quiet table at the library, where nobody talks to her and nothing reminds her of housework.",
+   "Every morning Noor sits in the same seat and brings only her laptop and a notebook. After a few days, her mind seems to know that this seat means work.",
+   "On days at home, Noor clears a corner of her desk and puts a lamp there. She does not work on the sofa or in bed, because those places mean rest to her mind.",
+   "Noor thinks about the time of day when her mind feels freshest. For her, it is between nine and eleven in the morning, so that becomes her block.",
+   "For three days, Noor writes a few words in a notebook every hour. She sees a clear pattern: she feels sharp in the morning, tired after lunch, and a little better at five.",
+   "Noor starts to plan her whole day around her energy, not against it. She keeps her hardest work for the morning, and she saves emails, bills and other easy jobs for the sleepy hours after lunch.",
+   "Hana says that nobody has to work in the morning. One of her friends is a writer who does her best work after ten at night, and that suits her life perfectly.",
+   "Noor opens her calendar and makes a meeting with herself from nine to eleven. She calls it harbour book, and she colours it blue, as Hana does.",
+   "On Sunday evening, Noor checks her card, her notes and her calendar. The first real block begins tomorrow morning, and she feels both nervous and excited.",
+   "A block does not need to be long at first. Noor starts with twenty-five minutes and plans to grow it slowly, until she can focus for about an hour.",
+   "At nine o'clock on Monday, Noor starts her timer and reads her card. The first paragraph comes slowly, but she keeps her eyes on the page.",
+   "After ten minutes, her phone buzzes on the desk and she looks at it before she can stop herself. The message is nothing, but she has lost the thread of her sentence.",
+   "Hana gives Noor a simple and useful tip about her phone. Do not rely on strong will; instead, arrange things so that the good choice is easy and the bad choice takes real effort.",
+   "Noor puts her phone in a bag and leaves it in another room. Out of sight and out of reach, it is much less likely to pull at her.",
+   "Omar finds Noor's bag buzzing in the hall and brings it to her door with a grin. Noor thanks him, but she asks him to put it back and promises to check it at eleven.",
+   "On her laptop, Noor closes every tab she does not need and turns off all alerts. Only the document she is working on stays open.",
+   "Noor turns off the alerts on her watch and puts it in a drawer. It feels strange at first, but her wrist is quiet, and so is her mind.",
+   "Noor tells her team and her flatmate Omar that she will be unavailable until eleven. A clear promise to return makes it easier for others to wait.",
+   "After twenty-five quiet minutes, the kitchen timer rings on her desk. Noor looks down and sees that she has finished a whole page, more than she wrote in all of yesterday morning.",
+   "When the block begins, Noor feels restless and wants to check something. This is normal, because the first five minutes are often the hardest.",
+   "When the urge to check her email rises, Noor does not fight it. She takes a slow breath and waits, and after a minute or two the urge usually fades.",
+   "Hana teaches Noor a useful trick for the hardest moments of a start. Promise yourself only five minutes of work, and then you are allowed to stop.",
+   "After about five minutes, something quietly changes, and the work begins to move. The sentences begin to flow, and when the timer rings, Noor is surprised that she does not want to stop.",
+   "Noor's mind wanders, like a puppy that runs away from the path. She does not get angry; she kindly notices it and leads her thoughts back to the work.",
+   "Noor makes a small tick in the corner of her page each time she brings her mind back. By the end of the block there are eleven ticks, and she is proud of every one.",
+   "When a sudden thought appears, such as “buy milk”, Noor writes it on a parking note. She knows she can deal with it later, so her mind lets it go.",
+   "At the end of her block, Noor reads her parking note. It has seven items on it, and when she looks at them calmly, not one of them is truly urgent.",
+   "After the block, Noor deals with her parking note. Some jobs take two minutes, such as buying a ticket, and the others she moves to her later list or simply crosses out.",
+   "Noor sees that a piece of paper can hold her worries better than her head can. With the list safely written down, her mind feels lighter and ready for real work.",
+   "Noor begins to practise being bored on purpose, which sounds strange but helps. In a queue or on a bus, she leaves her phone in her pocket and just looks around.",
+   "Noor starts to notice how often she reaches for her phone in empty moments. She does it in the lift, in the queue, and even while the kettle boils.",
+   "One evening at the bus stop, Noor decides to wait for five minutes without her phone. The first minute feels long and strange, and her hand keeps twitching towards her pocket.",
+   "With nothing in her hand, Noor starts to notice the street. A little child walks past with a red balloon, and the sky above the roofs is turning pink.",
+   "Noor learns that an empty moment is not an emergency. Waiting does not hurt, and her mind seems to rest a little each time she lets it be quiet.",
+   "Between her blocks, Noor takes a short break that has nothing to do with screens. She stands up, stretches, looks out of the window and drinks a glass of water, but she does not look at her phone.",
+   "Noor tries a few different breaks to see what works. She makes a cup of tea, waters the plant by the door and stands at the window with nothing in her hands.",
+   "A real break gives the tired mind a chance to recover its strength. After ten minutes without a screen, Noor finds that she can start her next block with new energy.",
+   "Noor asks Hana what she does with her own breaks during the day. Hana says that she drinks tea at the window for ten minutes, watches the street, and does nothing else at all.",
+   "Today Noor works for two blocks, one from nine to ten and one from ten-fifteen to eleven. In between she has a proper break, and the morning ends with eight pages done.",
+   "On Tuesday, Noor decides to focus hard from nine until five. By two o'clock her mind is empty, and she reads the same line again and again without understanding it.",
+   "Noor learns that nobody can focus hard for a whole day. Many people find that three or four hours of real focus is plenty.",
+   "In the afternoon, Noor does the lighter jobs on her later list. She answers emails, sends invoices and plans the next day, and she does not feel guilty at all.",
+   "On Friday, Noor counts what she has finished this week. She has translated three chapters of the harbour book, which is more than in the two weeks before.",
+   "The next Wednesday, Noor stays up late looking at her phone, and the next morning her block is a disaster. Her eyes are heavy, her mind is slow and every sentence is hard.",
+   "A tired person finds it hard to focus, however strong their plans are. Noor goes to bed earlier and puts her phone far from her bed.",
+   "Noor builds a quiet routine for the end of the day. In the last half hour before bed she dims the lights, puts away her screens and reads a paper book.",
+   "After a good night's sleep, Noor sits down at nine and the words come easily. The difference from the day before is so large that it almost makes her laugh.",
+   "Some studies suggest that a short walk can help ideas flow. Noor walks outside for fifteen minutes every afternoon, and she often comes back with an answer.",
+   "Noor promised to try the method for one week, but two weeks have already passed. She tells Hana that she wants to keep going, and Hana smiles as if she knew.",
+   "Noor watches herself for one afternoon and sees that she opens her inbox every few minutes. Most of the time there is nothing new, but she checks anyway.",
+   "Noor decides to read her messages only at set times, such as noon and four o'clock. In between, she keeps her inbox closed and works in peace.",
+   "Noor writes a short status message for her chat and email. It says that she reads messages at noon and four, and that anyone with an emergency can phone.",
+   "Pavel laughs and says that Noor has become a hermit. A few people grumble at first, but nothing falls apart, and nobody leaves the company because of her slower replies.",
+   "At noon, Noor answers all her messages in one sitting. It takes much less time than answering them one by one, because her mind stays in the same mode.",
+   "During her check, Noor answers the short messages at once. The ones that need real thought go onto her later list, and she gives them a place in the afternoon.",
+   "Noor mutes the busy group chat during her blocks and reads it at noon. She finds that she has missed almost nothing, apart from some jokes and pictures of lunch.",
+   "On Sunday afternoon, Noor unsubscribes from a dozen newsletters that she never reads. Her inbox becomes quieter, and the little red number grows more slowly.",
+   "Noor looks at the messages from her manager Dalia, who marks almost every one as urgent. When Noor checks them at noon, she finds that very few of them could not wait.",
+   "Noor nervously explains her new method to Dalia at the start of the week. Dalia listens, says that she is willing to try it, and promises to phone Noor if something is truly urgent.",
+   "On Tuesday, Noor looks at her calendar and sees five meetings in a row. There is no space left for her block, and she wonders how any work gets done.",
+   "In the first meeting, people talk for an hour and nobody decides anything. Noor draws a small boat in her notebook and thinks about the work that she is not doing.",
+   "Noor also takes a hard look at the meetings that fill her week. She asks for a clear purpose and a fixed end time, and she skips the ones where she has nothing to add.",
+   "Noor starts to send a short plan before each meeting. It has three lines, the purpose, the decision that is needed and the time that the meeting will end.",
+   "The next meeting that Noor leads ends five minutes early. Everyone has said what they needed to say, a decision has been made, and people thank her as they leave.",
+   "Noor asks one useful question about each meeting: could this be a message instead? Pavel's weekly meeting becomes a short written update, and everyone gets an hour back.",
+   "At two o'clock, Pavel asks Noor for a quick favour that will only take two minutes. Forty minutes later, they are still looking at his file, and Noor has lost her afternoon plan.",
+   "Colleagues often ask Noor for small favours that seem to take only a moment. She learns to answer kindly, “I can help after eleven,” instead of dropping everything at once.",
+   "Noor writes a few polite phrases on a card, such as not today, but Thursday. A good no is kind and clear, and it offers a time when she can help.",
+   "Hana reminds Noor that every yes takes some of her time. When Noor says no to a small request, she is really saying yes to the important work that waits.",
+   "In the old days, Noor worked on the sofa every evening with her laptop on her knees. She was never fully working and never fully resting, so she was tired all the time.",
+   "At five o'clock, Noor follows a short shutdown routine. She writes tomorrow's list, closes her laptop and says, “Done for today.”",
+   "The first time Noor shuts down at five, it feels strange, as if she has left the stove on. She keeps wanting to open the laptop, but she goes home anyway.",
+   "Sometimes a work worry comes back in the evening, even after the shutdown. Noor writes it on a small pad by the door, and in the morning she deals with it, so it cannot spoil her night.",
+   "Noor now keeps her evenings free of work, and she does not feel guilty about it. She cooks with Omar, goes for a walk and reads a book, and her mind has time to recover.",
+   "Over dinner, Omar tells a long and funny story about his day. For once, Noor listens with her whole attention, and she sees how much she has missed in the past.",
+   "On Sunday, her old friend Lena calls from another city. Noor sits in the armchair, puts her laptop away and talks to her for a whole hour.",
+   "Noor picks up Omar's old guitar and tries to play a slow tune. It sounds terrible, but she enjoys every minute, because there is no deadline and nobody is waiting.",
+   "Noor goes to bed on time, with her card ready and her phone on a shelf. A good evening gives her a good night, and a good night gives her a good morning.",
+   "Noor wakes before her alarm, feeling rested and ready. Her block begins well at nine, because the evening before ended well.",
+   "One evening, Noor opens a novel that she loves and finds that she cannot read it. Her eyes slide off the page, and after a few lines she wants her phone.",
+   "Noor makes a small plan to rebuild the skill. Every evening she will read a paper book for fifteen minutes, in an armchair, with her phone in another room.",
+   "Reading deeply is a good way to train attention. Noor chooses a paper book, sits in an armchair and reads one chapter without any interruption.",
+   "After one week of evenings, Noor can read thirty pages in a row. Her mind still wanders now and then, but it comes back more quickly each time.",
+   "Noor starts with twenty minutes and adds five minutes every week. After two months, she can work for almost an hour without stopping.",
+   "Omar, who loves running, tells Noor that nobody starts with a marathon. He began with two minutes of jogging, and attention, he says, grows in just the same way.",
+   "Hana opens an old notebook and shows Noor her first week of blocks. At the start, she could focus for only fifteen minutes before her mind ran away.",
+   "Noor draws a simple chart on the wall and colours a box for every focused hour. On Friday, she can see exactly how much she has done.",
+   "Noor's first chart has only a few coloured boxes, while the one from the third week is filled with colour. The change is slow, but on paper she can see it clearly.",
+   "Noor sees one empty day on her chart and, instead of scolding herself, she smiles. One low day is not a failure, and the whole week still shows real progress.",
+   "Noor's office is a happy and lively place, full of phone calls, laughter and the noise of a coffee machine. It is a lovely place to chat, but it is a hard place to think.",
+   "In the open office, Noor wears large headphones when she wants to concentrate. Colleagues soon understand that this is a signal not to disturb her.",
+   "Noor's colleagues soon learn what her headphones mean, and they respect it. When the headphones are on, they wait or send a message, and when the headphones are off, they are welcome to come and talk.",
+   "Noor asks Dalia whether she might move to a desk in a quiet corner, away from the door and the coffee machine. Dalia says yes at once, and wonders why nobody asked earlier.",
+   "At home, Noor puts a note on her door that says “Working until eleven.” Omar reads it, smiles, and plays his music more quietly.",
+   "Noor and Omar make a friendly deal over breakfast one morning. The flat will be quiet from nine to eleven, and in return Noor will wash the dishes on Saturdays, which Omar hates doing.",
+   "Some people find that a steady murmur in a café helps them to concentrate, while sudden loud sounds do not. Noor tries it again and finds that it works on quiet days only.",
+   "One Wednesday, a neighbour begins to drill the wall at nine. Noor cannot stop the noise, so she puts in earplugs and, on days like this, moves her block to the library.",
+   "Noor makes a backup plan for the noisy days that she cannot avoid. She keeps a short list of quiet places, the library, a friend's spare room and her best pair of headphones.",
+   "After a few weeks, Noor's quiet corner, her signs and her headphones have changed her days. The office is still lively, but the noise has much less power over her.",
+   "Noor loves seeing her friends' photos and videos, and she has no wish to stop. The trouble is that one quick look often turns into an hour, and she cannot remember what she has seen.",
+   "Noor does not leave social media completely, because she enjoys keeping in touch. She decides what it is for, and she gives it a set time of twenty minutes in the evening.",
+   "Noor uses a setting on her phone that limits her time in each app. When the limit is reached, the screen gives a warning, and she tries to obey it.",
+   "Noor moves her social apps to the last page of her phone and logs out every time. Each small step makes her stop and think before she opens them.",
+   "Many apps earn money when people look at them for a long time, so they are built to hold attention. This is not Noor's weakness, but it does mean that she must plan.",
+   "Noor decides to replace scrolling with something much better, not simply to forbid it. When she wants to look at her phone for no reason, she calls her Grandma Amal or reads a page of a book.",
+   "On Sunday morning, Noor switches her phone off and puts it in a drawer until noon. She is a little worried, but she decides to see what happens.",
+   "At noon, Noor turns her phone on and finds only a few messages. One is from Lena, and it says that there is no rush, and Noor realises that nothing has gone wrong.",
+   "Noor does not hate social media, and she still enjoys it. She likes seeing Lena's new puppy, but now she chooses when to look, instead of being pulled by habit.",
+   "Noor sends a short message to her close friends. If something is urgent, they should call, and if it is not, she will answer in the evening.",
+   "Dalia tells Noor that more clients are asking for translations from Polish. Noor decides to learn the language, although she knows that it is very difficult.",
+   "At first, Noor watches a video lesson while she also looks at her phone. After a week, she cannot remember a single new word, and she feels discouraged.",
+   "Noor wants to learn a new language for her work. She finds that she learns much faster with her phone away and her whole attention on the lesson.",
+   "Noor changes her method completely, and she begins to study by hand. She writes each new word by hand and says it aloud, and thirty minutes teach her more than a week did.",
+   "Learning Polish feels hard, and Noor sometimes wants to stop. She reads that many researchers believe effortful learning often lasts longer, so the difficulty may be a good sign.",
+   "Noor also practises doing one thing at a time in daily life. At lunch, she only eats, and on her walk, she only walks.",
+   "Noor leaves her podcasts at home and goes for a walk with her head up. She hears the river, sees a heron and feels her shoulders drop.",
+   "After dinner, Noor washes the dishes and does nothing else. She feels the warm water, sees the soapy bubbles, and finds that this boring job has become almost pleasant.",
+   "Noor tries doing one thing at a time on a phone call as well. She does not type or scroll, and the conversation feels shorter, warmer and much more useful.",
+   "Hana tells Noor that attention is not only for blocks. It is a habit that you practise all day, in small things as well as large ones, and every small choice counts.",
+   "Hana tells Noor that many people get good ideas in the shower, on the stairs or on a walk. The mind seems to keep working quietly when it is not busy with something else.",
+   "Good ideas often come in quiet moments, when the mind is not busy. While Noor walks, with no phone and no music, she suddenly sees how to solve a hard sentence.",
+   "Noor puts twenty minutes of empty time into her day. She sits by the window with a notebook but no screen, and she writes down any idea that arrives.",
+   "One morning, Noor looks up and finds that two hours have passed. She was so absorbed that she did not notice the time, and she feels calm and proud.",
+   "Some people call this happy and absorbed feeling by the name of flow. Noor cannot make it appear whenever she likes, but she notices that it comes more often when her block is protected.",
+   "On a bad day, Noor cannot focus well, however hard she tries. She does not give up; she does a short block of twenty minutes and then rests.",
+   "When a block goes badly, Noor does not call herself lazy. She talks to herself as she would to a friend, kindly and clearly, and she tries again tomorrow.",
+   "Hana admits to Noor that she has bad days, too, like everybody else. Last month she had a bad headache, so she did a short block of twenty minutes, drank some water and went home early.",
+   "Noor sees that her habit survives bad days because it can bend. A rule that never bends tends to break, but a rule that bends a little can last for years.",
+   "Noor puts a gold star next to a short block on her chart. Omar laughs at her, but she says that a small effort on a hard day deserves as much praise as a big one.",
+   "Dalia notices that Noor looks calmer and has finished more work than ever. She asks how it is possible, and Noor shows her the chart and the blue block.",
+   "Noor suggests a quiet hour every morning for her team, when nobody sends messages. After a month, the whole team gets more done.",
+   "On the first quiet morning, the office feels strange. Nobody talks, and the silence is almost loud, but after ten minutes everybody is typing, and the room has a calm hum.",
+   "Pavel complains that his questions pile up during the quiet hour. The team solves the problem by choosing a time at two o'clock when anyone can ask anything.",
+   "Noor wants her team to feel safe, so she gives them a way to reach her in a real emergency. They can call her, and everything else can wait.",
+   "Every Friday afternoon, Noor sits down with a cup of tea and looks at her chart. She asks herself what helped her focus and what got in her way.",
+   "One Friday, the review shows that her Monday blocks are always worse than the others. She tries a new idea: on Mondays she starts at ten, after a short walk.",
+   "Focus is not a rule that must never be broken. Some days, such as when a friend is ill or a client needs help, Noor chooses to be easy to reach.",
+   "Hana tells Noor that all of these ideas are a tool, not a cage. They are there to serve her life, and she should change them whenever her life asks for it.",
+   "One morning, Grandma Amal calls because her washing machine is flooding the kitchen. Noor drops her block at once and goes to help, and she feels no guilt at all.",
+   "Two months after meeting Hana, Noor types the last sentence of the harbour book. It is a quiet moment, and she has not worked a single late evening to reach it.",
+   "Noor reads her finished translation from the first page to the last. It reads smoothly, and in many places it is beautiful, and she feels a quiet and steady joy.",
+   "Noor sends the finished translation to the publisher on a Thursday afternoon. The reply comes the next morning, and it says that they are delighted and that the book is early.",
+   "Dalia offers Noor a bigger and more interesting project. Noor says yes, but she asks for enough time to protect her blocks, and Dalia agrees with a smile.",
+   "At five o'clock on a warm summer evening, Noor and Hana leave the office together. The light is soft and golden, and Noor realises that she has not left this early in years.",
+   "Looking back over two months, Noor sees how much calmer and happier she is. She thanks Hana, who laughs and says that it was Noor who did the work.",
+   "Hana warns Noor that the noise will never go away. New apps, new alerts and new demands will arrive, and every day she will have to choose again.",
+   "That evening, Noor writes a note to herself for the hard days that will come. It says to do twenty minutes, to be kind and to begin again tomorrow.",
+   "Omar sees Noor's card on the kitchen table and asks if he can try the method too. Noor is delighted, and she begins by telling him to put his phone in another room.",
+   "If you remember only one idea, protect one block of time each day for the work that matters most. Choose the task, remove the noise, and start with a gentle first step."
+  ],
+  "C1C2": [
+   "Noor's alarm rang at seven, and before her eyes were properly open she had reached for the phone beside her pillow. Within minutes she had read six messages, glanced at the news and started two replies, all without leaving her bed. The day, which had not yet really begun, was already running away from her.",
+   "In the kitchen, Omar was frying eggs, singing along to the radio and cheerfully banging pans, as he did every morning. Noor sat in the middle of this happy racket with a laptop on her knees, eating cold toast with one hand and typing replies with the other. By the time she had finished, the toast was gone, but she could not have said what it tasted like.",
+   "At nine o'clock, Noor opened the file of the harbour book, a long history of a fishing town that she had promised to translate within two months. She read one sentence, winced at how difficult it was and was just about to begin when a chat message slid across the corner of her screen. It was only a question about a train ticket, but it was enough to carry her away.",
+   "To check a single word, Noor opened a dictionary, and the dictionary led her to an article, and the article led her to a video about old fishing boats. Within ten minutes she had a dozen tabs open across her screen, each one interesting and none of them useful. The word she had wanted to check sat forgotten in the file, still waiting.",
+   "Lunchtime came and went without Noor leaving her chair, because she did not want to fall behind. She ate a sandwich in a few absent-minded bites, while her free hand scrolled through news that she would not remember an hour later. It was a meal without a pause, and a pause was exactly what she needed.",
+   "The afternoon was swallowed by video calls, quick requests and a group chat that never fell silent. Her manager Dalia sent three messages in ten minutes, each one marked urgent, and each one pulled Noor away from whatever she was doing. She answered them all promptly, which felt like success, although it was really a kind of drowning.",
+   "At six o'clock Noor finally looked at her list, and her stomach sank as she read it. She had answered dozens of messages, joined three calls and read half of the internet, yet the one job that truly mattered had barely been touched. The file of the harbour book held exactly one new paragraph, and she had written it before nine.",
+   "That evening Noor flopped onto the sofa and confessed to Omar that she had worked all day and had nothing to show for it. He laughed kindly and said that she had certainly looked busy, which was true and which did not help in the least. Being busy, she was beginning to suspect, was not at all the same thing as getting something done.",
+   "That night Noor lay awake, while her thoughts ran in circles about deadlines, emails and everything she had not done. She picked up her phone in the hope of calming down, but the bright screen only stirred her mind into further activity. It was a familiar trap, and she had walked into it so often that she no longer noticed the door.",
+   "Just before sleep finally came, Noor asked herself a hard question: was she simply bad at working, or was something around her making good work almost impossible? She suspected, without being sure, that the answer was not a flaw in her character at all. It was only a suspicion, but it was the first hopeful thought she had had all day.",
+   "Noor's world was full of small, urgent sounds: her phone buzzed, her laptop pinged, and her watch lit up on her wrist with a gentle tap. Each of these signals asked her to look, and she almost always obeyed without thinking. Together they formed a kind of constant weather, a soft rain of interruptions that never quite stopped.",
+   "Out of curiosity, Noor made a mark on a sheet of paper every time she picked up her phone during one morning. By ten o'clock the page was covered in little lines, most of them for no reason that she could remember. She had expected a handful and had found something much closer to a habit of the hands.",
+   "There is also a quieter kind of noise, which lives inside the head rather than on the screen. While Noor tried to work, she kept remembering her bills, rehearsing a conversation with her landlord and wondering whether she had forgotten to answer an email. Her mind was never still for long enough to let a deep and useful thought settle.",
+   "Even when the phone was silent, small urges kept rising from within, each one polite and persuasive. Noor suddenly wanted a snack, then a glass of water, then just a quick glance at the headlines. None of these wishes was important, yet each one found a way to interrupt her, because it came from her own mind and did not feel like an interruption at all.",
+   "Attention is a little like a torch in a dark room: it can light one small area very clearly, but it can never light the whole room at once. What you point it at becomes sharp and real, while everything else fades into shadow. This is why deciding where to shine it is one of the most valuable choices you make each day.",
+   "One night Omar dropped his keys somewhere in the dark garden, and Noor held the torch while he searched. The beam showed a single small circle of grass at a time, and whatever lay outside it might as well not have existed. They had to decide, again and again, where to point the light, and the keys turned up only when they stopped sweeping it everywhere.",
+   "Some tasks can be done in small pieces between other things, like answering a simple question or filing a document. The most valuable work, however, such as solving a difficult problem or writing something thoughtful, usually needs long and unbroken stretches of thinking. If those long stretches never appear in the day, the best work simply does not get done at all.",
+   "Noor tried to type her translation while listening to a long call, certain that she could manage both. When she read the page again later, she found that she had written sea where the author had written salt, and that two whole lines made no sense at all. Half of her attention had been on the call, and the other half had not been enough for the book.",
+   "Noor noticed that every small task gave her a quick glow of satisfaction when she crossed it off. The big job offered no such reward for weeks, so she kept choosing the little ones without ever deciding to. It was a perfectly natural instinct, and yet it was quietly ruining her whole month of work.",
+   "That evening Noor wrote two words at the top of a blank page, busy and useful, and drew a line between them. Looking back over her week, she saw that nearly everything she had done belonged in the first column and almost nothing in the second. She did not yet know how to change that, but at least she now knew what she was trying to change.",
+   "Noor was halfway through a tangled sentence, holding its parts carefully in her head, when her phone chimed. She answered the message in under a minute, but when she looked back at the page the whole structure had collapsed, and she had to read the paragraph again from the beginning. The reply itself had cost her far more than the single minute that it had taken to write.",
+   "Whenever Noor stopped to glance at a message, she did not slip back into her translation as smoothly as she imagined. Research suggests that after an interruption it can take many minutes to return fully to a demanding task, although the exact time varies from person to person. A day full of little interruptions can therefore swallow far more time than the interruptions themselves seem to take.",
+   "Noor decided to test herself, translating two paragraphs of almost the same length, one in peace and one with her phone beside her. The second took noticeably longer and contained more mistakes, although she was honest enough to admit that it was only a small personal test and proved nothing for anybody else. Still, the difference was large enough to make her stop and think about how she had been working.",
+   "Many people are proud of being able to do two things at once, and Noor was one of them. In truth, the brain mostly jumps rapidly from one task to another, and this switching usually makes work slower and more error-prone. There are a few exceptions, such as walking while listening to music, but they involve tasks that need little thought.",
+   "Noor tried to read a long and dense report while answering a friendly chat at the same moment, convinced that she was being efficient. After ten minutes she had read the same sentence three times without absorbing a word, and the chat had become confused as well. Two half-attentions, she was beginning to learn, do not add up to one whole and undivided attention.",
+   "One afternoon, while she was answering three chats at the same time, Noor attached an old and unfinished file to an email and sent it to a client. It took her the rest of the day to apologise, correct the error and calm everybody down. A little carelessness had cost her far more than the few minutes she had hoped to save.",
+   "Some studies suggest that a phone lying on the desk can draw at the mind even when it is silent and face down. The evidence is mixed, and the effect may be stronger for some people than for others, but plenty of people recognise the feeling. You may know the sense of a small, invisible thread that keeps tugging you towards the screen.",
+   "Noor tried a second small test, this time with her phone in two different places. With her phone lying face down beside the keyboard she kept feeling a faint pull and found her hand drifting towards it, but with the phone in the next room, her fingers stayed quietly on the keys. She knew that one person's experiment was no proof, yet the feeling was clear, and it matched what she had read.",
+   "Many people report that jumping between tasks all day is more tiring than working steadily, although researchers are still studying exactly why. Noor certainly agreed, because by evening she felt as exhausted as a long-distance runner, and she had very little to show for the miles. It seemed unfair to be so tired and so unproductive at the same time.",
+   "Noor looked over her notes and realised something that made her feel suddenly lighter. The problem was not her ability, because she knew she was a good translator, but the endless noise that surrounded her work and chopped her day into small pieces. A problem outside the mind, unlike a flaw within it, can be changed by patient and practical steps.",
+   "On Monday morning Noor arrived at the shared office and, for the first time, really noticed the desk by the window. It belonged to Hana, an older colleague whom she had hardly spoken to, and it was by far the tidiest desk in the room. There were no sticky notes, no piles of paper and no sign of chaos anywhere.",
+   "Hana's desk held only a laptop, a notebook and a steaming cup of tea, and her screen displayed a single window instead of a dozen. Her phone was nowhere to be seen, and she typed in a steady rhythm, like a person walking along a quiet road. Noor, with her twelve open tabs and her buzzing watch, felt a little ashamed, and a little curious too.",
+   "At the team meeting, Dalia held up a page of Hana's latest translation and praised it warmly in front of everyone. She said that the language was beautiful, careful and perfectly clear, and that clients kept asking for Hana by name. Noor clapped with the others, and she was surprised to feel a small sting of envy beneath her admiration.",
+   "In the shared office, Noor kept noticing her colleague Hana, a quiet woman who seemed to carry no stress at all. Hana produced beautiful, careful work, rarely stayed late, and always left at five o'clock with a peaceful expression. Curious and a little envious, Noor finally gathered her courage one afternoon and asked her how she did it.",
+   "In the sunny office kitchen, over two cups of tea, Hana told Noor a story that she had not expected. Years earlier, Hana had been exactly like her, always busy, always tired and secretly ashamed of how little she finished. Nobody is born calm, Hana said; calm is something that is built, one small decision at a time.",
+   "Hana laughed warmly and told Noor that her secret was almost embarrassingly simple, and that anyone could copy it. Every day, she explained, she set aside one block of time for her most important task and allowed nothing else to enter it. Everything else, she said, could wait its turn, because the world rarely ends when a reply arrives an hour late.",
+   "Hana explained that a block is simply a stretch of time with one task inside it and nothing else allowed in. She kept it as faithfully as an appointment with a very important person, and she would no sooner cancel it for a chat message than she would walk out of a doctor's office. The idea was so simple that Noor wondered why she had never thought of it.",
+   "Hana insisted that she did not work more hours than anyone else, and in fact she probably worked fewer. The difference was that her hours were whole and unbroken, protected from interruption like a garden behind a wall. One good hour, she said, is worth three that are chopped into pieces by messages and small requests.",
+   "Noor was not at all sure that the method would work for her, and she said so politely. People needed her all day long, she explained, and her work was not the kind that could be left alone for hours. Hana only smiled and replied that most things can wait an hour, and that the few things that cannot are easy to recognise.",
+   "Hana did not argue or push; she merely asked Noor to try the idea for one week and then decide. Noor agreed, since she had nothing to lose but a little noise, and she stuck a yellow note on her laptop that said try one week. It was the smallest of promises, and it turned out to be the start of everything.",
+   "That evening Noor sat at the kitchen table and wrote down every job she had to do, from small replies to the great harbour book. The list filled two whole pages, and looking at it made her feel more tired than she had been before she began. Everything seemed equally urgent, which is another way of saying that nothing was clear.",
+   "The next morning Noor showed Hana her enormous list, and Hana laughed gently without making her feel foolish. Everybody makes a list like that at first, she said, and the cure is a single question: if only one job could be finished today, which one would make the day feel like a success? The question sliced through the clutter like a sharp blade through a tangled skein of string, and Noor felt her thoughts begin to clear.",
+   "The first step, Hana said, is to choose a single task for the block. Noor studied her long list of jobs and circled the one that would make the biggest difference if she finished it. It was a translation she had been avoiding for two weeks, which was probably a sign that it mattered.",
+   "The easiest job is rarely the most valuable one, and the loudest job is rarely the most important. Noor learned to choose the task with the largest result, even while a small message was demanding her attention and a pile of simple tasks was inviting her to hide. The choice was uncomfortable at first, because the right task often feels the hardest to begin.",
+   "Hana added that a task must be specific enough to begin without any thought. Work on the book, for example, was a vague wish that gave the mind nothing to hold, whereas translate chapter six was a clear target that Noor could start at once and could see herself finishing. Vagueness is a comfortable place to hide, and a clear task takes away the hiding place.",
+   "Hana advised Noor to write the task on a card the evening before, and to leave the card where she would see it first. In this way she would not spend the fresh energy of the morning deciding what to do, and she would sit down already knowing her purpose. A clear starting point, it turns out, removes a surprising amount of the resistance that we feel.",
+   "Before leaving the office, Noor opened the file at exactly the right page and set her notes and a sharpened pencil beside the keyboard. In the morning she would not need to search for anything, which meant that there would be no small delay for her restless mind to slip through. Hana called this setting the table, and it made the next day's beginning almost effortless.",
+   "A big task can feel too heavy to lift, and the weight alone makes people put it off. Noor therefore wrote a very small first step on her card, translate one paragraph, and discovered that something so small stopped feeling frightening. Beginning is nearly always the hardest part, and a tiny beginning is far easier to manage than an enormous one.",
+   "Noor worried aloud that all her other jobs would be forgotten or would pile up in disaster. Hana told her to write them on a separate page headed later, and reminded her that the rest of the day offered plenty of room for them. Nothing was being thrown away, she said; it was only being put in the right order.",
+   "For the first time in weeks Noor went to bed without a hundred unfinished jobs running through her head. She knew exactly what she would do at nine the next morning, and the knowledge was as comforting as a warm blanket. Sleep, which had so often been a nightly battle, arrived quickly and quietly, like a guest who has long been expected.",
+   "Noor first tried working in a busy café, having heard that it was a wonderful place for writers. The loud music, the hissing coffee machine and the constant chatter broke her thoughts into little pieces, and she achieved less in an hour there than she did in ten minutes at home. For some people a café is perfect, she concluded, but it was not for her.",
+   "Next, Noor needed a good place to work, somewhere quiet that she could use again and again. She tried a quiet table at the local library, where nobody spoke to her and nothing reminded her of washing up or unfinished chores. A place used again and again for focused work soon begins to signal to the mind that it is time to concentrate.",
+   "Every morning Noor sat in the same seat and brought only her laptop and her notebook, leaving everything else in her bag. Within a few days her mind seemed to understand that this seat meant work, and it settled down more quickly each time. Habits attach themselves to places, and she was borrowing that quiet power on purpose.",
+   "On the days when she worked from home, Noor cleared a corner of her desk, set a lamp on it and decided that this small space would be used for work and nothing else. She stopped carrying her laptop to the sofa or into bed, because those places already meant comfort and sleep to her mind. A clear boundary drawn around one little corner of the room turned out to be surprisingly powerful.",
+   "Hana told her to ask when her mind was freshest, because everyone has a different rhythm. Noor realised that she was sharpest between nine and eleven in the morning, and she decided to protect those hours rather than waste them on email. Matching difficult work to your best hours is like sailing with the wind instead of against it.",
+   "For three days Noor wrote a few words in a notebook at the end of every hour, describing how awake and clear she felt. A pattern appeared at once, as plain as a mountain on a map: sharp in the morning, sleepy after lunch and a little better again around five. She had lived inside this rhythm all her life without ever looking at it.",
+   "Noor began to plan her whole day around her natural energy instead of ignoring it, as she had always done. The hardest work was reserved for the bright hours of the morning, while emails, bills and other undemanding jobs were saved for the heavy afternoon, when her mind was glad of something simple. It was a small change of order, and it made the whole day feel lighter.",
+   "Hana pointed out that nobody is obliged to work in the morning, because human rhythms differ widely. One of her friends, a writer, did her finest work after ten at night, when the house was silent and her mind finally relaxed. The right time, Hana said, is simply whichever hours your own mind gives you most generously.",
+   "Noor opened her calendar and invited herself to a meeting from nine to eleven each morning, which she named harbour book and coloured a firm blue, as Hana did. A meeting with another person would never be cancelled lightly, she reasoned, and the most important work deserved the same respect. Now the time was no longer merely a hopeful wish scribbled on a list, but a firm and visible appointment.",
+   "On Sunday evening Noor checked her card, her notes and her calendar one last time and put a glass of water beside her chair. The first real block would begin the next morning at nine, and she felt a curious mixture of nervousness and excitement, like a traveller on the night before a long journey. She had no idea yet how much the journey would change her, or how soon the change would show.",
+   "At first, Noor's block was a modest twenty-five minutes, because a short and achievable target is far less frightening than a whole morning. As her concentration grew, she would add a few minutes at a time, until she could comfortably work for about an hour. Like a muscle, attention tends to grow stronger with gentle and regular use, but it can tire if overworked.",
+   "At nine o'clock on Monday morning Noor pressed the button on the timer, read her card and began. The first paragraph came slowly and awkwardly, like a stiff door that has not been opened for weeks, but she kept her eyes on the page. It was not yet beautiful, but it was moving forward, and for the moment that was all she needed.",
+   "After ten minutes the phone buzzed on the desk, and Noor had looked at it before she could even think about stopping herself. The message was nothing, a friendly question about the weekend, but the thread of her sentence had snapped, and she spent two precious minutes finding it again. Good intentions, she saw clearly, were no match for a glowing screen that sat within easy reach.",
+   "Hana offered her a simple tip: do not rely on willpower, which is a tired and unreliable guard. Arrange your surroundings instead so that the right choice is easy and the wrong choice takes real effort, she said, and the decision will be made for you. Willpower was like a candle, and it was far better to build a lamp.",
+   "Before every block, Noor placed her phone in a bag and left it in a different room. She had learned that willpower is weak when temptation sits within easy reach, whereas distance is strong and requires no effort at all. With the phone out of sight and out of mind, the urge to check it faded quite quickly.",
+   "Omar found Noor's bag buzzing away in the hallway and carried it to her door with an amused grin, as if it were a small and noisy pet. Noor thanked him, asked him to put it back where it had been and promised to deal with it at eleven. It was a small test of her new rule, and for once she passed it.",
+   "On her laptop, Noor closed every window she did not need and switched off every alert that might disturb her. Only the document she was translating stayed open on the screen, and the rest of the digital world was politely asked to wait. The result felt like stepping out of a crowded and noisy market into a quiet, empty room.",
+   "Noor switched off the alerts on her watch and, for good measure, took the watch off and laid it in a drawer for the length of the block. It felt strange at first, like a missing tooth, but her wrist was finally quiet, and gradually her mind followed. Every small signal that she removed was one less voice competing for her attention.",
+   "Noor told her colleagues and her flatmate Omar that she would be unreachable until eleven, and that she would answer everything straight afterwards. Most people, she discovered, are perfectly happy to wait when they know exactly when a reply will arrive. A little honest communication in advance spared her the guilt of simply disappearing without any explanation.",
+   "After twenty-five unbroken minutes the timer rang, and Noor looked down in astonishment at a completed page of careful, accurate translation. It was more than she had managed in the whole of the previous morning, and she had not even felt rushed. Something small and simple was beginning to work, and she dared to hope that it might continue.",
+   "When the block began, Noor felt restless, bored and strangely sure that something more urgent was waiting elsewhere. Hana had warned her that the first five minutes are usually the hardest, and that the discomfort is a sign of the brain adjusting rather than a sign of failure. If she simply kept going, the restlessness would fade like a wave that has spent its strength.",
+   "When the urge to check her email rose in her chest, Noor did not fight it or obey it. She took a slow breath, watched the feeling the way one watches a cloud, and waited, and after a minute or two it usually faded. The urge, she discovered, was loud but not very strong, and it could be outlasted.",
+   "Hana taught her a trick for the hardest starts: promise yourself only five minutes of work and give yourself full permission to stop afterwards. The promise felt so small that it slipped past the mind's resistance, like a thief past a sleeping guard. Hardly anyone, Hana added with a mischievous smile, ever actually stops once the five minutes are over.",
+   "Sure enough, after five minutes something shifted, and the sentences that had been so stubborn began to run more easily. When the timer finally rang, Noor was surprised to find that she did not want to stop, and she wrote on for another ten minutes. The wall that had looked so high from the outside turned out to be thin.",
+   "Her mind wandered, of course, as minds always do, much like a young puppy that darts away from the path to chase every smell. Noor learned not to scold it but to notice the wandering quickly and lead her thoughts gently back to the page. Each return, she realised, was a small repetition that made her attention a little stronger.",
+   "In the corner of her notebook, Noor made a tiny tick each time she noticed her mind wandering and brought it back. By the end of the first long block there were eleven of them in a neat row, and she felt proud of every one, because each tick was a small victory rather than a failure. Wandering, she saw, was not the real problem, because returning was the skill that she was learning.",
+   "Whenever an unrelated thought barged in, such as a reminder to buy milk or call the dentist, Noor wrote it on a small paper that she called her parking note. Having captured the idea safely, she no longer had to hold it in her head, and she could return to her task with a lighter mind. After the block, she dealt with the list calmly, and most of it turned out to be unimportant.",
+   "At the end of the block Noor read through her parking note and found seven items on it, ranging from an unpaid bill to a half-formed holiday plan. When she examined them calmly, not one of them was truly urgent, and she felt a little foolish for having believed that each had needed her attention at once. Thoughts that scream in the middle of work often whisper once the work is done.",
+   "Once the block was over, Noor dealt with her parking note in a few brisk minutes. Some jobs took no more than two minutes each, such as booking a ticket or paying the bill, while others she moved to her later list, and a few she simply crossed out as unnecessary. The paper had held everything safely and patiently until she was ready to deal with it herself.",
+   "Noor realised that a piece of paper can hold her worries far better than her head ever could, because paper does not forget and does not panic. With the list safely written down, her mind felt lighter and clearer, and it was free at last to do the work that only a mind can do. A head, she decided, is for having ideas and solving problems, not for storing endless lists.",
+   "Noor also began to practise being bored on purpose, which sounded odd but proved surprisingly useful. In a queue or on a bus, she left her phone in her pocket, watched the people around her and let her mind drift without any input. The first few times felt uncomfortable, but the discomfort gradually turned into a kind of quiet that her mind had been missing for years.",
+   "Noor began to notice how often she reached for her phone the instant a moment became empty. She did it in the lift, in the queue, at the traffic lights, and even while the kettle boiled for a minute and a half. It was less a choice than a reflex, and she had never once stopped to ask what she was avoiding.",
+   "One evening at the bus stop Noor decided to wait for the whole five minutes without touching her phone. The first minute felt long and peculiar, and her hand kept twitching towards her pocket like a dog that has been told to stay. By the third minute, however, the twitching had slowly begun to fade, and her hand lay quiet in her lap.",
+   "With nothing in her hand, Noor began to notice the street around her, which she had walked along a thousand times without really seeing. A small child skipped past holding a red balloon, a baker was locking up his shop, and the sky above the roofs was turning a delicate pink. The world, it seemed, had been going on quietly and beautifully all this time without her attention.",
+   "Noor learned that an empty moment is not an emergency, and that nothing terrible happens when one simply waits. Her mind, offered a few minutes of silence, seemed to rest a little each time, like a field left to lie fallow between crops. Boredom, which she had feared as a kind of punishment, was turning into a gift.",
+   "Between her blocks, Noor took a proper break of ten or fifteen minutes, which she guarded as carefully as the blocks themselves. She stood up, stretched her stiff shoulders, gazed out of the window and drank a glass of water, but she scrupulously avoided the phone. A break filled with scrolling is not really a rest, because the mind goes on working all the same.",
+   "Noor tried several different kinds of break in turn to discover which one suited her best. She made a cup of tea, watered the thirsty plant by the door, tidied a drawer and simply stood at the window with her hands empty. Anything that rested her eyes and her thoughts counted, she decided, as long as it was not a screen.",
+   "A genuine break gives the tired mind a chance to recover, so that the next block begins with fresh energy rather than lingering fatigue. After ten minutes away from a screen, Noor usually felt clearer and more cheerful than when she had left her desk. Rest is therefore not the enemy of good work but one of its necessary ingredients.",
+   "Noor asked Hana what she did with her breaks, and Hana replied that she drank a cup of tea at the window for ten minutes, watched the people in the street and did absolutely nothing else. It sounded almost too simple to matter, yet Hana's face, when she returned to her desk, had the look of someone who had just stepped out of a warm bath. A good break, she said, should leave you truly refreshed and not merely occupied with something else.",
+   "That morning Noor completed two short blocks, one from nine to ten and a second from a quarter past ten until eleven, with a proper break between them. When the last timer rang, she had translated eight pages of the harbour book, and she was tired in a pleasant, healthy way that she had almost forgotten. It was only eleven o'clock, and the main work of the day was already done.",
+   "On Tuesday, flushed with her early success, Noor decided to concentrate hard from nine until five without a pause. By two o'clock her mind was empty, and she was reading the same line over and over without understanding a single word. Attention, she saw, is not an unlimited supply that can be drawn on all day.",
+   "Noor soon discovered that nobody can concentrate intensely for a whole day, and that expecting it only leads to disappointment. Many people find that around three or four hours of truly focused work is already plenty, although the number differs from person to person. The rest of the day can be used for lighter, easier jobs without any guilt.",
+   "In the afternoon Noor turned to the lighter jobs on her later list: answering emails, sending invoices, tidying files and planning the following day. She no longer felt guilty for working at a gentler speed, because she had already done the work that mattered most. Not every hour has to be a great hour, and a good day is built from both kinds.",
+   "On Friday afternoon Noor counted what she had finished during the week and could hardly believe the total. She had translated three whole chapters of the harbour book, which was more than she had managed in the previous two weeks put together. The strangest part of it all was that she had worked fewer hours than ever before.",
+   "The following Wednesday night Noor stayed up far too late, scrolling through nothing in particular, and the next morning her block was a small disaster. Her eyes were heavy, her mind was slow and every sentence resisted her as if it were made of glue. Tiredness, she realised, steals focus more surely and more silently than any message or notification ever could.",
+   "However good the plan, a tired mind finds it very difficult to concentrate, and Noor noticed this on the days after a late night. She began to go to bed earlier and left her phone on a shelf across the room, so that the evening scroll could not steal her sleep. Her best blocks, she found, almost always followed a good night, and her worst almost always followed a bad one.",
+   "Noor built a gentle and quiet routine for the last half hour of every single day. In the last half hour before bed she dimmed the lights, put away every screen and read a few pages of a paper book, letting her thoughts slow down like a wheel that is no longer being pushed. Sleep, she found, comes far more willingly when it is gently invited rather than anxiously chased.",
+   "After a full and peaceful night's sleep, Noor sat down at nine and found that the words came almost eagerly. The contrast with the previous morning was so great that it made her laugh out loud, and Omar called through the wall to ask what was so funny. Her best blocks, she was beginning to see, were built quietly during the evening before they began.",
+   "Some studies suggest that a short walk can help people think more freely, although more work is needed to understand why. Noor began to walk outside for fifteen minutes each afternoon, and she often returned with the solution to a problem that had defeated her at her desk. At the very least, the fresh air and the afternoon sunshine did her no harm, and they lifted her mood.",
+   "Noor had promised to try the method for one week, but two weeks slipped past before she even remembered the promise. When she told Hana that she wanted to keep going, Hana smiled as though she had known it all along. The method was no longer an experiment but the beginning of a new way of working.",
+   "Noor watched herself for one afternoon and saw that she opened her inbox every few minutes, as regularly as a clock. Most of the time there was nothing new, or nothing that mattered, but she checked all the same, hoping for a little spark of news. It was less like work and more like pulling the lever of a slot machine.",
+   "Noor decided to check her inbox at fixed moments, noon and four o'clock, instead of dipping into it every few minutes. Between those times she kept it closed, and the messages waited patiently for her without anything terrible happening. She was surprised to discover that the vast majority of them were not urgent.",
+   "Noor wrote a short, friendly status message for her chat and her email, explaining that she read messages at noon and at four and that anybody with a real emergency should phone her. Having named the times, she no longer felt that she was ignoring people, only that she was answering them on a schedule. Clear expectations remove most of the guilt that silence so often creates in a busy and friendly office.",
+   "Pavel laughed and teased her that she had turned into a hermit, and a few other colleagues grumbled mildly about the slower replies. Yet nothing fell apart, no client left in anger and no deadline was missed because she had answered a message at noon instead of at ten past nine. The disasters that she had feared so vividly existed only in her own imagination, and nowhere else at all.",
+   "At noon Noor answered all of her messages in a single sitting, and it took far less time than the scattered replies of the old days. Her mind stayed in the same mode from one email to the next, and she did not have to climb back into each task again and again. A hundred small and tiring switches between tasks had been quietly replaced by a single smooth one.",
+   "During each check Noor answered the short messages on the spot, since a quick reply costs less than remembering to send one later. The ones that needed real thought went onto her later list, where each received a proper place in the afternoon rather than a hurried and careless answer. Sorting the inbox in this way made it look less like a mountain and more like a tidy road.",
+   "Noor muted the busy group chat during her blocks and scrolled back through it at noon, half expecting to find a crisis. She had missed almost nothing of importance, only a long run of jokes, a few photographs of lunch and a single question that someone else had already answered. What had felt so urgent in the moment looked rather ordinary in the light of noon.",
+   "On Sunday afternoon Noor spent half an hour unsubscribing from a dozen newsletters that she had never read, and for which she felt a small and pointless guilt. Her inbox became noticeably quieter the next week, and the little red number grew more slowly. Every message she did not receive was a small interruption that she did not have to resist.",
+   "Noor looked carefully at the messages from her manager Dalia, who marked almost every one of them as urgent. When she read them at noon instead of at once, she found that very few could not have waited, and that the word urgent had lost most of its meaning through overuse. Urgency, she realised, is often just a feeling that someone else is passing along.",
+   "Noor nervously explained her new method to Dalia, expecting resistance or at least a raised eyebrow. To her relief, Dalia listened with real interest, said that she was willing to try it and promised to telephone if something was truly urgent. A little honesty, spoken early and kindly, can turn a possible conflict into an agreement.",
+   "On Tuesday Noor looked at her calendar and saw five meetings stacked one after another like boxes on a shelf. There was no space left for her block, nor for anything else that required a clear head, and she wondered how any real work ever got done in her office. A calendar, she realised, is a promise of how your time will be spent, and hers was a very poor one.",
+   "In the first meeting people talked for a full hour without reaching a single decision, going round in circles like swimmers in a pool. Noor drew a small boat in the margin of her notebook and thought regretfully about the chapter that was waiting at her desk. Some meetings, she concluded, exist mainly because nobody has asked whether they are needed.",
+   "Noor also took a hard look at her meetings, many of which wandered for an hour without reaching a decision. She began to ask for a clear purpose and a fixed end time, and she politely declined the ones where her presence made no difference. The time that she saved in this way went straight back into her protected block of concentration.",
+   "Noor began to send a short plan before every meeting that she led, just three lines long: the purpose, the decision that was needed and the time at which the meeting would end. It cost her two minutes to write, and it saved the whole group an enormous amount of wandering. People, it turns out, are grateful for a map, even a very small one.",
+   "The very next meeting that Noor led ended five minutes early, which was an event so unusual that people checked their watches in surprise. Everyone had spoken, a clear decision had been made and the group left the room with energy to spare, thanking her as they went. Respect for other people's time, it seemed, was contagious, and the habit began to spread through the whole team.",
+   "Noor began to ask one useful question about each regular meeting: could this have been a message instead? Pavel's weekly gathering, for example, turned into a short written update that everyone could read in two minutes at noon, and the whole team gained an hour that they had thought was lost for good. Not every meeting can be replaced by a message, but a surprising number of them can be.",
+   "At two o'clock Pavel leaned on Noor's desk and asked for a quick favour that would only take two minutes. Forty minutes later they were still bent over his file, and Noor had lost both her afternoon plan and the thread of her morning's work. Small requests, she saw, are rarely as small as the people who make them believe.",
+   "Colleagues often asked Noor for small favours that seemed to take only a moment but cost her a whole stretch of concentration. She learned to answer warmly, “I can help you after eleven,” instead of dropping everything at once. Most people accepted this gladly, and the few who did not were usually not in real trouble.",
+   "Noor wrote a few polite phrases on a small card and kept it beside her keyboard: not today, but on Thursday; not now, but after my block; I am not the best person, but Hana might help. A good refusal, she found, is kind and clear, and it often comes with an offer of a better time. Said warmly and honestly, a polite no does not damage a friendship, and it often strengthens trust.",
+   "Hana reminded her that every yes costs something, and that the cost is paid in hours that cannot be earned back. When Noor refused a small request, she was really saying yes to the important work that was waiting for her, and later Pavel thanked her for helping properly on Thursday instead of badly on Tuesday. A well-placed no, she learned, turned out to be a surprisingly generous thing to give another person.",
+   "In the old days Noor worked on the sofa every evening, with her laptop on her knees and the television murmuring in the background. She was never fully working and never fully resting, which is the most tiring state of all, and she went to bed feeling that the day had never properly ended. Work had no edges in those days, and so it spilled into every corner of her evening.",
+   "At five o'clock, Noor began to follow a short shutdown routine, as Hana did. She wrote down tomorrow's task, closed her laptop and said aloud, “Done for today,” as if shutting a door behind her. The little ritual told her mind that it was allowed to stop, and the worries of work no longer followed her home.",
+   "The first time Noor shut everything down at five o'clock, it felt strange, as though she had left the stove on and gone out. She kept wanting to open the laptop just to check, but she resisted and went home anyway, a little nervous about her own daring. Nothing burned down, nothing was lost, and the uneasy feeling faded more quickly than she had expected.",
+   "Now and then a work worry crept back into her mind in the evening, as uninvited as a cat through a window. Noor kept a small pad beside the front door, wrote the worry on it and promised herself that she would deal with it in the morning. Once it was on paper, the mind accepted that it had been heard and became quiet.",
+   "Noor now kept her evenings free from work, and she did not feel guilty about it. She cooked dinner with Omar, walked by the river, and read for pleasure, which gave her tired mind the chance to recover. Rested people, she noticed, tend to return to their tasks with more energy than exhausted ones.",
+   "Over dinner Omar told a long and rambling story about a customer, a stolen sandwich and a very confused pigeon. For once Noor listened with her whole attention, her phone nowhere in sight, and she saw how often in the past she had nodded politely while her mind was elsewhere. Giving someone your full attention, she realised, is one of the kindest things you can do.",
+   "On Sunday evening her old friend Lena called from another city, and Noor settled into the armchair with her laptop safely closed in another room. They talked for a whole hour, laughing and swapping news, and Noor remembered how much she had missed these unhurried conversations. Focus, she noticed, is not only a tool for work but also a way of loving people well.",
+   "Noor picked up Omar's old guitar one evening and tried to play a slow tune that she remembered from childhood. It sounded terrible, with more wrong notes than right ones, but she enjoyed every minute of it, because there was no deadline and nobody was waiting for the result. A hobby that demands your hands and your attention is a gentle kind of rest.",
+   "Noor went to bed at a sensible hour, with her card already written and her phone resting on a shelf across the room. A good evening, she had come to see, gave her a good night, and a good night gave her a good morning. The chain was beautifully simple, and every single link of it was within her own hands.",
+   "Noor woke a few minutes before her alarm, feeling rested and strangely eager, and she walked to her desk in the clean morning light. Her block began easily at nine, as if a runway had been laid for her the night before. It had been, of course, by a quiet evening and a short list written at five o'clock the day before.",
+   "One evening Noor opened a novel that she had once adored and discovered, to her dismay, that she could not read it. Her eyes slid off the page after a few lines, her thoughts drifted to her inbox and her hand began to search for the phone. A skill that she had taken for granted all her life had quietly grown weak from lack of use.",
+   "Noor made a small and sensible plan to rebuild the skill that she had let slip away. Every evening she would read a paper book for fifteen minutes in the armchair, with the phone safely in another room and a timer set so that she would not have to watch the clock. It seemed a modest ambition, but modest ambitions are the ones that people actually keep.",
+   "Reading a long text with full attention is excellent training, because it demands exactly the kind of concentration that a scattered mind has lost. Noor picked up a paper book, sat in an armchair beside a warm lamp and read a whole chapter without once reaching for anything else. The first attempt was difficult and she felt twitchy, but the second was noticeably easier, and the third easier still.",
+   "After one week of evenings, Noor could read thirty pages in a row without once reaching for anything else. Her mind still wandered now and then, as minds do, but it returned more quickly each time, like a boat that has learned its way back to harbour. She had not become a different person in a week, only a more practised and patient one.",
+   "Noor started with blocks of twenty minutes and added about five minutes each week, so that the increase never felt overwhelming. Within two months she could work for close to an hour without stopping, which would have seemed impossible when she began. Slow and steady growth, she found, is a great deal more dependable than a heroic leap.",
+   "Omar, who loved running, told Noor that nobody begins with a marathon, and that he himself had started with two embarrassing minutes of jogging around the block. Attention, he said, grows in just the same way, through small and regular efforts that never feel heroic. It was a comparison she never forgot, mostly because it came from a man holding a banana.",
+   "Hana opened an old notebook and showed Noor the first week of her own blocks, written years earlier in a tidy and slightly nervous hand. At the beginning she had been able to focus for only fifteen minutes before her mind ran away, and she had felt discouraged for days. Nobody, Noor realised, starts out as a master, however calm and graceful they may look today.",
+   "Noor drew a simple chart on the wall and coloured one square for every hour of truly focused work. By Friday, the pattern on the chart told her more about her week than her memory ever could, and an empty row made her ask what had gone wrong. Measuring the right thing, she realised, is always the first step towards improving it, and it costs almost nothing.",
+   "Noor's first chart held only a few shy coloured squares, while the one from the third week was filled with colour from side to side. The change had been so gradual that she had never noticed it from inside, but on paper it was unmistakable, like a child's height marked on a doorframe. Slow progress is still progress, and the chart refused to let her forget it.",
+   "When Noor saw one empty day in the middle of a good week, she did not scold herself, and she did not quietly stop keeping the chart, as she might once have done. One low day was not a failure, she told herself, only a single square in a larger picture that was still moving in the right direction. Measuring without judging, she thought, is a much calmer and kinder way to grow than punishing yourself.",
+   "Noor's office was a happy and lively place, full of phone calls, bursts of laughter and the grinding roar of a coffee machine. It was a wonderful place to make friends and a very difficult place to think, and some days she felt as though she were trying to read in the middle of a market. Noise is not wicked in itself, but it is surprisingly expensive for a mind that is trying to think.",
+   "In the open-plan office, Noor put on a large pair of headphones whenever she needed to concentrate, and she explained to her team that this meant she should not be disturbed. The signal was clear enough for everybody to learn, and it saved many awkward conversations. Noise cannot always be removed, but its power over you can often be reduced.",
+   "Her colleagues soon learned the signal, and it became a kind of friendly code in the office. When the headphones were on, they waited or sent a message, and when the headphones came off, they were welcome to stop by for a chat, which Noor was always glad to have. Boundaries, she found, do not make people colder, but make the warmth easier to enjoy.",
+   "Noor asked Dalia whether she might move to a desk in a quiet corner, far from the door and the coffee machine, and Dalia agreed at once, wondering aloud why nobody had asked before. It was a small request, and it removed a great deal of daily friction from Noor's mornings. Sometimes the only cost of a better arrangement is the courage to ask for it.",
+   "When she worked from home, Noor hung a note on her bedroom door that said, “Working until eleven, please knock softly after that.” Omar, who loved loud music, read it, grinned and promised to keep the volume down. A simple sign can turn an invisible need into something that other people can understand and respect.",
+   "Noor and Omar struck a friendly deal over breakfast: the flat would be quiet from nine until eleven each morning, and Omar would wear headphones if he simply had to hear his music. In return Noor promised to wash the dishes on Saturdays, a chore that Omar despised with real passion. Both of them privately thought that they had got much the better of the bargain, which is the sign of a good deal.",
+   "Some people find that the steady murmur of a café helps them concentrate, whereas sudden loud noises, such as a dropped tray or a shouted order, tend to shatter their thoughts. Noor tried the café again, more carefully this time, and found that it suited her on quiet afternoons but never on busy ones. The only way to know what works for you, she decided, is to test it.",
+   "One Wednesday a neighbour began drilling the wall at nine o'clock sharp, with an enthusiasm that could be felt in her teeth. Noor could not stop the noise, so she put in a pair of earplugs and, when even those were not enough, carried her laptop to the library and moved her block there. You cannot silence every noise in the world, but you can usually choose where you stand when it arrives.",
+   "Noor made a backup plan for the noisy days that no amount of planning could prevent. She kept a short list on a card, including the library, a friend's spare room and her best headphones, so that a surprise would never cost her a whole morning. Having a second plan, she found, made the first plan far less stressful, because failure no longer felt like a disaster.",
+   "After a few weeks, Noor's quiet corner, her signs and her headphones had changed the character of her days. The office was just as lively as ever, and Omar's music was just as loud after eleven, but the noise had lost most of its power to disturb her. She had not removed the world's racket; she had simply learned to arrange her place within it.",
+   "Noor loved seeing her friends' photographs and videos, and she had no wish to give them up. The trouble was that one quick look so often turned into a whole hour, at the end of which she could remember hardly anything she had seen. A pleasure that leaves no memory behind it is a rather strange kind of pleasure, she thought.",
+   "Noor did not abandon social media altogether, because she enjoyed it and used it to keep in touch with friends. Instead she decided what it was for, gave it a fixed twenty minutes in the evening and stopped opening it during her working blocks. Choosing a limit is far kinder than relying on a moment of weak willpower.",
+   "Noor used a setting on her phone that limited her daily time in each app, so that a polite warning appeared when the limit was reached. At first she ignored the warning and tapped past it, but gradually, on most days, she began to obey it. A gentle limit that you set yourself, she found, is far easier to respect than a rule imposed by someone else.",
+   "Noor moved her social apps off the first screen, hid them in a folder on the very last page and logged out after each visit. Every extra step added a little friction, and in that small pause she often asked herself whether she really wanted to look. The easiest way to break a habit is to put a few small stones in its path.",
+   "Many apps earn their money by keeping people looking for as long as possible, so their designers work hard to hold attention with endless feeds, bright colours and small rewards. This was not a weakness in Noor's character, and it was comforting to know that she was up against professionals. It did mean, however, that good intentions alone would not be enough, and that she needed a plan.",
+   "Noor decided to replace the scrolling habit with something better rather than merely forbidding it. Whenever she felt the itch to look at her phone for no reason, she telephoned her Grandma Amal, or read a page of her book, or stepped outside for a minute. A habit is easier to change when you give the old urge a new place to go.",
+   "On Sunday morning Noor switched her phone off, put it in a drawer and left it there until noon, as a curious experiment. She felt a little anxious at first, like a person who has stepped out of the house without her keys, but she decided simply to see what would happen. The morning stretched out ahead of her, wide and unexpectedly quiet, with nothing in it that demanded to be answered.",
+   "At noon Noor switched her phone back on and found only a handful of messages waiting, none of them urgent. One was from her friend Lena, with a few kind words and the comforting phrase that there was no rush at all. The world had carried on perfectly well without her for four hours, and so had she.",
+   "Noor did not turn against social media, and she went on enjoying it in her own calmer way. She delighted in the photographs of Lena's new puppy and the occasional joke from an old school friend, but now she chose when to look instead of being dragged by habit. The difference between choosing and being pulled is the difference between enjoying something and being used by it.",
+   "Noor sent a short and friendly message to her closest friends, explaining her new habits. If something was urgent they should phone her, she wrote, and if not, she would reply properly in the evening, when she could give them her full attention. Nobody was offended, and several people said that they might try the same thing.",
+   "Dalia mentioned that more and more clients were asking for translations from Polish, and Noor, feeling bolder than she had in years, decided to learn the language. She knew that it was famously difficult, with its long words and strange endings, but she also knew that she now had the habits to attempt it. Ambition is far easier to carry when you are no longer exhausted by the noise of your own days.",
+   "At first Noor watched a Polish video lesson while glancing at her phone, believing that she could absorb it all with half her mind. After a week she could not remember a single new word, and she began to feel discouraged and a little foolish. Half attention, she was learning for the third time, produces about half the result, and sometimes less.",
+   "Noor wanted to master a difficult language for her work, and she noticed that she learned far faster when her phone was away and her whole mind was on the lesson. Learning a hard skill requires the effort of holding new ideas in the head and connecting them to old ones. That effort is easily broken by even a small distraction, which is why the phone had to go.",
+   "Noor changed her method completely, and the first change was to put the phone in another room. She wrote each new word by hand, said it aloud twice and added it to a stack of small cards, giving the lesson thirty minutes of her complete attention. In that single session she learned more than in the whole of the previous week, and the words stayed with her until the evening.",
+   "Learning Polish felt hard, and there were moments when Noor wanted to push the book away and reach for something easier. She read that many researchers believe effortful learning tends to last longer than learning that feels smooth, although the details are still debated. The struggle, in other words, was not a sign that she was failing but possibly a sign that something was being built.",
+   "Noor began to practise doing just one thing at a time in her daily life, even in small moments. At lunch she only ate, noticing the taste of her food, and on her walk she only walked, noticing the sky and the sound of her footsteps. These small habits, she found, made it easier to concentrate when it really mattered.",
+   "On her afternoon walk Noor left her podcasts at home and simply walked, with her head up and her hands empty. She heard the soft rush of the river, spotted a grey heron standing like a statue among the reeds and felt her shoulders slowly drop. It was astonishing how much of the world she had been missing while listening to someone else's voice.",
+   "After dinner Noor washed the dishes and did absolutely nothing else, without a podcast, a screen or a daydream about tomorrow. She felt the warmth of the water, watched the bubbles gather on the plates and discovered that the most boring job in the house had become almost pleasant. Attention, it seemed, could make even the plainest task worth noticing and sometimes even worth enjoying.",
+   "Noor tried the same discipline on telephone calls, which she had always combined with typing, tidying or scrolling. She sat still and simply listened, and the conversations became shorter, warmer and noticeably more useful, because she no longer had to ask people to repeat themselves. Doing one thing at a time, she was discovering, saves time rather than wasting it.",
+   "Hana told her that attention was not a skill reserved for blocks, but a habit that was practised, or neglected, all day long. Each small choice to stay with one thing, whether a meal, a conversation or a plate, was a repetition that strengthened the whole. The big achievements, she said, are built almost entirely out of the small and unnoticed ones.",
+   "Hana pointed out that many people get their best ideas in the shower, on the stairs or while walking, rather than while staring at a screen. The mind seems to go on working quietly in the background when it is not being fed with something new, she said, although nobody understands exactly how. Ideas, like cats, tend to arrive when you stop calling them, and they seldom come when you are shouting.",
+   "Good ideas often arrive in quiet moments, when the mind is not being fed with a constant stream of information. One afternoon, while Noor walked with no music and no phone, she suddenly saw how to solve a sentence that had troubled her for days. It was as if her mind, finally left alone, had quietly been working on it all along.",
+   "Noor began to protect twenty minutes of empty time each afternoon, scheduling it as faithfully as a block. She sat by the window with a notebook and a cup of tea, no screen in sight, and wrote down any idea that happened to float into her mind. Some days the notebook stayed blank, but on others it filled with useful surprises.",
+   "One morning Noor looked up from her work and was astonished to find that nearly two hours had passed. She had been so absorbed in her translation that she had not noticed the time, and she felt a deep and quiet pride. Moments like this are among the greatest rewards of protecting your attention, and they cannot be forced or hurried.",
+   "Some people call that absorbed and happy state flow, though researchers use the word in several different ways. Noor could not command it to appear whenever she liked, but she noticed that it came more often when her block was protected and her phone was far away. It was a little like a shy bird, which visits only a quiet garden and never a noisy street.",
+   "Of course, some days were bad, and on those days Noor could not concentrate no matter how she tried. Instead of giving up completely, she lowered the bar, did a short block of twenty minutes and then allowed herself to rest. Something small and honest, she knew, is always worth more than nothing, and it keeps the habit of focus alive.",
+   "When a block went badly, Noor no longer called herself lazy or hopeless, as she once would have done. She spoke to herself as she would to a friend, kindly and clearly, reminding herself that one bad morning cancels nothing that she had already built. Harsh words, she noticed, made her avoid the work, while gentle ones made it easier to return.",
+   "Hana admitted that she, too, had bad days, and that the habit had never made her into a machine. Only the month before she had woken with a terrible headache, done a single short block of twenty minutes, drunk a large glass of water and gone home early to rest. It was reassuring to learn that even the calmest people sometimes feel unwell and have to rest.",
+   "Noor saw that her new habit survived the bad days precisely because it was able to bend. A rigid rule that demands perfection tends to snap at the first real difficulty, whereas a flexible one, like a tree in the wind, can bow and then stand up again. The goal was not a perfect record that would impress anybody, but a practice that would last for years.",
+   "Noor stuck a small gold star beside a short and difficult block on her chart, and Omar laughed at her with great affection. She explained that a modest effort on a hard day deserved at least as much praise as an easy triumph, and that nobody else was going to hand out stars on her behalf. The little ceremony made her smile, and the smile made the next morning easier.",
+   "Dalia noticed that Noor looked calmer than she had in months and had finished more work than anyone expected, and one morning she asked how it was possible. Noor showed her the chart on the wall, the blue block in her calendar and the card on her desk, and explained the method as simply as she could. Dalia listened with her head slightly on one side, like someone hearing an old tune.",
+   "Noor suggested a quiet hour every morning for her whole team, during which nobody would send messages or call meetings. After a month, the team agreed that they were getting more done and that the afternoons felt calmer as well. Protecting attention is easier and a great deal more effective when a whole group agrees to do it together.",
+   "On the first quiet morning the office felt strange, almost unnatural, because nobody was talking and the silence seemed louder than the usual noise. After about ten minutes, however, everyone was typing, reading or thinking, and the room settled into a calm, busy hum like a beehive on a summer day. People who had never noticed how noisy their office was now noticed how pleasant its silence could be.",
+   "Pavel complained that his questions piled up unanswered during the quiet hour, and he had a fair point. The team solved the problem by creating an open question time at two o'clock every day, when anyone could knock on any door and ask anything at all. Pavel was the first to arrive on the first afternoon, with a very long list.",
+   "So that her colleagues would never feel abandoned, Noor gave them a simple way to reach her in a real emergency, which was to phone her directly. Everything less urgent could wait for the next time she looked at her messages. This arrangement reassured everyone in the office, and in practice it almost never had to be used.",
+   "Every Friday afternoon Noor sat down with a cup of tea and studied her chart, as a gardener walks round the garden at the end of a week. She asked herself two simple questions: what had helped her to focus, and what had got in her way? The review took ten minutes and was worth more than any amount of worrying.",
+   "One Friday the review revealed that her Monday blocks were always the weakest of the week, and Noor decided to experiment. On the following Monday she began at ten instead of nine, after a short walk to wake up her mind, and the block went noticeably better. Gentle experiments, she was learning, are far more useful than harsh judgments, and a great deal more pleasant.",
+   "Focus, Noor realised, is a tool and not a religion, and it must never become an excuse for ignoring the people she loves. On days when a friend was ill or a client truly needed her, she chose to be easy to reach, and she did so without guilt. The skill lies in deciding on purpose, rather than being dragged along by whatever demands your attention.",
+   "Hana reminded her that all of these ideas were a tool and not a cage, and that they existed to serve her life rather than rule it. If the tool stopped helping, Noor should change it without shame, and if it helped, she should be grateful and keep it. Rules are good servants but very poor masters, and the wise person knows which of the two they are.",
+   "One morning Grandma Amal telephoned in a panic because her washing machine was flooding the kitchen, and Noor abandoned her block without a moment's hesitation. She spent the morning mopping floors and making tea, and she felt no guilt whatever, because this was exactly what the method was for. The next day she sat down at nine and began again, as though nothing had happened.",
+   "Two months after her first conversation with Hana, Noor typed the last sentence of the harbour book, and then she sat very still for a moment. It was a quiet ending to a long task, and she had reached it without working a single late evening. For the first time in years her effort had matched her real ability, and the match felt like a homecoming.",
+   "Noor read her finished translation from the first page to the last, slowly, as a reader rather than a worker. It flowed smoothly, and in several places it was genuinely beautiful, and she felt a quiet and steady joy that was entirely different from the brief thrill of a crossed-off list. She had made something with her full attention, and every page of it showed the difference clearly.",
+   "Noor sent the translation to the publisher on a Thursday afternoon, and she did not check her inbox again until noon the next day. The reply was waiting there, warm and enthusiastic, saying that the publisher was delighted and that the book had arrived ahead of schedule. She read it twice with a growing smile, then closed the laptop and went out for a long walk.",
+   "Dalia offered Noor a bigger and more interesting project, the sort of work that earlier in the year she would have been far too scattered to attempt. Noor accepted with pleasure, asking only for a timetable that protected her daily blocks, and Dalia agreed at once with a warm smile. Good work, it seemed, leads to more good work, and calm habits make it possible to accept it.",
+   "At five o'clock on a warm summer evening Noor and Hana left the office together, and the light was soft and golden over the roofs. Noor realised that she had not left work so early, and so contentedly, in years, and that she was not even thinking about her phone. Beside her, Hana walked at an easy and unhurried pace, as she always did at the end of a day.",
+   "Looking back over the two months, Noor saw how much calmer her days had become, and how much more she had achieved with fewer hours of effort. She thanked Hana warmly for her advice, and Hana laughed and said that she had only pointed at a door, and that it was Noor who had walked through it. Noor smiled, because she knew that, one day, she would pass the same secret on to someone else.",
+   "Hana warned her that the noise would never disappear for good, since new apps, new alerts and new demands would always be arriving from somewhere. Every day, she said, Noor would have to choose again, and the choice would never be quite finished. This did not discourage Noor, because she now knew that choosing was a skill, and skills grow.",
+   "That evening Noor wrote a note to her future self, to be read on the hard days that were sure to come. It said, in her own plain words, to do twenty minutes, to be kind and to begin again tomorrow. She slipped it inside her notebook like a letter to a friend who might need it.",
+   "Omar spotted Noor's card on the kitchen table, read it twice with raised eyebrows and asked whether he might try the method himself. Noor was delighted, and she began, naturally, by telling him to put his phone in another room, and he groaned theatrically before agreeing to a trial. The secret that she had once been given so generously was already travelling on to somebody new.",
+   "Here is the whole lesson in short: protect one block of time every day for the work that matters most. Choose your task, remove the noise, begin gently, and rest well afterwards, so that tomorrow's block is as good as today's. Do not wait for a perfect day, because attention grows stronger each time you protect it and bring it back."
+  ]
+ }
 }
