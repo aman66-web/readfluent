@@ -2866,6 +2866,117 @@
   }
  },
  {
+  "slug": "live-by-your-principles",
+  "title": "Live by Your Principles",
+  "author": "The 7 Habits of Highly Effective People",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Ines runs a small bike shop and feels she is always rushing, never steering. With her grandfather's old brass compass on the wall, she learns to find what matters most and make daily choices that match it. A practical year of steady, honest living.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Live by Your",
+    "Principles"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "mountain",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "worry-less-live-more",
+  "title": "Worry Less, Live More",
+  "author": "How to Stop Worrying and Start Living",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Elif lies awake at night with a head full of what-ifs. Over one growing season, her neighbour Mrs Hale teaches her, among the vegetable beds, how to ask better questions, take small steps and let go of what cannot be controlled. Calm, practical and kind.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Worry Less,",
+    "Live More"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "leaf",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sun",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "as-a-man-thinketh",
+  "title": "As a Man Thinketh",
+  "author": "James Allen",
+  "kind": "classic",
+  "category": "self-help",
+  "blurb": "A hundred-year-old little book with one big idea: your thoughts are seeds, and your life is the garden that grows from them. James Allen shows how the mind shapes character, health, goals and peace.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "As a Man",
+    "Thinketh"
+   ],
+   "size": 19,
+   "author": "JAMES ALLEN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "brain",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "leaf",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-science-of-getting-rich",
   "title": "The Science of Getting Rich",
   "author": "Wallace D. Wattles",
@@ -5656,6 +5767,44 @@
   }
  },
  {
+  "slug": "the-rules-history-keeps-repeating",
+  "title": "The Rules History Keeps Repeating",
+  "author": "The Lessons of History",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "History never repeats exactly, yet it keeps rhyming. Meet twelve patterns, from stretched empires to bursting bubbles, each shown through real people in Rome, Amsterdam, Paris and beyond. Learn what the past can and cannot tell us.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Rules",
+    "History Keeps",
+    "Repeating"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "scroll",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "on-the-origin-of-species",
   "title": "On the Origin of Species",
   "author": "Charles Darwin",
@@ -6236,6 +6385,44 @@
     },
     {
      "id": "orbit",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "why-time-feels-like-it-flows",
+  "title": "Why Time Feels Like It Flows",
+  "author": "The Order of Time",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "You can't touch it, yet it rules your day. Follow time through ancient clocks, Einstein's bent minutes, the arrow that makes eggs break, and the brain that makes an hour fly or crawl, and see why nobody fully understands it.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Why Time",
+    "Feels Like It",
+    "Flows"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "brain",
      "x": 160,
      "y": 38,
      "s": 0.36
