@@ -1829,6 +1829,43 @@
   }
  },
  {
+  "slug": "purpose-in-hard-times",
+  "title": "Purpose in Hard Times",
+  "author": "Man's Search for Meaning",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "When life turns painful, big goals can feel impossible. Follow Ruth, Omar and Lena through a job loss, a flood and a long illness at home, and learn small, honest ways to keep a purpose alive when everything is hard.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Purpose in",
+    "Hard Times"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lighthouse",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "anchor",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-science-of-getting-rich",
   "title": "The Science of Getting Rich",
   "author": "Wallace D. Wattles",
@@ -2555,6 +2592,43 @@
   }
  },
  {
+  "slug": "the-analects-of-confucius",
+  "title": "The Analects of Confucius",
+  "author": "Confucius",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "Two and a half thousand years ago a teacher in China spoke simply about learning, kindness, honesty and how to live well. His students wrote his words down. Meet Confucius through the sayings and small stories of the Analects.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Analects",
+    "of Confucius"
+   ],
+   "size": 14,
+   "author": "CONFUCIUS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "tree",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "be-here-be-calm",
   "title": "Be Here, Be Calm",
   "author": "Wherever You Go, There You Are",
@@ -2654,6 +2728,44 @@
     },
     {
      "id": "leaf",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "staying-calm-when-life-breaks",
+  "title": "Staying Calm When Life Breaks",
+  "author": "When Things Fall Apart",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "One grey Tuesday Noor loses her job, and by night her father is in hospital. Follow her through a few hard weeks as an old ferry captain teaches her calm: simple steps, drawn from many traditions, for when life breaks.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Staying Calm",
+    "When Life",
+    "Breaks"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "anchor",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "waves",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -3102,6 +3214,44 @@
   }
  },
  {
+  "slug": "why-healthy-food-feels-so-hard",
+  "title": "Why Healthy Food Feels So Hard",
+  "author": "The Hungry Brain",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Noor wants to eat well, yet every evening her appetite wins. With her uncle Idris, a retired dietitian, she learns why: old hunger signals, clever food, tired evenings and busy lives. Then she finds small, kind changes that really work.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Why Healthy",
+    "Food Feels So",
+    "Hard"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "apple",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "brain",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-histories",
   "title": "The Histories",
   "author": "Herodotus",
@@ -3393,6 +3543,44 @@
     },
     {
      "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "how-humans-took-over-the-world",
+  "title": "How Humans Took Over the World",
+  "author": "Sapiens",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "We are not the strongest animal, or the fastest, or the oldest. So how did one species from Africa end up filling every continent, building cities and walking on the Moon? Follow the whole story, from the first stone tool to the world of eight billion.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "How Humans",
+    "Took Over the",
+    "World"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "globe",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "footprints",
      "x": 160,
      "y": 38,
      "s": 0.36
