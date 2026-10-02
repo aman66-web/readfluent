@@ -7807,6 +7807,43 @@
   }
  },
  {
+  "slug": "a-christmas-carol",
+  "title": "A Christmas Carol",
+  "author": "Charles Dickens",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "Ebenezer Scrooge hates Christmas and loves only money. Then, on Christmas Eve, the ghost of his dead partner arrives with a warning and three spirits follow. Can one long night teach a hard old heart to be kind before it is too late?",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "A Christmas",
+    "Carol"
+   ],
+   "size": 15.5,
+   "author": "CHARLES DICKENS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "candle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "moon",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-sleeper-awakes",
   "title": "The Sleeper Awakes",
   "author": "H. G. Wells",
@@ -8165,6 +8202,39 @@
     },
     {
      "id": "bolt",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "your-first-hundred-customers",
+  "title": "Your First Hundred Customers",
+  "author": "The Lean Startup",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Meet Maya, who wants to turn an idea for fixing bicycles at people's doors into a hundred paying customers. Step by step, she learns to test her guesses cheaply, listen to real people and count what matters.",
+  "cover": {
+   "bg": "#D4F4FA",
+   "light": true,
+   "title": [
+    "Your First",
+    "Hundred",
+    "Customers"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "handshake",
      "x": 160,
      "y": 38,
      "s": 0.36
