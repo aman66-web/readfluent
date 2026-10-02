@@ -733,6 +733,43 @@
   }
  },
  {
+  "slug": "the-love-letter-cafe",
+  "title": "The Love Letter Café",
+  "author": "P.S. I Love You",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "Nina Alvarez comes to Marlow Bay to sell her late grandmother's café. Instead she finds twelve secret letters that must be delivered, a town full of unsaid words and Eli, the postman she once left behind.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Love",
+    "Letter Café"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "envelope",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "cup",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "a-study-in-scarlet",
   "title": "A Study in Scarlet",
   "author": "Arthur Conan Doyle",
@@ -2173,6 +2210,44 @@
     },
     {
      "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "a-traveller-s-guide-to-nowhere",
+  "title": "A Traveller's Guide to Nowhere",
+  "author": "The Hitchhiker's Guide to the Galaxy",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "Oswin Pargeter is the most careful man in Bristol, until a rude and wonderful guidebook arrives on his doormat with a holiday he never booked. Now he must cross a very silly galaxy to find a stamp and a way home.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "A Traveller's",
+    "Guide to",
+    "Nowhere"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "moon",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -3713,6 +3788,44 @@
   }
  },
  {
+  "slug": "teach-yourself-to-be-wealthy",
+  "title": "Teach Yourself to Be Wealthy",
+  "author": "I Will Teach You to Be Rich",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Nina has just started her first job and has no idea what to do with her pay. Learn with her how to plan your spending, clear debts, build savings and start investing, in simple steps that anyone can follow and no special talent.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "Teach",
+    "Yourself to",
+    "Be Wealthy"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "chart",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-dhammapada",
   "title": "The Dhammapada",
   "author": "Buddhist scripture (traditional)",
@@ -4422,6 +4535,43 @@
     },
     {
      "id": "moon",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "a-calm-and-happy-life",
+  "title": "A Calm and Happy Life",
+  "author": "The Art of Happiness",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "Is a calm and happy life possible for ordinary people? This short book of simple ideas, shared by many wisdom traditions, shows small practices you can try today, one calm step at a time.",
+  "cover": {
+   "bg": "#164E63",
+   "title": [
+    "A Calm and",
+    "Happy Life"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "sun",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "dove",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -6461,6 +6611,43 @@
     },
     {
      "id": "lens",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "earth-seen-from-space",
+  "title": "Earth Seen From Space",
+  "author": "Pale Blue Dot",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Ana is an astronaut with one promise to keep: to describe the whole Earth to her young niece. Through the windows of the space station, you will see storms, rivers, reefs, cities and auroras, and understand why our home looks so small and precious.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Earth Seen",
+    "From Space"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "globe",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "orbit",
      "x": 160,
      "y": 38,
      "s": 0.36

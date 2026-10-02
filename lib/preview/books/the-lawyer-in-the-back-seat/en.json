@@ -1,0 +1,417 @@
+{
+  "slug": "the-lawyer-in-the-back-seat",
+  "meta": {
+    "blurb": "Nico Barrow cannot drive, so his office is the back seat of an old black cab. When a young courier is blamed for stealing a priceless violin, Nico and his driver Stan must find the truth before a jury decides.",
+    "bible": "Nico Barrow: a defence lawyer in his forties; an eye condition leaves him almost blind after dark, so he cannot drive and works from the back seat of a cab. Stan Wren: his old friend, a retired cabbie of sixty-seven, with a tea flask; his catchphrase is \"Where to, boss?\". Owen Pike: a bicycle courier of twenty-three, the client; a caution at nineteen for shoplifting; once painted Merrow Hall's doors as community service. Tilly Dean: Owen's flatmate. Ruth Calder: the Detective Inspector, fair and honest. Gordon Vance: the silver-haired manager of Merrow Hall; sold the real violin and arranged the theft; the villain. Elise Marchetti: the famous violinist who plays the Calloway. Jarek Nowak: the stagehand. Kenji Mori: the old violin maker of Tanner Lane; mended the Calloway in 2019 with two tiny wooden cleats under the chinrest. Priti Shah: the manager at DashPost. Pietro Rossi: the doorman of the Grand Hotel. Albrecht Voss: a Swiss dealer in rare violins, of Zurich. Judge Abara: the judge. Ms Penrose: the prosecutor. Carrowmouth: the city. Merrow Hall: the old concert hall. Carrowmouth Central: the police station. The Calloway Violin: an old instrument worth about two million pounds. DashPost: the courier app; the order came from M Davies on the Merrow Staff network, which only five people knew. Zurich: the Swiss city. Voice and tone: lively, warm and clever, a puzzle told through the cab windows; no violence; the final proof is the missing cleats."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A lawyer reads files on the back seat of an old black cab",
+      "summary": "Nico Barrow works from the back seat of a black cab driven by his friend Stan."
+    },
+    {
+      "n": 2,
+      "scene": "A cab driver with a flask of tea smiles at his passenger",
+      "summary": "Nico cannot drive because of an eye condition, so his old friend Stan Wren drives him."
+    },
+    {
+      "n": 3,
+      "scene": "Nico listens on his phone while rain runs down the cab window",
+      "summary": "Tilly Dean phones to say her flatmate Owen Pike has been arrested for stealing a famous violin."
+    },
+    {
+      "n": 4,
+      "scene": "Nico and an inspector face each other across a desk in a police station",
+      "summary": "Detective Inspector Ruth Calder explains what the police believe Owen did."
+    },
+    {
+      "n": 5,
+      "scene": "A nervous young courier in a hooded jacket sits in an interview room",
+      "summary": "Owen Pike, twenty-three, tells Nico he is innocent."
+    },
+    {
+      "n": 6,
+      "scene": "A courier takes a hard case from a stage door at dusk",
+      "summary": "Owen says an app job told him to collect a case at the Merrow Hall stage door and deliver it to a violin maker."
+    },
+    {
+      "n": 7,
+      "scene": "A security camera shows a cyclist leaving a stage door with a case",
+      "summary": "The police have a camera picture of Owen leaving with a case and a violin found in his flat."
+    },
+    {
+      "n": 8,
+      "scene": "A judge looks down from a high bench in a quiet courtroom",
+      "summary": "Judge Abara grants Owen bail after Nico argues for it."
+    },
+    {
+      "n": 9,
+      "scene": "Nico in the cab on a rainy street gazing at an old concert hall",
+      "summary": "Nico decides to find out who gave Owen the case, and Stan asks where to."
+    },
+    {
+      "n": 10,
+      "scene": "A silver-haired manager greets visitors in a grand concert hall lobby",
+      "summary": "Gordon Vance welcomes Nico to Merrow Hall, polished and sad."
+    },
+    {
+      "n": 11,
+      "scene": "Nico looks around a dressing room with a locked door and an empty case",
+      "summary": "Vance shows the dressing room and says only he and Elise had keys."
+    },
+    {
+      "n": 12,
+      "scene": "A violinist holds a modern violin in a quiet apartment",
+      "summary": "Elise Marchetti says she played her spare violin because the Calloway sounded thin."
+    },
+    {
+      "n": 13,
+      "scene": "A violinist holds a phone and frowns at a calendar",
+      "summary": "Elise had planned to take the Calloway to Mori on Monday, but Vance had told her not to worry."
+    },
+    {
+      "n": 14,
+      "scene": "Nico writes two dates on a notepad in the back of a cab",
+      "summary": "Nico notices that the theft happened two days before Elise's planned check of the violin."
+    },
+    {
+      "n": 15,
+      "scene": "A nervous stagehand wipes his hands at a stage door",
+      "summary": "Jarek Nowak, the stagehand, says he was on a break and saw nothing."
+    },
+    {
+      "n": 16,
+      "scene": "Nico points to a courier app order on a phone screen",
+      "summary": "On Owen's phone the order was placed at five to five by M Davies, who asked for Owen by name."
+    },
+    {
+      "n": 17,
+      "scene": "A customer service manager reads a screen at a bright office desk",
+      "summary": "DashPost's Priti Shah tells Nico the account was new, paid by a prepaid card, and used the Merrow staff network."
+    },
+    {
+      "n": 18,
+      "scene": "A young man paints a side door of a concert hall in old overalls",
+      "summary": "Tilly remembers that Owen once painted a Merrow Hall door as community service, so Vance knew him."
+    },
+    {
+      "n": 19,
+      "scene": "An old violin maker in an apron stands in a cluttered workshop",
+      "summary": "Kenji Mori says he never ordered a repair job from Merrow Hall."
+    },
+    {
+      "n": 20,
+      "scene": "A violin maker holds a small mirror inside a violin body under a lamp",
+      "summary": "Mori describes how he repaired the Calloway's crack in 2019 with two small wooden cleats under the chinrest."
+    },
+    {
+      "n": 21,
+      "scene": "Nico faces a stern inspector across a desk in her office",
+      "summary": "Nico asks Calder for an independent check of the violin, and she refuses."
+    },
+    {
+      "n": 22,
+      "scene": "A judge reads a document at her high desk in a quiet courtroom",
+      "summary": "Judge Abara orders an expert examination by Mori with police present."
+    },
+    {
+      "n": 23,
+      "scene": "Two flatmates talk in a hallway as a police car stops outside",
+      "summary": "Tilly says the police arrived on Sunday only minutes after Owen woke, as if someone had told them."
+    },
+    {
+      "n": 24,
+      "scene": "An inspector looks at a printed call record on her desk",
+      "summary": "Calder admits the police were tipped off by a call from a cheap phone near the hall."
+    },
+    {
+      "n": 25,
+      "scene": "A black cab races through narrow market streets at night with headlights behind",
+      "summary": "A car follows the cab at night, and Stan shakes it off through the old market."
+    },
+    {
+      "n": 26,
+      "scene": "A doorman in a long coat talks to a cab driver",
+      "summary": "Stan's old friend Pietro, the doorman at the Grand Hotel, remembers Gordon Vance meeting a Swiss man in July."
+    },
+    {
+      "n": 27,
+      "scene": "A hotel register lies open on a polished desk beside a brass bell",
+      "summary": "The hotel register names the guest as Albrecht Voss of Zurich."
+    },
+    {
+      "n": 28,
+      "scene": "Two men sit in a late-night cafe with steaming cups",
+      "summary": "Nico and Stan find Jarek at a late-night cafe and ask him to tell the truth."
+    },
+    {
+      "n": 29,
+      "scene": "A big young man covers his face with his hands at a cafe table",
+      "summary": "Jarek says Vance gave him the case at half past six and told him to hand it to a courier."
+    },
+    {
+      "n": 30,
+      "scene": "A cab driver pours tea from a flask for a worried young man",
+      "summary": "Stan's tea and kindness help Jarek decide to testify."
+    },
+    {
+      "n": 31,
+      "scene": "A silver-haired man leans into a cab window on a dark street",
+      "summary": "Vance finds Nico in the cab and suggests Owen plead guilty for a short sentence."
+    },
+    {
+      "n": 32,
+      "scene": "A young courier sits with his head down in a lawyer's cab",
+      "summary": "Owen wants to plead guilty to end it, but Nico persuades him to hold on."
+    },
+    {
+      "n": 33,
+      "scene": "A violin maker holds a mirror and lamp to the inside of a violin",
+      "summary": "On the day before the trial, Mori examines the violin in the police store and finds no cleats."
+    },
+    {
+      "n": 34,
+      "scene": "A violin maker hands the violin back to an inspector with a grave face",
+      "summary": "Mori says the violin is a fine copy about thirty years old, and Calder is shaken."
+    },
+    {
+      "n": 35,
+      "scene": "A lawyer in a black gown speaks to a jury in a crowded courtroom",
+      "summary": "At the trial Ms Penrose describes the camera, the caution and the violin found in Owen's flat."
+    },
+    {
+      "n": 36,
+      "scene": "An inspector gives evidence from a witness stand in a quiet courtroom",
+      "summary": "Calder admits under Nico's questions that nobody checked the tip call or the app order."
+    },
+    {
+      "n": 37,
+      "scene": "A silver-haired manager gives evidence with a calm expression",
+      "summary": "Gordon Vance confidently tells the court that he recognised the violin as the Calloway."
+    },
+    {
+      "n": 38,
+      "scene": "A lawyer holds up a small mirror in front of a witness in court",
+      "summary": "Nico asks Vance whether he has looked inside the violin, and Vance has not."
+    },
+    {
+      "n": 39,
+      "scene": "An old violin maker in a dark suit stands in a witness box",
+      "summary": "Mori tells the jury the Calloway has two cleats that this violin does not, so it is a copy."
+    },
+    {
+      "n": 40,
+      "scene": "A violinist in a black dress speaks quietly from a witness stand",
+      "summary": "Elise tells the jury how the Calloway sounded thin and Vance told her not to worry."
+    },
+    {
+      "n": 41,
+      "scene": "A doorman in a long coat answers questions in a courtroom",
+      "summary": "Pietro tells the jury about Vance, the Swiss dealer and the heavy case at the Grand Hotel in July."
+    },
+    {
+      "n": 42,
+      "scene": "A big young stagehand speaks nervously in a witness box",
+      "summary": "Jarek tells the jury that Vance handed him the case and told him to take a break."
+    },
+    {
+      "n": 43,
+      "scene": "A manager speaks from a witness stand with a printed network log",
+      "summary": "Priti Shah tells the court the order came from the Merrow Staff network, whose password only five people know."
+    },
+    {
+      "n": 44,
+      "scene": "A lawyer faces a silent man in a crowded courtroom",
+      "summary": "Nico asks Vance a last question, and Vance's calm breaks and he admits he sold the real violin."
+    },
+    {
+      "n": 45,
+      "scene": "A judge raises her hand as police officers step toward a man in court",
+      "summary": "Judge Abara stops the trial, the charges against Owen are dropped, and Vance is arrested."
+    },
+    {
+      "n": 46,
+      "scene": "A young courier hugs his flatmate on the steps of a courthouse",
+      "summary": "Owen is free, and he and Tilly thank Nico and Stan."
+    },
+    {
+      "n": 47,
+      "scene": "A police officer hands a violin case to a violinist at a door",
+      "summary": "A few weeks later Swiss police find the real Calloway at Voss's shop in Zurich."
+    },
+    {
+      "n": 48,
+      "scene": "A violinist plays on a bright stage as the audience listens",
+      "summary": "Elise plays the real Calloway at a concert for the whole city, with Owen in the front row."
+    },
+    {
+      "n": 49,
+      "scene": "A lawyer reads a letter from an eye doctor in a cab",
+      "summary": "Nico gets news from his eye doctor but decides the back seat suits him anyway."
+    },
+    {
+      "n": 50,
+      "scene": "A lawyer opens a new file in a cab as dawn lights the street",
+      "summary": "A new case arrives, and Stan asks once again where to."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Nico Barrow worked in the back seat of an old black taxi.",
+      "Nico could not drive, so his friend Stan drove him.",
+      "One morning, Tilly called to say that Owen was in trouble.",
+      "Inspector Ruth Calder told Nico what Owen had done.",
+      "Owen was young and afraid, but he said he was innocent.",
+      "Owen said an app gave him a job at Merrow Hall.",
+      "The police found the violin in Owen's flat.",
+      "At court, the judge let Owen go home with rules.",
+      "Nico wanted to find the man who gave Owen the case.",
+      "Gordon Vance met Nico in the big concert hall.",
+      "Gordon showed Nico the room where the violin had been.",
+      "Elise said the Calloway had sounded strange to her.",
+      "Elise planned to have the violin checked on Monday.",
+      "Nico wrote down the dates, and they looked strange.",
+      "Jarek, who worked backstage, said he saw nothing that night.",
+      "The job on the app asked for Owen by name.",
+      "A woman at DashPost looked up the strange order.",
+      "Tilly remembered that Owen once painted a door at Merrow Hall.",
+      "Mr Mori said that no job had come from Merrow Hall.",
+      "Mr Mori had once repaired a crack in the Calloway.",
+      "Nico asked to check the violin, but Calder said no.",
+      "The judge said that Mr Mori could look at the violin.",
+      "The police had come only minutes after Owen woke up.",
+      "Calder said somebody had called the police with a tip.",
+      "A car followed the cab, but Stan lost it.",
+      "Stan's friend at the hotel remembered Gordon Vance.",
+      "The hotel book showed a name, Albrecht Voss from Zurich.",
+      "Late that night, Nico and Stan found Jarek in a cafe.",
+      "Jarek said that Mr Vance had given him the case.",
+      "Stan gave Jarek some tea and kind words.",
+      "Gordon Vance came to the cab with a plan.",
+      "Owen wanted to say he was guilty, but Nico said no.",
+      "Mr Mori looked inside the violin and found no repairs.",
+      "Mr Mori said the violin was a copy.",
+      "The trial began, and the lawyer spoke about Owen.",
+      "Inspector Calder told the court she had not checked everything.",
+      "Gordon Vance told the court the violin was the Calloway.",
+      "Nico asked Vance if he had looked inside the violin.",
+      "Mr Mori told the jury the violin was a copy.",
+      "Elise told the jury that the Calloway sounded wrong.",
+      "Pietro told the court about Vance at the hotel.",
+      "Jarek told the jury about the case at the door.",
+      "Priti Shah told the court where the order came from.",
+      "Nico asked one last question, and Vance broke down.",
+      "The judge stopped the trial, and Owen was free.",
+      "Owen was free, and he hugged Tilly outside the court.",
+      "Weeks later, the police found the real Calloway.",
+      "Elise played the real Calloway, and Owen sat in front.",
+      "Nico had news about his eyes, but he stayed in the cab.",
+      "A new case arrived, and Stan asked, “Where to, boss?”"
+    ],
+    "B1B2": [
+      "Nico Barrow was a defence lawyer, and his office was the back seat of an old black cab. Files lay on his knees, a phone sat in his hand, and the city of Carrowmouth slid past the windows.",
+      "Nico had an eye condition that left him almost blind after dark, so he had lost his driving licence. His old friend Stan Wren, a retired cabbie, had offered to drive him anywhere he needed to go.",
+      "One wet morning a young woman called Tilly Dean telephoned Nico in a panic. Her flatmate Owen Pike had been arrested, and the police said he had stolen the Calloway Violin.",
+      "Detective Inspector Ruth Calder met Nico in a bare grey office and explained the case against Owen. She was fair and direct, and she clearly believed every word she said.",
+      "Owen Pike was twenty-three, with tired eyes and a bicycle helmet still hanging from his bag. He looked straight at Nico and said that he had never stolen anything in his life, apart from one silly mistake when he was nineteen.",
+      "Owen explained that the DashPost app had sent him to the stage door of Merrow Hall on Saturday evening. He was to collect a hard case and take it to a violin maker called Mori by Monday noon.",
+      "Inspector Calder said a camera at the stage door showed Owen leaving the hall with a violin case at five to seven. The hall's manager, Gordon Vance, had named the violin in his flat as the Calloway, and Owen was charged.",
+      "At the bail hearing, Judge Abara listened as Nico argued that Owen had a job, a home and no reason to run. The judge granted bail, but Owen had to report to the police every day.",
+      "Nico climbed into the back of the cab and said that somebody had handed Owen that case, and they were going to find out who. Stan grinned in the mirror and asked, “Where to, boss?”",
+      "Merrow Hall was a grand old building with a marble lobby and a glass chandelier. Its manager, Gordon Vance, was a silver-haired man in a perfect suit, and he welcomed Nico with a very sad smile.",
+      "Vance showed Nico the dressing room where the Calloway had been kept. He said that the door had been locked all evening and that only he and the soloist, Elise Marchetti, held keys.",
+      "Elise Marchetti, the famous violinist, told Nico that she had played her spare violin at the gala. On Friday the Calloway had sounded thin and quiet, and she had not trusted it.",
+      "Elise had planned to take the Calloway to Mori's workshop on Monday morning for a check. Vance had told her not to worry, saying that the cold weather had changed the sound.",
+      "In the cab, Nico wrote down the dates and stared at them. The theft had come two days before the violin was due to be examined, and Stan said it was too neat to be luck.",
+      "At the stage door Nico met Jarek Nowak, a large young stagehand who would not meet his eyes. He said he had taken a break at half past six and had seen nothing at all.",
+      "Nico looked closely at the DashPost order on Owen's phone. It had been placed at five to five on Saturday by a customer called M Davies, who had asked for Owen by name.",
+      "Priti Shah at DashPost checked the order for Nico. The account was brand new, it was paid with a prepaid card, and it had been used on a network called Merrow Staff.",
+      "Tilly suddenly remembered that Owen had painted a door at Merrow Hall two years earlier as community service. Gordon Vance had supervised him, so he knew about the old caution.",
+      "Kenji Mori was an old man with kind eyes and a workshop full of violins in pieces. He told Nico that no repair job had been booked from Merrow Hall, and that he had never heard of M Davies.",
+      "Mori told Nico that in 2019 he had repaired a crack in the Calloway under the chinrest. Inside the violin, he had glued two tiny wooden cleats that only he would know how to find.",
+      "Nico asked Inspector Calder to let an independent expert examine the violin in the police store. She refused, because the hall's own manager had already identified it.",
+      "Nico asked Judge Abara for an order, and she listened with her chin on her hand. She agreed that Mori could examine the violin in the police store the day before the trial.",
+      "Tilly remembered that the police had arrived on Sunday only ten minutes after Owen woke up. It was as if somebody had told them exactly where the case was.",
+      "When Nico pressed her, Inspector Calder admitted that an anonymous caller had told the police where the violin was. The call had come from a cheap phone near Merrow Hall, and she was uneasy about it.",
+      "That night, a dark car followed the cab all the way across the city. Stan grinned, turned into the old market, and lost it in the narrow streets he had known for forty years.",
+      "Stan took Nico to the Grand Hotel, where his old friend Pietro Rossi was the doorman. Pietro remembered Gordon Vance meeting a Swiss man there in July, with a heavy violin case.",
+      "The hotel register showed that the guest in room 412 had been Albrecht Voss of Zurich. Nico looked up the name and learned that Voss bought and sold very old and very valuable violins.",
+      "Late that night, Nico and Stan found Jarek alone in a small cafe near the hall. Nico sat down beside him and said quietly that he knew about the case at the stage door.",
+      "Jarek confessed that Gordon Vance had given him a hard case at half past six. He had been told to hand it to a courier, and to take a break and say nothing about it.",
+      "Jarek was afraid that he would go to prison himself. Stan poured him a cup of hot tea from his flask and said that the truth always gets lighter once you let it out.",
+      "Gordon Vance appeared beside the cab one evening and leaned in through the window with a smile. He suggested that Owen should plead guilty, which would mean only a short sentence and no further trouble.",
+      "Owen was exhausted and frightened, and he said he wanted to plead guilty and end it. Nico told him that he did not have to, because he was going to stand beside him all the way.",
+      "On the day before the trial, Mori examined the violin in the police store with a lamp and a small mirror. He looked under the chinrest for a long time, and there were no cleats at all.",
+      "Mori explained that the violin was a very fine copy made about thirty years ago. The label was real paper but the ink was new, and Inspector Calder went pale.",
+      "At the trial, Ms Penrose told the jury that Owen had been filmed at the stage door. She added that the violin had been found in his flat, and that he had an old caution and many debts.",
+      "When Nico questioned Inspector Calder, she admitted that nobody had traced the anonymous caller. She also agreed that no one had checked the DashPost order, which asked for Owen by name.",
+      "Gordon Vance took the stand, calm and handsome in his best suit. He told the court that he had known the Calloway for years and that the recovered violin was without any doubt the same one.",
+      "Nico asked Vance whether he had ever looked inside the Calloway with a lamp and a mirror. Vance said, a little too quickly, that he was a manager and not a violin maker.",
+      "Kenji Mori took the stand and told the jury about the two tiny cleats that he had glued inside the Calloway in 2019. He had looked for them yesterday, and the violin in court had none, so it was a copy.",
+      "Elise Marchetti told the jury that the Calloway had sounded thin and hollow on Friday. She had planned to have it checked on Monday, but Gordon Vance had told her not to worry.",
+      "Pietro Rossi, the doorman of the Grand Hotel, described how he had seen Gordon Vance with a violin case in July. A Swiss man called Albrecht Voss had left with the case, and Vance had left with an envelope.",
+      "Jarek Nowak took the stand and told the jury exactly what had happened at half past six. Gordon Vance had given him the case, told him to hand it to the courier, and paid him in cash.",
+      "Priti Shah from DashPost told the court that the order was placed from the Merrow Staff network. The hall's accountant confirmed that only five people knew its password, and Vance was one of them.",
+      "Nico asked Vance one last question: who else could have placed that order? For the first time Vance's calm broke, and he admitted that he had sold the real Calloway to pay the hall's debts.",
+      "Judge Abara stopped the trial at once and told the jury to wait outside. Ms Penrose dropped all charges against Owen, and two officers stepped forward to arrest Gordon Vance.",
+      "Outside the courthouse Owen hugged Tilly for a long time, and then he turned to thank Nico. Stan, who was leaning on the cab with his tea flask, told him not to mention it.",
+      "A few weeks later, police in Zurich found the real Calloway in the shop of Albrecht Voss. He had not known that it had been stolen, and he returned it when he learned the truth.",
+      "Elise Marchetti played the real Calloway at a free concert for the whole city, and the hall was full. Owen and Tilly sat in the front row, and the violin sang with a voice that was warm and deep.",
+      "A letter from the eye doctor arrived, and the news was mixed: the treatment might help, but not for years. Nico laughed, folded the letter and decided that the back seat suited him very well.",
+      "A new case file arrived the next morning, and Nico opened it on his knees while the sun rose over Carrowmouth. In the front seat Stan poured a cup of tea and asked, “Where to, boss?”"
+    ],
+    "C1C2": [
+      "Nico Barrow was a defence lawyer of some reputation, though his office was neither a building nor a room but the back seat of an ageing black cab. Files rested across his knees, a phone pressed against his ear, and the grey streets of Carrowmouth slid by outside while he argued with a clerk about a delayed hearing. Most lawyers would have found the arrangement ridiculous, yet Nico thought better in motion.",
+      "A rare condition of the eyes had left Nico nearly blind after dark, and with it he had lost the right to drive a car. His old friend Stan Wren, a retired cabbie of sixty-seven who knew every street in Carrowmouth by heart, had simply turned up one morning with his tea flask and announced that he was available. Nico had never found the courage to ask how much the offer was costing him.",
+      "One wet Tuesday a young woman named Tilly Dean telephoned in a state of panic, her voice shaking so badly that Nico asked her twice to slow down. Her flatmate, a bicycle courier called Owen Pike, had been arrested on Sunday morning, and the police were accusing him of stealing the Calloway Violin, an instrument said to be worth about two million pounds. Nico tapped on the glass, and Stan, without a word, turned the cab toward Carrowmouth Central.",
+      "Detective Inspector Ruth Calder met him in a bare grey office that smelled of coffee and floor polish, and she laid out the case against his client with the precision of a surgeon. She was a fair and direct woman whom Nico had faced many times, and the most uncomfortable thing about her was that she was rarely wrong. Today, however, he had the odd feeling that she wanted to be told that she was.",
+      "Owen Pike was a thin young man of twenty-three with restless hands, and a cycling helmet still dangled from his shoulder bag as though he expected to be released at any moment. He told Nico, looking straight at him, that he had never stolen anything of value in his life, except for one foolish mistake at nineteen that had earned him a police caution. Nico, who had heard many speeches of innocence, found that this one had a different sound.",
+      "Owen explained that on Saturday evening his courier app, DashPost, had offered him a well-paid job at the stage door of Merrow Hall, where he was to collect a hard instrument case. He was to carry it to a violin maker named Mori by Monday at noon, but the workshop was already shut, so he had taken the case home and left it in his hallway. He had planned to deliver it on Monday morning, and the next thing he knew the police were at his door.",
+      "Inspector Calder told Nico that a camera above the stage door had filmed Owen leaving Merrow Hall at five to seven with a violin case on his back. The hall's manager, Gordon Vance, had examined the instrument found in Owen's hallway the next morning and declared it to be the Calloway, and with Owen's old caution and his shortage of money, the police felt they had all they needed. It was a tidy case, and tidy cases, Nico had often noticed, deserve a second look.",
+      "At the bail hearing the following morning, Judge Abara listened with a stern, patient face while Nico argued that his client had a home, a job and a flatmate who would vouch for him. Ms Penrose, for the prosecution, objected that the violin was worth a fortune and a man with such a prize might flee, but Nico pointed out that the violin had already been recovered. The judge granted bail on condition that Owen report to the police every day, and Nico walked out feeling that the real work was only beginning.",
+      "Nico climbed into the back of the cab, spread a map of Merrow Hall across his knees, and declared that somebody had handed Owen that case and that they would find out who it was. Stan grinned into the rear-view mirror with the delight of a man who has been waiting for an adventure, and asked, “Where to, boss?” It was a phrase he had been using for thirty years, and it had never sounded better.",
+      "Merrow Hall was a majestic old building of marble stairs, gilt balconies and a chandelier that glittered like frozen rain, and its manager, Gordon Vance, crossed the lobby to greet Nico with both hands outstretched. He was a silver-haired man in a faultless suit, and he lamented the whole affair so gracefully that it was hard not to be moved. Nico thanked him, accepted a cup of tea, and noticed that Vance never once asked how Owen was.",
+      "Vance led him down a carpeted corridor to the dressing room where the Calloway had been kept, a small chamber of mirrors and dim lamps. The door had been locked all evening, he assured Nico, because only two keys existed, one in his own pocket and the other with the soloist, Elise Marchetti. Nico studied the lock, the empty stand and the dust on the window ledge, and wondered why a room so carefully guarded had given up its treasure so easily.",
+      "Elise Marchetti received him in her sunlit apartment, a slim woman with grey in her dark hair and an air of quiet authority. She told him that at the gala she had played her spare violin, because when she had rehearsed on the Calloway the day before, its voice had sounded thin and oddly hollow, like a familiar friend speaking in a stranger's tone. She had lived with that instrument for nine years, she said, and she knew its voice better than her own handwriting.",
+      "Elise had decided that she would carry the Calloway to the violin maker, Kenji Mori, on Monday morning and ask him to examine it from top to bottom. When she mentioned this to Gordon Vance, he waved the idea aside with a soothing laugh and blamed the cold weather, saying that old instruments were moody and would settle in a week. She had been uneasy ever since, and uneasier still when the violin vanished two nights before the examination.",
+      "In the back of the cab Nico wrote the dates on his notepad and stared at them for so long that Stan asked whether he was composing a letter. The theft had occurred on the Saturday, the examination had been fixed for the Monday, and the violin had vanished at the precise moment when someone might have seen it properly. Nico did not believe in coincidence, and Stan, who had never once doubted him, merely nodded and drove on.",
+      "At the stage door they met Jarek Nowak, a heavy, soft-spoken stagehand who stared at the floor as though the answers were written there. He had been on a break, he mumbled, from half past six until seven, at the express wish of Mr Vance, and he had seen no courier, no case and no suspicious person. His fingers, however, were twisting a rag into a tight rope, and Nico noticed the movement and said nothing.",
+      "Back in the cab Nico studied the original order on Owen's phone, line by line, with the patience of a man reading a treaty. It had been placed at five to five on Saturday afternoon by a customer called M Davies, and the most curious detail was that the customer had asked specifically for a rider named Owen. In a city of two hundred couriers, someone had wanted this one young man in particular, and Nico wondered why.",
+      "Priti Shah, a quick-witted manager at DashPost, agreed to examine the order once Owen had given his written consent, and within an hour she was telephoning Nico with her findings. The account in the name of M Davies had been created only that morning, it was paid for with a prepaid card that could not be traced, and every action had come from a wireless network named Merrow Staff. Nico thanked her warmly and asked her to keep those records exactly as they were.",
+      "Tilly interrupted him with a gasp, remembering that two years earlier Owen had spent a month painting the side doors of Merrow Hall as the community service for his caution. Gordon Vance had supervised the work and signed the papers at the end, which meant that he knew Owen's face, his past and his habit of being punctual. If a man needed a scapegoat, he could hardly have chosen a more convenient one.",
+      "Kenji Mori, who kept a small workshop in Tanner Lane among a forest of violins in pieces, was a tiny, gentle man with eyes as sharp as needles. He assured Nico that he had booked no repair from Merrow Hall, that no case was expected on Monday, and that he had never heard of anyone called M Davies. Evidently the package had never been meant to reach him, and Nico began to wonder where it had truly been meant to go.",
+      "Mori explained that in the spring of 2019 he had repaired a small crack in the Calloway's belly, just under the chinrest. As part of the work he had glued two tiny wooden cleats inside the instrument to hold it together, and they could be seen only with a lamp and a little mirror. No copyist in the world would have thought to add them, he said, and every repair he had ever made was written in his notebook.",
+      "Nico asked Inspector Calder, with all the courtesy he could muster, to allow an independent expert to examine the recovered violin, since a single repair mark might tell the court what a witness could not. She refused, with a polite shake of her head, on the ground that the owner's own manager had already identified it beyond doubt. It was a sensible answer, Nico reflected, as long as the manager was honest.",
+      "Nico took the matter to Judge Abara in person, arguing that a defendant ought to be able to test the one piece of evidence on which his liberty depended. She listened with her chin resting on her hand, deliberated for a long minute, and then ruled that Mori might examine the violin in the police store the day before the trial, in the presence of the inspector. It was a small victory, but small victories were the ones that won large cases.",
+      "Tilly remembered something else that troubled her: the police had arrived at their door on Sunday morning only ten minutes after Owen woke, with a warrant already signed and a van waiting in the street. It seemed to her that someone had told them exactly where the case was hidden. Nico, who had been wondering the same thing, asked her to repeat the details slowly and wrote down every one.",
+      "When Nico pressed her, Inspector Calder reluctantly admitted that the police had acted on an anonymous telephone call, made from a cheap prepaid phone in the streets around Merrow Hall at six on Sunday morning. The caller had given Owen's address and the flat number, and had said that a stolen violin was in the hallway. She was a straight woman, and Nico could see that the detail had begun to trouble her too.",
+      "That night, as the cab crossed the city toward Nico's flat, a dark car crept up behind it and clung to its tail through three sets of traffic lights. Stan, who was entirely delighted, announced that no one had ever lost a cabbie in his own city, and he swung into the narrow lanes of the old market. He doubled back twice and left the pursuer stranded among the fruit stalls, while Nico, who could scarcely see in the dark, sat back and admired his driver's calm.",
+      "Stan, who knew a man in every doorway in Carrowmouth, drove Nico to the Grand Hotel, where his old friend Pietro Rossi had been the doorman for twenty years. Pietro remembered Gordon Vance perfectly, because the manager had sat in the lobby one July afternoon with a heavy violin case across his knees, waiting for a foreign gentleman who tipped the staff in Swiss francs. The foreigner, he recalled, had left carrying the case, and Vance had left carrying a thick envelope.",
+      "The manager of the hotel, who admired Stan, allowed them a glance at the register for the month of July, and there it was in a neat hand: Albrecht Voss, Zurich, room 412. A quick search on Nico's phone revealed that Herr Voss was a dealer in rare stringed instruments, one who handled violins that cost more than most people's houses. Nico closed the book and felt the pieces of the puzzle sliding into place with a quiet click.",
+      "Late that night they found Jarek alone in a small cafe near the hall, hunched over a cup of tea that had long since grown cold. Nico sat down beside him without being invited and said quietly that he knew about the case at the stage door, and that he knew the stagehand had not wanted to be involved. Jarek's large shoulders sagged, as if a weight had been pressing on him for days.",
+      "In a low voice Jarek confessed that Gordon Vance had pressed a heavy case into his hands at half past six, with instructions to give it to a courier at the stage door and then take a break. He had been promised a bonus in cash and told that it was only a repair job that the hall wished to keep quiet, so that the soloist would not worry about her instrument. He had believed every word of it, he said, until the police arrested the courier on Sunday morning.",
+      "Jarek feared that he would go to prison himself, and he said so, miserably, with his head in his hands. Stan poured a cup of hot tea from his flask and set it in front of him, observing in his slow, comfortable way that the truth grows lighter once you let it out. A man who tells it early, he added, is treated far better than one who is caught hiding, and after a long silence Jarek lifted his head and agreed to testify.",
+      "One evening, as the cab stood outside Nico's building, Gordon Vance appeared at the window, leaned in with a courteous smile, and suggested over the sound of the rain that this matter might be settled quietly. If Owen were to plead guilty, he said, the sentence would be short, the hall would be grateful and nobody would be hurt. Nico looked at him for a long moment, said that he would think about it, and then told Stan to drive on.",
+      "Owen, worn out by sleepless nights, told Nico that he wanted to plead guilty and bring the whole nightmare to an end, because a short sentence seemed easier than a long fight he might lose. Nico leaned forward from the back seat and told him gently that an innocent man should never trade away his name for a little peace. He promised that he would stand beside him in that courtroom from the first minute to the last.",
+      "On the day before the trial Mori stood in the police store with his lamp lit and a little mirror held at an angle, and peered inside the recovered violin with a patience that made everyone else in the room hold their breath. He searched beneath the chinrest for a long, silent minute, and then he lowered the mirror and said in a quiet voice that there was no repair, no crack and no cleat of any kind. Whatever lay in that case on the table, it had never been mended by his hands.",
+      "Mori explained, with the calm of a man announcing the weather, that the instrument was a very fine copy made about thirty years ago by a skilled hand. Its label, he added, had been printed in fresh ink on aged paper, and Inspector Calder, who stood by the window, had gone as pale as the wall. When she turned to Nico he saw that she understood exactly what it meant, and she said only that she would tell the truth to anyone who asked her.",
+      "On the first morning of the trial Ms Penrose rose before the jury in her black gown and described the case against Owen in clear and measured sentences. She listed the camera at the stage door, the violin recovered in the hallway of his flat, the old caution and the bank account swollen with debt. She was a skilled advocate, and by the time she sat down several jurors were looking at Owen with a certain coldness, while Nico, who had seen that look often, kept his own face quiet and waited.",
+      "Under Nico's questioning, Inspector Calder confirmed honestly that nobody had traced the anonymous caller who gave the police Owen's address, and that nobody had examined the courier order that had asked for Owen by name. The jury, which had been drifting, sat up and began to listen with new attention to every word. Nico thanked her and sat down, aware that he had planted two small seeds that he intended to water later.",
+      "Gordon Vance took the witness stand in his best suit, composed and dignified, and informed the court in a warm and steady voice that he had known the Calloway for years. The violin recovered in Owen's flat, he declared, was without any doubt that very instrument, and he described its theft as a heartbreak for the hall and a blow to the whole city. Several jurors nodded in sympathy, and not a muscle moved in his face when Nico rose to cross-examine.",
+      "Nico asked, in a mild and conversational tone, whether Mr Vance had ever examined the inside of the Calloway with a lamp and a small mirror, as a violin maker might. Vance replied, a little too quickly, that he was a manager and not an expert, and that he had recognised the violin by its general appearance and by its label. Nico thanked him, observing that labels were made of paper and that paper was patient.",
+      "Kenji Mori took the stand with the dignity of an old craftsman, and in a clear small voice he described to the jury the two tiny cleats that he had glued inside the Calloway's belly in the spring of 2019. He had searched for them the day before with lamp and mirror, he said, and the violin in front of the court had none, because it was not the Calloway but a fine imitation about thirty years old. A murmur ran through the public benches, and Gordon Vance's pen stopped moving on his notepad.",
+      "Elise Marchetti, in a plain black dress, told the jury that when she had played the Calloway on Friday its voice had been thin and strangely hollow, and that she had resolved to have Mr Mori examine it on Monday. Gordon Vance, she said, had urged her not to trouble the old man and had blamed the cold weather, and two days later the violin was reported stolen. She did not look at Vance as she spoke, but her voice never shook.",
+      "Pietro Rossi, in his best long coat, described to the court how Gordon Vance had waited one July afternoon in the lobby of the Grand Hotel with a heavy violin case across his knees. A Swiss gentleman named Albrecht Voss, whose name appeared in the hotel register, had walked out with that case, and Vance had walked out with a thick envelope. Ms Penrose, who had risen to object, hesitated for a moment and then slowly sat down again in her place.",
+      "Jarek Nowak stood in the witness box with his big hands knotted before him and told the jury everything, plainly and without decoration. Gordon Vance had pressed the case into his arms at half past six and told him to give it to the courier and take a break, and the next day he had paid him two hundred pounds in cash to forget it. There was no gloating in Nico's face as he listened, only a great weariness and a deep, quiet respect for the man.",
+      "Priti Shah from DashPost told the court that every step of the courier order, from the opening of the new account to the final payment, had been made from the wireless network named Merrow Staff. The hall's own accountant then confirmed that only five people knew its password, among them Elise Marchetti, Jarek Nowak and the manager. He added that on that Saturday afternoon the box office had been locked, with only Vance's key to open it, and the whole jury turned its head toward the witness stand as one.",
+      "Nico asked one last quiet question, who else could have placed that order from the locked box office, and for what felt like a minute there was no sound in the courtroom except the ticking of a clock. Then Gordon Vance's composure cracked, and with his hands trembling on the rail he admitted that the hall was deep in debt and that he had sold the real Calloway to Albrecht Voss. The copy had been meant to disappear, he said, in a small, defeated voice, and the court, in its silence, did not agree.",
+      "Judge Abara raised her hand and brought the trial to an immediate halt, and as the jury was led out Ms Penrose rose to say, with admirable grace, that the Crown would offer no further evidence against Owen Pike. Two officers walked quietly to the witness stand and took Gordon Vance by the arms, and his silver head sank forward as he was led away. The charges against the young courier were dismissed, and the whole room let out a long breath.",
+      "Outside the courthouse Owen embraced Tilly so tightly that she laughed and cried together, and then he turned to Nico, his voice thick with feeling, and said that he did not know how to repay him. Nico answered that justice was payment enough, though he would happily take a bicycle ride when his eyes allowed it. Stan, leaning on his cab with his flask, told them both to stop making a fuss and to get in out of the rain.",
+      "Some weeks later the police in Zurich found the real Calloway in the back room of Albrecht Voss's shop, where it had been waiting for a rich buyer. The dealer, who claimed that he had believed the sale was honest, handed it over without protest, and it travelled back to Carrowmouth in a special case with its own seat on the aeroplane. Mori, who examined it on arrival, found the two small cleats exactly where he had put them all those years before.",
+      "A month later Elise Marchetti played the real Calloway at a free concert for the whole city, and Merrow Hall was filled from the stalls to the highest gallery. Owen and Tilly sat in the front row with Nico and Stan, and when the first long note rose into the dark it was warm and rich and unmistakably itself, a voice that no copy could ever have borrowed. Even Stan, who confessed that he knew nothing whatever about music, took out a handkerchief and wiped his eyes.",
+      "A letter arrived from his eye specialist, with news that was part hopeful and part sobering, since a new treatment might slow the condition but would certainly not cure it for years. Nico read it twice in the back of the cab, laughed quietly, and folded it into his breast pocket, concluding that in the meantime the back seat suited him perfectly. A man who thinks best in motion, he told himself, does not need to be the one holding the wheel.",
+      "The next morning a new case file landed on his doorstep, thick and promising, and Nico carried it out to the waiting cab and opened it across his knees while the sun climbed over the roofs of Carrowmouth. Stan poured himself a cup of tea, looked into the mirror with the look of a man who had never been so contented, and put the cab into gear. Nico smiled, turned the first page, and said that they would start by going wherever the story led."
+    ]
+  }
+}
