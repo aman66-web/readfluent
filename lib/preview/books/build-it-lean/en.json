@@ -1,0 +1,417 @@
+{
+  "slug": "build-it-lean",
+  "meta": {
+    "blurb": "Mira has an idea that she is sure the whole street will love. Before she spends a year and all her savings on it, she learns how to test it with small, cheap experiments. A clear, practical guide to starting new things wisely.",
+    "bible": "Mira: a nurse in her thirties with a new idea, curious and determined. Kofi: her friend, a carpenter, blunt and kind. Mr Reyes: owner of a hardware shop on Alder Street. Lucas: a friend who writes software. Anya: a neighbour, the first person Mira interviews. Alder Street: where Mira lives. Toolshelf: the name of Mira's idea, a way for neighbours to borrow tools instead of buying them. All numbers and results in the story are imagined illustrations, not real data, and no currency is named. Key terms used in this book: guess, riskiest guess, interview, small test, real actions, change course, early users, small steps, fee, cost of finding a customer, word of mouth. Many new ventures close within a few years, and the book says so without giving exact figures. Voice: warm, practical, concrete and kind, never preachy. The final beat says this is general information and not financial advice."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Mira stands in a garage holding a new drill beside a box of tools",
+      "summary": "Mira buys a drill she will use twice and has an idea: neighbours could lend each other tools."
+    },
+    {
+      "n": 2,
+      "scene": "Mira draws a plan on a notebook page headed with a one year deadline",
+      "summary": "Mira plans to spend a whole year building a full app before showing it to anyone."
+    },
+    {
+      "n": 3,
+      "scene": "Kofi sits on an upturned crate in his workshop and frowns at Mira's notebook",
+      "summary": "Her friend Kofi warns that a year of building is a huge bet that nobody may want the result."
+    },
+    {
+      "n": 4,
+      "scene": "A closed shop with a faded sign and an empty window on a quiet street",
+      "summary": "Many new ventures fail not because they were built badly, but because nobody wanted them."
+    },
+    {
+      "n": 5,
+      "scene": "A notebook page with a question mark drawn large above the word idea",
+      "summary": "An idea is not a fact; it is a bundle of guesses that have not yet been checked."
+    },
+    {
+      "n": 6,
+      "scene": "Mira writes four guesses in a column on a sheet pinned to the wall",
+      "summary": "Mira lists the guesses behind Toolshelf: people own spare tools, will lend them, will borrow them, and will trust a stranger."
+    },
+    {
+      "n": 7,
+      "scene": "Mira circles one line on her list with a thick pen",
+      "summary": "Not all guesses matter equally; the riskiest guess is the one that would sink the idea if it were wrong."
+    },
+    {
+      "n": 8,
+      "scene": "Mira taps the circled line that reads people will lend to strangers",
+      "summary": "Mira's riskiest guess is that people will lend their own tools to strangers at all."
+    },
+    {
+      "n": 9,
+      "scene": "Kofi and Mira share tea at a workbench covered in wood shavings",
+      "summary": "The cheapest way to learn is to talk to people before building anything."
+    },
+    {
+      "n": 10,
+      "scene": "Mira sits across a small table from her neighbour Anya with a notebook open",
+      "summary": "Good questions ask about what people did in the past, not what they might do in future."
+    },
+    {
+      "n": 11,
+      "scene": "A notebook with a smiling face drawn next to the words great idea",
+      "summary": "Compliments cost nothing and teach nothing, so Mira must watch for what people do, not what they say."
+    },
+    {
+      "n": 12,
+      "scene": "Mira walks along Alder Street, knocking on doors with a clipboard",
+      "summary": "Mira interviews ten neighbours on Alder Street and records what they actually did."
+    },
+    {
+      "n": 13,
+      "scene": "Mira reads her notes beside a stack of borrowed ladders and spades",
+      "summary": "She learns that people borrow from family and friends, and strangers almost never lend."
+    },
+    {
+      "n": 14,
+      "scene": "Mira crosses out a line and writes a new sentence beneath it",
+      "summary": "The real problem is not owning tools but finding the right one quickly and trusting the person who has it."
+    },
+    {
+      "n": 15,
+      "scene": "A tiny model of a house sits next to a full-size blueprint on a table",
+      "summary": "The smallest test is a tiny experiment aimed at the riskiest guess, not a small version of the whole product."
+    },
+    {
+      "n": 16,
+      "scene": "A hand-written list of tools pinned to a lamp post with red tape",
+      "summary": "Mira's test is a paper list of tools pinned up on one street, with a phone number to call."
+    },
+    {
+      "n": 17,
+      "scene": "Mira carries a borrowed ladder to a doorstep on a rainy evening",
+      "summary": "She runs the service by hand, even though it will not work for a thousand people, because it teaches her what people need."
+    },
+    {
+      "n": 18,
+      "scene": "Mira writes a number on a card and clips it to the notebook",
+      "summary": "Before the test begins, Mira writes down what result will count as success."
+    },
+    {
+      "n": 19,
+      "scene": "A card reading five of twenty households within two weeks sits on a desk",
+      "summary": "Her target is that at least five of twenty households lend a tool within two weeks."
+    },
+    {
+      "n": 20,
+      "scene": "Twenty envelopes lie on a table beside a stack of printed leaflets",
+      "summary": "Mira delivers leaflets to twenty homes and waits for the first replies."
+    },
+    {
+      "n": 21,
+      "scene": "Mira looks at her phone, which shows several messages from neighbours",
+      "summary": "Words and actions differ: many people say yes, but fewer actually do anything."
+    },
+    {
+      "n": 22,
+      "scene": "A table with two columns, one marked said yes and one marked did it",
+      "summary": "Fourteen people say they want to join, but only three actually offer a tool to lend."
+    },
+    {
+      "n": 23,
+      "scene": "Mira circles a large number and a small number on a page with a pen",
+      "summary": "Big flattering numbers, such as sign-ups, can hide what is really happening."
+    },
+    {
+      "n": 24,
+      "scene": "Mira sits on a doorstep with a neighbour, drinking tea and listening",
+      "summary": "She asks why people did not lend, and hears fears about damage and about never getting the tool back."
+    },
+    {
+      "n": 25,
+      "scene": "A signpost with three arrows pointing in different directions",
+      "summary": "After a test there are three choices: carry on, change course, or stop."
+    },
+    {
+      "n": 26,
+      "scene": "Mira scratches out a drawing of a street and starts a new sketch of a shop",
+      "summary": "Mira changes course: instead of neighbours lending to neighbours, tools will sit on a shelf in a trusted shop."
+    },
+    {
+      "n": 27,
+      "scene": "Kofi leans on his workbench and laughs, holding up his hands",
+      "summary": "Kofi asks whether the failed test was a waste; Mira realises it cost two weeks and some paper, and taught her more than a year of planning would have."
+    },
+    {
+      "n": 28,
+      "scene": "Mr Reyes stands in his hardware shop beside an empty shelf near the counter",
+      "summary": "Mr Reyes, the owner of the Alder Street hardware shop, agrees to try a shelf of borrowable tools for one month."
+    },
+    {
+      "n": 29,
+      "scene": "Twelve tools stand on a wooden shelf with handwritten name tags",
+      "summary": "With twelve donated tools on the shelf, the second test begins, again run entirely by hand."
+    },
+    {
+      "n": 30,
+      "scene": "A young couple carries boxes into a flat and looks at a tool shelf",
+      "summary": "Mira looks for the people who need the service most: new tenants, new parents and weekend hobbyists."
+    },
+    {
+      "n": 31,
+      "scene": "Mira ticks names in a notebook as customers return to the shelf",
+      "summary": "Mira watches who comes back, because repeat visits are the clearest sign that something is useful."
+    },
+    {
+      "n": 32,
+      "scene": "Three small sample pots of paint stand beside a large closed tin",
+      "summary": "Small steps beat big launches: it is better to try a little and adjust than to deliver everything at once."
+    },
+    {
+      "n": 33,
+      "scene": "A weekly calendar with the same four words written on every Monday",
+      "summary": "Mira settles into a weekly rhythm: choose a guess, run a small test, count what happened, and decide."
+    },
+    {
+      "n": 34,
+      "scene": "A clock and a stack of notebooks stand beside a single lit lamp",
+      "summary": "What matters is the speed of learning, not the speed of building; each cycle teaches her something new."
+    },
+    {
+      "n": 35,
+      "scene": "Mira counts coins and notes into a small jar on a kitchen table",
+      "summary": "Mira sets a limited budget, and discovers that spending slowly makes her think more clearly."
+    },
+    {
+      "n": 36,
+      "scene": "A small handwritten sign on the shelf reads a small fee to borrow",
+      "summary": "She tests whether people will pay, because a polite yes is easy but a payment is real."
+    },
+    {
+      "n": 37,
+      "scene": "Mira ticks eight boxes out of ten in a notebook near the till",
+      "summary": "Out of ten borrowers offered the fee, eight still borrow, so people will pay."
+    },
+    {
+      "n": 38,
+      "scene": "Mira divides a small pile of coins into two columns on a table",
+      "summary": "She compares what it costs to win each new customer with what that customer pays over time."
+    },
+    {
+      "n": 39,
+      "scene": "Two neighbours chat over a garden fence and one points to the shop",
+      "summary": "Mira finds that people mainly hear about the shelf from friends, which is free and strong."
+    },
+    {
+      "n": 40,
+      "scene": "Mira asks a smiling customer a question at the shop counter",
+      "summary": "To be sure, she simply asks each new borrower how they heard about the shelf, and records the answer."
+    },
+    {
+      "n": 41,
+      "scene": "Lucas types at a laptop beside a plate of biscuits and a notebook",
+      "summary": "At last it is time to write software, and Mira's friend Lucas builds only the one thing the tests have shown people need."
+    },
+    {
+      "n": 42,
+      "scene": "A long list of features with most lines crossed out in pencil",
+      "summary": "Mira resists the urge to add features that the tests have not asked for."
+    },
+    {
+      "n": 43,
+      "scene": "A neat, simple wooden stool stands on a workshop floor beside tools",
+      "summary": "A simple first version must still work well; the aim is a good test, not a careless product."
+    },
+    {
+      "n": 44,
+      "scene": "A broken saw lies on the counter while Mira and Mr Reyes look at it",
+      "summary": "When someone returns a broken saw, Mira treats it as a lesson and creates a simple rule for damage."
+    },
+    {
+      "n": 45,
+      "scene": "Mira, Kofi and Lucas sit around a table with a shared sheet of numbers",
+      "summary": "The whole team looks at the same numbers openly, so that nobody can hide bad news."
+    },
+    {
+      "n": 46,
+      "scene": "Mira holds two cards, one showing a problem and one a finished product",
+      "summary": "Mira learns to love the problem more than her first solution, so she can change the solution when she must."
+    },
+    {
+      "n": 47,
+      "scene": "A calendar with a circled review date and a checklist beside it",
+      "summary": "She sets a review date in advance, because knowing when to stop is part of the discipline."
+    },
+    {
+      "n": 48,
+      "scene": "Three small shops with Toolshelf signs stand in a row along a street",
+      "summary": "After a year, the imagined Toolshelf is on shelves in three shops with four hundred members."
+    },
+    {
+      "n": 49,
+      "scene": "A group of children plans a school garden at a table with seed packets",
+      "summary": "The same method of guess, test, count and decide applies to a club, a recipe, a new job or a project."
+    },
+    {
+      "n": 50,
+      "scene": "Mira closes her notebook on a clean desk beside a mug of tea",
+      "summary": "The book ends with a summary of the steps: list your guesses, find the riskiest, test it cheaply, count real actions and decide; it is general information and not financial advice."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Mira buys a drill, but she will use it only twice.",
+      "Mira plans to build a big app and show it next year.",
+      "Her friend Kofi says, “That is a big bet, Mira.”",
+      "Many new businesses fail because nobody wants what they make.",
+      "An idea is not a fact. It is only a guess.",
+      "Mira writes her guesses on paper, one under another.",
+      "Some guesses are more dangerous than others.",
+      "Mira’s biggest worry is simple: will people lend tools?",
+      "Kofi says, “Do not build yet. First, talk to people.”",
+      "Mira asks her neighbour Anya, “Last time, how did you get a tool?”",
+      "Anya says, “Great idea!” but Mira wants more than words.",
+      "Mira talks to ten neighbours and writes down their stories.",
+      "Most people borrow from family and friends, not from strangers.",
+      "The real problem is trust, not tools.",
+      "Kofi says, “Make a small test, not a small app.”",
+      "Mira pins a paper list of tools to a lamp post.",
+      "When someone calls, Mira carries the tool to their door.",
+      "Before the test, Mira writes down what success looks like.",
+      "Her goal is five lenders from twenty homes in two weeks.",
+      "Mira puts a leaflet through twenty doors and waits.",
+      "Many people send kind messages, but few do more.",
+      "Fourteen people say yes, but only three lend a tool.",
+      "A big number can look good and mean very little.",
+      "Mira asks why they did not lend, and listens.",
+      "After a test, you can go on, change, or stop.",
+      "Mira changes her plan: tools will sit in a trusted shop.",
+      "Kofi asks, “Was that a waste?” Mira says no.",
+      "Mr Reyes owns a hardware shop and says, “Let us try.”",
+      "Twelve tools stand on the shelf with name tags.",
+      "Some people need tools more than others, like new renters.",
+      "Mira watches who comes back to the shelf again.",
+      "Small steps are safer than one big launch.",
+      "Every week, Mira tries one new thing and counts.",
+      "Learning fast matters more than building fast.",
+      "Mira decides how much money she can spend.",
+      "Next, Mira asks if people will pay for borrowing.",
+      "Ten people see the fee, and eight still borrow.",
+      "Mira asks, “How much does each new customer cost me?”",
+      "People hear about the shelf from their friends.",
+      "She asks every new person, “How did you hear?”",
+      "Now Lucas helps Mira build a very simple booking page.",
+      "Mira does not add anything people have not asked for.",
+      "A simple first version should still work well.",
+      "One day, a borrowed saw comes back broken.",
+      "The team looks at the same numbers every week.",
+      "Mira loves the problem, not her first answer.",
+      "Mira picks a date to review everything honestly.",
+      "After one year, Toolshelf is in three shops.",
+      "Anyone can use this method for a new project.",
+      "Guess, test, count, decide. This is general information, not financial advice."
+    ],
+    "B1B2": [
+      "Mira has just bought a drill for one small job, and it will probably stay in a box for years. She has an idea: what if neighbours could lend each other tools instead?",
+      "Mira decides to build a complete app with maps, payments and ratings. She will keep it secret for a year, and then she will surprise everyone with the finished product.",
+      "Kofi, a carpenter and an old friend, reads the plan and frowns. He says that a year is a long time to work on something that nobody has asked for yet.",
+      "Many new ventures close within a few years, and the reason is often simple. They were built well, but the people they were built for never wanted them.",
+      "Kofi explains that an idea feels like a fact when we love it, but it is really a bundle of guesses. Until someone checks them, any one of them could be wrong.",
+      "Mira writes down what must be true for her idea to work. Neighbours own tools, they are willing to lend them, others would borrow them, and everyone will trust a stranger.",
+      "Kofi tells her that the guesses are not equally important. The one that matters most is the riskiest guess, because if it is wrong, nothing else on the list can save the idea.",
+      "Mira studies her list and her stomach tightens. Her riskiest guess is that people will really lend their own tools to strangers, and she has no proof of it at all.",
+      "Kofi tells her not to write any software yet. The cheapest way to learn anything is to talk to the people you hope to help.",
+      "Mira learns to ask about the past instead of the future. A question like “What did you do the last time you needed a ladder?” gives a true answer, while “Would you use my app?” does not.",
+      "Nearly everyone says, “What a great idea!” Mira realises that praise costs nothing, so it tells her almost nothing about what people will actually do.",
+      "Over one weekend, Mira talks to ten neighbours on Alder Street. She writes down their stories word for word, and she tries not to argue with anything they say.",
+      "The notes show a clear pattern. When people need a tool, they borrow from family or close friends, and almost nobody had ever lent anything to a stranger.",
+      "Mira understands that her real problem is not about tools at all. It is about trust, and about how quickly someone can find the right tool for one short job.",
+      "Kofi explains the difference between a small test and a small product. A test is the cheapest thing you can do that answers one question, and it need not look like the final thing at all.",
+      "Mira's first test is almost silly in its simplicity. She prints a list of tools that neighbours could borrow, pins it on a lamp post, and adds her own phone number.",
+      "When a neighbour calls, Mira collects the tool and carries it to the door herself. It cannot work for a thousand people, but it teaches her far more than software could.",
+      "Before the test begins, Mira decides what result would count as success. Otherwise, she knows she will be tempted to read any outcome as good news.",
+      "Her target is clear and fair. Out of twenty households on the street, at least five must offer to lend a tool within the next two weeks.",
+      "Mira delivers a leaflet to twenty homes, explaining the idea in three short lines. Then she sits by the phone and waits, which turns out to be harder than the work itself.",
+      "Messages arrive quickly, and most of them are warm and encouraging. Mira has to remind herself that what counts is not what people say but what they actually do.",
+      "At the end of two weeks, fourteen households say they like the idea and want to join. But only three actually offer a tool to lend, and her target was five.",
+      "The number fourteen looks wonderful on a poster. Mira understands that a flattering number like this can hide the truth, and that she should measure the thing that really matters.",
+      "Mira goes back to the neighbours who did not lend and asks why. They tell her, kindly but honestly, that they are afraid of damage and of never seeing their tool again.",
+      "Kofi explains that every test ends with a decision. You can carry on as you were, change your plan in a meaningful way, or stop and use your time better elsewhere.",
+      "Mira decides to change one important thing. Instead of neighbours lending to one another, the tools will be kept on a shelf in a shop that everyone already trusts.",
+      "Kofi asks whether the failed test was a waste of time. Mira thinks about it and says no, because it cost her two weeks and some paper, and it taught her something she could not have guessed.",
+      "Mira visits Mr Reyes, who owns the hardware shop on Alder Street. He listens carefully and agrees to give her one empty shelf for a month, on the condition that she keeps it tidy.",
+      "Mira collects twelve tools from friends and family and puts them on the shelf with careful labels. Again, everything is done by hand, with a paper notebook and a pencil.",
+      "Mira notices that some people need the service much more than others. New tenants, young families and weekend hobbyists want one tool for one job, and they are the best people to start with.",
+      "Mira keeps a simple tally of who returns. A person who comes back a second time is giving her the strongest answer she can get, and it costs them something real.",
+      "Kofi tells her that a good painter tries a small patch before painting the whole wall. Working in small steps lets her adjust early, instead of discovering a mistake when everything is finished.",
+      "Mira settles into a weekly rhythm. On Monday she picks one guess, during the week she runs a small test, on Friday she counts the results, and then she decides what to do next.",
+      "Mira realises that what counts is not how fast she builds, but how fast she learns. Each weekly cycle teaches her something, and over a year, the cycles add up to a great deal.",
+      "Mira decides how much she can afford to lose, and how many months she can keep going. A small budget makes her think carefully about every choice, and that turns out to be a gift.",
+      "Next, Mira wants to know whether people will pay. A kind yes is easy to give, but a payment is a true signal, so she adds a small sign to the shelf.",
+      "Out of ten people who see the new fee, eight still borrow a tool. The result is small but clear, and it gives Mira a good reason to keep going.",
+      "Mira learns to compare two numbers: what it costs her to attract one new customer, and how much that customer will pay her over time. If the first is bigger, she has a problem.",
+      "Mira notices that new borrowers rarely come from her leaflets. They come because a friend or neighbour told them, and word of mouth is both free and surprisingly strong.",
+      "To check her idea, Mira asks every new borrower how they heard about the shelf. She writes down each answer, and after a month the pattern is impossible to ignore.",
+      "Now, at last, it is time to write some software. Mira asks her friend Lucas to build a very simple booking page, because the tests have shown her that this is the one thing people need.",
+      "Lucas suggests many clever features, such as maps, ratings and photos. Mira smiles and politely says no to all of them until a real customer asks.",
+      "Kofi reminds her that simple does not mean careless. A first version can be small, but it has to work and treat people kindly, or the test will teach her nothing.",
+      "One day a borrowed saw comes back broken, and Mira feels her stomach drop. Instead of panicking, she asks what the accident can teach her and writes a fair, simple rule about damage.",
+      "Mira, Kofi and Lucas agree to look at the same numbers together each week. Nothing is hidden, because bad news that comes early is far cheaper than bad news that comes late.",
+      "Mira has discovered a useful habit: she loves the problem, not her first solution. Because of this, she can change the solution without feeling that she has lost something.",
+      "Mira sets a date, months ahead, to review the whole project honestly. If the evidence is poor after several careful tests, she will stop, and she will not feel ashamed.",
+      "After one year, Toolshelf has grown to three shops and about four hundred members. Mira could not have guessed this shape on the first day, but each step was tested before the next.",
+      "The method is not only for businesses. A school club, a new recipe, a change of job or a garden can all be treated as a set of guesses that can be tested cheaply.",
+      "In short, list your guesses, find the riskiest one, test it cheaply, count real actions, and then decide. This book is general information and not financial advice."
+    ],
+    "C1C2": [
+      "Mira stood in her garage with a brand new drill in her hand, knowing that she would need it for exactly one shelf and then never again. Around her, half-used tools gathered dust, and a thought arrived with the force of a small revelation. If every street shared its tools, nobody would have to buy what a neighbour already owned.",
+      "Excited and a little proud, Mira drew up a grand plan: a full app with maps, ratings, payments and photographs, to be built in secret over twelve months. Only when every detail was polished would she show it to a single neighbour. It felt thorough and professional, and it did not occur to her that it might also be a very large gamble.",
+      "Her friend Kofi, a carpenter who spoke plainly and rarely softened his opinions, read the plan twice and put down the notebook with a frown. He pointed out that she was about to spend a year of her life and most of her savings on something no one had ever asked her for. A good plan, he said, is not the same as a good bet.",
+      "Many new ventures close within a few years, and the cause is rarely poor craftsmanship. More often, a team works hard and works well, only to discover at the very end that nobody was waiting for what they had made. The most painful way to learn this is after the money is gone.",
+      "Kofi offered Mira an unwelcome but useful thought: that an idea feels like a fact only because we are fond of it. In truth, every idea is a bundle of guesses, each of which might be correct or might be quietly false. The sooner those guesses are checked, he said, the less an error will cost.",
+      "That evening Mira did something she had never done with an idea before: she wrote down everything that had to be true for it to succeed. Neighbours must own spare tools, they must be willing to lend them to strangers, other people must want to borrow, and everyone must trust the arrangement. Seeing the list on paper made her idea look much less like a certainty.",
+      "Kofi taught her that the guesses on the list were not of equal weight. One of them, which he called the riskiest, held up the whole structure, and if it turned out to be false then every other detail was beside the point. The clever thing to do, he said, was to find it first and test it before anything else.",
+      "When Mira looked at her list with honest eyes, she knew at once which line was the dangerous one. Everything depended on the belief that ordinary people would hand their favourite drill to someone they hardly knew, and she had never asked a single person whether that was true. It was a sobering moment, but also a strangely freeing one.",
+      "Kofi leaned back on his stool and told her to put away the plans for now. Building was the most expensive way to find out whether she was right, he said, and talking to the people she hoped to help was by far the cheapest. A few honest conversations could save her months of work.",
+      "Mira's first lesson in interviewing was that people are unreliable about the future and surprisingly honest about the past. So she did not ask her neighbour Anya whether she would use an app, but what she had done the last time she needed a ladder. A story about a real afternoon, she discovered, is worth more than a hundred polite predictions.",
+      "Almost everyone she spoke to said that Toolshelf sounded like a wonderful idea, and each compliment felt like a small gift. Yet Mira slowly understood that praise is free to give and therefore carries almost no information. What mattered was whether anyone would give her something that cost them effort, such as time, a promise or a little money.",
+      "Over a single weekend Mira knocked on ten doors along Alder Street, armed with a clipboard and one rule: she would listen and she would not sell. She wrote down each story as closely as she could, resisting the strong temptation to defend her idea whenever someone seemed unconvinced. By Sunday evening her notebook was full of facts she could not have invented.",
+      "As she read through her notes, a pattern appeared that she had not expected. When her neighbours needed a tool, they asked a relative or a close friend, and not one of them had ever lent a valued possession to a stranger. Her riskiest guess was beginning to look not merely risky but doubtful.",
+      "Gradually Mira saw that she had been solving the wrong problem. The difficulty was not that tools were hard to find but that lending them required a trust that strangers had not yet earned. Her neighbours wanted the convenience she had imagined, but they wanted it with a guarantee that nothing would be broken or lost.",
+      "Kofi explained that a small test is not a smaller version of the finished product, but the cheapest experiment that can answer a single question. It might look rough, it might be done by hand, and it might even be slightly embarrassing, as long as it produces a true answer. The aim, he said, is to learn, not to impress.",
+      "Mira's first experiment was almost comically simple: a hand-written list of tools that neighbours might borrow, taped to a lamp post with her own telephone number at the bottom. There was no app, no website and no payment system, only a sheet of paper and a promise to answer any call. It cost her an afternoon and a roll of tape.",
+      "Whenever someone called, Mira fetched the tool herself and carried it to the right doorstep, sometimes in the rain. This was clearly no way to run a business for a thousand households, but that was entirely beside the point. For the moment she was buying knowledge, and doing the work by hand was the cheapest way to purchase it.",
+      "Before she began, Mira made an unusual and slightly uncomfortable decision: she wrote down in advance what result would count as success. She understood that a mind in love with its own idea can find encouragement in almost any outcome, and a number fixed beforehand would not allow that. It was a way of protecting herself from her own hopes.",
+      "The target she chose was specific, modest and measurable: at least five out of twenty households on the street must agree to lend something within two weeks. If fewer than that came forward, she would accept that her riskiest guess had been wrong. She pinned the card above her desk where she could not pretend to forget it.",
+      "She delivered twenty leaflets by hand, each one explaining the idea in a few friendly lines and asking for a very small commitment. Then came the hardest part of any experiment, which is waiting while the world decides what to do. Mira checked her phone far more often than she cared to admit.",
+      "Messages came in quickly, and most of them were warm, enthusiastic and full of exclamation marks. Mira had to remind herself, rather sternly, that kind words were not what she had come to measure. Only the things that people did, such as offering a tool or turning up at a door, would count as evidence.",
+      "When the two weeks ended, fourteen households had said they wanted to be part of Toolshelf, which sounded impressive until she counted the lenders. Only three people had actually offered a tool, short of the five she had promised herself. Without her written target, she might easily have called the experiment a triumph.",
+      "The number fourteen would have looked splendid on a poster, and it was tempting to put it there. Mira saw clearly, though, that a flattering total that only ever grows can conceal what is really happening. The honest number was three, and it was the only one that told her anything useful.",
+      "Rather than feeling defeated, Mira went back to the neighbours who had said yes but done nothing, and asked what had held them back. Their answers were gentle and honest: they feared that a good tool might come back broken, or might not come back at all. The result had not killed her idea, but it had told her exactly where the weak point lay.",
+      "Kofi pointed out that every honest experiment ends in a decision with three possible forms. You may carry on exactly as before if the evidence is strong, change direction if it is mixed, or stop altogether if the idea has clearly failed. What matters is that the choice is made deliberately and not by default.",
+      "Mira chose to change course, keeping what she had learned and altering the part that had failed. Rather than asking neighbours to lend to strangers, she would place the tools on a shelf in a shop that the whole street already trusted. The problem that people cared about, finding the right tool without buying it, stayed exactly the same.",
+      "Half teasing, Kofi asked her whether the failed test had been a waste of time. Mira considered the question honestly and decided that it had not, because it had cost her two weeks and a roll of tape while saving her a year of misplaced work. A test that disproves a guess has succeeded in the only way that matters.",
+      "Mira took her new plan to Mr Reyes, who had run the hardware shop on Alder Street for twenty years and trusted by everyone who walked through his door. He listened carefully, asked a few sharp questions, and finally agreed to lend her an empty shelf near the counter for a month. It was a small yes, but she had learned to value small yeses.",
+      "She gathered twelve tools from friends and family, labelled each one carefully, and arranged them on Mr Reyes's shelf like exhibits in a very small museum. Once again, everything was done by hand, with a paper notebook beside the till and a pencil on a string. The second experiment had begun, and this time it asked a sharper question.",
+      "Mira noticed that interest was not spread evenly across the street. People who had just moved in, young families setting up a first home and weekend hobbyists felt the problem most sharply, because they needed a tool for a single job and had no spare space to store it. These early users, she realised, would teach her more than any crowd of casual admirers.",
+      "She began to keep a simple tally, and the number she watched most closely was not how many people came, but how many returned. Someone who comes back a second time has voted with their time and their trouble, and that vote is much harder to fake than a kind word. The tally slowly grew, and so did her confidence.",
+      "Kofi compared her method to painting a room: a sensible person tests a small patch of colour before opening the large tin. Working in small steps meant that every mistake would be small, and every adjustment would cost very little. A single enormous launch, by contrast, hides its errors until it is far too late to mend them.",
+      "Out of these experiments grew a weekly rhythm that suited her well. On Monday she chose a single guess to examine, during the week she ran a small test, on Friday she counted what had actually happened, and over the weekend she decided what to change. There was something deeply calming about knowing that no week would be wasted.",
+      "It dawned on her that the quantity worth maximising was not the speed of building but the speed of learning. Every weekly cycle taught her something small, and fifty cycles in a year would teach her something large, whereas one long build taught her nothing until the very end. She now measured her progress in questions answered.",
+      "Mira set herself a strict budget, deciding how much she could afford to lose and how many months she could keep going. At first the limit felt like a cage, but she soon found that scarcity sharpened her thinking, because every expense had to justify itself. A team with endless money, she suspected, would have run far fewer careful experiments.",
+      "The next question was the one that most new ventures prefer to postpone: would people actually pay? A friendly yes is easy to give, whereas handing over money is a genuine act that reveals what something is worth. So Mira added a small card to the shelf, naming a modest fee for each borrowed tool.",
+      "Of the ten people who saw the new fee that week, eight went ahead and borrowed a tool anyway, and two politely declined. The sample was tiny and she knew it, but the result was real and it pointed in an encouraging direction. For the first time, Mira felt that she was building on something solid and not on hope.",
+      "Kofi encouraged her to compare two numbers that every venture eventually has to face: what it costs to win one new customer, and how much that customer will pay over time. If the first number is larger than the second, then growth only drives the business deeper into debt. Mira began to track both numbers as carefully as she tracked her borrowed tools.",
+      "Mira noticed that her leaflets brought almost no one, while a recommendation from a neighbour brought many. Word of mouth was free, it was trusted, and it grew in exactly the places where her service already worked. She decided to make it easy for happy borrowers to pass the idea along to someone they knew.",
+      "To avoid fooling herself, Mira began asking every new borrower one simple question at the counter: how did you hear about us? She recorded every answer without comment, and after a month the pattern was too clear to argue with. Measurement, she found, does not need machinery; it needs a habit and an honest pencil.",
+      "Only now, after months of careful learning, did Mira ask her friend Lucas to write any software at all. He built a plain booking page that did one thing, reserving a tool for a day, because that was the single feature her experiments had proved necessary. She was relieved that the code would be small, since she now knew exactly what it was for.",
+      "Lucas, who loved his craft, kept suggesting clever additions, such as maps, ratings and photographs of every tool. Mira, who had been burned by her own enthusiasm once already, politely refused each of them until a real customer asked for it. Every feature, she reminded him, is a promise that must be built, tested and maintained for ever.",
+      "Kofi added a warning, which Mira wrote at the top of her notebook: simple does not mean sloppy. A first version should be small, yet it ought to work reliably and treat people with respect, because a careless product ruins the very test it was built for. The aim is a good answer, and nobody can give a good answer through a bad experience.",
+      "One afternoon a borrowed saw came back with a snapped blade, and for a moment Mira felt the old fear rise in her chest. Instead of panicking, she asked what the accident could teach her, and together with Mr Reyes she wrote a fair, simple rule about care and repair. Problems, she was learning, are often just information in an unwelcome costume.",
+      "The small team made a firm agreement to look at the same simple numbers together every week, with nothing hidden and nobody blamed. Bad news that arrives early is cheap and useful, they reasoned, whereas bad news that arrives late is expensive and merely painful. Openness turned out to be the cheapest tool they owned.",
+      "Looking back, Mira could see the change that mattered most had happened inside her. She had stopped loving her first solution and begun to love the problem it was meant to solve, which allowed her to change her plans without feeling that she was betraying herself. A person devoted to a problem is free to find a hundred better answers.",
+      "Mira also fixed, well in advance, a date on which she would review the entire project and decide whether to continue. If several careful tests of an idea kept pointing the same way, she promised herself that she would accept the verdict without shame. Knowing when to stop, she believed, is a skill as valuable as knowing how to begin.",
+      "A year later, in this imagined story, Toolshelf stood on shelves in three shops, with about four hundred members who borrowed tools every month. Mira could not have predicted that shape on the day she bought her drill, but each step had been tested before the next was taken. Her original plan had been a gamble; her real path was a staircase.",
+      "The lesson reached far beyond tools and shops, for the same method suits a school club, a new recipe, a change of career or a community garden. Whenever something new begins, it can be treated as a set of guesses, tested cheaply, counted honestly and adjusted without shame. Curiosity, in other words, is a better planner than certainty.",
+      "In the end, the whole method fits into a handful of steps: list your guesses, find the riskiest, test it as cheaply as you can, count what people actually do, and decide what to do next. Do this again and again, and your ideas will meet reality early, when it is still gentle. This book is general information and is not financial advice."
+    ]
+  }
+}

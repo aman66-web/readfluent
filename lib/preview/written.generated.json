@@ -806,6 +806,43 @@
   }
  },
  {
+  "slug": "eight-guests-one-storm",
+  "title": "Eight Guests, One Storm",
+  "author": "And Then There Were None",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "Eight guests cross a tidal causeway to Tern Rock Lodge for a weekend of goodbyes. Then the storm shuts the sea road, the lights go out, and the host is dead at the bottom of the cellar steps. Ines Calloway must find the killer before the tide turns.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Eight Guests,",
+    "One Storm"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "frame",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "waves",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-wonderful-wizard-of-oz",
   "title": "The Wonderful Wizard of Oz",
   "author": "L. Frank Baum",
@@ -1674,6 +1711,43 @@
     },
     {
      "id": "chart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "choose-what-matters",
+  "title": "Choose What Matters",
+  "author": "The Subtle Art of Not Giving a F*ck",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "You only have so much attention, and everything you care about uses some of it. This short, honest guide shows how to stop caring about everything, choose the few things worth your struggle, and spend your days on purpose.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "Choose What",
+    "Matters"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stack",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -3437,6 +3511,39 @@
     },
     {
      "id": "heart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-universe-in-an-afternoon",
+  "title": "The Universe in an Afternoon",
+  "author": "Astrophysics for People in a Hurry",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "One hot Sunday, Anya asks her uncle Ravi what the universe really is. He promises to tell her before the tea goes cold. Five hours, a chalkboard and fifty short explanations later, she will know what we have learned, and what nobody knows yet.",
+  "cover": {
+   "bg": "#F3EDE3",
+   "light": true,
+   "title": [
+    "The Universe",
+    "in an",
+    "Afternoon"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "orbit",
      "x": 160,
      "y": 38,
      "s": 0.36
