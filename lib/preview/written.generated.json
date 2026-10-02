@@ -7546,6 +7546,44 @@
   }
  },
  {
+  "slug": "the-return-of-sherlock-holmes",
+  "title": "The Return of Sherlock Holmes",
+  "author": "Arthur Conan Doyle",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "Holmes is not dead. Back from the Reichenbach Falls, he faces a killer with an air gun, a code of dancing men, a blackmailer, six plaster Napoleons and a letter that could start a war. Thirteen cases, told by Dr Watson, of the great detective's return.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The Return of",
+    "Sherlock",
+    "Holmes"
+   ],
+   "size": 13,
+   "author": "ARTHUR CONAN DOYLE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lens",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "candle",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-purloined-letter",
   "title": "The Purloined Letter",
   "author": "Edgar Allan Poe",
@@ -8901,6 +8939,44 @@
     },
     {
      "id": "lamp",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-weather-in-plain-words",
+  "title": "The Weather in Plain Words",
+  "author": "The Weather Book",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Why does it rain, what is a front, and how can anyone forecast tomorrow? Follow the sun's heat through the air, the clouds, the storms and the forecast, in plain words and one clear idea at a time.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "The Weather",
+    "in Plain",
+    "Words"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "bolt",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sun",
      "x": 160,
      "y": 38,
      "s": 0.36
