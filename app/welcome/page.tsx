@@ -22,7 +22,7 @@ import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { reportFirstRun } from "@/lib/onboarding/report";
 import { AFTER_ONBOARDING, PLACEMENT_PATH, STEP_IDS, isInterlude, isShowStep, stepIndex } from "@/lib/onboarding/steps";
 import { readRaw, subscribeTo } from "@/lib/store/local";
-import { startAt } from "@/lib/xp/ledger";
+import { setGates, startAt } from "@/lib/xp/ledger";
 
 /**
  * First run: the welcome (a wall of book covers), which languages (the one you speak
@@ -94,6 +94,8 @@ function Welcome() {
     reportFirstRun(a, minutes);
     // Their XP starts at the floor of the level they said or the test found.
     startAt(a.level);
+    // Which levels the language being learned can examine (lib/xp/exam.ts).
+    setGates(a.learn);
     markOnboarded();
     // A full page load, not the app's router: the cookie is set, so the server opens the home screen, and nothing
     // the router remembered from before the cookie existed (a cached redirect back to this page) can answer instead.

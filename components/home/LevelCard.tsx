@@ -1,12 +1,14 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { DotNumber } from "@/components/DotMatrix";
 import { languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
 import type { MessageId } from "@/lib/i18n/en";
-import { XP, levelFromXp, stageAfter, stageCode } from "@/lib/xp/levels";
+import { EXAM } from "@/lib/xp/exam";
+import { XP, levelFromXp, stageAfter, stageCode, type Cefr } from "@/lib/xp/levels";
 
 /**
  * The top of the dashboard: the reader's level (A1 to C2), a bar that fills toward
@@ -19,7 +21,7 @@ import { XP, levelFromXp, stageAfter, stageCode } from "@/lib/xp/levels";
 const CAN_DO = (code: string) => `cando.${code}` as MessageId;
 const STAGE_NAME = { 1: "stage.early", 2: "stage.mid", 3: "stage.late" } as const;
 
-export function LevelCard({ xp, learn, startOpen = false }: { xp: number; learn: LanguageCode | null; /** The details open from the first render (for tests and for looking at them). */ startOpen?: boolean }) {
+export function LevelCard({ xp, learn, exam = null, startOpen = false }: { xp: number; learn: LanguageCode | null; /** The level whose XP the reader has but whose exam they have not passed (lib/xp/exam.ts). */ exam?: Cefr | null; /** The details open from the first render (for tests and for looking at them). */ startOpen?: boolean }) {
   const t = useT();
   const locale = useLocale();
   const [open, setOpen] = useState(startOpen);
@@ -71,6 +73,15 @@ export function LevelCard({ xp, learn, startOpen = false }: { xp: number; learn:
           <p className="mt-2 text-[13px] font-semibold">{t("xp.top")}</p>
         )}
       </div>
+
+      {/* The XP for the next level is in hand but the exam is not passed: the way to it. */}
+      {exam && (
+        <div className="relative mt-4 rounded-[18px] bg-white p-4 text-[#0B1B22]" role="status">
+          <p className="text-[15px] font-bold leading-snug">{t("exam.banner.title", { level: exam })}</p>
+          <p className="mt-1 text-[13px] leading-snug text-[#0B1B22]/70">{t("exam.banner.body", { level: exam, questions: EXAM.questions, minutes: EXAM.minutes, pass: Math.round(EXAM.passShare * 100) })}</p>
+          <Link href={`/recall/tests/exam/${exam}`} data-exam={exam} className="btn-cyan mt-3 inline-flex h-12 w-full items-center justify-center rounded-full text-[15px] font-bold">{t("exam.banner.button", { level: exam })}</Link>
+        </div>
+      )}
 
       {/* What a reader at this stage can do, what the next stage adds, and how XP is earned: shown on request. */}
       {open && (

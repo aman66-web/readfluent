@@ -41,6 +41,13 @@ export function itemsFor(items: readonly Item[], level: Cefr): Item[] {
   return second ? inBand.slice(mid - Math.floor(inBand.length / 6)) : inBand.slice(0, mid + Math.floor(inBand.length / 6));
 }
 
+/** The sentences an exam draws on: the level's whole band, without its easiest quarter, so it asks harder things than practice does. */
+export function examItemsFor(items: readonly Item[], level: Cefr): Item[] {
+  const band = BAND_NUM[BAND_OF[level]];
+  const inBand = items.filter((i) => i.b === band).sort((a, b) => wordsOf(a.t).length - wordsOf(b.t).length);
+  return inBand.slice(Math.floor(inBand.length / 4));
+}
+
 const letters = (w: string) => [...w].length;
 
 /** A sentence with one word taken out, and four words to put back; null if there is no good word to take. */
@@ -106,10 +113,11 @@ const MIX: readonly QuestionKind[] = ["vocab", "gap", "meaning", "vocab", "liste
  * A paper of up to PAPER_SIZE questions. `bank` is the language's sentences; `phrases` is its deck (for languages with no bank).
  * If the bank cannot make enough questions of a kind, the paper is shorter rather than padded with something else.
  */
-export function makePaper(args: { lang: string; level: Cefr; kind: TestKind; bank: readonly Item[]; phrases?: readonly Phrase[]; seed: number }): Paper {
-  const { lang, level, kind, bank, phrases, seed } = args;
+export function makePaper(args: { lang: string; level: Cefr; kind: TestKind; bank: readonly Item[]; phrases?: readonly Phrase[]; seed: number; /** How many questions; PAPER_SIZE by default. */ size?: number; /** A level exam: harder sentences, and for a deck its whole second half. */ exam?: boolean }): Paper {
+  const { lang, level, kind, bank, phrases, seed, exam } = args;
+  const size = Math.max(1, Math.min(60, Math.floor(args.size ?? PAPER_SIZE)));
   const r = rng(seed);
-  const pool = itemsFor(bank, level);
+  const pool = exam ? examItemsFor(bank, level) : itemsFor(bank, level);
   const pairs: [string, string][] = [
     ...pool.flatMap((i) => i.k ?? []),
     ...(phrases ? phrases.map((p): [string, string] => [p.t, p.en]) : []),
@@ -124,8 +132,8 @@ export function makePaper(args: { lang: string; level: Cefr; kind: TestKind; ban
   const canVocab = vocabPairs.length >= 4;
   const canMean = pool.some((i) => i.e);
   const kinds: QuestionKind[] = kind === "mixed"
-    ? MIX.map((k, i) => (k === "vocab" && !canVocab) || (k === "meaning" && !canMean) ? (i % 2 ? "order" : "gap") : k)
-    : Array.from({ length: PAPER_SIZE }, () => kind);
+    ? Array.from({ length: size }, (_, i) => MIX[i % MIX.length]).map((k, i) => (k === "vocab" && !canVocab) || (k === "meaning" && !canMean) ? (i % 2 ? "order" : "gap") : k)
+    : Array.from({ length: size }, () => kind);
 
   const questions: Question[] = [];
   let s = 0;
@@ -133,7 +141,7 @@ export function makePaper(args: { lang: string; level: Cefr; kind: TestKind; ban
   const vOrder = shuffle(vocabPairs.map((_, i) => i), r);
   const used = new Set<string>();
   for (const k of kinds) {
-    if (questions.length >= PAPER_SIZE) break;
+    if (questions.length >= size) break;
     let q: Question | null = null;
     if (k === "vocab") {
       while (!q && v < vOrder.length) { q = vocab(vocabPairs, lang, r, `v${v}`, vOrder[v]); v++; }

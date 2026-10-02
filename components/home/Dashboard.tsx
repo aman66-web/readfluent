@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useMemo, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useMemo, useSyncExternalStore } from "react";
 import { BookCover } from "@/components/BookCover";
 import { ProfileButton } from "@/components/home/ProfileButton";
 import { categoryById } from "@/lib/content/limits";
@@ -11,7 +11,7 @@ import { useAnswers } from "@/lib/onboarding/use-answers";
 import { findBook, coverAuthor, PREVIEW_BOOKS } from "@/lib/preview/catalog";
 import { CarryOn } from "@/components/library/CarryOn";
 import { readRaw, subscribeTo } from "@/lib/store/local";
-import { LEDGER_KEY, parseLedger, streak, totalXp } from "@/lib/xp/ledger";
+import { LEDGER_KEY, examDue, parseLedger, setGates, streak, totalXp } from "@/lib/xp/ledger";
 import { dayDate, useToday } from "@/lib/xp/today";
 import { Targets } from "@/components/home/Targets";
 import { Boost } from "@/components/home/Boost";
@@ -37,6 +37,9 @@ export function Dashboard() {
   const a = useAnswers();
   const raw = useSyncExternalStore(subscribeLedger, readLedger, serverLedger);
   const ledger = useMemo(() => parseLedger(raw), [raw]);
+  // Which levels need an exam follows the language being learned (lib/xp/exam.ts); a device from before the exams gets it here.
+  useEffect(() => { if (a.learn) setGates(a.learn); }, [a.learn, raw]);
+  const exam = useMemo(() => examDue(ledger), [ledger]);
   const goal = a.daily ?? DEFAULT_MINUTES;
   const bookText = useBookText();
   const bookName = useCallback((slug: string) => { const b = findBook(slug); return b ? bookText(slug, "title", b.title) : slug; }, [bookText]);
@@ -66,7 +69,7 @@ export function Dashboard() {
       </div>
 
       <div className="mt-4">
-        <LevelCard xp={totalXp(ledger)} learn={a.learn} />
+        <LevelCard xp={totalXp(ledger)} learn={a.learn} exam={exam} />
         <NewBadge />
         <Targets />
         <Boost />

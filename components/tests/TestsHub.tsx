@@ -12,8 +12,9 @@ import { readRaw } from "@/lib/store/local";
 import { supportFor } from "@/lib/tests/support";
 import { TESTS_KEY, parseResults, resultKey, subscribeTests } from "@/lib/tests/store";
 import type { TestKind } from "@/lib/tests/types";
+import { EXAM } from "@/lib/xp/exam";
 import { CEFR, XP, levelFromXp, type Cefr } from "@/lib/xp/levels";
-import { LEDGER_KEY, parseLedger, totalXp } from "@/lib/xp/ledger";
+import { LEDGER_KEY, examDue, parseLedger, totalXp } from "@/lib/xp/ledger";
 import { subscribeTo } from "@/lib/store/local";
 
 const subLedger = subscribeTo(LEDGER_KEY);
@@ -41,6 +42,7 @@ export function TestsHub() {
   const support = supportFor(lang);
   const ledgerRaw = useSyncExternalStore(subLedger, () => readRaw(LEDGER_KEY), () => "");
   const mine = useMemo(() => levelFromXp(totalXp(parseLedger(ledgerRaw))), [ledgerRaw]);
+  const due = useMemo(() => examDue(parseLedger(ledgerRaw)), [ledgerRaw]);
   const [picked, setPicked] = useState<Cefr | null>(null);
   const resultsRaw = useSyncExternalStore(subscribeTests, () => readRaw(TESTS_KEY), () => "");
   const results = useMemo(() => parseResults(resultsRaw), [resultsRaw]);
@@ -65,6 +67,14 @@ export function TestsHub() {
         <Link href="/languages" className="sheet-card mt-5 flex min-h-14 items-center rounded-[22px] px-4 text-[14.5px] text-muted">{t("tests.pickLanguage")}</Link>
       ) : (
         <>
+          {/* The XP for the next level is in hand and its exam is the way up. */}
+          {due && (
+            <Link href={`/recall/tests/exam/${due}`} data-exam={due} className="mt-5 block rounded-[24px] bg-gradient-to-br from-[#0E7490] to-[#0A4B62] p-4 text-white shadow-[0_16px_26px_-20px_rgba(8,47,60,.7)] active:scale-[0.98]">
+              <span className="block text-[17px] font-bold leading-snug">{t("exam.banner.title", { level: due })}</span>
+              <span className="mt-1 block text-[13px] leading-snug text-white/85">{t("exam.banner.body", { level: due, questions: EXAM.questions, minutes: EXAM.minutes, pass: Math.round(EXAM.passShare * 100) })}</span>
+              <span className="btn-cyan mt-3 flex h-11 items-center justify-center rounded-full text-[15px] font-bold">{t("exam.banner.button", { level: due })}</span>
+            </Link>
+          )}
           <p className="mt-5 text-[12px] font-bold uppercase tracking-[0.1em] text-[var(--ob-deep)]">{t("tests.level")}</p>
           <div className="mt-2 grid grid-cols-6 gap-1.5" role="group" aria-label={t("tests.level")} dir="ltr">
             {CEFR.map((l) => {

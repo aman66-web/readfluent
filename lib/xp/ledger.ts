@@ -1,6 +1,7 @@
 import { storageKey } from "@/lib/brand";
 import { readRaw, writeRaw } from "@/lib/store/local";
-import { startingXp, xpForCard, xpForFinish, xpForPage, xpForTestAnswer, xpForTestFinish, levelFromXp, XP, type Cefr } from "./levels";
+import { gatedLevelsFor, heldXp, pendingExam } from "./exam";
+import { CEFR, startingXp, xpForCard, xpForFinish, xpForPage, xpForTestAnswer, xpForTestFinish, levelFromXp, XP, type Cefr } from "./levels";
 
 /**
  * The XP ledger, kept on the device (it becomes a `sync_docs` document in M8).
@@ -43,6 +44,10 @@ export interface Ledger {
   days: Record<string, DayStat>;
   /** The book opened last, for "carry on". */
   lastSlug: string | null;
+  /** The levels whose exam must be passed to reach them, for the language being learned (lib/xp/exam.ts); absent until it is set. */
+  gates?: Cefr[];
+  /** The levels whose exam has been passed. */
+  exams?: Cefr[];
 }
 
 export const EMPTY_LEDGER: Ledger = { base: 0, earned: 0, pages: {}, done: [], days: {}, lastSlug: null };
@@ -77,11 +82,21 @@ export function parseLedger(raw: string | null | undefined): Ledger {
     done: Array.isArray(v.done) ? [...new Set(v.done.filter((x): x is string => typeof x === "string"))] : [],
     days,
     lastSlug: typeof v.lastSlug === "string" ? v.lastSlug : null,
+    ...(Array.isArray(v.gates) ? { gates: cefrList(v.gates) } : {}),
+    ...(Array.isArray(v.exams) ? { exams: cefrList(v.exams) } : {}),
   };
 }
 
-/** Where the reader stands: base plus everything earned. */
-export const totalXp = (l: Ledger): number => l.base + l.earned;
+const cefrList = (xs: unknown[]): Cefr[] => [...new Set(xs.filter((x): x is Cefr => typeof x === "string" && (CEFR as readonly string[]).includes(x)))];
+
+/** Everything the reader has earned, whether or not an exam is holding it back. */
+export const rawXp = (l: Ledger): number => l.base + l.earned;
+
+/** Where the reader stands: base plus everything earned, held at the top of their level while the exam for the next is still to pass. */
+export const totalXp = (l: Ledger): number => heldXp({ base: l.base, raw: rawXp(l), gates: l.gates, exams: l.exams });
+
+/** The level whose exam the reader has the XP for and has not passed; null if none. */
+export const examDue = (l: Ledger): Cefr | null => pendingExam({ base: l.base, raw: rawXp(l), gates: l.gates, exams: l.exams });
 
 /** The local calendar day, YYYY-MM-DD. */
 export function localDay(d: Date = new Date()): string {
@@ -203,6 +218,21 @@ export function startAt(level: Cefr | null | undefined): void {
   if (l.earned > 0) return;
   const base = startingXp(level);
   if (l.base !== base) write({ ...l, base });
+}
+
+/** Sets which levels need an exam, from the language being learned. Does nothing if it is already so. */
+export function setGates(lang: string | null | undefined): void {
+  const l = read();
+  const gates = gatedLevelsFor(lang);
+  if (l.gates && l.gates.length === gates.length && l.gates.every((g, i) => g === gates[i])) return;
+  write({ ...l, gates });
+}
+
+/** A level's exam has been passed: the level opens (and the XP held back counts) from now on. */
+export function passExam(level: Cefr): void {
+  const l = read();
+  if (l.exams?.includes(level)) return;
+  write({ ...l, exams: [...(l.exams ?? []), level] });
 }
 
 /** Pays a page; returns what it paid, for a "+10 XP" to show. */
