@@ -1,0 +1,417 @@
+{
+  "slug": "the-purloined-letter",
+  "meta": {
+    "blurb": "A royal letter is stolen in plain sight, and the police of Paris search for months without success. Only the brilliant Dupin guesses where a clever thief would hide it. Can he outwit the Minister who dares to blackmail a queen?",
+    "bible": "C. Auguste Dupin: a Parisian gentleman of great intelligence who solves mysteries by thinking as the criminal thinks; calm, dry-humoured, fond of the dark and of his pipe. Narrator: Dupin's unnamed friend, who tells the story in the first person. Prefect G: the head of the Paris police, thorough but unimaginative, who laughs at Dupin's ideas. Minister D: a bold, clever and unprincipled politician, both poet and mathematician, who steals the letter. The lady: a royal personage, the rightful owner of the letter. The third person: a royal person from whom she wishes to hide the letter. Paris: where the story takes place, in autumn. Rue Dunot: Dupin's street, No. 33, third floor, in the Faubourg St Germain. Neapolitans: the Minister's servants, easily made drunk. Abernethy: a famous physician in Dupin's joke. Vienna: where the Minister once did Dupin an evil turn. Crebillon: author of the French play Atree, from which Dupin copies two lines. Reward: fifty thousand francs, later doubled. Facts: the Minister swapped a similar letter on the royal lady's table; the letter is hidden in a card-rack under the mantelpiece, turned inside out; Dupin makes a copy with a bread seal and a staged street disturbance. Voice and tone: calm, clever and dry; a detective tale told in the first person by a friend, with a twist of humour; no violence."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Two friends smoke in a dark, book-lined room in Paris at dusk",
+      "summary": "On an autumn evening in Paris the narrator and Dupin sit smoking in silence in Dupin's small library."
+    },
+    {
+      "n": 2,
+      "scene": "The door opens and the stout Prefect of police walks in",
+      "summary": "The Prefect of the Paris police arrives unannounced to ask Dupin for help."
+    },
+    {
+      "n": 3,
+      "scene": "Dupin refuses to light a lamp and sits back in the dark",
+      "summary": "Dupin says a puzzle is best studied in the dark, and the Prefect calls it another odd idea."
+    },
+    {
+      "n": 4,
+      "scene": "The Prefect roars with laughter at Dupin's remark",
+      "summary": "The Prefect says the case is simple yet baffling, and Dupin suggests it is too plain."
+    },
+    {
+      "n": 5,
+      "scene": "The Prefect leans close and whispers in the lamplit gloom",
+      "summary": "The Prefect reveals that an important document was stolen from the royal rooms by a known thief."
+    },
+    {
+      "n": 6,
+      "scene": "A lady in a royal room looks anxiously at a letter",
+      "summary": "The stolen letter would shame a very important lady if a certain third person saw it, so its holder has power over her."
+    },
+    {
+      "n": 7,
+      "scene": "The lady hides a letter on a table as a man enters",
+      "summary": "The lady, reading the letter alone, is interrupted and has to leave it open on a table, address upward."
+    },
+    {
+      "n": 8,
+      "scene": "The Minister swaps a similar letter for the lady's letter",
+      "summary": "The Minister spots the letter, understands the secret, and cleverly swaps it for one of his own."
+    },
+    {
+      "n": 9,
+      "scene": "The Minister picks up the wrong letter and bows to leave",
+      "summary": "The Minister takes the lady's letter as he leaves, and she cannot object in front of her visitor."
+    },
+    {
+      "n": 10,
+      "scene": "The Prefect shows a worried face to Dupin and the narrator",
+      "summary": "For months the Minister has used his power for politics, and the lady has begged the Prefect to get the letter back."
+    },
+    {
+      "n": 11,
+      "scene": "Two men in a hotel room consider where a letter could be",
+      "summary": "Dupin and the narrator agree the letter must be in the Minister's hotel, since he has twice been robbed and searched on the street."
+    },
+    {
+      "n": 12,
+      "scene": "The Prefect sneers while Dupin puffs thoughtfully on his pipe",
+      "summary": "The Prefect calls the Minister a poet and therefore nearly a fool, and Dupin admits to writing poor verse himself."
+    },
+    {
+      "n": 13,
+      "scene": "A police agent opens a lock quietly at night in a dark hotel",
+      "summary": "For three months the Prefect has secretly searched the Minister's hotel every night, using keys that open any lock in Paris."
+    },
+    {
+      "n": 14,
+      "scene": "Police open every drawer of a rich man's cabinet by candlelight",
+      "summary": "The police opened every drawer and checked every cabinet for secret spaces, measuring the bulk of each one."
+    },
+    {
+      "n": 15,
+      "scene": "A man pushes a long needle into the cushion of a chair",
+      "summary": "They probed the chair cushions with fine needles and took the tops off the tables, in case a letter was hidden in the legs."
+    },
+    {
+      "n": 16,
+      "scene": "A man studies the leg of a chair under a large microscope",
+      "summary": "The police examined every chair rung and joint under a powerful microscope, which would reveal any recent disturbance."
+    },
+    {
+      "n": 17,
+      "scene": "A policeman lifts the mattress and curtains in the Minister's bedroom",
+      "summary": "They searched the mirrors, beds, bedclothes, curtains and carpets too."
+    },
+    {
+      "n": 18,
+      "scene": "Numbered squares are marked on the wall of a grand house",
+      "summary": "The police divided the whole house into numbered squares and inspected each one, including the two neighbouring houses."
+    },
+    {
+      "n": 19,
+      "scene": "A man kneels in a brick garden and examines the moss",
+      "summary": "The garden was paved with brick, and the moss between the bricks had not been disturbed."
+    },
+    {
+      "n": 20,
+      "scene": "Piles of books and papers on a desk in a rich man's library",
+      "summary": "The police opened every package and turned every page of every book, measuring the covers and probing the bindings."
+    },
+    {
+      "n": 21,
+      "scene": "A man lifts a carpet to look at the floorboards below",
+      "summary": "They also searched under the carpets, the wallpaper and the cellars, and found nothing."
+    },
+    {
+      "n": 22,
+      "scene": "The Prefect closes his notebook and sighs wearily",
+      "summary": "The Prefect admits the letter is probably not there and asks Dupin's advice, but he refuses to search again."
+    },
+    {
+      "n": 23,
+      "scene": "The Prefect sits again in Dupin's room a month later",
+      "summary": "A month later the Prefect returns, the re-search was useless, and the reward has been doubled."
+    },
+    {
+      "n": 24,
+      "scene": "Dupin puffs his pipe lazily as the Prefect complains",
+      "summary": "Dupin suggests the Prefect take advice, and tells the story of the miser who asked a famous doctor for free medical advice."
+    },
+    {
+      "n": 25,
+      "scene": "Dupin opens a drawer and takes out a cheque book",
+      "summary": "The Prefect says he would pay fifty thousand francs for help, and Dupin asks for a cheque in exchange for the letter."
+    },
+    {
+      "n": 26,
+      "scene": "The Prefect clutches a letter and runs through the door",
+      "summary": "The Prefect signs the cheque, Dupin unlocks a desk and gives him the letter, and the Prefect rushes out in joy."
+    },
+    {
+      "n": 27,
+      "scene": "Dupin sits calmly in his armchair and begins to explain",
+      "summary": "Dupin explains that the Paris police are able in their way, but their methods did not suit this case or this man."
+    },
+    {
+      "n": 28,
+      "scene": "Schoolboys play a game with marbles in a sunny yard",
+      "summary": "Dupin says a boy of about eight once won all the marbles at his school by guessing whether his opponents held an even or odd number."
+    },
+    {
+      "n": 29,
+      "scene": "A clever boy thinks hard while a friend holds out a fist",
+      "summary": "The boy guessed by judging how clever each opponent was, and thinking what a player that clever would do next."
+    },
+    {
+      "n": 30,
+      "scene": "A boy copies the face of another boy across a table",
+      "summary": "The boy said he copied his opponent's face and waited to see what thoughts came to him, so he fitted his mind to the other's."
+    },
+    {
+      "n": 31,
+      "scene": "A tidy police officer searches the ordinary hiding places of a room",
+      "summary": "Dupin says the police believe everyone hides things as they themselves would, so they only search harder by their old methods."
+    },
+    {
+      "n": 32,
+      "scene": "A man in a big coat laughs at a book of poems",
+      "summary": "The Prefect thought the Minister a fool because he is a poet, but he is also a mathematician, and so he reasons well."
+    },
+    {
+      "n": 33,
+      "scene": "The Minister in a fine room sits calmly at his desk",
+      "summary": "The Minister, a bold schemer, would have expected a search, and his nights away were tricks; so he would choose simplicity."
+    },
+    {
+      "n": 34,
+      "scene": "A man puts on green-tinted glasses before a mirror",
+      "summary": "Dupin remembered how the Prefect laughed at the idea that the mystery was too plain, and prepared green spectacles for a visit."
+    },
+    {
+      "n": 35,
+      "scene": "A bored man in a silk dressing gown yawns on a couch",
+      "summary": "The Minister pretends to be bored, though he is really very energetic; Dupin complains of weak eyes and studies the whole room behind his spectacles."
+    },
+    {
+      "n": 36,
+      "scene": "Papers, books and a violin lie on a large writing table",
+      "summary": "Dupin carefully studied the large writing-table covered with letters, papers, instruments and books, but saw nothing suspicious."
+    },
+    {
+      "n": 37,
+      "scene": "A shabby card-rack hangs from a ribbon below a mantelpiece",
+      "summary": "Dupin noticed a cheap card-rack of cardboard hanging from a dirty blue ribbon below the mantelpiece, holding cards and one crumpled letter."
+    },
+    {
+      "n": 38,
+      "scene": "Close-up of a letter with a large black seal in a rack",
+      "summary": "The letter in the rack had a large black seal and a small feminine hand addressed to the Minister, quite unlike the Prefect's description, although the size matched."
+    },
+    {
+      "n": 39,
+      "scene": "A man in spectacles watches a dirty letter while chatting",
+      "summary": "The dirt, the tear and the plain placement made Dupin suspicious, so he kept the Minister talking about a subject he loved."
+    },
+    {
+      "n": 40,
+      "scene": "Hands turn a stiff letter inside out like a glove",
+      "summary": "Dupin saw the edges were chafed, as if the stiff paper had been folded again in reverse, so the letter had been turned inside out and re-addressed and resealed."
+    },
+    {
+      "n": 41,
+      "scene": "A man hurries to a window as a crowd shouts in the street",
+      "summary": "The next morning, while Dupin called for his snuff-box, a pistol-like shot and screams sounded outside, and the Minister ran to the window."
+    },
+    {
+      "n": 42,
+      "scene": "A man swaps a letter in a card-rack while another looks away",
+      "summary": "While the Minister looked out, Dupin took the letter from the rack and replaced it with a copy he had made, sealed with bread."
+    },
+    {
+      "n": 43,
+      "scene": "A crowd stands in a street while a man points a musket",
+      "summary": "The disturbance was a man with a musket without a bullet, who was paid by Dupin and went on his way."
+    },
+    {
+      "n": 44,
+      "scene": "Two men face each other in a richly furnished room",
+      "summary": "The narrator asks why Dupin did not simply take the letter on the first visit, and Dupin says the Minister is desperate and his servants loyal."
+    },
+    {
+      "n": 45,
+      "scene": "A lady looks hopefully through a palace window at dusk",
+      "summary": "Dupin says he is the lady's partisan, and since the Minister does not know the letter is gone, he will keep using his power and ruin himself."
+    },
+    {
+      "n": 46,
+      "scene": "A man climbs a steep, rocky slope, then slips downward",
+      "summary": "Dupin says his downfall will be awkward, because climbing up is easier than coming down, and he feels no pity for an unprincipled man of genius."
+    },
+    {
+      "n": 47,
+      "scene": "A man sits alone, thinking, with a letter in front of him",
+      "summary": "Dupin admits he would like to know what the Minister thinks when, defied by the lady, he opens the letter left in the rack."
+    },
+    {
+      "n": 48,
+      "scene": "A man writes a message with an ink pen on a blank sheet",
+      "summary": "Dupin did not leave the inside blank, because that would have been insulting; the Minister once did him a bad turn in Vienna, and knows his handwriting."
+    },
+    {
+      "n": 49,
+      "scene": "An old French play lies open beside a pen and lamp",
+      "summary": "Dupin copied two lines from the French play Atrée by Crébillon, about a terrible plan that fits an ancient king and his brother."
+    },
+    {
+      "n": 50,
+      "scene": "A lamp burns low as two friends talk after the visitor leaves",
+      "summary": "The Minister's own trap has closed on him, the lady is safe, and the case ends with the lesson that the plainest hiding place was the safest."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "On a windy autumn evening in Paris, I sat with my friend Dupin.",
+      "Suddenly the door opened, and the head of the Paris police came in.",
+      "Dupin did not light the lamp, because he liked thinking in the dark.",
+      "The Prefect said the problem was simple, but he could not solve it.",
+      "A very important paper had been stolen from the royal rooms.",
+      "If the wrong person read it, the lady would suffer greatly.",
+      "The lady was reading it alone when someone came into the room.",
+      "The Minister saw the letter, and he quickly swapped it for another.",
+      "When he left, he took her letter, and she could say nothing.",
+      "For months the Minister has used the letter to gain power.",
+      "The letter must be in the Minister's house, because he had been searched.",
+      "The Prefect said the Minister was a poet, so he was almost a fool.",
+      "For three months, the police searched the Minister's house every night.",
+      "The police opened every drawer and looked for secret places.",
+      "They pushed long needles into the chairs and took off table tops.",
+      "They looked at every joint of the furniture through a microscope.",
+      "They looked in the beds, behind the mirrors, and under the carpets.",
+      "The police numbered each part of the house and searched them all.",
+      "The garden had bricks, but nobody had touched the moss.",
+      "The police turned every page of every book in the library.",
+      "They searched under the carpets, behind the paper, and in the cellars.",
+      "The Prefect asked for advice, but he left the room sad.",
+      "A month later, the Prefect came back and was still unhappy.",
+      "Dupin told a story about a doctor and a rich, mean man.",
+      "Dupin asked for a cheque, and then he would give the letter.",
+      "The Prefect signed the cheque, took his letter, and ran away.",
+      "Dupin said that the police had done their work well.",
+      "A little boy always won the game of even and odd.",
+      "The boy guessed by thinking about how clever his friend was.",
+      "The boy copied his friend's face, and then he knew his thoughts.",
+      "The police thought that everyone hides things the way they do.",
+      "The Minister is both a poet and a mathematician, so he thinks well.",
+      "The Minister knew the police would search, so he hid the letter simply.",
+      "Dupin remembered the Prefect's laugh and put on green glasses.",
+      "The Minister acted bored, while Dupin looked around the room.",
+      "On the table lay papers and books, but nothing seemed strange.",
+      "Under the fireplace hung a dirty card-rack with a torn letter.",
+      "That letter looked very different from the one the Prefect described.",
+      "The dirt and the tear made Dupin think it was a trick.",
+      "Dupin saw that the old letter had been turned inside out.",
+      "Next day, a loud bang outside made the Minister run to the window.",
+      "Dupin took the letter and left a copy in its place.",
+      "The noise in the street was made by a man Dupin had paid.",
+      "Dupin did not take the letter at once, because it was dangerous.",
+      "Dupin wanted to help the lady and ruin the Minister's plans.",
+      "Dupin felt no pity for the Minister, who would soon fall.",
+      "Dupin wished he could see the Minister open the letter.",
+      "Dupin wrote a short message inside, for the Minister to find.",
+      "Dupin copied two lines from an old French play.",
+      "The best hiding place was the plainest one of all."
+    ],
+    "B1B2": [
+      "On a gusty autumn evening in Paris, I am sitting with my friend Dupin in his small library on the third floor. We have smoked our pipes in silence for an hour, watching the smoke curl through the dark.",
+      "Just then the door is thrown open, and the Prefect of the Paris police walks in. We have not seen him for several years, but we welcome him warmly, for he is an amusing man in his own way.",
+      "Dupin gets up to light a lamp, but he sits down again when he hears that the matter needs thought. He says that a hard problem is best studied in the dark, and the Prefect laughs and calls this another of his odd ideas.",
+      "The Prefect says that the case is very simple, and yet it has puzzled everyone completely. Dupin answers that perhaps the mystery is a little too plain, and the Prefect bursts out laughing.",
+      "The Prefect begs us to keep the matter secret, because he might lose his post if it were known. A very important paper has been stolen from the royal rooms, and the thief is known, because he was seen taking it.",
+      "The paper is a letter, and it would bring shame on a very important lady if a certain person saw it. Whoever holds it therefore has great power over her, and he can use it in politics.",
+      "The lady was alone in her room, reading the letter, when another important person suddenly walked in. She did not want him to see it, so she dropped it on a table with the address facing upward.",
+      "The Minister's sharp eyes saw the letter at once, and he knew the handwriting and the lady's fear. He took out a letter of his own that looked much the same and laid it beside hers.",
+      "When he leaves, the Minister quietly takes the lady's letter and leaves his own on the table. She sees what he does, but she cannot say a word, because the other person is standing right beside her.",
+      "For months the Minister has used his power to gain advantages in politics, and the lady grows more desperate every day. She cannot ask for the letter openly, so she has begged the Prefect to find it secretly, and the reward is huge.",
+      "The letter must be close at hand, because the Minister may need to use it or destroy it quickly. The police had even arranged for him to be stopped twice in the street by pretend robbers, but they found nothing on him.",
+      "The Prefect says that the Minister is not quite a fool, but that he is a poet, which is almost the same thing. Dupin thoughtfully agrees, adding with a smile that he has written some poor poetry himself.",
+      "The Prefect describes how he searched the Minister's house in secret for three months, almost every night. The Minister often stays out all night, and his servants, who mostly come from Naples, are easily made drunk.",
+      "The Prefect says that his men opened every drawer in the house, and that no secret drawer could escape a trained police agent. Each cabinet was measured, because any extra space would have shown that something was hidden inside.",
+      "After the cabinets, the police turned to the chairs, and they pushed fine needles deep into every cushion. They also took the tops off the tables, because a letter can be hidden inside a hollow table leg.",
+      "I asked whether a hollow could not be found by tapping, and the Prefect explained that cotton wool stops any sound. So the police checked the rung of every chair, and every joint of the furniture, with a powerful microscope.",
+      "I asked whether they had looked behind the mirrors and inside the beds, and the Prefect said that of course they had. They had also checked the bedclothes, the curtains and the carpets.",
+      "The police divided the whole surface of the house into numbered squares, so that none could be missed. Then they examined every square inch under the microscope, and they did the same in the two houses next door.",
+      "The grounds around the house are all paved with brick, so they gave the police little trouble. They examined the moss between the bricks, and it was undisturbed.",
+      "The Prefect says they opened every package and paper, and turned over every page of every book, instead of just shaking them. They measured the thickness of each cover, and probed some new bindings with needles.",
+      "The police also took up the carpets and examined the floorboards, and they checked the paper on the walls. They even looked in the cellars, but nothing was found anywhere.",
+      "The Prefect admits that he may have made a mistake, and he asks what Dupin would advise. Dupin tells him to search the house again, but the Prefect is sure the letter is not there, and he leaves depressed.",
+      "About a month later the Prefect visits us again, and we find him in his usual chair. He tells us that he searched the hotel again, just as Dupin advised, but it was all wasted work, and the reward has now been doubled.",
+      "Dupin tells a story about a famous doctor named Abernethy. A rich miser once tried to get free medical advice by describing his own illness as if it were someone else's, and Abernethy told him to take advice.",
+      "The Prefect says that he would gladly pay fifty thousand francs for good advice, and that he means it. Dupin opens a drawer, takes out a cheque book, and says that he will hand over the letter as soon as the cheque is signed.",
+      "At last the Prefect picks up a pen and signs the cheque for fifty thousand francs. Dupin puts it in his wallet, unlocks a desk, and gives him the letter, and the Prefect rushes out without a word.",
+      "When the Prefect has gone, Dupin begins to explain. He says that the Paris police are very able, and that their search was perfect, but their methods were wrong for this case and this man.",
+      "Dupin tells of a schoolboy of about eight who won all the marbles at his school at a game called even and odd. One player holds some marbles in his closed hand, and the other must guess whether the number is even or odd.",
+      "The boy studied each opponent to see how clever he was. A simple player, for example, would probably change his answer from even to odd, but a cleverer one would guess that the boy expected this, and would not change.",
+      "I said that this was only a matter of fitting your own mind to your opponent's. Dupin agreed, and said the boy had explained that he made his face look like the other boy's, and then waited to see what thoughts came into his own mind.",
+      "Dupin says that the police fail because they think only about how they themselves would hide a letter. When the reward grows larger, they search harder in the same old way instead of trying something new.",
+      "The Prefect decided the Minister was a fool because the man is known as a poet. But I said the Minister had also written about mathematics, and Dupin replied that he is both, and so he reasons well.",
+      "Dupin knew the Minister was a courtier and a bold schemer who would expect the police to search his house. He believed that the Minister's nights away from home were tricks to help the police, and that he would hide the letter in a simple way.",
+      "Dupin reminds me how the Prefect laughed when he said the mystery was too plain. Then he put on a pair of green spectacles and went to visit the Minister, as if by chance, one fine morning.",
+      "Dupin finds the Minister yawning and lounging, and pretending to be bored, although he is really a very energetic man. Dupin complains about his weak eyes, and behind his spectacles he quietly studies the whole room.",
+      "Dupin pays special attention to the large writing-table where the Minister sits. Letters and papers lie in confusion on it, along with one or two musical instruments and a few books, but after a long look he sees nothing suspicious.",
+      "At last Dupin's eyes fall on a cheap cardboard card-rack, hanging by a dirty blue ribbon from a brass knob under the mantelpiece. It holds a few visiting cards and one letter, which is dirty, crumpled and torn nearly in two.",
+      "The letter in the rack has a large black seal and is addressed to the Minister in a small woman's hand. The stolen letter was described as having a small red seal and a bold address, so it looks completely different, but its size is the same.",
+      "Dupin thought the extreme difference was suspicious, and so were the dirt and the tear, which did not suit the Minister's neat habits. The letter was also in full view of every visitor, so Dupin kept the Minister talking about a subject he loved.",
+      "Looking at the edges of the paper, Dupin sees that they are more worn than they should be. Stiff paper breaks like this when it is folded again the opposite way, so the letter has been turned inside out like a glove, and given a new address and seal.",
+      "The next morning Dupin comes back for his snuff-box, and the two men talk eagerly as before. Suddenly there is a loud bang like a pistol shot in the street below, followed by screams, and the Minister rushes to the window.",
+      "While the Minister is looking out of the window, Dupin steps over to the rack and takes the letter. He puts it in his pocket, and leaves in its place a copy which he made at home, using bread to make the seal.",
+      "The disturbance in the street was made by a man with a musket, who had fired it among a crowd of women and children. There was no bullet in it, and the man was paid by Dupin, so he was allowed to go his way.",
+      "I ask why Dupin did not simply seize the letter on his first visit and leave. Dupin says the Minister is a desperate man with devoted servants, and if he had tried, he might never have left the room alive.",
+      "Dupin says he has another reason, because he is on the side of the lady. The Minister does not know that the letter is gone, so he will go on using his power over her, and that will ruin him.",
+      "Dupin says that the Minister's fall will be sudden and awkward, because in every kind of climbing it is easier to go up than to come down. He has no pity for the Minister, who is a clever man without any principles.",
+      "Dupin confesses that he would like to know the Minister's thoughts at the moment when the lady defies him, and he is forced to open the letter in the card-rack. I ask whether Dupin put anything special inside it.",
+      "It did not seem right to leave the inside of the letter blank, Dupin says, because that would have been insulting. The Minister once did him an evil turn in Vienna, and Dupin promised, in a good-humoured way, that he would remember it.",
+      "The words Dupin copied are two lines from a French play called Atrée, by Crébillon. They say that a plan so terrible, if it is not worthy of Atreus, is worthy of Thyestes, which tells the Minister that Dupin knows his guilt.",
+      "So the stolen letter went back to its owner, while the Prefect had searched every hidden corner of the house for months. The letter had been in plain sight the whole time, and it was a clever mind that found it, and not a careful one."
+    ],
+    "C1C2": [
+      "It was a gusty autumn evening in Paris, and I was sitting with my friend Dupin in his small book-closet on the third floor, savouring the twin pleasures of thought and a good pipe. For a full hour neither of us had spoken, and anyone looking in would have taken us for two men wholly absorbed in the curling smoke. In truth my mind was elsewhere, turning over the strange cases that Dupin and I had discussed earlier that evening.",
+      "I was still thinking of those old mysteries when the door of the room was flung open and our old acquaintance, the Prefect of the Parisian police, strode in. We had not seen him for years, and we greeted him heartily, for he was a man in whom the comical and the contemptible lived in about equal parts. He had come, he told us, to ask the opinion of my friend on an official matter that had caused him a great deal of trouble.",
+      "Dupin rose to light the lamp, yet he sat down again the moment he learned that the visitor wanted his opinion, remarking that a problem which demands reflection is better examined in the dark. The Prefect, who had a habit of calling oddities everything he could not understand, replied that this was yet another of Dupin's strange notions. Dupin only agreed politely, handed his guest a pipe, and rolled a comfortable chair towards him.",
+      "The business was simple, the Prefect declared, so simple that he had no doubt his own men could manage it, and yet it had baffled them all utterly. Perhaps it is the very simplicity of the thing that puts you at fault, said Dupin, adding calmly that the mystery might be a little too plain, a little too self-evident. At this the Prefect roared with laughter and protested that Dupin would be the death of him yet.",
+      "He first warned us, in the gravest tone, that the affair demanded absolute secrecy and that he would probably lose his position if it ever became known that he had confided in anyone. A document of the highest importance, he told us, had been stolen from the royal apartments, and the identity of the thief was beyond doubt, since he had been seen in the very act. It was equally certain, he added, that the paper was still in the thief's possession.",
+      "The document, the Prefect explained with the pomposity he reserved for diplomacy, gave its holder a certain power in a certain quarter where such power was enormously valuable. Were the letter shown to a particular third person, the honour of a lady of exalted rank would be called into question, and this gave the holder an ascendancy over her. The thief, he revealed, was the Minister D, a man who dared everything, whether becoming or unbecoming to a gentleman.",
+      "The lady had received the letter while she was alone in the royal boudoir, and she was reading it when she was interrupted by the entrance of the very person from whom she most wished to hide it. After one hurried and unsuccessful attempt to push it into a drawer, she was forced to leave it lying open on a table, with the address uppermost and the contents therefore unseen. At that moment, as ill luck would have it, the Minister D walked in.",
+      "His sharp eye fell on the letter immediately; he recognised the handwriting of the address, noticed the lady's confusion, and understood her whole secret in an instant. After finishing some official business in his usual brisk manner, he drew from his pocket a letter that resembled hers, opened it, pretended to read it, and set it down close beside the other. He then chatted about public affairs for a quarter of an hour, as calmly as if nothing were happening.",
+      "At last, in taking his leave, he picked up the letter to which he had no claim and walked out, leaving his own harmless one on the table. Its rightful owner watched him do it, yet she dared not call attention to the theft with the third person standing at her elbow. In this way the Minister gained exactly what he needed to make his power over her complete.",
+      "The power thus obtained, the Prefect said, had been wielded for some months to a dangerous extent, and the unhappy lady was becoming more convinced every day that the letter had to be recovered. Since it could not be demanded openly, she had committed the matter to him in despair, and the reward for success was, he confided, enormous. Dupin, wrapped in a whirlwind of smoke, remarked that no more sagacious agent could be imagined, and the Prefect accepted the compliment gravely.",
+      "As Dupin pointed out, the letter had to be ready at a moment's notice, available to be produced or destroyed, and so it was almost certainly somewhere in the Minister's own house. The Prefect agreed, and added that the Minister had twice been waylaid by apparent footpads and searched most thoroughly under his own supervision, without result. Dupin observed that the Minister, being no fool, must have expected exactly this.",
+      "Not altogether a fool, the Prefect conceded of the Minister, but then he is a poet, which I take to be only one step removed from a fool. Dupin, after a long and thoughtful draw on his meerschaum, replied that this was true enough, although he had himself been guilty of a little bad verse. I could not tell whether he was mocking the Prefect or himself, and I suspect that he was doing both.",
+      "We took our time, said the Prefect, and we searched everywhere, for I have keys that will open any door in Paris, and for three months there has scarcely been a night when I was not personally ransacking the Minister's hotel. The Minister was frequently away from home until morning, and his servants, most of them Neapolitans, slept far from his rooms and were easily made drunk. My honour is at stake, he added, and the reward, as I told you, is enormous.",
+      "The first task, he explained, was the furniture, and we opened every drawer; any properly trained agent knows that a secret drawer cannot escape him, because there is a certain bulk of space to be accounted for in every cabinet. We had accurate rules for this, and the fiftieth part of a line could not have escaped us. It was precisely the kind of thoroughness, I thought, of which the Prefect was proudest.",
+      "After the cabinets we took the chairs, the Prefect went on, and the cushions were probed with those long, fine needles that you have seen me use. The tops were removed from the tables, since a person wishing to hide something will sometimes take off the top, hollow out the leg, put the object inside, and replace the top. Bedposts, he added, are used in the same way.",
+      "A cavity could scarcely be found by sounding, the Prefect replied, if a wad of cotton had been packed around the hidden object, and in any case the search had to be carried out in silence. We therefore examined the rungs of every chair in the hotel, and the joinings of every other piece of furniture, with a most powerful microscope. A single grain of fresh sawdust would have been as obvious to us as an apple, and any gap in the gluing would have given the secret away.",
+      "I presumed that the mirrors had been examined between the glass and the backing, and that the beds and bedclothes had been probed, together with the curtains and carpets. Of course, replied the Prefect, with the slightly weary patience of a man whose methods are being questioned by amateurs. When every particle of the furniture had been completed in this way, he said, they began on the house itself.",
+      "We divided the whole surface of the building into numbered compartments, said the Prefect, so that no portion could be forgotten, and then we scrutinised each square inch with the microscope as before. This included the two houses immediately adjoining, which I thought an astonishing labour. It was a great deal of trouble, he admitted, but the reward offered was prodigious.",
+      "All the grounds were paved with brick, the Prefect said, and they gave us comparatively little trouble, since we had only to examine the moss between the bricks and found it untouched. If a letter had been buried there, the disturbance would have been obvious even to a careless eye. It was a small satisfaction in a search that was proving long and fruitless.",
+      "We opened every package and parcel, said the Prefect, and we not only opened every book but turned over every leaf in each volume, not contenting ourselves with a mere shake, as some police officers do. We also measured the thickness of each cover with the most accurate care and examined it under the microscope, in case the binding had been tampered with. Five or six volumes, fresh from the binder, were probed lengthwise with the needles.",
+      "We took up every carpet and studied the boards beneath with the microscope, the Prefect continued, and the paper on the walls was examined in the same way, and we looked into the cellars as well. At every question I asked he answered with the same weary affirmative, and I began to see that the police had been thorough almost beyond belief. I concluded that my own first guess must have been right, and that the letter could not be anywhere in the house.",
+      "Then you have been making a miscalculation, I told him, and the letter is not on the premises after all, and the Prefect said he feared I was right and asked what Dupin would advise. A thorough re-search of the house, said Dupin, a suggestion the Prefect dismissed as absolutely needless, since he was no surer that he breathed than that the letter was not at the hotel. He then read us a minute description of the missing paper from his notebook, and went away more depressed in spirits than I had ever seen him.",
+      "A month later he paid us another visit, and found us occupied very much as before, and when I asked about the purloined letter he answered in the angriest of tones. He had made the re-examination as Dupin suggested, he said, but it had been labour lost, as he had known it would be. The reward, he added, was becoming more tempting every day, and had lately been doubled, though even a threefold increase would not enable him to do more than he had done.",
+      "Dupin, drawling between puffs of his meerschaum, suggested that the Prefect had not exerted himself to the utmost, and that he might do a little more by employing counsel in the matter. To illustrate, he told a story of the famous physician Abernethy, to whom a rich miser once described his own symptoms as those of an imaginary person, hoping to obtain a free opinion. Take advice, said the doctor, naturally enough, and that was the whole of the joke.",
+      "I am perfectly willing to take advice, and to pay for it, said the Prefect, a little discomposed, and I would really give fifty thousand francs to anyone who would help me in this matter. In that case, replied Dupin, opening a drawer and taking out a cheque book, you may as well write me a cheque for that sum, and when you have signed it I will hand you the letter. I was astounded, and the Prefect sat for some minutes speechless and motionless, staring at my friend with open mouth.",
+      "At length, after several pauses and vacant stares, the Prefect seized a pen and wrote out a cheque for fifty thousand francs, which Dupin examined with care and placed in his pocket-book. Then he unlocked a desk, took out a letter, and handed it over, and the Prefect grasped it in an agony of joy and tore it open with a trembling hand. After one rapid glance at its contents he scrambled to the door and rushed from the room and the house without having uttered a single word.",
+      "When he had gone, my friend began his explanation by saying that the Parisian police were exceedingly able in their way, persevering, ingenious and thoroughly versed in the knowledge their duties demand. Had the letter been hidden anywhere within the range of their search, he said, they would unquestionably have found it. Their defect lay not in their measures, which were excellent of their kind, but in the fact that those measures were inapplicable to the case and to the man.",
+      "The Prefect, Dupin said, was always too deep or too shallow for the matter in hand, and many a schoolboy was a better reasoner than he. He had known one, perhaps eight years old, whose success in the game of even and odd had won universal admiration, a game played with marbles in which one player holds a number in his closed hand and asks the other to guess whether it is even or odd. This boy had won every marble in the school.",
+      "Of course the boy had a principle, Dupin continued, and it lay in observing and measuring the cleverness of his opponent. With a simpleton, who had held an even number the first time, the boy reasoned that his cunning would just be enough to switch to odd the second time, and so he guessed odd and won. With a slightly cleverer player he reasoned that the opponent would think a simple switch too obvious, and would therefore keep to even; and again he won.",
+      "It is merely, I observed, an identification of the reasoner's intellect with that of his opponent, and Dupin agreed with satisfaction. When he had asked the boy how he achieved this, the child had replied that he shaped the expression of his own face as exactly as he could like his opponent's, and then waited to see what thoughts or feelings arose in his own mind to match it. That simple practice, said Dupin, was the secret of what had long been taken for profound wisdom.",
+      "The police fail, Dupin explained, because they have no identification with their opponent, and because they consider only their own ideas of ingenuity. In searching for anything hidden they think only of the ways in which they themselves would have hidden it, and this serves them well against ordinary minds but fails against a mind of a different kind. When pressed by some great reward, they merely exaggerate their old methods, without ever touching the principles on which those methods rest.",
+      "The remote source of the Prefect's defeat, Dupin said, lay in his assumption that the Minister was a fool because he had won renown as a poet; all fools are poets, the Prefect felt, and he was guilty of concluding that all poets are fools. I objected that the Minister was reputed to be a mathematician, who had written learnedly on the differential calculus. You are mistaken, replied Dupin, for I know him well, and he is both; as a poet and a mathematician he would reason well, but as a mere mathematician he could not have reasoned at all.",
+      "Dupin had known the Minister as a courtier and a bold intriguer, a man who could not fail to be aware of the ordinary methods of the police, and who had indeed anticipated being waylaid on the street. His frequent absences at night, which the Prefect had welcomed as a gift, Dupin took to be mere ruses, designed to give the police every chance to search and thereby to convince them that the letter was not in the house. Such a man, he reasoned, would despise every ordinary hiding place and would be driven to simplicity, if not choose it deliberately.",
+      "You will remember, said Dupin, how desperately the Prefect laughed when I suggested at our first interview that the mystery might trouble him because it was so very self-evident. Full of these ideas, I prepared myself with a pair of green spectacles and called one fine morning, apparently quite by accident, at the Minister's hotel. I could not have said whether I was more amused or excited by the little drama I had planned.",
+      "I found him at home, said Dupin, yawning, lounging and dawdling as usual, and pretending to be in the last extremity of boredom, though he is perhaps the most energetic man alive when no one is watching. To be even with him I complained of my weak eyes and of the unhappy necessity of wearing spectacles, and under their cover I surveyed the whole apartment with the greatest care, while seeming to attend only to the conversation of my host.",
+      "I paid particular attention to a large writing-table near which he sat, Dupin said, and upon which lay, in some confusion, a number of letters and other papers, with one or two musical instruments and a few books. After a long and very deliberate scrutiny I saw nothing there to excite particular suspicion. Had the Minister been a different sort of man, I should have counted the table as my best hope.",
+      "At length my eyes, in going the circuit of the room, fell upon a trumpery card-rack of pasteboard that hung dangling by a dirty blue ribbon from a little brass knob just beneath the middle of the mantelpiece. In its several compartments were five or six visiting cards and a single letter, much soiled and crumpled, and torn almost in two across the middle, as if a first intention to destroy it as worthless had been abandoned at the last moment. It had been thrust carelessly, even contemptuously, into one of the uppermost divisions.",
+      "No sooner had I glanced at the letter than I concluded that it was the one I sought, said Dupin, although in appearance it was radically different from the description the Prefect had read out. This seal was large and black, with the Minister's cipher, whereas the other had been small and red, with the ducal arms of a noble family, and the address was in a small feminine hand instead of the bold and decided writing of the royal personage. Only the size agreed.",
+      "But the radical nature of these differences, said Dupin, the dirt, and the torn condition of the paper, so inconsistent with the Minister's methodical habits and so suggestive of a plan to persuade the beholder that the document was worthless, together with its hyper-obtrusive position in full view of every visitor, strongly corroborated my suspicion. I prolonged my visit as long as I could, and kept the Minister in animated discussion on a subject that I knew never failed to interest him, while my attention remained riveted on the letter.",
+      "In scrutinising the edges of the paper I observed them to be more chafed than seemed necessary, Dupin said, and they had that broken appearance which is produced when a stiff paper, once folded and pressed flat, is refolded in the reverse direction along the same creases. That discovery set my doubts at rest, for it was clear that the letter had been turned like a glove inside out, readdressed and resealed. I then wished the Minister good morning and departed, leaving a gold snuff-box upon the table.",
+      "The next morning I called for the snuff-box, said Dupin, and we resumed our conversation of the previous day with great eagerness. While we were thus engaged, a loud report as of a pistol was heard immediately beneath the windows, followed by a succession of fearful screams and the shouting of a terrified mob. The Minister rushed to a casement, threw it open and looked out.",
+      "In the meantime I stepped to the card-rack, took the letter, and put it into my pocket, said Dupin, and replaced it with a facsimile, so far as externals were concerned, that I had carefully prepared at my lodgings. I had imitated the Minister's cipher very readily by means of a seal formed of bread. The whole exchange took only a few seconds, and my host's back was turned to me throughout.",
+      "The disturbance in the street, Dupin explained, had been caused by the frantic behaviour of a man with a musket, who had fired it into a crowd of women and children, and it proved to have been loaded without a ball. The fellow was allowed to go his way as a lunatic or a drunkard, and when he had gone the Minister came back from the window, whither I had followed him as soon as I had secured the object I wanted. The pretended lunatic was a man in my own pay.",
+      "But what purpose had you in replacing the letter by a facsimile, I asked, and would it not have been better to seize it openly at the first visit and depart? The Minister, replied Dupin, is a desperate man and a man of nerve, and his hotel is not without attendants devoted to his interests. Had I made the wild attempt you suggest, I might never have left the ministerial presence alive, and the good people of Paris might have heard of me no more.",
+      "I had an object apart from these considerations, said Dupin, for you know my political leanings, and in this matter I act as a partisan of the lady concerned. For eighteen months the Minister has had her in his power, but she now has him in hers, since, unaware that the letter is no longer in his possession, he will proceed with his demands as if it were. Thus he will inevitably commit himself, at once, to his own political destruction.",
+      "His downfall, Dupin added, will be no more precipitate than awkward, for in all kinds of climbing it is far easier to get up than to come down, as a famous singer once said of her art. In the present instance, he declared, I have no sympathy, and no pity either, for him who descends, since he is that monstrous thing, an unprincipled man of genius. I could see that the contest had become, for Dupin, a matter of principle as well as of cleverness.",
+      "I confess, however, that I should like very much to know the precise character of his thoughts, said Dupin, when the lady, whom the Prefect calls a certain personage, defies him, and he is reduced to opening the letter that I left for him in the card-rack. I asked at once whether he had put anything in particular inside it, and my friend smiled over his pipe, as though he had been waiting for the question.",
+      "It did not seem altogether right to leave the interior blank, said Dupin, for that would have been insulting. The Minister once did me an evil turn in Vienna, which I told him, quite good-humouredly, that I should remember, and so, knowing that he would be curious about the person who had outwitted him, I thought it a pity not to give him a clue. He is well acquainted with my handwriting, and I simply copied a few words in the middle of the empty sheet.",
+      "The words I copied, Dupin said, are two lines from Crébillon's tragedy Atrée, and they say in effect that a design so deadly, if it is unworthy of Atreus, is worthy of his brother Thyestes. The Minister will recognise the hand that wrote them, and he will understand at once who has outwitted him, and why. It was, I thought, the neatest signature a thief-catcher ever left.",
+      "So ended the affair of the purloined letter, which the Prefect's armies of needles and microscopes had failed to find in months of patient labour, and which a single morning's visit by a clever man in green spectacles had put into his hands. The paper had lain in plain view the whole time, safest precisely because nobody of the Prefect's type would ever think of looking where everyone could see. It was a fitting end to a tale in which the best hiding place proved to be the most obvious one of all."
+    ]
+  }
+}

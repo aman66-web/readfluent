@@ -3163,6 +3163,44 @@
   }
  },
  {
+  "slug": "how-to-live-on-24-hours-a-day",
+  "title": "How to Live on 24 Hours a Day",
+  "author": "Arnold Bennett",
+  "kind": "classic",
+  "category": "self-help",
+  "blurb": "Every morning you wake up with a purse holding twenty-four fresh hours, and no one can take them or add to them. Arnold Bennett's cheerful little guide from 1908 shows how an ordinary, busy person can really live them.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "How to Live",
+    "on 24 Hours a",
+    "Day"
+   ],
+   "size": 13,
+   "author": "ARNOLD BENNETT",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sun",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-science-of-getting-rich",
   "title": "The Science of Getting Rich",
   "author": "Wallace D. Wattles",
@@ -7282,6 +7320,43 @@
   }
  },
  {
+  "slug": "northanger-abbey",
+  "title": "Northanger Abbey",
+  "author": "Jane Austen",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "Catherine Morland is seventeen, kind and a little too fond of ghost stories. In Bath she finds friends, a charming man and a rival, and then she is invited to a real old abbey, where her imagination runs wild and the truth about her friends comes as a surprise.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Northanger",
+    "Abbey"
+   ],
+   "size": 17,
+   "author": "JANE AUSTEN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "castle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "candle",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-valley-of-fear",
   "title": "The Valley of Fear",
   "author": "Arthur Conan Doyle",
@@ -7311,6 +7386,44 @@
     },
     {
      "id": "mask",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-memoirs-of-sherlock-holmes",
+  "title": "The Memoirs of Sherlock Holmes",
+  "author": "Arthur Conan Doyle",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A racehorse that vanishes, a face at a cottage window, a secret buried under an old oak and a waterfall in Switzerland. Eleven cases told by Dr Watson, from a missing horse to the last struggle between Holmes and the criminal Moriarty.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Memoirs",
+    "of Sherlock",
+    "Holmes"
+   ],
+   "size": 15.5,
+   "author": "ARTHUR CONAN DOYLE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lens",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "mountain",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -7393,6 +7506,43 @@
   }
  },
  {
+  "slug": "the-first-men-in-the-moon",
+  "title": "The First Men in the Moon",
+  "author": "H. G. Wells",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "A ruined businessman and an absent-minded scientist build a ship that can fly to the Moon. What they find beneath its surface is a world of insect-like beings, and a ruler who wants to know everything about Earth.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "The First Men",
+    "in the Moon"
+   ],
+   "size": 13,
+   "author": "H. G. WELLS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "orbit",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "self-help",
   "title": "Self-Help",
   "author": "Samuel Smiles",
@@ -7421,6 +7571,42 @@
     },
     {
      "id": "stack",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "character",
+  "title": "Character",
+  "author": "Samuel Smiles",
+  "kind": "classic",
+  "category": "self-help",
+  "blurb": "Samuel Smiles asks what makes a person truly worth admiring. Through true stories of mothers, soldiers, nurses and workers, he shows that honesty, courage and self-control matter more than money, and that anyone can build a good character.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Character"
+   ],
+   "size": 18.5,
+   "author": "SAMUEL SMILES",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "shield",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "candle",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -7466,6 +7652,80 @@
   }
  },
  {
+  "slug": "the-upanishads",
+  "title": "The Upanishads",
+  "author": "Hindu scripture (traditional)",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "Who makes the mind think? What happens when we die? A boy meets Death, a proud student tastes salt water, and a wise woman asks the questions. Walk through the great dialogues of the Upanishads, ancient India's search for the Self.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "The",
+    "Upanishads"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lotus",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sun",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-art-of-living-long",
+  "title": "The Art of Living Long",
+  "author": "Luigi Cornaro",
+  "kind": "classic",
+  "category": "health",
+  "blurb": "A rich Venetian fell ill at forty and chose to live simply. He wrote that he then enjoyed a long and happy old age. Discover his plain meals, calm habits and four short writings, and what we may still learn.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The Art of",
+    "Living Long"
+   ],
+   "size": 15.5,
+   "author": "LUIGI CORNARO",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "candle",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "move-a-little-every-hour",
   "title": "Move a Little Every Hour",
   "author": "Spark",
@@ -7495,6 +7755,159 @@
     },
     {
      "id": "bolt",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "stretch-for-ten-minutes",
+  "title": "Stretch for Ten Minutes",
+  "author": "Becoming Flexible",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Dev drives a taxi, and his back has stopped bending. Follow him through twelve weeks of ten-minute stretching with a retired teacher, and learn what flexibility is, what the evidence says, and how to start gently.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Stretch for",
+    "Ten Minutes"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sun",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "history-of-the-peloponnesian-war",
+  "title": "History of the Peloponnesian War",
+  "author": "Thucydides",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "Two great Greek cities, Athens and Sparta, fought each other for twenty-seven years. Thucydides lived through it and wrote it down as it happened: the plague, the speeches, the cruelty, the doomed fleet. Retold here, book by book.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "History of",
+    "the",
+    "Peloponnesian",
+    "War"
+   ],
+   "size": 11.5,
+   "author": "THUCYDIDES",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "ship",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "shield",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-descent-of-man",
+  "title": "The Descent of Man",
+  "author": "Charles Darwin",
+  "kind": "classic",
+  "category": "science",
+  "blurb": "In 1871 Charles Darwin asked the boldest question of his career: where do human beings come from? Follow his evidence, from bones and babies to birdsong and bowers, and judge for yourself how much of his answer still stands.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Descent",
+    "of Man"
+   ],
+   "size": 15.5,
+   "author": "CHARLES DARWIN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "tree",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "footprints",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-expression-of-the-emotions-in-man-and-animals",
+  "title": "The Expression of the Emotions in Man and Animals",
+  "author": "Charles Darwin",
+  "kind": "classic",
+  "category": "science",
+  "blurb": "Why does a dog bristle, a baby scream and a girl blush? In 1872 Charles Darwin watched faces, animals and children with a patient eye, and found that our feelings carry the marks of a very long past.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The",
+    "Expression of",
+    "the Emotions",
+    "in Man and",
+    "Animals"
+   ],
+   "size": 11.5,
+   "author": "CHARLES DARWIN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mask",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lens",
      "x": 160,
      "y": 38,
      "s": 0.36

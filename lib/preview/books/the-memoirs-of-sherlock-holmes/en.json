@@ -1,0 +1,417 @@
+{
+ "slug": "the-memoirs-of-sherlock-holmes",
+ "meta": {
+  "blurb": "A racehorse that vanishes, a face at a cottage window, a secret buried under an old oak and a waterfall in Switzerland. Eleven cases told by Dr Watson, from a missing horse to the last struggle between Holmes and the criminal Moriarty.",
+  "bible": "Sherlock Holmes: the consulting detective of Baker Street, calm, quick and proud, but he can be wrong and can be kind. Dr Watson: his friend and the narrator, a doctor. Mycroft Holmes: Sherlock's older brother, cleverer but lazy; the Diogenes Club. Professor Moriarty: the master criminal, tall and thin, with a head that sways like a snake's. Baker Street, London. The eleven stories in order: Silver Blaze; The Yellow Face; The Stockbroker's Clerk; The Gloria Scott; The Musgrave Ritual; The Reigate Squires; The Crooked Man; The Resident Patient; The Greek Interpreter; The Naval Treaty; The Final Problem. Silver Blaze: the racehorse, favourite for the Wessex Cup; John Straker, the trainer, killed on Dartmoor; Colonel Ross, the owner; Inspector Gregory; Ned Hunter, the stable boy, drugged; Fitzroy Simpson, a stranger; Silas Brown, of the Capleton stable, owner of Desborough; King's Pyland. The Yellow Face: Grant Munro, a hop merchant of Norbury; his wife Effie; her little daughter, in a mask. The Stockbroker's Clerk: Hall Pycroft; Arthur Pinner and Harry Pinner, one man in two parts; the Franco-Midland Hardware Company; Birmingham; Mawson and Williams. The Gloria Scott: Victor Trevor; his father, Mr Trevor, really James Armitage; Donnithorpe, Norfolk; Hudson, an old sailor; Evans; Prendergast; the convict ship Gloria Scott, 1855; Australia. The Musgrave Ritual: Reginald Musgrave of Hurlstone, Sussex; Brunton, the butler; Rachel Howells, the maid; the oak, the elm and the crown of the Stuart kings; the Civil War. The Reigate Squires: Colonel Hayter; Reigate, Surrey; Mr Acton; Mr Cunningham and his son Alec Cunningham; William Kirwan, the coachman; Inspector Forrester. The Crooked Man: Colonel James Barclay of the Royal Munsters; his wife Nancy; Major Murphy; Miss Morrison; Henry Wood, the crooked man; Bhurtee; the Indian Mutiny; India. The Resident Patient: Dr Percy Trevelyan; Blessington, really Sutton; Brook Street; Inspector Lanner; Russia. The Greek Interpreter: Mr Melas; Latimer; Wilson Kemp; Paul Kratides; the Diogenes Club; Beckenham; Budapest; Athens. The Naval Treaty: Percy Phelps; Lord Holdhurst; Annie Harrison and her brother Joseph Harrison; Briarbrae, Woking; the Foreign Office; Italy. The Final Problem: Meiringen; the Reichenbach Falls; Canterbury; Switzerland; April 1891. Voice and tone: lively, clear and clever, each case a small, complete puzzle; deaths are stated plainly and without gore. Beat 50 closes the whole book."
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "Holmes and Watson look out of a train window at wild moorland",
+   "summary": "Silver Blaze: A famous racehorse has vanished and his trainer is dead; Holmes and Watson go to Dartmoor."
+  },
+  {
+   "n": 2,
+   "scene": "A stable boy sleeps heavily at a table beside a plate of curried mutton",
+   "summary": "The stable boy was drugged, a stranger named Simpson was seen, and Straker was found dead."
+  },
+  {
+   "n": 3,
+   "scene": "A dog lies silent in a dark stable yard at night",
+   "summary": "Holmes points out that the dog did nothing in the night, which means the visitor was someone it knew."
+  },
+  {
+   "n": 4,
+   "scene": "Holmes bends over horse tracks in a muddy field",
+   "summary": "Holmes follows the hoof prints to Silas Brown's stable and finds the missing horse in disguise."
+  },
+  {
+   "n": 5,
+   "scene": "A bay racehorse with a white face crosses the line ahead of a crowd",
+   "summary": "Straker meant to hurt the horse to make it lose; the horse killed him, and later wins the Wessex Cup."
+  },
+  {
+   "n": 6,
+   "scene": "A worried man in a neat suit sits by Holmes's fireplace",
+   "summary": "The Yellow Face: Grant Munro says his happy wife has begun to keep secrets."
+  },
+  {
+   "n": 7,
+   "scene": "A pale face stares from the upper window of a lonely cottage",
+   "summary": "Munro sees a strange yellow face at the window of a cottage near his home."
+  },
+  {
+   "n": 8,
+   "scene": "Holmes, Watson and Munro walk across a field towards a cottage at dawn",
+   "summary": "Holmes guesses that someone from Effie's past is blackmailing her, and the three go to the cottage."
+  },
+  {
+   "n": 9,
+   "scene": "A man kneels in a bright room and holds a small girl",
+   "summary": "The yellow face is a mask on Effie's little daughter, and Munro welcomes her with love."
+  },
+  {
+   "n": 10,
+   "scene": "A young man in a plain suit speaks eagerly to Holmes and Watson",
+   "summary": "The Stockbroker's Clerk: Hall Pycroft loses his job and is offered a well-paid post by Arthur Pinner."
+  },
+  {
+   "n": 11,
+   "scene": "A man in a bare office smiles to show a bright gold tooth",
+   "summary": "In Birmingham, Pycroft meets Pinner's brother Harry, who has the same gold tooth."
+  },
+  {
+   "n": 12,
+   "scene": "A clerk copies names from a thick book by lamplight",
+   "summary": "Pycroft is given a pointless job copying a directory, and suspects he is being kept out of the way."
+  },
+  {
+   "n": 13,
+   "scene": "Holmes, Watson and Pycroft step into a shabby Birmingham office",
+   "summary": "Holmes realises the two brothers are one man, and the plot against Pycroft's old firm fails."
+  },
+  {
+   "n": 14,
+   "scene": "Two college friends play with a bull terrier on a green lawn",
+   "summary": "The Gloria Scott: Holmes tells of his first case, begun when he visited his friend Victor Trevor in Norfolk."
+  },
+  {
+   "n": 15,
+   "scene": "An old sailor in a rough coat speaks to a pale old gentleman",
+   "summary": "An old sailor named Hudson arrives and frightens Mr Trevor, who gives him a place on the estate."
+  },
+  {
+   "n": 16,
+   "scene": "Holmes studies a letter about pheasants with every third word marked",
+   "summary": "A letter about game frightens Mr Trevor; Holmes finds a hidden warning in every third word."
+  },
+  {
+   "n": 17,
+   "scene": "Young men in chains sit in the dark hold of a sailing ship",
+   "summary": "Mr Trevor's written confession: as James Armitage he was sent on the convict ship Gloria Scott."
+  },
+  {
+   "n": 18,
+   "scene": "A burning ship sinks at sea while men row away in a small boat",
+   "summary": "The convicts rise against the crew, the ship is destroyed, and Armitage escapes to begin a new life."
+  },
+  {
+   "n": 19,
+   "scene": "Holmes sits in a room piled with papers, pipes and old relics",
+   "summary": "The Musgrave Ritual: Holmes tells how an old college friend, Reginald Musgrave, brought him a puzzle."
+  },
+  {
+   "n": 20,
+   "scene": "A handsome butler copies an old paper by candlelight in a library",
+   "summary": "Musgrave's butler Brunton was caught copying an old family paper, then vanished, and so did the maid Rachel Howells."
+  },
+  {
+   "n": 21,
+   "scene": "A yellowed page of old questions and answers lies on a table",
+   "summary": "Holmes reads the Musgrave Ritual, a very old list of questions and answers about an oak, an elm, the sun and a shadow."
+  },
+  {
+   "n": 22,
+   "scene": "Holmes marks the long shadow of a rod beside a great oak",
+   "summary": "Holmes measures the lost elm's shadow and paces out the ritual's steps."
+  },
+  {
+   "n": 23,
+   "scene": "A heavy stone is raised in a dark passage, showing steps down",
+   "summary": "Under a stone is a cellar with Brunton's body; the crown is found in the lake."
+  },
+  {
+   "n": 24,
+   "scene": "Holmes lies pale on a sofa while Watson stands beside him",
+   "summary": "The Reigate Squires: ill from overwork, Holmes rests in Surrey, where burglaries begin."
+  },
+  {
+   "n": 25,
+   "scene": "A dead coachman lies by a garden gate holding a scrap of paper",
+   "summary": "The coachman William Kirwan is shot dead while chasing a burglar, holding a scrap of paper."
+  },
+  {
+   "n": 26,
+   "scene": "Holmes holds a scrap of paper under a magnifying glass",
+   "summary": "Holmes sees the words were written by two different hands, one older and one younger."
+  },
+  {
+   "n": 27,
+   "scene": "Two policemen lead a father and son away from a country house",
+   "summary": "Holmes shows that the Cunninghams wrote the note, staged the burglary and killed Kirwan, and they are arrested."
+  },
+  {
+   "n": 28,
+   "scene": "An old soldier lies dead in a locked room while a woman faints",
+   "summary": "The Crooked Man: Colonel Barclay is found dead in a locked room and his wife is suspected."
+  },
+  {
+   "n": 29,
+   "scene": "Holmes studies small animal tracks on a lawn near a country house",
+   "summary": "Holmes learns that Mrs Barclay met a crippled stranger that evening, and finds the prints of a small animal."
+  },
+  {
+   "n": 30,
+   "scene": "A crippled man with a small animal on his shoulder talks in a cottage",
+   "summary": "Henry Wood tells how Barclay betrayed him at Bhurtee in the Indian Mutiny."
+  },
+  {
+   "n": 31,
+   "scene": "An old soldier falls by a fireplace as a woman cries out",
+   "summary": "In the locked room Barclay sees Wood and falls dead from the shock; Holmes calls it David and Uriah."
+  },
+  {
+   "n": 32,
+   "scene": "A young doctor stands by his brass plate in a quiet London street",
+   "summary": "The Resident Patient: Dr Trevelyan's new practice is paid for by a nervous man, Blessington, who lives in his house."
+  },
+  {
+   "n": 33,
+   "scene": "A Russian nobleman and his pale son sit in a doctor's consulting room",
+   "summary": "A Russian nobleman and his son visit the doctor, and Blessington is badly frightened afterwards."
+  },
+  {
+   "n": 34,
+   "scene": "A man hangs from a hook in a bedroom at early morning",
+   "summary": "The next morning Blessington is found hanged, and the police think it was suicide."
+  },
+  {
+   "n": 35,
+   "scene": "Three stern faces in an old police photograph of bank robbers",
+   "summary": "Holmes explains that Blessington was Sutton, a man who betrayed his gang, and they took their revenge."
+  },
+  {
+   "n": 36,
+   "scene": "Two brothers speak softly in a quiet room of a London club",
+   "summary": "The Greek Interpreter: Holmes tells Watson of his brother Mycroft and the Diogenes Club."
+  },
+  {
+   "n": 37,
+   "scene": "A man sits in a closed carriage with the windows covered",
+   "summary": "Mr Melas, a Greek interpreter, tells how he was driven blind to a house to translate for a prisoner."
+  },
+  {
+   "n": 38,
+   "scene": "Holmes and Mycroft read a newspaper notice together at a window",
+   "summary": "A notice asks for news of the Greek Paul Kratides, and Holmes, Watson and Melas set out to find the house."
+  },
+  {
+   "n": 39,
+   "scene": "An empty room with a thin man lying on the floor",
+   "summary": "At the house the prisoner is dead and the criminals are gone; later two Englishmen are found dead in Budapest."
+  },
+  {
+   "n": 40,
+   "scene": "A pale young man lies in bed writing a letter by lamplight",
+   "summary": "The Naval Treaty: Watson's school friend Percy Phelps writes that a secret treaty was stolen, and begs for Holmes."
+  },
+  {
+   "n": 41,
+   "scene": "A clerk copies a long paper by lamplight in an empty office at night",
+   "summary": "Phelps tells how he copied the treaty at night, rang for coffee, and returned to find it gone."
+  },
+  {
+   "n": 42,
+   "scene": "Holmes studies a garden window beside a quiet sickroom",
+   "summary": "At Woking, Holmes meets Annie Harrison and her brother Joseph and studies the house."
+  },
+  {
+   "n": 43,
+   "scene": "A man creeps across a dark bedroom floor and lifts a board",
+   "summary": "That night Holmes catches Joseph Harrison taking the hidden treaty from under a floorboard."
+  },
+  {
+   "n": 44,
+   "scene": "Holmes lifts a silver cover at breakfast to show a roll of paper",
+   "summary": "At breakfast Holmes shows Phelps the treaty, and Phelps is overjoyed."
+  },
+  {
+   "n": 45,
+   "scene": "A pale Holmes with bruised knuckles stands in Watson's doorway at dusk",
+   "summary": "The Final Problem: Holmes comes to Watson, shaken, and says Moriarty is hunting him."
+  },
+  {
+   "n": 46,
+   "scene": "A tall thin man with a domed forehead stands in Holmes's sitting room",
+   "summary": "Moriarty visited Baker Street and warned Holmes to stop; Holmes refused."
+  },
+  {
+   "n": 47,
+   "scene": "A special engine rushes past a station platform as two men watch",
+   "summary": "Holmes and Watson flee London by train; at Canterbury they watch Moriarty's special train race by."
+  },
+  {
+   "n": 48,
+   "scene": "Two travellers walk by a thundering waterfall in the Swiss mountains",
+   "summary": "In Switzerland they walk to the Reichenbach Falls, where Watson is called away by a message."
+  },
+  {
+   "n": 49,
+   "scene": "Two sets of footprints end at the edge of a dark waterfall",
+   "summary": "Watson returns and finds only Holmes's stick, a note and two sets of footprints at the edge."
+  },
+  {
+   "n": 50,
+   "scene": "Watson stands alone at the waterfall at sunset holding a letter",
+   "summary": "Watson mourns his friend, the best and wisest man he ever knew; the book ends."
+  }
+ ],
+ "levels": {
+  "A1A2": [
+   "Holmes and Watson went to Dartmoor to find a lost horse.",
+   "The stable boy slept deeply after he ate his dinner.",
+   "Holmes said the dog did nothing in the night, and that was strange.",
+   "Holmes followed the horse's footprints to a farm nearby.",
+   "Silver Blaze kicked the man who tried to hurt him, then won the race.",
+   "A worried man named Grant Munro asked Holmes for help.",
+   "Munro saw a strange yellow face in the window of a small house.",
+   "Holmes thought a bad man was forcing Effie to give him money.",
+   "In the room was a small girl, who wore a strange mask.",
+   "Hall Pycroft lost his job, but then he was offered a better one.",
+   "In Birmingham, Pycroft met Arthur's brother, who had the same gold tooth.",
+   "Harry gave Pycroft a dull job copying a long list of names.",
+   "Holmes said both brothers were one man, and he was a thief.",
+   "At college, Holmes visited his friend Victor Trevor in Norfolk.",
+   "An old sailor came to the house, and Mr Trevor looked afraid.",
+   "Holmes read a hidden message in the letter, but the old man died.",
+   "Mr Trevor had once been a prisoner on a ship named Gloria Scott.",
+   "The convicts took the ship, but a terrible fire destroyed it.",
+   "An old college friend named Musgrave came to ask Holmes for help.",
+   "The butler Brunton read old family papers, then he disappeared.",
+   "The old paper had odd questions about the sun and a shadow.",
+   "Holmes measured the shadow where the old tree once stood.",
+   "Under a stone they found Brunton dead in a small, dark cellar.",
+   "Holmes was tired and ill, so he went to the country to rest.",
+   "A servant named William Kirwan was killed when he chased a thief.",
+   "Holmes saw that two men had written on the same paper.",
+   "Holmes found the killers were father and son, and the police took them.",
+   "Colonel Barclay was found dead in a room with a locked door.",
+   "Holmes learned that Mrs Barclay had met a twisted man that evening.",
+   "Henry Wood told Holmes how Barclay had once betrayed him in India.",
+   "Barclay saw Wood, fell down in fear, and died on the spot.",
+   "Dr Trevelyan lived with a rich, nervous man named Blessington.",
+   "A Russian visitor brought his sick son to see the doctor.",
+   "The next morning, Blessington was found dead in his room.",
+   "Holmes found that three old thieves had come for their revenge.",
+   "Holmes told Watson that his clever brother Mycroft worked for the government.",
+   "Mr Melas was taken in a closed carriage to a strange house.",
+   "Holmes and Mycroft found a notice about a Greek man called Kratides.",
+   "At the house they found the Greek man dead and the criminals gone.",
+   "Watson's old friend Percy Phelps wrote to him about a stolen treaty.",
+   "Phelps copied the treaty at night, and then it was gone.",
+   "At Woking, Holmes met Annie Harrison and her brother Joseph.",
+   "A man came in at night, and Holmes caught him at once.",
+   "At breakfast Holmes lifted a dish and showed Phelps the treaty.",
+   "Holmes came to Watson's house, looking pale and very tired.",
+   "Moriarty visited Holmes and told him to stop, but Holmes refused.",
+   "Holmes and Watson left London by train, and Moriarty followed them.",
+   "In Switzerland, they walked to Reichenbach Falls, and then Watson was called away.",
+   "Watson came back and found only Holmes's stick and a note.",
+   "Watson wrote that Holmes was the best and kindest man he knew."
+  ],
+  "B1B2": [
+   "In the story of Silver Blaze, a famous racehorse vanishes from a stable on Dartmoor, and his trainer is found dead. Holmes and Watson take a train to the moor to help the owner, Colonel Ross.",
+   "The stable boy who guarded the horse had been put to sleep by a drug hidden in his supper of curried mutton. A stranger named Fitzroy Simpson was found nearby, and the police thought that he was the killer.",
+   "Holmes points out the strange fact that the dog in the stable did not bark in the night. If the dog stayed silent, he says, the visitor must have been someone that it knew well.",
+   "Holmes follows a horse's tracks across the moor until they lead him to the stable of Silas Brown, a rival trainer. There he finds Silver Blaze, whose white face has been disguised with dye.",
+   "Holmes explains that John Straker had secret debts and wanted the horse to lose, so he meant to hurt its leg with a tiny knife. The frightened horse kicked him dead, and a week later Silver Blaze won the Wessex Cup.",
+   "In The Yellow Face, a worried man named Grant Munro tells Holmes that his wife Effie has begun to keep secrets. She asked him for a hundred pounds without a word of explanation.",
+   "A stranger has moved into a cottage near the Munros' home, and once Munro saw a pale yellow face at its window. One night he follows his wife there and finds that she has gone inside.",
+   "Holmes guesses that a blackmailer is forcing Effie to pay him, and he decides to go to the cottage himself. Munro hurries with him, and together they rush into the house and up the stairs.",
+   "The yellow face is only a mask, and under it is Effie's little girl, her child from her first marriage. Effie had been afraid that Munro would not love the child, but he lifts her in his arms and kisses her.",
+   "In The Stockbroker's Clerk, Hall Pycroft loses his place at a London firm, but Arthur Pinner offers him a new job. The pay is five hundred pounds a year, which seems far too good to be true.",
+   "In Birmingham, Pycroft meets Harry Pinner, Arthur's brother, in a bare and nearly empty office. He notices with surprise that Harry has a gold tooth in exactly the same place as Arthur's.",
+   "Harry Pinner gives Pycroft a strange and boring task, which is to copy out the names in a big directory of businesses. Pycroft begins to suspect that nobody really needs the work done, and that he is simply being kept busy.",
+   "Holmes realises that Arthur and Harry Pinner are really one man, a thief who wanted Pycroft out of the way. With Pycroft and Watson he travels to Birmingham, and the plot falls apart at the false office.",
+   "In The Gloria Scott, Holmes tells Watson about his very first case, when he was still a student at college. He had visited his friend Victor Trevor, whose father was a respected magistrate in Norfolk.",
+   "One day an old sailor named Hudson arrives at the house, and old Mr Trevor turns pale at the sight of him. Instead of sending him away, Trevor gives the rough stranger a room and a place on the estate.",
+   "A letter about game and pheasants arrives, and Mr Trevor collapses when he reads it and dies soon afterwards. Holmes later finds that every third word hides a warning that Hudson has told everything and Trevor must run for his life.",
+   "After the old man's death, his written story reveals that his real name was James Armitage. Years ago he was sent as a convict on the ship Gloria Scott, bound for Australia.",
+   "The convicts rise up and try to take the ship, but the plan ends in a terrible explosion that destroys it. Only a few men escape, and Armitage starts a new life under a different name.",
+   "In The Musgrave Ritual, Watson remarks on Holmes's untidy rooms, and Holmes answers with the tale of an old college friend. Reginald Musgrave, a young country gentleman, has come to him with a strange problem.",
+   "Musgrave explains that his clever butler, Brunton, was caught one night copying an old family paper. Soon afterwards Brunton vanished from the house, and the maid he had once loved, Rachel Howells, disappeared too.",
+   "The paper the butler copied turns out to be the Musgrave Ritual, a very old set of questions and answers. It speaks of an oak, an elm, the sun and a shadow, and it gives directions in steps.",
+   "The great oak still stands, but the elm has been cut down, so Holmes must work out where its shadow fell. He uses a long rod and the sun's position to mark the right place on the lawn.",
+   "Under a heavy stone in the passage is a small cellar, and in it lies Brunton, who has died there. Rachel, who had thrown the treasure he found into the lake, had run away in terror.",
+   "In The Reigate Squires, Holmes is ill from overwork, and Watson takes him to rest at Colonel Hayter's house in Surrey. Their peace is spoiled when a series of strange burglaries begins nearby.",
+   "At old Mr Cunningham's house, a coachman named William Kirwan is shot dead while chasing a burglar. In the dead man's hand is a torn scrap of paper with a few strange words on it.",
+   "Holmes studies the scrap with care and notices that the words were written by two different men. One wrote every other word, and the writers, he says, are probably father and son or two close relatives.",
+   "Holmes shows that the note was written by the Cunninghams, a father and son who wanted a paper from Mr Acton. Kirwan had seen them at the crime, so they killed him, and the police arrest them both.",
+   "In The Crooked Man, Colonel Barclay is found dead in a locked room, and his wife lies faint beside him. Everyone thinks that she is guilty, since she was heard quarrelling with him just before.",
+   "Holmes finds the prints of a small animal near the house, and he learns that Mrs Barclay spoke to a crippled stranger. Her friend Miss Morrison saw the bent man call out to Mrs Barclay by her first name.",
+   "Holmes finds the crooked man, Henry Wood, who tells how he and Barclay once served together in India during the Mutiny. Barclay sent Wood to fetch help, but Wood was caught by the enemy and badly hurt, and he believed Barclay had betrayed him.",
+   "That night in the locked room, Barclay saw the crooked man he had wronged and fell back in shock. He struck his head on the fireplace, and Henry Wood, who had never touched him, ran away with his pet.",
+   "In The Resident Patient, a young doctor named Percy Trevelyan has a new practice paid for by a nervous man, Mr Blessington. Blessington lives in the doctor's house and takes a share of the money from the patients.",
+   "A Russian nobleman visits the doctor with his son, who suffers from strange fits. The doctor leaves the room for a minute, and the two men leave in a hurry before he returns.",
+   "The next morning, a servant finds Blessington hanged from a hook in his room, and the police suspect he killed himself. Holmes and Watson arrive at the house and begin to study the room with care.",
+   "Holmes explains that Blessington's real name was Sutton, and that years ago he had helped to rob a bank. He then told the police about his friends, and three of them, newly freed from prison, came to hang him.",
+   "In The Greek Interpreter, Holmes surprises Watson by saying that he has an older brother, Mycroft, who is cleverer than he is. Mycroft works for the government and spends his evenings at the Diogenes Club, where nobody is allowed to speak.",
+   "Mr Melas, a Greek interpreter, says that a man named Latimer drove him at night to a secret house. There he had to translate between Latimer and a thin, sick prisoner who spoke only Greek.",
+   "The next day Mycroft finds a newspaper notice asking for news of a Greek gentleman called Paul Kratides. Holmes decides that Melas is in danger and sets out with Watson and Melas to find the house.",
+   "At the house, they find that Latimer and his friend have run away, and that Paul Kratides lies dead. Months later a newspaper says that two Englishmen have been killed in Budapest.",
+   "In The Naval Treaty, Watson gets a letter from an old school friend, Percy Phelps, who has been ill for nine weeks. Phelps has lost a secret treaty from the Foreign Office, and he begs for Holmes's help.",
+   "Phelps tells them that he was copying the treaty late at night, when he rang the bell for coffee. When he came back from the door, the paper had vanished from his desk.",
+   "At Briarbrae, the house in Woking, Holmes meets Annie Harrison, Phelps's future wife, and her brother Joseph. He studies the sickroom and the garden window with interest, but he says very little about what he thinks.",
+   "That night Holmes and Watson wait in the dark room at Briarbrae. A man creeps in, pulls up a board in the floor and takes out a roll of paper, and Holmes seizes him.",
+   "At breakfast the next morning, Holmes lifts the cover from a dish in front of Phelps. Underneath lies the treaty, and Phelps jumps up with a cry of joy.",
+   "In The Final Problem, Holmes visits Watson one evening, pale and with blood on his knuckles. He says that Professor Moriarty is hunting him and that he has barely escaped three attacks that very day.",
+   "Professor Moriarty visits Baker Street in person and tells Holmes that he must give up his hunt. Holmes calmly refuses, and the professor leaves, warning him that the price will be his life.",
+   "Holmes, dressed as an old priest, leads Watson to a train that will carry them towards the coast. At Canterbury they see a special train rush by, and Holmes says that Moriarty is on it.",
+   "After crossing Europe, Holmes and Watson walk in the Swiss mountains and stop to see the great Reichenbach Falls. A boy arrives with a note, which begs Watson to come at once to help a sick English lady.",
+   "Watson finds that the message was false, and he runs back to the falls in the evening. There he finds Holmes's walking stick, a letter and two sets of footprints that go to the edge of the water.",
+   "Watson believes that Holmes and Moriarty both fell into the terrible waterfall, and he grieves for his friend. He writes that Holmes was the best and wisest man he has ever known."
+  ],
+  "C1C2": [
+   "The first story of the Memoirs, Silver Blaze, begins with a crisis in the racing world, for the favourite for the great Wessex Cup had disappeared from his stable on Dartmoor. His trainer, John Straker, lay dead on the moor with a terrible wound to the head. Colonel Ross, the horse's owner, begged Holmes for help, and Holmes and Watson set out by train for the wild country of Devon.",
+   "On the fatal night, the stable boy Ned Hunter had fallen into a deep sleep after eating his supper of curried mutton, which had been mixed with a sleeping drug. A stranger named Fitzroy Simpson, who had been asking questions at the stable that evening, was soon arrested on the suspicion of the whole county. Inspector Gregory felt certain that the case was closed, but Holmes, who disliked a conclusion that arrived too easily, asked to see the ground for himself.",
+   "Holmes drew the inspector's attention to the curious incident of the dog in the night-time, which had done nothing at all. A watchdog that stays silent while a stranger walks into the stable yard, he reasoned, is a watchdog that knows the visitor. This simple thought turned the whole case away from Simpson, the stranger, and towards someone who belonged to the stables.",
+   "The tracks of a horse led Holmes across the moor to the stable of Silas Brown, the trainer of a rival horse called Desborough, and the man at first denied everything. Holmes spoke quietly of what he knew, and in the end Brown admitted that the missing favourite stood in his own stable, its famous white face disguised with dye. Colonel Ross, who had doubted Holmes at every step, could only stare in amazement.",
+   "Holmes laid out the truth: Straker, who lived beyond his means and owed money in London, had planned to cripple the favourite with a tiny surgeon's knife so that it would lose the Wessex Cup. He had practised on sheep, as Holmes had guessed from the lame animals on the moor, but the great horse, terrified by the knife, struck him down with one blow of its hoof. A week later Silver Blaze ran in the Cup, and with his own white forehead shining, he won it with ease.",
+   "The next case came to Baker Street in the person of Grant Munro, a hop merchant from Norbury, whose happy marriage had suddenly been clouded. His wife Effie, a widow whom he adored, had begun to speak less freely, to leave the house at night and to ask him for a large sum of money without explaining why. Munro was a plain, honest man, and it grieved him to the heart that she should hide anything from him.",
+   "Not far from the Munros' garden stood a small cottage that had long been empty, but lately someone had come to live there, and at its upper window Munro had seen a livid, yellow face. One night he followed his wife across the field and saw her slip through the cottage door as though she had often done so before. He waited outside in the dark, hurt and bewildered, and when she came out, she begged him not to ask her any questions.",
+   "Holmes was inclined to think that a man from her past held Effie in his power, and he persuaded Munro to approach the cottage at once. Together the three men walked across the field in the grey light, with Watson close behind. Munro, who could wait no longer, pushed open the door and ran up the stairs three at a time.",
+   "The face that had frightened so many people was no more than a mask, and behind it was a little girl, the daughter of Effie's first husband, a good man of African descent who had died in America. Effie had hidden the child, for she feared that Munro, like many people of that age, might turn away from her, but he lifted the girl in his arms and kissed her without a moment's hesitation. Holmes, who had been quite wrong, quietly told Watson that if he ever grew too proud, he should whisper the word Norbury in his ear.",
+   "Hall Pycroft, a young stockbroker's clerk, had hardly lost his post in London when a stranger named Arthur Pinner offered him another, with an enormous salary, as manager of a Birmingham company called the Franco-Midland Hardware Company. The pay of five hundred pounds a year was much more than he had ever earned, and Pycroft accepted it with joy, though a small voice in him asked why such luck should come to him. He told his tale to Sherlock Holmes at Baker Street, and Holmes listened in silence beside the fire.",
+   "In Birmingham, Pycroft found the so-called Franco-Midland Hardware Company housed in two tiny, bare rooms, where he was welcomed by Harry Pinner, Arthur's younger brother. The man was extremely like Arthur in voice and movement, and when he smiled, Pycroft saw a gold-filled tooth in exactly the same place as the one in his brother's mouth. It seemed an odd chance that two brothers should share such a rare marking, and the clerk's uneasiness began to grow.",
+   "Harry Pinner set his new manager to a task so tedious that Pycroft could scarcely believe it was serious: to copy, page after page, the names of every hardware firm listed in the Birmingham directory. As he laboured at the dull work, Pycroft began to feel that the company existed only on paper, and that someone wished him to sit in that room and do nothing of importance. Slipping away at last, he hurried back to London to lay his doubts before Holmes.",
+   "Holmes saw at once that the gold tooth told the whole story, for Arthur and Harry Pinner were one and the same man, who had played both brothers to gain Pycroft's confidence. The scheme, he said, was to keep the honest clerk busy and out of sight in Birmingham, while a confederate took his place at the London firm and robbed it. Holmes, Watson and Pycroft hurried to the false office, and by the time they left, the plot was ruined and the gang finished.",
+   "One winter evening, Holmes took down a box of old papers and told Watson about his first case, which had begun in his student days. A friend named Victor Trevor, whose bull terrier had once bitten his ankle, had invited him to his father's house at Donnithorpe in Norfolk. The old man, a magistrate and a squire, impressed the young Holmes with his strong body and his sudden fits of mysterious gloom.",
+   "One afternoon an old sailor named Hudson, rough, red-faced and insolent, appeared at the gates, and Mr Trevor, who had never been known to fear anything, turned the colour of paper at the sight of him. Instead of sending the intruder away, the squire gave him a cottage and a place on the estate, and soon Hudson was ordering the servants about as if he owned the house. The young Holmes, who watched all this closely, wondered what power the stranger held over his host.",
+   "A letter arrived which seemed to be nothing more than idle talk about pheasants and the supply of game, but when old Mr Trevor read it, he fell to the floor in a stroke from which he never truly recovered. Holmes, studying the nonsense afterwards, discovered that by reading every third word one could find a hidden warning: the game was up, Hudson had told all, and Trevor must fly for his life. The old man died within days, and only then did the young student learn that Hudson had known a terrible secret from the past.",
+   "The old man had left a long written confession, and in it he revealed that his true name was James Armitage, and that as a foolish young man he had been convicted of a crime of money. In the year 1855 he had been sent in chains aboard the convict ship Gloria Scott, bound for the far side of the world, with about forty other prisoners. There he met a fellow convict named Evans, a brave and clever man who soon began to whisper of a plan.",
+   "Led by a convict chaplain who was not what he seemed, the prisoners rose against the crew, and there was fierce fighting on the deck. Before it was over, the ship was destroyed in a great explosion, and only Armitage and a few others escaped in a small boat to be picked up by a passing vessel. Armitage made a fortune abroad and returned to England as Mr Trevor, and Holmes always said that the old man's tragedy had been his first lesson in the long reach of the past.",
+   "Holmes, whose rooms were piled with papers and cigars, once drew from a box of old relics the story of the Musgrave Ritual, one of the earliest problems he ever solved. His visitor had been Reginald Musgrave, a quiet, well-bred young gentleman whom he had known slightly at college and who now owned the ancient house of Hurlstone in Sussex. Musgrave, with a worried air, begged his old acquaintance to consider a puzzle that had begun to haunt his household.",
+   "One night Musgrave had found his butler Brunton, a handsome, clever man who had served the family well, copying an old paper from the family archives in the library. Brunton was dismissed, but before he could leave, he vanished from the house without a trace, and soon afterwards the maid Rachel Howells, who had once been his sweetheart, disappeared in her turn. The police found nothing at all, and the whole of the county began to whisper that Hurlstone was cursed.",
+   "The paper that had tempted Brunton was the Musgrave Ritual, an ancient catechism handed down in the family for generations, and it seemed to Holmes the most fascinating thing in the whole affair. It asked whose the thing was, where the sun had stood and where the shadow had fallen, and it ended with directions to be followed in a certain number of careful steps. To Musgrave it was only a family curiosity, but Holmes saw in it a clue to a hidden place.",
+   "The ritual spoke of the shadow of an elm when the sun stood over an oak, and although the elm had been cut down, Musgrave remembered that it had been sixty-four feet high. Holmes took a long rod, marked it to a proper length, and measured the shadow it threw when the sun hung above the oak, driving a peg into the ground where the tip of the shadow fell. From the peg he paced out the steps of the ritual, north and east and south and west, until he stood inside a stone passage of the house.",
+   "Beneath a heavy flagstone in the passage, Holmes and Musgrave found a hidden cellar, and on its floor lay Brunton, who had died there when the heavy stone dropped back into place above him. The maid Rachel, who had been with him at the last, had fled in terror and thrown the treasure he had found into the lake, where Holmes had it dragged out. It proved to be the battered old crown of the Stuart kings, hidden at Hurlstone in the troubled days of the Civil War.",
+   "After a long and exhausting chase across Europe, Holmes fell so ill that Watson took him down to Reigate in Surrey, to the house of an old army friend, Colonel Hayter. He was just beginning to enjoy the peace of the country when the neighbourhood was shaken by a series of burglaries that seemed oddly pointless. The thieves had broken into the house of Mr Acton and carried off a strange collection of small things, and Holmes, to Watson's secret delight, could not hide his interest.",
+   "Soon the burglars struck again, at the house of old Mr Cunningham, and this time the coachman William Kirwan, who had gone out to catch them, was shot dead beside the garden gate. In the dead man's grasp was a torn scrap of paper with a few words written upon it, apparently the only trace the thief had left behind. Inspector Forrester, a local detective, studied the fragment with great seriousness, though the words made little sense to him.",
+   "With his lens and his usual patience, Holmes proved that the words on the scrap had been written by two different men, one taking every other word and the other filling the gaps between them. The pen strokes of one were firm and young, those of the other shaky and old, yet the letters shared such a family likeness that the writers must have been close relatives. It was a clever discovery, and Holmes, still pale from his illness, began to look like himself again.",
+   "Holmes showed that old Mr Cunningham and his son Alec had written the note between them, and that the burglary at their own house had been a cover story for their real crime, which was the killing of the coachman. They had been quarrelling with Mr Acton over land, and they had stolen a legal paper from his house, and Kirwan had seen enough to be dangerous to them. Holmes, by now fully recovered, had trapped the two men by his wits, and Inspector Forrester led them away, while Colonel Hayter looked on in astonishment.",
+   "Colonel James Barclay of the Royal Munsters, a brave and respected officer, was found dead one evening in a locked room, while his wife lay fainting on the floor beside him. The servants had heard the couple quarrelling, and Mrs Barclay had been heard to cry out the word coward and the name David, which was not her husband's name. Major Murphy, who came to Holmes for help, was convinced of her innocence, but the evidence pointed strongly against her.",
+   "Holmes found on the lawn the marks of a small animal's feet, which puzzled him greatly, and learned from Mrs Barclay's friend that she had met a crooked, hunched stranger on the road earlier that evening. Miss Morrison described how the man had called Mrs Barclay by her first name, and how Mrs Barclay, white-faced, had gone home with him at her heels. When the servants repeated her cry of David, Holmes remembered a story from the Bible, and the whole scene began to take shape.",
+   "Holmes tracked down the crooked man, Henry Wood, a bent and crippled soldier who earned his living as a street performer with a pet mongoose, and he told his story without bitterness. In the days of the Indian Mutiny, at the siege of Bhurtee, Barclay had sent him through enemy lines to fetch help, but Wood had been betrayed, captured and tortured, and his body twisted for ever. He had always believed that Barclay sold him in order to win the girl they both loved, and when he saw Nancy standing beside her husband, an old pain woke within him.",
+   "On that fatal night, Nancy met Wood in the garden, and when Barclay found them together, she cried out that he was a coward. He fell dead from the shock of seeing, after so many years, the man he had wronged so cruelly. Wood, who had never touched him, fled in horror with his pet, and Holmes, who had guessed from the cry of David the old story of David and Uriah, declared that Wood was innocent.",
+   "Dr Percy Trevelyan, a gifted young physician who longed to start a practice in Brook Street, had been helped by a stranger called Blessington, who provided the money in return for a large share of the profits. The arrangement suited them both, though the doctor was puzzled that his resident patient, as Blessington called himself, was so nervous that he kept his door locked and trembled at every knock. Dr Trevelyan came to Baker Street one morning with the story of a visitor who had just made his patient's fears seem a good deal more reasonable.",
+   "A Russian nobleman, accompanied by his son, who suffered from strange fits, visited the doctor's consulting room one evening, and the doctor stepped away for a few minutes. When he returned, both men had gone, and Blessington was in a state of terror, demanding to know who had entered his room. The footprints on the stairs, the doctor realised, told an unmistakable story of a visit that had nothing to do with illness.",
+   "Early the next morning, a servant discovered Blessington hanging from a hook in his bedroom, and the police were quick to say that he had taken his own life. Holmes and Watson, summoned by the troubled doctor, studied the room with the care of men who distrust easy answers. The ends of different cigars and the marks of several boots suggested that more than one visitor had come to the room in the night.",
+   "From a photograph in the police records, Holmes explained that Blessington's true name was Sutton, who had once belonged to a gang that robbed a bank, in which a guard was killed. Sutton had saved his own neck by informing against his companions, who were sentenced to long terms in prison, and when three of them were freed, they went straight to the man who had betrayed them. The pretended Russian and his son had been only a clever way of entering the house, and the death of the resident patient was a very old debt, paid in a very terrible way.",
+   "Holmes, who rarely spoke of his family, astonished Watson by confessing that he had a brother, Mycroft, seven years his elder, whose powers of observation exceeded his own. Mycroft held a small government post that carried him between his rooms, his office and the Diogenes Club, a curious place where members were forbidden to take any notice of one another. He would have been the greatest detective in England, Holmes said, if only he had been willing to leave his armchair.",
+   "Mycroft's neighbour, Mr Melas, was a Greek interpreter, and one evening a man named Latimer carried him off in a carriage with the blinds drawn, so that he could not see where he was being taken. In a lamplit room, a thin, frightened man with plaster on his face sat before him, a Greek named Paul Kratides, who had been brought to England and could not understand a word of English. Latimer and his companion demanded that Melas translate their questions, which were all about signing away his property, and Melas, afraid, did as he was told.",
+   "Mycroft, who had been listening to Melas with growing seriousness, found in the newspaper a notice that asked for news of a missing Greek gentleman named Paul Kratides, said to be from Athens. The detective brothers realised at once that the prisoner and the missing man must be the same person, and Sherlock set off with Watson and Melas to find the house that Melas had visited. They travelled to Beckenham by train and hunted among the quiet streets until Melas said, with a catch in his voice, that he recognised the garden gate.",
+   "At the house they found that the birds had flown, for Latimer and his partner Kemp had left, and in a room full of fumes lay Paul Kratides, who had died of the poisonous air. Mr Melas, who had suffered terribly himself during his visit, mourned for the unhappy man, and Holmes worked patiently to learn the truth. Much later it was reported that two Englishmen had been stabbed in the city of Budapest, and the brothers guessed that the two villains had met a rough justice at the hands of those they had wronged.",
+   "Watson received a pitiful letter from an old school friend, Percy Phelps, who had risen in the Foreign Office with the help of his uncle, Lord Holdhurst, and who now lay sick with brain fever. A secret treaty between England and Italy, which Phelps had been told to copy, had vanished from his office, and he feared that his career, and perhaps more than that, was ruined. Holmes, who disliked sentiment but loved a puzzle, agreed to travel with Watson to Woking at once.",
+   "Phelps explained that he had stayed late in his office, copying the treaty by lamplight, and that at about nine he had rung the bell to ask for coffee. When no one came, he went down to find the commissionaire, and he was gone for only a few minutes, but when he returned, the original paper had vanished from his desk. He had seen no one on the stairs, and the whole of the great building was as quiet as a church.",
+   "At Briarbrae, the house where Phelps lay ill, Holmes was welcomed by Annie Harrison, the sick man's fiancée, and her brother Joseph, a dark, quiet man who had been staying in the house. The detective spent some time in the garden and in the sickroom, studying the windows and the floor, but he kept his thoughts to himself. By the end of the afternoon, he had fixed his suspicion upon one member of the household.",
+   "That night Holmes and Watson hid in the dark room and waited, while the old house creaked and the hours crawled by. At last the door opened, a figure in a dressing gown crept across the floor, prised up a board and drew out a roll of paper, and Holmes leaped on him before he could cry out. The man was Joseph Harrison, who had called at the office that night to meet his friend and who, being deep in debt, had taken the treaty in a moment of weakness.",
+   "At breakfast the next morning, Holmes lifted the silver cover from the dish before Phelps with all the flourish of a magician, and there lay the lost treaty, quite safe. Phelps, who had been ill for nine weeks, jumped to his feet and nearly fainted with joy, and he vowed that he would never forget what he owed his friend. Holmes, for his part, merely remarked that the case had one or two points of interest and that he was glad to have been of use.",
+   "One April evening in 1891, Holmes appeared in Watson's room, paler and thinner than ever, with bruised and bleeding knuckles from climbing over the garden wall. He explained that Professor Moriarty, whose crimes he had followed for months, had grown tired of the pursuit and had tried three times that very day to have him killed. The great hunter had become the hunted, and Holmes, with a smile that was almost cheerful, asked Watson to leave England with him the next morning.",
+   "Holmes described how, only a few days before, Professor Moriarty had walked into his sitting room, a tall, thin man with a domed forehead and a head that moved slowly from side to side like a snake's. The professor warned him coldly to give up the chase, since the two of them could not both go on living in the same world. Holmes answered with equal calm that he would gladly lose his life if it meant ending the professor's, and he added that he had never before faced so worthy an enemy.",
+   "Holmes, who had arranged the journey with perfect care, led Watson across London in a series of cabs and onto the Continental train, wearing the disguise of an elderly Italian priest. At Canterbury they stepped out onto the platform, and as they watched, a special engine with a single carriage swept past on its way to Dover, and Holmes remarked calmly that Moriarty was on it. From that moment he took every road with the care of a man who knew that the most dangerous mind in Europe was now on his heels.",
+   "After many days of travel through France and Belgium and Germany, Holmes and Watson came at last to the Swiss village of Meiringen, and one fine afternoon they walked up to see the thunderous Reichenbach Falls. There a Swiss boy hurried up with a note from the owner of their hotel, begging Watson to return at once to attend an English lady who was dying of a lung disease. Holmes, who seemed to understand the true purpose of the message, quietly urged him to go, saying that he would wait where he was.",
+   "Watson soon learned that there was no sick lady at the hotel, and he ran back up the mountain path with a dreadful fear that grew with every step. At the edge of the great waterfall he found Holmes's walking stick, a farewell note, and the footprints of two men who had walked to the brink, with no marks coming back. The note, written calmly in Holmes's clear hand, said that he was glad to end his career in a way that would free the world from Moriarty's crimes.",
+   "Watson was forced to conclude that the two enemies had fought on the brink and fallen together into the dark, roaring water, where no search could ever reach them. He wrote this last account with a heavy heart, so that the world might know the truth about the finest friend he had ever had, and about his long fight against the greatest criminal brain in Europe. And so he ended it, with the words that he would always think of Sherlock Holmes as the best and wisest man whom he had ever known."
+  ]
+ }
+}

@@ -1,0 +1,417 @@
+{
+  "slug": "through-the-looking-glass",
+  "meta": {
+    "blurb": "On a snowy afternoon Alice climbs through the mirror above the fireplace and enters a world where everything runs backwards. She must cross a giant chessboard, meet talking flowers, twin brothers and a rude egg, and become a Queen. But is it all a dream?",
+    "bible": "Alice: a curious, polite, brave English girl of about seven. Kitty: Alice's black kitten, who becomes the Red Queen in the dream. Snowdrop: Alice's white kitten, who becomes the White Queen. Dinah: Alice's old cat. Looking-glass House: the room behind the mirror, where everything is backwards. Jabberwocky: a poem written in mirror writing, about a hero who kills the Jabberwock. Jabberwock: the monster in the poem. White King: a nervous chess king. White Queen: a muddled queen who lives backwards. Red Queen: a stern, stiff queen who runs the chess game. Red King: a king who sleeps under a tree and, say the twins, dreams Alice. Garden of Live Flowers: where the Tiger-lily, the Rose and the Daisies talk. Tiger-lily: the first flower to speak. Rose: the sensible flower. Daisies: noisy flowers. Gnat: a huge insect with a friendly voice. Fawn: a gentle young deer in the wood where nothing has a name. Tweedledum and Tweedledee: round twin brothers who recite a poem and quarrel over a rattle. Walrus: a character in the brothers' poem. Carpenter: another character in the poem. Humpty Dumpty: a proud egg who sits on a wall and explains words. Sheep: the old shopkeeper who knits. Haigha and Hatta: the White King's two messengers. Lion: fights for the crown. Unicorn: fights for the crown. Red Knight: tries to capture Alice. White Knight: gentle, clumsy inventor who rescues Alice. Frog: a rude footman at the door. Queen Alice: what Alice becomes on the eighth square. England. Time and tone: a gentle, funny, dreamlike fantasy told in order from the first chapter to the last; nothing frightening; the story ends with Alice awake, asking who dreamed it."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Alice sits in an armchair while a black kitten plays with red wool",
+      "summary": "On a snowy afternoon Alice watches her kitten Kitty make a mess of a ball of wool."
+    },
+    {
+      "n": 2,
+      "scene": "Alice holds the kitten up to the tall mirror above the fireplace",
+      "summary": "Alice scolds Kitty, then asks her to pretend that the mirror is a door into another house."
+    },
+    {
+      "n": 3,
+      "scene": "Alice climbs onto the mantelpiece as the mirror melts like silver mist",
+      "summary": "Alice climbs up, the glass melts, and she steps through into the looking-glass room."
+    },
+    {
+      "n": 4,
+      "scene": "A room like Alice's own, with a smiling clock above a fire",
+      "summary": "The looking-glass room looks like her own, but everything is the other way round."
+    },
+    {
+      "n": 5,
+      "scene": "Alice holds an open book up to a mirror to read its backward writing",
+      "summary": "Alice finds a book written backwards and reads it in a mirror."
+    },
+    {
+      "n": 6,
+      "scene": "A young hero with a sword faces a huge monster in a dark wood",
+      "summary": "The poem Jabberwocky tells how a young hero kills a terrible monster."
+    },
+    {
+      "n": 7,
+      "scene": "Small chess pieces walk arm in arm among the ashes of the fire",
+      "summary": "Alice sees living chess pieces in the hearth and sets the White King and Queen on the table."
+    },
+    {
+      "n": 8,
+      "scene": "Alice walks in a garden where every path bends back to the house",
+      "summary": "Alice leaves the house, but every garden path turns back to the front door."
+    },
+    {
+      "n": 9,
+      "scene": "A tall orange tiger-lily sways and speaks in a bright flower garden",
+      "summary": "Alice finds a garden of talking flowers, and a Tiger-lily speaks to her."
+    },
+    {
+      "n": 10,
+      "scene": "Noisy daisies and a rose lean toward Alice among the flower beds",
+      "summary": "The flowers gossip, and the Rose tells Alice that the Red Queen is coming."
+    },
+    {
+      "n": 11,
+      "scene": "A tall stiff queen in a red gown stands on the path",
+      "summary": "Alice meets the Red Queen, who is taller and sterner than she expected."
+    },
+    {
+      "n": 12,
+      "scene": "A green country divided into squares by brooks and hedges",
+      "summary": "Alice sees that the country is a giant chessboard and learns she can become a Queen."
+    },
+    {
+      "n": 13,
+      "scene": "The Red Queen pulls Alice by the hand as they race past the trees",
+      "summary": "They run faster and faster, but the trees stay exactly where they are."
+    },
+    {
+      "n": 14,
+      "scene": "The Red Queen gives Alice a dry biscuit under a tree",
+      "summary": "The Queen gives Alice a biscuit, measures the ground, and then vanishes."
+    },
+    {
+      "n": 15,
+      "scene": "A guard peers at Alice through a telescope in a crowded railway carriage",
+      "summary": "Alice finds herself on a train where the guard and passengers shout at her."
+    },
+    {
+      "n": 16,
+      "scene": "A huge gnat chats to Alice from a branch above her head",
+      "summary": "The train leaps a brook, and a friendly gnat tells her about the insects there."
+    },
+    {
+      "n": 17,
+      "scene": "Alice stands at the edge of a cool, dark wood",
+      "summary": "Alice enters a wood where things have no names and forgets her own."
+    },
+    {
+      "n": 18,
+      "scene": "Alice walks through the trees with her arm around a young fawn",
+      "summary": "Alice walks with a gentle fawn until it remembers it should fear her."
+    },
+    {
+      "n": 19,
+      "scene": "Two round little men stand under a tree with their arms around each other",
+      "summary": "Alice meets the twins Tweedledum and Tweedledee, and they dance together."
+    },
+    {
+      "n": 20,
+      "scene": "A walrus and a carpenter walk along a beach toward a bed of oysters",
+      "summary": "Tweedledee recites a poem about a Walrus and a Carpenter who invite young oysters for a walk."
+    },
+    {
+      "n": 21,
+      "scene": "The Walrus and the Carpenter sit on the sand beside empty oyster shells",
+      "summary": "The Walrus and the Carpenter eat the oysters, and Alice hears a loud puffing noise."
+    },
+    {
+      "n": 22,
+      "scene": "The Red King sleeps under a tree while the twins point at Alice",
+      "summary": "The noise is the sleeping Red King, and the twins say Alice is only part of his dream."
+    },
+    {
+      "n": 23,
+      "scene": "The twins wear saucepans and cushions as a huge black crow swoops down",
+      "summary": "The twins prepare to fight over a rattle, but a huge crow sends them running."
+    },
+    {
+      "n": 24,
+      "scene": "The White Queen runs with her shawl flying while Alice pins it",
+      "summary": "Alice helps the untidy White Queen pin her shawl."
+    },
+    {
+      "n": 25,
+      "scene": "The White Queen holds up a pot of jam while Alice shakes her head",
+      "summary": "The Queen offers jam every other day, but never today, and believes six impossible things."
+    },
+    {
+      "n": 26,
+      "scene": "An old sheep knits in a dim shop with crowded shelves",
+      "summary": "The Queen turns into a knitting Sheep in a shop whose shelves always empty when Alice looks."
+    },
+    {
+      "n": 27,
+      "scene": "Alice rows a little boat down a stream with long knitting needles",
+      "summary": "The Sheep gives Alice knitting needles to row with, and the rushes she picks melt away."
+    },
+    {
+      "n": 28,
+      "scene": "An egg grows larger and larger and grows a face",
+      "summary": "Alice buys an egg that grows bigger and turns into Humpty Dumpty."
+    },
+    {
+      "n": 29,
+      "scene": "Humpty Dumpty sits on a narrow wall with his arms folded",
+      "summary": "Humpty Dumpty speaks rudely to Alice and says that a name must mean something."
+    },
+    {
+      "n": 30,
+      "scene": "Humpty Dumpty explains words while Alice looks up at him",
+      "summary": "Humpty Dumpty explains the strange words of the Jabberwocky poem."
+    },
+    {
+      "n": 31,
+      "scene": "Humpty Dumpty lifts one finger for Alice to shake",
+      "summary": "Humpty says his words mean just what he chooses, then says a stiff goodbye."
+    },
+    {
+      "n": 32,
+      "scene": "Soldiers and horses rush through the trees toward a fallen egg",
+      "summary": "Humpty Dumpty falls with a great crash, and the King's soldiers rush past."
+    },
+    {
+      "n": 33,
+      "scene": "The White King hurries along with a notebook as two messengers run",
+      "summary": "The White King arrives and talks about his two messengers, Haigha and Hatta."
+    },
+    {
+      "n": 34,
+      "scene": "A lion and a unicorn fight in a cloud of dust",
+      "summary": "Alice and the King watch the Lion and the Unicorn fight for the crown."
+    },
+    {
+      "n": 35,
+      "scene": "The Unicorn looks at Alice while she cuts a plum cake",
+      "summary": "The Unicorn thinks Alice a monster, and the cake joins itself back together."
+    },
+    {
+      "n": 36,
+      "scene": "A Red Knight and a White Knight fight on horseback near Alice",
+      "summary": "A Red Knight tries to capture Alice, but a White Knight comes to her rescue."
+    },
+    {
+      "n": 37,
+      "scene": "The White Knight tumbles from his horse, with a mousetrap on his saddle",
+      "summary": "The White Knight falls off his horse again and again and shows his strange inventions."
+    },
+    {
+      "n": 38,
+      "scene": "The White Knight sings beside a brook as Alice waves goodbye",
+      "summary": "The White Knight sings a sad, slow song and says goodbye at the last brook."
+    },
+    {
+      "n": 39,
+      "scene": "Alice finds a golden crown on her head on the eighth square",
+      "summary": "Alice jumps over the last brook onto the eighth square and finds a crown on her head."
+    },
+    {
+      "n": 40,
+      "scene": "The Red Queen and the White Queen sit beside Alice, looking stern",
+      "summary": "The two Queens sit on either side of Alice and tell her how a Queen must behave."
+    },
+    {
+      "n": 41,
+      "scene": "Two sleeping queens rest their heads on Alice's shoulders",
+      "summary": "The Queens test Alice with strange sums and then fall asleep on her shoulders."
+    },
+    {
+      "n": 42,
+      "scene": "A large arched door with Queen Alice painted above it and an old frog",
+      "summary": "Alice finds a door marked Queen Alice and meets a rude frog."
+    },
+    {
+      "n": 43,
+      "scene": "A long table in a great hall with strange guests, animals and flowers",
+      "summary": "The door opens, and Alice enters a great hall where her dinner party waits."
+    },
+    {
+      "n": 44,
+      "scene": "A pudding speaks to Alice while she holds a knife over it",
+      "summary": "A leg of mutton is introduced to Alice, and then the pudding speaks to her."
+    },
+    {
+      "n": 45,
+      "scene": "Candles shoot up to the ceiling and bottles flap about like birds",
+      "summary": "The dinner party becomes wild as candles grow up and bottles fly."
+    },
+    {
+      "n": 46,
+      "scene": "Alice shakes the Red Queen, who shrinks as small as a doll",
+      "summary": "Alice pulls the tablecloth, seizes the Red Queen and shakes her until she shrinks into a kitten."
+    },
+    {
+      "n": 47,
+      "scene": "Alice wakes in the armchair with the black kitten in her lap",
+      "summary": "Alice wakes in her armchair with Kitty purring in her lap."
+    },
+    {
+      "n": 48,
+      "scene": "Alice scolds the black kitten while the white kitten is washed",
+      "summary": "Alice tells Kitty that she was the Red Queen and Snowdrop the White Queen."
+    },
+    {
+      "n": 49,
+      "scene": "Alice sits thoughtfully with the black kitten, thinking of the sleeping King",
+      "summary": "Alice wonders whether she dreamed the Red King, or the Red King dreamed her."
+    },
+    {
+      "n": 50,
+      "scene": "Alice asks the kitten a question by the fire as night falls",
+      "summary": "Alice asks Kitty who dreamed it, and Kitty only purrs."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Alice watched Kitty play with a ball of red wool.",
+      "Alice said to Kitty, “Let's pretend the mirror is a door.”",
+      "Alice climbed up, and the glass melted away like silver mist.",
+      "Alice saw a warm fire and a clock with a smiling face.",
+      "Alice found a book, but the words were all backwards.",
+      "In the poem, a brave boy killed a terrible monster.",
+      "Alice saw the White King and Queen walking in the ashes.",
+      "Alice went into the garden, but the path kept turning back.",
+      "In the garden, a tall flower began to talk to Alice.",
+      "The flowers said that the Red Queen was coming.",
+      "Alice met the very tall Red Queen in the garden.",
+      "The Red Queen said the whole country was a big game.",
+      "The two ran fast, but the trees did not move.",
+      "The Queen gave Alice a dry biscuit and then went away.",
+      "Alice got on a train, and the guard looked at her.",
+      "The train jumped over a brook, and Alice held on tight.",
+      "Alice came to a dark wood where nothing had a name.",
+      "A little fawn came near, and the two walked together.",
+      "Alice met two round little men called Tweedledum and Tweedledee.",
+      "The brothers told a story about a Walrus and a Carpenter.",
+      "At the end, the Walrus and Carpenter ate all the oysters.",
+      "The brothers said Alice was only part of the King's dream.",
+      "The two brothers fought about a rattle until a crow came.",
+      "The White Queen was in a mess, and Alice helped her.",
+      "The Queen said there is jam tomorrow but never jam today.",
+      "The Queen became a sheep, and she was knitting in a shop.",
+      "Alice sat in a boat and rowed with the Sheep.",
+      "Alice bought an egg, but it grew bigger and bigger.",
+      "Humpty Dumpty sat on a high wall and talked with Alice.",
+      "Humpty told Alice what the strange words in the poem meant.",
+      "Humpty said that his words meant exactly what he chose.",
+      "Humpty fell off the wall with a great crash.",
+      "The White King came, and he sent for two messengers.",
+      "The Lion and the Unicorn were fighting for the crown.",
+      "The Unicorn looked at Alice and thought she was a monster.",
+      "A Red Knight tried to catch Alice, but a White Knight saved her.",
+      "The White Knight fell off his horse many times.",
+      "The knight sang a sad song and then said goodbye.",
+      "Alice jumped over the last brook and became a Queen.",
+      "Two queens sat beside Alice and asked her hard questions.",
+      "They asked Alice to do sums, but she could not.",
+      "Alice found a door with her name on it and knocked.",
+      "Alice went into the hall and sat down for dinner.",
+      "Alice was introduced to the meat, so she could not eat it.",
+      "The room went wild, and the candles grew to the ceiling.",
+      "Alice seized the Red Queen and shook her hard.",
+      "Alice woke up in the armchair with Kitty on her knee.",
+      "Alice told Kitty that she had been the Red Queen.",
+      "Alice wondered if she had dreamed it, or the King.",
+      "Alice asked Kitty who had dreamed it all."
+    ],
+    "B1B2": [
+      "It was a snowy afternoon, and Alice sat in a big armchair with her old cat Dinah and the kitten Kitty. Kitty had jumped on a ball of wool and rolled it until it was a terrible tangle.",
+      "Alice held Kitty up to the tall mirror over the fireplace, and she wondered what lay on the other side. She asked Kitty to pretend that the glass had turned soft like mist.",
+      "Before she knew it, Alice was standing on the mantelpiece, and the glass was melting away like bright silver mist. In another moment she had stepped through it and jumped lightly down into the looking-glass room.",
+      "The looking-glass room looked just like her own, but everything in it was the other way round. The clock on the mantelpiece had a smiling face, and the fire burned as brightly as the real one.",
+      "On a table lay a book, and the writing in it looked very strange. Then Alice held it up to the mirror, and the words came out the right way round at last.",
+      "The poem told how a brave young man took his sword and killed a terrible monster called the Jabberwock. Alice thought it filled her head with ideas, but she could not tell exactly what they were.",
+      "Alice saw that some chess pieces were walking about in the ashes of the fire. She lifted the White King and Queen onto the table, and they were so frightened that they could not speak.",
+      "Alice ran out of the house to see the garden, and she saw a little hill nearby. Every path she tried turned sharply and brought her straight back to the front door.",
+      "Alice came to a beautiful garden full of flowers, and one of them began to speak to her. It was a Tiger-lily, and she said that the flowers could talk whenever there was anybody worth talking to.",
+      "The flowers talked about the Red Queen, who was coming up the path. The daisies all shouted together, so Alice told them to be quiet or she would pick them.",
+      "The Red Queen was much taller than Alice had expected, and she looked very proud and stiff. She told Alice to curtsy while she thought what to say, and to speak only when spoken to.",
+      "Alice looked around and saw that little brooks and hedges cut the country into squares, like a huge chessboard. The Red Queen said that Alice could be a Queen herself if she crossed the board to the eighth square.",
+      "The Red Queen took Alice's hand, and they began to run faster and faster. Strangely, the trees and the sky around them never moved at all.",
+      "The Queen gave Alice a dry biscuit and then measured the ground with a ribbon. Then she told Alice to walk on, and in a moment she was gone.",
+      "Suddenly Alice was on a train, and the guard looked at her through a telescope and then a microscope. He said she was going the wrong way, and all the passengers shouted at her at once.",
+      "The train leapt over a brook, and Alice found herself sitting under a tree beside a huge gnat. The gnat fanned itself and began to tell her about the strange insects of the looking-glass world.",
+      "Alice walked into a cool, dark wood where nothing had a name at all. She could not even remember her own name, and that frightened her very much.",
+      "In the wood Alice met a gentle fawn, and they walked on together with her arm around its soft neck. At the edge of the wood the fawn remembered that it was a fawn and ran away in fear.",
+      "Alice found two round little men standing under a tree with their arms around each other. They were called Tweedledum and Tweedledee, and soon they were all dancing hand in hand while music played in the branches.",
+      "Tweedledee told Alice a long poem about a Walrus and a Carpenter who walked along a beach. They invited some young oysters to come for a walk, and the oysters happily hurried after them.",
+      "After a long walk, the Walrus and the Carpenter sat down and ate every single oyster. Alice felt sorry for the oysters, but just then she heard a loud puffing noise in the wood, like a steam engine.",
+      "The noise came from the Red King, who lay asleep under a tree and snored loudly. The brothers said Alice was only a thing in his dream, and would go out like a candle if he woke.",
+      "The brothers decided to fight over a broken rattle, and they wrapped themselves in cushions and pans. Then a huge black crow flew down, and they were so frightened that they ran away.",
+      "Alice met the White Queen, who ran past her wildly with her shawl flying out behind her. Alice kindly pinned it on, and the Queen said it had been in a bad temper all day.",
+      "The White Queen offered Alice a job, with jam every other day as pay. But the jam was always for tomorrow or yesterday, never today, and the Queen believed six impossible things before breakfast.",
+      "The White Queen turned into an old sheep who sat knitting in a small, dark shop. Whenever Alice looked hard at a shelf, it seemed to be empty, although the ones around it were full.",
+      "The Sheep gave Alice two knitting needles and told her to row the boat down the stream. Alice picked some lovely scented rushes, but they melted away almost as soon as she touched them.",
+      "Alice bought an egg from the Sheep, though she did not really know why she wanted it. As she came near, the egg grew bigger and bigger, and she saw that it had eyes, a nose and a mouth.",
+      "Humpty Dumpty sat on a narrow wall and spoke rudely to Alice, who stood below. He said that a name ought to mean something, and his own meant the very shape he was.",
+      "Alice asked him to explain the strange poem, and he said he could explain every poem ever written. He told her that slithy meant smooth and slimy, and that brillig meant four o'clock in the afternoon.",
+      "Humpty Dumpty said that when he used a word, it meant just what he chose it to mean. The only question, he told Alice, was who was to be master, and that was all.",
+      "As Alice walked away from him she heard a great crash, and the whole wood shook. Soldiers and horses rushed past her, all hurrying to help the egg, but there was nothing they could do.",
+      "The White King came by in a great hurry and told Alice that he had sent for his two messengers. They were called Haigha and Hatta, and they ran very fast, but they did everything in a strange way.",
+      "Alice followed the King and saw the Lion and the Unicorn fighting in the middle of a crowd. The King said that they were fighting for his crown, and that no one could say who would win.",
+      "The Unicorn looked at Alice and said he thought she was a monster, and she said the same about him. They agreed to believe in each other, and then Alice tried to cut up a plum cake for them.",
+      "A Red Knight rode up and shouted that Alice was his prisoner. Then a White Knight came galloping in to save her, and the two knights fought until the Red Knight rode away.",
+      "The White Knight was always falling off his horse, but he was very proud of his inventions. He carried a mousetrap and a beehive on his saddle, just in case mice or bees should come.",
+      "Before they parted at the brook, the White Knight sang Alice a long and rather strange song. She never forgot the kind, gentle face of her friend as he rode away into the trees.",
+      "Alice jumped over the last little brook and landed on the soft grass of the eighth square. To her delight, she felt something heavy on her head, and it was a golden crown.",
+      "The Red Queen and the White Queen sat down on either side of Alice and looked at her sternly. They said that a Queen must be able to answer every question, and Alice felt very nervous.",
+      "The Queens asked Alice to do sums, but every sum was strange and silly. She could not answer one of them, and soon the two Queens fell fast asleep on her shoulders.",
+      "Alice found a large arched door with the words Queen Alice written above it. She knocked, but a frog on the step said that she was on the wrong side of the door.",
+      "At last the door opened, and Alice walked into a great hall where a party was waiting for her. Her guests were an odd crowd of animals and flowers, and the Red Queen told her to sit down at once.",
+      "The Red Queen introduced Alice to the leg of mutton, and after that she felt she could not cut it. When she tried to cut the pudding, it complained loudly that she was very rude.",
+      "The Queens told Alice to make a speech, and all the guests began to drink at once. Suddenly the candles grew up to the ceiling like reeds, and the bottles flew about like birds.",
+      "Alice could bear it no longer, so she seized the Red Queen and shook her with all her strength. The Queen began to grow smaller and rounder, until at last she was only a little black kitten.",
+      "Alice woke and found that she was sitting in the same armchair, with a kitten in her lap. It was the black kitten, Kitty, and she was purring as if nothing had happened.",
+      "Alice told Kitty that she had been the Red Queen in her dream, and that she ought to be ashamed. She added that the White Queen had been the white kitten Snowdrop, who was being washed by Dinah.",
+      "Alice began to wonder who had really dreamed it all, herself or the Red King. If it was his dream, she thought, then she was only a part of it, as the twins had said.",
+      "Alice asked Kitty, who always seemed so wise, to say which one of them had dreamed it. Kitty only purred, and the fire sank low while the snowy evening settled over the room."
+    ],
+    "C1C2": [
+      "Outside, the snow lay thick against the window of the old house, and Alice, curled in a great armchair beside the fire, had been watching her black kitten with a mixture of amusement and reproach. Kitty had seized a ball of red wool and rolled it about the hearthrug until it was wound into a hopeless tangle. Old Dinah, meanwhile, was busy washing the white kitten, Snowdrop, and seemed to take no interest in the mischief whatever.",
+      "Soon bored of scolding, Alice lifted Kitty before the great mirror above the mantelpiece and began to wonder what the room behind the glass might be like. She said that it was only a pretend house, with a fire that smoked in exactly the same way, and she begged Kitty to imagine that the glass had turned as soft as gauze. Alice was a girl of curious mind, and she could never resist a puzzle, least of all one that lay so close to her own fireside.",
+      "Without stopping to think, Alice scrambled onto the mantelpiece, and at that very moment the glass began to dissolve, shining and melting away like a bright silver mist. She pushed her way through the vanishing surface, felt nothing at all, and the next instant dropped lightly to the floor of the room on the other side. Her first feeling was delight, and her second was a quiet hope that nobody at home would ever hear about it.",
+      "The looking-glass room was very like the one she had left, except that everything in it stood the wrong way about, and the fire burned just as warmly as the fire at home. On the mantelpiece the clock wore the grinning face of a little old man, who seemed to look at Alice as though he knew exactly where she had come from. She noticed also that the pictures on the wall seemed to move, and that the fire, though it gave no smoke, glowed with a pleasant light.",
+      "On the table beside the fire lay a book, and Alice opened it eagerly, only to find the print reversed and quite impossible to read. Then it occurred to her that the room itself was a looking-glass, and that if she held the page up to a mirror the letters would turn themselves the right way round. The first poem she found, which was called Jabberwocky, was full of strange words that she could not understand.",
+      "Although its words made little sense, the poem told a clear story of a young hero who took his vorpal sword in hand, sought out a fearsome monster, and cut off its head. Alice read it twice, then admitted that it seemed to fill her head with ideas, though she did not quite know what they were. At least, she decided, somebody had killed something, and that much was perfectly plain to her.",
+      "Down in the hearth, among the ashes, Alice noticed with astonishment that a set of chessmen were walking about arm in arm, quite as if they were people. She picked up the White Queen and her husband, the King, and set them gently on the table, but the King was so alarmed to find himself flying through the air that he turned quite pale and could not speak. The Queen, for her part, screamed with terror, and Alice, who had meant only to be kind, hastily begged their pardon.",
+      "Hoping for a better view of this strange country, Alice slipped out of the house and set off along the garden path toward a little hill that rose beyond the hedge. Each time she thought she was making straight for it, however, the path took a sudden twist, and she found herself walking back to the front door. After several attempts she grew impatient and declared that she would go the other way, which, to her surprise, was exactly what was needed.",
+      "At last Alice reached a splendid flower-bed, where she was astonished to hear a voice, and she saw that a Tiger-lily was swaying gently as though in a breeze. The Tiger-lily explained, with a rather superior air, that the flowers could talk quite as well as Alice could, and a good deal louder. All the same, she added, they only spoke when there was somebody worth speaking to.",
+      "The Rose, who was the most sensible of the flowers, told Alice that the Red Queen was a person of her own kind, only rather redder and with shorter petals. At this the daisies began to shout so loudly that Alice could not hear herself think, and she threatened to pick every one of them unless they were quiet. A great hush fell at once, for the daisies knew that she meant it, and Alice walked on to look for the Queen herself.",
+      "Alice found the Red Queen at the head of the path, and was surprised to see that she was a good deal taller than she had expected, and very much more stiff and proud. The Queen demanded to know where Alice had come from and where she was going, and she insisted that the girl should look up, speak nicely and never twiddle her fingers. Alice, who had been brought up to be polite, curtsied at once, and decided that it was safest to obey.",
+      "Looking about her, Alice suddenly saw that the whole country was divided into squares by a great many little brooks, running in straight lines, with hedges between them, and that it was one enormous chessboard. Some of the pieces were moving about, and she thought it a splendid game, in which she would gladly have taken part. The Red Queen kindly told her that she might join as a pawn, and that if she reached the eighth square she would become a Queen.",
+      "Suddenly the Red Queen seized her hand and began to run, and Alice, though she was quite out of breath, found that she could not stop. What was most curious was that the trees and everything else around them never changed their places at all, however fast they went. When they finally stopped, the Queen explained that you had to run as fast as you could just to stay in the same place, and twice as fast to get anywhere else.",
+      "The Queen, who thought that the girl must be thirsty after so much running, offered her a dry biscuit, and Alice took it politely, though it nearly choked her. Then the Queen measured out the ground with a ribbon, and stuck little pegs in it, and explained to Alice how the journey across the board would go. When she had finished, she wished her goodbye and vanished so suddenly that Alice could not tell where she had gone.",
+      "Before she had time to wonder, Alice found herself in a railway carriage, and the guard put his head in and examined her with a telescope, then a microscope, and finally an opera-glass. He declared that she was travelling in the wrong direction and had no ticket, and the passengers all shouted together that she must buy one, because the land there was very costly. Alice was too bewildered to answer, but she reflected that, in a country with such odd rules, the safest course was to keep quiet and wait.",
+      "Without any warning the train gave a great leap over a little brook, and Alice, who was frightened, caught hold of the nearest thing, which turned out to be a goat's beard. Then she found herself sitting quietly under a tree, while a gnat the size of a chicken fanned itself on a branch overhead, chatting to her pleasantly about its friends. It told her of the rocking-horse-fly, which was made of wood, and the snap-dragon-fly, which was made of plum-pudding and lived on mince-pies.",
+      "Presently Alice came to a cool, dark wood where, the gnat had told her, things had no names, and she wondered what would become of her own. She tried to remember what she was called, and then she wondered what she had been doing, but both were quite gone from her mind. Still, she walked on bravely, telling herself that it was better to be lost in a wood than to be nobody at all.",
+      "Beside a tree she met a gentle fawn, which looked at her with large, mild eyes and did not seem in the least afraid, so Alice put her arm about its soft neck and they walked on together. When they came out into the open, the fawn suddenly remembered that it was a fawn and that Alice was a human child, and it bounded away in terror. Alice stood looking after it, with tears in her eyes, but at least she remembered her own name once more.",
+      "Presently Alice came upon two fat little men standing under a tree with their arms about each other's necks, and she knew at once, from the names embroidered on their collars, that they were Tweedledum and Tweedledee. They greeted her politely, and when she tried to say goodbye they proposed a dance, which she joined without a thought, while strange music came from the very branches overhead. Alice laughed, but she was astonished by it all, for the dance seemed quite natural while it lasted.",
+      "To amuse her, Tweedledee recited a long poem about a Walrus and a Carpenter who were walking along the beach, weeping that there was so much sand in the world. They came upon a bed of oysters, and the Walrus, in his friendliest voice, invited the youngest of them to walk with him and enjoy a pleasant talk. Four eager little oysters, with their shoes brushed and their faces washed, hurried up the beach at once, and a great many more followed them.",
+      "When the oysters were tired and the Walrus had talked of many unlikely things, he and the Carpenter calmly sat down and ate every one of them, leaving the beach empty and quiet. Alice, who was sorry for the oysters, could not decide which of the two was the more wicked, and was about to say so when she heard a loud noise from the wood. It sounded like a great steam-engine puffing in the distance, and she feared that it was some wild beast.",
+      "The noise, they told her, was the Red King, who lay asleep in a heap under a tree and snored very loudly, and the brothers declared that Alice was only a sort of thing in his dream. If he were to wake, they said, she would go out like a candle, for she was not real at all. Alice insisted that she was real, and burst into tears, though Tweedledum remarked scornfully that tears would not make her any more real.",
+      "Tweedledum announced that he and his brother were going to fight about a rattle, which Tweedledee had spoiled, and they hurried off to dress themselves in cushions, saucepans and coal-scuttles for the battle. Just as they were ready, a monstrous crow came sweeping down as black as a tar-barrel, and the two brave heroes dropped their weapons and ran for their lives. Alice laughed until her sides ached, then went on her way through the wood.",
+      "Soon the White Queen came flying toward her, with her shawl streaming out behind her and her hair in a dreadful tangle, and Alice, being kind, helped her pin the shawl on properly. The Queen thanked her in a dazed manner and said that she had been trying to dress herself for two hours, because her maid had gone and everything was going wrong. Alice thought that she had never seen anyone so untidy, and she felt very sorry for her.",
+      "The Queen, who lived backwards and therefore remembered what had not yet happened, offered Alice a position as her maid, with twopence a week and jam every other day. Alice protested that she did not want any jam today, and the Queen replied, with perfect solemnity, that she could not have it today, because the rule was jam yesterday and jam tomorrow, but never jam today. Then, when Alice complained that one cannot believe impossible things, the Queen said that she had sometimes believed as many as six before breakfast.",
+      "In the blink of an eye the White Queen became an old Sheep, who sat in an armchair knitting, and Alice found herself in a dim little shop full of curious things. Whenever she looked straight at a shelf to see what lay on it, that shelf seemed to be quite empty, although the ones around it were crowded to the ceiling. She chased one particular shining object from shelf to shelf, always disappearing, until it floated out through the ceiling altogether.",
+      "The Sheep handed Alice a pair of knitting needles, told her to row, and, as the shop dissolved around her, she found herself sitting in a little boat gliding down a stream. She pulled hard on the needles, which behaved like oars, but they kept getting caught in the water, and once an oar caught a crab so firmly that it knocked her backward. Still, when she reached out to pick the sweetest-scented rushes she could see, they melted away in her hands almost the moment she took them.",
+      "When the boat stopped, Alice was back in the shop, and she bought a single egg from the Sheep, though she could not have explained why she wanted it. The farther she walked, the larger the egg grew, and the more human it appeared, until she saw that it had eyes, a nose and a mouth. At last she stood before Humpty Dumpty himself, who was perched on a high wall with his legs crossed.",
+      "Humpty Dumpty, who was perched on a narrow wall with his arms folded, spoke to her very rudely and without so much as a glance in her direction. When Alice told him her name, he remarked that it was a stupid one, for a name should mean something, whereas his own meant the exact shape he was. He also observed that if she had asked his advice about her age, he would have told her to leave off at seven.",
+      "When Alice asked him to explain the poem about the Jabberwock, Humpty Dumpty replied, with great confidence, that he could explain all the poems that had ever been invented, and a good many that had not. He told her that slithy meant lithe and slimy, so that the word was like a portmanteau, with two meanings packed into one, and that brillig meant four o'clock in the afternoon, when you begin broiling things for dinner. Alice was amazed, for the explanations made perfect sense, and she wondered how anyone could have guessed them.",
+      "Alice objected that a word cannot be made to mean so many different things, but Humpty Dumpty answered that the only question was who was to be master, and in his case it was himself. He added that some words, particularly the verbs, were proud, and that he could do anything with them, while adjectives were easier to manage. Then, after a brief and stiff goodbye, in which he offered her only a finger to shake, he dismissed Alice, who could not help thinking that she had never met such an unsatisfactory person.",
+      "She had scarcely taken a few steps when a tremendous crash shook the whole forest, and she knew at once, without looking back, that Humpty Dumpty must have fallen off his wall. In a moment a crowd of soldiers came rushing through the trees, some on foot and some on horseback, all of them hurrying to the place where the great egg had fallen. Alice stood aside to let them pass, wondering whether all the King's horses and all the King's men would really be able to put him together again.",
+      "Close behind the soldiers came the White King, who was hurrying along with a great pocket-book in his hand, and he told Alice that he had sent out both his messengers, since the town was in some difficulty. One of these, called Haigha, soon came puffing up, and the other, Hatta, who was tired and hungry, arrived a little later. The King was delighted to learn that the Lion and the Unicorn were fighting for his crown, and he told Alice that she must come and watch.",
+      "Alice followed the King through the crowd, until she saw the Lion and the Unicorn at the heart of a noisy battle, striking one another with such fury that the dust blew up in clouds. The King explained, with a little shiver, that the two animals were fighting for his crown, and that they had been doing so all around the town. Hatta and Haigha, standing nearby, were far too busy eating and drinking to notice that the fighters were hurting each other badly.",
+      "The Unicorn looked at Alice with a lazy interest and declared that he had always thought children were fabulous monsters, whereupon Alice answered that she had been taught the same thing about unicorns. They agreed that if she would believe in him, he would believe in her, and then the Lion arrived, tired and hot, and ordered Alice to hand round the plum cake. Although she cut and cut, the cake kept joining itself together again, and in the middle of this puzzle a loud drumming began, so alarming that she covered her ears and ran.",
+      "Without warning a Red Knight came galloping out of the wood, shouting that Alice was his prisoner, but before he could carry her away a White Knight arrived at the same speed and declared that she was his. The two knights stared at each other for a moment, then fell to a long and clumsy fight in which each of them tumbled off his horse several times and got up again with great dignity. In the end they shook hands, and the Red Knight galloped away, so that Alice was left to thank her rescuer.",
+      "As they walked on together, the White Knight talked proudly of his own inventions, and he fell off his horse so often, on one side and then on the other, that Alice began to count his tumbles. On his saddle he carried a mousetrap, in case any mice should come, and an empty beehive, in case any bees should settle there. He also confessed that he had once invented a pudding in the middle of a dinner, though it was never actually cooked.",
+      "At the top of the hill, where the last brook lay, the White Knight stopped and sang a long, slow song, which he said was meant to comfort her. Alice listened with tears in her eyes, partly from the sadness of the tune and partly because she knew he was saying goodbye. As he rode away into the wood, nodding and smiling, she waved her handkerchief and thought she would remember that kind, gentle face for the rest of her life.",
+      "With a last bound, Alice cleared the final brook and landed upon the soft turf of the eighth square, where she threw herself down to rest, delighted to have crossed the whole country. Then she noticed that something heavy was pressing on her head, and she put up her hands to find, to her astonishment, a golden crown. It seemed that she had become a Queen, though how it had happened, and why nobody had warned her, was more than she could say.",
+      "Before she could look about her, the Red Queen and the White Queen had come up and seated themselves one on either side of her, as solemn and severe as two schoolmistresses. They told her that a Queen must never speak until she is spoken to, and that she must always have an answer ready, whatever the question might be. Alice, who had just learned that she was a Queen, felt it was a great deal to remember, and wondered if she could possibly manage.",
+      "To test her education, the Queens asked her to add one and one and one up to ten, and then to take a number from a smaller one. Though she did her best, none of the questions had a sensible answer, and when she failed they offered to teach her, but they soon grew sleepy and dropped their heads onto her shoulders, snoring gently. Alice was too astonished to move, for she had never before had to look after two sleeping queens at once.",
+      "Presently the Queens faded away, and Alice found herself in front of a large arched doorway with the words Queen Alice painted above it, and two bells, one marked visitors and the other servants. She knocked, then rang, but a very old frog in a tall hat shuffled out and began to ask her questions that made no sense at all. In the end he told her that there was no use in knocking, since she was on the wrong side of the door, and the door was quite deaf besides.",
+      "When the door finally swung open, Alice entered a great hall, where a long table was set and a crowd of strange guests, animals, birds and even flowers, sat waiting for her to arrive. The Red Queen at once told her to sit at the head of the table, while the White Queen took the opposite end, and the two of them stared at her as if she were the dinner. Alice, who had never before presided at a banquet of this kind, hoped that the food would be better than the company.",
+      "The Red Queen, who insisted that good manners must be observed, introduced Alice to a leg of mutton, saying that it was a pity to eat anything one had been introduced to, and the joint was whisked away. Then the pudding was brought in, and Alice was about to cut it when it spoke in a deep, fat voice, asking how she would like it if somebody cut a slice out of her. Alice was so astonished that she could say nothing, and sat looking at the pudding as if it were a ghost.",
+      "The Queens asked Alice to propose a toast, and when she rose with her glass, every guest drank at once, some pouring wine over their heads, and others sliding under the table. Then the candles shot upward like tall reeds, the bottles took plates for wings and forks for legs, and the whole table seemed to be a great flutter and a mad scramble. Above the din Alice heard the White Queen's laugh and, looking beside her, saw only the Queen's face grinning from a soup tureen.",
+      "Alice could bear it no longer, so she sprang up, seized the tablecloth, and gave it a tremendous pull, so that plates, guests and candles all came crashing down together in a heap. Then she turned fiercely upon the Red Queen, whom she blamed for the whole confusion, and caught hold of her and shook her backwards and forwards with all her might. The Queen made no resistance, but grew shorter and fatter and softer, until she was no larger than a doll, and then, to Alice's surprise, a very small kitten.",
+      "Then Alice woke, and found herself sitting in the very armchair where she had begun, with the fire burning low and a small black kitten lying in her lap, purring gently. It was Kitty, and she seemed quite unaware that a few minutes before she had been shaken backward and forward, as a Queen, by a very cross young lady. Alice, rubbing her eyes, gave a long yawn, as if she had come back from a very long journey.",
+      "Alice told Kitty gravely that she had been the Red Queen, and that it was very naughty of her to have been so cross and stiff in the dream. She added that Snowdrop, the white kitten who was just then being washed by Dinah, had been the White Queen, and that she hoped the two of them would behave better in the future. Then she laughed, for it seemed to her that the whole adventure had been a very long way round to the same armchair.",
+      "Then a strange thought came into her head, and she wondered whether the dream had really been her own or whether it belonged to the Red King. If it was the King's dream, she reflected, she was a mere figment, like the Walrus and the Carpenter and the rest, yet if it was her own, then the King was only a thing she had made up. It was a puzzle as large as the whole country, and Alice could not solve it alone.",
+      "Alice put the question gravely, and Kitty, who was very clever, answered in the usual way: she purred, and nobody could tell whether she meant yes or no. The fire burned low, the snow settled on the windowsill, and the old clock on the mantelpiece struck the hour as if nothing in the world were uncertain. Alice sat for a long while, watching the glowing coals, and wondered which of the two of them had dreamed it all."
+    ]
+  }
+}
