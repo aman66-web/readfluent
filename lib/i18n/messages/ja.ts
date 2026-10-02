@@ -519,6 +519,14 @@ const ja: Catalog = {
   "length.100.time": "約30分",
   "length.200.name": "長め",
   "length.200.time": "約1時間",
+  "level.A1A2.lines": "1ページに1文",
+  "level.B1B2.lines": "1ページに2文",
+  "level.C1C2.lines": "1ページに3文",
+  "book.pagesTitle": "ページ数",
+  "book.soon": "近日公開",
+  "book.langNotYet": "この本の{language}版は近日公開です。今は英語で開きます。",
+  "book.langReady": "{language}で読めます",
+  "book.moreLengthsSoon": "100ページ版と200ページ版は近日公開です。",
 
   /* ── the library and a book ── */
   "library.categories": "カテゴリー",

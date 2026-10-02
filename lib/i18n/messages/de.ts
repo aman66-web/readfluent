@@ -521,6 +521,14 @@ const de: Catalog = {
   "length.100.time": "etwa 30 Minuten",
   "length.200.name": "Lang",
   "length.200.time": "etwa eine Stunde",
+  "level.A1A2.lines": "Ein Satz pro Seite",
+  "level.B1B2.lines": "Zwei Sätze pro Seite",
+  "level.C1C2.lines": "Drei Sätze pro Seite",
+  "book.pagesTitle": "Wie viele Seiten",
+  "book.soon": "Bald",
+  "book.langNotYet": "Die Ausgabe dieses Buchs auf {language} kommt bald. Vorerst öffnet es sich auf Englisch.",
+  "book.langReady": "Zum Lesen auf {language}",
+  "book.moreLengthsSoon": "Die Ausgaben mit 100 und 200 Seiten kommen bald.",
 
   /* ── the library and a book ── */
   "library.categories": "Kategorien",

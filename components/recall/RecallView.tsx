@@ -83,7 +83,7 @@ export function RecallView() {
           <h3 className="text-[18px] font-bold leading-tight tracking-[-0.01em]">{t("recall.talkNow", { name: "Dewey" })}</h3>
           <p className="mt-1 text-[13.5px] leading-snug text-foreground/70">{t("recall.talkDesc2", { name: "Dewey", language: language || "…" })}</p>
         </div>
-        <span aria-hidden className="grid size-10 shrink-0 place-items-center rounded-full bg-accent text-white"><svg viewBox="0 0 24 24" className="size-5 rtl:-scale-x-100" {...stroke} strokeWidth={2.4}><path d="M9 5l7 7-7 7" /></svg></span>
+        <span aria-hidden className="grid size-10 shrink-0 place-items-center rounded-full bg-accent-bright text-on-cyan"><svg viewBox="0 0 24 24" className="size-5 rtl:-scale-x-100" {...stroke} strokeWidth={2.4}><path d="M9 5l7 7-7 7" /></svg></span>
       </Link>
 
       <Link href="/library" className="mt-4 flex h-14 items-center justify-center btn-cyan rounded-full text-[16px] font-bold">

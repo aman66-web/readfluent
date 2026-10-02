@@ -529,6 +529,14 @@ export const EN = {
   "length.100.time": "about 30 minutes",
   "length.200.name": "Long",
   "length.200.time": "about an hour",
+  "level.A1A2.lines": "One sentence a page",
+  "level.B1B2.lines": "Two sentences a page",
+  "level.C1C2.lines": "Three sentences a page",
+  "book.pagesTitle": "How many pages",
+  "book.soon": "Soon",
+  "book.langNotYet": "The {language} edition of this book is coming soon. For now it opens in English.",
+  "book.langReady": "Reads in {language}",
+  "book.moreLengthsSoon": "The 100 and 200 page editions of this book are coming soon.",
 
   /* ── the library and a book ── */
   "library.categories": "Categories",

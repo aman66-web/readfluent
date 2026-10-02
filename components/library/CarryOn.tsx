@@ -33,7 +33,7 @@ export function CarryOn({ books }: { books: PreviewBook[] }) {
   if (!pick) return null;
   const { book, share, page, total } = pick;
   return (
-    <Link href={`/book/${book.slug}`} className="relative mt-5 flex items-center gap-4 overflow-hidden rounded-[26px] bg-accent p-4 text-white shadow-[0_18px_30px_-18px_rgba(8,47,60,.7)] active:opacity-90">
+    <Link href={`/book/${book.slug}`} className="relative mt-5 flex items-center gap-4 overflow-hidden rounded-[26px] bg-accent-bright p-4 text-on-cyan shadow-[0_18px_30px_-18px_rgba(8,47,60,.7)] active:opacity-90">
       <span aria-hidden className="pointer-events-none absolute -end-8 -top-10 size-40 rounded-full bg-accent-bright/30 blur-2xl" />
       <BookCover slug={book.slug} title={text(book.slug, "title", book.title)} author={coverAuthor(book)} hue={categoryById(book.category)?.hue ?? 30} className="relative w-[64px] shrink-0 drop-shadow-[0_8px_10px_rgba(0,0,0,.35)]" />
       <span className="relative min-w-0 flex-1">

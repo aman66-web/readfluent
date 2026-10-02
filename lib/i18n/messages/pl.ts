@@ -523,6 +523,14 @@ const pl: Catalog = {
   "length.100.time": "około 30 minut",
   "length.200.name": "Długa",
   "length.200.time": "około godziny",
+  "level.A1A2.lines": "Jedno zdanie na stronę",
+  "level.B1B2.lines": "Dwa zdania na stronę",
+  "level.C1C2.lines": "Trzy zdania na stronę",
+  "book.pagesTitle": "Ile stron",
+  "book.soon": "Wkrótce",
+  "book.langNotYet": "Wersja tej książki w języku: {language} pojawi się wkrótce. Na razie otwiera się po angielsku.",
+  "book.langReady": "Do czytania: {language}",
+  "book.moreLengthsSoon": "Wersje na 100 i 200 stron pojawią się wkrótce.",
 
   /* ── the library and a book ── */
   "library.categories": "Kategorie",

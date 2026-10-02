@@ -521,6 +521,14 @@ const ko: Catalog = {
   "length.100.time": "약 30분",
   "length.200.name": "길게",
   "length.200.time": "약 1시간",
+  "level.A1A2.lines": "한 페이지에 한 문장",
+  "level.B1B2.lines": "한 페이지에 두 문장",
+  "level.C1C2.lines": "한 페이지에 세 문장",
+  "book.pagesTitle": "페이지 수",
+  "book.soon": "곧 만나요",
+  "book.langNotYet": "이 책의 {language} 판이 곧 나와요. 지금은 영어로 열려요.",
+  "book.langReady": "{language}로 읽을 수 있어요",
+  "book.moreLengthsSoon": "100쪽과 200쪽 판은 곧 나와요.",
 
   /* ── the library and a book ── */
   "library.categories": "카테고리",

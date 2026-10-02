@@ -87,7 +87,7 @@ export function Paywall({ onClose }: { onClose: () => void }) {
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/45 fade-in" onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}>
       <Modal label={t("paywall.title")} onClose={onClose} className="sheet-up relative flex max-h-[100dvh] w-full max-w-[440px] flex-col overflow-y-auto rounded-t-[32px] bg-background pb-[calc(env(safe-area-inset-bottom)+1rem)]">
-        <div className="relative shrink-0 overflow-hidden rounded-t-[32px] bg-accent px-6 pb-7 pt-5 text-center text-white">
+        <div className="relative shrink-0 overflow-hidden rounded-t-[32px] bg-accent-bright px-6 pb-7 pt-5 text-center text-on-cyan">
           <button type="button" onClick={onClose} aria-label={t("ui.close")} className="absolute end-3 top-3 grid size-11 place-items-center rounded-full text-white/85 active:bg-white/15">
             <svg viewBox="0 0 24 24" className="size-6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" aria-hidden><path d="M6 6l12 12M18 6L6 18" /></svg>
           </button>
@@ -121,7 +121,7 @@ export function Paywall({ onClose }: { onClose: () => void }) {
                 return (
                   <button key={o.kind} type="button" role="radio" aria-checked={on} onClick={() => setPick(o.kind)}
                           className={`relative flex w-full items-center gap-3.5 rounded-[20px] border-2 p-4 text-start transition-colors ${on ? "border-accent-bright bg-accent-bright/10" : "border-border bg-surface"}`}>
-                    <span aria-hidden className={`grid size-6 shrink-0 place-items-center rounded-full border-2 ${on ? "border-accent bg-accent text-white" : "border-border"}`}>
+                    <span aria-hidden className={`grid size-6 shrink-0 place-items-center rounded-full border-2 ${on ? "border-accent bg-accent-bright text-on-cyan" : "border-border"}`}>
                       {on ? <svg viewBox="0 0 24 24" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="3.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg> : null}
                     </span>
                     <span className="min-w-0 flex-1">

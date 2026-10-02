@@ -523,6 +523,14 @@ const uk: Catalog = {
   "length.100.time": "близько 30 хвилин",
   "length.200.name": "Довга",
   "length.200.time": "близько години",
+  "level.A1A2.lines": "Одне речення на сторінці",
+  "level.B1B2.lines": "Два речення на сторінці",
+  "level.C1C2.lines": "Три речення на сторінці",
+  "book.pagesTitle": "Скільки сторінок",
+  "book.soon": "Незабаром",
+  "book.langNotYet": "Видання цієї книжки мовою «{language}» незабаром з’явиться. Поки що вона відкривається англійською.",
+  "book.langReady": "Читається: {language}",
+  "book.moreLengthsSoon": "Видання на 100 і 200 сторінок незабаром з’являться.",
 
   /* ── the library and a book ── */
   "library.categories": "Категорії",

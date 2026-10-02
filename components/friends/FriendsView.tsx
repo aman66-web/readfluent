@@ -27,7 +27,7 @@ const shown = (name: string, code: string): string => name.trim() || `#${code.sl
 
 function Avatar({ name, me }: { name: string; me?: boolean }) {
   return (
-    <span aria-hidden className={`grid size-10 shrink-0 place-items-center rounded-full text-[15px] font-bold uppercase ${me ? "bg-accent text-white" : "bg-accent-bright/25 text-accent"}`}>
+    <span aria-hidden className={`grid size-10 shrink-0 place-items-center rounded-full text-[15px] font-bold uppercase ${me ? "bg-accent-bright text-on-cyan" : "bg-accent-bright/25 text-accent"}`}>
       {Array.from(name.replace(/^#/, ""))[0] ?? "?"}
     </span>
   );
@@ -128,7 +128,7 @@ function LeagueTab({ league, friends, onChanged }: { league: League | null; frie
 
   return (
     <section className="mt-5">
-      <div className="rounded-[24px] bg-accent p-5 text-white">
+      <div className="rounded-[24px] bg-accent-bright p-5 text-on-cyan">
         <p className="text-[12px] font-bold uppercase tracking-[0.1em] text-white/75">{t("league.month", { month })}</p>
         <p className="mt-1 text-[28px] font-bold leading-tight tracking-[-0.02em]" data-tier={tier}>{t(`league.tier.${league.tier}` as "league.tier.0")}</p>
         <p className="mt-1 text-[13.5px] text-white/85">{left <= 1 ? t("league.lastDay") : t("league.daysLeft", { n: left })} · {t("league.intro")}</p>

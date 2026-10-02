@@ -521,6 +521,14 @@ const hi: Catalog = {
   "length.100.time": "लगभग 30 मिनट",
   "length.200.name": "लंबी",
   "length.200.time": "लगभग एक घंटा",
+  "level.A1A2.lines": "हर पन्ने पर एक वाक्य",
+  "level.B1B2.lines": "हर पन्ने पर दो वाक्य",
+  "level.C1C2.lines": "हर पन्ने पर तीन वाक्य",
+  "book.pagesTitle": "कितने पन्ने",
+  "book.soon": "जल्द आ रहा है",
+  "book.langNotYet": "इस किताब का {language} संस्करण जल्द आ रहा है। अभी यह अंग्रेज़ी में खुलती है।",
+  "book.langReady": "{language} में पढ़ी जाती है",
+  "book.moreLengthsSoon": "100 और 200 पन्नों के संस्करण जल्द आ रहे हैं।",
 
   /* ── the library and a book ── */
   "library.categories": "श्रेणियाँ",

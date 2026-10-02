@@ -59,7 +59,7 @@ const Row = ({ children, last = false }: { children: React.ReactNode; last?: boo
 
 const Pill = ({ on, onClick, children }: { on: boolean; onClick: () => void; children: React.ReactNode }) => (
   <button type="button" onClick={onClick} aria-pressed={on}
-          className={`h-10 rounded-full px-4 text-[13.5px] font-semibold transition-colors ${on ? "bg-accent text-white" : "bg-white text-muted ring-1 ring-inset ring-border"}`}>
+          className={`h-10 rounded-full px-4 text-[13.5px] font-semibold transition-colors ${on ? "bg-accent-bright text-on-cyan" : "bg-white text-muted ring-1 ring-inset ring-border"}`}>
     {children}
   </button>
 );

@@ -169,7 +169,7 @@ function Chat() {
           <ul className="space-y-3">
             {lines.map((l, i) => (
               <li key={i} className={l.role === "user" ? "flex justify-end" : "flex justify-start"}>
-                <div className={`max-w-[85%] rounded-[20px] px-4 py-2.5 ${l.role === "user" ? "rounded-ee-md bg-accent text-white" : "rounded-es-md border border-border bg-surface"}`}>
+                <div className={`max-w-[85%] rounded-[20px] px-4 py-2.5 ${l.role === "user" ? "rounded-ee-md bg-accent-bright text-on-cyan" : "rounded-es-md border border-border bg-surface"}`}>
                   <p lang={l.role === "assistant" ? learn : undefined} dir="auto" className="text-[16.5px] leading-snug">{l.text}</p>
                   {l.role === "assistant" ? (
                     <>

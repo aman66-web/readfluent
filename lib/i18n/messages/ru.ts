@@ -523,6 +523,14 @@ const ru: Catalog = {
   "length.100.time": "около 30 минут",
   "length.200.name": "Длинная",
   "length.200.time": "около часа",
+  "level.A1A2.lines": "Одно предложение на странице",
+  "level.B1B2.lines": "Два предложения на странице",
+  "level.C1C2.lines": "Три предложения на странице",
+  "book.pagesTitle": "Сколько страниц",
+  "book.soon": "Скоро",
+  "book.langNotYet": "Издание этой книги на языке «{language}» скоро появится. Пока она открывается на английском.",
+  "book.langReady": "Читается: {language}",
+  "book.moreLengthsSoon": "Издания на 100 и 200 страниц скоро появятся.",
 
   /* ── the library and a book ── */
   "library.categories": "Категории",

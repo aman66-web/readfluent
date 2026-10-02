@@ -101,7 +101,7 @@ function Row({ target: x }: { target: Target }) {
           <circle cx="32" cy="32" r="27" fill="none" stroke="var(--accent-bright)" strokeOpacity=".2" strokeWidth="6" />
           <circle cx="32" cy="32" r="27" fill="none" stroke={x.done ? "var(--accent)" : "var(--accent-bright)"} strokeWidth="6" strokeLinecap="round" strokeDasharray={RING} strokeDashoffset={RING * (1 - (x.done ? 1 : share))} className="transition-[stroke-dashoffset] duration-700" />
         </svg>
-        <span className={`grid size-9 place-items-center rounded-full ${x.done ? "bg-accent text-white" : "text-accent"}`}>
+        <span className={`grid size-9 place-items-center rounded-full ${x.done ? "bg-accent-bright text-on-cyan" : "text-accent"}`}>
           {x.done ? <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M5 12.5l4.5 4.5L19 7.5" /></svg> : ICONS[x.id]}
         </span>
       </span>

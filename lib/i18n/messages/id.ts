@@ -519,6 +519,14 @@ const indonesian: Catalog = {
   "length.100.time": "sekitar 30 menit",
   "length.200.name": "Panjang",
   "length.200.time": "sekitar satu jam",
+  "level.A1A2.lines": "Satu kalimat per halaman",
+  "level.B1B2.lines": "Dua kalimat per halaman",
+  "level.C1C2.lines": "Tiga kalimat per halaman",
+  "book.pagesTitle": "Berapa halaman",
+  "book.soon": "Segera",
+  "book.langNotYet": "Edisi {language} buku ini segera hadir. Untuk sementara dibuka dalam bahasa Inggris.",
+  "book.langReady": "Dibaca dalam {language}",
+  "book.moreLengthsSoon": "Edisi 100 dan 200 halaman segera hadir.",
 
   /* ── the library and a book ── */
   "library.categories": "Kategori",

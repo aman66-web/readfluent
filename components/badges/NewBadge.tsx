@@ -18,7 +18,7 @@ export function NewBadge() {
   if (fresh.length === 0) return null;
   const id = fresh[0];
   return (
-    <section role="status" className="mt-3 flex items-center gap-3 rounded-[22px] bg-accent p-3.5 text-white">
+    <section role="status" className="mt-3 flex items-center gap-3 rounded-[22px] bg-accent-bright p-3.5 text-on-cyan">
       <span className="block w-14 shrink-0"><Mascot mood="cheer" className="w-full" /></span>
       <Link href="/me" onClick={() => markBadgesSeen()} className="min-w-0 flex-1">
         <span className="block text-[11.5px] font-bold uppercase tracking-[0.1em] text-white/75">{t("badges.new")}{fresh.length > 1 ? ` +${fresh.length - 1}` : ""}</span>

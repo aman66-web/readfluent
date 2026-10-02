@@ -520,6 +520,14 @@ const es: Catalog = {
   "length.100.time": "unos 30 minutos",
   "length.200.name": "Largo",
   "length.200.time": "alrededor de una hora",
+  "level.A1A2.lines": "Una frase por página",
+  "level.B1B2.lines": "Dos frases por página",
+  "level.C1C2.lines": "Tres frases por página",
+  "book.pagesTitle": "Cuántas páginas",
+  "book.soon": "Pronto",
+  "book.langNotYet": "La edición en {language} de este libro llegará pronto. Por ahora se abre en inglés.",
+  "book.langReady": "Se lee en {language}",
+  "book.moreLengthsSoon": "Las ediciones de 100 y 200 páginas de este libro llegarán pronto.",
 
   /* ── the library and a book ── */
   "library.categories": "Categorías",

@@ -85,7 +85,7 @@ export function Pathway({ slug, level, length, outline, onOpen }: {
                   <li key={item.n} data-state={state} className="absolute inset-x-0" style={{ top: k * ROW, height: ROW }}>
                     <button type="button" onClick={() => onOpen(page)} aria-label={`${t("reader.pageLabel", { n: page + 1, total: length })}: ${item.text}`}
                             className={`absolute top-1/2 grid -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full transition-transform active:scale-95 ${
-                              state === "done" ? "bg-accent-bright text-white shadow-[0_6px_14px_-6px_rgba(14,116,144,.7)]" : state === "current" ? "bg-accent text-white ring-[6px] ring-accent-bright/40" : "border-2 border-border bg-surface text-muted"}`}
+                              state === "done" ? "bg-accent-bright text-on-cyan shadow-[0_6px_14px_-6px_rgba(14,116,144,.7)]" : state === "current" ? "bg-accent-bright text-on-cyan ring-[6px] ring-accent-bright/40" : "border-2 border-border bg-surface text-muted"}`}
                             style={{ left: `${cx}%`, width: NODE, height: NODE }}>
                       {state === "done" ? (
                         <svg viewBox="0 0 24 24" className="size-7" fill="none" stroke="currentColor" strokeWidth="3.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>

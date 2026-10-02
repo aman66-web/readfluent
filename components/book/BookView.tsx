@@ -16,7 +16,7 @@ import { coverAuthor, lengthsOf, type PreviewBook } from "@/lib/preview/catalog"
  * reader's language: its name and description too, where there is a translation; the book's own pages stay
  * as they are.
  */
-export function BookView({ book, outline }: { book: PreviewBook; /** The book's moments, in order, for the path. */ outline: readonly OutlineItem[] }) {
+export function BookView({ book, outline, langs }: { book: PreviewBook; /** The book's moments, in order, for the path. */ outline: readonly OutlineItem[]; /** The languages (besides English) the book can be read in. */ langs: readonly string[] }) {
   const t = useT();
   const locale = useLocale();
   const text = useBookText();
@@ -50,13 +50,13 @@ export function BookView({ book, outline }: { book: PreviewBook; /** The book's 
         </div>
 
         <div className="relative mt-5 text-center">
-          <p className="inline-flex h-7 items-center rounded-full bg-accent px-3.5 text-[11.5px] font-bold uppercase tracking-[0.12em] text-white">{category ? t(`cat.${category.id}`) : ""}</p>
+          <p className="inline-flex h-7 items-center rounded-full bg-accent-bright px-3.5 text-[11.5px] font-bold uppercase tracking-[0.12em] text-on-cyan">{category ? t(`cat.${category.id}`) : ""}</p>
           <h1 lang={locale} className="font-reading mt-3 text-[30px] font-bold leading-[1.08] tracking-[-0.02em]" dir="auto">{title}</h1>
           <p className="mt-1.5 text-[14.5px] text-muted">{book.kind === "classic" ? t("book.by", { author: book.author }) : t("book.inspired", { author: book.author })}</p>
         </div>
       </div>
 
-      <ReadPicker slug={book.slug} lengths={lengths} outline={outline}>
+      <ReadPicker slug={book.slug} lengths={lengths} outline={outline} langs={langs}>
         <p lang={locale} dir="auto" className="font-reading text-[17px] leading-[1.6] text-foreground/90">{blurb}</p>
         {/* Where it comes from, in the description where readers can see it. */}
         <p className="mt-3 border-t border-border pt-3 text-[13px] leading-snug text-muted">

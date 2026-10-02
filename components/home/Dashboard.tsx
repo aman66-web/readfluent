@@ -90,7 +90,7 @@ export function Dashboard() {
           <span className="block text-[17px] font-bold tracking-[-0.01em]">{t("home.browse")}</span>
           <span className="mt-0.5 block text-[13px] leading-snug text-foreground/70">{t("home.browseSub")}</span>
         </span>
-        <span aria-hidden className="grid size-10 shrink-0 place-items-center rounded-full bg-accent text-white"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="size-5 rtl:-scale-x-100"><path d="M9 5l7 7-7 7" /></svg></span>
+        <span aria-hidden className="grid size-10 shrink-0 place-items-center rounded-full bg-accent-bright text-on-cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="size-5 rtl:-scale-x-100"><path d="M9 5l7 7-7 7" /></svg></span>
       </Link>
     </main>
   );

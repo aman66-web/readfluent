@@ -23,6 +23,8 @@
   --accent: #0e7490;
   --accent-bright: #22d3ee;
   --error: #b3261e;
+  /* The first run's palette, for the whole app: soft card ground, hairline, deep and mid cyans, and the ink that sits on bright cyan. */
+  --ob-card: #f3f8fa; --ob-line: rgba(11, 27, 34, .09); --ob-track: #e2ebef; --ob-deep: #0e7490; --ob-teal: #0891b2; --on-cyan: #04222b;
   /* The three colours a page's matched words share in the text and its translation. */
   --key-1: #7a3fb0;
   --key-2: #c0306e;
@@ -38,6 +40,7 @@
   --color-faint: var(--faint);
   --color-accent: var(--accent);
   --color-accent-bright: var(--accent-bright);
+  --color-on-cyan: var(--on-cyan);
   --color-error: var(--error);
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
   --font-reading: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
@@ -228,3 +231,13 @@ h1, h2 { text-wrap: balance; }
 
 /* The big title at the top of a main screen: the display serif of the covers, so the app and its books look like one thing. */
 .title-display { font-family: var(--font-display), "Iowan Old Style", Georgia, serif; font-size: 36px; font-weight: 700; line-height: 1.04; letter-spacing: -0.02em; }
+
+/* Choices (a level, a length): a soft card, and the picked one gets the cyan ring and a glow, like the first run's answers. */
+.opt { position: relative; background: var(--ob-card); transition: transform .14s ease, box-shadow .25s ease, background-color .25s ease; }
+.opt::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; box-shadow: inset 0 0 0 1px var(--ob-line); transition: box-shadow .25s ease; }
+.opt:active:not(:disabled) { transform: scale(.97); }
+.opt-on { background: rgba(34, 211, 238, .12); box-shadow: 0 12px 30px -14px rgba(8, 145, 178, .6); }
+.opt-on::after { box-shadow: inset 0 0 0 2px var(--ob-teal); }
+.opt:disabled { opacity: .55; }
+/* A card the sections of a page sit in: the first run's ground and hairline, no heavy shadow. */
+.sheet-card { background: var(--ob-card); box-shadow: inset 0 0 0 1px var(--ob-line); }

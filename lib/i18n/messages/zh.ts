@@ -519,6 +519,14 @@ const zh: Catalog = {
   "length.100.time": "约 30 分钟",
   "length.200.name": "长篇",
   "length.200.time": "约一小时",
+  "level.A1A2.lines": "每页一句",
+  "level.B1B2.lines": "每页两句",
+  "level.C1C2.lines": "每页三句",
+  "book.pagesTitle": "读多少页",
+  "book.soon": "即将推出",
+  "book.langNotYet": "这本书的{language}版即将推出。目前以英语打开。",
+  "book.langReady": "可用{language}阅读",
+  "book.moreLengthsSoon": "100 页和 200 页版本即将推出。",
 
   /* ── the library and a book ── */
   "library.categories": "分类",

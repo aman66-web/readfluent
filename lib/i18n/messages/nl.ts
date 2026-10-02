@@ -523,6 +523,14 @@ const nl: Catalog = {
   "length.100.time": "ongeveer 30 minuten",
   "length.200.name": "Lang",
   "length.200.time": "ongeveer een uur",
+  "level.A1A2.lines": "Eén zin per pagina",
+  "level.B1B2.lines": "Twee zinnen per pagina",
+  "level.C1C2.lines": "Drie zinnen per pagina",
+  "book.pagesTitle": "Hoeveel pagina’s",
+  "book.soon": "Binnenkort",
+  "book.langNotYet": "De {language}e uitgave van dit boek komt binnenkort. Voorlopig opent het in het Engels.",
+  "book.langReady": "Te lezen in het {language}",
+  "book.moreLengthsSoon": "De edities van 100 en 200 pagina’s komen binnenkort.",
 
   /* ── the library and a book ── */
   "library.categories": "Categorieën",

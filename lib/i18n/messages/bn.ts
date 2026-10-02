@@ -521,6 +521,14 @@ const bn: Catalog = {
   "length.100.time": "প্রায় 30 মিনিট",
   "length.200.name": "লম্বা",
   "length.200.time": "প্রায় এক ঘণ্টা",
+  "level.A1A2.lines": "প্রতি পাতায় একটি বাক্য",
+  "level.B1B2.lines": "প্রতি পাতায় দুটি বাক্য",
+  "level.C1C2.lines": "প্রতি পাতায় তিনটি বাক্য",
+  "book.pagesTitle": "কত পাতা",
+  "book.soon": "শীঘ্রই",
+  "book.langNotYet": "এই বইয়ের {language} সংস্করণ শীঘ্রই আসছে। আপাতত এটি ইংরেজিতে খোলে।",
+  "book.langReady": "{language} ভাষায় পড়া যায়",
+  "book.moreLengthsSoon": "১০০ ও ২০০ পাতার সংস্করণ শীঘ্রই আসছে।",
 
   /* ── the library and a book ── */
   "library.categories": "বিভাগ",
