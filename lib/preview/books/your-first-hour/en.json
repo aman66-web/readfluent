@@ -1,417 +1,1639 @@
 {
-  "slug": "your-first-hour",
-  "meta": {
-    "blurb": "Mei snoozes, scrolls in the dark and starts every day already behind. Kofi works nights, and Elena has a toddler. None of them needs a perfect routine, only a short, realistic first hour that fits a real life.",
-    "bible": "Mei: an accountant who used to snooze, scroll and rush, and now builds a calm first hour. Kofi: a nurse who works night shifts, so his first hour comes after he wakes in the afternoon. Elena: a parent of a toddler who keeps her routine tiny. The book speaks to \"you\" and uses these three as examples. World Health Organization: its guidance for adults is at least one hundred and fifty minutes of moderate activity a week. Facts are real and hedged: body clocks differ, adults generally need at least seven hours of sleep, research on snoozing is mixed, slow breathing, meditation and gratitude show modest benefits in some studies, picturing the steps helps more than picturing only the result, habit formation varies from person to person. This is not a diet, a treatment or a promise of a miracle. Voice and tone: warm, honest, practical and gentle, one clear idea or step in each beat, building to a final takeaway."
+ "slug": "your-first-hour",
+ "meta": {
+  "blurb": "Mei snoozes, scrolls in the dark and starts every day already behind. Kofi works nights, and Elena has a toddler. None of them needs a perfect routine, only a short, realistic first hour that fits a real life.",
+  "bible": "Mei: an accountant who used to snooze, scroll and rush, and now builds a calm first hour. Kofi: a nurse who works night shifts, so his first hour comes after he wakes in the afternoon. Elena: a parent of a toddler who keeps her routine tiny. The book speaks to \"you\" and uses these three as examples. World Health Organization: its guidance for adults is at least one hundred and fifty minutes of moderate activity a week. Facts are real and hedged: body clocks differ, adults generally need at least seven hours of sleep, research on snoozing is mixed, slow breathing, meditation and gratitude show modest benefits in some studies, picturing the steps helps more than picturing only the result, habit formation varies from person to person. This is not a diet, a treatment or a promise of a miracle. Voice and tone: warm, honest, practical and gentle, one clear idea or step in each beat, building to a final takeaway. Extended cast: Dana, Mei's friend from the office, who becomes her partner in the habit. Mateo, Elena's son, aged two. Omar, Elena's husband, who leaves early for work. Joy, a nurse who works with Kofi on the night ward. Sundays are Mei's slow mornings. Mei's notebook is small and green. Her kettle stands by the window. The first-hour recipe in this book: water, light, movement, quiet, writing, learning, a plan and one small step. Beginners start with ten minutes. Mei's father goes into hospital for a week in her second month. Mei sits her professional accounting exam in the spring and passes. Mei is learning Spanish and studying for that exam; Dana writes a children's story for her niece.",
+  "chapters": [
+   "The Glowing Screen",
+   "No Magic Here",
+   "The Night Before",
+   "Setting the Stage",
+   "Light and Water",
+   "Moving Your Body",
+   "Breathing Room",
+   "The Quiet Minutes",
+   "Three Good Lines",
+   "Feeding the Mind",
+   "A Goal on a Card",
+   "One Small Step",
+   "Breakfast and Music",
+   "Choosing Your Parts",
+   "When the Week Goes Wrong",
+   "Kofi's Afternoon Sunrise",
+   "Fitting Real Life",
+   "What a Routine Cannot Do",
+   "Ticks and Friends",
+   "Your Own First Hour"
+  ]
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "A person lies in bed in the dark, reaching for a glowing phone.",
+   "summary": "Many of us begin the day with a phone and a rush."
   },
-  "beats": [
-    {
-      "n": 1,
-      "scene": "A person lies in bed in the dark, reaching for a glowing phone.",
-      "summary": "Many of us begin the day with a phone and a rush."
-    },
-    {
-      "n": 2,
-      "scene": "Mei hits the snooze button, then rushes around a cluttered kitchen.",
-      "summary": "Mei's old mornings are a snooze, a phone and a rush."
-    },
-    {
-      "n": 3,
-      "scene": "Mei sits at her kitchen table with a cup of tea and a notebook.",
-      "summary": "The idea: design your first hour on purpose."
-    },
-    {
-      "n": 4,
-      "scene": "A clock shows early morning light beside an unmade bed.",
-      "summary": "There is no magic: early rising is not right for everyone, and bodies differ."
-    },
-    {
-      "n": 5,
-      "scene": "A person sleeps in a dark, quiet bedroom with a phone on a shelf.",
-      "summary": "A good morning starts the night before, with enough sleep."
-    },
-    {
-      "n": 6,
-      "scene": "A dim bedside lamp glows, and a phone charges across the room.",
-      "summary": "Wind down in the evening: dim the lights and put the phone away."
-    },
-    {
-      "n": 7,
-      "scene": "A glass of water, clean clothes and a notebook sit on a chair.",
-      "summary": "Prepare tonight what you will need in the morning."
-    },
-    {
-      "n": 8,
-      "scene": "A phone alarm stands on a dresser across a bedroom.",
-      "summary": "Put the alarm across the room so that you must stand up."
-    },
-    {
-      "n": 9,
-      "scene": "Mei stretches her arms by a window while her phone sits untouched.",
-      "summary": "Do not reach for the phone; give yourself a few quiet minutes first."
-    },
-    {
-      "n": 10,
-      "scene": "Mei lies half asleep with one hand on a snooze button.",
-      "summary": "Snoozing feels good, but one clear wake-up is simpler; research is mixed."
-    },
-    {
-      "n": 11,
-      "scene": "Mei opens the curtains and bright morning light fills the room.",
-      "summary": "Morning daylight helps set your body clock."
-    },
-    {
-      "n": 12,
-      "scene": "Mei drinks a tall glass of water by the kitchen window.",
-      "summary": "Drink a glass of water to start."
-    },
-    {
-      "n": 13,
-      "scene": "Mei washes her face at the sink and puts on clean clothes.",
-      "summary": "Wash and dress so that your body knows the day has begun."
-    },
-    {
-      "n": 14,
-      "scene": "Mei does gentle stretches on a mat beside her bed.",
-      "summary": "Move your body for a few minutes."
-    },
-    {
-      "n": 15,
-      "scene": "People walk and swim in a park under a bright sky.",
-      "summary": "Health guidelines suggest regular activity across the week; any amount helps."
-    },
-    {
-      "n": 16,
-      "scene": "Mei walks along a quiet street in the early morning sun.",
-      "summary": "A short walk outside gives daylight and movement together."
-    },
-    {
-      "n": 17,
-      "scene": "Mei sits in a chair and breathes slowly with her eyes closed.",
-      "summary": "A few minutes of slow breathing can calm you; research is promising but mixed."
-    },
-    {
-      "n": 18,
-      "scene": "Mei sits cross-legged by the window in silence, eyes closed.",
-      "summary": "A few quiet minutes with no input: sit in silence or meditate."
-    },
-    {
-      "n": 19,
-      "scene": "Mei sits still with a gentle frown as thoughts crowd her mind.",
-      "summary": "When thoughts rush in, notice them and gently return."
-    },
-    {
-      "n": 20,
-      "scene": "Mei writes three short lines in a small notebook at the table.",
-      "summary": "Write a few things you are grateful for."
-    },
-    {
-      "n": 21,
-      "scene": "Mei reads a book at the kitchen table with a cup of tea.",
-      "summary": "Read a few pages of a book that teaches or inspires you."
-    },
-    {
-      "n": 22,
-      "scene": "Mei practises new words in a notebook at the table.",
-      "summary": "Spend a little time learning something new."
-    },
-    {
-      "n": 23,
-      "scene": "Mei writes freely in a notebook, a pen moving across the page.",
-      "summary": "Write a few lines about what is on your mind."
-    },
-    {
-      "n": 24,
-      "scene": "Mei writes her main goal in large letters on a card.",
-      "summary": "Remind yourself of a goal you are working towards."
-    },
-    {
-      "n": 25,
-      "scene": "Mei writes three tasks on a sticky note on her desk.",
-      "summary": "Choose the top three tasks for the day."
-    },
-    {
-      "n": 26,
-      "scene": "Mei sits with her eyes closed, imagining the day ahead.",
-      "summary": "Imagine how you will handle the day; picture the steps, not only the result."
-    },
-    {
-      "n": 27,
-      "scene": "Mei sits down with a small task from her long project.",
-      "summary": "Take a first small step on something that matters to you."
-    },
-    {
-      "n": 28,
-      "scene": "Mei leaves her laptop closed on the table and drinks tea.",
-      "summary": "Do not check email first; it puts other people's priorities at the front."
-    },
-    {
-      "n": 29,
-      "scene": "Mei eats breakfast slowly at a sunny table.",
-      "summary": "Eat a breakfast you enjoy, without hurry."
-    },
-    {
-      "n": 30,
-      "scene": "Mei dances in her kitchen to lively music in the morning.",
-      "summary": "Make it enjoyable: add music or something fun."
-    },
-    {
-      "n": 31,
-      "scene": "A page lists many ideas, with three of them circled.",
-      "summary": "You do not need all of it: choose a few parts that suit you."
-    },
-    {
-      "n": 32,
-      "scene": "A timer shows ten minutes next to a notebook and a cup.",
-      "summary": "Start with ten minutes and build slowly."
-    },
-    {
-      "n": 33,
-      "scene": "A wall calendar with the same time circled every day.",
-      "summary": "Do it at the same time each day so it becomes automatic."
-    },
-    {
-      "n": 34,
-      "scene": "Mei puts a notebook next to the kettle in the kitchen.",
-      "summary": "Attach the new habit to an old one."
-    },
-    {
-      "n": 35,
-      "scene": "Mei lies in bed looking tired while rain falls on the window.",
-      "summary": "Mei's first week is hard; she sleeps badly and wants to stop."
-    },
-    {
-      "n": 36,
-      "scene": "Mei in a dressing gown pours a glass of water at the window.",
-      "summary": "On tired mornings, do a shortened version without guilt."
-    },
-    {
-      "n": 37,
-      "scene": "Mei picks up her notebook again the morning after a missed day.",
-      "summary": "If you miss a day, simply return the next morning."
-    },
-    {
-      "n": 38,
-      "scene": "Kofi, a nurse, sits in his kitchen at sunset with a cup of tea.",
-      "summary": "Shift workers can use the first hour after they wake, whenever that is."
-    },
-    {
-      "n": 39,
-      "scene": "Elena stretches in a living room while her toddler copies her.",
-      "summary": "Parents of small children can use a short version, even with the child."
-    },
-    {
-      "n": 40,
-      "scene": "A night owl sits up in bed beside a lamp, reading.",
-      "summary": "If you are an evening person, do not force a very early start."
-    },
-    {
-      "n": 41,
-      "scene": "Mei relaxes on a sofa on a weekend with a book and tea.",
-      "summary": "On weekends, use a gentler version."
-    },
-    {
-      "n": 42,
-      "scene": "A small bag holds a notebook and a pen on a hotel bed.",
-      "summary": "A short version travels with you."
-    },
-    {
-      "n": 43,
-      "scene": "Mei sits quietly on a sofa on a rainy day, looking sad.",
-      "summary": "This is not a cure; if low mood lasts, talk to a doctor."
-    },
-    {
-      "n": 44,
-      "scene": "A wall calendar with green tick marks on many days.",
-      "summary": "Track your days with ticks on a calendar."
-    },
-    {
-      "n": 45,
-      "scene": "Mei and a friend talk over coffee, holding their notebooks.",
-      "summary": "Tell a friend or find a partner for support."
-    },
-    {
-      "n": 46,
-      "scene": "Mei studies a notebook full of ticks after two weeks.",
-      "summary": "After two weeks, review what helps and what to drop."
-    },
-    {
-      "n": 47,
-      "scene": "Mei finishes a report at her desk and smiles at a clock.",
-      "summary": "After a month, Mei feels calmer and finishes her important work."
-    },
-    {
-      "n": 48,
-      "scene": "Mei smiles at a mirror, her face calm in the morning light.",
-      "summary": "Keep expectations honest: modest gains, not miracles."
-    },
-    {
-      "n": 49,
-      "scene": "A notebook page lists a morning hour in neat steps.",
-      "summary": "Recap the hour: water, light, movement, quiet, learning, a plan, one small step."
-    },
-    {
-      "n": 50,
-      "scene": "A glass of water and a notebook wait beside a bed.",
-      "summary": "Final takeaway: set up tonight, and begin tomorrow with ten good minutes."
-    }
-  ],
-  "levels": {
-    "A1A2": [
-      "Many people begin the day by looking at their phone.",
-      "Mei goes back to sleep three times, then runs to work.",
-      "This book is about choosing how your first hour goes.",
-      "There is no magic here, and early is not best for all.",
-      "Good mornings begin the night before, with enough sleep.",
-      "In the evening, Mei dims the lights and puts her phone away.",
-      "She lays out her clothes and a glass of water.",
-      "Mei puts her alarm across the room, so she must get up.",
-      "She does not touch her phone for the first ten minutes.",
-      "Sleeping again after the alarm feels nice, but one wake-up is simpler.",
-      "Mei opens the curtains and lets the morning light in.",
-      "Mei drinks a big glass of water first.",
-      "She washes her face and puts on clean clothes.",
-      "Mei stretches her arms and legs for five minutes.",
-      "Experts say adults should move their bodies a little every day.",
-      "Mei walks to the corner shop in the morning sun.",
-      "Mei sits still and takes ten slow, deep breaths.",
-      "Mei sits in silence for five minutes and does nothing else.",
-      "When thoughts rush in, she just returns to her breathing.",
-      "Mei writes down three good things in her notebook.",
-      "Mei reads ten pages of a good book each morning.",
-      "Mei learns five new words in a language she likes.",
-      "She writes a few lines about her thoughts and feelings.",
-      "Mei writes the big goal she is working towards.",
-      "Mei chooses three important jobs for today.",
-      "She pictures her day and how she will do each step.",
-      "Mei spends ten minutes on her important project.",
-      "Mei does not open her email until later.",
-      "Mei eats a slow breakfast at the table.",
-      "Mei plays her favourite music and sings in the kitchen.",
-      "You do not need everything, just choose a few parts.",
-      "Start with ten minutes, and then add more slowly.",
-      "Do it at the same time every day, and it becomes easy.",
-      "After she fills the kettle, she opens her notebook.",
-      "In the first week, Mei is tired and wants to stop.",
-      "On tired days, she does a short version and feels fine.",
-      "If you miss a day, begin again the next day.",
-      "Kofi works nights, so his morning begins in the afternoon.",
-      "Elena has a small child, so her routine is short.",
-      "If you like the night, do not force yourself to wake early.",
-      "At weekends, Mei keeps just two or three of her habits.",
-      "When she travels, Mei takes a short version with her.",
-      "A morning routine is not a cure for sadness or illness.",
-      "Mei puts a tick on the calendar for each good morning.",
-      "Mei tells a friend about her plan, and the friend joins.",
-      "After two weeks, she keeps the parts that help.",
-      "A month later, Mei feels calmer and more ready.",
-      "This routine gives small gains, not big miracles.",
-      "Drink water, find light, move, sit quietly, plan, and take one step.",
-      "Tonight, put out a glass of water, and set your alarm."
-    ],
-    "B1B2": [
-      "For many people, the first minutes of the day belong to the phone. Messages, news and other people's demands arrive before the person is even awake.",
-      "Mei used to press snooze three times, check her phone and then rush out of the door. She arrived at work already tired, with her toast still in her hand.",
-      "This book has one simple idea, and it is easy to say. Choose how your first hour will go, and use it to start the day in a way that you would like.",
-      "Let us be honest with each other from the start. People have different body clocks, and getting up very early does not suit everyone.",
-      "A good morning really starts on the night before it. Health organisations say that most adults need at least seven hours of sleep, although the exact amount differs from person to person.",
-      "An hour before bed, Mei dims the lights and puts her phone on a shelf far away. The quiet gives her tired mind plenty of time to slow down.",
-      "Before she goes to sleep, Mei puts out her clothes, a glass of water and her notebook. In the morning, there is nothing to decide and nothing to find.",
-      "Mei now puts her alarm on the far side of the room. She has to stand up to turn it off, and standing is already a good start.",
-      "Mei does not touch her phone for the first ten minutes. The news and the messages will still be there, and they can wait while she wakes up.",
-      "Snoozing feels like a gift, yet the extra minutes are usually light and broken sleep. Research on the habit is mixed, but one clear wake-up is simpler and keeps the morning calm.",
-      "The first thing Mei does is open the curtains. Daylight helps to set the body's clock, and it tells her brain that the day has begun.",
-      "Mei drinks a glass of water before anything else. She has not had a drink for hours, and it feels like a small and pleasant reset.",
-      "Mei washes her face and gets dressed, even on days when she works from home. Putting on real clothes tells her mind that the day has begun.",
-      "Then Mei moves her body for five minutes with some gentle stretches. Movement wakes the muscles and the mind, and it does not need to be hard.",
-      "Health experts suggest that adults aim for at least one hundred and fifty minutes of moderate activity a week. Your morning movement can be part of that total, and it is a good place to begin.",
-      "On some mornings, Mei takes a ten-minute walk around the block. It gives her daylight, fresh air and movement all at once.",
-      "Mei sits in a chair and takes ten slow breaths, in through her nose and out through her mouth. Some research suggests that slow breathing can help people feel calmer, although the results are mixed.",
-      "Next, Mei sits in silence for five minutes with no phone, no music and no news. For some people, these quiet moments can reduce stress, though it takes practice.",
-      "At first, Mei's mind is full of noise, and she thinks about work and shopping. When she notices this, she gently returns to her breathing, and that return is the whole exercise.",
-      "Mei writes three things she is thankful for in her notebook. Some studies suggest that this habit can lift mood a little for some people, although the effect is not large.",
-      "Mei reads a few pages of a book that teaches her something or lifts her spirits. Ten pages a day add up to several books a year.",
-      "Some mornings, Mei spends ten minutes learning something new, such as a handful of words in another language. Small and regular practice builds up faster than most people expect.",
-      "Mei writes freely for five minutes about whatever is on her mind. Putting thoughts on paper can make them clearer and a little lighter.",
-      "Mei writes down the one big goal she is working on this year. Reading it every morning reminds her what the small tasks are for.",
-      "Mei chooses the three things that matter most today, and she writes them on a small note. She cannot do everything, but she can do these three.",
-      "Mei closes her eyes and imagines how her day will go, step by step. Research suggests that picturing the steps is more helpful than only picturing a happy result.",
-      "Mei spends ten minutes on one thing that matters to her, such as her exam course. It is only a small step, but it is a step taken before the day has begun.",
-      "Mei does not open her email in the first hour. Email is mostly other people's plans for her day, and she would like to start with her own.",
-      "Mei eats her breakfast sitting down, without any hurry at all. It is a small pleasure, and it makes the morning feel like her own.",
-      "If a routine feels like a chore, you will not keep it up. Mei plays her favourite music, and she makes the hour as enjoyable as she can.",
-      "Mei does not do everything on every single morning. You can choose only the parts that suit you, and drop anything that does not.",
-      "Do not try to do the whole hour on the first day. Start with ten minutes, and add a little more each week when it feels easy.",
-      "Doing your routine at the same time each day helps it become automatic. After a few weeks, you will hardly need to think about it.",
-      "Attach the new habit to one you already have. After Mei switches on the kettle, she opens her notebook, and the kettle reminds her what to do.",
-      "In the first week, Mei sleeps badly and feels tired and grumpy. She wants to give up, but she remembers that new habits are always awkward at the beginning.",
-      "On a tired morning, Mei does a shortened version, perhaps only water, light and three breaths. Doing a little is far better than doing nothing, and there is no need to feel guilty.",
-      "Some days you will oversleep or forget, and that is completely normal. Simply return to your routine the next morning, without any speech about failure.",
-      "Kofi is a nurse who works night shifts, so he wakes in the afternoon. For him, the first hour is simply the first hour after he wakes, whatever the clock says.",
-      "Elena has a toddler who wakes her at dawn, so a long routine is impossible. She stretches for three minutes while her child copies her, and that is enough.",
-      "If you are naturally an evening person, do not force yourself to wake at five. Keep the same ideas, but start at a time that suits your body.",
-      "At weekends, Mei keeps only two or three parts of her routine. She enjoys a slower breakfast, a walk and a book, and she does not set an alarm.",
-      "When Mei travels, she takes a short version of her routine. All she needs is a glass of water, some daylight, a few stretches and her notebook.",
-      "A morning routine is not a cure for illness or deep sadness. If low mood lasts for weeks, please talk to a doctor or someone you trust.",
-      "Mei puts a tick on her calendar for each morning that she follows her routine. The row of ticks grows longer, and she does not want to break it.",
-      "Mei tells a friend about her new routine, and the friend decides to try it too. Now they send each other a short message every morning.",
-      "After two weeks, Mei looks at her notebook and asks what helps and what does not. She keeps the best parts and drops the rest without any guilt.",
-      "A month later, Mei's mornings feel calm instead of rushed. She has finished one whole book, made progress on her exam course and arrives at work with energy to spare.",
-      "You should be realistic about what to expect from a morning routine. A good routine brings modest gains in calm, focus and mood, but it will not transform your life overnight.",
-      "Here is the whole hour, told in a few short steps. Drink water, find some light, move your body, sit quietly, choose three tasks and take one small step.",
-      "Tonight, put out a glass of water and a notebook, and set your alarm across the room. Tomorrow, give yourself just ten good minutes, and let your first hour begin."
-    ],
-    "C1C2": [
-      "For a great many of us, the first minutes of the day are surrendered to a glowing screen before we have fully opened our eyes. News, messages and other people's demands pour in while we are still half asleep, and we begin the day by reacting rather than choosing. It is not a crime, but it is worth asking whether it is the beginning we would pick.",
-      "Mei, an accountant, used to press the snooze button three times, scroll through her phone in bed and then fly around the kitchen looking for her keys. She would arrive at the office breathless and slightly resentful, with a piece of toast in one hand and a day that already seemed to be running without her. She did not hate her mornings, but she had certainly never chosen them for herself.",
-      "This book offers a simple idea: choose how your first waking hour will go, instead of letting it happen to you. A short, kind and well-planned beginning will not solve your problems, but it can set the direction of everything that follows. Think of it as the first brushstroke on a blank canvas, which tells the rest of the painting where to go.",
-      "Let us be honest from the start, because there is no magic in a morning routine. People have different natural body clocks, and the evidence does not show that getting up at dawn is better for everybody. What matters is not the hour you wake but what you do with the first hour after you do.",
-      "A good morning begins the night before, because no routine can replace the sleep you did not get. Health organisations generally advise that most adults need at least seven hours a night, although the exact amount differs from person to person. If you are always short of sleep, protecting your bedtime will do more for your mornings than any alarm.",
-      "An hour before bed, Mei dims the lights, puts her phone on a shelf across the room and picks up a book. The quiet gives her mind time to slow down, and the absence of bright screens may make falling asleep a little easier. It is a small ritual, but it is the real beginning of the next morning.",
-      "Before she goes to sleep, Mei lays out her clothes, fills a glass with water and puts her notebook where she cannot miss it. In the morning there will be nothing to decide and nothing to hunt for, which spares her the small frictions that used to ruin the first ten minutes. Each preparation made at night is a gift to the person who wakes up.",
-      "Mei now places her alarm on the far side of the room, which means that she must stand up and walk to silence it. By the time she has crossed the floor, her body is upright and her eyes are open, and the most difficult part of getting up has already been done. Standing is not a clever trick, but it is a wonderfully reliable way to begin.",
-      "Mei does not touch her phone for the first ten minutes of the day, however loudly it seems to call to her. The news and the messages will still be there afterwards, and almost nothing in them will be improved by being read in a daze. Those first minutes belong to her, and she wants to spend them on purpose and with care.",
-      "Snoozing feels like a small gift to yourself, yet the extra minutes are usually light and broken sleep that does little to refresh you. Research on the habit is mixed, and for some people a little snoozing seems quite harmless, so treat this as a suggestion and not a rule. Still, one clear wake-up is simpler, and it saves you from beginning the day with a series of small defeats.",
-      "The first thing Mei does is throw open the curtains and let the morning light flood in. Daylight helps to set the body's internal clock, and it is one of the clearest signals we can give the brain that the day has begun. If the sun has not yet risen, switching on a bright lamp is a reasonable second best.",
-      "Mei drinks a full glass of water before anything else, since she has gone for hours without a drink. It is hardly dramatic, but it feels like a small and pleasant reset, and it gives her hands something sensible to do. Some habits are valuable precisely because they are so easy to begin and so easy to repeat.",
-      "Mei washes her face and gets properly dressed, even on the days when she works from home and nobody will see her. Changing out of nightclothes is a signal to the mind that one part of the day has ended and another has begun. It also removes the quiet temptation to drift back to bed for just a little longer.",
-      "Then Mei moves her body for five minutes, with gentle stretches that wake up her neck, shoulders and back. Movement raises the heartbeat a little and shakes off the stiffness of sleep, and it does not need to be hard to be worthwhile. Any amount is better than none, and a short start is far easier to repeat every day.",
-      "Health experts, including those at the World Health Organization, suggest that adults aim for at least one hundred and fifty minutes of moderate activity each week. Your morning movement can count towards that total, and a few minutes a day add up more quickly than most people expect. Anyone with a health condition should of course check with a doctor before starting something new.",
-      "On some mornings, Mei swaps her stretches for a ten-minute walk around the block, and she is surprised by how much she notices. The walk gives her daylight, fresh air and gentle movement all at the same time, and it clears her thoughts before the day begins. A walk is also the one routine that needs no equipment, no skill and no special clothes.",
-      "Mei sits in a comfortable chair and takes ten slow breaths, in through the nose and out through the mouth, letting each exhalation last a little longer than the one before. Some studies suggest that slow breathing can help people feel calmer, although the evidence is mixed and the effects are modest. Even so, it costs nothing, takes two minutes and gives the mind a gentle place to rest.",
-      "Next, Mei spends five minutes in complete silence, with no phone, no music and no news, simply sitting and noticing what is around her. Studies of meditation suggest modest benefits for stress and attention in many people, although the quality of the research varies and it is certainly not a cure for anything. For Mei, the value is simple: it is the one part of the day when nothing is asked of her.",
-      "At first, Mei's mind is a crowded station, full of thoughts about deadlines, shopping and things that she said last week. Whenever she notices that she has wandered off, she gently brings her attention back to her breath, and she discovers that the returning is the whole exercise. Nobody is ever good at this on the first day, and kindness towards yourself is part of the skill.",
-      "Mei writes three things that she is thankful for in her notebook, and they are often very small: a warm bed, a kind email, the smell of coffee. Some studies suggest that noticing good things on purpose can lift a person's mood a little, although the effect is modest and it does not work for everyone. She keeps doing it because it costs her only a minute and leaves her in a gentler frame of mind.",
-      "Mei reads a few pages of a book that teaches her something new or lifts her spirits, before the demands of the day can interrupt. Ten pages a day come to more than three thousand pages in a year, which is roughly the length of ten ordinary novels. Reading, she says, is the only part of her morning in which time seems to move at an easy pace.",
-      "Some mornings Mei spends ten minutes learning something new, such as a handful of words in another language or a few chords on a guitar. Small and regular practice builds up more quickly than most people expect, and the morning is a good time because nothing else has yet demanded her attention. A steady habit of curiosity is worth more than any single lesson or any single burst of effort.",
-      "Mei writes freely for five minutes about whatever is on her mind, without worrying about spelling, style or sense. Putting thoughts onto paper often makes them clearer and a little lighter, as though a crowded room had been given a window. Nobody will ever read it, and that is exactly why she can be honest.",
-      "Mei writes down, in a single sentence, the big goal that she is working towards this year, which is to pass her professional exams. Reading the sentence each morning reminds her what the small tasks are for, and it makes the effort feel like a journey instead of a chore. A goal that is never looked at has a way of fading into the background.",
-      "Mei chooses the three things that matter most today and writes them on a small note that she can see from her desk. She cannot possibly do everything, but she can do these three, and the knowledge makes the rest of the day feel less like a flood. If she finishes them, the day has been a real success, whatever else may happen.",
-      "Mei closes her eyes for a minute and imagines how her day will unfold, step by step, including the awkward conversation with her manager. Research suggests that rehearsing the steps in the mind is more helpful than merely daydreaming about a happy outcome, although the effects are not large. It is a way of meeting the day once in imagination before meeting it in life.",
-      "Before the day can take her over, Mei spends ten minutes on one thing that matters to her, such as studying for her exams. It is only a small step, but it is taken before the world has had its say, and that gives it a special kind of strength. Ten minutes a day, repeated for many months, is a very long road covered.",
-      "Mei does not open her email during her first hour, because email is largely a list of other people's plans for her day. She would like to begin with her own priorities, and she has found that nothing important is lost by waiting. If your job truly requires an early reply, simply adjust the routine to fit.",
-      "Mei eats her breakfast sitting down, without hurrying and without a screen in front of her. It is a small pleasure, but it makes the morning feel generous rather than rushed. What you eat is your own business, and nothing in this book is a diet, so choose whatever suits your body and your taste.",
-      "If a routine feels like a chore, you will soon abandon it, so Mei deliberately makes her first hour enjoyable. She plays her favourite music, drinks her favourite tea and lets herself sing a little off key. Habits that are pleasant have a much better chance of surviving the first difficult week.",
-      "You do not have to do everything described in this book, and Mei certainly does not do all of it on any single morning. Choose the three or four parts that suit your life, and be ready to drop anything that does not suit you. A routine that truly fits you will always beat one that merely impresses other people.",
-      "Do not try to perform a perfect hour on your very first morning, because ambitious beginnings tend to collapse within a week. Start with ten minutes, and add a little more each week, only when the routine feels easy and natural. A modest routine that survives is better than a grand one that does not.",
-      "Doing your routine at roughly the same time each day helps it to become automatic, so that you stop debating it. After a few weeks, you will hardly need to think about it, and it will feel strange to leave it out. Research on habits suggests that the time this takes varies a great deal from one person to another.",
-      "Attach the new habit to an old one that you never forget, so that the old one reminds you of the new. After Mei switches on the kettle, she opens her notebook and writes her three lines, and the kettle has become her private alarm. The same trick works with brushing teeth, feeding a pet or closing the front door.",
-      "In the first week, Mei sleeps badly, feels tired and grumpy, and begins to suspect that the whole idea was foolish. She wants to give up, but she remembers that every new habit is awkward at the start, and she decides to give it just one more week. Persistence, she finds, is largely a matter of not making big decisions on bad days.",
-      "On a tired morning, Mei does a shortened version of her routine, perhaps only a glass of water, some daylight and three slow breaths. A small version keeps the habit alive without demanding energy that she does not have, and it spares her the guilt of an all-or-nothing approach. Flexibility is not the enemy of discipline but one of its very best friends.",
-      "Some days you will oversleep, travel or simply forget, and that is completely normal for every human being. Return to your routine the next morning, quietly and without a long speech about failure, because one missed day does very little harm. What matters is the long run of the habit, and not the perfection of the record.",
-      "Kofi is a nurse who works night shifts, so his day begins in the late afternoon, when most of his neighbours are coming home. For him, the first hour simply means the first hour after he wakes, and he follows the same gentle pattern of water, light, movement and quiet. A morning routine belongs to a person, and not to a particular hour on the clock.",
-      "Elena has a toddler who wakes her at dawn, so a long and peaceful routine is simply out of the question. She keeps it tiny, drinking a glass of water, opening the curtains and stretching for three minutes while her child copies her with great enthusiasm. In a season of life that is already full, small beginnings are a victory.",
-      "If you are naturally an evening person, there is no virtue in forcing yourself out of bed at five in the morning. Keep the same ideas, but fit them around a time that suits your body, and protect your sleep above everything else. The first hour of your day is simply whichever one begins when you wake.",
-      "At the weekend, Mei keeps only two or three parts of her routine and lets the rest go, including the alarm clock. She enjoys a slower breakfast, a long walk and a book in the sun, and she does not feel she has broken any rule. A routine should serve a good life, and it should never become a kind of cage.",
-      "When Mei travels, she packs a portable version of her routine that needs nothing more than a glass of water, a window, a few stretches and a small notebook. It keeps a thread of familiarity running through unfamiliar rooms, which is oddly comforting. Wherever she happens to wake, the first hour can still belong entirely to her.",
-      "It is important to say plainly that a morning routine is not a treatment for illness or for deep and lasting sadness. If you have felt low for weeks, or if your sleep and appetite have changed, please talk to a doctor or to someone you trust. A good first hour can help a good life, but it cannot replace proper care.",
-      "Mei puts a tick on her calendar for every morning that she follows her routine, even the short version. The row of ticks grows steadily longer, and the sight of it gives her a quiet pride that she had not expected. Do not worry about gaps, because the calendar is a mirror and not a judge.",
-      "Mei tells a friend about her new routine, and the friend, who has been struggling with her own mornings, decides to try it too. They exchange a brief message each day, nothing more than a word or a smiling face, and each feels a little more accountable than before. Shared habits are usually much easier to keep than lonely ones, and they are much more fun.",
-      "After two weeks, Mei sits down with her notebook and asks two honest questions: what has helped, and what has only been a burden? She keeps the best parts, drops the rest without any guilt and adds one new idea that she is curious to try. A routine is an experiment, and an experiment is supposed to change as you learn.",
-      "A month later, Mei's mornings feel calm instead of rushed, and she has begun to look forward to them. She has finished one whole book, made real progress on her exam course and arrives at work with a little energy to spare. Nothing about her life is perfect, but the day now begins on her own terms.",
-      "Be realistic about what to expect, because a good morning routine is not a miracle. It tends to bring modest gains in calm, focus and mood, and the benefits show themselves slowly, like a plant growing on a windowsill. Treat anyone who promises you much more than that with a healthy dose of scepticism.",
-      "Here, in short, is the whole hour: drink a glass of water, find some daylight, move your body and sit for a few quiet minutes. Then read a little, write a little, choose your three tasks and take one small step on something that matters. Take what suits you, shorten what is too long and leave the rest behind.",
-      "So tonight, before you go to bed, put out a glass of water and a notebook, and place your alarm across the room. Tomorrow morning, give yourself ten good minutes before you touch your phone, and see how the day feels when you have chosen its beginning. The first hour is only a small piece of your day, but it is the piece that you can shape."
-    ]
+  {
+   "n": 2,
+   "scene": "Mei hits the snooze button, then rushes around a cluttered kitchen.",
+   "summary": "Mei's old mornings are a snooze, a phone and a rush."
+  },
+  {
+   "n": 3,
+   "scene": "A phone screen lights a dark room with many unread messages.",
+   "summary": "The phone fills the first minutes with other people's news and demands."
+  },
+  {
+   "n": 4,
+   "scene": "Mei slumps at her desk beside an empty coffee cup in the afternoon.",
+   "summary": "The rushed start leaves her tired, and the evening drifts away."
+  },
+  {
+   "n": 5,
+   "scene": "Mei drinks tea by a sunny window on a quiet Sunday morning.",
+   "summary": "One slow Sunday shows Mei how different a calm start can feel."
+  },
+  {
+   "n": 6,
+   "scene": "Mei and Dana eat lunch together at a bright office table.",
+   "summary": "Her friend Dana notices she looks tired and shares how she starts her day."
+  },
+  {
+   "n": 7,
+   "scene": "Dana holds a small notebook and a cup of tea at her desk.",
+   "summary": "Dana's own start is simple and modest, with no promise of miracles."
+  },
+  {
+   "n": 8,
+   "scene": "Mei frowns at a clock showing six in the morning.",
+   "summary": "Mei doubts she can change, because she thinks she is not a morning person."
+  },
+  {
+   "n": 9,
+   "scene": "Mei buys a small green notebook at a stationery shop.",
+   "summary": "Mei agrees to try ten minutes a day for one week."
+  },
+  {
+   "n": 10,
+   "scene": "Mei sits at her kitchen table with a cup of tea and a notebook.",
+   "summary": "The idea: design your first hour on purpose."
+  },
+  {
+   "n": 11,
+   "scene": "A clock shows early morning light beside an unmade bed.",
+   "summary": "There is no magic: early rising is not right for everyone, and bodies differ."
+  },
+  {
+   "n": 12,
+   "scene": "Two people sleep, one curled up early and one awake late at night.",
+   "summary": "Some people are naturally early and some late; this is partly inherited."
+  },
+  {
+   "n": 13,
+   "scene": "A person wakes in a quiet bedroom while a clock shows a random hour.",
+   "summary": "Your first hour starts whenever you wake up, at any time of day."
+  },
+  {
+   "n": 14,
+   "scene": "Kofi sits on a hospital bench in a nurse's uniform at dawn.",
+   "summary": "Meet Kofi, a night-shift nurse whose day runs the other way round."
+  },
+  {
+   "n": 15,
+   "scene": "Elena holds her young son Mateo in a small, crowded living room.",
+   "summary": "Meet Elena, a parent of a toddler whose mornings belong to someone else."
+  },
+  {
+   "n": 16,
+   "scene": "Mei, Kofi and Elena stand in three different rooms at three different hours.",
+   "summary": "Three people, three schedules: they will be examples throughout the book."
+  },
+  {
+   "n": 17,
+   "scene": "A notebook page lists water, light, movement, quiet, writing, learning and a plan.",
+   "summary": "A first hour can hold eight small parts, and you pick the ones you like."
+  },
+  {
+   "n": 18,
+   "scene": "A hand crosses out half of a long list in a notebook.",
+   "summary": "The rule of the book: take what suits you, and never feel guilty."
+  },
+  {
+   "n": 19,
+   "scene": "A small egg timer stands on a table next to a cup of tea.",
+   "summary": "Ten minutes counts; a small routine you keep beats a big one you quit."
+  },
+  {
+   "n": 20,
+   "scene": "Mei writes three wishes for her mornings in her green notebook.",
+   "summary": "Mei writes what she wants from her mornings: calm, time and a feeling of choice."
+  },
+  {
+   "n": 21,
+   "scene": "A person sleeps in a dark, quiet bedroom with a phone on a shelf.",
+   "summary": "A good morning starts the night before, with enough sleep."
+  },
+  {
+   "n": 22,
+   "scene": "Mei counts on her fingers the hours she slept, in a dim bedroom.",
+   "summary": "Mei counts her sleep and finds she gets only about six hours."
+  },
+  {
+   "n": 23,
+   "scene": "A clock on a bedside table shows the same bedtime on a calendar.",
+   "summary": "Going to bed and waking at similar times helps your body clock."
+  },
+  {
+   "n": 24,
+   "scene": "A dim bedside lamp glows, and a phone charges across the room.",
+   "summary": "Wind down in the evening: dim the lights and put the phone away."
+  },
+  {
+   "n": 25,
+   "scene": "A cup of coffee stands on a table beside a clock showing late afternoon.",
+   "summary": "Caffeine can stay in the body for hours, so coffee late in the day may cost sleep."
+  },
+  {
+   "n": 26,
+   "scene": "A light evening meal and a glass of water on a dinner table.",
+   "summary": "A heavy late meal or alcohol can make sleep lighter, so eat earlier."
+  },
+  {
+   "n": 27,
+   "scene": "A bedroom is dark and cool with the curtains drawn and a fan turning.",
+   "summary": "A dark, quiet and cool bedroom helps many people sleep."
+  },
+  {
+   "n": 28,
+   "scene": "Mei writes tomorrow's worries on a list at a bedside table.",
+   "summary": "A short list of tomorrow's tasks on paper can quiet a busy mind at night."
+  },
+  {
+   "n": 29,
+   "scene": "Mei sits in an armchair with a book and a dim lamp at night.",
+   "summary": "If you cannot sleep, get up and do something quiet instead of fighting it."
+  },
+  {
+   "n": 30,
+   "scene": "Mei turns off her lamp at half past ten with a calm smile.",
+   "summary": "Mei tries an early night and wakes up feeling more rested than usual."
+  },
+  {
+   "n": 31,
+   "scene": "A glass of water, clean clothes and a notebook sit on a chair.",
+   "summary": "Prepare tonight what you will need in the morning."
+  },
+  {
+   "n": 32,
+   "scene": "Mei packs a bag by the front door and hangs her coat.",
+   "summary": "Packing the bag and choosing clothes the night before removes morning chaos."
+  },
+  {
+   "n": 33,
+   "scene": "A phone alarm stands on a dresser across a bedroom.",
+   "summary": "Put the alarm across the room so that you must stand up."
+  },
+  {
+   "n": 34,
+   "scene": "A small bedside speaker plays a gentle tune beside a quiet bed.",
+   "summary": "Choose a gentle alarm sound that does not make you dread the morning."
+  },
+  {
+   "n": 35,
+   "scene": "Mei stands up in the dark as the alarm plays on the dresser.",
+   "summary": "Mei's first morning: she gets up at the first alarm and the day feels different."
+  },
+  {
+   "n": 36,
+   "scene": "Mei stretches her arms by a window while her phone sits untouched.",
+   "summary": "Do not reach for the phone; give yourself a few quiet minutes first."
+  },
+  {
+   "n": 37,
+   "scene": "Mei lies half asleep with one hand on a snooze button.",
+   "summary": "Snoozing feels good, but one clear wake-up is simpler; research is mixed."
+  },
+  {
+   "n": 38,
+   "scene": "Mei reads a small card by her bed.",
+   "summary": "A small reason to get up, like a good cup of tea, makes rising easier."
+  },
+  {
+   "n": 39,
+   "scene": "Mei pulls the covers straight across a neatly made bed.",
+   "summary": "Making the bed takes one minute and gives a first small win."
+  },
+  {
+   "n": 40,
+   "scene": "Mei pours tea in the kitchen on her second morning, looking cross but awake.",
+   "summary": "Mei's second morning is just as hard, and she keeps going anyway."
+  },
+  {
+   "n": 41,
+   "scene": "Mei opens the curtains and bright morning light fills the room.",
+   "summary": "Morning daylight helps set your body clock."
+  },
+  {
+   "n": 42,
+   "scene": "A bright sky above a grey street, seen through a kitchen window.",
+   "summary": "Even on a cloudy day, outdoor light is much brighter than indoor light."
+  },
+  {
+   "n": 43,
+   "scene": "A bright desk lamp shines in a dark winter bedroom before sunrise.",
+   "summary": "In dark winters a bright lamp helps; see a doctor if the gloom is heavy."
+  },
+  {
+   "n": 44,
+   "scene": "Mei drinks a tall glass of water by the kitchen window.",
+   "summary": "Drink a glass of water to start."
+  },
+  {
+   "n": 45,
+   "scene": "Mei drinks water first, then makes a cup of coffee on the counter.",
+   "summary": "Water first does not mean no coffee; the book has nothing against it."
+  },
+  {
+   "n": 46,
+   "scene": "Mei washes her face at the sink and puts on clean clothes.",
+   "summary": "Wash and dress so that your body knows the day has begun."
+  },
+  {
+   "n": 47,
+   "scene": "A person in smart home clothes sits at a laptop at home.",
+   "summary": "Even when working from home, dressing for the day helps you feel ready."
+  },
+  {
+   "n": 48,
+   "scene": "Mei looks out of her kitchen window at birds on a wire.",
+   "summary": "Mei starts to notice the sky and the weather each morning."
+  },
+  {
+   "n": 49,
+   "scene": "Mei opens curtains, drinks water and washes her face in a calm order.",
+   "summary": "After a few days, the first three steps flow together in seven minutes."
+  },
+  {
+   "n": 50,
+   "scene": "A kitchen clock shows twenty minutes have passed beside a closed phone.",
+   "summary": "Twenty minutes in, Mei realises she has not thought about work or her phone."
+  },
+  {
+   "n": 51,
+   "scene": "Mei does gentle stretches on a mat beside her bed.",
+   "summary": "Move your body for a few minutes."
+  },
+  {
+   "n": 52,
+   "scene": "Mei reaches both arms high above her head by a bright window.",
+   "summary": "Three easy moves: reach up, roll your shoulders and bend gently."
+  },
+  {
+   "n": 53,
+   "scene": "A person walks slowly across a quiet living room in socks.",
+   "summary": "Even a minute of moving after sleep helps the body feel awake."
+  },
+  {
+   "n": 54,
+   "scene": "People walk and swim in a park under a bright sky.",
+   "summary": "Health guidelines suggest regular activity across the week; any amount helps."
+  },
+  {
+   "n": 55,
+   "scene": "Mei walks along a quiet street in the early morning sun.",
+   "summary": "A short walk outside gives daylight and movement together."
+  },
+  {
+   "n": 56,
+   "scene": "A calendar shows ten minutes of walking ticked on every day.",
+   "summary": "Ten minutes a day adds up to about seventy minutes in a week."
+  },
+  {
+   "n": 57,
+   "scene": "Two friends walk together and talk easily on a park path.",
+   "summary": "Moderate pace means you can talk but not sing."
+  },
+  {
+   "n": 58,
+   "scene": "Mei stands up from a chair slowly with her arms crossed.",
+   "summary": "Guidelines also suggest strengthening muscles on two days a week."
+  },
+  {
+   "n": 59,
+   "scene": "A person talks to a doctor in a bright clinic about exercise.",
+   "summary": "If you have a health problem, ask your doctor before starting to exercise."
+  },
+  {
+   "n": 60,
+   "scene": "Mei stands loosely at a window after walking, smiling and relaxed.",
+   "summary": "After a week of moving, Mei feels looser and a little happier."
+  },
+  {
+   "n": 61,
+   "scene": "Mei sits in a chair and breathes slowly with her eyes closed.",
+   "summary": "A few minutes of slow breathing can calm you; research is promising but mixed."
+  },
+  {
+   "n": 62,
+   "scene": "A person breathes in through the nose with a hand on the chest.",
+   "summary": "Breathe in through the nose for four counts, and out for six."
+  },
+  {
+   "n": 63,
+   "scene": "A hand rests on a stomach as a person sits upright on a sofa.",
+   "summary": "A hand on the belly helps you feel the breath, and you should stop if dizzy."
+  },
+  {
+   "n": 64,
+   "scene": "A person counts slow breaths on their fingers at a kitchen table.",
+   "summary": "Counting breaths gives a busy mind something simple to hold."
+  },
+  {
+   "n": 65,
+   "scene": "A square drawn in a notebook with four breathing steps on its sides.",
+   "summary": "Some people like a square pattern of breaths, but you can skip the holds."
+  },
+  {
+   "n": 66,
+   "scene": "A person with a gentle cough breathes slowly beside an open window.",
+   "summary": "If you have asthma or a lung problem, keep breathing exercises very gentle."
+  },
+  {
+   "n": 67,
+   "scene": "Elena breathes slowly beside a kettle while her son plays on the floor.",
+   "summary": "Elena takes three slow breaths while the kettle boils."
+  },
+  {
+   "n": 68,
+   "scene": "A mother and son sit together breathing like balloons in a living room.",
+   "summary": "Elena turns breathing into a game with Mateo, and both feel calmer."
+  },
+  {
+   "n": 69,
+   "scene": "Mei breathes slowly at her desk before opening a difficult email.",
+   "summary": "Mei finds the breath helps outside the morning too, before hard moments."
+  },
+  {
+   "n": 70,
+   "scene": "A notebook lists breathing as a two-minute step in the hour.",
+   "summary": "Breathing can be a two-minute part of your hour, or you can skip it."
+  },
+  {
+   "n": 71,
+   "scene": "Mei sits cross-legged by the window in silence, eyes closed.",
+   "summary": "A few quiet minutes with no input: sit in silence or meditate."
+  },
+  {
+   "n": 72,
+   "scene": "A simple sketch of a person focused on one candle flame.",
+   "summary": "Meditation means paying attention to one thing, such as the breath, on purpose."
+  },
+  {
+   "n": 73,
+   "scene": "Mei sits with a gentle frown as thoughts crowd her mind.",
+   "summary": "When thoughts rush in, notice them and gently return."
+  },
+  {
+   "n": 74,
+   "scene": "A person laughs quietly with open eyes, sitting on a cushion.",
+   "summary": "Meditation is not about an empty mind; wandering thoughts are normal."
+  },
+  {
+   "n": 75,
+   "scene": "Mei listens with a puzzled smile to a refrigerator humming in the kitchen.",
+   "summary": "On her first try, Mei is restless and listens to the hum of the fridge."
+  },
+  {
+   "n": 76,
+   "scene": "A doctor's notes beside a book about the mind and stress.",
+   "summary": "Studies find modest benefits of meditation for stress, but it is not a cure."
+  },
+  {
+   "n": 77,
+   "scene": "A person sits with a cup of tea, gazing quietly out of a window.",
+   "summary": "Quiet can also be slow tea, listening to rain, prayer or simply looking."
+  },
+  {
+   "n": 78,
+   "scene": "A small kitchen timer sits next to a mug on a windowsill.",
+   "summary": "A gentle timer lets you stop watching the clock; begin with two minutes."
+  },
+  {
+   "n": 79,
+   "scene": "Mei sits in the same chair in the same corner of a living room.",
+   "summary": "Using the same chair each day helps the habit feel familiar."
+  },
+  {
+   "n": 80,
+   "scene": "Mei pauses with calm eyes at a desk while a colleague speaks sharply.",
+   "summary": "The quiet practice gives Mei a small gap before she reacts to others."
+  },
+  {
+   "n": 81,
+   "scene": "Mei writes three short lines in a small notebook at the table.",
+   "summary": "Write a few things you are grateful for."
+  },
+  {
+   "n": 82,
+   "scene": "A page shows specific details written in neat handwriting beside a pen.",
+   "summary": "Studies suggest gratitude helps a little; specific details work better than general ones."
+  },
+  {
+   "n": 83,
+   "scene": "Mei smiles at her notebook, which lists a neighbour, a shower and a joke.",
+   "summary": "Mei's lines are small and real: a kind neighbour, a hot shower, a joke."
+  },
+  {
+   "n": 84,
+   "scene": "Mei pauses with her pen above a blank notebook page.",
+   "summary": "Gratitude is not forced cheerfulness; on a bad day, one small true thing is enough."
+  },
+  {
+   "n": 85,
+   "scene": "Mei writes freely in a notebook, a pen moving across the page.",
+   "summary": "Write a few lines about what is on your mind."
+  },
+  {
+   "n": 86,
+   "scene": "A closed notebook lies on a table with a small lock beside it.",
+   "summary": "Write only for yourself, keep the pen moving, and stop if it becomes too painful."
+  },
+  {
+   "n": 87,
+   "scene": "A tangled string on one page and a straight line on the next.",
+   "summary": "Writing down worries can untangle a crowded mind; the evidence is modest."
+  },
+  {
+   "n": 88,
+   "scene": "A paper notebook and a phone lie side by side on a table.",
+   "summary": "Paper has no notifications, but any tool you will actually use is fine."
+  },
+  {
+   "n": 89,
+   "scene": "Mei reads old notebook pages with a cup of tea at night.",
+   "summary": "After two weeks, Mei rereads her pages and finds patterns and progress."
+  },
+  {
+   "n": 90,
+   "scene": "Elena writes one line on a sticky note in a busy kitchen.",
+   "summary": "Elena writes just one line a day about Mateo, and it is enough."
+  },
+  {
+   "n": 91,
+   "scene": "Mei reads a book at the kitchen table with a cup of tea.",
+   "summary": "Read a few pages of a book that teaches or inspires you."
+  },
+  {
+   "n": 92,
+   "scene": "A book lies open on a chair beside a reading lamp and a mug.",
+   "summary": "Choose a book you want to read, and keep it where you will see it."
+  },
+  {
+   "n": 93,
+   "scene": "A bookmark sticks out of a book that has only two pages read.",
+   "summary": "If ten pages feels like too much, read two; a little every day beats a lot rarely."
+  },
+  {
+   "n": 94,
+   "scene": "A person walks along a river path wearing headphones and a thoughtful smile.",
+   "summary": "Listening to a book while you walk counts as reading too."
+  },
+  {
+   "n": 95,
+   "scene": "Mei practises new words in a notebook at the table.",
+   "summary": "Spend a little time learning something new."
+  },
+  {
+   "n": 96,
+   "scene": "A page of Spanish words with a small star next to each one.",
+   "summary": "Review yesterday's words first; spaced practice helps memory."
+  },
+  {
+   "n": 97,
+   "scene": "A desk with a guitar, a chess board and a small notebook of questions.",
+   "summary": "You can learn anything small: a chess puzzle, a guitar chord, a new word."
+  },
+  {
+   "n": 98,
+   "scene": "Mei closes her notebook with a smile, still curious about the lesson.",
+   "summary": "Stop while it is still interesting, so tomorrow you want to return."
+  },
+  {
+   "n": 99,
+   "scene": "A small bookshelf with one finished book and one with a bookmark.",
+   "summary": "Three weeks in, Mei has finished one book and learned sixty words."
+  },
+  {
+   "n": 100,
+   "scene": "A notebook lists a reading and learning step that takes twenty minutes in total.",
+   "summary": "Reading and learning together take about twenty minutes, or less, or none at all."
+  },
+  {
+   "n": 101,
+   "scene": "Mei writes her main goal in large letters on a card.",
+   "summary": "Remind yourself of a goal you are working towards."
+  },
+  {
+   "n": 102,
+   "scene": "Two cards side by side: one vague goal, one clear goal.",
+   "summary": "A clear, specific goal works better than a vague one."
+  },
+  {
+   "n": 103,
+   "scene": "A card stands against a green notebook on a sunlit table.",
+   "summary": "Keep the goal card by your notebook and read it each morning."
+  },
+  {
+   "n": 104,
+   "scene": "Mei writes three tasks on a sticky note on her desk.",
+   "summary": "Choose the top three tasks for the day."
+  },
+  {
+   "n": 105,
+   "scene": "A sticky note has one task circled in a thick pen.",
+   "summary": "One of the three is the one that matters most; do it first if you can."
+  },
+  {
+   "n": 106,
+   "scene": "Mei sits with her eyes closed, imagining the day ahead.",
+   "summary": "Imagine how you will handle the day; picture the steps, not only the result."
+  },
+  {
+   "n": 107,
+   "scene": "Mei imagines herself speaking calmly in a meeting room with colleagues.",
+   "summary": "Mei pictures a hard meeting: her first sentence, and how she will stay calm."
+  },
+  {
+   "n": 108,
+   "scene": "A sticky note reads: at half past seven, I sit down to study.",
+   "summary": "A plan that says when and where makes it easier to follow through."
+  },
+  {
+   "n": 109,
+   "scene": "Mei imagines a rainy window and a closed laptop beside a to-do list.",
+   "summary": "Think about what might go wrong, and decide in advance what you will do."
+  },
+  {
+   "n": 110,
+   "scene": "Mei crosses one task off a sticky note and smiles at a calmer desk.",
+   "summary": "Mei drops one task from her list, learns to say no, and the day feels lighter."
+  },
+  {
+   "n": 111,
+   "scene": "Mei sits down with a small task from her long project.",
+   "summary": "Take a first small step on something that matters to you."
+  },
+  {
+   "n": 112,
+   "scene": "A fresh morning desk with a single book open and nothing else.",
+   "summary": "The best time for important work is often when the mind is fresh and quiet."
+  },
+  {
+   "n": 113,
+   "scene": "A single open document with one line of text on a screen.",
+   "summary": "Make the first step very small: open the file and write one sentence."
+  },
+  {
+   "n": 114,
+   "scene": "Mei leaves her laptop closed on the table and drinks tea.",
+   "summary": "Do not check email first; it puts other people's priorities at the front."
+  },
+  {
+   "n": 115,
+   "scene": "A phone lies face down in a drawer next to a desk lamp.",
+   "summary": "Silence the phone and do one thing at a time; switching tasks costs time."
+  },
+  {
+   "n": 116,
+   "scene": "A kitchen timer shows twenty minutes beside an open textbook.",
+   "summary": "A timer helps you focus: work for twenty minutes, then stop and rest."
+  },
+  {
+   "n": 117,
+   "scene": "A page of notes with the easiest question circled first.",
+   "summary": "If you are stuck, start with the easiest part to build momentum."
+  },
+  {
+   "n": 118,
+   "scene": "Dana writes a children's story at a small desk near a bright window.",
+   "summary": "Dana's small step is one page a day of a story for her niece."
+  },
+  {
+   "n": 119,
+   "scene": "A messy first draft with crossed-out lines lies beside a pencil.",
+   "summary": "The first try can be rough; progress matters more than perfection."
+  },
+  {
+   "n": 120,
+   "scene": "A calendar with twenty minutes of study marked on thirty days.",
+   "summary": "Twenty minutes a day for a month adds up to about ten hours."
+  },
+  {
+   "n": 121,
+   "scene": "Mei eats breakfast slowly at a sunny table.",
+   "summary": "Eat a breakfast you enjoy, without hurry."
+  },
+  {
+   "n": 122,
+   "scene": "A table with fruit, bread and tea, and a person who likes simple food.",
+   "summary": "Eat what you enjoy; this book has no diet and no food rules."
+  },
+  {
+   "n": 123,
+   "scene": "A plate and a cup on a table with a phone turned face down.",
+   "summary": "Eating without a screen helps you notice the taste and enjoy the meal."
+  },
+  {
+   "n": 124,
+   "scene": "Mei dances in her kitchen to lively music in the morning.",
+   "summary": "Make it enjoyable: add music or something fun."
+  },
+  {
+   "n": 125,
+   "scene": "A small speaker and a phone showing a list of three favourite songs.",
+   "summary": "Choose three songs that lift you, and play them as a morning signal."
+  },
+  {
+   "n": 126,
+   "scene": "A favourite mug, a candle and a soft blanket sit on a small table.",
+   "summary": "Make the hour a treat: a nice mug, a candle, a favourite chair."
+  },
+  {
+   "n": 127,
+   "scene": "Mei waters green plants on a balcony in the early light.",
+   "summary": "Time with plants or fresh air on a balcony can be a gentle part of the hour."
+  },
+  {
+   "n": 128,
+   "scene": "A neighbour waves from an opposite window at Mei dancing in the kitchen.",
+   "summary": "A neighbour sees Mei dancing, and they both laugh and wave."
+  },
+  {
+   "n": 129,
+   "scene": "Mei hands a small pastry in a paper bag to Dana in the office.",
+   "summary": "Mei rewards a good week with a small treat and shares it with Dana."
+  },
+  {
+   "n": 130,
+   "scene": "A kitchen filled with morning light, music, tea and a bowl of fruit.",
+   "summary": "Mornings feel better when they hold pleasure as well as discipline."
+  },
+  {
+   "n": 131,
+   "scene": "A page lists many ideas, with three of them circled.",
+   "summary": "You do not need all of it: choose a few parts that suit you."
+  },
+  {
+   "n": 132,
+   "scene": "A timer shows ten minutes next to a notebook and a cup.",
+   "summary": "Start with ten minutes and build slowly."
+  },
+  {
+   "n": 133,
+   "scene": "A list of four ten-minute menus written on a card.",
+   "summary": "A ten-minute menu: water, light, a stretch, and three lines in a notebook."
+  },
+  {
+   "n": 134,
+   "scene": "A wall calendar with the same time circled every day.",
+   "summary": "Do it at the same time each day so it becomes automatic."
+  },
+  {
+   "n": 135,
+   "scene": "Mei puts a notebook next to the kettle in the kitchen.",
+   "summary": "Attach the new habit to an old one."
+  },
+  {
+   "n": 136,
+   "scene": "A calendar page shows weeks counting up from one to ten.",
+   "summary": "One study found habits take about two months on average, with a very wide range."
+  },
+  {
+   "n": 137,
+   "scene": "A yoga mat unrolled beside a bed with shoes ready by the door.",
+   "summary": "Make it easy: leave things where you can see them and reach them."
+  },
+  {
+   "n": 138,
+   "scene": "A long list with one item crossed out for a new one.",
+   "summary": "When you add a part, drop another, so the hour does not grow stressful."
+  },
+  {
+   "n": 139,
+   "scene": "A person looks at a phone showing someone else's perfect morning photograph.",
+   "summary": "Do not compare yourself to other people's perfect-looking mornings online."
+  },
+  {
+   "n": 140,
+   "scene": "Mei circles five parts on a list titled with her own name.",
+   "summary": "Mei picks her own five parts and shapes a forty-minute routine."
+  },
+  {
+   "n": 141,
+   "scene": "Mei lies in bed looking tired while rain falls on the window.",
+   "summary": "Mei's fourth week is hard; she sleeps badly and wants to stop."
+  },
+  {
+   "n": 142,
+   "scene": "Mei works late at her desk on a dark evening, surrounded by papers.",
+   "summary": "A work deadline keeps Mei late at the office, and bedtime slips to midnight."
+  },
+  {
+   "n": 143,
+   "scene": "A grey cloud of text above a person who is staring at a ceiling.",
+   "summary": "The inner critic says it is pointless; Mei notices the voice and doesn't obey."
+  },
+  {
+   "n": 144,
+   "scene": "Mei in a dressing gown pours a glass of water at the window.",
+   "summary": "On tired mornings, do a shortened version without guilt."
+  },
+  {
+   "n": 145,
+   "scene": "A small card in a green notebook lists three tiny steps for hard days.",
+   "summary": "Mei writes a three-step bad-day version: water, window and one line."
+  },
+  {
+   "n": 146,
+   "scene": "Mei picks up her notebook again the morning after a missed day.",
+   "summary": "If you miss a day, simply return the next morning."
+  },
+  {
+   "n": 147,
+   "scene": "A broken line on a calendar with a hand drawing a new line.",
+   "summary": "One missed day is not failure; do not let all-or-nothing thinking win."
+  },
+  {
+   "n": 148,
+   "scene": "A person sleeps peacefully in the early morning light with the alarm off.",
+   "summary": "If you are short of sleep, sometimes the wisest choice is to rest."
+  },
+  {
+   "n": 149,
+   "scene": "Mei wraps herself in a blanket with a hot drink and tissues.",
+   "summary": "When ill, rest; the routine will be waiting when you are well."
+  },
+  {
+   "n": 150,
+   "scene": "Mei bends a green plant stem gently in the wind beside a window.",
+   "summary": "A routine that bends lasts longer than one that is stiff and strict."
+  },
+  {
+   "n": 151,
+   "scene": "Kofi, a nurse, sits in his kitchen at sunset with a cup of tea.",
+   "summary": "Shift workers can use the first hour after they wake, whenever that is."
+  },
+  {
+   "n": 152,
+   "scene": "A hospital corridor at night, with a nurse writing notes under soft lights.",
+   "summary": "Kofi works from seven in the evening to seven in the morning on the ward."
+  },
+  {
+   "n": 153,
+   "scene": "Kofi walks home in sunglasses as the sun rises over a city street.",
+   "summary": "After a night shift, some people wear sunglasses to avoid waking up the body clock."
+  },
+  {
+   "n": 154,
+   "scene": "A bedroom with thick dark curtains, earplugs and a silent phone on a shelf.",
+   "summary": "Dark curtains, earplugs and a silent phone protect Kofi's daytime sleep."
+  },
+  {
+   "n": 155,
+   "scene": "Kofi explains his schedule to his family at a dinner table.",
+   "summary": "Kofi tells his family when he is asleep, so they can help protect his rest."
+  },
+  {
+   "n": 156,
+   "scene": "Kofi stands on a small balcony with a mug and a book.",
+   "summary": "Kofi's first hour: curtains, water, daylight, a stretch and ten pages."
+  },
+  {
+   "n": 157,
+   "scene": "Kofi and his colleague Joy drink tea together in a quiet hospital break room.",
+   "summary": "Kofi's colleague Joy is doubtful, but she joins him for a shared tea."
+  },
+  {
+   "n": 158,
+   "scene": "A tired person rests a hand on a clock showing three in the morning.",
+   "summary": "Long-term night work can strain sleep and health; ask a doctor if you struggle."
+  },
+  {
+   "n": 159,
+   "scene": "Kofi packs a lunch box with a proper meal and fruit before his shift.",
+   "summary": "Kofi eats a proper meal before work and keeps caffeine to the start of the shift."
+  },
+  {
+   "n": 160,
+   "scene": "A calendar shows days off, with Kofi's sleep moved only a few hours.",
+   "summary": "On days off, Kofi shifts his sleep only partway, so he can see his family."
+  },
+  {
+   "n": 161,
+   "scene": "Elena stretches in a living room while her toddler copies her.",
+   "summary": "Parents of small children can use a short version, even with the child."
+  },
+  {
+   "n": 162,
+   "scene": "A mother opens the curtains with her toddler on her hip in the morning.",
+   "summary": "Elena opens the curtains with Mateo, and they say good morning to the sun."
+  },
+  {
+   "n": 163,
+   "scene": "A tired parent sleeps while a toddler sleeps in a nearby cot at dawn.",
+   "summary": "A parent short of sleep should not wake earlier; sleep matters more."
+  },
+  {
+   "n": 164,
+   "scene": "Omar kisses Mateo on the head in a hallway on Saturday morning.",
+   "summary": "On Saturdays Omar looks after Mateo, and Elena has twenty minutes to herself."
+  },
+  {
+   "n": 165,
+   "scene": "A night owl sits up in bed beside a lamp, reading.",
+   "summary": "If you are an evening person, do not force a very early start."
+  },
+  {
+   "n": 166,
+   "scene": "A person moves an alarm clock a little earlier on a calendar.",
+   "summary": "If you must wake earlier for work, move your wake time by fifteen minutes at a time."
+  },
+  {
+   "n": 167,
+   "scene": "Mei relaxes on a sofa on a weekend with a book and tea.",
+   "summary": "On weekends, use a gentler version."
+  },
+  {
+   "n": 168,
+   "scene": "A small bag holds a notebook and a pen on a hotel bed.",
+   "summary": "A short version travels with you."
+  },
+  {
+   "n": 169,
+   "scene": "A flat-share kitchen at dawn with a person wearing headphones in a corner.",
+   "summary": "In a small or shared home, find a corner, use headphones or use the bathroom."
+  },
+  {
+   "n": 170,
+   "scene": "Elena counts four ticks in a week on a wall calendar.",
+   "summary": "Elena does her routine on four days out of seven and is proud of it."
+  },
+  {
+   "n": 171,
+   "scene": "Mei sits quietly on a sofa on a rainy day, looking sad.",
+   "summary": "This is not a cure; if low mood lasts, talk to a doctor."
+  },
+  {
+   "n": 172,
+   "scene": "A person talks to a kind doctor in a small, bright office.",
+   "summary": "Low mood or worry lasting more than two weeks deserves a doctor's attention."
+  },
+  {
+   "n": 173,
+   "scene": "A person yawns at a desk, with a clock showing early afternoon.",
+   "summary": "Heavy sleepiness or loud snoring may need a doctor's attention."
+  },
+  {
+   "n": 174,
+   "scene": "A crowded desk with a clock and a bill beside a tired person.",
+   "summary": "A routine cannot solve overwork, money worries or heavy caring duties."
+  },
+  {
+   "n": 175,
+   "scene": "A closed book with a small note on its cover: general information.",
+   "summary": "This book is general information and is not medical advice."
+  },
+  {
+   "n": 176,
+   "scene": "A shop window with a large poster promising a new life in thirty days.",
+   "summary": "Be wary of promises to change your life in thirty days."
+  },
+  {
+   "n": 177,
+   "scene": "A person sleeps in at a window with a calm face under morning light.",
+   "summary": "Rising early is not a virtue, and night owls are not lazy."
+  },
+  {
+   "n": 178,
+   "scene": "A magazine shows a famous person at dawn, beside a stack of unread letters.",
+   "summary": "Stories of famous early risers are anecdotes, not proof."
+  },
+  {
+   "n": 179,
+   "scene": "A phone lies beside a notebook, with a small clock set for later.",
+   "summary": "The phone is not the enemy; check it after your first hour, on purpose."
+  },
+  {
+   "n": 180,
+   "scene": "Mei sits quietly by a hospital window with her notebook at dawn.",
+   "summary": "When Mei's father is in hospital, her small routine steadies her."
+  },
+  {
+   "n": 181,
+   "scene": "A wall calendar with green tick marks on many days.",
+   "summary": "Track your days with ticks on a calendar."
+  },
+  {
+   "n": 182,
+   "scene": "A calendar with a few empty days and a hand holding a green pen.",
+   "summary": "Tracking should encourage, not scold; a missing tick is only information."
+  },
+  {
+   "n": 183,
+   "scene": "Mei and a friend talk over coffee, holding their notebooks.",
+   "summary": "Tell a friend or find a partner for support."
+  },
+  {
+   "n": 184,
+   "scene": "Two phones show a short message exchange with a smiling face.",
+   "summary": "A short message to a friend when you finish keeps you both going."
+  },
+  {
+   "n": 185,
+   "scene": "Dana sits alone at a table with a closed notebook and a sad face.",
+   "summary": "In week six, Dana struggles and Mei encourages her without judging."
+  },
+  {
+   "n": 186,
+   "scene": "Mei studies a notebook full of ticks after two weeks.",
+   "summary": "After two weeks, review what helps and what to drop."
+  },
+  {
+   "n": 187,
+   "scene": "A card with four questions written in a clear hand.",
+   "summary": "Four review questions: what did I enjoy, skip, gain and want to change?"
+  },
+  {
+   "n": 188,
+   "scene": "A page with free writing crossed out and moved to an evening box.",
+   "summary": "Mei moves her free writing to the evening, because it suits her better."
+  },
+  {
+   "n": 189,
+   "scene": "A colleague asks Mei a question at the office kitchen over tea.",
+   "summary": "When others ask, share lightly and never preach."
+  },
+  {
+   "n": 190,
+   "scene": "A small chart of numbers from one to ten beside a notebook.",
+   "summary": "Rate your mood each evening and look at the trend, not single days."
+  },
+  {
+   "n": 191,
+   "scene": "Mei finishes a report at her desk and smiles at a clock.",
+   "summary": "After a month, Mei feels calmer and finishes her important work."
+  },
+  {
+   "n": 192,
+   "scene": "Kofi sleeps peacefully in a dark room while a clock shows noon.",
+   "summary": "After a month, Kofi sleeps a little better, though hard nights still happen."
+  },
+  {
+   "n": 193,
+   "scene": "Elena and Mateo wave at the sun through a window together.",
+   "summary": "After a month, Elena's mornings are still busy, but they feel warmer."
+  },
+  {
+   "n": 194,
+   "scene": "Mei smiles at a mirror, her face calm in the morning light.",
+   "summary": "Keep expectations honest: modest gains, not miracles."
+  },
+  {
+   "n": 195,
+   "scene": "Mei opens an exam result on her laptop at the kitchen table.",
+   "summary": "In the spring Mei sits her exam and passes, thanks mainly to her study."
+  },
+  {
+   "n": 196,
+   "scene": "Mei reads the first page of her green notebook with a thoughtful face.",
+   "summary": "Mei rereads her first page: calm, time and choice; she has found them."
+  },
+  {
+   "n": 197,
+   "scene": "A notebook page lists a morning hour in neat steps.",
+   "summary": "Recap the hour: water, light, movement, quiet, learning, a plan, one small step."
+  },
+  {
+   "n": 198,
+   "scene": "A hand writes a personal list of morning steps on a fresh page.",
+   "summary": "Write your own menu: choose your parts and your time in your own words."
+  },
+  {
+   "n": 199,
+   "scene": "A person smiles at an alarm clock on a dresser across the room.",
+   "summary": "Be kind to yourself in the first weeks; they are practice, not a test."
+  },
+  {
+   "n": 200,
+   "scene": "A glass of water and a notebook wait beside a bed.",
+   "summary": "Final takeaway: set up tonight, and begin tomorrow with ten good minutes."
   }
+ ],
+ "levels": {
+  "A1A2": [
+   "Many people begin the day by looking at their phone.",
+   "Mei goes back to sleep three times, then runs to work.",
+   "The phone shows her news and work messages before breakfast.",
+   "By three o'clock, Mei needs coffee and a snack to keep going.",
+   "One Sunday, Mei wakes slowly and drinks her tea by the window.",
+   "At lunch, her friend Dana says Mei looks very tired.",
+   "Dana says she spends ten quiet minutes with tea each morning.",
+   "Mei says she is not a morning person and never will be.",
+   "After work, Mei buys a small green notebook and some tea.",
+   "This book is about choosing how your first hour goes.",
+   "There is no magic here, and early is not best for all.",
+   "Some people like early mornings and some like late nights.",
+   "Your first hour begins when you wake up, at any time.",
+   "Kofi is a nurse, and he works at night.",
+   "Elena has a baby boy called Mateo, who is two.",
+   "Mei, Kofi and Elena will show you different ways to begin.",
+   "A first hour can have water, light, movement, and quiet.",
+   "Take the parts you like, and leave the rest without guilt.",
+   "Ten minutes is enough, and it counts as a real start.",
+   "In her notebook, Mei writes: calm, time, and no more rushing.",
+   "Good mornings begin the night before, with enough sleep.",
+   "Mei counts her sleep and finds it is only six hours.",
+   "Try to go to bed at about the same time.",
+   "In the evening, Mei dims the lights and puts her phone away.",
+   "Coffee late in the day can keep you awake at night.",
+   "A big late dinner can make it hard to sleep.",
+   "A dark, quiet and cool room helps many people sleep.",
+   "Before bed, Mei writes her worries on a list.",
+   "If you cannot sleep, get up and read for a while.",
+   "Mei goes to bed early and wakes up feeling better.",
+   "Tonight, put out water, clean clothes and your notebook.",
+   "Mei packs her bag and puts her keys by the door.",
+   "Mei puts the alarm across the room, so she must stand.",
+   "Mei picks a soft, gentle sound for her alarm.",
+   "On the first morning, Mei stands up at the first alarm.",
+   "Mei does not touch her phone, and stretches by the window.",
+   "Sleeping a little more feels good, but one clear wake-up is simpler.",
+   "Mei has a reason to get up: a hot cup of tea.",
+   "Mei makes her bed, and it takes only one minute.",
+   "On day two, Mei is still tired, but she gets up.",
+   "Mei opens the curtains and lets the morning light in.",
+   "Even on a grey day, the light outside is strong.",
+   "In winter, it is still dark, so Mei turns on a lamp.",
+   "Mei drinks a big glass of cold water at the window.",
+   "Mei drinks her water first, and then makes her coffee.",
+   "Mei washes her face and puts on clean clothes.",
+   "Even at home, it helps to wear real clothes.",
+   "Mei looks at the sky and listens to the birds.",
+   "After a few days, the first steps feel easy and natural.",
+   "Twenty minutes later, Mei has not thought about work once.",
+   "Mei does some gentle stretches on a mat for a few minutes.",
+   "Mei reaches up high, rolls her shoulders and bends gently.",
+   "Even one minute of moving helps the body wake up.",
+   "Doctors say regular movement is good for our health.",
+   "Mei goes for a short walk on her quiet street.",
+   "Ten minutes every day makes seventy minutes in one week.",
+   "A good walking speed lets you talk, but not sing.",
+   "Mei also does five slow squats using a chair.",
+   "If you have a health problem, talk to a doctor first.",
+   "After a week, Mei feels less stiff and a little happier.",
+   "Mei sits on a chair and breathes slowly for a while.",
+   "Breathe in for four counts, then out for six.",
+   "Put a hand on your belly and feel it rise.",
+   "Mei counts her breaths, one to ten, and then starts again.",
+   "Some people breathe in a square: in, hold, out, hold.",
+   "If you have asthma, keep your breathing gentle and easy.",
+   "Elena takes three slow breaths while the kettle boils.",
+   "Elena and Mateo breathe like big balloons, together.",
+   "Mei uses slow breaths before a hard email at work.",
+   "Breathing is a two-minute part of the hour, if you like it.",
+   "Mei sits still and quiet by the window for five minutes.",
+   "Meditation means watching one thing, like your breath, on purpose.",
+   "When thoughts come, Mei notices them and gently returns.",
+   "Everyone's mind wanders, so a busy mind is normal.",
+   "Mei feels restless, and she listens to the fridge hum.",
+   "Studies say meditation can help with stress a little.",
+   "Quiet can also mean slow tea or just looking outside.",
+   "Mei sets a soft timer, so she does not watch the clock.",
+   "Mei sits in the same chair in the same corner.",
+   "Mei waits one breath before she answers an angry colleague.",
+   "Mei writes three things she is thankful for each day.",
+   "Small details work better than big, general words.",
+   "Mei writes about a kind neighbour and a hot shower.",
+   "On a bad day, Mei writes just one small true thing.",
+   "Mei writes a few lines about what is on her mind.",
+   "This writing is only for you, so nobody will read it.",
+   "Writing can help you clear a crowded mind.",
+   "Mei likes paper because paper never sends her messages.",
+   "After two weeks, Mei reads her old pages and learns something.",
+   "Elena writes only one line a day about her son.",
+   "Mei reads ten pages of a good book each morning.",
+   "Mei keeps her book on the chair where she sits.",
+   "If ten pages is too many, read only two.",
+   "You can also listen to a book while you walk.",
+   "Mei writes new words in her notebook and says them aloud.",
+   "Mei looks at yesterday's words before she learns new ones.",
+   "You can learn anything small: a chord, a puzzle, a word.",
+   "Mei stops while the lesson is still fun for her.",
+   "After three weeks, Mei has read a whole book.",
+   "Reading and learning take about twenty minutes together.",
+   "Mei writes her main goal on a card in big letters.",
+   "A clear goal is better than a vague goal.",
+   "Mei puts the card next to her notebook each morning.",
+   "Mei writes the three most important jobs for the day.",
+   "One of the three jobs is the most important one.",
+   "Mei closes her eyes and imagines the day ahead.",
+   "Mei imagines the meeting, and her first calm sentence.",
+   "Mei writes: at seven thirty, I sit down and study.",
+   "Mei thinks about problems, and she plans what to do.",
+   "Mei removes one job from her list, and she feels lighter.",
+   "Mei studies her exam book for twenty minutes.",
+   "In the morning, her mind is fresh and quiet.",
+   "Make the first step small: open the book and read one page.",
+   "Mei does not open her email before her own work.",
+   "Mei puts her phone in a drawer, and works on one thing.",
+   "Mei sets a timer for twenty minutes and then stops.",
+   "If you are stuck, begin with the easy part.",
+   "Dana writes one page of a story for her niece.",
+   "The first try can be rough, and that is fine.",
+   "Twenty minutes a day for a month makes ten hours.",
+   "Mei eats her breakfast slowly at the sunny table.",
+   "This book has no diet, so eat what you enjoy.",
+   "Mei eats without her phone, and notices the taste.",
+   "Mei turns on happy music and dances in her kitchen.",
+   "Mei chooses three happy songs and plays them each morning.",
+   "Mei buys a nice mug, and her tea tastes better.",
+   "Mei waters her plants on the balcony in the cool air.",
+   "A neighbour sees Mei dancing, and they both laugh.",
+   "On Friday, Mei buys a small treat for herself and Dana.",
+   "Mei's morning now has some fun in it, not only effort.",
+   "You do not need everything, just choose a few parts.",
+   "Start with ten minutes, and add more later.",
+   "A ten-minute start: water, light, a stretch, three lines.",
+   "Do it at the same time each day, and it gets easy.",
+   "Mei puts her notebook next to the kettle.",
+   "A new habit can take weeks or months to settle.",
+   "Make it easy: leave the mat where you can see it.",
+   "When you add a new part, take another one away.",
+   "Do not compare your morning with other people's mornings.",
+   "Mei picks five parts, and she makes her own hour.",
+   "In week four, Mei sleeps badly and wants to stop.",
+   "A big work deadline keeps Mei at the office late.",
+   "A voice in her head says it is all pointless.",
+   "On tired mornings, Mei does a very short version.",
+   "Mei writes a three-step plan for bad days.",
+   "If Mei misses a day, she starts again tomorrow.",
+   "One missed day does not mean that you have failed.",
+   "Sometimes the best choice is to stay in bed and rest.",
+   "Mei has a cold, so she stays in bed and rests.",
+   "A routine that can bend will last a long time.",
+   "Kofi's first hour begins when he wakes, in the afternoon.",
+   "Kofi works from seven at night until seven in the morning.",
+   "After work, Kofi wears sunglasses on his walk home.",
+   "Kofi uses thick curtains and a quiet room to sleep in the day.",
+   "Kofi tells his family when he sleeps, so they stay quiet.",
+   "Kofi opens his curtains, drinks water and stretches in the light.",
+   "Kofi's colleague Joy laughs, but she joins him for tea.",
+   "Night work can be hard on sleep and health.",
+   "Kofi packs a good meal and keeps coffee for early.",
+   "On days off, Kofi sleeps a little later, not much.",
+   "Elena stretches in the living room, and Mateo copies her.",
+   "Elena and Mateo open the curtains and look outside.",
+   "If a parent is very tired, sleep is more important.",
+   "On Saturdays, Omar plays with Mateo, and Elena has time.",
+   "If you are a night person, do not force an early start.",
+   "If you must wake earlier, move it by fifteen minutes.",
+   "On weekends, Mei does a slower and easier version.",
+   "A short version can travel with you on a trip.",
+   "In a small home, find a corner or use headphones.",
+   "Elena does her routine on four days out of seven.",
+   "This is not a cure, and some days are just sad.",
+   "If you feel low for two weeks, see a doctor.",
+   "If you are always very sleepy, ask a doctor.",
+   "A routine cannot fix too much work or money worries.",
+   "This book gives general ideas, and it is not medical advice.",
+   "Be careful of books that promise to change your life.",
+   "Waking early does not make you a better person.",
+   "Stories about famous people who wake early prove nothing.",
+   "The phone is not bad; just check it later, on purpose.",
+   "When Mei's father is ill, her routine helps her stay steady.",
+   "Mei puts a green tick on her calendar each day.",
+   "A missing tick is only information, not a punishment.",
+   "Mei and Dana drink coffee and compare their notebooks.",
+   "Mei and Dana send a short message each morning.",
+   "In week six, Dana is tired and wants to stop.",
+   "After two weeks, Mei looks at what helps and what does not.",
+   "Mei asks herself four questions about the last two weeks.",
+   "Mei moves her free writing from the morning to the evening.",
+   "A colleague asks Mei about her mornings, and she answers simply.",
+   "Each evening, Mei rates her day from one to ten.",
+   "After a month, Mei feels calmer, and her work is done.",
+   "Kofi sleeps a little better now, but not every day.",
+   "Elena's mornings are still busy, but they feel warmer.",
+   "This routine gives small gains, not big miracles.",
+   "In spring, Mei takes her exam and she passes it.",
+   "Mei reads her first page, and she smiles at it.",
+   "Drink water, find light, move, sit quietly, plan, and take one step.",
+   "Write your own list of the parts that you like.",
+   "The first weeks are practice, not a test.",
+   "Tonight, put out a glass of water, and set your alarm."
+  ],
+  "B1B2": [
+   "For many people, the first minutes of the day belong to the phone. Messages, news and other people's demands arrive before the person is even awake.",
+   "Mei used to press snooze three times, check her phone and then rush out of the door. She arrived at work already tired, with her toast still in her hand.",
+   "Before she has even brushed her teeth, Mei has read three work messages and a worrying headline. Her heart is already beating faster, and she has not yet put her feet on the floor.",
+   "By the middle of the afternoon, Mei is drinking her third coffee and staring at the same spreadsheet. In the evening she is too tired to do anything except scroll again.",
+   "One Sunday there is no alarm, and Mei wakes slowly while the sun creeps into the room. She drinks her tea by the window, and for once nothing is chasing her.",
+   "At lunch on Monday, her friend Dana says that Mei looks tired and asks how she is sleeping. Mei laughs and admits that her mornings are a mess.",
+   "Dana explains that she spends ten quiet minutes each morning with a cup of tea and a notebook, before she touches her phone. It is not magic, she says, but it helps her feel ready.",
+   "Mei shakes her head and says that she is simply not a morning person. Dana smiles and answers that nobody has to become one, because the aim is a calmer start and not an early one.",
+   "On her way home Mei buys a small green notebook and a box of tea. She makes a modest promise to herself: ten minutes each morning for one week, and then she will decide.",
+   "This book has one simple idea, and it is easy to say. Choose how your first hour will go, and use it to start the day in a way that you would like.",
+   "Let us be honest with each other from the start. People have different body clocks, and getting up very early does not suit everyone.",
+   "Some people naturally wake early and feel best in the morning, while others come alive late at night. Scientists think this difference is partly inherited, so it is not simply a question of willpower.",
+   "The first hour in this book is not tied to the clock on the wall. It begins whenever you wake up, whether that is at five in the morning or at three in the afternoon.",
+   "Meet Kofi, a nurse who works the night shift on a busy hospital ward. He goes to bed when most people are waking up, so his mornings arrive in the afternoon.",
+   "Meet Elena, whose son Mateo is two years old and wakes before the sun every day. Her mornings belong to him, and she cannot imagine finding a quiet hour in them.",
+   "Throughout this book, Mei, Kofi and Elena will show you three different ways to build a first hour. Their lives are very different, but they all want the same thing, which is a calmer start.",
+   "A first hour can contain a number of small parts: water, light, movement, quiet, writing, learning, a plan and one small step. You will meet each of them in turn, and you are free to use only the ones that suit you.",
+   "There is one rule in this book, and it is a kind one. Take the parts that suit you, leave the others, and never feel guilty about what you leave behind.",
+   "Ten minutes is enough to count as a real first hour, at least when you are beginning. A small routine that you keep is worth far more than a grand one that you abandon after three days.",
+   "Before she starts, Mei writes down what she wants from her mornings. She chooses three words in her green notebook: calm, time and choice.",
+   "A good morning really starts on the night before it. Health organisations say that most adults need at least seven hours of sleep, although the exact amount differs from person to person.",
+   "Mei counts the hours between her bedtime and her alarm, and the answer surprises her. She gets about six hours on most nights, which is less than she thought.",
+   "Going to bed and getting up at similar times helps your body clock to settle. It does not have to be exact, but big changes from one day to the next make mornings harder.",
+   "An hour before bed, Mei dims the lights and puts her phone on a shelf far away. The quiet gives her tired mind plenty of time to slow down.",
+   "Caffeine stays in your body for many hours, so a coffee late in the afternoon can still be working at bedtime. Mei decides to stop drinking coffee after lunch and sees how she sleeps.",
+   "A very heavy meal late in the evening can make it harder to settle down. Alcohol may help you fall asleep at first, but it often makes your sleep lighter later in the night.",
+   "Many sleep experts suggest a bedroom that is dark, quiet and a little cool. Mei hangs a heavier curtain over the window, and she turns off the small light on her laptop.",
+   "Mei often lies awake because her mind keeps listing tomorrow's jobs. So before bed she writes them on a sheet of paper, and some small studies suggest this can help people fall asleep.",
+   "Sometimes sleep simply does not come, and that happens to everyone. If you have been awake for a long time, get up, do something quiet in dim light and return to bed when you feel sleepy.",
+   "On Sunday night Mei turns off her lamp at half past ten, and she wakes just before the alarm rings. She still feels a little sleepy, but it is a much kinder kind of sleepy.",
+   "Before bed, Mei puts a glass of water, a set of clean clothes and her notebook on a chair. Tomorrow's first minutes will be easier because tonight has already done some of the work.",
+   "Mei also packs her bag, finds her keys and puts everything beside the front door. The old morning search for lost things, which used to make her late, simply disappears.",
+   "Mei used to keep her phone under her pillow, so the snooze button was always within reach. Now she puts the alarm across the room, which means she has to stand up to turn it off.",
+   "Mei changes her harsh, loud alarm to a soft piece of music that begins quietly and slowly grows. A pleasant sound is a kinder first message to send to a sleepy brain.",
+   "On the first morning, the alarm plays, and Mei groans, swings her legs out of bed and walks across the room. She is not happy about it, but she is up, and that is the hardest part.",
+   "Mei leaves her phone on the dresser and goes to the window instead. She gives herself a few quiet minutes before the world is allowed to reach her.",
+   "Pressing snooze feels lovely for nine minutes, but then you must wake up anyway. The research on snoozing is mixed, yet one clear wake-up is simpler and leaves no room for argument.",
+   "Mei writes one small reason to get up on a card by her bed. It is nothing grand, just a hot cup of tea by the window, but a pleasant reward helps her feet reach the floor.",
+   "Mei makes her bed before she does anything else, and it takes about a minute. It is a tiny job, but it gives her a first small success and a tidier room to return to.",
+   "On the second morning, Mei feels just as tired, and the bed looks even more inviting than before. She stands up anyway, because she made a promise and a promise is easier to keep when it is small.",
+   "The first thing Mei does is open the curtains and let the daylight in. Morning light helps to set your body clock, and it tells your brain that the day has begun.",
+   "Even on a grey and cloudy day, the light outdoors is far brighter than the light in most rooms. That is why a few minutes by an open window or outside the door can matter.",
+   "In winter it can still be dark when Mei wakes, so she turns on a bright lamp in the kitchen. Some people use special light lamps, and anyone whose winter mood is very low should talk to a doctor.",
+   "After the curtains, Mei pours a tall glass of water and drinks it slowly by the window. She has not had a drink for hours, and it feels like a small and sensible kindness.",
+   "Nothing in this book is against coffee, and you do not have to give up your favourite morning drink. Mei simply drinks a glass of water first, then enjoys her coffee with more attention.",
+   "Next Mei washes her face and puts on her clean clothes. Her body knows that these small actions mean the day has begun, even if the sky is still dark.",
+   "Some people work from home and are tempted to stay in their pyjamas all day. Dressing for the day, even in comfortable clothes, can help you feel ready and mark the line between rest and work.",
+   "Standing at the window with her water, Mei begins to notice things she never saw before. She sees the colour of the sky, a neighbour's cat on a wall and small birds on the wire.",
+   "After a few days, the first three steps run together without any effort. Curtains, water and a wash take Mei about seven minutes, and she no longer has to think about them.",
+   "Mei looks at the clock and sees that twenty minutes have passed since she woke up. She has not checked her phone or thought about work, and she feels surprisingly calm.",
+   "After her wash, Mei unrolls a mat beside her bed and moves her body for a few minutes. She does not push hard, because the aim is to wake up and not to punish herself.",
+   "Her routine is made of three easy moves: reach both arms up high, roll the shoulders slowly and bend gently forward. If anything hurts, she stops, because stretching should feel pleasant and never painful.",
+   "Even a single minute of movement can help your body feel more awake after hours of lying still. If you have only a tiny window of time, spend it on moving.",
+   "The World Health Organization suggests that adults aim for at least one hundred and fifty minutes of moderate activity a week. That is a general guide, and any amount of movement is better than none.",
+   "On the fourth morning, Mei walks for ten minutes along her quiet street. A short walk outside gives her daylight and movement at the same time, which is a bargain.",
+   "Mei does the sums and is pleased with the result. Ten minutes a day, for seven days, comes to seventy minutes, which is already nearly half of the weekly guide.",
+   "How fast should you walk or move for it to count as moderate? A common rule is that you should be able to talk but not sing a whole song.",
+   "Health guidelines also suggest that adults strengthen their muscles on at least two days a week. Mei begins very gently with five slow stands from a chair, and she counts them aloud.",
+   "If you have a heart problem, an injury, a long illness or a pregnancy, speak to a doctor before you begin. Everyone should start slowly and build up, and no routine is worth hurting yourself for.",
+   "By the end of the week, Mei notices that her back feels looser and her mood is a little lighter. Studies suggest that movement can help mood in modest ways, though everyone responds differently.",
+   "After moving, Mei sits in a chair and breathes slowly with her eyes closed. A few minutes of slow breathing can calm many people, and the research is promising even though it is mixed.",
+   "The method is very simple, and anyone can learn it in a minute. Breathe in gently through your nose for a count of four, then breathe out slowly for a count of six.",
+   "Mei puts one hand on her belly and feels it rise and fall with each breath. If she ever feels dizzy, she stops and breathes normally, because there is no prize for forcing it.",
+   "When her thoughts race around the room, Mei counts her breaths from one to ten. The numbers give a busy mind something simple to hold, and when she loses count she just starts again.",
+   "Some people prefer a square pattern: in for four, hold for four, out for four and hold for four. If holding your breath feels uncomfortable, simply leave out the holds.",
+   "People with asthma or other lung conditions should keep breathing exercises very gentle and ask a doctor if they are unsure. Slow breathing is meant to feel easy, never like hard work.",
+   "Elena has no quiet room, but she does have a kettle that takes two minutes to boil. She stands beside it, takes three slow breaths and watches the steam rise while Mateo plays.",
+   "One morning Elena invites Mateo to breathe like a balloon, filling up slowly and then letting the air out. He giggles, copies her and, for a few seconds, both of them are perfectly still.",
+   "After ten days, Mei notices that she uses the same slow breaths at work. Before she opens a difficult email, she pauses for a moment and lets her shoulders drop.",
+   "Breathing can be a two-minute part of your first hour, and no more than that. If you find that you do not enjoy it, you can drop it and try the next idea.",
+   "Now we come to the quietest part of the whole hour, which is the silence. Mei sits by the window for five minutes with no phone, no music and no book, and simply lets herself be still.",
+   "Meditation sounds mysterious, but at its simplest it means paying attention to one thing on purpose. That one thing can be your breath, a sound in the room or the feeling of your feet on the floor.",
+   "At first Mei's mind is crowded with thoughts about work, dinner and the thing she said last week. When she notices that she has drifted away, she gently brings her attention back to her breath.",
+   "Many beginners believe that meditation means having an empty mind, and they decide they are bad at it. But everyone's mind wanders, and a busy head is just the ordinary place where you begin.",
+   "On her first try, Mei is restless and checks the clock four times in five minutes. Then she hears the soft hum of the fridge, a sound she has heard every day and never noticed.",
+   "Studies suggest that meditation can modestly reduce stress and worry in some people. It is not a cure for any illness, and scientists are still working out who benefits most.",
+   "You do not have to meditate to enjoy a few quiet minutes. You can drink tea slowly, listen to the rain, say a prayer if you pray or simply look out of the window.",
+   "To stop herself checking the clock, Mei sets a soft timer for two minutes. When two minutes feels easy, she adds one more, and she builds up slowly over the weeks.",
+   "Mei always sits in the same chair in the same quiet corner of the living room. The place itself becomes a signal, and her mind begins to settle as soon as she sits down.",
+   "One afternoon a colleague speaks to Mei in a sharp voice. She feels the old anger rise, but she waits for one breath before answering, and her reply comes out calm and clear.",
+   "At the kitchen table, Mei opens her notebook and writes three short lines. Each line names something she is grateful for, and each one takes only a few seconds.",
+   "Studies suggest that writing about gratitude can lift mood a little for some people, though the effect is modest. Specific details seem to work better, so Mei writes about a particular moment rather than about her life in general.",
+   "On Tuesday Mei writes that her neighbour carried her bins in, that her shower was properly hot and that Dana told a joke at lunch. These are tiny things, and they make her smile.",
+   "Gratitude does not mean pretending that everything is fine. On a bad day Mei writes just one small true thing, such as the taste of toast, and that is enough.",
+   "After the thankful lines, Mei writes freely for a few minutes about whatever is on her mind. Her pen moves quickly, and she does not stop to fix anything.",
+   "This writing is only for you, so you can ignore spelling, grammar and style. Keep your pen moving, and if the subject becomes too painful, stop and speak to someone you trust.",
+   "Putting worries onto paper can make them feel smaller and clearer, as if you had moved them out of your head. Research on this kind of writing shows modest benefits, and it seems to help some people more than others.",
+   "Mei prefers a paper notebook because paper never sends her notifications or tempts her to check the news. Any tool that you will actually use is fine, though, so choose what works for you.",
+   "After two weeks, Mei sits down and reads her old pages from the beginning. She sees the same worries returning, but she also sees that many of them have already gone away.",
+   "Elena does not have time for three lines and a page of free writing. She writes just one line each morning, usually about something funny that Mateo did the day before.",
+   "Mei reads a few pages of a book that teaches her something or lifts her spirits. Ten pages a day add up to several books a year.",
+   "Choose a book that you actually want to read, and not one that you think you should. Mei leaves hers on her chair every night, so it is waiting for her in the morning.",
+   "If ten pages feels like too many, begin with two. Reading a little every day beats reading a lot now and then, because the habit builds the pile of finished books.",
+   "Not everyone enjoys reading print early in the morning, and that is perfectly fine. Listening to a book while you walk or tidy up the kitchen counts as feeding your mind too.",
+   "Next Mei spends ten minutes learning something that is new to her. She has always wanted to speak Spanish, so she writes five new words in her notebook and says each one aloud.",
+   "Before she learns new words, Mei reviews the ones from yesterday. Research on memory shows that coming back to something after a pause helps it stay in your mind for much longer.",
+   "The new thing does not have to be a language. It can be a guitar chord, a chess puzzle, a coding lesson or one new fact about the stars.",
+   "Mei has learned an important trick: she stops while the lesson is still interesting. If she leaves wanting a little more, she looks forward to returning tomorrow.",
+   "After three weeks, Mei has finished her first book, and she has learned about sixty new Spanish words. These numbers are not impressive on their own, but she had none of them before.",
+   "Reading and learning together take Mei about twenty minutes, although you can do either one in five. If your hour is short, you can skip this part, and the rest will still work.",
+   "Mei takes a plain card and writes her main goal on it in large letters. She wants to pass an important accounting exam in the spring, and she puts the card where she will see it.",
+   "A good goal is clear and specific, so it can be acted on. Instead of writing that she wants to do well, Mei writes her exam date and the hours she plans to study each week.",
+   "Every morning Mei props the card against her notebook and reads it once before she does anything else. It takes five seconds, and it reminds her what the effort is for.",
+   "Next Mei writes down the three most important tasks for the day on a sticky note. She does not try to list everything, only the things that truly matter.",
+   "One of the three tasks is always more important than the others. Mei circles it, and she tries to do it before the smaller jobs and the interruptions arrive.",
+   "Mei closes her eyes for a minute and imagines how the day will go. She pictures the steps she will take, and not only the happy result at the end.",
+   "She has a difficult meeting at two o'clock, so she pictures it in detail. She imagines the first sentence she will say, and how she will answer if someone interrupts.",
+   "Research suggests that plans of the form “when this happens, I will do that” help people to follow through. Mei writes, “At half past seven, I sit down at the table and study.”",
+   "Mei also thinks carefully about what might go wrong in the days ahead. If she feels too tired to study, she will read one page, because a plan for obstacles stops small problems becoming excuses.",
+   "One morning Mei sees that her list is too long, so she takes one task off it. She tells her manager that it will wait until Friday, and nothing bad happens.",
+   "Now Mei takes one small step on something that matters to her. She opens her exam textbook and studies one topic for twenty minutes, before the working day has even begun.",
+   "For many people the mind is freshest and quietest early in the day, before the demands of other people arrive. Mei finds that twenty minutes now are worth an hour in the tired evening.",
+   "If the task feels too big, make the first step tiny. Open the file, write one sentence or read one page, and you will often find that you keep going.",
+   "Mei leaves her laptop closed until her own work is finished. If she opens her email first, other people's priorities jump to the front of the line, and hers go to the back.",
+   "While she studies, Mei puts her phone in a drawer and works on one thing only. Research shows that switching between tasks costs time and attention, and each switch makes you a little slower.",
+   "Mei sets a timer for twenty minutes and promises to work until it rings. Knowing that the end is close makes it easier for her to begin, and then she rests for a short while.",
+   "Some mornings Mei feels stuck before she has even started. On those mornings she begins with the easiest part of the task, because a little success gives her the push to attempt the harder part.",
+   "Dana's own small step is very different from Mei's. She writes one page of a story for her young niece each morning, and she is already halfway through the book.",
+   "Dana's first pages are rough, and some of them are quite bad. She keeps them anyway, because she can improve a rough page, but she can do nothing with a blank one.",
+   "After a month of twenty-minute sessions, Mei has studied for about ten hours before breakfast. She did not sacrifice any evenings, and her exam now feels much less like a mountain.",
+   "At last Mei sits down to a proper breakfast, and for the first time in years she eats it slowly. She tastes the food instead of swallowing it on the way to the door.",
+   "This book is not a diet, and it has no food rules. Eat what you enjoy and what makes you feel good, and if you are not hungry in the morning, that is fine too.",
+   "Mei eats without a screen in front of her, and she begins to notice taste and texture. Some studies suggest that paying attention to a meal can make it more satisfying, though the evidence is modest.",
+   "Mei remembers that a routine should be fun, so one morning she turns on some lively music and dances around her kitchen. She feels silly for about ten seconds, and then she feels wonderful.",
+   "Mei makes a short list of three songs that always lift her mood, and she plays them while she gets ready. Soon the first notes work like a signal that tells her body the day is starting.",
+   "Mei decides to turn the hour into a small treat instead of a task. She buys a mug she loves, puts a candle on the table and keeps a soft blanket on her chair.",
+   "On her small balcony, Mei waters her plants and breathes the cool air. Time among green things is a gentle part of the hour, and many people say that it makes them feel calm.",
+   "One morning Mei looks up in the middle of a dance and sees her neighbour at the opposite window. Both of them burst out laughing, and the neighbour gives her a thumbs up.",
+   "After a full week, Mei marks the occasion with a small treat on Friday. She buys two pastries on her way to work, one for herself and one for Dana.",
+   "Mei notices that her mornings now contain pleasure as well as discipline, and that the pleasure is what keeps her coming back. A routine that is only a duty cannot last, but one that feels like a gift can.",
+   "Mei does not do everything on every single morning. You can choose only the parts that suit you, and drop anything that does not.",
+   "If you are a beginner, begin with just ten minutes. When that feels easy, add a few minutes at a time, and let the hour grow only if you want it to.",
+   "Here is a menu for ten minutes: a glass of water, some daylight, a gentle stretch and three lines in a notebook. It is small, but it contains a little of everything that matters.",
+   "Doing your routine at the same time each day makes it feel automatic. After a while you stop asking whether you will do it, and you simply do it.",
+   "Mei links her new habit to something she already does every day. She puts the notebook beside the kettle, so that making tea reminds her to write.",
+   "How long does it really take for a habit to form in a person? One well-known study found that it took about two months on average, but the range was huge, from a few weeks to many months.",
+   "A habit is easier to keep when the first step is easy. Leave the mat unrolled, the book on the chair and your shoes by the door, so that nothing stands in your way.",
+   "If you want to add something new, remove something else. An hour that keeps growing becomes a source of stress, and then it stops being a gift.",
+   "Online you will see photographs of perfect mornings, with green juice and sunrise yoga. They show the best minute of someone's day, so do not judge your own real routine against them.",
+   "By the third week, Mei has chosen the five parts that she likes best: light, water, a walk, three lines and twenty minutes of study. The routine takes about forty minutes, and it is entirely hers.",
+   "In the fourth week, everything goes wrong at once. Mei sleeps badly, the rain does not stop, and she lies in bed wondering why she ever began.",
+   "The end of the quarter has arrived, and Mei's work is piling up. She stays late at the office, gets home after nine and does not reach her bed until midnight.",
+   "A voice in Mei's head says that this is pointless and that she is just not a routine person. She notices the voice, thanks it for its opinion and does not let it make the decision.",
+   "On the tired mornings, Mei does a shortened version of her routine without any guilt. She drinks her water, looks out of the window and writes one line, and then she gets on with her day.",
+   "Mei writes a card for hard days, and it has only three steps: water, window and one line. When she is tired, she does not have to decide anything, and she just follows the card.",
+   "One morning Mei sleeps right through her alarm and misses everything. She does not scold herself, and the next day she simply picks up her notebook again.",
+   "Many people think, “I missed one day, so I have failed, and I might as well stop.” This all-or-nothing thinking has ended more good habits than any busy schedule.",
+   "If you are very short of sleep, the wisest choice may be to rest a little longer. A routine exists to serve you, and you do not exist to serve the routine.",
+   "Mei catches a cold and spends three days in bed with tea and tissues. The routine is not important when you are ill, and it will still be waiting when you are well again.",
+   "Mei learns that a routine which bends will last longer than one which is stiff and strict. By the end of that hard month she is prouder of her shortened mornings than of her best ones.",
+   "Kofi sits in his kitchen with a cup of tea while the afternoon sun slants across the table. For him this is the morning, and the first hour after he wakes belongs to him.",
+   "Kofi's shift runs from seven in the evening until seven in the morning. He checks on patients, gives medicines and answers calls, and the ward never really goes quiet.",
+   "When his shift ends, Kofi walks home as the sun rises, and he wears dark glasses. Some night workers find that avoiding bright light on the way home helps them to sleep more easily.",
+   "Sleeping in the daytime is difficult, so Kofi protects it carefully. He has thick dark curtains, a pair of earplugs and a phone that stays silent until he wakes.",
+   "Kofi explains his sleeping hours to his family and his neighbours, so that they know when to keep the noise down. Most people are happy to help once they understand.",
+   "When Kofi wakes, he opens the curtains, drinks a glass of water and stands on his balcony in the daylight. He stretches for five minutes and reads ten pages of a novel before he thinks about work.",
+   "His colleague Joy laughs when Kofi tells her about his first hour. A week later she joins him for a cup of tea before their shift and admits that it is rather nice.",
+   "Night work can be hard on sleep and health over many years, and researchers continue to study this. If you work nights and you are struggling, talk to a doctor or your workplace health service.",
+   "Kofi packs a proper meal and some fruit to take with him, and he has his coffee in the first half of the shift. Many night workers find that late caffeine makes daytime sleep much harder.",
+   "On his days off, Kofi must choose between his night schedule and his family's day. He moves his sleep partway, not all the way, and he keeps his first hour at roughly the same time.",
+   "Elena begins her first hour when Mateo wakes, and she does not hide from him. She stretches in the living room, and he copies her and giggles.",
+   "Each morning Elena carries Mateo to the window, and together they open the curtains and say good morning to the sun. Daylight helps her body clock, and it gives Mateo a happy ritual too.",
+   "Many guides tell parents to wake before their children, but Elena disagrees. When she has had a broken night, sleep matters more than any routine, and she does not feel guilty about it.",
+   "Elena's husband Omar leaves early for work on weekdays, but on Saturdays he takes charge of Mateo. That gives Elena twenty minutes for herself, and she uses them very carefully.",
+   "If you are an evening person, do not force yourself to rise at five. A first hour that begins at nine, when your mind is ready, is better than a miserable one that begins at five.",
+   "Some owls have to start work early, and then they must adjust. Move your wake time earlier by about fifteen minutes every few days, and get as much morning light as you can.",
+   "On Saturdays and Sundays Mei uses a gentler version of her hour. She still enjoys her tea and a few pages of a book, but she keeps the alarm off.",
+   "When Mei travels, she takes her small notebook and a pen in her bag. In a strange hotel room, the same few minutes make her feel at home.",
+   "If you live in a small or shared home, you may not have a private room. Find a corner, wear headphones or earplugs, or use the bathroom for your five quiet minutes.",
+   "At the end of the month Elena counts her ticks, and she has done something on four days out of seven. She is delighted, because four is much more than none.",
+   "A morning routine is not a cure for anything. If you feel low for a long time, it is wise to talk to a doctor, and there is no shame in doing so.",
+   "If low mood, constant worry or very poor sleep lasts for more than two weeks, please speak to a doctor. If you ever have thoughts of harming yourself, contact emergency services or a crisis line at once.",
+   "If you are sleepy all day despite a full night in bed, or if you snore loudly and stop breathing for moments, tell a doctor. Some sleep problems have causes that a routine cannot fix.",
+   "A morning routine cannot fix too much work, money worries or heavy duties at home. For those problems you need practical help, a frank conversation or a change in your situation.",
+   "This book is general information and is not medical advice. It cannot know your body, your history or your medicines, so ask a professional about anything that concerns you personally.",
+   "Be wary of anyone who promises to change your life in thirty days. Real change is slow and uneven, and the people who sell miracles are usually selling something else.",
+   "Rising early does not make anyone a better person, and night owls are not lazy. What matters is that you use your waking hours in a way that you are proud of.",
+   "You will read that famous and successful people all get up at five. Those stories are anecdotes, and nobody counts the successful people who sleep late or the early risers who fail.",
+   "The phone is not an enemy, and this book is not against technology. It is simply a question of who chooses the timing, so check your phone after your first hour and do it on purpose.",
+   "When Mei's father goes into hospital for a week, her routine shrinks to five minutes. Even so, the water, the window and the quiet help her to feel steady and ready for a hard day.",
+   "Mei hangs a calendar on the kitchen wall and puts a green tick on every day that she does her hour. Even a shortened hour earns a tick, and the ticks begin to form a chain.",
+   "Tracking should encourage you and never scold you for a missed day. A missing tick is only information, and it tells you something about your week without saying anything about your worth.",
+   "Mei and Dana meet for coffee on Saturday and compare their notebooks. Having a friend who is trying the same thing makes both of them feel less alone and more determined.",
+   "Each morning, when she finishes her hour, Mei sends Dana a single word and a smile. It takes five seconds, and an answer usually comes back before she has put her shoes on.",
+   "In the sixth week it is Dana who struggles, and she tells Mei that she wants to stop. Mei does not give a lecture; she just listens and says that she will be there tomorrow.",
+   "After two weeks, Mei sits down to review her hour. She looks at what helps and what does not, and she decides to keep the good parts and drop the others.",
+   "Mei asks herself three simple questions: what did I enjoy, what did I skip and what made me feel better? Then she asks a fourth, which is what she would like to change, and she writes honest answers beneath each one.",
+   "Mei notices that she never enjoys free writing in the morning, but she likes it at night. So she moves it to the evening and uses the time she has saved to walk for longer.",
+   "A colleague asks why Mei looks so calm these days, and she answers lightly. She says what she does and what she has learned, and she does not tell anyone that they should copy her.",
+   "Each evening Mei gives her day a score from one to ten, and she writes it in the corner of the calendar. After a month she looks at the trend and ignores single good or bad days.",
+   "After a month, Mei finishes an important report a day early and leaves the office on time. She is not a different person, but she feels calmer and more in charge of her days.",
+   "Kofi sleeps a little better after a month, and he arrives at the ward feeling more awake. Hard nights still happen, and he accepts that without blaming himself.",
+   "After a month, Elena's mornings are just as busy as before, and Mateo is just as loud. But the tiny ritual at the window makes them feel warmer, and she feels more like herself.",
+   "You should be realistic about what to expect from a morning routine. A good routine brings modest gains in calm, focus and mood, but it will not transform your life overnight.",
+   "In the spring, Mei sits her exam and passes. She is the first to say that the studying did the real work, and that the quiet hour simply made room for it.",
+   "One morning Mei turns back to the first page of her notebook, where she wrote three words. Calm, time and choice are all still there, and now she knows that they were never far away.",
+   "Here is the whole hour, told in a few short steps. Drink water, find some light, move your body, sit quietly, choose three tasks and take one small step.",
+   "Take a clean page and write your own menu in your own words. Choose the parts that suit you, decide when your first hour begins and give it a name that you like.",
+   "Be kind to yourself during the first weeks, because they are practice and not an exam. You will forget, you will oversleep and you will change your mind, and all of that is part of learning.",
+   "Tonight, put out a glass of water and a notebook, and set your alarm across the room. Tomorrow, give yourself just ten good minutes, and let your first hour begin."
+  ],
+  "C1C2": [
+   "For a great many of us, the first minutes of the day are surrendered to a glowing screen before we have fully opened our eyes. News, messages and other people's demands pour in while we are still half asleep, and we begin the day by reacting rather than choosing. It is not a crime, but it is worth asking whether it is the beginning we would pick.",
+   "Mei, an accountant, used to press the snooze button three times, scroll through her phone in bed and then fly around the kitchen looking for her keys. She would arrive at the office breathless and slightly resentful, with a piece of toast in one hand and a day that already seemed to be running without her. She did not hate her mornings, but she had certainly never chosen them for herself.",
+   "Before her feet have touched the floor, Mei has read three work messages, a worrying headline and a note from someone she has not seen in years. None of it needs an answer at six in the morning, yet all of it asks for a small piece of her attention. By the time she reaches the kettle she is already tired, and she has not done one thing that she actually chose.",
+   "By the middle of the afternoon, Mei is on her third coffee and staring at the same spreadsheet without really seeing it. The evening offers no relief, because she is far too drained to cook properly, read or call a friend, and so she scrolls once more. The day that began in a rush ends in a fog, and the next morning is waiting to repeat the pattern.",
+   "One Sunday, with no alarm and nowhere to be, Mei wakes slowly while the sunlight creeps across the floor. She drinks her tea at the window, watches a neighbour water a row of plants and notices that her shoulders have dropped. It is only twenty minutes, but it feels like the first time in months that a morning has belonged to her.",
+   "At lunch on Monday, her friend Dana looks across the table and says, quite gently, that Mei seems exhausted. Mei laughs, then admits that her mornings are a mess, and that she has begun to dread the sound of her own alarm. Dana nods slowly, with the look of someone who knows exactly what that feels like, and who has been through it herself.",
+   "Dana explains that she spends ten quiet minutes each morning with a cup of tea and a small notebook, before she so much as glances at her phone. She is careful to say that it is not magic and that it has not changed her life overnight. It simply helps her feel like the person who runs her day, instead of the person chased by it.",
+   "Mei shakes her head and insists that she is simply not a morning person, and that she never will be. Dana smiles and replies that nobody is asking her to become one, since the aim is a calmer beginning and not necessarily an earlier one. Mei is not convinced, but the idea stays with her for the rest of the afternoon.",
+   "On her way home that evening, Mei stops at a stationery shop and buys a small green notebook and a box of tea she has never tried. She makes herself a modest promise, which is ten minutes each morning for one week, after which she will decide honestly whether it is worth continuing. A promise that small, she reasons, is hard to be afraid of, and it is surely hard to break as well.",
+   "This book offers a simple idea: choose how your first waking hour will go, instead of letting it happen to you. A short, kind and well-planned beginning will not solve your problems, but it can set the direction of everything that follows. Think of it as the first brushstroke on a blank canvas, which tells the rest of the painting where to go.",
+   "Let us be honest from the start, because there is no magic in a morning routine. People have different natural body clocks, and the evidence does not show that getting up at dawn is better for everybody. What matters is not the hour you wake but what you do with the first hour after you do.",
+   "Some people are naturally early risers who feel sharpest at breakfast, while others come alive at ten at night and feel foggy until noon. Researchers believe this difference is partly inherited, which means it is not simply a question of laziness or willpower. Teenagers, as a group, tend to drift towards later hours, which is one reason school mornings can feel like a battle.",
+   "The first hour in this book is not tied to the numbers on a clock. It begins whenever you wake up, whether that is at five in the morning or at three in the afternoon, and it ends when the day's real work begins. That is the whole point: you are choosing how to begin, not proving that you can wake before the birds.",
+   "Meet Kofi, a nurse who works the night shift on a busy hospital ward and walks home through the first grey light of day. He goes to bed when most people are waking up, and he gets up when they are thinking about supper. For Kofi, a morning routine sounds like something that was written for other people.",
+   "Meet Elena, whose son Mateo is two years old and wakes before the sun with a shout of delight. Her mornings belong entirely to him, and the idea of a calm, private hour seems to her about as realistic as a holiday on the moon. She is tired, she is busy, and she is exactly the person this book is for.",
+   "Throughout this book, Mei, Kofi and Elena will show you three different ways of building a first hour, because no single routine can suit every life. Their jobs, their families and their body clocks could hardly be more different, yet they all want the same thing, which is a start that feels chosen. Watch closely how each of them bends the same few ideas until they fit a life that looks nothing like the others.",
+   "A first hour can contain a handful of small, simple parts: water, daylight, movement, a few quiet minutes, some writing, some learning, a plan for the day and one small step forward. You will meet each of them in turn, and none of them is compulsory. Think of the list as a menu that you can order from at will, and not as a set of orders that must be obeyed.",
+   "There is one rule in this book, and it is a deliberately kind one. Take the parts that suit you, leave the others where they are, and never allow yourself to feel guilty about what you leave behind. Guilt has ruined more good habits than laziness ever did, and it has no place at your table.",
+   "Ten minutes is enough to count as a genuine beginning, particularly while you are still discovering what suits you. A modest routine that you keep is worth far more than a magnificent one that you abandon after three days, because only the former can alter the way your mornings feel. The hour can always expand later, if you wish it to, but only once the small version has become a comfortable habit.",
+   "Before she starts anything, Mei opens the green notebook and writes down what she actually wants from her mornings. She chooses three plain words, which are calm, time and choice, and she underlines each of them twice. It is not a plan yet, but it is a direction, and a direction is where every plan begins.",
+   "A good morning begins the night before, because no routine can replace the sleep you did not get. Health organisations generally advise that most adults need at least seven hours a night, although the exact amount differs from person to person. If you are always short of sleep, protecting your bedtime will do more for your mornings than any alarm.",
+   "One evening Mei counts the hours between lying down and her alarm clock, and the answer surprises her. On most nights she gets about six, because she lies in the dark scrolling for an hour before she finally falls asleep. No wonder the snooze button had come to feel like her only friend, since it was the one thing that promised her a little more rest.",
+   "Going to bed and waking at roughly the same times each day helps your body clock to settle into a steady rhythm. It does not have to be exact to the minute, but large swings from one night to the next tend to make mornings heavier. Think of regular hours as a quiet kindness that you offer in advance to tomorrow's tired and grateful self.",
+   "An hour before bed, Mei dims the lights, puts her phone on a shelf across the room and picks up a book. The quiet gives her mind time to slow down, and the absence of bright screens may make falling asleep a little easier. It is a small ritual, but it is the real beginning of the next morning.",
+   "Caffeine lingers in the body for many hours, so a cup of coffee in the late afternoon may still be working against you at bedtime. People differ greatly in how sensitive they are, but Mei decides to stop drinking coffee after lunch and see what happens. She switches to tea, then to water, and quietly keeps a note of the results.",
+   "A very large meal late in the evening can leave you restless, and alcohol, although it may make you drowsy at first, often makes sleep lighter and more broken later in the night. Mei does not give up her pleasures, but she moves dinner a little earlier and enjoys her evening drink less often. The effect is modest, yet she notices it by the weekend, when she wakes before the alarm without any resentment at all.",
+   "Many sleep experts suggest a bedroom that is dark, quiet and a little on the cool side, since the body tends to drop its temperature as it falls asleep. Mei hangs a heavier curtain over the window and covers the tiny glowing light on her chargers. Nothing in the room is expensive, but the whole place now feels like an invitation to rest.",
+   "Mei often lies awake because her mind keeps rehearsing tomorrow's jobs, as if it were afraid of forgetting them. So before bed she writes the whole list on a sheet of paper, and a few small studies suggest that this simple act can help some people fall asleep sooner. Once the worries are on the page, her head no longer has to guard them.",
+   "Sometimes sleep simply refuses to come, and that happens to everyone now and then. If you have been awake for a long while, many experts suggest getting up, doing something quiet in dim light and returning to bed only when you feel drowsy. Lying there angry at the clock tends to make the problem worse, not better.",
+   "On Sunday night Mei turns off the lamp at half past ten, and when morning comes she wakes just before the alarm instead of in the middle of a bad dream about it. She is still a little sleepy, but it is a gentler, more manageable kind of tiredness. The first lesson of the hour, she realises, was learned before the hour had even begun.",
+   "Before she goes to bed, Mei places a glass of water, a clean set of clothes and her green notebook on the chair beside her bed. It takes three minutes, yet it removes a dozen small decisions from a time of day when she is least able to make them. Tomorrow morning will therefore begin with the work already half done, and with one less reason to complain about the alarm.",
+   "Mei also packs her bag, finds her keys and lays everything out beside the front door, in the same place each night. The old morning treasure hunt, which used to make her late and cross, quietly disappears. It turns out that a surprising amount of morning stress is just the search for things that were never put anywhere.",
+   "Mei used to keep her phone under the pillow, which meant that the snooze button was always within lazy reach. Now she puts it on a dresser on the far side of the room, so that she must get out of bed and walk to silence it. By the time she gets there, she is already standing, and standing is half the battle.",
+   "Mei replaces her harsh, jangling alarm with a soft piece of music that starts quietly and grows slowly louder. It seems a trivial change, but a pleasant sound is a kinder first message for a sleepy brain than a siren is. She wakes up less angry than she used to, and that small improvement in her temper makes the next step of the morning noticeably easier.",
+   "On the first morning the alarm begins to play, and Mei groans, swings her legs out of bed and shuffles across the room to silence it. She is not delighted about it, but she is upright, and she has not yet lost a single minute to her phone. In that small moment she senses that the day has started on her terms.",
+   "Mei leaves her phone face down on the dresser and walks to the window instead. She gives herself a few quiet minutes before the outside world is permitted to reach her, and nothing terrible happens in that time. The news, she discovers, can wait for a quarter of an hour, and so can the rest of us.",
+   "Pressing snooze feels wonderful for about nine minutes, after which you must wake up anyway, and often more groggily than before. The research on snoozing is genuinely mixed, and some people seem to cope with it quite well. Even so, a single clear wake-up is simpler, and it saves you from negotiating with yourself every single morning.",
+   "Mei writes one small reason for getting up on a card beside her bed, and she reads it before she turns off the lamp. It is nothing grand, merely a hot cup of tea by the window in a quiet kitchen, but a modest pleasure waiting at the other end of the effort helps her feet find the floor. We do not always need a great purpose; sometimes a good teabag is enough.",
+   "Before she does anything else, Mei pulls the covers straight and smooths the pillow, which takes barely a minute. It is a tiny job, and it will not change the world, but it gives her a first small success and a tidier room to return to at night. Nobody has proved that a made bed makes a better life; it simply feels like a good place to begin.",
+   "On the second morning, Mei feels every bit as tired as she did on the first, and the bed seems to call her name from across the room. She stands up anyway, because she made herself a very small promise, and small promises are the easiest kind to keep. The secret of the hour is not enthusiasm; it is simply the act of arriving.",
+   "The first thing Mei does each morning is pull open the curtains and let the daylight flood in. Morning light helps to set the body's internal clock, and it sends a clear signal to the brain that the day has begun. No cup of coffee, however strong, has ever managed such an elegant trick without a single drop of effort from the drinker.",
+   "Even on a grey and cloudy day, the light outdoors is many times brighter than the light inside most homes, which is why a few minutes near an open window or at the front door can do real work. Your eyes are built to notice this difference, and your body clock listens to what they report. A sunny morning is lovely to have, but it is not required, and the habit works on the dullest and greyest days of the year as well.",
+   "In the depths of winter it is often still dark when Mei wakes, so she switches on every bright lamp in the kitchen and eats her breakfast in that glow. Some people also use special light lamps made for the purpose, though these are best discussed with a doctor, particularly if the winter gloom feels heavy and does not lift. Whatever you decide to do about the darkness, do not suffer in silence, and do not imagine that you are the only one who feels it.",
+   "After the curtains comes the water, and Mei pours a tall glass and drinks it slowly beside the kitchen window. She has not had anything to drink for seven or eight hours, and the cold, clean taste feels like a small and sensible kindness to a sleepy body. It is hardly a ritual at all, and that is exactly why she keeps doing it.",
+   "Nothing in this book is against coffee, and nobody is asking you to give up your favourite morning drink. Mei simply drinks a glass of plain water first, then makes her coffee and enjoys it with more attention than before. A sensible habit does not need to be a grim one, and a little enjoyment is a sign that you have chosen well.",
+   "Next Mei washes her face with cool water, brushes her teeth and puts on the clean clothes that she laid out the night before. These are small actions, but they tell the body, in a language it understands, that the day has genuinely begun. She feels less like a sleepwalker drifting through the hours and more like a person who has plans and the time to carry them out.",
+   "Many people work from home these days, and the temptation to stay in pyjamas until lunchtime can be very strong. Dressing for the day, even in comfortable and unglamorous clothes, helps some people feel ready and marks the boundary between rest and work. It does not have to be a suit; it only has to be a signal.",
+   "Standing at the window with her glass of water, Mei begins to notice things that her rushed mornings had hidden from her. She sees the colour of the sky changing from grey to pale gold, a neighbour's cat walking along a wall and small birds quarrelling on a wire. The world, it seems, was always there, but she had never looked up from her phone.",
+   "After a few days, the first three steps begin to flow together without any real effort of will. The curtains, the water and the wash take Mei about seven minutes in all, and she no longer needs to remind herself what comes next. This is how a habit begins to form: not with a bang, but with a pleasant sense of familiarity.",
+   "Mei glances at the kitchen clock and realises that twenty minutes have passed since she woke, and in that time she has not checked her phone or thought about work. She feels surprisingly calm, as if somebody had turned down the volume of the whole world. It is a small victory, but she decides to notice it and enjoy it.",
+   "After her wash, Mei unrolls a thin mat beside her bed and moves her body gently for a few minutes. She does not push hard, because the aim is to wake the muscles up and not to punish them. Stiffness after a night of lying still melts away more quickly than she expected.",
+   "Her whole routine is made of three easy movements: reaching both arms towards the ceiling, rolling the shoulders slowly backwards and bending gently forward from the hips. If anything hurts she stops at once, since a stretch should feel pleasant and never painful. You do not need a class or a video for this, only a little floor and a little patience.",
+   "Even a single minute of movement can help the body feel more awake after hours of lying still. If your window of time is tiny, which is often the case for a parent or a busy worker, spend it on stretching or walking around the room. Small amounts of movement count for far more than we usually imagine, particularly when they are repeated every single day of the week.",
+   "The World Health Organization suggests that adults aim for at least one hundred and fifty minutes of moderate activity each week, spread across the days in whatever way suits them. That figure is a general guide and not a test you can fail, and any amount of movement is better than none. A few minutes each morning is a very good place to begin, and it is a better one than a heroic plan that you abandon by Friday.",
+   "On the fourth morning, Mei steps outside and walks for ten minutes along her quiet street, past closed shops and a man sweeping his doorstep. A short walk gives her daylight and movement in a single action, which feels like a bargain. She returns home with pink cheeks, a lighter step and, for once in her busy life, a mind that is pleasantly empty.",
+   "Mei does the sums on the back of an envelope and is quietly delighted. Ten minutes of walking every day for a week comes to seventy minutes, which is already nearly half of the weekly figure suggested by health experts. Nobody needed to buy a gym membership, travel across town or change into special clothes, and the whole thing cost her nothing at all.",
+   "How fast should you walk, jog or swim for the effort to count as moderate activity, and how will you know? A common rule of thumb says that moderate activity should leave you able to hold a conversation but unable to sing a whole song without gasping. It is a rough guide, and it has the great advantage of needing no equipment at all.",
+   "Health guidelines also suggest that adults work their muscles on at least two days a week, and so Mei begins very gently with five slow stands up from a chair. She counts each one aloud, breathes steadily and does not hurry, since slow and careful movements are safer for a beginner. After a fortnight she may try six, and after another fortnight perhaps seven, but there is no hurry and no one is counting.",
+   "If you have a heart problem, an injury, a long-term illness or a pregnancy, it is wise to speak to a doctor before you begin any new exercise. Everyone, in any case, should start slowly and build up over time, and no routine is worth hurting yourself for. This book gives general ideas that many people have found useful, and it is not a substitute for personal advice from a qualified professional.",
+   "By the end of the first week, Mei notices that her back feels looser and that her mood is a little lighter by the time she reaches the office. Studies suggest that regular movement can lift mood in modest ways, though everyone responds differently and no single walk will cure a bad week. It is enough, for now, that she looks forward to the next one with something close to pleasure, which is rare for a person of her habits.",
+   "After her stretches, Mei sits in a chair, closes her eyes and breathes slowly for a few minutes. Slow breathing can calm many people, and the research on it is promising, although the results are mixed and the effects tend to be modest. It costs nothing, takes no skill and can be tried by anyone sitting down.",
+   "The method could hardly be simpler, and anyone who can sit in a chair can begin it today. Breathe in gently through the nose for a count of four, then let the breath out slowly through the mouth for a count of six, and repeat that for two or three minutes. The longer out-breath is what gives the exercise its soothing reputation, though the exact numbers are not sacred.",
+   "Mei rests one hand on her belly and feels it rise and fall with each breath, which gives her mind something definite to follow. If she ever feels dizzy or uncomfortable, she stops and breathes normally again, since there is no prize for forcing the exercise. Gentle is the only setting that works for this kind of exercise, and anything more forceful defeats its purpose before it has begun.",
+   "When her thoughts begin racing around the room like startled birds, Mei counts her breaths from one to ten and then begins again. The numbers give a busy mind something simple to hold, and when she loses count, which happens often, she merely starts over without fuss. Losing count is not a failure at all, because noticing that you have lost count and beginning again is exactly the exercise.",
+   "Some people prefer a square pattern, in which they breathe in for four counts, hold for four, breathe out for four and hold again for four. It suits those who like a clear structure, but if holding your breath feels uncomfortable, you can leave the pauses out entirely. The best pattern, in the end, is the one that you are willing and able to do again tomorrow morning without a fight.",
+   "People with asthma or other lung conditions should keep any breathing exercise very gentle, and they would be wise to ask a doctor if they are unsure. Slow breathing is supposed to feel easy and natural, and never like hard work or a contest. There is nothing to prove to anybody, so there is nothing to push against, and the whole exercise can be as soft as you like.",
+   "Elena has no quiet room and no spare half hour, but she does have a kettle that takes two minutes to boil. She stands beside it, takes three slow breaths with her eyes half closed and watches the steam curl upwards while Mateo bangs a wooden spoon on the floor. It is not a retreat, yet it is something, and something is a great deal more than nothing.",
+   "One morning Elena invites Mateo to breathe like a balloon, filling slowly with air and then letting it out with a long, floppy sigh. He giggles, copies her and for a few precious seconds the whole room goes still. Neither of them could say exactly what happened, but both of them feel a little lighter afterwards.",
+   "After ten days, Mei notices that she has begun to use the same slow breaths in the middle of her working day. Before she opens a difficult email or walks into a tense meeting, she pauses for a moment, lets her shoulders drop and breathes out for longer than she breathes in. The habit that began in the quiet of the morning has quietly started to travel with her into the busiest hours of the day.",
+   "Breathing can be a two-minute part of your first hour, and it does not need to be any longer than that. If you try it for a week and find that it does nothing for you, you may drop it without a trace of guilt and move on to the next idea. The only wrong choice is to carry on with something that makes the morning worse.",
+   "Now we arrive at the quietest part of the whole hour, the part that most people find the hardest. Mei sits cross-legged by the window for five minutes with no phone, no music and no book, and simply lets herself be still. After so many years of filling every gap with noise, the silence feels strange, and then slowly it begins to feel like a gift.",
+   "Meditation sounds mysterious, but at its simplest it means paying attention to one thing on purpose and noticing when your mind has wandered away from it. That one thing can be the breath, a sound in the room or the feeling of your feet on the floor. It is a very old practice, and it is practised in many forms all over the world.",
+   "At first Mei's mind is crowded with thoughts about work, about dinner and about something embarrassing she said last week. Each time she notices that she has drifted away, she gently brings her attention back to the breath, without scolding herself for wandering. The noticing, she learns, is not a distraction from the practice; it is the practice.",
+   "Many beginners believe that meditation requires a perfectly empty mind, and they conclude from the first minute that they are hopeless at it. In truth everybody's mind wanders, including that of people who have practised for decades, and a busy head is simply the ordinary place where you begin. The goal is not a blank; it is a gentler relationship with the noise.",
+   "On her first try Mei is restless, fidgets twice and checks the clock four times in five minutes. Then she begins to hear the soft hum of the refrigerator, a sound that has been there every day of her life and which she has never really noticed. For a moment her whole attention rests there, and the restlessness that was tugging at her all through the previous minutes quietly loosens its grip.",
+   "A number of studies suggest that meditation can modestly reduce stress and anxiety in some people, though the results vary and some of the research is of poor quality. It is not a cure for any illness, and scientists are still working out who benefits most and why. Treat it as a pleasant and sometimes useful tool for the mind, and not as a miracle that will solve everything for you.",
+   "You do not have to call it meditation to enjoy a few quiet minutes. You might drink a cup of tea slowly, listen to rain on the glass, say a prayer if you are a person of faith or simply sit and look out of the window. What matters is that for a short time nothing is being asked of you.",
+   "To stop herself from checking the clock, Mei sets a gentle timer for two minutes and puts it out of sight. When two minutes begins to feel easy she adds one more, and over several weeks she builds slowly towards ten. Growing by a minute at a time is almost too small to notice, which is exactly how it works.",
+   "Mei always sits in the same chair in the same quiet corner of the living room, with the same blanket over her knees. The place itself becomes a signal, and her mind begins to settle almost as soon as she sits down, in the way that a dog circles before it lies down. A familiar corner, kept for this purpose alone, can do much of the work of calming you down without any help from your willpower.",
+   "One afternoon a colleague speaks to Mei in a sharp and impatient voice, and she feels the old anger rise in her chest. She waits for a single breath before she replies, and the answer that emerges is calm, clear and entirely free of regret. That tiny gap between feeling and reacting is, she suspects, the most valuable thing the quiet minutes have given her.",
+   "At the kitchen table Mei opens her green notebook and writes three short lines, each of them naming something she is grateful for. None of the lines takes more than a few seconds, and none of them has to be impressive or profound. The idea is simply to point her attention at what is going well, which it rarely does by itself.",
+   "Studies suggest that writing about gratitude can lift mood a little for some people, although the effect is modest and not everyone benefits. Specific details seem to work better than grand statements, so Mei writes about one particular moment instead of announcing that she is grateful for her life. A sentence about the warm bread is worth more than a paragraph about happiness.",
+   "On Tuesday Mei writes that her neighbour carried the bins back in for her, that her shower was properly hot for the first time in a week and that Dana told a joke at lunch which was truly funny. They are tiny things, nothing that anybody would put on a list of achievements, and she would never have remembered them by evening. On the page they gather quietly together into what looks, to her surprise, like a rather good day that she had almost missed.",
+   "Gratitude does not mean pretending that everything is fine or that problems are not real. On a bad day Mei writes just one small true thing, such as the taste of toast or the warmth of a scarf, and she lets the rest of the page stay empty. Forced cheerfulness helps no one, whereas an honest pen, even when it writes something small and plain, is always better than a false smile.",
+   "After the grateful lines, Mei writes freely for a few minutes about whatever happens to be on her mind: a worry, a plan, a half-formed idea. Her pen moves quickly across the page, and she does not stop to correct a single word. Thoughts that seemed tangled in her head become oddly simple once she can see them.",
+   "This writing is for your eyes alone, so you can ignore spelling, grammar and style entirely and let the pen run on. If a subject turns out to be too painful, you are free to stop, and it would be wise to talk to a friend, a doctor or a counsellor about it. A notebook is a good listener, but it is not a substitute for people.",
+   "Putting worries onto paper can make them feel smaller and clearer, as though you had moved them out of your head and onto a shelf. Research on this kind of writing has found modest benefits, and it appears to help some people far more than it helps others. If it feels like a relief to you, that is reason enough to keep going.",
+   "Mei prefers a paper notebook because paper never lights up with notifications and never tempts her to check the news halfway through a sentence. That is a personal choice, and any tool that you will actually use every day is perfectly fine, whether it is a diary, a typed file or a voice note. The best system, in the end, is the one that survives the second week, and then the third, and then the busy months that follow.",
+   "After two weeks, Mei sits down with a cup of tea and reads her old pages from the very beginning. She sees certain worries returning again and again, and she sees something even more interesting: most of the things that seemed enormous on page three have quietly disappeared. Her own handwriting, tilted and hurried as it is, turns out to be rather good at the delicate business of reassurance.",
+   "Elena has no time for three grateful lines and a page of free writing, so she keeps her version tiny. She writes one line each morning on a sticky note, usually about something funny or sweet that Mateo did the day before. A small habit that is kept is worth more than a large one that exists only in good intentions.",
+   "Mei reads a few pages of a book that teaches her something new or lifts her spirits, before the demands of the day can interrupt. Ten pages a day come to more than three thousand pages in a year, which is roughly the length of ten ordinary novels. Reading, she says, is the only part of her morning in which time seems to move at an easy pace.",
+   "Choose a book that you truly want to read and not one that you feel you ought to, because duty is a poor companion at six in the morning. Mei leaves hers on the armchair each evening, bookmarked at the right page, so that it waits for her like a patient companion. Placing the right object exactly where your eyes will fall on it does half of the work.",
+   "If ten pages sounds like too many for a busy morning, begin with two and let the habit grow on its own schedule. Reading a little every day is better than reading a great deal now and then, since it is the steady rhythm that builds a long list of finished books. A page is a very small thing, but pages are what books are made of.",
+   "Not everyone enjoys reading print in the early morning, and many people find that their eyes are tired before the day has even begun. Listening to a book while you walk, or while you tidy the kitchen, can feed the mind just as well and fits neatly into the rest of the hour. The format matters far less than the habit of letting good ideas in at a time of day when the mind is open.",
+   "Next Mei spends ten minutes learning something that has nothing to do with her job. She has always dreamed of speaking Spanish, so she writes five new words in her notebook, says each one aloud and tries to make a short sentence from them. The sentences are clumsy and she makes at least three mistakes, but they belong to her and that is exactly why she enjoys them.",
+   "Before she learns any new words, Mei reviews the ones from yesterday and the day before. Research on memory has shown repeatedly that returning to a fact after a short pause helps it stay in the mind for far longer than studying it once in a long session. Little and often turns out to be not only the gentler way to learn but also, quite possibly, the cleverer one.",
+   "The new thing does not have to be a language, and it does not have to be useful. It can be a guitar chord, a chess puzzle, a lesson in coding, a drawing technique or a single astonishing fact about the stars. Curiosity is a muscle, and it grows stronger whenever it is allowed to follow its own nose.",
+   "Mei has discovered an important trick, which is to stop while the lesson is still interesting rather than when she has squeezed every drop from it. If she leaves wanting a little more, she looks forward to returning the next morning, and the habit sustains itself on that appetite. Nobody has ever stuck with something for long once it began to feel like homework, so it is wise to keep the pleasure alive.",
+   "After three weeks, Mei has finished her first book and has learned about sixty new Spanish words, and she can say a few simple sentences to a surprised barista. These numbers are not remarkable on their own, but a month earlier she had no part of them. Ten quiet minutes, repeated day after day without fuss, have built something that she can see, count and be rightly proud of.",
+   "Reading and learning together take Mei about twenty minutes, though you can do either of them in five and a few people can manage neither. If your hour is short, this is the first part that you may happily skip, and the rest of the routine will still do its work. A morning that is not crowded is a morning that you are more likely to repeat.",
+   "Mei takes a plain white card and writes her main goal across it in large letters. She wants to pass an important professional exam in the spring, a goal that has been drifting in the back of her mind for two years without ever becoming real. Seeing it on a card, in her own handwriting, makes it feel like a promise rather than a wish.",
+   "A good goal is clear and specific, and a vague one is almost impossible to act on. Instead of writing that she wants to do well in her career, Mei writes the date of the exam and the number of hours she plans to study each week. You can only walk towards something that you can point to, and a vague wish gives you nothing to point at.",
+   "Every morning Mei props the card against her notebook and reads it once, slowly, before she does anything else. It takes only five seconds, but it reminds her what the early effort is for and which direction she has decided to face. Without that reminder a good routine can turn into a pleasant habit that goes nowhere.",
+   "Next Mei writes down the three most important tasks of the day on a small yellow note. She does not attempt to list everything, only the three things that would make the day feel worthwhile if they were finished, and she resists the urge to add a fourth. A short list is a promise that can be kept, while a long one is only a source of worry.",
+   "One of the three tasks is always more important than the others, and Mei circles it in a thick pen. She tries to do that one first, while her mind is fresh and before the small jobs and the interruptions have a chance to gather. The rest of the list can then be dealt with, but the day has already been won.",
+   "Mei closes her eyes for a minute and imagines how the day ahead is likely to unfold. She pictures the steps she will take, one after another, and not only the happy result waiting at the end. Some research suggests that rehearsing the process helps people more than daydreaming about success.",
+   "She has a difficult meeting at two o'clock, so she pictures it in some detail, from the walk down the corridor to the first sentence she will speak. She imagines what she will say if somebody interrupts her, and how she will breathe and keep her voice steady. When the moment arrives, it feels oddly familiar, as if she has been there before.",
+   "Research on what psychologists call implementation plans suggests that statements of the form “when this happens, I will do that” help people follow through on their intentions. Mei writes, “At half past seven I sit down at the table and study for twenty minutes,” and she is surprised how much easier the decision feels. A plan with a time and a place leaves very little room for arguments.",
+   "Mei also takes a realistic look at what might go wrong, because a hopeful plan with no obstacles in it is only a daydream. If she feels too tired to study, she decides, she will read one page of her textbook and nothing more. Planning for trouble in advance keeps small problems from growing into convenient excuses, because the answer is already waiting on the card.",
+   "One morning Mei sees that her list has crept up to six items, and she realises she has let it become a burden again. She crosses off the three least important tasks, tells a colleague that one of them can wait until Friday and discovers that nothing bad follows. Saying no, she finds, is not rude when it protects the things that matter most.",
+   "Now comes the part that makes the rest worthwhile: Mei takes one small step on something that truly matters to her. She opens her exam textbook and studies a single topic for twenty minutes, before the office, the emails and the telephone have had a chance to claim her. It is not a lot, but it is a start, and a start is the hardest thing.",
+   "For many people the mind is at its freshest and quietest early in the day, before the demands of other people arrive in a flood. Mei finds that twenty minutes of study at this hour are worth far more than an hour in the tired evening, although this will not be true for everybody. Learn when your own best attention happens to arrive, and guard that precious time as carefully as you would guard a valuable appointment.",
+   "If the task feels too large to face, shrink the first step until it is almost laughable. Open the file, write a single sentence or read one page, and you will often find that the momentum carries you further than you planned. Beginning is the heavy part of any task, while continuing is usually much lighter once the first few minutes have passed.",
+   "Mei leaves her laptop closed until her own small piece of work is done, and she drinks her tea in peace. If she opened her email first, other people's priorities would jump to the front of the queue, and hers would be pushed quietly to the back. Email is useful, but it is a list of what others want from you, and it can wait twenty minutes.",
+   "While she studies, Mei puts her phone in a drawer and works on one thing only. Research has shown repeatedly that switching between tasks costs time and attention, and that people who believe they are good at it are often fooling themselves. Doing one thing at a time may feel old-fashioned in a world of constant pings, but it works better than almost anything else.",
+   "Mei sets a timer for twenty minutes and promises herself that she will work until it rings and no longer. Knowing that the end is near makes it far easier to begin, and when the bell goes she takes a short break to stretch and look at the sky. A clear boundary of this kind is one of the oldest and most reliable tricks for beating the natural reluctance to begin.",
+   "Some mornings Mei feels stuck before she has even begun, and the hardest chapter of the book glares up at her from the page. On those mornings she starts with the easiest section instead, because a small success gives her the confidence to tackle the harder part afterwards. Momentum, like a snowball rolling down a gentle hill, grows steadily as it moves, and the first small push is all it needs.",
+   "Dana's own small step looks nothing like Mei's, and that is how it should be. Each morning she writes one page of a children's story for her young niece, and after seven weeks she is already halfway through a book that she once thought she would never begin. The step belongs to you, and so does the direction, and nobody else can decide for you what is worth your first twenty minutes.",
+   "Dana's first pages are rough, and several of them are frankly dreadful, but she keeps them anyway and moves on. A rough page can be improved on another day, whereas a blank page can only be stared at. Waiting to be perfect before you start is just a polite way of not starting, and it fools almost everybody at least once.",
+   "After thirty days of twenty-minute sessions, Mei has studied for about ten hours before most people have finished their breakfast. She did not sacrifice any evenings or weekends to do it, and her exam, which once loomed like a mountain, now looks like a hill with a path up it. Small steps do not feel like much while you are taking them, which is exactly why so many people give up before they add up.",
+   "At last Mei sits down to a proper breakfast, and for the first time in years she eats it slowly and with attention. She tastes the bread, notices the sharpness of the jam and realises that she has been swallowing her mornings whole. A meal eaten without hurry is a small holiday that costs nothing extra, and it can be taken every single morning of the year.",
+   "This book is not a diet, and it has no list of forbidden foods, because the right breakfast varies enormously from one person to the next. Eat what you enjoy and what makes you feel well, and if you are simply not hungry early in the morning, that is perfectly acceptable. Anyone who lives with a medical condition should follow the advice of their own doctor and treat these ideas as general information only.",
+   "Mei eats without a screen in front of her, and she begins to notice the taste, the warmth and the texture of the food. A few studies suggest that giving a meal your full attention makes it more satisfying, although the evidence is modest and nobody should expect miracles from a piece of toast. At the very least, the toast tastes better when you are paying attention to it, and that alone is a modest reward.",
+   "Mei remembers that a routine which feels like a chore will not last, so one morning she turns on some lively music and dances around her kitchen with a wooden spoon. She feels thoroughly ridiculous for about ten seconds, and then, quite suddenly, she feels wonderful. Enjoyment is not a reward for the hard part; it is part of the method.",
+   "Mei makes a short list of three songs that have never failed to lift her mood, and she plays them in the same order while she gets ready. Before long, the first few notes act as a signal, and her body begins to wake up and sway before her mind has caught up. Music has a way of reaching places in the mind where instructions and good intentions can never go, and it does so without a sound of complaint.",
+   "Mei decides to turn the hour into a small treat instead of a duty, and she begins to surround it with things she loves. She buys a mug that feels right in her hands, keeps a soft blanket on her chair and lights a small candle on the table. Anything that makes you want to come back to the habit the next day is a perfectly good tool, however trivial it may look.",
+   "On her small balcony Mei waters a row of pots and breathes the cool morning air while the city slowly wakes up below. Many people say that time among green things leaves them calm, and some studies support this, although a plant is hardly a medical treatment. She enjoys the leaves for their own sake, without expecting anything from them, and that is reason enough to keep watering them each morning.",
+   "One morning Mei looks up in the middle of a rather enthusiastic dance and sees her neighbour watching from the opposite window. For a second she is mortified, and then both of them burst out laughing, and the neighbour raises a thumb in approval. It turns out that nobody minds being seen enjoying their own morning, and some people are even encouraged to try the same thing.",
+   "After a whole week of early mornings, Mei marks the occasion with a modest celebration on Friday. She buys two pastries on her way to work, one for herself and one for Dana, who first suggested the notebook. Rewarding effort is not self-indulgence; it tells the mind that effort is something worth repeating.",
+   "Mei notices that her mornings now hold pleasure as well as discipline, and that it is the pleasure which brings her back day after day. A routine that is only a duty is likely to collapse at the first sign of stress, whereas one that feels like a gift can survive almost anything. She stops thinking of it as a regime and begins to think of it as a habit of kindness.",
+   "You do not have to do everything described in this book, and Mei certainly does not do all of it on any single morning. Choose the three or four parts that suit your life, and be ready to drop anything that does not suit you. A routine that truly fits you will always beat one that merely impresses other people.",
+   "If you are a beginner, begin with just ten minutes, and resist the temptation to build a grand routine on the very first day. When ten minutes feels easy, add a few more, and let the hour expand only if you truly want it to. Ambition is welcome here, but it should learn to walk before it runs, and a patient beginning makes for a longer journey.",
+   "Here is a sample menu for a tight ten minutes: a glass of water, a pause at the window for daylight, a gentle stretch and three lines in a notebook. It is modest enough to survive a bad night, yet it contains a little of everything that matters in this book. Many people never need more than that for years at a time, and some of them find that ten minutes is exactly right for them.",
+   "Doing your routine at roughly the same time each day makes it feel increasingly automatic, as the hour itself becomes the cue. After a while you stop asking yourself whether you will do it today, and the question quietly disappears. The less you have to decide, the more energy you have left for the thing itself.",
+   "Mei links her new habit to something she already does without thinking every day. She puts her notebook next to the kettle, so that the act of making tea reminds her to sit and write. Attaching a new habit to an old one is a bit like hanging a new picture on an existing nail.",
+   "How long does it take to form a habit that feels automatic, and what do we really know about it? One well-known study of volunteers found that it took about two months on average, although the range was enormous, from a few weeks to the better part of a year. The old claim that twenty-one days is enough is a myth, and you need not feel ashamed if you are slower than that.",
+   "A habit is far easier to keep when the first step is easy, so make the first step as smooth as you can. Leave the mat unrolled, the book on the chair and your shoes by the door, and remove anything that stands between you and the beginning. Willpower is wildly overrated as a tool, whereas a well-arranged room does much of the work for you without any argument at all.",
+   "If you want to add something new, take something else away, or the hour will swell until it becomes a source of stress. A routine that keeps growing is a routine that is on its way to being abandoned, and the point was always to feel calmer. Treat the time you have as a small suitcase, and pack it carefully, since there is no room in it for anything you do not need.",
+   "Online you will find endless photographs of perfect mornings, complete with green juice, sunrise yoga and spotless kitchens. They show the best minute of somebody's day, carefully arranged for an audience, and they tell you nothing about your own life. Your routine is not a performance for an audience, and nobody is giving out marks, so you are free to make it as plain as you like.",
+   "By the third week, Mei has chosen the five parts that she likes best: daylight, water, a short walk, three lines of gratitude and twenty minutes of study. The whole routine takes about forty minutes, and every part of it is there because she wanted it to be. She has not copied anybody's perfect morning from a photograph; she has patiently built her own, one small and honest piece at a time.",
+   "In the fourth week, to her dismay, everything seems to go wrong at once and without any warning. Mei sleeps badly for three nights in a row, the rain hammers on the window and she lies in bed wondering why she ever thought that a notebook could change anything. The early enthusiasm of the first weeks has completely gone, and only the plain habit is left, which is precisely when a habit is tested.",
+   "The end of the quarter has arrived, and the accounts on Mei's desk are piling up like snow. She stays late at the office night after night, reaches home after nine and falls into bed at midnight, with her head still running through columns of figures. Under that kind of pressure, even the best and most carefully planned routine has to bend a little if it is to survive at all.",
+   "A voice in Mei's head insists that this is pointless, that she was never a routine person and that she should give up before she embarrasses herself. She notices the voice, as she has learned to notice her wandering thoughts in the quiet minutes, and she does not let it make the decision. Thoughts are like the weather passing across the sky, and they are not instructions that she is obliged to follow.",
+   "On the tired mornings, Mei does a shortened version of her routine, and she does it without an ounce of guilt. She drinks her water, stands at the window for a minute, writes a single line in her notebook and then gets on with the day. It is not impressive to look at, but it keeps the thread of the habit unbroken until the pressure of the week has eased.",
+   "Mei writes a card for her hardest days, and it has only three steps on it: water, window and one line. When she is exhausted she does not have to decide anything or negotiate with herself, because she can simply obey the card. A plan made by your rested self is a gift to your tired self.",
+   "One grey morning Mei sleeps straight through her alarm and misses the entire routine, from the water to the notebook. She does not scold herself or announce that everything is ruined, and the next morning she simply picks up her notebook where she left it. A single missed day is a small bump, and it does not wipe out what you have done.",
+   "Many people think, “I missed one day, so I have failed and I might as well stop,” and that all-or-nothing thinking has ended more good habits than any busy schedule ever did. A calendar with one gap in it is still a calendar full of effort. Judge the pattern over a month, and not the result of a single morning.",
+   "If you are badly short of sleep, the wisest choice may be to rest a little longer and begin the hour later or in a smaller form. A routine exists to serve you, and you do not exist to serve it, so listen to what your body is telling you. Pushing through exhaustion every day is not discipline; it is a different kind of mistake.",
+   "Mei catches a heavy cold and spends three days wrapped in a blanket with tea, tissues and very little ambition. When you are ill, the routine is not important, because rest is the thing your body needs, and the routine will still be there when you are well again. On the fourth day she returns with only a cup of tea, and that is plenty.",
+   "Mei learns that a routine which bends will outlast one that is stiff and strict, much as a reed survives a storm that breaks an oak. By the end of that hard month she is prouder of her shortened mornings than of her best ones, because they were the ones that took real courage. The hour is not a test of perfection; it is a place to come back to.",
+   "Kofi sits in his kitchen with a cup of tea while the afternoon sun slants across the table, and for him this is the morning. Shift workers can use the first hour after they wake, whenever that happens to be, and the idea works just as well at four o'clock as it does at six. The clock on the wall matters much less than the choice you make about how to spend the first hour after waking.",
+   "Kofi's shift runs from seven in the evening until seven in the morning, through the darkest hours that most people spend asleep. He checks on patients, prepares medicines and answers calls, and although the ward is quieter than during the day, it never truly falls silent. By the end of the shift his body is crying out for rest, and he has been awake through the whole of the night.",
+   "When his shift ends, Kofi walks home as the sun is rising and wears a pair of dark glasses against the glare. Some night workers find that avoiding bright morning light on the journey home helps their bodies treat the coming sleep as night, though people differ and the evidence is mixed. He is not trying to be mysterious or dramatic with these precautions; he is simply trying to give himself the chance to rest properly.",
+   "Sleeping in the daytime is difficult, because the world is bright and noisy, so Kofi protects his rest with great care. He has thick dark curtains, a pair of earplugs, a sign on the door and a phone that stays silent until he wakes. The first hour of his day has to be earned by the last hour of his sleep.",
+   "Kofi explains his sleeping hours to his family and to his neighbours, so that they know exactly when to keep the noise down and when it is safe to knock. Most people are only too glad to help once they understand, and a little explanation saves a great deal of silent resentment. Asking for what you need is not selfish; it is how a plan becomes real.",
+   "When Kofi wakes, he opens the curtains, drinks a tall glass of water and stands on the balcony in whatever daylight is left. He stretches for five minutes, reads ten pages of a novel and writes three lines of thanks, all before he thinks about the ward. It is exactly the same hour as Mei's, only wearing a different coat, and it begins when the sun is about to set.",
+   "His colleague Joy laughs out loud when Kofi describes his first hour, and says that nurses have no time for such luxuries. A week later she joins him for a cup of tea before their shift begins, sits in silence for five minutes and admits, with some surprise, that it is rather nice. Habits spread more easily through friendship and example than through advice, and Joy has just become a very good example of it.",
+   "Working through the night can be hard on sleep and health over many years, because it asks the body to do the opposite of what it naturally wants. Researchers are still studying how great the risks are and who is most affected, and anyone who struggles should talk to a doctor or a workplace health service. A good morning routine can help, but it is not a cure for a difficult schedule.",
+   "Kofi packs a proper meal and some fruit to take to work, and he drinks his coffee only in the first half of the shift. Many night workers find that caffeine late in the shift makes daytime sleep much harder, though the effect varies widely from one person to another. He has learned to plan the end of his night from the beginning, because the choices he makes at midnight decide how he sleeps at eight.",
+   "On his days off, Kofi must choose between staying on his night schedule and joining the rest of his family in the daytime. He moves his sleep partway towards theirs, never all the way, and he keeps the first hour of his day at much the same time as before. A compromise is not a failure; it is how real people manage real lives.",
+   "Elena begins her first hour at the moment Mateo wakes up, and she makes no attempt to hide from him. She stretches in the living room with her arms above her head, and he copies every movement, collapsing into giggles when she topples sideways. A parent's routine may need to be short and noisy, but it can still be real.",
+   "Each morning Elena carries Mateo to the window, where together they pull open the curtains and say good morning to the sun and the pigeons. The daylight helps her own body clock, and the little ritual gives her son a cheerful beginning to the day that he will not remember but will still absorb. Two small people can share one small habit, and each of them will remember it in a different and entirely private way.",
+   "Many guides tell parents to wake before their children and seize a quiet hour, but Elena disagrees with this advice. When she has had a broken night, sleep matters far more than any routine, and she allows herself to stay in bed until the last possible moment. A rested parent who skips the notebook beats an exhausted one who does everything on the list.",
+   "Elena's husband Omar leaves early for work on weekdays, but on Saturdays he takes charge of Mateo and builds towers of blocks on the living room floor. That gives Elena twenty minutes entirely to herself, and she spends them with tea, silence and a notebook. Sharing the load is not a luxury; for many families it is the only way a routine becomes possible.",
+   "If you are naturally an evening person, there is little point in forcing yourself out of bed at five in the morning and then spending the hour yawning. A first hour that begins at nine, when your mind is ready and willing, is far better than a miserable one that begins in the dark. Your body clock is not an enemy to be defeated, but a rather stubborn companion that is much better to cooperate with than to fight.",
+   "Some owls have jobs that start early, and for them an adjustment may be unavoidable. Move your wake time earlier by about fifteen minutes every few days instead of an hour in one jump, and get as much morning light as you can on the way. Gentle changes are far more likely to last than sudden ones, since the body, like a ship, turns best when it turns slowly.",
+   "On Saturdays and Sundays Mei uses a gentler version of her hour, which she calls her slow morning. She still drinks her tea and reads a few pages of a book, but she keeps the alarm off and lets the day begin when she is ready. Even so, she tries not to drift more than an hour from her usual waking time.",
+   "When Mei travels for work, she packs her small green notebook and a pen at the top of her bag. In a strange hotel room, with traffic outside and an unfamiliar bed, the same few quiet minutes make her feel at home. Light from a new window can also help the body clock adjust to a different time zone, although recovery is gradual.",
+   "If you live in a small or shared home, you may not have a private room to call your own. Find a quiet corner, wear headphones or earplugs, or even sit on the edge of the bath for your five quiet minutes, with the door politely closed. The setting matters much less than the intention behind it, and a bathroom floor can be as peaceful as a mountain top.",
+   "At the end of the month Elena counts the ticks on her calendar and finds that she did something on four days out of every seven. She is delighted, because for a mother of a two-year-old, four is a triumph, and four is an enormous amount more than none. Success, in a real life with real children, has never meant perfection, and it never will, however many guides suggest otherwise.",
+   "A morning routine is not a cure for anything, and it was never meant to be one. If you feel low or anxious for a long time, it is wise to talk to a doctor, and there is no shame whatsoever in doing so. Looking for help is a sign of good sense, in the same way that visiting a dentist is.",
+   "If low mood, constant worry or very poor sleep lasts for more than a couple of weeks, please speak to a doctor or another health professional. If you ever have thoughts of harming yourself, contact the emergency services or a crisis line in your country at once, and do not wait. No notebook, no matter how green or how lovingly kept, is a replacement for the help of another person who is trained to listen.",
+   "If you feel heavily sleepy all day despite a full night in bed, or if you have been told that you snore loudly and sometimes stop breathing, mention it to a doctor. Some sleep problems have medical causes that no amount of lamp-dimming can fix, and they are often very treatable once they are recognised. Tiredness is a signal from the body, and sometimes it points to something more serious than a weak habit or a poor bedtime.",
+   "A morning routine cannot repair a job that demands too much, money worries that keep you awake or heavy duties of caring for others. For problems of that size you may need practical help, a frank conversation or a change in the situation itself, and no amount of self-improvement can replace them. The hour can steady you and make you stronger, but it cannot do the whole job alone, and it was never meant to.",
+   "This book is general information, and it is not medical advice of any kind. It cannot know your body, your history or your medicines, and so you should ask a qualified professional about anything that concerns you personally. What you read here is meant to start a conversation with yourself, not to replace one with your doctor.",
+   "Be wary of anyone who promises to transform your whole life in thirty days, because real change is slow, uneven and rarely as dramatic as an advertisement. People who sell miracles are usually selling something else, and the evidence for a modest routine is, in the end, modest. That honesty is the only real reason that you should trust this book, and it applies to every idea in these pages.",
+   "Rising early does not make anyone a better person, and night owls are not lazy simply because their bodies run on a later clock. What matters is that you use your waking hours in a way that you are proud of, and that you treat your own rhythms with respect instead of embarrassment. Virtue has never depended on the hour at which a person happens to rise, and nobody who sleeps late should be made to feel ashamed.",
+   "You will read that famous and successful people all get up at five in the morning, and the claim is repeated so often that it begins to sound like a law. Those stories are anecdotes, however, and nobody counts the successful people who sleep late, nor the early risers who never achieve anything. A good habit has to prove itself in your own life, over your own weeks, and not in a magazine that is trying to sell you something.",
+   "The phone is not an enemy, and this book has no quarrel with technology, which brings us news, friends and a great deal of help. It is simply a question of who chooses the timing, so check your phone after your first hour, and do it on purpose and with open eyes. A tool you use deliberately is quite different from a habit that uses you.",
+   "When Mei's father goes into hospital for a week, her routine shrinks to five minutes at the kitchen table before the early bus. Even so, the water, the window and the stillness help her to feel steady, and they remind her that some part of the day still belongs to her. A small routine is most valuable when life is least predictable, because it gives you one fixed point while everything else moves around it.",
+   "Mei hangs a calendar on the kitchen wall and draws a green tick on every day that she does her hour, however short it happened to be. Within a few weeks the ticks form a satisfying chain, and she finds that she does not want to be the one to break it. Few things motivate quite like a little bit of visible evidence, and a row of green ticks is evidence that nobody can argue with.",
+   "Tracking should encourage you and never scold you, because a calendar is a mirror and not a judge. A missing tick is only information, and it tells you something about the shape of your week without saying anything at all about your worth. If the chart ever makes you anxious instead of proud, put it away for a while and return to it when you feel ready.",
+   "Mei and Dana meet for coffee on Saturday morning and compare their notebooks, laughing at each other's handwriting. Having a friend who is attempting the same thing makes both of them feel less alone and a good deal more determined. Telling another person about a plan makes it more real, and being asked about it later makes it harder to forget.",
+   "Each morning, as soon as her hour is finished, Mei sends Dana a single word and a smiling face, and she usually gets one back before she has put on her shoes. It takes five seconds and costs nothing, yet it gives each of them a small, warm sense of being accompanied. Encouragement is cheap to give and priceless to receive, and the two friends have discovered that it also grows when it is shared.",
+   "In the sixth week it is Dana's turn to struggle, and she confesses over lunch that she has missed five days and feels like a fraud. Mei does not give a lecture or a list of rules; she simply listens, laughs kindly at the idea of being a fraud and promises to message her tomorrow. Sometimes the best advice a person can offer is simply company, along with the quiet promise to be there again tomorrow.",
+   "After two weeks, Mei sits down with her notebook and her tea to review the experiment honestly. She looks at what has helped, what has felt like a burden and what she has simply done out of habit, and she decides to keep the good parts and drop the rest. A routine that is never reviewed slowly becomes a routine that no longer fits.",
+   "Mei asks herself four plain questions and writes her answers underneath each one, in her very best handwriting. What did I enjoy, what did I skip, what actually made me feel better and what would I like to change? Honest answers matter more than impressive ones, since nobody will ever mark them but her.",
+   "Mei notices that she never quite enjoys the free writing in the morning, whereas she loves it at night with a mug of something warm. So she moves it to the evening and uses the saved ten minutes to walk a little further in the morning sun. Changing a routine because it works better for you is not weakness, but wisdom.",
+   "A colleague asks why Mei seems so calm these days, and she answers lightly, without a trace of preaching. She explains what she does, what she has dropped and what she has learned, and she does not suggest that anyone else should copy her routine. People are rarely persuaded by lectures, but they are often curious about a friend who is happy.",
+   "Each evening Mei gives her day a score between one and ten and writes it in the corner of the calendar square, without much ceremony. After a month she studies the pattern and ignores the odd good or bad day, because the trend tells a truer story than any single number. It is not a scientific measurement of anything, but it is her own honest record, and she finds that it tells her plenty.",
+   "After a month of early mornings, Mei finishes an important report a full day early and leaves the office on time for the first time in ages. She is not a different person, and her job has not changed at all, but she feels calmer and more in charge of her days. The difference lives mostly in the way she begins her days, and she is beginning to suspect that this is where most differences live.",
+   "After a month Kofi is sleeping a little better, and he arrives at the ward feeling more awake and more patient with his patients. Difficult nights still happen, because night work is what it is, and he accepts that fact without blaming himself or his routine. A modest improvement, honestly measured, is worth more than a promise of perfect rest.",
+   "After a month Elena's mornings are every bit as busy as before, and Mateo is every bit as loud, but the tiny ritual at the window has made them feel warmer. She does not have an hour to herself, and she probably will not for a few years, yet she has found three minutes that are truly hers. Three minutes, it turns out, can carry quite a lot when they are protected from the noise and given a purpose of their own.",
+   "Be realistic about what to expect, because a good morning routine is not a miracle. It tends to bring modest gains in calm, focus and mood, and the benefits show themselves slowly, like a plant growing on a windowsill. Treat anyone who promises you much more than that with a healthy dose of scepticism.",
+   "In the spring, Mei sits her professional exam and passes it, and she cries a little at the kitchen table. She is the first to say that the studying did the real work, and that the early hour merely made room for it, as a clear table makes room for a meal. Small steps, taken for long enough and with a little patience, do reach the top, even when the top is out of sight.",
+   "One morning Mei turns back to the first page of her green notebook, where months ago she wrote three plain words. Calm, time and choice are all still there on the paper, and she realises that she has been living a little closer to each of them every day since. She did not find them in a miracle; she found them in a habit.",
+   "Here, in short, is the whole hour: drink a glass of water, find some daylight, move your body and sit for a few quiet minutes. Then read a little, write a little, choose your three tasks and take one small step on something that matters. Take what suits you, shorten what is too long and leave the rest behind.",
+   "Take a clean page and write your own menu in your own words, because the routine that matters is yours and not Mei's. Choose the parts that suit you, decide when your first hour begins and give it a name that makes you smile. A plan that you have built yourself is far easier to love than one you were handed.",
+   "Be kind to yourself during the first weeks, because they are practice and not an examination. You will forget, you will oversleep, you will change your mind and you will occasionally feel ridiculous, and every bit of that belongs to the learning. A habit grows best in friendly soil, and kindness is the best fertiliser there is.",
+   "So tonight, before you go to bed, put out a glass of water and a notebook, and place your alarm across the room. Tomorrow morning, give yourself ten good minutes before you touch your phone, and see how the day feels when you have chosen its beginning. The first hour is only a small piece of your day, but it is the piece that you can shape."
+  ]
+ }
 }
