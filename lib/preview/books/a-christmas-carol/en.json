@@ -1,0 +1,417 @@
+{
+  "slug": "a-christmas-carol",
+  "meta": {
+    "blurb": "Ebenezer Scrooge hates Christmas and loves only money. Then, on Christmas Eve, the ghost of his dead partner arrives with a warning and three spirits follow. Can one long night teach a hard old heart to be kind before it is too late?",
+    "bible": "Ebenezer Scrooge: a cold, mean old London businessman who changes. Jacob Marley: Scrooge's dead business partner, whose ghost drags a heavy chain. Bob Cratchit: Scrooge's poor, kind clerk, paid fifteen shillings a week. Mrs Cratchit: Bob's wife. Peter, Martha and Belinda: three of the Cratchit children. Tiny Tim: Bob's youngest, a sick boy with a crutch who says God bless us, every one. Fred: Scrooge's cheerful nephew, the son of Scrooge's dead sister Fan. Fan: Scrooge's kind little sister. Mr Fezziwig: Scrooge's cheerful old master, who gave wonderful Christmas parties. Belle: the young woman Scrooge once meant to marry. Ghost of Christmas Past: a strange glowing figure like a child and an old man. Ghost of Christmas Present: a jolly giant in a green robe with a torch. Ghost of Christmas Yet to Come: a silent hooded phantom. Ignorance and Want: two thin children hidden under the second spirit's robe. Joe: an old dealer who buys a dead man's things. Ali Baba and Robinson Crusoe: heroes of the books young Scrooge loved. London. Christmas Eve. Christmas Day. Camden Town: where the Cratchits live. Bah, humbug: Scrooge's famous words about Christmas. Voice and tone: warm, humorous, moral, in the order of the five parts of the story; ghosts are strange but never gory; the ending is joyful."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Scrooge hurries through a foggy London street on Christmas Eve",
+      "summary": "Marley is dead, and Scrooge, a cold and mean old man, works on in the fog on Christmas Eve."
+    },
+    {
+      "n": 2,
+      "scene": "Bob Cratchit shivers at his desk beside a tiny coal fire",
+      "summary": "Scrooge keeps a tiny fire, and his clerk Bob Cratchit nearly freezes."
+    },
+    {
+      "n": 3,
+      "scene": "Fred bursts into the office with a rosy face",
+      "summary": "Scrooge's nephew Fred invites him to dinner, but Scrooge answers Bah, humbug."
+    },
+    {
+      "n": 4,
+      "scene": "Two gentlemen in dark coats hold a list, asking for the poor",
+      "summary": "Two gentlemen ask Scrooge for money for the poor, and he sends them away."
+    },
+    {
+      "n": 5,
+      "scene": "Scrooge locks the office door while Bob runs off into the snow",
+      "summary": "Scrooge grudgingly gives Bob Christmas Day off, then walks home alone through the fog."
+    },
+    {
+      "n": 6,
+      "scene": "A door knocker with a pale, glowing human face",
+      "summary": "Scrooge sees Marley's face on his door knocker, and then it is only a knocker again."
+    },
+    {
+      "n": 7,
+      "scene": "A ghost in chains drifts into Scrooge's dark room",
+      "summary": "Scrooge hears bells and chains, and Marley's ghost walks through the door."
+    },
+    {
+      "n": 8,
+      "scene": "Marley's ghost wrapped in heavy chains of cash boxes and keys",
+      "summary": "Marley explains that he made his chain from his own greed and regrets his life."
+    },
+    {
+      "n": 9,
+      "scene": "Many ghosts drift through the night sky, wailing",
+      "summary": "Marley says three spirits will visit Scrooge, and then he leaves through the window."
+    },
+    {
+      "n": 10,
+      "scene": "A strange glowing figure with white hair stands by Scrooge's bed",
+      "summary": "The clock strikes one, and the Ghost of Christmas Past appears."
+    },
+    {
+      "n": 11,
+      "scene": "Scrooge and the spirit stand on a snowy country road",
+      "summary": "The spirit takes Scrooge flying to the country town where he grew up."
+    },
+    {
+      "n": 12,
+      "scene": "A lonely boy reads by a dim fire in an empty schoolroom",
+      "summary": "Scrooge sees himself as a lonely schoolboy, keeping company with the heroes of his books."
+    },
+    {
+      "n": 13,
+      "scene": "A little girl runs into a schoolroom to hug her brother",
+      "summary": "Scrooge's little sister Fan comes to take her brother home for Christmas."
+    },
+    {
+      "n": 14,
+      "scene": "A big warehouse party with dancing and a fiddler",
+      "summary": "Scrooge sees the cheerful Christmas party given by his old master, Mr Fezziwig."
+    },
+    {
+      "n": 15,
+      "scene": "Scrooge stands beside the spirit as the guests dance",
+      "summary": "The Spirit shows that Mr Fezziwig's kindness cost little but gave great happiness."
+    },
+    {
+      "n": 16,
+      "scene": "A young woman with sad eyes speaks to a young man",
+      "summary": "Belle ends her promise to Scrooge because he loves money more than her."
+    },
+    {
+      "n": 17,
+      "scene": "Belle sits by a fire with her children and her husband",
+      "summary": "Scrooge sees Belle's happy family, begs the spirit to stop, and forces its light out."
+    },
+    {
+      "n": 18,
+      "scene": "A jolly giant in a green robe sits on a throne of food",
+      "summary": "At one o'clock Scrooge finds the Ghost of Christmas Present among piles of food."
+    },
+    {
+      "n": 19,
+      "scene": "Crowds in a snowy London street carry dinners to the baker",
+      "summary": "The spirit shows London on Christmas morning, with cheerful crowds and full shops."
+    },
+    {
+      "n": 20,
+      "scene": "Two men quarrel, and the spirit sprinkles them from the torch",
+      "summary": "When two angry men quarrel, the Spirit's torch makes them kind again."
+    },
+    {
+      "n": 21,
+      "scene": "A thin family gathers in a small, poor kitchen",
+      "summary": "The spirit takes Scrooge to Bob Cratchit's small house."
+    },
+    {
+      "n": 22,
+      "scene": "The Cratchit family sits around a table with a small goose",
+      "summary": "The Cratchits enjoy their small goose and their pudding with great joy."
+    },
+    {
+      "n": 23,
+      "scene": "A small boy with a crutch smiles at the table",
+      "summary": "Tiny Tim, who is ill, says God bless us, every one, and Scrooge asks if he will live."
+    },
+    {
+      "n": 24,
+      "scene": "Bob raises a glass while Mrs Cratchit looks cross",
+      "summary": "The Spirit throws Scrooge's own cruel words back at him, and Bob toasts Mr Scrooge."
+    },
+    {
+      "n": 25,
+      "scene": "Miners by a fire, a lighthouse in a stormy sea, a ship at night",
+      "summary": "The Spirit shows people far away keeping Christmas in miners' huts, lighthouses and ships."
+    },
+    {
+      "n": 26,
+      "scene": "A cheerful room where Fred and his friends laugh around a fire",
+      "summary": "At Fred's party they laugh at his uncle, but Fred says he feels sorry for him."
+    },
+    {
+      "n": 27,
+      "scene": "Guests play a guessing game and clap around a table",
+      "summary": "The guests play games, and they drink to Scrooge's health."
+    },
+    {
+      "n": 28,
+      "scene": "Two thin, ragged children crouch beneath the spirit's robe",
+      "summary": "The Spirit shows two poor children, Ignorance and Want, and warns Scrooge."
+    },
+    {
+      "n": 29,
+      "scene": "A tall hooded figure in black stands in the fog, pointing",
+      "summary": "The clock strikes twelve, the Spirit vanishes, and a silent hooded phantom appears."
+    },
+    {
+      "n": 30,
+      "scene": "Rich men chat in a busy London exchange",
+      "summary": "Scrooge overhears businessmen talking about a rich man who has died, and no one cares."
+    },
+    {
+      "n": 31,
+      "scene": "A shabby pawn shop with a heap of old clothes and bed curtains",
+      "summary": "Poor people sell a dead man's things at a dirty shop, and Scrooge sees how little they care."
+    },
+    {
+      "n": 32,
+      "scene": "A bed in an empty dark room with a figure under a sheet",
+      "summary": "The phantom shows a covered body on a bed, and Scrooge cannot bear to lift the sheet."
+    },
+    {
+      "n": 33,
+      "scene": "A young couple in a small room hold hands, looking relieved",
+      "summary": "A poor couple who owed the dead man money are relieved to hear he is dead."
+    },
+    {
+      "n": 34,
+      "scene": "A quiet room where a mother sews near an empty chair",
+      "summary": "Scrooge begs for something gentler, and the phantom shows the Cratchits grieving for Tiny Tim."
+    },
+    {
+      "n": 35,
+      "scene": "Bob Cratchit sits beside his small family at home",
+      "summary": "Bob returns from Tiny Tim's grave, and the family promises never to forget him."
+    },
+    {
+      "n": 36,
+      "scene": "A dark graveyard with a tall stone bearing a name",
+      "summary": "In a churchyard the phantom points to a gravestone, and Scrooge reads his own name."
+    },
+    {
+      "n": 37,
+      "scene": "Scrooge kneels and grasps the phantom's hand in the dark",
+      "summary": "Scrooge promises to change, and the phantom shrinks until it becomes a bedpost."
+    },
+    {
+      "n": 38,
+      "scene": "Scrooge sits up in bed among whole bed curtains in morning light",
+      "summary": "Scrooge wakes on Christmas morning, with his bed curtains whole and himself alive."
+    },
+    {
+      "n": 39,
+      "scene": "Scrooge dances around his room in his nightshirt",
+      "summary": "Scrooge laughs, dances about his room, and flings open the window."
+    },
+    {
+      "n": 40,
+      "scene": "Scrooge leans from the window and calls to a boy in the street",
+      "summary": "Scrooge asks a boy in the street what day it is, and the boy says it is Christmas Day."
+    },
+    {
+      "n": 41,
+      "scene": "Scrooge hands coins to the boy and points to a shop",
+      "summary": "Scrooge sends the boy to buy the prize turkey and promises him a reward."
+    },
+    {
+      "n": 42,
+      "scene": "A huge turkey is carried through the snow to a small house",
+      "summary": "The turkey is sent to the Cratchits, and Scrooge laughs at his old door knocker."
+    },
+    {
+      "n": 43,
+      "scene": "Scrooge shakes hands with a startled gentleman in a busy street",
+      "summary": "Scrooge meets the charity gentleman and promises a large gift, to the man's amazement."
+    },
+    {
+      "n": 44,
+      "scene": "Scrooge walks the busy street, patting a child's head",
+      "summary": "Scrooge goes to church and walks the streets, smiling at everyone."
+    },
+    {
+      "n": 45,
+      "scene": "Scrooge stands at his nephew's door, nervous but smiling",
+      "summary": "Scrooge knocks at Fred's door and is welcomed warmly."
+    },
+    {
+      "n": 46,
+      "scene": "A happy family dinner with games and Scrooge laughing",
+      "summary": "Scrooge enjoys Fred's party, with its dinner, music and games."
+    },
+    {
+      "n": 47,
+      "scene": "Scrooge waits at his desk as Bob hurries in late",
+      "summary": "The next morning Scrooge waits in his office, and Bob arrives late."
+    },
+    {
+      "n": 48,
+      "scene": "Scrooge shakes Bob's hand and pours a steaming drink",
+      "summary": "Scrooge raises Bob's pay, offers to help his family, and calls for more coal."
+    },
+    {
+      "n": 49,
+      "scene": "A little boy with a crutch laughs, held in Scrooge's arms",
+      "summary": "Scrooge becomes a second father to Tiny Tim, who does not die."
+    },
+    {
+      "n": 50,
+      "scene": "A warm window glowing with candlelight on a snowy street",
+      "summary": "Scrooge always knew how to keep Christmas well, and, as Tiny Tim said, God bless us, every one."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Scrooge was a cold old man who loved only money.",
+      "Bob Cratchit, his clerk, sat in a very cold room.",
+      "Fred came in and wished his uncle a merry Christmas.",
+      "Two men asked Scrooge for money to help the poor.",
+      "Scrooge let Bob go home, but he was not happy.",
+      "Scrooge saw Marley's face on his front door.",
+      "Scrooge heard a loud noise, and Marley's ghost came in.",
+      "Marley wore a heavy chain, and he looked very sad.",
+      "Marley said that three spirits would come to Scrooge.",
+      "At one o'clock, a bright ghost stood by his bed.",
+      "The spirit took Scrooge to the town where he grew up.",
+      "A boy sat alone in the school and read a book.",
+      "His little sister came to take him home.",
+      "Scrooge went to a happy party at his old master's.",
+      "The spirit said that being kind costs very little.",
+      "Belle was sad because Scrooge now loved gold more.",
+      "Years later Belle sat happily with her husband and children.",
+      "A giant ghost sat in his room, among piles of food.",
+      "The ghost showed Scrooge the busy streets on Christmas morning.",
+      "The ghost calmed two angry men with his torch.",
+      "The ghost took Scrooge to Bob Cratchit's poor little house.",
+      "The Cratchit family ate a small goose and were very happy.",
+      "Tiny Tim was ill, but he was kind and brave.",
+      "Bob raised his glass and drank to Mr Scrooge.",
+      "The ghost showed Scrooge people keeping Christmas far from home.",
+      "Fred's party was happy, and they talked about his uncle.",
+      "They played games, and Scrooge wished he could stay.",
+      "Two poor children hid under the ghost's robe.",
+      "At midnight a silent black ghost came toward him.",
+      "Rich men talked about a dead man, and nobody cared.",
+      "Poor people sold the dead man's things in a dirty shop.",
+      "A dead man lay on the bed, and no one cried.",
+      "A poor couple was happy because the man was dead.",
+      "Scrooge asked to see something kind, so they visited the Cratchits.",
+      "Bob came home sadly, and his family spoke of Tim.",
+      "Scrooge saw his own name on a stone.",
+      "Scrooge promised to change, and the ghost became part of his bed.",
+      "Scrooge woke up in his own bed, safe and alive.",
+      "He laughed and danced around his room in great joy.",
+      "Scrooge asked a boy what day it was.",
+      "He told the boy to buy the biggest turkey.",
+      "The turkey went to the Cratchits' house without a name.",
+      "Scrooge met the kind gentleman and promised him a lot of money.",
+      "He walked in the streets and smiled at everyone.",
+      "Scrooge knocked at Fred's door, and his nephew welcomed him.",
+      "Scrooge enjoyed the dinner and the games with his family.",
+      "Next morning, Scrooge waited at the office for Bob.",
+      "Scrooge said he would give Bob more money.",
+      "Scrooge was like a second father to Tiny Tim.",
+      "People said Scrooge knew how to keep Christmas well."
+    ],
+    "B1B2": [
+      "Jacob Marley, Scrooge's business partner, had been dead for seven years, but nothing about Scrooge had changed. He was still a cold, hard man who loved nothing except money.",
+      "Scrooge kept the fire in his office very small, and the fire in his clerk's room was smaller still. Poor Bob Cratchit tried to warm his hands over a candle, but he did not dare to ask for more coal.",
+      "Scrooge's nephew Fred came in with a bright face and wished him a merry Christmas. Scrooge only said, “Bah, humbug,” and refused to come to dinner, although Fred asked him kindly.",
+      "Two kind gentlemen came to the office to collect money for the poor at Christmas. Scrooge asked if the prisons and the workhouses were still working, and he gave them nothing.",
+      "Scrooge grumbled that giving Bob the day off was like robbing him, but he agreed. Then he ate a lonely dinner in a dark tavern and walked home through the thick fog.",
+      "As Scrooge put his key in the lock, he saw something strange on the door. The knocker had become the pale face of Marley, his dead partner, and it looked at him sadly.",
+      "Scrooge sat by the small fire with a bowl of thin soup. Suddenly bells began to ring, chains rattled below, and the ghost of Marley walked right through the closed door.",
+      "Marley's ghost wore a long chain made of cash boxes, keys and heavy iron locks. He said he had made it himself, link by link, because in life he had cared only for money.",
+      "Marley told Scrooge that he still had a chance to escape the same sad future. Three spirits would visit him, he said, and then he floated out through the window into a night full of crying ghosts.",
+      "Scrooge woke as the bell struck twelve, and then he waited anxiously for the bell to strike one. At last a strange light filled the room, and a figure like a child with white hair stood by the bed.",
+      "The spirit took Scrooge by the hand, and together they flew out of the window and over the roofs. Soon they stood on a country road, and Scrooge wept when he saw the place where he was a boy.",
+      "In the empty schoolroom, a poor lonely boy sat reading beside a feeble fire. Old Scrooge wept to see himself, and he remembered that the characters in his books were his only friends.",
+      "A little girl ran in, hugged the boy, and told him that she had come to take him home. She was his sister Fan, who died young, and the spirit reminded him that she had left one child, his nephew Fred.",
+      "Next they visited the warehouse where Scrooge had worked as a young man. His kind master, Mr Fezziwig, gave a Christmas party there, with music, food and dancing for everyone.",
+      "The Spirit pointed out that Fezziwig had spent only a few pounds, yet he had made them all happy. Scrooge said that a master has the power to make work a pleasure or a burden, and he thought of Bob.",
+      "Scrooge saw himself as a young man with a girl called Belle, who was crying. She said that he loved money more than he loved her, and she gave him back his promise.",
+      "Years later, Belle sat in a warm room full of laughing children, with her husband beside her. Full of sorrow, Scrooge seized the Spirit's cap, pressed it down on its head, and fell asleep in his own bed.",
+      "Scrooge woke just before the bell struck one, and a strange light filled the next room. A cheerful giant in a green robe sat on a throne of food, and he called himself the Ghost of Christmas Present.",
+      "They walked invisibly through the snowy streets, where the shops were full and the people were cheerful. The Spirit sprinkled drops from his torch over the food as people carried their dinners to the baker's ovens.",
+      "Two men began to quarrel in the crowded street, but the Spirit sprinkled them from his torch. They laughed at once, and said that it was Christmas Day and a bad time for anger.",
+      "The Spirit took Scrooge to the little house where Bob Cratchit lived with his wife and children. Mrs Cratchit wore a poor gown trimmed with cheap ribbons, but she looked happy and proud.",
+      "Bob came home from church with Tiny Tim on his shoulder, and the family sat down to dinner. The small goose seemed a wonderful feast to them all, and they spoke of it with delight.",
+      "Tiny Tim, who walked with a small crutch, said at the end of the meal, “God bless us, every one.” Scrooge asked whether the boy would live, and the Spirit said that unless things changed he would not.",
+      "When Scrooge asked about Tim, the Spirit repeated his own cruel words about the surplus population. Scrooge hung his head, and then he heard Bob raise a glass to “Mr Scrooge, the founder of the feast.”",
+      "The Spirit carried Scrooge over a dark moor to a miners' hut, then out to a lighthouse on the sea. Even there, poor miners, lighthouse keepers and sailors sang carols and wished each other a happy Christmas.",
+      "Suddenly Scrooge was in his nephew's warm house, and he heard a great deal of laughter. Fred laughed as he told his guests what his uncle had said, but he added that he felt sorry for him.",
+      "After tea the guests played games and music, and Scrooge enjoyed it more than he could say. In the guessing game the animal was a grumpy creature named Scrooge, and at the end they all drank to his health.",
+      "The Spirit grew older as the day passed, and he showed Scrooge two thin children hiding under his robe. They were named Ignorance and Want, and the Spirit warned him to beware of them both.",
+      "The clock struck twelve, and the Spirit melted away, leaving nothing behind. A tall hooded phantom was coming toward Scrooge through the mist, and he trembled when he saw it.",
+      "The silent phantom took Scrooge to a place in the city where rich merchants stood talking. They spoke of a rich man who had died, and one said he would only go to the funeral if there was lunch.",
+      "In a dark back street, a charwoman, a laundress and an undertaker's man sold a dead man's things to Joe. They laughed as they took the money, and none of them seemed to care that he had died.",
+      "The phantom pointed to a bed in a cold, empty room, with a body lying under a sheet. Nobody was there to cry for the man, and Scrooge dared not lift the sheet to see his face.",
+      "Next they saw a poor couple who owed money to the man who had died. They were happy, because now they had more time to pay and their children would not be turned out.",
+      "Scrooge begged to see some tender feeling, so the phantom took him to the Cratchits' house. It was very quiet, and Tiny Tim's seat by the fire was empty, with his crutch beside it.",
+      "Bob came home after visiting the green place where Tim was buried, and he spoke gently to his children. He said that Mr Scrooge's nephew had been very kind to him, and they all promised never to forget Tim.",
+      "The phantom took Scrooge to a gloomy churchyard and pointed a finger at a grave. He crept closer and read his own name on the stone, and the sight made him tremble.",
+      "Scrooge fell to his knees and promised to keep Christmas in his heart every day of the year. As he gripped the phantom's hand, it shrank away and became the post of his own bed.",
+      "Scrooge woke in his own bed, and the bed curtains were still hanging safely in place. The spirits had done it all in one night, and he still had time to change his life.",
+      "Scrooge danced about his room in his nightshirt, laughing and promising to be a better man. He felt as light as a feather and as merry as a boy on the last day of school.",
+      "Scrooge called down to a boy in his best Sunday clothes and asked what day it was. The boy said it was Christmas Day, and Scrooge cried out happily that he had not missed it.",
+      "Scrooge told the boy to buy the prize turkey that was hanging in the shop window. He promised the boy a good reward if he returned in less than five minutes.",
+      "Scrooge paid for a cab and sent the huge turkey to Bob Cratchit's house without a name. As he went out, he patted the door knocker and laughed, because it looked so honest and friendly.",
+      "In the street Scrooge met one of the gentlemen who had asked him for money the day before. He whispered a very large sum in the man's ear, and the gentleman could hardly breathe with surprise.",
+      "Scrooge went to church, and afterward he walked through the streets, watching the happy people hurrying by. He patted children on the head, spoke kindly to beggars, and found pleasure in everything he saw.",
+      "At last Scrooge knocked on the door and asked the maid if her master was at home. Fred was astonished, but he welcomed his uncle warmly, and in five minutes the old man felt completely at home.",
+      "The dinner was wonderful, and there was music after it, and many games. Scrooge laughed as loudly as anyone, and thought that he had never been happier.",
+      "The next morning Scrooge went to his office very early and waited for Bob to arrive. Bob came in nearly twenty minutes late, and he tried to slip quietly into his seat unseen.",
+      "Scrooge shook Bob's hand and told him that he was raising his pay that very day. He ordered more coal for the fire, and promised to talk about Bob's family over a warm drink.",
+      "Scrooge did all that he said he would do, and a great deal more besides. To Tiny Tim, who did not die, he became as good as a second father.",
+      "It was always said of Scrooge that he knew how to keep Christmas well, if any man alive did. May that be said of all of us, and as Tiny Tim said, God bless us, every one."
+    ],
+    "C1C2": [
+      "Marley was dead, to begin with, as dead as a doornail, and Ebenezer Scrooge had not shed a single tear for the partner whose name still hung above their office door. Scrooge was a hard, grasping, tight-fisted old sinner, whose very look froze the beggars in the street and made even the dogs of blind men tug their masters into doorways. On a bitter, foggy Christmas Eve he sat in his counting-house, as cold and unfriendly as the weather itself.",
+      "Scrooge kept his own fire small, but the fire in his clerk's little room was so much smaller that it seemed a single coal, and Bob Cratchit, wrapped in his thin scarf, tried to warm himself at a candle. He had not the courage to ask for more fuel, for his master had told him plainly that if he did, they would have to part. Bob, who had a wife and a large family to feed on fifteen shillings a week, did not even try.",
+      "Fred, Scrooge's nephew, burst into the office glowing from the cold and the brisk walk, and he wished his uncle a merry Christmas with such good cheer that Scrooge was almost annoyed. Scrooge answered that Christmas was nothing but a time for paying bills with no money, and he said “Bah, humbug” as if the very word were an argument. Fred, who refused to be offended, asked him to come to dinner the next day, and the old man replied that he would rather be left in peace.",
+      "Soon afterward two portly gentlemen, hats in hand, came into the office to say that at this season it was more important than ever to help those who were suffering from the cold and from want. Scrooge asked whether the prisons were still open, and whether the workhouses were still in operation, and when he heard that they were, he declared that those places were all he supported. When the gentlemen said that many poor people would rather die than go there, he coldly remarked that if they would rather die, they had better do it, and so decrease the surplus population.",
+      "When the clock struck, Scrooge grumbled that giving a man a day's pay for doing no work was a poor excuse for picking a master's pocket, though he admitted that Bob could have Christmas Day off if he must. Bob promised to come in all the earlier the next morning, then ran home to play with his children, sliding down the icy hill and laughing. Scrooge ate his dull dinner at his usual gloomy tavern and walked home through the dark, damp fog to the cold rooms that had once belonged to his dead partner.",
+      "As Scrooge put his key into the lock of the heavy door, he saw, upon the knocker, not a knocker but the face of Jacob Marley, pale and glowing in the gloom. It looked at him with a ghostly, mournful stare, and its hair stirred as though in a hot breath, but a moment later it was a knocker again. Scrooge, who did not believe in such nonsense, said “Pooh, pooh” and shut the door with a bang that echoed through the house like thunder.",
+      "Scrooge locked himself in, put on his dressing-gown and sat down before his weak fire with a bowl of gruel, but all at once a bell on the wall began to ring, and every bell in the house followed it. Then came a clanking noise from far below, as if someone were dragging a heavy chain over the cellar floor, and the sound drew steadily nearer. Without a pause, the ghost of Marley passed through the heavy door and stood in the room, and Scrooge turned cold.",
+      "The ghost wore a long chain, which was made of cash-boxes, keys, padlocks and heavy purses, and it was wound around his body like a heavy scarf. Marley explained, in a hollow and mournful voice, that he had made every link of it himself, one at a time, by his own selfish choices, and that Scrooge was wearing a chain just as long and heavy. He cried that mankind should have been his business, that charity, kindness and patience should have been his work, and that he had wasted all his years in a counting-house.",
+      "Marley told Scrooge, with a shudder, that he had arranged a chance and a hope for him, which was to be haunted by three spirits, the first of whom would come when the bell struck one. When he had finished speaking, the ghost walked backward to the window, raised it, and floated out into the night, where Scrooge saw the air full of phantoms, all wearing chains and wailing with regret. Many of them, he saw with horror, wanted to help the poor, but they had lost the power to do so, and Scrooge went to bed trembling.",
+      "When he awoke, the bell was striking twelve, and Scrooge lay waiting in the dark for what the next hour would bring, until the bell at last struck one. A strange light flared up in the room, and the curtains of his bed were drawn aside by a hand, revealing a figure that looked like a child, though it had white hair like an old man's. It introduced itself as the Ghost of Christmas Past, and told Scrooge that it had come for his own good and would take him on a journey into the past.",
+      "The spirit took Scrooge firmly by the hand, and together they passed through the wall as if it were mist and found themselves on a country road with fields on either side, white with frost. Scrooge knew every turn and every tree, and when a crowd of boys came by on ponies, shouting Merry Christmas to one another, he felt something warm rising in his chest. The spirit reminded him that the boys could not see them, and added that the school was not quite empty, for one lonely child still sat there.",
+      "In a bare and dismal schoolroom, a solitary boy sat reading by a feeble fire, and Scrooge sat down and wept to see his own forgotten self, neglected by the friends and the family he longed for. The book was full of strange and wonderful figures, Ali Baba and Robinson Crusoe among them, and in his loneliness the boy talked to them as if they were really there. Then Scrooge, remembering a poor boy who had stood at his door singing a carol the night before, wished he had given the child something.",
+      "The door opened, and a little girl, much younger than the boy, ran in and threw her arms about his neck, telling him joyfully that father was kinder now and that she had come to bring him home. Scrooge, watching, remembered his sister Fan with tenderness, and when the Spirit observed that she had had a large heart and had died a woman, leaving one child, he whispered that this child was his nephew Fred. The recollection troubled him, for he knew that he had treated Fred with the same coldness he showed to everyone.",
+      "Next the Spirit led him into a warehouse, where a round and cheerful old gentleman was sitting behind a high desk, and Scrooge cried out that it was old Fezziwig, alive again, and that he himself was an apprentice there. At seven o'clock, Mr Fezziwig closed the business for Christmas Eve, and with his wife and daughters he welcomed all the neighbours, the maids and the boys, and the room filled with music, laughter and the smell of hot food. Scrooge watched his younger self dancing with all his heart, and for a time he forgot himself so completely that he laughed aloud.",
+      "The Spirit observed that Fezziwig had spent a very small sum of money, perhaps three or four pounds, and asked whether it deserved so much praise from his workers. Scrooge, stung by the question, replied that the happiness a master gives is made of words and looks, and is as great as if it cost a fortune. Then he stopped short, for he suddenly thought of his clerk, Bob Cratchit, and he wished he might say a word or two to him.",
+      "Then he saw himself a little older, a man whose eyes had grown restless and greedy, sitting with a fair young girl who had tears in her eyes. Belle told him gently that another love had pushed her out, a golden one, and that he had changed so much in the pursuit of money that he was no longer the man she had promised to marry. She gave him back his word, wishing him a happy life as long as he could find one, and Scrooge, watching, begged the Spirit to take him away.",
+      "Years later he saw Belle sitting beside a bright fire, with a pretty daughter on her knee and a house full of laughing children, while her husband came in loaded with presents. Scrooge felt that he could have been that man, and that such a girl might have called him father, and the thought was more than he could bear. Seizing the extinguisher-cap that the spirit carried, he pressed it down upon the spirit's head, and in the next moment he fell asleep exhausted in his own bed.",
+      "When the bell struck one and nobody came, Scrooge went to see where the strange light was coming from, and found that it flowed from the next room, which had been transformed into a bower of holly, ivy and mistletoe. In the middle sat a jolly giant in a green robe, perched on a throne of roast meats, puddings, fruit and glowing sausages, and holding up a glowing torch like the horn of plenty. He told Scrooge that he was the Ghost of Christmas Present, and invited him to touch his robe and come out to see the sights.",
+      "In a moment they were standing in the city, where the snow lay on the roofs and the sooty chimneys and the street was full of cheerful people hurrying along with greetings and brightly coloured parcels. Grocers' shops were piled with oranges, onions, chestnuts and figs, and the poor carried their dinners to the baker's ovens, while the Spirit sprinkled incense from his torch over the dishes as they passed. Scrooge, who had always seen Christmas as a waste of time, could not help noticing how bright and joyful it looked to everyone else.",
+      "At one doorway two men jostled each other and began to quarrel, and their voices rose until the crowd stopped to stare, but the Spirit touched them with a few drops from his torch and they grew good-humoured immediately. They laughed, said it was a shame to fight on Christmas Day, and went away shaking hands, with their anger as completely forgotten as if it had never existed. Scrooge asked whether there was something special in what the Spirit sprinkled, and the Spirit answered that there was, and that it was strongest for the poor.",
+      "The Spirit led him through the streets to a very small house, where Bob Cratchit lived with his wife and children, and where the Spirit blessed the dwelling with a sprinkle from his torch. Mrs Cratchit, dressed in a gown that had been mended and turned more than once but brave in ribbons, laid the cloth with her daughters Belinda and Martha, while her son Peter stirred the potatoes. Scrooge thought it a strange sight, the wealthiest man in the district standing by a family that had so little.",
+      "Soon Bob came in from church with Tiny Tim on his shoulder, and the whole family gathered around the table, where one small goose, with apple sauce and mashed potatoes, was to serve for the whole household. Everyone declared that it was the finest goose ever cooked, and when the plum pudding came in, steaming, in its cloud of smoke, Bob said that it was the greatest success Mrs Cratchit had achieved since their marriage. Nobody said a word about how small it was for such a large family, for that would have been unkind.",
+      "Tiny Tim sat close beside his father on a little stool, and Bob held the child's thin hand as if he wanted to keep him by his side, and he feared that he might be taken away. At the end of the feast the little boy said, in his small and cheerful voice, “God bless us, every one,” and his words seemed to echo in the quiet room. Scrooge asked anxiously whether Tim would live, and the Spirit answered that if nothing changed, he would see an empty seat at the table and a crutch without an owner.",
+      "The Spirit then turned on him with Scrooge's own words, saying that if the boy was likely to die, he had better do it, and decrease the surplus population, and Scrooge hung his head, overcome with shame and sorrow. A moment later Bob raised his glass and proposed a toast to Mr Scrooge, the founder of the feast, though Mrs Cratchit replied sourly that she would drink to him only to please her husband, a stingy and unfeeling man. The company drank it without joy, and the cloud that passed over the table did not lift until the toast was done and Tiny Tim began to sing.",
+      "Next the Spirit carried him over a bleak moor, where miners sang around their fire in a rough hut, and then out to sea, to a lonely lighthouse where two keepers shook hands in the glow of a lamp. Even aboard a ship far out on the black water, every man on watch was humming some Christmas tune or thinking of a friend at home, and each was kinder to the others on that day than on any other. Scrooge, rocked by the gale, found himself quite astonished to be listening to such cheerfulness in such a lonely place.",
+      "Then Scrooge was surprised to find himself in a bright room where his own nephew was laughing so uncontrollably that his wife and her sisters had to join him, as he repeated what his uncle had said about Christmas. Fred answered that his uncle was a funny old man, but he hardly cared that the old fellow did not like him, because it was only the uncle who suffered for it. He added that he would keep inviting him every year, because he pitied him and hoped that someday he might leave a kind thought in his heart.",
+      "After tea there was music, and then the party played games, laughing as only people can who are at ease together, and Scrooge, forgetting that he could not be seen, begged the Spirit to let him stay. The game was one of questions and answers, in which a gruff animal who lived in London was to be guessed, and the answer, delivered with a roar of laughter, was Fred's uncle Scrooge. Then Fred raised a glass and wished the old man a merry Christmas and a happy new year, and though the old man heard nothing of it, his heart was strangely lighter.",
+      "The Spirit's hair had grown grey and his face lined with the years, and from beneath his robe he drew two miserable children, thin and wolfish, who knelt down at his feet and clung to his dress. They were Man's children, the Spirit said, and the boy was Ignorance while the girl was Want, and he warned Scrooge to beware of them both but most of all of the boy. When Scrooge asked whether there was no help for them, the Spirit repeated his own words, asking whether there were no prisons and no workhouses, and Scrooge could answer nothing.",
+      "As the last stroke of twelve died away, Scrooge remembered Marley's words and, lifting his eyes, saw a solemn phantom, draped and hooded, coming like a mist along the ground toward him. It was dressed in a deep black garment that hid its head, its face and its form, and left nothing visible but one outstretched hand, and its presence filled him with a solemn dread. Scrooge fell upon his knees, and said that he feared this spirit more than any ghost he had seen.",
+      "The phantom swept him into the heart of the city, where a group of wealthy merchants stood in the busy Exchange, with gold seals jingling on their watch-chains, discussing the death of someone whose name they scarcely knew. One said that he did not know what the man had done with his money, and another declared that it would probably be a very cheap funeral, for he knew of nobody who would want to go to it. A third added with a laugh that he might go if lunch was provided, for he was a man of business and could not afford to spare his time without it.",
+      "Next the phantom led him to a dark, miserable quarter of the city, where a squalid old shop sold rags and rusted iron, and three people laid out their bundles before the grey-haired owner, Joe. They had taken the blankets from the dead man's bed, the curtains from the rings, and even his shirt, and they laughed, bargaining over each coin as if it were a prize of war. Scrooge stood aghast, shuddering at the greed of those who had stripped a man who was no longer alive to complain, and he began to fear that the story was closer to him than he wished.",
+      "The phantom brought him to a bare, dark chamber lit only by a weak ray from the street, and there on the bed, with no one to watch, lay the body of the man they had just heard spoken of. Scrooge longed for the phantom to uncover the face, but he did not have the courage to do it himself, and he begged to see a single person who felt sorrow for the dead man. The room stayed silent, and the shape on the bed lay as still as the grave.",
+      "The phantom carried him to a poor home where a young wife sat waiting for her husband, and when he came in, tired, she asked him anxiously whether the news was good or bad. He told her that the creditor they feared was dead, so that they would have time to find the money, and she clasped her hands and thanked heaven with the first happiness that house had known in a long while. Scrooge, appalled, understood that the one death they all spoke of had caused only relief, and he asked the phantom, with growing dread, who the dead man could be.",
+      "Scrooge begged the phantom to show him some tenderness at last, and he was carried to Bob Cratchit's house, which was unusually quiet, for the children sat still in the corner while their mother sewed with eyes red from crying. Mrs Cratchit remarked that the work was hurting her sight, and that she would not for the world let her husband see her with weak eyes, while the children said that Peter was reading and Tiny Tim's place was empty. Scrooge understood, with a sinking heart, that the youngest of the family was no longer among them.",
+      "When Bob came home he sat beside his wife and children, and he told them how green and lovely the place was where Tiny Tim had been laid, and that he meant to walk there every Sunday. Bob also said that he had met Mr Scrooge's nephew, who had inquired with great sympathy about the family and had offered his help, and the Cratchits agreed that Fred had a good heart. They kissed one another, and every one of them promised never to forget Tiny Tim, or the first parting among them, or to quarrel with each other.",
+      "Finally the phantom brought him into a neglected churchyard, a grim place choked with weeds and overlooked by houses, and he pointed one solemn finger down at a single grave. Scrooge crept toward it, trembling in every limb, and read upon the stone his own name, Ebenezer Scrooge. He cried out that he was not the man he had been, and begged to know whether these were shadows of things that would be, or only of things that might be.",
+      "Scrooge sank to his knees and caught at the phantom's hand, and he vowed that he would honour Christmas in his heart and keep it all the year, living in the past, the present and the future. The hand seemed to tremble, and he cried that he would not shut out the lessons that all three spirits had taught him, and so the hand lost its power. The phantom shrank, collapsed and dwindled down into a bedpost, and Scrooge found that it was his own.",
+      "Yes, and the bedpost was his own, and so was the bed, and so was the room, and, best of all, the time before him was his own, to make amends in. Scrooge jumped from the bed laughing and crying at once, so light of heart that he could scarcely speak, and he knew that he had been given a second chance. He promised the spirits aloud that he would live in the past, the present and the future, and that he would never forget what they had shown him.",
+      "Scrooge threw himself about the room, kicking up his heels and dancing a sort of jig, and he cried out that he did not know what to do, because he was as giddy as a child. He ran to the window and flung it open, and he saw that there was no fog, no mist and no gloom at all, but a golden sky and clear, cold, brilliant sunshine. He heard bells ringing, and the morning seemed a delight to every sense, and to Scrooge the sweetest music he had ever heard.",
+      "Scrooge leaned out of the window and called down to a boy dressed in his holiday clothes, who stood staring up at him in great surprise, and asked what day it was. The boy replied that it was Christmas Day, and Scrooge, who had feared that the spirits might have taken many days, knew that he had missed nothing and that all of them had done it in a single night. Overjoyed, he asked whether the boy knew the poulterer's shop on the next street, and the boy said that he certainly did.",
+      "Scrooge asked whether the boy knew that the prize turkey, the biggest in the shop, still hung in the window, and the boy said that it was as big as himself. He told the child to go and buy it, promising him a good reward if he returned with the poulterer and the bird in under five minutes, and the boy was off like a shot. Scrooge laughed, chuckling to himself, and said that he would send the turkey to Bob Cratchit's family, and that they would never guess who had sent it.",
+      "He wrote the address down with a trembling hand, and the poulterer's man arrived, huffing under the weight of the bird, which was so big that it looked like a small giant. Scrooge paid for the turkey, paid the man for taking it to Camden Town, and paid the cab fare, laughing so much that he could barely tie his neck-cloth. On his way out, he patted the knocker on his door, which had given him such a fright the night before, and said that he would love it as long as he lived.",
+      "In the street he met the portly gentleman who had visited his office the day before, and he greeted him with such an overflowing smile that the man, who remembered only his hard words, could scarcely believe it. When Scrooge whispered in his ear the sum he wished to give, a very large amount, including a number of back payments, the gentleman gasped as if his breath had been taken away. Scrooge begged him not to say a word of thanks but to come and see him, and the old man promised that he would, and that with a good heart.",
+      "Afterward he went to church, and then he walked about the streets, watching the people hurrying to and fro, patting the children on their heads, and peering down into the kitchens of the houses. He found that everything could yield him pleasure, and he had never dreamed that any walk, or anything at all, could make him so happy. In the afternoon he turned his steps toward his nephew's house, and he passed the door a dozen times before he had the courage to knock.",
+      "With a great effort he walked up to the door, knocked, and asked the girl who opened it whether her master was in, adding that he was Fred's uncle and had come to dinner. The girl showed him in, and when he came to the dining-room, his nephew and his wife both stared, and then Fred shook his hand, almost wringing it off, with an earnestness he could not hide. Within five minutes Scrooge felt entirely at home, for no one could have been more cheerful or more welcoming than Fred and his wife.",
+      "What a dinner it was, with roast meat and plum pudding, and what a merry party, as Scrooge joined in the music, the forfeits and the games with all the abandon of a man released from a long imprisonment. His nephew's wife played a piece on the harp that reminded him of a tune he had heard in the schoolroom, and the thought of it made him softer and kinder still. Everyone who was there declared that they had never seen such a change in a man, and Scrooge went home with his heart brimming over.",
+      "The next morning Scrooge was at his office bright and early, for he was resolved that he would catch Bob Cratchit coming late, and he left the door of his counting-house wide open so that he might see him enter. At nine o'clock there was no Bob, and at a quarter past there was still no Bob, and when he finally hurried in, nearly twenty minutes late, he dashed to his stool and began to write. Scrooge, assuming his sternest tone, as near as he could to the old one, growled that he did not like this sort of thing and demanded to know what he meant by coming so late.",
+      "Scrooge laughed and told Bob that he would not put up with it any longer, and that he was going to raise his salary at once, then he leaped up and slapped the astonished clerk on the back. He said that he would help his struggling family, and that they would discuss it that very afternoon over a bowl of hot punch, and that Bob must get more coal before he did another stroke of work. Bob Cratchit, who thought for a moment that his master had gone mad, looked for a ruler to defend himself, but soon realised that the old man was entirely serious.",
+      "Scrooge kept every promise he had made and more, and to Tiny Tim, who did not die, he became a second father. In time he was known as the kindest friend, the fairest master and the best neighbour that the great city had ever seen. Some people laughed at the change in him, but he let them laugh, for he knew that nothing good ever came into the world without somebody finding it funny.",
+      "Ever afterward it was said of Scrooge that he knew how to keep Christmas as well as any man alive, and that is the highest praise that a person can be given. May the same be truly said of us, and of all of us, in the years that follow, and may we carry its warmth through all the days of the year. And so, as Tiny Tim said when the whole family sat together at the table, God bless us, every one."
+    ]
+  }
+}

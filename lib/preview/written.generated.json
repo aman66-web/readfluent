@@ -7987,6 +7987,43 @@
   }
  },
  {
+  "slug": "the-book-of-psalms",
+  "title": "The Book of Psalms",
+  "author": "Hebrew Bible",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "A shepherd, a stormy night, a deer by a stream, exiles weeping by a river. The Book of Psalms holds 150 ancient songs of joy, fear, doubt and hope. Read its best-loved poems, one at a time, from the first to the last.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "The Book of",
+    "Psalms"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-art-of-living-long",
   "title": "The Art of Living Long",
   "author": "Luigi Cornaro",
@@ -8105,7 +8142,7 @@
   "category": "health",
   "blurb": "When her mother breaks a wrist in a simple fall, Tess discovers that bones are alive, always rebuilding, and shaped by what we eat and do. Follow one family through a year of learning how to look after the skeleton for life.",
   "cover": {
-   "bg": "#0A1428",
+   "bg": "#1B2250",
    "title": [
     "Strong Bones",
     "for Life"
@@ -8120,13 +8157,49 @@
      "s": 0.9
     },
     {
-     "id": "dna",
+     "id": "shield",
      "x": 100,
      "y": 82,
      "s": 0.92
     },
     {
-     "id": "moon",
+     "id": "dumbbell",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "water-simply",
+  "title": "Water, Simply",
+  "author": "Your Body's Many Cries for Water",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "A courier feels faint on a hot July afternoon and asks the simplest question: what does water actually do? Follow Ben and his grandmother through one summer to learn how thirst works, how much to drink, and what is just a myth.",
+  "cover": {
+   "bg": "#164E63",
+   "title": [
+    "Water, Simply"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "waves",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "cup",
      "x": 160,
      "y": 38,
      "s": 0.36
