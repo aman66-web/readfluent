@@ -143,7 +143,14 @@ export function Coach() {
     <div className="pointer-events-none fixed inset-0 z-[70]" aria-live="polite">
       {hole ? (
         <>
-          <div className="coach-spot absolute rounded-[24px]" style={hole} />
+          <div className="coach-spot absolute" style={{ ...hole, borderRadius: Math.min(hole.height / 2, 26) }} />
+          {/* A step that asks for a tap points at the thing to tap: an arrow that bounces towards it. */}
+          {step.mode === "route" && (
+            <span aria-hidden className="coach-point absolute grid size-11 place-items-center rounded-full bg-accent-bright text-on-cyan shadow-[0_8px_18px_-6px_rgba(0,0,0,.55)] ring-[3px] ring-white"
+                  style={{ left: hole.left + hole.width / 2 - 22, top: top ? hole.top - 58 : hole.top + hole.height + 12 }}>
+              <svg viewBox="0 0 24 24" className={`size-6 ${top ? "" : "rotate-180"}`} fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v13M6 13l6 6 6-6" /></svg>
+            </span>
+          )}
           {/* Touches on the dimmed part do nothing (not even scrolling); the lit part stays tappable, which is how a step that asks for a tap is done. */}
           {step.mode === "next" ? (
             <Shield className="inset-0" />
