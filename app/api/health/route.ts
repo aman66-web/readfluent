@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { buildLine } from "@/lib/build";
 import { dbConfigured, serviceConfigured } from "@/lib/db/env";
 import { createClient } from "@/lib/db/server";
+import { translatorConfigured } from "@/lib/translate/google";
 
 export const runtime = "nodejs";
 // Never cached: the whole point is to report what this server has right now.
@@ -97,6 +98,8 @@ export async function GET() {
     build: buildLine(),
     db,
     service,
+    // Whether the machine translator has its key (books in the language being learned); never the key.
+    translator: translatorConfigured(),
     signedIn,
     missing,
     wrongShape,
