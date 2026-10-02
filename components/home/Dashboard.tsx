@@ -8,7 +8,8 @@ import { categoryById } from "@/lib/content/limits";
 import { useBookText, useLocale, useT } from "@/lib/i18n/react";
 import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { useAnswers } from "@/lib/onboarding/use-answers";
-import { findBook, coverAuthor } from "@/lib/preview/catalog";
+import { findBook, coverAuthor, PREVIEW_BOOKS } from "@/lib/preview/catalog";
+import { CarryOn } from "@/components/library/CarryOn";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { LEDGER_KEY, parseLedger, streak, totalXp } from "@/lib/xp/ledger";
 import { dayDate, useToday } from "@/lib/xp/today";
@@ -17,6 +18,9 @@ import { FriendsCard } from "@/components/friends/FriendsCard";
 import { NewBadge } from "@/components/badges/NewBadge";
 import { LevelCard } from "./LevelCard";
 import { StudyChart } from "./StudyChart";
+
+/** The covers fanned on the way into the library. */
+const FAN = ["alice-s-adventures-in-wonderland", "pride-and-prejudice", "the-hound-of-the-baskervilles"] as const;
 
 const subscribeLedger = subscribeTo(LEDGER_KEY);
 const readLedger = () => readRaw(LEDGER_KEY);
@@ -37,7 +41,6 @@ export function Dashboard() {
   const bookName = useCallback((slug: string) => { const b = findBook(slug); return b ? bookText(slug, "title", b.title) : slug; }, [bookText]);
   const today = useToday();
   const run = useMemo(() => (today ? streak(ledger, dayDate(today)) : 0), [ledger, today]);
-  const carry = ledger.lastSlug ? findBook(ledger.lastSlug) : null;
   const date = useMemo(() => {
     try { return new Intl.DateTimeFormat(locale, { weekday: "long", day: "numeric", month: "long" }).format(dayDate(today)); } catch { return ""; }
   }, [locale, today]);
@@ -69,26 +72,25 @@ export function Dashboard() {
         <StudyChart ledger={ledger} goal={goal} bookName={bookName} />
       </div>
 
-      {carry && (
-        <Link href={`/book/${carry.slug}`} className="mt-3 flex items-center gap-4 rounded-[22px] border border-border bg-surface p-3.5 active:opacity-80">
-          <BookCover slug={carry.slug} title={bookName(carry.slug)} author={coverAuthor(carry)} hue={categoryById(carry.category)?.hue ?? 30} className="w-[52px] shrink-0" />
-          <span className="min-w-0 flex-1">
-            <span className="block text-[12px] font-semibold uppercase tracking-[0.08em] text-faint">{t("home.carryOn")}</span>
-            <span className="mt-0.5 block truncate text-[16px] font-semibold" dir="auto">{bookName(carry.slug)}</span>
-          </span>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 shrink-0 text-faint rtl:-scale-x-100" aria-hidden><path d="M9 5l7 7-7 7" /></svg>
-        </Link>
-      )}
+      <CarryOn books={PREVIEW_BOOKS} />
 
-      <Link href="/library" className="mt-3 flex items-center gap-4 rounded-[22px] border border-border bg-surface p-4 active:opacity-80">
-        <span className="grid size-11 shrink-0 place-items-center rounded-full bg-accent-bright/25 text-accent" aria-hidden>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5"><path d="M12 6.5C10.2 5 7.6 4.5 4 4.8V18c3.6-.3 6.2.2 8 1.7 1.8-1.5 4.4-2 8-1.7V4.8c-3.6-.3-6.2.2-8 1.7z" /><path d="M12 6.5v13.2" /></svg>
+      {/* The way into the library: a fan of covers, so it looks like somewhere you want to go. */}
+      <Link href="/library" className="relative mt-3 flex items-center gap-4 overflow-hidden rounded-[26px] bg-gradient-to-br from-[#E3F8FC] to-[#BFEFF9] p-4 shadow-[0_18px_30px_-22px_rgba(8,47,60,.6)] active:opacity-90">
+        <span className="relative block h-[84px] w-[92px] shrink-0" aria-hidden>
+          {FAN.map((slug, i) => {
+            const b = findBook(slug);
+            return b ? (
+              <span key={slug} className="absolute top-0 block w-[46px] drop-shadow-[0_6px_6px_rgba(8,47,60,.35)]" style={{ left: i * 18, transform: `rotate(${(i - 1) * 7}deg)`, zIndex: i === 1 ? 3 : 1 + i }}>
+                <BookCover slug={b.slug} title={b.title} author={coverAuthor(b)} hue={categoryById(b.category)?.hue ?? 30} />
+              </span>
+            ) : null;
+          })}
         </span>
         <span className="min-w-0 flex-1">
-          <span className="block text-[15px] font-semibold">{t("home.browse")}</span>
-          <span className="mt-0.5 block text-[12.5px] text-muted">{t("home.browseSub")}</span>
+          <span className="block text-[17px] font-bold tracking-[-0.01em]">{t("home.browse")}</span>
+          <span className="mt-0.5 block text-[13px] leading-snug text-foreground/70">{t("home.browseSub")}</span>
         </span>
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 shrink-0 text-faint rtl:-scale-x-100" aria-hidden><path d="M9 5l7 7-7 7" /></svg>
+        <span aria-hidden className="grid size-10 shrink-0 place-items-center rounded-full bg-accent text-white"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="size-5 rtl:-scale-x-100"><path d="M9 5l7 7-7 7" /></svg></span>
       </Link>
     </main>
   );

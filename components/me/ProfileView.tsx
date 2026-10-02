@@ -44,10 +44,10 @@ const Chevron = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 shrink-0 text-faint rtl:-scale-x-100" aria-hidden><path d="M9 5l7 7-7 7" /></svg>
 );
 
-function Group({ title, children }: { title: string; children: React.ReactNode }) {
+function Group({ title, children }: { title?: string; children: React.ReactNode }) {
   return (
     <section className="mt-6">
-      <h2 className="px-1 text-[12px] font-bold uppercase tracking-[0.1em] text-faint">{title}</h2>
+      {title ? <h2 className="px-1 text-[12px] font-bold uppercase tracking-[0.1em] text-faint">{title}</h2> : null}
       <div className="mt-2 overflow-hidden rounded-[22px] border border-border bg-surface">{children}</div>
     </section>
   );
@@ -185,8 +185,8 @@ export function ProfileView() {
 
       <BadgeGrid />
 
-      <Group title={t("me.tour")}>
-        <Row last>
+      <Group>
+        <Row>
           <Link href="/" onClick={() => restartTour()} className="flex min-h-11 w-full items-center gap-3 text-start active:opacity-70">
             <span className="min-w-0 flex-1">
               <span className="block text-[15px] font-semibold">{t("me.tour")}</span>
@@ -195,9 +195,7 @@ export function ProfileView() {
             <Chevron />
           </Link>
         </Row>
-      </Group>
 
-      <Group title={t("me.premium")}>
         <Row last>
           <button type="button" onClick={() => setPaywall(true)} className="flex min-h-11 w-full items-center gap-3 text-start active:opacity-70">
             <span className="min-w-0 flex-1">

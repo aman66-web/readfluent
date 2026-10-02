@@ -1,0 +1,417 @@
+{
+  "slug": "the-adventures-of-sherlock-holmes",
+  "meta": {
+    "blurb": "Twelve cases, told by Dr Watson: a king in a mask, a club for red-haired men, a goose with a jewel inside, a deadly snake in a locked room. Sherlock Holmes reads the smallest clues and solves each puzzle with wit, courage and a little mercy.",
+    "bible": "Sherlock Holmes: the consulting detective of Baker Street; calm, clever, vain, kind when it matters. Dr John Watson: his friend and the narrator, a doctor. The twelve cases in order: A Scandal in Bohemia; The Red-Headed League; A Case of Identity; The Boscombe Valley Mystery; The Five Orange Pips; The Man with the Twisted Lip; The Blue Carbuncle; The Speckled Band; The Engineer's Thumb; The Noble Bachelor; The Beryl Coronet; The Copper Beeches. Bohemia: the King of Bohemia, who comes in a mask; Irene Adler, the clever singer who beats Holmes; Godfrey Norton, her husband. The Red-Headed League: Jabez Wilson, pawnbroker with red hair; Vincent Spaulding, his assistant, really John Clay; Duncan Ross; Saxe-Coburg Square; the City and Suburban Bank; Inspector Jones; Mr Merryweather. Case of Identity: Mary Sutherland; Hosmer Angel; Mr Windibank, her stepfather. Boscombe Valley: Charles McCarthy, killed; James McCarthy, his son; John Turner; Alice Turner; Ballarat; Inspector Lestrade; Herefordshire. Five Orange Pips: John Openshaw; Elias Openshaw; the ship Lone Star. Twisted Lip: Neville St Clair; Hugh Boone, a beggar; Isa Whitney; Upper Swandam Lane. Blue Carbuncle: Peterson, the doorman; Henry Baker; the Countess of Morcar; John Horner; James Ryder; Mr Breckinridge; Covent Garden. Speckled Band: Helen Stoner; Julia Stoner, her dead sister; Dr Grimesby Roylott, her stepfather; Stoke Moran. Engineer's Thumb: Victor Hatherley; Colonel Lysander Stark; Eyford. Noble Bachelor: Lord Robert St Simon; Hatty Doran; Frank Moulton; Flora Millar; Hyde Park. Beryl Coronet: Alexander Holder, a banker; his son Arthur; his niece Mary; Sir George Burnwell; Streatham. Copper Beeches: Violet Hunter; Jephro Rucastle; Mrs Rucastle; Mr and Mrs Toller; Carlo; Alice Rucastle; Mr Fowler. Baker Street, London, Scotland Yard, the Thames, England. Voice and tone: lively, clear and clever, each case a small, complete puzzle; deaths are stated plainly, with no gore; Holmes is sometimes merciful. Beat 50 closes the whole book."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Watson climbs the stairs to Holmes's sitting room one evening",
+      "summary": "Married Watson visits Holmes in Baker Street, and Holmes reads his week from small signs."
+    },
+    {
+      "n": 2,
+      "scene": "A tall masked man in a fur coat stands in the doorway",
+      "summary": "A scandal in Bohemia: a masked visitor, who is the King of Bohemia, calls at Baker Street."
+    },
+    {
+      "n": 3,
+      "scene": "The masked King holds out a letter and a worried frown",
+      "summary": "The King fears that Irene Adler will use an old photograph against his marriage."
+    },
+    {
+      "n": 4,
+      "scene": "A man dressed as a groom watches a small house",
+      "summary": "Holmes disguises himself as a groom and is pulled in to witness Irene Adler's wedding."
+    },
+    {
+      "n": 5,
+      "scene": "Smoke fills a room while a woman runs to a hidden panel",
+      "summary": "A smoke trick makes Irene reveal where the photograph is hidden."
+    },
+    {
+      "n": 6,
+      "scene": "Holmes reads a short note in an empty room",
+      "summary": "Irene has left London with her husband, and Holmes admits that she has beaten him."
+    },
+    {
+      "n": 7,
+      "scene": "A stout man with bright red hair sits in a chair",
+      "summary": "The Red-Headed League: Jabez Wilson, a pawnbroker with red hair, comes to Holmes."
+    },
+    {
+      "n": 8,
+      "scene": "Hundreds of red-haired men queue along a London street",
+      "summary": "Wilson answers an advertisement and is chosen for an easy, well-paid job."
+    },
+    {
+      "n": 9,
+      "scene": "A man stares at a notice pinned to an empty office door",
+      "summary": "After eight weeks of copying, the League is dissolved."
+    },
+    {
+      "n": 10,
+      "scene": "Holmes taps the pavement with his stick in a quiet square",
+      "summary": "Holmes studies the assistant's trousers and taps the pavement outside the shop."
+    },
+    {
+      "n": 11,
+      "scene": "A narrow tunnel leads under a street towards a bank",
+      "summary": "Holmes sees that a tunnel is being dug towards the bank behind the square."
+    },
+    {
+      "n": 12,
+      "scene": "Four men wait silent and still in a dark bank cellar",
+      "summary": "Holmes and the police wait in the vault and catch John Clay."
+    },
+    {
+      "n": 13,
+      "scene": "A young woman with a large hat wrings her gloves",
+      "summary": "A Case of Identity: Mary Sutherland's fiancé vanishes on the way to the church."
+    },
+    {
+      "n": 14,
+      "scene": "Mary points to a typewritten letter and a pair of tinted glasses",
+      "summary": "Mary describes her quiet, shy fiancé and her unfriendly stepfather."
+    },
+    {
+      "n": 15,
+      "scene": "Holmes holds a locked door against a pale, angry man",
+      "summary": "Holmes proves that the stepfather, Windibank, played the part of the fiancé."
+    },
+    {
+      "n": 16,
+      "scene": "A farmer lies by a quiet pool among tall trees",
+      "summary": "The Boscombe Valley Mystery: Charles McCarthy is found dead, and his son is arrested."
+    },
+    {
+      "n": 17,
+      "scene": "A worried girl speaks to Holmes in a country lane",
+      "summary": "Alice Turner believes James McCarthy is innocent, and Holmes visits the country."
+    },
+    {
+      "n": 18,
+      "scene": "Holmes studies footprints by a pool with a magnifying glass",
+      "summary": "Holmes reads the ground and understands the dying word, Ballarat."
+    },
+    {
+      "n": 19,
+      "scene": "An old, sick man sits in a large armchair and talks",
+      "summary": "John Turner confesses, and Holmes lets him live out his days in peace."
+    },
+    {
+      "n": 20,
+      "scene": "A pale young man shakes rain from his coat in Baker Street",
+      "summary": "The Five Orange Pips: John Openshaw describes an envelope of seeds and his relatives' deaths."
+    },
+    {
+      "n": 21,
+      "scene": "Holmes frowns over an envelope holding five small orange seeds",
+      "summary": "A secret American society sends the seeds, and Holmes warns Openshaw to take care."
+    },
+    {
+      "n": 22,
+      "scene": "A ship sails away into a storm over a grey sea",
+      "summary": "Openshaw drowns, Holmes tracks the ship Lone Star, and the ship is lost at sea."
+    },
+    {
+      "n": 23,
+      "scene": "A man in a ragged coat sits in a smoky room",
+      "summary": "The Man with the Twisted Lip: Watson finds Holmes in disguise in a dark room in East London."
+    },
+    {
+      "n": 24,
+      "scene": "A woman looks up at a window above a shabby shop",
+      "summary": "Mrs St Clair sees her husband at a window, then he vanishes, and a beggar is arrested."
+    },
+    {
+      "n": 25,
+      "scene": "A wet sponge wipes a beggar's face in a police cell",
+      "summary": "Holmes washes the beggar's face and finds Neville St Clair underneath."
+    },
+    {
+      "n": 26,
+      "scene": "Two men talk quietly in a bare room at dawn",
+      "summary": "St Clair explains that he earned more by begging than from his job, and Holmes keeps his secret."
+    },
+    {
+      "n": 27,
+      "scene": "A commissionaire holds up a dead goose and an old hat",
+      "summary": "The Blue Carbuncle: Peterson brings Holmes a goose and a battered hat."
+    },
+    {
+      "n": 28,
+      "scene": "A bright blue stone glitters in the palm of a hand",
+      "summary": "A famous jewel, the Blue Carbuncle, is found inside the goose."
+    },
+    {
+      "n": 29,
+      "scene": "Holmes questions an angry man behind a market stall",
+      "summary": "Holmes traces the goose through Baker and the Covent Garden market."
+    },
+    {
+      "n": 30,
+      "scene": "A pale man shakes in a chair beside Holmes",
+      "summary": "James Ryder confesses, and Holmes lets him go at Christmas."
+    },
+    {
+      "n": 31,
+      "scene": "A trembling woman in a veil sits in front of Holmes's fire",
+      "summary": "The Speckled Band: Helen Stoner fears for her life, as her sister died in terror."
+    },
+    {
+      "n": 32,
+      "scene": "A huge man bends an iron poker with his hands",
+      "summary": "Dr Roylott bursts in, threatens Holmes and bends a poker."
+    },
+    {
+      "n": 33,
+      "scene": "Holmes studies a bell rope and a small vent in a bedroom",
+      "summary": "At Stoke Moran, Holmes finds a false bell rope, a vent and a bed fixed to the floor."
+    },
+    {
+      "n": 34,
+      "scene": "Two men sit in a dark bedroom with a cane on a table",
+      "summary": "Holmes and Watson wait through the night in the dark."
+    },
+    {
+      "n": 35,
+      "scene": "A long thin shape slides down a rope in a match's flash",
+      "summary": "A snake comes through the vent, and Holmes drives it back with his cane."
+    },
+    {
+      "n": 36,
+      "scene": "A heavy man lies in a chair with a snake about his head",
+      "summary": "The snake bites Dr Roylott, who dies, and Holmes explains the plan."
+    },
+    {
+      "n": 37,
+      "scene": "A young man with a bandaged hand sits at Watson's table",
+      "summary": "The Engineer's Thumb: Victor Hatherley tells of a well-paid job at a lonely house."
+    },
+    {
+      "n": 38,
+      "scene": "A huge iron machine stands in a dim cellar",
+      "summary": "Hatherley finds a press, guesses a crime and is trapped in a room under it."
+    },
+    {
+      "n": 39,
+      "scene": "A man falls from a high window into a dark garden",
+      "summary": "He escapes through a window, loses a thumb, and the gang disappears."
+    },
+    {
+      "n": 40,
+      "scene": "A proud young lord stands stiffly in Holmes's sitting room",
+      "summary": "The Noble Bachelor: Lord St Simon's American bride vanishes at the wedding breakfast."
+    },
+    {
+      "n": 41,
+      "scene": "A bundle of wet white cloth lies on a park lake shore",
+      "summary": "A bridal gown is found in the Serpentine, and Lestrade arrests the wrong woman."
+    },
+    {
+      "n": 42,
+      "scene": "A young woman and a sunburned man arrive together",
+      "summary": "Hatty returns with Frank Moulton, her husband from America, and Holmes explains."
+    },
+    {
+      "n": 43,
+      "scene": "A frightened banker clutches a jewelled gold crown",
+      "summary": "The Beryl Coronet: banker Holder finds that his priceless gold crown is damaged."
+    },
+    {
+      "n": 44,
+      "scene": "A young man says nothing as a policeman takes his arm",
+      "summary": "His son Arthur is arrested and refuses to explain."
+    },
+    {
+      "n": 45,
+      "scene": "Footprints cross fresh snow outside a banker's door",
+      "summary": "Holmes reads the snow, names Sir George Burnwell, and recovers the stones."
+    },
+    {
+      "n": 46,
+      "scene": "A young woman in a plain dress reads an offer",
+      "summary": "The Copper Beeches: Violet Hunter is offered an oddly generous job."
+    },
+    {
+      "n": 47,
+      "scene": "A woman in a blue dress sits by a large window",
+      "summary": "At Copper Beeches she has to sit in a blue dress and see a man in the road."
+    },
+    {
+      "n": 48,
+      "scene": "A large dog guards a dark house at night",
+      "summary": "Violet finds a locked room, learns of the savage dog and calls Holmes."
+    },
+    {
+      "n": 49,
+      "scene": "Holmes and Watson stand over a shouting man and a growling dog",
+      "summary": "Holmes learns the truth about Alice, the dog attacks Rucastle and Violet is safe."
+    },
+    {
+      "n": 50,
+      "scene": "Watson writes beside a lamp in a quiet Baker Street room",
+      "summary": "Watson looks back on these twelve cases and the friend who solved them."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Dr Watson was married now, but he still visited Holmes sometimes.",
+      "A tall man in a mask came to Baker Street one night.",
+      "The man was a king, and a woman had his photograph.",
+      "Holmes dressed as a groom and watched the house of Irene Adler.",
+      "Holmes made smoke in her house, and she ran to her secret place.",
+      "In the morning, Irene had gone, and Holmes said that she was clever.",
+      "A man with bright red hair came and told a strange story.",
+      "He saw a notice that offered good money to red-haired men.",
+      "He copied books for eight weeks, and then the job was gone.",
+      "Holmes looked at the helper's dirty trousers and hit the street with his stick.",
+      "Holmes saw that some men were digging a tunnel to the bank.",
+      "That night they waited in the dark bank and caught a thief.",
+      "A young woman said that her man had vanished on their wedding day.",
+      "She said he was quiet, wore dark glasses and wrote only on a machine.",
+      "Holmes showed that her stepfather had pretended to be her love.",
+      "A farmer was found dead near a pool, and the police took his son.",
+      "A girl named Alice said the son was good, and Holmes went to help.",
+      "Holmes looked at the ground and saw who the killer was.",
+      "An old sick man told the truth, and Holmes let him stay at home.",
+      "A pale young man brought a letter with five orange seeds inside.",
+      "Holmes said that a secret group sent the seeds and wanted to hurt him.",
+      "The young man died in the river, and the ship sailed away and was lost.",
+      "Watson went to a dark smoky room and found Holmes dressed as an old man.",
+      "A woman saw her husband at a window, but then he was gone.",
+      "Holmes washed the man's face, and he saw the missing husband.",
+      "The husband said that begging paid well, and Holmes did not tell anyone.",
+      "At Christmas, a man brought Holmes a goose and an old hat.",
+      "Inside the goose, they found a bright blue stone that someone had stolen.",
+      "Holmes asked many people where the goose came from, and he went to the market.",
+      "At last a hotel worker said that he took the stone, and Holmes let him go.",
+      "A young woman named Helen came to Holmes because she was very afraid.",
+      "Her angry stepfather came and bent a thick iron poker with his hands.",
+      "In her room, Holmes found a false bell rope and a small hole.",
+      "That night, Holmes and Watson sat in the dark and waited.",
+      "A snake came down the rope, and Holmes hit it with his stick.",
+      "The snake bit the doctor, and he died in his chair.",
+      "A young man with a hurt hand said he had a strange job.",
+      "He found a big machine, and the roof began to come down on him.",
+      "He jumped from a window and lost his thumb, but he lived.",
+      "A rich lord came to Holmes, because his young wife had vanished.",
+      "Police found her dress in a pond, but they did not find her.",
+      "The woman came back with a man she had loved long ago.",
+      "A banker came to Holmes in fear, because a famous gold crown was hurt.",
+      "His son was caught with the crown, and he would not say why.",
+      "Holmes read the footprints in the snow and found the true thief.",
+      "A young woman named Violet got a job with a very strange family.",
+      "She had to wear a blue dress and sit by a window.",
+      "She found a locked room, and she heard that a big dog guarded the house.",
+      "Holmes and Watson came, and the cruel father was hurt by his own dog.",
+      "Watson looked back at these cases and was glad to know Holmes."
+    ],
+    "B1B2": [
+      "One evening, Watson, who was now married and had a home of his own, climbed the stairs to visit his old friend in Baker Street. Holmes looked at him closely and told him, with great pleasure, exactly how he had spent his week.",
+      "That night, a tall man in a fine fur coat and a black mask came up the stairs of Baker Street. He wore the mask to hide his face, but Holmes saw at once that he was the King of Bohemia.",
+      "The King explained that he had once been close to an actress named Irene Adler, who had a photograph of the two of them. He was about to marry a princess, and he feared that Irene would send the picture to her family.",
+      "Holmes dressed as a groom and watched Irene Adler's house, where a lawyer called Godfrey Norton came and went. Suddenly the two of them hurried to a church, and Holmes was pulled inside to be a witness at their wedding.",
+      "The next day, a smoke rocket was thrown into her room, and someone shouted that the house was on fire. Irene ran to the place where she kept her most precious thing, and Holmes saw where it was.",
+      "In the morning, Holmes found that Irene had left London with her husband and had taken the photograph with her. The King offered Holmes a reward, but Holmes asked only for her picture, because he would always call her the woman.",
+      "A pawnbroker named Jabez Wilson came to Baker Street, a stout man with hair of the brightest red. He said that he had a very strange tale, and Holmes and Watson listened with great interest.",
+      "His assistant, Vincent Spaulding, had found an advertisement for the Red-Headed League, which offered four pounds a week to red-haired men. Wilson went to the office, was chosen from a huge crowd and was given an easy job copying the Encyclopaedia.",
+      "For eight weeks Wilson sat in a bare office every morning, copying the book word by word and collecting his money. Then one day he found a notice on the door saying that the League was dissolved, and the office was empty.",
+      "Holmes went to Saxe-Coburg Square and noticed that the assistant's trousers were worn and dirty at the knees. He struck the pavement with his stick, listened carefully and then looked at the street behind the shop.",
+      "Holmes understood that the League had only been invented to keep Wilson out of his shop for hours each day. Meanwhile Spaulding was digging a tunnel from the cellar towards the City and Suburban Bank.",
+      "That night Holmes, Watson, Inspector Jones and the bank's director, Mr Merryweather, waited in the dark cellars of the bank. At last a stone lifted, and a thin man named John Clay climbed up and was caught.",
+      "Miss Mary Sutherland, a typist with weak eyes, came to Baker Street in great distress. Her fiancé, Hosmer Angel, had disappeared on the way to their wedding, and she begged Holmes to find him.",
+      "Miss Sutherland said that Hosmer Angel was quiet, wore dark glasses and wrote only typed letters. Her stepfather, Mr Windibank, who was only five years older than she was, had been against the wedding.",
+      "Holmes compared the typed letters and saw that Windibank's machine made the same small mistakes. He locked the door and told the stepfather that he had pretended to be the fiancé to keep the girl's money.",
+      "Inspector Lestrade asked for help in Herefordshire, where a farmer, Charles McCarthy, had been found dead by a pool. His son James had been seen quarrelling with him, and the police had arrested the young man.",
+      "Holmes and Watson travelled to Boscombe Valley, where they met Alice Turner, who believed that James was innocent. She also said that the dying man had spoken one strange word, which was a rat.",
+      "At the pool, Holmes studied the ground and found that the killer was tall, left-handed, and limped, and wore a grey coat. He also decided that the dying word was not rat at all, but the name of an Australian town, Ballarat.",
+      "Holmes called on John Turner, Alice's sick old father, and told him what he knew. Turner confessed that he had killed McCarthy, who had blackmailed him, and Holmes promised to keep the secret if James went free.",
+      "John Openshaw came in out of the storm, pale with fear, and told how his uncle had received five dried orange seeds. Soon the uncle was dead, and his father died in the same way a few years later.",
+      "Now John had received an envelope with five orange seeds as well, and Holmes told him to be careful. Holmes believed that a secret American society was hunting the family, and he advised the young man to go home safely.",
+      "The next morning John Openshaw was found drowned in the Thames, and Holmes was angry with himself. He traced the killers' ship, the Lone Star, and sent five orange seeds to its captain, but the ship was lost at sea.",
+      "Watson went to a dark opium den in the east of London to fetch a friend named Isa Whitney, who was lost in the smoke. To his surprise, an old man there whispered to him, and it was Holmes in disguise, working on a case.",
+      "Mrs St Clair had seen her husband Neville at an upstairs window of that very building, but then he had disappeared. The police arrested a beggar named Hugh Boone, who had a twisted lip, and they found Neville's coat full of coins by the river.",
+      "Holmes spent the whole night thinking, and then at dawn he went to the police station. There he washed the beggar's face with a wet sponge, and the twisted lip and false hair came away to show Neville St Clair.",
+      "Neville St Clair admitted that he made much more money as a beggar than as a newspaper writer. Holmes promised to say nothing if he never begged again, and Neville promised, and Mrs St Clair forgave him.",
+      "On the second day after Christmas, the doorman Peterson brought Holmes a hat and a goose that a thief had dropped in the street. Holmes studied the hat and said that its owner was a thoughtful man who had fallen on hard times.",
+      "When Peterson's wife cooked the goose, she found a brilliant blue stone inside it. Holmes knew that it was the Blue Carbuncle, stolen from the Countess of Morcar, and that a plumber had been arrested.",
+      "Holmes put an advertisement in the newspaper, and Mr Henry Baker came to ask for his hat. Baker explained where his goose had come from, and Holmes went to the Covent Garden market to question the dealer.",
+      "At last the trail led to James Ryder, the head attendant of the hotel, who was shaking with fear. He admitted that he had stolen the stone and hidden it in a goose, and Holmes let him go because it was Christmas.",
+      "Miss Helen Stoner arrived at Baker Street early, pale and trembling. Two years before, her twin sister Julia had died in the night, and her last words had been about the speckled band.",
+      "Soon the huge Dr Grimesby Roylott burst into the room and shouted at Holmes to stay out of his business. To show his strength, he bent the iron poker, and Holmes calmly bent it back.",
+      "At Stoke Moran, Holmes found that the bell rope was false and that a vent opened into Roylott's room. The bed was also fixed to the floor, and Holmes grew very serious.",
+      "That night Holmes and Watson waited in Helen's room with no light, listening to every sound. Hours passed, and at last they heard a faint whistle and saw a light go out in the next room.",
+      "Something slid down the rope, and Holmes lit a match and struck at it with his cane. The deadly Indian snake hissed and fled through the vent back to Roylott's room.",
+      "In his room the doctor lay dead in his chair, with the speckled snake wrapped round his head. Holmes said that he was not sorry, for the doctor's own wicked plan had come back to destroy him.",
+      "Victor Hatherley, a young engineer with a bandaged hand, told Holmes that a stranger had offered him fifty guineas for one night's work. The pay was so high that he agreed to go, although the man would not say exactly where.",
+      "Colonel Stark showed him a huge press in an old house at Eyford, and Hatherley soon guessed that it was used for making false coins. Then he was shut into a room under the press, and the roof began to come slowly down.",
+      "A woman opened the door, and he escaped through a window, but the Colonel cut off his thumb as he fell. When the police came, the house was burning and the criminals had gone, and nobody ever found them.",
+      "Lord Robert St Simon came to Holmes in great distress, because his bride, an American heiress named Hatty Doran, had vanished at their wedding breakfast. Only an hour before, she had become his wife, and now nobody knew where she was.",
+      "Lestrade found a wet wedding dress in the Serpentine, a lake in Hyde Park, and he arrested a woman called Flora Millar. Holmes was not sure, and he followed a small clue that the police had missed.",
+      "Hatty came to Baker Street with a man named Frank Moulton, whom she had married years before in America. She had thought him dead, but he had come to the church, and she had slipped away to be with him.",
+      "Alexander Holder, a famous banker, rushed into Baker Street because a priceless gold crown set with beryls had been damaged in his house. A very important person had left it with him as a guarantee for a loan, and three of the stones had vanished.",
+      "Holder had found his son Arthur holding the broken crown in the middle of the night, and had called the police in anger. Arthur refused to say a word, and that made his father even more certain that he was guilty.",
+      "Holmes examined the footprints in the snow and found that the thief had been Sir George Burnwell, helped by Holder's niece Mary. Arthur had kept silent to protect her, and Holmes found the missing stones and returned them.",
+      "Violet Hunter, a young governess, told Holmes that a man named Jephro Rucastle had offered her a very high salary. He wanted her to cut her hair short, wear a certain blue dress, and sit where he told her, and she did not like it.",
+      "At Copper Beeches, the house was gloomy, and the family was odd. Violet had to sit by the window in the blue dress, and she noticed a man who watched her from the road.",
+      "Violet discovered that part of the house was locked, and that a savage dog named Carlo was left loose at night. She wrote to Holmes for help, and he promised to come at once.",
+      "The servant, Toller, told Holmes that Rucastle's daughter Alice had been locked away and that Violet had fooled her sweetheart. In his rage, Rucastle let the dog loose, and it attacked him in the dark.",
+      "Watson looked back on these twelve cases and felt grateful for the friend who had solved them. Whatever the puzzle, he said, Holmes had met it with a clear mind and a good heart."
+    ],
+    "C1C2": [
+      "One evening, after months of marriage and medical practice, Watson felt the old pull of Baker Street and climbed the familiar stairs to find Holmes at the fire. The detective examined his friend with a single glance and announced, with obvious pleasure, that he had put on weight, returned to practice and been caught in the rain. Watson, as always, was astonished, until Holmes explained that he had merely noticed what Watson had only looked at.",
+      "That same night a tall, broad-shouldered man in a rich fur coat and a black mask climbed the stairs to Holmes's room, announcing himself as Count Von Kramm. The disguise fooled neither of the two friends, for Holmes, with his usual calm, told the visitor that he knew him to be the King of Bohemia. The man threw off his mask in exasperation and admitted that Holmes was right.",
+      "The King explained that, some years earlier, he had been friendly with an adventuress and opera singer named Irene Adler, and that she now possessed a photograph of the two of them together. He was about to marry the daughter of a stern northern king, and he feared that Irene would send the picture to her family and ruin everything. Attempts to steal or buy the photograph had failed, and so he had come to Holmes.",
+      "Disguised as a rough groom, Holmes watched Irene Adler's villa for a day, until a lawyer named Godfrey Norton arrived and she hurried after him to a nearby church. Holmes followed, expecting to see nothing, but was seized by the hand and dragged inside to act as a witness at their wedding. He had, he later said, never in all his life been so astonished or so amused by anything.",
+      "The following afternoon, Holmes and Watson returned to Irene's house, and at a signal Watson threw a smoke rocket through the window and cried that the place was on fire. In the confusion, Irene, who thought that her treasures were in danger, ran at once to the hiding place where she kept the photograph. Holmes, who was watching from outside, now knew exactly where it lay, and he slipped away without a sound.",
+      "When they returned the next morning, they found that Irene had left London with her husband, leaving a note that praised Holmes, and a photograph of herself in the place of the old one. The King, delighted that the danger was gone, offered Holmes any reward, and the detective, with a faint smile, asked only for Irene's portrait. From that day he spoke of her always as the woman, for she was the only person who had ever beaten him.",
+      "A stout, florid pawnbroker named Jabez Wilson, who had the most astonishing red hair that Watson had ever seen, called at Baker Street with a tale that Holmes pronounced both singular and unusual. Wilson explained that he kept a small shop in Saxe-Coburg Square and employed a single assistant, Vincent Spaulding, who worked for half wages. The visitor leaned forward in his chair, cleared his throat and began his story with great seriousness.",
+      "One morning, Spaulding had drawn his employer's attention to a newspaper advertisement for the Red-Headed League, which offered four pounds a week for light work to any red-haired man. Wilson hurried to the address, pushed through a vast crowd of red-headed men in Fleet Street and was chosen at once by a man named Duncan Ross, who admired the colour of his hair. All that he had to do, he was told, was to copy the Encyclopaedia Britannica for four hours every morning.",
+      "For eight weeks Wilson turned up punctually each morning to the bare little office, where he copied out the pages and was paid every Saturday as promised. Then, one day in October, he found the door locked and a card pinned to it announcing that the Red-Headed League was dissolved. Neither the landlord nor his neighbours had ever heard of Duncan Ross, and the whole business had vanished into thin air.",
+      "Holmes went to look at Saxe-Coburg Square, noticing at once that the assistant's trousers were worn and filthy at the knees, as though he had been crawling. He struck the pavement sharply with his stick, listened to the sound and then walked round the corner to examine the street behind. There, in a row of busy shops, stood the premises of the City and Suburban Bank.",
+      "Holmes now saw the whole scheme, for the League had been invented for one purpose only, to keep the pawnbroker out of his shop for several hours every day. While Wilson patiently copied the encyclopaedia, his assistant had been digging a long tunnel from the cellar towards the vault of the bank next door. The thieves, Holmes knew, would choose the night of a weekend, when the banking house would be empty and the robbery hidden until Monday.",
+      "That night Holmes, Watson, Inspector Jones and the bank's director, Mr Merryweather, sat in complete darkness in the strongroom, with thirty thousand napoleons of gold stacked around them. At last a thin line of light appeared between two flagstones, a hand pushed through the gap, and a clean-shaven young man climbed out with a lantern. The moment he had done so, Holmes sprang up and seized him by the collar, and the notorious John Clay was caught at last.",
+      "A pretty young typist with weak eyes, Miss Mary Sutherland, called at Baker Street in a large hat and a state of great distress, and told Holmes that her fiancé had vanished on the morning of their wedding. Hosmer Angel had been a shy, soft-spoken man, and he had gone off in a cab outside the church, leaving his bride-to-be at the door. She had not seen him since, and her stepfather, who had been against the match, had told her to forget the whole affair.",
+      "Miss Sutherland described her fiancé in careful detail, and Holmes noticed that he always wore tinted glasses, spoke in a whisper and wrote his letters on a typewriter, even the signature. Her stepfather, a wine merchant called Windibank, was only five years older than she was, and he had often been away in France during the courtship. Holmes listened closely, said little and took away a handful of the typed letters.",
+      "Holmes compared the typed letters with a note he had received from Windibank and saw that both had been struck on a machine whose letters were worn in just the same places. When the stepfather arrived, Holmes locked the door, took up his hunting crop and told him that he had played the part of Hosmer Angel himself, in order to keep the girl's income in the family. The man fled, white with shame, and Holmes, to Watson's surprise, did not trouble the police.",
+      "Inspector Lestrade called at Baker Street with a puzzling case from Herefordshire, where a farmer named Charles McCarthy had been found beaten to death beside a quiet pool in the Boscombe Valley. His son James, who had been seen quarrelling with him on the afternoon of the murder, had been arrested on the spot, and the evidence seemed to be against him. The young man, however, insisted on his innocence, and a young woman named Alice Turner believed him.",
+      "Holmes and Watson took the train to the country, where they met Alice Turner, the daughter of McCarthy's wealthy landlord, who was certain that her old friend James could never have committed such a crime. She also reported that the dying man had spoken a single strange word, which James had heard as a rat. The detective listened with growing interest, for it was the sort of detail that most people would have ignored.",
+      "At the scene by the pool, Holmes walked slowly over the ground with his lens, and the marks he found told him that the killer was a tall, left-handed man who walked with a limp and wore a grey cloak. He also decided that the dying word had not been rat at all, but the name of an Australian town, Ballarat, which suggested that someone in the district had spent years in that country. Within an hour he had narrowed the list of suspects to a single name, and he knew where to go.",
+      "Holmes called on John Turner, the sick old landowner and father of Alice, and quietly told him all that he knew. Turner, who was dying, confessed that he had killed McCarthy, who had been blackmailing him over the crimes of his youth in Australia, and he said that he had acted only to keep his daughter from shame. Holmes, moved by the old man's weakness, promised to say nothing so long as James went free, and the young man was released.",
+      "John Openshaw came in out of the storm, pale with fear, and told how his uncle had once received a letter containing five dried orange seeds, and had died soon after in a pond in his own garden. Three years later, his father had received a similar letter, and had been found dead at the bottom of a chalk pit. Openshaw had no doubt, he said, that he was to be the next, for an envelope had arrived at his own house that morning.",
+      "Holmes studied the envelope, which carried a postmark from a faraway port and three letters scribbled inside, and he decided that a secret American society was behind it. He advised the young man to leave a note in his uncle's old garden, and to take the greatest care on his way home. Openshaw thanked him and walked out into the night, never to be seen alive again.",
+      "The next morning the young man was found drowned in the Thames beneath Waterloo Bridge, and Holmes, who blamed himself bitterly for letting him go, vowed to track down the murderers. He found that the ship that carried them was the Lone Star, and sent five orange seeds to her captain, but the vessel sank in a storm in the Atlantic before it reached land. It was, he admitted to Watson, one of the few cases in which he had been truly beaten.",
+      "Watson went to a miserable opium den in the east of London to bring home a friend named Isa Whitney, who had been missing for two days, and found the place filled with a heavy, sickly smoke. As he turned to leave, an old man with a stoop and a pipe seized his arm and whispered his name, and Watson was thunderstruck to discover that it was Holmes in disguise. The detective explained that he was working on a case and that he needed a lift.",
+      "The case belonged to a Mrs St Clair, a respectable lady who had seen her husband Neville at the upper window of that very house, looking pale and terrified, before he was dragged out of sight. The police had arrested a repulsive beggar named Hugh Boone, who had a horribly twisted lip, and had found Neville's coat, weighed down with pennies, in the river. It was easy, they said, to guess what had happened, but Mrs St Clair refused to believe the worst.",
+      "Holmes spent the whole night in his armchair, surrounded by cushions and wreathed in tobacco smoke, and at dawn he announced that he had solved the case. At the police station, he filled a basin with water, took a sponge and washed the prisoner's face, and the twisted lip, the red hair and the dirt came away to reveal the respectable Neville St Clair. It was a moment, Watson later wrote, that he would never forget as long as he lived.",
+      "Neville St Clair confessed that he had begun begging as an experiment and had found that he earned far more in a morning than he made in a week as a journalist. Ashamed to tell his family, he had lived a double life for years, and had been trapped by his own secret on the night of his disappearance. Holmes promised to tell no one so long as the begging stopped, and the family was reunited with tears of relief.",
+      "On the second morning after Christmas, the commissionaire Peterson brought Holmes a battered old hat and a plump goose that a street thief had dropped when he was attacked by a gang of roughs. From the hat, Holmes deduced that its owner was a thoughtful, well-educated man who had fallen into poor circumstances, and who no longer had the love of his wife. The goose, he added with a smile, should be cooked before it spoiled, and Peterson hurried away.",
+      "When Peterson's wife opened the goose, she found something that sparkled inside it, and a moment later the whole of Baker Street knew that it was the famous Blue Carbuncle, stolen only days earlier from the Countess of Morcar. A plumber named John Horner had already been arrested for the theft, and it was clear that an innocent man might go to prison. Holmes rubbed his hands together and said that the matter was now exceedingly interesting.",
+      "Holmes advertised in the evening papers, and Mr Henry Baker came to claim his hat, but he could shed no light on how the stone had come to be in his goose. The trail led, step by step, from Baker to a landlord, from the landlord to a dealer, and from the dealer to a stall in the Covent Garden market. There a short-tempered salesman named Mr Breckinridge sold the geese, and he had grown tired of the questions, until Holmes made a small bet that proved him wrong.",
+      "In the end the trail led to James Ryder, the head attendant at the hotel, who shook and sweated in his chair and begged for mercy as soon as Holmes mentioned the goose. He admitted that he had stolen the stone and tried to hide it in a bird from his sister's yard, and that he had then lost track of the goose. Holmes, who felt that Ryder had suffered enough, sent him away, saying that it was the season of forgiveness.",
+      "Miss Helen Stoner arrived at Baker Street at an unusual hour, trembling, pale and wearing a heavy veil, and explained that she had come because she was afraid for her life. Two years earlier, her twin sister Julia had died in the night, in the room where Helen now slept, and with her last breath had whispered about the speckled band. Helen had heard a low whistle on the night of her sister's death, and now, she said, she had heard it again.",
+      "Soon a huge man in a black coat and a high hat, who filled the whole doorway, burst into the sitting room and announced himself as Dr Grimesby Roylott, Helen's stepfather. He shouted at Holmes to keep out of his business and, to show how little he feared him, seized the iron poker and bent it into a curve with his bare hands. Holmes, with a smile, calmly picked it up and bent it straight again, and the angry visitor stormed out.",
+      "At Stoke Moran, Holmes spent an hour examining the bedroom that was now to be Helen's, and he noticed that the bell rope hung beside a small ventilator that led, quite absurdly, into the next room. He also saw that the bell rope did not ring, that the bed was fixed firmly to the floor, and that it stood directly below the vent. Holmes grew very grave, and Watson knew that something terrible was about to happen.",
+      "That night Holmes and Watson sat in Helen's room without a light, listening to every creak and sigh, while the doctor, in the next room, moved about with a lamp. Hours passed in total silence, until at last they heard a very faint whistle, and a light disappeared. The two men sat with their muscles tight and their breath held, waiting for what would come next.",
+      "Something slid slowly down the rope, and Holmes struck a match, then lashed out with his cane at a long, speckled shape that was coiling in the light. The snake, a deadly creature of the Indian swamps, hissed furiously and fled back through the vent into the room from which it had come. A moment later a horrible cry rang through the house, and then there was silence.",
+      "They hurried to the doctor's room and found him in his chair, dead, with the angry speckled snake wrapped round his head like a band. Holmes, who felt no sorrow, explained that Roylott had planned to kill Helen for her money, as he had killed her sister, and that his own cunning plan had turned against him. It was a case, he said, in which he was indirectly responsible for the death of a man, and he did not think that it would weigh heavily on his conscience.",
+      "Victor Hatherley, a young hydraulic engineer with a heavily bandaged hand, was brought to Watson's surgery by a worried stranger and told a most extraordinary story. A man calling himself Colonel Lysander Stark had hired him to travel by night to a lonely house and examine a machine, and had offered him fifty guineas for a single night's work. The pay was so high, he said, that he had not dared to refuse, although the stranger would give him no clear explanation.",
+      "At the house in Eyford, Colonel Stark showed him a huge hydraulic press in a cellar, and, as Hatherley examined it, he found traces of metal in it and realised that it was being used to make false coins. He was then shut into a small room under the press, and the heavy iron roof began to crawl slowly down towards his head. Only at the last moment did a woman open the door, urge him to run and save his life.",
+      "Hatherley sprang from a window into the garden, and as he hung from the sill the Colonel struck at him with a hatchet and cut off his thumb. He fell, fainted and awoke in the grey morning, and by the time the police had been fetched to the house, it was burning and the gang had vanished. The poor engineer had lost a thumb and a fee, and no one ever learned where the criminals went.",
+      "Lord Robert St Simon, a proud and distinguished nobleman, called upon Holmes in a state of cold displeasure, for his bride, the American heiress Hatty Doran, had vanished from the wedding breakfast only an hour after the ceremony. The company had been seated at the table when the bride rose, said that she felt unwell, and left the room, and she had not returned. Lord St Simon was less distressed than annoyed, and that, as Holmes observed to Watson, was a fact to be noted.",
+      "Lestrade, who had been dragging the Serpentine in Hyde Park, had found the bride's wedding dress, and on the strength of a quarrel at the church he arrested a woman named Flora Millar. Holmes, however, was not convinced, and, instead of following the police, he studied a hotel bill that had been found in the pocket of the dress. It was the kind of small clue that the official detectives had overlooked, and it opened the whole matter to him.",
+      "That afternoon the missing bride herself walked into Baker Street, on the arm of a sunburned young American named Frank Moulton, whom she had married secretly years before in the West. She had believed him dead, she explained, until she saw him standing in the church, and in her confusion she had slipped away to join him. Lord St Simon listened in cold silence and withdrew, and Holmes, who did not think either of them wicked, declared the case closed.",
+      "Alexander Holder, a famous banker, burst into the sitting room at Baker Street in desperation, explaining that a very exalted personage had left a priceless gold crown, set with thirty-nine beryls, in his keeping as security for a loan. The jewel had been stored in his bedroom for one night, and in the morning three of the stones had disappeared. The disgrace, he cried, would ruin him, and the scandal might shake the country.",
+      "In the middle of the night Holder had come downstairs and found his son Arthur holding the broken crown, and in anger he had called the police at once. Arthur had refused to say a single word in his own defence, and that stubborn silence had only made his father more convinced of his guilt. Holmes, who could not believe that anyone would behave in so strange a manner without a reason, asked to see the house.",
+      "At Holder's house Holmes examined the garden in the fresh snow and followed a trail of footprints that led from the kitchen door to the gate and back again. They told him that the thief had been Sir George Burnwell, helped by the banker's niece Mary, and that Arthur had kept silent in order to protect the girl he loved. Holmes traced the missing stones to a dealer, and the crown was returned to its owner in good order.",
+      "A young governess named Violet Hunter called at Baker Street with a letter from a man named Jephro Rucastle, who had offered her a very high salary for what appeared to be a very ordinary post. In return, however, he required her to cut her hair short, wear a particular electric-blue dress and sit wherever he chose. Holmes told her that he did not like it, but that if she should need him, he would come at once.",
+      "Copper Beeches proved to be a gloomy, isolated house, and the Rucastle family, though kind in manner, was undoubtedly odd. Violet was required to sit in the blue dress at a window facing the road while Mr Rucastle told her very funny stories, and she noticed a man watching her from the road. When she turned to look at him, Rucastle seemed oddly annoyed, and she began to wonder what lay behind it all.",
+      "Violet found that one wing of the house was always locked, and that a huge mastiff named Carlo was loosed in the grounds at night, which made walking there quite impossible. When she told Holmes by letter of everything she had seen, and added that she was afraid, he replied that he and Watson would come at once. Their arrival, she hoped, would put an end to the mystery, and she waited anxiously for them.",
+      "From the servant Toller, Holmes and Watson learned the whole story: Rucastle's daughter Alice, by his first marriage, had been locked away for refusing to sign over her property. Violet had been dressed in the blue gown to persuade Alice's sweetheart, a Mr Fowler, that she was lost to him. In his rage, Rucastle let loose the savage mastiff, which turned on its master and attacked him, and Violet, who was safe, later became the head of a school.",
+      "Looking back on these twelve cases, Watson felt grateful for the friend who had solved them, and for the long years during which he had been allowed to share his adventures. Whatever the puzzle, whether it was a king in a mask, a jewel in a goose or a snake in a locked room, Holmes had met it with a clear mind. More often than the world knew, he had met it with a kind heart as well, and Watson put down his pen and smiled."
+    ]
+  }
+}

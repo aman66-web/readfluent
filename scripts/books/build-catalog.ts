@@ -68,7 +68,7 @@ export function buildAll(): GeneratedBook[] {
       blurb: en.meta.blurb.trim(),
       cover: {
         bg: cv.bg, ...(cv.light ? { light: true } : {}), title: lines, size: titleSize(lines), author: coverAuthor(e),
-        pieces: [...glow, ...art.map((id, i) => ({ id, x: 100 + (i ? 34 : 0), y: i ? 104 : 80, s: i ? 0.5 : 0.95 }))],
+        pieces: [...glow, ...art.map((id, i) => ({ id, x: i ? 160 : 100, y: i ? 38 : 82, s: i ? 0.36 : 0.92 }))],
       },
     });
   }

@@ -23,14 +23,14 @@
     {
      "id": "ship",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "envelope",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -54,14 +54,14 @@
     {
      "id": "house",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "heart",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -91,14 +91,14 @@
     {
      "id": "feather",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "heart",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -127,14 +127,14 @@
     {
      "id": "house",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "candle",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -164,14 +164,14 @@
     {
      "id": "train",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "needle",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -201,14 +201,14 @@
     {
      "id": "apple",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "feather",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -238,14 +238,14 @@
     {
      "id": "sun",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "leaf",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -275,14 +275,51 @@
     {
      "id": "mask",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "candle",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-rival-at-desk-four",
+  "title": "The Rival at Desk Four",
+  "author": "The Hating Game",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "Ines Marlow loves her desk by the window at the Harbourgate Tram Company, until Jonah Pike takes the desk opposite. One job, eight weeks and one stubborn rival. Can two people who must win ever learn to share the road?",
+  "cover": {
+   "bg": "#164E63",
+   "title": [
+    "The Rival at",
+    "Desk Four"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "train",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -312,14 +349,14 @@
     {
      "id": "footprints",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "candle",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -349,14 +386,53 @@
     {
      "id": "ship",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "key",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-adventures-of-sherlock-holmes",
+  "title": "The Adventures of Sherlock Holmes",
+  "author": "Arthur Conan Doyle",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "Twelve cases, told by Dr Watson: a king in a mask, a club for red-haired men, a goose with a jewel inside, a deadly snake in a locked room. Sherlock Holmes reads the smallest clues and solves each puzzle with wit, courage and a little mercy.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The",
+    "Adventures of",
+    "Sherlock",
+    "Holmes"
+   ],
+   "size": 11.5,
+   "author": "ARTHUR CONAN DOYLE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lamp",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "pawn",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -385,14 +461,52 @@
     {
      "id": "moon",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "stars",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-innocence-of-father-brown",
+  "title": "The Innocence of Father Brown",
+  "author": "G. K. Chesterton",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A small, shabby priest with a round face and an umbrella understands crime better than any detective. In six famous tales, Father Brown outwits the master thief Flambeau, solves an impossible murder and uncovers a hero's dark secret.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Innocence",
+    "of Father",
+    "Brown"
+   ],
+   "size": 13,
+   "author": "G. K. CHESTERTON",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lens",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "footprints",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -422,14 +536,14 @@
     {
      "id": "key",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "castle",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -459,14 +573,14 @@
     {
      "id": "hourglass",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "stars",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -496,14 +610,14 @@
     {
      "id": "rocket",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "telescope",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -532,14 +646,14 @@
     {
      "id": "flame",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "bolt",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -568,14 +682,14 @@
     {
      "id": "castle",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "moon",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -607,14 +721,89 @@
     {
      "id": "ship",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "whale",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "journey-to-the-center-of-the-earth",
+  "title": "Journey to the Center of the Earth",
+  "author": "Jules Verne",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "Hunger solves a secret: a coded note leads Professor Lidenbrock, his nephew Axel and a silent Icelandic guide down a volcano into a hidden sea of monsters and storms. Jules Verne's classic adventure takes them to the edge of the Earth.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Journey to",
+    "the Center of",
+    "the Earth"
+   ],
+   "size": 13,
+   "author": "JULES VERNE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mountain",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lamp",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-wind-in-the-willows",
+  "title": "The Wind in the Willows",
+  "author": "Kenneth Grahame",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "A shy Mole leaves his spring cleaning and finds the river, a loyal Rat and a vain, car-mad Toad. Through snowy woods, a night of strange music and a battle for Toad Hall, four friends learn what home and friendship are worth.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Wind in",
+    "the Willows"
+   ],
+   "size": 15.5,
+   "author": "KENNETH GRAHAME",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "leaf",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "waves",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -644,14 +833,14 @@
     {
      "id": "footprints",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "sun",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -681,14 +870,14 @@
     {
      "id": "lens",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "moon",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -713,14 +902,14 @@
     {
      "id": "scroll",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "leaf",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -750,14 +939,14 @@
     {
      "id": "mountain",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "sun",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -782,14 +971,14 @@
     {
      "id": "lamp",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "scroll",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -819,14 +1008,14 @@
     {
      "id": "sun",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "cup",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -857,14 +1046,14 @@
     {
      "id": "brain",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "coin",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -894,14 +1083,14 @@
     {
      "id": "key",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "stars",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -931,14 +1120,14 @@
     {
      "id": "coin",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "scroll",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -968,14 +1157,14 @@
     {
      "id": "scroll",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "sword",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1004,14 +1193,14 @@
     {
      "id": "crown",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "pawn",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1041,14 +1230,14 @@
     {
      "id": "coin",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "key",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1078,14 +1267,14 @@
     {
      "id": "lotus",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "candle",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1109,14 +1298,51 @@
     {
      "id": "waves",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "mountain",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-bhagavad-gita",
+  "title": "The Bhagavad Gita",
+  "author": "Hindu scripture (traditional)",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "On a battlefield, a prince sits down in despair, and his charioteer begins to speak. In 700 verses, the most loved scripture of India asks what we owe to others, what we really are, and how to act well without fear. Read the conversation chapter by chapter.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Bhagavad",
+    "Gita"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "sun",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "scroll",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1146,14 +1372,14 @@
     {
      "id": "mountain",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "dove",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1178,14 +1404,14 @@
     {
      "id": "scroll",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "lamp",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1214,14 +1440,14 @@
     {
      "id": "hourglass",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "feather",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1250,14 +1476,14 @@
     {
      "id": "footprints",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "sun",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1282,14 +1508,51 @@
     {
      "id": "leaf",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "apple",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-long-life-plan",
+  "title": "The Long Life Plan",
+  "author": "Outlive",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Omar is fifty-two and wants more than a long life: he wants a good one. Over a year of walks up Bell Hill, his sister Salma shows him what really helps people stay strong, sharp and independent, and what is only hype.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Long Life",
+    "Plan"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mountain",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "hourglass",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1320,14 +1583,14 @@
     {
      "id": "apple",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "lens",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1357,14 +1620,14 @@
     {
      "id": "moon",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "stars",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1395,14 +1658,51 @@
     {
      "id": "waves",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "lotus",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "run-like-a-kid-again",
+  "title": "Run Like a Kid Again",
+  "author": "Born to Run",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Sam is forty-two and loses his breath chasing a football. His eight-year-old daughter runs for pure joy, so he decides to learn again, one gentle step at a time, from a first slow jog to a first five-kilometre run.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "Run Like a",
+    "Kid Again"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sun",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1431,14 +1731,14 @@
     {
      "id": "scroll",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "ship",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1468,14 +1768,14 @@
     {
      "id": "sword",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "shield",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1505,14 +1805,14 @@
     {
      "id": "crown",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "scroll",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1542,14 +1842,14 @@
     {
      "id": "compass",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "ship",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1581,14 +1881,14 @@
     {
      "id": "scroll",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "feather",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1618,14 +1918,14 @@
     {
      "id": "house",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "stack",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1655,14 +1955,14 @@
     {
      "id": "leaf",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "dna",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1692,14 +1992,14 @@
     {
      "id": "ship",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "turtle",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1730,14 +2030,14 @@
     {
      "id": "candle",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "flame",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1769,14 +2069,14 @@
     {
      "id": "train",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "orbit",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }
@@ -1807,14 +2107,89 @@
     {
      "id": "leaf",
      "x": 100,
-     "y": 80,
-     "s": 0.95
+     "y": 82,
+     "s": 0.92
     },
     {
      "id": "dna",
-     "x": 134,
-     "y": 104,
-     "s": 0.5
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-story-of-everything-short",
+  "title": "The Story of Everything, Short",
+  "author": "A Brief History of Time",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Sit on a dark hilltop and look up. In fifty short steps, this book takes you from the light of the nearest star to the first moments of the universe, and on to the far future, saying clearly what we know and what we still do not.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "The Story of",
+    "Everything,",
+    "Short"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "stars",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "telescope",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "a-tour-of-the-universe",
+  "title": "A Tour of the Universe",
+  "author": "Cosmos",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "On a quiet rooftop at night, Noor invites Kit into the Skylift, an imaginary lift that climbs past the Moon, the planets and the stars. Fifty stops later you will have seen the whole universe, as far as anyone has.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "A Tour of the",
+    "Universe"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "telescope",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
     }
    ]
   }

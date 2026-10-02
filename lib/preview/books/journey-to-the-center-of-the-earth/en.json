@@ -1,0 +1,417 @@
+{
+  "slug": "journey-to-the-center-of-the-earth",
+  "meta": {
+    "blurb": "Hunger solves a secret: a coded note leads Professor Lidenbrock, his nephew Axel and a silent Icelandic guide down a volcano into a hidden sea of monsters and storms. Jules Verne's classic adventure takes them to the edge of the Earth.",
+    "bible": "Professor Otto Lidenbrock: a famous, stubborn, brilliant mineralogy professor in Hamburg; impatient, loud and brave. Axel: his nephew and assistant, the narrator; anxious, clever and kind. Grauben: Lidenbrock's goddaughter, whom Axel loves; calm and brave; they marry at the end. Martha: the housekeeper. Hans Bjelke: the Icelandic eider-duck hunter and guide; strong, silent and calm. Arne Saknussemm: a learned alchemist from Iceland in the sixteenth century, who left the coded message and signed it with his initials A and S. Mr Fridriksson: the teacher of natural science in Reykjavik who helps them. Heimskringla: the old Icelandic book of the kings of Norway, by Snorri Sturluson, in which the parchment is found. The message (read backwards): go down into the crater of Snæfells Jökull that the shadow of Scartaris touches before the end of June, and you will reach the centre of the Earth. Snæfells Jökull: the Icelandic volcano with an ice cap and three craters; Scartaris: a peak whose shadow points to the right crater. Stapi: the village where the pastor welcomes them. Reykjavik: the capital of Iceland. Iceland. Hamburg. Altona. Kiel. Copenhagen. Denmark. Valkyrie: the ship to Iceland. The Hansbach: the stream Hans finds. The Lidenbrock Sea: the underground sea. Port Gräuben: the harbour on its shore. Port Saknussemm: where they find A and S carved in rock. Axel Island: the island with a hot fountain. Stromboli: the volcano off southern Italy where they come out. Italy. Sicily. Messina. Mediterranean. Europe. Norway. Events in order: the book and parchment; the code read backwards; the plan; the voyage; Hans; the climb; the descent; thirst and the Hansbach; Axel lost; the sea; the raft; two sea monsters; the storm; the dagger; the blast; the rising water; the eruption; home. They never reach the real centre of the Earth; the compass needle was turned round by the storm's lightning. The year is 1863. Voice and tone: lively, adventurous, told in Axel's warm voice with wonder and humour; dangers are stated plainly without gore. A final beat notes that the real Earth cannot be travelled this way."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A professor hurries home through a narrow Hamburg street holding an old book",
+      "summary": "Professor Lidenbrock comes home to Hamburg, delighted with a rare old book he has bought."
+    },
+    {
+      "n": 2,
+      "scene": "A small brittle parchment drops from an old book onto a study floor",
+      "summary": "A piece of parchment falls from the book, covered in strange letters and signed Arne Saknussemm."
+    },
+    {
+      "n": 3,
+      "scene": "The professor locks the front door and pockets the key while Axel watches",
+      "summary": "Lidenbrock cannot read the message, so he locks the house and says nobody will eat until it is solved."
+    },
+    {
+      "n": 4,
+      "scene": "Axel copies rows of strange letters at a desk by lamplight, looking tired",
+      "summary": "Axel copies the message and tries to find a pattern, but only sees a jumble."
+    },
+    {
+      "n": 5,
+      "scene": "Axel holds a sheet up to a lamp and reads it backwards",
+      "summary": "Axel reads the message backwards, from the last letter to the first, and Latin words appear."
+    },
+    {
+      "n": 6,
+      "scene": "Axel holds the paper over a fire, then pulls it back, afraid",
+      "summary": "The message shows a way into the Earth, and Axel is so afraid for his uncle that he keeps it secret."
+    },
+    {
+      "n": 7,
+      "scene": "A weak, pale Axel hands his uncle a paper in the dim study",
+      "summary": "Weak with hunger, Axel tells his uncle the trick; the message says to descend into the crater of Snæfells Jökull."
+    },
+    {
+      "n": 8,
+      "scene": "The professor points joyfully at a map while Axel shakes his head",
+      "summary": "Lidenbrock decides to leave for Iceland within days; Axel argues that the Earth is far too hot inside."
+    },
+    {
+      "n": 9,
+      "scene": "Axel and Grauben talk quietly in a garden at sunset",
+      "summary": "Axel tells Grauben everything; she is brave, urges him to go and promises to wait."
+    },
+    {
+      "n": 10,
+      "scene": "Trunks, ropes, lamps and tools are piled up in a crowded hallway",
+      "summary": "They pack ropes, tools, guns, lamps, food and instruments for the journey."
+    },
+    {
+      "n": 11,
+      "scene": "Two travellers with many trunks step off a train beside a harbour",
+      "summary": "They travel by train and ship to Copenhagen and find a ship bound for Iceland."
+    },
+    {
+      "n": 12,
+      "scene": "A small ship rolls on grey waves as Axel clings to the rail",
+      "summary": "The Valkyrie takes about ten days to reach Iceland; Axel is seasick; they land at Reykjavik."
+    },
+    {
+      "n": 13,
+      "scene": "Lidenbrock shakes hands with a smiling teacher in a small library",
+      "summary": "In Reykjavik they meet Mr Fridriksson, who has no works by Saknussemm; Lidenbrock asks about Snæfells."
+    },
+    {
+      "n": 14,
+      "scene": "A tall quiet hunter with a calm face stands beside three small horses",
+      "summary": "Mr Fridriksson recommends Hans Bjelke, a silent hunter, as their guide, and Hans agrees at once."
+    },
+    {
+      "n": 15,
+      "scene": "Three riders on small horses cross a wide, bare black stony plain",
+      "summary": "The three men ride for days across the rough, treeless land of Iceland."
+    },
+    {
+      "n": 16,
+      "scene": "A small village lies below a great mountain with an icy cap",
+      "summary": "At Stapi a pastor welcomes them; next morning Axel sees the great mountain Snæfells."
+    },
+    {
+      "n": 17,
+      "scene": "Three climbers stand on a snowy summit beside three dark craters",
+      "summary": "They climb Snæfells and find three craters at the top."
+    },
+    {
+      "n": 18,
+      "scene": "Lidenbrock paces the mountain rim under a grey sky while Axel hopes",
+      "summary": "The message says the shadow of Scartaris shows the right crater, but only when the sun shines; the sky stays grey."
+    },
+    {
+      "n": 19,
+      "scene": "Bright sun makes a long mountain shadow fall across one dark crater",
+      "summary": "On one of the last days of June the sun appears and the shadow of Scartaris points to the middle crater."
+    },
+    {
+      "n": 20,
+      "scene": "Three men lower themselves on long ropes into a dark crater",
+      "summary": "The next day they lower themselves on ropes into the crater, and the daylight shrinks above them."
+    },
+    {
+      "n": 21,
+      "scene": "Three men walk down a lamplit tunnel with glittering walls",
+      "summary": "They follow a tunnel downward for days; the rocks get older; the way splits and Lidenbrock chooses the east."
+    },
+    {
+      "n": 22,
+      "scene": "Three tired men face a blank rock wall at a tunnel's end",
+      "summary": "The eastern tunnel ends at solid rock, their water almost gone; they turn back."
+    },
+    {
+      "n": 23,
+      "scene": "Hans presses an ear to the rock as clear water bursts from the wall",
+      "summary": "Hans hears water behind the wall, they break through, and the stream they name the Hansbach pours out."
+    },
+    {
+      "n": 24,
+      "scene": "Axel stands alone in a dark tunnel with a dying lamp",
+      "summary": "Axel falls behind, takes a wrong turn, and finds himself alone, his lamp out."
+    },
+    {
+      "n": 25,
+      "scene": "Axel presses his ear to a rock wall in complete darkness",
+      "summary": "Axel hears his uncle's voice through the rock, and Lidenbrock tells him to follow the slope down."
+    },
+    {
+      "n": 26,
+      "scene": "Hans carries a pale Axel in his strong arms beside a worried Lidenbrock",
+      "summary": "Axel slides down a steep slope and faints; he wakes in Hans's arms, his uncle beside him."
+    },
+    {
+      "n": 27,
+      "scene": "A vast cave holds a calm sea under a glowing sky",
+      "summary": "Axel sees a huge cavern with a sea inside it, which Lidenbrock names the Lidenbrock Sea."
+    },
+    {
+      "n": 28,
+      "scene": "A forest of giant mushrooms and a field of huge bones by the shore",
+      "summary": "On the shore they find giant mushrooms, ancient bones and, perhaps, a giant shepherd with huge beasts."
+    },
+    {
+      "n": 29,
+      "scene": "Hans builds a raft with a small sail beside the calm shore",
+      "summary": "Lidenbrock decides to cross the sea, and Hans builds a raft from hard fossil wood."
+    },
+    {
+      "n": 30,
+      "scene": "A small raft sails over calm water as Hans pulls in a fish",
+      "summary": "They sail for days; Hans catches a fish of a kind that died out long ago."
+    },
+    {
+      "n": 31,
+      "scene": "Two huge sea reptiles fight in boiling waves near a small raft",
+      "summary": "Axel sees two ancient sea monsters fight, one with a long neck and one with a huge jaw, until both dive."
+    },
+    {
+      "n": 32,
+      "scene": "A tall fountain of hot water shoots up from a small rocky island",
+      "summary": "They reach a small island with a huge fountain of hot water, which Lidenbrock names Axel Island."
+    },
+    {
+      "n": 33,
+      "scene": "Lightning flashes over a tossing raft with a torn sail",
+      "summary": "A violent storm hits the raft with lightning, balls of fire and a spinning compass."
+    },
+    {
+      "n": 34,
+      "scene": "Three soaked men crawl onto a stony beach beside a battered raft",
+      "summary": "The storm throws the raft ashore; they survive and Axel finds a rusty dagger."
+    },
+    {
+      "n": 35,
+      "scene": "Lidenbrock points at two letters cut into a dark rock beside a tunnel",
+      "summary": "They find the letters A and S cut in a rock by a tunnel mouth, and Lidenbrock names the place Port Saknussemm."
+    },
+    {
+      "n": 36,
+      "scene": "Three men stand in a tunnel blocked by a heap of fallen stones",
+      "summary": "The tunnel is blocked by fallen rock; Axel is almost glad, but Lidenbrock will not turn back."
+    },
+    {
+      "n": 37,
+      "scene": "Hans and Lidenbrock drill holes in a rock wall and lay a long fuse",
+      "summary": "Lidenbrock decides to blast the rock with gun-cotton; they lay a long fuse and load the raft."
+    },
+    {
+      "n": 38,
+      "scene": "A great blast opens the rock as the sea pours into a black chasm",
+      "summary": "The explosion opens a chasm, the sea rushes in, and the raft is swept into it."
+    },
+    {
+      "n": 39,
+      "scene": "A raft speeds through a narrow black tunnel in rushing water",
+      "summary": "For hours the raft is carried down the tunnel by the flood."
+    },
+    {
+      "n": 40,
+      "scene": "A raft rises on swelling water inside a narrow stone shaft",
+      "summary": "The water begins to rise instead of fall, lifting the raft up a narrow shaft as the air grows hot."
+    },
+    {
+      "n": 41,
+      "scene": "Three sweating men on a raft see red light on the shaft walls",
+      "summary": "Axel understands they are inside the chimney of a volcano as red light and shaking begin."
+    },
+    {
+      "n": 42,
+      "scene": "Three men hold on to a raft in a red-glowing shaft",
+      "summary": "Axel thinks it is the end and says goodbye in his mind while Lidenbrock and Hans stay calm."
+    },
+    {
+      "n": 43,
+      "scene": "A volcano erupts, throwing a raft and three men into a blue sky",
+      "summary": "The volcano erupts and throws the three men out of its mouth into the open air and the sun."
+    },
+    {
+      "n": 44,
+      "scene": "Axel lies on a green hillside above a sparkling blue sea",
+      "summary": "Axel wakes on a warm green mountainside with Hans beside him; nothing looks like Iceland."
+    },
+    {
+      "n": 45,
+      "scene": "Smiling fishermen point out a smoking mountain to three travellers",
+      "summary": "Local people tell them the volcano is Stromboli, near Sicily and Italy; they sail for Messina."
+    },
+    {
+      "n": 46,
+      "scene": "Martha and Grauben welcome the three men at the door of a Hamburg house",
+      "summary": "They travel home across Europe and reach Hamburg, where Martha and Grauben had given them up for lost."
+    },
+    {
+      "n": 47,
+      "scene": "A crowded lecture hall listens to Lidenbrock while Axel and Grauben smile",
+      "summary": "Lidenbrock becomes famous, Axel's account is read widely, and Axel marries Grauben."
+    },
+    {
+      "n": 48,
+      "scene": "Lidenbrock studies a compass on his desk while Axel looks on",
+      "summary": "Lidenbrock explains the storm's lightning had turned the compass needle round; they never reached the centre."
+    },
+    {
+      "n": 49,
+      "scene": "Hans waves goodbye to Lidenbrock and Axel at a busy harbour",
+      "summary": "Hans takes his pay and goes home to Iceland, and the others never forget him."
+    },
+    {
+      "n": 50,
+      "scene": "A glowing globe of the Earth stands in a lamplit study",
+      "summary": "Closing note: in real life nobody can make this journey; the deepest hole is about twelve kilometres, the centre about 6,400."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Professor Lidenbrock came home with a very old book from a shop.",
+      "A small old paper fell out of the book, covered in strange signs.",
+      "The professor could not read the letters, so he locked the door.",
+      "Axel was very hungry, but he tried to read the letters too.",
+      "Axel read the letters from the end, and Latin words appeared.",
+      "The message showed a way down into the Earth, and Axel was afraid.",
+      "At last Axel told his uncle, and the professor read the message.",
+      "The professor wanted to go at once, but Axel was afraid.",
+      "Axel loved Grauben, and she told him to be brave.",
+      "They bought ropes, tools, food and lamps for the long trip.",
+      "They went by train and boat to Copenhagen, the capital of Denmark.",
+      "The little ship crossed the sea, and Axel was sick for days.",
+      "In Reykjavik they met a teacher who knew about old books.",
+      "The teacher found them a guide named Hans, a quiet strong man.",
+      "They rode small horses for days across a wild land of stones.",
+      "They stopped in a small village and saw the great mountain Snæfells.",
+      "They climbed the mountain and found three big holes at the top.",
+      "Only the shadow of a mountain peak could show them the right hole.",
+      "The sun came out, and the shadow showed the right hole.",
+      "Then they went down into the dark hole on long ropes.",
+      "Day after day they walked down, and the rocks got older.",
+      "The tunnel ended at a wall of rock, and the water was gone.",
+      "Hans heard water behind the rock, and the men dug through it.",
+      "Axel lost the others in the dark, and his lamp went out.",
+      "Axel heard his uncle's voice far away through the rock wall.",
+      "Axel slid down a steep slope, and then everything went black.",
+      "In front of them lay a huge sea under the ground.",
+      "Axel saw giant plants and the bones of animals from long ago.",
+      "Hans built a strong raft from old wood that lay on the shore.",
+      "They sailed for days, and Hans caught a strange old fish.",
+      "Two huge sea animals fought in the water for many hours.",
+      "They found a small island where hot water shot up into the air.",
+      "A big storm came, and balls of fire danced on the raft.",
+      "The storm threw the raft onto a beach, and everyone was alive.",
+      "On a rock they saw the letters A and S, Saknussemm's name.",
+      "They went into the tunnel, but a big rock closed the way.",
+      "The professor decided to break the rock with a strong powder.",
+      "The rock blew up, and the sea ran into the new hole.",
+      "The raft fell fast down the dark tunnel, and nobody could speak.",
+      "Then the water began to rise, and it lifted the raft up.",
+      "It was getting very hot, and they were inside a volcano.",
+      "The men waited in the hot dark, and they thought of home.",
+      "A great explosion threw the three men out into the bright sky.",
+      "Axel woke on a green hill under a warm sun.",
+      "Men on the island told them that the volcano was called Stromboli.",
+      "Martha and Grauben were very happy to see them back in Hamburg.",
+      "The professor became famous, and soon Axel married his dear Grauben.",
+      "The storm had turned the compass, so it showed the wrong way.",
+      "Hans took his pay and went home to Iceland without many words.",
+      "In real life nobody can go there, but the story is still wonderful."
+    ],
+    "B1B2": [
+      "In 1863 Professor Lidenbrock of Hamburg rushes home, full of excitement, with an old book he has just bought. His nephew Axel, who lives in the house and works for him, has never seen him so happy.",
+      "As the professor opens the book, a small piece of old parchment slips out and falls to the floor. It is covered in strange marks like the writing of an ancient people, and at the bottom a name can be read: Arne Saknussemm.",
+      "Lidenbrock tries for hours to read the strange letters, but he cannot make any sense of them. Then he locks the front door and declares that nobody will eat until the secret is solved.",
+      "Axel copies the message onto a sheet of paper and tries to find a pattern in the letters. After hours of work they still seem to be nothing but a meaningless jumble, and his stomach is growling.",
+      "Axel suddenly has an idea and reads the message backwards, starting from the very last letter. To his surprise, Latin words appear in front of his eyes.",
+      "The message tells of a way down into the centre of the Earth, and Axel is horrified. He knows that his uncle would go at once, so he decides to say nothing and even thinks of burning the paper.",
+      "On the second day, weak with hunger, Axel finally gives in and shows his uncle how to read the message. The professor reads it aloud, and it says that anyone who climbs down the crater of Snæfells Jökull will reach the centre of the Earth.",
+      "Lidenbrock is delighted and decides that they will leave for Iceland within a few days. Axel protests that the Earth grows hotter the deeper one goes, so that nobody could survive at the centre, but his uncle only laughs.",
+      "That evening Axel tells Grauben everything, expecting her to be shocked. Instead she says calmly that the trip will make him a great man, and she promises to wait for him.",
+      "The next days are full of work, because the professor wants everything to be perfect. They pack ropes, tools, guns, lamps and food, together with a thermometer, a compass and a clock.",
+      "They leave Hamburg by train, travel north through Altona to Kiel, and cross the sea to Copenhagen by ship. In the Danish capital the professor soon finds a boat that will take them to Iceland.",
+      "The Valkyrie takes about ten days to reach Iceland, and Axel is seasick for most of the voyage. At last he sees a low, grey shore and the small town of Reykjavik.",
+      "In Reykjavik they meet Mr Fridriksson, a teacher of science who speaks Latin, and Lidenbrock asks about Arne Saknussemm. The teacher says that the old alchemist's works are nowhere to be found in Iceland.",
+      "Mr Fridriksson recommends a guide named Hans Bjelke, who hunts ducks for their soft feathers. Hans is tall and silent, hardly ever speaks, and agrees to work for the professor without any fuss.",
+      "The three men ride across the rough Icelandic land on small, strong horses, with Hans leading the way. There are no trees, no real roads and few houses, and Axel is amazed by the empty beauty.",
+      "At Stapi a pastor welcomes the travellers into his house, and they rest for the night. Next morning Axel sees Snæfells, a huge mountain with a white cap of ice, and feels his courage sink.",
+      "They climb for hours and finally stand at the top of the mountain, where the ground opens into three great craters. Axel looks down into them and feels dizzy, because the holes seem to have no bottom.",
+      "The professor knows that only the shadow of a peak called Scartaris can show the right crater, and only when the sun is shining. Day after day the sky is grey, and Axel secretly hopes that the sun will never come.",
+      "On one of the last days of June the sun finally breaks through, and the shadow of Scartaris falls across one single crater. Lidenbrock shouts for joy, and while Axel stares at the dark hole in despair, Hans quietly prepares the ropes.",
+      "The next day they begin their descent, going down the steep shaft on long ropes with all their equipment. The walls are black volcanic rock, and the further they go, the more the daylight shrinks to a tiny spot above.",
+      "For days they follow a long tunnel that slopes steadily downward, and the professor points out that the rocks become older with each step. At last the way divides in two, and they choose the tunnel that leads east.",
+      "The eastern tunnel ends suddenly in a solid wall of rock, and by now there is almost no water left. Lidenbrock decides to go back to the fork, but Axel is so weak with thirst that he can hardly walk.",
+      "As they walk back, Hans puts his ear against the wall and hears the sound of running water. They break through the rock with their picks, and a clear, cold stream pours out, which they name the Hansbach.",
+      "Tired and half asleep, Axel takes a wrong turn in the dark and finds that he is alone. He shouts, but nobody answers, and soon his lamp goes out and the darkness is complete.",
+      "Axel presses his ear to the wall and hears a faint voice, and he realises that the rock carries sound like a pipe. It is his uncle's voice, asking where he is, and they speak to each other through the stone.",
+      "Following the slope, Axel suddenly slides down a steep, smooth rock and falls into the dark. When he wakes, he is in Hans's strong arms, and his uncle is smiling with relief.",
+      "Axel opens his eyes and sees an enormous cavern, with a wide, quiet sea stretching away into the distance. A soft light fills the sky, and the professor, who is as happy as a child, names it the Lidenbrock Sea.",
+      "On the shore they find a forest of enormous mushrooms and a field of bones from animals that lived long ago. Axel thinks he sees a giant man herding huge, hairy beasts, but he is not sure that it was real.",
+      "The way forward seems to lie across the water, and Hans builds a strong raft from old, hard wood that lies on the beach. They load it with their tools and food, raise a small sail, and push off into the quiet water.",
+      "The raft sails on for several days under a steady wind, and the sea is calm and strangely bright. Hans catches a fish of a kind that died out long ago, and Lidenbrock is thrilled.",
+      "One day Axel spots two huge sea monsters fighting in the water, one with a long neck and one with a great jaw. The waves boil around them for hours, and then both creatures suddenly dive and vanish.",
+      "They reach a small rocky island where a huge fountain of hot water shoots high into the air. Lidenbrock names it Axel Island in honour of his nephew, who is proud and embarrassed at the same time.",
+      "Dark clouds gather, and a terrible storm breaks over the sea, with wind, rain and lightning. Balls of fire dance around the raft, and the compass needle spins wildly.",
+      "After the storm the raft is thrown onto a stony beach, and the three men crawl ashore alive. Not far away they find an old, rusty dagger, and Lidenbrock is sure that someone has been here before them.",
+      "Further along, a rock is marked with two letters carved long ago, A and S. It is the sign of Arne Saknussemm, and a dark tunnel beside it seems to lead on downward.",
+      "They enter the tunnel with hope, but after a short walk a mass of fallen rock blocks the way. Axel is almost happy, because he thinks that they must now give up and go home.",
+      "Lidenbrock decides to blow up the rock with gun-cotton, a powerful explosive that they have brought with them. Axel is worried about the danger, but the professor promises that the long fuse will give them time to reach the raft.",
+      "The explosion shakes the whole cavern, and the rock blows apart to reveal a deep, black hole. At once the sea pours into it like a great river, and it carries the raft away with the three men on board.",
+      "For hours the raft rushes downward through the black tunnel, carried along by the water faster than any train. The men hold on tightly, and nobody speaks, because the roar of the water is too loud.",
+      "Suddenly the water stops falling and begins to rise, as if a great force were pushing it from below. The raft is lifted higher and higher, and soon Axel feels that the air is getting hotter.",
+      "Lidenbrock reads the thermometer and falls silent, because the heat is more than a man can bear for long. Then Axel understands where they are: this is the chimney of a volcano, and the water is being pushed up by fire.",
+      "Axel is sure that this is the end, and he thinks sadly of Grauben and the quiet house in Hamburg. The three men hold on to the raft in the red glow while the roar grows louder and louder.",
+      "With a thunderous roar the volcano erupts, and the three men are thrown out of its mouth into the open air. For the first time in many weeks Axel sees the real sun, and then he faints.",
+      "When Axel wakes, he is lying on a green mountainside under a blue sky, and Hans is bending over him. Below them lies a bright, calm sea, and the professor is walking up and down, trying to work out where they are.",
+      "Some fishermen on the slopes tell them that the mountain is Stromboli, an island volcano off the coast of southern Italy. The professor cannot believe it: they went down in cold Iceland and have come up in the warm Mediterranean.",
+      "From Messina they travel home by sea and train, and at last they reach Hamburg. Martha the housekeeper nearly faints, and Grauben runs to Axel with tears of joy, because everybody thought that they were dead.",
+      "The professor's story spreads across Europe, and learned men argue about it for years. Axel, who has become well known too, marries Grauben, and the house in Hamburg is full of joy.",
+      "At home the professor works out why they came out so far away: the storm's lightning had turned the needle of the compass. For days they had trusted a needle that pointed the wrong way.",
+      "Hans, the silent guide, takes his pay and calmly returns to Iceland, refusing any fuss. The professor and Axel never forget him, because without his strength and calm they would never have come home alive.",
+      "In real life, nobody could make this journey, because the Earth becomes extremely hot deep down. The deepest hole ever drilled is only about twelve kilometres deep, while the centre lies about 6,400 kilometres below our feet."
+    ],
+    "C1C2": [
+      "On a May afternoon in 1863, the famous Professor Lidenbrock comes storming back to his tall, narrow house in Hamburg, clutching a battered old book that he has just bought for almost nothing from a dealer. His nephew Axel, who lives under his roof and serves as his assistant, has rarely seen the great man so delighted. The book is the Heimskringla, the ancient Icelandic history of the kings of Norway, and the professor, a passionate collector of rarities, handles it like a treasure.",
+      "As the professor turns the brittle pages, a small piece of parchment slips from between them and drifts to the floor. Axel picks it up and finds it covered with rows of angular signs, the old runes of the North, and beneath them stands a name that Lidenbrock reads with a gasp: Arne Saknussemm. Every scholar of old books knows that he was a learned alchemist from Iceland who lived in the sixteenth century, and the professor at once senses that a secret is hidden here.",
+      "Lidenbrock studies the message for hours, muttering and pacing, but the letters refuse to form a single sensible word. In a fit of stubborn temper he locks the front door and puts the key in his pocket, declaring that nobody will eat or leave until the riddle is solved. Poor Axel, who is already hungry, realises that his only road to dinner runs through the puzzle.",
+      "Axel copies the whole message onto a sheet of paper and tries every trick he knows, counting the letters, rearranging them and searching for a pattern. The signs form no word that he can recognise, and the afternoon drags into evening without the smallest result. His stomach complains louder than his brain, and he begins to suspect that his uncle's puzzle may starve them both.",
+      "Then, almost by accident, Axel tries reading the message backwards, beginning with the very last letter and working toward the first. As he does so the nonsense melts away, and line after line of perfectly good Latin appears before his astonished eyes. He reads it through once from beginning to end, and his blood runs cold at the meaning of every line.",
+      "The message speaks of a road to the very centre of the Earth, and Axel, who knows his uncle only too well, sees at once what it will mean. Rather than send the old man on such a mad journey, he resolves to keep the secret and even considers burning the parchment in the fire. Two silent days follow, while the house grows hungrier and angrier and Axel's conscience grows heavier.",
+      "At last, weak with hunger and ashamed of his silence, Axel gives up the secret and shows his uncle how the message must be read. Lidenbrock reads it aloud in a trembling voice: the traveller must climb into the crater of Snæfells Jökull, touched by the shadow of Scartaris at the end of June, to find the road to the centre of the Earth. The note ends with a proud claim, “I have done it,” and the name Arne Saknussemm.",
+      "Lidenbrock is overjoyed, and he announces that they will leave for Iceland within a few days, as if the journey were an ordinary holiday. Axel protests that the deeper one goes the hotter the rock becomes, so that the centre must be a blazing furnace where no living man could survive. The professor merely waves the argument away, for in his opinion nobody really knows what the inside of the Earth is like.",
+      "That evening Axel confesses everything to Grauben, the gentle young woman whom he hopes to marry, and he expects her to share his alarm. To his surprise she answers with calm enthusiasm, telling him that such a journey might make a man of him and a name for them both. Ashamed of his own fear, Axel promises to go, and Grauben promises to wait for him.",
+      "The days before departure vanish in a whirl of preparation, for the professor insists that nothing be forgotten. Into the trunks go ropes, pickaxes, firearms, food, water and electric lamps that burn without a flame, together with a thermometer, a compass and a chronometer to measure the way. Axel has to admit, grudgingly, that his uncle is a magnificent organiser, and that no expedition was ever better equipped.",
+      "Early in June the professor and his nephew leave Hamburg by train, passing through Altona to Kiel, and cross the water to Copenhagen with a mountain of luggage. The professor wastes no time in the Danish capital, and soon he has found a small ship, the Valkyrie, that is about to sail for Iceland. Axel, still hoping that something will stop them, finds that nothing stands in the way.",
+      "The little Valkyrie rolls and pitches across the northern sea for about ten days, and Axel, who suffers badly from seasickness, curses every wave. When at last he staggers on deck, he sees a bare grey coast rising from the water, with a few low houses scattered along the shore. This is Reykjavik, the capital of Iceland, and the professor is already impatient to begin his work.",
+      "In Reykjavik the professor meets Mr Fridriksson, a teacher of natural science who speaks Latin and welcomes the visitors warmly. Lidenbrock asks at once about the works of Arne Saknussemm, but the teacher explains that not one of them can be found in the whole island. The professor, who says nothing about the secret message, thanks him politely and asks only for the best way to reach Snæfells.",
+      "The helpful Mr Fridriksson recommends a guide named Hans Bjelke, a hunter of eider ducks who is as strong as a bear and as silent as the grave. Hans listens to the professor's plan without a flicker of surprise, names his weekly wage, and nods once to show that the bargain is made. Axel will soon learn that this calm man is worth more than all their instruments put together.",
+      "For several days the three men ride across the barren Icelandic landscape on small, sure-footed horses, with Hans leading the way as if he could see every path through the stones. There are no trees and hardly any roads, only black rock, grey moss and the distant gleam of snow on the heights. Axel, soaked by the rain and stiff from the saddle, cannot help admiring the wild emptiness of the land.",
+      "At the little village of Stapi, close to the sea, they are welcomed into the house of the local pastor and sleep soundly for the first time in days. The next morning Axel sees Snæfells for the first time, a mountain topped with a heavy cap of ice, and his courage drains away. Lidenbrock, by contrast, looks at it as a hungry man looks at a feast.",
+      "After a hard climb over loose stones and old snow, they reach the summit of Snæfells and find three great craters yawning in front of them. Axel looks into the nearest one and feels the blood leave his head, for the black throat seems to descend forever into the heart of the mountain. Lidenbrock, however, is already pacing out the width of the openings and muttering to himself about the mysterious peak called Scartaris.",
+      "The message says that the shadow of the peak called Scartaris will point to the true crater, but only when the sun is shining at the end of June. For days the sky remains grey, and the professor, pacing the rim like a caged animal, grows more impatient with every hour. Axel, secretly praying for clouds, begins to hope that the whole adventure will be cancelled by the weather.",
+      "At last, on one of the final days of June, the sun bursts through the clouds, and the long shadow of Scartaris falls exactly across the mouth of the central crater. Lidenbrock shouts with triumph that they have found the way to the centre of the Earth, while Axel can only stare into the darkness in despair. Hans, who has not said a single word all morning, silently begins to fasten the ropes to a rock beside the crater.",
+      "Early the next morning the three men lower themselves into the crater on long ropes, passing their baggage down from hand to hand. The walls of the shaft are black volcanic rock, and the circle of sky above them shrinks to a pale, distant coin. Axel, clinging to the rope and trying not to look down, feels that he has already left the living world.",
+      "For days the travellers follow a long tunnel that slopes steadily downward, and with each step Lidenbrock points out that the rock beneath their feet is older than the last. The air becomes warmer, though not as hot as Axel had feared, and the lamps throw a steady glow over walls that glitter faintly. At last the passage divides into two, and the professor, after a long study of his compass, decides to follow the one that leads east.",
+      "After many hours the eastern tunnel ends suddenly in a wall of solid rock, and the little water that remains in their bottles is almost gone. Lidenbrock, who never admits defeat but is not a fool, gives the order to turn back to the fork and to try the western way. Axel, parched and exhausted, staggers along behind the others and wonders whether he will live to reach it.",
+      "On the way back Hans stops, presses his ear against the rock and, without a word, points to the wall. Together the men attack it with their picks until the stone gives way and a jet of clear, cold water springs out, and they drink until they can drink no more. Lidenbrock names the stream the Hansbach in honour of its finder, and it becomes their guide for the next stage of the journey.",
+      "One day, tired and a little careless, Axel lets the others walk ahead of him, and when he next looks up the tunnel has divided and nobody is in sight. He shouts until his throat is sore, but the only answer is the mocking echo of his own voice, and then the light of his lamp goes out. Alone in a darkness more complete than any he has ever known, he sits down on the cold stone and tries not to panic.",
+      "After many hours of despair, Axel leans against the wall and hears, very faintly, a murmur that seems to come from inside the stone. It is his uncle's voice, carried along the rock as if along a pipe, and by shouting into the wall the two of them manage to talk to each other across a great distance. Lidenbrock tells him to follow the slope of the gallery downward, and Axel, weeping with joy, drags himself to his feet.",
+      "Axel hurries along the gallery, but the floor suddenly steepens and he slides helplessly down a long, smooth slope, his hands grasping at nothing. He lands in a heap at the bottom of the slope, jarred in every bone, and the whole world goes black around him. When he finally opens his eyes, he is lying in the arms of the faithful Hans, with his uncle bending over him and a strange light playing on the walls beyond.",
+      "Before them opens a cavern so vast that its far walls are lost in haze, and in the middle of it lies a calm sea that stretches away beyond sight. The air is bright with a soft, pale light, which the professor believes comes from some electric force, and clouds drift across a low, stony sky. Lidenbrock, as happy as a child, names the water the Lidenbrock Sea, and Axel calls the little harbour where they stand Port Gräuben, after the girl he loves.",
+      "Exploring the shore, they find a strange forest of giant mushrooms and tall, pale plants, and among them a field of bones from creatures that disappeared long ago. Lidenbrock identifies them one by one with the joy of a schoolboy, while Axel, climbing a hill, glimpses what seems to be a huge herd of elephant-like beasts guided by a giant man with a staff. He runs back to warn the others, but when they look again the vision is gone, and nobody can say whether it was real.",
+      "The only way onward seems to lie across the water, so Lidenbrock decides to build a raft, and Hans sets to work with the calm skill of a born carpenter. Using the hard, fossilised wood that lies scattered on the shore, he binds together a sturdy platform with a mast and a small sail. When the baggage is stowed and the sail is hoisted, the little craft slips away from Port Gräuben into the silent sea.",
+      "For several days the raft glides across the water before a steady wind, and the long hours are broken only by the lapping of the waves and the routine of the watch. Hans lowers a line and pulls in a fish of an odd, armoured kind that the professor recognises as one that died out long ago, and he handles it as reverently as a relic. Axel, watching the glowing sky, begins to feel that he is sailing through the pages of a book on the history of the Earth.",
+      "On the surface of the sea Axel suddenly sees the long neck of a serpent, and then another monster with an enormous jaw and glaring eyes, and the two creatures hurl themselves at each other. The water boils around them for hours, while the three men on the raft hold their breath and watch a battle that no human eye has seen for ages. Then both beasts sink beneath the waves, the sea grows calm again, and Axel is left to wonder whether he has been dreaming.",
+      "Several days later the raft reaches a small island of black rock, from the centre of which a great column of hot water leaps high into the air with a thunderous roar. The professor, who delights in giving names to everything he discovers, calls the place Axel Island in honour of his nephew, and Axel, flushed with pride, hardly knows where to look. The fountain fills the air with a warm mist, and after a short rest the travellers push on across the sea.",
+      "Without warning the sky turns black, and a violent storm falls upon the sea with howling wind, hammering rain and flashes of lightning that make the whole cavern shine. Globes of fire dance along the mast and the iron tools, the compass needle spins uselessly, and the sail is torn to ribbons. Axel, soaked and deafened, clings to the raft and believes that the end of the journey has come.",
+      "At last the storm hurls the raft against a rocky shore, and the three men crawl onto the stones, bruised, exhausted and astonished to be alive. While the professor counts their losses, Axel wanders along the beach and picks up a rusted dagger of an old fashion, left there by a human hand. Lidenbrock turns it over with trembling fingers, convinced that it can only have belonged to the explorer who went before them.",
+      "Following the shore, the explorers come upon a smooth black rock on which two letters have been cut deep by a human hand, the initials A and S. The professor's face shines with joy, for this is the proof that Saknussemm really stood on the very spot where they stand now, and he promptly names the place Port Saknussemm. Beside it a dark tunnel opens in the cliff, and everything suggests that the old explorer's path continues through it.",
+      "Full of hope, they follow the tunnel for some distance, but the passage ends in a mass of fallen stone that completely blocks the way. Axel, who has long since stopped believing that they will come out alive, almost feels relief, since a closed road means a return to the surface. Lidenbrock, however, simply stares at the stones, and the look on his face suggests that he has no intention of turning back.",
+      "The professor announces that they will blow the blockage apart with gun-cotton, the powerful explosive that he has packed among the baggage, and he and Hans begin to drill holes and lay a long fuse. Axel points out that an explosion in a cavern like this might bring the whole roof down upon them, but his uncle will not be moved. To make sure of their escape, the three men move the raft close to the shore and load it, ready to leave.",
+      "Hans lights the fuse, the three men leap aboard the raft, and moments later the blast tears the rock apart with a roar that shakes the whole cavern. Where the barrier stood there is now a black chasm, and the sea, rushing in to fill it, sweeps the raft toward the opening like a leaf in a gutter. Axel has just time to cry out before the current seizes the raft and plunges it into the dark.",
+      "For hours the raft hurtles down the tunnel, borne along by a flood that seems to have no end, and the wind of its passing tears at the travellers' clothes. Lidenbrock and Hans hold on in silence while Axel, who has given up all hope of seeing Grauben again, thinks of everyone he has left behind. Down and down they plunge, deeper than any of them had ever imagined, until the very idea of the surface seems only a distant dream.",
+      "Then, with no warning, the water that has been carrying them down begins to rise, lifting the raft up a narrow shaft with a force that nothing could resist. The raft climbs for hours, and the walls speed past in the glow of the lamp, so close that Axel could touch them with an outstretched hand. The air grows hotter with each passing minute, and the men take off their coats and gasp for breath.",
+      "Lidenbrock reads the thermometer and falls silent, for the heat is far beyond what a human body can bear for long. Then Axel understands where they are: they are rising inside the chimney of a volcano, and the water beneath them is being driven upward by fire. Red light flickers on the walls, the whole tunnel trembles, and the noise is like a thousand cannons.",
+      "Axel is certain that the end has come, and he says goodbye in his thoughts to Grauben, to the narrow house in Hamburg and to the quiet life he once thought so dull. Around him the heat is almost unbearable, the glow turns from red to white, and the raft shakes as if it were held in the hand of a giant. Yet Lidenbrock and Hans sit calm and upright beside him, and their courage gives Axel the strength to hold on to the end.",
+      "With a roar that seems to split the world in two, the volcano erupts, and the three men are flung out of its mouth together with ashes, steam and burning stones. For a moment Axel sees a brilliant blue sky above him and feels the warm touch of true sunlight on his face, the first he has felt for many weeks. Then he tumbles down a steep slope covered in loose cinders, and everything around him fades into darkness.",
+      "When Axel comes to himself he is lying on a warm slope among bushes and vines, with ripe grapes within his reach and a deep blue sea sparkling far below. Hans is tending a small cut on the professor's arm, and Lidenbrock keeps staring at the sun, the vineyards and the distant coast in total bewilderment. Nothing around them looks like Iceland, and the whole landscape seems to belong to some warmer and kinder country.",
+      "Some fishermen from the island find the strangers and explain that this mountain is Stromboli, an active volcano in the Mediterranean Sea. Lidenbrock, who set out for the centre of the Earth, can hardly believe that he left the snows of Iceland and has come out under the sun of southern Italy. They are given food and a bed, and within a few days they are on a boat bound for Messina, on the island of Sicily.",
+      "From Messina the travellers make their way home by sea and rail, and at last the familiar roofs of Hamburg rise before them. Martha, the housekeeper, nearly faints at the sight of the three men on her doorstep, and Grauben runs into Axel's arms with tears of joy, for everyone in the city had given them up for lost. In the happy uproar that follows, even the professor forgets his dignity and laughs aloud.",
+      "News of the journey spreads across Europe, and for months the professor is the most talked-about man in Hamburg, honoured by scholars who cannot decide whether to admire him or doubt him. Axel, whose account of the adventure is read everywhere, finds himself invited to lectures and dinners he never imagined attending. Best of all, he marries Grauben, and the old house in Hamburg has never been so full of laughter.",
+      "Back in Hamburg, the professor sits down with his notes and at last solves the riddle of how they came to the surface so far from Iceland. During the great storm, he explains, the balls of lightning had reversed the magnetism of the compass, and they had trusted a false guide for days. Lidenbrock, who hates to admit a mistake, admits this one with a laugh, but he insists that they have still discovered a hidden world beneath the earth.",
+      "Hans, the silent hero of the journey, collects his wages and goes home to Iceland, politely turning down the praise that everyone wants to give him. Lidenbrock shakes his hand again and again, and Axel, who once thought him cold, understands that the guide's calm courage saved them more than once. Years later, whenever Axel looks at the old parchment, he thinks of the quiet hunter who never complained and never gave up.",
+      "Of course, no one could really make this journey, for the Earth grows steadily hotter beneath our feet, and the centre is a place of enormous heat and pressure. The deepest hole that people have ever drilled reaches only about twelve kilometres, while the centre lies roughly 6,400 kilometres down. Yet Jules Verne's tale of daring and wonder has carried readers into the dark for well over a century, and it still invites them to ask what lies below."
+    ]
+  }
+}
