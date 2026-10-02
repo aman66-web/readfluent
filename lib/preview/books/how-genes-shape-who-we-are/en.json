@@ -1,0 +1,417 @@
+{
+  "slug": "how-genes-shape-who-we-are",
+  "meta": {
+    "blurb": "Why does Noor have her grandmother's curls and her father's green eyes? Over one summer, her aunt Amara, a scientist, shows her the tiny instructions inside every cell, from peas and twins to gene editing, and what they can and cannot tell us.",
+    "bible": "Noor: an eleven-year-old girl with curly hair and green eyes, curious and quick. Amara: her aunt, Dr Amara, a kind and clear scientist who studies Genes. Grandma: Noor's grandmother, curly hair. They talk through one summer, in the garden and at Amara's laboratory. Key terms: DNA, Gene, Genes, Genome, Cell, Cells, Nucleus, Protein, Proteins, Enzyme, Haemoglobin, Keratin, RNA, Chromosome, Chromosomes, Allele, Alleles, Dominant, Recessive, Mutation, Mutations, Inherited, Heredity, Evolution, Epigenetic, Mitochondria, Neanderthal, Neanderthals, Lactase, Sickle, Malaria, Cystic, Fibrosis, Phenylketonuria, Screening, Counsellor, CRISPR, Eugenics, Twins, Identical, Sequencing, Ancestry, Fingerprint. Gregor Mendel: a monk in what is now the Czech Republic who bred pea plants in the 1850s and 1860s; his work was ignored until about 1900. Charles Darwin: English naturalist, On the Origin of Species, 1859. Rosalind Franklin, Francis Crick, James Watson and Maurice Wilkins: the shape of DNA, a double helix, found in 1953; Franklin's X-ray photographs were key. Human Genome Project: ran from 1990 to 2003. Facts: a person has about 20,000 protein-making genes; about three billion DNA letter pairs; 23 pairs of chromosomes; any two people share about 999 in every 1,000 letters; only about 1 or 2 in every 100 letters make proteins; a CRISPR treatment for sickle cell disease was first approved in 2023. Voice: warm, clear, curious; science is real and hedged where it is uncertain; no invented numbers or studies; no real living people named."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Noor holds up her curly hair beside a photo of her grandmother",
+      "summary": "Noor has her grandmother's curls and her father's green eyes and asks her aunt why."
+    },
+    {
+      "n": 2,
+      "scene": "Amara draws a tiny cell on a garden table with coloured chalk",
+      "summary": "Amara explains that the answer is written in tiny instructions inside every cell."
+    },
+    {
+      "n": 3,
+      "scene": "A glowing blue nucleus sits at the centre of a magnified cell",
+      "summary": "Most of the instructions are kept inside the cell's nucleus, in a molecule called DNA."
+    },
+    {
+      "n": 4,
+      "scene": "Amara twists a long rope ladder in her hands to show a helix",
+      "summary": "DNA has the shape of a twisted ladder, called a double helix."
+    },
+    {
+      "n": 5,
+      "scene": "Four coloured letters A, C, G and T float in a glowing line",
+      "summary": "DNA is written in an alphabet of four letters, A, C, G and T."
+    },
+    {
+      "n": 6,
+      "scene": "A long thread of DNA is coiled tightly inside a tiny cell",
+      "summary": "A human cell holds about three billion letter pairs, which would stretch about two metres if pulled straight."
+    },
+    {
+      "n": 7,
+      "scene": "Amara circles a short stretch of the chalk ladder and writes the word gene",
+      "summary": "A gene is a stretch of DNA that holds the instructions for one product, usually a protein."
+    },
+    {
+      "n": 8,
+      "scene": "Amara holds a strand of Noor's hair beside a drawing of a protein",
+      "summary": "Proteins do most of the work in the body, such as building hair and carrying oxygen."
+    },
+    {
+      "n": 9,
+      "scene": "A cell copies a gene and sends the copy out to be read",
+      "summary": "A cell copies a gene into RNA and then uses the copy to build a protein."
+    },
+    {
+      "n": 10,
+      "scene": "Forty-six chromosomes arranged in pairs on a pale blue background",
+      "summary": "DNA is packed into chromosomes, and humans have 23 pairs."
+    },
+    {
+      "n": 11,
+      "scene": "A mother and father hand one chromosome each to a small child",
+      "summary": "A child gets one set of 23 chromosomes from each parent."
+    },
+    {
+      "n": 12,
+      "scene": "Two siblings stand side by side, one with curly hair and one with straight",
+      "summary": "Each egg or sperm carries a random mix, so brothers and sisters get different combinations."
+    },
+    {
+      "n": 13,
+      "scene": "Amara holds two playing cards to show two versions of one gene",
+      "summary": "Each person has two copies of most genes, and the versions are called alleles."
+    },
+    {
+      "n": 14,
+      "scene": "A monk in a brown robe tends rows of pea plants in a garden",
+      "summary": "Gregor Mendel studied pea plants in the 1850s and 1860s to find how traits are passed on."
+    },
+    {
+      "n": 15,
+      "scene": "Tall and short pea plants stand side by side with tidy labels",
+      "summary": "Mendel found that some versions of a trait hide others, which he saw as a pattern of three to one."
+    },
+    {
+      "n": 16,
+      "scene": "Dusty papers of Mendel's pea results lie forgotten on an old shelf",
+      "summary": "Mendel's work was ignored in his lifetime and rediscovered around 1900."
+    },
+    {
+      "n": 17,
+      "scene": "Noor looks at her own eyes in a mirror and frowns in thought",
+      "summary": "Noor learns that most traits, like eye colour, are not as simple as a pea plant's."
+    },
+    {
+      "n": 18,
+      "scene": "A row of people of different heights stands against a wall chart",
+      "summary": "Height is shaped by thousands of small gene differences plus nutrition and health."
+    },
+    {
+      "n": 19,
+      "scene": "Two identical twin girls in matching coats hold hands in a park",
+      "summary": "Identical twins share almost the same DNA, which helps scientists study genes and surroundings."
+    },
+    {
+      "n": 20,
+      "scene": "Identical twins in different clothes, one holding a book, one a ball",
+      "summary": "Even identical twins differ in some ways, so genes are never the whole story."
+    },
+    {
+      "n": 21,
+      "scene": "A zoomed-in strand of DNA shows one letter swapped for another",
+      "summary": "A mutation is a change in the DNA's letters, often from a copying mistake."
+    },
+    {
+      "n": 22,
+      "scene": "A calm scientist studies a screen showing many harmless gene changes",
+      "summary": "Most mutations do nothing, a few cause harm and a very few help."
+    },
+    {
+      "n": 23,
+      "scene": "A farmer pours a glass of milk beside a herd of cattle",
+      "summary": "In some populations a mutation lets adults digest milk, because it keeps the lactase gene switched on."
+    },
+    {
+      "n": 24,
+      "scene": "A mosquito rests on an arm beside a drawing of curved red blood cells",
+      "summary": "A change to the haemoglobin gene causes sickle cell disease, but one copy can protect against malaria."
+    },
+    {
+      "n": 25,
+      "scene": "Darwin sits at a wooden desk with finches and notebooks around him",
+      "summary": "Darwin explained evolution in 1859, and genes later showed how variation is passed on."
+    },
+    {
+      "n": 26,
+      "scene": "A crowd of many different people smiles together in a sunny square",
+      "summary": "Any two people share about 999 of every 1,000 DNA letters, and most variation is within groups."
+    },
+    {
+      "n": 27,
+      "scene": "A chimpanzee, a fly and a yeast cell are drawn around a small human",
+      "summary": "Humans share most of their DNA with chimpanzees, and many genes with flies and yeast."
+    },
+    {
+      "n": 28,
+      "scene": "Skull of an ancient human relative sits beside a modern human face",
+      "summary": "Many people outside Africa carry a little DNA from Neanderthals."
+    },
+    {
+      "n": 29,
+      "scene": "A model of the double helix is built from wire and coloured beads",
+      "summary": "In 1953 scientists worked out the shape of DNA, using X-ray photographs by Rosalind Franklin."
+    },
+    {
+      "n": 30,
+      "scene": "Rows of computers read long lines of coloured letters in a bright lab",
+      "summary": "The Human Genome Project read the whole human genome between 1990 and 2003."
+    },
+    {
+      "n": 31,
+      "scene": "A long bookshelf with a few glowing words among many pale blank pages",
+      "summary": "Only about 1 or 2 in every 100 letters of DNA make proteins; much of the rest helps control genes."
+    },
+    {
+      "n": 32,
+      "scene": "Two cells, one from skin and one from liver, glow with different gene patterns",
+      "summary": "Every cell has the same DNA but uses different genes, so skin cells and liver cells differ."
+    },
+    {
+      "n": 33,
+      "scene": "Tiny chemical tags sit on a strand of DNA like small coloured flags",
+      "summary": "Chemical tags on DNA can switch genes on and off, and they can change with life events."
+    },
+    {
+      "n": 34,
+      "scene": "A mother and daughter at a table with a drawing of a cell",
+      "summary": "Mitochondria, the cell's power plants, carry a little DNA that is passed on only by the mother."
+    },
+    {
+      "n": 35,
+      "scene": "A boy and a girl run across a field while a doctor watches",
+      "summary": "Some conditions, such as cystic fibrosis, are caused by a change in a single gene."
+    },
+    {
+      "n": 36,
+      "scene": "Hands hold a scale tipping between a gene card and a plate of food",
+      "summary": "Common illnesses such as heart disease involve many genes and everyday life together."
+    },
+    {
+      "n": 37,
+      "scene": "A nurse pricks a newborn baby's heel to collect a drop of blood",
+      "summary": "Phenylketonuria shows how genes and environment work together: early testing and diet prevent harm."
+    },
+    {
+      "n": 38,
+      "scene": "A counsellor in a quiet room explains a chart to a thoughtful couple",
+      "summary": "A genetic test can show a risk, not a certainty, and counsellors help people understand it."
+    },
+    {
+      "n": 39,
+      "scene": "A person spits into a small tube beside a world map with coloured regions",
+      "summary": "Ancestry tests compare your DNA to groups of people and give estimates, not exact answers."
+    },
+    {
+      "n": 40,
+      "scene": "A brain made of many small coloured threads glows on a dark table",
+      "summary": "No single gene decides intelligence or personality; many small genetic effects and experience both matter."
+    },
+    {
+      "n": 41,
+      "scene": "A winding path forks into many directions across a green hill",
+      "summary": "Genes shape possibilities, not destiny; chance and choice matter."
+    },
+    {
+      "n": 42,
+      "scene": "A detective's lens shows a pattern of dark bars from a blood drop",
+      "summary": "DNA fingerprinting, invented in 1984, helps to solve crimes and prove who is related."
+    },
+    {
+      "n": 43,
+      "scene": "A doctor gives a child a small injection while a parent watches kindly",
+      "summary": "Gene therapy tries to treat illness by giving cells a working copy of a gene."
+    },
+    {
+      "n": 44,
+      "scene": "Tiny scissors cut a glowing strand of DNA at a marked spot",
+      "summary": "CRISPR is a tool that can cut and change DNA at a chosen place; it came from how bacteria defend themselves."
+    },
+    {
+      "n": 45,
+      "scene": "A patient smiles in a hospital room with a doctor and a blood bag",
+      "summary": "In 2023 the first CRISPR treatment was approved, for sickle cell disease."
+    },
+    {
+      "n": 46,
+      "scene": "A closed laboratory door has a sign and a group of people talking outside",
+      "summary": "Editing genes in embryos would pass changes to future generations, and many countries restrict it."
+    },
+    {
+      "n": 47,
+      "scene": "Old black-and-white charts and a closed book lie on a cold desk",
+      "summary": "Eugenics was a harmful movement that used bad science to judge people's worth."
+    },
+    {
+      "n": 48,
+      "scene": "Noor draws a family tree full of curls, green eyes and freckles",
+      "summary": "Noor makes a family tree of traits and sees how they pass down in pieces."
+    },
+    {
+      "n": 49,
+      "scene": "Amara and Noor sit on garden steps with an open recipe book",
+      "summary": "Amara compares the genome to a book of recipes, not a fixed blueprint."
+    },
+    {
+      "n": 50,
+      "scene": "Noor stands under the evening sky with her grandmother's curls blowing in the breeze",
+      "summary": "Noor ends the summer knowing she is a unique mix, and that this book is general information."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Noor has curly hair like her grandmother and green eyes like her father.",
+      "Amara says the answer is in tiny instructions inside every cell.",
+      "The instructions are kept in the middle of the cell.",
+      "DNA looks like a ladder that has been twisted into a spiral.",
+      "DNA is written with only four letters, A, C, G and T.",
+      "One cell holds about three billion letters of DNA.",
+      "A gene is one short part of DNA with its own instructions.",
+      "Proteins do the work in your body, from hair to blood.",
+      "The cell makes a copy of a gene and uses it to build a protein.",
+      "DNA is packed into bundles called chromosomes, and you have 46.",
+      "You get half of your DNA from your mother and half from your father.",
+      "Brothers and sisters get different mixes of the same family DNA.",
+      "You have two copies of most genes, one from each parent.",
+      "Long ago, a monk named Gregor Mendel grew thousands of pea plants.",
+      "Tall peas and short peas gave a surprising pattern.",
+      "Nobody paid attention to Mendel's work for many years.",
+      "Noor asks if her green eyes come from just one gene.",
+      "Many genes, not one, help to decide how tall you will be.",
+      "Identical twins have almost exactly the same DNA as each other.",
+      "Identical twins are alike, but they are never exactly the same.",
+      "Sometimes a letter in DNA changes, and this is called a mutation.",
+      "Most mutations do nothing at all, and a few cause problems.",
+      "In some places, adults can drink milk because of a gene change.",
+      "One gene change can hurt, yet it can also protect.",
+      "Charles Darwin said that living things change slowly over time.",
+      "Any two people are almost exactly alike in their DNA.",
+      "People share most of their DNA with apes, and many genes with flies.",
+      "Many people carry a small amount of Neanderthal DNA.",
+      "In 1953 scientists finally discovered the true shape of DNA.",
+      "Scientists from many countries read all of human DNA, letter by letter.",
+      "Only a small part of our DNA is made of genes.",
+      "A skin cell and a liver cell have the same DNA but do different jobs.",
+      "Tiny chemical tags can switch genes on or off without changing the letters.",
+      "A little of your DNA comes only from your mother.",
+      "A few illnesses are caused by a change in one single gene.",
+      "Most common illnesses depend on many genes and on daily life.",
+      "A simple blood test helps newborn babies stay healthy.",
+      "A gene test can show a risk, but it cannot say what will happen.",
+      "Some companies use DNA tests to guess where your family came from.",
+      "There is no single gene for being smart or kind.",
+      "Your genes give you possibilities, but they do not decide your future.",
+      "Police can use DNA to find out who was at a place.",
+      "Doctors can sometimes treat a disease by giving a person a working gene.",
+      "A new tool called CRISPR can change DNA in exact places.",
+      "In 2023, the first CRISPR medicine was approved for patients.",
+      "People think carefully about changing the DNA of unborn babies.",
+      "In the past, some people used genetics in cruel and wrong ways.",
+      "Noor draws a family tree and marks everyone's curls and eyes.",
+      "Amara says your DNA is more like a recipe book than a plan.",
+      "Noor is a mix of her family, and she is also herself."
+    ],
+    "B1B2": [
+      "Noor is eleven years old, and her hair curls just like her grandmother's. Her eyes are green like her father's, so she asks her aunt Amara, a scientist, why.",
+      "Amara draws a small round cell on the garden table. She explains that your body is made of tens of trillions of these, and each one holds a copy of your instructions.",
+      "The middle of the cell is called the nucleus, and it works like a safe. Inside it is a long molecule called DNA, which holds the instructions.",
+      "Amara twists a long rope ladder in her hands until it forms a spiral. This is the shape of DNA, which scientists call a double helix.",
+      "Each rung of the ladder is made from two chemical pieces that fit together. We name them with four letters, A, C, G and T, and the order of those letters carries the message.",
+      "The DNA in a single human cell has about three billion letter pairs. If you could pull it straight, it would be about two metres long.",
+      "A gene is a stretch of DNA that carries one set of instructions, usually for making a protein. A human being has about twenty thousand of these protein-making genes.",
+      "Proteins are the little workers that keep your whole body running every day. One called keratin builds hair, and another called haemoglobin carries oxygen in your blood.",
+      "When a cell needs a protein, it first makes a short copy of the gene, called RNA. The copy leaves the nucleus, and the cell reads it to build the protein.",
+      "Your DNA is not kept as one single long thread but cut into pieces. There are 46 bundles called chromosomes, which come in 23 pairs.",
+      "Each parent passes on one chromosome from every pair, so you receive 23 from your mother and 23 from your father. That is why you look a little like both of them.",
+      "Each egg and each sperm carries a different, shuffled mix of its owner's genes. This is why brothers and sisters from the same parents can look quite different.",
+      "Because chromosomes come in pairs, you have two copies of most genes. The copies can differ a little, and we call the different versions alleles.",
+      "In the 1850s and 1860s, a monk named Gregor Mendel grew thousands of pea plants in his monastery garden. He wanted to learn how traits pass from one generation to the next.",
+      "When Mendel crossed tall pea plants with short ones, all the new plants were tall. In the next generation the short plants returned, about one for every three tall ones.",
+      "Mendel published his results in 1866, but hardly anyone understood their importance. Around 1900, several scientists found them again, and the science of genetics began.",
+      "Noor wonders if green eyes come from a single gene, like Mendel's peas. Amara says no, because several genes work together to decide eye colour.",
+      "Height is shaped by thousands of small differences in DNA, each adding a tiny effect. Food and health in childhood matter too, so genes are only part of the story.",
+      "Identical twins begin as one fertilised egg that splits in two, so their DNA is almost the same. Scientists study them to learn how much genes matter.",
+      "Even identical twins are not exactly alike, since they have different fingerprints, different experiences and sometimes different health. This shows that your genes and your surroundings work together as a team.",
+      "When a cell copies its DNA, it sometimes makes a mistake and swaps one letter for another. A change in the letters like this one is called a mutation.",
+      "Most mutations have no effect, because they fall in places that do not matter much. A few cause disease, and now and then one turns out to be useful.",
+      "Most mammals stop making lactase, the protein that digests milk, after they are babies. In some human groups with a long history of dairy farming, a mutation keeps the gene working for life.",
+      "One mutation in the haemoglobin gene can cause sickle cell disease when a person inherits two copies. A person with only one copy is better protected against malaria, which explains why the mutation is common where malaria is common.",
+      "In 1859, Charles Darwin published his idea that living things change over many generations through natural selection. He did not know about genes, but genetics later explained how the changes pass on.",
+      "Any two people share about 999 out of every 1,000 DNA letters. Most of the small differences are found inside every group of people, not between the groups.",
+      "A human and a chimpanzee share well over 98 out of every 100 DNA letters. We even share many genes with fruit flies and yeast, because all life descends from common ancestors.",
+      "Scientists can now read DNA from very old bones. They found that people whose families come from outside Africa carry about one or two per cent Neanderthal DNA.",
+      "In 1953, Francis Crick and James Watson built a model of the double helix. They used X-ray pictures taken by Rosalind Franklin, which gave the vital clue.",
+      "The Human Genome Project began in 1990, and scientists from many countries worked on it. It took more than a decade and billions of dollars to read the human genome the first time.",
+      "Genes that make proteins are only about one or two per cent of our DNA. Scientists once called the rest junk, but we now know that much of it helps to control the genes.",
+      "Nearly every cell in your body has the same DNA, yet a skin cell is very different from a liver cell. The reason is that each cell switches on only the genes it needs.",
+      "Small chemical tags attached to DNA can turn genes on or off without changing the letters. This field is called epigenetics, and scientists are still discovering how much our lives can affect these tags.",
+      "Mitochondria are tiny parts of the cell that make energy, and they have a little DNA of their own. You inherit it from your mother, because it comes in the egg.",
+      "Some conditions are caused by a change in just one gene. Cystic fibrosis is an example, and it appears only when a child inherits the changed gene from both parents.",
+      "Common conditions like heart disease and diabetes are not caused by one gene. Many genes each add a little risk, and food, exercise and many other things matter as well.",
+      "A rare gene change called phenylketonuria stops the body from breaking down part of some foods. Babies are tested soon after birth, and a special diet then keeps them healthy.",
+      "A genetic test can show that a person has a higher or lower chance of a condition. It cannot predict the future, so genetic counsellors help people understand what the results do and do not mean.",
+      "Ancestry tests compare your DNA with the DNA of other people around the world. The results are only estimates, and they can change as the databases grow.",
+      "People sometimes talk about a gene for intelligence or a gene for kindness. In fact, thousands of genes each have a tiny effect, and upbringing, schooling and chance matter a great deal too.",
+      "Your genes shape what is possible for you, but they do not fix your future. Your choices, your surroundings and plain luck all help to decide who you become.",
+      "In 1984, a scientist found that each person has a unique pattern of DNA, like a fingerprint. Police now use this to solve crimes, and families use it to prove who is related.",
+      "In gene therapy, doctors give cells a working copy of a gene that is faulty. The first trials began around 1990, and some treatments now help people with certain rare illnesses.",
+      "CRISPR is a tool that can cut DNA at a chosen spot, so that scientists can change a gene. It was adapted from a defence system that bacteria use against viruses.",
+      "In 2023, regulators approved the first medicine based on CRISPR. It treats sickle cell disease by editing a patient's own blood cells, and it is meant for people with serious cases.",
+      "Changing the DNA of an embryo would pass the change on to future generations, so it raises big questions. Most countries do not allow it to be used to start a pregnancy.",
+      "In the early twentieth century, a movement called eugenics said that society should control who has children. It used poor science and led to great harm, including forced sterilisation in many countries.",
+      "Noor draws a family tree and marks who has curls, green eyes or freckles. She sees that each trait appears in some people, hides in others and sometimes returns.",
+      "Amara says that DNA is like a book of recipes rather than a blueprint. The same recipes can turn out a little differently depending on the kitchen, the ingredients and the cook.",
+      "At the end of the summer, Noor knows that she is a one-of-a-kind mix of her family's genes and her own life. This book is general information about genetics and is not medical advice."
+    ],
+    "C1C2": [
+      "Eleven-year-old Noor had always been told that she had her grandmother's curls and her father's green eyes, and one warm July morning she finally asked how that could possibly be true. Her aunt Amara, who studied genes for a living, laughed with delight and said that it was the best question anyone had asked her all year. They would spend the whole summer on it, she promised, and Noor would end it knowing a great deal about herself.",
+      "Amara took a piece of chalk and drew a small round shape on the garden table, then added a smaller circle at its centre. Your body, she said, is built from tens of trillions of cells like this one, and almost every one of them carries a complete copy of the instructions for making you. Nobody wrote those instructions for you alone, she added, because you inherited them, in pieces, from the people who came before.",
+      "The small circle, Amara explained, was the nucleus, a kind of protective vault at the heart of the cell where the most precious material is kept. That material is a long, thread-like molecule called DNA, and it carries the instructions that decide how a body is built and how it runs. Without it, a cell would be like a busy workshop with no plans, and no one to tell the workers what to make.",
+      "To show Noor what DNA looks like, Amara took a soft rope ladder from the shed and twisted it slowly until it curled into a graceful spiral. Scientists call this shape a double helix, she said, and it is one of the most famous shapes in all of science. Two long strands wind around each other, joined across the middle by rungs, and the whole thing is far too thin to see without a very strong microscope.",
+      "Every rung of the ladder is made of two chemical pieces that fit together like a lock and a key, and scientists name the four kinds with the letters A, C, G and T. It is a surprisingly small alphabet, Amara admitted, yet the order in which the letters are arranged carries an astonishing amount of meaning. In the same way that twenty-six letters can write every book in a library, four can write the instructions for a living creature.",
+      "Amara wrote the number on the table, three billion, and asked Noor to imagine that many letter pairs packed inside every one of her cells. Stretched out in a straight line, she said, the DNA from a single cell would measure about two metres, though the cell itself is far too small to see. It is folded and wound so cleverly that all of it fits inside, which is one of the great feats of tidy packing in nature.",
+      "Amara drew a loop around a short section of the chalk ladder and wrote the word gene beside it. A gene, she explained, is a stretch of DNA that holds the instructions for making one particular product, most often a protein, and a person has about twenty thousand genes of this kind. Together they are rather like a vast collection of recipes, each of which tells the body how to make one important thing.",
+      "Proteins, Amara told her, are the workers and the building material of the body, and almost everything that happens inside you depends on one of them. Keratin gives strength to hair and nails, haemoglobin carries oxygen through the blood, and enzymes speed up the chemical reactions that digest your lunch. A gene is therefore not a picture of a trait but a recipe for a protein, and the traits emerge from what those proteins do.",
+      "When the cell needs a certain protein, Amara said, it does not take the precious original out of the nucleus, but instead makes a short working copy of the gene in a related molecule called RNA. That copy travels out into the cell, where tiny machines read its letters in groups of three and join together the right building blocks, one after another. In this way a message written in a four-letter alphabet is turned into a chain that folds up into a working protein.",
+      "Noor's DNA, her aunt explained, is not kept as a single endless thread but is divided into forty-six separate bundles called chromosomes, each one a tightly wound package of genes. They come in twenty-three pairs, and one of those pairs, the sex chromosomes, usually decides whether a person is female, with two X chromosomes, or male, with an X and a Y. Every pair has a partner, and the two partners carry matching sets of genes.",
+      "Every child, Amara continued, receives exactly one chromosome from each pair from the mother and the other from the father, so that twenty-three come from the egg and twenty-three from the sperm. The two halves meet at the very beginning of a life and form the first cell, which then divides again and again until a whole person has been built. It explains, in the simplest terms, why a child can resemble both parents and yet be identical to neither.",
+      "Before an egg or a sperm cell is made, the chromosomes in each pair swap pieces and are then dealt out at random, like a pack of cards that has been shuffled thoroughly. As a result, each of those cells carries its own unique mixture of the parent's genes, and no two are ever quite the same. That is the reason brothers and sisters can differ so much, even though they share the same mother and father.",
+      "Since chromosomes come in pairs, Amara said, you carry two copies of nearly every gene, one inherited from each parent. The two copies are often slightly different, and the different versions of a gene are known as alleles, so that one allele for a certain protein might work a little differently from another. Which of the two shows up in your body depends on how they interact, and sometimes it depends on both.",
+      "Long before anyone had seen a gene, a monk named Gregor Mendel was growing thousands of pea plants in the garden of his monastery in what is now the Czech Republic. Over about eight years in the 1850s and 1860s he crossed plants with different traits, counted every pod and every seed, and wrote down the results with extraordinary care. He was asking a question that people had wondered about for centuries, which was how a trait passes from a parent to its offspring.",
+      "When Mendel crossed tall pea plants with short ones, every plant in the next generation grew tall, and the short trait seemed to have vanished. Yet when he let those tall plants breed among themselves, the short plants reappeared in about one case out of four, a ratio that kept turning up in his counts. He concluded that each plant carries two hidden factors for a trait, and that one can overpower the other, which we now call dominant and recessive.",
+      "Mendel published his findings in 1866, but the scientists of the time barely noticed them, and he died in 1884 without ever knowing how important his peas would become. Around the year 1900, several researchers working on similar questions came across his paper and realised that he had been right all along. From that moment, the study of heredity grew rapidly into the science that we now call genetics.",
+      "Noor looked at her green eyes in a hand mirror and asked whether a single gene had decided them, as it had for the peas. Amara shook her head and said that real life is rarely so tidy, because eye colour is shaped by several genes working together, and a few of them matter more than the rest. That is why two brown-eyed parents can sometimes have a child with lighter eyes, and why the old rules from school are only the beginning of the story.",
+      "Height, Amara said, is a perfect example of a trait that no single gene controls, for researchers have found thousands of small differences in DNA that each nudge it up or down by a tiny amount. Tall parents therefore tend to have tall children, yet food, illness and general care in childhood also play a real part, and populations have grown taller in many countries as nutrition has improved. Genes load the dice, in other words, but the environment helps to roll them.",
+      "Identical twins begin life as a single fertilised egg that splits early into two, so the two babies share almost exactly the same DNA. Scientists have studied thousands of such pairs, and compared them with non-identical twins who share about half of their varying DNA, to estimate how much of a trait comes from genes. The method is clever, though it has limits, because twins also tend to share a home, a family and an upbringing.",
+      "Despite sharing nearly the same DNA, identical twins are never perfect copies of each other, and their fingerprints, for instance, are different. Small accidents in the womb, different friends, different illnesses and different choices all push their lives in separate directions. The old argument about whether nature or nurture matters more has therefore faded, because the evidence suggests that the two are woven together all the way through.",
+      "Each time a cell divides, it must copy all three billion letters of its DNA, and although the copying is astonishingly accurate, a few mistakes slip through. A change in the sequence of letters is called a mutation, and it can also be caused by things such as strong sunlight or certain chemicals. If it happens in a cell that makes eggs or sperm, the change can be passed down to a child.",
+      "Most mutations, Amara explained, are quite harmless, for they land in parts of the DNA that do little or in places where a changed letter still builds the same protein. A small number damage an important gene and can lead to illness, and a rarer few happen to give some small advantage. Every one of us carries dozens of brand-new changes that were not present in either of our parents.",
+      "Most mammals stop making lactase, the enzyme that digests the sugar in milk, soon after they are weaned, and for most of human history so did people. In several parts of the world where herding and dairy farming were common, however, mutations arose that keep the lactase gene active into adulthood, and they spread because they gave their carriers a useful source of food. It is a clear case of a human population changing in response to its way of life.",
+      "A single changed letter in the gene for haemoglobin can bend red blood cells into a sickle shape, and a person who inherits two copies of it develops sickle cell disease, a painful and serious condition. A person with only one copy, however, usually stays healthy and is better protected against the worst effects of malaria, which is why the mutation is common in regions where that disease has long been a danger. A change can thus be a burden and a shield at once, depending on the circumstances.",
+      "In 1859, Charles Darwin published On the Origin of Species, arguing that living things change over many generations because individuals with helpful traits tend to leave more offspring. He had no idea how traits were inherited, and Mendel's paper was gathering dust in libraries across Europe. Once genetics was joined with his theory in the twentieth century, mutation and inheritance supplied the missing machinery, and the picture of evolution became far more complete.",
+      "Amara told Noor that any two humans, however far apart they live, share about 999 of every thousand letters in their DNA, which makes us an unusually similar species. Of the small amount that does vary, most of the variation is found within any one population rather than between populations, so that two neighbours can differ more than two strangers from opposite sides of the world. The old idea of sharply divided biological races has no real support in the genetic evidence.",
+      "The DNA of a human and a chimpanzee is more than ninety-eight per cent the same, a reminder of how recently the two lines separated by the standards of evolution. Even fruit flies and baker's yeast carry genes that are clearly related to ours, and scientists can sometimes swap a human gene into yeast and find that it does its old job. Such discoveries are among the strongest evidence that all living things share a common ancestry.",
+      "Remarkably, scientists can now read DNA taken from bones that are tens of thousands of years old, and the results have rewritten some chapters of human history. They show that our ancestors met and had children with Neanderthals, so that people whose roots lie outside Africa today carry about one or two per cent Neanderthal DNA. Some of those inherited genes appear to influence things such as skin, immunity and how the body copes with the environment.",
+      "In 1953, Francis Crick and James Watson announced that DNA is a double helix, building a model from metal plates and wire to show how it fits together. They relied heavily on the X-ray photographs taken in London by Rosalind Franklin, whose careful work revealed the spiral pattern and which they saw without her full knowledge. Watson, Crick and Maurice Wilkins shared the Nobel Prize in 1962, four years after Franklin had died, and her contribution is now widely and rightly honoured.",
+      "The Human Genome Project began in 1990 and brought together laboratories in many countries, all working to read the full three billion letters of human DNA. The first complete draft was announced in 2003, after more than a decade of effort and billions of dollars, and since then the technology has improved so dramatically that reading a genome costs a tiny fraction of that today. A task that once needed a global team can now be done in a matter of days.",
+      "It surprised researchers to discover that only about one or two letters in every hundred belong to genes that make proteins, which left the rest of the genome looking like an empty library. Some people called it junk, but we now know that a great deal of it contains switches, signals and other regions that control when and where genes are used. Scientists still argue about exactly how much of it matters, so that this remains an open and exciting question.",
+      "Nearly every cell in your body holds the same set of genes, yet a nerve cell, a skin cell and a liver cell look and behave in entirely different ways. The difference lies in which genes are switched on, because each type of cell uses only the part of the instruction book that it needs and keeps the rest closed. This careful control is how one fertilised egg grows into hundreds of kinds of cell, all working together in a single body.",
+      "Amara described a layer of control that sits on top of the DNA itself, in the form of small chemical tags that can switch genes on or off without altering a single letter. This field is called epigenetics, and it shows that diet, stress and age can leave marks on the way genes behave. How much of this is passed down to children in humans, however, is still debated, and scientists are careful not to promise more than the evidence supports.",
+      "Besides the DNA in the nucleus, each cell holds a little more inside its mitochondria, the tiny power plants that turn food into usable energy. This mitochondrial DNA is inherited almost always from the mother, because the egg supplies these parts to the embryo while the sperm contributes very few. Scientists use it to trace maternal lines far back in time, since it changes only slowly from one generation to the next.",
+      "A small number of illnesses, Amara said, are caused by a change in one single gene, and the pattern is rather like Mendel's peas. Cystic fibrosis, which affects the lungs and digestion, appears only when a child inherits a changed copy from both parents, each of whom is usually a healthy carrier with no idea of it. For conditions like this, the rules of inheritance allow doctors to estimate the chance that a family will be affected.",
+      "Most of the illnesses that affect large numbers of people, such as heart disease and type two diabetes, are not caused by any single gene. Hundreds or even thousands of small genetic differences each add a tiny amount to a person's risk, and food, exercise, smoking and many other factors push the risk up or down. That is why a family history is a useful warning but never a sentence, and why healthy habits help people whatever genes they hold.",
+      "Phenylketonuria is a rare condition in which a changed gene leaves the body unable to break down an amino acid found in many protein-rich foods, and without treatment it can seriously harm a child's brain. Because newborns in many countries are screened with a tiny drop of blood from the heel, the condition is usually discovered within days, and a carefully planned diet then lets the child grow up healthy. It is a striking example of how knowing a gene and changing the environment can work together.",
+      "Genetic tests can reveal that a person carries a changed gene, or has a higher or lower chance of developing a particular condition, but they rarely deliver a definite verdict. For this reason, genetic counsellors are trained to explain what a result means, what it does not mean, and what choices follow from it. Amara stressed that the information belongs to the person tested, and that nobody should be pressured to learn more about their own DNA than they wish to know.",
+      "Noor had seen advertisements for kits that promise to reveal where your family came from, and she asked how they work. The companies compare your DNA with reference samples from people in different regions, and then estimate which of those groups you resemble most closely. The answers are probabilities rather than facts, and they can shift as the databases improve, so a result should be treated as an interesting clue instead of a definite verdict.",
+      "Headlines love to announce the discovery of a gene for intelligence, shyness or even happiness, but Amara said that the truth is much more complicated and much less dramatic. Studies suggest that thousands of genetic differences each contribute a very small push to such traits, and the combined effect is far from a prediction for any one person. Because family, schooling, friendships and luck matter just as much, no one can read a person's mind or future from their DNA.",
+      "Noor asked whether this meant that her whole life was already written in her genes, and Amara answered with a firm and cheerful no. Genes shape what is possible and make some outcomes a little more likely than others, but they work through a lifetime of experiences, choices and pieces of luck that nobody can fully predict. She told Noor to think of her DNA as a starting point rather than a script.",
+      "In 1984, a British scientist realised that certain stretches of DNA differ so much between people that they can be used like a fingerprint. The method has since been used to identify criminals, to free people who were wrongly convicted, and to settle questions about who is related to whom. Except for identical twins, no two people share the same pattern, which is why even a tiny sample, such as a single hair root, can be so valuable.",
+      "Gene therapy aims to treat a disease at its source by giving a patient's cells a working copy of a gene that is faulty or missing. The first trials began around 1990, progress was slow and sometimes troubled by setbacks, but in recent years a number of therapies have been approved for certain rare inherited conditions. They are expensive and not suitable for everyone, yet they have already changed the lives of some patients.",
+      "CRISPR is the name of a tool, first shown to work as a gene editor in 2012, that can cut DNA at a chosen spot so that a gene can be switched off or corrected. Scientists adapted it from a defence system in bacteria, which store snippets of viral DNA and use them to recognise and cut up invading viruses. Compared with earlier methods it is quicker, cheaper and far more precise, which is why laboratories around the world adopted it so quickly.",
+      "In 2023, regulators in Britain and the United States approved the first medicine based on CRISPR, and it was designed to treat sickle cell disease. Doctors take blood-forming cells from the patient, edit them in the laboratory, and return them to the body, where they make healthier red blood cells. The treatment is complex and costly, and its long-term results are still being followed, but it marked a historic turning point.",
+      "Editing a patient's blood cells affects only that patient, but changing the DNA of an embryo would alter every cell and be passed to all of that person's descendants. For that reason, scientists and governments have raised hard questions about safety, fairness and consent, and most countries do not allow edited embryos to be used to start a pregnancy. Amara said that these decisions belong to society as a whole, and not to scientists alone.",
+      "In the early twentieth century, a movement called eugenics claimed that society could be improved by deciding who should and should not have children. Its supporters used poor science and plain prejudice, and it led to great suffering, including forced sterilisation in many countries and, under the Nazis in Germany, far worse. Amara said that this history is a lasting warning that genes must never be used to rank people or to judge anyone's worth.",
+      "To finish her project, Noor drew a family tree that stretched back to her great-grandparents and marked who had curls, who had green eyes and who had freckles. She could see traits appearing in one generation, skipping the next and then returning, just as the pea plants had shown more than a century and a half earlier. The tree no longer looked like a puzzle to her, but like a story told in many small pieces.",
+      "Amara said that people often call the genome a blueprint, but she preferred to think of it as a book of recipes. A blueprint fixes every detail in advance, whereas a recipe can turn out differently depending on the ingredients, the oven, the cook and the day. In the same way, a body is the result of genes being read and used in a particular environment, which is why no two people ever end up exactly alike.",
+      "By the end of the summer, Noor understood that her curls and her green eyes were gifts from many generations, shuffled together in a way that would never be repeated. She understood too that her genes were only the beginning of the story, because what she learned, chose and did would shape her just as surely. Remember that this book offers general information about genetics, and it is not medical advice, so anyone with questions about their own health should speak to a doctor or a genetic counsellor."
+    ]
+  }
+}

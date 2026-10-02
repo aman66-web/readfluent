@@ -473,6 +473,43 @@
   }
  },
  {
+  "slug": "the-runaway-prince",
+  "title": "The Runaway Prince",
+  "author": "Red, White & Royal Blue",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "Prince Felix is days from an arranged engagement, so he catches a night train and vanishes. In a lakeside bookshop he becomes plain Fen, a terrible shop assistant, until a festival of lanterns and a newspaper change everything.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The Runaway",
+    "Prince"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lamp",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "crown",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "a-study-in-scarlet",
   "title": "A Study in Scarlet",
   "author": "Arthur Conan Doyle",
@@ -843,6 +880,44 @@
   }
  },
  {
+  "slug": "the-counselor-s-last-session",
+  "title": "The Counselor's Last Session",
+  "author": "The Silent Patient",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "On her last day as a counselor, Marianne Cole hears one client finally speak about the night his sister died. Then he hands her a key and vanishes. Bound by her promise to keep secrets, she must decide how far to go to save him.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The",
+    "Counselor's",
+    "Last Session"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-wife-who-vanished",
   "title": "The Wife Who Vanished",
   "author": "Gone Girl",
@@ -872,6 +947,43 @@
     },
     {
      "id": "hourglass",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "murder-at-maple-court",
+  "title": "Murder at Maple Court",
+  "author": "The Thursday Murder Club",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "At Maple Court, four retired friends meet every Wednesday over cake to solve old crimes. When the owner who wanted to sell their beloved garden is found dead in the glasshouse, they get a real mystery, with a locked door and a lie about a train.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Murder at",
+    "Maple Court"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "leaf",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "key",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -1357,6 +1469,43 @@
     },
     {
      "id": "key",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "crowns-of-salt-and-ash",
+  "title": "Crowns of Salt and Ash",
+  "author": "A Game of Thrones",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "When King Edric dies, his will names no heir, only a test. His clever youngest daughter Sera sees that someone is forging letters to push the Salt Coast and the Ash Hills into war. Can a quiet reader of old books keep two crowns at peace?",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Crowns of",
+    "Salt and Ash"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "crown",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "scroll",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -2338,6 +2487,43 @@
     },
     {
      "id": "bolt",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "build-something-new",
+  "title": "Build Something New",
+  "author": "Zero to One",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Ravi watches good vegetables rot in the heat of the market and wonders why nobody has fixed it. This is the story of how he sets out to make something truly new, and a plain guide to choosing, starting and protecting an idea that matters.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Build",
+    "Something New"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "rocket",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sun",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -4062,6 +4248,44 @@
     },
     {
      "id": "apple",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "how-genes-shape-who-we-are",
+  "title": "How Genes Shape Who We Are",
+  "author": "The Gene",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Why does Noor have her grandmother's curls and her father's green eyes? Over one summer, her aunt Amara, a scientist, shows her the tiny instructions inside every cell, from peas and twins to gene editing, and what they can and cannot tell us.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "How Genes",
+    "Shape Who We",
+    "Are"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "dna",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "heart",
      "x": 160,
      "y": 38,
      "s": 0.36
