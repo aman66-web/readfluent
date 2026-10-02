@@ -1254,6 +1254,44 @@
   }
  },
  {
+  "slug": "neighbours-who-know-too-much",
+  "title": "Neighbours Who Know Too Much",
+  "author": "Big Little Lies",
+  "kind": "inspired",
+  "category": "crime",
+  "blurb": "Priya Nair moves into a quiet seaside street where one old man writes down everything his neighbours do. After the Midsummer party, he is found dead. Everyone had a secret, and everyone had a lantern. Who knew too much?",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Neighbours",
+    "Who Know Too",
+    "Much"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "candle",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lens",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-wonderful-wizard-of-oz",
   "title": "The Wonderful Wizard of Oz",
   "author": "L. Frank Baum",
@@ -2522,6 +2560,44 @@
     },
     {
      "id": "lamp",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "how-to-get-along-with-anyone",
+  "title": "How to Get Along With Anyone",
+  "author": "How to Win Friends and Influence People",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Nora has a new job, a grumpy baker and a big wish to be liked. Over one year she learns the small, practical skills of listening, kindness, honest talk and calm disagreement. They will help you get along with almost anyone.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "How to Get",
+    "Along With",
+    "Anyone"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "handshake",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "heart",
      "x": 160,
      "y": 38,
      "s": 0.36
@@ -3801,6 +3877,39 @@
   }
  },
  {
+  "slug": "the-last-lessons-of-a-teacher",
+  "title": "The Last Lessons of a Teacher",
+  "author": "Tuesdays with Morrie",
+  "kind": "inspired",
+  "category": "religion-spirituality",
+  "blurb": "When her old schoolteacher writes that she is dying, busy Priya begins to visit her every Saturday morning. Over tea beneath a pear tree, Miss Brandt gives her last lessons on attention, apology, joy, letting go and how to live well.",
+  "cover": {
+   "bg": "#F3EDE3",
+   "light": true,
+   "title": [
+    "The Last",
+    "Lessons of a",
+    "Teacher"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "tree",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "feather",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "walking",
   "title": "Walking",
   "author": "Henry David Thoreau",
@@ -4954,6 +5063,43 @@
   }
  },
  {
+  "slug": "thirty-days-to-world-war",
+  "title": "Thirty Days to World War",
+  "author": "The Guns of August",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "A murder in Sarajevo, a promise from Berlin and a deadline for Serbia: follow the thirty days in 1914 when ministers, kings and generals, mostly not wanting war, took step after step into one. A clear story of how Europe slipped.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Thirty Days",
+    "to World War"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "train",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "envelope",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "on-the-origin-of-species",
   "title": "On the Origin of Species",
   "author": "Charles Darwin",
@@ -5496,6 +5642,44 @@
     },
     {
      "id": "question",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "physics-one-idea-at-a-time",
+  "title": "Physics, One Idea at a Time",
+  "author": "Seven Brief Lessons on Physics",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Why does a ball fall, a kettle boil, a rainbow shine? Take physics one idea at a time, from motion and energy to atoms, light, bent space and the biggest puzzles nobody has solved. No mathematics needed, only curiosity.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Physics, One",
+    "Idea at a",
+    "Time"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "bolt",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "orbit",
      "x": 160,
      "y": 38,
      "s": 0.36

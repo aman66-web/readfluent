@@ -1,0 +1,417 @@
+{
+  "slug": "physics-one-idea-at-a-time",
+  "meta": {
+    "blurb": "Why does a ball fall, a kettle boil, a rainbow shine? Take physics one idea at a time, from motion and energy to atoms, light, bent space and the biggest puzzles nobody has solved. No mathematics needed, only curiosity.",
+    "bible": "Voice: calm, friendly and clear, speaking to You, using everyday things such as a Ball, a Kettle and a Swing; the science is real and honest about what is not yet known, with no invented numbers. Galileo: Italian scientist who argued that heavy and light things fall together once the air is gone. Isaac Newton: English scientist of the seventeenth century, laws of motion and gravity. Archimedes: ancient Greek scientist, levers and floating. Michael Faraday and James Clerk Maxwell: nineteenth century scientists of electricity and magnetism. Ernest Rutherford: showed the atom has a Nucleus. Albert Einstein: Relativity in 1905 and 1915. Werner Heisenberg: Uncertainty. Apollo: Moon missions; in 1971 an astronaut dropped a Hammer and a Feather on the Moon. CERN: laboratory near Geneva; the Higgs particle was found in 2012. Key terms: Metre, Kilometre, Newton, Friction, Gravity, Orbit, Mass, Weight, Energy, Kinetic, Potential, Entropy, Pressure, Conduction, Convection, Radiation, Frequency, Pitch, Prism, Refraction, Electron, Proton, Neutron, Nucleus, Photon, Quanta, Quantum, Quarks, Hydrogen, Helium, Fusion, Fission, Generator, Turbine, Magnetic, Electromagnetic, Galaxy, Galaxies, Celsius, Cannonball, Snowshoe, Spectacles, Telescopes, Microscopes, Hammer, Feather, Kettle, Puck, Trolley, Lever, Pulleys, Gears, Ratio, Spectrum, Stars. Facts: light travels about 300,000 kilometres a second; sound in air about 340 metres a second; the Moon's gravity is about one sixth of the Earth's; the Sun's core is about fifteen million degrees Celsius; the universe is close to fourteen billion years old; ordinary matter is about five percent of the universe."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A boy throws a ball outside while a kettle steams in the kitchen",
+      "summary": "Physics asks simple questions about everyday things, such as a thrown ball and a hot drink."
+    },
+    {
+      "n": 2,
+      "scene": "A girl measures a table with a tape and checks a stopwatch",
+      "summary": "Physics starts with careful measuring, using shared units such as the metre and the second."
+    },
+    {
+      "n": 3,
+      "scene": "A cyclist, a walker and a car on a country road",
+      "summary": "Speed is the distance something travels divided by the time it takes."
+    },
+    {
+      "n": 4,
+      "scene": "A passenger is pressed back into a car seat as the car pulls away",
+      "summary": "Acceleration is a change in speed or direction, and we feel it in our bodies."
+    },
+    {
+      "n": 5,
+      "scene": "An astronaut drops a hammer and a feather on the grey Moon",
+      "summary": "Without air, heavy and light things fall at the same rate, as Galileo reasoned and a Moon experiment showed."
+    },
+    {
+      "n": 6,
+      "scene": "A puck slides across a smooth frozen lake with nobody near it",
+      "summary": "Newton's first law: a moving object keeps going in a straight line unless a force stops it."
+    },
+    {
+      "n": 7,
+      "scene": "A girl pushes an empty trolley, then a full one, across a shop floor",
+      "summary": "Newton's second law: a bigger force gives more acceleration, and more mass gives less."
+    },
+    {
+      "n": 8,
+      "scene": "A swimmer pushes the water backwards with her hands and glides forwards",
+      "summary": "Newton's third law: forces come in pairs, and a push is always matched by an equal push back."
+    },
+    {
+      "n": 9,
+      "scene": "A boy slides a box across a rough floor until it stops",
+      "summary": "Friction is the rubbing force that slows moving things on Earth, and we need it."
+    },
+    {
+      "n": 10,
+      "scene": "A man sits under an apple tree while the pale Moon rises behind it",
+      "summary": "Newton realised that the force that pulls an apple down also holds the Moon, and every object pulls on every other."
+    },
+    {
+      "n": 11,
+      "scene": "A cannon on a mountain fires a ball that curves around a small Earth",
+      "summary": "An orbit is a fall that never reaches the ground, because the object keeps missing the planet."
+    },
+    {
+      "n": 12,
+      "scene": "A girl on the Moon holds a bag of apples that feels light",
+      "summary": "Mass is the amount of matter and stays the same; weight is the pull of gravity and changes with the place."
+    },
+    {
+      "n": 13,
+      "scene": "A sunlit kitchen with a boiling pot, a bicycle and a lit lamp",
+      "summary": "Energy is the ability to make change happen, and it comes in many forms."
+    },
+    {
+      "n": 14,
+      "scene": "A child on a swing at the highest point of its arc",
+      "summary": "On a swing, stored energy of height and energy of motion keep changing places."
+    },
+    {
+      "n": 15,
+      "scene": "A roller coaster train at the top of a hill above a valley",
+      "summary": "Energy is never created or destroyed; it changes form, and some always spreads out as heat."
+    },
+    {
+      "n": 16,
+      "scene": "A boy lifts a heavy stone using a long plank resting on a log",
+      "summary": "A lever trades a small push over a long distance for a big push over a short one, and saves no energy."
+    },
+    {
+      "n": 17,
+      "scene": "A knife cutting bread beside a boot in snow and a wide snowshoe",
+      "summary": "Pressure is force divided by area, which is why a sharp knife cuts and a snowshoe stays on top of snow."
+    },
+    {
+      "n": 18,
+      "scene": "A huge steel ship floats in a harbour beside a stone sinking in water",
+      "summary": "A floating object pushes water aside and is pushed up by a force equal to the weight of that water."
+    },
+    {
+      "n": 19,
+      "scene": "A girl sips juice through a straw on a hilltop under a thin cloud",
+      "summary": "The weight of the air presses on everything, and the pressure is lower high on a mountain."
+    },
+    {
+      "n": 20,
+      "scene": "A steaming mug of tea beside a mug of cold water",
+      "summary": "Temperature measures how fast the tiny particles in a material are moving on average."
+    },
+    {
+      "n": 21,
+      "scene": "An ice cube, a pan of water and rising steam on a stove",
+      "summary": "Solid, liquid and gas are the same particles with different amounts of energy."
+    },
+    {
+      "n": 22,
+      "scene": "A metal spoon warms in soup beside a sunny window and a radiator",
+      "summary": "Heat travels by conduction through materials, by convection in moving fluids and by radiation across space."
+    },
+    {
+      "n": 23,
+      "scene": "A cup of coffee cooling on a table as its steam fades",
+      "summary": "Heat flows from hot to cold, and energy tends to spread out, which physicists measure as entropy."
+    },
+    {
+      "n": 24,
+      "scene": "Ripples spread across a pond from a pebble, with a leaf floating nearby",
+      "summary": "A wave carries energy from place to place without carrying the material it moves through."
+    },
+    {
+      "n": 25,
+      "scene": "A girl plucks a guitar string while a boy rests a hand on it",
+      "summary": "Sound is a vibration that travels through air, at about 340 metres a second, and cannot cross empty space."
+    },
+    {
+      "n": 26,
+      "scene": "A short thin string and a long thick string beside a large drum",
+      "summary": "Pitch depends on how fast a sound vibrates, and loudness on how much energy the wave carries."
+    },
+    {
+      "n": 27,
+      "scene": "Sunlight streams through a window across a dusty room",
+      "summary": "Light is extremely fast, about 300,000 kilometres a second, and reaches us from the Sun in a little over eight minutes."
+    },
+    {
+      "n": 28,
+      "scene": "A rainbow arches over a green hillside after a shower",
+      "summary": "White sunlight is a mixture of colours, and raindrops bend each colour differently to make a rainbow."
+    },
+    {
+      "n": 29,
+      "scene": "A spoon looks bent in a glass of water beside a magnifying glass",
+      "summary": "Light bends when it passes between materials, which is refraction, and curved glass makes lenses."
+    },
+    {
+      "n": 30,
+      "scene": "A girl rubs a balloon on her hair and the hair lifts",
+      "summary": "Matter carries positive and negative charge; opposite charges attract and like charges repel."
+    },
+    {
+      "n": 31,
+      "scene": "A battery, a wire and a small bulb glowing on a table",
+      "summary": "An electric current is a flow of charge around a closed loop, pushed by a battery."
+    },
+    {
+      "n": 32,
+      "scene": "A compass needle points north above a map and a small magnet",
+      "summary": "Magnets have two poles, like poles repel, and the Earth acts as a giant magnet."
+    },
+    {
+      "n": 33,
+      "scene": "A wind turbine turns above fields beside power lines",
+      "summary": "A moving magnet makes an electric current, which is how generators produce most of our electricity."
+    },
+    {
+      "n": 34,
+      "scene": "A radio tower, a microwave oven and a sunny window side by side",
+      "summary": "Light is an electromagnetic wave, and radio, microwaves and X-rays are the same kind of wave with other lengths."
+    },
+    {
+      "n": 35,
+      "scene": "A single human hair on a table beside a magnifying glass",
+      "summary": "Everything is made of atoms, fewer than a hundred natural kinds, each far too small to see."
+    },
+    {
+      "n": 36,
+      "scene": "A faint cloud of dots surrounds a tiny bright core in the middle",
+      "summary": "An atom has a tiny dense nucleus of protons and neutrons with electrons around it, and is mostly empty space."
+    },
+    {
+      "n": 37,
+      "scene": "The bright Sun in a blue sky above a calm sea",
+      "summary": "The Sun shines by fusing hydrogen into helium; power stations on Earth split heavy nuclei instead."
+    },
+    {
+      "n": 38,
+      "scene": "A silver train rushes past a station platform with a clock on the wall",
+      "summary": "Special relativity: everyone measures the same speed for light, and moving clocks tick more slowly."
+    },
+    {
+      "n": 39,
+      "scene": "A single pebble on a table with a bright sunbeam above it",
+      "summary": "Mass is a form of energy, so a tiny amount of mass equals a huge amount of energy."
+    },
+    {
+      "n": 40,
+      "scene": "A heavy ball sinks into a stretched sheet while a marble curves around it",
+      "summary": "General relativity: gravity is the bending of space and time, and planets follow the curved paths."
+    },
+    {
+      "n": 41,
+      "scene": "A dark round shadow ringed by glowing gas in a starry sky",
+      "summary": "A black hole is a region where gravity is so strong that not even light can escape."
+    },
+    {
+      "n": 42,
+      "scene": "A ball rolls down a smooth slope beside a staircase of single steps",
+      "summary": "Quantum theory began with the discovery that energy comes in separate packets, and light arrives as photons."
+    },
+    {
+      "n": 43,
+      "scene": "A beam of light passes through two narrow slits onto a striped screen",
+      "summary": "Electrons and light act sometimes like waves and sometimes like particles, and neither picture is complete."
+    },
+    {
+      "n": 44,
+      "scene": "A foggy night sky with a faint blurred dot of light in the middle",
+      "summary": "Quantum theory predicts chances rather than certainties, and the exact meaning of those chances is still debated."
+    },
+    {
+      "n": 45,
+      "scene": "A huge circular tunnel under farmland beside a giant glowing detector",
+      "summary": "Protons and neutrons are made of quarks, and the Standard Model lists the basic particles and forces."
+    },
+    {
+      "n": 46,
+      "scene": "Hundreds of galaxies glow in dark space seen through a big telescope",
+      "summary": "Distant galaxies are moving apart, because space itself is stretching, and the universe began close to fourteen billion years ago."
+    },
+    {
+      "n": 47,
+      "scene": "A spiral galaxy glows in a dark sky with a faint haze around it",
+      "summary": "Ordinary matter is only about five percent of the universe; dark matter and dark energy are names for unsolved puzzles."
+    },
+    {
+      "n": 48,
+      "scene": "Two puzzle pieces, one tiny and one huge, that do not fit together",
+      "summary": "General relativity and quantum theory both work well but do not yet fit into one theory of gravity."
+    },
+    {
+      "n": 49,
+      "scene": "A scientist writes results in a notebook beside a laboratory experiment",
+      "summary": "Physics works by testing: a theory must predict something an experiment could disprove, and good theories survive many tests."
+    },
+    {
+      "n": 50,
+      "scene": "A girl on a hill at dusk tosses a ball beneath the first stars",
+      "summary": "A few ideas, patiently tested, connect a thrown ball to the stars, and many questions remain open."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Physics asks simple questions about the things you see every day.",
+      "Physics starts with measuring, using numbers like metres and seconds.",
+      "Speed tells you how far something goes in a certain time.",
+      "When a car speeds up quickly, it pushes you back in your seat.",
+      "On the Moon, a hammer and a feather fall together.",
+      "A moving thing keeps moving unless something stops it.",
+      "A bigger push makes a thing speed up more quickly.",
+      "When you push on something, it pushes back on you.",
+      "Friction is the rubbing force that slows a sliding box.",
+      "Gravity is the pull that makes an apple fall to the ground.",
+      "The Moon is always falling, but it never hits the Earth.",
+      "On the Moon, you would weigh much less than here.",
+      "Energy is what makes things move, get hot or shine.",
+      "At the top of the swing, you stop for a moment.",
+      "Energy is never lost, but it can change into another kind.",
+      "A long stick helps you lift a heavy stone.",
+      "A sharp knife cuts well because it presses on a tiny spot.",
+      "A huge steel ship can float because it pushes water aside.",
+      "The air around you is heavy, and it presses on you.",
+      "Hot things have tiny parts that move very fast.",
+      "Ice, water and steam are all the same stuff.",
+      "Heat can travel through metal, through air and through empty space.",
+      "A hot cup of coffee always gets cold and never hotter.",
+      "A wave moves across the water, but the water stays.",
+      "Sound is a shaking that travels through the air to your ears.",
+      "Fast shaking makes a high note, and big shaking is loud.",
+      "Light is very fast, faster than anything else we know.",
+      "A rainbow shows the many colours hidden in sunlight.",
+      "A spoon in a glass of water looks bent.",
+      "A rubbed balloon can pick up small pieces of paper.",
+      "A battery pushes electricity around a loop and lights the bulb.",
+      "A compass needle always points to the north.",
+      "Moving magnets can make power, and power can make magnets.",
+      "Radio, light and X-rays are all the same kind of wave.",
+      "Everything around you is made of very small things called atoms.",
+      "An atom is mostly empty, with a tiny centre in the middle.",
+      "The Sun shines by joining small atoms together deep inside.",
+      "Nothing can go faster than light, not even the fastest rocket.",
+      "A tiny bit of matter holds a huge amount of energy.",
+      "Einstein said that heavy things bend space and time.",
+      "A black hole pulls so strongly that even light cannot escape.",
+      "In the tiny world, energy comes in small steps, not smoothly.",
+      "Tiny things like light can act like waves and like particles.",
+      "For tiny things, we can only say what is likely to happen.",
+      "Scientists use giant machines to look at the smallest parts of matter.",
+      "Far away galaxies are moving farther from us all the time.",
+      "Most of the universe is made of things we cannot see.",
+      "Physics has two great theories, and they do not fit together yet.",
+      "A good idea in physics must pass tests, again and again.",
+      "Now you know how a ball flies and why stars shine."
+    ],
+    "B1B2": [
+      "Why does a ball fall down, and why does a hot drink get cold? Physics is the science that looks for simple answers to questions like these.",
+      "Before you can explain something, you have to measure it carefully. Physicists use units such as the metre for length and the second for time, so that everyone gets the same answer.",
+      "If a car travels sixty kilometres in one hour, its speed is sixty kilometres an hour. To find a speed, you simply divide the distance by the time.",
+      "Acceleration means a change in speed, and it can mean slowing down as well as speeding up. That is why you feel pressed into your seat when a car pulls away quickly.",
+      "Long ago, Galileo argued that heavy and light things fall at the same rate once the air is out of the way. In 1971 an astronaut on the Moon dropped a hammer and a feather at the same moment, and they landed together.",
+      "A puck on smooth ice slides a long way, because very little slows it down. Newton saw that a moving object would go on for ever in a straight line if nothing stopped it.",
+      "A force is a push or a pull, and you use forces all day long. The harder you push something, the faster it speeds up, and the heavier it is, the harder you must push.",
+      "Newton also noticed that forces always come in pairs, never alone. A swimmer pushes the water backwards, and the water pushes the swimmer forwards with the same strength.",
+      "On Earth, things stop moving because of friction, a force that appears wherever two surfaces rub together. Without it you could not walk, because your shoes would slide like skates on ice.",
+      "Newton wondered whether the force that pulls an apple down might also reach as far as the Moon. His answer was yes: it is the same force, called gravity, and it pulls every object in the universe toward every other.",
+      "Imagine firing a cannonball very fast from a tall mountain. If it moved fast enough, the ground would curve away as quickly as the ball fell, and it would circle the Earth.",
+      "Your mass is the amount of matter in your body, and it is the same everywhere. Your weight is the pull of gravity on that mass, so on the Moon, where gravity is weaker, you would weigh about six times less.",
+      "Energy is one of the most useful ideas in physics. It is the ability to make something happen, such as moving a bicycle, heating a pot or lighting a lamp.",
+      "A swing shows two kinds of energy trading places. At the top the child holds stored energy, and at the bottom she moves fastest, because that energy has become motion.",
+      "One of the firmest rules in physics is that energy is never created or destroyed. It only changes from one form to another, and a little of it always spreads out as heat.",
+      "A lever lets a small push move a big load, as long as you push through a longer distance. You gain no extra energy, because you only trade a gentle push over a long way for a hard push over a short way.",
+      "Pressure is the force pressing on each small piece of a surface. A sharp knife puts its whole force onto a thin edge, while a wide snowshoe spreads your weight so that you do not sink.",
+      "Anything in water pushes some of the water out of the way, and the water pushes back upwards. If that upward push equals the object's weight, the object floats, which is why a huge steel ship stays on the surface.",
+      "Air has weight, and the whole sky above you presses down on your body. You do not feel it, because the fluids inside you push outwards with the same strength.",
+      "Everything is made of tiny particles that are always moving. Temperature tells us how fast they move on average, so a cup of hot tea has faster particles than a cup of cold water.",
+      "In a solid, particles are packed tightly and can only wobble in place. Heat the ice and they shake harder until they slide past each other as a liquid, and then fly freely as a gas.",
+      "Heat can travel from one place to another in three different ways. It creeps along a metal spoon, it rises in warm air above a radiator, and it crosses empty space as light from the Sun.",
+      "Left alone, a hot drink cools down and the room warms by a tiny amount. We never see it happen the other way round, with a cold cup heating itself from the room.",
+      "Drop a stone into a pond and ripples spread out from the spot. A leaf floating there only bobs up and down, because a wave carries energy along without carrying the water.",
+      "When a guitar string moves back and forth, it pushes the air around it into waves. In air, sound travels about three hundred and forty metres every second, and it cannot travel through empty space at all.",
+      "The pitch of a note depends on how many times each second the air shakes. Fast shaking makes a high note, and a bigger shaking, with more energy, makes a louder one.",
+      "Light travels at about three hundred thousand kilometres every second. Even so, it takes a little more than eight minutes for sunlight to reach us from the Sun.",
+      "Sunlight looks white, but it is really a mixture of all the colours. When it passes through raindrops, each colour bends by a slightly different amount, and the drops spread them into a rainbow.",
+      "Light changes direction when it passes from air into water or glass, and this is called refraction. It is why a spoon in a glass looks bent, and why a curved lens can make small things look big.",
+      "Matter carries a property called electric charge, which can be positive or negative. Opposite charges attract each other, and similar charges push each other away, which is why a rubbed balloon can lift your hair.",
+      "An electric current is a flow of charge, usually through a wire. A battery pushes the charge around a complete loop, and the energy it carries is turned into light in the bulb.",
+      "A magnet has two ends, called poles, and unlike poles pull toward each other. The Earth is a giant magnet too, which is why a compass needle swings round and points north.",
+      "In the nineteenth century, scientists found that electricity and magnetism are two sides of one force. A magnet moving near a coil of wire pushes a current through it, and this is how most power stations make electricity.",
+      "Maxwell's mathematics showed that light itself is a wave of electricity and magnetism. Radio waves, microwaves and X-rays are the same kind of wave, and they differ only in their length.",
+      "All matter is built from atoms, and there are only about ninety kinds that occur in nature. Atoms are so small that hundreds of thousands of them would fit side by side across the width of one hair.",
+      "At the centre of an atom is a tiny nucleus made of protons and neutrons. Much lighter electrons form a cloud around it, and most of the atom is empty space.",
+      "Deep inside the Sun, hydrogen nuclei are squeezed together until they join to make helium. This fusion releases huge amounts of energy, while nuclear power stations on Earth split heavy nuclei apart instead.",
+      "Einstein discovered that everyone measures the same speed for light, however fast they themselves are moving. One strange result is that moving clocks tick more slowly, but at everyday speeds the change is far too small to notice.",
+      "Einstein's most famous equation says that mass is a very concentrated form of energy. Because the speed of light is so huge, even a tiny amount of mass equals a very large amount of energy.",
+      "In 1915 Einstein suggested that gravity is not really a pull at all. Heavy objects bend space and time around them, and other objects simply follow the curved paths.",
+      "If a huge star runs out of fuel, it can collapse into a black hole. Its gravity is so strong that even light cannot escape once it comes close enough.",
+      "In the world of very small things, energy comes in separate packets called quanta. Light itself arrives in packets called photons, and each one carries a fixed amount of energy.",
+      "Electrons and light sometimes behave like waves and sometimes like tiny particles. In a famous experiment, single electrons sent through two narrow slits slowly build up a pattern of stripes, just as waves would.",
+      "Quantum theory cannot tell us exactly where a single electron will appear. It can only give the chances, and when the experiment is repeated many times, those chances are matched with great accuracy.",
+      "Protons and neutrons are made of even smaller particles called quarks. Physicists call their best picture of the basic particles and forces the Standard Model, and it has passed test after test.",
+      "In the 1920s astronomers found that distant galaxies are moving away from us. The farther away a galaxy is, the faster it goes, which means that space itself is stretching.",
+      "Stars and planets make up only about five percent of the universe. The rest is called dark matter and dark energy, names that really mean that we do not yet know what they are.",
+      "General relativity describes the very large, and quantum theory describes the very small. Both work wonderfully, but nobody has yet found a single theory that joins them.",
+      "A theory in physics is never accepted just because it sounds clever. It must predict something new, and experiments must agree with it, or it has to be changed.",
+      "You began with a ball and a hot cup of tea, and you have ended among galaxies and atoms. The same few ideas, patiently tested, connect them all, and there is much left to discover."
+    ],
+    "C1C2": [
+      "Physics begins with ordinary wonder: why a thrown ball comes down, why a kettle boils, why the sky glows at the end of the day. Its great surprise is that a handful of ideas, pursued patiently, can explain an astonishing share of what happens. This book takes those ideas one at a time, starting with the simplest and ending at the edge of what nobody yet understands.",
+      "A physicist's first habit is to measure, because a vague impression can be argued about forever while a number can be checked by anyone. Lengths are counted in metres, time in seconds and weight in units agreed across the whole world, so that a result found in one laboratory can be tested in another. That shared language of numbers is what turns simple curiosity into a science that anyone can check.",
+      "Speed is the simplest idea in the study of motion: it is the distance something covers divided by the time it takes. A cyclist who rides thirty kilometres in two hours has averaged fifteen kilometres an hour, even if she crawled up the hills and flew down the other side. Averages hide the details of the journey, which is why physicists also care about how speed changes from moment to moment.",
+      "Acceleration is the rate at which speed changes, and because direction matters too, turning a corner at a steady speed is acceleration as well. You feel it in your body: pressed into the seat as a car pulls away, thrown sideways when it takes a bend, lurching forward when it brakes. In every case it is the change, and not the motion itself, that you can feel.",
+      "It seems obvious that heavy things fall faster, and for centuries many people believed it, but the Italian scientist Galileo reasoned that the air, not the weight, was fooling us. On the Moon, where there is no air, an astronaut in 1971 dropped a hammer and a feather together and they struck the dust at the same instant. Gravity speeds up every object at the same rate, whatever it weighs, and only the air makes a feather float.",
+      "Slide a puck across a frozen lake and it glides a surprisingly long way, because there is almost nothing to hold it back. Isaac Newton turned that observation into a law: an object stays still or keeps moving in a straight line at the same speed unless a force acts on it. In other words, it is stopping and turning, and not moving itself, that always needs a cause.",
+      "Newton's second law is easy to feel in a shop: an empty trolley leaps forward at a touch, while a full one barely stirs until you lean into it. The acceleration an object gets depends on two things, the size of the push and the amount of matter being pushed. Double the force and the acceleration doubles; double the mass and it is cut in half.",
+      "Forces never act alone: whenever one object pushes on another, the second pushes back on the first with exactly the same strength, in exactly the opposite direction. A swimmer drives the water backwards and is carried forwards; a rocket throws hot gas downwards and rises on the push. It works in empty space as well, because the rocket needs no air to push against, only the gas it has just thrown away.",
+      "Everything we see in daily life seems to contradict Newton's first law, because a rolling ball always slows down and stops. The culprit is friction, a force that appears wherever two surfaces touch and rub, turning movement into a little heat. We should be grateful for it, since without friction our shoes would slip, our car tyres would spin uselessly and every knot would come undone.",
+      "Newton's great leap was to ask whether the pull that brings an apple to the ground might reach all the way to the Moon. He concluded that it does, and that the same law governs both: every piece of matter attracts every other, more strongly when the pieces are heavier and more weakly as they move farther apart. With that single idea, the fall of an apple and the path of a planet became two examples of one rule.",
+      "An orbit is really a fall that never reaches the ground, because the thing that is falling keeps missing. Fire a cannonball sideways from a high mountain and it curves down to earth; fire it faster and it lands farther away; fire it fast enough and the ground curves away beneath it as quickly as it drops. That is how the Moon and every satellite stays up: not by escaping gravity, but by falling around the planet again and again.",
+      "People often use the words mass and weight as if they meant the same, yet physicists keep them apart. Mass is the amount of matter in an object and does not change wherever you go, whereas weight is the pull of gravity on that matter and does. Standing on the Moon, where gravity is about one sixth as strong as on Earth, you would feel six times lighter, though you would still contain exactly the same amount of you.",
+      "Few ideas in physics are as useful, or as hard to pin down, as energy. It is not a substance you can hold but a quantity we can calculate, a measure of how much change a system is able to bring about, whether in a moving bicycle or a pot of soup. It comes in many forms, and the forms can be turned into one another.",
+      "Watch a child on a swing and you can see energy changing its form twice in every single swing. At the highest point she is briefly still but full of potential energy, the stored energy of height; at the lowest point she moves fastest, and that store has become kinetic energy, the energy of motion. Then, as she climbs the other side, the whole change runs smoothly in the opposite direction.",
+      "Among all the laws of physics, the conservation of energy is one of the most trusted: in any closed system, the total amount stays exactly the same. A roller coaster at the top of its first hill holds the energy that will carry it round the whole track, and every thrill along the way is that energy changing form. When the ride ends, none has vanished; it has spread into warm brakes, warm rails and a little warmed air.",
+      "Since the time of Archimedes, people have known that a long lever can lift a load that no arm could move alone. The secret is a trade rather than a gift: you push with a small force through a large distance, and the load rises a small distance with a large force. Ramps, pulleys, gears and a pair of scissors all work on that bargain, and in each of them the energy you spend equals the energy you deliver.",
+      "Pressure is force divided by the area it presses on, and that simple ratio explains a surprising number of everyday things. A knife cuts because all of your push is squeezed onto an edge almost too thin to see, whereas a snowshoe keeps you on top of the snow by spreading the same weight over a much wider patch. The same body can press gently or fiercely, depending only on the size of the foot it stands on.",
+      "Archimedes is said to have seen the answer to floating while he sat in a bath, though the story may well be a legend. What he understood is that a body in water is pushed upwards by a force equal to the weight of the water it moves aside. A steel ship floats because its hollow shape pushes aside a vast amount of water, whereas a lump of the same steel pushes aside too little and sinks.",
+      "We live at the bottom of an ocean of air, and its weight presses on every surface with a force of roughly ten tonnes on each square metre. We do not feel the crush because the liquids and gases inside our bodies press outwards with almost exactly the same force. Climb a high mountain, where there is less air above you, and the pressure falls so far that breathing becomes hard work.",
+      "Every material is made of particles in ceaseless, jostling motion, and temperature is simply a measure of how energetic that motion is on average. In a cup of hot tea the particles dart and collide violently; in a glass of cold water they shuffle far more slowly. Heat, strictly speaking, is the energy that flows from the faster crowd to the slower one.",
+      "Ice, water and steam are one substance in three costumes, and what separates them is how much energy the particles carry. In ice they are locked in a rigid pattern and can only tremble; in liquid water they tumble past one another while staying close; in steam they fly apart and fill whatever space they are given. Heat the ice and you are simply handing the particles enough energy to break free of one arrangement and enter the next.",
+      "Heat moves in three ways, and you meet all of them in an ordinary kitchen. A spoon left in a hot pot warms up as energy passes from particle to particle along the metal, and the air above a radiator rises and carries its warmth with it. The Sun, meanwhile, warms your face across about a hundred and fifty million kilometres of empty space; these three ways are called conduction, convection and radiation.",
+      "Nothing in the laws of motion forbids a cooling cup of coffee from drawing heat back out of the room and warming itself, yet nobody has ever seen it happen. The reason is a matter of numbers: energy has countless ways of spreading out and very few ways of staying gathered together, so spreading is overwhelmingly the likely direction. Physicists measure this tendency with a quantity called entropy, which in a closed system rises over time.",
+      "A wave is a disturbance that travels, and what it carries is energy, not material. Drop a pebble into a still pond and rings spread outwards, yet a leaf floating nearby only bobs up and down and stays almost where it was. Ocean swells, sound, light and the shaking of an earthquake are all waves, and they obey many of the same rules.",
+      "A plucked guitar string vibrates, and each swing squeezes the air beside it a little and then lets it expand again, sending a ripple of pressure outwards through the room. That ripple reaches your ear, shakes the eardrum and is turned by the brain into music. In air, sound moves at about three hundred and forty metres a second, and because it needs something to shake, it cannot cross a vacuum.",
+      "Two things define a musical sound: its pitch and its loudness, and they are quite independent of each other. Pitch depends on frequency, the number of vibrations each second, so a short, tight string squeaks high while a long, heavy one growls low. Loudness depends on the size of the vibrations, which is to say on how much energy the wave carries, and our ears can follow roughly twenty thousand vibrations a second at best.",
+      "Nothing known moves faster than light, which travels about three hundred thousand kilometres in a single second, fast enough to circle the Earth about seven times in that time. Even at that speed, the light that warms your face has been travelling for a little over eight minutes, so you are always seeing the Sun as it was a moment ago. Light from other stars has been on the road for years, centuries or far longer.",
+      "Sunlight appears plain white, yet it is a blend of every colour, each one a wave with its own length. When it enters a raindrop, bounces off the back and leaves again, the colours bend by slightly different amounts, and the drop fans them out into the arc we call a rainbow. The same trick works with a glass prism, and it was one of the first ways that people learned what light is made of.",
+      "Light travels more slowly in water and glass than in air, so when a beam crosses the surface at an angle it bends, a change of direction known as refraction. That bending makes a straw look broken at the waterline, and when glass is shaped into a curve it becomes a lens that can gather light into a sharp image. Telescopes, microscopes, spectacles and the lenses of your own eyes all depend on it.",
+      "Rub a balloon on your hair and something passes from one to the other: a few of the tiny electrons that carry negative charge move across, leaving the balloon negative and the hair positive. Opposite charges attract and like charges repel, so the hair rises toward the balloon as though it were reaching for it. The force is strong, and it is far stronger than gravity, which is why the electric pull of a small balloon can beat the pull of the whole Earth on a scrap of paper.",
+      "An electric current is a stream of charged particles, usually electrons, drifting through a wire, and a battery acts as the pump that keeps them moving around a closed loop. Break the loop at any point and the flow stops at once everywhere, which is exactly what a switch does. The electrons themselves move slowly, but the energy they carry reaches the bulb almost instantly, and there it is turned into light and heat.",
+      "Every magnet has two poles, and the rule is simple: the same poles push each other away, while opposite poles pull together. The Earth itself behaves as an enormous magnet, produced by the slow movement of liquid metal deep inside it, and a compass needle simply lines up with its field. For centuries that small floating needle guided sailors across oceans with no landmark in sight.",
+      "In the nineteenth century experimenters discovered that electricity and magnetism are tied together: a moving charge makes a magnetic field, and a changing magnetic field pushes charges along a wire. The second effect is how almost all of our electricity is made, because a turbine spun by steam, water or wind turns magnets past coils of wire inside a generator. A few lines of mathematics by James Clerk Maxwell then showed that the two forces could travel through space together as a wave.",
+      "Light, it turned out, is an electromagnetic wave, and the colours we see are only a narrow strip of a much wider family. Radio waves, which can be as long as a building, and X-rays, some of which are as short as an atom, are the same kind of thing as a rainbow, differing only in wavelength. Everything from your phone signal to the warmth of a fire reaches you on one of these waves, travelling at the speed of light.",
+      "Everything you can touch, from water to wood to the page in front of you, is built from atoms, and fewer than a hundred kinds of them occur naturally. They are so small that several hundred thousand would fit side by side across the width of a single hair, and a single drop of water contains more than a billion billion of them. Each kind of atom is a chemical element, and the different ways of joining them make up the whole variety of the world.",
+      "Ernest Rutherford's experiments showed that an atom is nearly all empty space, with a dense nucleus at its centre, about a hundred thousand times smaller than the atom itself. The nucleus is built from positive protons and neutral neutrons, and a cloud of far lighter electrons surrounds it. If an atom were the size of a cathedral, the nucleus would be about the size of a grain of sand, and yet it would hold almost all of the mass.",
+      "Inside the Sun's core, where the temperature is about fifteen million degrees Celsius, hydrogen nuclei are crushed together so hard that they fuse into helium, and a little of their mass is turned into energy. This fusion has kept the Sun shining for about four and a half billion years and will go on for billions more. Nuclear power stations on Earth work in the opposite way, splitting very heavy nuclei and collecting the heat that is released.",
+      "In 1905 Albert Einstein followed one odd fact to its conclusion: every observer who measures the speed of light gets the same answer, no matter how fast the observer is moving. For that to be true, space and time cannot be fixed; a moving clock must tick more slowly, and the faster it goes the more slowly it ticks. At walking pace the effect is hopelessly small, but for fast particles in an accelerator it has been measured again and again.",
+      "Out of the same theory came the most famous equation in science, which says that energy equals mass multiplied by the speed of light squared. Since that speed is enormous, and squaring it makes it larger still, even a tiny amount of mass corresponds to an immense amount of energy. It is part of the reason the Sun can shine for billions of years, and the reason a nuclear power station needs only a small amount of fuel.",
+      "Ten years after his first theory, Einstein proposed that gravity is not a force pulling across space but a bending of space and time themselves. A heavy body such as the Sun curves the space around it, and a planet moving past is not tugged but simply follows the straightest path that the curved space allows. In 1919, during an eclipse, astronomers saw that starlight passing close to the Sun was bent by roughly the amount his theory predicted.",
+      "When a very massive star exhausts its fuel and collapses, it can leave behind a black hole, a region where gravity is so intense that nothing, not even light, can escape once it has crossed the edge. Because no light comes out, we cannot photograph the hole itself; in 2019 astronomers instead imaged the glowing gas swirling around one, with a dark shadow at its centre. Many black holes are known today, and a giant one sits at the centre of our own galaxy.",
+      "Around 1900 physicists found that the energy of light and atoms is not handed out smoothly like water from a tap but in separate packets, which they called quanta. A beam of light, for instance, behaves like a stream of tiny particles, the photons, each carrying a fixed share of energy determined by its colour. The idea began as a mathematical trick to fit some measurements, and it grew into one of the most precisely tested theories in the history of science.",
+      "The strangest lesson of the quantum world is that tiny things do not fit our ordinary pictures: an electron leaves the source as a particle and arrives at the screen as a single dot. Yet in between it behaves as though it were a wave spread through both slits at once, and many electrons sent one at a time gradually build up the striped pattern that only waves should make. Neither word, wave nor particle, is quite right, and what we really have is a mathematical description that predicts the stripes perfectly.",
+      "Quantum theory makes predictions of a new kind: it cannot say where one electron will land, only how likely each place is, and the pattern of many electrons follows those odds with remarkable accuracy. Werner Heisenberg also showed that certain pairs of facts, such as a particle's exact position and exact speed, cannot both be known at once, and this is a limit of nature rather than of our instruments. What the probabilities really mean is still argued over by physicists, even though the calculations themselves work superbly.",
+      "Smashing particles together in huge machines, physicists have found that protons and neutrons are built from smaller pieces called quarks, and that the matter around us needs only a few basic ingredients. Their best description is the Standard Model, which lists those particles and the forces between them, and which has passed test after test for fifty years. Its last missing piece, the Higgs particle, was finally found in 2012 at the CERN laboratory near Geneva.",
+      "About a century ago, astronomers measured the light from distant galaxies and discovered that almost all of them are rushing away, and that the farther away a galaxy lies, the faster it recedes. The most natural explanation is that space itself is stretching, carrying the galaxies apart like dots on an inflating balloon. Run the film backwards and everything was once packed into an extremely hot, dense state, from which the universe has been expanding for close to fourteen billion years.",
+      "Everything we can see, including every star, planet and cloud of gas, accounts for only about five percent of the universe's contents. Galaxies spin as if held together by extra, invisible matter, which has been named dark matter, and the expansion of space seems to be speeding up under the push of something called dark energy. These are labels for puzzles and not explanations, and nobody yet knows what either one really is.",
+      "Physics today rests on two magnificent but incompatible foundations: general relativity, which describes gravity and the cosmos, and quantum theory, which describes particles and forces. Where both matter at once, as inside a black hole or at the very start of the universe, the equations refuse to cooperate, and a theory of quantum gravity remains one of the great unsolved problems. Several candidates are being explored by theorists around the world, but none has yet been confirmed by any experiment.",
+      "What makes physics reliable is not cleverness but testing: every theory must predict something that an experiment could prove wrong, and the experiment is then actually done. Newton's laws were trusted for two centuries until careful measurements showed their limits, and Einstein's ideas did not erase them but extended them to fast speeds and strong gravity. In this way physics grows by being corrected, and the best theories are the ones that have survived the most attempts to break them.",
+      "We began with a thrown ball and a cooling cup, and we have travelled by way of waves, atoms and bent space to the edge of what is known. The remarkable thing is how few ideas were needed to cover so much ground, and how well each of them has been tested. Physics has not run out of questions, and some of the best ones may be waiting for the next person who looks at an ordinary thing and asks why."
+    ]
+  }
+}
