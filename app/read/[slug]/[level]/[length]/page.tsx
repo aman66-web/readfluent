@@ -40,6 +40,8 @@ export default async function ReadPage({ params }: { params: Promise<{ slug: str
       if (!pages || pages.length !== english.length) continue;
       const words = new Set(pages.flatMap((p) => tokenize(p.text).flatMap((t) => (t.word ? [t.word] : []))));
       const dict = await loadDictionary(lang, words);
+      // The sample's own cards cover some of the same words.
+      if (lang === SPANISH_LANG) for (const w of words) if (!(w in dict) && w in SPANISH_DICT) dict[w] = SPANISH_DICT[w];
       // A translation is offered once nearly every word in it has a card: a tap that says "no meaning" is worse than reading in English.
       if (Object.keys(dict).length < words.size * 0.9) continue;
       variants.push({
