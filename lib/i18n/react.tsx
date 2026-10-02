@@ -4,7 +4,7 @@ import { Fragment, useCallback, useEffect, useMemo, useSyncExternalStore, type R
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
 import { DEFAULT_LANGUAGE, type LanguageCode } from "@/lib/onboarding/languages";
 import { readRaw, subscribeTo } from "@/lib/store/local";
-import { catalogFor, catalogVersion, isRtl, loadCatalog, subscribeCatalogs, translate, type MessageId } from "./index";
+import { EN, catalogFor, catalogVersion, isRtl, loadCatalog, subscribeCatalogs, translate, type MessageId } from "./index";
 
 const subscribeAnswers = subscribeTo(ANSWERS_KEY);
 const readAnswersRaw = () => readRaw(ANSWERS_KEY);
@@ -27,6 +27,21 @@ export function useT(): T {
   useEffect(() => { void loadCatalog(locale); }, [locale]);
   const catalog = catalogFor(locale);
   return useCallback<T>((id, vars) => translate(catalog, id, vars), [catalog]);
+}
+
+/**
+ * A book's title or description in the reader's language: `book.<slug>.title` / `.blurb` in the catalogs.
+ * A book with no entry (not yet translated) shows the `fallback`, its own words.
+ */
+export function useBookText() {
+  const locale = useLocale();
+  useSyncExternalStore(subscribeCatalogs, catalogVersion, () => 0);
+  useEffect(() => { void loadCatalog(locale); }, [locale]);
+  const catalog = catalogFor(locale) as Record<string, string> | null;
+  return useCallback((slug: string, field: "title" | "blurb", fallback: string): string => {
+    const id = `book.${slug}.${field}`;
+    return catalog?.[id] ?? (EN as Record<string, string>)[id] ?? fallback;
+  }, [catalog]);
 }
 
 /**

@@ -77,3 +77,16 @@ export function saveChoice(slug: string, level: string, length: number): void {
 export function readChoice(slug: string): { level: string; length: number } | undefined {
   return parseChoice(readRaw(CHOICE_KEY))[slug];
 }
+
+/** The furthest anyone has got in a book across its versions: which level and length, and how far (page index and the version's length). */
+export function furthest(all: Progress, slug: string): { level: string; length: number; index: number } | null {
+  let best: { level: string; length: number; index: number; share: number } | null = null;
+  for (const [key, index] of Object.entries(all)) {
+    const m = /^(.+)\/([a-z0-9]+)-(\d+)$/.exec(key);
+    if (!m || m[1] !== slug) continue;
+    const length = Number(m[3]);
+    const share = length > 0 ? (index + 1) / length : 0;
+    if (!best || share > best.share) best = { level: m[2], length, index, share };
+  }
+  return best ? { level: best.level, length: best.length, index: best.index } : null;
+}

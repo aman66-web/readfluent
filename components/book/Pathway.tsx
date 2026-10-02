@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useSyncExternalStore } from "react";
-import { useT } from "@/lib/i18n/react";
+import { useLocale, useT } from "@/lib/i18n/react";
 import { PROGRESS_KEY, parseProgress, versionKey } from "@/lib/progress";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 
@@ -46,6 +46,7 @@ export function Pathway({ slug, level, length, outline, onOpen }: {
   onOpen: (page: number) => void;
 }) {
   const t = useT();
+  const locale = useLocale();
   const raw = useSyncExternalStore(subscribe, () => readRaw(PROGRESS_KEY), server);
   const reached = useMemo(() => parseProgress(raw)[versionKey(slug, level, length)], [raw, slug, level, length]);
   const here = currentMoment(reached, outline.length, length);
@@ -97,7 +98,7 @@ export function Pathway({ slug, level, length, outline, onOpen }: {
                     <div className={`pointer-events-none absolute top-1/2 -translate-y-1/2 ${labelRight ? "text-start" : "text-end"}`}
                          style={labelRight ? { left: `calc(${cx}% + ${NODE / 2 + 12}px)`, right: 0 } : { right: `calc(${100 - cx}% + ${NODE / 2 + 12}px)`, left: 0 }}>
                       <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-accent">{state === "current" ? t(reached === undefined ? "sheet.read" : "home.carryOn") : t("reader.pageLabel", { n: page + 1, total: length })}</p>
-                      <p lang="en" dir="ltr" className={`mt-0.5 line-clamp-3 text-[15px] font-semibold leading-snug ${state === "next" ? "text-foreground/75" : ""}`}>{item.text}</p>
+                      <p lang={locale} dir="auto" className={`mt-0.5 line-clamp-3 text-[15px] font-semibold leading-snug ${state === "next" ? "text-foreground/75" : ""}`}>{item.text}</p>
                     </div>
                   </li>
                 );

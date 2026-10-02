@@ -10,7 +10,7 @@ import { WordCard } from "@/components/reader/WordCard";
 import { WordsSheet } from "@/components/reader/WordsSheet";
 import type { ReaderPage, ReaderVariant } from "@/components/reader/types";
 import { languageName } from "@/lib/i18n";
-import { useLocale, useT } from "@/lib/i18n/react";
+import { useBookText, useLocale, useT } from "@/lib/i18n/react";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
 import { readPage, resumeIndex, savePage, versionKey } from "@/lib/progress";
 import { READER_PREFS_KEY, TEXT_SIZES, parsePrefs } from "@/lib/reading/prefs";
@@ -89,6 +89,7 @@ export function Reader(props: Props) {
 function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, scenes, onSwitch }: Props & { variant: ReaderVariant; first: boolean; onSwitch?: () => void }) {
   const t = useT();
   const locale = useLocale();
+  const bookText = useBookText();
   const scroller = useRef<HTMLDivElement>(null);
   const [index, setIndex] = useState(0);
   const pages = variant.pages;
@@ -319,7 +320,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
           </Link>
           <div className="min-w-0 flex-1">
-            <h1 lang="en" className="truncate text-[11.5px] font-semibold uppercase tracking-[0.09em] text-muted">{title}</h1>
+            <h1 lang={locale} className="truncate text-[11.5px] font-semibold uppercase tracking-[0.09em] text-muted">{bookText(slug, "title", title)}</h1>
             <p className="truncate text-[12px] text-muted" aria-live="polite">{sub}</p>
           </div>
           {interactive && Object.keys(saved).length > 0 && (

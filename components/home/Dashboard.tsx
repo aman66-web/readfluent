@@ -5,7 +5,7 @@ import { useCallback, useMemo, useSyncExternalStore } from "react";
 import { BookCover } from "@/components/BookCover";
 import { ProfileButton } from "@/components/home/ProfileButton";
 import { categoryById } from "@/lib/content/limits";
-import { useLocale, useT } from "@/lib/i18n/react";
+import { useBookText, useLocale, useT } from "@/lib/i18n/react";
 import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { findBook, coverAuthor } from "@/lib/preview/catalog";
@@ -33,7 +33,8 @@ export function Dashboard() {
   const raw = useSyncExternalStore(subscribeLedger, readLedger, serverLedger);
   const ledger = useMemo(() => parseLedger(raw), [raw]);
   const goal = a.daily ?? DEFAULT_MINUTES;
-  const bookName = useCallback((slug: string) => findBook(slug)?.title ?? slug, []);
+  const bookText = useBookText();
+  const bookName = useCallback((slug: string) => { const b = findBook(slug); return b ? bookText(slug, "title", b.title) : slug; }, [bookText]);
   const today = useToday();
   const run = useMemo(() => (today ? streak(ledger, dayDate(today)) : 0), [ledger, today]);
   const carry = ledger.lastSlug ? findBook(ledger.lastSlug) : null;
@@ -70,10 +71,10 @@ export function Dashboard() {
 
       {carry && (
         <Link href={`/book/${carry.slug}`} className="mt-3 flex items-center gap-4 rounded-[22px] border border-border bg-surface p-3.5 active:opacity-80">
-          <BookCover slug={carry.slug} title={carry.title} author={coverAuthor(carry)} hue={categoryById(carry.category)?.hue ?? 30} className="w-[52px] shrink-0" />
+          <BookCover slug={carry.slug} title={bookName(carry.slug)} author={coverAuthor(carry)} hue={categoryById(carry.category)?.hue ?? 30} className="w-[52px] shrink-0" />
           <span className="min-w-0 flex-1">
             <span className="block text-[12px] font-semibold uppercase tracking-[0.08em] text-faint">{t("home.carryOn")}</span>
-            <span className="mt-0.5 block truncate text-[16px] font-semibold" dir="auto">{carry.title}</span>
+            <span className="mt-0.5 block truncate text-[16px] font-semibold" dir="auto">{bookName(carry.slug)}</span>
           </span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5 shrink-0 text-faint rtl:-scale-x-100" aria-hidden><path d="M9 5l7 7-7 7" /></svg>
         </Link>

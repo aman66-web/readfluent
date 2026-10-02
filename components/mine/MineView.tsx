@@ -5,7 +5,7 @@ import { useMemo, useSyncExternalStore } from "react";
 import { coverAuthor } from "@/lib/preview/catalog";
 import { BookCover } from "@/components/BookCover";
 import { categoryById } from "@/lib/content/limits";
-import { useT } from "@/lib/i18n/react";
+import { useBookText, useT } from "@/lib/i18n/react";
 import { finished, readHref, reading, type MineEntry } from "@/lib/mine";
 import { PROGRESS_KEY, parseProgress } from "@/lib/progress";
 import { readRaw, subscribeTo } from "@/lib/store/local";
@@ -19,12 +19,14 @@ const server = () => "";
 
 function Row({ e, done }: { e: MineEntry; done: boolean }) {
   const t = useT();
+  const text = useBookText();
+  const title = text(e.book.slug, "title", e.book.title);
   return (
     <li>
       <Link href={readHref(e)} className="flex items-center gap-4 rounded-[20px] border border-border bg-surface p-3 active:opacity-80">
-        <BookCover slug={e.book.slug} title={e.book.title} author={coverAuthor(e.book)} hue={categoryById(e.book.category)?.hue ?? 30} className="w-[52px] shrink-0" />
+        <BookCover slug={e.book.slug} title={title} author={coverAuthor(e.book)} hue={categoryById(e.book.category)?.hue ?? 30} className="w-[52px] shrink-0" />
         <span className="min-w-0 flex-1">
-          <span className="block truncate text-[15px] font-semibold" dir="auto">{e.book.title}</span>
+          <span className="block truncate text-[15px] font-semibold" dir="auto">{title}</span>
           <span className="mt-0.5 block text-[12px] text-faint">{e.levelLabel} · {e.length}</span>
           <span className="mt-2 flex items-center gap-2" dir="ltr">
             <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-border">
