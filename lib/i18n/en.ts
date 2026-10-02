@@ -29,8 +29,8 @@ export const EN = {
   "guide.progress": "Progress",
 
   /* ── which languages ── */
-  "tongues.line": "Which languages?",
-  "tongues.sub": "Pick the language you speak and the one you want to learn. The books are in the second; help with the words is in the first.",
+  "tongues.line": "Which language do you want to learn?",
+  "tongues.sub": "The books are in this language. Help with the words is in the language you chose at the start.",
   "tongues.speak": "I speak",
   "tongues.learn": "I want to learn",
   "tongues.choose": "Choose a language",
@@ -353,7 +353,7 @@ export const EN = {
   "library.versions": "{category} · 9 versions",
   "library.soon": "Coming soon",
   "library.soonLabel": "{category}: coming soon",
-  "library.preview": "Preview: one book so far. The full library will have 270.",
+  "library.preview": "Preview: five books so far. The full library will have 200.",
   "book.back": "Back to the library",
   "book.by": "by {author}",
   "book.inspired": "Inspired by {author}",

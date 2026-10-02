@@ -6,8 +6,7 @@
  * one you want to learn) → how much of it you know (or a
  * five-minute test that finds out) → why they are learning → where they
  * heard of it → how much time a day they can give it → how
- * long that takes to reach each level → a five-screen tour → where that time
- * takes them → a promise → Dewey asks to be added to the home screen → Dewey shows what three months of it adds up to → sign in → what you are
+ * long that takes to reach each level → a five-screen tour → a promise → Dewey asks to be added to the home screen → Dewey shows what three months of it adds up to → sign in → what you are
  * curious about → the library being set up. Every step after the welcome can be
  * skipped, and every one counts on the progress bar.
  *
@@ -17,7 +16,7 @@
 export const STEP_IDS = [
   "app", "intro", "hello", "quick", "go", "tongues", "level", "why", "heard", "time", "path",
   "journey", "levels", "words", "remember", "connect",
-  "future", "pledge", "home", "months", "account", "interests", "ready",
+  "pledge", "home", "account", "interests", "ready",
 ] as const;
 export type StepId = (typeof STEP_IDS)[number];
 
@@ -48,8 +47,8 @@ export const AFTER_SIGN_IN = "/welcome?step=interests";
 
 /** The placement test opens from the level step, and comes back to the step after it (or to the level step if it is left). */
 export const PLACEMENT_PATH = "/placement";
-export const AFTER_PLACEMENT = `/welcome?step=${STEP_IDS[STEP_IDS.indexOf("level") + 1]}`;
-export const BACK_FROM_PLACEMENT = "/welcome?step=level";
+export const AFTER_PLACEMENT = "/welcome?step=ready";
+export const BACK_FROM_PLACEMENT = "/welcome?step=ready";
 
 /** Where a failed provider sign-in comes back to: the sign-in step itself. */
 export const SIGN_IN_STEP = "/welcome?step=account";

@@ -16,8 +16,8 @@ const vi: Catalog = {
   "guide.name": "Người dẫn đường của bạn",
   "guide.progress": "Tiến độ",
 
-  "tongues.line": "Bạn dùng ngôn ngữ nào?",
-  "tongues.sub": "Chọn ngôn ngữ bạn nói và ngôn ngữ bạn muốn học. Sách bằng ngôn ngữ thứ hai; phần giải nghĩa từ bằng ngôn ngữ thứ nhất.",
+  "tongues.line": "Bạn muốn học ngôn ngữ nào?",
+  "tongues.sub": "Sách bằng ngôn ngữ này. Phần giải nghĩa từ bằng ngôn ngữ bạn đã chọn lúc đầu.",
   "tongues.speak": "Mình nói",
   "tongues.learn": "Mình muốn học",
   "tongues.choose": "Chọn một ngôn ngữ",

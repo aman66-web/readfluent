@@ -3,7 +3,6 @@
 import { languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
-import { hasPlacement } from "@/lib/placement";
 import { CEFR, type Cefr } from "@/lib/xp/levels";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
 
@@ -20,40 +19,23 @@ function Steps({ n }: { n: number }) {
   );
 }
 
-/** "Option 1" / "Option 2": a small numbered label above a block, with its title and a line of help. */
-function Option({ n, kicker, title, sub, delay }: { n: 1 | 2; kicker: string; title: string; sub: string; delay: number }) {
-  return (
-    <div className="wel-in flex items-start gap-3" style={{ animationDelay: `${delay}ms` }}>
-      <span className="tabular grid size-7 shrink-0 place-items-center rounded-full bg-[var(--ob-teal)] text-[13px] font-extrabold text-white" aria-hidden>{n}</span>
-      <div className="min-w-0">
-        <p className="ob-muted text-[11px] font-bold uppercase tracking-[0.1em]">{kicker}</p>
-        <h2 className="text-[17px] font-semibold leading-tight">{title}</h2>
-        <p className="ob-muted mt-1 text-[13px] leading-snug">{sub}</p>
-      </div>
-    </div>
-  );
-}
-
 /**
  * "How much {language} do you already know?" — said in the language's own standard scale,
- * A1 to C2 (the CEFR), which a short card explains, and in two clear options: (1) pick one
- * of the six levels, or (2) not knowing which, take a five-minute test (/placement). The
- * level they choose, or the test gives, is where their XP starts (lib/xp). Where there is no
- * test yet for the language, option 2 says so instead of leading to nothing.
+ * A1 to C2 (the CEFR), which a short card explains: they pick one of the six levels. The level
+ * test is offered at the end of the first run instead (the ready screen), where they can keep
+ * what they picked or let the test place them. The level is where their XP starts (lib/xp).
  */
-export function LevelScreen({ at, of, learn, value, placed, onPick, onTest, onBack, onContinue }: Nav & {
+export function LevelScreen({ at, of, learn, value, placed, onPick, onBack, onContinue }: Nav & {
   learn: LanguageCode | null;
   value: Cefr | null;
   placed: boolean;
   onPick: (level: Cefr) => void;
-  onTest: () => void;
 }) {
   const t = useT();
   const locale = useLocale();
   const language = languageName(learn ?? "en", locale);
   const line = t("level.line", { language });
   const guide = useGuide(line);
-  const canTest = hasPlacement(learn);
   return (
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-4 pt-5">
@@ -68,8 +50,9 @@ export function LevelScreen({ at, of, learn, value, placed, onPick, onTest, onBa
           <p className="mt-1.5 text-[13px] leading-snug text-[var(--ob-ink)]/80">{t("level.about")}</p>
         </div>
 
-        <div className="mt-5">
-          <Option n={1} kicker={t("level.opt1")} title={t("level.opt1Title")} sub={t("level.opt1Sub")} delay={800} />
+        <div className="wel-in mt-5" style={{ animationDelay: "800ms" }}>
+          <h2 className="text-[17px] font-semibold leading-tight">{t("level.opt1Title")}</h2>
+          <p className="ob-muted mt-1 text-[13px] leading-snug">{t("level.opt1Sub")}</p>
         </div>
         <div className="mt-3 flex flex-col gap-2" role="group" aria-label={t("level.opt1Title")}>
           {CEFR.map((id, i) => {
@@ -90,24 +73,6 @@ export function LevelScreen({ at, of, learn, value, placed, onPick, onTest, onBa
           })}
         </div>
 
-        <div className="mt-6 border-t border-[var(--ob-line)] pt-5">
-          <Option n={2} kicker={t("level.opt2")} title={t("level.opt2Title")} sub={t("level.opt2Sub")} delay={1250} />
-          {canTest ? (
-            <button type="button" onClick={onTest}
-                    className="guide-card wel-in relative mt-3 flex w-full items-center gap-3.5 rounded-[18px] px-4 py-3 text-start"
-                    style={{ animationDelay: "1300ms" }}>
-              <span className="grid size-9 shrink-0 place-items-center rounded-full bg-[var(--ob-cyan)]/25 text-[var(--ob-deep)]" aria-hidden>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5"><circle cx="12" cy="13" r="8" /><path d="M12 9v4l2.5 2M9 3h6" /></svg>
-              </span>
-              <span className="min-w-0 flex-1">
-                <span className="block text-[15px] font-semibold leading-tight">{t("level.testButton")}</span>
-                <span className="ob-muted mt-0.5 block text-[12.5px] leading-snug">{t("level.testSub")}</span>
-              </span>
-            </button>
-          ) : (
-            <p className="ob-muted wel-in mt-3 rounded-[14px] bg-[var(--ob-card)] px-4 py-3 text-[12.5px] leading-snug" style={{ animationDelay: "1300ms" }}>{t("level.testSoon", { language })}</p>
-          )}
-        </div>
       </div>
     </GuideFrame>
   );

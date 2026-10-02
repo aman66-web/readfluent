@@ -16,7 +16,7 @@ export default function MascotPage() {
   return (
     <main className="mx-auto max-w-[440px] px-5 pb-16 pt-8">
       <h1 className="text-[30px] font-bold tracking-[-0.02em]">Meet {MASCOT_NAME}</h1>
-      <p className="mt-1 text-[15px] leading-snug text-muted">A cyan bookworm who lives in an open book. A bookworm is someone who loves to read, and {MASCOT_NAME} is your guide.</p>
+      <p className="mt-1 text-[15px] leading-snug text-muted">An owl who sits on an open book: the old picture of someone who reads, calm and watchful. {MASCOT_NAME} is your guide.</p>
       <div className="mt-6 grid grid-cols-2 gap-3">
         {POSES.map((p) => (
           <figure key={p.mood} className="rounded-[22px] border border-border bg-surface p-3">

@@ -5,10 +5,11 @@ import { CATEGORIES, type CategoryId } from "@/lib/content/limits";
 import { formatList, languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
+import { hasPlacement } from "@/lib/placement";
 import type { Cefr } from "@/lib/xp/levels";
 import { useStagedCount } from "./count";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
-import { TickIcon } from "./ui";
+import { PrimaryButton, TickIcon } from "./ui";
 
 interface Nav { at: number; of: number; onBack: () => void; onContinue: () => void }
 
@@ -109,11 +110,13 @@ const ICONS = [
  * in the colours of their shelves, four things being set up and ticked off, and, when it is
  * done, their level, daily time and language as a plan they can see. Then the way in.
  */
-export function ReadyScreen({ at, of, interests, minutes, level, learn, onBack, onContinue }: Nav & {
+export function ReadyScreen({ at, of, interests, minutes, level, learn, onTest, onBack, onContinue }: Nav & {
   interests: readonly CategoryId[];
   minutes: number;
   level: Cefr | null;
   learn: LanguageCode | null;
+  /** Opens the level test, for a reader who would rather be placed than keep the level they picked. */
+  onTest: () => void;
 }) {
   const t = useT();
   const locale = useLocale();
@@ -128,7 +131,7 @@ export function ReadyScreen({ at, of, interests, minutes, level, learn, onBack, 
   const shelves = interests.length === 0 ? t("ready.every") : more > 0 ? t("ready.shelvesMore", { names, more }) : t("ready.shelves", { names });
   const items = [shelves, t("ready.goal", { minutes }), t("ready.words"), t("ready.cards")];
   return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={done} continueLabel={t("ready.start")}>
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={done} continueLabel={t("ready.start")} showContinue={!done || !hasPlacement(learn)}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-4 pt-4">
         <GuideHead key={line} guide={guide} line={line} mood="cheer" />
 
@@ -179,6 +182,15 @@ export function ReadyScreen({ at, of, interests, minutes, level, learn, onBack, 
           })}
         </ul>
       </div>
+      {/* Once the library is built: carry on at the level they picked, or let a short test place them. */}
+      {done && hasPlacement(learn) && (
+        <div data-guide-nav className="relative shrink-0">
+          <PrimaryButton onClick={onContinue}>{t("ready.start")}</PrimaryButton>
+          <button type="button" onClick={onTest} className="mt-1 block h-11 w-full text-[15px] font-semibold text-[var(--ob-deep)] active:opacity-60">
+            {t("level.testButton")}
+          </button>
+        </div>
+      )}
     </GuideFrame>
   );
 }

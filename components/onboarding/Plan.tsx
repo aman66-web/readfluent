@@ -6,15 +6,12 @@ import { formatDate, languageName } from "@/lib/i18n";
 import { APP_NAME } from "@/lib/brand";
 import { formatReadingTime } from "@/lib/i18n/format";
 import { useLocale, useT } from "@/lib/i18n/react";
-import type { WhyId } from "@/lib/onboarding/answers";
 import type { LanguageCode } from "@/lib/onboarding/languages";
-import { PROJECTION_MONTHS, formatDuration, pathFrom, projectMonths } from "@/lib/xp/path";
-import type { MessageId } from "@/lib/i18n/en";
+import { formatDuration, pathFrom } from "@/lib/xp/path";
 import type { Cefr } from "@/lib/xp/levels";
 import { DAILY_MINUTES } from "@/lib/onboarding/firstrun";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
 import { useHold } from "./hold";
-import { TickIcon } from "./ui";
 
 interface Nav { at: number; of: number; onBack: () => void; onContinue: () => void }
 
@@ -113,113 +110,6 @@ export function PathScreen({ at, of, level, minutes, onBack, onContinue }: Nav &
         )}
       </div>
     </GuideFrame>
-  );
-}
-
-/**
- * "Here's what you can achieve in 3 months" — Dewey works it out from the level they said and the
- * minutes they chose: the level they would reach (with what that level can do), the hours,
- * pages and books of reading. The same arithmetic as the dashboard, and said to be an estimate.
- */
-export function MonthsScreen({ at, of, level, minutes, onBack, onContinue }: Nav & { level: Cefr | null; minutes: number }) {
-  const t = useT();
-  const locale = useLocale();
-  const n = (v: number) => v.toLocaleString(locale);
-  const line = t("months.line", { n: PROJECTION_MONTHS });
-  const guide = useGuide(line);
-  const p = projectMonths(level, minutes);
-  const same = p.from.code === p.to.code;
-  const stats = [
-    { id: "months.time" as const, value: formatReadingTime(p.minutes, locale) },
-    { id: "months.pages" as const, value: n(p.pages) },
-    { id: "months.books" as const, value: n(p.books) },
-  ];
-  return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
-      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead key={line} guide={guide} line={line} mood="cheer" />
-
-        <div className="guide-card wel-in relative mt-6 rounded-[22px] px-5 py-4" style={{ animationDelay: "900ms" }}>
-          <p className="ob-muted text-[12px] font-bold uppercase tracking-[0.1em]">{t("months.level")}</p>
-          <p className="tabular mt-1 flex items-center gap-3 text-[34px] font-bold leading-none tracking-[-0.02em]" dir="ltr">
-            {!same && <><span className="ob-muted">{p.from.code}</span><span className="ob-muted text-[22px]" aria-hidden>→</span></>}
-            <span className="text-[var(--ob-deep)]">{p.to.code}</span>
-          </p>
-          <p className="ob-muted mt-3 text-[13.5px] leading-snug">{t(`cando.${p.to.code}` as MessageId)}</p>
-        </div>
-
-        <ul className="mt-3 grid grid-cols-3 gap-2.5">
-          {stats.map((s, i) => (
-            <li key={s.id} className="guide-card wel-in relative rounded-[18px] px-3 py-3" style={{ animationDelay: `${1200 + i * 220}ms` }}>
-              <span className="tabular block text-[19px] font-bold leading-tight tracking-[-0.01em]">{s.value}</span>
-              <span className="ob-muted mt-1 block text-[11.5px] font-semibold leading-tight">{t(s.id)}</span>
-            </li>
-          ))}
-        </ul>
-        <p className="ob-faint wel-in mt-4 text-[12px] leading-snug" style={{ animationDelay: "2000ms" }}>{t("path.note")}</p>
-      </div>
-    </GuideFrame>
-  );
-}
-
-/**
- * "Here's where ten minutes a day takes you" — a week, a month and a year of it, as
- * time spent reading. The year is the one lit up, and the bars are measured against
- * it, so the week and the month look like the start they are.
- */
-export function FutureScreen({ at, of, minutes, why, onBack, onContinue }: Nav & {
-  minutes: number;
-  why: readonly WhyId[];
-}) {
-  const t = useT();
-  const locale = useLocale();
-  const line = t("future.line", { minutes });
-  const guide = useGuide(line);
-  const year = 365 * minutes;
-  const rows = [
-    { when: t("time.week"), minutes: 7 * minutes },
-    { when: t("time.month"), minutes: 30 * minutes },
-    { when: t("time.year"), minutes: year },
-  ];
-  return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
-      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
-        <GuideHead guide={guide} line={line} mood="cheer" />
-
-        <ol className="mt-7 space-y-2.5">
-          {rows.map((r, i) => (
-            <FutureRow key={i} when={r.when} share={r.minutes / year} top={r.minutes === year}
-                       say={t("future.of", { time: formatReadingTime(r.minutes, locale) })} delay={900 + i * 450} />
-          ))}
-        </ol>
-
-        {why.length > 0 && (
-          <ul className="mt-6 space-y-2">
-            {why.map((f, i) => (
-              <li key={f} className="wel-in flex items-center gap-2.5 text-[14px] font-medium" style={{ animationDelay: `${2400 + i * 160}ms` }}>
-                <span className="grid size-5 shrink-0 place-items-center rounded-full bg-[var(--ob-teal)] text-white" aria-hidden>{TickIcon}</span>
-                {t(`future.${f}`)}
-              </li>
-            ))}
-          </ul>
-        )}
-      </div>
-    </GuideFrame>
-  );
-}
-
-function FutureRow({ when, share, top, say, delay }: { when: string; share: number; top: boolean; say: string; delay: number }) {
-  return (
-    <li className={`guide-card wel-in relative rounded-[20px] px-4 py-3.5 ${top ? "future-all" : ""}`} style={{ animationDelay: `${delay - 250}ms` }}>
-      <div className="flex items-baseline justify-between gap-3">
-        <span className="ob-muted shrink-0 text-[13px] font-semibold">{when}</span>
-        <span className={`tabular text-end text-[15px] font-bold ${top ? "text-[var(--ob-deep)]" : ""}`}>{say}</span>
-      </div>
-      {/* How much of the year that is. */}
-      <div className="guide-track mt-2.5 h-1.5 overflow-hidden rounded-full" aria-hidden>
-        <div className="future-fill h-full rounded-full" style={{ width: `${Math.max(3, share * 100)}%`, animationDelay: `${delay}ms` }} />
-      </div>
-    </li>
   );
 }
 

@@ -17,9 +17,9 @@ vi.mock("@capacitor/core", () => ({ Capacitor: { isNativePlatform: () => false, 
 const read = (p: string) => readFileSync(new URL(`../../${p}`, import.meta.url), "utf8");
 
 describe("the steps", () => {
-  it("are the first run's twenty-three, in order, with the app's language first and the library last", () => {
-    expect(STEP_IDS).toHaveLength(23);
-    expect(new Set(STEP_IDS).size).toBe(23);
+  it("are the first run's twenty-one, in order, with the app's language first and the library last", () => {
+    expect(STEP_IDS).toHaveLength(21);
+    expect(new Set(STEP_IDS).size).toBe(21);
     expect(STEP_IDS[0]).toBe("app");
     expect(STEP_IDS[1]).toBe("intro");
     expect(STEP_IDS[STEP_IDS.length - 1]).toBe("ready");
@@ -145,14 +145,13 @@ describe("every screen renders", () => {
       pathB2: mk(p.PathScreen, { ...nav, level: "B2", minutes: 30 }),
       pathTop: mk(p.PathScreen, { ...nav, level: "C2", minutes: 30 }),
       ...Object.fromEntries(SHOW_IDS.map((id) => [id, mk(t.TourScreen, { ...nav, id, learn: "es" })])),
-      future: mk(p.FutureScreen, { ...nav, minutes: 15, why: ["friends", "work"] }),
       pledge: mk(p.PledgeScreen, { ...nav, minutes: 15, done: false, onDone: () => {} }),
       tongues: mk(g.TonguesScreen, { ...nav, speak: "en", learn: "es" }),
       tonguesBlank: mk(g.TonguesScreen, { ...nav, speak: "en", learn: null }),
       account: mk(l.AccountScreen, { at: 15, of: 19, onBack: () => {}, error: false, onNext: () => {} }),
       accountFailed: mk(l.AccountScreen, { at: 15, of: 19, onBack: () => {}, error: true, onNext: () => {} }),
       interests: mk(l.InterestsScreen, { ...nav, value: ["romance"], onChange: () => {} }),
-      ready: mk(r.ReadyScreen, { ...nav, interests: ["romance", "history", "science"], minutes: 15, level: "A2", learn: "es" }),
+      ready: mk(r.ReadyScreen, { ...nav, interests: ["romance", "history", "science"], minutes: 15, level: "A2", learn: "es", onTest() {} }),
     } as Record<string, string>;
   };
 
@@ -171,9 +170,8 @@ describe("every screen renders", () => {
     expect(text(h.path)).toContain("This is an estimate, not a promise.");
     expect(text(h.pathB2)).toContain("you could reach C1 in about");
     expect(text(h.pathTop)).toContain("You're already at C2".replace("'", "&#x27;"));
-    expect(text(h.future)).toContain("15 minutes a day takes you");
     expect(text(h.pledge)).toContain("Make it a promise to yourself.");
-    expect(text(h.tongues)).toContain("Which languages?");
+    expect(text(h.tongues)).toContain("Which language do you want to learn?");
     expect(text(h.tongues)).toContain("Reading Spanish, with help in English.");
     expect(text(h.tonguesBlank)).toContain("Choose the language you want to learn.");
     expect(text(h.tongues)).toContain("You can change this any time, and your progress is always saved.");
@@ -365,9 +363,9 @@ describe("Dewey celebrates, then the run moves on by itself", () => {
 });
 
 describe("Dewey asks to be added to the home screen", () => {
-  it("comes after the promise and before the three-months screen", () => {
+  it("comes after the promise and before sign-in", () => {
     expect(STEP_IDS[STEP_IDS.indexOf("pledge") + 1]).toBe("home");
-    expect(STEP_IDS[STEP_IDS.indexOf("home") + 1]).toBe("months");
+    expect(STEP_IDS[STEP_IDS.indexOf("home") + 1]).toBe("account");
   });
 
   it("shows the ask, the tile, Continue and Not now", async () => {
@@ -391,12 +389,7 @@ describe("installing", () => {
   });
 });
 
-describe("Dewey shows what three months adds up to", () => {
-  it("comes right after the home-screen step", () => {
-    expect(STEP_IDS[STEP_IDS.indexOf("home") + 1]).toBe("months");
-    expect(STEP_IDS[STEP_IDS.indexOf("months") + 1]).toBe("account");
-  });
-
+describe("What three months adds up to", () => {
   it("works the projection out from the level and the minutes, with the dashboard's arithmetic", async () => {
     const { projectMonths, PROJECTION_MONTHS, BOOK_PAGES } = await import("@/lib/xp/path");
     const { xpPerDay, startingXp, levelFromXp } = await import("@/lib/xp/levels");
@@ -412,16 +405,6 @@ describe("Dewey shows what three months adds up to", () => {
     expect(projectMonths("B1", 30).to.xp).toBeGreaterThan(projectMonths("B1", 10).to.xp);
     expect(projectMonths("B1", 0).to.code).toBe(projectMonths("B1", 0).from.code);
     expect(projectMonths(null, 10).from.level).toBe("A1");
-  });
-
-  it("shows Dewey's line, the level, the three totals and the estimate note", async () => {
-    const { MonthsScreen } = await import("@/components/onboarding/Plan");
-    const html = renderToStaticMarkup(createElement(MonthsScreen, { at: 17, of: 23, level: "A1", minutes: 10, onBack: () => {}, onContinue: () => {} }));
-    const t = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
-    expect(t).toContain("what you can achieve in 3 months.");
-    for (const s of ["Your level", "Time reading", "Pages read", "Books finished", "estimate, not a promise"]) expect(t, s).toContain(s);
-    // Ten minutes a day from A1 is still A1 after three months: the number is honest, not flattering.
-    expect(t).toContain("A1.1");
   });
 });
 

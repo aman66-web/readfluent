@@ -19,8 +19,8 @@ const zh: Catalog = {
   "guide.progress": "进度",
 
   /* ── which languages ── */
-  "tongues.line": "选择哪些语言？",
-  "tongues.sub": "选择你说的语言和你想学的语言。书是第二种语言的，单词帮助则用第一种。",
+  "tongues.line": "你想学哪种语言？",
+  "tongues.sub": "书是用这种语言写的。单词帮助则使用你一开始选择的语言。",
   "tongues.speak": "我说",
   "tongues.learn": "我想学",
   "tongues.choose": "选择语言",

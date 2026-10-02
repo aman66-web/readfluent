@@ -19,8 +19,8 @@ const ja: Catalog = {
   "guide.progress": "進み具合",
 
   /* ── which languages ── */
-  "tongues.line": "どの言語にしますか？",
-  "tongues.sub": "あなたが話す言語と、学びたい言語を選んでください。本は後者で、単語のヘルプは前者で表示されます。",
+  "tongues.line": "どの言語を学びたいですか？",
+  "tongues.sub": "本はこの言語で書かれています。単語のヘルプは、最初に選んだ言語で表示されます。",
   "tongues.speak": "話す言語",
   "tongues.learn": "学びたい言語",
   "tongues.choose": "言語を選ぶ",

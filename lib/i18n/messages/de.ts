@@ -19,8 +19,8 @@ const de: Catalog = {
   "guide.progress": "Fortschritt",
 
   /* ── which languages ── */
-  "tongues.line": "Welche Sprachen?",
-  "tongues.sub": "Wähle die Sprache, die du sprichst, und die, die du lernen möchtest. Die Bücher sind in der zweiten, die Hilfe bei den Wörtern in der ersten.",
+  "tongues.line": "Welche Sprache möchtest du lernen?",
+  "tongues.sub": "Die Bücher sind in dieser Sprache. Die Hilfe bei den Wörtern ist in der Sprache, die du am Anfang gewählt hast.",
   "tongues.speak": "Ich spreche",
   "tongues.learn": "Ich möchte lernen",
   "tongues.choose": "Sprache wählen",

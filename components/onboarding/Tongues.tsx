@@ -86,7 +86,7 @@ function Sheet({ title, value, choices, onPick, onClose }: {
  * The two cards, what the pair means, and what can be changed later. Used by the
  * first-run step and by the Languages page; both save to the same place.
  */
-export function LanguagePicker({ speak, learn, delay = 0 }: { speak: LanguageCode; learn: LanguageCode | null; delay?: number }) {
+export function LanguagePicker({ speak, learn, delay = 0, showSpeak = true }: { speak: LanguageCode; learn: LanguageCode | null; delay?: number; /** The first run has already asked which language they speak, on its first screen. */ showSpeak?: boolean }) {
   const t = useT();
   const locale = useLocale();
   const [open, setOpen] = useState<Which | null>(null);
@@ -107,8 +107,8 @@ export function LanguagePicker({ speak, learn, delay = 0 }: { speak: LanguageCod
   return (
     <>
       <div className="flex flex-col gap-2.5">
-        <Card kicker={t("tongues.speak")} code={speak} onOpen={() => setOpen("speak")} delay={delay} />
-        <Card kicker={t("tongues.learn")} code={learn} onOpen={() => setOpen("learn")} delay={delay + 120} />
+        {showSpeak && <Card kicker={t("tongues.speak")} code={speak} onOpen={() => setOpen("speak")} delay={delay} />}
+        <Card kicker={t("tongues.learn")} code={learn} onOpen={() => setOpen("learn")} delay={delay + (showSpeak ? 120 : 0)} />
       </div>
       <p className="ob-muted wel-in mt-3 text-center text-[13px] leading-snug" style={{ animationDelay: `${delay + 200}ms` }}>{t("tongues.later")}</p>
       <p className="wel-in mt-4 text-center text-[15px] font-semibold leading-snug" style={{ animationDelay: `${delay + 240}ms` }} aria-live="polite">
@@ -136,7 +136,7 @@ export function TonguesScreen({ at, of, speak, learn, onBack, onContinue }: Nav 
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-3 pt-5">
         <GuideHead key={line} guide={guide} line={line} sub={t("tongues.sub")} mood="ready" />
         <div className="mt-6">
-          <LanguagePicker speak={speak} learn={learn} delay={700} />
+          <LanguagePicker speak={speak} learn={learn} delay={700} showSpeak={false} />
         </div>
       </div>
     </GuideFrame>

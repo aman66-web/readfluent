@@ -21,8 +21,8 @@ const nl: Catalog = {
   "guide.progress": "Voortgang",
 
   /* ── which languages ── */
-  "tongues.line": "Welke talen?",
-  "tongues.sub": "Kies de taal die je spreekt en de taal die je wilt leren. De boeken zijn in de tweede; hulp bij de woorden krijg je in de eerste.",
+  "tongues.line": "Welke taal wil je leren?",
+  "tongues.sub": "De boeken zijn in deze taal. Hulp bij de woorden krijg je in de taal die je aan het begin hebt gekozen.",
   "tongues.speak": "Ik spreek",
   "tongues.learn": "Ik wil leren",
   "tongues.choose": "Kies een taal",

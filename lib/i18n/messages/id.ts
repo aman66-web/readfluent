@@ -19,8 +19,8 @@ const indonesian: Catalog = {
   "guide.progress": "Kemajuan",
 
   /* ── which languages ── */
-  "tongues.line": "Bahasa apa saja?",
-  "tongues.sub": "Pilih bahasa yang kamu gunakan dan bahasa yang ingin kamu pelajari. Bukunya dalam bahasa kedua; bantuan untuk kata-katanya dalam bahasa pertama.",
+  "tongues.line": "Kamu ingin belajar bahasa apa?",
+  "tongues.sub": "Buku-bukunya dalam bahasa ini. Bantuan untuk kata-katanya dalam bahasa yang kamu pilih di awal.",
   "tongues.speak": "Aku berbicara",
   "tongues.learn": "Aku ingin belajar",
   "tongues.choose": "Pilih bahasa",

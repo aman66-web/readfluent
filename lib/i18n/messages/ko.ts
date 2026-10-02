@@ -19,8 +19,8 @@ const ko: Catalog = {
   "guide.progress": "진행 상황",
 
   /* ── which languages ── */
-  "tongues.line": "어떤 언어로 할까요?",
-  "tongues.sub": "내가 쓰는 언어와 배우고 싶은 언어를 골라 주세요. 책은 두 번째 언어로, 단어 도움말은 첫 번째 언어로 나와요.",
+  "tongues.line": "어떤 언어를 배우고 싶으세요?",
+  "tongues.sub": "책은 이 언어로 되어 있어요. 단어 도움말은 처음에 고른 언어로 나와요.",
   "tongues.speak": "내가 쓰는 언어",
   "tongues.learn": "배우고 싶은 언어",
   "tongues.choose": "언어 선택",

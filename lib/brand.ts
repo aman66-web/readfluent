@@ -12,7 +12,7 @@
  * projects together.
  */
 export const APP_NAME = "ReadFluent";
-/** The mascot's name: the cyan bookworm who guides the first run. One place, so a new name is one edit. */
+/** The mascot's name: the owl who guides the first run. One place, so a new name is one edit. */
 export const MASCOT_NAME = "Dewey";
 export const TAGLINE = "Real books. Your level.";
 

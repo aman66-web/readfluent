@@ -83,31 +83,20 @@ describe("the dashboard's graph", () => {
 });
 
 describe("the level step", () => {
-  it("asks how much of the language, offers six levels and the test", async () => {
+  it("asks how much of the language and offers the six levels, and nothing else: the test comes at the end", async () => {
     const { LevelScreen } = await import("@/components/onboarding/Level");
-    const nav = { at: 3, of: 18, onBack() {}, onContinue() {}, onPick() {}, onTest() {} };
+    const nav = { at: 3, of: 18, onBack() {}, onContinue() {}, onPick() {} };
     const html = renderToStaticMarkup(createElement(LevelScreen, { ...nav, learn: "en", value: "B2", placed: true }));
     const t = text(html);
     expect(t).toContain("How much English do you already know?");
     for (const id of ["A1", "A2", "B1", "B2", "C1", "C2"]) expect(t).toContain(id);
     expect(t).toContain("What are A1 to C2?");
-    expect(t).toContain("Option 1");
     expect(t).toContain("Choose your level");
-    expect(t).toContain("Option 2");
-    expect(t).toContain("Not sure which to pick?");
-    expect(t).toContain("Take a test to find my level");
-    // The explainer comes before the six levels, and the test comes after them.
-    expect(t.indexOf("What are A1 to C2?")).toBeLessThan(t.indexOf("Just starting"));
-    expect(t.indexOf("Just starting")).toBeLessThan(t.indexOf("Not sure which to pick?"));
-    expect(t).toContain("From your test");
-  });
-
-  it("says the test is coming for a language that has none, instead of offering it", async () => {
-    const { LevelScreen } = await import("@/components/onboarding/Level");
-    const nav = { at: 3, of: 18, onBack() {}, onContinue() {}, onPick() {}, onTest() {} };
-    const t = text(renderToStaticMarkup(createElement(LevelScreen, { ...nav, learn: "es", value: null, placed: false })));
-    expect(t).toContain("The placement test for Spanish is coming");
+    expect(t).not.toContain("Option 2");
+    expect(t).not.toContain("Not sure which to pick?");
     expect(t).not.toContain("Take a test to find my level");
-    expect(t).toContain("Option 2");
+    // The explainer comes before the six levels.
+    expect(t.indexOf("What are A1 to C2?")).toBeLessThan(t.indexOf("Just starting"));
+    expect(t).toContain("From your test");
   });
 });

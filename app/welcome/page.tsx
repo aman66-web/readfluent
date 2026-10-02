@@ -6,7 +6,7 @@ import { Suspense, useMemo, useRef, useState, useSyncExternalStore } from "react
 import { FirstScreen } from "@/components/welcome/FirstScreen";
 import { GoScreen, HeardScreen, HelloScreen, QuickScreen, WhyScreen } from "@/components/onboarding/Questions";
 import { ReadyScreen } from "@/components/onboarding/Ready";
-import { FutureScreen, MonthsScreen, PathScreen, PledgeScreen, TimeScreen } from "@/components/onboarding/Plan";
+import { PathScreen, PledgeScreen, TimeScreen } from "@/components/onboarding/Plan";
 import { AppLanguageScreen } from "@/components/onboarding/AppLanguage";
 import { HomeScreen } from "@/components/onboarding/Home";
 import { LevelScreen } from "@/components/onboarding/Level";
@@ -121,7 +121,7 @@ function Welcome() {
   if (step === "level") {
     return (
       <LevelScreen {...nav} learn={a.learn} value={a.level} placed={a.placed}
-                   onPick={(level) => saveAnswers({ level, placed: false })} onTest={() => router.push(PLACEMENT_PATH)} />
+                   onPick={(level) => saveAnswers({ level, placed: false })} />
     );
   }
   if (step === "why") {
@@ -136,13 +136,11 @@ function Welcome() {
   if (step === "time") return <TimeScreen {...nav} learn={a.learn} value={a.daily} onPick={(daily) => saveAnswers({ daily })} />;
   if (step === "path") return <PathScreen {...nav} level={a.level} minutes={minutes} />;
   if (isShowStep(step)) return <TourScreen key={step} id={step} learn={a.learn} {...nav} />;
-  if (step === "future") return <FutureScreen {...nav} minutes={minutes} why={a.why} />;
   if (step === "pledge") {
     return <PledgeScreen {...nav} minutes={minutes} done={a.pledged} onDone={() => saveAnswers({ pledged: true })} />;
   }
   if (step === "home") return <HomeScreen {...nav} />;
-  if (step === "months") return <MonthsScreen {...nav} level={a.level} minutes={minutes} />;
   if (step === "account") return <AccountScreen at={i} of={STEP_IDS.length} onBack={back} error={authError} onNext={next} />;
   if (step === "interests") return <InterestsScreen {...nav} value={a.interests} onChange={(interests) => saveAnswers({ interests })} />;
-  return <ReadyScreen {...nav} interests={a.interests} minutes={minutes} level={a.level} learn={a.learn} />;
+  return <ReadyScreen {...nav} interests={a.interests} minutes={minutes} level={a.level} learn={a.learn} onTest={() => router.push(PLACEMENT_PATH)} />;
 }
