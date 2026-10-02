@@ -31,8 +31,8 @@ const spark = (x: number, y: number, r: number) =>
 const RAISED = "M156 126 C 182 124, 203 106, 207 72 L 199 80 L 200 69 L 191 79 L 190 70 L 181 84 C 174 98, 165 106, 154 110 Z";
 const RAISED_LEFT = "M84 126 C 58 124, 37 106, 33 72 L 41 80 L 40 69 L 49 79 L 50 70 L 59 84 C 66 98, 75 106, 86 110 Z";
 /** A folded wing down the side, its tip cut into feathers. */
-const FOLDED_LEFT = "M71 118 C 52 142, 50 186, 70 212 L 75 205 L 79 213 L 84 204 L 88 210 C 91 184, 89 150, 87 124 Z";
-const FOLDED_RIGHT = "M169 118 C 188 142, 190 186, 170 212 L 165 205 L 161 213 L 156 204 L 152 210 C 149 184, 151 150, 153 124 Z";
+const FOLDED_LEFT = "M78 122 C 64 126, 57 150, 58 176 C 59 195, 65 207, 72 214 L 76 206 L 81 214 L 85 206 L 89 212 C 93 190, 92 158, 89 138 C 87 128, 83 122, 78 122 Z";
+const FOLDED_RIGHT = "M162 122 C 176 126, 183 150, 182 176 C 181 195, 175 207, 168 214 L 164 206 L 159 214 L 155 206 L 151 212 C 147 190, 148 158, 151 138 C 153 128, 157 122, 162 122 Z";
 
 /** The beak, and its lower half moving while the guide talks. */
 function Beak({ talking }: { talking: boolean }) {
@@ -89,7 +89,7 @@ export function Mascot({ mood = "hello", talking = false, crop, className = "" }
           <stop offset="0" stopColor="#17A3C2" /><stop offset=".55" stopColor="#0E7490" /><stop offset="1" stopColor="#0A566E" />
         </linearGradient>
         <linearGradient id="lx-wing" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#0C6A84" /><stop offset="1" stopColor="#084A5F" />
+          <stop offset="0" stopColor="#1189A8" /><stop offset=".4" stopColor="#0C6F8A" /><stop offset="1" stopColor="#084A5F" />
         </linearGradient>
         <linearGradient id="lx-page" x1="1" y1="0" x2="0" y2="0">
           <stop offset="0" stopColor="#B5E5F0" /><stop offset=".25" stopColor="#E9F9FC" /><stop offset="1" stopColor="#FFFFFF" />
@@ -160,7 +160,7 @@ export function Mascot({ mood = "hello", talking = false, crop, className = "" }
         )}
         {/* Feather lines on the folded wings. */}
         <g fill="none" stroke="#2F9DB8" strokeWidth="1.8" strokeLinecap="round" opacity=".55">
-          <path d="M66 152 q6 24 8 46" />{(!up) && <path d="M174 152 q-6 24 -8 46" />}
+          <path d="M69 150 q3 22 5 44" />{(!up) && <path d="M171 150 q-3 22 -5 44" />}
         </g>
 
         {/* The open book it sits on, in front of its feet. */}

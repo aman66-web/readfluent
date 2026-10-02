@@ -9283,6 +9283,38 @@
   }
  },
  {
+  "slug": "the-diary-of-samuel-pepys",
+  "title": "The Diary of Samuel Pepys",
+  "author": "Samuel Pepys",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "A clerk, a secret shorthand and nine years of London life. Samuel Pepys wrote down his dinners, quarrels and music, then the plague, the Dutch war and the Great Fire. His honest voice still makes the seventeenth century feel close.",
+  "cover": {
+   "bg": "#F3EDE3",
+   "light": true,
+   "title": [
+    "The Diary of",
+    "Samuel Pepys"
+   ],
+   "size": 14,
+   "author": "SAMUEL PEPYS",
+   "pieces": [
+    {
+     "id": "book",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "flame",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-silk-road-in-ten-stops",
   "title": "The Silk Road in Ten Stops",
   "author": "The Silk Roads",

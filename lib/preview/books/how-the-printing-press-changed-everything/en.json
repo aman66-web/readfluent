@@ -1,0 +1,417 @@
+{
+  "slug": "how-the-printing-press-changed-everything",
+  "meta": {
+    "blurb": "In 1450 a book took months to copy and cost a fortune. Then a goldsmith in Mainz found a way to make letters that could be used again and again. Follow printing from his workshop to the screen in your hand.",
+    "bible": "Printing: a history from before 1450 to today; the voice is clear, curious and fair, and hedged where historians disagree; no invented numbers, quotes or dates. Johannes Gutenberg: born in Mainz about 1400 (exact date unknown), goldsmith, in Strasbourg in the 1430s and 1440s, died in 1468; no portrait made in his lifetime survives. Mainz: German city. Strasbourg. Germany, German, Germans. Johann Fust: wealthy Mainz merchant who lent 800 guilders about 1450 and another 800 about 1452, then sued in 1455 and won. Peter Schoeffer: scribe who worked for Gutenberg, then with Fust; the Mainz Psalter of 1457 was the first printed book with a date and printers' names. Psalter. Gutenberg Bible, Bible, Bibles: the Latin Bible with 42 lines to a page, printed about 1452 to 1455, about 180 copies, about fifty survive. Latin, Greek. Vellum, Parchment: animal skin for writing. Scribe, Scribes: hand copiers. Quill. Punch, Matrix, Alloy, Antimony: how type was cast from lead, tin and antimony. Compositor: worker who sets type. Linseed, Varnish. Woodblock, Woodcut, Woodcuts. Diamond Sutra: printed in 868. Bi Sheng: Chinese craftsman who made movable clay type about 1040. Jikji: Korean Buddhist book of 1377, the oldest surviving book printed with movable metal type. Korea, Korean, China, Chinese, Chinese characters. Buddhist. Enea Silvio Piccolomini: church official, later Pope Pius II, wrote a letter in March 1455. Pius II. Frankfurt. Subiaco: first Italian press, 1465. Venice, Italy, Italian. Paris. Aldus Manutius: Venetian printer, pocket books from 1501, with the italic type cut by Francesco Griffo. Griffo. Italic. William Caxton: English merchant, set up the first English press at Westminster in 1476. Bruges, Cologne, Westminster, London, England, English. Chaucer: Canterbury Tales. Malory: King Arthur. Johannes Trithemius: abbot who wrote In Praise of Scribes in 1492. Andreas Vesalius and Nicolaus Copernicus: books of 1543. Martin Waldseemuller: mapmaker whose 1507 world map first used the name America. America, Americas, Atlantic. Martin Luther: German monk; the Ninety-five Theses of 1517 (whether he nailed them to the door is debated); New Testament in German 1522. Wittenberg. Indulgences. Pamphlet, Pamphlets. Index: list of forbidden books from 1559. Catholic, Church. Mexico City: first press in the Americas, 1539. Goa: first press in India, 1556. Portuguese. Istanbul, Ottoman: Jewish printers there by 1493; Ibrahim Muteferrika printed the first Arabic-script books there in 1729. Arabic. Johann Carolus: Strasbourg printer, weekly news sheet from 1605. Statute of Anne: British law of 1710, the first copyright law. Britain, British. Denis Diderot: Encyclopédie, 1751 to 1772. Encyclopédie. Enlightenment. French. The Times: London newspaper that used Friedrich Koenig's steam press in 1814, about 1,100 sheets an hour. Koenig. Ottmar Mergenthaler: Linotype in 1886. Linotype. Project Gutenberg: began in 1971. Europe, European, Europeans, Asia. Voice: warm and clear."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A village family gathers around one handwritten book by firelight",
+      "summary": "Before printing, a book was a rare and precious object that most people had never held."
+    },
+    {
+      "n": 2,
+      "scene": "A scribe in a cold workroom copies letters onto a sheet of animal skin",
+      "summary": "Books were copied by hand by scribes on parchment, which took many months and cost a great deal."
+    },
+    {
+      "n": 3,
+      "scene": "A heavy book is chained to a wooden desk in a stone library",
+      "summary": "Books were so valuable that some libraries chained them to desks, and even great libraries held only a few hundred."
+    },
+    {
+      "n": 4,
+      "scene": "A preacher reads aloud to villagers who listen under a tree",
+      "summary": "Few people could read, so knowledge passed mostly by speaking and through a small educated group."
+    },
+    {
+      "n": 5,
+      "scene": "Two copies of the same page lie side by side with different words",
+      "summary": "Copying by hand caused mistakes, so no two copies were exactly alike, and errors piled up."
+    },
+    {
+      "n": 6,
+      "scene": "A craftsman presses paper onto a carved wooden block in a Chinese workshop",
+      "summary": "Printing from carved wooden blocks began in China long before Europe; the Diamond Sutra of 868 is the oldest dated printed book."
+    },
+    {
+      "n": 7,
+      "scene": "A craftsman places small clay characters into an iron frame on a table",
+      "summary": "About 1040 Bi Sheng made movable type from clay, and Korean printers later cast metal type, used for the Jikji in 1377."
+    },
+    {
+      "n": 8,
+      "scene": "A Chinese printer studies a huge tray holding thousands of different characters",
+      "summary": "Movable type did not replace block printing in China, partly because Chinese writing needs thousands of characters."
+    },
+    {
+      "n": 9,
+      "scene": "A water wheel turns beside a paper mill where workers dry thin white sheets",
+      "summary": "Paper reached Europe through Spain and Italy, and water-powered mills made it far cheaper than parchment."
+    },
+    {
+      "n": 10,
+      "scene": "Merchants, students and townspeople crowd a busy square in a growing town",
+      "summary": "By the 1400s Europe had growing towns, merchants and universities, so more people wanted books."
+    },
+    {
+      "n": 11,
+      "scene": "A young goldsmith in a Mainz workshop shapes small metal pieces with a hammer",
+      "summary": "Johannes Gutenberg was born in Mainz, Germany, about 1400 and learned to work with metal."
+    },
+    {
+      "n": 12,
+      "scene": "Gutenberg sits at a table covered with tools and papers in a Strasbourg room",
+      "summary": "In the 1430s and 1440s Gutenberg lived in Strasbourg, where records show him in a secret business and short of money."
+    },
+    {
+      "n": 13,
+      "scene": "Gutenberg studies a row of identical metal letters lined up on a bench",
+      "summary": "His key problem was how to make thousands of identical letters quickly; his idea was to cast them in a mould."
+    },
+    {
+      "n": 14,
+      "scene": "Molten metal is poured into a small hand mould and tiny letters fall out",
+      "summary": "A steel punch struck into soft metal made a matrix; a hot alloy of lead, tin and antimony poured into a hand mould gave identical letters."
+    },
+    {
+      "n": 15,
+      "scene": "A printer dabs thick black ink onto rows of metal letters with leather pads",
+      "summary": "Water-based ink slid off metal, so Gutenberg used a thick, sticky ink made with oil."
+    },
+    {
+      "n": 16,
+      "scene": "A large wooden screw press stands beside a table of inked type",
+      "summary": "Gutenberg adapted the screw press, used for wine, olives and paper, to press paper evenly against inked type."
+    },
+    {
+      "n": 17,
+      "scene": "A worker picks metal letters from a wooden case",
+      "summary": "A compositor picked letters from cases and set them in lines; later printers kept capitals in the upper case and small letters in the lower case."
+    },
+    {
+      "n": 18,
+      "scene": "Used metal letters are tipped back into a wooden case",
+      "summary": "After printing, the type was taken apart and reused for other pages, which made the method economical."
+    },
+    {
+      "n": 19,
+      "scene": "Gutenberg and a well-dressed merchant sign a paper beside a table of coins",
+      "summary": "Gutenberg borrowed 800 guilders from the wealthy merchant Johann Fust about 1450, and another 800 about two years later."
+    },
+    {
+      "n": 20,
+      "scene": "Letters in sharp black script fill two columns on a large page",
+      "summary": "His great project was a Latin Bible with 42 lines to a page, in black letters that copied the handwriting of scribes."
+    },
+    {
+      "n": 21,
+      "scene": "Workers set type, ink pages and turn presses in a busy workshop",
+      "summary": "A team worked for about three years, setting and printing more than a thousand pages letter by letter."
+    },
+    {
+      "n": 22,
+      "scene": "An artist paints a red and blue decorated capital letter on a printed page",
+      "summary": "Capitals and decorations were added by hand; about 180 copies were made, most on paper and some on vellum."
+    },
+    {
+      "n": 23,
+      "scene": "Buyers admire the new printed Bible at a crowded trade fair in Frankfurt",
+      "summary": "A letter of March 1455 by Enea Silvio Piccolomini praised the clear pages and reported that the copies were already said to be sold."
+    },
+    {
+      "n": 24,
+      "scene": "In a courtroom a judge listens as two men argue over money and machines",
+      "summary": "In 1455 Fust sued Gutenberg over the loans and won; Fust and Peter Schoeffer printed the Psalter of 1457, the first printed book with a date and printers' names."
+    },
+    {
+      "n": 25,
+      "scene": "An old man stands at a window while smoke rises above a town",
+      "summary": "In 1462 Mainz was captured in a local war and printers scattered; Gutenberg was honoured at court in 1465 and died in 1468."
+    },
+    {
+      "n": 26,
+      "scene": "Printers carry cases of type through a snowy mountain pass to a new town",
+      "summary": "Printers spread across Europe: Subiaco in 1465, Venice and Paris soon after, and more than 200 towns by 1500."
+    },
+    {
+      "n": 27,
+      "scene": "Tall stacks of identical new books fill a printer's warehouse",
+      "summary": "By 1500 perhaps ten to twenty million books existed; some historians say more were made in fifty years than scribes made in a thousand."
+    },
+    {
+      "n": 28,
+      "scene": "Aldus Manutius hands a small pocket-sized book to a reader in a Venice shop",
+      "summary": "In Venice, Aldus Manutius printed Greek and Latin classics and, from 1501, small cheap pocket books in italic type."
+    },
+    {
+      "n": 29,
+      "scene": "A reader turns a printed book to its title page and a numbered page",
+      "summary": "Printers invented reading aids such as title pages, page numbers, contents lists and indexes."
+    },
+    {
+      "n": 30,
+      "scene": "William Caxton examines a freshly printed sheet in his Westminster shop",
+      "summary": "William Caxton, an English merchant, learned printing abroad and set up England's first press at Westminster in 1476."
+    },
+    {
+      "n": 31,
+      "scene": "A merchant and a woman argue over the word for eggs",
+      "summary": "Caxton told a story of a merchant asking for eggs and a woman who said she spoke no French; printing slowly settled English spelling and forms."
+    },
+    {
+      "n": 32,
+      "scene": "A monk writes by hand beside a closed printed book",
+      "summary": "In 1492 the abbot Johannes Trithemius wrote In Praise of Scribes, arguing that parchment lasts longer than paper, and had it printed."
+    },
+    {
+      "n": 33,
+      "scene": "A printer counts unsold books piled in a dusty shop and frowns",
+      "summary": "Printing was a risky business, and many early printers went bankrupt because they printed more than they could sell."
+    },
+    {
+      "n": 34,
+      "scene": "A scholar compares a detailed printed drawing of the body with a textbook",
+      "summary": "In 1543 Vesalius published his anatomy book and Copernicus his book on the Earth moving around the Sun; printing let scholars compare and correct."
+    },
+    {
+      "n": 35,
+      "scene": "A huge world map made of many sheets is pinned to a wall",
+      "summary": "In 1507 Martin Waldseemuller's printed world map, made from twelve blocks, first used the name America; about a thousand copies were printed and only one survives."
+    },
+    {
+      "n": 36,
+      "scene": "A young monk in Wittenberg holds a sheet beside a printer",
+      "summary": "In 1517 Martin Luther wrote his Ninety-five Theses; printers copied them, and they spread within weeks, whether or not he nailed them to a door."
+    },
+    {
+      "n": 37,
+      "scene": "Villagers gather around a cheap printed sheet with bold drawings and short text",
+      "summary": "Luther's side used cheap pamphlets with woodcut drawings, and his German New Testament of 1522 sold in huge numbers."
+    },
+    {
+      "n": 38,
+      "scene": "Officials burn banned pamphlets while a cart of hidden books leaves",
+      "summary": "Rulers tried to control printing with licences and the Church's Index of forbidden books in 1559, but books were smuggled across borders."
+    },
+    {
+      "n": 39,
+      "scene": "Workers in a hot colonial print shop pull the handle of a wooden press",
+      "summary": "Printing crossed the oceans: the first press in the Americas opened in Mexico City in 1539, and the first in India at Goa in 1556."
+    },
+    {
+      "n": 40,
+      "scene": "A scholar in an Istanbul study compares an Arabic manuscript with a printed sheet",
+      "summary": "In Istanbul, Jewish printers worked by 1493, but books in Arabic script were not printed there until 1729, by Ibrahim Muteferrika."
+    },
+    {
+      "n": 41,
+      "scene": "Customers read news sheets at tables in a busy coffee house",
+      "summary": "In 1605 Johann Carolus began a weekly news sheet in Strasbourg, often called the first newspaper, and news became a weekly habit."
+    },
+    {
+      "n": 42,
+      "scene": "An author writes at a desk while a printer waits",
+      "summary": "Britain's Statute of Anne of 1710, the first copyright law, gave authors rights to their work for a fixed number of years."
+    },
+    {
+      "n": 43,
+      "scene": "Readers in a candlelit room study volumes of a great encyclopedia",
+      "summary": "In the 1700s printing spread Enlightenment ideas: Diderot's Encyclopédie of 1751 to 1772 and political pamphlets that fed the American and French revolutions."
+    },
+    {
+      "n": 44,
+      "scene": "A giant steam-driven press roars in a newspaper works in London",
+      "summary": "In 1814 The Times used Friedrich Koenig's steam press, which printed about 1,100 sheets an hour, far faster than a hand press."
+    },
+    {
+      "n": 45,
+      "scene": "A machine operator at a Linotype keyboard watches a line of metal drop out",
+      "summary": "In 1886 Ottmar Mergenthaler's Linotype cast a whole line of type at once from a keyboard, speeding up typesetting."
+    },
+    {
+      "n": 46,
+      "scene": "A computer screen displays an old text beside a stack of printed books",
+      "summary": "Later came photographic offset printing and digital typesetting; in 1971 Project Gutenberg began putting books online as electronic texts."
+    },
+    {
+      "n": 47,
+      "scene": "People of all ages read phones, tablets and paper books in a café",
+      "summary": "Today the internet lets almost anyone publish, like a new printing revolution, and printed books are still loved by millions."
+    },
+    {
+      "n": 48,
+      "scene": "A crowd reads a sensational pamphlet full of frightening rumours in a market square",
+      "summary": "Printing spread falsehoods and fear as well as knowledge, so readers had to learn to judge their sources."
+    },
+    {
+      "n": 49,
+      "scene": "A thoughtful reader holds a single page up to the light of a window",
+      "summary": "Historians debate how much the press caused by itself, but it made texts fixed, shareable and checkable."
+    },
+    {
+      "n": 50,
+      "scene": "A person holds a book in one hand and a phone in the other",
+      "summary": "Gutenberg's idea of reusable letters and patient work lives on in every book and screen."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Long ago, a book was a rare and precious thing.",
+      "Workers copied every book by hand, slowly, one word at a time.",
+      "Books were so precious that some libraries chained them to desks.",
+      "Most people could not read, so they learned by listening.",
+      "Copyists made mistakes, so no two copies were the same.",
+      "Printing was not new, because people in China did it first.",
+      "Later, in China and Korea, people made letters that could move.",
+      "Chinese uses thousands of different signs, so this method was harder.",
+      "Paper came to Europe, and it cost less than animal skin.",
+      "By 1400, towns were growing, and more people wanted to read.",
+      "Johannes Gutenberg was born in Germany around the year 1400.",
+      "For years, Gutenberg worked on a secret idea and needed money.",
+      "He needed many letters that were all the same shape and size.",
+      "He poured hot metal into a small mould to make each letter.",
+      "Normal ink slid off the metal, so he made a thicker ink.",
+      "He used a big press, like the ones for making wine.",
+      "A worker picked each letter from a box and placed it in a line.",
+      "After printing, he used the same letters again for new pages.",
+      "Gutenberg needed money, so he borrowed a lot from a rich man.",
+      "He decided to print a big Bible, the most important book.",
+      "Many workers helped him, and the work took about three years.",
+      "Artists added colour by hand, and about 180 copies were made.",
+      "In 1455, a famous letter said people wanted the new Bible.",
+      "Fust took Gutenberg to court and won, and Gutenberg lost his shop.",
+      "Gutenberg grew old without fame, and he died in 1468.",
+      "Printers left Mainz and opened new shops in other towns.",
+      "In only fifty years, printers made millions of new books.",
+      "In Venice, a printer made small books that fit in a pocket.",
+      "Printers added page numbers and title pages to help readers.",
+      "William Caxton brought printing to England in 1476.",
+      "Words in English changed from town to town, which was confusing.",
+      "Some people said that copying by hand was better than printing.",
+      "Printing was a risky job, and many printers lost their money.",
+      "Printed books helped scientists share exact drawings and facts.",
+      "In 1507, a printed map first used the name America.",
+      "In 1517, Martin Luther wrote a list of complaints about the Church.",
+      "Cheap printed sheets carried new ideas to ordinary people.",
+      "Rulers and church leaders tried to stop some books.",
+      "Printing crossed the sea to Mexico in 1539.",
+      "In some lands, printing came much later, for many reasons.",
+      "In 1605, a printer in Strasbourg started a weekly newspaper.",
+      "In 1710, Britain made a law to protect writers.",
+      "In the 1700s, printed books spread new ideas about freedom.",
+      "In 1814, a steam machine printed a newspaper much faster.",
+      "In 1886, a new machine made a whole line of type at once.",
+      "Later, computers took over, and books began to appear on screens.",
+      "Today anyone can write something and share it with the world.",
+      "Printing spread lies as quickly as it spread facts.",
+      "Printing made the same words available to many people at once.",
+      "Every book you read still carries Gutenberg's simple idea."
+    ],
+    "B1B2": [
+      "Imagine living in a world in which most people had never even touched a book. Six hundred years ago, in most villages in Europe, a book was a rare treasure that few people ever held.",
+      "Every book was copied by hand by a trained writer called a scribe. Using a quill pen and ink, a scribe might need many months to copy one large book onto sheets of treated animal skin.",
+      "Books were so valuable that some libraries fastened them to their desks with iron chains. Even a great monastery might own only a few hundred books, and a village church only a handful.",
+      "In the 1400s, only a small share of Europeans could read well. Most people learned about the world by listening to priests, storytellers, neighbours and their own families.",
+      "Even careful scribes made mistakes, and a tired one might skip a line or change a word. When a copy was copied again, the old mistakes were copied too, and new ones crept in.",
+      "Printing was not a European invention, because printers in China had been making books for centuries. They carved each page into a block of wood, and the Diamond Sutra, printed in 868, is the oldest dated printed book that survives.",
+      "Around 1040, a Chinese craftsman named Bi Sheng made separate characters from baked clay and set them in a frame. In Korea, printers later cast characters in metal, and a Buddhist book called the Jikji was printed with them in 1377.",
+      "Movable type did not replace block printing in China, and historians point to the writing system as one reason. A printer needed thousands of different characters, so carving a whole block for each page was often simpler.",
+      "Paper reached Europe through Spain and Italy, and by the late 1200s Italian mills were making it in large amounts. It was made from old linen rags, and it cost much less than parchment.",
+      "By the 1400s, European towns were growing quickly, and trade between them was booming. Merchants needed to keep accounts, students filled the universities, and more and more people wanted to read.",
+      "Johannes Gutenberg was born in the German city of Mainz around the year 1400, though the exact date is not known. He learned to work with metal, a skill that would later prove far more useful than anyone could have imagined.",
+      "In the 1430s, Gutenberg lived in the city of Strasbourg, and court papers show that he worked with partners on a secret project. Historians cannot be sure what it was, but they know that he was often short of money.",
+      "Gutenberg's great problem was how to make thousands of letters that were exactly alike. Carving each letter by hand would take far too long, so he searched for a way to make them quickly and cheaply.",
+      "First, a letter was carved in hard metal and hammered into a softer piece to make a mould shape. Then hot liquid metal, a mixture of lead, tin and antimony, was poured in, and it cooled into a perfect new letter.",
+      "The ink that scribes used was thin and watery, and it ran off metal letters like rain off a roof. Gutenberg is thought to have made a thick, sticky ink from oil and soot, like the oil paints that artists were beginning to use.",
+      "For the press itself, Gutenberg adapted a machine that people had known for many centuries. Farmers used big wooden screw presses to squeeze grapes and olives, and he turned one into a machine that pressed paper against letters.",
+      "To make a page, a worker called a compositor picked letters from a wooden case and placed them in lines, one by one. Later printers kept capital letters in the upper case and small letters in the lower, which gave us two names we still use.",
+      "After a page was printed, the letters were taken apart and put back in their case. They could be used again for other pages, so the method was far cheaper than carving a new block each time.",
+      "All this work cost a great deal, so around 1450 Gutenberg borrowed money from a rich Mainz merchant named Johann Fust. Later court records say that Fust lent him 800 guilders, and then another 800 about two years afterwards.",
+      "The book he chose to print was the Bible in Latin, the most important book in Europe at that time. His letters copied the elegant black handwriting of the best scribes, so the printed pages looked familiar to readers.",
+      "Gutenberg ran a busy workshop, with workers who set the type, mixed the ink and worked the presses. The Bible took roughly three years to finish, and every page had to be set letter by letter.",
+      "After printing, artists painted red lines and decorated capitals onto the pages by hand. About 180 copies were made, most on paper and the rest on a very fine parchment called vellum.",
+      "In March 1455, a church official named Enea Silvio Piccolomini wrote a letter about the new Bible. He had seen its pages, and he wrote that the copies were already said to be sold.",
+      "In 1455, Fust took Gutenberg to court over the unpaid loans and won. The ruling gave Fust much of the equipment, and he and Peter Schoeffer soon printed a splendid Psalter.",
+      "In 1462, a war over the control of Mainz scattered many of the city's printers. Gutenberg himself was given an honourable position at the archbishop's court in 1465, and he died in 1468, long before his idea made him famous.",
+      "German printers carried their skills across Europe, like seeds blown by the wind. Presses opened in Italy in 1465 and in Paris in 1470, and by 1500 more than two hundred towns had one.",
+      "By the year 1500, printers had probably produced somewhere between ten and twenty million books. Some historians believe that more books were made in those fifty years than scribes had managed in the previous thousand.",
+      "In Venice, a printer named Aldus Manutius published fine editions of ancient Greek and Latin works. From 1501, he also made small books that readers could carry in a pocket, using a slanted style of type that saved space.",
+      "Printers soon added useful features that made books much easier to use. Title pages, page numbers, tables of contents and indexes all became common, so a reader could find a fact without reading the whole book.",
+      "An English merchant named William Caxton learned about printing while living in Bruges and Cologne. In 1476, he set up England's first press at Westminster, near London, and printed Chaucer's Canterbury Tales among many other works.",
+      "Caxton complained that English changed so much from place to place that it was hard to choose which words to print. He told a story of a merchant who asked for eggs, while the woman replied that she could not speak French.",
+      "Not everyone was pleased about the new machines, and some people feared what they might lead to. In 1492, the abbot Johannes Trithemius wrote a book in praise of scribes, arguing that parchment lasts far longer than paper.",
+      "Printing was a risky business, and not every early printer became rich. Many shops printed more copies than they could sell, so some printers went bankrupt and had to close.",
+      "Printing helped science, because scholars could now share exact drawings and tables with many readers. In 1543, Vesalius published a book on the body full of detailed drawings, and Copernicus argued that the Earth moves around the Sun.",
+      "In 1507, the mapmaker Martin Waldseemuller printed a huge map of the world on twelve sheets. It was the first map to use the name America, and about a thousand copies were probably printed, although only one is known to survive.",
+      "In 1517, a German monk named Martin Luther wrote ninety-five statements criticising some practices of the Church. People still debate whether he nailed them to a church door, but printers soon copied them, and they spread across Germany within weeks.",
+      "Luther and his supporters printed cheap pamphlets, often with bold drawings that even people who could not read could follow. In 1522, he published the New Testament in everyday German, and it sold in huge numbers.",
+      "Rulers and church leaders soon tried to control what printers were allowed to print. Printers needed licences, and in 1559 the Church published an Index of forbidden books, but smugglers still carried them across borders.",
+      "Printing soon travelled far beyond Europe, across the great oceans. The first press in the Americas began work in Mexico City in 1539, and a press in Goa, India, followed in 1556.",
+      "Jewish printers were already working in Istanbul by 1493, but books in Arabic script were not printed there until 1729. The printer was Ibrahim Muteferrika, and historians still debate the reasons for the long delay.",
+      "In 1605, a printer in Strasbourg named Johann Carolus began to publish a weekly news sheet that is often called the first newspaper. Soon other cities had their own, and people came to expect news every week.",
+      "Printers and booksellers once controlled who could copy a book, and authors often had little say. In 1710, a British law called the Statute of Anne gave authors legal rights to their work for a fixed number of years.",
+      "In the 1700s, printing helped to spread the ideas of the Enlightenment. Diderot's great Encyclopédie, published between 1751 and 1772, tried to gather all knowledge into one set of books, while cheap pamphlets carried political ideas to thousands.",
+      "For more than three hundred years, printing was done in much the same way as in Gutenberg's day. In 1814, the London newspaper The Times began to use a steam-powered press that could print about 1,100 sheets an hour.",
+      "Setting type by hand, letter by letter, was still slow, until Ottmar Mergenthaler built the Linotype machine in 1886. The operator typed on a keyboard, and the machine cast a complete line of metal type at once.",
+      "In the twentieth century, photography and computers replaced metal type, and printing became faster and cheaper still. In 1971, a project named after Gutenberg began to put books on computers, so that anyone could read them for free.",
+      "Today almost anyone can publish their words to the whole world with a phone. In some ways this is the printing revolution all over again, and printed books are still bought and loved by millions.",
+      "Printing was never only a force for good, and not everything that was printed was true. Cheap pamphlets spread rumours and frightening stories as quickly as they spread knowledge, so readers had to learn whom to trust.",
+      "Historians still argue about how much the printing press changed by itself, because many other things were changing at the same time. Most agree that it made words fixed and shareable, so thousands of readers could study exactly the same text.",
+      "Gutenberg died without knowing how far his idea would travel across the world. The reusable letter, the oily ink and the screw press were small inventions, but together they put words into the hands of millions."
+    ],
+    "C1C2": [
+      "Imagine a world in which hardly anyone owned a book, and in which most people had never seen one up close. Six hundred years ago, across much of Europe, a book was a rare and costly treasure, kept under lock and key by churches, rich families and a handful of scholars. Everything that follows in this story begins with that quiet world, and with the people who changed it.",
+      "Every book was copied by hand, usually by a trained scribe working with a quill pen and ink on parchment, a material made from carefully prepared animal skin. A single large volume, such as a Bible, could occupy a skilled scribe for many months, and sometimes for years. The result was beautiful but expensive, so a single book could cost more than an ordinary family could ever hope to spend.",
+      "So valuable were books that some libraries fastened them to their reading desks with iron chains, much as a modern shop might lock up its jewellery. Even a great monastery or university might own only a few hundred volumes, and a village church often possessed no more than a handful. To read at all, most people had to travel to the book, because the book could not travel to them.",
+      "In the 1400s, only a small minority of Europeans could read with ease, and most of those belonged to the Church, the universities or the wealthier families of the towns. Everyone else gathered their knowledge by ear, from sermons, songs, stories and the gossip of the market. Ideas travelled at the pace of a walking messenger, and whatever was written down stayed, for the most part, in the hands of a few.",
+      "Even the most careful scribe made slips, and a tired one might skip a line, repeat a word or misread a faint letter in the book he was copying. When that copy was copied in turn, the errors travelled on and fresh ones crept in, so that no two handwritten copies of a long book were ever exactly alike. A scholar in one city could never be quite sure that his text matched the text of a scholar in another.",
+      "Printing was not, in fact, a European invention, for printers in China had been making books for centuries before Gutenberg was born. They carved the mirror image of a whole page into a block of wood, inked it and pressed paper against it, and the Diamond Sutra of 868, the oldest dated printed book to survive, was made in this way. The method worked well for pages that would be printed again and again, but every new page needed a new block.",
+      "Around 1040, a Chinese craftsman named Bi Sheng made separate characters from baked clay, arranged them in an iron frame and printed with them, so that the same pieces could be used again for a different page. In Korea, printers went further and cast their characters in metal, and a Buddhist teaching book called the Jikji, printed in 1377, is the oldest surviving book made with movable metal type. Historians have found no firm proof that these ideas ever reached Europe, and Gutenberg's version seems to have been worked out on its own.",
+      "Movable type never completely replaced block printing in East Asia, and historians point to several possible reasons. A printer using Chinese characters needed many thousands of different pieces, whereas a printer using an alphabet needed only a few dozen, and carving a block for each page could be quicker and cheaper for many jobs. The contrast reminds us that an invention succeeds only when it fits the world around it.",
+      "Paper made its way into Europe through Muslim Spain and Italy, and by the late 1200s, water-powered mills in Italian towns were turning old linen rags into thin white sheets. It was far cheaper than parchment, which demanded the skins of many animals for a single large book, and it took ink well. Without this humble material, printing on a large scale would have been far too costly to attempt.",
+      "By the middle of the fifteenth century, European towns were growing, trade was flourishing, and a new class of merchants, lawyers and craftsmen was eager to learn. Universities were full of students, and more families wanted their children to read, write and keep accounts. The demand for books was rising faster than scribes could possibly supply them, and the world was waiting for a better way.",
+      "Johannes Gutenberg was born in the German city of Mainz around the year 1400, although the exact date is unknown, and he grew up in a family with connections to the city's coin-making workshops. He is thought to have learned the goldsmith's skills of shaping, casting and polishing metal with great precision, and these skills proved more useful than he could have imagined. Of the man himself, surprisingly little is certain, and no portrait made during his lifetime has ever been found.",
+      "In the 1430s and 1440s, Gutenberg lived mostly in Strasbourg, and surviving court papers show him working with partners on a project that he kept carefully secret. Historians cannot be certain of the details, but the documents suggest that his experiments were costly and that he was often short of money. It was the first sign that he was chasing an idea bigger than a goldsmith's trade.",
+      "The central puzzle was how to make thousands of tiny letters that were exactly alike, for type that varied by even a fraction of a millimetre would print crooked, uneven lines. Carving each one by hand would have taken far too long and produced far too many differences. Gutenberg's answer, which probably emerged after years of trial and failure, was to make a mould and cast the letters in metal, as a baker stamps out many identical biscuits with a single cutter.",
+      "First, the shape of each letter was carved on the end of a hard steel punch, and the punch was struck into a softer piece of metal to leave a hollow impression called a matrix. The matrix was fitted into a small hand mould, into which the printer poured a hot alloy of lead, tin and antimony, and within moments a perfect new letter had cooled and could be tipped out. This alloy melts easily, hardens fast and hardly shrinks, which made it ideal for the job, and similar mixtures were used for centuries.",
+      "The thin, watery ink that scribes used would not cling to metal, and it ran off the letters in useless droplets. Gutenberg therefore developed a thick, sticky ink, probably made from linseed oil boiled into a varnish and mixed with soot, which resembled the oil paints that artists were beginning to use. The result was a deep, glossy black that stayed sharp on the paper and still looks remarkably dark after more than five hundred years.",
+      "For the press itself, Gutenberg adapted a machine that was already familiar throughout Europe, the wooden screw press used to squeeze juice from grapes and oil from olives. By turning a long handle, the printer lowered a flat plate that pressed the paper firmly and evenly against the inked letters, and then raised it again to reveal a sharp, clear page. It was not a miraculous machine, but a clever combination of old tools put to a new purpose.",
+      "To make a page, a worker called a compositor picked the letters one by one from a wooden case and arranged them in lines, with each letter facing backwards so that it would print the right way round. Later printers kept their capitals in the upper case and their small letters in the lower case, which is why we still speak of upper case and lower case letters today. Each line was then fitted with spaces so that the edges of the text formed a tidy block.",
+      "Once enough copies of a page had been printed, the lines of type were broken up and every letter was returned to its compartment in the case, ready to be used again. This reuse was the great economy of the system, because a single stock of metal letters could print a whole book, and then another, without any new carving. A carved wooden block, by contrast, could print only the one page it had been cut for.",
+      "All this equipment, metal and labour cost a fortune, and around 1450 Gutenberg turned to a wealthy Mainz merchant named Johann Fust for a loan. According to the court records that survive, Fust lent him 800 guilders at first and then another 800 a couple of years later, which was a very large sum in those days. It was a bargain that would eventually bring Gutenberg both his greatest achievement and his greatest misfortune.",
+      "The book that Gutenberg chose to print was the Latin Bible, the most important and most widely read text in the Christian world, and the one most likely to find buyers. He designed his letters to imitate the dark, angular handwriting of the finest scribes, and he set most pages in two columns of forty-two lines each, which is why it is known as the 42-line Bible. A reader opening one of these books would have seen a page that looked handwritten, only more regular and more perfect.",
+      "Behind the Bible stood a busy workshop, with skilled men to set the type, mix the ink and work the presses, among them, probably, a young scribe named Peter Schoeffer, who would later become a famous printer himself. Every page of a book of more than twelve hundred pages had to be set letter by letter, printed, checked and then taken apart again. It was a vast undertaking, and it is thought to have taken about three years.",
+      "After the sheets had been printed, skilled artists decorated them by hand, adding red lines, painted capitals and delicate borders so that each copy became a unique work of art. Historians estimate that about one hundred and eighty copies were produced, most on paper and the rest on vellum, a very fine parchment made from calfskin. Roughly fifty of them survive in whole or in part, and they are among the most valuable books in the world.",
+      "In March 1455, a church official named Enea Silvio Piccolomini, who later became Pope Pius II, wrote a letter to a friend about the astonishing new Bible he had seen. He reported that its letters were so clear that they could be read without glasses, and that buyers were said to have taken all the copies already. Whatever the exact truth, the letter proves that the new books had caught the attention of educated Europe within months.",
+      "In 1455, Fust took Gutenberg to court, claiming that his loans and their interest had not been repaid, and the judgement went in Fust's favour. Much of the printing equipment passed into Fust's hands, and he went into business with Peter Schoeffer, the clever young scribe who had worked in Gutenberg's workshop. Their splendid Psalter of 1457 was the first printed book to carry both a date and the names of its printers, a detail that Gutenberg himself never added to any of his work.",
+      "In 1462, Mainz was captured during a quarrel between rival archbishops, and many of its printers fled the city, carrying their skills with them. Gutenberg himself was honoured in 1465 with a place at the archbishop's court and a yearly supply of clothing, grain and wine, and he died in 1468, with no idea of how famous his invention would one day make him. No portrait of him was painted in his lifetime, so every likeness we know of him is imagined.",
+      "German printers carried their craft across Europe like seeds scattered by the wind, and each new press became the centre of a small industry. The first Italian press opened at Subiaco in 1465, Venice and Paris followed within a few years, and by 1500 more than two hundred European towns had at least one printing shop. Few technologies in history have ever spread so quickly through so many different countries and cultures.",
+      "By the year 1500, printers had probably produced somewhere between ten and twenty million books, a number that would have seemed fantastic to any medieval librarian. Some historians believe that more books were made during those fifty years than all the scribes of Europe had managed in the previous thousand, although such comparisons can only ever be rough. Whatever the precise figure, the supply of written words in Europe had clearly changed beyond recognition within a single lifetime.",
+      "In Venice, the printer Aldus Manutius filled his shop with scholars and published beautiful editions of ancient Greek and Latin works that had been hard to find for centuries. From 1501, he also produced small, inexpensive books that could be slipped into a pocket or saddlebag, and he used a new slanted type, now called italic, that saved space on the page. For the first time, a person could carry a whole poem or a play on a walk, a ride or a journey.",
+      "Printers soon developed features to help readers find their way, and most of them are so familiar that we hardly notice them. Title pages, page numbers, tables of contents and alphabetical indexes all became common in the decades after Gutenberg, so that a reader could locate a fact without reading the whole book from the beginning. Because every copy of an edition was identical, these aids worked for every reader, which was not possible with handwritten books.",
+      "William Caxton, an English merchant who had lived for many years in the Low Countries, learned the new craft while abroad and brought it home in 1476, setting up his press in Westminster, beside London. Among the first books he printed was Chaucer's Canterbury Tales, followed later by works such as Malory's tales of King Arthur. By the time of his death in about 1492, he had printed about a hundred different titles, most of them in English.",
+      "Caxton wrote that English varied so greatly from county to county that a printer hardly knew which words to choose. In one famous story, a merchant who had come ashore in Kent asked a woman for eggs, and she replied that she spoke no French, because in her part of the country the word was “eyren”. As books travelled widely, the forms used in and around London became more familiar everywhere, and spelling gradually settled into the shape we know.",
+      "Not everyone welcomed the change, and some people feared that cheap, hurried printing would damage learning. In 1492, the German abbot Johannes Trithemius wrote a book in praise of scribes, arguing that parchment lasts far longer than paper and that copying by hand was a healthy discipline for monks. Ironically, the book was soon printed, because even its author could see that a press was the quickest way to spread his message.",
+      "The new trade was a risky gamble, and not every printer became rich as a result. Presses were expensive, paper was costly, and in many towns the first shops printed more copies than their customers could buy, so that unsold stock piled up and some printers were ruined. The survivors learned to choose their books carefully, to follow the tastes of readers and to sell across borders, and in doing so they helped to invent the modern publishing business.",
+      "Printing helped science to grow, because scholars could now share exact drawings, tables and measurements with readers far away, and every reader saw the same thing. In 1543, the Flemish physician Andreas Vesalius published a book on the human body with remarkably detailed woodcut illustrations, and in the same year Nicolaus Copernicus published his argument that the Earth moves around the Sun. Because their books were printed, other scholars across Europe could study them, test them and, where necessary, correct them.",
+      "In 1507, the German mapmaker Martin Waldseemuller published an enormous map of the world, printed from twelve carved wooden blocks and pasted together into a single wall hanging. It was the first map to use the name America for the new lands across the Atlantic, and around a thousand copies are thought to have been printed. Only one is known to survive, which shows how easily even a widely printed object can disappear.",
+      "In 1517, the German monk Martin Luther wrote ninety-five statements criticising the Church's sale of pardons, which were known as indulgences. Historians still debate whether he really nailed them to a church door in Wittenberg, but there is no doubt that printers copied his words, and within weeks they were being read across Germany. A challenge that might once have stayed a local argument among scholars became a public debate within a few months.",
+      "Luther and his supporters understood the power of the press, and they printed cheap pamphlets, many of them with bold woodcut drawings that even people who could not read could follow. In 1522, Luther published his German translation of the New Testament, written in the everyday language of ordinary people, and it sold in huge numbers. Historians estimate that hundreds of thousands of copies of his writings circulated in just a few years, an astonishing figure for the time.",
+      "Rulers and church leaders quickly saw that the press could spread dangerous ideas as well as useful ones, and they tried to control it. Printers were required to obtain licences, some were punished for printing the wrong thing, and in 1559 the Catholic Church published an Index of forbidden books. Yet a book printed in one country could be smuggled into another, so that control was always incomplete, and censors were forever one step behind.",
+      "Printing soon travelled far beyond Europe, carried across the oceans by missionaries, officials and merchants. The first printing press in the Americas began work in Mexico City in 1539, and the first in India was set up at Goa in 1556, where it printed religious works. In many places, the new machines were used to spread the languages and beliefs of the colonial powers, a fact that complicates the story of printing as a simple gift to humanity.",
+      "Printing did not spread at the same speed everywhere, and in the Ottoman capital of Istanbul, Jewish printers were at work by 1493, but the first books in Arabic script were not printed there until 1729. Their printer, Ibrahim Muteferrika, an Ottoman official, opened his press with the sultan's permission. Historians still debate why the delay was so long, and they point to several possible reasons, from religious caution to the livelihoods of the professional copyists.",
+      "In 1605, a printer in Strasbourg named Johann Carolus began to publish a weekly sheet of news that is often called the first true newspaper. Other cities soon followed, and in the coffee houses of the following decades people would gather to read the latest sheets aloud and argue about them. For the first time, ordinary readers could follow events in distant places week by week, and the habit of public opinion began to take shape.",
+      "As printing became a big business, a quarrel grew about who should own a book: the writer, or the printer who paid for it. In 1710, Britain passed the Statute of Anne, widely seen as the first copyright law, which gave authors the right to control the copying of their work for a fixed number of years. The principle that creators deserve a say, and a reward, has shaped the world of books, music and films ever since.",
+      "In the 1700s, printing carried the ideas of the Enlightenment across Europe, and nothing symbolised the age better than Diderot's Encyclopédie, a huge set of books published between 1751 and 1772 that tried to gather human knowledge in one work. Cheap pamphlets, meanwhile, spread political arguments among thousands of readers and played a notable part in the debates that led to the American and French revolutions. A ruler could silence a speech far more easily than he could track down every copy of a printed page.",
+      "For more than three hundred years, printing had been done in much the same way as it was in Gutenberg's workshop, with the printer pulling a lever for every single sheet. In 1814, the London newspaper The Times began to use a steam-powered press designed by Friedrich Koenig, which could print about eleven hundred sheets an hour, several times faster than a hand press. Newspapers, books and cheap magazines could now be made in huge numbers, and reading became part of everyday life for millions.",
+      "Even with steam presses, the setting of type remained slow, because a compositor still had to pick up every letter by hand. In 1886, the German-born inventor Ottmar Mergenthaler solved the problem with the Linotype, a machine on which the operator typed on a keyboard while the machine cast a complete line of metal type, ready for the press. The Linotype and its relatives dominated newspaper printing for nearly a century, until computers took over the task.",
+      "In the twentieth century, photography, offset printing and finally computers replaced the metal letters that Gutenberg had cast, and a book could be designed and printed with a speed that his workers would have found magical. In 1971, a volunteer project named in his honour, Project Gutenberg, began to type famous books into computers so that anyone could read them freely, which makes it one of the earliest electronic libraries. The old craft of metal type had quietly become a small branch of the new science of computing.",
+      "Today almost anybody can publish words, photographs and videos to the whole world with a phone, and in many ways it feels like the printing revolution all over again. Just as in the 1500s, there is more knowledge within reach than ever before, but also more noise, more argument and more rumour. Printed books, however, have not disappeared, and millions of people still choose to hold a bound volume in their hands.",
+      "It would be wrong to say that printing was simply a force for good, because a machine that copies words does not care whether they are true. Cheap pamphlets carried rumours, scare stories and prejudice just as quickly as they carried science and poetry, and in every age readers have had to learn whom and what to trust. The lesson of the press is that every powerful tool for sharing information also demands new habits of care from those who use it.",
+      "Historians still argue about how much the printing press caused by itself, because trade, religion, politics and education were all changing at the same time, and the press both helped those changes and was helped by them. What nearly all of them accept is that print made knowledge fixed, shareable and checkable, so that thousands of people in different places could study exactly the same words. That shared page, the same in Venice and in London, was the foundation on which later science, law and public debate were built.",
+      "Gutenberg died without ever knowing how far his idea would travel, and he never saw the libraries, schools and newspapers that grew from it. Reusable letters, oily ink and a screw press seem like small inventions, but together they put words into the hands of the many instead of the few. Every book we open, on paper or on a screen, carries a trace of that patient work, and a reminder that a simple tool can change the world."
+    ]
+  }
+}
