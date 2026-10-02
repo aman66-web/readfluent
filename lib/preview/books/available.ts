@@ -11,8 +11,7 @@ import { loadDictionary, loadEnglish, loadTranslation } from "./load";
 const TRANSLATIONS = ["es"] as const;
 
 export async function readableLanguages(slug: string, source: "file" | undefined): Promise<string[]> {
-  // The sample book carries the template's Spanish pages.
-  if (source !== "file") return slug === "pride-and-prejudice" ? ["es"] : [];
+  if (source !== "file") return [];
   const en = await loadEnglish(slug);
   if (!en) return [];
   const out: string[] = [];

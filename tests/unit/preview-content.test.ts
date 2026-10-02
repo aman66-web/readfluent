@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { CATEGORIES, LENGTHS, LEVELS, PAGE_WORDS, levelBySlug, wordCount } from "@/lib/content/limits";
-import { PREVIEW_BOOKS, findBook, pagesOf } from "@/lib/preview/catalog";
+import { PREVIEW_BOOKS, findBook } from "@/lib/preview/catalog";
 
 /**
  * The temporary preview content must obey the same page rule the real content
@@ -33,38 +33,13 @@ describe("the fixed vocabulary", () => {
   });
 });
 
-describe("the preview book", () => {
+/** Every book's pages are checked in books.test.ts and by scripts/books/check-en.ts; here, only the catalogue. */
+describe("the catalogue", () => {
   const book = findBook("pride-and-prejudice")!;
 
-  it("exists and is a classic in a real category", () => {
+  it("has Pride and Prejudice as a classic in a real category, and no slug twice", () => {
     expect(book.kind).toBe("classic");
     expect(CATEGORIES.map((c) => c.id)).toContain(book.category);
     expect(PREVIEW_BOOKS.map((b) => b.slug)).toEqual([...new Set(PREVIEW_BOOKS.map((b) => b.slug))]);
-  });
-
-  it("has every page of every level inside the word limits", () => {
-    for (const level of LEVELS) {
-      for (const p of pagesOf(book, level.id)) {
-        const n = wordCount(p.text);
-        expect(n, `${level.id} page ${p.n} has ${n} words`).toBeGreaterThanOrEqual(PAGE_WORDS.min);
-        expect(n, `${level.id} page ${p.n} has ${n} words`).toBeLessThanOrEqual(PAGE_WORDS.max);
-      }
-    }
-  });
-
-  it("tells the same story at every level: the same number of pages, each tied to the same scene", () => {
-    const counts = LEVELS.map((l) => pagesOf(book, l.id).length);
-    expect(new Set(counts).size).toBe(1);
-    expect(counts[0]).toBe(book.scenes.length);
-    for (const l of LEVELS) expect(pagesOf(book, l.id).map((p) => p.scene)).toEqual(book.scenes.map((s) => s.n));
-  });
-
-  it("gets harder with the level: longer words on average", () => {
-    const avgWordLength = (id: (typeof LEVELS)[number]["id"]) => {
-      const words = pagesOf(book, id).flatMap((p) => p.text.split(/\s+/)).map((w) => w.replace(/[^A-Za-z]/g, ""));
-      return words.reduce((a, w) => a + w.length, 0) / words.length;
-    };
-    expect(avgWordLength("A1A2")).toBeLessThan(avgWordLength("B1B2"));
-    expect(avgWordLength("B1B2")).toBeLessThan(avgWordLength("C1C2"));
   });
 });

@@ -12,9 +12,9 @@ const read = <T,>(slug: string, file: string): T => JSON.parse(readFileSync(new 
 const WRITTEN = PREVIEW_BOOKS.filter((b) => b.source === "file" && !b.generated);
 
 describe("the hand-written books", () => {
-  it("are four, each offered at its one length (50 pages, or 200 once it is full-length), with no text in the app's own code", () => {
+  it("are five, each offered at its one length (50 pages, or 200 once it is full-length), with no text in the app's own code", () => {
     expect(WRITTEN.map((b) => b.slug).sort()).toEqual([
-      "alice-s-adventures-in-wonderland", "the-hound-of-the-baskervilles", "the-richest-man-in-babylon", "trees-talk-to-each-other",
+      "alice-s-adventures-in-wonderland", "pride-and-prejudice", "the-hound-of-the-baskervilles", "the-richest-man-in-babylon", "trees-talk-to-each-other",
     ]);
     for (const b of WRITTEN) {
       const pages = read<EnBook>(b.slug, "en.json").levels.A1A2.length;
