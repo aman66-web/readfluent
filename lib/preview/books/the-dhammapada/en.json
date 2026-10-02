@@ -2,7 +2,29 @@
  "slug": "the-dhammapada",
  "meta": {
   "blurb": "Suffering follows a troubled mind, says an old verse, the way a cart wheel follows the ox. The Dhammapada gathers short sayings linked to the Buddha on anger, habit and peace, each one small enough to carry through your day.",
-  "bible": "The Dhammapada: a Buddhist collection of 423 short verses in 26 chapters, part of the Pali Canon (the Khuddaka Nikaya); the name is often translated as the path of the teaching. Buddha: the awakened teacher who lived in northern India more than two thousand years ago; tradition links the verses to his teaching. Pali: the ancient language of the verses. Dhamma: the teaching. Nibbana: the freedom of a mind at peace. Mara: the tempter who stands for everything that holds the heart in sleep. Arahant: the worthy one who has reached the end of the path. Brahmin: here a truly noble person, one who is noble by conduct, not by birth. Noble Eightfold Path and Four Noble Truths: the core of the teaching. Each beat is one chapter or verse of the book, named by its chapter: Twin Verses, Heedfulness, Mind, Flowers, The Fool, The Wise, The Worthy, Thousands, Evil, Punishment, Old Age, The Self, The World, The Buddha, Happiness, Affection, Anger, Impurity, The Path, The Elephant, Craving, The Monk, The Brahmin. Voice and tone: calm, kind, respectful and plain; verses are paraphrased and never copied; nothing is preached and no other tradition is compared or criticised; no gore."
+  "bible": "The Dhammapada: a Buddhist collection of 423 short verses in 26 chapters, part of the Pali Canon (the Khuddaka Nikaya); the name is often translated as the path of the teaching. Buddha: the awakened teacher who lived in northern India more than two thousand years ago; tradition links the verses to his teaching. Pali: the ancient language of the verses. Dhamma: the teaching. Nibbana: the freedom of a mind at peace. Mara: the tempter who stands for everything that holds the heart in sleep. Arahant: the worthy one who has reached the end of the path. Brahmin: here a truly noble person, one who is noble by conduct, not by birth. Noble Eightfold Path and Four Noble Truths: the core of the teaching. Sangha: the community of monks. Gotama: the family name of the Buddha. Himalaya: the great mountain range of the north. The 26 chapters, in order, are Twin Verses, Heedfulness, Mind, Flowers, The Fool, The Wise, The Worthy, Thousands, Evil, Punishment, Old Age, The Self, The World, The Buddha, Happiness, Affection, Anger, Impurity, The Just, The Path, Miscellaneous, Hell, The Elephant, Craving, The Monk, The Brahmin. The retelling follows this order and gives each Dhammapada chapter several beats; the twenty chapters of ten beats are the book's own divisions and cut across the Dhammapada's. Stories that tradition links to verses, always introduced as tradition and never as fact: Cakkhupala, a blind monk who stepped on insects without meaning harm (first verse); Culapanthaka, a slow student who learned by patient effort (Heedfulness); Pandita, a young novice who learned to tame himself (The Wise); Kisa Gotami, a grieving mother who sought a cure and learned about death (Thousands); Visakha, a woman who grieved for her granddaughter (Affection); Angulimala, a feared bandit who gave up violence and became a monk (The World). The Buddha is said to have spoken the words about the house-builder at his awakening. Verses are numbered 1 to 423, and a few are mentioned by chapter only. Voice and tone: calm, kind, respectful and plain; verses are paraphrased and never copied; nothing is preached and no other tradition is compared or criticised; no gore; dark subjects such as death and suffering are treated factually and gently.",
+  "chapters": [
+   "The Ox and the Cart",
+   "A Roof Against the Rain",
+   "A Fish on Dry Sand",
+   "Scent Against the Wind",
+   "The Spoon and the Soup",
+   "Not Moved by Praise or Blame",
+   "One Word That Brings Peace",
+   "A Jar Filled Drop by Drop",
+   "The Cracked Bell",
+   "You Are Your Own Refuge",
+   "A Moon Out of the Cloud",
+   "A Rain of Gold Coins",
+   "Where Grief Begins",
+   "The Smith and the Silver",
+   "A Grey Head Is Not Wisdom",
+   "Flood Over the Sleeping Village",
+   "Grass That Cuts the Hand",
+   "The Creeper in the Forest",
+   "Empty the Boat",
+   "Who Is Truly Noble"
+  ]
  },
  "beats": [
   {
@@ -12,246 +34,996 @@
   },
   {
    "n": 2,
-   "scene": "An ox pulls a heavy cart along a dusty road",
-   "summary": "Twin Verses: the mind comes first, and an angry mind brings suffering."
+   "scene": "Villagers sit in a circle listening as a teacher recites a short verse",
+   "summary": "How to read the book: the verses are short, tradition adds a story to each, and this retelling follows the chapter order."
   },
   {
    "n": 3,
+   "scene": "An ox pulls a heavy cart along a dusty road",
+   "summary": "Twin Verses: the mind comes first, and an angry mind brings suffering like a wheel following the ox."
+  },
+  {
+   "n": 4,
    "scene": "A calm woman walks in bright sunlight with her long shadow beside her",
    "summary": "Twin Verses: a kind mind brings happiness that follows like a shadow."
   },
   {
-   "n": 4,
+   "n": 5,
+   "scene": "A blind monk walks slowly with a stick along a garden path",
+   "summary": "Twin Verses: the story of Cakkhupala, the blind monk who stepped on insects without meaning harm."
+  },
+  {
+   "n": 6,
+   "scene": "A man counts old grievances on his fingers, then opens his hand",
+   "summary": "Twin Verses: those who keep thinking of wrongs done to them never end their hatred."
+  },
+  {
+   "n": 7,
    "scene": "Two neighbours at a fence, one holding out an open hand",
    "summary": "Twin Verses: hatred is never ended by hatred, only by love."
   },
   {
-   "n": 5,
+   "n": 8,
    "scene": "A crowd argues loudly in a market while one old man watches quietly",
    "summary": "Twin Verses: those who remember that everyone must die let their quarrels end."
   },
   {
-   "n": 6,
-   "scene": "A monk walks carefully along a mountain path at dawn with open eyes",
-   "summary": "Heedfulness: careful attention is the path to the deathless; carelessness is the path to death."
+   "n": 9,
+   "scene": "Wind bends a thin tree while a rocky mountain stands untouched",
+   "summary": "Twin Verses: the careless are shaken like a weak tree in the wind, the self-controlled stand like a mountain."
   },
   {
-   "n": 7,
+   "n": 10,
+   "scene": "A monk's plain yellow robe hangs folded on a wooden bench",
+   "summary": "Twin Verses: a robe is worthy only of one who is honest and self-controlled."
+  },
+  {
+   "n": 11,
+   "scene": "A man weighs a bag of husks and a bag of grain",
+   "summary": "Twin Verses: those who mistake the unimportant for the important never reach what matters."
+  },
+  {
+   "n": 12,
+   "scene": "Rain pours through a hole in an old thatched roof into a bare room",
+   "summary": "Twin Verses: passion enters an untrained mind like rain through a badly thatched roof."
+  },
+  {
+   "n": 13,
+   "scene": "A woman smiles over a harvest she grew while a man hides his face",
+   "summary": "Twin Verses: the wrongdoer grieves in this life and the next, the doer of good rejoices."
+  },
+  {
+   "n": 14,
+   "scene": "A cowherd counts another man's cattle at the edge of a field",
+   "summary": "Twin Verses: reciting many scriptures without practising is like counting another's cows."
+  },
+  {
+   "n": 15,
+   "scene": "A traveller wakes early and lights a lamp beside a door",
+   "summary": "Heedfulness: care leads to life at its fullest, carelessness to a kind of death."
+  },
+  {
+   "n": 16,
+   "scene": "A merchant checks every strap on his loaded mule at dawn",
+   "summary": "Heedfulness: the energetic, mindful, honest and considerate person's good name grows."
+  },
+  {
+   "n": 17,
    "scene": "A small green island stands firm in a wide flooded river",
    "summary": "Heedfulness: by effort and self-control the wise make an island no flood can cover."
   },
   {
-   "n": 8,
-   "scene": "A person sits quietly beneath a tree, smiling, with closed eyes",
-   "summary": "Heedfulness: the one who is careful and meditates finds great happiness."
+   "n": 18,
+   "scene": "A boy sits on a step rubbing a clean white cloth",
+   "summary": "Heedfulness: the story of Culapanthaka, the slow student who learned by patient effort."
   },
   {
-   "n": 9,
+   "n": 19,
+   "scene": "A woman locks a strongbox while a gambler laughs loudly beyond a door",
+   "summary": "Heedfulness: fools give themselves to carelessness, the wise guard care as their best treasure."
+  },
+  {
+   "n": 20,
+   "scene": "A woman on a high tower looks down on a crowded plain",
+   "summary": "Heedfulness: the wise climb above carelessness and look calmly on those who still struggle."
+  },
+  {
+   "n": 21,
+   "scene": "A swift horse gallops ahead of a tired pony at dawn",
+   "summary": "Heedfulness: awake among sleepers, the wise move on like a fast horse leaving a weak one behind."
+  },
+  {
+   "n": 22,
+   "scene": "A small fire burns a dry heap of brush at a field's edge",
+   "summary": "Heedfulness: one who delights in care burns through every bond like a fire."
+  },
+  {
+   "n": 23,
    "scene": "A craftsman carefully straightens a wooden arrow shaft in his hands",
    "summary": "Mind: the wise straighten the trembling mind as a maker of arrows straightens a shaft."
   },
   {
-   "n": 10,
+   "n": 24,
    "scene": "A silver fish thrashes on dry sand beside a river",
    "summary": "Mind: the mind struggles like a fish thrown on dry land when it is pulled from its old habits."
   },
   {
-   "n": 11,
+   "n": 25,
    "scene": "A runaway horse slows to a gentle walk beside its rider",
    "summary": "Mind: a mind that has been tamed brings happiness."
   },
   {
-   "n": 12,
-   "scene": "A mother and father embrace their grown child at the door of a house",
-   "summary": "Mind: a wrongly directed mind harms us more than an enemy, and a well-directed mind helps us more than a parent."
+   "n": 26,
+   "scene": "A lantern burns steadily in a dark cave deep in the hills",
+   "summary": "Mind: the mind is subtle and wanders far, and those who guard it find peace."
   },
   {
-   "n": 13,
+   "n": 27,
+   "scene": "A boy chases a butterfly across a field and then sits still",
+   "summary": "Mind: an unsteady mind cannot gain wisdom, a mind free from craving has no fear."
+  },
+  {
+   "n": 28,
+   "scene": "A guard on a small stone city wall holds a clay jar",
+   "summary": "Mind: treat the body as a fragile jar and the mind as a guarded city."
+  },
+  {
+   "n": 29,
+   "scene": "A fallen tree trunk lies unmoving beside a forest path",
+   "summary": "Mind: soon this body will lie on the ground like a useless log."
+  },
+  {
+   "n": 30,
+   "scene": "A mother and father embrace their grown child at the door of a house",
+   "summary": "Mind: a wrongly directed mind harms us more than an enemy, a well-directed one helps more than a parent."
+  },
+  {
+   "n": 31,
+   "scene": "A gardener picks flowers carefully in a field of blossoms",
+   "summary": "Flowers: a learner picks out the well-taught lesson as a skilled gardener picks flowers."
+  },
+  {
+   "n": 32,
+   "scene": "White foam on a river dissolves as a flood rolls toward a sleeping village",
+   "summary": "Flowers: the body is like foam, and death carries off the distracted like a flood a sleeping village."
+  },
+  {
+   "n": 33,
    "scene": "A bee drinks nectar from a blossom without bending a single petal",
    "summary": "Flowers: a bee takes nectar without harming the flower, and the sage passes through a village as gently."
   },
   {
-   "n": 14,
+   "n": 34,
+   "scene": "A man reads a notice board while his own garden is overgrown with weeds",
+   "summary": "Flowers: look at your own deeds, not at the faults of others."
+  },
+  {
+   "n": 35,
+   "scene": "A bright paper flower without any scent lies beside a real rose",
+   "summary": "Flowers: fine words without action are like beautiful flowers without scent."
+  },
+  {
+   "n": 36,
+   "scene": "A woman strings many coloured flowers into a long garland",
+   "summary": "Flowers: as many garlands can be made from a heap of flowers, so much good can be done in one life."
+  },
+  {
+   "n": 37,
    "scene": "Wind carries petals and scent from a garden along a road toward the town",
    "summary": "Flowers: the scent of flowers cannot go against the wind, but the fragrance of the good spreads everywhere."
   },
   {
-   "n": 15,
+   "n": 38,
+   "scene": "A pink lotus blooms on a rubbish heap beside a busy highway",
+   "summary": "Flowers: a lotus grows fragrant on a rubbish heap, so a wise person shines among the heedless."
+  },
+  {
+   "n": 39,
    "scene": "A tired traveller lies awake at night, staring at a dark ceiling",
-   "summary": "The Fool: the night is long to the sleepless and the road is long to the weary, and so is life to those who ignore the truth."
+   "summary": "The Fool: the night is long to the sleepless and the road to the weary, and life to those who ignore the truth."
   },
   {
-   "n": 16,
+   "n": 40,
    "scene": "A lone traveller walks a long road at sunset with no companion",
-   "summary": "The Fool: if no better or equal companion can be found, it is better to go on alone than with a fool."
+   "summary": "The Fool: if no better or equal companion can be found, go on alone rather than with a fool."
   },
   {
-   "n": 17,
+   "n": 41,
+   "scene": "A rich merchant counts coins at night beside a sleeping child",
+   "summary": "The Fool: the fool frets over my children and my wealth, though even the self cannot be held for ever."
+  },
+  {
+   "n": 42,
    "scene": "A man laughs gently at himself after dropping his books in the street",
-   "summary": "The Fool: a fool who knows he is a fool is wise to that extent; a fool who thinks he is wise is the real fool."
+   "summary": "The Fool: a fool who knows he is a fool is wise to that extent, one who thinks he is wise is the real fool."
   },
   {
-   "n": 18,
+   "n": 43,
    "scene": "A wooden spoon rests in a bowl of hot soup on a kitchen table",
-   "summary": "The Fool: a fool beside the wise understands nothing, as a spoon cannot taste soup, while a wise person learns quickly."
+   "summary": "The Fool: a fool beside the wise understands nothing, as a spoon cannot taste soup, while the wise learn quickly."
   },
   {
-   "n": 19,
-   "scene": "A friend points out a stain on a man's coat",
-   "summary": "The Wise: one who points out our faults is like one who shows hidden treasure, and we should follow such a person."
+   "n": 44,
+   "scene": "A man sits with his face in his hands beside a broken vase",
+   "summary": "The Fool: a deed that brings regret and tears is poorly done, one that brings joy without regret is well done."
   },
   {
-   "n": 20,
+   "n": 45,
+   "scene": "A jar of honey and a glowing ember sit side by side",
+   "summary": "The Fool: wrongdoing tastes like honey until it ripens, then it burns like a hidden ember."
+  },
+  {
+   "n": 46,
+   "scene": "A proud man in fine clothes takes the best seat at a crowded feast",
+   "summary": "The Fool: the fool wants fame, rank and first place, and that wish ruins him."
+  },
+  {
+   "n": 47,
+   "scene": "Two roads fork at a signpost in a green valley",
+   "summary": "The Fool: one road leads to gain and another to nibbana, so do not chase honour."
+  },
+  {
+   "n": 48,
+   "scene": "A woman points out a stain on a man's coat and he thanks her",
+   "summary": "The Wise: one who points out our faults is like one who shows hidden treasure."
+  },
+  {
+   "n": 49,
+   "scene": "Two friends share a bench near a tidy, candlelit house",
+   "summary": "The Wise: keep good friends and avoid bad ones."
+  },
+  {
+   "n": 50,
+   "scene": "A man drinks clear water from his cupped hand beside a mountain stream",
+   "summary": "The Wise: those who drink the teaching live happily with a clear mind."
+  },
+  {
+   "n": 51,
+   "scene": "A young novice stands beside a craftsman who straightens an arrow",
+   "summary": "The Wise: the story of Pandita, a young novice; the wise tame themselves as fletchers straighten arrows."
+  },
+  {
+   "n": 52,
    "scene": "A great grey rock stands firm as wind bends the trees",
    "summary": "The Wise: like a solid rock in the wind, the wise are not moved by praise or blame."
   },
   {
-   "n": 21,
+   "n": 53,
    "scene": "A deep clear mountain lake lies perfectly still in the morning light",
    "summary": "The Wise: after hearing the teachings, the wise become calm like a clear, deep lake."
   },
   {
-   "n": 22,
+   "n": 54,
+   "scene": "A woman lets a gift go with a calm face while others cry out",
+   "summary": "The Wise: the good let go, and the wise show neither elation nor despair at joy or sorrow."
+  },
+  {
+   "n": 55,
+   "scene": "A crowd runs along a river bank while a few cross by boat",
+   "summary": "The Wise: few cross to the far shore, and most run up and down the bank."
+  },
+  {
+   "n": 56,
+   "scene": "A person walks away from a dark valley toward a bright hilltop",
+   "summary": "The Wise: the wise leave the dark way for the bright and become luminous."
+  },
+  {
+   "n": 57,
    "scene": "A smiling monk stands at the end of a mountain road",
    "summary": "The Worthy: for one who has finished the journey there is no sorrow and no fever of the heart."
   },
   {
-   "n": 23,
+   "n": 58,
+   "scene": "A flock of swans lifts off a lake and leaves the shore behind",
+   "summary": "The Worthy: like swans leaving a lake, the mindful do not cling to any home."
+  },
+  {
+   "n": 59,
+   "scene": "A single bird flies across a wide empty sky leaving no track",
+   "summary": "The Worthy: the path of the free is as hard to trace as a bird's path in the sky."
+  },
+  {
+   "n": 60,
+   "scene": "A charioteer holds the reins of a calm, well-matched pair of horses",
+   "summary": "The Worthy: even the gods admire one whose senses are tamed like well-trained horses."
+  },
+  {
+   "n": 61,
    "scene": "A calm monk stands still like a pillar as children run past",
    "summary": "The Worthy: such a person is patient like the earth, steady like a pillar and clear like a lake without mud."
   },
   {
-   "n": 24,
+   "n": 62,
+   "scene": "A quiet forest clearing where a lone monk walks happily at dawn",
+   "summary": "The Worthy: calm in thought, word and deed, and wherever the worthy live the place is delightful."
+  },
+  {
+   "n": 63,
    "scene": "An old teacher whispers one quiet word to a student in a crowded hall",
    "summary": "Thousands: one word of meaning that brings peace is better than a thousand empty words."
   },
   {
-   "n": 25,
+   "n": 64,
    "scene": "A warrior sits alone with closed eyes and his sword laid on the ground",
    "summary": "Thousands: the one who conquers himself is a greater conqueror than one who defeats a thousand men."
   },
   {
-   "n": 26,
+   "n": 65,
+   "scene": "A woman bows to an elder in a plain room beside unused costly offerings",
+   "summary": "Thousands: one moment of respect for a good person is worth more than a year of costly offerings."
+  },
+  {
+   "n": 66,
+   "scene": "A young man helps an elderly neighbour up a flight of steps",
+   "summary": "Thousands: for one who honours elders, four things grow: life, beauty, happiness and strength."
+  },
+  {
+   "n": 67,
+   "scene": "A candle burns brightly beside a calendar of a hundred empty pages",
+   "summary": "Thousands: one day lived with virtue and thought is better than a hundred years of carelessness."
+  },
+  {
+   "n": 68,
+   "scene": "A woman rises at dawn and sets about a hard task with energy",
+   "summary": "Thousands: one day of firm effort is better than a hundred years of laziness."
+  },
+  {
+   "n": 69,
+   "scene": "Waves rise and fall on a river under a still, watching sky",
+   "summary": "Thousands: one day of seeing how things arise and pass away beats a hundred years of not seeing."
+  },
+  {
+   "n": 70,
+   "scene": "A young mother stands at a doorway holding a small mustard seed",
+   "summary": "Thousands: the story of Kisa Gotami, who sought a cure for her grief and learned about death."
+  },
+  {
+   "n": 71,
+   "scene": "A book lies open on a table in morning light",
+   "summary": "Thousands: one day of seeing the highest teaching is better than a hundred years without it."
+  },
+  {
+   "n": 72,
    "scene": "A girl hurries to carry an old woman's heavy basket",
    "summary": "Evil: hurry to do good and keep the mind from evil, or the mind will start to enjoy wrongdoing."
   },
   {
-   "n": 27,
+   "n": 73,
+   "scene": "A boy turns away from a shiny coin on a market stall",
+   "summary": "Evil: if you do wrong, do not do it again and again, and if you do good, do it again and again."
+  },
+  {
+   "n": 74,
+   "scene": "A farmer looks at ripening fruit on a branch beside a sour one",
+   "summary": "Evil: the wrongdoer may seem to prosper until the deed ripens, and the good may seem to suffer until the good ripens."
+  },
+  {
+   "n": 75,
    "scene": "A water jar slowly fills under a roof as drops fall one by one",
-   "summary": "Evil: even a water jar is filled drop by drop, and so we are filled little by little with good or with evil."
+   "summary": "Evil: a jar is filled drop by drop, and so is a person with good or with evil."
   },
   {
-   "n": 28,
+   "n": 76,
+   "scene": "A merchant with a small escort and rich cargo avoids a dangerous road",
+   "summary": "Evil: avoid evil as a rich merchant avoids a dangerous road, or as one who loves life avoids poison."
+  },
+  {
+   "n": 77,
+   "scene": "A person throws a handful of dust into a strong wind",
+   "summary": "Evil: harm done to the innocent comes back like fine dust thrown against the wind."
+  },
+  {
+   "n": 78,
+   "scene": "A man looks over sky, sea and a cave but finds nowhere to hide",
+   "summary": "Evil: nowhere in sky, sea or mountain can one hide from one's own deeds."
+  },
+  {
+   "n": 79,
+   "scene": "Children stop a fight in a schoolyard and hold hands",
+   "summary": "Punishment: all tremble at violence and fear death, so see yourself in others and harm no one."
+  },
+  {
+   "n": 80,
    "scene": "A boy gently stops an older boy from throwing a stone at a bird",
-   "summary": "Punishment: everyone fears violence and loves life, so we should see ourselves in others and harm no one."
+   "summary": "Punishment: those who seek happiness by harming others will not find it, and those who harm no one will."
   },
   {
-   "n": 29,
+   "n": 81,
+   "scene": "A woman answers a shouting neighbour with silence while an echo rolls back",
+   "summary": "Punishment: do not speak harshly, for those you speak to will answer back."
+  },
+  {
+   "n": 82,
+   "scene": "A cracked brass gong hangs silent in a quiet temple courtyard",
+   "summary": "Punishment: if you can be still as a cracked gong, you have reached peace and no quarrel remains."
+  },
+  {
+   "n": 83,
+   "scene": "A cowherd drives a herd of cows with a stick toward a pasture",
+   "summary": "Punishment: as a cowherd drives cows, so old age and death drive our lives forward."
+  },
+  {
+   "n": 84,
+   "scene": "A man covered in ashes sits beside a plainly dressed calm woman",
+   "summary": "Punishment: outward show does not purify, but a calm and kind heart does."
+  },
+  {
+   "n": 85,
+   "scene": "A fine horse lifts its head at the touch of a whip",
+   "summary": "Punishment: be like a good horse that responds to the lightest touch, with faith, effort and thought."
+  },
+  {
+   "n": 86,
+   "scene": "Lanterns glow on a festival street while night presses in",
+   "summary": "Old Age: why laugh and play when the world burns with wants, and why not look for a light?"
+  },
+  {
+   "n": 87,
+   "scene": "A painted doll with a tiny crack sits in a window",
+   "summary": "Old Age: look at this decorated body, so fragile and always changing."
+  },
+  {
+   "n": 88,
+   "scene": "A weathered house of bare beams stands on a dark hill",
+   "summary": "Old Age: the body is like a house with bones for its frame, and in it live ageing, death, pride and deceit."
+  },
+  {
+   "n": 89,
    "scene": "An old royal chariot, worn and faded, stands in a quiet courtyard",
    "summary": "Old Age: even royal chariots wear out and the body grows old, but the teaching of the good does not age."
   },
   {
-   "n": 30,
-   "scene": "A woman stands alone on a hilltop at sunrise with her arms open",
-   "summary": "The Self: the self is its own master, and a well-trained self is a rare help."
+   "n": 90,
+   "scene": "An old ox stands in a field, heavy and slow, chewing grass",
+   "summary": "Old Age: a person of little learning grows old like an ox, as the body grows and wisdom does not."
   },
   {
-   "n": 31,
+   "n": 91,
+   "scene": "A builder looks up at a bare wooden frame under the stars",
+   "summary": "Old Age: tradition says the Buddha spoke of the house-builder, craving, at his awakening and promised it would build no more."
+  },
+  {
+   "n": 92,
+   "scene": "An old heron stands beside a pond with no fish at dusk",
+   "summary": "Old Age: those who never used their youth well pine like old herons beside a pond with no fish."
+  },
+  {
+   "n": 93,
+   "scene": "A woman sits by a lamp keeping watch in the dark night",
+   "summary": "The Self: if you hold yourself dear, guard yourself well and first practise what you teach."
+  },
+  {
+   "n": 94,
+   "scene": "A gardener prunes his own tree, then helps a neighbour with a hedge",
+   "summary": "The Self: do yourself as you teach others, for taming the self is the hardest task."
+  },
+  {
+   "n": 95,
+   "scene": "A traveller reaches a safe stone house at the top of a long climb",
+   "summary": "The Self: you are your own refuge, and a well-trained self is a refuge hard to find."
+  },
+  {
+   "n": 96,
+   "scene": "A creeper strangles a tall sala tree in a forest",
+   "summary": "The Self: harm done by oneself crushes the fool, as a creeper strangles a tree."
+  },
+  {
+   "n": 97,
    "scene": "A man washes his own face and hands in a clear stream at dawn",
-   "summary": "The Self: we do wrong by ourselves and are made pure by ourselves; no one can purify another."
+   "summary": "The Self: we do wrong by ourselves and are made pure by ourselves, and no one can purify another."
   },
   {
-   "n": 32,
+   "n": 98,
+   "scene": "A woman helps a friend while her own notebook of goals lies open",
+   "summary": "The Self: do not lose sight of your own real good, however much you do for others."
+  },
+  {
+   "n": 99,
    "scene": "A sleeper wakes at dawn and rises from bed as light fills the window",
    "summary": "The World: rise, do not be careless, and follow the good path, which brings happiness."
   },
   {
-   "n": 33,
+   "n": 100,
    "scene": "A soap bubble floats up and shimmers above a sunlit pond",
-   "summary": "The World: look upon the world as a bubble or a mirage, and the king of death will not see you."
+   "summary": "The World: look upon the world as a bubble or a mirage, and as a painted royal chariot that fools sink into."
   },
   {
-   "n": 34,
-   "scene": "Three simple lines of text are carved on a stone beside a monastery gate",
-   "summary": "The Buddha: avoid all evil, do good and purify the mind; patience is the highest discipline."
+   "n": 101,
+   "scene": "A former robber kneels before a calm teacher on a forest road",
+   "summary": "The World: the story of Angulimala, and how one careless before and careful later lights the world like the moon freed from a cloud."
   },
   {
-   "n": 35,
+   "n": 102,
+   "scene": "A crowd stumbles around a dim hall while a few look toward a window",
+   "summary": "The World: this world is blind and few see clearly, and few escape like birds from a net."
+  },
+  {
+   "n": 103,
+   "scene": "Swans fly in a long line across a golden evening sky",
+   "summary": "The World: swans fly along the path of the sun, and the wise rise above the world after conquering Mara."
+  },
+  {
+   "n": 104,
+   "scene": "A miser's locked chest stands beside a woman handing out bread",
+   "summary": "The World: a liar who scoffs at everything can do any wrong, and the wise delight in giving."
+  },
+  {
+   "n": 105,
+   "scene": "A king on his throne looks toward a distant mountain and a hut",
+   "summary": "The World: better than ruling the whole earth is the first step on the path to freedom."
+  },
+  {
+   "n": 106,
+   "scene": "Footprints cross wet sand and then vanish at a rocky shore",
+   "summary": "The Buddha: whose victory cannot be undone and whom no craving follows, by what track would you lead such a one?"
+  },
+  {
+   "n": 107,
+   "scene": "Monks meditate calmly under a great banyan tree at dusk",
+   "summary": "The Buddha: the wise delight in the peace of quiet meditation, and even the gods hold dear the awake and mindful."
+  },
+  {
+   "n": 108,
    "scene": "A hiker stands on a mountain top at dawn, amazed at the view",
    "summary": "The Buddha: it is hard to be born human, to live, to hear the true teaching and for a Buddha to arise."
   },
   {
-   "n": 36,
+   "n": 109,
+   "scene": "Three simple lines of text are carved on a stone beside a monastery gate",
+   "summary": "The Buddha: avoid all evil, do good and purify the mind, with harmlessness, restraint, moderation and meditation."
+  },
+  {
+   "n": 110,
+   "scene": "A man stands quietly with his arms at his sides as someone shouts",
+   "summary": "The Buddha: patience is the highest discipline, and one who harms others is no true monk."
+  },
+  {
+   "n": 111,
+   "scene": "A shower of gold coins falls onto an empty marketplace",
+   "summary": "The Buddha: not even a rain of gold coins satisfies desire, and the disciple delights in the end of craving."
+  },
+  {
+   "n": 112,
+   "scene": "A frightened family prays at a stone shrine and a huge old tree",
+   "summary": "The Buddha: fear sends people to hills, forests and trees for refuge, but the safe refuge is the teaching and the four truths."
+  },
+  {
+   "n": 113,
+   "scene": "A rare white lotus opens in a bright morning garden",
+   "summary": "The Buddha: a Buddha is hard to find, and blessed are his birth, the teaching and the harmony of the community."
+  },
+  {
+   "n": 114,
+   "scene": "A man bows deeply to an elderly teacher in a quiet room",
+   "summary": "The Buddha: honour those worthy of honour, for the merit cannot be measured."
+  },
+  {
+   "n": 115,
    "scene": "A village of neighbours shares a meal peacefully at one long table",
-   "summary": "Happiness: let us live happily without hate, even among those who hate."
+   "summary": "Happiness: let us live happily without hate, without sickness and without worry, even among those who hate, are sick or worry."
   },
   {
-   "n": 37,
+   "n": 116,
+   "scene": "Travellers with only small bundles laugh together around a fire",
+   "summary": "Happiness: let us live happily without possessions, feeding on joy."
+  },
+  {
+   "n": 117,
+   "scene": "Two chess players shake hands over a finished game",
+   "summary": "Happiness: victory breeds hatred, and the peaceful give up both victory and defeat."
+  },
+  {
+   "n": 118,
+   "scene": "A hungry child eats bread beside a flickering hearth",
+   "summary": "Happiness: no fire like lust, no crime like hatred, hunger is the worst illness and nibbana the highest happiness."
+  },
+  {
+   "n": 119,
    "scene": "A farmer rests with bread and water in a quiet field and smiles",
-   "summary": "Happiness: health is the greatest gift, contentment the greatest wealth, trust the best kinsman and Nibbana the highest happiness."
+   "summary": "Happiness: health is the greatest gift, contentment the greatest wealth, trust the best kinsman."
   },
   {
-   "n": 38,
+   "n": 120,
+   "scene": "A person sits alone by a calm lake, sipping a cup of spring water",
+   "summary": "Happiness: one who has tasted solitude and peace is free from fear and evil and drinks deep joy."
+  },
+  {
+   "n": 121,
+   "scene": "The moon moves among the stars above a group of friends on a roof",
+   "summary": "Happiness: it is good to see the noble and to live with them, so follow the wise as the moon follows the stars."
+  },
+  {
+   "n": 122,
+   "scene": "A woman looks toward an empty chair at the end of a table",
+   "summary": "Affection: it is painful not to see those we love and painful to see those we dislike."
+  },
+  {
+   "n": 123,
    "scene": "A child lets go of a kite string and watches the kite rise calmly",
-   "summary": "Affection: sorrow and fear are born from clinging to what we love; one free of clinging has no sorrow."
+   "summary": "Affection: parting from the dear is painful, and those who hold nothing too tightly have no bonds."
   },
   {
-   "n": 39,
+   "n": 124,
+   "scene": "A man packs a small bag and looks back at a lamp-lit window",
+   "summary": "Affection: from affection come grief and fear, and one free from clinging has none."
+  },
+  {
+   "n": 125,
+   "scene": "A grandmother sits quietly beside a small empty bed",
+   "summary": "Affection: the story of Visakha, whose grief for her granddaughter taught her about affection."
+  },
+  {
+   "n": 126,
+   "scene": "A neighbour is welcomed warmly into a busy home",
+   "summary": "Affection: people hold dear one who has virtue and insight, speaks truly and does their duty."
+  },
+  {
+   "n": 127,
+   "scene": "A traveller returns home at dusk as friends run out to greet him",
+   "summary": "Affection: as friends welcome back a traveller, good deeds welcome one who has done good."
+  },
+  {
+   "n": 128,
+   "scene": "A man opens his clenched fists and sets down a heavy stone",
+   "summary": "Anger: abandon anger and give up pride, for no suffering falls on one who clings to nothing as mine."
+  },
+  {
+   "n": 129,
+   "scene": "A charioteer pulls firmly on the reins to stop a galloping team",
+   "summary": "Anger: one who checks rising anger like a runaway chariot is a true charioteer."
+  },
+  {
+   "n": 130,
    "scene": "A woman answers an angry shouting man with a gentle smile and a gift",
    "summary": "Anger: conquer anger by calm, evil by good, the miser by giving and the liar by truth."
   },
   {
-   "n": 40,
-   "scene": "A charioteer pulls firmly on the reins to stop a galloping team of horses",
-   "summary": "Anger: one who checks rising anger like a runaway chariot is a true charioteer."
+   "n": 131,
+   "scene": "A person gives half a loaf to a stranger in a village lane",
+   "summary": "Anger: speak the truth, do not yield to anger, and give even if you have little."
   },
   {
-   "n": 41,
+   "n": 132,
+   "scene": "A silent man, a chatty man and a calm man each draw frowns",
+   "summary": "Anger: everyone is blamed, the silent, the talkative and the moderate, and no one is wholly blamed or wholly praised."
+  },
+  {
+   "n": 133,
+   "scene": "A smith holds up a bright gold coin from a river",
+   "summary": "Anger: one whom the wise praise day after day is like pure gold, and who can blame such a person?"
+  },
+  {
+   "n": 134,
+   "scene": "A monk walks slowly with folded hands and lowered eyes along a quiet lane",
+   "summary": "Anger: guard against anger of body, speech and mind, for the wise are restrained in all three."
+  },
+  {
+   "n": 135,
+   "scene": "A withered yellow leaf drifts down toward a signpost at a crossroads",
+   "summary": "Impurity: you are now like a withered leaf, so make an island for yourself and strive quickly."
+  },
+  {
+   "n": 136,
+   "scene": "A smith picks silver dross from a crucible with tongs",
+   "summary": "Impurity: the wise remove their impurities little by little, as a smith removes dross from silver."
+  },
+  {
+   "n": 137,
    "scene": "An old iron sword covered with rust in a dim storeroom",
    "summary": "Impurity: rust born from iron eats the iron, as a person's own deeds lead to a bad end."
   },
   {
-   "n": 42,
+   "n": 138,
+   "scene": "A neglected house with a sagging door beside a dusty bookshelf",
+   "summary": "Impurity: not studying is the stain of learning, neglect the stain of a home, laziness the stain of beauty, and worst is ignorance."
+  },
+  {
+   "n": 139,
+   "scene": "A bold crow steals bread beside a shy sparrow waiting its turn",
+   "summary": "Impurity: life is easy for the shameless and bold, and hard for the modest who seek purity."
+  },
+  {
+   "n": 140,
+   "scene": "A man digs around the roots of his own tree until it leans",
+   "summary": "Impurity: whoever harms living beings, lies, steals or loses himself in drink digs up his own root."
+  },
+  {
+   "n": 141,
+   "scene": "A gambler hides a losing die behind his back while pointing at another",
+   "summary": "Impurity: other people's faults are easy to see and our own are hard, and we hide them like a cheating gambler."
+  },
+  {
+   "n": 142,
+   "scene": "A judge listens carefully to two neighbours before speaking",
+   "summary": "The Just: one who decides in haste is not just, and a just judge weighs both sides."
+  },
+  {
+   "n": 143,
+   "scene": "A loud speaker holds a crowd while a quiet woman practises kindness",
+   "summary": "The Just: talking a great deal does not make a person wise, since the wise are peaceful and free from hate and fear."
+  },
+  {
+   "n": 144,
+   "scene": "An old man with grey hair, restless, sits near a calm young woman",
+   "summary": "The Just: grey hair does not make an elder, but truth, virtue, harmlessness and self-control do."
+  },
+  {
+   "n": 145,
+   "scene": "A beautifully dressed man scowls while a plain woman smiles warmly",
+   "summary": "The Just: eloquence or looks do not make a person good if envy and deceit remain."
+  },
+  {
+   "n": 146,
+   "scene": "A shaven-headed man with a stern face shouts at a worker",
+   "summary": "The Just: a shaved head does not make a monk, but calming evil, large and small, does."
+  },
+  {
+   "n": 147,
+   "scene": "A woman carries a small child gently across a stream",
+   "summary": "The Just: one is noble through harmlessness to all beings, and should not rest content with outward practices."
+  },
+  {
+   "n": 148,
    "scene": "A wide path with eight stone steps rises through a green hillside",
    "summary": "The Path: the best of paths is the Noble Eightfold Path and the best of truths the Four Noble Truths."
   },
   {
-   "n": 43,
+   "n": 149,
    "scene": "A teacher points down a road while a student takes the first step",
    "summary": "The Path: we must make the effort ourselves, for the Buddhas only point the way."
   },
   {
-   "n": 44,
+   "n": 150,
    "scene": "Autumn leaves fall from a tree beside a quiet river",
    "summary": "The Path: all made things are impermanent, and seeing this with wisdom leads to purity."
   },
   {
-   "n": 45,
-   "scene": "A war elephant stands calmly on a dusty field while arrows fall around it",
-   "summary": "The Elephant: like an elephant in battle, the teacher says he will bear the insults of others."
+   "n": 151,
+   "scene": "A strong young man sleeps late in the sun beside an unploughed field",
+   "summary": "The Path: one who does not strive when it is time to strive never finds the way to wisdom."
   },
   {
-   "n": 46,
+   "n": 152,
+   "scene": "A man sits with lips closed and hands still in a quiet garden",
+   "summary": "The Path: watch your speech, guard your mind and do nothing harmful with the body."
+  },
+  {
+   "n": 153,
+   "scene": "A student studies by lamplight, then rests in silent thought",
+   "summary": "The Path: from meditation wisdom springs and without it wisdom fades, so follow the way that makes wisdom grow."
+  },
+  {
+   "n": 154,
+   "scene": "A woodcutter clears dense undergrowth from the edge of a thick forest",
+   "summary": "The Path: cut down the forest of desire, not only one tree, because while any undergrowth remains the mind is bound."
+  },
+  {
+   "n": 155,
+   "scene": "A man plans a house for every season as a storm gathers",
+   "summary": "The Path: the fool plans to stay here in rain, summer and winter, not seeing the danger."
+  },
+  {
+   "n": 156,
+   "scene": "A great flood sweeps through a sleeping village at night",
+   "summary": "The Path: death carries off the heedless like a flood a sleeping village, and no relative can hold it back."
+  },
+  {
+   "n": 157,
+   "scene": "A boy gives up a small sweet to share in a feast",
+   "summary": "Miscellaneous: give up a smaller happiness to gain a greater one."
+  },
+  {
+   "n": 158,
+   "scene": "A man laughs while a neighbour cries, both tied by a rope of anger",
+   "summary": "Miscellaneous: seeking happiness by causing suffering to others entangles one in hatred."
+  },
+  {
+   "n": 159,
+   "scene": "A craftsman's tools gather dust while he sits idle",
+   "summary": "Miscellaneous: what should be done is left undone and what should not be done is done, while the mindful lose their taints."
+  },
+  {
+   "n": 160,
+   "scene": "Monks watch the dawn sky from a hilltop",
+   "summary": "Miscellaneous: the always-awake recall day and night the Buddha, the teaching, the community, the body, harmlessness and meditation."
+  },
+  {
+   "n": 161,
+   "scene": "A snow peak rises above a faraway village at sunrise",
+   "summary": "Miscellaneous: a person of faith and virtue is honoured everywhere, and the good shine from afar like the Himalaya."
+  },
+  {
+   "n": 162,
+   "scene": "A solitary hut stands at a forest edge with smoke rising",
+   "summary": "Miscellaneous: one who sits alone, walks alone and tames himself alone finds delight at the forest's edge."
+  },
+  {
+   "n": 163,
+   "scene": "A man turns away from an open ledger in a dim room",
+   "summary": "Hell: one who lies, or who does wrong and denies it, comes to sorrow, and the chapter names this hell."
+  },
+  {
+   "n": 164,
+   "scene": "A hand grips a blade of sharp grass the wrong way",
+   "summary": "Hell: kusa grass wrongly grasped cuts the hand, so do whatever is to be done with full effort."
+  },
+  {
+   "n": 165,
+   "scene": "Guards walk the walls of a border city at night",
+   "summary": "Hell: a wrong deed is better left undone, so guard yourself like a border city and let no moment pass."
+  },
+  {
+   "n": 166,
+   "scene": "A man hides from something harmless and ignores a real danger",
+   "summary": "Hell: being ashamed of the wrong things and fearing the wrong things is wrong view, and seeing fault as fault is right view."
+  },
+  {
+   "n": 167,
+   "scene": "An elephant stands calmly on a dusty field while arrows fall around it",
+   "summary": "The Elephant: I will bear insults as an elephant in battle bears arrows, for a tamed elephant carries a king."
+  },
+  {
+   "n": 168,
+   "scene": "A king rides a calm elephant while mules and horses wait behind",
+   "summary": "The Elephant: mules, horses and elephants are fine, but one who has tamed himself is best."
+  },
+  {
+   "n": 169,
+   "scene": "A mahout guides a large elephant with a gentle hook along a river path",
+   "summary": "The Elephant: once the mind wandered as it pleased, and now I hold it as a mahout holds an elephant, so lift yourself out of the mud."
+  },
+  {
+   "n": 170,
    "scene": "A lone elephant walks calmly through a quiet forest at dusk",
    "summary": "The Elephant: walk with a wise companion if you find one, and if not, walk alone like an elephant in the forest."
   },
   {
-   "n": 47,
+   "n": 171,
+   "scene": "Friends help each other carry a heavy load up a hill",
+   "summary": "The Elephant: good are friends in need, contentment, kindness to parents and virtue lasting to old age."
+  },
+  {
+   "n": 172,
    "scene": "A thick green creeper climbs and wraps itself around a tall tree",
-   "summary": "Craving: craving grows like a creeping vine in the heedless, so dig up its root."
+   "summary": "Craving: craving grows like a creeping vine in the heedless, and the heedless leap like a monkey seeking fruit."
   },
   {
-   "n": 48,
+   "n": 173,
+   "scene": "Tall weeds spring up thick in a field after heavy rain",
+   "summary": "Craving: sorrows grow like grass after rain in one overcome by craving, and fall away from one who overcomes it."
+  },
+  {
+   "n": 174,
+   "scene": "A gardener digs deep around a stubborn grass root",
+   "summary": "Craving: dig up the root of craving, for a cut tree grows again if its root is sound."
+  },
+  {
+   "n": 175,
+   "scene": "A hare darts in panic across a field toward a hunter's snare",
+   "summary": "Craving: people bound by craving run like a snared hare."
+  },
+  {
+   "n": 176,
+   "scene": "An iron chain, a rope and a necklace of jewels lie side by side",
+   "summary": "Craving: the wise say the strongest bond is not iron or rope but longing for jewels and loved ones."
+  },
+  {
+   "n": 177,
+   "scene": "A spider rests in the middle of its own web at dawn",
+   "summary": "Craving: the lustful fall into the stream they have made, like a spider in its own web, and the wise cut it and go on."
+  },
+  {
+   "n": 178,
+   "scene": "A traveller stands at a river's edge and leaves a heavy pack behind",
+   "summary": "Craving: let go of the past, the future and what lies between, and cross to the far shore."
+  },
+  {
+   "n": 179,
+   "scene": "Weeds crowd a field of ripening grain near a farmer's hands",
+   "summary": "Craving: the gift of the teaching excels all gifts, and as weeds spoil fields, passion spoils people."
+  },
+  {
+   "n": 180,
+   "scene": "A monk sits with lowered eyes in a quiet courtyard, listening",
+   "summary": "The Monk: restraint of eye, ear, nose and tongue is good, and restraint everywhere frees from suffering."
+  },
+  {
+   "n": 181,
+   "scene": "A monk speaks softly to a group of children under a tree",
+   "summary": "The Monk: one controlled in hand, foot and speech, content and alone, speaks sweetly."
+  },
+  {
+   "n": 182,
+   "scene": "A monk accepts a small bowl of rice with a calm face",
+   "summary": "The Monk: do not despise what you receive or envy what others gain, for those who envy lose their calm."
+  },
+  {
+   "n": 183,
    "scene": "A monk bails water out of a small wooden boat on a calm lake",
-   "summary": "The Monk: empty your boat and it will go lightly; cut off greed and hatred and reach freedom."
+   "summary": "The Monk: empty your boat and it will go lightly, and cutting off greed and hatred leads to freedom."
   },
   {
-   "n": 49,
+   "n": 184,
+   "scene": "A student sits by a window with an open book and closed eyes",
+   "summary": "The Monk: meditate and do not be careless, for there is no meditation without wisdom and no wisdom without meditation."
+  },
+  {
+   "n": 185,
+   "scene": "A monk sits in a quiet empty hut as sunlight falls on the floor",
+   "summary": "The Monk: in a quiet place a calm mind finds a joy beyond the ordinary."
+  },
+  {
+   "n": 186,
+   "scene": "A jasmine bush drops withered flowers on the ground",
+   "summary": "The Monk: as jasmine sheds its withered flowers, so shed lust and hatred."
+  },
+  {
+   "n": 187,
+   "scene": "A merchant gently brushes and steadies a fine horse",
+   "summary": "The Monk: reprove yourself and guard yourself, as a merchant looks after a fine horse."
+  },
+  {
+   "n": 188,
+   "scene": "A person stands on a river bank between two shores",
+   "summary": "The Brahmin: cut off the stream, and the one who needs neither shore is fearless and unbound."
+  },
+  {
+   "n": 189,
+   "scene": "The sun, the moon and a warrior in armour shine beside a meditating figure",
+   "summary": "The Brahmin: the sun shines by day, the moon by night and the warrior in armour, but the Buddha shines always."
+  },
+  {
+   "n": 190,
+   "scene": "A calm woman puts down a basket and speaks to no one",
+   "summary": "The Brahmin: one who has put away evil, and does no harm by body, speech or mind, is truly noble."
+  },
+  {
+   "n": 191,
    "scene": "A calm traveller in plain clothes is greeted at a village gate",
    "summary": "The Brahmin: one is noble not by matted hair, family or birth, but by truth and righteousness."
   },
   {
-   "n": 50,
+   "n": 192,
+   "scene": "A man with tangled hair and an antelope skin stands by a stream",
+   "summary": "The Brahmin: what use are matted hair and a deerskin cloak when the tangle is within?"
+  },
+  {
+   "n": 193,
+   "scene": "A thin man in patched robes meditates alone under a tree",
+   "summary": "The Brahmin: the one with nothing and no clinging is noble, and birth does not make one so."
+  },
+  {
+   "n": 194,
+   "scene": "A man stands calmly as people shout and jeer at him",
+   "summary": "The Brahmin: one who bears abuse and blows without anger, whose strength is patience, is noble."
+  },
+  {
+   "n": 195,
+   "scene": "A woman lays a staff on the ground and offers peace",
+   "summary": "The Brahmin: one who has laid down violence to all beings is friendly among the hostile and peaceful among the violent."
+  },
+  {
+   "n": 196,
+   "scene": "A teacher speaks kindly to a student beside a lost coin left untouched",
+   "summary": "The Brahmin: one who speaks gentle, true words and takes nothing not given is noble."
+  },
+  {
+   "n": 197,
+   "scene": "A full moon shines on a still, spotless pond",
+   "summary": "The Brahmin: one who is beyond clinging to good and evil is spotless like the moon."
+  },
+  {
+   "n": 198,
+   "scene": "A traveller crosses a muddy road and steps onto firm dry ground",
+   "summary": "The Brahmin: one who has crossed the muddy, dangerous road of delusion to the other shore walks free."
+  },
+  {
+   "n": 199,
+   "scene": "A woman sets down a heavy bundle by the roadside and breathes freely",
+   "summary": "The Brahmin: one who has put down the burden and done what was to be done is at peace."
+  },
+  {
+   "n": 200,
    "scene": "Drops of water roll off a lotus leaf on a still pond at sunrise",
    "summary": "The Brahmin: the free person clings to no pleasure, like water on a lotus leaf, and the book ends by inviting each reader to walk on."
   }
@@ -259,159 +1031,609 @@
  "levels": {
   "A1A2": [
    "The Dhammapada is a book of short sayings from the Buddhist tradition.",
+   "Each verse is short, so you can read one and think about it.",
    "Everything begins in the mind, so an angry mind brings pain.",
    "A kind mind brings happiness, and happiness follows like a shadow.",
+   "A blind monk walked slowly and stepped on tiny insects by mistake.",
+   "Those who keep counting old wrongs never find peace.",
    "Hate cannot stop hate, but love can stop it.",
    "Many people forget that life is short, so they fight.",
+   "A weak tree bends in the wind, but a mountain stands firm.",
+   "A monk's robe has meaning only if the monk is honest.",
+   "People who value the wrong things never find what matters.",
+   "Rain comes through a bad roof, and bad wants enter a careless mind.",
+   "A person who does wrong is sad, and a person who does good is glad.",
+   "Reading many books does not help if you never practise them.",
    "Being awake and careful in every moment leads to true peace.",
+   "The wise know this, so they love to stay careful and alert.",
    "A wise person makes an island that no flood can cover.",
-   "A person who is careful and thinks quietly finds great happiness.",
+   "A slow student learned a great deal from one clean white cloth.",
+   "Fools waste their days, but the wise guard care like treasure.",
+   "The wise person climbs high and looks calmly down at the struggling crowd.",
+   "The wise stay awake while others sleep and move on like fast horses.",
+   "A monk who loves care burns his chains away like fire.",
    "A wise person makes the mind straight as a man makes an arrow straight.",
    "A fish pulled from water jumps and shakes on dry ground.",
    "A mind that is trained and calm brings real happiness.",
+   "The mind is hard to see, and it travels far alone.",
+   "A jumping mind cannot learn wisdom, but a calm mind has no fear.",
+   "Know that the body is a fragile jar, and guard the mind.",
+   "Soon the body will lie still on the ground like a log.",
    "A wrong thought can hurt you more than an enemy can.",
+   "A learner picks the best teaching like a gardener picks flowers.",
+   "Death can come like a flood to a sleeping village.",
    "A bee takes honey from a flower and does not hurt it.",
+   "Look at your own deeds, not at the faults of others.",
+   "Fine words without good deeds are like a flower with no scent.",
+   "From a pile of flowers many garlands can be made.",
    "The scent of flowers goes with the wind, but goodness goes everywhere.",
+   "A lotus can grow sweet on a rubbish heap, and so can wisdom.",
    "The night is long for a person who cannot sleep.",
    "It is better to walk alone than with a foolish friend.",
+   "A fool worries about his children and his money, but nothing lasts for ever.",
    "A fool who knows he is a fool is already a little wise.",
    "A spoon sits in the soup all day but never tastes it.",
+   "A deed that makes you cry later was not a good deed.",
+   "Wrongdoing seems sweet like honey until its fruit is ripe.",
+   "A proud fool wants fame and the best seat at every feast.",
+   "One road leads to gain, and another leads to peace.",
    "Be glad of a person who shows you your mistakes.",
+   "Keep good friends, and stay away from bad friends.",
+   "Those who drink in the teaching live happily with a clear mind.",
+   "A young novice watched craftsmen and learned to train his own mind.",
    "Praise and blame cannot move the wise, as wind cannot move rock.",
    "After hearing the teaching, the wise become calm like a clear lake.",
+   "The wise are not too happy or too sad when life changes.",
+   "Few people cross the river, and most run along the bank.",
+   "The wise leave the dark road and walk the bright road.",
    "For the one who has finished the journey, there is no more sorrow.",
+   "Like swans leaving a lake, the free do not cling to a home.",
+   "A bird crosses the sky and leaves no track behind.",
+   "Even the gods admire a person who has tamed the senses.",
    "He is patient like the earth and does not get angry.",
+   "Where the calm and free live, any place is a delightful place.",
    "One word that brings peace is better than a thousand empty words.",
    "The greatest winner is the person who wins over himself.",
+   "One moment of respect for a good person is worth more than costly gifts.",
+   "Respect for older people helps life, beauty, happiness and strength grow.",
+   "One day lived with care is better than a hundred careless years.",
+   "One day of real effort is better than a hundred lazy years.",
+   "One day of seeing how things change beats a hundred years of not seeing.",
+   "A mother who lost her baby learned that every home knows death.",
+   "One day of seeing the highest truth beats a hundred years without it.",
    "Do good things quickly, before the mind turns to bad things.",
+   "Do not repeat a wrong, but repeat every good thing you do.",
+   "Results take time, so keep doing good even when you wait.",
    "Drop by drop, an empty water pot slowly becomes full.",
+   "A rich traveller avoids a dangerous road, and a wise person avoids evil.",
+   "Harm done to a good person comes back like dust in the wind.",
+   "There is no place in the world to hide from your own deeds.",
    "Everyone is afraid of pain, so do not hurt other people.",
+   "Hurting others to be happy never works, but kindness does.",
+   "Harsh words come back to you, so speak to everyone kindly.",
+   "A broken gong makes no noise, and a calm person makes no quarrel.",
+   "Old age and death drive our lives on, as a boy drives cows.",
+   "Ashes and dirt do not make a person pure; a gentle heart does.",
+   "A good horse moves at the lightest touch, and so should we.",
+   "Why only play and laugh, when we could look for a light?",
+   "This body looks lovely, but it is fragile and always changing.",
+   "The body is a house of bones, and pride lives in it too.",
    "Even a king's fine chariot wears out, and so does the body.",
-   "You are your own master, so take good care of yourself.",
+   "A person who has learned very little grows old like an ox in a field.",
+   "The builder of the house is craving, and it will build no more.",
+   "Those who waste their youth are sad when they grow old.",
+   "If you love yourself, guard yourself and practise before you teach.",
+   "Teach others by living as you teach, and tame yourself first.",
+   "You are your own refuge, and nobody else can take your place.",
+   "Bad deeds are easy to do, but good deeds are hard.",
    "We make ourselves pure; no one else can do it for us.",
+   "Help others, but do not forget your own real good.",
    "Wake up, do not be lazy, and follow the good path.",
-   "See the world as a bubble, and nothing will trouble you.",
-   "Do no wrong, do good, and make your mind clean.",
+   "See the world as a bubble, and hold it with a light hand.",
+   "A feared robber met the Buddha, gave up harm and became a monk.",
+   "The world is blind, and few people see the truth clearly.",
+   "Swans follow the path of the sun across the sky.",
+   "A liar who respects nothing may do any wrong.",
+   "The first step toward freedom is better than ruling the earth.",
+   "The Buddha's victory cannot be undone, and nothing holds him back.",
+   "The wise find joy in quiet meditation, and even the gods admire them.",
    "Being a person is rare, and hearing the teaching is rare.",
+   "Do no wrong, do good, and make your mind clean.",
+   "Patience is the highest discipline, say the awakened ones.",
+   "A rain of gold coins could never satisfy our wants.",
+   "Fear sends people to many places, but wisdom is the safest refuge.",
+   "A Buddha is hard to find, and his birth is a blessing.",
+   "Honour those who deserve honour, for that goodness cannot be measured.",
    "Let us live happily and hate no one, even among haters.",
+   "Let us live happily without owning much, and feed on joy.",
+   "A winner makes enemies, but a peaceful person is happy.",
+   "Hunger is the worst illness, and peace is the highest happiness.",
    "Good health is the best gift, and being content is the best wealth.",
+   "A person who has tasted quiet peace is free from fear.",
+   "Walk with the wise, as the moon walks among the stars.",
+   "Being apart from loved ones hurts, and so does meeting people we dislike.",
+   "Holding things too tightly hurts us when they are gone.",
    "Too much clinging to people brings sorrow and fear.",
-   "Beat anger with kindness, and beat lies with truth.",
+   "A grandmother cried for a lost little girl and learned about clinging.",
+   "People love a person who is honest, kind and does his duty.",
+   "Friends welcome a traveller home, and good deeds welcome a good person.",
+   "Let go of anger and pride, and you will be free.",
    "A wise person stops anger the way a driver stops a runaway cart.",
+   "Beat anger with kindness, and beat lies with truth.",
+   "Tell the truth, do not be angry, and give even a little.",
+   "No one is always praised, and no one is always blamed.",
+   "A person praised by the wise is like pure gold.",
+   "Guard your body, your speech and your mind from anger.",
+   "Like an old leaf, we must make our island while there is time.",
+   "The wise clean their minds little by little, as a smith cleans silver.",
    "Rust grows from iron and slowly eats the iron itself.",
+   "Not studying spoils learning, and not caring spoils a house.",
+   "The shameless have an easy life, but the modest find it hard.",
+   "A person who harms, lies or steals digs up his own roots.",
+   "Other people's faults are easy to see, but our own are not.",
+   "A fair judge listens to both sides before he decides.",
+   "A person is not wise just because he talks a great deal.",
+   "Grey hair does not make an elder, but a good heart does.",
+   "A kind heart is more beautiful than a beautiful face.",
+   "A shaved head does not make a monk; peace in the heart does.",
+   "A truly noble person does no harm to any living thing.",
    "Of all the paths, the Eightfold Path is the best.",
    "You must make the effort yourself, because teachers only show the way.",
    "All made things change, and seeing this brings wisdom and peace.",
+   "A strong young person who is lazy will never find wisdom.",
+   "Watch your words, guard your mind and do no harm with your body.",
+   "Quiet thought brings wisdom, and a hurried mind loses it.",
+   "Cut down the forest of wanting, not only a single tree.",
+   "A fool plans for every season and does not see the danger.",
+   "When death comes, family cannot hold it back, so use your days well.",
+   "Give up a small joy if it lets you gain a bigger one.",
+   "Hurting others to be happy only ties us to hatred.",
+   "Some people ignore what they should do and do what they should not.",
+   "The Buddha's followers wake each day and recall the teaching.",
+   "Good people shine from far away, like mountains in the sun.",
+   "A calm person who trains himself alone finds joy at the forest edge.",
+   "Lying brings sorrow, and so does hiding what you have done.",
+   "Hold sharp grass the wrong way and it cuts your hand.",
+   "Guard yourself like a city, and do not waste the moment.",
+   "Seeing wrong as wrong and right as right leads to a good road.",
    "I will bear insults like an elephant bears arrows in a battle.",
+   "A tamed mule or horse is fine, but a tamed self is best.",
+   "My mind once wandered where it liked, but now I guide it.",
    "If you find no good friend, walk alone like an elephant in the forest.",
+   "It is good to have friends, to be content and to honour parents.",
    "Wanting more and more grows like a weed in a careless mind.",
+   "Sorrows grow like weeds in a person who is full of wants.",
+   "Dig out the root of craving, so that it cannot grow again.",
+   "A person full of wants runs around like a frightened hare.",
+   "The strongest chain is not iron but the longing for things.",
+   "A spider can be caught in its own web, and so can we.",
+   "Let go of the past, the future and the time in between.",
+   "The gift of the teaching is better than every other gift.",
+   "Guard the eye, the ear, the nose and the tongue.",
+   "A calm person controls his hands, his feet and his words.",
+   "Be glad of what you receive, and do not envy other people.",
    "Empty the boat, and it will move lightly across the water.",
+   "You need wisdom to meditate well, and you need meditation to gain wisdom.",
+   "A calm mind in a quiet place finds a joy beyond the ordinary.",
+   "As a jasmine plant drops old flowers, we can drop old anger.",
+   "Examine yourself honestly, and keep yourself in check like a fine horse.",
+   "The last chapter describes the noble person who has crossed the river.",
+   "The sun shines by day, the moon by night, and the wise by thought.",
+   "A person who does no harm in body, speech or mind is noble.",
    "We are noble because of our actions, not because of our birth.",
+   "What good is long hair if the trouble is inside you?",
+   "A person with no possessions and no clinging is truly free.",
+   "A noble person bears insults and blows without getting angry.",
+   "A noble person is friendly even to those who are not.",
+   "A noble person speaks gently and truly, and takes nothing that is not given.",
+   "A noble person is pure and calm like the full moon.",
+   "A noble person has crossed the muddy road and stands on dry ground.",
+   "A noble person has put down the heavy load and is at peace.",
    "The free person does not cling, like water on a lotus leaf."
   ],
   "B1B2": [
    "The Dhammapada is a collection of 423 short verses arranged in 26 chapters. They are part of the Pali Canon, an early collection of Buddhist scriptures, and Buddhists everywhere have loved them for centuries.",
+   "Each verse is short enough to remember, and many people learn them by heart. Tradition says that a story was told for each one, and a few of those stories appear here.",
    "The first chapter says that the mind comes before everything we do. If we speak or act with an angry mind, suffering follows us, as a wheel follows the ox.",
    "The next verse shows the same law working in the opposite direction, toward joy. When we speak or act with a clear and kind mind, happiness follows us like a shadow that never leaves.",
+   "Tradition tells of Cakkhupala, a blind monk who walked up and down each morning. Without knowing it he stepped on small insects, but the Buddha said he was not to blame, because his mind had meant no harm.",
+   "Some people keep saying, “He insulted me, he hurt me, he cheated me,” and they repeat it for years. The verse says that hatred never ends for those who keep thinking this way, but it does end for those who let the thoughts go.",
    "One of the best-known verses says that hatred is never ended by hatred. Only love can end it, and the verse calls this an old and lasting truth.",
    "Another verse says that many people forget that we must all die one day. Those who do remember it find that their quarrels begin to end.",
+   "A person who chases pleasure, eats too much and never controls the senses is shaken by temptation like a weak tree in the wind. A person who is careful, moderate and faithful stays firm, as a mountain of rock cannot be moved by the wind.",
+   "A person may put on the plain yellow robe of a monk and still be full of dirt inside. The verse says that the robe belongs to the one who is honest and self-controlled, for goodness is not a matter of clothes.",
+   "Some people take what is unimportant for important, and what is truly important for unimportant. They live with wrong thoughts, so they never reach the heart of things, but those who see clearly do reach it.",
+   "If a roof is badly made, rain will leak into the house. In the same way, desire breaks into an untrained mind, but it cannot enter a mind that has been well developed.",
+   "The wrongdoer grieves now and grieves later, and he suffers when he sees the harm he has done. The doer of good is glad now and glad later, and he rejoices at the sight of his own good deeds.",
+   "A person may recite a great many holy texts but never act on them. Such a person is like a cowherd who counts another man's cows and has no share in the herd.",
    "The second chapter praises heedfulness, which means paying close attention to what we think and do. It says that attention leads to the deathless, while those who are careless are as good as dead.",
+   "Those who understand this are glad to be careful, and they take joy in the way of the noble. They are thoughtful, steady and honest, and they live carefully, so their good name grows.",
    "By effort, care and self-control, says the Dhammapada, a wise person can build an island. No flood will ever be able to cover it.",
-   "The chapter tells us not to be careless or to chase pleasures all day. A person who is careful and who thinks quietly finds great happiness.",
+   "Tradition tells of Culapanthaka, who found it so hard to learn even one verse that his own brother sent him away. The Buddha gave him a clean white cloth to rub, and as it grew dirty in his hands he understood how all things change.",
+   "Foolish people give themselves to carelessness, but the wise guard their attention as their greatest treasure. They do not give way to carelessness or to pleasure, and in quiet meditation they find great happiness.",
+   "Picture a person on a mountain, looking down at the crowd on the plain. In the same way, the wise climb the tower of wisdom by care, and from there they look calmly on those who struggle.",
+   "Among those who are careless, the wise person stays careful, and among those who sleep, he stays awake. He moves ahead like a swift horse that leaves a weak one far behind.",
+   "A monk who delights in care, and who sees danger in carelessness, moves forward like a fire. He burns every bond, small and large, and he is close to freedom and cannot easily fall away.",
    "The third chapter is about the mind, which it calls restless and hard to guard. Just as a maker of arrows straightens each arrow, the wise person slowly straightens the mind.",
    "The mind, says the Dhammapada, is like a fish that has been thrown onto dry land. It twists and shakes whenever we try to pull it out of its old habits, but we should keep trying.",
    "The mind is hard to hold, because it flies wherever it wishes. But a mind that has been tamed and trained brings happiness to its owner.",
+   "The mind is very subtle and hard to see, and it goes wherever it likes. Wise people guard it, because a guarded mind brings happiness, and they say the mind lives in the cave of the heart.",
+   "A person whose mind is unsteady and whose faith wavers will not become wise. But one whose mind is free from craving and from anger has no reason to be afraid.",
+   "Know that this body is as fragile as a clay jar, and make the mind as strong as a fortified city. Fight the tempter with the weapon of wisdom, and then guard what you have won.",
+   "Before long, this body will lie on the earth, without life or thought, like a log that nobody wants. The verse is not meant to frighten us, but to help us use our days well.",
    "An enemy can do us harm, and so can a person who hates us. Yet a badly directed mind harms us even more, and a well-directed mind helps us more than our own parents can.",
+   "The fourth chapter is called Flowers, and it asks who will master this world and the next. The learner, it answers, will choose the well-taught lesson as a skilled gardener chooses the best flowers.",
+   "The verses say that the body is like foam on water, and like a mirage. Death carries off a person who is busy gathering flowers, as a great flood sweeps away a sleeping village.",
    "The fourth chapter is called Flowers, and one of its pictures shows a bee at work. The bee takes its nectar and flies away without harming the flower, and the wise walk through villages in the same gentle way.",
+   "Do not spend your days looking at what other people have done or failed to do. Look at your own deeds, at what you have done and what you have left undone.",
+   "A flower can be bright and beautiful and still have no scent. Fine words are like that when no deeds follow them, but they bear fruit when deeds match them.",
+   "From one great heap of flowers, a skilled person can make many garlands. In the same way, one short life can be used to do a great deal of good.",
    "The scent of flowers, or even of sandalwood, cannot travel against the wind. However, the fragrance of a good person spreads in every direction, even against the wind.",
+   "Beside the highway there may be a heap of rubbish, and from it a sweet lotus may rise. In the same way, among blind and careless people the follower of the awakened one shines brightly with wisdom.",
    "The fifth chapter is about the fool, a person who does not learn from life. The night seems long to the sleepless and the road long to the tired, and so is life to those who ignore the truth.",
    "If a traveller cannot find a companion who is better or at least equal, he should go on alone. A fool cannot be a good companion on the road.",
+   "A fool is troubled day and night by thoughts of my children and my wealth. But even the self is not ours to hold for ever, so how much less are our children and our riches?",
    "A fool who knows that he is a fool is, to that extent, already wise. The fool who thinks he is wise, however, is the one who is truly called a fool.",
    "A spoon may sit in a bowl of soup for a lifetime and never taste it. In the same way, a fool who lives near a wise person may never understand the teaching.",
+   "Foolish people act as their own worst enemies, because they do wrong and then taste the bitter fruit. A deed is badly done if we regret it and weep, and it is well done if we feel no regret and are glad.",
+   "To the fool, wrongdoing tastes as sweet as honey while its result is still hidden. When the result ripens he comes to grief, for a wrong deed follows him like a fire that smoulders under ashes.",
+   "The fool wants a great name that he has not earned, the first place among others and honour wherever he goes. He wants everyone to think that all good work was done by him, and so his pride and his desires only grow.",
+   "One road leads to gain, and another road leads to freedom. Knowing this, a follower of the Buddha should not take delight in honour but should look for quiet and solitude.",
    "Imagine that a stranger shows you where a great treasure is buried. The Dhammapada says that a friend who shows us our faults is just as valuable, and that we should follow him.",
+   "A wise person gives advice, teaches and holds others back from wrong, and good people love him for it, though bad people do not. So we should not keep bad friends or the lowest kind of company, but should keep good friends and the best of company.",
+   "A person who drinks in the teaching lives happily, with a mind that is calm and clear. The wise always take pleasure in the teaching of the noble, as a thirsty traveller enjoys cool water.",
+   "Farmers lead water where they want it, arrow makers straighten shafts, and carpenters shape wood. The wise, says the verse, tame themselves, and tradition links it to Pandita, a young novice who learned this lesson from watching such workers.",
    "A solid rock is not shaken by the wind, however hard it blows. In the same way, a wise person is not moved by either praise or blame.",
    "Like a deep lake that is clear and still, the wise grow calm after they have heard the teachings. Their minds become quiet, and in that stillness they see things as they really are.",
+   "Good people let go of what they hold, and they do not chatter about their wants. When happiness or sorrow touches them, the wise show no great joy and no deep despair.",
+   "Among all human beings, only a few ever reach the far shore of the river. Most of the others only run up and down along the near bank, busy but never crossing.",
+   "Those who follow the teaching well will cross the river that is so hard to cross. They leave the dark way for the bright, they find joy in quiet places, and they cleanse the mind of everything that clouds it.",
    "The seventh chapter describes the arahant, a person who has reached the end of the path. For him the journey is over, and he is free from sorrow and from every kind of bond.",
+   "Those who are mindful keep trying, and they take no delight in any one place as their home. Like swans that leave a lake, they leave each house behind them, without sorrow.",
+   "Those who store up nothing, who eat only what they need and who are free in mind, leave no track that anyone can follow. They are like birds flying across the sky, whose paths cannot be traced.",
+   "The senses are like horses, and a good charioteer tames them until they are calm. Even the gods, says the verse, admire a person who has done this and who has no pride left.",
    "Such a person is patient like the earth, which does not resent anyone who walks across it. He is steady like a pillar, and he is like a lake without mud, calm and clear.",
+   "Calm are the thoughts, the words and the deeds of a person who is free through right understanding. Wherever such people live, in a village or a forest, in a valley or on a hill, that place is delightful.",
    "The eighth chapter is called Thousands, and it compares large numbers with small ones. Better than a thousand empty words, it says, is a single word that brings peace to whoever hears it.",
    "Imagine a man who defeats a thousand thousand men in battle, one after another. The verse says that someone who conquers himself is a far greater winner than he is.",
+   "A person might spend a hundred years making costly offerings, month after month. Yet one moment of honest respect for someone who has trained his mind is worth more than all of them.",
+   "A person who is respectful and who always honours the elders will see four things grow. They are length of life, beauty, happiness and strength, say the verses.",
+   "Better than a hundred years lived without virtue or thought is a single day lived with virtue and meditation. Better, too, is one day lived wisely than a hundred years lived like a fool.",
+   "Better than a hundred years of laziness and weak effort is a single day of firm and steady effort. The verse praises the energy that gets a person up in the morning and sets him to work.",
+   "Better than a hundred years without noticing how things arise and pass away is one day of seeing it clearly. Everything we know is like a wave that rises, falls and is followed by another.",
+   "Tradition links this verse to Kisa Gotami, a young mother who carried her dead baby from door to door, hoping for a cure. The Buddha asked for a mustard seed from a house where no one had died, and her search taught her that death visits every family.",
+   "Better than a hundred years of life without seeing the highest teaching is one day of seeing it. The chapter ends with this last comparison, which tells us that depth matters more than length.",
    "The ninth chapter tells us to hurry to do good and to hold the mind back from evil. If we are slow to do good, it warns, the mind will begin to enjoy doing wrong.",
+   "If a person does wrong, he should not repeat it or set his heart on it, because piling up wrongs brings pain. If he does good, he should repeat it often, because piling up good brings happiness.",
+   "Even a wrongdoer may see good days for a while, as long as his wrong deed has not ripened. And even a good person may see hard days, until the good deed bears its fruit.",
    "Never think lightly of wrongdoing by saying that it will not come back to you. A water jar is filled drop by drop, and so we are filled, little by little, with good or with evil.",
+   "A merchant with a small escort and great wealth avoids a dangerous road, and a person who loves life avoids poison. In the same way, we should avoid evil, for poison cannot enter a hand that has no wound.",
+   "Whoever harms a person who is innocent and blameless will see the harm come back. It returns to that fool like fine dust that has been thrown against the wind.",
+   "Not in the sky, nor in the sea, nor in a mountain cave can a person escape the results of an evil deed. There is no place on earth where anyone can stand and be safe from what he has done.",
    "The tenth chapter says that everyone is afraid of violence, and that everyone loves life. If we imagine ourselves in the place of others, we will not wish to hurt any living being.",
+   "Every living being wants to be happy, and the verse says that this is the one thing we share. Whoever seeks happiness by harming others who also want it will not find it, but whoever harms no one will.",
+   "Do not speak harshly to anyone, because the people you speak to will answer you in the same way. Angry words cause pain, and the blows of retaliation will touch you in return.",
+   "If you can make yourself as still as a broken gong, which no longer rings, you have already reached peace. In such a person no anger can be found, and there is no quarrel left to fight.",
+   "A cowherd uses his stick to drive his cows toward the pasture. In the same way, old age and death drive the lives of all living things before them.",
+   "Going without clothes, wearing matted hair, fasting and covering oneself with ashes do not make a person pure. Even a person in fine clothes is a true holy person if he is calm, restrained and kind to every living being.",
+   "A good horse needs only the lightest touch of the whip to move forward. In the same way, the verse says, we should be eager and thoughtful, with faith, virtue, effort and understanding.",
+   "The eleventh chapter asks why we laugh and play when the world is burning with wants. We live in darkness, so why do we not look for a light?",
+   "Look at this decorated body, says the verse, which is so often ill and so full of plans. It is fragile and worn by time, and it cannot last for ever.",
+   "The body is like a house built with bones as its frame and covered with flesh and skin. Inside this house we find ageing, death, pride and deceit, all living side by side.",
    "The eleventh chapter speaks about growing old, and it does so without fear. Even a splendid royal chariot wears out, and so does the body, but the teaching of the good never grows old.",
-   "The twelfth chapter is called The Self, and it begins with a strong claim. It says that each of us is our own master, and that a well-trained self is a rare and precious help.",
+   "A person who has learned little grows old like an ox. His body grows bigger, but his wisdom does not grow at all.",
+   "Tradition says that at his awakening the Buddha spoke of a house-builder, which is his name for craving. He said that its rafters were broken, and that it would never build a house for him again.",
+   "People who did not use their youth well sit in old age like herons beside a pond without fish. They lie like broken bows, sighing for what is past.",
+   "If you hold yourself dear, guard yourself well, as a night guard keeps watch through the dark. First do what is right yourself, and then teach others, so that you will not suffer for it.",
+   "A person should act as he teaches others to act. If he has tamed himself well, he can help others to do the same, although taming the self is hard.",
+   "You yourself are your own refuge, for who else could be? When you have trained yourself well, you find a safe place that is very hard to find.",
+   "Wrong done by a person comes from himself and wears him down, like a hard diamond cutting a softer stone. A person with no virtue is like a creeper that strangles a tree, for he does to himself what an enemy would wish.",
    "By ourselves we do wrong, and by ourselves we become unclean, says the verse. In the same way, we make ourselves pure, because purity and impurity belong to each person and no one can cleanse another.",
+   "However much you do for others, do not lose sight of your own real good. Once you know what is truly good for you, set your mind firmly on the highest goal.",
    "The thirteenth chapter, called The World, begins with a loud call to wake up. It tells us to get up, to be careful and to follow the good path, which brings happiness.",
-   "The verse tells us to look upon the world as we would look at a bubble or a mirage. It says that the king of death cannot find a person who sees the world like this.",
-   "One verse in the chapter on the Buddha is often called a short summary of the whole teaching. It says that we should avoid all evil, do good, and purify our own minds.",
+   "The verse tells us to look upon the world as a bubble or a mirage. It also calls the world a painted royal chariot, in which fools sink while the wise feel no attachment.",
+   "Tradition links this verse to Angulimala, a robber who was feared in the countryside until he met the Buddha and gave up violence. One who was careless before and is careful later, says the verse, lights up the world like the moon freed from a cloud.",
+   "The verse says that this world is blind and that only a few see clearly. Just as only a few birds escape from a net, only a few people reach a happy state.",
+   "Swans fly along the path of the sun, and the verse says that the wise rise up in a similar way. They go beyond the world after they have conquered the tempter and all his army.",
+   "A person who lies and who respects nothing can bring himself to do any wrong. Misers do not praise giving, but the wise delight in it and are happy because of it.",
+   "Better than ruling the whole earth, or going to heaven, or being lord of all the worlds, is the first great step on the path. This step is called stream-entry, because the person has joined the current that flows toward freedom.",
+   "The fourteenth chapter, called The Buddha, praises one whose victory can never be undone and whom nothing in the world can follow. No craving is left in him, so by what path could anyone lead him back?",
+   "Those who are wise take joy in meditation and in the peace of leaving worldly things behind. Even the gods, says the verse, hold dear the ones who are awake and mindful.",
    "The same chapter says that it is hard to be born as a human being, and hard to live a mortal life. It is also hard to hear the true teaching, and hard for a Buddha to appear in the world.",
+   "One verse in the chapter on the Buddha is often called a short summary of the whole teaching. It says that we should avoid all evil, do good, and purify our own minds.",
+   "Patience, the verse says, is the highest discipline, and freedom is the highest goal. A person who harms others is not a true monk, and one who hurts others is not a true seeker.",
+   "Not even a shower of gold coins could satisfy our desires, which give little taste and much pain. The wise know this, and so they find joy in the end of craving instead.",
+   "When people are afraid, they run to hills, forests and old trees for shelter. The verse says that a safer shelter is the Buddha, the teaching and the community, with a clear view of the four truths.",
+   "A Buddha is very hard to find, and he is not born in every place. The verse calls it a blessing when one appears, and blessed too are the teaching and the harmony of the community.",
+   "To honour those who are worthy of honour, such as the Buddhas and their followers, is a very good deed. Its worth cannot be measured by anyone, because those people have overcome every obstacle and crossed beyond sorrow.",
    "The fifteenth chapter is called Happiness, and its first verses are about freedom from hate. It says that we can live happily without hatred even among people who hate, and without worry even among those who worry.",
+   "Let us live happily, we who own nothing, and let us feed on joy like the shining gods. The verse suggests that a light heart is worth more than a full storeroom.",
+   "Victory breeds hatred, and the one who is defeated lives on in pain and in sorrow. The peaceful live happily, for they have given up both winning and losing.",
+   "There is no fire like lust, no crime like hatred, and no happiness greater than peace. Hunger is the worst of illnesses, and a mind that has understood this finds its greatest happiness in Nibbana, the peace of freedom.",
    "Health is the greatest gift, says the Dhammapada, and contentment is the greatest wealth. A trusted person is the best of relatives, and freedom, called Nibbana, is the greatest happiness.",
-   "The sixteenth chapter, called Affection, says that sorrow and fear are born from clinging to what we love. A person who is wholly free from clinging has no sorrow, and so he has nothing to fear.",
-   "The seventeenth chapter, which is about anger, tells us to defeat anger with calm. We should overcome evil with good, a miser with giving, and a liar with the truth.",
+   "A person who has tasted the sweetness of solitude and the sweetness of peace is free from fear and from evil. He drinks deeply from the joy of the teaching, and he wants nothing more.",
+   "It is good to see noble people, and living with them is always a joy, but company with fools brings long sorrow. So follow the wise and patient, as the moon follows the path of the stars.",
+   "The sixteenth chapter is called Affection, and it begins by noticing a hard fact of life. Not to see those we love is painful, and to see those we dislike is painful too.",
+   "Parting from what we hold dear is painful, the verse says. Those who hold nothing too tightly, neither loved nor disliked, find that nothing binds them.",
+   "From clinging affection grief is born, and from affection comes fear. A person who is wholly free from clinging has no grief, so what is there left for him to fear?",
+   "Tradition tells of Visakha, a woman who was kind to the monks and who wept when her young granddaughter died. The Buddha is said to have taught her that grief is born from affection, and she slowly found peace.",
+   "People hold dear the person who has good character and clear understanding. They love someone who speaks the truth and does his own duty.",
+   "When a man has been away for a long time and comes home safely, his relatives and friends welcome him gladly. In the same way, good deeds welcome the one who has done good, when he leaves this world for the next.",
+   "The seventeenth chapter, which is about anger, says that we should give up anger and let go of pride. No suffering falls on a person who clings to nothing as his own.",
    "Anger can rise like a chariot that has begun to run away with its driver. The person who stops it quickly, says the verse, is a true charioteer, and the others only hold the reins.",
+   "The seventeenth chapter tells us to defeat anger with calm. We should overcome evil with good, a miser with giving, and a liar with the truth.",
+   "Speak the truth, do not give way to anger, and give something even if you have only a little. The verse says that these three simple habits lift a person toward a happier state.",
+   "An old saying notes that people blame those who sit silent, those who talk a lot and those who speak little. There never was, and never will be, a person who is only blamed or only praised.",
+   "But a person whom the wise praise day after day, who is without fault and who is wise and virtuous, is like pure gold. Who could find anything to blame in such a person?",
+   "Be careful of anger in the body, and let the body act with restraint. Do the same with speech and with thought, for the wise are well guarded in all three.",
+   "The eighteenth chapter, called Impurity, speaks to a person who is like a withered leaf, close to the end of the road. It tells him to make an island for himself, to strive quickly and to become wise, because he has no supplies for the road.",
+   "Little by little, moment by moment, a wise person removes his own impurities. A smith cleans the dross from silver in the same patient way.",
    "Rust is born from iron, but then it slowly eats the iron away. In the same way, our own bad deeds lead us toward a sad end.",
+   "Not studying is the stain of learning, and not taking care is the stain of a house. Laziness is the stain of beauty, but the worst stain of all is ignorance.",
+   "Life is easy for the shameless person, who is as bold as a crow and who pushes others aside. It is harder for the modest person, who always seeks purity and lives without show.",
+   "Whoever harms living beings, tells lies, takes what is not given or loses himself in drink is digging up his own roots. Evil habits are hard to control, so do not let greed drag you into long suffering.",
+   "It is easy to see the faults of others and hard to see our own. We blow away their faults like chaff, but we hide our own, as a cheating gambler hides a bad throw of the dice.",
+   "The nineteenth chapter, called The Just, says that a person who decides a case in haste is not fair. A wise judge weighs both right and wrong, and he treats everyone without favour.",
+   "A person does not become wise by speaking a great deal. The wise are peaceful, free from hate and fear, and one who has heard little but lives by it truly knows the teaching.",
+   "A person is not an elder just because his head is grey, for he may be only old in years. The true elder is the one who has truth, virtue, kindness and self-control.",
+   "A person who is envious, selfish and deceitful does not become admirable by speaking well or by having a fine face. But one who has cut these faults out by the root, and who is wise and free from hatred, is truly beautiful.",
+   "A man who is undisciplined and who tells lies does not become a true monk by shaving his head. The one who always calms evil, whether small or great, is called a monk because of that calming.",
+   "A person who harms living beings is not noble, but one who is harmless to all of them can be called so. The verse also warns us not to rest content with outward practices, but to keep going until the mind is free.",
    "The twentieth chapter, called The Path, names the best of all paths. It says that the best path is the Noble Eightfold Path and that the best truths are the Four Noble Truths.",
    "The verse says that we ourselves must make the effort, because the Buddhas only point the way. Those who walk the path and keep their minds steady will be freed from the bonds of Mara, the tempter.",
    "All made things change and pass away, and a person who sees this with wisdom grows tired of suffering. This clear seeing, says the verse, is the path that leads to purity.",
+   "The time to make an effort is when we are able to do it. A person who is young and strong but lazy, with a weak mind and weak resolve, never finds the way to wisdom.",
+   "Be watchful of what you say, keep the mind under control and do nothing harmful with the body. If you keep these three ways of acting clear, you will find the path that the sages made known.",
+   "Wisdom grows out of meditation, and without meditation it fades. Knowing these two roads, the one that gains and the one that loses, a person should live so that his wisdom grows.",
+   "Cut down the whole forest of desire, and not only a single tree, for fear grows in the forest. As long as even a little undergrowth is left, the mind stays tied, like a calf to its mother.",
+   "A fool says, I will live here in the rains, here in the winter and here in the summer. He does not see how soon the plans of every season can end.",
+   "The sleeping village and the flood return here, for death carries off those whose minds cling to pleasures. Neither children, parents nor relatives can hold death back, so the wise clear the path to peace without delay.",
+   "The twenty-first chapter is a collection of mixed verses, and its first one gives practical advice. If we can see a greater happiness by giving up a lesser one, the wise person gives up the lesser one.",
+   "A person who tries to be happy by causing others to suffer is caught in the ropes of hatred. He will not be freed from it, because he has tied himself to the people he hurts.",
+   "In some people what should be done is left undone, and what should not be done is done. Their faults grow, while the faults of those who are mindful and do what is right come to an end.",
+   "The verses say that the followers of the Buddha are always well awake. Day and night they remember the Buddha, the teaching and the community, and they delight in kindness and in meditation.",
+   "A person who has faith and virtue is honoured wherever he goes. Good people shine from afar like the snowy Himalaya, but bad people go unseen, like arrows shot in the dark.",
+   "A person who sits alone, walks alone and works alone, without tiring, can tame himself. He will find his delight at the edge of the forest, in the quiet.",
+   "The twenty-second chapter is called Hell, a name for the deep suffering that wrongdoing can bring. It says that a person who tells lies, or who does wrong and then denies it, comes to sorrow.",
+   "Sharp grass cuts the hand that grasps it the wrong way, and the verse says that a holy life wrongly handled does the same. A half-hearted deed brings no great fruit, so what is to be done should be done with full effort.",
+   "A wrong deed is better left undone, because it torments us afterwards, but a good deed is better done, because we never regret it. Guard yourself as people guard a border city, inside and out, and do not let the moment pass.",
+   "Some people feel shame about the wrong things, and some fear the wrong things. They see fault where there is none and miss it where it is, and this is called wrong view.",
    "The twenty-third chapter is named after the elephant, an animal that was trained for battle. Just as an elephant in battle endures the arrows that strike it, says the verse, I will bear the insults of others.",
+   "Well-trained mules, fine horses and great elephants are all excellent. But better still is the person who has tamed himself, since no animal can carry us where a trained mind goes.",
+   "My mind once wandered wherever it liked, whenever it pleased. Now I will guide it as an elephant driver guides his animal, and I will pull myself out of the mud.",
    "If you find a wise and good friend, walk with him, happy and thoughtful. If you find none, walk alone like an elephant in the forest, doing no harm and wanting little.",
+   "Good are friends when we are in need, and good is being content with what we have. Good too is kindness to a mother and a father, and good is a character that stays strong into old age.",
    "The twenty-fourth chapter is about craving, which grows like a creeping vine in the heedless. Dig up its roots, says the verse, as a gardener digs up a weed, so that it cannot grow again and again.",
+   "When a person is overcome by fierce craving, his sorrows grow like grass after the rain. But when he overcomes it, his sorrows fall away from him.",
+   "Dig up the root of craving, as a gardener digs up a weed with deep roots. A tree grows again after it is cut if its root is sound, and suffering does the same while craving remains.",
+   "People who are bound by craving run here and there like a hare in a snare. They are held by their ties and suffer for a long time, so one who wants freedom should put craving away.",
+   "The wise do not call a chain of iron, wood or rope the strongest bond. They say the strongest bond is longing for jewels and for loved ones, which looks loose but is hard to break.",
+   "Those who are carried away by desire fall into the stream they have made themselves, like a spider in the web it has spun. The wise cut through it, go on without longing and leave all suffering behind.",
+   "Let go of what is behind you, let go of what is ahead of you, and let go of what is in between. With a mind that is free everywhere, you will cross to the far shore and not fall back into sorrow.",
+   "The gift of the teaching is better than all other gifts, and its taste is better than all other tastes. Weeds spoil a field and passion spoils people, so a gift to those free from passion brings great fruit.",
+   "The twenty-fifth chapter, called The Monk, says that restraint is good in the eye, the ear, the nose and the tongue. It is good in body, speech and mind too, and the one who is restrained everywhere is freed from all suffering.",
+   "One who controls his hands, his feet and his tongue, and who is content with his own company, is called a monk. His speech is wise and sweet, and he explains the teaching without pride.",
+   "A person should not look down on what he has received, and he should not envy what others gain. Those who envy lose their calm, but the one who is content with little is praised even by the gods.",
    "The twenty-fifth chapter is about the monk, who has left home to follow the path. It tells him to empty his boat, because a boat that is empty moves lightly, and to cut off greed and hatred.",
-   "The last chapter describes the brahmin, a word that here means a truly noble person. A person is not made noble by long hair, by family or by birth, but by truth and righteousness.",
-   "The last verses describe a person who clings to nothing, like a drop of water on a lotus leaf. That person has put down every heavy burden, and the book ends by inviting each reader to walk toward the same peace."
+   "Meditate, and do not be careless, and do not let your mind spin about in pleasures. There is no meditation without wisdom and no wisdom without meditation, and one who has both is close to Nibbana.",
+   "A monk who has gone into an empty, quiet place and whose mind is at peace feels a joy beyond the ordinary. When he sees clearly how things arise and pass away, he finds a deep gladness.",
+   "A jasmine bush lets its withered flowers fall to the ground. In the same way, says the verse, we should let fall our lust and our hatred, completely and for good.",
+   "Reprove yourself by yourself, and examine yourself by yourself, and you will live happily, guarded and mindful. You are your own protector and your own refuge, so look after yourself as a merchant looks after a fine horse.",
+   "The twenty-sixth and last chapter is called The Brahmin, a word that here means a truly noble person. It tells us to cut off the stream of craving and cross over, and then no fear remains.",
+   "The sun shines by day, the moon shines by night, and the warrior shines in his armour. The noble person shines in meditation, but the Buddha shines by day and by night with his own light.",
+   "Because he has put away evil, he is called a brahmin, and because he lives in calm, he is called a recluse. One who does no harm by body, speech or mind, and who is restrained in all three, is truly noble.",
+   "A person is not made noble by matted hair, by family or by birth, says the verse. Truth and righteousness are what make a person noble, and such a person is truly blessed.",
+   "What is the use of matted hair, asks the verse, or of a cloak of antelope skin? The tangle is within, and it is only the outside that is being cleaned.",
+   "A thin person in worn robes who meditates alone in the forest is called noble by the verse. Birth does not make anyone noble, for one who owns nothing and clings to nothing is the one who truly is.",
+   "One who bears insults, blows and even prison without anger is called noble. His strength is patience, and patience is the army he leads.",
+   "One who has laid down violence toward every being, weak or strong, is called noble, and neither kills nor makes others kill. He is friendly among the hostile, peaceful among the violent and free among those who cling.",
+   "One who speaks gentle and truthful words that teach and offend no one is called noble. He takes nothing in the world that is not given, whether it is long or short, small or large.",
+   "One who has gone beyond clinging to both good and evil, and who is without sorrow and without stain, is called noble. Such a person is pure and calm, like the moon when it is spotless.",
+   "One who has passed beyond the muddy and dangerous road of delusion, and has crossed over to the other shore, is called noble. Such a person is steady, free from doubt and free from clinging.",
+   "One who knows, even here and now, the end of his own suffering has put down the heavy burden and is free. Such a person has done what was to be done, and nothing more remains to be carried.",
+   "The last verses describe a person who clings to nothing, like a drop of water on a lotus leaf. That person moves through the world untouched by it, and the book ends by inviting each reader to walk toward the same peace."
   ],
   "C1C2": [
    "The Dhammapada is a collection of 423 short verses, set in 26 chapters, that belongs to the Pali Canon, one of the earliest bodies of Buddhist scripture. Its name is often translated as the path of the teaching, and tradition links its verses to the words of the Buddha, who lived in northern India more than two thousand years ago. Each verse is meant to be read slowly and carried into daily life, so this retelling takes its best-loved lines in the order of the chapters.",
+   "Nothing in this book needs to be read in a hurry, because each verse is a small thought meant to be carried through the day. Later tradition added a story to explain when and why each one was spoken, and we will visit a few of those stories along the way. The retelling follows the order of the chapters, from the first verses about the mind to the last verses about the free person.",
    "The very first verses of the Dhammapada declare that mind is the forerunner of all things, and that every deed grows out of a thought. Speak or act with a troubled and angry mind, they warn, and suffering will follow as surely as the wheel of a cart follows the hoof of the ox that draws it. The lesson is not meant as a threat but as a plain observation, for what we think quietly today shapes what we do loudly tomorrow.",
    "The second verse mirrors the first and turns the same law toward the light, so that the reader may see both of its faces. When a person speaks or acts with a pure and gentle mind, joy follows as faithfully as a shadow that never leaves its owner. Together the two verses set out the central idea of the whole book: our inner state is the seed, and our life is the harvest.",
+   "A later story, told alongside the first verse, concerns a blind monk named Cakkhupala, who paced up and down outside his hut in the early morning. Unable to see them, he trod on some small insects, and other monks found them and told the Buddha. The Buddha answered that no blame could rest on a person who had meant no harm, which is exactly what the verse about the mind had said.",
+   "One verse imagines a person who keeps saying that he was insulted, struck, defeated and robbed, and who turns the list over in his mind year after year. Such thoughts, it says, feed the hatred they describe, so that those who dwell on them never see their anger come to an end. Those who refuse to keep the list, by contrast, find that the hatred quietly dies for lack of fuel.",
    "In a verse that has been quoted for many centuries, the teaching says that hatred is never calmed by hatred in this world. It is calmed only by love, and this, the verse adds, is an ancient law that does not change with time or place. Anyone who has answered anger with anger and watched a quarrel grow will recognise the truth of it at once.",
    "Many people quarrel as though life were endless, the verse observes, and they do not remember that everyone must one day die. Those who do remember it, who hold that plain fact steadily in view, find that their quarrels begin to lose their force. It is a sober thought, yet it is offered as a way to a lighter and more peaceful heart.",
+   "The Dhammapada sets two people side by side: the first dwells on whatever pleases him, lets his senses run free, eats without measure and is lazy in effort. Mara, the tempter, overthrows such a person with no trouble, as the wind overthrows a frail tree. The second guards the senses, eats in moderation and stays steady in faith and energy, and against him the tempter is as helpless as the wind against a mountain of rock.",
+   "The ninth verse looks at the saffron robe worn by Buddhist monks and asks who truly deserves to wear it. A person who has not cast off his own impurities, who lacks honesty and self-control, is not worthy of the robe, however neatly he wears it. The one who has put aside impurity, who is firm in virtue and sincere in speech, is worthy of it, since a uniform can only show what the person inside has already become.",
+   "The verses that close this part of the chapter speak of people who mistake the unimportant for the important, and who overlook what is truly important. Because their thoughts are wrongly aimed, they walk past the essence of things the way a man might carry home a sack of husks and leave the grain in the field. Those who see the essential as essential and the useless as useless, by contrast, are guided by right thinking and arrive at what is truly worth having.",
+   "As rain leaks through a badly thatched roof, says the verse, so passion breaks into a mind that has not been trained. A mind that has been carefully developed is like a well-thatched house, and no passion can find a way into it, however long the storm. The comparison is practical rather than poetic, for it reminds us that nobody mends a roof while it is raining, and that the time to train the mind is now.",
+   "The wrongdoer is sorrowful in this world and in the next, the verses say, and he is troubled whenever he sees how impure his own actions have been. The one who does good, on the other hand, rejoices in both worlds, and the sight of his own pure deeds fills him with delight. The Dhammapada treats conscience here as a kind of weather that follows us everywhere, dark for the one who has done harm and bright for the one who has done good.",
+   "Someone may recite a great many sacred texts, the verse says, and yet, careless and heedless, never put a word of them into practice. Such a person is like a cowherd who counts another man's cattle, and he has no part in the true reward of the way. A person who knows only a little, but who lives by it and has let go of greed, hatred and confusion, shares fully in that reward.",
    "The second chapter is a praise of heedfulness, a word that means keeping the mind alert and caring about what one thinks, says and does. Attention, it declares, is the path to the deathless, while carelessness is the road to death, and the careless are as good as dead while they still breathe. The wise understand this difference clearly, and so they take delight in staying awake.",
+   "Having understood this clearly, the wise take delight in heedfulness and find joy in the way of the noble ones. They meditate, they persevere, and they reach the great safety from every bond that the verse calls Nibbana. A person who is energetic, mindful, pure in conduct and considerate, who restrains himself and lives by the teaching, sees his good name grow steadily, as a garden grows under daily care.",
    "Through steady effort, careful attention and self-control, the verse says, a wise person can make for himself an island that no flood can overwhelm. The image is memorable because the floods in this teaching are the troubles of life, the waves of anger, fear and loss that sweep over everyone sooner or later. Only the person who has built such an island within can stand on it and remain safe.",
-   "Do not give yourself to carelessness, the chapter says, and do not wear yourself out in the chase after sensual pleasures. A person who is attentive and who sits quietly in meditation, by contrast, arrives at great and lasting happiness. The difference is between a joy that must be bought again every day and a joy that is simply there once the mind is still.",
+   "A later story tells of Culapanthaka, a monk so slow at learning that after months of trying he still could not remember a single verse, and his own brother told him to go home. The Buddha instead gave him a clean white cloth and asked him to rub it with his hand, repeating a simple phrase about removing dirt. As the cloth grew grey he saw how everything that looks clean will change, and, tradition says, his patient effort carried him to the freedom that cleverness alone had never given him.",
+   "Foolish and unwise people, the verses say, give themselves over to carelessness, but the wise guard their attention as a person guards his most precious possession. They refuse to indulge in carelessness or to take delight in sensual pleasures, because they know that a careless moment can undo the work of years. The one who is attentive and meditative, by contrast, reaches a happiness that does not fade.",
+   "Imagine a person who stands on a mountain top and looks down at the crowds on the plain far below, the verse says. In the same way, the wise remove carelessness by their own care and climb the high tower of wisdom, where sorrow can no longer reach them. From that height they look without scorn on those who still struggle, for they remember that they too once stood among the crowd.",
+   "The wise person is careful among the careless and awake among those who sleep, the verse says, and in that way he moves quickly forward. He is like a swift racehorse that leaves a tired and weak horse behind, not out of pride but because it has somewhere to go. The picture is of a mind that has set its direction and does not wait for the whole crowd to be ready.",
+   "The monk who delights in heedfulness and who sees the danger in carelessness, the verses say, goes forward like a fire, burning every bond, small and great, that lies in his way. Such a person is no longer likely to fall away, for he has come close to Nibbana, the freedom of a mind at peace. The chapter ends on this note of safety, as though to promise that steady care, kept up day by day, leads somewhere real.",
    "The third chapter turns to the mind itself, which it describes as trembling, unsteady and hard to guard or to hold in check. Just as a maker of arrows patiently straightens each shaft, the verse says, a wise person straightens the mind. It is a craftsman's task, done a little each day, and it asks for patience far more than for force.",
    "Another verse compares the mind to a fish pulled from its pool and thrown onto dry ground, where it twists and shivers in distress. So the mind struggles, the Dhammapada says, when a person first tries to pull it out of its old habits and into stillness. Anyone who has tried to sit quietly for five minutes will know exactly what the fish is feeling.",
    "The mind is hard to hold and light as a leaf, the verse says, and it settles wherever it wishes, whether or not that place is good for us. A mind that has been tamed, however, is a source of happiness that nothing else can give. For this reason the teaching asks us to train the mind with the same care that a rider gives to a spirited horse.",
+   "The mind is subtle and hard to see, the verses say, and it darts wherever it pleases, so the wise guard it with care, for a guarded mind brings happiness. It travels far, alone and without a body, and it makes its home in the cave of the heart. Those who bring it under restraint, the Dhammapada promises, are set free from the bonds of Mara, the tempter.",
+   "If the mind is unsteady, the verse says, and a person does not know the true teaching and his faith is always wavering, then his wisdom will never be complete. But the one whose mind is not flooded by craving and whose heart is not troubled by hatred, who has gone beyond both good and bad, is awake and has nothing to fear. The thought is simple: fear lives in the restless mind, and it has no home in a mind that is still.",
+   "Know that this body is as fragile as a clay jar, the verse says, and make your mind as strong as a fortified city with high walls and watchful guards. Fight the tempter with the weapon of wisdom, then, and do not rest on the first success. Even after the battle is won, you must go on guarding what you have gained, for a victory that is not watched can be lost as easily as it was won.",
+   "Before long, the verse says, this body will lie on the ground, cast aside and empty of mind, like a useless log. It is a hard fact, stated without drama, and it stands among the verses about the mind as a reminder that time is short. The thought is meant to turn our attention from what is passing to what we can still shape today, which is the direction in which the mind is looking.",
    "An enemy may harm an enemy, the Dhammapada notes, and a hater may harm the one he hates, but a mind turned in the wrong direction does far greater damage than either. In the same way, a well-directed mind can do us more good than even a mother or a father could. Everything, in other words, depends on where the mind is pointed, and that is the one thing we can change from within.",
+   "The fourth chapter, called Flowers, begins with a question: who will master this earth, and the world of death, and the world of the gods? The learner will do it, the answer comes, in the way a skilled gardener picks out the finest flowers, choosing the well-taught lesson from among the many things a person might hear. The verse suggests that learning is mostly a matter of choosing well, and that a patient eye is worth more than a full basket.",
+   "Know that this body is like foam, the verse says, and as fleeting as a mirage, and so break the flower-tipped arrows of the tempter and pass beyond the sight of the king of death. Death carries off the person whose mind is busy gathering flowers, the next verse adds, as a great flood sweeps away a sleeping village. Beauty and pleasure are not wrong in themselves, but a mind that spends all its time gathering them has no time left to wake up.",
    "In the chapter called Flowers, the teaching offers a picture of a bee that visits a blossom, takes its nectar and flies away without damaging its colour or its scent. The sage, the verse says, should go through the village in just the same way, taking what he needs and leaving the place unharmed. It is a lesson in gentleness that asks for no grand gestures, only for a careful and light touch.",
+   "Do not look at the faults of others, the verse says, nor at what they have done or left undone. Look instead at your own deeds, at what you have done and what you have not yet done. It is much easier to keep a list of other people's mistakes than of our own, and so the teaching turns the lamp the other way.",
+   "A flower may be lovely to look at and yet have no scent, the verse observes, and so it is with fine words spoken by a person who does not act on them. A flower that is both beautiful and fragrant is like fine words that are matched by deeds, for these bear real fruit in the world. Speech, in other words, is a promise, and only when we keep it can anyone smell the flower.",
+   "From a heap of flowers, the verse says, many garlands can be made, each one different from the last. In the same way a mortal, whose time is short, should make of that time as many good deeds as he can. The picture is a cheerful one, for it suggests that goodness is not a single grand act but a pile of small blossoms, strung together one by one.",
    "The perfume of flowers, even of sandalwood or jasmine, cannot travel against the wind, and so its reach is limited by the weather. The fragrance of a good person, however, drifts in every direction and even against the wind, because kindness is remembered long after a person has left the room. It is, the verse seems to say, the one perfume that is worth wearing.",
+   "Beside a busy highway there may lie a heap of rubbish, the verse says, and out of it a lotus may grow, sweet-smelling and delightful to the heart. In the same way, among blind and heedless crowds, the disciple of the Buddha shines out through wisdom. The image offers comfort to anyone who feels out of place: the lotus did not choose its soil, but it did choose to open, and that is the part that is ours.",
    "The fifth chapter turns to the fool, by which it means anyone who does not learn from his own mistakes. The night is long for the sleepless, it says, and the road is long for the weary, and so the round of life is long for those who have never grasped the true teaching. Ignorance, in this telling, is not wickedness but tiredness, a weight that makes every step heavier than it needs to be.",
    "If a traveller cannot find a companion who is wiser than himself, or at least as wise, the verse advises him to continue firmly on his own. There is no friendship to be had with a fool, it says, and a bad companion will hold a person back far more than the road itself ever could. The advice is not unkind, only honest about how strongly the company we keep shapes the people we become.",
+   "A fool is tormented, the verse says, by the thought that he has children and that he has wealth, and he worries about them day and night. Yet even the self does not belong to him in the way he imagines, so how can children or riches be his to keep? The verse does not tell us to stop loving our families or working for a living; it asks only that we hold them with open hands.",
    "A fool who knows that he is a fool, the Dhammapada says, is for that reason wise, because the first step toward learning is to admit that there is something to learn. The fool who believes himself to be wise, on the other hand, deserves to be called a fool indeed. Pride is the one thing that closes every door, and humility is the key that opens them again.",
    "Even if a fool spends his whole life in the company of a wise person, the verse says, he will understand nothing of the teaching, just as a spoon never tastes the soup it stirs. A person of understanding, by contrast, needs only a moment beside the wise to grasp what is being said, as the tongue knows the flavour of the soup at once. Learning, we are reminded, depends less on who stands near us than on how open we are.",
+   "Foolish people go through life as their own worst enemies, the verse says, doing wrong and then eating the bitter fruit it brings. A deed is poorly done, it explains, if we regret it afterwards, and if its result makes us weep with a tearful face. A deed is well done if it brings no regret and if we can enjoy its result with gladness, which gives each of us a simple test to apply before we act.",
+   "As long as its result has not ripened, the verse says, a fool thinks that wrongdoing is as sweet as honey. When it does ripen he comes to grief, for an evil deed does not turn sour at once like fresh milk, but follows the fool in secret, like a fire that smoulders under a covering of ashes. That is why the harm of a careless act can seem to be absent for so long, and why the teaching asks us to look at the end of a deed before we begin.",
+   "The fool longs for a reputation that he has not earned, for the first place among his fellows and for honour in every house he enters. He wishes everyone to believe that every good piece of work was done by him alone, the verse says, and in this way his desire and his pride keep growing. Cleverness gained by such a person does him no good, for it only feeds the very thing that harms him.",
+   "One road, the verse says, leads to gain, and another leads to Nibbana, and they are not the same road. Knowing this, the disciple of the Buddha should not take delight in honour or praise, but should cultivate seclusion and the quiet of his own mind. It is a closing thought for the chapter on the fool, for it shows that the greatest folly is to take the first road while hoping to arrive at the second.",
    "The chapter on the wise begins with an unusual image: someone who points out your faults, it says, is like a person who shows you where a hidden treasure lies. Follow such a person, the verse urges, for it will go better and never worse for anyone who does so. Few of us enjoy being corrected, yet the one who corrects us kindly is giving us something that flattery never could.",
+   "Let the wise person advise and instruct, the verse says, and let him hold others back from what is wrong, for he will be dear to the good and unwelcome to the bad. For this reason, do not keep the company of bad friends, nor of the lowest kind of people, but choose good friends and the best of people. Whoever we spend our days with slowly lends us his habits, and so this advice is really about the person we want to become.",
+   "The one who drinks in the teaching, the verse says, lives happily and with a mind that is serene, for the teaching works on him as clear water works on a thirsty person. The wise take constant delight in the Dhamma taught by the noble ones, and they do not tire of hearing it again. It is the picture of a student for whom learning is no longer a duty but a pleasure that the heart asks for by itself.",
+   "Farmers lead water to their fields, arrow makers straighten their shafts and carpenters shape their wood, the verse says, but the wise tame themselves. Tradition links it to a young novice named Pandita, who is said to have watched such workers on his daily walk for food. He thought that if people can shape water and wood, he could shape his own mind, and he went back to his seat and practised until the lesson was part of him.",
    "As a solid rock is not shaken by the wind, so the wise are not moved by praise or by blame, however loudly either one is spoken. They have learned that the opinions of others pass like weather, and that peace depends on something steadier than applause. Such calm is not coldness; it is the freedom of someone who no longer needs to be told who he is.",
    "When the wise have listened to the teachings, the verse says, their minds become tranquil like a deep lake that is clear and undisturbed. Water that is stirred up shows only mud, but water that is left alone reveals every stone at the bottom. In the same way, a quiet mind sees its own situation plainly, and nothing in it has to be hidden or feared.",
+   "The good let go of their hold on things, the verse says, and they do not chatter about the pleasures they long for. When happiness touches them or sorrow does, the wise show neither wild joy nor deep despair, and they would never seek wealth or power by unfair means, whether for themselves or for anyone else. Their steadiness comes from knowing that both joy and sorrow arrive and leave like guests, and that a good host treats each one with the same courtesy.",
+   "Among all human beings, the verse says, only a few reach the farther shore of the river of life, while the rest only run up and down the near bank. They are busy and often tired, and the days of their running are not days of crossing. The image asks us gently to look at our own busyness and to ask whether it is taking us anywhere, or only along the water's edge.",
+   "Those who follow the well-taught path, the verses say, cross over the realm of death, which is so hard to cross. The wise leave the dark way behind and take the bright one, find delight in solitude where others find little, and cleanse the mind of everything that clouds it. Those whose minds are well trained in the qualities that lead to awakening, who take joy in not clinging and whose stains are gone, shine with a light of their own and find peace in this very life.",
    "The seventh chapter describes the arahant, the worthy one who has travelled the whole path to its end and is free from sorrow in every direction. For such a person, the verse says, the fever of the heart has gone, and the chains that once held him have fallen away. It is a portrait of complete freedom, offered less as a prize that is out of reach than as a direction in which every reader may begin to walk.",
+   "The mindful exert themselves, the verse says, and they take no pleasure in any particular dwelling, for no home holds them. Like swans that rise from a lake and leave it behind, they go from place to place with no sorrow at leaving and no desire to return. The image suits a mind that has learned to use the world without being tied to it, as a guest uses a room without mistaking it for his own.",
+   "For those who store up nothing and who know moderation in food, the verse says, the path is as hard to trace as the path of a bird in the sky. No footprint remains where a bird has flown, and so the free person leaves behind no trail of greed or resentment for anyone to follow. It is a high and quiet picture of a life that takes nothing with it and leaves nothing that needs to be undone.",
+   "The senses can be like horses, and the person who has tamed them as a skilful charioteer tames his team is calm and free from pride. Such a person has no stain left in the mind, the verse says, and even the gods look at him with admiration. There is a long journey behind that calm, but the verse suggests that the one who reaches it does not boast of it, since he no longer needs to be seen.",
    "Such a person is patient like the earth, which does not resent those who tread upon it, and steady like a firm pillar that no storm can shift. He is also like a lake from which all the mud has settled, clear to the bottom and calm on the surface. For one who lives in this way, the verse concludes, there are no more restless wanderings, because there is nowhere left he needs to run.",
+   "Calm is the thought, calm is the word and calm is the deed of the one who is freed by right understanding and made peaceful in every part. Wherever such people live, in a village or a forest, in a valley or on a hill, that place is delightful. Forests too can be delightful, the verse adds, where ordinary people find no pleasure, for those without craving are happy there, having no wish to chase pleasures.",
    "The eighth chapter, called Thousands, sets large numbers against small ones in order to show that what matters is quality and not quantity. Better than a thousand empty words, it says, is a single word of meaning that brings peace to the one who hears it. Anyone who has been comforted by a short and honest sentence in a time of need will understand why this verse has lasted so long.",
    "Even if a man were to defeat a thousand times a thousand men in battle, the verse says, the one who conquers only himself is the greatest of all conquerors. Armies can be beaten and cities taken, but the habits of one's own heart are a much harder country to win. It is a surprising kind of heroism, one that is fought alone, in silence, and without any audience at all.",
+   "A person might make a thousand offerings every month for a hundred years, the verse says, seeking merit by each one. Yet a single moment of honest respect for someone who has trained himself is better than all of that giving. The lesson is not that generosity is poor, but that the heart behind a gift matters far more than its price.",
+   "For the person who is respectful by nature and who always honours his elders, four things increase, the verse says: life, beauty, happiness and strength. Whatever the exact meaning of these gifts, the verse suggests that courtesy is never wasted, since it builds trust, brings friendships and helps a person grow into the kind of elder others will wish to honour in turn. It is advice that parents in almost every land have given their children, and it is no less true for being so familiar.",
+   "Better than a hundred years lived without virtue and without self-control, the verse says, is a single day lived well and in meditation. In the same way, one day of wisdom and quiet thought is better than a hundred years of foolishness and distraction. The comparison is not about the clock but about depth, for a day in which we are fully awake can hold more life than a long stretch spent half asleep.",
+   "Better than a hundred years lived lazily and without strength of will, the verse says, is one day lived with firm and steady effort. Most of us know both kinds of day, the one that drifts by and leaves nothing behind, and the one in which we have put our whole heart to something and gone to sleep content. The Dhammapada asks us only to notice which of the two we would choose, and then to choose it.",
+   "Better than a hundred years lived without seeing how things arise and pass away, the verse says, is a single day lived in clear sight of it. Everything we know, from a mood to a mountain, is like a wave that rises, falls and is followed by another. To see this clearly is not to grow cold toward the world but to hold it more lightly and to love it with fewer fears.",
+   "Tradition links this verse, about the deathless state, to the story of Kisa Gotami, a young mother whose baby had died and who carried it from door to door asking for medicine. The Buddha told her to bring a mustard seed from any house where no one had ever died, and as she went from home to home she learned that every family had lost someone. Her grief did not vanish at once, but it became a shared sorrow rather than a lonely one, and the story says that she then asked to follow the teaching.",
+   "The last verse of the chapter makes its final comparison: better than a hundred years lived without seeing the highest teaching is one day lived in sight of it. After all the thousands and hundreds that came before it, the chapter closes on the number one, as though to say that a single clear day can outweigh a whole shelf of calendars. Quality, once again, is set above quantity, and the reader is left to wonder what a day of seeing might look like.",
    "Make haste to do good, the ninth chapter urges, and hold your mind back from evil, for the mind that is slow to act kindly soon starts to take pleasure in wrongdoing. Good intentions that are put off until tomorrow tend to fade by the evening, while an unkind impulse needs no encouragement at all. The remedy offered here is simple: act on the good thought at once, before it has time to cool.",
+   "If a person has done wrong, the verse says, he should not do it again and again, nor set his heart upon it, for the gathering of wrong deeds is painful. If he has done good, on the other hand, he should do it again and again and set his heart upon it, for the gathering of good deeds is happiness. In this way a single act becomes a habit, and a habit, as everyone knows, slowly becomes the person who has it.",
+   "Even a wrongdoer may meet with good fortune for a while, the verse says, as long as his wrong deed has not yet ripened, and only when it ripens does he see the harm he has done. In the same way, even a good person may meet with hardship until his good deed bears fruit, and only then does he see the good he has done. The verses do not promise that the world is fair in a day, but they ask for patience and for trust in the slow work of cause and effect.",
    "Do not think lightly of wrongdoing, the verse warns, by telling yourself that it will never come back to you, for even a water jar is filled drop by drop. In the same way, a fool is filled with evil a little at a time, and the following verse says that the wise are filled with goodness just as gradually. Small deeds repeated every day, in other words, are the true builders of character.",
+   "A merchant who travels with a small escort and a great deal of wealth avoids a dangerous road, the verse says, and a person who loves life avoids poison. In the same way we should avoid evil deeds, which are a danger far greater than any bandit. Poison cannot enter a hand that has no wound, and likewise evil cannot touch the person who does none.",
+   "Whoever harms a person who is pure and innocent, the verse says, will find that the wrong comes back upon the fool himself, like fine dust thrown against the wind. Anyone who has tried to throw dust into a strong breeze knows that most of it returns to the thrower's own face. The teaching is plain about where the real danger of cruelty lies, which is not outside us but in what it does to the one who commits it.",
+   "Not in the sky, the verse says, nor in the middle of the sea, nor in a cleft of the mountains is there any place on earth where a person can escape the result of an evil deed. It is a stern thought, but it holds a kind of mercy too, for it tells us that our deeds are never lost and that every good act, however small, is just as certain to bear fruit. Wherever we go, we carry our actions with us, and so the wisest course is to make them the kind we are glad to carry.",
    "Everyone trembles before violence and everyone fears death, says the tenth chapter, and life is dear to all. A person who truly sees himself in other beings, it concludes, will neither strike nor cause another to strike. The rule is as old as it is simple, and it asks for nothing more than an honest effort of the imagination.",
+   "Every living being wants to be happy, the verse says, and whoever seeks his own happiness by harming other beings who want the same thing will not find it in the end. Whoever seeks happiness while harming no one, on the other hand, will find it, because his happiness takes nothing from anyone else. It is a simple piece of arithmetic in which the joy of one is never bought at the cost of another, and it is a strong argument for kindness.",
+   "Do not speak harshly to anyone, the verse says, for those you speak to will answer you in the same way. Angry speech is painful, and its echo comes back to strike the one who sent it. Every shout, we might say, is thrown against a mountain, and the mountain always has a reply.",
+   "If you can make yourself as still as a gong that has been broken and no longer rings, the verse says, then you have already come to Nibbana. No agitation is to be found in a person like that, and no quarrel can take hold of him, for a quarrel needs two voices to keep it ringing. The image turns silence into a form of strength, since the one who does not answer an insult leaves it with nowhere to go.",
+   "As a cowherd with his staff drives his cattle toward the pasture, the verse says, so old age and death drive the lives of all beings before them. The picture is not cruel, for the cowherd means his cows no harm, and the road ahead is simply the one that every living thing must take. Knowing the road, a sensible person spends the hours of the walk wisely, and does not waste them on quarrels or on grasping.",
+   "Neither going without clothes, nor matted hair, nor dirt, nor fasting, nor lying on the bare ground, nor covering oneself in ashes can purify a mortal who has not overcome doubt, the verse says. Even a person in fine clothes, however, is a true brahmin and a true monk if he is calm, tranquil and restrained, and has laid down violence toward every living being. The teaching places the sign of holiness in the manner of the heart and not in the look of the body.",
+   "Is there anyone in the world, the verse asks, who is so held back by a sense of shame that he avoids blame as a good horse avoids the whip? A fine horse needs only the lightest touch to spring forward, and a person should be like it, eager and spiritually moved by the first hint of what is wrong. With faith, virtue, effort, concentration and understanding, mindful of what he does, he will overcome this great suffering.",
+   "Why is there laughter, the eleventh chapter asks, and why is there joy, when the world is always burning with the fires of wanting? Wrapped in darkness as we are, it continues, why do we not look for a lamp? The question is asked without scorn, for it is not against laughter but against a laughter that keeps us from looking at the way things really are.",
+   "Look at this decorated body, the verse says, which people paint and care for and fill with plans, though it is often ill and has no lasting hold on anything. It wears out, it is a home for many illnesses and it breaks up in the end, because life ends in death. The thought is not cruel but practical, for a person who sees how fragile the body is will spend less of his life in worry over its looks and more in the care of the mind.",
+   "The body is like a city, the verse says, built of bones and plastered over with flesh and skin, and stored inside it are ageing, death, pride and deceit. It is a blunt description, yet it is offered with calm and without disgust, as an architect might describe the weak points of a building he cares about. Knowing what the house is made of, we can look after it kindly and still refuse to be ruled by it.",
    "Even the splendid chariots of kings wear out in time, the eleventh chapter observes, and the body too must grow old. The teaching of the good, however, does not grow old, for the wise pass it from one to another across the years. The verse speaks of age without fear and offers a quiet consolation: what we love and understand can outlast the body that carried it.",
-   "The twelfth chapter makes a bold claim about responsibility: the self is its own master, and nobody else can take that place, however much we might wish them to. When a person has trained himself well, the verse adds, he has found a helper that is difficult to find anywhere in the world. It places the work of change squarely in each reader's hands, which is both a burden and a great encouragement.",
+   "The person of little learning grows old like an ox, the verse says, for his body grows larger while his wisdom grows not at all. The remark is aimed at those who let the years pass without asking what they mean, and it is kinder than it sounds, because the cure is always close at hand. A person who begins to learn today, at any age, has already started to grow in the better direction.",
+   "Tradition says that these words came from the Buddha at the moment of his awakening, after a long search through many lives for the builder of the house. Now you are seen, house-builder, he is said to have declared, and you will not build a house for me again, for all the rafters are broken and the ridgepole is shattered. The builder is craving and the house is the body with its round of rebirth, and the verse sounds like a long breath of relief at the end of a long task.",
+   "Those who did not live wisely in their youth, and who gathered neither wealth nor wisdom, sit in old age like worn-out herons beside a pond that has no fish, the verse says. They lie about like bows that have been broken, sighing over the days that are gone and cannot be called back. The verses are not meant to shame the old, but to remind the young that youth is a store of strength which is best spent while it lasts.",
+   "If a person holds himself dear, the twelfth chapter says, he should guard himself well, as a watchman guards a house through the long hours of the night. He should first establish himself in what is right, and only then teach others, and in this way the wise avoid pain and reproach. A teacher whose own life does not agree with his words is like a lamp that gives no light, and no one can find his way by it.",
+   "As a person instructs others, the verse says, so should he act himself, for only a person who has tamed himself well can help others to be tamed. The verse admits that this is difficult, for the self is the hardest of all things to tame. The teacher who knows how hard the work is, because he has been doing it, is the one whose advice a student is most likely to trust.",
+   "Oneself is one's own refuge, the verse says, for who else could it be? When a person has trained himself well, he gains a refuge that is hard to find anywhere else in the world. Friends and teachers can show us the door, but the shelter we walk into is the one that we have built in our own minds.",
+   "The wrong that a person does is born from himself, the verse says, and it is made by himself, and it grinds the fool down as a diamond cuts through a stone. A person who has no virtue at all is like a creeper that strangles the tree on which it grows, for he does to himself exactly what his enemy would wish. Bad deeds and deeds that harm ourselves are easy to do, it adds, while good deeds that help us are very hard to do.",
    "It is by oneself that wrong is done, the verse says, and by oneself that a person is made unclean. It is likewise by oneself that wrong is left undone and one is made pure, for purity and impurity belong to each person alone. No one, however loving or learned, can purify another, and that is why the work must always begin at home.",
+   "However great the needs of others may be, the verse says, do not neglect your own true welfare. Having understood what that welfare is, a person should be intent upon the highest goal. The advice is not selfish, for a person who has no peace of his own has little to offer anyone else, and the best help is given from a steady place.",
    "The thirteenth chapter, which is called The World, opens with a call like the sound of a bell in the early morning. Rise up and do not be careless, it says, but follow the good path with all your heart, for whoever walks it lives happily both in this world and in the next. The verse does not frighten the reader; it only invites him to wake, as one wakes on a bright morning, and to begin.",
-   "Look upon the world as you would look upon a bubble or a mirage, the verse advises, and the king of death will not see you. The image is not meant to make life seem worthless, but to loosen the grip of the person who clutches at everything as if it were permanent. Whoever sees how lightly the world is made, it implies, can walk through it without fear of losing what was never fixed in the first place.",
-   "In the chapter called The Buddha, one verse is often described as a summary of the whole teaching in a single breath. Avoid all evil, it says, do what is good, and cleanse your own mind, and this is what the awakened ones have taught. Beside it stands another line praising patience as the highest discipline, as if to say that all three tasks will take a very long time.",
+   "Look upon the world as you would look upon a bubble or a mirage, the verse advises, and the king of death will not see you. Come and look at this world, the next verse invites, as at a painted royal chariot, in which fools sink down while the wise cling to nothing. The image is not meant to make life seem worthless, but to loosen the grip of the person who clutches at everything as if it were permanent.",
+   "Tradition links this verse to Angulimala, a robber who was feared throughout the countryside until he met the Buddha, gave up violence and became a monk. A person who was careless before and is careful afterwards, the verse says, lights up this world like the moon when it comes free from a cloud. The next verse widens the promise, for whoever covers an evil deed with a good one shines in the same way, which means that no past is so dark that a clear light cannot rise from it.",
+   "This world is blind, the verse says, and only a few in it can see clearly. Like a bird that has slipped free of the hunter's net, only a few rise up into the open sky of a happier state. The verse is not a judgment on others but a description of how easy it is to be caught in the web of habit without even noticing the strands.",
+   "Swans travel along the path of the sun, the verse says, and in the tradition those with great powers of mind are said to travel through the air. In the same way, the wise are led out of the world, having conquered Mara and all of his army. The picture is a bright one, of a long and graceful flight at the end of a hard struggle, and it shows how the book likes to pair effort with ease.",
+   "A person who tells lies and scoffs at everything beyond the present moment, the verse says, will find that there is no evil he is unwilling to do. Misers, it adds, do not praise giving, and fools find no joy in generosity, while the wise delight in giving and are made happy by it. Honesty and open-handedness are shown here as two sides of one character, and the lack of both as the beginning of a long downhill road.",
+   "Better than ruling over the entire earth, the verse says, better than going to a heavenly world, and better than being lord of all the worlds is the fruit of stream-entry, the first great step on the path. The one who has entered the stream has joined a current that flows toward freedom, and tradition says that such a person does not fall away. The chapter closes on a note of quiet confidence, for it values the inner gain over every kind of outer power.",
+   "The fourteenth chapter praises the Awakened One as a person whose victory can never be undone and whom nothing in the world can follow, because his range is without limit. No craving remains in him, no net of desire that could catch him and drag him anywhere, and so, the verses ask, by what path could anyone lead him astray? The questions leave us amazed, for they describe a freedom so complete that there is nothing in it left to hold.",
+   "The wise are intent on meditation, the verse says, and they take delight in the peace that comes of putting worldly things aside. Even the gods hold dear those who are awake and mindful, it adds, as if the whole of creation leaned toward people who live with attention. The quiet life described here is not an escape from the world, since it is the ground from which a person's kindness toward the world can grow.",
    "Four things are difficult, the chapter says: to be born as a human being, to live out the life of a mortal, to hear the true teaching, and for an awakened one to appear in the world. The list is meant to make us feel how rare and precious this present chance is, rather than to make us anxious. If you are alive and listening to the teaching, then you already hold a gift that is far from common.",
+   "In the chapter called The Buddha, one verse is often described as a summary of the whole teaching in a single breath. Avoid all evil, it says, do what is good, and cleanse your own mind, and this is what the awakened ones have taught. A later verse fills in the details of daily life, which are not to despise or harm others, to keep within the rules, to eat in moderation, to live in quiet places and to give yourself to meditation.",
+   "Patience that bears things without anger is the highest of all disciplines, the verse says, and Nibbana is the highest of all goals, as the awakened ones declare. A person who harms others cannot be called a true monk, it adds, and one who hurts others is not a true seeker of peace. The test of a holy life is thus not what is worn or recited but what is done to the people nearby, and the first part of that test is how we bear their faults.",
+   "Not even a rain of gold coins, the verse says, could satisfy the hunger of our desires, which have so little flavour and bring so much pain. The wise know this, and so, even where the pleasures are heavenly, they take no delight in them, but find their joy in the ending of craving. It is easy to nod at such a verse and difficult to live by it, for each of us has some wish that we are certain, this time, will be the last.",
+   "Driven by fear, the verses say, many people go for shelter to hills, forests, groves and sacred trees, but none of these places can give shelter from the sorrows of the mind. A safer refuge, the chapter says, is the Buddha, the teaching and the community of monks, seen with understanding of the Four Noble Truths. These truths are suffering, its origin, its ending and the Eightfold Path that leads to that ending, and a refuge built on them can be carried anywhere.",
+   "A person of such greatness is hard to find, the verse says, and he is not born everywhere, but the family in which such a wise one is born is made happy. Blessed is the birth of Buddhas, it says, and blessed is the teaching of the true Dhamma, and blessed is the harmony of the community, for those who practise together strengthen one another. The verses count their blessings with a few plain words, and the reader is invited to count them too.",
+   "Whoever honours those who are worthy of honour, the verse says, whether they are Buddhas or their disciples, who have overcome all obstacles and crossed beyond sorrow and lamentation, gains a merit that no one can measure. It is a reminder that respect is not a small thing, since it turns the heart toward what is good and keeps it from turning toward what is merely loud. The chapter on the Buddha ends with this bow, a gesture of gratitude toward everyone who has found the way and shown it to others.",
    "The fifteenth chapter is called Happiness, and it begins by describing how happily we may live without hatred, even among people who hate. We may live free of sickness among the sick, the verse continues, and free of anxiety among the anxious, as long as we do not let their state become ours. It is a picture of happiness that does not wait for the world around us to improve.",
+   "Happily we live, the verse says, those of us who own nothing, and we shall feed on joy like the shining gods. It is not a call to poverty so much as a reminder that a person who needs little is hard to rob, since no thief can take the contentment of a mind that asks for nothing more. The lightness of such a heart is a treasure that no storeroom can hold.",
+   "Victory breeds hatred, the verse says, and the defeated lie down in pain, so that even a fair win leaves a quarrel behind it. The peaceful person lives happily, for he has set aside both victory and defeat and has no further need of either. A great deal of unhappiness comes from counting the score, and this verse suggests that we are free to put down the pencil.",
+   "There is no fire like lust, the verses say, no crime like hatred, no suffering like the clinging of body and mind, and no happiness higher than peace. Hunger is the worst of illnesses, they add, and it may be that the bodily hunger and the hunger of the heart are both meant, for neither is ever fully fed by what we give it. A person who understands this as it really is, the verse concludes, knows Nibbana as the highest happiness.",
    "Health is the greatest of gifts, the verse says, and contentment is the greatest of riches, for a person who has enough lacks nothing. A trusted friend is the best of relatives, and Nibbana, the freedom of a mind at peace, is the highest happiness there is. The list is a quiet challenge to the usual order of things, since most of us spend our best years chasing items that are placed far lower.",
-   "The sixteenth chapter says that sorrow and fear are born from affection, and that a person who is wholly free of it has no grief and nothing to fear. Teachers explain that this points to clinging, a grasping love that cannot bear to lose what it holds, and not to love itself in its open and generous form. The teaching asks us to hold dear things gently, so that when they pass, they do not take our peace with them.",
-   "Conquer anger by the absence of anger, says the seventeenth chapter, and conquer evil by good, for no fault is cured by feeding it. Conquer the miser with generosity, and conquer the liar with the truth, for each fault is best met by its opposite. It is a strategy of patience rather than of force, and it works because it leaves the other person with nothing to push against.",
+   "Having tasted the flavour of solitude, the verse says, and the flavour of peace, a person becomes free from fear and free from evil, for he drinks the joy of the teaching. The taste is described as a kind of nourishment, the thing that the hungry heart was looking for in so many other places. Anyone who has sat alone in a quiet room and found that the silence was not empty but full will know what the verse means.",
+   "It is good to see the noble, the verses say, and to live with them is always happy, while to travel with fools brings a long sorrow, as if one were walking beside an enemy. Meeting the wise is as joyful as meeting one's own family, and so a person should follow the wise, the learned, the patient and the dutiful, as the moon follows the path of the stars. The image is of one light moving steadily among others, and it suggests that wisdom is caught less from lectures than from walking in good company.",
+   "The sixteenth chapter, called Affection, begins by observing a plain fact about the heart. It is painful not to see those whom we love, the verse says, and it is just as painful to see those whom we dislike. Our peace is thus at the mercy of who walks into the room, so long as we depend wholly on likes and dislikes for it.",
+   "Because parting from the dear is painful, the verse says, a person should not hold anything too dear. Those who have nothing that they cling to as loved or unloved are bound by no chains. A mind that does not need its comforts in order to be at ease is a mind that the loss of them cannot break.",
+   "From affection grief is born, the verse says, and from affection fear is born, but for one who is wholly free of it there is no grief, and so no fear. Teachers explain that this points to clinging, a grasping love that cannot bear to lose what it holds, and not to love itself in its open and generous form. The teaching asks us to hold dear things gently, so that when they pass, they do not take our peace with them.",
+   "Tradition tells of Visakha, a wealthy and generous woman who supported the Buddha's community and who was heartbroken when her young granddaughter died. She came to the Buddha in tears, the story says, and he spoke to her of the way that grief is born from the things we hold most dear. The story does not scold her for loving, but offers the hard comfort of understanding, which is that sorrow is the shadow of affection and that wisdom can make the shadow lighter.",
+   "The one who is endowed with virtue and with insight, the verse says, who is firm in the teaching, speaks the truth and does his own duty, is dear to everyone. Affection of this kind is not clinging but the natural warmth that follows good character, in the way that a lamp is loved for its light and not for its price. The verse shows the other face of the word, that to be dear to others is a gift we earn by what we are.",
+   "When a man has been away for a long time and returns safely from afar, the verse says, his relatives, friends and well-wishers come out to welcome him. In the same way, a person who has done good is welcomed by his own good deeds when he goes from this world to the next, as loved ones greet a dear friend. It is a gentle picture of the chapter on affection coming full circle, for it shows that the only companions who truly go with us are the good things we have done.",
+   "Give up anger, says the seventeenth chapter, and let go of pride, and overcome every bond that ties you down. No suffering can fall upon the person who does not cling to mind and body as his own, and who calls nothing his possession. The two faults named here, anger and pride, are close companions, for each is the defence of a self that is afraid of being small.",
    "Anger rises like a chariot that has begun to run away with its driver, and most of us are carried along behind it. Whoever can check it in the moment of its rising, the verse says, deserves to be called a true charioteer, while others merely hold the reins. To master the feeling at its first stirring, before it has gathered speed, is the whole of the skill.",
+   "Conquer anger by the absence of anger, says the seventeenth chapter, and conquer evil by good, for no fault is cured by feeding it. Conquer the miser with generosity, and conquer the liar with the truth, for each fault is best met by its opposite. It is a strategy of patience rather than of force, and it works because it leaves the other person with nothing to push against.",
+   "Speak the truth, the verse says, do not yield to anger, and give, even if you have only a little, for by these three a person comes into the presence of the gods. The sages who harm no one and keep the body under control, it adds, go to the deathless state, where there is no more grief. Their way is one of daily training, day and night, and for those who keep it up the stains of the mind fade away.",
+   "This is an old saying, the verses remark: people blame the one who sits silent, they blame the one who talks a great deal, and they blame the one who speaks in moderation. No one in the world escapes blame, for there never was, and there never will be, a person who is wholly blamed or wholly praised. If that is so, then the opinion of the crowd is a poor compass, and a calm person would do better to steer by his own honest sense of what is right.",
+   "Yet there is the person whom the wise praise day after day, the verse says, who is without blemish and whose conduct is guided by wisdom and virtue. Who could find fault with such a person, the verse asks, any more than with a piece of pure gold taken fresh from a river? Even the gods praise such a person, it adds, and the best sign of worth is not the loudness of praise but the wisdom of those who give it.",
+   "Guard against anger of the body, the verses say, and keep the body under control, giving up wrong conduct and practising good conduct instead. Do the same with speech, and do the same with the mind, for in each of these three doors anger may come in. The wise who are restrained in body, speech and mind are truly well restrained, and this closes the chapter on anger with a simple map of where to stand watch.",
+   "The eighteenth chapter, called Impurity, begins by addressing a person who is like a withered yellow leaf, near the end of the road, with no supplies packed for the journey. Make an island for yourself, it says, strive quickly and become wise, and when you are purified of stain you will go on to the company of the noble. It is a stern opening, yet its message is kind, for it tells us that the time to prepare is not when we are tired but when we still have light.",
+   "Little by little, moment by moment, the verse says, a wise person should remove his own impurities, as a smith removes the dross from silver. Nothing is done in a day, and the metal does not become bright all at once, but each small cleaning leaves it a little purer than before. Anyone who has felt discouraged by the slowness of his own change will find that this is a comfortable and honest picture of how it goes.",
    "The eighteenth chapter, on impurity, compares wrongdoing to rust, which is born from iron and yet slowly eats the very iron from which it came. A person's own deeds, it says, carry him toward a sorrowful end, so the harm does not come from outside but grows within the one who does wrong. The chapter names ignorance as the worst stain of all, because a mind that cannot see its own rust has no reason to clean it.",
+   "Failure to study is the stain on learning, the verse says, neglect is the stain on a home, laziness is the stain on beauty, and carelessness is the stain on a guard. Stinginess is the stain on a giver, and evil deeds are stains in this world and the next. Worse than all of these, however, is ignorance, which is the worst stain there is, and the person who removes it is free of stain for good.",
+   "Life is easy, the verse says, for the person who is shameless, bold as a crow, quick to speak ill of others and arrogant in his ways. It is hard for the modest person who always seeks purity, who is not attached to things, who does not push himself forward and who lives a clean life with clear understanding. The verse does not say that the hard road is the unhappy one, only that the easy one is not the one that leads where we should like to go.",
+   "Whoever destroys life, speaks falsehood, takes what has not been given or loses himself in intoxicating drink, the verse says, is digging up his own root even in this present world. Know this, good person, that such evil states are hard to restrain, and do not let greed and wickedness drag you into long suffering. The image of the root is a careful one, for it suggests that a person who acts in these ways is not only doing wrong but cutting away the ground that holds him up.",
+   "The faults of others are easily seen, the verse says, but our own are hard to see. We sift through other people's mistakes like chaff, while we hide our own as a cunning gambler hides a losing throw of the dice. The picture is a little comic, for there is something absurd in hiding what we already know, and honesty with oneself costs far less than the hiding.",
+   "The nineteenth chapter, called The Just, says that a person is not fair merely because he has decided a case, especially if he has decided it in haste. The wise person examines both what is right and what is wrong, and guards the law without favour to either side. Such a person, the verse says, is called one who stands by the teaching, and the description fits anyone who has ever had to settle a quarrel between friends.",
+   "A person is not wise merely because he speaks a great deal, the verse says, for the one who is called wise is secure in himself, free from hatred and free from fear. In the same way, a person is not a bearer of the teaching because of the words he can say, but because, having heard even a little, he lives by it. Wisdom is thus measured by what is done with words and not by how many are spoken, and a quiet person may be richer than a loud one.",
+   "A person is not an elder because his hair has turned grey, the verse says, for he may be merely ripe in years and empty of anything else. The one in whom there are truth, virtue, harmlessness, restraint and self-mastery, who is free from stain and wise, is the one who deserves to be called an elder. The verse is a gentle reproof to anyone who expects respect as a right of age, and a gentle encouragement to anyone who has earned it.",
+   "A person who is envious, selfish and deceitful does not become admirable merely by speaking beautifully or by having a pleasing face, the verse says. But one who has cut these faults out, torn them up by the root, and who is wise and free from hatred, is the one who is truly called beautiful. It is an old and consoling idea that real beauty grows from the inside outwards, and that nobody is too plain to have it.",
+   "A person who is undisciplined and speaks falsely does not become a true monk by shaving his head, the verse says, and no one who is full of desire and greed can be one. The one who always calms evil, small and great, is called a monk because of that calming, and for no other reason. The sign of a holy life is thus the quieting of harm in oneself, and a person may carry no outward sign at all and still have it.",
+   "A person is not noble because he harms living beings, the verse says, but is called noble because he is harmless toward all of them. It adds a warning that neither vows and rules, nor much learning, nor deep concentration, nor a life spent alone should lead us to believe that the highest freedom has been won. The seeker should not rest content, it concludes, until the stains of the mind have been brought to an end, and this honest restlessness is the last lesson of the chapter on the just.",
    "The twentieth chapter, called The Path, names the best of all roads as the Noble Eightfold Path, and the best of all truths as the Four Noble Truths. Dispassion is called the best of states, and the one who sees clearly the best of human beings. This path, the verse concludes, is the only one that leads to the purifying of insight, and the reader is urged to follow it.",
    "You yourselves must make the effort, says the twentieth chapter, for the Buddhas can only point the way. Those who enter the path and keep their minds steady in meditation will be freed from the bonds of Mara, the tempter who stands for everything that holds the heart in sleep. No teacher, however great, can walk the road in anyone's place, and this verse says so with beautiful honesty.",
    "All made things are impermanent, the verse says, and when a person sees this with true insight, he begins to turn away from suffering. The same chapter adds that all things are without a lasting self, and that seeing this too is the road to purity. The thought is hard at first, like cold water, but those who accept it often find that the grip of worry is loosened.",
+   "The person who does not rise when it is time to rise, the verse says, who is young and strong yet idle, with a mind full of weak resolutions, will never find the way to wisdom. The warning is not about tiredness, which every person feels, but about the lazy habit of waiting for a better moment that never arrives. Strength is a loan from the years, and it is best spent while the loan lasts.",
+   "Be watchful of your speech, the verse says, be well restrained in your mind, and do nothing harmful with your body. Keep these three ways of acting clean, and you will win the path that the sages have made known. The advice is as practical as a checklist, for we always do something with our words, our thoughts and our hands, and each of the three is a place where we can choose well.",
+   "Wisdom springs from meditation, the verse says, and without meditation wisdom wanes away, as a plant dies when it is not watered. Knowing this twofold path of gain and loss, a person should so conduct himself that his wisdom may grow. It is a modest piece of advice, to set aside time for quiet thought each day, and yet the verse suggests that everything else we hope to understand depends on it.",
+   "Cut down the forest of desire, the verse says, and not only a single tree, for fear is born in the forest. As long as even the smallest undergrowth of wanting is left uncut, the mind remains in bondage, like a calf that still drinks at its mother's side. The image is a reminder that half-measures do not free us, since a single remaining root can send up the whole thicket again.",
+   "Here I shall live in the rains, here in winter and in summer, thinks the fool, and he does not see the danger that stands close behind his plans. The verse has no objection to planning, and every sensible person arranges his seasons, but it warns against the belief that the arrangements will last for ever. A home, a career and a future are all borrowed from time, and the wise person lives in them gratefully and lightly.",
+   "The flood that carries off a sleeping village returns in this chapter, for death sweeps away the person whose mind is clinging to the pleasures of the day. Sons are no protection, the verse says, nor are fathers or other relatives, and no family can stand between a person and death. Understanding this, the wise, who are held firm by good conduct, quickly clear the path that leads to Nibbana, as a traveller clears a road before the light fades.",
+   "The twenty-first chapter is a collection of miscellaneous verses, and it opens with a piece of practical wisdom. If by giving up a smaller happiness a person can see a greater happiness, the wise person will give up the smaller for the greater. A child who saves a sweet to share at a feast is doing this, and so is anyone who puts aside an easy pleasure today for a lasting good tomorrow.",
+   "A person who seeks his own happiness by bringing suffering to others, the verse says, is entangled in the bonds of hatred and is not set free from it. He has tied himself to those he has harmed, because their pain returns to him as resentment and as fear. The only way out is the opposite road, in which our gain is never bought with someone else's loss.",
+   "What should be done is left undone, the verses say, and what should not be done is done instead, and so the stains of the proud and heedless only increase. For those who are always mindful of the body and who do not do what should not be done, but do what should be done, the stains come to an end. It is a kind of housekeeping of the mind, and its first rule is that the little jobs we neglect become large ones.",
+   "Always well awake, the verses say, are the followers of Gotama, the Buddha, who day and night keep in mind the Buddha, the teaching and the community of monks. They are also mindful of the body and take delight in harmlessness and in meditation. A series of short verses repeats the same pattern, as though a morning bell were being rung six times, each time on a different thought to wake up with.",
+   "A person who has faith and virtue, who has gained a good name and a fair share of wealth, is honoured wherever he goes, the verse says. The good shine from afar like the snowy peaks of the Himalaya, while the bad cannot be seen at all, like arrows shot into the dark. The comparison is a quiet one: goodness is visible across great distances, while harm hides itself and strikes where it is not looked for.",
+   "The one who sits alone, sleeps alone and walks alone, the verse says, tireless and unwearied, and who tames himself alone, will find his delight at the edge of the forest. It is a short verse and a gentle one, for it does not ask the reader to leave home but only to find, somewhere, a place of quiet. Solitude of this kind is not loneliness, since it is a time of meeting oneself, and it is the best preparation for meeting others.",
+   "The twenty-second chapter is called Hell, and in the old teaching the word names the deep suffering that wrongdoing can bring about. A person who tells lies comes to sorrow, the first verse says, and so does the one who does wrong and then denies it, for both are held by what they have done. The chapter treats the subject as a matter of cause and effect and not as a threat, and its first lesson is that a hidden deed is still a deed.",
+   "As sharp kusa grass cuts the hand that grasps it wrongly, the verse says, so a holy life wrongly handled drags a person down into suffering. A slack effort, a broken vow or a doubtful way of life produces no great fruit, it adds, and a lax wanderer only scatters more dust. If something is to be done, the verse concludes, let it be done with all one's strength, for a half-hearted effort at something good can wound the one who makes it.",
+   "A wrong deed is better left undone, the verse says, for it torments the doer afterwards, while a good deed is better done, since nobody regrets it. Guard yourself, it continues, as people guard a border city, with watchmen both inside and out, and do not let the moment slip by. Those who let it pass will grieve over it, the verse warns, and the grief is the sorrow of what might have been done.",
+   "To be ashamed of what is not shameful, and not ashamed of what is, is a wrong view, the verses say. So is fearing what should not be feared, and feeling no fear of what should, as is seeing fault where there is none and missing it where it lies. Those who know a fault as a fault, and a harmless thing as harmless, hold the right view, and it leads them toward a good road.",
    "The twenty-third chapter takes its name from the elephant, which in ancient times was trained to carry kings into battle and to stand firm while arrows fell around it. Just as such an elephant endures every shot, the verse says in the voice of the teacher, so shall I endure the harsh words of others, for the world is full of people who speak carelessly. The chapter adds that a tamed elephant is a fine thing, but that the person who has tamed himself is finer still.",
+   "Well-trained mules are excellent, the verse says, and so are thoroughbred horses and great elephants with their mighty tusks. Better than any of them, however, is the person who has tamed himself, for none of those animals can carry anyone to the untrodden place that a tamed self can reach. The comparison lifts a humble skill, the training of oneself, above the glitter of the finest riding animals, and it does so without any show.",
+   "Formerly this mind of mine wandered wherever it liked and as it pleased, says the teacher, but now I shall hold it firmly, as an elephant driver holds a wild elephant with his hook. Take delight in heedfulness and guard your mind, he adds, and draw yourself out of the evil way, as an elephant lifts itself out of the mud in which it has sunk. The two pictures are of control and rescue, and they remind us that taming the mind is partly a matter of holding on and partly a matter of climbing out.",
    "If you find a wise and steady companion, the chapter says, walk with him, glad and thoughtful, and overcome every danger on the way. If you find none, then go on alone like an elephant in the great forest, or like a king who has left a conquered country behind him. There is companionship in the first case and freedom in the second, and the verse sees nothing to fear in either.",
+   "Good are friends when need arises, the verses say, and good is contentment with whatever one has, and good is the store of kind deeds that a person carries at the end of life. Good is the care of one's mother and father, and good is the respect shown to monks and holy people. The list closes with virtue that lasts into old age, with settled faith, with the gaining of wisdom and with the avoiding of all evil, a modest inventory of the things that make a life feel well spent.",
    "The twenty-fourth chapter is about craving, which in the heedless grows like a creeping vine that wraps itself around everything it touches. Whoever is overcome by this fierce thirst finds his sorrows multiplying, the verse says, as grass grows quickly after the rain. The remedy it offers is to dig up the root, so that craving cannot rise again and again like a weed that has only been cut back.",
+   "Whoever is overcome by this fierce and clinging craving, the verse says, finds his sorrows growing as thickly as grass after a rainfall. But whoever overcomes this craving, which is so hard to overcome, finds that sorrow slips from him as water slips from a smooth leaf. The difference between the two is not the world around them but what they do with the wanting that rises inside.",
+   "Dig up the root of craving, the teacher tells his listeners, as one who needs a certain fragrant root digs up the stubborn grass around it. A tree that has been cut down will grow again if its root is firm and unharmed, and in the same way this suffering springs up again and again while the hidden craving has not been pulled out. The remedy is to go deeper than the surface, for craving that is only trimmed will return, and the work of uprooting it is done by understanding.",
+   "Those who are bound by craving, the verse says, run about like a hunted hare, held fast by the fetters that they cannot see, and they suffer again and again for a long time. The hare in the snare pulls harder as it panics, and the harder it pulls the tighter the loop becomes. Therefore, the verse concludes, the person who wishes to be free should put craving away, and so stop the pulling that tightens the rope.",
+   "The wise do not call a bond of iron, wood or hemp strong, the verse says, for these can be cut with a knife. The strongest bond is the infatuation with jewels and ornaments, and the longing for children and partners, which drags a person down and yet looks so loose that nobody notices it. Having cut even this bond, the wise go forward without longing, and they leave sensual pleasure behind.",
+   "Those who are carried away by lust, the verse says, fall back into the stream that they have made themselves, as a spider falls into the web that it has spun. The wise cut through the thread and go forward without longing, leaving all suffering behind them. It is a sober image of how much of our trouble we weave out of our own wanting, and also of how the same hands that wove the web can cut it.",
+   "Let go of what is behind you, the verse says, let go of what is ahead of you, and let go of what lies in the middle. Having gone to the farther shore of existence, with a mind that is released on every side, you will not come again to birth and old age. The advice is almost a travel instruction, and it is wonderfully complete, since it leaves nothing to carry in any direction of time.",
+   "The gift of the teaching surpasses every other gift, the verse says, its taste surpasses every other taste, and delight in it surpasses every other delight. The ending of craving, it adds, conquers all suffering, and it is the one victory that nobody has to take from anyone else. As weeds are the ruin of a field, so passion is the ruin of people, and for that reason a gift given to those who are free from passion yields a great harvest.",
+   "The twenty-fifth chapter, called The Monk, opens by praising restraint in each of the senses, in the eye, in the ear, in the nose and in the tongue. Restraint in body, in speech and in mind is good as well, it continues, and the one who is restrained everywhere is freed from all suffering. Restraint here does not mean closing the doors, but learning to stand at them, so that what comes in is welcomed with attention and not simply allowed to carry us away.",
+   "The one who is controlled in hand and foot and in speech, the verse says, who delights in quiet meditation and is content to be alone, is the one who is called a monk. When such a person speaks, his tongue is restrained, his words are wise and free from conceit, and he explains the meaning of the teaching in a way that is sweet to the ear. The picture joins two things that seem opposite, a deep inner quiet and a clear, generous voice, and suggests that the second grows out of the first.",
+   "One should not despise what one has received, the verse says, nor envy the gains of others, for the person who envies others does not reach a steady mind. Even a monk who receives very little, if he does not look down on it and lives honestly and with energy, is praised by the gods themselves. Contentment is thus presented as a kind of skill, the art of being fed by what is on the plate and not by what is on the next one.",
    "The twenty-fifth chapter is addressed to the monk, the one who has left home to follow the path, but its advice is useful to anyone. Bail out the water from your boat, it says, for when it is emptied it will go lightly across the lake. If you cut off greed and hatred, the weight that slows you will be gone, and you will reach freedom with far less effort than you now imagine.",
-   "The last chapter describes the brahmin, a word that in this book means a truly noble person, and it makes an important point at once. One does not become noble by matted hair, by family or by birth, the verse says, but by truth and righteousness. In this way the teaching places worth in conduct rather than rank, and it draws a portrait of a man who is free in the heart, not merely in name.",
-   "In its closing verses the Dhammapada describes the one who clings to no pleasure, like a drop of water that rolls from a lotus leaf, or a mustard seed that slips from the point of a needle. Such a person has put down every heavy burden and moves through the world without fear, anger or grasping. The book ends where it began, with the mind, and leaves each reader to walk the path in his own way and at his own pace."
+   "Meditate, the verse says, and do not be careless, and do not let your mind whirl about among sensual pleasures, so that you will not cry out in pain afterwards. There is no meditation for one who has no wisdom, it adds, and no wisdom for one who does not meditate, and the person who has both is close to Nibbana. The two are like a pair of wings, since a bird with only one of them will turn in circles, and with both it can fly.",
+   "The monk who has entered an empty place and whose mind is at peace, the verse says, who sees the teaching rightly, feels a delight that is beyond the ordinary human kind. Whenever he understands the rise and fall of body and mind, he gains joy and happiness, and for those who know it, this is called the deathless. The empty place may be a hut or a quiet corner or only a pause in a busy day, and the delight comes not from the place but from the clarity that the quiet allows.",
+   "As the jasmine plant lets its withered flowers fall, the verse says, so should you let go of lust and of hatred, completely and for good. The plant does not struggle to get rid of the old blossoms, for they simply drop when their time has come, and the freshness that follows is never in doubt. Letting go is described here not as a loss but as a natural part of growth.",
+   "Reprove yourself by yourself, says the verse, and examine yourself by yourself, and so, guarded and mindful, you will live happily. For oneself is the protector of oneself, and oneself is the refuge of oneself, and therefore you should look after yourself as a merchant looks after a fine horse. It is a closing reminder that the teacher's work in the end gives way to the student's own, and that the best guardian anyone has is a mind that has learned to watch itself kindly.",
+   "The twenty-sixth and last chapter is called The Brahmin, a word that in this book means a truly noble person, and it begins with a call to cut off the stream of craving. Strive, it says, and push away your sensual desires, and when you know the ending of all made things you will know what is not made. The person for whom there is neither the near shore nor the far shore, who is fearless and free from every bond, is the one the verse calls noble.",
+   "The sun shines by day, says the verse, and the moon lights up the night, and the warrior shines in his armour. The noble person shines in meditation, but the Buddha shines through the day and through the night with the radiance of his own mind. Each kind of light belongs to its own time and place, the verse seems to say, while the light of an awakened mind needs no hour and no fuel.",
+   "Because he has driven out evil he is called a brahmin, the verse says, and because he has sent away his own impurities he is called one who has gone forth. A later verse names the same person as the one who does no evil by body, by speech or by mind, and who is restrained in all three of these doors. The names are only names, and the book keeps returning to the same simple test of what a person is doing with his hands, his words and his thoughts.",
+   "One does not become noble by matted hair, by family or by birth, the verse says, but by truth and righteousness. In the one who has them there is blessedness, and that person is the true brahmin. In this way the teaching places worth in conduct rather than rank, and it draws a portrait of a man who is free in the heart, not merely in name.",
+   "What is the use of matted hair, the verse asks, and what is the use of a cloak of antelope skin, when the tangle is within and only the outside is being cleaned? The question is put to the person who looks the part but has not looked inside. It is a friendly reminder that the work of becoming noble is done in the place where nobody else can see it, and that no costume, however humble, will do it for us.",
+   "The person who wears robes made of rags, who is lean from effort and who meditates alone in the forest, is called noble by the verse. It does not call a person noble because of his origin or his mother's womb, and it remarks that one who has many possessions is merely called sir. The one who owns nothing and clings to nothing, it says, is the person who is truly noble, and no title can add to that.",
+   "The one who endures abuse, beating and imprisonment without anger, the verse says, and whose strength and whose army is patience, is the one it calls noble. It is a strange kind of power, since it is shown by what a person does not do when he has every excuse to do it. It recalls the elephant in battle from an earlier chapter, and the book seems to come round to its own earlier picture.",
+   "One who has laid down violence toward all beings, whether weak or strong, and who neither kills nor causes others to kill, is the one the verse calls noble. Such a person is friendly among the hostile, peaceful among the violent and unattached among those who cling. It is the first chapter's lesson turned into a person, for that chapter said that hatred ends only by love, and here is someone in whom it has.",
+   "One who speaks words that are gentle, instructive and true, so that nobody is offended by them, is called noble in this chapter. He takes nothing in the world that has not been given to him, whether long or short, small or large, fair or foul. The two lines go together, for honest speech and honest hands are the outer signs of a mind that has no need to deceive or to grab.",
+   "One who has gone beyond clinging to both good and evil, the verse says, and who is without sorrow and without stain, is pure. Such a person is spotless like the moon, serene and undisturbed, with no more delight in the cycle of becoming. The moon appeared before, freed from a cloud, and here it returns as a whole and quiet light, without any cloud left to pass.",
+   "The one who has passed beyond this muddy, dangerous and difficult road of delusion, the verse says, who has crossed over to the other shore, is meditative and steady, free from doubt and free from clinging. Such a person has given up sensual pleasures and wanders without a home, and for him the long road that began so many verses ago has come to firm and dry ground. In the first verse the wheel followed the ox, and here at last is a walker who has put the cart down.",
+   "One who knows, even in this very life, the end of his own suffering, the verse says, has put down the burden and is free from every bond. Having done everything that was to be done, such a person has nothing further to prove and nothing further to carry, and the effort of all the earlier chapters finds its rest. Many readers will take from this verse a small piece of relief, that the heaviest loads are the ones we have picked up and can set down.",
+   "In its closing verses the Dhammapada describes the one who clings to no pleasure, like a drop of water that rolls from a lotus leaf, or a mustard seed that slips from the point of a needle. Such a person moves through the world without fear, anger or grasping, and lust, hatred, pride and deceit have fallen away from him. The book ends where it began, with the mind, and leaves each reader to walk the path in his own way and at his own pace."
   ]
  }
 }
