@@ -1,0 +1,417 @@
+{
+  "slug": "the-hacker-with-the-red-scarf",
+  "meta": {
+    "blurb": "Tamsin Rook breaks into computers for a living, always with permission, and always in her grandmother's red scarf. When a kind treasurer is blamed for stolen charity money, she must find the real thief. Every clue is fair. Can you spot him first?",
+    "bible": "Tamsin Rook: 26, lives on a houseboat in Karsholm, tests companies' computer security with permission, wears a long red scarf knitted by her grandmother; two rules: only break in when invited, always tell the owner. Aldous Penn: the kind, thin Treasurer of the Harbour Fund; his password is his old dog Biscuit's name and his birth year, written in a notebook in his desk drawer. Harbour Fund: a charity that buys coats, school trips and breakfasts for children; its office is above a fish market on Gull Lane. Joy Adeyemi: the Fund's office manager, three years there, new blue car was a gift from her aunt. Victoria Hale: the cool, elegant Chair of the trustees; hosts a charity dinner for fifty guests every second Thursday. Dr Marcus Bell: a gentle trustee and doctor, drives Penn to choir every Thursday in his old green car; his late mother Lena Marsh; he is the thief. Felix Dane: the IT Contractor who built the system and installed the old Remote program; teaches a night class every second Thursday. Inspector Dana Okoye: the police detective. Mrs Quill: the strict choir Conductor at St Anselm's Hall on Quay Street. Mrs Ferris: the baker on Dock Street. Northlight Supplies: the fake company that received the money, bank account in the name of Lena Marsh, address an empty shop on Dock Street. Lighthouse Trust: the invented donor of the bait gift of 8,900 pounds. Facts: about two hundred thousand pounds taken in eight months; payments always under nine thousand pounds, every second Thursday at 6:40 in the evening; each needed a six-number Code texted to Penn's phone, which Bell held in his car because phones are banned in the hall. Key terms: Password, Phone, Code, Transfer, Account, Trustees, Remote, Mobile, Network, Mast, Wi-Fi, Keyboard, Laptop, Bait, Thursday, Karsholm, Treasurer, Contractor, Conductor, Houseboat, Choir, Hymn, Charity. Voice and tone: clear, tense and kind, a fair-play puzzle told step by step; no gore; the thief is Dr Bell, and every clue the reader needs is given before the car park."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Tamsin Rook types on a laptop at dawn on her boat, a red scarf round her neck",
+      "summary": "Tamsin, a young woman in a red scarf, tests computer systems for a living."
+    },
+    {
+      "n": 2,
+      "scene": "Tamsin ties her grandmother's red scarf and closes the laptop",
+      "summary": "Tamsin explains her two rules: she breaks in only when invited, and she always tells the owner."
+    },
+    {
+      "n": 3,
+      "scene": "A thin man in a wet grey raincoat knocks on the door of the houseboat",
+      "summary": "Aldous Penn, treasurer of the Harbour Fund, knocks on her door in the rain."
+    },
+    {
+      "n": 4,
+      "scene": "Children in bright new winter coats line up outside a school at the harbour",
+      "summary": "The Harbour Fund buys coats, school trips and breakfasts for children in Karsholm."
+    },
+    {
+      "n": 5,
+      "scene": "Penn spreads a bank statement across the table, his finger on a column of numbers",
+      "summary": "About two hundred thousand pounds has vanished from the Fund in eight months, in small payments."
+    },
+    {
+      "n": 6,
+      "scene": "Inspector Okoye reads a printed list of bank payments across a desk from a nervous Penn",
+      "summary": "The police believe Penn did it, because his password and his computer were used."
+    },
+    {
+      "n": 7,
+      "scene": "Penn stands in a church choir with a hymn book, an empty pocket where his phone should be",
+      "summary": "Penn says he is innocent; he sings in a choir on Thursdays, and phones are banned in the hall."
+    },
+    {
+      "n": 8,
+      "scene": "Tamsin shakes Penn's hand across the table while rain streaks the window",
+      "summary": "Tamsin agrees to help, but warns Penn that she will follow the evidence wherever it leads."
+    },
+    {
+      "n": 9,
+      "scene": "A small office above a fish market, a young woman at a desk with a mug",
+      "summary": "Joy Adeyemi, the office manager, welcomes Tamsin to the Fund's office on Gull Lane."
+    },
+    {
+      "n": 10,
+      "scene": "Tamsin studies a glowing screen of dates and times on Penn's old computer",
+      "summary": "The logs show that the money moved every second Thursday at twenty to seven in the evening."
+    },
+    {
+      "n": 11,
+      "scene": "A bank page with the name Northlight Supplies and an empty address box",
+      "summary": "The money went to a company called Northlight Supplies, which has no website and no shop."
+    },
+    {
+      "n": 12,
+      "scene": "A stack of payment slips with small numbers circled in pen",
+      "summary": "Each payment was under nine thousand pounds, because larger ones needed a second signature."
+    },
+    {
+      "n": 13,
+      "scene": "A tall elegant woman in a long black coat stands at a polished boardroom table",
+      "summary": "Victoria Hale, the chair of the trustees, is cool, elegant and eager to keep the matter quiet."
+    },
+    {
+      "n": 14,
+      "scene": "A kindly doctor in a tweed jacket pours tea for Penn in a small kitchen",
+      "summary": "Dr Marcus Bell, a trustee and Penn's friend, drives him to choir every Thursday."
+    },
+    {
+      "n": 15,
+      "scene": "A rumpled man in a hooded top sits among cables in a cramped computer room",
+      "summary": "Felix Dane, the IT contractor who built the Fund's system, is moody and known to have money troubles."
+    },
+    {
+      "n": 16,
+      "scene": "Tamsin crouches behind a desk, checking the cables behind a computer with a torch",
+      "summary": "Tamsin searches Penn's computer for a hidden spying device and finds none."
+    },
+    {
+      "n": 17,
+      "scene": "Tamsin points at a line of code on a screen while Felix stares",
+      "summary": "Tamsin finds a remote-access program that Felix installed years ago to help with support."
+    },
+    {
+      "n": 18,
+      "scene": "Felix stands in a lecture room in front of thirty students, a marker pen in his hand",
+      "summary": "Felix says the program was only for support, and he teaches an evening class every second Thursday."
+    },
+    {
+      "n": 19,
+      "scene": "Joy hands Tamsin a receipt beside a small blue car in a car park",
+      "summary": "Joy's new car looked suspicious, but a receipt shows it was a gift from her aunt."
+    },
+    {
+      "n": 20,
+      "scene": "Victoria Hale in an evening dress greets fifty guests at a charity dinner under chandeliers",
+      "summary": "Victoria hosts a charity dinner for fifty guests every second Thursday, in front of cameras."
+    },
+    {
+      "n": 21,
+      "scene": "A bank clerk explains something to Tamsin, pointing at a small phone on the desk",
+      "summary": "The bank says every transfer also needed a six-number code texted to Penn's phone."
+    },
+    {
+      "n": 22,
+      "scene": "Tamsin sits alone on the boat deck with a notebook, drawing arrows between two words",
+      "summary": "So the thief needed both Penn's password and his phone, and Tamsin cannot see how."
+    },
+    {
+      "n": 23,
+      "scene": "An old notebook with a dog drawn on the cover lies open in a desk drawer",
+      "summary": "Penn's password is his dog Biscuit's name and birth year, and he wrote it in a desk notebook."
+    },
+    {
+      "n": 24,
+      "scene": "A map of Karsholm with a small red ring on Quay Street",
+      "summary": "The remote program's logs show the thief connected over a mobile network, near Quay Street."
+    },
+    {
+      "n": 25,
+      "scene": "Tamsin stands in an echoing church hall as a stern woman at a piano looks up",
+      "summary": "Tamsin visits St Anselm's Hall, where the choir sings, and meets the conductor, Mrs Quill."
+    },
+    {
+      "n": 26,
+      "scene": "A basket of switched-off phones on a table by the door of the hall",
+      "summary": "Mrs Quill says phones are banned, and singers hand theirs to whoever drives them; Dr Bell waits in his car."
+    },
+    {
+      "n": 27,
+      "scene": "Tamsin sits in a parked car outside the hall, looking at the dark window of another car",
+      "summary": "Tamsin realises that the phone stayed in Bell's car, but she needs proof, not a feeling."
+    },
+    {
+      "n": 28,
+      "scene": "A bank officer slides a document across a desk and Tamsin reads a name",
+      "summary": "The bank tells Tamsin that the Northlight account was opened in the name of Lena Marsh."
+    },
+    {
+      "n": 29,
+      "scene": "A shuttered shop on Dock Street with a pile of letters behind the glass door",
+      "summary": "The address on Dock Street is an empty shop, where a baker says a soft-voiced man collects the mail."
+    },
+    {
+      "n": 30,
+      "scene": "Tamsin reads a small notice in a newspaper beside a photograph of an elderly woman",
+      "summary": "Tamsin recalls that Bell's late mother was called Lena, and finds her notice: Lena Marsh."
+    },
+    {
+      "n": 31,
+      "scene": "Victoria Hale taps a pen on a boardroom table, glaring at Tamsin",
+      "summary": "Victoria warns Tamsin that she is wasting the Fund's time and threatens to end the work."
+    },
+    {
+      "n": 32,
+      "scene": "Inspector Okoye leans on a police car, holding a folder, her face serious",
+      "summary": "Inspector Okoye says Penn will be charged in ten days unless Tamsin brings real proof."
+    },
+    {
+      "n": 33,
+      "scene": "Tamsin sketches a plan with arrows on the back of a paper bag at a café",
+      "summary": "Tamsin plans a trap: a tempting gift of money will appear in the Fund's account on a Thursday."
+    },
+    {
+      "n": 34,
+      "scene": "Joy types at a computer while Penn watches a number appear on the screen",
+      "summary": "Joy and Penn set up a pretend gift of eight thousand nine hundred pounds from a fake trust."
+    },
+    {
+      "n": 35,
+      "scene": "Tamsin holds up her red scarf in front of Inspector Okoye by a van",
+      "summary": "Okoye agrees to watch the car park, and Tamsin will signal by holding up her red scarf."
+    },
+    {
+      "n": 36,
+      "scene": "Rain falls on Quay Street as Penn walks into the hall, handing his phone to a friend",
+      "summary": "On the Thursday, rain falls and Penn hands his phone to Dr Bell, as always."
+    },
+    {
+      "n": 37,
+      "scene": "Tamsin and Inspector Okoye sit in a dark van across a wet car park, watching a green car",
+      "summary": "Tamsin and Okoye wait in the van, watching the green car through the rain."
+    },
+    {
+      "n": 38,
+      "scene": "Dr Bell opens a laptop on the steering wheel of his car, its blue light on his face",
+      "summary": "Dr Bell opens a laptop in his car and places Penn's phone beside it."
+    },
+    {
+      "n": 39,
+      "scene": "A phone screen lights up on a car dashboard showing a row of numbers",
+      "summary": "At twenty to seven the phone lights up and Dr Bell types in the six-number code."
+    },
+    {
+      "n": 40,
+      "scene": "A laptop screen shows a bank payment sent to Northlight Supplies",
+      "summary": "The pretend gift leaves the Fund's account for Northlight Supplies, exactly as hoped."
+    },
+    {
+      "n": 41,
+      "scene": "Tamsin steps out of the van in the rain and raises her red scarf high",
+      "summary": "Tamsin steps out of the van and holds up her red scarf, and the police move in."
+    },
+    {
+      "n": 42,
+      "scene": "Dr Bell sits very still behind the car window, his face grey, as a laptop glows on his knees",
+      "summary": "Dr Bell first says he was only checking messages, but the screen shows Penn's account."
+    },
+    {
+      "n": 43,
+      "scene": "An older man sits with his head in his hands at a police desk, a photograph of an elderly woman beside him",
+      "summary": "Bell confesses: his mother's care home bills and a failed clinic investment made him desperate."
+    },
+    {
+      "n": 44,
+      "scene": "Dr Bell stands at the open drawer of Penn's desk while Penn makes tea in the next room",
+      "summary": "Bell explains how he saw the password notebook and used Felix's old remote program."
+    },
+    {
+      "n": 45,
+      "scene": "Aldous Penn sits very straight in a police station chair, a mug of tea untouched",
+      "summary": "Penn hears the truth and is heartbroken that his oldest friend betrayed him."
+    },
+    {
+      "n": 46,
+      "scene": "Inspector Okoye shakes Penn's hand outside the police station at sunrise",
+      "summary": "Okoye apologises to Penn, and most of the missing money is found in the frozen Northlight account."
+    },
+    {
+      "n": 47,
+      "scene": "Victoria Hale offers her hand to Tamsin in the boardroom, Felix and Joy standing nearby",
+      "summary": "Victoria apologises; Penn keeps his post, Felix gets a new contract and Joy gets a raise."
+    },
+    {
+      "n": 48,
+      "scene": "Dozens of children in bright new coats jump in puddles outside a school",
+      "summary": "On coat day, children in new coats cheer, and one girl admires Tamsin's red scarf."
+    },
+    {
+      "n": 49,
+      "scene": "Tamsin sits on the deck of her houseboat with a laptop, the scarf over her shoulders, as Felix hands her a sheet of paper",
+      "summary": "Tamsin shares three simple safety rules: long passwords, nothing written down, and a second lock."
+    },
+    {
+      "n": 50,
+      "scene": "Tamsin hears a knock at the houseboat door at dawn and opens it, scarf around her neck",
+      "summary": "A new client knocks at dawn, and Tamsin, in her red scarf, puts the kettle on again."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Tamsin Rook lives on a boat and wears a long red scarf.",
+      "She only breaks into computers when the owners ask her to.",
+      "One rainy morning, a man in a grey coat knocked on her door.",
+      "His charity buys warm coats and school trips for poor children.",
+      "Now a lot of the charity's money was gone.",
+      "The police thought Aldous had taken the money himself.",
+      "Aldous said, “I did not take it. I sing on Thursdays.”",
+      "Tamsin said yes, but she told him to be honest.",
+      "The charity's office was small and smelled of fish.",
+      "The thief always took the money on a Thursday evening.",
+      "All the money went to a company called Northlight Supplies.",
+      "Each payment was small, so nobody saw a problem.",
+      "Victoria Hale ran the charity, and she was always calm.",
+      "Dr Bell, a kind man, drove Aldous to choir each week.",
+      "Felix Dane built the computer system, and he was often angry.",
+      "Tamsin looked behind the computer for a small hidden device.",
+      "She found a program that let someone use the computer from far away.",
+      "Felix said he teaches a night class every second Thursday.",
+      "Joy had a new car, but her aunt paid for it.",
+      "Victoria was at a big dinner on those Thursday nights.",
+      "The bank said each payment needed a secret number from Aldous's phone.",
+      "The thief needed Aldous's password and his phone together.",
+      "Aldous's password was his dog's name and a year.",
+      "The thief had used the computer from near Quay Street.",
+      "Tamsin went to the hall where Aldous sang each Thursday.",
+      "Mrs Quill said no phones were allowed in her hall.",
+      "The phone had been in Dr Bell's car every Thursday.",
+      "The bank said the account belonged to Lena Marsh.",
+      "The address was an empty shop with letters at the door.",
+      "Tamsin remembered that Dr Bell's mother was called Lena.",
+      "Victoria was angry and told Tamsin to stop the search.",
+      "The inspector said Aldous would be arrested in ten days.",
+      "Tamsin made a plan to catch the thief in the act.",
+      "Joy put a fake gift of money into the account.",
+      "The inspector agreed, and Tamsin chose a signal: her red scarf.",
+      "On Thursday, Aldous gave his phone to Dr Bell as usual.",
+      "Tamsin and the inspector waited in a van and watched.",
+      "Dr Bell opened a laptop in his car at six thirty.",
+      "At twenty to seven the phone lit up with a code.",
+      "The bait money moved to Northlight Supplies, just as planned.",
+      "Tamsin got out and held up her red scarf.",
+      "Dr Bell said that he was only checking his messages.",
+      "He said he needed money for his mother and his debts.",
+      "He had seen the password in the notebook in Aldous's drawer.",
+      "Aldous was very sad that his friend had done this.",
+      "The inspector said sorry to Aldous for doubting him.",
+      "Victoria said sorry, and everyone kept their jobs.",
+      "The children got their warm coats, and they were very happy.",
+      "Tamsin made a short list of rules to keep passwords safe.",
+      "The next morning, someone new knocked on her door."
+    ],
+    "B1B2": [
+      "Tamsin Rook lives on a houseboat in the port city of Karsholm, and she never goes out without her red scarf. Companies pay her to break into their computers, so that they can find the weak places before real thieves do.",
+      "Her grandmother knitted the scarf, and Tamsin wears it like a promise to herself. She has two rules: she only breaks in when she is invited, and she always tells the owner what she found.",
+      "One wet morning, a thin man in a grey raincoat knocked on her door. He was Aldous Penn, and he looked as if he had not slept for a week.",
+      "The Harbour Fund helps children in Karsholm whose families cannot pay for winter coats, school trips or breakfast. Aldous Penn had looked after its money for eleven years, and he was proud of every pound.",
+      "Over the last eight months, about two hundred thousand pounds had disappeared from the Fund. It had not left in one big payment, but in many small ones, each of which looked ordinary on its own.",
+      "The police had already looked at the payments, and every one had been made with Aldous's own password. Inspector Dana Okoye was polite but firm, and she told him that he would soon be asked to explain.",
+      "Aldous swore that he had taken nothing, and he pointed out that the payments were always made on a Thursday evening. That was when he sang in his choir, where phones were banned, so he left his in a friend's car.",
+      "Tamsin agreed to take the case, although she warned him that she would follow the evidence wherever it led. If it led to him, she said, she would tell the police herself.",
+      "The Fund's office was above a fish market on Gull Lane, and the smell of the sea came through the floor. Joy Adeyemi, the office manager, welcomed Tamsin with tea and a plate of biscuits.",
+      "With Aldous's permission, Tamsin opened the logs on his office computer. The transfers had been made every second Thursday, always at 6:40 in the evening, and always with his password.",
+      "Every payment had gone to the same company, Northlight Supplies. Tamsin searched for it online and found no website, no shop, no telephone number and no customers.",
+      "None of the payments was larger than nine thousand pounds. Anything bigger needed a second signature, and the thief had clearly known that rule very well.",
+      "Victoria Hale, the chair of the trustees, was tall, elegant and very calm. She told Tamsin that she hoped the problem could be solved quietly, because the Fund's good name mattered more than anything.",
+      "Dr Marcus Bell was a kind and gentle trustee, and he had been Aldous's friend for many years. Every Thursday he drove him to choir, and he spoke warmly of his late mother Lena, who had died the year before.",
+      "Felix Dane was the contractor who had built the Fund's computer system. He was short-tempered and untidy, and Joy whispered that he was behind with his rent.",
+      "Tamsin knew that a thief might have hidden a tiny device between the keyboard and the computer to record every key Aldous pressed. She searched all the cables carefully with a torch, but she found nothing at all.",
+      "Deep inside the system, Tamsin found a remote-access program, which lets a person control a computer from far away. The logs showed that it had been installed years ago, and the name beside it was Felix Dane.",
+      "Felix said he had only installed the program so that he could fix problems without travelling. Every second Thursday evening he taught a night class to thirty students, and any of them could say so.",
+      "Joy had recently bought a small blue car, and Tamsin had to ask where the money came from. Joy was a little hurt, but she showed a letter from her aunt, who had paid for it as a gift.",
+      "Every second Thursday, Victoria Hale held a charity dinner for fifty guests, and local newspapers took photographs of it. Tamsin saw the pictures, and Victoria was in every one of them at 6:40.",
+      "At the bank, a clerk explained that each large payment needed a six-number code sent to the account holder's phone. The code was only good for a minute, and Aldous's phone had received every one.",
+      "That was the puzzle: the thief needed the password and the phone at the same moment. Aldous was singing in a hall without his phone, so how could the thief have used the code in time?",
+      "Aldous used the name of his old dog, Biscuit, followed by a year, as his password. He admitted that he kept it written in a small notebook in his desk drawer, so that he would not forget.",
+      "Back in the logs, Tamsin saw that the thief had not used the office Wi-Fi at all. The connection had come through a mobile phone network, and the nearest mast was close to Quay Street.",
+      "On a Thursday, Tamsin visited St Anselm's Hall, a cold stone building on Quay Street. The choir conductor, Mrs Quill, was a stern woman who did not like visitors during practice.",
+      "Mrs Quill said that phones were never allowed in her hall, and that singers left them in the cars that brought them. Aldous always rode with Dr Bell, who waited outside in the car park with a newspaper until the end.",
+      "Suddenly the puzzle had an answer. The phone that received the code had been in Dr Bell's car each Thursday, but Tamsin did not want to believe that such a kind man was a thief.",
+      "The bank agreed to share one detail with Inspector Okoye. The Northlight account had been opened by a woman called Lena Marsh, at an address in Dock Street.",
+      "The address on Dock Street was an empty shop with a heap of letters behind the door. Mrs Ferris, the baker next door, said that a polite man with a soft voice came every Friday to collect them.",
+      "Then Tamsin remembered the name of Dr Bell's late mother, Lena. She found the notice of her death in an old newspaper, and it said Lena Marsh, much loved mother of Marcus.",
+      "Victoria Hale called Tamsin to a meeting and said that the investigation was wasting the Fund's time. She threatened to end it, but Tamsin replied that she would finish what she had started.",
+      "Inspector Okoye told Tamsin that the police could not wait for ever. Unless she found real proof, Aldous would be charged in ten days, and a theory about a kind doctor would not be enough.",
+      "Tamsin made a plan to catch the thief in the act. If a large and tempting gift appeared in the Fund's account on a Thursday, the thief would probably try to take it.",
+      "With the bank's help, Joy and Aldous made a pretend gift of 8,900 pounds appear in the Fund's account. It seemed to come from a trust called the Lighthouse Trust, and it was just under the limit.",
+      "Inspector Okoye agreed to watch the car park behind St Anselm's Hall. When the moment came, Tamsin would hold up her red scarf, and the police would move in.",
+      "The Thursday came, and it was raining hard. Aldous behaved exactly as usual, giving his phone to Dr Bell outside the hall before he went in to sing.",
+      "Tamsin and Inspector Okoye sat in the dark van and watched the green car through the rain. Nobody spoke, and the only sound was the clock ticking on the dashboard.",
+      "At half past six, Dr Bell turned on the light inside his car and opened a small laptop. He placed Aldous's phone beside it, and Tamsin could see his face in the blue glow.",
+      "At 6:40 exactly, Aldous's phone lit up with a six-number code. Dr Bell read it and typed it at once into the laptop, like a man who had done it many times before.",
+      "On the screen of the laptop, the pretend gift left the Fund's account at once. It went to Northlight Supplies, just as Tamsin had hoped, and now there was no doubt left.",
+      "Tamsin stepped out of the van into the rain and held her red scarf high above her head. At once, two officers ran across the car park and stopped beside the green car.",
+      "Dr Bell lowered the window and said that he had only been checking his messages. But the laptop screen showed Aldous's account, and the payment to Northlight Supplies was still open.",
+      "At the police station, Dr Bell told the whole story. His mother's care home had cost a fortune, and a clinic he had invested in had failed, so he had started to take small amounts, always meaning to pay them back.",
+      "Dr Bell said that he had seen the notebook in Aldous's desk drawer during a visit, and he had remembered the password. Later, he had found Felix's old program on the computer and used it from his car.",
+      "When Aldous heard the truth, he was silent for a long time. He was relieved that his name was clear, but he was heartbroken that his oldest friend had been the thief.",
+      "Inspector Okoye apologised to Aldous for suspecting him. The bank froze the Northlight account, and most of the missing money was still inside it.",
+      "Victoria Hale apologised to Tamsin and to Aldous in front of the other trustees. Aldous kept his post, Felix was hired to build a safer system, and Joy received a well-earned raise.",
+      "On coat day, a hundred children received bright new winter coats from the Fund. A small girl in a yellow one pointed at Tamsin's red scarf and said that it was the best thing she had ever seen.",
+      "That evening, Tamsin wrote three simple rules for anyone who uses a computer. Use a long password, never write it down where others can find it, and always turn on a second lock.",
+      "The next morning, there was another knock on her door, and Tamsin wrapped her red scarf around her neck. A new client stood on the quay, and she put the kettle on again."
+    ],
+    "C1C2": [
+      "Before the gulls had begun to quarrel over the harbour, Tamsin Rook was awake on her houseboat in Karsholm, a laptop glowing on her knees and a long red scarf looped twice around her neck. She earned her living by breaking into the computer systems of companies that had asked her to, and then explaining, politely and in great detail, exactly how she had done it. It was a strange trade for a woman of twenty-six, but she had never found any work that suited her better.",
+      "Her grandmother had knitted the scarf during a long and difficult winter, and Tamsin wore it as other people wear a lucky ring, half as comfort and half as a reminder. She lived by two rules that she had never once broken: she entered a system only when its owners had invited her, and she told them everything she found there. Those rules, she believed, were all that separated her from the criminals she was paid to imitate.",
+      "The knock came at half past seven, just as the rain began to hammer on the roof of the houseboat, and on the quay stood a thin man in a grey raincoat, dripping onto the planks. He introduced himself as Aldous Penn, treasurer of a charity called the Harbour Fund, and he had the hollow look of someone who has not slept properly in weeks. Tamsin put the kettle on, because it was clear that he had come a long way to say something difficult.",
+      "The Harbour Fund, he explained, existed to give the children of Karsholm's poorest streets the things that other children took for granted: a warm winter coat, a place on the school trip, a hot breakfast before the first lesson. It was paid for by small gifts from ordinary people and by a few generous evenings, and Aldous had guarded every penny of it for eleven years. His voice softened when he spoke of the children, and Tamsin found that she was already inclined to believe him.",
+      "Spreading a bank statement across her table, Aldous traced a column of figures with a trembling finger and told her that nearly two hundred thousand pounds had drained out of the Fund in eight months. No single payment had been large enough to raise an alarm, and that, he said, was exactly what made the theft so cruel and so patient. Each transfer, taken alone, looked like a routine bill, yet together they added up to a hole that no honest accountant could explain.",
+      "The police had reached their conclusion quickly, for every one of the transfers had been made with Aldous's own password, from the computer on his own desk. Inspector Dana Okoye had been courteous but unmistakably firm, telling him that unless he could offer a better explanation he should expect to be charged. He had come to Tamsin, he admitted, because she was the only person he could think of who might understand how such a crime could be committed by someone else.",
+      "Aldous swore that he had never touched a penny of it, and he pointed out that the payments were made on Thursday evenings, the very hours when he stood in his choir with a hymn book in his hands. The conductor, he added with a faint smile, was so strict that all phones were forbidden in the hall, so he always left his in a friend's car until the singing was over. It seemed a small detail at the time, and Tamsin wrote it down only because she wrote everything down.",
+      "After a long silence Tamsin agreed to take the case, but she made it plain that she followed evidence rather than people, and that she would go wherever it led her. If the trail ended at Aldous himself, she warned him, she would say so without hesitation and without apology. He nodded at once, and that quick, unafraid nod told her more about him than any argument could have done.",
+      "The Fund kept its office above a fish market on Gull Lane, where the smell of the morning catch rose through the floorboards and mingled with the warmth of an ancient radiator. Joy Adeyemi, the young office manager, greeted Tamsin with a mug of tea and the anxious cheerfulness of someone who had been interviewed by the police far too often. She had worked there for three years and she loved every cluttered inch of the place.",
+      "With Aldous's permission, Tamsin worked through the records on his office computer and soon saw a pattern as regular as a clock. Every second Thursday, at precisely 6:40 in the evening, a transfer had been made with his password, and then the machine had gone quiet again until the fortnight turned. Whoever had done it was disciplined, patient and quite certain that Thursday evenings would never be questioned.",
+      "Every transfer had been sent to the same recipient, a company called Northlight Supplies, and Tamsin set about learning everything she could about it. The search was disappointingly brief, for the company had no website, no telephone number, no premises that anyone could name and not a single customer who had ever mentioned it. It was a business that seemed to exist only on paper, like a ghost with a bank account.",
+      "Not one of the payments had exceeded nine thousand pounds, and Joy explained that anything larger required a second signature from another trustee. The thief had therefore known the Fund's rules as intimately as its own officers did, and had stayed carefully beneath the line that would have attracted attention. That, Tamsin noted, narrowed the field to someone who understood how the Fund really worked.",
+      "Victoria Hale, who chaired the board of trustees, was a tall and elegant woman whose composure seemed to have been learned and polished over many years. She received Tamsin in a boardroom that smelled of lilies and told her, in a measured voice, that the matter must be settled quietly, since the Fund's reputation was worth more than the money itself. Tamsin could not decide whether she was hearing prudence or something that resembled fear.",
+      "Dr Marcus Bell was a trustee of the Fund, a gentle man in a tweed jacket who seemed to carry other people's troubles on his own shoulders. He had been Aldous's friend for many years, and each Thursday he drove him to choir in his old green car, afterwards waiting patiently until the singing ended. He spoke with great affection of his late mother, Lena, whom he had nursed until her death the previous year.",
+      "Felix Dane, the contractor who had built the Fund's computer system years before, received Tamsin in a room so full of cables that it resembled the inside of a nervous animal. He was sullen, untidy and quick to take offence, and Joy confided in a whisper that he was several months behind with his rent. Tamsin made a note of it, aware that gossip was not evidence but that it sometimes pointed toward where evidence might be found.",
+      "A thief with access to the office might have hidden a tiny recording device between the keyboard and the machine, so Tamsin crawled beneath the desk with a torch and examined every plug and wire. She found nothing but dust, a lost paperclip and a long-dead spider, and she emerged with her scarf askew and her theory in ruins. The password, it seemed, had been stolen by some other route entirely.",
+      "Buried deep in the system, Tamsin discovered a remote-access program, the kind of software that lets a person operate a computer from the other side of the world. It had been installed years earlier, and the installer's name, printed plainly beside it, was Felix Dane. She did not accuse him, but she let him know that she had found it, and she watched his face carefully while she did so.",
+      "Felix bristled, insisting that he had installed the program only so that he could mend problems without making the journey, and that he had switched it off long ago. He taught a night class on computers every second Thursday, he added, to thirty adult students who could swear he never left the room before nine. Tamsin checked with the college that same afternoon, and the register confirmed every word.",
+      "Joy had lately acquired a small blue car, and although it embarrassed Tamsin to ask, she knew that a good investigator cannot choose her questions according to her comfort. Joy flushed, then produced a letter and a bank record showing that her aunt had paid for the car as a birthday gift. Tamsin apologised sincerely, and Joy, to her credit, forgave her at once and offered her another biscuit.",
+      "Every second Thursday, Victoria Hale presided over a charity dinner for fifty guests, and the local newspaper faithfully photographed the occasion. Tamsin studied the pictures with care, and in every one the chair of the trustees was smiling beneath a chandelier at the very minute when the money had left the account. It was an alibi that no lawyer could have improved, and Tamsin crossed her name from the list with only a small pang of regret.",
+      "At the bank, a patient clerk explained that every transfer required a second proof of identity: a six-digit code sent by text to the account holder's mobile phone. The code remained valid for only a minute, and the records showed that Aldous's own phone had received each one, and that each had been used within seconds. A thief who knew his password, it followed, must somehow have been holding his phone.",
+      "That was the knot that Tamsin could not untie: the thief had needed Aldous's password and Aldous's phone at the very same moment, on the one evening a fortnight when the owner was out of reach. She filled two pages of her notebook with arrows and crossings-out, and she watched the lights of the harbour come on without having found a single answer. Yet she felt, as she always did when a problem began to bite, that she was missing something simple.",
+      "When Tamsin asked about the password, Aldous blushed and admitted that it was the name of his beloved dog, Biscuit, followed by the year he had been born. Worse, he had written it in a small notebook in his desk drawer so as not to forget it, and the drawer had never once been locked. Half the people who had ever sat in that office, Tamsin realised, could have found it in under a minute.",
+      "Returning to the program's records, Tamsin saw that the intruder had never touched the office Wi-Fi at all, but had connected through a mobile phone network instead. With the help of Inspector Okoye she traced the signal to a single mast, and the mast served a patch of the city around Quay Street, a few minutes from the harbour. She stared at the map until she noticed what else stood nearby: St Anselm's Hall, where the choir sang on Thursdays.",
+      "St Anselm's Hall proved to be a cold stone building on Quay Street, with high windows, a creaking floor and an upright piano that had seen better decades. Mrs Quill, the choir's conductor, was a rigid woman with silver hair who regarded visitors during rehearsal as a personal insult. Tamsin waited until the tea break and then asked, as humbly as she could, whether she might put a few questions about the phones.",
+      "Mrs Quill declared that telephones were forbidden in her hall and that members left them with whoever had driven them there, an arrangement she considered perfectly sensible. Aldous, she recalled, always came with Dr Bell, who sat out in the car park every Thursday with a newspaper and Aldous's phone beside him, content to wait until the final hymn. Tamsin thanked her and walked out into the dusk with her heart beating a little faster.",
+      "Standing in the car park, she saw the shape of the problem change, like a coastline emerging from fog. The phone that had received each secret code had been sitting in Dr Bell's car at the precise minute when the money left the account, yet the man himself was gentle, respected and Aldous's oldest friend. Tamsin knew that a feeling was worth nothing without evidence, and she resolved to find proof before she allowed herself to think the thought aloud.",
+      "Through Inspector Okoye, the bank agreed at last to reveal who stood behind Northlight Supplies, and the answer was a single name on a single form. The account had been opened by a woman called Lena Marsh, who had given an address on Dock Street and whose signature looked as though it had been written in a hurry by someone with a steady hand. Tamsin had never heard the name, and yet it tugged at her memory like a loose thread.",
+      "The address on Dock Street belonged to a shuttered shop whose window was grey with dust and whose doormat lay buried beneath a drift of unopened letters. Mrs Ferris, who ran the bakery next door, recalled that a polite, soft-spoken man came on Friday mornings to gather the post, always in a hat and always careful to say good morning. She could not remember his face, only the quiet gentleness of his voice.",
+      "Then, like a key turning in a lock, Tamsin remembered that Dr Bell had spoken tenderly of his late mother, whose name was Lena. A search of the old newspaper archive produced the death notice within minutes, and it read, in small and dignified type, Lena Marsh, beloved mother of Marcus. The thief had borrowed the name of a dead woman, and the dead woman had been the kindest doctor's mother.",
+      "Victoria Hale summoned Tamsin to the boardroom and informed her, in a voice like frosted glass, that the investigation was costing the Fund time it could not spare. She threatened to end the contract at once, and for a moment the lilies on the table seemed to lean away. Tamsin answered politely that she would complete the work she had been asked to do, with or without the chair's blessing.",
+      "Inspector Okoye met Tamsin beside her car and spoke without ceremony: unless real proof appeared, Aldous would be charged in ten days. Tamsin's suspicion of a respected doctor, however neatly reasoned, would not satisfy a court, and the inspector was not prepared to arrest a man on the strength of a hunch and a death notice. She did, however, listen carefully, and when Tamsin finished, she said, quietly, that she was prepared to be persuaded.",
+      "Over a cup of cooling coffee, Tamsin devised a plan that depended on only two things: the thief's habit and the thief's greed. If a large and tempting gift were to appear in the Fund's account on a second Thursday, the thief would almost certainly return to take it at twenty to seven, and this time there would be witnesses waiting. It was a simple trap, but the best traps, she had learned, usually were.",
+      "With the bank's quiet cooperation, Joy and Aldous arranged for a pretend gift of 8,900 pounds to appear in the Fund's account on the Wednesday before the next Thursday. It seemed to have been sent by an invented body called the Lighthouse Trust, and the figure was carefully chosen to sit beneath the limit that would have required a second signature. The bait looked ordinary, harmless and irresistible.",
+      "After some hesitation, Inspector Okoye agreed to station two officers and an unmarked van in the car park behind St Anselm's Hall. They would watch in silence until Tamsin raised her red scarf above her head, and only then would they step forward, so that nothing could be said afterward about a hasty arrest. The scarf, which had kept her warm through so many winters, was about to become a flag.",
+      "Thursday arrived with a heavy, slanting rain that drummed on the roof of the van and blurred the streetlamps along Quay Street. Aldous behaved exactly as he always did, stepping out of Dr Bell's green car, handing over his telephone with a smile and hurrying through the doors of the hall with his hymn book under his arm. Tamsin, watching from her seat in the van, found that her hands were not entirely steady.",
+      "Inside the unmarked van, Tamsin and Inspector Okoye sat in the dark with the engine off and the windows slowly misting, their eyes fixed on the green car at the far end of the car park. Neither spoke, because both understood that the whole plan depended on patience, and the only sound was the soft ticking of a clock on the dashboard. Somewhere in the hall, thirty voices were beginning the first hymn.",
+      "At half past six the interior light of the green car came on, and Dr Bell, who had been so serenely absorbed in his newspaper, folded it away and opened a slim laptop. He set Aldous's phone carefully on the dashboard beside it, and in the cold blue glow of the screen his face looked suddenly like a stranger's. Tamsin heard Inspector Okoye draw in a slow, steady breath.",
+      "At twenty to seven precisely, the telephone on the dashboard lit up with a six-digit code, and Dr Bell, without a flicker of hesitation, typed it into his laptop like a man performing a familiar chore. There was nothing furtive in his movements, which was the most chilling thing of all, because they were the movements of someone who had long ago stopped thinking of himself as a thief. Tamsin felt something cold settle in her chest.",
+      "On the glowing screen, the bait money slipped away from the Fund's account and travelled to Northlight Supplies, precisely as Tamsin had hoped and dreaded in equal measure. A man who has been seen taking an invented gift cannot easily claim that his hands were on the keys by accident, and the inspector's officers, watching through a window of their own, recorded everything. The evidence, so long invisible, was at last complete.",
+      "Tamsin stepped out of the van into the downpour and raised her red scarf above her head, where it hung against the rainy dark like a small, brave flag. Instantly two officers hurried across the car park and took up positions on either side of the green car, while Inspector Okoye walked calmly toward the driver's window and tapped on the glass. For a long moment Dr Bell did not move at all.",
+      "Dr Bell lowered the window with a faint smile and said that he had merely been checking his messages, but the explanation died on his lips as the inspector's torch fell upon the screen. There, in perfectly clear letters, lay Aldous's account, the payment to Northlight Supplies and the secret code that had been typed barely a minute earlier. He looked at it for a long time, and then the kindly mask slowly fell from his face.",
+      "At the police station, Dr Bell told the whole sad story in a low and tired voice. His mother's care had cost a fortune, and a clinic in which he had invested all his savings had collapsed, so he had begun to take small sums, always promising himself that he would repay them before anyone noticed. Each Thursday it had been a little easier, and each Thursday the promise had grown a little fainter.",
+      "Dr Bell explained that during a visit to the office he had noticed Aldous's little notebook lying open in its unlocked drawer, and that the password had stayed in his memory almost against his will. Later he had found Felix's old remote program still sleeping inside the computer, and it had seemed to him that the world had left a door open and a note on the mat. He had walked through it, he said, with a clear conscience for far too long.",
+      "When Aldous learned the truth, he sat motionless for a very long time, his tea untouched and his hands folded in his lap. He was relieved, of course, that his name had been cleared, but the relief was soon swallowed by a deeper sorrow, for the man who had driven him to choir for years had been robbing him every second Thursday. It was a kind of grief for which there is no tidy word.",
+      "Inspector Okoye apologised to Aldous with a handshake that was firm and unmistakably sincere, admitting that the evidence had pointed in the wrong direction for far too long. Meanwhile the bank froze the Northlight account, and it emerged that Dr Bell, in his anxiety and shame, had barely spent a penny of what he had taken. Most of the Fund's money would be returned, and the rest, the lawyers believed, would follow in time.",
+      "Victoria Hale rose in the boardroom, apologised to Tamsin and to Aldous in front of the other trustees, and admitted, with a stiffness that made the words more convincing, that she had been wrong to doubt them. Aldous remained as treasurer, Felix was invited to build a new and far safer system, and Joy received the raise that she had deserved for years. The lilies, Tamsin noticed, no longer looked quite so cold.",
+      "On the first cold morning of December, a hundred children lined up outside a school on the harbour front and received the bright winter coats that the recovered money had bought. A small girl in a yellow one stopped in front of Tamsin, pointed gravely at her red scarf and announced that it was the best scarf she had ever seen. Tamsin, who had seldom felt so useful, told her that it had been knitted by someone very special.",
+      "That evening, on the deck of her houseboat, Tamsin wrote down three simple rules for anyone who has ever trusted a computer with something precious. Choose a long password that no stranger could guess, never leave it written where a visitor might see it, and always switch on a second lock, such as a code sent to your phone, and guard that phone as carefully as the key to your door. Then she closed the notebook and watched the harbour lights quiver on the water.",
+      "At dawn on the following Monday there came another knock at the door of the houseboat, and Tamsin, who had been awake for an hour, wound her red scarf twice around her neck before she answered. On the quay stood a stranger with a worried face and a great many questions, and she smiled, because she had learned that trouble is simply another word for a puzzle that has not yet met the right person. She stood aside and invited him in, and the kettle began to sing."
+    ]
+  }
+}

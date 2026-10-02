@@ -1,0 +1,417 @@
+{
+  "slug": "arena-of-dust",
+  "meta": {
+    "blurb": "Every year, one young person from each dry settlement is sent into the Bowl, a desert arena built by the Governor. Ilka can find water where no one else can. In the Bowl, she finds a secret that could change everything.",
+    "bible": "Ilka Brandt: sixteen, from Saltgate, a water-finder who reads scrub, beetles and shadows; brave and stubborn. Wren: her sister, nine. Mara: their mother. Old Hollis: Saltgate's elder, who taught Ilka. Ilka's father Anders Brandt: a water-finder who vanished in the dunes ten years ago; his sign is a spiral with three dots. Governor Castor Vane: ruler of Highmark, calm, polite, never thirsty. Highmark: the walled city with gardens and fountains. Saltgate, Redrock, Ashfield, Greywater, Dunmere: the five dry settlements. Orla Finch: Saltgate's old winner and Ilka's mentor, tired and secretly kind. Davin Sol: Redrock's contestant, quiet and strong. Brisa Lund: Ashfield's contestant, fast and sharp-tongued. Tomo Kade: Greywater's contestant, big and gentle. Sefa Nair: Dunmere's contestant, fourteen, plays a flute. Corin Hale: Highmark's contestant, trained and proud. Keeper Pell: the old keeper of the pumps. Captain Ines Calder: leader of the Wardens, grey-coated guards. The Dry Trial: the yearly contest. The Bowl: a huge basin of dunes that was once a lake. The Tower: the tall building at the centre of the Bowl, over the old pump-house. The Cistern: the great hidden store of water under the Tower. Bottle-root: a desert plant with a swollen, watery root. Watch-kites: the Governor's flying lenses. Rules: nine days, one jar, no killing; a contestant may call the lift and leave. Voice: close third person, past tense, tense and hopeful, no gore; no real people."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Ilka kneels on a dry dune at dawn, studying beetle tracks in the dust",
+      "summary": "Ilka, a young water-finder in the dry village of Saltgate, reads the land for any sign of water."
+    },
+    {
+      "n": 2,
+      "scene": "A line of villagers waits with empty cans beside the Highmark water cart",
+      "summary": "The water cart from Highmark arrives with less water than before, and the villagers wait in silence."
+    },
+    {
+      "n": 3,
+      "scene": "A paper notice nailed to a post announces the Dry Trial",
+      "summary": "The Governor's notice announces the Dry Trial, and every settlement must send one young person."
+    },
+    {
+      "n": 4,
+      "scene": "Villagers wait in the square as a hand reaches into a bowl of names",
+      "summary": "Names are drawn from a clay bowl in the square, and Ilka's name is called."
+    },
+    {
+      "n": 5,
+      "scene": "Wren holds a scrap of blue cloth out to Ilka as their mother weeps",
+      "summary": "Wren gives Ilka their lost father's blue scarf, and Old Hollis teaches her one last lesson."
+    },
+    {
+      "n": 6,
+      "scene": "A train crosses bright desert toward a city of green gardens and fountains",
+      "summary": "The train carries Ilka toward Highmark, where she sees green gardens and fountains for the first time."
+    },
+    {
+      "n": 7,
+      "scene": "Ilka meets old Orla Finch, who sits in a dim room with tea",
+      "summary": "Orla Finch, Saltgate's only winner, is Ilka's mentor, and at first she seems tired and unwilling to help."
+    },
+    {
+      "n": 8,
+      "scene": "Six young people at a long table, Corin boasting and Davin silent",
+      "summary": "Ilka meets the five other contestants at a dinner, among them proud Corin and silent Davin."
+    },
+    {
+      "n": 9,
+      "scene": "Ilka finds a hidden jar under sand while trainers watch from a balcony",
+      "summary": "In training, Ilka cannot lift heavy stones, but she finds a buried jar of water faster than anyone."
+    },
+    {
+      "n": 10,
+      "scene": "Orla draws the rules of the Bowl in the sand with a stick",
+      "summary": "Orla explains the rules: nine days, one jar, the Tower at the centre of the Bowl, and a lift for anyone who gives up."
+    },
+    {
+      "n": 11,
+      "scene": "Governor Vane before a crowd, with a glass of water he never drinks",
+      "summary": "At the opening ceremony the Governor speaks beautifully, and Ilka notices his untouched glass of water."
+    },
+    {
+      "n": 12,
+      "scene": "Ilka and Davin sit on a rooftop at night looking at the dark desert",
+      "summary": "On the roof the night before the Trial, Ilka and Davin talk quietly, and each learns that the other's village is also dying."
+    },
+    {
+      "n": 13,
+      "scene": "Six contestants rise through a hatch into a vast bowl of dunes",
+      "summary": "The contestants are lifted into the Bowl and see the endless dunes and the distant Tower."
+    },
+    {
+      "n": 14,
+      "scene": "Corin and Brisa grab packs from a pile while Ilka runs for a ridge",
+      "summary": "At the horn, Corin and Brisa grab packs from a pile, but Ilka runs for the ridge with only a hat."
+    },
+    {
+      "n": 15,
+      "scene": "Ilka digs at the foot of a dune beside a patch of dark scrub",
+      "summary": "By afternoon Ilka is dizzy with heat, but she finds dark scrub and digs out a small seep of water."
+    },
+    {
+      "n": 16,
+      "scene": "Ilka lies in a hollow wrapped in cloth under a sky full of stars",
+      "summary": "The first night is bitterly cold, and Ilka hears a distant bell and wonders who has called the lift."
+    },
+    {
+      "n": 17,
+      "scene": "Brisa runs toward a bright pool that is really a sheet of shining glass",
+      "summary": "On day two Ilka warns Brisa that a shining pool is false, but Brisa runs to it and finds a sheet of glass."
+    },
+    {
+      "n": 18,
+      "scene": "Ilka digs herself into the lee of a dune beneath a brown storm sky",
+      "summary": "A sandstorm rolls in, and Ilka buries herself in the lee of a dune and covers her face with cloth."
+    },
+    {
+      "n": 19,
+      "scene": "Ilka pulls Tomo out of the sand after the storm and gives him water",
+      "summary": "After the storm Ilka finds Tomo half buried in sand, digs him out and shares her water."
+    },
+    {
+      "n": 20,
+      "scene": "Tomo and Ilka sit by a small fire as he speaks of his river",
+      "summary": "Tomo says Greywater's river died after the Governor built the great dam above Highmark."
+    },
+    {
+      "n": 21,
+      "scene": "Ilka and Tomo walk beside the ruined stone roofs of an old buried town",
+      "summary": "On day three, Ilka and Tomo find the stone roofs of a drowned town and learn that the Bowl was once a lake."
+    },
+    {
+      "n": 22,
+      "scene": "Ilka traces lines of a faded wall map toward a tower at the centre",
+      "summary": "Ilka sees that every dry channel on the map runs toward the Tower, which sits on an old pump-house."
+    },
+    {
+      "n": 23,
+      "scene": "Corin steps from behind a rock and snatches a waterskin from Tomo's belt",
+      "summary": "Corin ambushes them with trained speed and steals their waterskins, leaving them with almost nothing."
+    },
+    {
+      "n": 24,
+      "scene": "Ilka digs out a fat bottle-root from beneath a dry bush as Tomo watches",
+      "summary": "Ilka remembers Hollis's lesson and digs up a bottle-root, whose swollen flesh gives them a long drink."
+    },
+    {
+      "n": 25,
+      "scene": "Davin kneels in the firelight over a metal pipe half buried in the sand",
+      "summary": "Davin joins them at their fire and shows them a metal pipe running beneath the sand toward the Tower."
+    },
+    {
+      "n": 26,
+      "scene": "Three young people walk along a pipeline while a metal kite hovers overhead",
+      "summary": "On day four they follow the pipe and notice the Governor's watch-kites hovering above them."
+    },
+    {
+      "n": 27,
+      "scene": "Sefa sits on a dune playing his flute while a hatch shows beside him",
+      "summary": "They find Sefa on a dune, who has discovered a metal hatch and learned that Highmark is betting on them."
+    },
+    {
+      "n": 28,
+      "scene": "Brisa limps up the dune toward the group, holding her empty jar",
+      "summary": "Brisa, ashamed after the glass trick and almost out of water, joins the others and agrees to work together."
+    },
+    {
+      "n": 29,
+      "scene": "A voice booms from the sky while five tired young people look upward",
+      "summary": "A voice from the sky changes the rules: only the first to reach the Tower will drink, and the others will go home empty."
+    },
+    {
+      "n": 30,
+      "scene": "Five young people in a dark circle put their hands together",
+      "summary": "The five make a pact to walk to the Tower together and never fight one another."
+    },
+    {
+      "n": 31,
+      "scene": "Ilka holds her father's scarf by a small fire while the others sleep",
+      "summary": "On the sixth night Ilka tells the others about her lost father, who searched for the old reservoir."
+    },
+    {
+      "n": 32,
+      "scene": "Ilka touches a spiral with three dots carved in a stone beside the hatch",
+      "summary": "Near the hatch, Ilka finds her father's sign, a spiral with three dots, cut into a stone."
+    },
+    {
+      "n": 33,
+      "scene": "The hatch swings open onto a dark stairway going down into cool air",
+      "summary": "The five open the hatch and descend a stair into cool air, hearing water running below."
+    },
+    {
+      "n": 34,
+      "scene": "A vast underground cistern of clear blue water under stone arches",
+      "summary": "The stairs lead to a huge underground cistern of clear water, enough to save all five settlements."
+    },
+    {
+      "n": 35,
+      "scene": "Davin turns a stiff wheel marked Settlements beside a heavy pipe",
+      "summary": "They find two great pipes: one to Highmark, wide open, and one marked Settlements, shut with a rusty wheel."
+    },
+    {
+      "n": 36,
+      "scene": "An old man in a grey coat holds a ledger beside a pump",
+      "summary": "An old man, Keeper Pell, appears with a ledger and admits that Highmark has been keeping the water back."
+    },
+    {
+      "n": 37,
+      "scene": "Corin stands at the cistern edge with torch light shaking on the water",
+      "summary": "Corin follows them down, sees the cistern, and learns for the first time that Highmark's water was never rain."
+    },
+    {
+      "n": 38,
+      "scene": "Grey-coated Wardens fill the stair above and a stern voice echoes below",
+      "summary": "The Governor orders the Wardens to seize the five, and the sound of boots comes down the stair."
+    },
+    {
+      "n": 39,
+      "scene": "Six young people grip the great iron wheel and strain together",
+      "summary": "Ilka tells everyone they can open the valve together, and the six of them strain against the stuck wheel."
+    },
+    {
+      "n": 40,
+      "scene": "Davin blocks the stair while Brisa runs across the dunes drawing guards away",
+      "summary": "Davin holds the stair against the Wardens while Brisa runs up to the dunes to lead some away."
+    },
+    {
+      "n": 41,
+      "scene": "Water bursts from an opened pipe and rushes down an old stone channel",
+      "summary": "With a shriek of rust the wheel turns, and water rushes into the old channels toward the settlements."
+    },
+    {
+      "n": 42,
+      "scene": "A kite hovers at the cistern showing the scene on screens in crowded squares",
+      "summary": "The watch-kites broadcast everything, and the whole country sees the cistern and hears Ilka speak."
+    },
+    {
+      "n": 43,
+      "scene": "Captain Calder lowers her staff in the light of the open pipe",
+      "summary": "Captain Calder looks at the water and at the young people, and lowers her staff."
+    },
+    {
+      "n": 44,
+      "scene": "Governor Vane steps from a sand-car into the Tower hall",
+      "summary": "The Governor arrives himself and argues that the water kept order and that without the Trial people would fight."
+    },
+    {
+      "n": 45,
+      "scene": "Corin stands before the wheel with his arms out as the Governor approaches",
+      "summary": "The Governor tries to close the wheel, but Corin stands in his way and refuses to move."
+    },
+    {
+      "n": 46,
+      "scene": "Water runs along a stone channel toward the horizon at sunrise",
+      "summary": "Over the following days the water follows the old channels, and at dawn it reaches the edge of the Bowl."
+    },
+    {
+      "n": 47,
+      "scene": "Delegates from the five settlements sit around a broad table at the Tower",
+      "summary": "The settlements meet at the Tower as a Council, the Governor steps down, and the Dry Trial is ended for ever."
+    },
+    {
+      "n": 48,
+      "scene": "A cart rolls through the Saltgate gate while Wren runs toward it",
+      "summary": "Ilka returns to Saltgate, where Wren runs to her and the village drinks freely from the new channel."
+    },
+    {
+      "n": 49,
+      "scene": "Riders return across the dunes with a thin man in a wide hat",
+      "summary": "Keeper Pell's ledger names Anders Brandt as sent to the Far Coast, and weeks after the Council sends riders he walks home."
+    },
+    {
+      "n": 50,
+      "scene": "Ilka stands on the Saltgate wall at dawn with the channel running below",
+      "summary": "At dawn on the Saltgate wall, Ilka watches green shoots on the channel's banks and knows what the Bowl taught her."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Every morning, Ilka goes out before the sun to look for water.",
+      "The water cart comes from Highmark, but today it brings less water.",
+      "A notice on the post says the Dry Trial is coming.",
+      "The village meets in the square, and they call out Ilka's name.",
+      "Wren gives Ilka their father's old blue scarf before she leaves.",
+      "Ilka rides a train to Highmark and sees green gardens.",
+      "Orla Finch, the old winner from Saltgate, will be her teacher.",
+      "Ilka meets the other five young people at a big dinner.",
+      "In training, Ilka finds a hidden water jar faster than everyone.",
+      "Orla tells Ilka the rules: nine days, one jar, and the Tower.",
+      "At the opening show, Ilka sees the Governor leave a full glass of water.",
+      "On the roof at night, Ilka and Davin talk about their villages.",
+      "The six young people rise into the Bowl and see the huge desert.",
+      "At the horn, Ilka runs to the ridge and takes only a hat.",
+      "By afternoon it is hot, but Ilka finds dark scrub and digs.",
+      "The first night is cold, and Ilka hears a bell far away.",
+      "On day two, Brisa runs to a pool, but it is only glass.",
+      "A big storm of sand comes, and Ilka hides behind a dune.",
+      "After the storm, Ilka finds Tomo and gives him water.",
+      "Tomo tells Ilka that his river in Greywater has died.",
+      "On day three, they find old stone houses, and the Bowl was a lake.",
+      "On the map, all the channels run to the Tower.",
+      "Corin jumps out, takes their water, and runs away.",
+      "Ilka finds a bottle-root and they drink its wet flesh.",
+      "At night Davin finds them and shows them a pipe in the sand.",
+      "On day four, they follow the pipe, and a kite flies above them.",
+      "They find Sefa, who has found a metal door in the sand.",
+      "Brisa, tired and thirsty, asks to join the group.",
+      "A loud voice from the sky says only one of them may drink.",
+      "The five make a promise to walk together and never fight.",
+      "At night Ilka tells the others about her lost father.",
+      "Near the iron door, Ilka sees her father's sign cut in a stone.",
+      "They open the door and go down into the cool dark.",
+      "They find a huge underground lake of clear, blue water.",
+      "They see two big pipes: one open, and one closed.",
+      "An old man comes out and says Highmark keeps the water.",
+      "Corin follows them and sees the water, and he looks shocked.",
+      "Wardens in grey coats come down the stair to take them.",
+      "Ilka says they can open the pipe, and they all push.",
+      "Davin stops the stair, and Brisa runs off to lead guards away.",
+      "The wheel turns at last, and water rushes into the channels.",
+      "The watch-kites show everything, and everyone can see and hear.",
+      "Captain Calder looks at the water and puts down her staff.",
+      "The Governor arrives and says the Trial kept people safe.",
+      "The Governor tries to close the wheel, but Corin stops him.",
+      "In the morning, water runs along the old channel to the edge.",
+      "The settlements meet at the Tower, and the Dry Trial ends for ever.",
+      "Ilka goes home to Saltgate, and Wren runs to her.",
+      "Ilka's father walks home, and the whole village runs to see him.",
+      "At dawn, Ilka sees green shoots by the water, and she smiles."
+    ],
+    "B1B2": [
+      "Ilka Brandt gets up before dawn every day to search the dunes around Saltgate for water. She reads the beetle tracks and the dark scrub, and she knows that little is left.",
+      "The Highmark water cart rolls into Saltgate, and the villagers line up with their empty cans. The driver says there will be less water this month, and nobody is surprised.",
+      "A new notice has been nailed to the post, and it is signed by Governor Castor Vane. The Dry Trial will begin in seven days, and each of the five settlements must send one young person.",
+      "At noon the whole village gathers in the square while an official from Highmark stirs a clay bowl full of names. When he reads out the name of Ilka Brandt, nobody makes a sound, and she walks forward because there is nothing else to do.",
+      "That night Wren puts their father's faded blue scarf into Ilka's hands and makes her promise to come home. Old Hollis sits beside her and repeats his lessons: dark scrub means water is near, and a bottle-root holds a drink for those who dig.",
+      "The train carries Ilka across three days of dust, and then a white city rises out of the desert. Highmark has green gardens and fountains that throw water into the air, and Ilka cannot understand how one place has so much.",
+      "Orla Finch won the Trial twenty years ago, and now she lives in a small room in Highmark, drinking tea and staring at the wall. She says her advice is short and Ilka will probably ignore it, but her eyes follow Ilka's hands when she thinks nobody is looking.",
+      "At a big dinner Ilka meets the five other contestants, and every one of them looks as nervous as she feels. Corin Hale, the Governor's city boy, boasts about his training, while Davin Sol of Redrock says nothing and simply eats his bread.",
+      "The trainers test the strength and speed of each contestant, and Ilka is no better than average at either. Then they bury a jar in the sand, and she finds it in a minute by watching where the sand stays dark.",
+      "Orla draws the Bowl in the sand with a stick and explains the rules. Each person carries one jar for nine days, and the first to fill it at the Tower wins a year of water for home.",
+      "Governor Castor Vane speaks at the opening ceremony in a warm voice, and the crowd loves him. Beside him sits a full glass of water that he never touches, and Ilka cannot stop looking at it.",
+      "The night before the Trial, Ilka climbs to the roof and finds Davin already sitting there, staring at the dark desert. He tells her that the wells of Redrock have been failing for three years, and Ilka says that Saltgate is the same.",
+      "The lift carries them up through a hatch, and the Bowl opens around them like the inside of an enormous hand. Dunes roll away under a white sky, and far off, a single tall Tower shimmers in the heat.",
+      "When the horn sounds, Corin and Brisa throw themselves at a pile of packs in the middle of the sand. Ilka remembers Orla's advice never to go where everyone else goes, so she takes a wide hat and runs for the nearest ridge.",
+      "By the afternoon the heat is pressing on her head, and her tongue feels thick and dry. Then she sees dark scrub at the foot of a dune and digs, and two feet down a muddy seep fills the hole.",
+      "The desert night is colder than she ever imagined, and Ilka wraps herself in her father's scarf and curls up in a hollow. Far away a bell rings once, and she wonders who has pressed the bracelet and gone home.",
+      "On the second morning Ilka sees a bright pool shining in a hollow, and she sees Brisa running toward it with her jar. There is no scrub and there are no beetle tracks, so Ilka shouts a warning, but Brisa finds only a sheet of polished glass.",
+      "In the afternoon a brown wall rises on the horizon, and Ilka knows at once what it is. She digs herself into the shelter of a tall dune and wraps her face in cloth, and for hours the wind screams above her.",
+      "When the storm finally passes, Ilka crawls out and sees a boot sticking out of the sand nearby. She digs until she uncovers Tomo Kade, who is coughing and weak, and she gives him half of her water without thinking.",
+      "Tomo explains that the grey river that gave his town its name dried up the year Highmark built its great new works upstream. The Governor's men called it an accident of nature, but Tomo's grandfather watched the water drain away like a bath.",
+      "On the third day they find the tops of old stone buildings poking out of the dunes like the backs of sleeping animals. A painted sign on one wall reads Reservoir Hall, and Ilka realises that the whole Bowl was once a lake.",
+      "Ilka traces the faded lines of a map on the wall and sees that every old channel runs straight to the Tower. The Tower is not a prize at all but a pump-house, and if the water did not vanish, then somebody is keeping it.",
+      "Corin steps out from behind a rock and cuts the straps of their waterskins before either of them can react. He runs off laughing, and Tomo sinks onto the sand while Ilka realises they have almost nothing left.",
+      "Ilka forces herself to think of Old Hollis and look closely at the plants around them. Under a grey, twisted bush she finds a bottle-root, and its pale flesh gives them both a long drink.",
+      "That evening Davin walks out of the dark and sits down at their fire as if he has been invited. He shows them a metal pipe, as thick as a man's arm, that runs under the sand straight toward the Tower.",
+      "They follow the pipe all morning, and in the afternoon Ilka notices a silver shape hanging in the sky. It is a watch-kite, a flying lens that sends every move they make back to the screens of Highmark.",
+      "In the late afternoon they hear thin flute music drifting across the dunes and follow it to Sefa, who is sitting calmly on a ridge. He has found an iron hatch half covered in sand, and he says that Highmark is placing bets on them.",
+      "Brisa finds them at dusk, limping and sunburnt, with her empty jar hanging from one hand. She says she should have listened to Ilka, and when the others nod, they become five.",
+      "The Governor's voice comes out of the empty air, smooth and calm, and it announces that the rules have changed. Only the first to fill a jar at the Tower will drink, and Ilka understands that Highmark wants them to fight.",
+      "They sit in a circle in the dark, and Ilka says that if they fight each other, Highmark wins. They put their hands together, one on top of another, and promise to walk to the Tower as a group.",
+      "On the sixth night Sefa asks Ilka about the scarf that she keeps touching. She tells him that her father Anders was the best water-finder in Saltgate, and that he searched for the old reservoir.",
+      "On the seventh morning she brushes the sand off a flat stone beside the iron hatch and freezes. Carved into it is a spiral with three dots, her father's mark, and she knows that he was here ten years ago.",
+      "It takes all five of them to heave the rusty hatch open, and a breath of cold air rises out of the dark. Somewhere far below they hear a steady sound that Ilka knows in her bones, the sound of moving water.",
+      "At the bottom of the stairs lies a cavern so wide that their torchlight cannot reach the other side. A lake of clear blue water lies beneath great stone arches, and there is enough in it to keep every settlement alive for years.",
+      "Two great pipes run along the wall, and the first hums with moving water and is stamped with the seal of Highmark. The second is marked Settlements in worn letters, and it is shut tight with a wheel that rust has almost locked.",
+      "An old man with a lantern steps out from behind a pump, and he does not seem surprised to see them. He is Keeper Pell, and he shows them a ledger that records the water that was given and the water that was held back.",
+      "A shadow falls across the stair, and Corin Hale stands there with a stolen waterskin in one hand. He stares at the cistern with his mouth open, because in Highmark they were taught that the fountains were filled by far-off rains.",
+      "The Governor's voice rolls through the cavern, calm as ever, and orders them to come out and finish the Trial. Boots ring on the stone above, and a line of Wardens in grey coats appears at the top of the stair.",
+      "Ilka runs to the wheel and says that if they turn it together, the settlements can drink that very day. Six pairs of hands grip the cold iron, but the wheel will not move, and the Wardens are already halfway down.",
+      "Davin plants himself at the foot of the stair and refuses to move aside, although he has no weapon. Brisa, the fastest of them, slips past in the dark and runs into the open desert to draw half the Wardens after her.",
+      "With a shriek of rust, the wheel gives way and turns slowly under their hands. A roaring fills the cavern as the water bursts through the open pipe and rushes into the old channels that lead to the settlements.",
+      "Overhead the watch-kites swing down, and every move is sent to the screens of Highmark and to the squares of the five settlements. Ilka looks into the silver lens and tells everyone what they have found, although her knees are shaking.",
+      "Captain Calder stands at the bottom of the stair with her staff raised, and the Governor orders her to seize them. She looks at the great cistern and at the exhausted young people, and then she lowers her staff to the floor.",
+      "The Governor arrives at the Tower in his own sand-car, immaculate and unhurried. He says that the water has kept the peace for twenty years, and Ilka answers that fear is not peace.",
+      "The Governor walks toward the iron wheel and reaches for it as though it were a door he has every right to close. Corin Hale, the boy he trained and praised, steps in front of it with his arms spread wide and says that he will not move.",
+      "For days the water runs along the old channels, and Ilka follows it on a Warden's camel, watching the stone ditches darken and fill. At dawn it reaches the edge of the Bowl, and a crowd from the nearest settlement stands in the channel and weeps.",
+      "Within a week, delegates from every settlement gather at the Tower to form a Council that will share the water fairly. The Governor is asked to give up his place, and the Dry Trial is ended for ever.",
+      "Ilka rides into Saltgate on the back of a cart, and the first thing she sees is Wren running at her through the gate. Behind them the new channel runs clear and quick, and the whole village kneels along its edge to drink.",
+      "Keeper Pell's ledger shows that Anders Brandt was sent to the salt works on the Far Coast, and the Council sends riders to find him. Three weeks later a thin man in a wide hat walks along the new channel, and Ilka runs to meet him.",
+      "In spring the banks of the new channel are green, and Ilka stands on the wall at dawn with her father and Wren. Below her the water runs quietly toward the horizon, and for the first time in her life, she does not need to look for it."
+    ],
+    "C1C2": [
+      "Before the sun cleared the dunes, Ilka Brandt was already crouched beside a dry wash, reading the story that beetles, scrub and shadows wrote in the dust. Saltgate had been thirsty for as long as she could remember, and she was the only one in the village who could still coax a few cupfuls from the ground. She had learned the craft from Old Hollis, and from a father who had walked into the dunes ten years ago and never walked out.",
+      "The cart from Highmark rattled into the square, and the whole village lined up beside it with empty cans and tired faces. The driver read out a notice in a flat voice, saying that the monthly measure would be cut again, and no one was surprised enough to complain. Ilka watched her little sister Wren hold out a can that was almost too heavy for her, and she felt something harden inside her.",
+      "Beneath the driver's cart a new notice had been nailed to the post, and it was signed by Governor Castor Vane. The Dry Trial would begin in seven days, and each of the five settlements must send one young person into the Bowl. The village that won would drink freely for a year, and the others would wait.",
+      "At noon, the whole village stood in the square while an official from Highmark stirred a clay bowl full of folded names. When he drew one out and read it aloud, the name was Ilka Brandt, and the square went terribly quiet. For a moment she could not feel her legs, and then she walked forward because there was nothing else to do.",
+      "That night Wren pressed their father's faded blue scarf into Ilka's hands and made her promise to come home. Old Hollis sat beside her and repeated the lessons of the desert: dark scrub means water is near, and a bottle-root holds a drink for those who know where to dig. Ilka promised everything, though she did not know how to keep any of it.",
+      "The train carried Ilka across three days of dust, and at the end of them a white city rose out of the desert like a dream. Highmark had green gardens, tall trees, and fountains that threw water into the air as though it cost nothing. Ilka stared at them through the window and tried to understand how one place could have so much while her own village had so little.",
+      "Orla Finch had won the Trial twenty years earlier, and now she lived in a small room in Highmark, drinking tea and looking at the wall. She told Ilka that her advice was short and that Ilka would probably ignore it. At first she seemed too tired to care, but her eyes followed Ilka's hands when she thought no one was watching.",
+      "At the dinner, Ilka met the five other contestants, and every one of them looked as nervous as she felt. Corin Hale, the Governor's own city boy, boasted that he had trained for years, while Davin Sol of Redrock simply ate his bread and said nothing. Brisa, Tomo and Sefa, meanwhile, watched the whole long table the way hunted animals watch a door.",
+      "The trainers tested their strength and speed, and Ilka was no better than average at either. Then they buried a jar of water under the sand of a practice yard, and she found it in less than a minute by watching where the sand dried and where it stayed dark. A trainer wrote something on his board, and Corin turned and looked at her differently.",
+      "Orla drew the Bowl in the sand with a stick and made the rules plain. Each of them would carry one empty jar, nine days were allowed, and the first to fill it at the Tower would win a year of water for home. Anyone who pressed the bracelet could call the lift and leave, but the village would lose its share, and in bad years not everyone came home.",
+      "Governor Castor Vane spoke at the opening ceremony in a warm voice, and the crowd of Highmark loved him. Behind him a fountain splashed in the sun, and beside him sat a full glass of water that he never touched. Ilka noticed it the way a thirsty person notices everything, and she could not stop looking at it.",
+      "The night before the Trial, Ilka climbed to the roof and found Davin already sitting there, staring at the dark desert. He told her that Redrock's wells had been failing for three years, and that his mother had stopped saying it would rain. Ilka said that Saltgate was the same, and for a long time they sat together without a word, two strangers who suddenly understood one another.",
+      "The lift carried them up through a hatch, and the Bowl opened around them like the inside of an enormous hand. Dunes rolled away in every direction under a white sky, and far off, wavering in the heat, stood a single tall Tower. Each of them held a clay jar, a waterskin, a knife and a scrap of cloth, and a horn sounded over the sand.",
+      "In the middle of the sand lay a pile of packs, and Corin and Brisa threw themselves at it as soon as the horn sounded. Ilka remembered Orla's one piece of advice, which was never to go where everyone else goes. She snatched a wide hat from the edge of the pile, ran for the nearest ridge, and did not look back.",
+      "By afternoon the heat pressed on her head like a hand, and her tongue felt thick and dry. Then she saw a patch of dark scrub clinging to the foot of a dune, and she remembered Old Hollis and dropped to her knees. Two feet down the sand turned cool and damp, and a small, muddy seep filled the hole, enough to wet her lips and fill her waterskin by half.",
+      "The desert night was colder than anything she had imagined, and she wrapped herself in her father's scarf and curled up in a hollow. Far across the dunes a bell rang once, and she wondered who had pressed the bracelet and gone home. She told herself that being afraid was no use, and then she lay awake for most of the night anyway.",
+      "Late in the morning Ilka saw a bright pool shimmering in a hollow, and she saw Brisa running toward it with her jar. There was no scrub around it and no beetle tracks, so she shouted that it was a trick, but Brisa did not listen. When the girl reached it, she found a smooth sheet of polished glass laid on the sand, and she sat down beside it, wasting both her strength and her water.",
+      "A brown wall rose on the horizon in the afternoon, and Ilka understood what it was before it reached her. She dug herself into the lee of a tall dune, wrapped her face in the cloth and pressed her body against the sand. For hours the wind screamed overhead, and every grain of dust that found her seemed to sting like a needle.",
+      "When the storm finally passed, Ilka crawled out and saw a boot sticking out of the sand a short way off. She dug until she uncovered Tomo Kade of Greywater, who was coughing and weak, and she gave him half of her water without thinking. He looked at her in amazement, because in the Bowl, nobody gives their water away for nothing.",
+      "Tomo explained that the grey river that gave his town its name had dried up the year Highmark built its great new works upstream. The Governor's men called it an accident of nature, but Tomo's grandfather had watched the water drain away like a bath. Ilka listened, and a thought she had been avoiding began to take shape in her mind.",
+      "On the third day they came upon the tops of old stone buildings poking out of the dunes like the backs of sleeping animals. On one wall, half-hidden by sand, was a painted sign that read Reservoir Hall, and under it a faded map of channels. Ilka stared at it and realised that this whole desert had once been a lake, and that someone had made it disappear.",
+      "Ilka traced the faded lines with her finger and saw that every one of the old channels ran straight to the Tower in the middle. The Tower, she realised, was not a prize at all but a pump-house, built over the place where all the water had once gathered. If the water had not simply vanished, then it was still somewhere, and somebody was keeping it.",
+      "Corin stepped from behind a rock, quick and well-trained, and cut the straps of their waterskins before either of them could react. He took them both and ran, laughing, down the face of the dune and out of sight. Tomo sank onto the sand, and Ilka felt her heart sink with him, for they now had almost nothing left.",
+      "Ilka forced herself to think of Old Hollis and look closely at the plants around them. Beneath a grey, twisted bush she found a bottle-root, a swollen root the size of a loaf, and she dug it out with her knife. The pale flesh was bitter, but when she squeezed it into Tomo's mouth, it gave them both a long, life-saving drink.",
+      "That evening Davin walked out of the dark and sat down at their fire as if he had been invited. He told them he had been tracing a strange line in the sand, and he showed them a buried metal pipe, thick as a man's arm, running straight toward the Tower. Ilka looked at Tomo, and Tomo looked at her, and no one said what they were all thinking.",
+      "They followed the pipe all the next morning, and in the afternoon Ilka noticed a strange silver shape hanging in the sky. It was a watch-kite, a flying lens that carried every move they made back to the screens of Highmark. She pulled her cloth over her head, and the three of them walked on beneath it, pretending to be only tired and lost.",
+      "In the late afternoon they heard thin flute music drifting across the dunes, and they followed it to Sefa, sitting calmly on a ridge. He had found an iron hatch half covered in sand, and he told them in his quiet way that the people of Highmark were placing bets on each of them. Ilka felt sick, because this was not a trial at all but a show.",
+      "Brisa found them at dusk, limping and sunburnt, with her empty jar hanging from one hand. She said she should have listened, and she asked, with her chin up, whether there was room for one more. Ilka looked at the others, and one by one they nodded, so that by nightfall they were five, which was far more than any of them had been alone.",
+      "The voice came out of the air itself, smooth and calm, and it was the Governor's. He announced that the rules had changed, and that only the first to fill a jar at the Tower would drink, while the rest would be sent home empty. The five of them stared up at the empty sky, and for the first time Ilka understood that Highmark wanted them to turn on each other.",
+      "They sat in a circle in the dark, and Ilka said what she had been thinking since the glass pool. If they fought each other, Highmark won, but if they walked to the Tower together, it could not stop them all. They put their hands together one on top of another, and that small pact was the first thing in the Bowl that felt like water.",
+      "On the sixth night, while the others slept, Sefa asked Ilka about the scarf she kept touching. She told him that her father Anders had been the best water-finder in Saltgate, and that he had gone into the dunes one summer to look for something no one believed in. He had called it the old reservoir, and now she wondered whether he had been right all along.",
+      "On the seventh morning, beside the iron hatch, she brushed the sand off a flat stone and froze. Carved into it was a spiral with three dots, the mark her father had once scratched on the door of their house, and the cuts were worn but still clear. He had been here, ten years ago, and he had known exactly what lay below.",
+      "It took all five of them to heave the rusty hatch open, and a breath of cold air rose out of the dark and washed over their faces. Somewhere far below, they could hear a low and steady sound that Ilka knew in her bones, the sound of moving water. Davin lit a torch made from a rag and a stick, and one by one they started down the stair.",
+      "At the bottom, the stairs opened onto a cavern so wide that the light of their torch could not reach the other side. A cistern of clear blue water lay beneath great stone arches, so deep and so still that it looked like a sky turned upside down. There was enough in it, Ilka realised, to keep every settlement in the desert alive for years.",
+      "Along the wall ran two great pipes, and the first, stamped with the seal of Highmark, hummed with moving water. The second was marked Settlements in worn letters and was shut tight with an iron wheel rusted by years of disuse. Davin put his hand on it and said quietly that it had been closed on purpose.",
+      "An old man with a lantern stepped out from behind a pump, and he did not seem surprised to see them. He introduced himself as Keeper Pell, who had tended the pumps for forty years, and he opened a ledger on his arm to show them the water given and the water held back. The Dry Trial, he said sadly, had been invented to keep the settlements hungry, grateful and afraid.",
+      "A shadow fell across the stair, and Corin Hale stood there with a stolen waterskin in one hand. He stared at the great cistern with his mouth open, because in Highmark they had always been taught that the fountains were filled by far-off rains. Slowly he lowered the waterskin, and he asked Ilka in a small voice what he had been taking part in.",
+      "The Governor's voice rolled through the cavern, calm as ever, and ordered them to come out and finish the Trial. Boots rang on the stone above them, and a line of grey-coated Wardens appeared at the top of the stair. They carried staves, and at their head stood Captain Ines Calder, her face cold and unreadable.",
+      "Ilka ran to the wheel and shouted that if they turned it together, the settlements would drink that very day. Six pairs of hands gripped the cold iron, and even Corin put his shoulder to it. The wheel groaned and would not move, and above them the Wardens were already halfway down.",
+      "Davin planted himself at the foot of the stair and held it, unarmed, simply refusing to move aside. Brisa, who was the fastest of them, slipped past in the dark and burst out into the open desert to draw half the Wardens after her. Tomo, Sefa, Corin and Ilka threw every ounce of their strength against the wheel again.",
+      "With a shriek of rust, the wheel gave way, and it spun under their hands like a great, slow clock. A roaring filled the cavern as water burst through the open pipe and swept into the old stone channels that led away to the dry settlements. Ilka laughed and cried at once, and Tomo lifted her clean off the floor.",
+      "Overhead the watch-kites swung down to see what was happening, and every move was sent to the great screens of Highmark and to the squares of the five settlements. Ilka looked straight into the silver lens and told everyone what they had found, her voice steady although her knees were not. She spoke of the cistern, the shut pipe and the ledger, and she said that the Trial had never been about winning.",
+      "Captain Calder stood at the bottom of the stair with her staff raised, and the Governor ordered her to seize them. She looked at the great cistern, at the shining channels and at the six exhausted young people, and Ilka saw her face change. Her own village of Ashfield was as dry as Saltgate, and with a slow, deliberate movement she lowered her staff to the floor.",
+      "Governor Vane arrived at the Tower in his own sand-car, immaculate and unhurried, and he did not shout. He said that the water had kept peace for twenty years, that people who were not afraid would soon turn on one another, and that no one else could govern as he had. Ilka answered that fear was not peace, and that a thirsty child has no use for his order.",
+      "The Governor walked toward the iron wheel and reached for it as though it were a door he had every right to close. Corin Hale, the boy he had trained and praised, stepped in front of it with his arms spread wide. He said, with a shaking voice, that he would not move, and Ilka saw the Governor's perfect face crumple for the first time.",
+      "The water ran along the old channels for days, and Ilka followed it on a Warden's camel, watching the stone ditches darken, fill and sparkle. At dawn it reached the rim of the Bowl, and a crowd of strangers from the nearest settlement stood in the channel and wept. A little boy knelt and cupped the water in his hands as if it were gold, and Ilka thought her heart might break with joy.",
+      "Within a week, delegates from every settlement gathered at the Tower to form a Council that would share the water fairly. The Governor was asked to give up his place, and he did so with a stiff bow and a look that said he still believed himself right. Keeper Pell kept the pumps, Captain Calder kept the peace, and the Dry Trial was ended for ever.",
+      "Ilka rode into Saltgate on the back of a cart, and the first thing she saw was Wren running at her through the gate. Behind them, the new channel ran clear and quick, and the whole village knelt along its edge to drink. Old Hollis stood alone at the end of the line with tears running down his face, and he did not wipe them away.",
+      "Keeper Pell's ledger recorded that a water-finder named Anders Brandt had been sent to the salt works on the Far Coast, and the new Council sent riders to search for him. Three weeks later they returned, and the whole village ran to the gate to see a thin, weathered man in a wide hat walking up the channel beside them. Anders Brandt stopped when he saw Ilka and held out both his arms, and he had come home along the water he had spent half his life looking for.",
+      "In spring the banks of the new channel were green, and Ilka stood on the wall at dawn with her father on one side and Wren on the other. She had gone into the Bowl to survive a Trial and come out having ended one, and she thought of Davin, Brisa, Tomo, Sefa and even Corin, who were now her friends. Below her the water ran quietly toward the horizon, and for the first time in her life, Ilka Brandt did not need to look for it."
+    ]
+  }
+}

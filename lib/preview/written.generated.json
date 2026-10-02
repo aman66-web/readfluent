@@ -1550,6 +1550,75 @@
   }
  },
  {
+  "slug": "the-water-merchant-s-daughter",
+  "title": "The Water Merchant's Daughter",
+  "author": "Dune",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "In the desert city of Oshenar every drop of water is counted. When the Deep Well starts to fall and her father vanishes, young Ysra Vell crosses the Glass Desert with a wind-reader to find out who is stealing the city's river.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "The Water",
+    "Merchant's",
+    "Daughter"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "sun",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "waves",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "arena-of-dust",
+  "title": "Arena of Dust",
+  "author": "The Hunger Games",
+  "kind": "inspired",
+  "category": "fantasy-scifi",
+  "blurb": "Every year, one young person from each dry settlement is sent into the Bowl, a desert arena built by the Governor. Ilka can find water where no one else can. In the Bowl, she finds a secret that could change everything.",
+  "cover": {
+   "bg": "#F3EDE3",
+   "light": true,
+   "title": [
+    "Arena of Dust"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "waves",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "hourglass",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "one-small-step-a-day",
   "title": "One Small Step a Day",
   "author": "Atomic Habits",
@@ -2630,6 +2699,44 @@
     },
     {
      "id": "sun",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "how-strong-companies-last",
+  "title": "How Strong Companies Last",
+  "author": "Good to Great",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Brightwell Paper has survived seventy years while louder, richer rivals disappeared. A young manager asks its retired boss why. Over fifty Friday conversations she learns what quietly separates companies that last from those that only shine for a while.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "How Strong",
+    "Companies",
+    "Last"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "tree",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "lighthouse",
      "x": 160,
      "y": 38,
      "s": 0.36
