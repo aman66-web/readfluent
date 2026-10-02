@@ -4,6 +4,8 @@ import { checkBook, type EnBook } from "../../scripts/books/check-en";
 import { checkTranslation, type TrBook } from "../../scripts/books/check-translation";
 import { PREVIEW_BOOKS, lengthsOf, pageCount } from "@/lib/preview/catalog";
 import { LEVELS } from "@/lib/content/limits";
+import { SPANISH_DICT } from "@/lib/preview/spanish";
+import { tokenize } from "@/lib/reading/sentences";
 
 const dir = (slug: string) => new URL(`../../lib/preview/books/${slug}/`, import.meta.url);
 const read = <T,>(slug: string, file: string): T => JSON.parse(readFileSync(new URL(file, dir(slug)), "utf8")) as T;
@@ -39,6 +41,16 @@ describe("the hand-written books", () => {
         if (!existsSync(new URL("es.json", dir(b.slug)))) return;
         const es = read<TrBook>(b.slug, "es.json");
         expect(checkTranslation(en, es)).toEqual([]);
+      });
+
+      it("has a word card for every Spanish word of every page (the sample's own cards count)", () => {
+        if (!existsSync(new URL("es.json", dir(b.slug)))) return;
+        const es = read<TrBook>(b.slug, "es.json");
+        const dict = JSON.parse(readFileSync(new URL("../dictionary.es.json", dir(b.slug)), "utf8")) as Record<string, { en: string; use: string }>;
+        const sample = Object.keys(SPANISH_DICT);
+        const missing = new Set<string>();
+        for (const level of Object.values(es.levels)) for (const p of level) for (const t of tokenize(p.text)) if (t.word && !(t.word in dict) && !sample.includes(t.word)) missing.add(t.word);
+        expect([...missing].slice(0, 20)).toEqual([]);
       });
     });
   }
