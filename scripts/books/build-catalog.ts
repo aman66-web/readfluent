@@ -11,6 +11,7 @@
  */
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import type { GeneratedBook } from "../../lib/preview/generated";
+import { checkBook, type EnBook } from "./check-en";
 
 interface ListEntry { slug: string; title: string; category: string; type: "classic" | "original"; author?: string; inspiredBy?: string; done: boolean }
 interface CoverFile { bg: string; light?: boolean; art: string[] }
@@ -51,7 +52,9 @@ export function buildAll(): GeneratedBook[] {
     if (e.done) continue;
     const dir = `lib/preview/books/${e.slug}`;
     if (!existsSync(new URL(`${dir}/en.json`, ROOT)) || !existsSync(new URL(`${dir}/cover.json`, ROOT))) continue;
-    const en = read<{ meta: { blurb: string } }>(`${dir}/en.json`);
+    const en = read<EnBook>(`${dir}/en.json`);
+    // A book a writer is still working on is left out until the checker is satisfied.
+    if (checkBook(en).length > 0) continue;
     const cv = read<CoverFile>(`${dir}/cover.json`);
     const lines = breakTitle(e.title);
     const art = (cv.art ?? []).slice(0, 2);

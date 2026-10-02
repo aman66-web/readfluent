@@ -209,3 +209,15 @@ h1, h2 { text-wrap: balance; }
 .bk-float { animation: bk-float 5s ease-in-out infinite alternate; }
 @keyframes bk-float { from { transform: translateY(0) rotate(-.6deg) } to { transform: translateY(-7px) rotate(.6deg) } }
 @media (prefers-reduced-motion: reduce) { .bk-float { animation: none; } }
+
+/* The guided tour (components/tour/Coach.tsx): the spotlight breathes, the bubble pops up, "tap here" blinks. */
+@keyframes coach-pulse { 0%, 100% { box-shadow: 0 0 0 9999px rgba(8,47,60,.62), 0 0 0 0 rgba(34,211,238,.55); } 50% { box-shadow: 0 0 0 9999px rgba(8,47,60,.62), 0 0 0 10px rgba(34,211,238,0); } }
+.coach-spot { animation: coach-pulse 1.8s ease-in-out infinite; transition: left .3s, top .3s, width .3s, height .3s; }
+@keyframes coach-pop { from { opacity: 0; transform: translateY(14px) scale(.96); } to { opacity: 1; transform: none; } }
+.coach-bubble { animation: coach-pop .35s cubic-bezier(.22, 1, .36, 1) both; }
+@keyframes coach-blink { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+.coach-hint { animation: coach-blink 1.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .coach-spot, .coach-bubble, .coach-hint { animation: none; } }
+
+/* The big title at the top of a main screen: the display serif of the covers, so the app and its books look like one thing. */
+.title-display { font-family: var(--font-display), "Iowan Old Style", Georgia, serif; font-size: 36px; font-weight: 700; line-height: 1.04; letter-spacing: -0.02em; }

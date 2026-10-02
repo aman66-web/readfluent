@@ -1,0 +1,417 @@
+{
+  "slug": "the-histories",
+  "meta": {
+    "blurb": "Kings who trust the wrong oracle, a baby saved from a murderous order, a bridge of boats and three hundred Spartans in a narrow pass. Herodotus, the first historian, tells how the Greeks and the Persians came to war, and who won.",
+    "bible": "Herodotus: the Greek writer from Halicarnassus who gathered the stories; he calls his work an inquiry; he often says what he was told and lets the reader decide. Halicarnassus: his home city on the coast of Asia Minor. Croesus: the rich king of Lydia, whose capital is Sardis. Solon: the wise Athenian who visits Croesus. Tellus: an Athenian Solon names as happy. Cleobis and Biton: two brothers who pulled their mother's cart to a temple. Delphi: the temple of Apollo where the Oracle speaks. Oracle: the priestess of Delphi, whose answers are riddles. Cyrus: the founder of the Persian Empire. Astyages: the king of the Medes, Cyrus's grandfather. Harpagus: Astyages's officer. Mitradates: the herdsman who saves baby Cyrus. Tomyris: queen of the Massagetae. Cambyses: Cyrus's son, who conquers Egypt. Darius: the king who follows Cambyses. Xerxes: Darius's son. Psammetichus: an Egyptian king. Khufu: the Egyptian king who built the great pyramid. Polycrates: the lucky tyrant of Samos. Smerdis: the false king who is killed by seven nobles. Mardonius: a Persian general. Artabanus: Xerxes's wise uncle. Demaratus: an exiled Spartan king who advises Xerxes. Datis and Artaphernes: the Persian commanders at Marathon. Miltiades: the Athenian general at Marathon. Pheidippides: the Athenian runner. Pan: the goat-footed god. Themistocles: the Athenian leader who builds a fleet. Leonidas: the king of Sparta at Thermopylae. Ephialtes: the traitor who shows the Persians a path. Artemisia: the queen of Halicarnassus who fights for Xerxes. Pausanias: the Spartan commander at Plataea. Persians: the people of the great Persian Empire, led by their king. Greeks: the people of the many small Greek cities. Medes: the people who ruled before the Persians. Lydians: the people of Lydia. Egyptians: the people of Egypt. Scythians: the nomads of the northern plains. Spartans: the soldiers of Sparta. Athenians: the people of Athens. Immortals: the Persian king's ten thousand chosen soldiers. Empire: a land of many peoples under one ruler. Pyre: a pile of wood for burning. Satrap: a governor of a Persian province. Herald: a messenger. Tyrant: a ruler who took power by himself. Persia, Lydia, Sardis, Babylon, Egypt, the Nile, Athens, Sparta, Marathon, Thermopylae, Salamis, Plataea, Mycale, Sestos, the Hellespont, Mount Athos, Samos, Miletus, Eretria, Lade, Artemisium, Ionia, the Euphrates, the Halys, Pteria, Doriscus: the places. Dates are about: Cyrus takes Sardis about 546 BC, Babylon in 539 BC, Cambyses takes Egypt in 525 BC, Darius becomes king in 522 BC, Marathon is 490 BC, Thermopylae and Salamis 480 BC, Plataea and Mycale 479 BC. Voice and tone: a curious, warm storyteller; he says 'they say' when he is not sure; his numbers are often too big and the text says so; wars are told without gore."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Herodotus writes on a scroll at a desk beside the sea",
+      "summary": "Herodotus opens his inquiry so that great deeds will not be forgotten."
+    },
+    {
+      "n": 2,
+      "scene": "A Phoenician ship at a Greek harbour with women on the beach",
+      "summary": "Old stories of stolen women begin the quarrel between Greeks and foreigners, and Herodotus will not say which is true."
+    },
+    {
+      "n": 3,
+      "scene": "King Croesus sits among piles of gold in his palace at Sardis",
+      "summary": "Croesus, the rich king of Lydia, makes the Greek cities of Ionia pay him."
+    },
+    {
+      "n": 4,
+      "scene": "Solon stands before the golden throne of Croesus",
+      "summary": "Solon visits Sardis, and asks Croesus to judge happiness by how a life ends."
+    },
+    {
+      "n": 5,
+      "scene": "Two young men pull an ox cart up a hill to a temple",
+      "summary": "Solon tells of Tellus, Cleobis and Biton, and warns that no one is happy until the end."
+    },
+    {
+      "n": 6,
+      "scene": "Messengers carry gifts to the temple at Delphi",
+      "summary": "Croesus tests the oracles and asks Delphi if he should attack Persia."
+    },
+    {
+      "n": 7,
+      "scene": "A herdsman and his wife carry a baby through a mountain pass",
+      "summary": "The Median king Astyages orders the death of baby Cyrus, but a herdsman saves him."
+    },
+    {
+      "n": 8,
+      "scene": "Young Cyrus leads a crowd of Persian soldiers against an army",
+      "summary": "Cyrus grows up, leads the Persians and overthrows Astyages about 550 BC."
+    },
+    {
+      "n": 9,
+      "scene": "Two armies meet on a plain, then one marches home",
+      "summary": "Croesus crosses the Halys and fights at Pteria, but the battle is not decided."
+    },
+    {
+      "n": 10,
+      "scene": "Croesus stands on a pile of wood as Cyrus watches",
+      "summary": "Cyrus takes Sardis and puts Croesus on a pyre, but spares him when he hears Solon's name."
+    },
+    {
+      "n": 11,
+      "scene": "Persian boys practise riding and shooting arrows on open ground",
+      "summary": "Herodotus describes the Persians: no temples, feasts with wine, and boys taught to ride, shoot and tell the truth."
+    },
+    {
+      "n": 12,
+      "scene": "Soldiers wade along a dried river bed toward the walls of Babylon",
+      "summary": "Cyrus takes Babylon by turning the Euphrates aside and entering along the river bed."
+    },
+    {
+      "n": 13,
+      "scene": "Queen Tomyris stands before her army on a grassy plain",
+      "summary": "Cyrus dies fighting Queen Tomyris of the Massagetae."
+    },
+    {
+      "n": 14,
+      "scene": "A wide river flows past green fields and desert in Egypt",
+      "summary": "Cambyses prepares to invade Egypt, and Herodotus describes the Nile and its yearly flood."
+    },
+    {
+      "n": 15,
+      "scene": "Egyptian priests walk past cats and a market of women traders",
+      "summary": "Herodotus finds Egyptian customs the opposite of Greek ones, and he notes their respect for cats."
+    },
+    {
+      "n": 16,
+      "scene": "Thousands of workers drag huge stones toward a growing pyramid",
+      "summary": "King Khufu builds the great pyramid, and Herodotus tells of the workers."
+    },
+    {
+      "n": 17,
+      "scene": "A shepherd listens beside two babies in a quiet hut",
+      "summary": "King Psammetichus tests which people are the oldest by raising two babies in silence."
+    },
+    {
+      "n": 18,
+      "scene": "Cambyses rides into an Egyptian city while soldiers watch",
+      "summary": "Cambyses conquers Egypt in 525 BC, mocks its customs and loses an army in the desert."
+    },
+    {
+      "n": 19,
+      "scene": "Polycrates throws a gold ring from a boat into the sea",
+      "summary": "Polycrates of Samos throws away his ring to test his luck, and the ring comes back."
+    },
+    {
+      "n": 20,
+      "scene": "Seven Persian nobles stand together in a dark palace corridor",
+      "summary": "Cambyses dies, a false Smerdis takes the throne, and seven nobles kill him."
+    },
+    {
+      "n": 21,
+      "scene": "Seven horsemen wait at dawn outside a city gate",
+      "summary": "The seven choose their king by a horse's neigh, and Darius wins."
+    },
+    {
+      "n": 22,
+      "scene": "Tax collectors load sacks of silver onto carts on a long road",
+      "summary": "Darius divides the empire into provinces, fixes taxes and builds the Royal Road."
+    },
+    {
+      "n": 23,
+      "scene": "Greeks and Indians stand before Darius, who listens to a translator",
+      "summary": "Darius asks about funeral customs, and Herodotus concludes that custom is king."
+    },
+    {
+      "n": 24,
+      "scene": "Scythian horsemen ride away across a wide empty plain",
+      "summary": "Darius marches against the Scythians about 513 BC and cannot catch them."
+    },
+    {
+      "n": 25,
+      "scene": "Athenian citizens raise their hands to vote in an open square",
+      "summary": "Athens throws out its tyrants and becomes a democracy, and grows strong."
+    },
+    {
+      "n": 26,
+      "scene": "Aristagoras points to a bronze map as Spartan king listens",
+      "summary": "Aristagoras of Miletus asks Sparta for help, but only Athens sends ships."
+    },
+    {
+      "n": 27,
+      "scene": "Flames rise over the houses of Sardis as Greek soldiers retreat",
+      "summary": "The Ionians burn Sardis, and Darius vows revenge on the Athenians."
+    },
+    {
+      "n": 28,
+      "scene": "A storm wrecks Persian ships against the rocks of Mount Athos",
+      "summary": "Persia crushes the Ionian revolt at Lade, and a storm wrecks the next fleet."
+    },
+    {
+      "n": 29,
+      "scene": "Persian heralds stand at the edge of a deep pit in Athens",
+      "summary": "Darius demands earth and water, and Athens and Sparta throw the heralds into a pit and a well."
+    },
+    {
+      "n": 30,
+      "scene": "Hundreds of Persian ships crowd a bay beneath a hill",
+      "summary": "Datis and Artaphernes sail in 490 BC, take Eretria and land at Marathon."
+    },
+    {
+      "n": 31,
+      "scene": "Pheidippides runs along a mountain path as a goat-footed god appears",
+      "summary": "Pheidippides runs to Sparta for help, meets the god Pan, and the Spartans must wait for the full moon."
+    },
+    {
+      "n": 32,
+      "scene": "Athenian soldiers charge downhill at a run toward Persian lines",
+      "summary": "Miltiades persuades the Athenians to fight, and they charge the Persians at a run."
+    },
+    {
+      "n": 33,
+      "scene": "Persian ships sail away from the shore as Athenian soldiers cheer",
+      "summary": "The Athenians win at Marathon, and Herodotus gives the losses as 192 Athenians and about 6,400 Persians."
+    },
+    {
+      "n": 34,
+      "scene": "Xerxes sits awake at night as Artabanus stands beside his bed",
+      "summary": "Darius dies, and Xerxes, urged on by Mardonius and a dream, plans to invade Greece."
+    },
+    {
+      "n": 35,
+      "scene": "Two long bridges of boats cross a narrow sea",
+      "summary": "Xerxes bridges the Hellespont with ships, and punishes the sea after a storm breaks the first bridge."
+    },
+    {
+      "n": 36,
+      "scene": "Xerxes sits on a stone throne above a huge army on a beach",
+      "summary": "Xerxes reviews his enormous army at Doriscus and weeps at the thought that all will die."
+    },
+    {
+      "n": 37,
+      "scene": "Themistocles shows Athenians a harbour full of new warships",
+      "summary": "Themistocles persuades Athens to spend its silver on ships, and Delphi speaks of a wooden wall."
+    },
+    {
+      "n": 38,
+      "scene": "Leonidas leads three hundred Spartans through a narrow mountain pass",
+      "summary": "The Greeks hold Thermopylae, and Leonidas marches there with three hundred Spartans and other Greeks."
+    },
+    {
+      "n": 39,
+      "scene": "A Persian scout watches Spartans combing their long hair by a wall",
+      "summary": "Xerxes waits four days, and a scout reports that the Spartans are combing their hair."
+    },
+    {
+      "n": 40,
+      "scene": "Greek soldiers with shields stand in the narrow pass against Persians",
+      "summary": "The Greeks hold the pass for two days, even against the Immortals."
+    },
+    {
+      "n": 41,
+      "scene": "A man leads Persian soldiers along a hidden mountain path at night",
+      "summary": "Ephialtes shows the Persians a path over the mountain."
+    },
+    {
+      "n": 42,
+      "scene": "Leonidas and the last Spartans stand on a small hill together",
+      "summary": "Leonidas sends most of the Greeks home, and he and his men fight to the end."
+    },
+    {
+      "n": 43,
+      "scene": "Athenian families sail away as smoke rises from the Acropolis",
+      "summary": "Athens is abandoned, and the Persians burn the Acropolis."
+    },
+    {
+      "n": 44,
+      "scene": "A servant rows across the dark strait to the Persian camp",
+      "summary": "Themistocles sends a secret message to trick Xerxes into fighting at Salamis."
+    },
+    {
+      "n": 45,
+      "scene": "Greek ships ram Persian ships in a crowded narrow strait",
+      "summary": "The Greeks win the sea battle of Salamis in 480 BC, and Artemisia escapes by a trick."
+    },
+    {
+      "n": 46,
+      "scene": "Xerxes watches from a hill as his ships struggle below",
+      "summary": "Xerxes returns to Asia, Mardonius stays, and Athens refuses his offer of peace."
+    },
+    {
+      "n": 47,
+      "scene": "Greek soldiers and Persian horsemen fight across a dusty plain",
+      "summary": "Pausanias leads the Greeks at Plataea in 479 BC, and Mardonius is killed."
+    },
+    {
+      "n": 48,
+      "scene": "Greek sailors drag ships onto a beach at Mycale",
+      "summary": "On the same day the Greek fleet wins at Mycale, and the Ionian cities rise again."
+    },
+    {
+      "n": 49,
+      "scene": "Athenians carry the huge bridge cables home across the sea",
+      "summary": "The Athenians take Sestos and carry home the cables of the great bridge."
+    },
+    {
+      "n": 50,
+      "scene": "Cyrus and his Persian nobles stand on a rough stony hillside",
+      "summary": "Herodotus ends with Cyrus's warning that soft lands breed soft men."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Herodotus of Halicarnassus wrote down old stories so that people would remember them.",
+      "Long ago, Greeks and foreigners stole each other's women, and this began the quarrel.",
+      "Croesus was a very rich king who ruled the land of Lydia.",
+      "A wise man called Solon visited Croesus and talked with him about being happy.",
+      "Solon said that you cannot call a man happy until his life ends.",
+      "Croesus sent gifts to Delphi and asked if he should fight the Persians.",
+      "A king wanted baby Cyrus dead, but a poor shepherd saved him.",
+      "Cyrus grew up, led the Persians, and took the land from the old king.",
+      "Croesus crossed the river and fought the Persians, but nobody won the battle.",
+      "Cyrus took the city of Sardis, but he did not kill Croesus.",
+      "Persian boys learned to ride horses, to shoot arrows, and to tell the truth.",
+      "Cyrus turned the river away, and his men walked into Babylon.",
+      "Cyrus fought a brave queen named Tomyris, and he died in the battle.",
+      "Cambyses went to Egypt, and the great river Nile flooded the land every year.",
+      "In Egypt, many things were the opposite of home, and people loved their cats.",
+      "King Khufu made thousands of men build a huge stone pyramid.",
+      "A king gave two babies to a shepherd to learn the first language.",
+      "Cambyses won Egypt, but he laughed at its gods and lost an army.",
+      "Polycrates threw his best ring into the sea, but a fish brought it back.",
+      "Seven men killed the false king and took back the Persian throne.",
+      "The seven men agreed that the first man whose horse spoke would be king.",
+      "Darius made the empire strong with fixed taxes and one long road.",
+      "Every people thinks its own customs are the best, said Herodotus.",
+      "Darius followed the Scythians across the plains, but he could not catch them.",
+      "The Athenians sent their kings away, and now every man could vote.",
+      "A man from Miletus asked for help, but only Athens sent ships.",
+      "The Greeks burned the city of Sardis, and Darius became very angry.",
+      "The Persians beat the Ionian ships, and then a storm sank their fleet.",
+      "Darius asked for earth and water, but the Greeks threw his messengers away.",
+      "The Persians sailed across the sea and landed at Marathon near Athens.",
+      "The runner Pheidippides asked Sparta for help, but the Spartans said wait.",
+      "The Athenians ran at the Persians and beat them at the battle of Marathon.",
+      "Only a few Athenians died, but thousands of Persians lay dead.",
+      "Darius died, and his son Xerxes decided to attack Greece.",
+      "Xerxes made a bridge of boats across the sea, but a storm broke it.",
+      "Xerxes saw his huge army and cried, because everyone would die one day.",
+      "Themistocles used Athens's silver to build ships for the war.",
+      "King Leonidas took three hundred Spartans to a narrow road between mountains.",
+      "A Persian scout saw the Spartans brushing their long hair and laughed.",
+      "The Greeks held the narrow road and stopped the best Persian soldiers.",
+      "A traitor told the Persians about a secret path over the mountain.",
+      "Leonidas sent most men home, but he and his Spartans stayed to fight.",
+      "The Athenians sailed away, and the Persians burned their city.",
+      "Themistocles sent a secret message so the Persians would attack at Salamis.",
+      "The Greek ships won, and brave Queen Artemisia escaped with a clever trick.",
+      "Xerxes went home, but his general stayed, and Athens refused peace.",
+      "At Plataea the Greeks fought hard, and the Persian general was killed.",
+      "On the same day, the Greeks won at sea and freed the Ionian cities.",
+      "The Athenians carried home the great cables from the broken bridge.",
+      "Cyrus said that soft land makes soft men, so the Persians stayed hard."
+    ],
+    "B1B2": [
+      "Herodotus of Halicarnassus travels widely, asks questions of everyone he meets, and writes down what he is told. He wants the great deeds of Greeks and foreigners to be remembered, and he wants to explain why they went to war.",
+      "Persian storytellers say that Phoenician sailors once carried off Greek women, and the Greeks later took women in return. Herodotus repeats these tales, but he refuses to say which side began the trouble.",
+      "Croesus, king of Lydia, is the first foreigner known to have forced Greeks to pay him tribute. His palace at Sardis is full of gold, and he believes that he is the happiest man in the world.",
+      "The wise Athenian Solon arrives at Sardis, and Croesus shows him all his treasure. He then asks Solon who the happiest man he has ever met is, and he expects to hear his own name.",
+      "Solon names an Athenian called Tellus, who lived well and died bravely, and then two brothers who pulled their mother's cart to a temple. Croesus is angry, but Solon says that no one can be called happy until his life has ended well.",
+      "Croesus wants to know whether he should attack the growing power of Persia, so he tests the oracles of Greece. Only Delphi answers correctly, and its priestess tells him that if he crosses the river Halys, a great empire will fall.",
+      "King Astyages of the Medes dreams that his grandson Cyrus will take his throne, and he orders the baby to be killed. A herdsman and his wife secretly keep the child and raise him as their own.",
+      "When Cyrus grows up, his true birth is discovered, and he leads the Persians against the Medes. After a long fight, Astyages is defeated, and Cyrus becomes the ruler of both peoples about 550 BC.",
+      "Croesus crosses the Halys, believing the oracle means that Persia will fall. He fights Cyrus at Pteria, but neither side wins, so he goes home to Sardis and plans to return in the spring.",
+      "Cyrus does not wait, and he follows Croesus to Sardis and takes the city about 546 BC. Herodotus says that Croesus is placed on a pyre, but when he cries out Solon's name, Cyrus changes his mind and spares his life.",
+      "Herodotus says that Persian boys are taught three things: to ride, to shoot with a bow, and to tell the truth. The Persians build no temples, and they like to discuss important matters twice, once sober and once with wine.",
+      "Babylon has huge walls, and Cyrus cannot easily break through them. Instead, his men dig channels to turn the Euphrates aside, and the soldiers march into the city along the shallow river bed in 539 BC.",
+      "Cyrus then attacks the Massagetae, and their queen Tomyris warns him to stop. Herodotus says that Cyrus dies in the battle that follows, and Tomyris rules her people in peace.",
+      "Cambyses, the son of Cyrus, plans to invade Egypt. Herodotus travels there himself and describes the Nile, which floods every summer, leaving rich dark mud that makes the land perfect for farming.",
+      "Herodotus finds that Egyptians do many things the opposite way from Greeks: women go to the market while men stay at home and weave. The Egyptians also treat cats as sacred animals, and a person who kills one may be punished.",
+      "King Khufu rules Egypt, and he builds the largest pyramid of all. Herodotus says that a hundred thousand men worked on it in groups, and they were changed every three months.",
+      "Psammetichus, king of Egypt, wants to know which people are the oldest. He gives two babies to a shepherd, and their first word is bekos, the Phrygian word for bread.",
+      "Cambyses defeats the Egyptians in 525 BC, but he treats their gods with scorn and mocks their customs. Herodotus adds that a Persian army sent into the desert was lost, although the Egyptians said that the sand had buried it.",
+      "Polycrates, the tyrant of Samos, has had great good luck, and his friend the king of Egypt becomes worried. He advises him to throw away his best treasure, so Polycrates drops his ring into the sea, but a fisherman finds it in a fish.",
+      "Cambyses dies, and a man who looks like his dead brother Smerdis takes the throne by deceit. Seven Persian nobles discover the trick, and together they kill the false king.",
+      "The seven nobles agree to choose a king by a test: the man whose horse neighs first at sunrise will rule. Darius's groom makes sure that his master's horse does so, and Darius becomes king in 522 BC.",
+      "Darius divides his huge empire into provinces, each ruled by a satrap and each paying a fixed yearly tax. He also builds the Royal Road, along which messengers can cross the empire in about a week.",
+      "Darius once asks some Greeks if they would eat their dead fathers, and they are shocked. Then he asks a people who do eat them about burning them, and they are horrified, so Herodotus says that custom is king.",
+      "Darius leads an army against the Scythians about 513 BC, but they have no cities to defend. They simply retreat across the plains, and their gift of a bird, a mouse, a frog and arrows puzzles him.",
+      "In Athens, the people have driven out their tyrants and have created a new system in which citizens vote together. Herodotus notes that the Athenians grew much stronger once they were ruling themselves.",
+      "Aristagoras of Miletus asks the Spartan king for help against Persia, but he refuses when he hears how far away the war would be. The Athenians listen to him instead, and they send twenty ships to help the Ionian rebels.",
+      "The rebels march inland and set fire to Sardis, but they are soon driven back to the coast. Darius, who has never heard of Athens, asks who these people are, and he orders a servant to remind him of them every day.",
+      "The Persians defeat the Ionian fleet at the battle of Lade and destroy Miletus in 494 BC. Two years later, a Persian fleet under Mardonius is wrecked by a storm off Mount Athos, and many ships and men are lost.",
+      "Darius sends heralds around Greece to ask for earth and water as a sign of surrender. Many cities agree, but in Athens the heralds are thrown into a pit, and in Sparta they are dropped into a well.",
+      "In 490 BC, a Persian fleet commanded by Datis and Artaphernes crosses the sea and destroys the city of Eretria. Then it lands at Marathon, only a day's march from Athens.",
+      "The Athenians send a runner named Pheidippides to ask Sparta for help, and he covers about two hundred and forty kilometres in two days. On the way he meets the god Pan, but the Spartans say they cannot march until the moon is full.",
+      "The Athenian generals are divided, but Miltiades persuades them to attack before the Persians can move. The Greeks charge across the plain at a run, which surprises the enemy.",
+      "The Athenian soldiers beat the Persians back to their ships. Herodotus says that 192 Athenians and about 6,400 Persians died, and he describes the day as a great victory.",
+      "Darius dies in 486 BC, and his son Xerxes becomes king. Mardonius urges him to attack Greece, while his uncle Artabanus advises against it, but a dream convinces Xerxes to go ahead.",
+      "Xerxes orders a bridge of boats to be built across the Hellespont, but a storm destroys it. He is furious, and Herodotus says that he had the sea whipped, although his engineers quietly built a stronger bridge.",
+      "At Doriscus, Xerxes counts his army, which Herodotus says is more than five million, though modern historians think far fewer. Xerxes weeps at the thought that in a hundred years, all these men will be dead.",
+      "In Athens, a rich new vein of silver has been found, and Themistocles persuades the people to spend it on warships. When Delphi tells them that a wooden wall will save them, he explains that the wall means ships.",
+      "The Greek cities agree to defend the narrow pass at Thermopylae, while their fleet waits at Artemisium. King Leonidas leads three hundred Spartans there, and several thousand other Greeks join them.",
+      "Xerxes waits four days for the Greeks to run away. Instead, his scout sees the Spartans exercising and combing their long hair, and Demaratus explains that Spartans do this when they are ready to die.",
+      "The Persians attack the pass for two days, but the Greeks, fighting shoulder to shoulder, hold them back. Even the Immortals, Xerxes's best soldiers, cannot break through.",
+      "A local man named Ephialtes hopes for a reward, and he tells Xerxes about a path over the mountains. A Persian force follows it by night and prepares to come down behind the Greeks.",
+      "Leonidas hears that the Greeks are trapped and sends most of the army home to fight another day. He stays with his three hundred Spartans and a few allies, and they fight until all of them have fallen.",
+      "The Athenians cannot hold Athens, so they carry their families to nearby islands and take to their ships. The Persians arrive to find the city empty, and they set fire to the temples on the Acropolis.",
+      "The Greek fleet is afraid and wants to retreat, but Themistocles wants to fight in the narrow strait at Salamis. He sends a servant to tell Xerxes that the Greeks are about to run away, and the king orders his ships forward.",
+      "In the crowded waters of Salamis, the large Persian ships get in each other's way, and the Greeks win a great victory in 480 BC. Queen Artemisia of Halicarnassus escapes by ramming a friendly ship, and Xerxes thinks she has sunk an enemy.",
+      "Xerxes watches the defeat from the shore, and then he returns to Asia with part of his army. Mardonius stays to finish the war, and he offers Athens peace, but the Athenians refuse as long as the sun keeps its course.",
+      "In 479 BC, Pausanias of Sparta leads the Greek army against Mardonius at Plataea. After days of waiting, the two armies clash, and Mardonius is killed, and the Persian camp is captured.",
+      "On the same day, according to Herodotus, the Greek fleet wins at Mycale, on the coast of Asia. The Greek cities there rise against Persia, and the long war is nearly over.",
+      "The Athenians sail to Sestos on the Hellespont and capture the city after a long siege. They take the great cables of Xerxes's bridge home with them as a trophy.",
+      "Herodotus ends his book with a story about Cyrus. When some Persians suggest moving to a softer, richer land, Cyrus replies that soft lands breed soft men, so they stay in their rough country."
+    ],
+    "C1C2": [
+      "Some twenty-five centuries ago, a Greek named Herodotus, born in the coastal city of Halicarnassus, set out to gather the stories of the known world. He called his work an inquiry, for he questioned travellers, priests and soldiers, and weighed carefully what each of them told him. His purpose, as he declared at the outset, was that the great deeds of Greeks and foreigners alike should not fade from memory, and that people should understand why the two sides came to blows.",
+      "According to the Persian storytellers, the quarrel began when Phoenician sailors carried off a Greek princess, and the Greeks avenged themselves by seizing women in their turn. Herodotus repeats these tales with a polite smile, for he has no way of testing them. He will not say which side struck the first blow, preferring to begin with the man whom he knows to have done so.",
+      "That man was Croesus, king of Lydia, the first foreigner known to have forced Greek cities to pay him tribute. From his palace at Sardis, where gold seemed to lie about like pebbles in a riverbed, he ruled a kingdom that stretched across much of Asia Minor. Croesus took it for granted that a man so rich must also be the happiest alive.",
+      "One day the Athenian lawgiver Solon, travelling the world to see its wonders, arrived at the court of Sardis. Croesus had his guest led through the treasuries, and then asked him, in the tone of a man who already knows the answer, whom he had judged the most fortunate of all mortals. Solon, who was too honest to flatter a king, replied that no one can be judged by the glitter of his life but only by its ending.",
+      "Solon named first an Athenian called Tellus, who lived in a prosperous city, saw his children grow up, and died heroically in battle. In second place he put two brothers, Cleobis and Biton, who yoked themselves to their mother's cart and pulled it for miles to a festival, and who died peacefully in the temple that same night. Croesus, offended that he had not been mentioned at all, sent the visitor away, never suspecting that the old man had spoken to him of his own future.",
+      "Before venturing against the rising power of Persia, Croesus decided to learn which of the Greek oracles could be trusted. He sent messengers with a secret question to each, and only the priestess at Delphi answered it correctly. Delighted, he loaded the temple with gifts of gold, and asked whether he should march against Cyrus; the reply was that if he crossed the river Halys he would destroy a great empire.",
+      "Meanwhile, in Media, King Astyages dreamed that his grandson would one day rule in his place, and ordered his officer Harpagus to put the infant Cyrus to death. Harpagus, unwilling to stain his own hands, passed the child to a herdsman named Mitradates, whose wife had just lost a baby of her own. The couple quietly brought the royal child up as their son, and the king believed the matter closed.",
+      "When the boy grew into a young man of remarkable bearing, his true birth came to light, and the Persians rallied behind him against their Median overlords. The war was long and the Medes fought fiercely, but Astyages was eventually defeated and captured. Around 550 BC, Cyrus found himself master of both peoples, and the foundation of a vast empire had been laid.",
+      "Croesus, convinced that the oracle promised him victory, crossed the Halys with his army and fought Cyrus to a standstill at Pteria. Neither side could claim the field, and as winter approached the Lydian king withdrew to Sardis, intending to summon his allies and strike again in spring. He had not reckoned with the speed of the new Persian king, who was already hard on his heels.",
+      "Cyrus pursued him at once, and within two weeks his army stood before the walls of Sardis, which fell about 546 BC. Herodotus relates that Croesus was set upon a pyre, and that as the flames were lit he cried out the name of Solon three times. When Cyrus asked what the cry meant, and heard the old story, he was struck by the uncertainty of fortune and ordered the fire put out.",
+      "Herodotus, who admired many of the customs he found abroad, describes the Persians as a people who built no temples and who held that the whole sky was the dwelling of their god. Boys were taught three things between the ages of five and twenty: to ride, to shoot the bow, and to speak the truth. Important decisions were debated twice, first at table with wine and again in the sober light of morning, and a plan was kept only if it seemed good both times.",
+      "The mighty walls of Babylon seemed to mock any army that dared to approach them, and the city had supplies for many years. Cyrus, who preferred cleverness to brute force, ordered his men to dig channels that drew off the waters of the Euphrates until the river was shallow enough to wade. On the night of a festival, while the citizens danced, the Persians marched in along the river bed, and the city was taken in 539 BC.",
+      "Not content with such triumphs, Cyrus turned north against the Massagetae, a nomadic people ruled by the widowed Queen Tomyris, who warned him that conquest brings no peace. When he ignored her, the Massagetae defeated his army in a hard-fought battle, and Cyrus lost his life. Herodotus admits that other accounts of his death exist, but he tells this one because he finds it the most credible.",
+      "Cyrus's son Cambyses inherited the empire and set his sights on Egypt, a land that Herodotus visited and describes with undisguised wonder. The Nile, he reports, rises each summer and spreads a layer of black silt over the fields, so that the Egyptians gather their harvests with less labour than any other people. He calls Egypt the gift of the river, and the phrase has echoed through the centuries.",
+      "To Herodotus the Egyptians seemed to have turned the ordinary habits of mankind upside down, for their women went to the market while the men sat at home weaving. They also held the cat in such reverence that a household would shave its eyebrows in mourning when one died. He recorded these details without sneering, for he believed that every nation has its own sense of what is proper.",
+      "The greatest of all Egyptian monuments, in his view, was the pyramid of King Khufu, whom the Greeks called Cheops. According to what the priests told him, a hundred thousand men laboured on it in shifts of three months, dragging stones along a causeway for ten years before the building itself began. Modern scholars doubt some of these figures, but the sheer scale of the monument is not in question.",
+      "Herodotus tells a curious tale of King Psammetichus, who wished to settle which nation was the most ancient. He gave two newborn babies to a shepherd, forbidding anyone to speak in their hearing, and listened for the first word they would utter. When one of them said bekos, the Phrygian word for bread, the Egyptians conceded, with some embarrassment, that the Phrygians were older than themselves.",
+      "In 525 BC, Cambyses defeated the Egyptian army and entered the country as its master, but Herodotus charges him with reckless contempt for its traditions. He is said to have mocked its temples and sacred animals, and to have sent an army across the desert from which no one returned. The Egyptians insisted that a great storm of sand had swallowed the soldiers, a claim that Herodotus reports with caution.",
+      "Polycrates, tyrant of the island of Samos, enjoyed such unbroken good fortune that his ally, the king of Egypt, grew uneasy, fearing that the gods would take offence. He advised Polycrates to throw away whatever he treasured most, and the tyrant, taking the counsel to heart, cast his precious emerald ring into the sea. A few days later a fisherman presented a huge fish to the palace, and in its belly lay the ring.",
+      "With Cambyses dead, a man who resembled the king's murdered brother Smerdis seized the throne by deceit, and ruled in his name for several months. When seven Persian noblemen discovered that the impostor had no ears, which had been cut off long before as a punishment, they resolved to remove him. They burst into the palace together and killed the false king, and the empire stood on the edge of confusion.",
+      "To settle who should succeed, the seven agreed that they would ride out together at dawn and that the man whose horse neighed first would be king. Darius had a clever groom, who the night before led his master's horse to the place and let it smell a mare there. The next morning the horse neighed at the spot, a flash of lightning followed, and the nobles hailed Darius as their king in 522 BC.",
+      "Once on the throne, Darius proved himself a capable organiser, dividing his enormous empire into provinces, each governed by a satrap and each required to pay a fixed sum every year. He also built the Royal Road, along which relays of mounted messengers could carry a letter from Sardis to Susa in about a week. Herodotus, who thought the system remarkable, said that neither snow nor rain nor darkness could stop these riders.",
+      "Herodotus relates that Darius once summoned some Greeks and asked what price would make them eat the bodies of their dead fathers, and they declared that no sum on earth could tempt them. He then called a tribe who did eat their dead and asked what would make them burn their fathers instead, and they cried out in horror. From this the historian drew his famous conclusion that custom is the king of all, since every people holds its own ways to be the best.",
+      "Around 513 BC, Darius led a great army across the Danube to punish the Scythians, a nomadic people who had no cities to capture and no fields to burn. The Scythians simply retreated, drawing the Persians deeper into the plains, until the king grew weary of chasing shadows. At last they sent him a bird, a mouse, a frog and five arrows, a message whose meaning his advisers could not agree upon.",
+      "In Athens, meanwhile, the people had driven out the family of the tyrant Pisistratus and given power to the assembly, in which every citizen had a voice. Herodotus observes that the Athenians, once they were governing themselves, grew far stronger than they had been under their rulers. For free men fight for themselves, whereas those under a master fight only because they are afraid.",
+      "In 499 BC, Aristagoras of Miletus, who had stirred up the Greek cities of Asia Minor against Persia, travelled to the Greek mainland to beg for help. The Spartan king listened with interest until he learned how far from the sea the Persian capital lay, and then sent him away. The Athenians, who proved easier to persuade, voted to send twenty ships, which Herodotus calls the beginning of evils for Greeks and foreigners alike.",
+      "The Ionians and their Athenian allies marched inland and set fire to Sardis, where the wooden houses burned fiercely, but the Persian cavalry soon drove them back to the coast. When Darius heard that Athenians had been involved, he asked who they were, and then shot an arrow into the air, praying for the chance to punish them. He ordered a servant to say to him three times at every dinner, Master, remember the Athenians.",
+      "The Persians crushed the Ionian fleet at Lade in 494 BC and destroyed Miletus, carrying many of its people off into exile. In 492 BC, Darius sent his son-in-law Mardonius against Greece by land and sea, but a violent storm off Mount Athos wrecked about three hundred ships and drowned many thousands of men. The expedition turned back, and the Greeks had gained a short but welcome respite.",
+      "Darius, undeterred, sent heralds to every Greek city to demand earth and water, the traditional signs of submission, and many of the islands and cities complied. In Athens the heralds were thrown into a pit, and in Sparta they were pushed into a well, with the cheerful suggestion that they should help themselves. The Greeks knew that such an insult to messengers meant war, and they began preparing for it.",
+      "In 490 BC, a large Persian fleet under Datis and Artaphernes crossed the Aegean, burned the city of Eretria, and landed on the plain of Marathon, a day's march from Athens. They had with them the aged former tyrant Hippias, who hoped to be restored to power, and they expected the Athenians to give way at once. Against that threat, Athens could count on perhaps ten thousand soldiers and the help of a few friends.",
+      "Before the battle, the Athenians sent a runner named Pheidippides to Sparta to ask for help, and Herodotus says that he covered about two hundred and forty kilometres in two days. On the way, he reports, the god Pan appeared to Pheidippides and promised to aid Athens, a vision that the Athenians later honoured with a shrine. The Spartans received the message with sympathy but replied that religion forbade them to march before the moon was full.",
+      "Within the Athenian camp the ten generals were evenly divided, until Miltiades, who knew the Persians better than the others, persuaded the commander to cast his vote for battle. The Athenians drew up in a line along the plain, strengthened their flanks, and then, to the astonishment of the enemy, charged at a run across the whole distance between the armies. Herodotus says that it was the first time a Greek army had advanced in such a fashion, and that the Persians thought them mad.",
+      "The fighting was long, with the Persians breaking through the centre while the Greek wings closed in behind them, and in the end the invaders fled to their ships. Herodotus tells us that 192 Athenians fell that day and about 6,400 Persians, and he adds that the Athenians put their dead under a great mound that still stands at Marathon. The victory gave Athens a confidence that it never entirely lost, and it shaped everything that followed.",
+      "Darius died in 486 BC, and his son Xerxes inherited both the empire and the unfinished quarrel with Greece. The young king was at first hesitant, but his cousin Mardonius argued eagerly for war, while his wise uncle Artabanus warned that the sea and the land were enemies of such an expedition. A dream that visited Xerxes by night, and that appeared to Artabanus too, finally persuaded the king to go ahead.",
+      "To carry his army across the narrow Hellespont, Xerxes ordered his engineers to build a bridge of boats, and then a storm tore it to pieces. The furious king commanded that the sea should be whipped three hundred times, and Herodotus considers this a savage and foolish act. The engineers were punished, and then they built two stronger bridges, anchoring hundreds of ships side by side and laying cables and planks across them.",
+      "When his army was gathered at Doriscus in Thrace, Xerxes sat on a throne of white marble and watched his host march past, and he wept. Asked why, he said that it was sad to think that in a hundred years not one of these men would still be alive. Herodotus estimates the whole force at over five million, a figure that modern historians reject as wildly inflated, but the host was surely among the largest ever raised.",
+      "In the Greek camp, Themistocles, an energetic and far-sighted Athenian, understood that the coming war would be decided at sea. When a rich seam of silver was found in the mines of Laurium, he persuaded the Athenians to spend the money on two hundred warships rather than dividing it among themselves. When Delphi told Athens that a wooden wall would save it, Themistocles argued that the oracle meant ships, and the people believed him.",
+      "The Greeks who were prepared to resist agreed to hold the narrow pass of Thermopylae, where the mountains close in upon the sea, while their fleet waited nearby at Artemisium. King Leonidas of Sparta marched north with three hundred picked men, each of whom had sons at home, and was joined by several thousand soldiers from other cities. They knew that they were far outnumbered, but the pass would allow them to fight a few at a time.",
+      "Xerxes, who had assumed that the Greeks would flee when they saw his army, waited four days at the mouth of the pass and sent a scout to spy upon them. The scout returned with the astonishing report that the Spartans were exercising and combing their long hair, as though at leisure. The exiled Spartan king Demaratus, who was present, explained that this was their custom when they were about to risk their lives.",
+      "For two days the Persians threw their finest troops into the narrow road, and each time the Greeks, shield locked beside shield and spears extended, drove them back with heavy losses. Herodotus says that the king leapt from his throne three times in alarm as he watched his men struggle. Even the Immortals, the ten thousand picked men who had never been beaten, could make no impression on the defenders.",
+      "Then a local man named Ephialtes, hoping to earn a reward from the Persian king, revealed that a goat-track climbed over the mountain and descended behind the Greek position. Xerxes sent the Immortals along it at nightfall, and at dawn the Greeks learned that their line could be turned. Herodotus tells us bluntly that Ephialtes is remembered in Greece as a traitor to this day.",
+      "Realising that the position was lost, Leonidas sent most of the army away to fight another day, and kept only his three hundred Spartans, together with a few hundred volunteers from the city of Thespiae. They fought on until their spears were broken and their swords gone, and were finally overwhelmed on a small hill in the pass. A memorial later set up there carried the words that Herodotus records: stranger, tell the Spartans that we lie here, having obeyed their orders.",
+      "As the Persian army marched south, Athens was abandoned, its people carried to the nearby islands and to the shores of the Peloponnese aboard the fleet. The Persians reached the city to find it empty, and they set fire to the temples on the Acropolis. Xerxes had taken the city of Athena, but he could not catch its people, and that would prove a costly omission.",
+      "On the Greek side, the commanders quarrelled about whether to withdraw south or to stand and fight in the narrow strait of Salamis. Themistocles, fearing that the fleet would break up, slipped a trusted servant across the water to the Persian camp with a false message that the Greeks were about to flee. Believing it, Xerxes ordered his ships into the strait by night, and they were in position when the dawn broke.",
+      "In the cramped waters of Salamis, the large Persian fleet could not use its numbers, and its ships collided with one another as the nimbler Greek vessels darted in and rammed them. Queen Artemisia of Halicarnassus, who fought on the Persian side, escaped by ramming one of her own allied ships, and Xerxes, who watched from a throne on the shore, declared that his men had become women and his women men. The sea battle was fought in 480 BC, and it broke the strength of the Persian navy.",
+      "Fearing that the Greeks would sail to the Hellespont and cut off his retreat, Xerxes hurried back to Asia with part of his army, leaving the general Mardonius to finish the war with picked troops. Mardonius sent an offer of peace and alliance to Athens, promising that its land would be restored and enlarged. The Athenians answered that they would not make terms with Xerxes for as long as the sun kept to its path in the sky.",
+      "In 479 BC, the Spartan regent Pausanias led the combined Greek army out against Mardonius, and the two forces faced one another near the town of Plataea for many days. The omens were unfavourable for both sides, and the armies sparred over water and supplies until the Persians suddenly attacked. When Mardonius was struck down in the fighting, his army broke, and the Greeks stormed the Persian camp.",
+      "On the same day, Herodotus reports, the Greek fleet beat the Persians at Mycale on the coast of Asia, and a rumour of the victory at Plataea was said to have reached the sailors before the battle began. The Ionian cities, long ruled from Persia, then rose against their masters and joined the Greek cause with new courage. The great invasion had failed, and the freedom of Greece was now secure, at least for a generation.",
+      "In the following year, the Athenians sailed to the Hellespont and laid siege to Sestos, a fortress that guarded the crossing. When the city was starving and finally fell, the Athenians took down the huge cables that had once held Xerxes's bridge together. They carried them back to Greece and hung them up in their temples as a reminder of the king's overreaching pride.",
+      "Herodotus closes his great work with a story about Cyrus, set long before the invasion of Greece, when the Persians were still poor and rough hill people. When some of them proposed that they should leave their harsh land for a softer one, Cyrus replied that they were free to do so, but that soft countries breed soft men. He added that it was better to rule from a rugged country than to be slaves in a rich one, and the Persians chose to stay where they were."
+    ]
+  }
+}

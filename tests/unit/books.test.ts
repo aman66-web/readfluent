@@ -9,7 +9,7 @@ import { tokenize } from "@/lib/reading/sentences";
 
 const dir = (slug: string) => new URL(`../../lib/preview/books/${slug}/`, import.meta.url);
 const read = <T,>(slug: string, file: string): T => JSON.parse(readFileSync(new URL(file, dir(slug)), "utf8")) as T;
-const WRITTEN = PREVIEW_BOOKS.filter((b) => b.source === "file");
+const WRITTEN = PREVIEW_BOOKS.filter((b) => b.source === "file" && !b.generated);
 
 describe("the hand-written books", () => {
   it("are four, each offered in the 50-page edition only, with no text in the app's own code", () => {

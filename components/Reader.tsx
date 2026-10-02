@@ -331,7 +331,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
             </button>
           )}
           {canSpeak() && (
-            <button type="button" aria-pressed={reading} aria-label={reading ? t("reader.stopListening") : t("reader.listenPage")} onClick={readPageAloud}
+            <button type="button" data-tour="listen" aria-pressed={reading} aria-label={reading ? t("reader.stopListening") : t("reader.listenPage")} onClick={readPageAloud}
                     className={`grid size-11 shrink-0 place-items-center rounded-full ${reading ? "bg-accent-bright/25 text-foreground" : "text-muted active:bg-border/60"}`}>
               <svg viewBox="0 0 24 24" className="size-6" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 {reading ? <rect x="7" y="7" width="10" height="10" rx="2" /> : <path d="M11 5 6 9H3v6h3l5 4zM15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" />}
@@ -339,7 +339,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
             </button>
           )}
           {interactive && (
-            <button type="button" dir="ltr" data-settings-toggle aria-expanded={menu} aria-label={t("reader.settings")} onClick={() => setMenu(!menu)}
+            <button type="button" dir="ltr" data-tour="settings" data-settings-toggle aria-expanded={menu} aria-label={t("reader.settings")} onClick={() => setMenu(!menu)}
                     className={`flex size-11 shrink-0 items-baseline justify-center rounded-full pt-[11px] text-[17px] font-bold tracking-[-0.02em] ${menu ? "bg-accent-bright/25" : "active:bg-border/60"}`}>
               A<span className="text-[12px]">A</span>
             </button>
@@ -372,7 +372,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
         </div>
       )}
 
-      <div ref={scroller} dir="ltr" className="no-scrollbar flex min-h-0 flex-1 snap-x snap-mandatory overflow-x-auto overscroll-x-contain" aria-label={t("reader.pages")} inert={wordsOpen}>
+      <div ref={scroller} data-tour="page" dir="ltr" className="no-scrollbar flex min-h-0 flex-1 snap-x snap-mandatory overflow-x-auto overscroll-x-contain" aria-label={t("reader.pages")} inert={wordsOpen}>
         {pages.map((p, i) => {
           const near = Math.abs(i - index) <= KEEP_PHOTOS;
           const scene = scenes[p.scene - 1];
@@ -395,7 +395,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
                   )}
                 </div>
               </div>
-              <div className="flex-1 overflow-y-auto px-[22px] pb-3 pt-1.5">
+              <div data-tour="text" className="flex-1 overflow-y-auto px-[22px] pb-3 pt-1.5">
                 <PageText page={p} interactive={interactive} selected={sel && sel.page === i ? sel.start : -1} lang={variant.lang}
                           size={TEXT_SIZES[prefs.size]} colours={prefs.colours} gloss={prefs.gloss && !open}
                           onPick={(word, start) => { setMenu(false); setSel({ page: i, word, start }); }} />

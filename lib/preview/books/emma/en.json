@@ -1,0 +1,417 @@
+{
+  "slug": "emma",
+  "meta": {
+    "blurb": "Emma Woodhouse is clever, rich and sure that she knows everyone's heart better than they do. Her matchmaking in the little town of Highbury causes tears, quarrels and some very red faces. Only one honest friend can show her what she has been missing.",
+    "bible": "Emma Woodhouse: twenty years old, handsome, clever and rich; lives at Hartfield; loves matchmaking and is often wrong; the heroine. Mr Woodhouse: her gentle, worried father who fears draughts, illness and change. Mr George Knightley: about thirty-seven, a sensible landowner of Donwell Abbey; Emma's honest friend and neighbour, who tells her the truth. Isabella Knightley: Emma's elder sister, married to John Knightley, Mr Knightley's brother; they live in London. Miss Taylor: Emma's former governess and friend, who becomes Mrs Weston. Mr Weston: a cheerful man who lives at Randalls; Frank Churchill's father. Frank Churchill: Mr Weston's son, charming and lively, raised by a rich aunt and uncle in Yorkshire. Harriet Smith: seventeen, pretty, shy and easily led; a pupil at Mrs Goddard's school whose parents are unknown. Robert Martin: a decent young farmer of Abbey-Mill Farm who loves Harriet. Mr Elton: the vicar of Highbury, ambitious and vain. Mrs Elton: Augusta Hawkins from Bristol, his bride; boastful and fond of talking about her brother-in-law's house, Maple Grove. Miss Bates: a kind, talkative, poor spinster who lives with her mother, Mrs Bates. Jane Fairfax: Miss Bates's niece, elegant, talented and reserved. Colonel Campbell and Mr Dixon: friends of Jane in Ireland; Mr Dixon is married to Colonel Campbell's daughter. Mrs Churchill: Frank's strict, ill aunt. Places: Highbury, a small town in Surrey; Hartfield, Emma's home; Randalls, the Westons' house; Donwell Abbey, Mr Knightley's estate; Abbey-Mill Farm; the Crown, an inn with a ballroom; Box Hill, a hill with a view where a picnic is held; Bristol; Bath; London. Voice and tone: light, witty and warm; Emma's mistakes are funny and then painful; the ending is a happy surprise."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Emma Woodhouse and her father sit by the fire at Hartfield",
+      "summary": "Emma Woodhouse is handsome, clever and rich, and she lives with her fearful father at Hartfield."
+    },
+    {
+      "n": 2,
+      "scene": "Emma watches a bride and groom leave the church in the sunshine",
+      "summary": "Miss Taylor, Emma's governess, marries Mr Weston, and Emma takes credit for the match."
+    },
+    {
+      "n": 3,
+      "scene": "Mr Knightley shakes his head at Emma over a table after dinner",
+      "summary": "Mr Knightley warns Emma that matchmaking is a dangerous hobby, and she laughs at him."
+    },
+    {
+      "n": 4,
+      "scene": "Emma talks kindly with a shy pretty girl in a quiet garden",
+      "summary": "Emma befriends Harriet Smith, a shy and pretty girl from Mrs Goddard's school."
+    },
+    {
+      "n": 5,
+      "scene": "Emma looks at the tall young vicar, Mr Elton, as he bows to Harriet",
+      "summary": "Emma decides that the vicar, Mr Elton, would be the perfect husband for Harriet."
+    },
+    {
+      "n": 6,
+      "scene": "Harriet talks happily about a young farmer while Emma listens with a frown",
+      "summary": "Harriet speaks warmly of Robert Martin, a farmer, but Emma thinks he is not good enough."
+    },
+    {
+      "n": 7,
+      "scene": "Emma presses a letter into Harriet's hands while Harriet looks worried",
+      "summary": "Robert Martin sends Harriet a proposal in a letter, and Emma persuades her to refuse it."
+    },
+    {
+      "n": 8,
+      "scene": "Mr Knightley speaks angrily to Emma in the garden at Hartfield",
+      "summary": "Mr Knightley is furious and tells Emma that Robert Martin was an excellent match for Harriet."
+    },
+    {
+      "n": 9,
+      "scene": "Emma sketches Harriet's portrait while Mr Elton leans close, watching",
+      "summary": "Emma draws a portrait of Harriet, and Mr Elton admires it far more than seems natural."
+    },
+    {
+      "n": 10,
+      "scene": "Mr Elton hands Emma a riddle on paper while Harriet smiles beside her",
+      "summary": "Mr Elton writes a riddle in a book, and Emma thinks he wrote it for Harriet."
+    },
+    {
+      "n": 11,
+      "scene": "Isabella and John Knightley arrive at Hartfield in the snow with their children",
+      "summary": "Emma's sister Isabella and Mr John Knightley arrive from London for Christmas."
+    },
+    {
+      "n": 12,
+      "scene": "Emma and Mr Elton sit in a dark carriage in falling snow",
+      "summary": "On the way home from a party, Mr Elton declares his love to Emma in the carriage."
+    },
+    {
+      "n": 13,
+      "scene": "Harriet weeps on the sofa and Emma holds her hand, ashamed",
+      "summary": "Emma tells Harriet the truth, Harriet cries, and Emma blames herself for her mistake."
+    },
+    {
+      "n": 14,
+      "scene": "A frowning Mr Elton rides away to Bath in the grey morning",
+      "summary": "Mr Elton, offended by Emma's refusal, goes off to Bath for several weeks."
+    },
+    {
+      "n": 15,
+      "scene": "A letter arrives at Randalls, and Mr Weston reads it aloud, smiling",
+      "summary": "Everyone expects Frank Churchill, Mr Weston's son, to visit, but he keeps putting it off."
+    },
+    {
+      "n": 16,
+      "scene": "Miss Bates chatters to Emma while a quiet elegant young woman sits by",
+      "summary": "Jane Fairfax, Miss Bates's elegant niece, visits Highbury, and Emma finds her cold and hard to like."
+    },
+    {
+      "n": 17,
+      "scene": "Frank Churchill bows gracefully in the drawing room, smiling at Emma",
+      "summary": "Frank Churchill finally arrives, and his charm and good humour win over everyone, especially Emma."
+    },
+    {
+      "n": 18,
+      "scene": "Emma sits alone in her room, thinking, her drawing materials beside her",
+      "summary": "Emma decides that she is not really in love with Frank after all, and makes up her mind to be cheerful."
+    },
+    {
+      "n": 19,
+      "scene": "A grand piano is carried into Miss Bates's tiny sitting room as Jane stares",
+      "summary": "A beautiful piano arrives for Jane Fairfax, sent by someone who does not give his name."
+    },
+    {
+      "n": 20,
+      "scene": "Emma and Frank whisper together, looking at Jane across the room",
+      "summary": "Emma and Frank guess that the piano came from Mr Dixon, a married friend of Jane's, and Emma enjoys the idea."
+    },
+    {
+      "n": 21,
+      "scene": "Mr Elton introduces his new wife in a Highbury parlour, both smiling widely",
+      "summary": "Mr Elton returns from Bath with a new bride, Augusta Hawkins, who is rich, loud and vain."
+    },
+    {
+      "n": 22,
+      "scene": "Mrs Elton talks without a pause while Emma sits politely, bored",
+      "summary": "Mrs Elton brags about her brother's fine house, Maple Grove, and treats Emma as if she were an equal."
+    },
+    {
+      "n": 23,
+      "scene": "Candles and dancers fill the ballroom of the Crown Inn in Highbury",
+      "summary": "A ball is planned at the Crown Inn, and the whole of Highbury looks forward to dancing."
+    },
+    {
+      "n": 24,
+      "scene": "Mr Elton turns away from Harriet as the music begins, and Harriet looks hurt",
+      "summary": "At the ball, Mr Elton refuses to dance with Harriet, in front of everyone, to hurt her."
+    },
+    {
+      "n": 25,
+      "scene": "Mr Knightley offers his hand to Harriet in front of the whole room",
+      "summary": "Mr Knightley steps forward and asks Harriet to dance, which saves her from shame."
+    },
+    {
+      "n": 26,
+      "scene": "Harriet in a bonnet is surrounded by children and rough strangers on a lane",
+      "summary": "The next day gypsies frighten Harriet on the road, and Frank Churchill rescues her."
+    },
+    {
+      "n": 27,
+      "scene": "Emma imagines a wedding as she looks at Harriet and Frank together",
+      "summary": "Emma dreams that Harriet and Frank may fall in love, and Harriet hints that she cares for someone greater than Mr Elton."
+    },
+    {
+      "n": 28,
+      "scene": "Frank pushes wooden alphabet letters across a table toward a frowning Jane",
+      "summary": "At Hartfield, Frank sets out the word Dixon with letters, Jane pushes them away, and Mr Knightley notices."
+    },
+    {
+      "n": 29,
+      "scene": "Guests pick strawberries in the warm gardens of Donwell Abbey",
+      "summary": "At Donwell Abbey, Mr Knightley's home, the neighbours pick strawberries, and Mrs Elton is rude."
+    },
+    {
+      "n": 30,
+      "scene": "A group sits on a green hilltop with a picnic basket and a view",
+      "summary": "The group travels to Box Hill for a picnic, but the day is oddly dull and quarrelsome."
+    },
+    {
+      "n": 31,
+      "scene": "Emma laughs at Miss Bates while others look away in shock",
+      "summary": "Frank asks everyone to say something clever, and Emma insults Miss Bates by saying she would say too many dull things."
+    },
+    {
+      "n": 32,
+      "scene": "Mr Knightley speaks gravely to Emma at the carriage door",
+      "summary": "Mr Knightley tells Emma that she was cruel to Miss Bates, who is poor and has always been kind to her."
+    },
+    {
+      "n": 33,
+      "scene": "Emma weeps alone in the carriage on the road home",
+      "summary": "Emma cries all the way home, ashamed that Mr Knightley has found her so unkind."
+    },
+    {
+      "n": 34,
+      "scene": "Emma sits beside Miss Bates and takes her hand in a small sitting room",
+      "summary": "The next morning Emma visits Miss Bates to make amends, and Miss Bates is warm and forgiving."
+    },
+    {
+      "n": 35,
+      "scene": "Jane Fairfax sits pale at a window with a letter in her hands",
+      "summary": "Jane decides to become a governess, and she turns away every kindness that Emma offers."
+    },
+    {
+      "n": 36,
+      "scene": "A letter lies open on a table beside a serious Mr Weston",
+      "summary": "News arrives that Mrs Churchill has died, and Frank is free from her control."
+    },
+    {
+      "n": 37,
+      "scene": "Mrs Weston speaks quietly to Emma, an open letter in her hand",
+      "summary": "Mrs Weston reveals that Frank and Jane have been secretly engaged for months."
+    },
+    {
+      "n": 38,
+      "scene": "Emma holds Harriet's hands as Harriet speaks nervously by the fire",
+      "summary": "Emma fears Harriet will be hurt, but Harriet says she never cared for Frank, and that she loves someone else."
+    },
+    {
+      "n": 39,
+      "scene": "Emma stands alone in the garden, her hand pressed to her chest",
+      "summary": "Harriet names Mr Knightley, and Emma realises with a shock that she loves him herself."
+    },
+    {
+      "n": 40,
+      "scene": "Mr Knightley walks in the garden of Hartfield and meets Emma by a gate",
+      "summary": "Mr Knightley comes to Hartfield to comfort Emma over Frank's engagement, and she tells him she was never in love with Frank."
+    },
+    {
+      "n": 41,
+      "scene": "Mr Knightley and Emma walk slowly under the trees of Hartfield garden",
+      "summary": "Mr Knightley says that he cannot be only a friend any more, and Emma fears he is going to speak of Harriet."
+    },
+    {
+      "n": 42,
+      "scene": "Mr Knightley takes Emma's hand and speaks tenderly in the evening light",
+      "summary": "Mr Knightley declares his love for Emma, and she accepts him with joy."
+    },
+    {
+      "n": 43,
+      "scene": "Emma gazes at her father in his chair, her hand resting in Mr Knightley's",
+      "summary": "Emma tells Mr Knightley she cannot leave her father, so he offers to move to Hartfield."
+    },
+    {
+      "n": 44,
+      "scene": "Harriet reads a letter with a happy blush while Robert Martin stands outside",
+      "summary": "Harriet receives a second proposal from Robert Martin, and this time she accepts him happily."
+    },
+    {
+      "n": 45,
+      "scene": "Emma hugs Harriet in a sunlit room while Mr Knightley smiles from the doorway",
+      "summary": "Emma is delighted by Harriet's choice and sees how foolish she was to have prevented it before."
+    },
+    {
+      "n": 46,
+      "scene": "Mr Woodhouse sits worried in his armchair as Emma and Mr Knightley talk gently",
+      "summary": "Mr Woodhouse dislikes the idea of any marriage, but when thieves rob a neighbour's hen house he welcomes having Mr Knightley in the house."
+    },
+    {
+      "n": 47,
+      "scene": "Jane and Frank walk together in the garden of Randalls, smiling at each other",
+      "summary": "Emma forgives Frank, wishes Jane well, and sees that the lovers can finally be happy."
+    },
+    {
+      "n": 48,
+      "scene": "Mrs Elton looks out of a window at a small wedding party",
+      "summary": "Mrs Elton complains that Emma's wedding is too quiet and simple for such a match."
+    },
+    {
+      "n": 49,
+      "scene": "Emma and Mr Knightley stand before the vicar in a bright church",
+      "summary": "Emma and Mr Knightley marry in a simple and happy ceremony, with their closest friends beside them."
+    },
+    {
+      "n": 50,
+      "scene": "Emma and Mr Knightley walk arm in arm through the gardens of Hartfield",
+      "summary": "Emma and Mr Knightley begin their happy life at Hartfield, and Harriet marries Robert Martin soon after."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Emma Woodhouse was young, rich and pretty, and she lived with her father.",
+      "Emma's teacher married Mr Weston, and Emma felt very proud.",
+      "Mr Knightley said that Emma should not play with other people's hearts.",
+      "Emma met Harriet Smith, a shy and pretty girl from the school.",
+      "Emma decided that Harriet should marry Mr Elton, the young vicar.",
+      "Harriet often talked about a young farmer named Robert Martin.",
+      "Robert Martin asked Harriet to marry him, and she said no.",
+      "Mr Knightley was angry because Emma had changed Harriet's mind.",
+      "Emma drew Harriet's picture, and Mr Elton liked it very much.",
+      "Mr Elton wrote a riddle, and Emma thought it was for Harriet.",
+      "At Christmas, Emma's sister came from London with her family.",
+      "In the carriage, Mr Elton told Emma that he loved her.",
+      "Emma told Harriet the sad truth, and Harriet cried for a long time.",
+      "Mr Elton was angry, so he went away to Bath.",
+      "Everyone expected a visit from Frank Churchill, Mr Weston's son.",
+      "Jane Fairfax, a quiet and clever girl, came to visit her aunt.",
+      "At last Frank Churchill arrived, and he was cheerful and charming.",
+      "Emma thought about Frank, but she decided she did not love him.",
+      "A beautiful piano arrived for Jane, but nobody knew who sent it.",
+      "Emma guessed that the piano came from a friend named Mr Dixon.",
+      "Mr Elton came back with a new wife, Augusta Hawkins.",
+      "Mrs Elton talked about herself and her rich family all day.",
+      "The friends planned a ball at the Crown Inn, and everyone was excited.",
+      "At the ball, Mr Elton would not dance with poor Harriet.",
+      "Mr Knightley asked Harriet to dance, and she felt very happy.",
+      "The next day some gypsies frightened Harriet, but Frank helped her.",
+      "Emma thought that Harriet and Frank might fall in love.",
+      "Frank played a letter game, and Jane looked angry and upset.",
+      "The neighbours picked strawberries at Mr Knightley's beautiful old house.",
+      "The whole party went on a picnic to the beautiful Box Hill.",
+      "Emma made a joke about Miss Bates, and it was cruel.",
+      "Mr Knightley said Emma had been cruel to poor Miss Bates.",
+      "In the carriage Emma cried, and she felt very ashamed.",
+      "The next day Emma visited Miss Bates and was very kind.",
+      "Jane planned to leave Highbury to work as a teacher.",
+      "News came that Frank's aunt, Mrs Churchill, had died.",
+      "Mrs Weston told Emma that Frank and Jane were engaged.",
+      "Harriet said she did not love Frank but another gentleman.",
+      "Harriet said that she loved Mr Knightley, and Emma was shocked.",
+      "Mr Knightley came to comfort Emma, but she did not need it.",
+      "Mr Knightley said that he wanted to tell Emma something important.",
+      "Mr Knightley said that he loved Emma, and she said yes.",
+      "Emma said she could not leave her father alone at Hartfield.",
+      "Robert Martin asked Harriet to marry him again, and she said yes.",
+      "Emma was glad, and she knew she had been wrong before.",
+      "Mr Woodhouse did not like the idea of any change at all.",
+      "Emma was kind to Frank, and she wished Jane every happiness.",
+      "Mrs Elton thought the wedding would be too small and plain.",
+      "Emma and Mr Knightley were married in the church, with their friends.",
+      "Emma and Mr Knightley were very happy together at Hartfield."
+    ],
+    "B1B2": [
+      "Emma Woodhouse was handsome, clever and rich, and she had lived happily at Hartfield for almost twenty-one years. Her gentle father, Mr Woodhouse, worried about draughts and illness, so Emma had learned to manage the house and him.",
+      "Emma's old teacher and dear friend, Miss Taylor, had just married Mr Weston, a kind neighbour. Emma was sad to lose her daily company, but she felt proud because she had first suggested the match.",
+      "Mr Knightley, who was Emma's neighbour and the oldest family friend, told her that the marriage had been simple luck. He warned her that matchmaking could do real harm, but she only laughed.",
+      "Emma soon took a young girl named Harriet Smith under her wing, a pretty seventeen-year-old from the nearby school. Harriet admired Emma deeply, and Emma, who loved to be admired, decided to improve her new friend.",
+      "Emma noticed that Mr Elton, the handsome young vicar of Highbury, was often at Hartfield. She decided that he was the perfect husband for Harriet, and she began to arrange small meetings between them.",
+      "Harriet often spoke warmly about Robert Martin, a young farmer who had been kind to her. Emma, however, thought that a farmer was far too low for her friend, and she began to speak against him.",
+      "Soon Robert Martin wrote to Harriet and asked her to marry him, and she did not know what to say. Emma told her that she should refuse him, and Harriet, who trusted Emma completely, wrote a polite no.",
+      "Mr Knightley was very angry when he heard about it, because he knew Robert Martin to be a good and honest man. He told Emma that she had done something wrong, and that Harriet's friends would be shocked.",
+      "Emma drew a portrait of Harriet, and Mr Elton watched the pencil as if it was magic. He praised the picture so warmly that Emma thought he must be in love with her friend.",
+      "Mr Elton wrote a clever riddle in Harriet's book, and the answer was the word court-ship. Emma was delighted, since she was sure that he was writing it for Harriet, though it did not feel quite right.",
+      "At Christmas, Emma's sister Isabella came from London with her husband, John Knightley, and their children. Hartfield was full of noise and warmth, and Mr Woodhouse worried that the children might catch cold.",
+      "After a party at Randalls, Emma found herself alone in a carriage with Mr Elton, who was behaving strangely. He seized her hand and said that he had loved her for a long time, and she was shocked.",
+      "Emma blamed herself for her mistake, and she told Harriet gently that Mr Elton had never loved her. Harriet cried for a long time, and Emma felt ashamed of having led her friend so badly astray.",
+      "Mr Elton was deeply offended by Emma's refusal, and he left Highbury soon afterward. He went to Bath, and he stayed away for several weeks, and nobody was sorry to see him go.",
+      "Everyone in Highbury had been waiting for a visit from Frank Churchill, Mr Weston's grown son. He lived with his rich aunt in the north, and each time he promised to come, something made him stay away.",
+      "Jane Fairfax, the clever niece of the kind but chattering Miss Bates, came to stay in Highbury. Emma thought her cold and secret, and she did not take the trouble to know her better.",
+      "At last Frank Churchill arrived in Highbury, and he was as charming and lively as everyone had hoped. He talked easily to everyone, paid Emma particular attention, and she found him very pleasant.",
+      "Emma asked herself whether she was truly in love with Frank, and she decided that she was not. She enjoyed his company and his jokes, but her heart was calm, and she was glad of it.",
+      "One morning, a beautiful piano arrived at Miss Bates's house, and it was for Jane Fairfax. Nobody knew who had sent it, and Jane blushed and looked very surprised.",
+      "Emma guessed that the piano had come from Mr Dixon, the husband of Jane's best friend, who had perhaps loved Jane secretly. Frank cheerfully agreed, and the two of them whispered about it with great pleasure.",
+      "At last Mr Elton came home from Bath with a new wife, Augusta Hawkins, a rich and talkative woman. She was proud of her fine clothes and her family, and she had decided that she would be the first lady of Highbury.",
+      "Mrs Elton boasted constantly about her sister's house at Maple Grove, where everything was better than at Hartfield. She called Mr Knightley by his surname alone, and she tried to take Emma's place as the leader of Highbury society.",
+      "Frank Churchill suggested a ball at the Crown Inn, and everybody in Highbury began to look forward to it. Emma was happy, because she loved to dance, and Frank had promised her the first dance.",
+      "At the ball, Harriet had no partner, and Mr Elton looked at her and turned away rudely. Mrs Elton laughed in a hard voice, and poor Harriet blushed, and everyone saw it.",
+      "Mr Knightley, who seldom danced, walked across the room and asked Harriet to be his partner. She smiled gratefully, and Emma saw that he had done a kind and noble thing.",
+      "The next day, Harriet was walking alone when some gypsy children surrounded her and begged. She was terribly frightened, but Frank Churchill came by and carried her safely away.",
+      "Emma began to hope that Harriet and Frank would fall in love after the rescue. When she asked Harriet about her feelings, the girl blushed and said that she admired someone far above her.",
+      "At Hartfield, the young people played a game with wooden letters, spelling out words for each other. Frank spelled the name Dixon for Jane, and she pushed the letters away angrily, while Mr Knightley watched them both.",
+      "The neighbours went to Donwell Abbey to pick strawberries, and Emma admired the old trees and the peaceful fields. Mrs Elton talked loudly about how much better she could do it, and Mr Knightley only laughed.",
+      "The next day the neighbours went to Box Hill for a picnic, a famous place with a fine view. Although the weather was perfect, the party was strangely dull, and nobody seemed to be enjoying themselves.",
+      "Frank asked the party to say one clever thing or two dull things, or three very dull things. Miss Bates said that she would not manage three, and Emma, who was showing off, replied that she might find it difficult to stop.",
+      "As they left, Mr Knightley told Emma that she had been unkind to Miss Bates, who was poor and alone and loved her. He said that she had been cruel to someone who could not defend herself, and he spoke with sadness, not with anger.",
+      "Emma rode home in tears, because she knew that Mr Knightley was right. She was more ashamed of herself than she had ever been, and she was most sorry that he now thought badly of her.",
+      "The next morning, Emma went to see Miss Bates and her old mother. Miss Bates welcomed her kindly, and Emma sat with them for a long time, trying to show that she was sorry.",
+      "Emma heard that Jane planned to take a job as a governess in the north. She sent some good food to the sick Jane, but Jane sent it back, and she would not see Emma at all.",
+      "Soon afterward, news came that Mrs Churchill, Frank's rich and strict aunt, had died. Everyone was sorry for the loss, and they wondered what Frank would do now that he was free.",
+      "Mrs Weston came with astonishing news that Frank and Jane Fairfax had been secretly engaged for many months. Frank had used Emma to hide it, and she now saw that the piano and his strange behaviour had all been part of the secret.",
+      "Emma worried that Harriet would be heartbroken, but Harriet said she had never loved Frank at all. She said it was the man who had danced with her at the ball and saved her from shame.",
+      "Harriet answered that it was Mr Knightley, and she said that he had shown her kindness. Emma felt a cold shock, and in that moment she understood that she loved him herself.",
+      "Mr Knightley came to Hartfield the next day, because he thought that Emma was sad about Frank. She told him that she had never loved Frank, and he seemed very glad to hear it.",
+      "Mr Knightley said that he wished to speak to her honestly, and Emma, afraid, tried to stop him. She thought that he was about to tell her that he loved Harriet, and she could not have borne it.",
+      "Mr Knightley said that he loved her, and that he had loved her for a long time. Emma, who had feared the opposite, felt a great wave of happiness, and told him that she loved him too.",
+      "Emma told Mr Knightley that she could not leave her father, who was old and nervous. He thought for a moment, and then he offered to come and live at Hartfield with them.",
+      "Harriet had gone to London with Isabella, and Robert Martin soon found her there and asked her again. This time she said yes, because she had learned to trust her own heart.",
+      "Emma was truly glad for Harriet, and she admitted to herself that she had been wrong about Robert Martin. Mr Knightley agreed gently, and said that Martin was a good man who deserved his good fortune.",
+      "Mr Woodhouse disliked the thought of any change, and he was slow to agree to the marriage. Then thieves robbed Mrs Weston's hen house, and he began to think that a strong man in the house would be a comfort.",
+      "Emma forgave Frank for deceiving her, because she saw that he had loved Jane truly. She sent Jane good wishes, and she was sorry that she had not been a better friend in the past.",
+      "Mrs Elton complained that Emma's wedding would be too small, and that there would not be enough fine clothes or music. Emma and Mr Knightley did not care, because they wanted a simple and peaceful day.",
+      "On a bright autumn morning, Emma and Mr Knightley were married in the little church at Highbury. Their closest friends stood beside them, and Mr Woodhouse, though nervous, was happy to see his daughter so content.",
+      "Emma and Mr Knightley lived happily at Hartfield with her father, and the old man was well looked after. Harriet married Robert Martin soon afterward, and Emma had learned that other people's hearts are best left alone."
+    ],
+    "C1C2": [
+      "Emma Woodhouse, handsome, clever and rich, had lived nearly twenty-one years in the world with very little to distress or vex her. She was the mistress of Hartfield, the favourite of her anxious father, and so accustomed to having her own way that she had never learned to doubt her own judgement. Her only real danger, as a friend might have said, was that she thought herself rather too wise.",
+      "The wedding of Miss Taylor, her governess and closest friend, to the amiable Mr Weston had left Emma feeling a little desolate in her large and quiet house. Yet she found consolation in the thought that she herself had made the match, having remarked from the very start that the two would suit each other beautifully. This single success had given her a fine opinion of her own gifts for managing other people's affairs.",
+      "Mr Knightley, the sensible owner of Donwell Abbey and a friend of the family since Emma was a child, had no patience with her boasting. Her only part in the Westons' happy match had been a lucky guess, he told her, and he begged her to leave such delicate business alone. Emma only smiled, quite sure that she knew better, and resolved to find another victim at once.",
+      "Emma soon took under her wing a seventeen-year-old pupil of Mrs Goddard's school named Harriet Smith, who was pretty, sweet-tempered and wonderfully docile. Nobody knew who her parents were, but Emma, who loved to be admired, decided at once that the girl was meant for a better station than she then occupied. She would polish Harriet's mind, improve her manners, and find her a husband worthy of such a protegee.",
+      "Mr Elton, the handsome young vicar of Highbury, was a frequent visitor to Hartfield, and his politeness toward Emma's new friend convinced her that she had found the perfect match. He was agreeable, respectable and, as far as she could tell, as pleased with Harriet as Harriet was with him. She began at once to arrange small meetings between them, and congratulated herself on her cleverness.",
+      "Harriet talked constantly of Mr Martin, a young farmer of Abbey-Mill Farm who had been very good to her, and Emma noticed the girl's colour rise whenever he was mentioned. She could not allow such a thing, for she had already decided that Harriet was destined for the vicar, and she began to speak of the farmer in a tone of gentle contempt. Harriet, who trusted Emma in everything, soon began to see him through her friend's eyes.",
+      "Soon Mr Martin wrote a short, sincere letter asking for Harriet's hand, and the poor girl came running to Emma for advice. Emma declared that the writing was good but that the man was beneath her, and she gently pressed Harriet to refuse him. Harriet, who could not believe that her wise friend might be mistaken, wrote a polite refusal, and burst into tears as she sealed it.",
+      "Mr Knightley, who knew and respected Robert Martin, was angry when he heard what had happened, and for once he spoke to Emma with real severity. Harriet was a natural daughter of nobody in particular, he said, and no man of sense would have despised an offer from so good a farmer. Emma, who had never been scolded in her life, was too vexed to listen, but his words left a sting.",
+      "To fix her plan, Emma began a portrait of Harriet, and Mr Elton hovered at her shoulder, exclaiming at every stroke of the pencil with a warmth that astonished her. He begged to have the picture framed in London, and he praised Emma's talent with an eagerness that might have warned her, had she been less certain of her own cleverness. She took it all as evidence of his passion for Harriet, and was well pleased.",
+      "Mr Elton took the trouble of writing a charade in Harriet's little collection, and its answer, when they had puzzled it out, was courtship. Emma was triumphant, for she assumed that the poem was a bashful offer of love to her pupil, and she read it to Harriet with great ceremony. It never occurred to her that a man so fond of her pencil and her conversation might have been addressing her.",
+      "At Christmas, Emma's elder sister Isabella came down from London with her husband, Mr John Knightley, and a small crowd of noisy, affectionate children. Hartfield was filled with laughter and bustle, and Mr Woodhouse, who adored his daughter but trembled for her health, fussed over every cough and every draught. Emma was happy to have her family around her, although her thoughts kept returning to her own schemes.",
+      "On the snowy night of a dinner at Randalls, Mr Elton, who had drunk a good deal of the Westons' wine, found himself alone with Emma in a carriage. He seized her hand and declared that he had worshipped her for weeks, that all he had done was for her, and that Harriet was nothing to him. Emma, appalled to realise that she had misread everything, answered him coldly and sat in rigid silence all the way home.",
+      "Emma passed a wretched night, and the next day she had the painful task of telling Harriet that Mr Elton had never thought of her at all. Harriet wept bitterly and said little in reproach, which made Emma feel the weight of her own folly all the more keenly. She vowed that she would never again meddle in other people's hearts, though the resolution did not last as long as she meant it to.",
+      "Mr Elton, whose pride had been wounded by Emma's cool reception of his proposal, did not stay long to face her again. He went off to Bath for several weeks, and Highbury, which had been talking of nothing else, found it had little to say after he was gone. Emma, though relieved to be free of him, was ashamed of her own part in the affair and slow to forgive herself.",
+      "All Highbury had long waited for the arrival of Frank Churchill, the son of Mr Weston by an earlier marriage, who had been adopted by a rich aunt and uncle in Yorkshire. Each time he promised to come, some excuse arrived from his aunt, whose health and humours governed the whole family's plans. Mr Knightley said that a young man who truly wished to visit his father would simply do so, and Emma, who was curious, disagreed.",
+      "Jane Fairfax, the accomplished niece of the talkative Miss Bates, came to Highbury for a long visit, and everyone, to Emma's irritation, was loud in her praise. She was elegant, learned, and a gifted musician, but she was also so reserved that Emma thought her cold, and she grew rather irritated by hearing Jane's virtues praised so often. It did not occur to her that her own dislike might be a kind of envy.",
+      "At long last Frank Churchill arrived at Randalls, and he turned out to be as handsome, lively and amiable as the most hopeful friends could have wished. He talked easily with everyone, admired Hartfield, and paid Emma such flattering attention that the whole village began to say that they were made for each other. Emma, who had once resolved never to marry, found herself wondering whether she might be falling in love.",
+      "After some reflection, Emma decided that she was not truly in love with Frank Churchill, for her heart was too calm and her pleasures too easy to be real passion. She enjoyed his company, his jokes and his lively conversation, but she found that she could do very well without him. She resolved to treat him as a friend, and to be pleased for him if he should happen to fall in love with Harriet.",
+      "One morning a handsome piano was delivered to Miss Bates's modest rooms, a gift addressed to Jane Fairfax by someone who did not trouble to sign his name. Jane herself blushed and looked confused, and Miss Bates, who could not keep a secret for ten minutes, declared that she had not the least idea who the giver could be. The whole of Highbury began at once to guess, and the guessing was the principal amusement of the winter.",
+      "With perfect confidence, Emma concluded that the gift must have come from Mr Dixon, the husband of Jane's dearest friend, who had perhaps conceived a hopeless attachment to the beautiful guest of the family. Frank Churchill, with a look that Emma took for pure amusement, agreed warmly with every part of her theory and added several refinements of his own. It made a delightful romance for a winter evening, though it was quite mistaken from beginning to end, and neither of them guessed the real giver.",
+      "Mr Elton came home from Bath with a bride of his own choosing, Augusta Hawkins, a lady of some fortune who was extremely proud of it. She was talkative, pushing and wholly satisfied with herself, and she let everyone know within an hour of arriving that she had come from the best society in Bristol. Emma was relieved to see that her old suitor was so well consoled, though not pleased by his choice.",
+      "Mrs Elton spoke endlessly of her brother-in-law's great house, Maple Grove, which, it seemed, surpassed everything that Surrey could boast of. She addressed Mr Knightley by his plain surname, took Jane Fairfax under her wing with an air of patronage, and treated Emma as a young lady of fair promise who might one day, with her guidance, become tolerable. Emma bore all this with gritted teeth and a fixed smile, while Mr Knightley, who understood the lady better than she supposed, bore it with amusement.",
+      "Frank Churchill proposed that a ball be held at the Crown Inn, a pleasant room that had long been used for such occasions, and the entire village was at once in a flutter. There was music to arrange, supper to order, and a great deal to say about each lady's dress, and Emma, who loved dancing, enjoyed the preparations as much as the evening itself. Frank, who was always the soul of every plan, promised her the first dance, and she looked forward to it with unusual impatience.",
+      "At the ball, Harriet found herself without a partner, and Mr Elton, standing nearby, refused with obvious unkindness to ask her to dance. His wife looked on with a cold smile, quite understanding that they were insulting the girl on purpose, and Harriet, who had done no one any harm, blushed painfully and tried not to cry. Emma, standing on the other side of the room, burned with indignation but could think of no way to help.",
+      "Then Mr Knightley, who seldom danced and was supposed to disapprove of balls, crossed the room and offered Harriet his hand, and the two took their place at the head of the set. It was a generous act, kindly judged, and the room understood it at once, for the snub was turned into a triumph. Emma watched with a surge of gratitude and a curious flutter that she could not explain.",
+      "On the following day Harriet, walking out with a friend, was surrounded on a country lane by a crowd of gypsy children who would not let her pass. She ran in terror until she met Frank Churchill, who happened to be passing, and who rescued her and carried her to Hartfield in a state of near collapse. The whole romance seemed so perfect that Emma wondered whether providence had arranged it.",
+      "Emma at once began to dream that this romantic rescue might lead to a love affair, and that Harriet, so lately disappointed, might be rewarded with a husband far above her station. Harriet, when gently questioned, blushed deeply and confessed that she had admired a gentleman who was greatly superior to her, and whom she would never dare to mention. Emma, who believed that she knew the name already, said nothing at all, and she was delighted with what she took to be her own good management.",
+      "One evening at Hartfield the young people amused themselves with a game of wooden letters, in which each player set out a word for another to read. Frank Churchill slyly placed the name of Dixon in front of Jane, who colored deeply and swept the letters away with an anger that seemed out of proportion to the joke. Mr Knightley, sitting quietly nearby with his eyes upon them both, noticed everything, and he began to wonder what secret lay beneath the little scene.",
+      "On a warm June day, the neighbours were invited to Donwell Abbey to pick strawberries, and Emma, walking under its ancient trees, felt for the first time how truly English and how honourable a place it was. Mrs Elton, meanwhile, complained of the heat and offered advice on the garden that nobody had asked for, while Mr Knightley bore it all with patient good manners. Frank Churchill arrived late, wearing an odd and restless look, and he left early the same day, so that his behaviour became another small puzzle.",
+      "A few days later a party set out for Box Hill, a famous place for views, with baskets of food and the highest hopes of a pleasant afternoon. The weather was perfect, the scenery was magnificent, and yet the party was oddly flat, with the guests dividing into small silent groups. Frank Churchill, who was in unusually high spirits, appeared determined to be amusing at any cost, and Emma, half-flattered, encouraged him.",
+      "Frank Churchill proposed a game in which each guest must say either one very clever thing or two moderately clever things, or three very dull ones. Miss Bates, who had been laughing happily, remarked that she was sure she would manage the last easily, and Emma, meaning only to be witty, said that the difficulty would be the number being limited. Miss Bates, who had never learned to be suspicious, understood her at once, and the colour faded from her kind and cheerful face.",
+      "As the party broke up, Mr Knightley drew Emma aside and said, in a low and serious voice, that he had never seen her behave so cruelly. Miss Bates was poor, had been a friend of her family from childhood, and could not answer such an insult without shame, and for Emma to mock her in front of others was unworthy of a lady. He spoke with more sorrow than anger, and that was what made it unbearable.",
+      "Emma got into the carriage and wept silently for the whole of the drive, with shame, vexation, and a sorrow deeper than she had ever known. She had been warned a thousand times of her faults, but it was only now, when the warning came from the one man whose good opinion she valued, that she truly felt them. She resolved, before she slept, that she would make amends at the first hour of the morning.",
+      "Early next morning, Emma went to the small house where Miss Bates and her old mother lived, and sat with them for a good while with a new humility. Miss Bates, who showed no sign of anger, welcomed her with the generous warmth that had always been her nature, and spoke only of Jane, who was unwell. Mr Knightley, hearing of the visit, thought better of her than he had done for a long time.",
+      "Emma learned with concern that Jane Fairfax had accepted a position as a governess and would soon leave Highbury, and that she was ill and strangely unhappy. She sent a gift of arrowroot to the invalid, and the gift was sent politely back, for Jane had decided to accept nothing from Emma or from anyone. Emma began to see, with an uneasy conscience, that she had never taken the trouble to know the girl whom she had been so ready to judge.",
+      "Before long, a letter from Yorkshire announced that Mrs Churchill had died suddenly, and the whole of Highbury discussed the matter with a certain sombre decorum. It was observed, with a gravity that did not quite conceal curiosity, that the old lady's death had set her nephew free to do as he pleased. Emma, who had no clue yet to what lay beneath the surface, supposed only that it was a pity for his feelings.",
+      "Mrs Weston came to Hartfield with a very serious face and told Emma that her stepson had been secretly engaged to Jane Fairfax since before he ever reached Highbury. The secret had been kept from Mrs Churchill, who would never have approved, and it explained the piano, the sudden departures, and a great deal of Frank's odd behaviour. Emma, who had been entirely deceived, felt for a moment more indignant than hurt.",
+      "Emma, fearing that Harriet's heart would be broken by the news, was astonished to find her perfectly calm, and even a little amused by the supposition. It was not Mr Churchill whom she admired, she said, but the gentleman who had saved her from her humiliation at the ball by dancing with her, in front of everybody, when no one else would. Emma, whose heart had begun to beat rather hard, asked in a voice that she tried to keep steady who that gentleman might be.",
+      "Harriet, with a blush, named Mr Knightley, and Emma felt the ground shift beneath her as the full truth struck her. She had been in love with him for years, she now perceived, though she had never allowed herself to call the feeling by its name, and the thought of losing him to another woman was intolerable. It was a bitter lesson, and worst of all, it was she who had taught Harriet to aim so high.",
+      "Mr Knightley returned from London in the following days, having heard of the engagement and fearing that Emma would be heartbroken by Frank's treachery. She assured him, with a smile that surprised them both, that she had never cared for Frank, and that her pride was hurt more than her heart. He listened with an eager and searching attention, as if the answer mattered a great deal to him, and that seemed to her very strange.",
+      "They walked together up and down the shrubbery, and Mr Knightley said, with an air of great earnestness, that he did not wish to be merely a friend to her any longer. Emma, who feared he was about to confess an attachment to Harriet, begged him to say nothing, but he insisted that he must be heard. She braced herself for the worst, and she held her breath, and she walked beside him with her eyes fixed firmly upon the ground.",
+      "Mr Knightley then told her, with a candour that cost him nothing, that he loved her dearly, and that he had done so for a very long time. Emma, who had been prepared for nearly anything except this, felt the whole world brighten, and answered him in terms that left him in no doubt of her feelings. For several minutes neither of them could think of anything else to say, and neither of them, in truth, wished to say anything else at all.",
+      "Soon, however, Emma remembered the difficulty that stood in the way of her happiness, which was that she could not bear to leave her father alone. Mr Woodhouse depended upon her for his comfort and would be wretched if she went to Donwell Abbey, and she told her lover so with tears in her eyes. Mr Knightley, who had foreseen the problem, suggested that he should come to live at Hartfield himself.",
+      "Harriet, meanwhile, had gone to London to visit Isabella, and there Robert Martin, who had never ceased to love her, presented himself again and renewed his offer. She now saw him clearly, having had time to recover from her silly fancy for Mr Knightley, and she accepted him joyfully, to the surprise of nobody but herself. Emma was delighted, for she saw that the girl had been wiser than her teacher.",
+      "Emma was truly glad of her friend's engagement, and she confessed to herself that in her pride she had once separated two people who were meant for each other. Mr Knightley, to whom she told the whole story, listened with a smile and agreed that Mr Martin was a man worth having. They agreed that, whatever else she might have done, Emma had at least learned from her errors.",
+      "Mr Woodhouse, who disliked all change and thought that nobody ought to marry, was slow to be reconciled to the plan. But when thieves robbed Mrs Weston's hen house and several other yards nearby, he began to see the advantages of having a strong man at hand to defend the household. With so alarming a danger on his own doorstep, his consent came more quickly than anyone had hoped.",
+      "Emma found it easy, in her own contentment, to forgive Frank Churchill for his deception, and she wrote Jane a warm letter of congratulation. She regretted that she had not been a better friend to Jane during her lonely months in Highbury, and she now saw that the girl's reserve had been the result of a painful secret. The two young women were reconciled, and Jane, in her new freedom, lost much of her coldness.",
+      "Mrs Elton, who had hoped for a splendid ceremony to which she might lend her advice, was distressed to learn that the Knightley wedding would be small and almost private. She declared that the whole thing was very shabby, that her sister Selina would stare to hear of it, and that she was deeply disappointed. Emma and her lover, who wanted only a peaceful day, listened and agreed to nothing.",
+      "On a bright autumn morning Emma and Mr Knightley were married in the little church of Highbury, with no one present but those whom they loved best. Mr Woodhouse, nervous but pleased, gave his daughter away, and Mr Weston and Mrs Weston stood proudly by, while Harriet beamed from the front pew. It was, all agreed, a perfect wedding, and the only things missing were the music, the crowds and Mrs Elton's good opinion.",
+      "Emma and Mr Knightley settled at Hartfield, and in their company Mr Woodhouse lived comfortably for several more years. Harriet married Robert Martin soon afterward, and the friends met often, and Emma now left the matchmaking to other people. She had found, to her real surprise, that the happiest match of all had been waiting for her in a neighbour's house."
+    ]
+  }
+}

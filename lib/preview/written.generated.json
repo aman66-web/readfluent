@@ -1,1 +1,1822 @@
-[]
+[
+ {
+  "slug": "persuasion",
+  "title": "Persuasion",
+  "author": "Jane Austen",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "Anne Elliot once let herself be persuaded to give up the man she loved. Eight years later, Captain Wentworth returns, rich, proud and still hurt. Jane Austen's gentlest love story asks whether a second chance can ever be as sweet as the first.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "Persuasion"
+   ],
+   "size": 17,
+   "author": "JANE AUSTEN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "ship",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "envelope",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "emma",
+  "title": "Emma",
+  "author": "Jane Austen",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "Emma Woodhouse is clever, rich and sure that she knows everyone's heart better than they do. Her matchmaking in the little town of Highbury causes tears, quarrels and some very red faces. Only one honest friend can show her what she has been missing.",
+  "cover": {
+   "bg": "#E3F8FC",
+   "light": true,
+   "title": [
+    "Emma"
+   ],
+   "size": 19,
+   "author": "JANE AUSTEN",
+   "pieces": [
+    {
+     "id": "house",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "heart",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "sense-and-sensibility",
+  "title": "Sense and Sensibility",
+  "author": "Jane Austen",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "When their father dies, Elinor and Marianne Dashwood lose their home and most of their money. One sister hides her feelings, and the other shows every one. Two broken hearts, one cruel secret and a very long, wet walk will teach them what sense and sensibility are worth.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Sense and",
+    "Sensibility"
+   ],
+   "size": 15.5,
+   "author": "JANE AUSTEN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "feather",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "heart",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "jane-eyre",
+  "title": "Jane Eyre",
+  "author": "Charlotte Brontë",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "A poor orphan with a fierce heart grows up to be a governess at Thornfield Hall. There she meets its secretive master, Mr Rochester, and learns that love and honesty can pull a person in opposite directions. Will Jane find a home she can keep?",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Jane Eyre"
+   ],
+   "size": 18.5,
+   "author": "CHARLOTTE BRONTË",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "house",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "candle",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "north-and-south",
+  "title": "North and South",
+  "author": "Elizabeth Gaskell",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "Margaret Hale leaves the green villages of southern England for the smoky mill town of Milton, where she clashes with proud mill owner John Thornton. Strikes, secrets and sorrow force both to question what they believe. Can north and south ever understand each other?",
+  "cover": {
+   "bg": "#1C1C1F",
+   "title": [
+    "North and",
+    "South"
+   ],
+   "size": 18.5,
+   "author": "ELIZABETH GASKELL",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "train",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "needle",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "anne-of-green-gables",
+  "title": "Anne of Green Gables",
+  "author": "L. M. Montgomery",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "Matthew and Marilla Cuthbert ask for a boy to help on their farm, and a talkative, red-haired girl arrives instead. Anne Shirley fills Green Gables with imagination, mistakes and love. Will the lonely orphan finally find a home, a best friend and a place to belong?",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Anne of Green",
+    "Gables"
+   ],
+   "size": 13,
+   "author": "L. M. MONTGOMERY",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "apple",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "feather",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "far-from-the-madding-crowd",
+  "title": "Far from the Madding Crowd",
+  "author": "Thomas Hardy",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "A proud, clever young woman inherits a farm and refuses to be ruled by any man. Three very different men love her: a loyal shepherd, a lonely landowner and a dashing soldier. Who will she choose, and what will it cost her?",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Far from the",
+    "Madding Crowd"
+   ],
+   "size": 13,
+   "author": "THOMAS HARDY",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "sun",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "leaf",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-age-of-innocence",
+  "title": "The Age of Innocence",
+  "author": "Edith Wharton",
+  "kind": "classic",
+  "category": "romance",
+  "blurb": "In the glittering, rule-bound New York of the 1870s, a young lawyer is about to marry the perfect bride when her mysterious cousin walks into the opera. Newland Archer must choose between duty and desire, and between two women who see him very differently.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Age of",
+    "Innocence"
+   ],
+   "size": 17,
+   "author": "EDITH WHARTON",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mask",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "candle",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "a-study-in-scarlet",
+  "title": "A Study in Scarlet",
+  "author": "Arthur Conan Doyle",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A dead man in an empty house, and one word written in blood on the wall. Dr Watson meets Sherlock Holmes and watches him read the clues that no one else can see. But the real story starts far away, years earlier, in a desert.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "A Study in",
+    "Scarlet"
+   ],
+   "size": 17,
+   "author": "ARTHUR CONAN DOYLE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "candle",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-sign-of-the-four",
+  "title": "The Sign of the Four",
+  "author": "Arthur Conan Doyle",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A lady with a mystery: her father vanished years ago, and now a pearl arrives in the post every year. Sherlock Holmes and Dr Watson follow a trail of footprints, a clever little dog and a boat on the Thames to a treasure that men have killed for.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Sign of",
+    "the Four"
+   ],
+   "size": 15.5,
+   "author": "ARTHUR CONAN DOYLE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "ship",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "key",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-moonstone",
+  "title": "The Moonstone",
+  "author": "Wilkie Collins",
+  "kind": "classic",
+  "category": "crime",
+  "blurb": "A sacred yellow diamond is a birthday gift, and by morning it has vanished from a locked cabinet. As a famous detective, a faithful steward and three silent watchers hunt for it, the truth proves stranger, and closer to home, than anyone guessed.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Moonstone"
+   ],
+   "size": 13,
+   "author": "WILKIE COLLINS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "stars",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-wonderful-wizard-of-oz",
+  "title": "The Wonderful Wizard of Oz",
+  "author": "L. Frank Baum",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "A storm sweeps a Kansas girl and her little dog into a strange, bright land. To get home, Dorothy must follow a yellow road to the Emerald City, with three odd friends who each long for something they already have.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Wonderful",
+    "Wizard of Oz"
+   ],
+   "size": 13,
+   "author": "L. FRANK BAUM",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "key",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "castle",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-time-machine",
+  "title": "The Time Machine",
+  "author": "H. G. Wells",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "An inventor builds a machine that can travel through time, then returns pale, bruised and silent. His story takes us to the year 802,701, where gentle people play in the sun and something terrible waits underground. What happened to the world we know?",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Time",
+    "Machine"
+   ],
+   "size": 19,
+   "author": "H. G. WELLS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "stars",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-war-of-the-worlds",
+  "title": "The War of the Worlds",
+  "author": "H. G. Wells",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "One quiet summer night, a shooting star falls on a common outside London. Soon giant machines are marching across England, burning everything in their path. A writer survives the invasion from Mars, and learns what really saved the Earth.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The War of",
+    "the Worlds"
+   ],
+   "size": 17,
+   "author": "H. G. WELLS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "rocket",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "telescope",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "frankenstein",
+  "title": "Frankenstein",
+  "author": "Mary Shelley",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "A young scientist discovers the secret of life and builds a living being, then runs from it in horror. Abandoned and alone, the Creature comes looking for the one who made him. Mary Shelley's great story asks who the real monster is.",
+  "cover": {
+   "bg": "#1C1C1F",
+   "title": [
+    "Frankenstein"
+   ],
+   "size": 14,
+   "author": "MARY SHELLEY",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "flame",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "bolt",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "dracula",
+  "title": "Dracula",
+  "author": "Bram Stoker",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "A young lawyer travels to a lonely castle in the mountains to meet a polite and very strange Count. Soon the Count follows him to England, and a small band of friends must stop an ancient evil before it takes everyone they love.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Dracula"
+   ],
+   "size": 19,
+   "author": "BRAM STOKER",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "castle",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "moon",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "twenty-thousand-leagues-under-the-sea",
+  "title": "Twenty Thousand Leagues Under the Sea",
+  "author": "Jules Verne",
+  "kind": "classic",
+  "category": "fantasy-scifi",
+  "blurb": "In 1866 a mysterious sea monster is sinking ships, and a French professor sails out to hunt it. What he finds is far stranger: Captain Nemo and his wonderful underwater ship. Now the professor is a guest who may never go home.",
+  "cover": {
+   "bg": "#0B3B4A",
+   "title": [
+    "Twenty",
+    "Thousand",
+    "Leagues Under",
+    "the Sea"
+   ],
+   "size": 11.5,
+   "author": "JULES VERNE",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "ship",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "whale",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "one-small-step-a-day",
+  "title": "One Small Step a Day",
+  "author": "Atomic Habits",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Big plans fade, but tiny steps stay. Follow Priya as she swaps heroic resolutions for actions so small they feel almost silly, and see how a few quiet minutes a day can change your reading, your health and your life.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "One Small",
+    "Step a Day"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "sun",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "focus-without-the-noise",
+  "title": "Focus Without the Noise",
+  "author": "Deep Work",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Your phone buzzes, your inbox grows, and your mind will not settle. Follow Noor, a busy translator, as she learns to protect her attention, one calm block of time at a time, and finally finishes the work that matters most.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Focus Without",
+    "the Noise"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lens",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "moon",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "do-less-do-it-well",
+  "title": "Do Less, Do It Well",
+  "author": "Essentialism",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Lena says yes to everything, and she is worn out. With help from Rosa, who runs a tiny restaurant with a short menu, she learns to choose what matters, say no kindly, and do fewer things with real care.",
+  "cover": {
+   "bg": "#F3EDE3",
+   "light": true,
+   "title": [
+    "Do Less, Do",
+    "It Well"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "leaf",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "hard-task-first",
+  "title": "Hard Task First",
+  "author": "Eat That Frog",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Every day holds one job you keep dodging, and it is usually the one that matters most. Follow Noor, Lucia and Jonas as they learn to do the hardest task first, in small, kind and practical steps.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Hard Task",
+    "First"
+   ],
+   "size": 18.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mountain",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "sun",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "a-clear-head-a-clear-day",
+  "title": "A Clear Head, A Clear Day",
+  "author": "Getting Things Done",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "Your mind is brilliant at thinking and hopeless at storing. Follow Amara and Dev as they empty their heads onto paper, sort what they find and learn to trust a simple system, so that every day starts clear.",
+  "cover": {
+   "bg": "#DDF3E4",
+   "light": true,
+   "title": [
+    "A Clear Head,",
+    "A Clear Day"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "lamp",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "scroll",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "your-first-hour",
+  "title": "Your First Hour",
+  "author": "The Miracle Morning",
+  "kind": "inspired",
+  "category": "self-help",
+  "blurb": "How you spend your first hour can set the tone of the whole day. Follow Mei, Kofi and Elena as they build a short, kind and realistic morning routine, without hype, from the night before to a calm first step.",
+  "cover": {
+   "bg": "#0B3B4A",
+   "title": [
+    "Your First",
+    "Hour"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "sun",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "cup",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-science-of-getting-rich",
+  "title": "The Science of Getting Rich",
+  "author": "Wallace D. Wattles",
+  "kind": "classic",
+  "category": "business-money",
+  "blurb": "In 1910 Wallace Wattles promised a method for getting rich: think clearly, act today and give more than you take. Read his famous ideas page by page, with honest notes on what is belief, what is advice and what is worth keeping.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "The Science",
+    "of Getting",
+    "Rich"
+   ],
+   "size": 15.5,
+   "author": "WALLACE D. WATTLES",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "brain",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "coin",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "acres-of-diamonds",
+  "title": "Acres of Diamonds",
+  "author": "Russell H. Conwell",
+  "kind": "classic",
+  "category": "business-money",
+  "blurb": "A farmer sells his land to hunt for diamonds far away, while a fortune lies under his own garden. Russell Conwell's famous talk asks where your opportunities are hiding. Read the tale, the advice and honest notes on what still holds true today.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Acres of",
+    "Diamonds"
+   ],
+   "size": 19,
+   "author": "RUSSELL H. CONWELL",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "key",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "stars",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-way-to-wealth",
+  "title": "The Way to Wealth",
+  "author": "Benjamin Franklin",
+  "kind": "classic",
+  "category": "business-money",
+  "blurb": "At a crowded sale, old Father Abraham answers a worried crowd with the sayings of Poor Richard: work hard, spend wisely and never run into debt. Benjamin Franklin's famous speech is funny, sharp and surprisingly modern.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "The Way to",
+    "Wealth"
+   ],
+   "size": 17,
+   "author": "BENJAMIN FRANKLIN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "coin",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "scroll",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-art-of-war",
+  "title": "The Art of War",
+  "author": "Sun Tzu",
+  "kind": "classic",
+  "category": "business-money",
+  "blurb": "An ancient Chinese book of strategy, retold in fifty short steps. Sun Tzu argues that the best victory is the one won without a fight, through planning, patience, timing and knowing yourself and your rival. Its ideas still work today.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Art of",
+    "War"
+   ],
+   "size": 17,
+   "author": "SUN TZU",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "sword",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-prince",
+  "title": "The Prince",
+  "author": "Niccolò Machiavelli",
+  "kind": "classic",
+  "category": "business-money",
+  "blurb": "A short, famous and shocking handbook of power, written in 1513 by an unemployed Florentine official. Machiavelli asks how rulers win a state, keep it and lose it. Read it in fifty steps and decide for yourself whether it is honest advice, a warning, or both.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "The Prince"
+   ],
+   "size": 17,
+   "author": "NICCOLÒ MACHIAVELLI",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "crown",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "pawn",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "your-money-your-rules",
+  "title": "Your Money, Your Rules",
+  "author": "Rich Dad Poor Dad and The Psychology of Money",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Priya has just received her first full pay, and her neighbour has a year of simple ideas to share. Learn to plan, save, borrow wisely and invest with patience, then write rules that fit your own life.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Your Money,",
+    "Your Rules"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "coin",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "key",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-dhammapada",
+  "title": "The Dhammapada",
+  "author": "Buddhist scripture (traditional)",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "Four hundred and twenty-three short verses, said to carry the voice of the Buddha, on the mind, anger, happiness and freedom. Walk through the best-loved of them, chapter by chapter, and see why they have been read for more than two thousand years.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The",
+    "Dhammapada"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lotus",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "candle",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "tao-te-ching",
+  "title": "Tao Te Ching",
+  "author": "Laozi",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "Eighty-one tiny chapters, written in ancient China and said to come from a sage named Laozi. They speak of water, silence, softness and simple living. Read the best-loved of them, and see why this small book has been translated into hundreds of languages.",
+  "cover": {
+   "bg": "#D4F4FA",
+   "light": true,
+   "title": [
+    "Tao Te Ching"
+   ],
+   "size": 14,
+   "author": "LAOZI",
+   "pieces": [
+    {
+     "id": "waves",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "mountain",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-sermon-on-the-mount",
+  "title": "The Sermon on the Mount",
+  "author": "Gospel of Matthew",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "On a hillside above the Sea of Galilee, Jesus sits down and teaches the crowds. Follow the Sermon on the Mount from the Beatitudes to the wise builder, and hear some of the most famous words ever spoken about kindness, honesty and trust.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Sermon on",
+    "the Mount"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "mountain",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "dove",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-book-of-proverbs",
+  "title": "The Book of Proverbs",
+  "author": "Hebrew Bible",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "Short, sharp sayings about money, friends, words, work and the good life, gathered in ancient Israel and still quoted today. Walk through the Book of Proverbs, from a father's advice to a son to the poem of the capable woman.",
+  "cover": {
+   "bg": "#F3EDE3",
+   "light": true,
+   "title": [
+    "The Book of",
+    "Proverbs"
+   ],
+   "size": 15.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "lamp",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "meditations",
+  "title": "Meditations",
+  "author": "Marcus Aurelius",
+  "kind": "classic",
+  "category": "religion-spirituality",
+  "blurb": "A Roman emperor writes in his army tent at night, not for the world but for himself. Meditations gathers the private reminders of Marcus Aurelius on anger, duty, time, death and kindness, ideas that readers have kept close for nearly two thousand years.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Meditations"
+   ],
+   "size": 15.5,
+   "author": "MARCUS AURELIUS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "feather",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "walking",
+  "title": "Walking",
+  "author": "Henry David Thoreau",
+  "kind": "classic",
+  "category": "health",
+  "blurb": "Why does a person need to wander outdoors with no goal at all? Thoreau's famous essay answers with swamps, sunsets and a daily saunter of four hours. Walk through his ideas and find a calmer, wilder way to spend an afternoon.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Walking"
+   ],
+   "size": 19,
+   "author": "HENRY DAVID THOREAU",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "footprints",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "sun",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "eat-more-plants",
+  "title": "Eat More Plants",
+  "author": "How Not to Die",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Lena is tired of ready meals, and her neighbour is a retired dietitian. Follow one year in their kitchens and gardens as they learn what plants do for the body, and how to enjoy a lot more of them, one simple meal at a time.",
+  "cover": {
+   "bg": "#DDF3E4",
+   "light": true,
+   "title": [
+    "Eat More",
+    "Plants"
+   ],
+   "size": 19,
+   "author": "",
+   "pieces": [
+    {
+     "id": "leaf",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "apple",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "hormones-and-hunger-explained",
+  "title": "Hormones and Hunger, Explained",
+  "author": "The Obesity Code",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Noor is a baker who is always hungry by four o'clock, and her neighbour Ines is a retired nurse. Together they follow the body's hunger signals, from the stomach to the brain, and learn what science knows and what it does not.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Hormones and",
+    "Hunger,",
+    "Explained"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "apple",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "lens",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "sleep-is-your-superpower",
+  "title": "Sleep Is Your Superpower",
+  "author": "Why We Sleep",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Lena has an exam in two weeks and has been studying until three every morning. Her aunt Rosa, who works in a sleep clinic, shows her what really happens in the brain at night, and why sleep may be the best study tool she has.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Sleep Is Your",
+    "Superpower"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "stars",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "breathe-better-feel-better",
+  "title": "Breathe Better, Feel Better",
+  "author": "Breath",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Iris sings in a choir, and her breath races before every concert. Her friend Dev, a lung physiotherapist, takes her on a tour of the nose, the lungs and the diaphragm, and shows what slow, steady breathing can and cannot do.",
+  "cover": {
+   "bg": "#14407A",
+   "title": [
+    "Breathe",
+    "Better, Feel",
+    "Better"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "waves",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "lotus",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-histories",
+  "title": "The Histories",
+  "author": "Herodotus",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "Kings who trust the wrong oracle, a baby saved from a murderous order, a bridge of boats and three hundred Spartans in a narrow pass. Herodotus, the first historian, tells how the Greeks and the Persians came to war, and who won.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Histories"
+   ],
+   "size": 13,
+   "author": "HERODOTUS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "ship",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-gallic-war",
+  "title": "The Gallic War",
+  "author": "Julius Caesar",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "A general writes his own war report. Julius Caesar tells how he led Roman legions across Gaul, bridged the Rhine, sailed to Britain and faced the brilliant Vercingetorix at Alesia. Eight years of battle, as the winner chose to tell it.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "The Gallic",
+    "War"
+   ],
+   "size": 17,
+   "author": "JULIUS CAESAR",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "sword",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "shield",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "plutarch-s-lives",
+  "title": "Plutarch's Lives",
+  "author": "Plutarch",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "A boy who lifts a rock, a general who cuts a knot, a queen who sails in on a golden barge. Plutarch, the great biographer, tells the lives of famous Greeks and Romans, and shows how small moments reveal a person's character.",
+  "cover": {
+   "bg": "#3B1D4A",
+   "title": [
+    "Plutarch's",
+    "Lives"
+   ],
+   "size": 17,
+   "author": "PLUTARCH",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "crown",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "scroll",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-travels-of-marco-polo",
+  "title": "The Travels of Marco Polo",
+  "author": "Marco Polo",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "A teenage merchant from Venice rides with his father and uncle across deserts, mountains and seas to the court of Kublai Khan. Marco Polo stayed for seventeen years, then came home with stories so wonderful that many people refused to believe them.",
+  "cover": {
+   "bg": "#0E7490",
+   "title": [
+    "The Travels",
+    "of Marco Polo"
+   ],
+   "size": 13,
+   "author": "MARCO POLO",
+   "pieces": [
+    {
+     "id": "glowPale",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "ship",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "narrative-of-the-life-of-frederick-douglass",
+  "title": "Narrative of the Life of Frederick Douglass",
+  "author": "Frederick Douglass",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "Born into slavery in Maryland, Frederick Douglass was never told his birthday and was forbidden to read. This is his own true story of how he taught himself, stood up to a cruel master and escaped to freedom, told in his own brave words.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Narrative of",
+    "the Life of",
+    "Frederick",
+    "Douglass"
+   ],
+   "size": 12.5,
+   "author": "FREDERICK DOUGLASS",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "scroll",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "feather",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "up-from-slavery",
+  "title": "Up From Slavery",
+  "author": "Booker T. Washington",
+  "kind": "classic",
+  "category": "history",
+  "blurb": "Born a slave in Virginia, Booker Washington walked and begged his way to school, swept a classroom to prove himself, and later built a famous college from nothing. Here is his own honest, hopeful story of work, learning and courage.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Up From",
+    "Slavery"
+   ],
+   "size": 19,
+   "author": "BOOKER T. WASHINGTON",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "house",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "stack",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "on-the-origin-of-species",
+  "title": "On the Origin of Species",
+  "author": "Charles Darwin",
+  "kind": "classic",
+  "category": "science",
+  "blurb": "In 1859 Charles Darwin published one long argument: living things change over time, and nature itself, not a breeder's hand, picks which ones survive. Follow his book chapter by chapter, from pigeons to fossils to a tangled bank.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "On the Origin",
+    "of Species"
+   ],
+   "size": 13,
+   "author": "CHARLES DARWIN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "leaf",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "dna",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-voyage-of-the-beagle",
+  "title": "The Voyage of the Beagle",
+  "author": "Charles Darwin",
+  "kind": "classic",
+  "category": "science",
+  "blurb": "In December 1831 a young Charles Darwin sailed from England on a small survey ship and did not come home for almost five years. Travel with him through jungle, ice, earthquake and volcanic islands, and watch a great idea begin.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "The Voyage of",
+    "the Beagle"
+   ],
+   "size": 13,
+   "author": "CHARLES DARWIN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "ship",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "turtle",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-chemical-history-of-a-candle",
+  "title": "The Chemical History of a Candle",
+  "author": "Michael Faraday",
+  "kind": "classic",
+  "category": "science",
+  "blurb": "In a lecture hall in London, Michael Faraday lit one ordinary candle and used it to explain fire, air, water and even breathing. Sit among his young audience and see how much a small flame can teach you.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "The Chemical",
+    "History of a",
+    "Candle"
+   ],
+   "size": 14,
+   "author": "MICHAEL FARADAY",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "candle",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "flame",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "relativity-the-special-and-general-theory",
+  "title": "Relativity: The Special and General Theory",
+  "author": "Albert Einstein",
+  "kind": "classic",
+  "category": "science",
+  "blurb": "What if two people could disagree about when something happened, and both be right? Einstein's own little book takes you from a train and a lightning bolt to bent starlight and a curved universe, one clear step at a time.",
+  "cover": {
+   "bg": "#0A1428",
+   "title": [
+    "Relativity:",
+    "The Special",
+    "and General",
+    "Theory"
+   ],
+   "size": 13.5,
+   "author": "ALBERT EINSTEIN",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "train",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "orbit",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ },
+ {
+  "slug": "experiments-on-plant-hybridisation",
+  "title": "Experiments on Plant Hybridisation",
+  "author": "Gregor Mendel",
+  "kind": "classic",
+  "category": "science",
+  "blurb": "In a monastery garden, a monk grew thousands of pea plants, counted every seed and found a hidden law of life. Follow Gregor Mendel's own paper, one clear experiment at a time, from the first cross to the birth of genetics.",
+  "cover": {
+   "bg": "#123D2F",
+   "title": [
+    "Experiments",
+    "on Plant",
+    "Hybridisation"
+   ],
+   "size": 13,
+   "author": "GREGOR MENDEL",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "leaf",
+     "x": 100,
+     "y": 80,
+     "s": 0.95
+    },
+    {
+     "id": "dna",
+     "x": 134,
+     "y": 104,
+     "s": 0.5
+    }
+   ]
+  }
+ }
+]

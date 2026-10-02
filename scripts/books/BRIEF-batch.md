@@ -42,3 +42,7 @@ Fix every `FAIL` and every `FLAG` by rewording the pages (never by arguing with 
 ## Report
 
 When finished, reply in a few lines: which slugs are clean, and any that are not and why. Do not touch other books, other files, git, or the app code.
+
+## Working files
+
+Other writers work at the same time. Never use the shared scratchpad or any folder another writer might use: keep all drafts and helper scripts in your own folder `/tmp/claude-0/work-<your-first-slug>/`. Only the final `en.json` and `cover.json` go in `lib/preview/books/<slug>/`.

@@ -63,7 +63,7 @@ export function Targets() {
   const all = done === total;
   void dayDate;
   return (
-    <section className="mt-3 rounded-[26px] border border-border bg-surface p-4" aria-label={t("targets.title")}>
+    <section data-tour="targets" className="mt-3 rounded-[26px] border border-border bg-surface p-4" aria-label={t("targets.title")}>
       <div className="flex items-center justify-between gap-3">
         <h2 className="text-[17px] font-bold tracking-[-0.01em]">{t("targets.title")}</h2>
         <span className="tabular inline-flex h-7 items-center rounded-full bg-accent-bright/20 px-3 text-[12px] font-bold text-accent">{t("targets.done", { done, total })}</span>
@@ -76,12 +76,14 @@ export function Targets() {
         </p>
       )}
 
-      <ul className="mt-3 flex flex-col gap-2.5">
+      <ul className="mt-3 grid grid-cols-2 gap-2.5">
         {targets.map((x) => <Row key={x.id} target={x} />)}
       </ul>
     </section>
   );
 }
+
+const RING = 2 * Math.PI * 27;
 
 function Row({ target: x }: { target: Target }) {
   const t = useT();
@@ -90,29 +92,27 @@ function Row({ target: x }: { target: Target }) {
     x.id === "xp" ? t("targets.xp", { n: x.goal }) :
     x.id === "words" ? t("targets.words", { n: x.goal }) :
     x.id === "flashcards" ? t("targets.flashcards") : t("targets.friend");
+  const share = x.goal > 0 ? Math.min(1, x.current / x.goal) : x.done ? 1 : 0;
   const body = (
     <>
-      <span className={`grid size-10 shrink-0 place-items-center rounded-full transition-colors ${x.done ? "btn-cyan" : "bg-accent-bright/20 text-accent"}`}>
-        {x.done ? <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M5 12.5l4.5 4.5L19 7.5" /></svg> : ICONS[x.id]}
+      {/* A ring that fills as the target is reached; the picture in the middle becomes a tick when it is. */}
+      <span className="relative grid size-[68px] place-items-center" dir="ltr" role={x.goal > 1 ? "progressbar" : undefined} aria-valuemin={0} aria-valuemax={x.goal} aria-valuenow={x.current} aria-label={label}>
+        <svg viewBox="0 0 64 64" className="absolute inset-0 size-full -rotate-90" aria-hidden>
+          <circle cx="32" cy="32" r="27" fill="none" stroke="var(--accent-bright)" strokeOpacity=".2" strokeWidth="6" />
+          <circle cx="32" cy="32" r="27" fill="none" stroke={x.done ? "var(--accent)" : "var(--accent-bright)"} strokeWidth="6" strokeLinecap="round" strokeDasharray={RING} strokeDashoffset={RING * (1 - (x.done ? 1 : share))} className="transition-[stroke-dashoffset] duration-700" />
+        </svg>
+        <span className={`grid size-9 place-items-center rounded-full ${x.done ? "bg-accent text-white" : "text-accent"}`}>
+          {x.done ? <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M5 12.5l4.5 4.5L19 7.5" /></svg> : ICONS[x.id]}
+        </span>
       </span>
-      <span className="min-w-0 flex-1">
-        <span className={`block text-[14px] font-semibold leading-tight ${x.done ? "text-muted line-through decoration-accent-bright/60" : ""}`}>{label}</span>
-        {x.goal > 1 && (
-          <span className="mt-1.5 flex items-center gap-2" dir="ltr">
-            <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-accent-bright/20" role="progressbar" aria-valuemin={0} aria-valuemax={x.goal} aria-valuenow={x.current} aria-label={label}>
-              <span className="block h-full rounded-full bg-accent-bright transition-[width] duration-500" style={{ width: `${Math.round((x.current / x.goal) * 100)}%` }} />
-            </span>
-            <span className="tabular w-[4.2em] shrink-0 text-end text-[11.5px] font-bold text-muted">{x.current} / {x.goal}</span>
-          </span>
-        )}
-      </span>
-      {x.href && !x.done && <svg viewBox="0 0 24 24" className="size-4 shrink-0 text-faint rtl:-scale-x-100" {...stroke} aria-hidden><path d="M9 5l7 7-7 7" /></svg>}
+      <span className={`mt-2 block text-[13px] font-semibold leading-tight ${x.done ? "text-muted" : ""}`}>{label}</span>
+      {x.goal > 1 && <span className="tabular mt-1 block text-[11.5px] font-bold text-accent" dir="ltr">{x.current} / {x.goal}</span>}
     </>
   );
-  const cls = "flex items-center gap-3 rounded-2xl bg-background/70 px-3 py-2.5";
+  const cls = "flex h-full flex-col items-center rounded-[22px] bg-background px-2.5 pb-3 pt-3 text-center shadow-[0_10px_22px_-18px_rgba(8,47,60,.55)]";
   return (
     <li>
-      {x.href && !x.done ? <Link href={x.href} className={`${cls} active:opacity-80`}>{body}</Link> : <div className={cls}>{body}</div>}
+      {x.href && !x.done ? <Link href={x.href} className={`${cls} active:scale-[0.98] transition-transform`}>{body}</Link> : <div className={cls}>{body}</div>}
     </li>
   );
 }

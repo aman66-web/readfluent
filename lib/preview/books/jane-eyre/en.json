@@ -1,0 +1,417 @@
+{
+  "slug": "jane-eyre",
+  "meta": {
+    "blurb": "A poor orphan with a fierce heart grows up to be a governess at Thornfield Hall. There she meets its secretive master, Mr Rochester, and learns that love and honesty can pull a person in opposite directions. Will Jane find a home she can keep?",
+    "bible": "Jane Eyre: an orphan, honest, plain-spoken and proud; the heroine, who tells her own story. Mrs Reed: Jane's unkind aunt at Gateshead Hall. John Reed: Mrs Reed's cruel son, Jane's cousin. Mr Lloyd: the kind apothecary who suggests school for Jane. Mr Brocklehurst: the cold, harsh owner of Lowood School. Helen Burns: Jane's gentle, patient friend at Lowood, who dies of illness. Miss Temple: the kind headmistress of Lowood. Mr Rochester: the master of Thornfield Hall, moody, restless and honest with Jane; his first name is Edward. Adèle: a little French girl, Rochester's ward, Jane's pupil. Mrs Fairfax: the kind old housekeeper at Thornfield. Grace Poole: the servant who looks after Rochester's secret. Bertha Mason: Rochester's first wife, mad, kept in a locked attic room. Mr Mason: Bertha's brother. Blanche Ingram: a beautiful, proud lady, a guest at Thornfield. St John Rivers: a serious young clergyman who rescues Jane; he wants to be a missionary. Diana Rivers and Mary Rivers: his kind sisters, later found to be Jane's cousins. John Eyre: Jane's uncle, who dies and leaves her 20,000 pounds. Gateshead Hall: Mrs Reed's house. Lowood School: a cold charity school where Jane spends eight years. Thornfield Hall: Rochester's house. Moor House: the Rivers family home. Morton: the village where Jane teaches. Ferndean: Rochester's old house in the woods, where he lives after the fire. England. India. Author: Charlotte Brontë, first published in 1847. Voice and tone: a strong, honest first love story told with feeling; the first part is about a hard childhood; there is a gentle, gothic mystery; deaths are stated plainly, with no gore; the ending is warm."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Young Jane sits alone behind a curtain with a book at Gateshead Hall",
+      "summary": "Jane, a ten-year-old orphan, lives unhappily with her aunt Mrs Reed and her cousins."
+    },
+    {
+      "n": 2,
+      "scene": "John Reed throws a heavy book at Jane, who strikes back",
+      "summary": "Her cousin John bullies her, and for the first time Jane fights back."
+    },
+    {
+      "n": 3,
+      "scene": "Jane is locked in a dark red bedroom, frightened by shadows",
+      "summary": "As a punishment, Mrs Reed locks Jane in the red-room, where she faints with fear."
+    },
+    {
+      "n": 4,
+      "scene": "Jane lies in bed while a kind doctor sits beside her",
+      "summary": "Jane falls ill, and the kind Mr Lloyd suggests that she go away to school."
+    },
+    {
+      "n": 5,
+      "scene": "Jane faces her aunt, who stands stiffly in the hall at Gateshead",
+      "summary": "Mr Brocklehurst is told Jane is a liar, and Jane tells her aunt she will never call her aunt again."
+    },
+    {
+      "n": 6,
+      "scene": "Jane arrives at the cold stone school with a small trunk",
+      "summary": "Jane begins life at Lowood School, where it is cold and the food is poor."
+    },
+    {
+      "n": 7,
+      "scene": "Two girls talk beside a stove in a plain schoolroom",
+      "summary": "Jane befriends Helen Burns, a patient girl who teaches her not to hate."
+    },
+    {
+      "n": 8,
+      "scene": "Jane stands on a tall stool before rows of silent girls",
+      "summary": "Mr Brocklehurst shames Jane in front of the school, and Helen comforts her with a smile."
+    },
+    {
+      "n": 9,
+      "scene": "A gentle teacher listens to Jane at a table by the window",
+      "summary": "Miss Temple hears Jane's story and proves that she is not a liar."
+    },
+    {
+      "n": 10,
+      "scene": "A girl lies pale in bed while Jane holds her hand",
+      "summary": "A sickness spreads through Lowood, and Helen dies peacefully in Jane's arms."
+    },
+    {
+      "n": 11,
+      "scene": "Jane in a grey dress teaches a class of young girls",
+      "summary": "Jane stays at Lowood for eight years, six as a pupil and two as a teacher."
+    },
+    {
+      "n": 12,
+      "scene": "Jane writes a letter at a small desk by candlelight",
+      "summary": "Miss Temple leaves to marry, and Jane advertises for work as a governess."
+    },
+    {
+      "n": 13,
+      "scene": "A small girl in a pink dress meets Jane in a grand hall",
+      "summary": "Jane arrives at Thornfield Hall to teach Adèle and meets the housekeeper Mrs Fairfax."
+    },
+    {
+      "n": 14,
+      "scene": "Jane stands in a dark corridor listening to a strange laugh",
+      "summary": "Late at night Jane hears a strange laugh from the top floor of the house."
+    },
+    {
+      "n": 15,
+      "scene": "A rider lies on frozen ground beside his fallen horse",
+      "summary": "On a winter walk Jane helps a stranger whose horse has slipped on the ice."
+    },
+    {
+      "n": 16,
+      "scene": "Jane stands before a dark-haired man in a library",
+      "summary": "She learns that the stranger is Mr Rochester, the master of Thornfield."
+    },
+    {
+      "n": 17,
+      "scene": "Jane and Rochester sit by the fire talking in the evening",
+      "summary": "Rochester talks with Jane in the evenings and likes her honest answers and her paintings."
+    },
+    {
+      "n": 18,
+      "scene": "Jane throws a jug of water over a burning bed",
+      "summary": "Jane wakes to smoke and saves Mr Rochester from a fire in his bed."
+    },
+    {
+      "n": 19,
+      "scene": "Rochester holds Jane's hand in a dim hallway",
+      "summary": "Rochester thanks Jane, blames Grace Poole, and asks her to say nothing."
+    },
+    {
+      "n": 20,
+      "scene": "A line of carriages arrives at the great house",
+      "summary": "Rochester brings guests to Thornfield, among them the beautiful Blanche Ingram."
+    },
+    {
+      "n": 21,
+      "scene": "An old fortune-teller sits by a fire in a drawing room",
+      "summary": "Jane is jealous of Miss Ingram, and a fortune-teller turns out to be Rochester in disguise."
+    },
+    {
+      "n": 22,
+      "scene": "A bleeding man is helped along a candlelit corridor",
+      "summary": "Mr Mason is hurt in the night, and Jane helps Rochester care for him in secret."
+    },
+    {
+      "n": 23,
+      "scene": "A messenger hands Jane a letter at the garden gate",
+      "summary": "Jane learns that her cousin John has died and that her aunt Mrs Reed is dying."
+    },
+    {
+      "n": 24,
+      "scene": "Mrs Reed lies in bed with a folded letter in her hand",
+      "summary": "Mrs Reed confesses she hid a letter from Jane's uncle, John Eyre, and soon dies."
+    },
+    {
+      "n": 25,
+      "scene": "Jane walks through a summer garden toward Thornfield",
+      "summary": "Jane returns to Thornfield and knows she loves Rochester."
+    },
+    {
+      "n": 26,
+      "scene": "Rochester and Jane stand beneath a great tree in the garden",
+      "summary": "In the garden Rochester says Jane must leave when he marries, and she weeps."
+    },
+    {
+      "n": 27,
+      "scene": "Rochester kneels in the orchard holding Jane's hands",
+      "summary": "Rochester says he loves Jane, not Miss Ingram, and asks her to marry him."
+    },
+    {
+      "n": 28,
+      "scene": "A torn white veil lies on the floor of a dark bedroom",
+      "summary": "Jane prepares for the wedding, but a strange woman tears her veil in the night."
+    },
+    {
+      "n": 29,
+      "scene": "A lawyer rises in a crowded church as the vicar stops",
+      "summary": "At the church, two men declare that Rochester already has a wife."
+    },
+    {
+      "n": 30,
+      "scene": "Rochester opens a locked door at the top of the house",
+      "summary": "Rochester shows Jane his wife Bertha, who has been mad for many years."
+    },
+    {
+      "n": 31,
+      "scene": "Rochester kneels at Jane's feet in a quiet bedroom",
+      "summary": "Rochester begs Jane to stay, but she knows it would be wrong."
+    },
+    {
+      "n": 32,
+      "scene": "Jane walks alone down a road at dawn with a small bundle",
+      "summary": "Jane leaves Thornfield before dawn with almost no money."
+    },
+    {
+      "n": 33,
+      "scene": "Jane lies exhausted on a bare hillside in the rain",
+      "summary": "Jane wanders for days across the moors, hungry and cold."
+    },
+    {
+      "n": 34,
+      "scene": "A tall man helps a weak Jane through the door of a house",
+      "summary": "St John Rivers takes Jane in and his sisters nurse her, and she gives a false name."
+    },
+    {
+      "n": 35,
+      "scene": "Two young women read beside Jane at a warm fireside",
+      "summary": "Jane recovers and grows close to the kind sisters Diana and Mary."
+    },
+    {
+      "n": 36,
+      "scene": "Jane teaches village girls in a small stone schoolroom",
+      "summary": "St John finds Jane work as a village teacher, and she lives in a cottage."
+    },
+    {
+      "n": 37,
+      "scene": "St John holds a letter, speaking to Jane in the cottage",
+      "summary": "St John learns Jane's true name and tells her that her uncle John Eyre has left her a fortune."
+    },
+    {
+      "n": 38,
+      "scene": "Jane and three cousins laugh together around a table",
+      "summary": "Jane learns the Rivers family are her cousins and shares her fortune with them."
+    },
+    {
+      "n": 39,
+      "scene": "Four people sit in a warm parlour in a country house",
+      "summary": "Jane makes Moor House a home for her cousins, and Diana and Mary are delighted."
+    },
+    {
+      "n": 40,
+      "scene": "St John speaks earnestly to Jane on a stony hillside",
+      "summary": "St John asks Jane to marry him and go to India, but she will not marry without love."
+    },
+    {
+      "n": 41,
+      "scene": "Jane stands in the dark of her room, listening",
+      "summary": "Jane nearly yields, then hears Rochester's voice calling her from far away."
+    },
+    {
+      "n": 42,
+      "scene": "Jane gazes at a blackened ruin of walls and chimneys",
+      "summary": "Jane returns to Thornfield and finds the great house burned to the ground."
+    },
+    {
+      "n": 43,
+      "scene": "Jane talks to an old innkeeper in a village inn",
+      "summary": "An innkeeper tells her that Bertha started the fire and died in it."
+    },
+    {
+      "n": 44,
+      "scene": "A man behind a counter points down a long road",
+      "summary": "He says Rochester lost his sight and a hand, and lives at Ferndean."
+    },
+    {
+      "n": 45,
+      "scene": "Jane walks through damp woods to an old house",
+      "summary": "Jane travels to Ferndean and finds Rochester sitting alone in the dark."
+    },
+    {
+      "n": 46,
+      "scene": "Rochester reaches out with his hand to touch Jane's face",
+      "summary": "Rochester thinks he is dreaming until he feels Jane's warm hand."
+    },
+    {
+      "n": 47,
+      "scene": "Jane kneels beside Rochester's chair as the fire burns low",
+      "summary": "Rochester fears that Jane pities him, but she says she is free and wants to stay."
+    },
+    {
+      "n": 48,
+      "scene": "Jane and Rochester stand together in a small country church",
+      "summary": "Jane and Rochester marry quietly."
+    },
+    {
+      "n": 49,
+      "scene": "A man holds a baby by the window in morning light",
+      "summary": "After two years Rochester's sight returns enough to see his baby son."
+    },
+    {
+      "n": 50,
+      "scene": "Jane writes at a desk with a happy house around her",
+      "summary": "Jane tells the reader of her ten happy years and of St John in India."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Jane Eyre was a poor orphan who lived with her angry aunt.",
+      "Her cousin John hit her, so Jane fought back angrily.",
+      "Her aunt locked Jane in a dark room, and she was afraid.",
+      "Jane became ill, and a kind doctor said she needed a new school.",
+      "Mr Brocklehurst said Jane was a liar, and her aunt agreed.",
+      "Jane went to Lowood School, where the rooms were cold and the food was poor.",
+      "There Jane met Helen Burns, a gentle girl who became her best friend.",
+      "Mr Brocklehurst made Jane stand on a stool before the whole school.",
+      "Miss Temple, the kind teacher, showed everyone that Jane was not a liar.",
+      "Many girls got sick, and Helen died quietly in Jane's arms.",
+      "Jane stayed at Lowood eight years, first as a pupil, then as a teacher.",
+      "Jane wanted a new life, so she put a note in the newspaper.",
+      "She became teacher to a small French girl, Adèle, at Thornfield Hall.",
+      "Late at night, Jane heard a strange laugh in the hall.",
+      "One winter day, a man fell from his horse near Jane.",
+      "The man was Mr Rochester, who owned Thornfield Hall.",
+      "In the evenings, Rochester talked with Jane and liked her honest answers.",
+      "One night Jane smelled smoke and put out a fire in his bed.",
+      "Rochester thanked her warmly, but he would not say who started it.",
+      "Rochester went away and came back with many rich guests, including Miss Ingram.",
+      "Jane felt sad, because Rochester seemed to like beautiful Miss Ingram.",
+      "A visitor was hurt in the night, and Jane helped to care for him.",
+      "A message came that Jane's aunt was dying, so she went home.",
+      "Her aunt told Jane about a hidden letter, and then she died.",
+      "Jane returned to Thornfield and saw that she loved Rochester very much.",
+      "Rochester told her he would soon marry, and Jane began to cry.",
+      "Then he said he loved Jane, and he asked her to marry him.",
+      "Jane said yes, but she did not want his expensive gifts.",
+      "In the church, two men said that Rochester already had a wife.",
+      "Rochester took everyone upstairs and showed them his wife, a sick, wild woman.",
+      "He begged Jane to stay, but she knew she could not.",
+      "Early in the morning, Jane left Thornfield with almost no money.",
+      "She walked for days, hungry and tired, and slept outside in the cold.",
+      "At last she knocked at a door, and a kind man helped her.",
+      "Two sisters, Diana and Mary, cared for Jane until she was well.",
+      "Their brother St John found Jane work as a teacher in the village.",
+      "One day St John learned that Jane's uncle had died and left her money.",
+      "Jane found that St John and his sisters were her cousins.",
+      "She gave them each a share, because family mattered more than money.",
+      "St John asked Jane to marry him and go to India.",
+      "She almost agreed, but then she heard Rochester's voice calling her name.",
+      "Jane hurried back to Thornfield, but the house was now a burned ruin.",
+      "A man at the inn said the mad wife started the fire and died.",
+      "He also said Rochester was now blind and lived alone in a small house.",
+      "Jane went to his house and found him sitting alone in the dark.",
+      "Rochester thought it was a dream, and he held Jane's hand tightly.",
+      "He feared Jane pitied him, but she said she loved him just the same.",
+      "They married in a quiet church, and Jane felt truly happy.",
+      "After two years, Rochester could see a little, and he saw their son.",
+      "Jane and Rochester stayed happy together, while St John worked far away in India."
+    ],
+    "B1B2": [
+      "Jane Eyre is a ten-year-old orphan who lives at Gateshead Hall with her aunt, Mrs Reed. Nobody in the house loves her, so she spends her days alone with a book.",
+      "Her cousin John Reed is a cruel boy who often hits and insults her. One day he throws a heavy book at her, and for the first time Jane fights back.",
+      "As a punishment, Mrs Reed locks Jane in the red-room, where her uncle once died. Jane thinks she sees a ghost in the dark, and she screams until she faints.",
+      "When Jane wakes, a kind doctor named Mr Lloyd is sitting beside her bed. He asks her whether she would like to go away to school, and she says yes at once.",
+      "Mr Brocklehurst, who runs Lowood School, visits Gateshead, and Mrs Reed tells him that Jane is a liar. Before she leaves, Jane tells her aunt angrily that she will never call her aunt again.",
+      "Lowood is a cold, hungry place, with thin porridge and little heat in winter. Jane must follow its strict rules, and in the first weeks she feels very lost.",
+      "Jane makes a friend, Helen Burns, a patient girl who never complains when the teachers punish her. Helen tells Jane that hating people only makes a person unhappy, and Jane listens carefully.",
+      "Mr Brocklehurst visits the school and orders Jane to stand on a stool in front of everyone. He calls her a liar again, and nobody is allowed to speak to her for the rest of the day.",
+      "Helen smiles at Jane from across the room, and this gives Jane the strength to stay calm. Later the kind teacher Miss Temple checks Jane's story, and the whole school learns that she is no liar.",
+      "A sickness spreads through Lowood in the spring, and many girls become very ill. Helen is one of them, and she dies peacefully in Jane's arms.",
+      "Life at Lowood becomes better after the sickness, and Jane studies hard for six years. She then teaches there for two more years, but she begins to feel that she wants a different life.",
+      "Miss Temple marries and leaves the school, and Lowood suddenly feels empty to Jane. She puts an advertisement in the newspaper, offering to work as a governess, and soon a reply arrives.",
+      "The reply comes from Mrs Fairfax of Thornfield Hall, and Jane travels there to teach a little French girl named Adèle. The old housekeeper welcomes her warmly, and Jane thinks the house is large and strangely quiet.",
+      "One night Jane hears a strange, loud laugh coming from the top floor of the house. Mrs Fairfax says it is only a servant named Grace Poole, but Jane is not sure.",
+      "On a freezing evening, Jane walks to the village to post a letter. A horse slips on the ice and throws its rider, and Jane helps the stranger, who is rude but grateful.",
+      "When she returns to Thornfield, she learns that the stranger is the owner, Mr Rochester. He is Adèle's guardian, and he has been away from the house for many years.",
+      "Mr Rochester asks Jane to talk with him in the evenings, and he is not an easy man. He likes her honest answers, and he is surprised by the clever pictures she has painted.",
+      "One night Jane wakes and smells smoke coming from Mr Rochester's room. She throws water on his burning bed and saves his life, and he thanks her warmly.",
+      "Rochester says that Grace Poole started the fire, but he asks Jane to tell nobody. Jane is puzzled because the servant is not punished, and she wonders what he is hiding.",
+      "Mr Rochester leaves Thornfield for a while, and when he comes back, he brings many guests. Among them is the beautiful and proud Blanche Ingram, whom everyone expects him to marry.",
+      "Jane feels a sharp jealousy, but she tells herself that she is only a poor governess. A fortune-teller visits the party, and Jane soon realises that the old woman is really Rochester in disguise.",
+      "One night a guest named Mr Mason is attacked and badly cut. Rochester asks Jane to help him quietly, and she obeys, although she does not understand what has happened.",
+      "Soon a message comes that Jane's cousin has died and that her aunt is very ill. Jane travels to Gateshead and finds that Mrs Reed wants to see her before she dies.",
+      "Mrs Reed confesses that she hid a letter from Jane's uncle, John Eyre, who wanted to adopt Jane. She dies a few days later, and Jane forgives her for everything.",
+      "Jane returns to Thornfield in summer, and she feels that it is her real home. She also knows that she loves Rochester, though she believes that he will marry Miss Ingram.",
+      "One evening in the garden, Rochester tells Jane that he will soon marry and that she must leave. Jane says she will be sad to go, and then she begins to cry.",
+      "Rochester suddenly says that he does not love Miss Ingram, but that he loves Jane. He asks her to be his wife, and after a moment of doubt, she says yes.",
+      "Jane prepares for the wedding, but she feels uneasy about the rich dresses and jewels. The night before, a strange woman comes into her room and tears the wedding veil in two.",
+      "In the church, two men stand up and say that Rochester already has a wife. One of them is a lawyer, and the other is Mr Mason, the wife's brother.",
+      "Rochester leads everyone to the top floor, where a wild woman is living in a locked room. She is Bertha, his wife, who went mad years ago, and Grace Poole has been guarding her.",
+      "Rochester explains that he was tricked into the marriage as a young man, and he begs Jane to stay. She loves him deeply, but she knows that staying with a married man would be wrong.",
+      "Before dawn, Jane leaves Thornfield quietly, taking only a small bundle and very little money. She pays for a coach as far as it goes, and then she realises that she has left her bundle on it.",
+      "For several days Jane wanders across the moors, cold, hungry and without hope. She begs for food and sleeps outside, until at last she sees a light in a window.",
+      "A man named St John Rivers finds her at the door and takes her in. His sisters Diana and Mary feed her and nurse her, and Jane gives them a false name so that Rochester cannot find her.",
+      "Slowly Jane recovers, and the kind sisters become dear friends. They talk about books and music together, and Jane feels that she has found a family.",
+      "St John, a serious young clergyman, finds Jane work as a teacher in a village school. She lives in a small cottage and teaches poor girls, and she is quite content, although she often thinks of Rochester.",
+      "One day St John discovers Jane's true name, and he has surprising news. Her uncle John Eyre has died, and he has left her twenty thousand pounds.",
+      "Jane also learns that St John, Diana and Mary are her cousins. She is overjoyed to have real family at last, and she decides to share her fortune equally with them.",
+      "Jane gives each cousin a quarter of the money, because she would rather have family than a large fortune. Diana and Mary are delighted, and Moor House feels like a real home.",
+      "St John asks Jane to marry him and go with him as a missionary to India. She is willing to work with him, but she refuses to marry a man who does not love her.",
+      "St John keeps pressing her, and Jane begins to feel weak. Then, late one night, she hears Rochester's voice calling her name from far away, and she knows what she must do.",
+      "She leaves for Thornfield at once, but when she arrives, she finds only a burned and empty ruin. The great house is black and silent, and her heart nearly stops.",
+      "At an inn nearby, a man tells her that Bertha set the house on fire and died in the flames. He says that Rochester tried to save everyone in the house.",
+      "He adds that Rochester lost his sight and one hand in the fire. He now lives alone at a house called Ferndean, deep in the woods.",
+      "Jane walks through the dark woods and reaches the old, damp house at last. She finds Rochester sitting alone, thin and blind, and she quietly says his name.",
+      "Rochester thinks he is dreaming, until he touches her warm hand. He holds her close and asks if it can truly be Jane.",
+      "He worries that Jane will pity him, but she says that she is now rich and free. She tells him that she loves him as much as ever, and she wants to stay.",
+      "They marry quietly in the village church, with only a few people watching. Jane writes simply, “Reader, I married him,” and she has never regretted it.",
+      "Jane and Rochester live quietly at Ferndean, and she becomes his eyes and his hand. After two years, his sight returns enough to see their baby son, and he is deeply thankful.",
+      "Jane writes that she has been married for ten years and is perfectly happy. St John is still far away in India, doing his hard work, and Jane remembers him with great respect."
+    ],
+    "C1C2": [
+      "Jane Eyre grows up an orphan at Gateshead Hall, a girl whom her aunt, Mrs Reed, has never cared for and never pretended to love. Sitting behind a heavy curtain with a book of pictures, she is happiest when nobody remembers that she exists. The household's coldness has taught her to hide, but it has not taught her to be meek.",
+      "Her cousin John Reed, a spoiled and brutal boy, has made a habit of tormenting Jane while the grown-ups look away. One afternoon he finds her hiding place, strikes her, and hurls a heavy book across the room so that it cuts her head. Something snaps inside Jane, and for the first time in her life she turns on her tormentor with her fists.",
+      "Mrs Reed, who sees only the girl's rebellion and none of the boy's cruelty, orders that Jane be shut in the red-room, the chamber where her kind uncle had died. Alone in the darkness, Jane imagines a pale light moving across the wall and is certain that a ghost has come for her. Her screams bring no mercy, and she collapses in terror long before anyone unlocks the door.",
+      "When Jane wakes in her own bed, she finds a kindly apothecary, Mr Lloyd, studying her face with real concern. He draws out the story of her unhappiness gently, and then suggests that a change of scene might do her good. To Jane, who has known nothing but the narrow world of Gateshead, the thought of going away to school feels like the opening of a window.",
+      "Before long Mr Brocklehurst, the stern master of Lowood School, arrives to inspect his new pupil, and Mrs Reed warns him that the child has a deceitful nature. On the morning she leaves, Jane summons all her courage and declares to her aunt that she will never again call her by that name. It is a fierce, reckless speech, yet she walks out of the house feeling lighter than she has felt in years.",
+      "Lowood proves to be a bleak institution, where the porridge is burnt, the rooms are icy and the pupils are taught that suffering is good for the soul. Jane, small and nervous among a hundred strangers, learns its strict timetable by heart and tries to keep her feelings to herself. In those first weeks she suspects that the school is another kind of prison, though one with books.",
+      "Among the pupils she meets Helen Burns, a quiet, thoughtful girl whose calm in the face of cruel punishments astonishes her. Helen believes in forgiving one's enemies and bearing injustice patiently, an idea that Jane admires without quite being able to share it. Their talks by the stove give her the first real friendship of her life.",
+      "When Mr Brocklehurst visits the school, he singles Jane out before the assembled pupils, forces her to stand on a high stool, and announces that she is a liar to be avoided by all. The shame burns through her, and she feels that every eye in the room is fixed upon her. Yet across the hall Helen smiles quietly at her, and that small gesture gives Jane the strength to bear the ordeal without breaking.",
+      "Miss Temple, the gentle headmistress, listens carefully to Jane's account of her childhood and does not simply believe what the newcomer was accused of. She writes to Mr Lloyd to check the facts, and when his reply confirms Jane's honesty, she announces it before the whole school. Jane, cleared at last, feels that Lowood has begun to turn into a home.",
+      "In the spring, a fever sweeps through the overcrowded school, and many of the girls fall gravely ill. Helen, who has been weak with a cough for months, is among them, and Jane slips into her room one night to be near her. By morning her friend has died quietly in her arms, serene to the last, and Jane is left to face the loss alone.",
+      "After the epidemic, the school's cruel regime is reformed, and Jane becomes a fine student and then, in her turn, a teacher. She spends eight years in all within its walls, and she owes to Miss Temple much of what she has learnt about discipline and kindness. Yet as the years pass, she grows restless, and she begins to long for a wider world beyond the green hills around Lowood.",
+      "When Miss Temple marries and moves away, the school seems to Jane suddenly empty, and she knows that it is time to go. She advertises in the newspaper for a position as a governess and waits anxiously for any reply. A letter soon arrives from a Mrs Fairfax of Thornfield Hall, offering her a place and a modest salary.",
+      "At Thornfield, Jane finds a kindly old housekeeper, Mrs Fairfax, and a lively little French pupil named Adèle, who chatters about dresses and dolls. The house is large, handsome and strangely silent, and its master, Mr Rochester, seems to be always away. Jane settles in, content with her work, yet she cannot shake the sense that Thornfield keeps something to itself.",
+      "One night, as Jane lies awake in the quiet, she hears a low, mirthless laugh drifting down from the upper floor. Mrs Fairfax explains it away as the noise of Grace Poole, a seamstress who is somewhat eccentric, but the explanation does not quite satisfy her. Jane lies listening long after the sound has died away, aware that the old house has begun to unsettle her.",
+      "On a bitter winter evening, Jane sets out to post a letter in the village, and on the way home she hears a horse slipping on a patch of ice. Its rider is thrown, and Jane, unafraid, goes to him and helps him back into the saddle, although he is gruff and offers only a curt thanks. She thinks nothing more of the encounter until she reaches Thornfield, where the household is buzzing with news.",
+      "She discovers that the stranger is none other than Mr Rochester, the owner of Thornfield, who has returned unexpectedly after long travels. He is Adèle's guardian, a man in the prime of life with a dark face and an abrupt manner, and he looks her over as though he were weighing a puzzle. Jane, who expects a stern master, finds that he is not quite what she imagined.",
+      "Soon Rochester begins to summon her to the fireside in the evenings, and Jane quickly learns that he enjoys her frank replies far more than polite flattery. He examines the drawings she has made, praises their strangeness, and questions her sharply about her past and her opinions. Their conversations are unlike any she has known, and she finds that she looks forward to them more than she cares to admit.",
+      "One night Jane is woken by a faint noise and finds smoke curling from beneath Mr Rochester's door, the room within already ablaze. Without hesitation, she hurls the water from her washstand over the burning curtains and the sleeping man, and rouses him from his bed. He is shaken and grateful, and he clasps her hand in the darkness as though he does not mean to let it go.",
+      "Rochester insists, strangely, that Grace Poole is to blame, and he asks Jane to speak of the matter to nobody. Jane is bewildered that the servant, whom she saw calmly sewing the next morning, is neither dismissed nor punished. She begins to suspect that her master is hiding something, and she is surprised to find that she wants to trust him all the same.",
+      "Soon afterwards Rochester leaves Thornfield for a time, and when he returns, it is with a party of wealthy and fashionable guests. Among them is the dazzling Blanche Ingram, a haughty beauty whom all the gossips believe he intends to marry. Jane, watching quietly from the corner of the drawing room, notices that she is the only person present who seems troubled by the idea.",
+      "Jane suffers jealous pangs but reproaches herself, remembering that she is only a plain and penniless governess with no claim upon the master. One evening a gypsy fortune-teller arrives to entertain the guests, and Jane, called in to sit with her, feels that the old woman knows her secrets. At length she realises with astonishment that the fortune-teller is Rochester in disguise, testing her feelings for his own amusement.",
+      "Late one night a guest named Mr Mason is found badly wounded, and Rochester, pale and urgent, summons Jane to help him in the greatest secrecy. She holds the basin, binds the cuts and keeps silent, although a hundred questions crowd into her mind. By dawn the wounded man has been spirited away, and the house resumes its air of cheerful ignorance.",
+      "Not long afterwards a message arrives that Jane's cousin John has died, and that her aunt, Mrs Reed, has suffered a stroke and is asking for her. Jane, with Rochester's reluctant permission, makes the long journey back to Gateshead, a place she has not seen in many years. She finds a household much altered, and the woman who once ruled it a shadow of her former self.",
+      "On her deathbed, Mrs Reed confesses that she once received a letter from Jane's uncle, John Eyre, who wished to adopt the girl, and that she lied and said Jane was dead. Jane, who has little to forgive after so long, offers her aunt her hand, and the old woman dies unreconciled that night. Having paid her last debt to the past, Jane starts back to Thornfield with a lighter heart.",
+      "Midsummer has come when Jane returns to Thornfield, and the house greets her like the place she has always belonged. Walking across the lawn, she feels the full weight of her feelings for the master, which she has been trying for months to deny. Yet she dares not hope, for she believes that Rochester is on the point of marrying Miss Ingram.",
+      "One evening in the garden, Rochester speaks calmly of his coming marriage and tells her that she will have to find another post. Jane, trying to hide her sorrow, says that she will be sorry to leave a place she has grown to love, and then, quite against her will, she begins to weep. Such a violent grief takes the man by surprise, and he looks at her for a long moment before he answers.",
+      "Without warning, Rochester declares that he cares nothing for Miss Ingram and has only been trying Jane's heart, and that it is Jane he wants for his wife. Jane, who at first thinks he is mocking her, demands to be treated as an equal, having a soul and a will as good as his. When he swears that he means it, she accepts him, and the orchard is filled with the scent of the evening.",
+      "In the weeks before the wedding, Rochester wants to shower his bride with silks and jewels, but Jane, who has never owned such things, shrinks from the display. The night before the ceremony, she wakes to see a strange, tall woman standing in her room, who takes the wedding veil from its place and tears it in two. Rochester insists afterwards that she dreamed it, though the torn veil lies on the floor in the morning.",
+      "At the church, as the vicar begins the service, two men step forward and declare that there is an impediment to the marriage. One is a lawyer who states that Mr Rochester already has a wife, and the other is Mr Mason, who has come to confirm that his sister is alive. The church seems to spin around Jane, and she has the odd feeling that she is watching the scene from far away.",
+      "Rochester, grim but unashamed, leads the entire party back to Thornfield and up to the highest floor, where a locked door conceals the truth. Inside, a wild, wasted creature paces in the shadows, and Jane understands that this is Bertha, the wife whom madness took from him years before, guarded by Grace Poole. Whatever else he has done, Jane sees that Rochester has carried a terrible burden alone.",
+      "Rochester tells her that he was tricked into the marriage as a young man, and begs her, in the quiet of her room, to stay with him as if nothing had changed. Jane loves him with all her heart, and every part of her longs to say yes, but she knows that she must not live as the companion of a married man. The effort of refusing him costs her more than any she has yet made, and he cannot understand why she will not bend.",
+      "Before dawn the next day, Jane creeps from the house with a small bundle and almost no money, and she does not look back. She takes a coach as far as her few coins will carry her, and when it sets her down in the middle of nowhere, she realises that she has left her bundle on board. She has nothing now but the clothes she wears, and not a soul in the world knows where she is.",
+      "For days Jane wanders over the empty moors, sleeping on the heather, begging a crust of bread and drinking from the streams. She grows weaker with every mile, and she feels that she may lie down and never rise again. At last, in the darkness of a stormy evening, she sees the faint gleam of a lighted window and stumbles toward it.",
+      "She knocks at the door of a house, and a young clergyman, St John Rivers, finds her and carries her in. His sisters, Diana and Mary, nurse her back to health with great tenderness, never pressing her to explain her sorrows. Afraid of being traced to Thornfield, Jane gives them a false name, calling herself Jane Elliott.",
+      "As the weeks go by, Jane gets stronger, and the sisters, who are cheerful and well-read, become dear friends. They spend the evenings reading German and talking of books, and for the first time since Lowood, Jane feels that she has a family. Even in her grief for Rochester, she is grateful beyond words for such a haven.",
+      "St John, a grave and ambitious man with a handsome, cold face, finds Jane a position as a teacher in the village school at Morton. She moves into a small cottage, and her pupils are poor farm girls who can barely read, but Jane works at the task with all the energy she can muster. Though she is not unhappy, her thoughts return again and again to Thornfield, and the man she left behind.",
+      "One day St John shows her a newspaper cutting and reveals that he has discovered her real name, and that of her uncle. John Eyre has died in Madeira, he tells her, and has left his entire fortune, twenty thousand pounds, to his niece. Jane, who has believed herself penniless and alone, can hardly take in the news.",
+      "Even more astonishing is the discovery that St John, Diana and Mary are her own cousins, for their mother and her father were brother and sister. For a poor wanderer who has longed for kin all her life, this proves to be a far greater joy than the fortune itself. She resolves at once to divide her inheritance equally among the four of them.",
+      "Despite her cousins' protests, Jane insists on giving each of them a quarter of the money, declaring that she would rather have a family than a large fortune. Diana and Mary are overjoyed, and Moor House, now bright with firelight and laughter, becomes a real home for them all. For Jane, who has never had one, the feeling is like coming ashore after a long storm.",
+      "In time St John, who is dedicated to his calling, asks Jane to marry him and to go with him as a missionary to India. She is willing to work by his side, but she cannot bring herself to marry a man who regards her as a useful tool rather than someone he loves. He presses her, arguing that duty demands it, and she finds it harder than she expected to resist his stern will.",
+      "Wearied by his insistence, Jane is on the verge of giving way, and she stands trembling in the dark, almost ready to say yes. Then, from some great distance, she hears Rochester's voice calling her name in a tone of anguish, and she knows that she has heard it truly. She answers aloud that she is coming, and in that moment her mind is made up.",
+      "The next morning, Jane sets out for Thornfield, travelling with a growing fear that she has left it too late. When she reaches the spot where the house once stood, she finds only a blackened ruin, its walls empty and its windows gaping at the sky. The silence of the place is so complete that her heart seems to stop.",
+      "At the nearest inn, an old innkeeper tells her what happened, and Jane listens with growing horror. Bertha, he says, set fire to the house one night, then climbed to the roof and leapt to her death, and Rochester had tried to save her. Jane's only thought is for the man, and she hardly dares ask what has become of him.",
+      "The innkeeper adds that the master lost his sight and one hand when a burning beam fell, and that he now lives in solitude at Ferndean, a manor deep in the woods. Rochester, who was once proud and restless, has shut himself away from every living soul, and the servants say that he is a broken man. Jane does not wait a moment longer, but hires a carriage and sets out at once.",
+      "Late in the afternoon Jane reaches the old, damp house, which stands in a clearing surrounded by dark trees. She sees Rochester come slowly out of the door, feeling his way with his remaining hand, thin and grey and blind to the world. Overcome with feeling, she steps forward and says his name, and the sound makes him start.",
+      "Rochester does not believe that he is awake, and he reaches out to touch her face as though she might be a ghost. When he feels the warmth of her hand and hears her speak, he clasps her to him and asks her whether it is truly Jane. For a long moment neither of them can speak, and the evening air seems to hold its breath.",
+      "That evening Rochester says gloomily that he is a ruined man, unfit to marry, and that she can only pity him. Jane answers that she has come into her uncle's fortune and is now her own mistress, free to go where she chooses, and that she has chosen to come to him. She adds that she loves him as much as ever, and that nobody could tell her to stay away.",
+      "The couple marry quietly in the village church, with only the clergyman and a clerk to witness the ceremony. Jane writes, in what are the most famous words of the book, “Reader, I married him,” and there is no doubt in her mind that she has done right. After so many trials, she has found at last a home, a husband and a life that is her own.",
+      "For two years Jane serves as her husband's eyes and companion, reading to him and describing the world for him, and the days are full of quiet happiness. Then, little by little, the sight returns to one of his eyes, and he is able to look upon the face of the son she has borne him. He gives thanks, with a humble heart, for the gift of seeing his child.",
+      "Ten years have passed, Jane tells the reader, and she remains perfectly happy in the company of the man she loves. Adèle has been schooled and grown into a good friend, Diana and Mary have found good husbands, and St John, whom she describes with great respect, labours on in India. With these closing words, she lays down her pen, content that her story has been told truthfully and to its end."
+    ]
+  }
+}

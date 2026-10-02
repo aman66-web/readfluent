@@ -1,0 +1,417 @@
+{
+  "slug": "the-moonstone",
+  "meta": {
+    "blurb": "A sacred yellow diamond is a birthday gift, and by morning it has vanished from a locked cabinet. As a famous detective, a faithful steward and three silent watchers hunt for it, the truth proves stranger, and closer to home, than anyone guessed.",
+    "bible": "Moonstone: a large yellow diamond, once set in the forehead of a Hindu statue of the moon god; its light is said to rise and fall with the moon. Seringapatam: the Indian fortress where the diamond was taken in 1799. Colonel John Herncastle: the soldier who took it; Lady Verinder's hated brother; he leaves it in his will to Rachel. Lady Julia Verinder: Rachel's kind, sensible mother. Rachel Verinder: her proud, secretive daughter, eighteen on 21 June 1848. Gabriel Betteredge: the old house steward, a fan of Robinson Crusoe; he tells the first part. Penelope: Betteredge's daughter and Rachel's maid. Franklin Blake: Rachel's clever, well-travelled cousin, who brings the diamond to the house. Godfrey Ablewhite: another cousin, a charming public speaker for good causes, secretly deep in debt. Rosanna Spearman: a housemaid, once a thief, who loves Franklin. Lucy Yolland: a fisherman's daughter and Rosanna's friend. Superintendent Seegrave: the clumsy local policeman. Sergeant Cuff: the famous London detective who loves roses. Mr Murthwaite: a traveller who knows India well. Dr Candy: the local doctor, fond of jokes. Miss Clack: Rachel's pious cousin, who tells the London part. Mr Bruff: the family lawyer. Mr Luker: a London moneylender. Ezra Jennings: Dr Candy's gentle, sick assistant with two-coloured hair. Three Indians: Brahmin priests who follow the diamond, first seen as street jugglers. Yorkshire: the county of Lady Verinder's house. Frizinghall: the nearby town. The Shivering Sand: a deadly quicksand by the sea. London. India. Kattiawar: the part of India where the diamond finally returns. Voice and tone: a classic mystery told by several witnesses in turn; warm, wry, full of surprises; deaths are stated plainly, with no gore. The secret: Franklin, given laudanum without knowing it, took the diamond in his sleep; Godfrey then took it from him."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A great yellow diamond glows in the forehead of a moon god's statue",
+      "summary": "In India, a sacred yellow diamond is guarded by three priests."
+    },
+    {
+      "n": 2,
+      "scene": "A soldier in a red coat grabs the diamond during the siege of Seringapatam",
+      "summary": "In 1799 an English soldier, John Herncastle, takes the diamond at Seringapatam."
+    },
+    {
+      "n": 3,
+      "scene": "A lawyer reads a will aloud to Lady Verinder and her young daughter",
+      "summary": "When the Colonel dies, his will leaves the diamond to his niece Rachel."
+    },
+    {
+      "n": 4,
+      "scene": "An old steward in a black coat writes at a desk",
+      "summary": "Gabriel Betteredge, the old steward of Lady Verinder's house, begins his story."
+    },
+    {
+      "n": 5,
+      "scene": "A quiet maid walks alone along the sea shore towards a stretch of sand",
+      "summary": "The maid Rosanna Spearman, a former thief, often walks to the dangerous Shivering Sand."
+    },
+    {
+      "n": 6,
+      "scene": "Three Indian men in white robes juggle for Betteredge's daughter at the door",
+      "summary": "Three Indian jugglers come to the house and ask for Mr Franklin."
+    },
+    {
+      "n": 7,
+      "scene": "A young man in a travelling coat steps from a carriage",
+      "summary": "Franklin Blake arrives with the diamond and says Indians have been following him."
+    },
+    {
+      "n": 8,
+      "scene": "Franklin paints a pattern on a door while Penelope holds the paint pot",
+      "summary": "Franklin and Penelope paint a decoration on the door of Rachel's sitting-room, and the paint is still wet."
+    },
+    {
+      "n": 9,
+      "scene": "Rachel gasps as Franklin presents the glowing yellow diamond to her",
+      "summary": "On her birthday Rachel receives the diamond and is amazed by its beauty."
+    },
+    {
+      "n": 10,
+      "scene": "Guests at a long candlelit table admire Rachel wearing the diamond",
+      "summary": "At the birthday dinner, the traveller Mr Murthwaite warns that the Indians will not give up the diamond."
+    },
+    {
+      "n": 11,
+      "scene": "A cheerful doctor teases Franklin across the dinner table",
+      "summary": "Dr Candy teases Franklin about his poor sleep and promises a cure."
+    },
+    {
+      "n": 12,
+      "scene": "The three Indians stand in moonlight on the terrace outside the house",
+      "summary": "That night Betteredge sees the three Indians near the house and chases them away."
+    },
+    {
+      "n": 13,
+      "scene": "Rachel puts the diamond into a small painted cabinet in her sitting-room",
+      "summary": "Rachel locks the diamond in a cabinet in her sitting-room and goes to bed."
+    },
+    {
+      "n": 14,
+      "scene": "A tired Franklin sleeps heavily in his room while the moon shines in",
+      "summary": "Franklin, who normally sleeps badly, sleeps heavily that night, and nobody thinks it strange."
+    },
+    {
+      "n": 15,
+      "scene": "Penelope points at an empty drawer in Rachel's cabinet in the morning",
+      "summary": "In the morning, the diamond is gone from the cabinet."
+    },
+    {
+      "n": 16,
+      "scene": "A policeman with a notebook inspects the sitting-room, watched by servants",
+      "summary": "Superintendent Seegrave arrives, suspects the Indians, arrests them, and has to let them go."
+    },
+    {
+      "n": 17,
+      "scene": "A paint smear is pointed out on the sitting-room door",
+      "summary": "A smear is found in the wet paint of Rachel's door, but Rachel will not talk to anyone."
+    },
+    {
+      "n": 18,
+      "scene": "Sergeant Cuff, a thin grey man, looks at a rose in the garden",
+      "summary": "The famous detective Sergeant Cuff arrives from London and talks about roses."
+    },
+    {
+      "n": 19,
+      "scene": "Cuff examines the stained door with a small glass",
+      "summary": "Cuff studies the smear and decides it was made by a nightgown, which he asks to find."
+    },
+    {
+      "n": 20,
+      "scene": "Cuff walks beside Betteredge along the shore and watches a distant maid",
+      "summary": "Cuff notices that Rosanna Spearman behaves strangely and is often by the Shivering Sand."
+    },
+    {
+      "n": 21,
+      "scene": "Rachel shakes her head angrily at Sergeant Cuff in the drawing-room",
+      "summary": "Cuff questions Rachel, who refuses to help, and he starts to think she took the diamond herself."
+    },
+    {
+      "n": 22,
+      "scene": "Lady Verinder stands angry and upright facing the detective",
+      "summary": "Lady Verinder is furious at Cuff's idea, and he leaves the case."
+    },
+    {
+      "n": 23,
+      "scene": "Rachel and her mother drive away from the house in a closed carriage",
+      "summary": "Rosanna vanishes and is found drowned in the Shivering Sand; Rachel and her mother leave for London."
+    },
+    {
+      "n": 24,
+      "scene": "Franklin reads a long letter while Betteredge watches over his shoulder",
+      "summary": "Rosanna's letter tells Franklin where she buried a box in the sand."
+    },
+    {
+      "n": 25,
+      "scene": "Franklin holds a stained nightgown with his own name sewn on it",
+      "summary": "Inside the box is a stained nightgown with Franklin's name on it; he goes to London and Betteredge's part ends."
+    },
+    {
+      "n": 26,
+      "scene": "Miss Clack, holding leaflets, calls at Lady Verinder's London house",
+      "summary": "Miss Clack tells how Godfrey Ablewhite, a famous speaker for charities, courts Rachel in London."
+    },
+    {
+      "n": 27,
+      "scene": "Franklin enters a London drawing-room, and Rachel turns away",
+      "summary": "Rachel is engaged to Godfrey. Franklin demands to see her, and she says she saw him take the diamond."
+    },
+    {
+      "n": 28,
+      "scene": "Lady Verinder lies in bed, ill, with Rachel at her side",
+      "summary": "Lady Verinder dies, and her will puts Rachel's money in a trust."
+    },
+    {
+      "n": 29,
+      "scene": "Godfrey Ablewhite reads a letter and turns pale in a drawing-room",
+      "summary": "When Godfrey learns he cannot get Rachel's money, he breaks off the engagement."
+    },
+    {
+      "n": 30,
+      "scene": "Ezra Jennings, a thin man with two-coloured hair, shakes Franklin's hand",
+      "summary": "A year later Franklin returns to Yorkshire and meets Dr Candy's assistant, Ezra Jennings."
+    },
+    {
+      "n": 31,
+      "scene": "Ezra Jennings writes down muddled words spoken by a feverish Dr Candy",
+      "summary": "Ezra has written down what the feverish Dr Candy said, and it hints at a secret."
+    },
+    {
+      "n": 32,
+      "scene": "Franklin gasps as Ezra explains what happened in his drink that night",
+      "summary": "Ezra explains that Dr Candy secretly gave Franklin laudanum at the birthday dinner."
+    },
+    {
+      "n": 33,
+      "scene": "Franklin sits in thought, then stands up with a decision",
+      "summary": "Franklin sees that while drugged he may have taken the diamond himself."
+    },
+    {
+      "n": 34,
+      "scene": "Franklin and Ezra talk quietly at a table about an experiment",
+      "summary": "Ezra proposes an experiment to repeat the night, and Mr Bruff agrees to help."
+    },
+    {
+      "n": 35,
+      "scene": "Franklin writes to Rachel, who reads the letter by a window in London",
+      "summary": "Rachel is told about the plan and agrees to watch it from a hidden place."
+    },
+    {
+      "n": 36,
+      "scene": "Franklin walks in a daze through the dark house in his nightclothes",
+      "summary": "On the night of the experiment Franklin, drugged, rises from his bed and walks to the sitting-room."
+    },
+    {
+      "n": 37,
+      "scene": "Franklin lifts the imitation diamond from the drawer while Rachel watches in tears",
+      "summary": "Franklin picks up the imitation diamond in his sleep, and Rachel weeps."
+    },
+    {
+      "n": 38,
+      "scene": "Rachel and Franklin embrace in the sitting-room at dawn",
+      "summary": "Rachel forgives Franklin, and they understand that Rosanna hid the gown to protect him."
+    },
+    {
+      "n": 39,
+      "scene": "Franklin and Rachel stand in the sitting-room, puzzled by the empty drawer",
+      "summary": "But the real diamond is still missing, and Franklin asks who took it from his room."
+    },
+    {
+      "n": 40,
+      "scene": "Sergeant Cuff trims roses in a cottage garden and listens to Mr Bruff",
+      "summary": "Sergeant Cuff, retired to grow roses, returns to help and begins to think about who knew of the plan."
+    },
+    {
+      "n": 41,
+      "scene": "A smiling gentleman with a charity pamphlet counts coins at his desk",
+      "summary": "Cuff learns that Godfrey Ablewhite was secretly deep in debt."
+    },
+    {
+      "n": 42,
+      "scene": "Cuff explains his theory to Franklin and Mr Bruff around a table",
+      "summary": "Cuff explains that Godfrey took the diamond from Franklin's sleeping room and pawned it to Mr Luker."
+    },
+    {
+      "n": 43,
+      "scene": "Godfrey hands over money at a desk and receives a small packet",
+      "summary": "Godfrey, finally with the money, repays Luker and takes the diamond from the bank."
+    },
+    {
+      "n": 44,
+      "scene": "A man in a sailor's coat checks into a quiet London inn",
+      "summary": "Godfrey, afraid, hides in a London inn under a false name and plans to leave England."
+    },
+    {
+      "n": 45,
+      "scene": "Three silent men in white enter a dark room in the inn at night",
+      "summary": "The three Indians, who have followed him, enter his room, and Godfrey is killed in the night."
+    },
+    {
+      "n": 46,
+      "scene": "Cuff and Mr Bruff stand beside a bed in a small inn room",
+      "summary": "Cuff and Mr Bruff are called, and they identify the dead man as Godfrey Ablewhite."
+    },
+    {
+      "n": 47,
+      "scene": "A ship leaves a harbour with three white-robed men on the deck",
+      "summary": "The three Indians leave England by ship, and Cuff explains that they have done what their oath demanded."
+    },
+    {
+      "n": 48,
+      "scene": "Franklin and Rachel stand hand in hand before a church door",
+      "summary": "Franklin and Rachel marry, and Betteredge is delighted."
+    },
+    {
+      "n": 49,
+      "scene": "A letter from Mr Murthwaite is read by candlelight at the Verinder table",
+      "summary": "Mr Murthwaite writes from India about the diamond's last journey."
+    },
+    {
+      "n": 50,
+      "scene": "A glowing yellow stone shines in the forehead of a god in a temple",
+      "summary": "The diamond shines again in the forehead of the moon god, back where it began."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "In India, a large yellow diamond shone in the forehead of a god.",
+      "In 1799, an English soldier named John Herncastle took the diamond by force.",
+      "When the Colonel died, he left the diamond to his niece Rachel.",
+      "Gabriel Betteredge was the old steward of Lady Verinder's big country house.",
+      "A sad young maid called Rosanna often walked alone by the sea.",
+      "One day three Indian men came to the door and asked about Franklin.",
+      "Franklin Blake arrived at the house and brought the diamond with him.",
+      "Franklin painted a pretty picture on the door of Rachel's sitting-room.",
+      "On her birthday, Rachel opened the box and saw the shining diamond.",
+      "At dinner, a traveller warned them that Indian men would follow the diamond.",
+      "At dinner, Dr Candy joked about Franklin's sleep and offered a cure.",
+      "That night, Betteredge saw the three Indian men near the house.",
+      "Rachel put the diamond in a small cabinet and went to bed.",
+      "That night Franklin slept deeply, which was strange for him.",
+      "In the morning, Penelope found that the diamond was not there.",
+      "A policeman named Seegrave questioned everyone, then arrested the three Indian men.",
+      "Someone found a smear on the wet paint of Rachel's door.",
+      "A famous London detective named Sergeant Cuff came to help.",
+      "Cuff studied the smear and said a night shirt had made it.",
+      "Cuff noticed that Rosanna behaved strangely and went often to the sand.",
+      "Rachel refused to answer, and Cuff began to suspect her.",
+      "Lady Verinder was angry at Cuff's idea, and he left the case.",
+      "Rosanna drowned in the sand, and Rachel and her mother left for London.",
+      "Franklin read Rosanna's letter and learned where she had hidden a box.",
+      "The box held a night shirt with Franklin's own name on it.",
+      "In London, Miss Clack watched Godfrey Ablewhite visit Rachel often.",
+      "Franklin met Rachel and she told him, I saw you take it.",
+      "Lady Verinder became ill and died, and Rachel was left alone.",
+      "Godfrey learned that Rachel's money was safe and ended their engagement.",
+      "A year later, Franklin met Ezra Jennings, a kind man with two-coloured hair.",
+      "Ezra wrote down the strange words Dr Candy said during his fever.",
+      "Ezra said Dr Candy had secretly put medicine in Franklin's drink.",
+      "Franklin understood that he had taken the diamond in his sleep.",
+      "Ezra said they could repeat the night, and Mr Bruff agreed to help.",
+      "Rachel was told about the plan, and she agreed to watch.",
+      "Franklin took the medicine, fell asleep, and later walked through the dark house.",
+      "Franklin took the false diamond from the cabinet, and Rachel cried.",
+      "Rachel said sorry to Franklin, and they saw why Rosanna hid the shirt.",
+      "But the real diamond was still gone, and they wondered who took it.",
+      "Sergeant Cuff came back to help, and he began to think carefully.",
+      "Cuff learned that Godfrey Ablewhite was secretly deep in debt.",
+      "Cuff said Godfrey took the diamond and sold it to Mr Luker.",
+      "Godfrey paid back the money and took the diamond from the bank.",
+      "Godfrey hid in a small inn and used a false name.",
+      "That night the three Indian men came into Godfrey's room.",
+      "Cuff and Mr Bruff came and knew the dead man was Godfrey.",
+      "The three Indian men left England by ship and went home.",
+      "Franklin and Rachel got married, and Betteredge was very happy.",
+      "Mr Murthwaite wrote a letter from India about the diamond.",
+      "The diamond shone again in the forehead of the god."
+    ],
+    "B1B2": [
+      "Long ago, in India, a famous yellow diamond shone from the forehead of a statue of the moon god. Three priests were chosen to guard it, and they promised to follow it forever if it was ever stolen.",
+      "In 1799, English soldiers attacked the fortress of Seringapatam, and a young officer named John Herncastle took the diamond for himself. Nobody knew exactly how, but his friends said that blood had been spilled.",
+      "When the Colonel died, his will gave the diamond to his young niece Rachel Verinder on her eighteenth birthday. Her mother, who had never forgiven him, suspected that it was meant as a cruel joke.",
+      "Gabriel Betteredge has looked after Lady Verinder's large house in Yorkshire for many years. He is proud, kind and very talkative, and he believes that the old book Robinson Crusoe has an answer for every problem.",
+      "Rosanna Spearman was a housemaid who had once been a thief, and Lady Verinder had given her a second chance. She was often sad and alone, and she liked to sit beside the Shivering Sand, a dangerous bog that swallowed anything that fell in.",
+      "One afternoon, three Indian jugglers came to the house and asked politely for Mr Franklin Blake. Betteredge thought them suspicious and sent them away, but he could not forget the look in their eyes.",
+      "Franklin Blake, Rachel's clever cousin, arrived from London carrying the diamond that the Colonel had left her. He admitted that he had noticed some strange Indian men following him, and he wondered why.",
+      "Franklin and Penelope spent the day painting a pretty pattern on the door of Rachel's little sitting-room. When the birthday arrived, the paint was still slightly wet in one place.",
+      "On the morning of her eighteenth birthday, Rachel opened the box and gasped at the diamond. It was as large as a bird's egg, and it seemed to hold a deep, moving light of its own.",
+      "At the birthday dinner, the traveller Mr Murthwaite listened to the story of the diamond. He warned the guests that the three Indians were probably priests, and that they would never give up their search.",
+      "At the same dinner, the cheerful Dr Candy teased Franklin because he had been sleeping badly. He offered to cure him with medicine, but Franklin laughed and refused, and the doctor left the table looking offended.",
+      "Late that evening, Betteredge saw the three Indians standing quietly on the terrace outside. He chased them off with a stick, but he went to bed feeling very worried.",
+      "Before going to bed, Rachel put the diamond in a small cabinet in her sitting-room. She seemed excited and a little nervous, although she would not tell anyone why.",
+      "That night, Franklin, who had slept badly for weeks, fell into a deep sleep. Nobody thought this was strange at the time, and the whole house slept peacefully.",
+      "In the morning, Penelope ran to Betteredge with terrible news: the diamond had disappeared from the cabinet. Rachel was pale and silent, and she would not say a word.",
+      "Superintendent Seegrave arrived, questioned the servants rudely and arrested the three Indians. A magistrate set them free because there was no proof, and Betteredge noticed that the men seemed calm.",
+      "The police noticed a smear in the wet paint of Rachel's door, which suggested that someone had touched it in the night. Rachel refused to speak to anyone about the theft, and this made everyone more puzzled.",
+      "At Franklin's request, the famous London detective Sergeant Cuff arrived. He was a thin, grey, quiet man who loved roses and spent his first minutes admiring the garden instead of asking about the crime.",
+      "Cuff looked closely at the smear on the door and decided that it had been made by a nightgown. He asked to see every nightgown in the house, because one of them must have a paint stain.",
+      "Cuff soon noticed that Rosanna Spearman was behaving in an odd way, and he learned that she often walked to the Shivering Sand. He also learned that she had been seen buying cloth in town.",
+      "Cuff questioned Rachel, but she answered rudely and refused to help him. This behaviour made him suspect that she had hidden her own diamond, perhaps to pay a secret debt.",
+      "When Cuff told Lady Verinder what he thought, she was furious and told him to stop at once. He left the case, but he warned that Rosanna would soon do something strange.",
+      "Rosanna slipped away from the house one day, and soon afterwards she was found drowned in the Shivering Sand. Rachel and her mother, unable to bear the sad house, left for London, and a letter for Franklin was found in her room.",
+      "Rosanna's letter told Franklin that she had hidden a box under the sand near the shore. Franklin and Betteredge hurried to the beach, pulled up the box and opened it.",
+      "Inside the box was a nightgown with a smear of paint on it, and the name sewn on it was Franklin Blake's. Franklin could remember nothing about it, and he set off at once for London to demand the truth from Rachel.",
+      "In London, the story is taken up by Miss Clack, Rachel's very religious cousin. She admired Godfrey Ablewhite, a famous speaker for charities, and she was pleased when he began to visit Rachel every day.",
+      "Rachel agreed to marry Godfrey, but Franklin arrived and demanded to see her. When they met, she told him bitterly that she had seen him take the diamond with her own eyes.",
+      "Lady Verinder became very ill and died, and Rachel was left alone. Mr Bruff, the family lawyer, explained that the will put the family money in a trust for Rachel's future.",
+      "When Godfrey learned that he could not use Rachel's money, he suddenly ended the engagement. Rachel was more relieved than hurt, and Mr Bruff began to wonder what kind of man Godfrey really was.",
+      "A year later, Franklin returned to Yorkshire and met Ezra Jennings, Dr Candy's assistant, who had strange hair that was half black and half white. Ezra was often ill, and he took opium to dull his pain.",
+      "Ezra Jennings showed Franklin some notes that he had made while Dr Candy lay sick with a fever. In the confused words, he had found a clue about the night of the birthday dinner.",
+      "Ezra explained that Dr Candy had secretly put laudanum into Franklin's brandy that night, to prove that medicine could cure his sleeplessness. Franklin, who never knew about it, had been under the drug's power.",
+      "Franklin realised that, under the drug's power, he had probably walked to Rachel's room in his sleep and taken the diamond. He thought he must have done it to keep the jewel safe.",
+      "Ezra suggested a bold experiment: Franklin would take the same dose in the same house and be watched. Mr Bruff, the careful lawyer, agreed to help and promised an imitation diamond.",
+      "Franklin wrote to Rachel, telling her everything about the laudanum and the experiment. She was moved, and she agreed to watch from a hidden place on the night.",
+      "On the night of the experiment, the sitting-room was arranged exactly as on the birthday night, and Rachel hid in a dim corner. Franklin took the dose and fell asleep, but a few hours later he stood up and walked slowly through the dark house.",
+      "In the sitting-room, Franklin opened the drawer and took out the false diamond, holding it carefully. Rachel, watching from her hidden place, burst into tears, because at last she understood.",
+      "In the morning, Rachel ran to Franklin and begged him to forgive her, admitting that she had always loved him. Together they also understood why Rosanna had hidden the nightgown: she had loved Franklin and wanted to protect him.",
+      "Yet one question remained: where was the real diamond? Franklin had put it in his own room that night, so someone must have taken it from him there.",
+      "Sergeant Cuff, who had retired to grow roses, agreed to help once more. He listened to the whole story and began to think carefully about who had been in the house that night.",
+      "Cuff discovered that the kind Godfrey Ablewhite was secretly deep in debt, because he had used money that was not his. He had been staying in the house on the night of the theft.",
+      "Cuff explained his idea: Godfrey had entered Franklin's room while he slept and taken the diamond. Then he had given it to Mr Luker in return for money.",
+      "At last Godfrey collected enough money to pay Mr Luker, who had locked the diamond in a bank. Godfrey took it out, but he was afraid, because the Indians had been watching Luker for months.",
+      "Afraid of being followed, Godfrey disguised himself and took a room at a quiet inn under a false name. He planned to leave England the next day with the diamond.",
+      "During the night, the three Indians entered his room, and Godfrey died there. They took the diamond and left without being seen by anyone at the inn.",
+      "The next day, Cuff and Mr Bruff were called to the inn, where they recognised the dead man as Godfrey. The diamond was gone, and the false name on the register was a lie.",
+      "Cuff discovered that the three Indians had left England by ship. He said that they had done what their religion asked of them, even though they had broken the law.",
+      "A little later, Franklin and Rachel were married, and Betteredge cried openly with happiness. He said that Robinson Crusoe had predicted the happy ending all along.",
+      "Mr Murthwaite, the traveller, wrote a letter from India. He had seen a great festival there and had followed the three priests to a holy city.",
+      "At the festival, Mr Murthwaite saw the yellow diamond shining again in the moon god's forehead, as it had for centuries. The three priests had kept their ancient promise, and the long wandering of the stone was over."
+    ],
+    "C1C2": [
+      "Centuries ago, a great yellow diamond blazed in the forehead of a Hindu statue of the moon god, and a legend said that its light rose and fell with the moon. Three Brahmin priests, charged by their faith with its protection, were bound by sacred oath to watch over it through every generation. Should it ever be stolen, the story went, they and their heirs would follow it across the world until it was restored.",
+      "When English soldiers stormed the fortress of Seringapatam in 1799, a young officer named John Herncastle made his way to the holy place and carried off the jewel. Nobody could say exactly how he had done it, though his horrified companions whispered that blood had been shed. From that day onward, the three guardians of the sacred stone had a name to follow, and a long road before them.",
+      "When Colonel Herncastle died, his will left the famous diamond to his niece, Rachel Verinder, to be hers on her eighteenth birthday. Lady Verinder, who had never forgiven her brother, suspected that this strange gift was his last act of revenge. Yet no one could say what harm a jewel might do to a happy girl.",
+      "Gabriel Betteredge, who had served the Verinder family for most of his life, began his account in the great house in Yorkshire where the story would unfold. He was shrewd, loyal and happily long-winded, and he trusted the old novel Robinson Crusoe to settle every doubt that troubled him. Whenever matters grew serious, he would take it down from the shelf and open it.",
+      "Among the servants was Rosanna Spearman, a quiet housemaid who had once been in prison for theft and had been given a second chance by Lady Verinder's kindness. She was solitary and watchful, and in her free hours she loved to sit by the Shivering Sand, a treacherous quicksand that seemed to tremble as the tide came in. Betteredge, who was fond of her, never understood why such a lonely place attracted her.",
+      "One afternoon, three dark-skinned jugglers in white robes appeared at the front door, performed a few tricks, and then asked with great courtesy whether Mr Franklin Blake was expected. Betteredge, who prided himself on his instincts, sent them away at once, though he could not shake the feeling that their politeness hid a purpose. He would remember that visit, and the soft smiles of the three visitors, for the rest of his life.",
+      "Franklin Blake, a cousin of the family who had spent many years travelling in Europe, arrived from London bringing the Colonel's diamond in his luggage. He confessed, with a nervous laugh, that he had noticed some foreign gentlemen shadowing him, and he could not decide whether to be amused or alarmed. Betteredge, remembering the jugglers at the door, felt a cold prickle run down the back of his neck.",
+      "To please Rachel, Franklin and the maid Penelope spent a whole afternoon decorating the door of her private sitting-room with a delicate pattern of flowers. In the rush of the following day, however, the paint on one corner had not dried, and the door had to be left alone. It was a small and easily overlooked detail, but it would soon prove to be of the greatest importance.",
+      "On the morning of her eighteenth birthday, Rachel opened the small box and stared in silence at the jewel that lay in it. It was as large as a pigeon's egg, and its yellow depths held a strange, moving light, as if some small moon were imprisoned there. She pinned it to her white dress and held up her head like a young queen.",
+      "During the birthday dinner, the guests drew out the story of the diamond, and Mr Murthwaite, a traveller who knew India well, listened with a serious expression. He warned them that the three jugglers were almost certainly holy men, prepared to spend a lifetime, and even to sacrifice it, in recovering their treasure. A few of the diners smiled politely at this solemn warning, but nobody at the table felt entirely easy.",
+      "Over dessert, the jovial Dr Candy noticed that Franklin looked tired, and Franklin admitted that he had slept very badly since giving up his cigars. The doctor boasted that a little medicine would put him right, but Franklin scoffed at the whole idea of doctors, and the little man was visibly stung. The little scene passed off in laughter and was forgotten by everyone at the table, except perhaps by the doctor.",
+      "Late that night, Betteredge, taking a last look around the grounds, noticed three figures standing perfectly still on the terrace, staring up at Rachel's windows. Waving his stick, he drove them off into the darkness, but he returned to the house more anxious than he cared to admit. Something, he felt quite sure, was about to happen in the house, and he did not like the feeling at all.",
+      "Before retiring, Rachel placed the jewel in a little Indian cabinet in her sitting-room, closed the drawer, and refused every offer to lock it away more safely. She was flushed and strangely quiet, as though she were keeping some delightful or unsettling secret from the house. Nobody pressed her for an explanation, and the lights in the great house went out one by one.",
+      "That night, Franklin, who had tossed restlessly for weeks, fell almost at once into a heavy and dreamless sleep. Nobody remarked on it then, and the whole sleeping house seemed as peaceful as a churchyard. Only much later would anyone ask why he, of all people, had slept so soundly.",
+      "In the morning, Penelope came running to her father with the dreadful news that the drawer in Rachel's cabinet was empty, and that the diamond had vanished in the night. Rachel herself stood white and speechless, as though she had been struck, and no questions could make her speak. Within minutes the whole house had fallen into confusion, and every servant was talking at once in the passages.",
+      "The local superintendent, a pompous man named Seegrave, arrived with great importance, questioned the servants in the most clumsy manner and promptly arrested the three Indian jugglers. The magistrate, finding no evidence whatever against them, ordered their release, and the men left the court with a polite bow. Betteredge, who watched them go, thought they looked less like guilty men than like patient ones.",
+      "Someone noticed a long smear across the still-wet paint of Rachel's door, which suggested that a garment had brushed it during the night. Rachel, meanwhile, shut herself in her room and refused to discuss the theft with anyone, to the bewilderment of her mother and the whole household. Her silence seemed to deepen the mystery rather than lighten it, and her mother grew more anxious by the hour.",
+      "At Franklin's request the celebrated London detective, Sergeant Cuff, arrived in Yorkshire, a thin and grey and mournful figure with eyes that seemed to look straight through a person. To Betteredge's astonishment, his first act was to admire the rose garden, and he lingered there as though no crime had ever occurred. Betteredge learned only later that the man's mind worked best when it appeared to be resting.",
+      "Examining the paint with a small glass, Cuff declared that the smear had been made by a nightgown or some similar piece of clothing as its owner passed the door. Somewhere in the house, he concluded, there was a garment stained with wet paint, and whoever had worn it would be the thief. He therefore asked permission to inspect every nightgown in the house, and the laundry book that listed them all.",
+      "Cuff quickly observed that Rosanna Spearman had been behaving oddly since the morning of the theft, and he learned from Betteredge that she walked often to the Shivering Sand, where she seemed to hide something. He also heard that she had bought cloth in the nearby town, and that she had lately been seen whispering with a lame fisherman's daughter named Lucy Yolland. These small facts were only loose threads, but Cuff, who understood such things, began quietly to follow each of them.",
+      "When Cuff questioned Rachel, she answered rudely and with open anger, refusing to help in any way, and this behaviour led the detective to a startling conclusion. He privately suspected that the young lady herself had hidden her own diamond, perhaps to pay some secret debt, and that the servants were being blamed for her scheme. It was the kind of idea that no proud family would ever forgive, and Cuff knew it as he spoke.",
+      "When Cuff gently explained his theory to Lady Verinder, she was furious, and she dismissed him from the case in the strongest possible terms. The detective bowed, accepted his fee and left, though not before predicting that Rosanna Spearman, if watched, would soon reveal something about the diamond. Nobody in the room could imagine how very true this prediction would prove, or how soon.",
+      "One morning Rosanna Spearman slipped out of the house and did not return, and Betteredge, remembering how wretched she had looked for weeks, was seized by a dreadful presentiment. A few days later it was learned that she had gone to the Shivering Sand and drowned herself, leaving a letter addressed to Franklin with a friend. Unable to endure the unhappy house, Rachel and Lady Verinder left for London, and the household was left to its grief.",
+      "In her letter to Franklin, Rosanna confessed that she loved him and had found something in the house that she had hidden under the sand near the shore, in a tin box with a chain. Franklin and Betteredge hurried to the beach, found the chain by the water's edge, and dragged out the box together. Neither of them spoke a single word as they knelt on the wet sand and slowly opened it.",
+      "Inside the box lay a nightgown stained with paint, and the name sewn into its collar was Franklin Blake. Franklin stared at the garment in appalled disbelief, for he had no memory whatever of the night in question, yet Rosanna, it seemed, had found the stain and hidden the gown to shield the man she loved. Betteredge watched him leave for London that same day, and with that his own part of the story came to an end.",
+      "The story is next carried on by Miss Drusilla Clack, a devout cousin who delivered improving pamphlets to everyone she met and who admired Godfrey Ablewhite beyond measure. In her account, Godfrey was a saint, a famous speaker on behalf of charities, and a gentleman whose attentions to Rachel were a joy to the whole family. Little did she suspect what lay behind the famous smile of the man she so admired.",
+      "Rachel had by then accepted Godfrey's offer of marriage, but Franklin, determined to learn the truth, forced his way into the room and demanded an explanation. She replied with cold, shaking fury that she had seen him take the diamond with her own eyes, and she begged him never to speak to her again. He left the house in silence, more bewildered and more determined than he had ever been in his life.",
+      "Lady Verinder grew suddenly ill and died in her London house, leaving Rachel alone and heartbroken. Mr Bruff, the family lawyer, explained that the will had placed her fortune in a trust, so that Rachel could enjoy its income but could not touch its capital. The arrangement was a sensible one, and it was soon to expose someone's true character.",
+      "As soon as Godfrey discovered that he could never lay a finger on Rachel's capital, he found a polite excuse to withdraw from the engagement, and the whole world admired his delicacy. Rachel, to her own surprise, felt more relief than sorrow, and Mr Bruff began to ask himself what sort of man the famous philanthropist really was. The lawyer had always been known for seeing a little further than most men, and he kept his thoughts to himself.",
+      "Nearly a year afterwards Franklin came back to Yorkshire, resolved to uncover the true story of that night, and there he made the acquaintance of Ezra Jennings, the assistant of the ailing Dr Candy. He was a gentle, shabby man whose hair grew in two colours, black and white, and who relied on opium to dull a constant pain. Despite all his sorrows, Franklin felt himself immediately drawn to the man's quick intelligence and his remarkable kindness.",
+      "While nursing Dr Candy through his fever, Ezra Jennings had patiently written down every disjointed word that the sick man muttered, and he now laid those scraps before Franklin. Putting them together like a puzzle, he showed that the doctor was talking about the night of Rachel's birthday, and about something he had done to Franklin. What the doctor had done to Franklin that night, and why, became suddenly and astonishingly clear.",
+      "Ezra explained that Dr Candy, stung by Franklin's mockery at the birthday dinner, had secretly slipped a dose of laudanum into his brandy and water, meaning to prove that medicine could cure his sleeplessness. Franklin, who had never been told, had spent the night under the powerful influence of the drug. It was the missing link in the whole mystery, and it changed everything that Franklin thought he knew about himself.",
+      "As the explanation sank in, Franklin saw that under the influence of the drug he had probably risen in his sleep, walked to Rachel's sitting-room and taken the diamond himself. In his dreams he must have thought that he was protecting it from the Indians, and he had no more memory of it than a man has of last night's dream. The truth was horrible and wonderful at once, for it cleared his honour but left him a stranger to his own actions.",
+      "To prove his theory, Ezra proposed a bold experiment: Franklin should take the same dose in the same house, under the same conditions, and be watched to see whether he repeated the actions of that night. Mr Bruff, the cautious family lawyer, listened carefully and agreed to take part, offering to supply an imitation diamond and insisting that every step be witnessed by honest men. The danger was small and the prize was great, and Franklin accepted without a moment's hesitation.",
+      "Franklin wrote to Rachel, setting out everything he had learned about the laudanum and the proposed experiment, and she was deeply moved to learn that he might be innocent after all. She agreed to come to Yorkshire and watch the experiment from a hidden corner of her sitting-room, with a trusted friend by her side. Her heart, for the first time in a long and bitter year, felt a little lighter in her breast.",
+      "On the appointed night the sitting-room was arranged with scrupulous care to match the scene of the original theft, and Rachel took her place in a dim corner with Betteredge and Mr Bruff close by. Franklin swallowed his dose, lay down and sank into slumber, but some hours later he rose and, with open, unseeing eyes, padded slowly through the darkened corridors. The watchers followed at a distance, hardly daring to breathe, while Ezra Jennings noted every movement in his little book.",
+      "In the sitting-room he went straight to the cabinet, opened the drawer and lifted out the false diamond with the care of a man who believes he is saving something precious. In her corner, Rachel pressed a hand to her mouth, and tears of relief rolled down her face, for in that instant she understood everything. Then the sleepwalker turned slowly, still with the same fixed look, and carried the stone away into the dark passage.",
+      "At dawn, Rachel ran to Franklin and begged him to forgive her for having believed the worst, and he, laughing and trembling, forgave her at once. She confessed that she had loved him through all those wretched months, even when she thought him a thief, and had kept silent only to protect him. Now, too, the story of Rosanna was clear: she had hidden the stained gown in the hope of shielding the man she loved, and her loyal, foolish act had cost her her life.",
+      "One question, however, remained unanswered, and it was the greatest of all: if Franklin had carried the diamond to his room, who had taken it from him afterwards? The jewel could not have walked away on its own, and no Indian had been seen in the house after midnight. The answer, they felt sure, lay somewhere in London, in that vast and crowded city of strangers.",
+      "Sergeant Cuff, who had retired from the police to devote himself to his roses, listened to the whole strange story with his usual calm face and agreed to help once more. As he thought it through, he asked himself who had stayed in the house that night, who had needed money, and who could have slipped unseen into a sleeping man's room. A single name rose to the surface of his mind, and it was the last one anyone in the family would have expected.",
+      "Cuff soon discovered that the saintly Godfrey Ablewhite, for all his public generosity, was secretly deep in debt, having used funds that did not belong to him and having been pressed to return them. On the night of the birthday he had been a guest in the house, and he was the only man there with a powerful reason to need a diamond. The detective began to see the whole shape of the crime, and it was a very sad and ugly one.",
+      "Cuff laid out his theory with quiet confidence: Godfrey, creeping into the room of the drugged and sleeping Franklin, had found the diamond lying there, and had slipped away with it. In London he had pledged it with the moneylender Mr Luker for a large loan, which explained why the Indians had been watching Luker's house. Everything, from the paint to the silent watchers, finally fitted together like the pieces of a puzzle.",
+      "At last Godfrey managed to raise enough money to repay Mr Luker, who had locked the diamond away in a bank vault for fear of the watching Indians. He collected the stone in a small sealed packet and walked out into the street with sweat on his forehead, for he knew that the three silent men were somewhere behind him. They were, in fact, a good deal closer than he imagined, and they were never going to let him out of their sight.",
+      "Afraid of being followed, Godfrey disguised himself in rough clothes, took a room at a quiet inn under a false name and planned to leave England with the diamond the next morning. He fastened the door, set the packet under his pillow and tried to calm his racing heart. The inn was ordinary and anonymous, but it was not as secret as he had hoped, nor as safe.",
+      "In the small hours of the night, the three Indians, who had followed him unseen all the way from the bank, entered Godfrey's room and put an end to the matter. They took the diamond from its hiding place, and they slipped out of the inn as quietly as they had come, leaving the body to be found in the morning. No blood was spilled, and no cry was heard by the sleeping guests in the neighbouring rooms.",
+      "The next morning Cuff and Mr Bruff were summoned to the inn, where they recognised the dead sailor, beneath his disguise, as Godfrey Ablewhite. His packet was gone, and the false name on the register proved to be an invention. The detective examined the room for some time and then spoke quietly of the three silent watchers.",
+      "Cuff learned that the three Indians had left England by ship under assumed names, and that they were already far beyond the reach of any English law. He remarked, without bitterness, that they had done what their faith demanded of them, though one man had paid with his life. Nobody in the room felt much like arguing the point, and Mr Bruff quietly closed his notebook.",
+      "Not long afterwards, Franklin and Rachel were married in a small country church, with Betteredge weeping happily in the front row and declaring that Robinson Crusoe had predicted it all along. The long misery of the diamond was finished, and a new household began, full of laughter. For once in his talkative life, even the old steward was quite lost for words, and he wept like a child.",
+      "Mr Murthwaite, the experienced traveller, wrote from India to describe what he had seen on a long journey into the western province of Kattiawar. There, at a great festival of pilgrims, he recognised the three priests among the crowd, bearing themselves with the calm of men whose work is done. He had followed them out of curiosity, and what he saw next he would never forget.",
+      "In the holy city, Mr Murthwaite saw the great yellow diamond shining once more in the forehead of the moon god, exactly as it had blazed for centuries before the soldier carried it away. The three priests had kept their ancient promise, and the light of the stone seemed, in that moment, to rise and fall with the moon. Its long wandering was over, and the English family was free of it at last."
+    ]
+  }
+}

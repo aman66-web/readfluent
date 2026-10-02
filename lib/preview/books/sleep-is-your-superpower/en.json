@@ -1,0 +1,417 @@
+{
+  "slug": "sleep-is-your-superpower",
+  "meta": {
+    "blurb": "Lena has an exam in two weeks and has been studying until three every morning. Her aunt Rosa, who works in a sleep clinic, shows her what really happens in the brain at night, and why sleep may be the best study tool she has.",
+    "bible": "Lena: a university student of about twenty, with an exam in Two weeks, who stays up too late. Rosa: Lena's aunt, a sleep technician at a sleep clinic, patient and funny. They talk in Lena's small flat and on walks in the park. Key terms: Circadian, Melatonin, Adenosine, Caffeine, Glymphatic, REM, Insomnia, Apnoea, Cortisol, Dopamine, Microsleep, Chronotype, Larks, Owls, Dolphins. Real science only, hedged where research is uncertain: no invented numbers or studies; some findings come mostly from animals and the book says so. Voice: friendly, lively, clear, never scary. Nobody gets personal medical advice; the book gives general information and tells readers to see a doctor about their own health. This book is general information and is not medical advice."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Lena studies at a desk at three in the morning beside a glowing phone",
+      "summary": "Lena is studying at three in the morning with an exam in two weeks."
+    },
+    {
+      "n": 2,
+      "scene": "Aunt Rosa in a coat stands in Lena's doorway holding a bag of fruit",
+      "summary": "Her aunt Rosa, who works at a sleep clinic, visits and says sleep is the best study tool."
+    },
+    {
+      "n": 3,
+      "scene": "A clock face with one third filled by a sleeping figure",
+      "summary": "We spend about a third of life asleep, and it is not wasted time."
+    },
+    {
+      "n": 4,
+      "scene": "Four sleepers of different ages lie in beds from small to large",
+      "summary": "How much sleep we need depends on age; adults usually need about seven to nine hours."
+    },
+    {
+      "n": 5,
+      "scene": "A brain glows with moving coloured waves inside a sleeping head",
+      "summary": "Sleep is an active state in which the brain is busy and goes through stages."
+    },
+    {
+      "n": 6,
+      "scene": "A sleeper in a dim room with slow gentle waves drawn above the bed",
+      "summary": "Light sleep is the entry stage and takes up about half of the night."
+    },
+    {
+      "n": 7,
+      "scene": "A sleeper lies very still while a slow thick wave rolls across a screen",
+      "summary": "Deep sleep brings slow brain waves, and the body repairs itself and releases growth hormone."
+    },
+    {
+      "n": 8,
+      "scene": "A sleeper's eyes move under closed lids while a dream cloud floats above",
+      "summary": "REM sleep is when most vivid dreams happen, the eyes move and the muscles are relaxed."
+    },
+    {
+      "n": 9,
+      "scene": "A circular diagram of one night with four rounds of waves in a row",
+      "summary": "A night is made of cycles of about ninety minutes, four to six of them."
+    },
+    {
+      "n": 10,
+      "scene": "A night drawn as a chart with deep sleep early and dreaming sleep late",
+      "summary": "Deep sleep comes mostly early in the night and REM sleep later, so short sleep cuts REM."
+    },
+    {
+      "n": 11,
+      "scene": "A small clock glows inside a head beside a sun and a moon",
+      "summary": "The body clock runs on a rhythm of about twenty-four hours, set by a master clock in the brain."
+    },
+    {
+      "n": 12,
+      "scene": "Morning sun shines through a window onto a sleepy face",
+      "summary": "Light, especially morning light, is the main signal that sets the body clock."
+    },
+    {
+      "n": 13,
+      "scene": "A dark room with a small glowing moon and a calm sleeping figure",
+      "summary": "Melatonin rises in the evening when it gets dark and signals night to the body."
+    },
+    {
+      "n": 14,
+      "scene": "A bird at sunrise and an owl at midnight look at a clock",
+      "summary": "Some people are larks and some are owls, partly because of genes."
+    },
+    {
+      "n": 15,
+      "scene": "A group of teenagers asleep at desks in an early morning classroom",
+      "summary": "The teenage body clock shifts later, which makes early starts hard."
+    },
+    {
+      "n": 16,
+      "scene": "A tall tower of small blocks grows beside a clock",
+      "summary": "Sleep pressure builds the longer we are awake, linked to a chemical called adenosine."
+    },
+    {
+      "n": 17,
+      "scene": "A steaming coffee cup sits at four in the afternoon on a desk",
+      "summary": "Caffeine blocks adenosine's effect and stays in the body for hours."
+    },
+    {
+      "n": 18,
+      "scene": "A figure yawns at a desk while a clock reads two",
+      "summary": "There is a natural dip in alertness in the early afternoon."
+    },
+    {
+      "n": 19,
+      "scene": "A person naps on a sofa under a blanket beside a clock",
+      "summary": "A short nap can help, but long naps late in the day can spoil night sleep."
+    },
+    {
+      "n": 20,
+      "scene": "A brain turns the pages of a glowing book while a figure sleeps below",
+      "summary": "Sleep helps the brain to store and organise what has been learned."
+    },
+    {
+      "n": 21,
+      "scene": "Lena closes her books at night while a dim moon shines through the window",
+      "summary": "Staying up all night to study is a poor plan; studying then sleeping works better."
+    },
+    {
+      "n": 22,
+      "scene": "A child falls asleep over a picture book beside a lamp",
+      "summary": "Studies in many ages find sleep after learning improves recall, from children to adults."
+    },
+    {
+      "n": 23,
+      "scene": "A gentle stream of blue light runs through a brain while a figure sleeps",
+      "summary": "The brain may clear waste during sleep, shown mainly in animals so far."
+    },
+    {
+      "n": 24,
+      "scene": "Lena frowns at an annoying message on her phone with tired eyes",
+      "summary": "Poor sleep makes emotions stronger and people more irritable."
+    },
+    {
+      "n": 25,
+      "scene": "Two arrows loop between a sleeping moon and a thoughtful face",
+      "summary": "Sleep and mental health affect each other; low mood that lasts needs a doctor."
+    },
+    {
+      "n": 26,
+      "scene": "A tissue box and a mug beside a person with a cold",
+      "summary": "One study found that people who slept less were more likely to catch a cold."
+    },
+    {
+      "n": 27,
+      "scene": "A heart drawn on a night chart dips gently as a sleeper rests",
+      "summary": "At night blood pressure dips; long-term short sleep is linked to heart problems."
+    },
+    {
+      "n": 28,
+      "scene": "A person at a fridge in the night light with a plate of biscuits",
+      "summary": "Short sleep seems to raise appetite hormones, so tired people feel hungrier."
+    },
+    {
+      "n": 29,
+      "scene": "A car on a dark road, the driver's eyes closing",
+      "summary": "Drowsy driving is dangerous and causes many accidents."
+    },
+    {
+      "n": 30,
+      "scene": "A glass of wine sits next to a clock showing a long night awake",
+      "summary": "Being awake for about seventeen hours can affect performance like a small amount of alcohol."
+    },
+    {
+      "n": 31,
+      "scene": "A student's head drops at a lecture desk for a moment while others write",
+      "summary": "Microsleeps are short moments of sleep that happen without warning when someone is very tired."
+    },
+    {
+      "n": 32,
+      "scene": "A person with a coffee mug proudly holds up five fingers",
+      "summary": "Most people who say they cope on five hours still perform worse; a few rare people truly need less."
+    },
+    {
+      "n": 33,
+      "scene": "A calendar with a weekend circled and a sleeper lying late in bed",
+      "summary": "Sleep debt can be partly paid back, but weekend lie-ins do not fully repair the damage."
+    },
+    {
+      "n": 34,
+      "scene": "A dolphin glides through blue water with one eye open and one eye closed",
+      "summary": "Dolphins sleep with half the brain at a time, so every animal solves sleep differently."
+    },
+    {
+      "n": 35,
+      "scene": "A dreamer floats above a bed among soft clouds and strange shapes",
+      "summary": "Scientists do not fully know why we dream, though dreams may help memory and emotion."
+    },
+    {
+      "n": 36,
+      "scene": "Lena arranges her bedroom with dark curtains and a cool open window",
+      "summary": "A dark, quiet, slightly cool bedroom helps many people sleep."
+    },
+    {
+      "n": 37,
+      "scene": "A glowing phone screen shines in the dark beside a dim yellow lamp",
+      "summary": "Bright light in the evening can delay sleepiness; dim, warm light is better."
+    },
+    {
+      "n": 38,
+      "scene": "A calendar shows the same wake time written on each morning",
+      "summary": "A regular wake-up time helps the body clock, even at weekends."
+    },
+    {
+      "n": 39,
+      "scene": "Lena stands on a balcony in bright morning light with a cup of tea",
+      "summary": "Bright morning light and being outdoors help to set the body clock."
+    },
+    {
+      "n": 40,
+      "scene": "A clock showing two in the afternoon beside an empty coffee cup",
+      "summary": "Many experts suggest limiting caffeine in the afternoon and evening."
+    },
+    {
+      "n": 41,
+      "scene": "A glass of wine on a bedside table next to a restless sleeper",
+      "summary": "Alcohol can make you drowsy but it breaks up sleep and reduces REM."
+    },
+    {
+      "n": 42,
+      "scene": "Lena in running shoes jogs through a park in the late afternoon sun",
+      "summary": "Regular physical activity tends to improve sleep; time of day matters little for most people."
+    },
+    {
+      "n": 43,
+      "scene": "Lena writes in a notebook by a small lamp before bed",
+      "summary": "A calm wind-down routine and writing down worries can help with falling asleep."
+    },
+    {
+      "n": 44,
+      "scene": "Lena sits in a dim living room with a book at two",
+      "summary": "If you cannot sleep, get up and do something calm instead of lying awake watching the clock."
+    },
+    {
+      "n": 45,
+      "scene": "Rosa speaks gently to Lena at a kitchen table with a calendar",
+      "summary": "Insomnia is common; if it lasts for weeks, a doctor can help, and talking therapy for sleep works well."
+    },
+    {
+      "n": 46,
+      "scene": "A sleeper with a mask on a pillow and a sound wave above",
+      "summary": "Sleep apnoea is when breathing stops during sleep; loud snoring and tiredness mean see a doctor."
+    },
+    {
+      "n": 47,
+      "scene": "A wristband shows charts and graphs on a screen next to a puzzled face",
+      "summary": "Sleep trackers are interesting but imperfect, and too much attention can cause worry."
+    },
+    {
+      "n": 48,
+      "scene": "A bottle of tablets and a leaflet lie beside a question mark",
+      "summary": "Sleeping pills and melatonin supplements should be discussed with a doctor or pharmacist."
+    },
+    {
+      "n": 49,
+      "scene": "Lena sleeps peacefully in the dark with her books stacked tidy beside the bed",
+      "summary": "Lena sleeps well for two weeks, then takes her exam calmly."
+    },
+    {
+      "n": 50,
+      "scene": "Lena and Rosa sit together on the balcony at dusk with warm drinks",
+      "summary": "The book ends with a reminder that it is general information and not medical advice."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "It is three in the morning, and Lena is still studying hard.",
+      "Her aunt Rosa works in a sleep clinic and she visits Lena.",
+      "People spend about one third of their lives asleep.",
+      "Adults usually need about seven to nine hours of sleep a night.",
+      "Sleep is not switching off, because the brain stays very busy.",
+      "First comes light sleep, when you are easy to wake up.",
+      "Next comes deep sleep, when the body rests and repairs itself.",
+      "In REM sleep, your eyes move fast and you have vivid dreams.",
+      "One sleep cycle takes about ninety minutes, and we have several each night.",
+      "Deep sleep comes early in the night, and more dreaming comes later.",
+      "Your body has a clock that runs on a rhythm of about one day.",
+      "Light tells the body clock what time of day it is.",
+      "When it gets dark, your body makes a hormone called melatonin.",
+      "Some people like mornings, and other people like to stay up late.",
+      "Teenagers often fall asleep later, and this is normal.",
+      "The longer you stay awake, the more you feel the need to sleep.",
+      "Coffee blocks the effect of adenosine, so you feel less sleepy.",
+      "Most people feel sleepy in the early afternoon, even without a big lunch.",
+      "A short nap can help, but a long nap can make night sleep harder.",
+      "While you sleep, your brain helps to store what you learned.",
+      "Rosa says that studying all night is not a good plan.",
+      "Sleep helps children, students and old people to remember.",
+      "Some scientists think the brain washes itself clean during sleep.",
+      "Without sleep, small problems can feel very big.",
+      "Sleep and feelings affect each other, in both directions.",
+      "One study found that people who slept less caught more colds.",
+      "At night, the heart rests, and blood pressure goes down.",
+      "After a short night, people are often more hungry the next day.",
+      "Tired drivers cause many accidents on the road.",
+      "Being awake too long can make you slow, like drinking alcohol.",
+      "Very tired people can fall asleep for a moment without knowing.",
+      "Most people cannot get used to sleeping only five hours.",
+      "You cannot fully repay lost sleep with a long sleep at the weekend.",
+      "Dolphins sleep with half of their brain awake at a time.",
+      "We still do not know exactly why people dream.",
+      "Lena makes her bedroom dark, quiet and a little cool.",
+      "Bright light in the evening makes it harder to feel sleepy.",
+      "Waking up at the same time every day helps the body clock.",
+      "A walk in the morning light helps you sleep better at night.",
+      "Rosa tells Lena to stop drinking coffee in the afternoon.",
+      "A drink may make you sleepy, but it makes your sleep worse.",
+      "Moving your body during the day can help you to sleep.",
+      "Before bed, Lena writes down her worries and puts the notebook away.",
+      "If sleep does not come, Rosa says to get up and read.",
+      "If you cannot sleep for many weeks, you should see a doctor.",
+      "Some people stop breathing for a short time in their sleep.",
+      "A sleep tracker can be interesting, but it is not perfect.",
+      "Pills for sleep should only be taken after asking a doctor.",
+      "Lena sleeps well for two weeks and feels ready for her exam.",
+      "This book is general information and it is not medical advice."
+    ],
+    "B1B2": [
+      "Lena has an exam in two weeks, and she has been studying until three every night. She is tired, but she believes that sleeping less will give her more time to learn.",
+      "Her aunt Rosa works in a sleep clinic, where she helps doctors to study how people sleep. When she sees the tired look on Lena's face, she says that sleep may be the best study tool she has.",
+      "Rosa begins with a simple fact about a whole life. If you live to be ninety, you will spend about thirty years asleep, and none of that time is wasted.",
+      "The amount of sleep we need depends on our age. Babies need much more than adults, teenagers usually need about eight to ten hours, and most adults do best with about seven to nine.",
+      "Many people think that sleep is like switching off a machine. In fact the brain stays very busy all night, and it moves through different stages, each with its own job.",
+      "The first stage is light sleep, which begins as soon as you doze off. It is easy to wake a person from it, and it takes up about half of an adult's night.",
+      "Next comes deep sleep, when the brain makes big, slow waves and the body is very still. The body does a lot of repair work then, and it releases growth hormone, which helps children to grow.",
+      "The third stage is called REM sleep, which stands for rapid eye movement. Your eyes move quickly behind closed lids, your brain is very active, and most vivid dreams happen now, while the big muscles are relaxed.",
+      "These stages come in a cycle that lasts about ninety minutes. A normal night has four to six of these cycles, one after another, so the stages come round again and again.",
+      "Deep sleep comes mostly in the first half of the night, while REM sleep gets longer toward the morning. So if you cut your night short, you lose a good share of your REM sleep.",
+      "Rosa explains that the body has its own clock, which runs on a rhythm of about twenty-four hours. The word for it is circadian, and its master clock sits in a tiny part of the brain.",
+      "The body clock is not perfect, so it needs to be reset every day. The strongest signal for this is light, especially bright daylight in the morning, which tells the brain that the day has begun.",
+      "When the evening light fades, the brain starts to release a hormone called melatonin. It does not knock you out like a pill, but it tells the body that night has come and prepares it for sleep.",
+      "People differ in their natural timing, and genes play a part. Larks wake early and feel best in the morning, while owls feel more awake in the evening.",
+      "During the teenage years, the body clock tends to shift later. Teenagers feel sleepy later at night and want to wake later in the morning, and this is biology, not laziness.",
+      "Rosa explains a second system in the brain, called sleep pressure. The longer you stay awake, the more a chemical called adenosine builds up in the brain, and the sleepier you feel.",
+      "Caffeine works by blocking the places in the brain where adenosine acts, so you feel less sleepy. However, it stays in the body for hours, and a coffee at four may still be working at bedtime.",
+      "Many people feel sleepy in the early afternoon, and a big lunch is not the only reason. The body clock has a natural dip in alertness at that time of day.",
+      "Rosa says that a short nap of about twenty minutes can help alertness for many people. A long nap late in the day can make it harder to fall asleep at night.",
+      "Rosa now comes to what Lena most wants to know, which is memory. Many experiments show that sleep helps the brain to store new memories, so that what you learned is more likely to stay.",
+      "Rosa tells Lena that an all-night study session is a poor plan, because a tired brain learns less and remembers less. It is better to study, then sleep, and then look at the notes again.",
+      "Scientists have tested this idea with all sorts of people, from babies to older adults. In many studies, people who slept after learning remembered more than people who stayed awake for the same time.",
+      "Some research suggests that the brain clears away waste products while we sleep, using a system called the glymphatic system. Most of this work has been done in mice, so scientists are careful about what it means for people.",
+      "When we are short of sleep, we often react more strongly to small problems and feel more irritable. Brain scans suggest that the parts of the brain that handle emotion become more reactive when sleep is short.",
+      "Rosa adds that the link between sleep and mood works in both directions. Poor sleep can make low mood worse, and low mood can make sleep worse, so see a doctor if it lasts for weeks.",
+      "The immune system also seems to need good sleep, which helps the body to fight infection. In one study, volunteers were given a cold virus, and those who slept less than six hours were more likely to get ill.",
+      "During normal sleep, the heart slows down and blood pressure falls for a few hours. People who sleep too little over many years seem to have a higher risk of heart problems, but this link does not prove cause.",
+      "Rosa mentions that people who sleep little often feel hungrier. Small experiments suggest that short sleep changes hormones that control appetite, which may explain why Lena craves biscuits at midnight.",
+      "Rosa explains that tiredness is a real danger on the road. Drowsy driving is thought to cause a large number of crashes, and it can be as dangerous as drinking and driving.",
+      "Some studies found that staying awake for about seventeen hours affects reaction time and attention. The effect is similar to that of a small amount of alcohol, and it gets worse after a full day and night.",
+      "Rosa describes microsleeps, which are very short moments of sleep that can last a few seconds. A person who is very tired may have one without knowing, even with their eyes open.",
+      "Some people say that they feel fine on five hours of sleep. Tests suggest that most of them are performing worse than they realise, though a very small number of people really do need less.",
+      "Rosa talks about sleep debt, which is the amount of sleep you have lost. Sleeping late at the weekend can help a little, but studies suggest that it does not fully make up for a week of short nights.",
+      "Animals sleep in very different ways, and some are surprising. Dolphins rest one half of the brain at a time, so they can keep swimming and come up for air.",
+      "Lena asks the question that everyone asks: why do we dream? Rosa admits that scientists do not know for sure, although dreams may help with memory and with handling emotions.",
+      "Rosa now moves on to what Lena can do for herself. Most people sleep best in a bedroom that is dark, quiet and a little cool, so Lena hangs thick curtains.",
+      "Bright light late in the evening can make it harder to feel sleepy, because it delays the rise of melatonin. Rosa suggests dimming the lights and putting away phones for a while before bed.",
+      "The body clock likes a regular pattern, just like a school timetable. Rosa advises waking at about the same time each morning, even at the weekend, because it sets the rhythm of the day.",
+      "Rosa also advises getting outside in the morning, even when it is cloudy. Daylight is much brighter than indoor light, and it helps the body clock to know that the day has started.",
+      "Because caffeine stays in the body for hours, Rosa suggests that Lena stops drinking coffee and strong tea by the early afternoon. The best time to stop differs from person to person.",
+      "Some people have a drink to help them sleep. Alcohol can make you drowsy at first, but it tends to break up sleep later in the night and to reduce REM sleep.",
+      "Regular exercise usually helps people to sleep better and to fall asleep more quickly. Most people can exercise at any time of day, though a hard workout right before bed does not suit everyone.",
+      "A calm routine before bed helps many people to switch off. Lena starts to write down tomorrow's tasks and any worries on a piece of paper, and then she puts the notebook away.",
+      "On some nights sleep will not come, and Rosa has advice for that. Instead of lying in bed and watching the clock, she suggests getting up and doing something quiet in dim light until you feel sleepy.",
+      "Rosa explains that insomnia, meaning long-lasting trouble with sleep, is common. If it goes on for weeks and affects daily life, a doctor can help, and a talking therapy for sleep works well for many people.",
+      "Another condition is sleep apnoea, in which a sleeper's breathing stops many times in the night for short periods. Loud snoring, gasping and feeling very tired in the day are signs that a doctor should check.",
+      "Lena asks about the sleep trackers that her friends wear. Rosa says that they can show useful patterns, but they are not very exact, and some people worry so much that they sleep worse.",
+      "Lena wonders about sleeping pills and melatonin tablets, and Rosa is careful. Products differ and some cause side effects, so a doctor or pharmacist should always be asked first.",
+      "For two weeks Lena follows the plan and sleeps about eight hours a night. On the morning of the exam she feels calmer and clearer than she has for months, although sleep alone will not pass it.",
+      "Rosa tells Lena that sleep is not magic, but it does support memory, mood, health and energy. This book gives general information only, and it is not medical advice, so please see a doctor if you are worried about your sleep."
+    ],
+    "C1C2": [
+      "At three in the morning, the only light in Lena's small flat came from her desk lamp and the cold glow of her phone. She had an exam in two weeks, and she had convinced herself that every hour of sleep she gave up was an hour gained for learning. Her eyes were heavy, her coffee was cold, and a small voice at the back of her mind kept asking whether this was really working.",
+      "Lena's aunt Rosa worked in a sleep clinic, where she spent her nights attaching wires to sleeping patients and watching their brain waves roll across a screen. The moment she saw her niece's grey face and the heap of empty cups, she put down her bag of fruit and announced that Lena was ignoring the most powerful study tool she owned. Lena rolled her eyes at this grand claim, but she was far too tired to argue.",
+      "Rosa began with a simple piece of arithmetic: a person who lives to ninety will have spent roughly thirty of those years asleep. It sounds like an enormous waste, she said, until you learn that the brain and body are doing some of their most important work during that time. Nature has kept sleep in nearly every animal that has been studied, even though it leaves a creature helpless, and that alone suggests it must be worth the risk.",
+      "The amount of sleep a person needs changes with age, as Rosa explained, and the figures are only averages. Newborn babies sleep for most of the day, school children need roughly nine to eleven hours, teenagers about eight to ten, and most adults do best with about seven to nine. Some people need a little more or a little less, but she warned that very few people are truly exceptions to the rule.",
+      "Lena had always pictured sleep as a kind of switch, a blank period between one day and the next. Rosa showed her recordings from the clinic that proved the opposite, with the brain's electrical activity rising and falling in great waves through the night. Sleep, she said, is a series of distinct stages, and each stage has its own jobs to perform.",
+      "Sleep begins with a lighter stage, which arrives within minutes of dozing off and in which the muscles relax and the heartbeat slows. A sleeper can be woken easily during it, and sometimes they will insist afterwards that they were never asleep at all. Rosa told her that, over a whole night, this light sleep makes up around half of an adult's time in bed.",
+      "Then comes deep sleep, in which the brain produces great, slow waves and the body lies almost motionless. It is hard to wake someone from this stage, and the body seems to use it for repairs, including a pulse of growth hormone that helps children to grow and adults to maintain their muscles. Researchers also believe that deep sleep is especially important for the brain, although they are still working out exactly how.",
+      "The third kind of sleep is known as REM, short for rapid eye movement, because the eyes dart about beneath the closed lids. The brain becomes almost as active as it is when awake, the most vivid dreams take place, and the large muscles of the body are switched off so that we do not act out our adventures. It is a strange and fascinating state, and scientists believe that it helps with learning and with the handling of emotions.",
+      "These stages do not come just once but arrive in cycles that last, on average, about ninety minutes, with some variation from person to person. A typical night contains four to six of them, linked one after another, and a person may surface briefly between cycles without remembering it in the morning. Rosa drew the pattern for Lena on the back of an envelope, and it looked like a set of hills of different sizes.",
+      "Rosa pointed to her drawing and explained that the cycles are not all the same. Deep sleep is concentrated in the first half of the night, while REM periods lengthen as the morning approaches, so anyone who goes to bed very late or wakes very early loses a large share of their dreaming sleep. Lena, who had been sleeping about five hours, began to see why Rosa was so concerned.",
+      "Beyond the stages of sleep, Rosa said, every person carries a built-in clock that runs on a rhythm of roughly twenty-four hours. Scientists call it the circadian rhythm, from the Latin for about a day, and its master clock is a cluster of cells in the brain, just above the place where the eyes' nerves cross. It tells the body when to feel alert, when to be hungry and when to prepare for sleep.",
+      "The internal clock does not keep perfect time on its own, so it must be adjusted each day, and the strongest signal for doing so is light. Cells in the eye respond to brightness and send a message to the master clock, and bright light in the morning tells the brain that the day has begun and helps to fix the time for sleepiness that evening. People who live without daylight, such as some cave explorers, tend to drift away from a twenty-four-hour pattern.",
+      "As the evening light fades, the brain begins to release a hormone called melatonin, which rises through the late evening and stays high during the night. It does not force sleep like a sedative, but it signals that night has arrived and nudges the body toward rest. Bright light in the late evening can delay the rise, which is one reason why a brightly lit room can make an early night seem so difficult.",
+      "People differ in their natural timing, and the scientific word for it is chronotype. Some are larks, who wake easily at dawn and feel sharpest in the morning, while others are owls, who come alive in the evening and struggle to rise early. Genes play a considerable part in which one a person is, and most people fall somewhere in between.",
+      "During the teenage years, the body clock tends to shift later, so that young people feel sleepy well after their parents do and would naturally wake up much later in the morning. That is biology rather than laziness, and it is one reason why some schools have experimented with later starting times, although researchers continue to argue over how large the benefits are. Lena, who was twenty, discovered that her own clock was still catching up with adult life.",
+      "Alongside the clock, said Rosa, the brain keeps track of how long we have been awake, and the feeling it produces is called sleep pressure. One chemical linked to it is adenosine, which gradually builds up in the brain through the waking hours and makes sleep more and more attractive. During sleep the level falls again, so a good night's rest clears the slate for the following day.",
+      "Caffeine does not give us energy so much as hide our tiredness, because it blocks the places in the brain where adenosine would normally take effect. The tiredness is still there, waiting, and the drug itself lingers for many hours, so that half of the caffeine from an afternoon coffee may still be in the body late in the evening. Lena looked guiltily at the empty mug of her fourth cup of the day.",
+      "Many people feel a heavy wave of sleepiness in the early afternoon, and although a large lunch may add to it, food is not the whole explanation. The body clock itself seems to include a natural dip in alertness at that time of day, which may explain why afternoon naps are customary in many cultures. Rosa said that it was nothing to be ashamed of, and Lena felt relieved to hear it.",
+      "A short nap of around twenty minutes, Rosa explained, can improve alertness and mood for many people without making them groggy. A long nap, particularly late in the afternoon, lowers the sleep pressure that would otherwise carry them through to bedtime, and so it may make the night's sleep lighter or later. People who find it hard to sleep at night are often advised to avoid napping altogether, although that is a matter for a doctor.",
+      "Rosa now came to the matter that Lena cared about most, which was memory. Many experiments suggest that sleep helps the brain to stabilise and organise what has been learned during the day, moving fresh and fragile traces into more lasting storage and linking them with older knowledge. Researchers still debate exactly how this works, but the overall finding, that sleeping after learning improves recall, has been repeated many times.",
+      "Rosa told her niece, kindly but firmly, that an all-night session before an exam is usually a poor bargain. A tired brain finds it harder to take in new material and then has no night in which to store it, so a few hours of learning may be lost by morning. A far better pattern, she said, is to study, to sleep properly, and then to look at the notes once more.",
+      "Scientists have tested the idea with every age group, from toddlers learning new words to older adults memorising lists. In many of these experiments, the people who slept after learning remembered more the next day than those who stayed awake for the same length of time, although the size of the gain differs from study to study. Lena listened with growing interest, because the evidence suggested that the hours she had been burning might have been the most valuable ones.",
+      "One of the most intriguing ideas in sleep research is that the brain tidies itself during the night, using a network of channels called the glymphatic system to flush waste products from between its cells. Most of the evidence comes from experiments on mice, however, and scientists are still debating how closely the findings apply to humans. Rosa told Lena that it was a fascinating lead, but one that ought to be described with caution.",
+      "Anyone who has tried to be cheerful after a bad night knows that small problems seem to grow when we are short of sleep. Brain scans suggest that the regions involved in strong emotions become more reactive after sleep loss, while the parts that usually calm them down seem to work less well. Lena realised that her sharp replies to her flatmate and her tears over a lost pen made a great deal more sense.",
+      "Rosa added a careful note: the connection between sleep and mood runs in both directions, and it is not a simple matter of cause and effect. Poor sleep can deepen anxiety or low mood, while those very feelings can in turn make sleep light and broken, creating a cycle that is hard to escape alone. If a low mood or constant worry lasts for weeks, she said, the right step is to talk to a doctor, who can offer real help.",
+      "The immune system, which defends the body against infection, appears to depend on good sleep as well. In one well-known study, volunteers were exposed to a cold virus, and those who had slept less than about six hours were noticeably more likely to fall ill than those who slept for seven or more. It was a single study with a limited group, but it fits with a wider body of research.",
+      "During healthy sleep, the heart rate slows and blood pressure dips for several hours, giving the cardiovascular system a rest. Studies that follow large groups of people for years have found that those who regularly sleep very little tend to have a higher risk of high blood pressure and heart disease. Rosa warned Lena that such studies show a link rather than proof of cause, because many other things in a person's life can differ at the same time.",
+      "Rosa remarked that people who sleep little often report a bigger appetite, and she said that several small experiments help to explain why. After short nights, hormones that signal hunger and fullness seem to change, so that the body asks for more food and especially for sweet, starchy snacks. This is probably why Lena's desk was covered in biscuit wrappers at midnight, and she laughed in spite of herself.",
+      "Rosa grew more serious as she turned to the subject of the road and its dangers. Drowsy driving is believed to contribute to a large number of crashes every year, because tired drivers react slowly, lose attention and sometimes fall asleep for a moment without realising it. No one can say exactly how many accidents are caused by tiredness, since it is hard to measure after the event, but the risk is well recognised.",
+      "Researchers have compared tiredness with drinking, and some studies found that after about seventeen hours without sleep, reaction time and attention suffer in a way similar to having drunk a small amount of alcohol. After a whole day and night awake, the effects were comparable to those of a larger amount. Rosa said that these comparisons are only rough, but they give a striking picture of how much a sleepless night can affect the brain.",
+      "Rosa described something called a microsleep, a lapse of a few seconds in which the brain simply drops into sleep while the eyes may even remain open. The person is usually unaware that it has happened, which is exactly why it is so dangerous at the wheel or in front of machinery. Lena admitted that she had lost whole sentences from lectures in this way, and had always blamed the lecturer.",
+      "Plenty of people claim to manage perfectly well on five hours, and Lena had been among them. Experiments in which volunteers were restricted to short nights found that people soon stopped noticing how impaired they were, even though their performance on tests kept getting worse. A very few people do carry rare gene changes that allow them to function on less, said Rosa, but statistically Lena was almost certainly not one of them.",
+      "The sleep a person has missed builds up like a debt, and Rosa warned that it cannot be settled as easily as an ordinary bill. A long lie-in at the weekend certainly helps with tiredness, and some studies show a partial recovery, but they also suggest that attention and mood do not return fully to normal after a week of short nights. It is far better, she said, to avoid running up the debt than to rely on paying it off.",
+      "Rosa told Lena that animals have found astonishingly varied solutions to the problem of sleep. Dolphins rest one half of their brain at a time while the other half stays alert, which allows them to keep swimming and to surface for air, and some birds and seals are known to do something similar. These strategies show that sleep is so valuable that evolution has never found a way to abolish it, only to adapt it.",
+      "Lena asked the question that everybody eventually asks, which was why we dream at all. Rosa was honest enough to say that science has no settled answer, though several theories suggest that dreaming helps the brain to process emotions, to link memories together or simply to rehearse and sort the events of the day. Many dreams are forgotten within minutes of waking, and that makes them even harder to study.",
+      "With the science in place, Rosa moved on to practical matters, beginning with the bedroom, which most people sleep best in when it is dark, quiet and slightly cool. Lena hung a thick curtain over the window, pushed her noisy laptop out of the room, and opened the window a crack, and she was surprised by how different the room felt. Rosa cautioned that people differ and that these are general tips, not a cure for everything.",
+      "Bright light late in the evening, particularly the cool, bluish light from screens, can delay the rise of melatonin and make it harder to feel sleepy. Researchers are still arguing about how big this effect is for ordinary phone use, since what we watch can keep us wide awake as much as the light itself does. Rosa suggested that Lena dim the lamps and put her phone away for an hour before bed, and see for herself whether it helps.",
+      "The body clock thrives on regularity, and Rosa recommended that Lena rise at about the same time every morning, including at the weekend. A fixed wake-up time anchors the rhythm of the whole day, and in time the body begins to feel sleepy at roughly the same hour each night. It sounded dull to Lena, but she agreed to try it for two weeks.",
+      "Rosa also urged her niece to step outside soon after waking, because daylight, even on a cloudy morning, is many times brighter than the light inside a house. That bright signal tells the master clock when the day has started and helps it to schedule sleepiness for the following night. Lena, who usually emerged from her flat only when she was late for something, promised to take her tea onto the balcony.",
+      "Since caffeine lingers in the body for many hours, Rosa suggested that Lena stop drinking coffee, strong tea and energy drinks by about the early afternoon. People vary a great deal in how quickly they clear caffeine, and some can drink a cup after dinner and sleep perfectly well, but most will notice a difference if they stop earlier. Lena agreed with a sigh and gave up her fourth cup of the day.",
+      "Some people pour a drink in the evening in the hope that it will help them sleep, and Rosa was blunt about the trade involved. Alcohol may make a person drowsy at first, but it tends to fragment sleep later in the night and to suppress REM sleep, so the person wakes feeling less refreshed than they expected. Lena, who had been having a glass of wine to unwind after studying, decided to try a herbal tea instead.",
+      "Studies broadly agree that regular physical activity improves sleep, helping many people to fall asleep faster and to spend more time in deep sleep. The timing seems to matter less than the habit itself, although some people find that very vigorous exercise close to bedtime leaves them wired and wakeful. Rosa and Lena took a brisk walk in the park each afternoon, and Lena said that her legs were pleasantly heavy by evening.",
+      "A calm routine before bed, said Rosa, gives the mind a signal that the day is over, and it can be as simple as reading, stretching or listening to quiet music. Lena adopted a habit of writing down tomorrow's tasks and anything that worried her, then closing the notebook and putting it out of reach. Some small studies suggest that such lists can help people to fall asleep faster, and in her case it seemed to work.",
+      "On some nights, even with every good habit in place, sleep refuses to come, and Rosa had a calm answer to that as well. Lying in bed and staring at the clock turns the bed into a place of worry, she said, so it is better to get up after a while and do something quiet in dim light until drowsiness returns. It helps to remember that one poor night, though unpleasant, is rarely a danger to health.",
+      "Insomnia, the word for long-lasting trouble falling or staying asleep, is very common, Rosa told her, and it should not be confused with the occasional bad night. When the difficulty continues for weeks and begins to affect daily life, a doctor can look for causes and offer help, and a structured talking therapy for sleep has been shown to work well for many people. She added that most sleeping tablets are meant only for short periods and must be prescribed.",
+      "Rosa described another condition she saw often at the clinic, called sleep apnoea, in which the airway narrows or closes repeatedly during sleep and breathing briefly stops. Loud snoring, gasping or choking at night, and heavy tiredness in the daytime are all signs that a doctor should take a look, since the problem can be diagnosed with a sleep study and treated effectively. Lena thought at once of her flatmate, whose loud snores shook the thin wall of the flat.",
+      "Lena asked about the sleep trackers that so many of her friends wore, and Rosa answered that they can be useful for showing patterns over time. Consumer devices are not very accurate at identifying the stages of sleep, however, and some people grow so anxious about their scores that the worry itself disturbs their rest. She suggested that Lena treat the numbers as a curiosity and pay more attention to how she felt during the day.",
+      "Lena wondered aloud whether she could simply buy something to help her sleep, and Rosa advised her to be very careful. Sleeping tablets and melatonin supplements differ widely in strength and quality, they can cause side effects or interact with other medicines, and they are not suitable for everyone, so a doctor or pharmacist should always be asked first. Good habits, she added with a smile, are cheaper, safer and often more effective in the long run.",
+      "For two weeks Lena followed her new habits, studying in the day, closing her books at a sensible hour and sleeping for about eight hours a night. On the morning of the exam she woke before the alarm, feeling calmer and clearer than she had for months, and she walked into the hall with a quiet confidence. She knew that sleep alone could not pass an exam for her, but she was certain that it had given her the best possible chance.",
+      "As evening settled over the city, Rosa and Lena drank warm milk on the balcony and agreed that sleep is no kind of magic, but that it quietly supports memory, mood, health and energy. This book has offered only general information, and it is not medical advice, so it cannot replace a conversation with a doctor who knows your own situation. If you are worried about your sleep, your tiredness or your health, please speak to a medical professional, and then go to bed on time."
+    ]
+  }
+}

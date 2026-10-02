@@ -1,0 +1,417 @@
+{
+  "slug": "frankenstein",
+  "meta": {
+    "blurb": "A young scientist discovers the secret of life and builds a living being, then runs from it in horror. Abandoned and alone, the Creature comes looking for the one who made him. Mary Shelley's great story asks who the real monster is.",
+    "bible": "Robert Walton: an English sea captain sailing to the Arctic; he writes letters to his sister and meets Victor. Margaret Saville: Walton's sister in England, the person he writes to. Victor Frankenstein: the young scientist from Geneva who makes the Creature; clever, proud, and later full of guilt. The Creature: the being Victor makes, about eight feet tall, gentle at first, taught to be bitter by the cruelty of others; also called the monster, and he has no other name. Alphonse Frankenstein: Victor's father, a kind and respected man. Caroline Frankenstein: Victor's mother, who dies of scarlet fever. Elizabeth Lavenza: the orphan girl raised with Victor, later his wife. Ernest Frankenstein: Victor's younger brother. William Frankenstein: Victor's youngest brother, a child, killed by the Creature. Justine Moritz: the family's loving servant, wrongly accused of William's death. Henry Clerval: Victor's cheerful best friend. Professor Krempe and Professor Waldman: Victor's teachers at Ingolstadt; Waldman inspires him. The De Lacey family: a poor family in a cottage in the woods; the old blind father De Lacey, his son Felix and his daughter Agatha. Safie: a young woman from Turkey who joins Felix. Mr Kirwin: the Irish magistrate who questions Victor. Geneva: the home city of the Frankensteins, in Switzerland. Ingolstadt: the German university town where Victor studies. Chamonix, Mont Blanc and the Mer de Glace: the Alps where Victor meets the Creature. Orkney: the remote Scottish island where Victor starts a second creature. Evian: the lakeside town where Victor and Elizabeth spend their wedding night. Arctic: the frozen north where the story begins and ends. Voice and tone: serious, tragic and thoughtful; deaths are stated plainly with no gore; the Creature is sad and frightening in turn, never a joke; keep the framing of the story told by Victor to Walton."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Captain Walton writes a letter by lamplight in his cabin among Arctic ice",
+      "summary": "Captain Robert Walton, sailing north to the Arctic, writes to his sister about his dream of discovery."
+    },
+    {
+      "n": 2,
+      "scene": "A ship stuck in thick ice while a dog sledge passes far away",
+      "summary": "The ship is trapped in ice, and the crew sees a sledge driven by a huge figure."
+    },
+    {
+      "n": 3,
+      "scene": "Sailors help an exhausted, thin man onto the ship from a second sledge",
+      "summary": "Next morning a second sledge arrives, and the starving traveller Victor Frankenstein is taken on board."
+    },
+    {
+      "n": 4,
+      "scene": "Victor sits wrapped in a blanket as Walton listens beside his bed",
+      "summary": "Victor Frankenstein recovers and decides to tell Walton his story as a warning."
+    },
+    {
+      "n": 5,
+      "scene": "A happy family walks beside a lake near Geneva, mountains behind them",
+      "summary": "Victor describes his happy childhood in Geneva with loving parents."
+    },
+    {
+      "n": 6,
+      "scene": "Young Victor and Elizabeth read together under a tree, with Henry nearby",
+      "summary": "Victor's mother brings home the orphan Elizabeth, and he also makes a friend, Henry Clerval."
+    },
+    {
+      "n": 7,
+      "scene": "Young Victor reads thick old books by the light of a candle",
+      "summary": "Victor discovers the old books of the alchemists and dreams of the secrets of life."
+    },
+    {
+      "n": 8,
+      "scene": "A great oak split by lightning smokes in a storm outside a house",
+      "summary": "Lightning destroys an oak tree, and Victor turns to modern science."
+    },
+    {
+      "n": 9,
+      "scene": "Victor says goodbye to his weeping family beside a carriage in Geneva",
+      "summary": "Victor's mother dies of scarlet fever, and he leaves for university in Ingolstadt."
+    },
+    {
+      "n": 10,
+      "scene": "Victor listens to Professor Waldman in a university classroom",
+      "summary": "At Ingolstadt Victor meets the unkind Professor Krempe and the inspiring Professor Waldman."
+    },
+    {
+      "n": 11,
+      "scene": "Victor studies late at night among bones, books and a glowing lamp",
+      "summary": "Victor studies day and night and finally discovers how to give life to dead matter."
+    },
+    {
+      "n": 12,
+      "scene": "Victor works alone in a cold attic room, surrounded by tools and bones",
+      "summary": "Victor decides to make a being of his own and gathers what he needs in secret."
+    },
+    {
+      "n": 13,
+      "scene": "The Creature's yellow eye opens in a dim room while Victor stares at it",
+      "summary": "On a dreary November night the Creature opens his eye, and Victor is filled with horror."
+    },
+    {
+      "n": 14,
+      "scene": "Victor and Henry Clerval meet at the door of a house in Ingolstadt",
+      "summary": "Victor flees through the streets, meets Henry Clerval, and falls seriously ill."
+    },
+    {
+      "n": 15,
+      "scene": "Victor reads a letter, shocked, with tears in his eyes",
+      "summary": "A letter arrives telling Victor that his little brother William has been murdered."
+    },
+    {
+      "n": 16,
+      "scene": "Victor stares at a hillside in a lightning storm as a huge shape moves",
+      "summary": "Near Geneva, a flash of lightning shows Victor the Creature on a hillside, and he suspects the truth."
+    },
+    {
+      "n": 17,
+      "scene": "Justine stands in a courtroom, pale and quiet, while people stare",
+      "summary": "The family servant Justine Moritz is accused of murdering William."
+    },
+    {
+      "n": 18,
+      "scene": "Justine, in a plain dress, speaks calmly to a priest in a prison cell",
+      "summary": "Justine is persuaded to confess, is condemned, and Victor stays silent."
+    },
+    {
+      "n": 19,
+      "scene": "Victor stands alone before the huge white face of a mountain in Chamonix",
+      "summary": "Victor, in despair, travels alone to the Alps to find peace among the mountains."
+    },
+    {
+      "n": 20,
+      "scene": "The Creature runs across a field of ice toward Victor",
+      "summary": "On the glacier, the Creature comes towards Victor and demands that he listen."
+    },
+    {
+      "n": 21,
+      "scene": "The Creature sits in an ice cave, his large hands open, speaking gravely",
+      "summary": "The Creature says he was made kind and has been made cruel by loneliness and cruelty, and asks to be heard."
+    },
+    {
+      "n": 22,
+      "scene": "The Creature sits by a fire in a forest, studying a flame",
+      "summary": "The Creature tells how he woke alone in the forest, learned about light, hunger and fire."
+    },
+    {
+      "n": 23,
+      "scene": "The Creature crouches in a small shed, looking through a crack at a cottage",
+      "summary": "The Creature finds a shed beside a cottage and secretly watches the family inside."
+    },
+    {
+      "n": 24,
+      "scene": "Felix and Agatha help their old blind father by the cottage fire",
+      "summary": "The Creature learns about the De Laceys: the blind father, his son Felix, and daughter Agatha."
+    },
+    {
+      "n": 25,
+      "scene": "Felix teaches Safie to read while the Creature listens through a crack",
+      "summary": "The Creature learns language by listening, and Safie arrives and learns with them."
+    },
+    {
+      "n": 26,
+      "scene": "The Creature finds a leather bag of books lying on the forest floor",
+      "summary": "The Creature finds books and Victor's journal, learns where he came from, and hates his maker."
+    },
+    {
+      "n": 27,
+      "scene": "The Creature kneels before the blind old man in the cottage",
+      "summary": "The Creature speaks to the blind De Lacey, who is kind, but the family returns and drives him away."
+    },
+    {
+      "n": 28,
+      "scene": "The Creature stands over a small boy in a green field at dusk",
+      "summary": "The Creature meets William, learns he is Victor's brother, and kills him."
+    },
+    {
+      "n": 29,
+      "scene": "The huge Creature stands on the ice, asking Victor for a companion",
+      "summary": "The Creature asks Victor to build him a female companion and promises to leave humankind."
+    },
+    {
+      "n": 30,
+      "scene": "Victor and his father at a table in the family house, Elizabeth beside them",
+      "summary": "Victor returns home and delays his marriage, saying he must first complete a secret task."
+    },
+    {
+      "n": 31,
+      "scene": "Victor and Clerval ride in a carriage through green English hills",
+      "summary": "Victor and Henry Clerval travel through England and Scotland, and then Victor goes on alone."
+    },
+    {
+      "n": 32,
+      "scene": "Victor sits at a table in a rough stone hut on a bare island",
+      "summary": "Victor sets up a lab in a cold hut on a remote island in Orkney and begins his work."
+    },
+    {
+      "n": 33,
+      "scene": "The Creature's face grins at a dark window, looking into the hut",
+      "summary": "Victor sees the Creature at the window, and he breaks off the work and destroys the unfinished female."
+    },
+    {
+      "n": 34,
+      "scene": "The Creature stands in the doorway, huge and angry, staring at Victor",
+      "summary": "The Creature is furious, swears revenge, and promises to be with Victor on his wedding night."
+    },
+    {
+      "n": 35,
+      "scene": "Victor in a small boat in a storm, dropping a sack into the sea",
+      "summary": "Victor throws the remains into the sea, is caught in a storm, and washes ashore in Ireland."
+    },
+    {
+      "n": 36,
+      "scene": "Victor stands horrified over the body of a man on a dark beach",
+      "summary": "Victor is told that the dead man is Henry Clerval, found strangled on the shore."
+    },
+    {
+      "n": 37,
+      "scene": "Victor lies in a prison bed as his father sits beside him",
+      "summary": "Victor is cleared of the crime, and his father takes him home to Geneva."
+    },
+    {
+      "n": 38,
+      "scene": "Victor and Elizabeth sit in a sunny room in Geneva, holding hands",
+      "summary": "Victor tells Elizabeth he will marry her, planning to fight the Creature when it comes."
+    },
+    {
+      "n": 39,
+      "scene": "Victor and Elizabeth in a boat on Lake Geneva, glowing in sunset",
+      "summary": "The wedding takes place, and the couple travel to Evian on the lake."
+    },
+    {
+      "n": 40,
+      "scene": "Victor searches a corridor with a lantern, a closed door behind him",
+      "summary": "Victor searches the inn for the Creature while Elizabeth waits, and then he hears a scream."
+    },
+    {
+      "n": 41,
+      "scene": "Victor faints at the foot of a bed with the open window behind him",
+      "summary": "Elizabeth is dead, and Victor faints; his father dies soon after of grief."
+    },
+    {
+      "n": 42,
+      "scene": "Victor kneels on grass in a cemetery, his hands raised to the sky",
+      "summary": "Victor vows revenge on the Creature, and decides to hunt him down."
+    },
+    {
+      "n": 43,
+      "scene": "Victor travels over snowy hills in a sledge, a dark shape far ahead",
+      "summary": "Victor chases the Creature across Europe, and the Creature leaves messages leading him north."
+    },
+    {
+      "n": 44,
+      "scene": "Victor, wrapped in furs, drives a sledge across vast white ice",
+      "summary": "Victor buys a sledge and dogs and chases the Creature across the frozen sea until his dogs die."
+    },
+    {
+      "n": 45,
+      "scene": "Walton and Victor talk quietly on deck as ice cracks around the ship",
+      "summary": "Victor tells Walton to seek wisdom, not glory, and warns of the danger of ambition."
+    },
+    {
+      "n": 46,
+      "scene": "Sailors stand at the rail as huge ice cracks and groans around the ship",
+      "summary": "The ice breaks, and the sailors demand that Walton turn south, and Walton agrees."
+    },
+    {
+      "n": 47,
+      "scene": "Victor lies on a narrow bed, eyes half closed, with Walton beside him",
+      "summary": "Victor, weak from his long journey, dies on the ship."
+    },
+    {
+      "n": 48,
+      "scene": "The Creature bends over Victor's body in a cabin, sad and still",
+      "summary": "Walton finds the Creature weeping over Victor's body in the cabin."
+    },
+    {
+      "n": 49,
+      "scene": "The Creature stands in the cabin with his hands covering his face",
+      "summary": "The Creature says that he too has suffered, that he hated himself, and Walton's anger melts."
+    },
+    {
+      "n": 50,
+      "scene": "The Creature leaps onto an ice raft and drifts into the dark",
+      "summary": "The Creature vows to burn himself on a funeral fire at the North Pole and vanishes into the darkness."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Captain Walton sails north and writes a letter to his sister.",
+      "One day the ship cannot move because the ice is too thick.",
+      "The next day a second sled comes, and a thin sick man climbs onto the ship.",
+      "The sick man gets better, and he tells Walton his story.",
+      "Victor was born in Geneva, in a kind and happy family.",
+      "His parents bring a girl called Elizabeth home, and she becomes his dearest friend.",
+      "Victor finds some very old books and reads them every night.",
+      "One night lightning hits a tree and destroys it.",
+      "When Victor is seventeen, his mother dies, and he goes to study.",
+      "At university Victor meets two teachers, and he likes Professor Waldman.",
+      "Victor studies for two years and learns a great secret.",
+      "Victor decides to make a new man, and he works alone.",
+      "On a dark November night, the Creature opens his yellow eye.",
+      "Victor runs outside, meets Henry, and then becomes very ill.",
+      "A letter comes with terrible news: his little brother William is dead.",
+      "Near Geneva, lightning shows a huge figure on the hill.",
+      "Justine, the family's servant, is charged with William's death.",
+      "Justine confesses, although she did nothing wrong, and she is put to death.",
+      "Victor is very sad, and he goes alone into the mountains.",
+      "On the ice Victor sees the Creature running towards him very fast.",
+      "The Creature asks Victor to listen, and Victor agrees.",
+      "The Creature tells his story: he woke alone in a dark forest.",
+      "The Creature finds a small shed next to a cottage and hides inside.",
+      "He sees a blind old man, his son Felix and his daughter Agatha.",
+      "The Creature learns to speak by listening to the family.",
+      "The Creature finds some books, and he also finds Victor's papers.",
+      "The Creature speaks to the old blind man, and he is kind.",
+      "The Creature meets a small boy, and the boy is William.",
+      "The Creature asks Victor to make him a wife.",
+      "Victor goes home, but he is sad, and he cannot tell his father why.",
+      "Victor travels to England with Henry, and then he goes to Scotland alone.",
+      "Victor finds a lonely hut on an island, and he begins his work.",
+      "Victor sees the Creature at the window, and he stops his work.",
+      "The Creature is very angry and says he will be with Victor on his wedding night.",
+      "Victor drops the remains into the sea, and a storm blows his boat away.",
+      "The dead man is Henry Clerval.",
+      "Victor is ill in prison, but he is not guilty, and his father comes.",
+      "Back in Geneva, Elizabeth writes to Victor, and he promises to marry her.",
+      "Victor and Elizabeth are married, and they go to a town by the lake.",
+      "Victor walks around the inn to search for the Creature.",
+      "Victor falls to the floor, and later his father dies of grief.",
+      "Victor decides to find the Creature and kill him.",
+      "Victor follows the Creature, who is leaving messages for him.",
+      "Victor takes a sled and dogs and chases the Creature on the ice.",
+      "Victor tells Walton to look for wisdom, and not for glory.",
+      "The sailors are afraid, and they ask Walton to go home.",
+      "Victor is too weak, and he dies on the ship.",
+      "Walton hears a noise and finds the Creature over Victor's body.",
+      "The Creature says that he has suffered more than anyone.",
+      "The Creature promises to die, and he goes away on the ice."
+    ],
+    "B1B2": [
+      "Robert Walton is a ship's captain who dreams of reaching the far North. He writes to his sister Margaret in England to tell her about the voyage.",
+      "The ship becomes trapped in thick fog and ice, and the sailors can only wait. Then, across the frozen sea, they see a sledge pulled by dogs, driven by a figure of enormous size.",
+      "The next morning another sledge appears, and this time its driver is a weak and starving European. The sailors take him on board, and Walton sees at once that he is a gentleman who has suffered terribly.",
+      "The stranger is Victor Frankenstein, and after some days he is strong enough to speak. He says he will tell Walton everything, because the story may stop another man from making the same mistakes.",
+      "Victor was born in Geneva, Switzerland, to a rich and respected family. His father Alphonse and his mother Caroline loved him dearly, and his childhood was calm and happy.",
+      "One day his mother brings home a little orphan girl, Elizabeth Lavenza, and the family raises her as a sister. Victor also has a close friend, Henry Clerval, who loves poetry and stories of adventure.",
+      "As a boy, Victor finds the old books of the alchemists and reads them with great excitement. They promise a way to cure illness and even to defeat death, and he decides to find out their secrets.",
+      "During a violent storm, Victor sees lightning hit an old oak near the house, and in a moment the tree is gone. A visitor tells him about electricity, and the old books suddenly seem foolish compared with modern science.",
+      "When Victor is seventeen, his mother catches scarlet fever from Elizabeth and dies, asking that the two young people marry one day. A few days later, sad and quiet, he leaves Geneva for the university at Ingolstadt.",
+      "At the university Victor first meets Professor Krempe, who laughs at his old books. Then he hears Professor Waldman, who speaks warmly about the power of modern chemistry, and Victor is inspired.",
+      "Victor works with incredible energy, studying chemistry, anatomy and the signs of life and death. After two years he makes a discovery that no man has made before: he can give life to something that has none.",
+      "Victor decides to make a living being himself, and he plans to make it very large so that the work is easier. He gathers materials in secret and shuts himself away in a room at the top of his house.",
+      "On a dreary night in November, Victor sees the Creature breathe and open one yellow eye. Instead of joy, he feels only horror at its ugly face, and he runs out of the room.",
+      "The next day Victor meets his friend Henry Clerval, who has just arrived in the town. Victor is so afraid that he cannot speak, and soon he falls ill with a fever that lasts for months.",
+      "Then a letter comes from his father with terrible news. William, the youngest brother, has been found dead near Geneva, and he has been killed.",
+      "Victor reaches Geneva at night, and a storm breaks over the lake. In a flash of lightning he sees a tall, ugly figure on the hill, and he becomes sure it is the Creature.",
+      "At home Victor learns that Justine Moritz, a kind young servant, has been arrested for the murder. William's small picture of his mother was found in her pocket, and many people think this proves her guilt.",
+      "Justine pleads that she is innocent, but a priest tells her that she must confess. In the end she is condemned and put to death, while Victor stays silent, filled with guilt.",
+      "Victor cannot rest, and he is full of misery. To find some peace, he travels alone to the Alps and walks to the valley of Chamonix, where the great mountain Mont Blanc stands.",
+      "On the sea of ice, Victor sees a figure running towards him faster than any human could run. It is the Creature, and Victor is full of anger and fear, and he tells him to go away.",
+      "The Creature says that he was made good, and it was suffering that made him bad. He asks Victor to hear him, and Victor reluctantly follows him to a hut on the mountain.",
+      "The Creature says that he woke up alone in a forest, with no idea of who he was. He learned to find food and water, and he felt cold until he found a fire left by travellers.",
+      "Looking for shelter, the Creature finds a hovel built against a small cottage, and he hides there for many months. Through a crack in the wall, he watches the family inside and learns a great deal about them.",
+      "The cottage holds a blind old man, his gentle son Felix and his daughter Agatha. They are poor, and sometimes they go hungry, but they love one another.",
+      "Listening day after day, the Creature learns to understand their words. A young woman called Safie arrives from far away, and Felix teaches her to speak and read, so the Creature learns too.",
+      "In the woods the Creature finds a bag with three books, and he reads them in secret. In the pocket of the clothes he took from Victor's laboratory he finds some papers, and he learns who made him.",
+      "One day the Creature goes in when only the blind father is home, and the old man listens kindly. Then Felix, Agatha and Safie come back, and they scream and beat him, and he runs away.",
+      "The Creature journeys to Geneva, where he sees a small boy playing in a field and tries to make friends with him. When the child says that his name is William Frankenstein, the Creature realises that he is Victor's brother and kills him.",
+      "The Creature says that he is lonely and wicked because he is alone, so he asks Victor to make a woman like him. If Victor agrees, they will both go to South America and never be seen by men again.",
+      "At home Victor cannot find any peace of mind. His father hopes that he will marry Elizabeth soon, but Victor says that he must travel first, though he cannot say why.",
+      "Victor travels to England with Henry Clerval, and the two friends visit many beautiful places. In Scotland, Victor asks Henry to leave him, because he needs to be alone to do his terrible work.",
+      "On a remote island in Orkney, Victor finds a hut with a single room, and there he sets up his equipment. But he soon finds that his work fills him with horror and fear, and he is not able to finish quickly.",
+      "One night, Victor looks up and sees the Creature at the window, grinning at him. Suddenly he realises what he is doing, and he tears the half-made woman apart.",
+      "The Creature comes in, furious, and swears to take revenge. He says that Victor can make him unhappy but not afraid, and he warns that he will be there on Victor's wedding night.",
+      "At night Victor takes a boat and drops the remains of the second creature into the sea. A storm carries him far from land, and he reaches a coast in Ireland, but the people there are not friendly.",
+      "The magistrate, Mr Kirwin, takes Victor to see the body. To his horror, he sees that it is his friend Henry Clerval, who has been strangled.",
+      "Victor lies ill in prison for two months, and when he recovers, his father arrives from Geneva. Mr Kirwin proves that Victor was far away on the night of the crime, and he is freed.",
+      "Back in Geneva, Elizabeth asks Victor whether some secret is troubling him and whether he still wants to marry her. Victor says that he loves her and that they will be married, though he secretly plans to fight the Creature.",
+      "The wedding is a happy day, and the couple sail across the lake in the evening. They stop at a small inn at Evian, and Victor keeps a pistol in his coat because he is afraid.",
+      "After the wedding feast, Elizabeth goes to her room, and Victor walks about the inn with his pistol, looking for the Creature. Suddenly he hears a terrible scream from her room, and he runs back.",
+      "When he wakes, Victor holds Elizabeth in his arms, and he sees the Creature's face at the window, laughing. His father, who cannot bear the news, dies a few days later.",
+      "Victor swears an oath over the graves of his family, and he promises to find the Creature and destroy him. A magistrate listens to his story, but does not believe it, so Victor decides to act alone.",
+      "Victor follows the Creature through many countries, and the monster leaves notes on trees and stones to guide him. The notes lead him ever further north, towards the Arctic ice.",
+      "At the northern coast, Victor buys a sledge and dogs and follows the Creature over the frozen sea. Day after day he sees the huge figure ahead, but then the ice breaks and he nearly drowns.",
+      "Victor tells Walton that he should not be proud of the knowledge that he seeks, and that happiness comes from quiet things. He says that a man who tries to be greater than his nature will be destroyed.",
+      "The ice breaks and the ship is free, but the sailors are frightened and ask Walton to turn south. Victor tells them that brave men must not go home, but Walton gives in and agrees to turn back.",
+      "Victor's health is too poor, and soon he dies on the ship. His last words are a warning to Walton to avoid ambition and to look for happiness in peace.",
+      "Late that night Walton hears a sound in the cabin, and he goes in. He sees the Creature, huge and horrible, standing over the body of Victor, and he is full of fear and pity.",
+      "Walton scolds him, but the Creature says that no one has suffered as much as he has. He says that he has hated himself, and that he never wanted to be cruel.",
+      "The Creature promises that he will build a funeral fire and burn himself so that no other person will ever suffer from him. Then he jumps from the window of the cabin and floats away on a raft of ice, and he is lost in the darkness."
+    ],
+    "C1C2": [
+      "Captain Robert Walton, driven by a hunger for discovery, has taken his ship deep into the frozen northern seas, and from there he writes long letters to his sister Margaret in England. He hopes to find a new passage and to win glory for himself and for all mankind. Yet he is lonely among his rough sailors, and he longs for a friend who could understand his ambitions.",
+      "When the fog lifts, the ship lies helpless, locked in by the ice that has closed around her on every side. Far across the white plain the sailors make out a low sledge drawn by dogs, and on it sits a figure that seems far larger than any ordinary man. Within a few minutes it vanishes into the distance, and nobody on board can say what it was.",
+      "At dawn a second sledge drifts close to the ship, with only one dog left alive, and its traveller is so thin and ill that he can hardly stand. The crew lifts him on board and wraps him in blankets, and Walton, who has never seen such deep misery in a human face, is moved to pity. The stranger's first question, once he can speak, is whether the other sledge went north.",
+      "Slowly the stranger recovers, and he and Walton become close friends during the long weeks of ice. When he learns that Walton is full of the same burning ambition that once destroyed him, Victor offers his own story as a warning, and Walton writes it down carefully every night. What follows, he says, is the history of a man who wanted too much.",
+      "Victor tells Walton that he was born in Geneva, the eldest child of a respected family that lived in comfort and kindness. His parents gave him every care, and he grew up in a house where gentle affection was a rule that nobody ever questioned. Even then, he admits, he was curious about the hidden laws of nature, and he already wished to understand how the world was made.",
+      "Victor's mother, on a visit to a poor family, notices a fair-haired orphan and decides to take her home as a gift for her son. Elizabeth grows up calm and gentle at his side, and in time Victor thinks of her as someone who belongs to him. Meanwhile a gifted boy named Henry Clerval, who dreams of knights and brave adventures, becomes his closest friend.",
+      "When he is about thirteen, Victor discovers the writings of the old alchemists and reads them with a hunger his father cannot understand. They speak of curing disease and of defeating death itself, and his imagination catches fire. His father tells him the books are rubbish, but the boy cannot let the dream go.",
+      "One stormy evening Victor stands at the window and watches a bolt of lightning strike an old oak tree and tear it to pieces. A learned visitor explains that this power is called electricity, and the young man, shaken and thrilled, turns away from the alchemists and towards the real laws of nature. For a time he puts aside his studies altogether, but the seed has been planted.",
+      "Just before he leaves for university, his mother catches scarlet fever while nursing Elizabeth, and she dies with her last hope that her son and Elizabeth will one day be married. Victor, who has never before felt such grief, buries himself in work as a way to dull his pain. He sets out for Ingolstadt, a lonely traveller, to begin a life that will change everything.",
+      "Professor Krempe, a short and sour man, mocks the old authors that Victor has read, and the young man goes away discouraged. Then Professor Waldman, a gentler teacher, tells him that the modern scientists have worked miracles and have only begun to uncover nature's secrets, and Victor feels his ambition wake again. From that day he gives himself entirely to science, and he hardly thinks about anything else.",
+      "Victor surprises his teachers by learning faster than every other student, and soon he spends whole nights examining how the human body is built and how it decays. After two years of careful study he stumbles upon the secret that has haunted scholars for centuries, which is how to bring life to a lifeless body. The discovery frightens him, yet his curiosity is far greater than his fear, and he decides to go on.",
+      "Eager for glory, Victor resolves to build a living being, and since small parts are hard to join he decides to give his creation a giant's size, about eight feet tall. In a lonely room at the top of his lodging, he assembles what he needs from places where no decent person would look. He tells himself that a new species would bless him as its creator and father.",
+      "At one in the morning, in the glow of a dying candle, Victor watches his creation draw breath and open a dull yellow eye, and the dream of two years turns instantly into a nightmare. The being is tall and its skin barely covers the muscles beneath, and the beauty Victor imagined has become something he cannot bear to look at. He rushes from the room, leaves the Creature alone, and spends the night walking the courtyard in terror.",
+      "Wandering the streets at dawn, Victor happens to meet Henry Clerval, who has come to Ingolstadt to study, and he drags him home in panic, afraid that the Creature is still in the rooms. He finds that the room is empty, but the shock is too great, and a nervous fever takes hold of him for many long months. Henry, devoted and patient, nurses him through the whole illness and keeps his secret.",
+      "Before Victor has even thought of leaving Ingolstadt, a letter arrives from his father that makes his heart sink. William, the youngest and most beloved of his brothers, was found strangled in a field outside Geneva, and the family begs him to return home at once. Victor sets out for Switzerland with a heavy heart, and he is troubled by a fear that he cannot yet name.",
+      "As he nears the gates of Geneva, a storm crashes over the mountains, and by the light of a sudden flash Victor sees a gigantic figure on a rocky slope. The shape is unmistakable, and in that instant he understands that the thing he made has killed his brother. He says nothing to anyone, because he knows that no one would ever believe a tale so wild and so strange.",
+      "In the sorrowing house, Victor discovers that suspicion has fallen upon Justine, a gentle girl who had been treated almost like a daughter. A locket that William wore was found in the pocket of her dress, and the court sees in it complete proof of her guilt. Victor knows she must be innocent, but he does not dare to tell the truth.",
+      "At her trial Justine tells the truth, but nobody listens, and later a priest pressures her until, frightened and worn out, she admits to a crime she did not commit. She is condemned, and Victor and Elizabeth visit her once before the end, while he reproaches himself every day for his cowardly silence. He feels that he is guilty of two deaths now, and the weight is almost unbearable.",
+      "Sick with guilt, Victor tries to escape his thoughts by going alone to Chamonix, where the white peaks and rushing rivers make his troubles seem smaller. For a little while the grandeur of the mountains soothes him, and he almost forgets his own sorrow. Then, one day, he sets out to climb to the Mer de Glace, a vast field of ice among the peaks.",
+      "Crossing the glacier, Victor sees a gigantic shape bounding across the ice, and when it comes near he recognises the face he had never wanted to see again. He calls it a devil and a murderer and threatens to destroy it, but the Creature calmly replies that he has come not to fight but to plead. All he asks is that his maker hear his story before passing a final judgement.",
+      "The Creature reminds Victor that he is his maker, and that a maker should look after what he has made, not abandon it. He says that he was born gentle and was turned to wickedness only because everyone ran from him in disgust. Victor, though still full of hatred, agrees to listen, and the two walk in silence to a small hut among the rocks.",
+      "In a quiet voice the Creature describes how he opened his eyes in the dark woods, bewildered by light and sound and by the strange sensations that came with them. He learned slowly which berries were good to eat and which streams were safe to drink from, and one cold night he found a fire left by travellers and discovered its warmth. Yet when he reached for the flames, they burned him, and he learned his first lesson in pain.",
+      "After the villagers drive him from a nearby hut with stones and cries, the Creature finds a low shed attached to a poor cottage deep in the woods, and he hides there through the winter. By a small crack in the wall he can watch the people inside, and he soon knows them as well as if he had lived among them. They are the De Lacey family, and they seem to him the kindest people on Earth.",
+      "The Creature learns that the family consists of an old blind man, his son Felix and his daughter Agatha, who once lived in comfort but have since fallen into poverty. Though they often go without food to spare one another, they never speak harshly to each other, and their kindness teaches him what affection is. In secret, he even begins to carry firewood to their door at night, so that they are warm without ever knowing who has helped them.",
+      "By listening patiently to the family, the Creature learns the meaning of their words, and he begins to understand how people live and speak. When a beautiful young foreigner named Safie arrives, Felix teaches her their language from books, and the hidden watcher learns his lessons beside her. In this way he comes to read and to understand the history of the world, though the history he reads shows him how cruel men can be.",
+      "Walking in the woods, the Creature finds a bag of books, among them a book of poetry and the story of a lonely man, and they teach him about love, grief and loneliness. Then he reads the papers he took from Victor's room, and learns how he was made and how his maker fled from him in disgust. The knowledge fills him with a bitter anger that he cannot control, and his gentle feelings begin to turn to hate.",
+      "Hoping that a blind man will judge him by his words rather than his face, the Creature enters the cottage and begs for friendship, and old De Lacey answers him gently. At that moment the young ones return, and Felix, horrified, strikes the Creature and drives him out. The Creature goes back to the wood in despair and burns with a wish for revenge on all of mankind.",
+      "He travels on towards Geneva, and he hopes that a child, too young to be afraid of him, might become his friend. But the boy screams, calls him a monster, and mentions the name Frankenstein, and the Creature, in a blind fury, takes the child by the throat. Afterwards he places the locket in the pocket of a sleeping girl, so that she would be blamed.",
+      "Having told his story, the Creature makes his demand plainly: Victor must create for him a female companion, as horrible as he is, who will not run from him in horror. If Victor agrees, the two of them will go into the wild places of South America and trouble no human being again. If he refuses, the Creature says, he will make his maker's life a misery, and he will be able to keep that promise.",
+      "Back in Geneva, Victor sinks into silent gloom, and his father, who sees only that his son is unwell, hopes that a marriage to Elizabeth will heal him. But Victor, bound to his terrible promise, finds that he cannot marry until he has finished his task, so he asks to travel to England first. His father agrees to the plan, and Victor sets off for England with a heavy heart and a worse conscience.",
+      "Victor and Henry journey together through England, where Henry admires every castle and river, while Victor can think of nothing but the work that awaits him. At last, near the end of their trip, Victor makes an excuse to part from his friend, and they separate in Scotland. Victor, once alone, goes north to the Orkney Islands, where he can work in secret.",
+      "Victor rents a miserable hut on a barren island, and he begins work on the second creature in a place where no neighbour is near enough to ask questions. Yet the work now sickens him: he sees how much suffering the first creature has caused, and he wonders what a second being might do. Day by day his doubts grow, until the whole task seems like a crime that he can no longer bear to continue.",
+      "Late one evening, while Victor is working, he looks up and sees the face of the Creature pressed against the window, wearing a smile of horrible patience. A new fear takes hold of him: if two such beings wished to, they might have children and threaten the whole of mankind. In a sudden rage, he destroys the unfinished body and flings it across the floor.",
+      "Seeing his hopes torn apart, the Creature stands in the doorway, shaking with fury, and tells Victor that he is the master now and that Victor is the slave. He cannot be stopped, he says, and he swears that Victor will come to regret what he has done. Then he leaves, and his last words are a promise: he will be there on Victor's wedding night.",
+      "Under cover of darkness, Victor sails out in a small boat and sinks the remains of his work, then falls asleep exhausted. A storm blows him many miles away, and at last he drifts into an Irish harbour where the locals, unfriendly and suspicious, take him before a magistrate. There he is told that a man has been found murdered that night, and he is the main suspect.",
+      "Mr Kirwin leads him into a room where the body lies, and with a stab of dread Victor recognises the pale face of his dear friend Henry Clerval. The marks on the throat tell him that the Creature has kept the first part of his threat. Overcome by shock and sorrow, Victor falls into convulsions, and for two months he is delirious in prison.",
+      "When at last he returns to his senses, Victor finds his father at his side, and learns that the magistrate has been kind to him throughout his illness. The court proves that on the night of Henry's death Victor was on a distant island, and he is released without a stain. Together father and son take the road home, and Victor hopes for peace but knows it will not come.",
+      "In Geneva, Elizabeth writes to Victor with great tenderness, asking whether he still wishes to marry her or whether some secret is troubling him. Victor assures her that he loves her above all things, and he agrees to set the wedding for a near date. In his mind he is already preparing to face the Creature and to win, or to die in the attempt.",
+      "The wedding day passes in joy, and the newly married couple set out by boat towards Evian on the shore of the lake, while the sun sinks behind the mountains. Victor wears pistols hidden under his coat, ready for the attack that he is sure will come that night. As darkness falls, a gloomy wind rises, and the calm of the evening seems to close around them like a trap.",
+      "He prowls the corridors and the garden outside, convinced that his enemy is waiting, but he sees no one at all. Then a piercing scream rises from the room where Elizabeth waits, and he realises, too late, that the Creature meant to strike at his bride, not at him. When he reaches the room, he finds her lying lifeless across the bed, and the wedding night ends in silence.",
+      "Victor falls unconscious and then wakes in a daze, to see at the window the grinning face of the Creature, who points a hand at the body and disappears. The news breaks the old man's heart, and Alphonse Frankenstein dies within days, never recovering from the loss of Elizabeth and his sons. Victor is left almost alone in the world, with nothing but grief and a great and bitter anger.",
+      "Standing at the graves of those he loves, Victor makes a solemn vow to follow the Creature to the ends of the earth, and never to rest until the monster is dead. He tells his strange story to a judge, but the man shakes his head politely, doubtful of every word. Victor leaves the court in fury, understanding that this hunt will be his alone.",
+      "For months Victor travels across Europe and Russia, always a few days behind, and the Creature mocks him by carving messages in the bark of trees and in the stones along the way. The messages promise a bitter end to the chase and point further and further north, towards the Arctic, where the Creature knows that no one else will follow. Victor, wearing himself thin with hunger and cold, follows every sign and never allows himself to rest.",
+      "At the edge of the world, Victor trades for a sledge and a team of dogs and drives out over the sea ice, always in pursuit of the dark figure far ahead. When the ice breaks up beneath him, he loses most of his dogs, and he is nearly lost himself before a stroke of luck allows him to go on. At last, close to death and almost blind with cold, he is found by Walton's ship.",
+      "In the days that follow, Victor speaks to Walton like a father, urging him to seek wisdom rather than glory, and to remember that happiness lies in peace and in the love of those near to us. He admits that he himself was once as ardent as Walton, and he adds that a man who tries to rise above his nature may bring disaster upon himself. Walton listens, moved, but his own ambition is slow to cool, and he does not yet know what he will do.",
+      "Soon the ice begins to move and the ship is in great danger, and the sailors gather on deck to demand that Walton return home. Victor, though weak, speaks out against them, saying that men should not turn back at the first sign of danger. Yet Walton feels it would be wrong to risk their lives, and he agrees reluctantly to turn the ship around.",
+      "Weakened by his long suffering, Victor dies in his cabin, with Walton beside him, whispering that he hopes the Creature may yet be destroyed. His last wish is that someone else might finish what he could not do, but he warns Walton to seek safer ground than his own and to remember the cost of his dream. Walton gently lays down his friend's hand, and a long silence settles over the ship and the frozen sea around it.",
+      "Hours later Walton returns to the cabin and is stopped at the door by a sight that freezes his blood: a gigantic figure bending over the coffin with a face that Walton cannot bear to see. The Creature, hearing him, turns, and Walton is rooted to the spot, trying to find the words to say. He remembers his friend's last wish to kill the thing, but pity and horror hold him back.",
+      "Walton accuses the Creature of ruining a good man, but the Creature answers that no one can feel his agony as he does, for he has been alone from the first hour of his life. He says that he killed only because he had no one to love, and that the hatred which drove him is now something that he hates himself for. Walton, moved despite himself, finds that his anger is slowly fading away and that pity has taken its place.",
+      "The Creature tells Walton that he will go to the farthest North, where he will build his own funeral fire and burn his wretched body to ashes, so that no one else may ever be harmed by him. Then, with a sorrowful farewell to his maker, he leaps through the window onto an ice raft and vanishes into the darkness. Walton watches the waves carry him out of sight, and with that sorrowful farewell the strange story ends."
+    ]
+  }
+}

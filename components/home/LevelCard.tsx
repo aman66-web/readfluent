@@ -28,7 +28,7 @@ export function LevelCard({ xp, learn, startOpen = false }: { xp: number; learn:
   const n = (v: number) => v.toLocaleString(locale);
   const language = languageName(learn ?? "en", locale);
   return (
-    <section className="relative overflow-hidden rounded-[26px] p-5 text-white shadow-[0_18px_40px_-22px_rgba(8,47,62,.75)]"
+    <section data-tour="level" className="relative overflow-hidden rounded-[26px] p-5 text-white shadow-[0_18px_40px_-22px_rgba(8,47,62,.75)]"
              style={{ background: "linear-gradient(155deg, #0E7490 0%, #0A4B62 55%, #082F3E 100%)" }}>
       <div className="pointer-events-none absolute -end-10 -top-12 size-44 rounded-full opacity-60 blur-2xl" style={{ background: "radial-gradient(circle, #22D3EE 0%, transparent 70%)" }} aria-hidden />
       <div className="relative flex items-start justify-between gap-3">

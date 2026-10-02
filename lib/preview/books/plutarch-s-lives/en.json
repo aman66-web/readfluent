@@ -1,0 +1,417 @@
+{
+  "slug": "plutarch-s-lives",
+  "meta": {
+    "blurb": "A boy who lifts a rock, a general who cuts a knot, a queen who sails in on a golden barge. Plutarch, the great biographer, tells the lives of famous Greeks and Romans, and shows how small moments reveal a person's character.",
+    "bible": "Plutarch: a Greek writer and priest of Delphi, born in Chaeronea about AD 46; he wrote paired lives of Greeks and Romans; he cares more about character than about battles, and often tells small stories and says when something is only a legend. Chaeronea: his home town in Greece. Delphi: the temple of Apollo where Plutarch served as priest. Theseus: the legendary hero-king of Athens. Aegeus: his father. Minos: the king of Crete. Minotaur: the monster in the labyrinth. Ariadne: the daughter of Minos who gave Theseus a thread. Crete: the island. Labyrinth: a maze. Romulus: the legendary founder of Rome; Remus: his twin brother. Amulius: the wicked king of Alba. Faustulus: the shepherd who found the twins. Lycurgus: the lawgiver of Sparta. Solon: the wise lawgiver of Athens. Aristides: the Athenian called the Just. Themistocles: the Athenian who won at Salamis. Eurybiades: the Spartan commander of the Greek fleet. Pericles: the leader of Athens in its golden age. Anaxagoras: his teacher. Pheidias: the great sculptor. Alcibiades: the brilliant, reckless young Athenian. Socrates: the philosopher. Demosthenes: the great Athenian speaker. Philip: the king of Macedon. Alexander: Philip's son, Alexander the Great. Bucephalus: his horse. Aristotle: his teacher. Diogenes: the philosopher who lived in a barrel. Darius: the Persian king beaten by Alexander. Porus: an Indian king. Cato: the stern Roman, called the Elder. Fabius: the Roman who wore Hannibal down by delay. Hannibal: the general from Carthage. Pyrrhus: the king of Epirus. Coriolanus: the proud Roman who turned on Rome. Volumnia: his mother. Volscians: Rome's enemies. Julius Caesar: the Roman general and dictator. Pompey: his rival. Cleopatra: the queen of Egypt. Brutus and Cassius: two of Caesar's killers. Cicero: the Roman speaker and writer. Catiline: the traitor Cicero exposed. Mark Antony: the Roman soldier who loved Cleopatra. Octavian: Caesar's heir, later Augustus. Calpurnia: Caesar's wife. Senate: the council of Rome. Consul: a chief officer of Rome. Orator: a public speaker. Ostracism: a vote in which Athenians could send a man into exile for ten years. Legend: a story that may not be true. Athens, Sparta, Rome, Greece, Macedon, Persia, Egypt, Alexandria, Babylon, Carthage, Italy, Salamis, Marathon, Parthenon, Acropolis, Rubicon, Pharsalus, Philippi, Actium, the Nile, Corioli, Tarsus: the places. Dates are about: Rome's traditional founding 753 BC, Salamis 480 BC, Pericles dies 429 BC, Alexander dies 323 BC, Caesar dies 44 BC, Actium 31 BC. Voice and tone: wise, warm and curious, a storyteller with a moral eye; deaths are stated plainly, without gore."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Plutarch writes on a scroll in a quiet room at Delphi",
+      "summary": "Plutarch explains that he writes lives, not histories, because small acts show character."
+    },
+    {
+      "n": 2,
+      "scene": "A young man lifts a huge rock and finds a sword under it",
+      "summary": "Young Theseus lifts the rock that hides his father's sword and sandals."
+    },
+    {
+      "n": 3,
+      "scene": "A strong young man fights a bandit beside a dusty road",
+      "summary": "On the road to Athens, Theseus defeats the bandits who prey on travellers."
+    },
+    {
+      "n": 4,
+      "scene": "Theseus walks a dark maze unwinding a thread from a girl",
+      "summary": "Theseus enters the Labyrinth of Crete and kills the Minotaur with Ariadne's thread."
+    },
+    {
+      "n": 5,
+      "scene": "A she-wolf feeds two baby boys beside a river",
+      "summary": "Romulus and Remus are saved by a she-wolf and raised by the shepherd Faustulus."
+    },
+    {
+      "n": 6,
+      "scene": "Two brothers stand on two hills looking down at a plain",
+      "summary": "Romulus founds Rome, quarrels with Remus, and becomes the first king."
+    },
+    {
+      "n": 7,
+      "scene": "Lycurgus stands in a crowded square in Sparta, speaking to the people",
+      "summary": "Lycurgus sets out to cure the greed and the quarrels of Sparta."
+    },
+    {
+      "n": 8,
+      "scene": "Spartan men sit at a long table sharing plain food",
+      "summary": "Lycurgus replaces gold with heavy iron money and makes all citizens eat together."
+    },
+    {
+      "n": 9,
+      "scene": "Young Spartan boys train in a field under a stern teacher",
+      "summary": "Spartan boys are trained hard, and Lycurgus makes the Spartans swear to keep his laws."
+    },
+    {
+      "n": 10,
+      "scene": "A poor farmer hands a tablet to a rich man in Athens",
+      "summary": "Solon cancels the debts that are crushing the poor of Athens."
+    },
+    {
+      "n": 11,
+      "scene": "Solon speaks to a crowd beside wooden tablets covered in laws",
+      "summary": "Solon gives Athens written laws, then leaves for ten years."
+    },
+    {
+      "n": 12,
+      "scene": "A farmer asks a calm man to write a name on a pottery shard",
+      "summary": "Aristides is so just that a voter wants to exile him just for the title."
+    },
+    {
+      "n": 13,
+      "scene": "Young Themistocles stands awake at night looking at a victory monument",
+      "summary": "Themistocles cannot sleep, because the victory of Miltiades at Marathon haunts him."
+    },
+    {
+      "n": 14,
+      "scene": "A Spartan raises a stick at Themistocles on a warship",
+      "summary": "At Salamis, Themistocles says to Eurybiades, Strike me, but listen."
+    },
+    {
+      "n": 15,
+      "scene": "A traveller in a hood arrives in a Persian court",
+      "summary": "Exiled from Athens, Themistocles flees to Persia, where the king welcomes him."
+    },
+    {
+      "n": 16,
+      "scene": "Pericles stands tall on a platform with a plumed helmet and speaks",
+      "summary": "Pericles, taught by Anaxagoras, becomes the leading man of Athens."
+    },
+    {
+      "n": 17,
+      "scene": "Workers raise white marble columns on the Acropolis in sunlight",
+      "summary": "Pericles builds the Parthenon and the great works of Athens."
+    },
+    {
+      "n": 18,
+      "scene": "Crowded streets of Athens in a hot summer with people sick",
+      "summary": "War with Sparta begins, and a plague strikes crowded Athens."
+    },
+    {
+      "n": 19,
+      "scene": "Pericles lies in bed as his friends talk quietly around him",
+      "summary": "Pericles dies in 429 BC, proud that no Athenian wore mourning because of him."
+    },
+    {
+      "n": 20,
+      "scene": "Alcibiades walks through the Athenian market with a dog behind him",
+      "summary": "Alcibiades is charming and wild, and cuts the tail from his dog to start gossip."
+    },
+    {
+      "n": 21,
+      "scene": "Greek ships sail to Sicily as a young man waves from the deck",
+      "summary": "Alcibiades leads the Sicilian expedition, then flees to Sparta and later dies in exile."
+    },
+    {
+      "n": 22,
+      "scene": "Demosthenes practises speaking with pebbles in his mouth by the sea",
+      "summary": "Demosthenes overcomes a stammer by shouting into the waves with pebbles in his mouth."
+    },
+    {
+      "n": 23,
+      "scene": "Demosthenes speaks to a crowded assembly while Macedonian envoys listen",
+      "summary": "Demosthenes warns Athens against Philip of Macedon, and he dies by poison in 322 BC."
+    },
+    {
+      "n": 24,
+      "scene": "A boy turns a black horse toward the sun to calm it",
+      "summary": "The boy Alexander tames the horse Bucephalus by turning it away from its own shadow."
+    },
+    {
+      "n": 25,
+      "scene": "Aristotle teaches young Alexander under a tree on a hillside",
+      "summary": "Aristotle teaches Alexander, who becomes king of Macedon at twenty after Philip is killed."
+    },
+    {
+      "n": 26,
+      "scene": "Alexander draws his sword against a huge knot on an old cart",
+      "summary": "Alexander crosses to Asia and cuts the Gordian knot with his sword."
+    },
+    {
+      "n": 27,
+      "scene": "Alexander stands in front of Diogenes lying in the sun by his barrel",
+      "summary": "Diogenes asks Alexander to stand out of his sun."
+    },
+    {
+      "n": 28,
+      "scene": "Persian women bow before Alexander in a royal tent",
+      "summary": "Alexander beats Darius and treats the Persian royal family with respect."
+    },
+    {
+      "n": 29,
+      "scene": "A tall Indian king stands before Alexander near a river bank",
+      "summary": "Alexander defeats Porus in India, then his tired army refuses to go farther."
+    },
+    {
+      "n": 30,
+      "scene": "Alexander lies sick in a palace in Babylon as soldiers file past",
+      "summary": "Alexander dies in Babylon in 323 BC and leaves his kingdom to the strongest."
+    },
+    {
+      "n": 31,
+      "scene": "An old Roman works in a plain farm field in a plain tunic",
+      "summary": "Cato the Elder lives simply, works his own land and scorns luxury."
+    },
+    {
+      "n": 32,
+      "scene": "Cato holds up a fresh fig in the Roman Senate",
+      "summary": "Cato ends every speech by saying that Carthage must be destroyed."
+    },
+    {
+      "n": 33,
+      "scene": "Roman soldiers watch Hannibal's army from a hill and do nothing",
+      "summary": "Fabius wears down Hannibal by delay, and is mocked for it."
+    },
+    {
+      "n": 34,
+      "scene": "King Pyrrhus sits among tired soldiers after a battle with elephants",
+      "summary": "Pyrrhus beats the Romans at a terrible cost and says another such win would ruin him."
+    },
+    {
+      "n": 35,
+      "scene": "A Roman mother kneels before her angry son in front of an army",
+      "summary": "Coriolanus, exiled from Rome, leads an army against it but yields to his mother's plea."
+    },
+    {
+      "n": 36,
+      "scene": "A young Caesar sits calmly among pirates on a ship's deck",
+      "summary": "Young Caesar is captured by pirates, jokes with them and promises to punish them."
+    },
+    {
+      "n": 37,
+      "scene": "Caesar stands on a river bank with his soldiers at dawn",
+      "summary": "Caesar crosses the Rubicon in 49 BC and says the die is cast."
+    },
+    {
+      "n": 38,
+      "scene": "Caesar's soldiers charge across a plain in Greece",
+      "summary": "Caesar defeats Pompey at Pharsalus, and Pompey is killed in Egypt."
+    },
+    {
+      "n": 39,
+      "scene": "A servant carries a rolled bed-sack into Caesar's palace room",
+      "summary": "Cleopatra has herself carried to Caesar in a bed-sack."
+    },
+    {
+      "n": 40,
+      "scene": "A soothsayer warns Caesar in a crowd, as Calpurnia holds his arm",
+      "summary": "Caesar ignores warnings about the Ides of March."
+    },
+    {
+      "n": 41,
+      "scene": "Roman senators surround Caesar at the foot of Pompey's statue",
+      "summary": "Brutus and the conspirators kill Caesar in the Senate."
+    },
+    {
+      "n": 42,
+      "scene": "Brutus sits by a campfire at night in a dark tent",
+      "summary": "Brutus and Cassius lose at Philippi, and Brutus takes his own life."
+    },
+    {
+      "n": 43,
+      "scene": "Cicero speaks in the Senate and points at Catiline across the room",
+      "summary": "Cicero uncovers the plot of Catiline in 63 BC."
+    },
+    {
+      "n": 44,
+      "scene": "A Roman orator is carried in a litter along a road",
+      "summary": "Mark Antony has Cicero put to death in 43 BC."
+    },
+    {
+      "n": 45,
+      "scene": "A golden barge with purple sails drifts up a river in Tarsus",
+      "summary": "Mark Antony meets Cleopatra when she sails up the Cydnus on a golden barge."
+    },
+    {
+      "n": 46,
+      "scene": "Mark Antony and Cleopatra feast in an Egyptian palace",
+      "summary": "Antony stays in Egypt, and Octavian turns Rome against him."
+    },
+    {
+      "n": 47,
+      "scene": "Warships clash at sea as Cleopatra's ships sail away",
+      "summary": "At Actium, Cleopatra's ships flee, and Antony follows her."
+    },
+    {
+      "n": 48,
+      "scene": "Cleopatra stands alone in a tomb as Octavian's messenger arrives",
+      "summary": "Antony and Cleopatra die in 30 BC, and Egypt becomes part of Rome."
+    },
+    {
+      "n": 49,
+      "scene": "Plutarch sits at a table with two scrolls side by side",
+      "summary": "Plutarch compares his Greek and Roman pairs and judges their virtues and faults."
+    },
+    {
+      "n": 50,
+      "scene": "Readers in a candlelit room pass around a bound book of old lives",
+      "summary": "Plutarch's Lives shape later writers, including Shakespeare."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Plutarch wrote about famous lives because small things show what a person is like.",
+      "Young Theseus lifted a big rock and found his father's sword under it.",
+      "On the road to Athens, Theseus fought the bandits who hurt travellers.",
+      "Theseus went into the maze and killed the monster with a thread.",
+      "A wolf fed the baby twins Romulus and Remus, and a shepherd found them.",
+      "Romulus built the city of Rome, and he became its first king.",
+      "Lycurgus wanted to stop the greed and fighting in the city of Sparta.",
+      "In Sparta, money was heavy iron, and all the men ate together.",
+      "Spartan boys trained hard, and the Spartans promised to keep the laws.",
+      "Solon cancelled the debts, and the poor people of Athens were free again.",
+      "Solon wrote down laws for Athens, and then he went away for ten years.",
+      "A farmer voted to send Aristides away because everyone called him the Just.",
+      "Themistocles could not sleep, because he wanted a great victory like Marathon.",
+      "At Salamis, Themistocles said to the Spartan leader, Hit me, but listen.",
+      "The people of Athens sent Themistocles away, and he found a home in Persia.",
+      "Pericles learned from a wise teacher, and he became the leader of Athens.",
+      "Pericles built the Parthenon, and white stone rose over the hill.",
+      "A war with Sparta began, and then a sickness came to Athens.",
+      "Pericles died in the sickness, and he was proud that no one cried because of him.",
+      "Alcibiades was young and clever, and he cut the tail off his dog.",
+      "Alcibiades led the ships to Sicily, but later he ran away and died.",
+      "Demosthenes could not speak well, so he practised with stones in his mouth.",
+      "Demosthenes warned Athens about King Philip, and later he took poison and died.",
+      "Alexander was a boy when he calmed the wild horse Bucephalus.",
+      "Young Alexander learned from a wise teacher, and he became king at twenty.",
+      "Alexander went to Asia, and he cut the great knot with his sword.",
+      "A wise man lay in the sun, and he asked Alexander to move.",
+      "Alexander beat King Darius, but he was kind to the Persian family.",
+      "Alexander beat an Indian king, but his tired men said no to more war.",
+      "Alexander died in Babylon, and he said his kingdom was for the strongest.",
+      "Cato was an old Roman who lived simply and worked his own farm.",
+      "Cato ended every speech by saying that Carthage must be destroyed.",
+      "Fabius waited and waited, and he made Hannibal's army tired.",
+      "King Pyrrhus won a battle, but he lost so many men.",
+      "Coriolanus led an army against Rome, but his mother asked him to stop.",
+      "Caesar was young when pirates took him, but he joked with them.",
+      "Caesar crossed a small river with his army and began a war.",
+      "Caesar won the great battle, and his enemy Pompey died in Egypt.",
+      "Cleopatra hid in a bed bag and was carried to Caesar.",
+      "A wise man warned Caesar about the day in March, but Caesar went out.",
+      "Brutus and his friends killed Caesar in the Senate house.",
+      "Brutus lost the last battle, and then he ended his own life.",
+      "Cicero found a plot against Rome, and he stopped the traitor Catiline.",
+      "Mark Antony wanted Cicero dead, and the great speaker was killed.",
+      "Cleopatra sailed up the river on a golden boat with purple sails.",
+      "Antony stayed in Egypt with Cleopatra, and Octavian made Rome angry with him.",
+      "At Actium, Cleopatra's ships sailed away, and Antony went after her.",
+      "Antony and Cleopatra died, and Egypt became part of Rome.",
+      "Plutarch put one Greek and one Roman side by side, and he judged them both.",
+      "Plutarch's book lived on for centuries, and the writer Shakespeare loved it."
+    ],
+    "B1B2": [
+      "Plutarch, a Greek priest of Delphi, explains that he is not writing history but lives. A small joke or a simple act, he says, often shows a person's character better than a great battle.",
+      "The young Theseus, son of the king of Athens, lifts a huge rock beside a road. Under it he finds his father's sword and sandals, and he sets out to meet his father.",
+      "On the road to Athens, Theseus meets many bandits who attack travellers. He defeats them all in the same way that they had treated their victims, and he reaches the city as a hero.",
+      "In Crete, Theseus enters the Labyrinth to kill the Minotaur, a monster that eats young Athenians. Ariadne, the king's daughter, gives him a thread to find his way out, although some writers say that the Minotaur was a cruel general.",
+      "Two baby boys, Romulus and Remus, are left beside the river Tiber, where a she-wolf feeds them. A shepherd named Faustulus finds them and raises them, though Plutarch says that some people doubt the story.",
+      "When the brothers grow up, they decide to found a city, but they quarrel about where it should stand. Romulus builds his city on the Palatine hill, becomes its first king, and the city is named Rome for him.",
+      "Lycurgus, the lawgiver of Sparta, sees that his city is full of greed and quarrels between the rich and the poor. He decides to change everything, and he asks the oracle at Delphi to bless his plans.",
+      "Lycurgus replaces gold and silver coins with heavy iron money, which is too bulky to steal or to hide. He also orders every citizen to eat the same plain food together, so that rich men cannot show off.",
+      "Spartan boys leave home at seven to train as soldiers, and they learn to bear hunger and cold. Lycurgus makes the Spartans swear to keep his laws until he returns, but he then leaves and never comes back.",
+      "In Athens, many poor farmers owe so much money that they are forced to become slaves to their creditors. Solon, a wise and fair man, cancels the debts and frees those who were enslaved.",
+      "Solon then writes new laws for Athens, and he lets every citizen speak in the assembly. When people ask him to change them, he sails away for ten years, so that they cannot talk him into it.",
+      "Aristides is known as the Just, and his fairness is so famous that people grow tired of hearing it. A farmer who cannot write asks Aristides himself to write the name Aristides on a voting shell, and he does so quietly.",
+      "As a young man, Themistocles is so ambitious that he cannot sleep, because he keeps thinking of the victory won at Marathon. He says that the trophy of Miltiades will not let him rest, and he decides to make Athens a great power at sea.",
+      "Before the battle of Salamis, the Spartan commander Eurybiades is angry that Themistocles keeps arguing with him. He lifts his stick to hit him, and Themistocles says, Strike me if you like, but first listen to me.",
+      "Later, the Athenians vote to exile Themistocles, and he must flee from city to city. At last he reaches Persia, where the new king receives him kindly, and he learns the Persian language and lives there until he dies.",
+      "Pericles, a handsome and thoughtful man, has been taught by the philosopher Anaxagoras to stay calm and speak clearly. For many years the Athenians choose him as their first citizen, and he rules them mainly by the power of his words.",
+      "Pericles wants to make Athens beautiful, so he orders new temples to be built on the Acropolis, including the Parthenon. The sculptor Pheidias works on them, and some people complain about the cost, but Pericles carries on.",
+      "War breaks out between Athens and Sparta, and Pericles brings all the country people inside the walls. Soon the crowded city is struck by a terrible plague, and many Athenians fall ill, including members of his own family.",
+      "Pericles himself catches the plague and dies in 429 BC, after many years at the head of Athens. On his deathbed, he says that his proudest achievement is that no living Athenian ever put on mourning because of him.",
+      "Alcibiades is handsome, rich, and very clever, and Socrates is fond of him although he is wild. He once cuts off the tail of his beautiful dog, so that the Athenians will gossip about it instead of about his faults.",
+      "Alcibiades persuades Athens to send a great fleet to Sicily in 415 BC. When he is accused of crimes at home, he runs away to Sparta, and he is eventually killed in exile in 404 BC.",
+      "Demosthenes, who will become the greatest speaker in Athens, begins with a weak voice and a stammer. He practises by speaking with pebbles in his mouth and by shouting against the noise of the waves.",
+      "Demosthenes warns his fellow citizens that Philip of Macedon is a danger to Greece. When Philip's army wins at Chaeronea, Athens falls under Macedonian power, and Demosthenes later takes poison to avoid capture in 322 BC.",
+      "As a boy, Alexander sees that nobody can ride the great black horse that his father Philip has just bought. He notices that the horse is afraid of its own shadow, turns it toward the sun, and rides it easily.",
+      "The philosopher Aristotle teaches Alexander for several years, and the young prince loves books and learning. When Philip is murdered in 336 BC, Alexander becomes king of Macedon at the age of twenty.",
+      "Alexander crosses into Asia and visits the old city where a famous knot ties a cart to its post. Nobody has been able to untie it, so Alexander cuts through it with his sword.",
+      "In Corinth, Alexander meets the philosopher Diogenes, who is lying in the sun beside his barrel. The king asks if he can do anything for him, and Diogenes replies, Please stand out of my sun.",
+      "Alexander defeats the Persian king Darius in several great battles. He captures the royal family, but he treats the women with respect, and he even weeps when he hears of the death of Darius's wife.",
+      "In India, Alexander beats the brave king Porus, and Porus asks to be treated as a king. Alexander is pleased by his pride, and he gives Porus back his land, but the tired Macedonians at last refuse to march farther.",
+      "Alexander dies in Babylon in 323 BC at the age of thirty-two, after a sudden illness. When his friends ask who should rule after him, he is said to have answered, The strongest.",
+      "Cato the Elder is a stern Roman who works his own farm and wears simple clothes. He hates luxury and thinks that Roman citizens should live plainly, and he speaks against the spending of the rich.",
+      "Cato visits Carthage and sees how rich it has become, and he decides that Rome will never be safe while it stands. From then on he ends every speech in the Senate with the same words, that Carthage must be destroyed.",
+      "Fabius, a Roman general, faces the great Carthaginian Hannibal after several Roman defeats. He refuses to fight a big battle, preferring to follow and tire the enemy, and the Romans mock him with the name the Delayer.",
+      "Pyrrhus, the king of Epirus, invades Italy and defeats the Romans in a battle with his elephants. But his losses are so great that he is said to have cried that another such victory would destroy him.",
+      "Coriolanus is a brave Roman who is sent into exile by an angry crowd. He joins the Volscians and leads them against Rome, but when his mother Volumnia pleads with him, he leads the army away.",
+      "While he is still young, Julius Caesar is captured by pirates, who demand a ransom for his release. He treats them like servants, tells them that he will return to punish them, and he keeps his word.",
+      "In 49 BC, Caesar leads his army to the little river Rubicon, which marks the edge of his province. He knows that crossing will mean civil war, but he says, Let the die be cast, and he goes over.",
+      "Caesar defeats Pompey at Pharsalus in 48 BC, and Pompey runs away to Egypt. There he is killed as he steps ashore, and Caesar weeps when he is shown the head of his old rival.",
+      "In Egypt, young Queen Cleopatra needs Caesar's help, but her brother's men are watching the palace. She has a servant roll her up in a bed-sack and carry her in, and Caesar is delighted.",
+      "A soothsayer warns Caesar to beware the Ides of March, and his wife Calpurnia dreams of his death. Caesar laughs at the warning, and on the fifteenth of March he goes to the Senate as usual.",
+      "Brutus, who loves Rome and had once been Caesar's friend, joins the plot against him. The conspirators attack Caesar in the Senate, and he falls at the foot of Pompey's statue, after twenty-three wounds.",
+      "Brutus and Cassius raise an army, but they are defeated by Antony and Octavian at Philippi in 42 BC. Brutus then takes his own life, and Antony covers his body with a purple cloak.",
+      "Cicero is the greatest speaker in Rome, and as consul in 63 BC, he discovers a plot by the traitor Catiline. He reveals it to the Senate, and Rome is saved, though Cicero is proud of it for the rest of his life.",
+      "After Caesar's death, Cicero attacks Mark Antony in his speeches. When Antony joins with Octavian, he puts Cicero's name on a list of enemies, and the old speaker is killed in 43 BC.",
+      "Mark Antony is a brave and generous soldier, but he likes pleasure too much. In 41 BC, Cleopatra comes to meet him at Tarsus in a golden barge with purple sails and silver oars, dressed as the goddess Aphrodite.",
+      "Antony follows Cleopatra to Alexandria and spends his days with her in feasts and games. In Rome, Octavian says that Antony has betrayed his country, and the two men prepare for war.",
+      "At Actium in 31 BC, the fleets of Octavian and Antony meet in a great battle. When Cleopatra's ships suddenly sail away, Antony forgets his men and follows her, and his army loses heart.",
+      "When Octavian arrives in Egypt, Antony believes a false report that Cleopatra is dead and stabs himself. He dies in her arms, and soon afterward Cleopatra also takes her own life, and Egypt becomes a Roman province.",
+      "Plutarch writes his lives in pairs, a Greek and a Roman, and ends many of them by comparing the two. He praises their courage and wisdom, but he also shows their faults, so that readers can learn from both.",
+      "Plutarch's lives were read for centuries, and in the sixteenth century they were translated into English. Shakespeare read them there, and he borrowed from them when he wrote his plays about Caesar, Antony and Coriolanus."
+    ],
+    "C1C2": [
+      "Plutarch, a Greek priest of Apollo at Delphi, begins by warning his readers that he is writing lives rather than histories. A trivial act, a casual remark or a joke, he explains, will often reveal a man's character more clearly than the greatest battle or the siege of a city. For that reason he sets his heroes side by side in pairs, one Greek and one Roman, so that readers may measure them against each other.",
+      "Theseus, according to the legend, was the son of Aegeus, king of Athens, but he was brought up far away and learned of his father only as a young man. His mother led him to an immense stone, beneath which Aegeus had hidden a sword and a pair of sandals, and the youth lifted the rock with ease. Taking up these tokens, he determined to journey to Athens and claim his birthright.",
+      "Although the sea route was safe, Theseus chose the dangerous road by land, for he wanted to follow the example of Hercules and rid the country of its robbers. One by one he met the bandits who preyed upon travellers and defeated them, often in the same way that they had treated their victims. When he finally reached Athens, his fame had gone before him, and the city welcomed him as a deliverer.",
+      "In Crete, as Plutarch tells it, Athens had to send a tribute of seven young men and seven young women, to be shut inside the Labyrinth and devoured by the Minotaur, and Theseus volunteered to go. The king's daughter Ariadne fell in love with him and gave him a ball of thread, which he unwound as he walked into the maze so that he could find his way out again. Some historians, Plutarch notes, preferred to believe that the Minotaur was a cruel general named Taurus, though the older tale is the one most people tell.",
+      "Plutarch warns that the early history of Rome is wrapped in fable, but he tells the old tale all the same: the twin brothers Romulus and Remus, children of a princess, were abandoned beside the Tiber by a wicked king. A she-wolf found them and suckled them, while a woodpecker brought them food, until a kindly shepherd named Faustulus took them home and raised them as his own sons. When they grew up, they were strong, bold and eager for fame, and they were soon known throughout the countryside.",
+      "The brothers resolved to found a city near the place where they had been raised, but they quarrelled over where it should be built and who should rule it. Romulus drew a boundary around the Palatine hill, and when Remus mocked the little wall by leaping over it, a fight broke out in which Remus was killed. Romulus then ruled alone, and the city that he had founded, traditionally in 753 BC, took its name from him and began to grow.",
+      "Lycurgus, the lawgiver of Sparta, saw that his city was torn by greed, by the arrogance of the rich and by the discontent of the poor. Resolved to cure these ills at their root, he travelled widely to study the laws of other lands and consulted the oracle at Delphi, which promised that his laws would be the best in the world. The story of his life, Plutarch admits, is so full of contradictions that no two writers agree upon it.",
+      "To strike at the love of money, Lycurgus replaced gold and silver coins with iron bars so large and heavy that a fortune would fill a cellar and require a team of oxen to carry it away. He then ordered all the citizens to eat together at common tables, with the same plain food, so that no rich man could feast apart or flaunt his wealth. Within a short time, Plutarch reports, the very desire for luxury had begun to wither.",
+      "Spartan boys were taken from their homes at the age of seven and brought up together in companies, where they learned obedience, endurance and the art of war. Before he left on a journey, Lycurgus made all the citizens swear that they would obey his laws until he returned, and then he starved himself to death abroad, so that the oath would bind them forever. Whether this tale is true, Plutarch cannot say, but it was widely believed in Sparta.",
+      "In Athens, meanwhile, the poor farmers had sunk so deeply into debt that many had been forced to sell themselves or their children into slavery to their creditors. Solon, a wise and moderate poet whom both rich and poor trusted, was called upon to put things right, and he proposed a bold remedy. He cancelled the debts, freed those who had been enslaved for them, and the Athenians called the reform the shaking-off of burdens.",
+      "Solon then drew up new laws, written on wooden tablets so that all could read them, and he made every citizen a member of the assembly and the courts. When he was asked whether he had given the Athenians the best possible laws, he replied that he had given them the best they were able to receive. Rather than let people pester him with requests for changes, he sailed abroad for ten years.",
+      "Aristides was so fair that the Athenians called him the Just, a name that eventually became tiresome to those who disliked a man who was always right. When the people were voting to exile someone by writing his name on a shell, an illiterate farmer asked Aristides, whom he did not recognise, to write that name for him. Aristides asked what harm he had done, and the man replied that he was simply tired of hearing him called the Just.",
+      "In his youth Themistocles was passionate, restless and so ambitious that those who knew him thought that he would either rise to greatness or come to a bad end. After the victory at Marathon, when the others were celebrating, he was seen wandering alone and sleepless, for he said that the trophy of Miltiades would not let him rest. He had already begun to dream of a naval power that would one day make Athens mistress of the sea.",
+      "On the eve of the battle of Salamis, the Greek commanders quarrelled bitterly, and the Spartan Eurybiades, who was in command, grew so angry with Themistocles that he raised his staff to strike him. Themistocles, without losing his temper, said calmly, Strike me if you wish, but hear me first. His self-control persuaded Eurybiades to listen, and the Greeks fought in the narrow strait that Themistocles had chosen.",
+      "Having saved Greece, Themistocles saw his fortunes turn, for the Athenians grew weary of his boasting and voted to banish him by ostracism. Pursued by his enemies, he fled from city to city until he found refuge at the Persian court, where the new king received him with surprising kindness. There he learned the Persian language, was given a number of cities for his support, and spent the rest of his life, though accounts of his death differ.",
+      "Pericles, the leading man of Athens for many years, was said to be remarkably calm, and to have learned this composure from his teacher, the philosopher Anaxagoras. Neither abuse nor flattery could disturb his serenity, and his speeches, which rolled like thunder, had a force that could sway the whole assembly. Though Athens was a democracy, Thucydides remarked that in his time it was in name a democracy but in fact the rule of its first citizen.",
+      "Pericles was determined that Athens should be not only powerful but beautiful, and he employed the finest sculptors and architects, among them Pheidias, to build the temples on the Acropolis. When critics complained of the extravagance, he offered to pay for the works himself on the condition that his name alone should be inscribed upon them. The Athenians, moved by his generosity, told him to spend as much as he liked from the public treasury, and the Parthenon rose in gleaming marble.",
+      "When war with Sparta came, Pericles advised the people to leave their farms and withdraw behind the long walls of Athens, trusting in their navy to protect them. The plan was sound, but the crowded city, in a summer of unusual heat, was attacked by a terrible plague, and the Athenians blamed Pericles for their suffering. He himself lost his sister, his sons and many friends, and for the first time in his life, he was seen to weep in public.",
+      "In 429 BC, Pericles himself fell ill with the plague and lay dying, while his friends sat around his bed and spoke of his great deeds, thinking that he could not hear. He astonished them by saying that these were common achievements that fortune had shared with many commanders, and that the finest thing he had done was that no living Athenian had ever put on mourning because of him. It was, said Plutarch, a worthy epitaph for a ruler who had never allowed his anger to master him.",
+      "Alcibiades was beautiful, rich, brilliant and utterly unprincipled, and he was loved by Socrates, who tried in vain to teach him modesty. Once he bought a magnificent dog for a huge price and then cut off its splendid tail, explaining to his friends that he wanted the Athenians to gossip about this and not about worse things. Plutarch, who loved a telling anecdote, found in such stories the whole of the man's character: dazzling, careless and always craving attention.",
+      "In 415 BC, Alcibiades persuaded the Athenians to launch a vast expedition against Sicily, but he was accused of sacrilege before it had even reached the island and was recalled to stand trial. Rather than return to certain condemnation, he fled to Sparta and offered the enemy advice that proved fatal to his native city. Hunted in turn by Sparta and Athens, he met his death in Phrygia in 404 BC, murdered in the house where he had taken refuge.",
+      "Demosthenes began life with so many disadvantages, a weak voice, a stammer and a nervous habit of twitching his shoulder, that his first speeches were laughed at by the Athenians. Undaunted, he trained himself with extraordinary stubbornness, practising with pebbles in his mouth, declaiming as he ran uphill and shouting against the roar of the waves to accustom himself to noisy assemblies. He even shaved half of his head so that he would be too ashamed to go out, and could study underground for months.",
+      "When Philip of Macedon began to threaten the freedom of Greece, Demosthenes was the one man who saw the danger clearly and spoke with fiery eloquence against him. His warnings were not enough, and after the defeat at Chaeronea, which was fought near Plutarch's own home town, the Greeks lost their independence. When the Macedonians later demanded him, he took poison from a hollow pen, in 322 BC, rather than fall into their hands.",
+      "Alexander, who was born in 356 BC, showed his courage as a boy when his father Philip bought a magnificent black horse that no one could mount. The boy noticed that the animal was frightened of its own shadow, so he turned it toward the sun, spoke softly, and leaped on its back, and Philip is said to have wept with pride. He named the horse Bucephalus, and it carried him faithfully through many battles in Greece, Persia and India.",
+      "Philip hired the great philosopher Aristotle to teach his son, and Alexander developed a lifelong love of Homer, which he kept under his pillow next to his dagger. After Philip was murdered in 336 BC, Alexander took the throne of Macedon at twenty and swiftly crushed the revolts that broke out on every side. Soon he was planning the invasion of Persia, an empire that dwarfed his own tiny kingdom.",
+      "After crossing into Asia, Alexander was shown an ancient cart tied to its pole with a knot so intricate that no one had been able to undo it, though an oracle said that whoever managed it would rule Asia. The young king, either too impatient to untie it or too clever to fail, drew his sword and cut straight through it. Later writers disagreed about exactly how he did it, but all agree that the knot was loosed, and that Alexander was delighted.",
+      "At Corinth, many statesmen and philosophers came to congratulate Alexander, but the philosopher Diogenes, who lived in a large jar and owned almost nothing, did not appear. Alexander went to see him instead, finding him stretched out in the sunshine, and asked whether there was anything he could do for him. Diogenes replied that he could stand out of his sun, and Alexander, laughing, remarked that if he were not Alexander, he would wish to be Diogenes.",
+      "After his victories over the Persian king Darius, Alexander captured the royal family, but he treated the queen mother, the wife and the daughters with perfect courtesy and forbade anyone to insult them. When Darius's wife died, Alexander wept and gave her a splendid funeral, and Darius, hearing of it, is said to have prayed that if he must lose his kingdom, it should be to such a man. Plutarch cites the incident as proof that Alexander's self-command was greater than his conquests.",
+      "In India, Alexander defeated the powerful king Porus after a hard fight, and when the wounded king was brought before him, he asked how he wished to be treated. Porus replied, as a king, and Alexander, delighted by his dignity, restored his kingdom and added more to it. Beyond that river, however, his weary soldiers refused to march any farther, and the conqueror sulked in his tent for days before he agreed to turn back.",
+      "In 323 BC, only thirty-two years old, Alexander fell ill after a long banquet in Babylon, and his fever grew worse until he could no longer speak. His soldiers insisted upon filing past his bed to see him, and he greeted each of them with a movement of his eyes or a nod. When his friends asked to whom he left the kingdom, he is said to have murmured, To the strongest, and soon he was dead.",
+      "Marcus Porcius Cato, called the Elder, was a stern and incorruptible Roman who rose before dawn, worked his own land with his own hands and wore a plain cloak. He scorned the luxury that was spreading in Rome and made it his mission to defend the old, severe manners, which was a task that brought him many enemies. Plutarch, who admired his honesty, nevertheless thought him harsh to his slaves and mean in some of his dealings.",
+      "After a visit to Carthage, where he saw how prosperous the city was becoming, Cato was convinced that Rome would never be safe while its old rival stood. From then on, whatever his subject, he would end by saying that Carthage must be destroyed, and the story goes that he once shook a fresh fig from his cloak in the Senate to show how near the enemy was. Rome destroyed Carthage in 146 BC, three years after his death, and the old man had been proved right in the end.",
+      "After Hannibal had crushed several Roman armies, the Senate appointed Fabius Maximus as dictator, and he adopted a policy that at first seemed cowardly. He refused to risk a pitched battle and kept his army on the hills, shadowing the Carthaginians, cutting off their supplies and exhausting them. His own countrymen mocked him as the Delayer, but Plutarch makes it clear that this patient strategy saved Rome when bolder generals had failed.",
+      "Pyrrhus, king of Epirus, invaded Italy with elephants and a well-trained army, and he defeated the Romans in two hard-fought battles. Yet his losses were so great that when a courtier congratulated him, he is said to have replied that one more such victory would ruin him completely. The phrase has survived to our own day, and a success won at too heavy a cost is still called a Pyrrhic victory.",
+      "Coriolanus, a brave but arrogant Roman, had won his name by capturing the city of Corioli, yet his contempt for the common people led them to drive him into exile. In his bitterness he joined the Volscians, Rome's old enemies, and led their army to the very gates of the city while the terrified Romans sent embassy after embassy in vain. At last his mother Volumnia and his wife came to plead with him, and, overcome by her tears, he led the army away, knowing that he was condemning himself.",
+      "The young Julius Caesar, while crossing the sea to study, was seized by pirates, who demanded a ransom of twenty talents, a sum that he laughed at and insisted they raise to fifty. During the weeks of his captivity, he treated them as his servants, joined in their games, wrote poems for them to hear and cheerfully told them that he would have them crucified. After his ransom was paid, he raised a fleet, captured the pirates, and did exactly what he had promised.",
+      "In 49 BC, Caesar led his soldiers to the little river Rubicon, which marked the boundary of his province, knowing that to cross it with an army would mean civil war. He paused for a long moment on the bank, and then, with the words, Let the die be cast, he plunged into the water and the die was cast indeed. Within weeks, he was marching south through Italy with the whole of Rome in panic.",
+      "At Pharsalus in 48 BC, the soldiers of Caesar, though outnumbered, routed the larger army of Pompey, and Pompey fled across the sea to Egypt. As he stepped ashore, hoping for shelter, he was murdered by the king's officers, and when Caesar arrived and was shown his rival's head, he turned away and wept. Plutarch uses the scene to show that even a conqueror may mourn an enemy.",
+      "In Alexandria, the young queen Cleopatra, who had been driven from her throne by her brother, knew that she would be stopped if she tried to enter the palace openly. She had herself rolled up in a bed-sack, tied with a cord, and carried by a trusted servant right past the guards to the feet of Caesar. Charmed by her daring, he took her side, and she was soon sitting on the throne again.",
+      "A soothsayer warned Caesar to beware of the Ides of March, and on the night before, his wife Calpurnia dreamed that she was holding his murdered body in her arms. On the morning itself, Caesar hesitated, but a friend urged him to go to the Senate rather than seem afraid, and he went. On the way, he met the soothsayer and joked that the Ides had come, to which the man replied that they had come but had not yet gone.",
+      "Brutus, a man of high principle who loved the old Republic and had once been pardoned by Caesar, was persuaded by Cassius to join the plot. The conspirators crowded around Caesar in the Senate, and he was attacked from every side, falling at the foot of the statue of Pompey with twenty-three wounds. Plutarch reports that he covered his face with his robe when he saw that Brutus, too, was among his assailants.",
+      "Brutus and Cassius fled to the East, raised a powerful army and met the forces of Antony and Octavian at Philippi in 42 BC. After Cassius died in an early battle, Brutus fought on, but his army was beaten, and rather than be captured, he asked a friend to help him end his own life. Antony, finding the body, covered it with his own purple cloak out of respect for his old enemy.",
+      "Marcus Tullius Cicero, the finest speaker in Rome, rose through his talent alone, and as consul in 63 BC, he uncovered the conspiracy of Catiline, a bankrupt nobleman who planned to seize the city. His speeches before the Senate, which exposed the plotters, saved the Republic, but he never tired of reminding people of it, and so made himself a number of enemies. Plutarch admires his genius and gently smiles at his vanity, which he thought was the one great flaw in an otherwise noble man.",
+      "After the murder of Caesar, Cicero denounced Mark Antony in a series of fierce speeches, but when Antony joined forces with Octavian, the two men drew up a list of enemies to be executed. Cicero's name was on it, and he was overtaken by soldiers as he was being carried toward the sea in a litter, and he offered no resistance. He died in 43 BC, and Antony ordered that his hands and head be displayed in the Forum where he had once spoken.",
+      "Mark Antony was a bold and generous soldier, popular with his men and ready to share their hardships, but he was weak in the company of pleasure. In 41 BC, he summoned Cleopatra to meet him at Tarsus, and she came in a barge with a golden stern, purple sails and silver oars, dressed as Aphrodite, while boys like cupids fanned her. All the city, Plutarch says, ran out to watch, and Antony was left sitting alone in the market-place.",
+      "Antony followed Cleopatra to Alexandria, where the two founded a society called the Inimitable Livers and passed the days in feasts, games and endless entertainments. Meanwhile, in Rome, Octavian turned the people against Antony by saying that he had abandoned his country and his Roman wife for a foreign queen. The two sides gathered their armies and fleets and prepared for the final contest.",
+      "At Actium in 31 BC, the great fleets met off the coast of Greece, and the battle was still in doubt when Cleopatra's ships suddenly hoisted their sails and slipped away. Antony, forgetting his duty to the thousands of men fighting for him, abandoned the battle and followed her, and Plutarch scorns him for it. His army, finding itself leaderless and in despair, surrendered to Octavian a few days later.",
+      "When Octavian reached Egypt, Antony was falsely told that Cleopatra had died, and in despair he fell upon his own sword, though he lived long enough to be carried to her tomb. After his death, Cleopatra, who could not bear to be led through Rome in triumph, took her own life in 30 BC, though writers disagree about exactly how. Egypt, the last great kingdom ruled by the heirs of Alexander's generals, then became a Roman province.",
+      "Plutarch composed his lives in pairs, a Greek and a Roman, and he often added a short comparison at the end of each pair, weighing the virtues and faults of the two men. He had no wish to make idols of them, for he showed their cruelty, vanity and folly as plainly as their courage. His aim was to hold up a mirror in which readers might see how to live well, and how not to.",
+      "In the sixteenth century, Plutarch's Lives were translated into English from a French version, and the book fell into the hands of a young playwright from Stratford named William Shakespeare. He borrowed whole speeches from it for his plays Julius Caesar, Antony and Cleopatra and Coriolanus, and countless readers since have learned from Plutarch how large and complicated great men can be. Nearly two thousand years later, the stories of Theseus, Alexander and Caesar are still told, and they owe much of their charm to the priest of Delphi."
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, type ReactNode } from "react";
+import { useMemo } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 import { DECK_SIZES, type DeckSize } from "@/lib/decks";
 import { useT } from "@/lib/i18n/react";
@@ -12,7 +12,6 @@ import { useDeviceReady, useNowMinute, useSaved, useSrs } from "@/lib/srs/use";
 import { withCardsFor } from "@/lib/srs/store";
 
 const stroke = { fill: "none", stroke: "currentColor", strokeWidth: 1.9, strokeLinecap: "round", strokeLinejoin: "round" } as const;
-const Icon = ({ children }: { children: ReactNode }) => <svg viewBox="0 0 24 24" className="size-6" {...stroke} aria-hidden>{children}</svg>;
 
 /**
  * Where the reader practises: their own cards (the words they saved, due now), the phrase decks of the
@@ -36,54 +35,56 @@ export function RecallView() {
 
   return (
     <main className="safe-top px-5 pb-32 [--pt:1.5rem]">
-      <h1 className="text-[30px] font-bold tracking-[-0.02em]">{t("recall.title")}</h1>
-      <p className="mt-1 text-[15px] leading-snug text-muted">{t("recall.sub")}</p>
+      <header className="flex items-start justify-between gap-3">
+        <div className="min-w-0">
+          <h1 className="title-display">{t("recall.title")}</h1>
+          <p className="mt-1.5 max-w-[16.5rem] text-[14.5px] leading-snug text-muted">{t("recall.sub")}</p>
+        </div>
+        <span className="-mt-1 block w-[78px] shrink-0"><Mascot mood={due > 0 ? "ready" : "hello"} className="w-full" /></span>
+      </header>
 
-      <section aria-labelledby="rc-cards" className="mt-6 overflow-hidden rounded-[24px] bg-accent p-5 text-white">
+      {/* The cards waiting, with a hand of cards behind the number. */}
+      <section aria-labelledby="rc-cards" className="relative mt-5 overflow-hidden rounded-[28px] bg-gradient-to-br from-accent to-[#0A4B62] p-5 text-white shadow-[0_22px_36px_-22px_rgba(8,47,60,.85)]">
+        <span aria-hidden className="pointer-events-none absolute -end-6 top-4 block h-28 w-24 rotate-[14deg] rounded-2xl bg-white/10" />
+        <span aria-hidden className="pointer-events-none absolute -end-2 top-6 block h-28 w-24 rotate-[6deg] rounded-2xl bg-white/15" />
+        <span aria-hidden className="pointer-events-none absolute end-3 top-8 grid h-28 w-24 -rotate-[2deg] place-items-center rounded-2xl bg-white text-accent shadow-lg">
+          <svg viewBox="0 0 24 24" className="size-9" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="7" width="14" height="11" rx="2.5" /><path d="M7 7V6a2.5 2.5 0 0 1 2.5-2.5h8A2.5 2.5 0 0 1 20 6v8a2.5 2.5 0 0 1-2.5 2.5H17" /></svg>
+        </span>
         <h2 id="rc-cards" className="text-[12px] font-bold uppercase tracking-[0.1em] text-white/75">{t("recall.yourCards")}</h2>
-        <p className="mt-2 text-[26px] font-bold leading-tight tracking-[-0.02em]" data-due={due}>{ready ? t("cards.due", { n: due }) : "\u00a0"}</p>
-        <p className="mt-1.5 text-[13.5px] text-white/80">{total > 0 ? t("cards.total", { n: total }) : t("cards.empty")}</p>
+        <p className="mt-2 max-w-[11rem] text-[27px] font-bold leading-tight tracking-[-0.02em]" data-due={due}>{ready ? t("cards.due", { n: due }) : "\u00a0"}</p>
+        <p className="mt-1.5 max-w-[11rem] text-[13px] leading-snug text-white/80">{total > 0 ? t("cards.total", { n: total }) : t("cards.empty")}</p>
         {due > 0 ? (
-          <Link href="/recall/flashcards" className="mt-4 flex h-12 items-center justify-center rounded-full bg-white text-[15.5px] font-bold text-accent active:bg-white/90">
+          <Link href="/recall/flashcards" className="mt-5 flex h-12 w-full items-center justify-center rounded-full bg-white text-[15.5px] font-bold text-accent shadow-[0_10px_20px_-10px_rgba(0,0,0,.5)] active:bg-white/90">
             {t("cards.start")} · {Math.min(due, MAX_PER_SESSION)}
           </Link>
         ) : total > 0 || anyDeck ? (
-          <p className="mt-4 text-[14px] font-semibold text-white">{t("cards.dueNone")}</p>
+          <p className="mt-5 text-[14px] font-semibold text-white">{t("cards.dueNone")}</p>
         ) : null}
       </section>
 
-      <h2 className="mt-8 text-[12px] font-bold uppercase tracking-[0.1em] text-muted">{t("recall.deckTitle")}</h2>
+      <h2 className="mt-8 flex items-baseline justify-between gap-3 text-[19px] font-bold tracking-[-0.01em]">
+        {t("recall.deckTitle")}
+        {learn ? <span className="text-[13px] font-semibold text-accent" lang={learn}>{language}</span> : null}
+      </h2>
       {learn ? (
-        <>
-          <p className="mt-1 text-[14px] text-muted">{t("recall.deckSub", { language })}</p>
-          <ul className="mt-3 space-y-3">
-            {DECK_SIZES.map((size) => (
-              <DeckRow key={size} size={size} lang={learn} cards={cards} ready={ready} />
-            ))}
-          </ul>
-        </>
+        <ul className="mt-3 grid grid-cols-2 gap-3">
+          {DECK_SIZES.map((size) => (
+            <DeckRow key={size} size={size} lang={learn} cards={cards} ready={ready} />
+          ))}
+        </ul>
       ) : (
         <Link href="/languages" className="mt-3 flex min-h-14 items-center rounded-[22px] border border-border bg-surface px-4 text-[14.5px] text-muted">{t("recall.deckPick")}</Link>
       )}
 
-      <h2 className="mt-8 text-[12px] font-bold uppercase tracking-[0.1em] text-muted">{t("recall.ways")}</h2>
-      <Link href="/recall/talk" data-way="talk" className="mt-3 flex items-center gap-4 rounded-[22px] border border-border bg-surface p-4 active:bg-border/40">
-        <span className="relative grid size-14 shrink-0 place-items-center overflow-hidden rounded-2xl bg-accent-bright/25">
-          <Mascot mood="hello" crop="head" className="block h-12 w-auto" />
-        </span>
-        <div className="min-w-0 flex-1">
-          <h3 className="text-[17px] font-semibold tracking-[-0.01em]">{t("recall.talkNow", { name: "Dewey" })}</h3>
-          <p className="mt-1 text-[14px] leading-snug text-muted">{t("recall.talkDesc2", { name: "Dewey", language: language || "…" })}</p>
+      {/* A conversation: Dewey's own corner. */}
+      <Link href="/recall/talk" data-way="talk" className="relative mt-5 flex items-center gap-4 overflow-hidden rounded-[28px] bg-gradient-to-br from-[#E3F8FC] to-[#BFEFF9] p-4 shadow-[0_18px_30px_-22px_rgba(8,47,60,.6)] active:opacity-90">
+        <span className="relative block w-[84px] shrink-0"><Mascot mood="hello" talking className="w-full" /></span>
+        <div className="relative min-w-0 flex-1">
+          <h3 className="text-[18px] font-bold leading-tight tracking-[-0.01em]">{t("recall.talkNow", { name: "Dewey" })}</h3>
+          <p className="mt-1 text-[13.5px] leading-snug text-foreground/70">{t("recall.talkDesc2", { name: "Dewey", language: language || "…" })}</p>
         </div>
-        <svg viewBox="0 0 24 24" className="size-5 shrink-0 text-muted rtl:-scale-x-100" {...stroke} aria-hidden><path d="M9 5l7 7-7 7" /></svg>
+        <span aria-hidden className="grid size-10 shrink-0 place-items-center rounded-full bg-accent text-white"><svg viewBox="0 0 24 24" className="size-5 rtl:-scale-x-100" {...stroke} strokeWidth={2.4}><path d="M9 5l7 7-7 7" /></svg></span>
       </Link>
-
-      {total === 0 && !anyDeck ? (
-        <div className="mt-6 flex items-center gap-4 rounded-[22px] border border-border bg-surface px-4 py-4">
-          <Mascot mood="sleepy" className="block h-[84px] w-auto shrink-0" />
-          <p className="text-[14px] leading-snug text-muted">{t("recall.empty")}</p>
-        </div>
-      ) : null}
 
       <Link href="/library" className="mt-4 flex h-14 items-center justify-center btn-cyan rounded-full text-[16px] font-bold">
         {t("home.browse")}
@@ -98,22 +99,16 @@ function DeckRow({ size, lang, cards, ready }: { size: DeckSize; lang: string; c
   const started = p.met > 0 || Object.keys(cards).some((id) => id.startsWith(`deck:${lang}:`));
   const pct = Math.round((p.learned / size) * 100);
   return (
-    <li data-deck={size} className="rounded-[22px] border border-border bg-surface p-4">
-      <div className="flex items-center gap-4">
-        <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-accent-bright/25 text-accent">
-          <Icon><rect x="3" y="7" width="14" height="11" rx="2.5" /><path d="M7 7V6a2.5 2.5 0 0 1 2.5-2.5h8A2.5 2.5 0 0 1 20 6v8a2.5 2.5 0 0 1-2.5 2.5H17" /></Icon>
-        </span>
-        <div className="min-w-0 flex-1">
-          <h3 className="text-[17px] font-semibold tracking-[-0.01em]">{t(size === 50 ? "recall.deck50" : "recall.deck100")}</h3>
-          <p className="mt-0.5 text-[13.5px] text-muted">{ready ? t("recall.deckProgress", { n: p.learned, total: size }) : " "}</p>
-        </div>
-      </div>
-      <div className="mt-3.5 h-2 overflow-hidden rounded-full bg-border" aria-hidden>
+    <li data-deck={size} className="flex flex-col rounded-[24px] bg-surface p-4 shadow-[0_14px_26px_-20px_rgba(8,47,60,.6)] ring-1 ring-border">
+      <span className="text-[44px] font-extrabold leading-none tracking-[-0.03em] text-accent">{size}</span>
+      <h3 className="mt-1 text-[14.5px] font-bold leading-tight">{t(size === 50 ? "recall.deck50" : "recall.deck100")}</h3>
+      <p className="mt-0.5 text-[12.5px] text-muted">{ready ? t("recall.deckProgress", { n: p.learned, total: size }) : "\u00a0"}</p>
+      <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-accent-bright/20" aria-hidden>
         <div className="h-full rounded-full bg-accent-bright" style={{ width: `${pct}%` }} />
       </div>
-        <Link href={`/recall/flashcards?deck=${size}&lang=${lang}`} className="btn-cyan mt-3.5 flex h-11 items-center justify-center rounded-full text-[14.5px] font-bold">
-          {t(started ? "recall.deckContinue" : "recall.deckStart")}
-        </Link>
+      <Link href={`/recall/flashcards?deck=${size}&lang=${lang}`} className="btn-cyan mt-3.5 flex h-11 items-center justify-center rounded-full text-[14px] font-bold">
+        {t(started ? "recall.deckContinue" : "recall.deckStart")}
+      </Link>
     </li>
   );
 }

@@ -1,0 +1,417 @@
+{
+  "slug": "dracula",
+  "meta": {
+    "blurb": "A young lawyer travels to a lonely castle in the mountains to meet a polite and very strange Count. Soon the Count follows him to England, and a small band of friends must stop an ancient evil before it takes everyone they love.",
+    "bible": "Jonathan Harker: a young English solicitor sent to Transylvania; brave and honest. Mina Murray: Jonathan's fiancée and later wife, a clever schoolteacher who keeps a journal and learns to type. Lucy Westenra: Mina's lively friend, loved by three men. Arthur Holmwood: Lucy's fiancé, later Lord Godalming. Dr John Seward: a young doctor who runs a hospital for troubled minds next to Carfax. Quincey Morris: a brave American from Texas. Professor Abraham Van Helsing: a Dutch doctor and scholar who knows about vampires. Count Dracula: an ancient nobleman who lives in a castle in Transylvania; a vampire, with no reflection, who sleeps in boxes of earth and fears garlic, holy symbols and sunlight. Renfield: a patient in Dr Seward's hospital who eats flies and spiders and serves the Count. Mr Hawkins: Jonathan's employer, an English solicitor. The three women: vampire women who live in the castle. Carfax: an old house in Purfleet, near London, bought by the Count. Whitby: a seaside town in Yorkshire where Lucy and Mina stay. Demeter: the Russian ship that carries the Count to Whitby. Czarina Catherine: the ship that carries him back to Varna. Transylvania: a land in the Carpathian mountains. Bistritz, Borgo Pass, Varna, Galatz, Budapest: places on the way. Piccadilly, Purfleet, London: places in England. Voice and tone: dark, tense and exciting, told through journals and letters; deaths are stated plainly with no gore; fear is built from shadows and strange details; the ending is brave and warm, with the monster destroyed."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Jonathan waves goodbye to Mina at a railway station in London",
+      "summary": "Jonathan Harker leaves England by train to visit Count Dracula in Transylvania on business."
+    },
+    {
+      "n": 2,
+      "scene": "In a village inn, the innkeeper's wife holds out a small cross",
+      "summary": "In Bistritz, the innkeeper's wife begs Jonathan not to go and gives him a cross."
+    },
+    {
+      "n": 3,
+      "scene": "A black coach with four horses climbs a dark mountain road at night",
+      "summary": "The coach climbs through the Borgo Pass; the Count's driver arrives, and wolves howl."
+    },
+    {
+      "n": 4,
+      "scene": "A tall old man in black welcomes Jonathan at a castle door",
+      "summary": "Count Dracula welcomes Jonathan at his castle and treats him as an honoured guest."
+    },
+    {
+      "n": 5,
+      "scene": "Jonathan shaves at a small mirror as a tall man stands behind",
+      "summary": "The Count has no reflection, and he reaches for Jonathan's throat until he sees the cross."
+    },
+    {
+      "n": 6,
+      "scene": "The Count and Jonathan sit by a fire with maps of London",
+      "summary": "The Count asks Jonathan about London and the house at Carfax, and Jonathan writes the letters the Count wants."
+    },
+    {
+      "n": 7,
+      "scene": "Jonathan pulls at a locked heavy door in a stone hallway",
+      "summary": "Jonathan finds that all the doors are locked and realises he is a prisoner."
+    },
+    {
+      "n": 8,
+      "scene": "A dark figure climbs head first down a castle wall above a deep valley",
+      "summary": "Jonathan sees the Count climbing down the castle wall like a lizard."
+    },
+    {
+      "n": 9,
+      "scene": "Three pale women lean over Jonathan as he lies on a couch",
+      "summary": "Jonathan falls asleep in a forbidden room, and three strange women come for him until the Count stops them."
+    },
+    {
+      "n": 10,
+      "scene": "Jonathan kneels in a dusty chapel beside an open wooden box filled with earth",
+      "summary": "In the crypt, Jonathan finds the Count lying in a box of earth, looking like a dead man."
+    },
+    {
+      "n": 11,
+      "scene": "Jonathan climbs along a window ledge of the castle wall in the moonlight",
+      "summary": "Jonathan tries to escape down the castle wall, and his fate is unknown."
+    },
+    {
+      "n": 12,
+      "scene": "Mina and Lucy sit on a cliff above the sea at Whitby",
+      "summary": "Mina and Lucy stay at the seaside town of Whitby, and Mina worries about Jonathan."
+    },
+    {
+      "n": 13,
+      "scene": "Lucy sits in a garden while three men stand in front of her",
+      "summary": "Lucy receives three marriage proposals in one day and chooses Arthur Holmwood."
+    },
+    {
+      "n": 14,
+      "scene": "A ship with torn sails is driven onto the shore at Whitby",
+      "summary": "A great storm brings a Russian ship onto the shore at Whitby, with a dead captain tied to the wheel."
+    },
+    {
+      "n": 15,
+      "scene": "Lucy walks in her nightgown along a moonlit cliff path as Mina follows",
+      "summary": "Lucy begins to sleepwalk, and Mina finds her on the cliff with a dark figure bending over her."
+    },
+    {
+      "n": 16,
+      "scene": "Mina reads a letter from a nun, then travels to a hospital in Budapest",
+      "summary": "Mina receives a letter from Budapest and travels there to find Jonathan, ill but alive, and marries him."
+    },
+    {
+      "n": 17,
+      "scene": "Lucy lies pale in a bed as Arthur and Dr Seward stand beside her",
+      "summary": "In London, Lucy grows weaker, and Dr Seward calls for his old teacher, Professor Van Helsing."
+    },
+    {
+      "n": 18,
+      "scene": "Four men take turns lying beside Lucy's bed as a doctor holds a tube",
+      "summary": "The men give Lucy their blood in turn, but each night she grows weaker."
+    },
+    {
+      "n": 19,
+      "scene": "A grey wolf leaps through a broken window in a dark bedroom",
+      "summary": "A wolf breaks the window, Lucy's mother dies of shock, and Lucy dies soon after."
+    },
+    {
+      "n": 20,
+      "scene": "Two children point to a pale lady in white near a park",
+      "summary": "Children say they have met a beautiful lady in the park, and Van Helsing explains vampires to Seward."
+    },
+    {
+      "n": 21,
+      "scene": "Three men stand in front of an open empty coffin in a dark tomb",
+      "summary": "Van Helsing opens Lucy's coffin and finds it empty; that night Lucy returns, and Arthur frees her."
+    },
+    {
+      "n": 22,
+      "scene": "Jonathan stops in the middle of a crowded London street, pale and staring",
+      "summary": "Back in London, Jonathan sees the Count in the street and faints."
+    },
+    {
+      "n": 23,
+      "scene": "Mina sits at a table reading Jonathan's journal by lamplight",
+      "summary": "Mina reads Jonathan's journal and begins to believe his terrible story."
+    },
+    {
+      "n": 24,
+      "scene": "Mina types pages at a desk as the friends lean over her shoulder",
+      "summary": "Mina types all the journals and letters in order, and the whole group finally knows everything."
+    },
+    {
+      "n": 25,
+      "scene": "Dr Seward writes notes while a patient in a cell stares at flies",
+      "summary": "Dr Seward's patient Renfield, who eats flies and spiders, begins to behave as though he serves a master."
+    },
+    {
+      "n": 26,
+      "scene": "The friends study a map of London marked with the Count's boxes",
+      "summary": "The friends learn that the Count has fifty boxes of earth in London and decide to find every one."
+    },
+    {
+      "n": 27,
+      "scene": "Four men in an old chapel look at wooden boxes as rats swarm in",
+      "summary": "At Carfax, the friends destroy the boxes' power with a sacred wafer, and rats attack."
+    },
+    {
+      "n": 28,
+      "scene": "A thin patient lies on a cell floor as a shadow stands over him",
+      "summary": "The Count attacks Mina; Renfield, wounded, warns Seward before dying."
+    },
+    {
+      "n": 29,
+      "scene": "The Count bends over Mina's bed while Jonathan lies still beside her",
+      "summary": "The friends find the Count with Mina and Jonathan, and Mina has been bitten and cursed."
+    },
+    {
+      "n": 30,
+      "scene": "Mina touches the scar on her forehead while Jonathan holds her other hand",
+      "summary": "Mina asks her friends to promise to set her free if she ever changes into a vampire."
+    },
+    {
+      "n": 31,
+      "scene": "The group searches an old London house and lifts a heavy lid",
+      "summary": "The friends search the other houses and destroy the boxes, but the Count escapes by sea."
+    },
+    {
+      "n": 32,
+      "scene": "Van Helsing holds a watch before Mina's eyes as she sits quietly",
+      "summary": "Van Helsing puts Mina into a trance to learn where the Count is, and she describes sounds of water."
+    },
+    {
+      "n": 33,
+      "scene": "The friends stand on a railway platform at dusk with Mina in the middle",
+      "summary": "The friends travel to Varna by land, taking Mina with them, while the Count's ship sails slowly."
+    },
+    {
+      "n": 34,
+      "scene": "Four men look across a harbour at a ship, with boxes on the quay",
+      "summary": "At Galatz, the friends learn that the boxes have been carried up the river, and the chase begins."
+    },
+    {
+      "n": 35,
+      "scene": "Three small groups part ways at a river crossing in the early morning",
+      "summary": "The friends divide into three groups to follow the Count by river and by road."
+    },
+    {
+      "n": 36,
+      "scene": "Van Helsing and Mina ride in a carriage through steep mountain roads",
+      "summary": "Van Helsing and Mina travel to the Borgo Pass, with Mina sensing that the Count is not far."
+    },
+    {
+      "n": 37,
+      "scene": "A ring of white crumbs lies on snowy ground around a small fire",
+      "summary": "Van Helsing draws a protective circle around Mina, and the three women of the castle appear but cannot enter."
+    },
+    {
+      "n": 38,
+      "scene": "Van Helsing holds a lantern in a dim crypt full of old stone coffins",
+      "summary": "Van Helsing goes alone into the castle and frees the three women from their curse."
+    },
+    {
+      "n": 39,
+      "scene": "Van Helsing marks a castle doorway with a small white wafer",
+      "summary": "Van Helsing seals the Count's tomb and the castle door so that the Count cannot rest there."
+    },
+    {
+      "n": 40,
+      "scene": "A narrow steam launch pushes up a river past green hills, two men aboard",
+      "summary": "Jonathan and Arthur chase the boat up the river while Quincey and Seward ride along the bank."
+    },
+    {
+      "n": 41,
+      "scene": "A wooden cart with a big box races along a mountain road",
+      "summary": "The Count's box is on a cart pulled by fast horses, guarded by armed men, and the friends close in as the sun sets."
+    },
+    {
+      "n": 42,
+      "scene": "Jonathan and Quincey leap onto a cart with knives in the sunset",
+      "summary": "Jonathan and Quincey fight their way to the box, and Jonathan's knife cuts the Count's throat as Quincey strikes his heart."
+    },
+    {
+      "n": 43,
+      "scene": "The Count's body crumbles into dust in an open box on a mountain road",
+      "summary": "The Count crumbles into dust, and the men around the cart flee."
+    },
+    {
+      "n": 44,
+      "scene": "Quincey lies on the ground, smiling, as his friends gather around him",
+      "summary": "Quincey, wounded in the fight, tells his friends that he is glad to have helped, and dies."
+    },
+    {
+      "n": 45,
+      "scene": "The friends stand before a castle on a hill in morning light",
+      "summary": "The friends leave the castle and the mountains, grieving for Quincey and thankful that the evil is gone."
+    },
+    {
+      "n": 46,
+      "scene": "Jonathan and Mina sit in an English garden, a baby asleep nearby",
+      "summary": "Back in England, Jonathan and Mina rebuild their lives, and the memory of their adventure grows quiet."
+    },
+    {
+      "n": 47,
+      "scene": "A small boy stands between Jonathan and Mina in front of a fireplace",
+      "summary": "Seven years later, Jonathan and Mina have a son, who is born on the day of Quincey's death and named for him."
+    },
+    {
+      "n": 48,
+      "scene": "Jonathan and Mina visit the mountains again, holding hands, with their young son",
+      "summary": "Jonathan and Mina revisit the castle and its silent mountains with their son."
+    },
+    {
+      "n": 49,
+      "scene": "Van Helsing smiles as he holds the small boy on his knee",
+      "summary": "Van Helsing tells the boy that he will one day know the story and that his mother is the bravest woman alive."
+    },
+    {
+      "n": 50,
+      "scene": "Jonathan writes a final note at a desk among neat piles of paper",
+      "summary": "Jonathan notes that his papers are only typed copies, so there is no proof, but the friends need no proof."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Jonathan Harker takes a train from London to a land far away.",
+      "At the inn, an old woman gives Jonathan a small cross.",
+      "Jonathan rides to the mountains in a coach, and he sees blue flames.",
+      "Count Dracula welcomes Jonathan at the door of a huge old castle.",
+      "The Count has no face in the mirror, and he is very angry.",
+      "The Count asks many questions about London and about Carfax.",
+      "Jonathan tries every door, but all of them are locked.",
+      "From his window, Jonathan sees the Count climb down the wall.",
+      "Three women come to Jonathan at night, and the Count stops them.",
+      "Jonathan finds the Count in a box, and he looks dead.",
+      "Jonathan decides to climb down the wall and to escape.",
+      "Mina stays with her friend Lucy at the sea, and she is worried.",
+      "Three men ask Lucy to marry them, and she says yes to Arthur.",
+      "A big storm comes, and a ship hits the shore at Whitby.",
+      "Lucy walks in her sleep, and Mina finds her on the cliff.",
+      "Mina gets a letter about Jonathan, and she goes to find him.",
+      "Lucy is very ill, and Dr Seward asks Van Helsing to help.",
+      "Four men give Lucy their blood, but she is still weak.",
+      "A wolf breaks the window, and Lucy's mother dies of shock.",
+      "Some children say that a beautiful lady has bitten them in the park.",
+      "They open Lucy's coffin, and it is empty.",
+      "In London, Jonathan sees a man he knows, and he is afraid.",
+      "Mina reads Jonathan's journal and she believes his story.",
+      "Mina types all the diaries and letters, and everyone reads them.",
+      "Dr Seward has a strange patient who eats small living things.",
+      "The Count has fifty boxes of earth, and the friends must find them all.",
+      "The friends go to Carfax, and they make each box holy and safe.",
+      "The Count comes to the hospital, and he hurts Renfield.",
+      "The friends break into Mina's room, and they find the Count there.",
+      "Mina asks her friends to help her if she becomes a bad person.",
+      "The friends find the boxes in other houses, and the Count sails away.",
+      "Van Helsing puts Mina into a sleep, and she tells him what she hears.",
+      "The friends take a train to Varna, and they take Mina with them.",
+      "At Galatz, the friends hear that the boxes have gone up the river.",
+      "The friends divide into three groups, and each one takes a different way.",
+      "Van Helsing and Mina ride to the mountains.",
+      "Van Helsing draws a holy circle, and Mina sits inside.",
+      "Van Helsing goes alone into the castle, and he finds the three women.",
+      "Van Helsing makes the Count's tomb safe, and then he leaves.",
+      "Jonathan and Arthur follow the boat on the river, and the others ride.",
+      "The Count's box is on a cart, and the men are racing to the castle.",
+      "Jonathan and Quincey jump onto the cart, and they open the box.",
+      "The Count's body turns to dust, and the men run away.",
+      "Quincey is hurt, and he says that he is happy.",
+      "The friends leave the mountains, and they are sad but thankful.",
+      "Jonathan and Mina go home to England, and they are happy.",
+      "Seven years later, they have a son, and his name is Quincey.",
+      "The family visits the mountains again, and they remember.",
+      "Van Helsing tells the boy that his mother is very brave.",
+      "Jonathan writes that the papers are only typed copies, and he does not need proof."
+    ],
+    "B1B2": [
+      "Jonathan Harker is a young lawyer from England who is going to Transylvania to meet a rich Count called Dracula. The Count wants to buy a house in London, and Jonathan hopes that the journey will help his career.",
+      "In the town of Bistritz, the people look afraid when Jonathan says the name Dracula. The innkeeper's wife begs him not to go, and she gives him a small cross to wear around his neck.",
+      "A strange driver takes Jonathan up the dark Borgo Pass in a coach. The horses are afraid, wolves howl in the night, and Jonathan sees small blue flames dancing in the grass.",
+      "The Count is a tall old man with white hair, and his hand is as cold as ice. He welcomes Jonathan politely, and carries his bags up the stairs himself, but Jonathan cannot see a servant anywhere.",
+      "While Jonathan shaves in the morning, the Count appears behind him, but there is no reflection in the mirror. Jonathan cuts himself, and the Count suddenly reaches for his throat until he sees the cross on Jonathan's neck.",
+      "The Count spends many nights asking Jonathan about London, English laws and the old house called Carfax. Then he asks him to write several letters home, and to say that he will stay for a month.",
+      "One day Jonathan tries every door in the castle, and he finds that all of them are locked. He understands that he is not a guest but a prisoner, and for the first time he feels truly afraid.",
+      "One night, Jonathan looks out and sees the Count climbing head first down the castle wall, like a lizard. He understands now that the Count is no ordinary man.",
+      "Jonathan falls asleep in a part of the castle that the Count has told him to avoid. Three beautiful women come into the room and bend over him, but the Count rushes in and sends them away.",
+      "Jonathan finds a way into an old chapel in the cellars of the castle, and he sees many boxes of earth. In one of them lies the Count, and he looks like a dead man, though his eyes are open.",
+      "Jonathan sees that the Count is leaving for England, and he knows he has only one chance. He climbs down the dangerous castle wall at night, and he does not know if he will live.",
+      "Mina Murray goes to stay with her friend Lucy Westenra at Whitby, a pretty town by the sea. She has had no letters from Jonathan for weeks, and she is worried about him.",
+      "Lucy has three admirers: the doctor John Seward, the American Quincey Morris, and Arthur Holmwood. She says yes to Arthur, but the other two men stay her friends.",
+      "A great storm hits Whitby, and a Russian ship called the Demeter crashes onto the beach. The captain is dead, tied to the wheel, and a large black dog jumps out and runs away.",
+      "One night Lucy walks in her sleep, and Mina finds her in a graveyard on the cliff, with a dark figure bending over her. Mina wraps her in a shawl, and she sees two tiny marks on Lucy's neck.",
+      "At last Mina receives a letter from a hospital in Budapest. Jonathan is alive but very ill, and she travels to him and marries him there, in the hospital.",
+      "Back in London, Lucy gets weaker every day, and her face is white. Dr Seward cannot find the cause, so he asks his old teacher, Professor Van Helsing from Amsterdam, to come and see her.",
+      "Van Helsing hangs garlic round Lucy's room, and he asks the men to give her their own blood. One by one, Arthur, Seward and Quincey give blood, and Lucy gets a little better each time.",
+      "One night, a wolf breaks the window of the bedroom, and Lucy's mother, who has not been told what is happening, dies of shock. Soon after, Lucy dies too, with Arthur beside her.",
+      "Weeks later, small children begin to disappear near the churchyard, and when they come back they say a beautiful lady took them. Van Helsing tells Seward what a vampire is, and why Lucy may be one.",
+      "At night Van Helsing and Seward open Lucy's tomb and find the coffin empty. The next night, Lucy comes back, cruel and different, and Arthur has to free her from her sad existence.",
+      "Jonathan recovers and he and Mina return to London, where he is a lawyer. One day he sees the Count in the street, and he looks much younger than before, and Jonathan nearly faints.",
+      "Mina reads Jonathan's journal at last, and she is shocked, but she believes that every word is true. She also writes to Dr Seward's friend, Professor Van Helsing, to ask for his help.",
+      "Mina uses her typewriter and she copies every diary and letter. Then everyone can read the whole story, and they all know what the Count has done.",
+      "Dr Seward looks after a strange patient called Renfield, who eats flies and spiders in order to take their life. Renfield becomes restless, and says that his master is coming.",
+      "The friends find out that the Count has bought houses in London, and that he has put boxes of earth in them. If he cannot rest in them, then he will have no safe place in England.",
+      "At Carfax, the friends put a piece of the sacred wafer into each box, so that the Count cannot use it. Suddenly hundreds of rats appear, and the dogs the friends have brought with them drive them away.",
+      "That night the Count attacks Renfield, who has changed his mind and tried to stop him. Dr Seward finds Renfield hurt and dying, and Renfield warns them that the Count is in the house.",
+      "The friends break down the door of Mina's room, and they see the Count with his arms around her. Jonathan is lying on the bed, and Mina has been bitten, and she is crying.",
+      "Mina is brave, and she knows that the Count's mark may change her. She asks her friends to promise that they will stop her, if she ever becomes like him.",
+      "The friends search the Count's houses in Piccadilly and other parts of London. They put the holy wafer in every box, and the Count has to leave England by ship.",
+      "Van Helsing puts Mina into a deep sleep each day, and she can hear what the Count hears. She tells them that there is the sound of water, and the creak of wood, and that the ship is moving.",
+      "The friends decide to go to Varna, where the ship should arrive, and Mina goes with them because it is too dangerous to leave her. They travel by train and wait for the ship, but it never arrives.",
+      "At Galatz the friends find that the ship is empty and the Count's boxes have been loaded onto a river boat. They learn that the boat is going up the river towards the Count's castle.",
+      "The friends divide into three groups to catch the Count. Jonathan and Arthur follow the boat by river, Quincey and Seward ride along the bank, and Van Helsing and Mina go to the castle.",
+      "Van Helsing and Mina travel to the mountains on a mountain road, and Mina feels that the Count is near. She says that she can sense him, and that her hand feels cold.",
+      "Near the castle, Van Helsing makes a circle on the ground with pieces of the sacred wafer, and Mina sits inside it. In the night the three women come, but they cannot cross the line, and the wolves howl all around.",
+      "In the morning, Van Helsing goes into the castle alone, and he finds the three women asleep in their tombs. He does his sad duty with the stake and sets each one free.",
+      "Van Helsing places sacred wafer in the Count's coffin and in the doorways, so that the Count can never rest in his castle again. Then he goes back to Mina, and the two of them climb to a high place where they can watch the road.",
+      "Jonathan and Arthur drive their launch up the river, and every day they are closer to the Count's boat. Quincey and Seward ride along the bank, and they catch sight of the boat first.",
+      "Near the castle, the friends see the cart carrying the box, with a group of armed men all around it. The sun is almost down, and if the Count wakes, he will be too strong to stop.",
+      "Jonathan and Quincey jump onto the cart, and they tear the lid off the box. As the sun sets, the Count opens his eyes, but Jonathan's knife cuts his throat and Quincey's knife cuts his heart.",
+      "As the friends watch, the Count's body crumbles into dust, and the armed men around the cart run away. The evil that has haunted them is gone, and a look of peace spreads over the Count's face as it disappears.",
+      "Quincey has been wounded in the fight, and he lies on the ground, smiling. He says that he is happy to have helped, and then he dies, with Mina beside him.",
+      "The friends bury Quincey with sadness, and they leave the castle and the mountains. The sun shines, and they feel that the evil has gone from the land at last.",
+      "Jonathan and Mina return home to England, and they live happily and quietly. They do not forget the terrible time, and they often talk about Quincey and Lucy.",
+      "Seven years later, Jonathan and Mina have a son, and they call him Quincey, because he was born on the day of Quincey's death. He has inherited the spirit of the brave American.",
+      "Jonathan and Mina take their small son back to the mountains, and they remember all that happened. They look at the castle, and Mina holds her husband's hand tightly.",
+      "Years later Van Helsing visits them, and takes the small boy on his knee. He says that one day the boy will know how brave his mother was, and he will understand what she did for them all.",
+      "Jonathan writes a last note, and he says that all the papers are only typed copies. There is hardly one real paper, but they do not need any proof, because they know that it is true."
+    ],
+    "C1C2": [
+      "Jonathan Harker, a young solicitor, says goodbye to his fiancée Mina Murray and begins a long journey by train towards the mountains of eastern Europe. His employer, Mr Hawkins, has sent him to complete the sale of an old house near London to a foreign nobleman, Count Dracula. It is only business, Jonathan tells himself, and a good chance to prove his worth.",
+      "At the inn in Bistritz, Jonathan mentions the name of his host, and the innkeeper and his wife cross themselves and turn pale. The old woman begs him not to go to the castle on the eve of a festival, when evil things are said to walk, and she presses a small cross into his hand. Jonathan, thinking it all a foolish superstition, wears it only to be polite, and he little imagines how soon he will be grateful for it.",
+      "At the top of the pass, the local coach hands Jonathan over to a tall driver whose grip is as hard as iron and whose eyes glow red in the lantern light. Wolves howl on every side, and the horses shake with terror, but at each moment the driver seems to quiet them with a single gesture. Jonathan notices pale blue flames flickering on the ground, and he realises that he has no idea where he is going.",
+      "At the great door of an ancient castle, Jonathan is greeted by a tall old man dressed in black, who welcomes him in perfect English and carries his luggage himself. Count Dracula's handshake is as cold as stone, and as the two sit down to supper, Jonathan notices that his host does not eat and does not drink. He tells himself that the man is simply old and eccentric, and he goes to bed with a troubled mind.",
+      "One morning, as Jonathan is shaving in a small mirror, the Count steps up behind him, and to his astonishment Jonathan can see no reflection of the man. When a small cut makes a drop of blood appear on his chin, the Count lunges with a strange hunger in his eyes, but he draws back at the sight of the cross around Jonathan's neck. The Count then throws the mirror out of the window, and warns Jonathan that such things are dangerous.",
+      "Night after night the Count questions Jonathan about English customs, the law, and above all about the house at Carfax, which he has bought, and he seems to listen to every word with intense interest. At last he insists that Jonathan write letters to Mr Hawkins and to Mina, saying that all is well and that he will stay for a month. Jonathan obeys, but he begins to wonder why the Count wants him to stay so long.",
+      "Exploring the castle in the daytime, Jonathan finds that every door that leads outside is firmly locked, and every window looks out on a steep drop above a dark forest. Suddenly he understands that he is not a guest but a prisoner, and the Count, with his polite voice and cold hands, is his jailer. Nobody in the world knows where he is, and the nearest village is many miles away.",
+      "Late one night, Jonathan peers out of his window, and sees a shape, which he recognises as the Count, creeping down the sheer wall with his face to the stones, like some great lizard. The sight turns his blood to ice, for no ordinary man could do such a thing, and all the warnings of the villagers return to his mind. He decides to find a way to escape, even if it means taking a terrible risk.",
+      "Disobeying the Count's order, Jonathan falls asleep in a distant room, and wakes to see three strange women with pale faces and bright red lips gliding towards him. Just as one of them bends over his throat, the Count bursts in with a face full of fury and drives them back, saying that Jonathan belongs to him. Jonathan, close to fainting and certain that he has been very close to death, is left alone in the dark.",
+      "Searching the cellars, Jonathan finds a crypt under the old chapel where fifty wooden boxes full of earth lie in rows, and in one of them he finds the Count, motionless and pale. The eyes are open but do not see, the skin is cold as stone, and Jonathan flees in horror, knowing that something terrible is to be sent to England. A few days later he sees the boxes loaded onto carts and taken away.",
+      "With the boxes gone, and the Count preparing to follow them to England, Jonathan understands that he must escape or be left to the mercy of the three women. He climbs out of a window and begins to creep along the castle wall, knowing that one slip means a fall of hundreds of feet. What happens to him after that, no one in England can tell, and the story moves on to Mina and her friend Lucy.",
+      "Mina joins her dearest friend Lucy Westenra at Whitby, on the Yorkshire coast, where the two girls sit on the cliff by the old church and watch the ships. She keeps a journal, but in it she cannot hide her anxiety, because Jonathan's letters have stopped, and she fears that something is wrong. Lucy, meanwhile, is cheerful and kind, and she does everything she can to comfort her friend and to keep her busy.",
+      "In one day Lucy receives three offers of marriage, from the young doctor John Seward, the cheerful Texan Quincey Morris, and the gentle, handsome Arthur Holmwood. She loves Arthur and gladly accepts him, and the two disappointed men, to their credit, remain her loyal friends. Little do any of them know that, before long, they will be united in a far more dangerous cause.",
+      "A violent storm sweeps over the sea at Whitby, and a strange ship, the Demeter from Varna, is driven straight into the harbour with her sails in rags. When the watchers climb aboard, they find the captain dead, tied to the wheel with a cross in his hand, and the rest of the crew gone. As the watchers stare in disbelief, a huge dog leaps ashore and disappears into the dark night.",
+      "Over the next days, Lucy begins to walk in her sleep, and on one moonlit night Mina finds her bed empty and rushes to the cliff. There, on a seat in the graveyard, she sees her friend with a dark shape bending over her, and two red eyes shine in the gloom. When Mina arrives, the shape has gone, and Lucy is alone, pale and breathing faintly, with two tiny marks on her throat.",
+      "Finally a letter arrives from the sisters of a hospital in Budapest to say that Jonathan has been found, half mad with brain fever and with no memory of the past weeks. Mina travels straight to him, and the two are married at the bedside by a kind nurse, so that she can look after him as his wife. Jonathan gives her his journal, asking her never to read it unless she must.",
+      "In London, Lucy grows weaker day by day, though no doctor can find a reason, and Dr Seward, baffled by her condition, sends for his old teacher Professor Van Helsing from Amsterdam. The professor examines the pale girl and is deeply alarmed, but he will not tell the others what he suspects until he is sure. Meanwhile, he asks them to hang garlic flowers about her room, and warns them not to take them away.",
+      "Van Helsing orders garlic flowers to be hung around her window and her neck, and he persuades the men to give Lucy blood from their own veins, one after another. Each time she seems a little better, but each night something comes in at the window and she is worse again in the morning. At last, when the garlic is taken away by her mother, who thinks it is only a smell, the danger returns.",
+      "On a terrible night a wolf from the zoo crashes through the window of Lucy's bedroom, and her sick mother, who is lying beside her, dies of fright. Lucy herself fades quickly, and her last words to Arthur are tender ones, although for a moment her face looks cruel. She is buried with her mother in the family tomb, and her friends think that her suffering is over.",
+      "Soon children are found wandering in the park near the tomb, each with a small mark on the throat, and each talking of a beautiful lady, the Bloofer Lady. Van Helsing explains to Seward that Lucy may have become a vampire, one of the undead, and that the only way to set her free is to put a stake through her heart. Seward, hardly able to believe a word, agrees to see the proof for himself.",
+      "In the dead of night Van Helsing and Seward open Lucy's tomb, and they find the coffin empty, a hard proof that his strange words are true. On the following night the three men watch, and Lucy comes, no longer the sweet girl they knew, but a cold and cruel creature that reaches out for Arthur. With a heavy heart, Arthur drives the stake into her, and her face grows peaceful and beautiful again.",
+      "Back in England, Jonathan has slowly recovered, and he is walking with Mina in Piccadilly when he suddenly stops dead. Across the street he sees a tall man with a hooked nose and a white moustache, who looks much younger than the old man of the castle, and he almost faints with terror. The man is the Count, and now he is walking freely through the streets of London, as if he had always lived there.",
+      "Mina, who has promised never to read the journal unless she has to, decides that the time has come, and in it she finds a tale so strange that she knows it could never have been invented. Mina writes to Van Helsing, who has been asking questions about the Count, and the old professor visits them and listens in sober astonishment to Jonathan's story. Together the little group begins to see how the pieces fit, and a new and dangerous purpose is born among them.",
+      "With a quick mind and a typewriter, Mina puts every letter, diary and newspaper cutting into the correct order, so that all the friends can read the whole terrible story from beginning to end. Van Helsing is delighted by her courage, saying that she has a man's brain and a woman's heart, and he asks her to join the group. Together they swear to find and destroy the Count before he can harm anyone else.",
+      "Next to the house of Carfax is a hospital run by Dr Seward, and one of its patients, Renfield, eats flies and spiders and birds, hoping to gain their lives for himself. He has seemed harmless, but he becomes restless and anxious, and begs again and again to be let out, saying that his master is coming and that he will be rewarded. Seward does not yet see the connection between his patient and the strange new neighbour next door.",
+      "By following the receipts of a carrier, the friends discover that the Count has hidden fifty boxes of earth in several houses, one of them Carfax, and in any of them he can rest by day. Van Helsing explains that the Count can only lose his powers if every box is made unfit for him, using a sacred wafer, and the group decides to find them all. They begin at Carfax, where they find twenty-nine boxes waiting in the old chapel, in the cold and the dust.",
+      "The friends enter the old chapel at Carfax and place a piece of sacred wafer into every box, so that the earth can no longer protect the Count. At that moment hundreds of rats pour in from every corner, with their eyes glowing red, and the friends are only saved by their small dogs and by the courage that Van Helsing has taught them. They leave the chapel safe and sound, and now they must find the others.",
+      "Renfield, who has learnt that the Count means to hurt Mina, tries to stop him, and in a rage the Count throws him against the floor. When Seward and the others find the dying man, he warns them with his last words that his master is in the house, and that he has gone to Mina. They run up the stairs, desperate to arrive in time, and nothing prepares them for what they will see.",
+      "When the door of Mina's bedroom is forced open, the friends see Jonathan lying like a stone on the bed and, beside him, the Count in his white face, bending over Mina. As soon as they hold up the cross and the sacred wafer, he flees as a cloud of mist through the window, and Mina, in tears, tells how he forced her to drink his blood. She now carries a mark, and when Van Helsing touches her forehead with the wafer, it burns her skin.",
+      "Mina touches the red scar on her forehead and calmly tells the others that she is changing, a little more each day, and that she may one day be as dangerous as the Count. She asks them to promise, with Jonathan's hand in hers, that they will set her free if that day comes, and each of them gives his word with tears in his eyes. Her courage only makes the friends more determined that it will never be needed.",
+      "Over the next few days, the friends find the Count's other houses in Piccadilly and in several places around London, and they destroy the boxes in each one. The Count, with no safe resting place left, escapes by water, and the friends learn that he has taken one of the boxes aboard a ship bound for the Black Sea. Mina, whose bite is growing stronger, understands that she has a strange link with him.",
+      "Because the Count has bitten Mina, Van Helsing finds that he can put her into a trance at dawn and dusk, when she can sense what the Count can sense. In the half-light she reports the lapping of water, the creaking of timber, and the sound of heavy chains, so they know that he is still on the ship. By these small clues they learn that the ship is the Czarina Catherine, bound for Varna.",
+      "Van Helsing refuses to leave Mina behind, for she is now more precious as a guide than as a fighter, and the whole party sets out for the Black Sea in great haste. They reach Varna well before the ship, but the Czarina Catherine does not arrive, and Mina's trance reveals that the Count has chosen another port. The friends hurry to Galatz, the town on the river, and learn that the ship has docked.",
+      "At Galatz the Czarina Catherine is moored at the quay, but the Count's boxes have already been moved onto a river boat that is steaming away into the mountains. The friends realise at once that the Count is going home to his castle, and that they must catch him before the sun sets on the last day. Quickly they plan to follow him by every possible road, and each of them knows that the final struggle is close.",
+      "The friends decide to split up in order to be sure of catching the Count. Jonathan and Arthur will follow the river boat in a fast steam launch, Quincey and Seward will ride along the bank, and Van Helsing will take Mina overland to the castle. They say a quick goodbye, each knowing that this may be the last time they will see one another, and then each group sets out upon its dangerous journey.",
+      "Van Helsing and Mina set out by carriage towards the Borgo Pass, over mountain roads that climb steeply into the cold, and Mina, in her trances, grows more aware of her link with the Count. The professor watches her carefully, knowing that she is both their guide and their greatest worry, and every day he asks her what the Count is doing. Their road leads ever closer to the place where Jonathan's nightmare began, and where it must now be ended.",
+      "Near the castle Van Helsing makes a ring of sacred wafer on the snowy ground, places Mina inside it with a small fire, and tells her not to step beyond it for any reason. The three women of the castle appear in the mist and call to her in beautiful voices, but they cannot cross the circle, and wolves howl in the dark beyond. At dawn the shapes are gone, and Mina, shivering but unharmed, is safe, and she knows that the circle has saved her life.",
+      "Leaving Mina in her circle, Van Helsing enters the silent castle and, in an old chapel, finds the tombs of the three women, who lie in their coffins with the colour of life on their cheeks. With great pity and with a steady hand he ends each of them, and they crumble into dust. Lastly, he finds the Count's own tomb, and he makes it forever unfit for its owner.",
+      "When his work in the castle is done, Van Helsing carefully seals every opening with sacred wafer, so that the Count can never again enter his home to rest. Then he returns to Mina, and the two of them climb to a high place from which they can watch the roads for their friends. The sun is already low in the western sky, and the great race is nearly over.",
+      "Jonathan and Arthur follow the river in their fast launch and gain on the Count's boat with every mile, while Quincey and Seward gallop along the bank, ready to cut off the road. Finally the friends see the boat ahead, and, with the sun low in the sky, they close in from every side. Only a few hours are left before the sun sets, and with it the Count would wake and rise.",
+      "On the mountain road the friends spy the cart with the heavy box, surrounded by a band of armed men who are racing towards the castle before dark. They have only minutes to act, and the sun is almost touching the mountain peaks, so the friends ride, run and shoot their way towards the box. Van Helsing and Mina watch from above, and Mina prays that they will be in time.",
+      "In the last red light of the sun, Jonathan and Quincey leap on to the cart and wrench open the box, where the Count lies with his eyes open and a look of triumph on his face. Jonathan's great knife slashes through the Count's throat and Quincey's blade pierces his heart, in the same moment, just before the last ray of light disappears. For a second, the Count's face shows a look of peace that none of them will ever forget.",
+      "Before their eyes the Count's body crumbles into dust, and the armed men who had been guarding him flee in terror, leaving the friends alone on the road. Mina, watching from the hill, sees the red mark on her forehead fade away, and she knows at once that she is free of the curse. A great silence fills the valley, and the long nightmare that began in the lonely castle is finally over.",
+      "Quincey Morris, who has been badly wounded in the struggle, lies back against the earth, and he smiles as the friends crowd around him. He says that he is glad to have given his life for a good cause, and that he would do it again, and the last thing that he sees is Mina's face, bright with tears. His brave death ends the whole terrible chase, and it leaves each of his friends with a pang of sorrow that will never entirely fade.",
+      "The friends lay Quincey to rest with sorrow and gratitude, and they take a last look at the castle high on its rock, now silent in the morning light. The mountains seem less threatening than before, and as they head down towards the valley Mina leans on her husband's arm and feels, for the first time in months, truly free. It is a long road home, but they travel it with light hearts and with thoughts of their lost friend.",
+      "Back in England, Jonathan and Mina take up the thread of everyday life with a deeper love than before, and the nightmares gradually fade. They often speak of Lucy and of Quincey, and they are glad that they can finally keep the dark memories in the past. Years go by, and the world forgets that such a thing as the Count ever walked in it.",
+      "Seven years after that terrible time, Jonathan and Mina have a son, born on the very day that Quincey Morris died, and they have named him after their friend. In his bright face and fearless spirit they sometimes see a trace of the brave man who gave his life for them. The boy is the happiest result of everything that they have suffered, and they are grateful for him every single day.",
+      "Jonathan and Mina go back with their young son to the lonely mountains where it all began, and they stand for a time at the place where Quincey fell. The castle on its rock is silent and ruined, and the great forest below it hums with the sound of a gentle wind and of living birds. Mina takes Jonathan's hand, and in that moment, they feel that peace has returned to the land.",
+      "Years later, the old Professor Van Helsing sits with the young Quincey on his knee, and he tells the boy that one day he will learn the whole history of those terrible days. It is enough for now, he says, to know that his mother was so good and brave that many people have been saved by her. Mina listens with a warm smile, and in that moment, the family's long story is whole.",
+      "In a last note, Jonathan observes that the story has come down to them in a heap of typed pages, with hardly a single original document, and that nobody could possibly be asked to believe it on that evidence. Yet he and his friends know it to be true, and all that remains is for them to treasure the memory of a brave friend, a clever wife and a victory won together. Courage and friendship, they have learned together, are the strongest protection against any darkness that the world may hold."
+    ]
+  }
+}

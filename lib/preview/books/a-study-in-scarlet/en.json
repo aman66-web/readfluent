@@ -1,0 +1,417 @@
+{
+  "slug": "a-study-in-scarlet",
+  "meta": {
+    "blurb": "A dead man in an empty house, and one word written in blood on the wall. Dr Watson meets Sherlock Holmes and watches him read the clues that no one else can see. But the real story starts far away, years earlier, in a desert.",
+    "bible": "Sherlock Holmes: the consulting detective of Baker Street, tall, lean, sharp-eyed, proud of his method. Dr John Watson: an army doctor wounded in Afghanistan, Holmes's new friend and the narrator. Stamford: the old friend who introduces them. Mrs Hudson: their landlady at 221B Baker Street. Gregson and Lestrade: two Scotland Yard detectives, proud and often wrong. Enoch Drebber: the dead man, from Cleveland, Ohio. Joseph Stangerson: his secretary, also killed. Mrs Charpentier, Alice and Arthur Charpentier: the family with whom Drebber lodged. Constable Rance: the policeman who saw a drunk man at the gate. Wiggins: leader of the Baker Street Irregulars, street boys who help Holmes. Jefferson Hope: a cab driver, the murderer, a hunter from America. John Ferrier: an American who is saved in the desert. Lucy Ferrier: the little girl he saves and adopts; Hope's love. Utah, Salt Lake City: where the second part happens, 1847 and after. The elders: the leaders of the settlers' community; the story is a Victorian novel's picture and not a fair picture of any real people. 221B Baker Street, Lauriston Gardens, Brixton Road, Criterion Bar, St Bartholomew's hospital, Scotland Yard, Afghanistan, Maiwand, London, Cleveland, Ohio. Rache: the German word for revenge, written in blood. Voice and tone: clear, clever and steady, a puzzle solved step by step; deaths are stated plainly without gore; the second half is sorrowful, then calm."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A wounded army doctor arrives in London with one bag",
+      "summary": "Dr Watson, wounded in Afghanistan, comes home to London alone and ill."
+    },
+    {
+      "n": 2,
+      "scene": "Watson counts his last coins in a gloomy hotel room",
+      "summary": "Running out of money, Watson decides to find cheaper rooms to share."
+    },
+    {
+      "n": 3,
+      "scene": "Watson meets his old friend Stamford in a busy bar",
+      "summary": "He meets his old friend Stamford at the Criterion Bar."
+    },
+    {
+      "n": 4,
+      "scene": "Stamford and Watson walk through hospital corridors",
+      "summary": "Stamford mentions Sherlock Holmes, who seeks a flatmate, and takes Watson to the hospital to meet him."
+    },
+    {
+      "n": 5,
+      "scene": "Holmes leaps up from his test tubes and shakes Watson's hand",
+      "summary": "Holmes announces a test for blood, meets Watson and guesses that he has been in Afghanistan."
+    },
+    {
+      "n": 6,
+      "scene": "Two men look round a bright sitting room on Baker Street",
+      "summary": "They agree to share rooms at 221B Baker Street, where Mrs Hudson welcomes them."
+    },
+    {
+      "n": 7,
+      "scene": "Watson watches Holmes play the violin by the fire",
+      "summary": "Watson wonders at Holmes's odd habits and his many visitors."
+    },
+    {
+      "n": 8,
+      "scene": "Watson reads a magazine article at the breakfast table",
+      "summary": "Watson scorns a magazine article, The Book of Life, and Holmes says he wrote it."
+    },
+    {
+      "n": 9,
+      "scene": "A man in uniform crosses the street below the window",
+      "summary": "Holmes says he is the world's only consulting detective and names a passer-by as a retired sergeant."
+    },
+    {
+      "n": 10,
+      "scene": "Holmes reads a letter while Watson looks over his shoulder",
+      "summary": "Gregson of Scotland Yard writes asking for help with a murder."
+    },
+    {
+      "n": 11,
+      "scene": "A cab stops outside a dreary house in Lauriston Gardens",
+      "summary": "They ride to the empty house in Lauriston Gardens."
+    },
+    {
+      "n": 12,
+      "scene": "A dead man lies in a bare room with his face twisted",
+      "summary": "The body of Enoch Drebber lies in the front room with no wound."
+    },
+    {
+      "n": 13,
+      "scene": "A word scrawled in red on a wall by a lamp",
+      "summary": "The word RACHE is written on the wall in blood."
+    },
+    {
+      "n": 14,
+      "scene": "Holmes crawls on the floor with a magnifying glass",
+      "summary": "Holmes examines the room, and a woman's wedding ring falls from beneath the body."
+    },
+    {
+      "n": 15,
+      "scene": "Holmes lectures two doubtful detectives in the empty room",
+      "summary": "Holmes describes the killer: tall, red-faced, long-nailed, a cigar smoker who came by cab."
+    },
+    {
+      "n": 16,
+      "scene": "Lestrade points proudly at the wall while Holmes laughs",
+      "summary": "Lestrade thinks the word is the start of a name, Rachel, but Holmes says rache means revenge."
+    },
+    {
+      "n": 17,
+      "scene": "A constable stands at a lamp-post and tells his story",
+      "summary": "Constable Rance describes the drunk man at the gate, and Holmes sees he was the killer."
+    },
+    {
+      "n": 18,
+      "scene": "Holmes writes a notice at a desk while Watson watches",
+      "summary": "Holmes advertises the lost ring to draw out the killer or a helper."
+    },
+    {
+      "n": 19,
+      "scene": "A bent old woman takes a ring and hurries out",
+      "summary": "An old woman claims the ring and escapes, and the cab Holmes follows is empty."
+    },
+    {
+      "n": 20,
+      "scene": "Gregson stands proudly in the room with a young man's name",
+      "summary": "Gregson has arrested a young naval man, Arthur Charpentier."
+    },
+    {
+      "n": 21,
+      "scene": "Lestrade shows a second dead man in a hotel room",
+      "summary": "Stangerson is found stabbed in his hotel, with RACHE on the wall."
+    },
+    {
+      "n": 22,
+      "scene": "Holmes holds two small pills above a sick old dog",
+      "summary": "Holmes tests two pills from the room on an old terrier: one is deadly."
+    },
+    {
+      "n": 23,
+      "scene": "Street boys in ragged clothes crowd round Holmes",
+      "summary": "Holmes sends Wiggins and the street boys to find the cab driver."
+    },
+    {
+      "n": 24,
+      "scene": "A rough cab driver stands in handcuffs in a sitting room",
+      "summary": "The cab driver comes for a trunk, and Holmes handcuffs him as Jefferson Hope."
+    },
+    {
+      "n": 25,
+      "scene": "Hope sits calm and tired among three watching men",
+      "summary": "Hope says he is dying and agrees to tell his story."
+    },
+    {
+      "n": 26,
+      "scene": "A man and a small girl lie in a burning desert",
+      "summary": "In 1847, John Ferrier and little Lucy are dying of thirst in the desert."
+    },
+    {
+      "n": 27,
+      "scene": "A long line of wagons stops beside two weak travellers",
+      "summary": "A wagon train of settlers finds and saves them."
+    },
+    {
+      "n": 28,
+      "scene": "A young woman rides past green fields and a farmhouse",
+      "summary": "Ferrier prospers in Utah and Lucy grows into a beautiful young woman."
+    },
+    {
+      "n": 29,
+      "scene": "A tall hunter lifts a girl from a crowd of frightened cattle",
+      "summary": "Jefferson Hope saves Lucy from a herd of cattle and they fall in love."
+    },
+    {
+      "n": 30,
+      "scene": "Hope and Lucy say goodbye at a garden gate",
+      "summary": "Hope promises to come back and marry Lucy and leaves to earn money."
+    },
+    {
+      "n": 31,
+      "scene": "Two stern elders speak to Ferrier in his sitting room",
+      "summary": "The elders order Lucy to marry Drebber or Stangerson within thirty days."
+    },
+    {
+      "n": 32,
+      "scene": "A paper with a number lies on a bed in the morning",
+      "summary": "A number appears each day, counting down his thirty days."
+    },
+    {
+      "n": 33,
+      "scene": "A tired rider whispers at a window in the dark",
+      "summary": "Hope returns and says they must run away that night."
+    },
+    {
+      "n": 34,
+      "scene": "Three riders creep past a guard on a moonlit mountain path",
+      "summary": "Hope leads Ferrier and Lucy past the guards into the mountains."
+    },
+    {
+      "n": 35,
+      "scene": "Hope stands beside a fresh grave in an empty camp",
+      "summary": "Hope hunts for food, and returns to find Ferrier dead and Lucy taken."
+    },
+    {
+      "n": 36,
+      "scene": "A pale bride in white stands beside a stern man",
+      "summary": "Lucy is forced to marry Drebber and dies of grief a month later."
+    },
+    {
+      "n": 37,
+      "scene": "Hope bends over a bed at night and takes a ring",
+      "summary": "Hope takes Lucy's wedding ring and vows revenge."
+    },
+    {
+      "n": 38,
+      "scene": "Hope rides alone through many cities and over many roads",
+      "summary": "For years Hope hunts Drebber and Stangerson through America and Europe."
+    },
+    {
+      "n": 39,
+      "scene": "A tired man in a cab coat waits on a London street",
+      "summary": "Weak in health, Hope becomes a cab driver in London and keeps watch."
+    },
+    {
+      "n": 40,
+      "scene": "A drunk man climbs out of a cab at a dark house",
+      "summary": "Hope drives the drunk Drebber to the empty house and tells him who he is."
+    },
+    {
+      "n": 41,
+      "scene": "Two small pills lie in a candle's light",
+      "summary": "Hope offers Drebber two pills, one deadly, and Drebber dies."
+    },
+    {
+      "n": 42,
+      "scene": "Blood drips from a nose while a hand writes on a wall",
+      "summary": "Hope writes RACHE in his own blood and drops Lucy's ring as he leaves."
+    },
+    {
+      "n": 43,
+      "scene": "Two men struggle in a small hotel bedroom at night",
+      "summary": "Stangerson attacks Hope, and Hope stabs him."
+    },
+    {
+      "n": 44,
+      "scene": "Hope looks calmly at the men as police take his arm",
+      "summary": "Hope says he has no shame and the police take him away."
+    },
+    {
+      "n": 45,
+      "scene": "A still man lies on a cell bed under a small window",
+      "summary": "Hope is found dead in his cell the morning before his trial."
+    },
+    {
+      "n": 46,
+      "scene": "Holmes explains his reasoning to Watson by the fire",
+      "summary": "Holmes explains that he reasons backward from the result to the cause."
+    },
+    {
+      "n": 47,
+      "scene": "Two detectives stand before newspaper reporters, smiling",
+      "summary": "Gregson and Lestrade take the credit in the newspapers."
+    },
+    {
+      "n": 48,
+      "scene": "Holmes sits sadly in his chair while Watson reassures him",
+      "summary": "Holmes grumbles that he will never be thanked, and Watson promises to publish the truth."
+    },
+    {
+      "n": 49,
+      "scene": "Holmes points to a red thread across a grey cloth",
+      "summary": "Holmes names the case a study in scarlet, a red thread through the grey of life."
+    },
+    {
+      "n": 50,
+      "scene": "Watson writes at the table while Holmes smiles",
+      "summary": "Watson writes the story, and a famous partnership begins."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Dr Watson was hurt in a war, so he came home to London.",
+      "His money was nearly gone, so he looked for a cheaper home.",
+      "In a busy bar, an old friend named Stamford said hello.",
+      "Stamford knew a man who wanted to share rooms, so he took Watson to meet him.",
+      "Holmes jumped up and shouted that he had found a test for blood.",
+      "They agreed to share rooms at 221B Baker Street, and Mrs Hudson smiled.",
+      "Watson watched Holmes closely, but he could not guess his work.",
+      "Watson read a magazine story and laughed, but Holmes had written it.",
+      "Holmes told Watson that he was the only consulting detective in the world.",
+      "A letter from Inspector Gregson asked Holmes to help with a murder.",
+      "They rode in a cab to a house with a dark, empty garden.",
+      "Inside, a dead man lay on the floor without a single wound.",
+      "On the wall, someone had written a strange word in blood.",
+      "Holmes looked at the floor with a glass and found a woman's ring.",
+      "Holmes said the killer was tall, with a red face and long nails.",
+      "Lestrade said the word was a woman's name, but Holmes laughed at him.",
+      "A police officer remembered a drunk man at the gate, and Holmes was angry.",
+      "Holmes put a notice in the newspapers about the ring that he had found.",
+      "An old woman took the ring, but she disappeared before Holmes could catch her.",
+      "Gregson came to say that he had arrested a young man named Charpentier.",
+      "Then Lestrade said that Drebber's friend Stangerson had been killed too.",
+      "Holmes gave two little pills to a sick old dog, and one killed it.",
+      "Holmes asked some poor street boys to find a certain cab driver.",
+      "The cab driver came upstairs, and Holmes put handcuffs on him.",
+      "Hope said that he was dying, and that he wanted to tell his story.",
+      "Many years before, a man and a small girl were dying in the desert.",
+      "A line of wagons found them and saved their lives.",
+      "Ferrier worked hard and became rich, and Lucy grew into a lovely woman.",
+      "A young hunter named Jefferson Hope saved Lucy from a herd of cattle.",
+      "Hope and Lucy loved each other, and he promised to come back for her.",
+      "The elders said that Lucy must marry Drebber or Stangerson within thirty days.",
+      "Each morning a number appeared, and it told Ferrier how many days were left.",
+      "Hope came back and told them that they must run away that night.",
+      "They walked quietly past the guards in the dark and rode toward the mountains.",
+      "Hope went to find food, but when he came back, Ferrier was dead.",
+      "Lucy was made to marry Drebber, and she died a month later.",
+      "Hope took her wedding ring and promised to find the men.",
+      "For many years Hope followed Drebber and Stangerson across America and Europe.",
+      "Hope was ill now, but he came to London and drove a cab.",
+      "One night Hope drove the drunk Drebber to the empty house.",
+      "Hope held out two pills, and Drebber took one and died.",
+      "Blood ran from Hope's nose, so he wrote the word on the wall.",
+      "Later he found Stangerson, who attacked him, and Hope killed him.",
+      "Hope told them that he felt no shame, and the police took him away.",
+      "The next morning, Hope was found dead in his cell.",
+      "Holmes said that the secret was to think backward from the end.",
+      "Gregson and Lestrade told the newspapers that they had solved the case.",
+      "Holmes was sad, but Watson said that he would write the true story.",
+      "Holmes called murder the red thread that runs through plain, grey life.",
+      "So Watson wrote the story, and a great friendship began."
+    ],
+    "B1B2": [
+      "Dr John Watson had served as an army doctor in Afghanistan, where a bullet struck his shoulder. Weak and sick, he was sent back to London with no family and very little money.",
+      "Watson soon saw that he was spending far more than he could afford. He decided that he must leave the hotel and find cheaper rooms, perhaps to share with someone.",
+      "One afternoon, while Watson stood in the Criterion Bar, someone tapped him on the shoulder. It was young Stamford, who had once worked under him at the hospital, and it was good to see a friendly face.",
+      "Stamford said that a man named Sherlock Holmes was looking for someone to share rooms. He warned that Holmes was clever but strange, and then he took Watson to the hospital to meet him.",
+      "In the laboratory, a thin man with sharp eyes shouted that he had found a test that shows even the oldest bloodstains. Then he shook Watson's hand and said, “You have been in Afghanistan, I perceive.”",
+      "The two men visited some rooms at 221B Baker Street the next day, and both of them liked the place at once. They moved in within a few days, and the kind landlady, Mrs Hudson, looked after them.",
+      "Holmes had strange habits: he played the violin at odd hours, and all kinds of visitors came to see him. Watson noticed that his friend knew a great deal about some things and almost nothing about others.",
+      "One morning Watson read a magazine article called The Book of Life, which said that a clever thinker could read people from tiny signs. He laughed and called the writer a fool, not knowing that Holmes had written it.",
+      "Holmes explained that he had invented his own profession, because the police often came to him when they were stuck. To prove it, he said that a man in the street below was a retired army sergeant, and the man soon knocked.",
+      "The man had brought a letter from Gregson, a detective at Scotland Yard, who wrote that someone had been found dead in an empty house. Gregson begged for Holmes's help, so Holmes took his hat and asked Watson to come with him.",
+      "During the long cab ride Holmes seemed cheerful and chatted about violins. At last they reached a gloomy, empty house in Lauriston Gardens, where a crowd had gathered outside.",
+      "In the bare front room lay the body of a well-dressed man whose face looked angry and afraid. His papers said that he was Enoch Drebber, but there was not a single wound on his body.",
+      "On the wall, in dark red letters, was a single word: RACHE. The two detectives from Scotland Yard, Gregson and Lestrade, had no idea what it meant.",
+      "Holmes crawled across the floor with a magnifying glass, measuring marks and muttering to himself. When the body was lifted, a woman's wedding ring rolled out, and Holmes bent down, smelled the dead man's lips and nodded gravely.",
+      "Holmes told the police that the killer was over six feet tall and wore square boots. He had come in a cab, and he smoked strong cigars, and he had a red face and long fingernails.",
+      "Lestrade said that the writer had been interrupted while writing the name Rachel, and he felt very pleased with himself. Holmes laughed and told him that “rache” was the German word for revenge, so he need not look for any Rachel.",
+      "Holmes found the constable who had first seen the house and asked what he remembered. The man described a drunk fellow who had stumbled up to the gate, and Holmes groaned, because the constable had let the killer walk away.",
+      "That evening Holmes wrote an advertisement about a lost gold ring and sent it to every London newspaper. He believed that the killer, or someone who worked with him, would be unable to resist coming to claim it.",
+      "An old woman knocked at the door and said that the ring was her daughter's. Holmes handed it over and followed her, but when he caught up with her cab it was empty.",
+      "Gregson hurried to Baker Street, proud that he had arrested a young navy man named Arthur Charpentier. The dead man had lodged with the Charpentiers and had insulted Arthur's sister, so Gregson was sure he had found the killer.",
+      "Then Lestrade arrived with terrible news: Joseph Stangerson, Drebber's secretary, had been found stabbed in his hotel. Above the body, the same word, RACHE, was written on the wall.",
+      "Lestrade had also found a small box with two pills in it. Holmes tried them on an old, sick terrier, and the first did nothing, but the second killed the poor dog almost at once.",
+      "Holmes called in Wiggins and the other poor street boys, who were known as the Baker Street Irregulars. He told them to search all of London for the cab driver who had taken a fare to Lauriston Gardens that night.",
+      "Soon a rough-looking cab driver came up the stairs to fetch a trunk from Holmes's room. In a flash Holmes closed handcuffs around his wrists and announced that this was Jefferson Hope, the killer of Drebber and Stangerson.",
+      "Hope was a powerful man, but he said quietly that he was going to die soon, so he might as well tell the truth. He claimed that he had killed two men for a good reason, and he began his story.",
+      "Many years earlier, in 1847, a man called John Ferrier and a little girl named Lucy lay dying in the American desert. Their food and water were gone, and every other member of their travelling group was dead.",
+      "A long line of wagons crossed the desert, carrying a strict religious people who were looking for a new home in Utah. They saved the two travellers, who in return promised to join them, and Ferrier took Lucy as his own daughter.",
+      "Ferrier worked hard on his farm and soon grew rich, and Lucy became a beautiful young woman. Many men admired her, but she was happy at home with her father.",
+      "One day a herd of wild cattle ran towards Lucy's horse, and a strong young hunter named Jefferson Hope pulled her to safety. Soon they were in love, and Ferrier liked the honest young man very much.",
+      "Hope asked to marry Lucy, but he had to go away for two months to earn money. She promised to wait for him, and he rode away, certain that he would return.",
+      "While Hope was away, the leaders of the community, the elders, came to Ferrier's house. They told him that Lucy must marry either Drebber or Stangerson, and that he had thirty days to decide.",
+      "Each morning a number appeared somewhere in the house, and it counted down the days that were left. Ferrier knew that the elders were watching him, and that his time was running out.",
+      "At last, when only a few days remained, Hope rode in secretly and told them what he had learned. He promised to guide them through the mountains that night, with horses and food ready.",
+      "Hope knew a secret path, and he led them past the guards in the dark. By morning they had reached the mountains and were many miles away from the town.",
+      "While Hope went hunting for food, the elders' men caught up with the travellers. When he returned, he found the camp empty and a fresh grave, and he learned that Lucy had been taken back to the city.",
+      "Lucy was forced to marry Drebber, although she hated him with all her heart. She never recovered from her grief, and she died only a month later.",
+      "Hope crept into the house on the night before the funeral and kissed Lucy once. He took the wedding ring from her finger and swore that he would punish the men who had broken her heart.",
+      "Drebber and Stangerson ran away, selling their land and moving from city to city. Hope followed them across America and then Europe, working as a labourer when he had no money, for many years.",
+      "Hope's heart was growing weak, and a doctor warned him that he had little time left. He arrived in London, found work as a cab driver and kept watching for the two men.",
+      "One night Hope drove Drebber, who was drunk, to the empty house in Brixton Road. There he told Drebber who he was and why he had come.",
+      "Hope offered Drebber two pills, one safe and one deadly, and told him to choose. Drebber took one, and within a few seconds he fell dead on the floor.",
+      "Hope's nose started to bleed from excitement, and he wrote RACHE on the wall with the blood to mislead the police. In his hurry he dropped the ring, and he came back later, pretending to be drunk, to look for it.",
+      "The next day Hope found Stangerson at his hotel and offered him the same choice of pills. Stangerson refused and rushed at him, so Hope stabbed him.",
+      "Hope said that he had done what he had to do, and that he felt no shame. Holmes and the police listened in silence, and then the officers led him away.",
+      "The next morning, before a court could try him, Hope was found dead in his cell, with a peaceful look on his face. His weak heart had failed at last, and he had escaped the judgement of men.",
+      "Watson asked Holmes how he had solved the case so quickly. Holmes explained that most people reason forward, but the secret is to start with the result and work back to its cause.",
+      "Gregson and Lestrade told the newspapers that they had caught the killer, and nobody mentioned Holmes. The public praised the two detectives, and the cab driver's fate was soon forgotten.",
+      "Holmes sighed that he would never be thanked for his work, but Watson said that this was not right. He promised that he would write down the true story, and Holmes seemed pleased.",
+      "Holmes said that murder was like a bright red thread running through the plain grey cloth of life. A detective's job, he said, was to find that thread and follow it to its end.",
+      "So Watson sat down and wrote the story of the strange case. It was the first of many adventures, and it was the beginning of a friendship that would last for life."
+    ],
+    "C1C2": [
+      "A bullet at the battle of Maiwand had shattered Dr John Watson's shoulder, and a fever in the hospital at Peshawar had very nearly finished what the bullet began. Invalided home to England, he drifted into London, that vast city that draws in every loose end of the Empire, with neither relatives nor friends and only a modest army pension. He took a room in a dreary hotel on the Strand, and there, with little to do and much to fear, he watched his small savings dwindle.",
+      "Within weeks Watson had to admit that his way of living could not last, for his hotel bill kept growing while his purse grew thinner. He resolved either to leave the capital altogether or to change his habits completely. It occurred to him, as he turned the matter over, that he might find a companion willing to share the cost of a pleasant set of rooms.",
+      "On the very day his worries pressed hardest, Watson was standing in the Criterion Bar when a hand touched his shoulder. It belonged to young Stamford, who had once been his assistant at St Bartholomew's hospital, and the sight of a familiar face in that vast and indifferent city was more welcome than he could say. Over lunch he told his friend all about his wound, his illness and his search for cheap lodgings.",
+      "Stamford hesitated, then admitted that he knew of just such a person, a chemist named Sherlock Holmes whose learning was remarkable and whose habits were odd. He cautioned Watson that the man was a little too fond of cold, exact knowledge, and might well try a new poison on a friend simply to watch its effect. Undeterred, Watson agreed to meet him, and together they set off for the hospital where Holmes worked.",
+      "Holmes, tall and lean, with a hawk-like nose and restless eyes, leapt up from his test tubes crying that he had discovered a chemical that revealed blood where nothing else could. He greeted Watson with a vigorous handshake and, to his visitor's astonishment, remarked at once that he had plainly returned from Afghanistan. Watson asked how he could possibly know such a thing, but Holmes only smiled and promised to explain another day.",
+      "Holmes had already noticed some rooms at 221B Baker Street, and the following day the two men inspected them together. The sitting room was spacious and cheerful, the bedrooms were comfortable, and the rent, when divided between two, seemed well within Watson's means. Within days they had moved in, and the kindly landlady, Mrs Hudson, set about making her new lodgers feel at home.",
+      "As the weeks passed Watson studied his companion with growing curiosity, for Holmes kept strange hours, played melancholy tunes on his violin and received a bewildering variety of visitors. His knowledge was extraordinary in some fields, such as chemistry and the history of crime, yet he knew nothing of literature or philosophy and did not even care that the earth goes round the sun. What, Watson wondered, could such a man possibly do for a living, and why did so many people come to ask his advice?",
+      "One morning Watson picked up a magazine article called The Book of Life, which boldly claimed that a trained observer could read a person's trade and thoughts from the smallest signs. He scoffed aloud that the author was a mere armchair dreamer who had never tested a single one of his theories. Holmes, who sat across the table with an amused expression, quietly informed him that the dreamer was himself.",
+      "Holmes explained that he followed a profession of his own invention: when the police or private investigators reached the end of their wits, they brought their problems to him, and he untangled them from his armchair. As if to prove it, he pointed to a man crossing the street below and declared him a retired sergeant of marines. A minute later the stranger knocked at their door with a letter and admitted, to Watson's amazement, that he had served in exactly that rank.",
+      "The letter came from Gregson of Scotland Yard, a detective whom Holmes rated as the sharpest of a poor lot, and it described a mysterious death at an empty house in the Brixton Road. Gregson confessed himself baffled and asked for Holmes's help, promising that the scene had been left untouched. Holmes, after a moment's thought, seized his hat and urged Watson to come along as well.",
+      "Throughout the long cab journey across London Holmes seemed quite unconcerned, chatting about violins, and Watson, who had hoped for a plan, was left wondering at his friend's calm. At last they turned into Lauriston Gardens, where a dreary house with dusty windows stood apart from its neighbours and a small crowd had gathered outside. A constable let them through the gate, though Holmes stopped to study the muddy path before he would take another step.",
+      "In the bare front room lay the body of a man in good dark clothes, his face twisted into an expression of terror and hatred that no one could explain. Papers in his pocket named him as Enoch Drebber of Cleveland, Ohio, yet his body bore no wound at all, though a thin trail of blood had run across the floor. It seemed that death had come to him without any weapon that anyone could name.",
+      "Scrawled on the wall in dripping red letters was a single word, RACHE, written as though by a hurried and shaking hand. Lestrade and Gregson, the two Scotland Yard men who had arrived before Holmes, regarded it with solemn pride as a clue that only they had discovered. Holmes made no comment, but his sharp eyes were already moving over every inch of the room.",
+      "Out came a tape and a magnifying glass, and for several minutes Holmes crept about the room like a hound upon a scent, measuring footprints, scraping dust from the wall and murmuring to himself. When the body was lifted, a woman's wedding ring fell from beneath it, and Gregson held it up in triumph as if it settled the case. Holmes, who had bent to smell the dead man's lips, announced calmly that the man had been poisoned.",
+      "Holmes rose, brushed the dust from his knees and delivered his conclusions like a lecturer: the murderer was a man of over six feet, with small feet for his height, who wore square-toed boots and smoked a Trichinopoly cigar. He had arrived in a four-wheeled cab drawn by a horse with three old shoes and one new, and his face was red and his fingernails were long. The two detectives exchanged sceptical glances, and Gregson asked how Holmes could know all this about a man whom no one had seen.",
+      "Lestrade, who had been studying the wall with great self-importance, announced that the writer had been interrupted before he could finish the name of a woman called Rachel. Holmes laughed outright and told him that rache is the German word for revenge, and that the whole display was intended to mislead the police. Then, with a polite nod to both detectives, he took Watson's arm and left them to their theories.",
+      "Holmes tracked down Constable Rance, who had been on duty that night, and asked him to describe everything that had happened. The constable recalled a drunken man who had swayed at the gate, singing, and whom he had taken for a resident, so he had let him go. Holmes was furious, because the staggering drunk had almost certainly been the murderer returning for something he had lost, and the policeman had been standing right in front of him.",
+      "That evening Holmes drafted an advertisement saying that a gold wedding ring had been found in the Brixton Road and could be collected at Baker Street. He was sure that the murderer, who had dropped the precious ring in his haste, or some trusted friend of his, would be unable to resist trying to recover it. Watson wondered aloud whether anyone so careful would be foolish enough to walk into such an obvious trap.",
+      "Late that night a bent old woman shuffled into the room and declared, in a cracked voice, that the ring belonged to her unlucky daughter. Holmes handed it over without a word and slipped out to follow her, but when at last he caught up with her cab, he found it empty, and he returned in a thoroughly bad mood. He had been outwitted by a performer cleverer than any he had met in months.",
+      "Gregson arrived in high spirits, eager to announce that he had arrested a young naval officer named Arthur Charpentier. The dead man had lodged with the Charpentiers, and he had insulted Arthur's sister Alice, which was motive enough for the proud detective, who was certain that he had cracked the case. Holmes listened politely, but he did not hide his doubts, and he warned that Gregson's confidence was running ahead of his evidence.",
+      "Before the argument could go any further, Lestrade burst in with dreadful news: Joseph Stangerson, Drebber's secretary, had been found stabbed to death in his hotel room. Above the body, the same word, RACHE, had been scrawled in the same dark red. Holmes took the news with perfect composure, as though it was exactly what he had been expecting.",
+      "Lestrade had also found a small box containing two pills beside the bed, and Holmes, who suspected that they held the key, resolved to test them. Mrs Hudson's old terrier, sickly and ready to be put out of its misery, was brought in for the purpose, and the first pill did nothing at all. The second, however, killed the poor animal almost at once, and Holmes smiled grimly at what it proved.",
+      "Holmes summoned Wiggins and the other ragged street boys who served as his eyes and ears, calling them the Baker Street Irregulars. He instructed them to scour the whole of London for the cab driver who had carried a fare to Lauriston Gardens on the night of the first murder. They scattered at once, delighted at the prospect of a shilling each, and the detective turned back to his violin to wait.",
+      "Before long a rough-looking cab driver tramped up the stairs, having been told that a gentleman wanted help with a heavy trunk. With a swift movement Holmes closed a pair of handcuffs around the man's wrists, and announced, in the voice of a showman, that this was Mr Jefferson Hope, the murderer of Drebber and Stangerson. The prisoner, strong as an ox, struggled fiercely for a few moments before he was overcome.",
+      "Hope, whose powerful hands had nearly smashed a window in his struggle to escape, grew calm and said that he did not fear any punishment. A doctor had told him that he had only a short time left to live, and he wished, before the end, to explain why he had killed the two men. Holmes listened closely, and Watson wrote down every word, so that all of London might one day read it.",
+      "Years before, in 1847, John Ferrier and a little girl named Lucy lay at the point of death in the burning wasteland of the American desert, the last survivors of a travelling party whose other members had already perished. Their food had long since run out, and the child's lips were cracked with thirst. Ferrier, a hardened man not given to despair, felt his strength slipping away and prayed for a miracle.",
+      "The miracle came in the form of a long line of wagons, a company of strict religious settlers who were crossing the desert in search of a new home in Utah. They took the two exhausted travellers in and nursed them back to health, and in return Ferrier promised to join their faith, though no one asked him to give up Lucy. He adopted the little girl as his own daughter and began a new life among them.",
+      "In the following years Ferrier worked tirelessly on his land and grew prosperous, until his farm was one of the finest in the whole valley. Lucy, meanwhile, blossomed into a beautiful young woman with bright eyes, admired by many but fondly attached to her father. Everyone agreed that the two of them had been rewarded for their terrible ordeal.",
+      "One summer day a herd of wild cattle came thundering towards the girl's horse, and a strong young hunter named Jefferson Hope seized her bridle and pulled her to safety. Their friendship deepened quickly into love, and Ferrier, who liked the honest and open-hearted stranger, offered no objection. For the first time in years, Lucy believed that her future held nothing but happiness.",
+      "Hope asked for Lucy's hand and was told that he must first go away for two months, to earn the money that would let them marry. She promised to wait for him however long it took, and he rode off with her promise warm in his heart. Neither of them imagined that the next time he saw her, everything would have changed.",
+      "While Hope was away, two stern men, the elders of the community, came to Ferrier's house with a message that would not be refused. They told him that Lucy must marry either Drebber or Stangerson, both sons of important elders, and that he had exactly thirty days to decide. Ferrier, who knew very well that disobedience carried a heavy price in that valley, felt his heart sink within him.",
+      "Each morning a number appeared somewhere inside the farmhouse, silent and unexplained, and it counted down the days that were left to him. Ferrier understood that unseen eyes watched his every movement and that no door in the valley was closed to the elders' agents. As the numbers shrank, so did his hope, and he began to lose sleep.",
+      "At last, when only a handful of days remained, Hope rode in secretly in the dead of night and listened in horror to what he was told. He promised without hesitation to guide them through the mountains, and he arranged horses and supplies before the first light touched the hills. There was no time to waste, for each hour brought them closer to the elders' deadline.",
+      "Hope knew a hidden path, and he led his two companions past the sentries in the dark, whispering the passwords he had learned. By morning they had reached the mountains and were many miles away from the town, and for a short while they dared to believe that they were safe. They had not reckoned on the elders' determination, nor on how swiftly their pursuers could ride.",
+      "Hope left the camp to hunt for food, trusting that the mountains would hide the two travellers for a few hours at least. When he returned, the place was empty and silent, and a freshly dug grave told him all that he feared. Ferrier had been killed, and Lucy, he soon learned, had been carried back to the city.",
+      "Lucy was forced to marry Drebber, a man she hated, in a ceremony that took place under the eyes of those who had murdered her father. She never recovered from her grief, and she faded like a flower in frost, dying only a month after the wedding. At her funeral the mourners spoke of her gentleness, but none of them dared to speak of how she had died.",
+      "That night Hope crept into the house where she lay and bent over her for a single, silent moment before he took the wedding ring from her cold finger. He kept it as a sacred reminder, and he swore a solemn oath that the two men responsible for her death would pay for it. From that hour the course of his entire life was set, and every hardship he met afterwards only made him more determined.",
+      "Drebber and Stangerson fled the territory, selling their land and moving from one city to another, but Hope never lost their trail. For years he followed them across America and over the ocean to Europe, taking whatever labour he could find when his money ran out. Neither the passing of years nor the distance between continents ever weakened his purpose, and his hatred grew quieter but never smaller.",
+      "In the long chase Hope's health had declined, and a doctor warned that a weakness of the heart would soon bring his life to an end. He came to London, where he had learned that his two enemies were living, and took work as a cab driver so that he could watch the stations and the streets. Patience, he knew, was the last weapon left to a man whose strength was almost gone, and he meant to use it well.",
+      "One night Hope drove Drebber, who was too drunk to know where he was going, to the empty house in Brixton Road and led him into the dark front room. There, by the light of a candle, he told the helpless man who he was, and why he had come, and what he had lost. Drebber, who had hoped that the past was safely buried, began to tremble from head to foot.",
+      "Hope held out two pills, one harmless and the other deadly, and told his old enemy to choose one while he swallowed the other. Drebber, trembling, took one and put it in his mouth, and within seconds he fell dead on the floor, with the look of terror that the police would find. It was the justice, Hope said afterwards, that Lucy had never been given, and the choice was a fairer one than the elders had offered her.",
+      "As he stood over the body, Hope's nose began to bleed, a symptom of his illness, and with that blood he wrote RACHE on the wall, hoping to send the police in the wrong direction. In his hurry he dropped Lucy's ring, and when he realised, he returned later, pretending to be drunk, to search for it. A watchful policeman nearly caught him, but the disguise worked, and he slipped away.",
+      "The next day Hope found Stangerson at his hotel and offered him the same deadly choice that Drebber had faced, but Stangerson refused and flew at him with his bare hands. In the struggle that followed Hope drew a knife and stabbed him, and the second man lay dead before the noise had woken the other guests. Again he wrote the word upon the wall, and then he walked calmly away into the night.",
+      "When he had finished speaking, Hope said that he had done what he had to do, and that he felt no shame for it. Holmes and the two detectives listened in silence, awed by the sorrow and the strange justice in the story, and then the officers led the prisoner away. The room felt very quiet when he had gone, and for some time nobody could find anything to say.",
+      "The next morning, before any court could try him, Hope was found dead in his cell, with a peaceful smile upon his face. His weak heart had failed at last, and so he had escaped the judgement of men, as he had always said he would. Watson noted that the man who had hunted two murderers for twenty years had finally been permitted to rest.",
+      "Watson asked Holmes how he had solved so tangled a case in so short a time, and the detective answered with evident pleasure. Most people, he explained, reason forward from cause to effect, but the true skill lies in starting from the result and working back to its cause. It is a method that anyone can learn, he added, but very few ever trouble to practise it.",
+      "Gregson and Lestrade told the newspapers that they had tracked down the killer by their own skill, and nobody thought to mention Holmes. The public praised the two detectives for their cleverness, and the sad fate of the cab driver was soon forgotten amid the excitement. Holmes read the reports with a thin smile, but it was clear that he felt the injustice.",
+      "Holmes sighed that he would never be thanked for his work, and that the credit always went to men who understood so little of it. Watson, who had come to admire his strange friend more than he could easily say, protested that this was not right. He promised that he would publish the true story of the case himself, and Holmes, looking quietly touched, said that he might as well.",
+      "Holmes remarked that murder was like a bright red thread running through the plain grey cloth of life, and that it was a detective's duty to find that thread and to follow it to its end. He liked, he said, to give the case a name, and the name he chose for it was a study in scarlet. Watson, who had been scribbling in his notebook, thought that the title suited the whole strange story very well indeed.",
+      "So Watson sat down at the table and wrote the account of the strange affair, from the empty house in Brixton Road to the cell where the murderer had died. It was only the first of many adventures that the two friends would share, and the beginning of a partnership that the world would never forget. Outside, the lamps of Baker Street were lighting one by one, and inside, Holmes was already reaching for his violin."
+    ]
+  }
+}

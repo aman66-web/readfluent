@@ -76,7 +76,7 @@ export function TabBar() {
         {TABS.map(({ href, key, icon }) => {
           const active = isActive(href);
           return (
-            <Link key={href} href={href} data-tab aria-current={active ? "page" : undefined}
+            <Link key={href} href={href} data-tab data-tour={`tab-${href.replace(/^\//, "") || "home"}`} aria-current={active ? "page" : undefined}
                   className={`relative z-[1] flex min-w-0 flex-1 flex-col items-center gap-0.5 py-1.5 text-[11px] font-semibold leading-tight transition-colors duration-300 ${active ? "text-accent" : "text-faint"}`}>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                    className={`size-[22px] shrink-0 transition-transform duration-300 ${active ? "-translate-y-px scale-110" : ""}`} aria-hidden>

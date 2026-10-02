@@ -58,6 +58,10 @@ export function BookView({ book, outline }: { book: PreviewBook; /** The book's 
 
       <ReadPicker slug={book.slug} lengths={lengths} outline={outline}>
         <p lang={locale} dir="auto" className="font-reading text-[17px] leading-[1.6] text-foreground/90">{blurb}</p>
+        {/* Where it comes from, in the description where readers can see it. */}
+        <p className="mt-3 border-t border-border pt-3 text-[13px] leading-snug text-muted">
+          {book.kind === "classic" ? t("book.publicDomain") : <><span className="font-semibold text-foreground/80">{t("book.inspired", { author: book.author })}.</span> {t("book.notAffiliated")}</>}
+        </p>
       </ReadPicker>
     </main>
   );

@@ -1,0 +1,417 @@
+{
+  "slug": "the-gallic-war",
+  "meta": {
+    "blurb": "A general writes his own war report. Julius Caesar tells how he led Roman legions across Gaul, bridged the Rhine, sailed to Britain and faced the brilliant Vercingetorix at Alesia. Eight years of battle, as the winner chose to tell it.",
+    "bible": "Julius Caesar: the Roman governor and general who wrote the book; he writes about himself in the third person, calm and clear, and he always makes his own choices sound wise. Gaul: the land that is now mostly France and Belgium, split into three parts. Gauls: the Celtic peoples of Gaul. Belgae: the northern Gauls, whom Caesar calls the bravest. Helvetii: a people of what is now Switzerland who tried to move west in 58 BC. Orgetorix: the Helvetian noble who began the plan. Divico: an old Helvetian leader. Ariovistus: the German king in Gaul. Aedui: Gauls who were allies of Rome. Remi: Belgic allies of Rome. Nervii: the fiercest Belgic people. Atuatuci: a Belgic people. Veneti: a seafaring people of Brittany. Usipetes and Tencteri: German tribes who crossed the Rhine. Germans: the peoples east of the Rhine. Britons: the people of Britain. Cassivellaunus: the British leader north of the Thames. Ambiorix: the chief of the Eburones who destroyed a Roman force in winter. Eburones: his people. Sabinus and Cotta: the Roman commanders killed by Ambiorix. Quintus Cicero: a Roman commander whose camp was besieged. Labienus: Caesar's best officer. Vercingetorix: the young Arvernian who unites the Gauls in 52 BC. Arverni: his people. Dumnorix: an Aeduan noble who plots against Caesar. Mandubii: the people of Alesia. Druids: the priests and teachers of the Gauls. Hirtius: the officer who wrote the eighth book after Caesar. Legion: a Roman army unit of about five thousand men. Cohort: a tenth of a legion. Centurion: an officer of a hundred men. Standard-bearer: the soldier who carries the legion's eagle. Province: a land ruled by Rome. Cavalry: soldiers on horses. Rampart: a wall of earth. Siege: surrounding a town to take it. Tribute: money paid to a stronger people. Rome, Italy, Geneva, the Rhône, the Saône, Bibracte, the Aisne, the Sabis, Britain, the Thames, the Rhine, Cenabum, Avaricum, Gergovia, Lutetia, Alesia, Uxellodunum, Brittany, the Cévennes, the Hercynian Forest: the places. Dates are BC: the war runs from 58 to 51; the first crossing to Britain is 55; the second is 54; Alesia is 52. Numbers are Caesar's own and are often too big, and the text says so. Voice and tone: brisk, clear and confident, like a good report from the field; wars are told without gore."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A Roman general looks over a map of three parts of Gaul",
+      "summary": "Caesar begins by describing Gaul, divided into three parts, with the Belgae the bravest."
+    },
+    {
+      "n": 2,
+      "scene": "Whole families load wagons and set fire to their own village",
+      "summary": "Orgetorix's plot leads the Helvetii to burn their homes and set out west in 58 BC."
+    },
+    {
+      "n": 3,
+      "scene": "Roman soldiers cut down a wooden bridge over the river at Geneva",
+      "summary": "Caesar hurries to Geneva, cuts the bridge and builds a long wall to hold the Helvetii back."
+    },
+    {
+      "n": 4,
+      "scene": "An old Helvetian chief faces Caesar on a hillside in the sun",
+      "summary": "Divico threatens Caesar, Caesar refuses, and the Helvetii choose another road."
+    },
+    {
+      "n": 5,
+      "scene": "Roman soldiers attack the last crossers of a wide slow river",
+      "summary": "Caesar destroys the part of the Helvetii still on the near bank of the Saône."
+    },
+    {
+      "n": 6,
+      "scene": "Roman lines advance up a long slope toward a Gallic wagon circle",
+      "summary": "After a long battle near Bibracte, the beaten Helvetii are sent home."
+    },
+    {
+      "n": 7,
+      "scene": "Gallic chiefs kneel before Caesar and ask for his protection",
+      "summary": "The Gauls ask Caesar for help against the German king Ariovistus."
+    },
+    {
+      "n": 8,
+      "scene": "Caesar speaks to nervous officers and soldiers in a camp",
+      "summary": "The Roman soldiers are afraid of the Germans, and Caesar shames them with a speech."
+    },
+    {
+      "n": 9,
+      "scene": "Roman soldiers chase the German army toward a wide river",
+      "summary": "Caesar and Ariovistus meet, then fight, and the German king escapes across the Rhine."
+    },
+    {
+      "n": 10,
+      "scene": "Belgic warriors gather in a forest as Roman scouts watch",
+      "summary": "In 57 BC the Belgae unite against Rome, and the Remi choose to side with Caesar."
+    },
+    {
+      "n": 11,
+      "scene": "A Roman camp sits behind a ditch beside a marsh and a river",
+      "summary": "Caesar camps by the Aisne, and the Belgae lose heart and go home."
+    },
+    {
+      "n": 12,
+      "scene": "Nervian warriors burst from a wood across a river in surprise",
+      "summary": "The Nervii attack the Roman camp at the Sabis while the soldiers are still building it."
+    },
+    {
+      "n": 13,
+      "scene": "Caesar grabs a shield and fights in the front rank",
+      "summary": "Caesar takes a shield and fights beside his men, and the Nervii are almost wiped out."
+    },
+    {
+      "n": 14,
+      "scene": "Atuatuci defenders gaze down at a tall siege tower rolling forward",
+      "summary": "The Atuatuci surrender when they see a Roman tower, then break their word."
+    },
+    {
+      "n": 15,
+      "scene": "Heavy wooden ships with leather sails sit in a rocky harbour",
+      "summary": "The Veneti of Brittany prepare a fleet of sturdy ships in 56 BC."
+    },
+    {
+      "n": 16,
+      "scene": "Romans use long hooks to pull down the sails of an enemy ship",
+      "summary": "The Romans use hooks and a falling wind to beat the Veneti at sea."
+    },
+    {
+      "n": 17,
+      "scene": "German families cross a great river with wagons and horses",
+      "summary": "The Usipetes and Tencteri cross the Rhine in 55 BC, and the talks with Caesar break down."
+    },
+    {
+      "n": 18,
+      "scene": "Roman engineers drive huge wooden piles into the bed of a wide river",
+      "summary": "Caesar builds a bridge over the Rhine in ten days."
+    },
+    {
+      "n": 19,
+      "scene": "Roman soldiers march over a wooden bridge into a dark forest",
+      "summary": "Caesar spends eighteen days in Germany, then crosses back and cuts the bridge."
+    },
+    {
+      "n": 20,
+      "scene": "A single Roman ship sails along high white cliffs scouting",
+      "summary": "Caesar decides to cross to Britain, and Volusenus scouts the coast."
+    },
+    {
+      "n": 21,
+      "scene": "A standard-bearer leaps from a ship into the waves",
+      "summary": "The standard-bearer of the tenth legion jumps into the sea and the Romans follow."
+    },
+    {
+      "n": 22,
+      "scene": "Broken Roman ships lie on a stormy beach as men repair them",
+      "summary": "A storm wrecks the Roman ships, and Caesar repairs them and sails back to Gaul."
+    },
+    {
+      "n": 23,
+      "scene": "Hundreds of ships fill the sea as Romans land on a quiet beach",
+      "summary": "In 54 BC Caesar returns to Britain with about eight hundred ships."
+    },
+    {
+      "n": 24,
+      "scene": "British chariots race across a field around Roman soldiers",
+      "summary": "Cassivellaunus fights Caesar with chariots and fast raids."
+    },
+    {
+      "n": 25,
+      "scene": "Roman soldiers cross a river past stakes while Britons watch",
+      "summary": "Caesar crosses the Thames, Cassivellaunus gives in, and Caesar goes home."
+    },
+    {
+      "n": 26,
+      "scene": "A white-robed Druid speaks to a ring of young students under oaks",
+      "summary": "Caesar describes the Gauls and their Druids, who teach by memory."
+    },
+    {
+      "n": 27,
+      "scene": "German hunters walk through a vast forest with a huge elk",
+      "summary": "Caesar describes the Germans, who hunt, fight and own little land, and the huge Hercynian Forest."
+    },
+    {
+      "n": 28,
+      "scene": "A Roman column marches through a narrow wooded valley in winter",
+      "summary": "Ambiorix tricks Sabinus into leaving camp, and a Roman force is destroyed."
+    },
+    {
+      "n": 29,
+      "scene": "A Roman tower stands on a camp wall with a javelin in it",
+      "summary": "Quintus Cicero's camp is besieged by the Nervii, and a message goes out on a javelin."
+    },
+    {
+      "n": 30,
+      "scene": "Caesar's small column marches up to a camp as Gauls retreat",
+      "summary": "Caesar arrives with a small force, and the Gauls lift their siege."
+    },
+    {
+      "n": 31,
+      "scene": "Roman soldiers burn farms while a chieftain escapes through woods",
+      "summary": "In 53 BC Caesar crosses the Rhine again and punishes the Eburones, but Ambiorix escapes."
+    },
+    {
+      "n": 32,
+      "scene": "A young Gallic noble stands before a crowd and raises his sword",
+      "summary": "In 52 BC the Gauls rise, and Vercingetorix is chosen as their leader."
+    },
+    {
+      "n": 33,
+      "scene": "Roman soldiers dig through deep snow in a mountain pass",
+      "summary": "Caesar crosses the snowy Cévennes in winter and surprises the Gauls."
+    },
+    {
+      "n": 34,
+      "scene": "Gallic men burn their own barns and fields to starve the Romans",
+      "summary": "Vercingetorix burns the countryside to starve the Romans, but spares Avaricum."
+    },
+    {
+      "n": 35,
+      "scene": "Roman soldiers climb a huge earth ramp up to a town wall",
+      "summary": "Caesar's soldiers take Avaricum in the rain after building a great ramp."
+    },
+    {
+      "n": 36,
+      "scene": "Roman soldiers climb a steep hill toward a town above them",
+      "summary": "Caesar attacks Gergovia on its high hill, and the assault goes badly wrong."
+    },
+    {
+      "n": 37,
+      "scene": "Labienus leads his column across a marshy river near Paris",
+      "summary": "After Gergovia the Aedui rebel, but Labienus wins a victory near Lutetia."
+    },
+    {
+      "n": 38,
+      "scene": "German horsemen charge through a field of Gallic riders",
+      "summary": "Caesar's German cavalry beat the Gauls, and Vercingetorix retreats into Alesia."
+    },
+    {
+      "n": 39,
+      "scene": "Two long rings of walls and ditches surround a hilltop town",
+      "summary": "Caesar surrounds Alesia with two lines of earthworks."
+    },
+    {
+      "n": 40,
+      "scene": "Hungry women and children plead outside the walls of a hill fort",
+      "summary": "The starving people of Alesia send their families out, but the Romans refuse to feed them."
+    },
+    {
+      "n": 41,
+      "scene": "A huge Gallic army appears on the hills outside the Roman wall",
+      "summary": "A vast relief army of Gauls arrives and attacks the Roman wall."
+    },
+    {
+      "n": 42,
+      "scene": "Roman soldiers defend a wall of sharpened stakes at night",
+      "summary": "The Romans repel night attacks with traps and ditches."
+    },
+    {
+      "n": 43,
+      "scene": "Caesar in a red cloak leads soldiers down a hill to battle",
+      "summary": "In the final battle, Caesar leads his reserves in person, and the Gauls break."
+    },
+    {
+      "n": 44,
+      "scene": "Vercingetorix lays down his weapons before Caesar on a hill",
+      "summary": "Vercingetorix surrenders, and Alesia falls."
+    },
+    {
+      "n": 45,
+      "scene": "Caesar sits in a tent as prisoners are led before him",
+      "summary": "Caesar shares the prisoners among his soldiers, and Rome celebrates for twenty days."
+    },
+    {
+      "n": 46,
+      "scene": "Roman engineers dig a tunnel under a spring beside a fortress",
+      "summary": "In 51 BC the last revolts are crushed, and Uxellodunum falls when its spring is cut off."
+    },
+    {
+      "n": 47,
+      "scene": "Caesar rides through a peaceful Gallic village in the sun",
+      "summary": "Hirtius says that Caesar spent his last year in Gaul keeping the peace gently."
+    },
+    {
+      "n": 48,
+      "scene": "Vercingetorix stands in chains in a Roman parade",
+      "summary": "Later sources say Vercingetorix was held in Rome and led in Caesar's triumph in 46 BC."
+    },
+    {
+      "n": 49,
+      "scene": "Caesar dictates to a scribe who writes on a wax tablet",
+      "summary": "Caesar wrote the account himself, so readers must remember that it is only his side of the story."
+    },
+    {
+      "n": 50,
+      "scene": "A Roman road runs straight through green fields of Gaul",
+      "summary": "Gaul becomes Roman, and its language and law slowly change."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Caesar said that Gaul had three parts, and the northern people were the strongest.",
+      "The Helvetii burned their homes and set out for a new land.",
+      "Caesar hurried to Geneva, cut the bridge, and built a long wall.",
+      "An old Helvetian told Caesar to move, but Caesar said no.",
+      "Caesar caught the last of the Helvetii at a river and killed many.",
+      "After a long battle, the Helvetii lost and went back home.",
+      "The Gauls asked Caesar to help them against the German king.",
+      "The Roman soldiers were afraid, but Caesar made a strong speech.",
+      "Caesar fought the German king, who ran away across the river Rhine.",
+      "The northern Gauls joined together, but some of them chose Rome.",
+      "The Romans camped near a river, and the northern Gauls went home.",
+      "The Nervii came from the trees and attacked the Roman camp.",
+      "Caesar took a shield and fought with his men in front.",
+      "The Atuatuci saw a Roman tower and said they were sorry.",
+      "The Veneti had strong ships, and they lived by the sea.",
+      "The Romans pulled down the Veneti sails, and the wind stopped.",
+      "Two German tribes crossed the Rhine, and Caesar did not trust them.",
+      "Caesar's men built a long bridge over the Rhine in ten days.",
+      "Caesar stayed in Germany for eighteen days, and then he went back.",
+      "Caesar wanted to see Britain, so he sent a man to look.",
+      "A brave soldier jumped from the ship, and the others followed him.",
+      "A storm broke many ships, but the Romans fixed them.",
+      "The next year, Caesar came back to Britain with many ships.",
+      "The British leader used fast horse carts to attack the Romans.",
+      "Caesar crossed the river Thames, and the British leader gave up.",
+      "The Gauls had wise priests, and the young men learned many songs.",
+      "The Germans loved hunting, and they lived in a huge forest.",
+      "A Gaul tricked the Romans, and their small army was lost.",
+      "The Gauls attacked Quintus Cicero's camp, and he sent a message out.",
+      "Caesar came with a few men, and the Gauls went away.",
+      "Caesar crossed the Rhine again, but the Gaul chief ran away.",
+      "A young man named Vercingetorix became the leader of the Gauls.",
+      "Caesar walked through deep snow and surprised the Gauls.",
+      "Vercingetorix burned the farms, so the Romans had no food.",
+      "The Romans built a high hill of earth and took Avaricum.",
+      "Caesar attacked a town on a high hill, but he lost.",
+      "After this, many Gauls turned against Caesar, but Labienus won a battle.",
+      "Caesar's German horsemen won, and Vercingetorix went into the town of Alesia.",
+      "The Romans built two long walls around the town of Alesia.",
+      "The people in Alesia had no food, and the Romans sent them back.",
+      "A huge Gallic army came and attacked the Roman wall.",
+      "The Romans held the wall at night, because they made many traps.",
+      "Caesar wore a red cloak, and he led his men to help.",
+      "Vercingetorix put down his weapons, and the town of Alesia fell.",
+      "Caesar gave the prisoners to his soldiers, and Rome had a long party.",
+      "In the last year, the Romans cut off a spring and took a fort.",
+      "Caesar was kind to the Gauls in his last year there.",
+      "People say that Vercingetorix lived in Rome for six years before he died.",
+      "Caesar wrote the book himself, so we only hear his side.",
+      "Gaul became a Roman land, and the people slowly learned Latin."
+    ],
+    "B1B2": [
+      "Caesar begins by explaining that Gaul is divided into three parts, each with its own people and language. He says that the Belgae in the north are the bravest, because they live farthest from Roman trade and comfort.",
+      "In 58 BC, the Helvetii decide to leave their mountain homeland, because Orgetorix has persuaded them that they can conquer a better land. They burn their towns and villages, and about three hundred and sixty thousand people, according to Caesar, set out with their wagons.",
+      "Caesar, who is governor of the Roman province, hurries to Geneva and cuts the bridge over the river Rhône. He then builds a wall nearly nineteen miles long, and the Helvetii cannot cross.",
+      "An old Helvetian leader named Divico meets Caesar and says that his people have beaten Rome before and can do so again. Caesar replies that Rome has not forgotten that defeat, and the Helvetii turn to a different road.",
+      "While the Helvetii are crossing the Saône, Caesar discovers that a quarter of them are still on the near bank. He attacks them by surprise, and he then builds a bridge in a single day, which amazes his enemies.",
+      "At last the two armies meet near Bibracte, and the battle lasts from midday until night. The Helvetii are beaten, and Caesar sends the survivors home to rebuild their burned towns, because he wants a barrier against the Germans.",
+      "Gallic chiefs come to Caesar in tears and tell him that the German king Ariovistus is taking their land. They ask Rome for protection, and Caesar decides that it is his duty to help.",
+      "When the Roman soldiers hear how large and fierce the Germans are, many of them become afraid. Caesar calls them together and says that he will go with the tenth legion alone, and the soldiers feel ashamed.",
+      "Caesar and Ariovistus try to talk on a small hill, but the meeting breaks up in a quarrel. The armies fight a hard battle, and the Romans win, and Ariovistus escapes across the Rhine in a small boat.",
+      "In 57 BC, news comes that the Belgae, who live in the north of Gaul, are gathering a large army. Caesar marches north at once, and the Remi, a Belgic people, choose to join the Romans instead of fighting them.",
+      "Caesar camps beside the river Aisne with a marsh on one side. The Belgae fail to cross, so they run short of food and quarrel, and they go home in the night.",
+      "As the Romans advance, the Nervii, the fiercest Belgic people, hide in the woods beyond the river Sabis. They burst out while the soldiers are still building their camp, and they nearly break the Roman line before it is ready.",
+      "The battle is going badly, because many of the officers have fallen. Caesar takes a shield from a soldier and runs to the front rank, and the men fight on with new courage.",
+      "The Atuatuci, who were on their way to join the Nervii, shut themselves inside their hill fort. When they see the Romans move a tall tower toward their wall, they laugh, but then they give up and later break their promise.",
+      "In 56 BC, the Veneti of Brittany, a people of sailors, prepare to fight Rome at sea. Their ships are built of heavy oak and have leather sails, and they are hard for the Roman rowing ships to damage.",
+      "The Romans fix long hooks on poles and use them to pull down the Venetic sails and ropes. Then the wind drops, and the Venetic ships cannot move, and the Roman ships win the battle by evening.",
+      "In 55 BC, two German peoples, the Usipetes and the Tencteri, cross the Rhine and enter Gaul. Caesar talks with their leaders, but the talks fail, and he attacks them and drives them back to the river.",
+      "Caesar wants to show the Germans that Rome can cross the Rhine, so he builds a bridge over it. His engineers drive huge wooden posts into the river bed, and the bridge is finished in only ten days.",
+      "Caesar leads his army across the bridge and stays in Germany for eighteen days, burning villages and fields. When the Germans will not fight, he crosses back and breaks the bridge behind him.",
+      "The summer is almost over, but Caesar decides to sail to Britain, because he knows that the Britons have helped the Gauls. He sends an officer named Volusenus to look at the coast, but the officer returns without landing.",
+      "When the Roman ships reach the beach, the Britons are waiting, and the soldiers are afraid to jump into deep water. The standard-bearer of the tenth legion shouts that he will do his duty, jumps from the ship, and the other soldiers follow him.",
+      "A strong storm at a high tide wrecks several Roman ships and damages many more. Caesar repairs most of them with wood from the others, and then he sails back to Gaul before the autumn winds begin.",
+      "In 54 BC, Caesar returns with five legions, two thousand horsemen and about eight hundred ships. This time the Britons run from the beach, because they are afraid of the huge fleet, and the Romans land without a fight.",
+      "Cassivellaunus, a leader north of the Thames, has gathered the Britons under his command. He uses war chariots to attack the Roman columns, and then he retreats quickly before the soldiers can fight back.",
+      "Caesar crosses the Thames at a place where the Britons have set up sharp stakes. After other British peoples make peace with him, Cassivellaunus also gives up, agrees to pay tribute, and Caesar leaves before the winter.",
+      "In his book, Caesar stops to describe the Gauls and their priests. The Druids, he says, teach young men to memorise many verses, and they do not write them down, and some students study for twenty years.",
+      "Caesar then describes the Germans, who spend most of their time hunting and fighting and own little land. He tells of the huge Hercynian Forest, where a man could walk for sixty days without reaching the end.",
+      "In the winter of 54 BC, Ambiorix of the Eburones attacks a Roman camp, and then offers the Roman commander, Sabinus, safe passage if he leaves. Sabinus believes him and marches out, but the Romans are ambushed in a narrow valley and destroyed.",
+      "Next, the Nervii surround the camp of Quintus Cicero, brother of the famous speaker. The Romans build towers in a single night and fight for many days, and Cicero sends a message to Caesar on a javelin.",
+      "Caesar receives the message and marches at once with only about seven thousand men. When the Gauls hear that he is coming, they go out to meet him, but he tricks them with a small camp.",
+      "In 53 BC, Caesar wants to punish the Gauls who killed his soldiers, and he crosses the Rhine a second time. He burns the land of the Eburones, but Ambiorix himself escapes into the forests and is never captured.",
+      "In 52 BC, the Gauls rise together in a great rebellion, beginning with an attack on the Romans at Cenabum. They choose Vercingetorix, a young noble of the Arverni, as their leader, and he is a clever and determined soldier.",
+      "Caesar is in Italy when the news comes, and he rushes back across the mountains of the Cévennes. The snow is six feet deep, but his men clear a road, and the Gauls are shocked to find him in their land.",
+      "Vercingetorix orders the Gauls to burn their own towns and food so that the Romans will starve. The people of Avaricum beg him not to burn their town, because it is the most beautiful in Gaul, and he lets them defend it.",
+      "Caesar's soldiers build a huge ramp of earth against the walls of Avaricum, working through rain and mud. At last they attack, and the town falls, and only about eight hundred of its forty thousand people escape.",
+      "Caesar then attacks Gergovia, a town on a steep hill, but the Gauls fight hard and drive the Romans back. About seven hundred soldiers, including forty-six centurions, are killed, and it is Caesar's first great defeat in Gaul.",
+      "After Gergovia, the Aedui, who were old friends of Rome, join the revolt, and Caesar is in danger. His officer Labienus wins a battle near Lutetia, the town that later becomes Paris, and he marches back to join him.",
+      "Vercingetorix sends his cavalry to attack Caesar's column, but Caesar's German horsemen defeat them. The Gallic leader then retreats with about eighty thousand men to the hill town of Alesia.",
+      "Caesar decides to surround Alesia instead of attacking it, and his men dig two huge lines of walls and ditches. The inner line is about eleven miles long, and the outer line faces outward to stop any help from reaching the Gauls.",
+      "Inside Alesia, food begins to run out, so the Gauls push the women, children and old people outside the walls. They beg the Romans for bread and slavery, but Caesar will not let them pass, and the poor people have to wait between the lines.",
+      "At last a huge Gallic army arrives to rescue Vercingetorix. Caesar says that there were about a quarter of a million men, although this is probably too many, and they attack the Roman wall together.",
+      "The Romans hold both walls through a whole day and a night, using sharp stakes, hidden pits and thrown spears. Wherever the wall is weak, Caesar sends soldiers to help, and the Gauls cannot break through.",
+      "On the last day, the Gauls attack a weak point on the northern hill. Caesar rides to the danger in his red cloak, and he leads his last soldiers into battle, and the Gauls turn and run.",
+      "The Gauls inside Alesia see that their friends are beaten and ask Vercingetorix what they should do. He tells them to give him up to Caesar, and he is handed over, and the long war in Gaul is almost finished.",
+      "Caesar gives each of his soldiers a prisoner as a prize and spares the Aedui and the Arverni to win them back. When his report reaches Rome, the Senate celebrates with twenty days of thanks to the gods.",
+      "The eighth book of the Gallic War is written by Caesar's officer Hirtius, who describes the year 51 BC. The last Gauls hold out in a fortress called Uxellodunum, and the Romans take it by cutting off its spring.",
+      "Hirtius says that in the last year Caesar was gentle, and he treated the Gallic states with respect. He did not take land, kept taxes low, and honoured the chiefs, so that Gaul remained quiet while he prepared for the troubles in Rome.",
+      "Caesar's book does not tell us what happened to Vercingetorix, but later writers do. They say that he was kept in prison in Rome for about six years and was walked through the streets in Caesar's triumph in 46 BC.",
+      "Remember that Caesar wrote the book himself, in plain Latin and in the third person. This makes his story clear and convincing, but it also means that the Gauls and the Britons are seen only through their enemy's eyes.",
+      "After eight years of war, Gaul was part of the Roman world. Roman roads crossed the land, the people slowly came to speak Latin, and the Gaul of Vercingetorix gradually became the France that we know today."
+    ],
+    "C1C2": [
+      "Caesar opens his account with a sentence that has become famous across two thousand years: Gaul, taken as a whole, is divided into three parts. Each of these, he explains, is inhabited by a different people, with its own language, customs and laws. Of them all, he adds with some admiration, the Belgae of the north are the bravest, since they live farthest from the refinement and the temptations of the Roman province.",
+      "In 58 BC, the Helvetii, a restless people of what is now Switzerland, were persuaded by the ambitious noble Orgetorix that their mountain valleys were too small for their courage. Having decided to migrate westward, they burned every town and village that they owned, so that nothing would tempt them to return. By Caesar's reckoning, about three hundred and sixty thousand men, women and children set out together, though the figure is almost certainly an exaggeration.",
+      "Caesar, who was then governor of the Roman province in southern Gaul, hurried to Geneva faster than anyone expected and ordered the bridge over the Rhône cut down. He then raised an earthen wall, nearly nineteen miles long, along the river, studded with forts and manned by soldiers hastily raised from the province. The Helvetii, finding every attempt to cross defeated, were forced to ask their neighbours for a different route.",
+      "An aged chieftain named Divico, who remembered an earlier victory over a Roman army, came to the Roman camp and spoke to Caesar with unconcealed arrogance. If Rome made peace, he said, the Helvetii would live wherever Caesar chose, but if it made war, Rome would remember its old defeat. Caesar replied calmly that this memory was a reason for caution on Divico's side, not on his, and the Helvetii turned to another road.",
+      "As the Helvetii were crossing the sluggish river Saône, a task that took them twenty days, Caesar learned that a quarter of them were still on the near bank. Setting out at night with three legions, he fell upon the stragglers while they were weighed down with baggage and killed or scattered them. He then built a bridge across the Saône in a single day, a feat that the Helvetii had taken twenty days to match with their rafts.",
+      "The Helvetii, who had been following Caesar's army and harassing it, at last offered battle near Bibracte, and the clash lasted from noon until well into the night. They fought bravely behind a circle of wagons, which they used as a rampart, but at length they were beaten. According to Caesar, only about a third of those who had left home survived to return, and he ordered them to rebuild the towns they had burned.",
+      "Soon afterward, a delegation of Gallic chiefs came to Caesar in tears and begged him to save them from Ariovistus, a German king who had crossed the Rhine and was taking their land as though it were his own. They explained that the Germans were growing in number and that, if nothing were done, the whole of Gaul would soon be theirs. Caesar, who had always intended to extend Rome's influence, concluded that duty and policy now pointed in the same direction.",
+      "When rumours of the size and ferocity of the Germans spread through the camp, even veteran officers lost their nerve, and some wept openly as they made their wills. Caesar summoned them all, scolded them for doubting their general, and said that if the others refused to follow him, he would march with the tenth legion alone, since he knew that it would not fail him. Ashamed, the whole army shifted its mood in a day, and the soldiers begged to be led forward.",
+      "A parley between Caesar and Ariovistus on a low mound collapsed into a quarrel when German horsemen began to hurl stones at the Roman escort. The armies met soon afterward in a desperate battle, in which the Roman right wing prevailed while the left was hard pressed, until a young officer brought up the reserve. The Germans broke and fled toward the Rhine, and Ariovistus, finding a small boat, got away to the far bank.",
+      "In the following year, 57 BC, word reached Caesar that the Belgae, alarmed by the arrival of Roman legions in Gaul, were conspiring and gathering a great army. He marched northward with remarkable speed, and the Remi, one of the Belgic peoples, came out to meet him and offered their submission rather than their spears. Their prudence, he noted, would be rewarded, though his dependence on such allies was greater than he liked to admit.",
+      "Caesar pitched his camp on a ridge beside the river Aisne, with a marsh on one flank, and he waited calmly for the Belgae to come to him. They tried to cross the river but were driven back by Roman missiles, and, since their supplies were running low, their leaders quarrelled over what to do. Under cover of night they slipped away to their homes, and the Romans, delighted, hurried after them and cut down the rearguard.",
+      "Of all the Belgic tribes, the Nervii were the most ferocious, and they had resolved to destroy the Romans while the soldiers were still marching in a long, strung-out column. Concealed in the thick woods beyond the river Sabis, they waited until the legions began to pitch camp, and then they burst out suddenly across the water. In an instant the Roman soldiers, their helmets still unfastened and their shields still in their covers, found the enemy upon them.",
+      "The situation was desperate, for nearly all the centurions in the front line had fallen, and the legions were being driven back on every side. Caesar, who had no time to put on his own helmet, seized a shield from a soldier in the rear and pushed forward into the fighting. Seeing their general in the front rank, the men took heart and rallied, and by evening the Nervii had been almost annihilated, though the exact numbers that he gives are probably inflated.",
+      "The Atuatuci, who had been marching to help the Nervii, withdrew into a hill fort, and trusted in its steep sides and its strong wall. When they saw the Romans building a tower and rolling it toward them, they laughed, asking how such a small people could move such a great machine. Astonished by the Roman skill, they offered to yield, but, as soon as the Romans were off their guard, they made a night attack and were crushed.",
+      "In 56 BC, the Veneti, a seafaring people of what is now Brittany, resolved to resist Rome from behind the shelter of their rocky coast and their formidable ships. Built of thick oak, flat-bottomed to survive the tides, and fitted with leather sails instead of linen, these vessels were far better suited to the wild Atlantic than the light Mediterranean galleys of the Romans. The Veneti seized Roman envoys as hostages and were sure that they could not be reached.",
+      "The Romans, outclassed by the strong Venetic hulls, devised a clever remedy: they fixed sharp hooks to long poles and used them to tear down the enemy's rigging. With the sails fallen, the Venetic ships lay helpless, and when the wind died away they could not escape, and many were boarded one at a time. Caesar punished the rebels with great severity, having their leaders put to death and selling the rest into slavery.",
+      "In 55 BC, two German peoples, the Usipetes and the Tencteri, driven from their homes by a stronger tribe, crossed the Rhine and entered Gaul in search of land. Caesar, suspicious of their intentions, met their chiefs for talks, but during a truce some of their horsemen attacked a Roman patrol. Furious at the betrayal, he fell upon their camp and drove the survivors back toward the river, where many perished.",
+      "Hoping to impress upon the Germans that the Rhine was no barrier to Rome, Caesar resolved to cross it by a bridge rather than by boat, which he considered unworthy of Roman dignity. His engineers drove pairs of timber piles into the river bed at a slant and joined them with beams, and the whole structure, a marvel of its time, was complete in only ten days. The Germans, watching from the far bank, could scarcely believe what they saw with their own eyes.",
+      "Caesar marched across the bridge with his army and spent eighteen days on the east bank, burning villages and ripening grain while the Germans withdrew into their forests. Since they refused to come out and fight, he concluded that he had shown his strength sufficiently, and he marched back to Gaul. He then had the bridge pulled down behind him, so that no enemy could use it against him.",
+      "Although the season was already late, Caesar determined to cross into Britain, partly to discover what sort of people lived there and partly because British warriors had been helping his enemies in Gaul. He sent an officer named Volusenus in a single warship to survey the coast, but Volusenus, not daring to land, returned after five days with little to report. The traders who were questioned knew nothing about any harbours that were worth mentioning to the general.",
+      "When the Roman ships anchored off the British beach, the soldiers hesitated to leap into the deep water, with armed Britons already massing on the shore. At that critical instant the standard-bearer of the tenth legion called on the gods to bless his action, cried out that he would do his duty to the general, and sprang into the waves with the eagle. The rest, unwilling to see their standard captured, flung themselves into the sea after him and fought their way ashore.",
+      "A few days later, a spring tide combined with a gale to wreck a number of the Roman ships at anchor and to damage many of the others. Caesar, who had not brought enough food for a long stay, set his carpenters to work and repaired most of the fleet with timber and bronze from the ruined vessels. Then he sailed back to Gaul before the autumn storms made the crossing impossible.",
+      "In 54 BC, Caesar returned to Britain on a far grander scale, with five legions, two thousand horsemen, and a fleet that he reckoned at about eight hundred ships. At the sight of this vast armada the Britons abandoned the coast, and the Romans waded ashore without a fight. He left a part of the army to guard the ships and then advanced inland by night to hunt for the enemy.",
+      "Cassivellaunus, a chieftain whose lands lay north of the Thames, had been chosen to lead all the British peoples against the invaders. Rather than risk a pitched battle, he harassed the Roman columns with squadrons of chariots, which charged, hurled their spears, and withdrew before the legionaries could strike back. The fighting from chariots, Caesar admits, impressed him, and he praises the daring and skill with which the Britons handled their horses.",
+      "The Romans eventually forced a crossing of the Thames at a ford where the Britons had planted sharp stakes in the river bed and on the bank. Several British peoples soon came to terms with Caesar, and with the Romans closing in on his stronghold, Cassivellaunus himself sued for peace. Caesar demanded hostages and a yearly tribute, then sailed for Gaul, having established that Britain could be reached but not yet that it could be held.",
+      "Here Caesar pauses in his narrative to describe the Gauls, whose nobles and priests, he says, hold all the real power. The Druids, who judge disputes and conduct sacrifices, teach their pupils to learn vast numbers of verses by heart, and some students spend as many as twenty years in study. It is forbidden to commit these teachings to writing, though the Gauls use Greek letters for their ordinary accounts.",
+      "Next he turns to the Germans, whom he portrays as hardy hunters and warriors who give little attention to farming and own no land for long. Beyond them lay the Hercynian Forest, a wilderness so broad that no one he had met had reached its end after journeying for sixty days. In its depths, he reports, lived marvellous creatures, among them an ox-like beast with a single horn and an elk with no joints in its legs, though the last two stories were certainly false.",
+      "In the winter of 54 BC, Ambiorix, chieftain of the Eburones, attacked a Roman camp and, having failed to take it, offered the Roman commander Sabinus safe conduct if he left. Sabinus, against the advice of his colleague Cotta, believed the Gaul and marched out, only to be ambushed in a narrow, wooded valley. Almost the whole force, about a legion and a half, was destroyed, and Caesar was to remember the disaster with bitterness.",
+      "Encouraged, the Nervii besieged the camp of Quintus Cicero, brother of the famous orator, and the legion inside, ill with sickness and cut off from supplies, held out for many days. The Romans put up one hundred and twenty towers in a single night, and they fought bravely through the day, while a Gallic slave carried a message to Caesar. Tied to a javelin, a note was thrown inside the camp, and it stuck in a tower for two days before anyone noticed it.",
+      "Caesar, on hearing the news, set out at once with only two legions, about seven thousand men, and sent a letter ahead to cheer Cicero. The Gauls, learning that he was approaching, abandoned the siege and marched to meet him, and Caesar, pretending to be afraid, built a small camp to deceive them. When the Gauls attacked that camp in disorder, the Romans sallied out and routed them, and he entered Cicero's camp in triumph.",
+      "In 53 BC, Caesar resolved to avenge the destruction of Sabinus's force, so he crossed the Rhine once more, this time to show the Germans that they should not help the Gauls. He devastated the land of the Eburones, inviting neighbouring peoples to plunder it, but Ambiorix, who was too wily to be caught, slipped away through the woods and marshes. His escape was a bitter disappointment to the general, and Caesar never took him.",
+      "In 52 BC, a great rebellion broke out in central Gaul, and the first blow was struck at Cenabum, where Roman traders were massacred. The Gallic peoples chose as their leader a young noble of the Arverni named Vercingetorix, an inspiring and ruthless man who bound the tribes together by firm discipline. For the first time, almost the whole of Gaul acted as one against the Romans, and Caesar understood that he was facing his most dangerous enemy.",
+      "Caesar was in northern Italy when he heard of the rising, and he hurried back to the province, only to find that the passes of the Cévennes were blocked by snow six feet deep. His soldiers cleared a path through the drifts with great labour, and the Gauls, who thought the mountains a sure protection, were thunderstruck to see him arrive. The Roman army, which had marched with astonishing speed, now stood in the heartland of the rebels.",
+      "Vercingetorix, who had learned that the Gauls could not beat the Romans in open battle, adopted a policy of scorched earth, ordering the burning of every town and barn that might feed the enemy. When the city of Avaricum, the finest in the country, was threatened, its people begged on their knees that it be spared. Against his better judgement, the young leader consented, for he feared to lose the support of the Gallic chiefs.",
+      "Caesar set about the siege of Avaricum with his usual thoroughness, erecting a huge earthen ramp and moving wooden towers up to the walls through days of ceaseless rain. When the defenders grew tired, and the weather cleared, the Romans stormed the walls suddenly at a moment when the guards were changing. Only about eight hundred of the forty thousand inhabitants escaped, and the Gauls were left to mourn a heavy loss.",
+      "Caesar then marched against Gergovia, the stronghold of the Arverni, which stood on a steep hill, and tried to take it by a sudden assault on its outer defences. The attack began well, but the soldiers, carried away by success, pressed on to the walls, where the Gauls were gathering in great numbers. About seven hundred Romans, including forty-six centurions, died on that hillside, and it was Caesar's first serious defeat in Gaul.",
+      "The setback persuaded the Aedui, the old allies of Rome, to rebel, and Caesar's position suddenly became dangerous. Meanwhile Labienus, his ablest officer, who had been sent with a force to the north, fought and won a battle near Lutetia, the little town on an island in the Seine that was later to grow into Paris. He then marched south and rejoined his commander, to Caesar's great relief and to the dismay of the rebels.",
+      "Vercingetorix, believing that he could cut the Romans off from supplies, sent his cavalry to attack Caesar's column on the march, but German horsemen whom Caesar had hired scattered them. Having lost his cavalry, the Gallic leader withdrew with some eighty thousand infantry to the hill town of Alesia, the stronghold of the Mandubii. He hoped to hold out there until the rest of Gaul could rise to rescue him.",
+      "Caesar, who judged that Alesia stood too high to be taken by storm, determined to starve it into submission, and set his legions to dig a double line of fortifications. The inner line, facing the town, ran for about eleven miles, while the outer line, facing the countryside, was designed to keep out any army that came to relieve the Gauls. Between them lay ditches, pits and wooden stakes, and the whole work was finished in a few weeks.",
+      "Soon the people inside Alesia ran out of food, and Vercingetorix, trying to make his supplies last, drove the women, children and old men out of the town. They crept up to the Roman wall, begging to be taken as slaves in return for bread, but Caesar, afraid that they would be fed and strengthen the enemy, refused to let them through. They were left to wait between the lines, hungry and without hope of rescue.",
+      "At last a vast relief army, which Caesar says numbered some quarter of a million, though that is probably far too high, arrived and camped on the hills outside the outer line. At a given signal the Gauls on the outside attacked the Roman wall, while the garrison of Alesia made a sortie from within. The Romans, besieged and besiegers at once, held their ground as the battle raged.",
+      "Throughout the day and the night that followed, the Romans defended both lines with sharpened stakes, hidden pits and a rain of javelins, and Caesar, from a high tower, moved reserves to every point of danger. The Gauls tried again and again to cross the ditches, but they could not break through the maze of traps. Dawn found the Roman wall unbroken, though many of its defenders were wounded and exhausted.",
+      "On the last day, a force of Gauls found a weak spot where the Roman line ran over a hill that could not be properly closed, and began to press hard. Caesar, riding down in his red general's cloak, which his soldiers knew well, led the last of his reserves into the fray in person. Seeing the Roman cavalry appear behind them, the Gauls lost heart and fled, and the Romans hunted them over the hills.",
+      "Inside Alesia, the Gauls looked out and saw that their relief army was routed and all their hope was lost, and they asked Vercingetorix what he intended. He told them that he had undertaken the war not for his own advantage but for the freedom of all, and that they might give him up to the Romans, dead or alive. They surrendered him to Caesar, and he threw down his arms before the conqueror, according to Caesar's own account.",
+      "Caesar shared out the prisoners among his army, giving one to each soldier as booty, but he kept the Aedui and Arverni prisoners in order to win the favour of these two powerful peoples. He then took his winter quarters at Bibracte, while the Roman Senate, hearing of the victory, decreed a public thanksgiving of twenty days. It had been the greatest triumph of his career, and the Gauls never again rose all together.",
+      "The eighth and last book of the Gallic War was written not by Caesar but by his officer Hirtius, who tells of the final year, 51 BC. Pockets of resistance remained, and the stubbornest of them was the fortress of Uxellodunum, perched on a rock with a spring at its foot. Caesar, seeing that his soldiers could not storm it, had his engineers tunnel beneath the spring and drain it dry, and he punished the defenders harshly as a warning to others.",
+      "Hirtius tells us that during his last year in Gaul, Caesar was determined to leave the country quiet and well disposed toward Rome. He treated the Gallic states with courtesy, left them their laws and lands, kept the yearly tribute moderate, and gave honours and gifts to their leading men. In this way, Hirtius says, Gaul was kept at peace after the long years of war, and Caesar could turn his attention to the troubles in Rome.",
+      "Caesar's own book breaks off without telling us what became of Vercingetorix, but later writers fill in the sad end of the story. They report that he was held in prison in Rome for about six years, then led in chains through the streets in Caesar's triumph of 46 BC, and put to death soon afterward. Whatever the exact details, his name was never forgotten, and the French still honour him as the first great hero of their country.",
+      "It is worth remembering that Caesar wrote his account himself, in short, clear Latin and in the third person, as though a stranger were reporting on the deeds of an admirable general. This gives his book a rare simplicity and force, but it also means that the Gauls, the Germans and the Britons are seen almost entirely through the eyes of their conqueror. Every reader, therefore, should ask what was left unsaid, and how much of the story was shaped to win applause in Rome.",
+      "After eight years of campaigning, Gaul had become a Roman land, and the roads that Caesar's soldiers had built began to carry traders, officials and teachers where they had once carried armies. Within a few generations, the people had adopted the Latin language and Roman customs, and the land of Vercingetorix had become the first of the provinces that would shape the history of Europe. In this way the war that Caesar described so briskly changed the future of a whole continent, whatever its author's own motives may have been."
+    ]
+  }
+}

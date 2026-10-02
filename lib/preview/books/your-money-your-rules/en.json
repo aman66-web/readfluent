@@ -1,0 +1,417 @@
+{
+  "slug": "your-money-your-rules",
+  "meta": {
+    "blurb": "Priya has just received her first full pay, and her neighbour has a year of simple ideas to share. Learn to plan, save, borrow wisely and invest with patience, then write rules that fit your own life.",
+    "bible": "Priya: a young woman of about twenty-four who has just started her first full-time job in a city; curious and careful. Mr Okafor: her retired neighbour, a shopkeeper for many years; patient, warm and practical; he shares one idea each week for a year. They talk on his balcony and in her kitchen over one year. Money is counted in dollars, but every idea works in any country. Key terms: Interest, Compound interest, Inflation, Emergency fund, Credit, Index fund, Diversification, Insurance, Budget. No real people, companies, products or investments are named. Numbers are simple examples, not predictions: 4 dollars a day for 30 days is 120 dollars; 100 dollars growing at 5 in 100 each year is about 163 dollars after ten years; a yearly fee of 1 in 100 on 10,000 dollars is 100 dollars. This book is general information and is not personal financial advice. Voice and tone: kind, practical and calm; one clear idea per page; never promises riches; honest about risk and about what depends on the country and the person."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Priya holds her first pay slip at a small kitchen table",
+      "summary": "Priya, twenty-four, receives her first full pay and does not know what to do with it."
+    },
+    {
+      "n": 2,
+      "scene": "Mr Okafor waves to Priya from his balcony with a cup of tea",
+      "summary": "Her neighbour Mr Okafor, a retired shopkeeper, offers to share one idea about money each week for a year."
+    },
+    {
+      "n": 3,
+      "scene": "Mr Okafor taps a coin on the table in front of Priya",
+      "summary": "Money is a tool that buys choices and time, not a score to win."
+    },
+    {
+      "n": 4,
+      "scene": "Priya writes three short lines on a notepad, each with a small drawing",
+      "summary": "Decide what money is for by writing one goal for the near, middle and far future."
+    },
+    {
+      "n": 5,
+      "scene": "Priya sorts receipts into piles on her kitchen table",
+      "summary": "Find out where your money goes by writing down every spending for one month."
+    },
+    {
+      "n": 6,
+      "scene": "A hand drops coins into a jar labelled with a coffee cup",
+      "summary": "Small, regular costs add up: four dollars a day is 120 dollars a month."
+    },
+    {
+      "n": 7,
+      "scene": "A chart with one bar for pay in and one for money out",
+      "summary": "The gap between what you earn and what you spend is what builds everything else."
+    },
+    {
+      "n": 8,
+      "scene": "A kitchen table with three small boxes labelled needs, wants and future",
+      "summary": "Divide spending into three groups: needs, wants and your future."
+    },
+    {
+      "n": 9,
+      "scene": "Priya smiles as she circles a small amount labelled fun in her notebook",
+      "summary": "A good plan is not a punishment, so leave some money for fun."
+    },
+    {
+      "n": 10,
+      "scene": "A phone screen shows a transfer to a savings account on pay day",
+      "summary": "Move money to savings automatically on pay day, before you can spend it."
+    },
+    {
+      "n": 11,
+      "scene": "Priya watches a small number grow on her savings screen",
+      "summary": "Start small, because a steady habit matters more than a large amount."
+    },
+    {
+      "n": 12,
+      "scene": "A broken umbrella lies beside a bill on a rainy doorstep",
+      "summary": "Unexpected costs will come, so you need a cushion of savings set aside for emergencies."
+    },
+    {
+      "n": 13,
+      "scene": "Priya fills a calendar with twelve small boxes and ticks the first",
+      "summary": "Aim for a few months of basic costs, and begin with one month."
+    },
+    {
+      "n": 14,
+      "scene": "A locked box on a shelf beside a small emergencies sign",
+      "summary": "Keep the emergency money safe, separate and easy to reach."
+    },
+    {
+      "n": 15,
+      "scene": "A stack of bills grows beside a small clock",
+      "summary": "Interest is the price of borrowing, and the longer you borrow the more you pay."
+    },
+    {
+      "n": 16,
+      "scene": "Two doors: one opens to a classroom, one to a shop of flashing signs",
+      "summary": "Some borrowing can be useful, but the rate and the purpose matter."
+    },
+    {
+      "n": 17,
+      "scene": "Priya lists three debts on a page with their rates written beside them",
+      "summary": "If you owe money, list every debt and pay extra on the one with the highest rate first."
+    },
+    {
+      "n": 18,
+      "scene": "A person ticks off a small debt on a long list and smiles",
+      "summary": "Another way is to clear the smallest debt first, and either method works if you keep going."
+    },
+    {
+      "n": 19,
+      "scene": "A neighbour shows Priya a record of payments with a tick on each line",
+      "summary": "Lenders look at your record of paying on time, which can help you later, though rules differ by country."
+    },
+    {
+      "n": 20,
+      "scene": "Priya looks at a shiny car in a window, then at her bank screen",
+      "summary": "Spending to impress others uses up money without making you more secure."
+    },
+    {
+      "n": 21,
+      "scene": "A seed grows into a plant, then a tree, across a row of pots",
+      "summary": "Time is the saver's friend, because growth can build on earlier growth."
+    },
+    {
+      "n": 22,
+      "scene": "Priya works out a sum on paper while Mr Okafor watches",
+      "summary": "100 dollars growing at 5 in 100 each year is about 163 dollars after ten years."
+    },
+    {
+      "n": 23,
+      "scene": "Two paths start at different points and arrive at the same hill, one earlier",
+      "summary": "Starting early usually matters more than saving a little extra later."
+    },
+    {
+      "n": 24,
+      "scene": "A basket of bread at a baker's with a higher price tag than before",
+      "summary": "Inflation means prices rise over time, so money kept unused buys less in the future."
+    },
+    {
+      "n": 25,
+      "scene": "Priya compares a sturdy jar of coins with a small garden growing plants",
+      "summary": "Saving is for safety and short goals, investing is for long goals and carries the chance of loss."
+    },
+    {
+      "n": 26,
+      "scene": "A seesaw with a small weight on one end and a big weight opposite",
+      "summary": "Higher possible gains come with bigger risks and bigger swings, and no one can offer high returns without risk."
+    },
+    {
+      "n": 27,
+      "scene": "Eggs are shared between several baskets on a market table",
+      "summary": "Spread your money across many different things so that one failure does not ruin you."
+    },
+    {
+      "n": 28,
+      "scene": "Many small coins drop into one large bowl that is shared by many hands",
+      "summary": "A fund pools money from many people to buy many things, and an index fund simply follows a large list."
+    },
+    {
+      "n": 29,
+      "scene": "A small hand takes a tiny piece from a stack of coins each year",
+      "summary": "Fees matter, because a small yearly cost taken from your savings adds up over decades."
+    },
+    {
+      "n": 30,
+      "scene": "A mountain-shaped graph with peaks and valleys rising overall across the years",
+      "summary": "Markets rise and fall, and a fall is only a loss on paper until you sell."
+    },
+    {
+      "n": 31,
+      "scene": "A crowd runs past a road sign marked fear and greed while Priya waits",
+      "summary": "Fear and excitement push people to sell low and buy high, so decide your rules in advance."
+    },
+    {
+      "n": 32,
+      "scene": "A calendar with the same small amount placed in a jar every month",
+      "summary": "Investing a fixed amount each month spreads out the timing and builds a habit."
+    },
+    {
+      "n": 33,
+      "scene": "A row of jars labelled one, five and twenty years on a shelf",
+      "summary": "Money needed within a few years should not be placed where its value can fall."
+    },
+    {
+      "n": 34,
+      "scene": "A smiling stranger presses a glossy leaflet into Priya's hand as she steps back",
+      "summary": "Scams promise fast riches, press you to act now and ask for secrecy."
+    },
+    {
+      "n": 35,
+      "scene": "Priya studies at a desk with a lamp and a stack of books",
+      "summary": "You can raise your income by building skills, and a higher income gives more room."
+    },
+    {
+      "n": 36,
+      "scene": "A sturdy umbrella opens over a small house and a bicycle during a storm",
+      "summary": "Insurance protects you from large losses that you could not pay yourself."
+    },
+    {
+      "n": 37,
+      "scene": "Priya sorts official letters into a folder labelled taxes",
+      "summary": "Learn the basic tax rules where you live, and ask a professional if it is complicated."
+    },
+    {
+      "n": 38,
+      "scene": "A house price tag beside a long list of smaller extra costs",
+      "summary": "For a big purchase, look at the total cost, not only the monthly payment."
+    },
+    {
+      "n": 39,
+      "scene": "Two houses side by side, one with a rent sign, one for sale",
+      "summary": "Whether to rent or buy a home has no single answer; compare the whole cost and your plans."
+    },
+    {
+      "n": 40,
+      "scene": "Two friends sit at a table with papers and two cups of tea",
+      "summary": "Talk about money honestly with a partner or family, and agree on shared rules."
+    },
+    {
+      "n": 41,
+      "scene": "Priya puts a coin into a donation box held by a smiling volunteer",
+      "summary": "Giving can be part of a plan, with an amount set aside on purpose."
+    },
+    {
+      "n": 42,
+      "scene": "A glowing phone shows perfect lives while Priya looks at her plain notebook",
+      "summary": "Comparing yourself to others is unfair, since you cannot see their debts or their goals."
+    },
+    {
+      "n": 43,
+      "scene": "A crumpled receipt on a table beside Priya's thoughtful face",
+      "summary": "Everyone makes money mistakes, so fix them, learn and carry on without shame."
+    },
+    {
+      "n": 44,
+      "scene": "Priya reviews her notebook at a desk with a new year calendar",
+      "summary": "Review your plan at least once a year and change it when life changes."
+    },
+    {
+      "n": 45,
+      "scene": "Priya puts a short list of her accounts into a sealed envelope",
+      "summary": "Keep a simple record of your accounts and tell someone you trust where it is."
+    },
+    {
+      "n": 46,
+      "scene": "Priya sits across a table from a calm adviser who is listening carefully",
+      "summary": "When you need an adviser, ask how they are paid and what they gain."
+    },
+    {
+      "n": 47,
+      "scene": "Priya looks at a page headed my rules with five short lines",
+      "summary": "Turn what you have learned into a short set of personal rules."
+    },
+    {
+      "n": 48,
+      "scene": "Priya and Mr Okafor sit on the balcony under a full moon",
+      "summary": "Money is only one part of a good life, along with health, friends and time."
+    },
+    {
+      "n": 49,
+      "scene": "Priya checks her phone and sees her three goals marked with small flags",
+      "summary": "Look back over the year, and see how small steady actions built something real."
+    },
+    {
+      "n": 50,
+      "scene": "Priya hands her page of rules to a younger friend on the balcony",
+      "summary": "Conclusion: your money, your rules; the book offers general information, not personal financial advice."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Priya got her first full pay and did not know what to do.",
+      "Her neighbour, Mr Okafor, said he could help her.",
+      "Money is a tool, and it can give you choices.",
+      "Priya wrote down three things she wanted for her future.",
+      "For one month, she wrote down everything she spent.",
+      "A small cost every day becomes a big cost.",
+      "The gap between pay and spending is the money you keep.",
+      "She put her money into three boxes: needs, wants and the future.",
+      "A good plan must also leave some money for fun.",
+      "She asked the bank to move some money to savings each month.",
+      "Even a small amount is a good start.",
+      "Surprise costs will come, so we need a safety cushion.",
+      "First, she wanted enough money for one month.",
+      "The emergency money must be safe, and easy to reach.",
+      "When you borrow money, you must pay a little extra.",
+      "Some borrowing can be useful, but some is very costly.",
+      "If you owe money, pay the most costly debt first.",
+      "Another way is to pay the smallest debt first.",
+      "Paying on time builds a good name with lenders.",
+      "Buying things only to impress people is a waste of money.",
+      "Time helps your savings to grow.",
+      "A hundred dollars can grow to be a bigger sum.",
+      "It is good to start saving early.",
+      "Prices go up over time, so money buys less.",
+      "Saving keeps money safe, but investing can make it grow.",
+      "Bigger rewards usually come with bigger risks.",
+      "Do not put all your money in one place.",
+      "A fund lets many people buy many things together.",
+      "Fees take a small piece of your money each year.",
+      "Prices go up and down, and this is normal.",
+      "Fear and excitement can make people choose badly.",
+      "She put the same amount in every month.",
+      "Money you need soon should not take big risks.",
+      "If a deal sounds too good, be careful.",
+      "Learning new skills can help you earn more.",
+      "Insurance protects you from a very big loss.",
+      "Taxes are part of life, so learn the basic rules.",
+      "For a big purchase, look at the whole cost.",
+      "Buying or renting a home is a big choice.",
+      "Talk about money honestly with the people close to you.",
+      "Sharing money with others can be part of a good plan.",
+      "Do not compare your money with other people's money.",
+      "Everyone makes mistakes with money, and they can be fixed.",
+      "Look at your plan again every year.",
+      "Keep a list of your accounts in a safe place.",
+      "A good adviser can help, but ask how they are paid.",
+      "Priya wrote her own short list of money rules.",
+      "Money is only one part of a good life.",
+      "After one year, Priya looked at what she had done.",
+      "Now it is your turn to write your own rules."
+    ],
+    "B1B2": [
+      "Priya is twenty-four, and today she has received her first full-time pay. She is delighted, but she has no idea what a sensible person does with so much money.",
+      "Mr Okafor lives next door, and for thirty years he ran a small shop. He offers to share one simple idea about money every week for a year, if Priya has the time to listen.",
+      "Mr Okafor says that money is a tool and not a score. Its job is to give you choices, such as the freedom to say no to a job you dislike.",
+      "Mr Okafor asks her to write down three goals: one for this year, one for five years and one for much later. A goal with a date and an amount is easier to reach than a hope.",
+      "Next, Mr Okafor asks her to write down everything she spends for one month, even the smallest things. You cannot change a habit that you cannot see.",
+      "At the end of the month, Priya sees that she spends four dollars on coffee each workday. That is about 120 dollars in a month, more than she thought.",
+      "Mr Okafor draws two bars, one for money coming in and one for money going out. The gap between them is the only money that can grow into anything.",
+      "Mr Okafor suggests three boxes: needs, wants and the future. Needs are things like rent and food, wants are things like holidays, and the future box is for saving.",
+      "A plan that allows no fun will not last, says Mr Okafor. He tells Priya to put some money aside for enjoyment, so that she does not feel she is being punished.",
+      "Mr Okafor tells Priya to save first and spend what is left, not the other way round. She asks her bank to move a fixed amount into savings on the day she is paid.",
+      "Priya worries that her first amount is too small to matter. Mr Okafor tells her that the habit matters more than the size, and that the amount can grow later.",
+      "Mr Okafor says that unexpected costs always come, such as a broken phone, a medical bill or a lost job. Savings set aside for these surprises are called an emergency fund.",
+      "Many experts suggest keeping three to six months of basic costs as a cushion. Mr Okafor tells Priya to begin with one month and then build up from there.",
+      "Mr Okafor says that emergency money should be kept in a safe place that is easy to reach. It should not be invested in anything risky, and it should be kept apart from everyday spending.",
+      "When you borrow money, you pay interest, which is the price of using someone else's money. The longer you borrow and the higher the rate, the more it costs.",
+      "Mr Okafor says that not all debt is the same, because the reasons are different. Borrowing to learn a skill may be sensible, but borrowing at a high rate to buy something you do not need is costly.",
+      "If someone owes money in several places, Mr Okafor says to list every debt with its rate. Pay the minimum on all of them, and put any extra money toward the one with the highest rate.",
+      "Another approach is to pay off the smallest debt first, so that you feel a quick success. Mr Okafor says that either way works if you keep going, so choose the one that suits your character.",
+      "In many countries lenders look at a record of how you paid your bills before they agree to lend to you. Paying on time each month builds a good record, though the rules are different in each country.",
+      "Mr Okafor warns Priya about spending money to impress other people. Looking rich and being secure are not the same, and money spent on show is gone.",
+      "Mr Okafor says that time is the saver's best friend. Money that grows can earn more growth, and so the growth builds on itself like a snowball.",
+      "Take 100 dollars that grows by five in every hundred each year. After one year it is 105, and after ten years it is about 163, even if you add nothing more.",
+      "Priya learns that money which is saved early has more years to grow. Starting sooner often matters more than saving a little more later, though no one can promise exact results.",
+      "Mr Okafor explains inflation: prices usually rise over time, so the same money buys less each year. The size of the rise varies from country to country and from year to year.",
+      "Mr Okafor says that saving is for safety and for goals that are near, while investing is for goals that are far away. Investing can earn more, but your money can also lose value.",
+      "In general, Mr Okafor says, the chance of a bigger gain comes with a bigger risk. Be careful of anyone who promises a high return with no risk, because that does not exist.",
+      "Mr Okafor tells Priya not to put all her money into one thing. If it fails, she loses everything, so it is safer to spread it over many different things.",
+      "Mr Okafor says that an easy way to spread your money is a fund. A fund collects money from many people and buys many things, and an index fund simply copies a long list of companies.",
+      "Mr Okafor says that every fund charges a fee. A fee of one in every hundred on 10,000 dollars is 100 dollars a year, and over many years the cost becomes large.",
+      "Markets go up and down, says Mr Okafor, and big falls have happened many times. A fall is a loss only on paper until you sell, but nobody can promise that prices will recover.",
+      "People often feel fear when prices fall and excitement when prices rise. Mr Okafor says that this makes them sell low and buy high, so it is wise to decide your rules before the feelings arrive.",
+      "Mr Okafor suggests investing the same amount each month. Some months prices are high and some are low, so the timing averages out, and the habit becomes automatic.",
+      "Mr Okafor says that the time you will need the money matters. Money that you need within a few years should not be placed in risky things, because it may fall at the wrong moment.",
+      "Mr Okafor warns Priya about scams, which have some signs in common. They promise quick riches, ask you to act at once and ask you to keep it secret, so stop if you see these signs.",
+      "There are two sides to money, says Mr Okafor: spending less and earning more. Learning new skills can raise your pay, and a higher income gives you more room to save.",
+      "Mr Okafor says that insurance is a way to protect yourself from big losses. You pay a small amount regularly, and if something very bad happens, the insurer helps to pay for it.",
+      "Mr Okafor says that taxes are part of earning money, and the rules differ from place to place. Priya should learn the basics for her own country and ask an expert when things are difficult.",
+      "When she plans a big purchase, such as a car, Mr Okafor tells her to look at the total cost. A small monthly payment that goes on for a long time can add up to a great deal of money.",
+      "Mr Okafor says that there is no single answer to whether to rent or buy a home. It depends on the price, how long you plan to stay and the rules in your country.",
+      "Mr Okafor says that many families argue about money because they never talk about it. Anyone who shares life with someone else should talk honestly and agree on some shared rules.",
+      "Mr Okafor says that giving can be part of a good money plan. Many people choose to set aside an amount for gifts or for people in need, and they find that it makes them happier.",
+      "Priya feels sad when she sees friends' holidays online. Mr Okafor reminds her that you cannot see another person's debts or goals, so such comparisons are not fair.",
+      "Priya makes a mistake and spends too much one month. Mr Okafor tells her that everyone makes mistakes, and that the important thing is to learn from them and start again.",
+      "Mr Okafor says that a money plan should be checked at least once a year. When life changes, such as a new job or a new family member, the plan should change as well.",
+      "Mr Okafor says that she should keep a simple list of all her accounts and papers, and tell someone she trusts where it is. If something happens to her, her family will know what to do.",
+      "Sometimes it is useful to ask an adviser for help. Mr Okafor says to ask how the adviser is paid, because someone who earns money from selling you a product may not give neutral advice.",
+      "Now Mr Okafor asks Priya to write her own short set of rules, using the ideas that suit her life. Rules that she writes herself are the ones she will actually follow.",
+      "Mr Okafor reminds her that money is only one part of a good life. Health, friends and time are worth just as much, and money should serve them, not the other way round.",
+      "After a year of small steps, Priya looks at her records. She has a cushion of savings, a plan that she follows and no unpaid bills, and she feels calmer than before.",
+      "Priya's story ends here, but yours is just beginning, so write your own rules to fit your life. This book is general information and not personal financial advice, so check the rules where you live and ask a professional if you need to."
+    ],
+    "C1C2": [
+      "Priya had just turned twenty-four when the first full month's pay from her new job arrived in her account, a number larger than any she had ever owned. Delight came first, quickly followed by an uneasy suspicion that the money would vanish before she understood where it had gone. Like most people, she had never been taught how to manage it, and no one had thought to explain.",
+      "Her neighbour Mr Okafor, who had run a small shop for most of his working life, noticed her worried face over the balcony wall and asked what the matter was. When she explained, he smiled and offered to share one plain idea about money each week for a year, on the condition that she would try each one for herself. It was the kind of offer that costs nothing, which is why she almost forgot to be grateful.",
+      "The first idea, said Mr Okafor, is that money is a tool and never a scoreboard, so there is no prize for having the biggest number. What it really buys is choice, including the choice to say no to a job you dislike, to take a rest when you need one or to help someone in trouble. Priya wrote this down at the top of a clean page, which seemed a good place to begin.",
+      "Before any plan, said Mr Okafor, you must decide what the money is for, so he asked her to write three goals: one for within a year, one for about five years and one for the far future. Each goal should have an amount and a date, because a vague wish gives you nothing to measure while a clear target tells you how much to set aside. Priya's list was modest, but it was hers, and she noticed that it made her feel strangely lighter, as though a vague worry had at last been given a shape.",
+      "Next came a month of honest observation, in which Priya was to record every single thing she spent, from rent to a bottle of water. Mr Okafor explained that you cannot improve a habit you cannot see, and that most people guess wrongly about where their money goes. She was not to judge herself while she did it, only to look, as a scientist looks at an experiment.",
+      "At the end of the month, Priya was surprised to discover how much of her pay had gone on small daily treats, especially a coffee that cost four dollars. Multiplied by thirty days, that single habit came to a hundred and twenty dollars, which was more than she spent on her phone and her transport put together. Mr Okafor made no comment except to say that it was neither good nor bad, and that the only mistake was not to know.",
+      "Mr Okafor drew two bars on a scrap of paper, the longer one showing what came in each month and the shorter one showing what went out. The gap between the two, he explained, is the only source of savings, of safety and of every future plan, and a person who earns a great deal but spends it all has nothing in that gap. Priya looked at her own pair of bars and saw that the gap was smaller than she had hoped, but not empty.",
+      "To make the gap bigger without misery, Mr Okafor proposed that she sort her spending into three groups, namely needs, wants and her own future. Needs are the things she cannot do without, such as rent, food and transport, wants are the pleasures that make life enjoyable, and the future group is whatever she sets aside for her goals. There is no single correct split, he warned, because the right proportions depend on her pay, her city and her priorities.",
+      "A plan that forbids all enjoyment will not last, Mr Okafor said, any more than a diet that forbids all food, and in both cases the failure usually arrives with a large and guilty splurge. Priya was therefore to set aside an amount for fun that she could spend without any guilt, as long as she stayed inside it. A plan she can live with every month, he added, is worth far more than a perfect one she abandons after two weeks.",
+      "Most people, said Mr Okafor, save what is left at the end of the month, and since little is ever left, they save nothing. He advised Priya to reverse the order by arranging for a fixed sum to move automatically into a separate savings account on the very day she was paid. Because the decision was taken once and the transfer happened without her, her willpower was no longer needed, which is exactly why it works.",
+      "Priya confessed that the sum she could manage to save seemed too small to be worth the bother, and Mr Okafor shook his head. The first goal, he said, is not the amount but the habit, since a person who saves a little every month has already become a saver, and the sums can grow as her pay does. An enormous plan that is never started is of no use to anybody, while a modest one that runs for years can quietly achieve a great deal.",
+      "Life is certain to deliver surprises, said Mr Okafor, whether a broken phone, a repair bill, a sudden illness or the loss of a job, and the cost of these arrives when it is least convenient. A cushion of savings kept aside for such emergencies means that a setback remains a setback and does not become a crisis, because there is no need to borrow in a hurry or sell something at a loss. Of all the ideas he had to offer, he considered this one the most important to put in place early.",
+      "How much should the cushion hold, Priya wondered, and Mr Okafor replied that many experts suggest three to six months of basic living costs, though the right figure depends on her job and on who relies on her. A person with an unsteady income or a family to support may want more, and a person with steady pay and few responsibilities may be content with less. She decided to aim for a single month first, and to treat each extra month as a small celebration.",
+      "The emergency money, Mr Okafor said, should be kept in a place that is safe, separate from the account used for daily spending and available at short notice. It is not the place for risky investments, because the point of a cushion is that it will be there on the day it is needed, at the full value it had when it was saved. He also suggested that she give it a plain name, so that she would think twice before dipping into it for a sale.",
+      "Borrowing, Mr Okafor explained, is never free, since the lender charges interest, which is simply the price paid for using someone else's money. The cost grows with two things, the size of the rate and the length of time the debt is left unpaid, and a small rate on a large sum over many years can turn into a surprisingly heavy bill. Priya had always pictured debt as a number, but he asked her to picture it as a meter that keeps running.",
+      "Not all debts are the same, said Mr Okafor, and the sensible questions are what the money is for and how much it will cost. Borrowing at a modest rate to gain a skill or to start a business may be a fair bargain, while borrowing at a punishing rate for things that lose their charm in a month is a bad one. Cards and short loans with very high rates, he added, deserve the most suspicion of all.",
+      "For anyone with several debts, said Mr Okafor, the first step is to list every one of them with its balance and its interest rate. The minimum payment goes to all of them, so that nothing falls behind, but every spare dollar goes to the one with the highest rate, since that is the one that costs most to leave alone. When it is paid off, the same money moves to the next, and the whole list shrinks faster than it first seems possible.",
+      "There is another method, Mr Okafor went on, which is to clear the smallest debt first regardless of its rate, in order to enjoy an early victory and gather momentum. It may cost a little more in interest than the first method, but if the encouragement of an early success keeps a person going, it will beat a better plan that is abandoned. The best method, he said, is the one a person will actually follow to the end.",
+      "In many countries, said Mr Okafor, banks and landlords check a person's record of repaying debts and paying bills before they agree to deal with them, and a good record can mean lower rates on a future loan. It is built in the dullest way imaginable, by paying on time, month after month, and he advised Priya to set up reminders so that no bill was ever forgotten. He added that the details vary from one country to the next, so she should learn how it works where she lives.",
+      "Looking rich and being secure are very different things, said Mr Okafor, and a great deal of spending is done only to impress people who are not paying attention. The expensive car, the latest clothes and the grand party disappear into the past, while the money kept in savings quietly keeps working in the future. He did not forbid treats, but he asked her to notice whether a purchase was for her own enjoyment or for somebody else's opinion.",
+      "Time, said Mr Okafor, is the saver's great ally, because money that grows can itself go on to grow, so that earlier gains produce later gains of their own. He called this compound interest, and compared it to a snowball that is slow to start but grows heavier with every turn. The principle is easy to say and hard to feel, so he promised that next week they would work through an example.",
+      "Consider a hundred dollars that grows by five in every hundred each year, said Mr Okafor, and ask how much there is after ten years if nothing is added. After the first year there are 105 dollars, after the second a little over 110, and by the tenth year the sum has reached about 163, because each year's growth is earned on the earlier growth as well. He stressed that this is only an example, since real returns are never so smooth or certain.",
+      "The lesson of the snowball, Mr Okafor said, is that the number of years often matters as much as the amount, so a person who starts early has a large advantage over one who begins later. The reason is simply that early money has longer to grow, and the growth of the later years rests on the growth of the earlier ones. It is no reason to despair if one has started late, however, for the best moment to start is whenever the decision is finally made.",
+      "There is a quiet force, Mr Okafor continued, which makes money kept in a drawer lose its power, and it is called inflation, meaning the general rise in prices over time. In many years it is only a few in every hundred, though it varies widely between countries and periods, so a sum that buys a basket of bread today will buy a smaller basket in the future. Safe savings that earn less than inflation therefore lose ground, which is a reason to think about long-term goals carefully.",
+      "Saving and investing, said Mr Okafor, serve different purposes, since saving is for safety and for goals that lie close, while investing is for goals that lie many years away. When you invest, you put money into things like shares in companies, which may grow in value over time but may also fall, so there is no guarantee that you will get back what you put in. The wise approach, he said, is to use each tool for the job it suits.",
+      "In investing, said Mr Okafor, the chance of a larger gain almost always comes with a larger risk, which means that the value will swing up and down more widely along the way. Anyone who promises a high return with no risk at all is either mistaken or dishonest, and the promise itself should make you more careful rather than less. He asked Priya to remember that sentence, because he said it could save her a great deal of money.",
+      "Do not put all your eggs in one basket is an old saying, Mr Okafor remarked, and in money it has a name, which is diversification. If a person puts everything into a single company or a single idea, one failure can destroy the lot, whereas a spread of many different holdings means that no single disappointment is fatal. It does not remove risk altogether, but it does make the whole ride a good deal less frightening, and that matters because frightened people tend to make poor decisions.",
+      "An easy way of spreading money, Mr Okafor explained, is through a fund, which pools the savings of many people and uses them to buy a wide range of shares or other holdings. A type called an index fund simply follows a long published list of companies, so that its owner holds a small piece of many businesses without trying to pick the winners. He pointed out that such funds are common, but that she should read how each one works before she buys.",
+      "Every fund and every adviser charges a fee, said Mr Okafor, and though it may look tiny, it is taken every year whether the investment does well or badly. A yearly charge of one in every hundred on ten thousand dollars is a hundred dollars, and because those dollars would otherwise have kept growing, the cost over decades is much greater than it looks. Priya was to ask about fees before she signed anything, and to prefer plain, low-cost choices where they were available.",
+      "The prices of investments rise and fall, Mr Okafor warned, and sometimes they fall sharply, as they have done many times in the past. A drop in value is a loss only on paper until the holder sells, but he was careful to add that no one can promise that prices will recover, or how long recovery will take. For that reason, he said, only money that she did not need soon should ever be placed where it might drop.",
+      "The greatest danger in investing, said Mr Okafor, is often not the market but the investor, because fear when prices fall tempts people to sell at the bottom, and excitement when prices soar tempts them to buy at the top. The remedy is to decide on a plan in a calm moment, write it down, and follow it when the feelings come. A rule written on a quiet day is a good friend on a frightening one.",
+      "One calm way to invest, said Mr Okafor, is to put in the same fixed amount every month, whatever the news happens to be. In months when prices are high the money buys fewer units and in months when they are low it buys more, so the timing evens itself out, and the whole routine takes away the need to guess. It does not remove risk, but it removes a great deal of the worry, and it lets her get on with her life while the plan quietly does its work.",
+      "The right place for money, Mr Okafor said, depends on when it will be needed, so he told Priya to match each goal with a suitable tool. Money required within a few years should stay somewhere safe, because a drop at the wrong moment would leave no time to recover, while money for a distant goal can bear more ups and downs. There is no exact rule, but the habit of asking when she would need each sum was, he said, the best guide.",
+      "Scams, Mr Okafor warned, come in many costumes, but they share a few signs, namely a promise of quick and certain riches, pressure to act immediately and a request for secrecy. Any one of these should make her stop, and all three together should make her walk away, because an honest offer can survive a week's thought and a conversation with a friend. If she ever felt rushed, he said, that feeling itself was the warning, and the proper reply was always to slow down and ask someone she trusted.",
+      "Cutting spending has a limit, said Mr Okafor, since no one can spend less than nothing, but there is no such limit on what a person might earn. Building skills that others value, asking for fair pay when she has earned it and looking for better openings are all ways of raising income, and a bigger income gives more room for saving and for choice. Of all the things she could invest in, he said, her own ability was the one most likely to repay her.",
+      "Insurance, explained Mr Okafor, is a way of sharing risk, since many people pay small regular amounts and the few who suffer a serious loss are helped from the common pool. It is best used for events that would be too large for her to bear alone, such as a major illness, a car accident or the loss of a home, and not for small things she could easily pay herself. He told her to read the terms carefully and to compare more than one offer.",
+      "Taxes, said Mr Okafor, are a fact of earning, and the rules differ so much between countries that he could only give her a general outline. She should learn how her own country treats income and savings, keep her papers in order and find out whether any official savings accounts give her a legal advantage. When the matter is complicated, it is worth paying a qualified person for advice, and a small fee can easily save a larger mistake.",
+      "Before any substantial purchase, said Mr Okafor, she should examine the total cost over time and not only the monthly payment, because sellers love to speak of the second and say little about the first. A modest payment spread across many years may conceal a great deal of interest, and the purchase itself may demand insurance, repairs and fuel besides. The question to ask, he said, is what it will cost altogether, and whether the object justifies that sum.",
+      "Whether to rent or buy a home has no single answer, said Mr Okafor, since it depends on the local prices, on the length of time she expects to stay and on her own tastes and plans. Buying brings costs that are easy to forget, among them repairs, taxes, fees and the loss of flexibility, while renting means that the money goes to a landlord but allows easy movement. The sensible course is to compare the full costs on paper for her own situation and to seek advice before signing.",
+      "Money quarrels, said Mr Okafor, are among the commonest causes of unhappiness in families, and most of them grow from things that were never said aloud. People who share a home or a future should talk openly about what they earn, what they owe and what they hope for, and agree on a few shared rules. Priya was not yet in such a position, but he told her that the habit of honest talk is easiest to start when nothing is wrong.",
+      "Giving, Mr Okafor said, can be a proper part of a plan, whether it means helping family, supporting a cause or simply being generous at a festival. Setting aside an amount on purpose means that generosity is a decision, not an accident, and that it does not leave her short when her own bills fall due. Many people find that thoughtful giving brings them as much satisfaction as anything else they buy.",
+      "One evening Priya admitted that the holidays and gadgets of her friends, as they appeared online, made her feel she was falling behind. Mr Okafor reminded her that she saw only what others chose to show and knew nothing of their debts, their worries or their goals, and that a life copied from someone else's picture is unlikely to fit. The only fair comparison, he said, was between her own situation now and the plan she had made.",
+      "In the middle of the year Priya overspent badly on a sale and felt as if all her progress had been wasted. Mr Okafor laughed kindly and told her that he had made far larger errors in his own shop, and that the only real failure is to hide a mistake or to give up because of one. She looked at the numbers, found the cause, adjusted her plan and carried on, a little wiser for the lesson.",
+      "A plan is not a statue, said Mr Okafor, but a living thing that should be reviewed at least once a year and whenever life changes in a major way. A new job, a move, a marriage, a child or the end of a debt are all reasons to ask whether the old goals and amounts are still suitable. He suggested that she choose a date, such as her birthday, and treat it as an annual appointment with her own future.",
+      "Mr Okafor also advised that she keep a simple record of her accounts, her insurance and her important papers in one safe place, and tell someone she trusts where to find it. If she were ever ill or absent, or if the worst happened, her family would not need to search in a panic. In many countries, he added, a short will is also wise, though the rules differ and a local professional can explain them.",
+      "There are times when professional help is valuable, said Mr Okafor, but the quality of advisers varies, and she should ask how any adviser is paid before she listens to a word. Someone who earns money from selling a particular product has a reason to recommend it, so she should look for a person who explains the choices plainly, shows the fees in writing and welcomes her questions. A good adviser is happy to be asked, he said, and a poor one grows impatient.",
+      "As the year drew toward its close, Mr Okafor asked Priya to turn everything she had learned into a short list of personal rules, written in her own words and limited to a single page. A rule that she had thought through herself, he said, would be far easier to follow than any advice borrowed from someone else, and the rules of two people would never be exactly alike. Her list was plain, and it began with the sentence that money is a tool for choices.",
+      "Money, said Mr Okafor as the evening turned cool, is only one of the ingredients of a good life, and not even the most important, for health, friendship, meaningful work and free time are worth at least as much. The purpose of managing it well is to protect those other treasures and to leave room for them, never to replace them. A person who forgets this may be wealthy by the numbers yet impoverished in every respect that truly matters.",
+      "At the end of the year Priya opened her notebook and looked back at the first page, and then at the savings she had built, the habits she had formed and the debts she had tamed. None of it had been dramatic, and nothing she had done would have made an interesting story, yet the accumulation of small steady actions had given her a cushion, a plan and a good deal of calm. She had not become rich, but she had become the sort of person who knew where her money was going.",
+      "Priya passed her page of rules to a younger friend and said that it was only a starting point, because every life is different and each person must write the rules that suit their own. You can do the same: set your goals, watch where your money goes, build a cushion, borrow with care, invest patiently and let time do its work. This book is general information and is not personal financial advice, so check the rules where you live and ask a qualified professional about your own situation before you make big decisions."
+    ]
+  }
+}

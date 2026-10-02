@@ -1,0 +1,417 @@
+{
+  "slug": "the-prince",
+  "meta": {
+    "blurb": "A short, famous and shocking handbook of power, written in 1513 by an unemployed Florentine official. Machiavelli asks how rulers win a state, keep it and lose it. Read it in fifty steps and decide for yourself whether it is honest advice, a warning, or both.",
+    "bible": "Niccolò Machiavelli: Florentine official and writer, 1469 to 1527; lost his post when the Medici returned to Florence in 1512; wrote The Prince in 1513 on his farm near Florence; it was printed in 1532, after his death. The Prince: a short book of 26 chapters on how princes gain, keep and lose states. Florence: the Italian city-republic where Machiavelli worked. Medici: the ruling family of Florence. Lorenzo de' Medici: the young ruler to whom the book is dedicated. Italy: at that time a patchwork of small states, often invaded by France and Spain. France, Spain, Rome, Carthage. Cesare Borgia: a ruthless young leader whom Machiavelli studied closely; son of Pope Alexander VI. Pope Alexander VI, Pope Julius II. Romagna: the region Borgia conquered. Remirro de Orco: the harsh governor Borgia sent to Romagna. Moses, Cyrus, Romulus, Theseus: great founders of ancient states. Savonarola: a Florentine preacher who fell when his followers lost faith. Alexander the Great: the Macedonian conqueror; Darius: the Persian king he defeated. Louis XII: King of France who lost his hold on Italy. Agathocles: a potter's son who became ruler of Syracuse by force. Hannibal: the Carthaginian general who kept a mixed army united. Marcus Aurelius: a respected Roman emperor; Commodus: his son, killed by his own court. Caterina Sforza: Countess of Forlì, whose fortress could not save her. Ferdinand of Aragon: King of Spain, admired for bold undertakings. David and Saul: the biblical story of the borrowed armour. Achilles, Caesar, Scipio. Petrarch: the poet quoted in the last chapter. Francesco Vettori: Machiavelli's friend, to whom he wrote. Key terms: Prince, Principality, Republic, Mercenaries, Fortune, Virtù, Fortress, Ministers, Flatterers. Voice and tone: clear, cool and direct; Machiavelli's views are always attributed to him and never presented as the book's endorsement; violence is stated plainly without gore; where scholars disagree, the text says so."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Machiavelli walks through the streets of Florence with a sad face",
+      "summary": "Introduction: Machiavelli, a Florentine official, loses his job when the Medici family returns to power in 1512."
+    },
+    {
+      "n": 2,
+      "scene": "Machiavelli reads by lamplight in a small study full of old books",
+      "summary": "Introduction: Machiavelli retires to his farm, and in the evenings he reads the ancient writers and writes The Prince in 1513."
+    },
+    {
+      "n": 3,
+      "scene": "Machiavelli hands a rolled book to a young nobleman in a hall",
+      "summary": "Dedication: Machiavelli offers the book to Lorenzo de' Medici as the gift of his long experience and reading."
+    },
+    {
+      "n": 4,
+      "scene": "A map of Italy marked with small and large states",
+      "summary": "Chapter 1: All states are republics or principalities, and the book is about principalities."
+    },
+    {
+      "n": 5,
+      "scene": "An old ruler teaches his young son beside a long family portrait wall",
+      "summary": "Chapter 2: Hereditary states are the easiest to keep, because people are used to the ruling family."
+    },
+    {
+      "n": 6,
+      "scene": "A conqueror rides into a new town while townspeople watch with mixed faces",
+      "summary": "Chapter 3: New states are harder to hold, because the people welcome change and then regret it."
+    },
+    {
+      "n": 7,
+      "scene": "A prince talks to villagers who speak another language",
+      "summary": "Chapter 3: When a prince conquers a land with a different language and customs, he should go and live there."
+    },
+    {
+      "n": 8,
+      "scene": "Settlers build houses in a hilltop town while soldiers stand guard far below",
+      "summary": "Chapter 3: Colonies cost less than soldiers; the prince should also protect weaker neighbours and weaken strong ones."
+    },
+    {
+      "n": 9,
+      "scene": "A doctor leans over a pale patient while a worried family waits",
+      "summary": "Chapter 3: Machiavelli says to spot trouble early, as doctors spot a wasting illness before it is too late."
+    },
+    {
+      "n": 10,
+      "scene": "A French king looks at a map of Italy as other powers close in",
+      "summary": "Chapter 3: King Louis XII of France lost his grip on Italy through avoidable mistakes."
+    },
+    {
+      "n": 11,
+      "scene": "A great king in armour looks over a vast kingdom after a victory",
+      "summary": "Chapter 4: Alexander the Great held the huge kingdom of Darius easily, because the people were used to one ruler."
+    },
+    {
+      "n": 12,
+      "scene": "Townspeople gather around an old free-city square with a flag",
+      "summary": "Chapter 5: A city used to its own laws and freedom is best held by living there, or else by destroying it."
+    },
+    {
+      "n": 13,
+      "scene": "Three founders stand in a row: a lawgiver, a king and a city builder",
+      "summary": "Chapter 6: Moses, Cyrus, Romulus and Theseus rose by their own skill and found it hard to rise but easy to rule."
+    },
+    {
+      "n": 14,
+      "scene": "A preacher stands alone in a square as his crowd drifts away",
+      "summary": "Chapter 6: Machiavelli says that armed prophets win and unarmed prophets fail, citing Savonarola of Florence."
+    },
+    {
+      "n": 15,
+      "scene": "A young nobleman receives a crown from a pope in a hall",
+      "summary": "Chapter 7: Those who rise through luck or the help of others find it easy to rise but hard to stay."
+    },
+    {
+      "n": 16,
+      "scene": "A tall young leader in dark clothes studies a map of the Romagna",
+      "summary": "Chapter 7: Cesare Borgia conquered the Romagna and set up order through a harsh governor, Remirro de Orco."
+    },
+    {
+      "n": 17,
+      "scene": "A crowd watches in a town square as a hated governor is punished",
+      "summary": "Chapter 7: Borgia has the harsh governor put to death in public, to show the people that the cruelty was not his own."
+    },
+    {
+      "n": 18,
+      "scene": "A young leader lies ill while a new pope is chosen nearby",
+      "summary": "Chapter 7: Borgia falls when his father dies and he is also ill, and chooses the wrong pope to support."
+    },
+    {
+      "n": 19,
+      "scene": "A potter's workshop beside a palace, with a young man at the wheel",
+      "summary": "Chapter 8: Agathocles, a potter's son, became ruler of Syracuse by force, but Machiavelli says force brings power without glory."
+    },
+    {
+      "n": 20,
+      "scene": "A ruler turns a heavy page of a ledger as a clerk waits",
+      "summary": "Chapter 8: Machiavelli says that harsh acts should be done all at once and then stopped, while kindness should be given little by little."
+    },
+    {
+      "n": 21,
+      "scene": "A prince sits between a crowd of citizens and a row of noblemen",
+      "summary": "Chapter 9: In a state ruled with the help of its citizens, the people are a better friend than the nobles."
+    },
+    {
+      "n": 22,
+      "scene": "A walled city with full storehouses stands in snow as an army leaves",
+      "summary": "Chapter 10: A prince is strong when he can raise an army and fight, as the German free cities show."
+    },
+    {
+      "n": 23,
+      "scene": "A church procession winds through a papal city under a bright sky",
+      "summary": "Chapter 11: Church states are secure because they are protected by long custom, and Machiavelli notes how the popes grew powerful."
+    },
+    {
+      "n": 24,
+      "scene": "A hired soldier counts coins at a camp fire while a battle goes on",
+      "summary": "Chapter 12: A state needs good laws and good arms, and hired soldiers are useless and dangerous."
+    },
+    {
+      "n": 25,
+      "scene": "A map of Italy covered with arrows pointing in every direction",
+      "summary": "Chapter 12: Machiavelli blames hired captains for the weakness of Italy and says the best defence is a citizen army."
+    },
+    {
+      "n": 26,
+      "scene": "A young shepherd refuses a heavy suit of armour and holds a sling",
+      "summary": "Chapter 13: Borrowed troops are worse than hired ones, and Machiavelli recalls David refusing Saul's armour."
+    },
+    {
+      "n": 27,
+      "scene": "A prince studies a map on horseback in a wooded valley",
+      "summary": "Chapter 14: A prince should study war, hunting and the lie of the land, and should never stop thinking about arms."
+    },
+    {
+      "n": 28,
+      "scene": "A young leader reads about an ancient hero in a tent at night",
+      "summary": "Chapter 14: A prince should read history and imitate great men, as Alexander followed Achilles and Scipio followed Cyrus."
+    },
+    {
+      "n": 29,
+      "scene": "A prince looks out of a palace window at a crowded and untidy street",
+      "summary": "Chapter 15: Machiavelli says he will write about how people really live, not how they ought to live."
+    },
+    {
+      "n": 30,
+      "scene": "A ruler hands a heavy bag of coins to a crowd of cheering guests",
+      "summary": "Chapter 16: Machiavelli says a ruler who spends too much to seem generous ends up taxing his people, and may accept a reputation for being careful."
+    },
+    {
+      "n": 31,
+      "scene": "A prince stands between two rows of soldiers, some smiling and some serious",
+      "summary": "Chapter 17: It would be best to be both loved and feared, but if one must be chosen, it is safer to be feared, provided one is not hated."
+    },
+    {
+      "n": 32,
+      "scene": "A general leads an army of many nations through mountain snow",
+      "summary": "Chapter 17: Machiavelli says Hannibal's strict discipline kept a very mixed army united."
+    },
+    {
+      "n": 33,
+      "scene": "A fox and a lion walk side by side beneath a prince's banner",
+      "summary": "Chapter 18: A prince must learn to be both a fox, to see traps, and a lion, to scare wolves."
+    },
+    {
+      "n": 34,
+      "scene": "A smiling prince in a fine robe holds a book, a shadow behind him",
+      "summary": "Chapter 18: Machiavelli says that people judge by appearances, so a prince must seem good, honest and religious."
+    },
+    {
+      "n": 35,
+      "scene": "A prince walks past a plain crowd of citizens, some of whom look angry",
+      "summary": "Chapter 19: A prince must avoid being hated and despised, and the best protection against plots is the goodwill of the people."
+    },
+    {
+      "n": 36,
+      "scene": "Two Roman emperors side by side, one old and respected, one young and hated",
+      "summary": "Chapter 19: The fates of Roman emperors show that Marcus Aurelius was respected while his son Commodus was killed."
+    },
+    {
+      "n": 37,
+      "scene": "A countess stands before the walls of her fortress as soldiers approach",
+      "summary": "Chapter 20: Fortresses can be useful, but the best fortress is not to be hated by the people, as the Countess of Forlì learned."
+    },
+    {
+      "n": 38,
+      "scene": "A king in armour leads a great campaign while his nobles watch with wonder",
+      "summary": "Chapter 21: A prince gains respect by great undertakings, such as King Ferdinand of Aragon's campaigns."
+    },
+    {
+      "n": 39,
+      "scene": "A prince stands between two armies, one on each side, making a choice",
+      "summary": "Chapter 21: A prince should take a side boldly rather than stay neutral between two powers."
+    },
+    {
+      "n": 40,
+      "scene": "A prince studies the faces of three assistants standing in a row",
+      "summary": "Chapter 22: A prince's ministers show how wise he is, and a good minister thinks of the prince, not of himself."
+    },
+    {
+      "n": 41,
+      "scene": "A prince frowns as a group of well-dressed courtiers all speak at once",
+      "summary": "Chapter 23: Princes should avoid flatterers and ask for honest advice only from wise men, and only when they ask."
+    },
+    {
+      "n": 42,
+      "scene": "An empty palace hall with dust on the chairs and an unlit fire",
+      "summary": "Chapter 24: Machiavelli says that the Italian princes lost their states through idleness and by relying on luck."
+    },
+    {
+      "n": 43,
+      "scene": "A swollen river bursts its banks across a green valley as villagers run",
+      "summary": "Chapter 25: Machiavelli compares fortune to a flooding river, and says that people can build defences in calm times."
+    },
+    {
+      "n": 44,
+      "scene": "A bold young pope rides ahead of his cautious advisers on a mountain road",
+      "summary": "Chapter 25: A person succeeds when his way of acting suits the times, and boldness often wins more than caution."
+    },
+    {
+      "n": 45,
+      "scene": "A torn map of Italy with a single banner raised above it",
+      "summary": "Chapter 26: Machiavelli calls on the Medici to free Italy from foreign invaders, because the time is right."
+    },
+    {
+      "n": 46,
+      "scene": "A poet reads aloud as villagers listen in an old square",
+      "summary": "Chapter 26: Machiavelli ends with lines from the poet Petrarch about courage rising against violence."
+    },
+    {
+      "n": 47,
+      "scene": "An older Machiavelli sits at a desk writing as evening light fills the room",
+      "summary": "Afterword: Machiavelli never recovered his old position, and he died in 1527 at the age of 58."
+    },
+    {
+      "n": 48,
+      "scene": "A printer in Rome pulls a fresh page from a wooden press",
+      "summary": "Afterword: The Prince was printed in 1532, five years after Machiavelli died, and was soon widely read and condemned."
+    },
+    {
+      "n": 49,
+      "scene": "Three readers stand around a table, each holding a different edition and arguing",
+      "summary": "Afterword: Scholars still disagree about whether The Prince is honest advice, a warning, or a work of satire."
+    },
+    {
+      "n": 50,
+      "scene": "A modern reader closes The Prince on a desk beside a notebook",
+      "summary": "Conclusion: A modern reader can learn from The Prince to plan ahead, see how power works and think about right and wrong."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Niccolò Machiavelli worked for the city of Florence until 1512.",
+      "He moved to a farm and began to write a book.",
+      "He gave the book to Lorenzo de' Medici as a gift.",
+      "All states are ruled by a king or by the people.",
+      "A ruler from a long family line has an easy job.",
+      "A new ruler has many more problems to solve.",
+      "A new prince should go and live in the land he has taken.",
+      "Settlers can protect a new land more cheaply than soldiers.",
+      "Wise leaders see problems before they become big.",
+      "A French king lost Italy because he made five mistakes.",
+      "Alexander the Great won a huge kingdom and kept it.",
+      "A free city remembers its freedom for a very long time.",
+      "Great founders win power through their own skill.",
+      "A leader who has no force cannot make people obey.",
+      "Rising by luck is easy, but staying there is hard.",
+      "Cesare Borgia took a large part of Italy with his father's help.",
+      "Borgia then showed the people that he was fair.",
+      "Then Borgia's father died, and Borgia fell ill.",
+      "Agathocles was the son of a potter, but he became a ruler.",
+      "A harsh act should happen once, and good things slowly.",
+      "Ordinary people are usually a better friend than rich lords.",
+      "A strong city has high walls and a lot of food.",
+      "The Church's lands are very safe, because people respect it.",
+      "Soldiers who fight only for money are not reliable.",
+      "Italy was weak because it used hired soldiers.",
+      "Borrowed soldiers are even worse than hired ones.",
+      "A prince must always think about war and the land.",
+      "A good leader reads history and learns from great men.",
+      "Machiavelli says he will write about real life.",
+      "Spending too much money is bad for a ruler.",
+      "It is safer for a ruler to be feared than loved.",
+      "A strict leader can keep an army together.",
+      "A good ruler must be clever like a fox and strong like a lion.",
+      "People judge a ruler by how he looks and what happens.",
+      "A ruler who is hated by the people is in danger.",
+      "Some Roman emperors were loved, and some were hated.",
+      "The best protection for a ruler is the love of the people.",
+      "Great deeds bring a ruler respect.",
+      "A ruler should choose a side and not stay in the middle.",
+      "A smart ruler picks good helpers.",
+      "A ruler should not listen to people who only flatter him.",
+      "Some Italian rulers lost their lands because they did not prepare.",
+      "Luck is like a river: it can rise and flood.",
+      "A bold leader can sometimes beat bad luck.",
+      "Machiavelli says that Italy needs a leader to save it.",
+      "He ends the book with a line from an old poem.",
+      "Machiavelli never got his old job back.",
+      "The Prince was printed five years after he died.",
+      "People still argue about what the author really meant.",
+      "We can learn from The Prince, but we must also think for ourselves."
+    ],
+    "B1B2": [
+      "Niccolò Machiavelli served the republic of Florence for many years as an official and a diplomat. In 1512 the powerful Medici family returned to rule the city, and he lost his job.",
+      "Machiavelli moved to a small farm near Florence, where the days were quiet and dull. In the evenings, he later told a friend, he put on his best clothes and talked with the great writers of the past.",
+      "Machiavelli dedicated the book to Lorenzo de' Medici, a young ruler of Florence. He said it was the best gift he had to offer, because it held everything he had learned about great leaders.",
+      "At the start, Machiavelli says that every state is either a republic or a principality, which is a state ruled by one prince. This book, he says, will be only about principalities.",
+      "A state that belongs to one family for many years is the easiest to keep. The people are used to the ruler, so he only has to avoid making them hate him.",
+      "A new ruler has more problems, says Machiavelli, because people often welcome a change in the hope of a better life. Soon they see that things are no better, and then they turn against him.",
+      "If the new land has a different language and different customs, says Machiavelli, the best remedy is for the ruler to live there himself. Then he can see trouble early and the people feel that he cares.",
+      "Machiavelli says that sending settlers to a new land costs far less than keeping soldiers there. The settlers only harm a few people who lose their land, and those few are poor and cannot make trouble.",
+      "Machiavelli compares political trouble to a wasting illness, which doctors say is easy to cure at the beginning. At the beginning it is hard to recognise, and later it is easy to recognise but impossible to cure.",
+      "Machiavelli says that King Louis XII of France lost his hold on Italy through avoidable errors. For example, he helped to make a powerful neighbour stronger and he did not go to live there himself.",
+      "Machiavelli asks why Alexander the Great held the huge kingdom of the Persian king Darius so easily. Because the Persian people were used to obeying a single king, Alexander met little resistance once he had won.",
+      "A city that has lived under its own laws is hard to rule, says Machiavelli. The people never forget their freedom, so he advises the conqueror either to live there or to destroy the city.",
+      "Machiavelli names four great founders: Moses, Cyrus, Romulus and Theseus. They had only one gift from luck, which was a good chance, and they made everything else through their own skill.",
+      "Machiavelli says that new leaders who depend on persuasion alone usually fail, because people lose faith. He uses Savonarola, the preacher of Florence, as an example of a leader who could not hold his followers.",
+      "Machiavelli says that people who rise through luck or through the help of others find it easy to get to the top. Staying there is hard, because they have not built their own strength.",
+      "Cesare Borgia, the son of Pope Alexander VI, took the region of Romagna with his father's help. It was lawless, so he sent a harsh governor named Remirro de Orco to bring order.",
+      "Once order had returned, Borgia decided that such harshness was no longer needed, and he feared that the governor was hated. So he had Remirro de Orco put to death in the public square, which left the people satisfied and impressed.",
+      "Cesare Borgia's plans collapsed when his father died and he became seriously ill himself. He then made a bad mistake by supporting Julius II as the new pope, and soon he lost everything.",
+      "Agathocles was the son of a potter who became the ruler of the city of Syracuse. He did it by force and cruelty, and Machiavelli says that this may give a man power but never real glory.",
+      "Machiavelli says that if a ruler must do something harsh, he should do it all at once and then stop. Good things, on the other hand, should be given out slowly, so that people enjoy them more.",
+      "Machiavelli says that every city has two groups: the nobles, who want to give orders, and the people, who want not to be ordered about. A prince who has the people on his side is much safer.",
+      "Machiavelli says that a prince is strong when he can raise an army and defend himself. He praises some German cities, which had strong walls, plenty of food and a loyal population.",
+      "Machiavelli says that church states are easy to keep, because they are held up by old custom and religion. He adds that the popes became powerful in the years just before his own time.",
+      "Machiavelli says that a state needs good laws and good soldiers, and that hired soldiers are no good. They fight only for pay, so they run away when danger comes.",
+      "Machiavelli says that Italy had become weak because its rulers relied on hired captains. He argues that a ruler should lead his own army, made up of his own people.",
+      "Machiavelli says that soldiers borrowed from another ruler are even worse than hired ones. To make his point he recalls how David refused King Saul's armour, because he wanted to fight with his own weapons.",
+      "Machiavelli says that a prince should always be learning about war, even in peaceful times. Hunting is good practice, because it teaches him the shape of hills, rivers and valleys.",
+      "Machiavelli says that a prince should read history, and study the lives of great leaders to see how they won and lost. The best leaders chose an example from the past and copied it.",
+      "Machiavelli says that many writers have imagined perfect states that never really existed. He will write about how people actually live, because a ruler who is always good will be ruined among people who are not.",
+      "Machiavelli says that a ruler who tries to look generous will run out of money and have to tax his people heavily. He suggests that it is wiser to accept a reputation for being careful with money.",
+      "Machiavelli says that it is best for a prince to be both loved and feared, but this is hard. If he must choose, he says, it is safer to be feared, as long as he is not hated.",
+      "Machiavelli gives the general Hannibal as an example of strict leadership. His army was made up of many different peoples and fought far from home, yet it never turned against him, because his discipline was strict.",
+      "Machiavelli says that a ruler should learn from two animals: the fox and the lion. The fox is clever enough to see traps, and the lion is strong enough to frighten wolves.",
+      "Machiavelli says that everyone sees what a ruler seems to be, but few people know what he really is. So a prince should try to appear honest and kind, and judge his actions by their results.",
+      "Machiavelli says that a prince must avoid being hated or despised. A ruler is hated when he takes people's property, and he is despised when he seems weak, careless or changeable.",
+      "Machiavelli looks at the Roman emperors to see how they succeeded or failed. Marcus Aurelius died honoured, but his son Commodus was killed by people at his own court.",
+      "Machiavelli says that fortresses may be useful, but the best fortress of all is not to be hated by the people. The Countess of Forlì, Caterina Sforza, had a strong fortress, but it did not save her.",
+      "Machiavelli says that nothing earns a prince respect like great undertakings and rare examples of ability. He gives King Ferdinand of Aragon, who always kept people busy and amazed by his plans.",
+      "Machiavelli says that a prince should be a true friend or a true enemy, and should not stay neutral. If he picks a side and it wins, he gains a friend, but a neutral state is hated by both.",
+      "Machiavelli says that the first way to judge a ruler's wisdom is to look at the people around him. A good minister thinks more about the prince than about himself.",
+      "Machiavelli says that flatterers are a serious danger in every court. A prince should choose a few wise men and allow only them to tell him the truth, and only when he asks.",
+      "Machiavelli says that several Italian princes lost their states because they were lazy in times of peace. They never imagined that bad times would come, and they trusted luck instead of their own strength.",
+      "Machiavelli compares fortune, which means luck, to a wild river that floods and destroys things. When the weather is calm, people can build walls and channels so that the next flood does less harm.",
+      "Machiavelli says that a ruler succeeds when his way of acting fits the times. He adds that, in his view, boldness often succeeds better than caution, as Pope Julius II showed.",
+      "In the last chapter Machiavelli asks the Medici to free Italy from foreign armies. Italy, he says, is like a country that is waiting for someone to lead it.",
+      "Machiavelli ends the book with lines from the poet Petrarch. The poem says that courage will rise up against violence, and that the old bravery of Italian hearts is not yet dead.",
+      "Machiavelli hoped that the book would win him a job, but the Medici never gave him a position of real importance. He died in 1527 at the age of 58, and he never saw the book in print.",
+      "The Prince was printed in 1532, five years after Machiavelli's death. Soon it was read across Europe, and many people were shocked by it.",
+      "People still disagree about what Machiavelli really meant by his book. Some think he gave honest advice, some think he was warning people about rulers, and some think the book is partly a joke.",
+      "Today we can read The Prince to learn how power works and why planning ahead matters. We should also ask whether the ends really justify the means, and make our own decision."
+    ],
+    "C1C2": [
+      "Niccolò Machiavelli spent about fourteen years serving the republic of Florence as a secretary and diplomat, meeting kings, popes and generals at close quarters. When the Medici family returned to power in 1512, the republic fell, and he was dismissed from his post and later held briefly on suspicion of plotting against them. It was the end of the only career he had known, and the beginning of the book that made him famous.",
+      "Banished from the centre of politics, Machiavelli retired to a small farm outside Florence, where his days were spent among woodcutters and card players. In the evenings, he wrote to his friend Francesco Vettori, he put on his court clothes and entered the company of the ancient writers, who answered every question he asked. Out of those conversations came a short book on how states are won and lost, which he finished in 1513.",
+      "Machiavelli dedicated the little book to Lorenzo de' Medici, a young member of the family that now governed Florence, hoping that it might win him a place in the new government. He told Lorenzo that he had nothing more valuable to give than his understanding of the actions of great men, learned from long experience of modern affairs and a constant study of ancient ones. The hope was a practical one, as the author was poor and wanted work.",
+      "Machiavelli begins plainly by saying that every state that has ever held power over people has been either a republic or a principality, meaning a state ruled by one man. Principalities are either hereditary, passed from father to son, or new, whether made from nothing or added to an older state by conquest. He leaves the republics for another place and says that here he will talk only about the rule of princes, how it is gained, how it is held and why it is lost.",
+      "Machiavelli starts with the easiest case, a state that has belonged to the same family for generations. The people there are used to the ruling family, so a prince of ordinary ability can keep his place simply by following his ancestors' ways and by adapting carefully to events. Even if a strong enemy drives him out, he can come back at the first mistake the enemy makes.",
+      "A new prince, says Machiavelli, has the hardest task, because the people who welcomed him have usually done so in the hope that their lives would improve. When they find that things are no better, they turn against him, and the very men who helped him to power become dissatisfied. Everyone he has hurt in conquering the country is his enemy, and everyone he has helped expects more than he can give.",
+      "When the conquered country has a different language, customs and laws from the prince's own, the difficulties multiply, and Machiavelli's first remedy is for the prince to move there and live among the people. From the new capital he can see trouble as it begins and put it right quickly, while the people grow used to him and his officials do not dare to rob them. A ruler who stays at a distance hears about disorder only when it has grown too large to stop.",
+      "Another remedy, Machiavelli says, is to send out colonies, which cost the prince little and keep the country loyal at the price of harming only the few families whose land and houses are given to the settlers. Those harmed are scattered and poor and cannot hurt him, while everyone else is frightened by their example and anxious not to make the same mistake. He adds that a prince in a foreign land should also support its weaker neighbours and prevent any strong rival from gaining a foothold there.",
+      "The Romans, says Machiavelli, understood that wars are not avoided but only postponed to the advantage of others, so they dealt with each danger while it was still small. He compares this foresight to the work of doctors, who say that a wasting illness is easy to cure but hard to recognise at the start, and easy to recognise but hard to cure once it has grown. A prince who waits for troubles to show themselves is like a patient who waits for the pain to begin, and who then finds that the remedy has come too late.",
+      "Machiavelli uses King Louis XII of France as a case study in how not to conquer a foreign country. Louis weakened the minor powers that might have been his friends, strengthened the Pope, who was already powerful, invited in the strong king of Spain and failed to settle in the land he had won. Each mistake, taken separately, was understandable, but taken together they cost him the whole of his Italian gains.",
+      "Machiavelli asks why the empire of Darius, which Alexander the Great conquered in a few years, did not rise against Alexander's successors after his early death. His answer is that a kingdom ruled by a king and his servants, rather than by great nobles, is hard to enter but easy to hold, since once the king is beaten the people owe loyalty to no one else. A country full of powerful nobles, by contrast, is easy to enter because some of them will always help you, but nearly impossible to keep once you have won it.",
+      "Cities that are used to living under their own laws are the most difficult prizes, Machiavelli warns, because the memory of liberty never leaves them, and no gift or favour will make them forget. He offers three ways to hold such a place: to destroy it, to go and live there, or to let it keep its own laws and set up a small group of friends to govern for you. Of these, he says, destruction is the surest, and a prince who spares a free city without watching it will find it destroying him.",
+      "Among those who rose by their own ability, Machiavelli names Moses, Cyrus, Romulus and Theseus as the greatest examples, and observes that luck gave them nothing but the opportunity. The people they led were in need of a leader, and it was their own talent that turned the opportunity into a state. Such men, he says, struggle to rise, but once they have done so they are safe, since they have already overcome the hardest part.",
+      "A new order is hard to introduce, Machiavelli says, because those who profit from the old one oppose it fiercely while those who might gain from the new one defend it only half-heartedly. For this reason, he claims, armed prophets have always conquered and unarmed ones have come to ruin, because when people stop believing there is no way to make them. He points to Savonarola of Florence, who fell when the people ceased to follow him and he had no means of forcing them to continue.",
+      "Machiavelli turns to leaders who rise through good fortune or the help of others, and he says that they climb with little effort but then find themselves in trouble. They owe everything to the goodwill and the fortune of those who gave it, and neither of these is steady or in their control. Unless they quickly build foundations of their own, a change in the wind will blow them over.",
+      "Machiavelli's chief example is Cesare Borgia, whose father, Pope Alexander VI, lent him the money and men needed to take the lawless region of Romagna. Finding the country full of robbers and quarrels, Cesare sent there a hard and quick man, Remirro de Orco, who restored peace with great severity and became widely hated for it. Machiavelli studies the whole affair as a lesson in how a ruler can build a state quickly through the power of another person.",
+      "Once the work was done, Cesare judged that so much harshness was no longer needed and that the governor had made himself hated. To show that any cruelty had been the governor's own and not his, he had Remirro put to death in the public square at Cesena, which left the people both satisfied and stunned. Machiavelli describes this without comment or condemnation, as the act of a leader who understood how to use public feeling.",
+      "Borgia's plans failed when his father died in 1503 at exactly the moment that Cesare himself fell gravely ill, leaving him unable to defend his position. He then made the mistake of supporting the election of Julius II, a man whom he had once injured and who did not forget it, and within a short time he lost his state. Machiavelli concludes that Borgia did almost everything right, and that his ruin came mainly from extraordinary bad luck and one wrong judgement.",
+      "Machiavelli next describes Agathocles of Syracuse, a potter's son who rose through the ranks of the army and finally made himself ruler of the city by violence and betrayal. His methods, Machiavelli admits, secured him the state and held it for many years against enemies inside and out, yet he says they cannot be called true excellence, and they won him power but not glory. The example shows that there are ways to win a throne which a reader may study without admiring.",
+      "Cruelty can be well used or badly used, Machiavelli says, and he calls it well used when it is done once and for all, from necessity, and then ended in favour of the people's welfare. It is badly used when it is small at first and then grows with time, so that the prince must keep a knife in his hand and can never trust anyone. Injuries should be done all together, so that they taste less bitter, while benefits should be given little by little so that they are better enjoyed.",
+      "In every city, says Machiavelli, one finds two opposed groups, since the great want to command and oppress, while the people want only not to be commanded or oppressed. A prince who rises with the help of the nobles will find it hard to keep his place, because they think of themselves as his equals. One who rises with the support of the people stands alone, with almost no one around him unwilling to obey, and he cannot easily be driven out by a few troublesome lords.",
+      "A state is strong, Machiavelli says, when its ruler can put an army in the field and meet any attacker on equal terms, and weak when he must hide behind walls. He admires the free cities of Germany, which had good defences, plenty of food and fuel for a year, and a population content to work in their usual trades. An enemy would think twice before attacking a place that was well prepared and well loved.",
+      "Church states, Machiavelli observes, are unique, for they have subjects whom they do not defend and states that they do not govern, and yet they are never taken from the Church. They are held up by ancient religious customs so strong that they keep their rulers in power however they behave. He then briefly tells how the popes Alexander VI and Julius II increased the temporal power of the Church, and leaves the praise of it to others.",
+      "Every state, says Machiavelli, depends on good laws and good arms, and since good laws cannot exist without good arms, he turns to the subject of armies. Mercenaries, he says, are useless and dangerous: they are disunited and ambitious, brave among friends and cowardly before the enemy, and they want to be soldiers only so long as there is no real war. A prince who relies on them is as safe as a man who stands on a chair with no legs.",
+      "The ruin of Italy, Machiavelli argues, is the work of the hired captains who for many years had been the chief means of Italian defence. Some of them were clever and brave, but they were interested in their own greatness, and they preferred to avoid a real battle than to risk their own men and reputation. The wise ruler, he says, leads his own army in person, made up of his own subjects, and does not give his safety to men who might sell it.",
+      "Borrowed troops, which a friendly ruler lends to help you, are even more dangerous than hired ones, says Machiavelli, because if they lose, you are ruined, and if they win, you are in the debt of their master. To explain his point, he recalls the story of David, who offered to fight the giant Goliath and was dressed by King Saul in the king's own armour. David soon found it heavy and put it aside, preferring the sling and the knife that he knew how to use.",
+      "A prince, says Machiavelli, ought to have no other aim or thought and take up no other subject than war, since this is the only art expected of a ruler. In times of peace he should train his mind and body, and he should hunt, for hunting teaches him the shape of hills, the depth of rivers and the character of marshes. A man who knows his own country well will, in time, find it far easier to understand and defend any other country that he must one day enter.",
+      "For the mind, Machiavelli recommends the reading of history, in which the prince should observe the actions of excellent men and see how they conducted themselves in war. The wisest leaders, he points out, chose an example from the past and followed it, so that Alexander imitated Achilles, Caesar imitated Alexander and Scipio imitated Cyrus. A prince who takes a great model and keeps it always before him will find that some of its glory rubs off.",
+      "Many writers, Machiavelli says, have imagined republics and principalities that were never seen in reality. The gap between how people live and how they ought to live is so wide, he adds, that a man who ignores the first for the sake of the second will learn ruin rather than safety. A ruler who wants always to be good will come to grief among so many who are not, so a prince must learn how not to be good, and use that skill only as the moment requires.",
+      "To be thought generous is pleasant, Machiavelli admits, but a prince who spends lavishly on show will soon use up his wealth, and then he must either tax his people or lose his reputation. He recommends accepting without fear the name of a careful spender, for in the long run a prince who needs no extra taxes and can defend himself without burdening his people will come to be seen as truly generous. Generosity with other people's money is a different matter, he adds, as great conquerors have shown.",
+      "Is it better to be loved than feared, or the other way round, Machiavelli asks, and his answer is that one would like to be both, though it is difficult to join them together. If one must be lacking, he says, it is much safer to be feared than loved, because people are changeable and will leave a ruler in danger, while fear is kept alive by the certainty of punishment. The prince must take care, however, to avoid being hated, which means above all that he must keep his hands off the property of his subjects.",
+      "As an example of the usefulness of strict rule, Machiavelli points to Hannibal, who led a huge army made up of men of many nations to fight in foreign lands. In all his campaigns there was never any quarrel among them or against their leader, whether in good fortune or bad, which Machiavelli puts down to his inhuman harshness and his other qualities of leadership. Without such strictness, he argues, his many other virtues would not have been enough to hold together such a mixed and distant force.",
+      "There are two ways of fighting, Machiavelli says, one with laws and the other with force, and since the first is often not enough, a prince must be skilled in both the nature of man and that of the beast. He should therefore take as his models the fox and the lion, for the lion cannot protect itself against traps and the fox cannot defend itself against wolves. A leader needs the fox to recognise the traps and the lion to frighten the wolves, and anyone who is only a lion does not understand his task.",
+      "A prince need not possess all the good qualities, says Machiavelli, but he must certainly seem to have them, for everyone sees what you appear to be, while few touch what you really are. People judge by results, so if a prince wins and keeps his state, his methods will always be thought honourable and will be praised by everyone. Readers have long argued over whether this passage is cynical advice or a plain description of the way the world works.",
+      "A prince becomes hated, says Machiavelli, chiefly by taking the property of his subjects, and he becomes despised by seeming changeable, weak, cowardly or undecided. The best protection against plots is the goodwill of the people, for a conspirator who knows that killing the prince will make the people angry will think twice. A ruler who keeps both nobles and people satisfied, and does not depend on either to the exclusion of the other, has the best chance of living in peace.",
+      "To prove his point, Machiavelli looks at the Roman emperors, among whom he finds that some died peacefully and others were overthrown by their own armies. Marcus Aurelius, who ruled by merit and justice, lived and died honoured, while his son Commodus, who behaved cruelly and without dignity, was killed by those around him. The difference, Machiavelli says, was in the way they used power and the amount of respect they won.",
+      "Fortresses, Machiavelli says, may be of use to a prince in some circumstances, but the best fortress he can have is not to be hated by his people, for if he is hated no fortress will save him. The Countess of Forlì, Caterina Sforza, held a fortress against those who had killed her husband and won back her state, but when Cesare Borgia later attacked and her people sided with him, the fortress could not save her. A prince who is truly loved by his subjects, Machiavelli suggests, needs very few walls.",
+      "Nothing gives a prince more esteem, says Machiavelli, than great enterprises and striking examples of his own personal ability. He offers as a model Ferdinand of Aragon, King of Spain, who was always planning some new undertaking, and whose subjects were kept so busy watching events that they had no leisure to plot against him. A ruler who does remarkable things, and who rewards or punishes in unusual ways, will be talked about, and that talk is itself a kind of power.",
+      "A prince is respected, says Machiavelli, when he is a true friend or a true enemy, which is to say when he declares himself for one side against another without hesitation. If he stays neutral between two powers, the winner will despise him as a useless friend and the loser will not shelter him, so he gains no thanks from either. Boldness in choosing an ally, he says, nearly always pays better than caution, because a clear commitment earns respect even from those who are not on your side.",
+      "The choice of ministers is of no small importance to a prince, says Machiavelli, because the first impression we form of a ruler's intelligence comes from the men we see around him. When they are able and loyal, we think him wise, and when they are the opposite, we judge him harshly, whatever his own gifts. A simple test of a minister is whether he thinks more about himself than about his master, for such a man will never be a good servant.",
+      "Flatterers, Machiavelli warns, fill the courts, and men are so pleased with their own affairs that it is hard to protect oneself against them. The only defence is to let it be understood that the truth will not offend you, but since open frankness from everyone costs a prince his respect, he should choose wise men and give them alone the freedom to speak. He should ask them about everything, listen carefully to their opinions, and then make up his own mind.",
+      "The princes of Italy who lost their states in recent years, says Machiavelli, had not been unlucky but idle, for in times of peace they never imagined that the weather could change. When the storm came, they thought of running away rather than defending themselves, and hoped that the people, tired of the conquerors, would call them back. The only defences that are good, certain and lasting, he concludes, are those that depend on you and your own ability.",
+      "Fortune, Machiavelli says, rules about half of what we do, and she is like one of those violent rivers that, when angry, flood the plains and carry away trees and houses. Yet this does not stop men from making provision in calm weather, building banks and dikes so that when the river rises it will either flow into a channel or do less damage. Fortune shows her power where there is no strength prepared to resist her, and the wise prince prepares in the quiet times.",
+      "Two men may act differently and both succeed, Machiavelli notes, or two may act in the same way and one succeeds while the other fails, because success depends on whether one's method matches the times. A man who has always done well by caution will fall when the times call for boldness, and few have the nature to change as circumstances do. He thinks that boldness more often wins than caution, and points to Pope Julius II, whose rash moves succeeded because the age was ready for them.",
+      "In the final chapter Machiavelli turns from advice to appeal, urging the Medici to take up the cause of freeing Italy from the foreign armies that had overrun it. Italy, he writes, lies without a head, like a body that is beaten and plundered and waiting for someone to heal its wounds, and he sees the moment as ripe for a leader of ability. He reminds Lorenzo that God has already shown signs of favouring such a leader and that the rest depends on men.",
+      "The book ends with a few lines of verse by the poet Petrarch, in which courage is promised to rise up against fury and make the fight a short one. The verse ends by saying that the ancient valour in Italian hearts has not yet died, which makes a hopeful close to a book that is mostly cool and hard. It shows that beneath the cold analysis lay a real love of his country.",
+      "Machiavelli hoped that The Prince would win him a place in the new government, but the Medici never gave him real power, and the book appears to have brought him little reward at the time. He went on writing history, plays and other political works, and he died in 1527, aged 58, in the same year that the Medici were driven out of Florence once more. His slender treatise, written in the hope of employment, would remain unprinted until some years after his death.",
+      "The Prince was not printed until 1532, five years after the author's death, though copies had passed from hand to hand before then. It was soon read across Europe, and many readers, including church authorities, were shocked by its frank discussion of power, so that in time the word Machiavellian came to mean cunning and unprincipled. Yet its readers have ranged from kings and statesmen to ordinary people trying to understand how the world works.",
+      "Scholars have never agreed on what The Prince is, and there is room for several honest views. Some read it as a cool manual of power by a practical man, some as a hidden warning to the people about what rulers really do, and some as satire. Its author's other writings, which praise republics and freedom, make the question more interesting still, and the book has never stopped being argued about.",
+      "Read today, The Prince is useful less as a set of orders than as a mirror in which we can see how power really works, from the value of foresight and good advisers to the dangers of flattery and idleness. It also invites a question that Machiavelli leaves to his reader, which is how far a person may bend the rules for a good cause before the cause itself is lost. The best use of the book is to study it closely, to compare it with other views, and to come to a conclusion of your own."
+    ]
+  }
+}

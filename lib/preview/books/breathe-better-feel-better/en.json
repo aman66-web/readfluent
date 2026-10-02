@@ -1,0 +1,417 @@
+{
+  "slug": "breathe-better-feel-better",
+  "meta": {
+    "blurb": "Iris sings in a choir, and her breath races before every concert. Her friend Dev, a lung physiotherapist, takes her on a tour of the nose, the lungs and the diaphragm, and shows what slow, steady breathing can and cannot do.",
+    "bible": "Iris: a choir singer in her thirties whose breathing goes fast and high when she is nervous. Dev: her friend, a respiratory physiotherapist, warm, practical and honest about what is not proven. They talk in the rehearsal hall, a Park, and Dev's clinic over Six weeks before a big concert called the Winter Concert. Key terms: Diaphragm, Alveoli, Bronchi, Oxygen, Carbon dioxide, Haemoglobin, Nasal cycle, Nitric oxide, Cilia, Mucus, Hyperventilation, Asthma, Inhaler, Apnoea, Altitude, Vagus, Humming. Real science only, hedged where research is modest or uncertain: no invented numbers or studies, and the book says plainly that many claims online are stronger than the evidence. Voice: calm, kind, plain, a little humorous. Nobody gets personal medical advice; the book gives general information and tells readers to see a doctor about their own health. This book is general information and is not medical advice."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Iris stands in a concert hall wing with a hand on her fast-moving chest",
+      "summary": "Before a concert, Iris feels her heart race and her breath turn quick and high."
+    },
+    {
+      "n": 2,
+      "scene": "Dev, a physiotherapist in a cardigan, hands Iris a cup of water",
+      "summary": "Her friend Dev, a lung physiotherapist, notices and says breathing can be learned."
+    },
+    {
+      "n": 3,
+      "scene": "A tally of twenty thousand tiny dots rises above a sleeping figure",
+      "summary": "We take about twenty thousand breaths a day without thinking about them."
+    },
+    {
+      "n": 4,
+      "scene": "Tiny arrows carry oxygen into a body and carbon dioxide out of it",
+      "summary": "We breathe to bring oxygen in and let carbon dioxide out."
+    },
+    {
+      "n": 5,
+      "scene": "Air enters a nose and mouth and slides down a throat",
+      "summary": "Air enters through the nose or mouth and travels down the throat into the windpipe."
+    },
+    {
+      "n": 6,
+      "scene": "A branching tree shape grows upside down inside a chest",
+      "summary": "The airways branch like an upside-down tree into smaller and smaller tubes."
+    },
+    {
+      "n": 7,
+      "scene": "Tiny bubbles like grapes cluster at the end of a thin tube",
+      "summary": "The air ends up in hundreds of millions of tiny air sacs called alveoli."
+    },
+    {
+      "n": 8,
+      "scene": "A red blood vessel wraps a thin-walled air sac while small dots pass through",
+      "summary": "Oxygen passes through the thin walls of the alveoli into the blood."
+    },
+    {
+      "n": 9,
+      "scene": "A red blood cell carries small blue dots through a heart to a muscle",
+      "summary": "Red blood cells carry oxygen with haemoglobin, and the heart pumps it around the body."
+    },
+    {
+      "n": 10,
+      "scene": "A dome-shaped muscle beneath the lungs flattens as a belly softens outward",
+      "summary": "The diaphragm is a dome-shaped muscle that pulls air in when it contracts."
+    },
+    {
+      "n": 11,
+      "scene": "Ribs spread like a basket as small muscles between them lift the chest",
+      "summary": "The ribs and the muscles between them also move the chest when we breathe."
+    },
+    {
+      "n": 12,
+      "scene": "Iris stands by a rehearsal wall while her chest rises and falls",
+      "summary": "Breathing is automatic, but unlike the heartbeat we can also take control of it."
+    },
+    {
+      "n": 13,
+      "scene": "A chart shows a rising line of carbon dioxide beside a small gasping face",
+      "summary": "The urge to breathe is driven mainly by rising carbon dioxide, not by falling oxygen."
+    },
+    {
+      "n": 14,
+      "scene": "A swimming pool with a lifeguard on a chair and a clear warning sign",
+      "summary": "Holding the breath is safe for a few moments in the air, but never practise it in water alone."
+    },
+    {
+      "n": 15,
+      "scene": "A clock beside a calm figure whose chest rises gently",
+      "summary": "At rest, most adults breathe about twelve to twenty times a minute."
+    },
+    {
+      "n": 16,
+      "scene": "Four faces show laughing, gasping, sighing and crying with different breath shapes",
+      "summary": "Breathing changes with emotion: laughs, gasps, sighs and sobs are all kinds of breath."
+    },
+    {
+      "n": 17,
+      "scene": "A nose with soft arrows of warm air and tiny hairs drawn inside",
+      "summary": "The nose filters, warms and moistens the air before it reaches the lungs."
+    },
+    {
+      "n": 18,
+      "scene": "Tiny hairs and sticky mucus catch dust specks while small brushes sweep them away",
+      "summary": "Hairs, mucus and tiny brush-like cilia trap dust and germs and sweep them out."
+    },
+    {
+      "n": 19,
+      "scene": "A face with the left nostril glowing at noon, the right at night",
+      "summary": "The nasal cycle: one side of the nose is more open than the other, and they swap."
+    },
+    {
+      "n": 20,
+      "scene": "A nostril glows softly with a small gas cloud drifting inside",
+      "summary": "The nose makes nitric oxide, which may help the lungs, though the evidence is still developing."
+    },
+    {
+      "n": 21,
+      "scene": "A person sits breathing through an open mouth after running a hill",
+      "summary": "Mouth breathing is normal during hard exercise or a blocked nose."
+    },
+    {
+      "n": 22,
+      "scene": "A sleeper with an open mouth beside a glass of water",
+      "summary": "Breathing through a dry mouth at night can mean a blocked nose or snoring; a doctor can help."
+    },
+    {
+      "n": 23,
+      "scene": "Iris sits with one hand on her chest and one on her belly",
+      "summary": "Anxious breathing often stays high in the chest; Dev shows her how to let the belly move."
+    },
+    {
+      "n": 24,
+      "scene": "A figure sits calmly with a clock beside a gentle wave pattern",
+      "summary": "Slow breathing at about six breaths a minute has been linked to calmer states in small studies."
+    },
+    {
+      "n": 25,
+      "scene": "A heart line rises on an in-breath and falls on an out-breath",
+      "summary": "The heart speeds up when we breathe in and slows when we breathe out."
+    },
+    {
+      "n": 26,
+      "scene": "A long ribbon unrolls from slow outbreath beside a resting heart",
+      "summary": "A longer out-breath may help the body to relax, though the evidence is modest."
+    },
+    {
+      "n": 27,
+      "scene": "A woman breathes fast with tingling fingers and a dizzy swirl above her head",
+      "summary": "Breathing too fast, called hyperventilation, lowers carbon dioxide and can cause dizziness and tingling."
+    },
+    {
+      "n": 28,
+      "scene": "Iris sits on a bench in the park and breathes slowly beside Dev",
+      "summary": "Fast breathing is common in panic, but frequent panic attacks should be seen by a doctor."
+    },
+    {
+      "n": 29,
+      "scene": "Iris stands in the concert hall wings breathing slowly with her eyes closed",
+      "summary": "Iris tries slow breathing before rehearsal and feels steadier, though not cured."
+    },
+    {
+      "n": 30,
+      "scene": "A square drawn in the air with four equal sides and four small numbers",
+      "summary": "Box breathing uses equal counts for in, hold, out and hold, which some people find steadying."
+    },
+    {
+      "n": 31,
+      "scene": "A long sigh drawn as two short waves and one long wave",
+      "summary": "Cyclic sighing, a short extra breath in and a long breath out, has some early supporting evidence."
+    },
+    {
+      "n": 32,
+      "scene": "A scale holds a book of claims and a small feather",
+      "summary": "Many online breathing claims are stronger than the evidence; benefits are modest."
+    },
+    {
+      "n": 33,
+      "scene": "A warning triangle stands beside a crossed-out picture of fast heaving breath",
+      "summary": "Stop if dizzy; people with heart or lung conditions or who are pregnant should ask a doctor before strong methods."
+    },
+    {
+      "n": 34,
+      "scene": "A choir stands in rows with open mouths while a conductor raises her hands",
+      "summary": "Singers need long, controlled out-breaths, so singing is a natural breathing workout."
+    },
+    {
+      "n": 35,
+      "scene": "Iris hums with her fingertips on her nose in the quiet rehearsal room",
+      "summary": "Humming may raise nitric oxide in the nose; it is calming, though the research is small."
+    },
+    {
+      "n": 36,
+      "scene": "A slumped figure sits at a desk, then sits tall beside a bright window",
+      "summary": "A slumped posture can limit how freely the ribs and diaphragm move; sitting tall helps a little."
+    },
+    {
+      "n": 37,
+      "scene": "Iris and Dev walk fast up a park hill in the cold",
+      "summary": "Exercise raises the breathing rate; a simple talk test shows a comfortable effort."
+    },
+    {
+      "n": 38,
+      "scene": "A mountain peak with thin air drawn as sparse dots around a hiker",
+      "summary": "At high altitude the air has less oxygen, so people breathe faster and need days to adapt."
+    },
+    {
+      "n": 39,
+      "scene": "A smoky city skyline beside a clear green hill with fresh air",
+      "summary": "Smoke, pollution and dust harm the lungs, so cleaner air and good ventilation help."
+    },
+    {
+      "n": 40,
+      "scene": "A broken cigarette on a table beside a pair of healthy lungs",
+      "summary": "Smoking harms the lungs, and stopping helps at any age; health services offer support."
+    },
+    {
+      "n": 41,
+      "scene": "An inhaler on a table beside a narrowed tube drawn wide again",
+      "summary": "In asthma the airways narrow; an inhaler plan from a doctor comes first, and exercises can only add."
+    },
+    {
+      "n": 42,
+      "scene": "A person coughs into a sleeve while a calendar shows three weeks crossed off",
+      "summary": "A cough is a useful defence, but one lasting about three weeks should be checked."
+    },
+    {
+      "n": 43,
+      "scene": "A person sleeps on their back while a sound wave bursts from the mouth",
+      "summary": "Loud snoring with pauses in breathing may be sleep apnoea, which a doctor can treat."
+    },
+    {
+      "n": 44,
+      "scene": "Iris lies in bed breathing slowly beside a dim lamp and a moon",
+      "summary": "Slow, quiet breathing before bed may help some people to relax and fall asleep."
+    },
+    {
+      "n": 45,
+      "scene": "A baby, a grown woman and an elderly man stand with soft lung shapes",
+      "summary": "Lung capacity slowly declines with age, and staying active helps to keep breathing comfortable."
+    },
+    {
+      "n": 46,
+      "scene": "A person yawns widely in a quiet room while others begin to yawn",
+      "summary": "Scientists still do not know exactly why we yawn."
+    },
+    {
+      "n": 47,
+      "scene": "A calendar with three small breathing marks on every day of the week",
+      "summary": "A daily habit of a few minutes of slow breathing, a few times a day, is easy to start."
+    },
+    {
+      "n": 48,
+      "scene": "Iris sings on a lit stage with a calm face, the choir behind",
+      "summary": "On the night of the Winter Concert, Iris sings steadily and calmly."
+    },
+    {
+      "n": 49,
+      "scene": "Iris and Dev share tea in the empty hall after the concert",
+      "summary": "Dev reminds Iris that breathing is a tool, not a cure, and that her breath is hers to notice."
+    },
+    {
+      "n": 50,
+      "scene": "Iris and Dev sit side by side in the hall as lights go down",
+      "summary": "The book closes with a reminder that it is general information and not medical advice."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Iris is nervous, and her breath is fast and high.",
+      "Her friend Dev works with lungs, and he offers help.",
+      "We take about twenty thousand breaths every day.",
+      "We breathe to take in oxygen and let out carbon dioxide.",
+      "Air goes in through the nose or mouth and down the throat.",
+      "The airways split again and again, like branches on a tree.",
+      "At the end of the tubes are tiny sacs of air.",
+      "Oxygen goes through very thin walls and into the blood.",
+      "The blood carries oxygen to all parts of the body.",
+      "A big muscle called the diaphragm helps you to breathe in.",
+      "The ribs also move a little when you breathe in.",
+      "Breathing is automatic, but you can also control it.",
+      "The urge to breathe comes from carbon dioxide in your blood.",
+      "Never hold your breath in water when you are alone.",
+      "Most adults breathe about twelve to twenty times a minute.",
+      "Your breath changes when you laugh, gasp, sigh or cry.",
+      "The nose cleans, warms and wets the air we breathe.",
+      "Tiny hairs and sticky mucus catch the dust in the air.",
+      "One side of your nose is more open than the other.",
+      "The nose makes a gas called nitric oxide, which may help the lungs.",
+      "Breathing through the mouth is normal when you run fast.",
+      "If your nose is blocked for a long time, ask a doctor.",
+      "Dev asks Iris to put one hand on her belly.",
+      "Slow breathing can help some people to feel calm.",
+      "Your heart beats a little faster when you breathe in.",
+      "A long breath out may help your body to relax.",
+      "Breathing too fast can make you feel dizzy.",
+      "Fast breathing is common when people feel panic.",
+      "Iris breathes slowly in the wings and feels a little calmer.",
+      "Dev shows her a simple pattern with equal counts for each part.",
+      "Dev shows her a double breath in, and then a long breath out.",
+      "Many things said online about breathing are not proven.",
+      "If an exercise makes you dizzy, you should stop.",
+      "Singing needs long, steady breaths, so it is good practice.",
+      "Dev asks Iris to hum, and she feels the buzz in her nose.",
+      "Sitting tall gives your lungs more space to fill with air.",
+      "When you exercise, your breath gets faster and deeper.",
+      "At the top of a mountain, there is less oxygen in the air.",
+      "Smoke and dirty air can harm the lungs.",
+      "Smoking harms the lungs, and stopping helps at any age.",
+      "In asthma, the tubes of the lungs become narrow.",
+      "A cough that lasts many weeks should be checked by a doctor.",
+      "Loud snoring with breathing pauses should be checked by a doctor.",
+      "Slow breathing in bed may help some people to fall asleep.",
+      "Lungs slowly get weaker with age, but exercise helps.",
+      "Nobody knows exactly why we open our mouths wide when tired.",
+      "Dev suggests a few minutes of slow breathing each day.",
+      "On concert night, Iris sings and her voice is strong.",
+      "Dev says that breathing is a useful tool, but not a cure.",
+      "This book is general information and it is not medical advice."
+    ],
+    "B1B2": [
+      "Iris sings in a choir, and tonight is the first rehearsal of the Winter Concert. Her heart is racing, and she notices that she is taking quick, shallow breaths high in her chest.",
+      "Dev, her friend, works as a respiratory physiotherapist, which means that he helps people to breathe more easily. He notices her fast breathing and says that it is something that can be understood.",
+      "Dev starts with a surprising number that makes Iris stare. A person takes roughly twenty thousand breaths in a day, and most of them happen without a single thought.",
+      "The body's cells burn fuel to make energy, and they need oxygen to do it. Burning fuel makes a waste gas called carbon dioxide, and breathing carries it away.",
+      "Air enters through the nose or the mouth and passes down the throat. Then it enters a tube called the windpipe, which carries it toward the lungs.",
+      "Inside the chest, the windpipe divides into two tubes called bronchi, one for each lung. These tubes keep branching into smaller and smaller ones, like a tree turned upside down.",
+      "At the end of the smallest tubes are tiny air sacs called alveoli. Each lung has hundreds of millions of them, and together they give the lungs a surface area far larger than they seem.",
+      "The walls of the air sacs are thinner than a hair, and they are wrapped in tiny blood vessels. Oxygen passes through the wall into the blood, and carbon dioxide passes the other way.",
+      "Red blood cells carry the oxygen, using a substance called haemoglobin that holds on to it. The heart pumps this blood around the body, so that every muscle and organ receives the oxygen it needs.",
+      "Under the lungs sits a large, dome-shaped muscle called the diaphragm. When it tightens, it flattens and moves down, which makes room for the lungs to fill with air, and the belly moves out a little.",
+      "The ribs help as well, and they move more than you might think. Small muscles between them lift the ribcage when you breathe in, and the chest widens a little at the sides.",
+      "Breathing mostly takes care of itself, like the beating of the heart. However, it is unusual because we can also take control of it, which is why it can be trained.",
+      "Dev surprises Iris with a fact about the urge to breathe. The strongest signal is not a lack of oxygen but a build-up of carbon dioxide, which the brain measures very closely.",
+      "Dev warns Iris about holding her breath, and he is very serious. A few seconds in the air is harmless, but nobody should practise long breath-holds in water, because people can faint without warning.",
+      "When they are resting, most healthy adults take between twelve and twenty breaths a minute. Iris counts her own breaths and finds that she is nearer to twenty-four, because she is nervous.",
+      "Breath and feelings are closely connected, as everyone has noticed. We gasp with surprise, laugh in short bursts, sigh with relief and sob when we are sad, and each is a different pattern of breathing.",
+      "Dev says that the nose is far more than a place to hang glasses. It filters the air, warms it and adds moisture, so that the air is gentler by the time it reaches the lungs.",
+      "The nose and airways are lined with hairs and sticky mucus that catch dust and germs. Tiny brush-like structures called cilia then sweep the mucus up toward the throat, where it is swallowed or coughed out.",
+      "Dev asks Iris to breathe in through one nostril at a time. She finds that one side is clearer, and he explains that this is the nasal cycle, in which the open side changes every few hours.",
+      "The nose and the sinuses produce a gas called nitric oxide. Scientists think that it may help to fight germs and to widen blood vessels in the lungs, although the research is still growing.",
+      "Dev says that there is nothing wrong with breathing through the mouth when you run fast or when your nose is blocked. Harder exercise needs more air than the nose alone can bring in.",
+      "Some people breathe through the mouth all the time, and their mouths feel dry in the morning. Dev says that a nose that is blocked for weeks has a cause, which a doctor can look for.",
+      "Dev asks Iris to put one hand on her chest and one on her belly. When she is nervous, only the top hand moves, but when she relaxes and breathes gently, her belly begins to rise as well.",
+      "Some studies have asked people to breathe slowly, at about six breaths a minute, and found that many felt calmer afterwards. The studies are generally small, and the effects are modest rather than dramatic.",
+      "Dev shows Iris something that she can feel for herself with two fingers. Her heart speeds up when she breathes in and slows when she breathes out, and doctors call this change heart rate variability.",
+      "Many teachers say that making the out-breath longer than the in-breath helps the body to relax, perhaps through the vagus nerve, which slows the heart. Some small studies agree, but the evidence is modest.",
+      "If we breathe too fast, we blow off too much carbon dioxide, and this is called hyperventilation. It can cause dizziness, tingling in the fingers and a feeling of being unable to get enough air.",
+      "Fast breathing often goes with panic and anxiety, and the feelings feed each other. Dev says that anyone who has frequent panic attacks, or who is unsure why they are short of breath, should talk to a doctor.",
+      "On the night of the next rehearsal, Iris waits in the wings and breathes slowly, with her belly soft. She feels steadier, although her stomach is still full of butterflies.",
+      "Dev teaches Iris a pattern called box breathing, in which each part lasts the same count. She breathes in for four, holds for four, breathes out for four, and holds again, with an easy pace.",
+      "Dev also shows Iris a pattern with two short breaths in through the nose, followed by one long breath out. A small number of trials suggest that this can lift mood, although the evidence is still early.",
+      "Dev tells Iris to be careful about big claims. Many websites say that breathing exercises can cure almost anything, but the research shows only modest benefits, mostly for stress, sleep and well-being.",
+      "Dev gives some rules of safety, and they matter more than any exercise. If a breathing exercise makes you dizzy, stop, and people with heart or lung conditions, or who are pregnant, should ask a doctor first.",
+      "Dev points out that singing is a kind of breathing exercise. Singers have to take in air quickly and let it out slowly and steadily, which trains the muscles of breathing.",
+      "Dev asks Iris to hum quietly and feel the buzzing in her nose. One small study found that humming increases the amount of nitric oxide in the nose, but humming is also simply relaxing.",
+      "Dev says that a slumped posture can limit how freely the ribs and the diaphragm move. Sitting tall, with relaxed shoulders, gives the lungs a little more room, although no one needs to be rigid.",
+      "When we exercise, the muscles need more oxygen, so breathing gets faster and deeper. Dev suggests a simple talk test: if you can speak in short sentences while you walk, your effort is comfortable.",
+      "Dev tells Iris that the air high in the mountains is thinner, so each breath contains less oxygen. The body needs days to adapt, and a serious headache or confusion means going down and getting help.",
+      "Smoke, traffic fumes and dust can irritate the lungs, and some of the harm builds up over many years. Dev suggests choosing cleaner air when you can and opening windows to let fresh air into rooms.",
+      "Tobacco smoke is one of the most harmful things for the lungs. The good news is that stopping helps at any age, and health services offer free support for people who want to quit.",
+      "In asthma, the airways become narrow and swollen, which makes breathing difficult. Dev says that people with asthma should follow the plan from their doctor, and that breathing exercises can only be added to it.",
+      "A cough is usually a helpful reflex that clears the airways of dust and germs. If it lasts for about three weeks, or comes with blood, chest pain or breathlessness, Dev says to see a doctor.",
+      "Dev mentions sleep apnoea, a condition in which breathing repeatedly stops for a short time during sleep. Loud snoring, gasping at night and daytime sleepiness are signs that a person should see a doctor.",
+      "Dev adds that slow, quiet breathing in bed may help some people to relax and fall asleep. It will not work for everyone, and long-term sleep trouble is a matter for a doctor.",
+      "Dev explains that lungs are strongest in the early adult years, and that their capacity slowly declines with age. Staying active, not smoking and keeping clean air around you can all help to keep breathing comfortable.",
+      "Iris asks Dev why we yawn, and he admits that scientists are not sure. There are several ideas, including cooling the brain, but none of them has been proved.",
+      "Dev says that the best habit is a small one. He suggests a few minutes of slow, gentle breathing a few times a day, for instance when she wakes, after lunch and before bed.",
+      "On the night of the Winter Concert, Iris takes a slow, low breath and begins to sing. Her voice is steady, her hands are calm, and the choir finishes to warm applause.",
+      "After the concert, Dev tells Iris that breathing is a useful tool, but not a cure for everything. He says that the best thing she has gained is the habit of noticing her breath.",
+      "This book has given general information about breathing, and science is still learning more about it. It is not medical advice, so please talk to a doctor if you have worries about your breathing or your health."
+    ],
+    "C1C2": [
+      "Backstage at the rehearsal hall, Iris pressed a hand to her chest and felt her heart hammering against it like a bird in a box. She had sung in the choir for years, yet every time a big concert came near, her breath turned quick and shallow and seemed to stay high in her throat. It had never occurred to her that a breath could be something she was able to change.",
+      "Dev, an old friend of the choir, worked as a respiratory physiotherapist, helping people with lung problems to breathe more comfortably. He noticed Iris's quick, shallow breaths from across the room, handed her a cup of water and said, gently, that breathing is a skill that most of us never look at. Over the next six weeks, he promised, he would show her how it works, and he would be honest about what science does not know.",
+      "Dev began with a number that made Iris stop and stare: a typical adult takes somewhere around twenty thousand breaths in a single day. Almost all of them happen without a moment of thought, in sleep and in conversation, in boredom and in fear, which makes breathing the most repeated action of our lives. Yet hardly anyone, he said, has ever been taught how to do it well.",
+      "Every cell in the body burns fuel to produce energy, and in most cases it needs oxygen to do so, rather like a fire that needs a steady supply of air. The burning creates a waste gas, carbon dioxide, which must be carried away, and breathing is the process that delivers one gas and removes the other. Dev drew two arrows on a whiteboard, one pointing in and one pointing out, and said that everything else in the story is detail.",
+      "A breath begins at the nose or the mouth, passes through the throat and then enters the windpipe, a firm, ribbed tube that leads towards the chest. A small flap of tissue closes over the entrance whenever we swallow, so that food goes to the stomach and air goes to the lungs. Dev told Iris to trace the journey with a finger on her own neck, and she felt the windpipe's hard rings under her skin.",
+      "Inside the chest, the windpipe divides into two main branches called bronchi, one leading to each lung. These split again and again, becoming narrower each time, until they form a structure like a tree turned upside down, with its twigs finishing in tiny hollow tips. Dev laughed that nobody has ever found a better description, and Iris admitted that it made her lungs sound rather like a garden.",
+      "At the tips of the smallest airways sit clusters of tiny air sacs called alveoli, rather like bunches of microscopic grapes. The lungs hold hundreds of millions of them, and their walls, when spread out, would cover a surface far larger than anyone would guess from the size of the chest. Older books often compare that area to a tennis court, Dev said, though newer measurements suggest something smaller, and the exact figure matters less than the idea.",
+      "The walls of the alveoli are extraordinarily thin, and they are wrapped in networks of the smallest blood vessels, so that gases can pass between air and blood with very little in the way of a barrier. Oxygen moves into the blood because there is more of it in the air sacs, while carbon dioxide travels the other way, and neither movement needs any effort from us. It is a quiet and elegant piece of physics, Dev said, which happens twenty thousand times a day.",
+      "Once it has crossed into the blood, oxygen is picked up by haemoglobin, a protein inside the red blood cells that is also what gives blood its colour. The heart pumps this oxygen-rich blood to every organ and muscle, from the brain to the toes, and returns the blood to the lungs to collect another load. Her lessons in school biology, Iris laughed, suddenly seemed far more interesting now that she was breathing through them.",
+      "Beneath the lungs, stretched like a dome across the bottom of the ribcage, lies the diaphragm, the main muscle of breathing. When it contracts, it flattens and moves downward, creating space into which air is drawn, and the belly pushes out slightly as the organs beneath it are nudged aside. On the out-breath, the muscle relaxes and springs back upward, and the air flows out almost by itself.",
+      "The ribs take part as well, for small muscles between them lift and widen the ribcage as we breathe in. When Iris placed her hands low on her sides, she could feel the cage expand like a pair of gently opening doors and then settle back as she let the air go. Dev explained that the neck and shoulder muscles can also help when we breathe hard or in a hurry, and that is where many people overwork.",
+      "Breathing runs on autopilot, controlled by a group of cells in the brainstem that work whether we are awake or asleep. What makes it unusual among the body's automatic activities is that we can also take over, slowing it, speeding it up or holding it for a short time. That double nature is what makes it so useful to singers, swimmers and anyone who wants to feel calm.",
+      "Dev surprised Iris by telling her that the strongest push to breathe does not come from a shortage of oxygen at all. Sensors in the blood and brain watch the level of carbon dioxide, and when it rises, they increase the urge to breathe long before oxygen has fallen very low. That is why holding your breath becomes so uncomfortable so quickly, even though your body still has plenty of oxygen to spare.",
+      "Dev paused here to give a firm warning, because breath-holding games have caused real harm. A few seconds in the open air do no damage, but nobody should ever practise long breath-holds in water, or alone, since a person can lose consciousness with little warning and drown. He said that this one piece of advice was worth more than any exercise in the book.",
+      "At rest, most healthy adults take between twelve and twenty breaths a minute, though the figure varies with age, fitness and mood. Dev asked Iris to count her breaths for sixty seconds and she found that she was nearer to twenty-four, which was not alarming but did show how much the body responds to nerves. He added that a single number tells us very little, and that no one should worry over one count.",
+      "Breath and feeling are closely bound together, as even a moment's thought will show. We gasp in surprise, laugh in short bursts, sigh with relief and sob with grief, and each of these is nothing more than a particular pattern of breathing that the brain produces to match our mood. Dev said that the connection works in the other direction too, which is the whole idea behind breathing exercises.",
+      "The nose, Dev told her, is a great deal more than a place to hang a pair of spectacles. As air passes through its twisting passages, it is cleaned, warmed and moistened, so that by the time it reaches the delicate lungs it is much closer to body temperature and far gentler than the cold, dry air outside. People often forget how hard this small organ works on our behalf, day and night.",
+      "The inside of the nose and the airways below it are lined with hairs and sticky mucus, which catch dust, pollen and germs before they can travel deeper. Microscopic, brush-like cilia then beat in waves to sweep this mucus up towards the throat, where it is swallowed or coughed out, and the whole system runs day and night without anyone noticing. A cough, Dev reminded her, is part of this defence and is not a failure.",
+      "Dev asked Iris to close one nostril with a finger and breathe through the other, and she noticed that the left side was almost blocked while the right was wide open. This, he explained, is the nasal cycle, a normal pattern in which the tissue lining each side swells and shrinks, so that the more open side changes every few hours. The process is quite healthy, and most people never notice it unless they have a cold.",
+      "The nose and the sinuses behind it produce a small amount of a gas called nitric oxide, and when we breathe in through the nose, some of it travels into the lungs. Scientists believe that it helps to fight germs and to widen the blood vessels, which could improve how well oxygen moves into the blood, but the research is still developing and nobody should claim more than it shows. Dev said that this was a good example of an idea that is interesting but not finished.",
+      "Dev was quick to point out that breathing through the mouth is not a sin, and that during hard exercise or a heavy cold it is perfectly normal and necessary. The nose simply cannot move enough air for a sprinter, so everyone switches to the mouth when the effort rises. Breathing mostly through the nose at rest is generally considered better, but it is a habit and not a rule.",
+      "Some people breathe through their mouths constantly, especially at night, and wake with a dry throat and a sore tongue. A nose that is blocked for weeks usually has a cause, such as an allergy or swollen tissue, and Dev advised that a doctor is the right person to look into it. He cautioned against any scheme, such as taping the mouth shut, that is not backed by medical advice.",
+      "Dev asked Iris to sit comfortably, place one hand on her chest and the other on her belly, and simply notice which of them moved. When she was tense, the upper hand did all the work, but when she relaxed her shoulders and let a gentle breath fall low, the lower hand began to rise as the diaphragm did its share. It was a simple exercise, and Dev said that nothing about it is magical: it just reminds the body of what it already knows.",
+      "A number of studies have asked volunteers to breathe slowly, at about six breaths a minute, and many have reported lower stress and slightly lower blood pressure afterwards. Dev warned, however, that these trials are usually small, that their methods differ and that the effects are modest rather than miraculous. Slow breathing is a useful tool, he said, but it is not a cure, and anyone selling it as one should be treated with caution.",
+      "Dev showed Iris something that she could feel for herself by placing two fingers on her wrist and breathing slowly. Her pulse quickened a little as she breathed in and slowed as she breathed out, a normal pattern called respiratory sinus arrhythmia, which is part of what physicians call heart rate variability. Higher variability is generally a sign of a flexible, healthy body, though measuring it with a gadget is an uncertain business.",
+      "Many breathing teachers claim that making the out-breath longer than the in-breath helps the body to relax, partly through the vagus nerve, which runs from the brain to the heart and gut and slows the heart down. A few small studies seem to agree, and the idea is plausible, but Dev noted that the proof is thin and that people differ greatly in what they find calming. He suggested that Iris treat it as an experiment and judge it by how it felt.",
+      "When a person breathes much faster than the body needs, too much carbon dioxide is blown away, and the chemistry of the blood shifts, a state called hyperventilation. The result can be dizziness, tingling in the fingers and lips, a sense of unreality and, paradoxically, a feeling that one cannot get enough air. It is frightening, but in most cases it is not dangerous in itself, and it passes once the breathing settles.",
+      "Fast breathing often accompanies panic and anxiety, and the two feed each other, for the symptoms of one frighten the person into more of the other. Dev said that breathing exercises can help many people to break the cycle, but that someone who has frequent panic attacks should speak to a doctor, since effective treatments exist. He was also clear that shortness of breath can have physical causes, and that it should never be dismissed as nerves without a check.",
+      "On the night of the next rehearsal, Iris stood in the wings and let her breath fall low and slow, feeling her belly soften beneath her hand. The butterflies did not vanish, and she was honest enough to admit it, but her hands stopped trembling and her thoughts, which had been racing, grew a little quieter. It was not magic, she told Dev afterwards, but it was something she had never been able to do before.",
+      "Dev taught Iris a pattern that he called box breathing, in which the four parts of the breath, in, pause, out and pause, are each given the same count of about four. Some people find the steady counting calming, since it gives the mind a simple task, but he stressed that the pauses should be gentle and never strained. If it felt uncomfortable, he said, she should shorten the count or drop the pauses entirely.",
+      "Dev also demonstrated what some researchers call cyclic sighing, which consists of one breath in through the nose, a second short sip of air on top of it, and then a long, slow breath out through the mouth. A small number of trials have found that a few minutes of it a day can modestly lift mood, but the research is still young and its findings may change. Iris enjoyed it, though she admitted that it sounded more complicated than it felt.",
+      "Dev urged Iris to be sceptical of the bold claims that fill the internet, where breathing is said to cure everything from anxiety to cancer. The honest evidence is more modest: slow breathing seems to help many people with stress, mood and sleep, and it can complement medical treatment, but it does not replace it. Good science, he said, is never embarrassed to say that it does not know.",
+      "Dev ended the lesson with some important rules of safety that he wanted her to remember. If a breathing exercise makes a person dizzy, faint or unwell, they should stop and return to normal breathing, and they should never practise while driving, standing in a bath or lying near water. Anyone with a heart or lung condition, or who is pregnant, should consult a doctor before trying anything stronger than gentle, slow breathing.",
+      "Dev observed that singing is, in effect, a workout for the breathing muscles, since a singer must take in air quickly and then release it slowly and steadily over a long phrase. Iris had been doing this for years without ever thinking about how, and she began to see her choir practice in a new light. Studies of choirs suggest that singing in a group may also improve mood, although how much of this is breathing and how much is friendship is difficult to separate.",
+      "Dev asked Iris to close her lips and hum a low note, and she felt the gentle buzz travel through her nose and cheeks. One small study found that humming increased the amount of nitric oxide in the nasal passages, although it is far too early to draw conclusions, and the calm it brings may owe as much to the long, slow out-breath. Whatever the explanation, said Dev with a grin, it costs nothing and annoys nobody.",
+      "Dev pointed out that a slumped posture squeezes the chest and abdomen and can limit how freely the ribs and diaphragm are able to move. Sitting upright with relaxed shoulders gives the lungs a little more room, and singers are taught this from their first lesson, although it does not mean that anyone should hold themselves stiffly all day. Iris realised that her bad habit of curling over her phone had been working against her.",
+      "During exercise, working muscles demand more oxygen and produce more carbon dioxide, so breathing becomes faster and deeper without any instruction from us. Dev suggested a simple talk test as a guide: if you can still speak in short sentences while you walk or jog, the effort is probably comfortable, whereas if you cannot say a word, you may be pushing too hard. Regular exercise also strengthens the breathing muscles and makes everyday tasks feel a good deal easier.",
+      "Dev described what happens high in the mountains, where the air is thinner and each breath contains less oxygen, so that visitors breathe faster and their hearts beat harder. The body can adapt over days and weeks by making more red blood cells, but the change is slow, and anyone who develops a severe headache, confusion or breathlessness at height should descend and seek medical help. Iris decided, with a laugh, that the concert hall was quite high enough for her.",
+      "Smoke from fires, fumes from traffic, damp mould and fine dust can all irritate the airways, and some of the damage accumulates quietly over many years. Dev suggested that people choose cleaner air when they can, cook with the window open or an extractor on, and keep their homes well ventilated, though he acknowledged that those who live beside busy roads cannot always choose. Protection from polluted air, he said, is partly a question of public policy and not only of personal habit.",
+      "Tobacco smoke is among the most harmful things anyone can inhale, damaging the airways and the delicate air sacs and raising the risk of lung disease and cancer. The encouraging news, Dev said, is that stopping helps at every age, since the risks begin to fall within weeks and keep falling over the years that follow. Health services in many countries offer free, practical support to anyone who wants to quit, and he urged any smoker to ask a doctor or pharmacist for it.",
+      "In asthma, the airways become inflamed and narrow, causing wheezing, coughing, tightness in the chest and difficulty with breathing out. Dev was emphatic that anyone with asthma must follow the treatment plan agreed with their own doctor, including the use of inhalers, and that breathing exercises can only ever be an addition to that plan. Nobody, he warned, should ever put down an inhaler on the strength of something read online.",
+      "A cough is usually a helpful reflex that clears the airways of mucus, dust and germs, and in most cases it passes with a cold. Dev said that a cough lasting about three weeks or longer needs to be looked at by a doctor, as do coughing up blood, chest pain, unexplained weight loss and breathlessness that is new or getting worse. These signs are not usually serious, he explained, but they are exactly the kind that should never be left to chance.",
+      "Dev mentioned sleep apnoea, a condition in which the airway narrows or closes repeatedly during sleep and breathing stops for short periods. Loud snoring, gasping or choking at night, morning headaches and heavy sleepiness in the daytime are all reasons to see a doctor, since the condition can be diagnosed with a sleep test and managed with effective treatment. Iris wondered how many of the snorers in the choir might be affected, and she decided that it was kinder not to ask.",
+      "Dev added that slow and quiet breathing in bed may help some people to relax and to fall asleep, because it gives a busy mind something gentle and repetitive to follow. It does not work for everyone, and he stressed that long-term difficulty with sleep, or heavy tiredness during the day, is a matter for a doctor and not for a breathing trick. Iris tried it that evening and was asleep before she reached fifty breaths, which she counted as a success.",
+      "Lung function reaches its peak in early adulthood and then declines very gradually with the years, a change that is a normal part of ageing and not a disease. Staying active, avoiding tobacco smoke and keeping the air around us clean can all help to preserve comfortable breathing for longer. Dev said that some of his oldest patients were also his most cheerful walkers, and that it is rarely too late to begin moving.",
+      "Iris asked why we yawn, and Dev confessed that science has no firm answer. Several ideas have been proposed, such as cooling the brain or changing our level of alertness, and yawning is certainly catching, but none of the explanations has been proved to everyone's satisfaction. He said that he found it comforting that something as ordinary as a yawn could still be a mystery.",
+      "Dev's final lesson was about habit, and it was a modest one that anybody could manage. A few minutes of slow, gentle breathing a few times a day, he suggested, perhaps on waking, after lunch and before bed, will do more good than an hour of effort once a month. Iris pinned a note to her mirror and promised to be kind to herself on the days when she forgot.",
+      "On the night of the Winter Concert, Iris stood in the second row, felt her feet on the floor and let a slow, low breath fall into her belly before the first note. Her voice came out steady and warm, her hands were quiet at her sides, and when the last chord faded into the hall the audience rose in warm applause. She was still a little nervous, but now she had a way of meeting it.",
+      "Over tea in the empty hall after the concert, Dev told Iris that breathing is a useful tool and not a cure for everything, and that the greatest thing she had gained was the habit of noticing it. Her breath was always with her, he said, and she could return to it in a crowded train, before an interview or in the quiet of her bed. Nothing in the last six weeks had required a gadget, a subscription or a secret, only a little attention.",
+      "Iris and Dev sat together in the quiet hall as the lights were lowered one by one, and for a minute neither of them said anything at all, only breathed. This book has offered only general information, and the science of breathing is still growing, so it is not medical advice and cannot take the place of a doctor who knows you. If you are worried about your breathing, your lungs or your health, please speak to a medical professional, and then take one more slow, easy breath."
+    ]
+  }
+}

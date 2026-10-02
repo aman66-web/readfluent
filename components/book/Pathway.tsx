@@ -53,7 +53,7 @@ export function Pathway({ slug, level, length, outline, onOpen }: {
   const parts = Math.ceil(outline.length / PART_SIZE);
 
   return (
-    <section className="mt-8" aria-label={t("path.title")}>
+    <section data-tour="path" className="mt-8" aria-label={t("path.title")}>
       <h2 className="text-[12px] font-bold uppercase tracking-[0.1em] text-accent">{t("path.title")}</h2>
       {Array.from({ length: parts }, (_, p) => {
         const items = outline.slice(p * PART_SIZE, p * PART_SIZE + PART_SIZE);

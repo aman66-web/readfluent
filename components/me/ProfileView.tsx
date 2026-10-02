@@ -15,6 +15,8 @@ import { NAME_MAX, saveAnswers, toggleIn } from "@/lib/onboarding/answers";
 import { DAILY_MINUTES, DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { usePlan } from "@/lib/pro/state";
+import { restartTour } from "@/lib/tour/state";
+import { MASCOT_NAME } from "@/lib/brand";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { startAgain } from "@/lib/store/wipe";
 import { LEDGER_KEY, parseLedger, totalXp } from "@/lib/xp/ledger";
@@ -130,7 +132,7 @@ export function ProfileView() {
       <Link href="/" aria-label={t("ui.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
       </Link>
-      <h1 className="mt-2 text-[30px] font-bold tracking-[-0.02em]">{t("me.title")}</h1>
+      <h1 className="title-display mt-2">{t("me.title")}</h1>
 
       {/* Who they are: a name they choose, and whether they are signed in. */}
       <div className="mt-5 flex items-center gap-4 rounded-[22px] border border-border bg-surface p-4">
@@ -182,6 +184,18 @@ export function ProfileView() {
       </Group>
 
       <BadgeGrid />
+
+      <Group title={t("me.tour")}>
+        <Row last>
+          <Link href="/" onClick={() => restartTour()} className="flex min-h-11 w-full items-center gap-3 text-start active:opacity-70">
+            <span className="min-w-0 flex-1">
+              <span className="block text-[15px] font-semibold">{t("me.tour")}</span>
+              <span className="mt-0.5 block text-[13px] text-muted">{t("me.tourSub", { mascot: MASCOT_NAME })}</span>
+            </span>
+            <Chevron />
+          </Link>
+        </Row>
+      </Group>
 
       <Group title={t("me.premium")}>
         <Row last>

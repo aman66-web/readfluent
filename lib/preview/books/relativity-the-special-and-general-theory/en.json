@@ -1,0 +1,417 @@
+{
+  "slug": "relativity-the-special-and-general-theory",
+  "meta": {
+    "blurb": "What if two people could disagree about when something happened, and both be right? Einstein's own little book takes you from a train and a lightning bolt to bent starlight and a curved universe, one clear step at a time.",
+    "bible": "Albert Einstein: the physicist who wrote this book in 1916 for readers without mathematics; patient, plain and modest. Relativity: the theory in two parts, the Special theory (steady motion) and the General theory (gravity and any motion). Galileo: the Italian who noticed that all steady motion looks alike. Newton: whose law of gravitation the new theory improves. Euclid: the Greek whose geometry is taught in school. Lorentz: Hendrik Lorentz, the Dutch physicist behind the Lorentz transformation. Fizeau: the French physicist who measured light in flowing water. Michelson and Morley: who searched for the Ether and found nothing. Minkowski: Hermann Minkowski, the mathematician of four-dimensional Spacetime. Gauss: Carl Friedrich Gauss, who described curved surfaces with a net of lines. Mercury: the planet nearest the Sun. Berlin and the Potsdamer Platz: Einstein's example of a reference point. Embankment: the raised bank beside a railway track. Key terms: Geometry, Simultaneity, Coordinates, Transformation, Inertia, Gravitation, Equivalence, Acceleration, Perihelion, Eclipse, Spectrum, Spectral, Radium, Pi, Circumference, Diameter. Facts: light travels about 300,000 kilometres a second in empty space; Mercury's orbit has a turning of about 43 seconds of arc a century that Newton's law does not explain; the 1919 eclipse measurements supported the bending of starlight; the universe's true size and shape are left open. Voice and tone: clear, careful, patient and friendly, one idea at a time, with train and lightning examples."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "Einstein at his desk writing a small book for ordinary readers",
+      "summary": "Einstein says he wrote this book to explain relativity to readers who are not mathematicians."
+    },
+    {
+      "n": 2,
+      "scene": "A schoolboy draws a triangle and a straight line beside a measuring rod",
+      "summary": "Einstein begins with geometry, the school subject about points, lines and distances."
+    },
+    {
+      "n": 3,
+      "scene": "A tight string and a stiff rod stretched between two marks on the ground",
+      "summary": "Geometry becomes a science of the real world when its words are tied to real things such as rods and strings."
+    },
+    {
+      "n": 4,
+      "scene": "A cloud hangs above a famous city square while a tall pole stands below",
+      "summary": "To say where something is we need a reference body, such as the Potsdamer Platz in Berlin."
+    },
+    {
+      "n": 5,
+      "scene": "A man drops a stone from a moving train as a woman watches",
+      "summary": "Seen from the train a dropped stone falls straight, but seen from the bank it falls along a curve."
+    },
+    {
+      "n": 6,
+      "scene": "A passenger tosses a ball and pours tea in a smooth, steady train",
+      "summary": "Inside anything moving smoothly and steadily, the laws of mechanics work just as they do at rest."
+    },
+    {
+      "n": 7,
+      "scene": "A bright beam of light crosses a dark empty space from a lamp",
+      "summary": "Light travels in empty space at about 300,000 kilometres a second, and its speed seems always to be the same."
+    },
+    {
+      "n": 8,
+      "scene": "A man walks forward in a speeding train as light flashes ahead",
+      "summary": "Speeds seem to add up, yet light has one speed for everybody, and these two ideas clash."
+    },
+    {
+      "n": 9,
+      "scene": "A traveller checks a pocket watch beside a distant station clock",
+      "summary": "It is easy to give the time of an event beside us, but unclear what the same time means far away."
+    },
+    {
+      "n": 10,
+      "scene": "A watcher stands halfway between two distant lamps as both flash",
+      "summary": "Einstein defines two events as simultaneous if the light from them reaches the midpoint at the same moment."
+    },
+    {
+      "n": 11,
+      "scene": "Two lightning bolts strike the rails at far ends of a long railway embankment",
+      "summary": "Two bolts strike points A and B on the embankment, and an observer midway on the ground sees them together."
+    },
+    {
+      "n": 12,
+      "scene": "A passenger in a fast train leans toward the flash from B",
+      "summary": "A passenger on a train moving toward B meets the light from B first, so he says that B struck first."
+    },
+    {
+      "n": 13,
+      "scene": "Clocks on the embankment and on the train show different times side by side",
+      "summary": "There is no universal now: every body of reference has its own time."
+    },
+    {
+      "n": 14,
+      "scene": "A measuring rod lies beside a long moving carriage",
+      "summary": "The length of a moving body depends on how it is measured, and different observers find different answers."
+    },
+    {
+      "n": 15,
+      "scene": "A chalkboard shows two coordinate systems with a train drawn beside them",
+      "summary": "A rule called the Lorentz transformation turns one observer's measurements of place and time into another's."
+    },
+    {
+      "n": 16,
+      "scene": "A long rod shortens as it speeds past a clock that ticks slowly",
+      "summary": "Seen from outside, a moving rod is shorter along its line of motion, and a moving clock runs slower."
+    },
+    {
+      "n": 17,
+      "scene": "A beam of light races far ahead of a fast train",
+      "summary": "Nothing can travel faster than light, and the effects grow extreme as a body nears that speed."
+    },
+    {
+      "n": 18,
+      "scene": "A fast express train passes a platform where a clock shows the same time",
+      "summary": "At everyday speeds the effects are far too small to notice."
+    },
+    {
+      "n": 19,
+      "scene": "A man walks along a moving carriage while arrows mark the two speeds",
+      "summary": "Speeds do not simply add: the combined speed is a little less than the sum and never more than light."
+    },
+    {
+      "n": 20,
+      "scene": "Water rushes through a long tube while a beam of light passes through it",
+      "summary": "Fizeau's experiment on light in flowing water agrees with the new rule for adding speeds."
+    },
+    {
+      "n": 21,
+      "scene": "Two light beams cross a heavy stone table in a quiet laboratory",
+      "summary": "Scientists looked for the ether that was supposed to carry light, but the best experiments found no sign of the Earth moving through it."
+    },
+    {
+      "n": 22,
+      "scene": "A tiny lump of matter sits beside a great burst of bright energy",
+      "summary": "Mass and energy are two forms of one thing, so a very small mass equals a very large amount of energy."
+    },
+    {
+      "n": 23,
+      "scene": "A timeline arrow crosses the three directions of a room in a drawing",
+      "summary": "Minkowski showed that space and time can be joined in one four-dimensional world."
+    },
+    {
+      "n": 24,
+      "scene": "A signpost points from a road marked steady motion toward a harder road",
+      "summary": "The special theory covers only steady motion in a straight line, so Einstein turns to the harder case."
+    },
+    {
+      "n": 25,
+      "scene": "A spinning fairground ride beside a carriage gliding smoothly along rails",
+      "summary": "Einstein asks for laws of nature that hold for all bodies of reference, however they move."
+    },
+    {
+      "n": 26,
+      "scene": "A heavy ball and a light ball drop from a tall tower",
+      "summary": "In a gravitational field all bodies fall in the same way once the air is removed."
+    },
+    {
+      "n": 27,
+      "scene": "A hand pushes a heavy cart across a smooth floor beside a weighing scale",
+      "summary": "The mass that resists a push and the mass that gravity pulls on are exactly equal, which is why all things fall alike."
+    },
+    {
+      "n": 28,
+      "scene": "A large closed chest in empty space is pulled steadily upward by a rope",
+      "summary": "A man in a closed chest pulled upward with growing speed would feel just as if gravity pressed him to the floor."
+    },
+    {
+      "n": 29,
+      "scene": "A man in a windowless room holds a stone and wonders where he is",
+      "summary": "From inside a closed room, acceleration and gravity cannot be told apart, which is called the principle of equivalence."
+    },
+    {
+      "n": 30,
+      "scene": "A ray of light curves slightly as it crosses a rising chest",
+      "summary": "In the rising chest a light beam would curve, so light should bend in a gravitational field too."
+    },
+    {
+      "n": 31,
+      "scene": "Two clocks, one on a tower and one in a basement, differ",
+      "summary": "Clocks run more slowly where gravity is stronger."
+    },
+    {
+      "n": 32,
+      "scene": "A big flat disc turns steadily like a spinning platform in a playground",
+      "summary": "Einstein imagines a turning disc, where a person feels a force pushing outward that acts like gravity."
+    },
+    {
+      "n": 33,
+      "scene": "Small rods lie end to end around the rim of a spinning disc",
+      "summary": "On the turning disc, rods along the rim are shortened as seen from outside, so the rim is longer than Euclid's geometry says."
+    },
+    {
+      "n": 34,
+      "scene": "Clocks at the centre and the rim of a turning disc",
+      "summary": "Clocks at the rim of the disc run slower than at the centre, so time depends on place."
+    },
+    {
+      "n": 35,
+      "scene": "A fine net of lines is drawn over a curved ball",
+      "summary": "Gauss showed how to give positions on a curved surface with any net of lines, and the same idea is needed for curved space."
+    },
+    {
+      "n": 36,
+      "scene": "Three different nets of lines are drawn over the same curved surface",
+      "summary": "In the general theory any system of coordinates is equally good for describing nature."
+    },
+    {
+      "n": 37,
+      "scene": "A heavy ball sits on a stretched sheet, bending it, with a marble nearby",
+      "summary": "In the general theory matter curves space and time, and gravity is this curvature."
+    },
+    {
+      "n": 38,
+      "scene": "A planet circles a bright sun along a nearly round path",
+      "summary": "Einstein's equations contain Newton's law of gravity as a very good first approximation, but they give slightly different answers."
+    },
+    {
+      "n": 39,
+      "scene": "A scatter of stars drifts apart in an endless dark space",
+      "summary": "Einstein turns to the whole universe and shows that Newton's picture of it has serious difficulties."
+    },
+    {
+      "n": 40,
+      "scene": "A tiny ant walks along the endless-looking surface of a great ball",
+      "summary": "Space might be finite without having an edge, as the surface of a ball has limited area but no boundary."
+    },
+    {
+      "n": 41,
+      "scene": "Flat creatures draw circles and triangles on the surface of a huge ball",
+      "summary": "Flat creatures on a sphere could find out that their world is curved by measuring circles and triangles, and we might do the same with space."
+    },
+    {
+      "n": 42,
+      "scene": "A rocket flies a straight path through space and returns from the far side",
+      "summary": "In a closed, curved universe a traveller who went straight on for ever would come back to where he started."
+    },
+    {
+      "n": 43,
+      "scene": "A scale holds a small cluster of stars against an enormous dark space",
+      "summary": "If space is closed, its size would depend on how much matter it holds, which was not known well enough in 1916."
+    },
+    {
+      "n": 44,
+      "scene": "Mercury travels around the Sun on an oval path that slowly turns",
+      "summary": "Mercury's orbit turns slowly, and Einstein's theory explains a small part of the turning that Newton's law could not."
+    },
+    {
+      "n": 45,
+      "scene": "Astronomers photograph stars near the dark disc of the Sun during an eclipse",
+      "summary": "Starlight passing the Sun is bent, and eclipse measurements in 1919 agreed roughly with Einstein's prediction."
+    },
+    {
+      "n": 46,
+      "scene": "A bright spectrum of colours with its lines shifted slightly toward red",
+      "summary": "Light leaving a strong gravitational field is shifted slightly toward red, and later experiments confirmed it."
+    },
+    {
+      "n": 47,
+      "scene": "A still, empty stage with no walls, drawn under a great clock face",
+      "summary": "The theory removes Newton's idea of a still, absolute space and a time that flows alike for everybody."
+    },
+    {
+      "n": 48,
+      "scene": "Two observers in different trains watch the same beam of light",
+      "summary": "Despite its name, relativity says that the speed of light and the laws of nature are the same for everybody."
+    },
+    {
+      "n": 49,
+      "scene": "A steady train and a falling lift stand side by side",
+      "summary": "The special theory deals with steady motion and the general theory adds gravity and every other kind of motion."
+    },
+    {
+      "n": 50,
+      "scene": "Einstein smiles over a finished book with a starry cover",
+      "summary": "Einstein hopes the book gives the reader a happy hour of thought; a theory stays open to new tests."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Albert Einstein wrote this book to explain his ideas to ordinary people.",
+      "Einstein starts with geometry, the school subject about points and lines.",
+      "We use a stiff rod to measure the distance between two points.",
+      "We can say where a cloud is by naming a place below it.",
+      "From the train the stone falls straight, but from the ground it curves.",
+      "Inside a smooth train, a ball falls just as it does at home.",
+      "In one second, light can travel around the Earth about seven times.",
+      "A runner chasing light should find it slower, but it is not.",
+      "Telling the time is easy here, but hard for events far away.",
+      "Standing halfway between two lamps, we see both flashes at once.",
+      "Lightning strikes two places on the track at the same time.",
+      "A train passenger sees one flash first because he moves toward it.",
+      "There is no single time for everyone: each moving place has its own.",
+      "Two people may measure the same train and find different lengths.",
+      "A rule from mathematics lets us change one person's numbers into another's.",
+      "Seen from the ground, a fast train is shorter and its clocks go slow.",
+      "Nothing can ever go faster than light, not even the fastest rocket.",
+      "In daily life, the changes are far too small to see.",
+      "Two speeds put together never make a speed faster than light.",
+      "Light in moving water fits the new rule, not the old one.",
+      "Scientists looked for the stuff that carries light, but never found it.",
+      "A tiny bit of matter holds a very large amount of energy.",
+      "Place needs three numbers, and time makes a fourth number.",
+      "So far we looked at steady motion, but now comes harder motion.",
+      "Einstein wants laws that are true for every kind of motion.",
+      "In empty space, heavy and light things fall at the same speed.",
+      "The same thing makes an object heavy and hard to push.",
+      "In a box that speeds up, a man feels pulled to the floor.",
+      "From inside, we cannot tell a rocket's push from gravity.",
+      "Light bends a little when it passes near something heavy.",
+      "In strong gravity, a clock runs a little more slowly.",
+      "On a spinning platform, you feel a push toward the edge.",
+      "On the spinning disc, the old geometry no longer works.",
+      "A clock at the edge of the disc runs slower than at the middle.",
+      "A net of lines can show places on a curved surface.",
+      "Any net of lines is good for describing the world.",
+      "Heavy things bend space and time around them.",
+      "Newton's law of gravity is nearly right, but not exactly right.",
+      "Einstein next asks what the whole universe is like.",
+      "A ball's surface has no edge, but its size is limited.",
+      "Flat creatures on a ball could learn that the ball is curved.",
+      "In a closed space, a straight journey brings you home again.",
+      "How big the universe is depends on how much matter it holds.",
+      "Mercury's path around the Sun turns slowly, and Einstein explains why.",
+      "During an eclipse, stars near the Sun seem to move a little.",
+      "Light from a heavy star looks a little more red than usual.",
+      "The old idea of a fixed, still space is gone.",
+      "Some things stay the same for everyone, such as light's speed.",
+      "The first theory is about steady motion, and the second adds gravity.",
+      "Einstein hoped that his book would bring readers real pleasure."
+    ],
+    "B1B2": [
+      "Albert Einstein was a physicist who changed how we think about space and time. He wrote this small book so that readers without much mathematics could follow his ideas.",
+      "The book begins with geometry, the lessons about points, lines and shapes that many of us learned at school. Einstein asks what these simple ideas really mean, and why we should trust them.",
+      "Einstein says geometry becomes a science of the real world when its words are tied to real things. A straight line, for example, can be a tightly stretched string, and a distance is what a rigid rod measures.",
+      "To say where something is, we always compare it with something solid that we can see. If a cloud hangs above the Potsdamer Platz in Berlin, the square tells us where the cloud is.",
+      "A man on a moving train drops a stone from the window, and to him it falls in a straight line. A person standing beside the track sees the same stone fall along a curve, so the path depends on who is watching.",
+      "In a train that runs smoothly, you can toss a ball or pour tea exactly as you would at home. The laws of motion look the same in every system that moves steadily in a straight line.",
+      "Light travels through empty space at about 300,000 kilometres each second, enough to circle the Earth more than seven times. Careful experiments suggested that this speed is always the same, whoever measures it.",
+      "In everyday life, speeds add: a man walking forward on a moving train moves faster than the track beneath him. Light seems to ignore this rule, because its speed stays the same for everyone, and so two sound ideas seem to clash.",
+      "When a train arrives at seven o'clock, we simply compare the arrival with the hands of our watch. But what does it mean to say that two events at far-apart places happen at the same time?",
+      "Einstein offers a definition that can actually be tested. Two flashes happen at the same time if an observer standing exactly halfway between them sees the light from both arrive together.",
+      "Picture a long railway embankment, and imagine two lightning bolts striking it at points A and B. A man standing exactly halfway between them sees both flashes together, so for him the strikes happened at the same moment.",
+      "Now a train passes along the track, and a passenger sits in the middle of it, travelling toward B. He runs into the light from B before the light from A catches him, so he concludes that bolt B struck first.",
+      "This means that time cannot be the same everywhere for everyone. Each body of reference has its own time, and a statement about time makes sense only when we say which body we mean.",
+      "To measure a moving carriage, an observer on the ground must mark where its two ends are at the same moment. Because observers disagree about what is simultaneous, the lengths they find can differ too.",
+      "Physicists needed a rule for turning one observer's measurements of place and time into another's. This rule is called the Lorentz transformation, and it replaces the old rule, which treated time as the same for everybody.",
+      "Seen from the ground, a rod that flies past is shorter along its line of motion than when it rests. A moving clock also ticks more slowly than an identical clock that stays still beside the observer.",
+      "Einstein shows that no body can travel faster than light in empty space. As a body gets closer to that speed, the equations demand more and more extreme effects, until they stop making sense.",
+      "You might ask why we never notice any of this on a train or in a car. The reason is that even the fastest train is very slow compared with light, so the changes are far too small to notice.",
+      "When a man walks along a moving train, his speed over the ground is almost, but not exactly, the sum of the two speeds. The new rule always gives an answer below the speed of light, even if you add two very large speeds.",
+      "Long before Einstein, a French scientist named Fizeau measured the speed of light in flowing water. The result did not match the old rule for adding speeds, but it agrees well with the new one.",
+      "Scientists once believed that light needed a substance to travel through, which they called the ether. Michelson and Morley tried to detect the Earth's motion through it, but their experiment found no sign of it.",
+      "One result of the theory is that mass and energy are two forms of the same thing. A very small amount of matter equals an enormous amount of energy, as the famous equation linking energy, mass and the speed of light shows.",
+      "The mathematician Hermann Minkowski found a beautiful way to look at the theory. Every event needs three numbers to say where it happened and one more to say when, so the world has four dimensions.",
+      "So far, the theory has dealt only with bodies that move steadily in a straight line. Real life is full of starting, stopping and turning, and Einstein now wants a theory that covers those too.",
+      "Why should the laws of nature be simple only for observers who move steadily? Einstein asks for something wider, a principle by which all bodies of reference, however they move, are equally good for describing nature.",
+      "If air did not get in the way, a heavy stone and a light feather would hit the ground together. This strange fact is true of all bodies, and it is the clue that led Einstein toward his general theory.",
+      "A body's mass tells us two things: how hard it is to push, and how strongly the Earth pulls on it. These two measures always turn out to be equal, and that is exactly why everything falls in the same way.",
+      "Imagine a large closed box in empty space, pulled steadily upward with growing speed. A man inside would feel his feet pressed to the floor and would see a dropped stone fall, exactly as if he stood on Earth.",
+      "Einstein concludes that being pushed by acceleration and being pulled by gravity feel the same inside a closed room. Physicists call this important idea the principle of equivalence, and it is a key step.",
+      "In the rising chest, a beam of light sent across from one wall would curve downward, because the floor rushes up to meet it. By the same reasoning, a beam of light should bend as it passes through a gravitational field.",
+      "The theory also says that a clock runs slower where the pull of gravity is stronger. A clock at the bottom of a tower therefore ticks very slightly slower than one at the top.",
+      "To explore the new ideas, Einstein imagines a large disc that turns steadily, like the floor of a ride at a fair. A person standing on it feels a force pushing outward, and that force acts like a strange kind of gravity.",
+      "Rods laid along the edge of the turning disc are shortened by its motion, but rods laid across the middle are not. So it takes more rods to go around the edge, and the edge is longer than the school rule says.",
+      "Clocks also behave in a very odd way on the turning disc. A clock at the rim moves fast and so runs slower than one at the centre, which means that time depends on where you are.",
+      "Carl Friedrich Gauss showed how to give positions on a curved surface, such as a ball, using a net of lines. Einstein realised that the same idea could be used for space and time themselves.",
+      "Because gravity curves space and time, we can no longer rely on straight rods and ordinary clocks. Any way of labelling events with four numbers is equally good, and the laws of nature must keep their form in all of them.",
+      "In the general theory, space and time are not a fixed stage. A heavy body bends the space and time around it, and other bodies move along the curves that this bending makes.",
+      "Newton's law of gravity works wonderfully for most purposes, and Einstein's equations agree with it almost exactly. They differ only in small details, and those small differences give astronomers a way to test the new theory.",
+      "Einstein now asks about the whole universe, and he shows that Newton's picture has problems. If the stars fill only a limited part of an endless space, they should slowly drift away into the dark.",
+      "Einstein offers a way out: space could be finite without having any edge or wall. The surface of a ball is like that, because you can walk on it forever without coming to an end, yet its area is limited.",
+      "Imagine flat creatures who live on a huge ball and cannot look off it. By measuring circles and triangles on their world, they could discover that it is curved, and we might do the same for space.",
+      "In such a universe, a traveller who set off in a straight line would never reach an edge. After a very long journey, he would find himself back at the place where he began.",
+      "If space is closed in this way, its size would depend on the average amount of matter in it. In Einstein's time, nobody knew that amount well enough to say how large the universe might be.",
+      "The planet Mercury moves around the Sun on an oval path that slowly turns, a little more each year. Newton's law could not explain part of this turning, about 43 seconds of arc in a century, but Einstein's theory accounts for it.",
+      "Einstein predicted that starlight passing close to the Sun would bend by a small angle. During a total eclipse of the Sun in 1919, astronomers photographed stars near its edge and found shifts of about the size he had predicted.",
+      "The theory also says that light leaving a strong gravitational field loses a little energy, so its colour moves slightly toward red. This was hard to measure at first, but later experiments, including some on Earth, have confirmed it.",
+      "Newton believed in a space that stood perfectly still and a time that flowed the same for everyone. Einstein's theory shows that nature does not need either idea.",
+      "Despite its name, relativity does not say that everything is a matter of opinion. The speed of light and the laws of nature are the same for everybody, and only our measurements depend on who is measuring.",
+      "The special theory deals with steady motion in a straight line, and it joins space and time together. The general theory goes further, because it explains gravity as the bending of space and time.",
+      "Einstein ends by hoping that his small book will give its readers some hours of pleasure and a taste for careful thought. Like every theory, his own stays open to new tests, and that is what makes it science."
+    ],
+    "C1C2": [
+      "Albert Einstein published his little book on relativity in 1916, at a time when most people had never heard of the theory that was about to change physics. He wrote it for readers who loved ideas but had no training in mathematics, and he promised to go slowly and to use plain examples. Anyone willing to think patiently, he believed, could follow the argument from its first simple step to its far-reaching end.",
+      "Einstein begins with something every schoolchild has met: the geometry of points, straight lines and triangles. These ideas seem so obvious that we rarely stop to ask what they are about, or why we should trust them. He wants his reader to see that even the plainest rules of shape rest on questions worth asking.",
+      "Geometry, Einstein explains, stops being pure thought and becomes a branch of physics the moment its words are tied to real objects. A straight line can be the path of a tightly stretched string or a ray of light, and a distance is whatever a rigid measuring rod reports when it is laid from point to point. Whether the old rules of shape are true is then a question for experiment, not just for argument.",
+      "Every statement about where a thing is, Einstein points out, quietly depends on some solid body that we have agreed to use as a marker. When we say that a cloud hangs above the Potsdamer Platz in Berlin, the square is that marker, and a tall pole could in principle measure the height of the cloud. Physicists call such a marker a body of reference, and the whole theory depends on choosing it with care.",
+      "Imagine a stone dropped from the window of a train that runs steadily along a straight track. The traveller sees it fall in a perfectly straight line, whereas a person standing on the embankment sees it trace a curve, because the stone keeps moving forward with the train as it falls. Neither description is wrong, and so a path through space has no meaning until we say which body of reference it is measured against.",
+      "Galileo had already noticed that inside a ship or carriage moving smoothly and steadily, everything happens just as it does on firm ground. A ball thrown upward falls back into the hand, and a cup of water pours in the usual way, so no experiment of mechanics can reveal that the vehicle is moving at all. This idea, called the principle of relativity, is the old seed from which Einstein's new theory grew.",
+      "Light moves through empty space at about 300,000 kilometres a second, a speed so great that a beam could circle the Earth more than seven times before a clock had ticked once. Every careful measurement made in Einstein's time agreed on this number, and it seemed to belong to nature itself rather than to any lamp or any observer. That small fact, he would show, forces us to rethink what we mean by time.",
+      "In everyday life, speeds simply add together, so that a man walking forward along a moving train is travelling faster, relative to the ground, than the train itself. If light obeyed the same rule, a ray would pass the train and the embankment at different speeds, yet all experience says that its speed in empty space is one and the same. Einstein saw that two things we trust completely, the addition of speeds and the constancy of light, cannot both be kept unless we change what we believe about time and space.",
+      "Time seems simple to us, because we compare an event near us, such as the arrival of a train, with the position of the hands on our watch. The difficulty begins when two events happen far apart, for then we must decide what it means to say that they happened at the very same moment. Einstein insists that this question has no answer until someone has described, in terms of an actual measurement, how the answer would be found.",
+      "Einstein proposes a definition that anyone could test with a measuring tape and a keen eye. Two events at different places are simultaneous, he says, if an observer standing exactly midway between them receives the light of both at the very same instant. It is a simple rule, and its simplicity hides a surprise that will take the next few pages to unfold.",
+      "Einstein asks us to picture a long railway embankment struck by two bolts of lightning, one at a point A and the other at a point B far along the line. An observer standing exactly halfway between them sees the two flashes arrive together, and so, by the rule just given, he declares that the bolts struck at the same moment. Up to this point, nothing seems at all strange, and the surprise is still waiting a few lines ahead.",
+      "A passenger sitting in the middle of a fast train, travelling toward B, is moving to meet the light from that flash and away from the light that comes from A. He therefore sees the flash from B first, and he concludes, with perfect logic, that the bolt at B struck before the bolt at A. Two honest observers, each using the same rule, disagree about which events were simultaneous, and neither can be called mistaken.",
+      "The lesson is startling: there is no single moment that all observers share, however carefully they compare their watches. Every body of reference carries its own time, and a statement about when something happened is complete only when it says which body is meant. What had seemed an absolute background to the world turns out to depend on the motion of the observer.",
+      "Length is measured by marking where the two ends of an object are at the same moment, and this is easy only if the object is standing still. When the carriage is moving, the person on the embankment must mark its ends together, and since observers disagree about what together means, they can disagree about the length. Space, like time, turns out to be less rigid than our everyday habits suggest.",
+      "Physicists needed a precise rule for converting one observer's measurements of place and time into those of another observer moving steadily past. That rule, named after the physicist Hendrik Lorentz, replaces the old assumption of one time for everybody. It follows from two plain facts, that the laws of nature are alike for all steady observers and that light has one speed, and at everyday speeds it gives almost exactly the old answers.",
+      "According to the theory, a rod that flies past an observer is measured as shorter in the direction of its motion than it is when at rest. In the same way, a clock that moves relative to the observer ticks more slowly than an identical clock standing beside him. These are not tricks of the eye or faults of the instruments, but real consequences of the way space and time are joined.",
+      "One striking result is that the speed of light acts as a limit that no material body can reach, let alone pass. As an object approaches that speed, the shortening of its length and the slowing of its clocks grow ever more extreme, until at the limit the equations cease to describe anything real. Nature, it seems, has fixed a speed beyond which neither messages nor matter can go.",
+      "If these effects were real, one might ask, why has no passenger ever noticed a shortened carriage or a slow wristwatch? The answer is that even the fastest express moves at a tiny fraction of the speed of light, so the changes are smaller than anything an ordinary instrument could detect. Only when speeds approach that of light do the old and new theories part company in a way that cannot be ignored.",
+      "The old rule, in which speeds are added like lengths of string, turns out to be only an approximation that works at low speeds. When a man walks along a moving train, the true speed over the ground is a little less than the plain sum, and the difference grows as the speeds grow larger. Even if two speeds close to that of light are combined, the result never reaches or passes the speed of light itself.",
+      "Experiments had already hinted that the old rule was wrong, for in the middle of the nineteenth century the French physicist Hippolyte Fizeau measured the speed of light in water that was flowing through a tube. The light was carried along by the moving water far less than the old way of adding speeds required, yet the figures fit the new rule closely. Einstein presents this as one of several tests that the theory had, in effect, passed before it was even stated.",
+      "For a long time, scientists assumed that light waves must travel through some invisible substance filling all space, which they named the ether. If the Earth moved through it, careful experiments such as that of Michelson and Morley should have revealed a kind of ether wind, and yet they found nothing at all. Einstein's theory explained this silence neatly, for it has no need of any substance that could be used to say what is truly at rest.",
+      "Among the most far-reaching results of the special theory is that energy has inertia, so that every store of energy carries mass, and every piece of matter is a hidden store of energy. Because the speed of light is multiplied by itself in the equation that links the two, even a very small mass corresponds to a colossal amount of energy. Einstein remarks that the idea could not be tested in his day, though he suspected that radioactive substances such as radium might one day provide the proof.",
+      "The mathematician Hermann Minkowski, who had once taught Einstein, realised that the new theory is most natural in a world of four dimensions. Any event needs three numbers to say where it happened and a fourth to say when, and in his view space and time are no longer separate things but aspects of one whole. Minkowski himself said that, from then on, space by itself and time by itself were doomed to fade into mere shadows.",
+      "The special theory, as its name admits, applies only to observers who move steadily and in a straight line relative to one another. Yet the real world is full of starting, stopping and turning, and no honest physicist could be content with a principle that held for only the simplest kind of motion. Einstein therefore sets out to widen his theory, and the road he takes leads straight to gravity.",
+      "It seems arbitrary, Einstein argues, that the laws of nature should look simple to observers in steady motion yet become complicated for everyone else. He therefore demands a wider principle, the general principle of relativity, by which all bodies of reference, however they twist and accelerate, are equally suitable for describing nature. To satisfy it, he must first understand the force that ruled the old physics most completely, which is gravity.",
+      "A heavy stone and a light feather fall at the same rate once the resistance of the air is removed, and the same is true of every body that has ever been tested. This curious fact, familiar since the days of Galileo, had been treated for centuries as a mere coincidence of the old physics. Einstein saw in it the very key that would unlock the secret of gravitation.",
+      "Physics uses the word mass in two quite different ways: the stubbornness with which a body resists being pushed, and the strength with which gravity pulls on it. Experiment shows these two quantities to be exactly equal, and that is precisely why every object, heavy or light, falls with the same acceleration. In the old physics this equality was a puzzling accident, but Einstein suspected that it was a clue to something deep.",
+      "Einstein asks us to imagine a large closed chest, far out in empty space, being pulled upward by a rope with a steadily increasing speed. A man inside would feel his feet pressed against the floor, and a stone that he let go would drop to the floor beside him, just as it would on the surface of the Earth. Without a window to look through, he could not tell whether the chest was being pulled through space or resting in a gravitational field.",
+      "The conclusion is that, so far as any experiment inside a small closed room can show, a steady acceleration and a gravitational field are one and the same. This is called the principle of equivalence, and it allows Einstein to bring gravity within the reach of his new theory, because accelerated motion can now be treated like any other body of reference. A gravitational field is no longer a separate mystery but part of the same family of ideas.",
+      "In the rising chest, a ray of light sent from one wall toward the opposite wall would arrive a little below the point at which it was aimed, because the floor has moved upward in the meantime. Since an accelerated chest and a gravitational field are equivalent, a ray of light must also bend when it passes a heavy body such as the Sun. This was a bold prediction, and it could be tested by looking at stars near the Sun during an eclipse.",
+      "The same reasoning leads to a second prediction, that a clock runs more slowly the stronger the gravitational pull at the place where it stands. A clock at the foot of a tower, where gravity is a shade stronger, must therefore tick fractionally more slowly than an identical clock at the top. The difference is far too small to notice in daily life, but it is real, and modern atomic clocks can detect it.",
+      "To test his ideas, Einstein imagines a large circular platform that turns steadily about its centre, like the floor of a fairground ride. A person standing near its edge feels a strong force pulling outward, which behaves exactly like a gravitational field that grows stronger the farther he walks from the middle. By measuring things on such a disc, he hopes to find out how gravity affects the geometry of space.",
+      "Suppose we measure the disc with short rods, laying them end to end around the rim and then across the middle. The rods along the rim move in the direction of their length and are shortened, as seen from outside, whereas those along the diameter are not, so the rim turns out to be longer than the old rule allows. In other words, the ratio of circumference to diameter is larger than the familiar number pi, and the geometry of Euclid no longer holds on the disc.",
+      "Clocks on the disc behave in just as surprising a way as the rods do. One placed at the rim is carried round at high speed and therefore ticks more slowly than a twin at the centre, so each place on the disc has a rate of time of its own. Because a gravitational field is equivalent to such a state of motion, time must pass at different rates at different places in a gravitational field too.",
+      "The mathematician Carl Friedrich Gauss had shown long before how to describe positions on a curved surface, using a net of lines drawn on it rather than a ruler and a square. On such a surface there is no natural grid of straight lines, and any convenient net of curves will do for giving each point its two numbers. Einstein saw that the same freedom was needed for space and time themselves, once gravity had made them curved.",
+      "In a curved world, rigid rods and ordinary clocks cannot be used as simple rulers everywhere, so Einstein allows any labelling of events by four numbers whatever. Nothing about one system of coordinates makes it more truthful than another, and the laws of nature must keep their form when we move from one system to another. This demand, more than any other, is the heart of what Einstein calls the general principle of relativity.",
+      "The general theory describes space and time not as a fixed stage on which events happen, but as a flexible fabric. A heavy body such as the Sun bends the fabric around it, and the planets follow the curved paths that result, with no mysterious pull acting across empty space. Gravity, in Einstein's account, is not so much a force as a feature of the shape of the world.",
+      "Newton's law of gravitation remains a magnificent achievement, and in most everyday and astronomical situations Einstein's equations give practically the same answers. They differ only in small details, such as the precise paths of fast-moving bodies or of light near massive objects, and those small differences make the new theory open to test. A good new theory, as here, keeps the old one as a special case instead of throwing it away.",
+      "In the last part of the book Einstein turns to the universe as a whole, and finds that the old Newtonian picture is troubled by serious difficulties. If the stars fill only a limited region of endless empty space, they ought gradually to scatter, whereas if matter fills endless space evenly, the old law of gravitation produces results that make no sense. A fresh idea about the nature of space, and not merely a correction of the old law, seemed to be needed.",
+      "Einstein suggests that space may be finite in size and yet have no edge, wall or boundary of any kind. The surface of a ball offers a helpful picture: an ant crawling on it can wander for ever without meeting an edge, and still the total area of the surface is limited. Space, he proposes, might be curved in a similar way, but with three dimensions instead of two.",
+      "Imagine flat creatures who live on the surface of an enormous ball and cannot lift their eyes from it. By drawing circles and triangles and measuring them carefully, they could discover that their world is curved, because the rules they find would differ from those of the school book. We, too, might one day discover the curvature of our own space by means of careful measurements on a very large scale.",
+      "In a universe of this kind, a traveller who set out in a perfectly straight line would never come to a wall or an edge. After a journey of unimaginable length he would find himself approaching his starting point from the opposite direction, having crossed all of space without turning once. Einstein offers this as a possibility consistent with his equations, not as an established fact.",
+      "If space is closed in this way, Einstein shows, its size is linked to the average density of matter in it: the more matter there is, the more tightly space curves. The measurements available in 1916 were far too uncertain to fix this density, and he is careful to say that the question must be left open. Modern astronomers, armed with far better instruments, have taken up the same question and continue to study it with great care.",
+      "The orbit of Mercury, the planet nearest the Sun, is an oval that turns very slowly, so that its closest point to the Sun creeps round a little each century. Astronomers could account for almost all of this motion with Newton's law, but about 43 seconds of arc in each century remained unexplained for many decades. Einstein's equations, without any adjustment, give just that amount, and the agreement was a powerful sign that the theory was right.",
+      "Einstein calculated that a ray of starlight grazing the Sun should be bent by a small angle, about one and three-quarter seconds of arc, which is very hard to detect. The stars can be seen near the Sun only during a total eclipse, and in 1919 expeditions sent to observe one measured shifts of roughly the predicted size. The news made Einstein famous, and it persuaded many scientists that the new picture of gravity deserved to be taken seriously.",
+      "A third prediction concerns the colour of light: because clocks run slowly in strong gravity, light leaving the surface of a heavy star should be shifted slightly toward the red end of the spectrum. The effect on the Sun is small and was hard to measure in Einstein's time, but later experiments, including careful ones on Earth, have confirmed it. Each of these successes was a test that the theory could have failed, which is exactly what makes passing it so impressive.",
+      "For two centuries physics had rested on Newton's belief in an absolute space that stood perfectly still and an absolute time that flowed equally for everyone. Einstein's theory shows that nature needs neither: there is no place that is truly at rest, and no universal moment that all observers share. What replaces them is a world in which space and time are bound together and shaped by the matter that moves within them.",
+      "Despite its name, the theory of relativity does not say that everything is a matter of opinion or that nothing can be known for certain. The speed of light and the laws of nature are the same for every observer, and it is only our separate measurements of time and distance that depend on who happens to be doing the measuring. Behind the changing appearances, Einstein hoped, there lay a deeper and simpler order, and finding it was the whole purpose of the theory.",
+      "Put briefly, the special theory deals with steady motion in a straight line, and it joins space and time into one four-dimensional world whose measurements depend on the observer. The general theory goes further, because it admits every kind of motion and explains gravity as the curving of that world by matter and energy. Together they overthrew the picture of the universe that had satisfied scientists since the time of Newton.",
+      "Einstein closed his book with the hope that it would give its readers a few hours of real pleasure and a taste for careful thought, even if they never touched the mathematics behind it. A theory such as his, however beautiful, remains open to new tests, and it must be given up if the world refuses to agree with it. That honest readiness to be checked is what makes the theory not a belief but a piece of science, and it is why the story has not stopped."
+    ]
+  }
+}

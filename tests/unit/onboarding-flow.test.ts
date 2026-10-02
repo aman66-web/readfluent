@@ -421,7 +421,6 @@ describe("Recall is a hub", () => {
     expect(html).toContain('data-way="talk"');
     expect(html).toContain('href="/recall/talk"');
     expect(t).toContain("Your cards");
-    expect(t).toContain("Ways to practise");
     expect(t).not.toContain("Coming soon");
   });
 });

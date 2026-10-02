@@ -179,8 +179,8 @@ export function Library({ books }: { books: PreviewBook[] }) {
 
           {category === "all" ? (
             <div className="mt-7 flex flex-col gap-9">
-              {shelves.map((shelf) => (
-                <section key={shelf.id} aria-labelledby={`shelf-${shelf.id}`}>
+              {shelves.map((shelf, si) => (
+                <section key={shelf.id} aria-labelledby={`shelf-${shelf.id}`} data-tour={si === 0 ? "shelf" : undefined}>
                   <div className="flex items-center gap-2.5">
                     <span aria-hidden className="h-6 w-1.5 rounded-full" style={{ background: `hsl(${shelf.hue} 70% 52%)` }} />
                     <h2 id={`shelf-${shelf.id}`} className="text-[20px] font-bold tracking-[-0.01em]">{t(`cat.${shelf.id}`)}</h2>

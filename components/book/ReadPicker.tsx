@@ -25,9 +25,9 @@ const stroke = { fill: "none", stroke: "currentColor", strokeWidth: 1.9, strokeL
 const Lock = () => <svg viewBox="0 0 24 24" className="size-3.5" {...stroke} strokeWidth={2.4} aria-hidden><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V8a4 4 0 0 1 8 0v3" /></svg>;
 
 /** A small titled card the page's sections sit in. */
-function Card({ title, aside, children, label }: { title: string; aside?: ReactNode; children: ReactNode; label?: string }) {
+function Card({ title, aside, children, label, tour }: { title: string; aside?: ReactNode; children: ReactNode; label?: string; tour?: string }) {
   return (
-    <section className="rounded-[24px] border border-border bg-surface p-4 shadow-[0_10px_24px_-20px_rgba(8,47,60,.5)]" aria-label={label ?? title}>
+    <section data-tour={tour} className="rounded-[24px] border border-border bg-surface p-4 shadow-[0_10px_24px_-20px_rgba(8,47,60,.5)]" aria-label={label ?? title}>
       <div className="flex items-baseline justify-between gap-3">
         <h2 className="text-[12px] font-bold uppercase tracking-[0.1em] text-accent">{title}</h2>
         {aside}
@@ -107,7 +107,7 @@ export function ReadPicker({ slug, lengths, outline: english = [], children }: {
       <div className="mt-3 flex flex-col gap-3">
         {children && <Card title={t("book.about")}><div className="mt-2.5">{children}</div></Card>}
 
-        <Card title={t("book.levels")} aside={levelInfo && <p className="text-end text-[13px] font-semibold text-foreground/80">{t(`level.${levelInfo.id}.name`)}</p>}>
+        <Card tour="levels" title={t("book.levels")} aside={levelInfo && <p className="text-end text-[13px] font-semibold text-foreground/80">{t(`level.${levelInfo.id}.name`)}</p>}>
           <div className="mt-3 grid grid-cols-3 gap-2" role="group" dir="ltr">
             {LEVELS.map((l) => {
               const on = level === l.id;
@@ -123,7 +123,7 @@ export function ReadPicker({ slug, lengths, outline: english = [], children }: {
           {levelInfo && <p className="mt-3 text-[13.5px] leading-snug text-muted">{t(`level.${levelInfo.id}.blurb`)}</p>}
         </Card>
 
-        <Card title={t("book.lengths")}>
+        <Card tour="lengths" title={t("book.lengths")}>
           <div className="mt-3 grid gap-2" style={{ gridTemplateColumns: `repeat(${lengths.length}, minmax(0, 1fr))` }} role="group">
             {lengths.map((n) => {
               const on = length === n;
@@ -144,7 +144,7 @@ export function ReadPicker({ slug, lengths, outline: english = [], children }: {
 
       {/* The way in stays on screen above the menu, wherever the page is scrolled to. */}
       <div className="sticky bottom-[calc(env(safe-area-inset-bottom)+5.25rem)] z-30 -mx-5 mt-auto bg-gradient-to-t from-background via-background to-transparent px-5 pb-2 pt-8">
-        <button type="button" onClick={() => start()} className="inline-flex h-14 w-full select-none items-center justify-center gap-2.5 rounded-full bg-accent px-6 text-[17px] font-bold text-white shadow-[0_14px_26px_-12px_rgba(14,116,144,.8)] active:opacity-90">
+        <button type="button" data-tour="read" onClick={() => start()} className="inline-flex h-14 w-full select-none items-center justify-center gap-2.5 rounded-full bg-accent px-6 text-[17px] font-bold text-white shadow-[0_14px_26px_-12px_rgba(14,116,144,.8)] active:opacity-90">
           {t(reached === undefined ? "sheet.read" : "book.continue")}
           <span className="grid size-8 place-items-center rounded-full bg-white/20" aria-hidden>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="size-3.5 rtl:-scale-x-100"><path d="M5 12h13M12 5l7 7-7 7" /></svg>

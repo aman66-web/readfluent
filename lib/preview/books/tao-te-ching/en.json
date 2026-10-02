@@ -1,0 +1,417 @@
+{
+ "slug": "tao-te-ching",
+ "meta": {
+  "blurb": "Eighty-one tiny chapters, written in ancient China and said to come from a sage named Laozi. They speak of water, silence, softness and simple living. Read the best-loved of them, and see why this small book has been translated into hundreds of languages.",
+  "bible": "Tao Te Ching: a short book of 81 brief chapters from ancient China; the title can be translated as the Way and its Power. Laozi: the sage to whom tradition gives the book; the name means Old Master. Historians cannot say for certain who he was, whether he was one person or several, or exactly when the text was put together; the old story that he wrote it for a gatekeeper at the western pass as he left China is a legend. Tao: the Way, the deep pattern behind all things. Te: power or virtue. China: the ancient country where the book was written. The sage: the wise person the book describes, who acts without forcing, does not boast and does not hoard. Ten thousand things: the old way of saying everything in the world. Heaven: the great natural order above. Each beat is one chapter of the book, named by its number (some chapters take two beats); beat 1 introduces the book and beat 50 tells the legend of its writing. Voice and tone: calm, plain, gentle and slightly humorous; the chapters are paraphrased and never copied; respectful of the tradition and neutral; nothing preached; no gore."
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "An old man in plain robes rides an ox toward a mountain pass",
+   "summary": "Introduces the Tao Te Ching, its 81 short chapters, and the old story of Laozi."
+  },
+  {
+   "n": 2,
+   "scene": "A mountain peak is lost in mist above a quiet river",
+   "summary": "Chapter 1: the Tao that can be put into words is not the true Tao."
+  },
+  {
+   "n": 3,
+   "scene": "A tall tree and a small flower grow side by side",
+   "summary": "Chapter 2: opposites such as long and short, high and low, depend on each other."
+  },
+  {
+   "n": 4,
+   "scene": "A quiet old man tends a garden and walks away unthanked",
+   "summary": "Chapter 2: the sage teaches without speeches and works without claiming credit."
+  },
+  {
+   "n": 5,
+   "scene": "A quiet village where a small jewelled box sits unguarded on a table",
+   "summary": "Chapter 3: if rare treasures are not prized, people will not be tempted to steal."
+  },
+  {
+   "n": 6,
+   "scene": "A deep green valley with a stream running quietly through its centre",
+   "summary": "Chapter 6: the empty valley never runs dry and gives life without end."
+  },
+  {
+   "n": 7,
+   "scene": "A stream flows around smooth stones toward the sea",
+   "summary": "Chapter 8: the highest good is like water, which helps all and competes with none."
+  },
+  {
+   "n": 8,
+   "scene": "A bowl filled to the very edge, with water about to spill over",
+   "summary": "Chapter 9: a bowl filled too full spills, and a blade sharpened too much will not last."
+  },
+  {
+   "n": 9,
+   "scene": "A potter shapes a clay bowl beside a wheel hub with spokes",
+   "summary": "Chapter 11: a wheel, a pot and a room are useful because of the empty space in them."
+  },
+  {
+   "n": 10,
+   "scene": "Muddy water in a glass jar slowly settles and turns clear",
+   "summary": "Chapter 15: muddy water becomes clear if it is left still."
+  },
+  {
+   "n": 11,
+   "scene": "Bare winter trees whose fallen leaves return quietly to the soil",
+   "summary": "Chapter 16: all things flourish and then return to their roots, and to see this brings peace."
+  },
+  {
+   "n": 12,
+   "scene": "People harvest a field together while their ruler watches from a distance",
+   "summary": "Chapter 17: the best ruler is hardly known, and his people say they did it themselves."
+  },
+  {
+   "n": 13,
+   "scene": "A bamboo stalk bends in a strong wind and then stands straight again",
+   "summary": "Chapter 22: those who yield remain whole, and those who do not compete cannot be defeated."
+  },
+  {
+   "n": 14,
+   "scene": "A man on tiptoe stretches high and wobbles beside a steady walker",
+   "summary": "Chapter 24: one who stands on tiptoe cannot stand firmly, and one who boasts does not last."
+  },
+  {
+   "n": 15,
+   "scene": "A glowing circle of mist hangs above a still dark sea before dawn",
+   "summary": "Chapter 25: something silent and whole existed before heaven and earth, and it is called the Tao."
+  },
+  {
+   "n": 16,
+   "scene": "Footprints are missing from fresh snow behind a quiet traveller",
+   "summary": "Chapter 27: a good traveller leaves no tracks, and the wise help everyone."
+  },
+  {
+   "n": 17,
+   "scene": "A plain block of pale wood lies uncarved on a workbench",
+   "summary": "Chapter 28: return to simplicity, like an uncarved block of wood."
+  },
+  {
+   "n": 18,
+   "scene": "A general lays down his sword and bows his head over a quiet field",
+   "summary": "Chapter 31: weapons bring sorrow, and even a victory should be mourned."
+  },
+  {
+   "n": 19,
+   "scene": "A man stands before a still pond and looks at his own reflection",
+   "summary": "Chapter 33: knowing oneself is true wisdom and mastering oneself is true strength."
+  },
+  {
+   "n": 20,
+   "scene": "A broad river spreads into countless streams across a green plain",
+   "summary": "Chapter 34: the great Tao flows everywhere, feeds all things and claims none."
+  },
+  {
+   "n": 21,
+   "scene": "A king watches the fields grow by themselves under a bright sky",
+   "summary": "Chapter 37: the Tao does nothing, yet nothing is left undone."
+  },
+  {
+   "n": 22,
+   "scene": "A ripple on a pond spreads outward and slowly returns to calm",
+   "summary": "Chapter 40: returning is the movement of the Tao and yielding is its way."
+  },
+  {
+   "n": 23,
+   "scene": "Three travellers hear a teaching: one nods, one doubts and one laughs aloud",
+   "summary": "Chapter 41: the best students follow the Tao, and the lowest laugh at it."
+  },
+  {
+   "n": 24,
+   "scene": "One flame lights two lamps, then three, then a whole hall of lamps",
+   "summary": "Chapter 42: the Tao gave birth to one, then two, then three, then everything."
+  },
+  {
+   "n": 25,
+   "scene": "Soft water wears a hollow in a hard grey stone",
+   "summary": "Chapter 43: the softest thing overcomes the hardest."
+  },
+  {
+   "n": 26,
+   "scene": "A woman holds a small bowl of rice beside a heap of gold",
+   "summary": "Chapter 44: those who know when they have enough are never disgraced."
+  },
+  {
+   "n": 27,
+   "scene": "A farmer ploughs a field with a strong horse beside a peaceful village",
+   "summary": "Chapter 46: in a peaceful world horses plough the fields, and in a warlike one they are bred for battle; contentment is enough."
+  },
+  {
+   "n": 28,
+   "scene": "A man sits by a closed door and gazes out of a window",
+   "summary": "Chapter 47: one can know the world without going out of the door."
+  },
+  {
+   "n": 29,
+   "scene": "A scholar's desk heaped with books stands beside an empty quiet garden",
+   "summary": "Chapter 48: learning adds something every day, but following the Tao drops something every day."
+  },
+  {
+   "n": 30,
+   "scene": "A wise old man shares his bread with two very different strangers",
+   "summary": "Chapter 49: the sage has no fixed mind and is good to the good and to the not good."
+  },
+  {
+   "n": 31,
+   "scene": "A baby grips a finger tightly and laughs in its mother's arms",
+   "summary": "Chapter 55: a newborn child is soft yet grips firmly, a picture of harmony."
+  },
+  {
+   "n": 32,
+   "scene": "A sage sits silent among the chatter of a busy market",
+   "summary": "Chapter 56: those who know do not speak, and those who speak do not know."
+  },
+  {
+   "n": 33,
+   "scene": "A hall full of scrolls while the village outside lives peacefully",
+   "summary": "Chapter 57: the more laws there are, the more thieves; if the ruler does not interfere, the people put themselves right."
+  },
+  {
+   "n": 34,
+   "scene": "A cook gently turns a small fish in a pan",
+   "summary": "Chapter 60: ruling a large country is like cooking a small fish; too much handling spoils it."
+  },
+  {
+   "n": 35,
+   "scene": "Many streams run downhill and gather in a wide low river valley",
+   "summary": "Chapter 61: a great country should be like low ground where all streams meet."
+  },
+  {
+   "n": 36,
+   "scene": "A boy sorts a small pile of stones before building a high wall",
+   "summary": "Chapter 63: deal with the difficult while it is easy and the great while it is small."
+  },
+  {
+   "n": 37,
+   "scene": "A traveller takes a first step on a long road stretching toward distant mountains",
+   "summary": "Chapter 64: a tree, a tower and a thousand-mile journey all begin small."
+  },
+  {
+   "n": 38,
+   "scene": "A climber places his last careful steps near the summit of a hill",
+   "summary": "Chapter 64: those who force things spoil them, and one should be as careful at the end as at the beginning."
+  },
+  {
+   "n": 39,
+   "scene": "A broad sea receives rivers from a hundred hills below the mountains",
+   "summary": "Chapter 66: rivers and seas rule the valleys by lying below them, and a wise leader puts himself behind."
+  },
+  {
+   "n": 40,
+   "scene": "An old teacher holds three small objects in an open hand",
+   "summary": "Chapter 67: the three treasures are compassion, frugality and not putting oneself first."
+  },
+  {
+   "n": 41,
+   "scene": "A plainly dressed old man with a hidden jade stone inside his coat",
+   "summary": "Chapter 70: the writer's words are easy to understand, yet almost no one understands them."
+  },
+  {
+   "n": 42,
+   "scene": "A student smiles and shrugs while closing a large heavy book",
+   "summary": "Chapter 71: to know that you do not know is best; not to know it is a sickness."
+  },
+  {
+   "n": 43,
+   "scene": "A vast net of fine threads glitters in the morning light",
+   "summary": "Chapter 73: heaven does not strive, yet it wins; its wide net misses nothing."
+  },
+  {
+   "n": 44,
+   "scene": "A green willow bends in the wind beside a snapped dry branch",
+   "summary": "Chapter 76: the living are soft and the dead are stiff, so softness belongs to life."
+  },
+  {
+   "n": 45,
+   "scene": "An archer lowers a high bow and raises a low one, adjusting it",
+   "summary": "Chapter 77: the Way of heaven is like drawing a bow, reducing excess and making up what is lacking."
+  },
+  {
+   "n": 46,
+   "scene": "A small peaceful village of simple houses with roosters crowing across a river",
+   "summary": "Chapter 80: a small country with few people lives simply and contentedly."
+  },
+  {
+   "n": 47,
+   "scene": "An old man speaks a few plain words to a young listener",
+   "summary": "Chapter 81: true words are not beautiful, and beautiful words are not true."
+  },
+  {
+   "n": 48,
+   "scene": "The sage gives away loaves of bread and still has a full basket",
+   "summary": "Chapter 81: the sage does not hoard, and the more he gives, the more he has."
+  },
+  {
+   "n": 49,
+   "scene": "A river flows on past the fields, giving water to all and harming none",
+   "summary": "Chapter 81: the Way of heaven benefits and does not harm, and the sage acts without competing."
+  },
+  {
+   "n": 50,
+   "scene": "Laozi on his ox rides west through a pass as a gatekeeper watches",
+   "summary": "An old legend says Laozi wrote the book for a gatekeeper and rode away; the book remains."
+  }
+ ],
+ "levels": {
+  "A1A2": [
+   "The Tao Te Ching is an old Chinese book of wisdom.",
+   "The true Way is too great to be put into words.",
+   "Long and short, high and low, give each other meaning.",
+   "The wise person works quietly and does not ask for thanks.",
+   "If people do not want rare things, they will not steal.",
+   "The valley is empty, yet it never stops giving life.",
+   "Water helps everything and does not fight with anything.",
+   "If you fill a bowl too full, the water spills.",
+   "A pot is useful because of the empty space inside it.",
+   "If you leave muddy water alone, it slowly becomes clear.",
+   "All things grow, then return to the place they came from.",
+   "A great leader helps so quietly that people feel they did it themselves.",
+   "A tree that bends in the strong wind does not break.",
+   "A man who stands on his toes cannot stand for long.",
+   "Before the sky and earth, there was one quiet thing.",
+   "A good traveller walks without leaving any tracks behind.",
+   "Be simple, like a block of wood that has not been carved.",
+   "Weapons bring sorrow, so a wise ruler uses them only when he must.",
+   "Knowing yourself is real wisdom, and ruling yourself is real power.",
+   "The great Tao flows everywhere and gives life to all things.",
+   "The Tao does nothing, yet nothing is left undone.",
+   "Everything returns in the end, and being gentle is the Way.",
+   "When a wise person hears the Way, he follows it closely.",
+   "The Way made one, then two, then three, then all things.",
+   "The softest thing in the world can beat the hardest thing.",
+   "Know when you have enough, and you will be safe.",
+   "When the world is at peace, horses work on the farms.",
+   "You can know the world without ever going out the door.",
+   "Learning adds something every day, but the Way takes things away.",
+   "The wise person is kind to the good and the not good.",
+   "A baby is soft and small, yet its grip is strong.",
+   "Those who know the Way do not talk about it much.",
+   "More rules do not make people good; they make more trouble.",
+   "Ruling a big country is like cooking a small fish.",
+   "A great country is like low land where all rivers meet.",
+   "Do the hard things while they are still easy.",
+   "A journey of a thousand miles begins with one step.",
+   "Be as careful at the end as you were at the start.",
+   "Rivers flow to the sea because the sea lies lower.",
+   "The Way has three treasures: kindness, simple living, and humility.",
+   "My words are easy, but few people understand them.",
+   "Knowing that you do not know is the best kind of knowing.",
+   "Heaven does not argue or shout, yet it always wins.",
+   "Living things are soft and bend, but dead things are stiff.",
+   "Heaven takes from those who have too much and gives to others.",
+   "In a small country, people live a simple and happy life.",
+   "True words are not always beautiful, and beautiful words are not always true.",
+   "The wise person keeps nothing for himself and gives to everyone.",
+   "The Way of heaven helps all things and does not harm them.",
+   "The story says Laozi wrote the book and rode away."
+  ],
+  "B1B2": [
+   "The Tao Te Ching is a very short book of 81 poems from ancient China. Tradition says that it was written by a wise man named Laozi, although no one can be sure.",
+   "The book begins with a puzzle that has made readers think for centuries. It says that the Tao we can describe in words is not the real Tao.",
+   "The second chapter says that opposites cannot exist without each other. We could not know what is long if nothing were short, or what is high if nothing were low.",
+   "The sage in this book teaches without many words and works without forcing things. He creates without owning, and when his work is finished, he does not hold on to it.",
+   "The third chapter gives advice to rulers about how to keep a country peaceful. If no one is held up as the best, there is less rivalry, and if rare treasures are not prized, there is less stealing.",
+   "The sixth chapter praises the valley, which is hollow and quiet. It says that the spirit of the valley never dies and that it never runs dry, however much we use it.",
+   "The eighth chapter says that the highest good is like water. Water helps all living things without competing, and it settles in the low places that others avoid.",
+   "Fill a bowl to the brim, says the ninth chapter, and it will spill over. Keep sharpening a blade, and it will not stay sharp for long.",
+   "Thirty spokes meet in the hub of a wheel, but the wheel is useful because of the hole in the middle. Clay is shaped into a pot, yet it is the empty space inside that holds things.",
+   "The fifteenth chapter asks how muddy water can be made clear, and the answer is to leave it still. Little by little the mud sinks to the bottom, and the same is true of a troubled mind.",
+   "The sixteenth chapter tells us to empty the mind and keep very still. Then we can watch all things grow and flourish, and then return to their roots.",
+   "The seventeenth chapter says that the best ruler is hardly known to his people. When his work is done and his aim is reached, they all say that they did it themselves.",
+   "Yield and you will remain whole, says the twenty-second chapter, and bend and you will become straight. Because the sage does not compete, no one in the world is able to compete with him.",
+   "A person who stands on tiptoe cannot stand firmly, says the twenty-fourth chapter, and one who takes giant steps cannot walk far. Those who show off and who boast do not last either.",
+   "The twenty-fifth chapter describes something whole and silent that existed before heaven and earth. The writer does not know its name, so he calls it Tao and says that the Tao follows what is natural.",
+   "A good traveller leaves no tracks, says the twenty-seventh chapter, and good speech leaves no marks. The good person is a teacher of those who are not good, and they are his task and his lesson.",
+   "The twenty-eighth chapter tells us to return to the simple life of a child. It praises the uncarved block of wood, which is plain but full of possibility.",
+   "The thirty-first chapter says that weapons are tools of fear and sorrow. A wise ruler uses them only when he has no choice, and even after a victory he should mourn for the many who died.",
+   "The thirty-third chapter says that knowing other people is intelligence, but knowing oneself is true wisdom. Defeating others takes strength, but mastering oneself takes real power.",
+   "The thirty-fourth chapter says that the great Tao flows everywhere, to the left and to the right. It feeds all things but does not claim them as its own.",
+   "The Tao does nothing, says the thirty-seventh chapter, and yet nothing is left undone. If rulers could hold to it, everything would change by itself, and the people would find peace.",
+   "The fortieth chapter says that returning is the movement of the Tao, and that yielding is the way it works. All the things of the world are born from what can be seen, and that is born from what cannot be seen.",
+   "When the best kind of student hears about the Tao, he follows it with care. The average student keeps it for a while and loses it again, while the lowest student laughs out loud.",
+   "The forty-second chapter says that the Tao gave birth to one, one to two, and two to three. Three then gave birth to the ten thousand things, which means everything in the world.",
+   "The forty-third chapter says that the softest thing in the world overcomes the hardest. What has no substance can enter where there is no gap, which shows the worth of acting without force.",
+   "The forty-fourth chapter asks whether fame or the self is dearer, and whether the self or wealth is worth more. Those who know when they have enough, it says, will not be disgraced, and they will last a long time.",
+   "The forty-sixth chapter compares a peaceful world with a world at war. When the Tao is followed, horses are used to plough the fields, but when it is lost, war horses are bred near the borders.",
+   "The forty-seventh chapter says that one can know the world without going out of the door. The further a person travels, it adds, the less he may know.",
+   "In the pursuit of learning, says the forty-eighth chapter, something is added every day. In the pursuit of the Tao something is dropped every day, until at last there is nothing left to force.",
+   "The sage has no fixed mind of his own, says the forty-ninth chapter, but takes the minds of the people as his own. He is good to those who are good, and he is also good to those who are not, so virtue grows.",
+   "The fifty-fifth chapter admires the newborn child as a model of harmony. Its bones are soft, yet its grip is firm, and it can cry all day without becoming hoarse.",
+   "Those who know do not speak, says the fifty-sixth chapter, and those who speak do not know. The wise person closes his mouth, softens the glare and blends in with the dust of the world.",
+   "The fifty-seventh chapter warns that the more laws and orders there are, the more thieves there will be. If he does not interfere, says the sage, the people change themselves, and if he loves peace, they become honest.",
+   "The sixtieth chapter says that ruling a large country is like cooking a small fish. If you poke and turn it too often, it falls to pieces, and a country is the same.",
+   "The sixty-first chapter says that a great country should be like low ground. All the streams of the world flow down toward it, because it is humble and lies below.",
+   "The sixty-third chapter says to deal with difficult things while they are still easy. Great things always begin small, so the sage never reaches for the great, and that is how he achieves it.",
+   "The sixty-fourth chapter says that a tree as wide as your arms can reach grew from a tiny sprout. A tower of nine floors began as a heap of earth, and a journey of a thousand miles starts beneath your feet.",
+   "Those who force things spoil them, and those who grasp too tightly lose what they hold, says the chapter. People often fail just when they are close to success, so we should be as careful at the end as at the beginning.",
+   "The sixty-sixth chapter says that rivers and seas rule the hundred valleys because they lie lower than the valleys. In the same way, a wise leader who wants to be ahead must place himself behind.",
+   "In the sixty-seventh chapter, the writer says that he holds three treasures. They are compassion, frugality and not daring to put himself ahead of others, and from them come courage, generosity and leadership.",
+   "The seventieth chapter says that the writer's words are easy to understand and easy to practise. Yet hardly anyone in the world understands or practises them, and the sage wears rough cloth while carrying jade in his heart.",
+   "To know that you do not know is best, says the seventy-first chapter. Not knowing that you do not know is a sickness, and the cure is to grow tired of it.",
+   "The seventy-third chapter says that the Way of heaven does not strive, and yet it wins. It does not speak, yet it answers, and it comes without being called.",
+   "The seventy-sixth chapter says that a living person is soft and supple, but a dead one is stiff and hard. The same is true of plants, so stiffness belongs to death and softness belongs to life.",
+   "The seventy-seventh chapter compares the Way of heaven to the drawing of a bow. The high end is pressed down and the low end is lifted, and what is too much is reduced.",
+   "The eightieth chapter describes a small country with few people, where life is simple. Its neighbour is so close that roosters and dogs can be heard across the border, yet the people grow old without visiting.",
+   "The last chapter says that true words are not beautiful, and beautiful words are not true. Good people do not argue, and those who argue are not good.",
+   "The wise person in this chapter does not hoard anything for himself. The more he does for others, the more he has, and the more he gives, the more he possesses.",
+   "The book ends with a short and gentle summary of its whole message. The Way of heaven benefits all things and does no harm, and the way of the sage is to act without competing.",
+   "An old story says that Laozi wrote these words for a gatekeeper at a mountain pass and then rode away. Nobody knows whether the story is true, but the little book has been read and translated for centuries."
+  ],
+  "C1C2": [
+   "The Tao Te Ching is a short book of 81 brief chapters from ancient China, whose title can be translated as the Way and its Power. Tradition says that it was written by a sage named Laozi, whose name means Old Master, although historians cannot be certain who he was or when he lived. Its words are few and its pictures are simple, yet readers have returned to it for more than two thousand years.",
+   "The book opens with a riddle that has kept readers thinking for centuries: the Tao that can be told, it says, is not the eternal Tao, and the name that can be named is not the eternal name. Tao means the Way, the deep pattern behind all things, and the opening warns us that no sentence can hold it completely. The rest of the book, one might say, is an attempt to point toward something that words can only approach.",
+   "The second chapter observes that opposites arise together and depend upon each other: beauty implies ugliness, long implies short, and high implies low. Without the one, the other would have no meaning, just as a sound would mean little without the silence around it. Seeing the world this way, the chapter suggests, frees us from clutching at one side and fighting the other.",
+   "The wise person in this chapter teaches without making speeches and acts without forcing the world to bend to his will. He allows things to arise and pass away, creates without wishing to possess, and completes his work without expecting any reward. Precisely because he does not cling to what he has done, the chapter concludes, what he has done does not fade.",
+   "The third chapter offers advice to rulers on how to keep a country at peace. If the gifted are not set up as heroes, it says, people will not compete for fame, and if rare treasures are not prized, people will not be tempted to steal them. The idea is that much of our restlessness is stirred up by what we are taught to want, and that a simpler wish list makes for a calmer heart.",
+   "The sixth chapter praises the valley, an empty and receptive place where water gathers and life begins. The spirit of the valley never dies, it says, and it is named the mysterious female, the gateway from which heaven and earth are born. Draw on it as you will, for it hardly seems to exist and yet it never runs dry.",
+   "The highest good, says the eighth chapter, is like water, which benefits every living thing and yet does not compete with any of them. It settles willingly in the low places that people avoid, and in doing so it comes very close to the Tao itself. A good life, the chapter adds, resembles it: kind in giving, honest in speech, and wise in the timing of its actions.",
+   "Fill your bowl to the very brim, says the ninth chapter, and it will spill; keep sharpening a blade, and it will soon be too thin to cut. In the same way, a person who gathers wealth and honour without limit invites trouble to the door. The way of heaven, the chapter concludes, is to step back once the work is done.",
+   "Thirty spokes meet at the hub of a cartwheel, but it is the empty hole at the centre that makes the wheel turn. We shape clay to make a pot, and cut doors and windows to make a room, yet in each case it is the emptiness that is useful. What exists gives us something to hold, the chapter concludes, but what is not there gives us the use of it.",
+   "The fifteenth chapter describes the sages of old as watchful as people crossing a frozen stream and as yielding as melting ice. Who can make muddy water clear, it asks, and the answer is to let it be still until the mud settles of its own accord. A restless mind, like cloudy water, does not need to be stirred into clarity; it needs only to be left alone for long enough.",
+   "Empty the mind of its clutter and hold yourself very still, says the sixteenth chapter, and you will see the ten thousand things rise, flourish and return to their roots. To go back to the root is to find stillness, and to find stillness is to understand the way things are. Whoever understands this, the chapter says, becomes tolerant, fair and at ease with whatever comes.",
+   "The best rulers, according to the seventeenth chapter, are those whose people barely know that they exist, and the worst are those whom the people despise. A wise leader speaks little and acts with care, so that when the work is finished, the people all say that they did it themselves. It is a fine description of the way in which any good teacher, parent or manager works, with the least show and the greatest effect.",
+   "Yield and you will remain whole, bend and you will become straight, says the twenty-second chapter, and hollow yourself out and you will be filled. Those who do not show off will shine, and those who do not boast will be remembered, for the sage does not compete and so no one can compete with him. Such yielding is no trick for winning arguments; it is, the chapter suggests, simply how the world works.",
+   "Someone who stands on tiptoe cannot stand steadily for long, the twenty-fourth chapter says, and someone who takes enormous strides cannot walk very far. In the same way, those who show off are not truly bright, those who insist they are right are not truly convincing, and those who boast do not last. To the Tao these habits are like leftover food and useless baggage, things that everyone turns away from.",
+   "Before heaven and earth were born, says the twenty-fifth chapter, there was something silent, formless and complete that stands alone and does not change. The writer admits that he does not know its name, and so he calls it the Way, and if he must give it another name, he calls it the great. People follow the earth, the earth follows heaven, heaven follows the Tao, and the Tao follows what is natural, so that the whole chain rests finally on simply being what one is.",
+   "A good traveller leaves no tracks, says the twenty-seventh chapter, and a good speaker leaves no marks upon the air, while a good counter has no need of tallies. In the same spirit, the wise person helps everyone and rejects no one, for he sees the good as teachers of the not-yet-good and the not-yet-good as a trust given to the good. Whoever fails to value the teacher or to care for the pupil, the chapter warns, is lost, however clever he may seem.",
+   "The twenty-eighth chapter advises us to know strength and yet to keep to gentleness, and in this way to become a channel for the whole world. A person who does this returns, it says, to the nature of a child and then to the uncarved block, plain wood that has not yet been cut into any particular shape. Once the block is carved it becomes a tool, the chapter notes, but the one who rules wisely does not cut it up, for what is whole is worth more than any of its parts.",
+   "Fine weapons, says the thirty-first chapter, are instruments of sorrow, and the wise person avoids them and takes them up only when there is no other choice. Even then he treats victory without joy, for to rejoice in a victory is to rejoice in the death of many. The chapter therefore says that a victory should be marked with mourning, and that the army which wins should be received as a funeral procession is received.",
+   "To know others is to be clever, the thirty-third chapter says, but to know oneself is to be truly wise. To master others requires force, but to master oneself requires real strength, and the one who is content with what he has is already rich. A person who keeps his place in this way, the chapter says, does not lose himself in the noise of the world, and so he endures.",
+   "The great Tao, says the thirty-fourth chapter, flows everywhere, to the left and to the right, and every living thing depends on it. It does its work and asks for no credit, clothes and feeds the ten thousand things and yet does not rule over them. Because it never makes itself great, the chapter concludes, it is able to accomplish greatness.",
+   "The Tao does nothing, says the thirty-seventh chapter, and yet nothing is left undone, a sentence that seems to contradict itself until we think of a seed growing or a river finding the sea. If kings and lords could hold to this way, it says, all things would change and settle of their own accord. Where desire grows restless, the nameless simplicity of the uncarved block quiets it, and in stillness the whole world finds its own order.",
+   "Returning is the movement of the Tao, says the fortieth chapter, and yielding is the way in which it works. All the things of the world, it adds, are born from something that can be seen and touched, and that in turn is born from what has no form at all. The thought is a deep one, and the chapter leaves it brief, as though it trusted the reader to sit with it.",
+   "When the best kind of student hears about the Tao, says the forty-first chapter, he follows it with all his strength, while the average student keeps it for a time and then lets it go. The lowest kind of student bursts out laughing, and the chapter adds, with wry humour, that if he did not laugh, it would not be the Tao. The deepest truths, it seems, often look at first like a joke to people who have not yet needed them.",
+   "The Tao gave birth to one, says the forty-second chapter, and one gave birth to two, and two gave birth to three, and three to the ten thousand things, which means everything in the world. All things bear the dark and the light within them, the chapter adds, and it is through the blending of the two that they attain harmony. Scholars have debated for centuries what the one, the two and the three signify, and the text itself offers no explanation.",
+   "The softest thing in the world, says the forty-third chapter, rides over the hardest, and what has no substance at all can slip into places where there is not the smallest gap. From this the writer concludes that there is great benefit in acting without force and in teaching without words. Few people in the world, the writer remarks, ever grasp this, although water has been giving the lesson for as long as there have been rivers.",
+   "Which is dearer to you, fame or your own self, the forty-fourth chapter asks, and which is worth more, your self or your wealth? Great love, it warns, brings great expense, and a great hoard brings a great loss, so the one who knows contentment is never disgraced and the one who knows when to stop is never in danger. Such a person, it concludes, will endure, safe from disgrace and from danger, and rich in the one thing that cannot be taken from him.",
+   "When the world follows the Tao, says the forty-sixth chapter, galloping horses are put to work on the farms, but when it does not, war horses are raised in the borderlands. No fault is greater than wanting more, and no misfortune is greater than discontent, the chapter adds, and it seems to suggest that the same greed drives nations as well as individuals to war. Whoever learns the contentment of enough, the chapter concludes, will never again be poor, whatever his purse may hold.",
+   "Without stepping outside the door, says the forty-seventh chapter, one may know the whole world, and without peering from the window, one may see the Way of heaven. The farther a person travels, the less he knows, for the mind that rushes outward forgets to look within. The sage therefore arrives without going, understands without looking, and accomplishes without doing, a phrase that readers have loved for its mixture of paradox and calm.",
+   "In the pursuit of learning, says the forty-eighth chapter, something is gained every day, but in the pursuit of the Tao something is dropped every day. Less and less is done, until at last one arrives at doing nothing, and yet there is nothing left undone. Taking hold of the world, the chapter ends, is always best done by letting things take their course, for whoever tries to force it is not fit to rule it.",
+   "The sage has no fixed mind of his own, says the forty-ninth chapter, but takes the minds of the people as his own. To the good he is good, and to those who are not good he is also good, and in this way goodness is gained. To the honest he is honest, and to the dishonest he is honest too, and he treats everyone as his own child, while the people look to him with open eyes and ears.",
+   "The fifty-fifth chapter holds up the newborn child as a picture of a person full of the Tao. The baby's bones are soft and its muscles are tender, yet its grip is firm, and it can cry all day without growing hoarse, because its energy is whole and in harmony. To know such harmony, the chapter says, is to know the constant, but to force more life out of oneself is unlucky, and strength that is strained soon begins to age.",
+   "Those who know do not speak, says the fifty-sixth chapter, and those who speak do not know, a line that has been enjoyed, and teased, for as long as the book has existed. The wise person closes his mouth, blunts his sharp edges, unties his knots, softens his glare and settles in among the dust of the world. Such a person, the chapter finishes, cannot be drawn close or pushed away, helped or harmed, honoured or disgraced, and for that reason he is valued above all by the world.",
+   "The more laws and orders there are, warns the fifty-seventh chapter, the more thieves and robbers there will be, and the more weapons the people own, the more confused the country becomes. Therefore the sage says that if he does not interfere, the people change themselves, and if he loves stillness, they put themselves right. If he does not meddle in their affairs, they grow prosperous, and if he wants nothing for himself, they return to a simple and honest life.",
+   "Governing a large country, says the sixtieth chapter, is like cooking a small fish. A cook who prods and turns it again and again soon has nothing but pieces, and a ruler who interferes with his people at every turn will find that the country has fallen apart in the same way. The chapter adds that when a state is ruled by the Tao, even the dark forces that people fear lose their power to harm.",
+   "A great country, says the sixty-first chapter, ought to be like low ground into which all the streams of the world flow, a meeting place for everyone. It wins over others by lying low and not pushing, in the way that stillness overcomes movement and the quiet overcomes the loud. If the great state is humble toward the small, and the small state is humble toward the great, the chapter concludes, then each gets what it truly wants.",
+   "Deal with the difficult while it is still easy, advises the sixty-third chapter, and with the great while it is still small. The hardest tasks in the world begin as easy ones, and the greatest things begin as small ones, so the sage never reaches for the great and yet accomplishes it. Whoever promises too lightly, the chapter warns, will keep few promises, and whoever treats everything as easy will meet many difficulties.",
+   "What is still is easy to hold, says the sixty-fourth chapter, and what has not yet appeared is easy to plan for, so one should deal with a trouble before it exists. A tree that fills your arms grew from a tiny sprout, a tower of nine storeys began as a heap of earth, and a journey of a thousand miles starts beneath your feet. Great undertakings, in other words, are made of small steps, and no step is too small to deserve a careful beginning.",
+   "Those who force things spoil them, the chapter continues, and those who grasp too tightly lose what they hold, whereas the sage, who neither forces nor grasps, neither spoils nor loses. People so often fail on the very edge of success that the writer advises being as careful at the end as at the beginning, and then no work will be ruined. The sage therefore wants what others do not want, prizes no rare treasure, and helps all things return to their natural course without presuming to direct them.",
+   "Rivers and seas are the kings of a hundred valleys, says the sixty-sixth chapter, because they are good at lying below them. In the same way, a sage who wishes to rule over the people must speak to them humbly, and one who wishes to lead them must put himself behind them. His position is above them, yet they do not feel the weight of it, and because he does not compete, no one in the world can compete with him.",
+   "In the sixty-seventh chapter, the writer says that he holds and guards three treasures: the first is compassion, the second is frugality, and the third is not daring to put himself ahead of others. From compassion, he says, comes courage, from frugality comes generosity, and from not putting himself first comes the ability to lead. Courage without compassion and generosity without frugality, he warns, lead nowhere good, and a gentle heart is the best protection one can have.",
+   "My words are very easy to understand and very easy to practise, says the writer in the seventieth chapter, and yet no one in the world can understand them or put them into practice. His teaching has an ancestor and his deeds have a master, but people do not know these, and so they do not know him. Those who understand him are few, and so he is the more valued, like a sage who wears rough cloth but carries a piece of jade close to his heart.",
+   "To know that you do not know is the highest knowledge, says the seventy-first chapter, and to pretend to know what you do not is a kind of sickness. The sage is free of this illness because he recognises it as an illness, and in recognising it, he stops suffering from it. Humility of this kind, the chapter implies, is not weakness but the beginning of learning.",
+   "The Way of heaven does not strive, says the seventy-third chapter, and yet it is good at winning; it does not speak, and yet it is good at answering. It comes without being summoned and plans without hurry, yet every plan is well made, and heaven's net is so wide that, although its mesh is coarse, nothing slips through it. The picture is meant both as a comfort and as a warning, for it asserts that the great pattern of things is patient and that it misses nothing.",
+   "A person is soft and supple when he is born and stiff and hard when he dies, says the seventy-sixth chapter, and so it is with grasses and trees, tender in life and brittle in death. Therefore the hard and the stiff are companions of death, and the soft and the yielding are companions of life. An army that is too stiff does not win, and a tree that is too hard will be cut down, for the soft and the weak hold the higher place.",
+   "The Way of heaven, says the seventy-seventh chapter, is like bending a bow: the high end is pulled down, the low end is raised, and any excess is trimmed to supply what is lacking. The way of people is the opposite, for they take from those who have too little in order to give to those who already have too much. Only one who has the Tao can offer his own abundance to the world, and he does so without pride and without wishing to be thanked.",
+   "The eightieth chapter paints a small country with few people, where tools that could do the work of ten or a hundred are put aside, and where boats and carriages stand unused. The people enjoy their food, admire their own clothes and feel at home in their houses, so content that they never think of leaving. A neighbouring state is so near that its roosters and dogs can be heard, yet the people grow old without ever going there.",
+   "The final chapter of the book opens with a handful of plain observations: true words are not beautiful, and beautiful words are not true. The good do not argue, it says, and those who argue are not good, while those who truly know are not widely learned, and those who are widely learned do not truly know. It is a warning, delivered with a smile, against mistaking cleverness and fine speech for wisdom.",
+   "The sage in this chapter does not hoard anything for himself, and the more he does for other people, the more he seems to have. The more he gives to them, it says, the greater his own abundance becomes, so that his wealth is measured in what he has shared and not in what he has kept. It is a surprising kind of arithmetic, but anyone who has been repaid in friendship for a small kindness will understand it.",
+   "The very last lines of the book gather its whole message into a single thought: the Way of heaven benefits all things and does them no harm. The way of the sage, in the same spirit, is to act without competing, to work for the good of others without grasping after reward or fame. After eighty-one short chapters, the Tao Te Ching leaves its readers where it began, with a way that cannot be fully told but can be lived.",
+   "An old story tells that Laozi grew tired of the world, rode toward the western pass on an ox, and wrote his book for the gatekeeper who begged him to leave some wisdom behind. That story was first written down several centuries after Laozi is said to have lived, and historians cannot say whether he was one person, several, or a name for an older tradition. What no one doubts is that this small book is among the most translated in the world, and that readers in every age have found in it a reason to slow down."
+  ]
+ }
+}
