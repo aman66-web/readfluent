@@ -3764,6 +3764,43 @@
   }
  },
  {
+  "slug": "the-stress-reset",
+  "title": "The Stress Reset",
+  "author": "Why Zebras Don't Get Ulcers",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Why does stress make your heart race, your shoulders ache and your sleep go wrong? Follow a tired teacher through one stressful week and learn what stress really does to the body, then try simple, proven ways to switch the alarm off.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "The Stress",
+    "Reset"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lotus",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "waves",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-histories",
   "title": "The Histories",
   "author": "Herodotus",
@@ -4649,6 +4686,43 @@
     },
     {
      "id": "heart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-fish-inside-you",
+  "title": "The Fish Inside You",
+  "author": "Your Inner Fish",
+  "kind": "inspired",
+  "category": "science",
+  "blurb": "Kofi gets the hiccups in a museum, and a fossil expert tells him that his body is full of old parts. Follow his jaw, his ears, his hands and even his hiccups back through hundreds of millions of years to the first fish.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "The Fish",
+    "Inside You"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "waves",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "footprints",
      "x": 160,
      "y": 38,
      "s": 0.36
