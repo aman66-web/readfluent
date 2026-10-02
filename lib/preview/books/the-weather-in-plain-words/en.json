@@ -1,0 +1,417 @@
+{
+  "slug": "the-weather-in-plain-words",
+  "meta": {
+    "blurb": "Why does it rain, what is a front, and how can anyone forecast tomorrow? Follow the sun's heat through the air, the clouds, the storms and the forecast, in plain words and one clear idea at a time.",
+    "bible": "A guide with no characters. The voice is clear, curious and friendly, and it speaks to the reader as you; the science is real and hedged where it is uncertain, with no invented numbers, studies or quotes. Luke Howard: a real English pharmacist and amateur weatherman who proposed Latin names for clouds in 1802. Coriolis: the effect of the Earth's spin, named after a French scientist. Key terms: Atmosphere, Troposphere, Stratosphere, Equator, Poles, Latitudes, Hemisphere, Barometer, Meteorologists, Trade winds, Westerlies, Humidity, Evaporation, Condensation, Cumulus, Stratus, Cirrus, Nimbus, Isobars, Fronts, Thermals, Updraughts, Hailstones, Sleet, Anvil, Eyewall, Hurricane, Typhoon, Cyclone, Monsoon, Celsius, Latin, Arabic, Britain, Pacific, Antarctica, Australia, Asia. Figures: the troposphere is about ten kilometres deep over much of the world; a raindrop takes about a million cloud droplets; sound travels about one kilometre in three seconds; the world has warmed by over one degree Celsius since the late 1800s."
+  },
+  "beats": [
+    {
+      "n": 1,
+      "scene": "A person looks up at a sky of clouds and patches of blue",
+      "summary": "Weather is what the air is doing today, and this book follows it from the sun to the forecast."
+    },
+    {
+      "n": 2,
+      "scene": "Sunlight falls on a globe, strong in the middle and weak at the top",
+      "summary": "The sun heats the Earth unevenly, hotter near the equator and cooler near the poles."
+    },
+    {
+      "n": 3,
+      "scene": "A thin blue layer of air wraps the whole Earth, seen from space",
+      "summary": "The atmosphere is a thin layer of gas, and weather happens in its lowest part."
+    },
+    {
+      "n": 4,
+      "scene": "A barometer with a needle stands beside a window and a rainy sky",
+      "summary": "Air has weight, and the push it makes is called air pressure."
+    },
+    {
+      "n": 5,
+      "scene": "Warm air rises above a sunlit field while cool air slides in",
+      "summary": "Warm air rises and cool air sinks, which sets the air moving."
+    },
+    {
+      "n": 6,
+      "scene": "Grass and trees lean over in a strong wind on a hillside",
+      "summary": "Wind is air flowing from high pressure to low pressure."
+    },
+    {
+      "n": 7,
+      "scene": "A globe spins while curved arrows bend to the right in the north",
+      "summary": "The spin of the Earth bends the path of winds."
+    },
+    {
+      "n": 8,
+      "scene": "A globe with arrows showing steady winds across the oceans",
+      "summary": "The world has wide belts of steady wind, such as the trade winds and the westerlies."
+    },
+    {
+      "n": 9,
+      "scene": "A beach at noon with a flag blowing from the sea towards the land",
+      "summary": "Land heats faster than water, which makes the sea breeze."
+    },
+    {
+      "n": 10,
+      "scene": "Clouds pile up on one side of a tall mountain; the far side is dry",
+      "summary": "Mountains force air to rise, so one side gets rain and the other side is dry."
+    },
+    {
+      "n": 11,
+      "scene": "Steam rises from a kettle and fades into the air of a kitchen",
+      "summary": "The air always holds invisible water vapour, which is the raw material of clouds."
+    },
+    {
+      "n": 12,
+      "scene": "A hazy summer street where people fan themselves in the heat",
+      "summary": "Warm air can hold more water vapour than cold air, so humid days feel sticky."
+    },
+    {
+      "n": 13,
+      "scene": "Sunlight shines on a wide sea with a faint mist lifting from the water",
+      "summary": "The sun warms the oceans and water evaporates into the air."
+    },
+    {
+      "n": 14,
+      "scene": "A cold glass of water covered in drops stands on a warm table",
+      "summary": "When moist air cools, its vapour condenses into drops."
+    },
+    {
+      "n": 15,
+      "scene": "Morning mist lies over a field with dew on spider webs",
+      "summary": "Dew and fog form when air near the ground cools."
+    },
+    {
+      "n": 16,
+      "scene": "Fluffy white clouds float high above a green hillside",
+      "summary": "A cloud is a crowd of tiny water drops or ice crystals."
+    },
+    {
+      "n": 17,
+      "scene": "Specks of dust and sea salt drift in sunlight above ocean waves",
+      "summary": "Cloud drops form around tiny particles such as dust and sea salt."
+    },
+    {
+      "n": 18,
+      "scene": "Three layers of sky show high thin, puffy and flat grey clouds",
+      "summary": "Luke Howard gave clouds Latin names in 1802, and we still use them."
+    },
+    {
+      "n": 19,
+      "scene": "White puffy clouds with flat bottoms dot a bright blue summer sky",
+      "summary": "Cumulus clouds are puffy heaps made by rising warm air, and small ones mean fair weather."
+    },
+    {
+      "n": 20,
+      "scene": "A low grey sheet of cloud covers a quiet town in drizzle",
+      "summary": "Stratus is a low grey sheet of cloud that brings drizzle and dull days."
+    },
+    {
+      "n": 21,
+      "scene": "High thin white streaks of cloud curl across a pale blue sky",
+      "summary": "Cirrus clouds are high wisps of ice that can warn of a change in the weather."
+    },
+    {
+      "n": 22,
+      "scene": "Heavy grey cloud above a field with rain falling in slanting lines",
+      "summary": "Rain falls when cloud droplets join together into drops heavy enough to fall."
+    },
+    {
+      "n": 23,
+      "scene": "A single raindrop falls in front of a dark grey cloud",
+      "summary": "Real raindrops are round or flattened, not shaped like tears."
+    },
+    {
+      "n": 24,
+      "scene": "Snowflakes drift past a street lamp onto a quiet snowy road",
+      "summary": "Snow forms when water vapour freezes onto ice crystals, which have six sides."
+    },
+    {
+      "n": 25,
+      "scene": "A single detailed snowflake rests on a dark wool glove",
+      "summary": "Snowflakes all have six sides but come in many shapes, and no two complex ones are likely to match."
+    },
+    {
+      "n": 26,
+      "scene": "White balls of ice bounce on a green lawn after a storm",
+      "summary": "Hail grows in layers inside storm clouds with strong updraughts."
+    },
+    {
+      "n": 27,
+      "scene": "A clear coat of ice covers bare branches and a parked car",
+      "summary": "Rain can freeze into ice pellets or into a glaze, called sleet and freezing rain."
+    },
+    {
+      "n": 28,
+      "scene": "A bright rainbow arches over green hills as the rain fades away",
+      "summary": "A rainbow is sunlight bent and split into colours by raindrops."
+    },
+    {
+      "n": 29,
+      "scene": "A map shows a cold air mass meeting a warm air mass over a coast",
+      "summary": "Large bodies of air called air masses meet along lines called fronts."
+    },
+    {
+      "n": 30,
+      "scene": "Dark towering clouds approach a field as farmers hurry across it",
+      "summary": "A cold front brings sudden showers and gusts, then cooler, clearer air."
+    },
+    {
+      "n": 31,
+      "scene": "Layers of grey cloud thicken slowly over a calm town",
+      "summary": "A warm front brings thickening cloud and then hours of steady rain."
+    },
+    {
+      "n": 32,
+      "scene": "A weather map with circles marked H and L over several countries",
+      "summary": "Low pressure usually means cloud and rain, and high pressure means calm, dry weather."
+    },
+    {
+      "n": 33,
+      "scene": "Curved lines on a weather map crowd together near a stormy sea",
+      "summary": "On a weather map, lines called isobars join equal pressures, and close lines mean strong wind."
+    },
+    {
+      "n": 34,
+      "scene": "A tall anvil-shaped storm cloud rises over a hot summer plain",
+      "summary": "A thunderstorm grows when very warm, moist air rises fast and condenses."
+    },
+    {
+      "n": 35,
+      "scene": "A bright fork of lightning strikes between a dark cloud and the ground",
+      "summary": "Lightning is a huge electric spark made inside a storm cloud."
+    },
+    {
+      "n": 36,
+      "scene": "A child counts on her fingers while lightning flashes over distant hills",
+      "summary": "Thunder is the sound of air heated by lightning, and counting the seconds shows how far away it is."
+    },
+    {
+      "n": 37,
+      "scene": "A family shelters inside a house while a storm rages outside the window",
+      "summary": "In a thunderstorm, shelter inside a solid building or a hard-topped car."
+    },
+    {
+      "n": 38,
+      "scene": "A thin grey funnel cloud touches down on an empty wheat field",
+      "summary": "A tornado is a narrow, violently spinning column of air under a storm."
+    },
+    {
+      "n": 39,
+      "scene": "A spiral storm with a clear central eye seen from above the sea",
+      "summary": "Hurricanes are huge spinning storms that feed on warm seas."
+    },
+    {
+      "n": 40,
+      "scene": "Heavy rain falls on a crowded city street full of umbrellas",
+      "summary": "A monsoon is a seasonal wind that brings heavy rains to places such as South Asia."
+    },
+    {
+      "n": 41,
+      "scene": "The Earth is tilted on its path around the sun, with summer and winter",
+      "summary": "The seasons come from the tilt of the Earth, not from its distance from the sun."
+    },
+    {
+      "n": 42,
+      "scene": "A weather balloon rises past a station with instruments on a hill",
+      "summary": "Forecasting begins with measurements from stations, ships, balloons, satellites and radar."
+    },
+    {
+      "n": 43,
+      "scene": "A large computer room with screens showing colourful weather maps",
+      "summary": "Computer models use the laws of physics to work out how the atmosphere will change."
+    },
+    {
+      "n": 44,
+      "scene": "A forecaster studies a map where lines of weather split in many directions",
+      "summary": "Tiny errors grow over time, so forecasts are good for a few days and much less certain after a week."
+    },
+    {
+      "n": 45,
+      "scene": "A phone screen shows a cloud icon and a small umbrella symbol",
+      "summary": "A percentage chance of rain is a measure of risk, not a promise."
+    },
+    {
+      "n": 46,
+      "scene": "A red sunset glows over a calm harbour with small boats",
+      "summary": "Old sayings about the sky can hold some truth, but they are only hints."
+    },
+    {
+      "n": 47,
+      "scene": "A graph of yearly temperatures drawn over many decades on paper",
+      "summary": "Climate is the pattern of weather averaged over many years, usually about thirty."
+    },
+    {
+      "n": 48,
+      "scene": "Tall chimneys release white smoke at sunset above a busy city",
+      "summary": "Burning coal, oil and gas adds carbon dioxide, which traps heat and has warmed the world."
+    },
+    {
+      "n": 49,
+      "scene": "A dry cracked riverbed lies beside a flooded street in two halves",
+      "summary": "A warmer world brings heavier downpours, more heat waves and rising seas."
+    },
+    {
+      "n": 50,
+      "scene": "A person on a hill watches clouds roll over a valley at dusk",
+      "summary": "Weather is one continuous story, and you can now read the sky for yourself."
+    }
+  ],
+  "levels": {
+    "A1A2": [
+      "Weather is what the air outside is doing today.",
+      "The sun warms some parts of the Earth more than other parts.",
+      "Air covers the whole Earth like a thin blanket.",
+      "Air has weight, and it pushes on everything around us.",
+      "Warm air is light and goes up, but cold air is heavy and sinks.",
+      "Wind is just air that is moving across the ground.",
+      "The Earth turns round once a day, and this bends the wind.",
+      "Some big winds blow the same way for most of the year.",
+      "On a hot day at the beach, the wind blows from the sea.",
+      "One side of a mountain is often wet, and the other is dry.",
+      "There is water in the air around us, even when we cannot see it.",
+      "Warm air can hold more water than cold air can.",
+      "The sun heats the sea, and some water goes up into the air.",
+      "Cold glasses get wet outside because water in the air turns into drops.",
+      "On cold mornings, we see little drops on grass and fog in the air.",
+      "A cloud is made of very small drops of water.",
+      "Tiny bits of dust help the water in the air to make drops.",
+      "Clouds come in many shapes, and each shape has its own name.",
+      "Small white clouds with flat bottoms often mean a fine day.",
+      "A flat grey sky often brings a light rain all day.",
+      "Very high in the sky, thin white clouds are made of ice.",
+      "Rain falls when the drops in a cloud grow too heavy.",
+      "Raindrops are not shaped like tears, as we often draw them.",
+      "When it is very cold, water in the air can become snow.",
+      "Snowflakes all have six sides, but they come in many shapes.",
+      "Hail is a ball of ice that falls from a storm cloud.",
+      "Rain can freeze when it touches the very cold ground.",
+      "A rainbow comes when the sun shines through the rain.",
+      "Large areas of warm and cold air sometimes meet.",
+      "A cold front brings a short, heavy rain and then cooler air.",
+      "A warm front brings clouds first and then rain all day.",
+      "Low pressure usually brings clouds and rain, and high pressure brings sun.",
+      "On weather maps, lines that are close together mean strong wind.",
+      "On a hot day, warm wet air can rise quickly and make a storm.",
+      "Lightning is a very big spark of electricity in the sky.",
+      "Thunder is the loud noise that comes after the lightning flash.",
+      "In a thunderstorm, it is safest to stay inside a house.",
+      "A tornado is a fast, spinning column of air.",
+      "A hurricane is a very big storm that forms over warm sea.",
+      "In some places, the rain comes in one season each year.",
+      "The Earth leans to one side, and this gives us the seasons.",
+      "People measure the weather with machines on the ground and in space.",
+      "Computers use numbers to tell us what the weather will do.",
+      "A small mistake today can become a big mistake later.",
+      "A forecast of rain is a chance, not a promise.",
+      "Some old sayings about the sky are right and some are not.",
+      "Climate is the weather of a place over many years.",
+      "Burning coal, oil and gas is warming the Earth.",
+      "A warmer world has more heat waves and more heavy rain.",
+      "Now you can look at the sky and understand what you see."
+    ],
+    "B1B2": [
+      "Weather is simply what the air is doing outside right now: warm or cold, wet or dry, calm or windy. It changes from hour to hour, which is why people talk about it so much.",
+      "The sun is the engine of all weather, but it does not heat the Earth evenly. Near the equator its light falls straight down, while near the poles it arrives at a slant and spreads thin.",
+      "Around the Earth lies a layer of gases that we call the atmosphere. It is very thin compared with the size of the planet, and nearly all weather happens in its lowest part.",
+      "Air feels like nothing, but it has weight, and the air above you presses down on you all the time. We call this push air pressure, and it is measured with a tool called a barometer.",
+      "When air is warmed, it spreads out and becomes lighter, so it rises. Cooler air is heavier, and it sinks and flows in to take its place.",
+      "Wind is simply air on the move, flowing from places where the pressure is high towards places where it is low. The bigger the difference in pressure between two places, the stronger the wind between them will be.",
+      "Because the Earth spins, moving air does not travel in a straight line. It is bent to the right in the northern half of the world and to the left in the southern half.",
+      "Across the planet there are wide belts of wind that blow in fairly steady directions. Near the equator the trade winds blow from the east, and in the middle latitudes the westerlies blow from the west.",
+      "Land heats up faster than water does, so on a sunny day the air over the beach rises. Cooler air from the sea then moves in to replace it, and that is the sea breeze you feel.",
+      "When wind meets a mountain, it is forced to climb, and as it rises it cools and drops its rain. By the time it reaches the far side the air is dry, and the land there can be very dry too.",
+      "The air always holds some water in the form of a gas called water vapour. You cannot see it, but it is there, and it is the raw material for every cloud.",
+      "Warm air can hold much more water vapour than cold air can. When the air has nearly as much as it can hold, we say the humidity is high, and the day feels sticky.",
+      "Every day the sun warms the oceans, and some of the water changes into vapour and rises. This process is called evaporation, and it is how the sea sends water back up into the sky.",
+      "When warm, moist air touches something cold, it cools and can no longer hold all of its vapour. The extra vapour turns back into tiny drops of liquid, which is called condensation.",
+      "On a clear night the ground loses heat and the air touching it cools, so drops of dew form on the grass. If a whole layer of air near the ground cools, the drops form in the air itself, and we call that cloud fog.",
+      "A cloud is a huge crowd of tiny water drops or ice crystals. They are so small and light that the rising air keeps them floating.",
+      "Vapour does not easily turn into drops in perfectly clean air. It needs tiny particles of dust, smoke or sea salt to gather around, and the air is never short of them.",
+      "About two hundred years ago, an English chemist named Luke Howard gave clouds Latin names. They are still in use today: cumulus means heap, stratus means layer and cirrus means curl.",
+      "Cumulus clouds look like white heaps of cotton with flat grey bottoms. They are made by warm air rising on a sunny day, and small ones usually mean fair weather.",
+      "Stratus is a low, flat sheet of grey cloud that covers the sky like a blanket. It rarely brings heavy rain, but it can leave a fine drizzle and a dull, gloomy day.",
+      "Cirrus clouds are thin, wispy streaks that float very high in the sky, where the air is bitterly cold. They are made of ice crystals, and they can appear a day or so before a change in the weather.",
+      "Cloud droplets are far too small to fall, so they have to bump into each other and join together. It takes about a million of them to make one raindrop that is heavy enough to fall.",
+      "Cartoons usually draw raindrops with a point on top, but real drops are not like that. Small ones are round balls, and larger ones are flattened underneath, a little like a bread roll.",
+      "In a cold cloud, tiny ice crystals grow as water vapour freezes onto them. When enough crystals stick together they fall as flakes, and each crystal has six sides.",
+      "As a crystal falls, it passes through air of different warmth and moisture, and its shape changes with each step. Because every one takes its own path, it is very unlikely that two complex snowflakes are exactly the same.",
+      "Hail grows inside tall storm clouds, where strong winds carry ice pellets up and down again and again. Each trip adds a new layer of ice, until the stone is too heavy for the wind to lift.",
+      "Sometimes snow melts as it falls through a warm layer of air, and then meets a cold layer near the ground. Drops that refreeze become ice pellets, while drops that stay liquid until they land on a frozen surface make freezing rain.",
+      "A rainbow appears when sunlight enters raindrops, bounces off the back of each drop and comes out again. The drop bends each colour by a slightly different amount, so the white light is spread into a band of colours.",
+      "A huge body of air takes on the warmth and moisture of the place where it forms, and we call it an air mass. When a warm air mass meets a cold one they do not mix easily, and the line between them is called a front.",
+      "A cold front is a place where cold air pushes under warm air and lifts it quickly. The weather it brings is sudden: heavy showers, perhaps thunder and gusty winds, followed by clearer, cooler air.",
+      "At a warm front, warm air slides slowly up and over the colder air ahead of it. The cloud thickens and lowers over many hours, and then comes a long spell of steady rain.",
+      "Weather maps show areas of low pressure, marked L, and areas of high pressure, marked H. Air rises in a low, which brings cloud and rain, while air sinks in a high, which usually means calm and dry weather.",
+      "The curved lines on a weather map join places that have the same air pressure, and they are called isobars. Where the lines are close together, the pressure changes quickly and the wind is strong.",
+      "A thunderstorm begins when very warm, moist air rises fast, sometimes up to the top of the troposphere. As it climbs, the water vapour condenses and gives out heat, which makes the air rise even faster.",
+      "Inside a storm cloud, ice and water drops rub against each other, and the cloud fills with electric charge. When the difference is big enough, a huge spark jumps through the air, and we see it as lightning.",
+      "Thunder is the sound of the air that lightning has suddenly heated, which expands with a bang. Light arrives almost at once, but sound is much slower, so you see the flash before you hear the bang.",
+      "The safest place in a thunderstorm is inside a solid building or a car with a metal roof. Keep away from open fields, hills, water and lone trees, and wait half an hour after the last thunder before going out.",
+      "A tornado is a narrow column of air that spins violently and reaches from a storm cloud to the ground. Most are small and short-lived, but the strongest can do great damage along a path of several kilometres.",
+      "Hurricanes grow over seas warmer than about 26 degrees Celsius, which feed them with heat and water vapour. The same kind of storm is called a typhoon in the western Pacific and a cyclone in the Indian Ocean.",
+      "A monsoon is a wind that changes direction with the seasons. In summer in South Asia it blows from the warm ocean to the land and brings the heavy rains on which millions of farmers depend.",
+      "Many people think summer comes when the Earth is closer to the sun, but this is not true. The Earth leans to one side, so each half of the world is tilted towards the sun for half of the year.",
+      "Every day, thousands of weather stations, ships, aeroplanes and balloons measure the temperature, the wind and the pressure. Satellites high above the Earth watch the clouds, and radar sees where the rain is falling.",
+      "Forecasters feed the measurements into a computer model, which divides the atmosphere into millions of small boxes. Using the laws of physics, it works out how the air in each box will change over the next few hours.",
+      "The atmosphere is chaotic, which means that tiny errors in the starting measurements grow larger as time passes. A forecast for tomorrow is usually good, but beyond about a week it becomes much less reliable.",
+      "A forecast of a 30 percent chance of rain does not mean it will rain for 30 percent of the day. Different weather services define it in slightly different ways, but it is always a chance and never a promise.",
+      "“Red sky at night, shepherd's delight” is an old rhyme, and it often works in places where weather moves from west to east. A red sunset can mean that dry air is coming, while a red dawn can mean that rain is on its way.",
+      "Weather is what happens today, but climate is the pattern of weather averaged over many years. Scientists often use a period of thirty years, which is long enough to smooth out the ups and downs of single seasons.",
+      "When people burn coal, oil and gas, they release carbon dioxide, a gas that traps heat in the atmosphere. The world has warmed by over one degree Celsius since the late 1800s, and scientists agree that people are the main cause.",
+      "Warmer air can hold more water vapour, so in many places the heaviest downpours are becoming heavier. Heat waves are also becoming more frequent, and sea levels are rising slowly because the oceans expand as they warm and ice melts.",
+      "You now know how the sun, the air and the water work together to write the sky's daily story. Next time you step outside, look up, read the clouds and feel the wind, and you will see it unfold."
+    ],
+    "C1C2": [
+      "Weather is the everyday mood of the air above your head: the warmth or chill, the wetness or dryness, the stillness or the gale that you meet when you step outside. It can change in a single afternoon, which is why it makes such a dependable subject of conversation between strangers. This book follows it from the first spark of sunlight to the storm cloud and the forecast, in plain words and one idea at a time.",
+      "Almost all weather is driven by the sun, yet its warmth is shared out very unevenly across the planet. Near the equator the light arrives almost straight from above and is concentrated, whereas near the poles it strikes at a low slant and spreads over a much wider area. That difference in heating, between the hot middle and the cold ends of the globe, is the first cause of nearly everything the air does.",
+      "The atmosphere is a mixture of gases, mostly nitrogen and oxygen, that clings to the Earth by gravity and thins out gradually into space. Compared with the width of the planet it is no thicker than the skin of an apple, and almost all weather takes place in its lowest layer, the troposphere, which is about ten kilometres deep over much of the world. Above it lies the calm, dry stratosphere, where weather in the everyday sense hardly happens.",
+      "Air seems weightless, yet a column of it stretching from your head to the top of the atmosphere weighs a great deal, and the pressure it creates presses on every surface you touch. You do not feel it, because your body pushes back with equal force from the inside. Meteorologists measure this pressure with a barometer, and its slow rise and fall is one of the most useful clues to what the weather will do next.",
+      "Warm air expands as it heats, becoming lighter than the cooler air around it, and so it floats upward the way a bubble climbs through water. As it rises it leaves a gap near the ground, and heavier, cooler air flows in sideways to fill the space. This restless rising and sinking is the basic movement behind almost every cloud, breeze and storm.",
+      "Wind is nothing more mysterious than air in motion, and the force that sets it moving is a difference in pressure from one place to another. Air flows from where the pressure is high to where it is low, much as water runs down a slope, and the steeper the slope, the faster it rushes. When you feel a gust on your face, you are feeling the atmosphere trying to even itself out.",
+      "The planet turns once every day, and this spin quietly twists the path of any large body of moving air. In the northern half of the world the winds are bent to the right and in the southern half to the left, an effect named after the French scientist Coriolis. It is the reason why great storms swirl in opposite directions on either side of the equator.",
+      "Where the sun's heat, the spinning Earth and the pull of pressure combine, they produce wide belts of wind that circle the globe in fairly steady patterns. Within the tropics the trade winds blow from the east, which once carried sailing ships across the oceans, while in the middle latitudes the westerlies blow the other way and bring most of the weather to places such as Britain. These belts shift a little with the seasons and wander whenever other forces push against them.",
+      "Land warms far more quickly than water, so on a sunny afternoon the air above the shore climbs upward and leaves a space behind it. Cooler air drifts in from the sea to fill the gap, giving the coast its welcome sea breeze at just the hour when the heat is at its worst. After dark the pattern reverses, because the land cools faster than the sea, and a gentle land breeze flows out over the water.",
+      "When moving air meets a mountain range it has no choice but to climb, and as it rises it cools and releases much of its moisture as rain or snow on the windward slopes. The air that descends on the far side has been wrung dry, so the land there lies in what is called a rain shadow and may be as barren as a desert. This is one reason why places only a short drive apart, on either side of a range, can have very different weather.",
+      "Even on the clearest day the air carries water in the form of an invisible gas called water vapour, drawn up from seas, lakes, soil and the leaves of plants. It does not look like anything at all, yet it is the raw material for every cloud, every shower and every snowflake. A kettle shows the idea: the white plume above its spout is not the vapour itself, but vapour that has already cooled into tiny drops.",
+      "The amount of vapour that air can hold depends strongly on its temperature, and warm air can carry far more than cold. Humidity is the word for how close the air is to being full, and when it is high, sweat evaporates slowly from the skin, so a hot day feels heavy and sticky. The same temperature in a dry desert feels far easier to bear, because the air there still has room to take up moisture.",
+      "The sun's heat gives some of the water molecules at the surface of the sea enough energy to break free and join the air as vapour. This process, known as evaporation, lifts an enormous quantity of water into the sky every day, mostly from the oceans. It is the first step in the water cycle, which carries the same water around the world again and again.",
+      "If moist air is cooled enough, it reaches a temperature called the dew point, at which it can hold no more vapour and the surplus condenses into liquid droplets. You can see this on a cold glass of water on a summer day, where the outside of the glass slowly becomes covered with a fine film of moisture. High in the sky the same thing happens to rising air, and the result is a cloud.",
+      "Under a clear night sky the ground radiates its warmth away, and the grass becomes cold enough to condense the vapour from the air into the beads of dew that glitter at sunrise. When a whole layer of air near the surface is chilled in the same way, the droplets form in the air itself and hang there as fog. Fog is, in short, a cloud that touches the ground, and anyone walking through it is standing inside a cloud.",
+      "A cloud is a vast crowd of microscopic water droplets or ice crystals, so numerous that together they can block out the sun. Each droplet is so small and light that the gentlest rising air keeps it afloat, which is why clouds seem to hang in the sky instead of falling. A modest fair-weather cloud can nonetheless hold hundreds of tonnes of water, spread thinly through the air.",
+      "Water vapour condenses far more readily when it has a surface to settle on, and so nearly every cloud droplet forms around a microscopic particle of dust, smoke, pollen or sea salt. Such particles, known as condensation nuclei, are always present in the air in vast numbers, blown up from deserts, thrown off by waves and released by fires and volcanoes. Without them the sky would have to become far more saturated before a single cloud could appear.",
+      "In 1802 an English pharmacist and amateur weatherman named Luke Howard proposed a set of Latin names for clouds, and the system he began is still the basis of the one used today. Cumulus means heap, stratus means layer, and cirrus means a curl of hair, while the word nimbus is added to any cloud that brings rain. Learning these few words is like learning the alphabet of the sky, for the other names are built out of them.",
+      "Cumulus clouds are the puffy white heaps that children love to draw, each with a flat, slightly grey base where the rising air first cooled enough to condense. They are born of thermals, columns of warm air that climb from sun-heated ground, and on most days the small ones drift by harmlessly. If they keep growing upward into towers, however, they can turn into the giants that bring showers and thunder.",
+      "Stratus is a low, featureless layer of grey cloud that spreads across the sky like a lid, hiding the sun and draining the colour out of the landscape. It forms when a broad sheet of air rises slowly and gently, and it usually yields nothing heavier than drizzle or a few light flakes of snow. Nothing about it is dramatic, but it can sit overhead for days and make the whole world feel muted.",
+      "Cirrus clouds are the delicate white feathers of the upper sky, drawn out into long streaks by strong winds at heights where the temperature is far below freezing. They consist entirely of ice crystals, and because they are often the first sign of an approaching warm front, sailors and farmers have long treated them as a warning that rain may arrive within a day or so. They do not always bring it, however, for the sky is full of cirrus on many perfectly dry days.",
+      "A cloud droplet is so small that the slightest updraught holds it up, and so for rain to fall the droplets must first merge into far larger ones. In warm clouds they do this by colliding as they drift, while in cold clouds ice crystals grow at the expense of the surrounding water and then melt as they fall. It takes roughly a million droplets to make a single raindrop, which is why a cloud can hang overhead for a long time before it finally lets go.",
+      "Artists draw a raindrop as a teardrop with a pointed top, but a falling drop never looks like that, for the air and the surface tension of the water shape it into something quite different. Small drops are almost perfect spheres, while larger ones are squashed flat underneath, rather like a bun, and the very biggest split into smaller drops as they fall. Raindrops range from a fraction of a millimetre across, as in drizzle, to roughly five millimetres at most.",
+      "Where the cloud is cold enough, water vapour does not become droplets at all, but freezes directly onto tiny ice crystals that grow as they tumble. Every crystal grows six sides because of the way water molecules lock together, and when many of them clump into a single flake the result is the soft, silent snow that settles on the ground. Whether snow reaches the ground at all depends on the temperature of the air all the way down, and not just in the cloud.",
+      "A growing crystal records its journey through the cloud, for each change in temperature and humidity alters the way its arms branch and spread. Since no two crystals follow precisely the same path, the old saying that no two snowflakes are alike is very probably true of the elaborate ones, though simple, plain crystals can certainly look identical. Few things in nature show so clearly how a small difference in conditions can lead to a different result.",
+      "Hailstones are born in towering storm clouds, where powerful updraughts hurl small pellets of ice upward through zones of supercooled water again and again. Each trip adds another layer of ice, a little like the rings of an onion, until the stone grows too heavy for the wind to hold and crashes to the ground. Most are small, about the size of a pea or a marble, while the biggest can be larger than a tennis ball.",
+      "Occasionally the air has a warm layer sandwiched between colder air above and below, and snow that falls into it melts into raindrops before reaching the freezing air near the ground. If the drops have time to refreeze they land as ice pellets, but if they remain liquid until they touch a frozen surface they spread out and freeze on contact, coating roads, wires and branches in a glassy shell. Freezing rain is among the most dangerous of winter weather, because the ice it leaves is almost invisible and can bring down power lines.",
+      "To see a rainbow you must stand with the sun behind you and a shower in front, for the colours are sunlight that has entered each raindrop, reflected from its inner back surface and left again at a different angle. Because the drop bends red light a little less than violet, the white light is fanned out into a curved band, with red on the outside and violet on the inside. Every person sees their own rainbow, formed by a different set of drops, and the full shape is really a circle that the ground cuts off.",
+      "A body of air that sits for days over one region takes on its character: air that forms over a frozen northern plain is cold and dry, while air from a tropical ocean is warm and moist. Such bodies of air, which may stretch over thousands of kilometres, are called air masses, and they resist mixing with one another like oil and water. The boundary where two of them meet is known as a front, and it is along these fronts that much of the world's rain and snow is produced.",
+      "At a cold front, dense cold air advances like a wedge beneath the warmer air ahead of it and shoves that air steeply upward. The lifting is abrupt, so the clouds that form are tall and the rain is intense, often with gusts and sometimes thunder, but the whole disturbance usually passes within an hour or two. Behind it the sky clears, the temperature falls and the air feels fresh and clean, as though the world had been rinsed.",
+      "A warm front advances more gently, as light warm air creeps up a long, shallow slope over the cooler air in front of it. The sky tells the story hours beforehand, with high wisps of cirrus giving way to a grey veil, then to thick, low cloud, and finally to steady rain that may last for most of a day. When the front has passed, the air behind it is milder and often damp, and the temperature rises noticeably.",
+      "Around a region of low pressure the air spirals inward and rises, and as it climbs it cools and condenses, so lows are usually associated with cloud, wind and rain. In a high-pressure system the air gently sinks and warms slightly, which dissolves cloud and brings settled, quiet weather, although in winter it can also trap a lid of grey mist beneath it. This is why forecasters watch the movement of lows and highs more closely than almost anything else.",
+      "The curving lines on a weather map, called isobars, join together all the places that share the same air pressure, much as the contour lines on a hill map join places of the same height. Where the lines crowd close together the pressure drops steeply over a short distance, and the wind rises accordingly, while widely spaced lines point to light and variable breezes. With a little practice a reader can look at such a chart and see at once where the storms are coming from.",
+      "A thunderstorm needs three ingredients: moisture, warmth near the ground and something to start the air moving upward, such as a front or a heated hillside. Once the rising air condenses, it releases the heat that was used to evaporate the water, and that fresh warmth powers the climb still higher, until the cloud reaches the full height of the troposphere and spreads out flat at the top. The result is the towering anvil shape that experienced observers recognise from many kilometres away.",
+      "Inside a thunderstorm, countless collisions between ice particles and droplets separate electric charge, leaving the upper part of the cloud mostly positive and the lower part mostly negative. When the difference becomes too great for the air to resist, a spark leaps across the gap, heating the air along its path to a temperature much hotter than the surface of the sun. The flash we see lasts only a fraction of a second, although it is often made up of several strokes that follow the same channel.",
+      "Thunder is the shock wave from air that lightning has heated so quickly that it expands explosively, and the rumble comes from sound reaching you from different parts of the long, crooked bolt. Light arrives almost instantly while sound takes about three seconds to cover each kilometre, so counting the seconds between flash and bang gives you a rough measure of how far away the storm is. If the gap shrinks with each flash, the storm is heading towards you.",
+      "Lightning tends to strike the tallest object in an open area, so the safest places during a thunderstorm are inside a solid building or a hard-topped car, where the structure carries the current around you. It is wise to avoid open fields, hilltops, water and isolated trees, and to wait for about half an hour after the final rumble of thunder before going back outside. This is general safety information, and the advice of your local weather service always comes first.",
+      "A tornado is a narrow, rotating column of air that extends from the base of a thunderstorm to the ground, and it is made visible by the dust it lifts and the water droplets that condense inside it. The great majority are weak and over within minutes, yet the rarest ones can produce among the fastest winds found anywhere on Earth, tearing across the land in a narrow track. They occur on every continent except Antarctica, but the central plains of the United States see more of them than any other region.",
+      "A hurricane is a vast rotating storm that draws its energy from the heat of the sea, which is why it only forms over water warmer than about 26 degrees Celsius and weakens rapidly once it moves over land. Spiralling winds converge on a calm, clear centre called the eye, around which stands the eyewall, a ring of towering cloud with the strongest winds. The same kind of storm is known as a typhoon in the western Pacific and as a cyclone in the Indian Ocean and around Australia.",
+      "The word monsoon comes from an Arabic word for season, and it describes winds that reverse their direction between summer and winter as the land and the ocean heat and cool at different rates. In South Asia the summer monsoon carries damp ocean air onto the land and delivers most of the year's rain in a few months, so that the harvest of millions of people depends on its arrival. When it comes late or weak the consequences can be serious, and when it is violent it can bring floods.",
+      "A common belief holds that summer arrives when the Earth moves closer to the sun, but the planet is actually nearest to the sun in early January, in the middle of the northern winter. The real cause is the tilt of the Earth's axis, which points each hemisphere toward the sun for half of the year, giving it longer days and more direct light. Where the sun climbs high and the days are long, more heat arrives, and that is all the difference between summer and winter.",
+      "Forecasting begins with measurement, and every day thousands of weather stations, ships, aircraft and drifting buoys report the temperature, pressure, humidity and wind of the air around them. Balloons carry instruments high into the atmosphere twice daily from hundreds of sites, satellites photograph the clouds and measure the heat of the surface from orbit, and radar detects the rain as it falls. All this information is gathered and shared among countries within hours, because the air does not respect borders.",
+      "The measurements are fed into a numerical model, a computer program that divides the atmosphere into a three-dimensional grid of millions of boxes and applies the laws of physics to the air in each one. Step by step, it calculates how the temperature, wind and moisture of every box will change over the next few minutes, then repeats the process thousands of times to peer days into the future. The idea is more than a century old, but it only became practical when computers grew fast enough to finish the sums before the weather arrived.",
+      "The atmosphere is a chaotic system, meaning that a tiny error in the starting measurements, no bigger than a small puff of wind missed by a single instrument, can swell until it ruins the forecast. For this reason a prediction for tomorrow is usually dependable, one for the coming weekend fairly good, and one for ten days ahead much more uncertain. Forecasters now run the model many times with slightly different starting numbers, and the spread of the results shows them how far to trust it.",
+      "A forecast of a 30 percent chance of rain does not mean that it will rain for a third of the day, nor that three forecasters in ten expect a shower. In some countries it combines how sure the forecaster is that rain will form with how much of the forecast area will receive it, though the exact definition varies from one weather service to another. The sensible way to use it is as a measure of risk, like deciding whether an umbrella is worth the trouble of carrying.",
+      "Long before weather maps, people watched the sky and passed their observations down in rhymes, and the best known, “Red sky at night, shepherd's delight”, holds a grain of truth in the middle latitudes, where weather generally travels from west to east. A red sunset suggests that the clear air to the west lets the low sun shine through, so fine weather may be on its way, whereas a red dawn suggests the clear air has already passed and that cloud and rain may follow. Like most folk rules it fails often enough that it should be treated as a hint rather than a prediction.",
+      "Weather is what the atmosphere does on a particular day, whereas climate is the long-term pattern of that weather, the average and the range of conditions a place can expect over many years. Meteorologists traditionally use a span of thirty years, long enough to smooth out the oddities of any single season and still short enough to show real change. A cold week in spring says little about the climate, just as one hot afternoon does not make a hot country.",
+      "Carbon dioxide, released when coal, oil and gas are burned, acts like an extra blanket in the atmosphere, letting sunlight in but slowing the escape of heat. Since the late nineteenth century the average temperature of the Earth's surface has risen by a little more than one degree Celsius, and the overwhelming conclusion of climate scientists is that human activity is the principal cause. Because a change in the average shifts the odds of every kind of weather, a warmer world is not simply a world of warmer days, but one in which familiar patterns are altered in many places.",
+      "Since warmer air can hold roughly seven percent more water vapour for each degree Celsius of warming, the heaviest downpours are becoming heavier in many regions, while heat waves are growing more frequent and more intense. At the same time, melting ice and the expansion of warming seawater are slowly raising sea levels, which makes coastal storms more damaging. Scientists are careful to point out that no single storm can be blamed on climate change alone, but the overall pattern of extremes is shifting in a direction that fits what physics predicts.",
+      "From a sunlit sea to a rain-heavy cloud, and from a spinning storm to a forecast on your phone, weather turns out to be one continuous story in which the sun, the air and the water play every part. You do not need instruments to follow it, for the clouds, the wind and the feel of the air on your skin are all clues that you can now read for yourself. The next time you step outside, take a moment to look up, because the sky is telling you something new every day."
+    ]
+  }
+}
