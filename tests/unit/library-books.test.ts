@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { ART } from "@/components/welcome/art";
 import { checkBook, type EnBook } from "../../scripts/books/check-en";
-import { breakTitle, titleSize } from "../../scripts/books/build-catalog";
+import { breakTitle, emWidth, titleSize } from "../../scripts/books/build-catalog";
 import GENERATED from "@/lib/preview/written.generated.json";
 import type { GeneratedBook } from "@/lib/preview/generated";
 import { CATEGORIES } from "@/lib/content/limits";
@@ -39,17 +39,24 @@ describe("the written library", () => {
 
   it("has a catalogue record for each written book, with titles that fit the cover", () => {
     for (const g of GENERATED as GeneratedBook[]) {
-      expect(g.cover.title.join(" ")).toBe(g.title);
+      expect(g.cover.title.join(" ").replace(/- /g, "-")).toBe(g.title);
+      // Every line fits inside the cover at the size it is printed (112 units wide, less the spine and margins).
+      for (const line of g.cover.title) expect(emWidth(line) * (g.cover.size ?? 15), `${g.title}: "${line}"`).toBeLessThanOrEqual(78.5);
       expect(g.blurb.length).toBeGreaterThan(30);
     }
   });
 });
 
 describe("cover titles", () => {
-  it("break at word edges and shrink for long lines", () => {
-    expect(breakTitle("The Hound of the Baskervilles")).toEqual(["The Hound of", "the", "Baskervilles"]);
+  it("break at word edges (and after a long word's hyphen), and shrink for wide lines", () => {
+    const hound = breakTitle("The Hound of the Baskervilles");
+    expect(hound.join(" ")).toBe("The Hound of the Baskervilles");
+    expect(hound.every((l) => emWidth(l) * 11.5 <= 78)).toBe(true);
     expect(breakTitle("Walden")).toEqual(["Walden"]);
+    expect(breakTitle("Arsène Lupin, Gentleman-Burglar").at(-1)).toBe("Burglar");
     expect(titleSize(["Walden"])).toBe(19);
     expect(titleSize(["Baskervilles"])).toBeLessThan(15);
+    // Wide letters take more room than narrow ones: "The Academy" must be smaller than "Illicit Trill" would allow.
+    expect(titleSize(["The Academy"])).toBeLessThan(titleSize(["Illicit li"]));
   });
 });
