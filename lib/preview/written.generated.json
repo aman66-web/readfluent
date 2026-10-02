@@ -621,6 +621,44 @@
   }
  },
  {
+  "slug": "the-grumpy-baker-of-maple-street",
+  "title": "The Grumpy Baker of Maple Street",
+  "author": "Book Lovers",
+  "kind": "inspired",
+  "category": "romance",
+  "blurb": "Hazel Quinn comes to Maple Street for one month to fix a baker's books. Jonas Reed is grumpy, proud and up at three every morning. Can a cheerful stranger save his bakery, and can he save her heart?",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "The Grumpy",
+    "Baker of",
+    "Maple Street"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "house",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "heart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "a-study-in-scarlet",
   "title": "A Study in Scarlet",
   "author": "Arthur Conan Doyle",
@@ -3047,6 +3085,112 @@
   }
  },
  {
+  "slug": "lead-through-the-hard-days",
+  "title": "Lead Through the Hard Days",
+  "author": "The Hard Thing About Hard Things",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Kofi runs a small delivery company, and in one week a third of his income walks out the door. Follow his hard year, with a retired manager at his side, and learn how to tell the truth, decide, and care for people when things go wrong.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "Lead Through",
+    "the Hard Days"
+   ],
+   "size": 13,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "compass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "anchor",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "work-less-earn-smart",
+  "title": "Work Less, Earn Smart",
+  "author": "The 4-Hour Workweek",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Leo works sixty hours a week and still feels behind. Over one year, with help from a friend who runs a workshop, he learns to measure results instead of hours, say no, raise his prices and build a calmer way to earn a living.",
+  "cover": {
+   "bg": "#DDF3E4",
+   "light": true,
+   "title": [
+    "Work Less,",
+    "Earn Smart"
+   ],
+   "size": 17,
+   "author": "",
+   "pieces": [
+    {
+     "id": "hourglass",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "bridge",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "lead-with-purpose",
+  "title": "Lead With Purpose",
+  "author": "Start With Why",
+  "kind": "inspired",
+  "category": "business-money",
+  "blurb": "Sofia's bakery is busy, but she cannot say why it exists, and a cheaper rival is stealing her customers. With an old sea captain as her guide, she learns what purpose really is, how to find it, and how to lead people by it.",
+  "cover": {
+   "bg": "#0F3B38",
+   "title": [
+    "Lead With",
+    "Purpose"
+   ],
+   "size": 18.5,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "lighthouse",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "heart",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-dhammapada",
   "title": "The Dhammapada",
   "author": "Buddhist scripture (traditional)",
@@ -4246,6 +4390,45 @@
   }
  },
  {
+  "slug": "a-better-night-starting-tonight",
+  "title": "A Better Night, Starting Tonight",
+  "author": "The Sleep Revolution",
+  "kind": "inspired",
+  "category": "health",
+  "blurb": "Lena can't sleep, and tomorrow is a big day. Follow her as she learns how sleep really works, why it goes wrong, and which small changes you can make tonight to wake up feeling like yourself again.",
+  "cover": {
+   "bg": "#1B2250",
+   "title": [
+    "A Better",
+    "Night,",
+    "Starting",
+    "Tonight"
+   ],
+   "size": 19,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "stars",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
   "slug": "the-histories",
   "title": "The Histories",
   "author": "Herodotus",
@@ -4725,6 +4908,44 @@
     },
     {
      "id": "compass",
+     "x": 160,
+     "y": 38,
+     "s": 0.36
+    }
+   ]
+  }
+ },
+ {
+  "slug": "the-americas-before-columbus",
+  "title": "The Americas Before Columbus",
+  "author": "1491",
+  "kind": "inspired",
+  "category": "history",
+  "blurb": "Before Columbus, millions of people farmed, built cities and shaped whole landscapes across two continents. Meet the Maya, the Inca, the Aztecs and many others, and learn how their world rose, flourished and was changed for ever.",
+  "cover": {
+   "bg": "#2A1B5A",
+   "title": [
+    "The Americas",
+    "Before",
+    "Columbus"
+   ],
+   "size": 14,
+   "author": "",
+   "pieces": [
+    {
+     "id": "glowCyan",
+     "x": 100,
+     "y": 80,
+     "s": 0.9
+    },
+    {
+     "id": "pyramid",
+     "x": 100,
+     "y": 82,
+     "s": 0.92
+    },
+    {
+     "id": "sun",
      "x": 160,
      "y": 38,
      "s": 0.36
