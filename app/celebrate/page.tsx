@@ -20,7 +20,7 @@ export default function CelebratePage() {
       <p className="mt-1 text-[15px] leading-snug text-muted">What {MASCOT_NAME} does when a reader reaches a new stage of their level, or a whole new level.</p>
       <div className="mt-6 flex flex-col gap-3">
         {SAMPLES.map((s) => (
-          <button key={s.label} type="button" onClick={() => setUp(s.up)} className="h-14 rounded-full bg-foreground text-[16px] font-semibold text-background active:opacity-85">{s.label}</button>
+          <button key={s.label} type="button" onClick={() => setUp(s.up)} className="h-14 btn-cyan rounded-full text-[16px] font-bold">{s.label}</button>
         ))}
       </div>
       {up && <LevelUp up={up} onClose={() => setUp(null)} />}

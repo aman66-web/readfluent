@@ -197,3 +197,15 @@ h1, h2 { text-wrap: balance; }
   animation: lu-rise .7s cubic-bezier(.2, .8, .3, 1) .95s both, lu-shine 3s ease-in-out 1.7s infinite; }
 @keyframes lu-shine { 0% { background-position: 120% 0 } 100% { background-position: -120% 0 } }
 @media (prefers-reduced-motion: reduce) { .lu-rays, .lu-ring, .lu-burst, .lu-fall, .lu-twinkle { display: none; } }
+
+/* The one button colour: bright cyan with dark ink, never black (owner, 2 Oct 2026). */
+.btn-cyan {
+  background: var(--accent-bright); color: #04222B;
+  box-shadow: 0 14px 30px -14px rgba(34, 211, 238, .75), inset 0 1px 0 rgba(255, 255, 255, .4);
+  transition: transform .14s cubic-bezier(.22, 1, .36, 1), filter .14s;
+}
+.btn-cyan:active { transform: scale(.98); filter: brightness(.97); }
+.btn-cyan:disabled { opacity: .5; box-shadow: none; }
+.bk-float { animation: bk-float 5s ease-in-out infinite alternate; }
+@keyframes bk-float { from { transform: translateY(0) rotate(-.6deg) } to { transform: translateY(-7px) rotate(.6deg) } }
+@media (prefers-reduced-motion: reduce) { .bk-float { animation: none; } }

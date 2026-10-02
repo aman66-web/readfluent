@@ -55,7 +55,7 @@ export function RecallView() {
         <p className="text-[14px] leading-snug text-muted">{t("recall.empty")}</p>
       </div>
 
-      <Link href="/library" className="mt-4 flex h-14 items-center justify-center rounded-full bg-foreground text-[16px] font-semibold text-background active:opacity-85">
+      <Link href="/library" className="mt-4 flex h-14 items-center justify-center btn-cyan rounded-full text-[16px] font-bold">
         {t("home.browse")}
       </Link>
     </main>

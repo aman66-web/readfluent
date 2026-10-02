@@ -1,4 +1,7 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
+
+// next/font works only inside Next's own build.
+vi.mock("@/lib/fonts", () => ({ display: { variable: "" }, jakarta: { variable: "" } }));
 import { APP_NAME, APP_SCHEME, BUNDLE_ID, CACHE_PREFIX, STORAGE_PREFIX, TAGLINE, storageKey } from "@/lib/brand";
 
 const layout = () => import("@/app/layout");

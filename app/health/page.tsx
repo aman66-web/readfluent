@@ -93,7 +93,7 @@ export default function BrowserHealth() {
       </dl>
 
       <button type="button" onClick={clear} disabled={cleared}
-              className="mt-6 h-12 w-full rounded-full bg-foreground px-5 text-[14px] font-semibold text-background disabled:opacity-60">
+              className="mt-6 h-12 w-full btn-cyan rounded-full px-5 text-[14px] font-bold">
         {cleared ? "Clearing…" : "Clear the cache and reload"}
       </button>
       <p className="mt-2.5 text-[12px] leading-snug text-faint">

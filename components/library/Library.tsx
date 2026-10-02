@@ -28,7 +28,7 @@ export function Library({ books }: { books: PreviewBook[] }) {
               aria-pressed={on}
               onClick={() => setCategory(c.id)}
               className={`h-11 shrink-0 rounded-full px-4 text-[14px] font-semibold transition-colors ${
-                on ? "bg-foreground text-background" : "border border-border bg-surface text-muted"
+                on ? "btn-cyan font-bold" : "border border-border bg-surface text-muted"
               }`}
             >
               {c.id === "all" ? t("library.all") : t(`cat.${c.id}`)}

@@ -21,7 +21,7 @@ const serverRaw = () => "";
  * length), and a tap on another one changes it. The Read button goes straight to the first page.
  * Renders the two boxes and the way in, to sit in the page's column.
  */
-export function ReadPicker({ slug, lengths }: { slug: string; lengths: readonly Length[] }) {
+export function ReadPicker({ slug, lengths, children }: { slug: string; lengths: readonly Length[]; /** What goes between the two boxes and the Read button (the blurb). */ children?: React.ReactNode }) {
   const t = useT();
   const router = useRouter();
   const [levelPick, setLevelPick] = useState<LevelId | null>(null);
@@ -43,36 +43,43 @@ export function ReadPicker({ slug, lengths }: { slug: string; lengths: readonly 
     router.push(`/read/${slug}/${LEVELS.find((l) => l.id === level)!.slug}/${length}`);
   };
 
-  const pill = (on: boolean) => `h-11 flex-1 rounded-full text-[14px] font-semibold transition-colors ${on ? "bg-foreground text-background" : "border border-border bg-background text-muted active:bg-border/50"}`;
+  // A segmented control: a pale track with the chosen segment lit in the brand's cyan.
+  const seg = (on: boolean) => `h-11 flex-1 rounded-full text-[14px] font-bold transition-colors ${on ? "btn-cyan" : "text-muted active:bg-accent-bright/15"}`;
 
   return (
     <>
-      <div className="mt-5 flex flex-col gap-2.5 text-[13px]">
-        <section className="rounded-xl border border-border bg-surface p-3" aria-label={t("book.levels")}>
+      <div className="mt-6 flex flex-col gap-3 text-[13px]">
+        <section className="rounded-[22px] border border-accent-bright/25 bg-accent-bright/[0.07] p-3.5" aria-label={t("book.levels")}>
           <div className="flex items-baseline justify-between gap-3">
-            <h2 className="font-semibold text-faint">{t("book.levels")}</h2>
-            {levelInfo && <p className="text-end font-semibold text-muted">{t(`level.${levelInfo.id}.name`)}</p>}
+            <h2 className="text-[12px] font-bold uppercase tracking-[0.1em] text-accent">{t("book.levels")}</h2>
+            {levelInfo && <p className="text-end font-semibold text-foreground/80">{t(`level.${levelInfo.id}.name`)}</p>}
           </div>
-          <div className="mt-2 flex gap-2" role="group" dir="ltr">
-            {LEVELS.map((l) => <button key={l.id} type="button" aria-pressed={level === l.id} onClick={() => setLevelPick(l.id)} className={pill(level === l.id)}>{l.label}</button>)}
+          <div className="mt-2.5 flex gap-1 rounded-full bg-accent-bright/15 p-1" role="group" dir="ltr">
+            {LEVELS.map((l) => <button key={l.id} type="button" aria-pressed={level === l.id} onClick={() => setLevelPick(l.id)} className={seg(level === l.id)}>{l.label}</button>)}
           </div>
+          {levelInfo && <p className="mt-2.5 leading-snug text-muted">{t(`level.${levelInfo.id}.blurb`)}</p>}
         </section>
 
-        <section className="rounded-xl border border-border bg-surface p-3" aria-label={t("book.lengths")}>
+        <section className="rounded-[22px] border border-accent-bright/25 bg-accent-bright/[0.07] p-3.5" aria-label={t("book.lengths")}>
           <div className="flex items-baseline justify-between gap-3">
-            <h2 className="font-semibold text-faint">{t("book.lengths")}</h2>
-            {lengthInfo && <p className="text-end font-semibold text-muted">{t(`length.${lengthInfo.pages}.name`)} · {t(`length.${lengthInfo.pages}.time`)}</p>}
+            <h2 className="text-[12px] font-bold uppercase tracking-[0.1em] text-accent">{t("book.lengths")}</h2>
+            {lengthInfo && <p className="text-end font-semibold text-foreground/80">{t(`length.${lengthInfo.pages}.name`)} · {t(`length.${lengthInfo.pages}.time`)}</p>}
           </div>
-          <div className="mt-2 flex gap-2" role="group">
-            {lengths.map((n) => <button key={n} type="button" aria-pressed={length === n} onClick={() => setLengthPick(n)} className={pill(length === n)}>{t("sheet.pages", { pages: n })}</button>)}
+          <div className="mt-2.5 flex gap-1 rounded-full bg-accent-bright/15 p-1" role="group">
+            {lengths.map((n) => <button key={n} type="button" aria-pressed={length === n} onClick={() => setLengthPick(n)} className={seg(length === n)}>{t("sheet.pages", { pages: n })}</button>)}
           </div>
         </section>
       </div>
 
+      {children}
+
       {/* The way in stays on screen above the menu, wherever the page is scrolled to. */}
       <div className="sticky bottom-[calc(env(safe-area-inset-bottom)+5.25rem)] z-30 -mx-5 mt-auto bg-gradient-to-t from-background via-background to-transparent px-5 pb-2 pt-8">
-        <button type="button" onClick={start} className="h-14 w-full rounded-full bg-foreground text-[17px] font-semibold text-background active:opacity-85">
+        <button type="button" onClick={start} className="btn-cyan inline-flex h-14 w-full select-none items-center justify-center gap-2.5 rounded-full px-6 text-[17px] font-bold">
           {t("sheet.read")}
+          <span className="grid size-8 place-items-center rounded-full bg-black/10" aria-hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="size-3.5 rtl:-scale-x-100"><path d="M5 12h13M12 5l7 7-7 7" /></svg>
+          </span>
         </button>
       </div>
     </>

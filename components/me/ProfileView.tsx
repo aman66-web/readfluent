@@ -187,7 +187,7 @@ export function ProfileView() {
             {signing ? (
               <div className="mt-3"><SignIn error={false} next="/me" onNext={() => { setSigning(false); window.location.reload(); }} /></div>
             ) : (
-              <button type="button" onClick={() => setSigning(true)} className="mt-3 h-12 w-full rounded-full bg-foreground text-[15px] font-semibold text-background active:opacity-85">{t("account.line")}</button>
+              <button type="button" onClick={() => setSigning(true)} className="mt-3 h-12 w-full btn-cyan rounded-full text-[15px] font-bold">{t("account.line")}</button>
             )}
           </Row>
         ))}

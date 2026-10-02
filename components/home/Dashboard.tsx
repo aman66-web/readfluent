@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useMemo, useSyncExternalStore } from "react";
 import { BookCover } from "@/components/BookCover";
-import { LibraryHeader } from "@/components/library/Header";
+import { ProfileButton } from "@/components/home/ProfileButton";
 import { categoryById } from "@/lib/content/limits";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
@@ -40,17 +40,22 @@ export function Dashboard() {
 
   return (
     <main className="safe-top px-5 pb-32 [--pt:1.5rem]">
-      <LibraryHeader />
-      <div className="mt-5 flex items-center justify-between gap-3">
-        <p className="text-[12px] font-semibold uppercase tracking-[0.1em] text-faint" suppressHydrationWarning>{date}</p>
-        {run > 0 && (
-          <span className="tabular inline-flex h-8 shrink-0 items-center gap-1.5 rounded-full bg-surface px-3 text-[12px] font-bold ring-1 ring-inset ring-border" role="img" aria-label={t("home.streak", { n: run })}>
-            <svg viewBox="0 0 24 24" className="size-3.5 text-accent" fill="currentColor" aria-hidden><path d="M12 2c1 3.5-1.5 5-1.5 7.5 0 1.5 1 2.5 2 2.5 1.7 0 2.5-1.8 2-3.5 2.5 1.7 4 4 4 6.5a6.5 6.5 0 0 1-13 0C5.5 10 9 8 12 2z" /></svg>
-            {run}
-          </span>
-        )}
+      {/* No title bar: the date and the day's greeting up top, the streak and the profile at the corner. */}
+      <div className="flex items-start justify-between gap-3">
+        <div className="min-w-0 pt-1">
+          <p className="text-[12px] font-semibold uppercase tracking-[0.1em] text-faint" suppressHydrationWarning>{date}</p>
+          <h2 className="mt-1 text-[28px] font-light leading-[1.1] tracking-[-0.03em]">{t("home.ready")}</h2>
+        </div>
+        <div className="flex shrink-0 items-center gap-2">
+          {run > 0 && (
+            <span className="tabular inline-flex h-8 items-center gap-1.5 rounded-full bg-surface px-3 text-[12px] font-bold ring-1 ring-inset ring-border" role="img" aria-label={t("home.streak", { n: run })}>
+              <svg viewBox="0 0 24 24" className="size-3.5 text-accent" fill="currentColor" aria-hidden><path d="M12 2c1 3.5-1.5 5-1.5 7.5 0 1.5 1 2.5 2 2.5 1.7 0 2.5-1.8 2-3.5 2.5 1.7 4 4 4 6.5a6.5 6.5 0 0 1-13 0C5.5 10 9 8 12 2z" /></svg>
+              {run}
+            </span>
+          )}
+          <ProfileButton />
+        </div>
       </div>
-      <h2 className="mt-1 text-[28px] font-light leading-[1.1] tracking-[-0.03em]">{t("home.ready")}</h2>
 
       <div className="mt-4">
         <LevelCard xp={totalXp(ledger)} learn={a.learn} />

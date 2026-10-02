@@ -403,7 +403,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
               </li>
             ))}
           </ul>
-          <Link href={`/book/${slug}`} className="mt-6 inline-flex h-12 shrink-0 items-center rounded-full bg-foreground px-7 text-[15px] font-semibold text-background">
+          <Link href={`/book/${slug}`} className="mt-6 inline-flex h-12 shrink-0 items-center btn-cyan rounded-full px-7 text-[15px] font-bold">
             {t("reader.another")}
           </Link>
           <Link href="/" className="mt-3 inline-flex h-11 shrink-0 items-center text-[14px] font-semibold text-muted">{t("reader.toLibrary")}</Link>
