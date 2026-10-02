@@ -41,7 +41,7 @@ export function Library({ books }: { books: PreviewBook[] }) {
         {shown.map((b) => (
           <li key={b.slug}>
             <Link href={`/book/${b.slug}`} className="block active:opacity-80">
-              <BookCover title={b.title} author={coverAuthor(b)} hue={categoryById(b.category)?.hue ?? 30} />
+              <BookCover slug={b.slug} title={b.title} author={coverAuthor(b)} hue={categoryById(b.category)?.hue ?? 30} />
               <p className="mt-2 text-[14px] font-semibold leading-tight">{b.title}</p>
               <p className="text-[12px] text-faint">{t(`cat.${b.category}`)}</p>
             </Link>

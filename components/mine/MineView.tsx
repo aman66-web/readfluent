@@ -22,7 +22,7 @@ function Row({ e, done }: { e: MineEntry; done: boolean }) {
   return (
     <li>
       <Link href={readHref(e)} className="flex items-center gap-4 rounded-[20px] border border-border bg-surface p-3 active:opacity-80">
-        <BookCover title={e.book.title} author={coverAuthor(e.book)} hue={categoryById(e.book.category)?.hue ?? 30} className="w-[52px] shrink-0 !p-1.5 [&_p]:!text-[7px] [&_div:first-child]:hidden" />
+        <BookCover slug={e.book.slug} title={e.book.title} author={coverAuthor(e.book)} hue={categoryById(e.book.category)?.hue ?? 30} className="w-[52px] shrink-0" />
         <span className="min-w-0 flex-1">
           <span className="block truncate text-[15px] font-semibold" dir="auto">{e.book.title}</span>
           <span className="mt-0.5 block text-[12px] text-faint">{e.levelLabel} · {e.length}</span>

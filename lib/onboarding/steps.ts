@@ -5,7 +5,7 @@
  * of book covers) → Dewey says hello → Dewey says how quick it will be → Dewey celebrates and the run moves on by itself → which languages (the one you speak and the
  * one you want to learn) → how much of it you know (or a
  * five-minute test that finds out) → how much time a day they can give it → how
- * long that takes to reach each level → a five-screen tour → a promise → Dewey asks to be added to the home screen → sign in → what you are
+ * long that takes to reach each level → a three-screen tour → a promise → Dewey asks to be added to the home screen → sign in → what you are
  * curious about → where they heard of it → the library being set up. Every step after the welcome can be
  * skipped, and every one counts on the progress bar.
  *
@@ -14,7 +14,7 @@
  */
 export const STEP_IDS = [
   "app", "intro", "hello", "quick", "go", "tongues", "level", "time", "path",
-  "journey", "levels", "words", "remember", "connect",
+  "journey", "levels", "connect",
   "pledge", "home", "account", "interests", "heard", "ready",
 ] as const;
 export type StepId = (typeof STEP_IDS)[number];
@@ -26,8 +26,8 @@ export const QUESTION_STEPS = ["tongues", "level", "heard", "time", "interests"]
 export const INTERLUDE_STEPS = ["go"] as const satisfies readonly StepId[];
 export const isInterlude = (step: string): boolean => (INTERLUDE_STEPS as readonly string[]).includes(step);
 
-/** The five tour screens, in order. */
-export const SHOW_IDS = ["journey", "levels", "words", "remember", "connect"] as const;
+/** The three tour screens, in order. */
+export const SHOW_IDS = ["journey", "levels", "connect"] as const;
 export type ShowId = (typeof SHOW_IDS)[number];
 
 export const isShowStep = (step: string): step is ShowId => (SHOW_IDS as readonly string[]).includes(step);

@@ -159,6 +159,9 @@ export function series(l: Ledger, from: string, to: string): { date: string; min
 const read = (): Ledger => parseLedger(readRaw(LEDGER_KEY));
 const write = (l: Ledger) => writeRaw(LEDGER_KEY, JSON.stringify(l));
 
+/** Everything the reader has, as a number: where their level comes from. */
+export const currentXp = (): number => totalXp(read());
+
 /** Sets where a reader starts: their level's floor. Only when nothing has been earned, so it can never lower XP. */
 export function startAt(level: Cefr | null | undefined): void {
   const l = read();

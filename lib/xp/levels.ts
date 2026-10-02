@@ -126,3 +126,20 @@ export function xpForPage(band: string, level: Cefr): number {
 
 /** XP for finishing a version that has `pages` pages. */
 export const xpForFinish = (pages: number): number => XP.finishPerPage * safe(pages);
+
+/** What reaching a new stage (B1.1 → B1.2) or a new level (B1.3 → B2.1) looks like to a reader. */
+export interface LevelUp {
+  /** The stage they are in now: "B2.1", or "C2". */
+  code: string;
+  level: Cefr;
+  /** A whole new level, not only the next third of the same one. */
+  newLevel: boolean;
+}
+
+/** Whether the XP going from `before` to `after` carries a reader into a new stage; null if it does not. */
+export function levelUpBetween(before: number, after: number): LevelUp | null {
+  const a = levelFromXp(before);
+  const b = levelFromXp(after);
+  if (b.xp <= a.xp || b.code === a.code) return null;
+  return { code: b.code, level: b.level, newLevel: b.level !== a.level };
+}

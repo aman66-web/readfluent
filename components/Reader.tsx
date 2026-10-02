@@ -18,8 +18,9 @@ import { speak, stopSpeaking } from "@/lib/reading/speak";
 import { tokenize, translatedLine } from "@/lib/reading/sentences";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { SAVED_KEY, parseSaved, removeSaved, savedId, toggleSaved } from "@/lib/words/saved";
-import { XP } from "@/lib/xp/levels";
-import { LEDGER_KEY, awardFinish, awardPage, parseLedger, trackSeconds } from "@/lib/xp/ledger";
+import { XP, levelUpBetween, type LevelUp as LevelUpInfo } from "@/lib/xp/levels";
+import { LevelUp } from "@/components/xp/LevelUp";
+import { LEDGER_KEY, awardFinish, awardPage, currentXp, parseLedger, trackSeconds } from "@/lib/xp/ledger";
 import type { Scene } from "@/lib/preview/catalog";
 
 /** Photos are mounted only for the current page and its neighbours (SPEC.md §10, M4): a 200-page version never holds 200 images. */
@@ -240,11 +241,18 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
     const id = window.setTimeout(() => setGain(null), 1600);
     return () => window.clearTimeout(id);
   }, [gain]);
+  // A new stage or a new level: the celebration comes up over the page.
+  const [levelUp, setLevelUp] = useState<LevelUpInfo | null>(null);
   useEffect(() => {
     if (total === 0 || index >= total) return;
     const id = window.setTimeout(() => {
+      const before = currentXp();
       const xp = awardPage(version, index + 1, levelId);
-      if (xp > 0) flash(xp, false);
+      if (xp > 0) {
+        flash(xp, false);
+        const up = levelUpBetween(before, currentXp());
+        if (up) setLevelUp(up);
+      }
     }, XP.dwellMs);
     return () => window.clearTimeout(id);
   }, [index, total, version, levelId, flash]);
@@ -252,8 +260,13 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
     if (!onEnd || total === 0) return;
     // After the end slide has settled, not in the same breath as arriving on it.
     const id = window.setTimeout(() => {
+      const before = currentXp();
       const xp = awardFinish(version, total);
-      if (xp > 0) flash(xp, true);
+      if (xp > 0) {
+        flash(xp, true);
+        const up = levelUpBetween(before, currentXp());
+        if (up) setLevelUp(up);
+      }
     }, 400);
     return () => window.clearTimeout(id);
   }, [onEnd, total, version, flash]);
@@ -443,6 +456,8 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
           {toast.text}
         </p>
       )}
+
+      {levelUp && <LevelUp up={levelUp} onClose={() => setLevelUp(null)} />}
 
       {wordsOpen && <WordsSheet saved={saved} onRemove={removeSaved} onClose={closeWords} />}
     </div>

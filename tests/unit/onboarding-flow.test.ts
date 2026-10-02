@@ -17,9 +17,9 @@ vi.mock("@capacitor/core", () => ({ Capacitor: { isNativePlatform: () => false, 
 const read = (p: string) => readFileSync(new URL(`../../${p}`, import.meta.url), "utf8");
 
 describe("the steps", () => {
-  it("are the first run's twenty, in order, with the app's language first and the library last", () => {
-    expect(STEP_IDS).toHaveLength(20);
-    expect(new Set(STEP_IDS).size).toBe(20);
+  it("are the first run's eighteen, in order, with the app's language first and the library last", () => {
+    expect(STEP_IDS).toHaveLength(18);
+    expect(new Set(STEP_IDS).size).toBe(18);
     expect(STEP_IDS[0]).toBe("app");
     expect(STEP_IDS[1]).toBe("intro");
     expect(STEP_IDS[STEP_IDS.length - 1]).toBe("ready");
@@ -34,10 +34,10 @@ describe("the steps", () => {
     expect(STEP_IDS[STEP_IDS.indexOf("tongues") + 1]).toBe("level");
   });
 
-  it("keep the five tour screens together", () => {
+  it("keep the three tour screens together", () => {
     const at = STEP_IDS.indexOf(SHOW_IDS[0]);
-    expect(STEP_IDS.slice(at, at + 5)).toEqual([...SHOW_IDS]);
-    expect(isShowStep("words")).toBe(true);
+    expect(STEP_IDS.slice(at, at + 3)).toEqual([...SHOW_IDS]);
+    expect(isShowStep("levels")).toBe(true);
     expect(isShowStep("daily")).toBe(false);
   });
 
@@ -187,7 +187,7 @@ describe("every screen renders", () => {
 
   it("with all the tour's screens, each saying its own line", async () => {
     const h = await html();
-    const lines = ["books of your choice", "level and your length", "Tap any word", "bring your new words back", "books everyone talks about"];
+    const lines = ["books of your choice", "level and your length", "books everyone talks about"];
     SHOW_IDS.forEach((id, i) => expect(h[id].replace(/<[^>]+>/g, ""), id).toContain(lines[i].split(" ")[0]));
   });
 

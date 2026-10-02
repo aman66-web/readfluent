@@ -7,6 +7,7 @@ import { Pwa } from "@/components/Pwa";
 import { TabBar } from "@/components/TabBar";
 import { LocaleSync } from "@/lib/i18n/react";
 import { APP_NAME, TAGLINE } from "@/lib/brand";
+import { display } from "@/lib/fonts";
 import { ANSWERS_KEY } from "@/lib/onboarding/answers";
 import { RTL_LANGUAGES } from "@/lib/i18n";
 
@@ -34,7 +35,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" dir="ltr" className="h-full antialiased" suppressHydrationWarning>
+    <html lang="en" dir="ltr" className={`h-full antialiased ${display.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: EARLY_LOCALE }} />
       </head>

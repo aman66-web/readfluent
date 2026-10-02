@@ -29,7 +29,7 @@ import { startAt } from "@/lib/xp/ledger";
  * First run: the welcome (a wall of book covers), which languages (the one you speak
  * and the one you want to learn), the guide's hello and its two
  * questions, how much time a day they can give it and how long that takes to reach each
- * level, the guide's tour of what the app does (five screens), where that time takes them, a promise,
+ * level, the guide's tour of what the app does (three screens), where that time takes them, a promise,
  * sign in or sign up, what you are curious about, and the library being
  * set up — which saves the answers and opens the library.
  *

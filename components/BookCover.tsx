@@ -1,5 +1,13 @@
-/** A generated cover: the real ones arrive with the content (M2). The title and author are always real text. */
-export function BookCover({ title, author, hue, className = "" }: { title: string; author?: string; hue: number; className?: string }) {
+import { CoverFace, COVERS } from "@/components/welcome/covers";
+
+/**
+ * A book's cover: the drawn cover of the first screen's wall (title and author across the top, one
+ * picture below) for the books that have one, and a plain gradient with the title for any that do
+ * not yet. It fills the width it is given; the title and author are always real text.
+ */
+export function BookCover({ slug, title, author, hue, className = "" }: { slug: string; title: string; author?: string; hue: number; className?: string }) {
+  const cover = COVERS[slug];
+  if (cover) return <CoverFace cover={cover} className={className} />;
   return (
     <div
       className={`relative flex aspect-[2/3] flex-col justify-between overflow-hidden rounded-[10px] p-3.5 text-white shadow-[0_6px_18px_-8px_rgba(29,26,22,0.55)] ${className}`}

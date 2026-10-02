@@ -13,18 +13,16 @@ import { GuideFrame, GuideHead, useGuide } from "./Guide";
 import type { Mood } from "@/components/mascot/Mascot";
 
 /**
- * The guide's tour: five screens, each one line from the guide and one picture of
+ * The guide's tour: three screens, each one line from the guide and one picture of
  * what it means. They claim only what this app does:
  *
  *   journey    books of their choice, a few pages at a time, with a few questions
  *              in the language after every few pages (the phone is the reader)
  *   levels     every book at your level and your length
- *   words      tap any word you don't know
- *   remember   the words you met come back just before you would forget
  *   connect    the books everyone talks about
  */
-/** How Dewey looks on each tour screen: reading for the books and words, eager for the rest, cheering at the last. */
-const TOUR_MOOD: Record<ShowId, Mood> = { journey: "reading", levels: "ready", words: "reading", remember: "ready", connect: "cheer" };
+/** How Dewey looks on each tour screen: reading for the books, eager for the rest, cheering at the last. */
+const TOUR_MOOD: Record<ShowId, Mood> = { journey: "reading", levels: "ready", connect: "cheer" };
 
 export function TourScreen({ id, at, of, learn, onBack, onContinue }: {
   id: ShowId; at: number; of: number; learn: LanguageCode | null; onBack: () => void; onContinue: () => void;
@@ -41,8 +39,6 @@ export function TourScreen({ id, at, of, learn, onBack, onContinue }: {
         <div className="mt-6 flex min-h-0 flex-1 flex-col items-center justify-center" aria-hidden>
           {id === "journey" && <Journey />}
           {id === "levels" && <Levels />}
-          {id === "words" && <Words />}
-          {id === "remember" && <Remember />}
           {id === "connect" && <Connect />}
         </div>
       </div>
@@ -53,8 +49,6 @@ export function TourScreen({ id, at, of, learn, onBack, onContinue }: {
 const LINES: Record<ShowId, MessageId> = {
   journey: "tour.booksLine",
   levels: "tour.levels",
-  words: "tour.words",
-  remember: "tour.remember",
   connect: "tour.connect",
 };
 
@@ -171,61 +165,6 @@ function Levels() {
           </svg>
         </span>
       </div>
-    </div>
-  );
-}
-
-/* ── words: words floating, any of which opens a card ─────────────────────── */
-const WORDS: { word: string; color: string }[] = [
-  { word: "fortune", color: "#0E7490" },
-  { word: "tolerable", color: "#6D5BD0" },
-  { word: "acquaintance", color: "#0891B2" },
-  { word: "prejudice", color: "#1D6FA5" },
-  { word: "propriety", color: "#0E7490" },
-  { word: "civil", color: "#6D5BD0" },
-];
-
-function Words() {
-  return (
-    <div className="flex w-full flex-col gap-2.5">
-      {WORDS.map(({ word, color }, i) => (
-        <div key={word} className={`wel-in max-w-[88%] ${i % 2 ? "self-end" : "self-start"}`} style={later(800 + i * 110)}>
-          <p className="show-bubble ed-serif rounded-[22px] px-4 py-3 text-[19px] font-bold italic leading-snug"
-             style={{ color, animationDelay: `${-i * 0.9}s` }}>
-            {word}
-          </p>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-/* ── remember: the same words, coming back further apart each time ───────── */
-const COMING: { when: MessageId; word: string; color: string }[] = [
-  { when: "time.tomorrow", word: "fortune", color: "#0E7490" },
-  { when: "time.days3", word: "tolerable", color: "#6D5BD0" },
-  { when: "time.week", word: "prejudice", color: "#0891B2" },
-  { when: "time.month", word: "propriety", color: "#1D6FA5" },
-];
-
-function Remember() {
-  const t = useT();
-  return (
-    <div className="w-full space-y-2.5">
-      {COMING.map(({ when, word, color }, i) => (
-        <div key={word} className="guide-card wel-in relative flex items-center gap-3 rounded-[20px] px-4 py-3.5" style={later(800 + i * 120)}>
-          <div className="min-w-0 flex-1">
-            <p className="text-[11px] font-bold uppercase tracking-[0.12em]" style={{ color }}>{t(when)}</p>
-            <p className="ed-serif mt-1 truncate text-[22px] font-bold italic tracking-[-0.01em]">{word}</p>
-          </div>
-          {/* How well it is held: one more lamp each time it comes back. */}
-          <span className="flex shrink-0 gap-1">
-            {[0, 1, 2, 3].map((n) => (
-              <span key={n} className="size-[7px] rounded-full" style={n <= i ? { background: color, boxShadow: `0 0 8px ${color}66` } : { background: "rgba(11,27,34,.12)" }} />
-            ))}
-          </span>
-        </div>
-      ))}
     </div>
   );
 }

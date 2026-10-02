@@ -59,7 +59,7 @@ export function Dashboard() {
 
       {carry && (
         <Link href={`/book/${carry.slug}`} className="mt-3 flex items-center gap-4 rounded-[22px] border border-border bg-surface p-3.5 active:opacity-80">
-          <BookCover title={carry.title} author={coverAuthor(carry)} hue={categoryById(carry.category)?.hue ?? 30} className="w-[52px] shrink-0 !p-1.5 [&_p]:!text-[7px] [&_div:first-child]:hidden" />
+          <BookCover slug={carry.slug} title={carry.title} author={coverAuthor(carry)} hue={categoryById(carry.category)?.hue ?? 30} className="w-[52px] shrink-0" />
           <span className="min-w-0 flex-1">
             <span className="block text-[12px] font-semibold uppercase tracking-[0.08em] text-faint">{t("home.carryOn")}</span>
             <span className="mt-0.5 block truncate text-[16px] font-semibold" dir="auto">{carry.title}</span>

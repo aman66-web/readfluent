@@ -19,7 +19,7 @@ export function BookView({ book }: { book: PreviewBook }) {
       </BackLink>
 
       <div className="mt-2 flex gap-5">
-        <BookCover title={book.title} author={coverAuthor(book)} hue={category?.hue ?? 30} className="w-[132px] shrink-0" />
+        <BookCover slug={book.slug} title={book.title} author={coverAuthor(book)} hue={category?.hue ?? 30} className="w-[132px] shrink-0" />
         <div className="min-w-0 self-end pb-1">
           <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-accent">{category ? t(`cat.${category.id}`) : ""}</p>
           <h1 lang="en" className="mt-1 text-[24px] font-bold leading-[1.15] tracking-[-0.015em]" dir="auto">{book.title}</h1>

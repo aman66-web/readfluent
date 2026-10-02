@@ -228,3 +228,20 @@ describe("the ledger", () => {
     expect(localDay(new Date(2026, 0, 5, 23, 59))).toBe("2026-01-05");
   });
 });
+
+describe("reaching a new stage", () => {
+  it("is noticed when the XP crosses into the next third of a level, or into the next level", async () => {
+    const { levelUpBetween, LEVEL_FLOOR, levelFromXp } = await import("@/lib/xp/levels");
+    // Within a stage: nothing.
+    expect(levelUpBetween(100, 200)).toBeNull();
+    // Into the next stage of A1.
+    const into2 = Math.ceil(LEVEL_FLOOR.A2 / 3);
+    expect(levelFromXp(into2 - 1).code).toBe("A1.1");
+    expect(levelUpBetween(into2 - 5, into2 + 5)).toEqual({ code: "A1.2", level: "A1", newLevel: false });
+    // Into a new level.
+    expect(levelUpBetween(LEVEL_FLOOR.A2 - 3, LEVEL_FLOOR.A2 + 3)).toEqual({ code: "A2.1", level: "A2", newLevel: true });
+    // Never for XP that went down or stood still.
+    expect(levelUpBetween(LEVEL_FLOOR.A2 + 3, LEVEL_FLOOR.A2 - 3)).toBeNull();
+    expect(levelUpBetween(500, 500)).toBeNull();
+  });
+});
