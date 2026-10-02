@@ -259,3 +259,4 @@ These unblock the build. None is final; the owner decides.
 - The Last Lantern of Aldermoor (200 pages, original fantasy): nothing to fact-check; the Tower of Aldermoor is two days' walk upriver of Saltreach (new fixed fact in the bible).
 - The Counselor's Last Session (200 pages, original): nothing to fact-check; plot facts added to the bible (Anna posted her ledger and diary to Daniel before she died; Pike burned the scarf).
 - Summer at Willow Bay (200 pages, original romance): nothing to fact-check.
+- Why Healthy Food Feels So Hard (200 pages) fact-check (hedged): about 500 extra calories a day in the ultra-processed diet study, habit-formation timing of about two months, the sleep, willpower and self-compassion findings. Page 200 says 'not medical advice'.
