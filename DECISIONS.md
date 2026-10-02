@@ -261,3 +261,4 @@ These unblock the build. None is final; the owner decides.
 - Summer at Willow Bay (200 pages, original romance): nothing to fact-check.
 - Why Healthy Food Feels So Hard (200 pages) fact-check (hedged): about 500 extra calories a day in the ultra-processed diet study, habit-formation timing of about two months, the sleep, willpower and self-compassion findings. Page 200 says 'not medical advice'.
 - Build It Lean (200 pages, original): nothing to fact-check; all numbers are imagined; new cast and places in meta.bible. Page 200 says 'not financial advice'.
+- The Wife Who Vanished (200 pages, original mystery): nothing to fact-check; new cast in meta.bible (Rufus Dray, Constable Priya Nair, Alma Finch, Larry Voss, Leonard Quill, Mr Dunn); the festival postponement is now a fortnight, not a week.
