@@ -13,8 +13,8 @@ GOLDEN RULES (these beat everything else)
 2. Secrets (API keys, .p8/.json key files, keystore passwords, tokens): never show them in chat, never read them
    out, never put them in git or any file inside ~/Projects/readfluent. Move them only by copy/paste or file upload
    straight into the box that needs them. Keep key files in ~/Documents/readfluent-keys/ (create it).
-3. Do NOT touch: anything named "mental stint", "revise", or other apps/projects (Supabase, RevenueCat, Google Cloud,
-   Vercel, App Store Connect). Only ReadFluent.
+3. Do NOT touch any app or project that is not named ReadFluent (Supabase, RevenueCat, Google Cloud, Vercel,
+   App Store Connect all hold other apps of mine). Only ReadFluent.
 4. Do NOT edit the app's code and do NOT git commit or push. The code is handled by my other Claude. If the build
    needs a code change, write down exactly what and why, and carry on with the next task.
 5. If something fails twice, write down the exact error and move to the next task. At the end give me one list:
@@ -31,7 +31,9 @@ FACTS
   Subscriptions: readfluent_monthly = 1 month GBP 5.99 ; readfluent_yearly = 1 year GBP 39.99.
   On Google Play the base plans are p1m (monthly) and p1y (yearly).
 
-TASK 1 - Translator key (makes books readable in the learner's language)
+TASK 1 - SKIPPED (owner, 3 Oct 2026: books are translated on the phone itself, free). Do not create a Google
+  translator key. The old instructions are kept below only for reference.
+TASK 1 (not to do) - Translator key
   Google Cloud console, project readfluent: enable "Cloud Translation API" (if it needs billing: STOP for me).
   Quotas: set "Characters per day" (v2) as low as allowed, aim 15000. Billing -> Budgets: 1 GBP/month alert to my email.
   Credentials -> Create API key "readfluent-translate", restrict to Cloud Translation API only.

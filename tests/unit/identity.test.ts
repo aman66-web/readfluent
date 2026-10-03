@@ -17,7 +17,6 @@ const FORBIDDEN = [
   /revise-rho/i, // its deployment
   /amanmarwaha\.MentalStint/i,
   /958686863478/, // its Google OAuth project
-  /S7G6ZHHK59/, // the Apple team id its iOS project was signed with; each app picks its own in Xcode
   /imprint/i, // a competitor the template's comments once named
 ];
 

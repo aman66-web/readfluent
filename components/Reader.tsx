@@ -9,7 +9,7 @@ import { Settings } from "@/components/reader/Settings";
 import { WordCard } from "@/components/reader/WordCard";
 import { WordsSheet } from "@/components/reader/WordsSheet";
 import type { ReaderPage, ReaderVariant } from "@/components/reader/types";
-import { LEVELS } from "@/lib/content/limits";
+import { useTranslated } from "@/components/reader/useTranslated";
 import { languageName } from "@/lib/i18n";
 import { useBookText, useLocale, useT } from "@/lib/i18n/react";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
@@ -75,7 +75,8 @@ export function Reader(props: Props) {
   const locale = useLocale();
   // A language the book has no file for is made by the machine translator, the first time somebody opens it.
   const wanted = ready && props.translatable && learn && learn !== "en" && !props.variants.some((v) => v.lang === learn) ? learn : null;
-  const made = useTranslated(wanted, answers.language, props.slug, props.levelId, props.length);
+  const english = useMemo(() => (props.variants[0]?.lang === "en" ? props.variants[0].pages.map((p) => p.text) : null), [props.variants]);
+  const made = useTranslated(wanted, answers.language, props.slug, props.levelId, props.length, english);
   const variants = made.variant ? [...props.variants, made.variant] : props.variants;
   const preferred = Math.max(0, variants.findIndex((v) => v.lang === learn));
   const [picked, setPicked] = useState<number | null>(null);
@@ -90,40 +91,23 @@ export function Reader(props: Props) {
       </div>
     );
   }
+  if (wanted && made.state === "download") {
+    return (
+      <div className="flex h-dvh flex-col items-center justify-center gap-5 px-8 text-center" role="status">
+        <Mascot mood="reading" className="w-[132px]" />
+        <p className="text-[17px] font-semibold leading-snug">{t("reader.downloadLang", { language: languageName(wanted, locale) })}</p>
+        <p className="text-[14px] leading-snug text-muted">{t("reader.downloadLangNote")}</p>
+        <button type="button" onClick={made.download} className="btn-cyan inline-flex h-12 items-center rounded-full px-7 text-[15px] font-bold">
+          {t("reader.downloadLangButton", { language: languageName(wanted, locale) })}
+        </button>
+      </div>
+    );
+  }
   const notice = wanted && made.state === "off" ? t("reader.notYet", { language: languageName(wanted, locale) })
     : wanted && made.state === "failed" ? t("reader.translateFailed", { language: languageName(wanted, locale) })
     : undefined;
   // Keyed by the language, so switching starts a fresh reader on page one.
   return <ReaderView key={`${vi}-${variants[vi].lang}`} {...props} variant={variants[vi]} first={vi === 0} notice={notice} onSwitch={many ? () => setPicked((vi + 1) % variants.length) : undefined} />;
-}
-
-/**
- * The book in the language being learned, from the machine translator (app/api/translate): asked for once
- * when the book is opened, and kept by the CDN after that. `state` is "loading" until there is an answer;
- * "off" when the translator is not switched on; "failed" when it did not answer.
- */
-function useTranslated(lang: string | null, speak: string, slug: string, levelId: string, length: number): { state: "idle" | "loading" | "ready" | "off" | "failed"; variant: ReaderVariant | null } {
-  const levelSlug = LEVELS.find((l) => l.id === levelId)?.slug ?? "";
-  const key = lang ? `${slug}/${levelSlug}/${length}/${lang}/${speak}` : null;
-  const [res, setRes] = useState<{ key: string; state: "ready" | "off" | "failed"; variant: ReaderVariant | null } | null>(null);
-  useEffect(() => {
-    if (!key || !lang) return;
-    let live = true;
-    const q = new URLSearchParams({ slug, level: levelSlug, length: String(length), lang, speak: speak || "en" });
-    fetch(`/api/translate?${q}`)
-      .then(async (r) => {
-        if (r.status === 503) return { state: "off" as const, variant: null };
-        if (!r.ok) return { state: "failed" as const, variant: null };
-        const body = (await r.json()) as { variant?: ReaderVariant };
-        return body.variant ? { state: "ready" as const, variant: body.variant } : { state: "failed" as const, variant: null };
-      })
-      .catch(() => ({ state: "failed" as const, variant: null }))
-      .then((out) => { if (live) setRes({ key, ...out }); });
-    return () => { live = false; };
-  }, [key, lang, speak, slug, levelSlug, length]);
-  if (!key) return { state: "idle", variant: null };
-  if (!res || res.key !== key) return { state: "loading", variant: null };
-  return { state: res.state, variant: res.variant };
 }
 
 /**
