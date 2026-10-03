@@ -17,22 +17,26 @@ const read = (p: string) => readFileSync(join(root, p), "utf8");
 
 const pkg = JSON.parse(read("package.json")) as { dependencies: Record<string, string> };
 const PLATFORM = new Set(["@capacitor/core", "@capacitor/cli", "@capacitor/android", "@capacitor/ios"]);
-const plugins = Object.keys(pkg.dependencies).filter(
-  (name) => (name.startsWith("@capacitor/") && !PLATFORM.has(name)) || name === "@revenuecat/purchases-capacitor",
-);
+// A Capacitor plugin says so in its package.json (`"capacitor": { "ios": …, "android": … }`), whoever publishes it:
+// the Google sign-in sheet (@capgo) was missing from both projects while this list only knew @capacitor/ names.
+const nativeHalf = (name: string, platform: "ios" | "android") => {
+  try { return Boolean((JSON.parse(read(`node_modules/${name}/package.json`)) as { capacitor?: Record<string, unknown> }).capacitor?.[platform]); }
+  catch { return false; }
+};
+const plugins = Object.keys(pkg.dependencies).filter((name) => !PLATFORM.has(name) && (nativeHalf(name, "ios") || nativeHalf(name, "android")));
 
 describe("native plugin registration", () => {
   it("finds the plugins it is meant to check", () => {
-    expect(plugins).toContain("@revenuecat/purchases-capacitor");
+    expect(plugins).toEqual(expect.arrayContaining(["@revenuecat/purchases-capacitor", "@capgo/capacitor-social-login", "@capacitor-community/apple-sign-in", "@capacitor/app"]));
   });
 
   it("registers every plugin in the iOS Swift package", () => {
     const swift = read("ios/App/CapApp-SPM/Package.swift");
-    for (const name of plugins) expect(swift, name).toContain(`node_modules/${name}"`);
+    for (const name of plugins.filter((n) => nativeHalf(n, "ios"))) expect(swift, name).toContain(`node_modules/${name}"`);
   });
 
   it("registers every plugin in the Android build", () => {
     const settings = read("android/capacitor.settings.gradle");
-    for (const name of plugins) expect(settings, name).toContain(`node_modules/${name}/android`);
+    for (const name of plugins.filter((n) => nativeHalf(n, "android"))) expect(settings, name).toContain(`node_modules/${name}/android`);
   });
 });
