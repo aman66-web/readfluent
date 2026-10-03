@@ -11,7 +11,7 @@ export default function Support() {
         <h2>Common questions</h2>
         <ul>
           <li><strong>My progress is missing.</strong> Without an account, progress lives on that one phone. Sign in (Profile) so it follows you to another device.</li>
-          <li><strong>A book is not in my learning language.</strong> Books are translated when you open them. If it does not appear, check your connection and try again.</li>
+          <li><strong>A book is not in my learning language.</strong> Your phone translates each book itself, for free. The first time, it may ask to download the language: tap Download and wait a moment. On a computer, use Chrome; in other browsers a book stays in English, apart from the first chapter of some books.</li>
           <li><strong>Delete my data.</strong> Profile, then Delete account. This removes your account and synced data.</li>
           <li><strong>Sign-in problems.</strong> Try Google or Apple sign-in. Emailed codes may be unavailable while email sending is being set up.</li>
         </ul>

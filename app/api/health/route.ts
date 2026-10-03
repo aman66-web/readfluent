@@ -98,7 +98,7 @@ export async function GET() {
     build: buildLine(),
     db,
     service,
-    // Whether the machine translator has its key (books in the language being learned); never the key.
+    // Whether the server's translator has its key; never the key. Off by the owner's choice (3 Oct 2026): phones translate books themselves.
     translator: translatorConfigured(),
     signedIn,
     missing,

@@ -13,7 +13,7 @@ API credentials / Network access: api.vercel.com, api.supabase.com).
 - Not done: Vercel env vars; Google sign-in; Apple (skip, needs paid membership); email templates (need custom SMTP,
   so emailed codes do not work yet; the app's SignIn form expects a code).
 - Production: https://readfluent-eta.vercel.app, check /api/health (needs ok/db/service true).
-- Books: titles/blurbs/chapters translated in 19 languages; book PAGES still English until GOOGLE_TRANSLATE_API_KEY.
+- Books: titles/blurbs/chapters translated in 19 languages; book PAGES are translated on the phone itself (Apple/Google on-device, Chrome on desktop); chapter 1 of 20 books is ready in es/fr/de/it/pt. No Google key (owner, 3 Oct 2026).
 
 ## Do, in order
 1. Supabase keys without printing them: GET https://api.supabase.com/v1/projects/erilcjzbnomgxhjnurce/api-keys

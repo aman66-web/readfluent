@@ -36,7 +36,7 @@ FACTS
   conversation partner called Dewey (signed-in readers only). The app interface is in 20 languages.
   Data: works with no account; progress stays on the phone. With sign-in (Google, Apple or emailed code):
   email address, a user ID, and synced progress/words/friends. Messages typed into the Dewey chat are sent to
-  Anthropic (AI model provider). Book text may be sent to Google Cloud Translation. No ads, no analytics,
+  Anthropic (AI model provider). Books are translated on the phone itself; nothing is sent for that. No ads, no analytics,
   no tracking, no data sold. Account deletion: in the app under Profile, or via the Support page.
 
 PHASE 1 - Apple Developer (developer.apple.com -> Account -> Certificates, Identifiers & Profiles)
@@ -69,8 +69,9 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
    language English (U.K.). Bundle ID: choose com.amanmarwaha.ReadFluent from the list (if it is not listed,
    STOP and tell me). SKU "readfluent-ios". User Access: Full Access. Create.
 7. App Information: Subtitle "Learn languages by reading". Category Primary: Education. Secondary: Books.
-   Content rights: if it asks whether the app contains third-party content, STOP and ask me (the books are
-   retellings of public-domain works and new stories "inspired by" titles). Privacy Policy URL as above.
+   Content rights: "Yes, it contains third-party content" and "Yes, I have the necessary rights" (the books
+   are our own retellings of public-domain works, and new stories "inspired by" titles).
+   Privacy Policy URL as above.
 8. Pricing and Availability: Price Free (tier 0). Availability: all countries and regions I am allowed to
    choose. Do not enable pre-orders.
 9. App Privacy: Privacy Policy URL as above. Answer the questionnaire from the DATA facts only:
@@ -87,7 +88,8 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
 11. Version "1.0" page (iOS App): 
     Promotional Text: Real books, retold at your level. Read one page at a time, tap any word for its meaning, and watch your language grow.
     Keywords (max 100 chars): language learning,reading,graded readers,books,stories,vocabulary,flashcards,CEFR,Spanish,French
-    Support URL, Marketing URL (the website), Copyright: ask me for the name and year.
+    Support URL: https://readfluent-eta.vercel.app/support  Marketing URL: https://readfluent-eta.vercel.app
+    Copyright: 2026 CLARIFO DEVELOPERS LTD
     Description (paste exactly):
       ReadFluent teaches you a language the way readers learn: by reading real books.
 
@@ -130,8 +132,7 @@ PHASE 4 - Google Play Console (play.google.com/console). Create the app, fill ev
     - Target audience: 13+ only (not 5-12, not under 5, not "appeals to children").
     - Data safety: collects Email address, User IDs and Other in-app messages/User content; data is
       encrypted in transit; users can request deletion (URL https://readfluent-eta.vercel.app/support, and
-      in-app Profile); data is NOT sold; data shared with service providers only (Anthropic for the AI chat,
-      Google Cloud Translation for book text).
+      in-app Profile); data is NOT sold; data shared with service providers only (Anthropic for the AI chat).
     - Government apps: No. Financial features: none. Health: none. News app: No.
 17. Store listing (Main store listing):
     Short description (80 chars): Learn a language by reading real books retold at your level, one page at a time.

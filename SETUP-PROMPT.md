@@ -1,5 +1,8 @@
 # Switching on everything that needs an account: Supabase, Google and Apple sign-in, and the translator
 
+> **The translator is not used** (owner, 3 Oct 2026): books are translated on the phone itself, free. In prompt 2 skip
+> steps 6, 7 and 10 and the `GOOGLE_TRANSLATE_API_KEY` line; `"translator"` in the health check stays `false`, and that is right.
+
 Three prompts, to be run in this order. Each one is for **Claude in Chrome** (the browser agent): log in to
 the sites it names yourself first, then paste the prompt. When a prompt says "STOP", it will stop and ask you:
 that is on purpose. Nothing here puts a secret key in a chat; the keys go from one website straight into
@@ -133,6 +136,6 @@ Finish by listing what you created (names only, never keys) and anything that di
 
 ## When it is all done
 
-`https://readfluent-eta.vercel.app/api/health` should show `"ok": true`, `"db": true`, `"service": true`, `"translator": true`, with
+`https://readfluent-eta.vercel.app/api/health` should show `"ok": true`, `"db": true`, `"service": true` (`"translator"` stays `false`: not used), with
 nothing under `missing`. The sign-in screen then offers Google (and Apple, if you did prompt 3) next to the
 emailed code, and every book opens in the language you are learning.
