@@ -703,6 +703,7 @@ const bn: Catalog = {
   "reader.downloadLang": "এই বইটি {language} ভাষায় পড়ুন",
   "reader.downloadLangNote": "আপনার ফোন বিনামূল্যে, ফোনেই এটি অনুবাদ করে। এর জন্য {language} একবার ডাউনলোড করতে হবে।",
   "reader.downloadLangButton": "{language} ডাউনলোড করুন",
+  "reader.startOnly": "অধ্যায় ১ {language} ভাষায় আছে। বইয়ের বাকি অংশ আপনার ফোনের ReadFluent অ্যাপ অনুবাদ করে।",
   "reader.notYet": "এই বইটি এখনো {language} ভাষায় নেই, তাই ইংরেজিতে খুলছে।",
   "reader.translateFailed": "{language} অনুবাদ লোড হয়নি, তাই বইটি ইংরেজিতে খুলছে। একটু পরে আবার চেষ্টা করুন।",
   "reader.switchLang": "অন্য ভাষায় প্রিভিউ দেখুন (ডেমো)",

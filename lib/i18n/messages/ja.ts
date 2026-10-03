@@ -701,6 +701,7 @@ const ja: Catalog = {
   "reader.downloadLang": "この本を{language}で読む",
   "reader.downloadLangNote": "スマホの中で無料で翻訳します。{language}を一度だけダウンロードする必要があります。",
   "reader.downloadLangButton": "{language}をダウンロード",
+  "reader.startOnly": "第1章は{language}です。残りはスマホのReadFluentアプリが翻訳します。",
   "reader.notYet": "この本はまだ{language}版がないため、英語で開きます。",
   "reader.translateFailed": "{language}の翻訳を読み込めなかったため、英語で開きます。少し待ってからもう一度お試しください。",
   "reader.switchLang": "ほかの言語をプレビュー（デモ）",

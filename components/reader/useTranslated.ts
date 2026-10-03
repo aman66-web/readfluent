@@ -1,7 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import type { ReaderVariant } from "@/components/reader/types";
+import type { ReaderPage, ReaderVariant } from "@/components/reader/types";
+import type { KeyPair, WordEntry } from "@/lib/preview/spanish";
 import { LEVELS } from "@/lib/content/limits";
 import { devicePrepare, deviceStatus, deviceTranslate } from "@/lib/translate/device";
 import { translatePages, wordCards } from "@/lib/translate/variant";
@@ -15,7 +16,22 @@ import { translatePages, wordCards } from "@/lib/translate/variant";
  * Without a device translator, the server's translator is asked (app/api/translate), which says "off" when
  * it is not switched on.
  */
-export type TranslatedState = "idle" | "loading" | "download" | "ready" | "off" | "failed";
+export type TranslatedState = "idle" | "loading" | "download" | "ready" | "partial" | "off" | "failed";
+
+/** The first chapter translated ahead of time (app/api/book-start), if the book has one in this language. */
+async function fetchStart(slug: string, level: string, lang: string): Promise<{ pages: { text: string; keys: KeyPair[] }[]; dict: Record<string, WordEntry> } | null> {
+  try {
+    const r = await fetch(`/api/book-start?${new URLSearchParams({ slug, level, lang })}`);
+    if (!r.ok) return null;
+    const b = (await r.json()) as { pages?: { text: string; keys: KeyPair[] }[]; dict?: Record<string, WordEntry> };
+    return b.pages?.length ? { pages: b.pages, dict: b.dict ?? {} } : null;
+  } catch { return null; }
+}
+
+/** The first chapter's pages, in the reader's shape, matched to the English ones. */
+function startPages(start: { pages: { text: string; keys: KeyPair[] }[] }, english: readonly string[]): ReaderPage[] {
+  return start.pages.slice(0, english.length).map((p, i) => ({ n: i + 1, text: p.text, scene: i + 1, target: { translation: english[i], keys: p.keys ?? [] } }));
+}
 
 interface Result { key: string; state: Exclude<TranslatedState, "idle" | "loading">; variant: ReaderVariant | null }
 
@@ -36,25 +52,44 @@ export function useTranslated(lang: string | null, speak: string, slug: string, 
     (async () => {
       const cached = done.get(key);
       if (cached) return settle({ state: "ready", variant: cached });
-      // 1. The phone's own translator.
+      // The first chapter, translated ahead of time, where the book has one.
+      const start = english && english.length ? await fetchStart(slug, levelSlug, lang) : null;
+      const head = start && english ? startPages(start, english) : [];
+      // 1. The phone's own translator, for the rest of the book.
       if (english && english.length) {
         const status = await deviceStatus("en", lang);
         if (status === "download" && attempt === 0) return settle({ state: "download", variant: null });
         if (status === "ready" || (status === "download" && attempt > 0)) {
           try {
-            const pages = await translatePages(english, lang, deviceTranslate);
-            settle({ state: "ready", variant: pages });
-            // The word cards, in the reader's own language (or English if the phone cannot do that pair).
-            let dict = {};
+            const rest = await translatePages(english.slice(head.length), lang, deviceTranslate);
+            const pages: ReaderVariant = {
+              lang: rest.lang,
+              dict: {},
+              pages: [...head, ...rest.pages.map((p, i) => ({ ...p, n: head.length + i + 1, scene: head.length + i + 1, target: { translation: english[head.length + i], keys: [] } }))],
+            };
+            settle({ state: "ready", variant: { ...pages, dict: speak === "en" || !speak ? { ...(start?.dict ?? {}) } : {} } });
+            // The word cards, in the reader's own language (or English if the phone cannot do that pair). The
+            // first chapter's hand-made cards are kept for an English speaker; they explain more than one word can.
+            let dict: Record<string, WordEntry> = {};
             try { dict = await wordCards(pages, speak || "en", deviceTranslate); }
             catch { try { dict = await wordCards(pages, "en", deviceTranslate); } catch { /* the cards stay empty */ } }
+            if ((speak === "en" || !speak) && start) dict = { ...dict, ...start.dict };
             const full = { ...pages, dict };
             done.set(key, full);
             return settle({ state: "ready", variant: full });
-          } catch { /* fall through to the server */ }
+          } catch { /* fall through */ }
         }
       }
-      // 2. The server's translator, if it is switched on.
+      // 2. No translator on this device: the first chapter in the language, the rest in English.
+      if (start && english) {
+        const mixed: ReaderVariant = {
+          lang: lang as ReaderVariant["lang"],
+          dict: start.dict,
+          pages: [...head, ...english.slice(head.length).map((text, i) => ({ n: head.length + i + 1, text, scene: head.length + i + 1 }))],
+        };
+        return settle({ state: "partial", variant: mixed });
+      }
+      // 3. The server's translator, if it is switched on.
       const q = new URLSearchParams({ slug, level: levelSlug, length: String(length), lang, speak: speak || "en" });
       try {
         const r = await fetch(`/api/translate?${q}`);

@@ -701,6 +701,7 @@ const indonesian: Catalog = {
   "reader.downloadLang": "Baca buku ini dalam {language}",
   "reader.downloadLangNote": "Ponselmu menerjemahkannya gratis, langsung di ponsel. Ponsel perlu mengunduh {language} sekali.",
   "reader.downloadLangButton": "Unduh {language}",
+  "reader.startOnly": "Bab 1 dalam {language}. Aplikasi ReadFluent di ponselmu menerjemahkan sisa bukunya.",
   "reader.notYet": "Buku ini belum tersedia dalam {language}, jadi dibuka dalam bahasa Inggris.",
   "reader.translateFailed": "Terjemahan {language} gagal dimuat, jadi buku dibuka dalam bahasa Inggris. Coba lagi sebentar lagi.",
   "reader.switchLang": "Pratinjau bahasa lain (demo)",

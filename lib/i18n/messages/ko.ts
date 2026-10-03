@@ -703,6 +703,7 @@ const ko: Catalog = {
   "reader.downloadLang": "이 책을 {language}(으)로 읽기",
   "reader.downloadLangNote": "휴대폰이 기기 안에서 무료로 번역해요. {language}을(를) 한 번만 내려받으면 돼요.",
   "reader.downloadLangButton": "{language} 내려받기",
+  "reader.startOnly": "1장은 {language}(으)로 되어 있어요. 나머지는 휴대폰의 ReadFluent 앱이 번역해요.",
   "reader.notYet": "이 책은 아직 {language} 버전이 없어서 영어로 열립니다.",
   "reader.translateFailed": "{language} 번역을 불러오지 못해 영어로 열립니다. 잠시 후 다시 시도해 주세요.",
   "reader.switchLang": "다른 언어 미리보기 (데모)",

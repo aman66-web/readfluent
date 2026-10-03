@@ -701,6 +701,7 @@ const zh: Catalog = {
   "reader.downloadLang": "用{language}阅读这本书",
   "reader.downloadLangNote": "手机会在本机免费翻译。只需下载一次{language}。",
   "reader.downloadLangButton": "下载{language}",
+  "reader.startOnly": "第1章是{language}。其余部分由你手机上的 ReadFluent 应用翻译。",
   "reader.notYet": "这本书还没有{language}版，所以以英语打开。",
   "reader.translateFailed": "{language}译文没有加载成功，所以以英语打开。请稍后再试。",
   "reader.switchLang": "预览其他语言（演示）",

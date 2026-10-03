@@ -702,6 +702,7 @@ const fr: Catalog = {
   "reader.downloadLang": "Lisez ce livre en {language}",
   "reader.downloadLangNote": "Votre téléphone le traduit gratuitement, directement sur l'appareil. Il doit télécharger le {language} une seule fois.",
   "reader.downloadLangButton": "Télécharger {language}",
+  "reader.startOnly": "Le chapitre 1 est en {language}. L'application ReadFluent sur votre téléphone traduit le reste du livre.",
   "reader.notYet": "Ce livre n'est pas encore en {language}, il s'ouvre donc en anglais.",
   "reader.translateFailed": "La traduction en {language} n'a pas pu se charger, le livre s'ouvre donc en anglais. Réessayez dans un instant.",
   "reader.switchLang": "Essayer une autre langue (démo)",

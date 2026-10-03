@@ -103,7 +103,8 @@ export function Reader(props: Props) {
       </div>
     );
   }
-  const notice = wanted && made.state === "off" ? t("reader.notYet", { language: languageName(wanted, locale) })
+  const notice = wanted && made.state === "partial" ? t("reader.startOnly", { language: languageName(wanted, locale) })
+    : wanted && made.state === "off" ? t("reader.notYet", { language: languageName(wanted, locale) })
     : wanted && made.state === "failed" ? t("reader.translateFailed", { language: languageName(wanted, locale) })
     : undefined;
   // Keyed by the language, so switching starts a fresh reader on page one.

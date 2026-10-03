@@ -38,3 +38,11 @@ export async function loadDictionary(lang: string, words: Iterable<string>): Pro
   for (const w of words) if (w in all) out[w] = all[w];
   return out;
 }
+
+/** The first chapter of a book in a language, translated ahead of time by hand (Claude); the phone translates the rest. */
+export interface StartTranslation { slug: string; lang: string; levels: Record<LevelId, TranslatedPage[]>; dict: Record<string, WordEntry> }
+
+export async function loadStart(slug: string, lang: string): Promise<StartTranslation | null> {
+  if (!SLUG.test(slug) || !LANG.test(lang) || lang === "en") return null;
+  try { return (await import(`./${slug}/${lang}.start.json`)).default as StartTranslation; } catch { return null; }
+}

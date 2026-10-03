@@ -1,0 +1,146 @@
+ReadFluent store setup (no secrets). Use Phase 3 (App Store Connect) and Phase 4 (Google Play). Phases 1-2 are done.
+
+You are helping me prepare my app ReadFluent for Sign in with Apple, the Apple App Store and Google Play.
+Work in the browser, one phase at a time, and after each step tell me in one short line what you did.
+
+GLOBAL RULES (these beat everything else)
+- If any page asks me to log in, do 2FA, verify identity, add a card, pay, or accept an agreement, contract,
+  tax or banking form: STOP, tell me what it is, and wait for my clear "yes". Never accept for me.
+- Never type, paste, read out or store a secret (keys, passwords, tokens, .p8 contents). When a secret has
+  to go into a box, leave the box empty and visible and tell me to paste it myself.
+- Touch only the things named here. Do not change, delete or open any other app, project, team, certificate
+  or setting. Do not submit anything for review and do not publish anything to the public: stop before that.
+- If something is unclear, a field is missing, or a name is taken: do the safest thing, write down the
+  problem, and carry on; list every problem at the end. Never invent facts I did not give you.
+- The people who made the app are "me". Facts below are the only facts.
+
+FACTS
+  App name: ReadFluent         Tagline: Real books. Your level.
+  Bundle ID (Apple) and package name (Android): com.amanmarwaha.ReadFluent
+  Apple Services ID: com.amanmarwaha.ReadFluent.web
+  Website: https://readfluent-eta.vercel.app
+  Privacy policy URL: https://readfluent-eta.vercel.app/privacy
+  Terms URL: https://readfluent-eta.vercel.app/terms
+  Support URL: https://readfluent-eta.vercel.app/support
+  Supabase project ref: erilcjzbnomgxhjnurce  (URL https://erilcjzbnomgxhjnurce.supabase.co)
+  Category: Education (primary), Books (secondary on Apple). Free to download. In-app purchases are NOT
+  switched on yet, so declare none for now.
+  Audience: teenagers and adults (13+). Not aimed at children.
+  What the app is: real books retold at a learner's level (A1 to C2), read one page at a time with a
+  picture and 1-3 sentences, tap any word for its meaning, flashcards, tests, level exams, and an AI
+  conversation partner called Dewey (signed-in readers only). The app interface is in 20 languages.
+  Data: works with no account; progress stays on the phone. With sign-in (Google, Apple or emailed code):
+  email address, a user ID, and synced progress/words/friends. Messages typed into the Dewey chat are sent to
+  Anthropic (AI model provider). Book text may be sent to Google Cloud Translation. No ads, no analytics,
+  no tracking, no data sold. Account deletion: in the app under Profile, or via the Support page.
+
+PHASE 1 - Apple Developer (developer.apple.com -> Account -> Certificates, Identifiers & Profiles)
+1. Identifiers -> "+" -> App IDs -> App. Description "ReadFluent", Bundle ID Explicit
+   com.amanmarwaha.ReadFluent. Tick capability "Sign in with Apple". Continue, Register.
+   (If it already exists, open it and make sure Sign in with Apple is ticked.)
+2. Identifiers -> "+" -> Services IDs. Description "ReadFluent web", identifier
+   com.amanmarwaha.ReadFluent.web. Register. Open it, tick "Sign in with Apple", press Configure:
+     Primary App ID: ReadFluent.
+     Domains and Subdomains: erilcjzbnomgxhjnurce.supabase.co   (no https://)
+     Return URLs: https://erilcjzbnomgxhjnurce.supabase.co/auth/v1/callback
+   Save, Continue, Save.
+3. Keys -> "+" -> name "ReadFluent sign in". Tick "Sign in with Apple", Configure, choose the ReadFluent
+   App ID, Save, Continue, Register, and DOWNLOAD the .p8 file (Apple allows it once). Do not open it.
+4. Tell me: my Team ID, the Key ID, and the downloaded file's name. Then STOP and say exactly:
+   "Phase 1 done. Now do the terminal step (below), then tell me you have the long text copied."
+   TERMINAL STEP, for me to do: open Claude Code on my own computer in the readfluent folder and say:
+   "Run node scripts/apple-client-secret.mjs <TEAM_ID> <KEY_ID> com.amanmarwaha.ReadFluent.web
+   ~/Downloads/<file name> and copy only the output to my clipboard with pbcopy. Do not print it and do not
+   commit the .p8 file."
+
+PHASE 2 - Supabase Apple provider (after I say I copied the long text)
+5. Open https://supabase.com/dashboard/project/erilcjzbnomgxhjnurce/auth/providers , open "Apple", turn it
+   ON. Client IDs box: com.amanmarwaha.ReadFluent.web,com.amanmarwaha.ReadFluent . Leave "Secret Key (for
+   OAuth)" empty and visible. STOP and tell me: "Paste the long text into the Secret Key box and press Save."
+   When I say done, confirm Apple shows Enabled. Do NOT touch Vercel; I will switch the button on myself.
+
+PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the record, fill everything, stop.
+6. "+" -> New App. Platform iOS. Name "ReadFluent" (if taken use "ReadFluent: Learn by Reading"). Primary
+   language English (U.K.). Bundle ID: choose com.amanmarwaha.ReadFluent from the list (if it is not listed,
+   STOP and tell me). SKU "readfluent-ios". User Access: Full Access. Create.
+7. App Information: Subtitle "Learn languages by reading". Category Primary: Education. Secondary: Books.
+   Content rights: if it asks whether the app contains third-party content, STOP and ask me (the books are
+   retellings of public-domain works and new stories "inspired by" titles). Privacy Policy URL as above.
+8. Pricing and Availability: Price Free (tier 0). Availability: all countries and regions I am allowed to
+   choose. Do not enable pre-orders.
+9. App Privacy: Privacy Policy URL as above. Answer the questionnaire from the DATA facts only:
+   Data collected: Contact Info -> Email Address (linked to user, used for App Functionality);
+   Identifiers -> User ID (linked, App Functionality); User Content -> Other User Content (the Dewey chat
+   messages and synced progress; linked, App Functionality; shared with a third-party processor).
+   Nothing is used for tracking. No third-party advertising. Do not declare Purchases (not live).
+   Then compare your answers to https://readfluent-eta.vercel.app/privacy and tell me about any mismatch.
+10. Age Rating questionnaire: answer honestly for a reading app of classic literature retellings:
+    violence, horror/fear themes, alcohol/tobacco references and mature themes = "Infrequent/Mild" (the
+    books include things like detective stories and gothic classics); everything else None; no gambling; no
+    unrestricted web access; no user-generated content; if it asks about AI chatbots say Yes (Dewey).
+    Report the resulting age rating to me.
+11. Version "1.0" page (iOS App): 
+    Promotional Text: Real books, retold at your level. Read one page at a time, tap any word for its meaning, and watch your language grow.
+    Keywords (max 100 chars): language learning,reading,graded readers,books,stories,vocabulary,flashcards,CEFR,Spanish,French
+    Support URL, Marketing URL (the website), Copyright: ask me for the name and year.
+    Description (paste exactly):
+      ReadFluent teaches you a language the way readers learn: by reading real books.
+
+      Pick your level, from A1 beginner to C2 advanced. Every book is retold for that level, one short page
+      at a time, with a picture and one to three sentences. Tap any word to see what it means, hear it, and
+      save it to your flashcards.
+
+      WHAT YOU GET
+      - Real books retold at your level: classics, mysteries, romance, science, self-help and more
+      - One page at a time, so it fits in a few minutes a day
+      - Tap any word for its meaning, and save it as a flashcard
+      - Phrase decks, tests and level exams that show how far you have come
+      - Dewey, a friendly owl who chats with you to practise (sign-in needed)
+      - XP, streaks and achievements to keep you going
+      - The whole app in 20 languages
+      - No account needed to start: your progress stays on your phone, and signing in saves it across devices
+
+      Choose the language you speak and the language you want to learn, and start reading today.
+    What's New: First release.
+12. Screenshots: download these from the website and upload them to the iPhone 6.7-inch slot (and the
+    6.5-inch slot if it asks): https://readfluent-eta.vercel.app/store/ios-1-home.png ,
+    ios-2-library.png , ios-3-book.png , ios-4-reader.png , ios-5-recall.png (same folder /store/). If any
+    file is missing, tell me which and continue without it.
+    App icon (1024x1024) is part of the app build, so skip it.
+13. App Review Information: Sign-in required: No (the app works without an account). Notes: "ReadFluent
+    works without an account. Sign in with Google or Apple is optional and only saves progress across
+    devices. The AI chat (Dewey) needs sign-in." Contact name/phone/email: ask me. 
+14. STOP before "Add for Review" / Submit. Do not upload a build (there is none yet).
+
+PHASE 4 - Google Play Console (play.google.com/console). Create the app, fill everything, stop.
+15. Create app: name "ReadFluent: Learn by Reading", default language English (United Kingdom), App (not
+    game), Free, then confirm the declarations ONLY after asking me (they are legal statements).
+16. Dashboard tasks (do each one that does not need a build):
+    - Privacy policy URL as above.
+    - App access: all functionality available without special access.
+    - Ads: No, the app contains no ads.
+    - Content rating: category Reference/Education; answer the IARC questionnaire honestly (infrequent
+      mild violence and fear in classic books; no gambling; no user-generated content; has an AI chat
+      feature: say so if asked). Report the rating.
+    - Target audience: 13+ only (not 5-12, not under 5, not "appeals to children").
+    - Data safety: collects Email address, User IDs and Other in-app messages/User content; data is
+      encrypted in transit; users can request deletion (URL https://readfluent-eta.vercel.app/support, and
+      in-app Profile); data is NOT sold; data shared with service providers only (Anthropic for the AI chat,
+      Google Cloud Translation for book text).
+    - Government apps: No. Financial features: none. Health: none. News app: No.
+17. Store listing (Main store listing):
+    Short description (80 chars): Learn a language by reading real books retold at your level, one page at a time.
+    Full description: use the same text as the App Store description above.
+    App icon 512x512: https://readfluent-eta.vercel.app/store/icon-512.png
+    Feature graphic 1024x500: https://readfluent-eta.vercel.app/store/feature-graphic.png
+    Phone screenshots: https://readfluent-eta.vercel.app/store/android-1-home.png to android-5-recall.png
+    Category: Education. Tags if offered: Education, Language learning. Contact email: ask me which to show
+    publicly. Website: https://readfluent-eta.vercel.app
+18. Note for me: new personal Play accounts must run a closed test with 12 testers for 14 days before
+    production access. Tell me if the console says this applies. STOP before creating any release;
+    do not upload a bundle (there is none yet).
+
+FINAL REPORT
+List, in two short lists: what is now filled in on Apple, Google (names only, no secrets), and every
+problem, missing item, question and agreement that is waiting for me. Say clearly that nothing has been
+submitted for review or published.

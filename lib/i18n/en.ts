@@ -711,6 +711,7 @@ export const EN = {
   "reader.downloadLang": "Read this book in {language}",
   "reader.downloadLangNote": "Your phone translates it for free, right on the phone. It needs to download {language} once.",
   "reader.downloadLangButton": "Download {language}",
+  "reader.startOnly": "Chapter 1 is in {language}. The ReadFluent app on your phone translates the rest of the book.",
   "reader.notYet": "This book is not in {language} yet, so it opens in English.",
   "reader.translateFailed": "The {language} translation did not load, so it opens in English. Try again in a moment.",
   "reader.switchLang": "Preview another language (demo)",
