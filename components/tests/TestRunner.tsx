@@ -7,6 +7,7 @@ import { LevelUp } from "@/components/xp/LevelUp";
 import { useT } from "@/lib/i18n/react";
 import type { MessageId } from "@/lib/i18n/en";
 import { useAnswers } from "@/lib/onboarding/use-answers";
+import { Meaning } from "@/components/recall/Meaning";
 import { hasVoiceFor, speak, stopSpeaking } from "@/lib/reading/speak";
 import { saveResult } from "@/lib/tests/store";
 import type { Paper, Question, TestKind } from "@/lib/tests/types";
@@ -247,7 +248,7 @@ function Run({ paper, level, kind, lang, back, onAgain }: { paper: Paper; level:
             {q.reveal && (
               <p className="mt-1">
                 <bdi lang={lang} className="font-semibold">{q.reveal.text}</bdi>
-                {q.reveal.en ? <> · <bdi lang="en">{q.reveal.en}</bdi></> : null}
+                {q.reveal.en ? <> · <Meaning text={q.reveal.en} /></> : null}
               </p>
             )}
           </div>

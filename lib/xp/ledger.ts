@@ -212,6 +212,22 @@ const write = (l: Ledger) => writeRaw(LEDGER_KEY, JSON.stringify(l));
 /** Everything the reader has, as a number: where their level comes from. */
 export const currentXp = (): number => totalXp(read());
 
+/**
+ * The reader changes the language they are learning: the XP and level they earned in the old one are kept under that
+ * language, and the new one's are brought back (or start from nothing: a new language is a new A1 until they say otherwise).
+ * Nothing is moved when the old ledger is empty, so choosing a language twice while signing up loses nothing.
+ */
+export function switchLanguageLedger(from: string | null | undefined, to: string | null | undefined): void {
+  if (!from || !to || from === to) return;
+  const now = read();
+  const used = now.earned > 0 || Object.keys(now.days).length > 0 || now.done.length > 0 || Object.keys(now.pages).length > 0;
+  const stash = `${LEDGER_KEY}.${from}`;
+  if (used) writeRaw(stash, JSON.stringify(now));
+  const back = readRaw(`${LEDGER_KEY}.${to}`);
+  if (back) write(parseLedger(back));
+  else if (used) write({ ...EMPTY_LEDGER, gates: gatedLevelsFor(to) });
+}
+
 /** Sets where a reader starts: their level's floor. Only when nothing has been earned, so it can never lower XP. */
 export function startAt(level: Cefr | null | undefined): void {
   const l = read();

@@ -12,6 +12,10 @@
  * projects together.
  */
 export const APP_NAME = "ReadFluent";
+/** Who runs the app and decides how data is used (the data controller); the owner's Apple and Google developer account. */
+export const COMPANY_NAME = "CLARIFO DEVELOPERS LTD";
+/** Where readers write to. Set NEXT_PUBLIC_SUPPORT_EMAIL in Vercel; until then the pages point to the store listings. */
+export const SUPPORT_EMAIL = (process.env.NEXT_PUBLIC_SUPPORT_EMAIL ?? "").trim();
 /** The mascot's name: the owl who guides the first run. One place, so a new name is one edit. */
 export const MASCOT_NAME = "Dewey";
 export const TAGLINE = "Real books. Your level.";

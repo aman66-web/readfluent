@@ -1,5 +1,5 @@
 import { LegalDoc } from "@/components/LegalDoc";
-import { APP_NAME } from "@/lib/brand";
+import { APP_NAME, COMPANY_NAME, SUPPORT_EMAIL } from "@/lib/brand";
 
 /** The full policy. English only. Keep it true to what the code does; change it when the code changes. */
 export function PrivacyPolicy() {
@@ -56,7 +56,8 @@ export function PrivacyPolicy() {
       <p>If this changes in a way that matters, we will update this page and the date above.</p>
 
       <h2>Contact</h2>
-      <p>See the <a className="underline" href="/support">Support page</a>.</p>
+      <p>{APP_NAME} is run by {COMPANY_NAME}, which decides how your data is used (the data controller).{" "}
+        {SUPPORT_EMAIL ? <>Write to <a className="underline" href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>, or see</> : "See"} the <a className="underline" href="/support">Support page</a>.</p>
     </LegalDoc>
   );
 }

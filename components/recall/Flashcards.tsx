@@ -7,6 +7,7 @@ import { loadDeck, parseDeckCardId, type DeckSize, type Phrase } from "@/lib/dec
 import { useLocale, useT } from "@/lib/i18n/react";
 import { LANGUAGES } from "@/lib/onboarding/languages";
 import { useAnswers } from "@/lib/onboarding/use-answers";
+import { Meaning } from "./Meaning";
 import { canSpeak, speak, stopSpeaking } from "@/lib/reading/speak";
 import { previewDays, type Grade } from "@/lib/srs/schedule";
 import { buildSession, inDeck } from "@/lib/srs/session";
@@ -25,7 +26,7 @@ function unitText(locale: string, unit: "minute" | "day", n: number): string {
 }
 
 /** What a card shows: the word or phrase, and what it means. */
-interface Face { front: string; back: string; hint?: string; lang: string; book?: string }
+interface Face { front: string; back: string; hint?: string; lang: string; book?: string; /** The back is an English deck meaning, which can be shown in the reader's language. */ deck?: boolean }
 
 const GRADES: readonly { grade: Grade; label: "cards.again" | "cards.good" | "cards.easy"; tone: string }[] = [
   { grade: "again", label: "cards.again", tone: "border-rose-300 bg-rose-50 text-rose-700 active:bg-rose-100" },
@@ -87,7 +88,7 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
     const d = parseDeckCardId(id);
     if (d) {
       const p = phrases[d.lang]?.[d.index];
-      return p ? { front: p.t, back: p.en, hint: p.ph, lang: d.lang } : null;
+      return p ? { front: p.t, back: p.en, hint: p.ph, lang: d.lang, deck: true } : null;
     }
     const w = saved[id];
     // A word saved with no meaning still gets a back, so the reader is never asked to grade a blank.
@@ -197,7 +198,7 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
               <div className="mt-6 min-h-[3.5rem] border-t border-border pt-5">
                 {shown ? (
                   <>
-                    <p dir="auto" className="text-[22px] font-semibold leading-snug">{face.back}</p>
+                    <p dir="auto" className="text-[22px] font-semibold leading-snug">{face.deck ? <Meaning text={face.back} /> : face.back}</p>
                     {face.book ? <p className="mt-1.5 text-[13px] text-muted">{t("cards.fromBook", { book: face.book })}</p> : null}
                   </>
                 ) : null}
