@@ -3,16 +3,16 @@
   "lang": "es",
   "levels": {
     "A1A2": [
-      { "text": "Charles Darwin nació en Inglaterra en 1809 y le encantaba coleccionar cosas.", "keys": [ { "w": "nació", "en": "was born" }, { "w": "encantaba", "en": "he loved (it delighted him)" }, { "w": "coleccionar", "en": "to collect" } ] },
+      { "text": "Charles Darwin nació en Inglaterra en 1809 y le encantaba coleccionar cosas.", "keys": [ { "w": "nació", "en": "was born" }, { "w": "encantaba", "en": "he loved (it)" }, { "w": "coleccionar", "en": "to collect" } ] },
       { "text": "En la universidad, Darwin pasaba más tiempo con escarabajos que con libros.", "keys": [ { "w": "universidad", "en": "university" }, { "w": "pasaba", "en": "spent (time)" }, { "w": "escarabajos", "en": "beetles" } ] },
       { "text": "Un profesor le consiguió a Darwin un lugar en un barco que daba la vuelta al mundo.", "keys": [ { "w": "profesor", "en": "teacher, professor" }, { "w": "consiguió", "en": "got for (him)" }, { "w": "vuelta", "en": "turn, trip round" } ] },
       { "text": "El Beagle salió de Plymouth en diciembre de 1831, y Darwin estaba muy mareado.", "keys": [ { "w": "salió", "en": "left" }, { "w": "diciembre", "en": "December" }, { "w": "mareado", "en": "seasick, dizzy" } ] },
       { "text": "En Brasil, Darwin caminó por un bosque lleno de plantas extrañas.", "keys": [ { "w": "caminó", "en": "walked" }, { "w": "lleno", "en": "full" }, { "w": "extrañas", "en": "strange" } ] },
       { "text": "En la costa de Argentina, Darwin desenterró los huesos de animales gigantes.", "keys": [ { "w": "costa", "en": "coast" }, { "w": "desenterró", "en": "dug up" }, { "w": "gigantes", "en": "giant" } ] },
       { "text": "En Chile, Darwin sintió temblar el suelo bajo sus pies.", "keys": [ { "w": "sintió", "en": "felt" }, { "w": "temblar", "en": "to shake" }, { "w": "suelo", "en": "ground, floor" } ] },
-      { "text": "En lo alto de los Andes, Darwin encontró conchas que antes vivían en el mar.", "keys": [ { "w": "alto", "en": "high (en lo alto: high up)" }, { "w": "conchas", "en": "shells" }, { "w": "vivían", "en": "lived" } ] },
+      { "text": "En lo alto de los Andes, Darwin encontró conchas que antes vivían en el mar.", "keys": [ { "w": "alto", "en": "high up" }, { "w": "conchas", "en": "shells" }, { "w": "vivían", "en": "lived" } ] },
       { "text": "En 1835, el Beagle llegó a unas islas extrañas llamadas Galápagos.", "keys": [ { "w": "llegó", "en": "arrived" }, { "w": "islas", "en": "islands" }, { "w": "llamadas", "en": "called" } ] },
-      { "text": "En octubre de 1836, el Beagle por fin volvió a casa, en Inglaterra.", "keys": [ { "w": "octubre", "en": "October" }, { "w": "fin", "en": "end (por fin: at last)" }, { "w": "volvió", "en": "came back" } ] }
+      { "text": "En octubre de 1836, el Beagle por fin volvió a casa, en Inglaterra.", "keys": [ { "w": "octubre", "en": "October" }, { "w": "fin", "en": "end, finally" }, { "w": "volvió", "en": "came back" } ] }
     ],
     "B1B2": [
       { "text": "Charles Darwin nació en Shrewsbury, Inglaterra, el 12 de febrero de 1809. De niño siempre estaba coleccionando cosas, como escarabajos, conchas y piedras, y le encantaba pasear por el campo.", "keys": [ { "w": "escarabajos", "en": "beetles" }, { "w": "conchas", "en": "shells" }, { "w": "pasear", "en": "to stroll, walk" } ] },
@@ -41,7 +41,7 @@
   },
   "dict": {
     "nació": { "en": "was born", "use": "Past tense of nacer; 'nació en' means was born in." },
-    "encantaba": { "en": "he loved (it delighted him)", "use": "'Le encantaba' plus verb means he loved to do it." },
+    "encantaba": { "en": "he loved (it)", "use": "'Le encantaba' plus verb means he loved to do it." },
     "coleccionar": { "en": "to collect", "use": "To collect things as a hobby; from colección." },
     "universidad": { "en": "university", "use": "Feminine noun; ends in -dad like English -ty words." },
     "pasaba": { "en": "spent (time)", "use": "Imperfect of pasar; 'pasar tiempo' means to spend time." },
@@ -61,7 +61,7 @@
     "sintió": { "en": "felt", "use": "Past tense of sentir; also means to be sorry." },
     "temblar": { "en": "to shake", "use": "Vowel-change verb: tiembla (it shakes)." },
     "suelo": { "en": "ground, floor", "use": "Masculine noun; the ground or the floor of a room." },
-    "alto": { "en": "high (en lo alto: high up)", "use": "'En lo alto de' means at the top of." },
+    "alto": { "en": "high up", "use": "'En lo alto de' means at the top of." },
     "conchas": { "en": "shells", "use": "Plural of concha; a shell of a sea creature." },
     "vivían": { "en": "lived", "use": "Imperfect, they form of vivir." },
     "llegó": { "en": "arrived", "use": "Past tense of llegar; 'llegar a' means to arrive at." },
