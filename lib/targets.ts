@@ -1,4 +1,4 @@
-import { PAGES_PER_MINUTE, xpPerDay } from "@/lib/xp/levels";
+import { PAGES_PER_MINUTE, XP } from "@/lib/xp/levels";
 import type { DayStat } from "@/lib/xp/ledger";
 
 /**
@@ -40,7 +40,7 @@ export function dailyTargets(i: TargetInput): Target[] {
   const out: Target[] = [
     t("pages", i.day.pages, pagesGoal(i.minutes)),
     t("flashcards", i.reviewedToday, CARDS_GOAL, "/recall"),
-    t("xp", i.day.xp, Math.max(10, xpPerDay(i.minutes))),
+    t("xp", i.day.xp, Math.max(10, XP.firstOfDay + pagesGoal(i.minutes) * XP.page)),
     t("words", i.savedToday, WORDS_GOAL),
   ];
   if (i.friend !== "hidden") out.push(t("friend", i.friend === "done" ? 1 : 0, 1, "/friends"));

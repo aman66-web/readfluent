@@ -35,3 +35,39 @@ describe("page pictures drawn from the scene caption", () => {
     expect(html()).toContain("<svg");
   });
 });
+
+describe("caption rules (audited against real captions)", () => {
+  const sc = (c: string) => composeScene(c, "b:1");
+  const motifs = (c: string) => sc(c).things.map((t) => t.motif);
+  it("never falls back to water, sea, mountain or forest, and draws no random prop", () => {
+    for (let i = 0; i < 200; i++) {
+      const s = composeScene("A quiet moment", `b:${i}`);
+      expect(["field", "garden", "road", "street"]).toContain(s.setting);
+      expect(s.things).toHaveLength(0);
+    }
+    expect(sc("Lena sips herbal tea in soft lamplight").setting).toBe("room");
+  });
+  it("does not turn rain or a well into a lake", () => {
+    expect(sc("Jane hides behind a red curtain, rain outside").setting).not.toBe("water");
+    expect(sc("She feels well again").setting).not.toBe("water");
+    expect(sc("Rain falls on the road").rain).toBe(true);
+  });
+  it("reads rooms before streets, and courts as rooms", () => {
+    expect(sc("A lamp burns at a writing table in a sitting room in Baker Street").setting).toBe("room");
+    expect(sc("Elizabeth stands before the crowded court trial").setting).toBe("room");
+  });
+  it("does not draw bar charts, campfires, coffins or wine for the wrong words", () => {
+    expect(motifs("Couples dancing in rows")).not.toContain("chart");
+    expect(motifs("A lamp burns on the desk")).not.toContain("fire");
+    expect(motifs("A firelit dining room")).toContain("hearth");
+    expect(motifs("Kofi does a press-up with his whole body")).not.toContain("coffin");
+    expect(motifs("A girl drinks a glass of water at a kitchen table")).not.toContain("wine");
+    expect(motifs("A girl drinks a glass of water at a kitchen table")).toContain("cup");
+    expect(motifs("A grave under the yew")).toContain("coffin");
+  });
+  it("sees plural people and fog", () => {
+    expect(sc("Five sisters sit sewing").people).toHaveLength(1);
+    expect(sc("Scrooge hurries through a foggy London street").people).toHaveLength(1);
+    expect(sc("Scrooge hurries through a foggy London street").sky).toBe("storm");
+  });
+});

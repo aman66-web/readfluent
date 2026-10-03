@@ -32,7 +32,7 @@ function subMinute(fn: () => void): () => void {
   document.addEventListener("visibilitychange", fn);
   return () => { window.clearInterval(id); document.removeEventListener("visibilitychange", fn); };
 }
-/** The time, to the minute: 0 on the server and the first render, then the real one, refreshed while the screen is open. */
+/** The time, rounded up to the next minute (so a card made a moment ago is already due): 0 on the server and the first render, then the real one, refreshed while the screen is open. */
 export function useNowMinute(): number {
-  return useSyncExternalStore(subMinute, () => Math.floor(Date.now() / 60_000) * 60_000, () => 0);
+  return useSyncExternalStore(subMinute, () => Math.ceil(Date.now() / 60_000) * 60_000, () => 0);
 }

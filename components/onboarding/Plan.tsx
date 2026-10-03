@@ -44,7 +44,7 @@ export function TimeScreen({ at, of, learn, value, onPick, onBack, onContinue }:
   const box = useRef<HTMLInputElement>(null);
   const typed = Number(text);
   return (
-    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={value !== null}>
+    <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue} canContinue={custom ? isDailyMinutes(typed) : value !== null}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
         <GuideHead key={line} guide={guide} line={line} sub={t("time.sub", { app: APP_NAME })} mood="ready" />
         <div className="mt-6 grid grid-cols-2 gap-3" role="group" aria-label={line}>
@@ -199,16 +199,19 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
         <GuideHead guide={guide} line={line} mood="cheer" />
 
-        <figure className="wel-in guide-card relative mt-7 rounded-[24px] px-6 py-6" style={{ animationDelay: "900ms" }}>
-          <blockquote className="ed-serif text-[23px] italic leading-[1.3]">{t("pledge.quote", { minutes })}</blockquote>
+        <figure className="wel-in guide-card relative mt-4 rounded-[24px] px-6 py-4" style={{ animationDelay: "900ms" }}>
+          <blockquote className="ed-serif text-[21px] italic leading-[1.3]">{t("pledge.quote", { minutes })}</blockquote>
           <figcaption className="ob-faint mt-3 text-[12px] font-semibold uppercase tracking-[0.08em]">{date}</figcaption>
         </figure>
 
-        <div className="mt-8 flex flex-1 flex-col items-center justify-center">
+        <div className="mt-4 flex flex-1 flex-col items-center [justify-content:safe_center]">
+          <p className="wel-in ob-muted mb-3 text-[14px] font-semibold" style={{ animationDelay: "1300ms" }} aria-live="polite">
+            {done ? t("pledge.done") : t("pledge.hold")}
+          </p>
           <button ref={hold} type="button" aria-label={t("pledge.hold")} aria-pressed={done}
                   onKeyDown={(e) => { if ((e.key === " " || e.key === "Enter") && !e.repeat) { e.preventDefault(); press(); } }}
                   onKeyUp={(e) => { if (e.key === " " || e.key === "Enter") release(); }}
-                  className={`pledge-ring wel-in relative grid size-[150px] place-items-center rounded-full select-none [-webkit-touch-callout:none] ${done ? "pledge-done" : ""}`}
+                  className={`pledge-ring wel-in relative grid size-[min(140px,18dvh)] shrink-0 place-items-center rounded-full select-none [-webkit-touch-callout:none] ${done ? "pledge-done" : ""}`}
                   style={{ animationDelay: "1200ms" }}>
             <svg viewBox="0 0 150 150" className="absolute inset-0 size-full -rotate-90" aria-hidden>
               <circle cx="75" cy="75" r="62" fill="none" stroke="#E2EBEF" strokeWidth="7" />
@@ -219,7 +222,7 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
                 </linearGradient>
               </defs>
             </svg>
-            <span className="pledge-core grid size-[104px] place-items-center rounded-full" aria-hidden>
+            <span className="pledge-core grid size-[70%] place-items-center rounded-full" aria-hidden>
               {done ? (
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" className="pledge-tick size-11"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
               ) : (
@@ -236,9 +239,6 @@ export function PledgeScreen({ at, of, minutes, done, onDone, onBack, onContinue
               <span key={i} className="pledge-spark" style={{ ["--a" as string]: `${i * 30}deg` }} aria-hidden />
             ))}
           </button>
-          <p className="wel-in ob-muted mt-4 text-[14px] font-semibold" style={{ animationDelay: "1300ms" }} aria-live="polite">
-            {done ? t("pledge.done") : t("pledge.hold")}
-          </p>
           {/* A promise nobody is made to keep: until it is made, the button below skips it. */}
         </div>
       </div>

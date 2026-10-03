@@ -17,9 +17,8 @@ import type { Mood } from "@/components/mascot/Mascot";
  * The guide's tour: three screens, each one line from the guide and one picture of
  * what it means. They claim only what this app does:
  *
- *   journey    books of their choice, a few pages at a time, with a few questions
- *              in the language after every few pages (the phone is the reader)
- *   levels     every book at your level and your length
+ *   journey    books of their choice, a few pages at a time (the phone is the reader)
+ *   levels     every book at your level, one short page and picture at a time
  *   connect    the books everyone talks about
  */
 /** How Dewey looks on each tour screen: reading for the books, eager for the rest, cheering at the last. */
@@ -37,7 +36,7 @@ export function TourScreen({ id, at, of, learn, onBack, onContinue }: {
     <GuideFrame at={at} of={of} onBack={onBack} onContinue={onContinue}>
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-6 pt-5">
         <GuideHead guide={guide} line={line} mood={TOUR_MOOD[id]} sub={id === "journey" ? t("tour.booksSub", { language }) : undefined} />
-        <div className="mt-6 flex min-h-0 flex-1 flex-col items-center justify-center" aria-hidden>
+        <div className={`mt-6 flex flex-1 flex-col items-center [justify-content:safe_center] ${id === "connect" ? "shrink-0" : "min-h-0"}`} aria-hidden>
           {id === "journey" && <Journey />}
           {id === "levels" && <Levels />}
           {id === "connect" && <Connect />}
@@ -60,12 +59,12 @@ const later = (ms: number): CSSProperties => ({ animationDelay: `${ms}ms` });
    The phone is the reader itself, playing a few pages of the sample book — the same
    photograph, the same short text, the progress bar filling, and a touch on the right
    where a tap turns the page — and, every few pages, a quick question about what was
-   just read, the way the app will ask them. (The questions are shown here as a picture
-   of what is coming; they arrive with the word cards and flashcards, M5 and M7.) */
+   just read. (The reader asks no questions; tests live in Recall. The quiz frame stays
+   in the code, unused, until in-book questions ship.) */
 type Frame = { kind: "page"; page: number } | { kind: "quiz" };
 const REEL: readonly Frame[] = [
-  { kind: "page", page: 1 }, { kind: "page", page: 2 }, { kind: "page", page: 3 }, { kind: "quiz" },
-  { kind: "page", page: 4 }, { kind: "page", page: 5 }, { kind: "page", page: 6 }, { kind: "quiz" },
+  { kind: "page", page: 1 }, { kind: "page", page: 2 }, { kind: "page", page: 3 },
+  { kind: "page", page: 4 }, { kind: "page", page: 5 }, { kind: "page", page: 6 },
 ];
 const PAGE_MS = 3400;
 const QUIZ_LEVEL: LevelId = "B1B2";
@@ -136,7 +135,7 @@ function Levels() {
   return (
     <div className="w-full space-y-3">
       <div className="guide-card wel-in relative flex h-[124px] overflow-hidden rounded-[22px]" style={later(800)}>
-        <p className="flex flex-1 items-center px-5 text-[19px] font-semibold leading-[1.15] tracking-[-0.01em]">{t("tour.levelsCard")}</p>
+        <p className="flex min-w-0 flex-1 items-center px-5 text-[19px] [overflow-wrap:anywhere] [hyphens:auto] font-semibold leading-[1.15] tracking-[-0.01em]">{t("tour.levelsCard")}</p>
         <span className="relative w-[48%] shrink-0 bg-[linear-gradient(160deg,#0E7490,#082F3E)]">
           {/* Three steps up, one for each band of level. */}
           <svg viewBox="0 0 160 124" className="size-full" fontFamily="var(--font-jakarta), sans-serif" fontWeight="800" fontSize="15" textAnchor="middle">
@@ -150,18 +149,18 @@ function Levels() {
         </span>
       </div>
       <div className="guide-card wel-in relative flex h-[124px] overflow-hidden rounded-[22px]" style={later(950)}>
-        <p className="flex flex-1 items-center px-5 text-[19px] font-semibold leading-[1.15] tracking-[-0.01em]">{t("tour.lengthsCard")}</p>
+        <p className="flex min-w-0 flex-1 items-center px-5 text-[19px] [overflow-wrap:anywhere] [hyphens:auto] font-semibold leading-[1.15] tracking-[-0.01em]">{t("tour.lengthsCard")}</p>
         <span className="relative w-[48%] shrink-0 bg-[linear-gradient(160deg,#1B2250,#0D1030)]">
-          {/* Three stacks of pages, short, medium and long. */}
-          <svg viewBox="0 0 160 124" className="size-full" fontFamily="var(--font-jakarta), sans-serif" fontWeight="800" fontSize="13" textAnchor="middle">
+          {/* One page: a picture over a few short lines. */}
+          <svg viewBox="0 0 160 124" className="size-full">
             <g className="show-fan">
-              {[[26, 36, "50"], [64, 56, "100"], [102, 76, "200"]].map(([x, h, n]) => (
-                <g key={n as string}>
-                  <rect x={x as number} y={106 - (h as number)} width="32" height={h as number} rx="6" fill="#F1FAFC" />
-                  <rect x={(x as number) + 5} y={106 - (h as number) + 6} width="22" height="3" rx="1.5" fill="#0E7490" opacity=".5" />
-                  <text x={(x as number) + 16} y="94" fill="#0E7490">{n as string}</text>
-                </g>
-              ))}
+              <rect x="50" y="14" width="60" height="96" rx="8" fill="#F1FAFC" />
+              <rect x="56" y="20" width="48" height="38" rx="5" fill="#22D3EE" />
+              <circle cx="90" cy="32" r="5" fill="#E6FBFF" />
+              <path d="M56 58l16-16 12 10 8-6 12 12z" fill="#0E7490" opacity=".7" />
+              <rect x="57" y="68" width="46" height="4" rx="2" fill="#0E7490" opacity=".5" />
+              <rect x="57" y="78" width="38" height="4" rx="2" fill="#0E7490" opacity=".5" />
+              <rect x="57" y="88" width="42" height="4" rx="2" fill="#0E7490" opacity=".5" />
             </g>
           </svg>
         </span>

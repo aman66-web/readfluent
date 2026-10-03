@@ -3,131 +3,862 @@
   "lang": "it",
   "levels": {
     "A1A2": [
-      { "text": "John Watson studiò per diventare medico e poi entrò nell'esercito.", "keys": [{ "w": "studiò", "en": "he studied" }, { "w": "medico", "en": "doctor" }, { "w": "entrò", "en": "he entered, joined" }] },
-      { "text": "Il suo esercito lo mandò in India, e in Afghanistan scoppiò una guerra.", "keys": [{ "w": "esercito", "en": "army" }, { "w": "mandò", "en": "sent" }, { "w": "scoppiò", "en": "broke out" }] },
-      { "text": "A una battaglia chiamata Maiwand, una pallottola lo colpì alla spalla.", "keys": [{ "w": "battaglia", "en": "battle" }, { "w": "pallottola", "en": "bullet" }, { "w": "spalla", "en": "shoulder" }] },
-      { "text": "Il suo aiutante Murray lo mise su un cavallo e lo portò via.", "keys": [{ "w": "aiutante", "en": "helper" }, { "w": "cavallo", "en": "horse" }, { "w": "portò", "en": "carried, took" }] },
-      { "text": "Rimase malato in ospedale per mesi, e quasi morì.", "keys": [{ "w": "malato", "en": "sick" }, { "w": "ospedale", "en": "hospital" }, { "w": "quasi", "en": "almost" }] },
-      { "text": "Una nave lo riportò a casa, in Inghilterra, ma era molto debole.", "keys": [{ "w": "nave", "en": "ship" }, { "w": "riportò", "en": "brought back" }, { "w": "debole", "en": "weak" }] },
-      { "text": "Non aveva famiglia in Inghilterra e aveva pochissimi soldi.", "keys": [{ "w": "famiglia", "en": "family" }, { "w": "pochissimi", "en": "very few" }, { "w": "soldi", "en": "money" }] },
-      { "text": "A Londra viveva in un albergo triste e spendeva i suoi soldi.", "keys": [{ "w": "viveva", "en": "he lived" }, { "w": "albergo", "en": "hotel" }, { "w": "spendeva", "en": "he spent" }] },
-      { "text": "Un giorno contò i suoi soldi e vide che doveva traslocare.", "keys": [{ "w": "contò", "en": "he counted" }, { "w": "doveva", "en": "he had to" }, { "w": "traslocare", "en": "to move house" }] },
-      { "text": "In un bar affollato, un vecchio amico di nome Stamford gli toccò la spalla.", "keys": [{ "w": "affollato", "en": "crowded" }, { "w": "vecchio", "en": "old" }, { "w": "toccò", "en": "he touched" }] }
+      {
+        "text": "John Watson diventò medico militare, e in Afghanistan scoppiò una guerra.",
+        "keys": [
+          {
+            "w": "diventò",
+            "en": "he became"
+          },
+          {
+            "w": "militare",
+            "en": "military, army"
+          },
+          {
+            "w": "scoppiò",
+            "en": "broke out"
+          }
+        ]
+      },
+      {
+        "text": "A una battaglia chiamata Maiwand, una pallottola lo colpì alla spalla, e Murray lo salvò.",
+        "keys": [
+          {
+            "w": "pallottola",
+            "en": "bullet"
+          },
+          {
+            "w": "colpì",
+            "en": "it hit"
+          },
+          {
+            "w": "salvò",
+            "en": "he saved"
+          }
+        ]
+      },
+      {
+        "text": "Quasi morì di febbre in un ospedale a Peshawar.",
+        "keys": [
+          {
+            "w": "quasi",
+            "en": "almost"
+          },
+          {
+            "w": "morì",
+            "en": "he died"
+          },
+          {
+            "w": "febbre",
+            "en": "fever"
+          }
+        ]
+      },
+      {
+        "text": "Una nave lo portò a casa, in Inghilterra, ma era molto debole.",
+        "keys": [
+          {
+            "w": "nave",
+            "en": "ship"
+          },
+          {
+            "w": "portò",
+            "en": "brought, took"
+          },
+          {
+            "w": "debole",
+            "en": "weak"
+          }
+        ]
+      },
+      {
+        "text": "Non aveva famiglia e aveva pochi soldi, così andò a Londra.",
+        "keys": [
+          {
+            "w": "pochi",
+            "en": "few, little"
+          },
+          {
+            "w": "soldi",
+            "en": "money"
+          },
+          {
+            "w": "andò",
+            "en": "he went"
+          }
+        ]
+      },
+      {
+        "text": "A Londra viveva in un albergo triste e spendeva i suoi soldi.",
+        "keys": [
+          {
+            "w": "viveva",
+            "en": "he lived"
+          },
+          {
+            "w": "albergo",
+            "en": "hotel"
+          },
+          {
+            "w": "spendeva",
+            "en": "he was spending"
+          }
+        ]
+      },
+      {
+        "text": "Un giorno contò i suoi soldi e vide che doveva traslocare.",
+        "keys": [
+          {
+            "w": "contò",
+            "en": "he counted"
+          },
+          {
+            "w": "doveva",
+            "en": "he had to"
+          },
+          {
+            "w": "traslocare",
+            "en": "to move house"
+          }
+        ]
+      },
+      {
+        "text": "In un bar affollato, un vecchio amico di nome Stamford gli toccò la spalla.",
+        "keys": [
+          {
+            "w": "affollato",
+            "en": "crowded, busy"
+          },
+          {
+            "w": "vecchio",
+            "en": "old"
+          },
+          {
+            "w": "toccò",
+            "en": "he touched, tapped"
+          }
+        ]
+      },
+      {
+        "text": "Stamford vide che Watson era magro e abbronzato, e pranzarono insieme.",
+        "keys": [
+          {
+            "w": "magro",
+            "en": "thin"
+          },
+          {
+            "w": "abbronzato",
+            "en": "tanned"
+          },
+          {
+            "w": "pranzarono",
+            "en": "they had lunch"
+          }
+        ]
+      },
+      {
+        "text": "Watson aveva bisogno di stanze economiche, e Stamford conosceva un altro uomo che voleva lo stesso.",
+        "keys": [
+          {
+            "w": "stanze",
+            "en": "rooms"
+          },
+          {
+            "w": "economiche",
+            "en": "cheap"
+          },
+          {
+            "w": "conosceva",
+            "en": "he knew"
+          }
+        ]
+      }
     ],
     "B1B2": [
-      { "text": "John Watson si laureò in medicina nel 1878 e poi si preparò a diventare chirurgo militare. Subito dopo fu mandato in India, ma prima che la sua nave toccasse terra era scoppiata una nuova guerra in Afghanistan.", "keys": [{ "w": "laureò", "en": "graduated" }, { "w": "chirurgo", "en": "surgeon" }, { "w": "scoppiata", "en": "had broken out" }] },
-      { "text": "Nella battaglia di Maiwand una pallottola spezzò le ossa della spalla di Watson. Il suo attendente, un uomo coraggioso di nome Murray, lo gettò di traverso su un cavallo e lo riportò sano e salvo alle linee britanniche.", "keys": [{ "w": "spezzò", "en": "broke, snapped" }, { "w": "attendente", "en": "orderly" }, { "w": "coraggioso", "en": "brave" }] },
-      { "text": "Watson fu portato all'ospedale di base di Peshawar, dove cominciò a stare meglio. Poi prese una febbre comune tra i soldati, e per mesi nessuno credette che sarebbe sopravvissuto.", "keys": [{ "w": "febbre", "en": "fever" }, { "w": "comune", "en": "common" }, { "w": "sopravvissuto", "en": "survived" }] },
-      { "text": "Finalmente fu abbastanza forte per viaggiare, e una nave per il trasporto di truppe chiamata Orontes lo portò a Portsmouth. La sua salute era rovinata, ma il governo gli concesse nove mesi per cercare di rimettersi.", "keys": [{ "w": "truppe", "en": "troops" }, { "w": "rovinata", "en": "ruined" }, { "w": "rimettersi", "en": "to recover" }] },
-      { "text": "Watson non aveva parenti né amici in Inghilterra, e il suo unico reddito era una piccola pensione militare. Come molte persone oziose provenienti da ogni angolo dell'Impero, approdò a Londra.", "keys": [{ "w": "parenti", "en": "relatives" }, { "w": "reddito", "en": "income" }, { "w": "oziose", "en": "idle" }] },
-      { "text": "Per un po' visse in un albergo cupo nello Strand, dove non aveva nulla da fare e nessuno con cui parlare. Spese il suo denaro con molta più disinvoltura di quanto avrebbe dovuto.", "keys": [{ "w": "cupo", "en": "gloomy" }, { "w": "spese", "en": "he spent" }, { "w": "disinvoltura", "en": "ease, freedom" }] },
-      { "text": "Una mattina guardò i suoi conti e si allarmò vedendo quanto poco fosse rimasto. Sapeva che doveva o lasciare Londra del tutto o cambiare il suo modo di vivere.", "keys": [{ "w": "conti", "en": "accounts" }, { "w": "allarmò", "en": "he was alarmed" }, { "w": "rimasto", "en": "left, remained" }] },
-      { "text": "Scelse di cambiare vita, e decise di cercare delle stanze più economiche già il giorno dopo. Quello stesso pomeriggio si trovava al Criterion Bar quando qualcuno gli toccò la spalla.", "keys": [{ "w": "stanze", "en": "rooms" }, { "w": "economiche", "en": "cheap, affordable" }, { "w": "pomeriggio", "en": "afternoon" }] },
-      { "text": "Era il giovane Stamford, che aveva lavorato con lui come assistente all'ospedale di St Bartholomew. Stamford rimase sconvolto nel vederlo così magro e abbronzato, e lo portò a pranzo a Holborn.", "keys": [{ "w": "assistente", "en": "assistant" }, { "w": "sconvolto", "en": "shocked" }, { "w": "abbronzato", "en": "tanned" }] },
-      { "text": "Durante il pranzo Watson gli raccontò della guerra, della ferita e della sua ricerca di stanze economiche. Stamford rise e disse che era una cosa strana, perché Watson era il secondo uomo quel giorno a dirlo.", "keys": [{ "w": "ferita", "en": "wound" }, { "w": "ricerca", "en": "search" }, { "w": "strana", "en": "strange" }] }
+      {
+        "text": "John Watson si laureò in medicina nel 1878 e poi si preparò a diventare chirurgo militare. Subito dopo fu mandato in India, ma prima che la sua nave toccasse terra era scoppiata una nuova guerra in Afghanistan.",
+        "keys": [
+          {
+            "w": "laureò",
+            "en": "graduated"
+          },
+          {
+            "w": "chirurgo",
+            "en": "surgeon"
+          },
+          {
+            "w": "scoppiata",
+            "en": "had broken out"
+          }
+        ]
+      },
+      {
+        "text": "Nella battaglia di Maiwand una pallottola spezzò le ossa della spalla di Watson. Il suo attendente, un uomo coraggioso di nome Murray, lo gettò di traverso su un cavallo e lo riportò sano e salvo alle linee britanniche.",
+        "keys": [
+          {
+            "w": "spezzò",
+            "en": "broke, snapped"
+          },
+          {
+            "w": "attendente",
+            "en": "orderly"
+          },
+          {
+            "w": "coraggioso",
+            "en": "brave"
+          }
+        ]
+      },
+      {
+        "text": "Watson fu portato all'ospedale di base di Peshawar, dove cominciò a stare meglio. Poi prese una febbre comune tra i soldati, e per mesi nessuno credette che sarebbe sopravvissuto.",
+        "keys": [
+          {
+            "w": "febbre",
+            "en": "fever"
+          },
+          {
+            "w": "comune",
+            "en": "common"
+          },
+          {
+            "w": "sopravvissuto",
+            "en": "survived"
+          }
+        ]
+      },
+      {
+        "text": "Finalmente fu abbastanza forte per viaggiare, e una nave per il trasporto di truppe chiamata Orontes lo portò a Portsmouth. La sua salute era rovinata, ma il governo gli concesse nove mesi per cercare di rimettersi.",
+        "keys": [
+          {
+            "w": "truppe",
+            "en": "troops"
+          },
+          {
+            "w": "rovinata",
+            "en": "ruined"
+          },
+          {
+            "w": "rimettersi",
+            "en": "to recover"
+          }
+        ]
+      },
+      {
+        "text": "Watson non aveva parenti né amici in Inghilterra, e il suo unico reddito era una piccola pensione militare. Come molte persone oziose provenienti da ogni angolo dell'Impero, approdò a Londra.",
+        "keys": [
+          {
+            "w": "parenti",
+            "en": "relatives"
+          },
+          {
+            "w": "reddito",
+            "en": "income"
+          },
+          {
+            "w": "oziose",
+            "en": "idle"
+          }
+        ]
+      },
+      {
+        "text": "Per un po' visse in un albergo cupo nello Strand, dove non aveva nulla da fare e nessuno con cui parlare. Spese il suo denaro con molta più disinvoltura di quanto avrebbe dovuto.",
+        "keys": [
+          {
+            "w": "cupo",
+            "en": "gloomy"
+          },
+          {
+            "w": "spese",
+            "en": "he spent"
+          },
+          {
+            "w": "disinvoltura",
+            "en": "ease, freedom"
+          }
+        ]
+      },
+      {
+        "text": "Una mattina guardò i suoi conti e si allarmò vedendo quanto poco fosse rimasto. Sapeva che doveva o lasciare Londra del tutto o cambiare il suo modo di vivere.",
+        "keys": [
+          {
+            "w": "conti",
+            "en": "accounts"
+          },
+          {
+            "w": "allarmò",
+            "en": "he was alarmed"
+          },
+          {
+            "w": "rimasto",
+            "en": "left, remained"
+          }
+        ]
+      },
+      {
+        "text": "Scelse di cambiare vita, e decise di cercare delle stanze più economiche già il giorno dopo. Quello stesso pomeriggio si trovava al Criterion Bar quando qualcuno gli toccò la spalla.",
+        "keys": [
+          {
+            "w": "stanze",
+            "en": "rooms"
+          },
+          {
+            "w": "economiche",
+            "en": "cheap, affordable"
+          },
+          {
+            "w": "pomeriggio",
+            "en": "afternoon"
+          }
+        ]
+      },
+      {
+        "text": "Era il giovane Stamford, che aveva lavorato con lui come assistente all'ospedale di St Bartholomew. Stamford rimase sconvolto nel vederlo così magro e abbronzato, e lo portò a pranzo a Holborn.",
+        "keys": [
+          {
+            "w": "assistente",
+            "en": "assistant"
+          },
+          {
+            "w": "sconvolto",
+            "en": "shocked"
+          },
+          {
+            "w": "abbronzato",
+            "en": "tanned"
+          }
+        ]
+      },
+      {
+        "text": "Durante il pranzo Watson gli raccontò della guerra, della ferita e della sua ricerca di stanze economiche. Stamford rise e disse che era una cosa strana, perché Watson era il secondo uomo quel giorno a dirlo.",
+        "keys": [
+          {
+            "w": "ferita",
+            "en": "wound"
+          },
+          {
+            "w": "ricerca",
+            "en": "search"
+          },
+          {
+            "w": "strana",
+            "en": "strange"
+          }
+        ]
+      }
     ],
     "C1C2": [
-      { "text": "John Watson si laureò in medicina all'Università di Londra nel 1878, e poi frequentò il corso di Netley che ogni giovane chirurgo militare era tenuto a superare. Era appena stato assegnato a un reggimento in India quando scoppiò una nuova guerra in Afghanistan. Quando la sua nave toccò terra, il reggimento era già partito in marcia oltre la frontiera, e lui si affrettò a raggiungerlo.", "keys": [{ "w": "reggimento", "en": "regiment" }, { "w": "frontiera", "en": "frontier, border" }, { "w": "raggiungerlo", "en": "to catch up with" }] },
-      { "text": "Nella battaglia di Maiwand una pesante pallottola colpì Watson alla spalla, ne frantumò l'osso e mancò per un soffio la grande arteria che vi correva sotto. Sarebbe certamente caduto nelle mani del nemico, se non fosse stato per il suo fedele attendente, Murray. Quell'uomo coraggioso lo gettò di traverso su un cavallo da soma e lo portò, attraverso i combattimenti, fino alle linee britanniche.", "keys": [{ "w": "frantumò", "en": "shattered" }, { "w": "arteria", "en": "artery" }, { "w": "attendente", "en": "orderly" }] },
-      { "text": "Sfinito dal dolore e dalle fatiche della ritirata, Watson fu portato all'ospedale di base di Peshawar, dove per un certo tempo parve riprendersi. Poi fu colpito dalla febbre tifoide, flagello dell'esercito in India, e per mesi la sua vita fu appesa a un filo. Quando la crisi finalmente passò, era così debole e magro che i medici non vollero lasciarlo in quel clima.", "keys": [{ "w": "sfinito", "en": "exhausted" }, { "w": "ritirata", "en": "retreat" }, { "w": "flagello", "en": "scourge, curse" }] },
-      { "text": "Una nave per il trasporto di truppe, l'Orontes, riportò l'invalido in patria, ed egli sbarcò a Portsmouth con la salute irrimediabilmente rovinata. Il governo, nella sua benevolenza, gli concesse nove mesi per rimettersi, benché non gli offrisse né una casa né un lavoro. Per un uomo con un futuro così vuoto, sembrava davvero una concessione breve, e non aveva idea da dove cominciare.", "keys": [{ "w": "benevolenza", "en": "kindness, goodwill" }, { "w": "irrimediabilmente", "en": "irreparably" }, { "w": "concessione", "en": "allowance, concession" }] },
-      { "text": "Watson non aveva né amici né parenti in Inghilterra, e viveva di una pensione militare di undici scellini e sei penny al giorno. Come tutti i bighelloni e gli oziosi dell'Impero, che sembrano attratti irresistibilmente verso la capitale, finì per gravitare su Londra. Era, a suo parere, una vasta cloaca di città, dove un uomo solo poteva affondare senza lasciare un'increspatura.", "keys": [{ "w": "bighelloni", "en": "loungers, idlers" }, { "w": "irresistibilmente", "en": "irresistibly" }, { "w": "cloaca", "en": "sewer, cesspool" }] },
-      { "text": "Prese una stanza in un albergo privato squallido nello Strand, e vi condusse un'esistenza senza scopo, senza amici da visitare e senza lavoro che lo occupasse. Qualunque somma avesse in tasca la spendeva con molta più larghezza di quanto avrebbe dovuto, come se il denaro non avesse fine. Giorno dopo giorno, mentre le settimane passavano, divenne sempre più svogliato e più cupo.", "keys": [{ "w": "squallido", "en": "squalid, dreary" }, { "w": "larghezza", "en": "generosity, freedom" }, { "w": "svogliato", "en": "listless" }] },
-      { "text": "Alla fine le sue finanze divennero così allarmanti che capì di dover agire, e una mattina si sedette ad affrontare la verità. O doveva lasciare la capitale e ritirarsi in qualche angolo di campagna, o doveva cambiare del tutto il suo stile di vita. Scelse la seconda strada e decise di trovare alloggi meno pretenziosi e assai meno costosi.", "keys": [{ "w": "allarmanti", "en": "alarming" }, { "w": "pretenziosi", "en": "pretentious, showy" }, { "w": "alloggi", "en": "lodgings" }] },
-      { "text": "Proprio il giorno in cui giunse a questa conclusione, si trovava al Criterion Bar quando qualcuno gli diede un colpetto sulla spalla. Voltandosi, riconobbe il giovane Stamford, che era stato suo assistente all'ospedale di St Bartholomew. Per un uomo solo nel grande deserto di Londra, la vista di un volto amico era un piacere indicibile.", "keys": [{ "w": "colpetto", "en": "light tap" }, { "w": "deserto", "en": "wilderness, desert" }, { "w": "indicibile", "en": "unspeakable, beyond words" }] },
-      { "text": "Stamford, a sua volta, rimase stupefatto dal cambiamento del suo vecchio superiore, perché Watson era ora magro come un chiodo e bruno come una noce. Insistette per portarlo via a pranzo a Holborn, e durante il tragitto in una carrozza di piazza gli chiese che cosa diamine fosse successo. Watson gli raccontò della guerra, della ferita e della lunga febbre, mentre la carrozza sobbalzava lungo la strada affollata.", "keys": [{ "w": "stupefatto", "en": "astonished" }, { "w": "tragitto", "en": "journey, ride" }, { "w": "sobbalzava", "en": "was jolting" }] },
-      { "text": "Alla fine del pasto Watson era giunto al nocciolo dei suoi guai, e spiegò che desiderava delle stanze a un prezzo ragionevole. Stamford lo guardò con aria strana e osservò che era una curiosa coincidenza, perché Watson era il secondo uomo quel giorno a usare proprio quelle parole. Era esattamente il genere di fortuna che Watson aveva sperato, e si sporse in avanti con impazienza per chiedere chi fosse l'altro uomo.", "keys": [{ "w": "nocciolo", "en": "core, crux" }, { "w": "coincidenza", "en": "coincidence" }, { "w": "sporse", "en": "he leaned" }] }
+      {
+        "text": "John Watson si laureò in medicina all'Università di Londra nel 1878, e poi frequentò il corso di Netley che ogni giovane chirurgo militare era tenuto a superare. Era appena stato assegnato a un reggimento in India quando scoppiò una nuova guerra in Afghanistan. Quando la sua nave toccò terra, il reggimento era già partito in marcia oltre la frontiera, e lui si affrettò a raggiungerlo.",
+        "keys": [
+          {
+            "w": "reggimento",
+            "en": "regiment"
+          },
+          {
+            "w": "frontiera",
+            "en": "frontier, border"
+          },
+          {
+            "w": "raggiungerlo",
+            "en": "to catch up with"
+          }
+        ]
+      },
+      {
+        "text": "Nella battaglia di Maiwand una pesante pallottola colpì Watson alla spalla, ne frantumò l'osso e mancò per un soffio la grande arteria che vi correva sotto. Sarebbe certamente caduto nelle mani del nemico, se non fosse stato per il suo fedele attendente, Murray. Quell'uomo coraggioso lo gettò di traverso su un cavallo da soma e lo portò, attraverso i combattimenti, fino alle linee britanniche.",
+        "keys": [
+          {
+            "w": "frantumò",
+            "en": "shattered"
+          },
+          {
+            "w": "arteria",
+            "en": "artery"
+          },
+          {
+            "w": "attendente",
+            "en": "orderly"
+          }
+        ]
+      },
+      {
+        "text": "Sfinito dal dolore e dalle fatiche della ritirata, Watson fu portato all'ospedale di base di Peshawar, dove per un certo tempo parve riprendersi. Poi fu colpito dalla febbre tifoide, flagello dell'esercito in India, e per mesi la sua vita fu appesa a un filo. Quando la crisi finalmente passò, era così debole e magro che i medici non vollero lasciarlo in quel clima.",
+        "keys": [
+          {
+            "w": "sfinito",
+            "en": "exhausted"
+          },
+          {
+            "w": "ritirata",
+            "en": "retreat"
+          },
+          {
+            "w": "flagello",
+            "en": "scourge, curse"
+          }
+        ]
+      },
+      {
+        "text": "Una nave per il trasporto di truppe, l'Orontes, riportò l'invalido in patria, ed egli sbarcò a Portsmouth con la salute irrimediabilmente rovinata. Il governo, nella sua benevolenza, gli concesse nove mesi per rimettersi, benché non gli offrisse né una casa né un lavoro. Per un uomo con un futuro così vuoto, sembrava davvero una concessione breve, e non aveva idea da dove cominciare.",
+        "keys": [
+          {
+            "w": "benevolenza",
+            "en": "kindness, goodwill"
+          },
+          {
+            "w": "irrimediabilmente",
+            "en": "irreparably"
+          },
+          {
+            "w": "concessione",
+            "en": "allowance, concession"
+          }
+        ]
+      },
+      {
+        "text": "Watson non aveva né amici né parenti in Inghilterra, e viveva di una pensione militare di undici scellini e sei penny al giorno. Come tutti i bighelloni e gli oziosi dell'Impero, che sembrano attratti irresistibilmente verso la capitale, finì per gravitare su Londra. Era, a suo parere, una vasta cloaca di città, dove un uomo solo poteva affondare senza lasciare un'increspatura.",
+        "keys": [
+          {
+            "w": "bighelloni",
+            "en": "loungers, idlers"
+          },
+          {
+            "w": "irresistibilmente",
+            "en": "irresistibly"
+          },
+          {
+            "w": "cloaca",
+            "en": "sewer, cesspool"
+          }
+        ]
+      },
+      {
+        "text": "Prese una stanza in un albergo privato squallido nello Strand, e vi condusse un'esistenza senza scopo, senza amici da visitare e senza lavoro che lo occupasse. Qualunque somma avesse in tasca la spendeva con molta più larghezza di quanto avrebbe dovuto, come se il denaro non avesse fine. Giorno dopo giorno, mentre le settimane passavano, divenne sempre più svogliato e più cupo.",
+        "keys": [
+          {
+            "w": "squallido",
+            "en": "squalid, dreary"
+          },
+          {
+            "w": "larghezza",
+            "en": "generosity, freedom"
+          },
+          {
+            "w": "svogliato",
+            "en": "listless"
+          }
+        ]
+      },
+      {
+        "text": "Alla fine le sue finanze divennero così allarmanti che capì di dover agire, e una mattina si sedette ad affrontare la verità. O doveva lasciare la capitale e ritirarsi in qualche angolo di campagna, o doveva cambiare del tutto il suo stile di vita. Scelse la seconda strada e decise di trovare alloggi meno pretenziosi e assai meno costosi.",
+        "keys": [
+          {
+            "w": "allarmanti",
+            "en": "alarming"
+          },
+          {
+            "w": "pretenziosi",
+            "en": "pretentious, showy"
+          },
+          {
+            "w": "alloggi",
+            "en": "lodgings"
+          }
+        ]
+      },
+      {
+        "text": "Proprio il giorno in cui giunse a questa conclusione, si trovava al Criterion Bar quando qualcuno gli diede un colpetto sulla spalla. Voltandosi, riconobbe il giovane Stamford, che era stato suo assistente all'ospedale di St Bartholomew. Per un uomo solo nel grande deserto di Londra, la vista di un volto amico era un piacere indicibile.",
+        "keys": [
+          {
+            "w": "colpetto",
+            "en": "light tap"
+          },
+          {
+            "w": "deserto",
+            "en": "wilderness, desert"
+          },
+          {
+            "w": "indicibile",
+            "en": "unspeakable, beyond words"
+          }
+        ]
+      },
+      {
+        "text": "Stamford, a sua volta, rimase stupefatto dal cambiamento del suo vecchio superiore, perché Watson era ora magro come un chiodo e bruno come una noce. Insistette per portarlo via a pranzo a Holborn, e durante il tragitto in una carrozza di piazza gli chiese che cosa diamine fosse successo. Watson gli raccontò della guerra, della ferita e della lunga febbre, mentre la carrozza sobbalzava lungo la strada affollata.",
+        "keys": [
+          {
+            "w": "stupefatto",
+            "en": "astonished"
+          },
+          {
+            "w": "tragitto",
+            "en": "journey, ride"
+          },
+          {
+            "w": "sobbalzava",
+            "en": "was jolting"
+          }
+        ]
+      },
+      {
+        "text": "Alla fine del pasto Watson era giunto al nocciolo dei suoi guai, e spiegò che desiderava delle stanze a un prezzo ragionevole. Stamford lo guardò con aria strana e osservò che era una curiosa coincidenza, perché Watson era il secondo uomo quel giorno a usare proprio quelle parole. Era esattamente il genere di fortuna che Watson aveva sperato, e si sporse in avanti con impazienza per chiedere chi fosse l'altro uomo.",
+        "keys": [
+          {
+            "w": "nocciolo",
+            "en": "core, crux"
+          },
+          {
+            "w": "coincidenza",
+            "en": "coincidence"
+          },
+          {
+            "w": "sporse",
+            "en": "he leaned"
+          }
+        ]
+      }
     ]
   },
   "dict": {
-    "studiò": { "en": "he studied", "use": "Past simple of studiare; stress on the last letter." },
-    "medico": { "en": "doctor", "use": "Masculine; for a woman, 'la medica' or 'la dottoressa'." },
-    "entrò": { "en": "he entered, joined", "use": "Past simple of entrare; 'entrare in' plus a place." },
-    "esercito": { "en": "army", "use": "Masculine noun; 'nell'esercito' means in the army." },
-    "mandò": { "en": "he sent", "use": "Past simple of mandare; also means to send a message." },
-    "scoppiò": { "en": "broke out", "use": "Used for wars, fires and storms that start suddenly." },
-    "battaglia": { "en": "battle", "use": "Feminine noun; 'a una battaglia' means at a battle." },
-    "pallottola": { "en": "bullet", "use": "Everyday word for a bullet; proiettile is more formal." },
-    "spalla": { "en": "shoulder", "use": "Plural is spalle; also means 'back' in 'dare le spalle'." },
-    "aiutante": { "en": "helper, assistant", "use": "Same form for masculine and feminine." },
-    "cavallo": { "en": "horse", "use": "Feminine is cavalla; 'a cavallo' means on horseback." },
-    "portò": { "en": "he carried, took", "use": "Past simple of portare; to carry or to take someone." },
-    "malato": { "en": "sick, ill", "use": "Masculine; feminine is malata." },
-    "ospedale": { "en": "hospital", "use": "Masculine noun; 'in ospedale' means in hospital." },
-    "quasi": { "en": "almost, nearly", "use": "'Quasi morì' means he nearly died." },
-    "nave": { "en": "ship", "use": "Feminine noun; plural is navi." },
-    "riportò": { "en": "brought back", "use": "Past simple of riportare; ri- means again or back." },
-    "debole": { "en": "weak", "use": "Same form for masculine and feminine." },
-    "famiglia": { "en": "family", "use": "Feminine noun; 'avere famiglia' means to have a family." },
-    "pochissimi": { "en": "very few", "use": "Superlative of pochi; -issimi means very." },
-    "soldi": { "en": "money", "use": "Always plural in Italian; 'i soldi' is the money." },
-    "viveva": { "en": "he lived", "use": "Imperfect of vivere; describes a past situation." },
-    "albergo": { "en": "hotel", "use": "The common word; 'hotel' is also used." },
-    "spendeva": { "en": "he was spending", "use": "Imperfect of spendere; also means to spend time." },
-    "contò": { "en": "he counted", "use": "Past simple of contare; stress on the last letter." },
-    "doveva": { "en": "he had to", "use": "Imperfect of dovere; followed by an infinitive." },
-    "traslocare": { "en": "to move house", "use": "For moving to a new home; 'trasloco' is the move." },
-    "affollato": { "en": "crowded", "use": "Describes a busy place; feminine is affollata." },
-    "vecchio": { "en": "old", "use": "'Un vecchio amico' means an old friend." },
-    "toccò": { "en": "he touched", "use": "Past simple of toccare; stress on the last letter." },
-    "laureò": { "en": "graduated", "use": "From laurearsi; 'si laureò in' means graduated in a subject." },
-    "chirurgo": { "en": "surgeon", "use": "Masculine noun; the surgery is chirurgia." },
-    "scoppiata": { "en": "had broken out", "use": "Feminine participle, agreeing with 'guerra'; used with 'era'." },
-    "spezzò": { "en": "broke, snapped", "use": "Past simple of spezzare; to break into pieces." },
-    "attendente": { "en": "orderly", "use": "A soldier who serves an officer; same form for both genders." },
-    "coraggioso": { "en": "brave", "use": "Feminine is coraggiosa; from coraggio, courage." },
-    "febbre": { "en": "fever", "use": "'Avere la febbre' means to have a fever." },
-    "comune": { "en": "common", "use": "Means shared or frequent; 'comune a' means common among." },
-    "sopravvissuto": { "en": "survived", "use": "Past participle of sopravvivere; here 'sarebbe sopravvissuto' means would survive." },
-    "truppe": { "en": "troops", "use": "Feminine plural of truppa; often used for soldiers." },
-    "rovinata": { "en": "ruined", "use": "Feminine past participle of rovinare, matching 'salute'." },
-    "rimettersi": { "en": "to recover", "use": "Reflexive; 'rimettersi in salute' means to get well again." },
-    "parenti": { "en": "relatives", "use": "Plural of parente; also means parents in some regions." },
-    "reddito": { "en": "income", "use": "Money earned regularly, such as a salary or pension." },
-    "oziose": { "en": "idle", "use": "Feminine plural of ozioso; describes lazy, unoccupied people." },
-    "cupo": { "en": "gloomy, dark", "use": "Describes dark places and sad moods; feminine is cupa." },
-    "spese": { "en": "he spent", "use": "Past simple of spendere, an irregular verb." },
-    "disinvoltura": { "en": "ease, carelessness", "use": "Here it means careless freedom in spending." },
-    "conti": { "en": "accounts, bills", "use": "Plural of conto; 'fare i conti' means to work out the sums." },
-    "allarmò": { "en": "he was alarmed", "use": "From allarmarsi; 'si allarmò' means he became alarmed." },
-    "rimasto": { "en": "left, remained", "use": "Past participle of rimanere, an irregular verb." },
-    "stanze": { "en": "rooms", "use": "Plural of stanza; here: rented rooms." },
-    "economiche": { "en": "cheap, affordable", "use": "Feminine plural of economico; says something costs little." },
-    "pomeriggio": { "en": "afternoon", "use": "Masculine noun; 'nel pomeriggio' means in the afternoon." },
-    "assistente": { "en": "assistant", "use": "Same form for masculine and feminine." },
-    "sconvolto": { "en": "shocked, shaken", "use": "Stronger than surprised; feminine is sconvolta." },
-    "abbronzato": { "en": "tanned", "use": "Describes sun-darkened skin; feminine is abbronzata." },
-    "ferita": { "en": "wound", "use": "Feminine noun; also the past participle of ferire." },
-    "ricerca": { "en": "search", "use": "Also means research; here, looking for something." },
-    "strana": { "en": "strange", "use": "Feminine of strano; it describes 'cosa'." },
-    "reggimento": { "en": "regiment", "use": "A military unit; masculine noun." },
-    "frontiera": { "en": "frontier, border", "use": "Feminine noun; a border between countries." },
-    "raggiungerlo": { "en": "to catch up with", "use": "Raggiungere with 'lo' attached; to reach or join." },
-    "frantumò": { "en": "shattered", "use": "Past simple of frantumare; to break into fragments." },
-    "arteria": { "en": "artery", "use": "A blood vessel carrying blood from the heart." },
-    "sfinito": { "en": "exhausted", "use": "Very tired; feminine is sfinita." },
-    "ritirata": { "en": "retreat", "use": "A military withdrawal; also the feminine past participle of ritirare." },
-    "flagello": { "en": "scourge, plague", "use": "Literary word for a great disaster or disease." },
-    "benevolenza": { "en": "kindness, goodwill", "use": "A formal word for a kind, generous attitude." },
-    "irrimediabilmente": { "en": "irreparably", "use": "Adverb meaning beyond any remedy or repair." },
-    "concessione": { "en": "allowance, concession", "use": "Something granted or allowed, often formally." },
-    "bighelloni": { "en": "loungers, idlers", "use": "Plural of bighellone; people who wander idly." },
-    "irresistibilmente": { "en": "irresistibly", "use": "Adverb: in a way that cannot be resisted." },
-    "cloaca": { "en": "sewer, cesspool", "use": "Literally a drain; figuratively a filthy place." },
-    "squallido": { "en": "squalid, dreary", "use": "Describes a dirty, miserable place; feminine is squallida." },
-    "larghezza": { "en": "generosity, freedom", "use": "Literally width; here, spending without care." },
-    "svogliato": { "en": "listless", "use": "Without energy or will; feminine is svogliata." },
-    "allarmanti": { "en": "alarming", "use": "Plural of allarmante; same form for both genders." },
-    "pretenziosi": { "en": "pretentious, showy", "use": "Plural of pretenzioso; describes grand-seeming things." },
-    "alloggi": { "en": "lodgings", "use": "Plural of alloggio; a place to stay." },
-    "colpetto": { "en": "light tap", "use": "Diminutive of colpo; -etto means small." },
-    "deserto": { "en": "desert, wilderness", "use": "As a noun a desert; as an adjective, empty." },
-    "indicibile": { "en": "unspeakable, beyond words", "use": "Used for feelings too great to describe." },
-    "stupefatto": { "en": "astonished", "use": "Very surprised; feminine is stupefatta." },
-    "tragitto": { "en": "journey, ride", "use": "A short trip from one place to another." },
-    "sobbalzava": { "en": "was jolting", "use": "Imperfect of sobbalzare; to jolt or bounce." },
-    "nocciolo": { "en": "core, crux", "use": "Literally a kernel; figuratively the heart of a matter." },
-    "coincidenza": { "en": "coincidence", "use": "Also a train or bus connection." },
-    "sporse": { "en": "he leaned", "use": "Past simple of sporgere; used in 'sporgersi in avanti'." }
+    "scoppiò": {
+      "en": "broke out",
+      "use": "Used for wars, fires and storms that start suddenly."
+    },
+    "pallottola": {
+      "en": "bullet",
+      "use": "Everyday word for a bullet; proiettile is more formal."
+    },
+    "portò": {
+      "en": "he carried, took",
+      "use": "Past simple of portare; to carry or to take someone."
+    },
+    "quasi": {
+      "en": "almost, nearly",
+      "use": "'Quasi morì' means he nearly died."
+    },
+    "nave": {
+      "en": "ship",
+      "use": "Feminine noun; plural is navi."
+    },
+    "debole": {
+      "en": "weak",
+      "use": "Same form for masculine and feminine."
+    },
+    "soldi": {
+      "en": "money",
+      "use": "Always plural in Italian; 'i soldi' is the money."
+    },
+    "viveva": {
+      "en": "he lived",
+      "use": "Imperfect of vivere; describes a past situation."
+    },
+    "albergo": {
+      "en": "hotel",
+      "use": "The common word; 'hotel' is also used."
+    },
+    "spendeva": {
+      "en": "he was spending",
+      "use": "Imperfect of spendere; also means to spend time."
+    },
+    "contò": {
+      "en": "he counted",
+      "use": "Past simple of contare; stress on the last letter."
+    },
+    "doveva": {
+      "en": "he had to",
+      "use": "Imperfect of dovere; followed by an infinitive."
+    },
+    "traslocare": {
+      "en": "to move house",
+      "use": "For moving to a new home; 'trasloco' is the move."
+    },
+    "affollato": {
+      "en": "crowded",
+      "use": "Describes a busy place; feminine is affollata."
+    },
+    "vecchio": {
+      "en": "old",
+      "use": "'Un vecchio amico' means an old friend."
+    },
+    "toccò": {
+      "en": "he touched",
+      "use": "Past simple of toccare; stress on the last letter."
+    },
+    "laureò": {
+      "en": "graduated",
+      "use": "From laurearsi; 'si laureò in' means graduated in a subject."
+    },
+    "chirurgo": {
+      "en": "surgeon",
+      "use": "Masculine noun; the surgery is chirurgia."
+    },
+    "scoppiata": {
+      "en": "had broken out",
+      "use": "Feminine participle, agreeing with 'guerra'; used with 'era'."
+    },
+    "spezzò": {
+      "en": "broke, snapped",
+      "use": "Past simple of spezzare; to break into pieces."
+    },
+    "attendente": {
+      "en": "orderly",
+      "use": "A soldier who serves an officer; same form for both genders."
+    },
+    "coraggioso": {
+      "en": "brave",
+      "use": "Feminine is coraggiosa; from coraggio, courage."
+    },
+    "febbre": {
+      "en": "fever",
+      "use": "'Avere la febbre' means to have a fever."
+    },
+    "comune": {
+      "en": "common",
+      "use": "Means shared or frequent; 'comune a' means common among."
+    },
+    "sopravvissuto": {
+      "en": "survived",
+      "use": "Past participle of sopravvivere; here 'sarebbe sopravvissuto' means would survive."
+    },
+    "truppe": {
+      "en": "troops",
+      "use": "Feminine plural of truppa; often used for soldiers."
+    },
+    "rovinata": {
+      "en": "ruined",
+      "use": "Feminine past participle of rovinare, matching 'salute'."
+    },
+    "rimettersi": {
+      "en": "to recover",
+      "use": "Reflexive; 'rimettersi in salute' means to get well again."
+    },
+    "parenti": {
+      "en": "relatives",
+      "use": "Plural of parente; also means parents in some regions."
+    },
+    "reddito": {
+      "en": "income",
+      "use": "Money earned regularly, such as a salary or pension."
+    },
+    "oziose": {
+      "en": "idle",
+      "use": "Feminine plural of ozioso; describes lazy, unoccupied people."
+    },
+    "cupo": {
+      "en": "gloomy, dark",
+      "use": "Describes dark places and sad moods; feminine is cupa."
+    },
+    "spese": {
+      "en": "he spent",
+      "use": "Past simple of spendere, an irregular verb."
+    },
+    "disinvoltura": {
+      "en": "ease, carelessness",
+      "use": "Here it means careless freedom in spending."
+    },
+    "conti": {
+      "en": "accounts, bills",
+      "use": "Plural of conto; 'fare i conti' means to work out the sums."
+    },
+    "allarmò": {
+      "en": "he was alarmed",
+      "use": "From allarmarsi; 'si allarmò' means he became alarmed."
+    },
+    "rimasto": {
+      "en": "left, remained",
+      "use": "Past participle of rimanere, an irregular verb."
+    },
+    "stanze": {
+      "en": "rooms",
+      "use": "Plural of stanza; here: rented rooms."
+    },
+    "economiche": {
+      "en": "cheap, affordable",
+      "use": "Feminine plural of economico; says something costs little."
+    },
+    "pomeriggio": {
+      "en": "afternoon",
+      "use": "Masculine noun; 'nel pomeriggio' means in the afternoon."
+    },
+    "assistente": {
+      "en": "assistant",
+      "use": "Same form for masculine and feminine."
+    },
+    "sconvolto": {
+      "en": "shocked, shaken",
+      "use": "Stronger than surprised; feminine is sconvolta."
+    },
+    "abbronzato": {
+      "en": "tanned",
+      "use": "Describes sun-darkened skin; feminine is abbronzata."
+    },
+    "ferita": {
+      "en": "wound",
+      "use": "Feminine noun; also the past participle of ferire."
+    },
+    "ricerca": {
+      "en": "search",
+      "use": "Also means research; here, looking for something."
+    },
+    "strana": {
+      "en": "strange",
+      "use": "Feminine of strano; it describes 'cosa'."
+    },
+    "reggimento": {
+      "en": "regiment",
+      "use": "A military unit; masculine noun."
+    },
+    "frontiera": {
+      "en": "frontier, border",
+      "use": "Feminine noun; a border between countries."
+    },
+    "raggiungerlo": {
+      "en": "to catch up with",
+      "use": "Raggiungere with 'lo' attached; to reach or join."
+    },
+    "frantumò": {
+      "en": "shattered",
+      "use": "Past simple of frantumare; to break into fragments."
+    },
+    "arteria": {
+      "en": "artery",
+      "use": "A blood vessel carrying blood from the heart."
+    },
+    "sfinito": {
+      "en": "exhausted",
+      "use": "Very tired; feminine is sfinita."
+    },
+    "ritirata": {
+      "en": "retreat",
+      "use": "A military withdrawal; also the feminine past participle of ritirare."
+    },
+    "flagello": {
+      "en": "scourge, plague",
+      "use": "Literary word for a great disaster or disease."
+    },
+    "benevolenza": {
+      "en": "kindness, goodwill",
+      "use": "A formal word for a kind, generous attitude."
+    },
+    "irrimediabilmente": {
+      "en": "irreparably",
+      "use": "Adverb meaning beyond any remedy or repair."
+    },
+    "concessione": {
+      "en": "allowance, concession",
+      "use": "Something granted or allowed, often formally."
+    },
+    "bighelloni": {
+      "en": "loungers, idlers",
+      "use": "Plural of bighellone; people who wander idly."
+    },
+    "irresistibilmente": {
+      "en": "irresistibly",
+      "use": "Adverb: in a way that cannot be resisted."
+    },
+    "cloaca": {
+      "en": "sewer, cesspool",
+      "use": "Literally a drain; figuratively a filthy place."
+    },
+    "squallido": {
+      "en": "squalid, dreary",
+      "use": "Describes a dirty, miserable place; feminine is squallida."
+    },
+    "larghezza": {
+      "en": "generosity, freedom",
+      "use": "Literally width; here, spending without care."
+    },
+    "svogliato": {
+      "en": "listless",
+      "use": "Without energy or will; feminine is svogliata."
+    },
+    "allarmanti": {
+      "en": "alarming",
+      "use": "Plural of allarmante; same form for both genders."
+    },
+    "pretenziosi": {
+      "en": "pretentious, showy",
+      "use": "Plural of pretenzioso; describes grand-seeming things."
+    },
+    "alloggi": {
+      "en": "lodgings",
+      "use": "Plural of alloggio; a place to stay."
+    },
+    "colpetto": {
+      "en": "light tap",
+      "use": "Diminutive of colpo; -etto means small."
+    },
+    "deserto": {
+      "en": "desert, wilderness",
+      "use": "As a noun a desert; as an adjective, empty."
+    },
+    "indicibile": {
+      "en": "unspeakable, beyond words",
+      "use": "Used for feelings too great to describe."
+    },
+    "stupefatto": {
+      "en": "astonished",
+      "use": "Very surprised; feminine is stupefatta."
+    },
+    "tragitto": {
+      "en": "journey, ride",
+      "use": "A short trip from one place to another."
+    },
+    "sobbalzava": {
+      "en": "was jolting",
+      "use": "Imperfect of sobbalzare; to jolt or bounce."
+    },
+    "nocciolo": {
+      "en": "core, crux",
+      "use": "Literally a kernel; figuratively the heart of a matter."
+    },
+    "coincidenza": {
+      "en": "coincidence",
+      "use": "Also a train or bus connection."
+    },
+    "sporse": {
+      "en": "he leaned",
+      "use": "Past simple of sporgere; used in 'sporgersi in avanti'."
+    },
+    "diventò": {
+      "en": "he became",
+      "use": "Past simple of diventare; stress on the last letter."
+    },
+    "militare": {
+      "en": "military, of the army",
+      "use": "Adjective; medico militare means army doctor."
+    },
+    "colpì": {
+      "en": "it hit, struck",
+      "use": "Past simple of colpire; stress on the last letter."
+    },
+    "salvò": {
+      "en": "he saved",
+      "use": "Past simple of salvare; lo salvò means saved him."
+    },
+    "morì": {
+      "en": "he died",
+      "use": "Past simple of morire; stress on the last letter."
+    },
+    "pochi": {
+      "en": "few, little",
+      "use": "Plural of poco; used with plural nouns like soldi."
+    },
+    "andò": {
+      "en": "he went",
+      "use": "Past simple of andare; andare a + city."
+    },
+    "magro": {
+      "en": "thin",
+      "use": "Adjective; magra for a woman."
+    },
+    "pranzarono": {
+      "en": "they had lunch",
+      "use": "Past simple of pranzare; lunch is il pranzo."
+    },
+    "conosceva": {
+      "en": "he knew",
+      "use": "Imperfect of conoscere; used for knowing people and places."
+    }
   }
 }

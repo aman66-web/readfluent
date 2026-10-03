@@ -17,5 +17,5 @@ export function useOutline(slug: string, english: readonly OutlineItem[]): reado
     return () => { live = false; };
   }, [slug, locale, key]);
   if (locale === "en" || loaded?.key !== key || loaded.lines.length !== english.length) return english;
-  return english.map((item, i) => ({ n: item.n, text: loaded.lines[i] }));
+  return english.map((item, i) => ({ n: item.n, text: loaded.lines[i], lang: locale }));
 }

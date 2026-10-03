@@ -7,6 +7,14 @@ import { readRaw, subscribeTo } from "@/lib/store/local";
 import { bookMetaFor, bookMetaVersion, loadBookMeta, subscribeBookMeta } from "./book-meta";
 import { EN, catalogFor, catalogVersion, isRtl, loadCatalog, subscribeCatalogs, translate, type MessageId } from "./index";
 
+// Start fetching the saved language's words as soon as this script runs, not after the page has hydrated.
+if (typeof window !== "undefined") {
+  try {
+    const saved = parseAnswers(readRaw(ANSWERS_KEY)).language;
+    if (saved !== DEFAULT_LANGUAGE) void loadCatalog(saved);
+  } catch { /* storage blocked: English */ }
+}
+
 const subscribeAnswers = subscribeTo(ANSWERS_KEY);
 const readAnswersRaw = () => readRaw(ANSWERS_KEY);
 // The server has no device storage: "" is what the first client render shows too.
@@ -48,6 +56,22 @@ export function useBookText() {
   }, [catalog, meta]);
 }
 
+/**
+ * The language a book's title or description is actually in: the reader's own where a translation exists,
+ * else English (the fallback). For the `lang` attribute, so a screen reader does not read English in, say, Japanese.
+ */
+export function useBookLang() {
+  const locale = useLocale();
+  useSyncExternalStore(subscribeCatalogs, catalogVersion, () => 0);
+  useSyncExternalStore(subscribeBookMeta, bookMetaVersion, () => 0);
+  const catalog = catalogFor(locale) as Record<string, string> | null;
+  const meta = bookMetaFor(locale);
+  return useCallback((slug: string, field: "title" | "blurb"): string => {
+    if (catalog?.[`book.${slug}.${field}`] !== undefined || meta?.[slug]?.[field === "title" ? "t" : "b"] !== undefined) return locale;
+    return "en";
+  }, [catalog, meta, locale]);
+}
+
 /** A book's chapter names in the reader's language (the English ones until they arrive). */
 export function useChapterNames(slug: string, english: readonly string[] | undefined): readonly string[] | undefined {
   const locale = useLocale();
@@ -77,8 +101,14 @@ export function useRich() {
 export function LocaleSync() {
   const locale = useLocale();
   useEffect(() => {
-    document.documentElement.lang = locale;
-    document.documentElement.dir = isRtl(locale) ? "rtl" : "ltr";
+    const root = document.documentElement;
+    root.lang = locale;
+    root.dir = isRtl(locale) ? "rtl" : "ltr";
+    // The page was hidden until this language's words arrived (see EARLY_LOCALE in app/layout.tsx): show it now.
+    if (root.hasAttribute("data-i18n-pending")) {
+      const show = () => requestAnimationFrame(() => requestAnimationFrame(() => root.removeAttribute("data-i18n-pending")));
+      void loadCatalog(locale).then(show, show);
+    }
   }, [locale]);
   return null;
 }

@@ -21,7 +21,7 @@ import { XP, levelFromXp, stageAfter, stageCode, type Cefr } from "@/lib/xp/leve
 const CAN_DO = (code: string) => `cando.${code}` as MessageId;
 const STAGE_NAME = { 1: "stage.early", 2: "stage.mid", 3: "stage.late" } as const;
 
-export function LevelCard({ xp, learn, exam = null, startOpen = false }: { xp: number; learn: LanguageCode | null; /** The level whose XP the reader has but whose exam they have not passed (lib/xp/exam.ts). */ exam?: Cefr | null; /** The details open from the first render (for tests and for looking at them). */ startOpen?: boolean }) {
+export function LevelCard({ xp, learn, exam = null, startOpen = false, earned }: { xp: number; /** The XP earned in all, shown while an exam is due (xp is held one short of the level). */ earned?: number; learn: LanguageCode | null; /** The level whose XP the reader has but whose exam they have not passed (lib/xp/exam.ts). */ exam?: Cefr | null; /** The details open from the first render (for tests and for looking at them). */ startOpen?: boolean }) {
   const t = useT();
   const locale = useLocale();
   const [open, setOpen] = useState(startOpen);
@@ -48,7 +48,7 @@ export function LevelCard({ xp, learn, exam = null, startOpen = false }: { xp: n
         <div className="min-w-0 pb-1">
           <p className="text-[16px] font-semibold leading-tight">{t(`levelname.${s.level}`)}</p>
           {s.stage && <p className="tabular mt-0.5 text-[13px] font-bold text-[#67E8F9]">{s.code} · {t(STAGE_NAME[s.stage])}</p>}
-          <p className="tabular mt-1 text-[12.5px] font-semibold text-white/90">{t("xp.total", { xp: n(s.xp) })}</p>
+          <p className="tabular mt-1 text-[12.5px] font-semibold text-white/90">{t("xp.total", { xp: n(exam && earned !== undefined ? earned : s.xp) })}</p>
         </div>
       </div>
 
@@ -61,7 +61,7 @@ export function LevelCard({ xp, learn, exam = null, startOpen = false }: { xp: n
         {s.next ? (
           <div className="tabular mt-2 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5 text-[13px] font-semibold">
             <span className="whitespace-nowrap text-white/90">{t("xp.progress", { into: n(s.into), span: n(s.span) })}</span>
-            <span className="whitespace-nowrap">{t("xp.toGo", { xp: n(s.toGo), next: s.next })}</span>
+            <span className={exam ? "" : "whitespace-nowrap"}>{exam ? t("xp.examToGo", { level: exam }) : t("xp.toGo", { xp: n(s.toGo), next: s.next })}</span>
           </div>
         ) : s.toGo > 0 ? (
           // C2: no level after it, but an end to reach.
@@ -100,7 +100,8 @@ export function LevelCard({ xp, learn, exam = null, startOpen = false }: { xp: n
               <li>{t("xp.howPage", { xp: XP.page, half: XP.pageBelow })}</li>
               <li>{t("xp.howFinish", { xp: XP.finishPerPage })}</li>
               <li>{t("xp.howDaily", { xp: XP.firstOfDay })}</li>
-              <li className="text-white/65">{t("xp.howSoon")}</li>
+              <li>{t("xp.howCards", { xp: XP.card.good, easy: XP.card.easy })}</li>
+              <li>{t("xp.howTests", { xp: XP.test.correct })}</li>
             </ul>
           </div>
         </div>

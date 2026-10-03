@@ -1,417 +1,417 @@
 {
-  "slug": "the-descent-of-man",
-  "meta": {
-    "blurb": "In his famous book of 1859, Charles Darwin said almost nothing about human beings. In 1871 he turned his evidence on us, from tailbones and unborn babies to peacocks and bowerbirds. This retelling also says plainly where he was wrong.",
-    "bible": "Charles Darwin: the English naturalist who wrote The Descent of Man, and Selection in Relation to Sex, published in 1871, twelve years after On the Origin of Species. The book has two parts: the first on the descent of man, the second on Sexual Selection. Natural selection: survival and success in leaving young. Sexual selection: success in winning a mate, by fighting or by being chosen. Key terms: Pelican, Pelicans, Fireflies, Pheasant, Ancestor, Ancestors, Species, Ape, Apes, Monkey, Monkeys, Embryo, Instinct, Instincts, Conscience, Sympathy, Evolution, Fossils, Antlers, Peacock, Peahen, Argus pheasant, Bowerbird, Bowerbirds, Grouse, Ruffs, Phalaropes, Mandrill, Sea squirts, Africa, Darwin's point. Places: Africa, Australia. Darwin hated slavery but also repeated some prejudiced ideas of his time about peoples and about women; the book says so plainly and does not hide it. Facts are hedged where science is uncertain or has moved on: the Africa idea has been supported by later fossils, and shared ancestry with apes by DNA, but many of Darwin's details have been corrected. Voice and tone: curious, careful and humble, a patient argument made one piece of evidence at a time; plain and respectful, never mocking anyone."
+ "slug": "the-descent-of-man",
+ "meta": {
+  "blurb": "In his famous book of 1859, Charles Darwin said almost nothing about human beings. In 1871 he turned his evidence on us, from tailbones and unborn babies to peacocks and bowerbirds. This retelling also says plainly where he was wrong.",
+  "bible": "Charles Darwin: the English naturalist who wrote The Descent of Man, and Selection in Relation to Sex, published in 1871, twelve years after On the Origin of Species. The book has two parts: the first on the descent of man, the second on Sexual Selection. Natural selection: survival and success in leaving young. Sexual selection: success in winning a mate, by fighting or by being chosen. Key terms: Pelican, Pelicans, Fireflies, Pheasant, Ancestor, Ancestors, Species, Ape, Apes, Monkey, Monkeys, Embryo, Instinct, Instincts, Conscience, Sympathy, Evolution, Fossils, Antlers, Peacock, Peahen, Argus pheasant, Bowerbird, Bowerbirds, Grouse, Ruffs, Phalaropes, Mandrill, Sea squirts, Africa, Darwin's point. Places: Africa, Australia. Darwin hated slavery but also repeated some prejudiced ideas of his time about peoples and about women; the book says so plainly and does not hide it. Facts are hedged where science is uncertain or has moved on: the Africa idea has been supported by later fossils, and shared ancestry with apes by DNA, but many of Darwin's details have been corrected. Voice and tone: curious, careful and humble, a patient argument made one piece of evidence at a time; plain and respectful, never mocking anyone."
+ },
+ "beats": [
+  {
+   "n": 1,
+   "scene": "Charles Darwin at his desk in 1871, with notes, a pen and a lamp",
+   "summary": "In 1871 Darwin sets out to ask whether human beings, like every other living thing, have a natural history."
   },
-  "beats": [
-    {
-      "n": 1,
-      "scene": "Charles Darwin at his desk in 1871, with notes, a pen and a lamp",
-      "summary": "In 1871 Darwin sets out to ask whether human beings, like every other living thing, have a natural history."
-    },
-    {
-      "n": 2,
-      "scene": "Darwin looks at old notebooks stacked beside a window overlooking his garden",
-      "summary": "Darwin explains why he waited, and why he is ready to write now."
-    },
-    {
-      "n": 3,
-      "scene": "A human arm, a dog's leg, a seal's flipper and a bat's wing",
-      "summary": "Darwin shows that the bones of a human arm match those of many other mammals."
-    },
-    {
-      "n": 4,
-      "scene": "Two monkeys on a rock holding their heads, with empty beer bottles beside them",
-      "summary": "Humans and other mammals share organs and illnesses, and Darwin retells a story of monkeys that drank too much beer."
-    },
-    {
-      "n": 5,
-      "scene": "A tiny unborn baby beside the unborn young of a dog and a bird",
-      "summary": "Darwin notes that the earliest stages of a human embryo look almost the same as those of other animals."
-    },
-    {
-      "n": 6,
-      "scene": "The human spine ends in a short tail bone, with ear muscles marked",
-      "summary": "Darwin lists leftover body parts, such as the tail bone, that no longer seem useful."
-    },
-    {
-      "n": 7,
-      "scene": "A close view of a human ear with a small point on its rim",
-      "summary": "Darwin notices a small point on some ears that matches the pointed ear of other animals."
-    },
-    {
-      "n": 8,
-      "scene": "A human arm with an extra muscle marked in red beside an ape's arm",
-      "summary": "Darwin notes that people are sometimes born with muscles that normally belong to other animals."
-    },
-    {
-      "n": 9,
-      "scene": "A crowd of different people in a market, no two alike",
-      "summary": "Darwin explains that people vary from one to another, as every animal species does."
-    },
-    {
-      "n": 10,
-      "scene": "A hungry family stands before a nearly empty field and a small basket",
-      "summary": "Darwin says humans, like other animals, tend to have more children than food can support."
-    },
-    {
-      "n": 11,
-      "scene": "A chimpanzee and a gorilla sit among green trees in Africa",
-      "summary": "Darwin points to Africa as the likely early home of our ancestors, because our nearest relatives live there."
-    },
-    {
-      "n": 12,
-      "scene": "A dog and a child looking at each other across a garden gate",
-      "summary": "Darwin argues that human minds differ from animal minds in degree and not in kind."
-    },
-    {
-      "n": 13,
-      "scene": "A sleeping dog twitching its paws on a rug in front of a fire",
-      "summary": "Darwin observes that dogs seem to dream."
-    },
-    {
-      "n": 14,
-      "scene": "A monkey holds a stone above a hard nut on a flat rock",
-      "summary": "Darwin cites reports of monkeys and apes using stones and sticks as tools."
-    },
-    {
-      "n": 15,
-      "scene": "A dog with raised ears barking at a gate while a girl listens",
-      "summary": "Darwin notes that animals use different cries and that dogs have learned several kinds of bark."
-    },
-    {
-      "n": 16,
-      "scene": "Early humans round a fire, one copying a bird call while others gesture",
-      "summary": "Darwin guesses that language began from copied sounds, cries and gestures, perhaps with song."
-    },
-    {
-      "n": 17,
-      "scene": "Two family trees drawn side by side, one of languages and one of species",
-      "summary": "Darwin compares languages with living species, both changing slowly as they descend."
-    },
-    {
-      "n": 18,
-      "scene": "A small dog growls at a parasol moving on a lawn",
-      "summary": "Darwin tells of a dog that barked at a moving parasol and suggests how belief in unseen powers could arise."
-    },
-    {
-      "n": 19,
-      "scene": "A baboon mother and her young sit close together while others groom them",
-      "summary": "Darwin says the moral sense grows from social instincts, the feelings that bind families and groups."
-    },
-    {
-      "n": 20,
-      "scene": "An old blind pelican fed by two other pelicans beside a salt lake",
-      "summary": "Darwin repeats a story of a blind pelican fed by its companions."
-    },
-    {
-      "n": 21,
-      "scene": "A man sits alone at night with a troubled face, looking back",
-      "summary": "Darwin explains conscience as a feeling that comes from memory when we ignore a social instinct."
-    },
-    {
-      "n": 22,
-      "scene": "Two tribes face each other across a river, one working together and one arguing",
-      "summary": "Darwin suggests that tribes with brave, loyal and helpful members would win over other tribes."
-    },
-    {
-      "n": 23,
-      "scene": "Circles growing wider on the ground, from a family to the whole world",
-      "summary": "Darwin writes that sympathy widens, from the family to the tribe, the nation, all humanity and even animals."
-    },
-    {
-      "n": 24,
-      "scene": "A nurse helps a sick man in a bed in a plain ward",
-      "summary": "Darwin says we must go on caring for the weak and sick, even if it seems to stop natural selection."
-    },
-    {
-      "n": 25,
-      "scene": "Early humans walk upright across grassland, carrying stones in their free hands",
-      "summary": "Darwin argues that walking upright freed the hands for tools."
-    },
-    {
-      "n": 26,
-      "scene": "Two apes with large pointed teeth beside a human skull with small teeth",
-      "summary": "Darwin explains that humans have small canine teeth because hands and tools replaced teeth as weapons."
-    },
-    {
-      "n": 27,
-      "scene": "A family tree with a human on one branch and an ape on another",
-      "summary": "Darwin makes clear that humans did not come from any ape or monkey alive today."
-    },
-    {
-      "n": 28,
-      "scene": "Tiny tadpole-like sea creatures with stiff rods along their backs swim in blue water",
-      "summary": "Darwin guesses that our earliest backboned ancestors were small sea animals like the young of sea squirts."
-    },
-    {
-      "n": 29,
-      "scene": "A world map with arrows joining groups of people, drawn in a Victorian style",
-      "summary": "Darwin argues that all humans belong to one species and that experts could not agree how many races there are."
-    },
-    {
-      "n": 30,
-      "scene": "Darwin reads a letter at his desk beneath a small sign reading freedom",
-      "summary": "Darwin hated slavery, but he repeated some mistaken beliefs of his time about peoples and women."
-    },
-    {
-      "n": 31,
-      "scene": "An open book showing a bird, a beetle and a fish",
-      "summary": "The second part of the book turns to sexual selection and how it differs from natural selection."
-    },
-    {
-      "n": 32,
-      "scene": "Two stags lock antlers while a doe watches from the trees",
-      "summary": "Darwin describes two kinds of sexual selection: males fighting and females choosing."
-    },
-    {
-      "n": 33,
-      "scene": "A male stag with large antlers and a cockerel with long spurs",
-      "summary": "Darwin explains that males often have weapons the females lack, such as antlers and spurs."
-    },
-    {
-      "n": 34,
-      "scene": "A male cricket on a leaf with raised wings, a female cricket coming near",
-      "summary": "Darwin shows that male crickets sing by rubbing their wings to call the females."
-    },
-    {
-      "n": 35,
-      "scene": "A glowing firefly and a bright blue butterfly on a branch at dusk",
-      "summary": "Darwin describes bright butterflies and glowing fireflies, which use colour and light to attract mates."
-    },
-    {
-      "n": 36,
-      "scene": "A red-bellied male fish guards a nest while a male frog calls",
-      "summary": "Darwin notes that male fish take bright colours and male frogs call loudly in the breeding season."
-    },
-    {
-      "n": 37,
-      "scene": "A small bird sings on a branch at sunrise, while a female listens nearby",
-      "summary": "Darwin says male songbirds sing in spring to win a mate, and females may prefer the best singers."
-    },
-    {
-      "n": 38,
-      "scene": "A peacock spreads its enormous tail before a watching peahen on a lawn",
-      "summary": "Darwin argues that the peacock's showy tail spread because peahens prefer the finest display."
-    },
-    {
-      "n": 39,
-      "scene": "A long wing feather with round spots shaded like balls in sockets",
-      "summary": "Darwin admires the shaded spots on the wing feathers of the Argus pheasant."
-    },
-    {
-      "n": 40,
-      "scene": "A male bowerbird arranges blue feathers and shells around a small stick shelter",
-      "summary": "Darwin describes bowerbirds that build and decorate shelters to win a mate."
-    },
-    {
-      "n": 41,
-      "scene": "Male grouse strut and dance on a hill while the females watch",
-      "summary": "Darwin describes groups of male birds, such as grouse and ruffs, that gather each spring to display."
-    },
-    {
-      "n": 42,
-      "scene": "A bold-coloured female bird sits on eggs while a duller male stands guard",
-      "summary": "Darwin notes birds, such as phalaropes, in which females are brighter and the male cares for the eggs."
-    },
-    {
-      "n": 43,
-      "scene": "A male lion with a thick mane and a mandrill with a bright face",
-      "summary": "Darwin notes that male mammals often have manes, beards or bright skin that females lack."
-    },
-    {
-      "n": 44,
-      "scene": "A smooth human arm beside a hairy ape's arm",
-      "summary": "Darwin wonders why humans have lost most body hair and offers a guess that scientists still debate."
-    },
-    {
-      "n": 45,
-      "scene": "People from several parts of the world in different clothes and hairstyles",
-      "summary": "Darwin gathers examples to show that ideas of beauty are very different in different places."
-    },
-    {
-      "n": 46,
-      "scene": "Darwin writes at his desk with a pile of books and a lamp",
-      "summary": "Darwin writes about differences between men and women in ways that reflect the mistaken beliefs of his time."
-    },
-    {
-      "n": 47,
-      "scene": "A skeleton of a human beside an ape skeleton with a lamp between them",
-      "summary": "Darwin sums up the evidence that humans share a body, a development and useless leftover parts with other animals."
-    },
-    {
-      "n": 48,
-      "scene": "A small monkey stands bravely in front of its keeper",
-      "summary": "Darwin says he would rather descend from a brave monkey that saved a friend than from cruel people."
-    },
-    {
-      "n": 49,
-      "scene": "A figure stands on a hilltop at dawn holding an open book",
-      "summary": "Darwin says people may be proud to have risen so far and may hope for a higher future, but he admits much is still unknown."
-    },
-    {
-      "n": 50,
-      "scene": "A scientist holds an early human skull beside a screen showing DNA",
-      "summary": "Later fossils and DNA support Darwin's main idea that humans share ancestors with apes, while correcting many details."
-    }
-  ],
-  "levels": {
-    "A1A2": [
-      "In 1871, Charles Darwin wrote a book about where humans come from.",
-      "Darwin had waited a long time before he wrote about people.",
-      "Your arm has the same kind of bones as a bat's wing.",
-      "Monkeys and people can catch many of the same illnesses.",
-      "Before birth, a human baby looks very like other animals' babies.",
-      "Humans have a tiny tail bone, but we have no tail.",
-      "Some people have a tiny point on the edge of the ear.",
-      "Some people are born with muscles that other animals usually have.",
-      "No two people are exactly alike, just like animals.",
-      "Like other animals, people have more children than the land can feed.",
-      "Our closest animal relatives live in Africa, so humans may have begun there.",
-      "Animals feel happy, afraid and curious, just as people do.",
-      "A sleeping dog can dream; it moves its legs and makes sounds.",
-      "Some monkeys use stones to break hard nuts.",
-      "Dogs bark in different ways to say different things.",
-      "Darwin thought early people copied animal sounds and later made words.",
-      "Languages change over time, just as living things do.",
-      "A dog barked at an umbrella that moved in the wind.",
-      "Many animals live in groups and help each other.",
-      "Pelicans fed a blind pelican that could not catch fish.",
-      "Later, we feel bad if we did not help someone.",
-      "A group that helps its members is stronger than one that does not.",
-      "Over time, people have learned to care about strangers and animals too.",
-      "Darwin said we must always help people who are weak or sick.",
-      "Walking on two legs left our hands free to carry and make things.",
-      "Our ancestors needed big teeth less once hands could hold tools.",
-      "Humans did not come from any monkey alive today.",
-      "Very long ago, our ancestors lived in the sea.",
-      "All people in the world belong to one single species.",
-      "Darwin hated slavery, but some of his ideas were wrong.",
-      "In the second part, Darwin wrote about how animals find mates.",
-      "Males may fight each other, or females may pick a male.",
-      "Male deer grow big horns and fight each other.",
-      "Male crickets sing by rubbing their wings together.",
-      "Fireflies glow in the dark, and this helps them find each other.",
-      "In spring, male frogs call loudly to bring the females.",
-      "In spring, male birds sing to win a mate.",
-      "A peacock shows its huge tail to a peahen.",
-      "The Argus pheasant has wing feathers covered in round spots like balls.",
-      "Bowerbirds build little houses of sticks and decorate them with shells.",
-      "Some birds dance in groups, and the females watch them.",
-      "In a few birds, the females are brighter than the males.",
-      "The male lion has a mane, and the female has none.",
-      "Darwin wondered why humans lost most of their body hair.",
-      "What looks nice in one place may look bad in another.",
-      "Darwin made a mistake when he wrote about men and women.",
-      "Darwin said that all the clues pointed to the same answer.",
-      "Darwin said he would be proud of a brave monkey ancestor.",
-      "Darwin said that people should be proud of how far they have come.",
-      "Today, fossils and DNA support Darwin's main idea about people."
-    ],
-    "B1B2": [
-      "Twelve years after his famous book on the origin of species, Charles Darwin published The Descent of Man. It asked a question that many people feared: do humans have a natural history, just like every other living thing?",
-      "In his earlier book he had only said that light would be thrown on the origin of man. Now, with more evidence and many scientists on his side, he felt ready to say more.",
-      "Darwin begins his proof with the body, and he asks readers to compare it with the bodies of other animals. A human arm, a dog's leg, a seal's flipper and a bat's wing are all built from the same bones, arranged in the same way.",
-      "Darwin points out that people and other mammals share the same organs, nerves and blood, and even many of the same illnesses. He also repeats a traveller's story of monkeys that drank too much beer and then refused to touch it again.",
-      "Darwin says that in its earliest stage an unborn human is almost impossible to tell apart from the young of other backboned animals. Only later do the features that make it human begin to appear.",
-      "Darwin lists parts of the body that seem to be left over from our ancestors, such as the tail bone and ear muscles. Useless parts, he argues, are hard to explain unless they were once useful to earlier animals.",
-      "Darwin noticed a small point on the folded rim of some human ears. It matches the pointed tip found on the ears of many monkeys, and he took it as another trace of our past.",
-      "Darwin also noted that people are sometimes born with muscles that normally belong to other mammals. He argued that such surprises are easy to understand if our bodies still carry a hidden memory of our ancestors.",
-      "Darwin notes that people differ from each other in body and mind, just as the members of any animal species do. Such small differences, passed on from parents to children, are the raw material on which selection can work.",
-      "Darwin wrote that, like every other animal, humans tend to multiply faster than their food supply grows. In the past this meant hunger, disease and a hard struggle to survive, which helped some people more than others.",
-      "Darwin pointed out that gorillas and chimpanzees live in Africa, and that they are our nearest living relatives. He therefore thought that early humans probably lived there too, although almost no fossils of early humans had been found in his day.",
-      "Darwin argued that the mind of a human differs from the mind of an animal in degree and not in kind. Many animals show fear, curiosity, memory and a kind of simple reasoning, and he thought these were the roots of our own powers.",
-      "Darwin noticed that dogs, cats and horses seem to dream, because they twitch and whimper in their sleep. He took such signs as a hint that animals have an inner life of memory and imagination that is not so different from ours.",
-      "Darwin gathered reports of monkeys and apes using stones to crack nuts and sticks to lift things. He saw such acts as a sign that the first step toward human tools was not a huge leap.",
-      "Darwin did not deny that human speech is special. But animals also use cries to share fear, anger and joy, and a dog has learned several kinds of bark.",
-      "He guessed that language began when early humans copied natural sounds and animal cries, and added gestures. He also suspected that singing came before speech, but he admitted that nobody could be sure.",
-      "Darwin saw a likeness between languages and living species. Both are passed down with slow changes, both form families, and both carry useless leftovers, such as the silent letters in some English words.",
-      "Darwin told a story about a dog that growled at a parasol moving in the wind with no one near it. He suggested that such feelings might be the root of the human habit of imagining unseen powers, though he treated the subject with care.",
-      "Darwin said that the moral sense grows from the social instincts, which are the feelings that bind parents, children and friends. Animals that live in groups also show sympathy, and some will defend or help another member of their group.",
-      "Darwin repeats a traveller's story of a blind pelican that was found fat and healthy, apparently fed by its companions. Such acts of care, he suggested, are the kind of behaviour from which human kindness could grow.",
-      "Darwin explained conscience as a feeling that comes from memory. When a strong urge such as hunger or fear makes us ignore a social instinct, we look back later and feel regret.",
-      "Darwin thought that early tribes whose members were brave, loyal and ready to help each other would win over tribes that were not. In this way, he suggested, the moral qualities could spread through a whole people over many generations.",
-      "As societies grew larger, Darwin wrote, sympathy spread from the family to the tribe, then to the nation, and finally to all human beings. He added that it could even reach animals, and he counted this among the highest achievements of morality.",
-      "Darwin knew that hospitals and care for the weak keep alive many people who would once have died. He was clear, however, that we should never stop helping them, because doing so would damage the best part of human nature.",
-      "Darwin argued that our ancestors began to walk upright, and that this left their hands free to use stones, sticks and later tools. Over many generations, he suggested, skilful hands and a growing brain helped each other to improve.",
-      "Male apes have large pointed teeth that they use to fight. Darwin thought our ancestors lost such teeth because stones and sticks served them better, so smaller teeth were no disadvantage.",
-      "Darwin was careful to say that humans did not descend from any ape or monkey alive today. Instead, he said, we and the apes share an ancient ancestor from which both lines slowly grew apart.",
-      "Going back much further, Darwin guessed that our earliest backboned ancestors were small sea animals. He compared them with the young of sea squirts, which have a stiff rod along the back and swim like tiny tadpoles.",
-      "Darwin wrote that the differences between human groups are small compared with all that people share. Scientists who tried to count the human races had reached anything from two to sixty-three, which showed how blurred the lines are.",
-      "Darwin hated slavery and said so strongly, and he stressed how alike all peoples are in mind and feeling. However, he also repeated some beliefs of his time about higher and lower peoples that science has since shown to be wrong.",
-      "The second part of the book is about sexual selection, which Darwin said works differently from natural selection. It does not decide who lives longest but who leaves the most young, because some animals win mates more easily than others.",
-      "Darwin described two ways in which sexual selection works. In one, males fight each other for the chance to mate; in the other, females choose the males they like best.",
-      "Many male animals carry weapons that females lack, such as the antlers of stags and the spurs of cockerels. Darwin argued that these grew bigger over time because the males with the best weapons won more fights and left more young.",
-      "Darwin explored insects and found that males often carry horns or sing. A male cricket scrapes one wing against the other to make a song, and he believed that the females are drawn toward the sound.",
-      "Butterflies and moths often have bright colours, and the males are often brighter than the females. Darwin also thought that the glow of fireflies helps the sexes to find each other in the dark.",
-      "In the breeding season many male fish become brightly coloured, and some male frogs call very loudly. Darwin collected such cases to show that the same force was at work among fishes, frogs and reptiles.",
-      "Birds receive most space in Darwin's second part, because they show sexual selection so clearly. Male songbirds sing mostly in the breeding season, and he believed that females are drawn to the best singers.",
-      "The peacock's great fan of feathers makes it slower and easier for a hunter to see. Darwin argued that such a tail could still spread, because peahens prefer the males with the finest display.",
-      "Darwin was amazed by the wing feathers of the male Argus pheasant, whose spots look like balls lying in sockets. He found it hard to explain such delicate shading without the taste of females to guide it.",
-      "Male bowerbirds build small shelters of sticks and decorate them with shells, feathers and bright objects. Darwin saw this as a sign that birds may have a real sense of beauty, since the bower is built only to charm a mate.",
-      "Male black grouse and ruffs gather in one place each spring, where they strut, dance and fight while the females watch. Darwin concluded that such shows are a kind of contest for the females' attention.",
-      "Darwin also found birds, such as phalaropes, where the female is brighter and the male cares for the eggs. This showed that bright colours belong to whichever sex competes for mates.",
-      "Among mammals, Darwin noted that the male often has a mane, a beard or bright skin that the female lacks. The strange colours on the face of a male mandrill, he thought, are another case of a feature that helped males to win mates.",
-      "Darwin asked why humans have so little body hair compared with the apes. He guessed that choices in picking mates played a part, but scientists today still argue about the true answer and offer other explanations.",
-      "Darwin collected many accounts of how different peoples decorate their bodies and what they find beautiful. He used them to show that tastes are not the same everywhere, and he believed that such tastes might slowly shape a people over time.",
-      "Darwin claimed that men had become more able than women in some ways. He overlooked the fact that women of his time were denied schooling, so we now see his claim as a mistake of his age.",
-      "Near the end of the book, Darwin gathered all his evidence together in one place. Humans are built and grow like other mammals, and they carry useless parts that only make sense as leftovers.",
-      "Some readers were shocked at the idea of having ape-like ancestors. Darwin replied that he would rather descend from a brave little monkey that saved its keeper than from a cruel person.",
-      "Darwin wrote that humans may feel some pride at having risen so far, and may hope for an even better future. He also admitted plainly that much remained uncertain and that his book was only a beginning.",
-      "Since 1871, many fossils of early humans have been found in Africa, and DNA shows that humans and chimpanzees share a recent ancestor. The details differ from what Darwin wrote, but his central idea has stood the test of time."
-    ],
-    "C1C2": [
-      "In 1871, twelve years after On the Origin of Species had shaken the scientific world, Charles Darwin published a second great book, The Descent of Man. Its subject was the one he had so far avoided, namely whether human beings, like every other creature, had arisen from earlier forms of life. It is a long work in two parts, the first about our ancestry and the second about the strange force he called sexual selection.",
-      "In the earlier Origin, Darwin had allowed himself only a single cautious sentence, promising that light would one day be thrown on the origin of man and his history. He knew that the subject was explosive, and he had gathered notes on it for years while saying nothing in public. By 1871, however, other naturalists had begun to reach the same conclusions, and he judged that it was time to set out his own evidence in full.",
-      "Darwin opens his evidence with the body itself, inviting the reader to compare the human frame with those of other mammals. The arm of a man, the foreleg of a horse, the flipper of a seal and the wing of a bat are all built upon the same plan of bones. Such a likeness, he argued, makes perfect sense if these animals share a distant common ancestor, but it looks like a strange coincidence if each was made separately.",
-      "Beyond the bones, Darwin observed, humans and other mammals share their muscles, nerves, blood vessels and even many of their illnesses, and the same medicines act upon them in much the same way. He passes on a traveller's amusing report of monkeys that were tempted with beer, suffered for it the next morning, and would not take another drop. To him such small signs of kinship added up to a weight of evidence.",
-      "Darwin drew attention to a remarkable fact from the study of the embryo: in its earliest weeks, an unborn human can hardly be told from the embryos of a dog, a bird or a fish. The differences appear only as development goes on, as though each animal began from the same simple pattern and then wandered along its own path. For Darwin this was exactly what we should expect if all these creatures share a common ancestry.",
-      "Darwin collected what he called rudimentary organs, small and apparently useless parts of the body such as the tail bone and the muscles that still twitch the ears of a few people. A designer building each species from scratch would have had no reason to include them, he said. They are the faded remains of structures that were once of real use to our distant ancestors.",
-      "Darwin took a special interest in a tiny point that appears on the folded rim of some human ears, a feature now often called Darwin's point. He compared it with the pointed ear of apes and monkeys, and suggested that it was the surviving trace of a tip that once served our ancestors. The detail is small, but it shows how patiently he followed even the humblest clue.",
-      "Another strange clue was reversion, the occasional return of a feature that belongs to an earlier stage of the family tree. Darwin pointed out that some people are born with muscles that are normal in apes and other mammals but missing in most humans. He reasoned that the body still carries a faint inheritance from distant ancestors, which now and then rises to the surface.",
-      "Like every other species, Darwin observed, human beings vary: no two faces, bodies or characters are exactly alike. These small differences are often inherited by children from their parents, and they supply the raw material on which natural selection can go to work. Without such variation, he insisted, no kind of evolution could take place at all.",
-      "Like every other species, Darwin observed, human beings vary: no two faces, bodies or characters are exactly alike. These small differences are often inherited by children from their parents, and they supply the raw material on which natural selection can go to work. Without such variation, he insisted, there would be nothing for selection to choose between, and no evolution of any kind could ever take place.",
-      "Because the gorilla and the chimpanzee, our closest living relatives, are found in Africa, Darwin judged it somewhat more probable that our early ancestors lived on that continent than anywhere else. He admitted that this was a guess, for in 1871 the fossil record of early humans was almost empty. Later discoveries would give his suggestion far more support than he could have hoped for.",
-      "In his chapters on the mind, Darwin maintained that the gulf between human beings and the higher animals, though wide, is a difference of degree and not of kind. Animals feel pleasure and pain, fear and courage, curiosity and affection, and many of them clearly remember, pay attention and reason in simple ways. These faculties, he said, are the same in nature as ours, only far less developed.",
-      "Darwin observed that dogs, and probably many other animals, dream, for they twitch their legs, whimper softly and sometimes growl in their sleep. A creature that dreams must have a store of memory and some power of imagination, he reasoned, since the scenes in a dream are made from earlier experience. It was a quiet and domestic piece of evidence, but he thought it said something important about the animal mind.",
-      "Darwin collected reports from travellers and keepers that monkeys and apes sometimes use stones to crack nuts and sticks as levers or clubs. Whether or not each story was perfectly accurate, he considered them evidence that the habit of using tools was no sudden gift to humankind. A mind that can take up a stone for a purpose has already made the first move along the road to the workshop.",
-      "Darwin did not deny that articulate speech is the most striking of human powers, but he insisted that it was not wholly unprepared by nature. Animals use cries and calls to warn of danger and to share anger, pleasure and fear, and the dog, in living with us, has learned to bark in several distinct tones. The beginnings of language, he suggested, lie in just such simple signals, which grew richer as the brains of our ancestors grew larger.",
-      "Darwin's own guess was that language grew out of the imitation of natural sounds and animal cries, helped along by gestures and by the instinctive cries of strong feeling. He also wondered whether our remote ancestors sang before they talked, using the voice in a musical way, much as some gibbons do today. He was careful to call all this speculation, for no record of the first words could possibly survive.",
-      "Darwin found a striking parallel in the history of languages, which, like species, are handed down with slow and unplanned changes, split into daughter forms and sometimes die out. Both also keep useless leftovers, for the silent letters in English spelling are as pointless as a rudimentary organ and as revealing about the past. A person who understood how languages developed, he thought, would find the idea of evolution less strange.",
-      "Darwin described a dog that growled and barked at a parasol lying open on a lawn when a light breeze set it moving, as though it supposed that some living thing was at work. He used the story to suggest how the human habit of imagining unseen agents might first have arisen. He handled the subject of religion with respect, and he was careful to say that this was only one possible explanation.",
-      "To explain how humans came to have a sense of right and wrong, Darwin looked first to the social instincts, the affection of parents for children and the pleasure that group animals take in each other's company. Creatures that live together warn one another of danger, defend one another and share a feeling of sympathy. This, he proposed, was the soil in which the moral sense could take root.",
-      "Darwin includes a traveller's tale of a completely blind pelican that was discovered in good condition on the shore of a salt lake, plainly fed for a long time by its fellow birds. Stories of this kind were hard to check, but he thought they pointed toward a real principle. Kindness toward the helpless, he argued, is no human invention, and its early forms can be found in animals.",
-      "Conscience, in Darwin's account, depends on memory and on the habit of looking back over our own conduct. When a passing impulse such as fear or hunger overpowers a lasting social instinct, such as the wish to help a friend, we recall what we did and feel regret, because the weaker feeling returns and cannot be quieted. In animals the same conflict may occur, but they lack the powers of thought needed to reflect on it.",
-      "Darwin proposed that a tribe whose members were always ready to help one another, and to sacrifice themselves for the common good, would defeat tribes lacking those qualities. In the long run, he said, such a tribe would spread, and the habits of loyalty, courage and sympathy would become more common through the generations. Individuals may rarely gain by being generous, he admitted, but a group made up of generous people has a clear advantage over its rivals.",
-      "As civilisation advanced and small tribes were united into larger communities, Darwin observed, the circle of human sympathy widened, until it reached the people of all nations and races. Once that had happened, he thought, only an artificial barrier prevented it from extending to the animals as well. He counted this expanding kindness among the noblest moral achievements of our species, and he hoped that it would continue to grow.",
-      "Darwin recognised that civilised societies build hospitals and care for the sick, and that this saves many lives that natural selection might otherwise have ended. Nevertheless, he declared that we cannot and must not hold back our sympathy, even if reason urged us to, without a decline in the noblest part of our nature. Compassion, for him, was a gain of civilisation and not a flaw in it, however much it might interfere with the old law of survival.",
-      "Darwin argued that the early ancestors of humankind came to stand and walk upright, an advantage that left the hands free to hold stones, throw spears and eventually shape tools. The better the hand became at this work, the more the brain was challenged and rewarded, and so each improved the other. He saw in this long partnership of hand and brain one of the great engines of human progress, and a key to our later success.",
-      "The males of many apes carry large, pointed canine teeth, which they use as weapons in their quarrels. Darwin reasoned that our ancestors, once they could wield sticks and stones in their hands, had less need of such teeth, and that natural selection allowed them to shrink. In this way a change in behaviour could bring about a change in the body.",
-      "A common misunderstanding, which Darwin tried to correct, is that humans are supposed to be descended from the apes and monkeys we see in zoos. His claim was different, namely that we and the living apes are cousins, descended from a shared ancestor that was neither human nor modern ape. That ancestor lived long ago, and its closest relatives among living animals are, in his view, the Old World monkeys and apes.",
-      "Following the family tree back through unimaginable ages, Darwin reached a group of simple creatures that lived in the sea long before there were any land animals with backbones. He suggested that they resembled the larvae of sea squirts, small swimmers with a stiff rod along the back, which later growth turns into a plain, anchored adult. It was a humbling thought for a Victorian gentleman, and a remote one, yet he did not shrink from following the evidence where it led.",
-      "Darwin concluded that all human beings belong to a single species, and he noted that the groups of people differ far less than their fixed lines on a map might suggest. As proof of how blurred the lines were, he pointed out that experts who tried to count the human races had arrived at any number from two to sixty-three. The groups shade into one another so gradually, he said, that no clear division can honestly be drawn.",
-      "Darwin detested slavery and wrote with real warmth about the kindness and courage of people from every part of the world. At the same time, he shared the assumptions of his age, and in this book he sometimes spoke of some peoples as higher and others as lower, a view that later science has completely rejected. A careful reader today must honour what was generous in him and set aside what was mistaken.",
-      "The second half of the book turns to a different question, which Darwin called sexual selection, a struggle not for survival but for success in winning a mate. An animal may be strong, healthy and long-lived and yet leave no young, while a showier rival that dies sooner may leave many. This competition for mates, he believed, explained a great many features of animals that natural selection alone could not account for.",
-      "Sexual selection, as Darwin described it, works in two main ways, and he spent many chapters showing how each of them operates. In the first, the males battle with each other for the females, and the strongest or best armed wins; in the second, the females choose among the males, and those that charm them most are favoured. Both kinds of contest, he argued, repeated over thousands of generations, could slowly change the whole appearance of a species.",
-      "In a great many species, the males carry weapons that the females lack, including the antlers of the stag, the tusks of certain animals and the sharp spurs of the farmyard cock. Darwin reasoned that such weapons grew larger over many generations because the best armed males won the most contests and fathered the most young. The weapon and the habit of fighting, he thought, developed side by side, each strengthening the success of the other.",
-      "Among the insects, Darwin found a rich field of evidence, from beetles with fighting horns to the grasshoppers and crickets that sing. The male cricket makes his music by scraping a rough part of one wing against the edge of the other, and the song, he concluded, calls the silent females to him. Few sounds in the countryside on a summer night have so clear a purpose.",
-      "Many butterflies and moths wear wings of dazzling colour, and Darwin noted that in numerous species the males are the more brilliant of the pair. The pale green light of the firefly, he thought, serves a similar purpose, guiding the sexes toward one another across the summer darkness. In each case a signal that attracts a mate is passed down because it brings success.",
-      "Moving down the animal kingdom, Darwin showed that the males of many fish glow with brighter colours in the breeding season, that frogs and toads call loudly to attract their mates, and that certain lizards carry crests and throat pouches. All this, he said, belonged to one pattern, in which the contest for mates shaped the appearance and voice of one sex. The more cases he piled up, the harder the pattern became to dismiss as an accident, and the stronger his case grew.",
-      "Birds occupy more pages of the second part than any other group, for in them the effects of sexual selection are plainest to see. The male songbird sings above all in the breeding season, with a vigour that it seldom shows at other times, and Darwin was convinced that the females are charmed by the finest voices. A beautiful song, then, is partly a form of courtship, and its sweetness may be the result of many centuries of female choice.",
-      "The peacock's magnificent tail is a heavy burden, which slows its owner and makes it easier for a hunting animal to catch, and at first sight it seems to defy natural selection. Darwin's answer was that the males with the grandest trains are chosen by the peahens, so that the gain in mating outweighs the cost in danger. The most spectacular feature of the bird is therefore the product of the female's preference.",
-      "Darwin was especially delighted by the long wing feathers of the male Argus pheasant, which carry rows of spots shaded so delicately that each looks like a ball lying in a socket. The gradual shading from dark to light, he argued, could scarcely have been perfected without the repeated choice of females with an eye for such beauty. He admitted that the idea strained belief, and yet no better explanation offered itself.",
-      "The bowerbirds of Australia raise small arbours of woven twigs, which they decorate with shells, bright feathers and anything colourful they can find, and then perform before them to win a mate. Because the structure is no nest and serves only for courtship, Darwin saw in it strong evidence that birds possess a genuine taste for the beautiful. It is hard to watch such a performance and deny that taste plays some part.",
-      "Certain birds, such as the black grouse and the ruff, gather on the same ground each spring, where the males strut, dance and posture before an audience of females. Darwin saw in these assemblies a vivid competition in which beauty, strength and style are all tested together. The females, he believed, watch closely from the edge of the stage and in the end make their choice, which decides whose style will survive.",
-      "Darwin took care to show that the rule works in reverse where the roles are reversed, as in the phalaropes and a few other birds in which the female is larger and more brightly coloured than the male. There the male sits upon the eggs and the female competes for his attention, and it is the female who bears the ornaments. The exception, Darwin argued, confirms the principle that the sex which competes for mates is the one that becomes the more showy.",
-      "Among mammals the effects of sexual selection are less striking, yet Darwin noted that the males often bear manes, beards, horns and other ornaments that the females lack. The face of the male mandrill, brilliant with blue and scarlet, seemed to him an extreme case of a feature that had been strengthened by the attention of females. Even the lion's thick mane, which may serve as protection and display together, shows how one feature can have several uses at once.",
-      "Turning to our own species, Darwin asked why human beings have lost almost all the hair that covers the bodies of the apes. His own suggestion was that early people had preferred hairless partners, so that sexual selection gradually removed the fur. Modern scientists remain divided about the cause, and many now favour explanations that have to do with heat and keeping cool.",
-      "To show how widely human taste varies, Darwin gathered accounts of the ornaments, hairstyles and body decorations favoured by peoples in every continent. No single standard of beauty rules the world, he saw, and what is admired in one place is often thought ugly in another. He guessed that over a very long time such preferences might have left their mark on the appearance of whole peoples.",
-      "Darwin also argued that men had developed mental powers greater than those of women, and that sexual selection was the reason. What he failed to consider was that the women of his own century were shut out from universities, professions and public life, so that the evidence he relied on was distorted. Several women of his day, and many scientists since, have shown clearly that this part of his reasoning does not hold.",
-      "In his closing chapter, Darwin drew the threads of the argument together, reminding the reader that humans resemble other mammals in structure, in development before birth and in the useless remnants that we carry. Each of these facts would be a puzzle if human beings were made separately, but all of them are natural if we share a family tree with other creatures. He concluded that the human body still bears the stamp of its humble beginnings.",
-      "Many readers were horrified at the thought of an ape-like ancestry, and Darwin met their disgust with some bold words. He wrote that he would as soon be descended from the heroic little monkey that faced a dreaded enemy to save its keeper as from a cruel and ignorant person who delighted in torturing others. Honour, in his view, did not depend on the shape of the family tree, but on the way a creature behaved toward its fellows.",
-      "Darwin closed with a note of hope, saying that humankind might feel some pride at having risen to the top of the living world, and that this might give us hope for a still higher future. He was honest, too, about the limits of his knowledge, for fossils were few and the details of our descent remained to be filled in. The book, he knew, was a beginning and not an end, and it left plenty of work for those who would come after him.",
-      "In the century and a half since Darwin wrote, scientists have dug up fossils of many early human relatives, most of them in Africa, and have read the DNA of humans, chimpanzees and other apes. The evidence shows that humans and chimpanzees share a common ancestor that lived several million years ago, just as Darwin proposed, although many of his particular guesses have been corrected. The Descent of Man remains a landmark, important both for the argument it made and for the honest way it made it."
-    ]
+  {
+   "n": 2,
+   "scene": "Darwin looks at old notebooks stacked beside a window overlooking his garden",
+   "summary": "Darwin explains why he waited, and why he is ready to write now."
+  },
+  {
+   "n": 3,
+   "scene": "A human arm, a dog's leg, a seal's flipper and a bat's wing",
+   "summary": "Darwin shows that the bones of a human arm match those of many other mammals."
+  },
+  {
+   "n": 4,
+   "scene": "Two monkeys on a rock holding their heads, with empty beer bottles beside them",
+   "summary": "Humans and other mammals share organs and illnesses, and Darwin retells a story of monkeys that drank too much beer."
+  },
+  {
+   "n": 5,
+   "scene": "A tiny unborn baby beside the unborn young of a dog and a bird",
+   "summary": "Darwin notes that the earliest stages of a human embryo look almost the same as those of other animals."
+  },
+  {
+   "n": 6,
+   "scene": "The human spine ends in a short tail bone, with ear muscles marked",
+   "summary": "Darwin lists leftover body parts, such as the tail bone, that no longer seem useful."
+  },
+  {
+   "n": 7,
+   "scene": "A close view of a human ear with a small point on its rim",
+   "summary": "Darwin notices a small point on some ears that matches the pointed ear of other animals."
+  },
+  {
+   "n": 8,
+   "scene": "A human arm with an extra muscle marked in red beside an ape's arm",
+   "summary": "Darwin notes that people are sometimes born with muscles that normally belong to other animals."
+  },
+  {
+   "n": 9,
+   "scene": "A crowd of different people in a market, no two alike",
+   "summary": "Darwin explains that people vary from one to another, as every animal species does."
+  },
+  {
+   "n": 10,
+   "scene": "A hungry family stands before a nearly empty field and a small basket",
+   "summary": "Darwin says humans, like other animals, tend to have more children than food can support."
+  },
+  {
+   "n": 11,
+   "scene": "A chimpanzee and a gorilla sit among green trees in Africa",
+   "summary": "Darwin points to Africa as the likely early home of our ancestors, because our nearest relatives live there."
+  },
+  {
+   "n": 12,
+   "scene": "A dog and a child looking at each other across a garden gate",
+   "summary": "Darwin argues that human minds differ from animal minds in degree and not in kind."
+  },
+  {
+   "n": 13,
+   "scene": "A sleeping dog twitching its paws on a rug in front of a fire",
+   "summary": "Darwin observes that dogs seem to dream."
+  },
+  {
+   "n": 14,
+   "scene": "A monkey holds a stone above a hard nut on a flat rock",
+   "summary": "Darwin cites reports of monkeys and apes using stones and sticks as tools."
+  },
+  {
+   "n": 15,
+   "scene": "A dog with raised ears barking at a gate while a girl listens",
+   "summary": "Darwin notes that animals use different cries and that dogs have learned several kinds of bark."
+  },
+  {
+   "n": 16,
+   "scene": "Early humans round a fire, one copying a bird call while others gesture",
+   "summary": "Darwin guesses that language began from copied sounds, cries and gestures, perhaps with song."
+  },
+  {
+   "n": 17,
+   "scene": "Two family trees drawn side by side, one of languages and one of species",
+   "summary": "Darwin compares languages with living species, both changing slowly as they descend."
+  },
+  {
+   "n": 18,
+   "scene": "A small dog growls at a parasol moving on a lawn",
+   "summary": "Darwin tells of a dog that barked at a moving parasol and suggests how belief in unseen powers could arise."
+  },
+  {
+   "n": 19,
+   "scene": "A baboon mother and her young sit close together while others groom them",
+   "summary": "Darwin says the moral sense grows from social instincts, the feelings that bind families and groups."
+  },
+  {
+   "n": 20,
+   "scene": "An old blind pelican fed by two other pelicans beside a salt lake",
+   "summary": "Darwin repeats a story of a blind pelican fed by its companions."
+  },
+  {
+   "n": 21,
+   "scene": "A man sits alone at night with a troubled face, looking back",
+   "summary": "Darwin explains conscience as a feeling that comes from memory when we ignore a social instinct."
+  },
+  {
+   "n": 22,
+   "scene": "Two tribes face each other across a river, one working together and one arguing",
+   "summary": "Darwin suggests that tribes with brave, loyal and helpful members would win over other tribes."
+  },
+  {
+   "n": 23,
+   "scene": "Circles growing wider on the ground, from a family to the whole world",
+   "summary": "Darwin writes that sympathy widens, from the family to the tribe, the nation, all humanity and even animals."
+  },
+  {
+   "n": 24,
+   "scene": "A nurse helps a sick man in a bed in a plain ward",
+   "summary": "Darwin says we must go on caring for the weak and sick, even if it seems to stop natural selection."
+  },
+  {
+   "n": 25,
+   "scene": "Early humans walk upright across grassland, carrying stones in their free hands",
+   "summary": "Darwin argues that walking upright freed the hands for tools."
+  },
+  {
+   "n": 26,
+   "scene": "Two apes with large pointed teeth beside a human skull with small teeth",
+   "summary": "Darwin explains that humans have small canine teeth because hands and tools replaced teeth as weapons."
+  },
+  {
+   "n": 27,
+   "scene": "A family tree with a human on one branch and an ape on another",
+   "summary": "Darwin makes clear that humans did not come from any ape or monkey alive today."
+  },
+  {
+   "n": 28,
+   "scene": "Tiny tadpole-like sea creatures with stiff rods along their backs swim in blue water",
+   "summary": "Darwin guesses that our earliest backboned ancestors were small sea animals like the young of sea squirts."
+  },
+  {
+   "n": 29,
+   "scene": "A world map with arrows joining groups of people, drawn in a Victorian style",
+   "summary": "Darwin argues that all humans belong to one species and that experts could not agree how many races there are."
+  },
+  {
+   "n": 30,
+   "scene": "Darwin reads a letter at his desk beneath a small sign reading freedom",
+   "summary": "Darwin hated slavery, but he repeated some mistaken beliefs of his time about peoples and women."
+  },
+  {
+   "n": 31,
+   "scene": "An open book showing a bird, a beetle and a fish",
+   "summary": "The second part of the book turns to sexual selection and how it differs from natural selection."
+  },
+  {
+   "n": 32,
+   "scene": "Two stags lock antlers while a doe watches from the trees",
+   "summary": "Darwin describes two kinds of sexual selection: males fighting and females choosing."
+  },
+  {
+   "n": 33,
+   "scene": "A male stag with large antlers and a cockerel with long spurs",
+   "summary": "Darwin explains that males often have weapons the females lack, such as antlers and spurs."
+  },
+  {
+   "n": 34,
+   "scene": "A male cricket on a leaf with raised wings, a female cricket coming near",
+   "summary": "Darwin shows that male crickets sing by rubbing their wings to call the females."
+  },
+  {
+   "n": 35,
+   "scene": "A glowing firefly and a bright blue butterfly on a branch at dusk",
+   "summary": "Darwin describes bright butterflies and glowing fireflies, which use colour and light to attract mates."
+  },
+  {
+   "n": 36,
+   "scene": "A red-bellied male fish guards a nest while a male frog calls",
+   "summary": "Darwin notes that male fish take bright colours and male frogs call loudly in the breeding season."
+  },
+  {
+   "n": 37,
+   "scene": "A small bird sings on a branch at sunrise, while a female listens nearby",
+   "summary": "Darwin says male songbirds sing in spring to win a mate, and females may prefer the best singers."
+  },
+  {
+   "n": 38,
+   "scene": "A peacock spreads its enormous tail before a watching peahen on a lawn",
+   "summary": "Darwin argues that the peacock's showy tail spread because peahens prefer the finest display."
+  },
+  {
+   "n": 39,
+   "scene": "A long wing feather with round spots shaded like balls in sockets",
+   "summary": "Darwin admires the shaded spots on the wing feathers of the Argus pheasant."
+  },
+  {
+   "n": 40,
+   "scene": "A male bowerbird arranges blue feathers and shells around a small stick shelter",
+   "summary": "Darwin describes bowerbirds that build and decorate shelters to win a mate."
+  },
+  {
+   "n": 41,
+   "scene": "Male grouse strut and dance on a hill while the females watch",
+   "summary": "Darwin describes groups of male birds, such as grouse and ruffs, that gather each spring to display."
+  },
+  {
+   "n": 42,
+   "scene": "A bold-coloured female bird sits on eggs while a duller male stands guard",
+   "summary": "Darwin notes birds, such as phalaropes, in which females are brighter and the male cares for the eggs."
+  },
+  {
+   "n": 43,
+   "scene": "A male lion with a thick mane and a mandrill with a bright face",
+   "summary": "Darwin notes that male mammals often have manes, beards or bright skin that females lack."
+  },
+  {
+   "n": 44,
+   "scene": "A smooth human arm beside a hairy ape's arm",
+   "summary": "Darwin wonders why humans have lost most body hair and offers a guess that scientists still debate."
+  },
+  {
+   "n": 45,
+   "scene": "People from several parts of the world in different clothes and hairstyles",
+   "summary": "Darwin gathers examples to show that ideas of beauty are very different in different places."
+  },
+  {
+   "n": 46,
+   "scene": "Darwin writes at his desk with a pile of books and a lamp",
+   "summary": "Darwin writes about differences between men and women in ways that reflect the mistaken beliefs of his time."
+  },
+  {
+   "n": 47,
+   "scene": "A skeleton of a human beside an ape skeleton with a lamp between them",
+   "summary": "Darwin sums up the evidence that humans share a body, a development and useless leftover parts with other animals."
+  },
+  {
+   "n": 48,
+   "scene": "A small monkey stands bravely in front of its keeper",
+   "summary": "Darwin says he would rather descend from a brave monkey that saved a friend than from cruel people."
+  },
+  {
+   "n": 49,
+   "scene": "A figure stands on a hilltop at dawn holding an open book",
+   "summary": "Darwin says people may be proud to have risen so far and may hope for a higher future, but he admits much is still unknown."
+  },
+  {
+   "n": 50,
+   "scene": "A scientist holds an early human skull beside a screen showing DNA",
+   "summary": "Later fossils and DNA support Darwin's main idea that humans share ancestors with apes, while correcting many details."
   }
+ ],
+ "levels": {
+  "A1A2": [
+   "In 1871, Charles Darwin wrote a book about where humans come from.",
+   "Darwin had waited a long time before he wrote about people.",
+   "Your arm has the same kind of bones as a bat's wing.",
+   "Monkeys and people can catch many of the same illnesses.",
+   "Before birth, a human baby looks very like other animals' babies.",
+   "Humans have a tiny tail bone, but we have no tail.",
+   "Some people have a tiny point on the edge of the ear.",
+   "Some people are born with muscles that other animals usually have.",
+   "No two people are exactly alike, just like animals.",
+   "Like other animals, people have more children than the land can feed.",
+   "Our closest animal relatives live in Africa, so humans may have begun there.",
+   "Animals feel happy, afraid and curious, just as people do.",
+   "A sleeping dog can dream; it moves its legs and makes sounds.",
+   "Some monkeys use stones to break hard nuts.",
+   "Dogs bark in different ways to say different things.",
+   "Darwin thought early people copied animal sounds and later made words.",
+   "Languages change over time, just as living things do.",
+   "A dog barked at an umbrella that moved in the wind.",
+   "Many animals live in groups and help each other.",
+   "Pelicans fed a blind pelican that could not catch fish.",
+   "Later, we feel bad if we did not help someone.",
+   "A group that helps its members is stronger than one that does not.",
+   "Over time, people have learned to care about strangers and animals too.",
+   "Darwin said we must always help people who are weak or sick.",
+   "Walking on two legs left our hands free to carry and make things.",
+   "Our ancestors needed big teeth less once hands could hold tools.",
+   "Humans did not come from any monkey alive today.",
+   "Very long ago, our ancestors lived in the sea.",
+   "All people in the world belong to one single species.",
+   "Darwin hated slavery, but some of his ideas were wrong.",
+   "In the second part, Darwin wrote about how animals find mates.",
+   "Males may fight each other, or females may pick a male.",
+   "Male deer grow big horns and fight each other.",
+   "Male crickets sing by rubbing their wings together.",
+   "Fireflies glow in the dark, and this helps them find each other.",
+   "In spring, male frogs call loudly to bring the females.",
+   "In spring, male birds sing to win a mate.",
+   "A peacock shows its huge tail to a peahen.",
+   "The Argus pheasant has wing feathers covered in round spots like balls.",
+   "Bowerbirds build little houses of sticks and decorate them with shells.",
+   "Some birds dance in groups, and the females watch them.",
+   "In a few birds, the females are brighter than the males.",
+   "The male lion has a mane, and the female has none.",
+   "Darwin wondered why humans lost most of their body hair.",
+   "What looks nice in one place may look bad in another.",
+   "Darwin made a mistake when he wrote about men and women.",
+   "Darwin said that all the clues pointed to the same answer.",
+   "Darwin said he would be proud of a brave monkey ancestor.",
+   "Darwin said that people should be proud of how far they have come.",
+   "Today, fossils and DNA support Darwin's main idea about people."
+  ],
+  "B1B2": [
+   "Twelve years after his famous book on the origin of species, Charles Darwin published The Descent of Man. It asked a question that many people feared: do humans have a natural history, just like every other living thing?",
+   "In his earlier book he had only said that light would be thrown on the origin of man. Now, with more evidence and many scientists on his side, he felt ready to say more.",
+   "Darwin begins his proof with the body, and he asks readers to compare it with the bodies of other animals. A human arm, a dog's leg, a seal's flipper and a bat's wing are all built from the same bones, arranged in the same way.",
+   "Darwin points out that people and other mammals share the same organs, nerves and blood, and even many of the same illnesses. He also repeats a traveller's story of monkeys that drank too much beer and then refused to touch it again.",
+   "Darwin says that in its earliest stage an unborn human is almost impossible to tell apart from the young of other backboned animals. Only later do the features that make it human begin to appear.",
+   "Darwin lists parts of the body that seem to be left over from our ancestors, such as the tail bone and ear muscles. Useless parts, he argues, are hard to explain unless they were once useful to earlier animals.",
+   "Darwin noticed a small point on the folded rim of some human ears. It matches the pointed tip found on the ears of many monkeys, and he took it as another trace of our past.",
+   "Darwin also noted that people are sometimes born with muscles that normally belong to other mammals. He argued that such surprises are easy to understand if our bodies still carry a hidden memory of our ancestors.",
+   "Darwin notes that people differ from each other in body and mind, just as the members of any animal species do. Such small differences, passed on from parents to children, are the raw material on which selection can work.",
+   "Darwin wrote that, like every other animal, humans tend to multiply faster than their food supply grows. In the past this meant hunger, disease and a hard struggle to survive, which helped some people more than others.",
+   "Darwin pointed out that gorillas and chimpanzees live in Africa, and that they are our nearest living relatives. He therefore thought that early humans probably lived there too, although almost no fossils of early humans had been found in his day.",
+   "Darwin argued that the mind of a human differs from the mind of an animal in degree and not in kind. Many animals show fear, curiosity, memory and a kind of simple reasoning, and he thought these were the roots of our own powers.",
+   "Darwin noticed that dogs, cats and horses seem to dream, because they twitch and whimper in their sleep. He took such signs as a hint that animals have an inner life of memory and imagination that is not so different from ours.",
+   "Darwin gathered reports of monkeys and apes using stones to crack nuts and sticks to lift things. He saw such acts as a sign that the first step toward human tools was not a huge leap.",
+   "Darwin did not deny that human speech is special. But animals also use cries to share fear, anger and joy, and a dog has learned several kinds of bark.",
+   "He guessed that language began when early humans copied natural sounds and animal cries, and added gestures. He also suspected that singing came before speech, but he admitted that nobody could be sure.",
+   "Darwin saw a likeness between languages and living species. Both are passed down with slow changes, both form families, and both carry useless leftovers, such as the silent letters in some English words.",
+   "Darwin told a story about a dog that growled at a parasol moving in the wind with no one near it. He suggested that such feelings might be the root of the human habit of imagining unseen powers, though he treated the subject with care.",
+   "Darwin said that the moral sense grows from the social instincts, which are the feelings that bind parents, children and friends. Animals that live in groups also show sympathy, and some will defend or help another member of their group.",
+   "Darwin repeats a traveller's story of a blind pelican that was found fat and healthy, apparently fed by its companions. Such acts of care, he suggested, are the kind of behaviour from which human kindness could grow.",
+   "Darwin explained conscience as a feeling that comes from memory. When a strong urge such as hunger or fear makes us ignore a social instinct, we look back later and feel regret.",
+   "Darwin thought that early tribes whose members were brave, loyal and ready to help each other would win over tribes that were not. In this way, he suggested, the moral qualities could spread through a whole people over many generations.",
+   "As societies grew larger, Darwin wrote, sympathy spread from the family to the tribe, then to the nation, and finally to all human beings. He added that it could even reach animals, and he counted this among the highest achievements of morality.",
+   "Darwin knew that hospitals and care for the weak keep alive many people who would once have died. He was clear, however, that we should never stop helping them, because doing so would damage the best part of human nature.",
+   "Darwin argued that our ancestors began to walk upright, and that this left their hands free to use stones, sticks and later tools. Over many generations, he suggested, skilful hands and a growing brain helped each other to improve.",
+   "Male apes have large pointed teeth that they use to fight. Darwin thought our ancestors lost such teeth because stones and sticks served them better, so smaller teeth were no disadvantage.",
+   "Darwin was careful to say that humans did not descend from any ape or monkey alive today. Instead, he said, we and the apes share an ancient ancestor from which both lines slowly grew apart.",
+   "Going back much further, Darwin guessed that our earliest backboned ancestors were small sea animals. He compared them with the young of sea squirts, which have a stiff rod along the back and swim like tiny tadpoles.",
+   "Darwin wrote that the differences between human groups are small compared with all that people share. Scientists who tried to count the human races had reached anything from two to sixty-three, which showed how blurred the lines are.",
+   "Darwin hated slavery and said so strongly, and he stressed how alike all peoples are in mind and feeling. However, he also repeated some beliefs of his time about higher and lower peoples that science has since shown to be wrong.",
+   "The second part of the book is about sexual selection, which Darwin said works differently from natural selection. It does not decide who lives longest but who leaves the most young, because some animals win mates more easily than others.",
+   "Darwin described two ways in which sexual selection works. In one, males fight each other for the chance to mate; in the other, females choose the males they like best.",
+   "Many male animals carry weapons that females lack, such as the antlers of stags and the spurs of cockerels. Darwin argued that these grew bigger over time because the males with the best weapons won more fights and left more young.",
+   "Darwin explored insects and found that males often carry horns or sing. A male cricket scrapes one wing against the other to make a song, and he believed that the females are drawn toward the sound.",
+   "Butterflies and moths often have bright colours, and the males are often brighter than the females. Darwin also thought that the glow of fireflies helps the sexes to find each other in the dark.",
+   "In the breeding season many male fish become brightly coloured, and some male frogs call very loudly. Darwin collected such cases to show that the same force was at work among fishes, frogs and reptiles.",
+   "Birds receive most space in Darwin's second part, because they show sexual selection so clearly. Male songbirds sing mostly in the breeding season, and he believed that females are drawn to the best singers.",
+   "The peacock's great fan of feathers makes it slower and easier for a hunter to see. Darwin argued that such a tail could still spread, because peahens prefer the males with the finest display.",
+   "Darwin was amazed by the wing feathers of the male Argus pheasant, whose spots look like balls lying in sockets. He found it hard to explain such delicate shading without the taste of females to guide it.",
+   "Male bowerbirds build small shelters of sticks and decorate them with shells, feathers and bright objects. Darwin saw this as a sign that birds may have a real sense of beauty, since the bower is built only to charm a mate.",
+   "Male black grouse and ruffs gather in one place each spring, where they strut, dance and fight while the females watch. Darwin concluded that such shows are a kind of contest for the females' attention.",
+   "Darwin also found birds, such as phalaropes, where the female is brighter and the male cares for the eggs. This showed that bright colours belong to whichever sex competes for mates.",
+   "Among mammals, Darwin noted that the male often has a mane, a beard or bright skin that the female lacks. The strange colours on the face of a male mandrill, he thought, are another case of a feature that helped males to win mates.",
+   "Darwin asked why humans have so little body hair compared with the apes. He guessed that choices in picking mates played a part, but scientists today still argue about the true answer and offer other explanations.",
+   "Darwin collected many accounts of how different peoples decorate their bodies and what they find beautiful. He used them to show that tastes are not the same everywhere, and he believed that such tastes might slowly shape a people over time.",
+   "Darwin claimed that men had become more able than women in some ways. He overlooked the fact that women of his time were denied schooling, so we now see his claim as a mistake of his age.",
+   "Near the end of the book, Darwin gathered all his evidence together in one place. Humans are built and grow like other mammals, and they carry useless parts that only make sense as leftovers.",
+   "Some readers were shocked at the idea of having ape-like ancestors. Darwin replied that he would rather descend from a brave little monkey that saved its keeper than from a cruel person.",
+   "Darwin wrote that humans may feel some pride at having risen so far, and may hope for an even better future. He also admitted plainly that much remained uncertain and that his book was only a beginning.",
+   "Since 1871, many fossils of early humans have been found in Africa, and DNA shows that humans and chimpanzees share a recent ancestor. The details differ from what Darwin wrote, but his central idea has stood the test of time."
+  ],
+  "C1C2": [
+   "In 1871, twelve years after On the Origin of Species had shaken the scientific world, Charles Darwin published a second great book, The Descent of Man. Its subject was the one he had so far avoided, namely whether human beings, like every other creature, had arisen from earlier forms of life. It is a long work in two parts, the first about our ancestry and the second about the strange force he called sexual selection.",
+   "In the earlier Origin, Darwin had allowed himself only a single cautious sentence, promising that light would one day be thrown on the origin of man and his history. He knew that the subject was explosive, and he had gathered notes on it for years while saying nothing in public. By 1871, however, other naturalists had begun to reach the same conclusions, and he judged that it was time to set out his own evidence in full.",
+   "Darwin opens his evidence with the body itself, inviting the reader to compare the human frame with those of other mammals. The arm of a man, the foreleg of a horse, the flipper of a seal and the wing of a bat are all built upon the same plan of bones. Such a likeness, he argued, makes perfect sense if these animals share a distant common ancestor, but it looks like a strange coincidence if each was made separately.",
+   "Beyond the bones, Darwin observed, humans and other mammals share their muscles, nerves, blood vessels and even many of their illnesses, and the same medicines act upon them in much the same way. He passes on a traveller's amusing report of monkeys that were tempted with beer, suffered for it the next morning, and would not take another drop. To him such small signs of kinship added up to a weight of evidence.",
+   "Darwin drew attention to a remarkable fact from the study of the embryo: in its earliest weeks, an unborn human can hardly be told from the embryos of a dog, a bird or a fish. The differences appear only as development goes on, as though each animal began from the same simple pattern and then wandered along its own path. For Darwin this was exactly what we should expect if all these creatures share a common ancestry.",
+   "Darwin collected what he called rudimentary organs, small and apparently useless parts of the body such as the tail bone and the muscles that still twitch the ears of a few people. A designer building each species from scratch would have had no reason to include them, he said. They are the faded remains of structures that were once of real use to our distant ancestors.",
+   "Darwin took a special interest in a tiny point that appears on the folded rim of some human ears, a feature now often called Darwin's point. He compared it with the pointed ear of apes and monkeys, and suggested that it was the surviving trace of a tip that once served our ancestors. The detail is small, but it shows how patiently he followed even the humblest clue.",
+   "Another strange clue was reversion, the occasional return of a feature that belongs to an earlier stage of the family tree. Darwin pointed out that some people are born with muscles that are normal in apes and other mammals but missing in most humans. He reasoned that the body still carries a faint inheritance from distant ancestors, which now and then rises to the surface.",
+   "Like every other species, Darwin observed, human beings vary: no two faces, bodies or characters are exactly alike. These small differences are often inherited by children from their parents, and they supply the raw material on which natural selection can go to work. Without such variation, he insisted, no kind of evolution could take place at all.",
+   "Like every other animal, Darwin wrote, human beings tend to increase in number faster than their supply of food. In the past this pressure showed itself in famine, disease and a hard struggle for survival, and it fell more heavily on some people than on others. Such a struggle, he argued, gives natural selection its opportunity, because those who are slightly better fitted are more likely to survive and leave children.",
+   "Because the gorilla and the chimpanzee, our closest living relatives, are found in Africa, Darwin judged it somewhat more probable that our early ancestors lived on that continent than anywhere else. He admitted that this was a guess, for in 1871 the fossil record of early humans was almost empty. Later discoveries would give his suggestion far more support than he could have hoped for.",
+   "In his chapters on the mind, Darwin maintained that the gulf between human beings and the higher animals, though wide, is a difference of degree and not of kind. Animals feel pleasure and pain, fear and courage, curiosity and affection, and many of them clearly remember, pay attention and reason in simple ways. These faculties, he said, are the same in nature as ours, only far less developed.",
+   "Darwin observed that dogs, and probably many other animals, dream, for they twitch their legs, whimper softly and sometimes growl in their sleep. A creature that dreams must have a store of memory and some power of imagination, he reasoned, since the scenes in a dream are made from earlier experience. It was a quiet and domestic piece of evidence, but he thought it said something important about the animal mind.",
+   "Darwin collected reports from travellers and keepers that monkeys and apes sometimes use stones to crack nuts and sticks as levers or clubs. Whether or not each story was perfectly accurate, he considered them evidence that the habit of using tools was no sudden gift to humankind. A mind that can take up a stone for a purpose has already made the first move along the road to the workshop.",
+   "Darwin did not deny that articulate speech is the most striking of human powers, but he insisted that it was not wholly unprepared by nature. Animals use cries and calls to warn of danger and to share anger, pleasure and fear, and the dog, in living with us, has learned to bark in several distinct tones. The beginnings of language, he suggested, lie in just such simple signals, which grew richer as the brains of our ancestors grew larger.",
+   "Darwin's own guess was that language grew out of the imitation of natural sounds and animal cries, helped along by gestures and by the instinctive cries of strong feeling. He also wondered whether our remote ancestors sang before they talked, using the voice in a musical way, much as some gibbons do today. He was careful to call all this speculation, for no record of the first words could possibly survive.",
+   "Darwin found a striking parallel in the history of languages, which, like species, are handed down with slow and unplanned changes, split into daughter forms and sometimes die out. Both also keep useless leftovers, for the silent letters in English spelling are as pointless as a rudimentary organ and as revealing about the past. A person who understood how languages developed, he thought, would find the idea of evolution less strange.",
+   "Darwin described a dog that growled and barked at a parasol lying open on a lawn when a light breeze set it moving, as though it supposed that some living thing was at work. He used the story to suggest how the human habit of imagining unseen agents might first have arisen. He handled the subject of religion with respect, and he was careful to say that this was only one possible explanation.",
+   "To explain how humans came to have a sense of right and wrong, Darwin looked first to the social instincts, the affection of parents for children and the pleasure that group animals take in each other's company. Creatures that live together warn one another of danger, defend one another and share a feeling of sympathy. This, he proposed, was the soil in which the moral sense could take root.",
+   "Darwin includes a traveller's tale of a completely blind pelican that was discovered in good condition on the shore of a salt lake, plainly fed for a long time by its fellow birds. Stories of this kind were hard to check, but he thought they pointed toward a real principle. Kindness toward the helpless, he argued, is no human invention, and its early forms can be found in animals.",
+   "Conscience, in Darwin's account, depends on memory and on the habit of looking back over our own conduct. When a passing impulse such as fear or hunger overpowers a lasting social instinct, such as the wish to help a friend, we recall what we did and feel regret, because the weaker feeling returns and cannot be quieted. In animals the same conflict may occur, but they lack the powers of thought needed to reflect on it.",
+   "Darwin proposed that a tribe whose members were always ready to help one another, and to sacrifice themselves for the common good, would defeat tribes lacking those qualities. In the long run, he said, such a tribe would spread, and the habits of loyalty, courage and sympathy would become more common through the generations. Individuals may rarely gain by being generous, he admitted, but a group made up of generous people has a clear advantage over its rivals.",
+   "As civilisation advanced and small tribes were united into larger communities, Darwin observed, the circle of human sympathy widened, until it reached the people of all nations and races. Once that had happened, he thought, only an artificial barrier prevented it from extending to the animals as well. He counted this expanding kindness among the noblest moral achievements of our species, and he hoped that it would continue to grow.",
+   "Darwin recognised that civilised societies build hospitals and care for the sick, and that this saves many lives that natural selection might otherwise have ended. Nevertheless, he declared that we cannot and must not hold back our sympathy, even if reason urged us to, without a decline in the noblest part of our nature. Compassion, for him, was a gain of civilisation and not a flaw in it, however much it might interfere with the old law of survival.",
+   "Darwin argued that the early ancestors of humankind came to stand and walk upright, an advantage that left the hands free to hold stones, throw spears and eventually shape tools. The better the hand became at this work, the more the brain was challenged and rewarded, and so each improved the other. He saw in this long partnership of hand and brain one of the great engines of human progress, and a key to our later success.",
+   "The males of many apes carry large, pointed canine teeth, which they use as weapons in their quarrels. Darwin reasoned that our ancestors, once they could wield sticks and stones in their hands, had less need of such teeth, and that natural selection allowed them to shrink. In this way a change in behaviour could bring about a change in the body.",
+   "A common misunderstanding, which Darwin tried to correct, is that humans are supposed to be descended from the apes and monkeys we see in zoos. His claim was different, namely that we and the living apes are cousins, descended from a shared ancestor that was neither human nor modern ape. That ancestor lived long ago, and its closest relatives among living animals are, in his view, the Old World monkeys and apes.",
+   "Following the family tree back through unimaginable ages, Darwin reached a group of simple creatures that lived in the sea long before there were any land animals with backbones. He suggested that they resembled the larvae of sea squirts, small swimmers with a stiff rod along the back, which later growth turns into a plain, anchored adult. It was a humbling thought for a Victorian gentleman, and a remote one, yet he did not shrink from following the evidence where it led.",
+   "Darwin concluded that all human beings belong to a single species, and he noted that the groups of people differ far less than their fixed lines on a map might suggest. As proof of how blurred the lines were, he pointed out that experts who tried to count the human races had arrived at any number from two to sixty-three. The groups shade into one another so gradually, he said, that no clear division can honestly be drawn.",
+   "Darwin detested slavery and wrote with real warmth about the kindness and courage of people from every part of the world. At the same time, he shared the assumptions of his age, and in this book he sometimes spoke of some peoples as higher and others as lower, a view that later science has completely rejected. A careful reader today must honour what was generous in him and set aside what was mistaken.",
+   "The second half of the book turns to a different question, which Darwin called sexual selection, a struggle not for survival but for success in winning a mate. An animal may be strong, healthy and long-lived and yet leave no young, while a showier rival that dies sooner may leave many. This competition for mates, he believed, explained a great many features of animals that natural selection alone could not account for.",
+   "Sexual selection, as Darwin described it, works in two main ways, and he spent many chapters showing how each of them operates. In the first, the males battle with each other for the females, and the strongest or best armed wins; in the second, the females choose among the males, and those that charm them most are favoured. Both kinds of contest, he argued, repeated over thousands of generations, could slowly change the whole appearance of a species.",
+   "In a great many species, the males carry weapons that the females lack, including the antlers of the stag, the tusks of certain animals and the sharp spurs of the farmyard cock. Darwin reasoned that such weapons grew larger over many generations because the best armed males won the most contests and fathered the most young. The weapon and the habit of fighting, he thought, developed side by side, each strengthening the success of the other.",
+   "Among the insects, Darwin found a rich field of evidence, from beetles with fighting horns to the grasshoppers and crickets that sing. The male cricket makes his music by scraping a rough part of one wing against the edge of the other, and the song, he concluded, calls the silent females to him. Few sounds in the countryside on a summer night have so clear a purpose.",
+   "Many butterflies and moths wear wings of dazzling colour, and Darwin noted that in numerous species the males are the more brilliant of the pair. The pale green light of the firefly, he thought, serves a similar purpose, guiding the sexes toward one another across the summer darkness. In each case a signal that attracts a mate is passed down because it brings success.",
+   "Moving down the animal kingdom, Darwin showed that the males of many fish glow with brighter colours in the breeding season, that frogs and toads call loudly to attract their mates, and that certain lizards carry crests and throat pouches. All this, he said, belonged to one pattern, in which the contest for mates shaped the appearance and voice of one sex. The more cases he piled up, the harder the pattern became to dismiss as an accident, and the stronger his case grew.",
+   "Birds occupy more pages of the second part than any other group, for in them the effects of sexual selection are plainest to see. The male songbird sings above all in the breeding season, with a vigour that it seldom shows at other times, and Darwin was convinced that the females are charmed by the finest voices. A beautiful song, then, is partly a form of courtship, and its sweetness may be the result of many centuries of female choice.",
+   "The peacock's magnificent tail is a heavy burden, which slows its owner and makes it easier for a hunting animal to catch, and at first sight it seems to defy natural selection. Darwin's answer was that the males with the grandest trains are chosen by the peahens, so that the gain in mating outweighs the cost in danger. The most spectacular feature of the bird is therefore the product of the female's preference.",
+   "Darwin was especially delighted by the long wing feathers of the male Argus pheasant, which carry rows of spots shaded so delicately that each looks like a ball lying in a socket. The gradual shading from dark to light, he argued, could scarcely have been perfected without the repeated choice of females with an eye for such beauty. He admitted that the idea strained belief, and yet no better explanation offered itself.",
+   "The bowerbirds of Australia raise small arbours of woven twigs, which they decorate with shells, bright feathers and anything colourful they can find, and then perform before them to win a mate. Because the structure is no nest and serves only for courtship, Darwin saw in it strong evidence that birds possess a genuine taste for the beautiful. It is hard to watch such a performance and deny that taste plays some part.",
+   "Certain birds, such as the black grouse and the ruff, gather on the same ground each spring, where the males strut, dance and posture before an audience of females. Darwin saw in these assemblies a vivid competition in which beauty, strength and style are all tested together. The females, he believed, watch closely from the edge of the stage and in the end make their choice, which decides whose style will survive.",
+   "Darwin took care to show that the rule works in reverse where the roles are reversed, as in the phalaropes and a few other birds in which the female is larger and more brightly coloured than the male. There the male sits upon the eggs and the female competes for his attention, and it is the female who bears the ornaments. The exception, Darwin argued, confirms the principle that the sex which competes for mates is the one that becomes the more showy.",
+   "Among mammals the effects of sexual selection are less striking, yet Darwin noted that the males often bear manes, beards, horns and other ornaments that the females lack. The face of the male mandrill, brilliant with blue and scarlet, seemed to him an extreme case of a feature that had been strengthened by the attention of females. Even the lion's thick mane, which may serve as protection and display together, shows how one feature can have several uses at once.",
+   "Turning to our own species, Darwin asked why human beings have lost almost all the hair that covers the bodies of the apes. His own suggestion was that early people had preferred hairless partners, so that sexual selection gradually removed the fur. Modern scientists remain divided about the cause, and many now favour explanations that have to do with heat and keeping cool.",
+   "To show how widely human taste varies, Darwin gathered accounts of the ornaments, hairstyles and body decorations favoured by peoples in every continent. No single standard of beauty rules the world, he saw, and what is admired in one place is often thought ugly in another. He guessed that over a very long time such preferences might have left their mark on the appearance of whole peoples.",
+   "Darwin also argued that men had developed mental powers greater than those of women, and that sexual selection was the reason. What he failed to consider was that the women of his own century were shut out from universities, professions and public life, so that the evidence he relied on was distorted. Several women of his day, and many scientists since, have shown clearly that this part of his reasoning does not hold.",
+   "In his closing chapter, Darwin drew the threads of the argument together, reminding the reader that humans resemble other mammals in structure, in development before birth and in the useless remnants that we carry. Each of these facts would be a puzzle if human beings were made separately, but all of them are natural if we share a family tree with other creatures. He concluded that the human body still bears the stamp of its humble beginnings.",
+   "Many readers were horrified at the thought of an ape-like ancestry, and Darwin met their disgust with some bold words. He wrote that he would as soon be descended from the heroic little monkey that faced a dreaded enemy to save its keeper as from a cruel and ignorant person who delighted in torturing others. Honour, in his view, did not depend on the shape of the family tree, but on the way a creature behaved toward its fellows.",
+   "Darwin closed with a note of hope, saying that humankind might feel some pride at having risen to the top of the living world, and that this might give us hope for a still higher future. He was honest, too, about the limits of his knowledge, for fossils were few and the details of our descent remained to be filled in. The book, he knew, was a beginning and not an end, and it left plenty of work for those who would come after him.",
+   "In the century and a half since Darwin wrote, scientists have dug up fossils of many early human relatives, most of them in Africa, and have read the DNA of humans, chimpanzees and other apes. The evidence shows that humans and chimpanzees share a common ancestor that lived several million years ago, just as Darwin proposed, although many of his particular guesses have been corrected. The Descent of Man remains a landmark, important both for the argument it made and for the honest way it made it."
+  ]
+ }
 }

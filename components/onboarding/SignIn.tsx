@@ -152,7 +152,7 @@ export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => vo
  * says so, with Continue — the flow never dead-ends, and the step keeps its place so
  * the count is the same on every deploy.
  */
-export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean; onNext: () => void; /** Where a provider sign-in comes back to. */ next?: string }) {
+export function SignIn({ error, onNext, onSkip, next = AFTER_SIGN_IN }: { error: boolean; onNext: () => void; /** "Not now", when it should differ from onNext. */ onSkip?: () => void; /** Where a provider sign-in comes back to. */ next?: string }) {
   const t = useT();
   const [busy, setBusy] = useState<OAuthProvider | null>(null);
   const [failed, setFailed] = useState<string | null>(null);
@@ -205,7 +205,7 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
         </div>
       )}
       <div className="wel-in" style={{ animationDelay: "200ms" }}><EmailSignIn onVerified={onNext} /></div>
-      <button type="button" onClick={onNext} className="ob-muted h-11 w-full text-[13px] font-semibold">{t("account.notNow")}</button>
+      <button type="button" onClick={onSkip ?? onNext} className="ob-muted h-11 w-full text-[13px] font-semibold">{t("account.notNow")}</button>
     </div>
   );
 }

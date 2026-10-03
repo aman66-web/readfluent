@@ -89,7 +89,12 @@ export const deviceTranslate: TranslateFn = async (texts, from, to) => {
       done = (await Native.translate({ texts: chunk, from, to })).texts;
     } else {
       const key = `${from}>${to}`;
-      if (!translators.has(key)) translators.set(key, chromeApi()!.create({ sourceLanguage: from, targetLanguage: to }));
+      if (!translators.has(key)) {
+        // A failed create() (say, the download was refused this time) must not be remembered for the visit.
+        const made = chromeApi()!.create({ sourceLanguage: from, targetLanguage: to });
+        translators.set(key, made);
+        made.catch(() => { if (translators.get(key) === made) translators.delete(key); });
+      }
       const tr = await translators.get(key)!;
       done = await Promise.all(chunk.map((c) => tr.translate(c)));
     }

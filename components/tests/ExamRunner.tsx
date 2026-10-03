@@ -1,13 +1,15 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
+import { useRouter } from "next/navigation";
 import { BackLink } from "@/components/BackLink";
+import { Modal } from "@/components/Modal";
 import { Mascot } from "@/components/mascot/Mascot";
 import { LevelUp } from "@/components/xp/LevelUp";
 import { useT } from "@/lib/i18n/react";
 import type { MessageId } from "@/lib/i18n/en";
 import { useAnswers } from "@/lib/onboarding/use-answers";
-import { canSpeak, speak, stopSpeaking } from "@/lib/reading/speak";
+import { hasVoiceFor, speak, stopSpeaking } from "@/lib/reading/speak";
 import { subscribeTo, readRaw } from "@/lib/store/local";
 import { saveExam } from "@/lib/tests/exam-store";
 import type { Paper, Question } from "@/lib/tests/types";
@@ -26,7 +28,7 @@ const clock = (ms: number) => { const s = Math.max(0, Math.ceil(ms / 1000)); ret
 /** What a reader answered: the index picked, or for an `order` question the indexes of the words in the order tapped. */
 type Given = number | number[] | null;
 const isRight = (q: Question, g: Given): boolean =>
-  q.kind === "order" ? Array.isArray(g) && g.map((i) => q.words![i]).join(" ") === q.solution!.join(" ") : typeof g === "number" && g === q.answer;
+  q.kind === "order" ? Array.isArray(g) && g.map((i) => q.words![i]).join(" ").toLowerCase() === q.solution!.join(" ").toLowerCase() : typeof g === "number" && g === q.answer;
 
 /**
  * A level exam (owner, 2 Oct 2026): forty mixed questions in thirty minutes, from the harder sentences, no hints and
@@ -69,10 +71,11 @@ function Loader({ lang, level, back, onStart, onAgain }: { lang: string | null; 
     let live = true;
     fetch(`/api/tests?lang=${lang}&level=${level}&exam=1&seed=${Date.now()}`)
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
-      .then((d: { paper: Paper }) => {
+      .then(async (d: { paper: Paper }) => {
+        // A listening question needs a voice for this language: without one it is left out, and an exam too short to be one is not given.
+        const voice = d.paper.questions.some((q) => q.kind === "listen") ? await hasVoiceFor(lang) : true;
         if (!live) return;
-        // A listening question needs a voice: without one it is left out, and an exam too short to be one is not given.
-        const questions = d.paper.questions.filter((q) => q.kind !== "listen" || canSpeak());
+        const questions = d.paper.questions.filter((q) => q.kind !== "listen" || voice);
         if (questions.length < EXAM.minQuestions) setFailed(true); else setPaper({ ...d.paper, questions });
       })
       .catch(() => { if (live) setFailed(true); });
@@ -96,7 +99,10 @@ function Loader({ lang, level, back, onStart, onAgain }: { lang: string | null; 
 
 function Exam({ paper, level, lang, back, onStart, onAgain }: { paper: Paper; level: Cefr; lang: string; back: React.ReactNode; onStart: () => void; onAgain: () => void }) {
   const t = useT();
+  const router = useRouter();
   const qs = paper.questions;
+  const [leaving, setLeaving] = useState(false);
+  const [noVoice, setNoVoice] = useState(false);
   const [endsAt, setEndsAt] = useState<number | null>(null);
   const [now, setNow] = useState(0);
   const [at, setAt] = useState(0);
@@ -135,7 +141,8 @@ function Exam({ paper, level, lang, back, onStart, onAgain }: { paper: Paper; le
   // A listening question says itself when it comes up.
   const q = qs[at];
   useEffect(() => {
-    if (endsAt !== null && !result && q?.kind === "listen" && q.say) speak(q.say, lang, 0.95);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- whether the device could speak is only known by trying
+    if (endsAt !== null && !result && q?.kind === "listen" && q.say && !speak(q.say, lang, 0.95)) setNoVoice(true);
     return () => stopSpeaking();
   }, [q, lang, endsAt, result]);
 
@@ -175,8 +182,8 @@ function Exam({ paper, level, lang, back, onStart, onAgain }: { paper: Paper; le
             <ul className="mt-2 space-y-2">
               {missed.map((x) => (
                 <li key={x.id} className="sheet-card rounded-2xl p-3 text-[14.5px] leading-snug">
-                  <span lang={lang} dir="auto" className="font-semibold">{x.reveal?.text ?? x.prompt}</span>
-                  {x.reveal?.en ? <span dir="auto" className="text-muted"> · {x.reveal.en}</span> : null}
+                  <bdi lang={lang} className="font-semibold">{x.reveal?.text ?? x.prompt}</bdi>
+                  {x.reveal?.en ? <span className="text-muted"> · <bdi lang="en">{x.reveal.en}</bdi></span> : null}
                 </li>
               ))}
             </ul>
@@ -202,7 +209,9 @@ function Exam({ paper, level, lang, back, onStart, onAgain }: { paper: Paper; le
   return (
     <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:1.25rem] [--pt:.5rem]">
       <div className="flex items-center gap-3">
-        <span className="size-11 shrink-0" aria-hidden />
+        <button type="button" onClick={() => setLeaving(true)} aria-label={t("exam.leave")} className="-ms-2 grid size-11 shrink-0 place-items-center rounded-full active:bg-border/60">
+          <svg width="22" height="22" viewBox="0 0 24 24" {...stroke} aria-hidden><path d="M6 6l12 12M18 6 6 18" /></svg>
+        </button>
         <div role="progressbar" aria-valuemin={0} aria-valuemax={qs.length} aria-valuenow={at} aria-label={t("tests.question", { n: at + 1, total: qs.length })} className="h-2.5 flex-1 overflow-hidden rounded-full bg-[var(--ob-track)]">
           <div className="h-full rounded-full bg-accent-bright transition-[width] duration-300" style={{ width: `${(at / qs.length) * 100}%` }} />
         </div>
@@ -213,11 +222,19 @@ function Exam({ paper, level, lang, back, onStart, onAgain }: { paper: Paper; le
       <div className="relative flex flex-1 flex-col justify-center py-4">
         <p className="text-[12px] font-bold uppercase tracking-[0.12em] text-[var(--ob-deep)]">{t(PROMPT[q.kind])}</p>
         {q.kind === "listen" ? (
-          <button type="button" onClick={() => q.say && speak(q.say, lang, 0.95)} aria-label={t("reader.listenPage")} className="btn-cyan mt-4 grid size-20 place-items-center self-start rounded-full"><Speaker /></button>
+          <>
+            <button type="button" onClick={() => { if (q.say && !speak(q.say, lang, 0.95)) setNoVoice(true); }} aria-label={t("reader.listenPage")} className="btn-cyan mt-4 grid size-20 place-items-center self-start rounded-full"><Speaker /></button>
+            {noVoice && q.say ? (
+              <div className="mt-3 text-[14px] leading-snug text-muted">
+                <p>{t("tests.noVoice")}</p>
+                <p lang={lang} dir="auto" className="mt-1 text-[17px] font-semibold text-foreground">{q.say}</p>
+              </div>
+            ) : null}
+          </>
+        ) : q.kind === "order" ? (
+          <p lang="en" dir="auto" className="mt-3 text-[18px] font-semibold leading-snug">{q.prompt}</p>
         ) : (
-          <p lang={lang} dir="auto" className={`font-reading mt-3 font-bold leading-snug tracking-[-0.015em] ${q.kind === "vocab" ? "text-[34px]" : "text-[23px]"}`}>
-            {q.kind === "order" ? <span className="text-[16px] font-medium text-muted" dir="auto">{q.prompt}</span> : q.prompt}
-          </p>
+          <p lang={lang} dir="auto" className={`font-reading mt-3 font-bold leading-snug tracking-[-0.015em] ${q.kind === "vocab" ? "text-[34px]" : "text-[23px]"}`}>{q.prompt}</p>
         )}
         {q.kind === "order" ? (
           <div className="mt-5">
@@ -237,7 +254,7 @@ function Exam({ paper, level, lang, back, onStart, onAgain }: { paper: Paper; le
             {q.options!.map((o, i) => (
               <button key={i} type="button" role="radio" aria-checked={g === i} onClick={() => set(i)}
                       lang={q.kind === "gap" ? lang : q.kind === "listen" && !q.reveal?.en ? lang : undefined} dir="auto"
-                      className={`opt min-h-14 rounded-2xl px-4 py-3 text-start text-[16.5px] font-semibold leading-snug ${g === i ? "opt-on" : ""}`}>
+                      className={`opt min-h-12 rounded-2xl px-4 py-2.5 text-start text-[15px] font-medium leading-snug ${g === i ? "opt-on" : ""}`}>
                 {o}
               </button>
             ))}
@@ -245,9 +262,23 @@ function Exam({ paper, level, lang, back, onStart, onAgain }: { paper: Paper; le
         )}
       </div>
 
-      <button type="button" disabled={!canNext} onClick={() => { stopSpeaking(); if (last) finish(given, false); else setAt(at + 1); }} className="btn-cyan h-14 rounded-full text-[16px] font-bold disabled:opacity-40">
-        {t(last ? "exam.finish" : "tests.next")}
-      </button>
+      <div className="sticky bottom-0 -mx-5 flex flex-col bg-background/95 px-5 pt-3 pb-[calc(.75rem+env(safe-area-inset-bottom))] backdrop-blur">
+        <button type="button" disabled={!canNext} onClick={() => { stopSpeaking(); if (last) finish(given, false); else setAt(at + 1); }} className="btn-cyan h-14 rounded-full text-[16px] font-bold disabled:opacity-40">
+          {t(last ? "exam.finish" : "tests.next")}
+        </button>
+      </div>
+      {leaving && (
+        <Modal className="fixed inset-0 z-50 flex items-end justify-center" role="alertdialog" label={t("exam.leave")} onClose={() => setLeaving(false)}>
+          <button aria-label={t("exam.leave.stay")} className="fade-in absolute inset-0 bg-black/45" onClick={() => setLeaving(false)} />
+          <div className="sheet-up relative w-full max-w-[440px] rounded-t-[24px] bg-background px-5 pb-[calc(env(safe-area-inset-bottom)+1.25rem)] pt-4 shadow-2xl">
+            <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-border" aria-hidden />
+            <h2 className="text-[20px] font-bold tracking-[-0.01em]">{t("exam.leave")}</h2>
+            <p className="mt-2 text-[14.5px] leading-snug text-muted">{t("exam.leave.body")}</p>
+            <button type="button" onClick={() => { finish(givenRef.current, false); router.push("/recall/tests"); }} className="mt-5 h-13 w-full rounded-full bg-error px-5 py-3.5 text-[16px] font-semibold text-white active:opacity-85">{t("exam.leave.yes")}</button>
+            <button type="button" onClick={() => setLeaving(false)} className="mt-1 h-12 w-full text-[15px] font-semibold text-muted">{t("exam.leave.stay")}</button>
+          </div>
+        </Modal>
+      )}
     </main>
   );
 }

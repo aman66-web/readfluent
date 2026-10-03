@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import Link from "next/link";
+import { useEffect, useMemo, useState } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 import { Modal } from "@/components/Modal";
 import { APP_NAME } from "@/lib/brand";
@@ -29,7 +30,8 @@ export function Paywall({ onClose }: { onClose: () => void }) {
   const t = useT();
   const locale = useLocale();
   const native = isNative() && purchasesAvailable();
-  const [options, setOptions] = useState<Option[]>(() => fallbackOptions(t));
+  const [store, setOptions] = useState<Option[] | null>(null);
+  const options = useMemo(() => store ?? fallbackOptions(t), [store, t]);
   const [pick, setPick] = useState<Kind>("yearly");
   const [busy, setBusy] = useState(false);
   const [note, setNote] = useState<string | null>(null);
@@ -86,16 +88,18 @@ export function Paywall({ onClose }: { onClose: () => void }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/45 fade-in" onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}>
-      <Modal label={t("paywall.title")} onClose={onClose} className="sheet-up relative flex max-h-[100dvh] w-full max-w-[440px] flex-col overflow-y-auto rounded-t-[32px] bg-background pb-[calc(env(safe-area-inset-bottom)+1rem)]">
-        <div className="relative shrink-0 overflow-hidden rounded-t-[32px] bg-accent-bright px-6 pb-7 pt-5 text-center text-on-cyan">
-          <button type="button" onClick={onClose} aria-label={t("ui.close")} className="absolute end-3 top-3 grid size-11 place-items-center rounded-full text-white/85 active:bg-white/15">
+      <Modal label={t("paywall.title")} onClose={onClose} className="sheet-up relative flex max-h-[calc(100dvh-env(safe-area-inset-top)-0.75rem)] w-full max-w-[440px] flex-col overflow-y-auto rounded-t-[32px] bg-background pb-[calc(env(safe-area-inset-bottom)+1rem)]">
+        <div className="sticky top-0 z-10 h-0 shrink-0">
+          <button type="button" onClick={onClose} aria-label={t("ui.close")} className="absolute end-3 top-3 grid size-11 place-items-center rounded-full text-on-cyan active:bg-black/10">
             <svg viewBox="0 0 24 24" className="size-6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" aria-hidden><path d="M6 6l12 12M18 6L6 18" /></svg>
           </button>
+        </div>
+        <div className="relative shrink-0 overflow-hidden rounded-t-[32px] bg-accent-bright px-6 pb-7 pt-5 text-center text-on-cyan">
           <span className="mx-auto grid size-[104px] place-items-center rounded-full bg-white/95 shadow-[0_10px_30px_-10px_rgba(0,0,0,.45)]">
             <Mascot mood={done ? "cheer" : "ready"} crop="head" className="block h-[92px] w-auto" />
           </span>
           <h2 className="mt-4 text-[27px] font-bold leading-tight tracking-[-0.02em]">{done ? t("paywall.thanks") : t("paywall.title")}</h2>
-          {done ? null : <p className="mx-auto mt-1.5 max-w-[19rem] text-[15px] leading-snug text-white/85">{t("paywall.sub")}</p>}
+          {done ? null : <p className="mx-auto mt-1.5 max-w-[19rem] text-[15px] leading-snug text-on-cyan/80">{t("paywall.sub")}</p>}
         </div>
 
         {done ? (
@@ -130,7 +134,7 @@ export function Paywall({ onClose }: { onClose: () => void }) {
                     </span>
                     <span className="text-end">
                       {o.kind === "yearly" ? <span className="mb-0.5 inline-block rounded-full bg-accent-bright px-2.5 py-0.5 text-[11px] font-bold text-foreground">{saving > 0 ? t("paywall.save", { pct: saving }) : t("paywall.best")}</span> : null}
-                      <span className="block text-[13px] font-semibold text-accent">{o.perMonth}</span>
+                      {o.kind === "yearly" ? <span className="block text-[13px] font-semibold text-accent">{o.perMonth}</span> : null}
                     </span>
                   </button>
                 );
@@ -148,6 +152,11 @@ export function Paywall({ onClose }: { onClose: () => void }) {
               <button type="button" onClick={onClose} className="h-11 text-[14px] font-semibold text-muted">{t("paywall.notNow")}</button>
             </div>
             <p className="mt-1 text-center text-[12px] leading-snug text-faint">{t("paywall.cancelAnytime")}</p>
+            <p className="mt-1 flex items-center justify-center gap-2 text-[12px] text-faint">
+              <Link href="/terms" className="inline-flex h-9 items-center underline underline-offset-2">{t("me.terms")}</Link>
+              <span aria-hidden>·</span>
+              <Link href="/privacy" className="inline-flex h-9 items-center underline underline-offset-2">{t("me.privacy")}</Link>
+            </p>
           </div>
         )}
       </Modal>

@@ -58,7 +58,7 @@ export function Targets() {
     });
   }, [today, ledgerRaw, savedRaw, srsRaw, socialRaw, a.daily]);
 
-  if (targets.length === 0) return <div aria-hidden className="mt-3 h-[300px]" />;
+  if (targets.length === 0) return <div aria-hidden className="mt-3 h-[392px]" />;
   const { done, total } = progressOf(targets);
   const all = done === total;
   void dayDate;

@@ -1,13 +1,13 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { BackLink } from "@/components/BackLink";
 import { Mascot } from "@/components/mascot/Mascot";
 import { LevelUp } from "@/components/xp/LevelUp";
 import { useT } from "@/lib/i18n/react";
 import type { MessageId } from "@/lib/i18n/en";
 import { useAnswers } from "@/lib/onboarding/use-answers";
-import { canSpeak, speak, stopSpeaking } from "@/lib/reading/speak";
+import { hasVoiceFor, speak, stopSpeaking } from "@/lib/reading/speak";
 import { saveResult } from "@/lib/tests/store";
 import type { Paper, Question, TestKind } from "@/lib/tests/types";
 import { XP, levelUpBetween, type Cefr, type LevelUp as LevelUpInfo } from "@/lib/xp/levels";
@@ -42,10 +42,11 @@ function Loader({ lang, level, kind, round, onAgain }: { lang: string | null; le
     let live = true;
     fetch(`/api/tests?lang=${lang}&level=${level}&kind=${kind}&seed=${Date.now() + round}`)
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
-      .then((d: { paper: Paper }) => {
+      .then(async (d: { paper: Paper }) => {
+        // A listening question needs a voice for this language: without one it is left out.
+        const voice = d.paper.questions.some((q) => q.kind === "listen") ? await hasVoiceFor(lang) : true;
         if (!live) return;
-        // A listening question needs a voice: without one it is left out.
-        const questions = d.paper.questions.filter((q) => q.kind !== "listen" || canSpeak());
+        const questions = d.paper.questions.filter((q) => q.kind !== "listen" || voice);
         if (questions.length < 3) setFailed(true); else setPaper({ ...d.paper, questions });
       })
       .catch(() => { if (live) setFailed(true); });
@@ -96,8 +97,11 @@ function Run({ paper, level, kind, lang, back, onAgain }: { paper: Paper; level:
   const [gain, setGain] = useState<{ n: number; xp: number } | null>(null);
   const [levelUp, setLevelUp] = useState<LevelUpInfo | null>(null);
   const [finishXp, setFinishXp] = useState<number | null>(null);
+  const [noVoice, setNoVoice] = useState(false);
+  const feedback = useRef<HTMLDivElement>(null);
   const q = qs[at];
   const done = at >= qs.length;
+  const sameWords = (a: string[], b: string[]) => a.join(" ").toLowerCase() === b.join(" ").toLowerCase();
 
   useEffect(() => {
     if (!gain) return;
@@ -107,19 +111,23 @@ function Run({ paper, level, kind, lang, back, onAgain }: { paper: Paper; level:
 
   // A listening question says itself when it comes up.
   useEffect(() => {
-    if (q?.kind === "listen" && q.say) speak(q.say, lang, 0.95);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- whether the device could speak is only known by trying
+    if (q?.kind === "listen" && q.say && !speak(q.say, lang, 0.95)) setNoVoice(true);
     return () => stopSpeaking();
   }, [q, lang]);
 
+  // The answer and the Next button come into view after Check.
+  useEffect(() => { if (checked) feedback.current?.scrollIntoView({ block: "nearest" }); }, [checked]);
+
   const isRight = useMemo(() => {
     if (!q || !checked) return false;
-    if (q.kind === "order") return tapped.map((i) => q.words![i]).join(" ") === q.solution!.join(" ");
+    if (q.kind === "order") return sameWords(tapped.map((i) => q.words![i]), q.solution!);
     return picked === q.answer;
   }, [q, checked, picked, tapped]);
 
   const check = useCallback(() => {
     if (!q) return;
-    const ok = q.kind === "order" ? tapped.map((i) => q.words![i]).join(" ") === q.solution!.join(" ") : picked === q.answer;
+    const ok = q.kind === "order" ? tapped.map((i) => q.words![i]).join(" ").toLowerCase() === q.solution!.join(" ").toLowerCase() : picked === q.answer;
     setChecked(true);
     if (ok) {
       setRight((n) => n + 1);
@@ -188,11 +196,19 @@ function Run({ paper, level, kind, lang, back, onAgain }: { paper: Paper; level:
         <p className="text-[12px] font-bold uppercase tracking-[0.12em] text-[var(--ob-deep)]">{t(PROMPT[q.kind])}</p>
 
         {q.kind === "listen" ? (
-          <button type="button" onClick={() => q.say && speak(q.say, lang, 0.95)} aria-label={t("reader.listenPage")} className="btn-cyan mt-4 grid size-20 place-items-center self-start rounded-full"><Speaker /></button>
+          <>
+            <button type="button" onClick={() => { if (q.say && !speak(q.say, lang, 0.95)) setNoVoice(true); }} aria-label={t("reader.listenPage")} className="btn-cyan mt-4 grid size-20 place-items-center self-start rounded-full"><Speaker /></button>
+            {noVoice && q.say ? (
+              <div className="mt-3 text-[14px] leading-snug text-muted">
+                <p>{t("tests.noVoice")}</p>
+                <p lang={lang} dir="auto" className="mt-1 text-[17px] font-semibold text-foreground">{q.say}</p>
+              </div>
+            ) : null}
+          </>
+        ) : q.kind === "order" ? (
+          <p lang="en" dir="auto" className="mt-3 text-[18px] font-semibold leading-snug">{q.prompt}</p>
         ) : (
-          <p lang={lang} dir="auto" className={`font-reading mt-3 font-bold leading-snug tracking-[-0.015em] ${q.kind === "vocab" ? "text-[34px]" : "text-[23px]"}`}>
-            {q.kind === "order" ? <span className="text-[16px] font-medium text-muted" dir="auto">{q.prompt}</span> : q.prompt}
-          </p>
+          <p lang={lang} dir="auto" className={`font-reading mt-3 font-bold leading-snug tracking-[-0.015em] ${q.kind === "vocab" ? "text-[34px]" : "text-[23px]"}`}>{q.prompt}</p>
         )}
 
         {q.kind === "order" ? (
@@ -217,7 +233,7 @@ function Run({ paper, level, kind, lang, back, onAgain }: { paper: Paper; level:
               return (
                 <button key={i} type="button" role="radio" aria-checked={on} aria-disabled={checked} onClick={() => { if (!checked) setPicked(i); }}
                         lang={q.kind === "gap" ? lang : q.kind === "listen" && !q.reveal?.en ? lang : undefined} dir="auto"
-                        className={`opt min-h-14 rounded-2xl px-4 py-3 text-start text-[16.5px] font-semibold leading-snug ${on && !checked ? "opt-on" : ""} ${good ? "!bg-emerald-50 [&::after]:!shadow-[inset_0_0_0_2px_#10b981]" : ""} ${bad ? "!bg-rose-50 [&::after]:!shadow-[inset_0_0_0_2px_#f43f5e]" : ""}`}>
+                        className={`opt min-h-12 rounded-2xl px-4 py-2.5 text-start text-[15px] font-medium leading-snug ${on && !checked ? "opt-on" : ""} ${good ? "!bg-emerald-50 [&::after]:!shadow-[inset_0_0_0_2px_#10b981]" : ""} ${bad ? "!bg-rose-50 [&::after]:!shadow-[inset_0_0_0_2px_#f43f5e]" : ""}`}>
                   {o}
                 </button>
               );
@@ -226,21 +242,24 @@ function Run({ paper, level, kind, lang, back, onAgain }: { paper: Paper; level:
         )}
 
         {checked && (
-          <div role="status" className={`mt-4 rounded-2xl p-3.5 text-[14.5px] leading-snug ${isRight ? "bg-emerald-50 text-emerald-900" : "bg-rose-50 text-rose-900"}`}>
+          <div ref={feedback} role="status" className={`mt-4 scroll-mb-28 rounded-2xl p-3.5 text-[14.5px] leading-snug ${isRight ? "bg-emerald-50 text-emerald-900" : "bg-rose-50 text-rose-900"}`}>
             <p className="font-bold">{t(isRight ? "tests.right" : "tests.wrong")}</p>
             {q.reveal && (
               <p className="mt-1">
-                <span lang={lang} dir="auto" className="font-semibold">{q.reveal.text}</span>
-                {q.reveal.en ? <span dir="auto"> · {q.reveal.en}</span> : null}
+                <bdi lang={lang} className="font-semibold">{q.reveal.text}</bdi>
+                {q.reveal.en ? <> · <bdi lang="en">{q.reveal.en}</bdi></> : null}
               </p>
             )}
           </div>
         )}
       </div>
 
-      {checked
-        ? <button type="button" onClick={next} className="btn-cyan h-14 rounded-full text-[16px] font-bold">{t(at + 1 >= qs.length ? "tests.finish" : "tests.next")}</button>
-        : <button type="button" onClick={check} disabled={!canCheck} className="btn-cyan h-14 rounded-full text-[16px] font-bold disabled:opacity-40">{t("tests.check")}</button>}
+      {/* The action stays on screen however tall the question is. */}
+      <div className="sticky bottom-0 -mx-5 flex flex-col bg-background/95 px-5 pt-3 pb-[calc(.75rem+env(safe-area-inset-bottom))] backdrop-blur">
+        {checked
+          ? <button type="button" onClick={next} className="btn-cyan h-14 rounded-full text-[16px] font-bold">{t(at + 1 >= qs.length ? "tests.finish" : "tests.next")}</button>
+          : <button type="button" onClick={check} disabled={!canCheck} className="btn-cyan h-14 rounded-full text-[16px] font-bold disabled:opacity-40">{t("tests.check")}</button>}
+      </div>
       {levelUp && <LevelUp up={levelUp} onClose={() => setLevelUp(null)} />}
     </main>
   );

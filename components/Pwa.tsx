@@ -64,7 +64,7 @@ function useUpdateReload() {
       if (document.visibilityState !== "visible" || !navigator.onLine || Date.now() - last < 60_000) return;
       last = Date.now();
       try {
-        const res = await fetch("/api/health", { cache: "no-store" });
+        const res = await fetch("/api/health?build=1", { cache: "no-store" });
         const live = String(((await res.json()) as { build?: string }).build ?? "").split(" ")[0];
         if (live && live !== BUILD) {
           // Not in the middle of a form: someone back from their mail app with a sign-in code would lose it. Asked again next time.

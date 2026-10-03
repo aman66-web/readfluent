@@ -66,7 +66,7 @@ export function TabBar() {
   if (hidden) return null;
 
   return (
-    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-40 mx-auto max-w-[440px] px-4 pb-[calc(env(safe-area-inset-bottom)+0.75rem)]">
+    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-40 mx-auto max-w-[440px] px-4 transition-transform duration-200 [html[data-coach]:not([data-coach^=tab-])_&]:translate-y-[200%] pb-[calc(env(safe-area-inset-bottom)+0.75rem)]">
       <nav ref={navRef} aria-label={t("tab.menu")}
            className="pointer-events-auto relative flex h-[64px] items-center rounded-full bg-white/85 px-1.5 shadow-[0_14px_40px_-14px_rgba(8,47,62,.45)] ring-1 ring-black/[0.06] backdrop-blur-xl">
         {pill && activeIndex >= 0 && (

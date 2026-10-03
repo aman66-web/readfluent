@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import corpusEn from "@/lib/tests/corpus.en.json";
 import corpusEs from "@/lib/tests/corpus.es.json";
-import { makePaper, type Item } from "@/lib/tests/build";
+import { makePaper, namesOf, type Item } from "@/lib/tests/build";
 import { supportFor } from "@/lib/tests/support";
 import { PAPER_SIZE, type Question } from "@/lib/tests/types";
 import { CEFR } from "@/lib/xp/levels";
@@ -43,6 +43,31 @@ describe("the tests", () => {
       paper.questions.forEach(valid);
     }
   }, 30_000);
+
+  it("ask word-order only with the sentence's English, as a whole sentence", () => {
+    expect(supportFor("en")!.kinds).not.toContain("order");
+    for (const level of ["A1", "B1", "C2"] as const) {
+      const paper = makePaper({ lang: "es", level, kind: "order", bank: ES, seed: 3 });
+      expect(paper.questions.length, level).toBeGreaterThanOrEqual(4);
+      for (const q of paper.questions) {
+        expect(q.prompt).toBeTruthy();
+        expect(q.solution!.join(" ")).toBe(q.reveal!.text.match(/[\p{L}\p{N}'’-]+/gu)!.join(" "));
+      }
+    }
+    // A mixed English paper has no order questions either.
+    expect(makePaper({ lang: "en", level: "B1", kind: "mixed", bank: EN, seed: 2 }).questions.some((q) => q.kind === "order")).toBe(false);
+  });
+
+  it("do not let a name in the sentence give the meaning answer away", () => {
+    const names = namesOf;
+    for (let seed = 1; seed <= 5; seed++) {
+      for (const q of makePaper({ lang: "es", level: "C2", kind: "meaning", bank: ES, seed }).questions) {
+        const right = q.options![q.answer!];
+        const only = names(right).filter((n) => q.options!.filter((o) => o.includes(n)).length === 1);
+        expect(only, right).toEqual([]);
+      }
+    }
+  });
 
   it("are the same for the same seed and different for another", () => {
     const a = makePaper({ lang: "es", level: "B1", kind: "mixed", bank: ES, seed: 1 });

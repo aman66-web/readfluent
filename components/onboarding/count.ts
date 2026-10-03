@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
  * a slower crawl, a moment's pause, then on. `stops` are [value, ms] pairs, each
  * stretch eased in and out. Where motion is reduced it is simply at the last value.
  */
-export function useStagedCount(stops: readonly (readonly [number, number])[], delay = 0): number {
+export function useStagedCount(stops: readonly (readonly [number, number])[], delay = 0, skip = false): number {
   const [n, setN] = useState(0);
   useEffect(() => {
     const still = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
@@ -29,7 +29,7 @@ export function useStagedCount(stops: readonly (readonly [number, number])[], de
       return last;
     };
     const t = window.setTimeout(() => {
-      if (still) { setN(last); return; }
+      if (still || skip) { setN(last); return; }
       const step = (ts: number) => {
         if (!start) start = ts;
         const e = ts - start;
@@ -37,8 +37,8 @@ export function useStagedCount(stops: readonly (readonly [number, number])[], de
         if (e < total) raf = requestAnimationFrame(step);
       };
       raf = requestAnimationFrame(step);
-    }, still ? 0 : delay);
+    }, still || skip ? 0 : delay);
     return () => { window.clearTimeout(t); cancelAnimationFrame(raf); };
-  }, [stops, delay]);
+  }, [stops, delay, skip]);
   return n;
 }

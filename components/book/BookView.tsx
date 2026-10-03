@@ -6,7 +6,7 @@ import type { OutlineItem } from "@/components/book/Pathway";
 import { ReadPicker } from "@/components/book/ReadPicker";
 import { COVERS } from "@/components/welcome/covers";
 import { categoryById } from "@/lib/content/limits";
-import { useBookText, useLocale, useT } from "@/lib/i18n/react";
+import { useBookLang, useBookText, useT } from "@/lib/i18n/react";
 import { coverAuthor, lengthsOf, type PreviewBook } from "@/lib/preview/catalog";
 
 /**
@@ -18,8 +18,8 @@ import { coverAuthor, lengthsOf, type PreviewBook } from "@/lib/preview/catalog"
  */
 export function BookView({ book, outline, langs, chapterNames }: { book: PreviewBook; /** The book's moments, in order, for the path. */ outline: readonly OutlineItem[]; /** The languages (besides English) the book can be read in. */ langs: readonly string[]; /** The names of the chapters (ten pages each), where the book has them. */ chapterNames?: readonly string[] }) {
   const t = useT();
-  const locale = useLocale();
   const text = useBookText();
+  const langOf = useBookLang();
   const category = categoryById(book.category);
   const lengths = lengthsOf(book);
   const title = text(book.slug, "title", book.title);
@@ -51,16 +51,16 @@ export function BookView({ book, outline, langs, chapterNames }: { book: Preview
 
         <div className="relative mt-5 text-center">
           <p className="inline-flex h-7 items-center rounded-full bg-accent-bright px-3.5 text-[11.5px] font-bold uppercase tracking-[0.12em] text-on-cyan">{category ? t(`cat.${category.id}`) : ""}</p>
-          <h1 lang={locale} className="font-reading mt-3 text-[30px] font-bold leading-[1.08] tracking-[-0.02em]" dir="auto">{title}</h1>
+          <h1 lang={langOf(book.slug, "title")} className="font-reading mt-3 text-[30px] font-bold leading-[1.08] tracking-[-0.02em]" dir="auto">{title}</h1>
           <p className="mt-1.5 text-[14.5px] text-muted">{book.kind === "classic" ? t("book.by", { author: book.author }) : t("book.inspired", { author: book.author })}</p>
         </div>
       </div>
 
       <ReadPicker slug={book.slug} lengths={lengths} outline={outline} langs={langs} chapterNames={chapterNames}>
-        <p lang={locale} dir="auto" className="font-reading text-[17px] leading-[1.6] text-foreground/90">{blurb}</p>
+        <p lang={langOf(book.slug, "blurb")} dir="auto" className="font-reading text-[17px] leading-[1.6] text-foreground/90">{blurb}</p>
         {/* Where it comes from, in the description where readers can see it. */}
         <p className="mt-3 border-t border-border pt-3 text-[13px] leading-snug text-muted">
-          {book.kind === "classic" ? t("book.publicDomain") : <><span className="font-semibold text-foreground/80">{t("book.inspired", { author: book.author })}.</span> {t("book.notAffiliated")}</>}
+          {book.kind === "classic" ? t("book.publicDomain") : <><span className="font-semibold text-foreground/80">{t("book.inspiredSentence", { author: book.author })}</span> {t("book.notAffiliated")}</>}
         </p>
       </ReadPicker>
     </main>

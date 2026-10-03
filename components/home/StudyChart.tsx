@@ -39,7 +39,7 @@ interface ChartProps { ledger: Ledger; goal: number; bookName: (slug: string) =>
 /** The chart waits for the reader's own day: the server cannot know it, and "today" is what it highlights. */
 export function StudyChart(props: ChartProps) {
   const today = useToday();
-  if (!today) return <div aria-hidden className="h-[220px]" />;
+  if (!today) return <div aria-hidden className="h-[287px]" />;
   return <StudyChartBody {...props} today={today} />;
 }
 
@@ -82,7 +82,7 @@ export function StudyChartBody({ ledger, goal, bookName, today }: ChartProps & {
         <p className="tabular mt-1 shrink-0 rounded-full px-2.5 py-1 text-[11px] font-bold" style={{ background: WELL }}>{t("chart.goal", { minutes: goal })}</p>
       </div>
 
-      <div className="-mb-1 mt-2 flex gap-1.5" role="group" aria-label={PANES[0]}>
+      <div className="-mb-1 mt-2 flex gap-1.5" role="group" aria-label={t("chart.range")}>
         {([["week", t("chart.rangeWeek")], ["month", t("chart.rangeMonth")]] as const).map(([key, label]) => (
           <button key={key} type="button" onClick={() => setRange(key)} aria-pressed={range === key} className="relative flex h-11 shrink-0 items-center whitespace-nowrap text-[13px] font-semibold">
             <span className="rounded-full px-3.5 py-1.5" style={range === key ? { background: INK, color: "#fff" } : { background: WELL, color: "rgba(8,47,62,.7)" }}>{label}</span>

@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import { ART, ArtDefs } from "@/components/welcome/art";
+import { ART } from "@/components/welcome/art";
 import GENERATED from "@/lib/preview/written.generated.json";
 import type { GeneratedBook } from "@/lib/preview/generated";
 
@@ -82,7 +82,7 @@ export function CoverFace({ cover, className = "" }: { cover: Cover; className?:
           {cover.author && <p className="bc-author">{cover.author}</p>}
         </div>
         <svg viewBox="0 0 200 150" className="bc-art" preserveAspectRatio="xMidYMid meet" aria-hidden>
-          <defs><ArtDefs /></defs>
+          {/* The gradients these pictures use are defined once, in the layout (ArtSprite). */}
           {cover.pieces.map((p, i) => {
             const draw = ART[p.id];
             return draw ? <g key={i} transform={`translate(${p.x} ${p.y}) rotate(${p.r ?? 0}) scale(${p.s ?? 1})`}>{draw()}</g> : null;

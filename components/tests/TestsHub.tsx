@@ -1,19 +1,21 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState, useSyncExternalStore } from "react";
+import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { BackLink } from "@/components/BackLink";
 import { Mascot } from "@/components/mascot/Mascot";
 import { languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { MessageId } from "@/lib/i18n/en";
 import { useAnswers } from "@/lib/onboarding/use-answers";
+import { hasVoiceFor } from "@/lib/reading/speak";
 import { readRaw } from "@/lib/store/local";
 import { supportFor } from "@/lib/tests/support";
 import { TESTS_KEY, parseResults, resultKey, subscribeTests } from "@/lib/tests/store";
 import type { TestKind } from "@/lib/tests/types";
 import { EXAM } from "@/lib/xp/exam";
-import { CEFR, XP, levelFromXp, type Cefr } from "@/lib/xp/levels";
+import { CEFR, XP, levelFromXp, xpForTestAnswer, xpForTestFinish, type Cefr } from "@/lib/xp/levels";
+import { PAPER_SIZE } from "@/lib/tests/types";
 import { LEDGER_KEY, examDue, parseLedger, totalXp } from "@/lib/xp/ledger";
 import { subscribeTo } from "@/lib/store/local";
 
@@ -48,7 +50,18 @@ export function TestsHub() {
   const results = useMemo(() => parseResults(resultsRaw), [resultsRaw]);
   const level = picked ?? (support?.levels.includes(mine.level) ? mine.level : (support?.levels[0] ?? mine.level));
   const language = lang ? languageName(lang, locale) : "";
-  const kinds = support?.kinds ?? [];
+  // A listening test needs a voice for the language on this device; without one its tile is not offered.
+  const [voice, setVoice] = useState<{ lang: string | null; ok: boolean }>({ lang: null, ok: true });
+  useEffect(() => {
+    if (!lang) return;
+    let live = true;
+    void hasVoiceFor(lang).then((ok) => { if (live) setVoice({ lang, ok }); });
+    return () => { live = false; };
+  }, [lang]);
+  const noVoice = voice.lang === lang && !voice.ok;
+  const kinds = (support?.kinds ?? []).filter((k) => k !== "listen" || !noVoice);
+  // What a full pass pays at this level: less when the test is below the reader's own level.
+  const maxXp = xpForTestAnswer(level, mine.level) * PAPER_SIZE + xpForTestFinish(level, mine.level, PAPER_SIZE, PAPER_SIZE);
 
   return (
     <main className="safe-top px-5 pb-32 [--pt:.5rem]">
@@ -108,7 +121,7 @@ export function TestsHub() {
                           <span className="block text-[18px] font-bold leading-tight tracking-[-0.01em]">{t(`tests.kind.${k}` as MessageId)}</span>
                           <span className="mt-0.5 block text-[12.5px] leading-snug opacity-80">{t(`tests.kind.${k}.sub` as MessageId)}</span>
                           <span className="tabular mt-2 inline-flex rounded-full bg-white/30 px-2.5 py-0.5 text-[11.5px] font-bold">
-                            {r ? t("tests.best", { n: r.best, total: r.total }) : t("tests.upTo", { xp: XP.test.correct * 10 + XP.test.finish })}
+                            {r ? t("tests.best", { n: r.best, total: r.total }) : t("tests.upTo", { xp: maxXp })}
                           </span>
                         </span>
                       </Link>

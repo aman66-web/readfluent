@@ -52,6 +52,12 @@ async function route(request: NextRequest): Promise<NextResponse> {
 
   let response = NextResponse.next({ request });
 
+  // Prefetches (a link scrolling into view) and background fetches from somebody with no session need no
+  // refresh and no sign-in; asking the auth server for each one made every prefetch wait on a round trip.
+  const prefetch = request.headers.has("next-router-prefetch") || (request.headers.get("sec-purpose") ?? "").includes("prefetch");
+  const document = request.headers.get("sec-fetch-dest") === "document";
+  if (prefetch || (!document && !hasAppSession(request.cookies.getAll().map((c) => c.name)))) return response;
+
   try {
     response = await refresh(request, response);
   } catch {

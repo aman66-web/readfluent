@@ -4,8 +4,9 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 import { loadDeck, parseDeckCardId, type DeckSize, type Phrase } from "@/lib/decks";
-import { useT } from "@/lib/i18n/react";
+import { useLocale, useT } from "@/lib/i18n/react";
 import { LANGUAGES } from "@/lib/onboarding/languages";
+import { useAnswers } from "@/lib/onboarding/use-answers";
 import { canSpeak, speak, stopSpeaking } from "@/lib/reading/speak";
 import { previewDays, type Grade } from "@/lib/srs/schedule";
 import { buildSession, inDeck } from "@/lib/srs/session";
@@ -16,6 +17,12 @@ import { SAVED_KEY, parseSaved } from "@/lib/words/saved";
 import { LevelUp } from "@/components/xp/LevelUp";
 import { levelUpBetween, xpForCard, type LevelUp as LevelUpInfo } from "@/lib/xp/levels";
 import { awardCard, currentXp } from "@/lib/xp/ledger";
+
+/** "10 min" or "3 d" in the reader's language. */
+function unitText(locale: string, unit: "minute" | "day", n: number): string {
+  try { return new Intl.NumberFormat(locale, { style: "unit", unit, unitDisplay: "narrow" }).format(n); }
+  catch { return `${n} ${unit === "minute" ? "min" : "d"}`; }
+}
 
 /** What a card shows: the word or phrase, and what it means. */
 interface Face { front: string; back: string; hint?: string; lang: string; book?: string }
@@ -41,6 +48,8 @@ export function Flashcards({ deck, lang }: { deck: DeckSize | null; lang: string
 
 function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null }) {
   const t = useT();
+  const locale = useLocale();
+  const a = useAnswers();
   const srs = useSrs();
   const saved = useSaved();
   // The cards of this sitting are fixed when it starts; answering one must not reshuffle the rest.
@@ -81,8 +90,9 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
       return p ? { front: p.t, back: p.en, hint: p.ph, lang: d.lang } : null;
     }
     const w = saved[id];
-    return w ? { front: w.word, back: w.meaning, lang: w.lang, book: w.book } : null;
-  }, [phrases, saved]);
+    // A word saved with no meaning still gets a back, so the reader is never asked to grade a blank.
+    return w ? { front: w.word, back: w.meaning || t("cards.noMeaning"), lang: w.lang, book: w.book } : null;
+  }, [phrases, saved, t]);
 
   const id = ids[at];
   const card = id ? srs.cards[id] : undefined;
@@ -128,17 +138,23 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
 
   if (ids.length === 0 || finished) {
     const none = ids.length === 0;
+    // Nobody has ever had a card: point at the phrase decks, not "nothing due".
+    const fresh = none && Object.keys(start.state.cards).length === 0;
+    const deckLang = lang ?? a.learn;
     return (
       <>
         <div>{back}</div>
         <div className="flex flex-1 flex-col items-center justify-center text-center">
           <Mascot mood={none ? "sleepy" : "cheer"} className="block h-[150px] w-auto" />
-          <h1 className="mt-5 text-[26px] font-bold tracking-[-0.02em]">{none ? t("cards.dueNone") : t("cards.done")}</h1>
+          <h1 className="mt-5 text-[26px] font-bold tracking-[-0.02em]">{none ? t(fresh ? "cards.noneYet" : "cards.dueNone") : t("cards.done")}</h1>
           <p className="mt-2 max-w-[18rem] text-[15px] leading-snug text-muted">
             {none ? t("cards.empty") : t("cards.doneSub", { n: done })}
           </p>
         </div>
-        <Link href={none ? "/library" : "/recall"} className="btn-cyan flex h-14 items-center justify-center rounded-full text-[16px] font-bold">
+        {fresh && deckLang ? (
+          <Link href={`/recall/flashcards?deck=50&lang=${deckLang}`} className="btn-cyan flex h-14 items-center justify-center rounded-full text-[16px] font-bold">{t("recall.deck50")}</Link>
+        ) : null}
+        <Link href={none ? "/library" : "/recall"} className={fresh && deckLang ? "mt-1 flex h-12 items-center justify-center text-[15px] font-semibold text-[var(--ob-deep)]" : "btn-cyan flex h-14 items-center justify-center rounded-full text-[16px] font-bold"}>
           {none ? t("cards.toLibrary") : t("cards.back")}
         </Link>
         {levelUp && <LevelUp up={levelUp} onClose={() => setLevelUp(null)} />}
@@ -198,7 +214,7 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
           {GRADES.map((g) => (
             <button key={g.grade} type="button" onClick={() => grade(g.grade)} className={`flex h-16 flex-col items-center justify-center rounded-2xl border-2 text-[16px] font-bold ${g.tone}`}>
               {t(g.label)}
-              <span className="text-[11.5px] font-medium opacity-70">{g.grade === "again" ? "10 min" : `${Math.max(1, previewDays(card, g.grade))} d`}{g.grade === "again" ? "" : ` · +${xpForCard(g.grade)} XP`}</span>
+              <span className="text-[11.5px] font-medium opacity-70">{g.grade === "again" ? unitText(locale, "minute", 10) : unitText(locale, "day", Math.max(1, previewDays(card, g.grade)))}{g.grade === "again" ? "" : ` · +${xpForCard(g.grade)} XP`}</span>
             </button>
           ))}
         </div>

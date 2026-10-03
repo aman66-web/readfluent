@@ -128,7 +128,17 @@ export function Coach() {
     }
   }, [missing, step, index]);
 
+  // Tell the tab bar to step aside while a step lights something that is not a tab (a tall card would run under it).
+  const coachTarget = step ? (step.target ?? "none") : null;
+  useEffect(() => {
+    if (!coachTarget) return;
+    document.documentElement.dataset.coach = coachTarget;
+    return () => { delete document.documentElement.dataset.coach; };
+  }, [coachTarget]);
+
   if (!step) return null;
+  // A step with a target is not drawn until the target is found, so the old text does not flash before a skip.
+  if (step.target && !box) return <div className="pointer-events-none fixed inset-0 z-[70]"><div className="coach-dim absolute inset-0" /></div>;
   const last = after(index) === null;
   const next = () => { const n = after(index); if (n === null) finishTour(); else setTourStep(n); };
   // A step with nothing to light (the hello and the goodbye) is a card in the middle of the screen.
@@ -139,7 +149,10 @@ export function Coach() {
   // Where the bubble's tail points: the middle of what is lit, kept inside the bubble.
   const cardW = Math.min(420, vw - 24);
   const tailX = box ? Math.min(cardW - 30, Math.max(bubbleTop ? 30 : 104, box.x + box.w / 2 - (vw - cardW) / 2)) : 0;
-  const hole = box ? { left: box.x - PAD, top: box.y - PAD, width: box.w + PAD * 2, height: box.h + PAD * 2 } : null;
+  // The lit part never extends behind the bubble or past the screen's edge.
+  const vh = typeof window === "undefined" ? 700 : window.innerHeight;
+  const litBottom = bubbleTop ? vh - 8 : vh - 270;
+  const hole = box ? { left: box.x - PAD, top: box.y - PAD, width: box.w + PAD * 2, height: Math.max(48, Math.min(box.h + PAD * 2, litBottom - (box.y - PAD))) } : null;
   const pct = ((index + 1) / TOUR.length) * 100;
   const text = t(step.text, { mascot: MASCOT_NAME });
   const nextButton = (

@@ -134,6 +134,6 @@ describe("reading settings", () => {
       variants: [{ lang: "es", dict: SPANISH_DICT, pages: [{ n: 1, text: x.text, scene: 1, target: { translation: x.translation, keys: x.keys, art: SPANISH_PAGES[0].art, bg: SPANISH_PAGES[0].bg } }] }],
     }));
     expect(html).toContain('aria-label="Reading settings"');
-    for (const s of ["Pages read", "XP earned", "Words saved", "lx-cheer", "lx-hello"]) expect(html, s).toContain(s);
+    for (const s of ["Pages read", "Total XP", "Words saved", "lx-cheer", "lx-hello"]) expect(html, s).toContain(s);
   });
 });

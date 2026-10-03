@@ -151,7 +151,7 @@ body {
 
 /* Japanese lines break between phrases, not between the last two characters. */
 :lang(ja) { word-break: auto-phrase; }
-h1, h2 { text-wrap: balance; }
+h1:not(.truncate), h2:not(.truncate) { text-wrap: balance; }
 
 /* A book cover at any width (components/welcome/covers.tsx). `.bc` is the container; every size inside is a
    multiple of --u, one 112th of the cover's width, so the same drawing serves a thumbnail and a poster. */
@@ -256,3 +256,6 @@ h1, h2 { text-wrap: balance; }
 .opt:disabled { opacity: .55; }
 /* A card the sections of a page sit in: the first run's ground and hairline, no heavy shadow. */
 .sheet-card { background: var(--ob-card); box-shadow: inset 0 0 0 1px var(--ob-line); }
+
+/* Letter-spacing breaks the joined scripts (the Devanagari headline bar, Arabic and Urdu joining): no tracking on them. */
+:is(:lang(hi), :lang(bn), :lang(ar), :lang(ur)) .uppercase { letter-spacing: normal; }

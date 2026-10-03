@@ -7,6 +7,7 @@ import { NavTracker } from "@/components/NavTracker";
 import { Pwa } from "@/components/Pwa";
 import { TabBar } from "@/components/TabBar";
 import { Coach } from "@/components/tour/Coach";
+import { ArtDefs } from "@/components/welcome/art";
 import { LocaleSync } from "@/lib/i18n/react";
 import { APP_NAME, TAGLINE } from "@/lib/brand";
 import { display } from "@/lib/fonts";
@@ -14,7 +15,10 @@ import { ANSWERS_KEY } from "@/lib/onboarding/answers";
 import { RTL_LANGUAGES } from "@/lib/i18n";
 
 /** Sets the page's language and direction before it is painted, from what the device remembers, so an Arabic or Urdu reader never sees the page flip from left-to-right after loading. LocaleSync keeps them right afterwards. */
-const EARLY_LOCALE = `try{var a=JSON.parse(localStorage.getItem(${JSON.stringify(ANSWERS_KEY)})||"{}"),l=a&&a.language;if(typeof l==="string"&&/^[a-z]{2,3}$/.test(l)){var e=document.documentElement;e.lang=l;e.dir=${JSON.stringify(RTL_LANGUAGES)}.indexOf(l)>-1?"rtl":"ltr"}}catch(x){}`;
+const EARLY_LOCALE = `try{var a=JSON.parse(localStorage.getItem(${JSON.stringify(ANSWERS_KEY)})||"{}"),l=a&&a.language;if(typeof l==="string"&&/^[a-z]{2,3}$/.test(l)){var e=document.documentElement;e.lang=l;e.dir=${JSON.stringify(RTL_LANGUAGES)}.indexOf(l)>-1?"rtl":"ltr";if(l!=="en"){e.setAttribute("data-i18n-pending",l);setTimeout(function(){e.removeAttribute("data-i18n-pending")},3000)}}}catch(x){}`;
+
+/** While a non-English catalog is on its way, the page is kept invisible (not removed) so English never shows first; released by LocaleSync, or after 3 s whatever happens. */
+const PENDING_CSS = "html[data-i18n-pending] body>div.mx-auto{visibility:hidden}";
 
 export const metadata: Metadata = {
   title: APP_NAME,
@@ -40,10 +44,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" dir="ltr" className={`h-full antialiased ${display.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: EARLY_LOCALE }} />
+        <style dangerouslySetInnerHTML={{ __html: PENDING_CSS }} />
       </head>
       <body className="min-h-full">
         {/* Catches a Google/Apple sign-in coming back from the system browser
             on the native build. Renders nothing on the web. */}
+        {/* The cover pictures' gradients, defined once for every cover on the page (not display:none, which would stop them painting). */}
+        <svg aria-hidden width="0" height="0" style={{ position: "absolute" }}><defs><ArtDefs /></defs></svg>
         <NativeAuthBridge />
         {/* Configures RevenueCat on the native build, keyed to the same
             Supabase user id everything else uses. Renders nothing. */}

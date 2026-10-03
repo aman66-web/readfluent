@@ -90,17 +90,19 @@ const ICONS = [
  * in the colours of their shelves, four things being set up and ticked off, and, when it is
  * done, their level, daily time and language as a plan they can see. Then the way in.
  */
-export function ReadyScreen({ at, of, interests, minutes, level, learn, onTest, onBack, onContinue }: Nav & {
+export function ReadyScreen({ at, of, interests, minutes, level, learn, built = false, onTest, onBack, onContinue }: Nav & {
   interests: readonly CategoryId[];
   minutes: number;
   level: Cefr | null;
   learn: LanguageCode | null;
+  /** Already built once (coming back from the level test): show it finished, without the wait. */
+  built?: boolean;
   /** Opens the level test, for a reader who would rather be placed than keep the level they picked. */
   onTest: () => void;
 }) {
   const t = useT();
   const locale = useLocale();
-  const pct = useStagedCount(BUILDING, 500);
+  const pct = useStagedCount(BUILDING, 500, built);
   const done = pct >= 100;
   const line = done ? t("ready.done") : t("ready.building");
   const guide = useGuide(line);
@@ -113,7 +115,7 @@ export function ReadyScreen({ at, of, interests, minutes, level, learn, onTest, 
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-4 pt-4">
         <GuideHead key={line} guide={guide} line={line} mood="cheer" />
 
-        <div className="mt-3" dir="ltr"><Shelf pct={pct} /></div>
+        <div className="mt-6" dir="ltr"><Shelf pct={pct} /></div>
 
         {/* While it builds, how far along; once built, the plan it was built from. */}
         <div className="mt-2 min-h-10 shrink-0">
@@ -128,7 +130,7 @@ export function ReadyScreen({ at, of, interests, minutes, level, learn, onTest, 
               ))}
             </ul>
           ) : (
-            <div className="flex items-center gap-3" dir="ltr">
+            <div className="flex items-center gap-3">
               <div className="guide-track h-2 flex-1 overflow-hidden rounded-full" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct} aria-label={line}>
                 <div className="h-full rounded-full bg-[linear-gradient(90deg,#67E8F9,#22D3EE,#0E7490)] transition-[width] duration-300" style={{ width: `${pct}%` }} />
               </div>

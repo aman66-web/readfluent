@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 import { SignIn } from "@/components/onboarding/SignIn";
+import "../../app/welcome/welcome.css";
 import { MASCOT_NAME } from "@/lib/brand";
 import { useT } from "@/lib/i18n/react";
 import { LANGUAGES } from "@/lib/onboarding/languages";
@@ -30,12 +31,12 @@ const recognitionCtor = (): (new () => Recognition) | null => {
 
 const stroke = { fill: "none", stroke: "currentColor", strokeWidth: 2, strokeLinecap: "round", strokeLinejoin: "round" } as const;
 
-export function Talk() {
+export function Talk({ ready: switchedOn = true }: { /** Whether the server can run Talk (a model key and a database), worked out on the server. */ ready?: boolean }) {
   const ready = useDeviceReady();
-  return <main className="safe-top safe-bottom flex h-dvh flex-col [--pb:.75rem] [--pt:.25rem]">{ready ? <Chat /> : null}</main>;
+  return <main className="safe-top safe-bottom flex h-dvh flex-col [--pb:.75rem] [--pt:.25rem]">{ready ? <Chat switchedOn={switchedOn} /> : null}</main>;
 }
 
-function Chat() {
+function Chat({ switchedOn }: { switchedOn: boolean }) {
   const t = useT();
   const a = useAnswers();
   const learn = a.learn;
@@ -57,12 +58,12 @@ function Chat() {
   }, []);
   useEffect(() => { bottom.current?.scrollIntoView({ block: "end" }); }, [lines, busy, problem]);
 
-  const send = useCallback(async (said: string) => {
+  const send = useCallback(async (said: string, fromInput = false) => {
     const msg = said.replace(/\s+/g, " ").trim().slice(0, MAX_CHARS);
     if (!msg || busy || !learn) return;
     const next: Line[] = [...lines, { role: "user", text: msg }];
     setLines(next);
-    setText("");
+    if (fromInput) setText("");
     setProblem(null);
     setBusy(true);
     try {
@@ -76,7 +77,7 @@ function Chat() {
         const code = ((await res.json().catch(() => ({}))) as { error?: string }).error;
         // The message goes back in the box so nothing typed is lost.
         setLines(lines);
-        setText(msg);
+        if (fromInput) setText(msg);
         setProblem(code === "not_ready" || code === "sign_in" || code === "limit" ? code : "error");
         return;
       }
@@ -85,7 +86,7 @@ function Chat() {
     } catch {
       if (!live.current) return;
       setLines(lines);
-      setText(msg);
+      if (fromInput) setText(msg);
       setProblem("error");
     } finally {
       if (live.current) setBusy(false);
@@ -144,6 +145,18 @@ function Chat() {
         <div className="flex flex-1 flex-col items-center justify-center px-8 text-center">
           <p className="text-[15px] text-muted">{t("recall.deckPick")}</p>
           <Link href="/languages" className="btn-cyan mt-4 flex h-12 items-center rounded-full px-7 text-[15px] font-bold">{t("languages.title")}</Link>
+        </div>
+      </>
+    );
+  }
+
+  if (!switchedOn) {
+    return (
+      <>
+        {header}
+        <div className="flex flex-1 flex-col items-center justify-center px-8 text-center">
+          <Mascot mood="sleepy" className="block h-[130px] w-auto" />
+          <p role="status" className="mt-4 max-w-[17rem] text-[15.5px] leading-snug text-muted">{t("talk.notReady")}</p>
         </div>
       </>
     );
@@ -213,7 +226,7 @@ function Chat() {
             {problem === "sign_in" ? (
               <>
                 <p className="mb-3">{t("talk.signIn", { name: MASCOT_NAME })}</p>
-                <div className="text-start"><SignIn error={false} next="/recall/talk" onNext={() => window.location.reload()} /></div>
+                <div className="ob rounded-[18px] p-3 text-start"><SignIn error={false} next="/recall/talk" onNext={() => window.location.reload()} /></div>
               </>
             ) : (
               <p>{problem === "not_ready" ? t("talk.notReady") : problem === "limit" ? t("talk.limit") : t("talk.error")}</p>
@@ -224,7 +237,7 @@ function Chat() {
       </div>
 
       <form
-        onSubmit={(e) => { e.preventDefault(); void send(text); }}
+        onSubmit={(e) => { e.preventDefault(); void send(text, true); }}
         className="flex items-end gap-2 border-t border-border bg-background px-4 pt-3"
       >
         {canMic ? (

@@ -48,7 +48,7 @@ export function AppLanguageScreen({ onContinue }: { onContinue: () => void }) {
 
   // The chosen language is kept in view: a browser in Turkish or Vietnamese starts far down the list.
   useEffect(() => {
-    list.current?.querySelector<HTMLElement>("[aria-pressed=true]")?.scrollIntoView({ block: "nearest" });
+    list.current?.querySelector<HTMLElement>("[aria-pressed=true]")?.scrollIntoView({ block: "center" });
   }, [locale]);
 
   useEffect(() => {

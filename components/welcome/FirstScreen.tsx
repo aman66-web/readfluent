@@ -46,7 +46,7 @@ export function FirstScreen({ onStart, onSignIn, onBack }: { onStart: () => void
       <div className="relative z-[1] flex shrink-0 flex-col items-center px-7 pb-[calc(env(safe-area-inset-bottom)+1rem)] text-center">
         {/* Dewey stands on the foot of the wall, where it has faded to white. */}
         <span className="first-owl wel-in -mt-16 block" style={{ animationDelay: "200ms" }} aria-hidden><Mascot mood="hello" className="w-[112px]" /></span>
-        <h1 className="first-name mt-1 flex items-baseline justify-center text-[clamp(40px,14.4vw,60px)] font-extrabold leading-none tracking-[-0.035em]" aria-label={APP_NAME}>
+        <h1 dir="ltr" className="first-name mt-1 flex items-baseline justify-center text-[clamp(40px,14.4vw,60px)] font-extrabold leading-none tracking-[-0.035em]" aria-label={APP_NAME}>
           {/* The name in plain, heavy letters rising one after another: "Read" in ink, "Fluent" in the brand's deep cyan. */}
           {Array.from(top).map((ch, i) => <span key={`t${i}`} aria-hidden className="wel-in inline-block" style={{ animationDelay: `${300 + i * 55}ms`, color: "var(--ob-ink)" }}>{ch}</span>)}
           {bottom && Array.from(bottom).map((ch, i) => <span key={`b${i}`} aria-hidden className="wel-in inline-block" style={{ animationDelay: `${300 + (top.length + i) * 55}ms`, color: BRAND.deep }}>{ch}</span>)}
@@ -94,7 +94,7 @@ export const ROWS: readonly (readonly Cover[])[] = [
 
 function Wall() {
   return (
-    <div className="first-wall pointer-events-none relative min-h-0 flex-1 overflow-hidden" aria-hidden>
+    <div dir="ltr" className="first-wall pointer-events-none relative min-h-0 flex-1 overflow-hidden" aria-hidden>
       {/* The gradients every icon fills with, defined once. */}
       <svg width={0} height={0} className="absolute">
         <defs><ArtDefs /></defs>

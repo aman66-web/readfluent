@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { parseChoice, parseProgress, resumeIndex, versionKey } from "@/lib/progress";
+import { furthest, parseChoice, parseVersionKey, parseProgress, resumeIndex, savePage, versionKey } from "@/lib/progress";
 
 describe("saved progress", () => {
   it("reads a good value", () => {
-    expect(parseProgress('{"a/b1b2-50":3,"b/a1a2-100":0}')).toEqual({ "a/b1b2-50": 3, "b/a1a2-100": 0 });
+    expect(parseProgress('{"a/b1b2-50":3,"b/a1a2-100":0}')).toEqual({ "a/B1B2-50": 3, "b/A1A2-100": 0 });
   });
 
   it("never throws, and keeps nothing it cannot trust", () => {
@@ -29,5 +29,17 @@ describe("the remembered level and length", () => {
     expect(parseChoice('{"book":{"level":"B1B2","length":100}}')).toEqual({ book: { level: "B1B2", length: 100 } });
     expect(parseChoice('{"book":{"level":1,"length":"x"},"ok":{"level":"A1A2","length":50}}')).toEqual({ ok: { level: "A1A2", length: 50 } });
     for (const bad of [null, "", "{", "[]", "7"]) expect(parseChoice(bad as string)).toEqual({});
+  });
+});
+
+describe("one key per version", () => {
+  it("normalises case and drops a language suffix, keeping the larger page", () => {
+    expect(parseProgress('{"emma/a1a2-200":30,"emma.es/A1A2-200":5}')).toEqual({ "emma/A1A2-200": 30 });
+    expect(versionKey("emma.es", "a1a2", 200)).toBe("emma/A1A2-200");
+  });
+  it("furthest and parseVersionKey read what the reader writes", () => {
+    expect(parseVersionKey("emma.es/A1A2-200")).toEqual({ slug: "emma", level: "A1A2", length: 200 });
+    expect(furthest({ "emma/A1A2-200": 9 }, "emma")).toEqual({ level: "A1A2", length: 200, index: 9 });
+    expect(savePage).toBeTypeOf("function");
   });
 });

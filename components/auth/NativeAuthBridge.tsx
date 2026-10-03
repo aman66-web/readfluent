@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { listenForNativeAuth } from "@/lib/auth/native";
+import { onNativeShell } from "@/lib/auth/shell";
 
 /**
  * Catches an OAuth sign-in coming back from the system browser, on the
@@ -13,6 +13,16 @@ import { listenForNativeAuth } from "@/lib/auth/native";
  * are there.
  */
 export function NativeAuthBridge() {
-  useEffect(() => listenForNativeAuth(), []);
+  useEffect(() => {
+    // The sign-in code (and the Supabase client under it) is fetched only inside the native app.
+    if (!onNativeShell()) return;
+    let stop: (() => void) | undefined;
+    let gone = false;
+    void import("@/lib/auth/native").then((m) => {
+      if (gone) return;
+      stop = m.listenForNativeAuth();
+    });
+    return () => { gone = true; stop?.(); };
+  }, []);
   return null;
 }

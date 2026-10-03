@@ -3,130 +3,862 @@
   "lang": "pt",
   "levels": {
     "A1A2": [
-      { "text": "John Watson estudou para ser médico e depois entrou para o exército.", "keys": [ { "w": "estudou", "en": "studied" }, { "w": "médico", "en": "doctor" }, { "w": "exército", "en": "army" } ] },
-      { "text": "O exército o mandou para a Índia, e uma guerra começou no Afeganistão.", "keys": [ { "w": "mandou", "en": "sent" }, { "w": "guerra", "en": "war" }, { "w": "começou", "en": "began" } ] },
-      { "text": "Em uma batalha chamada Maiwand, uma bala acertou o ombro dele.", "keys": [ { "w": "batalha", "en": "battle" }, { "w": "bala", "en": "bullet" }, { "w": "ombro", "en": "shoulder" } ] },
-      { "text": "Seu ajudante Murray o colocou em um cavalo e o levou embora.", "keys": [ { "w": "ajudante", "en": "helper" }, { "w": "cavalo", "en": "horse" }, { "w": "levou", "en": "took, carried" } ] },
-      { "text": "Ele ficou doente em um hospital por meses e quase morreu.", "keys": [ { "w": "doente", "en": "sick" }, { "w": "meses", "en": "months" }, { "w": "quase", "en": "almost" } ] },
-      { "text": "Um navio o levou de volta para a Inglaterra, mas ele estava muito fraco.", "keys": [ { "w": "navio", "en": "ship" }, { "w": "volta", "en": "back, return" }, { "w": "fraco", "en": "weak" } ] },
-      { "text": "Ele não tinha família na Inglaterra e tinha muito pouco dinheiro.", "keys": [ { "w": "família", "en": "family" }, { "w": "pouco", "en": "little" }, { "w": "dinheiro", "en": "money" } ] },
-      { "text": "Em Londres, ele morava em um hotel triste e gastava seu dinheiro.", "keys": [ { "w": "morava", "en": "lived" }, { "w": "triste", "en": "sad" }, { "w": "gastava", "en": "spent" } ] },
-      { "text": "Um dia, ele contou seu dinheiro e viu que precisava se mudar.", "keys": [ { "w": "contou", "en": "counted" }, { "w": "viu", "en": "saw" }, { "w": "precisava", "en": "needed" } ] },
-      { "text": "Em um bar movimentado, um velho amigo chamado Stamford tocou no ombro dele.", "keys": [ { "w": "movimentado", "en": "busy" }, { "w": "velho", "en": "old" }, { "w": "tocou", "en": "touched" } ] }
+      {
+        "text": "John Watson virou médico do exército, e uma guerra começou no Afeganistão.",
+        "keys": [
+          {
+            "w": "virou",
+            "en": "became"
+          },
+          {
+            "w": "exército",
+            "en": "army"
+          },
+          {
+            "w": "começou",
+            "en": "began"
+          }
+        ]
+      },
+      {
+        "text": "Em uma batalha chamada Maiwand, uma bala acertou o ombro dele, e Murray o salvou.",
+        "keys": [
+          {
+            "w": "bala",
+            "en": "bullet"
+          },
+          {
+            "w": "ombro",
+            "en": "shoulder"
+          },
+          {
+            "w": "salvou",
+            "en": "saved"
+          }
+        ]
+      },
+      {
+        "text": "Ele quase morreu de febre em um hospital em Peshawar.",
+        "keys": [
+          {
+            "w": "quase",
+            "en": "almost"
+          },
+          {
+            "w": "morreu",
+            "en": "died"
+          },
+          {
+            "w": "febre",
+            "en": "fever"
+          }
+        ]
+      },
+      {
+        "text": "Um navio o trouxe para casa, na Inglaterra, mas ele estava muito fraco.",
+        "keys": [
+          {
+            "w": "navio",
+            "en": "ship"
+          },
+          {
+            "w": "trouxe",
+            "en": "brought"
+          },
+          {
+            "w": "fraco",
+            "en": "weak"
+          }
+        ]
+      },
+      {
+        "text": "Ele não tinha família e tinha pouco dinheiro, então foi para Londres.",
+        "keys": [
+          {
+            "w": "pouco",
+            "en": "little"
+          },
+          {
+            "w": "dinheiro",
+            "en": "money"
+          },
+          {
+            "w": "então",
+            "en": "so, then"
+          }
+        ]
+      },
+      {
+        "text": "Em Londres, ele morava em um hotel triste e gastava seu dinheiro.",
+        "keys": [
+          {
+            "w": "morava",
+            "en": "lived"
+          },
+          {
+            "w": "triste",
+            "en": "sad"
+          },
+          {
+            "w": "gastava",
+            "en": "was spending"
+          }
+        ]
+      },
+      {
+        "text": "Um dia, ele contou seu dinheiro e viu que precisava se mudar.",
+        "keys": [
+          {
+            "w": "contou",
+            "en": "counted"
+          },
+          {
+            "w": "viu",
+            "en": "saw"
+          },
+          {
+            "w": "precisava",
+            "en": "had to, needed"
+          }
+        ]
+      },
+      {
+        "text": "Em um bar movimentado, um velho amigo chamado Stamford tocou no ombro dele.",
+        "keys": [
+          {
+            "w": "movimentado",
+            "en": "busy"
+          },
+          {
+            "w": "velho",
+            "en": "old"
+          },
+          {
+            "w": "tocou",
+            "en": "touched, tapped"
+          }
+        ]
+      },
+      {
+        "text": "Stamford viu que Watson estava magro e bronzeado, e eles almoçaram juntos.",
+        "keys": [
+          {
+            "w": "magro",
+            "en": "thin"
+          },
+          {
+            "w": "bronzeado",
+            "en": "tanned"
+          },
+          {
+            "w": "almoçaram",
+            "en": "had lunch"
+          }
+        ]
+      },
+      {
+        "text": "Watson precisava de quartos baratos, e Stamford conhecia outro homem que queria a mesma coisa.",
+        "keys": [
+          {
+            "w": "quartos",
+            "en": "rooms"
+          },
+          {
+            "w": "baratos",
+            "en": "cheap"
+          },
+          {
+            "w": "conhecia",
+            "en": "knew"
+          }
+        ]
+      }
     ],
     "B1B2": [
-      { "text": "John Watson se formou em medicina em 1878 e depois treinou para ser cirurgião do exército. Logo em seguida foi enviado à Índia, mas uma nova guerra tinha começado no Afeganistão antes que seu navio chegasse à costa.", "keys": [ { "w": "formou", "en": "graduated" }, { "w": "cirurgião", "en": "surgeon" }, { "w": "enviado", "en": "sent" } ] },
-      { "text": "Na batalha de Maiwand, uma bala quebrou os ossos do ombro de Watson. Seu ordenança, um homem corajoso chamado Murray, o colocou sobre um cavalo e o conduziu a salvo até as linhas britânicas.", "keys": [ { "w": "ossos", "en": "bones" }, { "w": "ordenança", "en": "orderly" }, { "w": "conduziu", "en": "led" } ] },
-      { "text": "Watson foi levado ao hospital de base em Peshawar, onde começou a melhorar. Depois contraiu uma febre comum entre os soldados, e por meses ninguém acreditava que ele fosse sobreviver.", "keys": [ { "w": "melhorar", "en": "to get better" }, { "w": "contraiu", "en": "caught" }, { "w": "sobreviver", "en": "to survive" } ] },
-      { "text": "Por fim, ficou forte o bastante para viajar, e um navio de tropas chamado Orontes o levou a Portsmouth. Sua saúde estava arruinada, mas o governo lhe deu nove meses para tentar se recuperar.", "keys": [ { "w": "tropas", "en": "troops" }, { "w": "arruinada", "en": "ruined" }, { "w": "recuperar", "en": "to recover" } ] },
-      { "text": "Watson não tinha parentes nem amigos na Inglaterra, e sua única renda era uma pequena pensão do exército. Como muitos ociosos vindos de todo o Império, acabou indo parar em Londres.", "keys": [ { "w": "parentes", "en": "relatives" }, { "w": "renda", "en": "income" }, { "w": "ociosos", "en": "idle people" } ] },
-      { "text": "Por um tempo, viveu num hotel sombrio na Strand, onde não tinha nada para fazer e ninguém com quem conversar. Gastava o dinheiro muito mais livremente do que devia.", "keys": [ { "w": "sombrio", "en": "gloomy" }, { "w": "conversar", "en": "to talk" }, { "w": "livremente", "en": "freely" } ] },
-      { "text": "Certa manhã, olhou suas contas e ficou alarmado ao ver como restava pouco. Sabia que precisava ou deixar Londres de vez, ou mudar o seu modo de viver.", "keys": [ { "w": "contas", "en": "accounts, bills" }, { "w": "alarmado", "en": "alarmed" }, { "w": "restava", "en": "was left" } ] },
-      { "text": "Escolheu mudar de vida e decidiu procurar quartos mais baratos já no dia seguinte. Naquela mesma tarde, estava no Criterion Bar quando alguém tocou em seu ombro.", "keys": [ { "w": "quartos", "en": "rooms" }, { "w": "baratos", "en": "cheap" }, { "w": "tocou", "en": "touched" } ] },
-      { "text": "Era o jovem Stamford, que tinha trabalhado sob as ordens dele como auxiliar de cirurgia no hospital St Bartholomew's. Stamford ficou chocado ao vê-lo tão magro e bronzeado e o levou para almoçar em Holborn.", "keys": [ { "w": "auxiliar", "en": "assistant" }, { "w": "chocado", "en": "shocked" }, { "w": "bronzeado", "en": "tanned" } ] },
-      { "text": "Durante o almoço, Watson lhe contou sobre a guerra, o ferimento e a procura por quartos baratos. Stamford riu e disse que era estranho, porque Watson era o segundo homem naquele dia a dizer isso.", "keys": [ { "w": "ferimento", "en": "wound" }, { "w": "procura", "en": "search" }, { "w": "estranho", "en": "strange" } ] }
+      {
+        "text": "John Watson se formou em medicina em 1878 e depois treinou para ser cirurgião do exército. Logo em seguida foi enviado à Índia, mas uma nova guerra tinha começado no Afeganistão antes que seu navio chegasse à costa.",
+        "keys": [
+          {
+            "w": "formou",
+            "en": "graduated"
+          },
+          {
+            "w": "cirurgião",
+            "en": "surgeon"
+          },
+          {
+            "w": "enviado",
+            "en": "sent"
+          }
+        ]
+      },
+      {
+        "text": "Na batalha de Maiwand, uma bala quebrou os ossos do ombro de Watson. Seu ordenança, um homem corajoso chamado Murray, o colocou sobre um cavalo e o conduziu a salvo até as linhas britânicas.",
+        "keys": [
+          {
+            "w": "ossos",
+            "en": "bones"
+          },
+          {
+            "w": "ordenança",
+            "en": "orderly"
+          },
+          {
+            "w": "conduziu",
+            "en": "led"
+          }
+        ]
+      },
+      {
+        "text": "Watson foi levado ao hospital de base em Peshawar, onde começou a melhorar. Depois contraiu uma febre comum entre os soldados, e por meses ninguém acreditava que ele fosse sobreviver.",
+        "keys": [
+          {
+            "w": "melhorar",
+            "en": "to get better"
+          },
+          {
+            "w": "contraiu",
+            "en": "caught"
+          },
+          {
+            "w": "sobreviver",
+            "en": "to survive"
+          }
+        ]
+      },
+      {
+        "text": "Por fim, ficou forte o bastante para viajar, e um navio de tropas chamado Orontes o levou a Portsmouth. Sua saúde estava arruinada, mas o governo lhe deu nove meses para tentar se recuperar.",
+        "keys": [
+          {
+            "w": "tropas",
+            "en": "troops"
+          },
+          {
+            "w": "arruinada",
+            "en": "ruined"
+          },
+          {
+            "w": "recuperar",
+            "en": "to recover"
+          }
+        ]
+      },
+      {
+        "text": "Watson não tinha parentes nem amigos na Inglaterra, e sua única renda era uma pequena pensão do exército. Como muitos ociosos vindos de todo o Império, acabou indo parar em Londres.",
+        "keys": [
+          {
+            "w": "parentes",
+            "en": "relatives"
+          },
+          {
+            "w": "renda",
+            "en": "income"
+          },
+          {
+            "w": "ociosos",
+            "en": "idle people"
+          }
+        ]
+      },
+      {
+        "text": "Por um tempo, viveu num hotel sombrio na Strand, onde não tinha nada para fazer e ninguém com quem conversar. Gastava o dinheiro muito mais livremente do que devia.",
+        "keys": [
+          {
+            "w": "sombrio",
+            "en": "gloomy"
+          },
+          {
+            "w": "conversar",
+            "en": "to talk"
+          },
+          {
+            "w": "livremente",
+            "en": "freely"
+          }
+        ]
+      },
+      {
+        "text": "Certa manhã, olhou suas contas e ficou alarmado ao ver como restava pouco. Sabia que precisava ou deixar Londres de vez, ou mudar o seu modo de viver.",
+        "keys": [
+          {
+            "w": "contas",
+            "en": "accounts, bills"
+          },
+          {
+            "w": "alarmado",
+            "en": "alarmed"
+          },
+          {
+            "w": "restava",
+            "en": "was left"
+          }
+        ]
+      },
+      {
+        "text": "Escolheu mudar de vida e decidiu procurar quartos mais baratos já no dia seguinte. Naquela mesma tarde, estava no Criterion Bar quando alguém tocou em seu ombro.",
+        "keys": [
+          {
+            "w": "quartos",
+            "en": "rooms"
+          },
+          {
+            "w": "baratos",
+            "en": "cheap"
+          },
+          {
+            "w": "tocou",
+            "en": "touched"
+          }
+        ]
+      },
+      {
+        "text": "Era o jovem Stamford, que tinha trabalhado sob as ordens dele como auxiliar de cirurgia no hospital St Bartholomew's. Stamford ficou chocado ao vê-lo tão magro e bronzeado e o levou para almoçar em Holborn.",
+        "keys": [
+          {
+            "w": "auxiliar",
+            "en": "assistant"
+          },
+          {
+            "w": "chocado",
+            "en": "shocked"
+          },
+          {
+            "w": "bronzeado",
+            "en": "tanned"
+          }
+        ]
+      },
+      {
+        "text": "Durante o almoço, Watson lhe contou sobre a guerra, o ferimento e a procura por quartos baratos. Stamford riu e disse que era estranho, porque Watson era o segundo homem naquele dia a dizer isso.",
+        "keys": [
+          {
+            "w": "ferimento",
+            "en": "wound"
+          },
+          {
+            "w": "procura",
+            "en": "search"
+          },
+          {
+            "w": "estranho",
+            "en": "strange"
+          }
+        ]
+      }
     ],
     "C1C2": [
-      { "text": "John Watson se formou em medicina pela Universidade de Londres em 1878 e depois fez o curso de Netley, que todo jovem cirurgião do exército tinha de concluir. Mal fora designado para um regimento na Índia, uma nova guerra irrompeu no Afeganistão. Quando seu navio chegou a terra, o regimento já havia marchado para além da fronteira, e ele se apressou para alcançá-lo.", "keys": [ { "w": "designado", "en": "posted, assigned" }, { "w": "irrompeu", "en": "broke out" }, { "w": "fronteira", "en": "frontier" } ] },
-      { "text": "Na batalha de Maiwand, uma pesada bala atingiu Watson no ombro, estilhaçou o osso e por pouco não rompeu a grande artéria que passava logo abaixo. Teria certamente caído nas mãos do inimigo, não fosse por seu fiel ordenança, Murray. Aquele bravo homem o atirou sobre um cavalo de carga e o conduziu, em meio ao combate, até as linhas britânicas.", "keys": [ { "w": "estilhaçou", "en": "shattered" }, { "w": "artéria", "en": "artery" }, { "w": "ordenança", "en": "orderly" } ] },
-      { "text": "Exausto pela dor e pelas agruras da retirada, Watson foi levado ao hospital de base em Peshawar, onde por algum tempo pareceu recuperar-se. Depois foi acometido de febre entérica, a praga do exército na Índia, e durante meses sua vida esteve por um fio. Quando a crise finalmente passou, estava tão fraco e magro que os médicos não permitiram que continuasse naquele clima.", "keys": [ { "w": "agruras", "en": "hardships" }, { "w": "acometido", "en": "struck down" }, { "w": "entérica", "en": "enteric (typhoid)" } ] },
-      { "text": "Um navio de tropas chamado Orontes levou o inválido para casa, e ele desembarcou em Portsmouth com a saúde irremediavelmente arruinada. O governo, em sua bondade, concedeu-lhe nove meses para se restabelecer, embora não oferecesse nem lar nem trabalho que os acompanhasse. Para um homem de futuro tão vazio, parecia um prazo curto de fato, e ele não tinha ideia de por onde começar.", "keys": [ { "w": "inválido", "en": "invalid" }, { "w": "desembarcou", "en": "came ashore" }, { "w": "concedeu", "en": "granted" } ] },
-      { "text": "Watson não tinha parentes nem amigos na Inglaterra e vivia de uma pensão do exército de onze xelins e seis pence por dia. Como todos os vadios e ociosos do Império, que parecem atraídos irresistivelmente para a capital, gravitou para Londres. Era, pensava ele, uma vasta cloaca de cidade, onde um homem solitário podia afundar sem deixar sequer uma ondulação.", "keys": [ { "w": "pensão", "en": "pension" }, { "w": "gravitou", "en": "was drawn" }, { "w": "cloaca", "en": "cesspool" } ] },
-      { "text": "Alugou um quarto em um hotel particular desconfortável na Strand, e ali levou uma vida sem sentido, sem amigos a visitar e sem trabalho que o ocupasse. Tudo o que tinha na bolsa gastou com muito mais largueza do que devia, como se o dinheiro não tivesse fim. Dia após dia, à medida que as semanas passavam, tornava-se mais desorientado e mais sombrio.", "keys": [ { "w": "desconfortável", "en": "uncomfortable" }, { "w": "largueza", "en": "lavishness" }, { "w": "desorientado", "en": "aimless, lost" } ] },
-      { "text": "Por fim, suas finanças ficaram tão alarmantes que viu que precisava agir, e sentou-se certa manhã para encarar a verdade. Ou deixava a capital e se recolhia a algum canto do campo, ou mudava por completo seu estilo de vida. Escolheu o segundo caminho e resolveu procurar alojamento menos pretensioso e bem menos dispendioso.", "keys": [ { "w": "recolhia", "en": "withdrew" }, { "w": "pretensioso", "en": "showy, pretentious" }, { "w": "alojamento", "en": "lodgings" } ] },
-      { "text": "No mesmo dia em que chegou a essa conclusão, estava no Criterion Bar quando alguém lhe deu um tapinha no ombro. Virando-se, reconheceu o jovem Stamford, que fora seu auxiliar de cirurgia no hospital St Bartholomew's. Para um homem solitário no grande deserto de Londres, a visão de um rosto amigo era um prazer além das palavras.", "keys": [ { "w": "tapinha", "en": "light tap" }, { "w": "reconheceu", "en": "recognised" }, { "w": "deserto", "en": "wilderness, desert" } ] },
-      { "text": "Stamford, por sua vez, ficou pasmo com a mudança do antigo chefe, pois Watson estava agora magro como um palito e tostado como uma castanha. Insistiu em levá-lo para almoçar em Holborn e, no cabriolé, a caminho, perguntou o que diabos havia acontecido. Watson contou-lhe sobre a guerra, o ferimento e a longa febre, enquanto o cabriolé chacoalhava pela rua movimentada.", "keys": [ { "w": "pasmo", "en": "astonished" }, { "w": "palito", "en": "toothpick, stick" }, { "w": "cabriolé", "en": "hansom cab" } ] },
-      { "text": "Ao fim da refeição, Watson chegara ao ponto de suas aflições e explicou que queria quartos por um preço razoável. Stamford o fitou com curiosidade e observou que aquela era uma estranha coincidência, pois Watson era o segundo homem naquele dia a usar aquelas mesmíssimas palavras. Era exatamente o tipo de acaso que Watson esperava, e ele se inclinou ansioso para perguntar quem era o outro homem.", "keys": [ { "w": "aflições", "en": "troubles" }, { "w": "mesmíssimas", "en": "very same" }, { "w": "acaso", "en": "chance" } ] }
+      {
+        "text": "John Watson se formou em medicina pela Universidade de Londres em 1878 e depois fez o curso de Netley, que todo jovem cirurgião do exército tinha de concluir. Mal fora designado para um regimento na Índia, uma nova guerra irrompeu no Afeganistão. Quando seu navio chegou a terra, o regimento já havia marchado para além da fronteira, e ele se apressou para alcançá-lo.",
+        "keys": [
+          {
+            "w": "designado",
+            "en": "posted, assigned"
+          },
+          {
+            "w": "irrompeu",
+            "en": "broke out"
+          },
+          {
+            "w": "fronteira",
+            "en": "frontier"
+          }
+        ]
+      },
+      {
+        "text": "Na batalha de Maiwand, uma pesada bala atingiu Watson no ombro, estilhaçou o osso e por pouco não rompeu a grande artéria que passava logo abaixo. Teria certamente caído nas mãos do inimigo, não fosse por seu fiel ordenança, Murray. Aquele bravo homem o atirou sobre um cavalo de carga e o conduziu, em meio ao combate, até as linhas britânicas.",
+        "keys": [
+          {
+            "w": "estilhaçou",
+            "en": "shattered"
+          },
+          {
+            "w": "artéria",
+            "en": "artery"
+          },
+          {
+            "w": "ordenança",
+            "en": "orderly"
+          }
+        ]
+      },
+      {
+        "text": "Exausto pela dor e pelas agruras da retirada, Watson foi levado ao hospital de base em Peshawar, onde por algum tempo pareceu recuperar-se. Depois foi acometido de febre entérica, a praga do exército na Índia, e durante meses sua vida esteve por um fio. Quando a crise finalmente passou, estava tão fraco e magro que os médicos não permitiram que continuasse naquele clima.",
+        "keys": [
+          {
+            "w": "agruras",
+            "en": "hardships"
+          },
+          {
+            "w": "acometido",
+            "en": "struck down"
+          },
+          {
+            "w": "entérica",
+            "en": "enteric (typhoid)"
+          }
+        ]
+      },
+      {
+        "text": "Um navio de tropas chamado Orontes levou o inválido para casa, e ele desembarcou em Portsmouth com a saúde irremediavelmente arruinada. O governo, em sua bondade, concedeu-lhe nove meses para se restabelecer, embora não oferecesse nem lar nem trabalho que os acompanhasse. Para um homem de futuro tão vazio, parecia um prazo curto de fato, e ele não tinha ideia de por onde começar.",
+        "keys": [
+          {
+            "w": "inválido",
+            "en": "invalid"
+          },
+          {
+            "w": "desembarcou",
+            "en": "came ashore"
+          },
+          {
+            "w": "concedeu",
+            "en": "granted"
+          }
+        ]
+      },
+      {
+        "text": "Watson não tinha parentes nem amigos na Inglaterra e vivia de uma pensão do exército de onze xelins e seis pence por dia. Como todos os vadios e ociosos do Império, que parecem atraídos irresistivelmente para a capital, gravitou para Londres. Era, pensava ele, uma vasta cloaca de cidade, onde um homem solitário podia afundar sem deixar sequer uma ondulação.",
+        "keys": [
+          {
+            "w": "pensão",
+            "en": "pension"
+          },
+          {
+            "w": "gravitou",
+            "en": "was drawn"
+          },
+          {
+            "w": "cloaca",
+            "en": "cesspool"
+          }
+        ]
+      },
+      {
+        "text": "Alugou um quarto em um hotel particular desconfortável na Strand, e ali levou uma vida sem sentido, sem amigos a visitar e sem trabalho que o ocupasse. Tudo o que tinha na bolsa gastou com muito mais largueza do que devia, como se o dinheiro não tivesse fim. Dia após dia, à medida que as semanas passavam, tornava-se mais desorientado e mais sombrio.",
+        "keys": [
+          {
+            "w": "desconfortável",
+            "en": "uncomfortable"
+          },
+          {
+            "w": "largueza",
+            "en": "lavishness"
+          },
+          {
+            "w": "desorientado",
+            "en": "aimless, lost"
+          }
+        ]
+      },
+      {
+        "text": "Por fim, suas finanças ficaram tão alarmantes que viu que precisava agir, e sentou-se certa manhã para encarar a verdade. Ou deixava a capital e se recolhia a algum canto do campo, ou mudava por completo seu estilo de vida. Escolheu o segundo caminho e resolveu procurar alojamento menos pretensioso e bem menos dispendioso.",
+        "keys": [
+          {
+            "w": "recolhia",
+            "en": "withdrew"
+          },
+          {
+            "w": "pretensioso",
+            "en": "showy, pretentious"
+          },
+          {
+            "w": "alojamento",
+            "en": "lodgings"
+          }
+        ]
+      },
+      {
+        "text": "No mesmo dia em que chegou a essa conclusão, estava no Criterion Bar quando alguém lhe deu um tapinha no ombro. Virando-se, reconheceu o jovem Stamford, que fora seu auxiliar de cirurgia no hospital St Bartholomew's. Para um homem solitário no grande deserto de Londres, a visão de um rosto amigo era um prazer além das palavras.",
+        "keys": [
+          {
+            "w": "tapinha",
+            "en": "light tap"
+          },
+          {
+            "w": "reconheceu",
+            "en": "recognised"
+          },
+          {
+            "w": "deserto",
+            "en": "wilderness, desert"
+          }
+        ]
+      },
+      {
+        "text": "Stamford, por sua vez, ficou pasmo com a mudança do antigo chefe, pois Watson estava agora magro como um palito e tostado como uma castanha. Insistiu em levá-lo para almoçar em Holborn e, no cabriolé, a caminho, perguntou o que diabos havia acontecido. Watson contou-lhe sobre a guerra, o ferimento e a longa febre, enquanto o cabriolé chacoalhava pela rua movimentada.",
+        "keys": [
+          {
+            "w": "pasmo",
+            "en": "astonished"
+          },
+          {
+            "w": "palito",
+            "en": "toothpick, stick"
+          },
+          {
+            "w": "cabriolé",
+            "en": "hansom cab"
+          }
+        ]
+      },
+      {
+        "text": "Ao fim da refeição, Watson chegara ao ponto de suas aflições e explicou que queria quartos por um preço razoável. Stamford o fitou com curiosidade e observou que aquela era uma estranha coincidência, pois Watson era o segundo homem naquele dia a usar aquelas mesmíssimas palavras. Era exatamente o tipo de acaso que Watson esperava, e ele se inclinou ansioso para perguntar quem era o outro homem.",
+        "keys": [
+          {
+            "w": "aflições",
+            "en": "troubles"
+          },
+          {
+            "w": "mesmíssimas",
+            "en": "very same"
+          },
+          {
+            "w": "acaso",
+            "en": "chance"
+          }
+        ]
+      }
     ]
   },
   "dict": {
-    "estudou": { "en": "he studied", "use": "Past of estudar; 'estudar para' + a job means to train as." },
-    "médico": { "en": "doctor", "use": "Masculine; a woman doctor is médica." },
-    "exército": { "en": "army", "use": "Masculine noun: o exército." },
-    "mandou": { "en": "he sent", "use": "Past of mandar; also means to order." },
-    "guerra": { "en": "war", "use": "Feminine noun: a guerra." },
-    "começou": { "en": "it began", "use": "Past of começar; 'começar a' + verb means to start doing." },
-    "batalha": { "en": "battle", "use": "Feminine noun: a batalha." },
-    "bala": { "en": "bullet", "use": "Also means a sweet in Brazil." },
-    "ombro": { "en": "shoulder", "use": "Masculine noun: o ombro." },
-    "ajudante": { "en": "helper", "use": "Same form for men and women." },
-    "cavalo": { "en": "horse", "use": "Masculine; a mare is égua." },
-    "levou": { "en": "he took, he carried", "use": "Past of levar; to take someone somewhere." },
-    "doente": { "en": "sick", "use": "'Ficar doente' means to fall ill." },
-    "meses": { "en": "months", "use": "Plural of mês." },
-    "quase": { "en": "almost", "use": "'Quase morreu' means he almost died." },
-    "navio": { "en": "ship", "use": "Masculine noun: o navio." },
-    "volta": { "en": "return, back", "use": "'De volta' means back; 'dar a volta' means to go around." },
-    "fraco": { "en": "weak", "use": "Feminine is fraca." },
-    "família": { "en": "family", "use": "Feminine noun: a família." },
-    "pouco": { "en": "little, not much", "use": "'Muito pouco' means very little." },
-    "dinheiro": { "en": "money", "use": "Masculine noun, normally used in the singular." },
-    "morava": { "en": "he lived", "use": "Imperfect of morar; to live in a place." },
-    "triste": { "en": "sad", "use": "Same form for masculine and feminine." },
-    "gastava": { "en": "he spent", "use": "Imperfect of gastar; for money or time." },
-    "contou": { "en": "he counted, he told", "use": "Past of contar; means both to count and to tell." },
-    "viu": { "en": "he saw", "use": "Past of ver; irregular." },
-    "precisava": { "en": "he needed", "use": "Imperfect of precisar; 'precisar de' or 'precisar' + verb." },
-    "movimentado": { "en": "busy, lively", "use": "Describes a place full of people." },
-    "velho": { "en": "old", "use": "Before a noun, 'velho amigo' means old friend." },
-    "tocou": { "en": "he touched", "use": "Past of tocar; also means to play an instrument." },
-    "formou": { "en": "he graduated", "use": "'Se formar em' means to graduate in a subject." },
-    "cirurgião": { "en": "surgeon", "use": "Feminine is cirurgiã." },
-    "enviado": { "en": "sent", "use": "Past participle of enviar; 'foi enviado' means he was sent." },
-    "ossos": { "en": "bones", "use": "Plural of osso, with a different vowel sound." },
-    "ordenança": { "en": "orderly (soldier servant)", "use": "A soldier who serves an officer; masculine here." },
-    "conduziu": { "en": "he led", "use": "Past of conduzir; to lead or to drive." },
-    "melhorar": { "en": "to get better", "use": "Verb; used for health and for things." },
-    "contraiu": { "en": "he caught", "use": "Past of contrair; 'contrair uma doença' means to catch an illness." },
-    "sobreviver": { "en": "to survive", "use": "Verb; follows 'fosse' here after 'acreditava que'." },
-    "tropas": { "en": "troops", "use": "Feminine plural; 'navio de tropas' is a troopship." },
-    "arruinada": { "en": "ruined", "use": "Feminine of arruinado; agrees with 'saúde'." },
-    "recuperar": { "en": "to recover", "use": "'Recuperar-se' means to get well again." },
-    "parentes": { "en": "relatives", "use": "Careful: it means relatives, not parents (pais)." },
-    "renda": { "en": "income", "use": "Money coming in regularly." },
-    "ociosos": { "en": "idle people", "use": "Plural of ocioso; people with nothing to do." },
-    "sombrio": { "en": "gloomy", "use": "Describes dark, sad places." },
-    "conversar": { "en": "to talk, to chat", "use": "'Ninguém com quem conversar' means nobody to talk to." },
-    "livremente": { "en": "freely", "use": "Adverb from livre with -mente." },
-    "contas": { "en": "accounts, bills", "use": "'Olhar as contas' means to check the accounts." },
-    "alarmado": { "en": "alarmed", "use": "Feminine is alarmada." },
-    "restava": { "en": "was left", "use": "Imperfect of restar; 'restar pouco' means little remains." },
-    "quartos": { "en": "rooms", "use": "Quarto is a bedroom or any rented room." },
-    "baratos": { "en": "cheap", "use": "Masculine plural; the opposite is caros." },
-    "auxiliar": { "en": "assistant", "use": "Same form for men and women." },
-    "chocado": { "en": "shocked", "use": "Feminine is chocada." },
-    "bronzeado": { "en": "tanned", "use": "From bronze; about skin darkened by the sun." },
-    "ferimento": { "en": "wound", "use": "Masculine noun: o ferimento." },
-    "procura": { "en": "search", "use": "'Em procura de' means in search of." },
-    "estranho": { "en": "strange", "use": "Also a noun meaning a stranger." },
-    "designado": { "en": "posted, assigned", "use": "Past participle of designar, to appoint." },
-    "irrompeu": { "en": "broke out", "use": "Past of irromper; used for wars and fires." },
-    "fronteira": { "en": "frontier, border", "use": "Feminine noun: a fronteira." },
-    "estilhaçou": { "en": "it shattered", "use": "Past of estilhaçar, to break into splinters." },
-    "artéria": { "en": "artery", "use": "Feminine noun: a artéria." },
-    "agruras": { "en": "hardships", "use": "Always plural; literary for great suffering." },
-    "acometido": { "en": "struck down", "use": "'Acometido de' + illness means struck by it." },
-    "entérica": { "en": "enteric (typhoid)", "use": "'Febre entérica' is an old name for typhoid." },
-    "inválido": { "en": "invalid, disabled man", "use": "As a noun, an invalid; as an adjective, also 'not valid'." },
-    "desembarcou": { "en": "he came ashore", "use": "Past of desembarcar, to leave a ship." },
-    "concedeu": { "en": "he granted", "use": "Past of conceder; the person goes after: 'concedeu-lhe'." },
-    "pensão": { "en": "pension", "use": "Also means a small guesthouse." },
-    "gravitou": { "en": "was drawn, gravitated", "use": "Past of gravitar; 'gravitar para' means to be drawn to." },
-    "cloaca": { "en": "sewer, cesspool", "use": "Strong word; here a figure for a filthy city." },
-    "desconfortável": { "en": "uncomfortable", "use": "Same form for masculine and feminine." },
-    "largueza": { "en": "lavishness", "use": "'Com largueza' means generously, without counting." },
-    "desorientado": { "en": "aimless, lost", "use": "Feminine is desorientada." },
-    "recolhia": { "en": "withdrew", "use": "Imperfect of recolher; 'se recolher' means to retire from society." },
-    "pretensioso": { "en": "showy, pretentious", "use": "Describes places or people that try to impress." },
-    "alojamento": { "en": "lodgings", "use": "A place to stay, such as a rented room." },
-    "tapinha": { "en": "light tap", "use": "Diminutive of tapa; 'dar um tapinha' means to tap." },
-    "reconheceu": { "en": "he recognised", "use": "Past of reconhecer." },
-    "deserto": { "en": "wilderness, desert", "use": "Literary here; a lonely empty place." },
-    "pasmo": { "en": "astonished", "use": "Feminine is pasma; 'ficar pasmo' means to be amazed." },
-    "palito": { "en": "toothpick, stick", "use": "'Magro como um palito' means very thin." },
-    "cabriolé": { "en": "hansom cab", "use": "An old two-wheeled horse-drawn carriage for hire." },
-    "aflições": { "en": "troubles, afflictions", "use": "Plural of aflição; literary." },
-    "mesmíssimas": { "en": "very same", "use": "Emphatic feminine plural of mesma." },
-    "acaso": { "en": "chance", "use": "'Por acaso' means by chance." }
+    "exército": {
+      "en": "army",
+      "use": "Masculine noun: o exército."
+    },
+    "começou": {
+      "en": "it began",
+      "use": "Past of começar; 'começar a' + verb means to start doing."
+    },
+    "bala": {
+      "en": "bullet",
+      "use": "Also means a sweet in Brazil."
+    },
+    "ombro": {
+      "en": "shoulder",
+      "use": "Masculine noun: o ombro."
+    },
+    "quase": {
+      "en": "almost",
+      "use": "'Quase morreu' means he almost died."
+    },
+    "navio": {
+      "en": "ship",
+      "use": "Masculine noun: o navio."
+    },
+    "fraco": {
+      "en": "weak",
+      "use": "Feminine is fraca."
+    },
+    "pouco": {
+      "en": "little, not much",
+      "use": "'Muito pouco' means very little."
+    },
+    "dinheiro": {
+      "en": "money",
+      "use": "Masculine noun, normally used in the singular."
+    },
+    "morava": {
+      "en": "he lived",
+      "use": "Imperfect of morar; to live in a place."
+    },
+    "triste": {
+      "en": "sad",
+      "use": "Same form for masculine and feminine."
+    },
+    "gastava": {
+      "en": "he spent",
+      "use": "Imperfect of gastar; for money or time."
+    },
+    "contou": {
+      "en": "he counted, he told",
+      "use": "Past of contar; means both to count and to tell."
+    },
+    "viu": {
+      "en": "he saw",
+      "use": "Past of ver; irregular."
+    },
+    "precisava": {
+      "en": "he needed",
+      "use": "Imperfect of precisar; 'precisar de' or 'precisar' + verb."
+    },
+    "movimentado": {
+      "en": "busy, lively",
+      "use": "Describes a place full of people."
+    },
+    "velho": {
+      "en": "old",
+      "use": "Before a noun, 'velho amigo' means old friend."
+    },
+    "tocou": {
+      "en": "he touched",
+      "use": "Past of tocar; also means to play an instrument."
+    },
+    "formou": {
+      "en": "he graduated",
+      "use": "'Se formar em' means to graduate in a subject."
+    },
+    "cirurgião": {
+      "en": "surgeon",
+      "use": "Feminine is cirurgiã."
+    },
+    "enviado": {
+      "en": "sent",
+      "use": "Past participle of enviar; 'foi enviado' means he was sent."
+    },
+    "ossos": {
+      "en": "bones",
+      "use": "Plural of osso, with a different vowel sound."
+    },
+    "ordenança": {
+      "en": "orderly (soldier servant)",
+      "use": "A soldier who serves an officer; masculine here."
+    },
+    "conduziu": {
+      "en": "he led",
+      "use": "Past of conduzir; to lead or to drive."
+    },
+    "melhorar": {
+      "en": "to get better",
+      "use": "Verb; used for health and for things."
+    },
+    "contraiu": {
+      "en": "he caught",
+      "use": "Past of contrair; 'contrair uma doença' means to catch an illness."
+    },
+    "sobreviver": {
+      "en": "to survive",
+      "use": "Verb; follows 'fosse' here after 'acreditava que'."
+    },
+    "tropas": {
+      "en": "troops",
+      "use": "Feminine plural; 'navio de tropas' is a troopship."
+    },
+    "arruinada": {
+      "en": "ruined",
+      "use": "Feminine of arruinado; agrees with 'saúde'."
+    },
+    "recuperar": {
+      "en": "to recover",
+      "use": "'Recuperar-se' means to get well again."
+    },
+    "parentes": {
+      "en": "relatives",
+      "use": "Careful: it means relatives, not parents (pais)."
+    },
+    "renda": {
+      "en": "income",
+      "use": "Money coming in regularly."
+    },
+    "ociosos": {
+      "en": "idle people",
+      "use": "Plural of ocioso; people with nothing to do."
+    },
+    "sombrio": {
+      "en": "gloomy",
+      "use": "Describes dark, sad places."
+    },
+    "conversar": {
+      "en": "to talk, to chat",
+      "use": "'Ninguém com quem conversar' means nobody to talk to."
+    },
+    "livremente": {
+      "en": "freely",
+      "use": "Adverb from livre with -mente."
+    },
+    "contas": {
+      "en": "accounts, bills",
+      "use": "'Olhar as contas' means to check the accounts."
+    },
+    "alarmado": {
+      "en": "alarmed",
+      "use": "Feminine is alarmada."
+    },
+    "restava": {
+      "en": "was left",
+      "use": "Imperfect of restar; 'restar pouco' means little remains."
+    },
+    "quartos": {
+      "en": "rooms",
+      "use": "Quarto is a bedroom or any rented room."
+    },
+    "baratos": {
+      "en": "cheap",
+      "use": "Masculine plural; the opposite is caros."
+    },
+    "auxiliar": {
+      "en": "assistant",
+      "use": "Same form for men and women."
+    },
+    "chocado": {
+      "en": "shocked",
+      "use": "Feminine is chocada."
+    },
+    "bronzeado": {
+      "en": "tanned",
+      "use": "From bronze; about skin darkened by the sun."
+    },
+    "ferimento": {
+      "en": "wound",
+      "use": "Masculine noun: o ferimento."
+    },
+    "procura": {
+      "en": "search",
+      "use": "'Em procura de' means in search of."
+    },
+    "estranho": {
+      "en": "strange",
+      "use": "Also a noun meaning a stranger."
+    },
+    "designado": {
+      "en": "posted, assigned",
+      "use": "Past participle of designar, to appoint."
+    },
+    "irrompeu": {
+      "en": "broke out",
+      "use": "Past of irromper; used for wars and fires."
+    },
+    "fronteira": {
+      "en": "frontier, border",
+      "use": "Feminine noun: a fronteira."
+    },
+    "estilhaçou": {
+      "en": "it shattered",
+      "use": "Past of estilhaçar, to break into splinters."
+    },
+    "artéria": {
+      "en": "artery",
+      "use": "Feminine noun: a artéria."
+    },
+    "agruras": {
+      "en": "hardships",
+      "use": "Always plural; literary for great suffering."
+    },
+    "acometido": {
+      "en": "struck down",
+      "use": "'Acometido de' + illness means struck by it."
+    },
+    "entérica": {
+      "en": "enteric (typhoid)",
+      "use": "'Febre entérica' is an old name for typhoid."
+    },
+    "inválido": {
+      "en": "invalid, disabled man",
+      "use": "As a noun, an invalid; as an adjective, also 'not valid'."
+    },
+    "desembarcou": {
+      "en": "he came ashore",
+      "use": "Past of desembarcar, to leave a ship."
+    },
+    "concedeu": {
+      "en": "he granted",
+      "use": "Past of conceder; the person goes after: 'concedeu-lhe'."
+    },
+    "pensão": {
+      "en": "pension",
+      "use": "Also means a small guesthouse."
+    },
+    "gravitou": {
+      "en": "was drawn, gravitated",
+      "use": "Past of gravitar; 'gravitar para' means to be drawn to."
+    },
+    "cloaca": {
+      "en": "sewer, cesspool",
+      "use": "Strong word; here a figure for a filthy city."
+    },
+    "desconfortável": {
+      "en": "uncomfortable",
+      "use": "Same form for masculine and feminine."
+    },
+    "largueza": {
+      "en": "lavishness",
+      "use": "'Com largueza' means generously, without counting."
+    },
+    "desorientado": {
+      "en": "aimless, lost",
+      "use": "Feminine is desorientada."
+    },
+    "recolhia": {
+      "en": "withdrew",
+      "use": "Imperfect of recolher; 'se recolher' means to retire from society."
+    },
+    "pretensioso": {
+      "en": "showy, pretentious",
+      "use": "Describes places or people that try to impress."
+    },
+    "alojamento": {
+      "en": "lodgings",
+      "use": "A place to stay, such as a rented room."
+    },
+    "tapinha": {
+      "en": "light tap",
+      "use": "Diminutive of tapa; 'dar um tapinha' means to tap."
+    },
+    "reconheceu": {
+      "en": "he recognised",
+      "use": "Past of reconhecer."
+    },
+    "deserto": {
+      "en": "wilderness, desert",
+      "use": "Literary here; a lonely empty place."
+    },
+    "pasmo": {
+      "en": "astonished",
+      "use": "Feminine is pasma; 'ficar pasmo' means to be amazed."
+    },
+    "palito": {
+      "en": "toothpick, stick",
+      "use": "'Magro como um palito' means very thin."
+    },
+    "cabriolé": {
+      "en": "hansom cab",
+      "use": "An old two-wheeled horse-drawn carriage for hire."
+    },
+    "aflições": {
+      "en": "troubles, afflictions",
+      "use": "Plural of aflição; literary."
+    },
+    "mesmíssimas": {
+      "en": "very same",
+      "use": "Emphatic feminine plural of mesma."
+    },
+    "acaso": {
+      "en": "chance",
+      "use": "'Por acaso' means by chance."
+    },
+    "virou": {
+      "en": "became",
+      "use": "Past of virar; informal Brazilian way to say became."
+    },
+    "salvou": {
+      "en": "saved",
+      "use": "Past of salvar; o salvou means saved him."
+    },
+    "morreu": {
+      "en": "died",
+      "use": "Past of morrer; he or she died."
+    },
+    "febre": {
+      "en": "fever",
+      "use": "Feminine noun: a febre."
+    },
+    "trouxe": {
+      "en": "brought",
+      "use": "Past of trazer; irregular verb."
+    },
+    "então": {
+      "en": "so, then",
+      "use": "Common linker; 'então foi' means so he went."
+    },
+    "magro": {
+      "en": "thin",
+      "use": "Adjective; magra for a woman."
+    },
+    "almoçaram": {
+      "en": "had lunch",
+      "use": "Past of almoçar, plural; lunch is o almoço."
+    },
+    "conhecia": {
+      "en": "knew",
+      "use": "Imperfect of conhecer; used for knowing people and places."
+    }
   }
 }

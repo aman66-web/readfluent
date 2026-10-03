@@ -41,6 +41,10 @@ export async function POST(request: Request) {
   if (quotaError) return fail(quotaError.code === "28000" ? 401 : 500, quotaError.code === "28000" ? "sign_in" : "error");
   if (typeof left !== "number" || left < 0) return fail(429, "limit");
 
+  // The message is already counted; a failure on our side or the model's must not cost the reader one.
+  const refund = async () => { try { await supabase.rpc("talk_refund"); } catch { /* the count stays; rare */ } };
+  const failRefund = async (): Promise<Response> => { await refund(); return fail(502, "error"); };
+
   try {
     const client = new Anthropic({ apiKey: key, timeout: 25_000, maxRetries: 1 });
     const msg = await client.messages.create({
@@ -50,14 +54,14 @@ export async function POST(request: Request) {
       messages: req.turns.map((t) => ({ role: t.role, content: t.text })),
       output_config: { format: { type: "json_schema", schema: REPLY_SCHEMA as unknown as Record<string, unknown> } },
     });
-    if (msg.stop_reason === "refusal" || msg.stop_reason === "max_tokens") return fail(502, "error");
+    if (msg.stop_reason === "refusal" || msg.stop_reason === "max_tokens") return await failRefund();
     const text = msg.content.map((b) => (b.type === "text" ? b.text : "")).join("");
     let parsed: unknown;
-    try { parsed = JSON.parse(text); } catch { return fail(502, "error"); }
+    try { parsed = JSON.parse(text); } catch { return await failRefund(); }
     const reply = parseReply(parsed);
-    if (!reply) return fail(502, "error");
+    if (!reply) return await failRefund();
     return Response.json({ ...reply, left }, { headers: { "cache-control": "no-store" } });
   } catch {
-    return fail(502, "error");
+    return await failRefund();
   }
 }

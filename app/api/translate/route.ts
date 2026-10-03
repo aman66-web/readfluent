@@ -15,8 +15,27 @@ import { buildVariant } from "@/lib/translate/version";
  */
 export const maxDuration = 60;
 
+const PARAMS = new Set(["slug", "level", "length", "lang", "speak"]);
+/** A simple per-address limit on translations actually run (cached answers never reach here): best effort, per server instance. */
+const WINDOW_MS = 60_000;
+const MAX_PER_WINDOW = 12;
+const hits = new Map<string, { n: number; reset: number }>();
+function limited(ip: string, now = Date.now()): boolean {
+  if (hits.size > 5000) for (const [k, v] of hits) if (v.reset <= now) hits.delete(k);
+  const h = hits.get(ip);
+  if (!h || h.reset <= now) { hits.set(ip, { n: 1, reset: now + WINDOW_MS }); return false; }
+  h.n += 1;
+  return h.n > MAX_PER_WINDOW;
+}
+
 export async function GET(req: Request) {
   const q = new URL(req.url).searchParams;
+  // Each different address is a different cached answer: only the five parameters, each once, nothing else.
+  const seen = new Set<string>();
+  for (const k of q.keys()) {
+    if (!PARAMS.has(k) || seen.has(k)) return NextResponse.json({ error: "bad request" }, { status: 400, headers: { "Cache-Control": "no-store" } });
+    seen.add(k);
+  }
   const slug = q.get("slug") ?? "";
   const lang = q.get("lang") ?? "";
   const speak = q.get("speak") ?? "en";
@@ -27,6 +46,8 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: "no such version" }, { status: 404 });
   }
   if (!translatorConfigured()) return NextResponse.json({ error: "off" }, { status: 503, headers: { "Cache-Control": "no-store" } });
+  const ip = (req.headers.get("x-forwarded-for") ?? "").split(",")[0].trim() || req.headers.get("x-real-ip") || "unknown";
+  if (limited(ip)) return NextResponse.json({ error: "slow down" }, { status: 429, headers: { "Cache-Control": "no-store", "Retry-After": "60" } });
   const en = await loadEnglish(slug);
   if (!en) return NextResponse.json({ error: "no such version" }, { status: 404 });
   try {

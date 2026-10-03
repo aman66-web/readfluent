@@ -23,7 +23,6 @@ const readAnswersRaw = () => readRaw(ANSWERS_KEY);
 const serverRaw = () => "";
 
 const stroke = { fill: "none", stroke: "currentColor", strokeWidth: 1.9, strokeLinecap: "round", strokeLinejoin: "round" } as const;
-const Lock = () => <svg viewBox="0 0 24 24" className="size-3.5" {...stroke} strokeWidth={2.4} aria-hidden><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V8a4 4 0 0 1 8 0v3" /></svg>;
 
 /** A small titled card the page's sections sit in. */
 function Card({ title, aside, children, label, tour }: { title: string; aside?: ReactNode; children: ReactNode; label?: string; tour?: string }) {
@@ -67,14 +66,14 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
   const learn = useMemo(() => parseAnswers(answersRaw).learn, [answersRaw]);
 
   const levelSlug = LEVELS.find((l) => l.id === level)!.slug;
-  const reached = useMemo(() => parseProgress(progressRaw)[versionKey(slug, levelSlug, length)], [progressRaw, slug, levelSlug, length]);
+  const reached = useMemo(() => parseProgress(progressRaw)[versionKey(slug, level, length)], [progressRaw, slug, level, length]);
   // A version already begun stays open; a longer one asks for the plan (lib/plan.ts; closed only once payments are live).
-  const locked = (n: Length) => !canOpen(n, plan, readPage(slug, levelSlug, n) !== undefined);
+  const locked = (n: Length) => !canOpen(n, plan, readPage(slug, level, n) !== undefined);
   // `page` is where to open it: a tap on the path opens there; the Read button carries on from where they were.
   const start = (page?: number) => {
     if (locked(length)) { setPaywall(true); return; }
     saveChoice(slug, level, length);
-    if (page !== undefined) savePage(slug, levelSlug, length, page);
+    if (page !== undefined) savePage(slug, level, length, page);
     router.push(`/read/${slug}/${levelSlug}/${length}`);
   };
 
@@ -84,7 +83,7 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
   return (
     <>
       {/* How big it is, at the level and length picked. */}
-      <dl aria-label={t("book.lengths")} className="sheet-card mt-6 grid grid-cols-3 divide-x divide-[var(--ob-line)] rounded-[24px] py-3.5 text-center rtl:divide-x-reverse">
+      <dl aria-label={t("book.lengths")} className="sheet-card mt-6 grid grid-cols-3 rounded-[24px] py-3.5 text-center [&>*+*]:border-s [&>*+*]:border-[var(--ob-line)]">
         {[
           { icon: <path d="M6 3.5h9l3 3V20.5H6zM9 11h6M9 15h6" />, text: t("sheet.pages", { pages: length }) },
           { icon: <><circle cx="12" cy="12" r="8.5" /><path d="M12 7.5V12l3 2" /></>, text: t(`length.${length}.time` as "length.50.time") },
@@ -126,7 +125,7 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
           </div>
           {levelInfo && (
             <p className="mt-3 text-[13.5px] leading-snug text-muted">
-              <span className="font-bold text-foreground">{t(`level.${levelInfo.id}.lines` as "level.A1A2.lines")}.</span> {t(`level.${levelInfo.id}.blurb`)}
+              {t("level.summary", { lines: t(`level.${levelInfo.id}.lines` as "level.A1A2.lines"), blurb: t(`level.${levelInfo.id}.blurb`) })}
             </p>
           )}
 
@@ -148,7 +147,7 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
         )}
       </div>
 
-      {outline.length > 0 && <Pathway slug={slug} level={levelSlug} length={length} outline={outline} chapters={chapterNames} onOpen={start} />}
+      {outline.length > 0 && <Pathway slug={slug} level={level} length={length} outline={outline} chapters={chapterNames} onOpen={start} />}
 
       {/* The way in stays on screen above the menu, wherever the page is scrolled to. */}
       <div className="sticky bottom-[calc(env(safe-area-inset-bottom)+5.25rem)] z-30 -mx-5 mt-auto bg-gradient-to-t from-background via-background to-transparent px-5 pb-2 pt-8">

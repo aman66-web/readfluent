@@ -5,6 +5,7 @@ import { useMemo, useSyncExternalStore } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 import { DECK_SIZES, type DeckSize } from "@/lib/decks";
 import { languageName } from "@/lib/i18n";
+import type { MessageId } from "@/lib/i18n/en";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { buildSession, deckProgress } from "@/lib/srs/session";
@@ -24,7 +25,7 @@ const Bolt = () => <svg viewBox="0 0 24 24" className="size-3.5" {...stroke} str
  * the phrase decks of the language they are learning and a test at their level. Flashcards and tests pay more
  * XP than reading, so each tile says so.
  */
-export function RecallView() {
+export function RecallView({ talkReady = true }: { /** Whether the server can run Talk (a model key and a database); false shows it as coming soon. */ talkReady?: boolean }) {
   const t = useT();
   const locale = useLocale();
   const a = useAnswers();
@@ -36,11 +37,17 @@ export function RecallView() {
   const language = learn ? languageName(learn, locale) : "";
   const ledgerRaw = useSyncExternalStore(subLedger, () => readRaw(LEDGER_KEY), () => "");
   const mine = useMemo(() => levelFromXp(totalXp(parseLedger(ledgerRaw))), [ledgerRaw]);
-  const hasTests = !!supportFor(learn);
+  const support = supportFor(learn);
+  const hasTests = !!support;
+  // The package test and the range shown follow what this language has: its levels and its first kind of test.
+  const packLevel = support ? (support.levels.includes(mine.level) ? mine.level : support.levels[support.levels.length - 1]) : mine.level;
+  const packKind = support?.kinds[0] ?? "mixed";
+  const range = support ? `${support.levels[0]} – ${support.levels[support.levels.length - 1]}` : "A1 – C2";
 
   // Saved words count as cards even before the first review has handed them one.
   const cards = useMemo(() => (ready ? withCardsFor(srs, saved, 0).cards : {}), [ready, srs, saved]);
   const due = useMemo(() => (ready ? buildSession(Object.values(cards), now).length : 0), [ready, cards, now]);
+  const noCards = ready && Object.keys(cards).length === 0;
 
   return (
     <main className="safe-top px-5 pb-32 [--pt:1.5rem]">
@@ -63,11 +70,11 @@ export function RecallView() {
 
       {/* Three ways to practise: one tall tile and two small ones. */}
       <div className="mt-4 grid grid-cols-2 grid-rows-[auto_auto] gap-3">
-        <Link href="/recall/flashcards" data-way="cards" className="relative row-span-2 flex min-h-[19rem] flex-col overflow-hidden rounded-[28px] bg-gradient-to-b from-[#67E8F9] to-[#22D3EE] p-4 text-on-cyan shadow-[0_22px_34px_-22px_rgba(8,145,178,.9)] active:scale-[0.98]">
+        <Link href="/recall/flashcards" data-way="cards" className="relative row-span-2 flex min-h-[19rem] flex-col overflow-hidden rounded-[28px] pb-16 bg-gradient-to-b from-[#67E8F9] to-[#22D3EE] p-4 text-on-cyan shadow-[0_22px_34px_-22px_rgba(8,145,178,.9)] active:scale-[0.98]">
           <svg viewBox="0 0 24 24" className="relative mt-6 size-12 self-center" {...stroke} strokeWidth={1.6} aria-hidden><rect x="3" y="7" width="14" height="11" rx="2.5" /><path d="M7 7V6a2.5 2.5 0 0 1 2.5-2.5h8A2.5 2.5 0 0 1 20 6v8a2.5 2.5 0 0 1-2.5 2.5H17" /></svg>
-          <span className="mt-3 text-center text-[20px] font-bold tracking-[-0.01em]">{t("cards.title")}</span>
-          <span className="mt-1 text-center text-[13px] leading-snug opacity-80" data-due={due}>{ready ? (due > 0 ? t("cards.due", { n: due }) : t("cards.dueNone")) : " "}</span>
-          <span className="tabular mt-3 inline-flex items-center gap-1 self-center rounded-full bg-white/40 px-2.5 py-1 text-[11.5px] font-bold"><Bolt />{t("recall.boost.cards", { xp: XP.card.easy })}</span>
+          <span className="relative z-10 mt-3 min-w-0 text-center text-[clamp(16px,5vw,20px)] font-bold tracking-[-0.01em] [overflow-wrap:anywhere] [line-break:strict]">{t("cards.title")}</span>
+          <span className="relative z-10 mt-1 text-center text-[13px] leading-snug opacity-80 [line-break:strict]" data-due={due}>{ready ? (due > 0 ? t("cards.due", { n: due }) : noCards ? t("cards.noneYet") : t("cards.dueNone")) : " "}</span>
+          <span className="tabular relative z-10 mt-3 inline-flex items-center gap-1 self-center rounded-full bg-white/40 px-2.5 py-1 text-[11.5px] font-bold"><Bolt />{t("recall.boost.cards", { xp: XP.card.easy })}</span>
           {/* A little stack of cards in the corner. */}
           <span aria-hidden className="pointer-events-none absolute -start-3 bottom-4 block h-9 w-24 -rotate-3 rounded-xl bg-white/55" />
           <span aria-hidden className="pointer-events-none absolute -start-4 bottom-9 block h-9 w-24 rotate-2 rounded-xl bg-white/35" />
@@ -78,7 +85,7 @@ export function RecallView() {
           <svg viewBox="0 0 24 24" className="size-9" {...stroke} strokeWidth={1.7} aria-hidden><path d="M9 11l2.5 2.5L16 9" /><rect x="4" y="4" width="16" height="16" rx="3.5" /></svg>
           <span>
             <span className="block text-[18px] font-bold leading-tight tracking-[-0.01em]">{t("tests.title")}</span>
-            <span className="mt-0.5 block text-[12.5px] leading-snug opacity-80">A1 – C2</span>
+            <span className="mt-0.5 block text-[12.5px] leading-snug opacity-80">{range}</span>
             <span className="tabular mt-1.5 inline-flex items-center gap-1 rounded-full bg-white/20 px-2 py-0.5 text-[11px] font-bold"><Bolt />{t("recall.boost.tests", { xp: XP.test.correct })}</span>
           </span>
         </Link>
@@ -87,7 +94,7 @@ export function RecallView() {
           <svg viewBox="0 0 24 24" className="size-9" {...stroke} strokeWidth={1.7} aria-hidden><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>
           <span>
             <span className="block text-[18px] font-bold leading-tight tracking-[-0.01em]">{t("recall.speaking")}</span>
-            <span className="mt-0.5 block text-[12.5px] leading-snug opacity-75">{t("recall.talkNow", { name: "Dewey" })}</span>
+            <span className="mt-0.5 block text-[12.5px] leading-snug opacity-75">{t(talkReady ? "recall.talkNow" : "recall.soon", { name: "Dewey" })}</span>
           </span>
         </Link>
       </div>
@@ -96,11 +103,11 @@ export function RecallView() {
       <ul className="mt-3 grid gap-3">
         {hasTests && (
           <li>
-            <Link href={`/recall/tests/${mine.level}/mixed`} data-pack="test" className="relative flex items-center gap-4 overflow-hidden rounded-[26px] bg-gradient-to-br from-[#E3F8FC] to-[#C9F1FA] p-4 shadow-[inset_0_0_0_1px_rgba(8,145,178,.18)] active:scale-[0.99]">
+            <Link href={`/recall/tests/${packLevel}/${packKind}`} data-pack="test" className="relative flex items-center gap-4 overflow-hidden rounded-[26px] bg-gradient-to-br from-[#E3F8FC] to-[#C9F1FA] p-4 shadow-[inset_0_0_0_1px_rgba(8,145,178,.18)] active:scale-[0.99]">
               <span aria-hidden className="grid size-14 shrink-0 place-items-center rounded-2xl bg-accent-bright text-on-cyan"><svg viewBox="0 0 24 24" className="size-7" {...stroke} aria-hidden><path d="M9 11l2.5 2.5L16 9" /><rect x="4" y="4" width="16" height="16" rx="3.5" /></svg></span>
               <span className="min-w-0 flex-1">
-                <span className="block text-[16.5px] font-bold leading-tight">{t("recall.pack.test", { level: mine.level })}</span>
-                <span className="mt-0.5 block text-[13px] text-foreground/70">{t("tests.kind.mixed.sub")}</span>
+                <span className="block text-[16.5px] font-bold leading-tight">{t("recall.pack.test", { level: packLevel })}</span>
+                <span className="mt-0.5 block text-[13px] text-foreground/70">{t(`tests.kind.${packKind}.sub` as MessageId)}</span>
               </span>
               <svg viewBox="0 0 24 24" className="size-5 shrink-0 text-[var(--ob-deep)] rtl:-scale-x-100" {...stroke} strokeWidth={2.4} aria-hidden><path d="M9 5l7 7-7 7" /></svg>
             </Link>

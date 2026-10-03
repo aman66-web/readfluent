@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState, type FormEvent } from "react";
 import { BackLink } from "@/components/BackLink";
+import "../../app/welcome/welcome.css";
 import { SignIn } from "@/components/onboarding/SignIn";
 import { APP_NAME } from "@/lib/brand";
 import { useLocale, useT } from "@/lib/i18n/react";
@@ -48,7 +49,7 @@ export function FriendsView() {
       {!ready ? null : !signedIn ? (
         <section className="mt-5 rounded-[22px] border border-border bg-surface p-5">
           <p className="text-[15px] leading-snug">{t("friends.signIn")}</p>
-          {available ? <div className="mt-3"><SignIn error={false} next="/friends" onNext={() => window.location.reload()} /></div> : null}
+          {available ? <div className="mt-3"><div className="ob rounded-[18px] p-3"><SignIn error={false} next="/friends" onNext={() => window.location.reload()} /></div></div> : null}
         </section>
       ) : (
         <>
@@ -105,7 +106,7 @@ function Panels({ tab }: { tab: Tab }) {
     return (
       <div role="alert" className="mt-5 rounded-[22px] border border-border bg-surface p-5 text-center">
         <p className="text-[15px]">{load === "signin" ? t("friends.signIn") : t("friends.error")}</p>
-        <button type="button" onClick={() => { setLoad("loading"); reload(); }} className="btn-cyan mt-4 h-11 rounded-full px-6 text-[14.5px] font-bold">↻</button>
+        <button type="button" onClick={() => { setLoad("loading"); reload(); }} aria-label={t("ui.retry")} className="btn-cyan mt-4 h-11 rounded-full px-6 text-[14.5px] font-bold"><span aria-hidden>↻</span></button>
       </div>
     );
   }
@@ -129,9 +130,9 @@ function LeagueTab({ league, friends, onChanged }: { league: League | null; frie
   return (
     <section className="mt-5">
       <div className="rounded-[24px] bg-accent-bright p-5 text-on-cyan">
-        <p className="text-[12px] font-bold uppercase tracking-[0.1em] text-white/75">{t("league.month", { month })}</p>
+        <p className="text-[12px] font-bold uppercase tracking-[0.1em] text-on-cyan/75">{t("league.month", { month })}</p>
         <p className="mt-1 text-[28px] font-bold leading-tight tracking-[-0.02em]" data-tier={tier}>{t(`league.tier.${league.tier}` as "league.tier.0")}</p>
-        <p className="mt-1 text-[13.5px] text-white/85">{left <= 1 ? t("league.lastDay") : t("league.daysLeft", { n: left })} · {t("league.intro")}</p>
+        <p className="mt-1 text-[13.5px] text-on-cyan/80">{left <= 1 ? t("league.lastDay") : t("league.daysLeft", { n: left })} · {t("league.intro")}</p>
       </div>
 
       {league.rows.length <= 1 ? <p className="mt-4 text-[14.5px] text-muted">{t("league.alone")}</p> : null}
@@ -260,7 +261,7 @@ function FriendsTab({ code, friends, onChanged }: { code: string; friends: Frien
                   <p dir="auto" className="truncate text-[15.5px] font-semibold">{shown(f.name, f.code)} <span className="text-[12.5px] font-medium text-muted">{f.level}</span></p>
                   <p className="text-[12.5px] text-muted">{t("friends.thisMonth", { xp: f.xpMonth.toLocaleString(locale) })}{f.streak > 0 ? ` · ${t("friends.streak", { n: f.streak })}` : ""}</p>
                 </div>
-                <button type="button" onClick={act(() => removeFriend(f.id))} aria-label={`${t("friends.remove")}: ${shown(f.name, f.code)}`} className="grid size-10 shrink-0 place-items-center rounded-full text-muted active:bg-border/60">
+                <button type="button" onClick={() => { if (window.confirm(t("friends.removeConfirm", { name: shown(f.name, f.code) }))) void act(() => removeFriend(f.id))(); }} aria-label={`${t("friends.remove")}: ${shown(f.name, f.code)}`} className="grid size-10 shrink-0 place-items-center rounded-full text-muted active:bg-border/60">
                   <svg viewBox="0 0 24 24" className="size-5" {...stroke} aria-hidden><path d="M6 6l12 12M18 6L6 18" /></svg>
                 </button>
               </li>

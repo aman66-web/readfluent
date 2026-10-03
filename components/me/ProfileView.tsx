@@ -6,6 +6,7 @@ import { Paywall } from "@/components/paywall/Paywall";
 import Link from "next/link";
 import { BackLink } from "@/components/BackLink";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
+import "../../app/welcome/welcome.css";
 import { SignIn, accountAvailable } from "@/components/onboarding/SignIn";
 import { buildLine } from "@/lib/build";
 import { CATEGORIES } from "@/lib/content/limits";
@@ -217,7 +218,7 @@ export function ProfileView() {
           <Row>
             <p className="text-[13.5px] leading-snug text-muted">{t("me.signInHint")}</p>
             {signing ? (
-              <div className="mt-3"><SignIn error={false} next="/me" onNext={() => { setSigning(false); window.location.reload(); }} /></div>
+              <div className="ob mt-3 rounded-[18px] p-3"><SignIn error={false} next="/me" onNext={() => window.location.reload()} onSkip={() => setSigning(false)} /></div>
             ) : (
               <button type="button" onClick={() => setSigning(true)} className="mt-3 h-12 w-full btn-cyan rounded-full text-[15px] font-bold">{t("account.line")}</button>
             )}
@@ -234,6 +235,8 @@ export function ProfileView() {
 
       <Group title={t("me.about")}>
         <Row><Link href="/privacy" className="flex items-center gap-3 active:opacity-70"><span className="flex-1 text-[15px] font-semibold">{t("me.privacy")}</span><Chevron /></Link></Row>
+        <Row><Link href="/terms" className="flex items-center gap-3 active:opacity-70"><span className="flex-1 text-[15px] font-semibold">{t("me.terms")}</span><Chevron /></Link></Row>
+        <Row><Link href="/support" className="flex items-center gap-3 active:opacity-70"><span className="flex-1 text-[15px] font-semibold">{t("me.support")}</span><Chevron /></Link></Row>
         <Row last><span className="tabular text-[13px] text-faint">{t("me.version", { build: buildLine() })}</span></Row>
       </Group>
 

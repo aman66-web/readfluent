@@ -25,7 +25,11 @@ export const dynamic = "force-dynamic";
  * Open in a browser. No account needed — it has to work when sign-in is the
  * thing that is broken.
  */
-export async function GET() {
+export async function GET(request?: Request) {
+  // The app's update check only wants the build string: answer it without touching the database.
+  if (request && new URL(request.url).searchParams.has("build")) {
+    return NextResponse.json({ build: buildLine() }, { headers: { "Cache-Control": "no-store" } });
+  }
   const db = dbConfigured();
   const service = serviceConfigured();
 

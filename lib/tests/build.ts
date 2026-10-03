@@ -50,6 +50,20 @@ export function examItemsFor(items: readonly Item[], level: Cefr): Item[] {
 
 const letters = (w: string) => [...w].length;
 
+/** Small closed classes (prepositions, articles, pronouns, conjunctions): when the missing word is one, two of them can both fit, so the wrong answers come from outside the class. */
+const CLOSED: Record<string, ReadonlySet<string>> = {
+  es: new Set("a ante bajo cabe con contra de desde durante en entre hacia hasta mediante para por según sin sobre tras el la los las un una unos unas lo al del este esta estos estas ese esa esos esas aquel aquella mi tu su sus mis tus nuestro nuestra que como cuando donde pero sino aunque porque pues mientras muy más menos tan tanto todo toda todos todas otro otra otros otras mismo misma ya aún todavía también siempre nunca nada algo alguien nadie cada cual cuyo".split(" ")),
+  en: new Set("about above across after against along among around at before behind below beside between beyond by down during for from in inside into near of off on onto out outside over past since through to toward towards under until up upon with within without the a an this that these those my your his her its our their and but or so because although while when where which who whom whose than then very too also just only all each every some any no not both either neither much many more most other such same".split(" ")),
+};
+
+/** The distinct lower-case words of a pool, worked out once per pool. */
+const wordCache = new WeakMap<readonly Item[], string[]>();
+function lowerWords(pool: readonly Item[]): string[] {
+  let w = wordCache.get(pool);
+  if (!w) { w = [...new Set(pool.flatMap((p) => wordsOf(p.t)).filter((x) => x[0] === x[0].toLowerCase()))]; wordCache.set(pool, w); }
+  return w;
+}
+
 /** A sentence with one word taken out, and four words to put back; null if there is no good word to take. */
 function gap(item: Item, pool: readonly Item[], lang: string, r: () => number, id: string): Question | null {
   const toks = tokenize(item.t);
@@ -57,7 +71,9 @@ function gap(item: Item, pool: readonly Item[], lang: string, r: () => number, i
   if (!idx.length) return null;
   const at = idx[Math.floor(r() * idx.length)];
   const right = toks[at].text;
-  const near = shuffle(pool.flatMap((p) => wordsOf(p.t)), r).filter((w) => w !== right && w.toLowerCase() !== right.toLowerCase() && w[0] === w[0].toLowerCase() && Math.abs(letters(w) - letters(right)) <= 2);
+  const closed = CLOSED[lang];
+  const inClosed = !!closed?.has(right.toLowerCase());
+  const near = shuffle(lowerWords(pool), r).filter((w) => w !== right && w.toLowerCase() !== right.toLowerCase() && Math.abs(letters(w) - letters(right)) <= 2 && !(inClosed && closed.has(w.toLowerCase())));
   const wrong = [...new Set(near.map((w) => w.toLowerCase()))].slice(0, 3);
   if (wrong.length < 3) return null;
   const options = shuffle([right, ...wrong], r);
@@ -65,13 +81,31 @@ function gap(item: Item, pool: readonly Item[], lang: string, r: () => number, i
   return { id, kind: "gap", lang, prompt, options, answer: options.indexOf(right), reveal: { text: item.t, en: item.e } };
 }
 
+const NOT_NAMES = new Set("The A An He She It They We I You In On At But And So If When As This That There His Her Then What Do Is Was Not No Yes With For From Of To By Some One Who How Why Where After Before My Our Your Their Its Mr Mrs Miss Dr".split(" "));
+/** The proper names of an English sentence: its capitalised words that are not just a sentence opening. */
+export const namesOf = (e: string): string[] => [...new Set((e.match(/\b[A-Z][a-z]+/g) ?? []).filter((w) => !NOT_NAMES.has(w)))];
+
 /** What does this sentence say: four English sentences. Needs the item's English. */
 function meaning(item: Item, pool: readonly Item[], lang: string, r: () => number, id: string, kind: "meaning" | "listen"): Question | null {
   if (!item.e) return null;
   const near = shuffle(pool.filter((p) => p.e && p.e !== item.e), r);
   const len = item.e.length;
-  const wrong = near.sort((a, b) => Math.abs((a.e as string).length - len) - Math.abs((b.e as string).length - len)).slice(0, 8);
-  const three = pick(wrong, 3, r).map((p) => p.e as string);
+  // A name in the sentence must not give the answer away: every name of the right answer also appears in a wrong one,
+  // or the question is not asked.
+  const names = namesOf(item.e);
+  const picked: Item[] = [];
+  const uncovered = new Set(names);
+  while (uncovered.size && picked.length < 3) {
+    const cover = (p: Item) => [...uncovered].filter((n) => (p.e as string).includes(n)).length;
+    let best: Item | undefined;
+    let most = 0;
+    for (const p of near) { if (picked.includes(p)) continue; const c = cover(p); if (c > most) { best = p; most = c; if (c === uncovered.size) break; } }
+    if (!best) return null;
+    picked.push(best);
+    for (const n of [...uncovered]) if ((best.e as string).includes(n)) uncovered.delete(n);
+  }
+  const rest = near.filter((p) => !picked.includes(p)).sort((x, y) => Math.abs((x.e as string).length - len) - Math.abs((y.e as string).length - len)).slice(0, 8);
+  const three = [...picked, ...pick(rest, 3 - picked.length, r)].map((p) => p.e as string);
   if (three.length < 3) return null;
   const options = shuffle([item.e, ...three], r);
   return { id, kind, lang, prompt: kind === "listen" ? "" : item.t, say: kind === "listen" ? item.t : undefined, options, answer: options.indexOf(item.e), reveal: { text: item.t, en: item.e } };
@@ -87,11 +121,14 @@ function listenSame(item: Item, pool: readonly Item[], lang: string, r: () => nu
   return { id, kind: "listen", lang, prompt: "", say: item.t, options, answer: options.indexOf(item.t), reveal: { text: item.t, en: item.e } };
 }
 
-/** Put the words in order: a whole short sentence, or the opening eight words of a long one. */
+/** Most words a word-order question can ask for. */
+const ORDER_MAX = 24;
+const orderable = (item: Item): boolean => { if (!item.e) return false; const n = wordsOf(item.t).length; return n >= 4 && n <= ORDER_MAX; };
+
+/** Put the words of a whole sentence in order. It is asked only with the sentence's English (the meaning is the clue), so a bank without translations has none. */
 function order(item: Item, lang: string, r: () => number, id: string): Question | null {
-  const all = wordsOf(item.t);
-  if (all.length < 4) return null;
-  const solution = all.length > 9 ? all.slice(0, 8) : all;
+  if (!orderable(item)) return null;
+  const solution = wordsOf(item.t);
   let words = shuffle(solution, r);
   for (let i = 0; i < 4 && words.join(" ") === solution.join(" "); i++) words = shuffle(solution, r);
   return { id, kind: "order", lang, prompt: item.e ?? "", words, solution, reveal: { text: item.t, en: item.e } };
@@ -131,8 +168,9 @@ export function makePaper(args: { lang: string; level: Cefr; kind: TestKind; ban
   // A mixed paper asks only what the bank can: with no translations there is no "meaning", with no matched words no "vocab".
   const canVocab = vocabPairs.length >= 4;
   const canMean = pool.some((i) => i.e);
+  const canOrder = pool.some(orderable);
   const kinds: QuestionKind[] = kind === "mixed"
-    ? Array.from({ length: size }, (_, i) => MIX[i % MIX.length]).map((k, i) => (k === "vocab" && !canVocab) || (k === "meaning" && !canMean) ? (i % 2 ? "order" : "gap") : k)
+    ? Array.from({ length: size }, (_, i) => MIX[i % MIX.length]).map((k, i) => (k === "vocab" && !canVocab) || (k === "meaning" && !canMean) ? (i % 2 && canOrder ? "order" : "gap") : k === "order" && !canOrder ? "gap" : k)
     : Array.from({ length: size }, () => kind);
 
   const questions: Question[] = [];
@@ -146,7 +184,7 @@ export function makePaper(args: { lang: string; level: Cefr; kind: TestKind; ban
     if (k === "vocab") {
       while (!q && v < vOrder.length) { q = vocab(vocabPairs, lang, r, `v${v}`, vOrder[v]); v++; }
     } else {
-      for (let tries = 0; !q && tries < 14 && s < sentences.length; tries++, s++) {
+      for (let tries = 0; !q && tries < (k === "order" ? 120 : 40) && s < sentences.length; tries++, s++) {
         const it = sentences[s];
         if (used.has(it.t)) continue;
         const id = `q${s}`;

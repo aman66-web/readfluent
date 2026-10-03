@@ -19,7 +19,7 @@ export const STEP_IDS = [
 ] as const;
 export type StepId = (typeof STEP_IDS)[number];
 
-/** The steps that ask the reader something before they are in the app. Dewey says how many ("just 6 quick questions"), so the number is counted here, not written. */
+/** The steps that ask the reader something before they are in the app. Dewey no longer says how many (the run also has a tour and more), so this is only a list. */
 export const QUESTION_STEPS = ["tongues", "level", "heard", "time", "interests"] as const satisfies readonly StepId[];
 
 /** Steps that play by themselves and move on: Back skips over them rather than landing on one that would run again. */
@@ -42,12 +42,12 @@ export function stepIndex(param: string | null | undefined): number {
 export const AFTER_ONBOARDING = "/";
 
 /** Where a provider sign-in comes back to: the step after sign-in. Must name a step that exists. */
-export const AFTER_SIGN_IN = "/welcome?step=interests";
+export const AFTER_SIGN_IN = "/welcome?step=interests&signedin=1";
 
 /** The placement test opens from the level step, and comes back to the step after it (or to the level step if it is left). */
 export const PLACEMENT_PATH = "/placement";
-export const AFTER_PLACEMENT = "/welcome?step=ready";
-export const BACK_FROM_PLACEMENT = "/welcome?step=ready";
+export const AFTER_PLACEMENT = "/welcome?step=ready&built=1";
+export const BACK_FROM_PLACEMENT = "/welcome?step=ready&built=1";
 
 /** Where a failed provider sign-in comes back to: the sign-in step itself. */
 export const SIGN_IN_STEP = "/welcome?step=account";

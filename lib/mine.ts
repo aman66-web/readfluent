@@ -1,6 +1,6 @@
 import { LEVELS, levelById, lengthByPages } from "@/lib/content/limits";
 import { findBook, pageCount, type PreviewBook } from "@/lib/preview/catalog";
-import type { Progress } from "@/lib/progress";
+import { canonicalKey, parseVersionKey, type Progress } from "@/lib/progress";
 
 /**
  * The reader's own books, worked out from what is kept on the device: the page they got
@@ -20,10 +20,7 @@ export interface MineEntry {
   total: number;
 }
 
-export function parseVersionKey(key: string): { slug: string; level: string; length: number } | null {
-  const m = /^(.+)\/([A-Z0-9]+)-(\d+)$/.exec(key);
-  return m ? { slug: m[1], level: m[2], length: Number(m[3]) } : null;
-}
+export { parseVersionKey };
 
 function entryOf(key: string, index: number): MineEntry | null {
   const v = parseVersionKey(key);
@@ -37,15 +34,16 @@ function entryOf(key: string, index: number): MineEntry | null {
 
 /** Versions started and not finished, the one opened most recently last in storage first. */
 export function reading(progress: Progress, done: readonly string[]): MineEntry[] {
+  const doneKeys = new Set(done.map(canonicalKey));
   return Object.entries(progress)
-    .filter(([key]) => !done.includes(key))
+    .filter(([key]) => !doneKeys.has(key))
     .map(([key, index]) => entryOf(key, index))
     .filter((e): e is MineEntry => e !== null)
     .reverse();
 }
 
 export function finished(done: readonly string[]): MineEntry[] {
-  return done.map((key) => entryOf(key, Number.MAX_SAFE_INTEGER)).filter((e): e is MineEntry => e !== null).reverse();
+  return [...new Set(done.map(canonicalKey))].map((key) => entryOf(key, Number.MAX_SAFE_INTEGER)).filter((e): e is MineEntry => e !== null).reverse();
 }
 
 export const readHref = (e: Pick<MineEntry, "book" | "levelSlug" | "length">) => `/read/${e.book.slug}/${e.levelSlug}/${e.length}`;

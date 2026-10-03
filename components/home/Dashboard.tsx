@@ -11,7 +11,7 @@ import { useAnswers } from "@/lib/onboarding/use-answers";
 import { findBook, coverAuthor, PREVIEW_BOOKS } from "@/lib/preview/catalog";
 import { CarryOn } from "@/components/library/CarryOn";
 import { readRaw, subscribeTo } from "@/lib/store/local";
-import { LEDGER_KEY, examDue, parseLedger, setGates, streak, totalXp } from "@/lib/xp/ledger";
+import { LEDGER_KEY, examDue, parseLedger, rawXp, setGates, streak, totalXp } from "@/lib/xp/ledger";
 import { dayDate, useToday } from "@/lib/xp/today";
 import { Targets } from "@/components/home/Targets";
 import { Boost } from "@/components/home/Boost";
@@ -55,7 +55,7 @@ export function Dashboard() {
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0 pt-1">
           <p className="text-[12px] font-semibold uppercase tracking-[0.1em] text-faint" suppressHydrationWarning>{date}</p>
-          <h2 className="mt-1 text-[28px] font-light leading-[1.1] tracking-[-0.03em]">{t("home.ready")}</h2>
+          <h1 className="mt-1 text-[28px] font-light leading-[1.1] tracking-[-0.03em]">{t("home.ready")}</h1>
         </div>
         <div className="flex shrink-0 items-center gap-2">
           {run > 0 && (
@@ -69,7 +69,8 @@ export function Dashboard() {
       </div>
 
       <div className="mt-4">
-        <LevelCard xp={totalXp(ledger)} learn={a.learn} exam={exam} />
+        <LevelCard xp={totalXp(ledger)} earned={rawXp(ledger)} learn={a.learn} exam={exam} />
+        <CarryOn books={PREVIEW_BOOKS} />
         <NewBadge />
         <Targets />
         <Boost />
@@ -77,15 +78,13 @@ export function Dashboard() {
         <StudyChart ledger={ledger} goal={goal} bookName={bookName} />
       </div>
 
-      <CarryOn books={PREVIEW_BOOKS} />
-
       {/* The way into the library: a fan of covers, so it looks like somewhere you want to go. */}
       <Link href="/library" className="relative mt-3 flex items-center gap-4 overflow-hidden rounded-[26px] bg-gradient-to-br from-[#E3F8FC] to-[#BFEFF9] p-4 shadow-[0_18px_30px_-22px_rgba(8,47,60,.6)] active:opacity-90">
         <span className="relative block h-[84px] w-[92px] shrink-0" aria-hidden>
           {FAN.map((slug, i) => {
             const b = findBook(slug);
             return b ? (
-              <span key={slug} className="absolute top-0 block w-[46px] drop-shadow-[0_6px_6px_rgba(8,47,60,.35)]" style={{ left: i * 18, transform: `rotate(${(i - 1) * 7}deg)`, zIndex: i === 1 ? 3 : 1 + i }}>
+              <span key={slug} className="absolute top-0 block w-[46px] drop-shadow-[0_6px_6px_rgba(8,47,60,.35)]" style={{ left: i * 18, transform: `rotate(${(i - 1) * 7}deg)`, zIndex: [1, 3, 2][i] }}>
                 <BookCover slug={b.slug} title={b.title} author={coverAuthor(b)} hue={categoryById(b.category)?.hue ?? 30} />
               </span>
             ) : null;

@@ -187,7 +187,8 @@ function Backdrop({ s, rnd, ink, id }: { s: Scene; rnd: () => number; ink: Ink; 
 
 function Ground({ s, ink }: { s: Scene; ink: Ink }): ReactNode {
   const base = s.setting === "sea" || s.setting === "water" ? null : s.setting;
-  if (!base) return <rect y={GY + 40} width={W} height="60" fill={land(s, 44, 200, 56)} opacity=".6" />;
+  // Sea and water: a stretch of shore or quay in front, so people and things stand on land, never in the water.
+  if (!base) return <g><rect y={GY + 16} width={W} height={300 - GY - 16} fill={land(s, 58, 38, 34)} /><path d={`M0 ${GY + 16}H${W}`} stroke={ink.dark} strokeWidth="3" opacity=".3" /></g>;
   const col =
     base === "street" || base === "castle" ? land(s, 30, 230, 10)
     : base === "room" || base === "lab" ? land(s, 36, 28, 34)

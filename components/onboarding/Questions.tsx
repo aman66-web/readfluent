@@ -7,7 +7,6 @@ import type { MessageId } from "@/lib/i18n/en";
 import { HEARD_IDS, HEARD_OTHER_MAX, type HeardId } from "@/lib/onboarding/answers";
 import { GuideFrame, GuideHead, Said, splitWords, useGuide } from "./Guide";
 import { Mascot, type Mood } from "@/components/mascot/Mascot";
-import { QUESTION_STEPS } from "@/lib/onboarding/steps";
 
 /** The props every screen gets from the run: where it is, and the two ways to move. */
 interface Nav { at: number; of: number; onBack: () => void; onContinue: () => void }
@@ -46,10 +45,10 @@ export function HelloScreen(nav: Nav) {
   return <MascotSays {...nav} mood="hello" line={t("hello.bubble", { app: APP_NAME, name: MASCOT_NAME })} sub={t("hello.sub")} />;
 }
 
-/** Then Dewey says how quick the questions are: the number is the number of screens that ask something. */
+/** Then Dewey says the questions are quick (no number: the run also has a short tour). */
 export function QuickScreen(nav: Nav) {
   const t = useT();
-  return <MascotSays {...nav} mood="ready" line={t("quick.bubble", { n: QUESTION_STEPS.length })} sub={t("quick.sub")} />;
+  return <MascotSays {...nav} mood="ready" line={t("quick.bubble")} sub={t("quick.sub")} />;
 }
 
 /* ── go ─────────────────────────────────────────────────────────────────── */

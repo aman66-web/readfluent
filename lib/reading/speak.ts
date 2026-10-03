@@ -41,3 +41,16 @@ export function stopSpeaking(): void {
   if (!canSpeak()) return;
   try { window.speechSynthesis.cancel(); } catch { /* nothing to stop */ }
 }
+
+/** Whether the device can say `lang` out loud: waits (briefly) for the voice list, which some browsers fill late. */
+export function hasVoiceFor(lang: string): Promise<boolean> {
+  if (!canSpeak()) return Promise.resolve(false);
+  const synth = window.speechSynthesis;
+  const check = () => !noVoiceFor(synth.getVoices(), lang) && synth.getVoices().length > 0;
+  if (synth.getVoices().length > 0) return Promise.resolve(check());
+  return new Promise((resolve) => {
+    const done = () => { synth.removeEventListener?.("voiceschanged", done); window.clearTimeout(timer); resolve(check()); };
+    const timer = window.setTimeout(done, 1500);
+    synth.addEventListener?.("voiceschanged", done);
+  });
+}

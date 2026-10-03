@@ -58,7 +58,7 @@ function Sheet({ title, value, choices, onPick, onClose }: {
   const t = useT();
   const locale = useLocale();
   return (
-    <Modal label={title} onClose={onClose} className="ob fixed inset-0 z-30 flex flex-col bg-white px-6 pb-[calc(env(safe-area-inset-bottom)+1rem)] pt-[calc(env(safe-area-inset-top)+0.75rem)]">
+    <Modal label={title} onClose={onClose} className="ob fixed inset-0 z-50 flex flex-col bg-white px-6 pb-[calc(env(safe-area-inset-bottom)+1rem)] pt-[calc(env(safe-area-inset-top)+0.75rem)]">
       <div className="flex shrink-0 items-center justify-between pb-3">
         <h2 className="text-[20px] font-semibold">{title}</h2>
         <button type="button" onClick={onClose} className="-me-2 grid h-11 place-items-center rounded-full px-3 text-[15px] font-semibold active:bg-black/5">{t("ui.close")}</button>

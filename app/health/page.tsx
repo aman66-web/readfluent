@@ -76,7 +76,7 @@ export default function BrowserHealth() {
   ];
 
   return (
-    <main className="mx-auto max-w-lg px-5 py-10">
+    <main className="mx-auto max-w-lg px-5 pb-32 pt-10">
       <h1 className="text-[22px] font-semibold">What this browser is running</h1>
       <p className="mt-2 text-[13px] leading-snug text-muted">
         <code>/api/health</code> reports the server. This reports the JavaScript you actually

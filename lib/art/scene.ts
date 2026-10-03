@@ -9,7 +9,7 @@ export type Setting = "sea" | "street" | "room" | "forest" | "mountain" | "deser
 export type Sky = "day" | "dawn" | "dusk" | "night" | "storm" | "snow";
 export type Motif =
   | "ship" | "house" | "door" | "window" | "key" | "lamp" | "candle" | "book" | "letter" | "clock" | "coin" | "chest" | "heart" | "ring" | "crown" | "sword"
-  | "cup" | "table" | "bed" | "hat" | "cat" | "dog" | "horse" | "bird" | "fish" | "tree" | "flower" | "fire" | "bridge" | "cart" | "train" | "bell" | "mirror"
+  | "cup" | "table" | "bed" | "hat" | "cat" | "dog" | "horse" | "bird" | "fish" | "tree" | "flower" | "fire" | "hearth" | "bridge" | "cart" | "train" | "bell" | "mirror"
   | "ladder" | "rope" | "bag" | "brain" | "shoe" | "apple" | "ghost" | "coffin" | "cross" | "flask" | "star" | "map" | "sun" | "tent" | "camel" | "plane" | "phone"
   | "scale" | "chart" | "pen" | "lock" | "mask" | "wine" | "bread" | "tower" | "leaf" | "drop" | "eye" | "hand";
 
@@ -30,21 +30,23 @@ const SETTINGS: readonly [Setting, RegExp][] = [
   ["sea", /\b(sea|ocean|ship|boat|harbou?r|shore|beach|waves?|sail(?:s|ors?)?|deck|island|reef|coast|lighthouse|whale|steamer|raft|voyage)\b/],
   ["cave", /\b(cave|tunnel|mine|underground|cellar|crypt|dungeon|tomb)\b/],
   ["desert", /\b(desert|sand|dunes?|camels?|caravan|oasis)\b/],
-  ["castle", /\b(castle|palace|throne|king|queen|prince|princess|court|fortress|tower|knight|emperor)\b/],
+  ["room", /\b(courtroom|trial|judge|jury|dock)\b/],
+  ["castle", /\b(castle|palace|throne|king|queen|prince|princess|fortress|tower|knight|emperor)\b/],
   ["lab", /\b(lab|laboratory|experiment|chemist|flask|microscope|atom|machine|invent\w*|equation|blackboard|classroom)\b/],
   ["mountain", /\b(mountains?|cliff|peak|summit|hill(?:side|s)?|climb\w*|glacier|alps|headland|valley)\b/],
   ["forest", /\b(forest|woods?|jungle|trees?|grove|moor|swamp|marsh)\b/],
   ["garden", /\b(garden|flowers?|meadow|orchard|lawn|park|hedge|roses?|farm|barn|vineyard)\b/],
   ["field", /\b(field|fields|harvest|wheat|grass|countryside|village|cottage|shepherd|sheep)\b/],
   ["road", /\b(road|path|lane|journey|travel\w*|carriage|coach|cab|cart|train|station|bridge|highway|car|bus|plane|airport|map|street corner)\b/],
+  ["room", /\b(room|kitchen|parlou?r|bedroom|study|desk|counter|inside|workbench|sofa)\b/],
   ["street", /\b(city|street|town|square|market|shop|stall|bank|inn|pub|church|hospital|courtyard|crowd|office|school|gate|london|paris|rome|babylon|pavement|window sign)\b/],
-  ["room", /\b(room|house|home|kitchen|bedroom|study|library|desk|table|sofa|fire|fireplace|hall|parlou?r|bed|chair|lamp|candle|inside|wall|door|stairs?|attic|letter|diary|notebook|calendar)\b/],
-  ["water", /\b(river|lake|pond|stream|water|rain|fountain|well|canal)\b/],
+  ["room", /\b(room|house|home|kitchen|bedroom|study|library|desk|table|sofa|fire|fireplace|hall|parlou?r|bed|chair|lamp|candle|inside|wall|door|stairs?|attic|letter|diary|notebook|calendar|floor|shelf|bench|screen|laptop|pillow)\b/],
+  ["water", /\b(river|lake|pond|stream|water|fountain|canal)\b/],
 ];
 
 const SKIES: readonly [Sky, RegExp][] = [
   ["snow", /\b(snow\w*|winter|ice|icy|frost\w*|blizzard|cold)\b/],
-  ["storm", /\b(storm\w*|thunder|lightning|rain\w*|drizzle|fog|mist|clouds?|grey|gloom\w*|squall|hurricane)\b/],
+  ["storm", /\b(storm\w*|thunder|lightning|rain\w*|drizzle|fog\w*|mist\w*|clouds?|grey|gloom\w*|squall|hurricane)\b/],
   ["night", /\b(night|midnight|moon\w*|candle\w*|lamplight|stars?|lantern|bedtime|asleep|owl)\b/],
   ["dusk", /\b(sunset|dusk|evening|twilight|sundown)\b/],
   ["dawn", /\b(dawn|sunrise|morning|daybreak|breakfast|early light)\b/],
@@ -69,7 +71,7 @@ const THINGS: readonly [Motif, RegExp][] = [
   ["lock", /\b(lock\w*|safe|vault|padlock)\b/],
   ["candle", /\b(candles?|taper)\b/],
   ["lamp", /\b(lamps?|lantern\w*|lamplight|torch)\b/],
-  ["fire", /\b(fire\w*|flames?|blaze|burn\w*|hearth|stove)\b/],
+  ["fire", /\b(fires?|fireplace|firelit|hearth|flames?|blaze|campfire|bonfire|stove)\b/],
   ["book", /\b(books?|diary|notebook|library|pages?|reads?|reading|journal|tablet|scroll|manuscript)\b/],
   ["letter", /\b(letters?|envelope|note|message|telegram|post|mail|card)\b/],
   ["pen", /\b(pen|writes?|writing|pencil|ink|signs?|signature)\b/],
@@ -79,13 +81,13 @@ const THINGS: readonly [Motif, RegExp][] = [
   ["chest", /\b(chest|box|trunk|parcel|crate|casket|suitcase|package)\b/],
   ["bag", /\b(bags?|sack|basket|baskets|satchel|backpack|luggage)\b/],
   ["scale", /\b(scales?|balance|weigh\w*|budget|ledger|accounts?)\b/],
-  ["chart", /\b(graph|chart|plan|table of|diagram|rows|numbers|figures|statistics|percent)\b/],
+  ["chart", /\b(graph|chart|plan|table of|diagram|numbers|statistics|percent)\b/],
   ["heart", /\b(hearts?|love\w*|kiss\w*|wedding|bride|romance|sweetheart|marry|marriage|proposal)\b/],
   ["ring", /\b(rings?|jewel\w*|diamond|necklace|pearl)\b/],
   ["crown", /\b(crown|king|queen|throne|royal|prince|princess)\b/],
   ["sword", /\b(sword\w*|knife|dagger|spears?|battle|weapon|armou?r|soldiers?|army|duel|fight\w*|slings?)\b/],
-  ["cup", /\b(cups?|tea|coffee|mug|teapot|kettle|breakfast)\b/],
-  ["wine", /\b(wine|glass of|bottle|drink\w*|drunk|toast|pours?)\b/],
+  ["cup", /\b(cups?|tea|coffee|mug|teapot|kettle|breakfast|drinks?|milk|glass of water)\b/],
+  ["wine", /\b(wine|wineglass|beer|ale|whisky|brandy|champagne|drunk|toast)\b/],
   ["bread", /\b(bread|food|meal|dinner|supper|feast|lunch|soup|cake|plate|eats?|eating|kitchen)\b/],
   ["apple", /\b(apples?|fruit|vegetables?|berries|orange|pear|plants?|salad|diet)\b/],
   ["table", /\b(table|desk|counter|bench)\b/],
@@ -103,7 +105,7 @@ const THINGS: readonly [Motif, RegExp][] = [
   ["brain", /\b(brain|mind|thought\w*|think\w*|memory|idea|focus|learn\w*|study|studies|puzzle|dream\w*)\b/],
   ["shoe", /\b(shoes?|boots?|run\w*|walk\w*|jog\w*|exercise|race|feet|foot|marathon|gym|weights?|lift\w*|stretch\w*)\b/],
   ["ghost", /\b(ghosts?|spirit|phantom|monster|creature|vampire|eyes shine|fog creeps)\b/],
-  ["coffin", /\b(coffin|grave\w*|tomb|funeral|death|dead|corpse|body|skull|cemetery)\b/],
+  ["coffin", /\b(coffin|grave(?:s|yard|stone)?|tomb|funeral|corpse|skull|cemetery)\b/],
   ["cross", /\b(doctor|hospital|nurse|medicine|pills?|medical|clinic|patient|health|bandage|syringe)\b/],
   ["flask", /\b(flask|chemist\w*|potion|experiment|laborator\w*|test tube|microscope|science|scientist)\b/],
   ["star", /\b(stars?|starry|planets?|telescope|galaxy|comet|universe|sky)\b/],
@@ -115,7 +117,7 @@ const THINGS: readonly [Motif, RegExp][] = [
   ["hand", /\b(hands?|handshake|grabs?|fingers?)\b/],
 ];
 
-const PEOPLE = /\b(man|men|woman|women|he|she|they|girl|boy|child|children|lady|gentleman|sailor|sailors|doctor|landlady|driver|stranger|friend|friends|mother|father|sister|brother|family|detective|policeman|guard|farmer|merchant|servant|clerk|teacher|student|king|queen|prince|princess|lord|captain|bride|groom|husband|wife|baby|neighbou?r|crowd|people|villagers|figures?|diver|divers|workers?|runner|walker|reader|traveller|player|artist|writer|thief|spy|monk|priest|nun|hunter|fisherman|knight|soldier|soldiers|[A-Z][a-z]+ (?:and|with|looks|walks|sits|stands|reads|holds|asks|says|tells|smiles|laughs|waits|writes|opens|picks|takes|turns|runs|climbs|kneels|weeps))\b/i;
+const PEOPLE = /\b(sisters?|daughters?|sons?|guests?|couples?|gentlemen|ladies|officers?|girls|boys|servants|brothers|mothers|fathers|parents|passengers|travellers|man|men|woman|women|he|she|they|girl|boy|child|children|lady|gentleman|sailor|sailors|doctor|landlady|driver|stranger|friend|friends|mother|father|sister|brother|family|detective|policeman|guard|farmer|merchant|servant|clerk|teacher|student|king|queen|prince|princess|lord|captain|bride|groom|husband|wife|baby|neighbou?r|crowd|people|villagers|figures?|diver|divers|workers?|runner|walker|reader|traveller|player|artist|writer|thief|spy|monk|priest|nun|hunter|fisherman|knight|soldier|soldiers|[A-Z][a-z]+ (?:and|with|looks|walks|sits|stands|reads|holds|asks|says|tells|smiles|laughs|waits|writes|opens|picks|takes|turns|runs|climbs|kneels|weeps|hurries|talks|listens|sleeps|sips|drinks|stops|watches|enters|leaves|stares|speaks|lies|works|plays|cooks|eats|follows|calls|nods|wakes|hides|pleads))\b/i;
 const CHILD = /\b(girl|boy|child|children|baby|kitten|puppy|little)\b/i;
 const GROUP = /\b(crowd|people|villagers|friends|family|sailors|soldiers|men|women|workers|divers|children|guests|neighbou?rs|passengers|students|they|two|three|four|together|figures)\b/i;
 
@@ -124,15 +126,15 @@ const first = <T,>(table: readonly [T, RegExp][], text: string): T | null => {
   return null;
 };
 
-const SETTING_BY_SEED: readonly Setting[] = ["field", "mountain", "forest", "garden", "road", "street", "room", "water"];
+const DRY_BY_SEED: readonly Setting[] = ["field", "garden", "road", "street"];
+const INDOOR: readonly Motif[] = ["table", "bed", "book", "letter", "pen", "cup", "lamp", "candle", "phone", "chart", "scale", "mirror", "clock", "chest", "bread", "brain", "hearth", "window", "door", "wine"];
 
 /** Reads a caption and decides the picture: where it is, the sky, and what and who is in it. `seed` varies pages whose captions are alike. */
 export function composeScene(caption: string, seed: string): Scene {
   const text = ` ${caption} `.toLowerCase();
   const h = hash(`${seed}|${caption}`);
   const bookHue = hash(seed.split(":")[0]) % 360;
-  const setting = first(SETTINGS, text) ?? SETTING_BY_SEED[h % SETTING_BY_SEED.length];
-  const sky: Sky = first(SKIES, text) ?? (setting === "space" || setting === "cave" ? "night" : (["day", "day", "dawn", "dusk", "day"] as const)[(h >>> 3) % 5]);
+  const matched = first(SETTINGS, text);
 
   // The things the caption names, in the order it names them: at most three, the first the biggest.
   const found: { motif: Motif; at: number }[] = [];
@@ -144,11 +146,15 @@ export function composeScene(caption: string, seed: string): Scene {
   const picked: Motif[] = [];
   for (const f of found) {
     // Skip a motif that only repeats the setting (a sea picture does not need "water" too).
-    if ((setting === "sea" && (f.motif === "drop" || f.motif === "fish")) && picked.length > 0) continue;
+    if ((matched === "sea" && (f.motif === "drop" || f.motif === "fish")) && picked.length > 0) continue;
     if (!picked.includes(f.motif)) picked.push(f.motif);
     if (picked.length >= 3) break;
   }
-  if (!picked.length) picked.push((["tree", "lamp", "book", "flower", "house", "bird", "key", "cup"] as const)[(h >>> 5) % 8]);
+  // No setting word: indoors when the caption names an indoor thing, else a plain dry place (never water or mountains).
+  const setting: Setting = matched ?? (picked.some((m) => INDOOR.includes(m)) ? "room" : DRY_BY_SEED[h % DRY_BY_SEED.length]);
+  const sky: Sky = first(SKIES, text) ?? (setting === "space" || setting === "cave" ? "night" : (["day", "day", "dawn", "dusk", "day"] as const)[(h >>> 3) % 5]);
+  // A hearth, not a campfire, indoors.
+  if (setting === "room" || setting === "lab") for (let i = 0; i < picked.length; i++) if (picked[i] === "fire") picked[i] = "hearth";
 
   const slots = [150, 290, 60, 340];
   const things: Thing[] = picked.map((motif, i) => ({ motif, x: slots[i] + ((h >>> (7 + i)) % 24) - 12, scale: i === 0 ? 1.15 : 0.8 }));

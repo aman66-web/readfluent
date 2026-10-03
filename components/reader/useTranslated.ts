@@ -55,6 +55,8 @@ const PREPARE_MS = 180_000;
 interface Result { key: string; state: Exclude<TranslatedState, "idle" | "loading">; variant: ReaderVariant | null }
 
 const done = new Map<string, ReaderVariant>();
+/** The server said its translator is off: not asked again until the page is reloaded. */
+let serverOff = false;
 
 export function useTranslated(lang: string | null, speak: string, slug: string, levelId: string, length: number, english: readonly string[] | null): {
   state: TranslatedState; variant: ReaderVariant | null; download: () => void;
@@ -103,10 +105,11 @@ export function useTranslated(lang: string | null, speak: string, slug: string, 
       // 2. No translator on this device: the first chapter in the language, the rest in English.
       if (start && english) return settle({ state: "partial", variant: mixed(lang, head, english, start.dict) });
       // 3. The server's translator, if it is switched on.
+      if (serverOff) return settle({ state: "off", variant: null });
       const q = new URLSearchParams({ slug, level: levelSlug, length: String(length), lang, speak: speak || "en" });
       try {
         const r = await fetch(`/api/translate?${q}`);
-        if (r.status === 503) return settle({ state: "off", variant: null });
+        if (r.status === 503) { serverOff = true; return settle({ state: "off", variant: null }); }
         if (!r.ok) return settle({ state: "failed", variant: null });
         const body = (await r.json()) as { variant?: ReaderVariant };
         if (!body.variant) return settle({ state: "failed", variant: null });

@@ -19,6 +19,11 @@ describe("which requests the proxy runs on", () => {
     expect(src).toContain('"sec-fetch-dest") === "document"');
   });
 
+  it("does not ask the auth server about prefetches or about sessionless background fetches", () => {
+    expect(src).toContain("next-router-prefetch");
+    expect(src).toContain("hasAppSession(request.cookies");
+  });
+
   it("re-sets the first-screen cookie from the server, which WebKit does not expire after a week", () => {
     expect(src).toContain("ONBOARDED_MAX_AGE");
   });

@@ -159,3 +159,14 @@ export function shortBlurb(blurb: string, max = 64): string {
   const words = (at > max * 0.5 ? cut.slice(0, at) : text.slice(0, max)).replace(/[\s,;:.!?\-–—]+$/, "");
   return `${words}…`;
 }
+
+/** The day the library opened. Only a book added after it is marked new. */
+export const LIBRARY_LAUNCH = "2026-10-02";
+
+/**
+ * Text made comparable for a search: accents and case gone, curly quotes straight, punctuation a space
+ * ("Dr. Jekyll" matches "dr jekyll", "Brontë" matches "bronte", "alice’s" matches "alice's").
+ */
+export function normSearch(s: string): string {
+  return s.normalize("NFKD").replace(/\p{M}/gu, "").replace(/[’‘`´]/g, "'").replace(/[.,:;!?"'()\-–—]/g, " ").replace(/\s+/g, " ").toLowerCase().trim();
+}

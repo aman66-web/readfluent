@@ -16,7 +16,7 @@ Not real yet: the library is **270 books** (30 in each of nine categories), each
 - [ ] **Vercel settings**: add `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, then redeploy. `/api/health` should then say `db: true`.
 - [ ] **Anthropic key**: add `ANTHROPIC_API_KEY` (switches on Talk, and is needed to write the other 195 books). Set a monthly spending limit on the key.
 - [ ] **A real domain** and the address in `PRODUCTION_URL`; a support email address.
-- [ ] **Real legal pages**: privacy policy and terms (the current privacy page is a placeholder), plus a cookie/analytics notice if you use analytics.
+- [ ] **Legal pages, final read**: `/privacy`, `/terms` and `/support` are real pages (3 Oct 2026) but still need a lawyer's or the owner's read, a real support email address, and the data controller's name; add a cookie/analytics notice if you use analytics.
 - [ ] **Decide prices and the free tier** (today's working default: 50-page books free, 100 and 200 paid; £5.99 a month, £39.99 a year).
 
 ## Phase 2: the books (the biggest job)

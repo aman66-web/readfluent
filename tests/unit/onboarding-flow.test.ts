@@ -191,11 +191,12 @@ describe("every screen renders", () => {
     SHOW_IDS.forEach((id, i) => expect(h[id].replace(/<[^>]+>/g, ""), id).toContain(lines[i].split(" ")[0]));
   });
 
-  it("with the first tour screen about books of their choice and questions in the language", async () => {
+  it("with the first tour screen about books of their choice, claiming only what exists", async () => {
     const h = await html();
     const text = h.journey.replace(/<[^>]+>/g, "");
     expect(text).toContain("go through books of your choice");
-    expect(text).toContain("Every few pages, you&#x27;ll answer a few Spanish questions");
+    expect(text).toContain("Tests in Recall check what you&#x27;ve learned");
+    expect(text).not.toMatch(/Every few pages/);
   });
 
   it("with the sign-in step saying so when there is no database, and never dead-ending", async () => {
@@ -234,7 +235,7 @@ describe("the white theme", () => {
 });
 
 describe("the run's last step", () => {
-  const page = read("app/welcome/page.tsx");
+  const page = read("components/welcome/Welcome.tsx");
 
   it("reports the answers once, marks the first screen seen, and opens the library", () => {
     const finish = page.slice(page.indexOf("const finish = () => {"), page.indexOf("// The first screen is its own layout"));
@@ -332,11 +333,11 @@ describe("Dewey says how quick it will be", () => {
     }
   });
 
-  it("says that number in the bubble, with Dewey waiting to begin", async () => {
+  it("says it is quick (no number) in the bubble, with Dewey waiting to begin", async () => {
     const { QuickScreen } = await import("@/components/onboarding/Questions");
     const html = renderToStaticMarkup(createElement(QuickScreen, { at: 3, of: 20, onBack: () => {}, onContinue: () => {} }));
     const t = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
-    expect(t).toContain(`Just ${QUESTION_STEPS.length} quick questions, then you can start reading!`);
+    expect(t).toContain("A few quick questions and a short tour, then you can start reading!");
     expect(t).toContain("keep it as quick as we can");
     expect(html).toContain("lx-ready");
     expect(html).not.toContain('role="progressbar"');
@@ -347,7 +348,7 @@ describe("Dewey celebrates, then the run moves on by itself", () => {
   it("makes the celebration an interlude that Back steps over", () => {
     expect(isInterlude("go")).toBe(true);
     expect(isInterlude("quick")).toBe(false);
-    expect(read("app/welcome/page.tsx")).toContain("isInterlude(STEP_IDS[i - 1]) ? i - 2 : i - 1");
+    expect(read("components/welcome/Welcome.tsx")).toContain("isInterlude(STEP_IDS[i - 1]) ? i - 2 : i - 1");
   });
 
   it("shows Dewey cheering and 'Let's go!', with no progress bar and nothing to press", async () => {

@@ -25,7 +25,12 @@ export function parseProgress(raw: string | null | undefined): Progress {
     const v: unknown = JSON.parse(raw);
     if (!isObject(v)) return {};
     const out: Progress = {};
-    for (const [k, n] of Object.entries(v)) if (typeof n === "number" && Number.isInteger(n) && n >= 0) out[k] = n;
+    for (const [k, n] of Object.entries(v)) {
+      if (typeof n !== "number" || !Number.isInteger(n) || n < 0) continue;
+      // Older saves used a lowercase level ("a1a2") or a language suffix ("emma.es"): they count as the same version.
+      const c = canonicalKey(k);
+      out[c] = c in out ? Math.max(out[c], n) : n;
+    }
     return out;
   } catch {
     return {};
@@ -47,7 +52,20 @@ export function parseChoice(raw: string | null | undefined): Choice {
   }
 }
 
-export const versionKey = (slug: string, level: string, length: number): string => `${slug}/${level}-${length}`;
+/** The one key a version is kept under: `<slug>/<LEVELID>-<length>`, whatever the language it was read in. */
+export const versionKey = (slug: string, level: string, length: number): string => `${slug.replace(/\.[a-z]{2,3}$/, "")}/${level.toUpperCase()}-${length}`;
+
+/** Any saved key (old lowercase level, `.es` language suffix) as its canonical form; anything else unchanged. */
+export function canonicalKey(key: string): string {
+  const v = parseVersionKey(key);
+  return v ? versionKey(v.slug, v.level, v.length) : key;
+}
+
+/** A version key split into its parts. Accepts the older forms: a lowercase level and an optional language suffix on the slug. */
+export function parseVersionKey(key: string): { slug: string; level: string; length: number } | null {
+  const m = /^([a-z0-9-]+)(?:\.[a-z]{2,3})?\/([A-Za-z0-9]+)-(\d+)$/.exec(key);
+  return m ? { slug: m[1], level: m[2].toUpperCase(), length: Number(m[3]) } : null;
+}
 
 /** A saved page index, clamped to the pages that exist now; 0 when there is none. */
 export function resumeIndex(saved: number | undefined, pageCount: number): number {
@@ -82,11 +100,11 @@ export function readChoice(slug: string): { level: string; length: number } | un
 export function furthest(all: Progress, slug: string): { level: string; length: number; index: number } | null {
   let best: { level: string; length: number; index: number; share: number } | null = null;
   for (const [key, index] of Object.entries(all)) {
-    const m = /^(.+)\/([a-z0-9]+)-(\d+)$/.exec(key);
-    if (!m || m[1] !== slug) continue;
-    const length = Number(m[3]);
+    const v = parseVersionKey(key);
+    if (!v || v.slug !== slug) continue;
+    const length = v.length;
     const share = length > 0 ? (index + 1) / length : 0;
-    if (!best || share > best.share) best = { level: m[2], length, index, share };
+    if (!best || share > best.share) best = { level: v.level, length, index, share };
   }
   return best ? { level: best.level, length: best.length, index: best.index } : null;
 }

@@ -88,7 +88,8 @@ describe("the exam paper", () => {
       for (const level of EXAM_LEVELS) {
         const p = makePaper({ lang, level, kind: "mixed", bank: bank as never, seed: 11, size: EXAM.questions, exam: true });
         expect(p.questions, `${lang} ${level}`).toHaveLength(EXAM.questions);
-        expect(new Set(p.questions.map((q) => q.kind)).size).toBeGreaterThanOrEqual(3);
+        // English has no translations (no meaning, no word order), so its papers are gap and listening only.
+        expect(new Set(p.questions.map((q) => q.kind)).size).toBeGreaterThanOrEqual(lang === "es" ? 3 : 2);
       }
     }
   });

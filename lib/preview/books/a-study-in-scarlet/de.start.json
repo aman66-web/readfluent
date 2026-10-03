@@ -3,130 +3,878 @@
   "lang": "de",
   "levels": {
     "A1A2": [
-      { "text": "John Watson studierte Medizin, um Arzt zu werden, und ging dann zur Armee.", "keys": [ { "w": "studierte", "en": "studied" }, { "w": "Arzt", "en": "doctor" }, { "w": "Armee", "en": "army" } ] },
-      { "text": "Seine Armee schickte ihn nach Indien, und in Afghanistan begann ein Krieg.", "keys": [ { "w": "schickte", "en": "sent" }, { "w": "begann", "en": "began" }, { "w": "Krieg", "en": "war" } ] },
-      { "text": "Bei einer Schlacht namens Maiwand traf eine Kugel seine Schulter.", "keys": [ { "w": "Schlacht", "en": "battle" }, { "w": "Kugel", "en": "bullet" }, { "w": "Schulter", "en": "shoulder" } ] },
-      { "text": "Sein Helfer Murray setzte ihn auf ein Pferd und brachte ihn fort.", "keys": [ { "w": "Helfer", "en": "helper" }, { "w": "setzte", "en": "put, sat" }, { "w": "fort", "en": "away" } ] },
-      { "text": "Er lag monatelang krank in einem Krankenhaus und wäre fast gestorben.", "keys": [ { "w": "monatelang", "en": "for months" }, { "w": "Krankenhaus", "en": "hospital" }, { "w": "gestorben", "en": "died" } ] },
-      { "text": "Ein Schiff brachte ihn nach Hause, nach England, aber er war sehr schwach.", "keys": [ { "w": "Schiff", "en": "ship" }, { "w": "brachte", "en": "brought" }, { "w": "schwach", "en": "weak" } ] },
-      { "text": "Er hatte keine Familie in England und sehr wenig Geld.", "keys": [ { "w": "Familie", "en": "family" }, { "w": "wenig", "en": "little" }, { "w": "Geld", "en": "money" } ] },
-      { "text": "In London wohnte er in einem traurigen Hotel und gab sein Geld aus.", "keys": [ { "w": "wohnte", "en": "lived" }, { "w": "traurigen", "en": "sad" }, { "w": "gab", "en": "spent (gab aus)" } ] },
-      { "text": "Eines Tages zählte er sein Geld und sah, dass er umziehen musste.", "keys": [ { "w": "zählte", "en": "counted" }, { "w": "umziehen", "en": "to move house" }, { "w": "musste", "en": "had to" } ] },
-      { "text": "In einer belebten Bar klopfte ihm ein alter Freund namens Stamford auf die Schulter.", "keys": [ { "w": "belebten", "en": "busy, lively" }, { "w": "klopfte", "en": "tapped" }, { "w": "Schulter", "en": "shoulder" } ] }
+      {
+        "text": "John Watson wurde Armeearzt, und in Afghanistan begann ein Krieg.",
+        "keys": [
+          {
+            "w": "wurde",
+            "en": "became"
+          },
+          {
+            "w": "Armeearzt",
+            "en": "army doctor"
+          },
+          {
+            "w": "Krieg",
+            "en": "war"
+          }
+        ]
+      },
+      {
+        "text": "Bei einer Schlacht namens Maiwand traf eine Kugel seine Schulter, und Murray rettete ihn.",
+        "keys": [
+          {
+            "w": "Schlacht",
+            "en": "battle"
+          },
+          {
+            "w": "Kugel",
+            "en": "bullet"
+          },
+          {
+            "w": "rettete",
+            "en": "saved"
+          }
+        ]
+      },
+      {
+        "text": "Er starb fast an einem Fieber in einem Krankenhaus in Peshawar.",
+        "keys": [
+          {
+            "w": "starb",
+            "en": "died"
+          },
+          {
+            "w": "Fieber",
+            "en": "fever"
+          },
+          {
+            "w": "Krankenhaus",
+            "en": "hospital"
+          }
+        ]
+      },
+      {
+        "text": "Ein Schiff brachte ihn nach Hause, nach England, aber er war sehr schwach.",
+        "keys": [
+          {
+            "w": "Schiff",
+            "en": "ship"
+          },
+          {
+            "w": "brachte",
+            "en": "brought"
+          },
+          {
+            "w": "schwach",
+            "en": "weak"
+          }
+        ]
+      },
+      {
+        "text": "Er hatte keine Familie und wenig Geld, also ging er nach London.",
+        "keys": [
+          {
+            "w": "wenig",
+            "en": "little"
+          },
+          {
+            "w": "Geld",
+            "en": "money"
+          },
+          {
+            "w": "ging",
+            "en": "went"
+          }
+        ]
+      },
+      {
+        "text": "In London wohnte er in einem traurigen Hotel und gab sein Geld aus.",
+        "keys": [
+          {
+            "w": "wohnte",
+            "en": "lived"
+          },
+          {
+            "w": "traurigen",
+            "en": "sad"
+          },
+          {
+            "w": "gab",
+            "en": "spent (gab ... aus)"
+          }
+        ]
+      },
+      {
+        "text": "Eines Tages zählte er sein Geld und sah, dass er umziehen musste.",
+        "keys": [
+          {
+            "w": "zählte",
+            "en": "counted"
+          },
+          {
+            "w": "umziehen",
+            "en": "to move house"
+          },
+          {
+            "w": "musste",
+            "en": "had to"
+          }
+        ]
+      },
+      {
+        "text": "In einer belebten Bar klopfte ihm ein alter Freund namens Stamford auf die Schulter.",
+        "keys": [
+          {
+            "w": "belebten",
+            "en": "busy, lively"
+          },
+          {
+            "w": "klopfte",
+            "en": "tapped, knocked"
+          },
+          {
+            "w": "Schulter",
+            "en": "shoulder"
+          }
+        ]
+      },
+      {
+        "text": "Stamford sah, dass Watson dünn und braun gebrannt war, und sie aßen zusammen zu Mittag.",
+        "keys": [
+          {
+            "w": "dünn",
+            "en": "thin"
+          },
+          {
+            "w": "gebrannt",
+            "en": "tanned (braun gebrannt)"
+          },
+          {
+            "w": "aßen",
+            "en": "ate (zu Mittag)"
+          }
+        ]
+      },
+      {
+        "text": "Watson brauchte billige Zimmer, und Stamford kannte einen anderen Mann, der dasselbe suchte.",
+        "keys": [
+          {
+            "w": "brauchte",
+            "en": "needed"
+          },
+          {
+            "w": "billige",
+            "en": "cheap"
+          },
+          {
+            "w": "kannte",
+            "en": "knew"
+          }
+        ]
+      }
     ],
     "B1B2": [
-      { "text": "John Watson legte 1878 sein Examen in Medizin ab und ließ sich dann zum Militärchirurgen ausbilden. Bald darauf wurde er nach Indien geschickt, doch in Afghanistan hatte ein neuer Krieg begonnen, bevor sein Schiff das Land erreichte.", "keys": [ { "w": "Examen", "en": "exam, degree" }, { "w": "Militärchirurgen", "en": "army surgeon" }, { "w": "ausbilden", "en": "to train" } ] },
-      { "text": "In der Schlacht von Maiwand zerschmetterte eine Kugel die Knochen in Watsons Schulter. Sein Bursche, ein tapferer Mann namens Murray, warf ihn über ein Pferd und führte ihn sicher zu den britischen Linien zurück.", "keys": [ { "w": "zerschmetterte", "en": "shattered" }, { "w": "Bursche", "en": "orderly, soldier-servant" }, { "w": "tapferer", "en": "brave" } ] },
-      { "text": "Watson wurde in das Lazarett von Peschawar gebracht, wo es ihm langsam besser ging. Dann erkrankte er an einem Fieber, das unter den Soldaten weit verbreitet war, und monatelang glaubte niemand, dass er überleben würde.", "keys": [ { "w": "Lazarett", "en": "military hospital" }, { "w": "verbreitet", "en": "widespread" }, { "w": "überleben", "en": "to survive" } ] },
-      { "text": "Schließlich war er kräftig genug zu reisen, und ein Truppentransporter mit dem Namen Orontes brachte ihn nach Portsmouth. Seine Gesundheit war zerstört, doch die Regierung gewährte ihm neun Monate, um sich zu erholen.", "keys": [ { "w": "Truppentransporter", "en": "troopship" }, { "w": "gewährte", "en": "granted" }, { "w": "erholen", "en": "to recover" } ] },
-      { "text": "Watson hatte weder Verwandte noch Freunde in England, und sein einziges Einkommen war eine kleine Armeepension. Wie viele Müßiggänger aus dem ganzen Weltreich trieb es ihn nach London.", "keys": [ { "w": "Verwandte", "en": "relatives" }, { "w": "Einkommen", "en": "income" }, { "w": "Müßiggänger", "en": "idlers" } ] },
-      { "text": "Eine Weile wohnte er in einem düsteren Hotel in der Straße Strand, wo er nichts zu tun hatte und niemanden zum Reden. Er gab sein Geld viel freigebiger aus, als er es hätte tun sollen.", "keys": [ { "w": "düsteren", "en": "gloomy" }, { "w": "niemanden", "en": "nobody (as object)" }, { "w": "freigebiger", "en": "more freely, more generously" } ] },
-      { "text": "Eines Morgens sah er seine Finanzen durch und erschrak, wie wenig übrig war. Er wusste, dass er London entweder ganz verlassen oder seine Lebensweise ändern musste.", "keys": [ { "w": "Finanzen", "en": "finances" }, { "w": "erschrak", "en": "was alarmed" }, { "w": "Lebensweise", "en": "way of life" } ] },
-      { "text": "Er entschied sich, seine Lebensweise zu ändern, und beschloss, gleich am nächsten Tag nach billigeren Zimmern zu suchen. Am selben Nachmittag stand er in der Criterion Bar, als ihn jemand an der Schulter berührte.", "keys": [ { "w": "beschloss", "en": "decided" }, { "w": "billigeren", "en": "cheaper" }, { "w": "berührte", "en": "touched" } ] },
-      { "text": "Es war der junge Stamford, der unter ihm als Assistent im St Bartholomew's Hospital gearbeitet hatte. Stamford war erschrocken, ihn so dünn und sonnengebräunt zu sehen, und nahm ihn zum Mittagessen nach Holborn mit.", "keys": [ { "w": "Assistent", "en": "assistant" }, { "w": "erschrocken", "en": "shocked" }, { "w": "sonnengebräunt", "en": "sunburnt, tanned" } ] },
-      { "text": "Beim Mittagessen erzählte Watson ihm vom Krieg, von der Verwundung und von seiner Suche nach billigen Zimmern. Stamford lachte und sagte, das sei seltsam, denn Watson sei an diesem Tag der Zweite, der das sage.", "keys": [ { "w": "Verwundung", "en": "wound" }, { "w": "Suche", "en": "search" }, { "w": "seltsam", "en": "strange" } ] }
+      {
+        "text": "John Watson legte 1878 sein Examen in Medizin ab und ließ sich dann zum Militärchirurgen ausbilden. Bald darauf wurde er nach Indien geschickt, doch in Afghanistan hatte ein neuer Krieg begonnen, bevor sein Schiff das Land erreichte.",
+        "keys": [
+          {
+            "w": "Examen",
+            "en": "exam, degree"
+          },
+          {
+            "w": "Militärchirurgen",
+            "en": "army surgeon"
+          },
+          {
+            "w": "ausbilden",
+            "en": "to train"
+          }
+        ]
+      },
+      {
+        "text": "In der Schlacht von Maiwand zerschmetterte eine Kugel die Knochen in Watsons Schulter. Sein Bursche, ein tapferer Mann namens Murray, warf ihn über ein Pferd und führte ihn sicher zu den britischen Linien zurück.",
+        "keys": [
+          {
+            "w": "zerschmetterte",
+            "en": "shattered"
+          },
+          {
+            "w": "Bursche",
+            "en": "orderly, soldier-servant"
+          },
+          {
+            "w": "tapferer",
+            "en": "brave"
+          }
+        ]
+      },
+      {
+        "text": "Watson wurde in das Lazarett von Peschawar gebracht, wo es ihm langsam besser ging. Dann erkrankte er an einem Fieber, das unter den Soldaten weit verbreitet war, und monatelang glaubte niemand, dass er überleben würde.",
+        "keys": [
+          {
+            "w": "Lazarett",
+            "en": "military hospital"
+          },
+          {
+            "w": "verbreitet",
+            "en": "widespread"
+          },
+          {
+            "w": "überleben",
+            "en": "to survive"
+          }
+        ]
+      },
+      {
+        "text": "Schließlich war er kräftig genug zu reisen, und ein Truppentransporter mit dem Namen Orontes brachte ihn nach Portsmouth. Seine Gesundheit war zerstört, doch die Regierung gewährte ihm neun Monate, um sich zu erholen.",
+        "keys": [
+          {
+            "w": "Truppentransporter",
+            "en": "troopship"
+          },
+          {
+            "w": "gewährte",
+            "en": "granted"
+          },
+          {
+            "w": "erholen",
+            "en": "to recover"
+          }
+        ]
+      },
+      {
+        "text": "Watson hatte weder Verwandte noch Freunde in England, und sein einziges Einkommen war eine kleine Armeepension. Wie viele Müßiggänger aus dem ganzen Weltreich trieb es ihn nach London.",
+        "keys": [
+          {
+            "w": "Verwandte",
+            "en": "relatives"
+          },
+          {
+            "w": "Einkommen",
+            "en": "income"
+          },
+          {
+            "w": "Müßiggänger",
+            "en": "idlers"
+          }
+        ]
+      },
+      {
+        "text": "Eine Weile wohnte er in einem düsteren Hotel in der Straße Strand, wo er nichts zu tun hatte und niemanden zum Reden. Er gab sein Geld viel freigebiger aus, als er es hätte tun sollen.",
+        "keys": [
+          {
+            "w": "düsteren",
+            "en": "gloomy"
+          },
+          {
+            "w": "niemanden",
+            "en": "nobody (as object)"
+          },
+          {
+            "w": "freigebiger",
+            "en": "more freely, more generously"
+          }
+        ]
+      },
+      {
+        "text": "Eines Morgens sah er seine Finanzen durch und erschrak, wie wenig übrig war. Er wusste, dass er London entweder ganz verlassen oder seine Lebensweise ändern musste.",
+        "keys": [
+          {
+            "w": "Finanzen",
+            "en": "finances"
+          },
+          {
+            "w": "erschrak",
+            "en": "was alarmed"
+          },
+          {
+            "w": "Lebensweise",
+            "en": "way of life"
+          }
+        ]
+      },
+      {
+        "text": "Er entschied sich, seine Lebensweise zu ändern, und beschloss, gleich am nächsten Tag nach billigeren Zimmern zu suchen. Am selben Nachmittag stand er in der Criterion Bar, als ihn jemand an der Schulter berührte.",
+        "keys": [
+          {
+            "w": "beschloss",
+            "en": "decided"
+          },
+          {
+            "w": "billigeren",
+            "en": "cheaper"
+          },
+          {
+            "w": "berührte",
+            "en": "touched"
+          }
+        ]
+      },
+      {
+        "text": "Es war der junge Stamford, der unter ihm als Assistent im St Bartholomew's Hospital gearbeitet hatte. Stamford war erschrocken, ihn so dünn und sonnengebräunt zu sehen, und nahm ihn zum Mittagessen nach Holborn mit.",
+        "keys": [
+          {
+            "w": "Assistent",
+            "en": "assistant"
+          },
+          {
+            "w": "erschrocken",
+            "en": "shocked"
+          },
+          {
+            "w": "sonnengebräunt",
+            "en": "sunburnt, tanned"
+          }
+        ]
+      },
+      {
+        "text": "Beim Mittagessen erzählte Watson ihm vom Krieg, von der Verwundung und von seiner Suche nach billigen Zimmern. Stamford lachte und sagte, das sei seltsam, denn Watson sei an diesem Tag der Zweite, der das sage.",
+        "keys": [
+          {
+            "w": "Verwundung",
+            "en": "wound"
+          },
+          {
+            "w": "Suche",
+            "en": "search"
+          },
+          {
+            "w": "seltsam",
+            "en": "strange"
+          }
+        ]
+      }
     ],
     "C1C2": [
-      { "text": "John Watson legte 1878 an der Universität London sein Examen in Medizin ab und absolvierte dann den Lehrgang in Netley, den jeder junge Militärarzt bestehen musste. Kaum war er einem Regiment in Indien zugeteilt worden, da brach in Afghanistan ein neuer Krieg aus. Als sein Schiff das Land erreichte, war das Regiment bereits über die Grenze marschiert, und er eilte ihm nach, um es einzuholen.", "keys": [ { "w": "absolvierte", "en": "completed" }, { "w": "zugeteilt", "en": "assigned" }, { "w": "einzuholen", "en": "to catch up with" } ] },
-      { "text": "In der Schlacht von Maiwand traf Watson eine schwere Kugel an der Schulter, zerschmetterte den Knochen und verfehlte nur knapp die große Schlagader darunter. Er wäre gewiss dem Feind in die Hände gefallen, wäre da nicht sein treuer Bursche Murray gewesen. Dieser tapfere Mann warf ihn über ein Packpferd und brachte ihn durch das Gefecht hindurch zu den britischen Linien.", "keys": [ { "w": "zerschmetterte", "en": "shattered" }, { "w": "Schlagader", "en": "artery" }, { "w": "Packpferd", "en": "pack-horse" } ] },
-      { "text": "Erschöpft von den Schmerzen und den Strapazen des Rückzugs wurde Watson in das Lazarett von Peschawar getragen, wo er sich eine Zeit lang zu erholen schien. Dann packte ihn das Typhusfieber, der Fluch der Armee in Indien, und monatelang hing sein Leben an einem seidenen Faden. Als die Krise endlich überstanden war, war er so schwach und mager, dass die Ärzte ihn in diesem Klima nicht länger bleiben ließen.", "keys": [ { "w": "Strapazen", "en": "hardships" }, { "w": "Typhusfieber", "en": "typhoid fever" }, { "w": "seidenen", "en": "silken" } ] },
-      { "text": "Ein Truppentransporter namens Orontes brachte den Invaliden nach Hause, und er ging in Portsmouth an Land, seine Gesundheit unwiederbringlich zerstört. Die Regierung gewährte ihm in ihrer Güte neun Monate zur Genesung, bot ihm aber weder Heim noch Arbeit dazu. Für einen Mann mit einer so leeren Zukunft schien das in der Tat eine kurze Frist, und er hatte keine Ahnung, wo er anfangen sollte.", "keys": [ { "w": "Invaliden", "en": "invalid (disabled soldier)" }, { "w": "unwiederbringlich", "en": "irreparably" }, { "w": "Genesung", "en": "recovery" } ] },
-      { "text": "Watson hatte weder Verwandte noch Bekannte in England, und er lebte von einer Armeepension von elf Shilling und sechs Pence am Tag. Wie alle Müßiggänger und Faulenzer des Weltreichs, die unwiderstehlich zur Hauptstadt hingezogen zu werden scheinen, zog es auch ihn nach London. Es war, wie er fand, eine gewaltige Kloake von einer Stadt, in der ein einsamer Mann versinken konnte, ohne eine Welle zu hinterlassen.", "keys": [ { "w": "Faulenzer", "en": "loafers, idlers" }, { "w": "unwiderstehlich", "en": "irresistibly" }, { "w": "Kloake", "en": "cesspool, sewer" } ] },
-      { "text": "Er nahm ein Zimmer in einer ungemütlichen Privatpension in der Straße Strand, und dort führte er ein sinnloses Leben, ohne Freunde, die er besuchen konnte, und ohne Arbeit, die ihn beschäftigte. Was immer er im Geldbeutel hatte, gab er weit freigebiger aus, als er es hätte tun sollen, als nähme das Geld nie ein Ende. Tag für Tag, mit den vergehenden Wochen, wurde er ziellos und trübsinniger.", "keys": [ { "w": "ungemütlichen", "en": "uncomfortable, cheerless" }, { "w": "ziellos", "en": "aimless" }, { "w": "trübsinniger", "en": "gloomier" } ] },
-      { "text": "Schließlich wurde seine Finanzlage so beunruhigend, dass er einsah, handeln zu müssen, und er setzte sich eines Morgens hin, um der Wahrheit ins Auge zu sehen. Entweder musste er die Hauptstadt verlassen und sich irgendwo auf dem Land verkriechen, oder er musste seine ganze Lebensweise ändern. Er wählte das Zweite und beschloss, Unterkünfte zu suchen, die weniger anspruchsvoll und erheblich billiger waren.", "keys": [ { "w": "Finanzlage", "en": "financial situation" }, { "w": "verkriechen", "en": "to hide away" }, { "w": "anspruchsvoll", "en": "pretentious, demanding" } ] },
-      { "text": "Gerade an dem Tag, an dem er zu diesem Schluss kam, stand er in der Criterion Bar, als ihm jemand auf die Schulter klopfte. Als er sich umdrehte, erkannte er den jungen Stamford, der im St Bartholomew's Hospital sein Assistent gewesen war. Für einen einsamen Mann in der großen Wildnis Londons war der Anblick eines freundlichen Gesichts eine Freude jenseits aller Worte.", "keys": [ { "w": "Schluss", "en": "conclusion" }, { "w": "Wildnis", "en": "wilderness" }, { "w": "Anblick", "en": "sight" } ] },
-      { "text": "Stamford seinerseits war über die Veränderung seines alten Vorgesetzten erstaunt, denn Watson war jetzt dünn wie eine Latte und braun wie eine Nuss. Er bestand darauf, ihn zum Mittagessen nach Holborn mitzunehmen, und fragte ihn in einer Droschke auf dem Weg, was um alles in der Welt geschehen sei. Watson erzählte ihm vom Krieg, von der Wunde und dem langen Fieber, während die Droschke durch die belebte Straße ratterte.", "keys": [ { "w": "Vorgesetzten", "en": "superior, chief" }, { "w": "Droschke", "en": "cab, hansom" }, { "w": "ratterte", "en": "rattled" } ] },
-      { "text": "Gegen Ende der Mahlzeit kam Watson auf den Kern seiner Sorgen zu sprechen, und er erklärte, dass er Zimmer zu einem vernünftigen Preis suche. Stamford sah ihn seltsam an und bemerkte, das sei ein merkwürdiger Zufall, denn Watson sei an diesem Tag der Zweite, der genau diese Worte gebraucht habe. Es war genau die Art von Gelegenheit, auf die Watson gehofft hatte, und er beugte sich eifrig vor, um zu fragen, wer der andere Mann sei.", "keys": [ { "w": "Kern", "en": "core, heart (of it)" }, { "w": "Zufall", "en": "coincidence" }, { "w": "eifrig", "en": "eagerly" } ] }
+      {
+        "text": "John Watson legte 1878 an der Universität London sein Examen in Medizin ab und absolvierte dann den Lehrgang in Netley, den jeder junge Militärarzt bestehen musste. Kaum war er einem Regiment in Indien zugeteilt worden, da brach in Afghanistan ein neuer Krieg aus. Als sein Schiff das Land erreichte, war das Regiment bereits über die Grenze marschiert, und er eilte ihm nach, um es einzuholen.",
+        "keys": [
+          {
+            "w": "absolvierte",
+            "en": "completed"
+          },
+          {
+            "w": "zugeteilt",
+            "en": "assigned"
+          },
+          {
+            "w": "einzuholen",
+            "en": "to catch up with"
+          }
+        ]
+      },
+      {
+        "text": "In der Schlacht von Maiwand traf Watson eine schwere Kugel an der Schulter, zerschmetterte den Knochen und verfehlte nur knapp die große Schlagader darunter. Er wäre gewiss dem Feind in die Hände gefallen, wäre da nicht sein treuer Bursche Murray gewesen. Dieser tapfere Mann warf ihn über ein Packpferd und brachte ihn durch das Gefecht hindurch zu den britischen Linien.",
+        "keys": [
+          {
+            "w": "zerschmetterte",
+            "en": "shattered"
+          },
+          {
+            "w": "Schlagader",
+            "en": "artery"
+          },
+          {
+            "w": "Packpferd",
+            "en": "pack-horse"
+          }
+        ]
+      },
+      {
+        "text": "Erschöpft von den Schmerzen und den Strapazen des Rückzugs wurde Watson in das Lazarett von Peschawar getragen, wo er sich eine Zeit lang zu erholen schien. Dann packte ihn das Typhusfieber, der Fluch der Armee in Indien, und monatelang hing sein Leben an einem seidenen Faden. Als die Krise endlich überstanden war, war er so schwach und mager, dass die Ärzte ihn in diesem Klima nicht länger bleiben ließen.",
+        "keys": [
+          {
+            "w": "Strapazen",
+            "en": "hardships"
+          },
+          {
+            "w": "Typhusfieber",
+            "en": "typhoid fever"
+          },
+          {
+            "w": "seidenen",
+            "en": "silken"
+          }
+        ]
+      },
+      {
+        "text": "Ein Truppentransporter namens Orontes brachte den Invaliden nach Hause, und er ging in Portsmouth an Land, seine Gesundheit unwiederbringlich zerstört. Die Regierung gewährte ihm in ihrer Güte neun Monate zur Genesung, bot ihm aber weder Heim noch Arbeit dazu. Für einen Mann mit einer so leeren Zukunft schien das in der Tat eine kurze Frist, und er hatte keine Ahnung, wo er anfangen sollte.",
+        "keys": [
+          {
+            "w": "Invaliden",
+            "en": "invalid (disabled soldier)"
+          },
+          {
+            "w": "unwiederbringlich",
+            "en": "irreparably"
+          },
+          {
+            "w": "Genesung",
+            "en": "recovery"
+          }
+        ]
+      },
+      {
+        "text": "Watson hatte weder Verwandte noch Bekannte in England, und er lebte von einer Armeepension von elf Shilling und sechs Pence am Tag. Wie alle Müßiggänger und Faulenzer des Weltreichs, die unwiderstehlich zur Hauptstadt hingezogen zu werden scheinen, zog es auch ihn nach London. Es war, wie er fand, eine gewaltige Kloake von einer Stadt, in der ein einsamer Mann versinken konnte, ohne eine Welle zu hinterlassen.",
+        "keys": [
+          {
+            "w": "Faulenzer",
+            "en": "loafers, idlers"
+          },
+          {
+            "w": "unwiderstehlich",
+            "en": "irresistibly"
+          },
+          {
+            "w": "Kloake",
+            "en": "cesspool, sewer"
+          }
+        ]
+      },
+      {
+        "text": "Er nahm ein Zimmer in einer ungemütlichen Privatpension in der Straße Strand, und dort führte er ein sinnloses Leben, ohne Freunde, die er besuchen konnte, und ohne Arbeit, die ihn beschäftigte. Was immer er im Geldbeutel hatte, gab er weit freigebiger aus, als er es hätte tun sollen, als nähme das Geld nie ein Ende. Tag für Tag, mit den vergehenden Wochen, wurde er ziellos und trübsinniger.",
+        "keys": [
+          {
+            "w": "ungemütlichen",
+            "en": "uncomfortable, cheerless"
+          },
+          {
+            "w": "ziellos",
+            "en": "aimless"
+          },
+          {
+            "w": "trübsinniger",
+            "en": "gloomier"
+          }
+        ]
+      },
+      {
+        "text": "Schließlich wurde seine Finanzlage so beunruhigend, dass er einsah, handeln zu müssen, und er setzte sich eines Morgens hin, um der Wahrheit ins Auge zu sehen. Entweder musste er die Hauptstadt verlassen und sich irgendwo auf dem Land verkriechen, oder er musste seine ganze Lebensweise ändern. Er wählte das Zweite und beschloss, Unterkünfte zu suchen, die weniger anspruchsvoll und erheblich billiger waren.",
+        "keys": [
+          {
+            "w": "Finanzlage",
+            "en": "financial situation"
+          },
+          {
+            "w": "verkriechen",
+            "en": "to hide away"
+          },
+          {
+            "w": "anspruchsvoll",
+            "en": "pretentious, demanding"
+          }
+        ]
+      },
+      {
+        "text": "Gerade an dem Tag, an dem er zu diesem Schluss kam, stand er in der Criterion Bar, als ihm jemand auf die Schulter klopfte. Als er sich umdrehte, erkannte er den jungen Stamford, der im St Bartholomew's Hospital sein Assistent gewesen war. Für einen einsamen Mann in der großen Wildnis Londons war der Anblick eines freundlichen Gesichts eine Freude jenseits aller Worte.",
+        "keys": [
+          {
+            "w": "Schluss",
+            "en": "conclusion"
+          },
+          {
+            "w": "Wildnis",
+            "en": "wilderness"
+          },
+          {
+            "w": "Anblick",
+            "en": "sight"
+          }
+        ]
+      },
+      {
+        "text": "Stamford seinerseits war über die Veränderung seines alten Vorgesetzten erstaunt, denn Watson war jetzt dünn wie eine Latte und braun wie eine Nuss. Er bestand darauf, ihn zum Mittagessen nach Holborn mitzunehmen, und fragte ihn in einer Droschke auf dem Weg, was um alles in der Welt geschehen sei. Watson erzählte ihm vom Krieg, von der Wunde und dem langen Fieber, während die Droschke durch die belebte Straße ratterte.",
+        "keys": [
+          {
+            "w": "Vorgesetzten",
+            "en": "superior, chief"
+          },
+          {
+            "w": "Droschke",
+            "en": "cab, hansom"
+          },
+          {
+            "w": "ratterte",
+            "en": "rattled"
+          }
+        ]
+      },
+      {
+        "text": "Gegen Ende der Mahlzeit kam Watson auf den Kern seiner Sorgen zu sprechen, und er erklärte, dass er Zimmer zu einem vernünftigen Preis suche. Stamford sah ihn seltsam an und bemerkte, das sei ein merkwürdiger Zufall, denn Watson sei an diesem Tag der Zweite, der genau diese Worte gebraucht habe. Es war genau die Art von Gelegenheit, auf die Watson gehofft hatte, und er beugte sich eifrig vor, um zu fragen, wer der andere Mann sei.",
+        "keys": [
+          {
+            "w": "Kern",
+            "en": "core, heart (of it)"
+          },
+          {
+            "w": "Zufall",
+            "en": "coincidence"
+          },
+          {
+            "w": "eifrig",
+            "en": "eagerly"
+          }
+        ]
+      }
     ]
   },
   "dict": {
-    "studierte": { "en": "studied (at university)", "use": "Past of studieren; for university study, not for homework." },
-    "arzt": { "en": "doctor, physician", "use": "Masculine; a woman doctor is die Ärztin." },
-    "armee": { "en": "army", "use": "Feminine; zur Armee gehen, to join the army." },
-    "schickte": { "en": "sent", "use": "Past of schicken; jemanden nach Indien schicken." },
-    "begann": { "en": "began", "use": "Past of beginnen; irregular." },
-    "krieg": { "en": "war", "use": "Masculine; the plural is die Kriege." },
-    "schlacht": { "en": "battle", "use": "Feminine; plural die Schlachten." },
-    "kugel": { "en": "bullet, ball", "use": "Feminine; also means a ball or a sphere." },
-    "schulter": { "en": "shoulder", "use": "Feminine; auf die Schulter klopfen, tap on the shoulder." },
-    "helfer": { "en": "helper", "use": "Masculine; from helfen, to help." },
-    "setzte": { "en": "put, sat (him down)", "use": "Past of setzen: to put someone in a sitting position." },
-    "fort": { "en": "away", "use": "Used with verbs of moving something or someone away." },
-    "monatelang": { "en": "for months", "use": "One word; the ending -lang means for a long period." },
-    "krankenhaus": { "en": "hospital", "use": "Neuter; im Krankenhaus, in the hospital." },
-    "gestorben": { "en": "died (has died)", "use": "Past participle of sterben; wäre fast gestorben, nearly died." },
-    "schiff": { "en": "ship", "use": "Neuter; das Schiff, plural die Schiffe." },
-    "brachte": { "en": "brought", "use": "Past of bringen; irregular." },
-    "schwach": { "en": "weak", "use": "Opposite of stark, strong." },
-    "familie": { "en": "family", "use": "Feminine; pronounced with four syllables." },
-    "wenig": { "en": "little, not much", "use": "Sehr wenig Geld, very little money." },
-    "geld": { "en": "money", "use": "Neuter; no plural in everyday use." },
-    "wohnte": { "en": "lived (in a place)", "use": "Past of wohnen; used for where you live." },
-    "traurigen": { "en": "sad", "use": "Adjective ending -en after einem; base form traurig." },
-    "gab": { "en": "spent (gab aus), gave", "use": "Past of geben; Geld ausgeben, to spend money, is separable." },
-    "zählte": { "en": "counted", "use": "Past of zählen; also means to count as." },
-    "umziehen": { "en": "to move house", "use": "Separable: er musste umziehen, he had to move." },
-    "musste": { "en": "had to", "use": "Past of müssen; the verb goes to the end after dass." },
-    "belebten": { "en": "busy, lively", "use": "Adjective ending -en; belebt means full of life or people." },
-    "klopfte": { "en": "tapped, knocked", "use": "Past of klopfen; jemandem auf die Schulter klopfen." },
-    "examen": { "en": "exam, final degree exam", "use": "Neuter; ein Examen ablegen, to take an exam." },
-    "militärchirurgen": { "en": "army surgeon (accusative/dative)", "use": "Compound: Militär (military) plus Chirurg (surgeon)." },
-    "ausbilden": { "en": "to train", "use": "Sich ausbilden lassen, to have oneself trained." },
-    "zerschmetterte": { "en": "shattered", "use": "Past of zerschmettern; for bones, glass and hopes." },
-    "bursche": { "en": "orderly, soldier-servant; lad", "use": "Offiziersbursche was an army servant; also means a lad." },
-    "tapferer": { "en": "brave", "use": "Adjective ending -er after ein; base form tapfer." },
-    "lazarett": { "en": "military hospital", "use": "Neuter; used for army hospitals, especially in war." },
-    "verbreitet": { "en": "widespread, common", "use": "Participle of verbreiten; weit verbreitet, very common." },
-    "überleben": { "en": "to survive", "use": "Also a noun, das Überleben; takes a direct object." },
-    "truppentransporter": { "en": "troopship", "use": "Compound: Truppen (troops) plus Transporter." },
-    "gewährte": { "en": "granted", "use": "Past of gewähren; formal, for allowing or giving." },
-    "erholen": { "en": "to recover, to rest", "use": "Always sich erholen: er erholt sich." },
-    "verwandte": { "en": "relatives", "use": "Adjective used as a noun: die Verwandten." },
-    "einkommen": { "en": "income", "use": "Neuter noun; also the verb einkommen." },
-    "müßiggänger": { "en": "idlers, loafers", "use": "Literary; müßig means idle." },
-    "düsteren": { "en": "gloomy, dark", "use": "Adjective ending -en after einem; base form düster." },
-    "niemanden": { "en": "nobody (as object)", "use": "Accusative of niemand; niemanden zum Reden, nobody to talk to." },
-    "freigebiger": { "en": "more generously, more freely", "use": "Comparative of freigebig, generous with money." },
-    "finanzen": { "en": "finances", "use": "Plural noun; always plural in this meaning." },
-    "erschrak": { "en": "was startled, was alarmed", "use": "Past of erschrecken (intransitive); irregular." },
-    "lebensweise": { "en": "way of life", "use": "Feminine; Leben (life) plus Weise (way)." },
-    "beschloss": { "en": "decided", "use": "Past of beschließen; irregular." },
-    "billigeren": { "en": "cheaper", "use": "Comparative of billig; ending -en before plural nouns." },
-    "berührte": { "en": "touched", "use": "Past of berühren; also means to move emotionally." },
-    "assistent": { "en": "assistant", "use": "Masculine; the feminine is die Assistentin." },
-    "erschrocken": { "en": "shocked, frightened", "use": "Adjective from erschrecken; erschrocken sein, to be startled." },
-    "sonnengebräunt": { "en": "tanned, sunburnt", "use": "Compound: Sonne (sun) plus gebräunt (browned)." },
-    "verwundung": { "en": "wound, injury", "use": "Feminine noun from verwunden, to wound." },
-    "suche": { "en": "search", "use": "Feminine; auf der Suche nach, in search of." },
-    "seltsam": { "en": "strange, odd", "use": "Seltsam, merkwürdig and komisch are close in meaning." },
-    "absolvierte": { "en": "completed, passed through", "use": "Past of absolvieren; used for courses and training." },
-    "zugeteilt": { "en": "assigned", "use": "Participle of zuteilen; jemandem zugeteilt werden, be assigned to." },
-    "einzuholen": { "en": "to catch up with", "use": "Separable verb einholen with zu inside." },
-    "schlagader": { "en": "artery", "use": "Feminine; Schlag (beat) plus Ader (vein)." },
-    "packpferd": { "en": "pack-horse", "use": "Compound: packen (to pack) plus Pferd." },
-    "strapazen": { "en": "hardships, exertions", "use": "Plural noun; die Strapazen einer Reise, the strain of a journey." },
-    "typhusfieber": { "en": "typhoid fever", "use": "Neuter; the old name for enteric fever." },
-    "seidenen": { "en": "silken, silk", "use": "An einem seidenen Faden hängen means to hang by a thread." },
-    "invaliden": { "en": "invalid (disabled person)", "use": "Der Invalide; old word for a wounded or disabled person." },
-    "unwiederbringlich": { "en": "irreparably, irretrievably", "use": "Used for what is lost for good." },
-    "genesung": { "en": "recovery (from illness)", "use": "Feminine noun from genesen, to recover." },
-    "faulenzer": { "en": "loafer, idler", "use": "Masculine; someone who does nothing and likes it." },
-    "unwiderstehlich": { "en": "irresistibly, irresistible", "use": "Un- plus widerstehen, to resist." },
-    "kloake": { "en": "cesspool, sewer", "use": "Feminine; a strong word for a very dirty place." },
-    "ungemütlichen": { "en": "uncomfortable, cheerless", "use": "Opposite of gemütlich, cosy." },
-    "ziellos": { "en": "aimless", "use": "Ziel (goal) plus -los (without)." },
-    "trübsinniger": { "en": "gloomier", "use": "Comparative of trübsinnig, low-spirited." },
-    "finanzlage": { "en": "financial situation", "use": "Feminine; Finanzen plus Lage (situation)." },
-    "verkriechen": { "en": "to hide away, to crawl away", "use": "Always sich verkriechen; used for hiding or retreating." },
-    "anspruchsvoll": { "en": "pretentious, demanding", "use": "Weniger anspruchsvoll, less grand or less demanding." },
-    "schluss": { "en": "conclusion, end", "use": "Zu einem Schluss kommen, to reach a conclusion." },
-    "wildnis": { "en": "wilderness", "use": "Feminine noun; die Wildnis Londons is a figure of speech." },
-    "anblick": { "en": "sight, view", "use": "Masculine; der Anblick eines Gesichts, the sight of a face." },
-    "vorgesetzten": { "en": "superior, chief", "use": "Adjective used as noun: der Vorgesetzte, one's boss." },
-    "droschke": { "en": "cab, hackney carriage", "use": "Old word for a horse-drawn taxi." },
-    "ratterte": { "en": "rattled", "use": "Past of rattern; for the noise of wheels." },
-    "kern": { "en": "core, heart, kernel", "use": "Auf den Kern kommen, to get to the heart of it." },
-    "zufall": { "en": "coincidence, chance", "use": "Masculine; ein merkwürdiger Zufall, a strange coincidence." },
-    "eifrig": { "en": "eagerly, keen", "use": "Adjective used here as an adverb: eifrig vorbeugen." }
+    "krieg": {
+      "en": "war",
+      "use": "Masculine; the plural is die Kriege."
+    },
+    "schlacht": {
+      "en": "battle",
+      "use": "Feminine; plural die Schlachten."
+    },
+    "kugel": {
+      "en": "bullet, ball",
+      "use": "Feminine; also means a ball or a sphere."
+    },
+    "schulter": {
+      "en": "shoulder",
+      "use": "Feminine; auf die Schulter klopfen, tap on the shoulder."
+    },
+    "krankenhaus": {
+      "en": "hospital",
+      "use": "Neuter; im Krankenhaus, in the hospital."
+    },
+    "schiff": {
+      "en": "ship",
+      "use": "Neuter; das Schiff, plural die Schiffe."
+    },
+    "brachte": {
+      "en": "brought",
+      "use": "Past of bringen; irregular."
+    },
+    "schwach": {
+      "en": "weak",
+      "use": "Opposite of stark, strong."
+    },
+    "wenig": {
+      "en": "little, not much",
+      "use": "Sehr wenig Geld, very little money."
+    },
+    "geld": {
+      "en": "money",
+      "use": "Neuter; no plural in everyday use."
+    },
+    "wohnte": {
+      "en": "lived (in a place)",
+      "use": "Past of wohnen; used for where you live."
+    },
+    "traurigen": {
+      "en": "sad",
+      "use": "Adjective ending -en after einem; base form traurig."
+    },
+    "gab": {
+      "en": "spent (gab aus), gave",
+      "use": "Past of geben; Geld ausgeben, to spend money, is separable."
+    },
+    "zählte": {
+      "en": "counted",
+      "use": "Past of zählen; also means to count as."
+    },
+    "umziehen": {
+      "en": "to move house",
+      "use": "Separable: er musste umziehen, he had to move."
+    },
+    "musste": {
+      "en": "had to",
+      "use": "Past of müssen; the verb goes to the end after dass."
+    },
+    "belebten": {
+      "en": "busy, lively",
+      "use": "Adjective ending -en; belebt means full of life or people."
+    },
+    "klopfte": {
+      "en": "tapped, knocked",
+      "use": "Past of klopfen; jemandem auf die Schulter klopfen."
+    },
+    "examen": {
+      "en": "exam, final degree exam",
+      "use": "Neuter; ein Examen ablegen, to take an exam."
+    },
+    "militärchirurgen": {
+      "en": "army surgeon (accusative/dative)",
+      "use": "Compound: Militär (military) plus Chirurg (surgeon)."
+    },
+    "ausbilden": {
+      "en": "to train",
+      "use": "Sich ausbilden lassen, to have oneself trained."
+    },
+    "zerschmetterte": {
+      "en": "shattered",
+      "use": "Past of zerschmettern; for bones, glass and hopes."
+    },
+    "bursche": {
+      "en": "orderly, soldier-servant; lad",
+      "use": "Offiziersbursche was an army servant; also means a lad."
+    },
+    "tapferer": {
+      "en": "brave",
+      "use": "Adjective ending -er after ein; base form tapfer."
+    },
+    "lazarett": {
+      "en": "military hospital",
+      "use": "Neuter; used for army hospitals, especially in war."
+    },
+    "verbreitet": {
+      "en": "widespread, common",
+      "use": "Participle of verbreiten; weit verbreitet, very common."
+    },
+    "überleben": {
+      "en": "to survive",
+      "use": "Also a noun, das Überleben; takes a direct object."
+    },
+    "truppentransporter": {
+      "en": "troopship",
+      "use": "Compound: Truppen (troops) plus Transporter."
+    },
+    "gewährte": {
+      "en": "granted",
+      "use": "Past of gewähren; formal, for allowing or giving."
+    },
+    "erholen": {
+      "en": "to recover, to rest",
+      "use": "Always sich erholen: er erholt sich."
+    },
+    "verwandte": {
+      "en": "relatives",
+      "use": "Adjective used as a noun: die Verwandten."
+    },
+    "einkommen": {
+      "en": "income",
+      "use": "Neuter noun; also the verb einkommen."
+    },
+    "müßiggänger": {
+      "en": "idlers, loafers",
+      "use": "Literary; müßig means idle."
+    },
+    "düsteren": {
+      "en": "gloomy, dark",
+      "use": "Adjective ending -en after einem; base form düster."
+    },
+    "niemanden": {
+      "en": "nobody (as object)",
+      "use": "Accusative of niemand; niemanden zum Reden, nobody to talk to."
+    },
+    "freigebiger": {
+      "en": "more generously, more freely",
+      "use": "Comparative of freigebig, generous with money."
+    },
+    "finanzen": {
+      "en": "finances",
+      "use": "Plural noun; always plural in this meaning."
+    },
+    "erschrak": {
+      "en": "was startled, was alarmed",
+      "use": "Past of erschrecken (intransitive); irregular."
+    },
+    "lebensweise": {
+      "en": "way of life",
+      "use": "Feminine; Leben (life) plus Weise (way)."
+    },
+    "beschloss": {
+      "en": "decided",
+      "use": "Past of beschließen; irregular."
+    },
+    "billigeren": {
+      "en": "cheaper",
+      "use": "Comparative of billig; ending -en before plural nouns."
+    },
+    "berührte": {
+      "en": "touched",
+      "use": "Past of berühren; also means to move emotionally."
+    },
+    "assistent": {
+      "en": "assistant",
+      "use": "Masculine; the feminine is die Assistentin."
+    },
+    "erschrocken": {
+      "en": "shocked, frightened",
+      "use": "Adjective from erschrecken; erschrocken sein, to be startled."
+    },
+    "sonnengebräunt": {
+      "en": "tanned, sunburnt",
+      "use": "Compound: Sonne (sun) plus gebräunt (browned)."
+    },
+    "verwundung": {
+      "en": "wound, injury",
+      "use": "Feminine noun from verwunden, to wound."
+    },
+    "suche": {
+      "en": "search",
+      "use": "Feminine; auf der Suche nach, in search of."
+    },
+    "seltsam": {
+      "en": "strange, odd",
+      "use": "Seltsam, merkwürdig and komisch are close in meaning."
+    },
+    "absolvierte": {
+      "en": "completed, passed through",
+      "use": "Past of absolvieren; used for courses and training."
+    },
+    "zugeteilt": {
+      "en": "assigned",
+      "use": "Participle of zuteilen; jemandem zugeteilt werden, be assigned to."
+    },
+    "einzuholen": {
+      "en": "to catch up with",
+      "use": "Separable verb einholen with zu inside."
+    },
+    "schlagader": {
+      "en": "artery",
+      "use": "Feminine; Schlag (beat) plus Ader (vein)."
+    },
+    "packpferd": {
+      "en": "pack-horse",
+      "use": "Compound: packen (to pack) plus Pferd."
+    },
+    "strapazen": {
+      "en": "hardships, exertions",
+      "use": "Plural noun; die Strapazen einer Reise, the strain of a journey."
+    },
+    "typhusfieber": {
+      "en": "typhoid fever",
+      "use": "Neuter; the old name for enteric fever."
+    },
+    "seidenen": {
+      "en": "silken, silk",
+      "use": "An einem seidenen Faden hängen means to hang by a thread."
+    },
+    "invaliden": {
+      "en": "invalid (disabled person)",
+      "use": "Der Invalide; old word for a wounded or disabled person."
+    },
+    "unwiederbringlich": {
+      "en": "irreparably, irretrievably",
+      "use": "Used for what is lost for good."
+    },
+    "genesung": {
+      "en": "recovery (from illness)",
+      "use": "Feminine noun from genesen, to recover."
+    },
+    "faulenzer": {
+      "en": "loafer, idler",
+      "use": "Masculine; someone who does nothing and likes it."
+    },
+    "unwiderstehlich": {
+      "en": "irresistibly, irresistible",
+      "use": "Un- plus widerstehen, to resist."
+    },
+    "kloake": {
+      "en": "cesspool, sewer",
+      "use": "Feminine; a strong word for a very dirty place."
+    },
+    "ungemütlichen": {
+      "en": "uncomfortable, cheerless",
+      "use": "Opposite of gemütlich, cosy."
+    },
+    "ziellos": {
+      "en": "aimless",
+      "use": "Ziel (goal) plus -los (without)."
+    },
+    "trübsinniger": {
+      "en": "gloomier",
+      "use": "Comparative of trübsinnig, low-spirited."
+    },
+    "finanzlage": {
+      "en": "financial situation",
+      "use": "Feminine; Finanzen plus Lage (situation)."
+    },
+    "verkriechen": {
+      "en": "to hide away, to crawl away",
+      "use": "Always sich verkriechen; used for hiding or retreating."
+    },
+    "anspruchsvoll": {
+      "en": "pretentious, demanding",
+      "use": "Weniger anspruchsvoll, less grand or less demanding."
+    },
+    "schluss": {
+      "en": "conclusion, end",
+      "use": "Zu einem Schluss kommen, to reach a conclusion."
+    },
+    "wildnis": {
+      "en": "wilderness",
+      "use": "Feminine noun; die Wildnis Londons is a figure of speech."
+    },
+    "anblick": {
+      "en": "sight, view",
+      "use": "Masculine; der Anblick eines Gesichts, the sight of a face."
+    },
+    "vorgesetzten": {
+      "en": "superior, chief",
+      "use": "Adjective used as noun: der Vorgesetzte, one's boss."
+    },
+    "droschke": {
+      "en": "cab, hackney carriage",
+      "use": "Old word for a horse-drawn taxi."
+    },
+    "ratterte": {
+      "en": "rattled",
+      "use": "Past of rattern; for the noise of wheels."
+    },
+    "kern": {
+      "en": "core, heart, kernel",
+      "use": "Auf den Kern kommen, to get to the heart of it."
+    },
+    "zufall": {
+      "en": "coincidence, chance",
+      "use": "Masculine; ein merkwürdiger Zufall, a strange coincidence."
+    },
+    "eifrig": {
+      "en": "eagerly, keen",
+      "use": "Adjective used here as an adverb: eifrig vorbeugen."
+    },
+    "wurde": {
+      "en": "became",
+      "use": "Past of werden; wurde + noun means became."
+    },
+    "armeearzt": {
+      "en": "army doctor",
+      "use": "Masculine; compound of Armee and Arzt."
+    },
+    "rettete": {
+      "en": "saved, rescued",
+      "use": "Past of retten; rettete ihn means saved him."
+    },
+    "starb": {
+      "en": "died",
+      "use": "Past of sterben; the vowel changes to a."
+    },
+    "fieber": {
+      "en": "fever",
+      "use": "Neuter noun: das Fieber."
+    },
+    "ging": {
+      "en": "went",
+      "use": "Past of gehen; ging nach + city means went to."
+    },
+    "gebrannt": {
+      "en": "tanned (braun gebrannt)",
+      "use": "Only with braun: braun gebrannt means suntanned."
+    },
+    "dünn": {
+      "en": "thin",
+      "use": "Adjective; the opposite is dick."
+    },
+    "aßen": {
+      "en": "ate",
+      "use": "Past of essen; zu Mittag essen means to have lunch."
+    },
+    "brauchte": {
+      "en": "needed",
+      "use": "Past of brauchen; used with a direct object."
+    },
+    "billige": {
+      "en": "cheap",
+      "use": "Adjective ending; billig is the base form."
+    },
+    "kannte": {
+      "en": "knew",
+      "use": "Past of kennen; used for knowing people and places."
+    }
   }
 }

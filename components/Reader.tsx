@@ -85,14 +85,6 @@ export function Reader(props: Props) {
   const vi = picked ?? preferred;
   const many = variants.length > 1;
   if (!ready && (many || props.translatable)) return <div className="h-dvh" aria-busy="true" />;
-  if (wanted && made.state === "loading") {
-    return (
-      <div className="flex h-dvh flex-col items-center justify-center gap-4 px-8 text-center" role="status" aria-busy="true">
-        <Mascot mood="reading" talking className="w-[132px]" />
-        <p className="text-[17px] font-semibold leading-snug">{t("reader.translating", { language: languageName(wanted, locale) })}</p>
-      </div>
-    );
-  }
   if (wanted && made.state === "download" && !(startFirst && made.variant)) {
     return (
       <div className="flex h-dvh flex-col items-center justify-center gap-5 px-8 text-center" role="status">
@@ -110,12 +102,13 @@ export function Reader(props: Props) {
       </div>
     );
   }
-  const notice = wanted && (made.state === "partial" || made.state === "download") ? t("reader.startOnly", { language: languageName(wanted, locale) })
+  const notice = wanted && made.state === "loading" ? t("reader.translating", { language: languageName(wanted, locale) })
+    : wanted && (made.state === "partial" || made.state === "download") ? t("reader.startOnly", { language: languageName(wanted, locale) })
     : wanted && made.state === "off" ? t("reader.notYet", { language: languageName(wanted, locale) })
     : wanted && made.state === "failed" ? t("reader.translateFailed", { language: languageName(wanted, locale) })
     : undefined;
   // Keyed by the language, so switching starts a fresh reader on page one.
-  return <ReaderView key={`${vi}-${variants[vi].lang}`} {...props} variant={variants[vi]} first={vi === 0} notice={notice} onSwitch={many ? () => setPicked((vi + 1) % variants.length) : undefined} />;
+  return <ReaderView key={`${vi}-${variants[vi].lang}`} {...props} variant={variants[vi]} notice={notice} onSwitch={many ? () => setPicked((vi + 1) % variants.length) : undefined} />;
 }
 
 /**
@@ -128,7 +121,7 @@ export function Reader(props: Props) {
  * reader's own language) for that sentence appears at the top, with the matched words in the
  * same colour as in the text, and the word card rises at the bottom.
  */
-function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, scenes, notice, onSwitch }: Props & { variant: ReaderVariant; first: boolean; notice?: string; onSwitch?: () => void }) {
+function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes, notice, onSwitch }: Props & { variant: ReaderVariant; notice?: string; onSwitch?: () => void }) {
   const t = useT();
   // Whether this device can read aloud is only known in the browser; the server draws no Listen button, and so must the first client render.
   const speakable = useSyncExternalStore(noSubscribe, canSpeak, () => false);
@@ -140,8 +133,8 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
   const total = pages.length;
   const onEnd = index >= total;
   const interactive = !!variant.dict;
-  // A second language reads (and is remembered) as its own version.
-  const progressSlug = first ? slug : `${slug}.${variant.lang}`;
+  // Whatever language it is read in, it is one version of the book: progress and XP are kept under the same key.
+  const progressSlug = slug;
 
   // Where a smooth scroll is heading, so two quick presses of Next go two pages, not one.
   const heading = useRef<number | null>(null);
@@ -196,12 +189,12 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
     const text = pages[index]?.text;
     if (!text) return;
     setSel(null);
-    if (speak(text, variant.lang, slow ? 0.6 : 0.92, () => say(t("reader.noAudio")), () => setReading(false))) setReading(true);
-    else say(t("reader.noAudio"));
+    if (speak(text, variant.lang, slow ? 0.6 : 0.92, () => say(t("reader.noAudio", { language: languageName(variant.lang, locale) })), () => setReading(false))) setReading(true);
+    else say(t("reader.noAudio", { language: languageName(variant.lang, locale) }));
   };
 
   const hear = (rate: number) => {
-    if (sel && !speak(sel.word, variant.lang, rate, () => say(t("reader.noAudio")))) say(t("reader.noAudio"));
+    if (sel && !speak(sel.word, variant.lang, rate, () => say(t("reader.noAudio", { language: languageName(variant.lang, locale) })))) say(t("reader.noAudio", { language: languageName(variant.lang, locale) }));
   };
 
   // Pick up where the reader left off. After mount, because the server has no
@@ -239,14 +232,22 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
     return () => { el.removeEventListener("scroll", onScroll); cancelAnimationFrame(frame); };
   }, [progressSlug, levelId, length, total]);
 
+  // Focus follows the sheet: in when it opens, back on the button that opened it when it closes.
+  const wordsChip = useRef<HTMLButtonElement>(null);
+  const closeWords = useCallback(() => {
+    setWordsOpen(false);
+    window.setTimeout(() => wordsChip.current?.focus(), 0);
+  }, []);
+
+  const settingsToggle = useRef<HTMLButtonElement>(null);
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       // Browser shortcuts (Alt+← is "back") and keys another control already used are not ours.
       if (e.altKey || e.metaKey || e.ctrlKey || e.shiftKey || e.defaultPrevented) return;
       if (e.key === "Escape") {
         // One layer at a time: the sheet, then the menu, then the card.
-        if (wordsOpen) setWordsOpen(false);
-        else if (menu) setMenu(false);
+        if (wordsOpen) closeWords();
+        else if (menu) { setMenu(false); settingsToggle.current?.focus(); }
         else setSel(null);
         return;
       }
@@ -257,7 +258,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [step, wordsOpen, menu]);
+  }, [step, wordsOpen, menu, closeWords]);
 
   // The Aa menu is a popover: a tap anywhere else puts it away.
   useEffect(() => {
@@ -277,13 +278,6 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
     }, 240);
     return () => window.clearTimeout(id);
   }, [sel]);
-
-  // Focus follows the sheet: in when it opens, back on the button that opened it when it closes.
-  const wordsChip = useRef<HTMLButtonElement>(null);
-  const closeWords = useCallback(() => {
-    setWordsOpen(false);
-    window.setTimeout(() => wordsChip.current?.focus(), 0);
-  }, []);
 
   // XP: a page pays once it has been on screen for a moment, finishing pays once, and the
   // time spent feeds the dashboard's graph. All of it is kept on the device (lib/xp).
@@ -354,7 +348,10 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
   const sub = [onEnd ? t("reader.done") : t("reader.pageLabel", { n: index + 1, total }), levelLabel, languageName(variant.lang, locale)].join(" · ");
 
   // The photo is six wide by five tall, as wide as the column allows, and shorter while a word card is open so the text keeps room.
-  const photoH = `min(${open ? 22 : PHOTO_DVH[levelId] ?? 38}dvh, calc((min(100vw, 440px) - 36px) / 1.2))`;
+  // On short phones the longer levels give the photo up to 120px so their text fits.
+  const room = levelId === "C1C2" ? 520 : levelId === "B1B2" ? 480 : 0;
+  const base = `min(${open ? 22 : PHOTO_DVH[levelId] ?? 38}dvh, calc((min(100vw, 440px) - 36px) / 1.2)${room ? `, calc(100dvh - ${room}px)` : ""})`;
+  const photoH = room ? `max(120px, ${base})` : base;
 
   return (
     <div className="relative flex h-dvh flex-col">
@@ -382,8 +379,8 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
               </svg>
             </button>
           )}
-          {interactive && (
-            <button type="button" dir="ltr" data-tour="settings" data-settings-toggle aria-expanded={menu} aria-label={t("reader.settings")} onClick={() => setMenu(!menu)}
+          {(
+            <button ref={settingsToggle} type="button" dir="ltr" data-tour="settings" data-settings-toggle aria-expanded={menu} aria-label={t("reader.settings")} onClick={() => setMenu(!menu)}
                     className={`flex size-11 shrink-0 items-baseline justify-center rounded-full pt-[11px] text-[17px] font-bold tracking-[-0.02em] ${menu ? "bg-accent-bright/25" : "active:bg-border/60"}`}>
               A<span className="text-[12px]">A</span>
             </button>
@@ -399,13 +396,13 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
             </button>
           )}
         </div>
-        <div className="mt-1 h-1 overflow-hidden rounded-full bg-border" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress} aria-label={t("reader.progress")}>
+        <div className="mt-1 h-1 overflow-hidden rounded-full bg-border" role="progressbar" dir="ltr" aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress} aria-label={t("reader.progress")}>
           <div className="h-full rounded-full bg-accent-bright transition-[width] duration-300" style={{ width: `${progress}%` }} />
         </div>
-        {notice && <p role="status" className="mt-2 rounded-xl bg-accent-bright/20 px-3 py-2 text-[12.5px] font-semibold leading-snug text-[var(--ob-deep)]">{notice}</p>}
+        {notice && index === 0 && <p role="status" className="mt-2 rounded-xl bg-accent-bright/20 px-3 py-2 text-[12.5px] font-semibold leading-snug text-[var(--ob-deep)]">{notice}</p>}
       </header>
 
-      {menu && <Settings prefs={prefs} language={lineLang} />}
+      {menu && <Settings prefs={prefs} language={lineLang} interactive={interactive} />}
 
       {/* What the line you tapped says in the reader's own language. */}
       {sel && selPage?.target && (
@@ -441,7 +438,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
                 </div>
               </div>
               <div className="flex-1 overflow-y-auto px-[22px] pb-3 pt-1.5">
-                <div data-tour="text" className="-mx-2 px-2">
+                <div data-tour={interactive ? "text" : undefined} className="-mx-2 px-2">
                 <PageText page={p} interactive={interactive} selected={sel && sel.page === i ? sel.start : -1} lang={variant.lang}
                           size={TEXT_SIZES[prefs.size]} colours={prefs.colours} gloss={prefs.gloss && !open}
                           onPick={(word, start) => { setMenu(false); setSel({ page: i, word, start }); }} />
@@ -453,10 +450,10 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
 
         <section inert={!onEnd} dir="auto" className="h-full w-full shrink-0 snap-start overflow-y-auto px-8 text-center" aria-label={t("reader.end")}>
           <div className="mx-auto my-auto flex min-h-full max-w-[340px] flex-col items-center justify-center py-4">
-          <Mascot mood="cheer" className="w-[min(40vw,22dvh,150px)]" />
-          <p className="mt-2 font-reading text-[26px] font-bold">{t("reader.endTitle")}</p>
+          <Mascot mood="cheer" className="w-[min(40vw,14dvh,150px)]" />
+          <p className="mt-2 font-reading text-[26px] font-bold">{isPreview ? t("reader.endTitle") : t("reader.endTitleBook", { title: bookText(slug, "title", title) })}</p>
           <p className="mt-3 max-w-[30ch] text-[15px] leading-snug text-muted">
-            {isPreview ? t("reader.endBodyPreview", { total, length }) : t("reader.endBody", { total })}
+            {isPreview ? t("reader.endBodyPreview", { total, length }) : t("reader.endBody")}
           </p>
           <ul className="mt-5 grid w-full max-w-[320px] grid-cols-3 gap-2">
             {[
@@ -533,7 +530,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, first, 
 
 /** A page's text. Where the version has word cards every word can be tapped, and the matched words are underlined in their colours. */
 function PageText({ page, interactive, selected, lang, size, colours, gloss, onPick }: { page: ReaderPage; interactive: boolean; selected: number; lang: string; size: number; colours: boolean; gloss: boolean; onPick: (word: string, start: number) => void }) {
-  if (!interactive) return <p lang="en" className="font-reading text-[19px] leading-[1.55] text-foreground">{page.text}</p>;
+  if (!interactive) return <p lang={lang} className="font-reading leading-[1.55] text-foreground" style={{ fontSize: size }}>{page.text}</p>;
   const keys = page.target?.keys ?? [];
   return (
     <>
