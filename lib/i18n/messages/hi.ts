@@ -704,6 +704,7 @@ const hi: Catalog = {
   "reader.downloadLangNote": "आपका फ़ोन इसे मुफ़्त में, फ़ोन पर ही अनुवाद करता है। इसके लिए {language} को एक बार डाउनलोड करना होगा।",
   "reader.downloadLangButton": "{language} डाउनलोड करें",
   "reader.startOnly": "अध्याय 1 {language} में है। बाकी किताब का अनुवाद आपके फ़ोन पर ReadFluent ऐप करता है।",
+  "reader.startNow": "अभी अध्याय 1 पढ़ें",
   "reader.notYet": "यह किताब अभी {language} में नहीं है, इसलिए अंग्रेज़ी में खुल रही है।",
   "reader.translateFailed": "{language} अनुवाद लोड नहीं हुआ, इसलिए किताब अंग्रेज़ी में खुल रही है। थोड़ी देर बाद फिर कोशिश करें।",
   "reader.switchLang": "दूसरी भाषा में झलक देखें (डेमो)",

@@ -706,6 +706,7 @@ const nl: Catalog = {
   "reader.downloadLangNote": "Je telefoon vertaalt het gratis, op de telefoon zelf. Hij moet {language} één keer downloaden.",
   "reader.downloadLangButton": "{language} downloaden",
   "reader.startOnly": "Hoofdstuk 1 is in het {language}. De ReadFluent-app op je telefoon vertaalt de rest van het boek.",
+  "reader.startNow": "Lees nu hoofdstuk 1",
   "reader.notYet": "Dit boek is nog niet in {language}, dus het opent in het Engels.",
   "reader.translateFailed": "De vertaling naar {language} is niet geladen, dus het boek opent in het Engels. Probeer het zo nog eens.",
   "reader.switchLang": "Bekijk een andere taal (demo)",

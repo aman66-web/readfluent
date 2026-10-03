@@ -672,6 +672,7 @@ const ar: Catalog = {
   "reader.downloadLangNote": "يترجمه هاتفك مجانًا، على الهاتف نفسه. يحتاج إلى تنزيل {language} مرة واحدة.",
   "reader.downloadLangButton": "تنزيل {language}",
   "reader.startOnly": "الفصل الأول بـ{language}. تطبيق ReadFluent على هاتفك يترجم بقية الكتاب.",
+  "reader.startNow": "اقرأ الفصل الأول الآن",
   "reader.notYet": "هذا الكتاب غير متوفر بعد باللغة {language}، لذا يُفتح بالإنجليزية.",
   "reader.translateFailed": "تعذّر تحميل الترجمة إلى {language}، لذا يُفتح الكتاب بالإنجليزية. حاول مرة أخرى بعد قليل.",
   "reader.switchLang": "جرّب لغة أخرى (عرض تجريبي)",

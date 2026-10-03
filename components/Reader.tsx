@@ -80,6 +80,8 @@ export function Reader(props: Props) {
   const variants = made.variant ? [...props.variants, made.variant] : props.variants;
   const preferred = Math.max(0, variants.findIndex((v) => v.lang === learn));
   const [picked, setPicked] = useState<number | null>(null);
+  // "Read chapter 1 now" on the download screen: the book opens with chapter 1 in the language and the rest in English.
+  const [startFirst, setStartFirst] = useState(false);
   const vi = picked ?? preferred;
   const many = variants.length > 1;
   if (!ready && (many || props.translatable)) return <div className="h-dvh" aria-busy="true" />;
@@ -91,19 +93,24 @@ export function Reader(props: Props) {
       </div>
     );
   }
-  if (wanted && made.state === "download") {
+  if (wanted && made.state === "download" && !(startFirst && made.variant)) {
     return (
       <div className="flex h-dvh flex-col items-center justify-center gap-5 px-8 text-center" role="status">
         <Mascot mood="reading" className="w-[132px]" />
         <p className="text-[17px] font-semibold leading-snug">{t("reader.downloadLang", { language: languageName(wanted, locale) })}</p>
-        <p className="text-[14px] leading-snug text-muted">{t("reader.downloadLangNote")}</p>
+        <p className="text-[14px] leading-snug text-muted">{t("reader.downloadLangNote", { language: languageName(wanted, locale) })}</p>
         <button type="button" onClick={made.download} className="btn-cyan inline-flex h-12 items-center rounded-full px-7 text-[15px] font-bold">
           {t("reader.downloadLangButton", { language: languageName(wanted, locale) })}
         </button>
+        {made.variant && (
+          <button type="button" onClick={() => setStartFirst(true)} className="min-h-11 px-4 text-[15px] font-semibold text-accent underline underline-offset-4">
+            {t("reader.startNow")}
+          </button>
+        )}
       </div>
     );
   }
-  const notice = wanted && made.state === "partial" ? t("reader.startOnly", { language: languageName(wanted, locale) })
+  const notice = wanted && (made.state === "partial" || made.state === "download") ? t("reader.startOnly", { language: languageName(wanted, locale) })
     : wanted && made.state === "off" ? t("reader.notYet", { language: languageName(wanted, locale) })
     : wanted && made.state === "failed" ? t("reader.translateFailed", { language: languageName(wanted, locale) })
     : undefined;

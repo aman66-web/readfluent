@@ -706,6 +706,7 @@ const uk: Catalog = {
   "reader.downloadLangNote": "Телефон перекладе її безкоштовно, просто на пристрої. Потрібно один раз завантажити мову: {language}.",
   "reader.downloadLangButton": "Завантажити: {language}",
   "reader.startOnly": "Розділ 1 мовою: {language}. Решту книжки перекладає застосунок ReadFluent на телефоні.",
+  "reader.startNow": "Читати розділ 1 зараз",
   "reader.notYet": "Цієї книжки ще немає мовою «{language}», тому вона відкривається англійською.",
   "reader.translateFailed": "Переклад мовою «{language}» не завантажився, тому книжка відкривається англійською. Спробуйте ще раз за хвилину.",
   "reader.switchLang": "Переглянути іншою мовою (демо)",

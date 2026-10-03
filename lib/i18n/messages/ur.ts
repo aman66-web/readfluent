@@ -672,6 +672,7 @@ const ur: Catalog = {
   "reader.downloadLangNote": "آپ کا فون اسے مفت میں، فون پر ہی ترجمہ کرتا ہے۔ اس کے لیے {language} ایک بار ڈاؤن لوڈ کرنی ہوگی۔",
   "reader.downloadLangButton": "{language} ڈاؤن لوڈ کریں",
   "reader.startOnly": "باب 1 {language} میں ہے۔ باقی کتاب کا ترجمہ آپ کے فون پر ReadFluent ایپ کرتی ہے۔",
+  "reader.startNow": "ابھی باب 1 پڑھیں",
   "reader.notYet": "یہ کتاب ابھی {language} میں نہیں ہے، اس لیے انگریزی میں کھل رہی ہے۔",
   "reader.translateFailed": "{language} ترجمہ لوڈ نہیں ہوا، اس لیے کتاب انگریزی میں کھل رہی ہے۔ تھوڑی دیر بعد دوبارہ کوشش کریں۔",
   "reader.switchLang": "کوئی اور زبان دیکھیں (ڈیمو)",

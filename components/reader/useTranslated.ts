@@ -33,6 +33,25 @@ function startPages(start: { pages: { text: string; keys: KeyPair[] }[] }, engli
   return start.pages.slice(0, english.length).map((p, i) => ({ n: i + 1, text: p.text, scene: i + 1, target: { translation: english[i], keys: p.keys ?? [] } }));
 }
 
+/** The first chapter in the language and the rest in English: what a device without a translator can show. */
+function mixed(lang: string, head: ReaderPage[], english: readonly string[], dict: Record<string, WordEntry>): ReaderVariant {
+  return {
+    lang: lang as ReaderVariant["lang"],
+    dict,
+    pages: [...head, ...english.slice(head.length).map((text, i) => ({ n: head.length + i + 1, text, scene: head.length + i + 1 }))],
+  };
+}
+
+/** A device translator that never answers (a download that stalls, a browser that waits for a tap) must not hold the book. */
+function within<T>(ms: number, work: Promise<T>): Promise<T> {
+  return new Promise<T>((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error("timed out")), ms);
+    work.then((v) => { clearTimeout(timer); resolve(v); }, (e) => { clearTimeout(timer); reject(e); });
+  });
+}
+const PAGES_MS = 120_000;
+const PREPARE_MS = 180_000;
+
 interface Result { key: string; state: Exclude<TranslatedState, "idle" | "loading">; variant: ReaderVariant | null }
 
 const done = new Map<string, ReaderVariant>();
@@ -58,10 +77,11 @@ export function useTranslated(lang: string | null, speak: string, slug: string, 
       // 1. The phone's own translator, for the rest of the book.
       if (english && english.length) {
         const status = await deviceStatus("en", lang);
-        if (status === "download" && attempt === 0) return settle({ state: "download", variant: null });
+        // The download screen; where chapter 1 is ready, it is offered meanwhile (the variant is the mixed book).
+        if (status === "download" && attempt === 0) return settle({ state: "download", variant: start ? mixed(lang, head, english, start.dict) : null });
         if (status === "ready" || (status === "download" && attempt > 0)) {
           try {
-            const rest = await translatePages(english.slice(head.length), lang, deviceTranslate);
+            const rest = await within(PAGES_MS, translatePages(english.slice(head.length), lang, deviceTranslate));
             const pages: ReaderVariant = {
               lang: rest.lang,
               dict: {},
@@ -81,14 +101,7 @@ export function useTranslated(lang: string | null, speak: string, slug: string, 
         }
       }
       // 2. No translator on this device: the first chapter in the language, the rest in English.
-      if (start && english) {
-        const mixed: ReaderVariant = {
-          lang: lang as ReaderVariant["lang"],
-          dict: start.dict,
-          pages: [...head, ...english.slice(head.length).map((text, i) => ({ n: head.length + i + 1, text, scene: head.length + i + 1 }))],
-        };
-        return settle({ state: "partial", variant: mixed });
-      }
+      if (start && english) return settle({ state: "partial", variant: mixed(lang, head, english, start.dict) });
       // 3. The server's translator, if it is switched on.
       const q = new URLSearchParams({ slug, level: levelSlug, length: String(length), lang, speak: speak || "en" });
       try {
@@ -109,7 +122,7 @@ export function useTranslated(lang: string | null, speak: string, slug: string, 
   const download = useCallback(() => {
     if (!lang) return;
     setRes(null);
-    void devicePrepare("en", lang).finally(() => setAttempt((a) => a + 1));
+    void within(PREPARE_MS, devicePrepare("en", lang)).catch(() => false).finally(() => setAttempt((a) => a + 1));
   }, [lang]);
 
   if (!key) return { state: "idle", variant: null, download };
