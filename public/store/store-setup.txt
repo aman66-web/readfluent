@@ -23,8 +23,8 @@ FACTS
   Terms URL: https://readfluent-eta.vercel.app/terms
   Support URL: https://readfluent-eta.vercel.app/support
   Supabase project ref: erilcjzbnomgxhjnurce  (URL https://erilcjzbnomgxhjnurce.supabase.co)
-  Category: Education (primary), Books (secondary on Apple). Free to download. In-app purchases are NOT
-  switched on yet, so declare none for now.
+  Category: Education (primary), Books (secondary on Apple). Free to download. Auto-renewing subscriptions are planned
+  (ReadFluent Monthly 5.99 GBP, ReadFluent Yearly 39.99 GBP; entitlement readfluent_pro) but not switched on in the app yet.
   Audience: teenagers and adults (13+). Not aimed at children.
   What the app is: real books retold at a learner's level (A1 to C2), read one page at a time with a
   picture and 1-3 sentences, tap any word for its meaning, flashcards, tests, level exams, and an AI
@@ -73,7 +73,8 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
    Data collected: Contact Info -> Email Address (linked to user, used for App Functionality);
    Identifiers -> User ID (linked, App Functionality); User Content -> Other User Content (the Dewey chat
    messages and synced progress; linked, App Functionality; shared with a third-party processor).
-   Nothing is used for tracking. No third-party advertising. Do not declare Purchases (not live).
+   Nothing is used for tracking. No third-party advertising. Declare Purchases (purchase history; linked to the user, App Functionality, not tracking), because the subscriptions
+   will be sold through Apple and Google and checked by RevenueCat.
    Then compare your answers to https://readfluent-eta.vercel.app/privacy and tell me about any mismatch.
 10. Age Rating questionnaire: answer honestly for a reading app of classic literature retellings:
     violence, horror/fear themes, alcohol/tobacco references and mature themes = "Infrequent/Mild" (the
@@ -119,7 +120,8 @@ PHASE 4 - Google Play Console (play.google.com/console). Create the app, fill ev
     game), Free, then confirm the declarations ONLY after asking me (they are legal statements).
 16. Dashboard tasks (do each one that does not need a build):
     - Privacy policy URL as above.
-    - App access: all functionality available without special access.
+    - App access: reading, tests and flashcards need no sign-in; the Dewey chat (Talk) needs sign-in. Say so, and give the
+      review sign-in details if the owner has set a reviewer account (see RELEASE.md); otherwise ask me.
     - Ads: No, the app contains no ads.
     - Content rating: category Reference/Education; answer the IARC questionnaire honestly (infrequent
       mild violence and fear in classic books; no gambling; no user-generated content; has an AI chat

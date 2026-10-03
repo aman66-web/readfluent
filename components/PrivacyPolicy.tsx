@@ -33,7 +33,7 @@ export function PrivacyPolicy() {
       <p>When you open a book in the language you are learning, your phone translates it itself, with the translator built into the phone (Apple&rsquo;s or Google&rsquo;s) or into your browser. Nothing about you, and nothing you read, is sent anywhere for this. The first chapter of some books comes already translated from our website.</p>
 
       <h2>Payments</h2>
-      <p>If paid editions are switched on, payment is handled by Apple or Google. We do not see your card. We receive only whether your purchase is active, through RevenueCat, a service that checks purchases.</p>
+      <p>Subscriptions are bought through Apple or Google, who handle the payment. We do not see your card. We receive only whether your subscription is active (and a purchase record), through RevenueCat, a service that checks purchases for us.</p>
 
       <h2>What we do not do</h2>
       <ul>
