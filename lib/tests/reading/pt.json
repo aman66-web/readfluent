@@ -1,0 +1,617 @@
+{
+ "lang": "pt",
+ "levels": {
+  "A1": [
+   {
+    "title": "A manhã do Tom",
+    "text": "Tom acorda às sete. Ele come pão e ovos. Depois vai para o trabalho de ônibus. Ele gosta muito do seu trabalho. Volta para casa às seis e cozinha.",
+    "keys": [
+     "pão",
+     "ovos",
+     "ônibus",
+     "trabalho"
+    ]
+   },
+   {
+    "title": "Um dia à beira-mar",
+    "text": "Anna vai à beira-mar de trem. O trem é rápido. Ela vê a água e o grande sol. Anna e a mãe dela nadam e brincam. Elas estão muito felizes.",
+    "keys": [
+     "trem",
+     "água",
+     "sol",
+     "nadam"
+    ]
+   },
+   {
+    "title": "Uma mensagem para o Sam",
+    "text": "Oi, Sam, agora estou no parque. Por favor, venha às duas. Tenho uma bola vermelha grande. Podemos brincar com ela. Traga um pouco de água, porque está calor.",
+    "keys": [
+     "parque",
+     "bola",
+     "água",
+     "calor"
+    ]
+   },
+   {
+    "title": "Aviso da loja",
+    "text": "Bem-vindos à Loja Azul. Vendemos pão e leite. Abrimos das oito às seis. A loja fecha aos domingos. Toda criança ganha uma maçã grátis.",
+    "keys": [
+     "pão",
+     "leite",
+     "domingos",
+     "maçã"
+    ]
+   },
+   {
+    "title": "O cachorro perdido",
+    "text": "Ben tem um cachorro marrom pequeno. Um dia o cachorro não está aqui. Ben fica triste e procura em todo lugar. O cachorro está embaixo da cama! Ben fica feliz de novo.",
+    "keys": [
+     "cachorro",
+     "ben",
+     "cama",
+     "triste"
+    ]
+   },
+   {
+    "title": "Minha cidade pequena",
+    "text": "Minha cidade é pequena, mas bonita. Há um rio e um grande parque. Há muitas árvores verdes. Eu gosto da ponte velha. É um lugar tranquilo para mim.",
+    "keys": [
+     "rio",
+     "parque",
+     "árvores",
+     "ponte"
+    ]
+   },
+   {
+    "title": "Um gato no telhado",
+    "text": "Um gato está em um telhado alto. O gatinho está com muito medo. Um homem pede ajuda. Uma mulher chega com uma escada comprida. Agora o gato está em segurança.",
+    "keys": [
+     "gato",
+     "telhado",
+     "escada",
+     "ajuda"
+    ]
+   },
+   {
+    "title": "Eu gosto de chuva",
+    "text": "Eu gosto muito de chuva. Algumas pessoas não gostam. Mas eu acho que a chuva é boa. As flores e as árvores a bebem. Eu fico em casa e leio um livro.",
+    "keys": [
+     "chuva",
+     "flores",
+     "árvores",
+     "livro"
+    ]
+   },
+   {
+    "title": "Fazendo chá",
+    "text": "Primeiro, ferva um pouco de água em uma panela. Ponha um saquinho de chá em uma xícara. Depois adicione a água quente. Espere três minutos. Agora você pode tomar o seu chá.",
+    "keys": [
+     "água",
+     "xícara",
+     "minutos",
+     "chá"
+    ]
+   },
+   {
+    "title": "O jardim da vovó",
+    "text": "Eu penso sempre na minha vovó. A casa dela é pequena e branca. No jardim há uma árvore grande. Nós nos sentamos debaixo dela e comemos bolo. Eu amo aqueles dias.",
+    "keys": [
+     "vovó",
+     "casa",
+     "árvore",
+     "bolo"
+    ]
+   }
+  ],
+  "A2": [
+   {
+    "title": "O sábado cheio da Maria",
+    "text": "No sábado de manhã, Maria limpou seu apartamento pequeno e lavou as roupas. Ao meio-dia, ela encontrou sua amiga Julia em um café. Elas comeram sopa e conversaram por duas horas. À tarde, foram ao mercado e compraram frutas. Maria voltou para casa cansada, mas feliz. Amanhã ela vai visitar os pais.",
+    "keys": [
+     "maria",
+     "julia",
+     "mercado",
+     "frutas"
+    ]
+   },
+   {
+    "title": "Um fim de semana nas montanhas",
+    "text": "No mês passado, Daniel e o irmão dele foram para as montanhas. Eles pegaram um trem e depois caminharam por quatro horas. O tempo estava frio, então usaram casacos quentes. No topo, comeram sanduíches e olharam para o lago lá embaixo. No ano que vem, eles vão voltar no verão.",
+    "keys": [
+     "montanhas",
+     "trem",
+     "lago",
+     "sanduíches"
+    ]
+   },
+   {
+    "title": "Um e-mail para um amigo",
+    "text": "Oi, Kim, obrigado pela sua carta. Desculpe por não ter escrito antes. Eu estava doente, mas agora me sinto muito melhor. Vou visitar você em maio por uma semana. Por favor, diga quais dias são bons para você e sua família. Até logo!",
+    "keys": [
+     "carta",
+     "maio",
+     "semana",
+     "família"
+    ]
+   },
+   {
+    "title": "Aulas de violão",
+    "text": "Você quer aprender violão? Peter Novak é professor de música e tem dez anos de experiência. Ele ensina crianças e adultos em seu pequeno estúdio perto da estação. A primeira aula é grátis, então você pode experimentar. As aulas são às terças e quintas à noite. Ligue esta semana e você ganhará um livro grátis.",
+    "keys": [
+     "violão",
+     "aula",
+     "estúdio",
+     "livro"
+    ]
+   },
+   {
+    "title": "A bolsa errada",
+    "text": "Nina saiu da estação e caminhou para casa. Ela abriu a bolsa e encontrou dentro uma jaqueta azul. Não era a bolsa dela! Ela ficou preocupada e voltou à estação. Lá ela viu um homem, e ele estava segurando a bolsa dela. Eles riram, trocaram as bolsas e se despediram.",
+    "keys": [
+     "nina",
+     "bolsa",
+     "jaqueta",
+     "estação"
+    ]
+   },
+   {
+    "title": "A velha biblioteca",
+    "text": "A velha biblioteca fica no centro da nossa cidade. É um prédio grande de pedra com janelas altas. Lá dentro há milhares de livros e muitas cadeiras confortáveis. No segundo andar há uma sala silenciosa para estudantes. Muitas pessoas vão lá porque é quente e gratuita. Eu vou toda sexta-feira depois da escola.",
+    "keys": [
+     "biblioteca",
+     "livros",
+     "estudantes",
+     "sexta-feira"
+    ]
+   },
+   {
+    "title": "Novas ciclovias",
+    "text": "A prefeitura abriu ontem uma nova ciclovia. Ela vai da estação até o grande parque. Antes disso, muitos ciclistas se sentiam inseguros na avenida principal. A prefeitura gastou muito dinheiro na obra. No ano que vem, a cidade vai construir mais duas ciclovias. Muitas pessoas estão contentes, mas alguns motoristas estão irritados.",
+    "keys": [
+     "prefeitura",
+     "ciclovia",
+     "ciclistas",
+     "motoristas"
+    ]
+   },
+   {
+    "title": "Ir a pé para a escola",
+    "text": "Eu acho que as crianças deveriam ir a pé para a escola. Primeiro, caminhar faz bem para a saúde. Segundo, elas podem conversar com os amigos pelo caminho. No ano passado, minha filha foi a pé para a escola e se sentiu mais desperta. Alguns pais dizem que as ruas são perigosas, e isso é verdade. Mas acredito que podemos tornar as ruas mais seguras.",
+    "keys": [
+     "escola",
+     "saúde",
+     "amigos",
+     "ruas"
+    ]
+   },
+   {
+    "title": "Como funciona uma geladeira",
+    "text": "Uma geladeira mantém a comida fria para que ela fique fresca por mais tempo. Dentro da geladeira há um líquido especial em tubos finos. O líquido tira o calor da comida e o leva embora. Depois o líquido vai para a parte de trás, onde o calor sai. É por isso que a parte de trás de uma geladeira costuma ser quente. Um pequeno motor move o líquido o dia todo.",
+    "keys": [
+     "geladeira",
+     "comida",
+     "líquido",
+     "calor"
+    ]
+   },
+   {
+    "title": "Minha primeira bicicleta",
+    "text": "Quando eu tinha sete anos, meu pai me deu uma bicicleta vermelha. Eu estava muito feliz, mas não sabia andar. Toda noite ele corria ao meu lado e segurava o selim. Depois de duas semanas, eu caí e chorei um pouco. Ele sorriu e disse que todo mundo cai. No dia seguinte andei sem ajuda, e ainda me lembro daquela sensação.",
+    "keys": [
+     "bicicleta",
+     "pai",
+     "selim",
+     "caí"
+    ]
+   }
+  ],
+  "B1": [
+   {
+    "title": "O longo dia de uma professora",
+    "text": "Elena acorda às cinco e meia porque a escola dela fica longe de casa. Geralmente ela pega dois ônibus e chega pouco antes da primeira aula. Durante o dia, ela dá aula para três turmas, responde a muitas perguntas e raramente tem tempo para comer. Depois da escola, ela costuma ficar até tarde para ajudar os alunos que têm dificuldade com a lição de casa. Quando finalmente chega em casa, está exausta, mas diz que o trabalho vale a pena. Se um aluno sorri para ela no corredor, ela esquece o quanto está cansada.",
+    "keys": [
+     "elena",
+     "ônibus",
+     "alunos",
+     "aula"
+    ]
+   },
+   {
+    "title": "Perdido em Lisboa",
+    "text": "Na primavera passada, Omar viajou para Lisboa pela primeira vez. Ele tinha planejado tudo com cuidado, mas o celular dele ficou sem bateria no segundo dia. Sem mapa, ele se perdeu num labirinto de ruas estreitas. Em vez de entrar em pânico, pediu ajuda a uma senhora idosa, e ela o levou até o bonde certo. Mais tarde, Omar disse que esse foi o melhor momento da viagem, porque conheceu uma pessoa gentil. Se não tivesse perdido o celular, nunca teria conversado com ela.",
+    "keys": [
+     "omar",
+     "lisboa",
+     "celular",
+     "bonde"
+    ]
+   },
+   {
+    "title": "Um bilhete para os vizinhos",
+    "text": "Queridos vizinhos, escrevo para avisar sobre uma festa no meu apartamento no sábado à noite. Sei que alguns de vocês dormem cedo. Por isso, vou garantir que a música pare até as dez. Se estiver alto demais, batam na minha porta e eu abaixo o volume. Também fiz muita comida, e vocês são todos bem-vindos. Eu ficaria muito feliz em conhecer todo mundo, porque me mudei para cá só no mês passado. Obrigado pela paciência.",
+    "keys": [
+     "festa",
+     "música",
+     "porta",
+     "comida"
+    ]
+   },
+   {
+    "title": "Curso de culinária de fim de semana",
+    "text": "Você quer aprender a cozinhar comida de verdade em vez de pedir todas as noites? Nosso curso de culinária de fim de semana é perfeito para iniciantes que se sentem inseguros na cozinha. Todo sábado um chef profissional mostra um prato simples, e depois você mesmo o prepara. Todos os ingredientes estão incluídos no preço, então você só precisa trazer um avental. Se você se inscrever antes do fim deste mês, ganhará dez por cento de desconto. As vagas são limitadas, por isso recomendamos que reserve cedo.",
+    "keys": [
+     "curso",
+     "chef",
+     "ingredientes",
+     "desconto"
+    ]
+   },
+   {
+    "title": "O último trem",
+    "text": "Tomas perdeu o último trem para casa e decidiu ir a pé. Já passava da meia-noite e as ruas estavam vazias e escuras. Depois de uma hora, ele ouviu passos atrás de si, e o coração dele começou a bater mais rápido. Andou mais depressa, mas os passos chegavam mais perto, até que por fim ele se virou. Um cachorrinho o seguia, e parecia tão perdido quanto ele. Tomas riu, pegou o cachorro no colo e o levou até em casa. Deu a ele o nome de Lucky, porque naquela noite os dois precisavam de um pouco de sorte.",
+    "keys": [
+     "tomas",
+     "trem",
+     "cachorro",
+     "lucky"
+    ]
+   },
+   {
+    "title": "Uma vila de pescadores",
+    "text": "Nossa vila fica em uma colina íngreme acima do mar, e cada casa é pintada de uma cor diferente. De manhã, os pescadores voltam, e o porto se enche de barulho e de cheiro de peixe. Os turistas geralmente vêm no verão, por isso as ruas estreitas podem ficar muito cheias. No entanto, eu prefiro a vila no inverno, quando ela é tranquila e o mar é bravo. No alto da colina há um pequeno café onde você pode ver as tempestades com segurança. Se você nos visitar, venha no outono, quando o clima é ameno e há menos gente.",
+    "keys": [
+     "vila",
+     "pescadores",
+     "porto",
+     "tempestades"
+    ]
+   },
+   {
+    "title": "Ônibus grátis para estudantes",
+    "text": "Uma pequena cidade do norte decidiu tornar todos os ônibus gratuitos para os estudantes. A Câmara Municipal anunciou o plano na segunda-feira e disse que ele começará em setembro. As autoridades esperam que mais jovens usem o transporte público e que menos pais os levem de carro. O plano custará cerca de um milhão de euros por ano, o que preocupou alguns moradores. No entanto, projetos semelhantes em outras cidades reduziram o trânsito em quase um quinto. Uma votação final acontecerá no mês que vem, e os apoiadores esperam que ele seja aprovado.",
+    "keys": [
+     "ônibus",
+     "estudantes",
+     "câmara",
+     "trânsito"
+    ]
+   },
+   {
+    "title": "Celulares na sala de aula",
+    "text": "Na minha opinião, as escolas não deveriam permitir celulares na sala de aula. Quando um celular está na mesa, os alunos ficam olhando para ele e não conseguem acompanhar a aula. Algumas pessoas argumentam que os celulares podem ser úteis para pesquisar informações. Isso é verdade, mas o professor pode usar os computadores da escola. Claro, as crianças precisam poder falar com os pais em uma emergência. Então sugiro que os celulares fiquem na mochila durante as aulas e saiam no intervalo. Assim todos têm os benefícios sem a distração.",
+    "keys": [
+     "celulares",
+     "sala",
+     "aula",
+     "intervalo"
+    ]
+   },
+   {
+    "title": "Como as abelhas fazem mel",
+    "text": "As abelhas fazem mel a partir de um líquido doce chamado néctar, que elas coletam das flores. Uma abelha operária guarda o néctar em um estômago especial e o leva de volta para a colmeia. Lá, outras abelhas pegam o néctar e o mastigam por um tempo. Elas o espalham em pequenas células de cera e o abanam com as asas para tirar a água. Quando o mel está grosso o bastante, as abelhas fecham cada célula com cera para mantê-lo fresco. Uma abelha produz só uma quantidade minúscula, por isso são necessárias milhares de abelhas para encher um pote.",
+    "keys": [
+     "abelhas",
+     "néctar",
+     "colmeia",
+     "mel"
+    ]
+   },
+   {
+    "title": "Verões no lago",
+    "text": "Quando eu era adolescente, minha família passava todo verão em uma pequena casa de madeira à beira de um lago. Eu não valorizava isso naquela época, porque queria estar na cidade com meus amigos. Agora entendo a sorte que tive. Lembro do silêncio de manhã cedo e do gosto do pão fresco da lojinha do vilarejo. Se eu pudesse voltar a um só lugar do meu passado, escolheria aquela casa. Infelizmente, ela foi vendida há muitos anos, então só posso visitá-la nas minhas lembranças.",
+    "keys": [
+     "lago",
+     "casa",
+     "verão",
+     "lembranças"
+    ]
+   }
+  ],
+  "B2": [
+   {
+    "title": "Um dia na padaria",
+    "text": "Lucia acorda às quatro todas as manhãs, muito antes de a cidade começar a despertar. Quando chegam os primeiros clientes, ela já modelou cerca de duzentos pães e verificou os fornos. Embora o trabalho seja exaustivo, ela diz que ele lhe ensinou paciência, porque o pão não pode ser apressado. Ao meio-dia, ela tranca a porta, almoça algo simples e dorme por duas horas. À tarde, atende os pedidos, a maioria enviada por restaurantes que dependem dela. A irmã dela já sugeriu várias vezes que contrate um assistente, mas Lucia insiste que prefere fazer tudo sozinha. Ela admite, porém, que pode mudar de ideia se o negócio continuar crescendo.",
+    "keys": [
+     "lucia",
+     "pães",
+     "fornos",
+     "restaurantes"
+    ]
+   },
+   {
+    "title": "Um trem noturno para o norte",
+    "text": "Na primavera passada, Tomas decidiu viajar para o extremo norte de trem em vez de ir de avião. A viagem, que durou quase dois dias, o levou por florestas tão densas que a luz do sol raramente chegava ao chão. Ele tinha sido avisado de que os vagões seriam frios, por isso levou um cobertor grosso e uma garrafa térmica de chá. Na segunda noite, uma professora aposentada sentou-se diante dele e começou a contar histórias sobre os vilarejos pelos quais passavam. Mais tarde, Tomas disse que essas conversas foram a parte mais valiosa da viagem. Quando o trem finalmente entrou na estação, a neve caía suavemente na plataforma vazia. Embora tenha chegado cansado, ele sentiu que o caminho lento tinha valido o tempo extra.",
+    "keys": [
+     "tomas",
+     "trem",
+     "florestas",
+     "neve"
+    ]
+   },
+   {
+    "title": "Uma mensagem ao proprietário",
+    "text": "Prezado Samuel, escrevo a respeito do aquecimento do meu apartamento, que não funciona desde segunda-feira passada. Um técnico deveria ter vindo na quinta-feira, mas ninguém apareceu e ninguém ligou para explicar. Como a temperatura à noite caiu abaixo de zero, meu vizinho e eu temos usado aquecedores elétricos. Eu ficaria grata se você pudesse providenciar um conserto o mais rápido possível. Caso o problema continue, terei de pedir uma redução no aluguel. Entendo que essas coisas levam tempo e não quero causar dificuldades. Por favor, avise-me até sexta-feira quando alguém poderá vir. Obrigada pela ajuda, Amira.",
+    "keys": [
+     "aquecimento",
+     "técnico",
+     "aluguel",
+     "conserto"
+    ]
+   },
+   {
+    "title": "Aviso da horta comunitária",
+    "text": "O conselho do bairro tem o prazer de anunciar que o antigo estacionamento atrás da biblioteca será transformado em uma horta comunitária. Os moradores que desejarem participar estão convidados para uma reunião no primeiro sábado do próximo mês. Cada família receberá um pequeno canteiro, desde que se comprometa a cuidar dele durante toda a temporada de cultivo. Ferramentas e sementes serão fornecidas gratuitamente, embora se peça aos voluntários que tragam as próprias luvas. Quem não tem experiência não precisa se preocupar, pois uma equipe de jardineiros experientes dará orientação todos os fins de semana. Espera-se que o projeto aproxime os vizinhos e deixe a região mais verde. Quem se interessar deve assinar a lista na mesa da biblioteca antes do fim da semana.",
+    "keys": [
+     "horta",
+     "biblioteca",
+     "sementes",
+     "jardineiros"
+    ]
+   },
+   {
+    "title": "As chaves perdidas",
+    "text": "Elena tinha passado a tarde inteira procurando as chaves do carro, virando o apartamento de cabeça para baixo. Ela verificou todos os bolsos, levantou todas as almofadas e até esvaziou o lixo, mas não havia sinal das chaves. Convencida de que alguém as havia levado, começou a suspeitar da nova colega de apartamento, que estava estranhamente calada a semana toda. Por fim, quase em lágrimas, ligou para a mãe para reclamar. A mãe a ouviu com paciência e depois perguntou se, por acaso, Elena estava segurando algo na mão esquerda. Elena olhou para baixo e descobriu que as chaves estiveram na mão dela o tempo todo. Ela riu tanto que precisou se sentar e mais tarde pediu desculpas à colega com um bolo.",
+    "keys": [
+     "elena",
+     "chaves",
+     "colega",
+     "bolo"
+    ]
+   },
+   {
+    "title": "A velha cidade portuária",
+    "text": "A cidade portuária fica no fim de um vale estreito, onde um rio encontra o mar. As casas, pintadas de azul e amarelo desbotados, sobem a encosta em fileiras irregulares. Os visitantes costumam se impressionar com o silêncio, quebrado apenas pelo grito das gaivotas e pelo ranger dos barcos de pesca. Na praça principal há uma fonte de pedra que, segundo a lenda local, nunca secou. A maioria das lojas é pequena e familiar, e muitas permanecem inalteradas há gerações. Como a estrada é íngreme e sinuosa, poucos turistas se aventuram além do primeiro café. Quem o faz é recompensado com a vista de toda a baía ao pôr do sol.",
+    "keys": [
+     "vale",
+     "fonte",
+     "gaivotas",
+     "baía"
+    ]
+   },
+   {
+    "title": "Uma biblioteca abre até mais tarde",
+    "text": "Uma biblioteca pública de uma cidade do norte começou a ficar aberta até a meia-noite, atendendo a um pedido de estudantes locais. A iniciativa, que começou no mês passado, foi adotada depois que uma pesquisa mostrou que muitos jovens não tinham um lugar tranquilo para estudar à noite. As autoridades relatam que o horário estendido foi muito mais popular do que o esperado, com todas as mesas ocupadas na maioria das noites. Alguns moradores, porém, reclamaram do custo de manter o prédio aquecido e com funcionários até tão tarde. A prefeitura respondeu que o projeto será reavaliado após seis meses. Se a frequência continuar alta, é provável que seja estendido a outras unidades. Enquanto isso, um grupo de voluntários se ofereceu para ajudar a supervisionar as salas de leitura sem cobrar nada.",
+    "keys": [
+     "biblioteca",
+     "meia-noite",
+     "estudantes",
+     "voluntários"
+    ]
+   },
+   {
+    "title": "Por que escrever à mão ainda importa",
+    "text": "Muita gente argumenta que escrever à mão é uma habilidade que podemos abandonar sem problemas, agora que quase todos têm um teclado. Acredito que essa opinião seja equivocada, ou pelo menos prematura. Estudos sugerem que os alunos que fazem anotações à mão tendem a lembrar mais, porque são obrigados a resumir em vez de copiar. Escrever devagar também dá à mente tempo para organizar as ideias antes que cheguem à página. Claro, digitar é mais rápido, e ninguém negaria que é mais prático para documentos longos. Mesmo assim, a velocidade não é a única medida de valor. Por esse motivo, acho que as escolas deveriam continuar ensinando a escrever à mão, ainda que isso ocupe um lugar menor na grade horária do que antes.",
+    "keys": [
+     "mão",
+     "alunos",
+     "teclado",
+     "anotações"
+    ]
+   },
+   {
+    "title": "Como funciona uma bomba de calor",
+    "text": "Uma bomba de calor aquece uma casa movendo o calor em vez de criá-lo. Mesmo num dia frio, o ar lá fora contém algum calor, que um líquido dentro da máquina absorve e transforma em gás. Esse gás é então comprimido, e a compressão o deixa muito mais quente, assim como uma bomba de bicicleta esquenta quando é usada. O gás quente passa por uma serpentina dentro da casa, onde cede seu calor e volta a ser líquido. O ciclo então recomeça, repetindo-se enquanto a máquina estiver ligada. Como transfere calor em vez de queimar combustível, uma bomba de calor pode fornecer várias vezes mais energia do que consome. Essa eficiência explica por que tais máquinas estão se tornando populares em países de invernos frios.",
+    "keys": [
+     "bomba",
+     "calor",
+     "gás",
+     "líquido"
+    ]
+   },
+   {
+    "title": "A oficina do meu avô",
+    "text": "Quando eu tinha cerca de dez anos, passava todas as férias de verão na oficina do meu avô, na beira do vilarejo. Ela cheirava a serragem e óleo, e as paredes eram cobertas de ferramentas em que eu não podia tocar. Ele raramente falava enquanto trabalhava, mas de vez em quando me passava um pedaço de madeira e mandava sentir o veio. Na época, eu achava isso chato e preferiria estar brincando lá fora com meus primos. Só anos depois entendi que ele estava me ensinando a prestar atenção. Ele morreu pouco antes de eu terminar a escola, e a oficina foi vendida logo depois. Até hoje, o cheiro de serragem fresca traz de volta aquelas longas tardes tranquilas de forma tão vívida que preciso parar por um momento.",
+    "keys": [
+     "avô",
+     "oficina",
+     "serragem",
+     "madeira"
+    ]
+   }
+  ],
+  "C1": [
+   {
+    "title": "A terça-feira de uma tradutora",
+    "text": "Marta trabalha em casa como tradutora literária, um trabalho que parece mais glamoroso do que é. As manhãs dela são dedicadas às passagens mais difíceis, pois ela aprendeu que sua concentração diminui muito antes do almoço. Ela passa horas se angustiando com uma única frase, ponderando se determinada palavra capta o tom do autor ou apenas se aproxima dele. No começo da tarde, costuma passar para os e-mails e as notas fiscais, tarefas que exigem pouca imaginação, mas que mesmo assim precisam ser feitas. Os vizinhos presumem que ela tem tempo livre infinito e vivem batendo à porta dela para pedir pequenos favores. Ela parou de explicar que trabalhar em casa continua sendo trabalhar, porque a explicação raramente parece fazer efeito. À noite, ela dá uma longa caminhada, que considera parte do trabalho e não uma pausa dele. As ideias que se recusaram a vir à escrivaninha têm um jeito de chegar sem aviso entre o rio e o mercado. Quando finalmente volta, lê em voz alta o trabalho da manhã, atenta a quaisquer notas falsas que os olhos possam ter deixado passar.",
+    "keys": [
+     "marta",
+     "tradutora",
+     "frase",
+     "caminhada"
+    ]
+   },
+   {
+    "title": "Atravessando o deserto de carro",
+    "text": "Partimos antes do amanhecer, esperando atravessar a pior parte do deserto antes que o calor se tornasse insuportável. A estrada parecia reta e simples no mapa, mas estava cheia de buracos que nos obrigavam a rastejar num ritmo que teria envergonhado um ciclista. Ao meio-dia, o termômetro do painel já passava dos quarenta graus, e o ar dentro do carro parecia denso o bastante para ser mastigado. Nosso guia, um homem taciturno chamado Idris, parecia imperturbável e passou a maior parte da viagem cantarolando sozinho. Quando o motor finalmente pifou, ele levantou o capô, estudou-o por um longo momento e anunciou que o problema era só um cabo solto. Em dez minutos estávamos andando de novo, embora eu suspeite que a calma dele devesse mais à experiência do que a um grande talento mecânico. Naquela noite chegamos a um pequeno oásis onde os moradores, que não esperavam visitantes, insistiram em nos oferecer tâmaras e chá doce. Olhando para trás, lembro do desconforto apenas vagamente, ao passo que a generosidade daqueles desconhecidos continua tão nítida quanto sempre. É uma lição sobre como as pessoas precisam de tão pouco para serem gentis.",
+    "keys": [
+     "deserto",
+     "idris",
+     "motor",
+     "oásis"
+    ]
+   },
+   {
+    "title": "Uma recusa educada",
+    "text": "Querida Helena, agradeço pelo seu generoso convite para integrar o comitê, que li com orgulho e certa culpa. Depois de pensar com cuidado, concluí que devo recusar, não por falta de entusiasmo, mas porque já tenho mais compromissos do que consigo administrar com bom senso. No último ano aceitei vários compromissos que pareciam administráveis isoladamente, só para descobrir que juntos não deixam espaço para respirar. Prefiro fazer poucas coisas direito a aparecer em todas as listas e contribuir pouco. Dito isso, teria prazer em ajudar de forma mais limitada, talvez revisando documentos ou falando na sua assembleia anual. Se qualquer uma dessas opções se mostrar útil, basta você dizer, e abrirei um espaço na minha agenda. Espero que você não encare minha decisão como sinal de indiferença para com a causa, que continuo a admirar profundamente. Aceite mais uma vez meus mais calorosos agradecimentos e meus melhores votos para o ano que vem.",
+    "keys": [
+     "helena",
+     "comitê",
+     "compromissos",
+     "agenda"
+    ]
+   },
+   {
+    "title": "Uma programação de palestras noturnas",
+    "text": "O Museu Riverside tem o prazer de anunciar uma série de palestras noturnas dedicadas à história dos objetos do dia a dia. Cada sessão será conduzida por um especialista diferente, que explorará como um item aparentemente comum, como uma chave ou um relógio, moldou os hábitos humanos. Em vez de apresentar fatos áridos, pediu-se aos palestrantes que contem histórias e convidem a perguntas durante toda a sessão. Os lugares são limitados, por isso recomendamos fortemente que reserve com antecedência, e os retardatários não poderão entrar depois que as portas forem fechadas. Os ingressos são oferecidos com preço reduzido a estudantes e a quem tem mais de sessenta e cinco anos. Será servido um lanche no café depois, dando aos convidados a oportunidade de continuar a conversa de maneira informal. Quem não puder comparecer pessoalmente poderá acompanhar cada palestra on-line, embora as gravações fiquem disponíveis por apenas uma semana. Esperamos receber mentes curiosas de todas as idades e origens.",
+    "keys": [
+     "museu",
+     "palestras",
+     "ingressos",
+     "lanche"
+    ]
+   },
+   {
+    "title": "O último cliente",
+    "text": "Henrik administrava a pequena livraria havia trinta anos e, no dia em que ela fecharia, não esperava nada além de uma tarde tranquila embalando caixas. Os clientes entravam devagar, murmuravam seus lamentos e saíam sem comprar nada, o que lhe pareceu um final adequado para uma carreira longa e pouco lucrativa. Perto da hora de fechar, uma jovem entrou, olhou para as estantes vazias e perguntou se ele ainda tinha um exemplar de uma certa coletânea de poesia obscura. Tinha, embora havia muito tempo tivesse deixado de esperar que alguém o pedisse. Ela explicou que o pai dela, já falecido, o havia escrito e que o procurava havia anos sem sucesso. Henrik, que mantivera aquele livro na estante por pura teimosia, sentiu a garganta apertar. Recusou-se a aceitar o dinheiro dela e embrulhou o volume ele mesmo, com cuidado, como se fosse frágil. Quando ela se foi, ele ficou um tempo em silêncio, depois desembalou as caixas e decidiu que a livraria, afinal, continuaria aberta.",
+    "keys": [
+     "henrik",
+     "livraria",
+     "poesia",
+     "estante"
+    ]
+   },
+   {
+    "title": "A feira de sexta-feira",
+    "text": "Toda sexta-feira, a praça do porto no bairro antigo se transforma em uma feira tão cheia que é preciso mover-se com a multidão em vez de atravessá-la. Barracas que vendem temperos, livros usados e cestos tecidos à mão ficam cotovelo a cotovelo sob toldos de lona desbotada. O ar é carregado do cheiro de peixe grelhado, que se mistura curiosamente ao de café fresco e pão quente. Os vendedores anunciam seus preços num ritmo tão ensaiado que quase parece canto. Pechinchar não é apenas tolerado, mas esperado, e o visitante que paga o primeiro preço pedido é visto com educada diversão. Longe dos corredores centrais, porém, o clima muda, e encontram-se cantos tranquilos onde velhos jogam cartas por horas sem trocar uma palavra. Os moradores garantem que as melhores pechinchas aparecem no fim da tarde, quando os vendedores estão ansiosos para não levar a mercadoria de volta para casa. À noite não resta nada além de papel amassado, alguns gatos de rua e o eco fraco do barulho do dia.",
+    "keys": [
+     "feira",
+     "barracas",
+     "peixe",
+     "gatos"
+    ]
+   },
+   {
+    "title": "Uma cidade fecha o centro",
+    "text": "Uma cidade de porte médio no sul decidiu fechar seu centro histórico aos carros particulares, uma medida que dividiu fortemente a opinião pública. As autoridades argumentam que a mudança reduzirá o ruído e a poluição e tornará as ruas mais seguras para os pedestres. Os comerciantes, por outro lado, temem que os clientes que antes estacionavam diante de suas portas escolham agora comprar em outro lugar. Para responder a essas preocupações, a prefeitura prometeu oferecer ônibus gratuitos de ligação e subsidiar as entregas para os negócios locais. Um experimento semelhante numa cidade vizinha foi considerado um sucesso após um ano, embora os críticos apontem que as circunstâncias não eram idênticas. As reuniões públicas realizadas na semana passada foram muitas vezes acaloradas, e vários oradores acusaram o prefeito de agir sem consulta suficiente. O prefeito, por sua vez, sustenta que a decisão foi tomada de forma aberta e que a cidade não pode se dar ao luxo de esperar. As restrições devem entrar em vigor no início da próxima primavera, quando as novas linhas de ônibus estiverem prontas.",
+    "keys": [
+     "centro",
+     "carros",
+     "comerciantes",
+     "prefeito"
+    ]
+   },
+   {
+    "title": "Em defesa do tédio",
+    "text": "Tendemos a tratar o tédio como um inimigo a ser eliminado na primeira oportunidade, geralmente com a tela mais próxima. No entanto, eu diria que alguns dos nossos pensamentos mais originais surgem justamente quando nada exige a nossa atenção. Uma mente deixada a vagar faz conexões que uma mente constantemente entretida nunca tem a chance de fazer. As crianças, em particular, se beneficiam de ficar ocasionalmente sem tarefa, pois é nesses momentos que inventam brincadeiras e descobrem os próprios interesses. Pais que correm para preencher cada minuto livre com atividades podem, com as melhores intenções, privar os filhos dessa oportunidade. Os críticos objetarão que o tédio pode levar à inquietação, até à travessura, e não estão inteiramente errados. Mas a inquietação costuma ser o primeiro estágio da criatividade, e o desconforto que ela traz é um preço pequeno a pagar. Faríamos bem, portanto, em resistir ao impulso de curá-lo depressa demais.",
+    "keys": [
+     "tédio",
+     "mente",
+     "crianças",
+     "criatividade"
+    ]
+   },
+   {
+    "title": "Sono e memória",
+    "text": "Os cientistas acreditam que o sono desempenha um papel central na transformação de experiências passageiras em memórias duradouras. Durante o dia, as informações novas são mantidas temporariamente em uma região do cérebro de capacidade limitada. Quando adormecemos, essas informações são aos poucos reproduzidas e transferidas para áreas onde podem ser armazenadas a longo prazo. Acredita-se que o processo ocorra principalmente durante o sono profundo, quando a atividade elétrica do cérebro desacelera em ondas grandes e regulares. Pesquisadores descobriram que pessoas que aprendem uma lista de palavras à noite e depois dormem se lembram de muito mais delas do que as que ficam acordadas. O sono também parece ser seletivo, fortalecendo as memórias que mais importam e deixando os detalhes triviais se apagarem. Isso explica por que uma noite de descanso muitas vezes nos ajuda a resolver um problema que parecia impossível na noite anterior. Sugere também que estudantes que sacrificam o sono para estudar podem estar frustrando o próprio propósito.",
+    "keys": [
+     "sono",
+     "memórias",
+     "cérebro",
+     "palavras"
+    ]
+   },
+   {
+    "title": "O verão da enchente",
+    "text": "Eu tinha doze anos no verão em que o rio transbordou, e me lembro dele menos como uma catástrofe do que como umas férias extraordinárias. A escola foi suspensa por duas semanas, e as ruas baixas da nossa cidade viraram canais por onde os vizinhos remavam em tudo o que conseguiam encontrar. Meu pai, normalmente um homem sério e reservado, passou horas levando moradores idosos para um terreno mais alto num barco a remo emprestado. Eu o observava com um misto de admiração e inveja, porque nunca o tinha visto tão abertamente alegre. Minha mãe, enquanto isso, montou uma cozinha no salão da igreja e alimentava quem aparecesse, muitas vezes até bem depois da meia-noite. Só mais tarde, quando a água recuou e deixou para trás os móveis arruinados e os tapetes encharcados, entendi quanto se tinha perdido. Mesmo assim, os adultos falavam daquela quinzena depois com um carinho que eu não conseguia explicar totalmente. Olhando para trás, acredito que estavam lembrando a única vez em que a cidade inteira deixou de ser feita de estranhos.",
+    "keys": [
+     "rio",
+     "pai",
+     "barco",
+     "água"
+    ]
+   }
+  ],
+  "C2": [
+   {
+    "title": "O turno da noite",
+    "text": "Nadia está na ala há horas, movendo-se entre os leitos com uma leveza de passos que anos de prática tornaram quase instintiva. Os corredores, tão movimentados de dia, ganham à noite uma qualidade silenciosa e vagamente náutica, como se o prédio fosse um navio à deriva no escuro. Ela aprendeu que os pacientes confidenciam nas horas pequenas o que jamais admitiriam à luz do dia, e os escuta com uma atenção que considera tão importante quanto qualquer remédio. Por volta das três, quando o cansaço é mais traiçoeiro, prepara um chá e para um instante na janela, vendo as primeiras vans de entrega abrirem caminho pelas ruas vazias. Colegas que nunca trabalharam à noite tendem a imaginar o trabalho como uma versão mais solitária do diurno, mas ela o considera um país inteiramente diferente, com costumes próprios e uma ternura peculiar. Quando chega a equipe da manhã, cheia de barulho e boas intenções, ela entrega suas anotações com uma leve relutância que teria dificuldade em explicar. Caminhando para casa contra a maré dos que vão trabalhar, sente-se como uma visitante voltando de um lugar que o resto do mundo concordou em esquecer. Adormece ao som da cidade acordando, o que lhe parece uma ironia agradável. A essa altura, não há mais ninguém com quem compartilhá-la.",
+    "keys": [
+     "nadia",
+     "ala",
+     "pacientes",
+     "chá"
+    ]
+   },
+   {
+    "title": "A aldeia dos meus antepassados",
+    "text": "Eu tinha adiado a viagem por décadas, em parte por um vago medo de que a realidade não correspondesse à aldeia que eu havia construído com as histórias da minha avó. Quando finalmente desci do ônibus, o lugar me pareceu ao mesmo tempo menor e mais comum do que eu imaginara, um punhado de casas baixas agarradas a uma crista acima de um leito de rio seco. Um velho, percebendo minha hesitação, perguntou quem eu procurava, e quando disse o nome de solteira da minha avó ele me encarou como se eu tivesse voltado dos mortos. Em poucos minutos, passei de casa em casa, conheci primos cuja existência nunca fora mencionada e me pressionaram a comer uma comida pela qual eu não tinha apetite, mas que não podia recusar. Descobri que a casa da família havia desabado há muito tempo e que apenas algumas pedras da soleira ainda se erguiam entre o mato. Lembro de ficar diante delas com um sentimento que só posso descrever como luto por algo que eu nunca tinha possuído. No entanto, ao anoitecer, à mesa cheia sob uma única lâmpada, percebi que a aldeia que eu viera buscar nunca tinha sido um lugar. Era, antes, o hábito de pertencer, que esses estranhos estenderam a mim sem um momento de hesitação. Parti na manhã seguinte com menos ilusões e, curiosamente, com um sentimento muito maior de lar.",
+    "keys": [
+     "aldeia",
+     "avó",
+     "primos",
+     "casa"
+    ]
+   },
+   {
+    "title": "Uma resposta sobre o seu rascunho",
+    "text": "Caro Marcus, lamento ter demorado tanto para responder e gostaria de explicar, em vez de apenas desculpar, o atraso. Quando seu rascunho chegou, eu o li duas vezes e não consegui dizer nada de útil, o que é uma experiência incomum e um pouco humilhante para quem é pago para ter opiniões. O argumento é elegante e as evidências foram reunidas com cuidado, mas algo na conclusão me parecia prometer mais do que as páginas anteriores haviam merecido. Levei vários dias para identificar o problema, que é o de você ter respondido a uma pergunta que nenhum leitor ainda está fazendo. Se você abrisse com o enigma que primeiro o atraiu ao assunto, a conclusão chegaria então como uma resolução em vez de uma afirmação. Sei que é uma mudança maior do que você esperava, e entenderei se sentir que ela distorce suas intenções. Mesmo assim, eu o exortaria a considerá-la antes do prazo, porque o trabalho merece ser lido com tanto cuidado quanto foi escrito. Não hesite em me ligar se quiser discutir tudo isso com mais calma. Enquanto isso, aceite meus parabéns por um trabalho que já é consideravelmente melhor do que a maioria dos que vejo.",
+    "keys": [
+     "marcus",
+     "rascunho",
+     "conclusão",
+     "prazo"
+    ]
+   },
+   {
+    "title": "Um retiro para escritores",
+    "text": "Aninhado em um vale remoto, longe do clamor das cidades, o velho moinho oferece uma semana de solidão ininterrupta a escritores que perderam o fio do próprio trabalho. Não há sinal para telefones, nem televisão e, lamentamos dizer, nenhum pedido de desculpas por nenhuma das duas coisas. Cada hóspede recebe um quarto pequeno com uma escrivaninha junto à janela, e as refeições são entregues em silêncio à porta em horários fixos, para que nenhum pensamento precise ser interrompido por conversas. As noites, para quem quiser, são passadas em volta de uma longa mesa, onde os participantes podem ler seus textos em voz alta e receber críticas gentis, mas sinceras, dos demais. Um editor residente, cujos livros foram traduzidos para muitos idiomas, está disponível todas as tardes para consultas particulares. Não prometemos que a semana produzirá um manuscrito acabado, pois a experiência nos ensinou que a inspiração não pode ser contratada por hora. O que podemos garantir é silêncio, pão bom e a rara permissão de levar a sério a própria escrita. As vagas são estritamente limitadas a oito, e pede-se aos candidatos que enviem uma pequena amostra do seu trabalho junto com um breve relato do que esperam alcançar. Os selecionados serão informados em até quinze dias.",
+    "keys": [
+     "moinho",
+     "escritores",
+     "vale",
+     "silêncio"
+    ]
+   },
+   {
+    "title": "A herança",
+    "text": "Quando o velho professor morreu, deixou toda a sua biblioteca para a única aluna que nunca havia concordado com ele. Os outros alunos, muitos dos quais passaram anos o bajulando na esperança de algum favor, não receberam nada além de um curto bilhete agradecendo pela companhia. A indignação deles foi barulhenta e, por algum tempo, pareceu provável que o testamento fosse contestado na justiça. No entanto, a herdeira escolhida, uma mulher quieta chamada Irena, viu-se estranhamente indiferente à perspectiva da posse e passou a primeira semana simplesmente vagando entre as estantes. Em quase todos os volumes, descobriu comentários à margem na letra apertada do antigo mestre, muitos dirigidos diretamente a ela, como se ele tivesse antecipado as objeções dela com décadas de antecedência. Alguns eram zombeteiros, outros surpreendentemente ternos, e alguns concediam pontos que ele nunca havia admitido em voz alta. Aos poucos ela percebeu que a discussão que julgava estar tendo na sala de seminário havia sido, para ele, uma longa conversa que ele não suportava ver terminar. Ela não contestou o testamento, nem vendeu um único livro. Em vez disso, começou a responder a ele nas margens, com uma letra menor e com uma gramática consideravelmente melhor.",
+    "keys": [
+     "professor",
+     "irena",
+     "margem",
+     "testamento"
+    ]
+   },
+   {
+    "title": "As planícies de sal",
+    "text": "Poucas paisagens eliminam a escala humana tão completamente quanto as grandes planícies de sal, onde o horizonte se dissolve numa névoa pálida e cintilante e o olhar luta para encontrar algo em que repousar. Depois da chuva, uma fina lâmina de água se espalha pela superfície, e o céu se reflete de modo tão perfeito que os visitantes relatam a sensação de caminhar sobre as nuvens. Na estação seca, ao contrário, o chão racha em vastos hexágonos de crosta branca que estalam sob os pés como neve congelada. O silêncio é completo e ligeiramente inquietante, interrompido apenas pelo vento, que carrega uma poeira fina que se deposita nos cabelos e entre os dentes. Os fotógrafos são atraídos ao lugar pelos jogos ópticos que ele permite, como fotos em que uma pessoa parece segurar uma montanha na palma da mão. Os trabalhadores locais, no entanto, o veem como uma colheita e não como um espetáculo, e passam longos dias rastelando o sal em pequenos montes para secar ao sol. Seus rostos curtidos e suas mãos rachadas testemunham um trabalho no qual os turistas raramente param para pensar. Ao entardecer, toda a extensão adquire a cor de um hematoma e depois se apaga numa escuridão tão profunda que as estrelas parecem estar ao alcance da mão. É um lugar que recompensa quem vem para olhar, mas exige certa humildade de quem vem para ficar.",
+    "keys": [
+     "sal",
+     "horizonte",
+     "fotógrafos",
+     "estrelas"
+    ]
+   },
+   {
+    "title": "Um barco antigo é encontrado",
+    "text": "Arqueólogos que trabalham na costa norte anunciaram a descoberta de um barco de madeira que parece ter cerca de dois mil anos, um achado que surpreendeu até os membros mais experientes da equipe. Preservada pela lama pobre em oxigênio em que estava, a embarcação está quase totalmente intacta, e as marcas das ferramentas usadas para moldá-la ainda podem ser vistas ao longo do casco. A análise inicial sugere que foi construída para o comércio e não para a guerra, já que seu casco largo e raso transportaria cargas pesadas, mas ofereceria pouca velocidade. Entre os objetos recuperados do naufrágio estavam jarros de cerâmica, um rolo de corda e o que parece ser um brinquedo de criança, um detalhe que comoveu muitos dos que acompanharam a história. O achado foi descrito pela imprensa como o mais significativo do gênero em uma geração, embora a própria equipe tenha evitado essa linguagem. O diretor da escavação alertou contra conclusões precipitadas, observando que os resultados dos testes de datação não estarão disponíveis por vários meses. Autoridades locais, no entanto, já falam em construir um museu no local, uma ideia que alguns moradores recebem com entusiasmo e outros com profunda desconfiança. Os críticos temem que a chegada de multidões possa danificar justamente a paisagem frágil que preservou o barco, para começar. Por ora, a embarcação permanece sob uma cobertura protetora, e seu destino deve ser debatido por algum tempo.",
+    "keys": [
+     "arqueólogos",
+     "barco",
+     "lama",
+     "museu"
+    ]
+   },
+   {
+    "title": "A virtude da leitura lenta",
+    "text": "Tornou-se moda se gabar de quantos livros se leu em um ano, como se a literatura fosse uma distância a percorrer e não um país a explorar. Considero esse hábito não apenas vulgar, mas contraproducente, pois um livro lido às pressas deixa pouco mais rastro do que um trem avistado de uma plataforma. Os grandes romances, em particular, não foram escritos para serem consumidos em alta velocidade, e sua riqueza está justamente nas passagens que o leitor impaciente pula em busca do enredo. Demorar-se sobre uma frase, voltar a um parágrafo que nos intrigou ou encantou, não é sinal de lentidão, mas de atenção, que se tornou a mais rara das virtudes modernas. Os defensores do jogo dos números responderão que ler mais é sempre melhor do que ler menos e, num sentido estrito, têm razão. Mas um hábito que recompensa a quantidade acima de tudo logo nos ensinará a valorizar a quantidade acima de tudo, na vida como na leitura. A lentidão, afinal, é apenas a velocidade em que um bom livro deseja ser lido. Prefiro terminar dez livros que me mudaram a cem que apenas passaram por mim. Se isso faz de mim um retardatário entre os leitores, aceito o título sem arrependimento e com certa satisfação particular.",
+    "keys": [
+     "livros",
+     "leitura",
+     "romances",
+     "atenção"
+    ]
+   },
+   {
+    "title": "Como as marés se formam",
+    "text": "As marés, que parecem tão naturais e regulares a ponto de dispensar explicação, são na verdade o produto de uma sutil disputa entre a gravidade e o movimento. A Lua atrai com mais força o lado da Terra mais próximo dela, puxando os oceanos para uma protuberância que a segue em volta do planeta. De modo menos intuitivo, uma segunda protuberância se forma do lado oposto, porque ali a atração da Lua é mais fraca do que em outros lugares e a água é, na prática, deixada para trás. À medida que a Terra gira sob essas duas protuberâncias, qualquer costa passa por cada uma delas uma vez por dia, e é por isso que a maioria dos lugares tem duas marés altas e duas marés baixas em cerca de um dia. O Sol também exerce uma atração gravitacional, embora sua distância maior torne sua influência menor que a metade da da Lua. Quando o Sol e a Lua se alinham, seus efeitos se combinam e produzem marés excepcionalmente grandes, ao passo que, quando formam um ângulo reto entre si, parcialmente se anulam e as marés são suaves. A forma do litoral pode amplificar esses movimentos de maneira dramática, de modo que, em certas baías estreitas, a água sobe e desce muitas vezes a altura encontrada em mar aberto. Os navegantes entendem esses padrões há séculos, mesmo que a física subjacente tenha permanecido misteriosa até épocas relativamente recentes. Continua notável que uma força exercida a uma distância tão imensa possa erguer o mar contra a atração do próprio planeta que o mantém.",
+    "keys": [
+     "marés",
+     "lua",
+     "sol",
+     "gravidade"
+    ]
+   },
+   {
+    "title": "O piano no corredor",
+    "text": "Havia um piano no corredor da casa onde cresci, um piano vertical sem nenhuma distinção especial que ninguém da família sabia tocar. Minha avó o havia comprado num surto de otimismo quanto ao desenvolvimento cultural de seus descendentes, e por décadas ele permaneceu ali como um monumento a essa esperança frustrada. Nós o usávamos principalmente como prateleira para chaves, cartas e os infinitos objetos pequenos que se acumulam numa casa, e sua tampa raramente era levantada. No entanto, lembro, com uma clareza que me surpreende, da tarde em que uma tia em visita se sentou e começou a tocar algo lento e desconhecido. A casa inteira pareceu parar, e até o cachorro levantou a cabeça do tapete e a olhou com uma expressão de grave espanto. Eu tinha talvez nove anos e nunca me ocorrera que aquela coisa no corredor fosse capaz de produzir qualquer som além de um baque oco quando eu a batia com o joelho. Quando ela terminou, fechou a tampa, pediu desculpas por estar destreinada e voltou para a cozinha como se nada tivesse acontecido. Ouvi muita música desde então, parte dela sem dúvida mais refinada, mas nenhuma que tenha reorganizado a mobília da minha mente da mesma forma. Suspeito que o que ouvi naquela tarde não era tanto uma melodia quanto um vislumbre do que a casa vinha guardando.",
+    "keys": [
+     "piano",
+     "casa",
+     "avó",
+     "tia"
+    ]
+   }
+  ]
+ }
+}

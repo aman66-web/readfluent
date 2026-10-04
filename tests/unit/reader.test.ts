@@ -116,7 +116,7 @@ describe("the reader", () => {
 
 describe("reading settings", () => {
   it("reads back what was chosen and falls back to the defaults for anything else", () => {
-    expect(parsePrefs(JSON.stringify({ size: "l", colours: false, gloss: true }))).toEqual({ size: "l", colours: false, gloss: true });
+    expect(parsePrefs(JSON.stringify({ size: "l", colours: false, gloss: true }))).toEqual({ ...DEFAULT_PREFS, size: "l", colours: false, gloss: true });
     expect(parsePrefs(JSON.stringify({ size: "huge", colours: "yes" }))).toEqual(DEFAULT_PREFS);
     for (const bad of ["", "nope", "[]", "null", "7"]) expect(parsePrefs(bad), bad).toEqual(DEFAULT_PREFS);
   });

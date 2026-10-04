@@ -11,6 +11,8 @@ import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore
 import { ObjectPhoto } from "@/components/ObjectPhoto";
 import { ScenePhoto } from "@/components/ScenePhoto";
 import { Mascot } from "@/components/mascot/Mascot";
+import { CheerBubble } from "@/components/reader/CheerBubble";
+import { MiniCheck } from "@/components/reader/MiniCheck";
 import { Settings } from "@/components/reader/Settings";
 import { WordCard } from "@/components/reader/WordCard";
 import { WordsSheet } from "@/components/reader/WordsSheet";
@@ -20,12 +22,15 @@ import { languageName } from "@/lib/i18n";
 import { useBookText, useLocale, useT } from "@/lib/i18n/react";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
 import { readPage, resumeIndex, savePage, versionKey } from "@/lib/progress";
+import { blockFinished, lastBlock, markBlock } from "@/lib/quiz/blocks";
+import { cheerFor, type Cheer } from "@/lib/quiz/cheers";
+import { BLOCK, type QuizPage } from "@/lib/quiz/mini";
 import { READER_PREFS_KEY, TEXT_SIZES, parsePrefs } from "@/lib/reading/prefs";
 import { canSpeak, speak, stopSpeaking } from "@/lib/reading/speak";
 import { tokenize, translatedLine } from "@/lib/reading/sentences";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { SAVED_KEY, parseSaved, removeSaved, savedId, toggleSaved } from "@/lib/words/saved";
-import { XP, levelUpBetween, type LevelUp as LevelUpInfo } from "@/lib/xp/levels";
+import { XP, levelUpBetween, type Cefr, type LevelUp as LevelUpInfo } from "@/lib/xp/levels";
 import { LevelUp } from "@/components/xp/LevelUp";
 import { LEDGER_KEY, awardFinish, awardPage, currentXp, parseLedger, trackSeconds } from "@/lib/xp/ledger";
 import type { Scene } from "@/lib/preview/catalog";
@@ -59,6 +64,8 @@ const subscribeLedger = subscribeTo(LEDGER_KEY);
 const readLedgerRaw = () => readRaw(LEDGER_KEY);
 const serverRaw = () => "";
 /** The first letter of each script that can be shown in Latin letters, for the button. */
+/** The level a band's quick-check answers count as, for XP. */
+const BAND_TOP: Record<string, Cefr> = { A1A2: "A2", B1B2: "B2", C1C2: "C2" };
 const ROMAN_GLYPH: Record<string, string> = { hi: "अ", bn: "অ", zh: "文", ur: "ا", ar: "ع" };
 
 const noSubscribe = () => () => {};
@@ -169,6 +176,12 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   const [toast, setToast] = useState<{ text: string; happy: boolean } | null>(null);
   const prefsRaw = useSyncExternalStore(subscribePrefs, readPrefsRaw, serverRaw);
   const prefs = useMemo(() => parsePrefs(prefsRaw), [prefsRaw]);
+  // Dewey cheering now and then, and the quick check offered after every five pages (components/reader/MiniCheck.tsx).
+  const [cheer, setCheer] = useState<Cheer | null>(null);
+  const [check, setCheck] = useState<{ block: number } | null>(null);
+  const welcomed = useRef(false);
+  const prevIndex = useRef(0);
+  const lastCheer = useRef(-99);
   const [menu, setMenu] = useState(false);
   const [wordsOpen, setWordsOpen] = useState(false);
   const [hop, setHop] = useState(0);
@@ -236,7 +249,13 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   useEffect(() => {
     // The scroll this causes is what updates `index` (see the scroll handler).
     const start = resumeIndex(readPage(progressSlug, levelId, length), total);
-    if (start > 0) goTo(start, false);
+    if (start > 0) {
+      goTo(start, false);
+      // Dewey says hello again, once.
+      if (!welcomed.current && prefs.cheers) { welcomed.current = true; window.setTimeout(() => setCheer({ id: "reader.cheer.back" }), 1200); }
+    }
+    // The cheers setting is read only when the book opens.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [progressSlug, levelId, length, total, goTo]);
 
   // Which page the scroller is showing, as it moves.
@@ -327,6 +346,28 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   }, [gain]);
   // A new stage or a new level: the celebration comes up over the page.
   const [levelUp, setLevelUp] = useState<LevelUpInfo | null>(null);
+  // Moving on a page: the end of five pages offers a quick check, once; otherwise Dewey may say something kind.
+  useEffect(() => {
+    const from = prevIndex.current;
+    prevIndex.current = index;
+    if (from === index || total === 0 || index >= total) return;
+    const block = blockFinished(index, from);
+    if (block !== null && prefs.check !== 0 && block > lastBlock(version)) {
+      markBlock(version, block);
+      const id = window.setTimeout(() => { setCheer(null); setCheck({ block }); }, 700);
+      return () => window.clearTimeout(id);
+    }
+    if (prefs.cheers && index > from) {
+      const c = cheerFor(index, total, lastCheer.current);
+      if (c) { lastCheer.current = index; const id = window.setTimeout(() => setCheer(c), 900); return () => window.clearTimeout(id); }
+    }
+  }, [index, total, version, prefs.check, prefs.cheers]);
+  const quizPages = useMemo(() => {
+    if (!check) return null;
+    const end = check.block * BLOCK;
+    const q = (p: ReaderPage): QuizPage => ({ text: p.text, translation: p.target?.translation, keys: p.target?.keys });
+    return { asked: pages.slice(end - BLOCK, end).map(q), pool: pages.slice(Math.max(0, end - 40), end).map(q) };
+  }, [check, pages]);
   useEffect(() => {
     if (total === 0 || index >= total) return;
     const id = window.setTimeout(() => {
@@ -554,6 +595,14 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
           </>
         )}
       </footer>
+
+      {cheer && !sel && !check && !toast && !levelUp && (
+        <CheerBubble text={t(cheer.id, cheer.vars)} href={cheer.talk ? "/recall/talk" : undefined} onGone={() => setCheer(null)} />
+      )}
+      {check && quizPages && (
+        <MiniCheck asked={quizPages.asked} pool={quizPages.pool} lang={variant.lang} level={BAND_TOP[levelId] ?? "A2"} seed={check.block * 7919 + version.length}
+                   pref={prefs.check} show={(x) => (roman.convert ? romanText(x, roman.convert) : x)} onLevelUp={setLevelUp} onClose={() => setCheck(null)} />
+      )}
 
       {toast && (
         <p role="status" className={`fade-in pointer-events-none absolute left-1/2 z-10 flex max-w-[88%] -translate-x-1/2 items-center gap-2 rounded-full bg-foreground/95 py-2 text-[13px] font-semibold text-background ${open ? "top-[150px]" : "bottom-28"} ${toast.happy ? "pe-4 ps-2" : "px-4"}`}>

@@ -65,7 +65,7 @@ function lowerWords(pool: readonly Item[]): string[] {
 }
 
 /** A sentence with one word taken out, and four words to put back; null if there is no good word to take. */
-function gap(item: Item, pool: readonly Item[], lang: string, r: () => number, id: string): Question | null {
+export function gap(item: Item, pool: readonly Item[], lang: string, r: () => number, id: string): Question | null {
   const toks = tokenize(item.t);
   const idx = toks.map((t, i) => (t.word && i > 0 && letters(t.word) >= 4 && t.text[0] === t.text[0].toLowerCase() ? i : -1)).filter((i) => i >= 0);
   if (!idx.length) return null;
@@ -86,7 +86,7 @@ const NOT_NAMES = new Set("The A An He She It They We I You In On At But And So 
 export const namesOf = (e: string): string[] => [...new Set((e.match(/\b[A-Z][a-z]+/g) ?? []).filter((w) => !NOT_NAMES.has(w)))];
 
 /** What does this sentence say: four English sentences. Needs the item's English. */
-function meaning(item: Item, pool: readonly Item[], lang: string, r: () => number, id: string, kind: "meaning" | "listen"): Question | null {
+export function meaning(item: Item, pool: readonly Item[], lang: string, r: () => number, id: string, kind: "meaning" | "listen"): Question | null {
   if (!item.e) return null;
   const near = shuffle(pool.filter((p) => p.e && p.e !== item.e), r);
   const len = item.e.length;
