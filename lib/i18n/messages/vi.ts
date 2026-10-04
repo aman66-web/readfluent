@@ -737,7 +737,7 @@ const vi: Catalog = {
   "lang.prep.why": "ReadFluent dịch sách ngay trên điện thoại bằng trình dịch miễn phí, nên những gì bạn đọc không rời khỏi điện thoại. Cần tải {language} một lần. Sau đó cả thư viện tự bắt đầu được dịch.",
   "lang.prep.how": "Chạm Tải xuống và đồng ý. Bạn cũng có thể mở Cài đặt và tìm “Ngôn ngữ dịch”.",
   "lang.prep.button": "Tải {language}",
-  "lang.prep.working": "Đang tải… có thể mất vài phút. Bạn cứ tiếp tục nhé.",
+  "lang.prep.working": "Đang tải… có thể mất vài phút. Bạn có thể đóng cửa sổ tải của Apple bằng ✕ rồi tiếp tục: quá trình tải vẫn chạy ở nền, và thẻ này sẽ chuyển sang “sẵn sàng” khi xong.",
   "lang.prep.done": "{language} đã sẵn sàng. Thư viện của bạn đang được dịch ở nền.",
   "lang.kb.title": "Thêm bàn phím {language}",
   "lang.kb.why": "Bạn sẽ gõ bằng {language} khi trò chuyện với Dewey và ở một số câu trả lời. Hãy thêm bàn phím một lần để gõ đúng chữ.",

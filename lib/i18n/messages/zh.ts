@@ -755,7 +755,7 @@ const zh: Catalog = {
   "lang.prep.why": "ReadFluent 用免费翻译器在手机上翻译你的书，所以你读的内容不会离开手机。只需下载一次{language}，之后整个书库会自动开始翻译。",
   "lang.prep.how": "点“下载”并允许。你也可以打开“设置”，搜索“翻译语言”。",
   "lang.prep.button": "下载{language}",
-  "lang.prep.working": "正在下载……可能需要几分钟。你可以继续。",
+  "lang.prep.working": "正在下载……可能需要几分钟。你可以点 ✕ 关闭 Apple 的下载窗口并继续：下载会在后台继续，完成后此卡片会变为“已准备好”。",
   "lang.prep.done": "{language}已准备好。你的书库正在后台翻译。",
   "lang.kb.title": "添加{language}键盘",
   "lang.kb.why": "和 Dewey 聊天以及回答某些问题时，你需要用{language}输入。请先添加它的键盘一次，就能输入正确的字符。",

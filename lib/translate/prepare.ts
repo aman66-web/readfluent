@@ -2,6 +2,12 @@ import { storageKey } from "@/lib/brand";
 import { readRaw, writeRaw } from "@/lib/store/local";
 import { Capacitor } from "@capacitor/core";
 
+/** Languages the phone has been asked to download in this visit; screens that explain it listen for the event. */
+export const PREPARING_EVENT = "rf:preparing";
+export function markPreparing(lang: string): void {
+  if (typeof window !== "undefined") window.dispatchEvent(new CustomEvent(PREPARING_EVENT, { detail: lang }));
+}
+
 /** Whether this phone will be asked, so a screen can say so (the app only; a browser asks on the first book). */
 export const willAskToDownload = (learn: string | null | undefined): boolean => Boolean(learn) && learn !== "en" && Capacitor.isNativePlatform() && Capacitor.isPluginAvailable("OnDeviceTranslate");
 
@@ -20,6 +26,7 @@ export async function prepareLanguageOnce(learn: string | null | undefined): Pro
     const { devicePrepare, deviceStatus } = await import("./device");
     if ((await deviceStatus("en", learn)) !== "download") return;
     writeRaw(key, "1");
+    markPreparing(learn);
     await devicePrepare("en", learn);
   } catch { /* the book's own download button is the fallback */ }
 }

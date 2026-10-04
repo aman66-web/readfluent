@@ -720,7 +720,7 @@ const tr: Catalog = {
   "lang.prep.why": "ReadFluent kitaplarını telefonunda ücretsiz çevirmeniyle çevirir, bu yüzden okuduğun hiçbir şey telefonundan çıkmaz. {language} dilinin bir kez indirilmesi gerekir. Sonra tüm kütüphane kendiliğinden çevrilmeye başlar.",
   "lang.prep.how": "İndir'e dokun ve onayla. Ayrıca Ayarlar'ı açıp “Çeviri dilleri” araması da yapabilirsin.",
   "lang.prep.button": "{language} indir",
-  "lang.prep.working": "İndiriliyor… birkaç dakika sürebilir. Devam edebilirsin.",
+  "lang.prep.working": "İndiriliyor… birkaç dakika sürebilir. Apple'ın indirme penceresini ✕ ile kapatıp devam edebilirsin: indirme arka planda sürer ve bittiğinde bu kart “hazır” olur.",
   "lang.prep.done": "{language} hazır. Kütüphanen arka planda çevriliyor.",
   "lang.kb.title": "{language} klavyesini ekle",
   "lang.kb.why": "Dewey ile sohbet ederken ve bazı cevaplarda {language} dilinde yazacaksın. Doğru harflerle yazabilmek için klavyesini bir kez ekle.",

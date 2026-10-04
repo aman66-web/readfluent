@@ -759,7 +759,7 @@ const nl: Catalog = {
   "lang.prep.why": "ReadFluent vertaalt je boeken op je telefoon met de gratis vertaler, dus niets van wat je leest verlaat je telefoon. Het {language} moet één keer worden gedownload. Daarna begint de hele bibliotheek vanzelf te vertalen.",
   "lang.prep.how": "Tik op Download en zeg ja. Je kunt ook Instellingen openen en zoeken naar “Vertaaltalen”.",
   "lang.prep.button": "{language} downloaden",
-  "lang.prep.working": "Downloaden… dit kan een paar minuten duren. Je kunt doorgaan.",
+  "lang.prep.working": "Downloaden… dit kan een paar minuten duren. Je kunt het downloadvenster van Apple met ✕ sluiten en doorgaan: het gaat op de achtergrond door en deze kaart verandert in “klaar” als het af is.",
   "lang.prep.done": "Het {language} is klaar. Je bibliotheek wordt op de achtergrond vertaald.",
   "lang.kb.title": "Voeg het toetsenbord voor {language} toe",
   "lang.kb.why": "Je typt in het {language} als je met Dewey chat en bij sommige antwoorden. Voeg het toetsenbord één keer toe, zodat je de juiste letters kunt typen.",

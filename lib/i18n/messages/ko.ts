@@ -757,7 +757,7 @@ const ko: Catalog = {
   "lang.prep.why": "ReadFluent는 무료 번역기로 휴대폰 안에서 책을 번역해서, 읽는 내용이 휴대폰 밖으로 나가지 않아요. {language}을(를) 한 번만 내려받으면 돼요. 그다음엔 라이브러리 전체가 저절로 번역되기 시작해요.",
   "lang.prep.how": "다운로드를 누르고 허용하세요. 설정에서 ‘번역 언어’를 검색해도 돼요.",
   "lang.prep.button": "{language} 내려받기",
-  "lang.prep.working": "내려받는 중… 몇 분 걸릴 수 있어요. 계속 진행해도 돼요.",
+  "lang.prep.working": "내려받는 중… 몇 분 걸릴 수 있어요. ✕로 Apple 다운로드 창을 닫고 계속 진행해도 돼요. 다운로드는 백그라운드에서 이어지고, 끝나면 이 카드가 ‘준비 완료’로 바뀌어요.",
   "lang.prep.done": "{language} 준비 완료! 라이브러리가 백그라운드에서 번역되고 있어요.",
   "lang.kb.title": "{language} 키보드 추가하기",
   "lang.kb.why": "Dewey와 채팅할 때와 일부 답에서 {language}(으)로 입력해요. 올바른 글자로 입력할 수 있도록 키보드를 한 번 추가하세요.",

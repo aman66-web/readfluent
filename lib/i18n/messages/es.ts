@@ -756,7 +756,7 @@ const es: Catalog = {
   "lang.prep.why": "ReadFluent traduce tus libros en tu teléfono con su traductor gratuito, así que nada de lo que lees sale de él. Necesita descargar el {language} una vez. Después, toda la biblioteca empieza a traducirse sola.",
   "lang.prep.how": "Toca Descargar y di que sí. También puedes abrir Ajustes y buscar «Idiomas de traducción».",
   "lang.prep.button": "Descargar {language}",
-  "lang.prep.working": "Descargando… puede tardar unos minutos. Puedes seguir.",
+  "lang.prep.working": "Descargando… puede tardar unos minutos. Puedes cerrar la ventana de descarga de Apple con ✕ y seguir: la descarga continúa en segundo plano y esta tarjeta pasará a «listo» cuando termine.",
   "lang.prep.done": "El {language} está listo. Tu biblioteca se está traduciendo en segundo plano.",
   "lang.kb.title": "Añade el teclado de {language}",
   "lang.kb.why": "Escribirás en {language} cuando chatees con Dewey y en algunas respuestas. Añade su teclado una vez para escribir con las letras correctas.",

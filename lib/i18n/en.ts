@@ -765,7 +765,7 @@ export const EN = {
   "lang.prep.why": "ReadFluent translates your books on your phone with its free translator, so nothing you read leaves your phone. It needs {language} downloaded once. After that the whole library starts translating by itself.",
   "lang.prep.how": "Tap Download and say yes. You can also open Settings and search for “Translation languages”.",
   "lang.prep.button": "Download {language}",
-  "lang.prep.working": "Downloading… this can take a few minutes. You can carry on.",
+  "lang.prep.working": "Downloading… this can take a few minutes. You can close Apple's download window with ✕ and carry on: it keeps going in the background, and this card turns to “ready” when it is done.",
   "lang.prep.done": "{language} is ready. Your library is translating in the background.",
   "lang.kb.title": "Add the {language} keyboard",
   "lang.kb.why": "You will type in {language} when you chat with Dewey and in some answers. Add its keyboard once, so you can type with the right letters.",

@@ -759,7 +759,7 @@ const pl: Catalog = {
   "lang.prep.why": "ReadFluent tłumaczy książki na telefonie darmowym tłumaczem, więc nic z tego, co czytasz, nie opuszcza telefonu. Trzeba raz pobrać język: {language}. Potem cała biblioteka zaczyna tłumaczyć się sama.",
   "lang.prep.how": "Dotknij Pobierz i zgódź się. Możesz też otworzyć Ustawienia i wyszukać „Języki tłumaczenia”.",
   "lang.prep.button": "Pobierz: {language}",
-  "lang.prep.working": "Pobieranie… może potrwać kilka minut. Możesz iść dalej.",
+  "lang.prep.working": "Pobieranie… może potrwać kilka minut. Możesz zamknąć okno pobierania Apple przyciskiem ✕ i iść dalej: pobieranie trwa w tle, a ta karta zmieni się na „gotowe”, gdy się skończy.",
   "lang.prep.done": "Język {language} jest gotowy. Twoja biblioteka tłumaczy się w tle.",
   "lang.kb.title": "Dodaj klawiaturę: {language}",
   "lang.kb.why": "Będziesz pisać w języku {language} w rozmowie z Dewey i w niektórych odpowiedziach. Dodaj jego klawiaturę raz, aby pisać właściwymi literami.",

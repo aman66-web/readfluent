@@ -757,7 +757,7 @@ const de: Catalog = {
   "lang.prep.why": "ReadFluent übersetzt deine Bücher auf dem Handy mit dem kostenlosen Übersetzer, deshalb verlässt nichts, was du liest, dein Handy. Dafür muss {language} einmal heruntergeladen werden. Danach beginnt die ganze Bibliothek von selbst mit dem Übersetzen.",
   "lang.prep.how": "Tippe auf „Laden“ und bestätige. Oder öffne die Einstellungen und suche nach „Übersetzungssprachen“.",
   "lang.prep.button": "{language} herunterladen",
-  "lang.prep.working": "Wird geladen … das kann ein paar Minuten dauern. Du kannst weitermachen.",
+  "lang.prep.working": "Wird geladen … das kann ein paar Minuten dauern. Du kannst das Download-Fenster von Apple mit ✕ schließen und weitermachen: Der Download läuft im Hintergrund weiter, und diese Karte zeigt „bereit“, sobald er fertig ist.",
   "lang.prep.done": "{language} ist bereit. Deine Bibliothek wird im Hintergrund übersetzt.",
   "lang.kb.title": "Füge die Tastatur für {language} hinzu",
   "lang.kb.why": "Du schreibst auf {language}, wenn du mit Dewey chattest und bei manchen Antworten. Füge die Tastatur einmal hinzu, damit du die richtigen Buchstaben tippen kannst.",
