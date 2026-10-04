@@ -685,7 +685,7 @@ const vi: Catalog = {
   "reader.downloadLangButton": "Tải {language}",
   "reader.startOnly": "Chương 1 bằng {language}. Ứng dụng ReadFluent trên điện thoại dịch phần còn lại của sách.",
   "reader.startNow": "Đọc chương 1 ngay",
-  "reader.notYet": "Cuốn sách này chưa có bản {language}, nên sẽ mở bằng tiếng Anh.",
+  "reader.notYet": "Trình duyệt này không dịch được cuốn sách này sang {language}, nên sách mở bằng tiếng Anh. Ứng dụng ReadFluent làm được.",
   "reader.translateFailed": "Không tải được bản dịch {language}, nên sách mở bằng tiếng Anh. Hãy thử lại sau giây lát.",
   "reader.switchLang": "Đổi ngôn ngữ",
   "reader.settings": "Cài đặt đọc",

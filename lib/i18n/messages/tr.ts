@@ -669,7 +669,7 @@ const tr: Catalog = {
   "reader.downloadLangButton": "{language} indir",
   "reader.startOnly": "1. bölüm {language}. Kitabın geri kalanını telefonundaki ReadFluent uygulaması çevirir.",
   "reader.startNow": "1. bölümü şimdi oku",
-  "reader.notYet": "Bu kitap henüz {language} dilinde değil, bu yüzden İngilizce açılıyor.",
+  "reader.notYet": "Bu tarayıcı kitabı {language} diline çeviremiyor, bu yüzden İngilizce açılıyor. ReadFluent uygulaması çevirebilir.",
   "reader.translateFailed": "{language} çevirisi yüklenemedi, bu yüzden kitap İngilizce açılıyor. Biraz sonra tekrar dene.",
   "reader.switchLang": "Dili değiştir",
   "reader.settings": "Okuma ayarları",

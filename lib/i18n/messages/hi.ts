@@ -704,7 +704,7 @@ const hi: Catalog = {
   "reader.downloadLangButton": "{language} डाउनलोड करें",
   "reader.startOnly": "अध्याय 1 {language} में है। बाकी किताब का अनुवाद आपके फ़ोन पर ReadFluent ऐप करता है।",
   "reader.startNow": "अभी अध्याय 1 पढ़ें",
-  "reader.notYet": "यह किताब अभी {language} में नहीं है, इसलिए अंग्रेज़ी में खुल रही है।",
+  "reader.notYet": "यह ब्राउज़र इस किताब का {language} में अनुवाद नहीं कर सकता, इसलिए यह अंग्रेज़ी में खुलती है। ReadFluent ऐप यह कर सकता है।",
   "reader.translateFailed": "{language} अनुवाद लोड नहीं हुआ, इसलिए किताब अंग्रेज़ी में खुल रही है। थोड़ी देर बाद फिर कोशिश करें।",
   "reader.switchLang": "भाषा बदलें",
   "reader.settings": "पढ़ने की सेटिंग",

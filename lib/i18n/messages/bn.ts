@@ -704,7 +704,7 @@ const bn: Catalog = {
   "reader.downloadLangButton": "{language} ডাউনলোড করুন",
   "reader.startOnly": "অধ্যায় ১ {language} ভাষায় আছে। বইয়ের বাকি অংশ আপনার ফোনের ReadFluent অ্যাপ অনুবাদ করে।",
   "reader.startNow": "এখনই অধ্যায় ১ পড়ুন",
-  "reader.notYet": "এই বইটি এখনো {language} ভাষায় নেই, তাই ইংরেজিতে খুলছে।",
+  "reader.notYet": "এই ব্রাউজার বইটি {language} ভাষায় অনুবাদ করতে পারে না, তাই এটি ইংরেজিতে খুলছে। ReadFluent অ্যাপ পারে।",
   "reader.translateFailed": "{language} অনুবাদ লোড হয়নি, তাই বইটি ইংরেজিতে খুলছে। একটু পরে আবার চেষ্টা করুন।",
   "reader.switchLang": "ভাষা বদলান",
   "reader.settings": "পড়ার সেটিংস",

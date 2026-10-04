@@ -702,7 +702,7 @@ const zh: Catalog = {
   "reader.downloadLangButton": "下载{language}",
   "reader.startOnly": "第1章是{language}。其余部分由你手机上的 ReadFluent 应用翻译。",
   "reader.startNow": "现在阅读第1章",
-  "reader.notYet": "这本书还没有{language}版，所以以英语打开。",
+  "reader.notYet": "此浏览器无法将这本书翻译成{language}，因此以英文打开。ReadFluent 应用可以翻译。",
   "reader.translateFailed": "{language}译文没有加载成功，所以以英语打开。请稍后再试。",
   "reader.switchLang": "切换语言",
   "reader.settings": "阅读设置",

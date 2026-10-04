@@ -712,7 +712,7 @@ export const EN = {
   "reader.downloadLangButton": "Download {language}",
   "reader.startOnly": "Chapter 1 is in {language}. The ReadFluent app on your phone translates the rest of the book.",
   "reader.startNow": "Read chapter 1 now",
-  "reader.notYet": "This book is not in {language} yet, so it opens in English.",
+  "reader.notYet": "This browser can't translate this book into {language}, so it opens in English. The ReadFluent app can.",
   "reader.translateFailed": "The {language} translation did not load, so it opens in English. Try again in a moment.",
   "reader.switchLang": "Switch language",
   "reader.settings": "Reading settings",

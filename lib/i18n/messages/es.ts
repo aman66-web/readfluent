@@ -703,7 +703,7 @@ const es: Catalog = {
   "reader.downloadLangButton": "Descargar {language}",
   "reader.startOnly": "El capítulo 1 está en {language}. La app de ReadFluent en tu teléfono traduce el resto del libro.",
   "reader.startNow": "Leer ahora el capítulo 1",
-  "reader.notYet": "Este libro aún no está en {language}, así que se abre en inglés.",
+  "reader.notYet": "Este navegador no puede traducir este libro al {language}, así que se abre en inglés. La app de ReadFluent sí puede.",
   "reader.translateFailed": "La traducción al {language} no se cargó, así que se abre en inglés. Inténtalo de nuevo en un momento.",
   "reader.switchLang": "Cambiar de idioma",
   "reader.settings": "Ajustes de lectura",

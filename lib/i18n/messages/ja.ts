@@ -702,7 +702,7 @@ const ja: Catalog = {
   "reader.downloadLangButton": "{language}をダウンロード",
   "reader.startOnly": "第1章は{language}です。残りはスマホのReadFluentアプリが翻訳します。",
   "reader.startNow": "今すぐ第1章を読む",
-  "reader.notYet": "この本はまだ{language}版がないため、英語で開きます。",
+  "reader.notYet": "このブラウザではこの本を{language}に翻訳できないため、英語で開きます。ReadFluentアプリなら翻訳できます。",
   "reader.translateFailed": "{language}の翻訳を読み込めなかったため、英語で開きます。少し待ってからもう一度お試しください。",
   "reader.switchLang": "言語を切り替える",
   "reader.settings": "読書の設定",

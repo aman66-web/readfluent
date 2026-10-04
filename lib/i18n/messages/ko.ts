@@ -704,7 +704,7 @@ const ko: Catalog = {
   "reader.downloadLangButton": "{language} 내려받기",
   "reader.startOnly": "1장은 {language}(으)로 되어 있어요. 나머지는 휴대폰의 ReadFluent 앱이 번역해요.",
   "reader.startNow": "지금 1장 읽기",
-  "reader.notYet": "이 책은 아직 {language} 버전이 없어서 영어로 열립니다.",
+  "reader.notYet": "이 브라우저는 이 책을 {language}(으)로 번역할 수 없어서 영어로 열려요. ReadFluent 앱은 번역할 수 있어요.",
   "reader.translateFailed": "{language} 번역을 불러오지 못해 영어로 열립니다. 잠시 후 다시 시도해 주세요.",
   "reader.switchLang": "언어 전환",
   "reader.settings": "읽기 설정",

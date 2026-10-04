@@ -706,7 +706,7 @@ const ru: Catalog = {
   "reader.downloadLangButton": "Загрузить: {language}",
   "reader.startOnly": "Глава 1 на языке: {language}. Остальную книгу переводит приложение ReadFluent на телефоне.",
   "reader.startNow": "Читать главу 1 сейчас",
-  "reader.notYet": "Этой книги ещё нет на языке «{language}», поэтому она открывается на английском.",
+  "reader.notYet": "Этот браузер не может перевести книгу на язык: {language}, поэтому она открывается на английском. Приложение ReadFluent может.",
   "reader.translateFailed": "Перевод на «{language}» не загрузился, поэтому книга открывается на английском. Попробуйте ещё раз через минуту.",
   "reader.switchLang": "Сменить язык",
   "reader.settings": "Настройки чтения",
