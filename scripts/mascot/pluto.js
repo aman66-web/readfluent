@@ -1213,6 +1213,9 @@ function ghost(obj, keepOccluders = false) {
 }
 
 export async function buildPluto(THREE, name, helpers) {
+  // the wardrobe (see the end of this file): an accessory for one pose's head, or a pet; each renders only the item
+  if (name.startsWith("acc-")) return buildAccessoryAsset(THREE, name, helpers);
+  if (name.startsWith("pet-")) return buildPetAsset(THREE, name, helpers);
   const { view, fig, layers } = assemble(THREE, helpers, name);
   if (flag("only", "") === "head") { for (const child of fig.children) if (!child.userData.isNeck) ghost(child); return view; }
   const layerNames = Object.keys(layers);
@@ -1277,4 +1280,745 @@ export function computePivots(THREE) {
     out[layer] = [Math.round((w.x + 3) * 40 * 10) / 10, Math.round((3 - w.y) * 40 * 10) / 10];
   }
   return out;
+}
+
+// ---------- the wardrobe: accessories and pets ----------
+// Readers spend coins on Pluto's look. Each item is its own transparent layer, rendered in the same frame, camera and
+// light as Pluto's layers, so the app lays it straight over them:
+//  - acc-<item>-<base>: an accessory for the head of one pose (base: hello-base, reading, cheer-base, sleepy, ready; the
+//    blink and talk frames share their base's head). It is built inside that pose's own head group, so it follows the
+//    head's position, tilt and scale; the rest of Pluto is drawn depth-only, so whatever of the item is behind the
+//    helmet, the antenna or the body is hidden, as it would be. The arm layers (drawn above it in the app) hide nothing.
+//  - pet-<name>: a small companion on the ground to Pluto's left (u 6-78, v 160-230 of the 240 box), clear of Pluto.
+export const WARDROBE_ACCESSORIES = ["crown", "party", "beanie", "wizard", "headphones", "shades"];
+export const WARDROBE_BASES = ["hello-base", "reading", "cheer-base", "sleepy", "ready"];
+export const WARDROBE_PETS = ["moon", "ufo", "robodog", "comet"];
+
+let WMATS = null;
+function wardMats(THREE, helpers) {
+  if (WMATS) return WMATS;
+  // the same soft vinyl as Pluto (see mats)
+  const vinyl = (color, o = {}) => new THREE.MeshPhysicalMaterial({ color, roughness: 0.42, metalness: 0, clearcoat: 0.4, clearcoatRoughness: 0.3, sheen: 0.25, sheenRoughness: 0.6, sheenColor: new THREE.Color(0xffffff), ...o });
+  const RIM = [0.7, 0.9, 0.97];
+  // soft fabric (beanie, wizard hat, pompoms): no clearcoat, a broad sheen
+  const fabric = (color, sheenColor, o = {}) => vinyl(color, { roughness: 0.78, clearcoat: 0.05, clearcoatRoughness: 0.8, sheen: 0.7, sheenRoughness: 0.5, sheenColor: new THREE.Color(sheenColor), ...o });
+  const env = visorEnv(THREE, helpers.renderer);
+  WMATS = {
+    gold: vinyl(0xf4b524, { metalness: 0.5, roughness: 0.3, clearcoat: 0.8, clearcoatRoughness: 0.18, sheen: 0.2, sheenColor: new THREE.Color(0xffe7a0) }),
+    ruby: vinyl(0xe5304a, { roughness: 0.18, clearcoat: 1, clearcoatRoughness: 0.05, sheen: 0 }),
+    aqua: vinyl(0x22d3ee, { roughness: 0.18, clearcoat: 1, clearcoatRoughness: 0.05, sheen: 0, emissive: new THREE.Color(0x0e7490), emissiveIntensity: 0.25 }),
+    pearl: vinyl(0xfff7e6, { roughness: 0.25, clearcoat: 0.9, clearcoatRoughness: 0.1 }),
+    white: rimify(vinyl(0xf4fbfd, { roughness: 0.38, clearcoat: 0.6, clearcoatRoughness: 0.3, sheenColor: new THREE.Color(0xd8f6fb) }), "wWhite", RIM, 0.75, 0.3),
+    coral: vinyl(0xff7357, { roughness: 0.45, clearcoat: 0.35, sheen: 0.35, sheenColor: new THREE.Color(0xffc2b0) }),
+    stripes: vinyl(0xffffff, { map: stripeTexture(THREE), roughness: 0.45, clearcoat: 0.5, clearcoatRoughness: 0.3 }),
+    pom: fabric(0x2bd6ef, 0xb8f6ff),
+    knit: fabric(0xffffff, 0xffb3a8, { vertexColors: true }),
+    bobble: fabric(0xfff3e3, 0xffffff, { roughness: 0.9 }),
+    wizard: fabric(0x2a3a9c, 0x8f9cff, { roughness: 0.66, sheen: 0.55 }),
+    frame: vinyl(0x15191f, { roughness: 0.22, clearcoat: 1, clearcoatRoughness: 0.08, sheen: 0.2, sheenColor: new THREE.Color(0x6f7d8c) }),
+    lens: new THREE.MeshPhysicalMaterial({ color: 0xffffff, vertexColors: true, roughness: 0.06, metalness: 0.1, clearcoat: 1, clearcoatRoughness: 0.04, envMap: env, envMapIntensity: 1.4 }),
+    // pets
+    lilac: vinyl(0xffffff, { vertexColors: true, roughness: 0.5, clearcoat: 0.3, sheen: 0.4, sheenColor: new THREE.Color(0xe6defc) }),
+    lilacDeep: vinyl(0x9a90c4, { roughness: 0.5, clearcoat: 0.3, sheen: 0.4, sheenColor: new THREE.Color(0xd4ccf5) }),
+    silver: vinyl(0xd4dce6, { metalness: 0.45, roughness: 0.28, clearcoat: 0.8, clearcoatRoughness: 0.15, sheen: 0.2, sheenColor: new THREE.Color(0xeaf6ff) }),
+    silverDeep: vinyl(0x8e9bab, { metalness: 0.45, roughness: 0.3, clearcoat: 0.7, clearcoatRoughness: 0.2 }),
+    glass: new THREE.MeshPhysicalMaterial({ color: 0x7beefc, roughness: 0.04, metalness: 0, clearcoat: 1, clearcoatRoughness: 0.03, transparent: true, opacity: 0.42, envMap: env, envMapIntensity: 1.6, depthWrite: false }),
+    lamp: new THREE.MeshPhysicalMaterial({ color: 0xfff1a8, emissive: 0xffd84a, emissiveIntensity: 0.9, roughness: 0.2, clearcoat: 1 }),
+    mint: vinyl(0x8fe8b4, { roughness: 0.4, clearcoat: 0.5, sheen: 0.3, sheenColor: new THREE.Color(0xd8ffe8) }),
+    sun: vinyl(0xffc83d, { roughness: 0.38, clearcoat: 0.6, clearcoatRoughness: 0.25, sheen: 0.3, sheenColor: new THREE.Color(0xfff0b0), emissive: new THREE.Color(0xffb020), emissiveIntensity: 0.18 }),
+    flame: vinyl(0xffffff, { vertexColors: true, roughness: 0.4, clearcoat: 0.5, sheen: 0.3, sheenColor: new THREE.Color(0xfff0c0), emissive: new THREE.Color(0xff8a2a), emissiveIntensity: 0.16 }),
+    eye: vinyl(0x111820, { roughness: 0.12, clearcoat: 1, clearcoatRoughness: 0.04, sheen: 0 }),
+    shine: new THREE.MeshBasicMaterial({ color: 0xffffff }),
+    mouth: vinyl(0x3a2030, { roughness: 0.4, clearcoat: 0.3, sheen: 0 }),
+    blush: new THREE.MeshBasicMaterial({ color: 0xff8fb0, transparent: true, opacity: 0.55, depthWrite: false }),
+  };
+  return WMATS;
+}
+
+// the party hat's spiral stripes (pink and yellow), on the lathe's uv (u round, v up)
+function stripeTexture(THREE) {
+  const W = 512;
+  const c = document.createElement("canvas"); c.width = c.height = W;
+  const ctx = c.getContext("2d");
+  const img = ctx.createImageData(W, W);
+  const A = [255, 94, 156], B = [255, 214, 74];
+  const NU = 3, NV = 3.2;
+  for (let j = 0; j < W; j++) for (let i = 0; i < W; i++) {
+    const u = i / W, v = 1 - j / W;
+    const t = (u * NU + v * NV) % 1;
+    const e = 0.004 * W / 64;
+    // distance from the middle of stripe A (t = 0.25), wrapping: under a quarter is A, over is B, a soft pixel between
+    const dd = Math.abs(((t - 0.25 + 1.5) % 1) - 0.5);
+    const k = Math.min(1, Math.max(0, (0.25 - dd + e) / (2 * e)));
+    const q = (j * W + i) * 4;
+    for (let ch = 0; ch < 3; ch++) img.data[q + ch] = A[ch] * k + B[ch] * (1 - k);
+    img.data[q + 3] = 255;
+  }
+  ctx.putImageData(img, 0, 0);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 4; t.wrapS = THREE.RepeatWrapping;
+  return t;
+}
+
+// ---- the helmet as an implicit surface (head-local), for fitting things on it ----
+function shellF(x, y, z) {
+  const k = 1 + HEAD.taper * (y / HEAD.ry);
+  return Math.pow(Math.abs(x / (k * HEAD.rx)), HEAD.p) + Math.pow(Math.abs(y / HEAD.ry), HEAD.p) + Math.pow(Math.abs(z / HEAD.rz), HEAD.p);
+}
+// the point of the helmet in direction d from its centre
+function shellAt(THREE, d) {
+  const u = d.clone().normalize();
+  let lo = 0, hi = 3;
+  for (let i = 0; i < 40; i++) { const m = (lo + hi) / 2; if (shellF(u.x * m, u.y * m, u.z * m) < 1) lo = m; else hi = m; }
+  return u.multiplyScalar((lo + hi) / 2);
+}
+function shellNormal(THREE, p) {
+  const e = 1e-4;
+  return new THREE.Vector3(shellF(p.x + e, p.y, p.z) - shellF(p.x - e, p.y, p.z), shellF(p.x, p.y + e, p.z) - shellF(p.x, p.y - e, p.z), shellF(p.x, p.y, p.z + e) - shellF(p.x, p.y, p.z - e)).normalize();
+}
+// the helmet's top at (x, z)
+function shellTopY(x, z) {
+  let y = HEAD.ry;
+  for (let i = 0; i < 10; i++) {
+    const k = 1 + HEAD.taper * (y / HEAD.ry);
+    const s = 1 - Math.pow(Math.abs(x / (k * HEAD.rx)), HEAD.p) - Math.pow(Math.abs(z / HEAD.rz), HEAD.p);
+    y = s <= 0 ? 0 : HEAD.ry * Math.pow(s, 1 / HEAD.p);
+  }
+  return y;
+}
+// the visor's glass surface (head-local z at x, y), as visorGeometry builds it; the shell's outside the visor
+function visorZ(x, y) {
+  const rho = Math.pow(Math.pow(Math.abs((x - VIS.cx) / VIS.ax), VIS.q) + Math.pow(Math.abs((y - VIS.cy) / VIS.ay), VIS.q), 1 / VIS.q);
+  return headZ(x, y) + (rho <= 1 ? VIS.lift + VIS.bulge * (1 - rho * rho) : 0);
+}
+
+// a soft fluffy ball (pompoms, bobbles): a sphere with many small round tufts
+function fluff(THREE, r, mat, amp = 0.07, seed = 1) {
+  const g = new THREE.SphereGeometry(1, 96, 64);
+  g.deleteAttribute("normal"); g.deleteAttribute("uv");
+  const m = BGU_REF.mergeVertices(g, 1e-5);
+  const pos = m.attributes.position, v = new THREE.Vector3();
+  const K = [];
+  for (let i = 0; i < 9; i++) { const a = Math.sin(seed * 12.9898 + i * 78.233) * 43758.5453; const b = Math.sin(seed * 4.1414 + i * 19.19) * 24634.6345; const th = (a - Math.floor(a)) * Math.PI * 2, ph = Math.acos(2 * (b - Math.floor(b)) - 1); K.push([new THREE.Vector3(Math.sin(ph) * Math.cos(th), Math.cos(ph), Math.sin(ph) * Math.sin(th)), 7 + (i % 4) * 2.3, i * 1.7]); }
+  for (let i = 0; i < pos.count; i++) {
+    v.fromBufferAttribute(pos, i).normalize();
+    let n = 0;
+    for (const [k, f, ph] of K) n += Math.sin(v.dot(k) * f + ph);
+    n /= K.length;
+    v.multiplyScalar(r * (1 + amp * n * 2.2));
+    pos.setXYZ(i, v.x, v.y, v.z);
+  }
+  m.computeVertexNormals();
+  return mesh(THREE, m, mat);
+}
+
+// a rounded polygon (corners eased by quadratic curves), for the crown's points and the sunglasses
+function roundedPoly(THREE, pts, f = 0.3, s = new THREE.Shape(), hole = false) {
+  const n = pts.length;
+  const lerp = (a, b, k) => [a[0] + (b[0] - a[0]) * k, a[1] + (b[1] - a[1]) * k];
+  const P = hole ? new THREE.Path() : s;
+  for (let i = 0; i < n; i++) {
+    const p = pts[i], prev = pts[(i + n - 1) % n], next = pts[(i + 1) % n];
+    const k = Array.isArray(f) ? f[i] : f;
+    const a = lerp(p, prev, k), b = lerp(p, next, k);
+    if (i === 0) P.moveTo(a[0], a[1]); else P.lineTo(a[0], a[1]);
+    P.quadraticCurveTo(p[0], p[1], b[0], b[1]);
+  }
+  P.closePath();
+  if (hole) s.holes.push(P);
+  return s;
+}
+
+// ---- accessories (head-local units: helmet centre at the origin, x right, y up, z to the camera) ----
+// the crown's gold wall: a chunky band whose top rises into rounded points, flaring out a little, its cross-section a
+// stadium (round top and bottom edges) all the way round
+function crownWall(THREE, R, ZK, T, HB, HP, NP, flare) {
+  const NT = 480, M = 40;
+  const top = (th) => {
+    const k = (th / (Math.PI * 2)) * NP - 0.5; // a valley at the front (th = 0)
+    const x = Math.abs(k - Math.round(k)) * 2; // 0 at a point, 1 in a valley
+    return HB + HP * Math.pow(1 - x, 1.55);
+  };
+  const pos = [];
+  for (let i = 0; i <= NT; i++) {
+    const th = (i / NT) * Math.PI * 2, h = top(th);
+    for (let j = 0; j <= M; j++) {
+      const s = j / M;
+      let r, y;
+      if (s < 0.3) { const u = s / 0.3; r = R + T; y = T + (h - 2 * T) * u; }
+      else if (s < 0.5) { const a = ((s - 0.3) / 0.2) * Math.PI; r = R + T * Math.cos(a); y = h - T + T * Math.sin(a); }
+      else if (s < 0.8) { const u = (s - 0.5) / 0.3; r = R - T; y = h - T - (h - 2 * T) * u; }
+      else { const a = Math.PI + ((s - 0.8) / 0.2) * Math.PI; r = R + T * Math.cos(a); y = T + T * Math.sin(a); }
+      r += flare * y;
+      pos.push(r * Math.sin(th), y, r * ZK * Math.cos(th));
+    }
+  }
+  const idx = [];
+  for (let i = 0; i < NT; i++) for (let j = 0; j < M; j++) {
+    const a = i * (M + 1) + j, b = a + 1, c = a + M + 1, d = c + 1;
+    idx.push(a, b, c, b, d, c);
+  }
+  let g = new THREE.BufferGeometry();
+  g.setAttribute("position", new THREE.Float32BufferAttribute(pos, 3));
+  g.setIndex(idx);
+  g = BGU_REF.mergeVertices(g, 1e-6);
+  g.computeVertexNormals();
+  // faces out: the outer wall's normal must point away from the axis
+  const n = new THREE.Vector3().fromBufferAttribute(g.attributes.normal, 5), p = new THREE.Vector3().fromBufferAttribute(g.attributes.position, 5);
+  if (n.x * p.x + n.z * p.z < 0) { const ix = g.index.array; for (let k = 0; k < ix.length; k += 3) { const t = ix[k + 1]; ix[k + 1] = ix[k + 2]; ix[k + 2] = t; } g.computeVertexNormals(); }
+  return { geo: g, top };
+}
+
+function buildCrown(THREE, W) {
+  const g = new THREE.Group();
+  const R = num("crR", 0.6), ZK = HEAD.rz / HEAD.rx, T = num("crT", 0.055), HB = num("crHB", 0.17), HP = num("crHP", 0.3), FL = num("crFlare", 0.18);
+  const { geo, top } = crownWall(THREE, R, ZK, T, HB, HP, 5, FL);
+  g.add(mesh(THREE, geo, W.gold));
+  // a rolled rim round the foot
+  const rim = mesh(THREE, new THREE.TorusGeometry(R + 0.01, 0.05, 20, 120), W.gold);
+  rim.rotation.x = Math.PI / 2; rim.scale.set(1, ZK, 1); rim.position.y = 0.045;
+  g.add(rim);
+  // a pearl on each point
+  for (let i = 0; i < 5; i++) {
+    const th = ((i + 0.5) / 5) * Math.PI * 2, h = HB + HP, r = R + FL * h;
+    const pearl = mesh(THREE, new THREE.SphereGeometry(0.065, 24, 16), W.pearl);
+    pearl.position.set(r * Math.sin(th), h + 0.03, r * ZK * Math.cos(th));
+    g.add(pearl);
+  }
+  // gems on the band: a ruby in the front valley, cyan ones under the points either side, rubies further round
+  for (const [th, mat, r] of [[0, W.ruby, 0.07], [-Math.PI * 0.4, W.aqua, 0.06], [Math.PI * 0.4, W.aqua, 0.06], [-Math.PI * 0.8, W.ruby, 0.055], [Math.PI * 0.8, W.ruby, 0.055]]) {
+    const y = 0.115, rr = R + T + FL * y;
+    const nrm = new THREE.Vector3(Math.sin(th), FL * 0.6, Math.cos(th) / ZK).normalize();
+    const gem = mesh(THREE, unitSphere(THREE), mat);
+    gem.position.set(rr * Math.sin(th), y, rr * ZK * Math.cos(th)).addScaledVector(nrm, -0.004);
+    gem.scale.set(r, r * 1.2, r * 0.55);
+    gem.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), nrm);
+    g.add(gem);
+  }
+  // set level on the helmet's crown, round the antenna (the star sits in the front valley like the crown's own jewel)
+  const y0 = shellTopY(R, 0);
+  g.position.set(num("crX", 0), y0 - num("crSink", 0.08), num("crZ", -0.03));
+  g.rotation.set(num("crRX", -0.02), 0, num("crRZ", 0));
+  return g;
+}
+
+function buildPartyHat(THREE, W) {
+  const g = new THREE.Group();
+  const RB = num("phR", 0.38), HH = num("phH", 1.0);
+  const pts = [];
+  pts.push(new THREE.Vector2(0, -0.06));
+  for (let i = 0; i <= 6; i++) { const a = (i / 6) * Math.PI / 2; pts.push(new THREE.Vector2(RB - 0.04 + Math.sin(a) * 0.04, -0.06 + 0.06 - Math.cos(a) * 0.06 + 0.0)); }
+  for (let i = 1; i <= 24; i++) { const t = i / 24; pts.push(new THREE.Vector2(Math.max(0.0, (RB) * (1 - t) + 0.02 * t), t * (HH - 0.02))); }
+  pts.push(new THREE.Vector2(0, HH));
+  const cone = mesh(THREE, new THREE.LatheGeometry(pts, 96), W.stripes);
+  g.add(cone);
+  const trim = fluff(THREE, 1, W.pom, 0.05, 3);
+  trim.scale.set(RB + 0.02, 0.07, RB + 0.02);
+  trim.position.y = 0.0;
+  g.add(trim);
+  const pom = fluff(THREE, num("phPom", 0.15), W.pom, 0.09, 2);
+  pom.position.y = HH + 0.07;
+  g.add(pom);
+  // stood on the helmet a little right of the antenna, leaning out to the right
+  const x = num("phX", 0.5), z = num("phZ", 0.0);
+  const p = new THREE.Vector3(x, shellTopY(x, z), z);
+  const n = shellNormal(THREE, p);
+  const dir = n.clone().add(new THREE.Vector3(num("phTilt", 0.25), 0, num("phFwd", 0.05))).normalize();
+  g.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), dir);
+  g.position.copy(p).addScaledVector(dir, -num("phSink", 0.02));
+  return g;
+}
+
+function buildBeanie(THREE, W, helpers) {
+  const BGU = helpers.BufferGeometryUtils;
+  const al = num("bnTilt", 0.45);
+  const A = new THREE.Vector3(0, Math.cos(al), -Math.sin(al)); // the beanie's own axis, tipped back
+  const E1 = new THREE.Vector3(1, 0, 0), E2 = new THREE.Vector3().crossVectors(E1, A).normalize();
+  // the bottom edge: the plane through a front point just above the visor's bead, square to the axis
+  const yF = num("bnFront", 0.88);
+  const zF = HEAD.rz * Math.pow(Math.max(0, 1 - Math.pow(yF / HEAD.ry, HEAD.p)), 1 / HEAD.p);
+  const H0 = yF * A.y + zF * A.z;
+  const dirAt = (th, ph) => A.clone().multiplyScalar(Math.cos(ph)).add(E1.clone().multiplyScalar(Math.cos(th) * Math.sin(ph))).add(E2.clone().multiplyScalar(Math.sin(th) * Math.sin(ph)));
+  const NR = 46, NT = NR * 8;
+  const ring = [];
+  for (let j = 0; j <= NT; j++) {
+    const th = (j / NT) * Math.PI * 2;
+    let lo = 0, hi = 2.2;
+    for (let i = 0; i < 40; i++) { const m = (lo + hi) / 2; if (shellAt(THREE, dirAt(th, m)).dot(A) > H0) lo = m; else hi = m; }
+    ring.push((lo + hi) / 2);
+  }
+  const OB = num("bnOB", 0.05), OC = num("bnOC", 0.092), F1 = num("bnF1", 0.82), LIP = 0.07, D = num("bnDome", 0.36);
+  const ss = (e0, e1, x) => { const t = Math.min(1, Math.max(0, (x - e0) / (e1 - e0))); return t * t * (3 - 2 * t); };
+  const cuffK = (f) => ss(F1, F1 + 0.05, f);
+  const off = (f, th) => {
+    let o;
+    if (f <= 1) o = OB + (OC - OB) * cuffK(f) + 0.012 * Math.exp(-Math.pow((f - F1 - 0.06) / 0.03, 2));
+    else { const k = Math.min(1, (f - 1) / LIP); o = OC * Math.cos(k * Math.PI / 2) - 0.03 * k; }
+    const rib = f < F1 ? 0.004 : 0.014 * (f > 1 ? Math.max(0, 1 - (f - 1) / LIP) : 1);
+    return o + rib * Math.cos(NR * th);
+  };
+  const dome = (f) => D * Math.pow(Math.max(0, 1 - Math.pow(f / 0.9, 2)), 1.6);
+  const ROWS = 140, FMAX = 1 + LIP + 0.01;
+  const pos = [], col = [];
+  const cBody = new THREE.Color(num("bnC", 0xd7303c)), cCuff = new THREE.Color(num("bnCC", 0xc4232f));
+  for (let r = 0; r <= ROWS; r++) {
+    const f = (r / ROWS) * FMAX;
+    for (let j = 0; j <= NT; j++) {
+      const th = (j / NT) * Math.PI * 2;
+      const p = shellAt(THREE, dirAt(th, f * ring[j % NT]));
+      const n = shellNormal(THREE, p);
+      p.addScaledVector(n, off(f, th)).addScaledVector(A, dome(f));
+      pos.push(p.x, p.y, p.z);
+      const c = cBody.clone().lerp(cCuff, cuffK(f));
+      col.push(c.r, c.g, c.b);
+    }
+  }
+  const idx = [];
+  for (let r = 0; r < ROWS; r++) for (let j = 0; j < NT; j++) {
+    const a = r * (NT + 1) + j, b = a + 1, c = a + NT + 1, d = c + 1;
+    idx.push(a, c, b, b, c, d);
+  }
+  let geo = new THREE.BufferGeometry();
+  geo.setAttribute("position", new THREE.Float32BufferAttribute(pos, 3));
+  geo.setAttribute("color", new THREE.Float32BufferAttribute(col, 3));
+  geo.setIndex(idx);
+  geo = BGU.mergeVertices(geo, 1e-5);
+  geo.computeVertexNormals();
+  // make sure the faces point out (the top's normal along the axis)
+  {
+    const pp = geo.attributes.position, nn = geo.attributes.normal;
+    let best = 0;
+    for (let i = 1; i < pp.count; i++) if (pp.getX(i) * A.x + pp.getY(i) * A.y + pp.getZ(i) * A.z > pp.getX(best) * A.x + pp.getY(best) * A.y + pp.getZ(best) * A.z) best = i;
+    if (nn.getX(best) * A.x + nn.getY(best) * A.y + nn.getZ(best) * A.z < 0) { const ix = geo.index.array; for (let k = 0; k < ix.length; k += 3) { const t = ix[k + 1]; ix[k + 1] = ix[k + 2]; ix[k + 2] = t; } geo.computeVertexNormals(); }
+  }
+  const g = new THREE.Group();
+  g.add(mesh(THREE, geo, W.knit));
+  const top = shellAt(THREE, A.clone()).addScaledVector(A, OB + D);
+  const bob = fluff(THREE, num("bnBob", 0.27), W.bobble, 0.06, 5);
+  bob.position.copy(top).addScaledVector(A, num("bnBobUp", 0.13));
+  g.add(bob);
+  return g;
+}
+
+function buildWizardHat(THREE, W) {
+  const g = new THREE.Group();
+  // the brim: a soft wide disc with a rolled edge that dips a little, front and back
+  const RB = num("wzBrim", 1.28);
+  // profile from the bottom centre, round the rolled edge, back to the top centre
+  const bp = [new THREE.Vector2(0, -0.04)];
+  for (let i = 0; i <= 12; i++) { const a = -Math.PI / 2 + (i / 12) * Math.PI; bp.push(new THREE.Vector2(RB - 0.05 + Math.cos(a) * 0.05, Math.sin(a) * 0.04)); }
+  bp.push(new THREE.Vector2(0, 0.04));
+  const brimGeo = new THREE.LatheGeometry(bp, 128);
+  const pp = brimGeo.attributes.position;
+  for (let i = 0; i < pp.count; i++) {
+    const x = pp.getX(i), z = pp.getZ(i), r = Math.hypot(x, z) / RB, th = Math.atan2(z, x);
+    pp.setY(i, pp.getY(i) - 0.11 * Math.pow(r, 2.4) * (0.6 + 0.4 * Math.cos(2 * th)));
+  }
+  brimGeo.computeVertexNormals();
+  const brim = mesh(THREE, brimGeo, W.wizard);
+  brim.scale.z = 0.92;
+  g.add(brim);
+  // the cone: a soft tapering tube that rises and then flops over to one side
+  const H = num("wzH", 1.3), R0 = num("wzR", 0.98);
+  const curve = new THREE.CatmullRomCurve3([
+    new THREE.Vector3(0, -0.05, 0), new THREE.Vector3(0, 0.4, 0), new THREE.Vector3(0.02, 0.78, -0.02),
+    new THREE.Vector3(0.14, H * 0.93, -0.03), new THREE.Vector3(0.36, H * 1.02, 0.0), new THREE.Vector3(0.58, H * 0.9, 0.04),
+  ], false, "centripetal", 0.5);
+  const rad = (t) => 0.025 + (R0 - 0.025) * Math.pow(1 - t, 1.25) * (1 + 0.04 * Math.sin(t * 9));
+  const { geo } = sausage(THREE, null, rad, { seg: 90, radial: 64, cap: 10, curve, open0: true });
+  g.add(mesh(THREE, geo, W.wizard));
+  const tip = mesh(THREE, new THREE.SphereGeometry(0.06, 20, 14), W.gold);
+  tip.position.copy(curve.getPointAt(1)).add(new THREE.Vector3(0.03, -0.02, 0));
+  g.add(tip);
+  // a gold band round the cone's foot
+  const t0 = num("wzBandT", 0.1), c0 = curve.getPointAt(t0), T0 = curve.getTangentAt(t0);
+  const band = mesh(THREE, new THREE.TorusGeometry(rad(t0) + 0.005, 0.05, 16, 96), W.gold);
+  band.position.copy(c0); band.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), T0); band.scale.set(1, 1, 1.6);
+  g.add(band);
+  // small gold stars on the cone's front
+  const sg = new THREE.ExtrudeGeometry(starShape(THREE, 1, 0.48), { depth: 0.1, bevelEnabled: true, bevelThickness: 0.08, bevelSize: 0.08, bevelSegments: 3, curveSegments: 6 });
+  sg.translate(0, 0, -0.05);
+  for (const [t, b, s, roll] of [[0.2, -0.42, 0.11, 0.2], [0.34, 0.4, 0.095, -0.3], [0.52, -0.12, 0.08, 0.5], [0.15, 0.3, 0.07, 0.9], [0.68, 0.45, 0.065, 0.1], [0.4, -0.7, 0.06, -0.4]]) {
+    const c = curve.getPointAt(t), T = curve.getTangentAt(t);
+    const d = new THREE.Vector3(Math.sin(b), 0.08, Math.cos(b));
+    d.addScaledVector(T, -d.dot(T)).normalize();
+    const st = mesh(THREE, sg, W.gold);
+    st.scale.set(s, s, s * 0.35);
+    st.position.copy(c).addScaledVector(d, rad(t) - 0.005);
+    st.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), d);
+    st.rotateZ(roll);
+    g.add(st);
+  }
+  // pulled down over the top of the helmet (the brim rests round it, just above the visor), tipped a little left
+  const y0 = shellTopY(R0 * 0.98, 0);
+  g.position.set(num("wzX", -0.03), y0 + num("wzUp", 0.0), num("wzZ", -0.06));
+  g.rotation.set(num("wzRX", -0.12), 0, num("wzRZ", 0.1));
+  return g;
+}
+
+function buildHeadphones(THREE, W) {
+  const g = new THREE.Group();
+  const CX = HEAD.rx - 0.05 + num("hpOut", 0.1), CY = -0.04, CZ = -0.06, CR = num("hpCR", 0.6), D = num("hpD", 0.34), YAW = num("hpYaw", 0.48);
+  // the cups, over the ear pods: white shells, a coral cushion against the helmet, a coral disc on the face; turned a
+  // little toward the camera so the face reads
+  const ends = [];
+  for (const sx of [-1, 1]) {
+    const cup = new THREE.Group();
+    cup.add(mesh(THREE, lathe(THREE, [[0, 0.0], [CR * 0.93, 0.0], [CR * 1.0, 0.08], [CR, D - 0.13], [CR * 0.86, D - 0.035], [CR * 0.55, D], [0, D]], 96), W.white));
+    const pad = mesh(THREE, new THREE.TorusGeometry(CR * 0.8, 0.14, 24, 96), W.coral);
+    pad.rotation.x = Math.PI / 2; pad.scale.set(1, 1, 0.72); pad.position.y = -0.0;
+    cup.add(pad);
+    cup.add(mesh(THREE, lathe(THREE, [[0, D - 0.03], [CR * 0.6, D - 0.03], [CR * 0.67, D - 0.01], [CR * 0.62, D + 0.022], [CR * 0.42, D + 0.047], [0, D + 0.055]], 72), W.coral));
+    cup.rotation.set(0, -sx * YAW, -sx * Math.PI / 2);
+    cup.position.set(sx * CX, CY, CZ);
+    g.add(cup);
+    const axis = new THREE.Vector3(sx * Math.cos(YAW), 0, Math.sin(YAW));
+    ends.push(new THREE.Vector3(sx * CX, CY, CZ).addScaledVector(axis, D * 0.42).add(new THREE.Vector3(0, CR * 0.86, 0)));
+  }
+  // the headband: up out of each cup, over the top of the helmet just behind the antenna, hugging the shell
+  const ZB = num("hpZ", -0.26), LIFT = num("hpLift", 0.075), PM = num("hpPM", 0.95);
+  const arch = [];
+  for (let i = 0; i <= 14; i++) {
+    const ps = -PM + (2 * PM * i) / 14;
+    const p = shellAt(THREE, new THREE.Vector3(Math.sin(ps), Math.cos(ps), ZB));
+    arch.push(p.addScaledVector(shellNormal(THREE, p), LIFT));
+  }
+  const bandPts = [ends[0], ends[0].clone().add(new THREE.Vector3(0.03, 0.2, 0)).lerp(arch[0], 0.35), ...arch, ends[1].clone().add(new THREE.Vector3(-0.03, 0.2, 0)).lerp(arch[arch.length - 1], 0.35), ends[1]];
+  const { geo: bandGeo, curve } = sausage(THREE, bandPts, num("hpBand", 0.068), { seg: 160, radial: 32 });
+  g.add(mesh(THREE, bandGeo, W.white));
+  // a padded coral top over the middle of the band
+  const cush = [];
+  for (let i = 0; i <= 16; i++) cush.push(curve.getPointAt(0.3 + (0.4 * i) / 16));
+  const { geo: cGeo } = sausage(THREE, cush, (t) => 0.098 * (0.86 + 0.14 * Math.sin(Math.PI * t)), { seg: 80, radial: 32 });
+  g.add(mesh(THREE, cGeo, W.coral));
+  return g;
+}
+
+function buildShades(THREE, W) {
+  const g = new THREE.Group();
+  const EXs = num("shX", 0.41), Y0 = num("shY", 0.06), TILT = num("shTilt", 0.07);
+  // a chunky wayfarer lens (right-hand one, x from the nose outward), a heavier brow on the frame
+  const lensPts = (k = 0, kt = k) => [[-0.27 - k, 0.19 + kt], [0.33 + k, 0.21 + kt], [0.27 + k, -0.17 - k], [0.12, -0.23 - k], [-0.23 - k, -0.2 - k]];
+  const c = Math.cos(TILT), s = Math.sin(TILT);
+  const turn = (x, y) => [x * c - y * s, x * s + y * c];
+  // bent onto the visor: x,y turned by the tilt, then each vertex laid on the glass along its normal
+  const Z0 = new THREE.Vector3(0, 0, 1);
+  const surfN = (X, Y) => { const e = 0.003; return new THREE.Vector3(-(visorZ(X + e, Y) - visorZ(X - e, Y)) / (2 * e), -(visorZ(X, Y + e) - visorZ(X, Y - e)) / (2 * e), 1).normalize(); };
+  const bend = (geo, lift) => {
+    const p = geo.attributes.position, n = geo.attributes.normal, v = new THREE.Vector3(), q = new THREE.Quaternion();
+    for (let i = 0; i < p.count; i++) {
+      const [X, Y] = turn(p.getX(i), p.getY(i));
+      const nn = surfN(X, Y);
+      q.setFromUnitVectors(Z0, nn);
+      const b = new THREE.Vector3(X, Y, visorZ(X, Y) + lift).addScaledVector(nn, p.getZ(i));
+      p.setXYZ(i, b.x, b.y, b.z);
+      v.fromBufferAttribute(n, i).applyAxisAngle(Z0, TILT).applyQuaternion(q);
+      n.setXYZ(i, v.x, v.y, v.z);
+    }
+    return geo;
+  };
+  const GAP = num("shGap", 0.03);
+  for (const sx of [-1, 1]) {
+    const place = (pts) => { const q = pts.map(([x, y]) => [sx * x + sx * EXs, y + Y0]); return sx < 0 ? q.reverse() : q; };
+    const L = place(lensPts()), O = place(lensPts(0.055, 0.085));
+    const fs = roundedPoly(THREE, O, 0.34);
+    roundedPoly(THREE, L, 0.3, fs, true);
+    const fg = new THREE.ExtrudeGeometry(fs, { depth: 0.05, bevelEnabled: true, bevelThickness: 0.025, bevelSize: 0.02, bevelSegments: 4, curveSegments: 14 });
+    g.add(mesh(THREE, bend(fg, GAP), W.frame));
+    const lg = new THREE.ExtrudeGeometry(roundedPoly(THREE, L, 0.3), { depth: 0.02, bevelEnabled: true, bevelThickness: 0.012, bevelSize: 0.012, bevelSegments: 3, curveSegments: 14 });
+    // a dark lens, lifting to a cool violet sheen toward the bottom (so it reads on the dark visor)
+    const lp = lg.attributes.position, cols = [];
+    const top = new THREE.Color(0x0a0d18), bot = new THREE.Color(num("shLensC", 0x6a4fd8));
+    for (let i = 0; i < lp.count; i++) { const k = Math.min(1, Math.max(0, (Y0 + 0.12 - lp.getY(i)) / 0.36)); const cc = top.clone().lerp(bot, Math.pow(k, 1.6)); cols.push(cc.r, cc.g, cc.b); }
+    lg.setAttribute("color", new THREE.Float32BufferAttribute(cols, 3));
+    g.add(mesh(THREE, bend(lg, GAP + 0.018), W.lens));
+    // a soft glint across the upper part of each lens
+    const gl = new THREE.Mesh(new THREE.CircleGeometry(1, 32), new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.55, depthWrite: false }));
+    const [gx, gy] = turn(sx * EXs - 0.08, Y0 + 0.09);
+    gl.position.set(gx, gy, visorZ(gx, gy) + GAP + 0.05);
+    gl.quaternion.setFromUnitVectors(Z0, surfN(gx, gy));
+    gl.rotateZ(-0.6); gl.scale.set(0.16, 0.038, 1);
+    gl.renderOrder = 2;
+    g.add(gl);
+    // the arm, from the frame's outer corner round the side of the helmet into the ear pod
+    const arm = [];
+    for (const x of [EXs + 0.36, 0.9, 1.02, 1.12, 1.2]) {
+      const [X, Y] = turn(sx * x, Y0 + 0.15);
+      arm.push(new THREE.Vector3(X, Y, (x < 0.85 ? visorZ(X, Y) + GAP : headZ(X, Y)) + 0.035));
+    }
+    const { geo: ag } = sausage(THREE, arm, 0.034, { seg: 30, radial: 16 });
+    g.add(mesh(THREE, ag, W.frame));
+  }
+  // the bridge between the lenses
+  {
+    const pts = [[-EXs + 0.24, Y0 + 0.12], [0, Y0 + 0.15], [EXs - 0.24, Y0 + 0.12]].map(([x, y]) => { const [X, Y] = turn(x, y); return new THREE.Vector3(X, Y, visorZ(X, Y) + GAP + 0.045); });
+    const { geo } = sausage(THREE, pts, 0.034, { seg: 20, radial: 16 });
+    g.add(mesh(THREE, geo, W.frame));
+  }
+  return g;
+}
+
+const ACCESSORY_BUILDERS = { crown: buildCrown, party: buildPartyHat, beanie: buildBeanie, wizard: buildWizardHat, headphones: buildHeadphones, shades: buildShades };
+
+// colour off, depth on (or off): the part still hides what is behind it, but draws nothing
+function maskDepth(obj, depth) {
+  obj.traverse((o) => {
+    if (!o.isMesh) return;
+    const ms = Array.isArray(o.material) ? o.material : [o.material];
+    const g = ms.map((m) => { const c = m.clone(); c.colorWrite = false; c.depthWrite = depth; return c; });
+    o.material = Array.isArray(o.material) ? g : g[0];
+    o.receiveShadow = false;
+  });
+}
+
+function buildAccessoryAsset(THREE, name, helpers) {
+  const m = /^acc-([a-z]+)-(.+)$/.exec(name);
+  const make = m && ACCESSORY_BUILDERS[m[1]];
+  if (!make || !WARDROBE_BASES.includes(m[2])) throw new Error(`unknown accessory asset: ${name}`);
+  const { view, fig, layers } = assemble(THREE, helpers, m[2]);
+  const armLayers = new Set(Object.values(layers));
+  for (const child of fig.children) maskDepth(child, !armLayers.has(child));
+  fig.traverse((o) => { if (o.isMesh) o.castShadow = false; });
+  const head = fig.children.find((c) => c.userData.isNeck).children[0];
+  const item = make(THREE, wardMats(THREE, helpers), helpers, m[2]);
+  item.traverse((o) => { if (o.isMesh) { o.castShadow = true; o.receiveShadow = false; } });
+  head.add(item);
+  // the item's soft shadow on the helmet: a shadow-only skin a hair outside the shell (in the item's layer, so it
+  // darkens Pluto's helmet under it when the app lays the layer on)
+  const catcher = new THREE.Mesh(superEllipsoid(THREE, helpers.BufferGeometryUtils, HEAD.rx, HEAD.ry, HEAD.rz, HEAD.p, 96, 64, HEAD.taper), new THREE.ShadowMaterial({ color: 0x0a3442, opacity: num("accShadow", 0.3), depthWrite: false }));
+  catcher.scale.setScalar(1.004);
+  catcher.receiveShadow = true;
+  catcher.castShadow = false;
+  head.add(catcher);
+  return view;
+}
+
+// ---- pets (world units; the ground is y = -2.6, as under Pluto's boots) ----
+const GROUND = -2.6;
+
+function petEyes(THREE, W, group, R, at, r = 0.08, gap = 0.17) {
+  // two glossy black eyes with white catchlights, on a body of radius R (centred on group's origin), around `at`
+  for (const sx of [-1, 1]) {
+    const d = at.clone().add(new THREE.Vector3(sx * gap, 0, 0)).normalize();
+    const e = new THREE.Group();
+    e.position.copy(d).multiplyScalar(R - r * 0.25);
+    e.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), d);
+    const ball = mesh(THREE, unitSphere(THREE), W.eye);
+    ball.scale.set(r, r * 1.22, r * 0.6);
+    e.add(ball);
+    const s1 = mesh(THREE, new THREE.SphereGeometry(r * 0.34, 16, 12), W.shine);
+    s1.position.set(-r * 0.3, r * 0.42, r * 0.5);
+    e.add(s1);
+    const s2 = mesh(THREE, new THREE.SphereGeometry(r * 0.16, 12, 8), W.shine);
+    s2.position.set(r * 0.32, -r * 0.4, r * 0.48);
+    e.add(s2);
+    group.add(e);
+  }
+}
+function petSmile(THREE, W, group, R, at, r = 0.07, tube = 0.02, arc = 2.2) {
+  const d = at.clone().normalize();
+  const s = mesh(THREE, new THREE.TorusGeometry(r, tube, 10, 32, arc), W.mouth);
+  const h = new THREE.Group();
+  h.position.copy(d).multiplyScalar(R + tube * 0.2);
+  h.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), d);
+  s.rotation.z = -Math.PI / 2 - arc / 2;
+  s.position.y = r * 0.55;
+  h.add(s);
+  group.add(h);
+}
+function petBlush(THREE, W, group, R, at, gap, r = 0.07) {
+  for (const sx of [-1, 1]) {
+    const d = at.clone().add(new THREE.Vector3(sx * gap, 0, 0)).normalize();
+    const b = new THREE.Mesh(new THREE.CircleGeometry(r, 32), W.blush);
+    b.position.copy(d).multiplyScalar(R + 0.006);
+    b.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), d);
+    b.scale.y = 0.62;
+    group.add(b);
+  }
+}
+
+function buildMoonPet(THREE, W) {
+  const g = new THREE.Group();
+  const R = 0.5;
+  const sg = new THREE.SphereGeometry(1, 128, 96);
+  sg.deleteAttribute("normal"); sg.deleteAttribute("uv");
+  const geo = BGU_REF.mergeVertices(sg, 1e-5);
+  const craters = [[[-0.6, 0.62, 0.55], 0.3, 0.09], [[0.52, 0.74, 0.3], 0.22, 0.08], [[0.88, -0.02, 0.45], 0.19, 0.07], [[-0.88, -0.25, 0.4], 0.17, 0.07], [[0.05, 0.98, -0.1], 0.25, 0.07], [[-0.3, 0.75, -0.6], 0.2, 0.06], [[0.2, 0.5, 0.85], 0.11, 0.05]].map(([d, r, k]) => [new THREE.Vector3(...d).normalize(), r, k]);
+  const pos = geo.attributes.position, v = new THREE.Vector3(), cols = [];
+  const base = new THREE.Color(0xbdb5dc), deep = new THREE.Color(0x8a7fba), top = new THREE.Color(0xd4cdee);
+  for (let i = 0; i < pos.count; i++) {
+    v.fromBufferAttribute(pos, i).normalize();
+    let d = 0, dark = 0;
+    for (const [c, r, k] of craters) {
+      const x = Math.acos(Math.min(1, v.dot(c))) / r;
+      if (x < 1) { d -= k * (1 - x * x) * (1 - x * x); dark = Math.max(dark, (1 - x * x)); }
+      else if (x < 1.45) { const t = (x - 1) / 0.45; d += k * 0.4 * Math.sin(Math.PI * t) * (1 - t); }
+    }
+    const col = base.clone().lerp(top, Math.max(0, v.y) * 0.5).lerp(deep, Math.min(1, dark * 1.1));
+    cols.push(col.r, col.g, col.b);
+    v.multiplyScalar(R * (1 + d));
+    pos.setXYZ(i, v.x, v.y, v.z);
+  }
+  geo.setAttribute("color", new THREE.Float32BufferAttribute(cols, 3));
+  geo.computeVertexNormals();
+  g.add(mesh(THREE, geo, W.lilac));
+  // stubby feet
+  for (const sx of [-1, 1]) {
+    const f = mesh(THREE, unitSphere(THREE), W.lilacDeep);
+    f.scale.set(0.16, 0.11, 0.2);
+    f.position.set(sx * 0.2, -R * 0.9, 0.12);
+    f.rotation.y = sx * 0.2;
+    g.add(f);
+  }
+  const face = new THREE.Vector3(0, -0.05, 1);
+  petEyes(THREE, W, g, R, face, 0.085, 0.32);
+  petSmile(THREE, W, g, R, new THREE.Vector3(0, -0.36, 1), 0.065, 0.02, 2.0);
+  petBlush(THREE, W, g, R, new THREE.Vector3(0, -0.3, 1), 0.55, 0.07);
+  g.position.set(num("pmX", -2.17), GROUND + 0.035 + R * 0.9 + 0.11, 0.3);
+  g.rotation.set(0.04, num("pmYaw", 0.38), 0.03);
+  return g;
+}
+
+function buildUfoPet(THREE, W) {
+  const g = new THREE.Group();
+  const R = 0.64;
+  // the saucer: a low silver lens, a soft rim band, a row of warm lamps
+  g.add(mesh(THREE, lathe(THREE, [[0, -0.17], [0.3, -0.155], [0.52, -0.1], [R - 0.02, -0.03], [R, 0.0], [R - 0.03, 0.04], [0.5, 0.1], [0.3, 0.14], [0, 0.15]], 96), W.silver));
+  const rim = mesh(THREE, new THREE.TorusGeometry(R - 0.03, 0.045, 16, 96), W.silverDeep);
+  rim.rotation.x = Math.PI / 2;
+  g.add(rim);
+  for (let i = 0; i < 10; i++) {
+    const a = (i / 10) * Math.PI * 2 + 0.31;
+    const l = mesh(THREE, new THREE.SphereGeometry(0.05, 16, 12), W.lamp);
+    l.position.set(Math.sin(a) * (R - 0.0), -0.0, Math.cos(a) * (R - 0.0));
+    g.add(l);
+  }
+  // the pilot: a little mint buddy with glossy eyes, under a cyan glass dome
+  const pilot = new THREE.Group();
+  const PR = 0.22;
+  pilot.add(mesh(THREE, unitSphere(THREE), W.mint));
+  pilot.children[0].scale.set(PR, PR * 0.95, PR);
+  petEyes(THREE, W, pilot, PR, new THREE.Vector3(0, 0.08, 1), 0.05, 0.4);
+  petSmile(THREE, W, pilot, PR, new THREE.Vector3(0, -0.45, 1), 0.04, 0.013, 2.0);
+  pilot.position.set(0, 0.2, 0.0);
+  g.add(pilot);
+  const dome = new THREE.Mesh(new THREE.SphereGeometry(0.37, 48, 24, 0, Math.PI * 2, 0, Math.PI / 2), W.glass);
+  dome.position.y = 0.11;
+  dome.renderOrder = 3;
+  g.add(dome);
+  const collar = mesh(THREE, new THREE.TorusGeometry(0.37, 0.035, 12, 64), W.silverDeep);
+  collar.rotation.x = Math.PI / 2; collar.position.y = 0.12;
+  g.add(collar);
+  g.position.set(num("puX", -2.15), num("puY", -1.95), 0.3);
+  g.rotation.set(num("puRX", 0.24), num("puYaw", 0.35), num("puRZ", -0.1), "YXZ");
+  return g;
+}
+
+function buildRobodogPet(THREE, W) {
+  const g = new THREE.Group();
+  // body along x (head toward Pluto, +x), turned toward the camera
+  const body = mesh(THREE, new THREE.CapsuleGeometry(0.24, 0.36, 12, 32), W.white);
+  body.rotation.z = Math.PI / 2; body.scale.set(1, 1, 0.92);
+  body.position.set(0, 0.0, 0);
+  g.add(body);
+  // a coral saddle patch
+  const patch = mesh(THREE, unitSphere(THREE), W.coral);
+  patch.scale.set(0.2, 0.08, 0.17); patch.position.set(-0.08, 0.215, 0);
+  g.add(patch);
+  // legs with coral paws
+  for (const [x, z] of [[0.24, 0.13], [0.24, -0.13], [-0.24, 0.13], [-0.24, -0.13]]) {
+    const leg = mesh(THREE, new THREE.CapsuleGeometry(0.085, 0.14, 8, 20), W.white);
+    leg.position.set(x, -0.25, z);
+    g.add(leg);
+    const paw = mesh(THREE, unitSphere(THREE), W.coral);
+    paw.scale.set(0.105, 0.065, 0.115); paw.position.set(x + 0.02, -0.37, z);
+    g.add(paw);
+  }
+  // the tail: up and wagging, coral tip
+  const { geo: tg } = sausage(THREE, [[-0.38, 0.05, 0], [-0.52, 0.2, 0.02], [-0.56, 0.38, 0.06]], (t) => 0.06 - 0.02 * t, { seg: 24, radial: 20 });
+  g.add(mesh(THREE, tg, W.white));
+  const tt = mesh(THREE, new THREE.SphereGeometry(0.065, 20, 14), W.coral);
+  tt.position.set(-0.56, 0.42, 0.06);
+  g.add(tt);
+  // the head: a soft rounded block, turned to the camera, with a snout and a coral nose
+  const head = new THREE.Group();
+  const HR = 0.3;
+  const skull = mesh(THREE, superEllipsoid(THREE, BGU_REF, HR * 1.05, HR * 0.92, HR * 0.95, 2.6, 64, 40), W.white);
+  head.add(skull);
+  const snout = mesh(THREE, unitSphere(THREE), W.white);
+  snout.scale.set(0.15, 0.11, 0.12); snout.position.set(0, -0.13, HR * 0.86);
+  head.add(snout);
+  const nose = mesh(THREE, unitSphere(THREE), W.coral);
+  nose.scale.set(0.055, 0.04, 0.04); nose.position.set(0, -0.08, HR * 0.86 + 0.11);
+  head.add(nose);
+  // a dark face screen behind the eyes? no: simple glossy eyes on the white face
+  petEyes(THREE, W, head, HR * 0.96, new THREE.Vector3(0, 0.12, 1), 0.06, 0.38);
+  // floppy ears: soft coral flaps hanging down the sides of the head, and a little antenna between them
+  for (const sx of [-1, 1]) {
+    const { geo: eg } = sausage(THREE, [[sx * 0.22, HR * 0.72, -0.02], [sx * 0.33, HR * 0.5, 0.0], [sx * 0.37, HR * 0.05, 0.03]], (t) => 0.06 + 0.045 * Math.sin(Math.PI * Math.min(1, 0.25 + t * 0.85)), { seg: 30, radial: 24 });
+    const ear = mesh(THREE, eg, W.coral);
+    head.add(ear);
+  }
+  {
+    const { geo: ag } = sausage(THREE, [[0, HR * 0.85, 0], [0.02, HR * 1.12, -0.01], [0.06, HR * 1.3, 0]], 0.022, { seg: 16, radial: 12 });
+    head.add(mesh(THREE, ag, W.white));
+    const b = mesh(THREE, new THREE.SphereGeometry(0.055, 20, 14), W.coral);
+    b.position.set(0.065, HR * 1.3 + 0.03, 0);
+    head.add(b);
+  }
+  const collar = mesh(THREE, new THREE.TorusGeometry(0.17, 0.04, 12, 40), W.coral);
+  collar.rotation.x = Math.PI / 2; collar.position.set(0, -HR * 0.85, -0.02);
+  head.add(collar);
+  const tag = mesh(THREE, new THREE.CylinderGeometry(0.045, 0.045, 0.02, 24), W.aqua);
+  tag.rotation.x = Math.PI / 2; tag.position.set(0, -HR * 0.85 - 0.06, 0.17);
+  head.add(tag);
+  head.position.set(0.36, 0.3, 0.02);
+  head.rotation.set(0.05, num("pdHeadYaw", -0.75), 0.06);
+  g.add(head);
+  const K = num("pdS", 1.08);
+  g.scale.setScalar(K);
+  g.position.set(num("pdX", -2.3), GROUND + (0.37 + 0.065) * K, 0.3);
+  g.rotation.set(0.0, num("pdYaw", 0.62), 0);
+  return g;
+}
+
+function buildCometPet(THREE, W) {
+  const g = new THREE.Group();
+  const R = 0.36;
+  const head = mesh(THREE, unitSphere(THREE), W.sun);
+  head.scale.setScalar(R);
+  g.add(head);
+  // the tail: three soft flame tongues streaming back and up, warm yellow at the head to orange and pink at the tips
+  const c0 = new THREE.Color(0xffd04a), c1 = new THREE.Color(0xff9a3c), c2 = new THREE.Color(0xff6f7a);
+  const tongue = (pts, r0) => {
+    const { geo } = sausage(THREE, pts, (t) => r0 * Math.pow(1 - t, 0.8) + 0.012, { seg: 48, radial: 32, cap: 10 });
+    const p = geo.attributes.position, cols = [];
+    const P0 = new THREE.Vector3(...pts[0]), PN = new THREE.Vector3(...pts[pts.length - 1]), L = P0.distanceTo(PN);
+    for (let i = 0; i < p.count; i++) { const t = Math.min(1, Math.max(0, new THREE.Vector3().fromBufferAttribute(p, i).distanceTo(P0) / L)); const c = t < 0.5 ? c0.clone().lerp(c1, t * 2) : c1.clone().lerp(c2, (t - 0.5) * 2); cols.push(c.r, c.g, c.b); }
+    geo.setAttribute("color", new THREE.Float32BufferAttribute(cols, 3));
+    return mesh(THREE, geo, W.flame);
+  };
+  g.add(tongue([[0.0, 0.0, -0.1], [-0.3, 0.16, -0.2], [-0.55, 0.36, -0.22], [-0.72, 0.62, -0.2]], 0.3));
+  g.add(tongue([[0.0, 0.12, -0.12], [-0.22, 0.38, -0.2], [-0.32, 0.6, -0.22], [-0.3, 0.8, -0.2]], 0.2));
+  g.add(tongue([[0.0, -0.08, -0.1], [-0.34, -0.06, -0.2], [-0.58, 0.06, -0.24], [-0.8, 0.26, -0.24]], 0.18));
+  petEyes(THREE, W, g, R, new THREE.Vector3(0, 0.05, 1), 0.07, 0.33);
+  petSmile(THREE, W, g, R, new THREE.Vector3(0, -0.32, 1), 0.055, 0.017, 2.2);
+  petBlush(THREE, W, g, R, new THREE.Vector3(0, -0.24, 1), 0.6, 0.055);
+  g.position.set(num("pcX", -2.0), num("pcY", -2.02), 0.3);
+  g.rotation.set(0.05, num("pcYaw", 0.38), num("pcRZ", 0.12));
+  return g;
+}
+
+const PET_BUILDERS = { moon: buildMoonPet, ufo: buildUfoPet, robodog: buildRobodogPet, comet: buildCometPet };
+
+function buildPetAsset(THREE, name, helpers) {
+  const make = PET_BUILDERS[name.slice(4)];
+  if (!make) throw new Error(`unknown pet asset: ${name}`);
+  BGU_REF = helpers.BufferGeometryUtils;
+  mats(THREE);
+  const view = new THREE.Group();
+  view.rotation.x = 0.06; // the same hair-above-eye-level view as Pluto's frame
+  const pet = make(THREE, wardMats(THREE, helpers), helpers);
+  pet.traverse((o) => { if (o.isMesh && (o.material === WMATS.white || o.material === WMATS.shine || o.material === WMATS.blush)) o.receiveShadow = false; });
+  view.add(pet);
+  return view;
 }
