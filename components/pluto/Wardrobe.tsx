@@ -60,7 +60,7 @@ export function Wardrobe() {
       </div>
       <h1 className="title-display mt-1">{t("shop.title")}</h1>
 
-      <div className="relative mt-3 flex justify-center overflow-hidden rounded-[28px] bg-gradient-to-b from-[#E6FAFE] to-[#BDEFF8] py-3">
+      <div className="relative mt-3 flex justify-center overflow-hidden rounded-[28px] bg-gradient-to-b from-[#E6FAFE] to-[#BDEFF8] pb-3 pt-7">
         <span aria-hidden className="pointer-events-none absolute inset-x-10 bottom-4 h-6 rounded-full bg-[#0B1B22]/5 blur-md" />
         <Mascot key={cheer} mood={cheer ? "cheer" : "hello"} look={preview} className="w-[min(64vw,240px)]" />
       </div>
