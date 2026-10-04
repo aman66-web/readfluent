@@ -870,6 +870,20 @@ const ko: Catalog = {
   "reader.cheer.pages": "{n}페이지 읽었어요. 잘했어요!",
   "reader.cheer.talk": "수다 떨까요? 저를 탭하면 대화할 수 있어요.",
   "reader.cheer.back": "어서 와요! 계속해 봐요.",
+  "langSwitch.title": "언어 전환 중: {language}",
+  "langSwitch.sub": "책, 플래시카드, 테스트를 준비하고 있어요. 잠시 걸릴 수 있으니 앱을 열어 두세요.",
+  "langSwitch.step.progress": "레벨과 진행 상황을 옮기는 중: {language}",
+  "langSwitch.step.translator": "휴대폰 번역기를 준비하는 중",
+  "langSwitch.step.decks": "{language} 플래시카드를 불러오는 중",
+  "langSwitch.step.tests": "{language} 테스트를 준비하는 중",
+  "langSwitch.step.books": "책을 맞춤 설정하는 중",
+  "langSwitch.translator.wait": "휴대폰이 묻는 다운로드에 '예'라고 답해 주세요. 1분 정도 걸릴 수 있어요.",
+  "langSwitch.translator.skip": "이 기기는 아직 책 전체를 번역할 수 없어요. 추천 도서의 1장은 여전히 {language} 버전으로 열려요.",
+  "langSwitch.offline": "오프라인 상태인 것 같아요. 일부는 다시 온라인이 되면 불러오기가 끝나요.",
+  "langSwitch.done": "준비 완료!",
+  "langSwitch.doneSub": "{language} 책, 플래시카드, 테스트가 준비됐어요.",
+  "langSwitch.start": "읽기 시작",
+  "langSwitch.continueAnyway": "마무리되는 동안 계속하기",
 };
 
 export default ko;

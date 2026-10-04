@@ -72,7 +72,7 @@ const memo = new Map<string, Key[]>();
  * matches for all the words that can be matched (lib/translate/wordalign.ts). [] when the phone cannot say.
  */
 export async function alignPage(english: string, target: string, lang: string, fixed: readonly Key[] = []): Promise<Key[]> {
-  if (/^(ja|zh|th)$/.test(lang) || /[\[\]]/.test(english) || !english.trim() || !target.trim()) return [];
+  if (/[\[\]]/.test(english) || !english.trim() || !target.trim()) return [];
   const cache = `${lang}|${english}|${target}|${fixed.length}`;
   const kept = memo.get(cache);
   if (kept) return kept;

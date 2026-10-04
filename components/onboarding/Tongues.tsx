@@ -12,6 +12,7 @@ import { LANGUAGES, type LanguageCode } from "@/lib/onboarding/languages";
 import { saveAnswers } from "@/lib/onboarding/answers";
 import { choicesFor, tonguesNote, tonguesSummary } from "@/lib/onboarding/tongues";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
+import { LanguageSwitching } from "@/components/library/LanguageSwitching";
 
 interface Nav { at: number; of: number; onBack: () => void; onContinue: () => void }
 
@@ -90,10 +91,11 @@ function Sheet({ title, value, choices, onPick, onClose }: {
  * The two cards, what the pair means, and what can be changed later. Used by the
  * first-run step and by the Languages page; both save to the same place.
  */
-export function LanguagePicker({ speak, learn, delay = 0, showSpeak = true }: { speak: LanguageCode; learn: LanguageCode | null; delay?: number; /** The first run has already asked which language they speak, on its first screen. */ showSpeak?: boolean }) {
+export function LanguagePicker({ speak, learn, delay = 0, showSpeak = true, loader = false }: { speak: LanguageCode; learn: LanguageCode | null; delay?: number; /** The first run has already asked which language they speak, on its first screen. */ showSpeak?: boolean; /** Switching the language to learn holds the screen with a loader until the new language is set up (the Languages page). */ loader?: boolean }) {
   const t = useT();
   const locale = useLocale();
   const [open, setOpen] = useState<Which | null>(null);
+  const [switching, setSwitching] = useState<LanguageCode | null>(null);
   // The last language tapped for the interface: a slower earlier load must not overwrite it.
   const wantedSpeak = useRef<LanguageCode | null>(null);
   const note = tonguesNote(t, locale, speak, learn);
@@ -102,7 +104,14 @@ export function LanguagePicker({ speak, learn, delay = 0, showSpeak = true }: { 
     setOpen(null);
     // The sheet does not offer the other card's language, so this cannot happen from it; the guard is for anything else.
     if (code === (which === "speak" ? learn : speak)) return;
-    if (which === "learn") { switchLanguageLedger(learn, code); saveAnswers({ learn: code }); void prepareLanguageOnce(code); return; }
+    if (which === "learn") {
+      if (code === learn) return;
+      switchLanguageLedger(learn, code);
+      saveAnswers({ learn: code });
+      // On the Languages page the loader sets the language up and asks the phone for its download itself.
+      if (loader) setSwitching(code); else void prepareLanguageOnce(code);
+      return;
+    }
     // The new language's words arrive before it is chosen, so the screen changes once.
     wantedSpeak.current = code;
     void loadCatalog(code).then(() => { if (wantedSpeak.current === code) saveAnswers({ language: code }); });
@@ -121,6 +130,7 @@ export function LanguagePicker({ speak, learn, delay = 0, showSpeak = true }: { 
       <PhoneTranslatorCard learn={learn} />
       <KeyboardCard learn={learn} />
       {note && <p className="ob-muted wel-in mt-1.5 text-center text-[13px] leading-snug" style={{ animationDelay: `${delay + 320}ms` }}>{note}</p>}
+      {switching && <LanguageSwitching key={switching} lang={switching} onClose={() => setSwitching(null)} />}
       {open && (
         <Sheet title={open === "speak" ? t("tongues.sheetSpeak") : t("tongues.sheetLearn")} value={open === "speak" ? speak : learn}
                choices={choicesFor(open, speak, learn, LANGUAGES)}

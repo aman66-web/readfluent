@@ -833,6 +833,20 @@ const tr: Catalog = {
   "reader.cheer.pages": "{n} sayfa okundu. Aferin!",
   "reader.cheer.talk": "Sohbet edelim mi? Bana dokun, konuşalım.",
   "reader.cheer.back": "Tekrar hoş geldin! Devam edelim.",
+  "langSwitch.title": "Dil değişiyor: {language}",
+  "langSwitch.sub": "Kitaplarını, kartlarını ve testlerini hazırlıyoruz. Biraz zaman alabilir, bu yüzden uygulamayı açık tut.",
+  "langSwitch.step.progress": "Seviyen ve ilerlemen taşınıyor: {language}",
+  "langSwitch.step.translator": "Telefonunun çevirmeni hazırlanıyor",
+  "langSwitch.step.decks": "{language} kartların yükleniyor",
+  "langSwitch.step.tests": "{language} testlerin hazırlanıyor",
+  "langSwitch.step.books": "Kitapların sana göre ayarlanıyor",
+  "langSwitch.translator.wait": "Telefonunun sorduğu indirmeye evet de. Bir dakika sürebilir.",
+  "langSwitch.translator.skip": "Bu cihaz henüz kitapların tamamını çeviremiyor. Öne çıkan kitapların 1. bölümü yine de şu dilde açılır: {language}.",
+  "langSwitch.offline": "Çevrimdışı görünüyorsun. Bazı şeyler tekrar çevrimiçi olduğunda yüklenmeyi bitirecek.",
+  "langSwitch.done": "Hazırsın!",
+  "langSwitch.doneSub": "{language} kitapların, kartların ve testlerin hazır.",
+  "langSwitch.start": "Okumaya başla",
+  "langSwitch.continueAnyway": "Bitene kadar devam et",
 };
 
 export default tr;

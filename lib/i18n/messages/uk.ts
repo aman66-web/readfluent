@@ -872,6 +872,20 @@ const uk: Catalog = {
   "reader.cheer.pages": "Прочитано сторінок: {n}. Молодець!",
   "reader.cheer.talk": "Хочеш поговорити? Торкнися мене, і поспілкуємося.",
   "reader.cheer.back": "З поверненням! Продовжуймо.",
+  "langSwitch.title": "Перемикаємося на мову: {language}",
+  "langSwitch.sub": "Ми готуємо ваші книги, картки й тести. Це може зайняти трохи часу, тож не закривайте застосунок.",
+  "langSwitch.step.progress": "Переносимо ваш рівень і прогрес у мову: {language}",
+  "langSwitch.step.translator": "Готуємо перекладач на вашому телефоні",
+  "langSwitch.step.decks": "Завантажуємо ваші картки: {language}",
+  "langSwitch.step.tests": "Готуємо ваші тести: {language}",
+  "langSwitch.step.books": "Налаштовуємо ваші книги",
+  "langSwitch.translator.wait": "Погодьтеся на завантаження, про яке запитає телефон. Це може зайняти хвилину.",
+  "langSwitch.translator.skip": "Цей пристрій поки не вміє перекладати книги повністю. Розділ 1 добірних книг, як і раніше, відкривається мовою: {language}.",
+  "langSwitch.offline": "Схоже, ви не в мережі. Частина даних догрузиться, коли з'єднання відновиться.",
+  "langSwitch.done": "Усе готово!",
+  "langSwitch.doneSub": "Ваші книги, картки й тести готові. Мова: {language}.",
+  "langSwitch.start": "Почати читання",
+  "langSwitch.continueAnyway": "Продовжити, поки все завершується",
 };
 
 export default uk;

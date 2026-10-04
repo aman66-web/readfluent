@@ -872,6 +872,20 @@ const ru: Catalog = {
   "reader.cheer.pages": "Прочитано страниц: {n}. Молодец!",
   "reader.cheer.talk": "Хочешь поболтать? Нажми на меня, и поговорим.",
   "reader.cheer.back": "С возвращением! Продолжим.",
+  "langSwitch.title": "Переключаемся на язык: {language}",
+  "langSwitch.sub": "Мы готовим ваши книги, карточки и тесты. Это может занять немного времени, поэтому не закрывайте приложение.",
+  "langSwitch.step.progress": "Переносим ваш уровень и прогресс в язык: {language}",
+  "langSwitch.step.translator": "Готовим переводчик на вашем телефоне",
+  "langSwitch.step.decks": "Загружаем ваши карточки: {language}",
+  "langSwitch.step.tests": "Готовим ваши тесты: {language}",
+  "langSwitch.step.books": "Настраиваем ваши книги",
+  "langSwitch.translator.wait": "Согласитесь на загрузку, о которой спросит телефон. Это может занять минуту.",
+  "langSwitch.translator.skip": "Это устройство пока не умеет переводить книги целиком. Глава 1 избранных книг по-прежнему открывается на языке: {language}.",
+  "langSwitch.offline": "Похоже, вы не в сети. Часть данных догрузится, когда соединение вернётся.",
+  "langSwitch.done": "Всё готово!",
+  "langSwitch.doneSub": "Ваши книги, карточки и тесты готовы. Язык: {language}.",
+  "langSwitch.start": "Начать читать",
+  "langSwitch.continueAnyway": "Продолжить, пока всё завершается",
 };
 
 export default ru;

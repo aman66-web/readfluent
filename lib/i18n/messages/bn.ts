@@ -870,6 +870,20 @@ const bn: Catalog = {
   "reader.cheer.pages": "{n} পৃষ্ঠা পড়া হলো। দারুণ!",
   "reader.cheer.talk": "গল্প করবেন? আমাকে ট্যাপ করুন, কথা বলি।",
   "reader.cheer.back": "ফিরে আসায় স্বাগতম! চলুন এগোই।",
+  "langSwitch.title": "{language}-এ পরিবর্তন হচ্ছে",
+  "langSwitch.sub": "আমরা আপনার বই, ফ্ল্যাশকার্ড ও পরীক্ষা তৈরি করছি। একটু সময় লাগতে পারে, তাই অ্যাপটি খোলা রাখুন।",
+  "langSwitch.step.progress": "আপনার লেভেল ও অগ্রগতি {language}-এ সরানো হচ্ছে",
+  "langSwitch.step.translator": "আপনার ফোনের অনুবাদক প্রস্তুত করা হচ্ছে",
+  "langSwitch.step.decks": "আপনার {language} ফ্ল্যাশকার্ড লোড হচ্ছে",
+  "langSwitch.step.tests": "আপনার {language} পরীক্ষা প্রস্তুত করা হচ্ছে",
+  "langSwitch.step.books": "আপনার বইগুলো আপনার মতো করে সাজানো হচ্ছে",
+  "langSwitch.translator.wait": "আপনার ফোন ডাউনলোডের অনুমতি চাইলে হ্যাঁ বলুন। এতে এক মিনিট লাগতে পারে।",
+  "langSwitch.translator.skip": "এই ডিভাইস এখনো পুরো বই অনুবাদ করতে পারে না। তবে বাছাই করা বইগুলোর ১ম অধ্যায় এখনও {language}-এ খোলে।",
+  "langSwitch.offline": "মনে হচ্ছে আপনি অফলাইনে আছেন। অনলাইনে ফিরলে কিছু জিনিস লোড শেষ হবে।",
+  "langSwitch.done": "সব প্রস্তুত!",
+  "langSwitch.doneSub": "আপনার বই, ফ্ল্যাশকার্ড ও পরীক্ষা {language}-এ প্রস্তুত।",
+  "langSwitch.start": "পড়া শুরু করুন",
+  "langSwitch.continueAnyway": "শেষ হতে হতে চালিয়ে যান",
 };
 
 export default bn;

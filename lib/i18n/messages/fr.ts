@@ -869,6 +869,20 @@ const fr: Catalog = {
   "reader.cheer.pages": "{n} pages lues. Bravo !",
   "reader.cheer.talk": "Envie de discuter ? Touche-moi et on papote.",
   "reader.cheer.back": "Content de te revoir ! On continue.",
+  "langSwitch.title": "Passage à {language}",
+  "langSwitch.sub": "Nous préparons tes livres, tes cartes mémoire et tes tests. Cela peut prendre un instant, garde donc l'appli ouverte.",
+  "langSwitch.step.progress": "Transfert de ton niveau et de ta progression vers {language}",
+  "langSwitch.step.translator": "Préparation du traducteur de ton téléphone",
+  "langSwitch.step.decks": "Chargement de tes cartes mémoire en {language}",
+  "langSwitch.step.tests": "Préparation de tes tests de {language}",
+  "langSwitch.step.books": "Personnalisation de tes livres",
+  "langSwitch.translator.wait": "Accepte le téléchargement que demande ton téléphone. Cela peut prendre une minute.",
+  "langSwitch.translator.skip": "Cet appareil ne peut pas encore traduire des livres entiers. Le chapitre 1 des livres à la une s'ouvre toujours en {language}.",
+  "langSwitch.offline": "Tu sembles hors ligne. Certains éléments finiront de se charger dès que tu seras de nouveau connecté.",
+  "langSwitch.done": "Tout est prêt !",
+  "langSwitch.doneSub": "Tes livres, tes cartes mémoire et tes tests sont prêts en {language}.",
+  "langSwitch.start": "Commencer à lire",
+  "langSwitch.continueAnyway": "Continuer pendant la fin du chargement",
 };
 
 export default fr;

@@ -63,3 +63,25 @@ describe("matching every word of a page", () => {
     expect(linkKeys(en, fr, [])).toEqual([]);
   });
 });
+
+describe("languages written without spaces", () => {
+  it("breaks Japanese into words to tap, not into whole clauses", async () => {
+    const { tokenize } = await import("@/lib/reading/sentences");
+    const ja = "彼女は、若い男性が彼女の娘の一人と結婚することを望んでいます。";
+    const words = tokenize(ja).filter((t) => t.word).map((t) => t.text);
+    expect(words.length).toBeGreaterThan(8);
+    expect(words).toContain("彼女");
+    expect(words.join("")).toBe(ja.replace(/[、。]/g, ""));
+    // every token still points at its place in the text
+    for (const t of tokenize(ja)) expect(ja.slice(t.start, t.start + t.text.length)).toBe(t.text);
+    const zh = tokenize("我每天早上喝咖啡。").filter((t) => t.word).map((t) => t.text);
+    expect(zh.length).toBeGreaterThan(3);
+  });
+  it("matches Japanese words to the English line", () => {
+    const e = "She hopes the young man will marry.";
+    const j = "彼女は若い男性が結婚することを望んでいます。";
+    const k = linkKeys(e, j, [{ ei: 0, got: "彼女" }, { ei: 3, got: "若い男性" }, { ei: 4, got: "若い男性" }, { ei: 1, got: "望んでいます" }]);
+    expect(k.some((x) => x.en === "She" || x.en === "she")).toBe(true);
+    expect(k.find((x) => x.en === "young man")?.w.replace(/ /g, "")).toBe("若い男性");
+  });
+});

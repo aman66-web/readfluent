@@ -16,7 +16,7 @@ export function LanguagesView() {
       <h1 className="mt-3 text-[28px] font-bold tracking-[-0.02em]">{t("languages.title")}</h1>
       <p className="mt-1 text-[15px] leading-snug text-muted">{t("languages.sub")}</p>
       <div className="mt-6">
-        <LanguagePicker speak={a.language} learn={a.learn} />
+        <LanguagePicker speak={a.language} learn={a.learn} loader />
       </div>
     </main>
   );

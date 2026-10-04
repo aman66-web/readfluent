@@ -836,6 +836,20 @@ const ur: Catalog = {
   "reader.cheer.pages": "{n} صفحات پڑھ لیے۔ شاباش!",
   "reader.cheer.talk": "گپ شپ کریں؟ مجھے ٹیپ کریں، ہم بات کریں گے۔",
   "reader.cheer.back": "خوش آمدید! چلیں آگے بڑھتے ہیں۔",
+  "langSwitch.title": "{language} پر منتقل کیا جا رہا ہے",
+  "langSwitch.sub": "ہم آپ کی کتابیں، فلیش کارڈز اور ٹیسٹ تیار کر رہے ہیں۔ اس میں کچھ وقت لگ سکتا ہے، اس لیے براہِ کرم ایپ کھلی رکھیں۔",
+  "langSwitch.step.progress": "آپ کی سطح اور پیش رفت {language} میں منتقل کی جا رہی ہے",
+  "langSwitch.step.translator": "آپ کے فون کا مترجم تیار کیا جا رہا ہے",
+  "langSwitch.step.decks": "آپ کے {language} فلیش کارڈز لوڈ ہو رہے ہیں",
+  "langSwitch.step.tests": "آپ کے {language} ٹیسٹ تیار کیے جا رہے ہیں",
+  "langSwitch.step.books": "آپ کی کتابیں آپ کے مطابق ترتیب دی جا رہی ہیں",
+  "langSwitch.translator.wait": "آپ کا فون جس ڈاؤن لوڈ کے بارے میں پوچھے اس پر ہاں کہیں۔ اس میں ایک منٹ لگ سکتا ہے۔",
+  "langSwitch.translator.skip": "یہ آلہ ابھی پوری کتابوں کا ترجمہ نہیں کر سکتا۔ نمایاں کتابوں کا باب 1 اب بھی {language} میں کھلتا ہے۔",
+  "langSwitch.offline": "لگتا ہے آپ آف لائن ہیں۔ آن لائن واپس آنے پر کچھ چیزیں لوڈ ہو جائیں گی۔",
+  "langSwitch.done": "سب تیار ہے!",
+  "langSwitch.doneSub": "آپ کی کتابیں، فلیش کارڈز اور ٹیسٹ {language} میں تیار ہیں۔",
+  "langSwitch.start": "پڑھنا شروع کریں",
+  "langSwitch.continueAnyway": "مکمل ہونے کے دوران جاری رکھیں",
 };
 
 export default ur;

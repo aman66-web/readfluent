@@ -836,6 +836,20 @@ const ar: Catalog = {
   "reader.cheer.pages": "قرأت {n} صفحات. أحسنت!",
   "reader.cheer.talk": "ما رأيك في دردشة؟ اضغط عليّ لنتحدث.",
   "reader.cheer.back": "أهلًا بعودتك! لنواصل.",
+  "langSwitch.title": "التبديل إلى {language}",
+  "langSwitch.sub": "نجهّز كتبك وبطاقاتك التعليمية واختباراتك. قد يستغرق ذلك لحظات، لذا أبقِ التطبيق مفتوحًا.",
+  "langSwitch.step.progress": "ننقل مستواك وتقدّمك إلى {language}",
+  "langSwitch.step.translator": "نجهّز مترجم هاتفك",
+  "langSwitch.step.decks": "نحمّل بطاقاتك التعليمية للغة: {language}",
+  "langSwitch.step.tests": "نجهّز اختباراتك للغة: {language}",
+  "langSwitch.step.books": "نخصّص كتبك لك",
+  "langSwitch.translator.wait": "وافق على التنزيل الذي يطلبه هاتفك. قد يستغرق دقيقة.",
+  "langSwitch.translator.skip": "هذا الجهاز لا يستطيع ترجمة الكتب كاملة بعد. لكن الفصل 1 من الكتب المميزة ما زال يُفتح بلغة: {language}.",
+  "langSwitch.offline": "يبدو أنك غير متصل بالإنترنت. سيكتمل تحميل بعض العناصر عند عودتك للاتصال.",
+  "langSwitch.done": "كل شيء جاهز!",
+  "langSwitch.doneSub": "كتبك وبطاقاتك التعليمية واختباراتك جاهزة للغة: {language}.",
+  "langSwitch.start": "ابدأ القراءة",
+  "langSwitch.continueAnyway": "المتابعة أثناء اكتمال التحضير",
 };
 
 export default ar;

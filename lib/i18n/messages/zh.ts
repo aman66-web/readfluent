@@ -868,6 +868,20 @@ const zh: Catalog = {
   "reader.cheer.pages": "已读{n}页。做得好!",
   "reader.cheer.talk": "想聊聊吗?点我,我们聊聊。",
   "reader.cheer.back": "欢迎回来!我们继续吧。",
+  "langSwitch.title": "正在切换到{language}",
+  "langSwitch.sub": "我们正在为你准备书籍、单词卡和测试。这可能需要一点时间，请保持应用开启。",
+  "langSwitch.step.progress": "正在把你的等级和进度转移到{language}",
+  "langSwitch.step.translator": "正在准备你手机的翻译功能",
+  "langSwitch.step.decks": "正在加载你的{language}单词卡",
+  "langSwitch.step.tests": "正在准备你的{language}测试",
+  "langSwitch.step.books": "正在为你个性化设置书籍",
+  "langSwitch.translator.wait": "请对手机询问的下载选择“是”。这可能需要一分钟。",
+  "langSwitch.translator.skip": "此设备暂时还不能翻译整本书。精选图书的第1章仍可用{language}打开。",
+  "langSwitch.offline": "你似乎处于离线状态。恢复联网后，部分内容会继续加载完成。",
+  "langSwitch.done": "一切就绪！",
+  "langSwitch.doneSub": "你的{language}书籍、单词卡和测试已准备好。",
+  "langSwitch.start": "开始阅读",
+  "langSwitch.continueAnyway": "完成期间继续",
 };
 
 export default zh;

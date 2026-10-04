@@ -1,0 +1,617 @@
+{
+ "lang": "tr",
+ "levels": {
+  "A1": [
+   {
+    "title": "Tom'un Sabahı",
+    "text": "Tom saat yedide kalkar. Ekmek ve yumurta yer. Sonra otobüsle işe gider. İşini çok sever. Saat altıda eve gelir ve yemek yapar.",
+    "keys": [
+     "ekmek",
+     "yumurta",
+     "otobüsle",
+     "sever"
+    ]
+   },
+   {
+    "title": "Denizde Bir Gün",
+    "text": "Anna trenle denize gider. Tren hızlıdır. Suyu ve büyük güneşi görür. Anna ve annesi yüzer ve oynar. Çok mutludurlar.",
+    "keys": [
+     "trenle",
+     "denize",
+     "güneşi",
+     "yüzer"
+    ]
+   },
+   {
+    "title": "Sam'e Bir Mesaj",
+    "text": "Merhaba Sam, şimdi parktayım. Lütfen saat ikide gel. Büyük, kırmızı bir topum var. Onunla oynayabiliriz. Biraz su getir, çünkü hava sıcak.",
+    "keys": [
+     "parktayım",
+     "topum",
+     "kırmızı",
+     "su"
+    ]
+   },
+   {
+    "title": "Dükkân Duyurusu",
+    "text": "Mavi Dükkân'a hoş geldiniz. Ekmek ve süt satıyoruz. Sekizden altıya kadar açığız. Dükkân pazar günleri kapalıdır. Her çocuk bedava bir elma alır.",
+    "keys": [
+     "ekmek",
+     "süt",
+     "pazar",
+     "elma"
+    ]
+   },
+   {
+    "title": "Kayıp Köpek",
+    "text": "Ben'in küçük, kahverengi bir köpeği var. Bir gün köpek evde yoktur. Ben üzgündür ve her yere bakar. Köpek yatağın altındadır! Ben yine mutludur.",
+    "keys": [
+     "köpeği",
+     "köpek",
+     "yatağın",
+     "üzgündür"
+    ]
+   },
+   {
+    "title": "Küçük Kasabam",
+    "text": "Kasabam küçük ama güzel. Bir nehir ve büyük bir park var. Birçok yeşil ağaç var. Eski köprüyü severim. Benim için sessiz bir yer.",
+    "keys": [
+     "kasabam",
+     "nehir",
+     "park",
+     "köprüyü"
+    ]
+   },
+   {
+    "title": "Çatıdaki Kedi",
+    "text": "Yüksek bir çatıda bir kedi var. Küçük kedi çok korkuyor. Bir adam yardım çağırıyor. Bir kadın uzun bir merdivenle geliyor. Kedi artık güvende.",
+    "keys": [
+     "çatıda",
+     "kedi",
+     "merdivenle",
+     "yardım"
+    ]
+   },
+   {
+    "title": "Yağmuru Severim",
+    "text": "Yağmuru çok severim. Bazı insanlar sevmez. Ama bence yağmur iyidir. Çiçekler ve ağaçlar onu içer. Evde oturur ve kitap okurum.",
+    "keys": [
+     "yağmuru",
+     "çiçekler",
+     "ağaçlar",
+     "kitap"
+    ]
+   },
+   {
+    "title": "Çay Yapmak",
+    "text": "Önce bir tencerede biraz su kaynat. Bir fincana bir poşet çay koy. Sonra sıcak suyu ekle. Üç dakika bekle. Şimdi çayını içebilirsin.",
+    "keys": [
+     "su",
+     "fincana",
+     "poşet",
+     "dakika"
+    ]
+   },
+   {
+    "title": "Büyükannemin Bahçesi",
+    "text": "Büyükannemi sık sık düşünürüm. Evi küçük ve beyazdır. Bahçede büyük bir ağaç var. Altında oturur ve pasta yeriz. O günleri çok severim.",
+    "keys": [
+     "büyükannemi",
+     "bahçede",
+     "ağaç",
+     "pasta"
+    ]
+   }
+  ],
+  "A2": [
+   {
+    "title": "Maria'nın Yoğun Cumartesisi",
+    "text": "Cumartesi sabahı Maria küçük dairesini temizledi ve çamaşırları yıkadı. Öğlen arkadaşı Julia ile bir kafede buluştu. Çorba içtiler ve iki saat konuştular. Öğleden sonra pazara gidip biraz meyve aldılar. Maria eve yorgun ama mutlu döndü. Yarın anne babasını ziyaret edecek.",
+    "keys": [
+     "cumartesi",
+     "dairesini",
+     "çorba",
+     "meyve"
+    ]
+   },
+   {
+    "title": "Dağlarda Bir Hafta Sonu",
+    "text": "Geçen ay Daniel ve kardeşi dağlara gitti. Bir trene bindiler ve sonra dört saat yürüdüler. Hava soğuktu, bu yüzden sıcak montlar giydiler. Zirvede sandviç yediler ve aşağıdaki göle baktılar. Gelecek yıl yazın tekrar gitmeyi planlıyorlar.",
+    "keys": [
+     "dağlara",
+     "trene",
+     "montlar",
+     "göle"
+    ]
+   },
+   {
+    "title": "Bir Arkadaşa E-posta",
+    "text": "Sevgili Kim, mektubun için teşekkürler. Daha önce yazmadığım için üzgünüm. Hastaydım ama şimdi çok daha iyiyim. Mayısta bir haftalığına seni ziyaret edeceğim. Lütfen bana senin ve ailen için hangi günlerin uygun olduğunu söyle. Yakında görüşürüz!",
+    "keys": [
+     "mektubun",
+     "hastaydım",
+     "mayısta",
+     "ziyaret"
+    ]
+   },
+   {
+    "title": "Gitar Dersleri",
+    "text": "Gitar öğrenmek ister misiniz? Peter Novak on yıllık deneyimi olan bir müzik öğretmenidir. İstasyonun yakınındaki küçük stüdyosunda çocuklara ve yetişkinlere ders verir. İlk ders ücretsizdir, böylece deneyebilirsiniz. Dersler salı ve perşembe akşamlarıdır. Bu hafta arayın, ücretsiz bir kitap kazanın.",
+    "keys": [
+     "gitar",
+     "öğretmenidir",
+     "stüdyosunda",
+     "ücretsizdir"
+    ]
+   },
+   {
+    "title": "Yanlış Çanta",
+    "text": "Nina tren istasyonundan çıktı ve eve yürüdü. Çantasını açtı ve içinde mavi bir ceket buldu. Bu onun çantası değildi! Endişelendi ve istasyona geri döndü. Orada bir adam gördü, adam onun çantasını tutuyordu. Güldüler, çantaları değiştirdiler ve vedalaştılar.",
+    "keys": [
+     "çantasını",
+     "ceket",
+     "istasyona",
+     "adam"
+    ]
+   },
+   {
+    "title": "Eski Kütüphane",
+    "text": "Eski kütüphane kasabamızın merkezindedir. Uzun pencereleri olan büyük bir taş binadır. İçeride binlerce kitap ve birçok rahat sandalye var. İkinci katta öğrenciler için sessiz bir oda var. Birçok insan oraya gider, çünkü orası sıcak ve ücretsizdir. Ben her cuma okuldan sonra giderim.",
+    "keys": [
+     "kütüphane",
+     "pencereleri",
+     "sandalye",
+     "cuma"
+    ]
+   },
+   {
+    "title": "Yeni Bisiklet Yolları",
+    "text": "Belediye meclisi dün yeni bir bisiklet yolu açtı. Yol istasyondan büyük parka kadar uzanıyor. Bundan önce birçok bisikletli ana yolda kendini güvensiz hissediyordu. Meclis bu işe çok para harcadı. Gelecek yıl şehir iki yol daha yapacak. Birçok insan memnun, ama bazı sürücüler kızgın.",
+    "keys": [
+     "belediye",
+     "bisiklet",
+     "istasyondan",
+     "sürücüler"
+    ]
+   },
+   {
+    "title": "Okula Yürümek",
+    "text": "Bence çocuklar okula yürümeli. Birincisi, yürümek sağlıkları için iyidir. İkincisi, yolda arkadaşlarıyla konuşabilirler. Geçen yıl kızım okula yürüdü ve kendini daha uyanık hissetti. Bazı anne babalar yolların tehlikeli olduğunu söylüyor ve bu doğru. Ama sokakları daha güvenli yapabileceğimize inanıyorum.",
+    "keys": [
+     "okula",
+     "yürümek",
+     "sağlıkları",
+     "tehlikeli"
+    ]
+   },
+   {
+    "title": "Buzdolabı Nasıl Çalışır",
+    "text": "Buzdolabı yiyecekleri soğuk tutar, böylece daha uzun süre taze kalırlar. Buzdolabının içinde ince borularda özel bir sıvı vardır. Sıvı yiyeceklerden ısıyı alır ve uzaklaştırır. Sonra sıvı arkaya gider ve ısı orada dışarı çıkar. Bu yüzden buzdolabının arkası çoğu zaman sıcaktır. Küçük bir motor sıvıyı bütün gün dolaştırır.",
+    "keys": [
+     "buzdolabı",
+     "sıvı",
+     "borularda",
+     "motor"
+    ]
+   },
+   {
+    "title": "İlk Bisikletim",
+    "text": "Yedi yaşındayken babam bana kırmızı bir bisiklet verdi. Çok heyecanlıydım ama süremiyordum. Her akşam yanımda koştu ve selesini tuttu. İki hafta sonra düştüm ve biraz ağladım. Gülümsedi ve herkesin düştüğünü söyledi. Ertesi gün tek başıma sürdüm ve o hissi hâlâ hatırlıyorum.",
+    "keys": [
+     "bisiklet",
+     "babam",
+     "selesini",
+     "düştüm"
+    ]
+   }
+  ],
+  "B1": [
+   {
+    "title": "Bir Öğretmenin Uzun Günü",
+    "text": "Elena, okulu evinden uzak olduğu için beş buçukta uyanır. Genellikle iki otobüse binip tam ilk dersten önce varır. Gün boyunca üç sınıfa ders verir, birçok soruyu yanıtlar ve yemek yemeye nadiren vakit bulur. Okuldan sonra ödevlerinde zorlanan öğrencilere yardım etmek için çoğu zaman geç saatlere kadar kalır. Sonunda eve geldiğinde bitkindir, ama bu işe değdiğini söyler. Koridorda bir öğrenci ona gülümserse, ne kadar yorgun olduğunu unutur.",
+    "keys": [
+     "otobüse",
+     "sınıfa",
+     "öğrencilere",
+     "gülümserse"
+    ]
+   },
+   {
+    "title": "Lizbon'da Kaybolmak",
+    "text": "Geçen bahar Omar ilk kez Lizbon'a gitti. Her şeyi dikkatle planlamıştı ama ikinci gün telefonu kapandı. Haritasız kalınca dar sokaklardan oluşan bir labirentte kayboldu. Paniğe kapılmak yerine yaşlı bir kadından yardım istedi, kadın da onu doğru tramvaya kadar götürdü. Omar daha sonra bunun gezisinin en güzel anı olduğunu söyledi, çünkü nazik biriyle tanışmıştı. Telefonunu kaybetmemiş olsaydı, onunla asla konuşmayacaktı.",
+    "keys": [
+     "omar",
+     "telefonu",
+     "kadından",
+     "tramvaya"
+    ]
+   },
+   {
+    "title": "Komşulara Mesaj",
+    "text": "Sevgili komşularım, cumartesi akşamı dairemde yapacağım bir parti hakkında sizi bilgilendirmek için yazıyorum. Birçoğunuzun erken yattığını biliyorum. Bu yüzden müziğin saat ondan önce biteceğinden emin olacağım. Çok yüksek olursa, lütfen kapımı çalın, ben de sesini kısarım. Ayrıca bolca yemek yaptım ve hepiniz bize katılabilirsiniz. Herkesle tanışmaktan çok mutlu olurum, çünkü buraya daha geçen ay taşındım. Sabrınız için teşekkür ederim.",
+    "keys": [
+     "komşularım",
+     "parti",
+     "müziğin",
+     "yemek"
+    ]
+   },
+   {
+    "title": "Hafta Sonu Yemek Kursu",
+    "text": "Her akşam sipariş vermek yerine gerçek yemek yapmayı öğrenmek ister misiniz? Hafta sonu yemek kursumuz mutfakta kendini tedirgin hisseden yeni başlayanlar için mükemmeldir. Her cumartesi profesyonel bir aşçı size basit bir yemek gösterir, sonra siz kendiniz pişirirsiniz. Tüm malzemeler fiyata dahildir, bu yüzden yalnızca önlük getirmeniz yeterlidir. Bu ayın sonundan önce katılırsanız yüzde on indirim kazanırsınız. Yerler sınırlıdır, bu yüzden erken rezervasyon yaptırmanızı öneririz.",
+    "keys": [
+     "kursumuz",
+     "aşçı",
+     "önlük",
+     "indirim"
+    ]
+   },
+   {
+    "title": "Son Tren",
+    "text": "Tomas eve giden son treni kaçırdı, bu yüzden yürümeye karar verdi. Gece yarısı çoktan geçmişti ve sokaklar bomboş ve karanlıktı. Bir saat sonra arkasından ayak sesleri duydu ve kalbi daha hızlı atmaya başladı. Daha hızlı yürüdü ama adımlar yaklaştı, sonunda arkasına döndü. Küçük bir köpek onu takip ediyordu ve en az onun kadar kaybolmuş görünüyordu. Tomas güldü, köpeği kucağına aldı ve eve kadar taşıdı. Köpeğe Lucky adını verdi, çünkü o gece ikisinin de biraz şansa ihtiyacı vardı.",
+    "keys": [
+     "treni",
+     "ayak",
+     "köpek",
+     "şansa"
+    ]
+   },
+   {
+    "title": "Bir Balıkçı Köyü",
+    "text": "Köyümüz denizin üzerinde dik bir tepede yer alır ve her ev farklı bir renge boyanmıştır. Sabahları balıkçılar döner ve liman gürültüyle ve balık kokusuyla dolar. Turistler genellikle yazın gelir, bu yüzden dar sokaklar çok kalabalık olabilir. Ancak ben köyü kışın tercih ederim, çünkü o zaman sessizdir ve deniz hırçındır. Tepenin başında fırtınaları güvenle izleyebileceğiniz küçük bir kafe var. Ziyaret ederseniz sonbaharda gelin, çünkü hava ılıktır ve daha az insan vardır.",
+    "keys": [
+     "köyümüz",
+     "balıkçılar",
+     "liman",
+     "fırtınaları"
+    ]
+   },
+   {
+    "title": "Öğrencilere Bedava Otobüs",
+    "text": "Kuzeydeki küçük bir kasaba, öğrenciler için bütün otobüsleri ücretsiz yapmaya karar verdi. Belediye planı pazartesi günü duyurdu ve eylülde başlayacağını söyledi. Yetkililer daha fazla gencin toplu taşımayı kullanmasını ve daha az ebeveynin onları arabayla götürmesini umuyor. Plan yılda yaklaşık bir milyon avroya mal olacak ve bu durum bazı sakinleri endişelendirdi. Ancak diğer kasabalardaki benzer projeler trafiği neredeyse beşte bir oranında azalttı. Nihai oylama gelecek ay yapılacak ve destekçiler planın geçeceğini bekliyor.",
+    "keys": [
+     "kasaba",
+     "otobüsleri",
+     "belediye",
+     "avroya"
+    ]
+   },
+   {
+    "title": "Sınıfta Telefonlar",
+    "text": "Bence okullar sınıfta telefonlara izin vermemeli. Masada bir telefon olduğunda öğrenciler sürekli ona bakar ve dersi takip edemez. Bazı insanlar telefonların bilgi aramak için yararlı olabileceğini savunuyor. Bu doğru, ama öğretmen bunun yerine okulun bilgisayarlarını kullanabilir. Elbette çocuklar acil durumda ailelerine ulaşabilmelidir. Bu yüzden telefonların ders boyunca çantada kalmasını ve teneffüste çıkmasını öneriyorum. Böylece herkes dikkat dağınıklığı olmadan yararlarından faydalanır.",
+    "keys": [
+     "telefonlara",
+     "öğrenciler",
+     "öğretmen",
+     "teneffüste"
+    ]
+   },
+   {
+    "title": "Arılar Balı Nasıl Yapar",
+    "text": "Arılar balı, çiçeklerden topladıkları nektar adı verilen tatlı bir sıvıdan yapar. İşçi arı nektarı özel bir midede depolar ve kovana taşır. Orada diğer arılar nektarı alır ve bir süre çiğner. Onu küçük mum gözlere yayar ve suyunu gidermek için kanatlarıyla havalandırır. Bal yeterince koyulaştığında arılar tazeliğini korumak için her gözü balmumuyla kapatır. Bir arı yalnızca çok az bal yapar, bu yüzden bir kavanozu doldurmak için binlerce arı gerekir.",
+    "keys": [
+     "arılar",
+     "nektar",
+     "kovana",
+     "balmumuyla"
+    ]
+   },
+   {
+    "title": "Göldeki Yazlar",
+    "text": "Gençken ailem her yazı bir göl kenarındaki küçük bir ahşap evde geçirirdi. O zamanlar bunun değerini bilmiyordum, çünkü arkadaşlarımla şehirde olmak istiyordum. Şimdi ne kadar şanslı olduğumu anlıyorum. Sabahın erken saatlerindeki sessizliği ve köy dükkânından aldığımız taze ekmeğin tadını hatırlıyorum. Geçmişimdeki tek bir yere dönebilseydim, o evi seçerdim. Ne yazık ki ev yıllar önce satıldı, bu yüzden oraya yalnızca anılarımda gidebiliyorum.",
+    "keys": [
+     "göl",
+     "ahşap",
+     "ekmeğin",
+     "anılarımda"
+    ]
+   }
+  ],
+  "B2": [
+   {
+    "title": "Fırında Bir Gün",
+    "text": "Lucia her sabah dörtte kalkar, şehir daha uyanmadan çok önce. İlk müşteriler geldiğinde yaklaşık iki yüz somun şekillendirmiş ve fırınları kontrol etmiştir. İş yorucu olsa da ona sabrı öğrettiğini söyler, çünkü ekmek aceleye getirilemez. Öğlen kapıyı kilitler, sade bir öğle yemeği yer ve iki saat uyur. Öğleden sonra siparişlere yanıt verir, bunların çoğu ona bağımlı olan restoranlardan gelir. Kız kardeşi ona sık sık bir yardımcı tutmasını önermiştir, ama Lucia her şeyi kendisinin yapmayı tercih ettiğinde ısrar eder. Yine de işler büyümeye devam ederse fikrini değiştirebileceğini kabul eder.",
+    "keys": [
+     "lucia",
+     "somun",
+     "fırınları",
+     "sabrı"
+    ]
+   },
+   {
+    "title": "Kuzeye Gece Treni",
+    "text": "Geçen bahar Tomas uçmak yerine trenle uzak kuzeye gitmeye karar verdi. Neredeyse iki gün süren yolculuk onu, güneş ışığının zemine nadiren ulaştığı o kadar sık ormanlardan geçirdi. Vagonların soğuk olacağı konusunda uyarılmıştı, bu yüzden kalın bir battaniye ve bir termos çay getirmişti. İkinci akşam emekli bir öğretmen karşısına oturdu ve geçtikleri köylerle ilgili hikâyeler anlatmaya başladı. Tomas daha sonra bu sohbetlerin gezinin en değerli parçası olduğunu söyledi. Tren sonunda istasyona girdiğinde boş peronun üzerine yumuşak yumuşak kar yağıyordu. Yorgun varmış olsa da yavaş yolun fazladan zamana değdiğini hissetti.",
+    "keys": [
+     "tomas",
+     "ormanlardan",
+     "battaniye",
+     "öğretmen"
+    ]
+   },
+   {
+    "title": "Ev Sahibine Mesaj",
+    "text": "Sevgili Samuel, geçen pazartesiden beri çalışmayan dairemin ısıtması hakkında yazıyorum. Perşembe günü bir teknisyenin gelmesi gerekiyordu, ama kimse gelmedi ve kimse de nedenini açıklamak için aramadı. Geceleri sıcaklık donma noktasının altına düştüğü için komşum ve ben elektrikli ısıtıcılar kullanıyoruz. Mümkün olan en kısa sürede bir tamir ayarlayabilirseniz minnettar olurum. Sorun devam ederse kiradan indirim istemek zorunda kalacağım. Bu işlerin zaman aldığını anlıyorum ve zorluk çıkarmak istemiyorum. Lütfen cuma gününe kadar birinin ne zaman gelebileceğini bana bildirin. Yardımınız için teşekkür ederim, Amira.",
+    "keys": [
+     "ısıtması",
+     "teknisyenin",
+     "ısıtıcılar",
+     "kiradan"
+    ]
+   },
+   {
+    "title": "Mahalle Bahçesi Duyurusu",
+    "text": "Mahalle meclisi, kütüphanenin arkasındaki eski otoparkın bir mahalle bahçesine dönüştürüleceğini duyurmaktan memnuniyet duyar. Katılmak isteyen sakinler gelecek ayın ilk cumartesi günü yapılacak bir toplantıya davet edilmektedir. Her haneye, bütün yetiştirme mevsimi boyunca bakmayı kabul etmesi koşuluyla küçük bir parsel verilecektir. Aletler ve tohumlar ücretsiz sağlanacaktır, ancak gönüllülerden kendi eldivenlerini getirmeleri rica edilir. Deneyimi olmayanlar endişelenmesin, çünkü deneyimli bahçıvanlardan oluşan bir ekip her hafta sonu rehberlik edecektir. Projenin komşuları birbirine yaklaştıracağı ve bölgeyi daha yeşil yapacağı umulmaktadır. İlgilenen herkes haftanın sonundan önce kütüphane masasındaki listeyi imzalamalıdır.",
+    "keys": [
+     "mahalle",
+     "otoparkın",
+     "parsel",
+     "eldivenlerini"
+    ]
+   },
+   {
+    "title": "Kayıp Anahtarlar",
+    "text": "Elena bütün öğleden sonra arabasının anahtarlarını arayarak evi altüst etmişti. Her cebi kontrol etti, her yastığı kaldırdı, hatta çöp kutusunu bile boşalttı, ama anahtarlardan eser yoktu. Birinin almış olması gerektiğine ikna olarak bütün hafta tuhaf biçimde sessiz kalan yeni ev arkadaşından şüphelenmeye başladı. Sonunda gözleri dolmak üzereyken şikâyet etmek için annesini aradı. Annesi sabırla dinledi, sonra Elena'nın sol elinde tesadüfen bir şey tutup tutmadığını sordu. Elena aşağı baktı ve anahtarların bütün zaman boyunca elinde olduğunu fark etti. O kadar güldü ki oturmak zorunda kaldı ve daha sonra ev arkadaşından bir pastayla özür diledi.",
+    "keys": [
+     "anahtarlarını",
+     "yastığı",
+     "annesini",
+     "pastayla"
+    ]
+   },
+   {
+    "title": "Eski Liman Kasabası",
+    "text": "Liman kasabası, bir nehrin denizle buluştuğu dar bir vadinin ucunda yer alır. Soluk mavi ve sarıya boyanmış evleri, düzensiz sıralar halinde yamaca tırmanır. Ziyaretçiler çoğu kez, yalnızca martıların çığlığı ve balıkçı teknelerinin gıcırtısıyla bozulan sessizlikten etkilenir. Ana meydanda, yerel efsaneye göre hiç kurumamış bir taş çeşme durur. Dükkânların çoğu küçük ve aile işletmesidir, birçoğu nesillerdir değişmemiştir. Yol dik ve kıvrımlı olduğu için pek az turist ilk kafeden öteye gider. Gidenler ise gün batımında bütün körfezin manzarasıyla ödüllendirilir.",
+    "keys": [
+     "vadinin",
+     "martıların",
+     "çeşme",
+     "körfezin"
+    ]
+   },
+   {
+    "title": "Kütüphane Geç Saate Kadar Açık",
+    "text": "Kuzeydeki bir şehirde bir halk kütüphanesi, yerel öğrencilerin talebi üzerine gece yarısına kadar açık kalmaya başladı. Geçen ay başlayan uygulama, bir anketin birçok gencin akşamları çalışabileceği sessiz bir yeri olmadığını göstermesinin ardından getirildi. Yetkililer, ek saatlerin beklenenden çok daha popüler olduğunu ve çoğu gece her masanın dolu olduğunu bildiriyor. Ancak bazı sakinler, binayı bu kadar geç saate kadar ısıtmanın ve personelle donatmanın maliyetinden şikâyet etti. Belediye, projenin altı ay sonra gözden geçirileceğini yanıtladı. Katılım yüksek kalırsa diğer şubelere de yaygınlaştırılması muhtemeldir. Bu arada bir grup gönüllü, okuma salonlarının gözetimine ücretsiz yardım etmeyi önerdi.",
+    "keys": [
+     "kütüphanesi",
+     "öğrencilerin",
+     "anketin",
+     "gönüllü"
+    ]
+   },
+   {
+    "title": "El Yazısı Neden Hâlâ Önemli",
+    "text": "Birçok kişi, artık hemen herkesin bir klavyesi olduğuna göre el yazısının güvenle bırakılabilecek bir beceri olduğunu savunuyor. Bu görüşün yanlış olduğuna, ya da en azından erken olduğuna inanıyorum. Araştırmalar, elle not alan öğrencilerin daha fazlasını hatırlama eğiliminde olduğunu gösteriyor, çünkü kopyalamak yerine özetlemek zorunda kalıyorlar. Yavaş yazmak da zihne, fikirler sayfaya ulaşmadan önce onları düzenleme zamanı tanıyor. Elbette klavyeyle yazmak daha hızlıdır ve uzun belgeler için daha pratik olduğunu kimse inkâr etmez. Yine de hız, değerin tek ölçüsü değildir. Bu nedenle okulların, ders programında eskisinden daha küçük bir yer tutsa bile el yazısı öğretmeye devam etmesi gerektiğini düşünüyorum.",
+    "keys": [
+     "yazısının",
+     "klavyesi",
+     "öğrencilerin",
+     "özetlemek"
+    ]
+   },
+   {
+    "title": "Isı Pompası Nasıl Çalışır",
+    "text": "Isı pompası, bir evi ısıyı üreterek değil taşıyarak ısıtır. Soğuk bir günde bile dış hava biraz sıcaklık içerir, makinenin içindeki bir sıvı onu emer ve gaza dönüştürür. Bu gaz sonra sıkıştırılır ve sıkıştırma onu çok daha sıcak yapar, tıpkı bir bisiklet pompasının kullanıldığında ısınması gibi. Sıcak gaz evin içindeki bir serpantinden geçer, orada ısısını verir ve yeniden sıvıya dönüşür. Döngü sonra yeniden başlar ve makine açık kaldığı sürece kendini tekrar eder. Yakıt yakmak yerine ısı aktardığı için bir ısı pompası tükettiğinden birkaç kat daha fazla enerji sağlayabilir. Bu verimlilik, bu tür makinelerin soğuk kışları olan ülkelerde neden giderek yaygınlaştığını açıklar.",
+    "keys": [
+     "pompası",
+     "sıvı",
+     "gaz",
+     "serpantinden"
+    ]
+   },
+   {
+    "title": "Büyükbabamın Atölyesi",
+    "text": "On yaşlarındayken her yaz tatilini köyün kıyısındaki büyükbabamın atölyesinde geçirirdim. Talaş ve yağ kokardı, duvarlar da dokunmama izin verilmeyen aletlerle kaplıydı. Çalışırken nadiren konuşurdu, ama ara sıra bana bir tahta parçası uzatır ve damarlarını hissetmemi söylerdi. O zamanlar bunu sıkıcı bulurdum ve kuzenlerimle dışarıda oynamayı tercih ederdim. Yıllar sonra anladım ki bana dikkat etmeyi öğretiyormuş. Ben okulu bitirmeden kısa süre önce öldü ve atölye hemen ardından satıldı. Bugün bile taze talaş kokusu o uzun sessiz öğleden sonraları öyle canlı biçimde geri getiriyor ki bir an durmam gerekiyor.",
+    "keys": [
+     "büyükbabamın",
+     "atölyesinde",
+     "talaş",
+     "aletlerle"
+    ]
+   }
+  ],
+  "C1": [
+   {
+    "title": "Bir Çevirmenin Salısı",
+    "text": "Marta evden edebî çevirmen olarak çalışır, kulağa olduğundan daha gösterişli gelen bir iştir. Sabahlarını en zor bölümlere ayırır, çünkü konsantrasyonunun öğle yemeğinden çok önce zayıfladığını öğrenmiştir. Saatlerce tek bir cümle üzerinde kıvranır, belli bir sözcüğün yazarın tonunu yakalayıp yakalamadığını ya da yalnızca yaklaşıp yaklaşmadığını tartar. Öğleden sonranın başlarında genellikle e-postalara ve faturalara geçer, bunlar çok az hayal gücü gerektiren ama yine de yapılması gereken işlerdir. Komşuları onun sonsuz boş zamanı olduğunu varsayar ve küçük iyilikler istemek için sürekli kapısını çalarlar. Evde çalışmanın da çalışmak olduğunu anlatmayı bıraktı, çünkü bu açıklama pek anlaşılmıyor gibi görünür. Akşamları uzun bir yürüyüşe çıkar ve bunu işten bir ara olarak değil, işin bir parçası olarak görür. Masasında gelmeyi reddeden fikirler, nehirle pazar yeri arasında habersizce gelmenin bir yolunu bulur. Sonunda geri döndüğünde, gözlerinin gözden kaçırmış olabileceği yanlış notaları duymak için sabahki çalışmasını yüksek sesle okur.",
+    "keys": [
+     "marta",
+     "çevirmen",
+     "cümle",
+     "yürüyüşe"
+    ]
+   },
+   {
+    "title": "Çölü Karayoluyla Geçmek",
+    "text": "Sıcak dayanılmaz hâle gelmeden çölün en kötü kısmını geçmeyi umarak şafaktan önce yola çıktık. Yol haritada düz ve basit görünüyordu, ama bir bisikletliyi utandıracak bir hızda sürünmemizi gerektiren çukurlarla doluydu. Öğleye doğru arabanın göstergesindeki termometre kırk dereceyi aşmıştı ve içerideki hava çiğnenebilecek kadar yoğun hissediliyordu. Rehberimiz, Idris adlı suskun bir adam, hiç etkilenmemiş görünüyordu ve yolculuğun çoğunu kendi kendine mırıldanarak geçirdi. Motor sonunda pes ettiğinde kaputu kaldırdı, uzun bir an inceledi ve sorunun gevşek bir kablodan başka bir şey olmadığını açıkladı. On dakika içinde yeniden hareket ediyorduk, gerçi sakinliğinin büyük bir mekanik yetenekten çok deneyimden kaynaklandığından şüpheleniyorum. O akşam, hiç ziyaretçi beklemeyen köylülerin bize ısrarla hurma ve tatlı çay yedirdiği küçük bir vahaya ulaştık. Geriye dönüp baktığımda rahatsızlığı ancak belli belirsiz hatırlıyorum, oysa o yabancıların cömertliği hâlâ eskisi kadar keskin. İnsanların nazik olmak için ne kadar az şeye ihtiyaç duyduğuna dair bir ders bu.",
+    "keys": [
+     "çölün",
+     "kaputu",
+     "kablodan",
+     "vahaya"
+    ]
+   },
+   {
+    "title": "Nazik Bir Ret",
+    "text": "Sevgili Helena, komiteye katılmam için yaptığın cömert davet için teşekkür ederim, onu hem gururla hem de bir miktar suçlulukla okudum. Dikkatle düşündükten sonra, heves eksikliğinden değil, zaten makul olanın ötesinde yüklü olduğumdan reddetmem gerektiği sonucuna vardım. Geçen yıl boyunca tek başlarına makul görünen birkaç sorumluluk üstlendim, ama bir araya geldiklerinde nefes alacak yer bırakmadıklarını gördüm. Birkaç şeyi düzgün yapmayı, her listede yer alıp çok az katkı sunmaya tercih ederim. Bununla birlikte, belki belgeleri gözden geçirerek ya da yıllık toplantınızda konuşarak daha sınırlı bir şekilde yardımcı olmaktan memnuniyet duyarım. Bunlardan biri işinize yararsa, tek yapmanız gereken söylemek, ben de ajandamda yer açarım. Kararımı, hâlâ derinden takdir ettiğim amaca karşı bir ilgisizlik işareti olarak görmeyeceğinizi umuyorum. Bir kez daha en sıcak teşekkürlerimi ve önümüzdeki yıl için en iyi dileklerimi kabul edin.",
+    "keys": [
+     "helena",
+     "komiteye",
+     "sorumluluk",
+     "ajandamda"
+    ]
+   },
+   {
+    "title": "Akşam Konuşmaları Programı",
+    "text": "Riverside Müzesi, gündelik nesnelerin tarihine adanmış bir akşam konuşmaları dizisini duyurmaktan memnuniyet duyar. Her oturumu farklı bir uzman yönetecek ve bir anahtar ya da saat gibi görünüşte sıradan bir nesnenin insan alışkanlıklarını nasıl şekillendirdiğini ele alacaktır. Konuşmacılardan kuru bilgiler sunmak yerine hikâyeler anlatmaları ve konuşma boyunca soruları karşılamaları istenmiştir. Koltuk sayısı sınırlıdır, bu yüzden erken rezervasyon önemle tavsiye edilir ve kapılar kapandıktan sonra geç kalanlar içeri alınamaz. Biletler öğrencilere ve altmış beş yaşını aşan herkese indirimli fiyatla sunulmaktadır. İkramlar daha sonra kafede servis edilecek ve konuklara sohbeti gayriresmî biçimde sürdürme fırsatı verecektir. Bizzat katılamayanlar her konuşmayı çevrimiçi izleyebilir, ancak kayıtlar yalnızca bir hafta boyunca erişilebilir olacaktır. Her yaştan ve geçmişten meraklı zihinleri ağırlamayı sabırsızlıkla bekliyoruz.",
+    "keys": [
+     "müzesi",
+     "konuşmaları",
+     "biletler",
+     "kafede"
+    ]
+   },
+   {
+    "title": "Son Müşteri",
+    "text": "Henrik otuz yıldır küçük kitapçıyı işletmişti ve kapanacağı gün, kutuları toplayarak geçecek sakin bir öğleden sonradan başka bir şey beklemiyordu. Müşteriler içeri uğradı, üzüntülerini mırıldandı ve hiçbir şey almadan ayrıldı, bu da ona uzun ve kârsız bir kariyer için yakışan bir son gibi geldi. Kapanışa doğru genç bir kadın girdi, boş raflara göz gezdirdi ve belli bir az bilinen şiir kitabının bir nüshası olup olmadığını sordu. Vardı, gerçi birinin bunu isteyeceğini beklemekten çok önce vazgeçmişti. Kadın, merhum babasının onu yazdığını ve yıllardır başarısızca aradığını açıkladı. O kitabı raflarında salt inatçılıktan saklayan Henrik, boğazının düğümlendiğini hissetti. Parasını almayı reddetti ve kitabı kendisi, sanki kırılganmış gibi özenle sardı. Kadın gidince bir süre sessizlikte durdu, sonra kutuları boşalttı ve dükkânın sonuçta açık kalacağına karar verdi.",
+    "keys": [
+     "henrik",
+     "kitapçıyı",
+     "şiir",
+     "kutuları"
+    ]
+   },
+   {
+    "title": "Cuma Pazarı",
+    "text": "Her cuma eski mahalledeki liman meydanı, insanın kalabalığın içinden değil kalabalıkla birlikte hareket etmek zorunda kaldığı bir pazara dönüşür. Baharat, ikinci el kitap ve elde dokunmuş sepet satan tezgâhlar, solmuş tuvalden tentelerin altında omuz omuza dizilir. Hava, taze kahve ve sıcak ekmek kokularıyla tuhaf bir şekilde karışan ızgara balık kokusuyla ağırdır. Satıcılar fiyatlarını neredeyse şarkıya benzeyen öyle alışkın bir ritimle bağırır. Pazarlık yalnızca hoş görülmez, beklenir de, ve söylenen ilk fiyatı ödeyen bir ziyaretçiye kibar bir eğlenceyle bakılır. Merkezî koridorlardan uzakta ise atmosfer değişir ve yaşlı adamların saatlerce tek kelime etmeden iskambil oynadığı sessiz köşeler bulunur. Yerliler, en iyi pazarlıkların öğleden sonranın geç saatlerinde, satıcılar mallarını eve taşımaktan kaçınmak istediğinde yapılabildiğinde ısrar eder. Akşama doğru geriye buruşmuş kâğıtlardan, birkaç başıboş kediden ve günün gürültüsünün hafif yankısından başka bir şey kalmaz.",
+    "keys": [
+     "baharat",
+     "tezgâhlar",
+     "pazarlık",
+     "kediden"
+    ]
+   },
+   {
+    "title": "Bir Kasaba Merkezini Kapatıyor",
+    "text": "Güneyde orta büyüklükte bir kasaba, tarihî merkezini özel araçlara kapatmaya karar verdi ve bu önlem görüşleri keskin biçimde böldü. Yetkililer değişikliğin gürültüyü ve kirliliği azaltacağını ve sokakları yayalar için daha güvenli hâle getireceğini savunuyor. Esnaf ise bir zamanlar kapılarının önüne park eden müşterilerin artık başka yerde alışveriş etmeyi seçeceğinden korkuyor. Bu kaygıları gidermek için belediye ücretsiz servis otobüsleri sağlamayı ve yerel işletmelere teslimatları sübvanse etmeyi vaat etti. Komşu bir kasabadaki benzer bir deneme bir yıl sonunda başarılı bulundu, ancak eleştirmenler koşulların aynı olmadığına dikkat çekiyor. Geçen hafta yapılan halk toplantıları çoğu zaman hararetliydi ve birkaç konuşmacı belediye başkanını yeterli danışma yapmadan hareket etmekle suçladı. Belediye başkanı ise kararın açıkça alındığını ve kasabanın beklemeyi göze alamayacağını savunuyor. Kısıtlamaların, yeni otobüs hatları hazır olduğunda gelecek baharın başında yürürlüğe girmesi planlanıyor.",
+    "keys": [
+     "kasaba",
+     "yayalar",
+     "esnaf",
+     "belediye"
+    ]
+   },
+   {
+    "title": "Can Sıkıntısının Savunması",
+    "text": "Can sıkıntısını, çoğunlukla en yakın ekranla, ilk fırsatta ortadan kaldırılması gereken bir düşman olarak görme eğilimindeyiz. Oysa en özgün düşüncelerimizden bazılarının tam da hiçbir şeyin dikkatimizi talep etmediği anlarda ortaya çıktığını savunurum. Başıboş dolaşmaya bırakılmış bir zihin, sürekli eğlendirilen bir zihnin hiç kurma fırsatı bulamadığı bağlantıları kurar. Özellikle çocuklar ara sıra görevsiz bırakılmaktan yararlanır, çünkü oyunlarını icat ettikleri ve kendi ilgi alanlarını keşfettikleri anlar işte böyle anlardır. Her boş dakikayı etkinliklerle doldurmaya koşan ebeveynler, en iyi niyetle, çocuklarını bu fırsattan yoksun bırakıyor olabilir. Eleştirmenler can sıkıntısının huzursuzluğa, hatta yaramazlığa yol açabileceğine itiraz edecek ve tamamen haksız değiller. Ama huzursuzluk çoğu zaman yaratıcılığın ilk aşamasıdır ve getirdiği rahatsızlık ödenmesi gereken küçük bir bedeldir. Bu nedenle onu çok çabuk iyileştirme dürtüsüne direnmekte yarar var.",
+    "keys": [
+     "sıkıntısını",
+     "ekranla",
+     "çocuklar",
+     "yaratıcılığın"
+    ]
+   },
+   {
+    "title": "Uyku ve Bellek",
+    "text": "Bilim insanları uykunun geçici deneyimleri kalıcı anılara dönüştürmede merkezî bir rol oynadığına inanıyor. Gün boyunca yeni bilgi, beynin sınırlı kapasiteye sahip bir bölgesinde geçici olarak tutulur. Uykuya daldığımızda bu bilgi yavaş yavaş yeniden oynatılır ve uzun süre saklanabileceği alanlara aktarılır. Sürecin esas olarak derin uykuda, beynin elektriksel etkinliği büyük ve düzenli dalgalara yavaşladığında gerçekleştiği düşünülüyor. Araştırmacılar, akşam bir kelime listesi öğrenip sonra uyuyan kişilerin, uyanık kalanlardan çok daha fazlasını hatırladığını bulmuştur. Uyku ayrıca seçici görünüyor, en önemli anıları güçlendiriyor ve önemsiz ayrıntıların silinmesine izin veriyor. Bu, bir gecelik dinlenmenin neden önceki akşam imkânsız görünen bir sorunu çözmemize çoğu zaman yardımcı olduğunu açıklıyor. Bu aynı zamanda ders çalışmak için uykusundan fedakârlık eden öğrencilerin kendi amaçlarını baltalıyor olabileceğini düşündürüyor.",
+    "keys": [
+     "uykunun",
+     "beynin",
+     "kelime",
+     "öğrencilerin"
+    ]
+   },
+   {
+    "title": "Nehrin Taştığı Yaz",
+    "text": "Nehrin taştığı yaz on iki yaşındaydım ve onu bir felaketten çok olağanüstü bir tatil olarak hatırlıyorum. Okul iki hafta boyunca iptal edildi ve kasabamızın alt sokakları, komşuların bulabildikleri her şeyle kürek çektiği su yollarına dönüştü. Genellikle ciddi ve ketum bir adam olan babam, ödünç alınmış bir kayıkla yaşlı sakinleri yüksek yerlere taşıyarak saatler geçirdi. Onu hayranlık ve kıskançlık karışımı bir duyguyla izledim, çünkü onu hiç bu kadar açıkça neşeli görmemiştim. Annem ise kilise salonunda bir mutfak kurdu ve gelen herkesi, çoğu zaman gece yarısını çok geçene kadar doyurdu. Ancak sonradan, su çekilip geriye harap mobilyaları ve sırılsıklam halıları bıraktığında, ne kadar çok şeyin kaybedildiğini kavradım. Buna rağmen yetişkinler o iki haftadan sonradan tam açıklayamadığım bir sıcaklıkla söz ederdi. Geriye dönüp baktığımda, bütün kasabanın birbirine yabancı olmaktan çıktığı tek zamanı andıklarına inanıyorum.",
+    "keys": [
+     "nehrin",
+     "okul",
+     "babam",
+     "annem"
+    ]
+   }
+  ],
+  "C2": [
+   {
+    "title": "Gece Vardiyası",
+    "text": "Nadia saatlerdir koğuştadır, yıllarca süren alıştırmanın neredeyse içgüdüsel hâle getirdiği hafif adımlarla yataklar arasında dolaşmaktadır. Gündüzleri o kadar kalabalık olan koridorlar, gece sessiz ve belli belirsiz denizci bir hava kazanır, sanki bina karanlıkta sürüklenen bir gemiymiş gibi. Hastaların, gün ışığında asla itiraf etmeyeceklerini gecenin geç saatlerinde ona açtıklarını öğrenmiştir ve herhangi bir ilaçtan aşağı olmadığını düşündüğü bir dikkatle dinler. Saat üç civarında, yorgunluğun en hain olduğu anda, çay yapar ve kısa bir süre pencerenin önünde durup ilk dağıtım kamyonetlerinin boş sokaklarda burun buruna ilerleyişini izler. Hiç gece çalışmamış meslektaşları bu işi gündüzün daha yalnız bir hâli olarak hayal etme eğilimindedir, oysa o bunu kendine özgü gelenekleri ve kendine özgü tuhaf şefkati olan bütünüyle başka bir ülke olarak görür. Sabah ekibi gürültüyle ve iyi niyetle dolu olarak geldiğinde notlarını, açıklamakta zorlanacağı hafif bir isteksizlikle teslim eder. İşe gidenlerin akınına karşı eve yürürken, dünyanın geri kalanının unutmayı kabul ettiği bir yerden dönen bir ziyaretçi gibi hisseder. Şehrin uyanışının sesine uyuyakalır, bu da ona hoş bir ironi gibi gelir. O sıra bunu paylaşacak kimse kalmamıştır.",
+    "keys": [
+     "nadia",
+     "koğuştadır",
+     "koridorlar",
+     "çay"
+    ]
+   },
+   {
+    "title": "Atalarımın Köyü",
+    "text": "Yolculuğu onlarca yıl ertelemiştim, bunun bir nedeni büyükannemin hikâyelerinden kurduğum köye gerçeğin uymayacağına dair belirsiz bir korkuydu. Sonunda otobüsten indiğimde yer bana bir anda hayal ettiğimden hem daha küçük hem daha sıradan göründü, kuru bir dere yatağının üstündeki bir sırta tutunmuş alçak evlerden oluşan dağınık bir yerleşim. Tereddüdümü fark eden yaşlı bir adam kimi aradığımı sordu ve ona büyükannemin kızlık soyadını söylediğimde bana mezardan kalkmışım gibi baktı. Dakikalar içinde evden eve götürülüyor, varlığından hiç söz edilmemiş kuzenlerle tanıştırılıyor ve iştahım olmadığı hâlde reddedemediğim yemekleri yemeye zorlanıyordum. Aile evinin çoktan çöktüğü ve kapı eşiğinin yalnızca birkaç taşının otların arasında ayakta kaldığı ortaya çıktı. O taşların önünde, hiç sahip olmadığım bir şey için duyulan yas diyebileceğim bir duyguyla durduğumu hatırlıyorum. Yine de akşam olduğunda, tek bir ampulün altında kalabalık bir sofraya oturmuşken, bulmaya geldiğim köyün hiçbir zaman bir yer olmadığını hissettim. O, daha çok, bu yabancıların bana bir an bile tereddüt etmeden uzattığı ait olma alışkanlığıydı. Ertesi sabah daha az yanılsamayla ve ilginç biçimde çok daha büyük bir yuva duygusuyla ayrıldım.",
+    "keys": [
+     "köye",
+     "büyükannemin",
+     "otobüsten",
+     "sofraya"
+    ]
+   },
+   {
+    "title": "Taslağınız Hakkında Bir Yanıt",
+    "text": "Sevgili Marcus, yanıt vermem bu kadar uzun sürdüğü için üzgünüm ve gecikmeyi yalnızca mazeret göstermek yerine açıklamak isterim. Taslağın geldiğinde onu iki kez okudum ve yararlı hiçbir şey söyleyemediğimi gördüm, fikir beyan etmek için para alan biri için alışılmadık ve hafifçe alçakgönüllüleştirici bir deneyim. Tezin zarif, kanıtların özenle derlenmiş, ama sonuç bana öncesindeki sayfaların hak ettiğinden fazlasını vaat ediyor gibi göründü. Sorunu tam olarak belirlemem birkaç günümü aldı, o da şudur ki henüz hiçbir okurun sormadığı bir soruyu yanıtlamışsın. Konuyla seni ilk çeken bilmeceyle açılış yapsaydın, sonuç o zaman bir iddia olarak değil bir çözüm olarak gelirdi. Bunun umduğundan daha büyük bir değişiklik olduğunun farkındayım ve niyetlerini bozduğunu düşünürsen anlayışla karşılarım. Yine de son tarihten önce bunu düşünmeni tavsiye ederim, çünkü eser yazıldığı kadar özenle okunmayı hak ediyor. Bunların herhangi birini daha uzun tartışmak istersen beni aramaktan çekinme. Bu arada, gördüklerimin çoğundan zaten epey daha iyi olan bir çalışma için tebriklerimi kabul et.",
+    "keys": [
+     "marcus",
+     "taslağın",
+     "sonuç",
+     "bilmeceyle"
+    ]
+   },
+   {
+    "title": "Yazarlar İçin İnziva",
+    "text": "Kasabaların gürültüsünden uzak, ıssız bir vadiye yerleşmiş eski değirmen, işinin ipini kaybetmiş yazarlara kesintisiz bir yalnızlık haftası sunuyor. Telefonlar için sinyal yok, televizyon yok ve üzgünüz ama bunların hiçbiri için özür de yok. Her konuğa pencerenin yanında bir masası olan küçük bir oda verilir ve yemekler, hiçbir düşünce sohbetle bölünmesin diye, belirli saatlerde sessizce kapıya bırakılır. Akşamlar, isteyenler için, katılımcıların çalışmalarından yüksek sesle okuyabildiği ve diğerlerinden nazik ama dürüst eleştiri alabildiği uzun bir masanın çevresinde geçer. Kitapları birçok dile çevrilmiş olan yerleşik bir editör her öğleden sonra özel görüşmeler için hazır bulunur. Haftanın bitmiş bir el yazması ortaya çıkaracağına dair söz vermiyoruz, çünkü deneyim bize ilhamın saatlik kiralanamayacağını öğretti. Garanti edebileceğimiz şey sessizlik, güzel ekmek ve kişinin kendi yazısını ciddiye alması için nadir bir izindir. Yerler kesinlikle sekizle sınırlıdır ve başvuranlardan neyi başarmayı umduklarına dair kısa bir açıklamayla birlikte çalışmalarından kısa bir örnek göndermeleri istenir. Seçilenler iki hafta içinde bilgilendirilecektir.",
+    "keys": [
+     "değirmen",
+     "yazarlara",
+     "editör",
+     "sessizlik"
+    ]
+   },
+   {
+    "title": "Miras",
+    "text": "Yaşlı profesör öldüğünde bütün kütüphanesini, onunla hiçbir zaman hemfikir olmamış tek öğrenciye bıraktı. Yıllarca iltimas umuduyla ona dalkavukluk etmiş diğer öğrenciler, onlara yalnızca arkadaşlıkları için teşekkür eden kısa bir nottan başka bir şey almadı. Öfkeleri yüksek sesliydi ve bir süre vasiyetin mahkemede itiraz edilmesi muhtemel görünüyordu. Yine de seçilen varis, Irena adında sessiz bir kadın, sahip olma ihtimali karşısında tuhaf biçimde etkilenmedi ve ilk haftayı rafların arasında dolaşarak geçirdi. Hemen her ciltte eski öğretmeninin sıkışık el yazısıyla yazılmış, çoğu doğrudan kendisine hitap eden kenar notları buldu, sanki onun itirazlarını on yıllar öncesinden tahmin etmiş gibi. Kimi alaycı, kimi şaşırtıcı biçimde şefkatliydi ve birkaçı yüksek sesle asla kabul etmediği noktalara taviz veriyordu. Seminer odasında yaptıklarını sandığı tartışmanın, onun için bitirmeye dayanamadığı uzun bir sohbet olduğu yavaş yavaş aklına dank etti. Vasiyete itiraz etmedi ve tek bir kitap satmadı. Bunun yerine ona kenar boşluklarında, daha küçük bir el yazısıyla ve çok daha iyi bir dilbilgisiyle yanıt vermeye başladı.",
+    "keys": [
+     "profesör",
+     "irena",
+     "kitap",
+     "vasiyete"
+    ]
+   },
+   {
+    "title": "Tuz Düzlükleri",
+    "text": "Çok az manzara insani ölçeği büyük tuz düzlükleri kadar tamamen siler, ufuk soluk ve parıldayan bir sise karışır ve göz üzerinde dinlenecek bir şey bulmakta zorlanır. Yağmurdan sonra yüzeyin üzerine ince bir su tabakası yayılır ve gökyüzü öylesine kusursuz yansır ki ziyaretçiler bulutların üzerinde yürüme hissini anlatır. Kurak mevsimde ise zemin, ayak altında donmuş kar gibi çıtırdayan geniş beyaz kabuk altıgenlerine çatlar. Sessizlik tam ve hafifçe huzursuz edicidir, onu yalnızca saçlara ve dişlerin arasına yerleşen ince bir toz taşıyan rüzgâr böler. Fotoğrafçılar, bir insanın avucunda bir dağı tutuyormuş gibi göründüğü fotoğraflar gibi, buranın izin verdiği optik oyunlara çekilir. Ancak yerel işçiler orayı bir gösteri değil bir hasat olarak görür ve uzun günler boyunca tuzu güneşte kurusun diye alçak yığınlar hâlinde tırmıklayarak geçirir. Yıpranmış yüzleri ve çatlak elleri, turistlerin nadiren durup düşündüğü bir emeğe tanıklık eder. Alacakaranlıkta bütün alan bir çürük rengine bürünür, sonra yıldızların erişilebilir göründüğü kadar derin bir karanlığa karışır. Bu, bakmaya gelenleri ödüllendiren, ama kalmaya gelenlerden belli bir alçakgönüllülük isteyen bir yerdir.",
+    "keys": [
+     "tuz",
+     "ufuk",
+     "gökyüzü",
+     "işçiler"
+    ]
+   },
+   {
+    "title": "Antik Bir Tekne Bulundu",
+    "text": "Kuzey kıyısında çalışan arkeologlar, yaklaşık iki bin yıllık göründüğü anlaşılan ahşap bir teknenin bulunduğunu duyurdu, bu buluş ekibin en deneyimli üyelerini bile şaşırttı. Üzerinde yattığı oksijensiz çamur tarafından korunmuş olan gemi neredeyse bütünüyle sağlam ve onu biçimlendirmekte kullanılan aletlerin izleri gövdesi boyunca hâlâ görülebiliyor. İlk analiz, geniş ve sığ gövdesinin ağır yük taşıyacağı ama az hız sağlayacağı için teknenin savaş için değil ticaret için yapıldığını düşündürüyor. Enkazdan çıkarılan nesneler arasında çanak çömlek kavanozlar, bir sarım halat ve bir çocuk oyuncağı gibi görünen bir şey vardı, bu ayrıntı hikâyeyi izleyen birçok kişiyi duygulandırdı. Buluş basında bir kuşağın bu türden en önemli buluşu olarak tanımlandı, ancak ekibin kendisi böyle bir dilden kaçındı. Kazı yöneticisi, tarihleme testlerinin sonuçlarının birkaç ay boyunca elde olmayacağını belirterek kapsamlı sonuçlar çıkarılmasına karşı uyardı. Yerel yetkililer ise bölgede bir müze yapmaktan şimdiden söz ediyor, bu fikri bazı sakinler coşkuyla, bazıları derin bir kuşkuyla karşılıyor. Eleştirmenler, kalabalıkların gelmesinin tekneyi ilk başta koruyan çok hassas manzaraya zarar verebileceğinden korkuyor. Şimdilik tekne koruyucu bir örtünün altında duruyor ve kaderinin bir süre daha tartışılması muhtemel.",
+    "keys": [
+     "arkeologlar",
+     "tekne",
+     "çamur",
+     "müze"
+    ]
+   },
+   {
+    "title": "Yavaş Okumanın Erdemi",
+    "text": "Bir yılda kaç kitap okuduğuyla övünmek moda hâline geldi, sanki edebiyat keşfedilecek bir ülke değil kat edilecek bir mesafeymiş gibi. Bu alışkanlığı yalnızca bayağı değil, aynı zamanda kendi kendini baltalayan buluyorum, çünkü aceleyle geçilen bir kitap, bir peronda görülen bir trenden fazla iz bırakmaz. Özellikle büyük romanlar hızla tüketilmek için yazılmamıştır ve zenginlikleri, sabırsız okurun olay örgüsü peşinde atladığı tam da o bölümlerde yatar. Bir cümlenin üzerinde oyalanmak, bizi şaşırtmış ya da sevindirmiş bir paragrafa geri dönmek yavaşlığın değil, dikkatin işaretidir, ki dikkat modern erdemlerin en az bulunanı hâline gelmiştir. Sayı oyununun savunucuları daha çok okumanın her zaman daha az okumaktan iyi olduğunu söyleyecek ve dar anlamda haklı olacaklardır. Ama niceliği her şeyin üstünde ödüllendiren bir alışkanlık, bize çok geçmeden niceliği hayatta da okumada olduğu gibi her şeyin üstünde değerli görmeyi öğretecektir. Yavaşlık, ne de olsa, iyi bir kitabın okunmak istediği hızdan başka bir şey değildir. Beni değiştiren on kitabı, yalnızca içimden geçen yüz kitaba tercih ederim. Bu beni okurlar arasında bir tembel yapıyorsa, bu unvanı pişmanlık duymadan ve belli bir özel memnuniyetle kabul ederim.",
+    "keys": [
+     "kitap",
+     "edebiyat",
+     "cümlenin",
+     "dikkatin"
+    ]
+   },
+   {
+    "title": "Gelgitler Nasıl Oluşur",
+    "text": "Açıklama gerektirmeyecek kadar doğal ve düzenli görünen gelgitler, aslında yerçekimi ile hareket arasındaki ince bir çekişmenin ürünüdür. Ay, Dünya'nın kendisine en yakın tarafını en güçlü biçimde çeker ve okyanusları onu gezegenin çevresinde izleyen bir kabarıklık hâlinde toplar. Daha az sezgisel olarak, karşı tarafta ikinci bir kabarıklık oluşur, çünkü orada Ay'ın çekimi diğer yerlerden daha zayıftır ve su, adeta geride bırakılır. Dünya bu iki kabarıklığın altında döndükçe herhangi bir kıyı her birinden günde bir kez geçer, bu yüzden çoğu yer kabaca bir gün içinde iki met ve iki cezir yaşar. Güneş de bir çekim kuvveti uygular, ancak daha büyük uzaklığı onun etkisini Ay'ınkinin yarısından azıyla sınırlar. Güneş ve Ay hizalandığında etkileri birleşerek alışılmadık büyüklükte gelgitler üretir, birbirleriyle dik açı yaptıklarında ise kısmen birbirini yok eder ve gelgitler hafif olur. Kıyı şekli bu hareketleri çarpıcı biçimde büyütebilir, öyle ki bazı dar koylarda su açık denizde görülen yüksekliğin birçok katı kadar çıkıp alçalır. Denizciler bu örüntüleri yüzyıllardır anlıyordu, altta yatan fizik ise nispeten yakın zamana kadar gizemli kalsa da. Bu kadar büyük bir mesafeden uygulanan bir kuvvetin, denizi onu tutan gezegenin çekimine karşı kaldırması hâlâ olağanüstüdür.",
+    "keys": [
+     "gelgitler",
+     "yerçekimi",
+     "kıyı",
+     "denizciler"
+    ]
+   },
+   {
+    "title": "Holdeki Piyano",
+    "text": "Büyüdüğüm evin holünde, ailede kimsenin çalamadığı, pek bir özelliği olmayan dik bir piyano vardı. Onu büyükannem, torunlarının kültürel gelişimi konusunda bir iyimserlik anıyla satın almıştı ve o, onlarca yıl o gerçekleşmemiş umudun bir anıtı olarak durdu. Çoğunlukla anahtarlar, mektuplar ve bir hanede biriken sonsuz küçük eşyalar için raf olarak kullanırdık ve kapağı nadiren kaldırılırdı. Yine de ziyaretçi bir teyzemin oturup yavaş ve tanıdık olmayan bir şey çalmaya başladığı öğleden sonrayı beni şaşırtan bir netlikle hatırlıyorum. Bütün ev durmuş gibiydi ve köpek bile başını halıdan kaldırıp ona ciddi bir şaşkınlık ifadesiyle baktı. Dokuz yaşlarındaydım ve holdeki şeyin, dizimle vurduğumda çıkan boş bir tıkırtıdan başka bir ses çıkarabileceği aklıma hiç gelmemişti. Bitirdiğinde kapağı kapattı, pratiğinin eksik olduğu için özür diledi ve hiçbir şey olmamış gibi mutfağa döndü. O zamandan beri çok müzik dinledim, bir kısmı kuşkusuz daha incedir, ama hiçbiri zihnimin mobilyasını aynı şekilde yeniden düzenlemedi. O öğleden sonra duyduğumun bir melodiden çok, evin tuttuğu şeye bir göz atış olduğundan şüpheleniyorum.",
+    "keys": [
+     "piyano",
+     "büyükannem",
+     "teyzemin",
+     "halıdan"
+    ]
+   }
+  ]
+ }
+}

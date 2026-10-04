@@ -868,6 +868,20 @@ const ja: Catalog = {
   "reader.cheer.pages": "{n}ページ読みました。よくできました!",
   "reader.cheer.talk": "おしゃべりしませんか?私をタップしてね。",
   "reader.cheer.back": "おかえりなさい!続けましょう。",
+  "langSwitch.title": "{language}に切り替えています",
+  "langSwitch.sub": "本、単語カード、テストを準備しています。少し時間がかかることがあるので、アプリを開いたままにしてください。",
+  "langSwitch.step.progress": "レベルと進捗を{language}に移しています",
+  "langSwitch.step.translator": "お使いのスマホの翻訳機能を準備しています",
+  "langSwitch.step.decks": "{language}の単語カードを読み込んでいます",
+  "langSwitch.step.tests": "{language}のテストを準備しています",
+  "langSwitch.step.books": "本をあなた向けに整えています",
+  "langSwitch.translator.wait": "スマホに表示されるダウンロードの確認で「はい」を選んでください。1分ほどかかることがあります。",
+  "langSwitch.translator.skip": "この端末では、まだ本まるごとの翻訳はできません。注目の本の第1章は、引き続き{language}で開けます。",
+  "langSwitch.offline": "オフラインのようです。一部の読み込みは、オンラインに戻ったときに完了します。",
+  "langSwitch.done": "準備完了です！",
+  "langSwitch.doneSub": "{language}の本、単語カード、テストの準備ができました。",
+  "langSwitch.start": "読みはじめる",
+  "langSwitch.continueAnyway": "完了を待たずに続ける",
 };
 
 export default ja;

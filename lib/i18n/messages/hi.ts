@@ -870,6 +870,20 @@ const hi: Catalog = {
   "reader.cheer.pages": "{n} पन्ने पढ़े। शाबाश!",
   "reader.cheer.talk": "बातें करें? मुझे टैप करें, हम बात करेंगे।",
   "reader.cheer.back": "वापसी पर स्वागत है! चलिए आगे बढ़ें।",
+  "langSwitch.title": "{language} पर स्विच हो रहा है",
+  "langSwitch.sub": "हम आपकी किताबें, फ़्लैशकार्ड और टेस्ट तैयार कर रहे हैं। इसमें थोड़ा समय लग सकता है, इसलिए कृपया ऐप खुला रखें।",
+  "langSwitch.step.progress": "आपका स्तर और प्रगति {language} में ले जाई जा रही है",
+  "langSwitch.step.translator": "आपके फ़ोन का अनुवादक तैयार किया जा रहा है",
+  "langSwitch.step.decks": "आपके {language} फ़्लैशकार्ड लोड हो रहे हैं",
+  "langSwitch.step.tests": "आपके {language} टेस्ट तैयार किए जा रहे हैं",
+  "langSwitch.step.books": "आपकी किताबें आपके अनुसार तैयार की जा रही हैं",
+  "langSwitch.translator.wait": "आपका फ़ोन जिस डाउनलोड के बारे में पूछे, उसे हाँ कहें। इसमें एक मिनट लग सकता है।",
+  "langSwitch.translator.skip": "यह डिवाइस अभी पूरी किताबों का अनुवाद नहीं कर सकता। चुनिंदा किताबों का अध्याय 1 फिर भी {language} में खुलता है।",
+  "langSwitch.offline": "लगता है आप ऑफ़लाइन हैं। कुछ चीज़ें ऑनलाइन लौटने पर लोड हो जाएँगी।",
+  "langSwitch.done": "सब तैयार है!",
+  "langSwitch.doneSub": "आपकी किताबें, फ़्लैशकार्ड और टेस्ट {language} में तैयार हैं।",
+  "langSwitch.start": "पढ़ना शुरू करें",
+  "langSwitch.continueAnyway": "पूरा होने तक आगे बढ़ें",
 };
 
 export default hi;

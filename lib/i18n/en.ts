@@ -878,6 +878,20 @@ export const EN = {
   "reader.cheer.pages": "{n} pages read. Well done!",
   "reader.cheer.talk": "Fancy a chat? Tap me and we can talk.",
   "reader.cheer.back": "Welcome back! Let's keep going.",
+  "langSwitch.title": "Switching to {language}",
+  "langSwitch.sub": "We're setting up your books, flashcards and tests. This can take a moment, so please keep the app open.",
+  "langSwitch.step.progress": "Moving your level and progress to {language}",
+  "langSwitch.step.translator": "Getting your phone's translator ready",
+  "langSwitch.step.decks": "Loading your {language} flashcards",
+  "langSwitch.step.tests": "Getting your {language} tests ready",
+  "langSwitch.step.books": "Personalising your books",
+  "langSwitch.translator.wait": "Say yes to the download your phone asks about. It can take a minute.",
+  "langSwitch.translator.skip": "This device can't translate whole books yet. Chapter 1 of the featured books still opens in {language}.",
+  "langSwitch.offline": "You seem to be offline. Some things will finish loading when you're back online.",
+  "langSwitch.done": "All set!",
+  "langSwitch.doneSub": "Your books, flashcards and tests are ready in {language}.",
+  "langSwitch.start": "Start reading",
+  "langSwitch.continueAnyway": "Continue while it finishes",
 } as const;
 
 export type MessageId = keyof typeof EN;

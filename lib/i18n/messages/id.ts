@@ -868,6 +868,20 @@ const indonesian: Catalog = {
   "reader.cheer.pages": "{n} halaman terbaca. Kerja bagus!",
   "reader.cheer.talk": "Mau ngobrol? Ketuk aku, yuk kita bicara.",
   "reader.cheer.back": "Selamat datang kembali! Ayo lanjut.",
+  "langSwitch.title": "Beralih ke {language}",
+  "langSwitch.sub": "Kami sedang menyiapkan buku, kartu kilat, dan tesmu. Ini bisa memakan waktu sebentar, jadi tetap buka aplikasinya ya.",
+  "langSwitch.step.progress": "Memindahkan level dan kemajuanmu ke {language}",
+  "langSwitch.step.translator": "Menyiapkan penerjemah di ponselmu",
+  "langSwitch.step.decks": "Memuat kartu kilat {language} milikmu",
+  "langSwitch.step.tests": "Menyiapkan tes {language} milikmu",
+  "langSwitch.step.books": "Menyesuaikan bukumu",
+  "langSwitch.translator.wait": "Setujui unduhan yang diminta ponselmu. Ini bisa memakan waktu semenit.",
+  "langSwitch.translator.skip": "Perangkat ini belum bisa menerjemahkan buku utuh. Bab 1 dari buku pilihan tetap terbuka dalam {language}.",
+  "langSwitch.offline": "Sepertinya kamu sedang offline. Beberapa hal akan selesai dimuat saat kamu kembali online.",
+  "langSwitch.done": "Semua siap!",
+  "langSwitch.doneSub": "Buku, kartu kilat, dan tesmu sudah siap dalam {language}.",
+  "langSwitch.start": "Mulai membaca",
+  "langSwitch.continueAnyway": "Lanjutkan sementara proses selesai",
 };
 
 export default indonesian;

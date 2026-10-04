@@ -872,6 +872,20 @@ const nl: Catalog = {
   "reader.cheer.pages": "{n} pagina's gelezen. Goed gedaan!",
   "reader.cheer.talk": "Zin in een praatje? Tik op mij en we kletsen.",
   "reader.cheer.back": "Welkom terug! We gaan door.",
+  "langSwitch.title": "Overschakelen naar {language}",
+  "langSwitch.sub": "We maken je boeken, flashcards en toetsen klaar. Dit kan even duren, houd de app dus geopend.",
+  "langSwitch.step.progress": "Je niveau en voortgang worden overgezet naar {language}",
+  "langSwitch.step.translator": "De vertaler van je telefoon wordt klaargemaakt",
+  "langSwitch.step.decks": "Je flashcards voor {language} worden geladen",
+  "langSwitch.step.tests": "Je toetsen voor {language} worden klaargemaakt",
+  "langSwitch.step.books": "Je boeken worden gepersonaliseerd",
+  "langSwitch.translator.wait": "Zeg ja tegen de download waar je telefoon om vraagt. Dit kan een minuutje duren.",
+  "langSwitch.translator.skip": "Dit apparaat kan nog geen hele boeken vertalen. Hoofdstuk 1 van de uitgelichte boeken opent nog steeds in {language}.",
+  "langSwitch.offline": "Het lijkt erop dat je offline bent. Sommige dingen worden geladen zodra je weer online bent.",
+  "langSwitch.done": "Alles klaar!",
+  "langSwitch.doneSub": "Je boeken, flashcards en toetsen staan klaar voor {language}.",
+  "langSwitch.start": "Begin met lezen",
+  "langSwitch.continueAnyway": "Doorgaan terwijl het afrondt",
 };
 
 export default nl;

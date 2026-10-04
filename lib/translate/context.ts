@@ -36,10 +36,10 @@ const memo = new Map<string, string | null>();
 
 /**
  * The meaning of the word at `start` in `text` (a text in `from`), written in `to`. Null when the phone cannot say, and then
- * the card keeps the word's own entry. Does nothing for scripts with no spaces (a "word" there is a whole phrase).
+ * the card keeps the word's own entry. Japanese, Chinese and Thai are broken into words by the phone's word breaker (lib/reading/sentences.ts).
  */
 export async function meaningInContext(text: string, start: number, word: string, from: string, to: string): Promise<string | null> {
-  if (from === to || /^(ja|zh|th)$/.test(from)) return null;
+  if (from === to) return null;
   const m = markWord(text, start, word);
   if (!m) return null;
   const key = `${from}>${to}|${m.marked}`;

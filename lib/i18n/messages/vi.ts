@@ -850,6 +850,20 @@ const vi: Catalog = {
   "reader.cheer.pages": "Đã đọc {n} trang. Giỏi lắm!",
   "reader.cheer.talk": "Trò chuyện chút nhé? Chạm vào mình, mình cùng nói chuyện.",
   "reader.cheer.back": "Chào mừng bạn quay lại! Cùng tiếp tục nhé.",
+  "langSwitch.title": "Đang chuyển sang {language}",
+  "langSwitch.sub": "Chúng tôi đang chuẩn bị sách, thẻ ghi nhớ và bài kiểm tra cho bạn. Việc này có thể mất một lúc, vì vậy hãy giữ ứng dụng luôn mở nhé.",
+  "langSwitch.step.progress": "Đang chuyển trình độ và tiến độ của bạn sang {language}",
+  "langSwitch.step.translator": "Đang chuẩn bị trình dịch trên điện thoại của bạn",
+  "langSwitch.step.decks": "Đang tải thẻ ghi nhớ {language} của bạn",
+  "langSwitch.step.tests": "Đang chuẩn bị bài kiểm tra {language} của bạn",
+  "langSwitch.step.books": "Đang cá nhân hóa sách của bạn",
+  "langSwitch.translator.wait": "Hãy đồng ý với yêu cầu tải xuống mà điện thoại hiển thị. Việc này có thể mất khoảng một phút.",
+  "langSwitch.translator.skip": "Thiết bị này chưa thể dịch trọn cuốn sách. Chương 1 của các sách nổi bật vẫn mở được bằng {language}.",
+  "langSwitch.offline": "Có vẻ bạn đang ngoại tuyến. Một số thứ sẽ tải xong khi bạn có mạng trở lại.",
+  "langSwitch.done": "Mọi thứ đã sẵn sàng!",
+  "langSwitch.doneSub": "Sách, thẻ ghi nhớ và bài kiểm tra {language} của bạn đã sẵn sàng.",
+  "langSwitch.start": "Bắt đầu đọc",
+  "langSwitch.continueAnyway": "Tiếp tục trong lúc hoàn tất",
 };
 
 export default vi;

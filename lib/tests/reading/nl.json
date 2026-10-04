@@ -1,0 +1,617 @@
+{
+ "lang": "nl",
+ "levels": {
+  "A1": [
+   {
+    "title": "Toms ochtend",
+    "text": "Tom staat om zeven uur op. Hij eet brood en eieren. Dan gaat hij met de bus naar zijn werk. Hij houdt veel van zijn werk. Hij komt om zes uur thuis en kookt.",
+    "keys": [
+     "brood",
+     "eieren",
+     "bus",
+     "werk"
+    ]
+   },
+   {
+    "title": "Een dag aan zee",
+    "text": "Anna gaat met de trein naar de zee. De trein is snel. Ze ziet het water en de grote zon. Anna en haar moeder zwemmen en spelen. Ze zijn heel blij.",
+    "keys": [
+     "zee",
+     "trein",
+     "zon",
+     "zwemmen"
+    ]
+   },
+   {
+    "title": "Een bericht voor Sam",
+    "text": "Hoi Sam, ik ben nu in het park. Kom alsjeblieft om twee uur. Ik heb een grote rode bal. We kunnen ermee spelen. Neem wat water mee, want het is warm.",
+    "keys": [
+     "park",
+     "bal",
+     "water",
+     "warm"
+    ]
+   },
+   {
+    "title": "Winkelbord",
+    "text": "Welkom bij de Blauwe Winkel. Wij verkopen brood en melk. Wij zijn open van acht tot zes. De winkel is op zondag dicht. Elk kind krijgt een gratis appel.",
+    "keys": [
+     "brood",
+     "melk",
+     "zondag",
+     "appel"
+    ]
+   },
+   {
+    "title": "De verloren hond",
+    "text": "Ben heeft een kleine bruine hond. Op een dag is de hond er niet. Ben is verdrietig en zoekt overal. De hond ligt onder het bed! Ben is weer blij.",
+    "keys": [
+     "hond",
+     "ben",
+     "bed",
+     "verdrietig"
+    ]
+   },
+   {
+    "title": "Mijn kleine stad",
+    "text": "Mijn stad is klein maar mooi. Er is een rivier en een groot park. Er zijn veel groene bomen. Ik hou van de oude brug. Het is een rustige plek voor mij.",
+    "keys": [
+     "rivier",
+     "park",
+     "bomen",
+     "brug"
+    ]
+   },
+   {
+    "title": "Een kat op het dak",
+    "text": "Een kat zit op een hoog dak. De kleine kat is erg bang. Een man roept om hulp. Een vrouw komt met een lange ladder. De kat is nu veilig.",
+    "keys": [
+     "kat",
+     "dak",
+     "ladder",
+     "hulp"
+    ]
+   },
+   {
+    "title": "Ik hou van regen",
+    "text": "Ik hou veel van regen. Sommige mensen houden er niet van. Maar ik vind regen goed. De bloemen en de bomen drinken hem. Ik zit thuis en lees een boek.",
+    "keys": [
+     "regen",
+     "bloemen",
+     "bomen",
+     "boek"
+    ]
+   },
+   {
+    "title": "Thee maken",
+    "text": "Kook eerst wat water in een pan. Doe een theezakje in een kopje. Voeg dan het hete water toe. Wacht drie minuten. Nu kun je je thee drinken.",
+    "keys": [
+     "water",
+     "kopje",
+     "minuten",
+     "thee"
+    ]
+   },
+   {
+    "title": "Oma's tuin",
+    "text": "Ik denk vaak aan mijn oma. Haar huis is klein en wit. In de tuin staat een grote boom. We zitten eronder en eten taart. Ik hou van die dagen.",
+    "keys": [
+     "oma",
+     "huis",
+     "boom",
+     "taart"
+    ]
+   }
+  ],
+  "A2": [
+   {
+    "title": "Marias drukke zaterdag",
+    "text": "Zaterdagochtend maakte Maria haar kleine flat schoon en waste ze de kleren. Om twaalf uur ontmoette ze haar vriendin Julia in een café. Ze aten soep en praatten twee uur lang. 's Middags gingen ze naar de markt en kochten wat fruit. Maria kwam moe maar blij thuis. Morgen gaat ze haar ouders bezoeken.",
+    "keys": [
+     "maria",
+     "julia",
+     "markt",
+     "fruit"
+    ]
+   },
+   {
+    "title": "Een weekend in de bergen",
+    "text": "Vorige maand gingen Daniel en zijn broer naar de bergen. Ze namen de trein en liepen daarna vier uur. Het weer was koud, dus ze droegen warme jassen. Boven aten ze broodjes en keken ze naar het meer beneden. Volgend jaar gaan ze in de zomer weer.",
+    "keys": [
+     "bergen",
+     "trein",
+     "meer",
+     "broodjes"
+    ]
+   },
+   {
+    "title": "Een e-mail aan een vriend",
+    "text": "Beste Kim, bedankt voor je brief. Het spijt me dat ik niet eerder schreef. Ik was ziek, maar nu voel ik me veel beter. Ik ga je in mei een week bezoeken. Laat me alsjeblieft weten welke dagen goed zijn voor jou en je gezin. Tot snel!",
+    "keys": [
+     "brief",
+     "mei",
+     "week",
+     "gezin"
+    ]
+   },
+   {
+    "title": "Gitaarles",
+    "text": "Wil je gitaar leren spelen? Peter Novak is muziekleraar met tien jaar ervaring. Hij geeft les aan kinderen en volwassenen in zijn kleine studio bij het station. De eerste les is gratis, dus je kunt het proberen. De lessen zijn op dinsdag- en donderdagavond. Bel deze week en je krijgt een gratis boek.",
+    "keys": [
+     "gitaar",
+     "les",
+     "studio",
+     "boek"
+    ]
+   },
+   {
+    "title": "De verkeerde tas",
+    "text": "Nina verliet het station en liep naar huis. Ze opende haar tas en vond er een blauw jasje in. Het was haar tas niet! Ze voelde zich ongerust en ging terug naar het station. Daar zag ze een man, en hij hield haar tas vast. Ze lachten, wisselden de tassen om en zeiden gedag.",
+    "keys": [
+     "nina",
+     "tas",
+     "jasje",
+     "station"
+    ]
+   },
+   {
+    "title": "De oude bibliotheek",
+    "text": "De oude bibliotheek staat in het centrum van onze stad. Het is een groot stenen gebouw met hoge ramen. Binnen zijn duizenden boeken en veel comfortabele stoelen. Op de tweede verdieping is een rustige zaal voor studenten. Veel mensen komen er, omdat het er warm en gratis is. Ik ga er elke vrijdag na school heen.",
+    "keys": [
+     "bibliotheek",
+     "boeken",
+     "studenten",
+     "vrijdag"
+    ]
+   },
+   {
+    "title": "Nieuwe fietspaden",
+    "text": "De gemeente opende gisteren een nieuw fietspad. Het loopt van het station naar het grote park. Daarvoor voelden veel fietsers zich onveilig op de hoofdweg. De gemeente gaf veel geld uit aan het werk. Volgend jaar gaat de stad nog twee fietspaden aanleggen. Veel mensen zijn blij, maar sommige automobilisten zijn boos.",
+    "keys": [
+     "gemeente",
+     "fietspad",
+     "fietsers",
+     "automobilisten"
+    ]
+   },
+   {
+    "title": "Lopen naar school",
+    "text": "Ik vind dat kinderen naar school moeten lopen. Ten eerste is lopen goed voor hun gezondheid. Ten tweede kunnen ze onderweg met hun vrienden praten. Vorig jaar liep mijn dochter naar school en voelde ze zich wakkerder. Sommige ouders zeggen dat de wegen gevaarlijk zijn, en dat is waar. Maar ik geloof dat we de straten veiliger kunnen maken.",
+    "keys": [
+     "school",
+     "gezondheid",
+     "vrienden",
+     "straten"
+    ]
+   },
+   {
+    "title": "Hoe een koelkast werkt",
+    "text": "Een koelkast houdt eten koud, zodat het langer vers blijft. In de koelkast zit een speciale vloeistof in dunne buizen. De vloeistof haalt de warmte uit het eten en voert die af. Daarna gaat de vloeistof naar de achterkant, waar de warmte weggaat. Daarom is de achterkant van een koelkast vaak warm. Een kleine motor beweegt de vloeistof de hele dag rond.",
+    "keys": [
+     "koelkast",
+     "eten",
+     "vloeistof",
+     "warmte"
+    ]
+   },
+   {
+    "title": "Mijn eerste fiets",
+    "text": "Toen ik zeven was, gaf mijn vader mij een rode fiets. Ik was heel blij, maar ik kon er niet op rijden. Elke avond rende hij naast mij en hield hij het zadel vast. Na twee weken viel ik en huilde ik een beetje. Hij glimlachte en zei dat iedereen valt. De volgende dag reed ik zelf, en ik herinner me dat gevoel nog steeds.",
+    "keys": [
+     "fiets",
+     "vader",
+     "zadel",
+     "viel"
+    ]
+   }
+  ],
+  "B1": [
+   {
+    "title": "De lange dag van een lerares",
+    "text": "Elena wordt om half zes wakker omdat haar school ver van huis ligt. Meestal neemt ze twee bussen en komt ze net voor de eerste les aan. Overdag geeft ze les aan drie klassen, beantwoordt ze veel vragen en heeft ze zelden tijd om te eten. Na school blijft ze vaak lang om leerlingen te helpen die moeite hebben met hun huiswerk. Als ze eindelijk thuiskomt, is ze doodmoe, maar ze zegt dat het werk de moeite waard is. Als een leerling naar haar glimlacht op de gang, vergeet ze hoe moe ze is.",
+    "keys": [
+     "elena",
+     "bussen",
+     "leerlingen",
+     "huiswerk"
+    ]
+   },
+   {
+    "title": "Verdwaald in Lissabon",
+    "text": "Afgelopen voorjaar reisde Omar voor het eerst naar Lissabon. Hij had alles zorgvuldig gepland, maar op de tweede dag was zijn telefoon leeg. Zonder kaart raakte hij verdwaald in een doolhof van smalle straatjes. In plaats van in paniek te raken, vroeg hij een oude vrouw om hulp, en zij bracht hem naar de juiste tram. Later zei Omar dat dit het mooiste moment van zijn reis was, omdat hij iemand vriendelijks had ontmoet. Als hij zijn telefoon niet had verloren, had hij nooit met haar gepraat.",
+    "keys": [
+     "omar",
+     "lissabon",
+     "telefoon",
+     "tram"
+    ]
+   },
+   {
+    "title": "Een bericht aan de buren",
+    "text": "Beste buren, ik schrijf jullie over een feest in mijn flat op zaterdagavond. Ik weet dat sommigen van jullie vroeg naar bed gaan. Daarom zorg ik ervoor dat de muziek om tien uur stopt. Als het te luid is, klop dan gerust op mijn deur, dan zet ik hem zachter. Ik heb ook veel eten gemaakt, en jullie zijn allemaal welkom om mee te doen. Ik zou het fijn vinden om iedereen te ontmoeten, want ik ben hier pas vorige maand komen wonen. Bedankt voor jullie geduld.",
+    "keys": [
+     "feest",
+     "muziek",
+     "deur",
+     "eten"
+    ]
+   },
+   {
+    "title": "Kookcursus in het weekend",
+    "text": "Wil je echt leren koken in plaats van elke avond eten te bestellen? Onze weekendkookcursus is perfect voor beginners die zich onzeker voelen in de keuken. Elke zaterdag laat een professionele kok je een eenvoudig gerecht zien, en daarna maak je het zelf. Alle ingrediënten zitten in de prijs, dus je hoeft alleen een schort mee te nemen. Als je je vóór het einde van deze maand aanmeldt, krijg je tien procent korting. Het aantal plaatsen is beperkt, dus we raden aan om vroeg te boeken.",
+    "keys": [
+     "kookcursus",
+     "kok",
+     "ingrediënten",
+     "korting"
+    ]
+   },
+   {
+    "title": "De laatste trein",
+    "text": "Tomas miste de laatste trein naar huis, dus besloot hij te lopen. Het was al na middernacht en de straten waren leeg en donker. Na een uur hoorde hij voetstappen achter zich, en zijn hart begon sneller te kloppen. Hij liep sneller, maar de stappen kwamen dichterbij, tot hij zich uiteindelijk omdraaide. Een kleine hond volgde hem, en hij zag er net zo verdwaald uit als hij. Tomas lachte, tilde hem op en droeg hem helemaal naar huis. Hij noemde de hond Lucky, omdat ze die nacht allebei wat geluk nodig hadden.",
+    "keys": [
+     "tomas",
+     "trein",
+     "hond",
+     "lucky"
+    ]
+   },
+   {
+    "title": "Een vissersdorp",
+    "text": "Ons dorp ligt op een steile heuvel boven de zee, en elk huis heeft een andere kleur. 's Ochtends komen de vissers terug en vult de haven zich met lawaai en de geur van vis. Toeristen komen meestal in de zomer, dus de smalle straatjes kunnen erg druk zijn. Toch heb ik liever het dorp in de winter, wanneer het rustig is en de zee wild. Boven op de heuvel is een klein café waar je veilig naar de stormen kunt kijken. Als je op bezoek komt, kom dan in de herfst, wanneer het zacht is en er minder mensen zijn.",
+    "keys": [
+     "dorp",
+     "vissers",
+     "haven",
+     "stormen"
+    ]
+   },
+   {
+    "title": "Gratis bussen voor studenten",
+    "text": "Een kleine stad in het noorden heeft besloten alle bussen gratis te maken voor studenten. De gemeenteraad kondigde het plan maandag aan en zei dat het in september zou beginnen. Ambtenaren hopen dat meer jongeren het openbaar vervoer gebruiken en dat minder ouders hen met de auto brengen. Het plan kost ongeveer een miljoen euro per jaar, wat sommige inwoners zorgen baart. Toch hebben vergelijkbare projecten in andere steden het verkeer met bijna een vijfde verminderd. Volgende maand vindt een laatste stemming plaats, en voorstanders verwachten dat het wordt goedgekeurd.",
+    "keys": [
+     "bussen",
+     "studenten",
+     "gemeenteraad",
+     "verkeer"
+    ]
+   },
+   {
+    "title": "Telefoons in de klas",
+    "text": "Naar mijn mening zouden scholen telefoons in de klas niet moeten toestaan. Als een telefoon op de tafel ligt, blijven leerlingen ernaar kijken en kunnen ze de les niet volgen. Sommige mensen beweren dat telefoons nuttig kunnen zijn om informatie op te zoeken. Dat is waar, maar een leraar kan in plaats daarvan de schoolcomputers gebruiken. Natuurlijk moeten kinderen hun ouders in een noodgeval kunnen bereiken. Daarom stel ik voor dat telefoons tijdens de les in een tas blijven en in de pauze tevoorschijn komen. Zo krijgt iedereen de voordelen zonder de afleiding.",
+    "keys": [
+     "telefoons",
+     "klas",
+     "les",
+     "pauze"
+    ]
+   },
+   {
+    "title": "Hoe bijen honing maken",
+    "text": "Bijen maken honing van een zoete vloeistof die nectar heet en die ze van bloemen verzamelen. Een werkbij bewaart de nectar in een speciale maag en brengt hem terug naar de korf. Daar nemen andere bijen de nectar over en kauwen er een tijdje op. Ze verspreiden hem in kleine wasraten en wapperen hem toe met hun vleugels om het water te verwijderen. Als de honing dik genoeg is, sluiten de bijen elke cel af met was om hem vers te houden. Een bij maakt maar een piepklein beetje, dus er zijn duizenden bijen nodig om een pot te vullen.",
+    "keys": [
+     "bijen",
+     "nectar",
+     "korf",
+     "honing"
+    ]
+   },
+   {
+    "title": "Zomers aan het meer",
+    "text": "Toen ik tiener was, bracht mijn gezin elke zomer door in een klein houten huis aan een meer. Toen waardeerde ik dat niet, omdat ik met mijn vrienden in de stad wilde zijn. Nu begrijp ik hoeveel geluk ik had. Ik herinner me de stilte in de vroege ochtend en de smaak van vers brood uit de dorpswinkel. Als ik naar één plek uit mijn verleden kon terugkeren, zou ik dat huis kiezen. Helaas is het vele jaren geleden verkocht, dus ik kan het alleen in mijn herinneringen bezoeken.",
+    "keys": [
+     "meer",
+     "huis",
+     "zomer",
+     "herinneringen"
+    ]
+   }
+  ],
+  "B2": [
+   {
+    "title": "Een dag in de bakkerij",
+    "text": "Lucia staat elke ochtend om vier uur op, lang voordat de stad begint te ontwaken. Als de eerste klanten komen, heeft ze al zo'n tweehonderd broden gevormd en de ovens gecontroleerd. Hoewel het werk uitputtend is, zegt ze dat het haar geduld heeft geleerd, omdat brood niet gehaast kan worden. Rond het middaguur doet ze de deur op slot, eet ze een eenvoudige lunch en slaapt ze twee uur. 's Middags beantwoordt ze bestellingen, waarvan de meeste worden gestuurd door restaurants die van haar afhankelijk zijn. Haar zus heeft vaak voorgesteld dat ze een assistent neemt, maar Lucia houdt vol dat ze liever alles zelf doet. Ze geeft echter toe dat ze van gedachten kan veranderen als het bedrijf blijft groeien.",
+    "keys": [
+     "lucia",
+     "broden",
+     "ovens",
+     "restaurants"
+    ]
+   },
+   {
+    "title": "Een nachttrein naar het noorden",
+    "text": "Afgelopen voorjaar besloot Tomas met de trein naar het hoge noorden te reizen in plaats van te vliegen. De reis, die bijna twee dagen duurde, voerde hem door bossen zo dicht dat het zonlicht zelden de grond bereikte. Hij was gewaarschuwd dat de wagons koud zouden zijn, dus nam hij een dikke deken en een thermosfles thee mee. Op de tweede avond ging een gepensioneerde lerares tegenover hem zitten en begon verhalen te vertellen over de dorpen die ze passeerden. Later zei Tomas dat deze gesprekken het waardevolste deel van de reis waren. Toen de trein eindelijk het station binnenreed, viel er zachtjes sneeuw op het lege perron. Hoewel hij moe aankwam, vond hij dat de langzame route de extra tijd waard was geweest.",
+    "keys": [
+     "tomas",
+     "trein",
+     "bossen",
+     "sneeuw"
+    ]
+   },
+   {
+    "title": "Een bericht aan de huisbaas",
+    "text": "Beste Samuel, ik schrijf over de verwarming in mijn flat, die sinds afgelopen maandag niet werkt. Een monteur zou donderdag komen, maar er kwam niemand en niemand belde om het uit te leggen. Omdat de temperatuur 's nachts onder nul is gedaald, gebruiken mijn buurman en ik elektrische kachels. Ik zou het op prijs stellen als je zo snel mogelijk een reparatie kon regelen. Mocht het probleem aanhouden, dan zal ik om een huurverlaging moeten vragen. Ik begrijp dat dit soort dingen tijd kost en ik wil geen moeilijkheden veroorzaken. Laat me alsjeblieft vóór vrijdag weten wanneer er iemand kan komen. Bedankt voor je hulp, Amira.",
+    "keys": [
+     "verwarming",
+     "monteur",
+     "huurverlaging",
+     "reparatie"
+    ]
+   },
+   {
+    "title": "Bericht over de buurttuin",
+    "text": "De wijkraad maakt met genoegen bekend dat de oude parkeerplaats achter de bibliotheek wordt omgevormd tot een buurttuin. Bewoners die willen meedoen, worden uitgenodigd voor een bijeenkomst op de eerste zaterdag van volgende maand. Elk huishouden krijgt een klein perceel, mits het belooft er gedurende het hele groeiseizoen voor te zorgen. Gereedschap en zaden worden gratis geleverd, al worden vrijwilligers gevraagd hun eigen handschoenen mee te nemen. Wie geen ervaring heeft, hoeft zich geen zorgen te maken, want een team van ervaren tuiniers geeft elk weekend advies. Hopelijk brengt het project buren dichter bij elkaar en maakt het de buurt groener. Wie interesse heeft, moet vóór het einde van de week de lijst aan de balie van de bibliotheek tekenen.",
+    "keys": [
+     "buurttuin",
+     "bibliotheek",
+     "zaden",
+     "tuiniers"
+    ]
+   },
+   {
+    "title": "De verdwenen sleutels",
+    "text": "Elena had de hele middag naar haar autosleutels gezocht en de flat ondersteboven gekeerd. Ze controleerde elke zak, tilde elk kussen op en leegde zelfs de vuilnisbak, maar er was geen spoor van te vinden. Ervan overtuigd dat iemand ze had meegenomen, begon ze haar nieuwe huisgenote te verdenken, die de hele week vreemd stil was geweest. Uiteindelijk belde ze, bijna in tranen, haar moeder om te klagen. Haar moeder luisterde geduldig en vroeg toen of Elena misschien iets in haar linkerhand hield. Elena keek naar beneden en ontdekte dat de sleutels al die tijd in haar hand hadden gezeten. Ze lachte zo hard dat ze moest gaan zitten, en later bood ze haar huisgenote haar excuses aan met een taart.",
+    "keys": [
+     "elena",
+     "sleutels",
+     "huisgenote",
+     "taart"
+    ]
+   },
+   {
+    "title": "Het oude havenstadje",
+    "text": "Het havenstadje ligt aan het einde van een smalle vallei, waar een rivier de zee ontmoet. De huizen, geschilderd in vervaagd blauw en geel, klimmen in ongelijke rijen tegen de heuvel op. Bezoekers worden vaak getroffen door de stilte, die alleen wordt verbroken door het geschreeuw van meeuwen en het kraken van vissersboten. Op het hoofdplein staat een stenen fontein die volgens de plaatselijke legende nooit is opgedroogd. De meeste winkels zijn klein en familiebedrijven, en velen zijn al generaties lang onveranderd gebleven. Omdat de weg steil en bochtig is, wagen weinig toeristen zich voorbij het eerste café. Wie dat wel doet, wordt beloond met een uitzicht over de hele baai bij zonsondergang.",
+    "keys": [
+     "vallei",
+     "fontein",
+     "meeuwen",
+     "baai"
+    ]
+   },
+   {
+    "title": "Een bibliotheek blijft langer open",
+    "text": "Een openbare bibliotheek in een stad in het noorden is tot middernacht open gaan blijven, na een verzoek van plaatselijke studenten. De regeling, die vorige maand begon, werd ingevoerd nadat uit een enquête bleek dat veel jongeren 's avonds nergens een rustige plek hadden om te studeren. Ambtenaren melden dat de extra uren veel populairder zijn dan verwacht, met bijna elke avond alle bureaus bezet. Sommige inwoners hebben echter geklaagd over de kosten om het gebouw zo laat te verwarmen en van personeel te voorzien. De gemeenteraad heeft geantwoord dat het project na zes maanden zal worden geëvalueerd. Als de opkomst hoog blijft, wordt het waarschijnlijk uitgebreid naar andere vestigingen. Intussen heeft een groep vrijwilligers aangeboden om gratis toezicht te houden in de leeszalen.",
+    "keys": [
+     "bibliotheek",
+     "middernacht",
+     "studenten",
+     "vrijwilligers"
+    ]
+   },
+   {
+    "title": "Waarom handschrift nog telt",
+    "text": "Veel mensen beweren dat handschrift een vaardigheid is die we gerust kunnen opgeven, nu bijna iedereen een toetsenbord heeft. Ik geloof dat deze opvatting onjuist is, of op zijn minst voorbarig. Studies suggereren dat studenten die met de hand aantekeningen maken meer onthouden, omdat ze gedwongen worden samen te vatten in plaats van over te schrijven. Langzaam schrijven geeft de geest bovendien tijd om ideeën te ordenen voordat ze op papier komen. Natuurlijk is typen sneller, en niemand zou ontkennen dat het praktischer is voor lange documenten. Toch is snelheid niet de enige maatstaf voor waarde. Daarom vind ik dat scholen handschrift moeten blijven onderwijzen, ook al neemt het minder plaats in op het rooster dan vroeger.",
+    "keys": [
+     "handschrift",
+     "studenten",
+     "toetsenbord",
+     "aantekeningen"
+    ]
+   },
+   {
+    "title": "Hoe een warmtepomp werkt",
+    "text": "Een warmtepomp verwarmt een huis door warmte te verplaatsen in plaats van te maken. Zelfs op een koude dag bevat de buitenlucht wat warmte, die een vloeistof in de machine opneemt en in gas verandert. Dit gas wordt vervolgens samengeperst, en door de compressie wordt het veel heter, net zoals een fietspomp warm wordt als je hem gebruikt. Het hete gas gaat door een spiraal in het huis, waar het zijn warmte afgeeft en weer vloeibaar wordt. De cyclus begint dan opnieuw en herhaalt zich zolang de machine aanstaat. Omdat hij warmte overdraagt in plaats van brandstof te verbranden, kan een warmtepomp meerdere malen meer energie leveren dan hij verbruikt. Deze efficiëntie verklaart waarom zulke machines populair worden in landen met koude winters.",
+    "keys": [
+     "warmtepomp",
+     "warmte",
+     "gas",
+     "vloeistof"
+    ]
+   },
+   {
+    "title": "De werkplaats van mijn grootvader",
+    "text": "Toen ik ongeveer tien was, bracht ik elke zomervakantie door in de werkplaats van mijn grootvader aan de rand van het dorp. Het rook er naar zaagsel en olie, en de muren hingen vol gereedschap dat ik niet mocht aanraken. Hij sprak zelden terwijl hij werkte, maar af en toe gaf hij me een stuk hout en zei hij dat ik de nerf moest voelen. Destijds vond ik dat saai, en ik zou liever buiten met mijn neven hebben gespeeld. Pas jaren later begreep ik dat hij me leerde opletten. Hij stierf kort voordat ik klaar was met school, en de werkplaats werd kort daarna verkocht. Zelfs nu brengt de geur van vers zaagsel die lange rustige middagen zo levendig terug dat ik even moet stoppen.",
+    "keys": [
+     "grootvader",
+     "werkplaats",
+     "zaagsel",
+     "hout"
+    ]
+   }
+  ],
+  "C1": [
+   {
+    "title": "De dinsdag van een vertaalster",
+    "text": "Marta werkt thuis als literair vertaalster, een baan die glamoureuzer klinkt dan hij is. Haar ochtenden zijn gewijd aan de moeilijkste passages, want ze heeft geleerd dat haar concentratie lang voor de lunch afneemt. Ze besteedt uren aan het piekeren over één enkele zin en weegt af of een bepaald woord de toon van de auteur treft of er slechts bij in de buurt komt. Vroeg in de middag schakelt ze meestal over op e-mails en facturen, taken die weinig verbeelding vragen maar toch gedaan moeten worden. Haar buren nemen aan dat ze eindeloos veel vrije tijd heeft en kloppen voortdurend op haar deur om kleine gunsten te vragen. Ze is opgehouden met uitleggen dat thuiswerken nog steeds werken is, omdat de uitleg zelden lijkt aan te komen. 's Avonds maakt ze een lange wandeling, die ze beschouwt als onderdeel van het werk en niet als een pauze ervan. Ideeën die aan haar bureau weigerden te komen, hebben de gewoonte onaangekondigd te verschijnen tussen de rivier en de markt. Als ze eindelijk terugkeert, leest ze het werk van die ochtend hardop voor, luisterend naar valse noten die haar ogen misschien hebben gemist.",
+    "keys": [
+     "marta",
+     "vertaalster",
+     "zin",
+     "wandeling"
+    ]
+   },
+   {
+    "title": "Per auto door de woestijn",
+    "text": "We vertrokken voor zonsopgang, in de hoop het ergste deel van de woestijn over te steken voordat de hitte ondraaglijk werd. De weg zag er op de kaart recht en eenvoudig uit, maar zat vol gaten die ons dwongen te kruipen in een tempo dat een fietser in verlegenheid zou hebben gebracht. Tegen de middag was de thermometer op het dashboard boven de veertig graden gestegen, en de lucht in de auto voelde dik genoeg om te kauwen. Onze gids, een zwijgzame man genaamd Idris, leek onaangedaan en bracht het grootste deel van de reis zachtjes neuriënd door. Toen de motor er uiteindelijk mee ophield, tilde hij de motorkap op, bestudeerde hem lang en kondigde aan dat het probleem niet meer was dan een losse kabel. Binnen tien minuten reden we weer, al vermoed ik dat zijn kalmte meer te danken was aan ervaring dan aan groot mechanisch talent. Die avond bereikten we een kleine oase waar de dorpelingen, die geen bezoekers hadden verwacht, erop stonden ons dadels en zoete thee te geven. Terugkijkend herinner ik me het ongemak slechts vaag, terwijl de gulheid van die vreemden even scherp blijft als altijd. Het is een les over hoe weinig mensen nodig hebben om vriendelijk te zijn.",
+    "keys": [
+     "woestijn",
+     "idris",
+     "motor",
+     "oase"
+    ]
+   },
+   {
+    "title": "Een beleefde weigering",
+    "text": "Beste Helena, hartelijk dank voor je gulle uitnodiging om je bij het comité aan te sluiten, die ik met zowel trots als enig schuldgevoel heb gelezen. Na zorgvuldig nadenken ben ik tot de conclusie gekomen dat ik moet bedanken, niet uit gebrek aan enthousiasme, maar omdat ik al meer taken heb dan verstandig is. In het afgelopen jaar heb ik verschillende verplichtingen aanvaard die op zichzelf te overzien leken, om vervolgens te ontdekken dat ze samen geen ruimte laten om adem te halen. Ik doe liever een paar dingen goed dan op elke lijst te staan en weinig bij te dragen. Dat gezegd hebbende, zou ik graag op een beperktere manier helpen, misschien door documenten na te lezen of te spreken op jullie jaarvergadering. Mocht een van beide nuttig blijken, dan hoef je het maar te zeggen, en ik maak ruimte vrij in mijn agenda. Ik hoop dat je mijn besluit niet opvat als een teken van onverschilligheid ten opzichte van het doel, dat ik blijf bewonderen. Neem nogmaals mijn hartelijke dank aan, en mijn beste wensen voor het komende jaar.",
+    "keys": [
+     "helena",
+     "comité",
+     "verplichtingen",
+     "agenda"
+    ]
+   },
+   {
+    "title": "Een programma van avondlezingen",
+    "text": "Het Riverside Museum kondigt met genoegen een reeks avondlezingen aan over de geschiedenis van alledaagse voorwerpen. Elke avond wordt geleid door een andere specialist, die onderzoekt hoe een ogenschijnlijk gewoon voorwerp, zoals een sleutel of een klok, menselijke gewoonten heeft gevormd. In plaats van droge feiten te presenteren, is de sprekers gevraagd verhalen te vertellen en gedurende de hele avond vragen uit te nodigen. De plaatsen zijn beperkt, dus vroeg reserveren wordt sterk aangeraden, en wie te laat komt, kan niet meer worden toegelaten zodra de deuren dicht zijn. Kaartjes worden tegen verlaagd tarief aangeboden aan studenten en aan iedereen boven de vijfenzestig. Na afloop worden in het café versnaperingen geserveerd, zodat gasten het gesprek informeel kunnen voortzetten. Wie niet persoonlijk aanwezig kan zijn, kan elke lezing online volgen, hoewel de opnames slechts een week beschikbaar zijn. Wij kijken ernaar uit nieuwsgierige geesten van elke leeftijd en achtergrond te mogen verwelkomen.",
+    "keys": [
+     "museum",
+     "lezingen",
+     "kaartjes",
+     "versnaperingen"
+    ]
+   },
+   {
+    "title": "De laatste klant",
+    "text": "Henrik had de kleine boekwinkel dertig jaar gerund, en op de dag dat hij zou sluiten verwachtte hij niet meer dan een rustige middag met dozen inpakken. Klanten kwamen binnendruppelen, mompelden hun spijt en gingen weg zonder iets te kopen, wat hem een passend einde leek van een lange en onwinstgevende loopbaan. Tegen sluitingstijd kwam een jonge vrouw binnen, keek rond naar de lege schappen en vroeg of hij nog een exemplaar had van een obscure dichtbundel. Dat had hij, al had hij allang opgehouden te verwachten dat iemand ernaar zou vragen. Ze legde uit dat haar overleden vader hem had geschreven en dat ze er al jaren tevergeefs naar zocht. Henrik, die dat boek uit pure koppigheid in zijn kast had gehouden, voelde zijn keel samenknijpen. Hij weigerde haar geld aan te nemen en pakte het boek zelf in, voorzichtig, alsof het breekbaar was. Toen ze weg was, stond hij een tijdje in de stilte, pakte toen de dozen uit en besloot dat de winkel tenslotte toch open zou blijven.",
+    "keys": [
+     "henrik",
+     "boekwinkel",
+     "dichtbundel",
+     "schappen"
+    ]
+   },
+   {
+    "title": "De vrijdagmarkt",
+    "text": "Elke vrijdag verandert het havenplein in de oude wijk in een markt die zo druk is dat je met de menigte mee moet bewegen in plaats van erdoorheen. Kramen met specerijen, tweedehands boeken en handgevlochten manden staan schouder aan schouder onder luifels van verbleekt zeildoek. De lucht is dik van de geur van gegrilde vis, die zich merkwaardig mengt met die van verse koffie en warm brood. Verkopers roepen hun prijzen om in een ritme dat zo ingeoefend is dat het bijna op zingen lijkt. Afdingen wordt niet alleen getolereerd maar verwacht, en een bezoeker die de eerste genoemde prijs betaalt, wordt met beleefde verbazing aangekeken. Weg van de middenpaden verandert de sfeer echter, en vind je rustige hoekjes waar oudere mannen uren kaarten zonder een woord te wisselen. Mensen uit de buurt beweren dat de beste koopjes laat in de middag te halen zijn, wanneer verkopers hun waar liever niet mee naar huis dragen. Tegen de avond blijft er niets over dan verfrommeld papier, een paar zwerfkatten en de zwakke echo van het lawaai van de dag.",
+    "keys": [
+     "markt",
+     "kramen",
+     "vis",
+     "katten"
+    ]
+   },
+   {
+    "title": "Een stad sluit het centrum af",
+    "text": "Een middelgrote stad in het zuiden heeft besloten haar historische centrum voor particuliere auto's te sluiten, een maatregel die de meningen scherp heeft verdeeld. De autoriteiten stellen dat de verandering geluid en vervuiling zal verminderen en de straten veiliger zal maken voor voetgangers. Winkeliers vrezen daarentegen dat klanten die vroeger voor hun deur parkeerden nu elders zullen gaan winkelen. Om aan deze zorgen tegemoet te komen, heeft de gemeenteraad beloofd gratis pendelbussen aan te bieden en bezorging naar lokale bedrijven te subsidiëren. Een soortgelijk experiment in een naburige stad werd na een jaar als succes beoordeeld, al wijzen critici erop dat de omstandigheden niet identiek waren. Openbare vergaderingen van vorige week waren vaak verhit, en verschillende sprekers beschuldigden de burgemeester ervan zonder voldoende overleg te handelen. De burgemeester houdt van zijn kant vol dat het besluit openlijk is genomen en dat de stad zich geen uitstel kan veroorloven. De beperkingen gaan naar verwachting in aan het begin van volgend voorjaar, zodra de nieuwe buslijnen klaar zijn.",
+    "keys": [
+     "centrum",
+     "auto's",
+     "pendelbussen",
+     "burgemeester"
+    ]
+   },
+   {
+    "title": "Een pleidooi voor verveling",
+    "text": "We behandelen verveling vaak als een vijand die bij de eerste gelegenheid moet worden uitgeschakeld, meestal met het dichtstbijzijnde scherm. Toch zou ik willen betogen dat enkele van onze meest originele gedachten juist ontstaan wanneer niets onze aandacht opeist. Een geest die mag dwalen legt verbanden die een voortdurend vermaakte geest nooit de kans krijgt te leggen. Vooral kinderen hebben er baat bij af en toe zonder taak gelaten te worden, want juist dan verzinnen ze spelletjes en ontdekken ze hun eigen interesses. Ouders die zich haasten om elke vrije minuut met activiteiten te vullen, ontnemen hun kinderen met de beste bedoelingen misschien deze kans. Critici zullen tegenwerpen dat verveling tot onrust kan leiden, zelfs tot kattenkwaad, en ze hebben niet helemaal ongelijk. Maar onrust is vaak het eerste stadium van creativiteit, en het ongemak dat ze brengt is een kleine prijs om te betalen. We zouden er dus goed aan doen de neiging te weerstaan haar te snel te genezen.",
+    "keys": [
+     "verveling",
+     "geest",
+     "kinderen",
+     "creativiteit"
+    ]
+   },
+   {
+    "title": "Slaap en geheugen",
+    "text": "Wetenschappers geloven dat slaap een centrale rol speelt bij het omzetten van vluchtige ervaringen in blijvende herinneringen. Overdag wordt nieuwe informatie tijdelijk vastgehouden in een deel van de hersenen met een beperkte capaciteit. Zodra we in slaap vallen, wordt deze informatie geleidelijk herhaald en overgebracht naar gebieden waar ze op lange termijn kan worden opgeslagen. Aangenomen wordt dat het proces vooral plaatsvindt tijdens de diepe slaap, wanneer de elektrische activiteit van de hersenen vertraagt tot grote, regelmatige golven. Onderzoekers hebben ontdekt dat mensen die 's avonds een lijst woorden leren en daarna slapen er veel meer van onthouden dan mensen die wakker blijven. Slaap lijkt ook selectief te zijn en versterkt de herinneringen die er het meest toe doen, terwijl triviale details mogen vervagen. Dit verklaart waarom een nachtrust ons vaak helpt een probleem op te lossen dat de avond ervoor onmogelijk leek. Het suggereert ook dat studenten die slaap opofferen om te studeren hun eigen doel mogelijk tegenwerken.",
+    "keys": [
+     "slaap",
+     "herinneringen",
+     "hersenen",
+     "woorden"
+    ]
+   },
+   {
+    "title": "De zomer van de overstroming",
+    "text": "Ik was twaalf in de zomer dat de rivier buiten haar oevers trad, en ik herinner het me minder als een ramp dan als een buitengewone vakantie. De school was twee weken gesloten, en de lagere straten van onze stad werden waterwegen waarop buren peddelden in alles wat ze konden vinden. Mijn vader, normaal een ernstige en gereserveerde man, besteedde uren aan het overzetten van oudere bewoners naar hoger gelegen grond in een geleende roeiboot. Ik keek naar hem met een mengeling van ontzag en afgunst, omdat ik hem nooit zo openlijk vrolijk had gezien. Mijn moeder richtte intussen een keuken in in de kerkzaal en voedde iedereen die kwam opdagen, vaak tot ruim na middernacht. Pas later, toen het water zich terugtrok en de verwoeste meubels en doorweekte tapijten achterliet, besefte ik hoeveel er verloren was. Toch spraken de volwassenen daarna over die twee weken met een warmte die ik niet helemaal kon verklaren. Terugkijkend geloof ik dat ze het enige moment herinnerden waarop de hele stad had opgehouden uit vreemden te bestaan.",
+    "keys": [
+     "rivier",
+     "vader",
+     "roeiboot",
+     "water"
+    ]
+   }
+  ],
+  "C2": [
+   {
+    "title": "De nachtdienst",
+    "text": "Nadia is al uren op de afdeling en beweegt zich tussen de bedden met een lichtvoetigheid die jarenlange oefening bijna instinctief heeft gemaakt. De gangen, overdag zo druk, krijgen 's nachts een gedempte en enigszins nautische sfeer, alsof het gebouw een schip is dat door het donker dobbert. Ze heeft geleerd dat patiënten in de kleine uurtjes toevertrouwen wat ze bij daglicht nooit zouden toegeven, en ze luistert met een aandacht die ze minstens zo belangrijk vindt als welk medicijn dan ook. Rond drie uur, wanneer vermoeidheid het verraderlijkst is, zet ze thee en blijft even bij het raam staan, kijkend hoe de eerste bezorgwagens door de lege straten rijden. Collega's die nooit nachtdiensten hebben gedraaid, stellen zich het werk meestal voor als een eenzamere versie van de dag, maar zij vindt het een heel ander land, met eigen gewoonten en een eigenaardige tederheid. Wanneer het ochtendpersoneel binnenkomt, vol lawaai en goede bedoelingen, draagt ze haar aantekeningen over met een lichte weerzin die ze moeilijk zou kunnen uitleggen. Terwijl ze tegen de stroom van forenzen in naar huis loopt, voelt ze zich als een bezoeker die terugkeert van een plek die de rest van de wereld heeft afgesproken te vergeten. Ze valt in slaap op het geluid van de stad die wakker wordt, wat haar een aangename ironie lijkt. Dan is er niemand meer om het mee te delen.",
+    "keys": [
+     "nadia",
+     "afdeling",
+     "patiënten",
+     "thee"
+    ]
+   },
+   {
+    "title": "Het dorp van mijn voorouders",
+    "text": "Ik had de reis tientallen jaren uitgesteld, deels uit een vage angst dat de werkelijkheid niet zou overeenkomen met het dorp dat ik had opgebouwd uit de verhalen van mijn grootmoeder. Toen ik eindelijk uit de bus stapte, leek de plek me tegelijk kleiner en gewoner dan ik me had voorgesteld, een verspreiding van lage huizen die zich vastklampten aan een bergkam boven een droge rivierbedding. Een oude man, die mijn aarzeling opmerkte, vroeg wie ik zocht, en toen ik de meisjesnaam van mijn grootmoeder noemde, staarde hij me aan alsof ik uit de dood was opgestaan. Binnen enkele minuten werd ik van huis tot huis geleid, voorgesteld aan neven en nichten van wier bestaan nooit gewag was gemaakt, en aangespoord eten te eten waar ik geen trek in had maar dat ik niet kon weigeren. Het bleek dat het ouderlijk huis allang was ingestort en dat slechts enkele stenen van de drempel nog tussen het onkruid stonden. Ik herinner me dat ik ervoor stond met een gevoel dat ik alleen kan beschrijven als rouw om iets wat ik nooit had bezeten. Toch besefte ik tegen de avond, aan een volle tafel onder één enkele lamp, dat het dorp dat ik was komen zoeken nooit een plaats was geweest. Het was veeleer de gewoonte van erbij horen, die deze vreemden mij zonder een moment van aarzeling hadden geschonken. De volgende ochtend vertrok ik met minder illusies en, merkwaardig genoeg, met een veel groter thuisgevoel.",
+    "keys": [
+     "dorp",
+     "grootmoeder",
+     "huis",
+     "tafel"
+    ]
+   },
+   {
+    "title": "Een antwoord over je concept",
+    "text": "Beste Marcus, het spijt me dat ik zo lang heb gewacht met antwoorden, en ik wil de vertraging graag verklaren in plaats van haar louter te excuseren. Toen je concept binnenkwam, heb ik het twee keer gelezen en merkte ik dat ik niets nuttigs kon zeggen, wat een ongewone en enigszins vernederende ervaring is voor iemand die betaald wordt om meningen te hebben. Het betoog is elegant en het bewijs zorgvuldig bijeengebracht, maar de conclusie leek me meer te beloven dan de pagina's ervoor hadden verdiend. Het kostte me meerdere dagen om het probleem te benoemen, namelijk dat je een vraag hebt beantwoord die nog geen lezer stelt. Als je zou openen met de puzzel die je aanvankelijk tot het onderwerp trok, zou de conclusie dan komen als een oplossing in plaats van een bewering. Ik besef dat dit een grotere verandering is dan je hoopte, en ik zal het begrijpen als je vindt dat ze je bedoelingen verdraait. Toch zou ik je willen aansporen het te overwegen vóór de deadline, omdat het werk verdient even zorgvuldig gelezen te worden als het is geschreven. Aarzel niet om me te bellen als je dit uitgebreider wilt bespreken. Neem intussen mijn felicitaties aan voor een werk dat al aanzienlijk beter is dan het meeste dat ik zie.",
+    "keys": [
+     "marcus",
+     "concept",
+     "conclusie",
+     "deadline"
+    ]
+   },
+   {
+    "title": "Een retraite voor schrijvers",
+    "text": "Genesteld in een afgelegen vallei, ver van het rumoer van steden, biedt de oude molen een week van ononderbroken eenzaamheid aan schrijvers die de draad van hun werk kwijt zijn. Er is geen bereik voor telefoons, geen televisie en, tot onze spijt, evenmin enige verontschuldiging voor het een of het ander. Elke gast krijgt een kleine kamer met een bureau naast het raam, en maaltijden worden op vaste tijden stilletjes aan de deur bezorgd, zodat geen enkele gedachte door een gesprek hoeft te worden onderbroken. Avonden worden, voor wie dat wil, doorgebracht rond een lange tafel waar deelnemers uit hun werk kunnen voorlezen en zachte maar eerlijke kritiek van de anderen kunnen krijgen. Een vaste redacteur, wiens eigen boeken in vele talen zijn vertaald, is elke middag beschikbaar voor privégesprekken. Wij beloven niet dat de week een voltooid manuscript oplevert, aangezien de ervaring ons heeft geleerd dat inspiratie niet per uur te huur is. Wat we wel kunnen garanderen is stilte, goed brood en de zeldzame toestemming om je eigen schrijven serieus te nemen. Het aantal plaatsen is strikt beperkt tot acht, en kandidaten wordt gevraagd een kort fragment van hun werk te sturen samen met een korte beschrijving van wat ze hopen te bereiken. Wie geselecteerd wordt, hoort dat binnen veertien dagen.",
+    "keys": [
+     "molen",
+     "schrijvers",
+     "vallei",
+     "stilte"
+    ]
+   },
+   {
+    "title": "De erfenis",
+    "text": "Toen de oude professor stierf, liet hij zijn hele bibliotheek na aan de ene studente die het nooit met hem eens was geweest. De andere studenten, van wie velen jarenlang hadden gevleid in de hoop op gunsten, ontvingen niets dan een kort briefje waarin ze werden bedankt voor hun gezelschap. Hun verontwaardiging was luid, en een tijdlang leek het waarschijnlijk dat het testament voor de rechter zou worden aangevochten. Maar de gekozen erfgename, een stille vrouw genaamd Irena, merkte dat de gedachte aan bezit haar vreemd onberoerd liet en bracht de eerste week door met eenvoudig tussen de planken te dwalen. In bijna elk boek ontdekte ze kanttekeningen in het kleine handschrift van haar voormalige leraar, velen rechtstreeks aan haar gericht, alsof hij haar bezwaren tientallen jaren van tevoren had voorzien. Sommige waren spottend, andere verrassend teder, en enkele erkenden punten die hij nooit hardop had toegegeven. Langzaam drong het tot haar door dat de discussie waarvan ze had gedacht dat ze die in de seminarieruimte voerden, voor hem een langgerekt gesprek was geweest dat hij niet kon verdragen te laten eindigen. Ze betwistte het testament niet, noch verkocht ze één enkel boek. In plaats daarvan begon ze hem in de kantlijn te antwoorden, in een kleiner handschrift en met aanzienlijk betere grammatica.",
+    "keys": [
+     "professor",
+     "irena",
+     "kanttekeningen",
+     "testament"
+    ]
+   },
+   {
+    "title": "De zoutvlakte",
+    "text": "Weinig landschappen halen de menselijke maat zo grondig weg als de grote zoutvlakten, waar de horizon oplost in een bleke, trillende nevel en het oog moeite heeft iets te vinden om op te rusten. Na regen spreidt een dun laagje water zich over het oppervlak uit, en de hemel wordt zo volmaakt weerspiegeld dat bezoekers het gevoel beschrijven op de wolken te lopen. In het droge seizoen daarentegen scheurt de grond in uitgestrekte zeshoeken van witte korst die onder de voeten knarsen als bevroren sneeuw. De stilte is volledig en een beetje beklemmend, alleen onderbroken door de wind, die fijn stof meevoert dat zich in het haar en tussen de tanden nestelt. Fotografen worden naar de plek getrokken door de optische spelletjes die ze mogelijk maakt, zoals foto's waarop iemand een berg in de palm van één hand lijkt te houden. Plaatselijke arbeiders zien haar echter als een oogst en niet als een schouwspel, en ze brengen lange dagen door met het harken van het zout tot lage hopen die in de zon drogen. Hun verweerde gezichten en gebarsten handen getuigen van een arbeid waar toeristen zelden bij stilstaan. Bij het vallen van de avond krijgt de hele uitgestrektheid de kleur van een blauwe plek, om dan weg te ebben in een duisternis zo diep dat de sterren binnen handbereik lijken. Het is een plek die hen beloont die komen kijken, maar een zekere nederigheid eist van hen die komen blijven.",
+    "keys": [
+     "zout",
+     "horizon",
+     "fotografen",
+     "sterren"
+    ]
+   },
+   {
+    "title": "Een oude boot gevonden",
+    "text": "Archeologen die aan de noordkust werken, hebben de ontdekking aangekondigd van een houten boot die ongeveer tweeduizend jaar oud lijkt te zijn, een vondst die zelfs de meest ervaren leden van het team heeft verrast. Bewaard door de zuurstofarme modder waarin het lag, is het vaartuig bijna geheel intact, en de sporen van het gereedschap waarmee het werd gevormd zijn nog te zien langs de romp. Een eerste analyse suggereert dat het voor de handel is gebouwd en niet voor de oorlog, aangezien de brede, ondiepe vorm zware lading kon dragen maar weinig snelheid bood. Onder de voorwerpen die uit het wrak zijn geborgen waren aarden kruiken, een rol touw en wat een kinderspeelgoed lijkt te zijn, een detail dat velen die het verhaal volgden heeft ontroerd. De vondst is in de pers beschreven als de belangrijkste in zijn soort in een generatie, hoewel het team zelf zulke taal heeft vermeden. De opgravingsleider waarschuwde tegen verregaande conclusies en merkte op dat de resultaten van dateringstests pas over enkele maanden beschikbaar zijn. Plaatselijke functionarissen spreken echter al over het bouwen van een museum op de plek, een idee dat sommige inwoners met enthousiasme en anderen met diep wantrouwen begroeten. Critici vrezen dat de komst van mensenmassa's juist het kwetsbare landschap kan beschadigen dat de boot in de eerste plaats heeft bewaard. Voorlopig blijft het vaartuig onder een beschermende afdekking, en over het lot ervan zal waarschijnlijk nog een tijd worden gedebatteerd.",
+    "keys": [
+     "archeologen",
+     "boot",
+     "modder",
+     "museum"
+    ]
+   },
+   {
+    "title": "De deugd van langzaam lezen",
+    "text": "Het is modieus geworden om te pochen over hoeveel boeken men in een jaar heeft gelezen, alsof literatuur een af te leggen afstand is en geen land om te verkennen. Ik vind deze gewoonte niet alleen vulgair maar ook contraproductief, want een boek dat in haast wordt doorgenomen laat nauwelijks meer sporen na dan een trein die je vanaf een perron ziet. De grote romans in het bijzonder zijn niet geschreven om met hoge snelheid te worden geconsumeerd, en hun rijkdom ligt juist in die passages die de ongeduldige lezer overslaat op zoek naar de plot. Bij een zin blijven stilstaan, terugkeren naar een alinea die ons heeft verbaasd of verrukt, is geen teken van traagheid maar van aandacht, die de zeldzaamste van alle moderne deugden is geworden. Verdedigers van het getallenspel zullen antwoorden dat meer lezen altijd beter is dan minder, en in enge zin hebben ze gelijk. Maar een gewoonte die kwantiteit boven alles beloont, zal ons al snel leren kwantiteit boven alles te waarderen, in het leven net zo goed als in het lezen. Traagheid is tenslotte slechts de snelheid waarmee een goed boek gelezen wil worden. Ik rond liever tien boeken af die me veranderd hebben dan honderd die slechts langs me heen zijn gegaan. Als dat me tot een achterblijver onder de lezers maakt, aanvaard ik die titel zonder spijt en met een zekere persoonlijke voldoening.",
+    "keys": [
+     "boeken",
+     "lezen",
+     "romans",
+     "aandacht"
+    ]
+   },
+   {
+    "title": "Hoe het getij ontstaat",
+    "text": "Het getij, dat zo natuurlijk en regelmatig lijkt dat het geen uitleg behoeft, is in werkelijkheid het product van een subtiele strijd tussen zwaartekracht en beweging. De maan trekt het sterkst aan de kant van de aarde die het dichtst bij haar ligt, en trekt de oceanen in een bult die haar rond de planeet volgt. Minder intuïtief vormt zich een tweede bult aan de tegenovergestelde kant, omdat de aantrekkingskracht van de maan daar zwakker is dan elders en het water in feite achterblijft. Terwijl de aarde onder deze twee bulten draait, passeert elke kust elk ervan eens per dag, en daarom hebben de meeste plaatsen binnen ongeveer een dag twee keer hoog water en twee keer laag water. Ook de zon oefent een aantrekkingskracht uit, al maakt haar grotere afstand haar invloed minder dan de helft van die van de maan. Wanneer zon en maan op één lijn staan, versterken hun effecten elkaar en ontstaan ongewoon grote getijden, terwijl ze elkaar gedeeltelijk opheffen wanneer ze een rechte hoek vormen en het getij mild is. De vorm van de kustlijn kan deze bewegingen dramatisch versterken, zodat in sommige smalle baaien het water vele malen hoger stijgt en daalt dan op open zee. Zeelieden begrijpen deze patronen al eeuwen, ook al bleef de onderliggende natuurkunde tot relatief recente tijd een raadsel. Het blijft opmerkelijk dat een kracht die over zo'n enorme afstand wordt uitgeoefend de zee kan optillen tegen de aantrekking van de planeet in die haar vasthoudt.",
+    "keys": [
+     "getij",
+     "maan",
+     "zon",
+     "zwaartekracht"
+    ]
+   },
+   {
+    "title": "De piano in de gang",
+    "text": "In de gang van het huis waar ik opgroeide stond een piano, een rechtopstaand exemplaar zonder enige bijzonderheid dat niemand in de familie kon bespelen. Mijn grootmoeder had hem gekocht in een vlaag van optimisme over de culturele ontwikkeling van haar nakomelingen, en decennialang stond hij daar als een monument voor die onvervulde hoop. We gebruikten hem vooral als plank voor sleutels, brieven en de eindeloze kleine voorwerpen die zich in een huishouden ophopen, en het deksel werd zelden geopend. Toch herinner ik me, met een helderheid die me verbaast, de middag waarop een tante op bezoek ging zitten en iets langzaams en onbekends begon te spelen. Het hele huis leek stil te vallen, en zelfs de hond tilde zijn kop van het kleed en keek haar aan met een uitdrukking van ernstige verbazing. Ik was misschien negen, en het was nooit bij me opgekomen dat het ding in de gang in staat was tot enig geluid behalve een holle dreun wanneer ik er met mijn knie tegenaan stootte. Toen ze klaar was, sloot ze het deksel, verontschuldigde zich omdat ze uit de oefening was, en ging terug naar de keuken alsof er niets was gebeurd. Ik heb sindsdien veel muziek gehoord, sommige ongetwijfeld mooier, maar niets dat ooit het meubilair van mijn geest zo heeft herschikt. Ik vermoed dat wat ik die middag hoorde niet zozeer een melodie was als een glimp van wat het huis had ingehouden.",
+    "keys": [
+     "piano",
+     "huis",
+     "grootmoeder",
+     "tante"
+    ]
+   }
+  ]
+ }
+}

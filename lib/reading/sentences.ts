@@ -8,8 +8,37 @@ const WORD = /[\p{L}\p{M}'’]+/gu;
 
 export interface Token { text: string; /** Set for a word; undefined for the spaces and punctuation between. */ word?: string; start: number }
 
+/** Scripts written without spaces between words: their words have to be found, not split on. */
+const UNSPACED = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Thai}]/u;
+const segmenters = new Map<string, Intl.Segmenter>();
+const segmenterFor = (text: string): Intl.Segmenter | null => {
+  if (typeof Intl === "undefined" || typeof Intl.Segmenter !== "function") return null;
+  const locale = /[\p{Script=Hiragana}\p{Script=Katakana}]/u.test(text) ? "ja" : /\p{Script=Thai}/u.test(text) ? "th" : "zh";
+  let seg = segmenters.get(locale);
+  if (!seg) { seg = new Intl.Segmenter(locale, { granularity: "word" }); segmenters.set(locale, seg); }
+  return seg;
+};
+
+/** Japanese, Chinese and Thai: the phone's own word breaker (a run of characters up to the next mark is a whole clause, not a word to tap). */
+function tokenizeUnspaced(text: string, seg: Intl.Segmenter): Token[] {
+  const out: Token[] = [];
+  let gap = -1;
+  for (const s of seg.segment(text)) {
+    if (s.isWordLike) {
+      if (gap >= 0) { out.push({ text: text.slice(gap, s.index), start: gap }); gap = -1; }
+      out.push({ text: s.segment, word: s.segment.toLowerCase(), start: s.index });
+    } else if (gap < 0) gap = s.index;
+  }
+  if (gap >= 0) out.push({ text: text.slice(gap), start: gap });
+  return out;
+}
+
 /** A text as words and the gaps between them, in order, each with where it starts. */
 export function tokenize(text: string): Token[] {
+  if (UNSPACED.test(text)) {
+    const seg = segmenterFor(text);
+    if (seg) return tokenizeUnspaced(text, seg);
+  }
   const out: Token[] = [];
   let at = 0;
   for (const m of text.matchAll(WORD)) {
