@@ -1,7 +1,7 @@
 import type { MessageId } from "@/lib/i18n/en";
 
 /**
- * The guided tour: Dewey walks a new reader through the app, from the home screen to the first page of a
+ * The guided tour: Pluto walks a new reader through the app, from the home screen to the first page of a
  * book. Pure rules here (which steps, in which order, where each can be shown); the overlay that draws them
  * is components/tour/Coach.tsx, and where the reader is up to is lib/tour/state.ts.
  *
@@ -13,13 +13,13 @@ export interface TourStep {
   id: string;
   /** Where the step can be shown. */
   on: RegExp;
-  /** The `data-tour` mark of what to point at; none means Dewey just talks. */
+  /** The `data-tour` mark of what to point at; none means Pluto just talks. */
   target?: string;
   text: MessageId;
   mode: "next" | "route";
   /** For `route` steps: the address that completes it. */
   until?: RegExp;
-  /** What Dewey looks like for this step. */
+  /** What Pluto looks like for this step. */
   mood: "hello" | "reading" | "cheer" | "ready";
   /** How the lit part is pointed at: a hand that taps it, or an arrow that bounces towards it (for a bar at the screen's edge). */
   point?: "hand" | "arrow";

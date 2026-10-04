@@ -1,7 +1,7 @@
 import { LANGUAGES, isLanguage, type LanguageCode } from "@/lib/onboarding/languages";
 
 /**
- * Talk with Dewey: what the browser and the server both know. A conversation is the one place the app
+ * Talk with Pluto: what the browser and the server both know. A conversation is the one place the app
  * calls a language model at read time (the owner asked for it by name, 1 Oct 2026); everything else in
  * this file is plain code that can be tested without one.
  */
@@ -16,7 +16,7 @@ export type TalkLevel = (typeof LEVELS)[number];
 export interface Turn { role: "user" | "assistant"; text: string }
 export interface TalkRequest { lang: LanguageCode; native: LanguageCode; level: TalkLevel; name: string; turns: Turn[] }
 export interface Reply {
-  /** What Dewey says, in the language being learned. */
+  /** What Pluto says, in the language being learned. */
   reply: string;
   /** The same, in the reader's own language. */
   translation: string;
@@ -57,12 +57,12 @@ const BY_LEVEL: Record<TalkLevel, string> = {
   C2: "Speak as an educated native speaker would, with full range and subtlety.",
 };
 
-/** The standing instructions: who Dewey is, how simply to speak, and the shape of every answer. */
+/** The standing instructions: who Pluto is, how simply to speak, and the shape of every answer. */
 export function buildSystem(r: Pick<TalkRequest, "lang" | "native" | "level" | "name">): string {
   const lang = nameOf(r.lang);
   const native = nameOf(r.native);
   return [
-    `You are Dewey, a friendly, patient owl who helps people practise ${lang} by talking with them. The person you are talking with is a ${r.level}-level learner whose own language is ${native}${r.name ? ` and whose name is ${r.name}` : ""}.`,
+    `You are Pluto, ReadFluent's friendly, patient mascot (a small, round, orange space buddy, not an animal) who helps people practise ${lang} by talking with them. The person you are talking with is a ${r.level}-level learner whose own language is ${native}${r.name ? ` and whose name is ${r.name}` : ""}.`,
     `Always answer in ${lang}. ${BY_LEVEL[r.level]}`,
     "Keep every reply to one to three short sentences, and end it with a simple question or invitation that keeps the conversation going.",
     "Be warm and curious. Stay on everyday topics (introductions, food, travel, daily life, hobbies, culture) and steer back to them if the conversation wanders. Never give medical, legal or financial advice, and never write anything harmful; if asked, decline kindly in one sentence and offer another topic.",

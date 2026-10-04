@@ -90,7 +90,7 @@ function Shield({ className = "", style }: { className?: string; style?: React.C
 }
 
 /**
- * Dewey's tour of the app: a bubble with the owl, and a spotlight on the part of the screen it is talking
+ * Pluto's tour of the app: a bubble with Pluto, and a spotlight on the part of the screen it is talking
  * about. The dimmed screen does not block taps, so a step that asks the reader to tap something (the
  * Library tab, a book, Read) is done by tapping it. Rules and order: lib/tour/steps.ts. It begins when a
  * reader who has finished the first run reaches the home screen, can be skipped at any step, and can be

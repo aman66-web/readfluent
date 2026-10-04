@@ -34,7 +34,7 @@ const SPARKS: [number, number, number, number][] = [[12, 18, 14, 0], [86, 14, 18
 
 /**
  * The celebration when a reader reaches a new stage of their level (B1.1 → B1.2) or a whole new level
- * (B1.3 → B2.1): the screen floods with light, rings of it spread from Dewey, confetti bursts and keeps
+ * (B1.3 → B2.1): the screen floods with light, rings of it spread from Pluto, confetti bursts and keeps
  * falling, the new level lights up in lamps, and what a reader at that level can do is said plainly.
  * Everything is moved by CSS (app/globals.css, `.lu-*`); with reduced motion it is the final picture, still.
  */

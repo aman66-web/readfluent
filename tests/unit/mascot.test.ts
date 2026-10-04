@@ -6,7 +6,7 @@ import { Mascot, type Mood } from "@/components/mascot/Mascot";
 const MOODS: Mood[] = ["hello", "reading", "cheer", "sleepy", "ready"];
 const draw = (props: Parameters<typeof Mascot>[0]) => renderToStaticMarkup(createElement(Mascot, props));
 
-describe("Dewey, the mascot", () => {
+describe("Pluto, the mascot", () => {
   it("draws in every pose, with round eyes in pale discs, and hidden from screen readers", () => {
     for (const mood of MOODS) {
       const svg = draw({ mood });

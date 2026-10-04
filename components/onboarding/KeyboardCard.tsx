@@ -22,7 +22,7 @@ function kindNow(): Kind {
 
 /**
  * Under the language pickers, whatever language is chosen: add its keyboard, and how to switch to it while typing.
- * Typing in the language happens in Talk with Dewey and in some answers; a keyboard is the phone's, so all the app can do is say how.
+ * Typing in the language happens in Talk with Pluto and in some answers; a keyboard is the phone's, so all the app can do is say how.
  */
 export function KeyboardCard({ learn }: { learn: LanguageCode | null }) {
   const t = useT();

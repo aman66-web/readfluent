@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 
 /**
- * Dewey, saying something now and then while the reader reads: a small bubble above the page buttons that goes by itself. Where it is
+ * Pluto, saying something now and then while the reader reads: a small bubble above the page buttons that goes by itself. Where it is
  * an invitation to chat (`href`) it is a link to Talk. It never covers the page's text and never blocks a swipe.
  */
 export function CheerBubble({ text, href, onGone }: { text: string; href?: string; onGone: () => void }) {

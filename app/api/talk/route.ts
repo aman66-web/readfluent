@@ -16,7 +16,7 @@ function fail(status: number, code: "not_ready" | "sign_in" | "limit" | "bad_req
 }
 
 /**
- * One turn of a conversation with Dewey.
+ * One turn of a conversation with Pluto.
  *
  * The only place the app calls a language model while somebody is using it. It answers a signed-in reader
  * (not an anonymous one), takes one message from their daily allowance before it spends anything, keeps

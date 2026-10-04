@@ -14,13 +14,13 @@ interface Nav { at: number; of: number; onBack: () => void; onContinue: () => vo
 /* ── hello ───────────────────────────────────────────────────────────────── */
 
 /**
- * The screen after "Get started": the guide says hello — Dewey, the mascot,
+ * The screen after "Get started": the guide says hello — Pluto, the mascot,
  * large in the middle of the white, and what it is saying set large under it.
  */
 /**
- * Dewey in the middle of a bare screen, a speech bubble over its head, and (under it) a quieter
- * line. The words of the bubble arrive one by one and Dewey's mouth moves while they do. Just a
- * back arrow and Continue: nothing else on the screen to look at but Dewey.
+ * Pluto in the middle of a bare screen, a speech bubble over its head, and (under it) a quieter
+ * line. The words of the bubble arrive one by one and Pluto's mouth moves while they do. Just a
+ * back arrow and Continue: nothing else on the screen to look at but Pluto.
  */
 function MascotSays({ at, of, line, sub, mood, onBack, onContinue }: Nav & { line: string; sub: string; mood: Mood }) {
   const guide = useGuide(`${line} ${sub}`);
@@ -39,13 +39,13 @@ function MascotSays({ at, of, line, sub, mood, onBack, onContinue }: Nav & { lin
   );
 }
 
-/** Right after "Get started": Dewey waves and says hello. */
+/** Right after "Get started": Pluto waves and says hello. */
 export function HelloScreen(nav: Nav) {
   const t = useT();
   return <MascotSays {...nav} mood="hello" line={t("hello.bubble", { app: APP_NAME, name: MASCOT_NAME })} sub={t("hello.sub")} />;
 }
 
-/** Then Dewey says the questions are quick (no number: the run also has a short tour). */
+/** Then Pluto says the questions are quick (no number: the run also has a short tour). */
 export function QuickScreen(nav: Nav) {
   const t = useT();
   return <MascotSays {...nav} mood="ready" line={t("quick.bubble")} sub={t("quick.sub")} />;
@@ -53,10 +53,10 @@ export function QuickScreen(nav: Nav) {
 
 /* ── go ─────────────────────────────────────────────────────────────────── */
 
-/** How long Dewey celebrates before the run moves on by itself. */
+/** How long Pluto celebrates before the run moves on by itself. */
 const GO_MS = 2600;
 
-/** Confetti: where each piece flies to (px from Dewey), how it turns, its colour and when it leaves. */
+/** Confetti: where each piece flies to (px from Pluto), how it turns, its colour and when it leaves. */
 const CONFETTI = [
   { x: -120, y: -150, r: -200, c: "var(--ob-cyan)", d: 480 }, { x: -70, y: -190, r: 140, c: "var(--ob-deep)", d: 520 },
   { x: -20, y: -210, r: -90, c: "var(--ob-cyan2)", d: 460 }, { x: 40, y: -200, r: 220, c: "var(--ob-teal)", d: 540 },
@@ -68,7 +68,7 @@ const CONFETTI = [
 ] as const;
 
 /**
- * After "just N quick questions" Dewey celebrates: a jump and a spin, confetti, "Let's go!" in a
+ * After "just N quick questions" Pluto celebrates: a jump and a spin, confetti, "Let's go!" in a
  * bubble. Then the run moves on by itself to the first question; there is nothing to press.
  */
 export function GoScreen({ at, of, onBack, onContinue }: Nav) {

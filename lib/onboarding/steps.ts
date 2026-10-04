@@ -2,10 +2,10 @@
  * The first run, as pure rules: which steps there are and in what order.
  *
  * Which language the app itself is in (so the rest can be read) → the welcome (a wall
- * of book covers) → Dewey says hello → Dewey says how quick it will be → Dewey celebrates and the run moves on by itself → which languages (the one you speak and the
+ * of book covers) → Pluto says hello → Pluto says how quick it will be → Pluto celebrates and the run moves on by itself → which languages (the one you speak and the
  * one you want to learn) → how much of it you know (or a
  * five-minute test that finds out) → how much time a day they can give it → how
- * long that takes to reach each level → a three-screen tour → a promise → Dewey asks to be added to the home screen → sign in → what you are
+ * long that takes to reach each level → a three-screen tour → a promise → Pluto asks to be added to the home screen → sign in → what you are
  * curious about → where they heard of it → the library being set up. Every step after the welcome can be
  * skipped, and every one counts on the progress bar.
  *
@@ -19,7 +19,7 @@ export const STEP_IDS = [
 ] as const;
 export type StepId = (typeof STEP_IDS)[number];
 
-/** The steps that ask the reader something before they are in the app. Dewey no longer says how many (the run also has a tour and more), so this is only a list. */
+/** The steps that ask the reader something before they are in the app. Pluto no longer says how many (the run also has a tour and more), so this is only a list. */
 export const QUESTION_STEPS = ["tongues", "level", "heard", "time", "interests"] as const satisfies readonly StepId[];
 
 /** Steps that play by themselves and move on: Back skips over them rather than landing on one that would run again. */

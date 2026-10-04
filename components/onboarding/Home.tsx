@@ -11,7 +11,7 @@ import { PrimaryButton } from "./ui";
 interface Nav { at: number; of: number; onBack: () => void; onContinue: () => void }
 
 /**
- * "Add me to your home screen!" — Dewey asks, a phone's home screen shows a Dewey tile sitting among
+ * "Add me to your home screen!" — Pluto asks, a phone's home screen shows a Pluto tile sitting among
  * the icons (two looks, taking turns), Continue puts the app there and "Not now" moves on.
  *
  * What Continue does depends on the phone (lib/pwa/install.ts): where the browser has its own
@@ -120,7 +120,7 @@ function HowTo({ kind, at, of, onBack, onContinue }: Nav & { kind: HowKind }) {
   );
 }
 
-/** The top of a phone's home screen: the Dewey tile (two looks, taking turns) among empty icons. */
+/** The top of a phone's home screen: the Pluto tile (two looks, taking turns) among empty icons. */
 function Phone() {
   return (
     <div className="home-phone mx-auto h-full w-full max-w-[17rem]">

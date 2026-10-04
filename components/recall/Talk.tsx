@@ -202,7 +202,7 @@ function Chat({ switchedOn }: { switchedOn: boolean }) {
                 </div>
               </li>
             ))}
-            {/* A kind note about the reader's last message, once Dewey has answered. */}
+            {/* A kind note about the reader's last message, once Pluto has answered. */}
             {lines.at(-1)?.role === "assistant" && lines.at(-1)?.correction ? (
               <li className="flex justify-start">
                 <div className="max-w-[85%] rounded-[16px] border border-amber-300 bg-amber-50 px-3.5 py-2.5 text-amber-900">

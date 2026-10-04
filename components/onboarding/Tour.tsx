@@ -21,7 +21,7 @@ import type { Mood } from "@/components/mascot/Mascot";
  *   levels     every book at your level, one short page and picture at a time
  *   connect    the books everyone talks about
  */
-/** How Dewey looks on each tour screen: reading for the books, eager for the rest, cheering at the last. */
+/** How Pluto looks on each tour screen: reading for the books, eager for the rest, cheering at the last. */
 const TOUR_MOOD: Record<ShowId, Mood> = { journey: "reading", levels: "ready", connect: "cheer" };
 
 export function TourScreen({ id, at, of, learn, onBack, onContinue }: {

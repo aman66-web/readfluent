@@ -176,7 +176,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   const [toast, setToast] = useState<{ text: string; happy: boolean } | null>(null);
   const prefsRaw = useSyncExternalStore(subscribePrefs, readPrefsRaw, serverRaw);
   const prefs = useMemo(() => parsePrefs(prefsRaw), [prefsRaw]);
-  // Dewey cheering now and then, and the quick check offered after every five pages (components/reader/MiniCheck.tsx).
+  // Pluto cheering now and then, and the quick check offered after every five pages (components/reader/MiniCheck.tsx).
   const [cheer, setCheer] = useState<Cheer | null>(null);
   const [check, setCheck] = useState<{ block: number } | null>(null);
   const welcomed = useRef(false);
@@ -251,7 +251,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
     const start = resumeIndex(readPage(progressSlug, levelId, length), total);
     if (start > 0) {
       goTo(start, false);
-      // Dewey says hello again, once.
+      // Pluto says hello again, once.
       if (!welcomed.current && prefs.cheers) { welcomed.current = true; window.setTimeout(() => setCheer({ id: "reader.cheer.back" }), 1200); }
     }
     // The cheers setting is read only when the book opens.
@@ -346,7 +346,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   }, [gain]);
   // A new stage or a new level: the celebration comes up over the page.
   const [levelUp, setLevelUp] = useState<LevelUpInfo | null>(null);
-  // Moving on a page: the end of five pages offers a quick check, once; otherwise Dewey may say something kind.
+  // Moving on a page: the end of five pages offers a quick check, once; otherwise Pluto may say something kind.
   useEffect(() => {
     const from = prevIndex.current;
     prevIndex.current = index;
@@ -581,7 +581,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
               </button>
               {interactive && !onEnd ? (
                 <div className="flex min-w-0 flex-1 items-center justify-center gap-1.5">
-                  {/* Dewey beside the hint, hopping when a word is saved. */}
+                  {/* Pluto beside the hint, hopping when a word is saved. */}
                   <span key={hop} className={`block w-11 shrink-0 ${hop ? "reader-hop" : ""}`}><Mascot mood="hello" className="w-full" /></span>
                   <p dir="auto" className="text-start text-[13px] font-semibold leading-snug text-muted">{t("reader.tapHint")}</p>
                 </div>

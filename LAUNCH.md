@@ -4,7 +4,7 @@ Written 2 Oct 2026. "You" is the owner, "me" is Claude. Order matters: each phas
 
 ## Where it stands today
 
-Built and working: the first-run (18 screens, 20 languages, Dewey), dashboard with levels and XP, library and book pages, the reader with word cards, flashcards with phrase decks, Talk with Dewey, friends and league, achievements, premium sheet, listen-to-page.
+Built and working: the first-run (18 screens, 20 languages, Pluto), dashboard with levels and XP, library and book pages, the reader with word cards, flashcards with phrase decks, Talk with Pluto, friends and league, achievements, premium sheet, listen-to-page.
 
 Not real yet: the library is **270 books** (30 in each of nine categories), each only in the 50-page length and English only, with a fact-check owed on the classics written from memory; every page uses **one placeholder picture**; nothing is saved to an account (progress, XP and words live on the phone only); nobody can buy anything; there is no native app yet.
 

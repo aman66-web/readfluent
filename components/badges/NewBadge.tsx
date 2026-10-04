@@ -9,7 +9,7 @@ import { useBadges } from "./useBadges";
 
 /**
  * On the home screen: a reader who has earned something since they last looked is told, once, with
- * Dewey cheering. It also keeps the badges up to date as they are reached (see useBadges).
+ * Pluto cheering. It also keeps the badges up to date as they are reached (see useBadges).
  */
 export function NewBadge() {
   const t = useT();

@@ -63,8 +63,8 @@
 .first-cover-art { display: block; width: 100%; flex: 1; min-height: 0; margin-top: auto; padding: 0 4px 4px 8px; }
 .first-link { color: var(--ob-ink); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 
-/* Dewey above the name, and the short bar under it. */
-.first-owl { position: relative; }
+/* Pluto above the name, and the short bar under it. */
+.first-mascot { position: relative; }
 .first-rule { flex: none; }
 
 /* Something arriving a beat after the thing above it: a row, a card, a line. */
@@ -110,8 +110,8 @@
 /* A short screen (a phone with the browser's bars showing): the name and the
    line shrink a little so the wall keeps the room it needs to read as a wall. */
 @media (max-height: 760px) {
-  .first-owl { margin-top: -3rem; }
-  .first-owl > svg { width: 84px; }
+  .first-mascot { margin-top: -3rem; }
+  .first-mascot > svg { width: 84px; }
   .first-name { font-size: clamp(36px, 12.5vw, 48px); }
   .first-tagline { font-size: 21px; margin-top: 1rem; }
   .first-start { margin-top: 1.25rem; }
@@ -340,7 +340,7 @@
 @keyframes home-b { 0%, 42% { opacity: 0 } 50%, 92% { opacity: 1 } 100% { opacity: 0 } }
 @media (prefers-reduced-motion: reduce) { .home-look-a { animation: none; opacity: 1 } .home-look-b { display: none } }
 
-/* Dewey's cheer: a small bubble that pops out beside the owl, then is gone. */
+/* Pluto's cheer: a small bubble that pops out beside Pluto, then is gone. */
 .cheer-bubble {
   position: relative;
   background: var(--accent-bright); color: var(--foreground);

@@ -18,7 +18,7 @@ import { useLocale, useRich, useT } from "@/lib/i18n/react";
  * thing anybody sees is what is in the library: real books. The rows slide slowly
  * in opposite directions and every icon keeps its own small motion; under reduced
  * motion all of it holds still. The name is set in plain heavy letters that rise one
- * after another (it was a dot-matrix readout, which read poorly at this size), with Dewey above it
+ * after another (it was a dot-matrix readout, which read poorly at this size), with Pluto above it
  * and a cyan glow rising behind it.
  *
  * The layout and timing come from the first screen of the app this one was
@@ -44,8 +44,8 @@ export function FirstScreen({ onStart, onSignIn, onBack }: { onStart: () => void
       )}
       <Wall />
       <div className="relative z-[1] flex shrink-0 flex-col items-center px-7 pb-[calc(env(safe-area-inset-bottom)+1rem)] text-center">
-        {/* Dewey stands on the foot of the wall, where it has faded to white. */}
-        <span className="first-owl wel-in -mt-16 block" style={{ animationDelay: "200ms" }} aria-hidden><Mascot mood="hello" className="w-[112px]" /></span>
+        {/* Pluto stands on the foot of the wall, where it has faded to white. */}
+        <span className="first-mascot wel-in -mt-16 block" style={{ animationDelay: "200ms" }} aria-hidden><Mascot mood="hello" className="w-[112px]" /></span>
         <h1 dir="ltr" className="first-name mt-1 flex items-baseline justify-center text-[clamp(40px,14.4vw,60px)] font-extrabold leading-none tracking-[-0.035em]" aria-label={APP_NAME}>
           {/* The name in plain, heavy letters rising one after another: "Read" in ink, "Fluent" in the brand's deep cyan. */}
           {Array.from(top).map((ch, i) => <span key={`t${i}`} aria-hidden className="wel-in inline-block" style={{ animationDelay: `${300 + i * 55}ms`, color: "var(--ob-ink)" }}>{ch}</span>)}

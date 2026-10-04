@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { cheerFor, milestoneFor } from "@/components/onboarding/Guide";
 
-describe("Dewey's cheers", () => {
+describe("Pluto's cheers", () => {
   it("says something different on the first few taps", () => {
     const said = new Set([1, 2, 3, 4].map((n) => cheerFor(n, 2, 18)));
     expect(said.size).toBe(4);

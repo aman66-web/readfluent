@@ -6,7 +6,7 @@
  * `Pwa`) and kept until a screen asks for it. iPhone has no such prompt: the reader has
  * to use Share → Add to Home Screen themselves, so the app can only show how.
  *
- * This is the app's icon on the home screen. A live widget (Dewey with the reader's level) is
+ * This is the app's icon on the home screen. A live widget (Pluto with the reader's level) is
  * a native feature and waits for the store build (M11).
  */
 

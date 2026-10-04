@@ -9,7 +9,7 @@ import { PrimaryButton } from "./ui";
 /**
  * The guide: the first-run screens where the app talks the reader through it. The
  * frame is what they share — a back arrow, the run's progress, and Continue at the
- * foot — then the guide itself (Dewey, the mascot), and the guide saying its line:
+ * foot — then the guide itself (Pluto, the mascot), and the guide saying its line:
  * the pages turn faster while the words arrive one after another,
  * and the line sits large on the white ground rather than in a bubble.
  *
@@ -54,16 +54,16 @@ export function useGuide(line: string) {
 }
 export type Guide = ReturnType<typeof useGuide>;
 
-/** How many times the reader has tapped something on this screen (Dewey hops and cheers at each), and where in the run they are. */
+/** How many times the reader has tapped something on this screen (Pluto hops and cheers at each), and where in the run they are. */
 const Taps = createContext({ taps: 0, at: 0, of: 1 });
 
-/** What Dewey says when the reader answers: the same few words in turn, and one for being nearly done. */
+/** What Pluto says when the reader answers: the same few words in turn, and one for being nearly done. */
 const CHEERS = ["cheer.1", "cheer.2", "cheer.3", "cheer.4", "cheer.5", "cheer.6"] as const;
 export function cheerFor(taps: number, at: number, of: number): (typeof CHEERS)[number] | "cheer.almost" {
   if (of >= 6 && at >= of - 3 && taps % 2 === 0) return "cheer.almost";
   return CHEERS[(Math.max(1, taps) - 1 + at) % CHEERS.length];
 }
-/** The screens where Dewey cheers on his own, as the reader passes the middle and nears the end. */
+/** The screens where Pluto cheers on his own, as the reader passes the middle and nears the end. */
 export function milestoneFor(at: number, of: number): "cheer.half" | "cheer.almost" | null {
   if (of < 8) return null;
   if (at === Math.floor(of / 2)) return "cheer.half";
@@ -71,7 +71,7 @@ export function milestoneFor(at: number, of: number): "cheer.half" | "cheer.almo
   return null;
 }
 
-/** The things on a screen that are answers (not the way back or on): a tap on one of them makes Dewey cheer. */
+/** The things on a screen that are answers (not the way back or on): a tap on one of them makes Pluto cheer. */
 const TAPPABLE = "button, [role=radio], [role=checkbox], label, a";
 
 /** The frame every guide screen sits in. */
@@ -87,7 +87,7 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
   showContinue?: boolean;
   /** What the button says, where "Continue" undersells it (the last screen). */
   continueLabel?: string;
-  /** Off on the screen where Dewey says hello: just the back arrow, no steps. */
+  /** Off on the screen where Pluto says hello: just the back arrow, no steps. */
   progress?: boolean;
   children: ReactNode;
 }) {
@@ -138,7 +138,7 @@ export function GuideHead({ guide, line, sub, mood = "hello" }: { guide: Guide; 
   const { taps, at, of } = useContext(Taps);
   const milestone = milestoneFor(at, of);
   const cheer = taps > 0 ? cheerFor(taps, at, of) : milestone;
-  // The bubble is there for a moment (its animation fades it out), then the owl's name comes back.
+  // The bubble is there for a moment (its animation fades it out), then the mascot's name comes back.
   const bubbleKey = `${taps}-${cheer}`;
   const [gone, setGone] = useState<string | null>(null);
   useEffect(() => {
@@ -167,7 +167,7 @@ export function GuideHead({ guide, line, sub, mood = "hello" }: { guide: Guide; 
 }
 
 /**
- * Dewey beside the line: it pops in as the screen arrives, and at each tap on an answer it hops
+ * Pluto beside the line: it pops in as the screen arrives, and at each tap on an answer it hops
  * and cheers for a moment before settling back into the screen's own mood.
  */
 function GuideMascot({ mood, talking, cheered }: { mood: Mood; talking: boolean; cheered: boolean }) {

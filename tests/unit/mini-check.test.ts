@@ -59,7 +59,7 @@ describe("quick check after five pages", () => {
   });
 });
 
-describe("Dewey's cheers", () => {
+describe("Pluto's cheers", () => {
   it("never on the first page, the end slide or twice in a row", () => {
     expect(cheerFor(0, 50, -99)).toBeNull();
     expect(cheerFor(50, 50, -99)).toBeNull();

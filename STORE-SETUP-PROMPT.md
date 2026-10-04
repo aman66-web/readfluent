@@ -33,9 +33,9 @@ FACTS
   Audience: teenagers and adults (13+). Not aimed at children.
   What the app is: real books retold at a learner's level (A1 to C2), read one page at a time with a
   picture and 1-3 sentences, tap any word for its meaning, flashcards, tests, level exams, and an AI
-  conversation partner called Dewey (signed-in readers only). The app interface is in 20 languages.
+  conversation partner called Pluto (signed-in readers only). The app interface is in 20 languages.
   Data: works with no account; progress stays on the phone. With sign-in (Google, Apple or emailed code):
-  email address, a user ID, and synced progress/words/friends. Messages typed into the Dewey chat are sent to
+  email address, a user ID, and synced progress/words/friends. Messages typed into the Pluto chat are sent to
   Anthropic (AI model provider). Books are translated on the phone itself; nothing is sent for that. No ads, no analytics,
   no tracking, no data sold. Account deletion: in the app under Profile, or via the Support page.
 
@@ -76,7 +76,7 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
    choose. Do not enable pre-orders.
 9. App Privacy: Privacy Policy URL as above. Answer the questionnaire from the DATA facts only:
    Data collected: Contact Info -> Email Address (linked to user, used for App Functionality);
-   Identifiers -> User ID (linked, App Functionality); User Content -> Other User Content (the Dewey chat
+   Identifiers -> User ID (linked, App Functionality); User Content -> Other User Content (the Pluto chat
    messages and synced progress; linked, App Functionality; shared with a third-party processor).
    Nothing is used for tracking. No third-party advertising. Declare Purchases (purchase history; linked to the user, App Functionality, not tracking), because the subscriptions
    will be sold through Apple and Google and checked by RevenueCat.
@@ -84,7 +84,7 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
 10. Age Rating questionnaire: answer honestly for a reading app of classic literature retellings:
     violence, horror/fear themes, alcohol/tobacco references and mature themes = "Infrequent/Mild" (the
     books include things like detective stories and gothic classics); everything else None; no gambling; no
-    unrestricted web access; no user-generated content; if it asks about AI chatbots say Yes (Dewey).
+    unrestricted web access; no user-generated content; if it asks about AI chatbots say Yes (Pluto).
     Report the resulting age rating to me.
 11. Version "1.0" page (iOS App): 
     Promotional Text: Real books, retold at your level. Read one page at a time, tap any word for its meaning, and watch your language grow.
@@ -103,7 +103,7 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
       - One page at a time, so it fits in a few minutes a day
       - Tap any word for its meaning, and save it as a flashcard
       - Phrase decks, tests and level exams that show how far you have come
-      - Dewey, a friendly owl who chats with you to practise (sign-in needed)
+      - Pluto, a friendly little companion who chats with you to practise (sign-in needed)
       - XP, streaks and achievements to keep you going
       - The whole app in 20 languages
       - No account needed to start: your progress stays on your phone, and signing in saves it across devices
@@ -117,7 +117,7 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
     App icon (1024x1024) is part of the app build, so skip it.
 13. App Review Information: Sign-in required: No (the app works without an account). Notes: "ReadFluent
     works without an account. Sign in with Google or Apple is optional and only saves progress across
-    devices. The AI chat (Dewey) needs sign-in." Contact name/phone/email: ask me. 
+    devices. The AI chat (Pluto) needs sign-in." Contact name/phone/email: ask me. 
 14. STOP before "Add for Review" / Submit. Do not upload a build (there is none yet).
 
 PHASE 4 - Google Play Console (play.google.com/console). Create the app, fill everything, stop.
@@ -125,7 +125,7 @@ PHASE 4 - Google Play Console (play.google.com/console). Create the app, fill ev
     game), Free, then confirm the declarations ONLY after asking me (they are legal statements).
 16. Dashboard tasks (do each one that does not need a build):
     - Privacy policy URL as above.
-    - App access: reading, tests and flashcards need no sign-in; the Dewey chat (Talk) needs sign-in. Say so, and give the
+    - App access: reading, tests and flashcards need no sign-in; the Pluto chat (Talk) needs sign-in. Say so, and give the
       review sign-in details if the owner has set a reviewer account (see RELEASE.md); otherwise ask me.
     - Ads: No, the app contains no ads.
     - Content rating: category Reference/Education; answer the IARC questionnaire honestly (infrequent

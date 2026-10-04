@@ -16,8 +16,8 @@ export const APP_NAME = "ReadFluent";
 export const COMPANY_NAME = "CLARIFO DEVELOPERS LTD";
 /** Where readers write to. Set NEXT_PUBLIC_SUPPORT_EMAIL in Vercel; until then the pages point to the store listings. */
 export const SUPPORT_EMAIL = (process.env.NEXT_PUBLIC_SUPPORT_EMAIL ?? "").trim();
-/** The mascot's name: the owl who guides the first run. One place, so a new name is one edit. */
-export const MASCOT_NAME = "Dewey";
+/** The mascot's name: the little orange companion who guides the reader. One place, so a new name is one edit. */
+export const MASCOT_NAME = "Pluto";
 export const TAGLINE = "Real books. Your level.";
 
 /** The reverse-DNS id registered with Apple and Google. Must match capacitor.config.ts and both native projects. */

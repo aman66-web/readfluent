@@ -1,7 +1,7 @@
 import type { MessageId } from "@/lib/i18n/en";
 
 /**
- * When Dewey says something while the reader reads (owner, 4 Oct 2026: "cheering the person along here and there, just being there").
+ * When Pluto says something while the reader reads (owner, 4 Oct 2026: "cheering the person along here and there, just being there").
  * Rarely and never twice running: a line every so often, a milestone now and then, a chat invitation. Pure: the page and where the book is decide.
  */
 export interface Cheer { id: MessageId; vars?: Record<string, number>; talk?: boolean }

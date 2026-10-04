@@ -26,7 +26,7 @@ export function PrivacyPolicy() {
       <h2>Anonymous use</h2>
       <p>The app may create an anonymous account with no email so your progress can be saved safely. It is not linked to who you are until you choose to sign in.</p>
 
-      <h2>Talking with Dewey</h2>
+      <h2>Talking with Pluto</h2>
       <p>If you use the Talk feature, the messages you type are sent to Anthropic, which runs the AI model that replies, so that it can answer. Talk is for signed-in readers only and has a daily limit. Please do not share private details in it. We do not use your messages for advertising.</p>
 
       <h2>Reading in your learning language</h2>

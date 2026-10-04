@@ -94,7 +94,7 @@ export function RecallView({ talkReady = true }: { /** Whether the server can ru
           <svg viewBox="0 0 24 24" className="size-9" {...stroke} strokeWidth={1.7} aria-hidden><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>
           <span>
             <span className="block text-[18px] font-bold leading-tight tracking-[-0.01em]">{t("recall.speaking")}</span>
-            <span className="mt-0.5 block text-[12.5px] leading-snug opacity-75">{t(talkReady ? "recall.talkNow" : "recall.soon", { name: "Dewey" })}</span>
+            <span className="mt-0.5 block text-[12.5px] leading-snug opacity-75">{t(talkReady ? "recall.talkNow" : "recall.soon", { name: "Pluto" })}</span>
           </span>
         </Link>
       </div>
