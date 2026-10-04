@@ -751,6 +751,7 @@ const fr: Catalog = {
   "me.terms": "Conditions d'utilisation",
   "me.support": "Aide et assistance",
   "email.orLink": "L'e-mail contient un lien de connexion : touche-le sur ce téléphone. S'il contient plutôt un code à 6 chiffres, saisis-le ci-dessous.",
+  "ready.phoneAsks": "Ton téléphone peut te demander de télécharger le {language}. Touche Télécharger pour que tes livres s'ouvrent dans cette langue.",
 };
 
 export default fr;

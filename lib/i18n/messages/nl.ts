@@ -754,6 +754,7 @@ const nl: Catalog = {
   "me.terms": "Gebruiksvoorwaarden",
   "me.support": "Hulp & support",
   "email.orLink": "De e-mail bevat een inloglink: tik erop op deze telefoon. Staat er een code van 6 cijfers, typ die dan hieronder.",
+  "ready.phoneAsks": "Je telefoon vraagt misschien om het {language} te downloaden. Tik op Download zodat je boeken erin openen.",
 };
 
 export default nl;

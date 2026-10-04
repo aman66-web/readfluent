@@ -750,6 +750,7 @@ const indonesian: Catalog = {
   "me.terms": "Ketentuan penggunaan",
   "me.support": "Bantuan & dukungan",
   "email.orLink": "Email berisi tautan masuk: ketuk di ponsel ini. Jika yang ada kode 6 digit, ketik di bawah.",
+  "ready.phoneAsks": "Ponselmu mungkin meminta mengunduh {language}. Ketuk Unduh agar bukumu bisa terbuka dalam bahasa itu.",
 };
 
 export default indonesian;

@@ -750,6 +750,7 @@ const ja: Catalog = {
   "me.terms": "利用規約",
   "me.support": "ヘルプとサポート",
   "email.orLink": "メールにログイン用のリンクがあります。このスマホでタップしてください。6桁のコードが書かれている場合は、下に入力してください。",
+  "ready.phoneAsks": "スマホが{language}のダウンロードを求めることがあります。「ダウンロード」をタップすると、本がその言語で開きます。",
 };
 
 export default ja;

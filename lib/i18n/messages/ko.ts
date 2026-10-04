@@ -752,6 +752,7 @@ const ko: Catalog = {
   "me.terms": "이용 약관",
   "me.support": "도움말 및 지원",
   "email.orLink": "이메일에 로그인 링크가 있어요. 이 휴대폰에서 눌러 주세요. 6자리 코드가 있으면 아래에 입력하세요.",
+  "ready.phoneAsks": "휴대폰이 {language} 다운로드를 요청할 수 있어요. 다운로드를 눌러야 책이 그 언어로 열려요.",
 };
 
 export default ko;

@@ -750,6 +750,7 @@ const zh: Catalog = {
   "me.terms": "使用条款",
   "me.support": "帮助与支持",
   "email.orLink": "邮件里有一个登录链接：请在这部手机上点击它。如果邮件里是6位验证码，请在下方输入。",
+  "ready.phoneAsks": "你的手机可能会请求下载{language}。点“下载”，书就能以该语言打开。",
 };
 
 export default zh;

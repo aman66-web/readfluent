@@ -732,6 +732,7 @@ const vi: Catalog = {
   "me.terms": "Điều khoản sử dụng",
   "me.support": "Trợ giúp & hỗ trợ",
   "email.orLink": "Email có liên kết đăng nhập: hãy chạm vào nó trên điện thoại này. Nếu thay vào đó là mã 6 số, hãy nhập bên dưới.",
+  "ready.phoneAsks": "Điện thoại có thể hỏi tải {language}. Hãy chạm Tải xuống để sách của bạn mở bằng ngôn ngữ đó.",
 };
 
 export default vi;

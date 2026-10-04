@@ -754,6 +754,7 @@ const pl: Catalog = {
   "me.terms": "Warunki korzystania",
   "me.support": "Pomoc i wsparcie",
   "email.orLink": "E-mail zawiera link do logowania: dotknij go na tym telefonie. Jeśli jest w nim 6-cyfrowy kod, wpisz go poniżej.",
+  "ready.phoneAsks": "Telefon może poprosić o pobranie języka: {language}. Dotknij Pobierz, aby książki otwierały się w tym języku.",
 };
 
 export default pl;

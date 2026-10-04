@@ -752,6 +752,7 @@ const de: Catalog = {
   "me.terms": "Nutzungsbedingungen",
   "me.support": "Hilfe & Support",
   "email.orLink": "Die E-Mail enthält einen Anmeldelink: Tippe auf diesem Handy darauf. Steht dort stattdessen ein 6-stelliger Code, gib ihn unten ein.",
+  "ready.phoneAsks": "Dein Handy fragt eventuell, ob es {language} herunterladen soll. Tippe auf „Laden“, damit sich deine Bücher darin öffnen.",
 };
 
 export default de;

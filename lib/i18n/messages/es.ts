@@ -751,6 +751,7 @@ const es: Catalog = {
   "me.terms": "Términos de uso",
   "me.support": "Ayuda y soporte",
   "email.orLink": "El correo trae un enlace para entrar: tócalo en este teléfono. Si trae un código de 6 dígitos, escríbelo abajo.",
+  "ready.phoneAsks": "Tu teléfono puede pedirte descargar el {language}. Toca Descargar para que tus libros se abran en ese idioma.",
 };
 
 export default es;

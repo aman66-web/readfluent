@@ -760,6 +760,7 @@ export const EN = {
   "me.terms": "Terms of use",
   "me.support": "Help & support",
   "email.orLink": "The email has a sign-in link: tap it on this phone to sign in. If it shows a 6-digit code instead, type it below.",
+  "ready.phoneAsks": "Your phone may ask to download {language}. Tap Download so your books can open in it.",
 } as const;
 
 export type MessageId = keyof typeof EN;

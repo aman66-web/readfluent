@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useSyncExternalStore } from "react";
 import { DotNumber } from "@/components/DotMatrix";
 import { C, CoverFace } from "@/components/welcome/covers";
 import type { CategoryId } from "@/lib/content/limits";
@@ -8,6 +9,7 @@ import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
 import { hasPlacement } from "@/lib/placement";
 import type { Cefr } from "@/lib/xp/levels";
+import { prepareLanguageOnce, willAskToDownload } from "@/lib/translate/prepare";
 import { useStagedCount } from "./count";
 import { GuideFrame, GuideHead, useGuide } from "./Guide";
 import { PrimaryButton, TickIcon } from "./ui";
@@ -90,6 +92,8 @@ const ICONS = [
  * in the colours of their shelves, four things being set up and ticked off, and, when it is
  * done, their level, daily time and language as a plan they can see. Then the way in.
  */
+const noSubscribe = () => () => {};
+
 export function ReadyScreen({ at, of, interests, minutes, level, learn, built = false, onTest, onBack, onContinue }: Nav & {
   interests: readonly CategoryId[];
   minutes: number;
@@ -104,6 +108,10 @@ export function ReadyScreen({ at, of, interests, minutes, level, learn, built = 
   const locale = useLocale();
   const pct = useStagedCount(BUILDING, 500, built);
   const done = pct >= 100;
+  // The phone's language download is asked for here, while the library "builds", not at the first book.
+  useEffect(() => { void prepareLanguageOnce(learn); }, [learn]);
+  // Known only on the device, so the server's render and the first client render agree (no note).
+  const phoneAsks = useSyncExternalStore(noSubscribe, () => willAskToDownload(learn), () => false);
   const line = done ? t("ready.done") : t("ready.building");
   const guide = useGuide(line);
   const names = formatList(interests.slice(0, 2).map((id) => t(`cat.${id}`)), locale);
@@ -140,6 +148,7 @@ export function ReadyScreen({ at, of, interests, minutes, level, learn, built = 
               </span>
             </div>
           )}
+          {!done && phoneAsks && learn ? <p className="ob-muted mt-2 text-center text-[12px] leading-snug">{t("ready.phoneAsks", { language: languageName(learn, locale) })}</p> : null}
         </div>
 
         <ul className="mt-3 grid grid-cols-2 gap-2.5">
