@@ -751,6 +751,17 @@ const indonesian: Catalog = {
   "me.support": "Bantuan & dukungan",
   "email.orLink": "Email berisi tautan masuk: ketuk di ponsel ini. Jika yang ada kode 6 digit, ketik di bawah.",
   "ready.phoneAsks": "Ponselmu mungkin meminta mengunduh {language}. Ketuk Unduh agar bukumu bisa terbuka dalam bahasa itu.",
+  "lang.prep.title": "Siapkan {language} di ponselmu",
+  "lang.prep.why": "ReadFluent menerjemahkan bukumu di ponsel dengan penerjemah gratisnya, jadi apa pun yang kamu baca tidak keluar dari ponsel. Perlu mengunduh {language} sekali. Setelah itu seluruh perpustakaan mulai diterjemahkan sendiri.",
+  "lang.prep.how": "Ketuk Unduh dan pilih ya. Kamu juga bisa membuka Pengaturan dan mencari “Translation languages”.",
+  "lang.prep.button": "Unduh {language}",
+  "lang.prep.working": "Mengunduh… bisa memakan beberapa menit. Kamu boleh lanjut.",
+  "lang.prep.done": "{language} siap. Perpustakaanmu sedang diterjemahkan di latar belakang.",
+  "lang.kb.title": "Tambahkan keyboard {language}",
+  "lang.kb.why": "Kamu akan mengetik dalam {language} saat mengobrol dengan Dewey dan di beberapa jawaban. Tambahkan keyboard-nya sekali agar bisa mengetik dengan huruf yang benar.",
+  "lang.kb.ios": "Buka Pengaturan → Umum → Keyboard → Keyboard → Tambah Keyboard Baru, lalu pilih {language}. Untuk berganti saat mengetik, ketuk tombol globe 🌐 di keyboard.",
+  "lang.kb.android": "Buka Pengaturan → Sistem → Bahasa & masukan → Keyboard di layar → Gboard → Bahasa, lalu tambahkan {language}. Untuk berganti saat mengetik, ketuk tombol globe 🌐 atau tekan lama spasi.",
+  "lang.kb.other": "Tambahkan keyboard {language} di pengaturan bahasa atau keyboard perangkatmu, lalu beralih ke sana saat mengetik.",
 };
 
 export default indonesian;

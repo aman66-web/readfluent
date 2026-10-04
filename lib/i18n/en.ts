@@ -761,6 +761,17 @@ export const EN = {
   "me.support": "Help & support",
   "email.orLink": "The email has a sign-in link: tap it on this phone to sign in. If it shows a 6-digit code instead, type it below.",
   "ready.phoneAsks": "Your phone may ask to download {language}. Tap Download so your books can open in it.",
+  "lang.prep.title": "Get {language} ready on your phone",
+  "lang.prep.why": "ReadFluent translates your books on your phone with its free translator, so nothing you read leaves your phone. It needs {language} downloaded once. After that the whole library starts translating by itself.",
+  "lang.prep.how": "Tap Download and say yes. You can also open Settings and search for “Translation languages”.",
+  "lang.prep.button": "Download {language}",
+  "lang.prep.working": "Downloading… this can take a few minutes. You can carry on.",
+  "lang.prep.done": "{language} is ready. Your library is translating in the background.",
+  "lang.kb.title": "Add the {language} keyboard",
+  "lang.kb.why": "You will type in {language} when you chat with Dewey and in some answers. Add its keyboard once, so you can type with the right letters.",
+  "lang.kb.ios": "Open Settings → General → Keyboard → Keyboards → Add New Keyboard, and choose {language}. To switch while typing, tap the globe key 🌐 on the keyboard.",
+  "lang.kb.android": "Open Settings → System → Languages & input → On-screen keyboard → Gboard → Languages, and add {language}. To switch while typing, tap the globe key 🌐, or press and hold the space bar.",
+  "lang.kb.other": "Add the {language} keyboard in your device's language or keyboard settings, then switch to it when you type.",
 } as const;
 
 export type MessageId = keyof typeof EN;

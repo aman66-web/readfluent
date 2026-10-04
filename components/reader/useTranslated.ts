@@ -5,6 +5,8 @@ import type { ReaderPage, ReaderVariant } from "@/components/reader/types";
 import type { KeyPair, WordEntry } from "@/lib/preview/spanish";
 import { LEVELS } from "@/lib/content/limits";
 import { devicePrepare, deviceStatus, deviceTranslate } from "@/lib/translate/device";
+import { holdBackground } from "@/lib/translate/background";
+import { cacheKey, getCached, setCached } from "@/lib/translate/cache";
 import { wordCards } from "@/lib/translate/variant";
 
 /**
@@ -101,6 +103,32 @@ export function useTranslated(lang: string | null, speak: string, slug: string, 
           return settle({ state: "ready", variant });
         }
       }
+      // 0b. Translated on this phone earlier (in the background, or on a visit before): open at once, even offline.
+      const ckey = cacheKey(slug, levelSlug, lang);
+      const kept = english && english.length ? await getCached(ckey) : null;
+      if (english && kept && kept.pages.length === english.length) {
+        const englishSpeaker = speak === "en" || !speak;
+        const pages: ReaderPage[] = kept.pages.map((text, i) => head[i] ?? { n: i + 1, text, scene: i + 1, target: { translation: english[i], keys: [] } });
+        const cardsKept = kept.dict && kept.speak === (speak || "en") ? kept.dict : {};
+        const variant: ReaderVariant = { lang: lang as ReaderVariant["lang"], dict: { ...cardsKept, ...(englishSpeaker ? (start?.dict ?? {}) : {}) }, pages };
+        done.set(key, variant);
+        settle({ state: "ready", variant });
+        // Pages are kept, the word cards not yet: make them now, and keep them too.
+        if (!kept.dict || kept.speak !== (speak || "en")) {
+          try {
+            if ((await deviceStatus("en", lang)) !== "ready") return;
+            let dict: Record<string, WordEntry> = {};
+            let cardsIn = speak || "en";
+            try { dict = await wordCards(variant, cardsIn, deviceTranslate); }
+            catch { cardsIn = "en"; dict = await wordCards(variant, "en", deviceTranslate); }
+            const full: ReaderVariant = { ...variant, dict: { ...dict, ...(englishSpeaker ? (start?.dict ?? {}) : {}) } };
+            done.set(key, full);
+            settle({ state: "ready", variant: full });
+            await setCached(ckey, { pages: kept.pages, dict, speak: cardsIn });
+          } catch { /* the pages are what matters */ }
+        }
+        return;
+      }
       // 1. The phone's own translator, for the rest of the book.
       if (english && english.length) {
         const status = await deviceStatus("en", lang);
@@ -110,6 +138,7 @@ export function useTranslated(lang: string | null, speak: string, slug: string, 
           try {
             // A small first piece, so the reader can start in a few seconds, then bigger pieces in the background
             // (every request to the phone's translator has a start-up cost, so many small ones would be slower overall).
+            holdBackground(true);
             const startDict = speak === "en" || !speak ? { ...(start?.dict ?? {}) } : {};
             const done_: ReaderPage[] = [...head];
             let at = head.length;
@@ -127,16 +156,20 @@ export function useTranslated(lang: string | null, speak: string, slug: string, 
             }
             const pages: ReaderVariant = { lang: lang as ReaderVariant["lang"], dict: {}, pages: done_ };
             settle({ state: "ready", variant: { ...pages, dict: startDict } });
+            // Kept on the phone: next time it opens at once (and the background work need not do it).
+            void setCached(ckey, { pages: done_.map((p) => p.text) });
             // The word cards, in the reader's own language (or English if the phone cannot do that pair). The
             // first chapter's hand-made cards are kept for an English speaker; they explain more than one word can.
             let dict: Record<string, WordEntry> = {};
-            try { dict = await wordCards(pages, speak || "en", deviceTranslate); }
-            catch { try { dict = await wordCards(pages, "en", deviceTranslate); } catch { /* the cards stay empty */ } }
+            let cardsIn = speak || "en";
+            try { dict = await wordCards(pages, cardsIn, deviceTranslate); }
+            catch { try { cardsIn = "en"; dict = await wordCards(pages, "en", deviceTranslate); } catch { /* the cards stay empty */ } }
+            void setCached(ckey, { pages: done_.map((p) => p.text), dict, speak: cardsIn });
             if ((speak === "en" || !speak) && start) dict = { ...dict, ...start.dict };
             const full = { ...pages, dict };
             done.set(key, full);
             return settle({ state: "ready", variant: full });
-          } catch { /* fall through */ }
+          } catch { /* fall through */ } finally { holdBackground(false); }
         }
       }
       // 2. No translator on this device: the first chapter in the language, the rest in English.

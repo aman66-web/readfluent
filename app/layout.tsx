@@ -6,6 +6,7 @@ import { NativeChrome } from "@/components/NativeChrome";
 import { NavTracker } from "@/components/NavTracker";
 import { Pwa } from "@/components/Pwa";
 import { TabBar } from "@/components/TabBar";
+import { BackgroundTranslation } from "@/components/translate/BackgroundTranslation";
 import { Coach } from "@/components/tour/Coach";
 import { ArtDefs } from "@/components/welcome/art";
 import { LocaleSync } from "@/lib/i18n/react";
@@ -55,6 +56,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Configures RevenueCat on the native build, keyed to the same
             Supabase user id everything else uses. Renders nothing. */}
         <PurchasesBridge />
+        {/* Translates the library on the phone, in the background, once a language to learn is chosen. Renders nothing. */}
+        <BackgroundTranslation />
         {/* The status bar's text colour on the native build. Renders nothing. */}
         <NativeChrome />
         {/* The page's lang and dir follow the reader's language. Renders nothing. */}

@@ -752,6 +752,17 @@ const it: Catalog = {
   "me.support": "Aiuto e assistenza",
   "email.orLink": "L'e-mail contiene un link di accesso: toccalo su questo telefono. Se invece c'è un codice a 6 cifre, scrivilo qui sotto.",
   "ready.phoneAsks": "Il telefono potrebbe chiederti di scaricare l'{language}. Tocca Scarica così i tuoi libri si apriranno in quella lingua.",
+  "lang.prep.title": "Prepara l'{language} sul tuo telefono",
+  "lang.prep.why": "ReadFluent traduce i tuoi libri sul telefono con il suo traduttore gratuito, quindi nulla di ciò che leggi lascia il telefono. Serve scaricare l'{language} una volta. Poi tutta la libreria inizia a tradursi da sola.",
+  "lang.prep.how": "Tocca Scarica e conferma. Puoi anche aprire Impostazioni e cercare «Lingue di traduzione».",
+  "lang.prep.button": "Scarica {language}",
+  "lang.prep.working": "Download in corso… può richiedere qualche minuto. Puoi continuare.",
+  "lang.prep.done": "L'{language} è pronto. La tua libreria si sta traducendo in background.",
+  "lang.kb.title": "Aggiungi la tastiera per l'{language}",
+  "lang.kb.why": "Scriverai in {language} quando chatti con Dewey e in alcune risposte. Aggiungi la sua tastiera una volta per usare le lettere giuste.",
+  "lang.kb.ios": "Apri Impostazioni → Generali → Tastiera → Tastiere → Aggiungi nuova tastiera e scegli {language}. Per cambiare mentre scrivi, tocca il tasto globo 🌐 sulla tastiera.",
+  "lang.kb.android": "Apri Impostazioni → Sistema → Lingue e inserimento → Tastiera sullo schermo → Gboard → Lingue e aggiungi {language}. Per cambiare mentre scrivi, tocca il tasto globo 🌐 o tieni premuta la barra spaziatrice.",
+  "lang.kb.other": "Aggiungi la tastiera per l'{language} nelle impostazioni di lingua o tastiera del dispositivo, poi passa a essa quando scrivi.",
 };
 
 export default it;

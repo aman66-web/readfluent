@@ -752,6 +752,17 @@ const es: Catalog = {
   "me.support": "Ayuda y soporte",
   "email.orLink": "El correo trae un enlace para entrar: tócalo en este teléfono. Si trae un código de 6 dígitos, escríbelo abajo.",
   "ready.phoneAsks": "Tu teléfono puede pedirte descargar el {language}. Toca Descargar para que tus libros se abran en ese idioma.",
+  "lang.prep.title": "Prepara el {language} en tu teléfono",
+  "lang.prep.why": "ReadFluent traduce tus libros en tu teléfono con su traductor gratuito, así que nada de lo que lees sale de él. Necesita descargar el {language} una vez. Después, toda la biblioteca empieza a traducirse sola.",
+  "lang.prep.how": "Toca Descargar y di que sí. También puedes abrir Ajustes y buscar «Idiomas de traducción».",
+  "lang.prep.button": "Descargar {language}",
+  "lang.prep.working": "Descargando… puede tardar unos minutos. Puedes seguir.",
+  "lang.prep.done": "El {language} está listo. Tu biblioteca se está traduciendo en segundo plano.",
+  "lang.kb.title": "Añade el teclado de {language}",
+  "lang.kb.why": "Escribirás en {language} cuando chatees con Dewey y en algunas respuestas. Añade su teclado una vez para escribir con las letras correctas.",
+  "lang.kb.ios": "Abre Ajustes → General → Teclado → Teclados → Añadir teclado nuevo y elige {language}. Para cambiar mientras escribes, toca la tecla del globo 🌐 del teclado.",
+  "lang.kb.android": "Abre Ajustes → Sistema → Idiomas y entrada → Teclado en pantalla → Gboard → Idiomas y añade {language}. Para cambiar mientras escribes, toca la tecla del globo 🌐 o mantén pulsada la barra espaciadora.",
+  "lang.kb.other": "Añade el teclado de {language} en los ajustes de idioma o de teclado de tu dispositivo y cámbiate a él al escribir.",
 };
 
 export default es;

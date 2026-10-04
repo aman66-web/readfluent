@@ -755,6 +755,17 @@ const nl: Catalog = {
   "me.support": "Hulp & support",
   "email.orLink": "De e-mail bevat een inloglink: tik erop op deze telefoon. Staat er een code van 6 cijfers, typ die dan hieronder.",
   "ready.phoneAsks": "Je telefoon vraagt misschien om het {language} te downloaden. Tik op Download zodat je boeken erin openen.",
+  "lang.prep.title": "Maak het {language} klaar op je telefoon",
+  "lang.prep.why": "ReadFluent vertaalt je boeken op je telefoon met de gratis vertaler, dus niets van wat je leest verlaat je telefoon. Het {language} moet één keer worden gedownload. Daarna begint de hele bibliotheek vanzelf te vertalen.",
+  "lang.prep.how": "Tik op Download en zeg ja. Je kunt ook Instellingen openen en zoeken naar “Vertaaltalen”.",
+  "lang.prep.button": "{language} downloaden",
+  "lang.prep.working": "Downloaden… dit kan een paar minuten duren. Je kunt doorgaan.",
+  "lang.prep.done": "Het {language} is klaar. Je bibliotheek wordt op de achtergrond vertaald.",
+  "lang.kb.title": "Voeg het toetsenbord voor {language} toe",
+  "lang.kb.why": "Je typt in het {language} als je met Dewey chat en bij sommige antwoorden. Voeg het toetsenbord één keer toe, zodat je de juiste letters kunt typen.",
+  "lang.kb.ios": "Open Instellingen → Algemeen → Toetsenbord → Toetsenborden → Nieuw toetsenbord toevoegen en kies {language}. Om tijdens het typen te wisselen tik je op de wereldbol-toets 🌐.",
+  "lang.kb.android": "Open Instellingen → Systeem → Talen en invoer → Schermtoetsenbord → Gboard → Talen en voeg {language} toe. Om tijdens het typen te wisselen tik je op de wereldbol-toets 🌐 of houd je de spatiebalk ingedrukt.",
+  "lang.kb.other": "Voeg het toetsenbord voor {language} toe in de taal- of toetsenbordinstellingen van je apparaat en schakel ernaar over als je typt.",
 };
 
 export default nl;

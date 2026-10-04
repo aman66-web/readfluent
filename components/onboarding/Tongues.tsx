@@ -2,6 +2,8 @@
 
 import { switchLanguageLedger } from "@/lib/xp/ledger";
 import { prepareLanguageOnce } from "@/lib/translate/prepare";
+import { KeyboardCard } from "./KeyboardCard";
+import { PhoneTranslatorCard } from "./PhoneTranslator";
 import { Modal } from "@/components/Modal";
 import { useRef, useState } from "react";
 import { languageName, loadCatalog } from "@/lib/i18n";
@@ -116,6 +118,8 @@ export function LanguagePicker({ speak, learn, delay = 0, showSpeak = true }: { 
       <p className="wel-in mt-4 text-center text-[15px] font-semibold leading-snug" style={{ animationDelay: `${delay + 240}ms` }} aria-live="polite">
         {tonguesSummary(t, locale, speak, learn)}
       </p>
+      <PhoneTranslatorCard learn={learn} />
+      <KeyboardCard learn={learn} />
       {note && <p className="ob-muted wel-in mt-1.5 text-center text-[13px] leading-snug" style={{ animationDelay: `${delay + 320}ms` }}>{note}</p>}
       {open && (
         <Sheet title={open === "speak" ? t("tongues.sheetSpeak") : t("tongues.sheetLearn")} value={open === "speak" ? speak : learn}

@@ -751,6 +751,17 @@ const zh: Catalog = {
   "me.support": "帮助与支持",
   "email.orLink": "邮件里有一个登录链接：请在这部手机上点击它。如果邮件里是6位验证码，请在下方输入。",
   "ready.phoneAsks": "你的手机可能会请求下载{language}。点“下载”，书就能以该语言打开。",
+  "lang.prep.title": "在手机上准备好{language}",
+  "lang.prep.why": "ReadFluent 用免费翻译器在手机上翻译你的书，所以你读的内容不会离开手机。只需下载一次{language}，之后整个书库会自动开始翻译。",
+  "lang.prep.how": "点“下载”并允许。你也可以打开“设置”，搜索“翻译语言”。",
+  "lang.prep.button": "下载{language}",
+  "lang.prep.working": "正在下载……可能需要几分钟。你可以继续。",
+  "lang.prep.done": "{language}已准备好。你的书库正在后台翻译。",
+  "lang.kb.title": "添加{language}键盘",
+  "lang.kb.why": "和 Dewey 聊天以及回答某些问题时，你需要用{language}输入。请先添加它的键盘一次，就能输入正确的字符。",
+  "lang.kb.ios": "打开“设置”→“通用”→“键盘”→“键盘”→“添加新键盘”，选择{language}。输入时要切换，点键盘上的地球键🌐。",
+  "lang.kb.android": "打开“设置”→“系统”→“语言和输入法”→“屏幕键盘”→Gboard→“语言”，添加{language}。输入时要切换，点地球键🌐，或长按空格键。",
+  "lang.kb.other": "在设备的语言或键盘设置中添加{language}键盘，输入时切换到它。",
 };
 
 export default zh;

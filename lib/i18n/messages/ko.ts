@@ -753,6 +753,17 @@ const ko: Catalog = {
   "me.support": "도움말 및 지원",
   "email.orLink": "이메일에 로그인 링크가 있어요. 이 휴대폰에서 눌러 주세요. 6자리 코드가 있으면 아래에 입력하세요.",
   "ready.phoneAsks": "휴대폰이 {language} 다운로드를 요청할 수 있어요. 다운로드를 눌러야 책이 그 언어로 열려요.",
+  "lang.prep.title": "휴대폰에 {language} 준비하기",
+  "lang.prep.why": "ReadFluent는 무료 번역기로 휴대폰 안에서 책을 번역해서, 읽는 내용이 휴대폰 밖으로 나가지 않아요. {language}을(를) 한 번만 내려받으면 돼요. 그다음엔 라이브러리 전체가 저절로 번역되기 시작해요.",
+  "lang.prep.how": "다운로드를 누르고 허용하세요. 설정에서 ‘번역 언어’를 검색해도 돼요.",
+  "lang.prep.button": "{language} 내려받기",
+  "lang.prep.working": "내려받는 중… 몇 분 걸릴 수 있어요. 계속 진행해도 돼요.",
+  "lang.prep.done": "{language} 준비 완료! 라이브러리가 백그라운드에서 번역되고 있어요.",
+  "lang.kb.title": "{language} 키보드 추가하기",
+  "lang.kb.why": "Dewey와 채팅할 때와 일부 답에서 {language}(으)로 입력해요. 올바른 글자로 입력할 수 있도록 키보드를 한 번 추가하세요.",
+  "lang.kb.ios": "설정 → 일반 → 키보드 → 키보드 → 새로운 키보드 추가를 열고 {language}을(를) 고르세요. 입력 중에 바꾸려면 키보드의 지구본 키 🌐를 누르세요.",
+  "lang.kb.android": "설정 → 시스템 → 언어 및 입력 → 화상 키보드 → Gboard → 언어를 열고 {language}을(를) 추가하세요. 입력 중에 바꾸려면 지구본 키 🌐를 누르거나 스페이스바를 길게 누르세요.",
+  "lang.kb.other": "기기의 언어 또는 키보드 설정에서 {language} 키보드를 추가한 다음, 입력할 때 전환하세요.",
 };
 
 export default ko;

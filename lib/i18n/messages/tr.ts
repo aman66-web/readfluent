@@ -716,6 +716,17 @@ const tr: Catalog = {
   "me.support": "Yardım ve destek",
   "email.orLink": "E-postada bir giriş bağlantısı var: bu telefonda ona dokun. Onun yerine 6 haneli bir kod varsa aşağıya yaz.",
   "ready.phoneAsks": "Telefonun {language} dilini indirmeni isteyebilir. Kitapların bu dilde açılması için İndir'e dokun.",
+  "lang.prep.title": "{language} dilini telefonunda hazırla",
+  "lang.prep.why": "ReadFluent kitaplarını telefonunda ücretsiz çevirmeniyle çevirir, bu yüzden okuduğun hiçbir şey telefonundan çıkmaz. {language} dilinin bir kez indirilmesi gerekir. Sonra tüm kütüphane kendiliğinden çevrilmeye başlar.",
+  "lang.prep.how": "İndir'e dokun ve onayla. Ayrıca Ayarlar'ı açıp “Çeviri dilleri” araması da yapabilirsin.",
+  "lang.prep.button": "{language} indir",
+  "lang.prep.working": "İndiriliyor… birkaç dakika sürebilir. Devam edebilirsin.",
+  "lang.prep.done": "{language} hazır. Kütüphanen arka planda çevriliyor.",
+  "lang.kb.title": "{language} klavyesini ekle",
+  "lang.kb.why": "Dewey ile sohbet ederken ve bazı cevaplarda {language} dilinde yazacaksın. Doğru harflerle yazabilmek için klavyesini bir kez ekle.",
+  "lang.kb.ios": "Ayarlar → Genel → Klavye → Klavyeler → Yeni Klavye Ekle'yi aç ve {language} seç. Yazarken geçiş yapmak için klavyedeki dünya tuşuna 🌐 dokun.",
+  "lang.kb.android": "Ayarlar → Sistem → Diller ve giriş → Ekran klavyesi → Gboard → Diller'i aç ve {language} ekle. Yazarken geçiş yapmak için dünya tuşuna 🌐 dokun veya boşluk çubuğuna basılı tut.",
+  "lang.kb.other": "{language} klavyesini cihazının dil veya klavye ayarlarından ekle, sonra yazarken ona geç.",
 };
 
 export default tr;

@@ -733,6 +733,17 @@ const vi: Catalog = {
   "me.support": "Trợ giúp & hỗ trợ",
   "email.orLink": "Email có liên kết đăng nhập: hãy chạm vào nó trên điện thoại này. Nếu thay vào đó là mã 6 số, hãy nhập bên dưới.",
   "ready.phoneAsks": "Điện thoại có thể hỏi tải {language}. Hãy chạm Tải xuống để sách của bạn mở bằng ngôn ngữ đó.",
+  "lang.prep.title": "Chuẩn bị {language} trên điện thoại",
+  "lang.prep.why": "ReadFluent dịch sách ngay trên điện thoại bằng trình dịch miễn phí, nên những gì bạn đọc không rời khỏi điện thoại. Cần tải {language} một lần. Sau đó cả thư viện tự bắt đầu được dịch.",
+  "lang.prep.how": "Chạm Tải xuống và đồng ý. Bạn cũng có thể mở Cài đặt và tìm “Ngôn ngữ dịch”.",
+  "lang.prep.button": "Tải {language}",
+  "lang.prep.working": "Đang tải… có thể mất vài phút. Bạn cứ tiếp tục nhé.",
+  "lang.prep.done": "{language} đã sẵn sàng. Thư viện của bạn đang được dịch ở nền.",
+  "lang.kb.title": "Thêm bàn phím {language}",
+  "lang.kb.why": "Bạn sẽ gõ bằng {language} khi trò chuyện với Dewey và ở một số câu trả lời. Hãy thêm bàn phím một lần để gõ đúng chữ.",
+  "lang.kb.ios": "Mở Cài đặt → Cài đặt chung → Bàn phím → Bàn phím → Thêm bàn phím mới, rồi chọn {language}. Để chuyển khi đang gõ, chạm phím quả địa cầu 🌐 trên bàn phím.",
+  "lang.kb.android": "Mở Cài đặt → Hệ thống → Ngôn ngữ & phương thức nhập → Bàn phím ảo → Gboard → Ngôn ngữ, rồi thêm {language}. Để chuyển khi đang gõ, chạm phím quả địa cầu 🌐 hoặc nhấn giữ phím cách.",
+  "lang.kb.other": "Thêm bàn phím {language} trong cài đặt ngôn ngữ hoặc bàn phím của thiết bị, rồi chuyển sang nó khi gõ.",
 };
 
 export default vi;

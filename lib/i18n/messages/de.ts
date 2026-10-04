@@ -753,6 +753,17 @@ const de: Catalog = {
   "me.support": "Hilfe & Support",
   "email.orLink": "Die E-Mail enthält einen Anmeldelink: Tippe auf diesem Handy darauf. Steht dort stattdessen ein 6-stelliger Code, gib ihn unten ein.",
   "ready.phoneAsks": "Dein Handy fragt eventuell, ob es {language} herunterladen soll. Tippe auf „Laden“, damit sich deine Bücher darin öffnen.",
+  "lang.prep.title": "Mach {language} auf deinem Handy bereit",
+  "lang.prep.why": "ReadFluent übersetzt deine Bücher auf dem Handy mit dem kostenlosen Übersetzer, deshalb verlässt nichts, was du liest, dein Handy. Dafür muss {language} einmal heruntergeladen werden. Danach beginnt die ganze Bibliothek von selbst mit dem Übersetzen.",
+  "lang.prep.how": "Tippe auf „Laden“ und bestätige. Oder öffne die Einstellungen und suche nach „Übersetzungssprachen“.",
+  "lang.prep.button": "{language} herunterladen",
+  "lang.prep.working": "Wird geladen … das kann ein paar Minuten dauern. Du kannst weitermachen.",
+  "lang.prep.done": "{language} ist bereit. Deine Bibliothek wird im Hintergrund übersetzt.",
+  "lang.kb.title": "Füge die Tastatur für {language} hinzu",
+  "lang.kb.why": "Du schreibst auf {language}, wenn du mit Dewey chattest und bei manchen Antworten. Füge die Tastatur einmal hinzu, damit du die richtigen Buchstaben tippen kannst.",
+  "lang.kb.ios": "Öffne Einstellungen → Allgemein → Tastatur → Tastaturen → Neue Tastatur hinzufügen und wähle {language}. Zum Wechseln beim Tippen tippst du auf die Globus-Taste 🌐 der Tastatur.",
+  "lang.kb.android": "Öffne Einstellungen → System → Sprachen & Eingabe → Bildschirmtastatur → Gboard → Sprachen und füge {language} hinzu. Zum Wechseln beim Tippen tippst du auf die Globus-Taste 🌐 oder hältst die Leertaste gedrückt.",
+  "lang.kb.other": "Füge die Tastatur für {language} in den Sprach- oder Tastatureinstellungen deines Geräts hinzu und wechsle beim Tippen dorthin.",
 };
 
 export default de;

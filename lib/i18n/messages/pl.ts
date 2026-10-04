@@ -755,6 +755,17 @@ const pl: Catalog = {
   "me.support": "Pomoc i wsparcie",
   "email.orLink": "E-mail zawiera link do logowania: dotknij go na tym telefonie. Jeśli jest w nim 6-cyfrowy kod, wpisz go poniżej.",
   "ready.phoneAsks": "Telefon może poprosić o pobranie języka: {language}. Dotknij Pobierz, aby książki otwierały się w tym języku.",
+  "lang.prep.title": "Przygotuj język {language} na telefonie",
+  "lang.prep.why": "ReadFluent tłumaczy książki na telefonie darmowym tłumaczem, więc nic z tego, co czytasz, nie opuszcza telefonu. Trzeba raz pobrać język: {language}. Potem cała biblioteka zaczyna tłumaczyć się sama.",
+  "lang.prep.how": "Dotknij Pobierz i zgódź się. Możesz też otworzyć Ustawienia i wyszukać „Języki tłumaczenia”.",
+  "lang.prep.button": "Pobierz: {language}",
+  "lang.prep.working": "Pobieranie… może potrwać kilka minut. Możesz iść dalej.",
+  "lang.prep.done": "Język {language} jest gotowy. Twoja biblioteka tłumaczy się w tle.",
+  "lang.kb.title": "Dodaj klawiaturę: {language}",
+  "lang.kb.why": "Będziesz pisać w języku {language} w rozmowie z Dewey i w niektórych odpowiedziach. Dodaj jego klawiaturę raz, aby pisać właściwymi literami.",
+  "lang.kb.ios": "Otwórz Ustawienia → Ogólne → Klawiatura → Klawiatury → Dodaj klawiaturę i wybierz: {language}. Aby przełączać podczas pisania, dotknij klawisza z globusem 🌐.",
+  "lang.kb.android": "Otwórz Ustawienia → System → Języki i wprowadzanie → Klawiatura ekranowa → Gboard → Języki i dodaj: {language}. Aby przełączać podczas pisania, dotknij klawisza z globusem 🌐 lub przytrzymaj spację.",
+  "lang.kb.other": "Dodaj klawiaturę: {language} w ustawieniach języka lub klawiatury urządzenia, a potem przełącz się na nią podczas pisania.",
 };
 
 export default pl;

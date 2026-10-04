@@ -752,6 +752,17 @@ const fr: Catalog = {
   "me.support": "Aide et assistance",
   "email.orLink": "L'e-mail contient un lien de connexion : touche-le sur ce téléphone. S'il contient plutôt un code à 6 chiffres, saisis-le ci-dessous.",
   "ready.phoneAsks": "Ton téléphone peut te demander de télécharger le {language}. Touche Télécharger pour que tes livres s'ouvrent dans cette langue.",
+  "lang.prep.title": "Prépare le {language} sur ton téléphone",
+  "lang.prep.why": "ReadFluent traduit tes livres sur ton téléphone avec son traducteur gratuit : rien de ce que tu lis ne le quitte. Il faut télécharger le {language} une seule fois. Ensuite, toute la bibliothèque se met à se traduire toute seule.",
+  "lang.prep.how": "Touche Télécharger et accepte. Tu peux aussi ouvrir Réglages et chercher « Langues de traduction ».",
+  "lang.prep.button": "Télécharger {language}",
+  "lang.prep.working": "Téléchargement… cela peut prendre quelques minutes. Tu peux continuer.",
+  "lang.prep.done": "Le {language} est prêt. Ta bibliothèque se traduit en arrière-plan.",
+  "lang.kb.title": "Ajoute le clavier pour le {language}",
+  "lang.kb.why": "Tu écriras en {language} dans la conversation avec Dewey et dans certaines réponses. Ajoute son clavier une fois pour taper avec les bonnes lettres.",
+  "lang.kb.ios": "Ouvre Réglages → Général → Clavier → Claviers → Ajouter un clavier, et choisis {language}. Pour changer en tapant, touche la touche globe 🌐 du clavier.",
+  "lang.kb.android": "Ouvre Paramètres → Système → Langues et saisie → Clavier à l'écran → Gboard → Langues, et ajoute {language}. Pour changer en tapant, touche la touche globe 🌐 ou maintiens la barre d'espace.",
+  "lang.kb.other": "Ajoute le clavier pour le {language} dans les réglages de langue ou de clavier de ton appareil, puis passe dessus pour taper.",
 };
 
 export default fr;

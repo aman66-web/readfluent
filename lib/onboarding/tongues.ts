@@ -34,7 +34,7 @@ export function choicesFor<T extends { code: LanguageCode }>(which: "speak" | "l
 /** What is not available yet about this pair, or null when all of it is. */
 export function tonguesNote(t: T, locale: LanguageCode, speak: LanguageCode, learn: LanguageCode | null): string | null {
   const en = languageName("en", locale);
-  if (learn && learn !== "en") return sentence(t("tongues.noteBooks", { en, learn: languageName(learn, locale) }), locale);
+  // Books in any language are translated on the phone (lib/translate), so there is nothing to apologise for here.
   if (learn === "en" && speak !== "en") return sentence(t("tongues.noteWords", { en, speak: languageName(speak, locale) }), locale);
   return null;
 }

@@ -1,5 +1,6 @@
 import { CACHE_PREFIX, STORAGE_PREFIX } from "@/lib/brand";
 import { ONBOARDED_COOKIE, WELCOME_PATH } from "@/lib/onboarding";
+import { clearCached } from "@/lib/translate/cache";
 import { clearMemory, notify } from "./local";
 
 /**
@@ -30,6 +31,7 @@ export async function wipeEverything(): Promise<void> {
       await Promise.all(names.filter((n) => n.startsWith(CACHE_PREFIX)).map((n) => window.caches.delete(n)));
     }
   } catch { /* no cache storage */ }
+  await clearCached();
   // Anything on screen that was reading a store now reads an empty one.
   clearMemory();
   notify();

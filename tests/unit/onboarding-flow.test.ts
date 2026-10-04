@@ -285,7 +285,7 @@ describe("the language pair", () => {
     const t = (id: Parameters<typeof translate>[1], vars?: Record<string, string | number>) => translate(null, id, vars);
     expect(tonguesSummary(t, "en", "en", "es")).toBe("Reading Spanish, with help in English.");
     expect(tonguesSummary(t, "en", "en", null)).toBe("Choose the language you want to learn.");
-    expect(tonguesNote(t, "en", "en", "es")).toContain("The books are in English today");
+    expect(tonguesNote(t, "en", "en", "es")).toBeNull(); // books in any language are translated on the phone
     expect(tonguesNote(t, "en", "fr", "en")).toContain("French are coming");
     expect(tonguesNote(t, "en", "en", "en")).toBeNull();
   });
