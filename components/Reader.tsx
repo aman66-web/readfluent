@@ -1,5 +1,7 @@
 "use client";
 
+import { usePageKeys } from "@/components/reader/usePageKeys";
+import { keySpans } from "@/lib/reading/keys";
 import type { WordEntry } from "@/lib/preview/spanish";
 import { useSentenceMeaning } from "@/components/reader/useSentenceMeaning";
 import { BackLink } from "@/components/BackLink";
@@ -131,7 +133,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   const bookText = useBookText();
   const scroller = useRef<HTMLDivElement>(null);
   const [index, setIndex] = useState(0);
-  const pages = variant.pages;
+  const pages = usePageKeys(variant.pages, index, variant.lang);
   const total = pages.length;
   const onEnd = index >= total;
   const interactive = !!variant.dict;
@@ -178,7 +180,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
 
   const selPage = sel ? pages[sel.page] : undefined;
   const keys = selPage?.target?.keys ?? [];
-  const keyIx = sel ? keys.findIndex((k) => k.w === sel.word) : -1;
+  const keyIx = sel && selPage ? (keySpans(selPage.text, keys, "w").get(sel.start) ?? -1) : -1;
   const colour = keyIx >= 0 ? `var(--key-${(keyIx % 3) + 1})` : "var(--foreground)";
   const cardEntry = sel ? variant.dict?.[sel.word] : undefined;
   // A card made by hand explains the word; one made by the translator from the word alone is a guess, so the word is asked again in its sentence.
@@ -537,6 +539,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
 function PageText({ page, interactive, selected, lang, size, colours, gloss, onPick }: { page: ReaderPage; interactive: boolean; selected: number; lang: string; size: number; colours: boolean; gloss: boolean; onPick: (word: string, start: number) => void }) {
   if (!interactive) return <p lang={lang} className="font-reading leading-[1.55] text-foreground" style={{ fontSize: size }}>{page.text}</p>;
   const keys = page.target?.keys ?? [];
+  const spans = keySpans(page.text, keys, "w");
   return (
     <>
     <p lang={lang} className="font-reading font-medium leading-[1.55] text-foreground" style={{ fontSize: size }}
@@ -548,7 +551,7 @@ function PageText({ page, interactive, selected, lang, size, colours, gloss, onP
        }}>
       {tokenize(page.text).map((tok) => {
         if (!tok.word) return tok.text;
-        const k = keys.findIndex((x) => x.w === tok.word);
+        const k = spans.get(tok.start) ?? -1;
         return (
           <span key={tok.start} role="button" tabIndex={0} data-w={tok.word} data-s={tok.start} data-sel={selected === tok.start ? "" : undefined}
                 className={`cursor-pointer rounded-[5px] px-px transition-colors ${k >= 0 && colours ? `key-word key-${(k % 3) + 1}` : ""} ${selected === tok.start ? "bg-accent-bright/30" : "active:bg-accent-bright/20"}`}>
@@ -565,14 +568,15 @@ function PageText({ page, interactive, selected, lang, size, colours, gloss, onP
 /** The translated sentence, the word that matches the tapped one lit in its colour and the other matched words underlined. */
 function TranslatedLine({ line, keys, chosen }: { line: string; keys: { w: string; en: string }[]; chosen: number }) {
   const toks = tokenize(line);
-  const keyOf = (word: string | undefined) => keys.findIndex((x) => x.en.toLowerCase() === word);
+  const spans = keySpans(line, keys, "en");
+  const keyOf = (start: number) => spans.get(start) ?? -1;
   // Only the first appearance of the tapped word's partner is lit.
-  const litAt = toks.find((tok) => tok.word && chosen >= 0 && keyOf(tok.word) === chosen)?.start ?? -1;
+  const litAt = toks.find((tok) => tok.word && chosen >= 0 && keyOf(tok.start) === chosen)?.start ?? -1;
   return (
     <>
       {toks.map((tok) => {
         if (!tok.word) return tok.text;
-        const k = keyOf(tok.word);
+        const k = keyOf(tok.start);
         if (k < 0) return <span key={tok.start}>{tok.text}</span>;
         const isChosen = tok.start === litAt;
         return (
