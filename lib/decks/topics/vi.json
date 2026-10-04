@@ -1,0 +1,1529 @@
+{
+ "lang": "vi",
+ "topics": {
+  "greetings": [
+   {
+    "t": "Xin chào",
+    "en": "Hello",
+    "ph": "sin chow"
+   },
+   {
+    "t": "Chào buổi sáng",
+    "en": "Good morning",
+    "ph": "chow BWOY sang"
+   },
+   {
+    "t": "Chào buổi tối",
+    "en": "Good evening",
+    "ph": "chow BWOY toy"
+   },
+   {
+    "t": "Tạm biệt",
+    "en": "Goodbye",
+    "ph": "tahm byet"
+   },
+   {
+    "t": "Hẹn gặp lại",
+    "en": "See you again",
+    "ph": "hen gap lie"
+   },
+   {
+    "t": "Chúc ngủ ngon",
+    "en": "Good night",
+    "ph": "chook ngoo ngon"
+   },
+   {
+    "t": "Bạn khỏe không?",
+    "en": "How are you?",
+    "ph": "ban kweh kohm"
+   },
+   {
+    "t": "Tôi khỏe, cảm ơn",
+    "en": "I am fine, thank you",
+    "ph": "toy kweh, kam uhn"
+   },
+   {
+    "t": "Cảm ơn bạn rất nhiều",
+    "en": "Thank you very much",
+    "ph": "kam uhn ban rut nyew"
+   },
+   {
+    "t": "Không có gì",
+    "en": "You are welcome",
+    "ph": "kohm kaw zee"
+   },
+   {
+    "t": "Làm ơn",
+    "en": "Please",
+    "ph": "lam uhn"
+   },
+   {
+    "t": "Xin lỗi",
+    "en": "Sorry, excuse me",
+    "ph": "sin loy"
+   },
+   {
+    "t": "Bạn tên là gì?",
+    "en": "What is your name?",
+    "ph": "ban ten la zee"
+   },
+   {
+    "t": "Tên tôi là Lan",
+    "en": "My name is Lan",
+    "ph": "ten toy la lan"
+   },
+   {
+    "t": "Rất vui được gặp bạn",
+    "en": "Nice to meet you",
+    "ph": "rut vooy duhk gap ban"
+   },
+   {
+    "t": "Bạn đến từ đâu?",
+    "en": "Where are you from?",
+    "ph": "ban den too dow"
+   },
+   {
+    "t": "Tôi đến từ Anh",
+    "en": "I am from England",
+    "ph": "toy den too ang"
+   },
+   {
+    "t": "Bạn nói tiếng Anh không?",
+    "en": "Do you speak English?",
+    "ph": "ban noy tyeng ang kohm"
+   },
+   {
+    "t": "Tôi không hiểu",
+    "en": "I do not understand",
+    "ph": "toy kohm hyew"
+   },
+   {
+    "t": "Bạn nói lại được không?",
+    "en": "Can you say that again?",
+    "ph": "ban noy lie duhk kohm"
+   },
+   {
+    "t": "Xin nói chậm thôi",
+    "en": "Please speak slowly",
+    "ph": "sin noy chum toy"
+   },
+   {
+    "t": "Vâng",
+    "en": "Yes",
+    "ph": "vung"
+   },
+   {
+    "t": "Không",
+    "en": "No",
+    "ph": "kohm"
+   },
+   {
+    "t": "Cảm ơn",
+    "en": "Thank you",
+    "ph": "kam uhn"
+   },
+   {
+    "t": "Chào bạn",
+    "en": "Hi",
+    "ph": "chow ban"
+   }
+  ],
+  "numbers": [
+   {
+    "t": "Một",
+    "en": "One",
+    "ph": "moht"
+   },
+   {
+    "t": "Hai",
+    "en": "Two",
+    "ph": "high"
+   },
+   {
+    "t": "Ba",
+    "en": "Three",
+    "ph": "bah"
+   },
+   {
+    "t": "Bốn",
+    "en": "Four",
+    "ph": "bohn"
+   },
+   {
+    "t": "Năm",
+    "en": "Five",
+    "ph": "nam"
+   },
+   {
+    "t": "Sáu",
+    "en": "Six",
+    "ph": "sow"
+   },
+   {
+    "t": "Bảy",
+    "en": "Seven",
+    "ph": "bay"
+   },
+   {
+    "t": "Tám",
+    "en": "Eight",
+    "ph": "tam"
+   },
+   {
+    "t": "Chín",
+    "en": "Nine",
+    "ph": "cheen"
+   },
+   {
+    "t": "Mười",
+    "en": "Ten",
+    "ph": "moo-ee"
+   },
+   {
+    "t": "Mười một",
+    "en": "Eleven",
+    "ph": "moo-ee moht"
+   },
+   {
+    "t": "Hai mươi",
+    "en": "Twenty",
+    "ph": "high moo-uh"
+   },
+   {
+    "t": "Ba mươi",
+    "en": "Thirty",
+    "ph": "bah moo-uh"
+   },
+   {
+    "t": "Năm mươi",
+    "en": "Fifty",
+    "ph": "nam moo-uh"
+   },
+   {
+    "t": "Một trăm",
+    "en": "One hundred",
+    "ph": "moht cham"
+   },
+   {
+    "t": "Một nghìn",
+    "en": "One thousand",
+    "ph": "moht ngeen"
+   },
+   {
+    "t": "Thứ nhất",
+    "en": "First",
+    "ph": "tuh nyut"
+   },
+   {
+    "t": "Thứ hai",
+    "en": "Second",
+    "ph": "tuh high"
+   },
+   {
+    "t": "Bao nhiêu tiền?",
+    "en": "How much money?",
+    "ph": "bow nyew tyen"
+   },
+   {
+    "t": "Bao nhiêu cái?",
+    "en": "How many?",
+    "ph": "bow nyew kie"
+   },
+   {
+    "t": "Một nửa",
+    "en": "Half",
+    "ph": "moht nuh-uh"
+   },
+   {
+    "t": "Vài cái",
+    "en": "A few",
+    "ph": "vie kie"
+   },
+   {
+    "t": "Năm đô la",
+    "en": "Five dollars",
+    "ph": "nam doh la"
+   },
+   {
+    "t": "Hai trăm",
+    "en": "Two hundred",
+    "ph": "high cham"
+   },
+   {
+    "t": "Số điện thoại của bạn là gì?",
+    "en": "What is your phone number?",
+    "ph": "soh dyen twie koo-uh ban la zee"
+   }
+  ],
+  "time": [
+   {
+    "t": "Hôm nay",
+    "en": "Today",
+    "ph": "hohm nigh"
+   },
+   {
+    "t": "Ngày mai",
+    "en": "Tomorrow",
+    "ph": "ngay my"
+   },
+   {
+    "t": "Hôm qua",
+    "en": "Yesterday",
+    "ph": "hohm kwa"
+   },
+   {
+    "t": "Bây giờ",
+    "en": "Now",
+    "ph": "bay zuh"
+   },
+   {
+    "t": "Buổi sáng",
+    "en": "Morning",
+    "ph": "BWOY sang"
+   },
+   {
+    "t": "Buổi tối",
+    "en": "Evening",
+    "ph": "BWOY toy"
+   },
+   {
+    "t": "Ban đêm",
+    "en": "Night",
+    "ph": "ban dem"
+   },
+   {
+    "t": "Mấy giờ rồi?",
+    "en": "What time is it?",
+    "ph": "may zuh roy"
+   },
+   {
+    "t": "Lúc năm giờ",
+    "en": "At five o'clock",
+    "ph": "look nam zuh"
+   },
+   {
+    "t": "Ba giờ rưỡi",
+    "en": "Half past three",
+    "ph": "bah zuh ruh-ee"
+   },
+   {
+    "t": "Mỗi ngày",
+    "en": "Every day",
+    "ph": "moy ngay"
+   },
+   {
+    "t": "Tuần sau",
+    "en": "Next week",
+    "ph": "too-un sow"
+   },
+   {
+    "t": "Tuần này",
+    "en": "This week",
+    "ph": "too-un nay"
+   },
+   {
+    "t": "Thứ Hai",
+    "en": "Monday",
+    "ph": "tuh high"
+   },
+   {
+    "t": "Thứ Ba",
+    "en": "Tuesday",
+    "ph": "tuh bah"
+   },
+   {
+    "t": "Thứ Tư",
+    "en": "Wednesday",
+    "ph": "tuh tuh"
+   },
+   {
+    "t": "Thứ Năm",
+    "en": "Thursday",
+    "ph": "tuh nam"
+   },
+   {
+    "t": "Thứ Sáu",
+    "en": "Friday",
+    "ph": "tuh sow"
+   },
+   {
+    "t": "Thứ Bảy",
+    "en": "Saturday",
+    "ph": "tuh bay"
+   },
+   {
+    "t": "Chủ nhật",
+    "en": "Sunday",
+    "ph": "choo nyut"
+   },
+   {
+    "t": "Tháng Một",
+    "en": "January",
+    "ph": "tang moht"
+   },
+   {
+    "t": "Tháng Mười Hai",
+    "en": "December",
+    "ph": "tang moo-ee high"
+   },
+   {
+    "t": "Hôm nay là ngày mấy?",
+    "en": "What is the date today?",
+    "ph": "hohm nigh la ngay may"
+   },
+   {
+    "t": "Hẹn gặp bạn ngày mai",
+    "en": "See you tomorrow",
+    "ph": "hen gap ban ngay my"
+   },
+   {
+    "t": "Tôi đến muộn",
+    "en": "I am late",
+    "ph": "toy den moo-un"
+   }
+  ],
+  "food": [
+   {
+    "t": "Tôi đói",
+    "en": "I am hungry",
+    "ph": "toy doy"
+   },
+   {
+    "t": "Tôi khát",
+    "en": "I am thirsty",
+    "ph": "toy kat"
+   },
+   {
+    "t": "Cho tôi một bàn hai người",
+    "en": "A table for two, please",
+    "ph": "chaw toy moht ban high ngoo-uh-ee"
+   },
+   {
+    "t": "Cho tôi xem thực đơn",
+    "en": "May I see the menu?",
+    "ph": "chaw toy sem tuhk dun"
+   },
+   {
+    "t": "Cho tôi một ly nước",
+    "en": "I would like a glass of water",
+    "ph": "chaw toy moht lee nuh-uk"
+   },
+   {
+    "t": "Cho tôi một ly cà phê",
+    "en": "I would like a coffee",
+    "ph": "chaw toy moht lee ka feh"
+   },
+   {
+    "t": "Cho tôi một tách trà",
+    "en": "I would like a cup of tea",
+    "ph": "chaw toy moht tack cha"
+   },
+   {
+    "t": "Cho tôi bánh mì",
+    "en": "I would like bread",
+    "ph": "chaw toy bang mee"
+   },
+   {
+    "t": "Tôi muốn món gà",
+    "en": "I would like the chicken",
+    "ph": "toy moo-un mon ga"
+   },
+   {
+    "t": "Tôi muốn món cá",
+    "en": "I would like the fish",
+    "ph": "toy moo-un mon ka"
+   },
+   {
+    "t": "Cho tôi một bát cơm",
+    "en": "I would like a bowl of rice",
+    "ph": "chaw toy moht bat kuhm"
+   },
+   {
+    "t": "Cho tôi một đĩa rau",
+    "en": "I would like a plate of vegetables",
+    "ph": "chaw toy moht dee-a row"
+   },
+   {
+    "t": "Trái cây",
+    "en": "Fruit",
+    "ph": "chai kay"
+   },
+   {
+    "t": "Nước cam",
+    "en": "Orange juice",
+    "ph": "nuh-uk kam"
+   },
+   {
+    "t": "Tôi không ăn thịt",
+    "en": "I do not eat meat",
+    "ph": "toy kohm an tit"
+   },
+   {
+    "t": "Tôi bị dị ứng đậu phộng",
+    "en": "I am allergic to peanuts",
+    "ph": "toy bee zee uhng dow fohm"
+   },
+   {
+    "t": "Món này có cay không?",
+    "en": "Is this dish spicy?",
+    "ph": "mon nay kaw kigh kohm"
+   },
+   {
+    "t": "Ngon quá!",
+    "en": "Delicious!",
+    "ph": "ngon kwa"
+   },
+   {
+    "t": "Tôi ăn chay",
+    "en": "I am a vegetarian",
+    "ph": "toy an chigh"
+   },
+   {
+    "t": "Tính tiền",
+    "en": "The bill, please",
+    "ph": "ting tyen"
+   },
+   {
+    "t": "Bạn gợi ý món nào?",
+    "en": "Which dish do you recommend?",
+    "ph": "ban guh-ee ee mon now"
+   },
+   {
+    "t": "Không đường",
+    "en": "Without sugar",
+    "ph": "kohm duh-ung"
+   },
+   {
+    "t": "Cho thêm nước",
+    "en": "More water, please",
+    "ph": "chaw tem nuh-uk"
+   },
+   {
+    "t": "Tôi no rồi",
+    "en": "I am full",
+    "ph": "toy naw roy"
+   },
+   {
+    "t": "Món này có thịt không?",
+    "en": "Does this dish have meat?",
+    "ph": "mon nay kaw tit kohm"
+   }
+  ],
+  "travel": [
+   {
+    "t": "Nhà ga ở đâu?",
+    "en": "Where is the station?",
+    "ph": "nya ga uh dow"
+   },
+   {
+    "t": "Sân bay ở đâu?",
+    "en": "Where is the airport?",
+    "ph": "sun bigh uh dow"
+   },
+   {
+    "t": "Khách sạn ở đâu?",
+    "en": "Where is the hotel?",
+    "ph": "kack san uh dow"
+   },
+   {
+    "t": "Nhà vệ sinh ở đâu?",
+    "en": "Where is the toilet?",
+    "ph": "nya vay sing uh dow"
+   },
+   {
+    "t": "Có xa không?",
+    "en": "Is it far?",
+    "ph": "kaw sa kohm"
+   },
+   {
+    "t": "Rẽ phải",
+    "en": "Turn right",
+    "ph": "zeh fie"
+   },
+   {
+    "t": "Rẽ trái",
+    "en": "Turn left",
+    "ph": "zeh chigh"
+   },
+   {
+    "t": "Đi thẳng",
+    "en": "Go straight",
+    "ph": "dee tang"
+   },
+   {
+    "t": "Cho tôi một vé đi Hà Nội",
+    "en": "A ticket to Hanoi, please",
+    "ph": "chaw toy moht veh dee ha noy"
+   },
+   {
+    "t": "Vé giá bao nhiêu?",
+    "en": "How much is the ticket?",
+    "ph": "veh za bow nyew"
+   },
+   {
+    "t": "Khi nào tàu chạy?",
+    "en": "When does the train leave?",
+    "ph": "kee now tow chigh"
+   },
+   {
+    "t": "Bến xe buýt ở đâu?",
+    "en": "Where is the bus stop?",
+    "ph": "ben seh bweet uh dow"
+   },
+   {
+    "t": "Xe buýt này có đi vào trung tâm không?",
+    "en": "Does this bus go to the centre?",
+    "ph": "seh bweet nay kaw dee vow chung tum kohm"
+   },
+   {
+    "t": "Tôi cần một chiếc taxi",
+    "en": "I need a taxi",
+    "ph": "toy kun moht chyek tak-see"
+   },
+   {
+    "t": "Làm ơn đưa tôi đến địa chỉ này",
+    "en": "Please take me to this address",
+    "ph": "lam uhn duh-a toy den dee-a chee nay"
+   },
+   {
+    "t": "Tôi có đặt phòng",
+    "en": "I have a reservation",
+    "ph": "toy kaw dat fowng"
+   },
+   {
+    "t": "Cho tôi một phòng đôi",
+    "en": "A double room, please",
+    "ph": "chaw toy moht fowng doy"
+   },
+   {
+    "t": "Tôi ở hai đêm",
+    "en": "I am staying two nights",
+    "ph": "toy uh high dem"
+   },
+   {
+    "t": "Hộ chiếu của tôi",
+    "en": "My passport",
+    "ph": "hoh chyew koo-uh toy"
+   },
+   {
+    "t": "Tôi bị mất túi",
+    "en": "I have lost my bag",
+    "ph": "toy bee mut too-ee"
+   },
+   {
+    "t": "Tôi bị lạc",
+    "en": "I am lost",
+    "ph": "toy bee lak"
+   },
+   {
+    "t": "Có gần không?",
+    "en": "Is it near?",
+    "ph": "kaw gun kohm"
+   },
+   {
+    "t": "Làm ơn dừng ở đây",
+    "en": "Please stop here",
+    "ph": "lam uhn zuhng uh day"
+   },
+   {
+    "t": "Bữa sáng có bao gồm không?",
+    "en": "Is breakfast included?",
+    "ph": "bwa sang kaw bow gohm kohm"
+   },
+   {
+    "t": "Tôi đổi tiền ở đâu?",
+    "en": "Where can I change money?",
+    "ph": "toy doy tyen uh dow"
+   }
+  ],
+  "shopping": [
+   {
+    "t": "Cái này giá bao nhiêu?",
+    "en": "How much is this?",
+    "ph": "kie nay za bow nyew"
+   },
+   {
+    "t": "Đắt quá!",
+    "en": "Too expensive!",
+    "ph": "dat kwa"
+   },
+   {
+    "t": "Có rẻ hơn không?",
+    "en": "Is there a cheaper one?",
+    "ph": "kaw zeh hun kohm"
+   },
+   {
+    "t": "Tôi muốn cái này",
+    "en": "I want this one",
+    "ph": "toy moo-un kie nay"
+   },
+   {
+    "t": "Tôi muốn mua một món quà",
+    "en": "I want to buy a gift",
+    "ph": "toy moo-un moo-a moht mon kwa"
+   },
+   {
+    "t": "Có cỡ lớn hơn không?",
+    "en": "Is there a bigger size?",
+    "ph": "kaw kuh luhn hun kohm"
+   },
+   {
+    "t": "Có cỡ nhỏ hơn không?",
+    "en": "Is there a smaller size?",
+    "ph": "kaw kuh nyaw hun kohm"
+   },
+   {
+    "t": "Bạn mặc cỡ nào?",
+    "en": "What size do you wear?",
+    "ph": "ban mak kuh now"
+   },
+   {
+    "t": "Có màu khác không?",
+    "en": "Is there another colour?",
+    "ph": "kaw mow kak kohm"
+   },
+   {
+    "t": "Màu đỏ",
+    "en": "Red",
+    "ph": "mow daw"
+   },
+   {
+    "t": "Màu xanh dương",
+    "en": "Blue",
+    "ph": "mow sang zuh-ung"
+   },
+   {
+    "t": "Màu xanh lá",
+    "en": "Green",
+    "ph": "mow sang la"
+   },
+   {
+    "t": "Màu đen",
+    "en": "Black",
+    "ph": "mow den"
+   },
+   {
+    "t": "Màu trắng",
+    "en": "White",
+    "ph": "mow trang"
+   },
+   {
+    "t": "Tôi thử được không?",
+    "en": "Can I try it on?",
+    "ph": "toy tuh duhk kohm"
+   },
+   {
+    "t": "Phòng thử đồ ở đâu?",
+    "en": "Where is the fitting room?",
+    "ph": "fowng tuh doh uh dow"
+   },
+   {
+    "t": "Tôi lấy cái này",
+    "en": "I will take this one",
+    "ph": "toy lay kie nay"
+   },
+   {
+    "t": "Bạn nhận thẻ không?",
+    "en": "Do you take cards?",
+    "ph": "ban nyun teh kohm"
+   },
+   {
+    "t": "Tôi trả tiền mặt",
+    "en": "I will pay cash",
+    "ph": "toy cha tyen mat"
+   },
+   {
+    "t": "Cho tôi hóa đơn",
+    "en": "The receipt, please",
+    "ph": "chaw toy hwa dun"
+   },
+   {
+    "t": "Chợ ở đâu?",
+    "en": "Where is the market?",
+    "ph": "chuh uh dow"
+   },
+   {
+    "t": "Mấy giờ cửa hàng mở cửa?",
+    "en": "When does the shop open?",
+    "ph": "may zuh kuh-a hang muh kuh-a"
+   },
+   {
+    "t": "Mấy giờ cửa hàng đóng cửa?",
+    "en": "When does the shop close?",
+    "ph": "may zuh kuh-a hang downg kuh-a"
+   },
+   {
+    "t": "Có giảm giá không?",
+    "en": "Is there a discount?",
+    "ph": "kaw zam za kohm"
+   },
+   {
+    "t": "Tôi chỉ xem thôi",
+    "en": "I am just looking",
+    "ph": "toy chee sem toy"
+   }
+  ],
+  "family": [
+   {
+    "t": "Đây là gia đình tôi",
+    "en": "This is my family",
+    "ph": "day la za ding toy"
+   },
+   {
+    "t": "Đây là bố tôi",
+    "en": "This is my father",
+    "ph": "day la boh toy"
+   },
+   {
+    "t": "Đây là mẹ tôi",
+    "en": "This is my mother",
+    "ph": "day la meh toy"
+   },
+   {
+    "t": "Đây là anh trai tôi",
+    "en": "This is my older brother",
+    "ph": "day la ang chigh toy"
+   },
+   {
+    "t": "Đây là chị gái tôi",
+    "en": "This is my older sister",
+    "ph": "day la chee gie toy"
+   },
+   {
+    "t": "Đây là con trai tôi",
+    "en": "This is my son",
+    "ph": "day la kon chigh toy"
+   },
+   {
+    "t": "Đây là con gái tôi",
+    "en": "This is my daughter",
+    "ph": "day la kon gie toy"
+   },
+   {
+    "t": "Đây là ông tôi",
+    "en": "This is my grandfather",
+    "ph": "day la ohm toy"
+   },
+   {
+    "t": "Đây là bà tôi",
+    "en": "This is my grandmother",
+    "ph": "day la ba toy"
+   },
+   {
+    "t": "Đây là chồng tôi",
+    "en": "This is my husband",
+    "ph": "day la chohm toy"
+   },
+   {
+    "t": "Đây là vợ tôi",
+    "en": "This is my wife",
+    "ph": "day la vuh toy"
+   },
+   {
+    "t": "Đây là chú tôi",
+    "en": "This is my uncle (father's younger brother)",
+    "ph": "day la choo toy"
+   },
+   {
+    "t": "Đây là dì tôi",
+    "en": "This is my aunt (mother's younger sister)",
+    "ph": "day la zee toy"
+   },
+   {
+    "t": "Bạn có anh chị em không?",
+    "en": "Do you have brothers or sisters?",
+    "ph": "ban kaw ang chee em kohm"
+   },
+   {
+    "t": "Tôi có một anh trai và hai chị gái",
+    "en": "I have a brother and two sisters",
+    "ph": "toy kaw moht ang chigh va high chee gie"
+   },
+   {
+    "t": "Bạn bao nhiêu tuổi?",
+    "en": "How old are you?",
+    "ph": "ban bow nyew too-oy"
+   },
+   {
+    "t": "Tôi ba mươi tuổi",
+    "en": "I am thirty years old",
+    "ph": "toy bah moo-uh too-oy"
+   },
+   {
+    "t": "Tôi đã kết hôn",
+    "en": "I am married",
+    "ph": "toy da ket hohn"
+   },
+   {
+    "t": "Tôi độc thân",
+    "en": "I am single",
+    "ph": "toy dohk tun"
+   },
+   {
+    "t": "Tôi có hai con",
+    "en": "I have two children",
+    "ph": "toy kaw high kon"
+   },
+   {
+    "t": "Bạn có con không?",
+    "en": "Do you have children?",
+    "ph": "ban kaw kon kohm"
+   },
+   {
+    "t": "Đây là bạn tôi",
+    "en": "This is my friend",
+    "ph": "day la ban toy"
+   },
+   {
+    "t": "Bố tôi là bác sĩ",
+    "en": "My father is a doctor",
+    "ph": "boh toy la bak see"
+   },
+   {
+    "t": "Mẹ tôi là giáo viên",
+    "en": "My mother is a teacher",
+    "ph": "meh toy la zow vyen"
+   },
+   {
+    "t": "Đây là em trai tôi",
+    "en": "This is my younger brother",
+    "ph": "day la em chigh toy"
+   }
+  ],
+  "home": [
+   {
+    "t": "Mời vào",
+    "en": "Please come in",
+    "ph": "muh-ee vow"
+   },
+   {
+    "t": "Cứ tự nhiên như ở nhà",
+    "en": "Make yourself at home",
+    "ph": "kuh too nyen nyoo uh nya"
+   },
+   {
+    "t": "Nhà bạn rộng quá",
+    "en": "Your house is so spacious",
+    "ph": "nya ban rohng kwa"
+   },
+   {
+    "t": "Phòng ngủ",
+    "en": "Bedroom",
+    "ph": "fowng ngoo"
+   },
+   {
+    "t": "Nhà bếp",
+    "en": "Kitchen",
+    "ph": "nya bep"
+   },
+   {
+    "t": "Phòng tắm",
+    "en": "Bathroom",
+    "ph": "fowng tam"
+   },
+   {
+    "t": "Phòng khách",
+    "en": "Living room",
+    "ph": "fowng kack"
+   },
+   {
+    "t": "Cái bàn",
+    "en": "The table",
+    "ph": "kie ban"
+   },
+   {
+    "t": "Cái ghế",
+    "en": "The chair",
+    "ph": "kie geh"
+   },
+   {
+    "t": "Cái giường",
+    "en": "The bed",
+    "ph": "kie zuh-ung"
+   },
+   {
+    "t": "Bật đèn lên",
+    "en": "Turn on the light",
+    "ph": "buht den len"
+   },
+   {
+    "t": "Tắt đèn đi",
+    "en": "Turn off the light",
+    "ph": "tat den dee"
+   },
+   {
+    "t": "Mở cửa ra",
+    "en": "Open the door",
+    "ph": "muh kuh-a za"
+   },
+   {
+    "t": "Đóng cửa lại",
+    "en": "Close the door",
+    "ph": "downg kuh-a lie"
+   },
+   {
+    "t": "Chìa khóa",
+    "en": "The key",
+    "ph": "chee-a kwa"
+   },
+   {
+    "t": "Chìa khóa của tôi ở đâu?",
+    "en": "Where is my key?",
+    "ph": "chee-a kwa koo-uh toy uh dow"
+   },
+   {
+    "t": "Tiền thuê nhà",
+    "en": "The rent",
+    "ph": "tyen too-eh nya"
+   },
+   {
+    "t": "Tiền thuê nhà bao nhiêu?",
+    "en": "How much is the rent?",
+    "ph": "tyen too-eh nya bow nyew"
+   },
+   {
+    "t": "Đây là hàng xóm của tôi",
+    "en": "This is my neighbour",
+    "ph": "day la hang som koo-uh toy"
+   },
+   {
+    "t": "Mở cửa sổ ra được không?",
+    "en": "Can you open the window?",
+    "ph": "muh kuh-a soh za duhk kohm"
+   },
+   {
+    "t": "Tôi rửa bát",
+    "en": "I wash the dishes",
+    "ph": "toy ruh-a bat"
+   },
+   {
+    "t": "Tôi dọn nhà",
+    "en": "I clean the house",
+    "ph": "toy zon nya"
+   },
+   {
+    "t": "Tủ lạnh",
+    "en": "Fridge",
+    "ph": "too lang"
+   },
+   {
+    "t": "Máy giặt",
+    "en": "Washing machine",
+    "ph": "may zat"
+   },
+   {
+    "t": "Wi-Fi không hoạt động",
+    "en": "The Wi-Fi is not working",
+    "ph": "wie fie kohm hwat dohng"
+   }
+  ],
+  "health": [
+   {
+    "t": "Tôi thấy không khỏe",
+    "en": "I feel unwell",
+    "ph": "toy tay kohm kweh"
+   },
+   {
+    "t": "Tôi cần gặp bác sĩ",
+    "en": "I need to see a doctor",
+    "ph": "toy kun gap bak see"
+   },
+   {
+    "t": "Tôi bị đau đầu",
+    "en": "I have a headache",
+    "ph": "toy bee dow dow"
+   },
+   {
+    "t": "Tôi đau bụng",
+    "en": "I have a stomach ache",
+    "ph": "toy dow boong"
+   },
+   {
+    "t": "Tôi đau lưng",
+    "en": "My back hurts",
+    "ph": "toy dow luhng"
+   },
+   {
+    "t": "Tôi bị đau răng",
+    "en": "I have a toothache",
+    "ph": "toy bee dow rang"
+   },
+   {
+    "t": "Tôi đau họng",
+    "en": "I have a sore throat",
+    "ph": "toy dow hohng"
+   },
+   {
+    "t": "Tôi bị sốt",
+    "en": "I have a fever",
+    "ph": "toy bee soht"
+   },
+   {
+    "t": "Tôi bị ho",
+    "en": "I have a cough",
+    "ph": "toy bee haw"
+   },
+   {
+    "t": "Hiệu thuốc ở đâu?",
+    "en": "Where is the pharmacy?",
+    "ph": "hyew too-ok uh dow"
+   },
+   {
+    "t": "Tôi cần thuốc",
+    "en": "I need medicine",
+    "ph": "toy kun too-ok"
+   },
+   {
+    "t": "Thuốc này có an toàn không?",
+    "en": "Is this medicine safe?",
+    "ph": "too-ok nay kaw an twan kohm"
+   },
+   {
+    "t": "Một ngày uống mấy lần?",
+    "en": "How many times a day?",
+    "ph": "moht ngay oo-ong may lun"
+   },
+   {
+    "t": "Tôi bị dị ứng penicillin",
+    "en": "I am allergic to penicillin",
+    "ph": "toy bee zee uhng peh-nee-see-lin"
+   },
+   {
+    "t": "Hãy gọi xe cấp cứu",
+    "en": "Call an ambulance",
+    "ph": "hie goy seh kup koo"
+   },
+   {
+    "t": "Cứu tôi với!",
+    "en": "Help me!",
+    "ph": "koo toy vuh-ee"
+   },
+   {
+    "t": "Tôi cần giúp đỡ",
+    "en": "I need help",
+    "ph": "toy kun zoop duh"
+   },
+   {
+    "t": "Có tai nạn",
+    "en": "There has been an accident",
+    "ph": "kaw tie nan"
+   },
+   {
+    "t": "Tay tôi đau",
+    "en": "My hand hurts",
+    "ph": "tie toy dow"
+   },
+   {
+    "t": "Chân tôi đau",
+    "en": "My foot hurts",
+    "ph": "chun toy dow"
+   },
+   {
+    "t": "Tôi thấy chóng mặt",
+    "en": "I feel dizzy",
+    "ph": "toy tay chowng mat"
+   },
+   {
+    "t": "Bệnh viện gần nhất ở đâu?",
+    "en": "Where is the nearest hospital?",
+    "ph": "ben vyen gun nyut uh dow"
+   },
+   {
+    "t": "Tôi bị tiểu đường",
+    "en": "I have diabetes",
+    "ph": "toy bee tyew duh-ung"
+   },
+   {
+    "t": "Tôi không thở được",
+    "en": "I cannot breathe",
+    "ph": "toy kohm tuh duhk"
+   },
+   {
+    "t": "Tôi thấy khỏe hơn rồi",
+    "en": "I feel better now",
+    "ph": "toy tay kweh hun roy"
+   }
+  ],
+  "feelings": [
+   {
+    "t": "Tôi vui",
+    "en": "I am happy",
+    "ph": "toy vooy"
+   },
+   {
+    "t": "Tôi buồn",
+    "en": "I am sad",
+    "ph": "toy boo-un"
+   },
+   {
+    "t": "Tôi mệt",
+    "en": "I am tired",
+    "ph": "toy met"
+   },
+   {
+    "t": "Tôi tức giận",
+    "en": "I am angry",
+    "ph": "toy tuhk zun"
+   },
+   {
+    "t": "Tôi sợ",
+    "en": "I am afraid",
+    "ph": "toy suh"
+   },
+   {
+    "t": "Tôi chán",
+    "en": "I am bored",
+    "ph": "toy chan"
+   },
+   {
+    "t": "Tôi đang yêu",
+    "en": "I am in love",
+    "ph": "toy dang yew"
+   },
+   {
+    "t": "Tôi thích cái này",
+    "en": "I like this",
+    "ph": "toy tick kie nay"
+   },
+   {
+    "t": "Tôi yêu bạn",
+    "en": "I love you",
+    "ph": "toy yew ban"
+   },
+   {
+    "t": "Tôi ghét cái này",
+    "en": "I hate this",
+    "ph": "toy get kie nay"
+   },
+   {
+    "t": "Tôi thích đọc sách",
+    "en": "I love reading",
+    "ph": "toy tick dawk sack"
+   },
+   {
+    "t": "Tôi lo lắng",
+    "en": "I am worried",
+    "ph": "toy law lang"
+   },
+   {
+    "t": "Đừng lo",
+    "en": "Do not worry",
+    "ph": "dung law"
+   },
+   {
+    "t": "Tôi rất háo hức",
+    "en": "I am very excited",
+    "ph": "toy rut how huhk"
+   },
+   {
+    "t": "Tôi tự hào về bạn",
+    "en": "I am proud of you",
+    "ph": "toy too how veh ban"
+   },
+   {
+    "t": "Tôi thấy thoải mái",
+    "en": "I feel relaxed",
+    "ph": "toy tay twie my"
+   },
+   {
+    "t": "Tôi đang bận",
+    "en": "I am busy",
+    "ph": "toy dang bun"
+   },
+   {
+    "t": "Tôi đồng ý",
+    "en": "I agree",
+    "ph": "toy dohng ee"
+   },
+   {
+    "t": "Tôi không đồng ý",
+    "en": "I do not agree",
+    "ph": "toy kohm dohng ee"
+   },
+   {
+    "t": "Theo tôi",
+    "en": "In my opinion",
+    "ph": "tay-o toy"
+   },
+   {
+    "t": "Bạn nghĩ sao?",
+    "en": "What do you think?",
+    "ph": "ban ngee sow"
+   },
+   {
+    "t": "Tôi nghĩ vậy",
+    "en": "I think so",
+    "ph": "toy ngee vay"
+   },
+   {
+    "t": "Tôi không nghĩ vậy",
+    "en": "I do not think so",
+    "ph": "toy kohm ngee vay"
+   },
+   {
+    "t": "Tuyệt vời!",
+    "en": "Wonderful!",
+    "ph": "too-yet vuh-ee"
+   },
+   {
+    "t": "Tôi cô đơn",
+    "en": "I am lonely",
+    "ph": "toy koh dun"
+   }
+  ],
+  "work": [
+   {
+    "t": "Bạn làm nghề gì?",
+    "en": "What do you do for work?",
+    "ph": "ban lam nge zee"
+   },
+   {
+    "t": "Tôi là kỹ sư",
+    "en": "I am an engineer",
+    "ph": "toy la kee suh"
+   },
+   {
+    "t": "Tôi là giáo viên",
+    "en": "I am a teacher",
+    "ph": "toy la zow vyen"
+   },
+   {
+    "t": "Tôi là sinh viên",
+    "en": "I am a student",
+    "ph": "toy la sing vyen"
+   },
+   {
+    "t": "Tôi làm việc ở văn phòng",
+    "en": "I work in an office",
+    "ph": "toy lam vyek uh van fowng"
+   },
+   {
+    "t": "Tôi làm việc ở nhà",
+    "en": "I work from home",
+    "ph": "toy lam vyek uh nya"
+   },
+   {
+    "t": "Đây là sếp của tôi",
+    "en": "This is my boss",
+    "ph": "day la sep koo-uh toy"
+   },
+   {
+    "t": "Đây là đồng nghiệp của tôi",
+    "en": "This is my colleague",
+    "ph": "day la dohng nyip koo-uh toy"
+   },
+   {
+    "t": "Tôi có một cuộc họp",
+    "en": "I have a meeting",
+    "ph": "toy kaw moht koo-ok hop"
+   },
+   {
+    "t": "Cuộc họp lúc mười giờ",
+    "en": "The meeting is at ten o'clock",
+    "ph": "koo-ok hop look moo-ee zuh"
+   },
+   {
+    "t": "Hãy gửi email cho tôi",
+    "en": "Send me an email",
+    "ph": "hie guh-ee ee-mayl chaw toy"
+   },
+   {
+    "t": "Email của bạn là gì?",
+    "en": "What is your email address?",
+    "ph": "ee-mayl koo-uh ban la zee"
+   },
+   {
+    "t": "Tiền lương",
+    "en": "The salary",
+    "ph": "tyen luh-ung"
+   },
+   {
+    "t": "Tôi đang tìm việc",
+    "en": "I am looking for a job",
+    "ph": "toy dang tim vyek"
+   },
+   {
+    "t": "Tôi đang học tiếng Việt",
+    "en": "I am learning Vietnamese",
+    "ph": "toy dang hawk tyeng vyet"
+   },
+   {
+    "t": "Ngày mai tôi có kỳ thi",
+    "en": "I have an exam tomorrow",
+    "ph": "ngay my toy kaw kee tee"
+   },
+   {
+    "t": "Bài tập về nhà",
+    "en": "Homework",
+    "ph": "bye tup veh nya"
+   },
+   {
+    "t": "Tôi học đại học",
+    "en": "I study at university",
+    "ph": "toy hawk die hawk"
+   },
+   {
+    "t": "Bạn học ngành gì?",
+    "en": "What is your major?",
+    "ph": "ban hawk ngang zee"
+   },
+   {
+    "t": "Bạn giúp tôi việc này được không?",
+    "en": "Can you help me with this?",
+    "ph": "ban zoop toy vyek nay duhk kohm"
+   },
+   {
+    "t": "Tôi sẽ gọi cho bạn",
+    "en": "I will call you",
+    "ph": "toy seh goy chaw ban"
+   },
+   {
+    "t": "Tôi đang nghỉ phép",
+    "en": "I am on leave",
+    "ph": "toy dang ngee fep"
+   },
+   {
+    "t": "Bạn có rảnh không?",
+    "en": "Are you free?",
+    "ph": "ban kaw rang kohm"
+   },
+   {
+    "t": "Bây giờ tôi có một buổi học",
+    "en": "I have a lesson now",
+    "ph": "bay zuh toy kaw moht BWOY hawk"
+   },
+   {
+    "t": "Tôi học mỗi ngày",
+    "en": "I study every day",
+    "ph": "toy hawk moy ngay"
+   }
+  ],
+  "weather": [
+   {
+    "t": "Thời tiết thế nào?",
+    "en": "What is the weather like?",
+    "ph": "tuh-ee tyet teh now"
+   },
+   {
+    "t": "Hôm nay trời đẹp",
+    "en": "The weather is nice today",
+    "ph": "hohm nigh chuh-ee dep"
+   },
+   {
+    "t": "Trời nóng",
+    "en": "It is hot",
+    "ph": "chuh-ee nong"
+   },
+   {
+    "t": "Trời lạnh",
+    "en": "It is cold",
+    "ph": "chuh-ee lang"
+   },
+   {
+    "t": "Trời nắng",
+    "en": "It is sunny",
+    "ph": "chuh-ee nang"
+   },
+   {
+    "t": "Trời nhiều mây",
+    "en": "It is cloudy",
+    "ph": "chuh-ee nyew may"
+   },
+   {
+    "t": "Trời đang mưa",
+    "en": "It is raining",
+    "ph": "chuh-ee dang muh-a"
+   },
+   {
+    "t": "Trời đang có tuyết",
+    "en": "It is snowing",
+    "ph": "chuh-ee dang kaw too-yet"
+   },
+   {
+    "t": "Trời có gió",
+    "en": "It is windy",
+    "ph": "chuh-ee kaw zaw"
+   },
+   {
+    "t": "Hôm nay đẹp trời quá!",
+    "en": "What a beautiful day!",
+    "ph": "hohm nigh dep chuh-ee kwa"
+   },
+   {
+    "t": "Mùa hè",
+    "en": "Summer",
+    "ph": "moo-a heh"
+   },
+   {
+    "t": "Mùa đông",
+    "en": "Winter",
+    "ph": "moo-a dohng"
+   },
+   {
+    "t": "Mùa xuân",
+    "en": "Spring",
+    "ph": "moo-a soo-un"
+   },
+   {
+    "t": "Mùa thu",
+    "en": "Autumn",
+    "ph": "moo-a too"
+   },
+   {
+    "t": "Biển",
+    "en": "The sea",
+    "ph": "byen"
+   },
+   {
+    "t": "Núi",
+    "en": "The mountain",
+    "ph": "noo-ee"
+   },
+   {
+    "t": "Cái cây",
+    "en": "The tree",
+    "ph": "kie kay"
+   },
+   {
+    "t": "Con mèo",
+    "en": "The cat",
+    "ph": "kon may-o"
+   },
+   {
+    "t": "Con chó",
+    "en": "The dog",
+    "ph": "kon chaw"
+   },
+   {
+    "t": "Con chim",
+    "en": "The bird",
+    "ph": "kon chim"
+   },
+   {
+    "t": "Mặt trời",
+    "en": "The sun",
+    "ph": "mat chuh-ee"
+   },
+   {
+    "t": "Mặt trăng",
+    "en": "The moon",
+    "ph": "mat trang"
+   },
+   {
+    "t": "Cuối tuần bạn làm gì?",
+    "en": "What are you doing at the weekend?",
+    "ph": "koo-ee too-un ban lam zee"
+   },
+   {
+    "t": "Tôi sẽ đi biển",
+    "en": "I will go to the sea",
+    "ph": "toy seh dee byen"
+   },
+   {
+    "t": "Chúng ta đi chơi nhé?",
+    "en": "Shall we go out?",
+    "ph": "choom ta dee chuh-ee nyeh"
+   }
+  ]
+ }
+}

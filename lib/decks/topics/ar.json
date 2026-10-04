@@ -1,0 +1,1529 @@
+{
+ "lang": "ar",
+ "topics": {
+  "greetings": [
+   {
+    "t": "مرحبا",
+    "en": "Hello",
+    "ph": "marḥabān"
+   },
+   {
+    "t": "السلام عليكم",
+    "en": "Peace be upon you (hello)",
+    "ph": "as-salāmu ʿalaykum"
+   },
+   {
+    "t": "صباح الخير",
+    "en": "Good morning",
+    "ph": "ṣabāḥ al-khayr"
+   },
+   {
+    "t": "مساء الخير",
+    "en": "Good evening",
+    "ph": "masāʾ al-khayr"
+   },
+   {
+    "t": "مع السلامة",
+    "en": "Goodbye",
+    "ph": "maʿa s-salāma"
+   },
+   {
+    "t": "إلى اللقاء",
+    "en": "See you later",
+    "ph": "ilā l-liqāʾ"
+   },
+   {
+    "t": "تصبح على خير",
+    "en": "Good night",
+    "ph": "tuṣbiḥ ʿalā khayr"
+   },
+   {
+    "t": "كيف حالك؟",
+    "en": "How are you?",
+    "ph": "kayfa ḥāluk"
+   },
+   {
+    "t": "أنا بخير، شكرا",
+    "en": "I am fine, thank you",
+    "ph": "anā bi-khayr, shukran"
+   },
+   {
+    "t": "شكرا جزيلا",
+    "en": "Thank you very much",
+    "ph": "shukran jazīlan"
+   },
+   {
+    "t": "عفوا",
+    "en": "You are welcome",
+    "ph": "ʿafwan"
+   },
+   {
+    "t": "من فضلك",
+    "en": "Please",
+    "ph": "min faḍlik"
+   },
+   {
+    "t": "آسف",
+    "en": "I am sorry",
+    "ph": "āsif"
+   },
+   {
+    "t": "المعذرة",
+    "en": "Excuse me",
+    "ph": "al-maʿdhira"
+   },
+   {
+    "t": "ما اسمك؟",
+    "en": "What is your name?",
+    "ph": "mā ismuk"
+   },
+   {
+    "t": "اسمي سارة",
+    "en": "My name is Sara",
+    "ph": "ismī sāra"
+   },
+   {
+    "t": "تشرفنا",
+    "en": "Nice to meet you",
+    "ph": "tasharrafnā"
+   },
+   {
+    "t": "من أين أنت؟",
+    "en": "Where are you from?",
+    "ph": "min ayna anta"
+   },
+   {
+    "t": "أنا من بريطانيا",
+    "en": "I am from Britain",
+    "ph": "anā min brīṭāniyā"
+   },
+   {
+    "t": "هل تتكلم الإنجليزية؟",
+    "en": "Do you speak English?",
+    "ph": "hal tatakallam al-injlīziyya"
+   },
+   {
+    "t": "لا أفهم",
+    "en": "I do not understand",
+    "ph": "lā afham"
+   },
+   {
+    "t": "هل يمكنك أن تعيد ذلك؟",
+    "en": "Can you repeat that?",
+    "ph": "hal yumkinuka an tuʿīd dhālik"
+   },
+   {
+    "t": "تحدث ببطء من فضلك",
+    "en": "Please speak slowly",
+    "ph": "taḥaddath bi-buṭʾ min faḍlik"
+   },
+   {
+    "t": "نعم",
+    "en": "Yes",
+    "ph": "naʿam"
+   },
+   {
+    "t": "لا",
+    "en": "No",
+    "ph": "lā"
+   }
+  ],
+  "numbers": [
+   {
+    "t": "واحد",
+    "en": "One",
+    "ph": "wāḥid"
+   },
+   {
+    "t": "اثنان",
+    "en": "Two",
+    "ph": "ithnān"
+   },
+   {
+    "t": "ثلاثة",
+    "en": "Three",
+    "ph": "thalātha"
+   },
+   {
+    "t": "أربعة",
+    "en": "Four",
+    "ph": "arbaʿa"
+   },
+   {
+    "t": "خمسة",
+    "en": "Five",
+    "ph": "khamsa"
+   },
+   {
+    "t": "ستة",
+    "en": "Six",
+    "ph": "sitta"
+   },
+   {
+    "t": "سبعة",
+    "en": "Seven",
+    "ph": "sabʿa"
+   },
+   {
+    "t": "ثمانية",
+    "en": "Eight",
+    "ph": "thamāniya"
+   },
+   {
+    "t": "تسعة",
+    "en": "Nine",
+    "ph": "tisʿa"
+   },
+   {
+    "t": "عشرة",
+    "en": "Ten",
+    "ph": "ʿashara"
+   },
+   {
+    "t": "أحد عشر",
+    "en": "Eleven",
+    "ph": "aḥada ʿashar"
+   },
+   {
+    "t": "عشرون",
+    "en": "Twenty",
+    "ph": "ʿishrūn"
+   },
+   {
+    "t": "ثلاثون",
+    "en": "Thirty",
+    "ph": "thalāthūn"
+   },
+   {
+    "t": "خمسون",
+    "en": "Fifty",
+    "ph": "khamsūn"
+   },
+   {
+    "t": "مئة",
+    "en": "One hundred",
+    "ph": "miʾa"
+   },
+   {
+    "t": "ألف",
+    "en": "One thousand",
+    "ph": "alf"
+   },
+   {
+    "t": "الأول",
+    "en": "First",
+    "ph": "al-awwal"
+   },
+   {
+    "t": "الثاني",
+    "en": "Second",
+    "ph": "ath-thānī"
+   },
+   {
+    "t": "كم الثمن؟",
+    "en": "How much is it?",
+    "ph": "kam ath-thaman"
+   },
+   {
+    "t": "كم واحدا تريد؟",
+    "en": "How many do you want?",
+    "ph": "kam wāḥidan turīd"
+   },
+   {
+    "t": "نصف",
+    "en": "Half",
+    "ph": "niṣf"
+   },
+   {
+    "t": "قليل",
+    "en": "A few, a little",
+    "ph": "qalīl"
+   },
+   {
+    "t": "خمسة دولارات",
+    "en": "Five dollars",
+    "ph": "khamsat dūlārāt"
+   },
+   {
+    "t": "مئتان",
+    "en": "Two hundred",
+    "ph": "miʾatān"
+   },
+   {
+    "t": "ما رقم هاتفك؟",
+    "en": "What is your phone number?",
+    "ph": "mā raqm hātifik"
+   }
+  ],
+  "time": [
+   {
+    "t": "اليوم",
+    "en": "Today",
+    "ph": "al-yawm"
+   },
+   {
+    "t": "غدا",
+    "en": "Tomorrow",
+    "ph": "ghadan"
+   },
+   {
+    "t": "أمس",
+    "en": "Yesterday",
+    "ph": "amsi"
+   },
+   {
+    "t": "الآن",
+    "en": "Now",
+    "ph": "al-ān"
+   },
+   {
+    "t": "الصباح",
+    "en": "Morning",
+    "ph": "aṣ-ṣabāḥ"
+   },
+   {
+    "t": "المساء",
+    "en": "Evening",
+    "ph": "al-masāʾ"
+   },
+   {
+    "t": "الليل",
+    "en": "Night",
+    "ph": "al-layl"
+   },
+   {
+    "t": "كم الساعة؟",
+    "en": "What time is it?",
+    "ph": "kam as-sāʿa"
+   },
+   {
+    "t": "الساعة الخامسة",
+    "en": "At five o'clock",
+    "ph": "as-sāʿa al-khāmisa"
+   },
+   {
+    "t": "الثالثة والنصف",
+    "en": "Half past three",
+    "ph": "ath-thālitha wa-n-niṣf"
+   },
+   {
+    "t": "كل يوم",
+    "en": "Every day",
+    "ph": "kull yawm"
+   },
+   {
+    "t": "الأسبوع القادم",
+    "en": "Next week",
+    "ph": "al-usbūʿ al-qādim"
+   },
+   {
+    "t": "هذا الأسبوع",
+    "en": "This week",
+    "ph": "hādhā l-usbūʿ"
+   },
+   {
+    "t": "يوم الإثنين",
+    "en": "Monday",
+    "ph": "yawm al-ithnayn"
+   },
+   {
+    "t": "يوم الثلاثاء",
+    "en": "Tuesday",
+    "ph": "yawm ath-thulāthāʾ"
+   },
+   {
+    "t": "يوم الأربعاء",
+    "en": "Wednesday",
+    "ph": "yawm al-arbiʿāʾ"
+   },
+   {
+    "t": "يوم الخميس",
+    "en": "Thursday",
+    "ph": "yawm al-khamīs"
+   },
+   {
+    "t": "يوم الجمعة",
+    "en": "Friday",
+    "ph": "yawm al-jumʿa"
+   },
+   {
+    "t": "يوم السبت",
+    "en": "Saturday",
+    "ph": "yawm as-sabt"
+   },
+   {
+    "t": "يوم الأحد",
+    "en": "Sunday",
+    "ph": "yawm al-aḥad"
+   },
+   {
+    "t": "في شهر يناير",
+    "en": "In January",
+    "ph": "fī shahr yanāyir"
+   },
+   {
+    "t": "في شهر ديسمبر",
+    "en": "In December",
+    "ph": "fī shahr dīsimbir"
+   },
+   {
+    "t": "ما تاريخ اليوم؟",
+    "en": "What is the date today?",
+    "ph": "mā tārīkh al-yawm"
+   },
+   {
+    "t": "أراك غدا",
+    "en": "See you tomorrow",
+    "ph": "arāka ghadan"
+   },
+   {
+    "t": "أنا متأخر",
+    "en": "I am late",
+    "ph": "anā mutaʾakhkhir"
+   }
+  ],
+  "food": [
+   {
+    "t": "أنا جائع",
+    "en": "I am hungry",
+    "ph": "anā jāʾiʿ"
+   },
+   {
+    "t": "أنا عطشان",
+    "en": "I am thirsty",
+    "ph": "anā ʿaṭshān"
+   },
+   {
+    "t": "طاولة لشخصين من فضلك",
+    "en": "A table for two, please",
+    "ph": "ṭāwila li-shakhṣayn min faḍlik"
+   },
+   {
+    "t": "هل يمكنني رؤية القائمة؟",
+    "en": "Can I see the menu?",
+    "ph": "hal yumkinunī ruʾyat al-qāʾima"
+   },
+   {
+    "t": "أريد ماء",
+    "en": "I would like water",
+    "ph": "urīd māʾ"
+   },
+   {
+    "t": "أريد قهوة",
+    "en": "I would like coffee",
+    "ph": "urīd qahwa"
+   },
+   {
+    "t": "كوب شاي من فضلك",
+    "en": "A cup of tea, please",
+    "ph": "kūb shāy min faḍlik"
+   },
+   {
+    "t": "أريد خبزا",
+    "en": "I would like bread",
+    "ph": "urīd khubzan"
+   },
+   {
+    "t": "أريد دجاجا",
+    "en": "I would like chicken",
+    "ph": "urīd dajājan"
+   },
+   {
+    "t": "سمك",
+    "en": "Fish",
+    "ph": "samak"
+   },
+   {
+    "t": "أرز",
+    "en": "Rice",
+    "ph": "aruzz"
+   },
+   {
+    "t": "سلطة",
+    "en": "Salad",
+    "ph": "salaṭa"
+   },
+   {
+    "t": "فاكهة",
+    "en": "Fruit",
+    "ph": "fākiha"
+   },
+   {
+    "t": "عصير برتقال",
+    "en": "Orange juice",
+    "ph": "ʿaṣīr burtuqāl"
+   },
+   {
+    "t": "لا آكل اللحم",
+    "en": "I do not eat meat",
+    "ph": "lā ākul al-laḥm"
+   },
+   {
+    "t": "عندي حساسية من المكسرات",
+    "en": "I am allergic to nuts",
+    "ph": "ʿindī ḥassāsiyya min al-mukassarāt"
+   },
+   {
+    "t": "هل هذا حار؟",
+    "en": "Is this spicy?",
+    "ph": "hal hādhā ḥārr"
+   },
+   {
+    "t": "هذا لذيذ",
+    "en": "This is delicious",
+    "ph": "hādhā ladhīdh"
+   },
+   {
+    "t": "أنا نباتي",
+    "en": "I am a vegetarian",
+    "ph": "anā nabātī"
+   },
+   {
+    "t": "الحساب من فضلك",
+    "en": "The bill, please",
+    "ph": "al-ḥisāb min faḍlik"
+   },
+   {
+    "t": "ماذا تنصح؟",
+    "en": "What do you recommend?",
+    "ph": "mādhā tanṣaḥ"
+   },
+   {
+    "t": "بدون سكر",
+    "en": "Without sugar",
+    "ph": "bidūn sukkar"
+   },
+   {
+    "t": "المزيد من الماء من فضلك",
+    "en": "More water, please",
+    "ph": "al-mazīd min al-māʾ min faḍlik"
+   },
+   {
+    "t": "أنا شبعان",
+    "en": "I am full",
+    "ph": "anā shabʿān"
+   },
+   {
+    "t": "هل هذا يحتوي على لحم؟",
+    "en": "Does this contain meat?",
+    "ph": "hal hādhā yaḥtawī ʿalā laḥm"
+   }
+  ],
+  "travel": [
+   {
+    "t": "أين المحطة؟",
+    "en": "Where is the station?",
+    "ph": "ayna al-maḥaṭṭa"
+   },
+   {
+    "t": "أين المطار؟",
+    "en": "Where is the airport?",
+    "ph": "ayna al-maṭār"
+   },
+   {
+    "t": "أين الفندق؟",
+    "en": "Where is the hotel?",
+    "ph": "ayna al-funduq"
+   },
+   {
+    "t": "أين المرحاض؟",
+    "en": "Where is the toilet?",
+    "ph": "ayna al-mirḥāḍ"
+   },
+   {
+    "t": "هل هذا بعيد؟",
+    "en": "Is it far?",
+    "ph": "hal hādhā baʿīd"
+   },
+   {
+    "t": "على اليمين",
+    "en": "To the right",
+    "ph": "ʿalā l-yamīn"
+   },
+   {
+    "t": "على اليسار",
+    "en": "To the left",
+    "ph": "ʿalā l-yasār"
+   },
+   {
+    "t": "إلى الأمام",
+    "en": "Straight ahead",
+    "ph": "ilā l-amām"
+   },
+   {
+    "t": "تذكرة إلى القاهرة من فضلك",
+    "en": "A ticket to Cairo, please",
+    "ph": "tadhkira ilā l-qāhira min faḍlik"
+   },
+   {
+    "t": "كم ثمن التذكرة؟",
+    "en": "How much is the ticket?",
+    "ph": "kam thaman at-tadhkira"
+   },
+   {
+    "t": "متى يغادر القطار؟",
+    "en": "When does the train leave?",
+    "ph": "matā yughādir al-qiṭār"
+   },
+   {
+    "t": "أين موقف الحافلة؟",
+    "en": "Where is the bus stop?",
+    "ph": "ayna mawqif al-ḥāfila"
+   },
+   {
+    "t": "هل هذه الحافلة تذهب إلى المدينة؟",
+    "en": "Does this bus go to the city?",
+    "ph": "hal hādhihi l-ḥāfila tadhhab ilā l-madīna"
+   },
+   {
+    "t": "أحتاج إلى سيارة أجرة",
+    "en": "I need a taxi",
+    "ph": "aḥtāj ilā sayyārat ujra"
+   },
+   {
+    "t": "خذني إلى هذا العنوان",
+    "en": "Take me to this address",
+    "ph": "khudhnī ilā hādhā l-ʿunwān"
+   },
+   {
+    "t": "لدي حجز",
+    "en": "I have a reservation",
+    "ph": "ladayya ḥajz"
+   },
+   {
+    "t": "غرفة لشخصين من فضلك",
+    "en": "A room for two, please",
+    "ph": "ghurfa li-shakhṣayn min faḍlik"
+   },
+   {
+    "t": "أريد الغرفة لليلتين",
+    "en": "I want the room for two nights",
+    "ph": "urīd al-ghurfa li-laylatayn"
+   },
+   {
+    "t": "جواز السفر",
+    "en": "The passport",
+    "ph": "jawāz as-safar"
+   },
+   {
+    "t": "لقد أضعت حقيبتي",
+    "en": "I have lost my bag",
+    "ph": "laqad aḍaʿtu ḥaqībatī"
+   },
+   {
+    "t": "أنا تائه",
+    "en": "I am lost",
+    "ph": "anā tāʾih"
+   },
+   {
+    "t": "هل هذا قريب؟",
+    "en": "Is it near?",
+    "ph": "hal hādhā qarīb"
+   },
+   {
+    "t": "توقف هنا من فضلك",
+    "en": "Stop here, please",
+    "ph": "tawaqqaf hunā min faḍlik"
+   },
+   {
+    "t": "هل الإفطار مشمول؟",
+    "en": "Is breakfast included?",
+    "ph": "hal al-ifṭār mashmūl"
+   },
+   {
+    "t": "أين أستطيع تغيير المال؟",
+    "en": "Where can I change money?",
+    "ph": "ayna astaṭīʿ taghyīr al-māl"
+   }
+  ],
+  "shopping": [
+   {
+    "t": "كم سعر هذا؟",
+    "en": "How much is this?",
+    "ph": "kam siʿr hādhā"
+   },
+   {
+    "t": "هذا غالي جدا",
+    "en": "This is too expensive",
+    "ph": "hādhā ghālī jiddan"
+   },
+   {
+    "t": "هل عندك سعر أرخص؟",
+    "en": "Do you have a cheaper price?",
+    "ph": "hal ʿindak siʿr arkhaṣ"
+   },
+   {
+    "t": "أريد هذا",
+    "en": "I want this",
+    "ph": "urīd hādhā"
+   },
+   {
+    "t": "أريد أن أشتري هدية",
+    "en": "I want to buy a gift",
+    "ph": "urīd an ashtarī hadiyya"
+   },
+   {
+    "t": "هل يوجد مقاس أكبر؟",
+    "en": "Is there a bigger size?",
+    "ph": "hal yūjad maqās akbar"
+   },
+   {
+    "t": "هل يوجد مقاس أصغر؟",
+    "en": "Is there a smaller size?",
+    "ph": "hal yūjad maqās aṣghar"
+   },
+   {
+    "t": "ما مقاسك؟",
+    "en": "What is your size?",
+    "ph": "mā maqāsuk"
+   },
+   {
+    "t": "هل يوجد بلون آخر؟",
+    "en": "Is there another colour?",
+    "ph": "hal yūjad bi-lawn ākhar"
+   },
+   {
+    "t": "أحمر",
+    "en": "Red",
+    "ph": "aḥmar"
+   },
+   {
+    "t": "أزرق",
+    "en": "Blue",
+    "ph": "azraq"
+   },
+   {
+    "t": "أخضر",
+    "en": "Green",
+    "ph": "akhḍar"
+   },
+   {
+    "t": "أسود",
+    "en": "Black",
+    "ph": "aswad"
+   },
+   {
+    "t": "أبيض",
+    "en": "White",
+    "ph": "abyaḍ"
+   },
+   {
+    "t": "هل أستطيع أن أجربه؟",
+    "en": "Can I try it on?",
+    "ph": "hal astaṭīʿ an ujarribah"
+   },
+   {
+    "t": "أين غرفة القياس؟",
+    "en": "Where is the fitting room?",
+    "ph": "ayna ghurfat al-qiyās"
+   },
+   {
+    "t": "سآخذه",
+    "en": "I will take it",
+    "ph": "saʾākhudhuh"
+   },
+   {
+    "t": "هل تقبلون البطاقة؟",
+    "en": "Do you accept cards?",
+    "ph": "hal taqbalūn al-biṭāqa"
+   },
+   {
+    "t": "سأدفع نقدا",
+    "en": "I will pay cash",
+    "ph": "sa-adfaʿ naqdan"
+   },
+   {
+    "t": "الإيصال من فضلك",
+    "en": "The receipt, please",
+    "ph": "al-īṣāl min faḍlik"
+   },
+   {
+    "t": "أين السوق؟",
+    "en": "Where is the market?",
+    "ph": "ayna as-sūq"
+   },
+   {
+    "t": "متى يفتح المحل؟",
+    "en": "When does the shop open?",
+    "ph": "matā yaftaḥ al-maḥall"
+   },
+   {
+    "t": "متى يغلق المحل؟",
+    "en": "When does the shop close?",
+    "ph": "matā yughliq al-maḥall"
+   },
+   {
+    "t": "هل عندكم خصم؟",
+    "en": "Do you have a discount?",
+    "ph": "hal ʿindakum khaṣm"
+   },
+   {
+    "t": "أنا أتفرج فقط",
+    "en": "I am just looking",
+    "ph": "anā atafarraj faqaṭ"
+   }
+  ],
+  "family": [
+   {
+    "t": "هذه عائلتي",
+    "en": "This is my family",
+    "ph": "hādhihi ʿāʾilatī"
+   },
+   {
+    "t": "هذا أبي",
+    "en": "This is my father",
+    "ph": "hādhā abī"
+   },
+   {
+    "t": "هذه أمي",
+    "en": "This is my mother",
+    "ph": "hādhihi ummī"
+   },
+   {
+    "t": "هذا أخي",
+    "en": "This is my brother",
+    "ph": "hādhā akhī"
+   },
+   {
+    "t": "هذه أختي",
+    "en": "This is my sister",
+    "ph": "hādhihi ukhtī"
+   },
+   {
+    "t": "هذا ابني",
+    "en": "This is my son",
+    "ph": "hādhā ibnī"
+   },
+   {
+    "t": "هذه ابنتي",
+    "en": "This is my daughter",
+    "ph": "hādhihi ibnatī"
+   },
+   {
+    "t": "هذا جدي",
+    "en": "This is my grandfather",
+    "ph": "hādhā jaddī"
+   },
+   {
+    "t": "هذه جدتي",
+    "en": "This is my grandmother",
+    "ph": "hādhihi jaddatī"
+   },
+   {
+    "t": "هذا زوجي",
+    "en": "This is my husband",
+    "ph": "hādhā zawjī"
+   },
+   {
+    "t": "هذه زوجتي",
+    "en": "This is my wife",
+    "ph": "hādhihi zawjatī"
+   },
+   {
+    "t": "هذا عمي",
+    "en": "This is my uncle (father's brother)",
+    "ph": "hādhā ʿammī"
+   },
+   {
+    "t": "هذه خالتي",
+    "en": "This is my aunt (mother's sister)",
+    "ph": "hādhihi khālatī"
+   },
+   {
+    "t": "هل عندك إخوة؟",
+    "en": "Do you have brothers or sisters?",
+    "ph": "hal ʿindak ikhwa"
+   },
+   {
+    "t": "عندي أخ وأختان",
+    "en": "I have a brother and two sisters",
+    "ph": "ʿindī akh wa-ukhtān"
+   },
+   {
+    "t": "كم عمرك؟",
+    "en": "How old are you?",
+    "ph": "kam ʿumruk"
+   },
+   {
+    "t": "عمري ثلاثون سنة",
+    "en": "I am thirty years old",
+    "ph": "ʿumrī thalāthūn sana"
+   },
+   {
+    "t": "أنا متزوج",
+    "en": "I am married (said by a man)",
+    "ph": "anā mutazawwij"
+   },
+   {
+    "t": "أنا أعزب",
+    "en": "I am single (said by a man)",
+    "ph": "anā aʿzab"
+   },
+   {
+    "t": "عندي طفلان",
+    "en": "I have two children",
+    "ph": "ʿindī ṭiflān"
+   },
+   {
+    "t": "هل عندك أطفال؟",
+    "en": "Do you have children?",
+    "ph": "hal ʿindak aṭfāl"
+   },
+   {
+    "t": "هذا صديقي",
+    "en": "This is my friend (male)",
+    "ph": "hādhā ṣadīqī"
+   },
+   {
+    "t": "هذه صديقتي",
+    "en": "This is my friend (female)",
+    "ph": "hādhihi ṣadīqatī"
+   },
+   {
+    "t": "أبي طبيب",
+    "en": "My father is a doctor",
+    "ph": "abī ṭabīb"
+   },
+   {
+    "t": "أمي معلمة",
+    "en": "My mother is a teacher",
+    "ph": "ummī muʿallima"
+   }
+  ],
+  "home": [
+   {
+    "t": "تفضل، اعتبر البيت بيتك",
+    "en": "Come in, make yourself at home",
+    "ph": "tafaḍḍal, iʿtabir al-bayt baytak"
+   },
+   {
+    "t": "البيت كبير",
+    "en": "The house is big",
+    "ph": "al-bayt kabīr"
+   },
+   {
+    "t": "غرفة النوم",
+    "en": "Bedroom",
+    "ph": "ghurfat an-nawm"
+   },
+   {
+    "t": "المطبخ",
+    "en": "Kitchen",
+    "ph": "al-maṭbakh"
+   },
+   {
+    "t": "الحمام",
+    "en": "Bathroom",
+    "ph": "al-ḥammām"
+   },
+   {
+    "t": "غرفة الجلوس",
+    "en": "Living room",
+    "ph": "ghurfat al-julūs"
+   },
+   {
+    "t": "الطاولة",
+    "en": "The table",
+    "ph": "aṭ-ṭāwila"
+   },
+   {
+    "t": "الكرسي",
+    "en": "The chair",
+    "ph": "al-kursī"
+   },
+   {
+    "t": "السرير",
+    "en": "The bed",
+    "ph": "as-sarīr"
+   },
+   {
+    "t": "أشعل الضوء من فضلك",
+    "en": "Turn on the light, please",
+    "ph": "ashʿil aḍ-ḍawʾ min faḍlik"
+   },
+   {
+    "t": "أطفئ الضوء من فضلك",
+    "en": "Turn off the light, please",
+    "ph": "aṭfiʾ aḍ-ḍawʾ min faḍlik"
+   },
+   {
+    "t": "افتح الباب",
+    "en": "Open the door",
+    "ph": "iftaḥ al-bāb"
+   },
+   {
+    "t": "أغلق الباب",
+    "en": "Close the door",
+    "ph": "aghliq al-bāb"
+   },
+   {
+    "t": "المفتاح",
+    "en": "The key",
+    "ph": "al-miftāḥ"
+   },
+   {
+    "t": "أين المفتاح؟",
+    "en": "Where is the key?",
+    "ph": "ayna al-miftāḥ"
+   },
+   {
+    "t": "الإيجار",
+    "en": "The rent",
+    "ph": "al-ījār"
+   },
+   {
+    "t": "كم الإيجار؟",
+    "en": "How much is the rent?",
+    "ph": "kam al-ījār"
+   },
+   {
+    "t": "هذا جاري",
+    "en": "This is my neighbour",
+    "ph": "hādhā jārī"
+   },
+   {
+    "t": "هل يمكنك فتح النافذة؟",
+    "en": "Can you open the window?",
+    "ph": "hal yumkinuka fatḥ an-nāfidha"
+   },
+   {
+    "t": "أغسل الأطباق",
+    "en": "I wash the dishes",
+    "ph": "aghsil al-aṭbāq"
+   },
+   {
+    "t": "أنظف البيت",
+    "en": "I clean the house",
+    "ph": "unaẓẓif al-bayt"
+   },
+   {
+    "t": "الثلاجة",
+    "en": "The fridge",
+    "ph": "ath-thallāja"
+   },
+   {
+    "t": "الغسالة",
+    "en": "The washing machine",
+    "ph": "al-ghassāla"
+   },
+   {
+    "t": "الواي فاي لا يعمل",
+    "en": "The Wi-Fi is not working",
+    "ph": "al-wāy fāy lā yaʿmal"
+   },
+   {
+    "t": "أشغل التلفاز",
+    "en": "I turn on the TV",
+    "ph": "ushaghghil at-tilfāz"
+   }
+  ],
+  "health": [
+   {
+    "t": "أشعر بالمرض",
+    "en": "I feel sick",
+    "ph": "ashʿur bi-l-maraḍ"
+   },
+   {
+    "t": "أحتاج إلى طبيب",
+    "en": "I need a doctor",
+    "ph": "aḥtāj ilā ṭabīb"
+   },
+   {
+    "t": "عندي ألم في رأسي",
+    "en": "I have a headache",
+    "ph": "ʿindī alam fī raʾsī"
+   },
+   {
+    "t": "عندي ألم في بطني",
+    "en": "I have a stomach ache",
+    "ph": "ʿindī alam fī baṭnī"
+   },
+   {
+    "t": "عندي ألم في ظهري",
+    "en": "My back hurts",
+    "ph": "ʿindī alam fī ẓahrī"
+   },
+   {
+    "t": "عندي ألم في أسناني",
+    "en": "I have a toothache",
+    "ph": "ʿindī alam fī asnānī"
+   },
+   {
+    "t": "حلقي يؤلمني",
+    "en": "My throat hurts",
+    "ph": "ḥalqī yu'limunī"
+   },
+   {
+    "t": "عندي حرارة",
+    "en": "I have a fever",
+    "ph": "ʿindī ḥarāra"
+   },
+   {
+    "t": "عندي سعال",
+    "en": "I have a cough",
+    "ph": "ʿindī suʿāl"
+   },
+   {
+    "t": "أين الصيدلية؟",
+    "en": "Where is the pharmacy?",
+    "ph": "ayna aṣ-ṣaydaliyya"
+   },
+   {
+    "t": "أحتاج إلى دواء",
+    "en": "I need medicine",
+    "ph": "aḥtāj ilā dawāʾ"
+   },
+   {
+    "t": "هل هذا الدواء آمن؟",
+    "en": "Is this medicine safe?",
+    "ph": "hal hādhā d-dawāʾ āmin"
+   },
+   {
+    "t": "كم مرة في اليوم؟",
+    "en": "How many times a day?",
+    "ph": "kam marra fī l-yawm"
+   },
+   {
+    "t": "عندي حساسية من البنسلين",
+    "en": "I am allergic to penicillin",
+    "ph": "ʿindī ḥassāsiyya min al-binisilīn"
+   },
+   {
+    "t": "اتصل بالإسعاف",
+    "en": "Call an ambulance",
+    "ph": "ittaṣil bi-l-isʿāf"
+   },
+   {
+    "t": "النجدة",
+    "en": "Help!",
+    "ph": "an-najda"
+   },
+   {
+    "t": "أحتاج إلى مساعدة",
+    "en": "I need help",
+    "ph": "aḥtāj ilā musāʿada"
+   },
+   {
+    "t": "هناك حادث",
+    "en": "There has been an accident",
+    "ph": "hunāka ḥādith"
+   },
+   {
+    "t": "يدي تؤلمني",
+    "en": "My hand hurts",
+    "ph": "yadī tu'limunī"
+   },
+   {
+    "t": "قدمي تؤلمني",
+    "en": "My foot hurts",
+    "ph": "qadamī tu'limunī"
+   },
+   {
+    "t": "أشعر بدوار",
+    "en": "I feel dizzy",
+    "ph": "ashʿur bi-dawār"
+   },
+   {
+    "t": "هل يوجد مستشفى قريب؟",
+    "en": "Is there a hospital nearby?",
+    "ph": "hal yūjad mustashfā qarīb"
+   },
+   {
+    "t": "أنا مصاب بالسكري",
+    "en": "I have diabetes",
+    "ph": "anā muṣāb bi-s-sukkarī"
+   },
+   {
+    "t": "لا أستطيع التنفس",
+    "en": "I cannot breathe",
+    "ph": "lā astaṭīʿ at-tanaffus"
+   },
+   {
+    "t": "أشعر بتحسن الآن",
+    "en": "I feel better now",
+    "ph": "ashʿur bi-taḥassun al-ān"
+   }
+  ],
+  "feelings": [
+   {
+    "t": "أنا سعيد",
+    "en": "I am happy",
+    "ph": "anā saʿīd"
+   },
+   {
+    "t": "أنا حزين",
+    "en": "I am sad",
+    "ph": "anā ḥazīn"
+   },
+   {
+    "t": "أنا متعب",
+    "en": "I am tired",
+    "ph": "anā mutʿab"
+   },
+   {
+    "t": "أنا غاضب",
+    "en": "I am angry",
+    "ph": "anā ghāḍib"
+   },
+   {
+    "t": "أنا خائف",
+    "en": "I am afraid",
+    "ph": "anā khāʾif"
+   },
+   {
+    "t": "أنا أشعر بالملل",
+    "en": "I am bored",
+    "ph": "anā ashʿur bi-l-malal"
+   },
+   {
+    "t": "أنا واقع في الحب",
+    "en": "I am in love",
+    "ph": "anā wāqiʿ fī l-ḥubb"
+   },
+   {
+    "t": "يعجبني هذا",
+    "en": "I like this",
+    "ph": "yuʿjibunī hādhā"
+   },
+   {
+    "t": "أنا أحبك",
+    "en": "I love you",
+    "ph": "anā uḥibbuk"
+   },
+   {
+    "t": "أكره هذا",
+    "en": "I hate this",
+    "ph": "akrah hādhā"
+   },
+   {
+    "t": "أحب القراءة",
+    "en": "I love reading",
+    "ph": "uḥibb al-qirāʾa"
+   },
+   {
+    "t": "أنا قلق",
+    "en": "I am worried",
+    "ph": "anā qaliq"
+   },
+   {
+    "t": "لا تقلق",
+    "en": "Do not worry",
+    "ph": "lā taqlaq"
+   },
+   {
+    "t": "أنا متحمس",
+    "en": "I am excited",
+    "ph": "anā mutaḥammis"
+   },
+   {
+    "t": "أنا فخور بك",
+    "en": "I am proud of you",
+    "ph": "anā fakhūr bik"
+   },
+   {
+    "t": "أنا مرتاح",
+    "en": "I am relaxed",
+    "ph": "anā murtāḥ"
+   },
+   {
+    "t": "أنا مشغول",
+    "en": "I am busy",
+    "ph": "anā mashghūl"
+   },
+   {
+    "t": "أنا موافق",
+    "en": "I agree",
+    "ph": "anā muwāfiq"
+   },
+   {
+    "t": "لا أوافق",
+    "en": "I do not agree",
+    "ph": "lā uwāfiq"
+   },
+   {
+    "t": "في رأيي",
+    "en": "In my opinion",
+    "ph": "fī raʾyī"
+   },
+   {
+    "t": "ما رأيك؟",
+    "en": "What do you think?",
+    "ph": "mā raʾyuk"
+   },
+   {
+    "t": "أعتقد ذلك",
+    "en": "I think so",
+    "ph": "aʿtaqid dhālik"
+   },
+   {
+    "t": "لا أعتقد ذلك",
+    "en": "I do not think so",
+    "ph": "lā aʿtaqid dhālik"
+   },
+   {
+    "t": "هذا مدهش",
+    "en": "That is amazing",
+    "ph": "hādhā mudhhish"
+   },
+   {
+    "t": "أنا وحيد",
+    "en": "I am lonely",
+    "ph": "anā waḥīd"
+   }
+  ],
+  "work": [
+   {
+    "t": "ماذا تعمل؟",
+    "en": "What do you do for work?",
+    "ph": "mādhā taʿmal"
+   },
+   {
+    "t": "أنا مهندس",
+    "en": "I am an engineer",
+    "ph": "anā muhandis"
+   },
+   {
+    "t": "أنا معلم",
+    "en": "I am a teacher",
+    "ph": "anā muʿallim"
+   },
+   {
+    "t": "أنا طالب",
+    "en": "I am a student",
+    "ph": "anā ṭālib"
+   },
+   {
+    "t": "أعمل في مكتب",
+    "en": "I work in an office",
+    "ph": "aʿmal fī maktab"
+   },
+   {
+    "t": "أعمل من البيت",
+    "en": "I work from home",
+    "ph": "aʿmal min al-bayt"
+   },
+   {
+    "t": "هذا مديري",
+    "en": "This is my boss",
+    "ph": "hādhā mudīrī"
+   },
+   {
+    "t": "هذا زميلي",
+    "en": "This is my colleague",
+    "ph": "hādhā zamīlī"
+   },
+   {
+    "t": "عندي اجتماع",
+    "en": "I have a meeting",
+    "ph": "ʿindī ijtimāʿ"
+   },
+   {
+    "t": "الاجتماع في الساعة العاشرة",
+    "en": "The meeting is at ten o'clock",
+    "ph": "al-ijtimāʿ fī s-sāʿa al-ʿāshira"
+   },
+   {
+    "t": "أرسل لي بريدا إلكترونيا",
+    "en": "Send me an email",
+    "ph": "arsil lī barīdan iliktrūniyyan"
+   },
+   {
+    "t": "ما بريدك الإلكتروني؟",
+    "en": "What is your email address?",
+    "ph": "mā barīduk al-iliktrūnī"
+   },
+   {
+    "t": "الراتب",
+    "en": "The salary",
+    "ph": "ar-rātib"
+   },
+   {
+    "t": "أبحث عن عمل",
+    "en": "I am looking for a job",
+    "ph": "abḥath ʿan ʿamal"
+   },
+   {
+    "t": "أنا أدرس اللغة العربية",
+    "en": "I am studying Arabic",
+    "ph": "anā adrus al-lugha al-ʿarabiyya"
+   },
+   {
+    "t": "عندي امتحان غدا",
+    "en": "I have an exam tomorrow",
+    "ph": "ʿindī imtiḥān ghadan"
+   },
+   {
+    "t": "الواجب المنزلي",
+    "en": "Homework",
+    "ph": "al-wājib al-manzilī"
+   },
+   {
+    "t": "أنا أدرس في الجامعة",
+    "en": "I study at university",
+    "ph": "anā adrus fī l-jāmiʿa"
+   },
+   {
+    "t": "ما تخصصك؟",
+    "en": "What is your major?",
+    "ph": "mā takhaṣṣuṣuk"
+   },
+   {
+    "t": "هل يمكنك مساعدتي في هذا؟",
+    "en": "Can you help me with this?",
+    "ph": "hal yumkinuka musāʿadatī fī hādhā"
+   },
+   {
+    "t": "سأتصل بك",
+    "en": "I will call you",
+    "ph": "sa-attaṣil bik"
+   },
+   {
+    "t": "أنا في إجازة",
+    "en": "I am on holiday",
+    "ph": "anā fī ijāza"
+   },
+   {
+    "t": "هل عندك وقت؟",
+    "en": "Do you have time?",
+    "ph": "hal ʿindak waqt"
+   },
+   {
+    "t": "عندي درس الآن",
+    "en": "I have a lesson now",
+    "ph": "ʿindī dars al-ān"
+   },
+   {
+    "t": "أتعلم كل يوم",
+    "en": "I learn every day",
+    "ph": "ataʿallam kull yawm"
+   }
+  ],
+  "weather": [
+   {
+    "t": "كيف الطقس؟",
+    "en": "What is the weather like?",
+    "ph": "kayfa aṭ-ṭaqs"
+   },
+   {
+    "t": "الجو جميل اليوم",
+    "en": "The weather is nice today",
+    "ph": "al-jaww jamīl al-yawm"
+   },
+   {
+    "t": "الجو حار",
+    "en": "It is hot",
+    "ph": "al-jaww ḥārr"
+   },
+   {
+    "t": "الجو بارد",
+    "en": "It is cold",
+    "ph": "al-jaww bārid"
+   },
+   {
+    "t": "الجو مشمس",
+    "en": "It is sunny",
+    "ph": "al-jaww mushmis"
+   },
+   {
+    "t": "السماء غائمة",
+    "en": "It is cloudy",
+    "ph": "as-samāʾ ghāʾima"
+   },
+   {
+    "t": "إنها تمطر",
+    "en": "It is raining",
+    "ph": "innahā tumṭir"
+   },
+   {
+    "t": "إنها تثلج",
+    "en": "It is snowing",
+    "ph": "innahā tuthlij"
+   },
+   {
+    "t": "هناك رياح",
+    "en": "It is windy",
+    "ph": "hunāka riyāḥ"
+   },
+   {
+    "t": "ما أجمل هذا اليوم!",
+    "en": "What a beautiful day!",
+    "ph": "mā ajmal hādhā l-yawm"
+   },
+   {
+    "t": "الصيف",
+    "en": "Summer",
+    "ph": "aṣ-ṣayf"
+   },
+   {
+    "t": "الشتاء",
+    "en": "Winter",
+    "ph": "ash-shitāʾ"
+   },
+   {
+    "t": "الربيع",
+    "en": "Spring",
+    "ph": "ar-rabīʿ"
+   },
+   {
+    "t": "الخريف",
+    "en": "Autumn",
+    "ph": "al-kharīf"
+   },
+   {
+    "t": "البحر",
+    "en": "The sea",
+    "ph": "al-baḥr"
+   },
+   {
+    "t": "الجبل",
+    "en": "The mountain",
+    "ph": "al-jabal"
+   },
+   {
+    "t": "الشجرة",
+    "en": "The tree",
+    "ph": "ash-shajara"
+   },
+   {
+    "t": "القط",
+    "en": "The cat",
+    "ph": "al-qiṭṭ"
+   },
+   {
+    "t": "الكلب",
+    "en": "The dog",
+    "ph": "al-kalb"
+   },
+   {
+    "t": "الطائر",
+    "en": "The bird",
+    "ph": "aṭ-ṭāʾir"
+   },
+   {
+    "t": "الشمس",
+    "en": "The sun",
+    "ph": "ash-shams"
+   },
+   {
+    "t": "القمر",
+    "en": "The moon",
+    "ph": "al-qamar"
+   },
+   {
+    "t": "ماذا ستفعل في عطلة نهاية الأسبوع؟",
+    "en": "What will you do at the weekend?",
+    "ph": "mādhā sa-tafʿal fī ʿuṭlat nihāyat al-usbūʿ"
+   },
+   {
+    "t": "سأذهب إلى البحر",
+    "en": "I will go to the sea",
+    "ph": "sa-adhhab ilā l-baḥr"
+   },
+   {
+    "t": "هل تريد أن نخرج؟",
+    "en": "Do you want to go out?",
+    "ph": "hal turīd an nakhruj"
+   }
+  ]
+ }
+}

@@ -1,4 +1,5 @@
 import { parseDeckCardId, deckCardId, type DeckSize } from "@/lib/decks";
+import { TOPIC_SIZE, parseTopicCardId, topicCardId, type TopicId } from "@/lib/decks/topics";
 import { dueCards, type Card } from "./schedule";
 
 /** A card that has never been answered. */
@@ -37,4 +38,23 @@ export function deckProgress(cards: Record<string, Card>, lang: string, size: De
 export function inDeck(id: string, lang: string, size: DeckSize): boolean {
   const d = parseDeckCardId(id);
   return !!d && d.lang === lang && d.index < size;
+}
+
+/** How a topic deck is getting on: of its phrases, how many have been met and how many are well learned. */
+export function topicProgress(cards: Record<string, Card>, lang: string, topic: TopicId, size = TOPIC_SIZE): { met: number; learned: number; size: number } {
+  let met = 0;
+  let learned = 0;
+  for (let i = 0; i < size; i++) {
+    const c = cards[topicCardId(lang, topic, i)];
+    if (!c) continue;
+    if (!isNewCard(c)) met++;
+    if (c.interval >= 1) learned++;
+  }
+  return { met, learned, size };
+}
+
+/** Whether a card is of one language's topic deck. */
+export function inTopic(id: string, lang: string, topic: TopicId): boolean {
+  const d = parseTopicCardId(id);
+  return !!d && d.lang === lang && d.topic === topic;
 }

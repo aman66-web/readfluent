@@ -1,3 +1,4 @@
+import { TOPIC_SIZE, topicCardId, type TopicId } from "@/lib/decks/topics";
 import { storageKey } from "@/lib/brand";
 import { readRaw, writeRaw } from "@/lib/store/local";
 import { localDay } from "@/lib/xp/ledger";
@@ -71,6 +72,17 @@ export function withDeck(srs: Srs, lang: string, size: DeckSize, now: number): S
   return added ? { ...srs, cards } : srs;
 }
 
+/** The state with a topic deck's cards added (the ones already there keep their progress). */
+export function withTopic(srs: Srs, lang: string, topic: TopicId, now: number): Srs {
+  const cards = { ...srs.cards };
+  let added = false;
+  for (let i = 0; i < TOPIC_SIZE; i++) {
+    const id = topicCardId(lang, topic, i);
+    if (!cards[id]) { cards[id] = newCard(id, now); added = true; }
+  }
+  return added ? { ...srs, cards } : srs;
+}
+
 /** Adds a deck's cards (idempotent). */
 export function addDeck(lang: string, size: DeckSize, now = Date.now()): void {
   const cur = read();
@@ -82,7 +94,8 @@ export function addDeck(lang: string, size: DeckSize, now = Date.now()): void {
 export function saveSrs(s: Srs): void { write(s); }
 
 /** The state a sitting starts from: every saved word has its card, and the deck chosen (if any) is on the table. */
-export function sittingState(srs: Srs, saved: Saved, deck: { lang: string; size: DeckSize } | null, now: number): Srs {
+export function sittingState(srs: Srs, saved: Saved, deck: { lang: string; size: DeckSize } | null, now: number, topic: { lang: string; topic: TopicId } | null = null): Srs {
   const withWords = withCardsFor(srs, saved, now);
+  if (topic) return withTopic(withWords, topic.lang, topic.topic, now);
   return deck ? withDeck(withWords, deck.lang, deck.size, now) : withWords;
 }

@@ -4,13 +4,14 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 import { loadDeck, parseDeckCardId, type DeckSize, type Phrase } from "@/lib/decks";
+import { loadTopics, parseTopicCardId, type TopicId } from "@/lib/decks/topics";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { LANGUAGES } from "@/lib/onboarding/languages";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { Meaning } from "./Meaning";
 import { canSpeak, speak, stopSpeaking } from "@/lib/reading/speak";
 import { previewDays, type Grade } from "@/lib/srs/schedule";
-import { buildSession, inDeck } from "@/lib/srs/session";
+import { buildSession, inDeck, inTopic } from "@/lib/srs/session";
 import { answerCard, parseSrs, saveSrs, sittingState, SRS_KEY } from "@/lib/srs/store";
 import { useDeviceReady, useSaved, useSrs } from "@/lib/srs/use";
 import { readRaw } from "@/lib/store/local";
@@ -38,16 +39,16 @@ const GRADES: readonly { grade: Grade; label: "cards.again" | "cards.good" | "ca
  * One sitting of flashcards. `deck` narrows it to the first 50 or 100 phrases of `lang`'s deck; with no
  * deck it is everything due: the saved words and the phrases of any deck that was started.
  */
-export function Flashcards({ deck, lang }: { deck: DeckSize | null; lang: string | null }) {
+export function Flashcards({ deck, lang, topic = null }: { deck: DeckSize | null; lang: string | null; /** One topic deck of `lang`, instead of a phrase deck. */ topic?: TopicId | null }) {
   const ready = useDeviceReady();
   return (
     <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:1.5rem] [--pt:.5rem]">
-      {ready ? <Session deck={deck} lang={lang} /> : null}
+      {ready ? <Session deck={deck} lang={lang} topic={topic} /> : null}
     </main>
   );
 }
 
-function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null }) {
+function Session({ deck, lang, topic }: { deck: DeckSize | null; lang: string | null; topic: TopicId | null }) {
   const t = useT();
   const locale = useLocale();
   const a = useAnswers();
@@ -56,8 +57,8 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
   // The cards of this sitting are fixed when it starts; answering one must not reshuffle the rest.
   const [start] = useState(() => {
     const now = Date.now();
-    const state = sittingState(parseSrs(readRaw(SRS_KEY)), parseSaved(readRaw(SAVED_KEY)), deck && lang ? { lang, size: deck } : null, now);
-    const ids = buildSession(Object.values(state.cards), now, deck && lang ? { only: (id) => inDeck(id, lang, deck) } : {});
+    const state = sittingState(parseSrs(readRaw(SRS_KEY)), parseSaved(readRaw(SAVED_KEY)), deck && lang ? { lang, size: deck } : null, now, topic && lang ? { lang, topic } : null);
+    const ids = buildSession(Object.values(state.cards), now, topic && lang ? { only: (id) => inTopic(id, lang, topic) } : deck && lang ? { only: (id) => inDeck(id, lang, deck) } : {});
     return { state, ids };
   });
   const ids = start.ids;
@@ -78,13 +79,21 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
 
   // The decks this sitting draws on, fetched once each.
   const langs = useMemo(() => [...new Set(ids.map((id) => parseDeckCardId(id)?.lang).filter((l): l is string => !!l))], [ids]);
+  const topicLangs = useMemo(() => [...new Set(ids.map((id) => parseTopicCardId(id)?.lang).filter((l): l is string => !!l))], [ids]);
+  const [topics, setTopics] = useState<Record<string, Partial<Record<TopicId, Phrase[]>>>>({});
   useEffect(() => {
     let live = true;
     for (const l of langs) void loadDeck(l).then((p) => { if (live) setPhrases((cur) => ({ ...cur, [l]: p })); });
+    for (const l of topicLangs) void loadTopics(l).then((p) => { if (live) setTopics((cur) => ({ ...cur, [l]: p })); });
     return () => { live = false; stopSpeaking(); };
-  }, [langs]);
+  }, [langs, topicLangs]);
 
   const faceOf = useCallback((id: string): Face | null => {
+    const tp = parseTopicCardId(id);
+    if (tp) {
+      const p = topics[tp.lang]?.[tp.topic]?.[tp.index];
+      return p ? { front: p.t, back: p.en, hint: p.ph, lang: tp.lang, deck: true } : null;
+    }
     const d = parseDeckCardId(id);
     if (d) {
       const p = phrases[d.lang]?.[d.index];
@@ -93,7 +102,7 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
     const w = saved[id];
     // A word saved with no meaning still gets a back, so the reader is never asked to grade a blank.
     return w ? { front: w.word, back: w.meaning || t("cards.noMeaning"), lang: w.lang, book: w.book } : null;
-  }, [phrases, saved, t]);
+  }, [phrases, topics, saved, t]);
 
   const id = ids[at];
   const card = id ? srs.cards[id] : undefined;
@@ -155,6 +164,7 @@ function Session({ deck, lang }: { deck: DeckSize | null; lang: string | null })
         {fresh && deckLang ? (
           <Link href={`/recall/flashcards?deck=50&lang=${deckLang}`} className="btn-cyan flex h-14 items-center justify-center rounded-full text-[16px] font-bold">{t("recall.deck50")}</Link>
         ) : null}
+        {deckLang ? <Link href="/recall/decks" className="mt-1 flex h-12 items-center justify-center text-[15px] font-semibold text-[var(--ob-deep)]">{t("recall.decks.choose")}</Link> : null}
         <Link href={none ? "/library" : "/recall"} className={fresh && deckLang ? "mt-1 flex h-12 items-center justify-center text-[15px] font-semibold text-[var(--ob-deep)]" : "btn-cyan flex h-14 items-center justify-center rounded-full text-[16px] font-bold"}>
           {none ? t("cards.toLibrary") : t("cards.back")}
         </Link>

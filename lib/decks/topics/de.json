@@ -1,0 +1,1529 @@
+{
+ "lang": "de",
+ "topics": {
+  "greetings": [
+   {
+    "t": "Hallo",
+    "en": "Hello",
+    "ph": "HAH-loh"
+   },
+   {
+    "t": "Guten Morgen",
+    "en": "Good morning",
+    "ph": "GOO-tun MOR-gun"
+   },
+   {
+    "t": "Guten Tag",
+    "en": "Good day",
+    "ph": "GOO-tun TAHK"
+   },
+   {
+    "t": "Guten Abend",
+    "en": "Good evening",
+    "ph": "GOO-tun AH-bunt"
+   },
+   {
+    "t": "Gute Nacht",
+    "en": "Good night",
+    "ph": "GOO-tuh NAHKHT"
+   },
+   {
+    "t": "Wie geht es Ihnen?",
+    "en": "How are you? (formal)",
+    "ph": "vee GAYT ess EE-nun"
+   },
+   {
+    "t": "Gut, danke",
+    "en": "Fine, thanks",
+    "ph": "goot DAHN-kuh"
+   },
+   {
+    "t": "Und Ihnen?",
+    "en": "And you?",
+    "ph": "oont EE-nun"
+   },
+   {
+    "t": "Freut mich",
+    "en": "Nice to meet you",
+    "ph": "froyt MIKH"
+   },
+   {
+    "t": "Wie heißen Sie?",
+    "en": "What is your name?",
+    "ph": "vee HY-sun zee"
+   },
+   {
+    "t": "Ich heiße Anna",
+    "en": "My name is Anna",
+    "ph": "ikh HY-suh AH-nah"
+   },
+   {
+    "t": "Auf Wiedersehen",
+    "en": "Goodbye",
+    "ph": "owf VEE-der-zayn"
+   },
+   {
+    "t": "Bis bald",
+    "en": "See you soon",
+    "ph": "biss BAHLT"
+   },
+   {
+    "t": "Bis morgen",
+    "en": "See you tomorrow",
+    "ph": "biss MOR-gun"
+   },
+   {
+    "t": "Bitte",
+    "en": "Please / You're welcome",
+    "ph": "BIT-uh"
+   },
+   {
+    "t": "Danke",
+    "en": "Thank you",
+    "ph": "DAHN-kuh"
+   },
+   {
+    "t": "Vielen Dank",
+    "en": "Thank you very much",
+    "ph": "FEE-lun DAHNK"
+   },
+   {
+    "t": "Gern geschehen",
+    "en": "You're welcome",
+    "ph": "gairn guh-SHAY-un"
+   },
+   {
+    "t": "Entschuldigung",
+    "en": "Excuse me / Sorry",
+    "ph": "ent-SHOOL-di-goong"
+   },
+   {
+    "t": "Es tut mir leid",
+    "en": "I am sorry",
+    "ph": "ess toot meer LITE"
+   },
+   {
+    "t": "Kein Problem",
+    "en": "No problem",
+    "ph": "kine proh-BLAYM"
+   },
+   {
+    "t": "Woher kommen Sie?",
+    "en": "Where are you from?",
+    "ph": "voh-HAIR KOM-un zee"
+   },
+   {
+    "t": "Ich komme aus England",
+    "en": "I come from England",
+    "ph": "ikh KOM-uh ows ENG-lahnt"
+   },
+   {
+    "t": "Sprechen Sie Englisch?",
+    "en": "Do you speak English?",
+    "ph": "SHPREKH-un zee ENG-lish"
+   },
+   {
+    "t": "Ich verstehe nicht",
+    "en": "I don't understand",
+    "ph": "ikh fair-SHTAY-uh nikht"
+   }
+  ],
+  "numbers": [
+   {
+    "t": "Eins, zwei, drei",
+    "en": "One, two, three",
+    "ph": "ynts tsvy dry"
+   },
+   {
+    "t": "Vier, fünf, sechs",
+    "en": "Four, five, six",
+    "ph": "feer fewnf zeks"
+   },
+   {
+    "t": "Sieben, acht, neun",
+    "en": "Seven, eight, nine",
+    "ph": "ZEE-bun ahkht noyn"
+   },
+   {
+    "t": "Zehn",
+    "en": "Ten",
+    "ph": "tsayn"
+   },
+   {
+    "t": "Elf, zwölf, dreizehn",
+    "en": "Eleven, twelve, thirteen",
+    "ph": "elf tsvulf DRY-tsayn"
+   },
+   {
+    "t": "Fünfzehn",
+    "en": "Fifteen",
+    "ph": "FEWNF-tsayn"
+   },
+   {
+    "t": "Zwanzig",
+    "en": "Twenty",
+    "ph": "TSVAHN-tsikh"
+   },
+   {
+    "t": "Dreißig",
+    "en": "Thirty",
+    "ph": "DRY-sikh"
+   },
+   {
+    "t": "Fünfundvierzig",
+    "en": "Forty-five",
+    "ph": "fewnf-oont-FEER-tsikh"
+   },
+   {
+    "t": "Fünfzig",
+    "en": "Fifty",
+    "ph": "FEWNF-tsikh"
+   },
+   {
+    "t": "Hundert",
+    "en": "One hundred",
+    "ph": "HOON-dert"
+   },
+   {
+    "t": "Zweihundert",
+    "en": "Two hundred",
+    "ph": "TSVY-hoon-dert"
+   },
+   {
+    "t": "Tausend",
+    "en": "One thousand",
+    "ph": "TOW-zunt"
+   },
+   {
+    "t": "Der Erste",
+    "en": "The first",
+    "ph": "dair AIR-stuh"
+   },
+   {
+    "t": "Der Zweite",
+    "en": "The second",
+    "ph": "dair TSVY-tuh"
+   },
+   {
+    "t": "Der Dritte",
+    "en": "The third",
+    "ph": "dair DRIT-uh"
+   },
+   {
+    "t": "Wie viel kostet das?",
+    "en": "How much does it cost?",
+    "ph": "vee FEEL KOS-tut dahs"
+   },
+   {
+    "t": "Wie viele gibt es?",
+    "en": "How many are there?",
+    "ph": "vee FEE-luh gipt ess"
+   },
+   {
+    "t": "Das macht zehn Euro",
+    "en": "That comes to ten euros",
+    "ph": "dahs mahkht tsayn OY-roh"
+   },
+   {
+    "t": "Die Hälfte",
+    "en": "Half",
+    "ph": "dee HELF-tuh"
+   },
+   {
+    "t": "Ein halbes Kilo",
+    "en": "Half a kilo",
+    "ph": "yn HAHL-bus KEE-loh"
+   },
+   {
+    "t": "Ein bisschen",
+    "en": "A little",
+    "ph": "yn BISS-khun"
+   },
+   {
+    "t": "Ein paar",
+    "en": "A few",
+    "ph": "yn PAHR"
+   },
+   {
+    "t": "Viele",
+    "en": "Many",
+    "ph": "FEE-luh"
+   },
+   {
+    "t": "Wie ist Ihre Telefonnummer?",
+    "en": "What is your phone number?",
+    "ph": "vee ist EE-ruh tay-lay-FOHN-noom-er"
+   }
+  ],
+  "time": [
+   {
+    "t": "Wie spät ist es?",
+    "en": "What time is it?",
+    "ph": "vee SHPAYT ist ess"
+   },
+   {
+    "t": "Es ist fünf Uhr",
+    "en": "It is five o'clock",
+    "ph": "ess ist fewnf OOR"
+   },
+   {
+    "t": "Um fünf Uhr",
+    "en": "At five o'clock",
+    "ph": "oom fewnf OOR"
+   },
+   {
+    "t": "Es ist halb zwei",
+    "en": "It is half past one",
+    "ph": "ess ist hahlp TSVY"
+   },
+   {
+    "t": "Es ist Viertel nach drei",
+    "en": "It is a quarter past three",
+    "ph": "ess ist FEER-tul nahkh DRY"
+   },
+   {
+    "t": "Heute",
+    "en": "Today",
+    "ph": "HOY-tuh"
+   },
+   {
+    "t": "Morgen",
+    "en": "Tomorrow",
+    "ph": "MOR-gun"
+   },
+   {
+    "t": "Gestern",
+    "en": "Yesterday",
+    "ph": "GES-tern"
+   },
+   {
+    "t": "Am Morgen",
+    "en": "In the morning",
+    "ph": "ahm MOR-gun"
+   },
+   {
+    "t": "Am Nachmittag",
+    "en": "In the afternoon",
+    "ph": "ahm NAHKH-mit-tahk"
+   },
+   {
+    "t": "Am Abend",
+    "en": "In the evening",
+    "ph": "ahm AH-bunt"
+   },
+   {
+    "t": "In der Nacht",
+    "en": "At night",
+    "ph": "in dair NAHKHT"
+   },
+   {
+    "t": "Jeden Tag",
+    "en": "Every day",
+    "ph": "YAY-dun TAHK"
+   },
+   {
+    "t": "Nächste Woche",
+    "en": "Next week",
+    "ph": "NEKH-stuh VOKH-uh"
+   },
+   {
+    "t": "Montag und Dienstag",
+    "en": "Monday and Tuesday",
+    "ph": "MOHN-tahk oont DEENS-tahk"
+   },
+   {
+    "t": "Mittwoch und Donnerstag",
+    "en": "Wednesday and Thursday",
+    "ph": "MIT-vokh oont DON-ers-tahk"
+   },
+   {
+    "t": "Freitag",
+    "en": "Friday",
+    "ph": "FRY-tahk"
+   },
+   {
+    "t": "Samstag und Sonntag",
+    "en": "Saturday and Sunday",
+    "ph": "ZAHMS-tahk oont ZON-tahk"
+   },
+   {
+    "t": "Welcher Tag ist heute?",
+    "en": "What day is it today?",
+    "ph": "VEL-kher tahk ist HOY-tuh"
+   },
+   {
+    "t": "Januar, Februar, März",
+    "en": "January, February, March",
+    "ph": "YAHN-oo-ahr FAY-broo-ahr MAIRTS"
+   },
+   {
+    "t": "Mein Geburtstag ist im Mai",
+    "en": "My birthday is in May",
+    "ph": "myn guh-BOORTS-tahk ist im MY"
+   },
+   {
+    "t": "Sie sind zu spät",
+    "en": "You are late",
+    "ph": "zee zint tsoo SHPAYT"
+   },
+   {
+    "t": "Es ist früh",
+    "en": "It is early",
+    "ph": "ess ist FREW"
+   },
+   {
+    "t": "Einen Moment, bitte",
+    "en": "One moment, please",
+    "ph": "Y-nun moh-MENT BIT-uh"
+   },
+   {
+    "t": "Jetzt",
+    "en": "Now",
+    "ph": "yetst"
+   }
+  ],
+  "food": [
+   {
+    "t": "Einen Tisch für zwei, bitte",
+    "en": "A table for two, please",
+    "ph": "Y-nun TISH fewr TSVY BIT-uh"
+   },
+   {
+    "t": "Die Speisekarte, bitte",
+    "en": "The menu, please",
+    "ph": "dee SHPY-zuh-kar-tuh BIT-uh"
+   },
+   {
+    "t": "Ich möchte bestellen",
+    "en": "I would like to order",
+    "ph": "ikh MURKH-tuh buh-SHTEL-un"
+   },
+   {
+    "t": "Ich möchte einen Kaffee",
+    "en": "I would like a coffee",
+    "ph": "ikh MURKH-tuh Y-nun kah-FAY"
+   },
+   {
+    "t": "Ein Glas Wasser",
+    "en": "A glass of water",
+    "ph": "yn GLAHS VAH-ser"
+   },
+   {
+    "t": "Ich habe Hunger",
+    "en": "I am hungry",
+    "ph": "ikh HAH-buh HOONG-er"
+   },
+   {
+    "t": "Ich habe Durst",
+    "en": "I am thirsty",
+    "ph": "ikh HAH-buh DOORST"
+   },
+   {
+    "t": "Ich bin Vegetarier",
+    "en": "I am vegetarian",
+    "ph": "ikh bin vay-geh-TAH-ree-er"
+   },
+   {
+    "t": "Ohne Fleisch, bitte",
+    "en": "No meat, please",
+    "ph": "OH-nuh FLYSH BIT-uh"
+   },
+   {
+    "t": "Ich bin allergisch gegen Nüsse",
+    "en": "I am allergic to nuts",
+    "ph": "ikh bin ah-LAIR-gish GAY-gun NEW-suh"
+   },
+   {
+    "t": "Was empfehlen Sie?",
+    "en": "What do you recommend?",
+    "ph": "vahs emp-FAY-lun zee"
+   },
+   {
+    "t": "Hähnchen mit Reis",
+    "en": "Chicken with rice",
+    "ph": "HAYN-khun mit RICE"
+   },
+   {
+    "t": "Einen Salat",
+    "en": "A salad",
+    "ph": "Y-nun zah-LAHT"
+   },
+   {
+    "t": "Brot und Butter",
+    "en": "Bread and butter",
+    "ph": "broht oont BOOT-er"
+   },
+   {
+    "t": "Eine Suppe",
+    "en": "A soup",
+    "ph": "Y-nuh ZOO-puh"
+   },
+   {
+    "t": "Fisch und Gemüse",
+    "en": "Fish and vegetables",
+    "ph": "fish oont guh-MEW-zuh"
+   },
+   {
+    "t": "Einen Orangensaft",
+    "en": "An orange juice",
+    "ph": "Y-nun oh-RAHN-zhen-zahft"
+   },
+   {
+    "t": "Ein Bier",
+    "en": "A beer",
+    "ph": "yn BEER"
+   },
+   {
+    "t": "Milch und Zucker",
+    "en": "Milk and sugar",
+    "ph": "milkh oont TSOOK-er"
+   },
+   {
+    "t": "Das schmeckt sehr gut",
+    "en": "It tastes very good",
+    "ph": "dahs shmekt zair GOOT"
+   },
+   {
+    "t": "Noch ein bisschen, bitte",
+    "en": "A little more, please",
+    "ph": "nokh yn BISS-khun BIT-uh"
+   },
+   {
+    "t": "Guten Appetit",
+    "en": "Enjoy your meal",
+    "ph": "GOO-tun ah-peh-TEET"
+   },
+   {
+    "t": "Ich bin satt",
+    "en": "I am full",
+    "ph": "ikh bin ZAHT"
+   },
+   {
+    "t": "Die Rechnung, bitte",
+    "en": "The bill, please",
+    "ph": "dee REKH-noong BIT-uh"
+   },
+   {
+    "t": "Ist das Trinkgeld inbegriffen?",
+    "en": "Is the tip included?",
+    "ph": "ist dahs TRINK-gelt IN-buh-grif-un"
+   }
+  ],
+  "travel": [
+   {
+    "t": "Wo ist der Bahnhof?",
+    "en": "Where is the station?",
+    "ph": "voh ist dair BAHN-hohf"
+   },
+   {
+    "t": "Wo ist die Toilette?",
+    "en": "Where is the bathroom?",
+    "ph": "voh ist dee toy-LET-uh"
+   },
+   {
+    "t": "Geradeaus",
+    "en": "Straight on",
+    "ph": "guh-RAH-duh-ows"
+   },
+   {
+    "t": "Nach links",
+    "en": "To the left",
+    "ph": "nahkh LINKS"
+   },
+   {
+    "t": "Nach rechts",
+    "en": "To the right",
+    "ph": "nahkh REKHTS"
+   },
+   {
+    "t": "Ist es weit?",
+    "en": "Is it far?",
+    "ph": "ist ess VITE"
+   },
+   {
+    "t": "Eine Fahrkarte nach Berlin, bitte",
+    "en": "A ticket to Berlin, please",
+    "ph": "YN-uh FAHR-kar-tuh nahkh bair-LEEN BIT-uh"
+   },
+   {
+    "t": "Wann fährt der Zug ab?",
+    "en": "What time does the train leave?",
+    "ph": "vahn fairt dair TSOOK ahp"
+   },
+   {
+    "t": "Von welchem Gleis fährt er ab?",
+    "en": "Which platform does it leave from?",
+    "ph": "fon VEL-khem GLICE fairt air ahp"
+   },
+   {
+    "t": "Der Flughafen",
+    "en": "The airport",
+    "ph": "dair FLOOK-hah-fun"
+   },
+   {
+    "t": "Mein Reisepass",
+    "en": "My passport",
+    "ph": "myn RY-zuh-pahs"
+   },
+   {
+    "t": "Wo ist die Bushaltestelle?",
+    "en": "Where is the bus stop?",
+    "ph": "voh ist dee BOOS-hahl-tuh-shtel-uh"
+   },
+   {
+    "t": "Ein Taxi, bitte",
+    "en": "A taxi, please",
+    "ph": "yn TAHK-see BIT-uh"
+   },
+   {
+    "t": "Zu dieser Adresse, bitte",
+    "en": "To this address, please",
+    "ph": "tsoo DEE-zer ah-DRES-uh BIT-uh"
+   },
+   {
+    "t": "Ich habe eine Reservierung",
+    "en": "I have a booking",
+    "ph": "ikh HAH-buh YN-uh ray-zair-VEE-roong"
+   },
+   {
+    "t": "Ein Zimmer für zwei Nächte",
+    "en": "A room for two nights",
+    "ph": "yn TSIM-er fewr tsvy NEKH-tuh"
+   },
+   {
+    "t": "Ist das Frühstück inbegriffen?",
+    "en": "Is breakfast included?",
+    "ph": "ist dahs FREW-shtewk IN-buh-grif-un"
+   },
+   {
+    "t": "Ich habe meinen Koffer verloren",
+    "en": "I lost my suitcase",
+    "ph": "ikh HAH-buh MY-nun KOF-er fair-LOH-run"
+   },
+   {
+    "t": "Ich habe mich verlaufen",
+    "en": "I am lost",
+    "ph": "ikh HAH-buh mikh fair-LOW-fun"
+   },
+   {
+    "t": "Können Sie mir helfen?",
+    "en": "Can you help me?",
+    "ph": "KUR-nun zee meer HEL-fun"
+   },
+   {
+    "t": "Wie komme ich zum Stadtzentrum?",
+    "en": "How do I get to the town centre?",
+    "ph": "vee KOM-uh ikh tsoom SHTAHT-tsen-troom"
+   },
+   {
+    "t": "Wie lange dauert das?",
+    "en": "How long does it take?",
+    "ph": "vee LAHNG-uh DOW-ert dahs"
+   },
+   {
+    "t": "Ein Stadtplan",
+    "en": "A map of the city",
+    "ph": "yn SHTAHT-plahn"
+   },
+   {
+    "t": "Hin und zurück",
+    "en": "Return ticket",
+    "ph": "hin oont tsoo-REWK"
+   },
+   {
+    "t": "Ich mache Urlaub",
+    "en": "I am on holiday",
+    "ph": "ikh MAKH-uh OOR-lowp"
+   }
+  ],
+  "shopping": [
+   {
+    "t": "Was kostet das?",
+    "en": "How much is this?",
+    "ph": "vahs KOS-tut dahs"
+   },
+   {
+    "t": "Das ist zu teuer",
+    "en": "It is too expensive",
+    "ph": "dahs ist tsoo TOY-er"
+   },
+   {
+    "t": "Haben Sie etwas Günstigeres?",
+    "en": "Do you have something cheaper?",
+    "ph": "HAH-bun zee ET-vahs GEWN-stig-er-us"
+   },
+   {
+    "t": "Ich hätte gern das hier",
+    "en": "I would like this",
+    "ph": "ikh HET-uh gairn dahs HEER"
+   },
+   {
+    "t": "Ich schaue nur",
+    "en": "I am just looking",
+    "ph": "ikh SHOW-uh noor"
+   },
+   {
+    "t": "Haben Sie eine größere Größe?",
+    "en": "Do you have a bigger size?",
+    "ph": "HAH-bun zee YN-uh GRUR-ser-uh GRUR-suh"
+   },
+   {
+    "t": "Haben Sie eine kleinere Größe?",
+    "en": "Do you have a smaller size?",
+    "ph": "HAH-bun zee YN-uh KLY-ner-uh GRUR-suh"
+   },
+   {
+    "t": "Kann ich das anprobieren?",
+    "en": "Can I try it on?",
+    "ph": "kahn ikh dahs AHN-pro-bee-run"
+   },
+   {
+    "t": "Es passt gut",
+    "en": "It fits well",
+    "ph": "ess PAHST goot"
+   },
+   {
+    "t": "Ich nehme es",
+    "en": "I'll take it",
+    "ph": "ikh NAY-muh ess"
+   },
+   {
+    "t": "Rot, blau und grün",
+    "en": "Red, blue and green",
+    "ph": "roht blow oont grewn"
+   },
+   {
+    "t": "Weiß und schwarz",
+    "en": "White and black",
+    "ph": "vice oont shvahrts"
+   },
+   {
+    "t": "Kann ich mit Karte zahlen?",
+    "en": "Can I pay by card?",
+    "ph": "kahn ikh mit KAR-tuh TSAH-lun"
+   },
+   {
+    "t": "Ich zahle bar",
+    "en": "I'll pay cash",
+    "ph": "ikh TSAH-luh BAHR"
+   },
+   {
+    "t": "Können Sie mir einen Rabatt geben?",
+    "en": "Can you give me a discount?",
+    "ph": "KUR-nun zee meer Y-nun rah-BAHT GAY-bun"
+   },
+   {
+    "t": "Was ist Ihr bester Preis?",
+    "en": "What is your best price?",
+    "ph": "vahs ist eer BES-ter PRICE"
+   },
+   {
+    "t": "Die Quittung, bitte",
+    "en": "The receipt, please",
+    "ph": "dee KVIT-oong BIT-uh"
+   },
+   {
+    "t": "Wo ist der Supermarkt?",
+    "en": "Where is the supermarket?",
+    "ph": "voh ist dair ZOO-per-markt"
+   },
+   {
+    "t": "Wann öffnet das Geschäft?",
+    "en": "What time does the shop open?",
+    "ph": "vahn URF-net dahs guh-SHEFT"
+   },
+   {
+    "t": "Wann schließen Sie?",
+    "en": "What time do you close?",
+    "ph": "vahn SHLEE-sun zee"
+   },
+   {
+    "t": "Eine Tüte, bitte",
+    "en": "A bag, please",
+    "ph": "YN-uh TEW-tuh BIT-uh"
+   },
+   {
+    "t": "Haben Sie das in einer anderen Farbe?",
+    "en": "Do you have it in another colour?",
+    "ph": "HAH-bun zee dahs in Y-ner AHN-der-un FAR-buh"
+   },
+   {
+    "t": "Ich suche ein Geschenk",
+    "en": "I am looking for a gift",
+    "ph": "ikh ZOO-khuh yn guh-SHENK"
+   },
+   {
+    "t": "Kann ich es umtauschen?",
+    "en": "Can I exchange it?",
+    "ph": "kahn ikh ess OOM-tow-shun"
+   },
+   {
+    "t": "Es ist im Angebot",
+    "en": "It is on sale",
+    "ph": "ess ist im AHN-guh-boht"
+   }
+  ],
+  "family": [
+   {
+    "t": "Das ist meine Familie",
+    "en": "This is my family",
+    "ph": "dahs ist MY-nuh fah-MEE-lee-uh"
+   },
+   {
+    "t": "Das ist mein Vater",
+    "en": "This is my father",
+    "ph": "dahs ist myn FAH-ter"
+   },
+   {
+    "t": "Das ist meine Mutter",
+    "en": "This is my mother",
+    "ph": "dahs ist MY-nuh MOOT-er"
+   },
+   {
+    "t": "Meine Eltern",
+    "en": "My parents",
+    "ph": "MY-nuh EL-tern"
+   },
+   {
+    "t": "Ich habe einen Bruder",
+    "en": "I have a brother",
+    "ph": "ikh HAH-buh Y-nun BROO-der"
+   },
+   {
+    "t": "Ich habe eine Schwester",
+    "en": "I have a sister",
+    "ph": "ikh HAH-buh YN-uh SHVES-ter"
+   },
+   {
+    "t": "Haben Sie Geschwister?",
+    "en": "Do you have brothers or sisters?",
+    "ph": "HAH-bun zee guh-SHVIS-ter"
+   },
+   {
+    "t": "Ich bin Einzelkind",
+    "en": "I am an only child",
+    "ph": "ikh bin YN-tsel-kint"
+   },
+   {
+    "t": "Das ist mein Mann",
+    "en": "This is my husband",
+    "ph": "dahs ist myn MAHN"
+   },
+   {
+    "t": "Ich bin verheiratet",
+    "en": "I am married",
+    "ph": "ikh bin fair-HY-rah-tet"
+   },
+   {
+    "t": "Ich bin ledig",
+    "en": "I am single",
+    "ph": "ikh bin LAY-dikh"
+   },
+   {
+    "t": "Ich habe zwei Kinder",
+    "en": "I have two children",
+    "ph": "ikh HAH-buh tsvy KIN-der"
+   },
+   {
+    "t": "Meine Tochter ist fünf Jahre alt",
+    "en": "My daughter is five years old",
+    "ph": "MY-nuh TOKH-ter ist fewnf YAH-ruh AHLT"
+   },
+   {
+    "t": "Wie alt sind Sie?",
+    "en": "How old are you?",
+    "ph": "vee AHLT zint zee"
+   },
+   {
+    "t": "Ich bin dreißig Jahre alt",
+    "en": "I am thirty years old",
+    "ph": "ikh bin DRY-sikh YAH-ruh AHLT"
+   },
+   {
+    "t": "Meine Großeltern",
+    "en": "My grandparents",
+    "ph": "MY-nuh GROHS-el-tern"
+   },
+   {
+    "t": "Mein Onkel und meine Tante",
+    "en": "My uncle and my aunt",
+    "ph": "myn ON-kel oont MY-nuh TAHN-tuh"
+   },
+   {
+    "t": "Mein Cousin",
+    "en": "My cousin",
+    "ph": "myn koo-ZAN"
+   },
+   {
+    "t": "Mein bester Freund",
+    "en": "My best friend",
+    "ph": "myn BES-ter FROYNT"
+   },
+   {
+    "t": "Das ist meine Freundin",
+    "en": "This is my friend (female)",
+    "ph": "dahs ist MY-nuh FROYN-din"
+   },
+   {
+    "t": "Haben Sie Kinder?",
+    "en": "Do you have children?",
+    "ph": "HAH-bun zee KIN-der"
+   },
+   {
+    "t": "Mein Vater ist Arzt",
+    "en": "My father is a doctor",
+    "ph": "myn FAH-ter ist AHRTST"
+   },
+   {
+    "t": "Meine Mutter ist Lehrerin",
+    "en": "My mother is a teacher",
+    "ph": "MY-nuh MOOT-er ist LAIR-er-in"
+   },
+   {
+    "t": "Wir sind vier in meiner Familie",
+    "en": "There are four of us in my family",
+    "ph": "veer zint FEER in MY-ner fah-MEE-lee-uh"
+   },
+   {
+    "t": "Das ist mein Sohn",
+    "en": "This is my son",
+    "ph": "dahs ist myn ZOHN"
+   }
+  ],
+  "home": [
+   {
+    "t": "Mein Haus",
+    "en": "My house",
+    "ph": "myn HOWS"
+   },
+   {
+    "t": "Ich wohne in einer Wohnung",
+    "en": "I live in a flat",
+    "ph": "ikh VOH-nuh in Y-ner VOH-noong"
+   },
+   {
+    "t": "Die Küche",
+    "en": "The kitchen",
+    "ph": "dee KEW-khuh"
+   },
+   {
+    "t": "Das Schlafzimmer",
+    "en": "The bedroom",
+    "ph": "dahs SHLAHF-tsim-er"
+   },
+   {
+    "t": "Das Badezimmer",
+    "en": "The bathroom",
+    "ph": "dahs BAH-duh-tsim-er"
+   },
+   {
+    "t": "Das Wohnzimmer",
+    "en": "The living room",
+    "ph": "dahs VOHN-tsim-er"
+   },
+   {
+    "t": "Ein Tisch und ein Stuhl",
+    "en": "A table and a chair",
+    "ph": "yn TISH oont yn SHTOOL"
+   },
+   {
+    "t": "Das Bett",
+    "en": "The bed",
+    "ph": "dahs BET"
+   },
+   {
+    "t": "Mach das Licht an",
+    "en": "Turn on the light",
+    "ph": "makh dahs LIKHT ahn"
+   },
+   {
+    "t": "Mach das Licht aus",
+    "en": "Turn off the light",
+    "ph": "makh dahs LIKHT ows"
+   },
+   {
+    "t": "Öffne die Tür",
+    "en": "Open the door",
+    "ph": "URF-nuh dee TEWR"
+   },
+   {
+    "t": "Schließ das Fenster",
+    "en": "Close the window",
+    "ph": "shleess dahs FEN-ster"
+   },
+   {
+    "t": "Wo sind die Schlüssel?",
+    "en": "Where are the keys?",
+    "ph": "voh zint dee SHLEW-sul"
+   },
+   {
+    "t": "Ich muss abwaschen",
+    "en": "I have to wash the dishes",
+    "ph": "ikh MOOS AHP-vah-shun"
+   },
+   {
+    "t": "Ich muss das Haus putzen",
+    "en": "I have to clean the house",
+    "ph": "ikh moos dahs hows POOT-sun"
+   },
+   {
+    "t": "Ich werde kochen",
+    "en": "I am going to cook",
+    "ph": "ikh VAIR-duh KOKH-un"
+   },
+   {
+    "t": "Die Waschmaschine",
+    "en": "The washing machine",
+    "ph": "dee VAHSH-mah-shee-nuh"
+   },
+   {
+    "t": "Der Kühlschrank",
+    "en": "The fridge",
+    "ph": "dair KEWL-shrahnk"
+   },
+   {
+    "t": "Die Miete beträgt tausend Euro im Monat",
+    "en": "The rent is a thousand euros a month",
+    "ph": "dee MEE-tuh buh-TRAYKT TOW-zunt OY-roh im MOH-naht"
+   },
+   {
+    "t": "Mein Nachbar",
+    "en": "My neighbour",
+    "ph": "myn NAKH-bar"
+   },
+   {
+    "t": "Es ist im zweiten Stock",
+    "en": "It is on the second floor",
+    "ph": "ess ist im TSVY-ten SHTOK"
+   },
+   {
+    "t": "Fühlen Sie sich wie zu Hause",
+    "en": "Make yourself at home",
+    "ph": "FEW-lun zee zikh vee tsoo HOW-zuh"
+   },
+   {
+    "t": "Kommen Sie herein, bitte",
+    "en": "Come in, please",
+    "ph": "KOM-un zee hair-YN BIT-uh"
+   },
+   {
+    "t": "Gibt es WLAN?",
+    "en": "Is there wifi?",
+    "ph": "gipt ess VEE-lahn"
+   },
+   {
+    "t": "Die Heizung",
+    "en": "The heating",
+    "ph": "dee HY-tsoong"
+   }
+  ],
+  "health": [
+   {
+    "t": "Ich habe Kopfschmerzen",
+    "en": "I have a headache",
+    "ph": "ikh HAH-buh KOPF-shmer-tsun"
+   },
+   {
+    "t": "Ich habe Bauchschmerzen",
+    "en": "I have a stomach ache",
+    "ph": "ikh HAH-buh BOWKH-shmer-tsun"
+   },
+   {
+    "t": "Ich habe Halsschmerzen",
+    "en": "I have a sore throat",
+    "ph": "ikh HAH-buh HAHLS-shmer-tsun"
+   },
+   {
+    "t": "Mein Rücken tut weh",
+    "en": "My back hurts",
+    "ph": "myn REW-kun toot VAY"
+   },
+   {
+    "t": "Mein Bein tut weh",
+    "en": "My leg hurts",
+    "ph": "myn BYN toot VAY"
+   },
+   {
+    "t": "Mir ist schlecht",
+    "en": "I feel sick",
+    "ph": "meer ist SHLEKHT"
+   },
+   {
+    "t": "Ich habe Fieber",
+    "en": "I have a fever",
+    "ph": "ikh HAH-buh FEE-ber"
+   },
+   {
+    "t": "Ich habe Husten",
+    "en": "I have a cough",
+    "ph": "ikh HAH-buh HOOS-tun"
+   },
+   {
+    "t": "Ich bin erkältet",
+    "en": "I have a cold",
+    "ph": "ikh bin air-KEL-tet"
+   },
+   {
+    "t": "Mir ist schwindelig",
+    "en": "I feel dizzy",
+    "ph": "meer ist SHVIN-duh-likh"
+   },
+   {
+    "t": "Ich brauche einen Arzt",
+    "en": "I need a doctor",
+    "ph": "ikh BROW-khuh Y-nun AHRTST"
+   },
+   {
+    "t": "Wo ist das Krankenhaus?",
+    "en": "Where is the hospital?",
+    "ph": "voh ist dahs KRAHN-kun-hows"
+   },
+   {
+    "t": "Wo ist eine Apotheke?",
+    "en": "Where is a pharmacy?",
+    "ph": "voh ist YN-uh ah-poh-TAY-kuh"
+   },
+   {
+    "t": "Ich brauche dieses Medikament",
+    "en": "I need this medicine",
+    "ph": "ikh BROW-khuh DEE-zus may-dee-kah-MENT"
+   },
+   {
+    "t": "Wie oft am Tag?",
+    "en": "How many times a day?",
+    "ph": "vee OFT ahm TAHK"
+   },
+   {
+    "t": "Ich bin allergisch gegen Penicillin",
+    "en": "I am allergic to penicillin",
+    "ph": "ikh bin ah-LAIR-gish GAY-gun pay-nee-tsee-LEEN"
+   },
+   {
+    "t": "Es tut hier weh",
+    "en": "It hurts here",
+    "ph": "ess toot HEER vay"
+   },
+   {
+    "t": "Ich habe mich an der Hand geschnitten",
+    "en": "I cut my hand",
+    "ph": "ikh HAH-buh mikh ahn dair HAHNT guh-SHNIT-un"
+   },
+   {
+    "t": "Ich bin gestürzt",
+    "en": "I fell",
+    "ph": "ikh bin guh-SHTEWRTST"
+   },
+   {
+    "t": "Rufen Sie einen Krankenwagen!",
+    "en": "Call an ambulance!",
+    "ph": "ROO-fun zee Y-nun KRAHN-kun-vah-gun"
+   },
+   {
+    "t": "Hilfe!",
+    "en": "Help!",
+    "ph": "HIL-fuh"
+   },
+   {
+    "t": "Es ist ein Notfall",
+    "en": "It is an emergency",
+    "ph": "ess ist yn NOHT-fahl"
+   },
+   {
+    "t": "Ich brauche Hilfe, bitte",
+    "en": "I need help, please",
+    "ph": "ikh BROW-khuh HIL-fuh BIT-uh"
+   },
+   {
+    "t": "Ich habe Diabetes",
+    "en": "I have diabetes",
+    "ph": "ikh HAH-buh dee-ah-BAY-tus"
+   },
+   {
+    "t": "Mir geht es besser",
+    "en": "I feel better",
+    "ph": "meer gayt ess BES-er"
+   }
+  ],
+  "feelings": [
+   {
+    "t": "Ich bin glücklich",
+    "en": "I am happy",
+    "ph": "ikh bin GLEWK-likh"
+   },
+   {
+    "t": "Ich bin traurig",
+    "en": "I am sad",
+    "ph": "ikh bin TROW-rikh"
+   },
+   {
+    "t": "Ich bin müde",
+    "en": "I am tired",
+    "ph": "ikh bin MEW-duh"
+   },
+   {
+    "t": "Ich bin wütend",
+    "en": "I am angry",
+    "ph": "ikh bin VEW-tunt"
+   },
+   {
+    "t": "Ich habe Angst",
+    "en": "I am afraid",
+    "ph": "ikh HAH-buh AHNGST"
+   },
+   {
+    "t": "Mir ist langweilig",
+    "en": "I am bored",
+    "ph": "meer ist LAHNG-vy-likh"
+   },
+   {
+    "t": "Ich bin verliebt",
+    "en": "I am in love",
+    "ph": "ikh bin fair-LEEPT"
+   },
+   {
+    "t": "Ich bin nervös",
+    "en": "I am nervous",
+    "ph": "ikh bin nair-VURS"
+   },
+   {
+    "t": "Ich mache mir Sorgen",
+    "en": "I am worried",
+    "ph": "ikh MAHKH-uh meer ZOR-gun"
+   },
+   {
+    "t": "Keine Sorge",
+    "en": "Don't worry",
+    "ph": "KY-nuh ZOR-guh"
+   },
+   {
+    "t": "Das gefällt mir",
+    "en": "I like it",
+    "ph": "dahs guh-FELT meer"
+   },
+   {
+    "t": "Ich liebe das",
+    "en": "I love it",
+    "ph": "ikh LEE-buh dahs"
+   },
+   {
+    "t": "Ich hasse Warten",
+    "en": "I hate waiting",
+    "ph": "ikh HAH-suh VAR-tun"
+   },
+   {
+    "t": "Ich liebe dich",
+    "en": "I love you",
+    "ph": "ikh LEE-buh dikh"
+   },
+   {
+    "t": "Ich freue mich",
+    "en": "I am pleased",
+    "ph": "ikh FROY-uh mikh"
+   },
+   {
+    "t": "Was für eine Überraschung!",
+    "en": "What a surprise!",
+    "ph": "vahs fewr YN-uh ew-ber-RAH-shoong"
+   },
+   {
+    "t": "Was denken Sie?",
+    "en": "What do you think?",
+    "ph": "vahs DEN-kun zee"
+   },
+   {
+    "t": "Ich glaube ja",
+    "en": "I think so",
+    "ph": "ikh GLOW-buh YAH"
+   },
+   {
+    "t": "Ich stimme zu",
+    "en": "I agree",
+    "ph": "ikh SHTIM-uh TSOO"
+   },
+   {
+    "t": "Ich bin nicht einverstanden",
+    "en": "I don't agree",
+    "ph": "ikh bin nikht YN-fair-shtahn-dun"
+   },
+   {
+    "t": "Sie haben recht",
+    "en": "You are right",
+    "ph": "zee HAH-bun REKHT"
+   },
+   {
+    "t": "Meiner Meinung nach",
+    "en": "In my opinion",
+    "ph": "MY-ner MY-noong nahkh"
+   },
+   {
+    "t": "Ist alles in Ordnung?",
+    "en": "Is everything okay?",
+    "ph": "ist AH-lus in ORD-noong"
+   },
+   {
+    "t": "Ich fühle mich einsam",
+    "en": "I feel lonely",
+    "ph": "ikh FEW-luh mikh YN-zahm"
+   },
+   {
+    "t": "Ich bin stolz auf dich",
+    "en": "I am proud of you",
+    "ph": "ikh bin SHTOLTS owf dikh"
+   }
+  ],
+  "work": [
+   {
+    "t": "Was machen Sie beruflich?",
+    "en": "What do you do for work?",
+    "ph": "vahs MAHKH-un zee buh-ROOF-likh"
+   },
+   {
+    "t": "Ich bin Ingenieur",
+    "en": "I am an engineer",
+    "ph": "ikh bin in-zhen-YUR"
+   },
+   {
+    "t": "Ich arbeite in einem Büro",
+    "en": "I work in an office",
+    "ph": "ikh AR-by-tuh in Y-nem bew-ROH"
+   },
+   {
+    "t": "Ich arbeite von zu Hause",
+    "en": "I work from home",
+    "ph": "ikh AR-by-tuh fon tsoo HOW-zuh"
+   },
+   {
+    "t": "Mein Chef",
+    "en": "My boss",
+    "ph": "myn SHEF"
+   },
+   {
+    "t": "Mein Kollege",
+    "en": "My colleague",
+    "ph": "myn koh-LAY-guh"
+   },
+   {
+    "t": "Ich habe eine Besprechung",
+    "en": "I have a meeting",
+    "ph": "ikh HAH-buh YN-uh buh-SHPREKH-oong"
+   },
+   {
+    "t": "Die Besprechung ist um zehn Uhr",
+    "en": "The meeting is at ten o'clock",
+    "ph": "dee buh-SHPREKH-oong ist oom tsayn OOR"
+   },
+   {
+    "t": "Kann ich Ihnen eine E-Mail schicken?",
+    "en": "Can I send you an email?",
+    "ph": "kahn ikh EE-nun YN-uh EE-mayl SHIK-un"
+   },
+   {
+    "t": "Wie ist Ihre E-Mail-Adresse?",
+    "en": "What is your email address?",
+    "ph": "vee ist EE-ruh EE-mayl ah-DRES-uh"
+   },
+   {
+    "t": "Ich bin beschäftigt",
+    "en": "I am busy",
+    "ph": "ikh bin buh-SHEF-tikht"
+   },
+   {
+    "t": "Ich habe viel Arbeit",
+    "en": "I have a lot of work",
+    "ph": "ikh HAH-buh feel AR-byt"
+   },
+   {
+    "t": "Wie hoch ist das Gehalt?",
+    "en": "What is the salary?",
+    "ph": "vee HOHKH ist dahs guh-HAHLT"
+   },
+   {
+    "t": "Ich bin Student",
+    "en": "I am a student",
+    "ph": "ikh bin shtoo-DENT"
+   },
+   {
+    "t": "Ich lerne Deutsch",
+    "en": "I am learning German",
+    "ph": "ikh LAIR-nuh DOYCH"
+   },
+   {
+    "t": "Ich gehe zur Schule",
+    "en": "I go to school",
+    "ph": "ikh GAY-uh tsoor SHOO-luh"
+   },
+   {
+    "t": "Die Universität",
+    "en": "The university",
+    "ph": "dee oo-nee-vair-zee-TAYT"
+   },
+   {
+    "t": "Ich habe morgen eine Prüfung",
+    "en": "I have an exam tomorrow",
+    "ph": "ikh HAH-buh MOR-gun YN-uh PREW-foong"
+   },
+   {
+    "t": "Ich habe viele Hausaufgaben",
+    "en": "I have a lot of homework",
+    "ph": "ikh HAH-buh FEE-luh HOWS-owf-gah-bun"
+   },
+   {
+    "t": "Können Sie das bitte wiederholen?",
+    "en": "Can you repeat that, please?",
+    "ph": "KUR-nun zee dahs BIT-uh VEE-der-hoh-lun"
+   },
+   {
+    "t": "Mein Lehrer ist sehr gut",
+    "en": "My teacher is very good",
+    "ph": "myn LAIR-er ist zair GOOT"
+   },
+   {
+    "t": "Ich möchte lernen",
+    "en": "I want to learn",
+    "ph": "ikh MURKH-tuh LAIR-nun"
+   },
+   {
+    "t": "Ich suche Arbeit",
+    "en": "I am looking for a job",
+    "ph": "ikh ZOO-khuh AR-byt"
+   },
+   {
+    "t": "Ich habe ein Vorstellungsgespräch",
+    "en": "I have an interview",
+    "ph": "ikh HAH-buh yn FOR-shtel-oongs-guh-SHPRAYKH"
+   },
+   {
+    "t": "Heute arbeite ich nicht",
+    "en": "I am not working today",
+    "ph": "HOY-tuh AR-by-tuh ikh NIKHT"
+   }
+  ],
+  "weather": [
+   {
+    "t": "Wie ist das Wetter?",
+    "en": "What is the weather like?",
+    "ph": "vee ist dahs VET-er"
+   },
+   {
+    "t": "Die Sonne scheint",
+    "en": "It is sunny",
+    "ph": "dee ZON-uh SHYNT"
+   },
+   {
+    "t": "Es ist heiß",
+    "en": "It is hot",
+    "ph": "ess ist HYSS"
+   },
+   {
+    "t": "Es ist kalt",
+    "en": "It is cold",
+    "ph": "ess ist KAHLT"
+   },
+   {
+    "t": "Es ist windig",
+    "en": "It is windy",
+    "ph": "ess ist VIN-dikh"
+   },
+   {
+    "t": "Es regnet",
+    "en": "It is raining",
+    "ph": "ess RAYG-net"
+   },
+   {
+    "t": "Es ist bewölkt",
+    "en": "It is cloudy",
+    "ph": "ess ist buh-VURLKT"
+   },
+   {
+    "t": "Es schneit",
+    "en": "It is snowing",
+    "ph": "ess SHNYT"
+   },
+   {
+    "t": "Es regnet viel",
+    "en": "It rains a lot",
+    "ph": "ess RAYG-net FEEL"
+   },
+   {
+    "t": "Was für ein schöner Tag!",
+    "en": "What a beautiful day!",
+    "ph": "vahs fewr yn SHUR-ner TAHK"
+   },
+   {
+    "t": "Der Frühling",
+    "en": "Spring",
+    "ph": "dair FREW-ling"
+   },
+   {
+    "t": "Der Sommer",
+    "en": "Summer",
+    "ph": "dair ZOM-er"
+   },
+   {
+    "t": "Der Herbst",
+    "en": "Autumn",
+    "ph": "dair HAIRPST"
+   },
+   {
+    "t": "Der Winter",
+    "en": "Winter",
+    "ph": "dair VIN-ter"
+   },
+   {
+    "t": "Das Meer",
+    "en": "The sea",
+    "ph": "dahs MAIR"
+   },
+   {
+    "t": "Der Strand",
+    "en": "The beach",
+    "ph": "dair SHTRAHNT"
+   },
+   {
+    "t": "Der Berg",
+    "en": "The mountain",
+    "ph": "dair BAIRK"
+   },
+   {
+    "t": "Der Fluss",
+    "en": "The river",
+    "ph": "dair FLOOS"
+   },
+   {
+    "t": "Der Hund und die Katze",
+    "en": "The dog and the cat",
+    "ph": "dair HOONT oont dee KAHT-suh"
+   },
+   {
+    "t": "Ein Vogel",
+    "en": "A bird",
+    "ph": "yn FOH-gul"
+   },
+   {
+    "t": "Ich liebe die Natur",
+    "en": "I love nature",
+    "ph": "ikh LEE-buh dee nah-TOOR"
+   },
+   {
+    "t": "Was machen Sie am Wochenende?",
+    "en": "What are you doing at the weekend?",
+    "ph": "vahs MAHKH-un zee ahm VOKH-un-en-duh"
+   },
+   {
+    "t": "Ich gehe wandern",
+    "en": "I am going hiking",
+    "ph": "ikh GAY-uh VAHN-dern"
+   },
+   {
+    "t": "Morgen regnet es vielleicht",
+    "en": "Maybe it will rain tomorrow",
+    "ph": "MOR-gun RAYG-net ess fee-LYKHT"
+   },
+   {
+    "t": "Das Wetter ist schön",
+    "en": "The weather is nice",
+    "ph": "dahs VET-er ist SHURN"
+   }
+  ]
+ }
+}

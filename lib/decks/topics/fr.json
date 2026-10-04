@@ -1,0 +1,1529 @@
+{
+ "lang": "fr",
+ "topics": {
+  "greetings": [
+   {
+    "t": "Bonjour",
+    "en": "Hello / Good day",
+    "ph": "bohn-ZHOOR"
+   },
+   {
+    "t": "Bonsoir",
+    "en": "Good evening",
+    "ph": "bohn-SWAHR"
+   },
+   {
+    "t": "Bonne nuit",
+    "en": "Good night",
+    "ph": "bun NWEE"
+   },
+   {
+    "t": "Comment allez-vous ?",
+    "en": "How are you? (formal)",
+    "ph": "koh-mahn tah-lay VOO"
+   },
+   {
+    "t": "Ça va ?",
+    "en": "How are you?",
+    "ph": "sah VAH"
+   },
+   {
+    "t": "Ça va bien, merci",
+    "en": "I'm fine, thanks",
+    "ph": "sah vah BYAN mehr-SEE"
+   },
+   {
+    "t": "Et vous ?",
+    "en": "And you?",
+    "ph": "ay VOO"
+   },
+   {
+    "t": "Enchanté",
+    "en": "Nice to meet you",
+    "ph": "ahn-shahn-TAY"
+   },
+   {
+    "t": "Comment vous appelez-vous ?",
+    "en": "What is your name?",
+    "ph": "koh-mahn voo zah-play VOO"
+   },
+   {
+    "t": "Je m'appelle Marie",
+    "en": "My name is Marie",
+    "ph": "zhuh mah-PEL mah-REE"
+   },
+   {
+    "t": "Au revoir",
+    "en": "Goodbye",
+    "ph": "oh ruh-VWAHR"
+   },
+   {
+    "t": "À bientôt",
+    "en": "See you soon",
+    "ph": "ah byan-TOH"
+   },
+   {
+    "t": "À demain",
+    "en": "See you tomorrow",
+    "ph": "ah duh-MAN"
+   },
+   {
+    "t": "S'il vous plaît",
+    "en": "Please",
+    "ph": "seel voo PLEH"
+   },
+   {
+    "t": "Merci",
+    "en": "Thank you",
+    "ph": "mehr-SEE"
+   },
+   {
+    "t": "Merci beaucoup",
+    "en": "Thank you very much",
+    "ph": "mehr-SEE boh-KOO"
+   },
+   {
+    "t": "De rien",
+    "en": "You're welcome",
+    "ph": "duh RYAN"
+   },
+   {
+    "t": "Excusez-moi",
+    "en": "Excuse me",
+    "ph": "ehk-skoo-zay-MWAH"
+   },
+   {
+    "t": "Pardon",
+    "en": "Sorry",
+    "ph": "par-DOHN"
+   },
+   {
+    "t": "Je suis désolé",
+    "en": "I am sorry",
+    "ph": "zhuh swee day-zoh-LAY"
+   },
+   {
+    "t": "Pas de problème",
+    "en": "No problem",
+    "ph": "pah duh proh-BLEHM"
+   },
+   {
+    "t": "D'où venez-vous ?",
+    "en": "Where are you from?",
+    "ph": "doo vuh-nay VOO"
+   },
+   {
+    "t": "Je viens d'Angleterre",
+    "en": "I come from England",
+    "ph": "zhuh vyan dahn-gluh-TEHR"
+   },
+   {
+    "t": "Parlez-vous anglais ?",
+    "en": "Do you speak English?",
+    "ph": "par-lay voo zahn-GLEH"
+   },
+   {
+    "t": "Je ne comprends pas",
+    "en": "I don't understand",
+    "ph": "zhuh nuh kohm-prahn PAH"
+   }
+  ],
+  "numbers": [
+   {
+    "t": "Un, deux, trois",
+    "en": "One, two, three",
+    "ph": "uhn duh trwah"
+   },
+   {
+    "t": "Quatre, cinq, six",
+    "en": "Four, five, six",
+    "ph": "KAH-truh sank sees"
+   },
+   {
+    "t": "Sept, huit, neuf",
+    "en": "Seven, eight, nine",
+    "ph": "set weet nuhf"
+   },
+   {
+    "t": "Dix",
+    "en": "Ten",
+    "ph": "dees"
+   },
+   {
+    "t": "Onze, douze, treize",
+    "en": "Eleven, twelve, thirteen",
+    "ph": "ohnz dooz trehz"
+   },
+   {
+    "t": "Quinze",
+    "en": "Fifteen",
+    "ph": "kanz"
+   },
+   {
+    "t": "Vingt",
+    "en": "Twenty",
+    "ph": "van"
+   },
+   {
+    "t": "Trente",
+    "en": "Thirty",
+    "ph": "trahnt"
+   },
+   {
+    "t": "Quarante-cinq",
+    "en": "Forty-five",
+    "ph": "kah-rahnt-SANK"
+   },
+   {
+    "t": "Cinquante",
+    "en": "Fifty",
+    "ph": "san-KAHNT"
+   },
+   {
+    "t": "Soixante-dix",
+    "en": "Seventy",
+    "ph": "swah-sahnt-DEES"
+   },
+   {
+    "t": "Quatre-vingts",
+    "en": "Eighty",
+    "ph": "kah-truh-VAN"
+   },
+   {
+    "t": "Cent",
+    "en": "One hundred",
+    "ph": "sahn"
+   },
+   {
+    "t": "Mille",
+    "en": "One thousand",
+    "ph": "meel"
+   },
+   {
+    "t": "Premier",
+    "en": "First",
+    "ph": "pruh-MYAY"
+   },
+   {
+    "t": "Deuxième",
+    "en": "Second",
+    "ph": "duh-ZYEM"
+   },
+   {
+    "t": "Troisième",
+    "en": "Third",
+    "ph": "trwah-ZYEM"
+   },
+   {
+    "t": "Combien ça coûte ?",
+    "en": "How much does it cost?",
+    "ph": "kohm-BYAN sah KOOT"
+   },
+   {
+    "t": "Combien y en a-t-il ?",
+    "en": "How many are there?",
+    "ph": "kohm-BYAN ee ahn nah-TEEL"
+   },
+   {
+    "t": "Ça fait dix euros",
+    "en": "That comes to ten euros",
+    "ph": "sah feh dee zuh-ROH"
+   },
+   {
+    "t": "La moitié",
+    "en": "Half",
+    "ph": "lah mwat-YAY"
+   },
+   {
+    "t": "Un demi-kilo",
+    "en": "Half a kilo",
+    "ph": "uhn duh-mee-kee-LOH"
+   },
+   {
+    "t": "Un peu",
+    "en": "A little",
+    "ph": "uhn PUH"
+   },
+   {
+    "t": "Quelques-uns",
+    "en": "A few",
+    "ph": "KEL-kuh-zuhn"
+   },
+   {
+    "t": "Beaucoup",
+    "en": "A lot",
+    "ph": "boh-KOO"
+   }
+  ],
+  "time": [
+   {
+    "t": "Quelle heure est-il ?",
+    "en": "What time is it?",
+    "ph": "kel UR eh-TEEL"
+   },
+   {
+    "t": "Il est cinq heures",
+    "en": "It is five o'clock",
+    "ph": "eel eh sank UR"
+   },
+   {
+    "t": "À cinq heures",
+    "en": "At five o'clock",
+    "ph": "ah sank UR"
+   },
+   {
+    "t": "Il est une heure et demie",
+    "en": "It is half past one",
+    "ph": "eel eh toon UR ay duh-MEE"
+   },
+   {
+    "t": "Il est trois heures et quart",
+    "en": "It is a quarter past three",
+    "ph": "eel eh trwah zur ay KAR"
+   },
+   {
+    "t": "Aujourd'hui",
+    "en": "Today",
+    "ph": "oh-zhoor-DWEE"
+   },
+   {
+    "t": "Demain",
+    "en": "Tomorrow",
+    "ph": "duh-MAN"
+   },
+   {
+    "t": "Hier",
+    "en": "Yesterday",
+    "ph": "yehr"
+   },
+   {
+    "t": "Le matin",
+    "en": "In the morning",
+    "ph": "luh mah-TAN"
+   },
+   {
+    "t": "L'après-midi",
+    "en": "In the afternoon",
+    "ph": "lah-preh-mee-DEE"
+   },
+   {
+    "t": "Le soir",
+    "en": "In the evening",
+    "ph": "luh SWAHR"
+   },
+   {
+    "t": "La nuit",
+    "en": "At night",
+    "ph": "lah NWEE"
+   },
+   {
+    "t": "Tous les jours",
+    "en": "Every day",
+    "ph": "too lay ZHOOR"
+   },
+   {
+    "t": "La semaine prochaine",
+    "en": "Next week",
+    "ph": "lah suh-MEHN proh-SHEHN"
+   },
+   {
+    "t": "Lundi et mardi",
+    "en": "Monday and Tuesday",
+    "ph": "luhn-DEE ay mar-DEE"
+   },
+   {
+    "t": "Mercredi et jeudi",
+    "en": "Wednesday and Thursday",
+    "ph": "mehr-kruh-DEE ay zhuh-DEE"
+   },
+   {
+    "t": "Vendredi",
+    "en": "Friday",
+    "ph": "vahn-druh-DEE"
+   },
+   {
+    "t": "Samedi et dimanche",
+    "en": "Saturday and Sunday",
+    "ph": "sam-DEE ay dee-MAHNSH"
+   },
+   {
+    "t": "Quel jour sommes-nous ?",
+    "en": "What day is it today?",
+    "ph": "kel ZHOOR som NOO"
+   },
+   {
+    "t": "Janvier, février, mars",
+    "en": "January, February, March",
+    "ph": "zhahn-VYAY fay-vree-AY mars"
+   },
+   {
+    "t": "Mon anniversaire est en mai",
+    "en": "My birthday is in May",
+    "ph": "moh nah-nee-vehr-SEHR eh tahn MEH"
+   },
+   {
+    "t": "Vous êtes en retard",
+    "en": "You are late",
+    "ph": "voo zeht ahn ruh-TAR"
+   },
+   {
+    "t": "Il est tôt",
+    "en": "It is early",
+    "ph": "eel eh TOH"
+   },
+   {
+    "t": "Un instant, s'il vous plaît",
+    "en": "One moment, please",
+    "ph": "uhn nan-STAHN seel voo PLEH"
+   },
+   {
+    "t": "Maintenant",
+    "en": "Now",
+    "ph": "man-tuh-NAHN"
+   }
+  ],
+  "food": [
+   {
+    "t": "Une table pour deux, s'il vous plaît",
+    "en": "A table for two, please",
+    "ph": "oon TAH-bluh poor DUH seel voo PLEH"
+   },
+   {
+    "t": "La carte, s'il vous plaît",
+    "en": "The menu, please",
+    "ph": "lah KART seel voo PLEH"
+   },
+   {
+    "t": "Je voudrais commander",
+    "en": "I would like to order",
+    "ph": "zhuh voo-DREH koh-mahn-DAY"
+   },
+   {
+    "t": "Je voudrais un café",
+    "en": "I would like a coffee",
+    "ph": "zhuh voo-DREH uhn kah-FAY"
+   },
+   {
+    "t": "Un verre d'eau",
+    "en": "A glass of water",
+    "ph": "uhn vehr DOH"
+   },
+   {
+    "t": "J'ai faim",
+    "en": "I am hungry",
+    "ph": "zhay FAN"
+   },
+   {
+    "t": "J'ai soif",
+    "en": "I am thirsty",
+    "ph": "zhay SWAF"
+   },
+   {
+    "t": "Je suis végétarien",
+    "en": "I am vegetarian",
+    "ph": "zhuh swee vay-zhay-tah-RYAN"
+   },
+   {
+    "t": "Sans viande, s'il vous plaît",
+    "en": "No meat, please",
+    "ph": "sahn VYAHND seel voo PLEH"
+   },
+   {
+    "t": "Je suis allergique aux noix",
+    "en": "I am allergic to nuts",
+    "ph": "zhuh swee zah-lehr-ZHEEK oh NWAH"
+   },
+   {
+    "t": "Que recommandez-vous ?",
+    "en": "What do you recommend?",
+    "ph": "kuh ruh-koh-mahn-day VOO"
+   },
+   {
+    "t": "Du poulet avec du riz",
+    "en": "Chicken with rice",
+    "ph": "doo poo-LEH ah-VEK doo REE"
+   },
+   {
+    "t": "Une salade",
+    "en": "A salad",
+    "ph": "oon sah-LAD"
+   },
+   {
+    "t": "Du pain et du beurre",
+    "en": "Bread and butter",
+    "ph": "doo PAN ay doo BUR"
+   },
+   {
+    "t": "Une soupe",
+    "en": "A soup",
+    "ph": "oon SOOP"
+   },
+   {
+    "t": "Du poisson et des légumes",
+    "en": "Fish and vegetables",
+    "ph": "doo pwah-SOHN ay day lay-GOOM"
+   },
+   {
+    "t": "Un jus d'orange",
+    "en": "An orange juice",
+    "ph": "uhn zhoo doh-RAHNZH"
+   },
+   {
+    "t": "Une bière",
+    "en": "A beer",
+    "ph": "oon BYEHR"
+   },
+   {
+    "t": "Du lait et du sucre",
+    "en": "Milk and sugar",
+    "ph": "doo LEH ay doo SOO-kruh"
+   },
+   {
+    "t": "C'est délicieux",
+    "en": "It is delicious",
+    "ph": "seh day-lee-SYUH"
+   },
+   {
+    "t": "Encore un peu, s'il vous plaît",
+    "en": "A little more, please",
+    "ph": "ahn-KOR uhn PUH seel voo PLEH"
+   },
+   {
+    "t": "Bon appétit",
+    "en": "Enjoy your meal",
+    "ph": "bohn ah-pay-TEE"
+   },
+   {
+    "t": "Je n'ai plus faim",
+    "en": "I am full",
+    "ph": "zhuh nay ploo FAN"
+   },
+   {
+    "t": "L'addition, s'il vous plaît",
+    "en": "The bill, please",
+    "ph": "lah-dee-SYOHN seel voo PLEH"
+   },
+   {
+    "t": "Le service est-il compris ?",
+    "en": "Is the service charge included?",
+    "ph": "luh sehr-VEES eh-teel kohm-PREE"
+   }
+  ],
+  "travel": [
+   {
+    "t": "Où est la gare ?",
+    "en": "Where is the station?",
+    "ph": "oo eh lah GAR"
+   },
+   {
+    "t": "Où sont les toilettes ?",
+    "en": "Where is the bathroom?",
+    "ph": "oo sohn lay twah-LET"
+   },
+   {
+    "t": "Tout droit",
+    "en": "Straight on",
+    "ph": "too DRWAH"
+   },
+   {
+    "t": "À gauche",
+    "en": "To the left",
+    "ph": "ah GOHSH"
+   },
+   {
+    "t": "À droite",
+    "en": "To the right",
+    "ph": "ah DRWAHT"
+   },
+   {
+    "t": "C'est loin ?",
+    "en": "Is it far?",
+    "ph": "seh LWAN"
+   },
+   {
+    "t": "Un billet pour Lyon, s'il vous plaît",
+    "en": "A ticket to Lyon, please",
+    "ph": "uhn bee-YEH poor lee-OHN seel voo PLEH"
+   },
+   {
+    "t": "À quelle heure part le train ?",
+    "en": "What time does the train leave?",
+    "ph": "ah kel UR par luh TRAN"
+   },
+   {
+    "t": "De quel quai part-il ?",
+    "en": "Which platform does it leave from?",
+    "ph": "duh kel KAY par-TEEL"
+   },
+   {
+    "t": "L'aéroport",
+    "en": "The airport",
+    "ph": "lah-ay-roh-POR"
+   },
+   {
+    "t": "Mon passeport",
+    "en": "My passport",
+    "ph": "mohn pahs-POR"
+   },
+   {
+    "t": "Où est l'arrêt de bus ?",
+    "en": "Where is the bus stop?",
+    "ph": "oo eh lah-REH duh BOOS"
+   },
+   {
+    "t": "Un taxi, s'il vous plaît",
+    "en": "A taxi, please",
+    "ph": "uhn tak-SEE seel voo PLEH"
+   },
+   {
+    "t": "À cette adresse, s'il vous plaît",
+    "en": "To this address, please",
+    "ph": "ah set ah-DRES seel voo PLEH"
+   },
+   {
+    "t": "J'ai une réservation",
+    "en": "I have a booking",
+    "ph": "zhay oon ray-zehr-vah-SYOHN"
+   },
+   {
+    "t": "Une chambre pour deux nuits",
+    "en": "A room for two nights",
+    "ph": "oon SHAHM-bruh poor duh NWEE"
+   },
+   {
+    "t": "Le petit déjeuner est inclus ?",
+    "en": "Is breakfast included?",
+    "ph": "luh puh-TEE day-zhuh-NAY eh tan-KLOO"
+   },
+   {
+    "t": "J'ai perdu ma valise",
+    "en": "I lost my suitcase",
+    "ph": "zhay pehr-DOO mah vah-LEEZ"
+   },
+   {
+    "t": "Je suis perdu",
+    "en": "I am lost",
+    "ph": "zhuh swee pehr-DOO"
+   },
+   {
+    "t": "Pouvez-vous m'aider ?",
+    "en": "Can you help me?",
+    "ph": "poo-vay-voo meh-DAY"
+   },
+   {
+    "t": "Comment aller au centre-ville ?",
+    "en": "How do I get to the town centre?",
+    "ph": "koh-mahn tah-LAY oh sahn-truh-VEEL"
+   },
+   {
+    "t": "Combien de temps ça prend ?",
+    "en": "How long does it take?",
+    "ph": "kohm-byan duh tahn sah PRAHN"
+   },
+   {
+    "t": "Un plan de la ville",
+    "en": "A map of the city",
+    "ph": "uhn plahn duh lah VEEL"
+   },
+   {
+    "t": "Un aller-retour",
+    "en": "A return ticket",
+    "ph": "uhn nah-lay-ruh-TOOR"
+   },
+   {
+    "t": "Je suis en vacances",
+    "en": "I am on holiday",
+    "ph": "zhuh swee zahn vah-KAHNS"
+   }
+  ],
+  "shopping": [
+   {
+    "t": "C'est combien ?",
+    "en": "How much is this?",
+    "ph": "seh kohm-BYAN"
+   },
+   {
+    "t": "C'est trop cher",
+    "en": "It is too expensive",
+    "ph": "seh troh SHEHR"
+   },
+   {
+    "t": "Avez-vous quelque chose de moins cher ?",
+    "en": "Do you have something cheaper?",
+    "ph": "ah-vay-voo KEL-kuh shohz duh mwan SHEHR"
+   },
+   {
+    "t": "Je voudrais ceci",
+    "en": "I would like this",
+    "ph": "zhuh voo-DREH suh-SEE"
+   },
+   {
+    "t": "Je regarde seulement",
+    "en": "I am just looking",
+    "ph": "zhuh ruh-GARD suhl-MAHN"
+   },
+   {
+    "t": "Avez-vous une taille plus grande ?",
+    "en": "Do you have a bigger size?",
+    "ph": "ah-vay-voo oon TAHY ploo GRAHND"
+   },
+   {
+    "t": "Avez-vous une taille plus petite ?",
+    "en": "Do you have a smaller size?",
+    "ph": "ah-vay-voo oon TAHY ploo puh-TEET"
+   },
+   {
+    "t": "Puis-je l'essayer ?",
+    "en": "Can I try it on?",
+    "ph": "pwee-zhuh leh-seh-YAY"
+   },
+   {
+    "t": "Ça me va bien",
+    "en": "It fits me well",
+    "ph": "sah muh vah BYAN"
+   },
+   {
+    "t": "Je le prends",
+    "en": "I'll take it",
+    "ph": "zhuh luh PRAHN"
+   },
+   {
+    "t": "Rouge, bleu et vert",
+    "en": "Red, blue and green",
+    "ph": "roozh bluh ay VEHR"
+   },
+   {
+    "t": "Blanc et noir",
+    "en": "White and black",
+    "ph": "blahn ay NWAHR"
+   },
+   {
+    "t": "Puis-je payer par carte ?",
+    "en": "Can I pay by card?",
+    "ph": "pwee-zhuh pay-YAY par KART"
+   },
+   {
+    "t": "Je paie en espèces",
+    "en": "I'll pay cash",
+    "ph": "zhuh peh ahn nes-PES"
+   },
+   {
+    "t": "Pouvez-vous me faire une réduction ?",
+    "en": "Can you give me a discount?",
+    "ph": "poo-vay-voo muh FEHR oon ray-dook-SYOHN"
+   },
+   {
+    "t": "Quel est votre meilleur prix ?",
+    "en": "What is your best price?",
+    "ph": "kel eh VOH-truh meh-YUR PREE"
+   },
+   {
+    "t": "Le reçu, s'il vous plaît",
+    "en": "The receipt, please",
+    "ph": "luh ruh-SOO seel voo PLEH"
+   },
+   {
+    "t": "Où est le supermarché ?",
+    "en": "Where is the supermarket?",
+    "ph": "oo eh luh soo-pehr-mar-SHAY"
+   },
+   {
+    "t": "À quelle heure ouvre le magasin ?",
+    "en": "What time does the shop open?",
+    "ph": "ah kel UR OO-vruh luh mah-gah-ZAN"
+   },
+   {
+    "t": "À quelle heure fermez-vous ?",
+    "en": "What time do you close?",
+    "ph": "ah kel UR fehr-may VOO"
+   },
+   {
+    "t": "Un sac, s'il vous plaît",
+    "en": "A bag, please",
+    "ph": "uhn SAK seel voo PLEH"
+   },
+   {
+    "t": "L'avez-vous dans une autre couleur ?",
+    "en": "Do you have it in another colour?",
+    "ph": "lah-vay-voo dahn zoon OH-truh koo-LUR"
+   },
+   {
+    "t": "Je cherche un cadeau",
+    "en": "I am looking for a gift",
+    "ph": "zhuh SHEHRSH uhn kah-DOH"
+   },
+   {
+    "t": "Puis-je l'échanger ?",
+    "en": "Can I exchange it?",
+    "ph": "pwee-zhuh lay-shahn-ZHAY"
+   },
+   {
+    "t": "C'est en solde",
+    "en": "It is on sale",
+    "ph": "seh tahn SOLD"
+   }
+  ],
+  "family": [
+   {
+    "t": "Voici ma famille",
+    "en": "This is my family",
+    "ph": "vwah-SEE mah fah-MEE"
+   },
+   {
+    "t": "Voici mon père",
+    "en": "This is my father",
+    "ph": "vwah-SEE mohn PEHR"
+   },
+   {
+    "t": "Voici ma mère",
+    "en": "This is my mother",
+    "ph": "vwah-SEE mah MEHR"
+   },
+   {
+    "t": "Mes parents",
+    "en": "My parents",
+    "ph": "may pah-RAHN"
+   },
+   {
+    "t": "J'ai un frère",
+    "en": "I have a brother",
+    "ph": "zhay uhn FREHR"
+   },
+   {
+    "t": "J'ai une sœur",
+    "en": "I have a sister",
+    "ph": "zhay oon SUR"
+   },
+   {
+    "t": "Avez-vous des frères et sœurs ?",
+    "en": "Do you have brothers or sisters?",
+    "ph": "ah-vay-voo day frehr ay SUR"
+   },
+   {
+    "t": "Je suis fils unique",
+    "en": "I am an only child",
+    "ph": "zhuh swee fees oo-NEEK"
+   },
+   {
+    "t": "Voici mon mari",
+    "en": "This is my husband",
+    "ph": "vwah-SEE mohn mah-REE"
+   },
+   {
+    "t": "Je suis marié",
+    "en": "I am married",
+    "ph": "zhuh swee mah-RYAY"
+   },
+   {
+    "t": "Je suis célibataire",
+    "en": "I am single",
+    "ph": "zhuh swee say-lee-bah-TEHR"
+   },
+   {
+    "t": "J'ai deux enfants",
+    "en": "I have two children",
+    "ph": "zhay duh zahn-FAHN"
+   },
+   {
+    "t": "Ma fille a cinq ans",
+    "en": "My daughter is five years old",
+    "ph": "mah FEE ah sank AHN"
+   },
+   {
+    "t": "Quel âge avez-vous ?",
+    "en": "How old are you?",
+    "ph": "kel AHZH ah-vay VOO"
+   },
+   {
+    "t": "J'ai trente ans",
+    "en": "I am thirty years old",
+    "ph": "zhay trahnt AHN"
+   },
+   {
+    "t": "Mes grands-parents",
+    "en": "My grandparents",
+    "ph": "may grahn-pah-RAHN"
+   },
+   {
+    "t": "Mon oncle et ma tante",
+    "en": "My uncle and my aunt",
+    "ph": "moh NOHN-kluh ay mah TAHNT"
+   },
+   {
+    "t": "Mon cousin",
+    "en": "My cousin",
+    "ph": "mohn koo-ZAN"
+   },
+   {
+    "t": "Mon meilleur ami",
+    "en": "My best friend",
+    "ph": "mohn meh-YUR ah-MEE"
+   },
+   {
+    "t": "C'est mon amie",
+    "en": "She is my friend",
+    "ph": "seh moh nah-MEE"
+   },
+   {
+    "t": "Avez-vous des enfants ?",
+    "en": "Do you have children?",
+    "ph": "ah-vay-voo day zahn-FAHN"
+   },
+   {
+    "t": "Mon père est médecin",
+    "en": "My father is a doctor",
+    "ph": "mohn pehr eh mayd-SAN"
+   },
+   {
+    "t": "Ma mère est professeure",
+    "en": "My mother is a teacher",
+    "ph": "mah mehr eh proh-feh-SUR"
+   },
+   {
+    "t": "C'est ma petite amie",
+    "en": "She is my girlfriend",
+    "ph": "seh mah puh-TEET ah-MEE"
+   },
+   {
+    "t": "Nous sommes quatre dans ma famille",
+    "en": "There are four of us in my family",
+    "ph": "noo som KAH-truh dahn mah fah-MEE"
+   }
+  ],
+  "home": [
+   {
+    "t": "Ma maison",
+    "en": "My house",
+    "ph": "mah meh-ZOHN"
+   },
+   {
+    "t": "J'habite dans un appartement",
+    "en": "I live in a flat",
+    "ph": "zhah-BEET dahn zuhn nah-par-tuh-MAHN"
+   },
+   {
+    "t": "La cuisine",
+    "en": "The kitchen",
+    "ph": "lah kwee-ZEEN"
+   },
+   {
+    "t": "La chambre",
+    "en": "The bedroom",
+    "ph": "lah SHAHM-bruh"
+   },
+   {
+    "t": "La salle de bain",
+    "en": "The bathroom",
+    "ph": "lah sal duh BAN"
+   },
+   {
+    "t": "Le salon",
+    "en": "The living room",
+    "ph": "luh sah-LOHN"
+   },
+   {
+    "t": "Une table et une chaise",
+    "en": "A table and a chair",
+    "ph": "oon TAH-bluh ay oon SHEZ"
+   },
+   {
+    "t": "Le lit",
+    "en": "The bed",
+    "ph": "luh LEE"
+   },
+   {
+    "t": "Allume la lumière",
+    "en": "Turn on the light",
+    "ph": "ah-LOOM lah loo-MYEHR"
+   },
+   {
+    "t": "Éteins la lumière",
+    "en": "Turn off the light",
+    "ph": "ay-TAN lah loo-MYEHR"
+   },
+   {
+    "t": "Ouvre la porte",
+    "en": "Open the door",
+    "ph": "OO-vruh lah PORT"
+   },
+   {
+    "t": "Ferme la fenêtre",
+    "en": "Close the window",
+    "ph": "FEHRM lah fuh-NEH-truh"
+   },
+   {
+    "t": "Où sont les clés ?",
+    "en": "Where are the keys?",
+    "ph": "oo sohn lay KLAY"
+   },
+   {
+    "t": "Je dois faire la vaisselle",
+    "en": "I have to wash the dishes",
+    "ph": "zhuh dwah fehr lah veh-SEL"
+   },
+   {
+    "t": "Je dois nettoyer la maison",
+    "en": "I have to clean the house",
+    "ph": "zhuh dwah neh-twah-YAY lah meh-ZOHN"
+   },
+   {
+    "t": "Je vais faire la cuisine",
+    "en": "I am going to cook",
+    "ph": "zhuh vay fehr lah kwee-ZEEN"
+   },
+   {
+    "t": "La machine à laver",
+    "en": "The washing machine",
+    "ph": "lah mah-SHEEN ah lah-VAY"
+   },
+   {
+    "t": "Le réfrigérateur",
+    "en": "The fridge",
+    "ph": "luh ray-free-zhay-rah-TUR"
+   },
+   {
+    "t": "Le loyer est de mille euros par mois",
+    "en": "The rent is a thousand euros a month",
+    "ph": "luh lwah-YAY eh duh MEEL uh-ROH par MWAH"
+   },
+   {
+    "t": "Mon voisin",
+    "en": "My neighbour",
+    "ph": "mohn vwah-ZAN"
+   },
+   {
+    "t": "C'est au deuxième étage",
+    "en": "It is on the second floor",
+    "ph": "seh toh duh-ZYEM ay-TAHZH"
+   },
+   {
+    "t": "Faites comme chez vous",
+    "en": "Make yourself at home",
+    "ph": "feht kom shay VOO"
+   },
+   {
+    "t": "Entrez, s'il vous plaît",
+    "en": "Come in, please",
+    "ph": "ahn-TRAY seel voo PLEH"
+   },
+   {
+    "t": "Y a-t-il du wifi ?",
+    "en": "Is there wifi?",
+    "ph": "ee ah-teel doo wee-FEE"
+   },
+   {
+    "t": "Le chauffage",
+    "en": "The heating",
+    "ph": "luh shoh-FAHZH"
+   }
+  ],
+  "health": [
+   {
+    "t": "J'ai mal à la tête",
+    "en": "I have a headache",
+    "ph": "zhay mal ah lah TET"
+   },
+   {
+    "t": "J'ai mal au ventre",
+    "en": "I have a stomach ache",
+    "ph": "zhay mal oh VAHN-truh"
+   },
+   {
+    "t": "J'ai mal à la gorge",
+    "en": "I have a sore throat",
+    "ph": "zhay mal ah lah GORZH"
+   },
+   {
+    "t": "J'ai mal au dos",
+    "en": "My back hurts",
+    "ph": "zhay mal oh DOH"
+   },
+   {
+    "t": "J'ai mal à la jambe",
+    "en": "My leg hurts",
+    "ph": "zhay mal ah lah ZHAHMB"
+   },
+   {
+    "t": "Je ne me sens pas bien",
+    "en": "I feel sick",
+    "ph": "zhuh nuh muh sahn pah BYAN"
+   },
+   {
+    "t": "J'ai de la fièvre",
+    "en": "I have a fever",
+    "ph": "zhay duh lah FYEH-vruh"
+   },
+   {
+    "t": "Je tousse",
+    "en": "I have a cough",
+    "ph": "zhuh TOOS"
+   },
+   {
+    "t": "J'ai un rhume",
+    "en": "I have a cold",
+    "ph": "zhay uhn ROOM"
+   },
+   {
+    "t": "J'ai la tête qui tourne",
+    "en": "I feel dizzy",
+    "ph": "zhay lah tet kee TOORN"
+   },
+   {
+    "t": "J'ai besoin d'un médecin",
+    "en": "I need a doctor",
+    "ph": "zhay buh-ZWAN duhn mayd-SAN"
+   },
+   {
+    "t": "Où est l'hôpital ?",
+    "en": "Where is the hospital?",
+    "ph": "oo eh loh-pee-TAL"
+   },
+   {
+    "t": "Où y a-t-il une pharmacie ?",
+    "en": "Where is there a pharmacy?",
+    "ph": "oo ee ah-teel oon far-mah-SEE"
+   },
+   {
+    "t": "J'ai besoin de ce médicament",
+    "en": "I need this medicine",
+    "ph": "zhay buh-ZWAN duh suh may-dee-kah-MAHN"
+   },
+   {
+    "t": "Combien de fois par jour ?",
+    "en": "How many times a day?",
+    "ph": "kohm-BYAN duh FWAH par ZHOOR"
+   },
+   {
+    "t": "Je suis allergique à la pénicilline",
+    "en": "I am allergic to penicillin",
+    "ph": "zhuh swee zah-lehr-ZHEEK ah lah pay-nee-see-LEEN"
+   },
+   {
+    "t": "J'ai mal ici",
+    "en": "It hurts here",
+    "ph": "zhay mal ee-SEE"
+   },
+   {
+    "t": "Je me suis coupé la main",
+    "en": "I cut my hand",
+    "ph": "zhuh muh swee koo-PAY lah MAN"
+   },
+   {
+    "t": "Je suis tombé",
+    "en": "I fell",
+    "ph": "zhuh swee tohm-BAY"
+   },
+   {
+    "t": "Appelez une ambulance !",
+    "en": "Call an ambulance!",
+    "ph": "ap-lay oon ahn-boo-LAHNS"
+   },
+   {
+    "t": "Au secours !",
+    "en": "Help!",
+    "ph": "oh suh-KOOR"
+   },
+   {
+    "t": "C'est une urgence",
+    "en": "It is an emergency",
+    "ph": "seh toon oor-ZHAHNS"
+   },
+   {
+    "t": "J'ai besoin d'aide, s'il vous plaît",
+    "en": "I need help, please",
+    "ph": "zhay buh-ZWAN DEHD seel voo PLEH"
+   },
+   {
+    "t": "J'ai du diabète",
+    "en": "I have diabetes",
+    "ph": "zhay doo dee-ah-BET"
+   },
+   {
+    "t": "Je me sens mieux",
+    "en": "I feel better",
+    "ph": "zhuh muh sahn MYUH"
+   }
+  ],
+  "feelings": [
+   {
+    "t": "Je suis heureux",
+    "en": "I am happy",
+    "ph": "zhuh swee zuh-RUH"
+   },
+   {
+    "t": "Je suis triste",
+    "en": "I am sad",
+    "ph": "zhuh swee TREEST"
+   },
+   {
+    "t": "Je suis fatigué",
+    "en": "I am tired",
+    "ph": "zhuh swee fah-tee-GAY"
+   },
+   {
+    "t": "Je suis en colère",
+    "en": "I am angry",
+    "ph": "zhuh swee zahn koh-LEHR"
+   },
+   {
+    "t": "J'ai peur",
+    "en": "I am afraid",
+    "ph": "zhay PUR"
+   },
+   {
+    "t": "Je m'ennuie",
+    "en": "I am bored",
+    "ph": "zhuh mahn-NWEE"
+   },
+   {
+    "t": "Je suis amoureux",
+    "en": "I am in love",
+    "ph": "zhuh swee zah-moo-RUH"
+   },
+   {
+    "t": "Je suis nerveux",
+    "en": "I am nervous",
+    "ph": "zhuh swee nehr-VUH"
+   },
+   {
+    "t": "Je suis inquiet",
+    "en": "I am worried",
+    "ph": "zhuh swee zan-KYEH"
+   },
+   {
+    "t": "Ne vous inquiétez pas",
+    "en": "Don't worry",
+    "ph": "nuh voo zan-kyay-tay PAH"
+   },
+   {
+    "t": "J'aime ça",
+    "en": "I like it",
+    "ph": "zhem SAH"
+   },
+   {
+    "t": "J'adore ça",
+    "en": "I love it",
+    "ph": "zhah-DOR SAH"
+   },
+   {
+    "t": "Je déteste attendre",
+    "en": "I hate waiting",
+    "ph": "zhuh day-TEST ah-TAHN-druh"
+   },
+   {
+    "t": "Je t'aime",
+    "en": "I love you",
+    "ph": "zhuh TEM"
+   },
+   {
+    "t": "Je suis ravi",
+    "en": "I am delighted",
+    "ph": "zhuh swee rah-VEE"
+   },
+   {
+    "t": "Quelle surprise !",
+    "en": "What a surprise!",
+    "ph": "kel soor-PREEZ"
+   },
+   {
+    "t": "Qu'en pensez-vous ?",
+    "en": "What do you think?",
+    "ph": "kahn pahn-say VOO"
+   },
+   {
+    "t": "Je crois que oui",
+    "en": "I think so",
+    "ph": "zhuh krwah kuh WEE"
+   },
+   {
+    "t": "Je suis d'accord",
+    "en": "I agree",
+    "ph": "zhuh swee dah-KOR"
+   },
+   {
+    "t": "Je ne suis pas d'accord",
+    "en": "I don't agree",
+    "ph": "zhuh nuh swee pah dah-KOR"
+   },
+   {
+    "t": "Vous avez raison",
+    "en": "You are right",
+    "ph": "voo zah-vay reh-ZOHN"
+   },
+   {
+    "t": "À mon avis",
+    "en": "In my opinion",
+    "ph": "ah moh nah-VEE"
+   },
+   {
+    "t": "Tout va bien ?",
+    "en": "Is everything okay?",
+    "ph": "too vah BYAN"
+   },
+   {
+    "t": "Je me sens seul",
+    "en": "I feel lonely",
+    "ph": "zhuh muh sahn SUHL"
+   },
+   {
+    "t": "Je suis fier de vous",
+    "en": "I am proud of you",
+    "ph": "zhuh swee fyehr duh VOO"
+   }
+  ],
+  "work": [
+   {
+    "t": "Que faites-vous dans la vie ?",
+    "en": "What do you do for a living?",
+    "ph": "kuh feht-voo dahn lah VEE"
+   },
+   {
+    "t": "Je suis ingénieur",
+    "en": "I am an engineer",
+    "ph": "zhuh swee zan-zhay-NYUR"
+   },
+   {
+    "t": "Je travaille dans un bureau",
+    "en": "I work in an office",
+    "ph": "zhuh trah-VAH-yuh dahn zuhn boo-ROH"
+   },
+   {
+    "t": "Je travaille à la maison",
+    "en": "I work from home",
+    "ph": "zhuh trah-VAH-yuh ah lah meh-ZOHN"
+   },
+   {
+    "t": "Mon patron",
+    "en": "My boss",
+    "ph": "mohn pah-TROHN"
+   },
+   {
+    "t": "Mon collègue",
+    "en": "My colleague",
+    "ph": "mohn koh-LEHG"
+   },
+   {
+    "t": "J'ai une réunion",
+    "en": "I have a meeting",
+    "ph": "zhay oon ray-oo-NYOHN"
+   },
+   {
+    "t": "La réunion est à dix heures",
+    "en": "The meeting is at ten o'clock",
+    "ph": "lah ray-oo-NYOHN eh tah dee ZUR"
+   },
+   {
+    "t": "Puis-je vous envoyer un e-mail ?",
+    "en": "Can I send you an email?",
+    "ph": "pwee-zhuh voo zahn-vwah-YAY uhn ee-MEHL"
+   },
+   {
+    "t": "Quelle est votre adresse e-mail ?",
+    "en": "What is your email address?",
+    "ph": "kel eh VOH-truh ah-DRES ee-MEHL"
+   },
+   {
+    "t": "Je suis occupé",
+    "en": "I am busy",
+    "ph": "zhuh swee zoh-koo-PAY"
+   },
+   {
+    "t": "J'ai beaucoup de travail",
+    "en": "I have a lot of work",
+    "ph": "zhay boh-KOO duh trah-VAH-ee"
+   },
+   {
+    "t": "Quel est le salaire ?",
+    "en": "What is the salary?",
+    "ph": "kel eh luh sah-LEHR"
+   },
+   {
+    "t": "Je suis étudiant",
+    "en": "I am a student",
+    "ph": "zhuh swee zay-too-DYAHN"
+   },
+   {
+    "t": "J'étudie le français",
+    "en": "I study French",
+    "ph": "zhay-too-DEE luh frahn-SEH"
+   },
+   {
+    "t": "Je vais à l'école",
+    "en": "I go to school",
+    "ph": "zhuh vay zah lay-KOL"
+   },
+   {
+    "t": "L'université",
+    "en": "The university",
+    "ph": "loo-nee-vehr-see-TAY"
+   },
+   {
+    "t": "J'ai un examen demain",
+    "en": "I have an exam tomorrow",
+    "ph": "zhay uhn nehg-zah-MAN duh-MAN"
+   },
+   {
+    "t": "J'ai beaucoup de devoirs",
+    "en": "I have a lot of homework",
+    "ph": "zhay boh-KOO duh duh-VWAHR"
+   },
+   {
+    "t": "Pouvez-vous répéter, s'il vous plaît ?",
+    "en": "Can you repeat that, please?",
+    "ph": "poo-vay-voo ray-pay-TAY seel voo PLEH"
+   },
+   {
+    "t": "Mon professeur est très bon",
+    "en": "My teacher is very good",
+    "ph": "mohn proh-feh-SUR eh treh BOHN"
+   },
+   {
+    "t": "Je veux apprendre",
+    "en": "I want to learn",
+    "ph": "zhuh vuh ah-PRAHN-druh"
+   },
+   {
+    "t": "Je cherche du travail",
+    "en": "I am looking for a job",
+    "ph": "zhuh SHEHRSH doo trah-VAH-ee"
+   },
+   {
+    "t": "J'ai un entretien",
+    "en": "I have an interview",
+    "ph": "zhay uhn nahn-truh-TYAN"
+   },
+   {
+    "t": "Je ne travaille pas aujourd'hui",
+    "en": "I am not working today",
+    "ph": "zhuh nuh trah-VAH-ee pah oh-zhoor-DWEE"
+   }
+  ],
+  "weather": [
+   {
+    "t": "Quel temps fait-il ?",
+    "en": "What is the weather like?",
+    "ph": "kel tahn feh-TEEL"
+   },
+   {
+    "t": "Il y a du soleil",
+    "en": "It is sunny",
+    "ph": "eel ee ah doo soh-LAY"
+   },
+   {
+    "t": "Il fait chaud",
+    "en": "It is hot",
+    "ph": "eel feh SHOH"
+   },
+   {
+    "t": "Il fait froid",
+    "en": "It is cold",
+    "ph": "eel feh FRWAH"
+   },
+   {
+    "t": "Il y a du vent",
+    "en": "It is windy",
+    "ph": "eel ee ah doo VAHN"
+   },
+   {
+    "t": "Il pleut",
+    "en": "It is raining",
+    "ph": "eel PLUH"
+   },
+   {
+    "t": "Il y a des nuages",
+    "en": "It is cloudy",
+    "ph": "eel ee ah day noo-AHZH"
+   },
+   {
+    "t": "Il neige",
+    "en": "It is snowing",
+    "ph": "eel NEHZH"
+   },
+   {
+    "t": "Il pleut beaucoup",
+    "en": "It rains a lot",
+    "ph": "eel pluh boh-KOO"
+   },
+   {
+    "t": "Quelle belle journée !",
+    "en": "What a beautiful day!",
+    "ph": "kel bel zhoor-NAY"
+   },
+   {
+    "t": "Le printemps",
+    "en": "Spring",
+    "ph": "luh pran-TAHN"
+   },
+   {
+    "t": "L'été",
+    "en": "Summer",
+    "ph": "lay-TAY"
+   },
+   {
+    "t": "L'automne",
+    "en": "Autumn",
+    "ph": "loh-TON"
+   },
+   {
+    "t": "L'hiver",
+    "en": "Winter",
+    "ph": "lee-VEHR"
+   },
+   {
+    "t": "La mer",
+    "en": "The sea",
+    "ph": "lah MEHR"
+   },
+   {
+    "t": "La plage",
+    "en": "The beach",
+    "ph": "lah PLAHZH"
+   },
+   {
+    "t": "La montagne",
+    "en": "The mountain",
+    "ph": "lah mohn-TAH-nyuh"
+   },
+   {
+    "t": "La rivière",
+    "en": "The river",
+    "ph": "lah ree-VYEHR"
+   },
+   {
+    "t": "Le chien et le chat",
+    "en": "The dog and the cat",
+    "ph": "luh shyan ay luh SHAH"
+   },
+   {
+    "t": "Un oiseau",
+    "en": "A bird",
+    "ph": "uhn nwah-ZOH"
+   },
+   {
+    "t": "J'aime la nature",
+    "en": "I like nature",
+    "ph": "zhem lah nah-TOOR"
+   },
+   {
+    "t": "Que faites-vous ce week-end ?",
+    "en": "What are you doing this weekend?",
+    "ph": "kuh feht-voo suh wee-KEND"
+   },
+   {
+    "t": "Je vais faire une randonnée",
+    "en": "I am going hiking",
+    "ph": "zhuh vay fehr oon rahn-doh-NAY"
+   },
+   {
+    "t": "Il va peut-être pleuvoir demain",
+    "en": "It may rain tomorrow",
+    "ph": "eel vah puh-TEH-truh pluh-VWAHR duh-MAN"
+   },
+   {
+    "t": "Il fait beau",
+    "en": "The weather is nice",
+    "ph": "eel feh BOH"
+   }
+  ]
+ }
+}

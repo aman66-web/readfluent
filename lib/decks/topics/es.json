@@ -1,0 +1,1529 @@
+{
+ "lang": "es",
+ "topics": {
+  "greetings": [
+   {
+    "t": "Hola",
+    "en": "Hello",
+    "ph": "OH-lah"
+   },
+   {
+    "t": "Buenos días",
+    "en": "Good morning",
+    "ph": "BWEH-nohs DEE-ahs"
+   },
+   {
+    "t": "Buenas tardes",
+    "en": "Good afternoon",
+    "ph": "BWEH-nahs TAR-dehs"
+   },
+   {
+    "t": "Buenas noches",
+    "en": "Good evening / Good night",
+    "ph": "BWEH-nahs NOH-chehs"
+   },
+   {
+    "t": "¿Cómo estás?",
+    "en": "How are you?",
+    "ph": "KOH-moh ehs-TAHS"
+   },
+   {
+    "t": "Estoy bien, gracias",
+    "en": "I'm fine, thank you",
+    "ph": "ehs-TOY byehn GRAH-syahs"
+   },
+   {
+    "t": "¿Y tú?",
+    "en": "And you?",
+    "ph": "ee TOO"
+   },
+   {
+    "t": "Mucho gusto",
+    "en": "Nice to meet you",
+    "ph": "MOO-choh GOOS-toh"
+   },
+   {
+    "t": "¿Cómo te llamas?",
+    "en": "What is your name?",
+    "ph": "KOH-moh teh YAH-mahs"
+   },
+   {
+    "t": "Me llamo Ana",
+    "en": "My name is Ana",
+    "ph": "meh YAH-moh AH-nah"
+   },
+   {
+    "t": "Adiós",
+    "en": "Goodbye",
+    "ph": "ah-DYOHS"
+   },
+   {
+    "t": "Hasta luego",
+    "en": "See you later",
+    "ph": "AHS-tah LWEH-goh"
+   },
+   {
+    "t": "Hasta mañana",
+    "en": "See you tomorrow",
+    "ph": "AHS-tah mah-NYAH-nah"
+   },
+   {
+    "t": "Por favor",
+    "en": "Please",
+    "ph": "por fah-VOR"
+   },
+   {
+    "t": "Gracias",
+    "en": "Thank you",
+    "ph": "GRAH-syahs"
+   },
+   {
+    "t": "Muchas gracias",
+    "en": "Thank you very much",
+    "ph": "MOO-chahs GRAH-syahs"
+   },
+   {
+    "t": "De nada",
+    "en": "You're welcome",
+    "ph": "deh NAH-dah"
+   },
+   {
+    "t": "Perdón",
+    "en": "Sorry",
+    "ph": "pehr-DOHN"
+   },
+   {
+    "t": "Lo siento mucho",
+    "en": "I'm very sorry",
+    "ph": "loh SYEHN-toh MOO-choh"
+   },
+   {
+    "t": "Con permiso",
+    "en": "Excuse me (to pass by)",
+    "ph": "kohn pehr-MEE-soh"
+   },
+   {
+    "t": "No hay problema",
+    "en": "No problem",
+    "ph": "noh eye proh-BLEH-mah"
+   },
+   {
+    "t": "¿De dónde eres?",
+    "en": "Where are you from?",
+    "ph": "deh DOHN-deh EH-rehs"
+   },
+   {
+    "t": "Soy de Inglaterra",
+    "en": "I am from England",
+    "ph": "soy deh een-glah-TEH-rrah"
+   },
+   {
+    "t": "¿Habla inglés?",
+    "en": "Do you speak English?",
+    "ph": "AH-blah een-GLEHS"
+   },
+   {
+    "t": "No entiendo",
+    "en": "I don't understand",
+    "ph": "noh ehn-TYEHN-doh"
+   }
+  ],
+  "numbers": [
+   {
+    "t": "Uno, dos, tres",
+    "en": "One, two, three",
+    "ph": "OO-noh dohs trehs"
+   },
+   {
+    "t": "Cuatro, cinco, seis",
+    "en": "Four, five, six",
+    "ph": "KWAH-troh SEEN-koh sayss"
+   },
+   {
+    "t": "Siete, ocho, nueve",
+    "en": "Seven, eight, nine",
+    "ph": "SYEH-teh OH-choh NWEH-veh"
+   },
+   {
+    "t": "Diez",
+    "en": "Ten",
+    "ph": "dyehs"
+   },
+   {
+    "t": "Once, doce, trece",
+    "en": "Eleven, twelve, thirteen",
+    "ph": "OHN-seh DOH-seh TREH-seh"
+   },
+   {
+    "t": "Quince",
+    "en": "Fifteen",
+    "ph": "KEEN-seh"
+   },
+   {
+    "t": "Veinte",
+    "en": "Twenty",
+    "ph": "VAYN-teh"
+   },
+   {
+    "t": "Treinta",
+    "en": "Thirty",
+    "ph": "TRAYN-tah"
+   },
+   {
+    "t": "Cuarenta y cinco",
+    "en": "Forty-five",
+    "ph": "kwah-REHN-tah ee SEEN-koh"
+   },
+   {
+    "t": "Cien",
+    "en": "One hundred",
+    "ph": "syehn"
+   },
+   {
+    "t": "Doscientos",
+    "en": "Two hundred",
+    "ph": "dohs-SYEHN-tohs"
+   },
+   {
+    "t": "Mil",
+    "en": "One thousand",
+    "ph": "meel"
+   },
+   {
+    "t": "Primero",
+    "en": "First",
+    "ph": "pree-MEH-roh"
+   },
+   {
+    "t": "Segundo",
+    "en": "Second",
+    "ph": "seh-GOON-doh"
+   },
+   {
+    "t": "Tercero",
+    "en": "Third",
+    "ph": "tehr-SEH-roh"
+   },
+   {
+    "t": "¿Cuánto cuesta?",
+    "en": "How much does it cost?",
+    "ph": "KWAHN-toh KWEHS-tah"
+   },
+   {
+    "t": "¿Cuántos hay?",
+    "en": "How many are there?",
+    "ph": "KWAHN-tohs eye"
+   },
+   {
+    "t": "Son diez dólares",
+    "en": "It is ten dollars",
+    "ph": "sohn dyehs DOH-lah-rehs"
+   },
+   {
+    "t": "Son veinte pesos",
+    "en": "It is twenty pesos",
+    "ph": "sohn VAYN-teh PEH-sohs"
+   },
+   {
+    "t": "La mitad",
+    "en": "Half",
+    "ph": "lah mee-TAHD"
+   },
+   {
+    "t": "Medio kilo",
+    "en": "Half a kilo",
+    "ph": "MEH-dyoh KEE-loh"
+   },
+   {
+    "t": "Un poco",
+    "en": "A little",
+    "ph": "oon POH-koh"
+   },
+   {
+    "t": "Unos pocos",
+    "en": "A few",
+    "ph": "OO-nohs POH-kohs"
+   },
+   {
+    "t": "Muchos",
+    "en": "Many",
+    "ph": "MOO-chohs"
+   },
+   {
+    "t": "¿Cuál es su número de teléfono?",
+    "en": "What is your phone number?",
+    "ph": "kwahl ehs soo NOO-meh-roh deh teh-LEH-foh-noh"
+   }
+  ],
+  "time": [
+   {
+    "t": "¿Qué hora es?",
+    "en": "What time is it?",
+    "ph": "keh OH-rah ehs"
+   },
+   {
+    "t": "Son las cinco",
+    "en": "It is five o'clock",
+    "ph": "sohn lahs SEEN-koh"
+   },
+   {
+    "t": "A las cinco",
+    "en": "At five o'clock",
+    "ph": "ah lahs SEEN-koh"
+   },
+   {
+    "t": "Es la una y media",
+    "en": "It is half past one",
+    "ph": "ehs lah OO-nah ee MEH-dyah"
+   },
+   {
+    "t": "Son las tres y cuarto",
+    "en": "It is a quarter past three",
+    "ph": "sohn lahs trehs ee KWAR-toh"
+   },
+   {
+    "t": "Hoy",
+    "en": "Today",
+    "ph": "oy"
+   },
+   {
+    "t": "Mañana",
+    "en": "Tomorrow",
+    "ph": "mah-NYAH-nah"
+   },
+   {
+    "t": "Ayer",
+    "en": "Yesterday",
+    "ph": "ah-YEHR"
+   },
+   {
+    "t": "Por la mañana",
+    "en": "In the morning",
+    "ph": "por lah mah-NYAH-nah"
+   },
+   {
+    "t": "Por la tarde",
+    "en": "In the afternoon",
+    "ph": "por lah TAR-deh"
+   },
+   {
+    "t": "Por la noche",
+    "en": "At night",
+    "ph": "por lah NOH-cheh"
+   },
+   {
+    "t": "Todos los días",
+    "en": "Every day",
+    "ph": "TOH-dohs lohs DEE-ahs"
+   },
+   {
+    "t": "La próxima semana",
+    "en": "Next week",
+    "ph": "lah PROHK-see-mah seh-MAH-nah"
+   },
+   {
+    "t": "Lunes y martes",
+    "en": "Monday and Tuesday",
+    "ph": "LOO-nehs ee MAR-tehs"
+   },
+   {
+    "t": "Miércoles y jueves",
+    "en": "Wednesday and Thursday",
+    "ph": "MYEHR-koh-lehs ee HWEH-vehs"
+   },
+   {
+    "t": "Viernes",
+    "en": "Friday",
+    "ph": "VYEHR-nehs"
+   },
+   {
+    "t": "Sábado y domingo",
+    "en": "Saturday and Sunday",
+    "ph": "SAH-bah-doh ee doh-MEEN-goh"
+   },
+   {
+    "t": "¿Qué día es hoy?",
+    "en": "What day is it today?",
+    "ph": "keh DEE-ah ehs oy"
+   },
+   {
+    "t": "Hoy es lunes",
+    "en": "Today is Monday",
+    "ph": "oy ehs LOO-nehs"
+   },
+   {
+    "t": "Enero, febrero, marzo",
+    "en": "January, February, March",
+    "ph": "eh-NEH-roh feh-BREH-roh MAR-soh"
+   },
+   {
+    "t": "Mi cumpleaños es en mayo",
+    "en": "My birthday is in May",
+    "ph": "mee koom-pleh-AH-nyohs ehs ehn MAH-yoh"
+   },
+   {
+    "t": "Llegas tarde",
+    "en": "You are late",
+    "ph": "YEH-gahs TAR-deh"
+   },
+   {
+    "t": "Es temprano",
+    "en": "It is early",
+    "ph": "ehs tehm-PRAH-noh"
+   },
+   {
+    "t": "Un momento, por favor",
+    "en": "One moment, please",
+    "ph": "oon moh-MEHN-toh por fah-VOR"
+   },
+   {
+    "t": "Ahora",
+    "en": "Now",
+    "ph": "ah-OH-rah"
+   }
+  ],
+  "food": [
+   {
+    "t": "Una mesa para dos, por favor",
+    "en": "A table for two, please",
+    "ph": "OO-nah MEH-sah PAH-rah dohs por fah-VOR"
+   },
+   {
+    "t": "El menú, por favor",
+    "en": "The menu, please",
+    "ph": "ehl meh-NOO por fah-VOR"
+   },
+   {
+    "t": "Quisiera pedir",
+    "en": "I would like to order",
+    "ph": "kee-SYEH-rah peh-DEER"
+   },
+   {
+    "t": "Quiero un café",
+    "en": "I would like a coffee",
+    "ph": "KYEH-roh oon kah-FEH"
+   },
+   {
+    "t": "Un vaso de agua",
+    "en": "A glass of water",
+    "ph": "oon VAH-soh deh AH-gwah"
+   },
+   {
+    "t": "Tengo hambre",
+    "en": "I am hungry",
+    "ph": "TEHN-goh AHM-breh"
+   },
+   {
+    "t": "Tengo sed",
+    "en": "I am thirsty",
+    "ph": "TEHN-goh sehd"
+   },
+   {
+    "t": "Soy vegetariano",
+    "en": "I am vegetarian",
+    "ph": "soy veh-heh-tah-RYAH-noh"
+   },
+   {
+    "t": "Sin carne, por favor",
+    "en": "No meat, please",
+    "ph": "seen KAR-neh por fah-VOR"
+   },
+   {
+    "t": "Soy alérgico a las nueces",
+    "en": "I am allergic to nuts",
+    "ph": "soy ah-LEHR-hee-koh ah lahs NWEH-sehs"
+   },
+   {
+    "t": "¿Qué recomienda?",
+    "en": "What do you recommend?",
+    "ph": "keh reh-koh-MYEHN-dah"
+   },
+   {
+    "t": "Pollo con arroz",
+    "en": "Chicken with rice",
+    "ph": "POH-yoh kohn ah-RROHS"
+   },
+   {
+    "t": "Una ensalada",
+    "en": "A salad",
+    "ph": "OO-nah ehn-sah-LAH-dah"
+   },
+   {
+    "t": "Pan y mantequilla",
+    "en": "Bread and butter",
+    "ph": "pahn ee mahn-teh-KEE-yah"
+   },
+   {
+    "t": "Una sopa, por favor",
+    "en": "A soup, please",
+    "ph": "OO-nah SOH-pah por fah-VOR"
+   },
+   {
+    "t": "Pescado y verduras",
+    "en": "Fish and vegetables",
+    "ph": "pehs-KAH-doh ee vehr-DOO-rahs"
+   },
+   {
+    "t": "Un jugo de naranja",
+    "en": "An orange juice",
+    "ph": "oon HOO-goh deh nah-RAHN-hah"
+   },
+   {
+    "t": "Una cerveza",
+    "en": "A beer",
+    "ph": "OO-nah sehr-VEH-sah"
+   },
+   {
+    "t": "Leche y azúcar",
+    "en": "Milk and sugar",
+    "ph": "LEH-cheh ee ah-SOO-kar"
+   },
+   {
+    "t": "Está muy rico",
+    "en": "It is delicious",
+    "ph": "ehs-TAH mooy RREE-koh"
+   },
+   {
+    "t": "Un poco más, por favor",
+    "en": "A little more, please",
+    "ph": "oon POH-koh mahs por fah-VOR"
+   },
+   {
+    "t": "Buen provecho",
+    "en": "Enjoy your meal",
+    "ph": "bwehn proh-VEH-choh"
+   },
+   {
+    "t": "Estoy lleno",
+    "en": "I am full",
+    "ph": "ehs-TOY YEH-noh"
+   },
+   {
+    "t": "La cuenta, por favor",
+    "en": "The bill, please",
+    "ph": "lah KWEHN-tah por fah-VOR"
+   },
+   {
+    "t": "¿La propina está incluida?",
+    "en": "Is the tip included?",
+    "ph": "lah proh-PEE-nah ehs-TAH een-kloo-EE-dah"
+   }
+  ],
+  "travel": [
+   {
+    "t": "¿Dónde está la estación?",
+    "en": "Where is the station?",
+    "ph": "DOHN-deh ehs-TAH lah ehs-tah-SYOHN"
+   },
+   {
+    "t": "¿Dónde está el baño?",
+    "en": "Where is the bathroom?",
+    "ph": "DOHN-deh ehs-TAH ehl BAH-nyoh"
+   },
+   {
+    "t": "Todo recto",
+    "en": "Straight on",
+    "ph": "TOH-doh RREHK-toh"
+   },
+   {
+    "t": "A la izquierda",
+    "en": "To the left",
+    "ph": "ah lah ees-KYEHR-dah"
+   },
+   {
+    "t": "A la derecha",
+    "en": "To the right",
+    "ph": "ah lah deh-REH-chah"
+   },
+   {
+    "t": "¿Está lejos?",
+    "en": "Is it far?",
+    "ph": "ehs-TAH LEH-hohs"
+   },
+   {
+    "t": "Un boleto a Lima, por favor",
+    "en": "A ticket to Lima, please",
+    "ph": "oon boh-LEH-toh ah LEE-mah"
+   },
+   {
+    "t": "¿A qué hora sale el tren?",
+    "en": "What time does the train leave?",
+    "ph": "ah keh OH-rah SAH-leh ehl trehn"
+   },
+   {
+    "t": "¿De qué andén sale?",
+    "en": "Which platform does it leave from?",
+    "ph": "deh keh ahn-DEHN SAH-leh"
+   },
+   {
+    "t": "El aeropuerto",
+    "en": "The airport",
+    "ph": "ehl ah-eh-roh-PWEHR-toh"
+   },
+   {
+    "t": "Mi pasaporte",
+    "en": "My passport",
+    "ph": "mee pah-sah-POR-teh"
+   },
+   {
+    "t": "¿Dónde está la parada del autobús?",
+    "en": "Where is the bus stop?",
+    "ph": "DOHN-deh ehs-TAH lah pah-RAH-dah dehl ow-toh-BOOS"
+   },
+   {
+    "t": "Un taxi, por favor",
+    "en": "A taxi, please",
+    "ph": "oon TAHK-see por fah-VOR"
+   },
+   {
+    "t": "A esta dirección, por favor",
+    "en": "To this address, please",
+    "ph": "ah EHS-tah dee-rehk-SYOHN por fah-VOR"
+   },
+   {
+    "t": "Tengo una reservación",
+    "en": "I have a booking",
+    "ph": "TEHN-goh OO-nah reh-sehr-vah-SYOHN"
+   },
+   {
+    "t": "Una habitación para dos noches",
+    "en": "A room for two nights",
+    "ph": "OO-nah ah-bee-tah-SYOHN PAH-rah dohs NOH-chehs"
+   },
+   {
+    "t": "¿Está incluido el desayuno?",
+    "en": "Is breakfast included?",
+    "ph": "ehs-TAH een-kloo-EE-doh ehl deh-sah-YOO-noh"
+   },
+   {
+    "t": "Perdí mi maleta",
+    "en": "I lost my suitcase",
+    "ph": "pehr-DEE mee mah-LEH-tah"
+   },
+   {
+    "t": "Estoy perdido",
+    "en": "I am lost",
+    "ph": "ehs-TOY pehr-DEE-doh"
+   },
+   {
+    "t": "¿Puede ayudarme?",
+    "en": "Can you help me?",
+    "ph": "PWEH-deh ah-yoo-DAR-meh"
+   },
+   {
+    "t": "¿Cómo llego al centro?",
+    "en": "How do I get to the centre?",
+    "ph": "KOH-moh YEH-goh ahl SEHN-troh"
+   },
+   {
+    "t": "¿Cuánto tarda?",
+    "en": "How long does it take?",
+    "ph": "KWAHN-toh TAR-dah"
+   },
+   {
+    "t": "Un mapa de la ciudad",
+    "en": "A map of the city",
+    "ph": "oon MAH-pah deh lah syoo-DAHD"
+   },
+   {
+    "t": "Ida y vuelta",
+    "en": "Round trip",
+    "ph": "EE-dah ee VWEHL-tah"
+   },
+   {
+    "t": "Estoy de vacaciones",
+    "en": "I am on holiday",
+    "ph": "ehs-TOY deh vah-kah-SYOH-nehs"
+   }
+  ],
+  "shopping": [
+   {
+    "t": "¿Cuánto cuesta esto?",
+    "en": "How much is this?",
+    "ph": "KWAHN-toh KWEHS-tah EHS-toh"
+   },
+   {
+    "t": "Es muy caro",
+    "en": "It is too expensive",
+    "ph": "ehs mooy KAH-roh"
+   },
+   {
+    "t": "¿Tiene algo más barato?",
+    "en": "Do you have something cheaper?",
+    "ph": "TYEH-neh AHL-goh mahs bah-RAH-toh"
+   },
+   {
+    "t": "Quisiera esto",
+    "en": "I would like this",
+    "ph": "kee-SYEH-rah EHS-toh"
+   },
+   {
+    "t": "Solo estoy mirando",
+    "en": "I am just looking",
+    "ph": "SOH-loh ehs-TOY mee-RAHN-doh"
+   },
+   {
+    "t": "¿Tiene una talla más grande?",
+    "en": "Do you have a bigger size?",
+    "ph": "TYEH-neh OO-nah TAH-yah mahs GRAHN-deh"
+   },
+   {
+    "t": "¿Tiene una talla más pequeña?",
+    "en": "Do you have a smaller size?",
+    "ph": "TYEH-neh OO-nah TAH-yah mahs peh-KEH-nyah"
+   },
+   {
+    "t": "¿Puedo probármelo?",
+    "en": "Can I try it on?",
+    "ph": "PWEH-doh proh-BAR-meh-loh"
+   },
+   {
+    "t": "Me queda bien",
+    "en": "It fits me well",
+    "ph": "meh KEH-dah byehn"
+   },
+   {
+    "t": "Me lo llevo",
+    "en": "I'll take it",
+    "ph": "meh loh YEH-voh"
+   },
+   {
+    "t": "Rojo, azul y verde",
+    "en": "Red, blue and green",
+    "ph": "RROH-hoh ah-SOOL ee VEHR-deh"
+   },
+   {
+    "t": "Blanco y negro",
+    "en": "White and black",
+    "ph": "BLAHN-koh ee NEH-groh"
+   },
+   {
+    "t": "¿Puedo pagar con tarjeta?",
+    "en": "Can I pay by card?",
+    "ph": "PWEH-doh pah-GAR kohn tar-HEH-tah"
+   },
+   {
+    "t": "Pago en efectivo",
+    "en": "I'll pay cash",
+    "ph": "PAH-goh ehn eh-fehk-TEE-voh"
+   },
+   {
+    "t": "¿Me hace un descuento?",
+    "en": "Can you give me a discount?",
+    "ph": "meh AH-seh oon dehs-KWEHN-toh"
+   },
+   {
+    "t": "¿Cuál es el mejor precio?",
+    "en": "What is your best price?",
+    "ph": "kwahl ehs ehl meh-HOR PREH-syoh"
+   },
+   {
+    "t": "El recibo, por favor",
+    "en": "The receipt, please",
+    "ph": "ehl rreh-SEE-boh por fah-VOR"
+   },
+   {
+    "t": "¿Dónde está el supermercado?",
+    "en": "Where is the supermarket?",
+    "ph": "DOHN-deh ehs-TAH ehl soo-pehr-mehr-KAH-doh"
+   },
+   {
+    "t": "¿A qué hora abre la tienda?",
+    "en": "What time does the shop open?",
+    "ph": "ah keh OH-rah AH-breh lah TYEHN-dah"
+   },
+   {
+    "t": "¿A qué hora cierran?",
+    "en": "What time do you close?",
+    "ph": "ah keh OH-rah SYEH-rrahn"
+   },
+   {
+    "t": "Una bolsa, por favor",
+    "en": "A bag, please",
+    "ph": "OO-nah BOHL-sah por fah-VOR"
+   },
+   {
+    "t": "¿Lo tienen en otro color?",
+    "en": "Do you have it in another colour?",
+    "ph": "loh TYEH-nehn ehn OH-troh koh-LOR"
+   },
+   {
+    "t": "Busco un regalo",
+    "en": "I am looking for a gift",
+    "ph": "BOOS-koh oon rreh-GAH-loh"
+   },
+   {
+    "t": "¿Lo puedo cambiar?",
+    "en": "Can I exchange it?",
+    "ph": "loh PWEH-doh kahm-BYAR"
+   },
+   {
+    "t": "Está en oferta",
+    "en": "It is on sale",
+    "ph": "ehs-TAH ehn oh-FEHR-tah"
+   }
+  ],
+  "family": [
+   {
+    "t": "Esta es mi familia",
+    "en": "This is my family",
+    "ph": "EHS-tah ehs mee fah-MEE-lyah"
+   },
+   {
+    "t": "Este es mi padre",
+    "en": "This is my father",
+    "ph": "EHS-teh ehs mee PAH-dreh"
+   },
+   {
+    "t": "Esta es mi madre",
+    "en": "This is my mother",
+    "ph": "EHS-tah ehs mee MAH-dreh"
+   },
+   {
+    "t": "Mis padres",
+    "en": "My parents",
+    "ph": "mees PAH-drehs"
+   },
+   {
+    "t": "Tengo un hermano",
+    "en": "I have a brother",
+    "ph": "TEHN-goh oon ehr-MAH-noh"
+   },
+   {
+    "t": "Tengo una hermana",
+    "en": "I have a sister",
+    "ph": "TEHN-goh OO-nah ehr-MAH-nah"
+   },
+   {
+    "t": "¿Tienes hermanos?",
+    "en": "Do you have brothers or sisters?",
+    "ph": "TYEH-nehs ehr-MAH-nohs"
+   },
+   {
+    "t": "Soy hijo único",
+    "en": "I am an only child",
+    "ph": "soy EE-hoh OO-nee-koh"
+   },
+   {
+    "t": "Este es mi esposo",
+    "en": "This is my husband",
+    "ph": "EHS-teh ehs mee ehs-POH-soh"
+   },
+   {
+    "t": "Estoy casado",
+    "en": "I am married",
+    "ph": "ehs-TOY kah-SAH-doh"
+   },
+   {
+    "t": "Soy soltero",
+    "en": "I am single",
+    "ph": "soy sohl-TEH-roh"
+   },
+   {
+    "t": "Tengo dos hijos",
+    "en": "I have two children",
+    "ph": "TEHN-goh dohs EE-hohs"
+   },
+   {
+    "t": "Mi hija tiene cinco años",
+    "en": "My daughter is five years old",
+    "ph": "mee EE-hah TYEH-neh SEEN-koh AH-nyohs"
+   },
+   {
+    "t": "¿Cuántos años tienes?",
+    "en": "How old are you?",
+    "ph": "KWAHN-tohs AH-nyohs TYEH-nehs"
+   },
+   {
+    "t": "Tengo treinta años",
+    "en": "I am thirty years old",
+    "ph": "TEHN-goh TRAYN-tah AH-nyohs"
+   },
+   {
+    "t": "Mis abuelos",
+    "en": "My grandparents",
+    "ph": "mees ah-BWEH-lohs"
+   },
+   {
+    "t": "Mi tío y mi tía",
+    "en": "My uncle and my aunt",
+    "ph": "mee TEE-oh ee mee TEE-ah"
+   },
+   {
+    "t": "Mi primo",
+    "en": "My cousin",
+    "ph": "mee PREE-moh"
+   },
+   {
+    "t": "Mi mejor amigo",
+    "en": "My best friend",
+    "ph": "mee meh-HOR ah-MEE-goh"
+   },
+   {
+    "t": "Ella es mi amiga",
+    "en": "She is my friend",
+    "ph": "EH-yah ehs mee ah-MEE-gah"
+   },
+   {
+    "t": "¿Tienes hijos?",
+    "en": "Do you have children?",
+    "ph": "TYEH-nehs EE-hohs"
+   },
+   {
+    "t": "Mi padre es médico",
+    "en": "My father is a doctor",
+    "ph": "mee PAH-dreh ehs MEH-dee-koh"
+   },
+   {
+    "t": "Mi madre es maestra",
+    "en": "My mother is a teacher",
+    "ph": "mee MAH-dreh ehs mah-EHS-trah"
+   },
+   {
+    "t": "Ella es mi novia",
+    "en": "She is my girlfriend",
+    "ph": "EH-yah ehs mee NOH-vyah"
+   },
+   {
+    "t": "Somos cuatro en mi familia",
+    "en": "There are four of us in my family",
+    "ph": "SOH-mohs KWAH-troh ehn mee fah-MEE-lyah"
+   }
+  ],
+  "home": [
+   {
+    "t": "Mi casa",
+    "en": "My house",
+    "ph": "mee KAH-sah"
+   },
+   {
+    "t": "Vivo en un apartamento",
+    "en": "I live in a flat",
+    "ph": "VEE-voh ehn oon ah-par-tah-MEHN-toh"
+   },
+   {
+    "t": "La cocina",
+    "en": "The kitchen",
+    "ph": "lah koh-SEE-nah"
+   },
+   {
+    "t": "El dormitorio",
+    "en": "The bedroom",
+    "ph": "ehl dor-mee-TOH-ryoh"
+   },
+   {
+    "t": "El baño",
+    "en": "The bathroom",
+    "ph": "ehl BAH-nyoh"
+   },
+   {
+    "t": "La sala",
+    "en": "The living room",
+    "ph": "lah SAH-lah"
+   },
+   {
+    "t": "Una mesa y una silla",
+    "en": "A table and a chair",
+    "ph": "OO-nah MEH-sah ee OO-nah SEE-yah"
+   },
+   {
+    "t": "La cama",
+    "en": "The bed",
+    "ph": "lah KAH-mah"
+   },
+   {
+    "t": "Enciende la luz",
+    "en": "Turn on the light",
+    "ph": "ehn-SYEHN-deh lah loos"
+   },
+   {
+    "t": "Apaga la luz",
+    "en": "Turn off the light",
+    "ph": "ah-PAH-gah lah loos"
+   },
+   {
+    "t": "Abre la puerta",
+    "en": "Open the door",
+    "ph": "AH-breh lah PWEHR-tah"
+   },
+   {
+    "t": "Cierra la ventana",
+    "en": "Close the window",
+    "ph": "SYEH-rrah lah vehn-TAH-nah"
+   },
+   {
+    "t": "¿Dónde están las llaves?",
+    "en": "Where are the keys?",
+    "ph": "DOHN-deh ehs-TAHN lahs YAH-vehs"
+   },
+   {
+    "t": "Tengo que lavar los platos",
+    "en": "I have to wash the dishes",
+    "ph": "TEHN-goh keh lah-VAR lohs PLAH-tohs"
+   },
+   {
+    "t": "Tengo que limpiar la casa",
+    "en": "I have to clean the house",
+    "ph": "TEHN-goh keh leem-PYAR lah KAH-sah"
+   },
+   {
+    "t": "Voy a cocinar",
+    "en": "I am going to cook",
+    "ph": "voy ah koh-see-NAR"
+   },
+   {
+    "t": "La lavadora",
+    "en": "The washing machine",
+    "ph": "lah lah-vah-DOH-rah"
+   },
+   {
+    "t": "El refrigerador",
+    "en": "The fridge",
+    "ph": "ehl rreh-free-heh-rah-DOR"
+   },
+   {
+    "t": "El alquiler es de mil dólares al mes",
+    "en": "The rent is a thousand dollars a month",
+    "ph": "ehl ahl-kee-LEHR ehs deh meel DOH-lah-rehs ahl mehs"
+   },
+   {
+    "t": "Mi vecino",
+    "en": "My neighbour",
+    "ph": "mee veh-SEE-noh"
+   },
+   {
+    "t": "Está en el segundo piso",
+    "en": "It is on the second floor",
+    "ph": "ehs-TAH ehn ehl seh-GOON-doh PEE-soh"
+   },
+   {
+    "t": "Estás en tu casa",
+    "en": "Make yourself at home",
+    "ph": "ehs-TAHS ehn too KAH-sah"
+   },
+   {
+    "t": "Pasa, por favor",
+    "en": "Come in, please",
+    "ph": "PAH-sah por fah-VOR"
+   },
+   {
+    "t": "¿Hay wifi?",
+    "en": "Is there wifi?",
+    "ph": "eye WEE-fee"
+   },
+   {
+    "t": "La calefacción",
+    "en": "The heating",
+    "ph": "lah kah-leh-fahk-SYOHN"
+   }
+  ],
+  "health": [
+   {
+    "t": "Me duele la cabeza",
+    "en": "I have a headache",
+    "ph": "meh DWEH-leh lah kah-BEH-sah"
+   },
+   {
+    "t": "Me duele el estómago",
+    "en": "I have a stomach ache",
+    "ph": "meh DWEH-leh ehl ehs-TOH-mah-goh"
+   },
+   {
+    "t": "Me duele la garganta",
+    "en": "I have a sore throat",
+    "ph": "meh DWEH-leh lah gar-GAHN-tah"
+   },
+   {
+    "t": "Me duele la espalda",
+    "en": "My back hurts",
+    "ph": "meh DWEH-leh lah ehs-PAHL-dah"
+   },
+   {
+    "t": "Me duele la pierna",
+    "en": "My leg hurts",
+    "ph": "meh DWEH-leh lah PYEHR-nah"
+   },
+   {
+    "t": "Me siento mal",
+    "en": "I feel sick",
+    "ph": "meh SYEHN-toh mahl"
+   },
+   {
+    "t": "Tengo fiebre",
+    "en": "I have a fever",
+    "ph": "TEHN-goh FYEH-breh"
+   },
+   {
+    "t": "Tengo tos",
+    "en": "I have a cough",
+    "ph": "TEHN-goh tohs"
+   },
+   {
+    "t": "Tengo un resfriado",
+    "en": "I have a cold",
+    "ph": "TEHN-goh oon rrehs-FRYAH-doh"
+   },
+   {
+    "t": "Estoy mareado",
+    "en": "I feel dizzy",
+    "ph": "ehs-TOY mah-reh-AH-doh"
+   },
+   {
+    "t": "Necesito un médico",
+    "en": "I need a doctor",
+    "ph": "neh-seh-SEE-toh oon MEH-dee-koh"
+   },
+   {
+    "t": "¿Dónde está el hospital?",
+    "en": "Where is the hospital?",
+    "ph": "DOHN-deh ehs-TAH ehl ohs-pee-TAHL"
+   },
+   {
+    "t": "¿Dónde hay una farmacia?",
+    "en": "Where is there a pharmacy?",
+    "ph": "DOHN-deh eye OO-nah far-MAH-syah"
+   },
+   {
+    "t": "Necesito esta medicina",
+    "en": "I need this medicine",
+    "ph": "neh-seh-SEE-toh EHS-tah meh-dee-SEE-nah"
+   },
+   {
+    "t": "¿Cuántas veces al día?",
+    "en": "How many times a day?",
+    "ph": "KWAHN-tahs VEH-sehs ahl DEE-ah"
+   },
+   {
+    "t": "Soy alérgico a la penicilina",
+    "en": "I am allergic to penicillin",
+    "ph": "soy ah-LEHR-hee-koh ah lah peh-nee-see-LEE-nah"
+   },
+   {
+    "t": "Me duele aquí",
+    "en": "It hurts here",
+    "ph": "meh DWEH-leh ah-KEE"
+   },
+   {
+    "t": "Me corté la mano",
+    "en": "I cut my hand",
+    "ph": "meh kor-TEH lah MAH-noh"
+   },
+   {
+    "t": "Me caí",
+    "en": "I fell",
+    "ph": "meh kah-EE"
+   },
+   {
+    "t": "¡Llame a una ambulancia!",
+    "en": "Call an ambulance!",
+    "ph": "YAH-meh ah OO-nah ahm-boo-LAHN-syah"
+   },
+   {
+    "t": "¡Ayuda!",
+    "en": "Help!",
+    "ph": "ah-YOO-dah"
+   },
+   {
+    "t": "Es una emergencia",
+    "en": "It is an emergency",
+    "ph": "ehs OO-nah eh-mehr-HEHN-syah"
+   },
+   {
+    "t": "Necesito ayuda, por favor",
+    "en": "I need help, please",
+    "ph": "neh-seh-SEE-toh ah-YOO-dah por fah-VOR"
+   },
+   {
+    "t": "Tengo diabetes",
+    "en": "I have diabetes",
+    "ph": "TEHN-goh dyah-BEH-tehs"
+   },
+   {
+    "t": "Me siento mejor",
+    "en": "I feel better",
+    "ph": "meh SYEHN-toh meh-HOR"
+   }
+  ],
+  "feelings": [
+   {
+    "t": "Estoy feliz",
+    "en": "I am happy",
+    "ph": "ehs-TOY feh-LEES"
+   },
+   {
+    "t": "Estoy triste",
+    "en": "I am sad",
+    "ph": "ehs-TOY TREES-teh"
+   },
+   {
+    "t": "Estoy cansado",
+    "en": "I am tired",
+    "ph": "ehs-TOY kahn-SAH-doh"
+   },
+   {
+    "t": "Estoy enojado",
+    "en": "I am angry",
+    "ph": "ehs-TOY eh-noh-HAH-doh"
+   },
+   {
+    "t": "Tengo miedo",
+    "en": "I am afraid",
+    "ph": "TEHN-goh MYEH-doh"
+   },
+   {
+    "t": "Estoy aburrido",
+    "en": "I am bored",
+    "ph": "ehs-TOY ah-boo-RREE-doh"
+   },
+   {
+    "t": "Estoy enamorado",
+    "en": "I am in love",
+    "ph": "ehs-TOY eh-nah-moh-RAH-doh"
+   },
+   {
+    "t": "Estoy nervioso",
+    "en": "I am nervous",
+    "ph": "ehs-TOY nehr-VYOH-soh"
+   },
+   {
+    "t": "Estoy preocupado",
+    "en": "I am worried",
+    "ph": "ehs-TOY preh-oh-koo-PAH-doh"
+   },
+   {
+    "t": "No te preocupes",
+    "en": "Don't worry",
+    "ph": "noh teh preh-oh-KOO-pehs"
+   },
+   {
+    "t": "Me gusta",
+    "en": "I like it",
+    "ph": "meh GOOS-tah"
+   },
+   {
+    "t": "Me encanta",
+    "en": "I love it",
+    "ph": "meh ehn-KAHN-tah"
+   },
+   {
+    "t": "Odio esperar",
+    "en": "I hate waiting",
+    "ph": "OH-dyoh ehs-peh-RAR"
+   },
+   {
+    "t": "Te quiero",
+    "en": "I love you",
+    "ph": "teh KYEH-roh"
+   },
+   {
+    "t": "Estoy emocionado",
+    "en": "I am excited",
+    "ph": "ehs-TOY eh-moh-syoh-NAH-doh"
+   },
+   {
+    "t": "¡Qué sorpresa!",
+    "en": "What a surprise!",
+    "ph": "keh sor-PREH-sah"
+   },
+   {
+    "t": "¿Qué piensas?",
+    "en": "What do you think?",
+    "ph": "keh PYEHN-sahs"
+   },
+   {
+    "t": "Creo que sí",
+    "en": "I think so",
+    "ph": "KREH-oh keh see"
+   },
+   {
+    "t": "Estoy de acuerdo",
+    "en": "I agree",
+    "ph": "ehs-TOY deh ah-KWEHR-doh"
+   },
+   {
+    "t": "No estoy de acuerdo",
+    "en": "I don't agree",
+    "ph": "noh ehs-TOY deh ah-KWEHR-doh"
+   },
+   {
+    "t": "Tienes razón",
+    "en": "You are right",
+    "ph": "TYEH-nehs rrah-SOHN"
+   },
+   {
+    "t": "En mi opinión",
+    "en": "In my opinion",
+    "ph": "ehn mee oh-pee-NYOHN"
+   },
+   {
+    "t": "¿Estás bien?",
+    "en": "Are you okay?",
+    "ph": "ehs-TAHS byehn"
+   },
+   {
+    "t": "Me siento solo",
+    "en": "I feel lonely",
+    "ph": "meh SYEHN-toh SOH-loh"
+   },
+   {
+    "t": "Estoy orgulloso de ti",
+    "en": "I am proud of you",
+    "ph": "ehs-TOY or-goo-YOH-soh deh tee"
+   }
+  ],
+  "work": [
+   {
+    "t": "¿A qué te dedicas?",
+    "en": "What do you do for work?",
+    "ph": "ah keh teh deh-DEE-kahs"
+   },
+   {
+    "t": "Soy ingeniero",
+    "en": "I am an engineer",
+    "ph": "soy een-heh-NYEH-roh"
+   },
+   {
+    "t": "Trabajo en una oficina",
+    "en": "I work in an office",
+    "ph": "trah-BAH-hoh ehn OO-nah oh-fee-SEE-nah"
+   },
+   {
+    "t": "Trabajo desde casa",
+    "en": "I work from home",
+    "ph": "trah-BAH-hoh DEHS-deh KAH-sah"
+   },
+   {
+    "t": "Mi jefe",
+    "en": "My boss",
+    "ph": "mee HEH-feh"
+   },
+   {
+    "t": "Mi compañero de trabajo",
+    "en": "My colleague",
+    "ph": "mee kohm-pah-NYEH-roh deh trah-BAH-hoh"
+   },
+   {
+    "t": "Tengo una reunión",
+    "en": "I have a meeting",
+    "ph": "TEHN-goh OO-nah rreh-oo-NYOHN"
+   },
+   {
+    "t": "La reunión es a las diez",
+    "en": "The meeting is at ten",
+    "ph": "lah rreh-oo-NYOHN ehs ah lahs dyehs"
+   },
+   {
+    "t": "¿Puedo enviarte un correo?",
+    "en": "Can I send you an email?",
+    "ph": "PWEH-doh ehn-VYAR-teh oon koh-RREH-oh"
+   },
+   {
+    "t": "¿Cuál es tu correo electrónico?",
+    "en": "What is your email address?",
+    "ph": "kwahl ehs too koh-RREH-oh eh-lehk-TROH-nee-koh"
+   },
+   {
+    "t": "Estoy ocupado",
+    "en": "I am busy",
+    "ph": "ehs-TOY oh-koo-PAH-doh"
+   },
+   {
+    "t": "Tengo mucho trabajo",
+    "en": "I have a lot of work",
+    "ph": "TEHN-goh MOO-choh trah-BAH-hoh"
+   },
+   {
+    "t": "¿Cuánto es el sueldo?",
+    "en": "What is the salary?",
+    "ph": "KWAHN-toh ehs ehl SWEHL-doh"
+   },
+   {
+    "t": "Soy estudiante",
+    "en": "I am a student",
+    "ph": "soy ehs-too-DYAHN-teh"
+   },
+   {
+    "t": "Estudio español",
+    "en": "I study Spanish",
+    "ph": "ehs-TOO-dyoh ehs-pah-NYOHL"
+   },
+   {
+    "t": "Voy a la escuela",
+    "en": "I go to school",
+    "ph": "voy ah lah ehs-KWEH-lah"
+   },
+   {
+    "t": "La universidad",
+    "en": "The university",
+    "ph": "lah oo-nee-vehr-see-DAHD"
+   },
+   {
+    "t": "Mañana tengo un examen",
+    "en": "I have an exam tomorrow",
+    "ph": "mah-NYAH-nah TEHN-goh oon ehk-SAH-mehn"
+   },
+   {
+    "t": "Tengo mucha tarea",
+    "en": "I have a lot of homework",
+    "ph": "TEHN-goh MOO-chah tah-REH-ah"
+   },
+   {
+    "t": "¿Puede repetir, por favor?",
+    "en": "Can you repeat that, please?",
+    "ph": "PWEH-deh rreh-peh-TEER por fah-VOR"
+   },
+   {
+    "t": "Mi profesora es muy buena",
+    "en": "My teacher is very good",
+    "ph": "mee proh-feh-SOH-rah ehs mooy BWEH-nah"
+   },
+   {
+    "t": "Quiero aprender",
+    "en": "I want to learn",
+    "ph": "KYEH-roh ah-prehn-DEHR"
+   },
+   {
+    "t": "Busco trabajo",
+    "en": "I am looking for a job",
+    "ph": "BOOS-koh trah-BAH-hoh"
+   },
+   {
+    "t": "Tengo una entrevista",
+    "en": "I have an interview",
+    "ph": "TEHN-goh OO-nah ehn-treh-VEES-tah"
+   },
+   {
+    "t": "Hoy no trabajo",
+    "en": "I am not working today",
+    "ph": "oy noh trah-BAH-hoh"
+   }
+  ],
+  "weather": [
+   {
+    "t": "¿Qué tiempo hace?",
+    "en": "What is the weather like?",
+    "ph": "keh TYEHM-poh AH-seh"
+   },
+   {
+    "t": "Hace sol",
+    "en": "It is sunny",
+    "ph": "AH-seh sohl"
+   },
+   {
+    "t": "Hace calor",
+    "en": "It is hot",
+    "ph": "AH-seh kah-LOR"
+   },
+   {
+    "t": "Hace frío",
+    "en": "It is cold",
+    "ph": "AH-seh FREE-oh"
+   },
+   {
+    "t": "Hace viento",
+    "en": "It is windy",
+    "ph": "AH-seh VYEHN-toh"
+   },
+   {
+    "t": "Está lloviendo",
+    "en": "It is raining",
+    "ph": "ehs-TAH yoh-VYEHN-doh"
+   },
+   {
+    "t": "Está nublado",
+    "en": "It is cloudy",
+    "ph": "ehs-TAH noo-BLAH-doh"
+   },
+   {
+    "t": "Está nevando",
+    "en": "It is snowing",
+    "ph": "ehs-TAH neh-VAHN-doh"
+   },
+   {
+    "t": "Llueve mucho",
+    "en": "It rains a lot",
+    "ph": "YWEH-veh MOO-choh"
+   },
+   {
+    "t": "¡Qué día tan hermoso!",
+    "en": "What a beautiful day!",
+    "ph": "keh DEE-ah tahn ehr-MOH-soh"
+   },
+   {
+    "t": "La primavera",
+    "en": "Spring",
+    "ph": "lah pree-mah-VEH-rah"
+   },
+   {
+    "t": "El verano",
+    "en": "Summer",
+    "ph": "ehl veh-RAH-noh"
+   },
+   {
+    "t": "El otoño",
+    "en": "Autumn",
+    "ph": "ehl oh-TOH-nyoh"
+   },
+   {
+    "t": "El invierno",
+    "en": "Winter",
+    "ph": "ehl een-VYEHR-noh"
+   },
+   {
+    "t": "El mar",
+    "en": "The sea",
+    "ph": "ehl mar"
+   },
+   {
+    "t": "La playa",
+    "en": "The beach",
+    "ph": "lah PLAH-yah"
+   },
+   {
+    "t": "La montaña",
+    "en": "The mountain",
+    "ph": "lah mohn-TAH-nyah"
+   },
+   {
+    "t": "El río",
+    "en": "The river",
+    "ph": "ehl RREE-oh"
+   },
+   {
+    "t": "El perro y el gato",
+    "en": "The dog and the cat",
+    "ph": "ehl PEH-rroh ee ehl GAH-toh"
+   },
+   {
+    "t": "Un pájaro",
+    "en": "A bird",
+    "ph": "oon PAH-hah-roh"
+   },
+   {
+    "t": "Me gusta la naturaleza",
+    "en": "I like nature",
+    "ph": "meh GOOS-tah lah nah-too-rah-LEH-sah"
+   },
+   {
+    "t": "¿Qué vas a hacer el fin de semana?",
+    "en": "What are you doing this weekend?",
+    "ph": "keh vahs ah ah-SEHR ehl feen deh seh-MAH-nah"
+   },
+   {
+    "t": "Voy a ir de excursión",
+    "en": "I am going hiking",
+    "ph": "voy ah eer deh ehks-koor-SYOHN"
+   },
+   {
+    "t": "Quizás llueva mañana",
+    "en": "Maybe it will rain tomorrow",
+    "ph": "kee-SAHS YWEH-vah mah-NYAH-nah"
+   },
+   {
+    "t": "Hace buen tiempo",
+    "en": "The weather is nice",
+    "ph": "AH-seh bwehn TYEHM-poh"
+   }
+  ]
+ }
+}

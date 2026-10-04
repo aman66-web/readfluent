@@ -1,0 +1,1529 @@
+{
+ "lang": "zh",
+ "topics": {
+  "greetings": [
+   {
+    "t": "你好",
+    "en": "Hello",
+    "ph": "nǐ hǎo"
+   },
+   {
+    "t": "早上好",
+    "en": "Good morning",
+    "ph": "zǎoshang hǎo"
+   },
+   {
+    "t": "晚上好",
+    "en": "Good evening",
+    "ph": "wǎnshang hǎo"
+   },
+   {
+    "t": "晚安",
+    "en": "Good night",
+    "ph": "wǎn'ān"
+   },
+   {
+    "t": "再见",
+    "en": "Goodbye",
+    "ph": "zàijiàn"
+   },
+   {
+    "t": "一会儿见",
+    "en": "See you in a bit",
+    "ph": "yíhuìr jiàn"
+   },
+   {
+    "t": "谢谢",
+    "en": "Thank you",
+    "ph": "xièxie"
+   },
+   {
+    "t": "非常感谢",
+    "en": "Thank you very much",
+    "ph": "fēicháng gǎnxiè"
+   },
+   {
+    "t": "不客气",
+    "en": "You're welcome",
+    "ph": "bú kèqi"
+   },
+   {
+    "t": "对不起",
+    "en": "I'm sorry",
+    "ph": "duìbuqǐ"
+   },
+   {
+    "t": "没关系",
+    "en": "It doesn't matter / No problem",
+    "ph": "méi guānxi"
+   },
+   {
+    "t": "请",
+    "en": "Please",
+    "ph": "qǐng"
+   },
+   {
+    "t": "劳驾",
+    "en": "Excuse me",
+    "ph": "láojià"
+   },
+   {
+    "t": "很高兴认识你",
+    "en": "Nice to meet you",
+    "ph": "hěn gāoxìng rènshi nǐ"
+   },
+   {
+    "t": "我叫安娜",
+    "en": "My name is Anna",
+    "ph": "wǒ jiào Ānnà"
+   },
+   {
+    "t": "你叫什么名字",
+    "en": "What is your name?",
+    "ph": "nǐ jiào shénme míngzi"
+   },
+   {
+    "t": "你好吗",
+    "en": "How are you?",
+    "ph": "nǐ hǎo ma"
+   },
+   {
+    "t": "我很好，谢谢",
+    "en": "I'm fine, thank you",
+    "ph": "wǒ hěn hǎo, xièxie"
+   },
+   {
+    "t": "你呢",
+    "en": "And you?",
+    "ph": "nǐ ne"
+   },
+   {
+    "t": "是",
+    "en": "Yes / It is",
+    "ph": "shì"
+   },
+   {
+    "t": "不是",
+    "en": "No / It is not",
+    "ph": "bú shì"
+   },
+   {
+    "t": "我听不懂",
+    "en": "I don't understand",
+    "ph": "wǒ tīng bu dǒng"
+   },
+   {
+    "t": "请再说一遍",
+    "en": "Please say it once more",
+    "ph": "qǐng zài shuō yí biàn"
+   },
+   {
+    "t": "请说慢一点",
+    "en": "Please speak more slowly",
+    "ph": "qǐng shuō màn yìdiǎn"
+   },
+   {
+    "t": "你会说英语吗",
+    "en": "Do you speak English?",
+    "ph": "nǐ huì shuō Yīngyǔ ma"
+   }
+  ],
+  "numbers": [
+   {
+    "t": "一、二、三",
+    "en": "One, two, three",
+    "ph": "yī, èr, sān"
+   },
+   {
+    "t": "四、五、六",
+    "en": "Four, five, six",
+    "ph": "sì, wǔ, liù"
+   },
+   {
+    "t": "七、八、九、十",
+    "en": "Seven, eight, nine, ten",
+    "ph": "qī, bā, jiǔ, shí"
+   },
+   {
+    "t": "十一",
+    "en": "Eleven",
+    "ph": "shíyī"
+   },
+   {
+    "t": "十二",
+    "en": "Twelve",
+    "ph": "shí'èr"
+   },
+   {
+    "t": "十五",
+    "en": "Fifteen",
+    "ph": "shíwǔ"
+   },
+   {
+    "t": "二十",
+    "en": "Twenty",
+    "ph": "èrshí"
+   },
+   {
+    "t": "三十",
+    "en": "Thirty",
+    "ph": "sānshí"
+   },
+   {
+    "t": "五十",
+    "en": "Fifty",
+    "ph": "wǔshí"
+   },
+   {
+    "t": "一百",
+    "en": "One hundred",
+    "ph": "yìbǎi"
+   },
+   {
+    "t": "一千",
+    "en": "One thousand",
+    "ph": "yìqiān"
+   },
+   {
+    "t": "一万",
+    "en": "Ten thousand",
+    "ph": "yí wàn"
+   },
+   {
+    "t": "第一",
+    "en": "First",
+    "ph": "dì-yī"
+   },
+   {
+    "t": "第二",
+    "en": "Second",
+    "ph": "dì-èr"
+   },
+   {
+    "t": "多少钱",
+    "en": "How much is it?",
+    "ph": "duōshao qián"
+   },
+   {
+    "t": "有几个",
+    "en": "How many are there?",
+    "ph": "yǒu jǐ ge"
+   },
+   {
+    "t": "十块钱",
+    "en": "Ten yuan",
+    "ph": "shí kuài qián"
+   },
+   {
+    "t": "五十块",
+    "en": "Fifty yuan",
+    "ph": "wǔshí kuài"
+   },
+   {
+    "t": "一半",
+    "en": "Half",
+    "ph": "yíbàn"
+   },
+   {
+    "t": "一点儿",
+    "en": "A little",
+    "ph": "yìdiǎnr"
+   },
+   {
+    "t": "几个",
+    "en": "A few",
+    "ph": "jǐ ge"
+   },
+   {
+    "t": "很多",
+    "en": "A lot",
+    "ph": "hěn duō"
+   },
+   {
+    "t": "一共多少钱",
+    "en": "How much in total?",
+    "ph": "yígòng duōshao qián"
+   },
+   {
+    "t": "请给我一个",
+    "en": "One, please",
+    "ph": "qǐng gěi wǒ yí ge"
+   },
+   {
+    "t": "我们三个人",
+    "en": "There are three of us",
+    "ph": "wǒmen sān ge rén"
+   }
+  ],
+  "time": [
+   {
+    "t": "今天",
+    "en": "Today",
+    "ph": "jīntiān"
+   },
+   {
+    "t": "明天",
+    "en": "Tomorrow",
+    "ph": "míngtiān"
+   },
+   {
+    "t": "昨天",
+    "en": "Yesterday",
+    "ph": "zuótiān"
+   },
+   {
+    "t": "现在几点",
+    "en": "What time is it now?",
+    "ph": "xiànzài jǐ diǎn"
+   },
+   {
+    "t": "现在五点",
+    "en": "It is five o'clock",
+    "ph": "xiànzài wǔ diǎn"
+   },
+   {
+    "t": "我们五点见",
+    "en": "Let's meet at five o'clock",
+    "ph": "wǒmen wǔ diǎn jiàn"
+   },
+   {
+    "t": "早上",
+    "en": "Morning",
+    "ph": "zǎoshang"
+   },
+   {
+    "t": "下午",
+    "en": "Afternoon",
+    "ph": "xiàwǔ"
+   },
+   {
+    "t": "晚上",
+    "en": "Evening / night",
+    "ph": "wǎnshang"
+   },
+   {
+    "t": "今天晚上",
+    "en": "Tonight",
+    "ph": "jīntiān wǎnshang"
+   },
+   {
+    "t": "每天",
+    "en": "Every day",
+    "ph": "měi tiān"
+   },
+   {
+    "t": "下周",
+    "en": "Next week",
+    "ph": "xià zhōu"
+   },
+   {
+    "t": "上周",
+    "en": "Last week",
+    "ph": "shàng zhōu"
+   },
+   {
+    "t": "这个周末",
+    "en": "This weekend",
+    "ph": "zhège zhōumò"
+   },
+   {
+    "t": "星期一",
+    "en": "Monday",
+    "ph": "xīngqī yī"
+   },
+   {
+    "t": "星期二",
+    "en": "Tuesday",
+    "ph": "xīngqī èr"
+   },
+   {
+    "t": "星期三",
+    "en": "Wednesday",
+    "ph": "xīngqī sān"
+   },
+   {
+    "t": "星期四",
+    "en": "Thursday",
+    "ph": "xīngqī sì"
+   },
+   {
+    "t": "星期五",
+    "en": "Friday",
+    "ph": "xīngqī wǔ"
+   },
+   {
+    "t": "星期六",
+    "en": "Saturday",
+    "ph": "xīngqī liù"
+   },
+   {
+    "t": "星期天",
+    "en": "Sunday",
+    "ph": "xīngqī tiān"
+   },
+   {
+    "t": "今天星期几",
+    "en": "What day is it today?",
+    "ph": "jīntiān xīngqī jǐ"
+   },
+   {
+    "t": "一月、二月、三月",
+    "en": "January, February, March",
+    "ph": "yīyuè, èryuè, sānyuè"
+   },
+   {
+    "t": "今天几号",
+    "en": "What is the date today?",
+    "ph": "jīntiān jǐ hào"
+   },
+   {
+    "t": "请稍等",
+    "en": "Please wait a moment",
+    "ph": "qǐng shāo děng"
+   }
+  ],
+  "food": [
+   {
+    "t": "我饿了",
+    "en": "I'm hungry",
+    "ph": "wǒ è le"
+   },
+   {
+    "t": "我渴了",
+    "en": "I'm thirsty",
+    "ph": "wǒ kě le"
+   },
+   {
+    "t": "请给我菜单",
+    "en": "The menu, please",
+    "ph": "qǐng gěi wǒ càidān"
+   },
+   {
+    "t": "请给我水",
+    "en": "Water, please",
+    "ph": "qǐng gěi wǒ shuǐ"
+   },
+   {
+    "t": "我要这个",
+    "en": "I'll have this",
+    "ph": "wǒ yào zhège"
+   },
+   {
+    "t": "你有什么推荐的",
+    "en": "What do you recommend?",
+    "ph": "nǐ yǒu shénme tuījiàn de"
+   },
+   {
+    "t": "一杯咖啡",
+    "en": "A cup of coffee",
+    "ph": "yì bēi kāfēi"
+   },
+   {
+    "t": "请给我茶",
+    "en": "Tea, please",
+    "ph": "qǐng gěi wǒ chá"
+   },
+   {
+    "t": "米饭和汤",
+    "en": "Rice and soup",
+    "ph": "mǐfàn hé tāng"
+   },
+   {
+    "t": "一碗面条",
+    "en": "A bowl of noodles",
+    "ph": "yì wǎn miàntiáo"
+   },
+   {
+    "t": "很好吃",
+    "en": "It's delicious",
+    "ph": "hěn hǎochī"
+   },
+   {
+    "t": "慢慢吃",
+    "en": "Enjoy your meal",
+    "ph": "mànmàn chī"
+   },
+   {
+    "t": "我不吃肉",
+    "en": "I don't eat meat",
+    "ph": "wǒ bù chī ròu"
+   },
+   {
+    "t": "我吃素",
+    "en": "I am a vegetarian",
+    "ph": "wǒ chī sù"
+   },
+   {
+    "t": "我对鸡蛋过敏",
+    "en": "I'm allergic to eggs",
+    "ph": "wǒ duì jīdàn guòmǐn"
+   },
+   {
+    "t": "这里面有什么",
+    "en": "What is in this?",
+    "ph": "zhè lǐmiàn yǒu shénme"
+   },
+   {
+    "t": "不要辣",
+    "en": "Not spicy, please",
+    "ph": "bú yào là"
+   },
+   {
+    "t": "再来一点",
+    "en": "A little more, please",
+    "ph": "zài lái yìdiǎn"
+   },
+   {
+    "t": "买单",
+    "en": "The bill, please",
+    "ph": "mǎidān"
+   },
+   {
+    "t": "可以刷卡吗",
+    "en": "Can I pay by card?",
+    "ph": "kěyǐ shuā kǎ ma"
+   },
+   {
+    "t": "两位",
+    "en": "A table for two",
+    "ph": "liǎng wèi"
+   },
+   {
+    "t": "我订了位子",
+    "en": "I have a reservation",
+    "ph": "wǒ dìng le wèizi"
+   },
+   {
+    "t": "打包",
+    "en": "To go / Please pack it up",
+    "ph": "dǎbāo"
+   },
+   {
+    "t": "面包和沙拉",
+    "en": "Bread and salad",
+    "ph": "miànbāo hé shālā"
+   },
+   {
+    "t": "这个多少钱",
+    "en": "How much is this dish?",
+    "ph": "zhège duōshao qián"
+   }
+  ],
+  "travel": [
+   {
+    "t": "火车站在哪里",
+    "en": "Where is the train station?",
+    "ph": "huǒchēzhàn zài nǎlǐ"
+   },
+   {
+    "t": "厕所在哪里",
+    "en": "Where is the toilet?",
+    "ph": "cèsuǒ zài nǎlǐ"
+   },
+   {
+    "t": "一直走",
+    "en": "Go straight",
+    "ph": "yìzhí zǒu"
+   },
+   {
+    "t": "向右转",
+    "en": "Turn right",
+    "ph": "xiàng yòu zhuǎn"
+   },
+   {
+    "t": "向左转",
+    "en": "Turn left",
+    "ph": "xiàng zuǒ zhuǎn"
+   },
+   {
+    "t": "近吗",
+    "en": "Is it near?",
+    "ph": "jìn ma"
+   },
+   {
+    "t": "远吗",
+    "en": "Is it far?",
+    "ph": "yuǎn ma"
+   },
+   {
+    "t": "我要一张票",
+    "en": "I'd like one ticket",
+    "ph": "wǒ yào yì zhāng piào"
+   },
+   {
+    "t": "我去北京",
+    "en": "I'm going to Beijing",
+    "ph": "wǒ qù Běijīng"
+   },
+   {
+    "t": "这路公共汽车去机场吗",
+    "en": "Does this bus go to the airport?",
+    "ph": "zhè lù gōnggòng qìchē qù jīchǎng ma"
+   },
+   {
+    "t": "下一班车几点",
+    "en": "What time is the next train?",
+    "ph": "xià yì bān chē jǐ diǎn"
+   },
+   {
+    "t": "请叫一辆出租车",
+    "en": "Please call a taxi",
+    "ph": "qǐng jiào yí liàng chūzūchē"
+   },
+   {
+    "t": "请在这里停车",
+    "en": "Please stop here",
+    "ph": "qǐng zài zhèlǐ tíngchē"
+   },
+   {
+    "t": "机场",
+    "en": "Airport",
+    "ph": "jīchǎng"
+   },
+   {
+    "t": "这是我的护照",
+    "en": "Here is my passport",
+    "ph": "zhè shì wǒ de hùzhào"
+   },
+   {
+    "t": "我订了酒店",
+    "en": "I booked a hotel",
+    "ph": "wǒ dìng le jiǔdiàn"
+   },
+   {
+    "t": "有空房间吗",
+    "en": "Do you have a room?",
+    "ph": "yǒu kōng fángjiān ma"
+   },
+   {
+    "t": "一晚多少钱",
+    "en": "How much per night?",
+    "ph": "yì wǎn duōshao qián"
+   },
+   {
+    "t": "我要办理入住",
+    "en": "I'd like to check in",
+    "ph": "wǒ yào bànlǐ rùzhù"
+   },
+   {
+    "t": "请给我一张地图",
+    "en": "A map, please",
+    "ph": "qǐng gěi wǒ yì zhāng dìtú"
+   },
+   {
+    "t": "我迷路了",
+    "en": "I'm lost",
+    "ph": "wǒ mílù le"
+   },
+   {
+    "t": "我的行李丢了",
+    "en": "I lost my luggage",
+    "ph": "wǒ de xíngli diū le"
+   },
+   {
+    "t": "是几号站台",
+    "en": "Which platform is it?",
+    "ph": "shì jǐ hào zhàntái"
+   },
+   {
+    "t": "需要换车吗",
+    "en": "Do I need to change trains?",
+    "ph": "xūyào huàn chē ma"
+   },
+   {
+    "t": "这是哪里",
+    "en": "Where is this place?",
+    "ph": "zhè shì nǎlǐ"
+   }
+  ],
+  "shopping": [
+   {
+    "t": "这个多少钱",
+    "en": "How much is this?",
+    "ph": "zhège duōshao qián"
+   },
+   {
+    "t": "太贵了",
+    "en": "It's too expensive",
+    "ph": "tài guì le"
+   },
+   {
+    "t": "能便宜一点吗",
+    "en": "Can it be a bit cheaper?",
+    "ph": "néng piányi yìdiǎn ma"
+   },
+   {
+    "t": "我买这个",
+    "en": "I'll take this",
+    "ph": "wǒ mǎi zhège"
+   },
+   {
+    "t": "我只是看看",
+    "en": "I'm just looking",
+    "ph": "wǒ zhǐshì kànkan"
+   },
+   {
+    "t": "可以试穿吗",
+    "en": "Can I try it on?",
+    "ph": "kěyǐ shìchuān ma"
+   },
+   {
+    "t": "有大一点的吗",
+    "en": "Do you have a bigger one?",
+    "ph": "yǒu dà yìdiǎn de ma"
+   },
+   {
+    "t": "有小一点的吗",
+    "en": "Do you have a smaller one?",
+    "ph": "yǒu xiǎo yìdiǎn de ma"
+   },
+   {
+    "t": "有别的颜色吗",
+    "en": "Do you have other colors?",
+    "ph": "yǒu bié de yánsè ma"
+   },
+   {
+    "t": "红色",
+    "en": "Red",
+    "ph": "hóngsè"
+   },
+   {
+    "t": "蓝色",
+    "en": "Blue",
+    "ph": "lánsè"
+   },
+   {
+    "t": "白色和黑色",
+    "en": "White and black",
+    "ph": "báisè hé hēisè"
+   },
+   {
+    "t": "绿色",
+    "en": "Green",
+    "ph": "lǜsè"
+   },
+   {
+    "t": "可以用信用卡吗",
+    "en": "Can I use a credit card?",
+    "ph": "kěyǐ yòng xìnyòngkǎ ma"
+   },
+   {
+    "t": "我付现金",
+    "en": "I'll pay in cash",
+    "ph": "wǒ fù xiànjīn"
+   },
+   {
+    "t": "请给我发票",
+    "en": "A receipt, please",
+    "ph": "qǐng gěi wǒ fāpiào"
+   },
+   {
+    "t": "我不要袋子",
+    "en": "I don't need a bag",
+    "ph": "wǒ bú yào dàizi"
+   },
+   {
+    "t": "在哪里可以买到",
+    "en": "Where can I buy it?",
+    "ph": "zài nǎlǐ kěyǐ mǎidào"
+   },
+   {
+    "t": "你们几点关门",
+    "en": "What time do you close?",
+    "ph": "nǐmen jǐ diǎn guānmén"
+   },
+   {
+    "t": "超市在哪里",
+    "en": "Where is the supermarket?",
+    "ph": "chāoshì zài nǎlǐ"
+   },
+   {
+    "t": "药店在哪里",
+    "en": "Where is the pharmacy?",
+    "ph": "yàodiàn zài nǎlǐ"
+   },
+   {
+    "t": "我想找纪念品",
+    "en": "I'm looking for a souvenir",
+    "ph": "wǒ xiǎng zhǎo jìniànpǐn"
+   },
+   {
+    "t": "我很喜欢",
+    "en": "I like it a lot",
+    "ph": "wǒ hěn xǐhuan"
+   },
+   {
+    "t": "我再想想",
+    "en": "I'll think about it",
+    "ph": "wǒ zài xiǎngxiang"
+   },
+   {
+    "t": "请帮我包装一下",
+    "en": "Please gift-wrap it",
+    "ph": "qǐng bāng wǒ bāozhuāng yíxià"
+   }
+  ],
+  "family": [
+   {
+    "t": "这是我的妈妈",
+    "en": "This is my mother",
+    "ph": "zhè shì wǒ de māma"
+   },
+   {
+    "t": "这是我的爸爸",
+    "en": "This is my father",
+    "ph": "zhè shì wǒ de bàba"
+   },
+   {
+    "t": "你有兄弟姐妹吗",
+    "en": "Do you have brothers or sisters?",
+    "ph": "nǐ yǒu xiōngdì jiěmèi ma"
+   },
+   {
+    "t": "我有一个哥哥",
+    "en": "I have an older brother",
+    "ph": "wǒ yǒu yí ge gēge"
+   },
+   {
+    "t": "我有一个妹妹",
+    "en": "I have a younger sister",
+    "ph": "wǒ yǒu yí ge mèimei"
+   },
+   {
+    "t": "我有一个姐姐和一个弟弟",
+    "en": "I have an older sister and a younger brother",
+    "ph": "wǒ yǒu yí ge jiějie hé yí ge dìdi"
+   },
+   {
+    "t": "我是独生子女",
+    "en": "I am an only child",
+    "ph": "wǒ shì dúshēng zǐnǚ"
+   },
+   {
+    "t": "我家有四口人",
+    "en": "There are four people in my family",
+    "ph": "wǒ jiā yǒu sì kǒu rén"
+   },
+   {
+    "t": "爷爷和奶奶",
+    "en": "Paternal grandfather and grandmother",
+    "ph": "yéye hé nǎinai"
+   },
+   {
+    "t": "这是我的丈夫",
+    "en": "This is my husband",
+    "ph": "zhè shì wǒ de zhàngfu"
+   },
+   {
+    "t": "这是我的妻子",
+    "en": "This is my wife",
+    "ph": "zhè shì wǒ de qīzi"
+   },
+   {
+    "t": "我结婚了",
+    "en": "I am married",
+    "ph": "wǒ jiéhūn le"
+   },
+   {
+    "t": "我还没结婚",
+    "en": "I'm not married yet",
+    "ph": "wǒ hái méi jiéhūn"
+   },
+   {
+    "t": "我有孩子",
+    "en": "I have children",
+    "ph": "wǒ yǒu háizi"
+   },
+   {
+    "t": "我儿子五岁",
+    "en": "My son is five years old",
+    "ph": "wǒ érzi wǔ suì"
+   },
+   {
+    "t": "我女儿三岁",
+    "en": "My daughter is three years old",
+    "ph": "wǒ nǚ'ér sān suì"
+   },
+   {
+    "t": "你多大了",
+    "en": "How old are you?",
+    "ph": "nǐ duō dà le"
+   },
+   {
+    "t": "我二十五岁",
+    "en": "I am twenty-five",
+    "ph": "wǒ èrshíwǔ suì"
+   },
+   {
+    "t": "这是我的朋友",
+    "en": "This is my friend",
+    "ph": "zhè shì wǒ de péngyou"
+   },
+   {
+    "t": "他是我的男朋友",
+    "en": "He is my boyfriend",
+    "ph": "tā shì wǒ de nánpéngyou"
+   },
+   {
+    "t": "我爸爸是医生",
+    "en": "My father is a doctor",
+    "ph": "wǒ bàba shì yīshēng"
+   },
+   {
+    "t": "我妈妈是老师",
+    "en": "My mother is a teacher",
+    "ph": "wǒ māma shì lǎoshī"
+   },
+   {
+    "t": "叔叔和阿姨",
+    "en": "Uncle and aunt",
+    "ph": "shūshu hé āyí"
+   },
+   {
+    "t": "我有表兄弟",
+    "en": "I have cousins",
+    "ph": "wǒ yǒu biǎoxiōngdì"
+   },
+   {
+    "t": "宝宝出生了",
+    "en": "The baby was born",
+    "ph": "bǎobao chūshēng le"
+   }
+  ],
+  "home": [
+   {
+    "t": "欢迎来我家",
+    "en": "Welcome to my home",
+    "ph": "huānyíng lái wǒ jiā"
+   },
+   {
+    "t": "请进",
+    "en": "Please come in",
+    "ph": "qǐng jìn"
+   },
+   {
+    "t": "打扰了",
+    "en": "Sorry to disturb you (when entering)",
+    "ph": "dǎrǎo le"
+   },
+   {
+    "t": "请换鞋",
+    "en": "Please change your shoes",
+    "ph": "qǐng huàn xié"
+   },
+   {
+    "t": "别客气，随便坐",
+    "en": "Make yourself at home",
+    "ph": "bié kèqi, suíbiàn zuò"
+   },
+   {
+    "t": "厨房在哪里",
+    "en": "Where is the kitchen?",
+    "ph": "chúfáng zài nǎlǐ"
+   },
+   {
+    "t": "卧室和浴室",
+    "en": "Bedroom and bathroom",
+    "ph": "wòshì hé yùshì"
+   },
+   {
+    "t": "请开灯",
+    "en": "Please turn on the light",
+    "ph": "qǐng kāi dēng"
+   },
+   {
+    "t": "请关灯",
+    "en": "Please turn off the light",
+    "ph": "qǐng guān dēng"
+   },
+   {
+    "t": "请开门",
+    "en": "Please open the door",
+    "ph": "qǐng kāi mén"
+   },
+   {
+    "t": "请关门",
+    "en": "Please close the door",
+    "ph": "qǐng guān mén"
+   },
+   {
+    "t": "我的钥匙丢了",
+    "en": "I lost my key",
+    "ph": "wǒ de yàoshi diū le"
+   },
+   {
+    "t": "我可以开窗吗",
+    "en": "May I open the window?",
+    "ph": "wǒ kěyǐ kāi chuāng ma"
+   },
+   {
+    "t": "我可以开空调吗",
+    "en": "May I turn on the air conditioner?",
+    "ph": "wǒ kěyǐ kāi kōngtiáo ma"
+   },
+   {
+    "t": "桌子和椅子",
+    "en": "Table and chairs",
+    "ph": "zhuōzi hé yǐzi"
+   },
+   {
+    "t": "房租多少钱",
+    "en": "How much is the rent?",
+    "ph": "fángzū duōshao qián"
+   },
+   {
+    "t": "我在找公寓",
+    "en": "I'm looking for an apartment",
+    "ph": "wǒ zài zhǎo gōngyù"
+   },
+   {
+    "t": "我的邻居很友好",
+    "en": "My neighbor is friendly",
+    "ph": "wǒ de línjū hěn yǒuhǎo"
+   },
+   {
+    "t": "我打扫房间",
+    "en": "I clean the house",
+    "ph": "wǒ dǎsǎo fángjiān"
+   },
+   {
+    "t": "我洗衣服",
+    "en": "I do the laundry",
+    "ph": "wǒ xǐ yīfu"
+   },
+   {
+    "t": "我做饭",
+    "en": "I cook",
+    "ph": "wǒ zuò fàn"
+   },
+   {
+    "t": "请放进冰箱",
+    "en": "Please put it in the fridge",
+    "ph": "qǐng fàng jìn bīngxiāng"
+   },
+   {
+    "t": "我去洗澡",
+    "en": "I'm going to take a shower",
+    "ph": "wǒ qù xǐzǎo"
+   },
+   {
+    "t": "无线网密码是什么",
+    "en": "What is the Wi-Fi password?",
+    "ph": "wúxiànwǎng mìmǎ shì shénme"
+   },
+   {
+    "t": "我去倒垃圾",
+    "en": "I'm taking out the trash",
+    "ph": "wǒ qù dào lājī"
+   }
+  ],
+  "health": [
+   {
+    "t": "我不舒服",
+    "en": "I don't feel well",
+    "ph": "wǒ bù shūfu"
+   },
+   {
+    "t": "我头疼",
+    "en": "I have a headache",
+    "ph": "wǒ tóu téng"
+   },
+   {
+    "t": "我肚子疼",
+    "en": "I have a stomachache",
+    "ph": "wǒ dùzi téng"
+   },
+   {
+    "t": "我喉咙疼",
+    "en": "I have a sore throat",
+    "ph": "wǒ hóulóng téng"
+   },
+   {
+    "t": "我发烧了",
+    "en": "I have a fever",
+    "ph": "wǒ fāshāo le"
+   },
+   {
+    "t": "我咳嗽",
+    "en": "I have a cough",
+    "ph": "wǒ késou"
+   },
+   {
+    "t": "我想吐",
+    "en": "I feel nauseous",
+    "ph": "wǒ xiǎng tù"
+   },
+   {
+    "t": "这里疼",
+    "en": "It hurts here",
+    "ph": "zhèlǐ téng"
+   },
+   {
+    "t": "医院在哪里",
+    "en": "Where is the hospital?",
+    "ph": "yīyuàn zài nǎlǐ"
+   },
+   {
+    "t": "我想看医生",
+    "en": "I'd like to see a doctor",
+    "ph": "wǒ xiǎng kàn yīshēng"
+   },
+   {
+    "t": "请给我药",
+    "en": "Medicine, please",
+    "ph": "qǐng gěi wǒ yào"
+   },
+   {
+    "t": "药店在哪里",
+    "en": "Where is the pharmacy?",
+    "ph": "yàodiàn zài nǎlǐ"
+   },
+   {
+    "t": "我过敏",
+    "en": "I have an allergy",
+    "ph": "wǒ guòmǐn"
+   },
+   {
+    "t": "请叫救护车",
+    "en": "Please call an ambulance",
+    "ph": "qǐng jiào jiùhùchē"
+   },
+   {
+    "t": "救命",
+    "en": "Help!",
+    "ph": "jiùmìng"
+   },
+   {
+    "t": "危险",
+    "en": "Danger!",
+    "ph": "wēixiǎn"
+   },
+   {
+    "t": "我受伤了",
+    "en": "I'm injured",
+    "ph": "wǒ shòushāng le"
+   },
+   {
+    "t": "我牙疼",
+    "en": "I have a toothache",
+    "ph": "wǒ yá téng"
+   },
+   {
+    "t": "我眼睛疼",
+    "en": "My eyes hurt",
+    "ph": "wǒ yǎnjing téng"
+   },
+   {
+    "t": "我腿疼",
+    "en": "My leg hurts",
+    "ph": "wǒ tuǐ téng"
+   },
+   {
+    "t": "我在流血",
+    "en": "I'm bleeding",
+    "ph": "wǒ zài liúxiě"
+   },
+   {
+    "t": "我喘不过气",
+    "en": "I can't breathe",
+    "ph": "wǒ chuǎn bu guò qì"
+   },
+   {
+    "t": "我有保险",
+    "en": "I have insurance",
+    "ph": "wǒ yǒu bǎoxiǎn"
+   },
+   {
+    "t": "我想休息",
+    "en": "I want to rest",
+    "ph": "wǒ xiǎng xiūxi"
+   },
+   {
+    "t": "我没事",
+    "en": "I'm okay",
+    "ph": "wǒ méi shì"
+   }
+  ],
+  "feelings": [
+   {
+    "t": "我很高兴",
+    "en": "I'm happy",
+    "ph": "wǒ hěn gāoxìng"
+   },
+   {
+    "t": "很有意思",
+    "en": "It's interesting / fun",
+    "ph": "hěn yǒu yìsi"
+   },
+   {
+    "t": "我很难过",
+    "en": "I'm sad",
+    "ph": "wǒ hěn nánguò"
+   },
+   {
+    "t": "我累了",
+    "en": "I'm tired",
+    "ph": "wǒ lèi le"
+   },
+   {
+    "t": "我困了",
+    "en": "I'm sleepy",
+    "ph": "wǒ kùn le"
+   },
+   {
+    "t": "我很生气",
+    "en": "I'm angry",
+    "ph": "wǒ hěn shēngqì"
+   },
+   {
+    "t": "我很害怕",
+    "en": "I'm scared",
+    "ph": "wǒ hěn hàipà"
+   },
+   {
+    "t": "我很无聊",
+    "en": "I'm bored",
+    "ph": "wǒ hěn wúliáo"
+   },
+   {
+    "t": "我很紧张",
+    "en": "I'm nervous",
+    "ph": "wǒ hěn jǐnzhāng"
+   },
+   {
+    "t": "我很担心",
+    "en": "I'm worried",
+    "ph": "wǒ hěn dānxīn"
+   },
+   {
+    "t": "我非常喜欢",
+    "en": "I like it very much",
+    "ph": "wǒ fēicháng xǐhuan"
+   },
+   {
+    "t": "我喜欢",
+    "en": "I like it",
+    "ph": "wǒ xǐhuan"
+   },
+   {
+    "t": "我不喜欢",
+    "en": "I don't like it",
+    "ph": "wǒ bù xǐhuan"
+   },
+   {
+    "t": "我很讨厌",
+    "en": "I really dislike it",
+    "ph": "wǒ hěn tǎoyàn"
+   },
+   {
+    "t": "我爱你",
+    "en": "I love you",
+    "ph": "wǒ ài nǐ"
+   },
+   {
+    "t": "我吓了一跳",
+    "en": "I was startled",
+    "ph": "wǒ xià le yí tiào"
+   },
+   {
+    "t": "我很不好意思",
+    "en": "I'm embarrassed",
+    "ph": "wǒ hěn bù hǎoyìsi"
+   },
+   {
+    "t": "我很孤独",
+    "en": "I'm lonely",
+    "ph": "wǒ hěn gūdú"
+   },
+   {
+    "t": "我放心了",
+    "en": "I'm relieved",
+    "ph": "wǒ fàngxīn le"
+   },
+   {
+    "t": "我也这么想",
+    "en": "I think so too",
+    "ph": "wǒ yě zhème xiǎng"
+   },
+   {
+    "t": "我不这么想",
+    "en": "I don't think so",
+    "ph": "wǒ bú zhème xiǎng"
+   },
+   {
+    "t": "我同意",
+    "en": "I agree",
+    "ph": "wǒ tóngyì"
+   },
+   {
+    "t": "我不同意",
+    "en": "I disagree",
+    "ph": "wǒ bù tóngyì"
+   },
+   {
+    "t": "你说得对",
+    "en": "You're right",
+    "ph": "nǐ shuō de duì"
+   },
+   {
+    "t": "你觉得怎么样",
+    "en": "What do you think?",
+    "ph": "nǐ juéde zěnmeyàng"
+   }
+  ],
+  "work": [
+   {
+    "t": "你做什么工作",
+    "en": "What do you do for work?",
+    "ph": "nǐ zuò shénme gōngzuò"
+   },
+   {
+    "t": "我是上班族",
+    "en": "I am an office worker",
+    "ph": "wǒ shì shàngbānzú"
+   },
+   {
+    "t": "我是学生",
+    "en": "I am a student",
+    "ph": "wǒ shì xuésheng"
+   },
+   {
+    "t": "我是老师",
+    "en": "I am a teacher",
+    "ph": "wǒ shì lǎoshī"
+   },
+   {
+    "t": "我是工程师",
+    "en": "I am an engineer",
+    "ph": "wǒ shì gōngchéngshī"
+   },
+   {
+    "t": "我在公司工作",
+    "en": "I work at a company",
+    "ph": "wǒ zài gōngsī gōngzuò"
+   },
+   {
+    "t": "我在家工作",
+    "en": "I work from home",
+    "ph": "wǒ zài jiā gōngzuò"
+   },
+   {
+    "t": "我要开会",
+    "en": "I have a meeting",
+    "ph": "wǒ yào kāihuì"
+   },
+   {
+    "t": "我的老板很和气",
+    "en": "My boss is friendly",
+    "ph": "wǒ de lǎobǎn hěn héqi"
+   },
+   {
+    "t": "我和同事聊天",
+    "en": "I chat with my colleagues",
+    "ph": "wǒ hé tóngshì liáotiān"
+   },
+   {
+    "t": "我给你发邮件",
+    "en": "I'll send you an email",
+    "ph": "wǒ gěi nǐ fā yóujiàn"
+   },
+   {
+    "t": "我很忙",
+    "en": "I'm busy",
+    "ph": "wǒ hěn máng"
+   },
+   {
+    "t": "今天我休息",
+    "en": "I'm off today",
+    "ph": "jīntiān wǒ xiūxi"
+   },
+   {
+    "t": "工资是多少",
+    "en": "What is the salary?",
+    "ph": "gōngzī shì duōshao"
+   },
+   {
+    "t": "我去上学",
+    "en": "I go to school",
+    "ph": "wǒ qù shàngxué"
+   },
+   {
+    "t": "我在大学学习",
+    "en": "I study at university",
+    "ph": "wǒ zài dàxué xuéxí"
+   },
+   {
+    "t": "我有作业",
+    "en": "I have homework",
+    "ph": "wǒ yǒu zuòyè"
+   },
+   {
+    "t": "我有考试",
+    "en": "I have an exam",
+    "ph": "wǒ yǒu kǎoshì"
+   },
+   {
+    "t": "我在学中文",
+    "en": "I'm studying Chinese",
+    "ph": "wǒ zài xué Zhōngwén"
+   },
+   {
+    "t": "我有一个问题",
+    "en": "I have a question",
+    "ph": "wǒ yǒu yí ge wèntí"
+   },
+   {
+    "t": "请教教我",
+    "en": "Please teach me",
+    "ph": "qǐng jiāojiao wǒ"
+   },
+   {
+    "t": "几点上课",
+    "en": "What time does class start?",
+    "ph": "jǐ diǎn shàngkè"
+   },
+   {
+    "t": "我下班了",
+    "en": "I finished work",
+    "ph": "wǒ xiàbān le"
+   },
+   {
+    "t": "这是我的名片",
+    "en": "Here is my business card",
+    "ph": "zhè shì wǒ de míngpiàn"
+   },
+   {
+    "t": "我先走了",
+    "en": "I'll be going first",
+    "ph": "wǒ xiān zǒu le"
+   }
+  ],
+  "weather": [
+   {
+    "t": "今天天气很好",
+    "en": "The weather is nice today",
+    "ph": "jīntiān tiānqì hěn hǎo"
+   },
+   {
+    "t": "天晴了",
+    "en": "It's sunny",
+    "ph": "tiān qíng le"
+   },
+   {
+    "t": "阴天",
+    "en": "It's cloudy",
+    "ph": "yīntiān"
+   },
+   {
+    "t": "下雨了",
+    "en": "It's raining",
+    "ph": "xià yǔ le"
+   },
+   {
+    "t": "下雪了",
+    "en": "It's snowing",
+    "ph": "xià xuě le"
+   },
+   {
+    "t": "风很大",
+    "en": "The wind is strong",
+    "ph": "fēng hěn dà"
+   },
+   {
+    "t": "很热",
+    "en": "It's hot",
+    "ph": "hěn rè"
+   },
+   {
+    "t": "很冷",
+    "en": "It's cold",
+    "ph": "hěn lěng"
+   },
+   {
+    "t": "很凉快",
+    "en": "It's cool",
+    "ph": "hěn liángkuai"
+   },
+   {
+    "t": "很暖和",
+    "en": "It's warm",
+    "ph": "hěn nuǎnhuo"
+   },
+   {
+    "t": "明天天气怎么样",
+    "en": "What's the weather tomorrow?",
+    "ph": "míngtiān tiānqì zěnmeyàng"
+   },
+   {
+    "t": "你带伞了吗",
+    "en": "Did you bring an umbrella?",
+    "ph": "nǐ dài sǎn le ma"
+   },
+   {
+    "t": "春天、夏天、秋天、冬天",
+    "en": "Spring, summer, autumn, winter",
+    "ph": "chūntiān, xiàtiān, qiūtiān, dōngtiān"
+   },
+   {
+    "t": "多么美好的一天",
+    "en": "What a beautiful day!",
+    "ph": "duōme měihǎo de yì tiān"
+   },
+   {
+    "t": "我想去海边",
+    "en": "I want to go to the seaside",
+    "ph": "wǒ xiǎng qù hǎibiān"
+   },
+   {
+    "t": "我去爬山",
+    "en": "I'm going hiking in the mountains",
+    "ph": "wǒ qù páshān"
+   },
+   {
+    "t": "河和湖",
+    "en": "River and lake",
+    "ph": "hé hé hú"
+   },
+   {
+    "t": "花很漂亮",
+    "en": "The flowers are pretty",
+    "ph": "huā hěn piàoliang"
+   },
+   {
+    "t": "我喜欢狗和猫",
+    "en": "I like dogs and cats",
+    "ph": "wǒ xǐhuan gǒu hé māo"
+   },
+   {
+    "t": "鸟在唱歌",
+    "en": "The birds are singing",
+    "ph": "niǎo zài chànggē"
+   },
+   {
+    "t": "周末你做什么",
+    "en": "What are you doing this weekend?",
+    "ph": "zhōumò nǐ zuò shénme"
+   },
+   {
+    "t": "周末我去公园",
+    "en": "I'm going to the park this weekend",
+    "ph": "zhōumò wǒ qù gōngyuán"
+   },
+   {
+    "t": "我们一起散步吧",
+    "en": "Let's take a walk together",
+    "ph": "wǒmen yìqǐ sànbù ba"
+   },
+   {
+    "t": "我们去野餐吧",
+    "en": "Let's go on a picnic",
+    "ph": "wǒmen qù yěcān ba"
+   },
+   {
+    "t": "要下大雨了",
+    "en": "It's going to rain heavily",
+    "ph": "yào xià dàyǔ le"
+   }
+  ]
+ }
+}

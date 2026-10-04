@@ -116,6 +116,18 @@ export function RecallView({ talkReady = true }: { /** Whether the server can ru
         {learn ? DECK_SIZES.map((size) => <DeckRow key={size} size={size} lang={learn} language={language} cards={cards} ready={ready} />) : (
           <li><Link href="/languages" className="sheet-card flex min-h-14 items-center rounded-[22px] px-4 text-[14.5px] text-muted">{t("recall.deckPick")}</Link></li>
         )}
+        {learn && (
+          <li data-deck="more">
+            <Link href="/recall/decks" className="relative flex items-center gap-4 overflow-hidden rounded-[26px] bg-gradient-to-br from-[#F0FDFA] to-[#CCFBF1] p-4 shadow-[inset_0_0_0_1px_rgba(13,148,136,.16)] active:scale-[0.99]">
+              <span aria-hidden className="grid size-14 shrink-0 place-items-center rounded-2xl bg-white/80 text-[26px]">🗂️</span>
+              <span className="min-w-0 flex-1">
+                <span className="block text-[16.5px] font-bold leading-tight">{t("recall.decks.more")}</span>
+                <span className="mt-0.5 block text-[13px] text-foreground/70">{t("recall.decks.moreSub", { language })}</span>
+              </span>
+              <svg viewBox="0 0 24 24" className="size-5 shrink-0 text-[var(--ob-deep)] rtl:-scale-x-100" {...stroke} strokeWidth={2.4} aria-hidden><path d="M9 5l7 7-7 7" /></svg>
+            </Link>
+          </li>
+        )}
       </ul>
     </main>
   );
