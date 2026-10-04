@@ -27,6 +27,7 @@ const ADD_MESSAGE: Record<AddResult, Parameters<ReturnType<typeof useT>>[0]> = {
 /** How many places a board shows: the league's real readers, topped up with practice readers. */
 const BOARD_SIZE = 20;
 const subLedger = subscribeTo(LEDGER_KEY);
+const noSubscribe = () => () => {};
 const SEED_KEY = storageKey("board-seed");
 
 /** A name for a row: what they chose, their username, or the start of their code. */
@@ -146,6 +147,8 @@ function Boards({ signedIn, social, onJoin }: { signedIn: boolean; social: Retur
   const t = useT();
   const locale = useLocale();
   const a = useAnswers();
+  // The board is the device's own (its clock, its XP): it is drawn in the browser only, never on the server.
+  const client = useSyncExternalStore(noSubscribe, () => true, () => false);
   const [kind, setKind] = useState<Period>("week");
   const [asked, setAsked] = useState<Record<string, boolean>>({});
   // The practice readers keep reading through the day: the board is worked out again every minute.
@@ -166,7 +169,7 @@ function Boards({ signedIn, social, onJoin }: { signedIn: boolean; social: Retur
     return mergeBoard(real, rivals, BOARD_SIZE);
   }, [kind, now, ledger, server, social.code, social.username, a.name, t]);
 
-  if (waiting) return <p className="mt-8 text-center text-[14px] text-muted" aria-live="polite">…</p>;
+  if (waiting || !client) return <p className="mt-8 text-center text-[14px] text-muted" aria-live="polite">…</p>;
   const left = daysLeft(kind, now);
   const tierIx = kind === "month" ? (server?.tier ?? 0) : 0;
   const monthName = new Intl.DateTimeFormat(locale, { month: "long" }).format(now);
