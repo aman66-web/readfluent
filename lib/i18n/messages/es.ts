@@ -763,6 +763,9 @@ const es: Catalog = {
   "lang.kb.ios": "Abre Ajustes → General → Teclado → Teclados → Añadir teclado nuevo y elige {language}. Para cambiar mientras escribes, toca la tecla del globo 🌐 del teclado.",
   "lang.kb.android": "Abre Ajustes → Sistema → Idiomas y entrada → Teclado en pantalla → Gboard → Idiomas y añade {language}. Para cambiar mientras escribes, toca la tecla del globo 🌐 o mantén pulsada la barra espaciadora.",
   "lang.kb.other": "Añade el teclado de {language} en los ajustes de idioma o de teclado de tu dispositivo y cámbiate a él al escribir.",
+  "reader.roman": "Mostrar en letras latinas",
+  "reader.romanOn": "Mostrando letras latinas",
+  "reader.romanOff": "Mostrando la escritura original",
 };
 
 export default es;

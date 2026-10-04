@@ -764,6 +764,9 @@ const ko: Catalog = {
   "lang.kb.ios": "설정 → 일반 → 키보드 → 키보드 → 새로운 키보드 추가를 열고 {language}을(를) 고르세요. 입력 중에 바꾸려면 키보드의 지구본 키 🌐를 누르세요.",
   "lang.kb.android": "설정 → 시스템 → 언어 및 입력 → 화상 키보드 → Gboard → 언어를 열고 {language}을(를) 추가하세요. 입력 중에 바꾸려면 지구본 키 🌐를 누르거나 스페이스바를 길게 누르세요.",
   "lang.kb.other": "기기의 언어 또는 키보드 설정에서 {language} 키보드를 추가한 다음, 입력할 때 전환하세요.",
+  "reader.roman": "로마자로 보기",
+  "reader.romanOn": "로마자로 표시 중",
+  "reader.romanOff": "원래 문자로 표시 중",
 };
 
 export default ko;

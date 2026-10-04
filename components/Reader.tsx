@@ -1,5 +1,7 @@
 "use client";
 
+import { useRoman } from "@/components/reader/useRoman";
+import { latinMarks, romanText, type Romaniser } from "@/lib/romanise";
 import { usePageKeys } from "@/components/reader/usePageKeys";
 import { keySpans } from "@/lib/reading/keys";
 import type { WordEntry } from "@/lib/preview/spanish";
@@ -56,6 +58,9 @@ const readPrefsRaw = () => readRaw(READER_PREFS_KEY);
 const subscribeLedger = subscribeTo(LEDGER_KEY);
 const readLedgerRaw = () => readRaw(LEDGER_KEY);
 const serverRaw = () => "";
+/** The first letter of each script that can be shown in Latin letters, for the button. */
+const ROMAN_GLYPH: Record<string, string> = { hi: "अ", bn: "অ", zh: "文", ur: "ا", ar: "ع" };
+
 const noSubscribe = () => () => {};
 const onClient = () => true;
 const onServer = () => false;
@@ -134,6 +139,8 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   const scroller = useRef<HTMLDivElement>(null);
   const [index, setIndex] = useState(0);
   const pages = usePageKeys(variant.pages, index, variant.lang);
+  // Hindi, Bengali, Chinese, Urdu and Arabic can be read in Latin letters (a button in the top bar).
+  const roman = useRoman(variant.lang);
   const total = pages.length;
   const onEnd = index >= total;
   const interactive = !!variant.dict;
@@ -398,6 +405,13 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
               {Object.keys(saved).length}
             </button>
           )}
+          {roman.available && (
+            <button type="button" aria-pressed={roman.on} aria-label={t("reader.roman")} title={t("reader.roman")} dir="ltr"
+                    onClick={() => say(roman.toggle() ? t("reader.romanOn") : t("reader.romanOff"))}
+                    className={`grid h-11 min-w-11 shrink-0 place-items-center rounded-full px-1.5 text-[15px] font-bold leading-none ${roman.on ? "bg-accent-bright/25 text-foreground" : "text-muted active:bg-border/60"}`}>
+              <span lang={variant.lang} aria-hidden>{ROMAN_GLYPH[variant.lang] ?? "A"}<span className="text-[12px]">→A</span></span>
+            </button>
+          )}
           {speakable && (
             <button type="button" data-tour="listen" aria-pressed={reading} aria-label={reading ? t("reader.stopListening") : t("reader.listenPage")} onClick={readPageAloud}
                     className={`grid size-11 shrink-0 place-items-center rounded-full ${reading ? "bg-accent-bright/25 text-foreground" : "text-muted active:bg-border/60"}`}>
@@ -466,7 +480,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
               </div>
               <div className="flex-1 overflow-y-auto px-[22px] pb-3 pt-1.5">
                 <div data-tour={interactive ? "text" : undefined} className="-mx-2 px-2">
-                <PageText page={p} interactive={interactive} selected={sel && sel.page === i ? sel.start : -1} selectedEnd={sel && sel.page === i ? sel.end : undefined} lang={variant.lang}
+                <PageText page={p} roman={roman.convert} interactive={interactive} selected={sel && sel.page === i ? sel.start : -1} selectedEnd={sel && sel.page === i ? sel.end : undefined} lang={variant.lang}
                           size={TEXT_SIZES[prefs.size]} colours={prefs.colours} gloss={prefs.gloss && !open}
                           onPick={(word, start) => pick(i, word, start)} />
                 </div>
@@ -556,13 +570,13 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
 }
 
 /** A page's text. Where the version has word cards every word can be tapped, and the matched words are underlined in their colours. */
-function PageText({ page, interactive, selected, selectedEnd, lang, size, colours, gloss, onPick }: { page: ReaderPage; interactive: boolean; selected: number; selectedEnd?: number; lang: string; size: number; colours: boolean; gloss: boolean; onPick: (word: string, start: number) => void }) {
-  if (!interactive) return <p lang={lang} className="font-reading leading-[1.55] text-foreground" style={{ fontSize: size }}>{page.text}</p>;
+function PageText({ page, roman, interactive, selected, selectedEnd, lang, size, colours, gloss, onPick }: { page: ReaderPage; roman: Romaniser | null; interactive: boolean; selected: number; selectedEnd?: number; lang: string; size: number; colours: boolean; gloss: boolean; onPick: (word: string, start: number) => void }) {
+  if (!interactive) return <p lang={roman ? "en" : lang} className="font-reading leading-[1.55] text-foreground" style={{ fontSize: size }}>{roman ? romanText(page.text, roman) : page.text}</p>;
   const keys = page.target?.keys ?? [];
   const spans = keySpans(page.text, keys, "w");
   return (
     <>
-    <p lang={lang} className="font-reading font-medium leading-[1.55] text-foreground" style={{ fontSize: size }}
+    <p lang={roman ? "en" : lang} className="font-reading font-medium leading-[1.55] text-foreground" style={{ fontSize: size }}
        onClick={(e) => { const el = (e.target as HTMLElement).closest<HTMLElement>("[data-w]"); if (el) onPick(el.dataset.w ?? "", Number(el.dataset.s)); }}
        onKeyDown={(e) => {
          if (e.key !== "Enter" && e.key !== " ") return;
@@ -572,6 +586,7 @@ function PageText({ page, interactive, selected, selectedEnd, lang, size, colour
       {tokenize(page.text).map((tok, ti, all) => {
         // The space inside a phrase carries the phrase's colour too, so its underline is one bar, not one per word.
         if (!tok.word) {
+          if (roman && !/^\s+$/.test(tok.text)) return latinMarks(tok.text);
           const before = ti > 0 ? spans.get(all[ti - 1].start) : undefined;
           const after = ti + 1 < all.length ? spans.get(all[ti + 1].start) : undefined;
           const inSel = selected >= 0 && selectedEnd !== undefined && tok.start >= selected && tok.start < selectedEnd;
@@ -584,7 +599,7 @@ function PageText({ page, interactive, selected, selectedEnd, lang, size, colour
         return (
           <span key={tok.start} role="button" tabIndex={0} data-w={tok.word} data-s={tok.start} data-sel={isSel ? "" : undefined}
                 className={`cursor-pointer transition-colors ${k >= 0 && colours ? `key-word key-${(k % 3) + 1} rounded-none` : "rounded-[5px] px-px"} ${isSel ? "bg-accent-bright/30" : "active:bg-accent-bright/20"}`}>
-            {tok.text}
+            {roman ? roman(tok.text) : tok.text}
           </span>
         );
       })}

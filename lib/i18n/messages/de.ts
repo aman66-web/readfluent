@@ -764,6 +764,9 @@ const de: Catalog = {
   "lang.kb.ios": "Öffne Einstellungen → Allgemein → Tastatur → Tastaturen → Neue Tastatur hinzufügen und wähle {language}. Zum Wechseln beim Tippen tippst du auf die Globus-Taste 🌐 der Tastatur.",
   "lang.kb.android": "Öffne Einstellungen → System → Sprachen & Eingabe → Bildschirmtastatur → Gboard → Sprachen und füge {language} hinzu. Zum Wechseln beim Tippen tippst du auf die Globus-Taste 🌐 oder hältst die Leertaste gedrückt.",
   "lang.kb.other": "Füge die Tastatur für {language} in den Sprach- oder Tastatureinstellungen deines Geräts hinzu und wechsle beim Tippen dorthin.",
+  "reader.roman": "In lateinischen Buchstaben zeigen",
+  "reader.romanOn": "Lateinische Buchstaben",
+  "reader.romanOff": "Originalschrift",
 };
 
 export default de;

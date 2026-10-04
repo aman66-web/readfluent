@@ -763,6 +763,9 @@ const fr: Catalog = {
   "lang.kb.ios": "Ouvre Réglages → Général → Clavier → Claviers → Ajouter un clavier, et choisis {language}. Pour changer en tapant, touche la touche globe 🌐 du clavier.",
   "lang.kb.android": "Ouvre Paramètres → Système → Langues et saisie → Clavier à l'écran → Gboard → Langues, et ajoute {language}. Pour changer en tapant, touche la touche globe 🌐 ou maintiens la barre d'espace.",
   "lang.kb.other": "Ajoute le clavier pour le {language} dans les réglages de langue ou de clavier de ton appareil, puis passe dessus pour taper.",
+  "reader.roman": "Afficher en lettres latines",
+  "reader.romanOn": "Lettres latines affichées",
+  "reader.romanOff": "Écriture d'origine affichée",
 };
 
 export default fr;

@@ -766,6 +766,9 @@ const pl: Catalog = {
   "lang.kb.ios": "Otwórz Ustawienia → Ogólne → Klawiatura → Klawiatury → Dodaj klawiaturę i wybierz: {language}. Aby przełączać podczas pisania, dotknij klawisza z globusem 🌐.",
   "lang.kb.android": "Otwórz Ustawienia → System → Języki i wprowadzanie → Klawiatura ekranowa → Gboard → Języki i dodaj: {language}. Aby przełączać podczas pisania, dotknij klawisza z globusem 🌐 lub przytrzymaj spację.",
   "lang.kb.other": "Dodaj klawiaturę: {language} w ustawieniach języka lub klawiatury urządzenia, a potem przełącz się na nią podczas pisania.",
+  "reader.roman": "Pokaż literami łacińskimi",
+  "reader.romanOn": "Litery łacińskie włączone",
+  "reader.romanOff": "Pismo oryginalne włączone",
 };
 
 export default pl;

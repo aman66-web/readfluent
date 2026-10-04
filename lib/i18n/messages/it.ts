@@ -763,6 +763,9 @@ const it: Catalog = {
   "lang.kb.ios": "Apri Impostazioni → Generali → Tastiera → Tastiere → Aggiungi nuova tastiera e scegli {language}. Per cambiare mentre scrivi, tocca il tasto globo 🌐 sulla tastiera.",
   "lang.kb.android": "Apri Impostazioni → Sistema → Lingue e inserimento → Tastiera sullo schermo → Gboard → Lingue e aggiungi {language}. Per cambiare mentre scrivi, tocca il tasto globo 🌐 o tieni premuta la barra spaziatrice.",
   "lang.kb.other": "Aggiungi la tastiera per l'{language} nelle impostazioni di lingua o tastiera del dispositivo, poi passa a essa quando scrivi.",
+  "reader.roman": "Mostra in lettere latine",
+  "reader.romanOn": "Lettere latine attive",
+  "reader.romanOff": "Scrittura originale attiva",
 };
 
 export default it;

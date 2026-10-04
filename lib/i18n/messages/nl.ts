@@ -766,6 +766,9 @@ const nl: Catalog = {
   "lang.kb.ios": "Open Instellingen → Algemeen → Toetsenbord → Toetsenborden → Nieuw toetsenbord toevoegen en kies {language}. Om tijdens het typen te wisselen tik je op de wereldbol-toets 🌐.",
   "lang.kb.android": "Open Instellingen → Systeem → Talen en invoer → Schermtoetsenbord → Gboard → Talen en voeg {language} toe. Om tijdens het typen te wisselen tik je op de wereldbol-toets 🌐 of houd je de spatiebalk ingedrukt.",
   "lang.kb.other": "Voeg het toetsenbord voor {language} toe in de taal- of toetsenbordinstellingen van je apparaat en schakel ernaar over als je typt.",
+  "reader.roman": "Toon in Latijnse letters",
+  "reader.romanOn": "Latijnse letters aan",
+  "reader.romanOff": "Oorspronkelijk schrift aan",
 };
 
 export default nl;

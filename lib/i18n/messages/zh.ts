@@ -762,6 +762,9 @@ const zh: Catalog = {
   "lang.kb.ios": "打开“设置”→“通用”→“键盘”→“键盘”→“添加新键盘”，选择{language}。输入时要切换，点键盘上的地球键🌐。",
   "lang.kb.android": "打开“设置”→“系统”→“语言和输入法”→“屏幕键盘”→Gboard→“语言”，添加{language}。输入时要切换，点地球键🌐，或长按空格键。",
   "lang.kb.other": "在设备的语言或键盘设置中添加{language}键盘，输入时切换到它。",
+  "reader.roman": "用拉丁字母显示",
+  "reader.romanOn": "正在显示拉丁字母",
+  "reader.romanOff": "正在显示原文字",
 };
 
 export default zh;

@@ -727,6 +727,9 @@ const tr: Catalog = {
   "lang.kb.ios": "Ayarlar → Genel → Klavye → Klavyeler → Yeni Klavye Ekle'yi aç ve {language} seç. Yazarken geçiş yapmak için klavyedeki dünya tuşuna 🌐 dokun.",
   "lang.kb.android": "Ayarlar → Sistem → Diller ve giriş → Ekran klavyesi → Gboard → Diller'i aç ve {language} ekle. Yazarken geçiş yapmak için dünya tuşuna 🌐 dokun veya boşluk çubuğuna basılı tut.",
   "lang.kb.other": "{language} klavyesini cihazının dil veya klavye ayarlarından ekle, sonra yazarken ona geç.",
+  "reader.roman": "Latin harfleriyle göster",
+  "reader.romanOn": "Latin harfleri gösteriliyor",
+  "reader.romanOff": "Orijinal yazı gösteriliyor",
 };
 
 export default tr;

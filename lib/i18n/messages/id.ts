@@ -762,6 +762,9 @@ const indonesian: Catalog = {
   "lang.kb.ios": "Buka Pengaturan → Umum → Keyboard → Keyboard → Tambah Keyboard Baru, lalu pilih {language}. Untuk berganti saat mengetik, ketuk tombol globe 🌐 di keyboard.",
   "lang.kb.android": "Buka Pengaturan → Sistem → Bahasa & masukan → Keyboard di layar → Gboard → Bahasa, lalu tambahkan {language}. Untuk berganti saat mengetik, ketuk tombol globe 🌐 atau tekan lama spasi.",
   "lang.kb.other": "Tambahkan keyboard {language} di pengaturan bahasa atau keyboard perangkatmu, lalu beralih ke sana saat mengetik.",
+  "reader.roman": "Tampilkan dengan huruf Latin",
+  "reader.romanOn": "Menampilkan huruf Latin",
+  "reader.romanOff": "Menampilkan aksara asli",
 };
 
 export default indonesian;

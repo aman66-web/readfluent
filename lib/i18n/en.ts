@@ -772,6 +772,9 @@ export const EN = {
   "lang.kb.ios": "Open Settings → General → Keyboard → Keyboards → Add New Keyboard, and choose {language}. To switch while typing, tap the globe key 🌐 on the keyboard.",
   "lang.kb.android": "Open Settings → System → Languages & input → On-screen keyboard → Gboard → Languages, and add {language}. To switch while typing, tap the globe key 🌐, or press and hold the space bar.",
   "lang.kb.other": "Add the {language} keyboard in your device's language or keyboard settings, then switch to it when you type.",
+  "reader.roman": "Show in Latin letters",
+  "reader.romanOn": "Showing Latin letters",
+  "reader.romanOff": "Showing the original script",
 } as const;
 
 export type MessageId = keyof typeof EN;

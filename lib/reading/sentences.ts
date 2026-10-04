@@ -22,10 +22,13 @@ export function tokenize(text: string): Token[] {
   return out;
 }
 
-/** Where each sentence starts and ends: ends at . ! ? (with closing quotes), the last runs to the end. */
+/**
+ * Where each sentence starts and ends: ends at . ! ? or the full stops of other scripts (। ॥ Hindi and Bengali, ۔ ؟ Urdu and
+ * Arabic, 。！？ Chinese and Japanese), with closing quotes after; the last runs to the end.
+ */
 export function sentenceRanges(text: string): [number, number][] {
   const out: [number, number][] = [];
-  const re = /[^.!?]+[.!?]+["'”]*\s*/g;
+  const re = /[^.!?。！？।॥۔؟]+[.!?。！？।॥۔؟]+["'”’」』)]*\s*/gu;
   let m: RegExpExecArray | null;
   let end = 0;
   while ((m = re.exec(text))) { out.push([m.index, m.index + m[0].length]); end = m.index + m[0].length; }

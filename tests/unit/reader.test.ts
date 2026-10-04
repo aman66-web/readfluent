@@ -137,3 +137,20 @@ describe("reading settings", () => {
     for (const s of ["Pages read", "Total XP", "Words saved", "lx-cheer", "lx-hello"]) expect(html, s).toContain(s);
   });
 });
+
+describe("the line shown for a tapped word, in every script", () => {
+  it("follows the sentence the word is in when sentences end with । (Hindi)", async () => {
+    const { translatedLine } = await import("@/lib/reading/sentences");
+    const hi = "लेडी इलियट एक समझदार महिला थी। सर वाल्टर एक विधुर बने रहे। प्रशंसा की जाती थी।";
+    const en = "Lady Elliot was sensible. Sir Walter stayed a widower. Praise was given.";
+    expect(translatedLine(hi, en, hi.indexOf("जाती"))).toBe("Praise was given.");
+    expect(translatedLine(hi, en, hi.indexOf("वाल्टर"))).toBe("Sir Walter stayed a widower.");
+    expect(translatedLine(hi, en, hi.indexOf("समझदार"))).toBe("Lady Elliot was sensible.");
+  });
+  it("also for Chinese, Urdu and Arabic full stops", async () => {
+    const { sentenceRanges } = await import("@/lib/reading/sentences");
+    expect(sentenceRanges("你好。我很好！再见？")).toHaveLength(3);
+    expect(sentenceRanges("آپ کیسے ہیں۔ میں ٹھیک ہوں۔")).toHaveLength(2);
+    expect(sentenceRanges("كيف حالك؟ أنا بخير؟")).toHaveLength(2);
+  });
+});

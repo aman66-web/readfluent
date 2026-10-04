@@ -744,6 +744,9 @@ const vi: Catalog = {
   "lang.kb.ios": "Mở Cài đặt → Cài đặt chung → Bàn phím → Bàn phím → Thêm bàn phím mới, rồi chọn {language}. Để chuyển khi đang gõ, chạm phím quả địa cầu 🌐 trên bàn phím.",
   "lang.kb.android": "Mở Cài đặt → Hệ thống → Ngôn ngữ & phương thức nhập → Bàn phím ảo → Gboard → Ngôn ngữ, rồi thêm {language}. Để chuyển khi đang gõ, chạm phím quả địa cầu 🌐 hoặc nhấn giữ phím cách.",
   "lang.kb.other": "Thêm bàn phím {language} trong cài đặt ngôn ngữ hoặc bàn phím của thiết bị, rồi chuyển sang nó khi gõ.",
+  "reader.roman": "Hiển thị bằng chữ Latinh",
+  "reader.romanOn": "Đang hiện chữ Latinh",
+  "reader.romanOff": "Đang hiện chữ gốc",
 };
 
 export default vi;
