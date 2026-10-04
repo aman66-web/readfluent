@@ -759,6 +759,7 @@ export const EN = {
   "ui.retry": "Try again",
   "me.terms": "Terms of use",
   "me.support": "Help & support",
+  "email.orLink": "The email has a sign-in link: tap it on this phone to sign in. If it shows a 6-digit code instead, type it below.",
 } as const;
 
 export type MessageId = keyof typeof EN;

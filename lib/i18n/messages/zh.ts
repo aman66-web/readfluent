@@ -749,6 +749,7 @@ const zh: Catalog = {
   "ui.retry": "重试",
   "me.terms": "使用条款",
   "me.support": "帮助与支持",
+  "email.orLink": "邮件里有一个登录链接：请在这部手机上点击它。如果邮件里是6位验证码，请在下方输入。",
 };
 
 export default zh;

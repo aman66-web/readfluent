@@ -38,7 +38,7 @@ const NATIVE_CALLBACK_PATH = "auth/callback";
 
 export const isNative = (): boolean => Capacitor.isNativePlatform();
 
-const nativeCallbackUrl = (next: string): string =>
+export const nativeCallbackUrl = (next: string): string =>
   `${NATIVE_SCHEME}://${NATIVE_CALLBACK_PATH}?next=${encodeURIComponent(safeNext(next))}`;
 
 /**

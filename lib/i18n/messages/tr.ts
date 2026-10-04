@@ -714,6 +714,7 @@ const tr: Catalog = {
   "ui.retry": "Tekrar dene",
   "me.terms": "Kullanım koşulları",
   "me.support": "Yardım ve destek",
+  "email.orLink": "E-postada bir giriş bağlantısı var: bu telefonda ona dokun. Onun yerine 6 haneli bir kod varsa aşağıya yaz.",
 };
 
 export default tr;

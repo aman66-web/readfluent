@@ -753,6 +753,7 @@ const pl: Catalog = {
   "ui.retry": "Spróbuj ponownie",
   "me.terms": "Warunki korzystania",
   "me.support": "Pomoc i wsparcie",
+  "email.orLink": "E-mail zawiera link do logowania: dotknij go na tym telefonie. Jeśli jest w nim 6-cyfrowy kod, wpisz go poniżej.",
 };
 
 export default pl;

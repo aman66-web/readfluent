@@ -731,6 +731,7 @@ const vi: Catalog = {
   "ui.retry": "Thử lại",
   "me.terms": "Điều khoản sử dụng",
   "me.support": "Trợ giúp & hỗ trợ",
+  "email.orLink": "Email có liên kết đăng nhập: hãy chạm vào nó trên điện thoại này. Nếu thay vào đó là mã 6 số, hãy nhập bên dưới.",
 };
 
 export default vi;

@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useState, type FormEvent } from "react";
-import { SIGNED_IN, warmUpNativeSignIn } from "@/lib/auth/native";
+import { SIGNED_IN, isNative, nativeCallbackUrl, warmUpNativeSignIn } from "@/lib/auth/native";
+import { callbackUrl } from "@/lib/auth/next";
 import { oauthProviders, signInWith, type OAuthProvider } from "@/lib/auth/providers";
 import { isReviewEmail } from "@/lib/auth/review";
 import { createClient } from "@/lib/db/client";
@@ -37,7 +38,7 @@ const FIELD = "h-14 w-full rounded-full bg-[var(--ob-card)] px-6 text-center fon
  * "Sending the sign-in code".) A store reviewer's address (lib/auth/review) signs in
  * with a password instead, because a reviewer cannot read the inbox the code goes to.
  */
-export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => void }) {
+export function EmailSignIn({ onVerified, next = AFTER_SIGN_IN }: { onVerified?: (email: string) => void; /** Where the link in the email lands (the code is typed in here and needs no landing). */ next?: string }) {
   const t = useT();
   // A message is either one of ours (an id, translated here) or the server's own words, shown as sent.
   const say = (m: string) => (m in EN ? t(m as keyof typeof EN) : m);
@@ -66,7 +67,10 @@ export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => vo
     }
     setStatus({ kind: "sending" });
     try {
-      const { error } = await createClient().auth.signInWithOtp({ email: to });
+      // The email carries a link, and a code too once the email template has one (README, "Sending the sign-in code"):
+      // the link comes back the way Google sign-in does, in the app through its deep link, on the web through /auth/callback.
+      const emailRedirectTo = isNative() ? nativeCallbackUrl(next) : callbackUrl(window.location.origin, next);
+      const { error } = await createClient().auth.signInWithOtp({ email: to, options: { emailRedirectTo } });
       if (error) setStatus({ kind: "error", message: error.message });
       else setStatus({ kind: "sent", email: to });
     } catch {
@@ -94,6 +98,7 @@ export function EmailSignIn({ onVerified }: { onVerified?: (email: string) => vo
       <form onSubmit={verify} className="guide-card relative rounded-[24px] p-5">
         <p className="text-[17px] font-semibold tracking-[-0.01em]">{t("email.enterCode")}</p>
         <p className="ob-muted mt-1.5 text-[13px] leading-snug">{t("email.sent", { email: "\u0001" }).split("\u0001").map((part, i) => (i === 0 ? <span key={i}>{part}</span> : <span key={i}><span className="font-semibold text-[var(--ob-ink)]" dir="ltr">{status.email}</span>{part}</span>))}</p>
+        <p className="ob-muted mt-1.5 text-[13px] leading-snug">{t("email.orLink")}</p>
         <input
           type="text"
           value={code}
@@ -204,7 +209,7 @@ export function SignIn({ error, onNext, onSkip, next = AFTER_SIGN_IN }: { error:
           <span className="h-px flex-1 bg-black/10" aria-hidden />
         </div>
       )}
-      <div className="wel-in" style={{ animationDelay: "200ms" }}><EmailSignIn onVerified={onNext} /></div>
+      <div className="wel-in" style={{ animationDelay: "200ms" }}><EmailSignIn onVerified={onNext} next={next} /></div>
       <button type="button" onClick={onSkip ?? onNext} className="ob-muted h-11 w-full text-[13px] font-semibold">{t("account.notNow")}</button>
     </div>
   );

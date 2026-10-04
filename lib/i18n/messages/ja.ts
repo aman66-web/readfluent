@@ -749,6 +749,7 @@ const ja: Catalog = {
   "ui.retry": "もう一度試す",
   "me.terms": "利用規約",
   "me.support": "ヘルプとサポート",
+  "email.orLink": "メールにログイン用のリンクがあります。このスマホでタップしてください。6桁のコードが書かれている場合は、下に入力してください。",
 };
 
 export default ja;

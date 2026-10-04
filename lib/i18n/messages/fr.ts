@@ -750,6 +750,7 @@ const fr: Catalog = {
   "ui.retry": "Réessayer",
   "me.terms": "Conditions d'utilisation",
   "me.support": "Aide et assistance",
+  "email.orLink": "L'e-mail contient un lien de connexion : touche-le sur ce téléphone. S'il contient plutôt un code à 6 chiffres, saisis-le ci-dessous.",
 };
 
 export default fr;

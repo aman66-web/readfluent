@@ -751,6 +751,7 @@ const de: Catalog = {
   "ui.retry": "Erneut versuchen",
   "me.terms": "Nutzungsbedingungen",
   "me.support": "Hilfe & Support",
+  "email.orLink": "Die E-Mail enthält einen Anmeldelink: Tippe auf diesem Handy darauf. Steht dort stattdessen ein 6-stelliger Code, gib ihn unten ein.",
 };
 
 export default de;

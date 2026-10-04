@@ -750,6 +750,7 @@ const pt: Catalog = {
   "ui.retry": "Tentar de novo",
   "me.terms": "Termos de uso",
   "me.support": "Ajuda e suporte",
+  "email.orLink": "O e-mail traz um link de entrada: toque nele neste celular. Se vier um código de 6 dígitos, digite abaixo.",
 };
 
 export default pt;

@@ -751,6 +751,7 @@ const ko: Catalog = {
   "ui.retry": "다시 시도",
   "me.terms": "이용 약관",
   "me.support": "도움말 및 지원",
+  "email.orLink": "이메일에 로그인 링크가 있어요. 이 휴대폰에서 눌러 주세요. 6자리 코드가 있으면 아래에 입력하세요.",
 };
 
 export default ko;

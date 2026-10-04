@@ -749,6 +749,7 @@ const indonesian: Catalog = {
   "ui.retry": "Coba lagi",
   "me.terms": "Ketentuan penggunaan",
   "me.support": "Bantuan & dukungan",
+  "email.orLink": "Email berisi tautan masuk: ketuk di ponsel ini. Jika yang ada kode 6 digit, ketik di bawah.",
 };
 
 export default indonesian;

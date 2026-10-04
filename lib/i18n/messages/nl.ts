@@ -753,6 +753,7 @@ const nl: Catalog = {
   "ui.retry": "Opnieuw proberen",
   "me.terms": "Gebruiksvoorwaarden",
   "me.support": "Hulp & support",
+  "email.orLink": "De e-mail bevat een inloglink: tik erop op deze telefoon. Staat er een code van 6 cijfers, typ die dan hieronder.",
 };
 
 export default nl;

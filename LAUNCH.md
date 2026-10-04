@@ -15,6 +15,7 @@ Not real yet: the library is **270 books** (30 in each of nine categories), each
 - [ ] **Supabase project**: create it, run `supabase/setup.sql` once (it includes friends and Talk), turn on email and Google (and Apple) sign-in, add the site's address as a redirect. Steps are in `SUPABASE.md`.
 - [ ] **Vercel settings**: add `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY`, then redeploy. `/api/health` should then say `db: true`.
 - [ ] **Anthropic key**: add `ANTHROPIC_API_KEY` (switches on Talk, and is needed to write the other 195 books). Set a monthly spending limit on the key.
+- [ ] **Email sending for sign-in codes** (blocks emailed sign-in at any real size): Supabase's built-in sender is limited to a few emails an hour, sends a link instead of a code, and cannot be edited on the free plan. Needs a custom SMTP service (Brevo/Resend/Postmark) on a domain you own, then the template with `{{ .Token }}` (README, "Sending the sign-in code"). Google and Apple sign-in work without it.
 - [ ] **A real domain** and the address in `PRODUCTION_URL`; a support email address.
 - [ ] **Legal pages, final read**: `/privacy`, `/terms` and `/support` are real pages (3 Oct 2026) but still need a lawyer's or the owner's read, a real support email address, and the data controller's name; add a cookie/analytics notice if you use analytics.
 - [ ] **Decide prices and the free tier** (today's working default: 50-page books free, 100 and 200 paid; £5.99 a month, £39.99 a year).
