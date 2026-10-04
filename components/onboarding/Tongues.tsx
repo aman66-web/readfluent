@@ -1,6 +1,7 @@
 "use client";
 
 import { switchLanguageLedger } from "@/lib/xp/ledger";
+import { prepareLanguageOnce } from "@/lib/translate/prepare";
 import { Modal } from "@/components/Modal";
 import { useRef, useState } from "react";
 import { languageName, loadCatalog } from "@/lib/i18n";
@@ -99,7 +100,7 @@ export function LanguagePicker({ speak, learn, delay = 0, showSpeak = true }: { 
     setOpen(null);
     // The sheet does not offer the other card's language, so this cannot happen from it; the guard is for anything else.
     if (code === (which === "speak" ? learn : speak)) return;
-    if (which === "learn") { switchLanguageLedger(learn, code); saveAnswers({ learn: code }); return; }
+    if (which === "learn") { switchLanguageLedger(learn, code); saveAnswers({ learn: code }); void prepareLanguageOnce(code); return; }
     // The new language's words arrive before it is chosen, so the screen changes once.
     wantedSpeak.current = code;
     void loadCatalog(code).then(() => { if (wantedSpeak.current === code) saveAnswers({ language: code }); });

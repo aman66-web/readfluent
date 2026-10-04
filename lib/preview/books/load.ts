@@ -46,3 +46,14 @@ export async function loadStart(slug: string, lang: string): Promise<StartTransl
   if (!SLUG.test(slug) || !LANG.test(lang) || lang === "en") return null;
   try { return (await import(`./${slug}/${lang}.start.json`)).default as StartTranslation; } catch { return null; }
 }
+
+/**
+ * A whole book translated ahead of time by Apple's translator on a Mac (scripts/apple-translate): the pages of each
+ * level as plain text, and a card for each word of them with its English meaning. `<slug>/<lang>.apple.json`.
+ */
+export interface AppleTranslation { slug: string; lang: string; levels: Record<LevelId, string[]>; dict: Record<string, string> }
+
+export async function loadApple(slug: string, lang: string): Promise<AppleTranslation | null> {
+  if (!SLUG.test(slug) || !LANG.test(lang) || lang === "en") return null;
+  try { return (await import(`./${slug}/${lang}.apple.json`)).default as AppleTranslation; } catch { return null; }
+}

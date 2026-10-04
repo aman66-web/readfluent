@@ -29,6 +29,16 @@ async function fetchStart(slug: string, level: string, lang: string): Promise<{ 
   } catch { return null; }
 }
 
+/** The whole book translated ahead of time (app/api/book-full), if there is one in this language. */
+async function fetchFull(slug: string, level: string, lang: string): Promise<{ pages: string[]; dict: Record<string, WordEntry> } | null> {
+  try {
+    const r = await fetch(`/api/book-full?${new URLSearchParams({ slug, level, lang })}`);
+    if (!r.ok) return null;
+    const b = (await r.json()) as { pages?: string[]; dict?: Record<string, WordEntry> };
+    return b.pages?.length ? { pages: b.pages, dict: b.dict ?? {} } : null;
+  } catch { return null; }
+}
+
 /** The first chapter's pages, in the reader's shape, matched to the English ones. */
 function startPages(start: { pages: { text: string; keys: KeyPair[] }[] }, english: readonly string[]): ReaderPage[] {
   return start.pages.slice(0, english.length).map((p, i) => ({ n: i + 1, text: p.text, scene: i + 1, target: { translation: english[i], keys: p.keys ?? [] } }));
@@ -80,6 +90,17 @@ export function useTranslated(lang: string | null, speak: string, slug: string, 
       // The first chapter, translated ahead of time, where the book has one.
       const start = english && english.length ? await fetchStart(slug, levelSlug, lang) : null;
       const head = start && english ? startPages(start, english) : [];
+      // 0. The whole book, translated ahead of time: nothing to download, and it works in any browser.
+      if (english && english.length) {
+        const full = await fetchFull(slug, levelSlug, lang);
+        if (full && full.pages.length === english.length) {
+          // Chapter 1, where it was written by hand, keeps its own cards and matched words.
+          const pages: ReaderPage[] = full.pages.map((text, i) => head[i] ?? { n: i + 1, text, scene: i + 1, target: { translation: english[i], keys: [] } });
+          const variant: ReaderVariant = { lang: lang as ReaderVariant["lang"], dict: { ...full.dict, ...(start?.dict ?? {}) }, pages };
+          done.set(key, variant);
+          return settle({ state: "ready", variant });
+        }
+      }
       // 1. The phone's own translator, for the rest of the book.
       if (english && english.length) {
         const status = await deviceStatus("en", lang);
