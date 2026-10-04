@@ -120,6 +120,15 @@ say "the server stamps every row with its own clock" t \
 say "so a late row sorts after a cursor that passed it" 1 \
   "$(q "select count(*) from public.sync_docs where doc_id='plane' and updated_at < '2020-06-01' and synced_at >= '2020-06-01'")"
 
+echo "friends, the league, usernames and the weekly board (0004, 0007)"
+for c in social usernames; do
+  if out=$(psql -h "$DIR" -p "$PORT" -U postgres -d postgres -X -q -v ON_ERROR_STOP=1 -tA -f "$HERE/supabase/checks/$c.sql" 2>&1); then
+    printf '  ok   %s\n' "$(printf '%s' "$out" | tail -1)"
+  else
+    printf '  FAIL %s\n%s\n' "$c" "$out"; fail=1
+  fi
+done
+
 echo "the read-only check people paste into a live project"
 psql -h "$DIR" -p "$PORT" -U postgres -d postgres -X -f "$HERE/supabase/checks/plan_guard.sql" | sed 's/^/  /'
 

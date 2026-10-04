@@ -28,7 +28,7 @@ describe("the league table", () => {
 describe("what the server sends back", () => {
   it("tidies friends and drops what is not a row", () => {
     const rows = parseFriends([{ friendship_id: "a", friend_code: "ABCD2345", relation: "incoming", display_name: "Sam", level_code: "A2.1", streak: 3, xp_week: 10, xp_month: 40 }, null, { nope: 1 }]);
-    expect(rows).toEqual([{ id: "a", code: "ABCD2345", relation: "incoming", name: "Sam", level: "A2.1", streak: 3, xpWeek: 10, xpMonth: 40 }]);
+    expect(rows).toEqual([{ id: "a", code: "ABCD2345", relation: "incoming", name: "Sam", level: "A2.1", streak: 3, xpWeek: 10, xpMonth: 40, username: "" }]);
     expect(parseFriends("x")).toEqual([]);
   });
   it("reads a league, and an empty answer is no league", () => {

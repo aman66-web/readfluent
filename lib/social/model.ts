@@ -18,8 +18,10 @@ export interface FriendRow {
   streak: number;
   xpWeek: number;
   xpMonth: number;
+  /** Their username, without the @ (empty until they choose one). */
+  username: string;
 }
-export interface LeagueRow { rank: number; code: string; name: string; level: string; xp: number; me: boolean }
+export interface LeagueRow { rank: number; code: string; name: string; level: string; xp: number; me: boolean; username: string }
 export interface League { tier: number; period: string; size: number; rows: LeagueRow[] }
 
 const isObject = (v: unknown): v is Record<string, unknown> => typeof v === "object" && v !== null && !Array.isArray(v);
@@ -33,7 +35,7 @@ export function parseFriends(data: unknown): FriendRow[] {
   for (const r of data) {
     if (!isObject(r) || typeof r.friendship_id !== "string") continue;
     const relation = r.relation === "incoming" || r.relation === "outgoing" ? r.relation : "friend";
-    out.push({ id: r.friendship_id, code: str(r.friend_code), relation, name: str(r.display_name), level: str(r.level_code), streak: num(r.streak), xpWeek: num(r.xp_week), xpMonth: num(r.xp_month) });
+    out.push({ id: r.friendship_id, code: str(r.friend_code), relation, name: str(r.display_name), level: str(r.level_code), streak: num(r.streak), xpWeek: num(r.xp_week), xpMonth: num(r.xp_month), username: str(r.username) });
   }
   return out;
 }
@@ -50,7 +52,7 @@ export function parseLeague(data: unknown): League | null {
     tier = tierOf(num(r.tier));
     period = str(r.period);
     size = num(r.size);
-    rows.push({ rank: num(r.rank), code: str(r.friend_code), name: str(r.display_name), level: str(r.level_code), xp: num(r.xp), me: r.is_me === true });
+    rows.push({ rank: num(r.rank), code: str(r.friend_code), name: str(r.display_name), level: str(r.level_code), xp: num(r.xp), me: r.is_me === true, username: str(r.username) });
   }
   return rows.length ? { tier, period, size: size || rows.length, rows } : null;
 }
@@ -83,4 +85,35 @@ export function recentXpDays(l: Ledger, now: Date): { day: string; xp: number }[
 /** What the device tells the server about the reader, for friends and the league to see. */
 export function profilePayload(l: Ledger, name: string, now: Date) {
   return { p_name: name, p_level: levelFromXp(totalXp(l)).code, p_xp: totalXp(l), p_streak: streak(l, now), p_days: recentXpDays(l, now) };
+}
+
+/** A username as a reader may choose it: 3 to 20 of a-z, 0-9, _ and . (lower case, no leading _ or ., no ".." or trailing .), and not shaped like a friend code. Mirrors set_username() in 0007. */
+export function usernameProblem(raw: string): "invalid" | null {
+  const name = raw.trim().replace(/^@/, "").toLowerCase();
+  if (!/^[a-z0-9][a-z0-9_.]{2,19}$/.test(name) || /\.\./.test(name) || /\.$/.test(name)) return "invalid";
+  if (/^[ABCDEFGHJKMNPQRSTUVWXYZ23456789]{8}$/.test(name.toUpperCase())) return "invalid";
+  return null;
+}
+
+/** One row of a weekly or monthly board, real or practice. */
+export interface BoardRow { key: string; rank: number; name: string; username: string; level: string; xp: number; me: boolean; rival: boolean; code: string; hue: number }
+
+/**
+ * A board: the real readers of the league (or, before signing in, just the reader) topped up with practice readers to `size`,
+ * ranked by XP. Ties keep real readers above practice readers and the reader above both, so a tie never reads as a loss.
+ */
+export function mergeBoard(real: readonly LeagueRow[], rivals: readonly { id: string; name: string; username: string; level: string; xp: number; hue: number }[], size: number): BoardRow[] {
+  const people: BoardRow[] = real.map((r, i) => ({ key: `real-${r.code || i}`, rank: 0, name: r.name, username: r.username, level: r.level, xp: r.xp, me: r.me, rival: false, code: r.code, hue: hueOf(r.username || r.name || r.code) }));
+  const room = Math.max(0, size - people.length);
+  const bots: BoardRow[] = rivals.slice(0, room).map((r) => ({ key: r.id, rank: 0, name: r.name, username: r.username, level: r.level, xp: r.xp, me: false, rival: true, code: "", hue: r.hue }));
+  const all = [...people, ...bots].sort((a, b) => b.xp - a.xp || Number(b.me) - Number(a.me) || Number(a.rival) - Number(b.rival) || a.name.localeCompare(b.name));
+  let rank = 0;
+  return all.map((r, i) => { if (i === 0 || r.xp !== all[i - 1].xp) rank = i + 1; return { ...r, rank }; });
+}
+
+/** A steady colour for a name's avatar. */
+export function hueOf(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 360;
+  return h;
 }
