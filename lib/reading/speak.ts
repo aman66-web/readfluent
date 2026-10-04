@@ -22,15 +22,24 @@ export function speak(text: string, lang: string, rate: number, onFail?: () => v
   if (!canSpeak()) return false;
   try {
     const synth = window.speechSynthesis;
-    if (noVoiceFor(synth.getVoices(), lang)) return false;
+    const voices = synth.getVoices();
+    if (noVoiceFor(voices, lang)) return false;
+    const busy = synth.speaking || synth.pending;
     synth.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = lang;
     u.rate = rate;
+    // Name the voice: on a phone a bare "fr" can fall back to the device's own language, which then says nothing or the wrong thing.
+    const want = lang.toLowerCase().split("-")[0];
+    const pool = voices.filter((v) => v.lang.toLowerCase().replace("_", "-").split("-")[0] === want);
+    const voice = pool.find((v) => v.lang.toLowerCase().replace("_", "-") === lang.toLowerCase() && v.localService) ?? pool.find((v) => v.localService) ?? pool[0];
+    if (voice) { u.voice = voice; u.lang = voice.lang; }
     // Cancelling the last utterance also fires an error ("interrupted"/"canceled"); only a real one counts.
     u.onerror = (e) => { if (e.error !== "interrupted" && e.error !== "canceled") onFail?.(); onEnd?.(); };
     u.onend = () => onEnd?.();
-    synth.speak(u);
+    // Speech started in the same moment as a cancel is dropped by iOS: give it a beat.
+    const go = () => { try { if (synth.paused) synth.resume(); synth.speak(u); } catch { onFail?.(); onEnd?.(); } };
+    if (busy) window.setTimeout(go, 60); else go();
     return true;
   } catch {
     return false;

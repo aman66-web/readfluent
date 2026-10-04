@@ -1,5 +1,6 @@
 import { tokenize } from "@/lib/reading/sentences";
 import type { Key } from "@/lib/reading/keys";
+import { linkKeys, type Hit } from "./wordalign";
 
 /**
  * Matching the words of a page to the words of its English line, with the phone's own translator, for pages the phone
@@ -65,25 +66,28 @@ export function standsIn(text: string, phrase: string): boolean {
 
 const memo = new Map<string, Key[]>();
 
-/** The matches for one page: `english` is the English page, `target` the same page in `lang`. [] when the phone cannot say. */
-export async function alignPage(english: string, target: string, lang: string): Promise<Key[]> {
+/**
+ * The matches for one page: `english` is the English page, `target` the same page in `lang`; `fixed` are matches written by hand,
+ * which are kept. Every English word is asked about in turn (marked in brackets, all together in one call), and the answers become
+ * matches for all the words that can be matched (lib/translate/wordalign.ts). [] when the phone cannot say.
+ */
+export async function alignPage(english: string, target: string, lang: string, fixed: readonly Key[] = []): Promise<Key[]> {
   if (/^(ja|zh|th)$/.test(lang) || /[\[\]]/.test(english) || !english.trim() || !target.trim()) return [];
-  const cache = `${lang}|${english}`;
+  const cache = `${lang}|${english}|${target}|${fixed.length}`;
   const kept = memo.get(cache);
   if (kept) return kept;
-  const picks = pickKeys(english);
-  if (!picks.length) return [];
+  const ew = tokenize(english).filter((t) => t.word);
+  if (!ew.length) return [];
   let keys: Key[] = [];
   try {
     const { deviceKind, deviceStatus, deviceTranslate } = await import("./device");
     if (!deviceKind() || (await deviceStatus("en", lang)) !== "ready") return [];
-    const marked = picks.map((p) => markRange(english, p.start, p.end));
+    const marked = ew.map((t) => markRange(english, t.start, t.start + t.text.length));
     const out = await deviceTranslate(marked, "en", lang);
-    out.forEach((translated, i) => {
-      const got = bracketed(translated);
-      if (got && standsIn(target, got) && !keys.some((k) => k.w === got)) keys.push({ w: got, en: picks[i].text });
-    });
-  } catch { keys = []; }
+    const hits: Hit[] = [];
+    out.forEach((translated, ei) => { const got = bracketed(translated); if (got) hits.push({ ei, got }); });
+    keys = linkKeys(english, target, hits, fixed);
+  } catch { return []; }
   memo.set(cache, keys);
   return keys;
 }
