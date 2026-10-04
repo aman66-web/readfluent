@@ -136,10 +136,15 @@ body {
 @keyframes lx-z { 0% { opacity: 0; transform: translate(0, 8px) } 30% { opacity: 1 } 100% { opacity: 0; transform: translate(10px, -14px) } }
 .lx-spark { transform-box: fill-box; transform-origin: center; animation: lx-spark 1.6s ease-in-out infinite; }
 @keyframes lx-spark { 0%, 100% { opacity: .2; transform: scale(.6) } 50% { opacity: 1; transform: scale(1.15) } }
+/* The galaxy suit moves through every colour; a pet bobs on its own beat. */
+.lx-galaxy { animation: lx-galaxy 9s linear infinite; }
+@keyframes lx-galaxy { from { filter: hue-rotate(0deg) saturate(1.25) } to { filter: hue-rotate(360deg) saturate(1.25) } }
+.lx-pet { animation: lx-pet 2.6s ease-in-out infinite; animation-delay: -.8s; }
+@keyframes lx-pet { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-4px) } }
 /* Held still for reduced motion: the swapped frames stay hidden rather than flicker, the arms rest. */
 @media (prefers-reduced-motion: reduce) {
   .lx-blink, .lx-talk { animation: none !important; opacity: 0 !important; }
-  .lx-bob, .lx-head, .lx-wave, .lx-cheer-l, .lx-cheer-r, .lx-shadow { animation: none !important; }
+  .lx-bob, .lx-head, .lx-wave, .lx-cheer-l, .lx-cheer-r, .lx-shadow, .lx-pet, .lx-galaxy { animation: none !important; }
   .lx-rise, .lx-z { animation: none !important; opacity: .8; }
 }
 

@@ -1,3 +1,6 @@
+"use client";
+
+import { useSyncExternalStore } from "react";
 import cheerArmL from "./pluto/cheer-arm-l.webp";
 import cheerArmR from "./pluto/cheer-arm-r.webp";
 import cheerBase from "./pluto/cheer-base.webp";
@@ -11,6 +14,10 @@ import readyBlink from "./pluto/ready-blink.webp";
 import readyTalk from "./pluto/ready-talk.webp";
 import ready from "./pluto/ready.webp";
 import sleepy from "./pluto/sleepy.webp";
+import { ACCESSORY, PETS, type Base } from "./wardrobe";
+import { COLOUR_FILTER, PLAIN, type Look } from "@/lib/pluto/shop";
+import { WALLET_KEY, parseWallet, subscribeWallet } from "@/lib/pluto/wallet";
+import { readRaw } from "@/lib/store/local";
 
 /**
  * The app's mascot, Pluto (owner, 4 Oct 2026; its name is `MASCOT_NAME` in lib/brand.ts): a little space reader in a
@@ -28,6 +35,9 @@ import sleepy from "./pluto/sleepy.webp";
  *
  * `talking` opens and closes the mouth (hello and ready) and quickens the bob. `crop="head"` shows the helmet and
  * shoulders, for the small round avatar.
+ *
+ * What Pluto wears (a colour, a hat, shades, a pet: lib/pluto/shop.ts) is the reader's own, bought with coins
+ * (lib/pluto/wallet.ts), and shows wherever Pluto is. `look` overrides it (the shop's previews).
  */
 export type Mood = "hello" | "reading" | "cheer" | "sleepy" | "ready";
 
@@ -40,6 +50,9 @@ const FOOT: [number, number] = [120, 226];
 const at = ([u, v]: [number, number]): [number, number] => [FOOT[0] + (u - FOOT[0]) * K, FOOT[1] + (v - FOOT[1]) * K];
 /** The shoulders the arm layers turn on (scripts/mascot/pivots.json, in the 240 box), moved with the figure. */
 const PIVOT = { wave: at([142.9, 148]), cheerL: at([94.2, 146.8]), cheerR: at([145.7, 147.3]) };
+
+const BASE: Record<Mood, Base> = { hello: "hello-base", reading: "reading", cheer: "cheer-base", sleepy: "sleepy", ready: "ready" };
+const server = () => "";
 
 const POSE: Record<Mood, { base: Img; blink?: Img; talk?: Img }> = {
   hello: { base: helloBase, blink: helloBlink, talk: helloTalk },
@@ -58,8 +71,14 @@ function Layer({ src, className }: { src: Img; className?: string }) {
   return <image href={url(src)} x={FOOT[0] - FOOT[0] * K} y={FOOT[1] - FOOT[1] * K} width={size} height={size} className={className} />;
 }
 
-export function Mascot({ mood = "hello", talking = false, crop, className = "" }: { mood?: Mood; talking?: boolean; crop?: "head"; className?: string }) {
+export function Mascot({ mood = "hello", talking = false, crop, className = "", look: given }: { mood?: Mood; talking?: boolean; crop?: "head"; className?: string; look?: Look }) {
+  const raw = useSyncExternalStore(subscribeWallet, () => readRaw(WALLET_KEY), server);
+  const look = given ?? (raw ? parseWallet(raw).look : PLAIN);
   const pose = POSE[mood];
+  // The suit's colour: a tint on Pluto's own layers (the galaxy one moves through every colour).
+  const tint = look.colour === "galaxy" ? { className: "lx-galaxy" } : look.colour !== "cyan" && COLOUR_FILTER[look.colour] ? { style: { filter: COLOUR_FILTER[look.colour] } } : {};
+  const wearing = [look.head, look.face].flatMap((id) => { const img = id ? ACCESSORY[id]?.[BASE[mood]] : undefined; return img && id ? [{ id, img }] : []; });
+  const pet = look.pet ? PETS[look.pet] : undefined;
   return (
     <svg viewBox={crop === "head" ? "40 18 160 139" : "0 0 240 240"} className={`lx ${crop ? "lx-cropped" : ""} ${talking ? "lx-talking" : ""} lx-${mood} ${className}`} aria-hidden>
       <ellipse className="lx-shadow" cx="120" cy="229" rx="54" ry="4.5" fill="#082F3E" opacity=".14" />
@@ -85,20 +104,24 @@ export function Mascot({ mood = "hello", talking = false, crop, className = "" }
       <svg x="0" y="0" width="240" height="240" viewBox="0 0 240 240" overflow="visible">
         <g className="lx-bob">
           <g className="lx-head">
-            <Layer src={pose.base} />
-            {pose.blink && <Layer src={pose.blink} className="lx-blink" />}
-            {talking && pose.talk && <Layer src={pose.talk} className="lx-talk" />}
+            <g {...tint}>
+              <Layer src={pose.base} />
+              {pose.blink && <Layer src={pose.blink} className="lx-blink" />}
+              {talking && pose.talk && <Layer src={pose.talk} className="lx-talk" />}
+            </g>
+            {wearing.map((w) => <Layer key={w.id} src={w.img} />)}
             {mood === "hello" && (
-              <g className="lx-wave" style={{ transformOrigin: `${PIVOT.wave[0]}px ${PIVOT.wave[1]}px` }}><Layer src={helloArm} /></g>
+              <g className="lx-wave" style={{ transformOrigin: `${PIVOT.wave[0]}px ${PIVOT.wave[1]}px` }}><g {...tint}><Layer src={helloArm} /></g></g>
             )}
             {mood === "cheer" && (
               <>
-                <g className="lx-cheer-l" style={{ transformOrigin: `${PIVOT.cheerL[0]}px ${PIVOT.cheerL[1]}px` }}><Layer src={cheerArmL} /></g>
-                <g className="lx-cheer-r" style={{ transformOrigin: `${PIVOT.cheerR[0]}px ${PIVOT.cheerR[1]}px` }}><Layer src={cheerArmR} /></g>
+                <g className="lx-cheer-l" style={{ transformOrigin: `${PIVOT.cheerL[0]}px ${PIVOT.cheerL[1]}px` }}><g {...tint}><Layer src={cheerArmL} /></g></g>
+                <g className="lx-cheer-r" style={{ transformOrigin: `${PIVOT.cheerR[0]}px ${PIVOT.cheerR[1]}px` }}><g {...tint}><Layer src={cheerArmR} /></g></g>
               </>
             )}
           </g>
         </g>
+        {pet && <g className="lx-pet"><Layer src={pet} /></g>}
       </svg>
     </svg>
   );

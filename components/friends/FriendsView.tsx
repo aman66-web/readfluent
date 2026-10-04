@@ -4,14 +4,15 @@ import { useCallback, useEffect, useMemo, useState, useSyncExternalStore, type F
 import { BackLink } from "@/components/BackLink";
 import "../../app/welcome/welcome.css";
 import { SignIn } from "@/components/onboarding/SignIn";
-import { APP_NAME, storageKey } from "@/lib/brand";
+import { APP_NAME } from "@/lib/brand";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { NeedsSignIn, addFriend, myBoard, myFriends, myUsername, removeFriend, respondFriend, setUsername, syncProfile, type AddResult, type UsernameResult } from "@/lib/social/api";
 import { saveSocial } from "@/lib/social/cache";
+import { boardSeed } from "@/lib/social/seed";
 import { DEMOTE, PROMOTE, TIERS, hueOf, mergeBoard, profilePayload, usernameProblem, zoneOf, type BoardRow, type FriendRow, type League } from "@/lib/social/model";
 import { daysLeft, myXpIn, paceOf, rivalsFor, type Period } from "@/lib/social/rivals";
-import { readRaw, subscribeTo, writeRaw } from "@/lib/store/local";
+import { readRaw, subscribeTo } from "@/lib/store/local";
 import { levelFromXp } from "@/lib/xp/levels";
 import { LEDGER_KEY, parseLedger, totalXp } from "@/lib/xp/ledger";
 import { useSignedIn } from "./useSignedIn";
@@ -28,7 +29,6 @@ const ADD_MESSAGE: Record<AddResult, Parameters<ReturnType<typeof useT>>[0]> = {
 const BOARD_SIZE = 20;
 const subLedger = subscribeTo(LEDGER_KEY);
 const noSubscribe = () => () => {};
-const SEED_KEY = storageKey("board-seed");
 
 /** A name for a row: what they chose, their username, or the start of their code. */
 const shown = (name: string, code: string, username = ""): string => name.trim() || (username ? `@${username}` : `#${code.slice(0, 4)}`);
@@ -40,14 +40,6 @@ function Avatar({ name, me, hue }: { name: string; me?: boolean; hue?: number })
       {Array.from(name.replace(/^[#@]/, ""))[0] ?? "?"}
     </span>
   );
-}
-
-/** A seed of this device's own, so practice readers differ from one reader to the next (the friend code, once there is one). */
-function boardSeed(code: string): string {
-  if (code) return code;
-  let s = readRaw(SEED_KEY);
-  if (!s) { s = Math.random().toString(36).slice(2, 10); writeRaw(SEED_KEY, s); }
-  return s;
 }
 
 /** What the signed-in reader's screens need from the server: they are reported first, then friends, username and both boards. */

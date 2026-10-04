@@ -18,6 +18,7 @@ import { Boost } from "@/components/home/Boost";
 import { FriendsCard } from "@/components/friends/FriendsCard";
 import { NewBadge } from "@/components/badges/NewBadge";
 import { LevelCard } from "./LevelCard";
+import { PlutoCard } from "@/components/pluto/PlutoCard";
 import { StudyChart } from "./StudyChart";
 
 /** The covers fanned on the way into the library. */
@@ -69,6 +70,8 @@ export function Dashboard() {
       </div>
 
       <div className="mt-4">
+        <PlutoCard />
+        <div className="h-3" />
         <LevelCard xp={totalXp(ledger)} earned={rawXp(ledger)} learn={a.learn} exam={exam} />
         <CarryOn books={PREVIEW_BOOKS} />
         <NewBadge />
