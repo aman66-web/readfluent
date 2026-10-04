@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- The paper colour (the background variable in app/globals.css), behind the open book,
-         so the adaptive icon reads as the same app on the home screen. -->
-    <color name="ic_launcher_background">#F6F1E7</color>
+    <!-- The icon's cyan sky (public/icon.svg), behind Pluto, so the adaptive icon reads as the same app. -->
+    <color name="ic_launcher_background">#0FA5C6</color>
 </resources>

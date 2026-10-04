@@ -8,7 +8,7 @@ import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.j
 
 // One renderer for every asset: 720x720, transparent, the same orthographic front camera, so layers line up exactly.
 // The 240x240 box of the app's mascot maps to world x,y in [-3, 3] (x right, y up): u = (x + 3) * 40, v = (3 - y) * 40.
-const SIZE = 720;
+const SIZE = Number(new URLSearchParams(location.search).get("size")) || 720;
 const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
 renderer.setPixelRatio(1);
 renderer.setSize(SIZE, SIZE);

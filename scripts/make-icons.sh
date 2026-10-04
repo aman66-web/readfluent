@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Regenerates every raster icon and splash screen from public/icon.svg.
 #
-# The artwork is a placeholder (an open book on paper) until there is a real
-# identity; replace public/icon.svg and public/icon-maskable.svg, run this, and
+# The artwork is Pluto waving on a cyan sky (public/icon.svg and icon-maskable.svg,
+# written by scripts/mascot/icon.mjs from the 3D model); run this after it and
 # every size — web, iOS, Android — follows. Needs ImageMagick (`convert`) and a
 # Chromium to rasterise the SVGs (CHROMIUM=/path/to/chrome, or the Playwright
 # one at /opt/pw-browsers is found).
@@ -11,7 +11,7 @@
 set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 
-PAPER="#F6F1E7"
+PAPER="#FFFFFF"
 SVG="public/icon.svg"
 MASK="public/icon-maskable.svg"
 R="android/app/src/main/res"
@@ -25,11 +25,14 @@ WORK="$(mktemp -d)"; trap 'rm -rf "$WORK"' EXIT
 master() { # svg -> png path
   local out="$WORK/$(basename "$1" .svg)-$RANDOM.png"
   "$CHROMIUM" --headless --no-sandbox --disable-gpu --hide-scrollbars \
-    --default-background-color=00000000 --window-size=1024,1024 --screenshot="$out" "file://$(realpath "$1")" >/dev/null 2>&1
+    --default-background-color=00000000 --window-size=1024,1280 --screenshot="$out" "file://$(realpath "$1")" >/dev/null 2>&1
+  # Headless windows lose some height to the frame: shoot taller, keep the top 1024 square (the SVGs are 1024 by 1024).
+  convert "$out" -crop 1024x1024+0+0 +repage "$out"
   echo "$out"
 }
 M_ICON="$(master "$SVG")"; M_MASK="$(master "$MASK")"
-sed '/<rect/d' "$SVG" > "$WORK/mark.svg"; M_MARK="$(master "$WORK/mark.svg")"
+# The mark (splash screens, Android's adaptive foreground): public/icon-mark.svg if there is one, else the icon without its ground.
+if [ -f public/icon-mark.svg ]; then M_MARK="$(master public/icon-mark.svg)"; else sed '/<rect/d' "$SVG" > "$WORK/mark.svg"; M_MARK="$(master "$WORK/mark.svg")"; fi
 
 render() { # svg size out  — the svg picks which master
   local src="$M_ICON"; [ "$1" = "$MASK" ] && src="$M_MASK"; [ "$1" = "mark" ] && src="$M_MARK"
