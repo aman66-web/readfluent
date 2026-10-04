@@ -7,12 +7,13 @@ const MOODS: Mood[] = ["hello", "reading", "cheer", "sleepy", "ready"];
 const draw = (props: Parameters<typeof Mascot>[0]) => renderToStaticMarkup(createElement(Mascot, props));
 
 describe("Pluto, the mascot", () => {
-  it("draws in every pose, with round eyes in pale discs, and hidden from screen readers", () => {
+  it("draws in every pose, from its rendered 3D layers, and hidden from screen readers", () => {
     for (const mood of MOODS) {
       const svg = draw({ mood });
       expect(svg, mood).toContain(`lx-${mood}`);
       expect(svg, mood).toContain('aria-hidden="true"');
       expect(svg, mood).toContain("lx-head");
+      expect(svg, mood).toMatch(/<image [^>]*href="[^"]+\.webp"/);
     }
   });
 
@@ -28,7 +29,7 @@ describe("Pluto, the mascot", () => {
   it("moves its mouth while it talks, and crops to the head for the small avatar", () => {
     expect(draw({ mood: "hello" })).not.toContain("lx-talk");
     expect(draw({ mood: "hello", talking: true })).toContain("lx-talk");
-    expect(draw({ crop: "head" })).toContain('viewBox="52 40 136 118"');
+    expect(draw({ crop: "head" })).toContain('viewBox="40 18 160 139"');
     expect(draw({})).toContain('viewBox="0 0 240 240"');
   });
 });

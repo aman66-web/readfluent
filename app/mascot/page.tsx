@@ -5,10 +5,10 @@ export const metadata = { title: `Meet ${MASCOT_NAME} · ${APP_NAME}` };
 
 const POSES: readonly { mood: Mood; label: string; note: string }[] = [
   { mood: "hello", label: "Hello", note: "Waves hello. The welcome, and the guide's lines." },
-  { mood: "reading", label: "Reading", note: "Eyes on the page, a letter floating off it." },
+  { mood: "reading", label: "Reading", note: "A book in its hands, a letter floating off the page." },
   { mood: "cheer", label: "Cheering", note: "A level up, a finished book, a streak kept." },
   { mood: "sleepy", label: "Sleepy", note: "Dozing off when you have been away a while." },
-  { mood: "ready", label: "Ready", note: "Wide-eyed and eager: \"just a few quick questions\"." },
+  { mood: "ready", label: "Ready", note: "Bright-eyed, thumbs up: \"just a few quick questions\"." },
 ];
 
 /** A page for looking at the mascot: every pose, and the small head that sits beside the guide's lines. */
@@ -16,7 +16,7 @@ export default function MascotPage() {
   return (
     <main className="mx-auto max-w-[440px] px-5 pb-16 pt-8">
       <h1 className="text-[30px] font-bold tracking-[-0.02em]">Meet {MASCOT_NAME}</h1>
-      <p className="mt-1 text-[15px] leading-snug text-muted">An owl who sits on an open book: the old picture of someone who reads, calm and watchful. {MASCOT_NAME} is your guide.</p>
+      <p className="mt-1 text-[15px] leading-snug text-muted">A little space reader in a cyan suit, with a glowing face on its visor and a book on its badge. {MASCOT_NAME} is your guide, made in 3D.</p>
       <div className="mt-6 grid grid-cols-2 gap-3">
         {POSES.map((p) => (
           <figure key={p.mood} className="rounded-[22px] border border-border bg-surface p-3">

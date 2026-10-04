@@ -47,7 +47,7 @@ sync. Free is the 50-page samples; 100 and 200 are paid. A version someone has s
 stays open. Prices and rules live in `lib/plan.ts` and nowhere else. The server alone
 writes `users.plan`; never grant a client the right to.
 
-Brand (owner, 1 Oct 2026): the colour is cyan, not orange. `BRAND` in `lib/brand.ts` is the one source (bright #22D3EE on dark, deep #0E7490 on paper); `--accent` in `app/globals.css` mirrors it. A test fails if the old orange returns. Use the tokens, never a hex.
+Brand (owner, 1 Oct 2026): the colour is cyan, not orange. The mascot is Pluto (owner, 4 Oct 2026; was Dewey the owl): a cyan 3D space reader, rendered from `scripts/mascot/pluto.js`, not an animal. `BRAND` in `lib/brand.ts` is the one source (bright #22D3EE on dark, deep #0E7490 on paper); `--accent` in `app/globals.css` mirrors it. A test fails if the old orange returns. Use the tokens, never a hex.
 
 Credentials: nothing is copied from Mental Stint. Own Supabase, Vercel, RevenueCat and
 store keystores. `.env*`, keystores and `.p8`/`.p12` files are never committed.

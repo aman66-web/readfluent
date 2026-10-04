@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:transparent}</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script></head>
+<body><script type="module">
+import * as THREE from "three";
+import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
+import * as BufferGeometryUtils from "three/addons/utils/BufferGeometryUtils.js";
+import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
+
+// One renderer for every asset: 720x720, transparent, the same orthographic front camera, so layers line up exactly.
+// The 240x240 box of the app's mascot maps to world x,y in [-3, 3] (x right, y up): u = (x + 3) * 40, v = (3 - y) * 40.
+const SIZE = 720;
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1);
+renderer.setSize(SIZE, SIZE);
+renderer.setClearColor(0x000000, 0);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.NeutralToneMapping;
+renderer.toneMappingExposure = 1;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+document.body.appendChild(renderer.domElement);
+const pmrem = new THREE.PMREMGenerator(renderer);
+const envTex = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+
+window.renderAsset = async (modUrl, name) => {
+  const mod = await import(modUrl);
+  const scene = new THREE.Scene();
+  scene.environment = envTex;
+  const camera = new THREE.OrthographicCamera(-3, 3, 3, -3, 0.1, 100);
+  camera.position.set(0, 0, 30);
+  camera.lookAt(0, 0, 0);
+  const helpers = { RoomEnvironment, BufferGeometryUtils, RoundedBoxGeometry, renderer, camera };
+  if (mod.setupScene) await mod.setupScene(THREE, scene, helpers);
+  else {
+    const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(-3, 5, 8); scene.add(key);
+    const rim = new THREE.DirectionalLight(0xffffff, 0.8); rim.position.set(4, 2, -4); scene.add(rim);
+    scene.add(new THREE.AmbientLight(0xffffff, 0.25));
+  }
+  const group = await mod.buildPluto(THREE, name, helpers);
+  scene.add(group);
+  renderer.render(scene, camera);
+  const url = renderer.domElement.toDataURL("image/png");
+  scene.traverse((o) => { if (o.geometry) o.geometry.dispose(); });
+  return url;
+};
+window.ready = true;
+</script></body></html>

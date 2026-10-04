@@ -103,41 +103,45 @@ body {
 /* The menu's pill slides to the tab that is open. */
 .tab-ind { transition: transform .35s cubic-bezier(.3, 1.2, .5, 1), width .3s ease; }
 
-/* ── The mascot (components/mascot/Mascot) ───────────────────────────────── */
+/* ── The mascot, Pluto (components/mascot/Mascot): rendered 3D layers, moved here ──────────────────────── */
 .lx { overflow: visible; }
 /* The small head-and-shoulders avatar shows only what is inside its frame. */
 .lx-cropped { overflow: hidden; }
 .lx-bob { animation: lx-bob 3.6s ease-in-out infinite; }
 .lx-talking .lx-bob { animation-duration: 1.5s; }
 @keyframes lx-bob { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-5px) } }
-.lx-sleepy .lx-bob { animation: lx-breathe 4.4s ease-in-out infinite; transform-origin: 50% 100%; }
-@keyframes lx-breathe { 0%, 100% { transform: scale(1) } 50% { transform: scale(1.015, 1.03) } }
+.lx-sleepy .lx-bob { animation: lx-breathe 4.4s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
+@keyframes lx-breathe { 0%, 100% { transform: scale(1) } 50% { transform: scale(1.012, 1.025) } }
 .lx-shadow { transform-box: fill-box; transform-origin: center; animation: lx-shadow 3.6s ease-in-out infinite; }
-@keyframes lx-shadow { 0%, 100% { transform: scaleX(1); opacity: .16 } 50% { transform: scaleX(.92); opacity: .1 } }
-/* A blink every few seconds: the eyes close for a moment. */
-.lx-blink { transform-box: fill-box; transform-origin: center; animation: lx-blink 4.8s infinite; }
-@keyframes lx-blink { 0%, 93%, 100% { transform: scaleY(1) } 96% { transform: scaleY(.1) } }
-/* The antennae sway; the head tips a little. */
-.lx-ant { transform-box: fill-box; transform-origin: 50% 100%; animation: lx-ant 3.2s ease-in-out infinite; }
-@keyframes lx-ant { 0%, 100% { transform: rotate(-3deg) } 50% { transform: rotate(3deg) } }
+@keyframes lx-shadow { 0%, 100% { transform: scaleX(1); opacity: .14 } 50% { transform: scaleX(.9); opacity: .08 } }
+/* The whole figure sways a little on its feet. */
 .lx-head { transform-box: fill-box; transform-origin: 50% 100%; animation: lx-head 5s ease-in-out infinite; }
-@keyframes lx-head { 0%, 100% { transform: rotate(-1.5deg) } 50% { transform: rotate(1.5deg) } }
-.lx-tail { transform-box: fill-box; transform-origin: 0% 100%; animation: lx-tail 3s ease-in-out infinite; }
-@keyframes lx-tail { 0%, 100% { transform: rotate(-3deg) } 50% { transform: rotate(5deg) } }
-.lx-wave { transform-box: fill-box; transform-origin: 0% 100%; animation: lx-wave 1.6s ease-in-out infinite; }
-@keyframes lx-wave { 0%, 100% { transform: rotate(-8deg) } 50% { transform: rotate(14deg) } }
-.lx-cheer-l, .lx-cheer-r { transform-box: fill-box; animation: lx-cheer .9s ease-in-out infinite alternate; }
-.lx-cheer-l { transform-origin: 100% 100%; }
-.lx-cheer-r { transform-origin: 0% 100%; animation-delay: .15s; }
-@keyframes lx-cheer { from { transform: rotate(-6deg) } to { transform: rotate(8deg) } }
-.lx-talk { transform-box: fill-box; transform-origin: center; animation: lx-talk .32s ease-in-out infinite alternate; }
-@keyframes lx-talk { from { transform: scaleY(.45) } to { transform: scaleY(1.1) } }
+@keyframes lx-head { 0%, 100% { transform: rotate(-1.2deg) } 50% { transform: rotate(1.2deg) } }
+/* Blinking and talking swap in a frame with the eyes closed or the mouth open. */
+.lx-blink { opacity: 0; animation: lx-blink 5.2s infinite; }
+@keyframes lx-blink { 0%, 95%, 100% { opacity: 0 } 95.6%, 98.4% { opacity: 1 } }
+.lx-talk { opacity: 0; animation: lx-talk .34s steps(1, end) infinite; }
+@keyframes lx-talk { 0% { opacity: 1 } 50% { opacity: 0 } }
+/* The arms turn on their shoulders (set on each one as transform-origin, in the figure's own 240 box). */
+.lx-wave, .lx-cheer-l, .lx-cheer-r { transform-box: view-box; }
+.lx-wave { animation: lx-wave 1.6s ease-in-out infinite; }
+@keyframes lx-wave { 0%, 100% { transform: rotate(-12deg) } 50% { transform: rotate(16deg) } }
+.lx-cheer-l { animation: lx-cheer-l .9s ease-in-out infinite alternate; }
+.lx-cheer-r { animation: lx-cheer-r .9s ease-in-out infinite alternate; animation-delay: .15s; }
+@keyframes lx-cheer-l { from { transform: rotate(6deg) } to { transform: rotate(-8deg) } }
+@keyframes lx-cheer-r { from { transform: rotate(-6deg) } to { transform: rotate(8deg) } }
 .lx-rise { opacity: 0; animation: lx-rise 3.4s ease-out infinite; }
 @keyframes lx-rise { 0% { opacity: 0; transform: translateY(0) } 20% { opacity: 1 } 100% { opacity: 0; transform: translateY(-46px) } }
 .lx-z { opacity: 0; animation: lx-z 3.2s ease-out infinite; }
 @keyframes lx-z { 0% { opacity: 0; transform: translate(0, 8px) } 30% { opacity: 1 } 100% { opacity: 0; transform: translate(10px, -14px) } }
 .lx-spark { transform-box: fill-box; transform-origin: center; animation: lx-spark 1.6s ease-in-out infinite; }
 @keyframes lx-spark { 0%, 100% { opacity: .2; transform: scale(.6) } 50% { opacity: 1; transform: scale(1.15) } }
+/* Held still for reduced motion: the swapped frames stay hidden rather than flicker, the arms rest. */
+@media (prefers-reduced-motion: reduce) {
+  .lx-blink, .lx-talk { animation: none !important; opacity: 0 !important; }
+  .lx-bob, .lx-head, .lx-wave, .lx-cheer-l, .lx-cheer-r, .lx-shadow { animation: none !important; }
+  .lx-rise, .lx-z { animation: none !important; opacity: .8; }
+}
 
 /* The reader's matched words: underlined in a colour, and the same colour on the translation's word. */
 .key-word { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 6px; text-decoration-color: var(--kc); }
