@@ -157,7 +157,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   const step = useCallback((by: number) => goTo((heading.current ?? shown.current) + by), [goTo]);
 
   // ── word taps ──
-  const [sel, setSel] = useState<{ page: number; word: string; start: number } | null>(null);
+  const [sel, setSel] = useState<{ page: number; word: string; start: number; /** Set for a phrase that means something only as a whole: where it ends. */ end?: number } | null>(null);
   const [slow, setSlow] = useState(false);
   const [toast, setToast] = useState<{ text: string; happy: boolean } | null>(null);
   const prefsRaw = useSyncExternalStore(subscribePrefs, readPrefsRaw, serverRaw);
@@ -178,11 +178,31 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   useEffect(() => () => stopSpeaking(), []);
   const [reading, setReading] = useState(false);
 
+  // A tap on a word that belongs to a phrase (a match of several words) takes the whole phrase: it has one meaning.
+  const pick = (page: number, word: string, start: number) => {
+    setMenu(false);
+    const p = pages[page];
+    const ks = p?.target?.keys ?? [];
+    const spans = p ? keySpans(p.text, ks, "w") : new Map<number, number>();
+    const k = spans.get(start);
+    if (p && k !== undefined && /\s/.test(ks[k].w.trim())) {
+      const toks = tokenize(p.text).filter((t) => t.word);
+      const at = toks.findIndex((t) => t.start === start);
+      let l = at, r = at;
+      while (l > 0 && spans.get(toks[l - 1].start) === k) l--;
+      while (r + 1 < toks.length && spans.get(toks[r + 1].start) === k) r++;
+      const from = toks[l].start, to = toks[r].start + toks[r].text.length;
+      setSel({ page, word: p.text.slice(from, to).toLowerCase(), start: from, end: to });
+      return;
+    }
+    setSel({ page, word, start });
+  };
   const selPage = sel ? pages[sel.page] : undefined;
   const keys = selPage?.target?.keys ?? [];
   const keyIx = sel && selPage ? (keySpans(selPage.text, keys, "w").get(sel.start) ?? -1) : -1;
   const colour = keyIx >= 0 ? `var(--key-${(keyIx % 3) + 1})` : "var(--foreground)";
-  const cardEntry = sel ? variant.dict?.[sel.word] : undefined;
+  // A phrase has no dictionary entry: its meaning is the English it was matched to.
+  const cardEntry = sel ? (sel.end !== undefined && keyIx >= 0 ? { en: keys[keyIx].en, use: "" } : variant.dict?.[sel.word]) : undefined;
   // A card made by hand explains the word; one made by the translator from the word alone is a guess, so the word is asked again in its sentence.
   const inSentence = useSentenceMeaning(sel && !cardEntry?.use && selPage ? { text: selPage.text, start: sel.start, word: sel.word } : null, variant.lang, locale);
   const entry: WordEntry | undefined = inSentence.text ? { en: inSentence.text, use: "" } : inSentence.pending ? { en: "…", use: "" } : cardEntry;
@@ -446,9 +466,9 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
               </div>
               <div className="flex-1 overflow-y-auto px-[22px] pb-3 pt-1.5">
                 <div data-tour={interactive ? "text" : undefined} className="-mx-2 px-2">
-                <PageText page={p} interactive={interactive} selected={sel && sel.page === i ? sel.start : -1} lang={variant.lang}
+                <PageText page={p} interactive={interactive} selected={sel && sel.page === i ? sel.start : -1} selectedEnd={sel && sel.page === i ? sel.end : undefined} lang={variant.lang}
                           size={TEXT_SIZES[prefs.size]} colours={prefs.colours} gloss={prefs.gloss && !open}
-                          onPick={(word, start) => { setMenu(false); setSel({ page: i, word, start }); }} />
+                          onPick={(word, start) => pick(i, word, start)} />
                 </div>
               </div>
             </section>
@@ -536,7 +556,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
 }
 
 /** A page's text. Where the version has word cards every word can be tapped, and the matched words are underlined in their colours. */
-function PageText({ page, interactive, selected, lang, size, colours, gloss, onPick }: { page: ReaderPage; interactive: boolean; selected: number; lang: string; size: number; colours: boolean; gloss: boolean; onPick: (word: string, start: number) => void }) {
+function PageText({ page, interactive, selected, selectedEnd, lang, size, colours, gloss, onPick }: { page: ReaderPage; interactive: boolean; selected: number; selectedEnd?: number; lang: string; size: number; colours: boolean; gloss: boolean; onPick: (word: string, start: number) => void }) {
   if (!interactive) return <p lang={lang} className="font-reading leading-[1.55] text-foreground" style={{ fontSize: size }}>{page.text}</p>;
   const keys = page.target?.keys ?? [];
   const spans = keySpans(page.text, keys, "w");
@@ -549,12 +569,21 @@ function PageText({ page, interactive, selected, lang, size, colours, gloss, onP
          const el = (e.target as HTMLElement).closest<HTMLElement>("[data-w]");
          if (el) { e.preventDefault(); onPick(el.dataset.w ?? "", Number(el.dataset.s)); }
        }}>
-      {tokenize(page.text).map((tok) => {
-        if (!tok.word) return tok.text;
+      {tokenize(page.text).map((tok, ti, all) => {
+        // The space inside a phrase carries the phrase's colour too, so its underline is one bar, not one per word.
+        if (!tok.word) {
+          const before = ti > 0 ? spans.get(all[ti - 1].start) : undefined;
+          const after = ti + 1 < all.length ? spans.get(all[ti + 1].start) : undefined;
+          const inSel = selected >= 0 && selectedEnd !== undefined && tok.start >= selected && tok.start < selectedEnd;
+          return before !== undefined && before === after && colours && /^\s+$/.test(tok.text)
+            ? <span key={tok.start} className={`key-word key-${(before % 3) + 1} ${inSel ? "bg-accent-bright/30" : ""}`}>{tok.text}</span>
+            : tok.text;
+        }
         const k = spans.get(tok.start) ?? -1;
+        const isSel = selected >= 0 && (selectedEnd === undefined ? selected === tok.start : tok.start >= selected && tok.start < selectedEnd);
         return (
-          <span key={tok.start} role="button" tabIndex={0} data-w={tok.word} data-s={tok.start} data-sel={selected === tok.start ? "" : undefined}
-                className={`cursor-pointer rounded-[5px] px-px transition-colors ${k >= 0 && colours ? `key-word key-${(k % 3) + 1}` : ""} ${selected === tok.start ? "bg-accent-bright/30" : "active:bg-accent-bright/20"}`}>
+          <span key={tok.start} role="button" tabIndex={0} data-w={tok.word} data-s={tok.start} data-sel={isSel ? "" : undefined}
+                className={`cursor-pointer transition-colors ${k >= 0 && colours ? `key-word key-${(k % 3) + 1} rounded-none` : "rounded-[5px] px-px"} ${isSel ? "bg-accent-bright/30" : "active:bg-accent-bright/20"}`}>
             {tok.text}
           </span>
         );
@@ -570,21 +599,33 @@ function TranslatedLine({ line, keys, chosen }: { line: string; keys: { w: strin
   const toks = tokenize(line);
   const spans = keySpans(line, keys, "en");
   const keyOf = (start: number) => spans.get(start) ?? -1;
-  // Only the first appearance of the tapped word's partner is lit.
-  const litAt = toks.find((tok) => tok.word && chosen >= 0 && keyOf(tok.start) === chosen)?.start ?? -1;
+  // Only the first appearance of the tapped word's (or phrase's) partner is lit, all its words together as one block.
+  const words = toks.map((tok, ti) => ({ tok, ti })).filter((x) => x.tok.word);
+  const first = chosen >= 0 ? words.findIndex((x) => keyOf(x.tok.start) === chosen) : -1;
+  let last = first;
+  while (first >= 0 && last + 1 < words.length && keyOf(words[last + 1].tok.start) === chosen) last++;
+  const litFrom = first >= 0 ? words[first].ti : -1;
+  const litTo = first >= 0 ? words[last].ti : -1;
+  const colourOf = (k: number) => `var(--key-${(k % 3) + 1})`;
   return (
     <>
-      {toks.map((tok) => {
-        if (!tok.word) return tok.text;
+      {toks.map((tok, ti) => {
+        const lit = litFrom >= 0 && ti >= litFrom && ti <= litTo;
+        if (!tok.word) {
+          const before = ti > 0 ? keyOf(toks[ti - 1].start) : -1;
+          const after = ti + 1 < toks.length ? keyOf(toks[ti + 1].start) : -2;
+          if (!(before >= 0 && before === after && /^\s+$/.test(tok.text))) return tok.text;
+          return lit
+            ? <span key={tok.start} className="text-white" style={{ background: colourOf(before) }}>{tok.text}</span>
+            : <span key={tok.start} className={`key-word key-${(before % 3) + 1}`}>{tok.text}</span>;
+        }
         const k = keyOf(tok.start);
         if (k < 0) return <span key={tok.start}>{tok.text}</span>;
-        const isChosen = tok.start === litAt;
-        return (
-          <span key={tok.start} className={`key-word key-${(k % 3) + 1} ${isChosen ? "rounded-[7px] px-2 py-px text-white no-underline" : ""}`}
-                style={isChosen ? { background: `var(--key-${(k % 3) + 1})`, textDecoration: "none" } : undefined}>
-            {tok.text}
-          </span>
-        );
+        if (lit) {
+          const edge = `${ti === litFrom ? "rounded-s-[7px] ps-2 " : ""}${ti === litTo ? "rounded-e-[7px] pe-2 " : ""}`;
+          return <span key={tok.start} className={`${edge}py-px text-white`} style={{ background: colourOf(k) }}>{tok.text}</span>;
+        }
+        return <span key={tok.start} className={`key-word key-${(k % 3) + 1}`}>{tok.text}</span>;
       })}
     </>
   );

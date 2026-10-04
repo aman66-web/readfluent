@@ -27,7 +27,7 @@ export function pickKeys(english: string): Pick[] {
   // One phrase: two content words side by side (a walking stick, a young man).
   for (let i = 0; i + 1 < toks.length && picks.length < 1; i++) {
     const a = toks[i], b = toks[i + 1];
-    if (partOfPhrase(a.word) && partOfPhrase(b.word) && (content(a.word) || content(b.word)) && english.slice(a.start + a.text.length, b.start).trim() === "") {
+    if (partOfPhrase(a.word) && partOfPhrase(b.word) && !/^\p{Lu}/u.test(a.text) && !/^\p{Lu}/u.test(b.text) && (content(a.word) || content(b.word)) && english.slice(a.start + a.text.length, b.start).trim() === "") {
       picks.push({ start: a.start, end: b.start + b.text.length, text: `${a.word} ${b.word}` });
       used.add(i); used.add(i + 1);
     }
