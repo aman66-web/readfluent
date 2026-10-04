@@ -5,7 +5,7 @@ import type { ReaderPage, ReaderVariant } from "@/components/reader/types";
 import type { KeyPair, WordEntry } from "@/lib/preview/spanish";
 import { LEVELS } from "@/lib/content/limits";
 import { devicePrepare, deviceStatus, deviceTranslate } from "@/lib/translate/device";
-import { translatePages, wordCards } from "@/lib/translate/variant";
+import { wordCards } from "@/lib/translate/variant";
 
 /**
  * The book in the language being learned, when the book has no hand-made translation into it.
@@ -16,7 +16,8 @@ import { translatePages, wordCards } from "@/lib/translate/variant";
  * Without a device translator, the server's translator is asked (app/api/translate), which says "off" when
  * it is not switched on.
  */
-export type TranslatedState = "idle" | "loading" | "download" | "ready" | "partial" | "off" | "failed";
+/** "working": the first pages are in the language and the reader can start; the rest arrive in the background. */
+export type TranslatedState = "idle" | "loading" | "download" | "working" | "ready" | "partial" | "off" | "failed";
 
 /** The first chapter translated ahead of time (app/api/book-start), if the book has one in this language. */
 async function fetchStart(slug: string, level: string, lang: string): Promise<{ pages: { text: string; keys: KeyPair[] }[]; dict: Record<string, WordEntry> } | null> {
@@ -50,6 +51,9 @@ function within<T>(ms: number, work: Promise<T>): Promise<T> {
   });
 }
 const PAGES_MS = 120_000;
+/** Pages in the first request to the device translator, and in each one after. */
+const FIRST_PIECE = 8;
+const NEXT_PIECE = 60;
 const PREPARE_MS = 180_000;
 
 interface Result { key: string; state: Exclude<TranslatedState, "idle" | "loading">; variant: ReaderVariant | null }
@@ -83,13 +87,25 @@ export function useTranslated(lang: string | null, speak: string, slug: string, 
         if (status === "download" && attempt === 0) return settle({ state: "download", variant: start ? mixed(lang, head, english, start.dict) : null });
         if (status === "ready" || (status === "download" && attempt > 0)) {
           try {
-            const rest = await within(PAGES_MS, translatePages(english.slice(head.length), lang, deviceTranslate));
-            const pages: ReaderVariant = {
-              lang: rest.lang,
-              dict: {},
-              pages: [...head, ...rest.pages.map((p, i) => ({ ...p, n: head.length + i + 1, scene: head.length + i + 1, target: { translation: english[head.length + i], keys: [] } }))],
-            };
-            settle({ state: "ready", variant: { ...pages, dict: speak === "en" || !speak ? { ...(start?.dict ?? {}) } : {} } });
+            // A small first piece, so the reader can start in a few seconds, then bigger pieces in the background
+            // (every request to the phone's translator has a start-up cost, so many small ones would be slower overall).
+            const startDict = speak === "en" || !speak ? { ...(start?.dict ?? {}) } : {};
+            const done_: ReaderPage[] = [...head];
+            let at = head.length;
+            let first = true;
+            while (at < english.length) {
+              const size = first ? FIRST_PIECE : NEXT_PIECE;
+              const piece = english.slice(at, at + size);
+              const out = await within(PAGES_MS, deviceTranslate(piece, "en", lang));
+              out.forEach((text, i) => done_.push({ n: at + i + 1, text, scene: at + i + 1, target: { translation: english[at + i], keys: [] } }));
+              at += piece.length;
+              first = false;
+              const last = at >= english.length;
+              if (!last) settle({ state: "working", variant: { lang: lang as ReaderVariant["lang"], dict: startDict, pages: [...done_, ...english.slice(at).map((text, i) => ({ n: at + i + 1, text, scene: at + i + 1 }))] } });
+              if (!live) return;
+            }
+            const pages: ReaderVariant = { lang: lang as ReaderVariant["lang"], dict: {}, pages: done_ };
+            settle({ state: "ready", variant: { ...pages, dict: startDict } });
             // The word cards, in the reader's own language (or English if the phone cannot do that pair). The
             // first chapter's hand-made cards are kept for an English speaker; they explain more than one word can.
             let dict: Record<string, WordEntry> = {};

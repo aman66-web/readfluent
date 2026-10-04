@@ -102,7 +102,7 @@ export function Reader(props: Props) {
       </div>
     );
   }
-  const notice = wanted && made.state === "loading" ? t("reader.translating", { language: languageName(wanted, locale) })
+  const notice = wanted && (made.state === "loading" || made.state === "working") ? t("reader.translating", { language: languageName(wanted, locale) })
     : wanted && (made.state === "partial" || made.state === "download") ? t("reader.startOnly", { language: languageName(wanted, locale) })
     : wanted && made.state === "off" ? t("reader.notYet", { language: languageName(wanted, locale) })
     : wanted && made.state === "failed" ? t("reader.translateFailed", { language: languageName(wanted, locale) })

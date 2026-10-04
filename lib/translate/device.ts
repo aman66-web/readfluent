@@ -67,7 +67,7 @@ export async function devicePrepare(from: string, to: string): Promise<boolean> 
   return false;
 }
 
-const BATCH = 40;
+const BATCH = 150;
 const translators = new Map<string, Promise<ChromeTranslator>>();
 const memo = new Map<string, string>();
 
