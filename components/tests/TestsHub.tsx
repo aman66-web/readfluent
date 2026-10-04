@@ -13,7 +13,8 @@ import { readRaw } from "@/lib/store/local";
 import { supportFor } from "@/lib/tests/support";
 import { TESTS_KEY, parseResults, resultKey, subscribeTests } from "@/lib/tests/store";
 import type { TestKind } from "@/lib/tests/types";
-import { EXAM } from "@/lib/xp/exam";
+import { LEVEL_TESTS_KEY, levelResultKey, parseLevelResults, passedCount, subscribeLevelTests } from "@/lib/tests/level/store";
+import { TESTS_PER_LEVEL } from "@/lib/tests/level/types";
 import { CEFR, XP, levelFromXp, xpForTestAnswer, xpForTestFinish, type Cefr } from "@/lib/xp/levels";
 import { PAPER_SIZE } from "@/lib/tests/types";
 import { LEDGER_KEY, examDue, parseLedger, totalXp } from "@/lib/xp/ledger";
@@ -48,7 +49,18 @@ export function TestsHub() {
   const [picked, setPicked] = useState<Cefr | null>(null);
   const resultsRaw = useSyncExternalStore(subscribeTests, () => readRaw(TESTS_KEY), () => "");
   const results = useMemo(() => parseResults(resultsRaw), [resultsRaw]);
-  const level = picked ?? (support?.levels.includes(mine.level) ? mine.level : (support?.levels[0] ?? mine.level));
+  const levelRaw = useSyncExternalStore(subscribeLevelTests, () => readRaw(LEVEL_TESTS_KEY), () => "");
+  const levelResults = useMemo(() => parseLevelResults(levelRaw), [levelRaw]);
+  // Which levels the language has level tests for (all of them once its reading passages are in); until it is known, all.
+  const [ready, setReady] = useState<{ lang: string; levels: Cefr[] } | null>(null);
+  useEffect(() => {
+    if (!lang) return;
+    let live = true;
+    fetch(`/api/level-test?lang=${lang}`).then((r) => (r.ok ? r.json() : null)).then((d: { levels?: Cefr[] } | null) => { if (live && d?.levels) setReady({ lang, levels: d.levels }); }).catch(() => {});
+    return () => { live = false; };
+  }, [lang]);
+  const level = picked ?? due ?? mine.level;
+  const hasLevelTests = !ready || ready.lang !== lang || ready.levels.includes(level);
   const language = lang ? languageName(lang, locale) : "";
   // A listening test needs a voice for the language on this device; without one its tile is not offered.
   const [voice, setVoice] = useState<{ lang: string | null; ok: boolean }>({ lang: null, ok: true });
@@ -82,17 +94,17 @@ export function TestsHub() {
         <>
           {/* The XP for the next level is in hand and its exam is the way up. */}
           {due && (
-            <Link href={`/recall/tests/exam/${due}`} data-exam={due} className="mt-5 block rounded-[24px] bg-gradient-to-br from-[#0E7490] to-[#0A4B62] p-4 text-white shadow-[0_16px_26px_-20px_rgba(8,47,60,.7)] active:scale-[0.98]">
-              <span className="block text-[17px] font-bold leading-snug">{t("exam.banner.title", { level: due })}</span>
-              <span className="mt-1 block text-[13px] leading-snug text-white/85">{t("exam.banner.body", { level: due, questions: EXAM.questions, minutes: EXAM.minutes, pass: Math.round(EXAM.passShare * 100) })}</span>
-              <span className="btn-cyan mt-3 flex h-11 items-center justify-center rounded-full text-[15px] font-bold">{t("exam.banner.button", { level: due })}</span>
-            </Link>
+            <button type="button" onClick={() => setPicked(due)} data-exam={due} className="mt-5 block w-full rounded-[24px] bg-gradient-to-br from-[#0E7490] to-[#0A4B62] p-4 text-start text-white shadow-[0_16px_26px_-20px_rgba(8,47,60,.7)] active:scale-[0.98]">
+              <span className="block text-[17px] font-bold leading-snug">{t("levelTests.banner.title", { level: due })}</span>
+              <span className="mt-1 block text-[13px] leading-snug text-white/85">{t("levelTests.banner.body", { level: due })}</span>
+              <span className="btn-cyan mt-3 flex h-11 items-center justify-center rounded-full text-[15px] font-bold">{t("levelTests.banner.button", { level: due })}</span>
+            </button>
           )}
           <p className="mt-5 text-[12px] font-bold uppercase tracking-[0.1em] text-[var(--ob-deep)]">{t("tests.level")}</p>
           <div className="mt-2 grid grid-cols-6 gap-1.5" role="group" aria-label={t("tests.level")} dir="ltr">
             {CEFR.map((l) => {
               const on = level === l;
-              const ok = !!support?.levels.includes(l);
+              const ok = true;
               return (
                 <button key={l} type="button" disabled={!ok} aria-pressed={on} onClick={() => setPicked(l)}
                         className={`opt flex h-12 flex-col items-center justify-center rounded-xl text-[15px] font-extrabold ${on ? "opt-on" : ""}`}>
@@ -103,10 +115,38 @@ export function TestsHub() {
             })}
           </div>
 
-          {!support ? (
-            <p className="sheet-card mt-5 rounded-[22px] p-4 text-[14.5px] leading-snug text-muted">{t("tests.soonLanguage", { language })}</p>
-          ) : (
+          <section className="mt-6" aria-label={t("levelTests.title")}>
+            <div className="flex items-baseline justify-between gap-3">
+              <h2 className="text-[19px] font-bold tracking-[-0.01em]">{t("levelTests.title")} · {level}</h2>
+              <span className="tabular shrink-0 rounded-full bg-accent-bright/25 px-2.5 py-0.5 text-[12.5px] font-bold" data-progress={passedCount(levelResults, lang, level)}>
+                {passedCount(levelResults, lang, level) === TESTS_PER_LEVEL ? `✓ ${t("levelTests.earned", { level })}` : t("levelTests.progress", { n: passedCount(levelResults, lang, level) })}
+              </span>
+            </div>
+            <p className="mt-1 text-[13.5px] leading-snug text-muted">{t("levelTests.sub")} {t("levelTests.open")}</p>
+            {hasLevelTests ? (
+              <ul className="mt-3 grid grid-cols-5 gap-2" dir="ltr">
+                {Array.from({ length: TESTS_PER_LEVEL }, (_, i) => i + 1).map((n) => {
+                  const r = levelResults[levelResultKey(lang, level, n)];
+                  return (
+                    <li key={n}>
+                      <Link href={`/recall/tests/${level}/${n}`} data-level-test={n} aria-label={`${t("levelTests.test", { n })}${r ? `, ${r.points}/${r.total}` : ""}`}
+                            className={`opt flex h-16 flex-col items-center justify-center rounded-2xl text-[18px] font-extrabold ${r?.passed ? "opt-on" : ""}`}>
+                        {n}
+                        <span className="tabular mt-0.5 text-[10.5px] font-bold text-muted">{r ? `${r.passed ? "✓ " : ""}${r.points}/${r.total}` : "·"}</span>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            ) : (
+              <p className="sheet-card mt-3 rounded-[22px] p-4 text-[14.5px] leading-snug text-muted">{t("levelTests.soon", { level, language })}</p>
+            )}
+          </section>
+
+          {support && support.levels.includes(level) && kinds.length > 0 && (
             <>
+              <h2 className="mt-8 text-[17px] font-bold tracking-[-0.01em]">{t("levelTests.practice")}</h2>
+              <p className="mt-0.5 text-[13.5px] leading-snug text-muted">{t("levelTests.practiceSub")}</p>
               <ul className="mt-5 grid grid-cols-2 gap-3">
                 {kinds.map((k, i) => {
                   const r = results[resultKey(lang, level, k)];

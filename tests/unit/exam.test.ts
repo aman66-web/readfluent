@@ -23,7 +23,7 @@ describe("the exam rules", () => {
     expect(EXAM_LEVELS).toEqual(["A2", "B1", "B2", "C1", "C2"]);
     expect(gatedLevelsFor("es")).toEqual(EXAM_LEVELS);
     expect(gatedLevelsFor("en")).toEqual(EXAM_LEVELS);
-    expect(gatedLevelsFor("it")).toEqual(["A2"]);
+    expect(gatedLevelsFor("it")).toEqual(EXAM_LEVELS);
     expect(gatedLevelsFor(null)).toEqual([]);
   });
 });

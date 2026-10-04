@@ -1,0 +1,562 @@
+[
+  {
+    "title": "A Teacher's Long Day",
+    "text": "Elena wakes up at half past five because her school is far from her home. She usually takes two buses and arrives just before the first lesson. During the day she teaches three classes, answers many questions and rarely has time to eat. After school she often stays late to help students who are struggling with their homework. When she finally gets home, she is exhausted, but she says the work is worth it. If a student smiles at her in the corridor, she forgets how tired she is.",
+    "qs": [
+      {
+        "q": "How does Elena get to school?",
+        "o": [
+          "By train",
+          "By two buses",
+          "By bike",
+          "On foot"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does Elena often do after school?",
+        "o": [
+          "She goes straight home",
+          "She eats lunch",
+          "She stays late to help students",
+          "She prepares tomorrow's food"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Why does Elena wake up so early?",
+        "o": [
+          "Her school is far from her home",
+          "She likes mornings",
+          "She has a dog to walk",
+          "Her classes start at five"
+        ],
+        "a": 0
+      },
+      {
+        "q": "How does Elena feel about her job?",
+        "o": [
+          "She finds it boring",
+          "She wants to change it",
+          "It pays very well",
+          "She thinks it is worth it"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: why is Elena's day so long, and how does she feel about it?",
+      "min": 8
+    },
+    "keys": [
+      "buses",
+      "classes",
+      "students",
+      "homework"
+    ]
+  },
+  {
+    "title": "Lost in Lisbon",
+    "text": "Last spring Omar travelled to Lisbon for the first time. He had planned everything carefully, but his phone died on the second day. Without a map, he got lost in a maze of narrow streets. Instead of panicking, he asked an old woman for help, and she walked him to the right tram. Omar later said that this was the best moment of his trip, because he met someone kind. If he had not lost his phone, he would never have talked to her.",
+    "qs": [
+      {
+        "q": "What happened to Omar's phone?",
+        "o": [
+          "It was stolen",
+          "It stopped working",
+          "It fell in water",
+          "He forgot it"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What did the old woman do?",
+        "o": [
+          "She gave him a map",
+          "She called a taxi",
+          "She lent him a phone",
+          "She walked him to the tram"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Why was it the best moment of his trip?",
+        "o": [
+          "He found a cheap hotel",
+          "He saw a famous place",
+          "He met someone kind",
+          "He won a prize"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What does Omar think about losing his phone now?",
+        "o": [
+          "It was a lucky accident",
+          "It ruined the trip",
+          "It was his own fault",
+          "He will never travel again"
+        ],
+        "a": 0
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what went wrong for Omar, and what was good about it?",
+      "min": 8
+    },
+    "keys": [
+      "Lisbon",
+      "phone",
+      "streets",
+      "tram"
+    ]
+  },
+  {
+    "title": "A Message to the Neighbours",
+    "text": "Dear neighbours, I am writing to tell you about a party in my flat on Saturday evening. I know that some of you go to bed early. So I will make sure the music stops by ten. If it is too loud, please knock on my door and I will turn it down. I have also made a lot of food, and you are all welcome to join us. I would be very happy to meet everyone, because I only moved here last month. Thank you for your patience.",
+    "qs": [
+      {
+        "q": "What is the writer writing about?",
+        "o": [
+          "A broken door",
+          "A party",
+          "A new job",
+          "A lost key"
+        ],
+        "a": 1
+      },
+      {
+        "q": "By what time will the music stop?",
+        "o": [
+          "Eight",
+          "Nine",
+          "Ten",
+          "Midnight"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Why does the writer want to meet everyone?",
+        "o": [
+          "She moved here recently",
+          "She is leaving soon",
+          "She sells food",
+          "She is a teacher"
+        ],
+        "a": 0
+      },
+      {
+        "q": "What kind of person is the writer?",
+        "o": [
+          "Rude and careless",
+          "Shy and silent",
+          "Angry and strict",
+          "Polite and considerate"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what does the writer ask the neighbours, and why?",
+      "min": 8
+    },
+    "keys": [
+      "party",
+      "neighbours",
+      "music",
+      "door"
+    ]
+  },
+  {
+    "title": "Weekend Cooking Course",
+    "text": "Do you want to learn how to cook real food instead of ordering it every night? Our weekend cooking course is perfect for beginners who feel nervous in the kitchen. Each Saturday a professional chef shows you a simple dish, and then you cook it yourself. All the ingredients are included in the price, so you only need to bring an apron. If you join before the end of this month, you will get a ten percent discount. Places are limited, so we recommend that you book early.",
+    "qs": [
+      {
+        "q": "Who is the course for?",
+        "o": [
+          "Professional chefs",
+          "Beginners",
+          "Restaurant owners",
+          "Children only"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What do you need to bring?",
+        "o": [
+          "Ingredients",
+          "A knife",
+          "An apron",
+          "A recipe book"
+        ],
+        "a": 2
+      },
+      {
+        "q": "How can you get a discount?",
+        "o": [
+          "Bring a friend",
+          "Pay in cash",
+          "Come twice",
+          "Join before the end of the month"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Why should you book early?",
+        "o": [
+          "There are only a few places",
+          "The price goes up soon",
+          "The course is very long",
+          "The chef is leaving"
+        ],
+        "a": 0
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what will you learn on this course, and what do you need?",
+      "min": 8
+    },
+    "keys": [
+      "course",
+      "chef",
+      "beginners",
+      "apron"
+    ]
+  },
+  {
+    "title": "The Last Train",
+    "text": "Tomas missed the last train home, so he decided to walk. It was already past midnight and the streets were empty and dark. After an hour he heard footsteps behind him, and his heart began to beat faster. He walked quicker, but the steps came closer, until he finally turned round. A small dog was following him, and it looked as lost as he was. Tomas laughed, picked it up and carried it all the way home. He named the dog Lucky, because that night they both needed some luck.",
+    "qs": [
+      {
+        "q": "Why did Tomas walk home?",
+        "o": [
+          "He liked walking",
+          "He missed the last train",
+          "His car broke down",
+          "He had no money"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What was behind Tomas?",
+        "o": [
+          "A stranger",
+          "A cat",
+          "A man with a light",
+          "A small dog"
+        ],
+        "a": 3
+      },
+      {
+        "q": "What did Tomas do after he saw the dog?",
+        "o": [
+          "He ran away",
+          "He called the police",
+          "He laughed and carried it home",
+          "He left it there"
+        ],
+        "a": 2
+      },
+      {
+        "q": "How did Tomas feel when he first heard the steps?",
+        "o": [
+          "Frightened",
+          "Bored",
+          "Happy",
+          "Sleepy"
+        ],
+        "a": 0
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what did Tomas hear, and what was it?",
+      "min": 8
+    },
+    "keys": [
+      "train",
+      "midnight",
+      "footsteps",
+      "dog"
+    ]
+  },
+  {
+    "title": "A Fishing Village",
+    "text": "Our village sits on a steep hill above the sea, and every house is painted a different colour. In the morning the fishermen return, and the harbour fills with noise and the smell of fish. Tourists usually come in summer, so the narrow streets can be very crowded. However, I prefer the village in winter, when it is quiet and the sea is wild. There is a small cafe at the top of the hill where you can watch the storms safely. If you visit, come in autumn, when it is mild and there are fewer people.",
+    "qs": [
+      {
+        "q": "Where is the village?",
+        "o": [
+          "On a hill above the sea",
+          "In a valley",
+          "Next to a river",
+          "On a small island"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Why are the streets crowded in summer?",
+        "o": [
+          "It is market time",
+          "Many tourists visit",
+          "The boats return",
+          "The cafe opens"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Which season does the writer prefer?",
+        "o": [
+          "Summer",
+          "Spring",
+          "Winter",
+          "Autumn"
+        ],
+        "a": 2
+      },
+      {
+        "q": "When does the writer advise visitors to come?",
+        "o": [
+          "In summer",
+          "In spring",
+          "In winter",
+          "In autumn"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what is the village like, and when is it best to visit?",
+      "min": 8
+    },
+    "keys": [
+      "village",
+      "harbour",
+      "tourists",
+      "autumn"
+    ]
+  },
+  {
+    "title": "Free Buses for Students",
+    "text": "A small town in the north has decided to make all buses free for students. The council announced the plan on Monday and said it would start in September. Officials hope that more young people will use public transport and fewer parents will drive them. The plan will cost about one million euros a year, which has worried some residents. However, similar projects in other towns have reduced traffic by almost a fifth. A final vote will take place next month, and supporters expect it to pass.",
+    "qs": [
+      {
+        "q": "What is the plan?",
+        "o": [
+          "Free buses for students",
+          "Free trains for everyone",
+          "Cheaper cars",
+          "A new school"
+        ],
+        "a": 0
+      },
+      {
+        "q": "When will the plan start?",
+        "o": [
+          "In June",
+          "In September",
+          "In January",
+          "Next week"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Why are some residents worried?",
+        "o": [
+          "It is too noisy",
+          "It will take too long",
+          "It will cost a lot of money",
+          "The buses are old"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What happened in similar towns?",
+        "o": [
+          "The plans failed",
+          "The costs were too high",
+          "The plans were stopped",
+          "Traffic became lower"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what will the town do, and why?",
+      "min": 8
+    },
+    "keys": [
+      "town",
+      "buses",
+      "council",
+      "traffic"
+    ]
+  },
+  {
+    "title": "Phones in the Classroom",
+    "text": "In my opinion, schools should not allow phones in the classroom. When a phone is on the desk, students keep checking it and cannot follow the lesson. Some people argue that phones can be useful for looking up information. That is true, but a teacher can use school computers instead. Of course, children must be able to reach their parents in an emergency. So I suggest that phones stay in a bag during lessons and come out at break. Then everyone gets the benefits without the distraction.",
+    "qs": [
+      {
+        "q": "What is the writer's opinion?",
+        "o": [
+          "Phones should stay out of lessons",
+          "Phones should be used all day",
+          "Teachers need more phones",
+          "Phones are dangerous"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Why can students not follow the lesson?",
+        "o": [
+          "They are tired",
+          "They keep checking their phones",
+          "The room is noisy",
+          "The lessons are short"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does the writer say about looking up information?",
+        "o": [
+          "Phones are the only way",
+          "It is not needed",
+          "The school can offer computers",
+          "It should be done at home"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What does the writer think about contacting parents?",
+        "o": [
+          "It should happen every hour",
+          "It is not important",
+          "It is only for older students",
+          "It is important in an emergency"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: do you agree with the writer about phones, and why?",
+      "min": 8
+    },
+    "keys": [
+      "phones",
+      "students",
+      "computers",
+      "emergency"
+    ]
+  },
+  {
+    "title": "How Bees Make Honey",
+    "text": "Bees make honey from a sweet liquid called nectar, which they collect from flowers. A worker bee stores the nectar in a special stomach and carries it back to the hive. There, other bees take the nectar and chew it for a while. They spread it in small wax cells and fan it with their wings to remove the water. When the honey is thick enough, the bees close each cell with wax to keep it fresh. One bee makes only a tiny amount, so thousands of bees are needed to fill a jar.",
+    "qs": [
+      {
+        "q": "What do bees collect from flowers?",
+        "o": [
+          "Pollen only",
+          "Water",
+          "Nectar",
+          "Seeds"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What do worker bees do after collecting nectar?",
+        "o": [
+          "They carry it to the hive",
+          "They make wax",
+          "They eat it all",
+          "They sleep"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Why do bees fan the liquid with their wings?",
+        "o": [
+          "To make it sweeter",
+          "To remove the water",
+          "To cool the hive",
+          "To make wax"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Why do thousands of bees fill only one jar?",
+        "o": [
+          "Jars are very large",
+          "Bees often get lost",
+          "Honey is very heavy",
+          "One bee makes only a little"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: how do bees turn nectar into honey?",
+      "min": 8
+    },
+    "keys": [
+      "bees",
+      "nectar",
+      "hive",
+      "honey"
+    ]
+  },
+  {
+    "title": "Summers at the Lake",
+    "text": "When I was a teenager, my family spent every summer in a small wooden house by a lake. I did not appreciate it then, because I wanted to be in the city with my friends. Now I understand how lucky I was. I remember the silence in the early morning and the taste of fresh bread from the village shop. If I could return to one place in my past, I would choose that house. Sadly, it was sold many years ago, so I can only visit it in my memories.",
+    "qs": [
+      {
+        "q": "Where did the family spend their summers?",
+        "o": [
+          "By the sea",
+          "In the mountains",
+          "In a city flat",
+          "By a lake"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Why did the writer not like it then?",
+        "o": [
+          "The writer wanted to be in the city",
+          "It was too cold",
+          "The house was small",
+          "The writer was often ill"
+        ],
+        "a": 0
+      },
+      {
+        "q": "How does the writer feel about the past now?",
+        "o": [
+          "Angry about it",
+          "Bored by it",
+          "Grateful but a little sad",
+          "Glad it is over"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Why can the writer not go back?",
+        "o": [
+          "The writer is too busy",
+          "The house was sold",
+          "The lake dried up",
+          "The village moved"
+        ],
+        "a": 1
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what does the writer remember about the lake house?",
+      "min": 8
+    },
+    "keys": [
+      "teenager",
+      "lake",
+      "bread",
+      "village"
+    ]
+  }
+]

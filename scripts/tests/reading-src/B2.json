@@ -1,0 +1,122 @@
+[
+  {
+    "title": "A Day at the Bakery",
+    "text": "Lucia gets up at four every morning, long before the city begins to stir. By the time the first customers arrive, she has shaped about two hundred loaves and checked the ovens. Although the work is exhausting, she says it has taught her patience, because bread cannot be hurried. At midday she locks the door, eats a simple lunch, and sleeps for two hours. In the afternoon she answers orders, most of which are sent by restaurants that depend on her. Her sister has often suggested that she hire an assistant, but Lucia insists that she would rather do everything herself. She admits, however, that she may change her mind if the business keeps growing.",
+    "qs": [
+      { "q": "What time does Lucia get up?", "o": ["At midnight", "At four", "At six", "At noon"], "a": 1 },
+      { "q": "What does Lucia say the work has taught her?", "o": ["Patience", "Speed", "How to cook for restaurants", "How to manage staff"], "a": 0 },
+      { "q": "Where do most of the afternoon orders come from?", "o": ["Private families", "Her sister", "Restaurants", "Shops abroad"], "a": 2 },
+      { "q": "How does Lucia feel about hiring an assistant?", "o": ["She has already hired one", "She wants her sister to take the job", "She refuses to hire anyone for ever", "She prefers working alone but might change her mind"], "a": 3 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: why does Lucia work without an assistant?", "min": 10 },
+    "keys": ["lucia", "loaves", "ovens", "assistant"]
+  },
+  {
+    "title": "A Night Train North",
+    "text": "Last spring Tomas decided to travel to the far north by train instead of flying. The journey, which lasted nearly two days, took him through forests so dense that the sunlight seldom reached the ground. He had been warned that the carriages would be cold, so he brought a thick blanket and a flask of tea. On the second evening a retired teacher sat opposite him and began telling stories about the villages they passed. Tomas later said that these conversations were the most valuable part of the trip. When the train finally pulled into the station, snow was falling softly on the empty platform. Although he arrived tired, he felt that the slow route had been worth the extra time.",
+    "qs": [
+      { "q": "About how long did the journey last?", "o": ["A few hours", "One night", "Nearly two days", "A whole week"], "a": 2 },
+      { "q": "Why did Tomas bring a blanket and a flask of tea?", "o": ["He had been told the carriages would be cold", "He planned to camp in the forest", "The teacher had asked him to", "The station had no heating"], "a": 0 },
+      { "q": "How did Tomas feel about the trip at the end?", "o": ["The slow route had not been worth it", "He was too tired to enjoy it", "He wished he had flown", "The slow route had been worth the extra time"], "a": 3 },
+      { "q": "What did Tomas find most valuable about the trip?", "o": ["The forests", "The conversations with another passenger", "The food on the train", "The snow"], "a": 1 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what did Tomas value most about his journey?", "min": 10 },
+    "keys": ["tomas", "train", "forests", "teacher", "snow"]
+  },
+  {
+    "title": "A Message to the Landlord",
+    "text": "Dear Samuel, I am writing about the heating in my flat, which has not worked since last Monday. A technician was supposed to visit on Thursday, but nobody came and nobody called to explain. Since the temperature at night has dropped below freezing, my neighbour and I have been using electric heaters. I would be grateful if you could arrange a repair as soon as possible. Should the problem continue, I will have to ask for a reduction in rent. I appreciate that these things take time, and I do not wish to cause difficulty. Please let me know by Friday when someone will be able to come. Thank you for your help, Amira.",
+    "qs": [
+      { "q": "Why is Amira writing to Samuel?", "o": ["She wants to move out", "Her neighbour is too noisy", "She needs a new key", "The heating has stopped working"], "a": 3 },
+      { "q": "What went wrong on Thursday?", "o": ["The technician did not come", "The heating was repaired", "Her neighbour called her", "The rent was late"], "a": 0 },
+      { "q": "What has Amira been doing to keep warm?", "o": ["Staying with a friend", "Wearing her coat all day", "Using electric heaters", "Opening the windows"], "a": 2 },
+      { "q": "What might Amira do if the problem continues?", "o": ["Fix it herself", "Ask for a lower rent", "Call the police", "Stay with her neighbour"], "a": 1 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what is Amira's problem, and what does she want?", "min": 10 },
+    "keys": ["heating", "technician", "neighbour", "rent", "amira"]
+  },
+  {
+    "title": "A Community Garden Notice",
+    "text": "The neighbourhood council is pleased to announce that the old car park behind the library will be turned into a community garden. Residents who wish to take part are invited to a meeting on the first Saturday of next month. Each household will be given a small plot, provided that it agrees to look after it throughout the growing season. Tools and seeds will be supplied free of charge, although volunteers are asked to bring their own gloves. Those who have no experience need not worry, since a team of experienced gardeners will offer guidance every weekend. It is hoped that the project will bring neighbours closer together and make the area greener. Anyone who is interested should sign the list at the library desk before the end of the week.",
+    "qs": [
+      { "q": "Where will the garden be created?", "o": ["On the roof of the library", "Next to the town hall", "On the site of an old car park", "In the main square"], "a": 2 },
+      { "q": "What must a household do to receive a plot?", "o": ["Pay a small fee", "Promise to look after it", "Attend every meeting", "Bring its own seeds"], "a": 1 },
+      { "q": "What will be provided free of charge?", "o": ["Gloves and boots", "Plants and soil", "Lunch for volunteers", "Tools and seeds"], "a": 3 },
+      { "q": "What do the organisers hope the project will do?", "o": ["Bring neighbours closer together", "Earn money for the council", "Reduce traffic in the area", "Teach children to cook"], "a": 0 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: why is the council creating the garden?", "min": 10 },
+    "keys": ["garden", "library", "tools", "seeds", "gloves"]
+  },
+  {
+    "title": "The Missing Keys",
+    "text": "Elena had spent the whole afternoon searching for her car keys, turning the flat upside down. She checked every pocket, lifted every cushion, and even emptied the bin, but there was no sign of them. Convinced that someone must have taken them, she began to suspect her new flatmate, who had been strangely quiet all week. Eventually, close to tears, she phoned her mother to complain. Her mother listened patiently and then asked whether Elena was by any chance holding something in her left hand. Elena looked down and discovered that the keys had been in her hand the entire time. She laughed so hard that she had to sit down, and she later apologised to her flatmate with a cake.",
+    "qs": [
+      { "q": "What was Elena looking for?", "o": ["Her phone", "Her car keys", "Her wallet", "A cake"], "a": 1 },
+      { "q": "Who did Elena suspect had taken the keys?", "o": ["Her mother", "A neighbour", "Her new flatmate", "A stranger"], "a": 2 },
+      { "q": "What led Elena to find the keys?", "o": ["Her mother's question", "A search of the bin", "Her flatmate's help", "A call from a neighbour"], "a": 0 },
+      { "q": "How did Elena make up for suspecting her flatmate?", "o": ["She said nothing", "She wrote a long letter", "She cleaned the whole flat", "She apologised with a cake"], "a": 3 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: where were the keys, and how did Elena find out?", "min": 10 },
+    "keys": ["elena", "keys", "flatmate", "mother", "cake"]
+  },
+  {
+    "title": "The Old Harbour Town",
+    "text": "The harbour town lies at the end of a narrow valley, where a river meets the sea. Its houses, painted in faded blue and yellow, climb the hillside in uneven rows. Visitors are often struck by the silence, which is broken only by the cry of gulls and the creak of fishing boats. In the main square stands a stone fountain that, according to local legend, has never run dry. Most of the shops are small and family owned, and many have remained unchanged for generations. Because the road is steep and winding, few tourists venture further than the first cafe. Those who do are rewarded with a view of the whole bay at sunset.",
+    "qs": [
+      { "q": "Where does the town lie?", "o": ["On top of a mountain", "At the end of a valley by the sea", "In the middle of a desert", "On a small island"], "a": 1 },
+      { "q": "What do local people say about the fountain?", "o": ["It was built recently", "It is broken", "It has never run dry", "It is the oldest in the country"], "a": 2 },
+      { "q": "Why do few tourists go further than the first cafe?", "o": ["The shops are closed", "The town is dangerous", "The cafe is very expensive", "The road is steep and winding"], "a": 3 },
+      { "q": "What are those who go further rewarded with?", "o": ["A view of the whole bay at sunset", "A free meal", "A boat trip", "A tour of the shops"], "a": 0 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what is special about the harbour town?", "min": 10 },
+    "keys": ["harbour", "valley", "fountain", "tourists", "bay"]
+  },
+  {
+    "title": "A Library Opens Late",
+    "text": "A public library in a northern city has begun to stay open until midnight, following a request from local students. The scheme, which started last month, was introduced after a survey showed that many young people had nowhere quiet to study in the evenings. Officials report that the extra hours have been far more popular than expected, with every desk occupied on most nights. Some residents, however, have complained about the cost of keeping the building heated and staffed so late. The city council has replied that the project will be reviewed after six months. If attendance remains high, it is likely to be extended to other branches. Meanwhile, a group of volunteers has offered to help supervise the reading rooms free of charge.",
+    "qs": [
+      { "q": "Why did the library begin to stay open late?", "o": ["The council wanted to save money", "A new building had opened", "The staff asked for shorter days", "Local students asked for it"], "a": 3 },
+      { "q": "What did the survey show?", "o": ["Young people had no quiet place to study in the evenings", "Few people read books any more", "The library was too noisy", "Most students prefer to study at home"], "a": 0 },
+      { "q": "What have some residents complained about?", "o": ["The age of the books", "The cost of heating and staffing the building", "The noise at night", "The lack of desks"], "a": 1 },
+      { "q": "What will happen after six months?", "o": ["The library will close", "The library will move", "The project will be reviewed", "The volunteers will leave"], "a": 2 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: why did the library start to open late, and what do some residents think?", "min": 10 },
+    "keys": ["library", "students", "survey", "council", "volunteers"]
+  },
+  {
+    "title": "Why Handwriting Still Matters",
+    "text": "Many people argue that handwriting is a skill we can safely abandon now that nearly everyone owns a keyboard. I believe this view is mistaken, or at least premature. Studies suggest that students who take notes by hand tend to remember more, because they are forced to summarise rather than copy. Writing slowly also gives the mind time to organise ideas before they reach the page. Of course, typing is faster, and nobody would deny that it is more practical for long documents. Nevertheless, speed is not the only measure of value. For that reason, I think schools should continue to teach handwriting, even if it occupies a smaller place in the timetable than before.",
+    "qs": [
+      { "q": "What do many people argue?", "o": ["That keyboards harm memory", "That handwriting is more beautiful", "That handwriting is no longer needed", "That schools are too strict"], "a": 2 },
+      { "q": "Why do students who write notes by hand remember more?", "o": ["They write faster", "They have to summarise instead of copying", "They read more books", "They use better pens"], "a": 1 },
+      { "q": "What does the writer admit about typing?", "o": ["It is more practical for long documents", "It is bad for students", "It is going out of fashion", "It is harder to learn"], "a": 0 },
+      { "q": "What does the writer recommend?", "o": ["Schools should stop teaching typing", "Students should write everything by hand", "Exams should be taken on computers", "Schools should keep teaching handwriting"], "a": 3 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: why does the writer think handwriting still matters?", "min": 10 },
+    "keys": ["handwriting", "keyboard", "students", "typing", "schools"]
+  },
+  {
+    "title": "How a Heat Pump Works",
+    "text": "A heat pump warms a house by moving heat rather than creating it. Even on a cold day, the air outside contains some warmth, which a liquid inside the machine absorbs and turns into gas. This gas is then compressed, and compression makes it much hotter, just as a bicycle pump becomes warm when it is used. The hot gas passes through a coil inside the house, where it gives up its heat and turns back into liquid. The cycle then begins again, repeating itself for as long as the machine is switched on. Because it transfers heat instead of burning fuel, a heat pump can deliver several times more energy than it consumes. This efficiency explains why such machines are becoming popular in countries with cold winters.",
+    "qs": [
+      { "q": "How does a heat pump warm a house?", "o": ["By burning fuel slowly", "By storing sunlight", "By moving heat from one place to another", "By blowing air over a stove"], "a": 2 },
+      { "q": "What happens to the gas when it is compressed?", "o": ["It becomes hotter", "It becomes colder", "It turns back into liquid at once", "It disappears"], "a": 0 },
+      { "q": "Where does the hot gas give up its heat?", "o": ["Outside the house", "In the compressor", "Under the floor", "In a coil inside the house"], "a": 3 },
+      { "q": "Why can a heat pump deliver more energy than it consumes?", "o": ["Because it uses the sun", "Because it transfers heat instead of burning fuel", "Because it runs all night", "Because it is very large"], "a": 1 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: how does a heat pump warm a house?", "min": 10 },
+    "keys": ["heat", "gas", "compressed", "coil", "liquid"]
+  },
+  {
+    "title": "My Grandfather's Workshop",
+    "text": "When I was about ten, I spent every summer holiday in my grandfather's workshop at the edge of the village. It smelled of sawdust and oil, and the walls were covered with tools that I was not allowed to touch. He rarely spoke while he worked, but he would occasionally hand me a piece of wood and tell me to feel the grain. At the time I found this boring, and I would have preferred to be playing outside with my cousins. Only years later did I understand that he had been teaching me to pay attention. He died shortly before I finished school, and the workshop was sold soon afterwards. Even now, the smell of fresh sawdust brings back those long quiet afternoons so vividly that I have to stop for a moment.",
+    "qs": [
+      { "q": "Where did the writer spend every summer holiday?", "o": ["At the seaside", "In a workshop at the edge of the village", "In a city flat", "At a summer school"], "a": 1 },
+      { "q": "What did the grandfather occasionally do?", "o": ["Told long stories", "Took the boy out to play", "Let him use the tools", "Handed him wood and asked him to feel the grain"], "a": 3 },
+      { "q": "How did the writer feel about this at the time?", "o": ["He found it boring", "He found it exciting", "He found it frightening", "He found it useful"], "a": 0 },
+      { "q": "What did the writer understand years later?", "o": ["That the workshop was valuable", "That his cousins had been right", "That his grandfather had been teaching him to pay attention", "That he disliked wood"], "a": 2 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what did the writer learn from his grandfather?", "min": 10 },
+    "keys": ["grandfather", "workshop", "sawdust", "tools", "grain"]
+  }
+]

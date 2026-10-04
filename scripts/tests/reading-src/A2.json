@@ -1,0 +1,562 @@
+[
+  {
+    "title": "Maria's Busy Saturday",
+    "text": "On Saturday morning, Maria cleaned her small flat and washed the clothes. At noon she met her friend Julia in a cafe. They ate soup and talked for two hours. In the afternoon they went to the market and bought some fruit. Maria came home tired but happy. Tomorrow she is going to visit her parents.",
+    "qs": [
+      {
+        "q": "Who did Maria meet?",
+        "o": [
+          "Her mother",
+          "Her sister",
+          "Julia",
+          "Her teacher"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Where did they eat?",
+        "o": [
+          "At home",
+          "In a cafe",
+          "At the market",
+          "In a park"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What did they do after the cafe?",
+        "o": [
+          "They went to the market",
+          "They went home",
+          "They visited her parents",
+          "They cleaned the flat"
+        ],
+        "a": 0
+      },
+      {
+        "q": "What is Maria going to do tomorrow?",
+        "o": [
+          "Go to work",
+          "Clean the flat",
+          "Meet Julia",
+          "Visit her parents"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what did Maria do on Saturday?",
+      "min": 6
+    },
+    "keys": [
+      "flat",
+      "cafe",
+      "market",
+      "fruit"
+    ]
+  },
+  {
+    "title": "A Weekend in the Mountains",
+    "text": "Last month Daniel and his brother went to the mountains. They took a train and then walked for four hours. The weather was cold, so they wore warm coats. At the top they ate sandwiches and looked at the lake below. Next year they are going to go again in summer.",
+    "qs": [
+      {
+        "q": "Who went with Daniel?",
+        "o": [
+          "His father",
+          "His brother",
+          "His friend",
+          "His uncle"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Why did they wear warm coats?",
+        "o": [
+          "The weather was cold",
+          "They were tired",
+          "It was night",
+          "It was raining"
+        ],
+        "a": 0
+      },
+      {
+        "q": "What did they eat at the top?",
+        "o": [
+          "Soup",
+          "Fruit",
+          "Sandwiches",
+          "Cake"
+        ],
+        "a": 2
+      },
+      {
+        "q": "When are they going to go again?",
+        "o": [
+          "Next week",
+          "Next month",
+          "In winter",
+          "Next year, in summer"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what did Daniel and his brother do in the mountains?",
+      "min": 6
+    },
+    "keys": [
+      "mountains",
+      "train",
+      "coats",
+      "lake"
+    ]
+  },
+  {
+    "title": "An Email to a Friend",
+    "text": "Dear Kim, thank you for your letter. I am sorry that I did not write earlier. I was ill, but now I feel much better. I am going to visit you in May for one week. Please tell me which days are good for you and your family. See you soon!",
+    "qs": [
+      {
+        "q": "Why did the writer not write earlier?",
+        "o": [
+          "He was ill",
+          "He was busy",
+          "He was away",
+          "He lost the address"
+        ],
+        "a": 0
+      },
+      {
+        "q": "When is the writer going to visit?",
+        "o": [
+          "In March",
+          "In April",
+          "In May",
+          "In June"
+        ],
+        "a": 2
+      },
+      {
+        "q": "How does the writer feel now?",
+        "o": [
+          "Still ill",
+          "Much better",
+          "Very tired",
+          "Worried"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does the writer ask Kim?",
+        "o": [
+          "To send some money",
+          "To buy a ticket",
+          "To call him tonight",
+          "To tell him which days are good"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: why is the writer writing to Kim?",
+      "min": 6
+    },
+    "keys": [
+      "letter",
+      "ill",
+      "visit",
+      "family"
+    ]
+  },
+  {
+    "title": "Guitar Lessons",
+    "text": "Do you want to learn the guitar? Peter Novak is a music teacher with ten years of experience. He teaches children and adults in his small studio near the station. The first lesson is free, so you can try it. Lessons are on Tuesday and Thursday evenings. Call this week and you will get a free book.",
+    "qs": [
+      {
+        "q": "Who can have lessons?",
+        "o": [
+          "Only adults",
+          "Only children",
+          "Children and adults",
+          "Only music teachers"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Where is the studio?",
+        "o": [
+          "Near the station",
+          "Near the school",
+          "In the park",
+          "Near the market"
+        ],
+        "a": 0
+      },
+      {
+        "q": "On which days are the lessons?",
+        "o": [
+          "Monday and Friday",
+          "Tuesday and Thursday",
+          "Wednesday only",
+          "Saturday and Sunday"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Why is the first lesson free?",
+        "o": [
+          "It is very short",
+          "The teacher is new",
+          "It is a holiday",
+          "You can try it"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what can you do at Peter Novak's studio?",
+      "min": 6
+    },
+    "keys": [
+      "guitar",
+      "teacher",
+      "studio",
+      "lesson"
+    ]
+  },
+  {
+    "title": "The Wrong Bag",
+    "text": "Nina left the train station and walked home. She opened her bag and found a blue jacket inside. It was not her bag! She felt worried and went back to the station. There she saw a man, and he was holding her bag. They laughed, changed bags and said goodbye.",
+    "qs": [
+      {
+        "q": "What did Nina find in the bag?",
+        "o": [
+          "A blue jacket",
+          "A book",
+          "Some food",
+          "A phone"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Why did Nina go back to the station?",
+        "o": [
+          "She forgot her ticket",
+          "It was not her bag",
+          "She wanted to meet a friend",
+          "She was hungry"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Who did she see at the station?",
+        "o": [
+          "Her friend",
+          "A teacher",
+          "A man with her bag",
+          "A police officer"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What did they do at the end?",
+        "o": [
+          "They ran away",
+          "They called someone",
+          "They went home together",
+          "They laughed and changed bags"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what happened to Nina's bag?",
+      "min": 6
+    },
+    "keys": [
+      "bag",
+      "jacket",
+      "station",
+      "worried"
+    ]
+  },
+  {
+    "title": "The Old Library",
+    "text": "The old library is in the centre of our town. It is a big stone building with tall windows. Inside, there are thousands of books and many comfortable chairs. On the second floor there is a quiet room for students. Many people go there because it is warm and free. I go every Friday after school.",
+    "qs": [
+      {
+        "q": "Where is the library?",
+        "o": [
+          "Near the river",
+          "In the centre of the town",
+          "Next to a school",
+          "In the mountains"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What is on the second floor?",
+        "o": [
+          "A cafe",
+          "A shop",
+          "A quiet room",
+          "A game room"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Why do many people go there?",
+        "o": [
+          "It is warm and free",
+          "It is new",
+          "It has a cafe",
+          "It is near the station"
+        ],
+        "a": 0
+      },
+      {
+        "q": "When does the writer go?",
+        "o": [
+          "Every Monday",
+          "Every Wednesday",
+          "Every Sunday",
+          "Every Friday"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what is the library like?",
+      "min": 6
+    },
+    "keys": [
+      "library",
+      "books",
+      "students",
+      "windows"
+    ]
+  },
+  {
+    "title": "New Bike Lanes",
+    "text": "The city council opened a new bike lane yesterday. It goes from the station to the big park. Before this, many cyclists felt unsafe on the main road. The council spent a lot of money on the work. Next year the city is going to build two more lanes. Many people are happy, but some drivers are angry.",
+    "qs": [
+      {
+        "q": "What did the council open?",
+        "o": [
+          "A new road",
+          "A bike lane",
+          "A park",
+          "A station"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Where does the lane go?",
+        "o": [
+          "From the station to the park",
+          "From home to school",
+          "From the park to the river",
+          "From the city to the sea"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Where did cyclists feel unsafe before?",
+        "o": [
+          "In the park",
+          "At the station",
+          "In the centre",
+          "On the main road"
+        ],
+        "a": 3
+      },
+      {
+        "q": "What is the city going to do next year?",
+        "o": [
+          "Close the main road",
+          "Open a new park",
+          "Build two more lanes",
+          "Remove the lane"
+        ],
+        "a": 2
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what is new in the city, and who is happy or angry?",
+      "min": 6
+    },
+    "keys": [
+      "council",
+      "lane",
+      "cyclists",
+      "drivers"
+    ]
+  },
+  {
+    "title": "Walking to School",
+    "text": "I think children should walk to school. First, walking is good for their health. Second, they can talk to their friends on the way. Last year my daughter walked to school and felt more awake. Some parents say the roads are dangerous, and that is true. But I believe we can make the streets safer.",
+    "qs": [
+      {
+        "q": "What does the writer think?",
+        "o": [
+          "Children should walk to school",
+          "Children should take the bus",
+          "Children should stay home",
+          "School should start later"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Why is walking good, according to the writer?",
+        "o": [
+          "It is cheaper",
+          "It is faster",
+          "It is good for health",
+          "It is quiet"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What happened to the writer's daughter?",
+        "o": [
+          "She got lost",
+          "She was often late",
+          "She felt tired",
+          "She felt more awake"
+        ],
+        "a": 3
+      },
+      {
+        "q": "What do some parents say?",
+        "o": [
+          "School is too far",
+          "The roads are dangerous",
+          "It is too cold",
+          "Children are lazy"
+        ],
+        "a": 1
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: should children walk to school, and why?",
+      "min": 6
+    },
+    "keys": [
+      "walk",
+      "health",
+      "daughter",
+      "streets"
+    ]
+  },
+  {
+    "title": "How a Fridge Works",
+    "text": "A fridge keeps food cold so it stays fresh for longer. Inside the fridge there is a special liquid in thin pipes. The liquid takes the heat from the food and carries it away. Then the liquid goes to the back, where the heat leaves. This is why the back of a fridge is often warm. A small motor moves the liquid around all day.",
+    "qs": [
+      {
+        "q": "What does a fridge do?",
+        "o": [
+          "It keeps food cold",
+          "It makes food hot",
+          "It cooks food",
+          "It cleans food"
+        ],
+        "a": 0
+      },
+      {
+        "q": "What does the liquid take from the food?",
+        "o": [
+          "Water",
+          "Heat",
+          "Taste",
+          "Light"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Where does the heat go in the end?",
+        "o": [
+          "Into the food",
+          "Into the pipes",
+          "Into the room",
+          "Into the motor"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What moves the liquid?",
+        "o": [
+          "A fan",
+          "The wind",
+          "A person",
+          "A small motor"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: how does a fridge keep food cold?",
+      "min": 6
+    },
+    "keys": [
+      "fridge",
+      "liquid",
+      "heat",
+      "motor"
+    ]
+  },
+  {
+    "title": "My First Bicycle",
+    "text": "When I was seven, my father gave me a red bicycle. I was very excited, but I could not ride it. Every evening he ran next to me and held the seat. After two weeks I fell, and I cried a little. He smiled and said that everyone falls. The next day I rode alone, and I still remember that feeling.",
+    "qs": [
+      {
+        "q": "Who gave the writer a bicycle?",
+        "o": [
+          "The writer's mother",
+          "The writer's father",
+          "The writer's uncle",
+          "The writer's brother"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What colour was the bicycle?",
+        "o": [
+          "Blue",
+          "Green",
+          "Red",
+          "Black"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What happened after two weeks?",
+        "o": [
+          "The writer fell",
+          "The writer rode alone",
+          "The bicycle broke",
+          "The father left"
+        ],
+        "a": 0
+      },
+      {
+        "q": "What did the father say after the fall?",
+        "o": [
+          "That the bike was bad",
+          "That the writer was too young",
+          "That it was time to go home",
+          "That everyone falls"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: how did the writer learn to ride a bicycle?",
+      "min": 6
+    },
+    "keys": [
+      "bicycle",
+      "father",
+      "evening",
+      "fell"
+    ]
+  }
+]

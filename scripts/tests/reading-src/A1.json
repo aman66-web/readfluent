@@ -1,0 +1,562 @@
+[
+  {
+    "title": "Tom's Morning",
+    "text": "Tom gets up at seven. He eats bread and eggs. Then he goes to work by bus. He likes his job very much. He comes home at six and cooks.",
+    "qs": [
+      {
+        "q": "What does Tom eat?",
+        "o": [
+          "Rice",
+          "Bread and eggs",
+          "Soup",
+          "Fruit"
+        ],
+        "a": 1
+      },
+      {
+        "q": "How does Tom go to work?",
+        "o": [
+          "By car",
+          "By train",
+          "On foot",
+          "By bus"
+        ],
+        "a": 3
+      },
+      {
+        "q": "What does Tom do after he eats?",
+        "o": [
+          "He goes to work",
+          "He cooks",
+          "He reads",
+          "He sleeps"
+        ],
+        "a": 0
+      },
+      {
+        "q": "How does Tom feel about his job?",
+        "o": [
+          "He is tired of it",
+          "He is afraid of it",
+          "He likes it",
+          "He hates it"
+        ],
+        "a": 2
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what does Tom do in the morning?",
+      "min": 4
+    },
+    "keys": [
+      "bread",
+      "eggs",
+      "bus",
+      "job"
+    ]
+  },
+  {
+    "title": "A Day at the Sea",
+    "text": "Anna goes to the sea by train. The train is fast. She sees the water and the big sun. Anna and her mum swim and play. They are very happy.",
+    "qs": [
+      {
+        "q": "How does Anna go to the sea?",
+        "o": [
+          "By bus",
+          "By car",
+          "By boat",
+          "By train"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Who swims with Anna?",
+        "o": [
+          "Her dad",
+          "Her mum",
+          "Her friend",
+          "Her dog"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does Anna see?",
+        "o": [
+          "Snow and trees",
+          "Cars and shops",
+          "Water and sun",
+          "Cows and hills"
+        ],
+        "a": 2
+      },
+      {
+        "q": "How do they feel at the end?",
+        "o": [
+          "Happy",
+          "Sad",
+          "Angry",
+          "Afraid"
+        ],
+        "a": 0
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: where does Anna go, and what does she do?",
+      "min": 4
+    },
+    "keys": [
+      "sea",
+      "train",
+      "water",
+      "swim"
+    ]
+  },
+  {
+    "title": "A Message to Sam",
+    "text": "Hi Sam, I am at the park now. Please come at two. I have a big red ball. We can play with it. Bring some water, because it is hot.",
+    "qs": [
+      {
+        "q": "Where is the writer?",
+        "o": [
+          "At home",
+          "At the park",
+          "At school",
+          "At the shop"
+        ],
+        "a": 1
+      },
+      {
+        "q": "When does Sam come?",
+        "o": [
+          "At one",
+          "At three",
+          "At four",
+          "At two"
+        ],
+        "a": 3
+      },
+      {
+        "q": "What does the writer have?",
+        "o": [
+          "A big red ball",
+          "A dog",
+          "A bike",
+          "A book"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Why must Sam bring water?",
+        "o": [
+          "It is cold",
+          "It is night",
+          "It is hot",
+          "He is ill"
+        ],
+        "a": 2
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: where is the writer, and what can Sam and the writer do?",
+      "min": 4
+    },
+    "keys": [
+      "park",
+      "ball",
+      "water",
+      "play"
+    ]
+  },
+  {
+    "title": "Shop Notice",
+    "text": "Welcome to the Blue Shop. We sell bread and milk. We are open from eight to six. The shop is closed on Sunday. Every child gets a free apple.",
+    "qs": [
+      {
+        "q": "What does the shop sell?",
+        "o": [
+          "Shoes and hats",
+          "Bread and milk",
+          "Fish and rice",
+          "Books and pens"
+        ],
+        "a": 1
+      },
+      {
+        "q": "When does the shop open?",
+        "o": [
+          "At seven",
+          "At nine",
+          "At ten",
+          "At eight"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Which day is the shop closed?",
+        "o": [
+          "Sunday",
+          "Monday",
+          "Friday",
+          "Saturday"
+        ],
+        "a": 0
+      },
+      {
+        "q": "What do children get?",
+        "o": [
+          "A free book",
+          "A free toy",
+          "A free apple",
+          "A free cake"
+        ],
+        "a": 2
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what can you buy in the Blue Shop?",
+      "min": 4
+    },
+    "keys": [
+      "shop",
+      "bread",
+      "milk",
+      "apple"
+    ]
+  },
+  {
+    "title": "The Lost Dog",
+    "text": "Ben has a small brown dog. One day the dog is not here. Ben is sad and looks everywhere. The dog is under the bed! Ben is happy again.",
+    "qs": [
+      {
+        "q": "What does Ben have?",
+        "o": [
+          "A cat",
+          "A dog",
+          "A bird",
+          "A fish"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Where is the dog?",
+        "o": [
+          "In the garden",
+          "In the car",
+          "Under the bed",
+          "At school"
+        ],
+        "a": 2
+      },
+      {
+        "q": "How does Ben feel at the end?",
+        "o": [
+          "Sad",
+          "Tired",
+          "Afraid",
+          "Happy"
+        ],
+        "a": 3
+      },
+      {
+        "q": "What does Ben do when the dog is not here?",
+        "o": [
+          "He looks everywhere",
+          "He sleeps",
+          "He eats",
+          "He goes to school"
+        ],
+        "a": 0
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what happens to Ben's dog?",
+      "min": 4
+    },
+    "keys": [
+      "dog",
+      "sad",
+      "bed",
+      "everywhere"
+    ]
+  },
+  {
+    "title": "My Small Town",
+    "text": "My town is small but nice. There is a river and a big park. There are many green trees. I like the old bridge. It is a quiet place for me.",
+    "qs": [
+      {
+        "q": "How big is the town?",
+        "o": [
+          "Very big",
+          "Medium",
+          "Huge",
+          "Small"
+        ],
+        "a": 3
+      },
+      {
+        "q": "What is in the town?",
+        "o": [
+          "A river and a park",
+          "A sea and a hill",
+          "A train and a zoo",
+          "A lake and a farm"
+        ],
+        "a": 0
+      },
+      {
+        "q": "What does the writer like?",
+        "o": [
+          "The shops",
+          "The old bridge",
+          "The school",
+          "The cars"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What kind of place is it?",
+        "o": [
+          "A loud place",
+          "A busy place",
+          "A quiet place",
+          "A dark place"
+        ],
+        "a": 2
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what is in the writer's town?",
+      "min": 4
+    },
+    "keys": [
+      "town",
+      "river",
+      "park",
+      "bridge"
+    ]
+  },
+  {
+    "title": "A Cat on the Roof",
+    "text": "A cat is on a high roof. The small cat is very afraid. A man calls for help. A woman comes with a long ladder. The cat is safe now.",
+    "qs": [
+      {
+        "q": "Where is the cat?",
+        "o": [
+          "In a tree",
+          "On a roof",
+          "In a house",
+          "In a car"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Who calls for help?",
+        "o": [
+          "A woman",
+          "A boy",
+          "A child",
+          "A man"
+        ],
+        "a": 3
+      },
+      {
+        "q": "What does the woman bring?",
+        "o": [
+          "A long ladder",
+          "A big box",
+          "A dog",
+          "A car"
+        ],
+        "a": 0
+      },
+      {
+        "q": "How is the cat at the end?",
+        "o": [
+          "Afraid",
+          "Hungry",
+          "Safe",
+          "Angry"
+        ],
+        "a": 2
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what happens to the cat?",
+      "min": 4
+    },
+    "keys": [
+      "cat",
+      "roof",
+      "help",
+      "ladder"
+    ]
+  },
+  {
+    "title": "I Like Rain",
+    "text": "I like rain very much. Some people do not like it. But I think rain is good. The flowers and trees drink it. I sit at home and read a book.",
+    "qs": [
+      {
+        "q": "What does the writer like?",
+        "o": [
+          "Sun",
+          "Snow",
+          "Wind",
+          "Rain"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Why is rain good?",
+        "o": [
+          "Flowers and trees drink it",
+          "It is warm",
+          "It is loud",
+          "It is white"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Do all people like rain?",
+        "o": [
+          "Yes, all of them",
+          "No, some do not",
+          "Only children",
+          "Only old people"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What does the writer do at home?",
+        "o": [
+          "Cooks food",
+          "Plays games",
+          "Reads a book",
+          "Sleeps"
+        ],
+        "a": 2
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: why does the writer like rain?",
+      "min": 4
+    },
+    "keys": [
+      "rain",
+      "flowers",
+      "trees",
+      "book"
+    ]
+  },
+  {
+    "title": "Making Tea",
+    "text": "First, boil some water in a pot. Put a tea bag in a cup. Then add the hot water. Wait for three minutes. Now you can drink your tea.",
+    "qs": [
+      {
+        "q": "What do you do first?",
+        "o": [
+          "Add hot water",
+          "Put a tea bag in a cup",
+          "Boil some water",
+          "Wait three minutes"
+        ],
+        "a": 2
+      },
+      {
+        "q": "What goes in the cup?",
+        "o": [
+          "A tea bag",
+          "An egg",
+          "Bread",
+          "Milk"
+        ],
+        "a": 0
+      },
+      {
+        "q": "How long do you wait?",
+        "o": [
+          "Five minutes",
+          "Three minutes",
+          "One minute",
+          "Ten minutes"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What do you do last?",
+        "o": [
+          "Wait",
+          "Boil water",
+          "Add a tea bag",
+          "Drink the tea"
+        ],
+        "a": 3
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: how do you make tea?",
+      "min": 4
+    },
+    "keys": [
+      "water",
+      "tea",
+      "cup",
+      "minutes"
+    ]
+  },
+  {
+    "title": "Grandma's Garden",
+    "text": "I often think of my grandma. Her house is small and white. In the garden there is a big tree. We sit under it and eat cake. I love those days.",
+    "qs": [
+      {
+        "q": "Who does the writer think of?",
+        "o": [
+          "Mum",
+          "Grandma",
+          "A friend",
+          "A teacher"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What colour is the house?",
+        "o": [
+          "Red",
+          "Blue",
+          "Yellow",
+          "White"
+        ],
+        "a": 3
+      },
+      {
+        "q": "Where is the big tree?",
+        "o": [
+          "In the garden",
+          "In the park",
+          "At school",
+          "In town"
+        ],
+        "a": 0
+      },
+      {
+        "q": "What do they eat under the tree?",
+        "o": [
+          "Bread",
+          "Fruit",
+          "Cake",
+          "Rice"
+        ],
+        "a": 2
+      }
+    ],
+    "write": {
+      "prompt": "Write one or two sentences: what does the writer remember about grandma's house?",
+      "min": 4
+    },
+    "keys": [
+      "grandma",
+      "house",
+      "garden",
+      "cake"
+    ]
+  }
+]

@@ -1,0 +1,3406 @@
+{
+ "lang": "en",
+ "levels": {
+  "A1": [
+   {
+    "title": "Tom's Morning",
+    "text": "Tom gets up at seven. He eats bread and eggs. Then he goes to work by bus. He likes his job very much. He comes home at six and cooks.",
+    "qs": [
+     {
+      "q": "What does Tom eat?",
+      "o": [
+       "Rice",
+       "Bread and eggs",
+       "Soup",
+       "Fruit"
+      ],
+      "a": 1
+     },
+     {
+      "q": "How does Tom go to work?",
+      "o": [
+       "By car",
+       "By train",
+       "On foot",
+       "By bus"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What does Tom do after he eats?",
+      "o": [
+       "He goes to work",
+       "He cooks",
+       "He reads",
+       "He sleeps"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How does Tom feel about his job?",
+      "o": [
+       "He is tired of it",
+       "He is afraid of it",
+       "He likes it",
+       "He hates it"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what does Tom do in the morning?",
+     "min": 4
+    },
+    "keys": [
+     "bread",
+     "eggs",
+     "bus",
+     "job"
+    ]
+   },
+   {
+    "title": "A Day at the Sea",
+    "text": "Anna goes to the sea by train. The train is fast. She sees the water and the big sun. Anna and her mum swim and play. They are very happy.",
+    "qs": [
+     {
+      "q": "How does Anna go to the sea?",
+      "o": [
+       "By bus",
+       "By car",
+       "By boat",
+       "By train"
+      ],
+      "a": 3
+     },
+     {
+      "q": "Who swims with Anna?",
+      "o": [
+       "Her dad",
+       "Her mum",
+       "Her friend",
+       "Her dog"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does Anna see?",
+      "o": [
+       "Snow and trees",
+       "Cars and shops",
+       "Water and sun",
+       "Cows and hills"
+      ],
+      "a": 2
+     },
+     {
+      "q": "How do they feel at the end?",
+      "o": [
+       "Happy",
+       "Sad",
+       "Angry",
+       "Afraid"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: where does Anna go, and what does she do?",
+     "min": 4
+    },
+    "keys": [
+     "sea",
+     "train",
+     "water",
+     "swim"
+    ]
+   },
+   {
+    "title": "A Message to Sam",
+    "text": "Hi Sam, I am at the park now. Please come at two. I have a big red ball. We can play with it. Bring some water, because it is hot.",
+    "qs": [
+     {
+      "q": "Where is the writer?",
+      "o": [
+       "At home",
+       "At the park",
+       "At school",
+       "At the shop"
+      ],
+      "a": 1
+     },
+     {
+      "q": "When does Sam come?",
+      "o": [
+       "At one",
+       "At three",
+       "At four",
+       "At two"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What does the writer have?",
+      "o": [
+       "A big red ball",
+       "A dog",
+       "A bike",
+       "A book"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why must Sam bring water?",
+      "o": [
+       "It is cold",
+       "It is night",
+       "It is hot",
+       "He is ill"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: where is the writer, and what can Sam and the writer do?",
+     "min": 4
+    },
+    "keys": [
+     "park",
+     "ball",
+     "water",
+     "play"
+    ]
+   },
+   {
+    "title": "Shop Notice",
+    "text": "Welcome to the Blue Shop. We sell bread and milk. We are open from eight to six. The shop is closed on Sunday. Every child gets a free apple.",
+    "qs": [
+     {
+      "q": "What does the shop sell?",
+      "o": [
+       "Shoes and hats",
+       "Bread and milk",
+       "Fish and rice",
+       "Books and pens"
+      ],
+      "a": 1
+     },
+     {
+      "q": "When does the shop open?",
+      "o": [
+       "At seven",
+       "At nine",
+       "At ten",
+       "At eight"
+      ],
+      "a": 3
+     },
+     {
+      "q": "Which day is the shop closed?",
+      "o": [
+       "Sunday",
+       "Monday",
+       "Friday",
+       "Saturday"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What do children get?",
+      "o": [
+       "A free book",
+       "A free toy",
+       "A free apple",
+       "A free cake"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what can you buy in the Blue Shop?",
+     "min": 4
+    },
+    "keys": [
+     "shop",
+     "bread",
+     "milk",
+     "apple"
+    ]
+   },
+   {
+    "title": "The Lost Dog",
+    "text": "Ben has a small brown dog. One day the dog is not here. Ben is sad and looks everywhere. The dog is under the bed! Ben is happy again.",
+    "qs": [
+     {
+      "q": "What does Ben have?",
+      "o": [
+       "A cat",
+       "A dog",
+       "A bird",
+       "A fish"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Where is the dog?",
+      "o": [
+       "In the garden",
+       "In the car",
+       "Under the bed",
+       "At school"
+      ],
+      "a": 2
+     },
+     {
+      "q": "How does Ben feel at the end?",
+      "o": [
+       "Sad",
+       "Tired",
+       "Afraid",
+       "Happy"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What does Ben do when the dog is not here?",
+      "o": [
+       "He looks everywhere",
+       "He sleeps",
+       "He eats",
+       "He goes to school"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what happens to Ben's dog?",
+     "min": 4
+    },
+    "keys": [
+     "dog",
+     "sad",
+     "bed",
+     "everywhere"
+    ]
+   },
+   {
+    "title": "My Small Town",
+    "text": "My town is small but nice. There is a river and a big park. There are many green trees. I like the old bridge. It is a quiet place for me.",
+    "qs": [
+     {
+      "q": "How big is the town?",
+      "o": [
+       "Very big",
+       "Medium",
+       "Huge",
+       "Small"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What is in the town?",
+      "o": [
+       "A river and a park",
+       "A sea and a hill",
+       "A train and a zoo",
+       "A lake and a farm"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does the writer like?",
+      "o": [
+       "The shops",
+       "The old bridge",
+       "The school",
+       "The cars"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What kind of place is it?",
+      "o": [
+       "A loud place",
+       "A busy place",
+       "A quiet place",
+       "A dark place"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what is in the writer's town?",
+     "min": 4
+    },
+    "keys": [
+     "town",
+     "river",
+     "park",
+     "bridge"
+    ]
+   },
+   {
+    "title": "A Cat on the Roof",
+    "text": "A cat is on a high roof. The small cat is very afraid. A man calls for help. A woman comes with a long ladder. The cat is safe now.",
+    "qs": [
+     {
+      "q": "Where is the cat?",
+      "o": [
+       "In a tree",
+       "On a roof",
+       "In a house",
+       "In a car"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Who calls for help?",
+      "o": [
+       "A woman",
+       "A boy",
+       "A child",
+       "A man"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What does the woman bring?",
+      "o": [
+       "A long ladder",
+       "A big box",
+       "A dog",
+       "A car"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How is the cat at the end?",
+      "o": [
+       "Afraid",
+       "Hungry",
+       "Safe",
+       "Angry"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what happens to the cat?",
+     "min": 4
+    },
+    "keys": [
+     "cat",
+     "roof",
+     "help",
+     "ladder"
+    ]
+   },
+   {
+    "title": "I Like Rain",
+    "text": "I like rain very much. Some people do not like it. But I think rain is good. The flowers and trees drink it. I sit at home and read a book.",
+    "qs": [
+     {
+      "q": "What does the writer like?",
+      "o": [
+       "Sun",
+       "Snow",
+       "Wind",
+       "Rain"
+      ],
+      "a": 3
+     },
+     {
+      "q": "Why is rain good?",
+      "o": [
+       "Flowers and trees drink it",
+       "It is warm",
+       "It is loud",
+       "It is white"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Do all people like rain?",
+      "o": [
+       "Yes, all of them",
+       "No, some do not",
+       "Only children",
+       "Only old people"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does the writer do at home?",
+      "o": [
+       "Cooks food",
+       "Plays games",
+       "Reads a book",
+       "Sleeps"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: why does the writer like rain?",
+     "min": 4
+    },
+    "keys": [
+     "rain",
+     "flowers",
+     "trees",
+     "book"
+    ]
+   },
+   {
+    "title": "Making Tea",
+    "text": "First, boil some water in a pot. Put a tea bag in a cup. Then add the hot water. Wait for three minutes. Now you can drink your tea.",
+    "qs": [
+     {
+      "q": "What do you do first?",
+      "o": [
+       "Add hot water",
+       "Put a tea bag in a cup",
+       "Boil some water",
+       "Wait three minutes"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What goes in the cup?",
+      "o": [
+       "A tea bag",
+       "An egg",
+       "Bread",
+       "Milk"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How long do you wait?",
+      "o": [
+       "Five minutes",
+       "Three minutes",
+       "One minute",
+       "Ten minutes"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What do you do last?",
+      "o": [
+       "Wait",
+       "Boil water",
+       "Add a tea bag",
+       "Drink the tea"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: how do you make tea?",
+     "min": 4
+    },
+    "keys": [
+     "water",
+     "tea",
+     "cup",
+     "minutes"
+    ]
+   },
+   {
+    "title": "Grandma's Garden",
+    "text": "I often think of my grandma. Her house is small and white. In the garden there is a big tree. We sit under it and eat cake. I love those days.",
+    "qs": [
+     {
+      "q": "Who does the writer think of?",
+      "o": [
+       "Mum",
+       "Grandma",
+       "A friend",
+       "A teacher"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What colour is the house?",
+      "o": [
+       "Red",
+       "Blue",
+       "Yellow",
+       "White"
+      ],
+      "a": 3
+     },
+     {
+      "q": "Where is the big tree?",
+      "o": [
+       "In the garden",
+       "In the park",
+       "At school",
+       "In town"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What do they eat under the tree?",
+      "o": [
+       "Bread",
+       "Fruit",
+       "Cake",
+       "Rice"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what does the writer remember about grandma's house?",
+     "min": 4
+    },
+    "keys": [
+     "grandma",
+     "house",
+     "garden",
+     "cake"
+    ]
+   }
+  ],
+  "A2": [
+   {
+    "title": "Maria's Busy Saturday",
+    "text": "On Saturday morning, Maria cleaned her small flat and washed the clothes. At noon she met her friend Julia in a cafe. They ate soup and talked for two hours. In the afternoon they went to the market and bought some fruit. Maria came home tired but happy. Tomorrow she is going to visit her parents.",
+    "qs": [
+     {
+      "q": "Who did Maria meet?",
+      "o": [
+       "Her mother",
+       "Her sister",
+       "Julia",
+       "Her teacher"
+      ],
+      "a": 2
+     },
+     {
+      "q": "Where did they eat?",
+      "o": [
+       "At home",
+       "In a cafe",
+       "At the market",
+       "In a park"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What did they do after the cafe?",
+      "o": [
+       "They went to the market",
+       "They went home",
+       "They visited her parents",
+       "They cleaned the flat"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What is Maria going to do tomorrow?",
+      "o": [
+       "Go to work",
+       "Clean the flat",
+       "Meet Julia",
+       "Visit her parents"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what did Maria do on Saturday?",
+     "min": 6
+    },
+    "keys": [
+     "flat",
+     "cafe",
+     "market",
+     "fruit"
+    ]
+   },
+   {
+    "title": "A Weekend in the Mountains",
+    "text": "Last month Daniel and his brother went to the mountains. They took a train and then walked for four hours. The weather was cold, so they wore warm coats. At the top they ate sandwiches and looked at the lake below. Next year they are going to go again in summer.",
+    "qs": [
+     {
+      "q": "Who went with Daniel?",
+      "o": [
+       "His father",
+       "His brother",
+       "His friend",
+       "His uncle"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Why did they wear warm coats?",
+      "o": [
+       "The weather was cold",
+       "They were tired",
+       "It was night",
+       "It was raining"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did they eat at the top?",
+      "o": [
+       "Soup",
+       "Fruit",
+       "Sandwiches",
+       "Cake"
+      ],
+      "a": 2
+     },
+     {
+      "q": "When are they going to go again?",
+      "o": [
+       "Next week",
+       "Next month",
+       "In winter",
+       "Next year, in summer"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what did Daniel and his brother do in the mountains?",
+     "min": 6
+    },
+    "keys": [
+     "mountains",
+     "train",
+     "coats",
+     "lake"
+    ]
+   },
+   {
+    "title": "An Email to a Friend",
+    "text": "Dear Kim, thank you for your letter. I am sorry that I did not write earlier. I was ill, but now I feel much better. I am going to visit you in May for one week. Please tell me which days are good for you and your family. See you soon!",
+    "qs": [
+     {
+      "q": "Why did the writer not write earlier?",
+      "o": [
+       "He was ill",
+       "He was busy",
+       "He was away",
+       "He lost the address"
+      ],
+      "a": 0
+     },
+     {
+      "q": "When is the writer going to visit?",
+      "o": [
+       "In March",
+       "In April",
+       "In May",
+       "In June"
+      ],
+      "a": 2
+     },
+     {
+      "q": "How does the writer feel now?",
+      "o": [
+       "Still ill",
+       "Much better",
+       "Very tired",
+       "Worried"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does the writer ask Kim?",
+      "o": [
+       "To send some money",
+       "To buy a ticket",
+       "To call him tonight",
+       "To tell him which days are good"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: why is the writer writing to Kim?",
+     "min": 6
+    },
+    "keys": [
+     "letter",
+     "ill",
+     "visit",
+     "family"
+    ]
+   },
+   {
+    "title": "Guitar Lessons",
+    "text": "Do you want to learn the guitar? Peter Novak is a music teacher with ten years of experience. He teaches children and adults in his small studio near the station. The first lesson is free, so you can try it. Lessons are on Tuesday and Thursday evenings. Call this week and you will get a free book.",
+    "qs": [
+     {
+      "q": "Who can have lessons?",
+      "o": [
+       "Only adults",
+       "Only children",
+       "Children and adults",
+       "Only music teachers"
+      ],
+      "a": 2
+     },
+     {
+      "q": "Where is the studio?",
+      "o": [
+       "Near the station",
+       "Near the school",
+       "In the park",
+       "Near the market"
+      ],
+      "a": 0
+     },
+     {
+      "q": "On which days are the lessons?",
+      "o": [
+       "Monday and Friday",
+       "Tuesday and Thursday",
+       "Wednesday only",
+       "Saturday and Sunday"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Why is the first lesson free?",
+      "o": [
+       "It is very short",
+       "The teacher is new",
+       "It is a holiday",
+       "You can try it"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what can you do at Peter Novak's studio?",
+     "min": 6
+    },
+    "keys": [
+     "guitar",
+     "teacher",
+     "studio",
+     "lesson"
+    ]
+   },
+   {
+    "title": "The Wrong Bag",
+    "text": "Nina left the train station and walked home. She opened her bag and found a blue jacket inside. It was not her bag! She felt worried and went back to the station. There she saw a man, and he was holding her bag. They laughed, changed bags and said goodbye.",
+    "qs": [
+     {
+      "q": "What did Nina find in the bag?",
+      "o": [
+       "A blue jacket",
+       "A book",
+       "Some food",
+       "A phone"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why did Nina go back to the station?",
+      "o": [
+       "She forgot her ticket",
+       "It was not her bag",
+       "She wanted to meet a friend",
+       "She was hungry"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Who did she see at the station?",
+      "o": [
+       "Her friend",
+       "A teacher",
+       "A man with her bag",
+       "A police officer"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What did they do at the end?",
+      "o": [
+       "They ran away",
+       "They called someone",
+       "They went home together",
+       "They laughed and changed bags"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what happened to Nina's bag?",
+     "min": 6
+    },
+    "keys": [
+     "bag",
+     "jacket",
+     "station",
+     "worried"
+    ]
+   },
+   {
+    "title": "The Old Library",
+    "text": "The old library is in the centre of our town. It is a big stone building with tall windows. Inside, there are thousands of books and many comfortable chairs. On the second floor there is a quiet room for students. Many people go there because it is warm and free. I go every Friday after school.",
+    "qs": [
+     {
+      "q": "Where is the library?",
+      "o": [
+       "Near the river",
+       "In the centre of the town",
+       "Next to a school",
+       "In the mountains"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What is on the second floor?",
+      "o": [
+       "A cafe",
+       "A shop",
+       "A quiet room",
+       "A game room"
+      ],
+      "a": 2
+     },
+     {
+      "q": "Why do many people go there?",
+      "o": [
+       "It is warm and free",
+       "It is new",
+       "It has a cafe",
+       "It is near the station"
+      ],
+      "a": 0
+     },
+     {
+      "q": "When does the writer go?",
+      "o": [
+       "Every Monday",
+       "Every Wednesday",
+       "Every Sunday",
+       "Every Friday"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what is the library like?",
+     "min": 6
+    },
+    "keys": [
+     "library",
+     "books",
+     "students",
+     "windows"
+    ]
+   },
+   {
+    "title": "New Bike Lanes",
+    "text": "The city council opened a new bike lane yesterday. It goes from the station to the big park. Before this, many cyclists felt unsafe on the main road. The council spent a lot of money on the work. Next year the city is going to build two more lanes. Many people are happy, but some drivers are angry.",
+    "qs": [
+     {
+      "q": "What did the council open?",
+      "o": [
+       "A new road",
+       "A bike lane",
+       "A park",
+       "A station"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Where does the lane go?",
+      "o": [
+       "From the station to the park",
+       "From home to school",
+       "From the park to the river",
+       "From the city to the sea"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where did cyclists feel unsafe before?",
+      "o": [
+       "In the park",
+       "At the station",
+       "In the centre",
+       "On the main road"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What is the city going to do next year?",
+      "o": [
+       "Close the main road",
+       "Open a new park",
+       "Build two more lanes",
+       "Remove the lane"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what is new in the city, and who is happy or angry?",
+     "min": 6
+    },
+    "keys": [
+     "council",
+     "lane",
+     "cyclists",
+     "drivers"
+    ]
+   },
+   {
+    "title": "Walking to School",
+    "text": "I think children should walk to school. First, walking is good for their health. Second, they can talk to their friends on the way. Last year my daughter walked to school and felt more awake. Some parents say the roads are dangerous, and that is true. But I believe we can make the streets safer.",
+    "qs": [
+     {
+      "q": "What does the writer think?",
+      "o": [
+       "Children should walk to school",
+       "Children should take the bus",
+       "Children should stay home",
+       "School should start later"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why is walking good, according to the writer?",
+      "o": [
+       "It is cheaper",
+       "It is faster",
+       "It is good for health",
+       "It is quiet"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What happened to the writer's daughter?",
+      "o": [
+       "She got lost",
+       "She was often late",
+       "She felt tired",
+       "She felt more awake"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What do some parents say?",
+      "o": [
+       "School is too far",
+       "The roads are dangerous",
+       "It is too cold",
+       "Children are lazy"
+      ],
+      "a": 1
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: should children walk to school, and why?",
+     "min": 6
+    },
+    "keys": [
+     "walk",
+     "health",
+     "daughter",
+     "streets"
+    ]
+   },
+   {
+    "title": "How a Fridge Works",
+    "text": "A fridge keeps food cold so it stays fresh for longer. Inside the fridge there is a special liquid in thin pipes. The liquid takes the heat from the food and carries it away. Then the liquid goes to the back, where the heat leaves. This is why the back of a fridge is often warm. A small motor moves the liquid around all day.",
+    "qs": [
+     {
+      "q": "What does a fridge do?",
+      "o": [
+       "It keeps food cold",
+       "It makes food hot",
+       "It cooks food",
+       "It cleans food"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does the liquid take from the food?",
+      "o": [
+       "Water",
+       "Heat",
+       "Taste",
+       "Light"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Where does the heat go in the end?",
+      "o": [
+       "Into the food",
+       "Into the pipes",
+       "Into the room",
+       "Into the motor"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What moves the liquid?",
+      "o": [
+       "A fan",
+       "The wind",
+       "A person",
+       "A small motor"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: how does a fridge keep food cold?",
+     "min": 6
+    },
+    "keys": [
+     "fridge",
+     "liquid",
+     "heat",
+     "motor"
+    ]
+   },
+   {
+    "title": "My First Bicycle",
+    "text": "When I was seven, my father gave me a red bicycle. I was very excited, but I could not ride it. Every evening he ran next to me and held the seat. After two weeks I fell, and I cried a little. He smiled and said that everyone falls. The next day I rode alone, and I still remember that feeling.",
+    "qs": [
+     {
+      "q": "Who gave the writer a bicycle?",
+      "o": [
+       "The writer's mother",
+       "The writer's father",
+       "The writer's uncle",
+       "The writer's brother"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What colour was the bicycle?",
+      "o": [
+       "Blue",
+       "Green",
+       "Red",
+       "Black"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What happened after two weeks?",
+      "o": [
+       "The writer fell",
+       "The writer rode alone",
+       "The bicycle broke",
+       "The father left"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did the father say after the fall?",
+      "o": [
+       "That the bike was bad",
+       "That the writer was too young",
+       "That it was time to go home",
+       "That everyone falls"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: how did the writer learn to ride a bicycle?",
+     "min": 6
+    },
+    "keys": [
+     "bicycle",
+     "father",
+     "evening",
+     "fell"
+    ]
+   }
+  ],
+  "B1": [
+   {
+    "title": "A Teacher's Long Day",
+    "text": "Elena wakes up at half past five because her school is far from her home. She usually takes two buses and arrives just before the first lesson. During the day she teaches three classes, answers many questions and rarely has time to eat. After school she often stays late to help students who are struggling with their homework. When she finally gets home, she is exhausted, but she says the work is worth it. If a student smiles at her in the corridor, she forgets how tired she is.",
+    "qs": [
+     {
+      "q": "How does Elena get to school?",
+      "o": [
+       "By train",
+       "By two buses",
+       "By bike",
+       "On foot"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does Elena often do after school?",
+      "o": [
+       "She goes straight home",
+       "She eats lunch",
+       "She stays late to help students",
+       "She prepares tomorrow's food"
+      ],
+      "a": 2
+     },
+     {
+      "q": "Why does Elena wake up so early?",
+      "o": [
+       "Her school is far from her home",
+       "She likes mornings",
+       "She has a dog to walk",
+       "Her classes start at five"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How does Elena feel about her job?",
+      "o": [
+       "She finds it boring",
+       "She wants to change it",
+       "It pays very well",
+       "She thinks it is worth it"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: why is Elena's day so long, and how does she feel about it?",
+     "min": 8
+    },
+    "keys": [
+     "buses",
+     "classes",
+     "students",
+     "homework"
+    ]
+   },
+   {
+    "title": "Lost in Lisbon",
+    "text": "Last spring Omar travelled to Lisbon for the first time. He had planned everything carefully, but his phone died on the second day. Without a map, he got lost in a maze of narrow streets. Instead of panicking, he asked an old woman for help, and she walked him to the right tram. Omar later said that this was the best moment of his trip, because he met someone kind. If he had not lost his phone, he would never have talked to her.",
+    "qs": [
+     {
+      "q": "What happened to Omar's phone?",
+      "o": [
+       "It was stolen",
+       "It stopped working",
+       "It fell in water",
+       "He forgot it"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What did the old woman do?",
+      "o": [
+       "She gave him a map",
+       "She called a taxi",
+       "She lent him a phone",
+       "She walked him to the tram"
+      ],
+      "a": 3
+     },
+     {
+      "q": "Why was it the best moment of his trip?",
+      "o": [
+       "He found a cheap hotel",
+       "He saw a famous place",
+       "He met someone kind",
+       "He won a prize"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What does Omar think about losing his phone now?",
+      "o": [
+       "It was a lucky accident",
+       "It ruined the trip",
+       "It was his own fault",
+       "He will never travel again"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what went wrong for Omar, and what was good about it?",
+     "min": 8
+    },
+    "keys": [
+     "Lisbon",
+     "phone",
+     "streets",
+     "tram"
+    ]
+   },
+   {
+    "title": "A Message to the Neighbours",
+    "text": "Dear neighbours, I am writing to tell you about a party in my flat on Saturday evening. I know that some of you go to bed early. So I will make sure the music stops by ten. If it is too loud, please knock on my door and I will turn it down. I have also made a lot of food, and you are all welcome to join us. I would be very happy to meet everyone, because I only moved here last month. Thank you for your patience.",
+    "qs": [
+     {
+      "q": "What is the writer writing about?",
+      "o": [
+       "A broken door",
+       "A party",
+       "A new job",
+       "A lost key"
+      ],
+      "a": 1
+     },
+     {
+      "q": "By what time will the music stop?",
+      "o": [
+       "Eight",
+       "Nine",
+       "Ten",
+       "Midnight"
+      ],
+      "a": 2
+     },
+     {
+      "q": "Why does the writer want to meet everyone?",
+      "o": [
+       "She moved here recently",
+       "She is leaving soon",
+       "She sells food",
+       "She is a teacher"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What kind of person is the writer?",
+      "o": [
+       "Rude and careless",
+       "Shy and silent",
+       "Angry and strict",
+       "Polite and considerate"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what does the writer ask the neighbours, and why?",
+     "min": 8
+    },
+    "keys": [
+     "party",
+     "neighbours",
+     "music",
+     "door"
+    ]
+   },
+   {
+    "title": "Weekend Cooking Course",
+    "text": "Do you want to learn how to cook real food instead of ordering it every night? Our weekend cooking course is perfect for beginners who feel nervous in the kitchen. Each Saturday a professional chef shows you a simple dish, and then you cook it yourself. All the ingredients are included in the price, so you only need to bring an apron. If you join before the end of this month, you will get a ten percent discount. Places are limited, so we recommend that you book early.",
+    "qs": [
+     {
+      "q": "Who is the course for?",
+      "o": [
+       "Professional chefs",
+       "Beginners",
+       "Restaurant owners",
+       "Children only"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What do you need to bring?",
+      "o": [
+       "Ingredients",
+       "A knife",
+       "An apron",
+       "A recipe book"
+      ],
+      "a": 2
+     },
+     {
+      "q": "How can you get a discount?",
+      "o": [
+       "Bring a friend",
+       "Pay in cash",
+       "Come twice",
+       "Join before the end of the month"
+      ],
+      "a": 3
+     },
+     {
+      "q": "Why should you book early?",
+      "o": [
+       "There are only a few places",
+       "The price goes up soon",
+       "The course is very long",
+       "The chef is leaving"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what will you learn on this course, and what do you need?",
+     "min": 8
+    },
+    "keys": [
+     "course",
+     "chef",
+     "beginners",
+     "apron"
+    ]
+   },
+   {
+    "title": "The Last Train",
+    "text": "Tomas missed the last train home, so he decided to walk. It was already past midnight and the streets were empty and dark. After an hour he heard footsteps behind him, and his heart began to beat faster. He walked quicker, but the steps came closer, until he finally turned round. A small dog was following him, and it looked as lost as he was. Tomas laughed, picked it up and carried it all the way home. He named the dog Lucky, because that night they both needed some luck.",
+    "qs": [
+     {
+      "q": "Why did Tomas walk home?",
+      "o": [
+       "He liked walking",
+       "He missed the last train",
+       "His car broke down",
+       "He had no money"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What was behind Tomas?",
+      "o": [
+       "A stranger",
+       "A cat",
+       "A man with a light",
+       "A small dog"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What did Tomas do after he saw the dog?",
+      "o": [
+       "He ran away",
+       "He called the police",
+       "He laughed and carried it home",
+       "He left it there"
+      ],
+      "a": 2
+     },
+     {
+      "q": "How did Tomas feel when he first heard the steps?",
+      "o": [
+       "Frightened",
+       "Bored",
+       "Happy",
+       "Sleepy"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what did Tomas hear, and what was it?",
+     "min": 8
+    },
+    "keys": [
+     "train",
+     "midnight",
+     "footsteps",
+     "dog"
+    ]
+   },
+   {
+    "title": "A Fishing Village",
+    "text": "Our village sits on a steep hill above the sea, and every house is painted a different colour. In the morning the fishermen return, and the harbour fills with noise and the smell of fish. Tourists usually come in summer, so the narrow streets can be very crowded. However, I prefer the village in winter, when it is quiet and the sea is wild. There is a small cafe at the top of the hill where you can watch the storms safely. If you visit, come in autumn, when it is mild and there are fewer people.",
+    "qs": [
+     {
+      "q": "Where is the village?",
+      "o": [
+       "On a hill above the sea",
+       "In a valley",
+       "Next to a river",
+       "On a small island"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why are the streets crowded in summer?",
+      "o": [
+       "It is market time",
+       "Many tourists visit",
+       "The boats return",
+       "The cafe opens"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Which season does the writer prefer?",
+      "o": [
+       "Summer",
+       "Spring",
+       "Winter",
+       "Autumn"
+      ],
+      "a": 2
+     },
+     {
+      "q": "When does the writer advise visitors to come?",
+      "o": [
+       "In summer",
+       "In spring",
+       "In winter",
+       "In autumn"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what is the village like, and when is it best to visit?",
+     "min": 8
+    },
+    "keys": [
+     "village",
+     "harbour",
+     "tourists",
+     "autumn"
+    ]
+   },
+   {
+    "title": "Free Buses for Students",
+    "text": "A small town in the north has decided to make all buses free for students. The council announced the plan on Monday and said it would start in September. Officials hope that more young people will use public transport and fewer parents will drive them. The plan will cost about one million euros a year, which has worried some residents. However, similar projects in other towns have reduced traffic by almost a fifth. A final vote will take place next month, and supporters expect it to pass.",
+    "qs": [
+     {
+      "q": "What is the plan?",
+      "o": [
+       "Free buses for students",
+       "Free trains for everyone",
+       "Cheaper cars",
+       "A new school"
+      ],
+      "a": 0
+     },
+     {
+      "q": "When will the plan start?",
+      "o": [
+       "In June",
+       "In September",
+       "In January",
+       "Next week"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Why are some residents worried?",
+      "o": [
+       "It is too noisy",
+       "It will take too long",
+       "It will cost a lot of money",
+       "The buses are old"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What happened in similar towns?",
+      "o": [
+       "The plans failed",
+       "The costs were too high",
+       "The plans were stopped",
+       "Traffic became lower"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what will the town do, and why?",
+     "min": 8
+    },
+    "keys": [
+     "town",
+     "buses",
+     "council",
+     "traffic"
+    ]
+   },
+   {
+    "title": "Phones in the Classroom",
+    "text": "In my opinion, schools should not allow phones in the classroom. When a phone is on the desk, students keep checking it and cannot follow the lesson. Some people argue that phones can be useful for looking up information. That is true, but a teacher can use school computers instead. Of course, children must be able to reach their parents in an emergency. So I suggest that phones stay in a bag during lessons and come out at break. Then everyone gets the benefits without the distraction.",
+    "qs": [
+     {
+      "q": "What is the writer's opinion?",
+      "o": [
+       "Phones should stay out of lessons",
+       "Phones should be used all day",
+       "Teachers need more phones",
+       "Phones are dangerous"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why can students not follow the lesson?",
+      "o": [
+       "They are tired",
+       "They keep checking their phones",
+       "The room is noisy",
+       "The lessons are short"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does the writer say about looking up information?",
+      "o": [
+       "Phones are the only way",
+       "It is not needed",
+       "The school can offer computers",
+       "It should be done at home"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What does the writer think about contacting parents?",
+      "o": [
+       "It should happen every hour",
+       "It is not important",
+       "It is only for older students",
+       "It is important in an emergency"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: do you agree with the writer about phones, and why?",
+     "min": 8
+    },
+    "keys": [
+     "phones",
+     "students",
+     "computers",
+     "emergency"
+    ]
+   },
+   {
+    "title": "How Bees Make Honey",
+    "text": "Bees make honey from a sweet liquid called nectar, which they collect from flowers. A worker bee stores the nectar in a special stomach and carries it back to the hive. There, other bees take the nectar and chew it for a while. They spread it in small wax cells and fan it with their wings to remove the water. When the honey is thick enough, the bees close each cell with wax to keep it fresh. One bee makes only a tiny amount, so thousands of bees are needed to fill a jar.",
+    "qs": [
+     {
+      "q": "What do bees collect from flowers?",
+      "o": [
+       "Pollen only",
+       "Water",
+       "Nectar",
+       "Seeds"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What do worker bees do after collecting nectar?",
+      "o": [
+       "They carry it to the hive",
+       "They make wax",
+       "They eat it all",
+       "They sleep"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why do bees fan the liquid with their wings?",
+      "o": [
+       "To make it sweeter",
+       "To remove the water",
+       "To cool the hive",
+       "To make wax"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Why do thousands of bees fill only one jar?",
+      "o": [
+       "Jars are very large",
+       "Bees often get lost",
+       "Honey is very heavy",
+       "One bee makes only a little"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: how do bees turn nectar into honey?",
+     "min": 8
+    },
+    "keys": [
+     "bees",
+     "nectar",
+     "hive",
+     "honey"
+    ]
+   },
+   {
+    "title": "Summers at the Lake",
+    "text": "When I was a teenager, my family spent every summer in a small wooden house by a lake. I did not appreciate it then, because I wanted to be in the city with my friends. Now I understand how lucky I was. I remember the silence in the early morning and the taste of fresh bread from the village shop. If I could return to one place in my past, I would choose that house. Sadly, it was sold many years ago, so I can only visit it in my memories.",
+    "qs": [
+     {
+      "q": "Where did the family spend their summers?",
+      "o": [
+       "By the sea",
+       "In the mountains",
+       "In a city flat",
+       "By a lake"
+      ],
+      "a": 3
+     },
+     {
+      "q": "Why did the writer not like it then?",
+      "o": [
+       "The writer wanted to be in the city",
+       "It was too cold",
+       "The house was small",
+       "The writer was often ill"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How does the writer feel about the past now?",
+      "o": [
+       "Angry about it",
+       "Bored by it",
+       "Grateful but a little sad",
+       "Glad it is over"
+      ],
+      "a": 2
+     },
+     {
+      "q": "Why can the writer not go back?",
+      "o": [
+       "The writer is too busy",
+       "The house was sold",
+       "The lake dried up",
+       "The village moved"
+      ],
+      "a": 1
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences: what does the writer remember about the lake house?",
+     "min": 8
+    },
+    "keys": [
+     "teenager",
+     "lake",
+     "bread",
+     "village"
+    ]
+   }
+  ],
+  "B2": [
+   {
+    "title": "A Day at the Bakery",
+    "text": "Lucia gets up at four every morning, long before the city begins to stir. By the time the first customers arrive, she has shaped about two hundred loaves and checked the ovens. Although the work is exhausting, she says it has taught her patience, because bread cannot be hurried. At midday she locks the door, eats a simple lunch, and sleeps for two hours. In the afternoon she answers orders, most of which are sent by restaurants that depend on her. Her sister has often suggested that she hire an assistant, but Lucia insists that she would rather do everything herself. She admits, however, that she may change her mind if the business keeps growing.",
+    "qs": [
+     {
+      "q": "What time does Lucia get up?",
+      "o": [
+       "At midnight",
+       "At four",
+       "At six",
+       "At noon"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does Lucia say the work has taught her?",
+      "o": [
+       "Patience",
+       "Speed",
+       "How to cook for restaurants",
+       "How to manage staff"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where do most of the afternoon orders come from?",
+      "o": [
+       "Private families",
+       "Her sister",
+       "Restaurants",
+       "Shops abroad"
+      ],
+      "a": 2
+     },
+     {
+      "q": "How does Lucia feel about hiring an assistant?",
+      "o": [
+       "She has already hired one",
+       "She wants her sister to take the job",
+       "She refuses to hire anyone for ever",
+       "She prefers working alone but might change her mind"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: why does Lucia work without an assistant?",
+     "min": 10
+    },
+    "keys": [
+     "lucia",
+     "loaves",
+     "ovens",
+     "assistant"
+    ]
+   },
+   {
+    "title": "A Night Train North",
+    "text": "Last spring Tomas decided to travel to the far north by train instead of flying. The journey, which lasted nearly two days, took him through forests so dense that the sunlight seldom reached the ground. He had been warned that the carriages would be cold, so he brought a thick blanket and a flask of tea. On the second evening a retired teacher sat opposite him and began telling stories about the villages they passed. Tomas later said that these conversations were the most valuable part of the trip. When the train finally pulled into the station, snow was falling softly on the empty platform. Although he arrived tired, he felt that the slow route had been worth the extra time.",
+    "qs": [
+     {
+      "q": "About how long did the journey last?",
+      "o": [
+       "A few hours",
+       "One night",
+       "Nearly two days",
+       "A whole week"
+      ],
+      "a": 2
+     },
+     {
+      "q": "Why did Tomas bring a blanket and a flask of tea?",
+      "o": [
+       "He had been told the carriages would be cold",
+       "He planned to camp in the forest",
+       "The teacher had asked him to",
+       "The station had no heating"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How did Tomas feel about the trip at the end?",
+      "o": [
+       "The slow route had not been worth it",
+       "He was too tired to enjoy it",
+       "He wished he had flown",
+       "The slow route had been worth the extra time"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What did Tomas find most valuable about the trip?",
+      "o": [
+       "The forests",
+       "The conversations with another passenger",
+       "The food on the train",
+       "The snow"
+      ],
+      "a": 1
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what did Tomas value most about his journey?",
+     "min": 10
+    },
+    "keys": [
+     "tomas",
+     "train",
+     "forests",
+     "teacher",
+     "snow"
+    ]
+   },
+   {
+    "title": "A Message to the Landlord",
+    "text": "Dear Samuel, I am writing about the heating in my flat, which has not worked since last Monday. A technician was supposed to visit on Thursday, but nobody came and nobody called to explain. Since the temperature at night has dropped below freezing, my neighbour and I have been using electric heaters. I would be grateful if you could arrange a repair as soon as possible. Should the problem continue, I will have to ask for a reduction in rent. I appreciate that these things take time, and I do not wish to cause difficulty. Please let me know by Friday when someone will be able to come. Thank you for your help, Amira.",
+    "qs": [
+     {
+      "q": "Why is Amira writing to Samuel?",
+      "o": [
+       "She wants to move out",
+       "Her neighbour is too noisy",
+       "She needs a new key",
+       "The heating has stopped working"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What went wrong on Thursday?",
+      "o": [
+       "The technician did not come",
+       "The heating was repaired",
+       "Her neighbour called her",
+       "The rent was late"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What has Amira been doing to keep warm?",
+      "o": [
+       "Staying with a friend",
+       "Wearing her coat all day",
+       "Using electric heaters",
+       "Opening the windows"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What might Amira do if the problem continues?",
+      "o": [
+       "Fix it herself",
+       "Ask for a lower rent",
+       "Call the police",
+       "Stay with her neighbour"
+      ],
+      "a": 1
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what is Amira's problem, and what does she want?",
+     "min": 10
+    },
+    "keys": [
+     "heating",
+     "technician",
+     "neighbour",
+     "rent",
+     "amira"
+    ]
+   },
+   {
+    "title": "A Community Garden Notice",
+    "text": "The neighbourhood council is pleased to announce that the old car park behind the library will be turned into a community garden. Residents who wish to take part are invited to a meeting on the first Saturday of next month. Each household will be given a small plot, provided that it agrees to look after it throughout the growing season. Tools and seeds will be supplied free of charge, although volunteers are asked to bring their own gloves. Those who have no experience need not worry, since a team of experienced gardeners will offer guidance every weekend. It is hoped that the project will bring neighbours closer together and make the area greener. Anyone who is interested should sign the list at the library desk before the end of the week.",
+    "qs": [
+     {
+      "q": "Where will the garden be created?",
+      "o": [
+       "On the roof of the library",
+       "Next to the town hall",
+       "On the site of an old car park",
+       "In the main square"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What must a household do to receive a plot?",
+      "o": [
+       "Pay a small fee",
+       "Promise to look after it",
+       "Attend every meeting",
+       "Bring its own seeds"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What will be provided free of charge?",
+      "o": [
+       "Gloves and boots",
+       "Plants and soil",
+       "Lunch for volunteers",
+       "Tools and seeds"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What do the organisers hope the project will do?",
+      "o": [
+       "Bring neighbours closer together",
+       "Earn money for the council",
+       "Reduce traffic in the area",
+       "Teach children to cook"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: why is the council creating the garden?",
+     "min": 10
+    },
+    "keys": [
+     "garden",
+     "library",
+     "tools",
+     "seeds",
+     "gloves"
+    ]
+   },
+   {
+    "title": "The Missing Keys",
+    "text": "Elena had spent the whole afternoon searching for her car keys, turning the flat upside down. She checked every pocket, lifted every cushion, and even emptied the bin, but there was no sign of them. Convinced that someone must have taken them, she began to suspect her new flatmate, who had been strangely quiet all week. Eventually, close to tears, she phoned her mother to complain. Her mother listened patiently and then asked whether Elena was by any chance holding something in her left hand. Elena looked down and discovered that the keys had been in her hand the entire time. She laughed so hard that she had to sit down, and she later apologised to her flatmate with a cake.",
+    "qs": [
+     {
+      "q": "What was Elena looking for?",
+      "o": [
+       "Her phone",
+       "Her car keys",
+       "Her wallet",
+       "A cake"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Who did Elena suspect had taken the keys?",
+      "o": [
+       "Her mother",
+       "A neighbour",
+       "Her new flatmate",
+       "A stranger"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What led Elena to find the keys?",
+      "o": [
+       "Her mother's question",
+       "A search of the bin",
+       "Her flatmate's help",
+       "A call from a neighbour"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How did Elena make up for suspecting her flatmate?",
+      "o": [
+       "She said nothing",
+       "She wrote a long letter",
+       "She cleaned the whole flat",
+       "She apologised with a cake"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: where were the keys, and how did Elena find out?",
+     "min": 10
+    },
+    "keys": [
+     "elena",
+     "keys",
+     "flatmate",
+     "mother",
+     "cake"
+    ]
+   },
+   {
+    "title": "The Old Harbour Town",
+    "text": "The harbour town lies at the end of a narrow valley, where a river meets the sea. Its houses, painted in faded blue and yellow, climb the hillside in uneven rows. Visitors are often struck by the silence, which is broken only by the cry of gulls and the creak of fishing boats. In the main square stands a stone fountain that, according to local legend, has never run dry. Most of the shops are small and family owned, and many have remained unchanged for generations. Because the road is steep and winding, few tourists venture further than the first cafe. Those who do are rewarded with a view of the whole bay at sunset.",
+    "qs": [
+     {
+      "q": "Where does the town lie?",
+      "o": [
+       "On top of a mountain",
+       "At the end of a valley by the sea",
+       "In the middle of a desert",
+       "On a small island"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What do local people say about the fountain?",
+      "o": [
+       "It was built recently",
+       "It is broken",
+       "It has never run dry",
+       "It is the oldest in the country"
+      ],
+      "a": 2
+     },
+     {
+      "q": "Why do few tourists go further than the first cafe?",
+      "o": [
+       "The shops are closed",
+       "The town is dangerous",
+       "The cafe is very expensive",
+       "The road is steep and winding"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What are those who go further rewarded with?",
+      "o": [
+       "A view of the whole bay at sunset",
+       "A free meal",
+       "A boat trip",
+       "A tour of the shops"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what is special about the harbour town?",
+     "min": 10
+    },
+    "keys": [
+     "harbour",
+     "valley",
+     "fountain",
+     "tourists",
+     "bay"
+    ]
+   },
+   {
+    "title": "A Library Opens Late",
+    "text": "A public library in a northern city has begun to stay open until midnight, following a request from local students. The scheme, which started last month, was introduced after a survey showed that many young people had nowhere quiet to study in the evenings. Officials report that the extra hours have been far more popular than expected, with every desk occupied on most nights. Some residents, however, have complained about the cost of keeping the building heated and staffed so late. The city council has replied that the project will be reviewed after six months. If attendance remains high, it is likely to be extended to other branches. Meanwhile, a group of volunteers has offered to help supervise the reading rooms free of charge.",
+    "qs": [
+     {
+      "q": "Why did the library begin to stay open late?",
+      "o": [
+       "The council wanted to save money",
+       "A new building had opened",
+       "The staff asked for shorter days",
+       "Local students asked for it"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What did the survey show?",
+      "o": [
+       "Young people had no quiet place to study in the evenings",
+       "Few people read books any more",
+       "The library was too noisy",
+       "Most students prefer to study at home"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What have some residents complained about?",
+      "o": [
+       "The age of the books",
+       "The cost of heating and staffing the building",
+       "The noise at night",
+       "The lack of desks"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What will happen after six months?",
+      "o": [
+       "The library will close",
+       "The library will move",
+       "The project will be reviewed",
+       "The volunteers will leave"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: why did the library start to open late, and what do some residents think?",
+     "min": 10
+    },
+    "keys": [
+     "library",
+     "students",
+     "survey",
+     "council",
+     "volunteers"
+    ]
+   },
+   {
+    "title": "Why Handwriting Still Matters",
+    "text": "Many people argue that handwriting is a skill we can safely abandon now that nearly everyone owns a keyboard. I believe this view is mistaken, or at least premature. Studies suggest that students who take notes by hand tend to remember more, because they are forced to summarise rather than copy. Writing slowly also gives the mind time to organise ideas before they reach the page. Of course, typing is faster, and nobody would deny that it is more practical for long documents. Nevertheless, speed is not the only measure of value. For that reason, I think schools should continue to teach handwriting, even if it occupies a smaller place in the timetable than before.",
+    "qs": [
+     {
+      "q": "What do many people argue?",
+      "o": [
+       "That keyboards harm memory",
+       "That handwriting is more beautiful",
+       "That handwriting is no longer needed",
+       "That schools are too strict"
+      ],
+      "a": 2
+     },
+     {
+      "q": "Why do students who write notes by hand remember more?",
+      "o": [
+       "They write faster",
+       "They have to summarise instead of copying",
+       "They read more books",
+       "They use better pens"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does the writer admit about typing?",
+      "o": [
+       "It is more practical for long documents",
+       "It is bad for students",
+       "It is going out of fashion",
+       "It is harder to learn"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does the writer recommend?",
+      "o": [
+       "Schools should stop teaching typing",
+       "Students should write everything by hand",
+       "Exams should be taken on computers",
+       "Schools should keep teaching handwriting"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: why does the writer think handwriting still matters?",
+     "min": 10
+    },
+    "keys": [
+     "handwriting",
+     "keyboard",
+     "students",
+     "typing",
+     "schools"
+    ]
+   },
+   {
+    "title": "How a Heat Pump Works",
+    "text": "A heat pump warms a house by moving heat rather than creating it. Even on a cold day, the air outside contains some warmth, which a liquid inside the machine absorbs and turns into gas. This gas is then compressed, and compression makes it much hotter, just as a bicycle pump becomes warm when it is used. The hot gas passes through a coil inside the house, where it gives up its heat and turns back into liquid. The cycle then begins again, repeating itself for as long as the machine is switched on. Because it transfers heat instead of burning fuel, a heat pump can deliver several times more energy than it consumes. This efficiency explains why such machines are becoming popular in countries with cold winters.",
+    "qs": [
+     {
+      "q": "How does a heat pump warm a house?",
+      "o": [
+       "By burning fuel slowly",
+       "By storing sunlight",
+       "By moving heat from one place to another",
+       "By blowing air over a stove"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What happens to the gas when it is compressed?",
+      "o": [
+       "It becomes hotter",
+       "It becomes colder",
+       "It turns back into liquid at once",
+       "It disappears"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where does the hot gas give up its heat?",
+      "o": [
+       "Outside the house",
+       "In the compressor",
+       "Under the floor",
+       "In a coil inside the house"
+      ],
+      "a": 3
+     },
+     {
+      "q": "Why can a heat pump deliver more energy than it consumes?",
+      "o": [
+       "Because it uses the sun",
+       "Because it transfers heat instead of burning fuel",
+       "Because it runs all night",
+       "Because it is very large"
+      ],
+      "a": 1
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: how does a heat pump warm a house?",
+     "min": 10
+    },
+    "keys": [
+     "heat",
+     "gas",
+     "compressed",
+     "coil",
+     "liquid"
+    ]
+   },
+   {
+    "title": "My Grandfather's Workshop",
+    "text": "When I was about ten, I spent every summer holiday in my grandfather's workshop at the edge of the village. It smelled of sawdust and oil, and the walls were covered with tools that I was not allowed to touch. He rarely spoke while he worked, but he would occasionally hand me a piece of wood and tell me to feel the grain. At the time I found this boring, and I would have preferred to be playing outside with my cousins. Only years later did I understand that he had been teaching me to pay attention. He died shortly before I finished school, and the workshop was sold soon afterwards. Even now, the smell of fresh sawdust brings back those long quiet afternoons so vividly that I have to stop for a moment.",
+    "qs": [
+     {
+      "q": "Where did the writer spend every summer holiday?",
+      "o": [
+       "At the seaside",
+       "In a workshop at the edge of the village",
+       "In a city flat",
+       "At a summer school"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What did the grandfather occasionally do?",
+      "o": [
+       "Told long stories",
+       "Took the boy out to play",
+       "Let him use the tools",
+       "Handed him wood and asked him to feel the grain"
+      ],
+      "a": 3
+     },
+     {
+      "q": "How did the writer feel about this at the time?",
+      "o": [
+       "He found it boring",
+       "He found it exciting",
+       "He found it frightening",
+       "He found it useful"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did the writer understand years later?",
+      "o": [
+       "That the workshop was valuable",
+       "That his cousins had been right",
+       "That his grandfather had been teaching him to pay attention",
+       "That he disliked wood"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what did the writer learn from his grandfather?",
+     "min": 10
+    },
+    "keys": [
+     "grandfather",
+     "workshop",
+     "sawdust",
+     "tools",
+     "grain"
+    ]
+   }
+  ],
+  "C1": [
+   {
+    "title": "A Translator's Tuesday",
+    "text": "Marta works from home as a literary translator, a job that sounds more glamorous than it is. Her mornings are devoted to the hardest passages, since she has learned that her concentration fades long before lunch. She spends hours agonising over a single sentence, weighing whether a particular word captures the author's tone or merely approximates it. By early afternoon, she usually switches to emails and invoices, tasks that demand little imagination but must nevertheless be done. Her neighbours assume that she has endless free time, and they are forever knocking on her door to ask for small favours. She has stopped explaining that working at home is still working, because the explanation rarely seems to register. In the evening she takes a long walk, which she regards as part of the job rather than a break from it. Ideas that had refused to come at her desk have a way of arriving unannounced between the river and the market. When she finally returns, she reads her morning's work aloud, listening for any false notes that her eyes might have missed.",
+    "qs": [
+     {
+      "q": "What does Marta do in the morning?",
+      "o": [
+       "She replies to emails",
+       "She works on the hardest passages",
+       "She walks by the river",
+       "She visits her neighbours"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Why do Marta's neighbours often knock on her door?",
+      "o": [
+       "They want a book translated",
+       "They want to hear her read aloud",
+       "They are worried about her health",
+       "They assume she has plenty of free time"
+      ],
+      "a": 3
+     },
+     {
+      "q": "How does Marta regard her evening walk?",
+      "o": [
+       "As a way to avoid work",
+       "As exercise and nothing more",
+       "As part of her work",
+       "As a social event"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What does Marta do when she returns from her walk?",
+      "o": [
+       "She reads her morning's work aloud",
+       "She sends her invoices",
+       "She telephones the author",
+       "She goes straight to bed"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: how does Marta's working day follow a pattern?",
+     "min": 12
+    },
+    "keys": [
+     "translator",
+     "sentence",
+     "neighbours",
+     "walk",
+     "aloud"
+    ]
+   },
+   {
+    "title": "Across the Desert by Road",
+    "text": "We set out before dawn, hoping to cross the worst of the desert before the heat became unbearable. The road looked straight and simple on the map, but it was pitted with holes that forced us to crawl at a pace that would have embarrassed a cyclist. By midday the thermometer on the dashboard had climbed past forty degrees, and the air inside the car felt thick enough to chew. Our guide, a taciturn man named Idris, seemed untroubled and spent most of the journey humming to himself. When the engine finally gave up, he lifted the bonnet, studied it for a long moment, and announced that the problem was nothing but a loose cable. Within ten minutes we were moving again, though I suspect that his calm owed more to experience than to any great mechanical talent. That evening we reached a small oasis where the villagers, who had not expected visitors, insisted on feeding us dates and sweet tea. Looking back, I remember the discomfort only dimly, whereas the generosity of those strangers remains as sharp as ever. It is a lesson in how little people need in order to be kind.",
+    "qs": [
+     {
+      "q": "Why did the travellers leave before dawn?",
+      "o": [
+       "To avoid the worst of the heat",
+       "To catch a ferry",
+       "To see the sunrise",
+       "Because the guide insisted"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What was wrong with the engine?",
+      "o": [
+       "It had run out of fuel",
+       "A tyre had burst",
+       "A cable was loose",
+       "It had overheated"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What does the writer suspect about Idris's calm?",
+      "o": [
+       "It was an act to impress the travellers",
+       "It came from experience rather than great talent",
+       "It came from not caring about the journey",
+       "It came from knowing the oasis was close"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does the writer remember most clearly?",
+      "o": [
+       "The heat",
+       "The broken road",
+       "The loose cable",
+       "The kindness of the villagers"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what happened to the travellers, and what did they remember most?",
+     "min": 12
+    },
+    "keys": [
+     "desert",
+     "guide",
+     "engine",
+     "oasis",
+     "villagers"
+    ]
+   },
+   {
+    "title": "A Polite Refusal",
+    "text": "Dear Helena, thank you for your generous invitation to join the committee, which I read with both pride and a degree of guilt. After careful thought, I have concluded that I must decline, not for lack of enthusiasm but because I am already stretched thinner than is sensible. Over the past year I have accepted several commitments that seemed manageable on their own, only to find that together they leave no room to breathe. I would rather do a few things properly than appear on every list and contribute little. That said, I would be delighted to help in a more limited capacity, perhaps by reviewing documents or speaking at your annual meeting. Should either of these prove useful, you need only say the word, and I will clear a space in my diary. I hope you will not take my decision as a sign of indifference towards the cause, which I continue to admire deeply. Please accept my warmest thanks once more, and my best wishes for the coming year.",
+    "qs": [
+     {
+      "q": "Why is the writer sending this message?",
+      "o": [
+       "To accept a position",
+       "To decline an invitation to join a committee",
+       "To ask for money",
+       "To announce a meeting"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What is the reason for the refusal?",
+      "o": [
+       "He already has too many commitments",
+       "He dislikes the cause",
+       "He is moving abroad",
+       "He disagrees with the committee"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does he offer instead?",
+      "o": [
+       "To pay a fee",
+       "To lead the committee",
+       "To review documents or speak at the annual meeting",
+       "To find a replacement"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What does he hope?",
+      "o": [
+       "That Helena will visit him soon",
+       "That the committee will change its aims",
+       "That Helena will quickly find a replacement",
+       "That Helena will not see his decision as indifference"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: why does the writer refuse the invitation, and what does he offer?",
+     "min": 12
+    },
+    "keys": [
+     "committee",
+     "commitments",
+     "invitation",
+     "helena",
+     "documents"
+    ]
+   },
+   {
+    "title": "An Evening Talks Programme",
+    "text": "The Riverside Museum is delighted to announce a series of evening talks devoted to the history of everyday objects. Each session will be led by a different specialist, who will explore how an apparently ordinary item, such as a key or a clock, has shaped human habits. Rather than presenting dry facts, the speakers have been asked to tell stories and to invite questions throughout. Seating is limited, so early booking is strongly advised, and latecomers cannot be admitted once the doors have closed. Tickets are offered at a reduced rate to students and to anyone over the age of sixty-five. Refreshments will be served in the cafe afterwards, giving guests an opportunity to continue the conversation informally. Those unable to attend in person may follow each talk online, although the recordings will be available for one week only. We look forward to welcoming curious minds of every age and background.",
+    "qs": [
+     {
+      "q": "What is the subject of the talks?",
+      "o": [
+       "The lives of famous inventors",
+       "Modern architecture",
+       "The history of everyday objects",
+       "Ancient art"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What have the speakers been asked to do?",
+      "o": [
+       "Show films",
+       "Tell stories and invite questions",
+       "Sell objects",
+       "Read from books"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Why is early booking advised?",
+      "o": [
+       "Tickets will become more expensive",
+       "The talks are held twice",
+       "Prices go up at the door",
+       "Seating is limited"
+      ],
+      "a": 3
+     },
+     {
+      "q": "How long will the online recordings be available?",
+      "o": [
+       "For one week",
+       "For one month",
+       "For one day",
+       "For a whole year"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what is the museum offering, and who can get cheaper tickets?",
+     "min": 12
+    },
+    "keys": [
+     "museum",
+     "talks",
+     "tickets",
+     "students",
+     "recordings"
+    ]
+   },
+   {
+    "title": "The Last Customer",
+    "text": "Henrik had run the small bookshop for thirty years, and on the day it was to close he expected nothing more than a quiet afternoon of packing boxes. Customers drifted in, murmured their regrets, and left without buying anything, which struck him as a fitting end to a long and unprofitable career. Towards closing time, a young woman entered, glanced around the empty shelves, and asked whether he still had a copy of a certain obscure poetry collection. He did, though he had long ago stopped expecting anyone to ask for it. She explained that her late father had written it and that she had searched for years without success. Henrik, who had kept that book on his shelf out of sheer stubbornness, felt his throat tighten. He refused to take her money and wrapped the volume himself, carefully, as if it were fragile. When she had gone, he stood for a while in the silence, then unpacked the boxes and decided that the shop would stay open after all.",
+    "qs": [
+     {
+      "q": "How long had Henrik run the bookshop?",
+      "o": [
+       "Ten years",
+       "Twenty years",
+       "Thirty years",
+       "Forty years"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What was the young woman looking for?",
+      "o": [
+       "A poetry collection written by her father",
+       "A children's book",
+       "A map",
+       "A dictionary"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why did Henrik refuse to take her money?",
+      "o": [
+       "The book was damaged",
+       "The till had been closed",
+       "She did not have enough money",
+       "He was moved and wanted her to have the book"
+      ],
+      "a": 3
+     },
+     {
+      "q": "How does the story end?",
+      "o": [
+       "He sells the shop to the young woman",
+       "He decides to keep the shop open",
+       "He moves abroad to write",
+       "He gives away every book"
+      ],
+      "a": 1
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what changes for Henrik at the end of the day?",
+     "min": 12
+    },
+    "keys": [
+     "henrik",
+     "bookshop",
+     "poetry",
+     "father",
+     "stubbornness"
+    ]
+   },
+   {
+    "title": "The Friday Market",
+    "text": "Every Friday the harbour square in the old quarter turns into a market so crowded that one has to move with the crowd rather than through it. Stalls selling spices, secondhand books and hand-woven baskets stand elbow to elbow beneath awnings of faded canvas. The air is thick with the smell of grilled fish, which mingles curiously with that of fresh coffee and warm bread. Vendors call out their prices in a rhythm so practised that it almost resembles singing. Bargaining is not merely tolerated but expected, and a visitor who pays the first price named is regarded with polite amusement. Away from the central aisles, however, the atmosphere changes, and one finds quiet corners where elderly men play cards for hours without exchanging a word. Locals insist that the best bargains are to be had late in the afternoon, when sellers are eager to avoid carrying their goods home. By evening nothing remains except crumpled paper, a few stray cats, and the faint echo of the day's noise.",
+    "qs": [
+     {
+      "q": "When does the market take place?",
+      "o": [
+       "Every Sunday morning",
+       "Every Friday",
+       "Every day",
+       "Once a month"
+      ],
+      "a": 1
+     },
+     {
+      "q": "How is a visitor who pays the first price named regarded?",
+      "o": [
+       "With polite amusement",
+       "With anger",
+       "With admiration",
+       "With suspicion"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What do the elderly men do in the quiet corners?",
+      "o": [
+       "Sell fish",
+       "Sing to the vendors",
+       "Play cards in silence",
+       "Teach children"
+      ],
+      "a": 2
+     },
+     {
+      "q": "According to the locals, when are the best bargains found?",
+      "o": [
+       "Early in the morning",
+       "At midday",
+       "On the first Friday of the month",
+       "Late in the afternoon"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what is the market like, and when are the best bargains?",
+     "min": 12
+    },
+    "keys": [
+     "market",
+     "stalls",
+     "vendors",
+     "bargaining",
+     "cards"
+    ]
+   },
+   {
+    "title": "A Town Closes Its Centre",
+    "text": "A mid-sized town in the south has decided to close its historic centre to private cars, a measure that has divided opinion sharply. The authorities argue that the change will reduce noise and pollution and make the streets safer for pedestrians. Shopkeepers, on the other hand, fear that customers who once parked outside their doors will now choose to shop elsewhere. To address these concerns, the council has promised to provide free shuttle buses and to subsidise deliveries to local businesses. A similar experiment in a neighbouring town was judged a success after a year, although critics point out that the circumstances were not identical. Public meetings held last week were often heated, and several speakers accused the mayor of acting without sufficient consultation. The mayor, for his part, maintains that the decision was taken openly and that the town cannot afford to wait. The restrictions are due to take effect at the start of next spring, once the new bus routes are ready.",
+    "qs": [
+     {
+      "q": "What has the town decided to do?",
+      "o": [
+       "Build a new car park",
+       "Make parking free",
+       "Widen the main road",
+       "Close the historic centre to private cars"
+      ],
+      "a": 3
+     },
+     {
+      "q": "Why are the shopkeepers worried?",
+      "o": [
+       "Customers may shop elsewhere",
+       "Their rents will go up",
+       "Deliveries will be banned",
+       "The buses will be noisy"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How will the council address these concerns?",
+      "o": [
+       "By lowering taxes",
+       "By providing free shuttle buses and helping with deliveries",
+       "By delaying the plan for a year",
+       "By paying shopkeepers directly"
+      ],
+      "a": 1
+     },
+     {
+      "q": "When are the restrictions due to start?",
+      "o": [
+       "Next week",
+       "Next winter",
+       "At the start of next spring",
+       "In two years"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: why do people disagree about closing the town centre?",
+     "min": 12
+    },
+    "keys": [
+     "town",
+     "cars",
+     "shopkeepers",
+     "council",
+     "mayor"
+    ]
+   },
+   {
+    "title": "In Defence of Boredom",
+    "text": "We tend to treat boredom as an enemy to be eliminated at the first opportunity, usually with the nearest screen. Yet I would argue that some of our most original thoughts occur precisely when nothing demands our attention. A mind left to wander makes connections that a mind constantly entertained never has the chance to make. Children, in particular, benefit from being left occasionally without a task, since it is in such moments that they invent games and discover their own interests. Parents who rush to fill every free minute with activities may, with the best intentions, be depriving their children of this opportunity. Critics will object that boredom can lead to restlessness, even to mischief, and they are not entirely wrong. But restlessness is often the first stage of creativity, and the discomfort it brings is a small price to pay. We would do well, therefore, to resist the urge to cure it too quickly.",
+    "qs": [
+     {
+      "q": "How do people usually treat boredom, according to the writer?",
+      "o": [
+       "As a harmless habit",
+       "As an enemy to be removed quickly",
+       "As a form of rest",
+       "As a sign of intelligence"
+      ],
+      "a": 1
+     },
+     {
+      "q": "When do our most original thoughts occur?",
+      "o": [
+       "When we are working under pressure",
+       "When we are talking with friends",
+       "When nothing demands our attention",
+       "When we are watching a screen"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What does the writer say about parents who fill every free minute?",
+      "o": [
+       "They are too strict with their children",
+       "They spend too little time with their children",
+       "They should ban screens completely",
+       "They may be depriving children of the chance to discover their own interests"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What is the writer's attitude to the critics?",
+      "o": [
+       "They are partly right, but restlessness often leads to creativity",
+       "They are completely wrong",
+       "They are experts who should be obeyed",
+       "They should be ignored"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: why does the writer think boredom can be good for children?",
+     "min": 12
+    },
+    "keys": [
+     "boredom",
+     "screen",
+     "children",
+     "creativity",
+     "restlessness"
+    ]
+   },
+   {
+    "title": "Sleep and Memory",
+    "text": "Scientists believe that sleep plays a central role in turning fleeting experiences into lasting memories. During the day, new information is held temporarily in a region of the brain that has limited capacity. Once we fall asleep, this information is gradually replayed and transferred to areas where it can be stored for the long term. The process is thought to occur mainly during deep sleep, when the brain's electrical activity slows into large, regular waves. Researchers have found that people who learn a list of words in the evening and then sleep recall far more of them than those who stay awake. Sleep also appears to be selective, strengthening the memories that matter most and allowing trivial details to fade. This explains why a night's rest often helps us solve a problem that seemed impossible the evening before. It also suggests that students who sacrifice sleep in order to study may be defeating their own purpose.",
+    "qs": [
+     {
+      "q": "What role does sleep play, according to scientists?",
+      "o": [
+       "It erases unwanted memories completely",
+       "It increases the capacity of the brain",
+       "It speeds up the day's learning",
+       "It helps turn brief experiences into lasting memories"
+      ],
+      "a": 3
+     },
+     {
+      "q": "When does the transfer mainly occur?",
+      "o": [
+       "During deep sleep",
+       "While we are dreaming",
+       "Just before waking",
+       "While we are falling asleep"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did researchers find about people who learned a list of words?",
+      "o": [
+       "Those who stayed awake remembered more",
+       "Those who slept afterwards remembered far more",
+       "There was no difference between the groups",
+       "Those who learned in the morning did better"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does this suggest for students?",
+      "o": [
+       "They should study only at dawn",
+       "They should avoid learning lists of words",
+       "Giving up sleep in order to study may be self-defeating",
+       "They should sleep during lessons"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: why is sleep important for memory?",
+     "min": 12
+    },
+    "keys": [
+     "sleep",
+     "memories",
+     "brain",
+     "researchers",
+     "students"
+    ]
+   },
+   {
+    "title": "The Summer of the Flood",
+    "text": "I was twelve the summer the river burst its banks, and I remember it less as a catastrophe than as an extraordinary holiday. School was cancelled for two weeks, and the lower streets of our town became waterways along which neighbours paddled in whatever they could find. My father, normally a serious and reserved man, spent hours ferrying elderly residents to higher ground in a borrowed rowing boat. I watched him with a mixture of awe and envy, because I had never seen him so openly cheerful. My mother, meanwhile, set up a kitchen in the church hall and fed anyone who turned up, often until well past midnight. It was only later, when the water retreated and left the ruined furniture and sodden carpets behind, that I grasped how much had been lost. Even so, the adults spoke of that fortnight afterwards with a warmth I could not quite account for. Looking back, I believe they were recalling the one time when the whole town had stopped being strangers to one another.",
+    "qs": [
+     {
+      "q": "How old was the writer in the summer of the flood?",
+      "o": [
+       "Twelve",
+       "Ten",
+       "Fifteen",
+       "Seventeen"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did the writer's father do?",
+      "o": [
+       "He repaired damaged houses",
+       "He cooked meals for the neighbours",
+       "He closed the school",
+       "He took elderly residents to higher ground in a borrowed boat"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What did the writer's mother do?",
+      "o": [
+       "She worked at the school",
+       "She set up a kitchen in the church hall",
+       "She rowed a boat",
+       "She left the town"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Why does the writer think the adults spoke so warmly of that time?",
+      "o": [
+       "The government had paid them well",
+       "They had enjoyed a holiday from work",
+       "For a short time the town had stopped being a community of strangers",
+       "The water had improved their gardens"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what did the writer's parents do during the flood?",
+     "min": 12
+    },
+    "keys": [
+     "river",
+     "father",
+     "boat",
+     "mother",
+     "town"
+    ]
+   }
+  ],
+  "C2": [
+   {
+    "title": "The Night Shift",
+    "text": "Nadia has been on the ward for hours, moving between beds with a lightness of tread that years of practice have made almost instinctive. The corridors, so bustling by day, take on a hushed and faintly nautical quality at night, as though the building were a ship adrift in the dark. She has learned that patients confide in the small hours what they would never admit in daylight, and she listens with an attentiveness that she regards as no less important than any medication. Around three o'clock, when fatigue is at its most treacherous, she makes tea and stands briefly at the window, watching the first delivery vans nose through the empty streets. Colleagues who have never worked nights tend to imagine the job as a lonelier version of the day, but she finds it a different country altogether, with its own customs and its own peculiar tenderness. When the morning staff arrive, full of noise and good intentions, she hands over her notes with a faint reluctance she would find hard to explain. Walking home against the tide of commuters, she feels like a visitor returning from a place that the rest of the world has agreed to forget. She falls asleep to the sound of the city waking, which strikes her as an agreeable irony. By then there is nobody left to share it with.",
+    "qs": [
+     {
+      "q": "When does Nadia say patients are most willing to confide in her?",
+      "o": [
+       "At dawn",
+       "In the small hours",
+       "During visiting time",
+       "At lunch"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does Nadia do around three o'clock?",
+      "o": [
+       "She hands over her notes",
+       "She falls asleep at her desk",
+       "She walks home",
+       "She makes tea and looks out of the window"
+      ],
+      "a": 3
+     },
+     {
+      "q": "How do colleagues who have never worked nights imagine the job?",
+      "o": [
+       "As a lonelier version of the day",
+       "As glamorous and exciting",
+       "As easy and quiet",
+       "As dangerous and frightening"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How does Nadia feel as she walks home?",
+      "o": [
+       "Angry with the morning staff",
+       "Eager to meet the commuters",
+       "Like a visitor returning from a place the world prefers to forget",
+       "Proud that she has been noticed"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what is special about Nadia's work at night?",
+     "min": 14
+    },
+    "keys": [
+     "nadia",
+     "ward",
+     "corridors",
+     "patients",
+     "tea"
+    ]
+   },
+   {
+    "title": "The Village of My Ancestors",
+    "text": "I had put off the journey for decades, partly from a vague fear that reality would fail to match the village I had constructed from my grandmother's stories. When at last I stepped off the bus, the place seemed at once smaller and more ordinary than I had imagined, a scatter of low houses clinging to a ridge above a dry riverbed. An old man, noticing my hesitation, asked whom I was looking for, and when I gave my grandmother's maiden name he stared at me as though I had risen from the dead. Within minutes I was being led from house to house, introduced to cousins whose existence had never been mentioned, and pressed to eat food I had no appetite for but could not refuse. It emerged that the family home had long since collapsed, and that only a few stones of the doorway still stood among the weeds. I remember standing before them with a feeling that I can only describe as grief for something I had never possessed. Yet by evening, seated at a crowded table beneath a single bulb, I sensed that the village I had come to find had never been a place at all. It was, rather, the habit of belonging, which these strangers had extended to me without a moment's hesitation. I left the next morning with fewer illusions and, curiously, a far greater sense of home.",
+    "qs": [
+     {
+      "q": "Why had the writer delayed the journey for so long?",
+      "o": [
+       "A fear that reality would not match the imagined village",
+       "A lack of money",
+       "A lack of time",
+       "A dislike of travelling by bus"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How did the old man react to the maiden name?",
+      "o": [
+       "He asked the writer to leave",
+       "He sent the writer to the police",
+       "He stared as though the writer had risen from the dead",
+       "He laughed and walked away"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What remained of the family home?",
+      "o": [
+       "Only the roof",
+       "A few stones of the doorway",
+       "The entire house",
+       "A garden full of flowers"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What did the writer conclude that evening?",
+      "o": [
+       "That the journey had been a mistake",
+       "That the visit should have happened much earlier",
+       "That the villagers were hiding something",
+       "That the village had never been a place but a habit of belonging"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what did the writer find in the village, and how did the visit change them?",
+     "min": 14
+    },
+    "keys": [
+     "village",
+     "grandmother",
+     "bus",
+     "cousins",
+     "doorway"
+    ]
+   },
+   {
+    "title": "A Reply About Your Draft",
+    "text": "Dear Marcus, I am sorry to have taken so long to reply, and I would like to explain, rather than merely excuse, the delay. When your draft arrived, I read it twice and found myself unable to say anything useful, which is an unusual and slightly humbling experience for someone paid to have opinions. The argument is elegant, and the evidence is carefully assembled, yet something about the conclusion seemed to me to promise more than the pages before it had earned. It took me several days to put my finger on the problem, which is that you have answered a question that no reader is yet asking. If you were to open with the puzzle that first drew you to the subject, the conclusion would then arrive as a resolution instead of an assertion. I realise that this is a larger change than you were hoping for, and I will understand if you feel that it distorts your intentions. Nevertheless, I would urge you to consider it before the deadline, because the work deserves to be read as carefully as it was written. Do not hesitate to ring me if you would like to discuss any of this at greater length. In the meantime, please accept my congratulations on a piece of work that is already considerably better than most I see.",
+    "qs": [
+     {
+      "q": "Why did the writer take so long to reply?",
+      "o": [
+       "The draft had been lost",
+       "The draft left the writer unsure what to say at first",
+       "The writer was away on holiday",
+       "The writer disliked the subject"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What is the problem with the conclusion?",
+      "o": [
+       "It is far too long",
+       "It contradicts the evidence",
+       "It repeats the introduction",
+       "It answers a question that no reader is yet asking"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What does the writer suggest?",
+      "o": [
+       "Opening with the puzzle that first drew Marcus to the subject",
+       "Deleting the conclusion",
+       "Adding more evidence",
+       "Hiring an editor"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What is the writer's overall opinion of the work?",
+      "o": [
+       "It is hopeless",
+       "It is unoriginal",
+       "It is already better than most the writer sees",
+       "It should be abandoned"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what advice does the writer give Marcus about his draft?",
+     "min": 14
+    },
+    "keys": [
+     "marcus",
+     "draft",
+     "conclusion",
+     "evidence",
+     "deadline"
+    ]
+   },
+   {
+    "title": "A Retreat for Writers",
+    "text": "Nestled in a remote valley, far from the clamour of towns, the old mill offers a week of uninterrupted solitude to writers who have lost the thread of their work. There is no signal for telephones, no television, and, we regret to say, no apology for either. Each guest is given a small room with a desk beside the window, and meals are delivered quietly to the door at fixed hours so that no thought need be broken by conversation. Evenings, for those who wish it, are spent around a long table where participants may read aloud from their work and receive gentle but honest criticism from the others. A resident editor, whose own books have been translated into many languages, is available each afternoon for private consultations. We make no promises that the week will produce a finished manuscript, since experience has taught us that inspiration cannot be hired by the hour. What we can guarantee is silence, good bread, and the rare permission to take one's own writing seriously. Places are strictly limited to eight, and applicants are asked to send a short sample of their work together with a brief account of what they hope to achieve. Those selected will be informed within a fortnight.",
+    "qs": [
+     {
+      "q": "What does the retreat offer?",
+      "o": [
+       "Daily trips to nearby towns",
+       "Group classes in cooking",
+       "A week of television and telephones",
+       "A week of uninterrupted solitude for writers"
+      ],
+      "a": 3
+     },
+     {
+      "q": "How are meals provided?",
+      "o": [
+       "They are served in a busy dining hall",
+       "They are left quietly at the door at fixed hours",
+       "The guests cook them together",
+       "They are sent by courier on request"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What can the organisers guarantee?",
+      "o": [
+       "A finished manuscript",
+       "A contract with a publisher",
+       "Silence, good bread and permission to take one's writing seriously",
+       "A prize for the best work"
+      ],
+      "a": 2
+     },
+     {
+      "q": "How should applicants apply?",
+      "o": [
+       "By sending a sample of their work and a short account of their hopes",
+       "By paying in advance",
+       "By telephoning the mill",
+       "By attending an interview"
+      ],
+      "a": 0
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what kind of week does the mill offer, and what does it promise?",
+     "min": 14
+    },
+    "keys": [
+     "mill",
+     "writers",
+     "desk",
+     "editor",
+     "manuscript"
+    ]
+   },
+   {
+    "title": "The Inheritance",
+    "text": "When the old professor died, he left his entire library to the one student who had never once agreed with him. The other students, many of whom had spent years flattering him in the hope of favour, received nothing but a short note thanking them for their company. Their indignation was loud, and for a while it seemed likely that the will would be contested in court. Yet the chosen heir, a quiet woman named Irena, found herself oddly unmoved by the prospect of ownership and spent the first week simply wandering among the shelves. In almost every volume she discovered marginal comments in her former teacher's cramped handwriting, many of them addressed directly to her, as though he had anticipated her objections decades in advance. Some were mocking, others surprisingly tender, and a few conceded points that he had never admitted aloud. It slowly dawned on her that the argument she had believed they were having in the seminar room had been, for him, an extended conversation he could not bear to end. She did not contest the will, nor did she sell a single book. Instead, she began to answer him in the margins, in a smaller hand, and with considerably better grammar.",
+    "qs": [
+     {
+      "q": "Who inherited the professor's library?",
+      "o": [
+       "His oldest friend",
+       "The students who had flattered him",
+       "The one student who had never agreed with him",
+       "His family"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What did the other students receive?",
+      "o": [
+       "A short note of thanks",
+       "A few books each",
+       "A sum of money",
+       "Nothing at all"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did Irena discover in the books?",
+      "o": [
+       "Photographs of the students",
+       "Margin notes, many of them addressed to her",
+       "Secret letters about the will",
+       "Banknotes hidden between the pages"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What does Irena finally do?",
+      "o": [
+       "She sells the books to the other students",
+       "She gives the library to the university",
+       "She contests the will in court",
+       "She begins to answer the professor in the margins"
+      ],
+      "a": 3
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: why was Irena given the library, and what does she do with it?",
+     "min": 14
+    },
+    "keys": [
+     "professor",
+     "library",
+     "irena",
+     "handwriting",
+     "seminar"
+    ]
+   },
+   {
+    "title": "The Salt Flats",
+    "text": "Few landscapes strip away the human scale as thoroughly as the great salt flats, where the horizon dissolves into a pale and shimmering haze and the eye struggles to find anything on which to rest. After rain, a thin sheet of water spreads across the surface, and the sky is reflected so perfectly that visitors report the sensation of walking on the clouds. In the dry season, by contrast, the ground cracks into vast hexagons of white crust that crunch underfoot like frozen snow. The silence is complete and slightly unnerving, interrupted only by the wind, which carries a fine dust that settles in the hair and between the teeth. Photographers are drawn to the place for the optical games it permits, such as pictures in which a person appears to be holding a mountain in the palm of one hand. Local workers, however, regard it as a harvest rather than a spectacle, and they spend long days raking the salt into low heaps to dry in the sun. Their weathered faces and cracked hands bear witness to a labour that tourists rarely stop to consider. At dusk the whole expanse turns the colour of a bruise, then fades to a darkness so deep that the stars seem within reach. It is a place that rewards those who come to look, but it demands a certain humility from those who come to stay.",
+    "qs": [
+     {
+      "q": "What happens to the salt flats after rain?",
+      "o": [
+       "A thin sheet of water reflects the sky",
+       "The salt turns black",
+       "Flowers bloom across the surface",
+       "The wind stops completely"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why are photographers drawn to the place?",
+      "o": [
+       "Because of the wildlife",
+       "Because of the colours of the sunrise",
+       "Because of the optical games it allows",
+       "Because the salt is rare"
+      ],
+      "a": 2
+     },
+     {
+      "q": "How do the local workers regard the flats?",
+      "o": [
+       "As a spectacle",
+       "As a place for holidays",
+       "As a danger",
+       "As a harvest"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What does the writer say the place demands of those who stay?",
+      "o": [
+       "Strong boots",
+       "A certain humility",
+       "A lot of money",
+       "Patience with tourists"
+      ],
+      "a": 1
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what is the salt flats landscape like, and who works there?",
+     "min": 14
+    },
+    "keys": [
+     "salt",
+     "flats",
+     "horizon",
+     "photographers",
+     "harvest"
+    ]
+   },
+   {
+    "title": "An Ancient Boat Is Found",
+    "text": "Archaeologists working on the northern coast have announced the discovery of a wooden boat that appears to be roughly two thousand years old, a find that has startled even the most seasoned members of the team. Preserved by the oxygen-poor mud in which it had lain, the vessel is almost entirely intact, and the marks of the tools used to shape it can still be seen along its hull. Initial analysis suggests that it was built for trade rather than war, since its wide, shallow frame would have carried heavy cargo but offered little speed. Among the objects recovered from the wreck were pottery jars, a coil of rope, and what appears to be a child's toy, a detail that has moved many who have followed the story. The find has been described in the press as the most significant of its kind in a generation, although the team itself has refrained from such language. The excavation director cautioned against drawing sweeping conclusions, noting that the results of dating tests will not be available for several months. Local officials, however, are already speaking of building a museum on the site, an idea that some residents greet with enthusiasm and others with deep suspicion. Critics fear that the arrival of crowds may damage the very fragile landscape that preserved the boat in the first place. For the moment, the vessel remains beneath a protective cover, and its fate is likely to be debated for some time to come.",
+    "qs": [
+     {
+      "q": "Why is the boat so well preserved?",
+      "o": [
+       "It was kept inside a dry cave",
+       "It was buried in dry sand",
+       "It was frozen in ice",
+       "It lay in oxygen-poor mud"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What was the boat probably built for?",
+      "o": [
+       "Trade rather than war",
+       "War rather than trade",
+       "Fishing in rough seas",
+       "Racing at festivals"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What did the excavation director advise?",
+      "o": [
+       "Moving the boat at once",
+       "Not drawing sweeping conclusions before the dating results arrive",
+       "Keeping journalists away",
+       "Building the museum quickly"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What do the critics fear?",
+      "o": [
+       "That the museum will be too expensive",
+       "That thieves will steal the cargo",
+       "That crowds will damage the fragile landscape",
+       "That the boat will decay in the open air"
+      ],
+      "a": 2
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what was found on the coast, and why do people disagree about its future?",
+     "min": 14
+    },
+    "keys": [
+     "archaeologists",
+     "boat",
+     "hull",
+     "cargo",
+     "museum"
+    ]
+   },
+   {
+    "title": "The Virtue of Slow Reading",
+    "text": "It has become fashionable to boast of how many books one has read in a year, as though literature were a distance to be covered rather than a country to be explored. I find this habit not merely vulgar but self-defeating, for a book hurried through leaves little more trace than a train glimpsed from a platform. The great novels, in particular, were not written to be consumed at speed, and their richness lies in precisely those passages that the impatient reader skims in search of plot. To linger over a sentence, to return to a paragraph that has puzzled or delighted us, is not a sign of slowness but of attention, which has become the scarcest of modern virtues. Defenders of the numbers game will reply that more reading is always better than less, and in a narrow sense they are right. But a habit that rewards quantity above all else will soon teach us to value quantity above all else, in life as well as in reading. Slowness, after all, is merely the speed at which a good book wishes to be read. I would rather finish ten books that changed me than a hundred that merely passed through. If that makes me a laggard among readers, I accept the title without regret and with a certain private satisfaction.",
+    "qs": [
+     {
+      "q": "What fashion does the writer criticise?",
+      "o": [
+       "Boasting about how many books one has read",
+       "Reading only classic novels",
+       "Buying too many books",
+       "Writing reviews of books"
+      ],
+      "a": 0
+     },
+     {
+      "q": "To what does the writer compare a book that is hurried through?",
+      "o": [
+       "A meal eaten too quickly",
+       "A journey by aeroplane",
+       "A train glimpsed from a platform",
+       "A race won by luck"
+      ],
+      "a": 2
+     },
+     {
+      "q": "How does the writer describe attention?",
+      "o": [
+       "An overrated skill",
+       "A talent only children have",
+       "A habit that can be bought",
+       "The scarcest of modern virtues"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What would the writer prefer?",
+      "o": [
+       "To read a hundred books quickly",
+       "To finish ten books that changed him",
+       "To stop reading novels",
+       "To read only short stories"
+      ],
+      "a": 1
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: why does the writer prefer to read slowly?",
+     "min": 14
+    },
+    "keys": [
+     "books",
+     "novels",
+     "attention",
+     "quantity",
+     "reader"
+    ]
+   },
+   {
+    "title": "How the Tides Are Made",
+    "text": "The tides, which seem so natural and regular as to require no explanation, are in fact the product of a subtle contest between gravity and motion. The moon pulls most strongly on the side of the Earth nearest to it, drawing the oceans into a bulge that follows it around the planet. Less intuitively, a second bulge forms on the opposite side, because there the moon's pull is weaker than elsewhere and the water is, in effect, left behind. As the Earth rotates beneath these two bulges, any given coast passes through each of them once a day, which is why most places experience two high tides and two low tides within roughly a day. The sun also exerts a gravitational pull, though its greater distance makes its influence less than half that of the moon. When the sun and moon line up, their effects combine to produce unusually large tides, whereas when they stand at right angles to one another they partly cancel and the tides are mild. The shape of the coastline can amplify these movements dramatically, so that in certain narrow bays the water rises and falls by many times the height found in the open sea. Navigators have understood these patterns for centuries, even if the underlying physics remained mysterious until comparatively recent times. It remains remarkable that a force exerted across such an immense distance should lift the sea against the pull of the very planet that holds it.",
+    "qs": [
+     {
+      "q": "Why does a second bulge form on the side away from the moon?",
+      "o": [
+       "The sun pulls the water there",
+       "The ocean is deeper there",
+       "The moon's pull is weaker there, so the water is left behind",
+       "The wind pushes the water there"
+      ],
+      "a": 2
+     },
+     {
+      "q": "How many high tides do most places experience in about a day?",
+      "o": [
+       "Two",
+       "One",
+       "Three",
+       "Four"
+      ],
+      "a": 0
+     },
+     {
+      "q": "When are the tides unusually large?",
+      "o": [
+       "When the sun is hidden by clouds",
+       "When the sun and moon stand at right angles",
+       "When the moon is far away",
+       "When the sun and moon line up"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What can amplify the movement of the water?",
+      "o": [
+       "The saltiness of the water",
+       "The shape of the coastline",
+       "The speed of ships",
+       "The age of the ocean"
+      ],
+      "a": 1
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what causes the tides?",
+     "min": 14
+    },
+    "keys": [
+     "tides",
+     "moon",
+     "gravity",
+     "coast",
+     "bays"
+    ]
+   },
+   {
+    "title": "The Piano in the Hall",
+    "text": "There was a piano in the hall of the house where I grew up, an upright of no particular distinction that nobody in the family could play. It had been bought by my grandmother in a burst of optimism about the cultural development of her descendants, and it stood for decades as a monument to that unfulfilled hope. We used it mostly as a shelf for keys, letters, and the endless small objects that accumulate in a household, and its lid was seldom raised. Yet I remember, with a clarity that surprises me, the afternoon when a visiting aunt sat down and began to play something slow and unfamiliar. The whole house seemed to stop, and even the dog lifted his head from the rug and regarded her with an expression of grave astonishment. I was perhaps nine, and it had never occurred to me that the thing in the hall was capable of making any sound beyond a hollow thud when I knocked it with my knee. When she finished, she closed the lid, apologised for being out of practice, and returned to the kitchen as though nothing had happened. I have heard a great deal of music since, some of it undoubtedly finer, but none that has ever reordered the furniture of my mind in quite the same way. I suspect that what I heard that afternoon was not so much a melody as a glimpse of what the house had been holding back.",
+    "qs": [
+     {
+      "q": "Who bought the piano?",
+      "o": [
+       "The writer's mother",
+       "The visiting aunt",
+       "The writer's grandmother",
+       "The writer's father"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What was the piano mostly used for?",
+      "o": [
+       "A shelf for keys, letters and small objects",
+       "Music lessons for the children",
+       "A bed for the dog",
+       "Nothing at all"
+      ],
+      "a": 0
+     },
+     {
+      "q": "How did the dog react when the aunt began to play?",
+      "o": [
+       "He barked loudly",
+       "He ran out of the room",
+       "He went on sleeping",
+       "He lifted his head and looked at her with astonishment"
+      ],
+      "a": 3
+     },
+     {
+      "q": "What did the aunt do when she finished playing?",
+      "o": [
+       "She played a second piece",
+       "She closed the lid, apologised and went back to the kitchen",
+       "She asked the writer to play",
+       "She left the house at once"
+      ],
+      "a": 1
+     }
+    ],
+    "write": {
+     "prompt": "Write one or two sentences in the language you are learning: what happened on the afternoon the aunt played the piano?",
+     "min": 14
+    },
+    "keys": [
+     "piano",
+     "grandmother",
+     "aunt",
+     "kitchen",
+     "dog"
+    ]
+   }
+  ]
+ }
+}

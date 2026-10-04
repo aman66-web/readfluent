@@ -7,7 +7,6 @@ import { languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
 import type { MessageId } from "@/lib/i18n/en";
-import { EXAM } from "@/lib/xp/exam";
 import { XP, levelFromXp, stageAfter, stageCode, type Cefr } from "@/lib/xp/levels";
 
 /**
@@ -74,12 +73,12 @@ export function LevelCard({ xp, learn, exam = null, startOpen = false, earned }:
         )}
       </div>
 
-      {/* The XP for the next level is in hand but the exam is not passed: the way to it. */}
+      {/* The XP for the next level is in hand but its tests are not passed: the way to it. */}
       {exam && (
         <div className="relative mt-4 rounded-[18px] bg-white p-4 text-[#0B1B22]" role="status">
-          <p className="text-[15px] font-bold leading-snug">{t("exam.banner.title", { level: exam })}</p>
-          <p className="mt-1 text-[13px] leading-snug text-[#0B1B22]/70">{t("exam.banner.body", { level: exam, questions: EXAM.questions, minutes: EXAM.minutes, pass: Math.round(EXAM.passShare * 100) })}</p>
-          <Link href={`/recall/tests/exam/${exam}`} data-exam={exam} className="btn-cyan mt-3 inline-flex h-12 w-full items-center justify-center rounded-full text-[15px] font-bold">{t("exam.banner.button", { level: exam })}</Link>
+          <p className="text-[15px] font-bold leading-snug">{t("levelTests.banner.title", { level: exam })}</p>
+          <p className="mt-1 text-[13px] leading-snug text-[#0B1B22]/70">{t("levelTests.banner.body", { level: exam })}</p>
+          <Link href="/recall/tests" data-exam={exam} className="btn-cyan mt-3 inline-flex h-12 w-full items-center justify-center rounded-full text-[15px] font-bold">{t("levelTests.banner.button", { level: exam })}</Link>
         </div>
       )}
 

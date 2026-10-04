@@ -1,0 +1,122 @@
+[
+  {
+    "title": "A Translator's Tuesday",
+    "text": "Marta works from home as a literary translator, a job that sounds more glamorous than it is. Her mornings are devoted to the hardest passages, since she has learned that her concentration fades long before lunch. She spends hours agonising over a single sentence, weighing whether a particular word captures the author's tone or merely approximates it. By early afternoon, she usually switches to emails and invoices, tasks that demand little imagination but must nevertheless be done. Her neighbours assume that she has endless free time, and they are forever knocking on her door to ask for small favours. She has stopped explaining that working at home is still working, because the explanation rarely seems to register. In the evening she takes a long walk, which she regards as part of the job rather than a break from it. Ideas that had refused to come at her desk have a way of arriving unannounced between the river and the market. When she finally returns, she reads her morning's work aloud, listening for any false notes that her eyes might have missed.",
+    "qs": [
+      { "q": "What does Marta do in the morning?", "o": ["She replies to emails", "She works on the hardest passages", "She walks by the river", "She visits her neighbours"], "a": 1 },
+      { "q": "Why do Marta's neighbours often knock on her door?", "o": ["They want a book translated", "They want to hear her read aloud", "They are worried about her health", "They assume she has plenty of free time"], "a": 3 },
+      { "q": "How does Marta regard her evening walk?", "o": ["As a way to avoid work", "As exercise and nothing more", "As part of her work", "As a social event"], "a": 2 },
+      { "q": "What does Marta do when she returns from her walk?", "o": ["She reads her morning's work aloud", "She sends her invoices", "She telephones the author", "She goes straight to bed"], "a": 0 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: how does Marta's working day follow a pattern?", "min": 12 },
+    "keys": ["translator", "sentence", "neighbours", "walk", "aloud"]
+  },
+  {
+    "title": "Across the Desert by Road",
+    "text": "We set out before dawn, hoping to cross the worst of the desert before the heat became unbearable. The road looked straight and simple on the map, but it was pitted with holes that forced us to crawl at a pace that would have embarrassed a cyclist. By midday the thermometer on the dashboard had climbed past forty degrees, and the air inside the car felt thick enough to chew. Our guide, a taciturn man named Idris, seemed untroubled and spent most of the journey humming to himself. When the engine finally gave up, he lifted the bonnet, studied it for a long moment, and announced that the problem was nothing but a loose cable. Within ten minutes we were moving again, though I suspect that his calm owed more to experience than to any great mechanical talent. That evening we reached a small oasis where the villagers, who had not expected visitors, insisted on feeding us dates and sweet tea. Looking back, I remember the discomfort only dimly, whereas the generosity of those strangers remains as sharp as ever. It is a lesson in how little people need in order to be kind.",
+    "qs": [
+      { "q": "Why did the travellers leave before dawn?", "o": ["To avoid the worst of the heat", "To catch a ferry", "To see the sunrise", "Because the guide insisted"], "a": 0 },
+      { "q": "What was wrong with the engine?", "o": ["It had run out of fuel", "A tyre had burst", "A cable was loose", "It had overheated"], "a": 2 },
+      { "q": "What does the writer suspect about Idris's calm?", "o": ["It was an act to impress the travellers", "It came from experience rather than great talent", "It came from not caring about the journey", "It came from knowing the oasis was close"], "a": 1 },
+      { "q": "What does the writer remember most clearly?", "o": ["The heat", "The broken road", "The loose cable", "The kindness of the villagers"], "a": 3 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what happened to the travellers, and what did they remember most?", "min": 12 },
+    "keys": ["desert", "guide", "engine", "oasis", "villagers"]
+  },
+  {
+    "title": "A Polite Refusal",
+    "text": "Dear Helena, thank you for your generous invitation to join the committee, which I read with both pride and a degree of guilt. After careful thought, I have concluded that I must decline, not for lack of enthusiasm but because I am already stretched thinner than is sensible. Over the past year I have accepted several commitments that seemed manageable on their own, only to find that together they leave no room to breathe. I would rather do a few things properly than appear on every list and contribute little. That said, I would be delighted to help in a more limited capacity, perhaps by reviewing documents or speaking at your annual meeting. Should either of these prove useful, you need only say the word, and I will clear a space in my diary. I hope you will not take my decision as a sign of indifference towards the cause, which I continue to admire deeply. Please accept my warmest thanks once more, and my best wishes for the coming year.",
+    "qs": [
+      { "q": "Why is the writer sending this message?", "o": ["To accept a position", "To decline an invitation to join a committee", "To ask for money", "To announce a meeting"], "a": 1 },
+      { "q": "What is the reason for the refusal?", "o": ["He already has too many commitments", "He dislikes the cause", "He is moving abroad", "He disagrees with the committee"], "a": 0 },
+      { "q": "What does he offer instead?", "o": ["To pay a fee", "To lead the committee", "To review documents or speak at the annual meeting", "To find a replacement"], "a": 2 },
+      { "q": "What does he hope?", "o": ["That Helena will visit him soon", "That the committee will change its aims", "That Helena will quickly find a replacement", "That Helena will not see his decision as indifference"], "a": 3 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: why does the writer refuse the invitation, and what does he offer?", "min": 12 },
+    "keys": ["committee", "commitments", "invitation", "helena", "documents"]
+  },
+  {
+    "title": "An Evening Talks Programme",
+    "text": "The Riverside Museum is delighted to announce a series of evening talks devoted to the history of everyday objects. Each session will be led by a different specialist, who will explore how an apparently ordinary item, such as a key or a clock, has shaped human habits. Rather than presenting dry facts, the speakers have been asked to tell stories and to invite questions throughout. Seating is limited, so early booking is strongly advised, and latecomers cannot be admitted once the doors have closed. Tickets are offered at a reduced rate to students and to anyone over the age of sixty-five. Refreshments will be served in the cafe afterwards, giving guests an opportunity to continue the conversation informally. Those unable to attend in person may follow each talk online, although the recordings will be available for one week only. We look forward to welcoming curious minds of every age and background.",
+    "qs": [
+      { "q": "What is the subject of the talks?", "o": ["The lives of famous inventors", "Modern architecture", "The history of everyday objects", "Ancient art"], "a": 2 },
+      { "q": "What have the speakers been asked to do?", "o": ["Show films", "Tell stories and invite questions", "Sell objects", "Read from books"], "a": 1 },
+      { "q": "Why is early booking advised?", "o": ["Tickets will become more expensive", "The talks are held twice", "Prices go up at the door", "Seating is limited"], "a": 3 },
+      { "q": "How long will the online recordings be available?", "o": ["For one week", "For one month", "For one day", "For a whole year"], "a": 0 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what is the museum offering, and who can get cheaper tickets?", "min": 12 },
+    "keys": ["museum", "talks", "tickets", "students", "recordings"]
+  },
+  {
+    "title": "The Last Customer",
+    "text": "Henrik had run the small bookshop for thirty years, and on the day it was to close he expected nothing more than a quiet afternoon of packing boxes. Customers drifted in, murmured their regrets, and left without buying anything, which struck him as a fitting end to a long and unprofitable career. Towards closing time, a young woman entered, glanced around the empty shelves, and asked whether he still had a copy of a certain obscure poetry collection. He did, though he had long ago stopped expecting anyone to ask for it. She explained that her late father had written it and that she had searched for years without success. Henrik, who had kept that book on his shelf out of sheer stubbornness, felt his throat tighten. He refused to take her money and wrapped the volume himself, carefully, as if it were fragile. When she had gone, he stood for a while in the silence, then unpacked the boxes and decided that the shop would stay open after all.",
+    "qs": [
+      { "q": "How long had Henrik run the bookshop?", "o": ["Ten years", "Twenty years", "Thirty years", "Forty years"], "a": 2 },
+      { "q": "What was the young woman looking for?", "o": ["A poetry collection written by her father", "A children's book", "A map", "A dictionary"], "a": 0 },
+      { "q": "Why did Henrik refuse to take her money?", "o": ["The book was damaged", "The till had been closed", "She did not have enough money", "He was moved and wanted her to have the book"], "a": 3 },
+      { "q": "How does the story end?", "o": ["He sells the shop to the young woman", "He decides to keep the shop open", "He moves abroad to write", "He gives away every book"], "a": 1 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what changes for Henrik at the end of the day?", "min": 12 },
+    "keys": ["henrik", "bookshop", "poetry", "father", "stubbornness"]
+  },
+  {
+    "title": "The Friday Market",
+    "text": "Every Friday the harbour square in the old quarter turns into a market so crowded that one has to move with the crowd rather than through it. Stalls selling spices, secondhand books and hand-woven baskets stand elbow to elbow beneath awnings of faded canvas. The air is thick with the smell of grilled fish, which mingles curiously with that of fresh coffee and warm bread. Vendors call out their prices in a rhythm so practised that it almost resembles singing. Bargaining is not merely tolerated but expected, and a visitor who pays the first price named is regarded with polite amusement. Away from the central aisles, however, the atmosphere changes, and one finds quiet corners where elderly men play cards for hours without exchanging a word. Locals insist that the best bargains are to be had late in the afternoon, when sellers are eager to avoid carrying their goods home. By evening nothing remains except crumpled paper, a few stray cats, and the faint echo of the day's noise.",
+    "qs": [
+      { "q": "When does the market take place?", "o": ["Every Sunday morning", "Every Friday", "Every day", "Once a month"], "a": 1 },
+      { "q": "How is a visitor who pays the first price named regarded?", "o": ["With polite amusement", "With anger", "With admiration", "With suspicion"], "a": 0 },
+      { "q": "What do the elderly men do in the quiet corners?", "o": ["Sell fish", "Sing to the vendors", "Play cards in silence", "Teach children"], "a": 2 },
+      { "q": "According to the locals, when are the best bargains found?", "o": ["Early in the morning", "At midday", "On the first Friday of the month", "Late in the afternoon"], "a": 3 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what is the market like, and when are the best bargains?", "min": 12 },
+    "keys": ["market", "stalls", "vendors", "bargaining", "cards"]
+  },
+  {
+    "title": "A Town Closes Its Centre",
+    "text": "A mid-sized town in the south has decided to close its historic centre to private cars, a measure that has divided opinion sharply. The authorities argue that the change will reduce noise and pollution and make the streets safer for pedestrians. Shopkeepers, on the other hand, fear that customers who once parked outside their doors will now choose to shop elsewhere. To address these concerns, the council has promised to provide free shuttle buses and to subsidise deliveries to local businesses. A similar experiment in a neighbouring town was judged a success after a year, although critics point out that the circumstances were not identical. Public meetings held last week were often heated, and several speakers accused the mayor of acting without sufficient consultation. The mayor, for his part, maintains that the decision was taken openly and that the town cannot afford to wait. The restrictions are due to take effect at the start of next spring, once the new bus routes are ready.",
+    "qs": [
+      { "q": "What has the town decided to do?", "o": ["Build a new car park", "Make parking free", "Widen the main road", "Close the historic centre to private cars"], "a": 3 },
+      { "q": "Why are the shopkeepers worried?", "o": ["Customers may shop elsewhere", "Their rents will go up", "Deliveries will be banned", "The buses will be noisy"], "a": 0 },
+      { "q": "How will the council address these concerns?", "o": ["By lowering taxes", "By providing free shuttle buses and helping with deliveries", "By delaying the plan for a year", "By paying shopkeepers directly"], "a": 1 },
+      { "q": "When are the restrictions due to start?", "o": ["Next week", "Next winter", "At the start of next spring", "In two years"], "a": 2 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: why do people disagree about closing the town centre?", "min": 12 },
+    "keys": ["town", "cars", "shopkeepers", "council", "mayor"]
+  },
+  {
+    "title": "In Defence of Boredom",
+    "text": "We tend to treat boredom as an enemy to be eliminated at the first opportunity, usually with the nearest screen. Yet I would argue that some of our most original thoughts occur precisely when nothing demands our attention. A mind left to wander makes connections that a mind constantly entertained never has the chance to make. Children, in particular, benefit from being left occasionally without a task, since it is in such moments that they invent games and discover their own interests. Parents who rush to fill every free minute with activities may, with the best intentions, be depriving their children of this opportunity. Critics will object that boredom can lead to restlessness, even to mischief, and they are not entirely wrong. But restlessness is often the first stage of creativity, and the discomfort it brings is a small price to pay. We would do well, therefore, to resist the urge to cure it too quickly.",
+    "qs": [
+      { "q": "How do people usually treat boredom, according to the writer?", "o": ["As a harmless habit", "As an enemy to be removed quickly", "As a form of rest", "As a sign of intelligence"], "a": 1 },
+      { "q": "When do our most original thoughts occur?", "o": ["When we are working under pressure", "When we are talking with friends", "When nothing demands our attention", "When we are watching a screen"], "a": 2 },
+      { "q": "What does the writer say about parents who fill every free minute?", "o": ["They are too strict with their children", "They spend too little time with their children", "They should ban screens completely", "They may be depriving children of the chance to discover their own interests"], "a": 3 },
+      { "q": "What is the writer's attitude to the critics?", "o": ["They are partly right, but restlessness often leads to creativity", "They are completely wrong", "They are experts who should be obeyed", "They should be ignored"], "a": 0 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: why does the writer think boredom can be good for children?", "min": 12 },
+    "keys": ["boredom", "screen", "children", "creativity", "restlessness"]
+  },
+  {
+    "title": "Sleep and Memory",
+    "text": "Scientists believe that sleep plays a central role in turning fleeting experiences into lasting memories. During the day, new information is held temporarily in a region of the brain that has limited capacity. Once we fall asleep, this information is gradually replayed and transferred to areas where it can be stored for the long term. The process is thought to occur mainly during deep sleep, when the brain's electrical activity slows into large, regular waves. Researchers have found that people who learn a list of words in the evening and then sleep recall far more of them than those who stay awake. Sleep also appears to be selective, strengthening the memories that matter most and allowing trivial details to fade. This explains why a night's rest often helps us solve a problem that seemed impossible the evening before. It also suggests that students who sacrifice sleep in order to study may be defeating their own purpose.",
+    "qs": [
+      { "q": "What role does sleep play, according to scientists?", "o": ["It erases unwanted memories completely", "It increases the capacity of the brain", "It speeds up the day's learning", "It helps turn brief experiences into lasting memories"], "a": 3 },
+      { "q": "When does the transfer mainly occur?", "o": ["During deep sleep", "While we are dreaming", "Just before waking", "While we are falling asleep"], "a": 0 },
+      { "q": "What did researchers find about people who learned a list of words?", "o": ["Those who stayed awake remembered more", "Those who slept afterwards remembered far more", "There was no difference between the groups", "Those who learned in the morning did better"], "a": 1 },
+      { "q": "What does this suggest for students?", "o": ["They should study only at dawn", "They should avoid learning lists of words", "Giving up sleep in order to study may be self-defeating", "They should sleep during lessons"], "a": 2 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: why is sleep important for memory?", "min": 12 },
+    "keys": ["sleep", "memories", "brain", "researchers", "students"]
+  },
+  {
+    "title": "The Summer of the Flood",
+    "text": "I was twelve the summer the river burst its banks, and I remember it less as a catastrophe than as an extraordinary holiday. School was cancelled for two weeks, and the lower streets of our town became waterways along which neighbours paddled in whatever they could find. My father, normally a serious and reserved man, spent hours ferrying elderly residents to higher ground in a borrowed rowing boat. I watched him with a mixture of awe and envy, because I had never seen him so openly cheerful. My mother, meanwhile, set up a kitchen in the church hall and fed anyone who turned up, often until well past midnight. It was only later, when the water retreated and left the ruined furniture and sodden carpets behind, that I grasped how much had been lost. Even so, the adults spoke of that fortnight afterwards with a warmth I could not quite account for. Looking back, I believe they were recalling the one time when the whole town had stopped being strangers to one another.",
+    "qs": [
+      { "q": "How old was the writer in the summer of the flood?", "o": ["Twelve", "Ten", "Fifteen", "Seventeen"], "a": 0 },
+      { "q": "What did the writer's father do?", "o": ["He repaired damaged houses", "He cooked meals for the neighbours", "He closed the school", "He took elderly residents to higher ground in a borrowed boat"], "a": 3 },
+      { "q": "What did the writer's mother do?", "o": ["She worked at the school", "She set up a kitchen in the church hall", "She rowed a boat", "She left the town"], "a": 1 },
+      { "q": "Why does the writer think the adults spoke so warmly of that time?", "o": ["The government had paid them well", "They had enjoyed a holiday from work", "For a short time the town had stopped being a community of strangers", "The water had improved their gardens"], "a": 2 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what did the writer's parents do during the flood?", "min": 12 },
+    "keys": ["river", "father", "boat", "mother", "town"]
+  }
+]

@@ -2,7 +2,7 @@
  * The level exams (owner, 2 Oct 2026). Having the XP for the next level is not enough to move up: the reader
  * must also pass that level's exam, a hard one of about thirty minutes. Until they do, their level (and the XP
  * that shows) is held at the top of the level they are in; what they earn meanwhile is kept and counts the
- * moment they pass. Pure rules here; the paper comes from lib/tests/build.ts, the screen is components/tests/ExamRunner.tsx.
+ * moment they pass. Pure rules here; the paper comes from lib/tests/build.ts, the way through is the ten level tests of the level (lib/tests/level/store.ts).
  */
 import { CEFR, LEVEL_FLOOR, type Cefr } from "./levels";
 
@@ -21,15 +21,11 @@ export const EXAM = {
 export const EXAM_LEVELS: readonly Cefr[] = CEFR.slice(1);
 
 /**
- * Which levels a language can examine, which is as far as it has material for: Spanish and English have
- * sentence banks for every level; every other language has its phrase deck, enough for the A2 exam only.
- * A level without an exam is not gated: nobody is held at a door that cannot be opened.
+ * Which levels a language holds back: all of them above A1. The way through a level is its ten level tests
+ * (lib/tests/level), which every language has from A1 to C2, so nobody is held at a door that cannot be opened.
  */
 export function gatedLevelsFor(lang: string | null | undefined): Cefr[] {
-  if (!lang) return [];
-  if (lang === "es" || lang === "en") return [...EXAM_LEVELS];
-  if (/^[a-z]{2}$/.test(lang)) return ["A2"];
-  return [];
+  return lang && /^[a-z]{2}$/.test(lang) ? [...EXAM_LEVELS] : [];
 }
 
 export const isExamLevel = (v: unknown): v is Cefr => (EXAM_LEVELS as readonly unknown[]).includes(v);

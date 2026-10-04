@@ -13,7 +13,7 @@ export interface Phrase { t: string; en: string }
 
 const BAND_NUM: Record<Band, number> = { A1A2: 0, B1B2: 1, C1C2: 2 };
 
-function rng(seed: number): () => number {
+export function rng(seed: number): () => number {
   let a = seed >>> 0;
   return () => {
     a = (a + 0x6d2b79f5) >>> 0;
@@ -23,7 +23,7 @@ function rng(seed: number): () => number {
     return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
   };
 }
-const shuffle = <T,>(xs: readonly T[], r: () => number): T[] => {
+export const shuffle = <T,>(xs: readonly T[], r: () => number): T[] => {
   const a = [...xs];
   for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
   return a;
@@ -112,7 +112,7 @@ function meaning(item: Item, pool: readonly Item[], lang: string, r: () => numbe
 }
 
 /** Which of four sentences was it (when there is no translation to ask for). */
-function listenSame(item: Item, pool: readonly Item[], lang: string, r: () => number, id: string): Question | null {
+export function listenSame(item: Item, pool: readonly Item[], lang: string, r: () => number, id: string): Question | null {
   const len = item.t.length;
   const near = shuffle(pool.filter((p) => p.t !== item.t), r).sort((a, b) => Math.abs(a.t.length - len) - Math.abs(b.t.length - len)).slice(0, 8);
   const three = pick(near, 3, r).map((p) => p.t);
@@ -135,7 +135,7 @@ function order(item: Item, lang: string, r: () => number, id: string): Question 
 }
 
 /** What does this word mean: from the matched words of the bank, or a deck's phrases. */
-function vocab(pairs: readonly [string, string][], lang: string, r: () => number, id: string, at: number): Question | null {
+export function vocab(pairs: readonly [string, string][], lang: string, r: () => number, id: string, at: number): Question | null {
   const [w, en] = pairs[at];
   const wrong = [...new Set(shuffle(pairs, r).filter(([x, y]) => x !== w && y !== en).map(([, y]) => y))].slice(0, 3);
   if (wrong.length < 3) return null;

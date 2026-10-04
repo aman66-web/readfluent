@@ -1,0 +1,122 @@
+[
+  {
+    "title": "The Night Shift",
+    "text": "Nadia has been on the ward for hours, moving between beds with a lightness of tread that years of practice have made almost instinctive. The corridors, so bustling by day, take on a hushed and faintly nautical quality at night, as though the building were a ship adrift in the dark. She has learned that patients confide in the small hours what they would never admit in daylight, and she listens with an attentiveness that she regards as no less important than any medication. Around three o'clock, when fatigue is at its most treacherous, she makes tea and stands briefly at the window, watching the first delivery vans nose through the empty streets. Colleagues who have never worked nights tend to imagine the job as a lonelier version of the day, but she finds it a different country altogether, with its own customs and its own peculiar tenderness. When the morning staff arrive, full of noise and good intentions, she hands over her notes with a faint reluctance she would find hard to explain. Walking home against the tide of commuters, she feels like a visitor returning from a place that the rest of the world has agreed to forget. She falls asleep to the sound of the city waking, which strikes her as an agreeable irony. By then there is nobody left to share it with.",
+    "qs": [
+      { "q": "When does Nadia say patients are most willing to confide in her?", "o": ["At dawn", "In the small hours", "During visiting time", "At lunch"], "a": 1 },
+      { "q": "What does Nadia do around three o'clock?", "o": ["She hands over her notes", "She falls asleep at her desk", "She walks home", "She makes tea and looks out of the window"], "a": 3 },
+      { "q": "How do colleagues who have never worked nights imagine the job?", "o": ["As a lonelier version of the day", "As glamorous and exciting", "As easy and quiet", "As dangerous and frightening"], "a": 0 },
+      { "q": "How does Nadia feel as she walks home?", "o": ["Angry with the morning staff", "Eager to meet the commuters", "Like a visitor returning from a place the world prefers to forget", "Proud that she has been noticed"], "a": 2 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what is special about Nadia's work at night?", "min": 14 },
+    "keys": ["nadia", "ward", "corridors", "patients", "tea"]
+  },
+  {
+    "title": "The Village of My Ancestors",
+    "text": "I had put off the journey for decades, partly from a vague fear that reality would fail to match the village I had constructed from my grandmother's stories. When at last I stepped off the bus, the place seemed at once smaller and more ordinary than I had imagined, a scatter of low houses clinging to a ridge above a dry riverbed. An old man, noticing my hesitation, asked whom I was looking for, and when I gave my grandmother's maiden name he stared at me as though I had risen from the dead. Within minutes I was being led from house to house, introduced to cousins whose existence had never been mentioned, and pressed to eat food I had no appetite for but could not refuse. It emerged that the family home had long since collapsed, and that only a few stones of the doorway still stood among the weeds. I remember standing before them with a feeling that I can only describe as grief for something I had never possessed. Yet by evening, seated at a crowded table beneath a single bulb, I sensed that the village I had come to find had never been a place at all. It was, rather, the habit of belonging, which these strangers had extended to me without a moment's hesitation. I left the next morning with fewer illusions and, curiously, a far greater sense of home.",
+    "qs": [
+      { "q": "Why had the writer delayed the journey for so long?", "o": ["A fear that reality would not match the imagined village", "A lack of money", "A lack of time", "A dislike of travelling by bus"], "a": 0 },
+      { "q": "How did the old man react to the maiden name?", "o": ["He asked the writer to leave", "He sent the writer to the police", "He stared as though the writer had risen from the dead", "He laughed and walked away"], "a": 2 },
+      { "q": "What remained of the family home?", "o": ["Only the roof", "A few stones of the doorway", "The entire house", "A garden full of flowers"], "a": 1 },
+      { "q": "What did the writer conclude that evening?", "o": ["That the journey had been a mistake", "That the visit should have happened much earlier", "That the villagers were hiding something", "That the village had never been a place but a habit of belonging"], "a": 3 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what did the writer find in the village, and how did the visit change them?", "min": 14 },
+    "keys": ["village", "grandmother", "bus", "cousins", "doorway"]
+  },
+  {
+    "title": "A Reply About Your Draft",
+    "text": "Dear Marcus, I am sorry to have taken so long to reply, and I would like to explain, rather than merely excuse, the delay. When your draft arrived, I read it twice and found myself unable to say anything useful, which is an unusual and slightly humbling experience for someone paid to have opinions. The argument is elegant, and the evidence is carefully assembled, yet something about the conclusion seemed to me to promise more than the pages before it had earned. It took me several days to put my finger on the problem, which is that you have answered a question that no reader is yet asking. If you were to open with the puzzle that first drew you to the subject, the conclusion would then arrive as a resolution instead of an assertion. I realise that this is a larger change than you were hoping for, and I will understand if you feel that it distorts your intentions. Nevertheless, I would urge you to consider it before the deadline, because the work deserves to be read as carefully as it was written. Do not hesitate to ring me if you would like to discuss any of this at greater length. In the meantime, please accept my congratulations on a piece of work that is already considerably better than most I see.",
+    "qs": [
+      { "q": "Why did the writer take so long to reply?", "o": ["The draft had been lost", "The draft left the writer unsure what to say at first", "The writer was away on holiday", "The writer disliked the subject"], "a": 1 },
+      { "q": "What is the problem with the conclusion?", "o": ["It is far too long", "It contradicts the evidence", "It repeats the introduction", "It answers a question that no reader is yet asking"], "a": 3 },
+      { "q": "What does the writer suggest?", "o": ["Opening with the puzzle that first drew Marcus to the subject", "Deleting the conclusion", "Adding more evidence", "Hiring an editor"], "a": 0 },
+      { "q": "What is the writer's overall opinion of the work?", "o": ["It is hopeless", "It is unoriginal", "It is already better than most the writer sees", "It should be abandoned"], "a": 2 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what advice does the writer give Marcus about his draft?", "min": 14 },
+    "keys": ["marcus", "draft", "conclusion", "evidence", "deadline"]
+  },
+  {
+    "title": "A Retreat for Writers",
+    "text": "Nestled in a remote valley, far from the clamour of towns, the old mill offers a week of uninterrupted solitude to writers who have lost the thread of their work. There is no signal for telephones, no television, and, we regret to say, no apology for either. Each guest is given a small room with a desk beside the window, and meals are delivered quietly to the door at fixed hours so that no thought need be broken by conversation. Evenings, for those who wish it, are spent around a long table where participants may read aloud from their work and receive gentle but honest criticism from the others. A resident editor, whose own books have been translated into many languages, is available each afternoon for private consultations. We make no promises that the week will produce a finished manuscript, since experience has taught us that inspiration cannot be hired by the hour. What we can guarantee is silence, good bread, and the rare permission to take one's own writing seriously. Places are strictly limited to eight, and applicants are asked to send a short sample of their work together with a brief account of what they hope to achieve. Those selected will be informed within a fortnight.",
+    "qs": [
+      { "q": "What does the retreat offer?", "o": ["Daily trips to nearby towns", "Group classes in cooking", "A week of television and telephones", "A week of uninterrupted solitude for writers"], "a": 3 },
+      { "q": "How are meals provided?", "o": ["They are served in a busy dining hall", "They are left quietly at the door at fixed hours", "The guests cook them together", "They are sent by courier on request"], "a": 1 },
+      { "q": "What can the organisers guarantee?", "o": ["A finished manuscript", "A contract with a publisher", "Silence, good bread and permission to take one's writing seriously", "A prize for the best work"], "a": 2 },
+      { "q": "How should applicants apply?", "o": ["By sending a sample of their work and a short account of their hopes", "By paying in advance", "By telephoning the mill", "By attending an interview"], "a": 0 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what kind of week does the mill offer, and what does it promise?", "min": 14 },
+    "keys": ["mill", "writers", "desk", "editor", "manuscript"]
+  },
+  {
+    "title": "The Inheritance",
+    "text": "When the old professor died, he left his entire library to the one student who had never once agreed with him. The other students, many of whom had spent years flattering him in the hope of favour, received nothing but a short note thanking them for their company. Their indignation was loud, and for a while it seemed likely that the will would be contested in court. Yet the chosen heir, a quiet woman named Irena, found herself oddly unmoved by the prospect of ownership and spent the first week simply wandering among the shelves. In almost every volume she discovered marginal comments in her former teacher's cramped handwriting, many of them addressed directly to her, as though he had anticipated her objections decades in advance. Some were mocking, others surprisingly tender, and a few conceded points that he had never admitted aloud. It slowly dawned on her that the argument she had believed they were having in the seminar room had been, for him, an extended conversation he could not bear to end. She did not contest the will, nor did she sell a single book. Instead, she began to answer him in the margins, in a smaller hand, and with considerably better grammar.",
+    "qs": [
+      { "q": "Who inherited the professor's library?", "o": ["His oldest friend", "The students who had flattered him", "The one student who had never agreed with him", "His family"], "a": 2 },
+      { "q": "What did the other students receive?", "o": ["A short note of thanks", "A few books each", "A sum of money", "Nothing at all"], "a": 0 },
+      { "q": "What did Irena discover in the books?", "o": ["Photographs of the students", "Margin notes, many of them addressed to her", "Secret letters about the will", "Banknotes hidden between the pages"], "a": 1 },
+      { "q": "What does Irena finally do?", "o": ["She sells the books to the other students", "She gives the library to the university", "She contests the will in court", "She begins to answer the professor in the margins"], "a": 3 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: why was Irena given the library, and what does she do with it?", "min": 14 },
+    "keys": ["professor", "library", "irena", "handwriting", "seminar"]
+  },
+  {
+    "title": "The Salt Flats",
+    "text": "Few landscapes strip away the human scale as thoroughly as the great salt flats, where the horizon dissolves into a pale and shimmering haze and the eye struggles to find anything on which to rest. After rain, a thin sheet of water spreads across the surface, and the sky is reflected so perfectly that visitors report the sensation of walking on the clouds. In the dry season, by contrast, the ground cracks into vast hexagons of white crust that crunch underfoot like frozen snow. The silence is complete and slightly unnerving, interrupted only by the wind, which carries a fine dust that settles in the hair and between the teeth. Photographers are drawn to the place for the optical games it permits, such as pictures in which a person appears to be holding a mountain in the palm of one hand. Local workers, however, regard it as a harvest rather than a spectacle, and they spend long days raking the salt into low heaps to dry in the sun. Their weathered faces and cracked hands bear witness to a labour that tourists rarely stop to consider. At dusk the whole expanse turns the colour of a bruise, then fades to a darkness so deep that the stars seem within reach. It is a place that rewards those who come to look, but it demands a certain humility from those who come to stay.",
+    "qs": [
+      { "q": "What happens to the salt flats after rain?", "o": ["A thin sheet of water reflects the sky", "The salt turns black", "Flowers bloom across the surface", "The wind stops completely"], "a": 0 },
+      { "q": "Why are photographers drawn to the place?", "o": ["Because of the wildlife", "Because of the colours of the sunrise", "Because of the optical games it allows", "Because the salt is rare"], "a": 2 },
+      { "q": "How do the local workers regard the flats?", "o": ["As a spectacle", "As a place for holidays", "As a danger", "As a harvest"], "a": 3 },
+      { "q": "What does the writer say the place demands of those who stay?", "o": ["Strong boots", "A certain humility", "A lot of money", "Patience with tourists"], "a": 1 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what is the salt flats landscape like, and who works there?", "min": 14 },
+    "keys": ["salt", "flats", "horizon", "photographers", "harvest"]
+  },
+  {
+    "title": "An Ancient Boat Is Found",
+    "text": "Archaeologists working on the northern coast have announced the discovery of a wooden boat that appears to be roughly two thousand years old, a find that has startled even the most seasoned members of the team. Preserved by the oxygen-poor mud in which it had lain, the vessel is almost entirely intact, and the marks of the tools used to shape it can still be seen along its hull. Initial analysis suggests that it was built for trade rather than war, since its wide, shallow frame would have carried heavy cargo but offered little speed. Among the objects recovered from the wreck were pottery jars, a coil of rope, and what appears to be a child's toy, a detail that has moved many who have followed the story. The find has been described in the press as the most significant of its kind in a generation, although the team itself has refrained from such language. The excavation director cautioned against drawing sweeping conclusions, noting that the results of dating tests will not be available for several months. Local officials, however, are already speaking of building a museum on the site, an idea that some residents greet with enthusiasm and others with deep suspicion. Critics fear that the arrival of crowds may damage the very fragile landscape that preserved the boat in the first place. For the moment, the vessel remains beneath a protective cover, and its fate is likely to be debated for some time to come.",
+    "qs": [
+      { "q": "Why is the boat so well preserved?", "o": ["It was kept inside a dry cave", "It was buried in dry sand", "It was frozen in ice", "It lay in oxygen-poor mud"], "a": 3 },
+      { "q": "What was the boat probably built for?", "o": ["Trade rather than war", "War rather than trade", "Fishing in rough seas", "Racing at festivals"], "a": 0 },
+      { "q": "What did the excavation director advise?", "o": ["Moving the boat at once", "Not drawing sweeping conclusions before the dating results arrive", "Keeping journalists away", "Building the museum quickly"], "a": 1 },
+      { "q": "What do the critics fear?", "o": ["That the museum will be too expensive", "That thieves will steal the cargo", "That crowds will damage the fragile landscape", "That the boat will decay in the open air"], "a": 2 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what was found on the coast, and why do people disagree about its future?", "min": 14 },
+    "keys": ["archaeologists", "boat", "hull", "cargo", "museum"]
+  },
+  {
+    "title": "The Virtue of Slow Reading",
+    "text": "It has become fashionable to boast of how many books one has read in a year, as though literature were a distance to be covered rather than a country to be explored. I find this habit not merely vulgar but self-defeating, for a book hurried through leaves little more trace than a train glimpsed from a platform. The great novels, in particular, were not written to be consumed at speed, and their richness lies in precisely those passages that the impatient reader skims in search of plot. To linger over a sentence, to return to a paragraph that has puzzled or delighted us, is not a sign of slowness but of attention, which has become the scarcest of modern virtues. Defenders of the numbers game will reply that more reading is always better than less, and in a narrow sense they are right. But a habit that rewards quantity above all else will soon teach us to value quantity above all else, in life as well as in reading. Slowness, after all, is merely the speed at which a good book wishes to be read. I would rather finish ten books that changed me than a hundred that merely passed through. If that makes me a laggard among readers, I accept the title without regret and with a certain private satisfaction.",
+    "qs": [
+      { "q": "What fashion does the writer criticise?", "o": ["Boasting about how many books one has read", "Reading only classic novels", "Buying too many books", "Writing reviews of books"], "a": 0 },
+      { "q": "To what does the writer compare a book that is hurried through?", "o": ["A meal eaten too quickly", "A journey by aeroplane", "A train glimpsed from a platform", "A race won by luck"], "a": 2 },
+      { "q": "How does the writer describe attention?", "o": ["An overrated skill", "A talent only children have", "A habit that can be bought", "The scarcest of modern virtues"], "a": 3 },
+      { "q": "What would the writer prefer?", "o": ["To read a hundred books quickly", "To finish ten books that changed him", "To stop reading novels", "To read only short stories"], "a": 1 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: why does the writer prefer to read slowly?", "min": 14 },
+    "keys": ["books", "novels", "attention", "quantity", "reader"]
+  },
+  {
+    "title": "How the Tides Are Made",
+    "text": "The tides, which seem so natural and regular as to require no explanation, are in fact the product of a subtle contest between gravity and motion. The moon pulls most strongly on the side of the Earth nearest to it, drawing the oceans into a bulge that follows it around the planet. Less intuitively, a second bulge forms on the opposite side, because there the moon's pull is weaker than elsewhere and the water is, in effect, left behind. As the Earth rotates beneath these two bulges, any given coast passes through each of them once a day, which is why most places experience two high tides and two low tides within roughly a day. The sun also exerts a gravitational pull, though its greater distance makes its influence less than half that of the moon. When the sun and moon line up, their effects combine to produce unusually large tides, whereas when they stand at right angles to one another they partly cancel and the tides are mild. The shape of the coastline can amplify these movements dramatically, so that in certain narrow bays the water rises and falls by many times the height found in the open sea. Navigators have understood these patterns for centuries, even if the underlying physics remained mysterious until comparatively recent times. It remains remarkable that a force exerted across such an immense distance should lift the sea against the pull of the very planet that holds it.",
+    "qs": [
+      { "q": "Why does a second bulge form on the side away from the moon?", "o": ["The sun pulls the water there", "The ocean is deeper there", "The moon's pull is weaker there, so the water is left behind", "The wind pushes the water there"], "a": 2 },
+      { "q": "How many high tides do most places experience in about a day?", "o": ["Two", "One", "Three", "Four"], "a": 0 },
+      { "q": "When are the tides unusually large?", "o": ["When the sun is hidden by clouds", "When the sun and moon stand at right angles", "When the moon is far away", "When the sun and moon line up"], "a": 3 },
+      { "q": "What can amplify the movement of the water?", "o": ["The saltiness of the water", "The shape of the coastline", "The speed of ships", "The age of the ocean"], "a": 1 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what causes the tides?", "min": 14 },
+    "keys": ["tides", "moon", "gravity", "coast", "bays"]
+  },
+  {
+    "title": "The Piano in the Hall",
+    "text": "There was a piano in the hall of the house where I grew up, an upright of no particular distinction that nobody in the family could play. It had been bought by my grandmother in a burst of optimism about the cultural development of her descendants, and it stood for decades as a monument to that unfulfilled hope. We used it mostly as a shelf for keys, letters, and the endless small objects that accumulate in a household, and its lid was seldom raised. Yet I remember, with a clarity that surprises me, the afternoon when a visiting aunt sat down and began to play something slow and unfamiliar. The whole house seemed to stop, and even the dog lifted his head from the rug and regarded her with an expression of grave astonishment. I was perhaps nine, and it had never occurred to me that the thing in the hall was capable of making any sound beyond a hollow thud when I knocked it with my knee. When she finished, she closed the lid, apologised for being out of practice, and returned to the kitchen as though nothing had happened. I have heard a great deal of music since, some of it undoubtedly finer, but none that has ever reordered the furniture of my mind in quite the same way. I suspect that what I heard that afternoon was not so much a melody as a glimpse of what the house had been holding back.",
+    "qs": [
+      { "q": "Who bought the piano?", "o": ["The writer's mother", "The visiting aunt", "The writer's grandmother", "The writer's father"], "a": 2 },
+      { "q": "What was the piano mostly used for?", "o": ["A shelf for keys, letters and small objects", "Music lessons for the children", "A bed for the dog", "Nothing at all"], "a": 0 },
+      { "q": "How did the dog react when the aunt began to play?", "o": ["He barked loudly", "He ran out of the room", "He went on sleeping", "He lifted his head and looked at her with astonishment"], "a": 3 },
+      { "q": "What did the aunt do when she finished playing?", "o": ["She played a second piece", "She closed the lid, apologised and went back to the kitchen", "She asked the writer to play", "She left the house at once"], "a": 1 }
+    ],
+    "write": { "prompt": "Write one or two sentences in the language you are learning: what happened on the afternoon the aunt played the piano?", "min": 14 },
+    "keys": ["piano", "grandmother", "aunt", "kitchen", "dog"]
+  }
+]
