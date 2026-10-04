@@ -1,5 +1,7 @@
 "use client";
 
+import type { WordEntry } from "@/lib/preview/spanish";
+import { useSentenceMeaning } from "@/components/reader/useSentenceMeaning";
 import { BackLink } from "@/components/BackLink";
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { ObjectPhoto } from "@/components/ObjectPhoto";
@@ -178,7 +180,10 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   const keys = selPage?.target?.keys ?? [];
   const keyIx = sel ? keys.findIndex((k) => k.w === sel.word) : -1;
   const colour = keyIx >= 0 ? `var(--key-${(keyIx % 3) + 1})` : "var(--foreground)";
-  const entry = sel ? variant.dict?.[sel.word] : undefined;
+  const cardEntry = sel ? variant.dict?.[sel.word] : undefined;
+  // A card made by hand explains the word; one made by the translator from the word alone is a guess, so the word is asked again in its sentence.
+  const inSentence = useSentenceMeaning(sel && !cardEntry?.use && selPage ? { text: selPage.text, start: sel.start, word: sel.word } : null, variant.lang, locale);
+  const entry: WordEntry | undefined = inSentence.text ? { en: inSentence.text, use: "" } : inSentence.pending ? { en: "…", use: "" } : cardEntry;
   const open = sel !== null;
   // The lines are in English until the translation pipeline gives each reader their own language.
   const lineLang = languageName("en", locale);
@@ -486,7 +491,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
                     saved={savedId(variant.lang, sel.word) in saved}
                     onListen={() => hear(slow ? 0.7 : 0.95)} onSlow={() => hear(0.5)}
                     onSave={() => {
-                      const now = toggleSaved({ word: sel.word, lang: variant.lang, meaning: entry?.en ?? "", book: title });
+                      const now = toggleSaved({ word: sel.word, lang: variant.lang, meaning: (entry?.en !== "…" ? entry?.en : cardEntry?.en) ?? "", book: title });
                       say(now ? t("reader.savedToast") : t("reader.removedToast"), now);
                       if (now) setHop((h) => h + 1);
                     }}
