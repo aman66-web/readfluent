@@ -1,0 +1,617 @@
+{
+ "lang": "vi",
+ "levels": {
+  "A1": [
+   {
+    "title": "Buổi sáng của Tom",
+    "text": "Tom thức dậy lúc bảy giờ. Anh ấy ăn bánh mì và trứng. Rồi anh ấy đi làm bằng xe buýt. Anh ấy rất thích công việc của mình. Anh ấy về nhà lúc sáu giờ và nấu ăn.",
+    "keys": [
+     "bánh mì",
+     "trứng",
+     "xe buýt",
+     "công việc"
+    ]
+   },
+   {
+    "title": "Một ngày ở biển",
+    "text": "Anna đi biển bằng tàu hỏa. Tàu chạy nhanh. Cô ấy nhìn thấy nước biển và mặt trời lớn. Anna và mẹ bơi và chơi. Họ rất vui.",
+    "keys": [
+     "biển",
+     "tàu hỏa",
+     "mặt trời",
+     "bơi"
+    ]
+   },
+   {
+    "title": "Tin nhắn gửi Sam",
+    "text": "Chào Sam, bây giờ mình đang ở công viên. Hãy đến lúc hai giờ nhé. Mình có một quả bóng đỏ to. Chúng ta có thể chơi với nó. Hãy mang theo ít nước, vì trời nóng.",
+    "keys": [
+     "công viên",
+     "quả bóng",
+     "đỏ",
+     "nước"
+    ]
+   },
+   {
+    "title": "Thông báo của cửa hàng",
+    "text": "Chào mừng bạn đến Cửa hàng Xanh. Chúng tôi bán bánh mì và sữa. Chúng tôi mở cửa từ tám giờ đến sáu giờ. Cửa hàng đóng cửa vào Chủ nhật. Mỗi em nhỏ được tặng một quả táo.",
+    "keys": [
+     "bánh mì",
+     "sữa",
+     "chủ nhật",
+     "táo"
+    ]
+   },
+   {
+    "title": "Chú chó bị lạc",
+    "text": "Ben có một chú chó nhỏ màu nâu. Một hôm chú chó không có ở đây. Ben buồn và tìm khắp nơi. Chú chó ở dưới gầm giường! Ben lại vui.",
+    "keys": [
+     "chú chó",
+     "màu nâu",
+     "buồn",
+     "gầm giường"
+    ]
+   },
+   {
+    "title": "Thị trấn nhỏ của tôi",
+    "text": "Thị trấn của tôi nhỏ nhưng đẹp. Có một con sông và một công viên lớn. Có nhiều cây xanh. Tôi thích cây cầu cũ. Đó là một nơi yên tĩnh đối với tôi.",
+    "keys": [
+     "thị trấn",
+     "con sông",
+     "công viên",
+     "cây cầu"
+    ]
+   },
+   {
+    "title": "Con mèo trên mái nhà",
+    "text": "Một con mèo ở trên mái nhà cao. Con mèo nhỏ rất sợ. Một người đàn ông kêu cứu. Một người phụ nữ đến với chiếc thang dài. Bây giờ con mèo đã an toàn.",
+    "keys": [
+     "con mèo",
+     "mái nhà",
+     "thang",
+     "kêu cứu"
+    ]
+   },
+   {
+    "title": "Tôi thích mưa",
+    "text": "Tôi rất thích mưa. Một số người không thích nó. Nhưng tôi nghĩ mưa là tốt. Hoa và cây uống nước mưa. Tôi ngồi ở nhà và đọc sách.",
+    "keys": [
+     "mưa",
+     "hoa",
+     "cây",
+     "sách"
+    ]
+   },
+   {
+    "title": "Pha trà",
+    "text": "Trước hết, hãy đun một ít nước trong nồi. Cho một túi trà vào cốc. Rồi rót nước nóng vào. Hãy đợi ba phút. Bây giờ bạn có thể uống trà.",
+    "keys": [
+     "nước",
+     "túi trà",
+     "cốc",
+     "phút"
+    ]
+   },
+   {
+    "title": "Khu vườn của bà",
+    "text": "Tôi thường nghĩ về bà của tôi. Nhà bà nhỏ và màu trắng. Trong vườn có một cái cây lớn. Chúng tôi ngồi dưới gốc cây và ăn bánh. Tôi yêu những ngày ấy.",
+    "keys": [
+     "bà",
+     "nhà",
+     "cái cây",
+     "bánh"
+    ]
+   }
+  ],
+  "A2": [
+   {
+    "title": "Ngày thứ bảy bận rộn của Maria",
+    "text": "Sáng thứ bảy, Maria dọn căn hộ nhỏ của mình và giặt quần áo. Buổi trưa cô gặp bạn là Julia ở một quán cà phê. Họ ăn súp và trò chuyện suốt hai tiếng. Buổi chiều họ đi chợ và mua một ít trái cây. Maria về nhà mệt nhưng vui. Ngày mai cô sẽ đi thăm bố mẹ.",
+    "keys": [
+     "căn hộ",
+     "quán cà phê",
+     "súp",
+     "trái cây"
+    ]
+   },
+   {
+    "title": "Cuối tuần trên núi",
+    "text": "Tháng trước Daniel và em trai đi lên núi. Họ đi tàu rồi đi bộ bốn tiếng. Trời lạnh nên họ mặc áo khoác ấm. Trên đỉnh núi họ ăn bánh mì kẹp và ngắm hồ ở phía dưới. Năm sau họ định sẽ đi lại vào mùa hè.",
+    "keys": [
+     "núi",
+     "tàu",
+     "áo khoác",
+     "hồ"
+    ]
+   },
+   {
+    "title": "Thư gửi một người bạn",
+    "text": "Kim thân mến, cảm ơn bạn vì lá thư. Mình xin lỗi vì đã không viết sớm hơn. Mình bị ốm, nhưng bây giờ mình khỏe hơn nhiều. Mình sẽ đến thăm bạn vào tháng năm trong một tuần. Hãy cho mình biết những ngày nào thuận tiện cho bạn và gia đình. Hẹn gặp bạn sớm!",
+    "keys": [
+     "lá thư",
+     "ốm",
+     "tháng năm",
+     "gia đình"
+    ]
+   },
+   {
+    "title": "Học đàn ghi-ta",
+    "text": "Bạn có muốn học đàn ghi-ta không? Peter Novak là một thầy giáo dạy nhạc với mười năm kinh nghiệm. Thầy dạy trẻ em và người lớn trong phòng nhỏ gần nhà ga. Buổi học đầu tiên miễn phí, nên bạn có thể thử. Các buổi học diễn ra vào tối thứ ba và thứ năm. Hãy gọi trong tuần này và bạn sẽ nhận được một cuốn sách miễn phí.",
+    "keys": [
+     "ghi-ta",
+     "thầy giáo",
+     "miễn phí",
+     "nhà ga"
+    ]
+   },
+   {
+    "title": "Chiếc túi nhầm",
+    "text": "Nina rời nhà ga và đi bộ về nhà. Cô mở túi ra và thấy một chiếc áo khoác xanh bên trong. Đó không phải túi của cô! Cô thấy lo và quay lại nhà ga. Ở đó cô thấy một người đàn ông, và ông ấy đang cầm chiếc túi của cô. Họ cười, đổi túi cho nhau và chào tạm biệt.",
+    "keys": [
+     "túi",
+     "áo khoác",
+     "nhà ga",
+     "người đàn ông"
+    ]
+   },
+   {
+    "title": "Thư viện cũ",
+    "text": "Thư viện cũ nằm ở trung tâm thị trấn của chúng tôi. Đó là một tòa nhà đá lớn với những ô cửa sổ cao. Bên trong có hàng nghìn cuốn sách và nhiều chiếc ghế thoải mái. Ở tầng hai có một phòng yên tĩnh cho sinh viên. Nhiều người đến đó vì nơi ấy ấm áp và miễn phí. Tôi đến đó mỗi thứ sáu sau giờ học.",
+    "keys": [
+     "thư viện",
+     "cửa sổ",
+     "ghế",
+     "thứ sáu"
+    ]
+   },
+   {
+    "title": "Làn đường xe đạp mới",
+    "text": "Hội đồng thành phố hôm qua đã mở một làn đường xe đạp mới. Làn đường đi từ nhà ga đến công viên lớn. Trước đây, nhiều người đi xe đạp cảm thấy không an toàn trên đường chính. Hội đồng đã chi rất nhiều tiền cho công trình này. Năm sau thành phố sẽ xây thêm hai làn đường nữa. Nhiều người vui, nhưng một số tài xế thì tức giận.",
+    "keys": [
+     "hội đồng",
+     "xe đạp",
+     "nhà ga",
+     "tài xế"
+    ]
+   },
+   {
+    "title": "Đi bộ đến trường",
+    "text": "Tôi nghĩ trẻ em nên đi bộ đến trường. Thứ nhất, đi bộ tốt cho sức khỏe của các em. Thứ hai, các em có thể trò chuyện với bạn bè trên đường. Năm ngoái con gái tôi đi bộ đến trường và cảm thấy tỉnh táo hơn. Một số phụ huynh nói đường phố nguy hiểm, và điều đó đúng. Nhưng tôi tin chúng ta có thể làm cho đường phố an toàn hơn.",
+    "keys": [
+     "đi bộ",
+     "sức khỏe",
+     "con gái",
+     "nguy hiểm"
+    ]
+   },
+   {
+    "title": "Tủ lạnh hoạt động thế nào",
+    "text": "Tủ lạnh giữ thức ăn lạnh để thức ăn tươi lâu hơn. Bên trong tủ lạnh có một chất lỏng đặc biệt chạy trong những ống mỏng. Chất lỏng lấy nhiệt từ thức ăn và mang nhiệt đi. Sau đó chất lỏng đi ra phía sau, nơi nhiệt thoát ra ngoài. Đó là lý do mặt sau của tủ lạnh thường ấm. Một động cơ nhỏ làm chất lỏng chuyển động suốt cả ngày.",
+    "keys": [
+     "tủ lạnh",
+     "chất lỏng",
+     "ống",
+     "động cơ"
+    ]
+   },
+   {
+    "title": "Chiếc xe đạp đầu tiên của tôi",
+    "text": "Khi tôi bảy tuổi, bố tặng tôi một chiếc xe đạp màu đỏ. Tôi rất háo hức, nhưng tôi chưa biết đạp. Mỗi buổi tối bố chạy bên cạnh tôi và giữ yên xe. Sau hai tuần tôi bị ngã, và tôi khóc một chút. Bố mỉm cười và nói rằng ai cũng từng ngã. Hôm sau tôi tự đạp được, và tôi vẫn còn nhớ cảm giác ấy.",
+    "keys": [
+     "xe đạp",
+     "bố",
+     "yên xe",
+     "ngã"
+    ]
+   }
+  ],
+  "B1": [
+   {
+    "title": "Một ngày dài của cô giáo",
+    "text": "Elena thức dậy lúc năm giờ rưỡi vì trường cô ở xa nhà. Cô thường đi hai chuyến xe buýt và đến ngay trước tiết học đầu tiên. Suốt ngày cô dạy ba lớp, trả lời rất nhiều câu hỏi và hiếm khi có thời gian ăn. Sau giờ học cô thường ở lại muộn để giúp những học sinh đang gặp khó khăn với bài tập về nhà. Khi cuối cùng về đến nhà, cô kiệt sức, nhưng cô nói rằng công việc này xứng đáng. Nếu một học sinh mỉm cười với cô ở hành lang, cô quên mất mình mệt đến thế nào.",
+    "keys": [
+     "elena",
+     "xe buýt",
+     "học sinh",
+     "hành lang"
+    ]
+   },
+   {
+    "title": "Lạc ở Lisbon",
+    "text": "Mùa xuân năm ngoái Omar lần đầu đến Lisbon. Anh đã lên kế hoạch mọi thứ rất cẩn thận, nhưng điện thoại của anh hỏng vào ngày thứ hai. Không có bản đồ, anh lạc trong một mê cung những con phố hẹp. Thay vì hoảng sợ, anh nhờ một bà cụ giúp đỡ, và bà dẫn anh đến đúng chuyến xe điện. Sau này Omar nói rằng đó là khoảnh khắc đẹp nhất của chuyến đi, vì anh đã gặp một người tử tế. Nếu điện thoại của anh không hỏng, anh sẽ không bao giờ nói chuyện với bà.",
+    "keys": [
+     "omar",
+     "điện thoại",
+     "bản đồ",
+     "xe điện"
+    ]
+   },
+   {
+    "title": "Tin nhắn gửi hàng xóm",
+    "text": "Gửi các hàng xóm thân mến, tôi viết thư này để báo với quý vị về một bữa tiệc ở căn hộ của tôi vào tối thứ bảy. Tôi biết rằng một số người trong quý vị đi ngủ sớm. Vì vậy tôi sẽ bảo đảm nhạc tắt trước mười giờ. Nếu nhạc quá to, xin hãy gõ cửa nhà tôi và tôi sẽ vặn nhỏ lại. Tôi cũng đã làm rất nhiều đồ ăn, và mời tất cả quý vị cùng tham gia. Tôi sẽ rất vui được gặp mọi người, vì tôi mới chuyển đến đây tháng trước. Cảm ơn quý vị đã kiên nhẫn.",
+    "keys": [
+     "hàng xóm",
+     "bữa tiệc",
+     "nhạc",
+     "đồ ăn"
+    ]
+   },
+   {
+    "title": "Khóa học nấu ăn cuối tuần",
+    "text": "Bạn có muốn học nấu những món ăn thật sự thay vì tối nào cũng gọi mang về không? Khóa học nấu ăn cuối tuần của chúng tôi hoàn hảo cho những người mới bắt đầu còn lo lắng khi vào bếp. Mỗi thứ bảy một đầu bếp chuyên nghiệp chỉ cho bạn một món đơn giản, rồi bạn tự nấu. Tất cả nguyên liệu đã nằm trong giá, nên bạn chỉ cần mang theo một chiếc tạp dề. Nếu bạn đăng ký trước cuối tháng này, bạn sẽ được giảm giá mười phần trăm. Số chỗ có hạn, vì vậy chúng tôi khuyên bạn nên đặt sớm.",
+    "keys": [
+     "khóa học",
+     "đầu bếp",
+     "tạp dề",
+     "giảm giá"
+    ]
+   },
+   {
+    "title": "Chuyến tàu cuối cùng",
+    "text": "Tomas lỡ chuyến tàu cuối cùng về nhà, nên anh quyết định đi bộ. Lúc đó đã quá nửa đêm và đường phố vắng vẻ, tối đen. Sau một tiếng anh nghe thấy tiếng bước chân phía sau, và tim anh bắt đầu đập nhanh hơn. Anh đi nhanh hơn, nhưng tiếng bước chân càng gần, cho đến khi anh quay lại. Một chú chó nhỏ đang đi theo anh, và trông nó cũng lạc lõng như anh. Tomas bật cười, nhấc chú chó lên và bế nó suốt quãng đường về nhà. Anh đặt tên cho chú chó là Lucky, vì đêm đó cả hai đều cần một chút may mắn.",
+    "keys": [
+     "tomas",
+     "chuyến tàu",
+     "chú chó",
+     "may mắn"
+    ]
+   },
+   {
+    "title": "Một làng chài",
+    "text": "Làng chúng tôi nằm trên một ngọn đồi dốc phía trên biển, và mỗi ngôi nhà được sơn một màu khác nhau. Buổi sáng những người đánh cá trở về, và bến cảng tràn đầy tiếng ồn cùng mùi cá. Khách du lịch thường đến vào mùa hè, nên những con phố hẹp có thể rất đông. Tuy nhiên, tôi thích ngôi làng vào mùa đông hơn, khi nơi này yên tĩnh và biển dữ dội. Trên đỉnh đồi có một quán cà phê nhỏ, nơi bạn có thể ngắm bão một cách an toàn. Nếu bạn đến thăm, hãy đến vào mùa thu, khi trời dịu mát và có ít người hơn.",
+    "keys": [
+     "làng",
+     "người đánh cá",
+     "bến cảng",
+     "bão"
+    ]
+   },
+   {
+    "title": "Xe buýt miễn phí cho học sinh",
+    "text": "Một thị trấn nhỏ ở phía bắc đã quyết định cho học sinh đi xe buýt miễn phí. Hội đồng thị trấn công bố kế hoạch vào thứ hai và nói rằng nó sẽ bắt đầu vào tháng chín. Các quan chức hy vọng nhiều người trẻ hơn sẽ dùng phương tiện công cộng và ít phụ huynh phải đưa đón con hơn. Kế hoạch sẽ tốn khoảng một triệu euro mỗi năm, điều này khiến một số cư dân lo lắng. Tuy nhiên, những dự án tương tự ở các thị trấn khác đã giảm ùn tắc giao thông gần một phần năm. Cuộc bỏ phiếu cuối cùng sẽ diễn ra vào tháng sau, và những người ủng hộ mong kế hoạch được thông qua.",
+    "keys": [
+     "thị trấn",
+     "xe buýt",
+     "hội đồng",
+     "euro"
+    ]
+   },
+   {
+    "title": "Điện thoại trong lớp học",
+    "text": "Theo ý kiến của tôi, trường học không nên cho phép điện thoại trong lớp. Khi có một chiếc điện thoại trên bàn, học sinh cứ liên tục kiểm tra nó và không thể theo dõi bài giảng. Một số người cho rằng điện thoại có thể hữu ích để tra cứu thông tin. Điều đó đúng, nhưng giáo viên có thể dùng máy tính của trường thay thế. Tất nhiên, trẻ em phải có thể liên lạc với bố mẹ trong trường hợp khẩn cấp. Vì vậy tôi đề nghị để điện thoại trong cặp suốt giờ học và chỉ lấy ra vào giờ ra chơi. Như thế mọi người đều được lợi mà không bị mất tập trung.",
+    "keys": [
+     "điện thoại",
+     "học sinh",
+     "máy tính",
+     "giờ ra chơi"
+    ]
+   },
+   {
+    "title": "Ong làm mật như thế nào",
+    "text": "Ong làm mật từ một chất lỏng ngọt gọi là mật hoa, mà chúng thu thập từ các bông hoa. Một con ong thợ cất mật hoa trong một chiếc dạ dày đặc biệt và mang về tổ. Ở đó, những con ong khác lấy mật hoa và nhai nó một lúc. Chúng trải mật vào những ô sáp nhỏ và quạt bằng cánh để loại bỏ nước. Khi mật đủ đặc, ong đậy mỗi ô lại bằng sáp để giữ cho nó tươi. Một con ong chỉ làm ra một lượng rất nhỏ, nên cần hàng nghìn con ong để đầy một lọ.",
+    "keys": [
+     "ong",
+     "mật hoa",
+     "tổ",
+     "sáp"
+    ]
+   },
+   {
+    "title": "Những mùa hè bên hồ",
+    "text": "Khi tôi còn là thiếu niên, gia đình tôi trải qua mỗi mùa hè trong một ngôi nhà gỗ nhỏ bên hồ. Hồi đó tôi không biết trân trọng điều ấy, vì tôi muốn ở thành phố với bạn bè. Bây giờ tôi hiểu mình đã may mắn đến thế nào. Tôi nhớ sự yên lặng vào sáng sớm và hương vị của ổ bánh mì tươi từ cửa hàng trong làng. Nếu tôi có thể quay lại một nơi trong quá khứ, tôi sẽ chọn ngôi nhà ấy. Buồn thay, nó đã được bán từ nhiều năm trước, nên tôi chỉ có thể ghé thăm nó trong ký ức.",
+    "keys": [
+     "hồ",
+     "nhà gỗ",
+     "bánh mì",
+     "ký ức"
+    ]
+   }
+  ],
+  "B2": [
+   {
+    "title": "Một ngày ở tiệm bánh",
+    "text": "Lucia thức dậy lúc bốn giờ mỗi sáng, rất lâu trước khi thành phố bắt đầu cựa mình. Đến khi những khách hàng đầu tiên tới, cô đã nặn khoảng hai trăm ổ bánh và kiểm tra các lò nướng. Dù công việc rất mệt mỏi, cô nói nó đã dạy cô tính kiên nhẫn, vì bánh mì không thể làm vội. Vào buổi trưa cô khóa cửa, ăn một bữa trưa đơn giản và ngủ hai tiếng. Buổi chiều cô trả lời các đơn đặt hàng, phần lớn do các nhà hàng phụ thuộc vào cô gửi tới. Chị gái cô đã nhiều lần gợi ý cô thuê một người phụ việc, nhưng Lucia khăng khăng rằng cô thích tự mình làm mọi thứ hơn. Tuy nhiên, cô thừa nhận rằng cô có thể đổi ý nếu việc kinh doanh tiếp tục phát triển.",
+    "keys": [
+     "lucia",
+     "lò nướng",
+     "kiên nhẫn",
+     "nhà hàng"
+    ]
+   },
+   {
+    "title": "Chuyến tàu đêm lên phương bắc",
+    "text": "Mùa xuân năm ngoái Tomas quyết định đi tàu đến miền cực bắc thay vì đi máy bay. Hành trình, kéo dài gần hai ngày, đưa anh qua những khu rừng rậm đến mức ánh nắng hiếm khi chạm tới mặt đất. Anh đã được cảnh báo rằng các toa tàu sẽ lạnh, nên anh mang theo một chiếc chăn dày và một bình trà. Vào buổi tối thứ hai, một thầy giáo đã nghỉ hưu ngồi đối diện anh và bắt đầu kể chuyện về những ngôi làng mà họ đi qua. Sau này Tomas nói rằng những cuộc trò chuyện ấy là phần quý giá nhất của chuyến đi. Khi con tàu cuối cùng vào ga, tuyết đang rơi nhẹ nhàng trên sân ga vắng. Dù đến nơi trong tình trạng mệt mỏi, anh cảm thấy con đường chậm rãi ấy xứng đáng với thời gian dôi ra.",
+    "keys": [
+     "tomas",
+     "khu rừng",
+     "chiếc chăn",
+     "sân ga"
+    ]
+   },
+   {
+    "title": "Thư gửi chủ nhà",
+    "text": "Kính gửi ông Samuel, tôi viết thư về hệ thống sưởi trong căn hộ của tôi, vốn không hoạt động từ thứ hai tuần trước. Một kỹ thuật viên lẽ ra đến vào thứ năm, nhưng không ai đến và cũng không ai gọi điện giải thích. Vì ban đêm nhiệt độ đã xuống dưới mức đóng băng, tôi và người hàng xóm đang dùng máy sưởi điện. Tôi sẽ rất biết ơn nếu ông có thể sắp xếp sửa chữa càng sớm càng tốt. Nếu vấn đề vẫn tiếp diễn, tôi sẽ buộc phải xin giảm tiền thuê nhà. Tôi hiểu những việc như thế này cần thời gian, và tôi không muốn gây khó khăn. Xin ông cho tôi biết trước thứ sáu khi nào sẽ có người đến. Cảm ơn sự giúp đỡ của ông, Amira.",
+    "keys": [
+     "hệ thống sưởi",
+     "kỹ thuật viên",
+     "sửa chữa",
+     "tiền thuê nhà"
+    ]
+   },
+   {
+    "title": "Thông báo vườn cộng đồng",
+    "text": "Hội đồng khu phố vui mừng thông báo rằng bãi đỗ xe cũ phía sau thư viện sẽ được biến thành một khu vườn cộng đồng. Những cư dân muốn tham gia được mời đến một buổi họp vào thứ bảy đầu tiên của tháng tới. Mỗi hộ gia đình sẽ được giao một mảnh đất nhỏ, với điều kiện hộ đó đồng ý chăm sóc nó suốt mùa trồng trọt. Dụng cụ và hạt giống sẽ được cấp miễn phí, tuy nhiên các tình nguyện viên được đề nghị tự mang theo găng tay. Những ai chưa có kinh nghiệm không cần lo lắng, vì một nhóm người làm vườn lành nghề sẽ hướng dẫn mỗi cuối tuần. Hy vọng rằng dự án sẽ gắn kết những người hàng xóm lại gần nhau và làm cho khu vực xanh hơn. Bất kỳ ai quan tâm nên ký tên vào danh sách ở quầy thư viện trước cuối tuần này.",
+    "keys": [
+     "bãi đỗ xe",
+     "mảnh đất",
+     "hạt giống",
+     "găng tay"
+    ]
+   },
+   {
+    "title": "Chìa khóa bị mất",
+    "text": "Elena đã dành cả buổi chiều để tìm chìa khóa xe, lật tung cả căn hộ lên. Cô kiểm tra từng túi áo, nhấc từng chiếc gối, thậm chí đổ cả thùng rác ra, nhưng không có dấu vết gì của chúng. Tin chắc rằng ai đó chắc chắn đã lấy mất, cô bắt đầu nghi ngờ người bạn cùng nhà mới, người suốt cả tuần im lặng một cách lạ lùng. Cuối cùng, gần như bật khóc, cô gọi điện cho mẹ để than phiền. Mẹ cô kiên nhẫn lắng nghe rồi hỏi liệu có phải Elena đang cầm thứ gì trong tay trái không. Elena nhìn xuống và phát hiện ra chìa khóa đã nằm trong tay cô suốt từ nãy đến giờ. Cô cười đến mức phải ngồi xuống, và sau đó cô xin lỗi người bạn cùng nhà bằng một chiếc bánh.",
+    "keys": [
+     "chìa khóa",
+     "chiếc gối",
+     "thùng rác",
+     "chiếc bánh"
+    ]
+   },
+   {
+    "title": "Thị trấn cảng cổ",
+    "text": "Thị trấn cảng nằm ở cuối một thung lũng hẹp, nơi một con sông gặp biển. Những ngôi nhà của nó, sơn màu xanh và vàng đã phai, leo lên sườn đồi thành những hàng không đều. Du khách thường ngỡ ngàng trước sự im lặng, chỉ bị phá vỡ bởi tiếng kêu của hải âu và tiếng cọt kẹt của những chiếc thuyền đánh cá. Ở quảng trường chính có một đài phun nước bằng đá mà, theo truyền thuyết địa phương, chưa bao giờ cạn. Hầu hết các cửa hàng đều nhỏ và do gia đình sở hữu, và nhiều nơi không hề thay đổi qua nhiều thế hệ. Vì con đường dốc và quanh co, ít khách du lịch dám đi xa hơn quán cà phê đầu tiên. Những ai đi tiếp sẽ được thưởng một cảnh toàn vịnh lúc hoàng hôn.",
+    "keys": [
+     "thung lũng",
+     "hải âu",
+     "truyền thuyết",
+     "vịnh"
+    ]
+   },
+   {
+    "title": "Thư viện mở cửa muộn",
+    "text": "Một thư viện công cộng ở một thành phố phía bắc đã bắt đầu mở cửa đến nửa đêm, theo yêu cầu của các sinh viên địa phương. Chương trình này, bắt đầu từ tháng trước, được đưa ra sau khi một cuộc khảo sát cho thấy nhiều người trẻ không có nơi yên tĩnh để học vào buổi tối. Các quan chức báo cáo rằng giờ mở thêm được ưa chuộng hơn nhiều so với dự kiến, với mọi bàn đều có người ngồi vào hầu hết các đêm. Tuy nhiên, một số cư dân phàn nàn về chi phí sưởi ấm và bố trí nhân viên cho tòa nhà đến muộn như vậy. Hội đồng thành phố trả lời rằng dự án sẽ được xem xét lại sau sáu tháng. Nếu lượng người đến vẫn cao, nhiều khả năng chương trình sẽ được mở rộng sang các chi nhánh khác. Trong khi đó, một nhóm tình nguyện viên đã đề nghị giúp trông coi các phòng đọc miễn phí.",
+    "keys": [
+     "thư viện",
+     "khảo sát",
+     "bàn",
+     "tình nguyện viên"
+    ]
+   },
+   {
+    "title": "Vì sao chữ viết tay vẫn quan trọng",
+    "text": "Nhiều người cho rằng chữ viết tay là một kỹ năng có thể yên tâm bỏ đi khi hầu như ai cũng có bàn phím. Tôi tin quan điểm này là sai lầm, hay ít nhất là quá sớm. Các nghiên cứu cho thấy những sinh viên ghi chép bằng tay thường nhớ được nhiều hơn, vì họ buộc phải tóm tắt thay vì chép lại. Viết chậm cũng cho đầu óc thời gian sắp xếp ý tưởng trước khi chúng lên trang giấy. Tất nhiên, gõ phím nhanh hơn, và không ai phủ nhận rằng nó thiết thực hơn với những văn bản dài. Tuy vậy, tốc độ không phải là thước đo duy nhất của giá trị. Vì lý do đó, tôi nghĩ các trường nên tiếp tục dạy chữ viết tay, dù nó chiếm chỗ ít hơn trước trong thời khóa biểu.",
+    "keys": [
+     "chữ viết tay",
+     "bàn phím",
+     "sinh viên",
+     "tóm tắt"
+    ]
+   },
+   {
+    "title": "Máy bơm nhiệt hoạt động thế nào",
+    "text": "Máy bơm nhiệt làm ấm ngôi nhà bằng cách di chuyển nhiệt chứ không phải tạo ra nhiệt. Ngay cả vào một ngày lạnh, không khí bên ngoài vẫn chứa chút hơi ấm, mà một chất lỏng bên trong máy hấp thụ và biến thành khí. Khí này sau đó được nén lại, và việc nén làm nó nóng lên nhiều, giống như cái bơm xe đạp nóng lên khi được dùng. Khí nóng đi qua một cuộn ống bên trong nhà, nơi nó tỏa nhiệt và biến trở lại thành chất lỏng. Chu trình sau đó lại bắt đầu, lặp đi lặp lại chừng nào máy còn được bật. Vì chuyển nhiệt thay vì đốt nhiên liệu, một máy bơm nhiệt có thể cung cấp nhiều năng lượng gấp mấy lần lượng nó tiêu thụ. Hiệu suất này giải thích vì sao những chiếc máy như vậy ngày càng phổ biến ở các nước có mùa đông lạnh.",
+    "keys": [
+     "bơm nhiệt",
+     "chất lỏng",
+     "khí",
+     "cuộn ống"
+    ]
+   },
+   {
+    "title": "Xưởng của ông tôi",
+    "text": "Khi tôi khoảng mười tuổi, tôi trải qua mỗi kỳ nghỉ hè trong xưởng của ông tôi ở rìa làng. Nơi đó có mùi mùn cưa và dầu máy, và những bức tường treo đầy dụng cụ mà tôi không được phép chạm vào. Ông hiếm khi nói khi làm việc, nhưng thỉnh thoảng ông đưa cho tôi một mảnh gỗ và bảo tôi cảm nhận thớ gỗ. Hồi đó tôi thấy việc này chán, và tôi thích ra ngoài chơi với các anh chị em họ hơn. Mãi nhiều năm sau tôi mới hiểu rằng ông đang dạy tôi biết chú ý. Ông mất ngay trước khi tôi học xong trung học, và xưởng được bán ngay sau đó. Đến nay, mùi mùn cưa tươi vẫn gợi lại những buổi chiều dài yên tĩnh ấy rõ đến mức tôi phải dừng lại một lát.",
+    "keys": [
+     "xưởng",
+     "ông",
+     "mùn cưa",
+     "dụng cụ"
+    ]
+   }
+  ],
+  "C1": [
+   {
+    "title": "Một ngày thứ ba của dịch giả",
+    "text": "Marta làm việc tại nhà với tư cách dịch giả văn học, một nghề nghe có vẻ hào nhoáng hơn thực tế. Những buổi sáng của cô dành cho những đoạn khó nhất, vì cô đã học được rằng sự tập trung của mình tàn đi rất lâu trước bữa trưa. Cô mất hàng giờ day dứt về một câu duy nhất, cân nhắc xem một từ nào đó nắm bắt được giọng điệu của tác giả hay chỉ tiệm cận nó. Đầu giờ chiều, cô thường chuyển sang thư điện tử và hóa đơn, những việc đòi hỏi rất ít trí tưởng tượng nhưng dù sao vẫn phải làm. Hàng xóm của cô cho rằng cô có thời gian rảnh vô tận, và họ cứ gõ cửa nhờ vả những việc nhỏ. Cô đã thôi giải thích rằng làm việc ở nhà vẫn là làm việc, vì lời giải thích ấy hiếm khi có vẻ lọt tai. Buổi tối cô đi dạo một vòng dài, điều mà cô xem là một phần của công việc chứ không phải thời gian nghỉ ngơi khỏi nó. Những ý tưởng từ chối đến bên bàn làm việc lại có cách tự đến mà không báo trước giữa dòng sông và khu chợ. Khi cuối cùng trở về, cô đọc to thành quả buổi sáng, lắng nghe những nốt lạc điệu mà mắt cô có thể đã bỏ sót.",
+    "keys": [
+     "marta",
+     "dịch giả",
+     "câu",
+     "khu chợ"
+    ]
+   },
+   {
+    "title": "Băng qua sa mạc bằng đường bộ",
+    "text": "Chúng tôi lên đường trước bình minh, hy vọng vượt qua phần tệ nhất của sa mạc trước khi cái nóng trở nên không chịu nổi. Con đường trên bản đồ trông thẳng và đơn giản, nhưng đầy ổ gà buộc chúng tôi phải bò đi với tốc độ khiến một người đi xe đạp cũng phải xấu hổ. Đến giữa trưa, nhiệt kế trên bảng điều khiển đã vượt quá bốn mươi độ, và không khí trong xe đặc đến mức như có thể nhai được. Người dẫn đường của chúng tôi, một người đàn ông ít nói tên Idris, có vẻ không hề bận tâm và dành phần lớn chuyến đi để tự ngân nga. Khi động cơ cuối cùng chịu thua, ông nhấc nắp ca-pô lên, nghiên cứu nó thật lâu, rồi tuyên bố rằng vấn đề chẳng qua chỉ là một sợi dây cáp lỏng. Trong mười phút chúng tôi đã di chuyển trở lại, dù tôi ngờ rằng sự bình thản của ông đến từ kinh nghiệm nhiều hơn là từ tài năng cơ khí đặc biệt nào. Tối hôm đó chúng tôi tới một ốc đảo nhỏ, nơi dân làng, những người không ngờ có khách, nhất quyết mời chúng tôi ăn chà là và uống trà ngọt. Nhìn lại, tôi chỉ nhớ mơ hồ sự khó chịu, trong khi lòng hào phóng của những người xa lạ ấy vẫn sắc nét như xưa. Đó là một bài học về việc con người cần ít đến nhường nào để có thể tử tế.",
+    "keys": [
+     "sa mạc",
+     "nhiệt kế",
+     "dây cáp",
+     "ốc đảo"
+    ]
+   },
+   {
+    "title": "Một lời từ chối lịch sự",
+    "text": "Helena thân mến, cảm ơn lời mời hào phóng của bạn tham gia ủy ban, mà tôi đã đọc với cả niềm tự hào lẫn một chút cảm giác tội lỗi. Sau khi suy nghĩ kỹ, tôi kết luận rằng mình phải từ chối, không phải vì thiếu nhiệt tình mà vì tôi vốn đã quá tải hơn mức hợp lý. Trong năm qua tôi nhận một vài cam kết mà riêng từng cái thì có vẻ xoay xở được, rồi mới thấy rằng gộp lại chúng không để lại chỗ nào để thở. Tôi thà làm tử tế một vài việc còn hơn xuất hiện trong mọi danh sách mà đóng góp chẳng bao nhiêu. Tuy vậy, tôi rất sẵn lòng giúp ở một vai trò hạn chế hơn, có lẽ là xem lại tài liệu hoặc phát biểu tại cuộc họp thường niên của bạn. Nếu một trong hai việc ấy tỏ ra hữu ích, bạn chỉ cần nói một tiếng, và tôi sẽ dọn chỗ trong lịch của mình. Tôi hy vọng bạn sẽ không xem quyết định của tôi là dấu hiệu của sự thờ ơ với sự nghiệp mà tôi vẫn thật lòng ngưỡng mộ. Một lần nữa xin nhận lời cảm ơn nồng ấm nhất của tôi, cùng những lời chúc tốt đẹp nhất cho năm tới.",
+    "keys": [
+     "helena",
+     "ủy ban",
+     "cam kết",
+     "lịch"
+    ]
+   },
+   {
+    "title": "Chương trình các buổi nói chuyện buổi tối",
+    "text": "Bảo tàng Riverside vui mừng thông báo một loạt buổi nói chuyện buổi tối dành cho lịch sử của những đồ vật thường ngày. Mỗi buổi sẽ do một chuyên gia khác nhau dẫn dắt, người sẽ khám phá một món đồ tưởng như bình thường, chẳng hạn một chiếc chìa khóa hay một chiếc đồng hồ, đã định hình thói quen của con người ra sao. Thay vì trình bày những dữ kiện khô khan, các diễn giả được yêu cầu kể chuyện và mời đặt câu hỏi trong suốt buổi. Chỗ ngồi có hạn nên rất nên đặt trước sớm, và người đến muộn sẽ không được vào sau khi cửa đã đóng. Vé được bán với giá ưu đãi cho sinh viên và bất kỳ ai trên sáu mươi lăm tuổi. Đồ uống nhẹ sẽ được phục vụ tại quán cà phê sau đó, giúp khách có dịp tiếp tục câu chuyện một cách thân mật. Những ai không thể đến trực tiếp có thể theo dõi từng buổi trực tuyến, dù bản ghi chỉ có trong một tuần. Chúng tôi mong được chào đón những tâm hồn ham hiểu biết ở mọi lứa tuổi và hoàn cảnh.",
+    "keys": [
+     "bảo tàng",
+     "chuyên gia",
+     "diễn giả",
+     "quán cà phê"
+    ]
+   },
+   {
+    "title": "Vị khách cuối cùng",
+    "text": "Henrik đã điều hành hiệu sách nhỏ ấy ba mươi năm, và vào ngày nó đóng cửa ông chẳng mong gì hơn một buổi chiều yên ắng đóng gói các thùng sách. Khách hàng lần lượt đến, lẩm bẩm vài lời tiếc nuối, và ra về mà không mua gì, điều ấy với ông dường như là một cái kết xứng đáng cho một sự nghiệp dài và không sinh lời. Gần giờ đóng cửa, một phụ nữ trẻ bước vào, liếc nhìn những giá sách trống, và hỏi liệu ông còn bản nào của một tập thơ ít người biết hay không. Ông còn, dù đã từ lâu thôi mong có ai hỏi đến nó. Cô giải thích rằng người cha quá cố của cô là tác giả của tập thơ và cô đã tìm nhiều năm không có kết quả. Henrik, người đã giữ cuốn sách ấy trên giá chỉ vì sự bướng bỉnh thuần túy, cảm thấy cổ họng nghẹn lại. Ông từ chối nhận tiền của cô và tự tay gói cuốn sách, thật cẩn thận, như thể nó mỏng manh. Khi cô đi rồi, ông đứng một lúc trong im lặng, rồi mở các thùng ra và quyết định rằng rốt cuộc cửa hiệu sẽ tiếp tục mở.",
+    "keys": [
+     "henrik",
+     "hiệu sách",
+     "tập thơ",
+     "thùng"
+    ]
+   },
+   {
+    "title": "Chợ ngày thứ sáu",
+    "text": "Mỗi thứ sáu, quảng trường bến cảng trong khu phố cổ biến thành một khu chợ đông đến mức người ta phải di chuyển theo dòng người thay vì xuyên qua nó. Những quầy bán gia vị, sách cũ và giỏ đan tay đứng sát vai nhau dưới những tấm mái bạt đã phai màu. Không khí đặc quánh mùi cá nướng, hòa lẫn kỳ lạ với mùi cà phê mới pha và bánh mì nóng. Những người bán hàng rao giá theo một nhịp điệu thuần thục đến mức gần như giống tiếng hát. Mặc cả không chỉ được chấp nhận mà còn được mong đợi, và một du khách trả ngay mức giá đầu tiên được nêu sẽ bị nhìn với vẻ thích thú lịch sự. Tuy nhiên, xa khỏi các lối đi trung tâm, bầu không khí thay đổi, và người ta bắt gặp những góc yên tĩnh nơi những cụ ông chơi bài hàng giờ mà không nói với nhau một lời. Dân địa phương quả quyết rằng những món hời nhất có vào cuối buổi chiều, khi người bán muốn tránh phải mang hàng về nhà. Đến tối chẳng còn lại gì ngoài giấy nhàu, vài chú mèo hoang, và tiếng vọng mờ nhạt của sự ồn ào trong ngày.",
+    "keys": [
+     "bến cảng",
+     "gia vị",
+     "mặc cả",
+     "mèo"
+    ]
+   },
+   {
+    "title": "Một thị trấn đóng cửa trung tâm",
+    "text": "Một thị trấn cỡ vừa ở phía nam đã quyết định cấm xe riêng vào trung tâm lịch sử, một biện pháp đã chia rẽ ý kiến sâu sắc. Chính quyền lập luận rằng thay đổi này sẽ giảm tiếng ồn và ô nhiễm và làm cho đường phố an toàn hơn cho người đi bộ. Ngược lại, các chủ cửa hàng lo rằng những khách hàng từng đỗ xe ngay trước cửa nay sẽ chọn mua sắm ở nơi khác. Để giải quyết những lo ngại này, hội đồng đã hứa cung cấp xe buýt đưa đón miễn phí và trợ cấp việc giao hàng cho các doanh nghiệp địa phương. Một thử nghiệm tương tự ở thị trấn lân cận được đánh giá là thành công sau một năm, mặc dù các nhà phê bình chỉ ra rằng hoàn cảnh không hoàn toàn giống nhau. Những buổi họp công khai tuần trước thường rất gay gắt, và nhiều diễn giả cáo buộc thị trưởng hành động mà không tham vấn đầy đủ. Về phần mình, thị trưởng khẳng định quyết định được đưa ra công khai và thị trấn không thể đợi thêm. Các hạn chế dự kiến có hiệu lực vào đầu mùa xuân năm sau, khi các tuyến xe buýt mới đã sẵn sàng.",
+    "keys": [
+     "thị trấn",
+     "người đi bộ",
+     "chủ cửa hàng",
+     "thị trưởng"
+    ]
+   },
+   {
+    "title": "Bênh vực sự buồn chán",
+    "text": "Chúng ta có xu hướng coi sự buồn chán là kẻ thù cần diệt trừ ngay khi có cơ hội, thường là bằng màn hình gần nhất. Vậy mà tôi cho rằng một số ý nghĩ độc đáo nhất của chúng ta xuất hiện chính vào lúc không có gì đòi hỏi sự chú ý của ta. Một cái đầu được để cho lang thang tạo ra những mối liên hệ mà một cái đầu luôn được giải trí không bao giờ có cơ hội tạo ra. Trẻ em, nói riêng, được lợi khi thỉnh thoảng bị bỏ không có việc gì, vì chính trong những lúc ấy chúng nghĩ ra trò chơi và khám phá sở thích riêng. Những bậc cha mẹ vội vàng lấp đầy mọi phút rảnh bằng hoạt động có thể, với ý tốt nhất, đang tước đi cơ hội này của con cái. Những người phê bình sẽ phản đối rằng buồn chán có thể dẫn đến bồn chồn, thậm chí nghịch ngợm, và họ không hoàn toàn sai. Nhưng bồn chồn thường là giai đoạn đầu của sáng tạo, và sự khó chịu mà nó mang lại là cái giá nhỏ phải trả. Vì vậy, chúng ta nên cưỡng lại thôi thúc chữa nó quá nhanh.",
+    "keys": [
+     "buồn chán",
+     "màn hình",
+     "trẻ em",
+     "sáng tạo"
+    ]
+   },
+   {
+    "title": "Giấc ngủ và trí nhớ",
+    "text": "Các nhà khoa học tin rằng giấc ngủ đóng vai trò trung tâm trong việc biến những trải nghiệm thoáng qua thành ký ức lâu dài. Trong ngày, thông tin mới được giữ tạm thời ở một vùng của não có dung lượng hạn chế. Khi ta chìm vào giấc ngủ, thông tin này dần được phát lại và chuyển tới những vùng nơi nó có thể được lưu trữ lâu dài. Quá trình này được cho là diễn ra chủ yếu trong giấc ngủ sâu, khi hoạt động điện của não chậm lại thành những làn sóng lớn và đều đặn. Các nhà nghiên cứu đã phát hiện rằng những người học một danh sách từ vào buổi tối rồi đi ngủ nhớ được nhiều hơn hẳn những người thức. Giấc ngủ dường như cũng mang tính chọn lọc, củng cố những ký ức quan trọng nhất và để những chi tiết vụn vặt phai đi. Điều này giải thích vì sao một đêm nghỉ ngơi thường giúp ta giải được vấn đề tưởng chừng bất khả vào tối hôm trước. Nó cũng gợi ý rằng những sinh viên hy sinh giấc ngủ để học có thể đang làm hỏng chính mục đích của mình.",
+    "keys": [
+     "giấc ngủ",
+     "não",
+     "ký ức",
+     "sinh viên"
+    ]
+   },
+   {
+    "title": "Mùa hè của trận lụt",
+    "text": "Tôi mười hai tuổi vào mùa hè con sông tràn bờ, và tôi nhớ nó không phải như một thảm họa mà như một kỳ nghỉ phi thường. Trường học nghỉ hai tuần, và những con phố thấp của thị trấn chúng tôi trở thành đường nước nơi hàng xóm chèo thuyền bằng bất cứ thứ gì họ tìm được. Bố tôi, vốn là một người nghiêm nghị và kín đáo, đã dành hàng giờ chở những cư dân lớn tuổi lên chỗ cao hơn bằng một chiếc thuyền chèo mượn được. Tôi nhìn ông với một cảm giác pha trộn giữa kinh ngạc và ghen tị, vì tôi chưa từng thấy ông vui vẻ cởi mở đến thế. Trong khi đó, mẹ tôi dựng một gian bếp trong hội trường nhà thờ và cho bất cứ ai đến ăn, thường đến tận quá nửa đêm. Mãi sau này, khi nước rút để lại đồ đạc hư hỏng và những tấm thảm ướt sũng, tôi mới hiểu rằng đã mất đi bao nhiêu. Dẫu vậy, những người lớn sau đó nhắc đến hai tuần ấy với một sự ấm áp mà tôi không thể giải thích hết. Nhìn lại, tôi tin rằng họ đang nhớ về khoảng thời gian duy nhất mà cả thị trấn thôi là những người xa lạ với nhau.",
+    "keys": [
+     "con sông",
+     "bố tôi",
+     "mẹ tôi",
+     "thuyền chèo"
+    ]
+   }
+  ],
+  "C2": [
+   {
+    "title": "Ca đêm",
+    "text": "Nadia đã ở trong khoa nhiều giờ, di chuyển giữa các giường bằng những bước chân nhẹ nhàng mà nhiều năm luyện tập đã biến thành gần như bản năng. Những hành lang vốn nhộn nhịp ban ngày mang vẻ tĩnh lặng và hơi giống con tàu vào ban đêm, như thể tòa nhà là một con tàu trôi dạt trong bóng tối. Cô đã học được rằng bệnh nhân tâm sự vào những giờ khuya điều họ sẽ không bao giờ thừa nhận giữa ban ngày, và cô lắng nghe với một sự chú tâm mà cô cho là quan trọng không kém bất kỳ loại thuốc nào. Khoảng ba giờ sáng, khi sự mệt mỏi nguy hiểm nhất, cô pha trà và đứng một lát bên cửa sổ, nhìn những chiếc xe giao hàng đầu tiên len qua những con phố vắng. Những đồng nghiệp chưa từng làm đêm thường tưởng tượng công việc này như một phiên bản cô đơn hơn của ban ngày, nhưng cô thấy đó là một đất nước hoàn toàn khác, với phong tục riêng và sự dịu dàng kỳ lạ riêng. Khi ca sáng đến, ồn ào và đầy thiện chí, cô bàn giao ghi chép của mình với một chút miễn cưỡng mà cô khó lòng giải thích. Đi bộ về nhà ngược dòng người đi làm, cô cảm thấy mình như một vị khách trở về từ nơi mà phần còn lại của thế giới đã đồng ý quên đi. Cô thiếp đi trong tiếng thành phố thức giấc, điều mà cô thấy là một sự trớ trêu dễ chịu. Đến lúc ấy không còn ai để chia sẻ điều đó.",
+    "keys": [
+     "nadia",
+     "khoa",
+     "bệnh nhân",
+     "trà"
+    ]
+   },
+   {
+    "title": "Ngôi làng của tổ tiên tôi",
+    "text": "Tôi đã trì hoãn chuyến đi này hàng chục năm, một phần vì nỗi sợ mơ hồ rằng thực tế sẽ không khớp với ngôi làng tôi dựng nên từ những câu chuyện của bà tôi. Khi cuối cùng bước xuống xe buýt, nơi ấy vừa nhỏ hơn vừa bình thường hơn tôi tưởng, một nhúm nhà thấp bám vào một sườn núi phía trên lòng sông khô. Một ông lão, thấy tôi ngập ngừng, hỏi tôi đang tìm ai, và khi tôi nói tên thời con gái của bà tôi, ông nhìn tôi chằm chằm như thể tôi vừa sống lại từ cõi chết. Trong vài phút tôi được dẫn từ nhà này sang nhà khác, được giới thiệu với những người anh em họ mà sự tồn tại chưa từng được nhắc tới, và bị ép ăn những món tôi không thấy thèm nhưng không thể từ chối. Hóa ra ngôi nhà của gia đình đã sập từ lâu, và chỉ vài viên đá của ngưỡng cửa còn đứng giữa đám cỏ dại. Tôi nhớ mình đứng trước chúng với một cảm giác mà tôi chỉ có thể gọi là nỗi tiếc thương cho một thứ tôi chưa từng sở hữu. Thế nhưng đến tối, ngồi bên một chiếc bàn đông đúc dưới ánh một bóng đèn, tôi cảm thấy ngôi làng tôi đến tìm chưa bao giờ là một nơi chốn. Đúng hơn, đó là thói quen thuộc về, mà những người xa lạ này đã trao cho tôi không chút do dự. Sáng hôm sau tôi rời đi với ít ảo tưởng hơn và, thật lạ, với một cảm giác về mái nhà lớn hơn nhiều.",
+    "keys": [
+     "ngôi làng",
+     "bà tôi",
+     "xe buýt",
+     "bóng đèn"
+    ]
+   },
+   {
+    "title": "Thư trả lời về bản thảo của bạn",
+    "text": "Marcus thân mến, tôi xin lỗi vì đã trả lời quá lâu, và tôi muốn giải thích, chứ không chỉ viện cớ cho sự chậm trễ ấy. Khi bản thảo của bạn đến, tôi đã đọc hai lần và thấy mình không thể nói được điều gì hữu ích, một trải nghiệm hiếm và hơi khiêm tốn hóa đối với một người được trả tiền để có ý kiến. Lập luận thì thanh nhã, và bằng chứng được thu thập cẩn thận, nhưng điều gì đó ở phần kết luận dường như hứa hẹn nhiều hơn những trang trước nó xứng đáng. Tôi mất vài ngày mới chỉ ra được vấn đề, đó là bạn đã trả lời một câu hỏi mà chưa độc giả nào đặt ra. Nếu bạn mở đầu bằng câu đố đã lần đầu thu hút bạn đến với đề tài, kết luận khi đó sẽ đến như một lời giải chứ không phải một khẳng định. Tôi nhận ra đây là thay đổi lớn hơn bạn mong, và tôi sẽ hiểu nếu bạn cảm thấy nó bóp méo ý định của bạn. Dù vậy, tôi mong bạn cân nhắc điều này trước hạn chót, vì tác phẩm xứng đáng được đọc kỹ như cách nó được viết. Đừng ngần ngại gọi cho tôi nếu bạn muốn bàn tất cả những điều này lâu hơn. Trong lúc đó, xin nhận lời chúc mừng của tôi về một tác phẩm vốn đã hay hơn nhiều so với phần lớn những gì tôi thấy.",
+    "keys": [
+     "marcus",
+     "bản thảo",
+     "kết luận",
+     "câu đố"
+    ]
+   },
+   {
+    "title": "Khu nghỉ dưỡng cho nhà văn",
+    "text": "Nép mình trong một thung lũng hẻo lánh, xa tiếng ồn của phố thị, nhà máy xay cũ này mang đến một tuần cô tịch không bị quấy rầy cho những nhà văn đã đánh mất mạch tác phẩm của mình. Không có sóng điện thoại, không có tivi, và, chúng tôi rất tiếc phải nói, không có lời xin lỗi nào cho cả hai điều đó. Mỗi vị khách được một căn phòng nhỏ với chiếc bàn bên cửa sổ, và bữa ăn được lặng lẽ đưa đến trước cửa vào những giờ cố định để không dòng suy nghĩ nào phải bị ngắt bởi chuyện trò. Buổi tối, với ai muốn, được dành quanh một chiếc bàn dài nơi những người tham gia có thể đọc to tác phẩm của mình và nhận lời phê bình nhẹ nhàng nhưng thẳng thắn từ những người khác. Một biên tập viên thường trú, người có sách đã được dịch ra nhiều thứ tiếng, sẵn sàng mỗi buổi chiều cho các buổi tư vấn riêng. Chúng tôi không hứa rằng tuần lễ sẽ cho ra một bản thảo hoàn chỉnh, vì kinh nghiệm đã dạy chúng tôi rằng cảm hứng không thể thuê theo giờ. Điều chúng tôi có thể bảo đảm là sự yên lặng, bánh mì ngon, và sự cho phép hiếm hoi để coi trọng việc viết của chính mình. Số chỗ giới hạn nghiêm ngặt ở tám người, và những ứng viên được đề nghị gửi một đoạn mẫu ngắn trong tác phẩm cùng một bản trình bày ngắn về điều họ hy vọng đạt được. Những người được chọn sẽ được thông báo trong vòng hai tuần.",
+    "keys": [
+     "thung lũng",
+     "nhà văn",
+     "biên tập viên",
+     "yên lặng"
+    ]
+   },
+   {
+    "title": "Di sản",
+    "text": "Khi vị giáo sư già qua đời, ông để lại toàn bộ thư viện của mình cho người sinh viên duy nhất chưa từng một lần đồng ý với ông. Những sinh viên khác, nhiều người trong số họ đã dành nhiều năm nịnh bợ ông để mong được ưu ái, chẳng nhận được gì ngoài một mẩu giấy ngắn cảm ơn sự đồng hành của họ. Sự phẫn nộ của họ ầm ĩ, và có một lúc dường như bản di chúc sẽ bị kiện ra tòa. Thế nhưng người thừa kế được chọn, một phụ nữ trầm lặng tên Irena, lại thấy mình lạ lùng không xao động trước viễn cảnh sở hữu và dành tuần đầu tiên chỉ để lang thang giữa các giá sách. Trong hầu hết mọi cuốn, cô phát hiện những ghi chú bên lề bằng nét chữ chật hẹp của người thầy cũ, nhiều ghi chú gửi thẳng cho cô, như thể ông đã đoán trước những phản đối của cô từ hàng chục năm trước. Có cái giễu cợt, có cái dịu dàng đến bất ngờ, và vài cái nhượng bộ những điểm mà ông chưa từng thừa nhận thành tiếng. Dần dần cô vỡ lẽ rằng cuộc tranh luận mà cô tưởng họ đã có trong phòng hội thảo, với ông, là một cuộc trò chuyện kéo dài mà ông không đành kết thúc. Cô không kiện bản di chúc, cũng không bán một cuốn sách nào. Thay vào đó, cô bắt đầu trả lời ông ở lề trang, bằng nét chữ nhỏ hơn, và với ngữ pháp tốt hơn nhiều.",
+    "keys": [
+     "giáo sư",
+     "irena",
+     "di chúc",
+     "sách"
+    ]
+   },
+   {
+    "title": "Cánh đồng muối",
+    "text": "Rất ít cảnh quan xóa đi thước đo con người triệt để như những cánh đồng muối rộng lớn, nơi đường chân trời tan vào một làn sương mờ nhạt lấp lánh và mắt khó tìm được chỗ nào để nghỉ. Sau cơn mưa, một lớp nước mỏng trải khắp bề mặt, và bầu trời phản chiếu hoàn hảo đến mức du khách kể lại cảm giác như đang bước đi trên mây. Ngược lại, vào mùa khô, mặt đất nứt thành những hình lục giác khổng lồ bằng lớp vỏ trắng kêu lạo xạo dưới chân như tuyết đóng băng. Sự im lặng trọn vẹn và hơi gây bất an, chỉ bị gián đoạn bởi gió, mang theo thứ bụi mịn bám vào tóc và giữa kẽ răng. Các nhiếp ảnh gia bị cuốn đến nơi này vì những trò chơi thị giác mà nó cho phép, chẳng hạn những bức ảnh trong đó một người dường như đang nâng một ngọn núi trong lòng bàn tay. Tuy nhiên, những người lao động địa phương coi nó là một vụ mùa chứ không phải cảnh tượng, và họ dành những ngày dài cào muối thành các đống thấp để phơi nắng. Gương mặt dãi dầu và đôi tay nứt nẻ của họ làm chứng cho một lao động mà du khách hiếm khi dừng lại nghĩ đến. Lúc hoàng hôn, cả vùng rộng ấy chuyển sang màu của vết bầm, rồi nhạt dần thành bóng tối sâu đến mức các vì sao tưởng như với tay tới được. Đó là nơi thưởng cho những ai đến để ngắm, nhưng đòi hỏi một sự khiêm nhường nhất định từ những ai đến để ở lại.",
+    "keys": [
+     "cánh đồng muối",
+     "đường chân trời",
+     "bầu trời",
+     "nhiếp ảnh gia"
+    ]
+   },
+   {
+    "title": "Phát hiện một chiếc thuyền cổ",
+    "text": "Các nhà khảo cổ làm việc ở bờ biển phía bắc đã công bố việc phát hiện một chiếc thuyền gỗ dường như có tuổi khoảng hai nghìn năm, một phát hiện khiến ngay cả những thành viên dày dạn nhất của nhóm cũng sửng sốt. Được bảo quản bởi lớp bùn nghèo oxy nơi nó nằm, con thuyền gần như còn nguyên vẹn, và dấu vết của những dụng cụ dùng để tạo hình nó vẫn còn thấy dọc thân thuyền. Phân tích ban đầu cho thấy nó được đóng để buôn bán chứ không phải để chiến tranh, vì khung thuyền rộng và nông có thể chở hàng nặng nhưng không mang lại nhiều tốc độ. Trong số các vật được lấy lên từ xác tàu có những chiếc bình gốm, một cuộn dây thừng, và thứ dường như là đồ chơi của một đứa trẻ, một chi tiết đã làm xúc động nhiều người theo dõi câu chuyện. Phát hiện này được báo chí mô tả là quan trọng nhất thuộc loại này trong một thế hệ, dù chính nhóm nghiên cứu tránh dùng ngôn từ như vậy. Giám đốc khai quật cảnh báo không nên vội rút ra kết luận lớn, lưu ý rằng kết quả các thử nghiệm xác định niên đại sẽ chưa có trong vài tháng. Tuy nhiên, các quan chức địa phương đã nói đến việc xây một bảo tàng tại địa điểm, ý tưởng mà một số cư dân đón nhận với hào hứng và số khác với sự nghi ngờ sâu sắc. Những người phê bình lo rằng đám đông kéo đến có thể làm hỏng chính cảnh quan mong manh đã bảo tồn con thuyền ngay từ đầu. Hiện tại, con thuyền vẫn nằm dưới lớp che bảo vệ, và số phận của nó có lẽ sẽ còn được tranh luận một thời gian.",
+    "keys": [
+     "khảo cổ",
+     "thuyền gỗ",
+     "bùn",
+     "bảo tàng"
+    ]
+   },
+   {
+    "title": "Đức tính của việc đọc chậm",
+    "text": "Đã thành mốt khoe mình đọc được bao nhiêu cuốn sách trong một năm, như thể văn chương là một quãng đường cần vượt qua chứ không phải một xứ sở cần khám phá. Tôi thấy thói quen này không chỉ thô tục mà còn tự hại mình, vì một cuốn sách đọc vội để lại dấu vết chẳng hơn một đoàn tàu thoáng thấy từ sân ga. Những cuốn tiểu thuyết lớn, đặc biệt, không được viết để đọc ngấu nghiến, và sự phong phú của chúng nằm đúng ở những đoạn mà người đọc thiếu kiên nhẫn lướt qua để tìm cốt truyện. Nán lại trên một câu, quay về đoạn văn đã làm ta bối rối hay thích thú, không phải dấu hiệu của sự chậm chạp mà của sự chú tâm, thứ đã trở thành đức tính hiếm nhất của thời hiện đại. Những người bênh vực trò chơi con số sẽ đáp rằng đọc nhiều hơn luôn tốt hơn đọc ít, và theo nghĩa hẹp họ đúng. Nhưng một thói quen thưởng cho số lượng trên hết sẽ sớm dạy ta coi trọng số lượng trên hết, trong cuộc sống cũng như trong việc đọc. Suy cho cùng, sự chậm rãi chỉ là tốc độ mà một cuốn sách hay muốn được đọc. Tôi thà đọc xong mười cuốn đã thay đổi tôi còn hơn một trăm cuốn chỉ lướt qua. Nếu điều đó khiến tôi thành kẻ tụt hậu giữa các độc giả, tôi nhận danh hiệu ấy mà không hối tiếc và với một niềm hài lòng riêng tư nhất định.",
+    "keys": [
+     "văn chương",
+     "sân ga",
+     "tiểu thuyết",
+     "chú tâm"
+    ]
+   },
+   {
+    "title": "Thủy triều được tạo ra thế nào",
+    "text": "Thủy triều, vốn có vẻ tự nhiên và đều đặn đến mức không cần giải thích, thực ra là kết quả của một cuộc giằng co tinh tế giữa lực hấp dẫn và chuyển động. Mặt Trăng kéo mạnh nhất vào phía của Trái Đất gần nó nhất, hút các đại dương thành một chỗ phình theo nó quanh hành tinh. Ít trực giác hơn, một chỗ phình thứ hai hình thành ở phía đối diện, vì ở đó lực kéo của Mặt Trăng yếu hơn những nơi khác và nước, thực chất, bị bỏ lại phía sau. Khi Trái Đất quay bên dưới hai chỗ phình này, bất kỳ bờ biển nào cũng đi qua mỗi chỗ một lần mỗi ngày, vì thế phần lớn các nơi trải qua hai lần triều lên và hai lần triều xuống trong khoảng một ngày. Mặt Trời cũng tác dụng một lực hấp dẫn, dù khoảng cách xa hơn khiến ảnh hưởng của nó chưa bằng một nửa của Mặt Trăng. Khi Mặt Trời và Mặt Trăng thẳng hàng, tác động của chúng cộng lại tạo ra những đợt triều lớn bất thường, còn khi chúng vuông góc với nhau thì triệt tiêu một phần và triều yếu. Hình dạng đường bờ có thể khuếch đại các chuyển động này một cách ngoạn mục, đến mức ở một số vịnh hẹp nước dâng và hạ gấp nhiều lần độ cao ở biển khơi. Các thủy thủ đã hiểu những quy luật này từ nhiều thế kỷ, dù vật lý nền tảng vẫn còn bí ẩn cho đến thời gian tương đối gần đây. Vẫn thật đáng kinh ngạc khi một lực tác dụng qua khoảng cách khổng lồ như vậy lại nâng được biển lên chống lại sức hút của chính hành tinh giữ nó.",
+    "keys": [
+     "thủy triều",
+     "mặt trăng",
+     "hấp dẫn",
+     "thủy thủ"
+    ]
+   },
+   {
+    "title": "Cây đàn piano ngoài sảnh",
+    "text": "Ở sảnh ngôi nhà nơi tôi lớn lên có một cây đàn piano, một cây đàn đứng chẳng có gì đặc biệt mà không ai trong gia đình chơi được. Nó được bà tôi mua trong một cơn hứng khởi lạc quan về sự phát triển văn hóa của con cháu, và suốt nhiều chục năm nó đứng đó như một tượng đài cho niềm hy vọng chưa thành. Chúng tôi chủ yếu dùng nó làm cái kệ để chìa khóa, thư từ, và vô số đồ nhỏ tích tụ trong một gia đình, và nắp đàn hiếm khi được mở. Vậy mà tôi nhớ, với độ rõ khiến chính tôi ngạc nhiên, buổi chiều khi một người dì đến chơi ngồi xuống và bắt đầu chơi một khúc chậm, lạ. Cả ngôi nhà dường như dừng lại, và ngay cả con chó cũng ngẩng đầu khỏi tấm thảm và nhìn dì với vẻ kinh ngạc nghiêm trang. Khi ấy tôi chừng chín tuổi, và chưa bao giờ nghĩ vật ngoài sảnh ấy có thể phát ra tiếng gì ngoài một tiếng thịch rỗng khi tôi va đầu gối vào nó. Chơi xong, dì đóng nắp lại, xin lỗi vì lâu không luyện, và quay về bếp như chẳng có chuyện gì. Từ đó tôi đã nghe rất nhiều âm nhạc, một số chắc chắn hay hơn, nhưng chưa có bản nào sắp xếp lại đồ đạc trong tâm trí tôi theo cách ấy. Tôi ngờ rằng điều tôi nghe chiều hôm đó không hẳn là một giai điệu mà là một thoáng nhìn vào điều mà ngôi nhà vẫn giữ lại.",
+    "keys": [
+     "piano",
+     "bà tôi",
+     "người dì",
+     "con chó"
+    ]
+   }
+  ]
+ }
+}

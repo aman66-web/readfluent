@@ -1,0 +1,617 @@
+{
+ "lang": "id",
+ "levels": {
+  "A1": [
+   {
+    "title": "Pagi Tom",
+    "text": "Tom bangun jam tujuh. Dia makan roti dan telur. Lalu dia pergi bekerja naik bus. Dia sangat suka pekerjaannya. Dia pulang jam enam dan memasak.",
+    "keys": [
+     "roti",
+     "telur",
+     "bus",
+     "pekerjaannya"
+    ]
+   },
+   {
+    "title": "Sehari di Laut",
+    "text": "Anna pergi ke laut naik kereta. Keretanya cepat. Dia melihat air dan matahari yang besar. Anna dan ibunya berenang dan bermain. Mereka sangat senang.",
+    "keys": [
+     "laut",
+     "kereta",
+     "matahari",
+     "berenang"
+    ]
+   },
+   {
+    "title": "Pesan untuk Sam",
+    "text": "Hai Sam, aku ada di taman sekarang. Tolong datang jam dua. Aku punya bola merah yang besar. Kita bisa bermain dengan bola itu. Bawa sedikit air, karena cuaca panas.",
+    "keys": [
+     "taman",
+     "bola",
+     "merah",
+     "air"
+    ]
+   },
+   {
+    "title": "Pengumuman Toko",
+    "text": "Selamat datang di Toko Biru. Kami menjual roti dan susu. Kami buka dari jam delapan sampai jam enam. Toko tutup pada hari Minggu. Setiap anak mendapat apel gratis.",
+    "keys": [
+     "roti",
+     "susu",
+     "minggu",
+     "apel"
+    ]
+   },
+   {
+    "title": "Anjing yang Hilang",
+    "text": "Ben punya anjing kecil berwarna cokelat. Suatu hari anjing itu tidak ada di sini. Ben sedih dan mencari ke mana-mana. Anjing itu ada di bawah tempat tidur! Ben senang lagi.",
+    "keys": [
+     "anjing",
+     "cokelat",
+     "sedih",
+     "tidur"
+    ]
+   },
+   {
+    "title": "Kotaku yang Kecil",
+    "text": "Kotaku kecil tetapi bagus. Ada sungai dan taman yang besar. Ada banyak pohon hijau. Aku suka jembatan tua. Tempat itu tenang untukku.",
+    "keys": [
+     "kotaku",
+     "sungai",
+     "taman",
+     "jembatan"
+    ]
+   },
+   {
+    "title": "Kucing di Atap",
+    "text": "Seekor kucing ada di atap yang tinggi. Kucing kecil itu sangat takut. Seorang pria memanggil bantuan. Seorang wanita datang dengan tangga yang panjang. Sekarang kucing itu aman.",
+    "keys": [
+     "kucing",
+     "atap",
+     "tangga",
+     "bantuan"
+    ]
+   },
+   {
+    "title": "Aku Suka Hujan",
+    "text": "Aku sangat suka hujan. Beberapa orang tidak menyukainya. Tetapi menurutku hujan itu baik. Bunga dan pohon meminumnya. Aku duduk di rumah dan membaca buku.",
+    "keys": [
+     "hujan",
+     "bunga",
+     "pohon",
+     "buku"
+    ]
+   },
+   {
+    "title": "Membuat Teh",
+    "text": "Pertama, rebus sedikit air dalam panci. Taruh satu kantong teh di dalam cangkir. Lalu tambahkan air panas. Tunggu tiga menit. Sekarang kamu bisa minum tehmu.",
+    "keys": [
+     "air",
+     "cangkir",
+     "menit",
+     "tehmu"
+    ]
+   },
+   {
+    "title": "Kebun Nenek",
+    "text": "Aku sering memikirkan nenekku. Rumahnya kecil dan putih. Di kebun ada pohon yang besar. Kami duduk di bawahnya dan makan kue. Aku suka hari-hari itu.",
+    "keys": [
+     "nenekku",
+     "rumahnya",
+     "pohon",
+     "kue"
+    ]
+   }
+  ],
+  "A2": [
+   {
+    "title": "Sabtu yang Sibuk bagi Maria",
+    "text": "Pada Sabtu pagi, Maria membersihkan apartemennya yang kecil dan mencuci pakaian. Saat siang dia bertemu temannya, Julia, di sebuah kafe. Mereka makan sup dan mengobrol selama dua jam. Pada sore hari mereka pergi ke pasar dan membeli buah. Maria pulang dengan lelah tetapi senang. Besok dia akan mengunjungi orang tuanya.",
+    "keys": [
+     "apartemennya",
+     "kafe",
+     "sup",
+     "buah"
+    ]
+   },
+   {
+    "title": "Akhir Pekan di Pegunungan",
+    "text": "Bulan lalu Daniel dan saudara laki-lakinya pergi ke pegunungan. Mereka naik kereta lalu berjalan kaki selama empat jam. Cuacanya dingin, jadi mereka memakai mantel tebal. Di puncak mereka makan roti lapis dan memandang danau di bawah. Tahun depan mereka akan pergi lagi pada musim panas.",
+    "keys": [
+     "pegunungan",
+     "kereta",
+     "mantel",
+     "danau"
+    ]
+   },
+   {
+    "title": "Surel untuk Teman",
+    "text": "Kim yang kusayangi, terima kasih atas suratmu. Maaf karena aku tidak menulis lebih awal. Aku sakit, tetapi sekarang aku merasa jauh lebih baik. Aku akan mengunjungimu pada bulan Mei selama satu minggu. Tolong beri tahu aku hari apa yang cocok untukmu dan keluargamu. Sampai jumpa!",
+    "keys": [
+     "suratmu",
+     "sakit",
+     "mei",
+     "mengunjungimu"
+    ]
+   },
+   {
+    "title": "Les Gitar",
+    "text": "Apakah kamu ingin belajar gitar? Peter Novak adalah guru musik dengan pengalaman sepuluh tahun. Dia mengajar anak-anak dan orang dewasa di studionya yang kecil dekat stasiun. Pelajaran pertama gratis, jadi kamu bisa mencobanya. Pelajaran diadakan pada Selasa dan Kamis malam. Telepon minggu ini dan kamu akan mendapat buku gratis.",
+    "keys": [
+     "gitar",
+     "guru",
+     "studionya",
+     "gratis"
+    ]
+   },
+   {
+    "title": "Tas yang Salah",
+    "text": "Nina meninggalkan stasiun kereta dan berjalan pulang. Dia membuka tasnya dan menemukan jaket biru di dalamnya. Itu bukan tasnya! Dia merasa khawatir dan kembali ke stasiun. Di sana dia melihat seorang pria, dan pria itu sedang memegang tasnya. Mereka tertawa, bertukar tas, dan mengucapkan selamat tinggal.",
+    "keys": [
+     "tasnya",
+     "jaket",
+     "stasiun",
+     "pria"
+    ]
+   },
+   {
+    "title": "Perpustakaan Tua",
+    "text": "Perpustakaan tua itu berada di pusat kota kami. Bangunannya besar dari batu dengan jendela-jendela yang tinggi. Di dalamnya ada ribuan buku dan banyak kursi yang nyaman. Di lantai dua ada ruangan yang tenang untuk para pelajar. Banyak orang pergi ke sana karena tempatnya hangat dan gratis. Aku pergi setiap hari Jumat setelah sekolah.",
+    "keys": [
+     "perpustakaan",
+     "buku",
+     "kursi",
+     "jumat"
+    ]
+   },
+   {
+    "title": "Jalur Sepeda Baru",
+    "text": "Dewan kota membuka jalur sepeda baru kemarin. Jalur itu membentang dari stasiun ke taman yang besar. Sebelum ini, banyak pesepeda merasa tidak aman di jalan utama. Dewan menghabiskan banyak uang untuk pekerjaan itu. Tahun depan kota akan membangun dua jalur lagi. Banyak orang senang, tetapi beberapa pengemudi marah.",
+    "keys": [
+     "dewan",
+     "sepeda",
+     "stasiun",
+     "pengemudi"
+    ]
+   },
+   {
+    "title": "Berjalan ke Sekolah",
+    "text": "Menurutku anak-anak harus berjalan kaki ke sekolah. Pertama, berjalan baik untuk kesehatan mereka. Kedua, mereka bisa mengobrol dengan teman-teman di jalan. Tahun lalu putriku berjalan ke sekolah dan merasa lebih segar. Beberapa orang tua berkata jalanan berbahaya, dan itu benar. Tetapi aku yakin kita bisa membuat jalanan lebih aman.",
+    "keys": [
+     "sekolah",
+     "kesehatan",
+     "putriku",
+     "berbahaya"
+    ]
+   },
+   {
+    "title": "Cara Kerja Kulkas",
+    "text": "Kulkas menjaga makanan tetap dingin agar tetap segar lebih lama. Di dalam kulkas ada cairan khusus di dalam pipa-pipa tipis. Cairan itu mengambil panas dari makanan dan membawanya pergi. Lalu cairan itu menuju bagian belakang, tempat panas keluar. Itulah sebabnya bagian belakang kulkas sering terasa hangat. Sebuah motor kecil menggerakkan cairan itu sepanjang hari.",
+    "keys": [
+     "kulkas",
+     "cairan",
+     "motor",
+     "panas"
+    ]
+   },
+   {
+    "title": "Sepeda Pertamaku",
+    "text": "Ketika aku berumur tujuh tahun, ayahku memberiku sebuah sepeda merah. Aku sangat bersemangat, tetapi aku belum bisa mengendarainya. Setiap malam dia berlari di sampingku dan memegangi joknya. Setelah dua minggu aku jatuh, dan aku menangis sedikit. Dia tersenyum dan berkata bahwa semua orang pernah jatuh. Keesokan harinya aku mengendarainya sendiri, dan aku masih ingat perasaan itu.",
+    "keys": [
+     "sepeda",
+     "ayahku",
+     "joknya",
+     "jatuh"
+    ]
+   }
+  ],
+  "B1": [
+   {
+    "title": "Hari yang Panjang Seorang Guru",
+    "text": "Elena bangun pukul setengah enam karena sekolahnya jauh dari rumah. Biasanya dia naik dua bus dan tiba tepat sebelum pelajaran pertama. Sepanjang hari dia mengajar tiga kelas, menjawab banyak pertanyaan, dan jarang sempat makan. Sepulang sekolah dia sering tinggal lebih lama untuk membantu murid yang kesulitan dengan pekerjaan rumah mereka. Ketika akhirnya sampai di rumah, dia kelelahan, tetapi dia berkata bahwa pekerjaan itu sepadan. Jika seorang murid tersenyum padanya di koridor, dia lupa betapa lelahnya dirinya.",
+    "keys": [
+     "elena",
+     "bus",
+     "murid",
+     "koridor"
+    ]
+   },
+   {
+    "title": "Tersesat di Lisbon",
+    "text": "Musim semi lalu Omar bepergian ke Lisbon untuk pertama kalinya. Dia telah merencanakan semuanya dengan teliti, tetapi ponselnya mati pada hari kedua. Tanpa peta, dia tersesat di labirin jalan-jalan sempit. Alih-alih panik, dia meminta bantuan seorang wanita tua, dan wanita itu mengantarnya ke trem yang benar. Omar kemudian berkata bahwa itu adalah momen terbaik dalam perjalanannya, karena dia bertemu seseorang yang baik hati. Seandainya dia tidak kehilangan ponselnya, dia tidak akan pernah berbicara dengannya.",
+    "keys": [
+     "omar",
+     "ponselnya",
+     "wanita",
+     "trem"
+    ]
+   },
+   {
+    "title": "Pesan untuk Para Tetangga",
+    "text": "Para tetangga yang terhormat, saya menulis untuk memberi tahu Anda tentang sebuah pesta di apartemen saya pada Sabtu malam. Saya tahu bahwa sebagian dari Anda tidur lebih awal. Jadi saya akan memastikan musiknya berhenti sebelum pukul sepuluh. Jika terlalu keras, silakan ketuk pintu saya dan saya akan mengecilkannya. Saya juga sudah membuat banyak makanan, dan Anda semua boleh bergabung dengan kami. Saya akan sangat senang bertemu dengan semua orang, karena saya baru pindah ke sini bulan lalu. Terima kasih atas kesabaran Anda.",
+    "keys": [
+     "tetangga",
+     "pesta",
+     "musiknya",
+     "makanan"
+    ]
+   },
+   {
+    "title": "Kursus Memasak Akhir Pekan",
+    "text": "Apakah Anda ingin belajar memasak makanan sungguhan alih-alih memesannya setiap malam? Kursus memasak akhir pekan kami sempurna untuk pemula yang gugup di dapur. Setiap hari Sabtu seorang koki profesional menunjukkan hidangan sederhana, lalu Anda memasaknya sendiri. Semua bahan sudah termasuk dalam harga, jadi Anda hanya perlu membawa celemek. Jika Anda mendaftar sebelum akhir bulan ini, Anda akan mendapat diskon sepuluh persen. Tempat terbatas, jadi kami sarankan Anda memesan lebih awal.",
+    "keys": [
+     "kursus",
+     "koki",
+     "celemek",
+     "diskon"
+    ]
+   },
+   {
+    "title": "Kereta Terakhir",
+    "text": "Tomas ketinggalan kereta terakhir untuk pulang, jadi dia memutuskan untuk berjalan kaki. Saat itu sudah lewat tengah malam dan jalanan sepi dan gelap. Setelah satu jam dia mendengar langkah kaki di belakangnya, dan jantungnya mulai berdetak lebih cepat. Dia berjalan lebih cepat, tetapi langkah itu semakin dekat, hingga akhirnya dia berbalik. Seekor anjing kecil mengikutinya, dan tampak sama tersesatnya dengan dia. Tomas tertawa, mengangkat anjing itu, dan menggendongnya sampai ke rumah. Dia menamai anjing itu Lucky, karena malam itu mereka berdua butuh sedikit keberuntungan.",
+    "keys": [
+     "tomas",
+     "kereta",
+     "anjing",
+     "keberuntungan"
+    ]
+   },
+   {
+    "title": "Desa Nelayan",
+    "text": "Desa kami berada di bukit yang curam di atas laut, dan setiap rumah dicat dengan warna yang berbeda. Pada pagi hari para nelayan kembali, dan pelabuhan dipenuhi suara bising serta bau ikan. Wisatawan biasanya datang pada musim panas, sehingga jalan-jalan sempit bisa sangat ramai. Namun, aku lebih suka desa ini pada musim dingin, ketika suasananya tenang dan lautnya ganas. Ada sebuah kafe kecil di puncak bukit tempat Anda bisa menyaksikan badai dengan aman. Jika Anda berkunjung, datanglah pada musim gugur, ketika cuacanya sejuk dan orangnya lebih sedikit.",
+    "keys": [
+     "desa",
+     "nelayan",
+     "pelabuhan",
+     "badai"
+    ]
+   },
+   {
+    "title": "Bus Gratis untuk Pelajar",
+    "text": "Sebuah kota kecil di utara telah memutuskan untuk membuat semua bus gratis bagi pelajar. Dewan kota mengumumkan rencana itu pada hari Senin dan berkata rencana itu akan dimulai pada bulan September. Para pejabat berharap lebih banyak anak muda akan menggunakan angkutan umum dan lebih sedikit orang tua yang mengantar mereka. Rencana itu akan menelan biaya sekitar satu juta euro per tahun, yang membuat sebagian warga khawatir. Namun, proyek serupa di kota-kota lain telah mengurangi kemacetan hingga hampir seperlima. Pemungutan suara terakhir akan diadakan bulan depan, dan para pendukung berharap rencana itu lolos.",
+    "keys": [
+     "kota",
+     "bus",
+     "dewan",
+     "euro"
+    ]
+   },
+   {
+    "title": "Ponsel di Dalam Kelas",
+    "text": "Menurut saya, sekolah tidak boleh mengizinkan ponsel di dalam kelas. Ketika ada ponsel di atas meja, para siswa terus memeriksanya dan tidak bisa mengikuti pelajaran. Beberapa orang berpendapat bahwa ponsel bisa berguna untuk mencari informasi. Itu benar, tetapi guru bisa menggunakan komputer sekolah sebagai gantinya. Tentu saja, anak-anak harus bisa menghubungi orang tua mereka dalam keadaan darurat. Jadi saya menyarankan agar ponsel tetap di dalam tas selama pelajaran dan keluar saat istirahat. Dengan begitu semua orang mendapat manfaatnya tanpa gangguan.",
+    "keys": [
+     "ponsel",
+     "siswa",
+     "komputer",
+     "istirahat"
+    ]
+   },
+   {
+    "title": "Cara Lebah Membuat Madu",
+    "text": "Lebah membuat madu dari cairan manis yang disebut nektar, yang mereka kumpulkan dari bunga. Seekor lebah pekerja menyimpan nektar di perut khusus dan membawanya kembali ke sarang. Di sana, lebah lain mengambil nektar itu dan mengunyahnya beberapa saat. Mereka menyebarkannya di sel-sel lilin kecil dan mengipasinya dengan sayap untuk menghilangkan air. Ketika madu sudah cukup kental, lebah menutup setiap sel dengan lilin agar tetap segar. Satu lebah hanya membuat sedikit sekali, sehingga dibutuhkan ribuan lebah untuk mengisi satu toples.",
+    "keys": [
+     "lebah",
+     "nektar",
+     "sarang",
+     "lilin"
+    ]
+   },
+   {
+    "title": "Musim Panas di Danau",
+    "text": "Ketika aku remaja, keluargaku menghabiskan setiap musim panas di sebuah rumah kayu kecil di tepi danau. Waktu itu aku tidak menghargainya, karena aku ingin berada di kota bersama teman-temanku. Sekarang aku mengerti betapa beruntungnya aku. Aku ingat keheningan di pagi hari dan rasa roti segar dari toko desa. Jika aku bisa kembali ke satu tempat dalam masa laluku, aku akan memilih rumah itu. Sayangnya, rumah itu sudah dijual bertahun-tahun lalu, jadi aku hanya bisa mengunjunginya dalam kenanganku.",
+    "keys": [
+     "danau",
+     "kayu",
+     "roti",
+     "kenanganku"
+    ]
+   }
+  ],
+  "B2": [
+   {
+    "title": "Sehari di Toko Roti",
+    "text": "Lucia bangun pukul empat setiap pagi, jauh sebelum kota mulai bergerak. Ketika pelanggan pertama datang, dia sudah membentuk sekitar dua ratus roti dan memeriksa oven-ovennya. Meskipun pekerjaannya melelahkan, dia berkata pekerjaan itu mengajarinya kesabaran, karena roti tidak bisa diburu-buru. Pada tengah hari dia mengunci pintu, makan siang sederhana, dan tidur selama dua jam. Pada sore hari dia menjawab pesanan, yang sebagian besar dikirim oleh restoran yang bergantung padanya. Saudara perempuannya sudah sering menyarankan agar dia mempekerjakan asisten, tetapi Lucia berkeras bahwa dia lebih suka mengerjakan semuanya sendiri. Namun, dia mengaku bahwa dia mungkin berubah pikiran jika usahanya terus berkembang.",
+    "keys": [
+     "kesabaran",
+     "pelanggan",
+     "restoran",
+     "asisten"
+    ]
+   },
+   {
+    "title": "Kereta Malam ke Utara",
+    "text": "Musim semi lalu Tomas memutuskan untuk bepergian ke utara yang jauh dengan kereta alih-alih naik pesawat. Perjalanan itu, yang berlangsung hampir dua hari, membawanya melewati hutan yang begitu lebat sehingga sinar matahari jarang mencapai tanah. Dia telah diperingatkan bahwa gerbongnya akan dingin, jadi dia membawa selimut tebal dan sebotol teh. Pada malam kedua seorang guru pensiunan duduk di hadapannya dan mulai bercerita tentang desa-desa yang mereka lewati. Tomas kemudian berkata bahwa percakapan itu adalah bagian paling berharga dari perjalanannya. Ketika kereta akhirnya masuk ke stasiun, salju turun dengan lembut di peron yang kosong. Meskipun dia tiba dalam keadaan lelah, dia merasa bahwa rute yang lambat itu sepadan dengan waktu tambahan.",
+    "keys": [
+     "tomas",
+     "hutan",
+     "selimut",
+     "peron"
+    ]
+   },
+   {
+    "title": "Pesan untuk Pemilik Rumah",
+    "text": "Samuel yang terhormat, saya menulis tentang pemanas di apartemen saya, yang tidak berfungsi sejak Senin lalu. Seorang teknisi seharusnya datang pada hari Kamis, tetapi tidak ada yang datang dan tidak ada yang menelepon untuk menjelaskan. Karena suhu pada malam hari turun di bawah titik beku, tetangga saya dan saya menggunakan pemanas listrik. Saya akan berterima kasih jika Anda dapat mengatur perbaikan secepat mungkin. Jika masalah ini berlanjut, saya terpaksa meminta pengurangan sewa. Saya memahami bahwa hal-hal seperti ini butuh waktu, dan saya tidak ingin menyulitkan. Mohon beri tahu saya pada hari Jumat kapan seseorang bisa datang. Terima kasih atas bantuan Anda, Amira.",
+    "keys": [
+     "pemanas",
+     "teknisi",
+     "sewa",
+     "perbaikan"
+    ]
+   },
+   {
+    "title": "Pengumuman Kebun Komunitas",
+    "text": "Dewan lingkungan dengan senang hati mengumumkan bahwa area parkir lama di belakang perpustakaan akan diubah menjadi kebun komunitas. Warga yang ingin ikut serta diundang ke pertemuan pada hari Sabtu pertama bulan depan. Setiap rumah tangga akan diberi sepetak lahan kecil, asalkan bersedia merawatnya sepanjang musim tanam. Perkakas dan benih akan disediakan tanpa biaya, meskipun para relawan diminta membawa sarung tangan sendiri. Mereka yang tidak berpengalaman tidak perlu khawatir, karena sekelompok tukang kebun berpengalaman akan memberi bimbingan setiap akhir pekan. Diharapkan proyek ini akan mendekatkan para tetangga dan membuat kawasan ini lebih hijau. Siapa pun yang berminat harus menandatangani daftar di meja perpustakaan sebelum akhir minggu ini.",
+    "keys": [
+     "benih",
+     "perkakas",
+     "relawan",
+     "tukang"
+    ]
+   },
+   {
+    "title": "Kunci yang Hilang",
+    "text": "Elena menghabiskan seluruh sore mencari kunci mobilnya, sampai seisi apartemennya jungkir balik. Dia memeriksa setiap saku, mengangkat setiap bantal, bahkan mengosongkan tempat sampah, tetapi tidak ada tanda-tanda kunci itu. Yakin bahwa seseorang pasti telah mengambilnya, dia mulai mencurigai teman serumahnya yang baru, yang anehnya pendiam sepanjang minggu. Akhirnya, hampir menangis, dia menelepon ibunya untuk mengeluh. Ibunya mendengarkan dengan sabar lalu bertanya apakah mungkin Elena sedang memegang sesuatu di tangan kirinya. Elena menunduk dan menemukan bahwa kunci itu ada di tangannya selama ini. Dia tertawa begitu keras sampai harus duduk, dan kemudian dia meminta maaf kepada teman serumahnya dengan sebuah kue.",
+    "keys": [
+     "kunci",
+     "bantal",
+     "ibunya",
+     "kue"
+    ]
+   },
+   {
+    "title": "Kota Pelabuhan Tua",
+    "text": "Kota pelabuhan itu terletak di ujung sebuah lembah sempit, tempat sungai bertemu laut. Rumah-rumahnya, yang dicat dengan warna biru dan kuning yang pudar, menaiki lereng bukit dalam barisan yang tidak rata. Para pengunjung sering terkesan oleh keheningan, yang hanya dipecahkan oleh teriakan burung camar dan derit perahu nelayan. Di alun-alun utama berdiri sebuah air mancur batu yang, menurut legenda setempat, tidak pernah kering. Sebagian besar toko berukuran kecil dan dimiliki keluarga, dan banyak yang tidak berubah selama beberapa generasi. Karena jalannya curam dan berkelok, hanya sedikit wisatawan yang berani melewati kafe pertama. Mereka yang melakukannya diganjar dengan pemandangan seluruh teluk saat matahari terbenam.",
+    "keys": [
+     "lembah",
+     "camar",
+     "legenda",
+     "teluk"
+    ]
+   },
+   {
+    "title": "Perpustakaan Buka Larut",
+    "text": "Sebuah perpustakaan umum di kota utara mulai buka sampai tengah malam, menyusul permintaan dari para mahasiswa setempat. Program itu, yang dimulai bulan lalu, diperkenalkan setelah sebuah survei menunjukkan bahwa banyak anak muda tidak punya tempat yang tenang untuk belajar pada malam hari. Para pejabat melaporkan bahwa jam tambahan itu jauh lebih populer daripada yang diperkirakan, dengan setiap meja terisi pada sebagian besar malam. Namun, beberapa warga mengeluhkan biaya menghangatkan gedung dan menyediakan staf hingga selarut itu. Dewan kota menjawab bahwa proyek ini akan ditinjau setelah enam bulan. Jika jumlah pengunjung tetap tinggi, program ini kemungkinan akan diperluas ke cabang lain. Sementara itu, sekelompok relawan telah menawarkan diri untuk membantu mengawasi ruang baca tanpa dibayar.",
+    "keys": [
+     "perpustakaan",
+     "survei",
+     "meja",
+     "relawan"
+    ]
+   },
+   {
+    "title": "Mengapa Tulisan Tangan Masih Penting",
+    "text": "Banyak orang berpendapat bahwa menulis tangan adalah keterampilan yang aman untuk ditinggalkan sekarang setelah hampir semua orang memiliki papan ketik. Saya yakin pandangan ini keliru, atau setidaknya terlalu dini. Penelitian menunjukkan bahwa siswa yang mencatat dengan tangan cenderung mengingat lebih banyak, karena mereka terpaksa meringkas alih-alih menyalin. Menulis dengan lambat juga memberi pikiran waktu untuk menata gagasan sebelum sampai ke halaman. Tentu saja, mengetik lebih cepat, dan tidak ada yang akan menyangkal bahwa itu lebih praktis untuk dokumen panjang. Meskipun begitu, kecepatan bukan satu-satunya ukuran nilai. Karena alasan itu, saya rasa sekolah harus terus mengajarkan tulisan tangan, meskipun tempatnya dalam jadwal pelajaran lebih kecil daripada sebelumnya.",
+    "keys": [
+     "tangan",
+     "papan",
+     "siswa",
+     "meringkas"
+    ]
+   },
+   {
+    "title": "Cara Kerja Pompa Panas",
+    "text": "Pompa panas menghangatkan rumah dengan memindahkan panas, bukan menciptakannya. Bahkan pada hari yang dingin, udara di luar mengandung sedikit kehangatan, yang diserap oleh cairan di dalam mesin dan diubah menjadi gas. Gas ini kemudian dikompresi, dan kompresi membuatnya jauh lebih panas, sama seperti pompa sepeda menjadi hangat saat digunakan. Gas panas itu melewati sebuah koil di dalam rumah, tempat ia melepaskan panasnya dan berubah kembali menjadi cairan. Siklus itu lalu dimulai lagi, berulang selama mesin dinyalakan. Karena memindahkan panas alih-alih membakar bahan bakar, pompa panas dapat menghasilkan energi beberapa kali lebih banyak daripada yang dikonsumsinya. Efisiensi ini menjelaskan mengapa mesin semacam itu semakin populer di negara-negara dengan musim dingin yang dingin.",
+    "keys": [
+     "pompa",
+     "cairan",
+     "gas",
+     "koil"
+    ]
+   },
+   {
+    "title": "Bengkel Kakekku",
+    "text": "Ketika aku berumur sekitar sepuluh tahun, aku menghabiskan setiap liburan musim panas di bengkel kakekku di tepi desa. Tempat itu berbau serbuk gergaji dan oli, dan dindingnya dipenuhi perkakas yang tidak boleh kusentuh. Dia jarang berbicara saat bekerja, tetapi sesekali dia menyodorkan sepotong kayu dan menyuruhku merasakan seratnya. Pada waktu itu aku menganggapnya membosankan, dan aku lebih suka bermain di luar bersama sepupu-sepupuku. Baru bertahun-tahun kemudian aku mengerti bahwa dia sedang mengajariku untuk memperhatikan. Dia meninggal tak lama sebelum aku lulus sekolah, dan bengkel itu dijual segera sesudahnya. Bahkan sekarang, bau serbuk gergaji segar membawa kembali sore-sore yang panjang dan sunyi itu dengan begitu jelas sehingga aku harus berhenti sejenak.",
+    "keys": [
+     "bengkel",
+     "kakekku",
+     "serbuk",
+     "perkakas"
+    ]
+   }
+  ],
+  "C1": [
+   {
+    "title": "Selasa Seorang Penerjemah",
+    "text": "Marta bekerja dari rumah sebagai penerjemah sastra, pekerjaan yang terdengar lebih gemerlap daripada kenyataannya. Pagi harinya dicurahkan untuk bagian-bagian tersulit, sebab dia telah belajar bahwa konsentrasinya memudar jauh sebelum makan siang. Dia menghabiskan berjam-jam menggelisahkan satu kalimat saja, menimbang apakah sebuah kata benar-benar menangkap nada penulisnya atau hanya mendekatinya. Menjelang awal sore, dia biasanya beralih ke surel dan faktur, tugas-tugas yang hanya menuntut sedikit imajinasi tetapi tetap harus dikerjakan. Para tetangganya mengira dia punya waktu luang tanpa batas, dan mereka selalu mengetuk pintunya untuk meminta bantuan kecil. Dia sudah berhenti menjelaskan bahwa bekerja di rumah tetaplah bekerja, karena penjelasan itu jarang tampak dipahami. Pada malam hari dia berjalan jauh, yang dia anggap bagian dari pekerjaan, bukan jeda darinya. Gagasan yang menolak datang di mejanya punya cara untuk tiba tanpa diundang di antara sungai dan pasar. Ketika akhirnya pulang, dia membaca hasil kerja paginya dengan suara keras, menyimak nada sumbang yang mungkin terlewat oleh matanya.",
+    "keys": [
+     "marta",
+     "penerjemah",
+     "kalimat",
+     "pasar"
+    ]
+   },
+   {
+    "title": "Menyeberangi Gurun Lewat Jalan Darat",
+    "text": "Kami berangkat sebelum fajar, berharap dapat melintasi bagian terburuk gurun sebelum panas menjadi tak tertahankan. Jalannya tampak lurus dan sederhana di peta, tetapi penuh lubang yang memaksa kami merangkak dengan kecepatan yang akan membuat seorang pengendara sepeda malu. Menjelang tengah hari, termometer di dasbor telah melewati empat puluh derajat, dan udara di dalam mobil terasa cukup tebal untuk dikunyah. Pemandu kami, seorang pria pendiam bernama Idris, tampak tidak terganggu dan menghabiskan sebagian besar perjalanan dengan bersenandung sendiri. Ketika mesin akhirnya menyerah, dia mengangkat kapnya, mempelajarinya lama sekali, lalu mengumumkan bahwa masalahnya tidak lebih dari sebuah kabel yang longgar. Dalam sepuluh menit kami sudah bergerak lagi, meskipun saya menduga ketenangannya lebih berasal dari pengalaman daripada bakat mekanik yang hebat. Malam itu kami tiba di sebuah oasis kecil, tempat penduduk desa, yang tidak menyangka kedatangan tamu, bersikeras menjamu kami dengan kurma dan teh manis. Bila mengenang kembali, saya hanya mengingat ketidaknyamanan itu secara samar, sedangkan kemurahan hati orang-orang asing itu tetap setajam dulu. Itu adalah pelajaran tentang betapa sedikitnya yang dibutuhkan orang agar mereka bisa berbuat baik.",
+    "keys": [
+     "gurun",
+     "termometer",
+     "kabel",
+     "oasis"
+    ]
+   },
+   {
+    "title": "Penolakan yang Sopan",
+    "text": "Helena yang terhormat, terima kasih atas undangan Anda yang murah hati untuk bergabung dengan panitia, yang saya baca dengan rasa bangga sekaligus rasa bersalah. Setelah berpikir dengan cermat, saya menyimpulkan bahwa saya harus menolak, bukan karena kurang antusias, melainkan karena saya sudah terbebani lebih dari yang wajar. Selama setahun terakhir saya menerima beberapa komitmen yang tampak bisa dikelola satu per satu, hanya untuk mendapati bahwa semuanya bersama-sama tidak menyisakan ruang untuk bernapas. Saya lebih suka mengerjakan beberapa hal dengan baik daripada muncul di setiap daftar dan memberi sedikit sumbangan. Meski demikian, saya akan senang membantu dalam kapasitas yang lebih terbatas, mungkin dengan memeriksa dokumen atau berbicara pada rapat tahunan Anda. Jika salah satunya terbukti berguna, Anda cukup mengatakannya, dan saya akan mengosongkan tempat di agenda saya. Saya berharap Anda tidak menganggap keputusan saya sebagai tanda ketidakpedulian terhadap tujuan itu, yang tetap saya kagumi dengan tulus. Sekali lagi terimalah ucapan terima kasih saya yang paling hangat, dan salam terbaik untuk tahun yang akan datang.",
+    "keys": [
+     "helena",
+     "panitia",
+     "komitmen",
+     "agenda"
+    ]
+   },
+   {
+    "title": "Program Ceramah Malam",
+    "text": "Museum Riverside dengan senang hati mengumumkan serangkaian ceramah malam yang dikhususkan bagi sejarah benda-benda sehari-hari. Setiap sesi akan dipandu oleh seorang spesialis yang berbeda, yang akan menelusuri bagaimana sebuah benda yang tampaknya biasa, seperti kunci atau jam, telah membentuk kebiasaan manusia. Alih-alih menyajikan fakta-fakta kering, para pembicara diminta bercerita dan mengundang pertanyaan sepanjang acara. Tempat duduk terbatas, sehingga pemesanan lebih awal sangat dianjurkan, dan peserta yang terlambat tidak dapat masuk setelah pintu ditutup. Tiket ditawarkan dengan harga lebih murah bagi pelajar dan siapa pun yang berusia di atas enam puluh lima tahun. Minuman dan kudapan akan disajikan di kafe sesudahnya, sehingga para tamu dapat melanjutkan percakapan secara santai. Mereka yang tidak dapat hadir langsung dapat mengikuti setiap ceramah secara daring, meskipun rekamannya hanya tersedia selama satu minggu. Kami menantikan kehadiran pikiran-pikiran yang ingin tahu dari segala usia dan latar belakang.",
+    "keys": [
+     "museum",
+     "ceramah",
+     "tiket",
+     "kafe"
+    ]
+   },
+   {
+    "title": "Pelanggan Terakhir",
+    "text": "Henrik telah mengelola toko buku kecil itu selama tiga puluh tahun, dan pada hari toko itu akan tutup dia tidak mengharapkan apa pun selain sore yang tenang untuk mengemasi kardus. Para pelanggan datang, menggumamkan penyesalan mereka, dan pergi tanpa membeli apa pun, yang baginya terasa seperti akhir yang pantas bagi karier yang panjang dan tidak menguntungkan. Menjelang jam tutup, seorang wanita muda masuk, memandang rak-rak yang kosong, dan bertanya apakah dia masih memiliki sebuah kumpulan puisi yang kurang dikenal. Dia punya, meskipun sudah lama berhenti berharap akan ada yang menanyakannya. Wanita itu menjelaskan bahwa mendiang ayahnya yang menulisnya dan bahwa dia sudah bertahun-tahun mencarinya tanpa hasil. Henrik, yang menyimpan buku itu di raknya semata-mata karena keras kepala, merasakan tenggorokannya tercekat. Dia menolak menerima uangnya dan membungkus buku itu sendiri, dengan hati-hati, seolah-olah buku itu rapuh. Ketika wanita itu pergi, dia berdiri sejenak dalam keheningan, lalu membongkar kardus-kardus itu dan memutuskan bahwa toko itu pada akhirnya akan tetap buka.",
+    "keys": [
+     "henrik",
+     "buku",
+     "puisi",
+     "kardus"
+    ]
+   },
+   {
+    "title": "Pasar Hari Jumat",
+    "text": "Setiap hari Jumat alun-alun pelabuhan di kawasan tua berubah menjadi pasar yang begitu ramai sehingga orang harus bergerak mengikuti arus kerumunan, bukan menembusnya. Lapak-lapak yang menjual rempah, buku bekas, dan keranjang anyaman tangan berdiri berdesakan di bawah tenda kanvas yang pudar. Udara dipenuhi bau ikan bakar, yang berpadu secara aneh dengan aroma kopi segar dan roti hangat. Para pedagang meneriakkan harga mereka dengan irama yang begitu terlatih sehingga hampir menyerupai nyanyian. Tawar-menawar bukan sekadar ditoleransi tetapi diharapkan, dan pengunjung yang membayar harga pertama yang disebutkan dipandang dengan geli yang sopan. Namun, jauh dari lorong-lorong utama, suasananya berubah, dan orang menemukan sudut-sudut tenang tempat para pria tua bermain kartu berjam-jam tanpa bertukar sepatah kata pun. Penduduk setempat bersikeras bahwa tawaran terbaik didapat pada sore hari, ketika para penjual ingin menghindari membawa dagangannya pulang. Menjelang malam tidak ada yang tersisa kecuali kertas kusut, beberapa kucing liar, dan gema samar keributan hari itu.",
+    "keys": [
+     "pelabuhan",
+     "rempah",
+     "tawar-menawar",
+     "kucing"
+    ]
+   },
+   {
+    "title": "Sebuah Kota Menutup Pusatnya",
+    "text": "Sebuah kota berukuran sedang di selatan telah memutuskan menutup pusat bersejarahnya bagi mobil pribadi, langkah yang membelah pendapat dengan tajam. Pihak berwenang berargumen bahwa perubahan itu akan mengurangi kebisingan dan polusi serta membuat jalanan lebih aman bagi pejalan kaki. Para pemilik toko, di sisi lain, takut bahwa pelanggan yang dulu parkir di depan pintu mereka kini akan memilih berbelanja di tempat lain. Untuk menjawab kekhawatiran ini, dewan kota berjanji menyediakan bus antar-jemput gratis dan mensubsidi pengiriman barang ke usaha-usaha setempat. Percobaan serupa di kota tetangga dinilai berhasil setelah satu tahun, meskipun para pengkritik menunjukkan bahwa keadaannya tidak sama persis. Pertemuan publik yang diadakan minggu lalu sering kali memanas, dan beberapa pembicara menuduh wali kota bertindak tanpa konsultasi yang memadai. Wali kota, di pihaknya, bersikeras bahwa keputusan itu diambil secara terbuka dan bahwa kota tidak mampu menunggu. Pembatasan itu dijadwalkan berlaku pada awal musim semi tahun depan, setelah rute bus yang baru siap.",
+    "keys": [
+     "kota",
+     "pejalan",
+     "bus",
+     "wali"
+    ]
+   },
+   {
+    "title": "Membela Kebosanan",
+    "text": "Kita cenderung memperlakukan kebosanan sebagai musuh yang harus disingkirkan pada kesempatan pertama, biasanya dengan layar terdekat. Namun saya berpendapat bahwa sebagian dari pikiran kita yang paling orisinal muncul justru ketika tidak ada yang menuntut perhatian kita. Pikiran yang dibiarkan mengembara membuat hubungan-hubungan yang tidak pernah sempat dibuat oleh pikiran yang terus-menerus dihibur. Anak-anak, khususnya, mendapat manfaat dari dibiarkan sesekali tanpa tugas, sebab pada saat-saat itulah mereka menciptakan permainan dan menemukan minat mereka sendiri. Orang tua yang bergegas mengisi setiap menit senggang dengan kegiatan mungkin, dengan niat terbaik, sedang merampas kesempatan ini dari anak-anak mereka. Para pengkritik akan keberatan bahwa kebosanan dapat menimbulkan kegelisahan, bahkan kenakalan, dan mereka tidak sepenuhnya salah. Tetapi kegelisahan sering kali merupakan tahap pertama kreativitas, dan ketidaknyamanan yang ditimbulkannya adalah harga kecil yang harus dibayar. Karena itu, sebaiknya kita menahan dorongan untuk menyembuhkannya terlalu cepat.",
+    "keys": [
+     "kebosanan",
+     "layar",
+     "anak-anak",
+     "kreativitas"
+    ]
+   },
+   {
+    "title": "Tidur dan Ingatan",
+    "text": "Para ilmuwan percaya bahwa tidur memainkan peran sentral dalam mengubah pengalaman sekilas menjadi ingatan yang bertahan lama. Pada siang hari, informasi baru ditahan sementara di suatu wilayah otak yang berkapasitas terbatas. Begitu kita tertidur, informasi ini secara bertahap diputar ulang dan dipindahkan ke area tempat ia dapat disimpan dalam jangka panjang. Proses itu diperkirakan terjadi terutama selama tidur nyenyak, ketika aktivitas listrik otak melambat menjadi gelombang besar yang teratur. Para peneliti menemukan bahwa orang yang mempelajari daftar kata pada malam hari lalu tidur mengingat jauh lebih banyak daripada mereka yang tetap terjaga. Tidur juga tampaknya bersifat selektif, memperkuat ingatan yang paling penting dan membiarkan detail sepele memudar. Ini menjelaskan mengapa istirahat semalam sering membantu kita memecahkan masalah yang tampak mustahil pada malam sebelumnya. Hal ini juga menunjukkan bahwa para pelajar yang mengorbankan tidur demi belajar mungkin sedang menggagalkan tujuan mereka sendiri.",
+    "keys": [
+     "tidur",
+     "otak",
+     "ingatan",
+     "pelajar"
+    ]
+   },
+   {
+    "title": "Musim Panas Banjir",
+    "text": "Aku berumur dua belas tahun pada musim panas ketika sungai meluap, dan aku mengingatnya bukan sebagai bencana melainkan sebagai liburan yang luar biasa. Sekolah diliburkan selama dua minggu, dan jalan-jalan rendah di kota kami menjadi jalur air tempat para tetangga mendayung dengan apa pun yang bisa mereka temukan. Ayahku, yang biasanya pria serius dan pendiam, menghabiskan berjam-jam mengantar para penduduk lanjut usia ke tempat yang lebih tinggi dengan perahu dayung pinjaman. Aku memandanginya dengan campuran rasa kagum dan iri, sebab aku belum pernah melihatnya begitu ceria secara terbuka. Sementara itu, ibuku membuka dapur di aula gereja dan memberi makan siapa pun yang datang, sering kali sampai lewat tengah malam. Baru kemudian, ketika air surut dan meninggalkan perabot yang rusak serta karpet yang basah kuyup, aku memahami betapa banyak yang telah hilang. Meski begitu, orang-orang dewasa membicarakan dua minggu itu sesudahnya dengan kehangatan yang tidak dapat kujelaskan sepenuhnya. Kalau dipikir-pikir, kurasa mereka sedang mengenang satu-satunya saat ketika seluruh kota berhenti menjadi orang-orang asing satu sama lain.",
+    "keys": [
+     "sungai",
+     "ayahku",
+     "ibuku",
+     "perahu"
+    ]
+   }
+  ],
+  "C2": [
+   {
+    "title": "Shift Malam",
+    "text": "Nadia sudah berjam-jam berada di bangsal, bergerak di antara tempat tidur dengan langkah ringan yang telah dijadikan hampir naluriah oleh latihan bertahun-tahun. Koridor-koridor yang begitu ramai pada siang hari terasa hening dan agak bernuansa kelautan pada malam hari, seakan-akan gedung itu sebuah kapal yang hanyut dalam gelap. Dia telah belajar bahwa para pasien mengungkapkan pada dini hari apa yang tidak akan pernah mereka akui di siang hari, dan dia mendengarkan dengan perhatian yang dia anggap sama pentingnya dengan obat apa pun. Sekitar pukul tiga, ketika kelelahan berada pada puncak kelicikannya, dia membuat teh dan berdiri sebentar di dekat jendela, memperhatikan mobil-mobil pengantar pertama yang menyusup melewati jalanan yang kosong. Rekan-rekan yang belum pernah bekerja malam cenderung membayangkan pekerjaan ini sebagai versi siang yang lebih sepi, tetapi dia menemukannya sebagai negeri yang sama sekali berbeda, dengan adat sendiri dan kelembutan anehnya sendiri. Ketika staf pagi datang, penuh keributan dan niat baik, dia menyerahkan catatannya dengan keengganan samar yang sulit dia jelaskan. Berjalan pulang melawan arus para komuter, dia merasa seperti pengunjung yang kembali dari tempat yang telah disepakati dunia lainnya untuk dilupakan. Dia tertidur diiringi suara kota yang terbangun, yang baginya merupakan ironi yang menyenangkan. Pada saat itu tidak ada lagi seorang pun untuk berbagi dengannya.",
+    "keys": [
+     "nadia",
+     "bangsal",
+     "kapal",
+     "teh"
+    ]
+   },
+   {
+    "title": "Desa Leluhurku",
+    "text": "Aku telah menunda perjalanan itu selama puluhan tahun, sebagian karena rasa takut yang samar bahwa kenyataan akan gagal menyamai desa yang kubangun dari cerita-cerita nenekku. Ketika akhirnya aku turun dari bus, tempat itu tampak sekaligus lebih kecil dan lebih biasa daripada yang kubayangkan, sebuah gugusan rumah rendah yang menempel pada punggung bukit di atas dasar sungai yang kering. Seorang pria tua, yang melihat keraguanku, bertanya siapa yang kucari, dan ketika aku menyebut nama gadis nenekku, dia menatapku seakan-akan aku bangkit dari kubur. Dalam hitungan menit aku dituntun dari rumah ke rumah, diperkenalkan kepada sepupu-sepupu yang keberadaannya tak pernah disebut, dan didesak makan makanan yang tidak membuatku berselera tetapi tak bisa kutolak. Ternyata rumah keluarga sudah lama runtuh, dan hanya beberapa batu dari ambang pintunya yang masih berdiri di antara rerumputan. Aku ingat berdiri di hadapan batu-batu itu dengan perasaan yang hanya bisa kusebut duka atas sesuatu yang tak pernah kumiliki. Namun menjelang malam, duduk di meja yang penuh sesak di bawah satu bohlam, aku merasa bahwa desa yang kucari itu tidak pernah merupakan sebuah tempat. Desa itu lebih merupakan kebiasaan untuk memiliki rasa kepemilikan, yang diberikan orang-orang asing ini kepadaku tanpa ragu sedikit pun. Aku pergi keesokan paginya dengan lebih sedikit ilusi dan, anehnya, rasa pulang yang jauh lebih besar.",
+    "keys": [
+     "desa",
+     "nenekku",
+     "bus",
+     "bohlam"
+    ]
+   },
+   {
+    "title": "Balasan tentang Naskahmu",
+    "text": "Marcus yang terhormat, aku minta maaf karena baru membalas setelah sekian lama, dan aku ingin menjelaskan, bukan sekadar membela diri atas keterlambatan itu. Ketika naskahmu tiba, aku membacanya dua kali dan mendapati diriku tidak mampu mengatakan sesuatu yang berguna, pengalaman yang tidak biasa dan sedikit merendahkan hati bagi seseorang yang dibayar untuk berpendapat. Argumennya anggun, dan buktinya dikumpulkan dengan cermat, namun sesuatu pada kesimpulannya terasa menjanjikan lebih banyak daripada yang pantas diperoleh halaman-halaman sebelumnya. Aku butuh beberapa hari untuk menemukan masalahnya, yaitu bahwa kamu telah menjawab pertanyaan yang belum ditanyakan oleh pembaca mana pun. Jika kamu membukanya dengan teka-teki yang pertama kali menarikmu pada pokok bahasan itu, kesimpulannya akan tiba sebagai sebuah penyelesaian, bukan sebuah pernyataan. Aku sadar ini perubahan yang lebih besar daripada yang kamu harapkan, dan aku akan memahami jika kamu merasa ini mengubah maksudmu. Meski begitu, aku mendesakmu untuk mempertimbangkannya sebelum tenggat, sebab karya ini layak dibaca seteliti ia ditulis. Jangan ragu meneleponku jika kamu ingin membahas semua ini lebih panjang. Sementara itu, terimalah ucapan selamatku atas karya yang sudah jauh lebih baik daripada kebanyakan yang kulihat.",
+    "keys": [
+     "marcus",
+     "naskahmu",
+     "kesimpulannya",
+     "teka-teki"
+    ]
+   },
+   {
+    "title": "Retret bagi Para Penulis",
+    "text": "Terletak di sebuah lembah terpencil, jauh dari keriuhan kota, penggilingan tua ini menawarkan seminggu kesunyian tanpa gangguan bagi para penulis yang kehilangan benang karya mereka. Tidak ada sinyal untuk telepon, tidak ada televisi, dan, dengan menyesal kami katakan, tidak ada permintaan maaf untuk keduanya. Setiap tamu diberi kamar kecil dengan meja di samping jendela, dan makanan diantar diam-diam ke depan pintu pada jam tertentu agar tak ada pikiran yang perlu terputus oleh percakapan. Malam hari, bagi yang berkenan, dihabiskan di sekeliling meja panjang tempat para peserta boleh membacakan karya mereka dan menerima kritik yang lembut namun jujur dari yang lain. Seorang editor residen, yang buku-bukunya sendiri telah diterjemahkan ke banyak bahasa, tersedia setiap sore untuk konsultasi pribadi. Kami tidak menjanjikan bahwa seminggu itu akan menghasilkan naskah yang rampung, sebab pengalaman telah mengajari kami bahwa ilham tidak bisa disewa per jam. Yang dapat kami jamin adalah kesunyian, roti yang enak, dan izin langka untuk menganggap serius tulisan sendiri. Tempat sangat dibatasi hanya delapan, dan para pelamar diminta mengirimkan contoh singkat karya mereka beserta uraian ringkas tentang apa yang ingin mereka capai. Mereka yang terpilih akan diberi tahu dalam waktu dua minggu.",
+    "keys": [
+     "lembah",
+     "penulis",
+     "editor",
+     "kesunyian"
+    ]
+   },
+   {
+    "title": "Warisan",
+    "text": "Ketika sang profesor tua meninggal, dia mewariskan seluruh perpustakaannya kepada satu-satunya mahasiswa yang tidak pernah sekali pun sependapat dengannya. Mahasiswa-mahasiswa lain, yang banyak di antaranya bertahun-tahun menjilatnya demi mendapat kemurahan hati, tidak menerima apa-apa selain catatan singkat yang berterima kasih atas persahabatan mereka. Kemarahan mereka lantang, dan untuk sementara tampaknya wasiat itu akan digugat di pengadilan. Namun sang ahli waris terpilih, seorang wanita pendiam bernama Irena, anehnya tidak tergerak oleh prospek kepemilikan dan menghabiskan minggu pertama dengan sekadar berkeliling di antara rak-rak. Di hampir setiap jilid dia menemukan komentar pinggir dengan tulisan tangan gurunya yang rapat, banyak di antaranya ditujukan langsung kepadanya, seakan-akan beliau telah memperkirakan keberatannya sejak puluhan tahun lalu. Sebagian mengejek, sebagian lainnya mengejutkan lembut, dan beberapa mengakui hal-hal yang tidak pernah dia akui dengan lantang. Perlahan dia menyadari bahwa perdebatan yang dia kira terjadi di ruang seminar itu, bagi beliau, merupakan percakapan panjang yang tak sanggup dia akhiri. Dia tidak menggugat wasiat itu, dan dia tidak menjual satu buku pun. Sebaliknya, dia mulai menjawab beliau di pinggir halaman, dengan tulisan yang lebih kecil, dan dengan tata bahasa yang jauh lebih baik.",
+    "keys": [
+     "profesor",
+     "irena",
+     "wasiat",
+     "buku"
+    ]
+   },
+   {
+    "title": "Dataran Garam",
+    "text": "Hanya sedikit bentang alam yang melucuti skala manusia sepenuhnya seperti dataran garam yang luas, tempat cakrawala larut ke dalam kabut pucat yang berkilau dan mata kesulitan menemukan tempat untuk beristirahat. Setelah hujan, selapis tipis air menyebar di permukaannya, dan langit terpantul begitu sempurna sehingga para pengunjung melaporkan sensasi berjalan di atas awan. Pada musim kemarau, sebaliknya, tanah retak menjadi segi enam raksasa dari kerak putih yang berderak di bawah kaki seperti salju beku. Kesunyiannya total dan agak mengusik, hanya dipecahkan oleh angin, yang membawa debu halus yang menempel di rambut dan di sela gigi. Para fotografer tertarik ke tempat itu karena permainan optik yang dimungkinkannya, seperti foto yang tampak memperlihatkan seseorang memegang sebuah gunung di telapak tangan. Para pekerja setempat, bagaimanapun, memandangnya sebagai ladang panen, bukan tontonan, dan mereka menghabiskan hari-hari panjang menggaruk garam menjadi gundukan rendah untuk dikeringkan di bawah matahari. Wajah mereka yang termakan cuaca dan tangan mereka yang pecah-pecah menjadi saksi suatu kerja keras yang jarang dipikirkan para turis. Pada senja, seluruh hamparan itu berubah warna menjadi warna lebam, lalu memudar menjadi kegelapan yang begitu pekat sehingga bintang-bintang tampak terjangkau. Tempat ini memberi ganjaran bagi mereka yang datang untuk melihat, tetapi menuntut kerendahan hati tertentu dari mereka yang datang untuk menetap.",
+    "keys": [
+     "garam",
+     "cakrawala",
+     "langit",
+     "pekerja"
+    ]
+   },
+   {
+    "title": "Perahu Kuno Ditemukan",
+    "text": "Para arkeolog yang bekerja di pesisir utara telah mengumumkan penemuan sebuah perahu kayu yang tampaknya berusia sekitar dua ribu tahun, temuan yang mengejutkan bahkan anggota tim yang paling berpengalaman. Terawetkan oleh lumpur miskin oksigen tempatnya terbaring, kapal itu nyaris utuh seluruhnya, dan bekas alat yang digunakan untuk membentuknya masih dapat dilihat di sepanjang lambungnya. Analisis awal menunjukkan bahwa kapal itu dibuat untuk berdagang, bukan berperang, sebab rangkanya yang lebar dan dangkal mampu membawa muatan berat tetapi tidak menawarkan banyak kecepatan. Di antara benda-benda yang diangkat dari bangkai kapal terdapat guci tembikar, segulung tali, dan apa yang tampaknya mainan anak, sebuah detail yang menyentuh banyak orang yang mengikuti kisahnya. Temuan ini digambarkan oleh pers sebagai yang paling penting dari jenisnya dalam satu generasi, meskipun tim itu sendiri menahan diri dari bahasa semacam itu. Direktur penggalian memperingatkan agar tidak menarik kesimpulan yang menyapu, dengan mencatat bahwa hasil uji penanggalan baru tersedia beberapa bulan lagi. Namun para pejabat setempat sudah berbicara tentang membangun museum di lokasi itu, gagasan yang disambut sebagian warga dengan antusias dan sebagian lain dengan kecurigaan mendalam. Para pengkritik khawatir bahwa kedatangan kerumunan dapat merusak lanskap yang sangat rapuh yang justru mengawetkan perahu itu sejak awal. Untuk saat ini, kapal itu tetap berada di bawah penutup pelindung, dan nasibnya kemungkinan akan diperdebatkan untuk beberapa waktu.",
+    "keys": [
+     "arkeolog",
+     "perahu",
+     "lumpur",
+     "museum"
+    ]
+   },
+   {
+    "title": "Keutamaan Membaca Pelan",
+    "text": "Kini menjadi tren untuk membanggakan berapa banyak buku yang dibaca dalam setahun, seakan-akan sastra adalah jarak yang harus ditempuh, bukan sebuah negeri yang harus dijelajahi. Saya menganggap kebiasaan ini tidak sekadar vulgar tetapi juga merugikan diri sendiri, sebab buku yang dibaca tergesa-gesa meninggalkan jejak tak lebih banyak daripada kereta yang sekilas terlihat dari peron. Novel-novel besar, khususnya, tidak ditulis untuk dilahap dengan cepat, dan kekayaannya terletak justru pada bagian-bagian yang dilewati pembaca tak sabar demi mengejar alur. Berlama-lama pada sebuah kalimat, kembali ke paragraf yang telah membingungkan atau menyenangkan kita, bukanlah tanda kelambanan melainkan perhatian, yang telah menjadi kebajikan modern yang paling langka. Para pembela permainan angka akan menjawab bahwa membaca lebih banyak selalu lebih baik daripada lebih sedikit, dan dalam arti sempit mereka benar. Tetapi kebiasaan yang menghargai kuantitas di atas segalanya akan segera mengajari kita menghargai kuantitas di atas segalanya, dalam hidup maupun dalam membaca. Kelambanan, bagaimanapun, hanyalah kecepatan yang diinginkan sebuah buku yang baik untuk dibaca. Saya lebih suka menamatkan sepuluh buku yang mengubah saya daripada seratus yang sekadar lewat. Jika itu menjadikan saya yang tertinggal di antara para pembaca, saya menerima gelar itu tanpa penyesalan dan dengan kepuasan pribadi tertentu.",
+    "keys": [
+     "buku",
+     "sastra",
+     "kalimat",
+     "perhatian"
+    ]
+   },
+   {
+    "title": "Bagaimana Pasang Surut Terjadi",
+    "text": "Pasang surut, yang tampak begitu alami dan teratur sehingga tidak memerlukan penjelasan, sebenarnya merupakan hasil persaingan halus antara gravitasi dan gerak. Bulan menarik paling kuat sisi Bumi yang terdekat dengannya, menarik samudra menjadi sebuah tonjolan yang mengikutinya mengelilingi planet. Yang kurang intuitif, tonjolan kedua terbentuk di sisi yang berlawanan, sebab di sana tarikan Bulan lebih lemah daripada di tempat lain dan air, pada dasarnya, tertinggal. Saat Bumi berotasi di bawah kedua tonjolan ini, pantai mana pun melewati masing-masing satu kali sehari, itulah sebabnya kebanyakan tempat mengalami dua pasang tinggi dan dua pasang rendah dalam kurun sekitar satu hari. Matahari juga mengerahkan tarikan gravitasi, meskipun jaraknya yang lebih jauh membuat pengaruhnya kurang dari separuh pengaruh Bulan. Ketika Matahari dan Bulan sejajar, efek keduanya bergabung menghasilkan pasang yang luar biasa besar, sedangkan ketika keduanya membentuk sudut siku-siku, efeknya sebagian saling meniadakan dan pasangnya ringan. Bentuk garis pantai dapat memperkuat gerakan ini secara dramatis, sehingga di teluk-teluk sempit tertentu air naik dan turun berkali-kali lipat dari ketinggian di laut terbuka. Para pelaut telah memahami pola-pola ini selama berabad-abad, meskipun fisika yang mendasarinya tetap misterius sampai waktu yang relatif baru. Tetap mengagumkan bahwa sebuah gaya yang bekerja melintasi jarak yang begitu besar sanggup mengangkat laut melawan tarikan planet yang menahannya.",
+    "keys": [
+     "pasang",
+     "gravitasi",
+     "bulan",
+     "pelaut"
+    ]
+   },
+   {
+    "title": "Piano di Ruang Depan",
+    "text": "Dulu ada sebuah piano di ruang depan rumah tempat aku dibesarkan, sebuah piano tegak yang tidak istimewa dan yang tidak seorang pun di keluarga bisa memainkannya. Piano itu dibeli nenekku dalam sebuah ledakan optimisme tentang perkembangan budaya keturunannya, dan selama puluhan tahun ia berdiri sebagai monumen bagi harapan yang tak terwujud itu. Kami sebagian besar memakainya sebagai rak untuk kunci, surat, dan benda-benda kecil tak berkesudahan yang menumpuk di sebuah rumah tangga, dan tutupnya jarang dibuka. Namun aku ingat, dengan kejernihan yang mengejutkanku, sore ketika seorang bibi yang berkunjung duduk dan mulai memainkan sesuatu yang pelan dan asing. Seluruh rumah seakan berhenti, dan bahkan anjing mengangkat kepalanya dari permadani dan memandangnya dengan ekspresi keheranan yang serius. Aku mungkin berumur sembilan tahun, dan tidak pernah terpikir olehku bahwa benda di ruang depan itu mampu menghasilkan bunyi selain dentuman hampa ketika kuhantam dengan lututku. Ketika selesai, dia menutup tutupnya, meminta maaf karena kurang berlatih, dan kembali ke dapur seolah-olah tidak terjadi apa-apa. Sejak itu aku telah mendengar banyak musik, sebagian tak diragukan lebih indah, tetapi tak satu pun yang pernah menata ulang perabot pikiranku dengan cara yang sama. Aku menduga yang kudengar sore itu bukanlah sebuah melodi sebanyak sekilas pandang pada apa yang selama ini ditahan oleh rumah itu.",
+    "keys": [
+     "piano",
+     "nenekku",
+     "bibi",
+     "anjing"
+    ]
+   }
+  ]
+ }
+}
