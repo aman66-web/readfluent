@@ -116,10 +116,10 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
     ios-2-library.png , ios-3-book.png , ios-4-reader.png , ios-5-recall.png (same folder /store/). If any
     file is missing, tell me which and continue without it.
     App icon (1024x1024) is part of the app build, so skip it.
-13. App Review Information: Sign-in required: YES. Demo account: ask me for the reviewer email and
-    password (the address is in NEXT_PUBLIC_REVIEW_EMAILS and signs in with a password; never write the password
-    anywhere but this form). Notes: "ReadFluent needs an account. Sign in with Apple or Google, or use the demo
-    account above (enter its email, then its password). Account deletion: Profile, Delete account." Contact
+13. App Review Information: Sign-in required: YES. No demo account (owner's decision, 6 Oct 2026): the reviewer signs in with
+    Sign in with Apple, which works with any Apple ID. Notes: "ReadFluent needs an account. On the first
+    screen tap 'Get started', answer the few questions, then at 'Sign in or sign up' tap 'Continue with Apple'
+    (Google and an emailed code are also offered). Account deletion: Profile, Delete account." Contact
     name/phone/email: ask me. 
 14. STOP before "Add for Review" / Submit. Do not upload a build (there is none yet).
 

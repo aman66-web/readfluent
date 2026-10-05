@@ -23,7 +23,7 @@ Steps, in order. Stop and tell the owner in plain words whenever a password, 2FA
 5. App icon: `ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png` must be 1024x1024 with NO transparency (flatten onto the cyan background if it has alpha).
 6. Version 1.0, build number: set `CURRENT_PROJECT_VERSION` higher than anything uploaded before (1 if this is the first upload; otherwise +1).
 7. Archive: Xcode -> scheme App -> destination "Any iOS Device (arm64)" -> Product -> Archive (or `xcodebuild -workspace/-project ... -scheme App -configuration Release archive`). Signing: automatic, team CLARIFO DEVELOPERS LTD. Then Distribute App -> App Store Connect -> Upload. If Xcode asks for the Apple ID or a 2FA code, stop and tell the owner which window to use.
-8. Screenshots (needed for the store page): use the iPhone 16 Pro Max simulator (1320x2868) with the real app loaded, signed out, English interface, learning Spanish. Capture 6 screens with `xcrun simctl io booted screenshot ~/Documents/readfluent-store/screenshots/NN-name.png`: 01 home, 02 library, 03 a book page in Spanish with the coloured words, 04 a tapped word card, 05 Recall/flashcards, 06 the Premium window. No personal data in any of them. Tell the owner the folder.
+8. Screenshots (needed for the store page): use the iPhone 16 Pro Max simulator (1320x2868) with the real app loaded, English interface, learning Spanish. Sign-in is required, so the screens after the first run need a signed-in session: the owner signs in on the simulator (Apple ID), or take the first-run and sign-in screens signed out and the rest signed in. Capture 6 screens with `xcrun simctl io booted screenshot ~/Documents/readfluent-store/screenshots/NN-name.png`: 01 home, 02 library, 03 a book page in Spanish with the coloured words, 04 a tapped word card, 05 Recall/flashcards, 06 the Premium window. No personal data in any of them. Tell the owner the folder.
 9. Write the result (build number, upload status, folder) to `NATIVE-TEST-REPORT.md` and tell the owner: "Upload done. It appears in App Store Connect -> TestFlight in 5 to 30 minutes, first as Processing."
 
 ## C. Chrome Claude (browser) - App Store Connect
@@ -35,13 +35,13 @@ The long, ready-made prompt for creating the app record and filling the listing 
 3. Screenshots: upload the six files from `~/Documents/readfluent-store/screenshots/` into the 6.9-inch iPhone slot (the owner picks the files in the file chooser if you cannot).
 4. In-App Purchases and Subscriptions section on the version page: add `readfluent_monthly` and `readfluent_yearly` to this version. Each subscription needs its screenshot (use the Premium window screenshot), review notes "Opens from Profile -> Premium", and the localisation (display name "ReadFluent Monthly" / "ReadFluent Yearly", description "Every book, all levels"). The subscription group "ReadFluent Full" needs its display name too.
 5. Age rating, App Privacy, Category (Education), Pricing (Free), Support URL, Privacy URL, Copyright: already covered in STORE-SETUP-PROMPT.md; check each page shows no red warning.
-6. App Review Information: contact Aman Marwaha, aman66@hotmail.co.uk, phone as saved. Sign-in required: NO. Paste the Notes below.
+6. App Review Information: contact Aman Marwaha, aman66@hotmail.co.uk, phone as saved. Sign-in required: YES (sign-in became required on 6 Oct 2026). No demo account: the reviewer uses Sign in with Apple (any Apple ID). Paste the Notes below.
 7. Version Release: "Manually release this version".
 8. Stop before "Add for Review" / "Submit". Tell the owner every page is green and what is left.
 
 ### Notes for App Review (paste exactly)
 
-ReadFluent teaches languages by reading. No account is needed: reviewers can read straight away. Pluto chat and cross-device saving need sign-in (Sign in with Apple, Google or email).
+ReadFluent teaches languages by reading. An account is required: on the first screen tap "Get started", answer the few questions, then at "Sign in or sign up" tap "Continue with Apple" (any Apple ID works; Google and an emailed code are also offered). Everything after that is open to the reviewer.
 To see the subscription: open the Profile tab -> Premium. Subscriptions are sold through Apple in-app purchase (auto-renewing monthly and yearly, 7-day free trial for new subscribers). Restore Purchases is in the same window. Terms and Privacy links are in the window and in Profile.
 Native features beyond a website: on-device translation of books with Apple's Translation framework (iOS 18+), speech recognition and microphone for the speaking tests, text-to-speech read-aloud, in-app purchases through StoreKit, and offline reading. Account deletion: Profile -> Delete account.
 Books are the publisher's own retellings of public-domain works or new stories; none are copied from in-copyright books.
