@@ -116,6 +116,8 @@ export function Reader(props: Props) {
             {t("reader.startNow")}
           </button>
         )}
+        {/* A way out: somebody who will not (or cannot) download the language is not left on this screen with nothing to tap. */}
+        <BackLink fallback={`/book/${props.slug}`} className="inline-flex min-h-11 items-center px-4 text-[15px] font-semibold text-muted">{t("reader.backBook")}</BackLink>
       </div>
     );
   }

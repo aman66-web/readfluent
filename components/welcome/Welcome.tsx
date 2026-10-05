@@ -7,6 +7,7 @@ import { FirstScreen } from "@/components/welcome/FirstScreen";
 import { GoScreen, HeardScreen, HelloScreen, QuickScreen } from "@/components/onboarding/Questions";
 import { AppLanguageScreen } from "@/components/onboarding/AppLanguage";
 import { useAccount } from "@/components/onboarding/useAccount";
+import { onNativeShell } from "@/lib/auth/shell";
 import { TonguesScreen } from "@/components/onboarding/Tongues";
 import { markOnboarded } from "@/lib/onboarding";
 import {
@@ -124,7 +125,8 @@ export function Welcome({ initialStep, authError, built, signedIn, onboarded }: 
       return;
     }
     if (step === "home" && signedEarly.current) { go(STEP_IDS.indexOf("interests"), mode); return; }
-    go(i + 1, mode);
+    // "Add me to your home screen" is for a web visitor: inside the installed app there is nothing to add, so it is not shown.
+    go(STEP_IDS[i + 1] === "home" && onNativeShell() ? i + 2 : i + 1, mode);
   };
   const back = () => {
     if (settling()) return;
