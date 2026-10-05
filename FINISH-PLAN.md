@@ -19,7 +19,7 @@ When a step needs the owner (a password, 2FA, an agreement, a payment, a key to 
 ## The order (each step unblocks the next)
 
 1. **Chrome: Prompt A** (accounts that cost nothing: Google sign-in, email service, domain). *~1 hour of your time.*
-2. **You:** pay for Apple Developer ($99) and Google Play ($25); both take up to 48 h to approve. Do this today, it is the slowest step.
+2. **You:** Apple Developer ($99) and Google Play ($25): **paid 5 Oct 2026** (approval can take up to 48 h; the Chrome prompt checks this first).
 3. **Claude (cloud), in parallel from now:** account sync (M8), then offline downloads (M9), reminders, dark mode, safety, tests in CI. Needs nothing from you.
 4. **Mac: Prompt C** (first iPhone build onto your phone and TestFlight). Needs step 2.
 5. **Chrome: Prompt B** (App Store Connect, Play Console, RevenueCat products). Needs step 2.
