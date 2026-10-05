@@ -15,6 +15,10 @@
 - Build number set to a date, 20261006, so it is higher than any earlier upload.
 - Inside the installed app the "Add me to your home screen" step is skipped; the reader's "download the language" screen has a "Back to the book" link.
 
+## Uploaded
+- 6 Oct 2026 03:31 (Mac time): ReadFluent 1.0, build 20261006, uploaded to App Store Connect (TestFlight) from the Release archive, signed under CLARIFO DEVELOPERS LTD (S7G6ZHHK59). Not submitted for review. The first upload attempt was refused by Apple (error 90158) for a placeholder Google URL scheme in `Info.plist`; removed, and the second upload succeeded.
+- Apple's processing takes about 5 to 30 minutes; the build then appears under TestFlight as "Processing", then ready.
+
 ## Needs a real iPhone (the simulator cannot)
 - Apple's on-device translator: Download Spanish, then open a book and tap a word (word card).
 - The quiz's "Siguiente" button: in the simulator it only responded when tapped below where it is drawn (answer buttons were exact). Could be a simulator quirk or a real hit-area bug.
