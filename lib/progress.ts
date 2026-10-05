@@ -67,6 +67,9 @@ export function parseVersionKey(key: string): { slug: string; level: string; len
   return m ? { slug: m[1], level: m[2].toUpperCase(), length: Number(m[3]) } : null;
 }
 
+/** The different books a reader has begun, from their saved progress (any level, any language). */
+export const startedBooks = (all: Progress): string[] => [...new Set(Object.keys(all).flatMap((k) => { const v = parseVersionKey(k); return v ? [v.slug] : []; }))];
+
 /** A saved page index, clamped to the pages that exist now; 0 when there is none. */
 export function resumeIndex(saved: number | undefined, pageCount: number): number {
   if (saved === undefined || pageCount <= 0) return 0;

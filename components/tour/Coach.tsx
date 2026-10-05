@@ -1,14 +1,21 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
-import { MASCOT_NAME } from "@/lib/brand";
+import { MASCOT_NAME, storageKey } from "@/lib/brand";
 import { useT } from "@/lib/i18n/react";
 import { ONBOARDED_COOKIE } from "@/lib/onboarding";
-import { readRaw, subscribeTo } from "@/lib/store/local";
+import { usePlan } from "@/lib/pro/state";
+import { readRaw, subscribeTo, writeRaw } from "@/lib/store/local";
 import { TOUR, advanceOnRoute, after, stepFor } from "@/lib/tour/steps";
 import { TOUR_KEY, finishTour, parseTour, setTourStep } from "@/lib/tour/state";
+
+// The subscription window comes up once, just before the tour (owner, 5 Oct 2026); loaded only when it is wanted.
+const Paywall = dynamic(() => import("@/components/paywall/Paywall").then((m) => m.Paywall), { ssr: false });
+const OFFER_KEY = storageKey("offer");
+const subscribeOffer = subscribeTo(OFFER_KEY);
 
 const subscribe = subscribeTo(TOUR_KEY);
 const server = () => "";
@@ -112,7 +119,12 @@ export function Coach() {
     if (next !== index) setTourStep(next);
   }, [index, pathname, state.done, onboarded]);
 
-  const step = !state.done && onboarded ? stepFor(index, pathname) : null;
+  // Before the tour begins, the subscription window, once. Not for someone already subscribed, and not again when the tour is restarted.
+  const offerSeen = useSyncExternalStore(subscribeOffer, () => readRaw(OFFER_KEY) === "1", () => true);
+  const plan = usePlan();
+  const offer = !state.done && onboarded && index === 0 && pathname === "/" && !offerSeen && !(plan.known && plan.plan === "full");
+
+  const step = !state.done && onboarded && !offer ? stepFor(index, pathname) : null;
   const { box, top } = useTargetBox(step?.target, step !== null);
   // A step whose target is not on this screen (no speaker on this device, say) is skipped.
   const [missing, setMissing] = useState<string | null>(null);
@@ -136,6 +148,7 @@ export function Coach() {
     return () => { delete document.documentElement.dataset.coach; };
   }, [coachTarget]);
 
+  if (offer) return <Paywall onClose={() => writeRaw(OFFER_KEY, "1")} />;
   if (!step) return null;
   // A step with a target is not drawn until the target is found, so the old text does not flash before a skip.
   if (step.target && !box) return <div className="pointer-events-none fixed inset-0 z-[70]"><div className="coach-dim absolute inset-0" /></div>;

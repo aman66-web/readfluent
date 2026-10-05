@@ -23,6 +23,10 @@ describe("quick check after five pages", () => {
     expect(blockFinished(10, 9)).toBe(2);
     expect(blockFinished(5, 6)).toBeNull(); // coming back
     expect(blockFinished(5, 0)).toBeNull(); // jumped (reopening on page 6)
+    expect(blockFinished(6, 4)).toBe(1); // a fast swipe skipped a page
+    expect(blockFinished(11, 9)).toBe(2);
+    expect(blockFinished(6, 5)).toBeNull(); // already past the fifth
+    expect(blockFinished(40, 5)).toBeNull(); // a long jump
     expect(blockFinished(4, 3)).toBeNull();
     expect(blockFinished(0, 0)).toBeNull();
   });
@@ -79,9 +83,9 @@ describe("Pluto's cheers", () => {
 
 describe("reader preferences for the check and the cheers", () => {
   it("default to asking and cheering, and keep what was chosen", () => {
-    expect(parsePrefs(null)).toMatchObject({ check: null, cheers: true });
-    expect(parsePrefs(JSON.stringify({ check: 5, cheers: false }))).toMatchObject({ check: 5, cheers: false });
-    expect(parsePrefs(JSON.stringify({ check: 0 })).check).toBe(0);
-    expect(parsePrefs(JSON.stringify({ check: 7 })).check).toBeNull();
+    expect(parsePrefs(null)).toMatchObject({ quiz: true, cheers: true });
+    expect(parsePrefs(JSON.stringify({ quiz: false, cheers: false }))).toMatchObject({ quiz: false, cheers: false });
+    // The old "Stop asking" setting does not keep the quiz off.
+    expect(parsePrefs(JSON.stringify({ check: 0 })).quiz).toBe(true);
   });
 });

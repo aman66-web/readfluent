@@ -10,11 +10,11 @@ import { useLocale, useT } from "@/lib/i18n/react";
 import { PRICE, TRIAL_DAYS, pounds } from "@/lib/plan";
 import { refreshPlan } from "@/lib/pro/state";
 import { orderedPackages } from "@/lib/purchases/packages";
-import { getOfferings, hasProEntitlement, purchasePackage, purchasesAvailable, restorePurchases } from "@/lib/purchases/native";
+import { getOfferings, hasProEntitlement, purchasePackage, purchasesAvailable, restorePurchases, trialEligibility } from "@/lib/purchases/native";
 import type { PurchasesPackage } from "@revenuecat/purchases-capacitor";
 
 type Kind = "yearly" | "monthly";
-interface Option { kind: Kind; price: string; perMonth: string; pkg?: PurchasesPackage }
+interface Option { kind: Kind; price: string; perMonth: string; pkg?: PurchasesPackage; /** The free trial is on offer to this reader (the store says so; false once the Apple ID has had it). Unset until known. */ trial?: boolean }
 
 /** What a year costs against twelve months, as a whole percentage off. */
 export const savingPercent = (monthly: number, yearly: number): number => (monthly > 0 && yearly > 0 ? Math.max(0, Math.round((1 - yearly / (monthly * 12)) * 100)) : 0);
@@ -31,7 +31,9 @@ export function Paywall({ onClose }: { onClose: () => void }) {
   const locale = useLocale();
   const native = isNative() && purchasesAvailable();
   const [store, setOptions] = useState<Option[] | null>(null);
-  const options = useMemo(() => store ?? fallbackOptions(t), [store, t]);
+  const [trial, setTrial] = useState<Record<string, boolean> | null>(null);
+  // On the phone the trial is shown only once the store has said this reader can have it; on the web it is the general offer.
+  const options = useMemo(() => (store ?? fallbackOptions(t)).map((o) => ({ ...o, trial: o.pkg ? (trial?.[o.pkg.product.identifier] ?? false) : !native })), [store, t, trial, native]);
   const [pick, setPick] = useState<Kind>("yearly");
   const [busy, setBusy] = useState(false);
   const [note, setNote] = useState<string | null>(null);
@@ -46,6 +48,12 @@ export function Paywall({ onClose }: { onClose: () => void }) {
       const found = orderedPackages(offering);
       if (found.length === 0) return;
       const money = (n: number, currency: string) => new Intl.NumberFormat(locale, { style: "currency", currency }).format(n);
+      const ids = found.map(({ pkg }) => pkg.product.identifier);
+      void trialEligibility(ids).then((eligible) => {
+        if (!live) return;
+        // iOS says yes or no for each Apple ID; where the store cannot say (Android), a free first phase on the product counts.
+        setTrial(Object.fromEntries(found.map(({ pkg }) => [pkg.product.identifier, eligible[pkg.product.identifier] ?? (pkg.product.introPrice?.price === 0)])));
+      });
       setOptions(found.map(({ pkg, kind }) => {
         const p = pkg.product;
         const yearly = kind === "annual";
@@ -130,6 +138,7 @@ export function Paywall({ onClose }: { onClose: () => void }) {
                     </span>
                     <span className="min-w-0 flex-1">
                       <span className="block text-[16.5px] font-bold">{t(o.kind === "yearly" ? "paywall.yearly" : "paywall.monthly")}</span>
+                      {o.trial && <span className="mt-1 inline-block rounded-full bg-emerald-100 px-2.5 py-0.5 text-[12px] font-bold text-emerald-800">{t("paywall.trialBadge", { n: TRIAL_DAYS })}</span>}
                       <span className="mt-0.5 block text-[13px] text-muted">{o.kind === "yearly" ? t("paywall.perYear", { price: o.price }) : t("paywall.perMonth", { price: o.price })}</span>
                     </span>
                     <span className="text-end">
@@ -142,7 +151,7 @@ export function Paywall({ onClose }: { onClose: () => void }) {
             </div>
 
             {native ? (
-              <button type="button" onClick={() => void buy()} disabled={busy || !chosen?.pkg} className="btn-cyan mt-5 h-14 w-full rounded-full text-[16.5px] font-bold disabled:opacity-60">{t("paywall.cta")}</button>
+              <button type="button" onClick={() => void buy()} disabled={busy || !chosen?.pkg} className="btn-cyan mt-5 h-14 w-full rounded-full text-[16.5px] font-bold disabled:opacity-60">{chosen?.trial ? t("paywall.ctaTrial", { n: TRIAL_DAYS }) : t("paywall.cta")}</button>
             ) : (
               <p className="mt-5 rounded-2xl bg-accent-bright/15 px-4 py-3.5 text-center text-[14.5px] font-semibold leading-snug">{t("paywall.webOnly", { app: APP_NAME })}</p>
             )}
@@ -151,7 +160,7 @@ export function Paywall({ onClose }: { onClose: () => void }) {
               {native ? <button type="button" onClick={() => void restore()} disabled={busy} className="h-11 text-[14px] font-semibold text-accent">{t("paywall.restore")}</button> : null}
               <button type="button" onClick={onClose} className="h-11 text-[14px] font-semibold text-muted">{t("paywall.notNow")}</button>
             </div>
-            <p className="mt-1 text-center text-[12px] leading-snug text-faint">{t("paywall.trial", { n: TRIAL_DAYS })} {t("paywall.cancelAnytime")}</p>
+            <p className="mt-1 text-center text-[12px] leading-snug text-faint">{chosen?.trial ? `${t("paywall.trial", { n: TRIAL_DAYS })} ` : ""}{t("paywall.cancelAnytime")}</p>
             <p className="mt-1 flex items-center justify-center gap-2 text-[12px] text-faint">
               <Link href="/terms" className="inline-flex h-9 items-center underline underline-offset-2">{t("me.terms")}</Link>
               <span aria-hidden>·</span>

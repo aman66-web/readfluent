@@ -18,5 +18,13 @@ export function markBlock(version: string, block: number): void {
   writeRaw(CHECKS_KEY, JSON.stringify(all));
 }
 
-/** The block that has just been finished by arriving on page `index` (0-based) from the page before it; null when it is not the end of a block. */
-export const blockFinished = (index: number, from: number): number | null => (index > 0 && index % BLOCK === 0 && from === index - 1 ? index / BLOCK : null);
+/**
+ * The block (1 = pages 1 to 5) that the reader has just finished, by moving forward from page `from` to page `index` (0-based); null when no
+ * fifth page was passed. A fast swipe or two presses of Next can skip a page (4 to 6), so any short step forward past a fifth counts;
+ * a long jump (reopening a book on page 40) does not.
+ */
+export const blockFinished = (index: number, from: number): number | null => {
+  if (index <= from || index - from > 3) return null;
+  const block = Math.floor(index / BLOCK);
+  return block >= 1 && block > Math.floor(from / BLOCK) ? block : null;
+};

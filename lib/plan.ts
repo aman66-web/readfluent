@@ -8,8 +8,8 @@
  *
  * This file is the one place the rules live (CLAUDE.md, "Accounts and money").
  * They are working defaults until the owner decides pricing (DECISIONS.md,
- * 1 Oct 2026): free is the 50-page samples; the 100- and 200-page versions are
- * paid.
+ * 1 Oct 2026), changed by the owner on 5 Oct 2026: free reads any 2 books; every
+ * other book needs the paid plan.
  */
 
 export type Plan = "free" | "full";
@@ -26,8 +26,8 @@ export const PLANS: Plan[] = ["free", "full"];
  */
 export const PAYMENTS_LIVE = false;
 
-/** The version lengths a free reader may open. */
-export const FREE_LENGTHS: readonly number[] = [50];
+/** How many books a free reader may start (owner, 5 Oct 2026). */
+export const FREE_BOOKS = 2;
 
 /**
  * What every plan opens, whatever they pay. Listed rather than assumed, so the
@@ -67,17 +67,18 @@ export function parsePlan(value: unknown): Plan {
 }
 
 /**
- * Whether a reader may open a version of this length.
+ * Whether a reader may open a book.
  *
- * `started` is a version they have already begun: it stays open whatever the
- * rules become, because revoking something somebody is halfway through, over a
- * policy change made after the fact, is not this app's call. With the gates
- * not yet live (`PAYMENTS_LIVE`), everything is open. `live` is a parameter
- * only so the rule can be tested with the gates shut.
+ * `started` is a book they have already begun: it stays open whatever the rules
+ * become, because revoking something somebody is halfway through, over a policy
+ * change made after the fact, is not this app's call. `booksStarted` is how many
+ * different books they have begun (any level). With the gates not yet live
+ * (`PAYMENTS_LIVE`), everything is open. `live` is a parameter only so the rule
+ * can be tested with the gates shut.
  */
-export function canOpen(length: number, plan: Plan, started = false, live: boolean = PAYMENTS_LIVE): boolean {
+export function canOpenBook(plan: Plan, started: boolean, booksStarted: number, live: boolean = PAYMENTS_LIVE): boolean {
   if (!live) return true;
-  return plan === "full" || started || FREE_LENGTHS.includes(length);
+  return plan === "full" || started || booksStarted < FREE_BOOKS;
 }
 
 /**
