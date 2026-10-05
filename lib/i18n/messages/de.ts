@@ -404,7 +404,7 @@ const de: Catalog = {
   "league.alone": "Du bist der Erste hier. Die anderen kommen dazu, sobald sie zu lesen beginnen.",
   "league.addThem": "Als Freund hinzufügen",
   "paywall.title": "Lies ohne Grenzen",
-  "paywall.sub": "Schalte jedes Buch in voller Länge frei.",
+  "paywall.sub": "Lies 2 Bücher deiner Wahl gratis. Mit Pro schaltest du alle Bücher frei.",
   "paywall.b1": "Jedes Buch in voller Länge, alle 200 Seiten in jeder Stufe",
   "paywall.b2": "Neue Bücher und Stufen, sobald sie erscheinen",
   "paywall.b3": "Alles, was du erreicht hast, bleibt für immer dein",

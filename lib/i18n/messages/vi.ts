@@ -390,7 +390,7 @@ const vi: Catalog = {
   "league.alone": "Bạn là người đầu tiên ở đây. Những người khác sẽ tham gia khi họ bắt đầu đọc.",
   "league.addThem": "Kết bạn",
   "paywall.title": "Đọc không giới hạn",
-  "paywall.sub": "Mở khóa mọi cuốn sách bản đầy đủ.",
+  "paywall.sub": "Đọc miễn phí 2 cuốn sách bất kỳ. Mở khóa mọi cuốn với Pro.",
   "paywall.b1": "Mọi cuốn sách bản đầy đủ, cả 200 trang ở mỗi cấp độ",
   "paywall.b2": "Sách và cấp độ mới ngay khi có",
   "paywall.b3": "Mọi thứ bạn đã đạt được luôn là của bạn",

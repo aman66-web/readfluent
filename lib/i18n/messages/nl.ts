@@ -406,7 +406,7 @@ const nl: Catalog = {
   "league.alone": "Je bent de eerste hier. Anderen sluiten aan zodra ze gaan lezen.",
   "league.addThem": "Voeg toe als vriend",
   "paywall.title": "Lees zonder limiet",
-  "paywall.sub": "Ontgrendel elk boek in volledige lengte.",
+  "paywall.sub": "Lees 2 boeken naar keuze gratis. Ontgrendel alle boeken met Pro.",
   "paywall.b1": "Elk boek in volledige lengte, alle 200 pagina's op elk niveau",
   "paywall.b2": "Nieuwe boeken en niveaus zodra ze er zijn",
   "paywall.b3": "Alles wat je hebt verdiend blijft altijd van jou",

@@ -404,7 +404,7 @@ const indonesian: Catalog = {
   "league.alone": "Kamu yang pertama di sini. Yang lain akan bergabung saat mulai membaca.",
   "league.addThem": "Tambah sebagai teman",
   "paywall.title": "Baca tanpa batas",
-  "paywall.sub": "Buka setiap buku versi lengkap.",
+  "paywall.sub": "Baca 2 buku apa saja gratis. Buka semua buku dengan Pro.",
   "paywall.b1": "Setiap buku versi lengkap, semua 200 halaman di tiap level",
   "paywall.b2": "Buku dan level baru begitu tersedia",
   "paywall.b3": "Semua yang sudah kamu raih tetap jadi milikmu, selamanya",

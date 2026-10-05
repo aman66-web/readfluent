@@ -404,7 +404,7 @@ const ko: Catalog = {
   "league.alone": "가장 먼저 오셨어요. 다른 사람들도 읽기 시작하면 들어와요.",
   "league.addThem": "친구로 추가",
   "paywall.title": "제한 없이 읽기",
-  "paywall.sub": "모든 전체 길이 책을 열어 보세요.",
+  "paywall.sub": "아무 책 2권은 무료로 읽을 수 있어요. Pro로 모든 책을 열어 보세요.",
   "paywall.b1": "모든 전체 길이 책, 각 레벨마다 200페이지 전부",
   "paywall.b2": "새 책과 새 레벨을 바로바로",
   "paywall.b3": "얻은 것은 언제나 그대로 유지돼요",

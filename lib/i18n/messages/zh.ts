@@ -404,7 +404,7 @@ const zh: Catalog = {
   "league.alone": "你是第一个来的。其他人开始阅读后就会加入。",
   "league.addThem": "加为好友",
   "paywall.title": "畅读无限",
-  "paywall.sub": "解锁每一本全长图书。",
+  "paywall.sub": "任选2本书免费读。升级 Pro 解锁全部书籍。",
   "paywall.b1": "每本全长图书，每个级别全部 200 页",
   "paywall.b2": "新书和新等级一上线就能读",
   "paywall.b3": "你获得的一切永远属于你",

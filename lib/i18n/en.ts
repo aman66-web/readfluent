@@ -412,7 +412,7 @@ export const EN = {
   "league.alone": "You're the first one here. Others join as they start reading.",
   "league.addThem": "Add as friend",
   "paywall.title": "Read without limits",
-  "paywall.sub": "Unlock every full-length book.",
+  "paywall.sub": "Read any 2 books free. Unlock every book with Pro.",
   "paywall.b1": "Every full-length book, all 200 pages in each level",
   "paywall.b2": "New books and levels as they arrive",
   "paywall.b3": "Everything you've earned stays yours, always",

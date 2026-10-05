@@ -376,7 +376,7 @@ const tr: Catalog = {
   "league.alone": "İlk gelen sensin. Diğerleri okumaya başladıkça katılır.",
   "league.addThem": "Arkadaş olarak ekle",
   "paywall.title": "Sınırsız oku",
-  "paywall.sub": "Tam uzunluktaki her kitabın kilidini açın.",
+  "paywall.sub": "İstediğin 2 kitabı ücretsiz oku. Pro ile tüm kitapların kilidini aç.",
   "paywall.b1": "Her kitap tam uzunlukta, her seviyede 200 sayfanın tamamı",
   "paywall.b2": "Yeni kitaplar ve seviyeler geldikçe",
   "paywall.b3": "Kazandığın her şey her zaman senin kalır",

@@ -403,7 +403,7 @@ const fr: Catalog = {
   "league.alone": "Tu es le premier ici. Les autres arriveront dès qu'ils commenceront à lire.",
   "league.addThem": "Ajouter en ami",
   "paywall.title": "Lis sans limites",
-  "paywall.sub": "Débloquez tous les livres en version intégrale.",
+  "paywall.sub": "Lisez 2 livres au choix gratuitement. Débloquez tous les livres avec Pro.",
   "paywall.b1": "Chaque livre en version intégrale, les 200 pages à chaque niveau",
   "paywall.b2": "Les nouveaux livres et niveaux dès leur arrivée",
   "paywall.b3": "Tout ce que tu as gagné reste à toi, pour toujours",

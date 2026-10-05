@@ -43,7 +43,7 @@ writes nothing to the app's own storage (Cache Storage); the browser's ordinary 
 
 Accounts and money (1 Oct 2026, working defaults, owner to confirm): reading needs no
 account (anonymous-first, as in the template's `proxy.ts`); signing in is for buying and
-sync. Free is the 50-page samples; 100 and 200 are paid. A version someone has started
+sync. Free is any 2 books (owner, 5 Oct 2026; was the 50-page samples); every other book is paid. A book someone has started
 stays open. Prices and rules live in `lib/plan.ts` and nowhere else. The server alone
 writes `users.plan`; never grant a client the right to.
 
