@@ -940,6 +940,7 @@ const de: Catalog = {
   "item.robodog": "Robo-Hündchen",
   "item.ufo": "Kleines UFO",
   "paywall.trial": "Neue Abonnenten erhalten {n} Tage gratis, danach gilt der angezeigte Preis. Wer vorher kündigt, zahlt nichts.",
+  "reader.quickNow": "Jetzt Kurztest",
 };
 
 export default de;

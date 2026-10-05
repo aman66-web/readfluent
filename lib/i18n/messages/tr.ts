@@ -903,6 +903,7 @@ const tr: Catalog = {
   "item.robodog": "Robo-köpek",
   "item.ufo": "Minik UFO",
   "paywall.trial": "Yeni aboneler {n} gün ücretsiz kullanır, sonra gösterilen fiyat uygulanır. Bitmeden iptal ederseniz hiçbir şey ödemezsiniz.",
+  "reader.quickNow": "Şimdi hızlı kontrol",
 };
 
 export default tr;

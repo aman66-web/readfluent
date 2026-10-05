@@ -948,6 +948,7 @@ export const EN = {
   "item.robodog": "Robo-pup",
   "item.ufo": "Little UFO",
   "paywall.trial": "New subscribers get {n} days free, then the price shown. Cancel before it ends and you pay nothing.",
+  "reader.quickNow": "Quick check now",
 } as const;
 
 export type MessageId = keyof typeof EN;

@@ -938,6 +938,7 @@ const zh: Catalog = {
   "item.robodog": "机器小狗",
   "item.ufo": "小飞碟",
   "paywall.trial": "新订阅用户可免费使用{n}天，之后按所示价格收费。在期满前取消，则无需付费。",
+  "reader.quickNow": "马上快速测验",
 };
 
 export default zh;

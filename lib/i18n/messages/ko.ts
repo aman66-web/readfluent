@@ -940,6 +940,7 @@ const ko: Catalog = {
   "item.robodog": "로봇 강아지",
   "item.ufo": "작은 UFO",
   "paywall.trial": "신규 구독자는 {n}일간 무료이며, 이후 표시된 가격이 청구됩니다. 끝나기 전에 취소하면 비용이 들지 않습니다.",
+  "reader.quickNow": "지금 퀵 체크",
 };
 
 export default ko;

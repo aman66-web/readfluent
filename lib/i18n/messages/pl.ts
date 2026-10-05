@@ -942,6 +942,7 @@ const pl: Catalog = {
   "item.robodog": "Robopiesek",
   "item.ufo": "Malutkie UFO",
   "paywall.trial": "Nowi subskrybenci dostają {n} dni za darmo, potem obowiązuje pokazana cena. Anuluj przed końcem, a nic nie zapłacisz.",
+  "reader.quickNow": "Szybki quiz teraz",
 };
 
 export default pl;

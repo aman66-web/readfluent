@@ -15,7 +15,7 @@ function Switch({ on, label, onChange }: { on: boolean; label: string; onChange:
 }
 
 /** What the "Aa" button opens: the size of the text, the underlined key words, the translation under each page. */
-export function Settings({ prefs, language, interactive = true }: { prefs: ReaderPrefs; language: string; interactive?: boolean }) {
+export function Settings({ prefs, language, interactive = true, onQuickCheck }: { prefs: ReaderPrefs; language: string; interactive?: boolean; onQuickCheck?: () => void }) {
   const t = useT();
   const sizes: TextSize[] = ["s", "m", "l"];
   return (
@@ -42,6 +42,7 @@ export function Settings({ prefs, language, interactive = true }: { prefs: Reade
           </button>
         ))}
       </div>
+      {onQuickCheck && <button type="button" onClick={onQuickCheck} data-quick-now className="btn-cyan mt-2.5 h-11 w-full rounded-full text-[14px] font-bold">{t("reader.quickNow")}</button>}
     </div>
   );
 }

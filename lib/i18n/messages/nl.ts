@@ -942,6 +942,7 @@ const nl: Catalog = {
   "item.robodog": "Robohondje",
   "item.ufo": "Klein ufootje",
   "paywall.trial": "Nieuwe abonnees krijgen {n} dagen gratis, daarna de getoonde prijs. Zeg op voor het afloopt en je betaalt niets.",
+  "reader.quickNow": "Nu een snelle check",
 };
 
 export default nl;

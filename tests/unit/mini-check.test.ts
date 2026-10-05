@@ -23,6 +23,10 @@ describe("quick check after five pages", () => {
     expect(blockFinished(10, 9)).toBe(2);
     expect(blockFinished(5, 6)).toBeNull(); // coming back
     expect(blockFinished(5, 0)).toBeNull(); // jumped (reopening on page 6)
+    expect(blockFinished(6, 4)).toBe(1); // a fast swipe skipped a page
+    expect(blockFinished(11, 9)).toBe(2);
+    expect(blockFinished(6, 5)).toBeNull(); // already past the fifth
+    expect(blockFinished(40, 5)).toBeNull(); // a long jump
     expect(blockFinished(4, 3)).toBeNull();
     expect(blockFinished(0, 0)).toBeNull();
   });
