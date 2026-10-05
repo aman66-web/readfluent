@@ -195,7 +195,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   const prefs = useMemo(() => parsePrefs(prefsRaw), [prefsRaw]);
   // Pluto cheering now and then, and the quick check offered after every five pages (components/reader/MiniCheck.tsx).
   const [cheer, setCheer] = useState<Cheer | null>(null);
-  const [check, setCheck] = useState<{ block: number; /** Set when the reader asked for it: the page (1-based) it runs up to. */ end?: number } | null>(null);
+  const [check, setCheck] = useState<{ block: number } | null>(null);
   const checkTimer = useRef(0);
   useEffect(() => () => window.clearTimeout(checkTimer.current), []);
   const welcomed = useRef(false);
@@ -371,20 +371,20 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
     prevIndex.current = index;
     if (from === index || total === 0 || index >= total) return;
     const block = blockFinished(index, from);
-    if (block !== null && prefs.check !== 0 && block > lastBlock(version)) {
+    if (block !== null && prefs.quiz && block > lastBlock(version)) {
       // Not undone when something else re-renders in the next moment (the block is marked only once the check is shown).
       window.clearTimeout(checkTimer.current);
-      checkTimer.current = window.setTimeout(() => { markBlock(version, block); setCheer(null); setCheck({ block }); }, 700);
+      checkTimer.current = window.setTimeout(() => { markBlock(version, block); setCheer(null); setCheck({ block }); }, 450);
       return;
     }
     if (prefs.cheers && index > from) {
       const c = cheerFor(index, total, lastCheer.current);
       if (c) { lastCheer.current = index; const id = window.setTimeout(() => setCheer(c), 900); return () => window.clearTimeout(id); }
     }
-  }, [index, total, version, prefs.check, prefs.cheers]);
+  }, [index, total, version, prefs.quiz, prefs.cheers]);
   const quizPages = useMemo(() => {
     if (!check) return null;
-    const end = Math.min(check.end ?? check.block * BLOCK, pages.length);
+    const end = Math.min(check.block * BLOCK, pages.length);
     const q = (p: ReaderPage): QuizPage => ({ text: p.text, translation: p.target?.translation, keys: p.target?.keys });
     return { asked: pages.slice(Math.max(0, end - BLOCK), end).map(q), pool: pages.slice(Math.max(0, end - 40), end).map(q) };
   }, [check, pages]);
@@ -504,8 +504,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
         {notice && index === 0 && <p role="status" className="mt-2 rounded-xl bg-accent-bright/20 px-3 py-2 text-[12.5px] font-semibold leading-snug text-[var(--ob-deep)]">{notice}</p>}
       </header>
 
-      {menu && <Settings prefs={prefs} language={lineLang} interactive={interactive}
-                         onQuickCheck={() => { setMenu(false); setCheer(null); setCheck({ block: Math.max(1, Math.ceil((index + 1) / BLOCK)), end: Math.min(index + 1, total) }); }} />}
+      {menu && <Settings prefs={prefs} language={lineLang} interactive={interactive} />}
 
       {/* What the line you tapped says in the reader's own language. */}
       {sel && selPage?.target && (
@@ -622,7 +621,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
       )}
       {check && quizPages && (
         <MiniCheck asked={quizPages.asked} pool={quizPages.pool} lang={variant.lang} level={BAND_TOP[levelId] ?? "A2"} seed={check.block * 7919 + version.length}
-                   pref={prefs.check} show={(x) => (roman.convert ? romanText(x, roman.convert) : x)} onLevelUp={setLevelUp} onClose={() => setCheck(null)} />
+                   show={(x) => (roman.convert ? romanText(x, roman.convert) : x)} onLevelUp={setLevelUp} onClose={() => setCheck(null)} />
       )}
 
       {toast && (

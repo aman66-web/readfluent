@@ -15,7 +15,7 @@ function Switch({ on, label, onChange }: { on: boolean; label: string; onChange:
 }
 
 /** What the "Aa" button opens: the size of the text, the underlined key words, the translation under each page. */
-export function Settings({ prefs, language, interactive = true, onQuickCheck }: { prefs: ReaderPrefs; language: string; interactive?: boolean; onQuickCheck?: () => void }) {
+export function Settings({ prefs, language, interactive = true }: { prefs: ReaderPrefs; language: string; interactive?: boolean }) {
   const t = useT();
   const sizes: TextSize[] = ["s", "m", "l"];
   return (
@@ -33,16 +33,7 @@ export function Settings({ prefs, language, interactive = true, onQuickCheck }: 
       {interactive && <Switch on={prefs.colours} label={t("reader.underline")} onChange={(colours) => savePrefs({ colours })} />}
       {interactive && <Switch on={prefs.gloss} label={t("reader.glossUnder", { language })} onChange={(gloss) => savePrefs({ gloss })} />}
       <Switch on={prefs.cheers} label={t("reader.cheers")} onChange={(cheers) => savePrefs({ cheers })} />
-      <p className="mb-2 mt-2 text-[11px] font-bold uppercase tracking-[0.12em] text-muted">{t("reader.check")}</p>
-      <div className="grid grid-cols-5 gap-1.5" dir="ltr">
-        {([[0, "reader.check.off"], [null, "reader.check.ask"], [3, ""], [5, ""], [10, ""]] as const).map(([v, label]) => (
-          <button key={String(v)} type="button" aria-pressed={prefs.check === v} onClick={() => savePrefs({ check: v })}
-                  className={`h-11 rounded-xl border-[1.5px] px-0.5 text-[12.5px] font-bold leading-tight ${prefs.check === v ? "border-accent-bright bg-accent-bright/25" : "border-border"}`}>
-            {label ? t(label) : v}
-          </button>
-        ))}
-      </div>
-      {onQuickCheck && <button type="button" onClick={onQuickCheck} data-quick-now className="btn-cyan mt-2.5 h-11 w-full rounded-full text-[14px] font-bold">{t("reader.quickNow")}</button>}
+      <Switch on={prefs.quiz} label={t("reader.check")} onChange={(quiz) => savePrefs({ quiz })} />
     </div>
   );
 }

@@ -83,9 +83,9 @@ describe("Pluto's cheers", () => {
 
 describe("reader preferences for the check and the cheers", () => {
   it("default to asking and cheering, and keep what was chosen", () => {
-    expect(parsePrefs(null)).toMatchObject({ check: null, cheers: true });
-    expect(parsePrefs(JSON.stringify({ check: 5, cheers: false }))).toMatchObject({ check: 5, cheers: false });
-    expect(parsePrefs(JSON.stringify({ check: 0 })).check).toBe(0);
-    expect(parsePrefs(JSON.stringify({ check: 7 })).check).toBeNull();
+    expect(parsePrefs(null)).toMatchObject({ quiz: true, cheers: true });
+    expect(parsePrefs(JSON.stringify({ quiz: false, cheers: false }))).toMatchObject({ quiz: false, cheers: false });
+    // The old "Stop asking" setting does not keep the quiz off.
+    expect(parsePrefs(JSON.stringify({ check: 0 })).quiz).toBe(true);
   });
 });
