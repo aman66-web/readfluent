@@ -937,6 +937,7 @@ const ja: Catalog = {
   "item.comet": "赤ちゃんすい星",
   "item.robodog": "ロボ子犬",
   "item.ufo": "ちいさなUFO",
+  "paywall.trial": "新規登録の方は{n}日間無料、その後は表示の料金です。期間が終わる前に解約すれば、料金はかかりません。",
 };
 
 export default ja;

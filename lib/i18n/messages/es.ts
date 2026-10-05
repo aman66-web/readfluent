@@ -938,6 +938,7 @@ const es: Catalog = {
   "item.comet": "Cometa bebé",
   "item.robodog": "Robo-perrito",
   "item.ufo": "Mini OVNI",
+  "paywall.trial": "Los nuevos suscriptores tienen {n} días gratis y después el precio indicado. Si cancelas antes de que acaben, no pagas nada.",
 };
 
 export default es;

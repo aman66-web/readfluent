@@ -902,6 +902,7 @@ const tr: Catalog = {
   "item.comet": "Bebek kuyruklu yıldız",
   "item.robodog": "Robo-köpek",
   "item.ufo": "Minik UFO",
+  "paywall.trial": "Yeni aboneler {n} gün ücretsiz kullanır, sonra gösterilen fiyat uygulanır. Bitmeden iptal ederseniz hiçbir şey ödemezsiniz.",
 };
 
 export default tr;

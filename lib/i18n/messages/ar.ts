@@ -905,6 +905,7 @@ const ar: Catalog = {
   "item.comet": "مذنّب صغير",
   "item.robodog": "كلب آلي صغير",
   "item.ufo": "طبق طائر صغير",
+  "paywall.trial": "يحصل المشتركون الجدد على {n} أيام مجانًا، ثم السعر المعروض. ألغِ قبل انتهائها ولن تدفع شيئًا.",
 };
 
 export default ar;

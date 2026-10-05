@@ -54,6 +54,9 @@ export const PRICE = {
   yearlyPence: 3999,
 } as const;
 
+/** The free trial both subscriptions start with in the store (owner, 5 Oct 2026): set up in App Store Connect and Play; shown on the paywall. */
+export const TRIAL_DAYS = 7;
+
 /** A price as a plain string, e.g. 599 → "£5.99". */
 export const pounds = (pence: number): string =>
   `£${Math.floor(pence / 100)}.${String(pence % 100).padStart(2, "0")}`;

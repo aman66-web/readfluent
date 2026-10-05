@@ -7,7 +7,7 @@ import { Modal } from "@/components/Modal";
 import { APP_NAME } from "@/lib/brand";
 import { isNative } from "@/lib/auth/native";
 import { useLocale, useT } from "@/lib/i18n/react";
-import { PRICE, pounds } from "@/lib/plan";
+import { PRICE, TRIAL_DAYS, pounds } from "@/lib/plan";
 import { refreshPlan } from "@/lib/pro/state";
 import { orderedPackages } from "@/lib/purchases/packages";
 import { getOfferings, hasProEntitlement, purchasePackage, purchasesAvailable, restorePurchases } from "@/lib/purchases/native";
@@ -151,7 +151,7 @@ export function Paywall({ onClose }: { onClose: () => void }) {
               {native ? <button type="button" onClick={() => void restore()} disabled={busy} className="h-11 text-[14px] font-semibold text-accent">{t("paywall.restore")}</button> : null}
               <button type="button" onClick={onClose} className="h-11 text-[14px] font-semibold text-muted">{t("paywall.notNow")}</button>
             </div>
-            <p className="mt-1 text-center text-[12px] leading-snug text-faint">{t("paywall.cancelAnytime")}</p>
+            <p className="mt-1 text-center text-[12px] leading-snug text-faint">{t("paywall.trial", { n: TRIAL_DAYS })} {t("paywall.cancelAnytime")}</p>
             <p className="mt-1 flex items-center justify-center gap-2 text-[12px] text-faint">
               <Link href="/terms" className="inline-flex h-9 items-center underline underline-offset-2">{t("me.terms")}</Link>
               <span aria-hidden>·</span>

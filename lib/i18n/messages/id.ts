@@ -937,6 +937,7 @@ const indonesian: Catalog = {
   "item.comet": "Komet mungil",
   "item.robodog": "Robo-anjing",
   "item.ufo": "UFO mungil",
+  "paywall.trial": "Pelanggan baru mendapat {n} hari gratis, lalu harga yang tertera. Batalkan sebelum berakhir dan Anda tidak membayar apa pun.",
 };
 
 export default indonesian;
