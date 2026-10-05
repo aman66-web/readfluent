@@ -85,16 +85,10 @@
 				<string>readfluent</string>
 			</array>
 		</dict>
-		<!-- Google's iOS client id, reversed. Google's own sheet hands the
-		     result back by opening this scheme, so without it the sign-in
-		     completes and then has nowhere to return to. It must stay exactly
-		     in step with iosClientId in lib/auth/google.json. -->
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>com.googleusercontent.apps.REPLACE_WITH_IOS_CLIENT_ID_BEFORE_ENABLING_GOOGLE</string>
-			</array>
-		</dict>
+		<!-- Google's native sheet (lib/auth/native.ts) needs a second scheme here, the iOS client id reversed
+		     (com.googleusercontent.apps.<id>), kept in step with iosClientId in lib/auth/google.json. Left out until that id
+		     exists: a placeholder scheme is rejected by App Store Connect (error 90158), and with no id Google sign-in
+		     uses the system browser and the readfluent scheme above. -->
 	</array>
 	<!-- App-Bound Domains: the sites this app's WebView may load, and the only
 	     way iOS lets a WKWebView run a service worker — which is what keeps a
