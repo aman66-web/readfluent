@@ -1,4 +1,4 @@
-import { sentenceRanges } from "@/lib/reading/sentences";
+import { sentenceRanges, tokenize } from "@/lib/reading/sentences";
 
 /**
  * What a tapped word means in its sentence, from the phone's own translator.
@@ -33,6 +33,62 @@ export function markedAnswer(translated: string, original: string): string | nul
 }
 
 const memo = new Map<string, string | null>();
+const keyOf = (from: string, to: string, marked: string): string => `${from}>${to}|${marked}`;
+
+/** The language to ask in: the reader's own when the phone has it ready, else English; null when neither is. A found answer is kept (a phone that was not ready may be, later). */
+const targets = new Map<string, string>();
+async function pickTarget(from: string, to: string): Promise<string | null> {
+  const k = `${from}>${to}`;
+  const known = targets.get(k);
+  if (known) return known;
+  const { deviceStatus } = await import("./device");
+  const target = (await deviceStatus(from, to)) === "ready" ? to : (await deviceStatus(from, "en")) === "ready" ? "en" : null;
+  if (target) targets.set(k, target);
+  return target;
+}
+
+/**
+ * What is already known about the word at `start`: its meaning, null when the phone could not say, undefined when it has
+ * not been asked yet. Synchronous, so a tap on a word that was prepared shows its card at once.
+ */
+export function peekMeaning(text: string, start: number, word: string, from: string, to: string): string | null | undefined {
+  if (from === to) return null;
+  const m = markWord(text, start, word);
+  if (!m) return null;
+  return memo.get(keyOf(from, to, m.marked));
+}
+
+const preparing = new Map<string, Promise<void>>();
+const PER_PAGE = 120;
+
+/**
+ * Works out the meaning of every word of a page ahead of any tap, in one go (owner, 5 Oct 2026: a tap took ages), so that
+ * tapping a word shows its card at once. Quiet: a phone without a translator, or one that is not ready, does nothing here.
+ */
+export function prepareMeanings(text: string, from: string, to: string): Promise<void> {
+  if (from === to || !text) return Promise.resolve();
+  const pageKey = `${from}>${to}|${text}`;
+  const going = preparing.get(pageKey);
+  if (going) return going;
+  const job = (async () => {
+    const { deviceKind, deviceTranslate } = await import("./device");
+    if (!deviceKind()) return;
+    const asks = new Map<string, string>();
+    for (const t of tokenize(text)) {
+      if (!t.word || asks.size >= PER_PAGE) continue;
+      const m = markWord(text, t.start, t.word);
+      if (m && !memo.has(keyOf(from, to, m.marked))) asks.set(m.marked, t.word);
+    }
+    if (asks.size === 0) return;
+    const target = await pickTarget(from, to);
+    if (!target) return;
+    const marked = [...asks.keys()];
+    const out = await deviceTranslate(marked, from, target);
+    marked.forEach((m, i) => memo.set(keyOf(from, to, m), out[i] ? markedAnswer(out[i], asks.get(m) ?? "") : null));
+  })().catch(() => { /* a tap asks again for itself */ }).finally(() => { preparing.delete(pageKey); });
+  preparing.set(pageKey, job);
+  return job;
+}
 
 /**
  * The meaning of the word at `start` in `text` (a text in `from`), written in `to`. Null when the phone cannot say, and then
@@ -42,13 +98,16 @@ export async function meaningInContext(text: string, start: number, word: string
   if (from === to) return null;
   const m = markWord(text, start, word);
   if (!m) return null;
-  const key = `${from}>${to}|${m.marked}`;
+  const key = keyOf(from, to, m.marked);
   if (memo.has(key)) return memo.get(key) ?? null;
+  // The page is being prepared right now: wait for it (one batch is quicker than one more call), then look again.
+  const going = preparing.get(`${from}>${to}|${text}`);
+  if (going) { await going; if (memo.has(key)) return memo.get(key) ?? null; }
   let out: string | null = null;
   try {
-    const { deviceKind, deviceStatus, deviceTranslate } = await import("./device");
+    const { deviceKind, deviceTranslate } = await import("./device");
     if (!deviceKind()) return null;
-    const target = (await deviceStatus(from, to)) === "ready" ? to : (await deviceStatus(from, "en")) === "ready" ? "en" : null;
+    const target = await pickTarget(from, to);
     if (!target) return null;
     const [translated] = await deviceTranslate([m.marked], from, target);
     out = translated ? markedAnswer(translated, word) : null;

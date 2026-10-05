@@ -8,10 +8,8 @@ import type { Question } from "@/lib/tests/types";
 
 /** Pages in a block: a check is offered each time the reader finishes one. */
 export const BLOCK = 5;
-/** What the reader can pick to be asked; 0 (off) and "ask me" live in the preferences. */
-export const CHECK_COUNTS = [3, 5, 10] as const;
-export type CheckCount = (typeof CHECK_COUNTS)[number];
-export const isCheckCount = (v: unknown): v is CheckCount => (CHECK_COUNTS as readonly unknown[]).includes(v);
+/** How many questions the quiz after five pages asks (nothing for the reader to choose). */
+export const QUIZ_QUESTIONS = 5;
 
 /** A page as the quiz sees it. */
 export interface QuizPage { text: string; translation?: string; keys?: { w: string; en: string }[] }
@@ -35,7 +33,8 @@ export function pageItems(pages: readonly QuizPage[]): Item[] {
   return out;
 }
 
-const ORDER = ["meaning", "gap", "vocab"] as const;
+/** Mostly the words of the five pages, with a sentence question now and then (and in their place when there are too few matched words). */
+const ORDER = ["vocab", "vocab", "meaning", "vocab", "gap"] as const;
 
 /**
  * Up to `count` questions about `asked` (the last pages' items), with wrong answers drawn from `pool` (everything read so far).

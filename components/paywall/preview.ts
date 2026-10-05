@@ -12,12 +12,15 @@ const PLANS: Record<string, { year: number; month: number }> = {
   JPY: { year: 7500, month: 1100 },
 };
 
-export function previewRows(code: string): PlanRow[] {
-  const p = PLANS[code.toUpperCase()] ?? PLANS.GBP;
-  const currency = PLANS[code.toUpperCase()] ? code.toUpperCase() : "GBP";
+/** `GBP`, or `GBP:notrial` for a reader the store says has had the free trial already. */
+export function previewRows(spec: string): PlanRow[] {
+  const [code, flag] = spec.toUpperCase().split(":");
+  const trial = flag === "NOTRIAL" ? null : 7;
+  const p = PLANS[code] ?? PLANS.GBP;
+  const currency = PLANS[code] ? code : "GBP";
   const price = (n: number) => new Intl.NumberFormat("en", { style: "currency", currency, maximumFractionDigits: currency === "JPY" ? 0 : 2 }).format(n);
   return [
-    { id: "preview-annual", kind: "annual", price: price(p.year), amount: p.year, currency, trial: 7, pkg: null },
-    { id: "preview-monthly", kind: "monthly", price: price(p.month), amount: p.month, currency, trial: 7, pkg: null },
+    { id: "preview-annual", kind: "annual", price: price(p.year), amount: p.year, currency, trial, pkg: null },
+    { id: "preview-monthly", kind: "monthly", price: price(p.month), amount: p.month, currency, trial, pkg: null },
   ];
 }

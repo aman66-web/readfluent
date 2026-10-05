@@ -1,6 +1,5 @@
 import type { PurchasesPackage } from "@revenuecat/purchases-capacitor";
-import { LENGTHS } from "@/lib/content/limits";
-import { ALWAYS_FREE, canOpen } from "@/lib/plan";
+import { ALWAYS_FREE, canOpenBook } from "@/lib/plan";
 import { orderedPackages } from "./packages";
 import { getOfferings, trialEligibility } from "./native";
 import { offerTrial, trialDays } from "./trial";
@@ -59,21 +58,30 @@ export function money(amount: number, currency: string, locale: string): string 
   try { return new Intl.NumberFormat(locale, { style: "currency", currency }).format(amount); } catch { return null; }
 }
 
-/** The pages of the longest version a book has, and of the free one: the numbers the table speaks of. */
-export const FULL_PAGES: number = Math.max(...LENGTHS.map((l) => l.pages));
-export const SHORT_PAGES: number = Math.min(...LENGTHS.filter((l) => canOpen(l.pages, "free", false, true)).map((l) => l.pages));
+/** How many different books a free reader may begin: counted from the plan's own rule (lib/plan.ts `canOpenBook`), not copied from a constant. */
+export function freeBookCount(): number {
+  let n = 0;
+  while (n < 1000 && canOpenBook("free", false, n, true)) n += 1;
+  return n;
+}
 
-export type CompareRow = { id: "short" | "full" | "keep"; key: "paywall.rowShort" | "paywall.rowFull" | "paywall.rowKeep"; pages?: number; free: boolean; pro: boolean };
+/** Whether a paid reader can begin any number of books (the rule says so for a count no reader will reach). */
+export const proReadsEveryBook = (): boolean => canOpenBook("full", false, 100000, true);
+
+export type CompareRow =
+  | { id: "books"; key: "paywall.rowBooks"; /** What the Free column says, when it is a limit rather than a tick. */ freeLimit: number | null; free: boolean; pro: boolean }
+  | { id: "keep"; key: "paywall.rowKeep"; freeLimit: null; free: boolean; pro: boolean };
 
 /**
- * The Free and Pro columns, taken from the rules rather than written out: a tick is `canOpen` with the gates
- * closed (as they will be once payments are live). The last row is what the plan promises both (ALWAYS_FREE).
- * A row that is not locked would not be here.
+ * The Free and Pro columns, taken from the rules rather than written out. A row is here only because the
+ * rules lock it: the books (free begins `freeBookCount()` of them, Pro begins any), and what both always have
+ * (ALWAYS_FREE). Full-length editions are not a row: a free reader opens the books they begin in full.
  */
 export function compareRows(): CompareRow[] {
+  const limit = freeBookCount();
+  const unlimitedFree = canOpenBook("free", false, 100000, true);
   return [
-    { id: "short", key: "paywall.rowShort", pages: SHORT_PAGES, free: canOpen(SHORT_PAGES, "free", false, true), pro: canOpen(SHORT_PAGES, "full", false, true) },
-    { id: "full", key: "paywall.rowFull", pages: FULL_PAGES, free: canOpen(FULL_PAGES, "free", false, true), pro: canOpen(FULL_PAGES, "full", false, true) },
-    { id: "keep", key: "paywall.rowKeep", free: ALWAYS_FREE.length > 0, pro: ALWAYS_FREE.length > 0 },
+    { id: "books", key: "paywall.rowBooks", freeLimit: unlimitedFree ? null : limit, free: limit > 0, pro: proReadsEveryBook() },
+    { id: "keep", key: "paywall.rowKeep", freeLimit: null, free: ALWAYS_FREE.length > 0, pro: ALWAYS_FREE.length > 0 },
   ];
 }

@@ -138,6 +138,22 @@ export async function restorePurchases(): Promise<RestoreOutcome> {
   }
 }
 
+/**
+ * Resolves true once RevenueCat has been configured (PurchasesBridge does it after it knows who is signed in),
+ * or false if that has not happened within `ms`. The store can only be asked after this.
+ */
+export function whenConfigured(ms = 8000): Promise<boolean> {
+  return new Promise((resolve) => {
+    const started = Date.now();
+    const look = () => {
+      if (configured) resolve(true);
+      else if (Date.now() - started >= ms) resolve(false);
+      else setTimeout(look, 250);
+    };
+    look();
+  });
+}
+
 export async function getCustomerInfo(): Promise<CustomerInfo | null> {
   if (!configured) return null;
   try {

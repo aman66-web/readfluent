@@ -11,7 +11,7 @@ import { isNative } from "@/lib/auth/native";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { refreshPlan } from "@/lib/pro/state";
 import { hasProEntitlement, purchasePackage, purchasesAvailable, restorePurchases } from "@/lib/purchases/native";
-import { SHORT_PAGES, compareRows, loadPlanRows, money, savingOf, type PlanRow } from "@/lib/purchases/offer";
+import { compareRows, freeBookCount, loadPlanRows, money, savingOf, type PlanRow } from "@/lib/purchases/offer";
 
 export { savingPercent } from "@/lib/purchases/offer";
 
@@ -152,7 +152,7 @@ export function Paywall({ onClose, rows: given = null, preview }: {
                   {WHY.map((k, i) => (
                     <li key={k} className="flex gap-3 text-[14px] leading-snug text-foreground/80">
                       <span className="offer-num tabular mt-px grid size-[22px] shrink-0 place-items-center rounded-full text-[12px] font-bold">{i + 1}</span>
-                      <span className="min-w-0">{t(k, { pages: SHORT_PAGES })}</span>
+                      <span className="min-w-0">{t(k, { n: freeBookCount() })}</span>
                     </li>
                   ))}
                 </ol>
@@ -190,7 +190,7 @@ export function Paywall({ onClose, rows: given = null, preview }: {
                         {week && <span className="offer-week mt-0.5 block text-[13px] font-bold leading-snug">{t("paywall.perWeek", { price: week })}</span>}
                         {(r.trial || month) && (
                           <span className="mt-0.5 block text-[12.5px] leading-snug text-foreground/60">
-                            {r.trial ? t("paywall.trialDays", { n: r.trial }) : null}
+                            {r.trial ? t("paywall.trialBadge", { n: r.trial }) : null}
                             {r.trial && month ? " · " : null}
                             {month ? t("paywall.monthBilledYearly", { price: month }) : null}
                           </span>
@@ -242,7 +242,7 @@ export function Paywall({ onClose, rows: given = null, preview }: {
 
 const WHY = ["paywall.why1", "paywall.why2", "paywall.why3"] as const;
 
-/** Free and Pro, side by side. A row is here only if the rules lock it (lib/purchases/offer.ts reads them from lib/plan.ts). */
+/** Free and Pro, side by side. A row is here only if the rules lock it, and what Free gets of it is read from them (lib/purchases/offer.ts reads lib/plan.ts). */
 function Compare() {
   const t = useT();
   return (
@@ -251,13 +251,17 @@ function Compare() {
       <div className="offer-card mt-3 overflow-hidden rounded-[22px]">
         <div className="flex items-center px-4 pb-2 pt-3.5 text-[11.5px] font-bold uppercase tracking-[0.1em]">
           <span className="flex-1" />
-          <span className="w-12 text-center text-foreground/65">{t("paywall.colFree")}</span>
+          <span className="w-14 text-center text-foreground/65">{t("paywall.colFree")}</span>
           <span className="offer-pro-col w-12 text-center">PRO</span>
         </div>
         {compareRows().map((r, i) => (
           <div key={r.id} className={`flex items-center gap-2 px-4 py-3 ${i ? "border-t border-white/[0.07]" : ""}`}>
-            <span className="min-w-0 flex-1 text-[14px] font-medium leading-snug">{t(r.key, { pages: r.pages ?? 0 })}</span>
-            <span className="grid w-12 shrink-0 place-items-center">{r.free ? <Tick dim /> : <span className="h-[2px] w-3 rounded-full bg-white/25" aria-label="–" role="img" />}</span>
+            <span className="min-w-0 flex-1 text-[14px] font-medium leading-snug">{t(r.key)}</span>
+            <span className="grid w-14 shrink-0 place-items-center">
+              {r.freeLimit !== null
+                ? <span className="text-center text-[11px] font-semibold leading-tight text-foreground/70">{t("paywall.freeBooks", { n: r.freeLimit })}</span>
+                : r.free ? <Tick dim /> : <span className="h-[2px] w-3 rounded-full bg-white/25" aria-label="–" role="img" />}
+            </span>
             <span className="grid w-12 shrink-0 place-items-center">{r.pro ? <Tick /> : <span className="h-[2px] w-3 rounded-full bg-white/25" aria-hidden />}</span>
           </div>
         ))}

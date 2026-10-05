@@ -6,6 +6,7 @@ import { usePageKeys } from "@/components/reader/usePageKeys";
 import { keySpans } from "@/lib/reading/keys";
 import type { WordEntry } from "@/lib/preview/spanish";
 import { useSentenceMeaning } from "@/components/reader/useSentenceMeaning";
+import { prepareMeanings } from "@/lib/translate/context";
 import { BackLink } from "@/components/BackLink";
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { ObjectPhoto } from "@/components/ObjectPhoto";
@@ -170,6 +171,22 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   }, [total]);
   const step = useCallback((by: number) => goTo((heading.current ?? shown.current) + by), [goTo]);
 
+  // Every word's meaning is worked out as a page comes near, so a tap shows its card at once (lib/translate/context.ts).
+  useEffect(() => {
+    if (!interactive || variant.lang === locale) return;
+    let live = true;
+    void (async () => {
+      for (const at of [index, index + 1, index + 2]) {
+        const text = pages[at]?.text;
+        if (!live || !text) break;
+        await prepareMeanings(text, variant.lang, locale);
+      }
+    })();
+    return () => { live = false; };
+    // `pages` changes as keys are worked out; the page's text does not.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [index, interactive, variant.lang, locale, variant.pages]);
+
   // ── word taps ──
   const [sel, setSel] = useState<{ page: number; word: string; start: number; /** Set for a phrase that means something only as a whole: where it ends. */ end?: number } | null>(null);
   const [slow, setSlow] = useState(false);
@@ -179,6 +196,8 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   // Pluto cheering now and then, and the quick check offered after every five pages (components/reader/MiniCheck.tsx).
   const [cheer, setCheer] = useState<Cheer | null>(null);
   const [check, setCheck] = useState<{ block: number } | null>(null);
+  const checkTimer = useRef(0);
+  useEffect(() => () => window.clearTimeout(checkTimer.current), []);
   const welcomed = useRef(false);
   const prevIndex = useRef(0);
   const lastCheer = useRef(-99);
@@ -352,21 +371,22 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
     prevIndex.current = index;
     if (from === index || total === 0 || index >= total) return;
     const block = blockFinished(index, from);
-    if (block !== null && prefs.check !== 0 && block > lastBlock(version)) {
-      markBlock(version, block);
-      const id = window.setTimeout(() => { setCheer(null); setCheck({ block }); }, 700);
-      return () => window.clearTimeout(id);
+    if (block !== null && prefs.quiz && block > lastBlock(version)) {
+      // Not undone when something else re-renders in the next moment (the block is marked only once the check is shown).
+      window.clearTimeout(checkTimer.current);
+      checkTimer.current = window.setTimeout(() => { markBlock(version, block); setCheer(null); setCheck({ block }); }, 450);
+      return;
     }
     if (prefs.cheers && index > from) {
       const c = cheerFor(index, total, lastCheer.current);
       if (c) { lastCheer.current = index; const id = window.setTimeout(() => setCheer(c), 900); return () => window.clearTimeout(id); }
     }
-  }, [index, total, version, prefs.check, prefs.cheers]);
+  }, [index, total, version, prefs.quiz, prefs.cheers]);
   const quizPages = useMemo(() => {
     if (!check) return null;
-    const end = check.block * BLOCK;
+    const end = Math.min(check.block * BLOCK, pages.length);
     const q = (p: ReaderPage): QuizPage => ({ text: p.text, translation: p.target?.translation, keys: p.target?.keys });
-    return { asked: pages.slice(end - BLOCK, end).map(q), pool: pages.slice(Math.max(0, end - 40), end).map(q) };
+    return { asked: pages.slice(Math.max(0, end - BLOCK), end).map(q), pool: pages.slice(Math.max(0, end - 40), end).map(q) };
   }, [check, pages]);
   useEffect(() => {
     if (total === 0 || index >= total) return;
@@ -601,7 +621,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
       )}
       {check && quizPages && (
         <MiniCheck asked={quizPages.asked} pool={quizPages.pool} lang={variant.lang} level={BAND_TOP[levelId] ?? "A2"} seed={check.block * 7919 + version.length}
-                   pref={prefs.check} show={(x) => (roman.convert ? romanText(x, roman.convert) : x)} onLevelUp={setLevelUp} onClose={() => setCheck(null)} />
+                   show={(x) => (roman.convert ? romanText(x, roman.convert) : x)} onLevelUp={setLevelUp} onClose={() => setCheck(null)} />
       )}
 
       {toast && (

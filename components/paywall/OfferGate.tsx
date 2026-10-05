@@ -5,7 +5,7 @@ import { dbConfigured } from "@/lib/db/env";
 import { createClient } from "@/lib/db/client";
 import { ONBOARDED_COOKIE } from "@/lib/onboarding";
 import { markOfferSeen, offerSeen, release } from "@/lib/pro/offer";
-import { getCustomerInfo, hasProEntitlement, purchasesAvailable } from "@/lib/purchases/native";
+import { getCustomerInfo, hasProEntitlement, purchasesAvailable, whenConfigured } from "@/lib/purchases/native";
 import { loadPlanRows, type PlanRow } from "@/lib/purchases/offer";
 import { readTour } from "@/lib/tour/state";
 import { Paywall } from "./Paywall";
@@ -30,15 +30,22 @@ export function OfferGate() {
     if (!purchasesAvailable() || offerSeen()) { release(); return; }
     // The first run is not over yet (it sets this cookie when it ends): nothing to do on its screens.
     if (!onboarded()) return;
+    // The tour begins on the home screen; opened anywhere else (a link, a restored page), it does not start yet, and nor does the offer.
+    if (window.location.pathname !== "/") { release(); return; }
     let live = true;
-    const safety = window.setTimeout(release, 15000);
+    const safety = window.setTimeout(release, 25000);
     (async () => {
-      // A reader who has already done or skipped the tour does not get the offer in front of it ever after.
-      if (readTour().done) { markOfferSeen(); return; }
-      // Somebody who can't be told from Pro is not shown it (and it is not used up).
+      // A reader who has already begun, done or skipped the tour does not get the offer in front of it ever after.
+      const tour = readTour();
+      if (tour.done || tour.step > 0) { markOfferSeen(); return; }
+      // The store can only be asked once RevenueCat knows who is signed in.
+      if (!(await whenConfigured())) { release(); return; }
+      if (!live) return;
+      // Somebody who cannot be told from Pro is not shown it (and it is not used up); Pro is never shown it.
       const info = await within(getCustomerInfo(), 6000);
       if (!live) return;
-      if (info && hasProEntitlement(info)) { markOfferSeen(); return; }
+      if (!info) { release(); return; }
+      if (hasProEntitlement(info)) { markOfferSeen(); return; }
       if (dbConfigured()) {
         const user = await within(createClient().auth.getUser().then((r) => r.data.user), 6000);
         if (!live) return;

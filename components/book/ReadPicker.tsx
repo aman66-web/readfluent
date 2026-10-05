@@ -9,9 +9,9 @@ import { Pathway, PART_SIZE, type OutlineItem } from "@/components/book/Pathway"
 import { useOutline } from "@/components/book/useOutline";
 import { Paywall } from "@/components/paywall/Paywall";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
-import { canOpen } from "@/lib/plan";
+import { canOpenBook } from "@/lib/plan";
 import { usePlan } from "@/lib/pro/state";
-import { CHOICE_KEY, PROGRESS_KEY, parseChoice, parseProgress, readPage, saveChoice, savePage, versionKey } from "@/lib/progress";
+import { CHOICE_KEY, PROGRESS_KEY, parseChoice, parseProgress, readPage, saveChoice, savePage, startedBooks, versionKey } from "@/lib/progress";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 
 const subscribeChoice = subscribeTo(CHOICE_KEY);
@@ -67,11 +67,12 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
 
   const levelSlug = LEVELS.find((l) => l.id === level)!.slug;
   const reached = useMemo(() => parseProgress(progressRaw)[versionKey(slug, level, length)], [progressRaw, slug, level, length]);
-  // A version already begun stays open; a longer one asks for the plan (lib/plan.ts; closed only once payments are live).
-  const locked = (n: Length) => !canOpen(n, plan, readPage(slug, level, n) !== undefined);
+  // A book already begun stays open; a free reader may begin two, and the next asks for the plan (lib/plan.ts; closed only once payments are live).
+  const begun = useMemo(() => startedBooks(parseProgress(progressRaw)), [progressRaw]);
+  const locked = !canOpenBook(plan, begun.includes(slug.replace(/\.[a-z]{2,3}$/, "")), begun.length);
   // `page` is where to open it: a tap on the path opens there; the Read button carries on from where they were.
   const start = (page?: number) => {
-    if (locked(length)) { setPaywall(true); return; }
+    if (locked) { setPaywall(true); return; }
     saveChoice(slug, level, length);
     if (page !== undefined) savePage(slug, level, length, page);
     router.push(`/read/${slug}/${levelSlug}/${length}`);

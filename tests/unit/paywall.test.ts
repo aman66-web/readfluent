@@ -29,32 +29,31 @@ describe("the blurb under a cover", () => {
   });
 });
 
-import { ALWAYS_FREE, FREE_LENGTHS, canOpen } from "@/lib/plan";
-import { FULL_PAGES, SHORT_PAGES, compareRows, money, savingOf, type PlanRow } from "@/lib/purchases/offer";
+import { ALWAYS_FREE, FREE_BOOKS, canOpenBook } from "@/lib/plan";
+import { compareRows, freeBookCount, money, proReadsEveryBook, savingOf, type PlanRow } from "@/lib/purchases/offer";
 import { offerTrial, trialDays } from "@/lib/purchases/trial";
 
 const plan = (kind: PlanRow["kind"], amount: number, currency = "GBP", trial: number | null = 7): PlanRow => ({ id: kind, kind, price: "", amount, currency, trial, pkg: null });
 
 describe("the Free and Pro table is the plan's rules, not a list written by hand", () => {
-  it("ticks Free only for what canOpen lets a free reader open once payments are live", () => {
-    const rows = compareRows();
-    const short = rows.find((r) => r.id === "short")!;
-    const full = rows.find((r) => r.id === "full")!;
-    expect(short.pages).toBe(SHORT_PAGES);
-    expect(FREE_LENGTHS).toContain(SHORT_PAGES);
-    expect(short.free).toBe(canOpen(SHORT_PAGES, "free", false, true));
-    expect(full.pages).toBe(FULL_PAGES);
-    expect(full.free).toBe(canOpen(FULL_PAGES, "free", false, true));
-    expect(full.free).toBe(false);
-    expect(full.pro).toBe(true);
+  it("says free readers may begin as many books as canOpenBook lets them, once payments are live", () => {
+    expect(freeBookCount()).toBe(FREE_BOOKS);
+    expect(canOpenBook("free", false, freeBookCount() - 1, true)).toBe(true);
+    expect(canOpenBook("free", false, freeBookCount(), true)).toBe(false);
+    const books = compareRows().find((r) => r.id === "books")!;
+    expect(books.freeLimit).toBe(FREE_BOOKS);
+    expect(books.pro).toBe(true);
+    expect(proReadsEveryBook()).toBe(true);
   });
-  it("never lists something as Pro-only that a free reader can open", () => {
-    for (const r of compareRows()) if (r.pages !== undefined && r.free) expect(canOpen(r.pages, "free", false, true)).toBe(true);
+  it("has no row for something a free reader already has, so nothing is claimed as Pro-only that is not locked", () => {
+    // Full-length editions are not locked: a free reader opens the books they begin in full. Only the count of books is.
+    expect(compareRows().map((r) => r.id)).toEqual(["books", "keep"]);
   });
   it("keeps the promise that progress, word cards and flashcards are free for both", () => {
     const keep = compareRows().find((r) => r.id === "keep")!;
     expect(ALWAYS_FREE.length).toBeGreaterThan(0);
     expect(keep.free && keep.pro).toBe(true);
+    expect(keep.freeLimit).toBeNull();
   });
 });
 

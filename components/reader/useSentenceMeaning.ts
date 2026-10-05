@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { deviceKind } from "@/lib/translate/device";
-import { meaningInContext } from "@/lib/translate/context";
+import { meaningInContext, peekMeaning } from "@/lib/translate/context";
 
 /**
  * What the tapped word means in its sentence, in the reader's language (lib/translate/context.ts).
@@ -22,6 +22,9 @@ export function useSentenceMeaning(tap: { text: string; start: number; word: str
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key, from, to, canAsk]);
   if (!canAsk) return { pending: false };
+  // Prepared ahead (components/Reader.tsx asks for each page's words as it opens): the card has it at once.
+  const ready = tap ? peekMeaning(tap.text, tap.start, tap.word, from, to) : undefined;
+  if (ready !== undefined) return ready ? { text: ready, pending: false } : { pending: false };
   if (got?.key !== key) return { pending: true };
   return got.text ? { text: got.text, pending: false } : { pending: false };
 }

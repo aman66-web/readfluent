@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { ALWAYS_FREE, FREE_LENGTHS, PAYMENTS_LIVE, PLANS, PRICE, canOpen, effectivePlan, parsePlan, pounds } from "@/lib/plan";
+import { ALWAYS_FREE, FREE_BOOKS, PAYMENTS_LIVE, PLANS, PRICE, canOpenBook, effectivePlan, parsePlan, pounds } from "@/lib/plan";
 
 describe("what a plan opens", () => {
   it("never gates what the reader has already earned", () => {
@@ -39,31 +39,26 @@ describe("what a plan opens", () => {
   });
 });
 
-describe("which versions a reader may open", () => {
-  it("opens the free samples to everyone: the 50-page versions", () => {
-    expect(FREE_LENGTHS).toEqual([50]);
+describe("which books a reader may open", () => {
+  it("lets a free reader begin two books", () => {
+    expect(FREE_BOOKS).toBe(2);
   });
 
   it("opens everything while the gates are not live", () => {
-    for (const length of [50, 100, 200]) expect(canOpen(length, "free")).toBe(true);
+    expect(canOpenBook("free", false, 5)).toBe(true);
   });
 
-  it("applies the rule when they are live: free reads 50, full reads all", () => {
-    expect(canOpen(50, "free", false, true)).toBe(true);
-    expect(canOpen(100, "free", false, true)).toBe(false);
-    expect(canOpen(200, "free", false, true)).toBe(false);
-    expect(canOpen(100, "full", false, true)).toBe(true);
-    expect(canOpen(200, "full", false, true)).toBe(true);
+  it("applies the rule when they are live: free begins two books, full reads all", () => {
+    expect(canOpenBook("free", false, 0, true)).toBe(true);
+    expect(canOpenBook("free", false, 1, true)).toBe(true);
+    expect(canOpenBook("free", false, 2, true)).toBe(false);
+    expect(canOpenBook("free", false, 9, true)).toBe(false);
+    expect(canOpenBook("full", false, 9, true)).toBe(true);
   });
 
-  it("keeps a version already started open, whatever the plan", () => {
-    expect(canOpen(200, "free", true, true)).toBe(true);
-    expect(canOpen(100, "free", true, true)).toBe(true);
-  });
-
-  it("is not fooled by a length that is not one of the three", () => {
-    expect(canOpen(75, "free", false, true)).toBe(false);
-    expect(canOpen(0, "free", false, true)).toBe(false);
+  it("keeps a book already begun open, whatever the plan and the count", () => {
+    expect(canOpenBook("free", true, 2, true)).toBe(true);
+    expect(canOpenBook("free", true, 9, true)).toBe(true);
   });
 });
 
