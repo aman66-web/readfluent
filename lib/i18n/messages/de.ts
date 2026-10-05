@@ -146,11 +146,10 @@ const de: Catalog = {
 
   /* ── sign in ── */
   "account.line": "Anmelden oder registrieren",
-  "account.sub": "Dein Lesestand und deine Wörter, auf jedem Gerät.",
-  "account.off": "Konten sind noch nicht aktiviert. Dein Lesestand bleibt auf diesem Gerät, und du kannst dich später anmelden.",
-  "account.failed": "Die Anmeldung hat nicht geklappt. Versuch es noch einmal oder mach ohne Konto weiter.",
+  "account.sub": "Zum Lesen brauchst du ein Konto. Es ist kostenlos und dauert nur einen Moment.",
+  "account.off": "In dieser Version der App ist kein Kontodienst verbunden, deshalb öffnet sie sich ohne Konto.",
+  "account.failed": "Die Anmeldung hat nicht geklappt. Versuch es bitte noch einmal.",
   "account.or": "oder mit deiner E-Mail",
-  "account.notNow": "Nicht jetzt",
   "account.signingIn": "Anmeldung läuft …",
   "account.google": "Weiter mit Google",
   "account.apple": "Weiter mit Apple",
@@ -168,8 +167,7 @@ const de: Catalog = {
   "email.badPassword": "Das Passwort stimmt nicht.",
   "email.sendFailed": "Der Code konnte nicht gesendet werden. Prüfe deine Verbindung und versuch es noch einmal.",
   "email.badCode": "Der Code stimmt nicht. Prüf ihn und versuch es noch einmal.",
-  "notice.signInFailed": "Die Anmeldung hat nicht geklappt. Du kannst ohne Konto weiterlesen und es später noch einmal versuchen.",
-
+  "notice.signInFailed": "Die Anmeldung hat nicht geklappt. Versuch es bitte noch einmal.",
   /* ── interests and the end of the run ── */
   "interests.line": "Was interessiert dich?",
   "interests.sub": "Wähle ein paar aus. Sie bestimmen, mit welchem Regal sich die Bibliothek öffnet. Nichts wird ausgeblendet, und du kannst es jederzeit ändern.",
@@ -726,7 +724,7 @@ const de: Catalog = {
   "offline.body": "Das ist nicht heruntergeladen und braucht deshalb eine Verbindung. Alles, was du heruntergeladen hast, lässt sich weiterhin öffnen.",
   "offline.back": "Zurück zur App",
   "privacy.title": "Datenschutz",
-  "privacy.p1": "{app} speichert auf deinem Gerät, wo du in jedem Buch bist, und deine Einstellungen. Wenn du dich anmeldest, werden dein Fortschritt und der angegebene Name auch in deinem Konto gespeichert, damit sie dir auf ein anderes Handy folgen.",
+  "privacy.p1": "{app} braucht ein Konto. Auf deinem Gerät wird gespeichert, wo du in jedem Buch bist, und deine Einstellungen; dein Fortschritt und der angegebene Name werden auch in deinem Konto gespeichert, damit sie dir auf ein anderes Handy folgen.",
   "privacy.p2": "Das ist eine kurze Zusammenfassung. Die vollständige Richtlinie folgt auf Englisch.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspiriert von {author}.",

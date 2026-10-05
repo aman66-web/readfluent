@@ -154,11 +154,10 @@ export const EN = {
 
   /* ── sign in ── */
   "account.line": "Sign in or sign up",
-  "account.sub": "Your reading and your words, on every device.",
-  "account.off": "Accounts aren't switched on yet. Your reading stays on this device, and you can sign in later.",
-  "account.failed": "Signing in didn't work. Try again, or carry on without an account.",
+  "account.sub": "You need an account to read here. It's free and takes a moment.",
+  "account.off": "No account service is connected in this copy of the app, so it opens without one.",
+  "account.failed": "Signing in didn't work. Please try again.",
   "account.or": "or with your email",
-  "account.notNow": "Not now",
   "account.signingIn": "Signing in…",
   "account.google": "Continue with Google",
   "account.apple": "Continue with Apple",
@@ -176,8 +175,7 @@ export const EN = {
   "email.badPassword": "That password isn't right.",
   "email.sendFailed": "Couldn't send a code. Check your connection and try again.",
   "email.badCode": "That code isn't right. Check it and try again.",
-  "notice.signInFailed": "Signing in didn't work. You can keep reading without an account and try again later.",
-
+  "notice.signInFailed": "Signing in didn't work. Please try again.",
   /* ── interests and the end of the run ── */
   "interests.line": "What are you curious about?",
   "interests.sub": "Pick a few. It decides which shelf the library opens on. Nothing is hidden, and you can change it whenever you like.",
@@ -734,7 +732,7 @@ export const EN = {
   "offline.body": "This isn't downloaded, so it needs a connection. Anything you've downloaded still opens.",
   "offline.back": "Back to the app",
   "privacy.title": "Privacy",
-  "privacy.p1": "{app} keeps where you are in each book, and your settings, on your own device. If you sign in, your progress and the name you give are also kept in your account so they can follow you to another phone.",
+  "privacy.p1": "{app} needs an account. It keeps where you are in each book, and your settings, on your own device, and your progress and the name you give are also kept in your account so they can follow you to another phone.",
   "privacy.p2": "This is a short summary. The full policy, in English, follows.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspired by {author}.",

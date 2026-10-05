@@ -256,7 +256,7 @@ Events: `version_opened {slug, level, length}`, `page_reached {n}`, `version_fin
 Each has a working default in DECISIONS.md so the build isn't blocked.
 
 - **Pricing** — e.g. free 50-page samples with a paid upgrade.
-- **Accounts** — optional by default (anonymous-first, the template's behaviour).
+- **Accounts** — required (owner, 6 Oct 2026; was optional/anonymous-first). A real account is needed for everything but the first run and the legal pages.
 - **Offline reading** — explicit download only.
 - **First translation languages.**
 - **Launch phones** — iOS, Android, or both first.

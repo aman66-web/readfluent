@@ -7,8 +7,8 @@ import { createClient } from "@/lib/db/server";
  * with `?code=`, the code is traded for a session on the server — so the
  * cookies are set before any page renders — and the browser goes on to
  * `?next=` (a path on this site; anything else is the home screen). Anything
- * that fails lands on the home screen with `?error=auth`, which says so and
- * lets the reader carry on without.
+ * that fails lands on the sign-in with `?error=auth`, which says so (signing in
+ * is required, so there is nothing to carry on without).
  *
  * The emailed code does not come through here: it is a session the moment
  * `verifyOtp` accepts it, on whatever screen asked for it, with no redirect

@@ -146,11 +146,10 @@ const ko: Catalog = {
 
   /* ── sign in ── */
   "account.line": "로그인 또는 가입",
-  "account.sub": "내 독서와 단어를 모든 기기에서.",
-  "account.off": "아직 계정 기능이 켜져 있지 않아요. 독서 기록은 이 기기에 남고, 나중에 로그인할 수 있어요.",
-  "account.failed": "로그인하지 못했어요. 다시 시도하거나 계정 없이 계속해 주세요.",
+  "account.sub": "여기서 읽으려면 계정이 필요해요. 무료이고 잠깐이면 돼요.",
+  "account.off": "이 앱에는 계정 서비스가 연결되어 있지 않아서 계정 없이 열려요.",
+  "account.failed": "로그인하지 못했어요. 다시 시도해 주세요.",
   "account.or": "또는 이메일로",
-  "account.notNow": "나중에",
   "account.signingIn": "로그인 중…",
   "account.google": "Google로 계속하기",
   "account.apple": "Apple로 계속하기",
@@ -168,8 +167,7 @@ const ko: Catalog = {
   "email.badPassword": "비밀번호가 맞지 않아요.",
   "email.sendFailed": "코드를 보내지 못했어요. 연결을 확인하고 다시 시도해 주세요.",
   "email.badCode": "코드가 맞지 않아요. 확인하고 다시 시도해 주세요.",
-  "notice.signInFailed": "로그인하지 못했어요. 계정 없이 계속 읽다가 나중에 다시 시도해 보세요.",
-
+  "notice.signInFailed": "로그인하지 못했어요. 다시 시도해 주세요.",
   /* ── interests and the end of the run ── */
   "interests.line": "어떤 것에 관심이 있나요?",
   "interests.sub": "몇 가지 골라 보세요. 서재가 처음에 열리는 책장이 정해져요. 숨겨지는 책장은 없고, 언제든 바꿀 수 있어요.",
@@ -726,7 +724,7 @@ const ko: Catalog = {
   "offline.body": "아직 다운로드하지 않아서 연결이 필요해요. 다운로드한 것은 그대로 열려요.",
   "offline.back": "앱으로 돌아가기",
   "privacy.title": "개인정보",
-  "privacy.p1": "{app}은 각 책에서 읽은 위치와 설정을 기기에 저장해요. 로그인하면 진행 상황과 입력한 이름이 계정에도 저장되어 다른 휴대폰에서도 이어져요.",
+  "privacy.p1": "{app}을 쓰려면 계정이 필요해요. 각 책에서 읽은 위치와 설정은 기기에 저장되고, 진행 상황과 입력한 이름은 계정에도 저장되어 다른 휴대폰에서도 이어져요.",
   "privacy.p2": "짧은 요약이에요. 전체 정책은 영어로 아래에 이어져요.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "{author}에서 영감을 받았습니다.",

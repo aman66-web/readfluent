@@ -218,7 +218,7 @@ export function ProfileView() {
           <Row>
             <p className="text-[13.5px] leading-snug text-muted">{t("me.signInHint")}</p>
             {signing ? (
-              <div className="ob mt-3 rounded-[18px] p-3"><SignIn error={false} next="/me" onNext={() => window.location.reload()} onSkip={() => setSigning(false)} /></div>
+              <div className="ob mt-3 rounded-[18px] p-3"><SignIn error={false} next="/me" onNext={() => window.location.reload()} /></div>
             ) : (
               <button type="button" onClick={() => setSigning(true)} className="mt-3 h-12 w-full btn-cyan rounded-full text-[15px] font-bold">{t("account.line")}</button>
             )}

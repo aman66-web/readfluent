@@ -79,7 +79,8 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
   /** Which step of the run this is, and how many there are, for the progress. */
   at: number;
   of: number;
-  onBack: () => void;
+  /** Absent where there is nothing to go back to (the sign-in a reopened app lands on): the arrow is left out, its place kept. */
+  onBack?: () => void;
   onContinue: () => void;
   /** Off until the screen has what it asks for. */
   canContinue?: boolean;
@@ -100,10 +101,12 @@ export function GuideFrame({ at, of, onBack, onContinue, canContinue = true, sho
             if (hit && !hit.closest("[data-guide-nav]")) setTaps((n) => n + 1);
           }}>
       <div data-guide-nav className="relative flex shrink-0 items-center gap-3">
-        <button type="button" onClick={onBack} aria-label={t("ui.back")}
-                className="-ms-2.5 grid size-11 shrink-0 place-items-center rounded-full transition-colors active:bg-black/5">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
-        </button>
+        {onBack ? (
+          <button type="button" onClick={onBack} aria-label={t("ui.back")}
+                  className="-ms-2.5 grid size-11 shrink-0 place-items-center rounded-full transition-colors active:bg-black/5">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
+          </button>
+        ) : <span className="-ms-2.5 size-11 shrink-0" aria-hidden />}
         {/* The run's steps, one strip each; the ones behind are lit. */}
         {progress ? (
           <div className="flex flex-1 gap-1.5" role="progressbar" aria-valuemin={1} aria-valuemax={of} aria-valuenow={at + 1} aria-label={t("guide.progress")}>

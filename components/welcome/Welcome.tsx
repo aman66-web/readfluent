@@ -6,6 +6,7 @@ import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "reac
 import { FirstScreen } from "@/components/welcome/FirstScreen";
 import { GoScreen, HeardScreen, HelloScreen, QuickScreen } from "@/components/onboarding/Questions";
 import { AppLanguageScreen } from "@/components/onboarding/AppLanguage";
+import { useAccount } from "@/components/onboarding/useAccount";
 import { TonguesScreen } from "@/components/onboarding/Tongues";
 import { markOnboarded } from "@/lib/onboarding";
 import {
@@ -25,7 +26,7 @@ import { setGates, startAt } from "@/lib/xp/ledger";
  * sign in or sign up, what you are curious about, and the library being
  * set up — which saves the answers and opens the library.
  *
- * Every step can be skipped and Back always works. The progress bar counts exactly
+ * Every step can be skipped except the sign-in (an account is required, and the steps after it only open with one), and Back always works. The progress bar counts exactly
  * these steps. `/welcome?step=<id>` opens any step directly (lib/onboarding/steps.ts),
  * which is also how a provider sign-in comes back and how a screen is looked at.
  * Nothing is typed except the optional "somewhere else" and the sign-in itself.
@@ -57,8 +58,12 @@ const PledgeScreen = dynamic(() => loaders.plan().then((m) => m.PledgeScreen));
 const AccountScreen = dynamic(() => loaders.last().then((m) => m.AccountScreen));
 const InterestsScreen = dynamic(() => loaders.last().then((m) => m.InterestsScreen));
 
-export function Welcome({ initialStep, authError, built, signedIn }: {
+const ACCOUNT_STEP = STEP_IDS.indexOf("account");
+
+export function Welcome({ initialStep, authError, built, signedIn, onboarded }: {
   initialStep: number;
+  /** This device has been through the first run before (it has the first-screen cookie): the sign-in is then all it is here for. */
+  onboarded: boolean;
   /** A provider sign-in that failed comes back to `?step=account&error=auth`. */
   authError: boolean;
   /** Back from the level test: the library was already built once. */
@@ -67,6 +72,13 @@ export function Welcome({ initialStep, authError, built, signedIn }: {
   signedIn: boolean;
 }) {
   const router = useRouter();
+  // Signing in is required: the steps after the sign-in only open with an account (lib/auth/gate, and the proxy
+  // behind it). `account` is what this device knows; a step past the sign-in is never shown without one.
+  const account = useAccount();
+  const accountRef = useRef(account);
+  useEffect(() => { accountRef.current = account; }, [account]);
+  // A reopened or signed-out app lands straight on the sign-in: nothing before it to go back to, and after it the app itself.
+  const returning = useRef(onboarded && initialStep === ACCOUNT_STEP);
   const [i, setI] = useState(initialStep);
   const iRef = useRef(initialStep);
   useEffect(() => { iRef.current = i; });
@@ -99,6 +111,11 @@ export function Welcome({ initialStep, authError, built, signedIn }: {
   const next = () => {
     if (settling()) return;
     if (last) { finish(); return; }
+    // Only a finished sign-in moves on from the sign-in (its buttons call this once they have an account).
+    if (step === "account") {
+      accountRef.current = "yes";
+      if (returning.current) { window.location.replace(AFTER_ONBOARDING); return; }
+    }
     const mode = isInterlude(step) ? "replace" : "push";
     // Signed in before any question was asked: the questions come now, and the sign-in screen is not shown twice.
     if (step === "account" && !a.learn && (jumpedFrom.current !== null || signedEarly.current)) {
@@ -121,6 +138,8 @@ export function Welcome({ initialStep, authError, built, signedIn }: {
      answers are reported once (only the choices), and the first screen is marked
      seen so the front door stops sending this device here. */
   const finish = () => {
+    // No way into the app without an account: the run ends only once one exists.
+    if (accountRef.current === "no") { go(ACCOUNT_STEP); return; }
     reportFirstRun(a, minutes);
     // Their XP starts at the floor of the level they said or the test found.
     startAt(a.level);
@@ -135,7 +154,12 @@ export function Welcome({ initialStep, authError, built, signedIn }: {
   // The phone's Back (or a swipe) walks back through the steps; a screen that moves on by itself is never landed on.
   useEffect(() => {
     const onPop = () => {
-      const to = stepIndex(new URLSearchParams(window.location.search).get("step"));
+      let to = stepIndex(new URLSearchParams(window.location.search).get("step"));
+      // The phone's Back or Forward must not carry somebody past the sign-in without an account.
+      if (to > ACCOUNT_STEP && accountRef.current !== "yes") {
+        to = ACCOUNT_STEP;
+        window.history.replaceState(null, "", `/welcome?step=${STEP_IDS[to]}`);
+      }
       pushed.current = Math.max(0, pushed.current + (to < iRef.current ? -1 : 1));
       changedAt.current = Date.now();
       if (isInterlude(STEP_IDS[to])) {
@@ -150,6 +174,11 @@ export function Welcome({ initialStep, authError, built, signedIn }: {
     window.addEventListener("popstate", onPop);
     return () => window.removeEventListener("popstate", onPop);
   }, []);
+
+  // A step past the sign-in is never left on screen once it is known there is no account (signed out in another tab, say).
+  useEffect(() => {
+    if (account === "no" && i > ACCOUNT_STEP) { changedAt.current = Date.now(); setI(ACCOUNT_STEP); window.history.replaceState(null, "", `/welcome?step=${STEP_IDS[ACCOUNT_STEP]}`); }
+  }, [account, i]);
 
   // Fetch the later screens in the background once this one is up.
   useEffect(() => {
@@ -204,7 +233,7 @@ export function Welcome({ initialStep, authError, built, signedIn }: {
     return <PledgeScreen {...nav} minutes={minutes} done={a.pledged} onDone={() => saveAnswers({ pledged: true })} />;
   }
   if (step === "home") return <HomeScreen {...nav} />;
-  if (step === "account") return <AccountScreen at={i} of={STEP_IDS.length} onBack={back} error={authError} onNext={next} />;
+  if (step === "account") return <AccountScreen at={i} of={STEP_IDS.length} onBack={returning.current ? undefined : back} error={authError} onNext={next} next={returning.current ? AFTER_ONBOARDING : undefined} />;
   if (step === "interests") return <InterestsScreen {...nav} value={a.interests} onChange={(interests) => saveAnswers({ interests })} />;
   return <ReadyScreen {...nav} interests={a.interests} minutes={minutes} level={a.level} learn={a.learn} built={built} onTest={() => router.push(PLACEMENT_PATH)} />;
 }

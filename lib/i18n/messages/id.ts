@@ -146,11 +146,10 @@ const indonesian: Catalog = {
 
   /* ── sign in ── */
   "account.line": "Masuk atau daftar",
-  "account.sub": "Bacaan dan kata-katamu, di semua perangkat.",
-  "account.off": "Akun belum diaktifkan. Bacaanmu tetap ada di perangkat ini, dan kamu bisa masuk nanti.",
-  "account.failed": "Gagal masuk. Coba lagi, atau lanjut tanpa akun.",
+  "account.sub": "Kamu butuh akun untuk membaca di sini. Gratis dan hanya sebentar.",
+  "account.off": "Tidak ada layanan akun yang terhubung di salinan aplikasi ini, jadi aplikasi dibuka tanpa akun.",
+  "account.failed": "Gagal masuk. Silakan coba lagi.",
   "account.or": "atau dengan email",
-  "account.notNow": "Nanti saja",
   "account.signingIn": "Sedang masuk…",
   "account.google": "Lanjutkan dengan Google",
   "account.apple": "Lanjutkan dengan Apple",
@@ -168,8 +167,7 @@ const indonesian: Catalog = {
   "email.badPassword": "Kata sandinya salah.",
   "email.sendFailed": "Kode tidak bisa dikirim. Periksa koneksimu dan coba lagi.",
   "email.badCode": "Kodenya salah. Periksa dan coba lagi.",
-  "notice.signInFailed": "Gagal masuk. Kamu bisa terus membaca tanpa akun dan mencoba lagi nanti.",
-
+  "notice.signInFailed": "Gagal masuk. Silakan coba lagi.",
   /* ── interests and the end of the run ── */
   "interests.line": "Kamu penasaran tentang apa?",
   "interests.sub": "Pilih beberapa. Ini menentukan rak mana yang terbuka lebih dulu di perpustakaan. Tidak ada yang disembunyikan, dan kamu bisa mengubahnya kapan saja.",
@@ -724,7 +722,7 @@ const indonesian: Catalog = {
   "offline.body": "Ini belum diunduh, jadi perlu koneksi. Apa pun yang sudah kamu unduh tetap bisa dibuka.",
   "offline.back": "Kembali ke aplikasi",
   "privacy.title": "Privasi",
-  "privacy.p1": "{app} menyimpan posisi Anda di setiap buku dan pengaturan Anda di perangkat Anda sendiri. Jika Anda masuk, kemajuan dan nama yang Anda berikan juga disimpan di akun agar ikut ke ponsel lain.",
+  "privacy.p1": "{app} memerlukan akun. Posisi Anda di setiap buku dan pengaturan Anda disimpan di perangkat Anda sendiri, dan kemajuan serta nama yang Anda berikan juga disimpan di akun agar ikut ke ponsel lain.",
   "privacy.p2": "Ini ringkasan singkat. Kebijakan lengkap, dalam bahasa Inggris, menyusul di bawah.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Terinspirasi dari {author}.",

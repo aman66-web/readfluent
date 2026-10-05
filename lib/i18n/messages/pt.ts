@@ -145,11 +145,10 @@ const pt: Catalog = {
 
   /* ── sign in ── */
   "account.line": "Entre ou cadastre-se",
-  "account.sub": "Sua leitura e suas palavras, em todos os dispositivos.",
-  "account.off": "As contas ainda não estão ativadas. Sua leitura fica neste dispositivo, e você pode entrar mais tarde.",
-  "account.failed": "Não foi possível entrar. Tente de novo ou continue sem conta.",
+  "account.sub": "Você precisa de uma conta para ler aqui. É grátis e leva só um instante.",
+  "account.off": "Nesta cópia do app não há nenhum serviço de contas conectado, então ele abre sem conta.",
+  "account.failed": "Não foi possível entrar. Tente de novo.",
   "account.or": "ou com seu e-mail",
-  "account.notNow": "Agora não",
   "account.signingIn": "Entrando…",
   "account.google": "Continuar com o Google",
   "account.apple": "Continuar com a Apple",
@@ -167,8 +166,7 @@ const pt: Catalog = {
   "email.badPassword": "Essa senha não está certa.",
   "email.sendFailed": "Não foi possível enviar o código. Verifique sua conexão e tente de novo.",
   "email.badCode": "Esse código não está certo. Confira e tente de novo.",
-  "notice.signInFailed": "Não foi possível entrar. Você pode continuar lendo sem conta e tentar de novo mais tarde.",
-
+  "notice.signInFailed": "Não foi possível entrar. Tente de novo.",
   /* ── interests and the end of the run ── */
   "interests.line": "O que desperta sua curiosidade?",
   "interests.sub": "Escolha alguns. Isso define em qual estante a biblioteca abre. Nada fica escondido, e você pode mudar quando quiser.",
@@ -725,7 +723,7 @@ const pt: Catalog = {
   "offline.body": "Isto não foi baixado, então precisa de conexão. Tudo o que você baixou continua abrindo.",
   "offline.back": "Voltar ao app",
   "privacy.title": "Privacidade",
-  "privacy.p1": "O {app} guarda no seu dispositivo onde você está em cada livro e as suas configurações. Se você entrar, o seu progresso e o nome informado também ficam na sua conta para acompanhá-lo em outro celular.",
+  "privacy.p1": "O {app} precisa de uma conta. Ele guarda no seu dispositivo onde você está em cada livro e as suas configurações, e o seu progresso e o nome informado também ficam na sua conta para acompanhá-lo em outro celular.",
   "privacy.p2": "Este é um resumo curto. A política completa, em inglês, vem a seguir.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspirado em {author}.",

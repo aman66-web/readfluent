@@ -153,11 +153,11 @@ export function EmailSignIn({ onVerified, next = AFTER_SIGN_IN }: { onVerified?:
 
 /**
  * "Sign in or sign up": Google and Apple when the build offers them, then the emailed
- * code, then a way past. Without an account backend the step is one calm card that
- * says so, with Continue — the flow never dead-ends, and the step keeps its place so
- * the count is the same on every deploy.
+ * code. There is no way past it: an account is required (owner, 6 Oct 2026), so no
+ * "Not now". Only a copy of the app with no account service connected at all (local
+ * development) shows one calm card with Continue, because there is nothing to sign in to.
  */
-export function SignIn({ error, onNext, onSkip, next = AFTER_SIGN_IN }: { error: boolean; onNext: () => void; /** "Not now", when it should differ from onNext. */ onSkip?: () => void; /** Where a provider sign-in comes back to. */ next?: string }) {
+export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean; onNext: () => void; /** Where a provider sign-in comes back to. */ next?: string }) {
   const t = useT();
   const [busy, setBusy] = useState<OAuthProvider | null>(null);
   const [failed, setFailed] = useState<string | null>(null);
@@ -210,7 +210,6 @@ export function SignIn({ error, onNext, onSkip, next = AFTER_SIGN_IN }: { error:
         </div>
       )}
       <div className="wel-in" style={{ animationDelay: "200ms" }}><EmailSignIn onVerified={onNext} next={next} /></div>
-      <button type="button" onClick={onSkip ?? onNext} className="ob-muted h-11 w-full text-[13px] font-semibold">{t("account.notNow")}</button>
     </div>
   );
 }

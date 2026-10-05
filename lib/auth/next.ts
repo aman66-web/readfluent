@@ -8,8 +8,8 @@
 /** The route a provider sign-in comes back to; it trades the code for a session. */
 export const CALLBACK_PATH = "/auth/callback";
 
-/** Where a failed provider sign-in lands. The page reads `?error=auth` and says so. */
-export const SIGN_IN_FAILED = "/?error=auth";
+/** Where a failed provider sign-in lands: the sign-in itself, which reads `?error=auth` and says so (an account is required, so there is nowhere else to go). */
+export const SIGN_IN_FAILED = "/welcome?step=account&error=auth";
 
 /**
  * The redirect target the web sign-in hands the provider, e.g.

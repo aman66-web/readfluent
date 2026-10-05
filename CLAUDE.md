@@ -41,9 +41,11 @@ Offline (1 Oct 2026): nothing persists unless the reader explicitly downloads it
 cache bucket per downloaded version (text, audio) plus one per book (its photos); the app shell is cached once. Reading online
 writes nothing to the app's own storage (Cache Storage); the browser's ordinary HTTP cache is separate and the OS may evict it.
 
-Accounts and money (1 Oct 2026, working defaults, owner to confirm): reading needs no
-account (anonymous-first, as in the template's `proxy.ts`); signing in is for buying and
-sync. Free is the 50-page samples; 100 and 200 are paid. A version someone has started
+Accounts and money (1 Oct 2026, working defaults, owner to confirm): signing in is REQUIRED
+(owner, 6 Oct 2026, replacing "reading needs no account"): `proxy.ts` and `lib/auth/gate.ts` send
+anyone without a real (non-anonymous) account to the first run's sign-in, from any page; only
+`/welcome`, `/privacy`, `/terms`, `/support`, `/offline` and `/health` are open. The anonymous
+session still exists for the first screens but opens nothing. Free is the 50-page samples; 100 and 200 are paid. A version someone has started
 stays open. Prices and rules live in `lib/plan.ts` and nowhere else. The server alone
 writes `users.plan`; never grant a client the right to.
 

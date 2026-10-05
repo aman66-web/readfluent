@@ -48,7 +48,7 @@ Vercel project, RevenueCat app and store keystores.
    service role key into `SUPABASE_SERVICE_ROLE_KEY` (server-only — it bypasses
    row level security, so it must never get a `NEXT_PUBLIC_` prefix).
 3. Authentication → Providers → Email: turn on **Allow anonymous sign-ins**
-   (every new device is signed in anonymously so reading needs no account).
+   (every new visitor gets a temporary anonymous session so the first screens work; it opens nothing else, because signing in is required: `lib/auth/gate.ts`).
 4. Run every file in `supabase/migrations/` in order, in the SQL editor. Then
    paste `supabase/checks/plan_guard.sql`: every column must come back `t`.
 5. Deploy to Vercel and set the same variables there. `NEXT_PUBLIC_` values are

@@ -145,11 +145,10 @@ const it: Catalog = {
 
   /* ── sign in ── */
   "account.line": "Accedi o registrati",
-  "account.sub": "Le tue letture e le tue parole, su ogni dispositivo.",
-  "account.off": "Gli account non sono ancora attivi. Le tue letture restano su questo dispositivo e potrai accedere più tardi.",
-  "account.failed": "Accesso non riuscito. Riprova o continua senza account.",
+  "account.sub": "Ti serve un account per leggere qui. È gratuito e richiede un attimo.",
+  "account.off": "In questa copia dell'app non è collegato alcun servizio di account, quindi si apre senza account.",
+  "account.failed": "Accesso non riuscito. Riprova.",
   "account.or": "oppure con la tua email",
-  "account.notNow": "Non ora",
   "account.signingIn": "Accesso in corso…",
   "account.google": "Continua con Google",
   "account.apple": "Continua con Apple",
@@ -167,8 +166,7 @@ const it: Catalog = {
   "email.badPassword": "Questa password non è corretta.",
   "email.sendFailed": "Impossibile inviare il codice. Controlla la connessione e riprova.",
   "email.badCode": "Questo codice non è corretto. Controllalo e riprova.",
-  "notice.signInFailed": "Accesso non riuscito. Puoi continuare a leggere senza account e riprovare più tardi.",
-
+  "notice.signInFailed": "Accesso non riuscito. Riprova.",
   /* ── interests and the end of the run ── */
   "interests.line": "Cosa ti incuriosisce?",
   "interests.sub": "Scegline alcuni. Decidono da quale scaffale si apre la biblioteca. Niente viene nascosto e puoi cambiare quando vuoi.",
@@ -725,7 +723,7 @@ const it: Catalog = {
   "offline.body": "Questo contenuto non è scaricato, quindi serve una connessione. Tutto ciò che hai scaricato si apre ancora.",
   "offline.back": "Torna all'app",
   "privacy.title": "Privacy",
-  "privacy.p1": "{app} conserva sul tuo dispositivo a che punto sei in ogni libro e le tue impostazioni. Se accedi, i tuoi progressi e il nome che indichi sono salvati anche nel tuo account, così ti seguono su un altro telefono.",
+  "privacy.p1": "{app} richiede un account. Conserva sul tuo dispositivo a che punto sei in ogni libro e le tue impostazioni, e i tuoi progressi e il nome che indichi sono salvati anche nel tuo account, così ti seguono su un altro telefono.",
   "privacy.p2": "Questo è un breve riepilogo. Segue l'informativa completa, in inglese.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Ispirato a {author}.",

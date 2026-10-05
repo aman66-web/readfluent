@@ -20,6 +20,6 @@ describe("where a sign-in may go next", () => {
   });
 
   it("lands a failed sign-in where the page says so", () => {
-    expect(SIGN_IN_FAILED).toBe("/?error=auth");
+    expect(SIGN_IN_FAILED).toBe("/welcome?step=account&error=auth");
   });
 });

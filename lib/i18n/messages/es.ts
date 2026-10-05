@@ -145,11 +145,10 @@ const es: Catalog = {
 
   /* ── sign in ── */
   "account.line": "Inicia sesión o regístrate",
-  "account.sub": "Tu lectura y tus palabras, en todos tus dispositivos.",
-  "account.off": "Las cuentas aún no están activadas. Tu lectura se queda en este dispositivo y podrás iniciar sesión más tarde.",
-  "account.failed": "No se pudo iniciar sesión. Inténtalo de nuevo o sigue sin cuenta.",
+  "account.sub": "Necesitas una cuenta para leer aquí. Es gratis y solo lleva un momento.",
+  "account.off": "En esta copia de la app no hay ningún servicio de cuentas conectado, así que se abre sin cuenta.",
+  "account.failed": "No se pudo iniciar sesión. Inténtalo de nuevo.",
   "account.or": "o con tu correo",
-  "account.notNow": "Ahora no",
   "account.signingIn": "Iniciando sesión…",
   "account.google": "Continuar con Google",
   "account.apple": "Continuar con Apple",
@@ -167,8 +166,7 @@ const es: Catalog = {
   "email.badPassword": "Esa contraseña no es correcta.",
   "email.sendFailed": "No se pudo enviar el código. Revisa tu conexión e inténtalo de nuevo.",
   "email.badCode": "Ese código no es correcto. Revísalo e inténtalo de nuevo.",
-  "notice.signInFailed": "No se pudo iniciar sesión. Puedes seguir leyendo sin cuenta e intentarlo más tarde.",
-
+  "notice.signInFailed": "No se pudo iniciar sesión. Inténtalo de nuevo.",
   /* ── interests and the end of the run ── */
   "interests.line": "¿Qué te da curiosidad?",
   "interests.sub": "Elige algunos. Decide en qué estantería se abre la biblioteca. No se oculta nada y puedes cambiarlo cuando quieras.",
@@ -725,7 +723,7 @@ const es: Catalog = {
   "offline.body": "Esto no está descargado, así que necesita conexión. Lo que hayas descargado sigue abriéndose.",
   "offline.back": "Volver a la app",
   "privacy.title": "Privacidad",
-  "privacy.p1": "{app} guarda en tu dispositivo por dónde vas en cada libro y tus ajustes. Si inicias sesión, tu progreso y el nombre que das también se guardan en tu cuenta para que te sigan a otro teléfono.",
+  "privacy.p1": "{app} necesita una cuenta. Guarda en tu dispositivo por dónde vas en cada libro y tus ajustes, y tu progreso y el nombre que das también se guardan en tu cuenta para que te sigan a otro teléfono.",
   "privacy.p2": "Este es un resumen breve. A continuación sigue la política completa, en inglés.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspirado en {author}.",

@@ -146,11 +146,10 @@ const ja: Catalog = {
 
   /* ── sign in ── */
   "account.line": "ログインまたは登録",
-  "account.sub": "読書も単語も、どの端末でも同じに。",
-  "account.off": "アカウント機能はまだ有効ではありません。読書の記録はこの端末に残るので、あとでログインできます。",
-  "account.failed": "ログインできませんでした。もう一度試すか、アカウントなしで続けてください。",
+  "account.sub": "ここで読むにはアカウントが必要です。無料で、すぐに作れます。",
+  "account.off": "このアプリにはアカウントのサービスが接続されていないため、アカウントなしで開きます。",
+  "account.failed": "ログインできませんでした。もう一度お試しください。",
   "account.or": "またはメールで",
-  "account.notNow": "あとで",
   "account.signingIn": "ログイン中…",
   "account.google": "Googleで続ける",
   "account.apple": "Appleで続ける",
@@ -168,8 +167,7 @@ const ja: Catalog = {
   "email.badPassword": "パスワードが違います。",
   "email.sendFailed": "コードを送れませんでした。接続を確認して、もう一度お試しください。",
   "email.badCode": "コードが違います。確認してもう一度お試しください。",
-  "notice.signInFailed": "ログインできませんでした。アカウントなしで読み続けて、あとでもう一度試せます。",
-
+  "notice.signInFailed": "ログインできませんでした。もう一度お試しください。",
   /* ── interests and the end of the run ── */
   "interests.line": "どんなことに興味がありますか？",
   "interests.sub": "いくつか選んでください。ライブラリが最初に開く棚が決まります。隠れる棚はなく、いつでも変更できます。",
@@ -724,7 +722,7 @@ const ja: Catalog = {
   "offline.body": "これはダウンロードされていないため、接続が必要です。ダウンロード済みのものは開けます。",
   "offline.back": "アプリに戻る",
   "privacy.title": "プライバシー",
-  "privacy.p1": "{app} は、各本の読み進めた位置と設定をお使いの端末に保存します。ログインすると、進捗と入力した名前がアカウントにも保存され、別のスマートフォンでも引き継げます。",
+  "privacy.p1": "{app} を使うにはアカウントが必要です。各本の読み進めた位置と設定はお使いの端末に保存され、進捗と入力した名前もアカウントに保存されるので、別のスマートフォンでも引き継げます。",
   "privacy.p2": "これは短い要約です。完全なポリシーは英語で、この下に続きます。",
   "level.summary": "{lines}。{blurb}",
   "book.inspiredSentence": "{author}にインスパイアされた作品。",

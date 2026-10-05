@@ -201,7 +201,7 @@ describe("every screen renders", () => {
 
   it("with the sign-in step saying so when there is no database, and never dead-ending", async () => {
     const h = await html();
-    expect(h.account).toContain("Accounts aren");
+    expect(h.account).toContain("No account service is connected");
     expect(h.account).toContain("Continue");
   });
 

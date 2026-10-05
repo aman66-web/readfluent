@@ -145,11 +145,10 @@ const fr: Catalog = {
 
   /* ── sign in ── */
   "account.line": "Connexion ou inscription",
-  "account.sub": "Tes lectures et tes mots, sur tous tes appareils.",
-  "account.off": "Les comptes ne sont pas encore activés. Tes lectures restent sur cet appareil, et tu pourras te connecter plus tard.",
-  "account.failed": "La connexion a échoué. Réessaie, ou continue sans compte.",
+  "account.sub": "Il te faut un compte pour lire ici. C'est gratuit et ça prend un instant.",
+  "account.off": "Aucun service de comptes n'est relié à cette copie de l'appli, elle s'ouvre donc sans compte.",
+  "account.failed": "La connexion a échoué. Réessaie.",
   "account.or": "ou avec ton e-mail",
-  "account.notNow": "Pas maintenant",
   "account.signingIn": "Connexion…",
   "account.google": "Continuer avec Google",
   "account.apple": "Continuer avec Apple",
@@ -167,8 +166,7 @@ const fr: Catalog = {
   "email.badPassword": "Ce mot de passe n'est pas le bon.",
   "email.sendFailed": "Impossible d'envoyer le code. Vérifie ta connexion et réessaie.",
   "email.badCode": "Ce code n'est pas le bon. Vérifie-le et réessaie.",
-  "notice.signInFailed": "La connexion a échoué. Tu peux continuer à lire sans compte et réessayer plus tard.",
-
+  "notice.signInFailed": "La connexion a échoué. Réessaie.",
   /* ── interests and the end of the run ── */
   "interests.line": "Qu'est-ce qui te passionne ?",
   "interests.sub": "Choisis-en quelques-uns. Cela décide de l'étagère sur laquelle s'ouvre la bibliothèque. Rien n'est caché, et tu peux changer quand tu veux.",
@@ -725,7 +723,7 @@ const fr: Catalog = {
   "offline.body": "Ce contenu n'est pas téléchargé, il faut donc une connexion. Tout ce que tu as téléchargé s'ouvre toujours.",
   "offline.back": "Retour à l'appli",
   "privacy.title": "Confidentialité",
-  "privacy.p1": "{app} conserve sur votre appareil l'endroit où vous en êtes dans chaque livre, ainsi que vos réglages. Si vous vous connectez, votre progression et le nom indiqué sont aussi conservés dans votre compte pour vous suivre sur un autre téléphone.",
+  "privacy.p1": "{app} nécessite un compte. L'appli conserve sur votre appareil l'endroit où vous en êtes dans chaque livre, ainsi que vos réglages, et votre progression et le nom indiqué sont aussi conservés dans votre compte pour vous suivre sur un autre téléphone.",
   "privacy.p2": "Voici un bref résumé. La politique complète, en anglais, suit.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspiré de {author}.",

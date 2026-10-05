@@ -148,11 +148,10 @@ const pl: Catalog = {
 
   /* ── sign in ── */
   "account.line": "Zaloguj się lub załóż konto",
-  "account.sub": "Twoje czytanie i Twoje słowa, na każdym urządzeniu.",
-  "account.off": "Konta nie są jeszcze włączone. Twoje czytanie zostaje na tym urządzeniu, a zalogować się możesz później.",
-  "account.failed": "Logowanie się nie udało. Spróbuj ponownie albo kontynuuj bez konta.",
+  "account.sub": "Aby tu czytać, potrzebujesz konta. Jest bezpłatne i zajmuje chwilę.",
+  "account.off": "W tej kopii aplikacji nie ma połączonej usługi kont, więc otwiera się bez konta.",
+  "account.failed": "Logowanie się nie udało. Spróbuj ponownie.",
   "account.or": "lub przez e-mail",
-  "account.notNow": "Nie teraz",
   "account.signingIn": "Logowanie…",
   "account.google": "Kontynuuj z Google",
   "account.apple": "Kontynuuj z Apple",
@@ -170,8 +169,7 @@ const pl: Catalog = {
   "email.badPassword": "To hasło jest nieprawidłowe.",
   "email.sendFailed": "Nie udało się wysłać kodu. Sprawdź połączenie i spróbuj ponownie.",
   "email.badCode": "Ten kod jest nieprawidłowy. Sprawdź go i spróbuj ponownie.",
-  "notice.signInFailed": "Logowanie się nie udało. Możesz czytać bez konta i spróbować później.",
-
+  "notice.signInFailed": "Logowanie się nie udało. Spróbuj ponownie.",
   /* ── interests and the end of the run ── */
   "interests.line": "Co Cię ciekawi?",
   "interests.sub": "Wybierz kilka. To decyduje, na której półce otworzy się biblioteka. Nic nie jest ukryte, a wybór możesz zmienić, kiedy chcesz.",
@@ -728,7 +726,7 @@ const pl: Catalog = {
   "offline.body": "To nie zostało pobrane, więc potrzebne jest połączenie. Wszystko, co zostało pobrane, nadal się otwiera.",
   "offline.back": "Wróć do aplikacji",
   "privacy.title": "Prywatność",
-  "privacy.p1": "{app} zapisuje na Twoim urządzeniu, w którym miejscu każdej książki jesteś, oraz Twoje ustawienia. Po zalogowaniu postępy i podane imię są też zapisywane na koncie, by przeszły z Tobą na inny telefon.",
+  "privacy.p1": "{app} wymaga konta. Zapisuje na Twoim urządzeniu, w którym miejscu każdej książki jesteś, oraz Twoje ustawienia, a postępy i podane imię są też zapisywane na koncie, by przeszły z Tobą na inny telefon.",
   "privacy.p2": "To krótkie podsumowanie. Pełna polityka, po angielsku, znajduje się poniżej.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspirowane twórczością: {author}.",

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { AccountGate } from "@/components/auth/AccountGate";
 import { NativeAuthBridge } from "@/components/auth/NativeAuthBridge";
 import { PurchasesBridge } from "@/components/purchases/PurchasesBridge";
 import { NativeChrome } from "@/components/NativeChrome";
@@ -53,6 +54,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* The cover pictures' gradients, defined once for every cover on the page (not display:none, which would stop them painting). */}
         <svg aria-hidden width="0" height="0" style={{ position: "absolute" }}><defs><ArtDefs /></defs></svg>
         <NativeAuthBridge />
+        {/* Sends somebody with no account to the sign-in (signed out elsewhere, or a page restored from memory). Renders nothing. */}
+        <AccountGate />
         {/* Configures RevenueCat on the native build, keyed to the same
             Supabase user id everything else uses. Renders nothing. */}
         <PurchasesBridge />

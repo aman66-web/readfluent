@@ -146,11 +146,10 @@ const zh: Catalog = {
 
   /* ── sign in ── */
   "account.line": "登录或注册",
-  "account.sub": "你的阅读和单词，在每台设备上同步。",
-  "account.off": "账号功能尚未开启。你的阅读记录会保存在这台设备上，之后可以再登录。",
-  "account.failed": "登录没有成功。请再试一次，或不登录继续使用。",
+  "account.sub": "要在这里阅读，需要一个账号。免费，只需片刻。",
+  "account.off": "此应用副本没有连接账号服务，因此无需账号即可打开。",
+  "account.failed": "登录没有成功。请再试一次。",
   "account.or": "或使用邮箱",
-  "account.notNow": "以后再说",
   "account.signingIn": "正在登录……",
   "account.google": "使用 Google 继续",
   "account.apple": "使用 Apple 继续",
@@ -168,8 +167,7 @@ const zh: Catalog = {
   "email.badPassword": "密码不正确。",
   "email.sendFailed": "验证码没有发出去。请检查网络后重试。",
   "email.badCode": "验证码不正确。请检查后重试。",
-  "notice.signInFailed": "登录没有成功。你可以不登录继续阅读，稍后再试。",
-
+  "notice.signInFailed": "登录没有成功。请再试一次。",
   /* ── interests and the end of the run ── */
   "interests.line": "你对什么感兴趣？",
   "interests.sub": "选几个吧，它决定书库先打开哪个书架。所有书架都不会被隐藏，你也可以随时更改。",
@@ -724,7 +722,7 @@ const zh: Catalog = {
   "offline.body": "这部分还没有下载，需要联网才能打开。已下载的内容仍可正常打开。",
   "offline.back": "返回应用",
   "privacy.title": "隐私",
-  "privacy.p1": "{app} 会把你在每本书中的阅读位置和你的设置保存在你自己的设备上。如果你登录，你的进度和你填写的名字也会保存在账户中，以便跟随你到另一部手机。",
+  "privacy.p1": "{app} 需要账号。它会把你在每本书中的阅读位置和你的设置保存在你自己的设备上，你的进度和你填写的名字也会保存在账户中，以便跟随你到另一部手机。",
   "privacy.p2": "这是一份简短摘要。完整政策（英文）见下文。",
   "level.summary": "{lines}。{blurb}",
   "book.inspiredSentence": "灵感来自{author}。",

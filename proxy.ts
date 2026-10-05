@@ -1,13 +1,16 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { dbConfigured } from "@/lib/db/env";
+import { isRealAccount, needsAccount, signInRedirect } from "@/lib/auth/gate";
 import { hasAppSession, isSitePath, marketingHosts, sitePage } from "@/lib/site/hosts";
 import { needsOnboarding, ONBOARDED_COOKIE, ONBOARDED_MAX_AGE, WELCOME_PATH } from "@/lib/onboarding";
 
 /**
- * Refreshes the Supabase session on every page request, and signs brand-new
- * visitors in anonymously so they can start a session without a sign-up wall
- * (SPEC.md §5 "Accounts", §16 M0).
+ * Refreshes the Supabase session on every page request, and keeps every page but the first run and the legal
+ * pages behind a real account (lib/auth/gate.ts; owner, 6 Oct 2026: signing in is required). A visitor with no
+ * account is sent to the first run's sign-in, on any page, from any entry: a link, a reopened app, the back
+ * button after a sign-out. A brand-new visitor is still signed in anonymously on the first-run pages, so those
+ * can work before the account exists; an anonymous session is not an account and opens nothing else.
  *
  * Next 16 renamed `middleware.ts` to `proxy.ts` and the exported function to
  * `proxy`. The edge runtime is not supported here; the runtime is nodejs and
@@ -50,31 +53,44 @@ async function route(request: NextRequest): Promise<NextResponse> {
   // mode: one user, no sign-in, decks kept in the browser); this is what lets it.
   if (!dbConfigured()) return NextResponse.next({ request });
 
-  let response = NextResponse.next({ request });
+  const response = NextResponse.next({ request });
 
+  const gated = needsAccount(pathname);
+  const signedUp = hasAppSession(request.cookies.getAll().map((c) => c.name));
   // Prefetches (a link scrolling into view) and background fetches from somebody with no session need no
   // refresh and no sign-in; asking the auth server for each one made every prefetch wait on a round trip.
   const prefetch = request.headers.has("next-router-prefetch") || (request.headers.get("sec-purpose") ?? "").includes("prefetch");
   const document = request.headers.get("sec-fetch-dest") === "document";
-  if (prefetch || (!document && !hasAppSession(request.cookies.getAll().map((c) => c.name)))) return response;
+  // No session of any kind: nobody here is signed in, so a page that needs an account is not opened (no round trip needed to know).
+  if (gated && !prefetch && !signedUp) return toSignIn(request);
+  if (prefetch || (!document && !signedUp)) return response;
 
   try {
-    response = await refresh(request, response);
+    const refreshed = await refresh(request, response, gated);
+    if (gated && !isRealAccount(refreshed.user)) return toSignIn(request, refreshed.response);
+    return refreshed.response;
   } catch {
     // Whatever went wrong — a malformed project URL, a key that is not a key,
     // the auth service being down — refreshing a session is not worth a page.
     // This runs in front of EVERY request, so a throw here is not one broken
     // feature, it is the whole app returning 500, including the screens that
     // need no account at all and the health check that would explain why. An
-    // app that studies offline must not be taken down by a login server.
+    // app that studies offline must not be taken down by a login server, so
+    // when the auth service cannot be asked, the page opens (the sign-in
+    // guard in the browser, components/auth/AccountGate, still checks).
     return NextResponse.next({ request });
   }
+}
 
-  return response;
+/** Sends somebody without an account to the sign-in, keeping any session cookies the refresh just wrote. */
+function toSignIn(request: NextRequest, from?: NextResponse): NextResponse {
+  const to = NextResponse.redirect(new URL(signInRedirect(request.cookies.has(ONBOARDED_COOKIE)), request.url));
+  for (const cookie of from?.cookies.getAll() ?? []) to.cookies.set(cookie);
+  return to;
 }
 
 /** The session refresh proper. Separated so the caller above can contain it. */
-async function refresh(request: NextRequest, initial: NextResponse): Promise<NextResponse> {
+async function refresh(request: NextRequest, initial: NextResponse, gated: boolean): Promise<{ response: NextResponse; user: { is_anonymous?: boolean | null } | null }> {
   let response = initial;
 
   const supabase = createServerClient(
@@ -111,11 +127,12 @@ async function refresh(request: NextRequest, initial: NextResponse): Promise<Nex
   // what it should do, since everything but sync works that way anyway.
   // Only for somebody opening a page: a crawler, a link preview or an uptime check has no
   // cookies, and each would otherwise become a user (and use up the sign-in allowance).
-  if (!user && request.headers.get("sec-fetch-mode") === "navigate" && request.headers.get("sec-fetch-dest") === "document") {
+  // Not for a page that needs an account: that visitor is about to be sent to the first run, which makes it.
+  if (!user && !gated && request.headers.get("sec-fetch-mode") === "navigate" && request.headers.get("sec-fetch-dest") === "document") {
     await supabase.auth.signInAnonymously();
   }
 
-  return response;
+  return { response, user };
 }
 
 export const config = {

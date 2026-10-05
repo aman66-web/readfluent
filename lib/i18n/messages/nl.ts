@@ -148,11 +148,10 @@ const nl: Catalog = {
 
   /* ── sign in ── */
   "account.line": "Inloggen of aanmelden",
-  "account.sub": "Je leesvoortgang en je woorden, op elk apparaat.",
-  "account.off": "Accounts zijn nog niet actief. Je leesvoortgang blijft op dit apparaat en je kunt later inloggen.",
-  "account.failed": "Inloggen is niet gelukt. Probeer het opnieuw, of ga verder zonder account.",
+  "account.sub": "Je hebt een account nodig om hier te lezen. Het is gratis en kost maar even tijd.",
+  "account.off": "In deze versie van de app is geen accountdienst gekoppeld, dus hij opent zonder account.",
+  "account.failed": "Inloggen is niet gelukt. Probeer het opnieuw.",
   "account.or": "of met je e-mailadres",
-  "account.notNow": "Nu niet",
   "account.signingIn": "Inloggen…",
   "account.google": "Doorgaan met Google",
   "account.apple": "Doorgaan met Apple",
@@ -170,8 +169,7 @@ const nl: Catalog = {
   "email.badPassword": "Dat wachtwoord klopt niet.",
   "email.sendFailed": "De code kon niet worden verstuurd. Controleer je verbinding en probeer het opnieuw.",
   "email.badCode": "Die code klopt niet. Controleer hem en probeer het opnieuw.",
-  "notice.signInFailed": "Inloggen is niet gelukt. Je kunt zonder account blijven lezen en het later opnieuw proberen.",
-
+  "notice.signInFailed": "Inloggen is niet gelukt. Probeer het opnieuw.",
   /* ── interests and the end of the run ── */
   "interests.line": "Waar ben je nieuwsgierig naar?",
   "interests.sub": "Kies er een paar. Dat bepaalt met welke plank de bibliotheek opent. Er wordt niets verborgen en je kunt het altijd wijzigen.",
@@ -728,7 +726,7 @@ const nl: Catalog = {
   "offline.body": "Dit is niet gedownload en heeft dus een verbinding nodig. Alles wat je hebt gedownload, opent nog steeds.",
   "offline.back": "Terug naar de app",
   "privacy.title": "Privacy",
-  "privacy.p1": "{app} bewaart op je eigen apparaat waar je in elk boek bent en je instellingen. Als je inlogt, worden je voortgang en de naam die je opgeeft ook in je account bewaard, zodat ze met je meegaan naar een andere telefoon.",
+  "privacy.p1": "{app} heeft een account nodig. Het bewaart op je eigen apparaat waar je in elk boek bent en je instellingen, en je voortgang en de naam die je opgeeft worden ook in je account bewaard, zodat ze met je meegaan naar een andere telefoon.",
   "privacy.p2": "Dit is een korte samenvatting. Het volledige beleid volgt, in het Engels.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Geïnspireerd door {author}.",

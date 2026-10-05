@@ -13,8 +13,15 @@ interface Nav { at: number; of: number; onBack: () => void; onContinue: () => vo
  * and what you are curious about.
  */
 
-/** "Sign in or sign up" — the sign-in's own buttons are the way on, so there is no Continue. */
-export function AccountScreen({ at, of, error, onBack, onNext }: Omit<Nav, "onContinue"> & { error: boolean; onNext: () => void }) {
+/** "Sign in or sign up" — the sign-in's own buttons are the only way on (an account is required), so there is no Continue and no "Not now". */
+export function AccountScreen({ at, of, error, onBack, onNext, next }: Omit<Nav, "onContinue" | "onBack"> & {
+  error: boolean;
+  onNext: () => void;
+  /** Absent when this is the screen a reopened or signed-out app lands on: there is nothing before it to go back to. */
+  onBack?: () => void;
+  /** Where a Google or Apple sign-in comes back to (the first run's next screen unless said). */
+  next?: string;
+}) {
   const t = useT();
   const line = t("account.line");
   const guide = useGuide(line);
@@ -23,7 +30,7 @@ export function AccountScreen({ at, of, error, onBack, onNext }: Omit<Nav, "onCo
       <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto pb-4 pt-5">
         <GuideHead guide={guide} line={line} sub={t("account.sub")} />
         <div className="wel-in mt-7" style={{ animationDelay: "800ms" }}>
-          <SignIn error={error} onNext={onNext} />
+          <SignIn error={error} onNext={onNext} next={next} />
         </div>
       </div>
     </GuideFrame>

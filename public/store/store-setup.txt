@@ -29,8 +29,9 @@ FACTS
   What the app is: real books retold at a learner's level (A1 to C2), read one page at a time with a
   picture and 1-3 sentences, tap any word for its meaning, flashcards, tests, level exams, and an AI
   conversation partner called Pluto (signed-in readers only). The app interface is in 20 languages.
-  Data: works with no account; progress stays on the phone. With sign-in (Google, Apple or emailed code):
-  email address, a user ID, and synced progress/words/friends. Messages typed into the Pluto chat are sent to
+  Data: an account is required to use the app (sign in with Apple, Google or an emailed code). Progress, words and
+  flashcards are kept on the phone and belong to the account. The account holds: email address, a user ID, and
+  friends/league scores. Messages typed into the Pluto chat are sent to
   Anthropic (AI model provider). Books are translated on the phone itself; nothing is sent for that. No ads, no analytics,
   no tracking, no data sold. Account deletion: in the app under Profile, or via the Support page.
 
@@ -101,7 +102,7 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
       - Pluto, a friendly little companion who chats with you to practise (sign-in needed)
       - XP, streaks and achievements to keep you going
       - The whole app in 20 languages
-      - No account needed to start: your progress stays on your phone, and signing in saves it across devices
+      - A free account is needed to read: sign in with Apple, Google or an emailed code in a few seconds
 
       Choose the language you speak and the language you want to learn, and start reading today.
     What's New: First release.
@@ -110,9 +111,11 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
     ios-2-library.png , ios-3-book.png , ios-4-reader.png , ios-5-recall.png (same folder /store/). If any
     file is missing, tell me which and continue without it.
     App icon (1024x1024) is part of the app build, so skip it.
-13. App Review Information: Sign-in required: No (the app works without an account). Notes: "ReadFluent
-    works without an account. Sign in with Google or Apple is optional and only saves progress across
-    devices. The AI chat (Pluto) needs sign-in." Contact name/phone/email: ask me. 
+13. App Review Information: Sign-in required: YES. Demo account: ask me for the reviewer email and
+    password (the address is in NEXT_PUBLIC_REVIEW_EMAILS and signs in with a password; never write the password
+    anywhere but this form). Notes: "ReadFluent needs an account. Sign in with Apple or Google, or use the demo
+    account above (enter its email, then its password). Account deletion: Profile, Delete account." Contact
+    name/phone/email: ask me. 
 14. STOP before "Add for Review" / Submit. Do not upload a build (there is none yet).
 
 PHASE 4 - Google Play Console (play.google.com/console). Create the app, fill everything, stop.
