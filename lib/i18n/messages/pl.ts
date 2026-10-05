@@ -943,6 +943,8 @@ const pl: Catalog = {
   "item.ufo": "Malutkie UFO",
   "paywall.trial": "Nowi subskrybenci dostają {n} dni za darmo, potem obowiązuje pokazana cena. Anuluj przed końcem, a nic nie zapłacisz.",
   "reader.quickNow": "Szybki quiz teraz",
+  "paywall.trialBadge": "{n} dni za darmo",
+  "paywall.ctaTrial": "Zacznij {n}-dniowy darmowy okres próbny",
 };
 
 export default pl;

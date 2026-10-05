@@ -943,6 +943,8 @@ const nl: Catalog = {
   "item.ufo": "Klein ufootje",
   "paywall.trial": "Nieuwe abonnees krijgen {n} dagen gratis, daarna de getoonde prijs. Zeg op voor het afloopt en je betaalt niets.",
   "reader.quickNow": "Nu een snelle check",
+  "paywall.trialBadge": "{n} dagen gratis",
+  "paywall.ctaTrial": "Start {n} dagen gratis proberen",
 };
 
 export default nl;

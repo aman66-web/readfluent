@@ -904,6 +904,8 @@ const tr: Catalog = {
   "item.ufo": "Minik UFO",
   "paywall.trial": "Yeni aboneler {n} gün ücretsiz kullanır, sonra gösterilen fiyat uygulanır. Bitmeden iptal ederseniz hiçbir şey ödemezsiniz.",
   "reader.quickNow": "Şimdi hızlı kontrol",
+  "paywall.trialBadge": "{n} gün ücretsiz",
+  "paywall.ctaTrial": "{n} günlük ücretsiz denemeyi başlat",
 };
 
 export default tr;

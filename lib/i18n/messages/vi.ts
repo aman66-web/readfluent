@@ -921,6 +921,8 @@ const vi: Catalog = {
   "item.ufo": "UFO nhỏ",
   "paywall.trial": "Người đăng ký mới được dùng thử {n} ngày miễn phí, sau đó tính theo giá hiển thị. Hủy trước khi hết hạn thì bạn không phải trả gì.",
   "reader.quickNow": "Kiểm tra nhanh ngay",
+  "paywall.trialBadge": "Miễn phí {n} ngày",
+  "paywall.ctaTrial": "Bắt đầu dùng thử miễn phí {n} ngày",
 };
 
 export default vi;

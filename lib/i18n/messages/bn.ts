@@ -941,6 +941,8 @@ const bn: Catalog = {
   "item.ufo": "ছোট UFO",
   "paywall.trial": "নতুন সাবস্ক্রাইবাররা {n} দিন বিনামূল্যে পাবেন, তারপর দেখানো দাম। শেষ হওয়ার আগে বাতিল করলে কিছুই দিতে হবে না।",
   "reader.quickNow": "এখনই দ্রুত পরীক্ষা",
+  "paywall.trialBadge": "{n} দিন বিনামূল্যে",
+  "paywall.ctaTrial": "{n} দিনের বিনামূল্যে ট্রায়াল শুরু করুন",
 };
 
 export default bn;

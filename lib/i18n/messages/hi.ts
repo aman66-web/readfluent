@@ -941,6 +941,8 @@ const hi: Catalog = {
   "item.ufo": "छोटी उड़न तश्तरी",
   "paywall.trial": "नए सदस्यों को {n} दिन मुफ़्त मिलते हैं, फिर दिखाई गई कीमत लगती है। खत्म होने से पहले रद्द करें तो कुछ नहीं देना होगा।",
   "reader.quickNow": "अभी छोटा क्विज़",
+  "paywall.trialBadge": "{n} दिन मुफ़्त",
+  "paywall.ctaTrial": "{n} दिन का मुफ़्त ट्रायल शुरू करें",
 };
 
 export default hi;

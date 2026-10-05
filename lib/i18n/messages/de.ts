@@ -941,6 +941,8 @@ const de: Catalog = {
   "item.ufo": "Kleines UFO",
   "paywall.trial": "Neue Abonnenten erhalten {n} Tage gratis, danach gilt der angezeigte Preis. Wer vorher kündigt, zahlt nichts.",
   "reader.quickNow": "Jetzt Kurztest",
+  "paywall.trialBadge": "{n} Tage gratis",
+  "paywall.ctaTrial": "{n} Tage gratis testen",
 };
 
 export default de;

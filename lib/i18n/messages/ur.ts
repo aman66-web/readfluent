@@ -907,6 +907,8 @@ const ur: Catalog = {
   "item.ufo": "ننھی اڑن طشتری",
   "paywall.trial": "نئے سبسکرائبرز کو {n} دن مفت ملتے ہیں، پھر دکھائی گئی قیمت لاگو ہوتی ہے۔ ختم ہونے سے پہلے منسوخ کریں تو کچھ ادا نہیں کرنا پڑے گا۔",
   "reader.quickNow": "ابھی فوری جانچ",
+  "paywall.trialBadge": "{n} دن مفت",
+  "paywall.ctaTrial": "{n} دن کی مفت آزمائش شروع کریں",
 };
 
 export default ur;

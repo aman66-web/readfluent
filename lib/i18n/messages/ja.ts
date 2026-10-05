@@ -939,6 +939,8 @@ const ja: Catalog = {
   "item.ufo": "ちいさなUFO",
   "paywall.trial": "新規登録の方は{n}日間無料、その後は表示の料金です。期間が終わる前に解約すれば、料金はかかりません。",
   "reader.quickNow": "今すぐクイックチェック",
+  "paywall.trialBadge": "{n}日間無料",
+  "paywall.ctaTrial": "{n}日間の無料トライアルを始める",
 };
 
 export default ja;

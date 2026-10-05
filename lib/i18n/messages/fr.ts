@@ -940,6 +940,8 @@ const fr: Catalog = {
   "item.ufo": "Petit OVNI",
   "paywall.trial": "Les nouveaux abonnés profitent de {n} jours gratuits, puis du prix affiché. Annulez avant la fin et vous ne payez rien.",
   "reader.quickNow": "Mini-quiz maintenant",
+  "paywall.trialBadge": "{n} jours gratuits",
+  "paywall.ctaTrial": "Démarrer l'essai gratuit de {n} jours",
 };
 
 export default fr;

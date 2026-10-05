@@ -939,6 +939,8 @@ const zh: Catalog = {
   "item.ufo": "小飞碟",
   "paywall.trial": "新订阅用户可免费使用{n}天，之后按所示价格收费。在期满前取消，则无需付费。",
   "reader.quickNow": "马上快速测验",
+  "paywall.trialBadge": "免费{n}天",
+  "paywall.ctaTrial": "开始{n}天免费试用",
 };
 
 export default zh;

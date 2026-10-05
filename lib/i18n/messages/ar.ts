@@ -907,6 +907,8 @@ const ar: Catalog = {
   "item.ufo": "طبق طائر صغير",
   "paywall.trial": "يحصل المشتركون الجدد على {n} أيام مجانًا، ثم السعر المعروض. ألغِ قبل انتهائها ولن تدفع شيئًا.",
   "reader.quickNow": "اختبار سريع الآن",
+  "paywall.trialBadge": "{n} أيام مجانًا",
+  "paywall.ctaTrial": "ابدأ تجربة مجانية لمدة {n} أيام",
 };
 
 export default ar;
