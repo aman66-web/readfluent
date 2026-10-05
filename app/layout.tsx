@@ -8,6 +8,7 @@ import { NavTracker } from "@/components/NavTracker";
 import { Pwa } from "@/components/Pwa";
 import { TabBar } from "@/components/TabBar";
 import { BackgroundTranslation } from "@/components/translate/BackgroundTranslation";
+import { OfferGate } from "@/components/paywall/OfferGate";
 import { Coach } from "@/components/tour/Coach";
 import { ArtDefs } from "@/components/welcome/art";
 import { LocaleSync } from "@/lib/i18n/react";
@@ -70,6 +71,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* The menu: Home, Library, Recall, My books. Hidden on the first run, the test and the reader. */}
         <TabBar />
         <NavTracker />
+        {/* The subscription screen, once, before the tour (on the phone, to somebody signed in). */}
+        <OfferGate />
         <Coach />
         <Pwa />
       </body>

@@ -1,0 +1,61 @@
+/*
+ * The subscription screen (components/paywall/Paywall.tsx): a whole screen on a dark ground, lit from the top in
+ * the brand's cyan and sky. It rises in, its parts a beat apart, and sinks away when closed.
+ *
+ * The app is white; this screen is not, in either mode. The tokens below re-declare the ground and ink for
+ * everything inside it, so the app's own utilities (text-foreground, text-muted, ...) read on dark.
+ */
+.offer {
+  --offer-ground: #060d17;
+  --offer-sky: #38bdf8;
+  --offer-cyan: var(--accent-bright);
+  --offer-light: #a5f3fc;
+  --offer-grad: linear-gradient(100deg, var(--offer-light), var(--offer-cyan) 45%, var(--offer-sky));
+  --offer-glow: 34, 211, 238;
+  color-scheme: dark;
+  --background: var(--offer-ground); --surface: #0c1624; --border: #17283a;
+  --foreground: #eaf6fb; --muted: #a3b8c4; --faint: #7d95a3;
+  --error: #ff9b9b;
+  background: var(--offer-ground); color: var(--foreground);
+  animation: offer-rise .5s cubic-bezier(.22, 1, .36, 1) both;
+}
+.offer-out { animation: offer-sink .32s ease-in both; }
+@keyframes offer-rise { from { opacity: 0; transform: translateY(24px) } to { opacity: 1; transform: none } }
+@keyframes offer-sink { from { opacity: 1; transform: none } to { opacity: 0; transform: translateY(24px) } }
+@keyframes offer-in { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+.offer-in { animation: offer-in .5s cubic-bezier(.22, 1, .36, 1) both; }
+
+.offer-glow {
+  position: absolute; inset: 0 0 auto 0; height: 440px; pointer-events: none;
+  background: radial-gradient(60% 55% at 50% 12%, rgba(var(--offer-glow), .34), rgba(56, 189, 248, .14) 45%, transparent 75%);
+}
+.offer-badge { background: var(--offer-grad); color: var(--on-cyan); box-shadow: 0 6px 18px -6px rgba(var(--offer-glow), .8); }
+.offer-headline { background: linear-gradient(100deg, #fff 0%, var(--offer-light) 40%, var(--offer-cyan) 70%, var(--offer-sky) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.offer-spark { background: var(--offer-light); box-shadow: 0 0 10px 2px rgba(var(--offer-glow), .8); animation: offer-spark 2.6s ease-in-out infinite; }
+@keyframes offer-spark { 0%, 100% { opacity: .15; transform: scale(.6) } 50% { opacity: 1; transform: scale(1.15) } }
+
+.offer-card { background: rgba(255, 255, 255, .05); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .1); }
+.offer-num { background: rgba(var(--offer-glow), .16); color: var(--offer-light); }
+.offer-pro-col { background: var(--offer-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.offer-tick { background: linear-gradient(135deg, var(--offer-light), var(--offer-cyan) 55%, var(--offer-sky)); color: var(--on-cyan); box-shadow: 0 0 14px -1px rgba(var(--offer-glow), .75); }
+
+.offer-plan { background: rgba(255, 255, 255, .05); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .1); transition: box-shadow .2s ease, background .2s ease; }
+.offer-plan-on { background: rgba(var(--offer-glow), .1); box-shadow: inset 0 0 0 2px var(--offer-cyan), 0 10px 30px -14px rgba(var(--offer-glow), .75); }
+.offer-radio-on { background: var(--offer-cyan); box-shadow: 0 0 0 2px var(--offer-cyan); }
+.offer-save { background: var(--offer-grad); color: var(--on-cyan); box-shadow: 0 6px 16px -6px rgba(var(--offer-glow), .8); }
+.offer-week { color: var(--offer-light); }
+
+.offer-foot { background: linear-gradient(to top, var(--offer-ground) 62%, rgba(6, 13, 23, .85) 80%, transparent); }
+.offer-cta { position: relative; overflow: hidden; background: var(--offer-grad); color: var(--on-cyan); box-shadow: 0 12px 34px -12px rgba(var(--offer-glow), .9); }
+.offer-cta[data-busy="1"] { opacity: .6; }
+.offer-cta::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; transform: translateX(-120%);
+  background: linear-gradient(100deg, transparent 30%, rgba(255, 255, 255, .55) 50%, transparent 70%);
+  animation: offer-shine 3.4s ease-in-out 1.4s infinite;
+}
+.offer-cta[data-busy="1"]::after { display: none; }
+@keyframes offer-shine { 0% { transform: translateX(-120%) } 40%, 100% { transform: translateX(120%) } }
+
+@media (prefers-reduced-motion: reduce) {
+  .offer, .offer-out, .offer-in, .offer-spark, .offer-cta::after { animation: none; }
+}

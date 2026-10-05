@@ -6,6 +6,7 @@ import { Mascot } from "@/components/mascot/Mascot";
 import { MASCOT_NAME } from "@/lib/brand";
 import { useT } from "@/lib/i18n/react";
 import { ONBOARDED_COOKIE } from "@/lib/onboarding";
+import { holdsTour, subscribeHold } from "@/lib/pro/offer";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { TOUR, advanceOnRoute, after, stepFor } from "@/lib/tour/steps";
 import { TOUR_KEY, finishTour, parseTour, setTourStep } from "@/lib/tour/state";
@@ -103,16 +104,18 @@ export function Coach() {
   const state = useMemo(() => parseTour(raw), [raw]);
   // The tour belongs to someone who has been through the first run (the cookie it sets); not to the first run itself.
   const onboarded = useSyncExternalStore(subNone, hasOnboardedCookie, () => false);
+  // The subscription screen comes once before the tour (components/paywall/OfferGate): the tour waits until it is dealt with.
+  const holding = useSyncExternalStore(subscribeHold, holdsTour, () => false);
 
   const index = state.step;
   // A reader's own tap moved the page where the step was leading: on to the step for that page.
   useEffect(() => {
-    if (state.done || !onboarded) return;
+    if (state.done || !onboarded || holding) return;
     const next = advanceOnRoute(index, pathname);
     if (next !== index) setTourStep(next);
-  }, [index, pathname, state.done, onboarded]);
+  }, [index, pathname, state.done, onboarded, holding]);
 
-  const step = !state.done && onboarded ? stepFor(index, pathname) : null;
+  const step = !state.done && onboarded && !holding ? stepFor(index, pathname) : null;
   const { box, top } = useTargetBox(step?.target, step !== null);
   // A step whose target is not on this screen (no speaker on this device, say) is skipped.
   const [missing, setMissing] = useState<string | null>(null);

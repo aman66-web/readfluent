@@ -28,3 +28,66 @@ describe("the blurb under a cover", () => {
     for (const b of PREVIEW_BOOKS) expect(shortBlurb(b.blurb).length).toBeLessThanOrEqual(65);
   });
 });
+
+import { ALWAYS_FREE, FREE_LENGTHS, canOpen } from "@/lib/plan";
+import { FULL_PAGES, SHORT_PAGES, compareRows, money, savingOf, type PlanRow } from "@/lib/purchases/offer";
+import { offerTrial, trialDays } from "@/lib/purchases/trial";
+
+const plan = (kind: PlanRow["kind"], amount: number, currency = "GBP", trial: number | null = 7): PlanRow => ({ id: kind, kind, price: "", amount, currency, trial, pkg: null });
+
+describe("the Free and Pro table is the plan's rules, not a list written by hand", () => {
+  it("ticks Free only for what canOpen lets a free reader open once payments are live", () => {
+    const rows = compareRows();
+    const short = rows.find((r) => r.id === "short")!;
+    const full = rows.find((r) => r.id === "full")!;
+    expect(short.pages).toBe(SHORT_PAGES);
+    expect(FREE_LENGTHS).toContain(SHORT_PAGES);
+    expect(short.free).toBe(canOpen(SHORT_PAGES, "free", false, true));
+    expect(full.pages).toBe(FULL_PAGES);
+    expect(full.free).toBe(canOpen(FULL_PAGES, "free", false, true));
+    expect(full.free).toBe(false);
+    expect(full.pro).toBe(true);
+  });
+  it("never lists something as Pro-only that a free reader can open", () => {
+    for (const r of compareRows()) if (r.pages !== undefined && r.free) expect(canOpen(r.pages, "free", false, true)).toBe(true);
+  });
+  it("keeps the promise that progress, word cards and flashcards are free for both", () => {
+    const keep = compareRows().find((r) => r.id === "keep")!;
+    expect(ALWAYS_FREE.length).toBeGreaterThan(0);
+    expect(keep.free && keep.pro).toBe(true);
+  });
+});
+
+describe("the plans come from the store's own prices", () => {
+  it("works the saving out from the two plans, in one currency", () => {
+    expect(savingOf([plan("annual", 39.99), plan("monthly", 5.99)])).toBe(44);
+    expect(savingOf([plan("annual", 4500, "JPY"), plan("monthly", 600, "JPY")])).toBe(38);
+  });
+  it("gives no saving without both plans, or across two currencies", () => {
+    expect(savingOf([plan("annual", 39.99)])).toBe(0);
+    expect(savingOf([plan("annual", 39.99, "GBP"), plan("monthly", 5.99, "EUR")])).toBe(0);
+    expect(savingOf(null)).toBe(0);
+  });
+  it("formats the per-week and per-month sums in the store's currency and the reader's language", () => {
+    expect(money(39.99 / 52, "GBP", "en")).toBe("£0.77");
+    expect(money(39.99 / 12, "GBP", "en")).toBe("£3.33");
+    expect(money(7500 / 52, "JPY", "en")).toBe("¥144");
+    expect(money(44.99 / 12, "EUR", "de")).toMatch(/3,75\s€/);
+    expect(money(1, "NOT-A-CURRENCY", "en")).toBeNull();
+  });
+});
+
+describe("the trial", () => {
+  it("is read from the store's introductory offer, and only when it is free", () => {
+    expect(trialDays({ price: 0, periodUnit: "WEEK", periodNumberOfUnits: 1, cycles: 1 })).toBe(7);
+    expect(trialDays({ price: 0, periodUnit: "DAY", periodNumberOfUnits: 3, cycles: 1 })).toBe(3);
+    expect(trialDays({ price: 0.99, periodUnit: "WEEK", periodNumberOfUnits: 1, cycles: 1 })).toBeNull();
+    expect(trialDays(null)).toBeNull();
+  });
+  it("is not promised to somebody the store says has had it", () => {
+    expect(offerTrial(7, true)).toBe(true);
+    expect(offerTrial(7, null)).toBe(true);
+    expect(offerTrial(7, false)).toBe(false);
+    expect(offerTrial(null, true)).toBe(false);
+  });
+});
