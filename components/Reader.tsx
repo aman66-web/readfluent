@@ -6,6 +6,7 @@ import { usePageKeys } from "@/components/reader/usePageKeys";
 import { keySpans } from "@/lib/reading/keys";
 import type { WordEntry } from "@/lib/preview/spanish";
 import { useSentenceMeaning } from "@/components/reader/useSentenceMeaning";
+import { prepareMeanings } from "@/lib/translate/context";
 import { BackLink } from "@/components/BackLink";
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { ObjectPhoto } from "@/components/ObjectPhoto";
@@ -169,6 +170,22 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
     el.scrollTo({ left: clamped * el.clientWidth, behavior: smooth ? "smooth" : "instant" });
   }, [total]);
   const step = useCallback((by: number) => goTo((heading.current ?? shown.current) + by), [goTo]);
+
+  // Every word's meaning is worked out as a page comes near, so a tap shows its card at once (lib/translate/context.ts).
+  useEffect(() => {
+    if (!interactive || variant.lang === locale) return;
+    let live = true;
+    void (async () => {
+      for (const at of [index, index + 1, index + 2]) {
+        const text = pages[at]?.text;
+        if (!live || !text) break;
+        await prepareMeanings(text, variant.lang, locale);
+      }
+    })();
+    return () => { live = false; };
+    // `pages` changes as keys are worked out; the page's text does not.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [index, interactive, variant.lang, locale, variant.pages]);
 
   // ── word taps ──
   const [sel, setSel] = useState<{ page: number; word: string; start: number; /** Set for a phrase that means something only as a whole: where it ends. */ end?: number } | null>(null);
