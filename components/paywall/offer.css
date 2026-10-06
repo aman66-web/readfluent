@@ -19,6 +19,12 @@
   background: var(--offer-ground); color: var(--foreground);
   animation: offer-rise .5s cubic-bezier(.22, 1, .36, 1) both;
 }
+/* The phone's clock sits over the top of this screen. Once the page scrolls, text passing under it would read as part of the clock, so a bar the height of the status bar, in the screen's own ground, stays at the top. Nothing on the web (no inset, so no height). */
+.offer::before {
+  content: ""; display: block; position: sticky; top: 0; z-index: 30; pointer-events: none;
+  height: env(safe-area-inset-top, 0px); margin-bottom: calc(-1 * env(safe-area-inset-top, 0px));
+  background: linear-gradient(var(--offer-ground) 0%, var(--offer-ground) 60%, rgba(6, 13, 23, 0));
+}
 .offer-out { animation: offer-sink .32s ease-in both; }
 @keyframes offer-rise { from { opacity: 0; transform: translateY(24px) } to { opacity: 1; transform: none } }
 @keyframes offer-sink { from { opacity: 1; transform: none } to { opacity: 0; transform: translateY(24px) } }

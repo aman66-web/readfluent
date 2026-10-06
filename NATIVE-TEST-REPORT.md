@@ -21,7 +21,7 @@
 
 ## Needs a real iPhone (the simulator cannot)
 - Apple's on-device translator: Download Spanish, then open a book and tap a word (word card).
-- The quiz's "Siguiente" button: in the simulator it only responded when tapped below where it is drawn (answer buttons were exact). Could be a simulator quirk or a real hit-area bug.
+- (Retracted 6 Oct: an earlier note here said the quiz's "Siguiente" button only responded below where it is drawn. That was my simulator tap tool: the simulator window had moved and my taps were landing in the wrong place. No app problem was found.)
 - Listen, the speaking test, sign-in, the paywall with real store prices.
 
 ## Known and left alone
