@@ -32,6 +32,23 @@ export function markedAnswer(translated: string, original: string): string | nul
   return out;
 }
 
+/**
+ * More words than this for ONE tapped word is not trusted. The phone marks the word in its sentence, and for a small grammar word it can
+ * pull the words around it into the brackets ("hain" came back "is kind and affable"): the card must say "are", not that. Such an answer is
+ * asked again with the word on its own (an unclear one-word answer beats a wrong long one). A tapped phrase may be longer, and keeps its answer.
+ */
+export const MAX_WORDS_FOR_ONE_WORD = 2;
+export function overlong(answer: string | null, word: string): boolean {
+  return !!answer && !/\s/.test(word.trim()) && answer.split(" ").length > MAX_WORDS_FOR_ONE_WORD;
+}
+
+/** The word translated on its own, cleaned the same way as a marked answer; null when there is nothing, or it is still long. */
+export function aloneAnswer(translated: string | undefined, word: string): string | null {
+  if (!translated) return null;
+  const answer = markedAnswer(`[${translated.replace(/[\[\]]/g, "")}]`, word);
+  return answer && !overlong(answer, word) ? answer : null;
+}
+
 const memo = new Map<string, string | null>();
 const keyOf = (from: string, to: string, marked: string): string => `${from}>${to}|${marked}`;
 
@@ -84,7 +101,16 @@ export function prepareMeanings(text: string, from: string, to: string): Promise
     if (!target) return;
     const marked = [...asks.keys()];
     const out = await deviceTranslate(marked, from, target);
-    marked.forEach((m, i) => memo.set(keyOf(from, to, m), out[i] ? markedAnswer(out[i], asks.get(m) ?? "") : null));
+    const answers = marked.map((m, i) => (out[i] ? markedAnswer(out[i], asks.get(m) ?? "") : null));
+    // A one-word answer that came back long is asked again, the words on their own, in one more call.
+    const again = marked.map((m, i) => (overlong(answers[i], asks.get(m) ?? "") ? i : -1)).filter((i) => i >= 0);
+    if (again.length > 0) {
+      const words = [...new Set(again.map((i) => asks.get(marked[i]) ?? ""))];
+      let alone: string[] = [];
+      try { alone = await deviceTranslate(words, from, target); } catch { /* the cards keep their own entries */ }
+      again.forEach((i) => { const w = asks.get(marked[i]) ?? ""; answers[i] = aloneAnswer(alone[words.indexOf(w)], w); });
+    }
+    marked.forEach((m, i) => memo.set(keyOf(from, to, m), answers[i]));
   })().catch(() => { /* a tap asks again for itself */ }).finally(() => { preparing.delete(pageKey); });
   preparing.set(pageKey, job);
   return job;
@@ -111,6 +137,7 @@ export async function meaningInContext(text: string, start: number, word: string
     if (!target) return null;
     const [translated] = await deviceTranslate([m.marked], from, target);
     out = translated ? markedAnswer(translated, word) : null;
+    if (overlong(out, word)) { const [one] = await deviceTranslate([word], from, target); out = aloneAnswer(one, word); }
   } catch { out = null; }
   memo.set(key, out);
   return out;
