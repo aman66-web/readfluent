@@ -7,14 +7,21 @@ export const isNewCard = (c: Card): boolean => c.reps === 0 && c.interval === 0 
 
 export const NEW_PER_SESSION = 10;
 export const MAX_PER_SESSION = 30;
+/** The most cards one "practise everything from this book" sitting holds. */
+export const ALL_MAX = 100;
 
 /**
  * The cards for one sitting: what is due first (the ones being relearned and the ones that have come
  * round), then a few new ones, so a deck of a hundred is met ten at a time rather than all at once.
  * `only` narrows it to some cards (one deck, or the saved words).
  */
-export function buildSession(cards: readonly Card[], now: number, opts: { only?: (id: string) => boolean; newLimit?: number; max?: number } = {}): string[] {
+export function buildSession(cards: readonly Card[], now: number, opts: { only?: (id: string) => boolean; newLimit?: number; max?: number; /** Every card of the set, due or not (practising a book's words): what is due first, then the rest, soonest due first. */ all?: boolean } = {}): string[] {
   const pool = opts.only ? cards.filter((c) => opts.only!(c.id)) : cards;
+  if (opts.all) {
+    const due = dueCards(pool, now);
+    const rest = pool.filter((c) => c.due > now).sort((a, b) => a.due - b.due);
+    return [...due, ...rest].slice(0, opts.max ?? ALL_MAX).map((c) => c.id);
+  }
   const due = dueCards(pool, now);
   const reviews = due.filter((c) => !isNewCard(c));
   const fresh = due.filter(isNewCard).slice(0, opts.newLimit ?? NEW_PER_SESSION);

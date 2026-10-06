@@ -8,6 +8,7 @@ import { useChapterNames, useLocale, useT } from "@/lib/i18n/react";
 import { Pathway, PART_SIZE, type OutlineItem } from "@/components/book/Pathway";
 import { useOutline } from "@/components/book/useOutline";
 import { Paywall } from "@/components/paywall/Paywall";
+import { BookWords } from "@/components/book/BookWords";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
 import { canOpenBook } from "@/lib/plan";
 import { usePlan } from "@/lib/pro/state";
@@ -43,7 +44,7 @@ function Card({ title, aside, children, label, tour }: { title: string; aside?: 
  * for this book, and the shortest length; a tap on another changes it), the book's path, and the way in. The Read
  * button carries on from where they were.
  */
-export function ReadPicker({ slug, lengths, langs = [], outline: english = [], chapterNames: englishChapters, children }: { slug: string; /** The length this book has (its pages): the one it opens at. */ lengths: readonly Length[]; /** The languages (besides English) the book can be read in. */ langs?: readonly string[]; /** The book's moments in order, for the path (English; shown in the reader's language where there is a translation). */ outline?: readonly OutlineItem[]; /** One name for each chapter of ten pages, where the book has them. */ chapterNames?: readonly string[]; /** The "about" text. */ children?: ReactNode }) {
+export function ReadPicker({ slug, titles = [], lengths, langs = [], outline: english = [], chapterNames: englishChapters, children }: { slug: string; /** The book's names, to find words saved from it before the slug was kept. */ titles?: readonly string[]; /** The length this book has (its pages): the one it opens at. */ lengths: readonly Length[]; /** The languages (besides English) the book can be read in. */ langs?: readonly string[]; /** The book's moments in order, for the path (English; shown in the reader's language where there is a translation). */ outline?: readonly OutlineItem[]; /** One name for each chapter of ten pages, where the book has them. */ chapterNames?: readonly string[]; /** The "about" text. */ children?: ReactNode }) {
   const t = useT();
   const chapterNames = useChapterNames(slug, englishChapters);
   const locale = useLocale();
@@ -109,6 +110,9 @@ export function ReadPicker({ slug, lengths, langs = [], outline: english = [], c
 
       <div className="mt-3 flex flex-col gap-3">
         {children && <Card title={t("book.about")}><div className="mt-2.5">{children}</div></Card>}
+
+        {/* The words saved from this book, and a way to practise all of them. */}
+        <BookWords slug={slug} titles={titles} />
 
         {/* How hard the language is: one sentence, two or three a page. */}
         <Card title={t("book.levels")} aside={levelInfo && <p className="text-end text-[13px] font-semibold text-foreground/80">{t(`level.${levelInfo.id}.name`)}</p>}>

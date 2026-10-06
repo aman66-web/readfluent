@@ -604,7 +604,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
                     saved={savedId(variant.lang, sel.word) in saved}
                     onListen={() => hear(slow ? 0.7 : 0.95)} onSlow={() => hear(0.5)}
                     onSave={() => {
-                      const now = toggleSaved({ word: sel.word, lang: variant.lang, meaning: (entry?.en !== "…" ? entry?.en : cardEntry?.en) ?? "", book: title });
+                      const now = toggleSaved({ word: sel.word, lang: variant.lang, meaning: (entry?.en !== "…" ? entry?.en : cardEntry?.en) ?? "", book: title, slug });
                       say(now ? t("reader.savedToast") : t("reader.removedToast"), now);
                       if (now) setHop((h) => h + 1);
                     }}

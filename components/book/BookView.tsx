@@ -56,7 +56,7 @@ export function BookView({ book, outline, langs, chapterNames }: { book: Preview
         </div>
       </div>
 
-      <ReadPicker slug={book.slug} lengths={lengths} outline={outline} langs={langs} chapterNames={chapterNames}>
+      <ReadPicker slug={book.slug} titles={[book.title, title]} lengths={lengths} outline={outline} langs={langs} chapterNames={chapterNames}>
         <p lang={langOf(book.slug, "blurb")} dir="auto" className="font-reading text-[17px] leading-[1.6] text-foreground/90">{blurb}</p>
         {/* Where it comes from, in the description where readers can see it. */}
         <p className="mt-3 border-t border-border pt-3 text-[13px] leading-snug text-muted">

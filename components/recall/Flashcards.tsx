@@ -5,7 +5,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 import { loadDeck, parseDeckCardId, type DeckSize, type Phrase } from "@/lib/decks";
 import { loadTopics, parseTopicCardId, type TopicId } from "@/lib/decks/topics";
-import { useLocale, useT } from "@/lib/i18n/react";
+import { useBookText, useLocale, useT } from "@/lib/i18n/react";
 import { LANGUAGES } from "@/lib/onboarding/languages";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { Meaning } from "./Meaning";
@@ -15,7 +15,7 @@ import { buildSession, inDeck, inTopic } from "@/lib/srs/session";
 import { answerCard, parseSrs, saveSrs, sittingState, SRS_KEY } from "@/lib/srs/store";
 import { useDeviceReady, useSaved, useSrs } from "@/lib/srs/use";
 import { readRaw } from "@/lib/store/local";
-import { SAVED_KEY, parseSaved } from "@/lib/words/saved";
+import { SAVED_KEY, parseSaved, wordsOfBook } from "@/lib/words/saved";
 import { LevelUp } from "@/components/xp/LevelUp";
 import { levelUpBetween, xpForCard, type LevelUp as LevelUpInfo } from "@/lib/xp/levels";
 import { awardCard, currentXp } from "@/lib/xp/ledger";
@@ -37,19 +37,22 @@ const GRADES: readonly { grade: Grade; label: "cards.again" | "cards.good" | "ca
 
 /**
  * One sitting of flashcards. `deck` narrows it to the first 50 or 100 phrases of `lang`'s deck; with no
- * deck it is everything due: the saved words and the phrases of any deck that was started.
+ * deck it is everything due: the saved words and the phrases of any deck that was started. `book` is every
+ * word saved from one book (owner, 6 Oct 2026), due or not, from that book's page.
  */
-export function Flashcards({ deck, lang, topic = null }: { deck: DeckSize | null; lang: string | null; /** One topic deck of `lang`, instead of a phrase deck. */ topic?: TopicId | null }) {
+export function Flashcards({ deck, lang, topic = null, book = null }: { deck: DeckSize | null; lang: string | null; /** One topic deck of `lang`, instead of a phrase deck. */ topic?: TopicId | null; /** Every saved word of one book. */ book?: { slug: string; title: string } | null }) {
   const ready = useDeviceReady();
   return (
     <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:1.5rem] [--pt:.5rem]">
-      {ready ? <Session deck={deck} lang={lang} topic={topic} /> : null}
+      {ready ? <Session deck={deck} lang={lang} topic={topic} book={book} /> : null}
     </main>
   );
 }
 
-function Session({ deck, lang, topic }: { deck: DeckSize | null; lang: string | null; topic: TopicId | null }) {
+function Session({ deck, lang, topic, book }: { deck: DeckSize | null; lang: string | null; topic: TopicId | null; book: { slug: string; title: string } | null }) {
   const t = useT();
+  const bookText = useBookText();
+  const bookTitle = book ? bookText(book.slug, "title", book.title) : "";
   const locale = useLocale();
   const a = useAnswers();
   const srs = useSrs();
@@ -57,8 +60,11 @@ function Session({ deck, lang, topic }: { deck: DeckSize | null; lang: string | 
   // The cards of this sitting are fixed when it starts; answering one must not reshuffle the rest.
   const [start] = useState(() => {
     const now = Date.now();
-    const state = sittingState(parseSrs(readRaw(SRS_KEY)), parseSaved(readRaw(SAVED_KEY)), deck && lang ? { lang, size: deck } : null, now, topic && lang ? { lang, topic } : null);
-    const ids = buildSession(Object.values(state.cards), now, topic && lang ? { only: (id) => inTopic(id, lang, topic) } : deck && lang ? { only: (id) => inDeck(id, lang, deck) } : {});
+    const savedNow = parseSaved(readRaw(SAVED_KEY));
+    const state = sittingState(parseSrs(readRaw(SRS_KEY)), savedNow, deck && lang ? { lang, size: deck } : null, now, topic && lang ? { lang, topic } : null);
+    // A book's words: every one saved from it (older ones by title), due or not.
+    const mine = book ? new Set(wordsOfBook(savedNow, book.slug, [book.title, bookTitle])) : null;
+    const ids = buildSession(Object.values(state.cards), now, mine ? { only: (id) => mine.has(id), all: true } : topic && lang ? { only: (id) => inTopic(id, lang, topic) } : deck && lang ? { only: (id) => inDeck(id, lang, deck) } : {});
     return { state, ids };
   });
   const ids = start.ids;
@@ -141,7 +147,7 @@ function Session({ deck, lang, topic }: { deck: DeckSize | null; lang: string | 
   }, [finished, face, shown, reveal, grade]);
 
   const back = (
-    <Link href="/recall" aria-label={t("cards.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
+    <Link href={book ? `/book/${book.slug}` : "/recall"} aria-label={t("cards.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
     </Link>
   );
@@ -185,6 +191,7 @@ function Session({ deck, lang, topic }: { deck: DeckSize | null; lang: string | 
         <span className="w-12 text-end text-[13px] font-semibold tabular-nums text-muted">{at + 1}/{ids.length}</span>
       </div>
 
+      {book ? <p className="mt-3 text-center text-[13px] font-semibold text-muted"><bdi>{t("book.words.sitting", { book: bookTitle })}</bdi></p> : null}
       <div className="relative flex flex-1 flex-col justify-center py-6">
         {gain && (
           <p key={gain.n} className="xp-pop tabular pointer-events-none absolute inset-x-0 top-1 mx-auto w-fit rounded-full bg-accent-bright px-3.5 py-1 text-[14px] font-bold text-on-cyan shadow-md" role="status">
