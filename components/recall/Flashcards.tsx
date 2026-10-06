@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 import { loadDeck, parseDeckCardId, type DeckSize, type Phrase } from "@/lib/decks";
+import { loadBookDeck, parseBookCardId, type BookLevel, type BookPhrase } from "@/lib/decks/books";
 import { loadTopics, parseTopicCardId, type TopicId } from "@/lib/decks/topics";
 import { useBookText, useLocale, useT } from "@/lib/i18n/react";
 import { LANGUAGES } from "@/lib/onboarding/languages";
@@ -11,7 +12,7 @@ import { useAnswers } from "@/lib/onboarding/use-answers";
 import { Meaning } from "./Meaning";
 import { canSpeak, speak, stopSpeaking } from "@/lib/reading/speak";
 import { previewDays, type Grade } from "@/lib/srs/schedule";
-import { buildSession, inDeck, inTopic } from "@/lib/srs/session";
+import { buildSession, inBookDeck, inDeck, inTopic } from "@/lib/srs/session";
 import { answerCard, parseSrs, saveSrs, sittingState, SRS_KEY } from "@/lib/srs/store";
 import { useDeviceReady, useSaved, useSrs } from "@/lib/srs/use";
 import { readRaw } from "@/lib/store/local";
@@ -35,24 +36,29 @@ const GRADES: readonly { grade: Grade; label: "cards.again" | "cards.good" | "ca
   { grade: "easy", label: "cards.easy", tone: "border-emerald-300 bg-emerald-50 text-emerald-700 active:bg-emerald-100" },
 ];
 
+export interface BookDeckRef { slug: string; title: string; lang: string; level: BookLevel; size: number }
 /**
  * One sitting of flashcards. `deck` narrows it to the first 50 or 100 phrases of `lang`'s deck; with no
  * deck it is everything due: the saved words and the phrases of any deck that was started. `book` is every
- * word saved from one book (owner, 6 Oct 2026), due or not, from that book's page.
+ * word saved from one book (owner, 6 Oct 2026), due or not, from that book's page. `bookDeck` is the phrases of one book (owner,
+ * 7 Oct 2026), a few new ones at a time in the order of the story.
  */
-export function Flashcards({ deck, lang, topic = null, book = null }: { deck: DeckSize | null; lang: string | null; /** One topic deck of `lang`, instead of a phrase deck. */ topic?: TopicId | null; /** Every saved word of one book. */ book?: { slug: string; title: string } | null }) {
+export function Flashcards({ deck, lang, topic = null, book = null, bookDeck = null }: { deck: DeckSize | null; lang: string | null; /** One topic deck of `lang`, instead of a phrase deck. */ topic?: TopicId | null; /** Every saved word of one book. */ book?: { slug: string; title: string } | null; /** The phrases of one book. */ bookDeck?: BookDeckRef | null }) {
   const ready = useDeviceReady();
   return (
     <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:1.5rem] [--pt:.5rem]">
-      {ready ? <Session deck={deck} lang={lang} topic={topic} book={book} /> : null}
+      {ready ? <Session deck={deck} lang={lang} topic={topic} book={book} bookDeck={bookDeck} /> : null}
     </main>
   );
 }
 
-function Session({ deck, lang, topic, book }: { deck: DeckSize | null; lang: string | null; topic: TopicId | null; book: { slug: string; title: string } | null }) {
+function Session({ deck, lang, topic, book, bookDeck }: { deck: DeckSize | null; lang: string | null; topic: TopicId | null; book: { slug: string; title: string } | null; bookDeck: BookDeckRef | null }) {
   const t = useT();
   const bookText = useBookText();
   const bookTitle = book ? bookText(book.slug, "title", book.title) : "";
+  const deckTitle = bookDeck ? bookText(bookDeck.slug, "title", bookDeck.title) : "";
+  // The line above the card for a book's words or a book's phrases.
+  const sitting = book ? t("book.words.sitting", { book: bookTitle }) : bookDeck ? t("book.phrases.sitting", { book: deckTitle }) : null;
   const locale = useLocale();
   const a = useAnswers();
   const srs = useSrs();
@@ -61,10 +67,10 @@ function Session({ deck, lang, topic, book }: { deck: DeckSize | null; lang: str
   const [start] = useState(() => {
     const now = Date.now();
     const savedNow = parseSaved(readRaw(SAVED_KEY));
-    const state = sittingState(parseSrs(readRaw(SRS_KEY)), savedNow, deck && lang ? { lang, size: deck } : null, now, topic && lang ? { lang, topic } : null);
+    const state = sittingState(parseSrs(readRaw(SRS_KEY)), savedNow, deck && lang ? { lang, size: deck } : null, now, topic && lang ? { lang, topic } : null, bookDeck);
     // A book's words: every one saved from it (older ones by title), due or not.
     const mine = book ? new Set(wordsOfBook(savedNow, book.slug, [book.title, bookTitle])) : null;
-    const ids = buildSession(Object.values(state.cards), now, mine ? { only: (id) => mine.has(id), all: true } : topic && lang ? { only: (id) => inTopic(id, lang, topic) } : deck && lang ? { only: (id) => inDeck(id, lang, deck) } : {});
+    const ids = buildSession(Object.values(state.cards), now, mine ? { only: (id) => mine.has(id), all: true } : bookDeck ? { only: (id) => inBookDeck(id, bookDeck.slug, bookDeck.lang) } : topic && lang ? { only: (id) => inTopic(id, lang, topic) } : deck && lang ? { only: (id) => inDeck(id, lang, deck) } : {});
     return { state, ids };
   });
   const ids = start.ids;
@@ -87,14 +93,32 @@ function Session({ deck, lang, topic, book }: { deck: DeckSize | null; lang: str
   const langs = useMemo(() => [...new Set(ids.map((id) => parseDeckCardId(id)?.lang).filter((l): l is string => !!l))], [ids]);
   const topicLangs = useMemo(() => [...new Set(ids.map((id) => parseTopicCardId(id)?.lang).filter((l): l is string => !!l))], [ids]);
   const [topics, setTopics] = useState<Record<string, Partial<Record<TopicId, Phrase[]>>>>({});
+  const [bookPhrases, setBookPhrases] = useState<Record<string, BookPhrase[]>>({});
+  const bookKeys = useMemo(() => {
+    const keys = new Set<string>();
+    for (const cardId of ids) {
+      const d = parseBookCardId(cardId);
+      if (d) keys.add(`${d.slug}:${d.lang}:${d.level}`);
+    }
+    return [...keys];
+  }, [ids]);
   useEffect(() => {
     let live = true;
     for (const l of langs) void loadDeck(l).then((p) => { if (live) setPhrases((cur) => ({ ...cur, [l]: p })); });
     for (const l of topicLangs) void loadTopics(l).then((p) => { if (live) setTopics((cur) => ({ ...cur, [l]: p })); });
+    for (const k of bookKeys) {
+      const [slug, l, level] = k.split(":");
+      void loadBookDeck(slug, l, level as BookLevel).then((p) => { if (live) setBookPhrases((cur) => ({ ...cur, [k]: p })); });
+    }
     return () => { live = false; stopSpeaking(); };
-  }, [langs, topicLangs]);
+  }, [langs, topicLangs, bookKeys]);
 
   const faceOf = useCallback((id: string): Face | null => {
+    const bk = parseBookCardId(id);
+    if (bk) {
+      const p = bookPhrases[`${bk.slug}:${bk.lang}:${bk.level}`]?.[bk.index];
+      return p ? { front: p.t, back: p.en, hint: p.ph, lang: bk.lang, deck: true } : null;
+    }
     const tp = parseTopicCardId(id);
     if (tp) {
       const p = topics[tp.lang]?.[tp.topic]?.[tp.index];
@@ -108,7 +132,7 @@ function Session({ deck, lang, topic, book }: { deck: DeckSize | null; lang: str
     const w = saved[id];
     // A word saved with no meaning still gets a back, so the reader is never asked to grade a blank.
     return w ? { front: w.word, back: w.meaning || t("cards.noMeaning"), lang: w.lang, book: w.book } : null;
-  }, [phrases, topics, saved, t]);
+  }, [phrases, topics, bookPhrases, saved, t]);
 
   const id = ids[at];
   const card = id ? srs.cards[id] : undefined;
@@ -147,7 +171,7 @@ function Session({ deck, lang, topic, book }: { deck: DeckSize | null; lang: str
   }, [finished, face, shown, reveal, grade]);
 
   const back = (
-    <Link href={book ? `/book/${book.slug}` : "/recall"} aria-label={t("cards.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
+    <Link href={book ? `/book/${book.slug}` : bookDeck ? `/book/${bookDeck.slug}` : "/recall"} aria-label={t("cards.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
     </Link>
   );
@@ -191,7 +215,7 @@ function Session({ deck, lang, topic, book }: { deck: DeckSize | null; lang: str
         <span className="w-12 text-end text-[13px] font-semibold tabular-nums text-muted">{at + 1}/{ids.length}</span>
       </div>
 
-      {book ? <p className="mt-3 text-center text-[13px] font-semibold text-muted"><bdi>{t("book.words.sitting", { book: bookTitle })}</bdi></p> : null}
+      {sitting ? <p className="mt-3 text-center text-[13px] font-semibold text-muted"><bdi>{sitting}</bdi></p> : null}
       <div className="relative flex flex-1 flex-col justify-center py-6">
         {gain && (
           <p key={gain.n} className="xp-pop tabular pointer-events-none absolute inset-x-0 top-1 mx-auto w-fit rounded-full bg-accent-bright px-3.5 py-1 text-[14px] font-bold text-on-cyan shadow-md" role="status">

@@ -1,4 +1,5 @@
 import { parseDeckCardId, deckCardId, type DeckSize } from "@/lib/decks";
+import { parseBookCardId, bookCardId, type BookLevel } from "@/lib/decks/books";
 import { TOPIC_SIZE, parseTopicCardId, topicCardId, type TopicId } from "@/lib/decks/topics";
 import { dueCards, type Card } from "./schedule";
 
@@ -64,4 +65,23 @@ export function topicProgress(cards: Record<string, Card>, lang: string, topic: 
 export function inTopic(id: string, lang: string, topic: TopicId): boolean {
   const d = parseTopicCardId(id);
   return !!d && d.lang === lang && d.topic === topic;
+}
+
+/** Whether a card is of one book's deck in one language. */
+export function inBookDeck(id: string, slug: string, lang: string): boolean {
+  const d = parseBookCardId(id);
+  return !!d && d.slug === slug && d.lang === lang;
+}
+
+/** How a book deck is getting on: of its phrases, how many have been met and how many are well learned. */
+export function bookProgress(cards: Record<string, Card>, slug: string, lang: string, level: BookLevel, size: number): { met: number; learned: number; size: number } {
+  let met = 0;
+  let learned = 0;
+  for (let i = 0; i < size; i++) {
+    const c = cards[bookCardId(slug, lang, level, i)];
+    if (!c) continue;
+    if (!isNewCard(c)) met++;
+    if (c.interval >= 1) learned++;
+  }
+  return { met, learned, size };
 }

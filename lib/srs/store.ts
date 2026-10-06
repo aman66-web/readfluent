@@ -4,6 +4,7 @@ import { readRaw, writeRaw } from "@/lib/store/local";
 import { localDay } from "@/lib/xp/ledger";
 import type { Saved } from "@/lib/words/saved";
 import { deckCardId, type DeckSize } from "@/lib/decks";
+import { bookCardId, type BookLevel } from "@/lib/decks/books";
 import { newCard, parseCard, review, type Card, type Grade } from "./schedule";
 
 /** The flashcards' state, kept on the device: a card for every saved word, and how many were answered each day. */
@@ -35,10 +36,10 @@ export function parseSrs(raw: string | null | undefined): Srs {
 const read = (): Srs => parseSrs(readRaw(SRS_KEY));
 const write = (s: Srs) => writeRaw(SRS_KEY, JSON.stringify(s));
 
-/** Every saved word has a card; a word taken out of the saved list loses its card. Cards of the phrase decks are kept. */
+/** Every saved word has a card; a word taken out of the saved list loses its card. Cards of the phrase, topic and book decks are kept. */
 export function withCardsFor(srs: Srs, saved: Saved, now: number): Srs {
   const cards: Record<string, Card> = {};
-  for (const [id, c] of Object.entries(srs.cards)) if (id.startsWith("deck:")) cards[id] = c;
+  for (const [id, c] of Object.entries(srs.cards)) if (/^(deck|topic|bk):/.test(id)) cards[id] = c;
   for (const id of Object.keys(saved)) cards[id] = srs.cards[id] ?? newCard(id, now);
   const same = Object.keys(cards).length === Object.keys(srs.cards).length && Object.keys(cards).every((id) => srs.cards[id]);
   return same ? srs : { ...srs, cards };
@@ -83,6 +84,17 @@ export function withTopic(srs: Srs, lang: string, topic: TopicId, now: number): 
   return added ? { ...srs, cards } : srs;
 }
 
+/** The state with a book deck's cards added, one per phrase (the ones already there keep their progress). */
+export function withBookDeck(srs: Srs, slug: string, lang: string, level: BookLevel, size: number, now: number): Srs {
+  const cards = { ...srs.cards };
+  let added = false;
+  for (let i = 0; i < size; i++) {
+    const id = bookCardId(slug, lang, level, i);
+    if (!cards[id]) { cards[id] = newCard(id, now); added = true; }
+  }
+  return added ? { ...srs, cards } : srs;
+}
+
 /** Adds a deck's cards (idempotent). */
 export function addDeck(lang: string, size: DeckSize, now = Date.now()): void {
   const cur = read();
@@ -94,8 +106,9 @@ export function addDeck(lang: string, size: DeckSize, now = Date.now()): void {
 export function saveSrs(s: Srs): void { write(s); }
 
 /** The state a sitting starts from: every saved word has its card, and the deck chosen (if any) is on the table. */
-export function sittingState(srs: Srs, saved: Saved, deck: { lang: string; size: DeckSize } | null, now: number, topic: { lang: string; topic: TopicId } | null = null): Srs {
+export function sittingState(srs: Srs, saved: Saved, deck: { lang: string; size: DeckSize } | null, now: number, topic: { lang: string; topic: TopicId } | null = null, bookDeck: { slug: string; lang: string; level: BookLevel; size: number } | null = null): Srs {
   const withWords = withCardsFor(srs, saved, now);
+  if (bookDeck) return withBookDeck(withWords, bookDeck.slug, bookDeck.lang, bookDeck.level, bookDeck.size, now);
   if (topic) return withTopic(withWords, topic.lang, topic.topic, now);
   return deck ? withDeck(withWords, deck.lang, deck.size, now) : withWords;
 }

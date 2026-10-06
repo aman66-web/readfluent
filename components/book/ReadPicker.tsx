@@ -8,6 +8,7 @@ import { useChapterNames, useLocale, useT } from "@/lib/i18n/react";
 import { Pathway, PART_SIZE, type OutlineItem } from "@/components/book/Pathway";
 import { useOutline } from "@/components/book/useOutline";
 import { Paywall } from "@/components/paywall/Paywall";
+import { BookPhrases } from "@/components/book/BookPhrases";
 import { BookWords } from "@/components/book/BookWords";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
 import { canOpenBook } from "@/lib/plan";
@@ -113,6 +114,9 @@ export function ReadPicker({ slug, titles = [], lengths, langs = [], outline: en
 
         {/* The words saved from this book, and a way to practise all of them. */}
         <BookWords slug={slug} titles={titles} />
+
+        {/* The book's own phrases, as flashcards, where it has them in the language being learned. */}
+        <BookPhrases slug={slug} />
 
         {/* How hard the language is: one sentence, two or three a page. */}
         <Card title={t("book.levels")} aside={levelInfo && <p className="text-end text-[13px] font-semibold text-foreground/80">{t(`level.${levelInfo.id}.name`)}</p>}>
