@@ -1,6 +1,7 @@
 "use client";
 
 import { useRoman } from "@/components/reader/useRoman";
+import { useCardReading } from "@/components/reader/useCardReading";
 import { latinMarks, romanText, type Romaniser } from "@/lib/romanise";
 import { usePageKeys } from "@/components/reader/usePageKeys";
 import { keySpans } from "@/lib/reading/keys";
@@ -247,6 +248,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   // A card made by hand explains the word; one made by the translator from the word alone is a guess, so the word is asked again in its sentence.
   const inSentence = useSentenceMeaning(sel && !cardEntry?.use && selPage ? { text: selPage.text, start: sel.start, word: sel.word } : null, variant.lang, locale);
   const entry: WordEntry | undefined = inSentence.text ? { en: inSentence.text, use: "" } : inSentence.pending ? { en: "…", use: "" } : cardEntry;
+  const cardReading = useCardReading(variant.lang, sel?.word ?? null);
   const open = sel !== null;
   // The lines are in English until the translation pipeline gives each reader their own language.
   const lineLang = languageName("en", locale);
@@ -586,7 +588,7 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
           </p>
         )}
         {sel ? (
-          <WordCard word={sel.word} entry={entry} colour={colour}
+          <WordCard word={sel.word} entry={entry} colour={colour} reading={cardReading}
                     saved={savedId(variant.lang, sel.word) in saved}
                     onListen={() => hear(slow ? 0.7 : 0.95)} onSlow={() => hear(0.5)}
                     onSave={() => {

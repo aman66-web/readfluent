@@ -9,8 +9,10 @@ import type { WordEntry } from "@/lib/preview/spanish";
  * one line on when it is used, and three buttons: hear the Spanish, hear it slowly, save it for
  * the flashcards.
  */
-export function WordCard({ word, entry, colour, saved, onListen, onSlow, onSave, onClose }: {
+export function WordCard({ word, entry, colour, reading, saved, onListen, onSlow, onSave, onClose }: {
   word: string;
+  /** The word in Latin letters, for a language written in another script (Hindi, Chinese …). */
+  reading?: string | null;
   entry: WordEntry | undefined;
   /** The CSS colour of the word, from its pair; plain ink where the word is not one of the three. */
   colour: string;
@@ -31,6 +33,7 @@ export function WordCard({ word, entry, colour, saved, onListen, onSlow, onSave,
       </button>
       {/* The English for the word, large; under it one line on when it is used. The Spanish stays in the text above. */}
       <h2 className="pe-9 font-reading text-[24px] font-semibold leading-tight" style={{ color: colour }}><span lang="en" dir="ltr" className="block">{entry ? entry.en : word}</span></h2>
+      {reading && <p dir="ltr" lang="en" data-reading className="mt-0.5 text-[19px] font-semibold leading-tight tracking-[0.01em]" style={{ color: colour }}>{reading}</p>}
       {(!entry || entry.use) && <p className="mt-1.5 text-[14.5px] font-semibold leading-snug"><span lang="en" dir="ltr" className="block">{entry ? entry.use : t("reader.noMeaning")}</span></p>}
       <div className="mt-2.5 flex gap-1.5">
         <button type="button" onClick={onListen} className="flex min-h-11 flex-1 items-center justify-center gap-1.5 rounded-xl border-[1.5px] border-border text-[12.5px] font-bold active:bg-border/50">
