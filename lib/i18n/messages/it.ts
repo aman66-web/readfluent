@@ -963,6 +963,7 @@ const it: Catalog = {
   "reader.quickNow": "Mini quiz ora",
   "paywall.trialBadge": "{n} giorni gratis",
   "paywall.ctaTrial": "Inizia la prova gratuita di {n} giorni",
+  "paywall.autoRenewApple": "Il pagamento viene addebitato sul tuo account Apple ID alla conferma dell'acquisto o al termine di una prova gratuita. L'abbonamento si rinnova automaticamente, a meno che tu non lo annulli almeno 24 ore prima della fine del periodo in corso; il rinnovo viene addebitato nelle 24 ore precedenti la fine del periodo. Puoi gestirlo o annullarlo in qualsiasi momento nelle impostazioni dell'account App Store. La parte inutilizzata di una prova gratuita viene persa quando ti abboni.",
 };
 
 export default it;

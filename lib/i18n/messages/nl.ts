@@ -966,6 +966,7 @@ const nl: Catalog = {
   "reader.quickNow": "Nu een snelle check",
   "paywall.trialBadge": "{n} dagen gratis",
   "paywall.ctaTrial": "Start {n} dagen gratis proberen",
+  "paywall.autoRenewApple": "De betaling wordt in rekening gebracht op je Apple ID-account wanneer je de aankoop bevestigt of wanneer een gratis proefperiode afloopt. Het abonnement wordt automatisch verlengd, tenzij je minstens 24 uur voor het einde van de huidige periode opzegt; de verlenging wordt binnen 24 uur voor het einde van de periode in rekening gebracht. Beheer of zeg op wanneer je wilt in de instellingen van je App Store-account. Een ongebruikt deel van een gratis proefperiode vervalt zodra je je abonneert.",
 };
 
 export default nl;

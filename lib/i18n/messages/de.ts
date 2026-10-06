@@ -964,6 +964,7 @@ const de: Catalog = {
   "reader.quickNow": "Jetzt Kurztest",
   "paywall.trialBadge": "{n} Tage gratis",
   "paywall.ctaTrial": "{n} Tage gratis testen",
+  "paywall.autoRenewApple": "Die Zahlung wird deinem Apple-ID-Konto belastet, wenn du den Kauf bestätigst oder eine kostenlose Testphase endet. Das Abo verlängert sich automatisch, wenn du nicht mindestens 24 Stunden vor Ende des laufenden Zeitraums kündigst; die Verlängerung wird innerhalb von 24 Stunden vor Ablauf des Zeitraums berechnet. Verwalten oder kündigen kannst du jederzeit in den App-Store-Kontoeinstellungen. Ein nicht genutzter Teil einer kostenlosen Testphase verfällt beim Abschluss eines Abos.",
 };
 
 export default de;

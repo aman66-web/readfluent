@@ -972,6 +972,7 @@ export const EN = {
   "reader.quickNow": "Quick check now",
   "paywall.trialBadge": "{n} days free",
   "paywall.ctaTrial": "Start {n}-day free trial",
+  "paywall.autoRenewApple": "Payment is charged to your Apple ID account when you confirm the purchase, or when a free trial ends. The subscription renews automatically unless you cancel at least 24 hours before the end of the current period; your account is charged for the renewal within 24 hours before the period ends. Manage or cancel any time in your App Store account settings. Any unused part of a free trial is lost when you subscribe.",
 } as const;
 
 export type MessageId = keyof typeof EN;

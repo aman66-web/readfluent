@@ -962,6 +962,7 @@ const zh: Catalog = {
   "reader.quickNow": "马上快速测验",
   "paywall.trialBadge": "免费{n}天",
   "paywall.ctaTrial": "开始{n}天免费试用",
+  "paywall.autoRenewApple": "确认购买时或免费试用结束时，费用将从您的 Apple ID 账户扣除。除非您在当前订阅期结束前至少 24 小时取消，否则订阅将自动续订；续订费用会在订阅期结束前 24 小时内扣除。您可以随时在 App Store 账户设置中管理或取消订阅。订阅后，免费试用中未使用的部分将作废。",
 };
 
 export default zh;

@@ -963,6 +963,7 @@ const fr: Catalog = {
   "reader.quickNow": "Mini-quiz maintenant",
   "paywall.trialBadge": "{n} jours gratuits",
   "paywall.ctaTrial": "Démarrer l'essai gratuit de {n} jours",
+  "paywall.autoRenewApple": "Le paiement est prélevé sur votre compte Apple ID à la confirmation de l'achat ou à la fin d'un essai gratuit. L'abonnement se renouvelle automatiquement, sauf si vous l'annulez au moins 24 heures avant la fin de la période en cours ; le renouvellement est facturé dans les 24 heures précédant la fin de la période. Gérez ou annulez à tout moment dans les réglages de votre compte App Store. Toute partie inutilisée d'un essai gratuit est perdue lorsque vous vous abonnez.",
 };
 
 export default fr;

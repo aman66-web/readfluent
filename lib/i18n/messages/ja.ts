@@ -962,6 +962,7 @@ const ja: Catalog = {
   "reader.quickNow": "今すぐクイックチェック",
   "paywall.trialBadge": "{n}日間無料",
   "paywall.ctaTrial": "{n}日間の無料トライアルを始める",
+  "paywall.autoRenewApple": "お支払いは、購入を確定したとき、または無料トライアルが終了したときに、お客様のApple IDアカウントに請求されます。現在の期間が終了する24時間前までに解約しない限り、サブスクリプションは自動的に更新され、更新料金は期間終了前の24時間以内に請求されます。管理や解約はいつでもApp Storeのアカウント設定から行えます。無料トライアルの未使用期間は、登録時に失効します。",
 };
 
 export default ja;
