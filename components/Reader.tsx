@@ -220,6 +220,15 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
   useEffect(() => () => stopSpeaking(), []);
   const [reading, setReading] = useState(false);
 
+  // A tapped word is said aloud at once (owner, 6 Oct 2026), from inside the tap itself: the phone only lets speech start from a touch,
+  // so this cannot wait for the card's meaning to arrive. The card's Listen and "Say it slowly" still say it again. Where the phone has
+  // no voice for the language it says so once, not on every tap.
+  const toldNoVoice = useRef(false);
+  const sayTapped = (text: string) => {
+    const noAudio = () => { if (toldNoVoice.current) return; toldNoVoice.current = true; say(t("reader.noAudio", { language: languageName(variant.lang, locale) })); };
+    if (!speak(text, variant.lang, slow ? 0.7 : 0.95, noAudio)) noAudio();
+  };
+
   // A tap on a word that belongs to a phrase (a match of several words) takes the whole phrase: it has one meaning.
   const pick = (page: number, word: string, start: number) => {
     setMenu(false);
@@ -234,10 +243,13 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
       while (l > 0 && spans.get(toks[l - 1].start) === k) l--;
       while (r + 1 < toks.length && spans.get(toks[r + 1].start) === k) r++;
       const from = toks[l].start, to = toks[r].start + toks[r].text.length;
-      setSel({ page, word: p.text.slice(from, to).toLowerCase(), start: from, end: to });
+      const phrase = p.text.slice(from, to).toLowerCase();
+      setSel({ page, word: phrase, start: from, end: to });
+      sayTapped(phrase);
       return;
     }
     setSel({ page, word, start });
+    sayTapped(word);
   };
   const selPage = sel ? pages[sel.page] : undefined;
   const keys = selPage?.target?.keys ?? [];
