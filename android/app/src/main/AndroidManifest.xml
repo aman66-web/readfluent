@@ -49,4 +49,9 @@
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- The speaking test and Talk listen through the microphone; the permission prompt appears when the reader first uses one. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- Reading works without a microphone, so Google Play must not hide the app from phones that lack one. -->
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
 </manifest>
