@@ -974,6 +974,7 @@ const pt: Catalog = {
   "paywall.trialBadge": "{n} dias grátis",
   "paywall.ctaTrial": "Começar teste grátis de {n} dias",
   "paywall.autoRenewApple": "O pagamento é cobrado na sua conta Apple ID quando você confirma a compra ou quando um teste gratuito termina. A assinatura é renovada automaticamente, a menos que você a cancele pelo menos 24 horas antes do fim do período atual; a renovação é cobrada nas 24 horas anteriores ao fim do período. Gerencie ou cancele a qualquer momento nos ajustes da sua conta da App Store. Qualquer parte não usada de um teste gratuito é perdida quando você assina.",
+  "paywall.autoRenewGoogle": "O pagamento é cobrado na sua conta Google Play quando você confirma a compra ou quando um teste gratuito termina. A assinatura é renovada automaticamente, a menos que você a cancele pelo menos 24 horas antes do fim do período atual; a renovação é cobrada nas 24 horas anteriores ao fim do período. Gerencie ou cancele a qualquer momento nos configurações da sua conta do Google Play. Qualquer parte não usada de um teste gratuito é perdida quando você assina.",
 };
 
 export default pt;

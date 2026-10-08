@@ -939,6 +939,7 @@ const tr: Catalog = {
   "paywall.trialBadge": "{n} gün ücretsiz",
   "paywall.ctaTrial": "{n} günlük ücretsiz denemeyi başlat",
   "paywall.autoRenewApple": "Ödeme, satın alma işlemini onayladığınızda veya ücretsiz deneme sona erdiğinde Apple ID hesabınızdan tahsil edilir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal etmediğiniz sürece otomatik olarak yenilenir; yenileme ücreti dönemin bitiminden önceki 24 saat içinde tahsil edilir. App Store hesap ayarlarınızdan istediğiniz zaman yönetebilir veya iptal edebilirsiniz. Ücretsiz denemenin kullanılmayan kısmı abone olduğunuzda geçersiz olur.",
+  "paywall.autoRenewGoogle": "Ödeme, satın alma işlemini onayladığınızda veya ücretsiz deneme sona erdiğinde Google Play hesabınızdan tahsil edilir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal etmediğiniz sürece otomatik olarak yenilenir; yenileme ücreti dönemin bitiminden önceki 24 saat içinde tahsil edilir. Google Play hesap ayarlarınızdan istediğiniz zaman yönetebilir veya iptal edebilirsiniz. Ücretsiz denemenin kullanılmayan kısmı abone olduğunuzda geçersiz olur.",
 };
 
 export default tr;

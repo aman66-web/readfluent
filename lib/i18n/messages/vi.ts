@@ -955,6 +955,7 @@ const vi: Catalog = {
   "paywall.trialBadge": "Miễn phí {n} ngày",
   "paywall.ctaTrial": "Bắt đầu dùng thử miễn phí {n} ngày",
   "paywall.autoRenewApple": "Khoản thanh toán được tính vào tài khoản Apple ID của bạn khi bạn xác nhận giao dịch mua hoặc khi bản dùng thử miễn phí kết thúc. Gói đăng ký tự động gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kết thúc kỳ hiện tại; phí gia hạn được tính trong vòng 24 giờ trước khi kỳ kết thúc. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong cài đặt tài khoản App Store. Phần chưa dùng của bản dùng thử miễn phí sẽ mất khi bạn đăng ký.",
+  "paywall.autoRenewGoogle": "Khoản thanh toán được tính vào tài khoản Google Play của bạn khi bạn xác nhận giao dịch mua hoặc khi bản dùng thử miễn phí kết thúc. Gói đăng ký tự động gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kết thúc kỳ hiện tại; phí gia hạn được tính trong vòng 24 giờ trước khi kỳ kết thúc. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong cài đặt tài khoản Google Play. Phần chưa dùng của bản dùng thử miễn phí sẽ mất khi bạn đăng ký.",
 };
 
 export default vi;

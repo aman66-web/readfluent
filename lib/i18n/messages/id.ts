@@ -973,6 +973,7 @@ const indonesian: Catalog = {
   "paywall.trialBadge": "Gratis {n} hari",
   "paywall.ctaTrial": "Mulai uji coba gratis {n} hari",
   "paywall.autoRenewApple": "Pembayaran dibebankan ke akun Apple ID Anda saat Anda mengonfirmasi pembelian, atau saat uji coba gratis berakhir. Langganan diperpanjang otomatis kecuali Anda membatalkannya setidaknya 24 jam sebelum periode berjalan berakhir; perpanjangan ditagihkan dalam 24 jam sebelum periode berakhir. Kelola atau batalkan kapan saja di pengaturan akun App Store Anda. Sisa uji coba gratis yang belum terpakai hangus saat Anda berlangganan.",
+  "paywall.autoRenewGoogle": "Pembayaran dibebankan ke akun Google Play Anda saat Anda mengonfirmasi pembelian, atau saat uji coba gratis berakhir. Langganan diperpanjang otomatis kecuali Anda membatalkannya setidaknya 24 jam sebelum periode berjalan berakhir; perpanjangan ditagihkan dalam 24 jam sebelum periode berakhir. Kelola atau batalkan kapan saja di pengaturan akun Google Play Anda. Sisa uji coba gratis yang belum terpakai hangus saat Anda berlangganan.",
 };
 
 export default indonesian;

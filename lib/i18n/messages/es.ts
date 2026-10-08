@@ -974,6 +974,7 @@ const es: Catalog = {
   "paywall.trialBadge": "{n} días gratis",
   "paywall.ctaTrial": "Empezar prueba gratis de {n} días",
   "paywall.autoRenewApple": "El pago se carga a tu cuenta de Apple ID al confirmar la compra o cuando termina una prueba gratuita. La suscripción se renueva automáticamente, salvo que la canceles al menos 24 horas antes de que acabe el periodo actual; la renovación se cobra en las 24 horas anteriores al final del periodo. Puedes gestionarla o cancelarla en cualquier momento en los ajustes de tu cuenta de la App Store. La parte no usada de una prueba gratuita se pierde al suscribirte.",
+  "paywall.autoRenewGoogle": "El pago se carga a tu cuenta de Google Play al confirmar la compra o cuando termina una prueba gratuita. La suscripción se renueva automáticamente, salvo que la canceles al menos 24 horas antes de que acabe el periodo actual; la renovación se cobra en las 24 horas anteriores al final del periodo. Puedes gestionarla o cancelarla en cualquier momento en los ajustes de tu cuenta de Google Play. La parte no usada de una prueba gratuita se pierde al suscribirte.",
 };
 
 export default es;

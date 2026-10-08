@@ -977,6 +977,7 @@ const pl: Catalog = {
   "paywall.trialBadge": "{n} dni za darmo",
   "paywall.ctaTrial": "Zacznij {n}-dniowy darmowy okres próbny",
   "paywall.autoRenewApple": "Płatność jest pobierana z Twojego konta Apple ID po potwierdzeniu zakupu lub po zakończeniu bezpłatnego okresu próbnego. Subskrypcja odnawia się automatycznie, chyba że anulujesz ją co najmniej 24 godziny przed końcem bieżącego okresu; opłata za odnowienie jest pobierana w ciągu 24 godzin przed końcem okresu. Możesz zarządzać subskrypcją lub ją anulować w dowolnym momencie w ustawieniach konta App Store. Niewykorzystana część bezpłatnego okresu próbnego przepada po rozpoczęciu subskrypcji.",
+  "paywall.autoRenewGoogle": "Płatność jest pobierana z Twojego konta Google Play po potwierdzeniu zakupu lub po zakończeniu bezpłatnego okresu próbnego. Subskrypcja odnawia się automatycznie, chyba że anulujesz ją co najmniej 24 godziny przed końcem bieżącego okresu; opłata za odnowienie jest pobierana w ciągu 24 godzin przed końcem okresu. Możesz zarządzać subskrypcją lub ją anulować w dowolnym momencie w ustawieniach konta Google Play. Niewykorzystana część bezpłatnego okresu próbnego przepada po rozpoczęciu subskrypcji.",
 };
 
 export default pl;

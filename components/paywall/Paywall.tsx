@@ -45,6 +45,8 @@ export function Paywall({ onClose, rows: given = null, preview }: {
   const [native, setNative] = useState(false);
   // On the iPhone the small print names Apple only: no mention of another store (Apple's review, 6 Oct 2026).
   const [ios, setIos] = useState(false);
+  // On Android the small print names Google Play only (the shared text also says Apple ID).
+  const [android, setAndroid] = useState(false);
   const [rows, setRows] = useState<PlanRow[] | null>(given);
   const [pick, setPick] = useState<string | null>(null);
   const [busy, setBusy] = useState<"idle" | "buying" | "restoring">("idle");
@@ -56,6 +58,7 @@ export function Paywall({ onClose, rows: given = null, preview }: {
     setMounted(true);
     setNative(isNative() && purchasesAvailable());
     setIos(isNative() && Capacitor.getPlatform() === "ios");
+    setAndroid(isNative() && Capacitor.getPlatform() === "android");
   }, []);
 
   // The store's plans (or, in development, the fake ones for `preview`).
@@ -209,7 +212,7 @@ export function Paywall({ onClose, rows: given = null, preview }: {
 
               {/* What Apple asks of a subscription screen, in full. */}
               <div className="mt-6 text-center">
-                <p className="text-[11px] leading-snug text-foreground/55">{t(ios ? "paywall.autoRenewApple" : "paywall.autoRenew")}</p>
+                <p className="text-[11px] leading-snug text-foreground/55">{t(ios ? "paywall.autoRenewApple" : android ? "paywall.autoRenewGoogle" : "paywall.autoRenew")}</p>
                 <p className="mt-2 flex flex-wrap justify-center gap-x-4 text-[12px] font-semibold text-foreground/70">
                   {canBuy && (
                     <button type="button" onClick={() => void restore()} disabled={busy !== "idle"} className="inline-flex min-h-9 items-center underline underline-offset-2">
