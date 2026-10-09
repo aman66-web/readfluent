@@ -376,7 +376,7 @@ const tr: Catalog = {
   "league.addThem": "Arkadaş olarak ekle",
   "paywall.title": "Sınırsız oku",
   "paywall.sub": "İstediğin 2 kitabı ücretsiz oku. Pro ile tüm kitapların kilidini aç.",
-  "paywall.b1": "Her kitap tam uzunlukta, her seviyede 200 sayfanın tamamı",
+  "paywall.b1": "Kütüphanedeki her kitap, her seviyede",
   "paywall.b2": "Yeni kitaplar ve seviyeler geldikçe",
   "paywall.b3": "Kazandığın her şey her zaman senin kalır",
   "paywall.yearly": "Yıllık",
@@ -952,6 +952,8 @@ const tr: Catalog = {
   "social.blockConfirm": "{name} engellensin mi? Bu telefonda onu artık liginde ve arkadaşlarında görmeyeceksin.",
   "social.reportSubject": "Bir ReadFluent kullanıcısını bildir",
   "book.notMedical": "Bu kitap genel bilgi verir ve tıbbi tavsiye değildir. Kendi sağlığın için bir doktorla konuş.",
+  "paywall.pending": "Ödeme alındı. Pro bir dakika içinde açılmazsa Satın alımları geri yükle'ye dokun.",
+  "account.useEmail": "Bunun yerine e-posta kullan",
 };
 
 export default tr;

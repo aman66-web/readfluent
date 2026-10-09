@@ -19,6 +19,7 @@ import { DAILY_MINUTES, DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { usePlan } from "@/lib/pro/state";
 import { purchasesAvailable } from "@/lib/purchases/native";
+import { useOnDevice } from "@/lib/store/device";
 import { restartTour } from "@/lib/tour/state";
 import { MASCOT_NAME } from "@/lib/brand";
 import { readRaw, subscribeTo } from "@/lib/store/local";
@@ -91,8 +92,7 @@ function Confirm({ title, body, yes, cancel, busy, error, onYes, onCancel }: {
 export function ProfileView() {
   const [paywall, setPaywall] = useState(false);
   // Premium is offered only where the store can sell it (or to someone who already has it).
-  const [storeReady, setStoreReady] = useState(false);
-  useEffect(() => { setStoreReady(purchasesAvailable()); }, []);
+  const storeReady = useOnDevice(purchasesAvailable, false);
   const { plan } = usePlan();
   const t = useT();
   const locale = useLocale();

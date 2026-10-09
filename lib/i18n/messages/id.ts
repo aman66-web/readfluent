@@ -403,7 +403,7 @@ const indonesian: Catalog = {
   "league.addThem": "Tambah sebagai teman",
   "paywall.title": "Baca tanpa batas",
   "paywall.sub": "Baca 2 buku apa saja gratis. Buka semua buku dengan Pro.",
-  "paywall.b1": "Setiap buku versi lengkap, semua 200 halaman di tiap level",
+  "paywall.b1": "Setiap buku di perpustakaan, di setiap level",
   "paywall.b2": "Buku dan level baru begitu tersedia",
   "paywall.b3": "Semua yang sudah kamu raih tetap jadi milikmu, selamanya",
   "paywall.yearly": "Tahunan",
@@ -986,6 +986,8 @@ const indonesian: Catalog = {
   "social.blockConfirm": "Blokir {name}? Kamu tidak akan melihatnya lagi di liga atau daftar temanmu di ponsel ini.",
   "social.reportSubject": "Laporkan pengguna ReadFluent",
   "book.notMedical": "Buku ini berisi informasi umum dan bukan nasihat medis. Bicarakan kesehatanmu dengan dokter.",
+  "paywall.pending": "Pembayaran diterima. Jika Pro belum terbuka dalam semenit, ketuk Pulihkan pembelian.",
+  "account.useEmail": "Pakai email saja",
 };
 
 export default indonesian;

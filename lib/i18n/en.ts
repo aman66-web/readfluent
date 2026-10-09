@@ -411,7 +411,7 @@ export const EN = {
   "league.addThem": "Add as friend",
   "paywall.title": "Read without limits",
   "paywall.sub": "Read any 2 books free. Unlock every book with Pro.",
-  "paywall.b1": "Every full-length book, all 200 pages in each level",
+  "paywall.b1": "Every book in the library, at every level",
   "paywall.b2": "New books and levels as they arrive",
   "paywall.b3": "Everything you've earned stays yours, always",
   "paywall.yearly": "Yearly",
@@ -996,6 +996,8 @@ export const EN = {
   "social.blockConfirm": "Block {name}? You won't see them in your league or friends on this phone.",
   "social.reportSubject": "Report a ReadFluent user",
   "book.notMedical": "This book is general information and is not medical advice. Talk to a doctor about your own health.",
+  "paywall.pending": "Payment received. If Pro has not unlocked in a minute, tap Restore purchases.",
+  "account.useEmail": "Use email instead",
 } as const;
 
 export type MessageId = keyof typeof EN;

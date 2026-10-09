@@ -403,7 +403,7 @@ const de: Catalog = {
   "league.addThem": "Als Freund hinzufügen",
   "paywall.title": "Lies ohne Grenzen",
   "paywall.sub": "Lies 2 Bücher deiner Wahl gratis. Mit Pro schaltest du alle Bücher frei.",
-  "paywall.b1": "Jedes Buch in voller Länge, alle 200 Seiten in jeder Stufe",
+  "paywall.b1": "Jedes Buch der Bibliothek, in jeder Stufe",
   "paywall.b2": "Neue Bücher und Stufen, sobald sie erscheinen",
   "paywall.b3": "Alles, was du erreicht hast, bleibt für immer dein",
   "paywall.yearly": "Jährlich",
@@ -988,6 +988,8 @@ const de: Catalog = {
   "social.blockConfirm": "{name} blockieren? Du siehst diese Person auf diesem Telefon nicht mehr in deiner Liga oder bei deinen Freunden.",
   "social.reportSubject": "Eine Person auf ReadFluent melden",
   "book.notMedical": "Dieses Buch bietet allgemeine Informationen und ist keine medizinische Beratung. Sprich über deine Gesundheit mit einer Ärztin oder einem Arzt.",
+  "paywall.pending": "Zahlung erhalten. Wenn Pro nicht innerhalb einer Minute freigeschaltet ist, tippe auf „Käufe wiederherstellen“.",
+  "account.useEmail": "Stattdessen E-Mail verwenden",
 };
 
 export default de;

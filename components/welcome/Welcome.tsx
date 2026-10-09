@@ -79,7 +79,8 @@ export function Welcome({ initialStep, authError, built, signedIn, onboarded }: 
   const accountRef = useRef(account);
   useEffect(() => { accountRef.current = account; }, [account]);
   // A reopened or signed-out app lands straight on the sign-in: nothing before it to go back to, and after it the app itself.
-  const returning = useRef(onboarded && initialStep === ACCOUNT_STEP);
+  // Fixed for this visit: someone who has done the first run and is only here to sign in again.
+  const [returning] = useState(onboarded && initialStep === ACCOUNT_STEP);
   const [i, setI] = useState(initialStep);
   const iRef = useRef(initialStep);
   useEffect(() => { iRef.current = i; });
@@ -115,7 +116,7 @@ export function Welcome({ initialStep, authError, built, signedIn, onboarded }: 
     // Only a finished sign-in moves on from the sign-in (its buttons call this once they have an account).
     if (step === "account") {
       accountRef.current = "yes";
-      if (returning.current) { window.location.replace(AFTER_ONBOARDING); return; }
+      if (returning) { window.location.replace(AFTER_ONBOARDING); return; }
     }
     const mode = isInterlude(step) ? "replace" : "push";
     // Signed in before any question was asked: the questions come now, and the sign-in screen is not shown twice.
@@ -179,6 +180,8 @@ export function Welcome({ initialStep, authError, built, signedIn, onboarded }: 
 
   // A step past the sign-in is never left on screen once it is known there is no account (signed out in another tab, say).
   useEffect(() => {
+    // Answers an outside change (the account went away), so a state update here is the point.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (account === "no" && i > ACCOUNT_STEP) { changedAt.current = Date.now(); setI(ACCOUNT_STEP); window.history.replaceState(null, "", `/welcome?step=${STEP_IDS[ACCOUNT_STEP]}`); }
   }, [account, i]);
 
@@ -235,7 +238,7 @@ export function Welcome({ initialStep, authError, built, signedIn, onboarded }: 
     return <PledgeScreen {...nav} minutes={minutes} done={a.pledged} onDone={() => saveAnswers({ pledged: true })} />;
   }
   if (step === "home") return <HomeScreen {...nav} />;
-  if (step === "account") return <AccountScreen at={i} of={STEP_IDS.length} onBack={returning.current ? undefined : back} error={authError} onNext={next} next={returning.current ? AFTER_ONBOARDING : undefined} />;
+  if (step === "account") return <AccountScreen at={i} of={STEP_IDS.length} onBack={returning ? undefined : back} error={authError} onNext={next} next={returning ? AFTER_ONBOARDING : undefined} />;
   if (step === "interests") return <InterestsScreen {...nav} value={a.interests} onChange={(interests) => saveAnswers({ interests })} />;
   return <ReadyScreen {...nav} interests={a.interests} minutes={minutes} level={a.level} learn={a.learn} built={built} onTest={() => router.push(PLACEMENT_PATH)} />;
 }

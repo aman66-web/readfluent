@@ -9,6 +9,7 @@ import { createClient } from "@/lib/db/client";
 import { dbConfigured } from "@/lib/db/env";
 import { EN } from "@/lib/i18n/en";
 import { useT } from "@/lib/i18n/react";
+import { useOnDevice } from "@/lib/store/device";
 import { AFTER_SIGN_IN } from "@/lib/onboarding/steps";
 import { PrimaryButton } from "./ui";
 
@@ -164,9 +165,10 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
   const providers = oauthProviders();
   // In the store apps the emailed sign-in is held back until it has its own mail sender (DECISIONS.md):
   // the built-in one sends a few links an hour, so a reviewer could meet a sign-in that never arrives.
-  const [native, setNative] = useState(false);
-  useEffect(() => { setNative(isNative()); }, []);
-  const email = !native || providers.length === 0;
+  const native = useOnDevice(isNative, false);
+  const [emailAsked, setEmailAsked] = useState(false);
+  // Still one tap away, behind a link: a store reviewer's password sign-in lives in the email form.
+  const email = !native || providers.length === 0 || emailAsked;
   const available = accountAvailable();
   // Google's sheet is got ready while this screen is being read.
   useEffect(() => { warmUpNativeSignIn(); }, []);
@@ -215,6 +217,11 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
         </div>
       )}
       {email && <div className="wel-in" style={{ animationDelay: "200ms" }}><EmailSignIn onVerified={onNext} next={next} /></div>}
+      {!email && (
+        <button type="button" onClick={() => setEmailAsked(true)} className="wel-in mx-auto flex min-h-11 items-center px-3 text-[13.5px] font-semibold text-muted underline underline-offset-2" style={{ animationDelay: "200ms" }}>
+          {t("account.useEmail")}
+        </button>
+      )}
     </div>
   );
 }

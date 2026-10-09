@@ -4,8 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import { BackLink } from "@/components/BackLink";
 import { Mascot } from "@/components/mascot/Mascot";
-import { languageName } from "@/lib/i18n";
-import { useLocale, useT } from "@/lib/i18n/react";
+import { useT } from "@/lib/i18n/react";
 import type { MessageId } from "@/lib/i18n/en";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { hasVoiceFor } from "@/lib/reading/speak";
@@ -39,7 +38,6 @@ const LOOK: Record<TestKind, { icon: React.ReactNode; tile: string }> = {
  */
 export function TestsHub() {
   const t = useT();
-  const locale = useLocale();
   const a = useAnswers();
   const lang = a.learn;
   const support = supportFor(lang);
@@ -61,7 +59,6 @@ export function TestsHub() {
   }, [lang]);
   const level = picked ?? due ?? mine.level;
   const hasLevelTests = !ready || ready.lang !== lang || ready.levels.includes(level);
-  const language = lang ? languageName(lang, locale) : "";
   // A listening test needs a voice for the language on this device; without one its tile is not offered.
   const [voice, setVoice] = useState<{ lang: string | null; ok: boolean }>({ lang: null, ok: true });
   useEffect(() => {

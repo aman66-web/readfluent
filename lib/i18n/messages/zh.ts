@@ -403,7 +403,7 @@ const zh: Catalog = {
   "league.addThem": "加为好友",
   "paywall.title": "畅读无限",
   "paywall.sub": "任选2本书免费读。升级 Pro 解锁全部书籍。",
-  "paywall.b1": "每本全长图书，每个级别全部 200 页",
+  "paywall.b1": "书库中的每一本书，每个级别",
   "paywall.b2": "新书和新等级一上线就能读",
   "paywall.b3": "你获得的一切永远属于你",
   "paywall.yearly": "按年",
@@ -986,6 +986,8 @@ const zh: Catalog = {
   "social.blockConfirm": "屏蔽 {name}？在这部手机上，你将不会在联赛或好友中看到对方。",
   "social.reportSubject": "举报一位 ReadFluent 用户",
   "book.notMedical": "本书提供的是一般信息，并非医疗建议。关于你自己的健康，请咨询医生。",
+  "paywall.pending": "已收到付款。如果一分钟内 Pro 仍未解锁，请轻点“恢复购买”。",
+  "account.useEmail": "改用电子邮件",
 };
 
 export default zh;

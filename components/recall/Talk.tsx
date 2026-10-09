@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 import { SignIn } from "@/components/onboarding/SignIn";
 import "../../app/welcome/welcome.css";
@@ -11,6 +11,7 @@ import { LANGUAGES } from "@/lib/onboarding/languages";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { canSpeak, speak, stopSpeaking } from "@/lib/reading/speak";
 import { useDeviceReady } from "@/lib/srs/use";
+import { readRaw, subscribeTo, writeRaw } from "@/lib/store/local";
 import { MAX_CHARS, TOPICS, type Reply, type TalkLevel, type Turn } from "@/lib/talk/shared";
 
 interface Line extends Turn { translation?: string; correction?: string }
@@ -31,8 +32,8 @@ const recognitionCtor = (): (new () => Recognition) | null => {
 
 /** Whether this reader has agreed that Talk sends their messages to an outside AI service (App Store 5.1.2(i)). Kept on this device. */
 const CONSENT_KEY = storageKey("talkConsent");
-const readConsent = (): boolean => { try { return localStorage.getItem(CONSENT_KEY) === "yes"; } catch { return false; } };
-const saveConsent = (): void => { try { localStorage.setItem(CONSENT_KEY, "yes"); } catch { /* private mode: it asks again next time */ } };
+const subscribeConsent = subscribeTo(CONSENT_KEY);
+const saveConsent = (): void => { writeRaw(CONSENT_KEY, "yes"); };
 
 const stroke = { fill: "none", stroke: "currentColor", strokeWidth: 2, strokeLinecap: "round", strokeLinejoin: "round" } as const;
 
@@ -53,8 +54,7 @@ function Chat({ switchedOn }: { switchedOn: boolean }) {
   const [open, setOpen] = useState<Record<number, boolean>>({});
   const [listening, setListening] = useState(false);
   const [talking, setTalking] = useState(false);
-  const [consent, setConsent] = useState(false);
-  useEffect(() => { setConsent(readConsent()); }, []);
+  const consent = useSyncExternalStore(subscribeConsent, () => readRaw(CONSENT_KEY), () => "") === "yes";
   const bottom = useRef<HTMLDivElement>(null);
   const rec = useRef<Recognition | null>(null);
   const live = useRef(true);
@@ -179,7 +179,7 @@ function Chat({ switchedOn }: { switchedOn: boolean }) {
           <h2 className="mt-4 text-[19px] font-bold">{t("talk.aiTitle")}</h2>
           <p className="mt-2 max-w-[20rem] text-[15px] leading-snug text-muted">{t("talk.aiBody", { name: MASCOT_NAME })}</p>
           <Link href="/privacy" className="mt-2 text-[13.5px] font-semibold text-accent underline underline-offset-2">{t("me.privacy")}</Link>
-          <button type="button" onClick={() => { saveConsent(); setConsent(true); }} className="btn-cyan mt-6 h-12 rounded-full px-8 text-[15.5px] font-bold">{t("talk.aiAgree")}</button>
+          <button type="button" onClick={saveConsent} className="btn-cyan mt-6 h-12 rounded-full px-8 text-[15.5px] font-bold">{t("talk.aiAgree")}</button>
           <Link href="/recall" className="mt-3 flex h-11 items-center px-4 text-[14.5px] font-semibold text-muted">{t("talk.aiLater")}</Link>
         </div>
       </>

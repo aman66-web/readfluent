@@ -12,6 +12,7 @@ import { isNative } from "@/lib/auth/native";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { refreshPlan } from "@/lib/pro/state";
 import { hasProEntitlement, purchasePackage, purchasesAvailable, restorePurchases } from "@/lib/purchases/native";
+import { useOnDevice } from "@/lib/store/device";
 import { compareRows, freeBookCount, loadPlanRows, money, savingOf, type PlanRow } from "@/lib/purchases/offer";
 
 export { savingPercent } from "@/lib/purchases/offer";
@@ -41,25 +42,18 @@ export function Paywall({ onClose, rows: given = null, preview }: {
 }) {
   const t = useT();
   const locale = useLocale();
-  const [mounted, setMounted] = useState(false);
-  const [native, setNative] = useState(false);
+  const mounted = useOnDevice(() => true, false);
+  const native = useOnDevice(() => isNative() && purchasesAvailable(), false);
   // On the iPhone the small print names Apple only: no mention of another store (Apple's review, 6 Oct 2026).
-  const [ios, setIos] = useState(false);
+  const ios = useOnDevice(() => isNative() && Capacitor.getPlatform() === "ios", false);
   // On Android the small print names Google Play only (the shared text also says Apple ID).
-  const [android, setAndroid] = useState(false);
-  const [rows, setRows] = useState<PlanRow[] | null>(given);
+  const android = useOnDevice(() => isNative() && Capacitor.getPlatform() === "android", false);
+  const [loaded, setRows] = useState<PlanRow[] | null>(given);
   const [pick, setPick] = useState<string | null>(null);
   const [busy, setBusy] = useState<"idle" | "buying" | "restoring">("idle");
   const [note, setNote] = useState<string | null>(null);
   const [leaving, setLeaving] = useState(false);
   const [done, setDone] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    setNative(isNative() && purchasesAvailable());
-    setIos(isNative() && Capacitor.getPlatform() === "ios");
-    setAndroid(isNative() && Capacitor.getPlatform() === "android");
-  }, []);
 
   // The store's plans (or, in development, the fake ones for `preview`).
   useEffect(() => {
@@ -69,12 +63,14 @@ export function Paywall({ onClose, rows: given = null, preview }: {
       return () => { live = false; };
     }
     if (given || !mounted) return;
-    if (!native) { setRows([]); return; }
+    if (!native) return;
     let live = true;
     void loadPlanRows().then((r) => { if (live) setRows(r); }).catch(() => { if (live) setRows([]); });
     return () => { live = false; };
   }, [mounted, native, given, preview]);
 
+  // Off the store there are no plans to load: the list is simply empty.
+  const rows = given ?? (mounted && !native && !(process.env.NODE_ENV !== "production" && preview) ? [] : loaded);
   const canBuy = native || (process.env.NODE_ENV !== "production" && Boolean(preview));
   const chosen = rows?.find((r) => r.id === pick) ?? rows?.find((r) => r.kind === "annual") ?? rows?.[0] ?? null;
   const save = savingOf(rows);
@@ -94,7 +90,12 @@ export function Paywall({ onClose, rows: given = null, preview }: {
     if (r.ok && hasProEntitlement(r.customerInfo)) {
       await refreshPlan();
       setDone(true);
-    } else if (!r.ok && !r.cancelled) {
+    } else if (r.ok) {
+      // The store took the payment but the unlock has not arrived yet: ask once more before saying so.
+      const again = await restorePurchases();
+      if (again.ok && hasProEntitlement(again.customerInfo)) { await refreshPlan(); setDone(true); }
+      else setNote(t("paywall.pending"));
+    } else if (!r.cancelled) {
       setNote(t("paywall.failed"));
     }
     setBusy("idle");

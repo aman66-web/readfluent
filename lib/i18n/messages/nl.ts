@@ -405,7 +405,7 @@ const nl: Catalog = {
   "league.addThem": "Voeg toe als vriend",
   "paywall.title": "Lees zonder limiet",
   "paywall.sub": "Lees 2 boeken naar keuze gratis. Ontgrendel alle boeken met Pro.",
-  "paywall.b1": "Elk boek in volledige lengte, alle 200 pagina's op elk niveau",
+  "paywall.b1": "Elk boek in de bibliotheek, op elk niveau",
   "paywall.b2": "Nieuwe boeken en niveaus zodra ze er zijn",
   "paywall.b3": "Alles wat je hebt verdiend blijft altijd van jou",
   "paywall.yearly": "Jaarlijks",
@@ -990,6 +990,8 @@ const nl: Catalog = {
   "social.blockConfirm": "{name} blokkeren? Je ziet deze persoon op deze telefoon niet meer in je competitie of bij je vrienden.",
   "social.reportSubject": "Een ReadFluent-gebruiker melden",
   "book.notMedical": "Dit boek geeft algemene informatie en is geen medisch advies. Praat met een arts over je eigen gezondheid.",
+  "paywall.pending": "Betaling ontvangen. Is Pro na een minuut nog niet ontgrendeld, tik dan op Aankopen herstellen.",
+  "account.useEmail": "E-mail gebruiken",
 };
 
 export default nl;

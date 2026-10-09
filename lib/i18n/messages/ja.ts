@@ -403,7 +403,7 @@ const ja: Catalog = {
   "league.addThem": "友だちに追加",
   "paywall.title": "制限なしで読もう",
   "paywall.sub": "好きな2冊は無料で読めます。Proなら全ての本が読めます。",
-  "paywall.b1": "すべてのフルレングスの本、各レベルで全200ページ",
+  "paywall.b1": "ライブラリのすべての本を、すべてのレベルで",
   "paywall.b2": "新しい本とレベルを追加され次第すぐに",
   "paywall.b3": "あなたが獲得したものは、ずっとあなたのものです",
   "paywall.yearly": "年額",
@@ -986,6 +986,8 @@ const ja: Catalog = {
   "social.blockConfirm": "{name}さんをブロックしますか？この端末では、リーグや友達に表示されなくなります。",
   "social.reportSubject": "ReadFluentのユーザーを報告",
   "book.notMedical": "この本は一般的な情報であり、医学的な助言ではありません。ご自身の健康については医師にご相談ください。",
+  "paywall.pending": "お支払いを受け付けました。1分たってもProが有効にならない場合は「購入を復元」をタップしてください。",
+  "account.useEmail": "メールで続ける",
 };
 
 export default ja;

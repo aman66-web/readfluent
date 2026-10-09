@@ -402,7 +402,7 @@ const fr: Catalog = {
   "league.addThem": "Ajouter en ami",
   "paywall.title": "Lis sans limites",
   "paywall.sub": "Lisez 2 livres au choix gratuitement. Débloquez tous les livres avec Pro.",
-  "paywall.b1": "Chaque livre en version intégrale, les 200 pages à chaque niveau",
+  "paywall.b1": "Tous les livres de la bibliothèque, à chaque niveau",
   "paywall.b2": "Les nouveaux livres et niveaux dès leur arrivée",
   "paywall.b3": "Tout ce que tu as gagné reste à toi, pour toujours",
   "paywall.yearly": "Annuel",
@@ -987,6 +987,8 @@ const fr: Catalog = {
   "social.blockConfirm": "Bloquer {name} ? Tu ne le verras plus dans ta ligue ni dans tes amis sur ce téléphone.",
   "social.reportSubject": "Signaler un utilisateur de ReadFluent",
   "book.notMedical": "Ce livre donne des informations générales et ne constitue pas un avis médical. Parle de ta santé à un médecin.",
+  "paywall.pending": "Paiement reçu. Si Pro ne se débloque pas d'ici une minute, touche Restaurer les achats.",
+  "account.useEmail": "Utiliser un e-mail",
 };
 
 export default fr;

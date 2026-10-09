@@ -389,7 +389,7 @@ const vi: Catalog = {
   "league.addThem": "Kết bạn",
   "paywall.title": "Đọc không giới hạn",
   "paywall.sub": "Đọc miễn phí 2 cuốn sách bất kỳ. Mở khóa mọi cuốn với Pro.",
-  "paywall.b1": "Mọi cuốn sách bản đầy đủ, cả 200 trang ở mỗi cấp độ",
+  "paywall.b1": "Mọi cuốn sách trong thư viện, ở mọi cấp độ",
   "paywall.b2": "Sách và cấp độ mới ngay khi có",
   "paywall.b3": "Mọi thứ bạn đã đạt được luôn là của bạn",
   "paywall.yearly": "Hằng năm",
@@ -968,6 +968,8 @@ const vi: Catalog = {
   "social.blockConfirm": "Chặn {name}? Bạn sẽ không thấy người này trong giải đấu hay danh sách bạn bè trên điện thoại này nữa.",
   "social.reportSubject": "Báo cáo một người dùng ReadFluent",
   "book.notMedical": "Cuốn sách này cung cấp thông tin chung và không phải là lời khuyên y tế. Hãy hỏi bác sĩ về sức khỏe của bạn.",
+  "paywall.pending": "Đã nhận thanh toán. Nếu Pro chưa mở khóa sau một phút, hãy chạm Khôi phục giao dịch mua.",
+  "account.useEmail": "Dùng email",
 };
 
 export default vi;

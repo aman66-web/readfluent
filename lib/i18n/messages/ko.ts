@@ -403,7 +403,7 @@ const ko: Catalog = {
   "league.addThem": "친구로 추가",
   "paywall.title": "제한 없이 읽기",
   "paywall.sub": "아무 책 2권은 무료로 읽을 수 있어요. Pro로 모든 책을 열어 보세요.",
-  "paywall.b1": "모든 전체 길이 책, 각 레벨마다 200페이지 전부",
+  "paywall.b1": "서재의 모든 책, 모든 레벨에서",
   "paywall.b2": "새 책과 새 레벨을 바로바로",
   "paywall.b3": "얻은 것은 언제나 그대로 유지돼요",
   "paywall.yearly": "연간",
@@ -988,6 +988,8 @@ const ko: Catalog = {
   "social.blockConfirm": "{name}님을 차단할까요? 이 휴대폰에서는 리그와 친구 목록에 더 이상 보이지 않아요.",
   "social.reportSubject": "ReadFluent 사용자 신고",
   "book.notMedical": "이 책은 일반적인 정보이며 의학적 조언이 아니에요. 건강에 대해서는 의사와 상담하세요.",
+  "paywall.pending": "결제가 완료됐어요. 1분 안에 Pro가 열리지 않으면 구매 복원을 탭하세요.",
+  "account.useEmail": "이메일로 계속하기",
 };
 
 export default ko;

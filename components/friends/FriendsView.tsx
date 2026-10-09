@@ -5,7 +5,7 @@ import { BackLink } from "@/components/BackLink";
 import "../../app/welcome/welcome.css";
 import { SignIn } from "@/components/onboarding/SignIn";
 import { APP_NAME, SUPPORT_EMAIL } from "@/lib/brand";
-import { block, readBlocked } from "@/lib/social/blocked";
+import { block, useBlocked as useBlockedCodes } from "@/lib/social/blocked";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { NeedsSignIn, addFriend, myBoard, myFriends, myUsername, removeFriend, respondFriend, setUsername, syncProfile, type AddResult, type UsernameResult } from "@/lib/social/api";
@@ -77,9 +77,7 @@ function useSocial(signedIn: boolean) {
 
 /** The readers blocked on this device, read after mount (localStorage is the browser's). */
 function useBlocked(): [Set<string>, (code: string) => void] {
-  const [blocked, setBlocked] = useState<Set<string>>(() => new Set());
-  useEffect(() => { setBlocked(readBlocked()); }, []);
-  return [blocked, (code: string) => setBlocked(block(code))];
+  return [useBlockedCodes(), block];
 }
 
 /** Report and Block for another reader: report goes to support by email, block hides them on this device. */
@@ -375,6 +373,7 @@ function FriendsTab({ code, username, onUsername, friends, onChanged }: { code: 
                 <div className="min-w-0 flex-1">
                   <p dir="auto" className="truncate text-[15.5px] font-semibold">{label(f)}</p>
                   {f.username && f.name ? <p className="truncate text-[12.5px] text-muted" dir="ltr">@{f.username}</p> : null}
+                  <Moderate code={f.code} name={label(f)} onBlock={(c) => { onBlock(c); void act(() => respondFriend(f.id, false))(); }} />
                 </div>
                 <button type="button" onClick={act(() => respondFriend(f.id, true))} className="btn-cyan h-10 rounded-full px-4 text-[14px] font-bold">{t("friends.accept")}</button>
                 <button type="button" onClick={act(() => respondFriend(f.id, false))} className="h-10 rounded-full border-2 border-border px-3.5 text-[14px] font-semibold text-muted active:bg-border/60">{t("friends.decline")}</button>

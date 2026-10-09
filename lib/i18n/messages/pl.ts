@@ -405,7 +405,7 @@ const pl: Catalog = {
   "league.addThem": "Dodaj do znajomych",
   "paywall.title": "Czytaj bez ograniczeń",
   "paywall.sub": "Przeczytaj dowolne 2 książki za darmo. Z Pro odblokujesz wszystkie.",
-  "paywall.b1": "Każda książka w pełnej długości, wszystkie 200 stron na każdym poziomie",
+  "paywall.b1": "Każda książka z biblioteki, na każdym poziomie",
   "paywall.b2": "Nowe książki i poziomy, gdy tylko się pojawią",
   "paywall.b3": "Twoje osiągnięcia zostają z tobą na zawsze",
   "paywall.yearly": "Rocznie",
@@ -990,6 +990,8 @@ const pl: Catalog = {
   "social.blockConfirm": "Zablokować {name}? Nie zobaczysz tej osoby w swojej lidze ani wśród znajomych na tym telefonie.",
   "social.reportSubject": "Zgłoś użytkownika ReadFluent",
   "book.notMedical": "Ta książka zawiera ogólne informacje i nie jest poradą medyczną. O swoim zdrowiu porozmawiaj z lekarzem.",
+  "paywall.pending": "Płatność otrzymana. Jeśli Pro nie odblokuje się w ciągu minuty, dotknij Przywróć zakupy.",
+  "account.useEmail": "Użyj e-maila",
 };
 
 export default pl;
