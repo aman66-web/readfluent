@@ -181,6 +181,22 @@ async function signInWithAppleSheet(): Promise<string | null> {
 }
 
 /**
+ * A fresh Sign in with Apple authorization code, asked for when an Apple
+ * account is being deleted so the server can revoke the login with Apple
+ * (lib/auth/apple-revoke.ts). Null off the iPhone, or if the sheet is closed.
+ */
+export async function appleAuthorizationCode(): Promise<string | null> {
+  if (!appleSheetAvailable()) return null;
+  try {
+    const { SignInWithApple } = await import("@capacitor-community/apple-sign-in");
+    const res = await SignInWithApple.authorize({ clientId: APPLE_CLIENT_ID, redirectURI: "", scopes: "" });
+    return res.response.authorizationCode || null;
+  } catch {
+    return null;
+  }
+}
+
+/**
  * Sign in with Google through Google's own sheet — the accounts already on
  * the phone, one tap — rather than a browser page that asks for an email.
  *

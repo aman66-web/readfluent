@@ -115,6 +115,8 @@ export function TestsHub() {
             })}
           </div>
 
+          {/* Shown only where this level has tests in this language: no "not ready yet" card. */}
+          {hasLevelTests && (
           <section className="mt-6" aria-label={t("levelTests.title")}>
             <div className="flex items-baseline justify-between gap-3">
               <h2 className="text-[19px] font-bold tracking-[-0.01em]">{t("levelTests.title")} · {level}</h2>
@@ -123,7 +125,6 @@ export function TestsHub() {
               </span>
             </div>
             <p className="mt-1 text-[13.5px] leading-snug text-muted">{t("levelTests.sub")} {t("levelTests.open")}</p>
-            {hasLevelTests ? (
               <ul className="mt-3 grid grid-cols-5 gap-2" dir="ltr">
                 {Array.from({ length: TESTS_PER_LEVEL }, (_, i) => i + 1).map((n) => {
                   const r = levelResults[levelResultKey(lang, level, n)];
@@ -138,10 +139,8 @@ export function TestsHub() {
                   );
                 })}
               </ul>
-            ) : (
-              <p className="sheet-card mt-3 rounded-[22px] p-4 text-[14.5px] leading-snug text-muted">{t("levelTests.soon", { level, language })}</p>
-            )}
           </section>
+          )}
 
           {support && support.levels.includes(level) && kinds.length > 0 && (
             <>

@@ -52,7 +52,8 @@ export function BookView({ book, outline, langs, chapterNames }: { book: Preview
         <div className="relative mt-5 text-center">
           <p className="inline-flex h-7 items-center rounded-full bg-accent-bright px-3.5 text-[11.5px] font-bold uppercase tracking-[0.12em] text-on-cyan">{category ? t(`cat.${category.id}`) : ""}</p>
           <h1 lang={langOf(book.slug, "title")} className="font-reading mt-3 text-[30px] font-bold leading-[1.08] tracking-[-0.02em]" dir="auto">{title}</h1>
-          <p className="mt-1.5 text-[14.5px] text-muted">{book.kind === "classic" ? t("book.by", { author: book.author }) : t("book.inspired", { author: book.author })}</p>
+          {/* Only a classic names where it comes from: an original story does not borrow another book's name (App Store 5.2). */}
+          {book.kind === "classic" && <p className="mt-1.5 text-[14.5px] text-muted">{t("book.by", { author: book.author })}</p>}
         </div>
       </div>
 
@@ -60,7 +61,8 @@ export function BookView({ book, outline, langs, chapterNames }: { book: Preview
         <p lang={langOf(book.slug, "blurb")} dir="auto" className="font-reading text-[17px] leading-[1.6] text-foreground/90">{blurb}</p>
         {/* Where it comes from, in the description where readers can see it. */}
         <p className="mt-3 border-t border-border pt-3 text-[13px] leading-snug text-muted">
-          {book.kind === "classic" ? t("book.publicDomain") : <><span className="font-semibold text-foreground/80">{t("book.inspiredSentence", { author: book.author })}</span> {t("book.notAffiliated")}</>}
+          {book.kind === "classic" ? t("book.publicDomain") : t("book.original")}
+          {book.category === "health" ? <span className="mt-2 block font-semibold text-foreground/80">{t("book.notMedical")}</span> : null}
         </p>
       </ReadPicker>
     </main>

@@ -4,7 +4,7 @@ import { APP_NAME, COMPANY_NAME, SUPPORT_EMAIL } from "@/lib/brand";
 /** The full policy. English only. Keep it true to what the code does; change it when the code changes. */
 export function PrivacyPolicy() {
   return (
-    <LegalDoc title={`${APP_NAME} privacy policy`} updated="6 October 2026">
+    <LegalDoc title={`${APP_NAME} privacy policy`} updated="9 October 2026">
       <p>{APP_NAME} is a language-learning app: real books retold at your level, read one page at a time. You need an account to use it. This page says what we keep, why, and who else sees it. It is written for people, not lawyers.</p>
 
       <h2>What is kept on your phone</h2>
@@ -27,7 +27,8 @@ export function PrivacyPolicy() {
       <p>While you set the app up, it makes a temporary anonymous session with no email, so the first screens can work. It is not linked to who you are, and it does not open the app: you must sign in to read.</p>
 
       <h2>Talking with Pluto</h2>
-      <p>If you use the Talk feature, the messages you type are sent to Anthropic, which runs the AI model that replies, so that it can answer. Talk is for signed-in readers only and has a daily limit. Please do not share private details in it. We do not use your messages for advertising.</p>
+      <p>If you use the Talk feature, the messages you type are sent to Anthropic, which runs the AI model that replies, so that it can answer. Talk is for signed-in readers only and has a daily limit. Please do not share private details in it. We do not use your messages for advertising. Before your first message, Talk asks whether you agree to this.</p>
+      <p>When you read aloud or answer a speaking question, the app uses your phone&apos;s microphone and its own speech recognition (Apple&apos;s on iPhone, Google&apos;s on Android), which may process the audio on those companies&apos; servers. ReadFluent does not keep the recordings.</p>
 
       <h2>Reading in your learning language</h2>
       <p>When you open a book in the language you are learning, your phone translates it itself, with the translator built into the phone (Apple&rsquo;s or Google&rsquo;s) or into your browser. Nothing about you, and nothing you read, is sent anywhere for this. The first chapter of some books comes already translated from our website.</p>

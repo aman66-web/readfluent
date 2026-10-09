@@ -1,6 +1,7 @@
 import { dbConfigured, serviceConfigured } from "@/lib/db/env";
 import { createClient } from "@/lib/db/server";
 import { createServiceClient } from "@/lib/db/service";
+import { revokeAppleCode } from "@/lib/auth/apple-revoke";
 
 export const runtime = "nodejs";
 
@@ -17,7 +18,7 @@ function json(status: number, error: string): Response {
  * data is erased by the client either way — this is only the copy on the
  * server. App Store review requires this to exist.
  */
-export async function DELETE() {
+export async function DELETE(request: Request) {
   if (!dbConfigured()) return json(503, "There is no account service on this server.");
   if (!serviceConfigured()) return json(503, "This server cannot delete accounts.");
 
@@ -28,6 +29,12 @@ export async function DELETE() {
   // Sign the browser out first: once the user row goes the session's refresh
   // token is dead, and a later sign-out would only error.
   try { await supabase.auth.signOut(); } catch { /* the row is going anyway */ }
+
+  // A Sign in with Apple account: the iPhone sends a fresh authorization code so the
+  // login can be revoked with Apple before the account goes (App Store 5.1.1(v)).
+  // Best effort: a failed revocation never keeps an account someone asked to delete.
+  const body = (await request.json().catch(() => ({}))) as { appleCode?: unknown };
+  if (typeof body.appleCode === "string" && body.appleCode) await revokeAppleCode(body.appleCode);
 
   const admin = createServiceClient();
   const { error: gone } = await admin.auth.admin.deleteUser(data.user.id);

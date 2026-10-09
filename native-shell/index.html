@@ -9,14 +9,16 @@
       font: 16px/1.5 -apple-system, system-ui, sans-serif; }
     main { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 24px; }
     h1 { font-size: 26px; margin: 0 0 6px; }
-    p { margin: 0; color: #5d564b; }
+    p { margin: 0; color: #5d564b; max-width: 20rem; }
+    button { margin-top: 24px; height: 48px; padding: 0 28px; border: 0; border-radius: 999px; background: #22D3EE; color: #06303a; font: 700 16px -apple-system, system-ui, sans-serif; }
   </style>
 </head>
 <body>
   <main>
     <h1>ReadFluent</h1>
     <p>Real books. Your level.</p>
-    <p style="margin-top:20px">Connecting&hellip; if this stays, check your internet connection and reopen the app.</p>
+    <p style="margin-top:20px">ReadFluent needs an internet connection to open. Check that you are online, then try again.</p>
+    <button type="button" onclick="location.replace('https://readfluent-eta.vercel.app/')">Try again</button>
   </main>
 </body>
 </html>

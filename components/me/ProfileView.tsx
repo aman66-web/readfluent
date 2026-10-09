@@ -11,12 +11,14 @@ import { SignIn, accountAvailable } from "@/components/onboarding/SignIn";
 import { buildLine } from "@/lib/build";
 import { CATEGORIES } from "@/lib/content/limits";
 import { createClient } from "@/lib/db/client";
+import { appleAuthorizationCode } from "@/lib/auth/native";
 import { languageName } from "@/lib/i18n";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { NAME_MAX, saveAnswers, toggleIn } from "@/lib/onboarding/answers";
 import { DAILY_MINUTES, DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { usePlan } from "@/lib/pro/state";
+import { purchasesAvailable } from "@/lib/purchases/native";
 import { restartTour } from "@/lib/tour/state";
 import { MASCOT_NAME } from "@/lib/brand";
 import { readRaw, subscribeTo } from "@/lib/store/local";
@@ -88,6 +90,9 @@ function Confirm({ title, body, yes, cancel, busy, error, onYes, onCancel }: {
 
 export function ProfileView() {
   const [paywall, setPaywall] = useState(false);
+  // Premium is offered only where the store can sell it (or to someone who already has it).
+  const [storeReady, setStoreReady] = useState(false);
+  useEffect(() => { setStoreReady(purchasesAvailable()); }, []);
   const { plan } = usePlan();
   const t = useT();
   const locale = useLocale();
@@ -112,7 +117,11 @@ export function ProfileView() {
     setError(null);
     if (mode === "account") {
       try {
-        const res = await fetch("/api/account", { method: "DELETE" });
+        // An Apple account confirms with Apple once more, so its login can be revoked too.
+        const { data } = await createClient().auth.getUser();
+        const providers = (data.user?.app_metadata?.providers as string[] | undefined) ?? [data.user?.app_metadata?.provider as string];
+        const appleCode = providers.includes("apple") ? await appleAuthorizationCode() : null;
+        const res = await fetch("/api/account", { method: "DELETE", headers: { "content-type": "application/json" }, body: JSON.stringify(appleCode ? { appleCode } : {}) });
         if (!res.ok) { setError(t("me.deleteFailed")); setBusy(false); return; }
       } catch {
         setError(t("me.deleteFailed"));
@@ -188,7 +197,7 @@ export function ProfileView() {
       <BadgeGrid />
 
       <Group>
-        <Row>
+        <Row last={!(storeReady || plan === "full")}>
           <Link href="/" onClick={() => restartTour()} className="flex min-h-11 w-full items-center gap-3 text-start active:opacity-70">
             <span className="min-w-0 flex-1">
               <span className="block text-[15px] font-semibold">{t("me.tour")}</span>
@@ -198,7 +207,7 @@ export function ProfileView() {
           </Link>
         </Row>
 
-        <Row last>
+        {(storeReady || plan === "full") && <Row last>
           <button type="button" onClick={() => setPaywall(true)} className="flex min-h-11 w-full items-center gap-3 text-start active:opacity-70">
             <span className="min-w-0 flex-1">
               <span className="block text-[15px] font-semibold">{t("me.premium")}{plan === "full" ? " ✓" : ""}</span>
@@ -206,7 +215,7 @@ export function ProfileView() {
             </span>
             <Chevron />
           </button>
-        </Row>
+        </Row>}
       </Group>
 
       <Group title={t("me.account")}>

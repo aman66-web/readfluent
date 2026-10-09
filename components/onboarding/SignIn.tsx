@@ -162,6 +162,11 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
   const [busy, setBusy] = useState<OAuthProvider | null>(null);
   const [failed, setFailed] = useState<string | null>(null);
   const providers = oauthProviders();
+  // In the store apps the emailed sign-in is held back until it has its own mail sender (DECISIONS.md):
+  // the built-in one sends a few links an hour, so a reviewer could meet a sign-in that never arrives.
+  const [native, setNative] = useState(false);
+  useEffect(() => { setNative(isNative()); }, []);
+  const email = !native || providers.length === 0;
   const available = accountAvailable();
   // Google's sheet is got ready while this screen is being read.
   useEffect(() => { warmUpNativeSignIn(); }, []);
@@ -202,14 +207,14 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
       {providers.map((p, i) => (
         <ProviderButton key={p} provider={p} busy={busy === p} disabled={busy !== null} onClick={() => void go(p)} delay={i * 60} />
       ))}
-      {providers.length > 0 && (
+      {providers.length > 0 && email && (
         <div className="wel-in flex items-center gap-3 pt-1" style={{ animationDelay: "160ms" }}>
           <span className="h-px flex-1 bg-black/10" aria-hidden />
           <span className="ob-faint text-[11.5px] font-medium">{t("account.or")}</span>
           <span className="h-px flex-1 bg-black/10" aria-hidden />
         </div>
       )}
-      <div className="wel-in" style={{ animationDelay: "200ms" }}><EmailSignIn onVerified={onNext} next={next} /></div>
+      {email && <div className="wel-in" style={{ animationDelay: "200ms" }}><EmailSignIn onVerified={onNext} next={next} /></div>}
     </div>
   );
 }

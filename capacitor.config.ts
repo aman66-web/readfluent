@@ -45,6 +45,9 @@ const config: CapacitorConfig = {
     // The WebView is told the content is remote, which matters for cookies
     // and for anything checking `window.location`.
     cleartext: false,
+    // Shown when the site cannot be reached (no connection, first launch offline):
+    // native-shell/index.html says so and offers Try again, instead of a blank screen.
+    errorPath: "index.html",
   },
   // The ground behind the page wherever the page does not reach: launch,
   // overscroll. The app's own paper colour, so there is never a white flash.

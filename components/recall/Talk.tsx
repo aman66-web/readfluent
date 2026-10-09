@@ -5,7 +5,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Mascot } from "@/components/mascot/Mascot";
 import { SignIn } from "@/components/onboarding/SignIn";
 import "../../app/welcome/welcome.css";
-import { MASCOT_NAME } from "@/lib/brand";
+import { MASCOT_NAME, SUPPORT_EMAIL, storageKey } from "@/lib/brand";
 import { useT } from "@/lib/i18n/react";
 import { LANGUAGES } from "@/lib/onboarding/languages";
 import { useAnswers } from "@/lib/onboarding/use-answers";
@@ -29,6 +29,11 @@ const recognitionCtor = (): (new () => Recognition) | null => {
   return w.SpeechRecognition ?? w.webkitSpeechRecognition ?? null;
 };
 
+/** Whether this reader has agreed that Talk sends their messages to an outside AI service (App Store 5.1.2(i)). Kept on this device. */
+const CONSENT_KEY = storageKey("talkConsent");
+const readConsent = (): boolean => { try { return localStorage.getItem(CONSENT_KEY) === "yes"; } catch { return false; } };
+const saveConsent = (): void => { try { localStorage.setItem(CONSENT_KEY, "yes"); } catch { /* private mode: it asks again next time */ } };
+
 const stroke = { fill: "none", stroke: "currentColor", strokeWidth: 2, strokeLinecap: "round", strokeLinejoin: "round" } as const;
 
 export function Talk({ ready: switchedOn = true }: { /** Whether the server can run Talk (a model key and a database), worked out on the server. */ ready?: boolean }) {
@@ -48,6 +53,8 @@ function Chat({ switchedOn }: { switchedOn: boolean }) {
   const [open, setOpen] = useState<Record<number, boolean>>({});
   const [listening, setListening] = useState(false);
   const [talking, setTalking] = useState(false);
+  const [consent, setConsent] = useState(false);
+  useEffect(() => { setConsent(readConsent()); }, []);
   const bottom = useRef<HTMLDivElement>(null);
   const rec = useRef<Recognition | null>(null);
   const live = useRef(true);
@@ -162,6 +169,23 @@ function Chat({ switchedOn }: { switchedOn: boolean }) {
     );
   }
 
+  // Before the first message: say plainly where the messages go, and ask.
+  if (!consent) {
+    return (
+      <>
+        {header}
+        <div className="flex flex-1 flex-col items-center justify-center px-8 text-center">
+          <Mascot mood="hello" className="block h-[120px] w-auto" />
+          <h2 className="mt-4 text-[19px] font-bold">{t("talk.aiTitle")}</h2>
+          <p className="mt-2 max-w-[20rem] text-[15px] leading-snug text-muted">{t("talk.aiBody", { name: MASCOT_NAME })}</p>
+          <Link href="/privacy" className="mt-2 text-[13.5px] font-semibold text-accent underline underline-offset-2">{t("me.privacy")}</Link>
+          <button type="button" onClick={() => { saveConsent(); setConsent(true); }} className="btn-cyan mt-6 h-12 rounded-full px-8 text-[15.5px] font-bold">{t("talk.aiAgree")}</button>
+          <Link href="/recall" className="mt-3 flex h-11 items-center px-4 text-[14.5px] font-semibold text-muted">{t("talk.aiLater")}</Link>
+        </div>
+      </>
+    );
+  }
+
   const canMic = recognitionCtor() !== null;
   return (
     <>
@@ -191,6 +215,9 @@ function Chat({ switchedOn }: { switchedOn: boolean }) {
                           <button type="button" onClick={() => say(l.text)} aria-label={t("reader.listenPage")} className="grid size-9 place-items-center rounded-full text-accent active:bg-border/60">
                             <svg viewBox="0 0 24 24" className="size-5" {...stroke} aria-hidden><path d="M11 5 6 9H3v6h3l5 4zM15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" /></svg>
                           </button>
+                        ) : null}
+                        {SUPPORT_EMAIL ? (
+                          <a href={`mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(t("talk.reportSubject", { name: MASCOT_NAME }))}&body=${encodeURIComponent(l.text)}`} className="flex h-9 items-center rounded-full px-3 text-[13px] font-semibold text-muted active:bg-border/60">{t("talk.report")}</a>
                         ) : null}
                         {l.translation ? (
                           <button type="button" aria-expanded={!!open[i]} onClick={() => setOpen((o) => ({ ...o, [i]: !o[i] }))} className="h-9 rounded-full px-3 text-[13px] font-semibold text-accent active:bg-border/60">{open[i] ? t("talk.hide") : t("talk.translate")}</button>

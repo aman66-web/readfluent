@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useMemo, useState, useSyncExternalStore, type ReactNode } from "react";
+import { useEffect, useMemo, useState, useSyncExternalStore, type ReactNode } from "react";
 import { LEVELS, levelById, levelForCefr, type Length, type LevelId } from "@/lib/content/limits";
 import { languageName } from "@/lib/i18n";
 import { useChapterNames, useLocale, useT } from "@/lib/i18n/react";
@@ -11,7 +11,8 @@ import { Paywall } from "@/components/paywall/Paywall";
 import { BookPhrases } from "@/components/book/BookPhrases";
 import { BookWords } from "@/components/book/BookWords";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
-import { canOpenBook } from "@/lib/plan";
+import { canOpenBook, gatesClosed } from "@/lib/plan";
+import { purchasesAvailable } from "@/lib/purchases/native";
 import { usePlan } from "@/lib/pro/state";
 import { CHOICE_KEY, PROGRESS_KEY, parseChoice, parseProgress, readPage, saveChoice, savePage, startedBooks, versionKey } from "@/lib/progress";
 import { readRaw, subscribeTo } from "@/lib/store/local";
@@ -53,6 +54,9 @@ export function ReadPicker({ slug, titles = [], lengths, langs = [], outline: en
   const outline = useOutline(slug, english);
   const [levelPick, setLevelPick] = useState<LevelId | null>(null);
   const [paywall, setPaywall] = useState(false);
+  // Read after mount: the store is a phone-only thing, and the server render has none.
+  const [storeReady, setStoreReady] = useState(false);
+  useEffect(() => { setStoreReady(purchasesAvailable()); }, []);
   const { plan } = usePlan();
 
   const choiceRaw = useSyncExternalStore(subscribeChoice, readChoiceRaw, serverRaw);
@@ -69,9 +73,9 @@ export function ReadPicker({ slug, titles = [], lengths, langs = [], outline: en
 
   const levelSlug = LEVELS.find((l) => l.id === level)!.slug;
   const reached = useMemo(() => parseProgress(progressRaw)[versionKey(slug, level, length)], [progressRaw, slug, level, length]);
-  // A book already begun stays open; a free reader may begin two, and the next asks for the plan (lib/plan.ts; closed only once payments are live).
+  // A book already begun stays open; a free reader may begin two, and the next asks for the plan (lib/plan.ts; closed only where Pro can be bought).
   const begun = useMemo(() => startedBooks(parseProgress(progressRaw)), [progressRaw]);
-  const locked = !canOpenBook(plan, begun.includes(slug.replace(/\.[a-z]{2,3}$/, "")), begun.length);
+  const locked = !canOpenBook(plan, begun.includes(slug.replace(/\.[a-z]{2,3}$/, "")), begun.length, gatesClosed(storeReady));
   // `page` is where to open it: a tap on the path opens there; the Read button carries on from where they were.
   const start = (page?: number) => {
     if (locked) { setPaywall(true); return; }

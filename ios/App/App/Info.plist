@@ -49,13 +49,11 @@
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
-		<string>armv7</string>
+		<string>arm64</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -112,8 +110,8 @@
 	<false/>
 	<!-- Read-aloud and speaking questions. -->
 	<key>NSMicrophoneUsageDescription</key>
-	<string>ReadFluent listens when you read aloud or answer a speaking question, so it can tell you how you did. Nothing is recorded or kept.</string>
+	<string>ReadFluent listens when you read aloud or answer a speaking question, so it can tell you how you did. ReadFluent does not keep your recordings.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>ReadFluent turns your speech into text to check your reading and speaking answers.</string>
+	<string>ReadFluent turns your speech into text, using Apple's speech recognition, to check your reading and speaking answers.</string>
 </dict>
 </plist>

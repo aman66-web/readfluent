@@ -26,6 +26,15 @@ export const PLANS: Plan[] = ["free", "full"];
  */
 export const PAYMENTS_LIVE = false;
 
+/**
+ * Whether the gates are closed on this device: everywhere once PAYMENTS_LIVE, and before that wherever
+ * the store can actually sell Pro (the native app with its RevenueCat key), so a reader is never stopped
+ * by a door they cannot open, and a store reviewer who buys Pro sees it unlock something.
+ */
+export function gatesClosed(storeReady: boolean): boolean {
+  return PAYMENTS_LIVE || storeReady;
+}
+
 /** How many books a free reader may start (owner, 5 Oct 2026). */
 export const FREE_BOOKS = 2;
 

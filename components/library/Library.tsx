@@ -136,7 +136,7 @@ export function Library({ books }: { books: PreviewBook[] }) {
 
   const q = normSearch(deferred);
   const found = useMemo(
-    () => (q ? books.filter((b) => [text(b.slug, "title", b.title), b.title, b.author, text(b.slug, "blurb", b.blurb)].some((s) => normSearch(s).includes(q))) : []),
+    () => (q ? books.filter((b) => [text(b.slug, "title", b.title), b.title, ...(b.kind === "classic" ? [b.author] : []), text(b.slug, "blurb", b.blurb)].some((s) => normSearch(s).includes(q))) : []),
     [books, q, text],
   );
 

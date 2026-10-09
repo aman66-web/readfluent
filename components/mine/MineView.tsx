@@ -61,7 +61,6 @@ export function MineView() {
       <h1 className="title-display">{t("tab.mine")}</h1>
       <Section title={t("mine.reading")} empty={t("mine.emptyReading")}>{readingNow.map((e) => <Row key={e.key} e={e} done={false} />)}</Section>
       <Section title={t("mine.finished")} empty={t("mine.emptyFinished")}>{finishedList.map((e) => <Row key={e.key} e={e} done />)}</Section>
-      <Section title={t("mine.downloaded")} empty={t("mine.downloadedSoon")}>{[]}</Section>
     </main>
   );
 }

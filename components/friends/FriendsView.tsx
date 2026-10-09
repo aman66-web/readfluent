@@ -4,7 +4,8 @@ import { useCallback, useEffect, useMemo, useState, useSyncExternalStore, type F
 import { BackLink } from "@/components/BackLink";
 import "../../app/welcome/welcome.css";
 import { SignIn } from "@/components/onboarding/SignIn";
-import { APP_NAME } from "@/lib/brand";
+import { APP_NAME, SUPPORT_EMAIL } from "@/lib/brand";
+import { block, readBlocked } from "@/lib/social/blocked";
 import { useLocale, useT } from "@/lib/i18n/react";
 import { useAnswers } from "@/lib/onboarding/use-answers";
 import { NeedsSignIn, addFriend, myBoard, myFriends, myUsername, removeFriend, respondFriend, setUsername, syncProfile, type AddResult, type UsernameResult } from "@/lib/social/api";
@@ -72,6 +73,26 @@ function useSocial(signedIn: boolean) {
   }, [signedIn, rev]);
   const reload = useCallback(() => setRev((n) => n + 1), []);
   return { load, code, username, setName, friends, boards, reload, retry: () => { setLoad("loading"); reload(); } };
+}
+
+/** The readers blocked on this device, read after mount (localStorage is the browser's). */
+function useBlocked(): [Set<string>, (code: string) => void] {
+  const [blocked, setBlocked] = useState<Set<string>>(() => new Set());
+  useEffect(() => { setBlocked(readBlocked()); }, []);
+  return [blocked, (code: string) => setBlocked(block(code))];
+}
+
+/** Report and Block for another reader: report goes to support by email, block hides them on this device. */
+function Moderate({ code, name, onBlock }: { code: string; name: string; onBlock: (code: string) => void }) {
+  const t = useT();
+  return (
+    <span className="mt-0.5 flex justify-end gap-3 text-[12px] font-semibold text-muted">
+      {SUPPORT_EMAIL ? (
+        <a href={`mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(t("social.reportSubject"))}&body=${encodeURIComponent(`#${code} ${name}`)}`}>{t("social.report")}</a>
+      ) : null}
+      <button type="button" onClick={() => { if (window.confirm(t("social.blockConfirm", { name }))) onBlock(code); }}>{t("social.block")}</button>
+    </span>
+  );
 }
 
 export function FriendsView() {
@@ -143,6 +164,7 @@ function Boards({ signedIn, social, onJoin }: { signedIn: boolean; social: Retur
   const client = useSyncExternalStore(noSubscribe, () => true, () => false);
   const [kind, setKind] = useState<Period>("week");
   const [asked, setAsked] = useState<Record<string, boolean>>({});
+  const [blocked, onBlock] = useBlocked();
   // The practice readers keep reading through the day: the board is worked out again every minute.
   const [now, setNow] = useState(() => new Date());
   useEffect(() => { const id = window.setInterval(() => setNow(new Date()), 60_000); return () => window.clearInterval(id); }, []);
@@ -156,10 +178,11 @@ function Boards({ signedIn, social, onJoin }: { signedIn: boolean; social: Retur
     const level = levelFromXp(totalXp(ledger)).code;
     const mine = myXpIn(kind, ledger.days, now);
     const meName = a.name.trim() || t("league.you");
-    const real = server?.rows.length ? server.rows.map((r) => (r.me ? { ...r, xp: Math.max(r.xp, mine) } : r)) : [{ rank: 1, code: social.code, name: meName, level, xp: mine, me: true, username: social.username }];
+    const shownRows = server?.rows.filter((r) => r.me || !blocked.has(r.code)) ?? [];
+    const real = shownRows.length ? shownRows.map((r) => (r.me ? { ...r, xp: Math.max(r.xp, mine) } : r)) : [{ rank: 1, code: social.code, name: meName, level, xp: mine, me: true, username: social.username }];
     const rivals = rivalsFor({ kind, now, seed: boardSeed(social.code), count: BOARD_SIZE, pace: paceOf(ledger.days, now), level });
     return mergeBoard(real, rivals, BOARD_SIZE);
-  }, [kind, now, ledger, server, social.code, social.username, a.name, t]);
+  }, [kind, now, ledger, server, social.code, social.username, a.name, t, blocked]);
 
   if (waiting || !client) return <p className="mt-8 text-center text-[14px] text-muted" aria-live="polite">…</p>;
   const left = daysLeft(kind, now);
@@ -208,6 +231,7 @@ function Boards({ signedIn, social, onJoin }: { signedIn: boolean; social: Retur
                   <button type="button" onClick={() => { setAsked((o) => ({ ...o, [r.code]: true })); void addFriend(r.code).then(social.reload, () => setAsked((o) => ({ ...o, [r.code]: false }))); }}
                           className="mt-0.5 text-[12.5px] font-semibold text-accent">{t("league.addThem")}</button>
                 ) : null}
+                {signedIn && !r.me && !r.rival && r.code ? <Moderate code={r.code} name={name} onBlock={onBlock} /> : null}
               </div>
             </li>
           );
@@ -283,9 +307,11 @@ function FriendsTab({ code, username, onUsername, friends, onChanged }: { code: 
   const [copied, setCopied] = useState(false);
   const [busy, setBusy] = useState(false);
 
-  const incoming = friends.filter((f) => f.relation === "incoming");
-  const outgoing = friends.filter((f) => f.relation === "outgoing");
-  const mine = friends.filter((f) => f.relation === "friend");
+  const [blocked, onBlock] = useBlocked();
+  const seen = friends.filter((f) => !blocked.has(f.code));
+  const incoming = seen.filter((f) => f.relation === "incoming");
+  const outgoing = seen.filter((f) => f.relation === "outgoing");
+  const mine = seen.filter((f) => f.relation === "friend");
 
   const copy = async () => {
     try { await navigator.clipboard.writeText(code); setCopied(true); window.setTimeout(() => setCopied(false), 1800); } catch { /* the code is on screen to copy by hand */ }
@@ -371,7 +397,8 @@ function FriendsTab({ code, username, onUsername, friends, onChanged }: { code: 
                   <p dir="auto" className="truncate text-[15.5px] font-semibold">{label(f)} <span className="text-[12.5px] font-medium text-muted">{f.level}</span></p>
                   <p className="truncate text-[12.5px] text-muted">{f.username && f.name ? <span dir="ltr">@{f.username} · </span> : null}{t("friends.thisMonth", { xp: f.xpMonth.toLocaleString(locale) })}{f.streak > 0 ? ` · ${t("friends.streak", { n: f.streak })}` : ""}</p>
                 </div>
-                <button type="button" onClick={() => { if (window.confirm(t("friends.removeConfirm", { name: label(f) }))) void act(() => removeFriend(f.id))(); }} aria-label={`${t("friends.remove")}: ${label(f)}`} className="grid size-10 shrink-0 place-items-center rounded-full text-muted active:bg-border/60">
+<Moderate code={f.code} name={label(f)} onBlock={(c) => { onBlock(c); void act(() => removeFriend(f.id))(); }} />
+                                <button type="button" onClick={() => { if (window.confirm(t("friends.removeConfirm", { name: label(f) }))) void act(() => removeFriend(f.id))(); }} aria-label={`${t("friends.remove")}: ${label(f)}`} className="grid size-10 shrink-0 place-items-center rounded-full text-muted active:bg-border/60">
                   <svg viewBox="0 0 24 24" className="size-5" {...stroke} aria-hidden><path d="M6 6l12 12M18 6L6 18" /></svg>
                 </button>
               </li>

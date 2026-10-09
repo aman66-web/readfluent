@@ -1,3 +1,4 @@
+import { cleanName, isOffensive } from "./clean";
 import { levelFromXp } from "@/lib/xp/levels";
 import { streak, totalXp, type Ledger } from "@/lib/xp/ledger";
 
@@ -35,7 +36,7 @@ export function parseFriends(data: unknown): FriendRow[] {
   for (const r of data) {
     if (!isObject(r) || typeof r.friendship_id !== "string") continue;
     const relation = r.relation === "incoming" || r.relation === "outgoing" ? r.relation : "friend";
-    out.push({ id: r.friendship_id, code: str(r.friend_code), relation, name: str(r.display_name), level: str(r.level_code), streak: num(r.streak), xpWeek: num(r.xp_week), xpMonth: num(r.xp_month), username: str(r.username) });
+    out.push({ id: r.friendship_id, code: str(r.friend_code), relation, name: cleanName(str(r.display_name)), level: str(r.level_code), streak: num(r.streak), xpWeek: num(r.xp_week), xpMonth: num(r.xp_month), username: cleanName(str(r.username)) });
   }
   return out;
 }
@@ -52,7 +53,7 @@ export function parseLeague(data: unknown): League | null {
     tier = tierOf(num(r.tier));
     period = str(r.period);
     size = num(r.size);
-    rows.push({ rank: num(r.rank), code: str(r.friend_code), name: str(r.display_name), level: str(r.level_code), xp: num(r.xp), me: r.is_me === true, username: str(r.username) });
+    rows.push({ rank: num(r.rank), code: str(r.friend_code), name: cleanName(str(r.display_name)), level: str(r.level_code), xp: num(r.xp), me: r.is_me === true, username: cleanName(str(r.username)) });
   }
   return rows.length ? { tier, period, size: size || rows.length, rows } : null;
 }
@@ -92,6 +93,7 @@ export function usernameProblem(raw: string): "invalid" | null {
   const name = raw.trim().replace(/^@/, "").toLowerCase();
   if (!/^[a-z0-9][a-z0-9_.]{2,19}$/.test(name) || /\.\./.test(name) || /\.$/.test(name)) return "invalid";
   if (/^[ABCDEFGHJKMNPQRSTUVWXYZ23456789]{8}$/.test(name.toUpperCase())) return "invalid";
+  if (isOffensive(name)) return "invalid";
   return null;
 }
 
