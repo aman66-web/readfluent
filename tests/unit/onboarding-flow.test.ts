@@ -221,8 +221,9 @@ describe("the white theme", () => {
   });
 
   it("has no black ground left behind", () => {
-    // `#000` survives only as the opaque stop of a fade mask, which paints nothing.
-    const withoutMasks = css.replace(/mask-image:[^;]*;/g, "").replace(/-webkit-mask-image:[^;]*;/g, "");
+    // `#000` survives only as the opaque stop of a fade mask, which paints nothing, and as Apple's own black
+    // sign-in button (`.ob-apple`, its mandated style: not a ground, and pinned by apple-button.test.ts).
+    const withoutMasks = css.replace(/mask-image:[^;]*;/g, "").replace(/-webkit-mask-image:[^;]*;/g, "").replace(/^\.ob-apple \{[^}]*\}$/m, "");
     expect(withoutMasks).not.toMatch(/background(?:-color)?:\s*(?:#000\b|#000000|black)/i);
   });
 

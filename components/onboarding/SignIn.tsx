@@ -255,9 +255,10 @@ function agreeLine(text: string): ReactNode[] {
 }
 
 /**
- * An outlined 52px button carrying the provider's own mark. Solid and full-contrast,
- * as Google's and Apple's own guidelines want: a sign-in button that has to be looked
- * for is a sign-in that does not happen.
+ * A 52px button carrying the provider's own mark. Solid and full-contrast, as Google's and
+ * Apple's own guidelines want: a sign-in button that has to be looked for is a sign-in that
+ * does not happen. Google's is white with an outline; Apple's is its black style (white mark
+ * and text), one of the three Apple allows (black, white, white with outline).
  */
 function ProviderButton({ provider, busy, disabled, onClick, delay }: {
   provider: OAuthProvider; busy: boolean; disabled: boolean; onClick: () => void; delay: number;
@@ -265,7 +266,7 @@ function ProviderButton({ provider, busy, disabled, onClick, delay }: {
   const t = useT();
   return (
     <button type="button" onClick={onClick} disabled={disabled} aria-busy={busy || undefined} style={{ animationDelay: `${delay}ms` }}
-            className="ob-quiet wel-in flex h-[52px] w-full items-center justify-center gap-3 rounded-full px-5 text-[15px] font-semibold transition-[transform,opacity] duration-[140ms] active:scale-[0.98] disabled:opacity-60">
+            className={`${provider === "apple" ? "ob-apple" : "ob-quiet"} wel-in flex h-[52px] w-full items-center justify-center gap-3 rounded-full px-5 text-[15px] font-semibold transition-[transform,opacity] duration-[140ms] active:scale-[0.98] disabled:opacity-60`}>
       {provider === "google" ? <GoogleMark /> : <AppleMark />}
       <span>{busy ? t("account.signingIn") : provider === "google" ? t("account.google") : t("account.apple")}</span>
     </button>
