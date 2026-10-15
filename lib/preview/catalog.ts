@@ -11,6 +11,7 @@
 import GENERATED from "./written.generated.json";
 import PAGE_COUNTS from "./pages.generated.json";
 import type { GeneratedBook } from "./generated";
+import { inPublicDomain } from "./rights";
 import { type CategoryId, type Length, type LevelId } from "@/lib/content/limits";
 
 export interface Scene { n: number; caption: string }
@@ -34,6 +35,12 @@ export interface PreviewBook {
   /** The day the book joined the library (YYYY-MM-DD). */
   added: string;
   kind: "classic" | "inspired";
+  /**
+   * A classic whose original is in the public domain both under life + 70 (the UK, the EU) and in the USA
+   * (lib/preview/rights.ts): only then does its jacket say so. A classic that is not is called a new retelling instead.
+   * Set below.
+   */
+  publicDomain?: boolean;
   category: CategoryId;
   blurb: string;
   scenes: Scene[];
@@ -100,7 +107,7 @@ const WRITTEN: PreviewBook[] = [
     slug: "trees-talk-to-each-other",
     added: "2026-10-02",
     title: "Trees Talk to Each Other",
-    author: "The Hidden Life of Trees",
+    author: "",
     kind: "inspired",
     category: "science",
     blurb: "Mina marks one acorn in the forest soil, then spends a year watching it with her grandfather Tomas. Through snow, spring and storm, they learn how trees and fungi trade, and why scientists still argue about how far it goes.",
@@ -129,6 +136,8 @@ PREVIEW_BOOKS.push(...MORE);
 for (const b of PREVIEW_BOOKS) {
   const n = (PAGE_COUNTS as Record<string, number>)[b.slug];
   if (b.source === "file" && (n === 50 || n === 100 || n === 200)) { b.pageCount = n; b.lengths = [n]; }
+  // Public domain only where both the author's life + 70 and the US's 95 years have run out (lib/preview/rights.ts).
+  b.publicDomain = b.kind === "classic" && inPublicDomain(b.slug);
 }
 
 export const findBook = (slug: string): PreviewBook | null => PREVIEW_BOOKS.find((b) => b.slug === slug) ?? null;

@@ -59,9 +59,10 @@ export function BookView({ book, outline, langs, chapterNames }: { book: Preview
 
       <ReadPicker slug={book.slug} titles={[book.title, title]} lengths={lengths} outline={outline} langs={langs} chapterNames={chapterNames}>
         <p lang={langOf(book.slug, "blurb")} dir="auto" className="font-reading text-[17px] leading-[1.6] text-foreground/90">{blurb}</p>
-        {/* Where it comes from, in the description where readers can see it. */}
+        {/* Where it comes from, in the description where readers can see it. "Public domain" only for a classic that is, under
+            life + 70 and in the USA (lib/preview/rights.ts); any other classic is a new retelling, an inspired book an original story. */}
         <p className="mt-3 border-t border-border pt-3 text-[13px] leading-snug text-muted">
-          {book.kind === "classic" ? t("book.publicDomain") : t("book.original")}
+          {book.publicDomain ? t("book.publicDomain") : book.kind === "classic" ? t("book.retold") : t("book.original")}
           {book.category === "health" ? <span className="mt-2 block font-semibold text-foreground/80">{t("book.notMedical")}</span> : null}
         </p>
       </ReadPicker>

@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState, type FormEvent } from "react";
-import { SIGNED_IN, isNative, nativeCallbackUrl, warmUpNativeSignIn } from "@/lib/auth/native";
+import { useEffect, useState, type FormEvent, type ReactNode } from "react";
+import { OverLink } from "@/components/OverLink";
+import { SIGNED_IN, SIGN_IN_CANCELLED, isNative, nativeCallbackUrl, warmUpNativeSignIn } from "@/lib/auth/native";
 import { callbackUrl } from "@/lib/auth/next";
 import { oauthProviders, signInWith, type OAuthProvider } from "@/lib/auth/providers";
 import { isReviewEmail } from "@/lib/auth/review";
@@ -161,7 +162,9 @@ export function EmailSignIn({ onVerified, next = AFTER_SIGN_IN }: { onVerified?:
 export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean; onNext: () => void; /** Where a provider sign-in comes back to. */ next?: string }) {
   const t = useT();
   const [busy, setBusy] = useState<OAuthProvider | null>(null);
-  const [failed, setFailed] = useState<string | null>(null);
+  const [failed, setFailed] = useState<OAuthProvider | null>(null);
+  // A failed sign-in that came back to this screen (`error`) is said until the next try.
+  const [tried, setTried] = useState(false);
   const providers = oauthProviders();
   // In the store apps the emailed sign-in is held back until it has its own mail sender (DECISIONS.md):
   // the built-in one sends a few links an hour, so a reviewer could meet a sign-in that never arrives.
@@ -177,16 +180,26 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
     if (busy) return;
     setBusy(provider);
     setFailed(null);
+    setTried(true);
+    // Whatever went wrong is written to the console in full for whoever is looking into it; the reader
+    // is told plainly, in their own language, under the buttons, and can simply try again.
+    const fail = (reason: unknown) => {
+      console.warn(`[sign-in] ${provider} failed:`, reason);
+      setFailed(provider);
+      setBusy(null);
+    };
     try {
       const message = await signInWith(provider, next);
       // Signed in by the phone's own sheet: on from here, like the emailed code, with
       // no reload. null: the page is leaving for the provider, so the button stays
-      // busy until it does. "" (the sheet closed): quietly ready again.
+      // busy until it does. "" (the sheet or the browser closed): quietly ready again.
+      // Anything else is why it failed.
       if (message === SIGNED_IN) { onNext(); return; }
-      if (message !== null) { setFailed(message || null); setBusy(null); }
-    } catch {
-      setFailed(t("account.failed"));
-      setBusy(null);
+      if (message === null) return;
+      if (message === SIGN_IN_CANCELLED) { setBusy(null); return; }
+      fail(message);
+    } catch (e) {
+      fail(e);
     }
   }
 
@@ -201,14 +214,14 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
 
   return (
     <div className="space-y-2.5">
-      {(error || failed) && (
-        <p role="alert" className="wel-in rounded-2xl bg-red-50 px-4 py-3 text-[13px] font-medium leading-snug text-error">
-          {failed ?? t("account.failed")}
-        </p>
-      )}
       {providers.map((p, i) => (
         <ProviderButton key={p} provider={p} busy={busy === p} disabled={busy !== null} onClick={() => void go(p)} delay={i * 60} />
       ))}
+      {(failed || (error && !tried)) && (
+        <p role="alert" className="wel-in rounded-2xl bg-red-50 px-4 py-3 text-center text-[13px] font-medium leading-snug text-error">
+          {failed === "apple" ? t("account.failedApple") : failed === "google" ? t("account.failedGoogle") : t("account.failed")}
+        </p>
+      )}
       {providers.length > 0 && email && (
         <div className="wel-in flex items-center gap-3 pt-1" style={{ animationDelay: "160ms" }}>
           <span className="h-px flex-1 bg-black/10" aria-hidden />
@@ -222,8 +235,23 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
           {t("account.useEmail")}
         </button>
       )}
+      {/* Agreeing to the Terms comes with the account (they cover the league and friends, where readers see each other's
+          names: Apple's rule 1.2). The pages open over this screen, so the sign-in and the run around it keep their place. */}
+      <p className="wel-in ob-faint mx-auto max-w-[21rem] pt-1 text-center text-[12px] leading-relaxed" style={{ animationDelay: "240ms" }}>
+        {agreeLine(t("account.agree"))}
+      </p>
     </div>
   );
+}
+
+/** "…the <terms>Terms of Use</terms> and <privacy>Privacy Policy</privacy>." with each tagged part a link; each language words and inflects its own. */
+function agreeLine(text: string): ReactNode[] {
+  return text.split(/<(terms|privacy)>([\s\S]*?)<\/\1>/).map((part, i, all) => {
+    // split with two groups gives: text, tag, linked words, text, tag, linked words, text…
+    if (i % 3 === 1) return null;
+    if (i % 3 === 2) return <OverLink key={i} href={all[i - 1] === "terms" ? "/terms" : "/privacy"} className="first-link py-1">{part}</OverLink>;
+    return part;
+  });
 }
 
 /**

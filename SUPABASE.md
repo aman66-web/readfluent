@@ -86,6 +86,15 @@ missing or looks wrong (it never shows the values themselves).
 | "Anonymous sign-ins are disabled" | Step 5 wasn't saved. |
 | Code emails don't arrive or are rate limited | Supabase's built-in sender is for testing. Before real users, set Project Settings -> Auth -> SMTP to a real sender (Resend, Postmark). |
 
+## Sign-in records (do once; the privacy policy depends on it)
+
+The privacy policy says sign-in records are kept no more than 30 days and that deleting an account deletes
+everything linked to it in our database straight away. Supabase keeps a copy of every sign-in (email, IP
+address) in the table `auth.audit_log_entries` by default, forever. So, once: Authentication -> Audit Logs
+(under Configuration) -> turn on "Disable writing auth audit logs to project database", then in the SQL editor
+run `delete from auth.audit_log_entries;`. Supabase's own log store keeps them for its plan's period
+(1 day on Free, 7 on Pro, 28 on Team), which fits the policy.
+
 ## What is deliberately not set up here
 
 - **Google and Apple buttons** stay off until their consoles are done (README,

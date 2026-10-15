@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useState, useSyncExternalStore, type F
 import { BackLink } from "@/components/BackLink";
 import "../../app/welcome/welcome.css";
 import { SignIn } from "@/components/onboarding/SignIn";
+import { OverLink } from "@/components/OverLink";
 import { APP_NAME, SUPPORT_EMAIL } from "@/lib/brand";
 import { block, useBlocked as useBlockedCodes } from "@/lib/social/blocked";
 import { useLocale, useT } from "@/lib/i18n/react";
@@ -80,14 +81,20 @@ function useBlocked(): [Set<string>, (code: string) => void] {
   return [useBlockedCodes(), block];
 }
 
-/** Report and Block for another reader: report goes to support by email, block hides them on this device. */
+/**
+ * Report and Block for another reader: report goes to support by email, block hides them on this device. Both are
+ * always there (Apple's rule 1.2 for anything readers see of each other): a build without a support address sends a
+ * report to the Support page instead, opened over this screen.
+ */
 function Moderate({ code, name, onBlock }: { code: string; name: string; onBlock: (code: string) => void }) {
   const t = useT();
   return (
     <span className="mt-0.5 flex justify-end gap-3 text-[12px] font-semibold text-muted">
       {SUPPORT_EMAIL ? (
         <a href={`mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(t("social.reportSubject"))}&body=${encodeURIComponent(`#${code} ${name}`)}`}>{t("social.report")}</a>
-      ) : null}
+      ) : (
+        <OverLink href="/support">{t("social.report")}</OverLink>
+      )}
       <button type="button" onClick={() => { if (window.confirm(t("social.blockConfirm", { name }))) onBlock(code); }}>{t("social.block")}</button>
     </span>
   );
@@ -395,9 +402,9 @@ function FriendsTab({ code, username, onUsername, friends, onChanged }: { code: 
                 <div className="min-w-0 flex-1">
                   <p dir="auto" className="truncate text-[15.5px] font-semibold">{label(f)} <span className="text-[12.5px] font-medium text-muted">{f.level}</span></p>
                   <p className="truncate text-[12.5px] text-muted">{f.username && f.name ? <span dir="ltr">@{f.username} · </span> : null}{t("friends.thisMonth", { xp: f.xpMonth.toLocaleString(locale) })}{f.streak > 0 ? ` · ${t("friends.streak", { n: f.streak })}` : ""}</p>
+                  <Moderate code={f.code} name={label(f)} onBlock={(c) => { onBlock(c); void act(() => removeFriend(f.id))(); }} />
                 </div>
-<Moderate code={f.code} name={label(f)} onBlock={(c) => { onBlock(c); void act(() => removeFriend(f.id))(); }} />
-                                <button type="button" onClick={() => { if (window.confirm(t("friends.removeConfirm", { name: label(f) }))) void act(() => removeFriend(f.id))(); }} aria-label={`${t("friends.remove")}: ${label(f)}`} className="grid size-10 shrink-0 place-items-center rounded-full text-muted active:bg-border/60">
+                <button type="button" onClick={() => { if (window.confirm(t("friends.removeConfirm", { name: label(f) }))) void act(() => removeFriend(f.id))(); }} aria-label={`${t("friends.remove")}: ${label(f)}`} className="grid size-10 shrink-0 place-items-center rounded-full text-muted active:bg-border/60">
                   <svg viewBox="0 0 24 24" className="size-5" {...stroke} aria-hidden><path d="M6 6l12 12M18 6L6 18" /></svg>
                 </button>
               </li>

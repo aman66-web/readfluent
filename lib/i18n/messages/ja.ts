@@ -39,7 +39,7 @@ const ja: Catalog = {
   "tongues.pick": "学びたい言語を選んでください。",
   "tongues.summary": "{learn}を読みます。ヘルプは{speak}です。",
   "tongues.noteBooks": "今のところ、本は{en}のみです。{learn}は保存しておいたので、追加されたらお知らせします。",
-  "tongues.noteWords": "{speak}での単語の意味は準備中です。今は{en}で表示されます。",
+  "tongues.noteWords": "単語の意味は、スマホで翻訳できるときは{speak}で、できないときは{en}で表示されます。",
   "tongues.later": "いつでも変更できます。進み具合もずっと保存されます。",
   "languages.title": "言語",
   "languages.sub": "アプリは1つ目の言語、本は2つ目の言語です。",
@@ -454,7 +454,7 @@ const ja: Catalog = {
   "me.shelves": "好きな本棚",
   "me.shelvesSub": "ライブラリはここから開きます。何も隠されません。",
   "me.account": "アカウント",
-  "me.signInHint": "ログインすると、進み具合が安全に保たれ、どの端末でも使えます。",
+  "me.signInHint": "ログインすると、Pro プランと友だちがアカウントに保存されます。",
   "me.signOut": "ログアウト",
   "me.deleteAccount": "アカウントを削除",
   "me.deleteData": "この端末のデータを削除",
@@ -729,10 +729,10 @@ const ja: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "オフラインです",
-  "offline.body": "これはダウンロードされていないため、接続が必要です。ダウンロード済みのものは開けます。",
+  "offline.body": "このページを開くにはインターネット接続が必要です。Wi-Fi かモバイルデータを確認してから、もう一度お試しください。",
   "offline.back": "アプリに戻る",
   "privacy.title": "プライバシー",
-  "privacy.p1": "{app} を使うにはアカウントが必要です。各本の読み進めた位置と設定はお使いの端末に保存され、進捗と入力した名前もアカウントに保存されるので、別のスマートフォンでも引き継げます。",
+  "privacy.p1": "{app} を使うにはアカウントが必要です。各本の読み進めた位置、単語、設定はこの端末に保存され、私たちのサーバーには保存されません。アカウントには、メールアドレス、最初に答えた内容、サブスクリプションの有無が保存されます。友だち機能を使うと、名前、レベル、ポイントも保存され、友だちやリーグの参加者に表示されます。アカウントはプロフィールからいつでも削除できます。",
   "privacy.p2": "これは短い要約です。完全なポリシーは英語で、この下に続きます。",
   "level.summary": "{lines}。{blurb}",
   "book.inspiredSentence": "{author}にインスパイアされた作品。",
@@ -847,7 +847,7 @@ const ja: Catalog = {
   "levelTests.gate.again": "もう一度確認",
   "levelTests.gate.skip": "スピーキングをスキップ",
   "levelTests.gate.nomic.title": "この端末では声を聞き取れません",
-  "levelTests.gate.nomic.body": "この端末ではスピーキングを採点できないため、これらの問題は除外されます。完全なテストを受けるには、ChromeまたはSafariでReadFluentを開いてください。",
+  "levelTests.gate.nomic.body": "ここではスピーキングを採点できないため、除外されます。スコアは残りの問題だけで計算され、合格も可能です。",
   "levelTests.skippedSpeak": "スピーキングは除外されたため、スコアには含まれません。",
   "levelTests.result.passed": "テスト{n}に合格しました！",
   "levelTests.result.notPassed": "まだです。合格には{pass}%の得点が必要です。もう一度挑戦しましょう。",
@@ -990,6 +990,12 @@ const ja: Catalog = {
   "account.useEmail": "メールで続ける",
   "recall.boost.upTo": "最大 {xp} XP",
   "mine.emptyTitle": "本棚の準備ができました",
+  "account.failedApple": "Appleでログインできませんでした。もう一度お試しください。",
+  "account.failedGoogle": "Googleでログインできませんでした。もう一度お試しください。",
+  "account.agree": "続行すると、<terms>利用規約</terms>と<privacy>プライバシーポリシー</privacy>に同意したものとみなされます。",
+  "levelTests.intro.bodyNoSpeak": "読解、単語、リスニング、ライティング。合格には{pass}%の得点が必要です。",
+  "book.retold": "ReadFluentのために新しく語り直した版です。",
+  "levelTests.intro.pass": "合格には{pass}%の得点が必要です。",
 };
 
 export default ja;

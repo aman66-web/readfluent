@@ -39,7 +39,7 @@ const es: Catalog = {
   "tongues.pick": "Elige el idioma que quieres aprender.",
   "tongues.summary": "Leyendo en {learn}, con ayuda en {speak}.",
   "tongues.noteBooks": "Hoy los libros están en {en}. Hemos guardado tu elección ({learn}) y te avisaremos cuando llegue.",
-  "tongues.noteWords": "Los significados de las palabras en {speak} están en camino. Por ahora aparecen en {en}.",
+  "tongues.noteWords": "Los significados de las palabras aparecen en {speak} cuando tu teléfono puede traducirlos, y en {en} cuando no.",
   "tongues.later": "Puedes cambiarlo cuando quieras, y tu progreso siempre se guarda.",
   "languages.title": "Idiomas",
   "languages.sub": "La app está en el primer idioma. Los libros, en el segundo.",
@@ -454,7 +454,7 @@ const es: Catalog = {
   "me.shelves": "Estantes que te gustan",
   "me.shelvesSub": "La biblioteca se abre con estos. No se oculta nada.",
   "me.account": "Cuenta",
-  "me.signInHint": "Inicia sesión para guardar tu progreso a salvo y usarlo en todos tus dispositivos.",
+  "me.signInHint": "Inicia sesión para que tu plan Pro y tus amigos se queden en tu cuenta.",
   "me.signOut": "Cerrar sesión",
   "me.deleteAccount": "Eliminar cuenta",
   "me.deleteData": "Eliminar mis datos en este dispositivo",
@@ -730,10 +730,10 @@ const es: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "Sin conexión",
-  "offline.body": "Esto no está descargado, así que necesita conexión. Lo que hayas descargado sigue abriéndose.",
+  "offline.body": "Esta página necesita conexión. Revisa tu wifi o tus datos móviles y vuelve a intentarlo.",
   "offline.back": "Volver a la app",
   "privacy.title": "Privacidad",
-  "privacy.p1": "{app} necesita una cuenta. Guarda en tu dispositivo por dónde vas en cada libro y tus ajustes, y tu progreso y el nombre que das también se guardan en tu cuenta para que te sigan a otro teléfono.",
+  "privacy.p1": "{app} necesita una cuenta. Por dónde vas en cada libro, tus palabras y tus ajustes se guardan en este dispositivo, no en nuestros servidores. Tu cuenta guarda tu correo electrónico, las respuestas que diste al empezar y si tienes una suscripción; si usas Amigos, también tu nombre, tu nivel y tus puntos, que ven tus amigos y tu liga. Puedes eliminar tu cuenta cuando quieras desde Perfil.",
   "privacy.p2": "Este es un resumen breve. A continuación sigue la política completa, en inglés.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspirado en {author}.",
@@ -848,7 +848,7 @@ const es: Catalog = {
   "levelTests.gate.again": "Comprobar de nuevo",
   "levelTests.gate.skip": "Saltar la parte oral",
   "levelTests.gate.nomic.title": "Este dispositivo no puede oírte",
-  "levelTests.gate.nomic.body": "La expresión oral no se puede evaluar en este dispositivo, así que se omiten estas preguntas. Abre ReadFluent en Chrome o Safari para hacer la prueba completa.",
+  "levelTests.gate.nomic.body": "La expresión oral no se puede evaluar aquí, así que se omite: tu puntuación cuenta solo las demás preguntas y aún puedes aprobar.",
   "levelTests.skippedSpeak": "Se omitió la expresión oral, así que no cuenta en tu puntuación.",
   "levelTests.result.passed": "¡Has superado la prueba {n}!",
   "levelTests.result.notPassed": "Todavía no. Necesitas el {pass}% de los puntos para aprobar. Inténtalo otra vez.",
@@ -991,6 +991,12 @@ const es: Catalog = {
   "account.useEmail": "Usar correo electrónico",
   "recall.boost.upTo": "Hasta {xp} XP",
   "mine.emptyTitle": "Tu estantería está lista",
+  "account.failedApple": "No se pudo iniciar sesión con Apple. Inténtalo de nuevo.",
+  "account.failedGoogle": "No se pudo iniciar sesión con Google. Inténtalo de nuevo.",
+  "account.agree": "Al continuar, aceptas los <terms>Términos de uso</terms> y la <privacy>Política de privacidad</privacy>.",
+  "levelTests.intro.bodyNoSpeak": "Lectura, palabras, escucha y escritura. Necesitas el {pass}% de los puntos para aprobar.",
+  "book.retold": "Una nueva versión del libro, escrita para ReadFluent.",
+  "levelTests.intro.pass": "Necesitas el {pass}% de los puntos para aprobar.",
 };
 
 export default es;

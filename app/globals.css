@@ -296,3 +296,42 @@ h1:not(.truncate), h2:not(.truncate) { text-wrap: balance; }
 
 /* Letter-spacing breaks the joined scripts (the Devanagari headline bar, Arabic and Urdu joining): no tracking on them. */
 :is(:lang(hi), :lang(bn), :lang(ar), :lang(ur)) .uppercase { letter-spacing: normal; }
+
+/* ── Inside the native app: an app, not a website in a frame (App Review 4.2) ─────────────────────────────────────
+   Only where <html> carries data-native ("ios" or "android"), which components/NativeChrome sets on the native build
+   and never in a browser, so the website keeps a browser's ways. Layout and colours are unchanged; pages scroll as before.
+   In Tailwind's base layer, so a component that asks for something else with a utility (select-text, select-all)
+   still gets it. Every selector starts html[data-native]: tests/unit/native-chrome.test.ts holds it to that. */
+@layer base {
+  /* No grey flash on a tap (Tailwind's preflight already says so for the whole site; said again so the app keeps it). */
+  html[data-native] { -webkit-tap-highlight-color: transparent; }
+  /* The page itself does not rubber-band past its top and bottom; it still scrolls as before. Only the page: the
+     reader's pages, a sheet or the subscription screen scroll and bounce on their own, like a native list. */
+  html[data-native], html[data-native] body { overscroll-behavior: none; }
+  /* Pressing and holding text selects nothing, as with a native app's labels: no word lifted under the finger, no Copy
+     and Look Up bar over a card, a hint or a heading. Said once on the body; WebKit and Chromium both carry it down to
+     everything inside that does not ask for something else, so the exceptions below put selection back. */
+  html[data-native] body { -webkit-user-select: none; user-select: none; }
+  /* Pressing and holding a control, a tab, a title or a picture does nothing: no Safari link preview or callout, no
+     word selected under the finger. :where keeps these at the lowest weight, so the exceptions below win. */
+  html[data-native] :where(a, button, [role="button"], [role="link"], [role="tab"], [role="radio"], [role="checkbox"], [role="switch"], [role="option"],
+                           label, summary, nav, h1, h2, h3, h4, h5, h6, .opt, .bc, img, svg) {
+    -webkit-touch-callout: none; -webkit-user-select: none; user-select: none;
+  }
+  /* A held link or picture is not lifted to drag somewhere else, as in a browser. */
+  html[data-native] :where(a, img) { -webkit-user-drag: none; }
+  /* Selection stays where it matters. What is typed: a field, even inside a label, keeps the caret, Select and Paste
+     (on iOS a field set to none can refuse typing altogether). */
+  html[data-native] :is(input, textarea, select), html[data-native] [contenteditable]:not([contenteditable="false"]) {
+    -webkit-touch-callout: default; -webkit-user-select: text; user-select: text;
+  }
+  /* A book's page text (components/Reader.tsx, its page sections), every tappable word included: press and hold for
+     Copy, Look Up and Translate, as in any reading app. */
+  html[data-native] section[aria-roledescription="page"] p, html[data-native] section[aria-roledescription="page"] p * {
+    -webkit-touch-callout: default; -webkit-user-select: text; user-select: text;
+  }
+  /* Long-form text, an <article>: the privacy policy, terms and support pages (components/LegalDoc), titles and all;
+     its links still open no preview. */
+  html[data-native] article, html[data-native] article * { -webkit-touch-callout: default; -webkit-user-select: text; user-select: text; }
+  html[data-native] article a, html[data-native] article a * { -webkit-touch-callout: none; }
+}

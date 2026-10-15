@@ -20,6 +20,9 @@ import { RTL_LANGUAGES } from "@/lib/i18n";
 /** Sets the page's language and direction before it is painted, from what the device remembers, so an Arabic or Urdu reader never sees the page flip from left-to-right after loading. LocaleSync keeps them right afterwards. */
 const EARLY_LOCALE = `try{var a=JSON.parse(localStorage.getItem(${JSON.stringify(ANSWERS_KEY)})||"{}"),l=a&&a.language;if(typeof l==="string"&&/^[a-z]{2,3}$/.test(l)){var e=document.documentElement;e.lang=l;e.dir=${JSON.stringify(RTL_LANGUAGES)}.indexOf(l)>-1?"rtl":"ltr";if(l!=="en"){e.setAttribute("data-i18n-pending",l);setTimeout(function(){e.removeAttribute("data-i18n-pending")},3000)}}}catch(x){}`;
 
+/** Inside the phone app, marks <html> with data-native from the first frame, so the native-only rules in app/globals.css (no link preview, no text selection on controls) hold before React runs; components/NativeChrome keeps it set. Capacitor's bridge is injected before any page script. */
+const EARLY_NATIVE = `try{var C=window.Capacitor;if(C&&C.isNativePlatform&&C.isNativePlatform()){document.documentElement.setAttribute("data-native",C.getPlatform())}}catch(x){}`;
+
 /** While a non-English catalog is on its way, the page is kept invisible (not removed) so English never shows first; released by LocaleSync, or after 3 s whatever happens. */
 const PENDING_CSS = "html[data-i18n-pending] body>div.mx-auto{visibility:hidden}";
 
@@ -47,6 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" dir="ltr" className={`h-full antialiased ${display.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: EARLY_LOCALE }} />
+        <script dangerouslySetInnerHTML={{ __html: EARLY_NATIVE }} />
         <style dangerouslySetInnerHTML={{ __html: PENDING_CSS }} />
       </head>
       <body className="min-h-full">
@@ -62,7 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <PurchasesBridge />
         {/* Translates the library on the phone, in the background, once a language to learn is chosen. Renders nothing. */}
         <BackgroundTranslation />
-        {/* The status bar's text colour on the native build. Renders nothing. */}
+        {/* The status bar's text colour, and the data-native mark on <html>, on the native build. Renders nothing. */}
         <NativeChrome />
         {/* The page's lang and dir follow the reader's language. Renders nothing. */}
         <LocaleSync />

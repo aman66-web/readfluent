@@ -15,7 +15,7 @@ import { hasVoiceFor, speak, stopSpeaking } from "@/lib/reading/speak";
 import { hasRoman, romanText, romaniserFor, type Romaniser } from "@/lib/romanise";
 import { gradeDictation, gradeSpeech, gradeWriting, isLatinText, wordCount } from "@/lib/tests/level/grade";
 import { saveLevelResult } from "@/lib/tests/level/store";
-import { LEVEL_TEST, TESTS_PER_LEVEL, levelPassMark, stepPoints, type LevelTest, type Part, type Step } from "@/lib/tests/level/types";
+import { LEVEL_TEST, TESTS_PER_LEVEL, scoreRun, stepPoints, stepsTotal, withoutSpeaking, type LevelTest, type Marked, type Part, type Step } from "@/lib/tests/level/types";
 import { levelUpBetween, type Cefr, type LevelUp as LevelUpInfo } from "@/lib/xp/levels";
 import { awardTestAnswer, awardTestFinish, currentXp } from "@/lib/xp/ledger";
 
@@ -38,6 +38,8 @@ const Back = ({ label }: { label: string }) => (
  * One level test (owner, 4 Oct 2026): a passage and four questions, three vocabulary questions, two to listen to, a sentence
  * to type from dictation, a short piece of writing and two sentences to say aloud. Each step is checked at once and the
  * answer shown; the score is in points (lib/tests/level/types.ts) and 70% passes. The test comes from /api/level-test.
+ * Where nothing can hear the reader (inside the phone apps, or a browser with no speech recognition) the speaking is left
+ * out before it starts and the test is marked out of the rest; nothing here sends anyone to another browser.
  */
 export function LevelTestRunner({ level, n }: { level: Cefr; n: number }) {
   const a = useAnswers();
@@ -47,7 +49,7 @@ export function LevelTestRunner({ level, n }: { level: Cefr; n: number }) {
 
 function Loader({ lang, level, n, onAgain }: { lang: string | null; level: Cefr; n: number; onAgain: () => void }) {
   const t = useT();
-  const [test, setTest] = useState<LevelTest | null>(null);
+  const [got, setGot] = useState<{ test: LevelTest; speakLeftOut: boolean } | null>(null);
   const [failed, setFailed] = useState(false);
   useEffect(() => {
     if (!lang) return;
@@ -58,13 +60,18 @@ function Loader({ lang, level, n, onAgain }: { lang: string | null; level: Cefr;
         // Without a voice for the language, the listening questions and the dictation cannot be played and are left out.
         const voice = d.test.steps.some((s) => s.part === "listen" || s.part === "dictate") ? await hasVoiceFor(lang) : true;
         if (!live) return;
-        setTest({ ...d.test, steps: d.test.steps.filter((s) => voice || (s.part !== "listen" && s.part !== "dictate")) });
+        const asked = { ...d.test, steps: d.test.steps.filter((s) => voice || (s.part !== "listen" && s.part !== "dictate")) };
+        if (asked.steps.length < 6) { setFailed(true); return; }
+        // Without anything to hear the reader (lib/reading/listen.ts), the sentences to say aloud are left out before the
+        // test starts, not shown and failed: it is marked out of the rest (withoutSpeaking).
+        const speakLeftOut = !canListen() && asked.steps.some((s) => s.part === "speak");
+        setGot({ test: speakLeftOut ? withoutSpeaking(asked) : asked, speakLeftOut });
       })
       .catch(() => { if (live) setFailed(true); });
     return () => { live = false; stopSpeaking(); };
   }, [lang, level, n]);
 
-  if (!lang || failed || (test && test.steps.length < 6)) {
+  if (!lang || failed) {
     return (
       <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:1.5rem] [--pt:.5rem]">
         <div><Back label={t("tests.back")} /></div>
@@ -76,7 +83,7 @@ function Loader({ lang, level, n, onAgain }: { lang: string | null; level: Cefr;
       </main>
     );
   }
-  if (!test) {
+  if (!got) {
     return (
       <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:1.5rem] [--pt:.5rem]">
         <div><Back label={t("tests.back")} /></div>
@@ -87,13 +94,12 @@ function Loader({ lang, level, n, onAgain }: { lang: string | null; level: Cefr;
       </main>
     );
   }
-  return <Run test={test} lang={lang} onAgain={onAgain} />;
+  return <Run test={got.test} speakLeftOut={got.speakLeftOut} lang={lang} onAgain={onAgain} />;
 }
 
 type Phase = "intro" | "gate" | "step" | "done";
-interface Done { points: number; part: Part; max: number }
 
-function Run({ test, lang, onAgain }: { test: LevelTest; lang: string; onAgain: () => void }) {
+function Run({ test, speakLeftOut, lang, onAgain }: { test: LevelTest; speakLeftOut: boolean; lang: string; onAgain: () => void }) {
   const t = useT();
   const locale = useLocale();
   const roman = useRoman(lang);
@@ -109,9 +115,10 @@ function Run({ test, lang, onAgain }: { test: LevelTest; lang: string; onAgain: 
   const show = useCallback((s: string) => (roman.convert ? romanText(s, roman.convert) : s), [roman.convert]);
 
   const [phase, setPhase] = useState<Phase>("intro");
-  const [speakOk, setSpeakOk] = useState<boolean | null>(null);
+  // Speaking: null until the gate before it, true once ready, false when it is left out (skipped, or nothing can hear).
+  const [speakOk, setSpeakOk] = useState<boolean | null>(speakLeftOut ? false : null);
   const [at, setAt] = useState(0);
-  const [done, setDone] = useState<Done[]>([]);
+  const [done, setDone] = useState<Marked[]>([]);
   const [levelUp, setLevelUp] = useState<LevelUpInfo | null>(null);
   const [earned, setEarned] = useState(0);
   const [outcome, setOutcome] = useState<{ passed: boolean; earnedLevel: boolean; passedCount: number } | null>(null);
@@ -120,7 +127,7 @@ function Run({ test, lang, onAgain }: { test: LevelTest; lang: string; onAgain: 
 
   const steps = test.steps;
   const step = steps[at];
-  const total = useMemo(() => steps.filter((s) => s.part !== "speak" || speakOk !== false).reduce((x, s) => x + stepPoints(s), 0), [steps, speakOk]);
+  const total = useMemo(() => stepsTotal(steps.filter((s) => s.part !== "speak" || speakOk !== false)), [steps, speakOk]);
 
   const pay = useCallback((points: number) => {
     let xp = 0;
@@ -129,9 +136,9 @@ function Run({ test, lang, onAgain }: { test: LevelTest; lang: string; onAgain: 
     if (xp > 0) { setEarned((e) => e + xp); const up = levelUpBetween(before, currentXp()); if (up) setLevelUp(up); }
   }, [level]);
 
-  const finish = useCallback((all: Done[]) => {
-    const points = all.reduce((x, d) => x + d.points, 0);
-    const max = all.reduce((x, d) => x + d.max, 0);
+  const finish = useCallback((all: Marked[]) => {
+    // Out of the steps actually asked: speaking that was left out is neither a point nor a miss (scoreRun).
+    const { points, max } = scoreRun(all);
     const before = currentXp();
     const bonus = awardTestFinish(level, points, max);
     if (bonus > 0) setEarned((e) => e + bonus);
@@ -154,10 +161,26 @@ function Run({ test, lang, onAgain }: { test: LevelTest; lang: string; onAgain: 
     if (steps[next].part === "speak" && speakOk === null) setPhase("gate");
   }, [done, step, at, speakOk, steps, finish]);
 
+  // Leaves the speaking out from here on (skipped at the gate, or the device turned out unable to hear): the step on screen
+  // and any speaking after it are not asked and not counted, and the test goes on with what is left, or ends.
+  const leaveOutSpeaking = useCallback(() => {
+    stopSpeaking();
+    setSpeakOk(false);
+    let next = at;
+    while (next < steps.length && steps[next].part === "speak") next++;
+    if (next >= steps.length) { finish(done); return; }
+    setAt(next);
+    setPhase("step");
+  }, [at, steps, done, finish]);
+
   const back = <Back label={t("tests.back")} />;
 
   if (phase === "intro") {
     const counts = (["read", "vocab", "listen", "dictate", "write", "speak"] as Part[]).map((p) => [p, steps.filter((s) => s.part === p).reduce((x, s) => x + stepPoints(s), 0)] as const).filter(([, c]) => c > 0);
+    // The line names only the parts this test has: without a voice for the language (some phones' web views have none)
+    // listening is left out too, and then only the pass mark is said; the chips below list the parts.
+    const has = (p: Part) => steps.some((s) => s.part === p);
+    const intro: MessageId = !has("listen") ? "levelTests.intro.pass" : has("speak") ? "levelTests.intro.body" : "levelTests.intro.bodyNoSpeak";
     return (
       <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:1.25rem] [--pt:.5rem]">
         <div>{back}</div>
@@ -165,10 +188,11 @@ function Run({ test, lang, onAgain }: { test: LevelTest; lang: string; onAgain: 
           <Mascot mood="ready" className="block h-[130px] w-auto" />
           <p className="mt-4 text-[13px] font-bold uppercase tracking-[0.12em] text-[var(--ob-deep)]">{level} · {t("levelTests.test", { n })}</p>
           <h1 className="title-display mt-1">{language}</h1>
-          <p className="mt-3 max-w-[19rem] text-[14.5px] leading-snug text-muted">{t("levelTests.intro.body", { pass: Math.round(LEVEL_TEST.passShare * 100) })}</p>
+          <p className="mt-3 max-w-[19rem] text-[14.5px] leading-snug text-muted">{t(intro, { pass: Math.round(LEVEL_TEST.passShare * 100) })}</p>
           <ul className="mt-5 flex flex-wrap justify-center gap-2" dir="auto">
             {counts.map(([p, c]) => <li key={p} className="sheet-card tabular rounded-full px-3 py-1 text-[13px] font-semibold">{t(PART_LABEL[p])} · {c}</li>)}
           </ul>
+          {speakLeftOut && <p className="mt-3 max-w-[19rem] text-[13px] leading-snug text-muted">{t("levelTests.gate.nomic.body")}</p>}
         </div>
         <button type="button" onClick={() => setPhase("step")} className="btn-cyan h-14 rounded-full text-[16px] font-bold">{t("levelTests.start")}</button>
         {roman.available && <RomanButton lang={lang} roman={roman} className="mx-auto mt-2" />}
@@ -177,19 +201,11 @@ function Run({ test, lang, onAgain }: { test: LevelTest; lang: string; onAgain: 
   }
 
   if (phase === "gate") {
-    return <SpeakGate back={back} lang={lang} onReady={() => { setSpeakOk(true); setPhase("step"); }} onSkip={() => {
-      setSpeakOk(false);
-      const all = done;
-      if (at >= steps.length) { finish(all); return; }
-      // Everything left is speaking: the test ends here, scored on the rest.
-      if (steps.slice(at).every((s) => s.part === "speak")) finish(all); else { setAt((i) => i + 1); setPhase("step"); }
-    }} />;
+    return <SpeakGate back={back} lang={lang} onReady={() => { setSpeakOk(true); setPhase("step"); }} onSkip={leaveOutSpeaking} />;
   }
 
   if (phase === "done") {
-    const points = done.reduce((x, d) => x + d.points, 0);
-    const max = done.reduce((x, d) => x + d.max, 0);
-    const passed = points >= levelPassMark(max);
+    const { points, max, passed } = scoreRun(done);
     const parts = (["read", "vocab", "listen", "dictate", "write", "speak"] as Part[]).map((p) => [p, done.filter((d) => d.part === p).reduce((x, d) => x + d.points, 0), done.filter((d) => d.part === p).reduce((x, d) => x + d.max, 0)] as const).filter(([, , m]) => m > 0);
     return (
       <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:1.25rem] [--pt:.5rem]">
@@ -224,7 +240,8 @@ function Run({ test, lang, onAgain }: { test: LevelTest; lang: string; onAgain: 
         {roman.available && <RomanButton lang={lang} roman={roman} />}
         <span className="tabular w-12 text-end text-[13px] font-semibold text-muted">{Math.min(at + 1, shown.length)}/{shown.length}</span>
       </div>
-      <StepView key={at} step={step} lang={lang} language={language} level={level} conv={conv} show={show} total={total} pay={pay} onNext={advance} last={at + 1 >= steps.length} />
+      <StepView key={at} step={step} lang={lang} language={language} level={level} conv={conv} show={show} total={total} pay={pay} onNext={advance} onLeaveOut={leaveOutSpeaking}
+                last={at + 1 >= steps.length} lastWithoutSpeaking={steps.slice(at + 1).every((s) => s.part === "speak")} />
       {levelUp && <LevelUp up={levelUp} onClose={() => setLevelUp(null)} />}
     </main>
   );
@@ -240,13 +257,12 @@ function RomanButton({ lang, roman, className = "" }: { lang: string; roman: Ret
   );
 }
 
-/** Two checks before the speaking part: the connection, and a quiet room. */
+/** Two checks before the speaking part: the connection, and a quiet room. Only reached where something can hear (see Loader). */
 function SpeakGate({ back, lang, onReady, onSkip }: { back: React.ReactNode; lang: string; onReady: () => void; onSkip: () => void }) {
   const t = useT();
   const [net, setNet] = useState<Connection | null>(null);
   const [room, setRoom] = useState<{ quiet: boolean } | null | undefined>(undefined);
   const [busy, setBusy] = useState(true);
-  const hears = useMemo(() => canListen(), []);
   const run = useCallback(() => {
     setBusy(true); setNet(null); setRoom(undefined);
     void (async () => {
@@ -257,21 +273,8 @@ function SpeakGate({ back, lang, onReady, onSkip }: { back: React.ReactNode; lan
     })();
   }, []);
   // eslint-disable-next-line react-hooks/set-state-in-effect -- the checks need the device, so they start once the screen is up
-  useEffect(() => { if (hears) run(); }, [hears, run]);
+  useEffect(() => { run(); }, [run]);
 
-  if (!hears) {
-    return (
-      <main className="safe-top safe-bottom flex min-h-dvh flex-col px-5 [--pb:1.25rem] [--pt:.5rem]">
-        <div>{back}</div>
-        <div className="flex flex-1 flex-col items-center justify-center text-center">
-          <Mascot mood="sleepy" className="block h-[130px] w-auto" />
-          <h1 className="mt-4 text-[22px] font-bold tracking-[-0.01em]">{t("levelTests.gate.nomic.title")}</h1>
-          <p className="mt-2 max-w-[19rem] text-[14.5px] leading-snug text-muted">{t("levelTests.gate.nomic.body")}</p>
-        </div>
-        <button type="button" onClick={onSkip} className="btn-cyan h-14 rounded-full text-[16px] font-bold">{t("levelTests.gate.skip")}</button>
-      </main>
-    );
-  }
   const netOk = net === "good";
   const roomOk = room === undefined ? null : room === null ? true : room.quiet;
   const row = (ok: boolean | null, title: string, text: string) => (
@@ -310,10 +313,12 @@ const PassageCard = ({ title, text, lang, show, open }: { title: string; text: s
 interface ViewProps {
   step: Step; lang: string; language: string; level: Cefr; conv: Romaniser | null; show: (s: string) => string;
   total: number; pay: (points: number) => void; onNext: (points: number) => void; last: boolean;
+  /** Speaking turned out impossible here: leave it out, uncounted. `lastWithoutSpeaking`: nothing but speaking comes after. */
+  onLeaveOut: () => void; lastWithoutSpeaking: boolean;
 }
 
 /** One step: answer it, Check, see what was right, Next. */
-function StepView({ step, lang, language, conv, show, pay, onNext, last }: ViewProps) {
+function StepView({ step, lang, language, conv, show, pay, onNext, onLeaveOut, last, lastWithoutSpeaking }: ViewProps) {
   const t = useT();
   const [picked, setPicked] = useState<number | null>(null);
   const [text, setText] = useState("");
@@ -427,6 +432,11 @@ function StepView({ step, lang, language, conv, show, pay, onNext, last }: ViewP
       <Typing lang={lang} language={language} value={text} onChange={setText} disabled={checked} rows={4} />
       <p className="tabular mt-1 text-end text-[12.5px] text-muted">{t("levelTests.write.words", { n: words, min: step.min })}</p>
       {checked && wrote && verdict(points === 2, <ul className="mt-1 space-y-0.5"><li>{wrote.long ? "✓" : "✗"} {t(wrote.long ? "levelTests.write.long" : "levelTests.write.short", { min: step.min })}</li><li>{wrote.onTopic ? "✓" : "✗"} {t(wrote.onTopic ? "levelTests.write.topic" : "levelTests.write.offTopic")}</li><li className="pt-1 text-[13px] opacity-80">{t("levelTests.write.note")}</li></ul>)}</>);
+  } else if (fail === "none") {
+    // The recogniser said it cannot work here after all (its service is off, or it lacks the language): no retry, no
+    // zero. The speaking is left out of the score, the same as where nothing could hear from the start.
+    body = (<>{lbl}<p lang={lang} dir="auto" className="font-reading mt-3 text-[24px] font-bold leading-snug tracking-[-0.01em]">{show(step.text)}</p>
+      <div role="status" className="sheet-card mt-5 rounded-2xl p-3.5 text-[14.5px] leading-snug text-muted">{t("levelTests.gate.nomic.body")}</div></>);
   } else {
     const left = TRIES - tries;
     body = (<>{lbl}<p className="mt-1 text-[14px] text-muted">{t("levelTests.speak.title")}</p>
@@ -451,6 +461,8 @@ function StepView({ step, lang, language, conv, show, pay, onNext, last }: ViewP
       <div className="sticky bottom-0 -mx-5 flex flex-col bg-background/95 px-5 pt-3 pb-[calc(.75rem+env(safe-area-inset-bottom))] backdrop-blur">
         {checked
           ? <button type="button" onClick={() => onNext(points)} className="btn-cyan h-14 rounded-full text-[16px] font-bold">{t(last ? "tests.finish" : "tests.next")}</button>
+          : isSpeak && fail === "none"
+            ? <button type="button" onClick={onLeaveOut} className="btn-cyan h-14 rounded-full text-[16px] font-bold">{t(lastWithoutSpeaking ? "tests.finish" : "tests.next")}</button>
           : isSpeak
             ? <button type="button" onClick={() => { stop.current?.(); award(0); }} className="h-14 text-[15px] font-semibold text-muted">{t("levelTests.speak.skip")}</button>
             : <button type="button" onClick={check} disabled={!canCheck} className="btn-cyan h-14 rounded-full text-[16px] font-bold disabled:opacity-40">{t("tests.check")}</button>}

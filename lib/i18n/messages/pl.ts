@@ -41,7 +41,7 @@ const pl: Catalog = {
   "tongues.pick": "Wybierz język, którego chcesz się uczyć.",
   "tongues.summary": "Język nauki: {learn}. Pomoc: {speak}.",
   "tongues.noteBooks": "Na razie książki są dostępne w języku: {en}. Zapisaliśmy Twój wybór ({learn}) i damy znać, gdy się pojawią.",
-  "tongues.noteWords": "Znaczenia słów ({speak}) już wkrótce. Na razie pokazują się w języku: {en}.",
+  "tongues.noteWords": "Gdy telefon potrafi je przetłumaczyć, znaczenia słów pokazują się w języku: {speak}; w przeciwnym razie w języku: {en}.",
   "tongues.later": "Możesz to zmienić w każdej chwili, a Twoje postępy zawsze zostają zapisane.",
   "languages.title": "Języki",
   "languages.sub": "Aplikacja jest w pierwszym języku. Książki w drugim.",
@@ -457,7 +457,7 @@ const pl: Catalog = {
   "me.shelves": "Ulubione półki",
   "me.shelvesSub": "Biblioteka otworzy się na tych półkach. Nic nie jest ukryte.",
   "me.account": "Konto",
-  "me.signInHint": "Zaloguj się, aby bezpiecznie zachować postępy i korzystać z nich na każdym urządzeniu.",
+  "me.signInHint": "Zaloguj się, aby plan Pro i znajomi zostali przypisani do Twojego konta.",
   "me.signOut": "Wyloguj się",
   "me.deleteAccount": "Usuń konto",
   "me.deleteData": "Usuń moje dane na tym urządzeniu",
@@ -733,10 +733,10 @@ const pl: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "Jesteś offline",
-  "offline.body": "To nie zostało pobrane, więc potrzebne jest połączenie. Wszystko, co zostało pobrane, nadal się otwiera.",
+  "offline.body": "Ta strona potrzebuje połączenia z internetem. Sprawdź Wi-Fi lub dane komórkowe i spróbuj ponownie.",
   "offline.back": "Wróć do aplikacji",
   "privacy.title": "Prywatność",
-  "privacy.p1": "{app} wymaga konta. Zapisuje na Twoim urządzeniu, w którym miejscu każdej książki jesteś, oraz Twoje ustawienia, a postępy i podane imię są też zapisywane na koncie, by przeszły z Tobą na inny telefon.",
+  "privacy.p1": "{app} wymaga konta. To, w którym miejscu każdej książki jesteś, Twoje słowa i ustawienia są zapisane na tym urządzeniu, a nie na naszych serwerach. Na koncie przechowujemy Twój adres e-mail, odpowiedzi udzielone na początku i informację, czy masz subskrypcję; jeśli korzystasz ze Znajomych, także Twoje imię, poziom i punkty, które widzą Twoi znajomi i Twoja liga. Konto możesz w każdej chwili usunąć w Profilu.",
   "privacy.p2": "To krótkie podsumowanie. Pełna polityka, po angielsku, znajduje się poniżej.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspirowane twórczością: {author}.",
@@ -851,7 +851,7 @@ const pl: Catalog = {
   "levelTests.gate.again": "Sprawdź ponownie",
   "levelTests.gate.skip": "Pomiń mówienie",
   "levelTests.gate.nomic.title": "To urządzenie cię nie słyszy",
-  "levelTests.gate.nomic.body": "Mówienia nie można ocenić na tym urządzeniu, więc te pytania pominięto. Otwórz ReadFluent w Chrome lub Safari, aby zrobić pełny test.",
+  "levelTests.gate.nomic.body": "Mówienia nie można tu ocenić, więc je pominięto: wynik liczy tylko pozostałe pytania i nadal możesz zaliczyć.",
   "levelTests.skippedSpeak": "Mówienie pominięto, więc nie wlicza się do wyniku.",
   "levelTests.result.passed": "Zaliczono test {n}!",
   "levelTests.result.notPassed": "Jeszcze nie. Potrzebujesz {pass}% punktów, aby zaliczyć. Spróbuj jeszcze raz.",
@@ -994,6 +994,12 @@ const pl: Catalog = {
   "account.useEmail": "Użyj e-maila",
   "recall.boost.upTo": "Do {xp} XP",
   "mine.emptyTitle": "Twoja półka jest gotowa",
+  "account.failedApple": "Logowanie przez Apple się nie udało. Spróbuj ponownie.",
+  "account.failedGoogle": "Logowanie przez Google się nie udało. Spróbuj ponownie.",
+  "account.agree": "Kontynuując, akceptujesz <terms>Warunki korzystania</terms> i <privacy>Politykę prywatności</privacy>.",
+  "levelTests.intro.bodyNoSpeak": "Czytanie, słówka, słuchanie i pisanie. Do zaliczenia potrzebujesz {pass}% punktów.",
+  "book.retold": "Nowa wersja książki, opowiedziana na nowo dla ReadFluent.",
+  "levelTests.intro.pass": "Do zaliczenia potrzebujesz {pass}% punktów.",
 };
 
 export default pl;

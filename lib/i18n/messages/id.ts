@@ -39,7 +39,7 @@ const indonesian: Catalog = {
   "tongues.pick": "Pilih bahasa yang ingin kamu pelajari.",
   "tongues.summary": "Membaca dalam bahasa {learn}, dengan bantuan bahasa {speak}.",
   "tongues.noteBooks": "Untuk saat ini buku-bukunya dalam bahasa {en}. Bahasa {learn} sudah kami simpan, dan kami akan mengabarimu saat tersedia.",
-  "tongues.noteWords": "Arti kata dalam bahasa {speak} segera hadir. Untuk sementara tampil dalam bahasa {en}.",
+  "tongues.noteWords": "Arti kata ditampilkan dalam bahasa {speak} jika ponselmu bisa menerjemahkannya, dan dalam bahasa {en} jika tidak.",
   "tongues.later": "Kamu bisa mengubahnya kapan saja, dan kemajuanmu selalu tersimpan.",
   "languages.title": "Bahasa",
   "languages.sub": "Aplikasi memakai bahasa pertama. Bukunya memakai bahasa kedua.",
@@ -454,7 +454,7 @@ const indonesian: Catalog = {
   "me.shelves": "Rak yang kamu suka",
   "me.shelvesSub": "Perpustakaan dibuka di rak ini. Tidak ada yang disembunyikan.",
   "me.account": "Akun",
-  "me.signInHint": "Masuk agar kemajuanmu aman dan bisa dipakai di semua perangkat.",
+  "me.signInHint": "Masuk agar paket Pro dan teman-temanmu tetap tersimpan di akunmu.",
   "me.signOut": "Keluar",
   "me.deleteAccount": "Hapus akun",
   "me.deleteData": "Hapus data saya di perangkat ini",
@@ -729,10 +729,10 @@ const indonesian: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "Kamu sedang offline",
-  "offline.body": "Ini belum diunduh, jadi perlu koneksi. Apa pun yang sudah kamu unduh tetap bisa dibuka.",
+  "offline.body": "Halaman ini butuh koneksi. Periksa Wi-Fi atau data selulermu, lalu coba lagi.",
   "offline.back": "Kembali ke aplikasi",
   "privacy.title": "Privasi",
-  "privacy.p1": "{app} memerlukan akun. Posisi Anda di setiap buku dan pengaturan Anda disimpan di perangkat Anda sendiri, dan kemajuan serta nama yang Anda berikan juga disimpan di akun agar ikut ke ponsel lain.",
+  "privacy.p1": "{app} memerlukan akun. Posisi Anda di setiap buku, kata, dan pengaturan Anda disimpan di perangkat ini, bukan di server kami. Akun Anda menyimpan alamat email, jawaban yang Anda berikan di awal, dan apakah Anda berlangganan; jika Anda memakai Teman, juga nama, level, dan poin Anda, yang dilihat teman dan liga Anda. Anda dapat menghapus akun kapan saja di Profil.",
   "privacy.p2": "Ini ringkasan singkat. Kebijakan lengkap, dalam bahasa Inggris, menyusul di bawah.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Terinspirasi dari {author}.",
@@ -847,7 +847,7 @@ const indonesian: Catalog = {
   "levelTests.gate.again": "Periksa lagi",
   "levelTests.gate.skip": "Lewati bagian berbicara",
   "levelTests.gate.nomic.title": "Perangkat ini tidak bisa mendengarmu",
-  "levelTests.gate.nomic.body": "Kemampuan bicara tidak bisa dinilai di perangkat ini, jadi soal-soal ini dihilangkan. Buka ReadFluent di Chrome atau Safari untuk tes lengkap.",
+  "levelTests.gate.nomic.body": "Kemampuan bicara tidak bisa dinilai di sini, jadi bagian ini dihilangkan: skormu hanya menghitung soal lainnya, dan kamu tetap bisa lulus.",
   "levelTests.skippedSpeak": "Bagian berbicara dilewati, jadi tidak masuk ke skormu.",
   "levelTests.result.passed": "Kamu lulus Tes {n}!",
   "levelTests.result.notPassed": "Belum. Kamu butuh {pass}% poin untuk lulus. Coba lagi.",
@@ -990,6 +990,12 @@ const indonesian: Catalog = {
   "account.useEmail": "Pakai email saja",
   "recall.boost.upTo": "Hingga {xp} XP",
   "mine.emptyTitle": "Rakmu sudah siap",
+  "account.failedApple": "Gagal masuk dengan Apple. Silakan coba lagi.",
+  "account.failedGoogle": "Gagal masuk dengan Google. Silakan coba lagi.",
+  "account.agree": "Dengan melanjutkan, kamu menyetujui <terms>Ketentuan Penggunaan</terms> dan <privacy>Kebijakan Privasi</privacy>.",
+  "levelTests.intro.bodyNoSpeak": "Membaca, kata, mendengarkan, dan menulis. Kamu butuh {pass}% poin untuk lulus.",
+  "book.retold": "Versi baru yang diceritakan ulang untuk ReadFluent.",
+  "levelTests.intro.pass": "Kamu butuh {pass}% poin untuk lulus.",
 };
 
 export default indonesian;

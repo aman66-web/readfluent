@@ -20,7 +20,7 @@ GLOBAL RULES (these beat everything else)
 - The people who made the app are "me". Facts below are the only facts.
 
 FACTS
-  App name: ReadFluent         Tagline: Real books. Your level.
+  App name: ReadFluent         Tagline: Stories at your level.
   Bundle ID (Apple) and package name (Android): com.amanmarwaha.ReadFluent
   Apple Services ID: com.amanmarwaha.ReadFluent.web
   Website: https://readfluent-eta.vercel.app
@@ -28,17 +28,23 @@ FACTS
   Terms URL: https://readfluent-eta.vercel.app/terms
   Support URL: https://readfluent-eta.vercel.app/support
   Supabase project ref: erilcjzbnomgxhjnurce  (URL https://erilcjzbnomgxhjnurce.supabase.co)
-  Category: Education (primary), Books (secondary on Apple). Free to download. Auto-renewing subscriptions are planned
-  (ReadFluent Monthly 5.99 GBP, ReadFluent Yearly 39.99 GBP; entitlement readfluent_pro) but not switched on in the app yet.
+  Category: Education (primary), Books (secondary on Apple). Free to download; a free account reads any 2 books.
+  ReadFluent Pro (auto-renewing, ReadFluent Monthly 5.99 GBP or ReadFluent Yearly 39.99 GBP, 7-day free trial for new
+  subscribers; entitlement readfluent_pro) opens every book. Never put a price, "free" or a trial in screenshots,
+  the app name, subtitle or promotional text (Apple 2.3.7); the description is the one place for them.
   Audience: teenagers and adults (13+). Not aimed at children.
-  What the app is: real books retold at a learner's level (A1 to C2), read one page at a time with a
-  picture and 1-3 sentences, tap any word for its meaning, flashcards, tests, level exams, and an AI
-  conversation partner called Pluto (signed-in readers only). The app interface is in 20 languages.
-  Data: an account is required to use the app (sign in with Apple, Google or an emailed code). Progress, words and
-  flashcards are kept on the phone and belong to the account. The account holds: email address, a user ID, and
-  friends/league scores. Messages typed into the Pluto chat are sent to
-  Anthropic (AI model provider). Books are translated on the phone itself; nothing is sent for that. No ads, no analytics,
-  no tracking, no data sold. Account deletion: in the app under Profile, or via the Support page.
+  What the app is: classic books retold at a learner's level (A1 to C2), plus original stories written for
+  learners, read one page at a time with a picture and 1-3 sentences; tap any word for its meaning, a short
+  quiz every 5 pages, flashcards, tests, level exams, friends and a weekly league. The app interface is in 20
+  languages. Talk (an AI conversation with Pluto) is built but switched OFF: do not mention it anywhere in a
+  listing, privacy answer or rating until the owner switches it on.
+  Data: an account is required to use the app (sign in with Apple or Google; the emailed code cannot be sent
+  until custom email is set up). Progress, words and flashcards are kept on the phone. The account holds: email
+  address, the name the provider shares, a user ID, the answers from the first run, Pro status, and the
+  friends/league profile (display name, username, level, streak, XP) that other readers see. Books are translated
+  on the phone itself; nothing is sent for that. The first-run answers are kept with the account for our own
+  statistics. No ads, no third-party analytics, no tracking, no data sold. Account deletion:
+  in the app under Profile (the round button at the top right of Home), or via the Support page.
 
 PHASE 1 - Apple Developer (developer.apple.com -> Account -> Certificates, Identifiers & Profiles)
 1. Identifiers -> "+" -> App IDs -> App. Description "ReadFluent", Bundle ID Explicit
@@ -71,56 +77,72 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
    STOP and tell me). SKU "readfluent-ios". User Access: Full Access. Create.
 7. App Information: Subtitle "Learn languages by reading". Category Primary: Education. Secondary: Books.
    Content rights: "Yes, it contains third-party content" and "Yes, I have the necessary rights" (the books
-   are our own retellings of public-domain works, and new stories "inspired by" titles).
+   are our own retellings of classic works, and original stories we wrote; one classic, The Richest Man in Babylon,
+   is still in copyright in the UK and EU until 2028: the owner decides whether to keep it).
    Privacy Policy URL as above.
 8. Pricing and Availability: Price Free (tier 0). Availability: all countries and regions I am allowed to
-   choose. Do not enable pre-orders.
+   choose EXCEPT China mainland (it needs a book-publishing permit; owner, 15 Oct 2026). Do not enable pre-orders.
 9. App Privacy: Privacy Policy URL as above. Answer the questionnaire from the DATA facts only:
-   Data collected: Contact Info -> Email Address (linked to user, used for App Functionality);
-   Identifiers -> User ID (linked, App Functionality); User Content -> Other User Content (the Pluto chat
-   messages and synced progress; linked, App Functionality; shared with a third-party processor).
-   Nothing is used for tracking. No third-party advertising. Declare Purchases (purchase history; linked to the user, App Functionality, not tracking), because the subscriptions
-   will be sold through Apple and Google and checked by RevenueCat.
+   Data collected: Contact Info -> Email Address and Name (linked to user, used for App Functionality);
+   Identifiers -> User ID (linked, App Functionality); Usage Data -> Product Interaction (level, streak and XP for
+   the league; linked, App Functionality); User Content -> Other User Content (display name and username other
+   readers see, and reports; linked, App Functionality); Other Data -> Other Data Types (the first-run answers:
+   why they learn, where they heard of us, languages, level, interests; linked, Analytics). Purchases -> Purchase
+   History (linked, App Functionality),
+   because the subscriptions are sold through Apple and checked by RevenueCat. Nothing is used for tracking. No
+   third-party advertising.
    Then compare your answers to https://readfluent-eta.vercel.app/privacy and tell me about any mismatch.
 10. Age Rating questionnaire: answer honestly for a reading app of classic literature retellings:
     violence, horror/fear themes, alcohol/tobacco references and mature themes = "Infrequent/Mild" (the
-    books include things like detective stories and gothic classics); everything else None; no gambling; no
-    unrestricted web access; no user-generated content; if it asks about AI chatbots say Yes (Pluto).
+    books include things like detective stories and gothic classics); health or wellness topics: Yes, and medical or
+    treatment information: Infrequent/Mild (there are health books); user-generated content: Yes (display names in
+    the league); messaging: No; everything else None; no gambling; no unrestricted web access; AI chatbot: No while
+    Talk is switched off (Yes once it is on). The minimum must be 13+.
     Report the resulting age rating to me.
 11. Version "1.0" page (iOS App): 
-    Promotional Text: Real books, retold at your level. Read one page at a time, tap any word for its meaning, and watch your language grow.
+    Promotional Text: Classic books and new stories, retold at your level. Read one short page at a time, tap any word to see what it means, and watch your language grow.
     Keywords (max 100 chars): language learning,reading,graded readers,books,stories,vocabulary,flashcards,CEFR,Spanish,French
     Support URL: https://readfluent-eta.vercel.app/support  Marketing URL: https://readfluent-eta.vercel.app
     Copyright: 2026 CLARIFO DEVELOPERS LTD
     Description (paste exactly):
-      ReadFluent teaches you a language the way readers learn: by reading real books.
+      ReadFluent teaches you a language by reading.
 
-      Pick your level, from A1 beginner to C2 advanced. Every book is retold for that level, one short page
-      at a time, with a picture and one to three sentences. Tap any word to see what it means, hear it, and
+      Pick your level, from A1 beginner to C2 advanced. Every book is retold for that level, one short page at a
+      time: a picture and one to three sentences. Tap any word to see what it means in that sentence, hear it, and
       save it to your flashcards.
 
       WHAT YOU GET
-      - Real books retold at your level: classics, mysteries, romance, science, self-help and more
-      - One page at a time, so it fits in a few minutes a day
+      - Classic books retold at your level, plus new stories written for learners: mysteries, romance, adventure,
+        science, self-help and more
+      - One short page at a time, so it fits into a few minutes a day
       - Tap any word for its meaning, and save it as a flashcard
+      - A short quiz every five pages on the words you have just met
       - Phrase decks, tests and level exams that show how far you have come
-      - Pluto, a friendly little companion who chats with you to practise (sign-in needed)
-      - XP, streaks and achievements to keep you going
+      - XP, streaks, achievements and a weekly league with friends
       - The whole app in 20 languages
-      - A free account is needed to read: sign in with Apple, Google or an emailed code in a few seconds
+      - Books open in the language you are learning using your iPhone's own translator (iOS 18 or later)
 
-      Choose the language you speak and the language you want to learn, and start reading today.
+      An account is needed to read: sign in with Apple or Google in a few seconds.
+
+      FREE AND PRO
+      ReadFluent is free to download, and a free account can read any 2 books in full. ReadFluent Pro opens every
+      book. It is an auto-renewing subscription, monthly or yearly, with a 7-day free trial for new subscribers.
+      Payment is charged to your Apple ID account when you confirm the purchase, or when the free trial ends. The
+      subscription renews automatically unless it is cancelled at least 24 hours before the end of the current
+      period, and your account is charged for the renewal within 24 hours before the period ends. You can manage or
+      cancel it at any time in your App Store account settings.
+
+      Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+      Our terms: https://readfluent-eta.vercel.app/terms
+      Privacy Policy: https://readfluent-eta.vercel.app/privacy
     What's New: First release.
-12. Screenshots: download these from the website and upload them to the iPhone 6.7-inch slot (and the
-    6.5-inch slot if it asks): https://readfluent-eta.vercel.app/store/ios-1-home.png ,
-    ios-2-library.png , ios-3-book.png , ios-4-reader.png , ios-5-recall.png (same folder /store/). If any
-    file is missing, tell me which and continue without it.
+12. Screenshots: the six taken on the Mac (1284x2778, the iPhone 6.5-inch slot, 1_home to 6_quiz, folder
+    ~/Desktop/ReadFluent-screenshots-v2; the owner picks the files). None may show a price, "free", a trial
+    or a Premium/subscription screen (Apple 2.3.7 rejected build 20261007 for that).
     App icon (1024x1024) is part of the app build, so skip it.
-13. App Review Information: Sign-in required: YES. No demo account (owner's decision, 6 Oct 2026): the reviewer signs in with
-    Sign in with Apple, which works with any Apple ID. Notes: "ReadFluent needs an account. On the first
-    screen tap 'Get started', answer the few questions, then at 'Sign in or sign up' tap 'Continue with Apple'
-    (Google and an emailed code are also offered). Account deletion: Profile, Delete account." Contact
-    name/phone/email: ask me. 
+13. App Review Information: Sign-in required: YES. Demo account: see APP-STORE-SUBMISSION.md (C.6); without
+    one the reviewer signs in with Sign in with Apple, which works with any Apple ID. Notes: paste the
+    "Notes for App Review" from APP-STORE-SUBMISSION.md. Contact name/phone/email: ask me. 
 14. STOP before "Add for Review" / Submit. Do not upload a build (there is none yet).
 
 PHASE 4 - Google Play Console (play.google.com/console). Create the app, fill everything, stop.
@@ -128,19 +150,20 @@ PHASE 4 - Google Play Console (play.google.com/console). Create the app, fill ev
     game), Free, then confirm the declarations ONLY after asking me (they are legal statements).
 16. Dashboard tasks (do each one that does not need a build):
     - Privacy policy URL as above.
-    - App access: reading, tests and flashcards need no sign-in; the Pluto chat (Talk) needs sign-in. Say so, and give the
-      review sign-in details if the owner has set a reviewer account (see RELEASE.md); otherwise ask me.
+    - App access: all functionality needs an account (sign in with Google). Give the review sign-in details if the
+      owner has set a reviewer account (see APP-STORE-SUBMISSION.md C.6); otherwise ask me.
     - Ads: No, the app contains no ads.
     - Content rating: category Reference/Education; answer the IARC questionnaire honestly (infrequent
-      mild violence and fear in classic books; no gambling; no user-generated content; has an AI chat
-      feature: say so if asked). Report the rating.
+      mild violence and fear in classic books; no gambling; readers can see each other's display names in
+      the league (user interaction: yes); no AI chat while Talk is switched off). Report the rating.
     - Target audience: 13+ only (not 5-12, not under 5, not "appeals to children").
-    - Data safety: collects Email address, User IDs and Other in-app messages/User content; data is
-      encrypted in transit; users can request deletion (URL https://readfluent-eta.vercel.app/support, and
-      in-app Profile); data is NOT sold; data shared with service providers only (Anthropic for the AI chat).
+    - Data safety: collects Name, Email address, User IDs, App interactions (level, streak, XP), Other
+      user-generated content (display name) and Other info (first-run answers, for analytics); data is encrypted in transit; users can request deletion (URL
+      https://readfluent-eta.vercel.app/support, and in-app Profile); data is NOT sold; not shared with third
+      parties (Supabase, Vercel and RevenueCat process it for us; add Anthropic only once Talk is switched on).
     - Government apps: No. Financial features: none. Health: none. News app: No.
 17. Store listing (Main store listing):
-    Short description (80 chars): Learn a language by reading real books retold at your level, one page at a time.
+    Short description (80 chars): Learn a language by reading stories retold at your level, one page at a time.
     Full description: use the same text as the App Store description above.
     App icon 512x512: https://readfluent-eta.vercel.app/store/icon-512.png
     Feature graphic 1024x500: https://readfluent-eta.vercel.app/store/feature-graphic.png

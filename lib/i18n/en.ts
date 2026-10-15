@@ -49,7 +49,7 @@ export const EN = {
   "tongues.pick": "Choose the language you want to learn.",
   "tongues.summary": "Reading {learn}, with help in {speak}.",
   "tongues.noteBooks": "The books are in {en} today. We've saved {learn} and will tell you when it arrives.",
-  "tongues.noteWords": "Word meanings in {speak} are coming. For now they appear in {en}.",
+  "tongues.noteWords": "Word meanings appear in {speak} when your phone can translate them, and in {en} when it can't.",
   "tongues.later": "You can change this any time, and your progress is always saved.",
   "languages.title": "Languages",
   "languages.sub": "The app is in the first language. The books are in the second.",
@@ -463,7 +463,7 @@ export const EN = {
   "me.shelves": "Shelves you like",
   "me.shelvesSub": "The library opens on these. Nothing is hidden.",
   "me.account": "Account",
-  "me.signInHint": "Sign in to keep your progress safe and use it on every device.",
+  "me.signInHint": "Sign in so your Pro plan and your friends stay with your account.",
   "me.signOut": "Sign out",
   "me.deleteAccount": "Delete account",
   "me.deleteData": "Delete my data on this device",
@@ -739,10 +739,10 @@ export const EN = {
 
   /* ── offline and privacy ── */
   "offline.title": "You're offline",
-  "offline.body": "This isn't downloaded, so it needs a connection. Anything you've downloaded still opens.",
+  "offline.body": "This page needs a connection. Check your Wi-Fi or mobile data, then try again.",
   "offline.back": "Back to the app",
   "privacy.title": "Privacy",
-  "privacy.p1": "{app} needs an account. It keeps where you are in each book, and your settings, on your own device, and your progress and the name you give are also kept in your account so they can follow you to another phone.",
+  "privacy.p1": "{app} needs an account. Where you are in each book, your words and settings are kept on this device, not on our servers. Your account holds your email address, the answers you gave when you started and whether you subscribe; if you use Friends, also your name, level and points, which your friends and league can see. You can delete your account at any time in Profile.",
   "privacy.p2": "This is a short summary. The full policy, in English, follows.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspired by {author}.",
@@ -857,7 +857,7 @@ export const EN = {
   "levelTests.gate.again": "Check again",
   "levelTests.gate.skip": "Skip speaking",
   "levelTests.gate.nomic.title": "This device can't hear you",
-  "levelTests.gate.nomic.body": "Speaking can't be marked on this device, so these questions are left out. Open ReadFluent in Chrome or Safari for the full test.",
+  "levelTests.gate.nomic.body": "Speaking can't be marked here, so it is left out: your score counts only the other questions, and you can still pass.",
   "levelTests.skippedSpeak": "Speaking was left out, so it is not in your score.",
   "levelTests.result.passed": "You passed Test {n}!",
   "levelTests.result.notPassed": "Not yet. You need {pass}% of the points to pass. Have another go.",
@@ -1000,6 +1000,12 @@ export const EN = {
   "account.useEmail": "Use email instead",
   "recall.boost.upTo": "Up to {xp} XP",
   "mine.emptyTitle": "Your shelf is ready",
+  "account.failedApple": "Signing in with Apple didn't work. Please try again.",
+  "account.failedGoogle": "Signing in with Google didn't work. Please try again.",
+  "account.agree": "By continuing, you agree to the <terms>Terms of Use</terms> and <privacy>Privacy Policy</privacy>.",
+  "levelTests.intro.bodyNoSpeak": "Reading, words, listening and writing. You need {pass}% of the points to pass.",
+  "book.retold": "A new retelling, written for ReadFluent.",
+  "levelTests.intro.pass": "You need {pass}% of the points to pass.",
 } as const;
 
 export type MessageId = keyof typeof EN;

@@ -39,7 +39,7 @@ const zh: Catalog = {
   "tongues.pick": "选择你想学的语言。",
   "tongues.summary": "阅读{learn}，用{speak}提供帮助。",
   "tongues.noteBooks": "目前书籍只有{en}版。我们已为你记下{learn}，上线后会通知你。",
-  "tongues.noteWords": "{speak}的单词释义即将推出，目前以{en}显示。",
+  "tongues.noteWords": "手机能翻译时，单词释义以{speak}显示；不能翻译时以{en}显示。",
   "tongues.later": "你随时可以更改，你的进度也会一直保存。",
   "languages.title": "语言",
   "languages.sub": "应用使用第一种语言，书籍使用第二种。",
@@ -454,7 +454,7 @@ const zh: Catalog = {
   "me.shelves": "你喜欢的书架",
   "me.shelvesSub": "书库会从这些书架打开。不会隐藏任何内容。",
   "me.account": "账号",
-  "me.signInHint": "登录后，你的进度会安全保存，并可在每台设备上使用。",
+  "me.signInHint": "登录后，你的 Pro 方案和好友会保存在你的账户里。",
   "me.signOut": "退出登录",
   "me.deleteAccount": "删除账号",
   "me.deleteData": "删除我在此设备上的数据",
@@ -729,10 +729,10 @@ const zh: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "你已离线",
-  "offline.body": "这部分还没有下载，需要联网才能打开。已下载的内容仍可正常打开。",
+  "offline.body": "此页面需要网络连接。请检查 Wi-Fi 或移动数据，然后再试一次。",
   "offline.back": "返回应用",
   "privacy.title": "隐私",
-  "privacy.p1": "{app} 需要账号。它会把你在每本书中的阅读位置和你的设置保存在你自己的设备上，你的进度和你填写的名字也会保存在账户中，以便跟随你到另一部手机。",
+  "privacy.p1": "{app} 需要账号。你在每本书中的阅读位置、单词和设置都保存在这台设备上，而不是我们的服务器上。你的账号保存你的电子邮箱、你开始时给出的回答以及你是否订阅；如果你使用好友功能，还会保存你的名字、等级和积分，你的好友和排行榜中的其他人可以看到。你可以随时在个人资料中删除账号。",
   "privacy.p2": "这是一份简短摘要。完整政策（英文）见下文。",
   "level.summary": "{lines}。{blurb}",
   "book.inspiredSentence": "灵感来自{author}。",
@@ -847,7 +847,7 @@ const zh: Catalog = {
   "levelTests.gate.again": "重新检查",
   "levelTests.gate.skip": "跳过口语",
   "levelTests.gate.nomic.title": "此设备听不到你的声音",
-  "levelTests.gate.nomic.body": "此设备无法为口语评分，因此这些题目已被省略。请在 Chrome 或 Safari 中打开 ReadFluent 完成完整测试。",
+  "levelTests.gate.nomic.body": "此处无法为口语评分，因此省略口语部分：你的得分只计算其他题目，仍然可以通过。",
   "levelTests.skippedSpeak": "口语已省略，因此不计入你的得分。",
   "levelTests.result.passed": "你通过了测试 {n}！",
   "levelTests.result.notPassed": "还没通过。需要获得 {pass}% 的分数才能通过。再试一次吧。",
@@ -990,6 +990,12 @@ const zh: Catalog = {
   "account.useEmail": "改用电子邮件",
   "recall.boost.upTo": "最多 {xp} XP",
   "mine.emptyTitle": "你的书架准备好了",
+  "account.failedApple": "使用 Apple 登录没有成功。请再试一次。",
+  "account.failedGoogle": "使用 Google 登录没有成功。请再试一次。",
+  "account.agree": "继续即表示你同意<terms>使用条款</terms>和<privacy>隐私政策</privacy>。",
+  "levelTests.intro.bodyNoSpeak": "阅读、词汇、听力和写作。需要获得 {pass}% 的分数才能通过。",
+  "book.retold": "为 ReadFluent 重新讲述的新版本。",
+  "levelTests.intro.pass": "需要获得 {pass}% 的分数才能通过。",
 };
 
 export default zh;

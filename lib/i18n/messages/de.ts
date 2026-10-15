@@ -39,7 +39,7 @@ const de: Catalog = {
   "tongues.pick": "Wähle die Sprache, die du lernen möchtest.",
   "tongues.summary": "Du liest auf {learn}, mit Hilfe auf {speak}.",
   "tongues.noteBooks": "Die Bücher gibt es heute auf {en}. Wir haben {learn} vorgemerkt und sagen dir Bescheid, sobald es da ist.",
-  "tongues.noteWords": "Wortbedeutungen auf {speak} kommen bald. Bis dahin erscheinen sie auf {en}.",
+  "tongues.noteWords": "Wortbedeutungen erscheinen auf {speak}, wenn dein Handy sie übersetzen kann, sonst auf {en}.",
   "tongues.later": "Du kannst das jederzeit ändern, und dein Fortschritt bleibt immer gespeichert.",
   "languages.title": "Sprachen",
   "languages.sub": "Die App ist in der ersten Sprache. Die Bücher sind in der zweiten.",
@@ -455,7 +455,7 @@ const de: Catalog = {
   "me.shelves": "Regale, die du magst",
   "me.shelvesSub": "Die Bibliothek öffnet sich mit diesen. Nichts wird ausgeblendet.",
   "me.account": "Konto",
-  "me.signInHint": "Melde dich an, um deinen Fortschritt sicher aufzubewahren und auf jedem Gerät zu nutzen.",
+  "me.signInHint": "Melde dich an, damit dein Pro-Abo und deine Freunde bei deinem Konto bleiben.",
   "me.signOut": "Abmelden",
   "me.deleteAccount": "Konto löschen",
   "me.deleteData": "Meine Daten auf diesem Gerät löschen",
@@ -731,10 +731,10 @@ const de: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "Du bist offline",
-  "offline.body": "Das ist nicht heruntergeladen und braucht deshalb eine Verbindung. Alles, was du heruntergeladen hast, lässt sich weiterhin öffnen.",
+  "offline.body": "Diese Seite braucht eine Verbindung. Prüfe dein WLAN oder deine mobilen Daten und versuche es dann noch einmal.",
   "offline.back": "Zurück zur App",
   "privacy.title": "Datenschutz",
-  "privacy.p1": "{app} braucht ein Konto. Auf deinem Gerät wird gespeichert, wo du in jedem Buch bist, und deine Einstellungen; dein Fortschritt und der angegebene Name werden auch in deinem Konto gespeichert, damit sie dir auf ein anderes Handy folgen.",
+  "privacy.p1": "{app} braucht ein Konto. Wo du in jedem Buch bist, deine Wörter und Einstellungen werden auf diesem Gerät gespeichert, nicht auf unseren Servern. In deinem Konto stehen deine E-Mail-Adresse, deine Antworten vom Anfang und ob du ein Abo hast; wenn du Freunde nutzt, auch dein Name, dein Level und deine Punkte, die deine Freunde und deine Liga sehen. Du kannst dein Konto jederzeit im Profil löschen.",
   "privacy.p2": "Das ist eine kurze Zusammenfassung. Die vollständige Richtlinie folgt auf Englisch.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspiriert von {author}.",
@@ -849,7 +849,7 @@ const de: Catalog = {
   "levelTests.gate.again": "Nochmal prüfen",
   "levelTests.gate.skip": "Sprechen überspringen",
   "levelTests.gate.nomic.title": "Dieses Gerät kann dich nicht hören",
-  "levelTests.gate.nomic.body": "Sprechen kann auf diesem Gerät nicht bewertet werden, deshalb entfallen diese Fragen. Öffne ReadFluent in Chrome oder Safari für den vollen Test.",
+  "levelTests.gate.nomic.body": "Sprechen kann hier nicht bewertet werden, deshalb entfällt es: Dein Ergebnis zählt nur die anderen Fragen, und du kannst trotzdem bestehen.",
   "levelTests.skippedSpeak": "Sprechen wurde ausgelassen und zählt nicht für dein Ergebnis.",
   "levelTests.result.passed": "Du hast Test {n} bestanden!",
   "levelTests.result.notPassed": "Noch nicht. Du brauchst {pass}% der Punkte zum Bestehen. Versuch es nochmal.",
@@ -992,6 +992,12 @@ const de: Catalog = {
   "account.useEmail": "Stattdessen E-Mail verwenden",
   "recall.boost.upTo": "Bis zu {xp} XP",
   "mine.emptyTitle": "Dein Regal ist bereit",
+  "account.failedApple": "Die Anmeldung mit Apple hat nicht geklappt. Versuch es bitte noch einmal.",
+  "account.failedGoogle": "Die Anmeldung mit Google hat nicht geklappt. Versuch es bitte noch einmal.",
+  "account.agree": "Wenn du fortfährst, stimmst du den <terms>Nutzungsbedingungen</terms> und der <privacy>Datenschutzerklärung</privacy> zu.",
+  "levelTests.intro.bodyNoSpeak": "Lesen, Wörter, Hören und Schreiben. Zum Bestehen brauchst du {pass}% der Punkte.",
+  "book.retold": "Eine neue Nacherzählung, geschrieben für ReadFluent.",
+  "levelTests.intro.pass": "Zum Bestehen brauchst du {pass}% der Punkte.",
 };
 
 export default de;

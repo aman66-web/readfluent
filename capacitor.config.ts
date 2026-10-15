@@ -64,6 +64,9 @@ const config: CapacitorConfig = {
     // system browser (lib/auth/native.ts), and Capacitor opens other sites'
     // links in Safari. Takes effect from the next native build.
     limitsNavigationsToAppBoundDomains: true,
+    // No web-style link preview when a link is pressed and held (the CSS in app/globals.css
+    // covers the page; this covers the WebView itself). From the next native build.
+    allowsLinkPreview: false,
   },
   plugins: {
     // Dark status-bar text from the first frame, before the page has loaded

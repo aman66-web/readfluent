@@ -78,7 +78,8 @@ export function buildAll(): GeneratedBook[] {
     out.push({
       slug: e.slug,
       title: e.title,
-      author: e.type === "classic" ? (e.author ?? "") : (e.inspiredBy ?? ""),
+      // A new story never ships the title it was inspired by: that stays in LIST.json for the writers.
+      author: e.type === "classic" ? (e.author ?? "") : "",
       kind: e.type === "classic" ? "classic" : "inspired",
       category: e.category,
       blurb: en.meta.blurb.trim(),

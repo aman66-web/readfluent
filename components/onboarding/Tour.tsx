@@ -174,7 +174,7 @@ function Levels() {
    with a few greetings in other languages around them. */
 const FAN: { cover: keyof typeof C; left: number; top: number; rot: number; w: number; z: number }[] = [
   { cover: "frank", left: 5, top: 46, rot: -13, w: 92, z: 1 },
-  { cover: "treasure", left: 19, top: 20, rot: -7, w: 104, z: 2 },
+  { cover: "earth", left: 19, top: 20, rot: -7, w: 104, z: 2 },
   { cover: "pride", left: 36, top: 0, rot: 0, w: 124, z: 5 },
   { cover: "alice", left: 57, top: 20, rot: 7, w: 104, z: 3 },
   { cover: "dracula", left: 71, top: 46, rot: 13, w: 92, z: 2 },

@@ -286,7 +286,7 @@ describe("the language pair", () => {
     expect(tonguesSummary(t, "en", "en", "es")).toBe("Reading Spanish, with help in English.");
     expect(tonguesSummary(t, "en", "en", null)).toBe("Choose the language you want to learn.");
     expect(tonguesNote(t, "en", "en", "es")).toBeNull(); // books in any language are translated on the phone
-    expect(tonguesNote(t, "en", "fr", "en")).toContain("French are coming");
+    expect(tonguesNote(t, "en", "fr", "en")).toBe("Word meanings appear in French when your phone can translate them, and in English when it can't."); // what is true now, no promise (App Review 2.1)
     expect(tonguesNote(t, "en", "en", "en")).toBeNull();
   });
 

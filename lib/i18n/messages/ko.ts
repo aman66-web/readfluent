@@ -39,7 +39,7 @@ const ko: Catalog = {
   "tongues.pick": "배우고 싶은 언어를 골라 주세요.",
   "tongues.summary": "{learn}를 읽고, 도움말은 {speak}로 볼게요.",
   "tongues.noteBooks": "지금은 책이 {en}로만 있어요. {learn}는 저장해 두었다가 준비되면 알려 드릴게요.",
-  "tongues.noteWords": "{speak}로 된 단어 뜻은 준비 중이에요. 지금은 {en}로 보여요.",
+  "tongues.noteWords": "휴대폰이 번역할 수 있으면 단어 뜻이 {speak}로, 그렇지 않으면 {en}로 보여요.",
   "tongues.later": "언제든 바꿀 수 있고, 진행 상황은 항상 저장돼요.",
   "languages.title": "언어",
   "languages.sub": "앱은 첫 번째 언어로, 책은 두 번째 언어로 보여요.",
@@ -455,7 +455,7 @@ const ko: Catalog = {
   "me.shelves": "좋아하는 서가",
   "me.shelvesSub": "서재는 이 서가부터 열려요. 숨겨지는 건 없어요.",
   "me.account": "계정",
-  "me.signInHint": "로그인하면 진행 상황을 안전하게 지키고 모든 기기에서 이어서 쓸 수 있어요.",
+  "me.signInHint": "로그인하면 Pro 플랜과 친구 목록이 계정에 남아 있어요.",
   "me.signOut": "로그아웃",
   "me.deleteAccount": "계정 삭제",
   "me.deleteData": "이 기기의 내 데이터 삭제",
@@ -731,10 +731,10 @@ const ko: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "오프라인이에요",
-  "offline.body": "아직 다운로드하지 않아서 연결이 필요해요. 다운로드한 것은 그대로 열려요.",
+  "offline.body": "이 페이지는 인터넷 연결이 필요해요. Wi-Fi나 모바일 데이터를 확인한 뒤 다시 시도해 주세요.",
   "offline.back": "앱으로 돌아가기",
   "privacy.title": "개인정보",
-  "privacy.p1": "{app}을 쓰려면 계정이 필요해요. 각 책에서 읽은 위치와 설정은 기기에 저장되고, 진행 상황과 입력한 이름은 계정에도 저장되어 다른 휴대폰에서도 이어져요.",
+  "privacy.p1": "{app}을 쓰려면 계정이 필요해요. 각 책에서 읽은 위치, 단어, 설정은 이 기기에 저장되고 저희 서버에는 저장되지 않아요. 계정에는 이메일 주소, 처음에 답한 내용, 구독 여부가 저장돼요. 친구 기능을 쓰면 이름, 레벨, 포인트도 저장되며 친구와 리그 참가자에게 보여요. 계정은 프로필에서 언제든 삭제할 수 있어요.",
   "privacy.p2": "짧은 요약이에요. 전체 정책은 영어로 아래에 이어져요.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "{author}에서 영감을 받았습니다.",
@@ -849,7 +849,7 @@ const ko: Catalog = {
   "levelTests.gate.again": "다시 확인",
   "levelTests.gate.skip": "말하기 건너뛰기",
   "levelTests.gate.nomic.title": "이 기기는 목소리를 들을 수 없어요",
-  "levelTests.gate.nomic.body": "이 기기에서는 말하기를 채점할 수 없어서 해당 문제가 제외돼요. 전체 테스트는 Chrome이나 Safari에서 ReadFluent를 열어 주세요.",
+  "levelTests.gate.nomic.body": "여기서는 말하기를 채점할 수 없어서 제외돼요. 점수는 나머지 문제로만 계산되고, 그래도 통과할 수 있어요.",
   "levelTests.skippedSpeak": "말하기는 제외되어 점수에 포함되지 않아요.",
   "levelTests.result.passed": "테스트 {n} 통과!",
   "levelTests.result.notPassed": "아직이에요. 통과하려면 점수의 {pass}%가 필요해요. 다시 도전해 보세요.",
@@ -992,6 +992,12 @@ const ko: Catalog = {
   "account.useEmail": "이메일로 계속하기",
   "recall.boost.upTo": "최대 {xp} XP",
   "mine.emptyTitle": "책장이 준비됐어요",
+  "account.failedApple": "Apple로 로그인하지 못했어요. 다시 시도해 주세요.",
+  "account.failedGoogle": "Google로 로그인하지 못했어요. 다시 시도해 주세요.",
+  "account.agree": "계속하면 <terms>이용 약관</terms> 및 <privacy>개인정보 처리방침</privacy>에 동의하는 것으로 봅니다.",
+  "levelTests.intro.bodyNoSpeak": "읽기, 단어, 듣기, 쓰기. 통과하려면 점수의 {pass}%가 필요해요.",
+  "book.retold": "ReadFluent를 위해 새롭게 다시 쓴 이야기예요.",
+  "levelTests.intro.pass": "통과하려면 점수의 {pass}%가 필요해요.",
 };
 
 export default ko;

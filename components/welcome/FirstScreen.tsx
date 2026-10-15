@@ -23,7 +23,8 @@ import { useLocale, useRich, useT } from "@/lib/i18n/react";
  *
  * The layout and timing come from the first screen of the app this one was
  * adapted from; the covers, colours and copy are ReadFluent's own. Every title is
- * a public-domain classic, so the real name goes on the real cover.
+ * a public-domain classic that is in the library (covers.tsx, WALL_SLUGS), so the
+ * real name goes on the real cover and every book on the way in is one you can open.
  */
 export function FirstScreen({ onStart, onSignIn, onBack }: { onStart: () => void; onSignIn?: () => void; /** Back to the choice of the app's language. */ onBack?: () => void }) {
   // "ReadFluent" → "Read" + "Fluent", one word, two colours.
@@ -87,9 +88,9 @@ export function FirstScreen({ onStart, onSignIn, onBack }: { onStart: () => void
 
 /** The wall, row by row: exported for the tests. */
 export const ROWS: readonly (readonly Cover[])[] = [
-  [C.pride, C.frank, C.hound, C.alice, C.verne],
-  [C.darwin, C.medit, C.machine, C.dracula, C.treasure],
-  [C.moby, C.great, C.women, C.war, C.walden],
+  [C.pride, C.frank, C.hound, C.alice, C.polo],
+  [C.darwin, C.medit, C.machine, C.dracula, C.earth],
+  [C.willows, C.dorian, C.women, C.war, C.walden],
 ];
 
 function Wall() {
@@ -116,7 +117,7 @@ function Wall() {
 /**
  * How each piece moves on a cover: every icon has something alive in it — the
  * book floats, the tortoise plods, the steam drifts, the lightning flickers, the
- * needle swings, the glows breathe. The motions are larger than a drawing's own
+ * needle swings, the boat bobs, the glows breathe. The motions are larger than a drawing's own
  * idle ones, because a cover is small and seen for a moment as it slides past.
  * Kept on an inner group, never on the one that places the piece (a transform
  * attribute and an animated transform on one element fight).
@@ -126,7 +127,7 @@ export const MOTION: Readonly<Record<string, string>> = {
   book: "fs-float", bolt: "fs-glow", lens: "fs-sway", cup: "fs-breathe", steam: "fs-drift",
   globe: "fs-float", orbit: "fs-turn", turtle: "fs-drive", lamp: "fs-breathe", hourglass: "fs-sway",
   moon: "fs-float", compass: "fs-breathe", needle: "fs-sway", whale: "fs-float", spout: "fs-glow",
-  waves: "fs-drift", frame: "fs-flutter", stack: "fs-breathe", pawn: "fs-float", leaf: "fs-sway",
+  waves: "fs-drift", frame: "fs-flutter", stack: "fs-breathe", pawn: "fs-float", leaf: "fs-sway", ship: "fs-float",
 };
 
 function CoverView({ cover }: { cover: Cover }) {

@@ -34,7 +34,7 @@ const BUILDING: readonly (readonly [number, number])[] = [
    time. Which book is next follows the percentage, so what is drawn is how far along it is.
    When it is done the shelf shines, and the book they will start with lights up. */
 
-const SHELF: readonly (keyof typeof C)[] = ["pride", "frank", "hound", "alice", "verne", "treasure", "machine", "dracula", "darwin", "great"];
+const SHELF: readonly (keyof typeof C)[] = ["pride", "frank", "hound", "alice", "polo", "earth", "machine", "dracula", "darwin", "dorian"];
 const PER_ROW = 5;
 /** The one book that is lit: where they will start. */
 const LIT = 2;

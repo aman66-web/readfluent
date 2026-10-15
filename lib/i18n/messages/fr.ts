@@ -39,7 +39,7 @@ const fr: Catalog = {
   "tongues.pick": "Choisis la langue que tu veux apprendre.",
   "tongues.summary": "Lecture en {learn}, avec de l'aide en {speak}.",
   "tongues.noteBooks": "Les livres sont en {en} pour l'instant. On a noté {learn} et on te préviendra dès que ce sera disponible.",
-  "tongues.noteWords": "Le sens des mots en {speak} arrive bientôt. Pour l'instant, il s'affiche en {en}.",
+  "tongues.noteWords": "Le sens des mots s'affiche en {speak} quand ton téléphone peut le traduire, sinon en {en}.",
   "tongues.later": "Tu peux changer cela à tout moment, et ta progression est toujours sauvegardée.",
   "languages.title": "Langues",
   "languages.sub": "L'appli est dans la première langue. Les livres sont dans la seconde.",
@@ -454,7 +454,7 @@ const fr: Catalog = {
   "me.shelves": "Étagères que tu aimes",
   "me.shelvesSub": "La bibliothèque s'ouvre sur celles-ci. Rien n'est caché.",
   "me.account": "Compte",
-  "me.signInHint": "Connecte-toi pour garder ta progression en sécurité et la retrouver sur tous tes appareils.",
+  "me.signInHint": "Connecte-toi pour que ton abonnement Pro et tes amis restent liés à ton compte.",
   "me.signOut": "Se déconnecter",
   "me.deleteAccount": "Supprimer le compte",
   "me.deleteData": "Supprimer mes données sur cet appareil",
@@ -730,10 +730,10 @@ const fr: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "Tu es hors ligne",
-  "offline.body": "Ce contenu n'est pas téléchargé, il faut donc une connexion. Tout ce que tu as téléchargé s'ouvre toujours.",
+  "offline.body": "Cette page a besoin d'une connexion. Vérifie ton Wi-Fi ou tes données mobiles, puis réessaie.",
   "offline.back": "Retour à l'appli",
   "privacy.title": "Confidentialité",
-  "privacy.p1": "{app} nécessite un compte. L'appli conserve sur votre appareil l'endroit où vous en êtes dans chaque livre, ainsi que vos réglages, et votre progression et le nom indiqué sont aussi conservés dans votre compte pour vous suivre sur un autre téléphone.",
+  "privacy.p1": "{app} nécessite un compte. L'endroit où vous en êtes dans chaque livre, vos mots et vos réglages sont conservés sur cet appareil, pas sur nos serveurs. Votre compte contient votre adresse e-mail, les réponses données au début et le fait que vous soyez abonné ou non ; si vous utilisez Amis, aussi votre nom, votre niveau et vos points, que voient vos amis et votre ligue. Vous pouvez supprimer votre compte à tout moment depuis le Profil.",
   "privacy.p2": "Voici un bref résumé. La politique complète, en anglais, suit.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspiré de {author}.",
@@ -848,7 +848,7 @@ const fr: Catalog = {
   "levelTests.gate.again": "Revérifier",
   "levelTests.gate.skip": "Passer l'oral",
   "levelTests.gate.nomic.title": "Cet appareil ne peut pas t'entendre",
-  "levelTests.gate.nomic.body": "L'oral ne peut pas être noté sur cet appareil, ces questions sont donc retirées. Ouvre ReadFluent dans Chrome ou Safari pour le test complet.",
+  "levelTests.gate.nomic.body": "L'oral ne peut pas être noté ici, il est donc retiré : ton score ne compte que les autres questions, et tu peux quand même réussir.",
   "levelTests.skippedSpeak": "L'oral a été laissé de côté : il ne compte pas dans ton score.",
   "levelTests.result.passed": "Tu as réussi le test {n} !",
   "levelTests.result.notPassed": "Pas encore. Il te faut {pass} % des points pour réussir. Réessaie.",
@@ -991,6 +991,12 @@ const fr: Catalog = {
   "account.useEmail": "Utiliser un e-mail",
   "recall.boost.upTo": "Jusqu'à {xp} XP",
   "mine.emptyTitle": "Votre étagère est prête",
+  "account.failedApple": "La connexion avec Apple a échoué. Réessaie.",
+  "account.failedGoogle": "La connexion avec Google a échoué. Réessaie.",
+  "account.agree": "En continuant, tu acceptes les <terms>Conditions d'utilisation</terms> et la <privacy>Politique de confidentialité</privacy>.",
+  "levelTests.intro.bodyNoSpeak": "Lecture, mots, écoute et écriture. Il te faut {pass} % des points pour réussir.",
+  "book.retold": "Une nouvelle version du livre, écrite pour ReadFluent.",
+  "levelTests.intro.pass": "Il te faut {pass} % des points pour réussir.",
 };
 
 export default fr;

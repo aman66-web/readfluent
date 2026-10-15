@@ -42,10 +42,14 @@ export const nativeCallbackUrl = (next: string): string =>
   `${NATIVE_SCHEME}://${NATIVE_CALLBACK_PATH}?next=${encodeURIComponent(safeNext(next))}`;
 
 /**
- * Opens the provider in the system browser and returns. The sign-in itself
- * finishes later, asynchronously, when the deep link below fires — there is
- * nothing to await it here, the same way there is nothing to await on the web
- * once `window.location` has been told to leave.
+ * Opens the provider in the system browser. A sign-in that works finishes in
+ * the deep link below, which takes the page to /auth/callback: the promise is
+ * then never settled, the same way there is nothing to await on the web once
+ * `window.location` has been told to leave, so the button stays busy until the
+ * page goes. One that does not is settled here, so the screen is never left
+ * saying "Signing in…" over a browser that has gone: "" (SIGN_IN_CANCELLED)
+ * when the browser is closed without signing in, or the reason when the
+ * provider sends somebody back with an error instead of a code.
  */
 export async function signInNative(provider: OAuthProvider, next: string): Promise<string | null> {
   if (provider === "apple" && appleSheetAvailable()) return signInWithAppleSheet();
@@ -59,15 +63,44 @@ export async function signInNative(provider: OAuthProvider, next: string): Promi
     // so it can be opened in Browser.open below.
     options: { redirectTo: nativeCallbackUrl(next), skipBrowserRedirect: true },
   });
-  if (error) return error.message;
+  if (error) return error.message || "no OAuth url";
   // Supabase always returns a url alongside a null error; a missing one is
   // not a state the caller's UI has anything sensible to show, so it is
-  // thrown rather than returned — components/welcome/SignIn.tsx already
+  // thrown rather than returned — components/onboarding/SignIn.tsx already
   // catches a throw here and shows the same translated failure message a
   // rejected promise from the web flow would.
   if (!data.url) throw new Error("no OAuth url");
-  await Browser.open({ url: data.url });
-  return null;
+  landing = false;
+  const ended = untilBrowserEnds();
+  try {
+    await Browser.open({ url: data.url });
+  } catch (e) {
+    settleBrowser?.(SIGN_IN_CANCELLED);
+    throw e;
+  }
+  return ended;
+}
+
+/** The browser sign-in under way, if any: how to say it ended without the page leaving (see signInNative). */
+let settleBrowser: ((result: string) => void) | null = null;
+/** A code has come back and the page is on its way to /auth/callback: the browser closing is then not the sign-in ending. */
+let landing = false;
+
+function untilBrowserEnds(): Promise<string> {
+  return new Promise<string>((resolve) => {
+    // Done on the iPhone, Back on Android. On Android the browser also "finishes" when the code brings the app
+    // back, so the deep link is given a moment to arrive first; a closing that is a sign-in landing says nothing.
+    const finished = Browser.addListener("browserFinished", () => {
+      window.setTimeout(() => { if (!landing) settle(SIGN_IN_CANCELLED); }, 800);
+    });
+    const settle = (result: string) => {
+      if (settleBrowser !== settle) return;
+      settleBrowser = null;
+      void finished.then((h) => h.remove()).catch(() => { /* already gone */ });
+      resolve(result);
+    };
+    settleBrowser = settle;
+  });
 }
 
 /**
@@ -101,7 +134,18 @@ export function listenForNativeAuth(): () => void {
     if (incoming.protocol !== `${NATIVE_SCHEME}:`) return; // Some other deep link.
     void Browser.close().catch(() => { /* already closed, or never opened */ });
     const code = incoming.searchParams.get("code");
-    if (!code) return; // The provider declined, or this was reopened some other way.
+    if (!code) {
+      // No code: the provider sent them back without signing them in (Supabase puts the error in the query, or in the
+      // fragment). Said on the sign-in screen that is waiting for it, if one is; "No, thanks" at the provider is not a failure.
+      const said = (k: string) => incoming.searchParams.get(k) ?? new URLSearchParams(incoming.hash.slice(1)).get(k);
+      const reason = [said("error"), said("error_description")].filter(Boolean).join(": ");
+      // A provider's own "no" (Google's access_denied, Apple's user_cancelled_authorize) is passed on by Supabase as it
+      // came, with no error_code; Supabase's own refusals carry one (a banned account is an access_denied too), and say so.
+      const declined = !reason || /cancel/i.test(reason) || (said("error") === "access_denied" && !said("error_code"));
+      settleBrowser?.(declined ? SIGN_IN_CANCELLED : reason);
+      return;
+    }
+    landing = true;
     const target = new URL("/auth/callback", window.location.origin);
     target.searchParams.set("code", code);
     target.searchParams.set("next", safeNext(incoming.searchParams.get("next")));
@@ -159,7 +203,7 @@ function withTimeout<T>(work: Promise<T>): Promise<T> {
  */
 async function signInWithAppleSheet(): Promise<string | null> {
   const raw = randomNonce();
-  let token: string;
+  let token: string | null | undefined;
   try {
     // Loaded here, not at the top: only an iPhone signing in with Apple needs it.
     const { SignInWithApple } = await import("@capacitor-community/apple-sign-in");
@@ -170,14 +214,35 @@ async function signInWithAppleSheet(): Promise<string | null> {
       nonce: await sha256Hex(raw),
     });
     token = res.response.identityToken;
-  } catch {
-    // Closing the sheet rejects too; there is no way to tell it apart from a
-    // failure that would have anything useful to say, so neither says anything.
-    return SIGN_IN_CANCELLED;
+  } catch (e) {
+    // Closing the sheet rejects too, with Apple's "error 1001": that one is not a failure and says nothing.
+    if (sheetCancelled(e)) return SIGN_IN_CANCELLED;
+    return `apple sheet: ${reasonOf(e)}`;
   }
+  if (!token) return "apple sheet: no identity token";
   const { error } = await withTimeout(createClient().auth.signInWithIdToken({ provider: "apple", token, nonce: raw }));
-  if (error) return error.message;
+  if (error) return `apple: ${error.message || "rejected"}`;
   return SIGNED_IN;
+}
+
+/**
+ * Whether a native sheet's rejection is somebody closing it (nothing to say) rather than it failing.
+ *
+ * Apple's plugin rejects with the error's text alone, which for a closed sheet is "The operation couldn't be
+ * completed. (com.apple.AuthenticationServices.AuthorizationError error 1001.)": the sentence is in the phone's
+ * language, the domain and the code are not. Google's plugin marks a closed sheet USER_CANCELLED.
+ */
+export function sheetCancelled(e: unknown): boolean {
+  const { code } = (typeof e === "object" && e !== null ? e : {}) as { code?: unknown };
+  if (code === "USER_CANCELLED") return true;
+  return /AuthorizationError\D{0,16}(?:1001|١٠٠١|۱۰۰۱)|cancel/i.test(reasonOf(e));
+}
+
+/** A rejection's own words, for the console: the screen says something plainer, in the reader's language. */
+function reasonOf(e: unknown): string {
+  if (typeof e === "string") return e || "unknown";
+  const message = typeof e === "object" && e !== null ? (e as { message?: unknown }).message : undefined;
+  return typeof message === "string" && message ? message : String(e);
 }
 
 /**
@@ -243,18 +308,19 @@ async function signInWithGoogleSheet(): Promise<string | null> {
     await readyGoogle();
     const res = await SocialLogin.login({ provider: "google", options: { scopes: ["email", "profile"], nonce: await sha256Hex(raw) } });
     token = res.provider === "google" && "idToken" in res.result ? res.result.idToken : null;
-  } catch {
-    // Closing the sheet rejects, like Apple's; nothing to say about it.
+  } catch (e) {
     googleReady = null;
-    return SIGN_IN_CANCELLED;
+    // Closing the sheet rejects, like Apple's; nothing to say about it. Anything else is a failure.
+    if (sheetCancelled(e)) return SIGN_IN_CANCELLED;
+    return `google sheet: ${reasonOf(e)}`;
   }
-  if (!token) return SIGN_IN_CANCELLED;
+  if (!token) return "google sheet: no id token";
   const { error } = await withTimeout(createClient().auth.signInWithIdToken({
     provider: "google",
     token,
     ...(tokenHasNonce(token) ? { nonce: raw } : {}),
   }));
-  if (error) return error.message;
+  if (error) return `google: ${error.message || "rejected"}`;
   return SIGNED_IN;
 }
 

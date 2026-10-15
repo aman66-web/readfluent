@@ -1,11 +1,11 @@
 "use client";
 
 import "./offer.css";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { Mascot } from "@/components/mascot/Mascot";
 import { Modal } from "@/components/Modal";
+import { OverLink } from "@/components/OverLink";
 import { APP_NAME } from "@/lib/brand";
 import { Capacitor } from "@capacitor/core";
 import { isNative } from "@/lib/auth/native";
@@ -220,8 +220,10 @@ export function Paywall({ onClose, rows: given = null, preview }: {
                       {busy === "restoring" ? t("paywall.working") : t("paywall.restore")}
                     </button>
                   )}
-                  <Link href="/terms" className="inline-flex min-h-9 items-center underline underline-offset-2">{t("me.terms")}</Link>
-                  <Link href="/privacy" className="inline-flex min-h-9 items-center underline underline-offset-2">{t("me.privacy")}</Link>
+                  {/* Opened over this screen, not under it: shown before the tour it sits over every page, so a page opened
+                      beneath it stayed hidden and the links looked dead. Closing the page lands back here, offer and all. */}
+                  <OverLink href="/terms" className="inline-flex min-h-9 items-center underline underline-offset-2">{t("me.terms")}</OverLink>
+                  <OverLink href="/privacy" className="inline-flex min-h-9 items-center underline underline-offset-2">{t("me.privacy")}</OverLink>
                 </p>
               </div>
 

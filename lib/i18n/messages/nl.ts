@@ -41,7 +41,7 @@ const nl: Catalog = {
   "tongues.pick": "Kies de taal die je wilt leren.",
   "tongues.summary": "Lezen in het {learn}, met hulp in het {speak}.",
   "tongues.noteBooks": "De boeken zijn nu in het {en}. We hebben {learn} genoteerd en laten het je weten zodra het er is.",
-  "tongues.noteWords": "Woordbetekenissen in het {speak} komen eraan. Voorlopig staan ze in het {en}.",
+  "tongues.noteWords": "Woordbetekenissen staan in het {speak} als je telefoon ze kan vertalen, en anders in het {en}.",
   "tongues.later": "Je kunt dit altijd wijzigen, en je voortgang blijft altijd bewaard.",
   "languages.title": "Talen",
   "languages.sub": "De app is in de eerste taal. De boeken zijn in de tweede.",
@@ -457,7 +457,7 @@ const nl: Catalog = {
   "me.shelves": "Planken die je leuk vindt",
   "me.shelvesSub": "De bibliotheek opent hierop. Er wordt niets verborgen.",
   "me.account": "Account",
-  "me.signInHint": "Log in om je voortgang veilig te bewaren en op elk apparaat te gebruiken.",
+  "me.signInHint": "Log in, dan blijven je Pro-abonnement en je vrienden bij je account.",
   "me.signOut": "Uitloggen",
   "me.deleteAccount": "Account verwijderen",
   "me.deleteData": "Mijn gegevens op dit apparaat verwijderen",
@@ -733,10 +733,10 @@ const nl: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "Je bent offline",
-  "offline.body": "Dit is niet gedownload en heeft dus een verbinding nodig. Alles wat je hebt gedownload, opent nog steeds.",
+  "offline.body": "Deze pagina heeft een verbinding nodig. Controleer je wifi of mobiele data en probeer het opnieuw.",
   "offline.back": "Terug naar de app",
   "privacy.title": "Privacy",
-  "privacy.p1": "{app} heeft een account nodig. Het bewaart op je eigen apparaat waar je in elk boek bent en je instellingen, en je voortgang en de naam die je opgeeft worden ook in je account bewaard, zodat ze met je meegaan naar een andere telefoon.",
+  "privacy.p1": "{app} heeft een account nodig. Waar je in elk boek bent, je woorden en instellingen worden op dit apparaat bewaard, niet op onze servers. In je account staan je e-mailadres, de antwoorden die je aan het begin gaf en of je een abonnement hebt; als je Vrienden gebruikt, ook je naam, niveau en punten, die je vrienden en je competitie zien. Je kunt je account altijd verwijderen via Profiel.",
   "privacy.p2": "Dit is een korte samenvatting. Het volledige beleid volgt, in het Engels.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Geïnspireerd door {author}.",
@@ -851,7 +851,7 @@ const nl: Catalog = {
   "levelTests.gate.again": "Opnieuw controleren",
   "levelTests.gate.skip": "Spreken overslaan",
   "levelTests.gate.nomic.title": "Dit apparaat kan je niet horen",
-  "levelTests.gate.nomic.body": "Spreken kan op dit apparaat niet worden beoordeeld, dus deze vragen vallen weg. Open ReadFluent in Chrome of Safari voor de volledige toets.",
+  "levelTests.gate.nomic.body": "Spreken kan hier niet worden beoordeeld, dus het valt weg: je score telt alleen de andere vragen, en je kunt nog steeds slagen.",
   "levelTests.skippedSpeak": "Spreken is weggelaten en telt dus niet mee in je score.",
   "levelTests.result.passed": "Je hebt toets {n} gehaald!",
   "levelTests.result.notPassed": "Nog niet. Je hebt {pass}% van de punten nodig om te slagen. Probeer het nog eens.",
@@ -994,6 +994,12 @@ const nl: Catalog = {
   "account.useEmail": "E-mail gebruiken",
   "recall.boost.upTo": "Tot {xp} XP",
   "mine.emptyTitle": "Je boekenplank staat klaar",
+  "account.failedApple": "Inloggen met Apple is niet gelukt. Probeer het opnieuw.",
+  "account.failedGoogle": "Inloggen met Google is niet gelukt. Probeer het opnieuw.",
+  "account.agree": "Door verder te gaan, ga je akkoord met de <terms>gebruiksvoorwaarden</terms> en het <privacy>privacybeleid</privacy>.",
+  "levelTests.intro.bodyNoSpeak": "Lezen, woorden, luisteren en schrijven. Je hebt {pass}% van de punten nodig om te slagen.",
+  "book.retold": "Een nieuwe hervertelling, geschreven voor ReadFluent.",
+  "levelTests.intro.pass": "Je hebt {pass}% van de punten nodig om te slagen.",
 };
 
 export default nl;

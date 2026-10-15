@@ -5,6 +5,7 @@ import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "
 import { Mascot } from "@/components/mascot/Mascot";
 import { SignIn } from "@/components/onboarding/SignIn";
 import "../../app/welcome/welcome.css";
+import { onNativeShell } from "@/lib/auth/shell";
 import { MASCOT_NAME, SUPPORT_EMAIL, storageKey } from "@/lib/brand";
 import { useT } from "@/lib/i18n/react";
 import { LANGUAGES } from "@/lib/onboarding/languages";
@@ -25,7 +26,8 @@ interface Recognition {
   start(): void; stop(): void;
 }
 const recognitionCtor = (): (new () => Recognition) | null => {
-  if (typeof window === "undefined") return null;
+  // Not inside the phone app: its web view has no working recogniser (lib/reading/listen.ts canListen), so no mic button.
+  if (typeof window === "undefined" || onNativeShell()) return null;
   const w = window as unknown as { SpeechRecognition?: new () => Recognition; webkitSpeechRecognition?: new () => Recognition };
   return w.SpeechRecognition ?? w.webkitSpeechRecognition ?? null;
 };

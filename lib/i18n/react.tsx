@@ -2,7 +2,7 @@
 
 import { Fragment, useCallback, useEffect, useMemo, useSyncExternalStore, type ReactNode } from "react";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
-import { DEFAULT_LANGUAGE, type LanguageCode } from "@/lib/onboarding/languages";
+import { DEFAULT_LANGUAGE, isLanguage, type LanguageCode } from "@/lib/onboarding/languages";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { bookMetaFor, bookMetaVersion, loadBookMeta, subscribeBookMeta } from "./book-meta";
 import { EN, catalogFor, catalogVersion, isRtl, loadCatalog, subscribeCatalogs, translate, type MessageId } from "./index";
@@ -20,10 +20,16 @@ const readAnswersRaw = () => readRaw(ANSWERS_KEY);
 // The server has no device storage: "" is what the first client render shows too.
 const serverRaw = () => "";
 
-/** The language the reader speaks: the app's language. English until they choose. */
+// A page the app opens in the phone's browser sheet (components/OverLink.tsx) has no access to the app's storage, so
+// the link carries the language as ?hl=<code>. Read once per page; the address does not change under a legal page.
+const noSubscribe = () => () => {};
+const readHl = () => new URLSearchParams(window.location.search).get("hl") ?? "";
+
+/** The language the reader speaks: the app's language. English until they choose (or the ?hl= the app sent). */
 export function useLocale(): LanguageCode {
   const raw = useSyncExternalStore(subscribeAnswers, readAnswersRaw, serverRaw);
-  return useMemo(() => (raw ? parseAnswers(raw).language : DEFAULT_LANGUAGE), [raw]);
+  const hl = useSyncExternalStore(noSubscribe, readHl, serverRaw);
+  return useMemo(() => (raw ? parseAnswers(raw).language : isLanguage(hl) ? hl : DEFAULT_LANGUAGE), [raw, hl]);
 }
 
 export type T = (id: MessageId, vars?: Record<string, string | number>) => string;

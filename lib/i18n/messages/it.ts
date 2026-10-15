@@ -39,7 +39,7 @@ const it: Catalog = {
   "tongues.pick": "Scegli la lingua che vuoi imparare.",
   "tongues.summary": "Lettura in {learn}, con aiuto in {speak}.",
   "tongues.noteBooks": "Oggi i libri sono in {en}. Abbiamo salvato la tua scelta ({learn}) e ti avviseremo quando arriverà.",
-  "tongues.noteWords": "I significati delle parole in {speak} stanno arrivando. Per ora compaiono in {en}.",
+  "tongues.noteWords": "I significati delle parole compaiono in {speak} quando il telefono può tradurli, altrimenti in {en}.",
   "tongues.later": "Puoi cambiarlo quando vuoi, e i tuoi progressi sono sempre salvati.",
   "languages.title": "Lingue",
   "languages.sub": "L'app è nella prima lingua. I libri sono nella seconda.",
@@ -454,7 +454,7 @@ const it: Catalog = {
   "me.shelves": "Scaffali che ti piacciono",
   "me.shelvesSub": "La biblioteca si apre su questi. Nulla viene nascosto.",
   "me.account": "Account",
-  "me.signInHint": "Accedi per tenere al sicuro i tuoi progressi e usarli su ogni dispositivo.",
+  "me.signInHint": "Accedi perché il tuo piano Pro e i tuoi amici restino legati al tuo account.",
   "me.signOut": "Esci",
   "me.deleteAccount": "Elimina account",
   "me.deleteData": "Elimina i miei dati su questo dispositivo",
@@ -730,10 +730,10 @@ const it: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "Sei offline",
-  "offline.body": "Questo contenuto non è scaricato, quindi serve una connessione. Tutto ciò che hai scaricato si apre ancora.",
+  "offline.body": "Questa pagina ha bisogno di una connessione. Controlla il Wi-Fi o i dati mobili, poi riprova.",
   "offline.back": "Torna all'app",
   "privacy.title": "Privacy",
-  "privacy.p1": "{app} richiede un account. Conserva sul tuo dispositivo a che punto sei in ogni libro e le tue impostazioni, e i tuoi progressi e il nome che indichi sono salvati anche nel tuo account, così ti seguono su un altro telefono.",
+  "privacy.p1": "{app} richiede un account. A che punto sei in ogni libro, le tue parole e le impostazioni restano su questo dispositivo, non sui nostri server. Il tuo account contiene il tuo indirizzo email, le risposte date all'inizio e se hai un abbonamento; se usi Amici, anche il tuo nome, il livello e i punti, che vedono i tuoi amici e la tua lega. Puoi eliminare l'account quando vuoi dal Profilo.",
   "privacy.p2": "Questo è un breve riepilogo. Segue l'informativa completa, in inglese.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Ispirato a {author}.",
@@ -848,7 +848,7 @@ const it: Catalog = {
   "levelTests.gate.again": "Controlla di nuovo",
   "levelTests.gate.skip": "Salta il parlato",
   "levelTests.gate.nomic.title": "Questo dispositivo non può sentirti",
-  "levelTests.gate.nomic.body": "Il parlato non può essere valutato su questo dispositivo, quindi queste domande vengono escluse. Apri ReadFluent in Chrome o Safari per il test completo.",
+  "levelTests.gate.nomic.body": "Il parlato non può essere valutato qui, quindi viene escluso: il punteggio conta solo le altre domande e puoi comunque superare il test.",
   "levelTests.skippedSpeak": "Il parlato è stato escluso, quindi non rientra nel tuo punteggio.",
   "levelTests.result.passed": "Hai superato il Test {n}!",
   "levelTests.result.notPassed": "Non ancora. Ti serve il {pass}% dei punti per superarlo. Riprova.",
@@ -991,6 +991,12 @@ const it: Catalog = {
   "account.useEmail": "Usa l'email",
   "recall.boost.upTo": "Fino a {xp} XP",
   "mine.emptyTitle": "Il tuo scaffale è pronto",
+  "account.failedApple": "Accesso con Apple non riuscito. Riprova.",
+  "account.failedGoogle": "Accesso con Google non riuscito. Riprova.",
+  "account.agree": "Continuando, accetti i <terms>Termini di utilizzo</terms> e l'<privacy>Informativa sulla privacy</privacy>.",
+  "levelTests.intro.bodyNoSpeak": "Lettura, parole, ascolto e scrittura. Ti serve il {pass}% dei punti per superarlo.",
+  "book.retold": "Una nuova versione del libro, scritta per ReadFluent.",
+  "levelTests.intro.pass": "Ti serve il {pass}% dei punti per superare il test.",
 };
 
 export default it;

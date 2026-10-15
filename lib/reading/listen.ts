@@ -1,7 +1,14 @@
+import { onNativeShell } from "@/lib/auth/shell";
+
 /**
- * Hearing the reader through the phone's own speech recognition (Chrome and Safari; the browser's, not ours: nothing
- * is recorded or sent by the app, and no model of ours is called). Where the device has none, `canListen` is false and the
- * screens say so rather than pretend.
+ * Hearing the reader through the browser's own speech recognition (desktop Chrome and Safari, Safari on the iPhone; the
+ * browser's, not ours: nothing is recorded or sent by the app, and no model of ours is called). Where there is none,
+ * `canListen` is false and the speaking questions are left out, not shown broken (components/tests/LevelTestRunner.tsx).
+ *
+ * Inside the iPhone and Android apps there is none that works: an app's web view (WKWebView on the iPhone, WebView on
+ * Android) gives a page no working speech recognition, even where the name is there. So in the app `canListen` is false
+ * whatever the web view claims, and the app never offers a microphone that cannot hear (App Review, 15 Oct 2026). The
+ * check (lib/auth/shell.ts) is the same answer as lib/auth/native.ts `isNative`, without loading Capacitor here.
  */
 interface Recognition {
   lang: string; interimResults: boolean; continuous: boolean; maxAlternatives?: number;
@@ -17,13 +24,27 @@ const ctor = (): Ctor | null => {
   return w.SpeechRecognition ?? w.webkitSpeechRecognition ?? null;
 };
 
-export const canListen = (): boolean => ctor() !== null;
+export const canListen = (): boolean => !onNativeShell() && ctor() !== null;
 
+/**
+ * Why nothing was heard. "none": speech cannot be recognised here at all (no recogniser, its service is switched off,
+ * or it does not know the language), so asking again will not help and the speaking part is left out. "denied": the
+ * microphone was refused.
+ */
 export type ListenFail = "denied" | "none" | "network" | "silent" | "other";
+
+/** A recogniser's error, as a reason. "service-not-allowed" is the service being off (Siri and Dictation off on the iPhone, or a browser that has none), not the microphone being refused. */
+export function listenFail(error: string | undefined): ListenFail {
+  if (error === "not-allowed") return "denied";
+  if (error === "service-not-allowed" || error === "language-not-supported") return "none";
+  if (error === "network") return "network";
+  if (error === "no-speech" || error === "aborted") return "silent";
+  return "other";
+}
 
 /** Listens once for a sentence in `lang`. `done` hears what was said (several guesses, best first) or why nothing was. Returns a stop function. */
 export function listenOnce(lang: string, done: (heard: string[] | null, fail?: ListenFail) => void): () => void {
-  const C = ctor();
+  const C = canListen() ? ctor() : null;
   if (!C) { done(null, "none"); return () => {}; }
   const r = new C();
   r.lang = lang;
@@ -35,7 +56,7 @@ export function listenOnce(lang: string, done: (heard: string[] | null, fail?: L
   let finished = false;
   const finish = () => { if (finished) return; finished = true; done(said.length ? said : null, said.length ? undefined : (failed ?? "silent")); };
   r.onresult = (e) => { said = Array.from(e.results[0] ?? []).map((a) => a.transcript).filter(Boolean); };
-  r.onerror = (e) => { failed = e.error === "not-allowed" || e.error === "service-not-allowed" ? "denied" : e.error === "network" ? "network" : e.error === "no-speech" || e.error === "aborted" ? "silent" : "other"; };
+  r.onerror = (e) => { failed = listenFail(e.error); };
   r.onend = finish;
   try { r.start(); } catch { finished = true; done(null, "other"); return () => {}; }
   return () => { try { r.stop(); } catch { /* already over */ } };

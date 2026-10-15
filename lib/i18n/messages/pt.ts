@@ -39,7 +39,7 @@ const pt: Catalog = {
   "tongues.pick": "Escolha o idioma que você quer aprender.",
   "tongues.summary": "Lendo em {learn}, com ajuda em {speak}.",
   "tongues.noteBooks": "Hoje os livros estão em {en}. Guardamos sua escolha ({learn}) e avisaremos quando ele chegar.",
-  "tongues.noteWords": "Os significados das palavras em {speak} estão a caminho. Por enquanto, aparecem em {en}.",
+  "tongues.noteWords": "Os significados das palavras aparecem em {speak} quando seu celular consegue traduzi-los e, quando não consegue, em {en}.",
   "tongues.later": "Você pode mudar isso quando quiser, e seu progresso fica sempre salvo.",
   "languages.title": "Idiomas",
   "languages.sub": "O app está no primeiro idioma. Os livros, no segundo.",
@@ -454,7 +454,7 @@ const pt: Catalog = {
   "me.shelves": "Estantes de que você gosta",
   "me.shelvesSub": "A biblioteca abre por elas. Nada fica escondido.",
   "me.account": "Conta",
-  "me.signInHint": "Entre para manter seu progresso seguro e usá-lo em todos os seus dispositivos.",
+  "me.signInHint": "Entre na sua conta para que seu plano Pro e seus amigos fiquem nela.",
   "me.signOut": "Sair",
   "me.deleteAccount": "Excluir conta",
   "me.deleteData": "Excluir meus dados neste dispositivo",
@@ -730,10 +730,10 @@ const pt: Catalog = {
 
   /* ── offline and privacy ── */
   "offline.title": "Você está offline",
-  "offline.body": "Isto não foi baixado, então precisa de conexão. Tudo o que você baixou continua abrindo.",
+  "offline.body": "Esta página precisa de conexão. Confira seu Wi-Fi ou seus dados móveis e tente de novo.",
   "offline.back": "Voltar ao app",
   "privacy.title": "Privacidade",
-  "privacy.p1": "O {app} precisa de uma conta. Ele guarda no seu dispositivo onde você está em cada livro e as suas configurações, e o seu progresso e o nome informado também ficam na sua conta para acompanhá-lo em outro celular.",
+  "privacy.p1": "O {app} precisa de uma conta. Onde você está em cada livro, suas palavras e configurações ficam neste dispositivo, não nos nossos servidores. Sua conta guarda seu e-mail, as respostas que você deu no início e se você tem uma assinatura; se você usa Amigos, também seu nome, nível e pontos, que seus amigos e sua liga veem. Você pode excluir sua conta a qualquer momento no Perfil.",
   "privacy.p2": "Este é um resumo curto. A política completa, em inglês, vem a seguir.",
   "level.summary": "{lines}. {blurb}",
   "book.inspiredSentence": "Inspirado em {author}.",
@@ -848,7 +848,7 @@ const pt: Catalog = {
   "levelTests.gate.again": "Verificar de novo",
   "levelTests.gate.skip": "Pular a fala",
   "levelTests.gate.nomic.title": "Este aparelho não consegue ouvir você",
-  "levelTests.gate.nomic.body": "A fala não pode ser avaliada neste aparelho, então essas perguntas ficam de fora. Abra o ReadFluent no Chrome ou no Safari para fazer o teste completo.",
+  "levelTests.gate.nomic.body": "A fala não pode ser avaliada aqui, então fica de fora: sua pontuação conta só as outras perguntas, e você ainda pode passar.",
   "levelTests.skippedSpeak": "A fala ficou de fora, então não entra na sua pontuação.",
   "levelTests.result.passed": "Você passou no Teste {n}!",
   "levelTests.result.notPassed": "Ainda não. Você precisa de {pass}% dos pontos para passar. Tente de novo.",
@@ -991,6 +991,12 @@ const pt: Catalog = {
   "account.useEmail": "Usar e-mail",
   "recall.boost.upTo": "Até {xp} XP",
   "mine.emptyTitle": "Sua estante está pronta",
+  "account.failedApple": "Não foi possível entrar com a Apple. Tente de novo.",
+  "account.failedGoogle": "Não foi possível entrar com o Google. Tente de novo.",
+  "account.agree": "Ao continuar, você concorda com os <terms>Termos de uso</terms> e a <privacy>Política de Privacidade</privacy>.",
+  "levelTests.intro.bodyNoSpeak": "Leitura, palavras, escuta e escrita. Você precisa de {pass}% dos pontos para passar.",
+  "book.retold": "Uma nova versão do livro, recontada para o ReadFluent.",
+  "levelTests.intro.pass": "Você precisa de {pass}% dos pontos para passar.",
 };
 
 export default pt;
