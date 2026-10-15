@@ -575,7 +575,7 @@ const vi: Catalog = {
   "level.C1C2.lines": "Ba câu mỗi trang",
   "book.pagesTitle": "Bao nhiêu trang",
   "book.soon": "Sắp có",
-  "book.langNotYet": "Bản {language} của cuốn sách này sắp có. Hiện tại sách mở bằng tiếng Anh.",
+  "book.langNotYet": "Trên thiết bị này, sách mở bằng tiếng Anh thay vì {language}.",
   "book.langReady": "Đọc bằng {language}",
   "book.moreLengthsSoon": "Bản 100 và 200 trang sắp có.",
 
@@ -970,6 +970,8 @@ const vi: Catalog = {
   "book.notMedical": "Cuốn sách này cung cấp thông tin chung và không phải là lời khuyên y tế. Hãy hỏi bác sĩ về sức khỏe của bạn.",
   "paywall.pending": "Đã nhận thanh toán. Nếu Pro chưa mở khóa sau một phút, hãy chạm Khôi phục giao dịch mua.",
   "account.useEmail": "Dùng email",
+  "recall.boost.upTo": "Tới {xp} XP",
+  "mine.emptyTitle": "Kệ sách của bạn đã sẵn sàng",
 };
 
 export default vi;

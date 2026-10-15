@@ -600,7 +600,7 @@ export const EN = {
   "level.C1C2.lines": "Three sentences a page",
   "book.pagesTitle": "How many pages",
   "book.soon": "Soon",
-  "book.langNotYet": "The {language} edition of this book is coming soon. For now it opens in English.",
+  "book.langNotYet": "On this device, this book opens in English rather than {language}.",
   "book.langReady": "Reads in {language}",
   "book.moreLengthsSoon": "The 100 and 200 page editions of this book are coming soon.",
 
@@ -998,6 +998,8 @@ export const EN = {
   "book.notMedical": "This book is general information and is not medical advice. Talk to a doctor about your own health.",
   "paywall.pending": "Payment received. If Pro has not unlocked in a minute, tap Restore purchases.",
   "account.useEmail": "Use email instead",
+  "recall.boost.upTo": "Up to {xp} XP",
+  "mine.emptyTitle": "Your shelf is ready",
 } as const;
 
 export type MessageId = keyof typeof EN;

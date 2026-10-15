@@ -592,7 +592,7 @@ const de: Catalog = {
   "level.C1C2.lines": "Drei Sätze pro Seite",
   "book.pagesTitle": "Wie viele Seiten",
   "book.soon": "Bald",
-  "book.langNotYet": "Die Ausgabe dieses Buchs auf {language} kommt bald. Vorerst öffnet es sich auf Englisch.",
+  "book.langNotYet": "Auf diesem Gerät öffnet sich dieses Buch auf Englisch statt auf {language}.",
   "book.langReady": "Zum Lesen auf {language}",
   "book.moreLengthsSoon": "Die Ausgaben mit 100 und 200 Seiten kommen bald.",
 
@@ -990,6 +990,8 @@ const de: Catalog = {
   "book.notMedical": "Dieses Buch bietet allgemeine Informationen und ist keine medizinische Beratung. Sprich über deine Gesundheit mit einer Ärztin oder einem Arzt.",
   "paywall.pending": "Zahlung erhalten. Wenn Pro nicht innerhalb einer Minute freigeschaltet ist, tippe auf „Käufe wiederherstellen“.",
   "account.useEmail": "Stattdessen E-Mail verwenden",
+  "recall.boost.upTo": "Bis zu {xp} XP",
+  "mine.emptyTitle": "Dein Regal ist bereit",
 };
 
 export default de;

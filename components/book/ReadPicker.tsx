@@ -12,6 +12,7 @@ import { BookPhrases } from "@/components/book/BookPhrases";
 import { BookWords } from "@/components/book/BookWords";
 import { ANSWERS_KEY, parseAnswers } from "@/lib/onboarding/answers";
 import { canOpenBook, gatesClosed } from "@/lib/plan";
+import { deviceKind } from "@/lib/translate/device";
 import { purchasesAvailable } from "@/lib/purchases/native";
 import { useOnDevice } from "@/lib/store/device";
 import { usePlan } from "@/lib/pro/state";
@@ -25,6 +26,9 @@ const subscribeAnswers = subscribeTo(ANSWERS_KEY);
 const readAnswersRaw = () => readRaw(ANSWERS_KEY);
 // On the server there is no device storage: "" is what the first client render shows too.
 const serverRaw = () => "";
+const noDeviceSub = () => () => {};
+const hasDeviceTranslator = () => deviceKind() !== null;
+const noDevice = () => false;
 
 const stroke = { fill: "none", stroke: "currentColor", strokeWidth: 1.9, strokeLinecap: "round", strokeLinejoin: "round" } as const;
 
@@ -58,6 +62,8 @@ export function ReadPicker({ slug, titles = [], lengths, langs = [], outline: en
   // The store is a phone-only thing: the server render has none.
   const storeReady = useOnDevice(purchasesAvailable, false);
   const { plan, known } = usePlan();
+  // A phone (or browser) with its own translator opens the book in the learned language (lib/translate/device.ts).
+  const onDevice = useSyncExternalStore(noDeviceSub, hasDeviceTranslator, noDevice);
 
   const choiceRaw = useSyncExternalStore(subscribeChoice, readChoiceRaw, serverRaw);
   const answersRaw = useSyncExternalStore(subscribeAnswers, readAnswersRaw, serverRaw);
@@ -147,7 +153,7 @@ export function ReadPicker({ slug, titles = [], lengths, langs = [], outline: en
 
         {/* Whether the book opens in the language they are learning. */}
         {learn && learn !== "en" && (
-          langs.includes(learn) ? (
+          langs.includes(learn) || onDevice ? (
             <p className="inline-flex w-fit items-center gap-2 rounded-full bg-accent-bright/20 px-3.5 py-2 text-[13.5px] font-bold text-[var(--ob-deep)]">
               <svg viewBox="0 0 24 24" className="size-4" {...stroke} strokeWidth={2.4} aria-hidden><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
               {t("book.langReady", { language: languageName(learn, locale) })}
@@ -164,7 +170,7 @@ export function ReadPicker({ slug, titles = [], lengths, langs = [], outline: en
       {outline.length > 0 && <Pathway slug={slug} level={level} length={length} outline={outline} chapters={chapterNames} onOpen={start} />}
 
       {/* The way in stays on screen above the menu, wherever the page is scrolled to. */}
-      <div className="sticky bottom-[calc(env(safe-area-inset-bottom)+5.25rem)] z-30 -mx-5 mt-auto bg-gradient-to-t from-background via-background to-transparent px-5 pb-2 pt-8">
+      <div className="sticky bottom-[calc(env(safe-area-inset-bottom)+5.25rem)] z-30 -mx-5 mt-auto bg-gradient-to-t from-background via-background to-transparent px-5 pb-2 pt-8 after:pointer-events-none after:absolute after:inset-x-0 after:top-full after:h-[calc(env(safe-area-inset-bottom)+5.25rem)] after:bg-background after:content-['']">
         <button type="button" data-tour="read" onClick={() => start()} className="btn-cyan inline-flex h-14 w-full select-none items-center justify-center gap-2.5 rounded-full px-6 text-[16.5px] font-semibold tracking-[-0.01em] active:scale-[0.98]">
           {t(reached === undefined ? "sheet.read" : "book.continue")}
           <span className="grid size-8 place-items-center rounded-full bg-black/10" aria-hidden>

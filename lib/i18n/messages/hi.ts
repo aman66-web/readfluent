@@ -592,7 +592,7 @@ const hi: Catalog = {
   "level.C1C2.lines": "हर पन्ने पर तीन वाक्य",
   "book.pagesTitle": "कितने पन्ने",
   "book.soon": "जल्द आ रहा है",
-  "book.langNotYet": "इस किताब का {language} संस्करण जल्द आ रहा है। अभी यह अंग्रेज़ी में खुलती है।",
+  "book.langNotYet": "इस डिवाइस पर यह किताब {language} की जगह अंग्रेज़ी में खुलती है।",
   "book.langReady": "{language} में पढ़ी जाती है",
   "book.moreLengthsSoon": "100 और 200 पन्नों के संस्करण जल्द आ रहे हैं।",
 
@@ -990,6 +990,8 @@ const hi: Catalog = {
   "book.notMedical": "यह किताब सामान्य जानकारी देती है, चिकित्सा सलाह नहीं है। अपनी सेहत के बारे में डॉक्टर से बात करें।",
   "paywall.pending": "भुगतान मिल गया। अगर एक मिनट में Pro अनलॉक न हो, तो खरीदारी बहाल करें पर टैप करें।",
   "account.useEmail": "इसके बजाय ईमेल इस्तेमाल करें",
+  "recall.boost.upTo": "{xp} XP तक",
+  "mine.emptyTitle": "आपकी शेल्फ़ तैयार है",
 };
 
 export default hi;

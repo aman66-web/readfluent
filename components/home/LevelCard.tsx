@@ -8,6 +8,7 @@ import { useLocale, useT } from "@/lib/i18n/react";
 import type { LanguageCode } from "@/lib/onboarding/languages";
 import type { MessageId } from "@/lib/i18n/en";
 import { XP, levelFromXp, stageAfter, stageCode, type Cefr } from "@/lib/xp/levels";
+import { useCountUp } from "@/lib/ui/useCountUp";
 
 /**
  * The top of the dashboard: the reader's level (A1 to C2), a bar that fills toward
@@ -27,6 +28,8 @@ export function LevelCard({ xp, learn, exam = null, startOpen = false, earned }:
   const s = levelFromXp(xp);
   const after = stageAfter(s.level, s.stage);
   const n = (v: number) => v.toLocaleString(locale);
+  // The XP in all counts up to its value when it arrives.
+  const total = useCountUp(exam && earned !== undefined ? earned : s.xp);
   const language = languageName(learn ?? "en", locale);
   return (
     <section data-tour="level" className="relative overflow-hidden rounded-[26px] p-5 text-white shadow-[0_18px_40px_-22px_rgba(8,47,62,.75)]"
@@ -47,7 +50,7 @@ export function LevelCard({ xp, learn, exam = null, startOpen = false, earned }:
         <div className="min-w-0 pb-1">
           <p className="text-[16px] font-semibold leading-tight">{t(`levelname.${s.level}`)}</p>
           {s.stage && <p className="tabular mt-0.5 text-[13px] font-bold text-[#67E8F9]">{s.code} · {t(STAGE_NAME[s.stage])}</p>}
-          <p className="tabular mt-1 text-[12.5px] font-semibold text-white/90">{t("xp.total", { xp: n(exam && earned !== undefined ? earned : s.xp) })}</p>
+          <p className="tabular mt-1 text-[12.5px] font-semibold text-white/90">{t("xp.total", { xp: n(total) })}</p>
         </div>
       </div>
 

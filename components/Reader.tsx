@@ -54,6 +54,8 @@ interface Props {
   scenes: Scene[];
   /** The book can be translated into any language on demand (a book of the library); the preview sample cannot. */
   translatable?: boolean;
+  /** Whether Talk is switched on (lib/talk/ready.ts): Pluto only offers a chat when there is one to have. */
+  talkReady?: boolean;
 }
 
 const subscribeAnswers = subscribeTo(ANSWERS_KEY);
@@ -141,7 +143,7 @@ export function Reader(props: Props) {
  * reader's own language) for that sentence appears at the top, with the matched words in the
  * same colour as in the text, and the word card rises at the bottom.
  */
-function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes, notice, onSwitch }: Props & { variant: ReaderVariant; notice?: string; onSwitch?: () => void }) {
+function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes, notice, onSwitch, talkReady = false }: Props & { variant: ReaderVariant; notice?: string; onSwitch?: () => void }) {
   const t = useT();
   // Whether this device can read aloud is only known in the browser; the server draws no Listen button, and so must the first client render.
   const speakable = useSyncExternalStore(noSubscribe, canSpeak, () => false);
@@ -395,9 +397,10 @@ function ReaderView({ slug, title, levelId, levelLabel, length, variant, scenes,
     }
     if (prefs.cheers && index > from) {
       const c = cheerFor(index, total, lastCheer.current);
-      if (c) { lastCheer.current = index; const id = window.setTimeout(() => setCheer(c), 900); return () => window.clearTimeout(id); }
+      // The cheer that offers a chat is left out while Talk is not switched on: it would lead nowhere.
+      if (c && !(c.talk && !talkReady)) { lastCheer.current = index; const id = window.setTimeout(() => setCheer(c), 900); return () => window.clearTimeout(id); }
     }
-  }, [index, total, version, prefs.quiz, prefs.cheers]);
+  }, [index, total, version, prefs.quiz, prefs.cheers, talkReady]);
   const quizPages = useMemo(() => {
     if (!check) return null;
     const end = Math.min(check.block * BLOCK, pages.length);

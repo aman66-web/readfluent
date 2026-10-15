@@ -590,7 +590,7 @@ const ja: Catalog = {
   "level.C1C2.lines": "1ページに3文",
   "book.pagesTitle": "ページ数",
   "book.soon": "近日公開",
-  "book.langNotYet": "この本の{language}版は近日公開です。今は英語で開きます。",
+  "book.langNotYet": "この端末では、この本は{language}ではなく英語で開きます。",
   "book.langReady": "{language}で読めます",
   "book.moreLengthsSoon": "100ページ版と200ページ版は近日公開です。",
 
@@ -988,6 +988,8 @@ const ja: Catalog = {
   "book.notMedical": "この本は一般的な情報であり、医学的な助言ではありません。ご自身の健康については医師にご相談ください。",
   "paywall.pending": "お支払いを受け付けました。1分たってもProが有効にならない場合は「購入を復元」をタップしてください。",
   "account.useEmail": "メールで続ける",
+  "recall.boost.upTo": "最大 {xp} XP",
+  "mine.emptyTitle": "本棚の準備ができました",
 };
 
 export default ja;

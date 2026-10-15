@@ -565,7 +565,7 @@ const ar: Catalog = {
   "level.C1C2.lines": "ثلاث جمل في الصفحة",
   "book.pagesTitle": "كم صفحة",
   "book.soon": "قريبًا",
-  "book.langNotYet": "النسخة {language} من هذا الكتاب قادمة قريبًا. حاليًا يُفتح بالإنجليزية.",
+  "book.langNotYet": "على هذا الجهاز، يُفتح هذا الكتاب بالإنجليزية بدلًا من {language}.",
   "book.langReady": "يُقرأ بـ{language}",
   "book.moreLengthsSoon": "نسختا 100 و200 صفحة قادمتان قريبًا.",
   "library.categories": "الفئات",
@@ -957,6 +957,8 @@ const ar: Catalog = {
   "book.notMedical": "يقدّم هذا الكتاب معلومات عامة وليس نصيحة طبية. تحدّث إلى طبيب بشأن صحتك.",
   "paywall.pending": "تم استلام الدفع. إذا لم يُفتح Pro خلال دقيقة، فاضغط على استعادة المشتريات.",
   "account.useEmail": "استخدم البريد الإلكتروني بدلًا من ذلك",
+  "recall.boost.upTo": "حتى {xp} XP",
+  "mine.emptyTitle": "رفّك جاهز",
 };
 
 export default ar;

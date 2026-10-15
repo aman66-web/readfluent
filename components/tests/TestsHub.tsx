@@ -73,7 +73,7 @@ export function TestsHub() {
   const maxXp = xpForTestAnswer(level, mine.level) * PAPER_SIZE + xpForTestFinish(level, mine.level, PAPER_SIZE, PAPER_SIZE);
 
   return (
-    <main className="safe-top px-5 pb-32 [--pt:.5rem]">
+    <main className="enter safe-top px-5 pb-32 [--pt:.5rem]">
       <BackLink fallback="/recall" label={t("ui.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
       </BackLink>
@@ -122,7 +122,7 @@ export function TestsHub() {
               </span>
             </div>
             <p className="mt-1 text-[13.5px] leading-snug text-muted">{t("levelTests.sub")} {t("levelTests.open")}</p>
-              <ul className="mt-3 grid grid-cols-5 gap-2" dir="ltr">
+              <ul className="tiles-in mt-3 grid grid-cols-5 gap-2" dir="ltr">
                 {Array.from({ length: TESTS_PER_LEVEL }, (_, i) => i + 1).map((n) => {
                   const r = levelResults[levelResultKey(lang, level, n)];
                   return (
@@ -130,7 +130,7 @@ export function TestsHub() {
                       <Link href={`/recall/tests/${level}/${n}`} data-level-test={n} aria-label={`${t("levelTests.test", { n })}${r ? `, ${r.points}/${r.total}` : ""}`}
                             className={`opt flex h-16 flex-col items-center justify-center rounded-2xl text-[18px] font-extrabold ${r?.passed ? "opt-on" : ""}`}>
                         {n}
-                        <span className="tabular mt-0.5 text-[10.5px] font-bold text-muted">{r ? `${r.passed ? "✓ " : ""}${r.points}/${r.total}` : "·"}</span>
+                        <span className="tabular mt-0.5 text-[10.5px] font-bold text-muted">{r ? `${r.passed ? "✓ " : ""}${r.points}/${r.total}` : "\u00a0"}</span>
                       </Link>
                     </li>
                   );
@@ -143,7 +143,7 @@ export function TestsHub() {
             <>
               <h2 className="mt-8 text-[17px] font-bold tracking-[-0.01em]">{t("levelTests.practice")}</h2>
               <p className="mt-0.5 text-[13.5px] leading-snug text-muted">{t("levelTests.practiceSub")}</p>
-              <ul className="mt-5 grid grid-cols-2 gap-3">
+              <ul className="tiles-in mt-5 grid grid-cols-2 gap-3">
                 {kinds.map((k, i) => {
                   const r = results[resultKey(lang, level, k)];
                   const wide = i === 0;

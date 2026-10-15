@@ -562,7 +562,7 @@ const tr: Catalog = {
   "level.C1C2.lines": "Sayfada üç cümle",
   "book.pagesTitle": "Kaç sayfa",
   "book.soon": "Yakında",
-  "book.langNotYet": "Bu kitabın {language} baskısı yakında geliyor. Şimdilik İngilizce açılıyor.",
+  "book.langNotYet": "Bu cihazda bu kitap {language} yerine İngilizce açılır.",
   "book.langReady": "{language} okunur",
   "book.moreLengthsSoon": "100 ve 200 sayfalık baskılar yakında geliyor.",
   "library.categories": "Kategoriler",
@@ -954,6 +954,8 @@ const tr: Catalog = {
   "book.notMedical": "Bu kitap genel bilgi verir ve tıbbi tavsiye değildir. Kendi sağlığın için bir doktorla konuş.",
   "paywall.pending": "Ödeme alındı. Pro bir dakika içinde açılmazsa Satın alımları geri yükle'ye dokun.",
   "account.useEmail": "Bunun yerine e-posta kullan",
+  "recall.boost.upTo": "{xp} XP'ye kadar",
+  "mine.emptyTitle": "Rafın hazır",
 };
 
 export default tr;

@@ -594,7 +594,7 @@ const nl: Catalog = {
   "level.C1C2.lines": "Drie zinnen per pagina",
   "book.pagesTitle": "Hoeveel pagina’s",
   "book.soon": "Binnenkort",
-  "book.langNotYet": "De {language}e uitgave van dit boek komt binnenkort. Voorlopig opent het in het Engels.",
+  "book.langNotYet": "Op dit apparaat opent dit boek in het Engels in plaats van in het {language}.",
   "book.langReady": "Te lezen in het {language}",
   "book.moreLengthsSoon": "De edities van 100 en 200 pagina’s komen binnenkort.",
 
@@ -992,6 +992,8 @@ const nl: Catalog = {
   "book.notMedical": "Dit boek geeft algemene informatie en is geen medisch advies. Praat met een arts over je eigen gezondheid.",
   "paywall.pending": "Betaling ontvangen. Is Pro na een minuut nog niet ontgrendeld, tik dan op Aankopen herstellen.",
   "account.useEmail": "E-mail gebruiken",
+  "recall.boost.upTo": "Tot {xp} XP",
+  "mine.emptyTitle": "Je boekenplank staat klaar",
 };
 
 export default nl;

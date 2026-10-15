@@ -565,7 +565,7 @@ const ur: Catalog = {
   "level.C1C2.lines": "ہر صفحے پر تین جملے",
   "book.pagesTitle": "کتنے صفحات",
   "book.soon": "جلد",
-  "book.langNotYet": "اس کتاب کا {language} ایڈیشن جلد آ رہا ہے۔ فی الحال یہ انگریزی میں کھلتی ہے۔",
+  "book.langNotYet": "اس ڈیوائس پر یہ کتاب {language} کے بجائے انگریزی میں کھلتی ہے۔",
   "book.langReady": "{language} میں پڑھی جا سکتی ہے",
   "book.moreLengthsSoon": "100 اور 200 صفحات کے ایڈیشن جلد آ رہے ہیں۔",
   "library.categories": "زمرے",
@@ -957,6 +957,8 @@ const ur: Catalog = {
   "book.notMedical": "یہ کتاب عام معلومات دیتی ہے اور طبی مشورہ نہیں ہے۔ اپنی صحت کے بارے میں ڈاکٹر سے بات کریں۔",
   "paywall.pending": "ادائیگی موصول ہو گئی۔ اگر ایک منٹ میں Pro نہ کھلے تو خریداری بحال کریں پر ٹیپ کریں۔",
   "account.useEmail": "اس کے بجائے ای میل استعمال کریں",
+  "recall.boost.upTo": "{xp} XP تک",
+  "mine.emptyTitle": "آپ کی شیلف تیار ہے",
 };
 
 export default ur;

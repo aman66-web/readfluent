@@ -77,7 +77,7 @@ export function StudyChartBody({ ledger, goal, bookName, today }: ChartProps & {
       <div className="flex items-start justify-between gap-3">
         <div>
           <p className="tabular text-[28px] font-bold leading-none tracking-[-0.03em]">{n(total)}</p>
-          <p className="mt-1 text-[12px] font-semibold">{title} <span className="tabular opacity-70">· {t("chart.avg", { n: n(avg) })}</span></p>
+          <p className="mt-1 text-[12px] font-semibold leading-snug">{title}<span className="tabular block opacity-70">{t("chart.avg", { n: n(avg) })}</span></p>
         </div>
         <p className="tabular mt-1 shrink-0 rounded-full px-2.5 py-1 text-[11px] font-bold" style={{ background: WELL }}>{t("chart.goal", { minutes: goal })}</p>
       </div>

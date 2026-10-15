@@ -25,7 +25,7 @@ const Bolt = () => <svg viewBox="0 0 24 24" className="size-3.5" {...stroke} str
  * the phrase decks of the language they are learning and a test at their level. Flashcards and tests pay more
  * XP than reading, so each tile says so.
  */
-export function RecallView({ talkReady = true }: { /** Whether the server can run Talk (a model key and a database); false shows it as coming soon. */ talkReady?: boolean }) {
+export function RecallView({ talkReady = true }: { /** Whether the server can run Talk (a model key and a database); false leaves the Speaking tile out (no "coming soon": App Review 2.1). */ talkReady?: boolean }) {
   const t = useT();
   const locale = useLocale();
   const a = useAnswers();
@@ -50,7 +50,7 @@ export function RecallView({ talkReady = true }: { /** Whether the server can ru
   const noCards = ready && Object.keys(cards).length === 0;
 
   return (
-    <main className="safe-top px-5 pb-32 [--pt:1.5rem]">
+    <main className="screen-glow enter safe-top px-5 pb-32 [--pt:1.5rem]">
       <header className="flex items-start justify-between gap-3">
         <h1 className="title-display">{t("recall.title")}</h1>
         <span className="-mt-1 block w-[64px] shrink-0"><Mascot mood={due > 0 ? "ready" : "hello"} className="w-full" /></span>
@@ -68,35 +68,37 @@ export function RecallView({ talkReady = true }: { /** Whether the server can ru
         </span>
       </Link>
 
-      {/* Three ways to practise: one tall tile and two small ones. */}
-      <div className="mt-4 grid grid-cols-2 grid-rows-[auto_auto] gap-3">
+      {/* The ways to practise: one tall tile and two small ones (two tall tiles while Talk is not switched on). */}
+      <div className="tiles-in mt-4 grid grid-cols-2 grid-rows-[auto_auto] gap-3">
         <Link href="/recall/flashcards" data-way="cards" className="relative row-span-2 flex min-h-[19rem] flex-col overflow-hidden rounded-[28px] pb-16 bg-gradient-to-b from-[#67E8F9] to-[#22D3EE] p-4 text-on-cyan shadow-[0_22px_34px_-22px_rgba(8,145,178,.9)] active:scale-[0.98]">
           <svg viewBox="0 0 24 24" className="relative mt-6 size-12 self-center" {...stroke} strokeWidth={1.6} aria-hidden><rect x="3" y="7" width="14" height="11" rx="2.5" /><path d="M7 7V6a2.5 2.5 0 0 1 2.5-2.5h8A2.5 2.5 0 0 1 20 6v8a2.5 2.5 0 0 1-2.5 2.5H17" /></svg>
           <span className="relative z-10 mt-3 min-w-0 text-center text-[clamp(16px,5vw,20px)] font-bold tracking-[-0.01em] [overflow-wrap:anywhere] [line-break:strict]">{t("cards.title")}</span>
           <span className="relative z-10 mt-1 text-center text-[13px] leading-snug opacity-80 [line-break:strict]" data-due={due}>{ready ? (due > 0 ? t("cards.due", { n: due }) : noCards ? t("cards.noneYet") : t("cards.dueNone")) : " "}</span>
-          <span className="tabular relative z-10 mt-3 inline-flex items-center gap-1 self-center rounded-full bg-white/40 px-2.5 py-1 text-[11.5px] font-bold"><Bolt />{t("recall.boost.cards", { xp: XP.card.easy })}</span>
+          <span className="tabular relative z-10 mt-3 inline-flex items-center gap-1 self-center whitespace-nowrap rounded-full bg-white/40 px-2.5 py-1 text-[11.5px] font-bold"><Bolt />{t("recall.boost.upTo", { xp: XP.card.easy })}</span>
           {/* A little stack of cards in the corner. */}
           <span aria-hidden className="pointer-events-none absolute -start-3 bottom-4 block h-9 w-24 -rotate-3 rounded-xl bg-white/55" />
           <span aria-hidden className="pointer-events-none absolute -start-4 bottom-9 block h-9 w-24 rotate-2 rounded-xl bg-white/35" />
           <span aria-hidden className="pointer-events-none absolute -start-2 bottom-0 block h-9 w-24 -rotate-1 rounded-xl bg-[#0E7490]/70" />
         </Link>
 
-        <Link href={hasTests ? "/recall/tests" : "/languages"} data-way="tests" className="relative flex min-h-[9rem] flex-col justify-between overflow-hidden rounded-[28px] bg-gradient-to-br from-[#0E7490] to-[#0A566E] p-4 text-white shadow-[0_18px_28px_-20px_rgba(8,47,60,.9)] active:scale-[0.98]">
+        <Link href={hasTests ? "/recall/tests" : "/languages"} data-way="tests" className={`relative flex ${talkReady ? "min-h-[9rem]" : "row-span-2 min-h-[19rem]"} flex-col justify-between overflow-hidden rounded-[28px] bg-gradient-to-br from-[#0E7490] to-[#0A566E] p-4 text-white shadow-[0_18px_28px_-20px_rgba(8,47,60,.9)] active:scale-[0.98]`}>
           <svg viewBox="0 0 24 24" className="size-9" {...stroke} strokeWidth={1.7} aria-hidden><path d="M9 11l2.5 2.5L16 9" /><rect x="4" y="4" width="16" height="16" rx="3.5" /></svg>
           <span>
             <span className="block text-[18px] font-bold leading-tight tracking-[-0.01em]">{t("tests.title")}</span>
             <span className="mt-0.5 block text-[12.5px] leading-snug opacity-80">{range}</span>
-            <span className="tabular mt-1.5 inline-flex items-center gap-1 rounded-full bg-white/20 px-2 py-0.5 text-[11px] font-bold"><Bolt />{t("recall.boost.tests", { xp: XP.test.correct })}</span>
+            <span className="tabular mt-1.5 inline-flex items-center gap-1 whitespace-nowrap rounded-full bg-white/20 px-2 py-0.5 text-[11px] font-bold"><Bolt />{t("recall.boost.upTo", { xp: XP.test.correct })}</span>
           </span>
         </Link>
 
-        <Link href="/recall/talk" data-way="talk" className="relative flex min-h-[9rem] flex-col justify-between overflow-hidden rounded-[28px] bg-gradient-to-br from-[#DDD6FE] to-[#C4B5FD] p-4 text-on-cyan shadow-[0_18px_28px_-20px_rgba(91,33,182,.55)] active:scale-[0.98]">
-          <svg viewBox="0 0 24 24" className="size-9" {...stroke} strokeWidth={1.7} aria-hidden><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>
-          <span>
-            <span className="block text-[18px] font-bold leading-tight tracking-[-0.01em]">{t("recall.speaking")}</span>
-            <span className="mt-0.5 block text-[12.5px] leading-snug opacity-75">{t(talkReady ? "recall.talkNow" : "recall.soon", { name: "Pluto" })}</span>
-          </span>
-        </Link>
+        {talkReady && (
+          <Link href="/recall/talk" data-way="talk" className="relative flex min-h-[9rem] flex-col justify-between overflow-hidden rounded-[28px] bg-gradient-to-br from-[#DDD6FE] to-[#C4B5FD] p-4 text-on-cyan shadow-[0_18px_28px_-20px_rgba(91,33,182,.55)] active:scale-[0.98]">
+            <svg viewBox="0 0 24 24" className="size-9" {...stroke} strokeWidth={1.7} aria-hidden><rect x="9" y="3" width="6" height="11" rx="3" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3" /></svg>
+            <span>
+              <span className="block text-[18px] font-bold leading-tight tracking-[-0.01em]">{t("recall.speaking")}</span>
+              <span className="mt-0.5 block text-[12.5px] leading-snug opacity-75">{t("recall.talkNow", { name: "Pluto" })}</span>
+            </span>
+          </Link>
+        )}
       </div>
 
       <h2 className="mt-8 text-[19px] font-bold tracking-[-0.01em]">{t("recall.package")}</h2>
@@ -147,7 +149,8 @@ function DeckRow({ size, lang, language, cards, ready }: { size: DeckSize; lang:
           <span className="mt-0.5 block text-[13px] text-foreground/70">{language ? `${language} · ` : ""}{ready ? t("recall.deckProgress", { n: p.learned, total: size }) : " "}</span>
           <span className="mt-2 block h-1.5 overflow-hidden rounded-full bg-white/60" aria-hidden><span className="block h-full rounded-full bg-[#6366F1]" style={{ width: `${pct}%` }} /></span>
         </span>
-        <span className="shrink-0 rounded-full bg-white/80 px-3.5 py-1.5 text-[13px] font-bold text-[#3730A3]">{t(started ? "recall.deckContinue" : "recall.deckStart")}</span>
+        <span className="sr-only">{t(started ? "recall.deckContinue" : "recall.deckStart")}</span>
+        <svg viewBox="0 0 24 24" className="size-5 shrink-0 text-[#3730A3] rtl:-scale-x-100" {...stroke} strokeWidth={2.4} aria-hidden><path d="M9 5l7 7-7 7" /></svg>
       </Link>
     </li>
   );

@@ -100,7 +100,7 @@ export function FriendsView() {
   const social = useSocial(ready && signedIn);
 
   return (
-    <main className="safe-top px-5 pb-32 [--pt:.5rem]">
+    <main className="enter safe-top px-5 pb-32 [--pt:.5rem]">
       <BackLink fallback="/" previous label={t("ui.back")} className="-ms-2 flex size-11 items-center justify-center rounded-full active:bg-border/60">
         <svg width="22" height="22" viewBox="0 0 24 24" {...stroke} className="rtl:-scale-x-100" aria-hidden><path d="M15 5l-7 7 7 7" /></svg>
       </BackLink>
@@ -218,7 +218,7 @@ function Boards({ signedIn, social, onJoin }: { signedIn: boolean; social: Retur
               <Avatar name={name} me={r.me} hue={r.me ? undefined : r.hue} />
               <div className="min-w-0 flex-1">
                 <p dir="auto" className="truncate text-[15.5px] font-semibold">
-                  {r.me ? `${name} · ${t("league.you")}` : name}
+                  {r.me && name !== t("league.you") ? `${name} · ${t("league.you")}` : name}
                   {r.rival ? <span className="ms-1 text-[12px] text-faint" title={t("league.practice")} aria-label={t("league.practice")}>✦</span> : null}
                 </p>
                 <p className="truncate text-[12.5px] text-muted" dir="ltr">{[r.username && !r.me ? `@${r.username}` : "", r.level].filter(Boolean).join(" · ")}</p>

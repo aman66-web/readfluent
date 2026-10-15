@@ -590,7 +590,7 @@ const zh: Catalog = {
   "level.C1C2.lines": "每页三句",
   "book.pagesTitle": "读多少页",
   "book.soon": "即将推出",
-  "book.langNotYet": "这本书的{language}版即将推出。目前以英语打开。",
+  "book.langNotYet": "在这台设备上，这本书以英语而不是{language}打开。",
   "book.langReady": "可用{language}阅读",
   "book.moreLengthsSoon": "100 页和 200 页版本即将推出。",
 
@@ -988,6 +988,8 @@ const zh: Catalog = {
   "book.notMedical": "本书提供的是一般信息，并非医疗建议。关于你自己的健康，请咨询医生。",
   "paywall.pending": "已收到付款。如果一分钟内 Pro 仍未解锁，请轻点“恢复购买”。",
   "account.useEmail": "改用电子邮件",
+  "recall.boost.upTo": "最多 {xp} XP",
+  "mine.emptyTitle": "你的书架准备好了",
 };
 
 export default zh;

@@ -594,7 +594,7 @@ const ru: Catalog = {
   "level.C1C2.lines": "Три предложения на странице",
   "book.pagesTitle": "Сколько страниц",
   "book.soon": "Скоро",
-  "book.langNotYet": "Издание этой книги на языке «{language}» скоро появится. Пока она открывается на английском.",
+  "book.langNotYet": "На этом устройстве книга открывается на английском, а не на языке «{language}».",
   "book.langReady": "Читается: {language}",
   "book.moreLengthsSoon": "Издания на 100 и 200 страниц скоро появятся.",
 
@@ -992,6 +992,8 @@ const ru: Catalog = {
   "book.notMedical": "Эта книга содержит общую информацию и не является медицинской консультацией. О своём здоровье поговори с врачом.",
   "paywall.pending": "Оплата получена. Если Pro не откроется через минуту, нажми «Восстановить покупки».",
   "account.useEmail": "Войти по эл. почте",
+  "recall.boost.upTo": "До {xp} XP",
+  "mine.emptyTitle": "Ваша полка готова",
 };
 
 export default ru;

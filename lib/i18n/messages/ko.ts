@@ -592,7 +592,7 @@ const ko: Catalog = {
   "level.C1C2.lines": "한 페이지에 세 문장",
   "book.pagesTitle": "페이지 수",
   "book.soon": "곧 만나요",
-  "book.langNotYet": "이 책의 {language} 판이 곧 나와요. 지금은 영어로 열려요.",
+  "book.langNotYet": "이 기기에서는 이 책이 {language} 대신 영어로 열려요.",
   "book.langReady": "{language}로 읽을 수 있어요",
   "book.moreLengthsSoon": "100쪽과 200쪽 판은 곧 나와요.",
 
@@ -990,6 +990,8 @@ const ko: Catalog = {
   "book.notMedical": "이 책은 일반적인 정보이며 의학적 조언이 아니에요. 건강에 대해서는 의사와 상담하세요.",
   "paywall.pending": "결제가 완료됐어요. 1분 안에 Pro가 열리지 않으면 구매 복원을 탭하세요.",
   "account.useEmail": "이메일로 계속하기",
+  "recall.boost.upTo": "최대 {xp} XP",
+  "mine.emptyTitle": "책장이 준비됐어요",
 };
 
 export default ko;

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { Reader } from "@/components/Reader";
+import { talkReady } from "@/lib/talk/ready";
 import { LENGTHS, LEVELS, levelBySlug } from "@/lib/content/limits";
 import type { ReaderVariant } from "@/components/reader/types";
 import { findBook, lengthsOf, pagesOf, PREVIEW_BOOKS, type Scene } from "@/lib/preview/catalog";
@@ -76,6 +77,7 @@ export default async function ReadPage({ params }: { params: Promise<{ slug: str
       variants={variants}
       scenes={scenes}
       translatable={book.source === "file"}
+      talkReady={talkReady()}
     />
   );
 }

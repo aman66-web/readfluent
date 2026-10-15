@@ -590,7 +590,7 @@ const indonesian: Catalog = {
   "level.C1C2.lines": "Tiga kalimat per halaman",
   "book.pagesTitle": "Berapa halaman",
   "book.soon": "Segera",
-  "book.langNotYet": "Edisi {language} buku ini segera hadir. Untuk sementara dibuka dalam bahasa Inggris.",
+  "book.langNotYet": "Di perangkat ini, buku ini terbuka dalam bahasa Inggris, bukan {language}.",
   "book.langReady": "Dibaca dalam {language}",
   "book.moreLengthsSoon": "Edisi 100 dan 200 halaman segera hadir.",
 
@@ -988,6 +988,8 @@ const indonesian: Catalog = {
   "book.notMedical": "Buku ini berisi informasi umum dan bukan nasihat medis. Bicarakan kesehatanmu dengan dokter.",
   "paywall.pending": "Pembayaran diterima. Jika Pro belum terbuka dalam semenit, ketuk Pulihkan pembelian.",
   "account.useEmail": "Pakai email saja",
+  "recall.boost.upTo": "Hingga {xp} XP",
+  "mine.emptyTitle": "Rakmu sudah siap",
 };
 
 export default indonesian;

@@ -29,10 +29,13 @@ export function Boost() {
         {rows.map((r) => (
           <li key={r.key}>
             <Link href={r.href} className="block rounded-2xl bg-white/80 px-3.5 py-2.5 active:bg-white">
-              <span className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
+              <span className="flex items-center gap-3">
                 <svg viewBox="0 0 24 24" className="size-6 shrink-0 text-[var(--ob-deep)]" {...stroke} aria-hidden>{r.icon}</svg>
-                <span className="min-w-[5.5rem] flex-1 break-words text-[14.5px] font-bold leading-tight [hyphens:auto]">{t(`home.boost.${r.key}` as "home.boost.reading")}</span>
-                <span className="tabular ms-auto min-w-0 text-end text-[12.5px] font-bold text-[var(--ob-deep)]">{r.rate}</span>
+                <span className="min-w-0 flex-1">
+                  <span className="block break-words text-[14.5px] font-bold leading-tight [hyphens:auto]">{t(`home.boost.${r.key}` as "home.boost.reading")}</span>
+                  <span className="tabular mt-0.5 block text-[12.5px] font-bold leading-snug text-[var(--ob-deep)]">{r.rate}</span>
+                </span>
+                <svg viewBox="0 0 24 24" className="size-4 shrink-0 text-[var(--ob-deep)] opacity-60 rtl:-scale-x-100" {...stroke} strokeWidth={2.4} aria-hidden><path d="M9 5l7 7-7 7" /></svg>
               </span>
               <span className="mt-2 block h-1.5 overflow-hidden rounded-full bg-accent-bright/20" aria-hidden><span className="block h-full rounded-full bg-accent-bright" style={{ width: `${r.bar * 100}%` }} /></span>
             </Link>

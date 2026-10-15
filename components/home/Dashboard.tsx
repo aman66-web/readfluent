@@ -51,7 +51,7 @@ export function Dashboard() {
   }, [locale, today]);
 
   return (
-    <main className="safe-top px-5 pb-32 [--pt:1.5rem]">
+    <main className="screen-glow safe-top px-5 pb-32 [--pt:1.5rem]">
       {/* No title bar: the date and the day's greeting up top, the streak and the profile at the corner. */}
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0 pt-1">
@@ -69,7 +69,7 @@ export function Dashboard() {
         </div>
       </div>
 
-      <div className="mt-4">
+      <div className="enter mt-4">
         <PlutoCard />
         <div className="h-3" />
         <LevelCard xp={totalXp(ledger)} earned={rawXp(ledger)} learn={a.learn} exam={exam} />

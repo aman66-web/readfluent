@@ -591,7 +591,7 @@ const es: Catalog = {
   "level.C1C2.lines": "Tres frases por página",
   "book.pagesTitle": "Cuántas páginas",
   "book.soon": "Pronto",
-  "book.langNotYet": "La edición en {language} de este libro llegará pronto. Por ahora se abre en inglés.",
+  "book.langNotYet": "En este dispositivo, este libro se abre en inglés en lugar de en {language}.",
   "book.langReady": "Se lee en {language}",
   "book.moreLengthsSoon": "Las ediciones de 100 y 200 páginas de este libro llegarán pronto.",
 
@@ -989,6 +989,8 @@ const es: Catalog = {
   "book.notMedical": "Este libro ofrece información general y no es consejo médico. Consulta a un médico sobre tu salud.",
   "paywall.pending": "Pago recibido. Si Pro no se desbloquea en un minuto, toca Restaurar compras.",
   "account.useEmail": "Usar correo electrónico",
+  "recall.boost.upTo": "Hasta {xp} XP",
+  "mine.emptyTitle": "Tu estantería está lista",
 };
 
 export default es;
