@@ -83,6 +83,17 @@ export function RecallView({ talkReady = true }: { /** Whether the server can ru
 
         <Link href={hasTests ? "/recall/tests" : "/languages"} data-way="tests" className={`relative flex ${talkReady ? "min-h-[9rem]" : "row-span-2 min-h-[19rem]"} flex-col justify-between overflow-hidden rounded-[28px] bg-gradient-to-br from-[#0E7490] to-[#0A566E] p-4 text-white shadow-[0_18px_28px_-20px_rgba(8,47,60,.9)] active:scale-[0.98]`}>
           <svg viewBox="0 0 24 24" className="size-9" {...stroke} strokeWidth={1.7} aria-hidden><path d="M9 11l2.5 2.5L16 9" /><rect x="4" y="4" width="16" height="16" rx="3.5" /></svg>
+          {/* The tall tile (no Speaking tile beside it): a little multiple-choice question, one answer ticked. */}
+          {!talkReady && (
+            <span aria-hidden className="my-3 flex flex-col gap-2">
+              <span className="block h-7 w-[86%] rounded-xl bg-white/12" />
+              <span className="flex h-7 w-[74%] items-center gap-1.5 rounded-xl bg-[#22D3EE] px-2.5 text-[#0B1B22] shadow-[0_8px_18px_-8px_rgba(34,211,238,.8)]">
+                <svg viewBox="0 0 24 24" className="size-4" {...stroke} strokeWidth={3} aria-hidden><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
+                <span className="block h-1.5 flex-1 rounded-full bg-[#0B1B22]/25" />
+              </span>
+              <span className="block h-7 w-[80%] rounded-xl bg-white/12" />
+            </span>
+          )}
           <span>
             <span className="block text-[18px] font-bold leading-tight tracking-[-0.01em]">{t("tests.title")}</span>
             <span className="mt-0.5 block text-[12.5px] leading-snug opacity-80">{range}</span>
