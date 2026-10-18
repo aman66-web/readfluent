@@ -5,20 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/icon.svg" type="image/svg+xml" />
   <link rel="icon" href="/favicon.ico" sizes="any" />
-  <title>ReadFluent — Real books. Your level.</title>
-  <meta name="description" content="Learn a language by reading real books, retold at your level and the length you choose." />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <title>ReadFluent: learn a language by reading</title>
+  <meta name="description" content="ReadFluent teaches you a language by reading real books, retold at your level, one short page at a time. Tap any word to see what it means and save it as a flashcard." />
+  <meta property="og:title" content="ReadFluent: learn a language by reading" />
+  <meta property="og:description" content="Real books, retold at your level, one short page at a time." />
   <style>
-    body { margin: 0; background: #f6f1e7; color: #1d1a16; font: 16px/1.5 -apple-system, system-ui, sans-serif; }
-    main { max-width: 440px; margin: 0 auto; padding: 96px 24px; text-align: center; }
-    h1 { font-size: 34px; margin: 0 0 8px; letter-spacing: -0.02em; }
-    p { color: #5d564b; margin: 0 0 12px; }
+    :root { --ink: #04222b; --deep: #0e7490; --bright: #22d3ee; --soft: #ecfeff; --line: #d6eef3; --muted: #4b6670; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fff; color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+    a { color: var(--deep); }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: linear-gradient(160deg, #075e77, #0fa5c6 60%, #4fe3f7); color: #fff; padding: 56px 0 64px; text-align: center; }
+    header img { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 10px 28px rgba(4, 34, 43, .35); }
+    h1 { font-size: 38px; line-height: 1.12; letter-spacing: -0.02em; margin: 22px 0 10px; }
+    header p { margin: 0 auto; max-width: 30rem; font-size: 19px; opacity: .95; }
+    .cta { display: inline-block; margin-top: 28px; background: #fff; color: var(--ink); text-decoration: none; font-weight: 700; padding: 14px 28px; border-radius: 999px; }
+    section { padding: 40px 0 8px; }
+    h2 { font-size: 24px; letter-spacing: -0.01em; margin: 0 0 18px; }
+    .steps { display: grid; gap: 14px; padding: 0; margin: 0; list-style: none; }
+    .steps li { background: var(--soft); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; }
+    .steps strong { display: block; margin-bottom: 2px; }
+    p { margin: 0 0 14px; }
+    .muted { color: var(--muted); }
+    footer { margin-top: 40px; border-top: 1px solid var(--line); padding: 24px 0 48px; font-size: 15px; color: var(--muted); }
+    footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-bottom: 12px; font-weight: 600; }
   </style>
 </head>
 <body>
-  <main>
-    <h1>ReadFluent</h1>
-    <p>Real books. Your level.</p>
-    <p>Coming soon.</p>
+  <header>
+    <div class="wrap">
+      <img src="/icon-192.png" width="96" height="96" alt="ReadFluent app icon" />
+      <h1>Learn a language by reading</h1>
+      <p>ReadFluent turns real books into reading you can finish: retold at your level, one short page at a time.</p>
+      <a class="cta" href="/welcome">Open ReadFluent</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li><strong>Pick your level.</strong> From A1 (beginner) to C2 (advanced). Every book is retold for the level you choose.</li>
+        <li><strong>Read one page at a time.</strong> Each page is a picture and one to three sentences, so a few minutes a day is enough.</li>
+        <li><strong>Tap any word.</strong> See what it means in that sentence, hear it said aloud, and save it as a flashcard to practise later.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>What is inside</h2>
+      <p>Classic books retold for learners, and new stories written for them: mysteries, romance, adventure, science, self-help and more. Phrase decks, tests and level exams show how far you have come, and points, streaks and a weekly league with friends keep you going.</p>
+      <p>The whole app is available in 20 languages, and a book can open in the language you are learning.</p>
+      <p class="muted">An account is needed to read. You can sign in with Apple or Google.</p>
+    </section>
   </main>
+
+  <footer>
+    <div class="wrap">
+      <nav aria-label="ReadFluent information">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Use</a>
+        <a href="/support">Support</a>
+      </nav>
+      <div>ReadFluent is made by CLARIFO DEVELOPERS LTD.</div>
+    </div>
+  </footer>
 </body>
 </html>
