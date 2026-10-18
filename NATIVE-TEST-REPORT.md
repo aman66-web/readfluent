@@ -18,6 +18,7 @@
 ## Uploaded
 - 6 Oct 2026 03:31 (Mac time): ReadFluent 1.0, build 20261006, uploaded to App Store Connect (TestFlight) from the Release archive, signed under CLARIFO DEVELOPERS LTD (S7G6ZHHK59). Not submitted for review. The first upload attempt was refused by Apple (error 90158) for a placeholder Google URL scheme in `Info.plist`; removed, and the second upload succeeded.
 - 16 Oct 2026 01:52 (Mac time, GMT+7): ReadFluent 1.0, build 20261015, uploaded to App Store Connect (TestFlight) from the Release archive, signed under CLARIFO DEVELOPERS LTD (S7G6ZHHK59), built from commit f8e50aa plus the build-number change. Xcode reported "Upload succeeded". Not added for review and not submitted. Before archiving: typecheck clean; tests 1172 of 1173, the one failure being the local-only `identity.test.ts` described above.
+- 18 Oct 2026 13:37 (Mac time, GMT+7): ReadFluent 1.0, build 20261016, uploaded to App Store Connect (TestFlight) from the Release archive, signed under CLARIFO DEVELOPERS LTD (S7G6ZHHK59), built from commit aba3c14. Xcode reported "Upload succeeded". It replaces 20261015 because it carries the new open-book app icon. Not added for review and not submitted. Typecheck clean; tests 1172 of 1173, the one failure being the local-only `identity.test.ts` described above.
 - Apple's processing takes about 5 to 30 minutes; the build then appears under TestFlight as "Processing", then ready.
 
 ## Needs a real iPhone (the simulator cannot)
