@@ -4,7 +4,7 @@ import { APP_NAME, TAGLINE } from "@/lib/brand";
 /**
  * The installable app. Colours are the paper ground the app opens on
  * (app/globals.css --background). SVG icon for browsers that take it, PNGs for
- * the ones that do not; scripts/make-icons.sh regenerates every size.
+ * the ones that do not; scripts/make-icons.mjs regenerates every size.
  */
 export default function manifest(): MetadataRoute.Manifest {
   return {

@@ -176,6 +176,6 @@ public/         sw.js (the offline shell), icons — never content
 native-shell/   the one page Capacitor's webDir holds
 ios/ android/   the native projects
 supabase/       migrations and the plan-guard check
-scripts/        make-icons, check-native-bundle, prove-sql
+scripts/        make-icons (icons and splash), check-native-bundle, prove-sql
 tests/unit/     vitest
 ```

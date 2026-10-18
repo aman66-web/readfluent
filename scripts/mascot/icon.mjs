@@ -2,9 +2,12 @@
 // The app icon: Pluto waving, on a deep-to-bright cyan sky with a soft glow, an orbit ring and a few stars (owner, 4 Oct 2026:
 // "too bland, doesn't stand out, something with Pluto in"). Renders Pluto's head and waving arm from the 3D model at high
 // resolution, and writes public/icon.svg and public/icon-maskable.svg with the picture inside. Then run
-// ./scripts/make-icons.sh to make every PNG (web, iOS, Android) from them.
+// node scripts/make-icons.mjs to make every PNG (web, iOS, Android) from them.
 //
-//   node scripts/mascot/icon.mjs && ./scripts/make-icons.sh
+// NOT IN USE (owner, 18 Oct 2026: "I don't want it off the mascot"): the app icon is now an open book drawn straight
+// in public/icon.svg, icon-maskable.svg and icon-mark.svg. Running this script would overwrite those with Pluto again.
+//
+//   node scripts/mascot/icon.mjs && node scripts/make-icons.mjs
 import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
@@ -57,7 +60,7 @@ await browser.close();
 server.close();
 
 const sparkle = (x, y, r, o = 1) => `<path d="M${x} ${y - r}Q${x} ${y} ${x + r} ${y}Q${x} ${y} ${x} ${y + r}Q${x} ${y} ${x - r} ${y}Q${x} ${y} ${x} ${y - r}Z" fill="#fff" opacity="${o}"/>`;
-// Background lines each carry `<rect` so make-icons.sh can strip them to get the mark alone (the splash).
+// Background lines each carry `<rect` so the old make-icons script could strip them to get the mark alone (the splash).
 // The picture runs to the bottom edge, so the body is never cut short inside the icon.
 const svg = ({ img, at, size, ring }) => `<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="ReadFluent">
 <defs><linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#075E77"/><stop offset=".55" stop-color="#0FA5C6"/><stop offset="1" stop-color="#4FE3F7"/></linearGradient><radialGradient id="glow" cx=".5" cy=".46" r=".5"><stop offset="0" stop-color="#E9FDFF" stop-opacity=".75"/><stop offset=".55" stop-color="#9BEFFB" stop-opacity=".22"/><stop offset="1" stop-color="#9BEFFB" stop-opacity="0"/></radialGradient></defs>
@@ -72,6 +75,6 @@ const ringFull = `<ellipse cx="512" cy="600" rx="440" ry="130" transform="rotate
 const ringMask = `<ellipse cx="512" cy="590" rx="350" ry="104" transform="rotate(-14 512 590)" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="13"/>`;
 fs.writeFileSync(path.join(ROOT, "public/icon.svg"), svg({ img: head, at: [62, 1024 - 900], size: 900, ring: ringFull }));
 fs.writeFileSync(path.join(ROOT, "public/icon-maskable.svg"), svg({ img: wide, at: [102, 1024 - 820], size: 820, ring: ringMask }));
-// The whole of Pluto on nothing, for the splash screens and Android's adaptive icon (make-icons.sh centres it).
+// The whole of Pluto on nothing, for the splash screens and Android's adaptive icon (make-icons centres it).
 fs.writeFileSync(path.join(ROOT, "public/icon-mark.svg"), `<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><image href="${whole}" x="0" y="0" width="1024" height="1024"/></svg>\n`);
 console.log("wrote public/icon.svg and public/icon-maskable.svg", Math.round(head.length / 1024), "KB of picture each");

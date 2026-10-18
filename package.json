@@ -15,7 +15,7 @@
     "cap:sync:android": "cap sync android",
     "cap:open:android": "cap open android",
     "check:native": "node scripts/check-native-bundle.mjs",
-    "icons": "./scripts/make-icons.sh"
+    "icons": "node scripts/make-icons.mjs"
   },
   "dependencies": {
     "@capacitor-community/apple-sign-in": "^7.1.0",
