@@ -1,7 +1,7 @@
 "use client";
 
 import { createClient } from "@/lib/db/client";
-import { isNative, signInNative } from "@/lib/auth/native";
+import { googleAccountChoice, isNative, signInNative } from "@/lib/auth/native";
 import { callbackUrl } from "@/lib/auth/next";
 
 export type OAuthProvider = "google" | "apple";
@@ -48,7 +48,7 @@ export async function signInWith(provider: OAuthProvider, next: string): Promise
   if (isNative()) return signInNative(provider, next);
   const { error } = await createClient().auth.signInWithOAuth({
     provider,
-    options: { redirectTo: callbackUrl(window.location.origin, next) },
+    options: { redirectTo: callbackUrl(window.location.origin, next), ...googleAccountChoice(provider) },
   });
   return error ? error.message : null;
 }

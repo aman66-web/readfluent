@@ -167,12 +167,15 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
   const [failedReason, setFailedReason] = useState<string | null>(null);
   // A failed sign-in that came back to this screen (`error`) is said until the next try.
   const [tried, setTried] = useState(false);
-  const providers = oauthProviders();
+  const allProviders = oauthProviders();
   // In the store apps the emailed sign-in is held back until it has its own mail sender (DECISIONS.md):
   // the built-in one sends a few links an hour, so a reviewer could meet a sign-in that never arrives.
   const native = useOnDevice(isNative, false);
   const [emailAsked, setEmailAsked] = useState(false);
   // Still one tap away, behind a link: a store reviewer's password sign-in lives in the email form.
+  // Google is not offered inside the phone app for now: its sign-in opens the browser, with Supabase's address on the
+  // page (owner, 25 Oct 2026, to be added back in a later update). Apple stays. The website keeps Google.
+  const providers = native ? allProviders.filter((p) => p !== "google") : allProviders;
   const email = !native || providers.length === 0 || emailAsked;
   const available = accountAvailable();
   // Google's sheet is got ready while this screen is being read.

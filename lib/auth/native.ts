@@ -51,6 +51,14 @@ export const nativeCallbackUrl = (next: string): string =>
  * when the browser is closed without signing in, or the reason when the
  * provider sends somebody back with an error instead of a code.
  */
+/**
+ * Google signs somebody straight in with the one Google account already on the phone or browser, without asking which
+ * account to use. Asking Google to show its account choice every time (prompt=select_account) makes that a choice.
+ */
+export function googleAccountChoice(provider: OAuthProvider): { queryParams?: Record<string, string> } {
+  return provider === "google" ? { queryParams: { prompt: "select_account" } } : {};
+}
+
 export async function signInNative(provider: OAuthProvider, next: string): Promise<string | null> {
   if (provider === "apple" && appleSheetAvailable()) return signInWithAppleSheet();
   if (provider === "google" && googleSheetAvailable()) return signInWithGoogleSheet();
@@ -61,7 +69,7 @@ export async function signInNative(provider: OAuthProvider, next: string): Promi
     // OWN WebView to Google — precisely the embedded-WebView case this
     // whole file exists to avoid. This flag asks for the URL back instead,
     // so it can be opened in Browser.open below.
-    options: { redirectTo: nativeCallbackUrl(next), skipBrowserRedirect: true },
+    options: { redirectTo: nativeCallbackUrl(next), skipBrowserRedirect: true, ...googleAccountChoice(provider) },
   });
   if (error) return error.message || "no OAuth url";
   // Supabase always returns a url alongside a null error; a missing one is
