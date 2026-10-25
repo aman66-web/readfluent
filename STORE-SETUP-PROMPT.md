@@ -122,7 +122,7 @@ PHASE 3 - App Store Connect (appstoreconnect.apple.com -> Apps). Create the reco
       - The whole app in 20 languages
       - Books open in the language you are learning using your iPhone's own translator (iOS 18 or later)
 
-      An account is needed to read: sign in with Apple or Google in a few seconds.
+      An account is needed to read: sign in with Apple in a few seconds.
 
       FREE AND PRO
       ReadFluent is free to download, and a free account can read any 2 books in full. ReadFluent Pro opens every
