@@ -38,6 +38,18 @@ export function stepIndex(param: string | null | undefined): number {
   return i >= 0 ? i : 0;
 }
 
+/**
+ * The step after `i` when the reader presses Continue. Two rules skip a step:
+ * "home" (add me to your home screen) is for a web visitor, not the installed app; and once somebody has signed
+ * in early, the sign-in step is not shown again: the questions carry on to the tour's interests.
+ */
+export function nextStepAfter(i: number, native: boolean, signedEarly: boolean): number {
+  let to = i + 1;
+  if (STEP_IDS[to] === "home" && native) to += 1;
+  if (STEP_IDS[to] === "account" && signedEarly) to = STEP_IDS.indexOf("interests");
+  return to;
+}
+
 /** Where the run goes when it ends: the library, which is the front door. */
 export const AFTER_ONBOARDING = "/";
 

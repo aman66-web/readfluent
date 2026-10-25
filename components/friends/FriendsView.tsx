@@ -59,7 +59,10 @@ function useSocial(signedIn: boolean) {
     (async () => {
       try {
         const mine = await syncProfile(profilePayload(parseLedger(readRaw(LEDGER_KEY)), a.name, new Date()));
-        const [f, u, week, month] = await Promise.all([myFriends(), myUsername(), myBoard("week"), myBoard("month")]);
+        // The two boards one after the other: on a first visit they both join this month's league, and running them
+        // side by side let the second clash with the first (duplicate key), shown as "Something went wrong".
+        const boards = (async () => [await myBoard("week"), await myBoard("month")] as const)();
+        const [f, u, [week, month]] = await Promise.all([myFriends(), myUsername(), boards]);
         if (!live) return;
         setCode(mine); setName(u); setFriends(f); setBoards({ week, month });
         saveSocial({ friendCode: mine, friends: f.filter((r) => r.relation === "friend").length, syncedAt: Date.now() });

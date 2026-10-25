@@ -15,7 +15,7 @@ import {
 } from "@/lib/onboarding/answers";
 import { DEFAULT_MINUTES } from "@/lib/onboarding/firstrun";
 import { reportFirstRun } from "@/lib/onboarding/report";
-import { AFTER_ONBOARDING, PLACEMENT_PATH, STEP_IDS, isInterlude, isShowStep, stepIndex } from "@/lib/onboarding/steps";
+import { AFTER_ONBOARDING, PLACEMENT_PATH, STEP_IDS, isInterlude, isShowStep, nextStepAfter, stepIndex } from "@/lib/onboarding/steps";
 import { readRaw, subscribeTo } from "@/lib/store/local";
 import { setGates, startAt } from "@/lib/xp/ledger";
 
@@ -126,8 +126,8 @@ export function Welcome({ initialStep, authError, built, signedIn, onboarded }: 
       return;
     }
     if (step === "home" && signedEarly.current) { go(STEP_IDS.indexOf("interests"), mode); return; }
-    // "Add me to your home screen" is for a web visitor: inside the installed app there is nothing to add, so it is not shown.
-    go(STEP_IDS[i + 1] === "home" && onNativeShell() ? i + 2 : i + 1, mode);
+    // Skips "add me to your home screen" inside the installed app, and the sign-in again once somebody has signed in early.
+    go(nextStepAfter(i, onNativeShell(), signedEarly.current), mode);
   };
   const back = () => {
     if (settling()) return;

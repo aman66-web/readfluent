@@ -36,11 +36,20 @@ export async function myLeague(): Promise<League | null> { return parseLeague(aw
 
 /** Whether the database has not got a function yet (a migration still to be run): the screens then do without it. */
 const missing = (e: unknown): boolean => e instanceof Error && /my_board|set_username|my_username|function .* does not exist|PGRST202|schema cache/i.test(e.message);
+/** A duplicate-key clash between two calls at once (see myBoard): the row is there now, so the call can simply be made again. */
+const racing = (e: unknown): boolean => e instanceof Error && /duplicate key/i.test(e.message);
 
 /** The league's standings this week or this month (0007). Before 0007 is run, the month comes from my_league() and the week is the reader's alone. */
 export async function myBoard(kind: Period): Promise<League | null> {
-  try { return parseLeague(await rpc("my_board", { p_period: kind })); }
-  catch (e) {
+  try {
+    try { return parseLeague(await rpc("my_board", { p_period: kind })); }
+    catch (e) {
+      // Two calls at once (the week and the month on a reader's first visit) can both try to join this month's league:
+      // the second finds the row there already and is asked again.
+      if (!racing(e)) throw e;
+      return parseLeague(await rpc("my_board", { p_period: kind }));
+    }
+  } catch (e) {
     if (!missing(e)) throw e;
     return kind === "month" ? myLeague() : null;
   }

@@ -7,7 +7,8 @@ describe("found by walking the app on an iPhone simulator (6 Oct 2026)", () => {
   it("does not ask the installed app to be added to the home screen", () => {
     // The step is for a web visitor; inside the app (Capacitor) the first run goes from the promise straight to the sign-in.
     const welcome = read("components/welcome/Welcome.tsx");
-    expect(welcome).toContain('STEP_IDS[i + 1] === "home" && onNativeShell() ? i + 2 : i + 1');
+    // The skip itself is nextStepAfter (tests/unit/after-sign-in.test.ts), which Welcome calls with the phone check.
+    expect(welcome).toContain("nextStepAfter(i, onNativeShell(), signedEarly.current)");
   });
 
   it("gives the reader's 'download the language' screen a way out", () => {
