@@ -163,6 +163,8 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
   const t = useT();
   const [busy, setBusy] = useState<OAuthProvider | null>(null);
   const [failed, setFailed] = useState<OAuthProvider | null>(null);
+  // The service's own reason for the failure, shown under the message while the sign-in is being fixed.
+  const [failedReason, setFailedReason] = useState<string | null>(null);
   // A failed sign-in that came back to this screen (`error`) is said until the next try.
   const [tried, setTried] = useState(false);
   const providers = oauthProviders();
@@ -180,12 +182,14 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
     if (busy) return;
     setBusy(provider);
     setFailed(null);
+    setFailedReason(null);
     setTried(true);
     // Whatever went wrong is written to the console in full for whoever is looking into it; the reader
     // is told plainly, in their own language, under the buttons, and can simply try again.
     const fail = (reason: unknown) => {
       console.warn(`[sign-in] ${provider} failed:`, reason);
       setFailed(provider);
+      setFailedReason(typeof reason === "string" ? reason : String(reason));
       setBusy(null);
     };
     try {
@@ -220,6 +224,7 @@ export function SignIn({ error, onNext, next = AFTER_SIGN_IN }: { error: boolean
       {(failed || (error && !tried)) && (
         <p role="alert" className="wel-in rounded-2xl bg-red-50 px-4 py-3 text-center text-[13px] font-medium leading-snug text-error">
           {failed === "apple" ? t("account.failedApple") : failed === "google" ? t("account.failedGoogle") : t("account.failed")}
+          {failed && failedReason && <span className="mt-1.5 block break-words text-[11.5px] font-normal opacity-80">Reason: {failedReason}</span>}
         </p>
       )}
       {providers.length > 0 && email && (

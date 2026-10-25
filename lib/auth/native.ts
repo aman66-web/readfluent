@@ -221,7 +221,7 @@ async function signInWithAppleSheet(): Promise<string | null> {
   }
   if (!token) return "apple sheet: no identity token";
   const { error } = await withTimeout(createClient().auth.signInWithIdToken({ provider: "apple", token, nonce: raw }));
-  if (error) return `apple: ${error.message || "rejected"}`;
+  if (error) return `apple: ${describeAuthError(error)}`;
   return SIGNED_IN;
 }
 
@@ -243,6 +243,17 @@ function reasonOf(e: unknown): string {
   if (typeof e === "string") return e || "unknown";
   const message = typeof e === "object" && e !== null ? (e as { message?: unknown }).message : undefined;
   return typeof message === "string" && message ? message : String(e);
+}
+
+/**
+ * A sign-in service's refusal in full: its words, plus the code and HTTP status it gives back (for example
+ * "provider_disabled" or "bad_jwt"), so a failure says what it was, not only that it failed.
+ */
+function describeAuthError(e: unknown): string {
+  const { message, code, status } = (typeof e === "object" && e !== null ? e : {}) as { message?: unknown; code?: unknown; status?: unknown };
+  const words = typeof message === "string" && message ? message : "rejected";
+  const detail = [typeof code === "string" && code ? `code ${code}` : null, typeof status === "number" ? `HTTP ${status}` : null].filter(Boolean).join(", ");
+  return detail ? `${words} (${detail})` : words;
 }
 
 /**
@@ -320,7 +331,7 @@ async function signInWithGoogleSheet(): Promise<string | null> {
     token,
     ...(tokenHasNonce(token) ? { nonce: raw } : {}),
   }));
-  if (error) return `google: ${error.message || "rejected"}`;
+  if (error) return `google: ${describeAuthError(error)}`;
   return SIGNED_IN;
 }
 
